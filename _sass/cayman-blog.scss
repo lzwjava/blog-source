@@ -1,0 +1,7 @@
+.main-content {
+
+  @include large {
+    max-width: 52rem;
+  }
+
+}
