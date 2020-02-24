@@ -5,3 +5,10 @@
   }
 
 }
+
+.btn {
+  @include small {
+    display: inline-block;
+    width: 30%;
+  }
+}
