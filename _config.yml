@@ -1,11 +1,9 @@
 title: 李智维
 email: lzwjava@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  追求自由
+  唯真不破
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lzwjava.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: lzwjava
-github_username:  lzwjava
 
 theme: jekyll-theme-cayman
 
