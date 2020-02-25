@@ -4,9 +4,9 @@ layout: page
 
 <ul class="post-list">
   {% for post in site.posts %}
-    <li>      
+    <li class="post-item">      
       <a href="{{ post.url }}">        
-        <h3 class="title">{{ post.title }}</h3>
+        <h4 class="title">{{ post.title }}</h4>
       </a>
       <span class="date">{{ post.date | date: "%Y.%m.%d"}}</span>
     </li>

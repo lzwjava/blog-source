@@ -14,13 +14,32 @@
 }
 
 .post-list {
-  .title {
-    display: inline-block;
-  }
+  .post-item {    
+    margin-bottom: 1rem;
 
-  .date {
-    // float: right;
-    margin-left: 0.5rem;
-    font-size: small;
+    .title {
+      display: inline-block;
+      margin-bottom: 0rem;
+    }
+  
+    .date {
+      // float: right;
+      margin-left: 0.5rem;
+      font-size: small;
+    }
   }
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 20px;
+}
+
+ul li::before {
+  content: "\2022"; 
+  color: $section-headings-color; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 0.5em; 
+  margin-left: -1em; 
 }
