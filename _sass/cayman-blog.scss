@@ -12,3 +12,15 @@
     width: 30%;
   }
 }
+
+.post-list {
+  .title {
+    display: inline-block;
+  }
+
+  .date {
+    // float: right;
+    margin-left: 0.5rem;
+    font-size: small;
+  }
+}
