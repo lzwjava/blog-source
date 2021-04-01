@@ -9,13 +9,8 @@ posts_dir = File.join(target, '_posts', project)
 img_dir = File.join(target, 'assets', 'images', project)
 img_url_base = "/assets/images/#{project}"
 
-if !Dir.exists?(posts_dir)
-    Dir.mkdir(posts_dir)
-end
-
-if !Dir.exists?(img_dir)
-    Dir.mkdir(img_dir)
-end
+SyncUtils.mkdir!(posts_dir)
+SyncUtils.mkdir!(img_dir)
 
 Dir.each_child(base) { |x|
     if File.extname(x) == '.md'
