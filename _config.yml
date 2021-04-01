@@ -5,6 +5,28 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lzwjava.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+# seo begin
+tagline: 创业、编程、学习心得记录
+description: 创业、编程、学习心得记录
+
+author:
+  name: 李智维
+  twitter: lzwjava
+
+twitter:
+  username: lzwjava
+  card: summary_large_image  
+
+social:
+  name: 李智维
+  links:
+    - https://twitter.com/lzwjava
+    - https://weibo.com/zhiweilee
+    - https://github.com/lzwjava
+    - https://www.zhihu.com/people/lzwjava    
+
+# seo end
+  
 theme: jekyll-theme-cayman
 
 google_analytics: 'UA-66656236-1'
