@@ -16,7 +16,7 @@ class SyncUtils
         return title.strip        
     end
 
-    def post_front(title)
+    def self.post_front(title)
         return "---\n" \
         "layout: post\n" \
         "title:  \"#{title}\"\n" \
