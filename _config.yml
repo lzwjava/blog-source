@@ -35,3 +35,9 @@ permalink: /:title
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+
+exclude:
+  - sync_*
+  - Gemfile
+  - Gemfile.lock
+  - README.md
