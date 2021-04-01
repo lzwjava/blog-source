@@ -3,7 +3,7 @@ email: lzwjava@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   唯真不破
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lzwjava.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lzwjava.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 theme: jekyll-theme-cayman
 
