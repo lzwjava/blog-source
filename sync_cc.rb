@@ -6,13 +6,15 @@ target = Dir.pwd
 posts_dir = File.join(target, '_posts', 'cc')
 img_dir = File.join(target, 'assets', 'images', 'cc')
 
-if !Dir.exists?(posts_dir)
-    Dir.mkdir(posts_dir)
+def mkdir!(dir)
+    if Dir.exists?(dir)
+        FileUtils.rm_r(dir)
+    end
+    Dir.mkdir(dir)
 end
 
-if !Dir.exists?(img_dir)
-    Dir.mkdir(img_dir)
-end
+mkdir!(posts_dir)
+mkdir!(img_dir)
 
 dirs = Dir.glob(base + '/**').select { |x|
     File.directory? x
