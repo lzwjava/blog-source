@@ -19,18 +19,9 @@ Dir.each_child(base) { |x|
         if content.length == 0
             next
         end
-        title = content.lines.first
-        if title.include? '##'
-            title = title[title.index('##') + 2..-1]
-        elsif title.include? '#'
-            title = title[title.index('#') + 1..-1]
-        end
-        title = title.strip
+        title = SyncUtils.extract_title(content)
 
-        front = "---\n" \
-              "layout: post\n" \
-              "title:  \"#{title}\"\n" \
-              "---\n"
+        front = SyncUtils.post_front(title)        
 
         content = content.lines[1..-1].join
 

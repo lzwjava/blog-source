@@ -24,20 +24,11 @@ for dir in dirs
             if content.length == 0
                 next
             end
-            title = content.lines.first
-            if title.include? '##'
-                title = title[title.index('##') + 2..-1]
-            elsif title.include? '#'
-                title = title[title.index('#') + 1..-1]
-            end
-            title = title.strip
 
-            front = "---\n" \
-                  "layout: post\n" \
-                  "title:  \"#{title}\"\n" \
-                  "---\n"
+            title = SyncUtils.extract_title(content)
 
-            # remove first line
+            front = SyncUtils.post_front(title)
+            
             content = content.lines[1..-1].join
 
             content = front + content

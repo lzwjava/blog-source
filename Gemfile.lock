@@ -260,7 +260,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (~> 214)
+  github-pages
   jekyll-seo-tag
   jekyll-sitemap
   webrick (~> 1.7)
