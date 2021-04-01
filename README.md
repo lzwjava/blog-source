@@ -3,6 +3,8 @@
 GitHub Pages
 
 ```shell
+bundle install
+
 bundle exec jekyll serve
 ```
 
