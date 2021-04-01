@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lzwjava.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # seo begin
-tagline: 创业、编程、学习心得记录
+tagline: 自由 真理 爱
 
 author:
   name: 李智维
