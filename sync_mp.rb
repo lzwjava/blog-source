@@ -1,0 +1,59 @@
+require 'pathname'
+require 'fileutils'
+
+base = '/Users/lzw/ideas/my-essays/blog'
+target = Dir.pwd
+project = 'mp'
+posts_dir = File.join(target, '_posts', project)
+img_dir = File.join(target, 'assets', 'images', project)
+img_url_base = "/assets/images/#{project}"
+
+if !Dir.exists?(posts_dir)
+    Dir.mkdir(posts_dir)
+end
+
+if !Dir.exists?(img_dir)
+    Dir.mkdir(img_dir)
+end
+
+Dir.each_child(base) { |x|
+    if File.extname(x) == '.md'
+        mdfile = File.join(base, x)
+        content = File.read(mdfile)
+        if content.length == 0
+            next
+        end
+        title = content.lines.first
+        if title.include? '##'
+            title = title[title.index('##') + 2..-1]
+        elsif title.include? '#'
+            title = title[title.index('#') + 1..-1]
+        end
+        title = title.strip
+
+        front = "---\n" \
+              "layout: post\n" \
+              "title:  \"#{title}\"\n" \
+              "---\n"
+
+        content = content.lines[1..-1].join
+
+        content = front + content
+
+        file_name = x
+
+        target_file = File.join(posts_dir, file_name)
+
+        origin_img_dir = File.join(base, 'img')
+        if Dir.exists?(origin_img_dir)
+
+            FileUtils.cp_r(origin_img_dir + '/.', img_dir)
+        end
+
+        img_path = "#{img_url_base}/"
+
+        content = content.gsub('./img/', img_path)
+
+        File.write(target_file, content)
+    end
+}

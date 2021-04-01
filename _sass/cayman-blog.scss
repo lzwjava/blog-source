@@ -38,7 +38,8 @@
     margin-bottom: 1rem;
 
     .title {
-      display: inline;
+      display: inline-block;
+      max-width: 30rem;      
     }
   
     .date {
