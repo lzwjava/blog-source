@@ -12,5 +12,9 @@ cd myblog
 bundle install
 
 bundle exec jekyll serve
+
+bundle add webrick
+
+jekyll serve
 ```
 
