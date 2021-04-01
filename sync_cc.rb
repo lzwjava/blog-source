@@ -42,7 +42,7 @@ for dir in dirs
 
             content = front + content
 
-            ctime = File.ctime(mdfile)
+            ctime = File.birthtime(mdfile)
             date = ctime.strftime '%Y-%m-%d'
             file_name = date + '-' + x
 
