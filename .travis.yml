@@ -1,0 +1,37 @@
+language: node_js
+node_js:
+  - '10.16.0'
+
+# Travis-CI Caching
+cache:
+  directories:
+    - node_modules
+    - tools
+
+before_install:
+  - npm install
+  - cd ./tools
+  - wget -nc https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/ossutil64
+  - chmod 755 ossutil64
+  - ./ossutil64 config -e "${OSS_ENDPOINT}" -i "${OSS_AKI}" -k "${OSS_AKS}"
+  - cd ../node_modules/hexo/lib/plugins/helper
+  - wget -N https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/list_categories.js
+  - wget -N https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/list_tags.js
+  - wget -N https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/paginator.js
+  - wget -N https://liuhu-img.oss-cn-hongkong.aliyuncs.com/common/deploy/tagcloud.js
+  - cd -
+  - cd ..
+
+script:
+  - hexo clean
+  - hexo generate
+
+after_success:
+  - cd ./public
+  - zip -r blog.zip ./*
+  - ../tools/ossutil64 rm oss://liuhu-blog/ -r -f
+  - ../tools/ossutil64 cp -f blog.zip oss://liuhu-blog/
+
+env:
+ global:
+   - GH_REF: github.com/liuhu/liuhu.github.io.git
