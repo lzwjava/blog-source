@@ -1,5 +1,6 @@
 require 'pathname'
 require 'fileutils'
+require './sync_utils.rb'
 
 base = '/Users/lzw/ideas/my-essays/blog'
 target = Dir.pwd

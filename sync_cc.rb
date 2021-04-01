@@ -1,20 +1,14 @@
 require 'pathname'
 require 'fileutils'
+require './sync_utils.rb'
 
 base = '/Users/lzw/curiosity-courses'
 target = Dir.pwd
 posts_dir = File.join(target, '_posts', 'cc')
 img_dir = File.join(target, 'assets', 'images', 'cc')
 
-def mkdir!(dir)
-    if Dir.exists?(dir)
-        FileUtils.rm_r(dir)
-    end
-    Dir.mkdir(dir)
-end
-
-mkdir!(posts_dir)
-mkdir!(img_dir)
+SyncUtils.mkdir!(posts_dir)
+SyncUtils.mkdir!(img_dir)
 
 dirs = Dir.glob(base + '/**').select { |x|
     File.directory? x
