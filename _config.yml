@@ -8,3 +8,6 @@ url: "https://lzwjava.com" # the base hostname & protocol for your site, e.g. ht
 theme: jekyll-theme-cayman
 
 google_analytics: 'UA-66656236-1'
+
+plugins:
+  - jekyll-sitemap
