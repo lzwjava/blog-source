@@ -1,0 +1,83 @@
+.main-content {
+
+  @include large {
+    max-width: 52rem;
+  }
+
+  // img {
+  //   display: block;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  // }
+
+}
+
+.circular-image {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: transparent;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.circular-image img{
+  width:100%;
+}
+
+.btn {
+  @include small {
+    display: inline-block;
+    width: 30%;
+  }
+}
+
+.post-list {
+  .post-item {    
+
+    .title {
+      display: inline-block;
+      max-width: 30rem;      
+    }
+  
+    .date {
+      // float: right;
+      font-size: small;
+    }
+  }
+}
+
+ul.post-list {
+  list-style: none;
+  padding-inline-start: 20px;
+}
+
+ul.post-list li::before {
+  content: "\2022"; 
+  color: $section-headings-color; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 0.5em; 
+  margin-left: -1em; 
+}
+
+.main-content {
+  color: #4a4a4a;
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+}
+
+body {
+  font-family: "PingFangSC-Regular", "Microsoft YaHei", sans-serif;
+  line-height: 1.8;
+}
+
+.site-footer {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 0rem;
+}

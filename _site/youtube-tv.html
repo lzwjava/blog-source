@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66656236-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-66656236-1');
+      </script>
+    
+    <meta charset="UTF-8">
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>如何在电视上看 Youtube | 李智维</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="如何在电视上看 Youtube" />
+<meta name="author" content="李智维" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="这里假设我们知道如何科学上网，那如何在电视上看Youtube呢。刷路由有点麻烦。这里借助一个应用。" />
+<meta property="og:description" content="这里假设我们知道如何科学上网，那如何在电视上看Youtube呢。刷路由有点麻烦。这里借助一个应用。" />
+<link rel="canonical" href="http://localhost:4000/youtube-tv" />
+<meta property="og:url" content="http://localhost:4000/youtube-tv" />
+<meta property="og:site_name" content="李智维" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-04-01T00:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="如何在电视上看 Youtube" />
+<meta name="twitter:site" content="@lzwjava" />
+<meta name="twitter:creator" content="@lzwjava" />
+<script type="application/ld+json">
+{"description":"这里假设我们知道如何科学上网，那如何在电视上看Youtube呢。刷路由有点麻烦。这里借助一个应用。","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/youtube-tv"},"url":"http://localhost:4000/youtube-tv","author":{"@type":"Person","name":"李智维"},"headline":"如何在电视上看 Youtube","dateModified":"2021-04-01T00:00:00+08:00","datePublished":"2021-04-01T00:00:00+08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=58e34f3c3bb7ac6d5ca62762070f3b7ef0365ff7">
+
+  </head>
+  <body>
+    <main id="content" class="main-content" role="main">
+
+  <h1>如何在电视上看 Youtube</h1>
+
+  <hr>
+
+  <p>这里假设我们知道如何科学上网，那如何在电视上看Youtube呢。刷路由有点麻烦。这里借助一个应用。</p>
+
+<h2 id="smartyoutubetv">SmartYoutubeTV</h2>
+
+<p><img src="/assets/images/cc/youtube-tv/smart.png" alt="smart" />把它下载下来。用U盘安装到电视上。</p>
+
+<p><img src="/assets/images/cc/youtube-tv/clash.png" alt="clash" /></p>
+
+<p>接下来在科学上网应用客户端上选上，<code class="language-plaintext highlighter-rouge">Allow connnect from Lan</code>。意思是支持局域网其它设备连接我们这台设备来上网。</p>
+
+<p>接着在<code class="language-plaintext highlighter-rouge">SmartYoutubeTV</code>的设置选项，设置上端口就行了。</p>
+
+<p><img src="/assets/images/cc/youtube-tv/proxy1.jpeg" alt="proxy1" /></p>
+
+<p>设置完后。点击<code class="language-plaintext highlighter-rouge">测试</code>按钮试试看。注意到我这里用了<code class="language-plaintext highlighter-rouge">SOCKS</code>类型的代理。用<code class="language-plaintext highlighter-rouge">HTTP</code>的试过几次没成功。测试成功后，点击确定，然后测试看看。其次，你那里不一定设置成<code class="language-plaintext highlighter-rouge">192.168.1.3</code>，得看你电脑局域网地址是什么。</p>
+
+<p>这样就看上了，很方便。</p>
+
+<p><img src="/assets/images/cc/youtube-tv/tan.jpeg" alt="tan" /></p>
+
+<h2 id="gfreezyseeker">gfreezy/seeker</h2>
+
+<p>这是一个 GitHub 项目。项目主页有使用说明。这里主要补充一些额外的要点。</p>
+
+<p><img src="/assets/images/cc/youtube-tv/seeker.png" alt="seeker" /></p>
+
+<p>它通过使用 tun 来实现透明代理。实现了类似 surge 增强模式与网关模式。</p>
+
+<p>一开始我就用<code class="language-plaintext highlighter-rouge">seeker</code>来把我电脑变成科学上网路由器。这里说说我的配置：</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">verbose</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">dns_start_ip</span><span class="pi">:</span> <span class="s">10.0.0.10</span>
+<span class="na">dns_servers</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">223.5.5.5:53</span>
+  <span class="pi">-</span> <span class="s">114.114.114.114:53</span>  
+<span class="na">dns_timeout</span><span class="pi">:</span> <span class="s">1s</span>
+<span class="na">tun_name</span><span class="pi">:</span> <span class="s">utun4</span>
+<span class="na">tun_ip</span><span class="pi">:</span> <span class="s">10.0.0.1</span>
+<span class="na">tun_cidr</span><span class="pi">:</span> <span class="s">10.0.0.0/16</span>
+<span class="na">dns_listen</span><span class="pi">:</span> <span class="s">0.0.0.0:53</span>
+<span class="na">gateway_mode</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">ping_timeout</span><span class="pi">:</span> <span class="s">2s</span>
+<span class="na">probe_timeout</span><span class="pi">:</span> <span class="s">30ms</span>
+<span class="na">connect_timeout</span><span class="pi">:</span> <span class="s">1s</span>
+<span class="na">read_timeout</span><span class="pi">:</span> <span class="s">30s</span>
+<span class="na">write_timeout</span><span class="pi">:</span> <span class="s">5s</span>
+<span class="na">max_connect_errors</span><span class="pi">:</span> <span class="s">2</span> 
+
+<span class="na">servers</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">http proxy server</span>
+    <span class="na">addr</span><span class="pi">:</span> <span class="s">0.0.0.0:7890</span>
+    <span class="na">protocol</span><span class="pi">:</span> <span class="s">Http</span>
+
+  <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">https proxy server</span>
+    <span class="na">addr</span><span class="pi">:</span> <span class="s">0.0.0.0:7890</span>
+    <span class="na">protocol</span><span class="pi">:</span> <span class="s">Https</span>
+
+<span class="na">rules</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s1">'</span><span class="s">MATCH,PROXY'</span>
+</code></pre></div></div>
+
+<p>一开始我用的是 <code class="language-plaintext highlighter-rouge">socks5</code>代理。把配置写成这样：</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">servers</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">socks5 proxy server</span>
+    <span class="na">addr</span><span class="pi">:</span> <span class="s">0.0.0.0:7891</span>
+    <span class="na">protocol</span><span class="pi">:</span> <span class="s">Socks5</span>
+</code></pre></div></div>
+
+<p>然而有挺多问题。经常连接不上。文档有这么一段话：</p>
+
+<blockquote>
+  <p>使用 socks5 代理的时候，需要将所有直连的域名设置在配置文件里面，如果使用 ss 或者 vmess 之类的，需要将 ss 或 vmess server 的域名也加入配置文件。否则有可能会导致死循环，没法正常使用。</p>
+</blockquote>
+
+<p>可能是这个原因。</p>
+
+<p>用<code class="language-plaintext highlighter-rouge">seeker</code>，意味着需要有台电脑运行着它，把它当做路由器来用。而用<code class="language-plaintext highlighter-rouge">proxy</code>配置的方式，则灵活很多。我可以用iPhone或Android手机来分享代理端口。</p>
+
+<h2 id="电视截图">电视截图</h2>
+
+<p>在写这篇文章时，琢磨了如何在电视上截图。我家用的是小米电视。可以在遥控器上连按两下<code class="language-plaintext highlighter-rouge">Home</code>健，唤出应用管理菜单。</p>
+
+<p><img src="/assets/images/cc/youtube-tv/tv_screen.jpeg" alt="tv_screen" /></p>
+
+<p>看到截图按钮了吗。接着还可以很方便分享给微信。这里还可以把应用程序都关掉。有些应用卡掉的话，则可以这样处理。</p>
+
+<p>好了。让我们用大屏电视来看世界吧。</p>
+
+
+  <hr>
+
+  <a href="/"><h4>返回</h4></a>
+</main>
+       
+  </body>
+
+</html>

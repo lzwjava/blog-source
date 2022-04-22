@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66656236-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-66656236-1');
+      </script>
+    
+    <meta charset="UTF-8">
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>试用 C 编程 | 李智维</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="试用 C 编程" />
+<meta name="author" content="李智维" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="C语言是一门古老的编程语言。第一次发布是在1972年。然而它在计算机的发展中影响深远。也来学学如何用C来编程。" />
+<meta property="og:description" content="C语言是一门古老的编程语言。第一次发布是在1972年。然而它在计算机的发展中影响深远。也来学学如何用C来编程。" />
+<link rel="canonical" href="http://localhost:4000/c" />
+<meta property="og:url" content="http://localhost:4000/c" />
+<meta property="og:site_name" content="李智维" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-03-06T00:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="试用 C 编程" />
+<meta name="twitter:site" content="@lzwjava" />
+<meta name="twitter:creator" content="@lzwjava" />
+<script type="application/ld+json">
+{"description":"C语言是一门古老的编程语言。第一次发布是在1972年。然而它在计算机的发展中影响深远。也来学学如何用C来编程。","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/c"},"url":"http://localhost:4000/c","author":{"@type":"Person","name":"李智维"},"headline":"试用 C 编程","dateModified":"2021-03-06T00:00:00+08:00","datePublished":"2021-03-06T00:00:00+08:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=58e34f3c3bb7ac6d5ca62762070f3b7ef0365ff7">
+
+  </head>
+  <body>
+    <main id="content" class="main-content" role="main">
+
+  <h1>试用 C 编程</h1>
+
+  <hr>
+
+  <p>C语言是一门古老的编程语言。第一次发布是在1972年。然而它在计算机的发展中影响深远。也来学学如何用C来编程。</p>
+
+<p>通常平台自带C语言的编译器。</p>
+
+<p>让我们在网上找一段C语言的代码。</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;stdio.h&gt;
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>    
+<span class="p">{</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"Hello, world!</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>这表示什么意思呢。<code class="language-plaintext highlighter-rouge">#include &lt;stdio.h&gt;</code>表示引用一个头文件，头文件名字叫<code class="language-plaintext highlighter-rouge">stdio.h</code>。里面有很多的函数。stdio的意思是 <code class="language-plaintext highlighter-rouge">standard input output</code>， 即是标准输入输出。我们希望用这个依赖库所提供的函数来打印一些东西。实际上也许是不需要这个的。不妨改改代码。</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>    
+<span class="p">{</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>这是C语言的函数定义方式。这定义了一个函数。int来表明返回值的类型。<code class="language-plaintext highlighter-rouge">return 0;</code>来把0作为值返回给这个函数。这个函数名叫 <code class="language-plaintext highlighter-rouge">main</code>。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gcc hello.c
+
+<span class="nv">$ </span><span class="nb">ls
+</span>a.out	c.md	hello.c
+</code></pre></div></div>
+
+<p>输出了这个文件。就是说gcc编译器，将<code class="language-plaintext highlighter-rouge">hello.c</code>变成了<code class="language-plaintext highlighter-rouge">a.out</code>。<code class="language-plaintext highlighter-rouge">gcc</code>是C语言的编译器。还记得我们在「解谜计算机科学」上说的吗。这就是gcc将我们的程序转换成一系列更简单的操作，或转换成可被计算机执行的一系列命令。</p>
+
+<p>试着把 <code class="language-plaintext highlighter-rouge">a.out</code>打印出来。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cat </span>a.out
+������ H__PAGEZERO�__TEXT@@__text__TEXT�?�?�__unwind_info__TEXT�?H�?H__LINKEDIT@@@�<span class="s2">"�0@08@h@0
+                                                                                             P
+                                                                                               /usr/lib/dyld8A&lt;P�8���m��2
+
+                                                                                                                          a*(��?
+                                                                                                                                8
+                                                                                                                                 /usr/lib/libSystem.B.dylib&amp;0)8@UH��1��E�]Ð�?44�?4
+                        __mh_execute_header!main%���? __mh_execute_header_maindyld_stub_binder
+</span></code></pre></div></div>
+
+<p>这是什么东西。不知道。但它告诉我们一些东西。可见<code class="language-plaintext highlighter-rouge">/usr/lib/libSystem.B.dylib</code>是系统的一个文件。<code class="language-plaintext highlighter-rouge">__mh_execute_header_maindyld_stub_binder</code>或许是这个文件的一个函数。<code class="language-plaintext highlighter-rouge">__mh_execute_header!main</code>中，出现了<code class="language-plaintext highlighter-rouge">main</code>。说明什么。说明这个文件是在调用系统的文件来执行上面写的main函数。</p>
+
+<p>能不能运行呢。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>a.out
+<span class="nt">-bash</span>: a.out: <span class="nb">command </span>not found
+</code></pre></div></div>
+
+<p>这不是运行程序。这是在命令行想执行<code class="language-plaintext highlighter-rouge">a.out</code>这个命令，而不是执行<code class="language-plaintext highlighter-rouge">a.out</code>这个文件。命令行发现系统并没有<code class="language-plaintext highlighter-rouge">a.out</code>这个命令。命令行可以执行<code class="language-plaintext highlighter-rouge">gcc</code>和<code class="language-plaintext highlighter-rouge">ls</code>等等，但没法执行<code class="language-plaintext highlighter-rouge">a.out</code>。命令行并不会在当前目录看看有没有<code class="language-plaintext highlighter-rouge">a.out</code>这个文件，然后去执行它。</p>
+
+<p>接着，了解一下如何把当前目录下的一个文件，当做程序来执行。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>./a.out
+</code></pre></div></div>
+
+<p>什么也没有。但没有报错。说明什么，我们成功执行了这个文件。这个文件是一个可执行程序。也就是说我们编译成功。我们已经在用C编程了。</p>
+
+<p>能不能显示一些东西呢。来改改代码。</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>    
+<span class="p">{</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"hi"</span><span class="p">);</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>接着继续用gcc来编译，然后执行<code class="language-plaintext highlighter-rouge">a.out</code>文件，看看输出什么。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gcc hello.c
+hello.c:3:3: error: implicitly declaring library <span class="k">function</span> <span class="s1">'printf'</span> with <span class="nb">type</span> <span class="s1">'int (const char *, ...)'</span> <span class="o">[</span><span class="nt">-Werror</span>,-Wimplicit-function-declaration]
+  <span class="nb">printf</span><span class="o">(</span><span class="s2">"hi"</span><span class="o">)</span><span class="p">;</span>
+  ^
+hello.c:3:3: note: include the header &lt;stdio.h&gt; or explicitly provide a declaration <span class="k">for</span> <span class="s1">'printf'</span>
+1 error generated.
+</code></pre></div></div>
+
+<p>出错了。这意思很详尽。说明我们的方式跟系统的<code class="language-plaintext highlighter-rouge">printf</code>函数冲突了。这样的代码隐含着来定义一个<code class="language-plaintext highlighter-rouge">printf</code>函数，而这样去定义的话，和系统的函数冲突了，名字重复了。我们可以来引入头文件<code class="language-plaintext highlighter-rouge">stdio.h</code>来明确地给printf一个声明。</p>
+
+<p>这是什么意思呢。再来改改代码。</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>    
+<span class="p">{</span>
+  <span class="n">print</span><span class="p">(</span><span class="s">"hi"</span><span class="p">);</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gcc hello.c
+hello.c:3:3: error: implicit declaration of <span class="k">function</span> <span class="s1">'printfword'</span> is invalid <span class="k">in </span>C99 <span class="o">[</span><span class="nt">-Werror</span>,-Wimplicit-function-declaration]
+  printfword<span class="o">(</span><span class="s2">"hi"</span><span class="o">)</span><span class="p">;</span>
+  ^
+1 error generated.
+</code></pre></div></div>
+
+<p>看到出错信息了吗。两种情况下，出错信息是有差别的。一个是<code class="language-plaintext highlighter-rouge">implicitly declaring library function 'printf' with type</code>，一个是 <code class="language-plaintext highlighter-rouge">implicit declaration of function 'printfword' is invalid</code>。</p>
+
+<p>也就是还没定义一个函数就使用它时，或把函数名字写错时，就会提示隐含地去声明该函数是不行的。而如果未把头文件引入进来，直接用系统函数，则是提示了隐含地使用系统函数是不行的。</p>
+
+<p>这说明，系统函数要明确地声明来使用。来，接下来引入头文件试试看。</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include&lt;stdio.h&gt;
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>    
+<span class="p">{</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"hi"</span><span class="p">);</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gcc hello.c
+<span class="nv">$.</span>/a.out
+hi
+</code></pre></div></div>
+
+<p>终于正确了。上面出错的情况也很重要，几乎跟知道如何正确地编写代码同样重要。然而如果不是很明白上面出错的情况也可以，随着编程的深入，我们会明白的。以上这样就是编程的日常。不停试试看。从出错中学习是非常好的。</p>
+
+<p><code class="language-plaintext highlighter-rouge">a.out</code>这个文件名字有点丑陋。能不能好看一些。又如何改成其它呢。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gcc hello.c <span class="nt">-o</span> hello
+
+<span class="nv">$ </span>./hello
+hi
+</code></pre></div></div>
+
+<p>好了。给gcc编译程序一个参数来表明输出的文件名。这个参数跟在<code class="language-plaintext highlighter-rouge">-o</code>后面。也可以写成这样<code class="language-plaintext highlighter-rouge">gcc -o hello hello.c</code> 。正是因为名字参数有<code class="language-plaintext highlighter-rouge">-o</code>在前，所以这两参数顺序不重要。这个命令是执行gcc程序。同时传递了两参数给它。一个参数表明源文件路径，一个参数表明编译后的文件路径。如果参数形式只是文件名，则指当前目录下的路径。</p>
+
+<h3 id="练习">练习</h3>
+
+<ul>
+  <li>试着像本文一样，学生在自己电脑上试用C编程。</li>
+  <li>练习完后，可提交一百字以内的总结或对本文的补充。</li>
+</ul>
+
+
+
+  <hr>
+
+  <a href="/"><h4>返回</h4></a>
+</main>
+       
+  </body>
+
+</html>
