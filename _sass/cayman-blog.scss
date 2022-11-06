@@ -4,12 +4,6 @@
     max-width: 52rem;
   }
 
-  // img {
-  //   display: block;
-  //   margin-left: auto;
-  //   margin-right: auto;
-  // }
-
 }
 
 .circular-image {
@@ -18,12 +12,12 @@
   border-radius: 50%;
   overflow: hidden;
   background-color: transparent;
-  display:inline-block;
-  vertical-align:middle;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.circular-image img{
-  width:100%;
+.circular-image img {
+  width: 100%;
 }
 
 .btn {
@@ -34,15 +28,14 @@
 }
 
 .post-list {
-  .post-item {    
+  .post-item {
 
     .title {
       display: inline-block;
-      max-width: 30rem;      
+      max-width: 30rem;
     }
-  
+
     .date {
-      // float: right;
       font-size: small;
     }
   }
@@ -54,19 +47,19 @@ ul.post-list {
 }
 
 ul.post-list li::before {
-  content: "\2022"; 
-  color: $section-headings-color; 
-  font-weight: bold; 
-  display: inline-block; 
-  width: 0.5em; 
-  margin-left: -1em; 
+  content: "\2022";
+  color: $section-headings-color;
+  font-weight: bold;
+  display: inline-block;
+  width: 0.5em;
+  margin-left: -1em;
 }
 
 .main-content {
   color: #4a4a4a;
 
   @include small {
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
   }
 }
 

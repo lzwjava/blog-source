@@ -1,6 +1,91 @@
 ---
 layout: post
-title:  "简历"
+title:  "Resume"
 ---
 
-[Resume](/assets/resume/Zhiwei.Li.Resume.pdf)
+# PDF
+
+Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
+
+----
+
+# Online
+
+## Profiles
+
+I am 27 years old. I took my undergraduate in Beijing Forestry University. I have 5 years of backend engineering experience. I also once run my startup and I also did some Android, iOS, and frontend projects which served people. My English is proficient. And I also solved more than 1000 Algorithm problems on LeetCode alike website. I also have DevOps experience while doing my startup. And now I am working for the biggest bank in Singapore, DBS Bank. I am a joyful teammate, keen to help people and one who likes to hustle. 
+
+## Work Experience
+
+### Beyondsoft & DBS Bank, Backend Engineer, 2021.12 - Present
+
+* DBS Bank is a Singaporean multinational banking and financial services corporation. 
+* Join as DBS Bank contract workforce through Beyondsoft. Work in an international team that consists of Singaporeans, Indians, and Chinese. And we use English to communicate and work. Responsible for the backend development of a trading web application for the front officers. 
+* We use cloud-based technologies, utilize modern frameworks, and deploy automation best practices. We use tools like Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, BDD, TDD, etc.
+
+### Freelancer Inc, Freelancer & Engineer, 2020.01 - 2021.11
+
+* Do some software projects as a freelancer. Projects consist of a website(lvchensign.com) about a company doing the LED Sign, and some modules of an online technical interview platform, etc. Use technologies like Ruby, Ruby On Rails, ElasticSearch, Docker, Netty, etc.
+* Write technical blogs and shared them online. Learn English by watching Netflix and reading books. Solve algorithm problems and participate in online algorithm competitions in Codeforces. 
+
+### Beijing Square Root Inc, Founder & Engineer, 2016.07 - 2019.12
+
+* From January 2018 to December 2019, the team completed nearly 50 software projects for customers. The types of projects include small programs, apps, websites, and games. Customers include Yuanfudao, Fenbi Education, Jiangsu TV, etc. The revenue exceeds 3 million RMB and the profit exceeds 700 thousand RMB. The team has more than 20 full-time or part-time engineers and designers. Responsible for project negotiation, project management, and some software development in the team.
+* From July 2016 to September 2017, Fun Live, a live broadcast platform for software engineering lectures, was launched. In one year, nearly 30,000 users were obtained. Started my own business for the first time, and the marketing and R&D were mainly done by myself. 
+* In these years, I used technologies like PHP, Java, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
+
+### LeanCloud, Software Engineer, 2014.07 - 2015.11
+
+* LeanCloud is a leading domestic cloud computing provider. The company serves hundreds of thousands of developer users and has received IDG investment.
+* Participated in the development of LeanCloud iOS SDK and Android SDK. Responsible for some Angular frontend projects. 
+* Responsible for the development of LeanChat iOS client and Android client. A chat application set up to demonstrate the communication SDK, with functions such as single chat, group chat, nearby people, etc. 
+
+## Educational Background
+
+### Beijing Forestry University, Computer Science, Bachelor(Dropout), 2013.09 - 2014.06
+
+* Built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, alumni forums. It has been downloaded and used by thousands of users on campus.
+* Built an Android App for learning English by watching movie clips, and won the third prize of a hackathon.
+* Participated in the ACM competition and NOIP competition. Ranked at 300(Top 10%) in Guangdong Province 2011 NOIP competion. Solved more than 1000 algorithm problems in online judge website, such as https://uhunt.onlinejudge.org/id/113519. 
+
+### Guangzhou Yuyan Middle School, Middle School Diploma, 2007.07 - 2013.06
+* Top 300 in 100k students at Guangzhou High School Entrance exam. 
+* Top 300 in 2011 Guangdong NOIP(National Olympiad in Informatics in Provinces).
+
+
+## Projects
+
+### DBS Digibank CN, 2022.07 - Present
+* DBS Digibank, powered by DBS, is an entire bank squeezed to fit into smartphones. 
+* I am responsible for some microservices of Digibank APIs, like mutual funds and reference data. We use technologies like Java, Spring Cloud, Pivotal Cloud Foundry, Jenkins, and TDD.
+
+### DBS Client Connect, 2022.01 - 2022.06
+* DBS Client Connect, a one-stop workbench allowing frontline employees an instant 360 view of a client, leverages data and AI to join the dots between online and offline relationship management, ensuring a smoother journey for all concerned.
+* I am responsible for equity trading micro-service of the Client Connect platform. We use technologies like Java, Spring Cloud, and Jenkins.
+
+### ShowMeBug, 2021.07 - 2021.09
+* ShowMeBug is an online interview platform. Interviewers and interviewees can discuss and write code online to dig into technical questions. 
+* I am responsible for the integration between the platform and Enterprise WeChat. So the users can raise the interview from Enterprise WeChat. We make the experience smoother. We use technologies like Ruby On Rails, Enterprise WeChat SDK, and PostgreSQL. 
+
+### Chongding, 2017.09 - 2018.01
+* Chongding is China's HQ Trivia. It was once the wildly popular live game show app in China where you can win real cash prizes for free. 
+* I am responsible for the first version of the backend APIs and admin frontend control panel. We use technologies like Java, Spring Boot, Kafka, WebSocket, and RTMP Streaming. 
+
+### Fun Live, 2016.07 - 2017.09
+* Fun Live is a live broadcast platform for software engineering lectures. 
+* I am responsible for both the frontend and backend of this startup project. I used technologies like PHP, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, MiniProgram, WeChat SDK, DevOps tools, etc. 
+
+### LeanChat, 2014.07 - 2015.10
+* LeanChat is a chat application set up to demonstrate the communication SDK, with functions such as single chat, group chat, nearby people, etc. 
+* I am responsible for the Android and iOS clients. It is open sourced. You can check here. https://github.com/lzwjava/leanchat-ios and https://github.com/lzwjava/leanchat-android.
+
+### Open Source Projects, 2013.09 - Present
+* In addition to the above company projects, I also made some open source projects. Please visit https://github.com/lzwjava.
+
+
+## Skills
+
+* Advanced: Chinese, English, Java, PHP, Go, iOS, Android, Spring, Algorithm, Vue, TDD, HTML, DevOps
+* Intermediate: Product Management, Big Data, C++, Ruby, Angular, Dockers
+* Beginner: NLP, TensorFlow, Hardware, Compiler, Rust, Ruby
+
