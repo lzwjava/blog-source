@@ -15,4 +15,3 @@ bundle add webrick
 
 jekyll serve
 ```
-

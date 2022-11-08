@@ -334,7 +334,8 @@ ul.post-list { list-style: none; padding-inline-start: 20px; }
 ul.post-list li::before { content: "\2022"; color: #159957; font-weight: bold; display: inline-block; width: 0.5em; margin-left: -1em; }
 
 .main-content { color: #4a4a4a; }
-@media screen and (max-width: 42em) { .main-content { padding: 2rem 1rem; } }
+@media screen and (max-width: 42em) { .main-content { padding: 2rem 1.5rem; } }
+.main-content a { color: #159957; }
 
 body { font-family: "PingFangSC-Regular", "Microsoft YaHei", sans-serif; line-height: 1.8; }
 

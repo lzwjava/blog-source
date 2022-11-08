@@ -61,6 +61,10 @@ ul.post-list li::before {
   @include small {
     padding: 2rem 1.5rem;
   }
+
+  a {
+    color: $section-headings-color;
+  }
 }
 
 body {
