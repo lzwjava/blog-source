@@ -13,10 +13,10 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ## Profiles
 
-* I am a genius. Because I believe everybody is a genius. 
-* To be specific, I am an engineer, startup founder, blogger, and life long learner who is 27 years old. I ranked top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. And I dropped out to work in a startup and then create my startup after my first year at Beijing Forestry University(Top 100 of 3000 in China). In my three years of startup experience, I created an engineering live broadcast platform that served 30k users and led a team that earned 3 million CNY a year. And in the latest year, I have been working as a contractor for the biggest bank in Singapore, DBS Bank. 
+* I am a genius. Because I believe everybody is a genius. To be specific, I am an engineer, startup founder, blogger, and lifelong learner. 
+* I had tracks of excellence in my 27 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 in China), I dropped out to work in a startup and then create my one. In my three years of startup experience, I built an engineering live broadcast platform that served 30k users and then led a team to do 50 small software projects for clients. The team earned 3 million CNY a year. And in the latest year, I have been working as a contractor for the biggest bank in Singapore, DBS Bank. 
 * Regarding technical experience, I have 5 years of backend engineering experience(3 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served people. My English is proficient. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also have DevOps experience while doing my startup. 
-* Regarding my ability to get along with people, I am honest and reliable. I am a joyful teammate, one who likes to help people.
+* Regarding my benevolent and honest personality, I am easy going, reliable and joyful guy who gets along with people well.
 
 ## Work Experience
 
@@ -50,7 +50,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 * Built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, alumni forums. It has been downloaded and used by thousands of users on campus.
 * Built an Android App for learning English by watching movie clips, and won the third prize of a hackathon.
-* Ranked as Top 1 in my school ACM competion. Solved more than 1000 algorithm problems in online judge website, such as https://uhunt.onlinejudge.org/id/113519. 
+* Ranked as Top 1 in my school ACM/ICPC(International Collegiate Programming Contest) competition.
 
 ### Guangzhou Yuyan Middle School, Middle School Diploma, 2007.07 - 2013.06
 * Top 300 in 100k students at Guangzhou High School Entrance exam. 
