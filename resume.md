@@ -57,6 +57,22 @@ Regarding technical experience, I have 5 years of backend engineering experience
 
 ## Projects
 
+### Open Source Projects & Blog & Codeforces, 2013-09 to Present
+* In addition to the above company projects, I also made some open-source projects. Please visit https://github.com/lzwjava.
+* I wrote Chinese and English articles (2 English, 50 Chinese) in my blog site, https://lzwjava.github.io. 
+* Codeforces(Sovled 399 Algorithm Problems): https://codeforces.com/profile/lzwjava
+* UVa Online Judge(Solved 568 Algorithm Problems): https://uhunt.onlinejudge.org/id/113519 
+* Online Resume: https://lzwjava.github.io/resume 
+
+### English Learning Experience, 2013-09 to Present
+* 7 years to use Google search to read English websites
+* Half a year to play in TikTok or Youtube Shorts for at least 6 hours. 
+* Watch Netflix for around 100 TV shows and movies. 
+* Read about 30 English books.
+* Use English to work in an international big company for 1 year.
+* Listen to Google Podcast for at least 8 hours in half a year.
+* Start to make some bilingual short videos on Youtube. https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ 
+
 ### DBS Digibank CN, 2022.07 - Present
 * DBS Digibank, powered by DBS, is an entire bank squeezed to fit into smartphones. 
 * I am responsible for some microservices of Digibank APIs, like mutual funds and reference data. We use technologies like Java, Spring Cloud, Pivotal Cloud Foundry, Jenkins, and TDD.
@@ -80,22 +96,6 @@ Regarding technical experience, I have 5 years of backend engineering experience
 ### LeanChat, 2014.07 - 2015.10
 * LeanChat is a chat application set up to demonstrate the communication SDK, with functions such as single chat, group chat, nearby people, etc. 
 * I am responsible for the Android and iOS clients. It is open sourced. You can check here. https://github.com/lzwjava/leanchat-ios and https://github.com/lzwjava/leanchat-android.
-
-### Open Source Projects & Blog & Codeforces, 2013-09 to Present
-* In addition to the above company projects, I also made some open-source projects. Please visit https://github.com/lzwjava.
-* I wrote Chinese and English articles (2 English, 50 Chinese) in my blog site, https://lzwjava.github.io. 
-* Codeforces(Sovled 399 Algorithm Problems): https://codeforces.com/profile/lzwjava
-* UVa Online Judge(Solved 568 Algorithm Problems): https://uhunt.onlinejudge.org/id/113519 
-* Online Resume: https://lzwjava.github.io/resume 
-
-### English Learning Experience, 2013-09 to Present
-* 7 years to use Google search to read English websites
-* Half a year to play in TikTok or Youtube Shorts for at least 6 hours. 
-* Watch Netflix for around 100 TV shows and movies. 
-* Read about 30 English books.
-* Use English to work in an international big company for 1 year.
-* Listen to Google Podcast for at least 8 hours in half a year.
-* Start to make some bilingual short videos on Youtube. https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ 
 
 
 ## Skills
