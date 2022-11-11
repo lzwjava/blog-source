@@ -23,7 +23,8 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ### Beyondsoft & DBS Bank, Backend Engineer, 2021.12 - Present
 
 * DBS Bank is a Singaporean multinational banking and financial services corporation. 
-* Join as DBS Bank contract workforce through Beyondsoft. Work in an international team that consists of Singaporeans, Indians, and Chinese. And we use English to communicate and work. Responsible for the backend development of a trading web application for the front officers. 
+* Join as DBS Bank contract workforce through Beyondsoft. Work in an international team that consists of Singaporeans, Indians, and Chinese. And we use English to communicate and work. 
+* Worked in two projects, one is DBS Client Connect. I was responsible for equity trading micro-service of the the platform. The other one is DBS DigiBank CN. I was responsible for some micro-service development, like mutual fund. 
 * We use cloud-based technologies, utilize modern frameworks, and deploy automation best practices. We use tools like Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, BDD, TDD, etc.
 
 ### Freelancer Inc, Freelancer & Engineer, 2020.01 - 2021.11
@@ -73,7 +74,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### DBS Digibank CN, 2022.07 - Present
 * DBS Digibank, powered by DBS, is an entire bank squeezed to fit into smartphones. 
-* I am responsible for some microservices of Digibank APIs, like mutual funds and reference data. We use technologies like Java, Spring Cloud, Pivotal Cloud Foundry, Jenkins, and TDD.
+* I am responsible for some microservices of Digibank APIs, like mutual funds. We use technologies like Java, Spring Cloud, Pivotal Cloud Foundry, Jenkins, and TDD.
 
 ### DBS Client Connect, 2022.01 - 2022.06
 * DBS Client Connect, a one-stop workbench allowing frontline employees an instant 360 view of a client, leverages data and AI to join the dots between online and offline relationship management, ensuring a smoother journey for all concerned.
