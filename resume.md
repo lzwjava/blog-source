@@ -99,7 +99,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ## Skills
 
-* Advanced: Chinese, English, Java, PHP, Go, iOS, Android, Spring, Algorithm, Vue, TDD, HTML, DevOps
-* Intermediate: Product Management, Big Data, C++, Ruby, Angular, Dockers
-* Beginner: NLP, TensorFlow, Hardware, Compiler, Rust, Ruby
+* Advanced: Chinese, English, Java, PHP, iOS, Android, Spring, Algorithm, Vue, TDD,HTML
+* Intermediate: Product Management, C++, DevOps, Go
+* Beginner: NLP, TensorFlow, Hardware, Compiler, Rust, Ruby, Angular, Docker, Big Data
 
