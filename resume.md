@@ -49,7 +49,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 * Built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, alumni forums. It has been downloaded and used by thousands of users on campus.
 * Built an Android App for learning English by watching movie clips, and won the third prize of a hackathon.
-* Participated in the ACM competition and NOIP competition. Ranked at 300(Top 10%) in Guangdong Province 2011 NOIP competion. Solved more than 1000 algorithm problems in online judge website, such as https://uhunt.onlinejudge.org/id/113519. 
+* Ranked as Top 1 in my school ACM competion. Solved more than 1000 algorithm problems in online judge website, such as https://uhunt.onlinejudge.org/id/113519. 
 
 ### Guangzhou Yuyan Middle School, Middle School Diploma, 2007.07 - 2013.06
 * Top 300 in 100k students at Guangzhou High School Entrance exam. 
