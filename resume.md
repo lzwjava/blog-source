@@ -13,7 +13,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ## Profiles
 
-I am 27 years old. I took my undergraduate in Beijing Forestry University. I have 5 years of backend engineering experience. I also once run my startup and I also did some Android, iOS, and frontend projects which served people. My English is proficient. And I also solved more than 1000 Algorithm problems on LeetCode alike website. I also have DevOps experience while doing my startup. And now I am working for the biggest bank in Singapore, DBS Bank. I am a joyful teammate, keen to help people and one who likes to hustle. 
+I am 27 years old. I ranked top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces. And I dropped out to work in a startup and then create my own startp after my first year in Beijing Forestry University(Top 100 of 3000 in China). In my three years startup exprience, I created a enginering live broadcast platform which gained 30k users and led a team that earned 3 million CNY a year. And now in recent year, I am working as contractor for the biggest bank in Singapore, DBS Bank. Regarding technical exprience,  I have 5 years of backend engineering experience. I also did some Android, iOS, and frontend projects which served people. My English is proficient. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also have DevOps experience while doing my startup. I am a joyful teammate, keen to help people and one who likes to hustle. 
 
 ## Work Experience
 
