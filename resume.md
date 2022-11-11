@@ -55,7 +55,6 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * Top 300 in 100k students at Guangzhou High School Entrance exam. 
 * Top 300 in 2011 Guangdong NOIP(National Olympiad in Informatics in Provinces).
 
-
 ## Projects
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
