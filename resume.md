@@ -15,7 +15,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 I am an engineer, startup founder, blogger, and life learner who is 27 years old. I ranked top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. And I dropped out to work in a startup and then create my startup after my first year at Beijing Forestry University(Top 100 of 3000 in China). In my three years of startup experience, I created an engineering live broadcast platform that served 30k users and led a team that earned 3 million CNY a year. And in the latest year, I have been working as a contractor for the biggest bank in Singapore, DBS Bank. 
 
-Regarding technical experience, I have 5 years of backend engineering experience. I also did some Android, iOS, and frontend projects which served people. My English is proficient. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also have DevOps experience while doing my startup. I am a joyful teammate, keen to help people, and one who likes to hustle. 
+Regarding technical experience, I have 5 years of backend engineering experience(3 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served people. My English is proficient. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also have DevOps experience while doing my startup. I am a joyful teammate, keen to help people, and one who likes to hustle. 
 
 ## Work Experience
 
@@ -71,7 +71,7 @@ Regarding technical experience, I have 5 years of backend engineering experience
 * Read about 30 English books.
 * Use English to work in an international big company for 1 year.
 * Listen to Google Podcast for at least 8 hours in half a year.
-* Start to make some bilingual short videos on Youtube. https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ 
+* Start to make some bilingual short videos on Youtube. https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ
 
 ### DBS Digibank CN, 2022.07 - Present
 * DBS Digibank, powered by DBS, is an entire bank squeezed to fit into smartphones. 
