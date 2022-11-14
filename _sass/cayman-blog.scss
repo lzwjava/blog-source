@@ -5,6 +5,12 @@ $section-headings-color: #7601b1;
   background-image: linear-gradient(120deg, #6c01a9, #C95fff);
 }
 
+@media screen and (min-width: 64em) {
+  .project-name {
+    font-size: 2.75rem;
+  }
+}
+
 .main-content {
 
   @include large {
