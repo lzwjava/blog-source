@@ -60,7 +60,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
 * In addition to the above company projects, I also made some open-source projects. Please visit https://github.com/lzwjava.
-* I wrote Chinese and English articles (2 English, 50 Chinese) in my blog site, https://lzwjava.github.io. 
+* I wrote Chinese and English articles (2 English, and 50 Chinese) on my blog site, https://lzwjava.github.io .
 * Codeforces(Sovled 399 Algorithm Problems): https://codeforces.com/profile/lzwjava
 * UVa Online Judge(Solved 568 Algorithm Problems): https://uhunt.onlinejudge.org/id/113519 
 
