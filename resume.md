@@ -71,7 +71,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### DBS Digibank CN, 2022.07 - Present
 * DBS Digibank, powered by DBS, is an entire bank squeezed to fit into smartphones. 
-* I was responsible for some microservices of Digibank APIs, like mutual funds. We used technologies like Java, Spring Cloud, Pivotal Cloud Foundry, Jenkins, and TDD.
+* I was responsible for some microservice development of Digibank APIs, like mutual funds. We used technologies like Java, Spring Cloud, Pivotal Cloud Foundry, Jenkins, and TDD.
 
 ### DBS Client Connect, 2022.01 - 2022.06
 * DBS Client Connect, a one-stop workbench allowing frontline employees an instant 360 view of a client, leverages data and AI to join the dots between online and offline relationship management, ensuring a smoother journey for all concerned.
