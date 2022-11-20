@@ -29,7 +29,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### Freelancer Inc, Freelancer & Engineer, 2020.01 - 2021.11
 
-* Do some software projects as a freelancer. Projects consist of a website(lvchensign.com) about a company doing the LED Sign, and some modules of an online technical interview platform, etc. Use technologies like Ruby, Ruby On Rails, ElasticSearch, Docker, Netty, etc.
+* Do some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign, and some modules of an online technical interview platform, etc. Use technologies like Ruby, Ruby On Rails, ElasticSearch, Docker, Netty, etc.
 * Write technical blogs and shared them online. Learn English by watching Netflix and reading books. Solve algorithm problems and participate in online algorithm competitions in Codeforces. 
 
 ### Beijing Square Root Inc, Founder & Engineer, 2016.07 - 2019.12
