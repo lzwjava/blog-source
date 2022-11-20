@@ -66,7 +66,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### English Learning, 2013-09 to Present
 * Spent leisure time of 3 years actively learning English using TikTok, Youtube, Netflix, Kindle, etc. And been using Google to search and read English websites for the past 7 years.
-* Using English worked in an international big company for 1 year.
+* Worked in English for one year in a major international company.
 * Got a score of 6.0(Reading Listening Writing 6.0, Speaking 5.5) on the IELTS(International English Language Testing System). 
 
 ### DBS Digibank CN, 2022.07 - Present
