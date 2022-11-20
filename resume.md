@@ -101,10 +101,9 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ## Links
 
-* GitHub: [https://github.com/lzwjava](https://github.com/lzwjava)
-* Blog: [https://lzwjava.github.io](https://lzwjava.github.io)
-* Codeforces: [https://codeforces.com/profile/lzwjava](https://codeforces.com/profile/lzwjava)
-* UVa Online Judge: [https://uhunt.onlinejudge.org/id/113519](ttps://uhunt.onlinejudge.org/id/113519)
-* LinkedIn: [https://www.linkedin.com/in/lzwjava](https://www.linkedin.com/in/lzwjava)
-* Youtube: [https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
-
+* [GitHub](https://github.com/lzwjava)
+* [Blog](https://lzwjava.github.io)
+* [Codeforces](https://codeforces.com/profile/lzwjava)
+* [UVa Online Judge](https://uhunt.onlinejudge.org/id/113519)
+* [LinkedIn](https://www.linkedin.com/in/lzwjava)
+* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
