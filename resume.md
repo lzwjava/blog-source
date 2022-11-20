@@ -66,9 +66,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * Online Resume: https://lzwjava.github.io/resume 
 
 ### English Learning, 2013-09 to Present
-* 7 years to use Google search to read English websites
-* Half a year to play in TikTok or Youtube Shorts for at least 6 hours. Watch Netflix for around 100 TV shows and movies. 
-* Read about 30 English books. Listen to Google Podcast for at least 8 hours in half a year.
+* Spend leisure time of 3 years actively learning English using TikTok, Youtube, Netflix, Kindle, etc. And in 7 years, use Google search and read English websites.
 * Use English to work in an international big company for 1 year.
 * IELTS 6.0 (Reading Listening Writing 6.0, Speaking 5.5)
 
