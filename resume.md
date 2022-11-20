@@ -59,9 +59,10 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ## Projects
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
-* I also made some open-source projects. Please click below GitHub link to check.
+* I also made some open-source projects. 
 * I wrote Chinese and English articles (2 English, and 50 Chinese) on my blog site. 
-* Sovled 399 algorithm problems on Codeforces. Solved 568 Algorithm Problems. Links are below.
+* Solved 399 algorithm problems on Codeforces and 568 on Uva Online Judge. 
+* Links are below.
 
 ### English Learning, 2013-09 to Present
 * Spend leisure time of 3 years actively learning English using TikTok, Youtube, Netflix, Kindle, etc. And in 7 years, use Google search and read English websites.
