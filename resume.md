@@ -70,7 +70,6 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * Half a year to play in TikTok or Youtube Shorts for at least 6 hours. Watch Netflix for around 100 TV shows and movies. 
 * Read about 30 English books. Listen to Google Podcast for at least 8 hours in half a year.
 * Use English to work in an international big company for 1 year.
-* Start to make some bilingual short videos on Youtube. https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ
 * IELTS 6.0 (Reading Listening Writing 6.0, Speaking 5.5)
 
 ### DBS Digibank CN, 2022.07 - Present
