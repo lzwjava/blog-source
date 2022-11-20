@@ -59,10 +59,9 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ## Projects
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
-* In addition to the above company projects, I also made some open-source projects. Please visit https://github.com/lzwjava.
-* I wrote Chinese and English articles (2 English, and 50 Chinese) on my blog site, https://lzwjava.github.io .
-* Codeforces(Sovled 399 Algorithm Problems): https://codeforces.com/profile/lzwjava
-* UVa Online Judge(Solved 568 Algorithm Problems): https://uhunt.onlinejudge.org/id/113519 
+* I also made some open-source projects. Please click below GitHub link to check.
+* I wrote Chinese and English articles (2 English, and 50 Chinese) on my blog site. 
+* Sovled 399 algorithm problems on Codeforces. Solved 568 Algorithm Problems. Links are below.
 
 ### English Learning, 2013-09 to Present
 * Spend leisure time of 3 years actively learning English using TikTok, Youtube, Netflix, Kindle, etc. And in 7 years, use Google search and read English websites.
@@ -100,3 +99,11 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * Intermediate: Product Management, C++, DevOps, Go
 * Beginner: NLP, TensorFlow, Hardware, Compiler, Rust, Ruby, Angular, Docker, Big Data
 
+## Links
+
+* GitHub: https://github.com/lzwjava
+* Blog: https://lzwjava.github.io
+* LinkedIn: https://www.linkedin.com/in/lzwjava
+* Youtube: https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ
+* Codeforces: https://codeforces.com/profile/lzwjava
+* UVa Online Judge: https://uhunt.onlinejudge.org/id/113519 
