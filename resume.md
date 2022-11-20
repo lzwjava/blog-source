@@ -23,13 +23,13 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ### Beyondsoft & DBS Bank, Backend Engineer, 2021.12 - Present
 
 * DBS Bank is a Singaporean multinational banking and financial services corporation. 
-* Join as DBS Bank contract workforce through Beyondsoft. Work in an international team that consists of Singaporeans, Indians, and Chinese. And we use English to communicate and work. 
+* Joined as DBS Bank contract workforce through Beyondsoft. Worked in international teams that consists of Singaporeans, Indians, and Chinese. 
 * Worked in two projects, one is DBS Client Connect. I was responsible for equity trading micro-service of the the platform. The other one is DBS DigiBank CN. I was responsible for some micro-service development, like mutual fund. 
-* We use cloud-based technologies, utilize modern frameworks, and deploy automation best practices. We use tools like Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, BDD, TDD, etc.
+* We used cloud-based technologies, utilize modern frameworks, and deploy automation best practices. We used tools like Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, BDD, TDD, etc.
 
 ### Freelancer Inc, Freelancer & Engineer, 2020.01 - 2021.11
 
-* Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign, and some modules of an online technical interview platform, etc. Use technologies like Ruby, Ruby On Rails, ElasticSearch, Docker, Netty, etc.
+* Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign, and some modules of an online technical interview platform, etc. Used technologies like Ruby, Ruby On Rails, ElasticSearch, Docker, Netty, etc.
 * Wrote technical blogs and shared them online. Learned English by watching Netflix and reading books. Solved some algorithm problems and participated in online algorithm competitions in Codeforces. 
 
 ### Beijing Square Root Inc, Founder & Engineer, 2016.07 - 2019.12
@@ -42,7 +42,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 * LeanCloud is a leading domestic cloud computing provider. The company serves hundreds of thousands of developer users and has received IDG investment.
 * Participated in the development of LeanCloud iOS SDK and Android SDK. Responsible for some Angular frontend projects. 
-* Responsible for the development of LeanChat iOS client and Android client. This is a chat application set up to demonstrate the communication SDK, with functions such as single chat, group chat, nearby people, etc. 
+* Responsible for the development of LeanChat iOS client and Android client. This was a chat application set up to demonstrate the communication SDK, with functions such as single chat, group chat, nearby people, etc. 
 
 ## Educational Background
 
@@ -71,19 +71,19 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### DBS Digibank CN, 2022.07 - Present
 * DBS Digibank, powered by DBS, is an entire bank squeezed to fit into smartphones. 
-* I am responsible for some microservices of Digibank APIs, like mutual funds. We use technologies like Java, Spring Cloud, Pivotal Cloud Foundry, Jenkins, and TDD.
+* I was responsible for some microservices of Digibank APIs, like mutual funds. We used technologies like Java, Spring Cloud, Pivotal Cloud Foundry, Jenkins, and TDD.
 
 ### DBS Client Connect, 2022.01 - 2022.06
 * DBS Client Connect, a one-stop workbench allowing frontline employees an instant 360 view of a client, leverages data and AI to join the dots between online and offline relationship management, ensuring a smoother journey for all concerned.
-* I was responsible for equity trading micro-service of the Client Connect platform. We use technologies like Java, Spring Cloud, and Jenkins.
+* I was responsible for equity trading micro-service of the Client Connect platform. We used technologies like Java, Spring Cloud, and Jenkins.
 
 ### ShowMeBug, 2021.07 - 2021.09
 * ShowMeBug is an online interview platform. Interviewers and interviewees can discuss and write code online to dig into technical questions. 
-* I was responsible for the integration between the platform and Enterprise WeChat. So the users can raise the interview from Enterprise WeChat. We make the experience smoother. We use technologies like Ruby On Rails, Enterprise WeChat SDK, and PostgreSQL. 
+* I was responsible for the integration between the platform and Enterprise WeChat. So the users could raise the interview from Enterprise WeChat. We made the experience smoother. We used technologies like Ruby On Rails, Enterprise WeChat SDK, and PostgreSQL. 
 
 ### Chongding, 2017.09 - 2018.01
 * Chongding was China's HQ Trivia. It was once the wildly popular live game show app in China where you can win real cash prizes for free. 
-* I was responsible for the first version of the backend APIs and admin frontend control panel. We use technologies like Java, Spring Boot, Kafka, WebSocket, and RTMP Streaming. 
+* I was responsible for the first version of the backend APIs and admin frontend control panel. We used technologies like Java, Spring Boot, Kafka, WebSocket, and RTMP Streaming. 
 
 ### Fun Live, 2016.07 - 2017.09
 * Fun Live was a live broadcast platform for software engineering lectures. 
