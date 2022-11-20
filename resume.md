@@ -63,7 +63,6 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * I wrote Chinese and English articles (2 English, 50 Chinese) in my blog site, https://lzwjava.github.io. 
 * Codeforces(Sovled 399 Algorithm Problems): https://codeforces.com/profile/lzwjava
 * UVa Online Judge(Solved 568 Algorithm Problems): https://uhunt.onlinejudge.org/id/113519 
-* Online Resume: https://lzwjava.github.io/resume 
 
 ### English Learning, 2013-09 to Present
 * Spend leisure time of 3 years actively learning English using TikTok, Youtube, Netflix, Kindle, etc. And in 7 years, use Google search and read English websites.
