@@ -52,7 +52,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * Built an Android App for learning English by watching movie clips, and won the third prize of a hackathon.
 * Ranked as top 1 in my school ACM/ICPC(International Collegiate Programming Contest) competition.
 
-### Guangzhou Yuyan Middle School, Middle School Diploma, 2007.07 - 2013.06
+### Guangzhou Yuyan Middle School, Science, Middle School Diploma, 2007.07 - 2013.06
 * Ranked as top 300 in 100k students at Guangzhou High School Entrance exam. 
 * Ranked as top 300 in 2011 Guangdong NOIP(National Olympiad in Informatics in Provinces).
 
