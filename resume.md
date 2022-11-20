@@ -23,7 +23,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ### Beyondsoft & DBS Bank, Backend Engineer, 2021.12 - Present
 
 * DBS Bank is a Singaporean multinational banking and financial services corporation. 
-* Joined as DBS Bank contract workforce through Beyondsoft. Worked in international teams that consists of Singaporeans, Indians, and Chinese. 
+* Joined as DBS Bank contract workforce through Beyondsoft. Worked in two international teams that consists of Singaporeans, Indians, and Chinese. 
 * Worked in two projects, one is DBS Client Connect. I was responsible for equity trading micro-service of the the platform. The other one is DBS DigiBank CN. I was responsible for some micro-service development, like mutual fund. 
 * We used cloud-based technologies, utilize modern frameworks, and deploy automation best practices. We used tools like Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, BDD, TDD, etc.
 
@@ -34,7 +34,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### Beijing Square Root Inc, Founder & Engineer, 2016.07 - 2019.12
 
-* From January 2018 to December 2019, the team completed nearly 50 software projects for customers. The types of projects include small programs, apps, websites, and games. Customers include Yuanfudao, Fenbi Education, Jiangsu TV, etc. The revenue exceeds 3 million RMB and the profit exceeds 700 thousand RMB. The team has more than 20 full-time or part-time engineers and designers. Responsible for project negotiation, project management, and some software development in the team.
+* From January 2018 to December 2019, the team completed nearly 50 small software projects for customers. The types of projects include small programs, apps, websites, and games. Customers include a few big company and some startups in China. The revenue exceeded 3 million RMB and the profit exceeded 700 thousand RMB. The team had more than 20 full-time or part-time engineers and designers. Responsible for project negotiation, project management, and some software development in the team.
 * From July 2016 to September 2017, Fun Live, a live broadcast platform for software engineering lectures, was launched. In one year, nearly 30,000 users were obtained. Started my own business for the first time, and the marketing and R&D were mainly done by myself. 
 * In these years, I used technologies like PHP, Java, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
 
