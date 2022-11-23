@@ -14,21 +14,20 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ## Profiles
 
 * I am a genius. Because I believe everybody is a genius. To be specific, I am an engineer, startup founder, blogger, and lifelong learner. 
-* I had tracks of excellence in my 27 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 in China), I dropped out to work in a startup and then create my one. In my three years of startup experience, I built an engineering live broadcast platform that served 30k users and then led a team to do 50 small software projects for clients. The team earned 3 million CNY a year. And now, I am working as a contractor for one of the largest banking and financial services institutions in the world, HSBC.
+* I had tracks of excellence in my 27 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 in China), I dropped out to work in a startup and then create my one. In my three years of startup experience, I built an engineering live broadcast platform that served 30k users and then led a team to do 50 small software projects for clients. The team earned 3 million CNY a year. And now, I am working as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
 * Regarding technical experience, I have 5 years of backend engineering experience(3 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served people. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. 
 * Regarding my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
 
 ## Work Experience
 
-### Farben & HSBC Bank, Senior Java Engineer, 2022.11 - Present
+### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - Present
 * HSBC Bank is one of the largest banking and financial services institutions in the world.
-* Joined as HSBC Bank service provider through Farben. Working on the Hong Kong PayMe project.
+* Joined as HSBC Bank contractor through Farben. Working on the Hong Kong PayMe project.
 
-### Beyondsoft & DBS Bank, Backend Engineer, 2021.12 - 2022.11
+### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
 
 * DBS Bank is a Singaporean multinational banking and financial services corporation. 
-* Joined as DBS Bank contract workforce through Beyondsoft. Worked in two international teams that consists of Singaporeans, Indians, and Chinese. 
-* Worked on two projects, one is DBS Client Connect. I was responsible for the equity trading micro-service of the platform. The other one is DBS DigiBank CN. I was responsible for some micro-service development, like mutual funds. 
+* Joined as DBS Bank contractor through Beyondsoft. Worked on two projects, one is DBS Client Connect. I was responsible for the equity trading micro-service of the platform. The other one is DBS DigiBank CN. I was responsible for some micro-service development, like mutual funds. 
 * We used cloud-based technologies, utilize modern frameworks, and deploy automation best practices. We used tools like Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, BDD, TDD, etc.
 
 ### Freelancer Inc, Freelancer & Engineer, 2020.01 - 2021.11
@@ -73,7 +72,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * Worked in English for one year in a major international company.
 * Got a score of 6.0(Reading Listening Writing 6.0, Speaking 5.5) on the IELTS(International English Language Testing System). 
 
-### DBS Digibank CN, 2022.07 - Present
+### DBS Digibank CN, 2022.07 - 2022.11
 * DBS Digibank, powered by DBS, is an entire bank squeezed to fit into smartphones. 
 * I was responsible for some microservice development of Digibank APIs, like mutual funds. We used technologies like Java, Spring Cloud, Pivotal Cloud Foundry, Jenkins, and TDD.
 
