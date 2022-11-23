@@ -14,9 +14,9 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ## Profiles
 
 * I am a genius. Because I believe everybody is a genius. To be specific, I am an engineer, startup founder, blogger, and lifelong learner. 
-* I had tracks of excellence in my 27 years of life. I ranked as top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked as top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 in China), I dropped out to work in a startup and then create my one. In my three years of startup experience, I built an engineering live broadcast platform that served 30k users and then led a team to do 50 small software projects for clients. The team earned 3 million CNY a year. And in the latest year, I have been working as a contractor for the biggest bank in Singapore, DBS Bank. 
+* I had tracks of excellence in my 27 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 in China), I dropped out to work in a startup and then create my one. In my three years of startup experience, I built an engineering live broadcast platform that served 30k users and then led a team to do 50 small software projects for clients. The team earned 3 million CNY a year. And in the latest year, I have been working as a contractor for the biggest bank in Singapore, DBS Bank. 
 * Regarding technical experience, I have 5 years of backend engineering experience(3 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served people. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. 
-* Regarding my benevolent and honest personality, I am easy going, reliable and joyful guy who gets along with people well.
+* Regarding my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
 
 ## Work Experience
 
@@ -24,19 +24,19 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 * DBS Bank is a Singaporean multinational banking and financial services corporation. 
 * Joined as DBS Bank contract workforce through Beyondsoft. Worked in two international teams that consists of Singaporeans, Indians, and Chinese. 
-* Worked in two projects, one is DBS Client Connect. I was responsible for equity trading micro-service of the the platform. The other one is DBS DigiBank CN. I was responsible for some micro-service development, like mutual fund. 
+* Worked on two projects, one is DBS Client Connect. I was responsible for the equity trading micro-service of the platform. The other one is DBS DigiBank CN. I was responsible for some micro-service development, like mutual funds. 
 * We used cloud-based technologies, utilize modern frameworks, and deploy automation best practices. We used tools like Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, BDD, TDD, etc.
 
 ### Freelancer Inc, Freelancer & Engineer, 2020.01 - 2021.11
 
-* Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign, and some modules of an online technical interview platform, etc. Used technologies like Ruby, Ruby On Rails, ElasticSearch, Docker, Netty, etc.
+* Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign, some modules of an online technical interview platform, etc. Used technologies like Ruby, Ruby On Rails, ElasticSearch, Docker, Netty, etc.
 * Wrote technical blogs and shared them online. Learned English by watching Netflix and reading books. Solved some algorithm problems and participated in online algorithm competitions in Codeforces. 
 
 ### Beijing Square Root Inc, Founder & Engineer, 2016.07 - 2019.12
 
-* From January 2018 to December 2019, the team completed nearly 50 small software projects for customers. The types of projects include small programs, apps, websites, and games. Customers include a few big company and some startups in China. The revenue exceeded 3 million RMB and the profit exceeded 700 thousand RMB. The team had more than 20 full-time or part-time engineers and designers. Responsible for project negotiation, project management, and some software development in the team.
+* From January 2018 to December 2019, the team completed nearly 50 small software projects for customers. The types of projects include small programs, apps, websites, and games. Customers include a few big companies and some startups in China. The revenue exceeded 3 million RMB and the profit exceeded 700 thousand RMB. The team had more than 20 full-time or part-time engineers and designers. Responsible for project negotiation, project management, and some software development in the team.
 * From July 2016 to September 2017, Fun Live, a live broadcast platform for software engineering lectures, was launched. In one year, nearly 30,000 users were obtained. Started my own business for the first time, and the marketing and R&D were mainly done by myself. 
-* In these years, I used technologies like PHP, Java, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
+* During these years, I used technologies like PHP, Java, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
 
 ### LeanCloud, Software Engineer, 2014.07 - 2015.11
 
@@ -48,13 +48,13 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### Beijing Forestry University, Computer Science, Bachelor(Dropout), 2013.09 - 2014.06
 
-* Built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, alumni forums. It has been downloaded and used by thousands of users on campus.
-* Built an Android App for learning English by watching movie clips, and won the third prize of a hackathon.
-* Ranked as top 1 in my school ACM/ICPC(International Collegiate Programming Contest) competition.
+* Built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums. It has been downloaded and used by thousands of users on campus.
+* Built an Android App for learning English by watching movie clips, and won the third prize in a hackathon.
+* Ranked as top 1 in my school's ACM/ICPC(International Collegiate Programming Contest) competition.
 
 ### Guangzhou Yuyan Middle School, Science, Middle School Diploma, 2007.07 - 2013.06
-* Ranked as top 300 in 100k students at Guangzhou High School Entrance exam. 
-* Ranked as top 300 in 2011 Guangdong NOIP(National Olympiad in Informatics in Provinces).
+* Ranked in the top 300 in 100k students in the Guangzhou High School Entrance exam. 
+* Ranked in the top 300 in 2011 Guangdong NOIP(National Olympiad in Informatics in Provinces).
 
 ## Projects
 
@@ -75,7 +75,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### DBS Client Connect, 2022.01 - 2022.06
 * DBS Client Connect, a one-stop workbench allowing frontline employees an instant 360 view of a client, leverages data and AI to join the dots between online and offline relationship management, ensuring a smoother journey for all concerned.
-* I was responsible for equity trading micro-service of the Client Connect platform. We used technologies like Java, Spring Cloud, and Jenkins.
+* I was responsible for the equity trading micro-service of the Client Connect platform. We used technologies like Java, Spring Cloud, and Jenkins.
 
 ### ShowMeBug, 2021.07 - 2021.09
 * ShowMeBug is an online interview platform. Interviewers and interviewees can discuss and write code online to dig into technical questions. 
@@ -91,12 +91,12 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### LeanChat, 2014.07 - 2015.10
 * LeanChat is a chat application set up to demonstrate the communication SDK, with functions such as single chat, group chat, nearby people, etc. 
-* I was responsible for the Android and iOS clients. It is open sourced. You can check here. https://github.com/lzwjava/leanchat-ios and https://github.com/lzwjava/leanchat-android.
+* I was responsible for the Android and iOS clients. It is open-sourced. You can check here. https://github.com/lzwjava/leanchat-ios and https://github.com/lzwjava/leanchat-android.
 
 
 ## Skills
 
-* Advanced: Chinese, English, Java, PHP, iOS, Android, Spring, Algorithm, Vue, TDD,HTML
+* Advanced: Chinese, English, Java, PHP, iOS, Android, Spring, Algorithm, Vue, TDD, HTML
 * Intermediate: Product Management, C++, DevOps, Go
 * Beginner: NLP, TensorFlow, Hardware, Compiler, Rust, Ruby, Angular, Docker, Big Data
 
