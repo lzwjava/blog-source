@@ -50,7 +50,7 @@ I used Vultr from 2018 to 2020.
 
 ## Google Cloud - Fail 
 
-I want to try google cloud too. However, I failed. They don't support China users. Though we can provide fake info as we are other countries' citizens. However, we don't have the corresponding Visa card to register successfully.
+I want to try google cloud too. However, I failed. They don't support China users. Though we can provide fake info as we are other countries' citizens. However, we don't have the corresponding credit card to register successfully.
 
 <div align="center"><img src="/assets/images/cloud/google.png" /><img/></div>
 
@@ -62,4 +62,4 @@ Outline isn't a cloud platform. It is a proxy tool. Because it helps me set up m
 
 ## Summary
 
-The cheapest sever with the lowest configuration usually cost around 5 dollars a month. It is enough for acting as a proxy to be used for a few users. The servers in Singapore, Hong Kong or other Asia areas, are usually connected faster than the servers in the USA or Europe. And sometimes when you set up the server just now, it works like a charm. However, when a few days pass, it works like a zombie. So regarding speed and stability, you can only find the truth in your daily use.
+The cheapest sever with the lowest configuration usually cost around 5 dollars a month. It is enough for acting as a proxy server to be used for a few users. The servers in Singapore, Hong Kong or other Asia areas, are usually connected faster than the servers in the USA or Europe. And sometimes when you set up the server just now, it works like a charm. However, when a few days pass, it works like a zombie. So regarding speed and stability, you can only find the truth in your daily use.
