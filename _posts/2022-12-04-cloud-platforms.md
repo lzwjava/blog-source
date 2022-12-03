@@ -49,7 +49,7 @@ I used Vultr from 2018 to 2020.
 
 ## Google Cloud - Fail 
 
-I want to try google cloud too. However, I failed. They don't support China users. Though we can provide fake info as we are other country's citizens. However, we don't have the corresponding Visa card to register successfully.
+I want to try google cloud too. However, I failed. They don't support China users. Though we can provide fake info as we are other countries' citizens. However, we don't have the corresponding Visa card to register successfully.
 
 <div align="center"><img src="/assets/images/cloud/google.png" /><img/></div>
 
