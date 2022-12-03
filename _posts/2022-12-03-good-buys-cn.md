@@ -3,6 +3,8 @@ layout: post
 title: "翻译：我买到的好东西"
 ---
 
+<div align="center"><img src="/assets/images/buys/buys.jpg" width="400px" /><img/></div>
+
 * [荣事达烘干机，378元](#royalstar-dryer-378-cny)
 * [近视太阳镜，68元](#myopic-sunglasses-68-cny)
 * [最新 iPhone，10000元左右](#newest-iphone-around-10000-cny)
