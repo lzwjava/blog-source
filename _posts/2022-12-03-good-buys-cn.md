@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "翻译：我买到的好东西 - 更新中"
+title: "翻译：我买到的好东西"
 ---
 
 * [荣事达烘干机，378元](#royalstar-dryer-378-cny)
