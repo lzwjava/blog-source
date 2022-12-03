@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "翻译：我买到的好东西"
+title: "翻译 | 我买到的好东西"
 ---
 
 <div align="center"><img src="/assets/images/buys/buys.jpg" width="400px" /><img/></div>
