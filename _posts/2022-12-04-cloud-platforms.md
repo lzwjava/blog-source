@@ -8,6 +8,7 @@ title: "Some Global Cloud Platforms"
 * [Digital Ocean](#digital-ocean)
 * [Vultr](#vultr)
 * [Google Cloud - Fail](#google-cloud---fail)
+* [Summary](#summary)
 
 I tried some cloud platforms recently. I used it to set up my proxy server. Before, I used a third-party proxy server. The server is used by many users. So the speed is slow sometimes. I tried to set up my own to fix this problem. 
 
@@ -52,6 +53,12 @@ I used Vultr from 2018 to 2020.
 I want to try google cloud too. However, I failed. They don't support China users. Though we can provide fake info as we are other countries' citizens. However, we don't have the corresponding Visa card to register successfully.
 
 <div align="center"><img src="/assets/images/cloud/google.png" /><img/></div>
+
+## Outline
+
+Outline isn't a cloud platform. It is a proxy tool. Because it helps me set up my proxy server, I have to write a separate paragraph to praise it. It is really helpful. You can learn about it by searching it online.
+
+<div align="center"><img src="/assets/images/cloud/outline.png" /><img/></div>
 
 ## Summary
 
