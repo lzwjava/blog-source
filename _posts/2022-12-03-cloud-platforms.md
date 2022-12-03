@@ -10,6 +10,7 @@ title: "Some Global Cloud Platforms"
 * [Digital Ocean](#digital-ocean)
 * [Vultr](#vultr)
 * [Google Cloud - Fail](#google-cloud---fail)
+* [Outline](#outline)
 * [Summary](#summary)
 
 I tried some cloud platforms recently. I used it to set up my proxy server. Before, I used a third-party proxy server. The server is used by many users. So the speed is slow sometimes. I tried to set up my own to fix this problem. 
