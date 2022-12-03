@@ -55,4 +55,4 @@ I want to try google cloud too. However, I failed. They don't support China user
 
 ## Summary
 
-The cheapest sever with the lowest configuration usually cost around 5 dollars a month. It is enough for acting as a proxy to be used for a few users. The servers in Singapore, Hong Kong or other Asia areas, are usually connected faster than the servers in the USA or Europe. And sometimes when you set up the server just now, it works like a charm. However, when a few days pass, it works like a zombie.
+The cheapest sever with the lowest configuration usually cost around 5 dollars a month. It is enough for acting as a proxy to be used for a few users. The servers in Singapore, Hong Kong or other Asia areas, are usually connected faster than the servers in the USA or Europe. And sometimes when you set up the server just now, it works like a charm. However, when a few days pass, it works like a zombie. So regarding speed and stability, you can only find the truth in your daily use.
