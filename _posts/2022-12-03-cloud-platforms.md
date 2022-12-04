@@ -25,7 +25,7 @@ Let's see the console and the networking tab, above and below.
 
 <div align="center"><img src="/assets/images/cloud/network.png" /><img/></div>
 
-My custom networking setting is simple. I just make any port between 1024 to 65535 of any protocol open. As it is my proxy server. I don't have any secret data or program inside it. So I follow the suggestion of the Outline App to do so.
+My custom networking setting is simple. I just make any port between 1024 to 65535 of any protocol open. As it is my proxy server. I don't have any secret data or programs inside it. So I follow the suggestion of the Outline App to do so.
 
 ## AWS Lightsail
 
