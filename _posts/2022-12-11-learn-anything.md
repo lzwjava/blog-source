@@ -7,13 +7,13 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 
 1. Trust yourself and believe in yourself. You are a genius. Everyone is a genius.
 
-2. Find the real expert on the Internet. They know, and they share a lot, Like the teacher Yin Wang.
+2. Find the real expert on the Internet. They really know, and they share a lot, Like the teacher Yin Wang.
 
 3. Find all interesting materials on the Internet. Like Youtube, Bilibili, Tiktok, Douyin, Tencent Video, WeChat Channels, Twitter, Google. 
 
 4. Start small. Watch short videos or long videos about the materials. You can watch anything as long as it has English.
 
-5. Step by Step. If you don't know English at all, please learn the basic alphabets and 100 simple words for your first two months.
+5. Step by Step. If you don't know English at all, please learn the basic alphabet and 100 simple words for your first two months.
 
 6. 16 hours to learn. If can play mobile phone, then play it. If can't play, then listen with a Bluetooth earphone or speaker. Listen when driving, Listen when you are taking care of your baby. Listen when you are cooking. Listen until you fall asleep.
 
