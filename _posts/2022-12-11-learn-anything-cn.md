@@ -1,34 +1,21 @@
 ---
 layout: post
-title: "How To Learn Anything In a Year"
+title: "翻译：如何在一年内学会任何东西？"
 ---
 
-How to learn anything in a year? Let's take English as an example. I spent one year learning English to achieve IELTS 6 score. Here is my way.
+如何在一年内学会任何东西？以英语为例。我花了一年的时间学习英语，以达到雅思6分的成绩。这是我的方法。
 
-1. Trust yourself and believe in yourself. You are a genius. Everyone is a genius.
-
-2. Find the real expert on the Internet. They know, and they share a lot, Like the teacher Yin Wang.
-
-3. Find all interesting materials on the Internet. Like Youtube, Bilibili, Tiktok, Douyin, Tencent Video, WeChat Channels, Twitter, Google. 
-
-4. Start small. Watch short videos or long videos about the materials. You can watch anything as long as it has English.
-
-5. Step by Step. If you don't know English at all, please learn the basic alphabet and 100 simple words for your first two months.
-
-6. 16 hours to learn. If can play mobile phone, then play it. If can't play, then listen with a Bluetooth earphone or speaker. Listen when driving, Listen when you are taking care of your baby. Listen when you are cooking. Listen until you fall asleep.
-
-7. Go crazy. You can't live without learning English all the time. You must ensure you have some English materials to listen to as long as you are awake.
-
-8. Know yourself and be focused. Let the lecture audios float around your ears, you will be automatically focusing time by time. When I drive for 2 hours, I must listen carefully for 1 hour. 
-
-9. Take exams and then know your limit. Though my IELTS 6 score is good, However, most graduate programs of the top 50 universities need IELTS 6.5 or 7. So be humble.
-
-10. Polish your skills. Write down what you hear on the computer. Just write some notes and some words instead of whole articles. So it's easy. No transcribing software can work better than this way. And write down what you want to share, and share them with your friends.
-
-11. Keep finding ways to learn interesting. Like using DeepL or Grammarly to translate your articles or check your grammar. Like finding foreign friends to talk to. Like using simple English words to chat with your Chinese friend on WeChat.
-
-12. The ultimate way is to think about it all the time. Think in English. Talk to yourself in English all the time. Write in English, Think in English, Listen in English, Read in English, and Speak in English. 
-
-13. Everything can be learned in this way. Think in math, speak in Math, write in math, listen in math, read in math. 
-
-14. In short, as long as you are awake, keep inventing new ways to learn happily about the topic. And then you find that you don't need to learn, you just live with it. It is your soulmate, you live all the time with your soulmate.
+1. 相信你自己，并相信你自己。你是个天才。每个人都是天才。
+2. 在互联网上找到真正的专家。他们知道，并且他们分享很多，像老师尹王。
+3. 在互联网上找到所有有趣的材料。像 Youtube、Bilibili、Tiktok、抖音、腾讯视频、微信频道、Twitter、Google。
+4. 从小事做起。看短片或长片有关材料。只要有英语，就可以看任何东西。
+5. 逐步进行。如果你一点也不懂英语，请在前两个月内学习基本字母和100个简单单词。
+6. 16个小时学习。如果能玩手机，那就玩吧。如果不能玩，那就用蓝牙耳机或扬声器听。开车时听，照顾宝宝时听，做饭时听，直到你睡着。
+7. 疯狂。没有一直学习英语你就不能生活。你必须确保你有一些英语材料可以听，只要你醒着。
+8. 了解自己并专注。让演讲音频在你耳边飘来飘去，你会自动集中时间。当我开车2小时时，我必须认真听1小时。
+9. 参加考试并了解你的极限。虽然我的雅思6分很好，但大多数前50名需要雅思6.5分或7分。所以要谦虚。
+10. 提高技能。把你听到的写在电脑上。只写一些笔记和一些单词，而不是整篇文章。所以很容易。没有转录软件能比这种方法更好。然后写下你想分享的内容，并与朋友分享。
+11. 不断寻找有趣的学习方式。像用 DeepL 或 Grammarly 检查您的语法。像找外国朋友交谈。像用简单的英语单词和中国朋友在微信上聊天。
+12. 最终的方式是一直思考。用英语思考。用英语和自己说话。用英语写，用英语思考，用英语听，用英语读，用英语说话。
+13. 任何东西都可以用这种方式学习。用数学思考，用数学说话，用数学写，用数学听，用数学读。
+14. 简而言之，只要你醒着，就不断发明新的、有趣的学习方式。然后你会发现你不需要学习，你只需要和它一起生活。它是你的灵魂伴侣，你一直和你的灵魂伴侣在一起。
