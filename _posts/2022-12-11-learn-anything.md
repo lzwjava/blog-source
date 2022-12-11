@@ -13,7 +13,7 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 
 4. Start small. You can watch any short videos or long videos as long as they have English.
 
-5. Step by Step. If you don't know English at all, please learn the basic alphabet and 100 simple words for your first two months.
+5. Step by Step. If you don't know English at all, please learn the basic alphabet and 100 simple words for the first two months.
 
 6. 16 hours to learn. If you can play mobile phone, then play it. If you can't play, then listen with a Bluetooth earphone or speaker. Listen when driving. Listen when taking care of your baby. Listen when cooking. Listen when falling asleep.
 
