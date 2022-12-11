@@ -19,7 +19,7 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 
 7. Go crazy. Then you can't leave English for one second. You must ensure you have some English materials to listen to as long as you are awake.
 
-8. Know yourself and keep focus. Let the voices of English float around your ears, you will be naturally focusing time by time. When I drive for 2 hours, I can listen carefully for 1 hour.
+8. Know yourself and keep focus. Let the voices of English float around your ears, you will be naturally focusing time by time. When I drive for 2 hours, I must be able to listen carefully for 1 hour.
 
 9. Take exams and then know your limit. Though my IELTS 6 score is good, However, most graduate programs of the top 50 universities need IELTS 6.5 or 7. So be humble.
 
