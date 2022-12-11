@@ -27,7 +27,7 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 
 11. Keep finding ways to learn interestingly. Like using DeepL to translate or Grammarly to check your grammar. Like finding foreign friends to talk to online. Like using simple English words to chat with your Chinese friend on WeChat.
 
-12. The ultimate way is using English to think all the time. Think in English. Talk to yourself in English all the time.  
+12. The ultimate way is using English to think all the time. Talk to yourself in English all the time.  
 
 13. Everything can be learned in this way. Think in math, speak in Math, write in math, listen in math, read in math. 
 
