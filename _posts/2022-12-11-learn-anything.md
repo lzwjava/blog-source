@@ -35,4 +35,4 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 
 --- 
 
-Comment: What does life do to Zhiwei? He evenly starts talking with himself in English all the time to survive.
+Comment: What does life actually do to Zhiwei? To survive, he evenly talks with himself in English as long as awake.
