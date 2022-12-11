@@ -5,13 +5,13 @@ title: "How To Learn Anything In a Year"
 
 How to learn anything in a year? Let's take English as an example. I spent one year learning English to achieve IELTS 6 score. Here is my way.
 
-1. Trust yourself and believe in yourself. You are a genius. Everyone is a genius.
+1. Trust yourself. You are a genius. Everyone is a genius.
 
 2. Find the real expert on the Internet. They really know, and they share a lot, Like the teacher Yin Wang.
 
 3. Find all interesting materials on the Internet. Like Youtube, Bilibili, Tiktok, Douyin, Tencent Video, WeChat Channels, Twitter, Google. 
 
-4. Start small. Watch short videos or long videos about the topic. You can watch anything as long as it has English.
+4. Start small. You can watch any short videos or long videos as long as it has English.
 
 5. Step by Step. If you don't know English at all, please learn the basic alphabet and 100 simple words for your first two months.
 
@@ -31,4 +31,4 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 
 13. Everything can be learned in this way. Think in math, speak in Math, write in math, listen in math, read in math. 
 
-14. In short, as long as you are awake, keep inventing new ways to learn happily about the topic. And then you find that you don't need to learn, you just live with it. It is your soulmate, you live all the time with your soulmate.
+14. To be short, as long as you are awake, keep inventing new ways to learn happily about the topic. And then you find that you don't need to learn, you just live with it. It is your soulmate, you live all the time with your soulmate.
