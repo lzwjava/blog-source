@@ -32,3 +32,7 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 13. Everything can be learned in this way. Think in math, speak in Math, write in math, listen in math, read in math. 
 
 14. To be short, as long as you are awake, keep inventing new ways to learn happily about the topic. And then you find that you don't need to learn, you just live with it. It is your soulmate, you live all the time with your soulmate.
+
+--- 
+
+Comment: What does life do to Zhiwei? He evenly starts talking with himself in English all the time to survive.
