@@ -21,7 +21,7 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 
 8. Know yourself and be focused. Let the lecture audios float around your ears, you will be automatically focusing time by time. When I drive for 2 hours, I must listen carefully for 1 hour. 
 
-9. Take exams and then know your limit. Though my IELTS 6 score is good, However, most of the top 50 need IELTS 6.5 or 7. So be humble.
+9. Take exams and then know your limit. Though my IELTS 6 score is good, However, most graduate programs of the top 50 universities need IELTS 6.5 or 7. So be humble.
 
 10. Polish your skills. Write down what you hear on the computer. Just write some notes and some words instead of whole articles. So it's easy. No transcribing software can work better than this way. And write down what you want to share, and share them with your friends.
 
