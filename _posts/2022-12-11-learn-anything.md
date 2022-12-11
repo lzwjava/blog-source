@@ -11,7 +11,7 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 
 3. Find all interesting materials on the Internet. Like Youtube, Bilibili, Tiktok, Douyin, Tencent Video, WeChat Channels, Twitter, Google. 
 
-4. Start small. You can watch any short videos or long videos as long as it has English.
+4. Start small. You can watch any short videos or long videos as long as they have English.
 
 5. Step by Step. If you don't know English at all, please learn the basic alphabet and 100 simple words for your first two months.
 
