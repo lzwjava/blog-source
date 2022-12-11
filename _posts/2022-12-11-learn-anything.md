@@ -15,7 +15,7 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 
 5. Step by Step. If you don't know English at all, please learn the basic alphabet and 100 simple words for your first two months.
 
-6. 16 hours to learn. If can play mobile phone, then play it. If can't play, then listen with a Bluetooth earphone or speaker. Listen when driving, Listen when you are taking care of your baby. Listen when you are cooking. Listen until you fall asleep.
+6. 16 hours to learn. If you can play mobile phone, then play it. If you can't play, then listen with a Bluetooth earphone or speaker. Listen when driving. Listen when taking care of your baby. Listen when cooking. Listen when falling asleep.
 
 7. Go crazy. You can't live without learning English all the time. You must ensure you have some English materials to listen to as long as you are awake.
 
@@ -25,7 +25,7 @@ How to learn anything in a year? Let's take English as an example. I spent one y
 
 10. Polish your skills. Write down what you hear on the computer. Just write some notes and some words instead of whole articles. So it's easy. No transcribing software can work better than this way. And write down what you want to share, and share them with your friends.
 
-11. Keep finding ways to learn interesting. Like using DeepL or Grammarly to check your grammer. Like finding foreign friends to talk to. Like using simple English words to chat with your Chinese friend on WeChat.
+11. Keep finding ways to learn interesting. Like using DeepL or Grammarly to check your grammar. Like finding foreign friends to talk to. Like using simple English words to chat with your Chinese friend on WeChat.
 
 12. The ultimate way is to think about it all the time. Think in English. Talk to yourself in English all the time. Write in English, Think in English, Listen in English, Read in English, and Speak in English. 
 
