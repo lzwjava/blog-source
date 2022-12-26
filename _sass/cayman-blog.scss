@@ -71,7 +71,15 @@ $header-bg-color: #7601b1;
 
 ul.post-list {
   list-style: none;
-  padding-inline-start: 20px;
+  padding-inline-start: 6rem;
+
+  @include medium {
+    padding-inline-start: 5rem;
+  }
+
+  @include small {
+    padding-inline-start: 1rem;
+  }
 }
 
 ul.post-list li::before {
