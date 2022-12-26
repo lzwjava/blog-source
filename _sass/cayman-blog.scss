@@ -18,6 +18,10 @@ $header-bg-color: #7601b1;
     max-width: 52rem;
   }
 
+  @include medium {
+    max-width: 52rem;
+  }
+
   h6 {
     color: Psection-headings-color;
   }
@@ -71,15 +75,12 @@ $header-bg-color: #7601b1;
 
 ul.post-list {
   list-style: none;
-  padding-inline-start: 6rem;
-
-  @include medium {
-    padding-inline-start: 5rem;
-  }
+  padding-inline-start: 20%;
 
   @include small {
-    padding-inline-start: 1rem;
+    padding-inline-start: 0%;
   }
+
 }
 
 ul.post-list li::before {
