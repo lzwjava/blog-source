@@ -31,10 +31,13 @@ In the meantime, we can begin to open a development center for foreign companies
 
 I believe in this way, just need 2 or 3 years to change the working language of a company regardless of the company size. At least for the development apartment, engineers are eager to learn.
 
-### AutoGPT - Automatically do your computer task
+### AutoGPT - Automatically do your computer work
 
 I am thinking about AutoGPT. GPT stands for Generative Pre-trained Transformer. It is like ChatGPT. However, it trains based on the input of program interaction. You can input like so, please help me compress this image to 3 copies, one is without loss of quality, one is good to share on the Internet, one is to make the file size as small as possible with a few loss of quality. Then after 5 seconds, you get what you want. 
 
 You can order like so, please help me generate a website project. We use the JDK and Spring Boot frameworks. It has a simple home page. Then after 5 seconds, you get a directory that contains the needed code files.
 
-It sounds amazing? 
+It sounds amazing? How can we make AutoGPT like this? I think we should use data during the program interaction. We should record the keyboard, touchpad, and mousepad input. And we should record the click, text input event. Just like Tesla company uses its users' cars to train the auto driving algorithm, some companies should develop some open-source software to use our computers to train the auto operating algorithm. 
+
+Nowadays, I can get many useful answers from ChatGPT. However, I still need to click here and there and input some codes and texts to do my job. I hope all these can be done by it. So I propose the idea of AutoGPT - automatically do your computer work.
+
