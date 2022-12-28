@@ -7,7 +7,7 @@ If you want to write a long essay and not a boring one, how do you make it? As I
 
 * [How to write long essays](#how-to-write-long-essays)
 * [How to change the working language of a company](#how-to-change-the-working-language-of-a-company)
-* [AutoGPT - Automatically do your computer task](#autogpt---automatically-do-your-computer-task)
+* [AutoGPT - Automatically do your computer work](#autogpt---automatically-do-your-computer-work)
 
 ### How to write long essays
 
