@@ -33,4 +33,8 @@ I believe in this way, just need 2 or 3 years to change the working language of 
 
 ### AutoGPT - Automatically do your computer task
 
-I am thinking about the AutoGPT.
+I am thinking about AutoGPT. GPT stands for Generative Pre-trained Transformer. It is like ChatGPT. However, it trains based on the input of program interaction. You can input like so, please help me compress this image to 3 copies, one is without loss of quality, one is good to share on the Internet, one is to make the file size as small as possible with a few loss of quality. Then after 5 seconds, you get what you want. 
+
+You can order like so, please help me generate a website project. We use the JDK and Spring Boot frameworks. It has a simple home page. Then after 5 seconds, you get a directory that contains the needed code files.
+
+It sounds amazing? 
