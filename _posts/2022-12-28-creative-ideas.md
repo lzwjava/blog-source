@@ -7,6 +7,7 @@ If you want to write a long essay and not a boring one, how do you make it? As I
 
 * [How to write long essays](#how-to-write-long-essays)
 * [How to change the working language of a company](#how-to-change-the-working-language-of-a-company)
+* [AutoGPT - Automatically do your computer task](#autogpt---automatically-do-your-computer-task)
 
 ### How to write long essays
 
@@ -30,3 +31,6 @@ In the meantime, we can begin to open a development center for foreign companies
 
 I believe in this way, just need 2 or 3 years to change the working language of a company regardless of the company size. At least for the development apartment, engineers are eager to learn.
 
+### AutoGPT - Automatically do your computer task
+
+I am thinking about the AutoGPT.
