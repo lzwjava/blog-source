@@ -48,3 +48,7 @@ When I work in a global company, I need to join a lot of online meetings. My hou
 
 I think if we can make mask microphones, it will help a lot in these situations. So I can wear a mask microphone, so my voice will not spread to nearby seats. As its name implies, this kind of microphone looks like a mask, the typical N95 mask. 
 
+When you search the similar products online, you can find that there are already some tools that can help with this. They are designed to help people sing songs loudly. It is like a big cup. However, you need to use your hands to hold it on. If we use it in the meetings, we will find it has some disadvantages.
+
+It is a really big market for this tool. If not, why do people spend extra money to build or rent meeting rooms? Also because online meetings and online collaboration just become popular in recent few years, the market isn't prepared well. 
+
