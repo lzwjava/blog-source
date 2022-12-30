@@ -46,4 +46,5 @@ Nowadays, I can get many useful answers from ChatGPT. However, I still need to c
 
 When I work in a global company, I need to join a lot of online meetings. My housemates too. They are not my direct colleagues. They work in other apartments. They sometimes warn me that my voice is too loud. However, If I need to go outside the meeting room every time, it is very inconvenient. 
 
-I think if we can make mask microphones, it will help a lot in these situations. So I can wear a mask microphone, so my voice will not spread to nearby seats. 
+I think if we can make mask microphones, it will help a lot in these situations. So I can wear a mask microphone, so my voice will not spread to nearby seats. As its name implies, this kind of microphone looks like a mask, the typical N95 mask. 
+
