@@ -9,6 +9,7 @@ If you want to write a long essay and not a boring one, how do you make it? As I
 * [How to change the working language of a company](#how-to-change-the-working-language-of-a-company)
 * [AutoGPT - Automatically do your computer work](#autogpt---automatically-do-your-computer-work)
 * [Mask Microphone - Don't disturb housemates when in meetings](#mask-microphone---dont-disturb-housemates-when-in-meetings)
+* [TikTok Podcast - Short Podcasts](#tiktok-podcast---short-podcasts)
 
 ### How to write long essays
 
@@ -51,4 +52,6 @@ I think if we can make mask microphones, it will help a lot in these situations.
 When you search the similar products online, you can find that there are already some tools that can help with this. They are designed to help people sing songs loudly. It is like a big cup. However, you need to use your hands to hold it on. If we use it in the meetings, we will find it has some disadvantages.
 
 It is a really big market for this tool. If not, why do people spend extra money to build or rent meeting rooms? Also because online meetings and online collaboration just become popular in recent few years, the market isn't prepared well. 
+
+### TikTok Podcast - Short Podcasts
 
