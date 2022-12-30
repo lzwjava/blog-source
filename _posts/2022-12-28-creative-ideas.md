@@ -8,6 +8,7 @@ If you want to write a long essay and not a boring one, how do you make it? As I
 * [How to write long essays](#how-to-write-long-essays)
 * [How to change the working language of a company](#how-to-change-the-working-language-of-a-company)
 * [AutoGPT - Automatically do your computer work](#autogpt---automatically-do-your-computer-work)
+* [Mask Microphone - Don't disturb housemates when in meetings](#mask-microphone---dont-disturb-housemates-when-in-meetings)
 
 ### How to write long essays
 
@@ -41,3 +42,8 @@ It sounds amazing? How can we make AutoGPT like this? I think we should use data
 
 Nowadays, I can get many useful answers from ChatGPT. However, I still need to click here and there and input some codes and texts to do my job. I hope all these can be done by it. So I propose the idea of AutoGPT - automatically do your computer work.
 
+### Mask Microphone - Don't disturb housemates when in meetings
+
+When I work in a global company, I need to join a lot of online meetings. My housemates too. They are not my direct colleagues. They work in other apartments. They sometimes warn me that my voice is too loud. However, If I need to go outside the meeting room every time, it is very inconvenient. 
+
+I think if we can make mask microphones, it will help a lot in these situations. So I can wear a mask microphone, so my voice will not spread to nearby seats. 
