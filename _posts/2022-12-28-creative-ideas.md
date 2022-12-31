@@ -55,3 +55,11 @@ It is a really big market for this tool. If not, why do people spend extra money
 
 ### TikTok Podcast - Short Podcasts
 
+I am both a fan of TikTok and Podcast. So one day, an idea came into my mind -- could we combine these two products into one. The typical podcast episode is an hour long. It is too long. Could we have short episodes and the app will automatically recommend our favorite ones to us?
+
+Though there are already a ton of podcast channels, however sometimes I still feel bored after listening to my favorite channel for too long. People lack the patience to watch long videos. So the short videos become viral. People become much more patient to listen to podcasts. 
+
+When I listen to podcasts, I never think that I need to finish them. I don't have finishing anxiety. I don't know whether it is because the reason I listen to them is that I hope I can learn English better this way. I just want to have some English materials to listen to whenever I am awake. So I become very patient when listening to them. I even listen to one episode again and again, even for a whole week. 
+
+Things become very interesting here. When I am watching movies, I am anxious to finish them quickly. Because after finishing it, I can mark this movie as watched in the Douban app. It reminds me of a famous quote, you get what you measure. 
+
