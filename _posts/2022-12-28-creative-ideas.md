@@ -65,4 +65,5 @@ Things become very interesting here. When I am watching movies, I am anxious to 
 
 Let's come back to our topic. When you listen to 60 1-minute length episodes, you get various kinds of information instead of just one topic. However, we should play every short episode once or we should repeat it again and again until we use some mechanism to tell it to play next. In the TikTok app, you can use your finger to swipe to control. However, in the audio app, we may better use our voice to control it.
 
-One thing we don't do that is because in 15 seconds short video, we can express a lot. However, in one minute audio, we can't express a lot. 
+One thing we don't do that is in 15 seconds short video, we can express a lot. However, in one-minute audio, we can't express a lot. I suspect this kind of reason. The format of the content is important. The short videos app was such a surprise when it come out. I believe that the short podcasts app was not a bad idea.
+
