@@ -63,3 +63,6 @@ When I listen to podcasts, I never think that I need to finish them. I don't hav
 
 Things become very interesting here. When I am watching movies, I am anxious to finish them quickly. Because after finishing it, I can mark this movie as watched in the Douban app. It reminds me of a famous quote, you get what you measure. 
 
+Let's come back to our topic. When you listen to 60 1-minute length episodes, you get various kinds of information instead of just one topic. However, we should play every short episode once or we should repeat it again and again until we use some mechanism to tell it to play next. In the TikTok app, you can use your finger to swipe to control. However, in the audio app, we may better use our voice to control it.
+
+One thing we don't do that is because in 15 seconds short video, we can express a lot. However, in one minute audio, we can't express a lot. 
