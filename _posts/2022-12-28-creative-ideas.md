@@ -70,4 +70,6 @@ One thing we don't do that is in 15 seconds short video, we can express a lot. H
 
 ### The Programmable Electric Oven
 
-One of the thing that make software more interesting than hardware is software is more flexible. You can change the software to do whatever you want. However, hardware is not. Hardware is pretty fixed. Regarding the electric oven, sometimes I want it work just like software. For example, I want to cook meat and sausage at the same time. This two kinds of food need different temperature and time. 
+One of the thing that make software more interesting than hardware is software is more flexible. You can change the software to do whatever you want. However, hardware is not. Hardware is pretty fixed. Regarding the electric oven, sometimes I want it work just like software. 
+
+For example, I want to cook meat and sausage at the same time. This two kinds of food need different temperature and time. Meat normally need 25 mintues of 200 Celsius degrees cooking. Sausage need 8 minutes of 180 Celsius degress cooking. 
