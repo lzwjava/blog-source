@@ -10,6 +10,7 @@ If you want to write a long essay and not a boring one, how do you make it? As I
 * [AutoGPT - Automatically do your computer work](#autogpt---automatically-do-your-computer-work)
 * [Mask Microphone - Don't disturb housemates when in meetings](#mask-microphone---dont-disturb-housemates-when-in-meetings)
 * [TikTok Podcast - Short Podcasts](#tiktok-podcast---short-podcasts)
+* [The Programmable Electric Oven](#the-programmable-electric-oven)
 
 ### How to write long essays
 
@@ -67,3 +68,6 @@ Let's come back to our topic. When you listen to 60 1-minute length episodes, yo
 
 One thing we don't do that is in 15 seconds short video, we can express a lot. However, in one-minute audio, we can't express a lot. I suspect this kind of reason. The format of the content is important. The short videos app was such a surprise when it come out. I believe that the short podcasts app was not a bad idea.
 
+### The Programmable Electric Oven
+
+One of the thing that make software more interesting than hardware is software is more flexible. You can change the software to do whatever you want. However, hardware is not. Hardware is pretty fixed. Regarding the electric oven, sometimes I want it work just like software. For example, I want to cook meat and sausage at the same time. This two kinds of food need different temperature and time. 
