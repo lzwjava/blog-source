@@ -87,5 +87,5 @@ We first want to get a programmable electric oven, then finally we get an auto e
 
 Regarding the auto washer, no matter how many clothes you put into it, no matter what the clothing material they are, the auto washer will use a suitable amount of water, a suitable amount of time and a suitable program to do its best to clean them up. 
 
-Regarding the auto dryer, no matter how many clothes you put into it, no matter how wet the clothes are, the auto dryer will use a suitable amount of time, use a suitable level of heat to do its best to dry them up. 
+Regarding the auto dryer, no matter how many clothes you put into it, no matter how wet the clothes are, the auto dryer will use a suitable amount of time and use a suitable level of heat to do its best to dry them up. 
 
