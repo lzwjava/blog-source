@@ -83,6 +83,9 @@ How about if it also has network communication ability? I think the interesting 
 
 ### Auto Washer, Auto Dryer
 
-We first want to get a programmable electric oven, then finally we get an auto electric oven. Like similarly, we maybe get an auto washer, auto dryer etc. The washer and dryer only retain a button -- the start button. Just like the mobile phone, the start button and the volume button, though the latter is not necessary. 
+We first want to get a programmable electric oven, then finally we get an auto electric oven. Similarly, we maybe get an auto washer, auto dryer etc. The washer and dryer only retain a button -- the start button. Just like the mobile phone, the start button and the volume button, though the latter is not necessary. 
 
-Regarding the auto washer, no matter how many clothes you put into it, no matter what the clothing material they are, the auto washer will use a suitable amount of water, a suitable time and a suitable program to do its best to clean them up. 
+Regarding the auto washer, no matter how many clothes you put into it, no matter what the clothing material they are, the auto washer will use a suitable amount of water, a suitable amount of time and a suitable program to do its best to clean them up. 
+
+Regarding the auto dryer, no matter how many clothes you put into it, no matter how wet the clothes are, the auto dryer will use a suitable amount of time, use a suitable level of heat to do its best to dry them up. 
+
