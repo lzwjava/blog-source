@@ -70,6 +70,12 @@ One thing we don't do that is in 15 seconds short video, we can express a lot. H
 
 ### The Programmable Electric Oven
 
-One of the thing that make software more interesting than hardware is software is more flexible. You can change the software to do whatever you want. However, hardware is not. Hardware is pretty fixed. Regarding the electric oven, sometimes I want it work just like software. 
+One of the things that make the software more interesting than software is more flexible. You can change the software to do whatever you want. However, hardware is not. The hardware is pretty fixed. Regarding the electric oven, sometimes I want it to work just like software. 
 
-For example, I want to cook meat and sausage at the same time. This two kinds of food need different temperature and time. Meat normally need 25 mintues of 200 Celsius degrees cooking. Sausage need 8 minutes of 180 Celsius degress cooking. 
+For example, I want to cook meat and sausage at the same time. These two kinds of food need different temperatures and times. Meat normally needs 25 minutes of 200 Celsius degrees cooking. Sausage needs 8 minutes of 180 Celsius degrees cooking. If the electric oven is programmable, how can we heat these two ingredients at the same time? One thing I think is that let us use two plates to hold two ingredients. Let the top plate hold the meat, and let the bottom plate hold the sausage. And let the top tube heat for 25 minutes at 200 Celsius degrees. And let the bottom tube heat for 3 minutes at 180 Celsius degrees cooking. 
+
+And sometimes, we want the top tube to be heated for 10 minutes at 100 Celsius degrees, and then for 10 minutes at 200 Celsius degrees. 
+
+If the electric oven is just like the mobile phone, we can write programs to control it, then people surely can invent many applications to use it thoroughly. If it is programmable, so it works like a mobile phone. Then we can do more interesting things. For example, it can open the door by code. So it can cool down after finishing the heating. Maybe we can put a lot of ingredients, like meat, beef balls, chicken wings, hot dogs, and dried squids all into the oven, and separate it with 3 plates, and we use our dedicated program to control the heat level and time. And after 1 hour, all food is ready and cooled down a bit, so we can eat them at their best state. 
+
+How about if it also has network communication ability? I think the interesting thing about it is not that the oven can be controlled remotely. However, maybe it so has the real-time analyzing ability. It is auto-driving training. If we can have a lot of the electric oven cooking data, then we probably know how to cook the best food. 
