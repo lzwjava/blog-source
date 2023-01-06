@@ -11,6 +11,7 @@ If you want to write a long essay and not a boring one, how do you make it? As I
 * [Mask Microphone - Don't disturb housemates when in meetings](#mask-microphone---dont-disturb-housemates-when-in-meetings)
 * [TikTok Podcast - Short Podcasts](#tiktok-podcast---short-podcasts)
 * [The Programmable Electric Oven](#the-programmable-electric-oven)
+* [Auto Washer, Auto Dryer](#auto-washer-auto-dryer)
 
 ### How to write long essays
 
@@ -78,5 +79,10 @@ And sometimes, we want the top tube to be heated for 10 minutes at 100 Celsius d
 
 If the electric oven is just like the mobile phone, we can write programs to control it, then people surely can invent many applications to use it thoroughly. If it is programmable, so it works like a mobile phone. Then we can do more interesting things. For example, it can open the door by code. So it can cool down after finishing the heating. Maybe we can put a lot of ingredients, like meat, beef balls, chicken wings, hot dogs, and dried squids all into the oven, and separate it with 3 plates, and we use our dedicated program to control the heat level and time. And after 1 hour, all food is ready and cooled down a bit, so we can eat them at their best state. 
 
-How about if it also has network communication ability? I think the interesting thing about it is not that the oven can be controlled remotely. However, maybe it so has the real-time analyzing ability. It is auto-driving training. If we can have a lot of the electric oven cooking data, then we probably know how to cook the best food. Solving the auto-driving problem is too hard, however solving the auto-cooking problem is not that hard. 
+How about if it also has network communication ability? I think the interesting thing about it is not that the oven can be controlled remotely. However, maybe it so has the real-time analyzing ability. It is like auto-driving training. If we can have a lot of the electric oven cooking data, then we probably know how to cook the best food. Solving the auto-driving problem is too hard, however solving the auto-cooking problem is not that hard. 
 
+### Auto Washer, Auto Dryer
+
+We first want to get a programmable electric oven, then finally we get an auto electric oven. Like similarly, we maybe get an auto washer, auto dryer etc. The washer and dryer only retain a button -- the start button. Just like the mobile phone, the start button and the volume button, though the latter is not necessary. 
+
+Regarding the auto washer, no matter how many clothes you put into it, no matter what the clothing material they are, the auto washer will use a suitable amount of water, a suitable time and a suitable program to do its best to clean them up. 
