@@ -62,8 +62,8 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ## Projects
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
-* I also made some open-source projects. 
-* I wrote Chinese and English articles (2 English, and 50 Chinese) on my blog site. 
+* Made some open-source projects. 
+* Wrote Chinese and English articles (2 English, and 50 Chinese) on my blog site. 
 * Solved 399 algorithm problems on Codeforces and 568 on Uva Online Judge. 
 * Links are below.
 
@@ -75,7 +75,6 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ### PayMe, 2022.11 - Present
 * PayMe is a mobile payment service from HSBC, available for Hong Kong users with local phone numbers and banks. As of Nov 2022, the service had around 2.9 million active users.
 * Working on some microservice development of PayMe APIs, like auto top-up.
-
 
 ### DBS Digibank CN, 2022.07 - 2022.11
 * DBS Digibank, powered by DBS, is an entire bank squeezed to fit into smartphones. 
