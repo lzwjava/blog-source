@@ -14,15 +14,15 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ## Profiles
 
 * I am a genius. Because I believe everybody is a genius. To be specific, I am an engineer, startup founder, blogger, and lifelong learner. 
-* I had tracks of excellence in my 27 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 in China), I dropped out to work in a startup and then create my one. In my three years of startup experience, I built an engineering live broadcast platform that served 30k users and then led a team to do 50 small software projects for clients. The team earned 3 million CNY a year. And now, I am working as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
-* Regarding technical experience, I have 5 years of backend engineering experience(3 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served people. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. 
+* I had tracks of excellence in my 28 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 in China), I dropped out to work in a startup and then create my one. In my three years of startup experience, I built an engineering live broadcast platform that served 30k users and then led a team to do 50 small software projects for clients. The team earned 3 million CNY a year. And now, I am working as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
+* Regarding technical experience, I have 5 years of backend engineering experience(4 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served people. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. 
 * Regarding my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
 
 ## Work Experience
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - Present
 * HSBC Bank is one of the largest banking and financial services institutions in the world.
-* Joined as HSBC Bank contractor through Farben. Working on the Hong Kong PayMe project.
+* Joined as HSBC Bank contractor through Farben. Working on the Hong Kong PayMe project. We used tools like Java, Spring, Azure and Azure DevOps.
 
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
 
@@ -72,6 +72,11 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * Worked in English for one year in a major international company.
 * Got a score of 6.0(Reading Listening Writing 6.0, Speaking 5.5) on the IELTS(International English Language Testing System). 
 
+### PayMe, 2022.11 - Present
+* PayMe is a mobile payment service from HSBC, available for Hong Kong users with local phone numbers and banks. As of Nov 2022, the service had around 2.9 million active users.
+* Working on some microservice development of PayMe APIs, like auto top-up.
+
+
 ### DBS Digibank CN, 2022.07 - 2022.11
 * DBS Digibank, powered by DBS, is an entire bank squeezed to fit into smartphones. 
 * I was responsible for some microservice development of Digibank APIs, like mutual funds. We used technologies like Java, Spring Cloud, Pivotal Cloud Foundry, Jenkins, and TDD.
@@ -100,7 +105,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ## Skills
 
 * Advanced: Chinese, English, Java, PHP, iOS, Android, Spring, Algorithm, Vue, TDD, HTML
-* Intermediate: Product Management, C++, DevOps, Go
+* Intermediate: Product Management, C++, DevOps, Go, Cloud Platform
 * Beginner: NLP, TensorFlow, Hardware, Compiler, Rust, Ruby, Angular, Docker, Big Data
 
 ## Links
