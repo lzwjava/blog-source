@@ -1,9 +1,9 @@
 title: 李智维 | Zhiwei Li
 email: lzwjava@gmail.com
-description: >- 
+description: >-
   freedom truth love
-baseurl: "" 
-url: "https://lzwjava.github.io" 
+baseurl: ""
+url: "https://lzwjava.github.io"
 
 tagline: freedom truth love
 
@@ -13,7 +13,7 @@ author:
 
 twitter:
   username: lzwjava
-  card: summary_large_image  
+  card: summary_large_image
 
 social:
   name: Zhiwei Li
@@ -21,11 +21,11 @@ social:
     - https://twitter.com/lzwjava
     - https://weibo.com/zhiweilee
     - https://github.com/lzwjava
-    - https://www.zhihu.com/people/lzwjava    
-  
+    - https://www.zhihu.com/people/lzwjava
+
 theme: jekyll-theme-cayman
 
-google_analytics: 'UA-66656236-1'
+google_analytics: "UA-66656236-1"
 
 permalink: /:title
 
@@ -38,3 +38,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+markdown: kramdown
