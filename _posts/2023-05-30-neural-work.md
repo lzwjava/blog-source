@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What I Know About Neural Work"
+title: "What I Know about Neural Network"
 usemathjax: true
 ---
 
@@ -41,19 +41,32 @@ But these weights and a bias are for $$neuron^2_{1}$$(the first one in the secon
 
 How about the sigmoid function? We use the sigmoid function to map the value of the above from 0 to 1. 
 
+$$
 \begin{eqnarray} 
   \sigma(z) \equiv \frac{1}{1+e^{-z}}.
 \end{eqnarray}
+$$
 
+$$
 \begin{eqnarray} 
   \frac{1}{1+\exp(-\sum_j w_j x_j-b)}.
 \end{eqnarray}
+$$
 
 We also use the sigmoid function to activate the first layer. That said, we change that grayscale value to the range from 0 to 1. So now, every neuron in every layer has a value from 0 to 1. 
 
 So now for our two-layer network, the first layer has 784 neurons, and the second layer has 10 neurons. We train it to get the weights and biases. 
 
-We have 784 * 10 weights and 10 biases. In the second layer, for every neuron, we will use 784 weights and 1 biases to calculate its value.
+We have 784 * 10 weights and 10 biases. In the second layer, for every neuron, we will use 784 weights and 1 biases to calculate its value. The code here like, 
+
+```python
+    def __init__(self, sizes):
+        self.num_layers = len(sizes)
+        self.sizes = sizes
+        self.biases = [np.random.randn(y, 1) for y in sizes[1:]]
+        self.weights = [np.random.randn(y, x)
+                        for x, y in zip(sizes[:-1], sizes[1:])]
+```
 
 ## Feedforward
 
@@ -61,5 +74,94 @@ We have 784 * 10 weights and 10 biases. In the second layer, for every neuron, w
 
 Notice here, we use the value of the last layer, that is $$a^{l-1}$$ and the current layer's weight, $$w^l$$ and its bias $$b^l$$ to do the sigmoid to get the value of the current layer, $$a^{l}$$. 
 
+Code:
+
+```python
+        nabla_b = [np.zeros(b.shape) for b in self.biases]
+        nabla_w = [np.zeros(w.shape) for w in self.weights]
+        # feedforward
+        activation = x
+        activations = [x] 
+        zs = [] 
+        for b, w in zip(self.biases, self.weights):
+            z = np.dot(w, activation)+b
+            zs.append(z)
+            activation = sigmoid(z)
+            activations.append(activation)
+```
+
+
 ## Output error
+
+> Output error $$\delta^{L}$$: Compute the vector $$\delta^{L} = \nabla_a C \odot \sigma'(z^L)$$
+
+Let's see what the $$\nabla$$ mean.
+
+> Del, or nabla, is an operator used in mathematics (particularly in vector calculus) as a vector differential operator, usually represented by the nabla symbol ∇. 
+
+$$
+\begin{eqnarray}
+  w_k & \rightarrow & w_k' = w_k-\eta \frac{\partial C}{\partial w_k} \\
+  b_l & \rightarrow & b_l' = b_l-\eta \frac{\partial C}{\partial b_l}
+\end{eqnarray}
+$$
+
+Here $$\eta $$ is the learning rate. We use the derivative that C is respective to the weights and the bias, that is the rate change between them. That is `sigmoid_prime` in the below.
+
+Code:
+
+```python
+        delta = self.cost_derivative(activations[-1], y) * \
+            sigmoid_prime(zs[-1])
+        nabla_b[-1] = delta
+        nabla_w[-1] = np.dot(delta, activations[-2].transpose())
+```
+
+```python
+    def cost_derivative(self, output_activations, y):
+        return (output_activations-y)
+```
+
+## Backpropagate the error
+
+> Backpropagate the error: For each l=L−1,L−2,…,2, compute $$\delta^{l} = ((w^{l+1})^T \delta^{l+1}) \odot \sigma'(z^{l})$$
+
+```python
+     for l in range(2, self.num_layers):
+            z = zs[-l]
+            sp = sigmoid_prime(z)
+            delta = np.dot(self.weights[-l+1].transpose(), delta) * sp
+            nabla_b[-l] = delta
+            nabla_w[-l] = np.dot(delta, activations[-l-1].transpose())
+        return (nabla_b, nabla_w)
+```
+
+## Output
+
+> Output: The gradient of the cost function is given by $$\frac{\partial C}{\partial w^l_{jk}} = a^{l-1}_k \delta^l_j$$
+and $$\frac{\partial C}{\partial b^l_j} = \delta^l_j $$
+
+```python
+    def update_mini_batch(self, mini_batch, eta):
+        nabla_b = [np.zeros(b.shape) for b in self.biases]
+        nabla_w = [np.zeros(w.shape) for w in self.weights]
+        for x, y in mini_batch:
+            delta_nabla_b, delta_nabla_w = self.backprop(x, y)
+            nabla_b = [nb+dnb for nb, dnb in zip(nabla_b, delta_nabla_b)]
+            nabla_w = [nw+dnw for nw, dnw in zip(nabla_w, delta_nabla_w)]
+        self.weights = [w-(eta/len(mini_batch))*nw
+                        for w, nw in zip(self.weights, nabla_w)]
+        self.biases = [b-(eta/len(mini_batch))*nb
+                       for b, nb in zip(self.biases, nabla_b)]
+```
+
+## Final
+
+It is a short article. And in the most part, it just shows the code and math formula. But it is fine to me. Before writing it, I don't understand clearly. After writing or just copying snippets from code and book, I understand most of it. After gaining confidence from the teacher Yin Wang, reading about 30% of the book *Neural Networks and Deep Learning*, listening to the Andrej Karpathy's Standford lectures and Andrew Ng's courses, discussing with my friend Qi, and tweaking with Anaconda, numpy, and Theano libraries to make the code years ago work, I now understand it. 
+
+One of the key points is the dimensions. We should know the dimensions of every symbol and variable. And it just does the differentiable computation. Let's end with Yin Wang's quotes:
+
+> Machine learning is really useful, one might even say beautiful theory, because it is simply calculus after a makeover! It is the old and great theory of Newton, Leibniz, in a simpler, elegant and powerful form. Machine learning is basically the use of calculus to derive and fit some functions, and deep learning is the fitting of more complex functions. 
+
+> There is no 'intelligence' in artificial intelligence, no 'neural' in neural network, no 'learning' in machine learning, and no 'depth' in deep learning. There is no 'depth' in deep learning. What really works in this field is called 'calculus'. So I prefer to call this field 'differentiable computing', and the process of building models is called 'differentiable programming'.
 
