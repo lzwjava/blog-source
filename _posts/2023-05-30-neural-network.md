@@ -4,7 +4,7 @@ title: "I Finally Understand How Neural Network Works"
 usemathjax: true
 ---
 
-[中文翻译：我终于明白了神经网络是如何工作的](../nerual-network-cn)
+[中文翻译：我终于明白了神经网络是如何工作的](./nerual-network-cn)
 
 Let's directly discuss the core of neural work. That said, the backpropagation algorithm:
 
