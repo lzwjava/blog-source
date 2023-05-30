@@ -15,4 +15,4 @@ and $$\frac{\partial C}{\partial b^l_j} = \delta^l_j $$
 
 Is it overwhelming? It might be at the first time you see it. But it is not after one month of studying around it. Let me explain.
 
-There are 5 phases. The first phase is Input.
+There are 5 phases. The first phase is Input...
