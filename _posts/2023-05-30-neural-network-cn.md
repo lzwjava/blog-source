@@ -92,7 +92,7 @@ $$
 
 ## 输出错误
 
-> 输出误差$$delta^{L}$$： 计算矢量 $$\delta^{L} = \nabla_a C \odot \sigma'(z^L)$$
+> 输出误差 $$\delta^{L}$$： 计算矢量 $$\delta^{L} = \nabla_a C \odot \sigma'(z^L)$$
 
 让我们看看$$nabla$意味着什么。
 
