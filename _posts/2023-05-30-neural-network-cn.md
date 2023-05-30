@@ -8,7 +8,7 @@ usemathjax: true
 
 1. 输入x： 为输入层设置相应的激活值$a^{1}$。
 2. 前馈式： 对于每个l=2,3,...,L计算$$z^{l} = w^l a^{l-1}+b^l$$和$$a^{l} = \sigma(z^{l})$$
-3. 输出误差$$delta^{L}$$： 计算矢量 $$\delta^{L} = \nabla_a C \odot \sigma'(z^L)$$
+3. 输出误差 $$\delta^{L}$$： 计算矢量 $$\delta^{L} = \nabla_a C \odot \sigma'(z^L)$$
 4. 反向传播误差： 对于每个l=L-1,L-2,...,2，计算$$\delta^{l} = ((w^{l+1})^T \delta^{l+1}) \odot \sigma'(z^{l})$$
 5. 输出： 成本函数的梯度由 $$\frac{\partial C}{\partial w^l_{jk}} = a^{l-1}_k \delta^l_j$$ 和 $$\frac{\partial C}{\partial b^l_j} = \delta^l_j $$ 给出。
 
