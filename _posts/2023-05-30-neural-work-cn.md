@@ -90,7 +90,6 @@ $$
             activations.append(activation)
 ```
 
-
 ## 输出错误
 
 > 输出误差$$delta^{L}$$： 计算矢量 $$\delta^{L} = \nabla_a C \odot \sigma'(z^L)$$
