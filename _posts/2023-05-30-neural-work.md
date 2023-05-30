@@ -15,6 +15,8 @@ and $$\frac{\partial C}{\partial b^l_j} = \delta^l_j $$
 
 This is copied from Michael Nelson's book *Neural Networks and Deep Learning*. Is it overwhelming? It might be at the first time you see it. But it is not after one month of studying around it. Let me explain.
 
+## Input
+
 There are 5 phases. The first phase is Input. Here we use handwritten digits as input. Our task is to recognize them. One handwritten digit has 784 pixels, which is 28*28. In every pixel, there is a grayscale value which is range from 0 to 255. So the activation means that we use some function to activate it, to change its original value to a new value for the convenience of processing. 
 
 Say, we have now 1000 pictures of 784 pixels. We now train it to recognize what digit they show. We have now 100 pictures to test that learning effect. If the program can recognize 97 pictures' digits, we say its accuracy is 97%.
@@ -37,7 +39,27 @@ $$w_1*a_1 + w_2*a_2+...+ w_{784}*a_{784}+b_1$$
 
 But these weights and a bias are for $$neuron^2_{1}$$(the first one in the second layer). To the $$neuron^2_{2}$$, we need another set of weights and a bias. 
 
-How about the activation? 
+How about the sigmoid function? We use the sigmoid function to map the value of the above from 0 to 1. 
 
+\begin{eqnarray} 
+  \sigma(z) \equiv \frac{1}{1+e^{-z}}.
+\end{eqnarray}
 
+\begin{eqnarray} 
+  \frac{1}{1+\exp(-\sum_j w_j x_j-b)}.
+\end{eqnarray}
+
+We also use the sigmoid function to activate the first layer. That said, we change that grayscale value to the range from 0 to 1. So now, every neuron in every layer has a value from 0 to 1. 
+
+So now for our two-layer network, the first layer has 784 neurons, and the second layer has 10 neurons. We train it to get the weights and biases. 
+
+We have 784 * 10 weights and 10 biases. In the second layer, for every neuron, we will use 784 weights and 1 biases to calculate its value.
+
+## Feedforward
+
+> Feedforward: For each l=2,3,…,L compute $$z^{l} = w^l a^{l-1}+b^l$$ and $$a^{l} = \sigma(z^{l})$$
+
+Notice here, we use the value of the last layer, that is $$a^{l-1}$$ and the current layer's weight, $$w^l$$ and its bias $$b^l$$ to do the sigmoid to get the value of the current layer, $$a^{l}$$. 
+
+## Output error
 
