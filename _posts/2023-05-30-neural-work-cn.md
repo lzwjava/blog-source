@@ -60,12 +60,12 @@ $$
 我们有784*10个权重和10个偏置。在第二层，对于每个神经元，我们将使用784个权重和1个偏置来计算其值。这里的代码像、 
 
 ```python
-    def __init__(self, sizes)：
-        self.num_layers = len( sizes)
-        self.size = sizes
-        self.biases = [np.random.randn(y, 1) for y in sizes[1:]] 。
+    def __init__(self, sizes):
+        self.num_layers = len(sizes)
+        self.sizes = sizes
+        self.biases = [np.random.randn(y, 1) for y in sizes[1:]]
         self.weights = [np.random.randn(y, x)
-                        for x, y in zip( sizes[:-1], sizes[1:])]
+                        for x, y in zip(sizes[:-1], sizes[1:])]
 ```
 
 ## 前馈
@@ -78,12 +78,12 @@ $$
 
 ```python
         nabla_b = [np.zeros(b.shape) for b in self.biases]
-        nabla_w = [np.zeros(w.shape) for w in self.weights].
-        # 前馈式
-        激活 = x
-        激活 = [x］ 
+        nabla_w = [np.zeros(w.shape) for w in self.weights]
+        # feedforward
+        activation = x
+        activations = [x] 
         zs = [] 
-        for b, w in zip(self.biases, self.weights)：
+        for b, w in zip(self.biases, self.weights):
             z = np.dot(w, activation)+b
             zs.append(z)
             activation = sigmoid(z)
