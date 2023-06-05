@@ -72,6 +72,10 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * Worked in English for one year in a major international company.
 * Got a score of 6.0(Reading Listening Writing 6.0, Speaking 5.5) on the IELTS(International English Language Testing System). 
 
+### Machine Learning, 2021-03 to Present
+* Spent around one year actively exploring machine learning in my leisure time. Listened to a lot of lectures shared by AI industry leaders on topics like Reinforcement Learning, Supervised Learning, Policy Gradient, Neural Networks, Soft Max, Feedforward, Backpropagation, etc. 
+* Wrote some related blogs on my website, such as https://lzwjava.github.io/neural-network, and conducted experiments with famous open-source projects. 
+
 ### PayMe, 2022.11 - Present
 * PayMe is a mobile payment service from HSBC, available for Hong Kong users with local phone numbers and banks. As of Nov 2022, the service had around 2.9 million active users.
 * Working on some microservice development of PayMe APIs, like auto top-up.
