@@ -15,14 +15,15 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 * I am a genius. Because I believe everyone is a genius. To be specific, I am an engineer, startup founder, blogger, and lifelong learner.
 * I had tracks of excellence in my 28 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 in China), I dropped out to work in a startup and then create my one. In my three years of startup experience, I built an engineering live broadcast platform that served 30k users and then led a team to do 50 small software projects for clients. The team earned 3 million CNY a year. And now, I am working as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
-* Regarding technical experience, I have 6 years of backend engineering experience(4 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served people. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. In recent one year, I also actively learn Artificial Intelligence and Japanese in my leisure time to raise my boundearies of intelligence.
+* Regarding technical experience, I have 6 years of backend engineering experience(4 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served users. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. In the recent year, I also actively learn Artificial Intelligence and Japanese in my leisure time to raise my boundaries of intelligence.
 * Regarding my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
 
 ## Work Experience
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - Present
 * HSBC Bank is one of the largest banking and financial services institutions in the world.
-* Joined as HSBC Bank contractor through Farben. Working on the Hong Kong PayMe project. We used tools like Java, Spring, Kafka, Azure, Azure DevOps, and AWS.
+* Joined as HSBC Bank contractor through Farben. Working on the PayMe project. PayMe is a mobile payment service from HSBC, available for Hong Kong users with local phone numbers and banks. As of Nov 2022, the service had around 2.9 million active users.
+* We used tools like Java, Spring, Kafka, Azure, Azure DevOps, and AWS.
 
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
 
