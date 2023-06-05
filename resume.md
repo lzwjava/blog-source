@@ -13,16 +13,16 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ## Profiles
 
-* I am a genius. Because I believe everybody is a genius. To be specific, I am an engineer, startup founder, blogger, and lifelong learner. 
+* I am a genius. Because I believe everyone is a genius. To be specific, I am an engineer, startup founder, blogger, and lifelong learner.
 * I had tracks of excellence in my 28 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 in China), I dropped out to work in a startup and then create my one. In my three years of startup experience, I built an engineering live broadcast platform that served 30k users and then led a team to do 50 small software projects for clients. The team earned 3 million CNY a year. And now, I am working as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
-* Regarding technical experience, I have 6 years of backend engineering experience(4 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served people. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. 
+* Regarding technical experience, I have 6 years of backend engineering experience(4 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served people. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. In recent one year, I also actively learn Artificial Intelligence and Japanese in my leisure time to raise my boundearies of intelligence.
 * Regarding my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
 
 ## Work Experience
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - Present
 * HSBC Bank is one of the largest banking and financial services institutions in the world.
-* Joined as HSBC Bank contractor through Farben. Working on the Hong Kong PayMe project. We used tools like Java, Spring, Azure and Azure DevOps.
+* Joined as HSBC Bank contractor through Farben. Working on the Hong Kong PayMe project. We used tools like Java, Spring, Kafka, Azure, Azure DevOps, and AWS.
 
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
 
@@ -38,7 +38,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ### Beijing Square Root Inc, Founder & Engineer, 2016.07 - 2019.12
 
 * From January 2018 to December 2019, the team completed nearly 50 small software projects for customers. The types of projects include small programs, apps, websites, and games. Customers include a few big companies and some startups in China. The revenue exceeded 3 million RMB and the profit exceeded 700 thousand RMB. The team had more than 20 full-time or part-time engineers and designers. Responsible for project negotiation, project management, and some software development in the team.
-* From July 2016 to September 2017, Fun Live, a live broadcast platform for software engineering lectures, was launched. In one year, nearly 30,000 users were obtained. Started my own business for the first time, and the marketing and R&D were mainly done by myself. 
+* From July 2016 to September 2017, Fun Live, a live broadcast platform for software engineering lectures, was launched. In one year, nearly 30,000 users were obtained. Started my own business for the first time, and the marketing, software development was mainly done by myself. 
 * During these years, I used technologies like PHP, Java, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
 
 ### LeanCloud, Software Engineer, 2014.07 - 2015.11
@@ -63,7 +63,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
 * Made some open-source projects. 
-* Wrote Chinese and English articles (2 English, and 50 Chinese) on my blog site. 
+* Wrote Chinese and English articles (9 English, and 50 Chinese) on my blog site. 
 * Solved 399 algorithm problems on Codeforces and 568 on Uva Online Judge. 
 * Links are below.
 
