@@ -82,14 +82,14 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * PayMe, Java, 2022.11 - Present
 * DBS Digibank CN & Client Connect, Java, 2021.12 - 2022.11
 * ShowMeBug, Ruby, 2021.07 - 2021.09
-* Fun Live & Square Root miscellaneous projects for customers, PHP & Java & Vue, 2016.07 - 2019.12
+* Fun Live & Square Root miscellaneous projects, PHP & Java & Vue, 2016.07 - 2019.12
 * LeanChat, iOS & Android, 2014.07 - 2015.10
 * The detail can be found above.
 
 ## Skills
 
 * Advanced: Chinese, English, Java, PHP, iOS, Android, Spring, Algorithm, Vue, TDD, HTML, Linux
-* Intermediate: Product Management, C++, DevOps, Go, Cloud Platform(Azure, AWS)
+* Intermediate: Product Management, C++, DevOps, Go, Azure & AWS
 * Beginner: NLP, TensorFlow, Hardware, Compiler, Rust, Ruby, Angular, Docker, Big Data, Machine Learning, Python, Japanese, Kubenetes
 
 ## Expectation
