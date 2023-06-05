@@ -22,13 +22,13 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - Present
 * HSBC Bank is one of the largest banking and financial services institutions in the world.
-* Joined as HSBC Bank contractor through Farben. Working on the PayMe project. PayMe is a mobile payment service from HSBC, available for Hong Kong users with local phone numbers and banks. As of Nov 2022, the service had around 2.9 million active users.
-* We used tools like Java, Spring, Kafka, Azure, Azure DevOps, and AWS.
+* I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services, boasted around 2.9 million active users as of November 2022.
+* We utilized a strong tech stack including Java, Spring, Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
 
 * DBS Bank is a Singaporean multinational banking and financial services corporation. 
-* Joined as DBS Bank contractor through Beyondsoft. I contributed to two significant projects: DBS Client Connect, where my responsibilities included the development of the equity trading micro-service, and DBS DigiBank CN, where I was involved in the development of several micro-services, including those for mutual funds.
+* Contracting with Beyondsoft, I joined DBS Bank and contributed to DBS Client Connect by developing the equity trading micro-service, and to DBS DigiBank CN by developing several micro-services, including those for mutual funds.
 * We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
 
 ### Freelancer Inc, Freelancer & Engineer, 2020.01 - 2021.11
