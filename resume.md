@@ -91,6 +91,11 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * Intermediate: Product Management, C++, DevOps, Go, Cloud Platform(Azure, AWS)
 * Beginner: NLP, TensorFlow, Hardware, Compiler, Rust, Ruby, Angular, Docker, Big Data, Machine Learning, Python, Japanese, Kubenetes
 
+## Expectation
+
+* Expected Position : Machine Learning Engineer / Data Enginner / Full Stack Engineer
+* Expected Location : Guangzhou, Shenzhen, Singapore, Hong Kong
+
 ## Links
 
 * [GitHub](https://github.com/lzwjava)
