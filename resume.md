@@ -29,7 +29,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 * DBS Bank is a Singaporean multinational banking and financial services corporation. 
 * Joined as DBS Bank contractor through Beyondsoft. I contributed to two significant projects: DBS Client Connect, where my responsibilities included the development of the equity trading micro-service, and DBS DigiBank CN, where I was involved in the development of several micro-services, including those for mutual funds.
-* We used cloud-based technologies, utilize modern frameworks, and deploy automation best practices. We used tools like Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, BDD, TDD, etc.
+* We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
 
 ### Freelancer Inc, Freelancer & Engineer, 2020.01 - 2021.11
 
