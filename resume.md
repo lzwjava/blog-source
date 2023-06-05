@@ -15,7 +15,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 * I am a genius. Because I believe everyone is a genius. To be specific, I am an engineer, startup founder, blogger, and lifelong learner.
 * I had tracks of excellence in my 28 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 in China), I dropped out to work in a startup and then create my one. Over three years in the startup industry, I constructed an engineering live broadcast platform that served 30,000 users and led a team to complete 50 small software projects per year, generating annual revenue of 3 million CNY. And now, I am working as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
-* Regarding technical experience, I have 6 years of backend engineering experience(4 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served users. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. In the recent year, I also actively learn Artificial Intelligence and Japanese in my leisure time to raise my boundaries of intelligence.
+* Regarding technical experience, I have 6 years of backend engineering experience(4 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served users. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. In the recent year, I actively learn Artificial Intelligence and Japanese in my leisure time to raise my boundaries of intelligence.
 * Regarding my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
 
 ## Work Experience
@@ -28,7 +28,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
 
 * DBS Bank is a Singaporean multinational banking and financial services corporation. 
-* Joined as DBS Bank contractor through Beyondsoft. Worked on two projects, one is DBS Client Connect. I was responsible for the equity trading micro-service of the platform. The other one is DBS DigiBank CN. I was responsible for some micro-service development, like mutual funds. 
+* Joined as DBS Bank contractor through Beyondsoft. I contributed to two significant projects: DBS Client Connect, where my responsibilities included the development of the equity trading micro-service, and DBS DigiBank CN, where I was involved in the development of several micro-services, including those for mutual funds.
 * We used cloud-based technologies, utilize modern frameworks, and deploy automation best practices. We used tools like Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, BDD, TDD, etc.
 
 ### Freelancer Inc, Freelancer & Engineer, 2020.01 - 2021.11
