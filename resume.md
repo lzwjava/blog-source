@@ -32,7 +32,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### Freelancer Inc, Freelancer & Engineer, 2020.01 - 2021.11
 
-* Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign, some modules of an online technical interview platform, etc. Used technologies like Ruby, Ruby On Rails, ElasticSearch, Docker, Netty, etc.
+* Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign, some modules of an online technical interview platform(ShowMeBug), etc. Used technologies like Ruby, Ruby On Rails, ElasticSearch, Docker, Netty, etc.
 * Wrote technical blogs and shared them online. Learned English by watching Netflix and reading books. Solved some algorithm problems and participated in online algorithm competitions in Codeforces. 
 
 ### Beijing Square Root Inc, Founder & Engineer, 2016.07 - 2019.12
@@ -76,40 +76,20 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * Spent around one year actively exploring machine learning in my leisure time. Listened to a lot of lectures shared by AI industry leaders on topics like Reinforcement Learning, Supervised Learning, Policy Gradient, Neural Networks, Soft Max, Feedforward, Backpropagation, etc. 
 * Wrote some related blogs on my website, such as https://lzwjava.github.io/neural-network, and conducted experiments with famous open-source projects. 
 
-### PayMe, 2022.11 - Present
-* PayMe is a mobile payment service from HSBC, available for Hong Kong users with local phone numbers and banks. As of Nov 2022, the service had around 2.9 million active users.
-* Working on some microservice development of PayMe APIs, like auto top-up.
+### Company Projects
 
-### DBS Digibank CN, 2022.07 - 2022.11
-* DBS Digibank, powered by DBS, is an entire bank squeezed to fit into smartphones. 
-* I was responsible for some microservice development of Digibank APIs, like mutual funds. We used technologies like Java, Spring Cloud, Pivotal Cloud Foundry, Jenkins, and TDD.
-
-### DBS Client Connect, 2022.01 - 2022.06
-* DBS Client Connect, a one-stop workbench allowing frontline employees an instant 360 view of a client, leverages data and AI to join the dots between online and offline relationship management, ensuring a smoother journey for all concerned.
-* I was responsible for the equity trading micro-service of the Client Connect platform. We used technologies like Java, Spring Cloud, and Jenkins.
-
-### ShowMeBug, 2021.07 - 2021.09
-* ShowMeBug is an online interview platform. Interviewers and interviewees can discuss and write code online to dig into technical questions. 
-* I was responsible for the integration between the platform and Enterprise WeChat. So the users could raise the interview from Enterprise WeChat. We made the experience smoother. We used technologies like Ruby On Rails, Enterprise WeChat SDK, and PostgreSQL. 
-
-### Chongding, 2017.09 - 2018.01
-* Chongding was China's HQ Trivia. It was once the wildly popular live game show app in China where you can win real cash prizes for free. 
-* I was responsible for the first version of the backend APIs and admin frontend control panel. We used technologies like Java, Spring Boot, Kafka, WebSocket, and RTMP Streaming. 
-
-### Fun Live, 2016.07 - 2017.09
-* Fun Live was a live broadcast platform for software engineering lectures. 
-* I was responsible for both the frontend and backend of this startup project. I used technologies like PHP, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, MiniProgram, WeChat SDK, DevOps tools, etc. 
-
-### LeanChat, 2014.07 - 2015.10
-* LeanChat is a chat application set up to demonstrate the communication SDK, with functions such as single chat, group chat, nearby people, etc. 
-* I was responsible for the Android and iOS clients. It is open-sourced. You can check here. https://github.com/lzwjava/leanchat-ios and https://github.com/lzwjava/leanchat-android.
-
+* PayMe, Java, 2022.11 - Present
+* DBS Digibank CN & Client Connect, Java, 2021.12 - 2022.11
+* ShowMeBug, Ruby, 2021.07 - 2021.09
+* Fun Live & Square Root miscellaneous projects for customers, PHP & Java & Vue, 2016.07 - 2019.12
+* LeanChat, iOS & Android, 2014.07 - 2015.10
+* The detail can be found above.
 
 ## Skills
 
-* Advanced: Chinese, English, Java, PHP, iOS, Android, Spring, Algorithm, Vue, TDD, HTML
-* Intermediate: Product Management, C++, DevOps, Go, Cloud Platform
-* Beginner: NLP, TensorFlow, Hardware, Compiler, Rust, Ruby, Angular, Docker, Big Data
+* Advanced: Chinese, English, Java, PHP, iOS, Android, Spring, Algorithm, Vue, TDD, HTML, Linux
+* Intermediate: Product Management, C++, DevOps, Go, Cloud Platform(Azure, AWS)
+* Beginner: NLP, TensorFlow, Hardware, Compiler, Rust, Ruby, Angular, Docker, Big Data, Machine Learning, Python, Japanese, Kubenetes
 
 ## Links
 
