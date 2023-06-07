@@ -3,6 +3,8 @@ layout: post
 title:  "WeChat"
 ---
 
+Please feel free to contact me if you are interested.
+
 #### WeChat
 
 ![](/assets/images/wechat.jpg)
