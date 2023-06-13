@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The discussion about astigmatism when the eyeballs reverse to the normal"
+title: "关于眼球扭转到正常位置时的散光的讨论"
 ---
 
 智维:

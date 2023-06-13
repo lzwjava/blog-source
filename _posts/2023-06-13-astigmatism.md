@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The discussion about astigmatism when the eyeballs reverse to the normal"
+title: "The discussion regarding astigmatism when the eyeballs reverse to the normal position"
 ---
 
 Zhiwei:
