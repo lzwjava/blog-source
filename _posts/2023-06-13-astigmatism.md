@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The discussion regarding astigmatism when the eyeballs reverse to the normal position"
+title: "The discussion regarding astigmatism when the eyeballs reverse to the normal shape"
 ---
 
 Zhiwei: By your method, I reduced 75 degrees a year in my right eye and 50 degrees in my left eye. [How I Wear Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](./eyes) Also I may find that as myopia gets deeper, the faster it may recover at first. Like machine learning, it learns fast at first and then slowly. Please see the last paragraph. That means when my right eye goes down to 400 degrees, it may also decrease by 50 degrees a year instead of continuing to be 75 degrees.
