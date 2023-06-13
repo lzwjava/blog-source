@@ -102,5 +102,5 @@ My eyesight| 360| 560|
 after one year| 210| 410|
 after two years|60|260|
 
-Is it correct? Who knows? Let time tell.
+Wow, it looks good. Is it correct? Who knows? Let time tell.
 
