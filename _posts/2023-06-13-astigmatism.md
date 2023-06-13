@@ -95,3 +95,12 @@ total redution| 25+75/2=62||50+50/2=75|
 
 I think things are quite abnormal here. I actually couldn't be totally sure that I wear the eyeglass with 150 degrees less than the actual one from 5 March 2022. It might be someday between March 2022 to November 2022. But I am pretty sure that between November 2022 to April 2023, I am wearing the cured eyeglass in my daily life. 
 
+So maybe it can help to reduce around 150 total degrees of myopia and astigmatism in one year. So now, we can adjust our forecast table:
+
+Time | Total In Left| Total In Right | 
+My eyesight| 360| 560|
+after one year| 210| 410|
+after two years|60|260|
+
+Is it correct? Who knows? Let time tell.
+
