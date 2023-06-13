@@ -3,34 +3,35 @@ layout: post
 title: "The discussion about astigmatism when the eyeballs reverse to the normal"
 ---
 
-智维:
+Zhiwei:
 
-通过您的方法，我的右眼一年减少75度，左眼减少50度。[我是如何佩戴比实际少150度的眼镜来减少近视的](./eyes-cn)。同时我可能发现，当近视度数越深，一开始可能越快恢复。像机器学习一样，一开始学习得快，后来慢。请见最后一段话。也就是说当我右眼下降到400度后，可能一年也减少50度而非继续是75度。
+By your method, I reduced 75 degrees a year in my right eye and 50 degrees in my left eye. [How I Wear Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](./eyes) Also I may find that as myopia gets deeper, the faster it may recover at first. Like machine learning, it learns fast at first and then slowly. Please see the last paragraph. That means when my right eye goes down to 400 degrees, it may also decrease by 50 degrees a year instead of continuing to be 75 degrees.
 
-王垠:
+Yin:
 
-谢谢，看来效果挺好。其实你减少的度数应该加上散光换算度数，因为散光其实也是曲光度数，不能忽略不计的。散光度数除以2，差不多等价于这样的近视度数。
+Thank you, it seems the effect is quite good. Actually, the reduced degrees should be added with the astigmatism conversion degrees because astigmatism is also a measure of curved refractive power and should not be disregarded. Dividing the astigmatism degrees by 2 is roughly equivalent to the reduction in myopia degrees.
 
-所以你的左眼近视减少了 50 度，散光减少 100 度（换算成减少 50 度近视），左眼算是减少了 100 度。右眼也类似，减少了 75 + 50/2 = 100 度。
+So, if your left eye's myopia is reduced by 50 degrees and astigmatism is reduced by 100 degrees (which is equivalent to a reduction of 50 degrees of myopia), the left eye is considered to have been reduced by 100 degrees. The right eye is similar, reduced by 75 degrees plus 50/2 = 100 degrees.
 
-智维:
+Zhiwei:
 
-好的，大概理解了，有意思。下次检测会留意。
+Alright, I roughly understand. It's interesting. I will pay attention during my next eye examination.
 
-王垠:
+Yin:
 
-另外你的散光度数比较多，可能就是为什么散光减少那么多的原因。我怀疑是散光是什么时候产生的，逆转回去大概是同样的时间点减少回去。
+Also, you have more astigmatism, which is probably why the astigmatism is reduced so much. I suspect it is when the astigmatism was created and reversing it back is probably the same point in time to reduce it back.
 
-智维:
+Zhiwei:
 
-噢，有道理，就是说眼球变形导致近视加深的过程中，一开始加深度数，后来开始有了散光，后来度数和散光都开始加深，再后来散光度不变，度数加深。这是大概的一个度数和散光演变的猜想。逆转可能是同样的过程，这也是为什么我上半年散光没有变化，下半年开始变化。
+Oh, I see. So, if I understand correctly, during the process of eyeball deformation, initially the degree of myopia increases, then astigmatism starts to develop, followed by both the degree of myopia and astigmatism increasing. Eventually, the astigmatism stabilizes while the degree of myopia continues to progress. This is a rough hypothesis about the evolution of myopia degree and astigmatism. The reversal process might follow a similar pattern, which explains why my astigmatism remained stable in the first half of the year and started changing in the second half.
 
-王垠:
+Yin:
 
-我感觉是因为每个人眼球里面的具体形状不同，所以产生形变的过程中某些时候是规则的变化，就成了均匀的“近视度数”。某些时候不规则，就成了散光度数。散光就是柱面镜，就像酒瓶子侧面那种样子。
+I feel that because the specific shape of each person's eye is different, the process of deformation is sometimes a regular change, which becomes a uniform "myopia". Sometimes irregular, it becomes astigmatism. Astigmatism is a columnar lens, like the side of a wine bottle.
 
-这就是为什么你计算减少的度数要把散光换算进去，所以你其实双眼都少了大概 100 度。
+That's why you calculate the reduction by converting astigmatism into astigmatism, so you actually lose about 100 degrees in both eyes.
 
-智维：
+Zhiwei:
 
-好的，谢谢老师。有点理解。改天再细看一下老师文章和文章最后的参考资料。
+Okay, thank you, teacher. I understand a bit. I'll take a closer look at your article and the references at the end of the day.
+
