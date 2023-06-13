@@ -77,3 +77,5 @@ Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Rig
 2025.04|160|0|325|0
 2026.04|60|0|225|0
 
+Oh, it is a very approximate forecast. I made the reduction between 2024 to 2023 is same as the reducction between 2023 to 2022. Then when the astigmatisms are gone, then we only need to handle myopia, to let it be reduced by 100 degrees. 
+
