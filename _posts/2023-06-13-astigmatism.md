@@ -55,7 +55,7 @@ Time | Total In Left| Total In Right |
 My eyesight| 360| 560|
 after one year| 260| 460|
 after two years|160|360|
-three years|60|260|
+after three years|60|260|
 
 So when we think about what Yin Wang said, it is when the astigmatism was created, and reversing it back is probably the same point in time to reduce it back. So now, the astigmatisms of my eyes are doing the reverse. 
 
