@@ -70,7 +70,7 @@ See from November 2022 to April 2023, the astigmatisms of the left eye and the r
 
 If the first theory is right, then:
 
-Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right| 
+Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right
 2022.03| 350 |225|575|175
 2023.04| 300| 125| 500|125
 2024.04|250|25|425|75
@@ -78,4 +78,18 @@ Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Rig
 2026.04|60|0|225|0
 
 Oh, it is a very approximate forecast. I made the reduction between 2024 to 2023 is same as the reducction between 2023 to 2022. Then when the astigmatisms are gone, then we only need to handle myopia, to let it be reduced by 100 degrees. 
+
+But one thing is very interesting. In the first half a year:
+
+Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right|
+2022.03| 350 |225|575|175|
+2022.11| 325| 200| 550|175|
+redution| 25+25/2 = 37| |25+0/2=25||
+
+However, in the latter half a year:
+
+Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right|
+2022.11| 325| 200| 550|175|
+2023.04| 300| 125| 500|125|
+redution| 25+75/2=62||50+50/2=75|
 
