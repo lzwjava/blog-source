@@ -82,14 +82,15 @@ Oh, it is a very approximate forecast. I made the reduction between 2024 to 2023
 But one thing is very interesting. In the first half a year:
 
 Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right|
-2022.03| 350 |225|575|175|
-2022.11| 325| 200| 550|175|
-redution| 25+25/2 = 37| |25+0/2=25||
+2022.03.05| 350 |225|575|175|
+2022.11.13| 325| 200| 550|175|
+total redution| 25+25/2 = 37| |25+0/2=25||
 
-However, in the latter half a year:
+However, in the last half a year:
 
 Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right|
-2022.11| 325| 200| 550|175|
-2023.04| 300| 125| 500|125|
-redution| 25+75/2=62||50+50/2=75|
+2022.11.13| 325| 200| 550|175|
+2023.04.20| 300| 125| 500|125|
+total redution| 25+75/2=62||50+50/2=75|
 
+I think things are quite abnormal here. 
