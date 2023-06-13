@@ -47,7 +47,7 @@ Let's calculate the total degrees of my eyes:
 
 Item | Total In Left| Total In Right | 
 original | 300+125/2| 500+125/2
-simplified| 360(appproxiamte from 362.5) | 560(appproxiamte)|
+simplified| 360(appproxiamte from 362.5) | 560(appproxiamte from 562.5)|
 
 And in the ongoing years, the forecast is:
 
