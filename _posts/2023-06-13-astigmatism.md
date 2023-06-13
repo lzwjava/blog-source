@@ -21,3 +21,59 @@ That's why you calculate the reduction by converting astigmatism into astigmatis
 
 Zhiwei: Okay, thank you, teacher. I understand a bit. I'll take a closer look at your article and the references at the end of the day.
 
+----
+
+Above is Zhiwei's discussion with Yin Wang. Let's make it more clear.
+
+My eye report for the last year:
+
+Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right| 
+2022.03| 350 |225|575|175
+2023.04| 300| 125| 500|125
+reduction| 50 |100|75|50 | 
+
+So let's accumulate the myopia reduction and astigmatism reduction in both eyes.
+
+Item | Total Reduction In Left| Total Reduction In Right | 
+original | 50+100/2 |75+50/2 | 
+simplified | 100|100
+
+And,
+
+Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right|
+2023.04| 300| 125| 500|125
+
+Let's calculate the total degrees of my eyes:
+
+Item | Total In Left| Total In Right | 
+original | 300+125/2| 500+125/2
+simplified| 360(appproxiamte from 362.5) | 560(appproxiamte)|
+
+And in the ongoing years, the forecast is:
+
+Time | Total In Left| Total In Right | 
+My eyesight| 360| 560|
+after one year| 260| 460|
+after two years|160|360|
+three years|60|260|
+
+So when we think about what Yin Wang said, it is when the astigmatism was created, and reversing it back is probably the same point in time to reduce it back. So now, the astigmatisms of my eyes are doing the reverse. 
+
+Let's look at the table again.
+
+Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right|
+2022.03| 350 |225|575|175
+2022.11| 325| 200| 550|175
+2023.04| 300| 125| 500|125
+
+See from November 2022 to April 2023, the astigmatisms of the left eye and the right eye are reduced by 75 and 50 degrees. So one possible theory is that the astigmatisms will continue to reduce in the next half a year. Because my eyeball deformation which leads to astigmatism is recovering. Another possible theory is that it won't. Because in the next year, the recovery of my eyeball deformation won't affect the astigmatism.
+
+If the first theory is right, then:
+
+Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right| 
+2022.03| 350 |225|575|175
+2023.04| 300| 125| 500|125
+2024.04|250|25|425|75
+2025.04|160|0|325|0
+2026.04|60|0|225|0
+
