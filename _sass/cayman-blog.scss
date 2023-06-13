@@ -105,8 +105,15 @@ ul.post-list li::before {
 }
 
 body {
-  font-family: "PingFangSC-Regular", "Microsoft YaHei", sans-serif;
   line-height: 1.8;
+}
+
+body:lang(en) {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+}
+
+body:lang(zh) {
+  font-family: "PingFangSC-Regular", "Microsoft YaHei", sans-serif;
 }
 
 .site-footer {
