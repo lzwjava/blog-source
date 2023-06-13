@@ -102,5 +102,20 @@ My eyesight| 360| 560|
 after one year| 210| 410|
 after two years|60|260|
 
+Let's make a detailed table. First, let's calculate the one-year reduction based on the last half a year.
+
+Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right|
+2022.11.13| 325| 200| 550|175|
+2023.04.20| 300| 125| 500|125|
+half a year| 25|75|50|50|
+a year|50|150|100|100|
+
+So:
+
+Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right
+2023.04| 300| 125| 500|125
+2024.04|240|0|400|25
+2025.04|200|0|250|0
+
 Wow, it looks good. Is it correct? Who knows? Let time tell.
 
