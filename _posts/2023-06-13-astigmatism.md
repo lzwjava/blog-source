@@ -114,8 +114,8 @@ So:
 
 Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right
 2023.04| 300| 125| 500|125
-2024.04|240|0|400|25
-2025.04|200|0|250|0
+2024.04|250|0|400|25
+2025.04|100|0|250|0
 
 Wow, it looks good. Is it correct? Who knows? Let time tell.
 
