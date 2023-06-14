@@ -3,7 +3,7 @@ layout: post
 title: "关于眼球逆转到正常形状时的散光的讨论"
 ---
 
-<div align="center"><img src="/assets/images/astigmatism/eye.jpg" width="400px" /><img/></div>
+<div align="center"><img src="/assets/images/astigmatism/eye.jpg" width="100%" /><img/></div>
 
 智维:通过您的方法，我的右眼一年减少75度，左眼减少50度。[我是如何佩戴比实际少150度的眼镜来减少近视的](./eyes-cn)。同时我可能发现，当近视度数越深，一开始可能越快恢复。像机器学习一样，一开始学习得快，后来慢。请见最后一段话。也就是说当我右眼下降到400度后，可能一年也减少50度而非继续是75度。
 
