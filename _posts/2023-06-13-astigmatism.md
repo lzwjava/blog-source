@@ -3,6 +3,8 @@ layout: post
 title: "The discussion regarding astigmatism when the eyeballs reverse to the normal shape"
 ---
 
+<div align="center"><img src="/assets/images/astigmatism/eye.jpg" width="400px" /><img/></div>
+
 Zhiwei: By your method, I reduced 75 degrees a year in my right eye and 50 degrees in my left eye. [How I Wear Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](./eyes) Also I may find that as myopia gets deeper, the faster it may recover at first. Like machine learning, it learns fast at first and then slowly. Please see the last paragraph. That means when my right eye goes down to 400 degrees, it may also decrease by 50 degrees a year instead of continuing to be 75 degrees.
 
 Yin: Thank you, it seems the effect is quite good. Actually, the reduced degrees should be added with the astigmatism conversion degrees because astigmatism is also a measure of curved refractive power and should not be disregarded. Dividing the astigmatism degrees by 2 is roughly equivalent to the reduction in myopia degrees.
