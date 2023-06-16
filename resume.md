@@ -88,14 +88,14 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ## Skills
 
-* Advanced: Chinese, English, Java, PHP, iOS, Android, Spring, Algorithm, Vue, TDD, HTML, Linux
-* Intermediate: Product Management, C++, DevOps, Go, Azure, Kubernetes, Docker, Python
-* Beginner: NLP, Hardware, Compiler, Rust, Ruby, Angular, Big Data, Machine Learning, Japanese, AWS
+* 5 or more years of experience: Chinese, English, Java, Spring, Algorithm, TDD, Linux, Windows, MacOS
+* 1 to 5 years of experience: Product Management, PHP, C++, iOS, Android, Vue, HTML, CSS, DevOps, Go, Azure, Kubernetes, Docker, Python, Azure, Cantonese
+* less than 1 year of experience: NLP, Hardware, Compiler, Rust, Ruby, Angular, Big Data, Machine Learning, Japanese, AWS, ChatGPT
 
 ## Expectation
 
-* Expected Position : Machine Learning Engineer / Data Engineer / Full Stack Engineer
-* Expected Location : Guangzhou, Shenzhen, Singapore, Hong Kong
+* Expected Positions: Machine Learning Engineer / Data Engineer / Full Stack Engineer
+* Expected Locations: Guangzhou, Shenzhen, Singapore, Hong Kong
 
 ## Links
 
