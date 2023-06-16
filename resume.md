@@ -94,7 +94,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ## Expectation
 
-* Expected Position : Machine Learning Engineer / Data Enginner / Full Stack Engineer
+* Expected Position : Machine Learning Engineer / Data Engineer / Full Stack Engineer
 * Expected Location : Guangzhou, Shenzhen, Singapore, Hong Kong
 
 ## Links
