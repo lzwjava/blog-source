@@ -88,9 +88,10 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ## Skills
 
-* 5 or more years of experience: Chinese, English, Java, Spring, Algorithm, TDD, Linux, Windows, MacOS
-* 1 to 5 years of experience: Product Management, PHP, C++, iOS, Android, Vue, HTML, CSS, DevOps, Go, Azure, Kubernetes, Docker, Python, Azure, Cantonese
-* less than 1 year of experience: NLP, Hardware, Compiler, Rust, Ruby, Angular, Big Data, Machine Learning, Japanese, AWS, ChatGPT
+* 5 or more years of experience: Chinese, English, Java, Spring, Algorithm, TDD, Linux, Windows, MacOS, Writing
+* 3 to 5 years of experience: C++, iOS, Android, Vue, HTML, CSS, DevOps, Cantonese
+* 1 to 3 years of experience: Product Management, PHP, C++, Azure, Kubernetes, Docker, Python, Pivotal Cloud Foundry
+* less than 1 year of experience: NLP, Hardware, Compiler, Go, Rust, Ruby, Angular, Big Data, Machine Learning, Japanese, AWS, ChatGPT
 
 ## Expectation
 
