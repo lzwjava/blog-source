@@ -88,11 +88,10 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ## Skills
 
-* 5 or more years of experience: Chinese, English, Java, Spring, Algorithm, TDD, Linux, Windows, MacOS, Writing, Database, Redis
-* 3 to 4 years of experience: C++, iOS, Android, Vue, HTML, CSS, DevOps, Cantonese, Alibaba Cloud
+* 5 or more years of using experience: Chinese, English, Java, Spring, Algorithm, TDD, Linux, Windows, MacOS, Writing, Database, Redis
+* 3 to 4 years of using experience: C++, iOS, Android, Vue, HTML, CSS, DevOps, Cantonese, Alibaba Cloud
 * 1 to 2 years of using experience: Product Management, PHP, C++, Azure, Kubernetes, Docker, Python, Pivotal Cloud Foundry, Kafka, Network, RTMP streaming, Pascal
 * less than 1 year of using experience: Hardware, Go, Ruby, Big Data, Machine Learning, Japanese, AWS, ChatGPT, Elasticsearch
-
 
 
 ## Expectation
