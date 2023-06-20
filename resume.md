@@ -64,7 +64,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
 * Made some open-source projects. 
-* Wrote Chinese and English articles (9 English, and 50 Chinese) on my blog site. 
+* Wrote Chinese and English articles (13 English, and 50 Chinese) on my blog site. 
 * Solved 399 algorithm problems on Codeforces and 568 on Uva Online Judge. 
 * Links are below.
 
