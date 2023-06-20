@@ -109,7 +109,7 @@ Note: Experience is different from working experience. List like this to show ho
 * [LinkedIn](https://www.linkedin.com/in/lzwjava)
 * [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
 
-## Selected Articles
+## Articles
 
 * [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
 * [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
