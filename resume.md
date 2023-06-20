@@ -95,7 +95,6 @@ Note: Experience is different from working experience. You may gain a feeling ab
 * 1 to 2 years of experience: Product Management, PHP, C++, Azure, Kubernetes, Docker, Python, Pivotal Cloud Foundry, Kafka, Network, RTMP streaming, Pascal
 * less than 1 year of experience: Hardware, Go, Ruby, Big Data, Machine Learning, Japanese, AWS, ChatGPT, Elasticsearch
 
-
 ## Expectation
 
 * Expected Positions: Machine Learning Engineer / Data Engineer / Full Stack Engineer
