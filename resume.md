@@ -108,3 +108,12 @@ Note: Experience is different from working experience. List like this to show ho
 * [UVa Online Judge](https://uhunt.onlinejudge.org/id/113519)
 * [LinkedIn](https://www.linkedin.com/in/lzwjava)
 * [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
+
+## Selected Articles
+
+* [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
+* [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
+* [Why and How I Learn Japanese](https://lzwjava.github.io/japanese)
+* [How to Become the Sharpest Person in the World](https://lzwjava.github.io/sharpest)
+* [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
+
