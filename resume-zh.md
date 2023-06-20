@@ -62,7 +62,7 @@ title:  "Resume"
 
 ## 项目
 
-### 开源 & 博客 & Codeforces, 2013-09 至今
+### 开源、博客、Codeforces, 2013-09 至今
 * 制作了一些开源项目。
 * 在我的博客网站上写了一些中英文文章（13篇英文，50篇中文）。
 * 在Codeforces上解决了399个算法问题，在Uva Online Judge上解决了568个问题。
@@ -87,7 +87,7 @@ title:  "Resume"
 
 ## 技能
 
-注意：经验与工作经验不同。按此列出，以显示我对这些技能的相对熟悉程度。
+注意：这里的经验与工作经验不同。按此列出，以显示我对这些技能的相对熟悉程度。
 
 * 有5年或更多经验：中文，英语，写作，Java，Spring，算法，数据库，Redis，TDD，Linux，Windows，MacOS
 * 有3到4年的经验：C++，iOS，Android，Vue，HTML，CSS，DevOps，广东话，阿里云
@@ -113,5 +113,5 @@ title:  "Resume"
 * [给10岁的我：如何成为信息天才](https://lzwjava.github.io/10yo)
 * [我终于明白神经网络是如何工作的](https://lzwjava.github.io/neural-network)
 * [我为什么以及如何学习日语](https://lzwjava.github.io/japanese)
-* [如何成为世界上最敏锐的人](https://lzwjava.github.io/sharpest)
+* [如何成为世界上最锋利的人](https://lzwjava.github.io/sharpest)
 * [我如何佩戴比实际度数少150度的眼镜以减少近视](https://lzwjava.github.io/eyes)
