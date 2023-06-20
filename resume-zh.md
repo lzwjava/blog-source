@@ -5,7 +5,7 @@ title:  "Resume"
 
 # PDF
 
-请在[这里](/assets/resume/Zhiwei.Li.Resume.pdf)查看。
+请在[这里](/assets/resume/Zhiwei.Li.Resume.ZH.pdf)查看。
 
 ----
 
