@@ -88,7 +88,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ## Skills
 
-Note: Experience is different from working experience. You may gain a feeling about how familiar these skills are to me.
+Note: Experience is different from working experience. You may gain a feeling about how familiar I am with these skills in my judgment.
 
 * 5 or more years of experience: Chinese, English, Writing, Java, Spring, Algorithm, Database, Redis, TDD, Linux, Windows, MacOS
 * 3 to 4 years of experience: C++, iOS, Android, Vue, HTML, CSS, DevOps, Cantonese, Alibaba Cloud
