@@ -95,11 +95,6 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 Note: Experience here is different from working experience. List like this to show how relatively familiar I am with these skills.
 
-## Expectation
-
-* Expected Positions: Machine Learning Engineer / Data Engineer / Full Stack Engineer
-* Expected Locations: Guangzhou, Shenzhen, Singapore, Hong Kong
-
 ## Links
 
 * [GitHub](https://github.com/lzwjava)
@@ -117,3 +112,7 @@ Note: Experience here is different from working experience. List like this to sh
 * [How to Become the Sharpest Person in the World](https://lzwjava.github.io/sharpest)
 * [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
 
+## Expectation
+
+* Expected Positions: Machine Learning Engineer / Data Engineer / Full Stack Engineer
+* Expected Locations: Guangzhou, Shenzhen, Singapore, Hong Kong
