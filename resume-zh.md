@@ -94,11 +94,6 @@ title:  "Resume"
 
 注意：这里的经验与工作经验不同。按此列出，以显示我对这些技能的相对熟悉程度。
 
-## 期望
-
-* 期望职位：机器学习工程师/数据工程师/全栈工程师
-* 期望地点：广州，深圳，新加坡，香港
-
 ## 链接
 
 * [GitHub](https://github.com/lzwjava)
@@ -115,3 +110,8 @@ title:  "Resume"
 * [我为什么以及如何学习日语](https://lzwjava.github.io/japanese-cn)
 * [如何成为世界上最锋利的人](https://lzwjava.github.io/sharpest-cn)
 * [我如何佩戴比实际度数少150度的眼镜以减少近视](https://lzwjava.github.io/eyes-cn)
+
+## 期望
+
+* 期望职位：机器学习工程师/数据工程师/全栈工程师
+* 期望地点：广州，深圳，新加坡，香港
