@@ -63,7 +63,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ## Projects
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
-* Made some open-source projects. 
+* Made some open-source projects, like the Xcode Plugin, Chrome Plugin, and Simple HTML Parser.
 * Wrote Chinese and English articles (13 English, and 50 Chinese) on my blog site. 
 * Solved 399 algorithm problems on Codeforces and 568 on Uva Online Judge. 
 * Links are below.
