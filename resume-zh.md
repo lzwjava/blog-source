@@ -83,6 +83,7 @@ title:  "Resume"
 * DBS Digibank CN & Client Connect, Java, 2021.12 - 2022.11
 * 趣直播 & 平方根科技客户项目, PHP & Java & Vue, 2016.07 - 2019.12
 * LeanCloud SDK & LeanChat, iOS & Android, 2014.07 - 2015.11
+* 详情请见工作经历部分。
 
 ## 技能
 
