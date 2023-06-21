@@ -16,14 +16,14 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * I am a genius. Because I believe everyone is a genius. To be specific, I am an engineer, startup founder, blogger, and lifelong learner.
 * I had tracks of excellence in my 28 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 universities in China), I dropped out to work in a startup and then create my one. Over three years in the startup industry, I constructed an engineering live broadcast platform that served 30,000 users and led a team to complete 50 small software projects per year, generating an annual revenue of 3 million CNY. And now, I am working as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
 * Regarding technical experience, I have 6 years of backend engineering experience(4 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served users. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. In recent year, I actively learn Artificial Intelligence and Japanese in my leisure time to raise my boundaries of intelligence.
-* Regarding my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
+* Because of my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
 
 ## Work Experience
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - Present
-* HSBC Bank is one of the largest banking and financial services institutions in the world.
-* I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services, boasted around 2.9 million active users as of November 2022.
-* We utilized a strong tech stack including Java, Spring, Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
+* HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services, boasted around 2.9 million active users as of November 2022.
+* I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. I did the microservice development for features like Auto Top Up.
+* We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
 
@@ -39,7 +39,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 ### Beijing Square Root Inc, Founder & Engineer, 2016.07 - 2019.12
 
 * From January 2018 to December 2019, the team completed nearly 50 small software projects for customers. The types of projects include small programs, apps, websites, and games. Customers include a few big companies and some startups in China. The revenue exceeded 3 million RMB and the profit exceeded 700 thousand RMB. The team had more than 20 full-time or part-time engineers and designers. Responsible for project negotiation, project management, and some software development in the team.
-* From July 2016 to September 2017, Fun Live, a live broadcast platform for software engineering lectures, was launched. In one year, nearly 30,000 users were obtained. Started my own business for the first time, and the marketing, software development was mainly done by myself. 
+* From July 2016 to September 2017, Fun Live, a live broadcast platform for software engineering lectures, was launched. In one year, nearly 30,000 users were obtained. Started my own business for the first time, and the marketing, and software development were mainly done by myself. 
 * During these years, I used technologies like PHP, Java, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
 
 ### LeanCloud, Software Engineer, 2014.07 - 2015.11
@@ -92,7 +92,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * 3 to 4 years of experience: C++, iOS, Android, Vue, HTML, CSS, DevOps, Cantonese, Alibaba Cloud
 * 1 to 2 years of experience: Product Management, PHP, C++, Azure, Kubernetes, Docker, Python, Pivotal Cloud Foundry, Kafka, Network, RTMP streaming, Pascal
 * less than 1 year of experience: Hardware, Go, Ruby, Big Data, Machine Learning, Japanese, AWS, ChatGPT, Elasticsearch
-* Note: Experience here is different from working experience. List like this to show how relatively familiar I am with these skills.
+* The experience here is different from working experience, it is more like using experience since I started programming in 2008. Also, these skills are categorized to show the relative proficiency level I am with them.
 
 ## Links
 
