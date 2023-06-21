@@ -91,7 +91,7 @@ title:  "Resume"
 * 有3到4年的经验：C++，iOS，Android，Vue，HTML，CSS，DevOps，广东话，阿里云
 * 有1到2年的经验：产品管理，PHP，C++，Azure，Kubernetes，Docker，Python，Pivotal Cloud Foundry，Kafka，网络，RTMP流媒体，Pascal
 * 有不到1年的经验：硬件，Go，Ruby，大数据，机器学习，日语，AWS，ChatGPT，Elasticsearch
-* 这里的经验与工作经验不同，更像是自2008年开始编程以来的实际使用经验。此外，这些技能被分类列出，以展示我在它们方面的相对熟练程度。
+* 这里的经验是自我从2008年开始编程以来的使用经验。此外，这些技能都进行了分类，以显示我对它们的相对熟练程度。
 
 ## 链接
 
