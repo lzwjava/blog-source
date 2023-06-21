@@ -1,9 +1,26 @@
-$section-headings-color: #7601b1;
-$header-bg-color: #7601b1;
+$section-headings-color: #7601b1 !important;
+$header-bg-color: #7601b1 !important;
+$header-heading-color: #7601b1 !important;
 
 .page-header {
+  color: #7601b1;
+
+  text-align: center;
   background-color: #6c01a9;
   background-image: linear-gradient(120deg, #6c01a9, #C95fff);
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+
 }
 
 @media screen and (min-width: 64em) {
