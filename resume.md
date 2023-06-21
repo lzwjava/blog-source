@@ -27,7 +27,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
 
-* DBS Bank is a Singaporean multinational banking and financial services corporation. 
+* DBS Bank, previously known as The Development Bank of Singapore Limited, is the largest bank in Southeast Asia by assets and among the largest banks in Asia.
 * Contracting with Beyondsoft, I joined DBS Bank and contributed to DBS Client Connect by developing the equity trading micro-service, and to DBS DigiBank CN by developing several micro-services, including those for mutual funds.
 * We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
 
