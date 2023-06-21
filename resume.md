@@ -74,7 +74,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 * Got a score of 6.0(Reading Listening Writing 6.0, Speaking 5.5) on the IELTS(International English Language Testing System). 
 
 ### Machine Learning, 2021-03 to Present
-* Spent around one year actively exploring machine learning in my leisure time. Listened to a lot of lectures shared by AI industry leaders on topics like Reinforcement Learning, Supervised Learning, Policy Gradient, Neural Networks, Soft Max, Feedforward, Backpropagation, etc. 
+* Spent around one year actively exploring machine learning in my leisure time. Listened to a lot of lectures shared by AI industry leaders on topics like Reinforcement Learning, Supervised Learning, Policy Gradient, Neural Networks, Softmax, Feedforward, Backpropagation, etc. 
 * Wrote some related blogs on my website, such as https://lzwjava.github.io/neural-network, and conducted experiments with famous open-source projects. 
 
 ### Company Projects
