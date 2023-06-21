@@ -70,7 +70,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ### English Learning, 2013-09 to Present
 * Spent leisure time of 3 years actively learning English using TikTok, Youtube, Netflix, Kindle, etc. And been using Google to search and read English websites for the past 7 years.
-* Worked in English for one year in a major international company.
+* Worked in English for one and half years in two large international banks.
 * Got a score of 6.0(Reading Listening Writing 6.0, Speaking 5.5) on the IELTS(International English Language Testing System). 
 
 ### Machine Learning, 2021-03 to Present
