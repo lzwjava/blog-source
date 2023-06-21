@@ -54,7 +54,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 * Built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums. It has been downloaded and used by thousands of users on campus.
 * Built an Android App for learning English by watching movie clips, and won the third prize in a hackathon.
-* Ranked as top 1 in my school's ACM/ICPC(International Collegiate Programming Contest) competition.
+* Ranked in the top 1 in my school's ACM/ICPC(International Collegiate Programming Contest) monthly training competition among around 100 top students in the university, including higher grade one.
 
 ### Guangzhou Yuyan Middle School, Science, Middle School Diploma, 2007.07 - 2013.06
 * Ranked in the top 300 in 100k students in the Guangzhou High School Entrance exam. 
