@@ -87,11 +87,18 @@ title:  "Resume"
 
 ## 技能
 
+自从2008年开始编程以来，我获得了许多技能。让我按照经验将它们分类，以展示我在各个技能上的相对熟练程度。
+
 * 有5年或更多经验：中文，英语，写作，Java，Spring，算法，数据库，Redis，TDD，Linux，Windows，MacOS
 * 有3到4年的经验：C++，iOS，Android，Vue，HTML，CSS，DevOps，广东话，阿里云
 * 有1到2年的经验：产品管理，PHP，C++，Azure，Kubernetes，Docker，Python，Pivotal Cloud Foundry，Kafka，网络，RTMP流媒体，Pascal
 * 有不到1年的经验：硬件，Go，Ruby，大数据，机器学习，日语，AWS，ChatGPT，Elasticsearch
-* 这里的经验是自我从2008年开始编程以来的使用经验。此外，这些技能都进行了分类，以显示我对它们的相对熟练程度。
+
+## 工具
+
+除了技能之外，我还具备以下工具的使用经验，并且可以随时使用它们。
+
+C、JavaScript、TypeScript、SVG、JSON、Stylus、Sass、WordPress、jQuery、NPM、Node.js、Webpack、Hexo、Jekyll、React、Apache Maven、Git、Travis CI、HomeBrew、Gradle、Maven、Sketch、GitHub、GitLab、Jira、Confluence、VScode、Xcode、Powershell、Calculus、Linear Algebra、Cloudflare、OpenWRT、Digital Ocean、Vultr、IntelliJ IDEA、Cocopods、Android Studio、Postman、Latex、FFmpeg、Nginx、Anaconda、Jupyter Notebook、TensorFlow、PyTorch、Theano。
 
 ## 链接
 
