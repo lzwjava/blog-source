@@ -102,7 +102,7 @@ title:  "Resume"
 * 自然语言：英语，中文，粤语，客家话
 * 操作系统：Linux，Windows，MacOS，Android，iOS，OpenWRT，Symbian，Apple tvOS，Fire OS
 * 语言：PHP，Java，Objective-C，Swift，Ruby，HTML，C，C++，JavaScript，Lisp，Clojure，TypeScript，JSON，CSS，Node.js，Go，SQL，NoSQL，Python，Pascal
-* 框架与数据库：jQuery，Hexo，Jekyll，React，MongoDB，PostgreSQL，Microsoft SQL Server，Stylus，Sass，MySQL，Redis，Kafka，RTMP streaming，HTTP/IP
+* 框架与数据库：jQuery，Hexo，Jekyll，React，MongoDB，PostgreSQL，Microsoft SQL Server，Stylus，Sass，MySQL，Redis，Kafka，RTMP streaming，HTTP/IP, Hibernate
 * 数学：微积分，线性代数，Latex，Spring，Vue，Spring
 * 开发工具：NPM，Webpack，Git，Travis CI，HomeBrew，Gradle，Maven，Xcode，VSCode，Sketch，Powershell，IntelliJ IDEA，Cocopods，Android Studio，Jenkins，SonarQube，WordPress，Nginx，ChatGPT，Elasticsearch，Docker
 * 机器学习：TensorFlow，PyTorch，Theano，Anaconda，Jupyter Notebook
