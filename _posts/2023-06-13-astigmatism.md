@@ -121,3 +121,10 @@ Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Rig
 
 Wow, it looks good. Is it correct? Who knows? Let time tell.
 
+---
+
+Zhiwei's Repost Words:
+
+Zhiwei has developed a fearless attitude toward any code or document. Today, he effortlessly analyzed a new piece of code and swiftly identified the problem within just 10 minutes. His colleagues are starting to regard him as somewhat of a genius. During his leisure time, he ensures that he exposes his brain to new language sounds to stimulate his mind. Although he doesn't understand the meaning, listening to Japanese now feels as comfortable as listening to his native language.
+
+The article discussing the use of glasses that reduce myopia by 150 degrees less than the actual prescription received an enthusiastic response from Yin Wang. Yin Wang is a former PhD student from Tsinghua University and Cornell University, a staff engineer at Intel and a senior engineer at Microsoft. Yin Wang emphasizes that titles are not significant and should not restrict individuals with labels. While Zhiwei has not yet reached that level, please allow him to express himself and revel in his achievements. Thank you!
