@@ -89,7 +89,7 @@ Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 I have gained a lot of skills since I started programming in 2008. Let's look at my skills from a high level. 
 
-* 5 or more years of experience: Chinese, English, Writing, Java, Algorithm, TDD, Cloud Computing, DevOps, Backend Development
+* 5 or more years of experience: Chinese, English, Writing, Java, Algorithm, Test-driven Development, Cloud Computing, DevOps, Backend Development
 * 3 to 4 years of experience: Cantonese, iOS Development, Android Development
 * 1 to 2 years of experience: Product Management, Machine Learning, Frontend Development
 * less than 1 year of experience: Big Data
