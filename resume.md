@@ -101,7 +101,8 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 
 * Natural Language: English, Chinese, Cantonese, Hakka
 * Operating System: Linux, Windows, MacOS, Android, iOS, OpenWRT, Symbian, Apple tvOS, Fire OS
-Language: PHP, Java, Objective-C, Swift, Ruby, HTML, C, C++, JavaScript, Lisp, Clojure, TypeScript, JSON, CSS, Node.js, Go, SQL, NoSQL, Python, Pascal
+* Language: PHP, Java, Objective-C, Swift, Ruby, HTML, C, C++, JavaScript, Lisp, Clojure, TypeScript, Node.js, Go, Python, Pascal
+* Domain specific language: JSON, CSS, SQL, NoSQL, Kusto Query Language
 * Framework & Database: jQuery, Hexo, Jekyll, React, MongoDB, PostgreSQL, Microsoft SQL Server, Stylus, Sass, MySQL, Redis, Kafka,  RTMP streaming, HTTP/IP, Vue, Spring, Hibernate, Netty
 * Math: Calculus, Linear Algebra, Latex
 * Development Tools: NPM, Webpack, Git, Travis CI, HomeBrew, Gradle, Maven, Xcode, VSCode, Sketch, Powershell, IntelliJ IDEA, Cocopods, Android Studio, Jenkins, SonarQube, WordPress, Nginx, ChatGPT, Elasticsearch, Docker
