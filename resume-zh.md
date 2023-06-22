@@ -107,7 +107,7 @@ title:  "Resume"
 * 开发工具：NPM，Webpack，Git，Travis CI，HomeBrew，Gradle，Maven，Xcode，VSCode，Sketch，Powershell，IntelliJ IDEA，Cocopods，Android Studio，Jenkins，SonarQube，WordPress，Nginx，ChatGPT，Elasticsearch，Docker
 * 机器学习：TensorFlow，PyTorch，Theano，Anaconda，Jupyter Notebook
 * 云工具：GitHub，GitLab，Jira，Confluence，Cloudflare，Digital Ocean，Vultr，AWS，Azure，阿里云，Pivotal Cloud Foundry
-* 测试：Postman，Selenium，Karate，JUnit，Mockito，Apache JMeter
+* 测试：Postman，Selenium，Karate，JUnit，Mockito，Apache JMeter, Apache ab
 * 其他：FFmpeg，Spark，代理工具
 * 当前学习：日语，机器学习，云计算
 
