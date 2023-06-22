@@ -97,7 +97,7 @@ I have gained a lot of skills since I started programming in 2008. Let's look at
 
 ## Tools
 
-Besides skills from the high level, I have experience with the following tools and I can use them anytime.
+Besides skills, let's look at the detailed tools I use, plus other interesting tools.
 
 * Natural Language: English, Chinese, Cantonese, Hakka
 * Operating System: Linux, Windows, MacOS, Android, iOS, OpenWRT, Symbian, Apple tvOS, Fire OS
