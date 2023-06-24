@@ -95,6 +95,8 @@ ul.post-list li::before {
 .main-content {
   color: #4a4a4a;
 
+  margin: 0 auto !important;
+
   @include small {
     padding: 2rem 1.5rem;
   }
