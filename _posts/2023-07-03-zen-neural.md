@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Zen and the Art of Neural Network(WIP)"
+title: "Zen and the Art of Neural Network(Draft)"
 ---
 
 <div align="center"><img src="/assets/images/zen-neural/building.jpg" width="100%" /><img/></div>
