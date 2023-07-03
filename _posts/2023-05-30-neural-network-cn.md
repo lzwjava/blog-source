@@ -43,13 +43,13 @@ $w_1*a_1 + w_2*a_2+...+ w_{784}*a_{784}+b_1$
 
 $
 \begin{eqnarray} 
-  \sigma(z) \equiv \frac{1}{1+e^{-z}}.
+  \sigma(z) \equiv \frac{1}{1+e^{-z}}
 \end{eqnarray}
 $
 
 $
 \begin{eqnarray} 
-  \frac{1}{1+\exp(-\sum_j w_j x_j-b)}.
+  \frac{1}{1+\exp(-\sum_j w_j x_j-b)}
 \end{eqnarray}
 $
 
