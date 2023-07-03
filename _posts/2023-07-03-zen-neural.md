@@ -60,11 +60,11 @@ $$
 Here, Equation 1 has a group set of weights, Equation 2 has another group set of weights. So the $w_1$ in Equation 1 is different from the $w_1$ in Equation 2. And so between the second layer and the third layer, we have the below equations.
 
 $$
-\begin{eq2}
+\begin{align}
   w_1*c_1 + w_2*c_2+ w_3*c_3+ w_4*c_4+b_1 = d_1 \\
   w_1*c_1 + w_2*c_2+ w_3*c_3+ w_4*c_4+b_2 = d_2 \\
   w_1*c_1 + w_2*c_2+ w_3*c_3+ w_4*c_4+b_3 = d_3 
-\end{eq2}  
+\end{align}  
 $$
 
 And in the third layer to the last layer, we have the below equations.
