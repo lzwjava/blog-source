@@ -162,7 +162,7 @@ $$
 \sigma'(z) = \frac{\sigma(z)}{1-\sigma(z)}
 $$
 
-So the derivative of $f(g(w_1))$ is $\frac{\sigma(z)}{1-\sigma(z)} * a_1$
+So the derivative of $f(g(w_1))$ is $\frac{\sigma(z)}{1-\sigma(z)} * a_1$.
 
 So, 
 
@@ -171,4 +171,10 @@ $$
 \Delta w = \frac{\Delta C}{\frac{\sigma(z)}{1-\sigma(z)} * a_1} 
 $$
 
+And for the bias $b_1$, 
 
+$$
+g'(b_1) = 1 \\
+\frac{\sigma(z)}{1-\sigma(z)} * \Delta b = \Delta C \\
+\Delta b = \frac{\Delta C}{\frac{\sigma(z)}{1-\sigma(z)}}
+$$
