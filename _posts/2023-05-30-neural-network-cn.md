@@ -7,10 +7,10 @@ usemathjax: true
 让我们直接讨论神经系统工作的核心。也就是说，反向传播算法：
 
 1. 输入x： 为输入层设置相应的激活值$a^{1}$。
-2. 前馈式： 对于每个$$l=2,3,...,L$$计算$$z^{l} = w^l a^{l-1}+b^l$$和$$a^{l} = \sigma(z^{l})$$
-3. 输出误差 $$\delta^{L}$$： 计算矢量 $$\delta^{L} = \nabla_a C \odot \sigma'(z^L)$$
-4. 反向传播误差： 对于每个$$l=L-1,L-2,...,2$$，计算$$\delta^{l} = ((w^{l+1})^T \delta^{l+1}) \odot \sigma'(z^{l})$$
-5. 输出： 成本函数的梯度由 $$\frac{\partial C}{\partial w^l_{jk}} = a^{l-1}_k \delta^l_j$$ 和 $$\frac{\partial C}{\partial b^l_j} = \delta^l_j $$ 给出。
+2. 前馈式： 对于每个$l=2,3,...,L$计算$z^{l} = w^l a^{l-1}+b^l$和$a^{l} = \sigma(z^{l})$
+3. 输出误差 $\delta^{L}$： 计算矢量 $\delta^{L} = \nabla_a C \odot \sigma'(z^L)$
+4. 反向传播误差： 对于每个$l=L-1,L-2,...,2$，计算$\delta^{l} = ((w^{l+1})^T \delta^{l+1}) \odot \sigma'(z^{l})$
+5. 输出： 成本函数的梯度由 $\frac{\partial C}{\partial w^l_{jk}} = a^{l-1}_k \delta^l_j$ 和 $\frac{\partial C}{\partial b^l_j} = \delta^l_j $ 给出。
 
 
 这是从迈克尔-尼尔森的《神经网络与深度学习》一书中抄来的。这是不是让人不知所措？在你第一次看到它时可能是这样。但在围绕它研究了一个月后，就不会了。让我解释一下。
@@ -29,29 +29,29 @@ usemathjax: true
 
 我们给784个神经元中的每个神经元一个权重，比如、 
 
-$$w_1, w_2, w_3, w_4, ... , w_{784}$$
+$w_1, w_2, w_3, w_4, ... , w_{784}$
 
-并给第一层一个偏置，即$$b_1$$。
+并给第一层一个偏置，即$b_1$。
 
 于是对于第二层的第一个神经元，它的值是：
 
-$$w_1*a_1 + w_2*a_2+...+ w_{784}*a_{784}+b_1$$
+$w_1*a_1 + w_2*a_2+...+ w_{784}*a_{784}+b_1$
 
-但这些权重和偏置是针对$$neuron^2_{1}$$(第二层的第一个)的。对于$$neuron^2_{2}$$来说，我们需要另一组权重和一个偏置。
+但这些权重和偏置是针对$neuron^2_{1}$(第二层的第一个)的。对于$neuron^2_{2}$来说，我们需要另一组权重和一个偏置。
 
 那么，sigmoid函数呢？我们用sigmoid函数把上面的值从0映射到1。
 
-$$
+$
 \begin{eqnarray} 
   \sigma(z) \equiv \frac{1}{1+e^{-z}}.
 \end{eqnarray}
-$$
+$
 
-$$
+$
 \begin{eqnarray} 
   \frac{1}{1+\exp(-\sum_j w_j x_j-b)}.
 \end{eqnarray}
-$$
+$
 
 我们也使用sigmoid函数来激活第一层。也就是说，我们把这个灰度值改为从0到1的范围。所以现在，每一层的每个神经元都有一个从0到1的值。
 
@@ -70,9 +70,9 @@ $$
 
 ## 前馈
 
-> 前馈： 对于每个l=2,3,...,L计算$$z^{l} = w^l a^{l-1}+b^l$$和$$a^{l} = \sigma(z^{l})$$
+> 前馈： 对于每个l=2,3,...,L计算$z^{l} = w^l a^{l-1}+b^l$和$a^{l} = \sigma(z^{l})$
 
-注意这里，我们使用最后一层的值，即$$a^{l-1}$$和当前层的权重$$w^l$$及其偏置$$b^l$$来做sigmoid，得到当前层的值，$$a^{l}$$。
+注意这里，我们使用最后一层的值，即$a^{l-1}$和当前层的权重$w^l$及其偏置$b^l$来做sigmoid，得到当前层的值，$a^{l}$。
 
 代码：
 
@@ -92,20 +92,20 @@ $$
 
 ## 输出错误
 
-> 输出误差 $$\delta^{L}$$： 计算矢量 $$\delta^{L} = \nabla_a C \odot \sigma'(z^L)$$
+> 输出误差 $\delta^{L}$： 计算矢量 $\delta^{L} = \nabla_a C \odot \sigma'(z^L)$
 
-让我们看看$$\nabla$$意味着什么。
+让我们看看$\nabla$意味着什么。
 
 > Del，或称nabla，是数学中（特别是在矢量微积分中）使用的一种矢量微分算子，通常用nabla符号∇表示。
 
-$$
+$
 \begin{eqnarray}
   w_k & \rightarrow & w_k' = w_k-\eta \frac{\partial C}{\partial w_k} \\
   b_l & \rightarrow & b_l' = b_l-\eta \frac{\partial C}{\partial b_l}
 \end{eqnarray}
-$$
+$
 
-这里$$\eta$$是学习率。我们使用的导数是C与权重和偏差各自的导数，也就是它们之间的速率变化。这就是下面的`sigmoid_prime`。
+这里$\eta$是学习率。我们使用的导数是C与权重和偏差各自的导数，也就是它们之间的速率变化。这就是下面的`sigmoid_prime`。
 
 代码：
 
@@ -123,7 +123,7 @@ $$
 
 ## 反向传播误差
 
-> 反向传播误差： 对于每个l=L-1,L-2,...,2，计算$$\delta^{l} = ((w^{l+1})^T \delta^{l+1}) \odot \sigma'(z^{l})$$
+> 反向传播误差： 对于每个l=L-1,L-2,...,2，计算$\delta^{l} = ((w^{l+1})^T \delta^{l+1}) \odot \sigma'(z^{l})$
 
 ```python
      for l in range(2, self.num_layers):
@@ -137,7 +137,7 @@ $$
 
 ## 输出
 
-> 输出： 成本函数的梯度由 $$\frac{\partial C}{\partial w^l_{jk}} = a^{l-1}_k \delta^l_j$$ 和 $$\frac{\partial C}{\partial b^l_j} = \delta^l_j $$ 给出。
+> 输出： 成本函数的梯度由 $\frac{\partial C}{\partial w^l_{jk}} = a^{l-1}_k \delta^l_j$ 和 $\frac{\partial C}{\partial b^l_j} = \delta^l_j $ 给出。
 
 ```python
     def update_mini_batch(self, mini_batch, eta):

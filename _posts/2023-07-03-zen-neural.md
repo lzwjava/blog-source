@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Zen and the Art of Neural Network - Draft"
+title: "Zen and the Art of Machine Learning - Draft"
+usemathjax: true
 ---
 
 <div align="center"><img src="/assets/images/zen-neural/building.jpg" width="100%" /><img/></div>
@@ -9,3 +10,63 @@ A young dad is busy learning Neural networks at the weekend. However, this weeke
 
 He then thought about backpropagation. What backpropagation does is to backpropagate the errors to neurons? At the end of one-time training, the algorithm calculates the error between the output of the last layer to the target result. Actually, neural networks have nothing to do with neurons. It is about differentiable computing.
 
+After writing down the article "I Finally Understand How Neural Network Works", he found that he still didn't understand. Understanding is a relative thing. As Richard Feynman points out something like nobody can be 100% sure about anything, we can only be relatively sure about something. So it is acceptable for Zhiwei to say so.
+
+So he figured out a way to understand the Neural Networks deeply by using the way to copy several lines of example code every time, then run it and print variables. It is about the simple neural network to recognize the handwritten digits. The book he is reading recently is titled *Neural Networks and Deep Learning*. So he gives his GitHub repository the name *Neural Networks and Zhiwei Learning*. 
+
+Before we use Neural Network to train our data, we need to load data first. This part costs him a week of leisure time to do it. Things are always needed more time to get them done. But as long as we don't give up, we are capable to do pretty many things.
+
+The mnist in the Machine learning area stands for Modified National Institute of Standards and Technology database. So our data loader file is called minst_loader. We use the print function in Python to print a lot of lists and arrays of ndarray. The nd in ndarray means n-dimensional. 
+
+Besides print, we must use the matplotlib library to show our digits. Like below.
+
+<div align="center"><img src="/assets/images/zen-neural/figure.png" width="30%" /><img/></div>
+
+Let's see more digits.
+
+<div align="center"><img src="/assets/images/zen-neural/figures.jpeg" width="100%" /><img/></div>
+
+It is more joyful when you sometimes can see pictures instead of facing around the noisy codes all day long.
+
+<div align="center"><img src="/assets/images/zen-neural/layer.png" width="100%" /><img/></div>
+
+Does it seem complicated? Here, we may have too many neurons in each layer. And it makes things obscure. It is actually very simple once you understood it. First thing about the above picture is that it has three layers, the input layer, the hidden layer and the output layer. And one layer connects the next layer. But how can 784 neurons in the input layer change to the 15 neurons in the second layer? And how can 15 neurons in the hidden layer change to the 10 neurons in the output layer?
+
+<div align="center"><img src="/assets/images/zen-neural/simple-network.png" width="100%" /><img/></div>
+
+This network is much simpler. Though Zhiwei doesn't want to include any math formula in this article, here the math is too simple and beautiful to hide.
+
+$$w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_1$$
+
+Suppose we indicate the network like below.
+
+<div align="center"><img src="/assets/images/zen-neural/network-1.png" width="30%" /><img/></div>
+
+So between the first layer and the second layer, we have the below equations.
+
+$$
+\begin{eqnarray}
+  w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_1 = c_1 \\
+  w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_2 = c_2 \\
+  w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_3 = c_3 \\
+  w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_4 = c_4 
+\end{eqnarray}
+$$
+
+Here, Equation 1 has a group set of weights, Equation 2 has another group set of weights. So the $w_1$ in Equation 1 is different from the $w_1$ in Equation 2. And so between the second layer and the third layer, we have the below equations.
+
+$$
+\begin{eqnarray}
+  w_1*c_1 + w_2*c_2+ w_3*c_3+ w_4*c_4+b_1 = d_1 \\
+  w_1*c_1 + w_2*c_2+ w_3*c_3+ w_4*c_4+b_2 = d_2 \\
+  w_1*c_1 + w_2*c_2+ w_3*c_3+ w_4*c_4+b_3 = d_3 
+\end{eqnarray}
+$$
+
+And in the third layer to the last layer, we have the below equations.
+
+$$
+\begin{eqnarray}
+  w_1*d_1 + w_2*d_2+ w_3*d_3+ b_1 = e_1 \\
+\end{eqnarray}
+$$
