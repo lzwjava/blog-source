@@ -139,9 +139,36 @@ $$
 \frac{\partial S_1}{\partial w_1} = a_1 , \frac{\partial S_1}{\partial w_2} = a_2, ...
 $$
 
-The derivate means the rate of change. It means that for the change $\Delta w$ in $w_1$, its change in the result $S_1$ is $a_1 * \Delta w$. And how can we reverse such calculation? For the below,
+The derivate means the rate of change. It means that for the change $\Delta w$ in $w_1$, its change in the result $S_1$ is $a_1 * \Delta w$. And how can we reverse such a calculation? Let's calculate it.
 
 $$
-\Delta S_1 = S_1' - S_1
+S_1' - S_1 = \Delta S_1  \\
+\frac{\Delta S_1}{a_1} = \Delta w \\
+w_1- \Delta w = w_1'
 $$
+
+And the chain rule explains that the derivative of $f(g(x))$ is $f'(g(x))⋅g'(x)$.
+
+So here, 
+
+$$
+f(z) = \sigma(z) = \frac{1}{1+e^{-z}} \\
+g(x) = w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_1
+$$
+
+And the derivative of the sigmoid function is, 
+
+$$
+\sigma'(z) = \frac{\sigma(z)}{1-\sigma(z)}
+$$
+
+So the derivative of $f(g(w_1))$ is $\frac{\sigma(z)}{1-\sigma(z)} * a_1$
+
+So, 
+
+$$
+\frac{\sigma(z)}{1-\sigma(z)} * a_1 * \Delta w = \Delta C \\
+\Delta w = \frac{\Delta C}{{\sigma(z)}{1-\sigma(z)} * a_1}
+$$
+
 
