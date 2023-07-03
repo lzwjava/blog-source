@@ -168,7 +168,7 @@ So,
 
 $$
 \frac{\sigma(z)}{1-\sigma(z)} * a_1 * \Delta w = \Delta C \\
-\Delta w = \frac{\Delta C}{{\sigma(z)}{1-\sigma(z)} * a_1}
+\Delta w = \frac{\Delta C}{\frac{\sigma(z)}{1-\sigma(z)} * a_1} 
 $$
 
 
