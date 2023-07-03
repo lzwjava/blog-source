@@ -70,3 +70,78 @@ $$
   w_1*d_1 + w_2*d_2+ w_3*d_3+ b_1 = e_1 \\
 \end{eqnarray}
 $$
+
+The one problem with the above equations is that the value is not simple or formal enough. The range of the value of multiplication and addition is quite large. We want it constrained in a small range, say, 0 to 1. So here, we have the Sigmoid function. 
+
+$$
+\begin{eqnarray} 
+  \sigma(z) \equiv \frac{1}{1+e^{-z}}
+\end{eqnarray}
+$$
+
+We don't need to be intimidated by the sigma symbol $\sigma$. It is just a symbol just like the symbol a. If we give it the input as 0.5, its value is 
+
+$$
+ \frac{1}{1+e^{-0.5}} \approx 0.622459 
+$$
+
+And,
+
+$$
+\frac{1}{1+e^{-(-100)}} \approx 3.72*e^{-44}  \\
+\frac{1}{1+e^{-(-10)}} \approx 0.000045  \\
+\frac{1}{1+e^{-(-1)}} \approx 0.26894  \\
+\frac{1}{1+e^{-{0}}} = 0.5  \\
+\frac{1}{1+e^{-10}} \approx 0.99995  \\
+\frac{1}{1+e^{-100}} = 1
+$$
+
+It is intriguing here. I don't know the above before I write this article. Now, I got a feeling about how its approximate result value for the normal input. And we observe that for the input that ranges from 0 to $\infty$, its value is from 0.5 to 1, and for the input that ranges from $-\infty$ to 0, its value is from 0 to 0.5.
+
+<div align="center"><img src="/assets/images/zen-neural/curve.png" width="100%" /><img/></div>
+
+So regarding the above equations, they are not accurate. The most proper ones should be like below.
+
+$$
+\begin{eqnarray}
+  \sigma(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_1) = c_1 \\
+  \sigma(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_2) = c_2 \\
+  \sigma(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_3) = c_3 \\
+  \sigma(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_4) = c_4 
+\end{eqnarray}
+$$
+
+So for the first equation, it is that, 
+
+$$
+\begin{eqnarray}
+   \frac{1}{1+e^{-(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_1)}}
+\end{eqnarray}
+$$
+
+How can we update the new weight for $w_1$? That is, 
+
+$$
+\begin{eqnarray}
+    w_1 & \rightarrow & w_1' = w_1- \Delta w \\
+\end{eqnarray}
+$$
+
+To the equation, 
+
+$$w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_1$$
+
+Its derivative to the $w_1$ is $a_1$. Let's give the sum the symbol $S_1$.
+
+So, 
+
+$$
+\frac{\partial S_1}{\partial w_1} = a_1 , \frac{\partial S_1}{\partial w_2} = a_2, ...
+$$
+
+The derivate means the rate of change. It means that for the change $\Delta w$ in $w_1$, its change in the result $S_1$ is $a_1 * \Delta w$. And how can we reverse such calculation? For the below,
+
+$$
+\Delta S_1 = S_1' - S_1
+$$
+

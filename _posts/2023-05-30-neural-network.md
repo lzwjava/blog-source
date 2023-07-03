@@ -44,13 +44,13 @@ How about the sigmoid function? We use the sigmoid function to map the value of 
 
 $$
 \begin{eqnarray} 
-  \sigma(z) \equiv \frac{1}{1+e^{-z}}.
+  \sigma(z) \equiv \frac{1}{1+e^{-z}}
 \end{eqnarray}
 $$
 
 $$
 \begin{eqnarray} 
-  \frac{1}{1+\exp(-\sum_j w_j x_j-b)}.
+  \frac{1}{1+\exp(-\sum_j w_j x_j-b)}
 \end{eqnarray}
 $$
 
