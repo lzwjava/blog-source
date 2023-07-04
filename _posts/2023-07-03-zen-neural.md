@@ -60,11 +60,11 @@ $$
 Here, Equation 1 has a group set of weights, Equation 2 has another group set of weights. So the $w_1$ in Equation 1 is different from the $w_1$ in Equation 2. And so between the second layer and the third layer, we have the below equations.
 
 $$
-\begin{align}
+\begin{eqnarray}
   w_1*c_1 + w_2*c_2+ w_3*c_3+ w_4*c_4+b_1 = d_1 \\
   w_1*c_1 + w_2*c_2+ w_3*c_3+ w_4*c_4+b_2 = d_2 \\
   w_1*c_1 + w_2*c_2+ w_3*c_3+ w_4*c_4+b_3 = d_3 
-\end{align}  
+\end{eqnarray}  
 $$
 
 And in the third layer to the last layer, we have the below equations.
@@ -88,14 +88,14 @@ $$
 And,
 
 $$
-\begin{eq3}
+\begin{eqnarray}
 \frac{1}{1+e^{-(-100)}} \approx 3.72*e^{-44}  \\
 \frac{1}{1+e^{-(-10)}} \approx 0.000045  \\
 \frac{1}{1+e^{-(-1)}} \approx 0.26894  \\
 \frac{1}{1+e^{-{0}}} = 0.5  \\
 \frac{1}{1+e^{-10}} \approx 0.99995  \\
 \frac{1}{1+e^{-100}} = 1
-\end{eq3}
+\end{eqnarray}
 $$
 
 It is intriguing here. I don't know the above before I write this article. Now, I got a feeling about how its approximate result value for the normal input. And we observe that for the input that ranges from 0 to $\infty$, its value is from 0.5 to 1, and for the input that ranges from $-\infty$ to 0, its value is from 0 to 0.5.
@@ -105,12 +105,12 @@ It is intriguing here. I don't know the above before I write this article. Now, 
 So regarding the above equations, they are not accurate. The most proper ones should be like below.
 
 $$
-\begin{eq4}
+\begin{eqnarray}
   \sigma(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_1) = c_1 \\
   \sigma(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_2) = c_2 \\
   \sigma(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_3) = c_3 \\
   \sigma(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_4) = c_4 
-\end{eq4}
+\end{eqnarray}
 $$
 
 So for the first equation, it is that, 
@@ -140,11 +140,11 @@ $$
 The derivate means the rate of change. It means that for the change $\Delta w$ in $w_1$, its change in the result $S_1$ is $a_1 * \Delta w$. And how can we reverse such a calculation? Let's calculate it.
 
 $$
-\begin{eq5}
+\begin{eqnarray}
 S_1' - S_1 = \Delta S_1  \\
 \frac{\Delta S_1}{a_1} = \Delta w \\
 w_1- \Delta w = w_1'
-\end{eq5}
+\end{eqnarray}
 $$
 
 And the chain rule explains that the derivative of $f(g(x))$ is $f'(g(x))⋅g'(x)$.
@@ -152,10 +152,10 @@ And the chain rule explains that the derivative of $f(g(x))$ is $f'(g(x))⋅g'(x
 So here, 
 
 $$
-\begin{eq6}
+\begin{eqnarray}
 f(z) = \sigma(z) = \frac{1}{1+e^{-z}} \\
 g(x) = w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_1
-\end{eq6}
+\end{eqnarray}
 $$
 
 And the derivative of the sigmoid function is, 
@@ -169,20 +169,20 @@ So the derivative of $f(g(w_1))$ is $\frac{\sigma(z)}{1-\sigma(z)} * a_1$.
 So, 
 
 $$
-\begin{eq7}
+\begin{eqnarray}
 \frac{\sigma(z)}{1-\sigma(z)} * a_1 * \Delta w = \Delta C \\
 \Delta w = \frac{\Delta C}{\frac{\sigma(z)}{1-\sigma(z)} * a_1} 
-\end{eq7}
+\end{eqnarray}
 $$
 
 And for the bias $b_1$, 
 
 $$
-\begin{eq8}
+\begin{eqnarray}
 g'(b_1) = 1 \\
 \frac{\sigma(z)}{1-\sigma(z)} * \Delta b = \Delta C \\
 \Delta b = \frac{\Delta C}{\frac{\sigma(z)}{1-\sigma(z)}}
-\begin{eq8}
+\end{eqnarray}
 $$
 
 ## Code
