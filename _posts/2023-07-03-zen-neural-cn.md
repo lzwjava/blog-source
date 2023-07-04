@@ -218,8 +218,8 @@ def vectorized_result(j):
 
 而智维总是将错误视为宝贵的财富。就像下面的代码一样，他面对着许多错误，例如：
 
-* TypeError: Invalid shape (784,) for image data（图像数据的形状无效（784，））
-* ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 2 dimensions. The detected shape was (1, 2) + inhomogeneous part.（使用序列设置数组元素时出现值错误。请求的数组在2个维度之后具有不均匀的形状。检测到的形状是（1, 2）+ 不均匀部分。）
+* TypeError: 图像数据的形状无效（784，）
+* ValueError: 使用序列设置数组元素时出现值错误。请求的数组在2个维度之后具有不均匀的形状。检测到的形状是（1, 2）+ 不均匀部分。
 
 错误堆栈跟踪日志，就像优美的诗一样。
 
