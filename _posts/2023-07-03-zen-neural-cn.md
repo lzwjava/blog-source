@@ -247,3 +247,7 @@ def vectorized_result(j):
 ```
 
 読んでくれてありがとう (Yonde kurete arigatō)。感谢您的阅读。
+
+--
+
+注：部分图片来自《神经网络与机器学习》一书。

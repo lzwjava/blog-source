@@ -254,3 +254,7 @@ Also, when we format the value output in Visual Studio Code, it is much more rea
 ```
 
 読んでくれてありがとう. Thank you for your reading.
+
+---
+
+Note: Some pictures are copied from the book "Neural Networks and Deep Learning".
