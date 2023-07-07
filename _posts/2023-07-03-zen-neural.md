@@ -50,10 +50,10 @@ So between the first layer and the second layer, we have the below equations.
 
 $$
 \begin{eqnarray}
-  w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_1 = c_1 \\
-  w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_2 = c_2 \\
-  w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_3 = c_3 \\
-  w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_4 = c_4 
+  w_1*a_1 +...+ w_6*a_6+b_1 = c_1 \\
+  w_1*a_1 +...+ w_6*a_6+b_2 = c_2 \\
+  w_1*a_1 +...+ w_6*a_6+b_3 = c_3 \\
+  w_1*a_1 +...+ w_6*a_6+b_4 = c_4 
 \end{eqnarray}  
 $$
 
@@ -61,9 +61,9 @@ Here, Equation 1 has a group set of weights, Equation 2 has another group set of
 
 $$
 \begin{eqnarray}
-  w_1*c_1 + w_2*c_2+ w_3*c_3+ w_4*c_4+b_1 = d_1 \\
-  w_1*c_1 + w_2*c_2+ w_3*c_3+ w_4*c_4+b_2 = d_2 \\
-  w_1*c_1 + w_2*c_2+ w_3*c_3+ w_4*c_4+b_3 = d_3 
+  w_1*c_1 + ... + w_4*c_4+b_1 = d_1 \\
+  w_1*c_1 + ... + w_4*c_4+b_2 = d_2 \\
+  w_1*c_1 + ... + w_4*c_4+b_3 = d_3 
 \end{eqnarray}  
 $$
 
@@ -106,17 +106,17 @@ So regarding the above equations, they are not accurate. The most proper ones sh
 
 $$
 \begin{eqnarray}
-  \sigma(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_1) = c_1 \\
-  \sigma(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_2) = c_2 \\
-  \sigma(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_3) = c_3 \\
-  \sigma(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_4) = c_4 
+  \sigma(w_1*a_1 + ... + w_6*a_6+b_1) = c_1 \\
+  \sigma(w_1*a_1 + ... + w_6*a_6+b_2) = c_2 \\
+  \sigma(w_1*a_1 + ... + w_6*a_6+b_3) = c_3 \\
+  \sigma(w_1*a_1 + ... + w_6*a_6+b_4) = c_4 
 \end{eqnarray}
 $$
 
 So for the first equation, it is that, 
 
 $$
-   \frac{1}{1+e^{-(w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_1)}}
+   \frac{1}{1+e^{-(w_1*a_1 +...+ w_6*a_6+b_1)}}
 $$
 
 How can we update the new weight for $w_1$? That is, 
@@ -154,7 +154,7 @@ So here,
 $$
 \begin{eqnarray}
 f(z) = \sigma(z) = \frac{1}{1+e^{-z}} \\
-g(x) = w_1*a_1 + w_2*a_2+...+ w_6*a_6+b_1
+g(x) = w_1*a_1 +...+ w_6*a_6+b_1
 \end{eqnarray}
 $$
 
