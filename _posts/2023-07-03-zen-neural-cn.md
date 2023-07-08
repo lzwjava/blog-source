@@ -124,7 +124,7 @@ $$
 我们如何更新$w_1$的新权重？也就是说，
 
 $$
-    w_1 & \rightarrow & w_1' = w_1- \Delta w \\
+    w_1 \rightarrow w_1' = w_1- \Delta w 
 $$
 
 对于方程，
