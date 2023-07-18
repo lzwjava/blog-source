@@ -38,7 +38,7 @@ I am the genius Zhiwei, I earned approximately 400k CNY a year in the big cities
 
 I am the genius Zhiwei. I made an engineering education startup to gain millions of page views. I participated in the backend development of one app which has 3 million users in Hong Kong. 
 
-I am the genius Zhiwei. I worked hard for 28 years to reach today's level. No fearless to any code, any document, any knowledge, any information.
+I am the genius Zhiwei. I worked hard for 28 years to reach today's level. No fearless of any code, any document, any knowledge, any information.
 
 I am the genius Zhiwei. I began to teach my 2 yo baby daughter all of my languages, my learnings. The people in the scene thought that I was ABC, American-born Chinese as I often speak English to my daughter. I am CBC, China-born Chinese. I can speak hakka, Mandarin, Cantonese, and a little Japanese. 吃饭了吗，食饭了么，吃佐饭没。
 
