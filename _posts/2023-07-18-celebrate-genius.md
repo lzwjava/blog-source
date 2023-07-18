@@ -22,7 +22,7 @@ And, data-sensitive companies should give every employee two laptops. One is dat
 
 I am the genius Zhiwei. With the help of the teacher Yin Wang, I did a year of experiments to wear eyeglasses whose degrees are 150 degrees more than the actual ones. Then I found that my myopia and astigmatism degrees dropped by around 100 degrees. It seems after 2 years, I can take off my eyeglasses though now the myopia degree of my left eye is around 300, and the myopia degree of my right eye is around 500. 
 
-I am the genius Zhiwei. Now, I write this caption with my m2 mac air and a projector. The white wall in my house is just my big screen. I decide to work in this way to research machine learning, neural network, supervised learning, transformer, Generalized Pre-trained Transformer. I just listen around 100 times to OpenAI Cofounder John Schulman's talk. 
+I am the genius Zhiwei. Now, I write this caption with my m2 mac air and a projector. The white wall in my house is just my big screen. I decide to work in this way to research machine learning, neural network, supervised learning, transformer, and generalized pre-trained transformer. I just listen around 100 times to OpenAI Cofounder John Schulman's talk. 
 
 I am the genius Zhiwei. I wrote my learning about neural networks on my blog. My Indian colleague likes it and says my article is very intuitive. Yeah, the apartment complex in my eye just likes the neural networks when I lay down in the swimming pool to accompany my baby daughter. 
 
