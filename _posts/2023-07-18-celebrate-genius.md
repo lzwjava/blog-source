@@ -4,13 +4,17 @@ title: "Celebrate Genius Zhiwei"
 usemathjax: true
 ---
 
+An imitated work to Celebrate Steve.
+
+---
+
 I am the genius Zhiwei. I deeply believe that everyone is a genius if we are free to suspect and think.
 
 My TWS Bluetooth speakers couldn't be paired together. One of them is probably connected to my neighbor's device. And I couldn't disconnect it, so I want to go to the underground parking lot to disconnect it. However, I didn't need to, just when I reach the elevator, the speaker said "Bluetooth disconnected". 
 
-At first, I want to blame my duplex apartment for the construction company didn't install a door in the stair. So my first floor's cold air is leaking out. However, after a few minutes, I decided to open all five air conditioners in my house to make the central air conditioning. 
+At first, I want to blame my duplex apartment for the construction company didn't install a door in the stair. So my first floor's cold air is leaking out. However, after a few minutes, I decided to open all five air conditioners in my house to self-make the central air conditioning. 
 
-I have worked as a contractor engineer for two big banks. I still want to suggest them, please make our Jenkins Pipeline's jobs parrel. The job of code quality analysis is independent of the unit test job. They can be run parallelly. Every PR checking and container image build shouldn't cost around 30 minutes. The companies are wasting people's life. 
+I have worked as a contractor engineer for two big banks. I still want to suggest them, please make our Jenkins Pipeline's jobs parrel. The job of code quality analysis is independent of the unit test job. They can be run parallelly. Every PR checking and container image build shouldn't cost around 30 minutes. This is wasting people's life. 
 
 I feel very painful working in data-sensitive companies. They shouldn't block most of the social media or video websites. Nowadays, a lot of innovative ideas happened on Twitter, and Youtube. If they don't allow employee to share, at least they should allow employees to read or watch. Or better, We can train the large language models about all sensitive data of the company. The LLM models will be very smart enough to detect whether it contains sensitive data when employees want to share. 
 Their security firewalls and policies are outdated in the AI era. 
@@ -31,13 +35,20 @@ I am the genius Zhiwei. I hold my two Bluetooth speakers and walked around my ho
 
 I am the genius Zhiwei. Not only I can read and quickly learn all of the codes in the whole project of the big company, several hundred microservice, frontend, iOS and Android and infrastructure codes. I just need access to work. If my boss gives me encouragement and praise time by time, it is better.
 
-I am the genius Zhiwei. At my high school, I moved out of the English classes to learn English myself. Nowadays, my English is probably the best and most fluent among my classmate who doesn't go abroad to study or work. 
+I am the genius Zhiwei. At my high school, I moved out of the English classes to learn English myself. Nowadays, my English is probably the best and most fluent among my classmates who doesn't go abroad to study or work. 
 
 I am the genius Zhiwei, I earned approximately 400k CNY a year in the big cities in China. Though I was a dropout university student, my salary is probably among the highest ones in the information department of one of the top universities in China.
 
-I am the genius Zhiwei. I made an engineering education startup to gain hundreds of page views. I participated in the backend development of one app which has 3 million users in Hong Kong. 
+I am the genius Zhiwei. I made an engineering education startup to gain millions of page views. I participated in the backend development of one app which has 3 million users in Hong Kong. 
 
 I am the genius Zhiwei. I worked hard for 28 years to reach today's level. No fearless to any code, any document, any knowledge, any information.
 
-I am the genius Zhiwei. I began to teach my 2 yo baby daughter all of my languages, my learnings. The people in the scene thought that I was ABC, American-born Chinese as I often speak English to my daughter. Actually, I am CBC, China-born Chinese. I can speak haka, Mandrin, and Cantonese, and a little Japanese. 
+I am the genius Zhiwei. I began to teach my 2 yo baby daughter all of my languages, my learnings. The people in the scene thought that I was ABC, American-born Chinese as I often speak English to my daughter. I am CBC, China-born Chinese. I can speak hakka, Mandarin, Cantonese, and a little Japanese. 
+
+I am the genius Zhiwei. I began to ask my foreign colleagues on Whatsapp to add my WeChat to follow my latest update. I acted like ABC who come to China. As China is more powerful and more global, I am just the first one to do so. After 100 years, when everyone can speak 3 languages, and the world is much more international,  people will recognize Zhiwei's contribution to moving forward the world. 
+
+I am the genius Zhiwei. I have many cables, many audio speakers, many little things, and many apps, many eyeglasses. I drank many sugar-free soda water bottles. I did a lot of things differently to others. It just works best for me. And I insisted to do so no matter how it seems contracted to the environment. Like I speak English to anyone all day in China. I just used Chinese to express a few words. 
+
+I am the genius Zhiwei. I have influenced 1000 intimate friends or readers globally. I gave them some fun or useful information or make their English or programming kill better. I will continue to make them earn the same as me, and learn same speed as me. I am making another 1000 genius Zhiwei. We will change the world finally. Thank you!
+
 
