@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Celebrate Genius Zhiwei - Short"
+title: "Celebrate Genius Zhiwei"
 usemathjax: true
 ---
 
