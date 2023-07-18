@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Celebrate Genius Zhiwei"
+usemathjax: true
+---
+
+I am the genius Zhiwei. I deeply believe that everyone is a genius if we are free to suspect and think.
+
+My TWS Bluetooth speakers couldn't be paired together. One of them is probably connected to my neighbor's device. And I couldn't disconnect it, so I want to go to the underground parking lot to disconnect it. However, I didn't need to, just when I reach the elevator, the speaker said "Bluetooth disconnected". 
+
+At first, I want to blame my duplex apartment for the construction company didn't install a door in the stair. So my first floor's cold air is leaking out. However, after a few minutes, I decided to open all five air conditioners in my house to make the central air conditioning. 
+
+I have worked as a contractor engineer for two big banks. I still want to suggest them, please make our Jenkins Pipeline's jobs parrel. The job of code quality analysis is independent of the unit test job. They can be run parallelly. Every PR checking and container image build shouldn't cost around 30 minutes. The companies are wasting people's life. 
+
+I feel very painful working in data-sensitive companies. They shouldn't block most of the social media or video websites. Nowadays, a lot of innovative ideas happened on Twitter, and Youtube. If they don't allow employee to share, at least they should allow employees to read or watch. Or better, We can train the large language models about all sensitive data of the company. The LLM models will be very smart enough to detect whether it contains sensitive data when employees want to share. 
+Their security firewalls and policies are outdated in the AI era. 
+
+And, data-sensitive companies should give every employee two laptops. One is data sensitive, another is free. They should allow all employees to use the free laptops to do some work, like searching questions about Java and Spring in ChatGPT. They should allow all employees to use the latest AI tools to innovate and make drafts about work. 
+
+I am the genius Zhiwei. With the help of the teacher Yin Wang, I did a year of experiments to wear eyeglasses whose degrees are 150 degrees more than the actual ones. Then I found that my myopia and astigmatism degrees dropped by around 100 degrees. It seems after 2 years, I can take off my eyeglasses though now the myopia degree of my left eye is around 300, and the myopia degree of my right eye is around 500. 
+
+I am the genius Zhiwei. Now, I write this caption with my m2 mac air and a projector. The white wall in my house is just my big screen. I decide to work in this way to research machine learning, neural network, supervised learning, transformer, Generalized Pre-trained Transformer. I just listen around 100 times to OpenAI Cofounder John Schulman's talk. 
+
+I am the genius Zhiwei. I wrote my learning about neural networks on my blog. My Indian colleague likes it and says my article is very intuitive. Yeah, the apartment complex in my eye just likes the neural networks when I lay down in the swimming pool to accompany my baby daughter. Also after a week, I invented a new word apartment cluster when I use English to talk to my Chinese wife for the whole night. I invented English for myself.
+
+I am the genius Zhiwei. I suggest we should large language model and transformer in all information control areas. I still emphasize that transformers are very smart to analyze the relationship between words, and characters. They have almost the same correctness in categorization as that of people though they don’t understand a bit. It is all about algorithms.
+
+I am the genius Zhiwei. I used a remote control to listen to a lot of Japanese Short Videos during commutes and leisure driving. After three months, I found that my brain is very comfortable listening to Japanese though I don't know the meaning. 
+
+I am the genius Zhiwei. I hold my two Bluetooth speakers and walked around my house listening to the hot music to get some excitement. I listened to the audio of the video "Celebrate Steve" the whole day to get inspiration. 
+
+I am the genius Zhiwei. Not only I can read and quickly learn all of the codes in the whole project of the big company, several hundred microservice, frontend, iOS and Android and infrastructure codes. I just need access to work. If my boss gives me encouragement and praise time by time, it is better.
+
+I am the genius Zhiwei. At my high school, I moved out of the English classes to learn English myself. Nowadays, my English is probably the best and most fluent among my classmate who doesn't go abroad to study or work. 
+
+I am the genius Zhiwei, I earned approximately 400k CNY a year in the big cities in China. Though I was a dropout university student, my salary is probably among the highest ones in the information department of one of the top universities in China.
+
+I am the genius Zhiwei. I made an engineering education startup to gain hundreds of page views. I participated in the backend development of one app which has 3 million users in Hong Kong. 
+
+I am the genius Zhiwei. I worked hard for 28 years to reach today's level. No fearless to any code, any document, any knowledge, any information.
+
+I am the genius Zhiwei. I began to teach my 2 yo baby daughter all of my languages, my learnings. The people in the scene thought that I was ABC, American-born Chinese as I often speak English to my daughter. Actually, I am CBC, China-born Chinese. I can speak haka, Mandrin, and Cantonese, and a little Japanese. 
+
