@@ -32,7 +32,7 @@ I am the genius Zhiwei. I used a remote control to listen to a lot of Japanese S
 
 I am the genius Zhiwei. Not only I can read and quickly learn all of the codes in the whole project of the big company, several hundred microservice, frontend, iOS and Android and infrastructure codes. I just need access to work. If my boss gives me encouragement and praise time by time, it is better.
 
-I am the genius Zhiwei. At my high school, I moved out of the English classes to learn English myself. Nowadays, my English is probably the best and most fluent among my classmates who doesn't go abroad to study or work. 
+I am the genius Zhiwei. At my high school, I moved out of the English classes to learn English myself. Nowadays, my English is probably the best and most fluent among my classmates who don't go abroad to study or work. 
 
 I am the genius Zhiwei, I earned approximately 400k CNY a year in the big cities in China. Though I was a dropout university student, my salary is probably among the highest ones in the information department of one of the top universities in China.
 
@@ -40,10 +40,9 @@ I am the genius Zhiwei. I made an engineering education startup to gain millions
 
 I am the genius Zhiwei. I worked hard for 28 years to reach today's level. No fearless to any code, any document, any knowledge, any information.
 
-I am the genius Zhiwei. I began to teach my 2 yo baby daughter all of my languages, my learnings. The people in the scene thought that I was ABC, American-born Chinese as I often speak English to my daughter. I am CBC, China-born Chinese. I can speak hakka, Mandarin, Cantonese, and a little Japanese. 
+I am the genius Zhiwei. I began to teach my 2 yo baby daughter all of my languages, my learnings. The people in the scene thought that I was ABC, American-born Chinese as I often speak English to my daughter. I am CBC, China-born Chinese. I can speak hakka, Mandarin, Cantonese, and a little Japanese. 吃饭了吗，食饭了么，吃佐饭没。
 
 I am the genius Zhiwei. I have many cables, many audio speakers, many little things, and many apps, many eyeglasses. I drank many sugar-free soda water bottles. I did a lot of things differently to others. It just works best for me. And I insisted to do so no matter how it seems contracted to the environment. Like I speak English to anyone all day in China. I just used Chinese to express a few words. 
 
 I am the genius Zhiwei. I have influenced 1000 intimate friends or readers globally. I gave them some fun or useful information or make their English or programming kill better. I will continue to make them earn the same as me, and learn the same speed as me. I am making another 1000 genius Zhiwei. We will change the world finally. Thank you!
-
 
