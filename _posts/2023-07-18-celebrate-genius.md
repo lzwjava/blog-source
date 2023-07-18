@@ -10,7 +10,7 @@ An imitated work to Celebrate Steve.
 
 I am the genius Zhiwei. I deeply believe that everyone is a genius if we are free to suspect and think.
 
-My TWS Bluetooth speakers couldn't be paired together. One of them is probably connected to my neighbor's device. And I couldn't disconnect it, so I want to go to the underground parking lot. However, I didn't need to, just when I reach the elevator, the speaker said "Bluetooth disconnected". 
+My TWS Bluetooth speakers couldn't be paired together. The customer support said one of them is probably connected to my neighbor's device. And I couldn't disconnect it, so I want to go to the underground parking lot. However, I didn't need to, just when I reach the elevator, the speaker said "Bluetooth disconnected". 
 
 At first, I want to blame my duplex apartment for the construction company didn't install a door in the stair. So my first floor's cold air is leaking out. However, after a few minutes, I decided to open all five air conditioners in my house to self-make the central air conditioning. 
 
