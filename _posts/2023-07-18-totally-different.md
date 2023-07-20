@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Celebrate Genius Zhiwei"
+title: "Think Totally Different"
 usemathjax: true
 ---
 
@@ -40,9 +40,43 @@ I am the genius Zhiwei. I made an engineering education startup to gain millions
 
 I am the genius Zhiwei. I worked hard for 28 years to reach today's level. No fearless of any code, any document, any knowledge, any information.
 
-I am the genius Zhiwei. I began to teach my 2 yo baby daughter all of my languages, my learnings. The people in the scene thought that I was ABC, American-born Chinese as I often speak English to my daughter. I am CBC, China-born Chinese. I can speak hakka, Mandarin, Cantonese, and a little Japanese. 吃饭了吗，食饭了么，吃佐饭没，食事はした。
+I am the genius Zhiwei. I began to teach my 2 yo baby daughter all of my languages, my learnings. The people in the scene thought that I was ABC, American-born Chinese as I often speak English to my daughter. I am CBC, China-born Chinese. I can speak hakka, Mandarin, Cantonese, and a little Japanese. 吃饭了吗，食饭了么，吃佐饭没，Have you eaten the dinner, 食事はした(Shokuji o shita)。
 
 I am the genius Zhiwei. I have many cables, many audio speakers, many little things, and many apps, many eyeglasses. I drank many sugar-free soda water bottles. I did a lot of things differently to others. It just works best for me. And I insisted to do so no matter how it seems contracted to the environment. Like I speak English to anyone all day in China. I just used Chinese to express a few words. 
 
 I am the genius Zhiwei. I have influenced 1000 intimate friends or readers globally. I gave them some fun or useful information or make their English or programming kill better. I will continue to make them earn the same as me, and learn the same speed as me. I am making another 1000 genius Zhiwei. We will change the world finally. Thank you!
+
+----
+
+Report word:
+
+Steve Jobs in 1997: Think Different
+Apple in 2021: Celebrate Steve
+Today, Zhiwei: Think Totally Different
+
+And Genius Zhiwei’s messages to the world recently:
+Curing Myopia is easy
+Any Language is easy
+Any Code is easy
+Any Document is easy
+Any Error is easy
+Machine learning is easy
+Teaching Kids is easy
+Making good content is easy
+And with help of machine learning,
+Data Sensitive done right is easy
+Information Control done right is easy
+Say English to anyone in China is ok
+You need to create environment yourself
+Projector with mac m2 is best to do work
+
+And one day, Zhiwei will say to the world:
+Good looking and body shape is easy
+His daughter will learn most of what he learned in his life in 15 yo
+Any problem of electronic communication is easy,
+Any Hardware is easy
+Any Information Theory is easy
+Everyone can have AI-first, cloud-native home 
+Everyone can have AI-first, cloud-native village
+Everyone can have the sky as their screen to work on
 
