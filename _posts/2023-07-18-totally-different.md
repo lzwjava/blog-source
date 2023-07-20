@@ -52,7 +52,7 @@ I am the genius Zhiwei. I have influenced 1000 intimate friends or readers globa
 
 ----
 
-Report word:
+Repost word:
 
 Steve Jobs in 1997: Think Different
 Apple in 2021: Celebrate Steve
