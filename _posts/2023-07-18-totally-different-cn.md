@@ -5,11 +5,7 @@ title: "想得彻底不同"
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/3oe2Mhtz26s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-ChatGPT帮助翻译。
-
----
-
-一篇向史蒂夫致敬的模仿作品。
+ChatGPT帮助翻译。关于[《Celebrate Steve》](https://youtu.be/CeSAjK2CBEA)的模仿作品。
 
 ---
 
