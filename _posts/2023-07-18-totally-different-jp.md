@@ -5,11 +5,7 @@ title: "完全に違った考え方をする"
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/3oe2Mhtz26s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-ChatGPTが翻訳を助ける。
-
----
-
-[スティーブを祝う](https://youtu.be/CeSAjK2CBEA)ための模倣作品。
+ChatGPTが翻訳を助ける。[スティーブを祝う](https://youtu.be/CeSAjK2CBEA)ための模倣作品。
 
 ---
 
