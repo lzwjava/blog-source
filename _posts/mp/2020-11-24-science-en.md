@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "科学地做事"
+title:  "Do Things Scientifically"
 ---
 
 Translated by ChatGPT.
