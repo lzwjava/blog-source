@@ -8,7 +8,7 @@ usemathjax: true
 
 ---
 
-An imitated work to Celebrate Steve.
+An imitated work to [Celebrate Steve](https://youtu.be/CeSAjK2CBEA).
 
 ---
 
