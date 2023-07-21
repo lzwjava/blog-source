@@ -33,7 +33,7 @@ I am the genius Zhiwei. I used a remote control to listen to a lot of Japanese S
 
 I am the genius Zhiwei. Not only I can read and quickly learn all of the codes in the whole project of the big company, several hundred microservice, frontend, iOS and Android and infrastructure codes. I just need access to work. If my boss gives me encouragement and praise time by time, it is better.
 
-I am the genius Zhiwei. At my high school, I moved out of the English classes to learn English myself. Nowadays, my English is probably the best and most fluent among my classmates who don't go abroad to study or work. 
+I am the genius Zhiwei. At my high school, I moved out of the English classes for seme months to learn English myself. Nowadays, my English is probably the best and most fluent among my classmates who don't go abroad to study or work. 
 
 I am the genius Zhiwei, I earned approximately 400k CNY a year in the big cities in China. Though I was a dropout university student, my salary is probably among the highest ones in the information department of one of the top universities in China.
 
