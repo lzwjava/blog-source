@@ -72,7 +72,7 @@ Data Sensitive done right is easy
 Information Control done right is easy
 Say English to anyone in China is ok
 You need to create environment yourself
-Projector with mac m2 is best to do work
+Mac m2 with Projector is best to do work
 
 And one day, Zhiwei will say to the world:
 Good looking and body shape is easy
