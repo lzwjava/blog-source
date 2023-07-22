@@ -50,7 +50,7 @@ for dir in dirs
                 FileUtils.cp_r(origin_img_dir + '/.', target_img_dir)
             end
 
-            img_path = "/assets/images/cc/#{dir_name}/"
+            img_path = "/assets/images/#{dir_name}/"
 
             content = content.gsub('./img/', img_path)
 
