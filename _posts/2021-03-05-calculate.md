@@ -61,7 +61,7 @@ title:  "解谜计算机科学"
 
 上面的计算可以表达为：
 
-<img src="/assets/images/cc/calculate/add.png" alt="add" style="zoom:40%;" />
+<img src="/assets/images/calculate/add.png" alt="add" style="zoom:40%;" />
 
 
 
@@ -83,7 +83,7 @@ title:  "解谜计算机科学"
 
 这叫做复合表达式。它的计算图该如何表达。我们把3乘上`2+5`的结果。多了一个运算。所以应该画一个乘法器。一边是3，一边是`2+5`。如下：
 
-<img src="/assets/images/cc/calculate/expression.png" alt="expression" style="zoom:40%;" />
+<img src="/assets/images/calculate/expression.png" alt="expression" style="zoom:40%;" />
 
 由此可以知道计算图的威力。想象一张拥有千百分支的计算图。计算机就是这么工作的。
 
@@ -125,7 +125,7 @@ title:  "解谜计算机科学"
 
 
 
-<img src="/assets/images/cc/calculate/expression_plus.png" alt="expression_plus1" style="zoom:50%;" />
+<img src="/assets/images/calculate/expression_plus.png" alt="expression_plus1" style="zoom:50%;" />
 
 是不是觉得这个表达式有点奇怪。一个表达式竟然是两个表达式相加。在表达式的定义中，用到了自己。这种叫做递归定义。所谓递归（recursion），就是一个东西的定义中用到了它本身自己。这是重要的一个思想。在于它能把事情变得很简洁清晰。同时它表达的东西又是强大的。
 
@@ -345,7 +345,7 @@ t来表示输入。t * 2则是表达输出。这种表达，不附加在任何�
 
 
 
-<img src="/assets/images/cc/calculate/fan1.png" style="zoom:50%;" />
+<img src="/assets/images/calculate/fan1.png" style="zoom:50%;" />
 
 
 
@@ -355,7 +355,7 @@ t 可以理解为电线。可见这样表达便是很清晰。信息的流动一
 
 
 
-<img src="/assets/images/cc/calculate/fan2.png"  style="zoom:50%;" />
+<img src="/assets/images/calculate/fan2.png"  style="zoom:50%;" />
 
 可见，这图其实很像`t->t*2`。这幅图就是函数所代表的计算图。t来表达它的一个未知数输入。
 
@@ -386,7 +386,7 @@ t 可以理解为电线。可见这样表达便是很清晰。信息的流动一
 
 
 
-<img src="/assets/images/cc/calculate/variable_a.png" alt="variable_a" style="zoom:50%;" />
+<img src="/assets/images/calculate/variable_a.png" alt="variable_a" style="zoom:50%;" />
 
 
 
@@ -398,7 +398,7 @@ t 可以理解为电线。可见这样表达便是很清晰。信息的流动一
 
 
 
-<img src="/assets/images/cc/calculate/variable_b.png" alt="variable_b" style="zoom:50%;" />
+<img src="/assets/images/calculate/variable_b.png" alt="variable_b" style="zoom:50%;" />
 
 可见这并不会改变计算图的结构。
 
@@ -493,7 +493,7 @@ f=t*2
 
 
 
-<img src="/assets/images/cc/calculate/ft2.png" alt="ft2" style="zoom:50%;" />
+<img src="/assets/images/calculate/ft2.png" alt="ft2" style="zoom:50%;" />
 
 所以需要明确指出t是一个`输入`，才能知道它是一个函数的参数，而不是函数之外的变量。
 
@@ -539,7 +539,7 @@ f(2)
 
 
 
-<img src="/assets/images/cc/calculate/branch.png" alt="branch" style="zoom:50%;" />
+<img src="/assets/images/calculate/branch.png" alt="branch" style="zoom:50%;" />
 
 
 

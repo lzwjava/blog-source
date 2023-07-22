@@ -972,7 +972,7 @@ $ minikube dashboard
 
 
 
-![k8s](/assets/images/cc/distributed/k8s.png)
+![k8s](/assets/images/distributed/k8s.png)
 
 
 
@@ -1134,7 +1134,7 @@ w$ minikube dashboard
 
 `Docker`也是一种容器平台，来帮助加速创建、分享、运行现代应用。从官网下载应用。
 
-![docker](/assets/images/cc/distributed/docker.png)
+![docker](/assets/images/distributed/docker.png)
 
 用客户端有点卡。让我们用命令行。
 
@@ -1252,11 +1252,11 @@ $ docker run -d -p 8080:80 docker/getting-started
 45bb95fa1ae80adc05cc498a1f4f339c45c51f7a8ae1be17f5b704853a5513a5
 ```
 
-![docker_run](/assets/images/cc/distributed/docker_run.png)
+![docker_run](/assets/images/distributed/docker_run.png)
 
 打开浏览器，说明我们把`docker`运行起来了。
 
-![browser](/assets/images/cc/distributed/browser.png)
+![browser](/assets/images/distributed/browser.png)
 
 停掉容器。用上刚刚返回的`ID`。
 
@@ -1279,7 +1279,7 @@ $ docker stop 45bb95fa1ae80adc05cc498a1f4f339c45c51f7a8ae1be17f5b704853a5513a5
 
 打开官网。
 
-![flink-home-graphic](/assets/images/cc/distributed/flink-home-graphic.png)
+![flink-home-graphic](/assets/images/distributed/flink-home-graphic.png)
 
 `Flink`是说数据流的`Stateful`计算。`Stateful`指的是什么？暂时还不明白。上面这个图还是很有趣的。来试试看。
 
@@ -1365,7 +1365,7 @@ Stopping taskexecutor daemon (pid: 41812) on host lzwjava.
 > 2. Build Cube from the identified tables.
 > 3. Query using ANSI-SQL and get results in sub-second, via ODBC, JDBC or RESTful API.
 
-![kylin_diagram](/assets/images/cc/distributed/kylin_diagram.png)
+![kylin_diagram](/assets/images/distributed/kylin_diagram.png)
 
 
 

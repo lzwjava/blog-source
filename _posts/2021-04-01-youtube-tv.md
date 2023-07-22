@@ -7,21 +7,21 @@ title:  "如何在电视上看 Youtube"
 
 ## SmartYoutubeTV
 
-![smart](/assets/images/cc/youtube-tv/smart.png)把它下载下来。用U盘安装到电视上。
+![smart](/assets/images/youtube-tv/smart.png)把它下载下来。用U盘安装到电视上。
 
-![clash](/assets/images/cc/youtube-tv/clash.png)
+![clash](/assets/images/youtube-tv/clash.png)
 
 接下来在科学上网应用客户端上选上，`Allow connnect from Lan`。意思是支持局域网其它设备连接我们这台设备来上网。
 
 接着在`SmartYoutubeTV`的设置选项，设置上端口就行了。
 
-![proxy1](/assets/images/cc/youtube-tv/proxy1.jpeg)
+![proxy1](/assets/images/youtube-tv/proxy1.jpeg)
 
 设置完后。点击`测试`按钮试试看。注意到我这里用了`SOCKS`类型的代理。用`HTTP`的试过几次没成功。测试成功后，点击确定，然后测试看看。其次，你那里不一定设置成`192.168.1.3`，得看你电脑局域网地址是什么。
 
 这样就看上了，很方便。
 
-![tan](/assets/images/cc/youtube-tv/tan.jpeg)
+![tan](/assets/images/youtube-tv/tan.jpeg)
 
 
 
@@ -29,7 +29,7 @@ title:  "如何在电视上看 Youtube"
 
 这是一个 GitHub 项目。项目主页有使用说明。这里主要补充一些额外的要点。
 
-![seeker](/assets/images/cc/youtube-tv/seeker.png)
+![seeker](/assets/images/youtube-tv/seeker.png)
 
 它通过使用 tun 来实现透明代理。实现了类似 surge 增强模式与网关模式。
 
@@ -90,7 +90,7 @@ servers:
 
 在写这篇文章时，琢磨了如何在电视上截图。我家用的是小米电视。可以在遥控器上连按两下`Home`健，唤出应用管理菜单。
 
-![tv_screen](/assets/images/cc/youtube-tv/tv_screen.jpeg)
+![tv_screen](/assets/images/youtube-tv/tv_screen.jpeg)
 
 看到截图按钮了吗。接着还可以很方便分享给微信。这里还可以把应用程序都关掉。有些应用卡掉的话，则可以这样处理。
 
