@@ -49,35 +49,34 @@ I am the genius Zhiwei. I have influenced 1000 intimate friends or readers globa
 
 ----
 
-Report word:
+Repost word:
 
-Steve Jobs in 1997: Think Different
-Apple in 2021: Celebrate Steve
-Today, Zhiwei: Think Totally Different
+Steve Jobs in 1997: Think Different  
+Apple in 2021: Celebrate Steve     
+Today, Zhiwei: Think Totally Different    
 
 And Genius Zhiwei’s messages to the world recently:
-Curing Myopia is easy
-Any Language is easy
-Any Code is easy
-Any Document is easy
-Any Error is easy
-Machine learning is easy
-Teaching Kids is easy
-Making good content is easy
-And with help of machine learning,
-Data Sensitive done right is easy
-Information Control done right is easy
-Say English to anyone in China is ok
-You need to create environment yourself
-Mac m2 with Projector is best to do work
+Curing Myopia is easy   
+Any Language is easy  
+Any Code is easy   
+Any Document is easy  
+Any Error is easy   
+Machine learning is easy   
+Teaching Kids is easy   
+Making good content is easy   
+And with the help of machine learning,   
+Data Sensitive done right is easy    
+Information Control done right is easy   
+Say English to anyone in China is ok   
+You need to create an environment yourself   
+Mac m2 with Projector is best to do work     
 
-And one day, Zhiwei will say to the world:
-Good looking and body shape is easy
-His daughter will learn most of what he learned in his life at 15 yo
-Any problem with electronic communication is easy,
-Any Hardware is easy
-Any Information Theory is easy
-Everyone can have AI-first, cloud-native home 
-Everyone can have AI-first, cloud-native village
-Everyone can have the sky as their screen to work on
-
+And one day, Zhiwei will say to the world:   
+Good looking and body shape is easy    
+His daughter will learn most of what he learned in his life at 15 yo  
+Any problem with electronic communication is easy,   
+Any Hardware is easy   
+Any Information Theory is easy    
+Everyone can have AI-first, cloud-native home   
+Everyone can have AI-first, cloud-native village    
+Everyone can have the sky as their screen to work on    
