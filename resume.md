@@ -48,7 +48,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 
 ## Work Experience
 
-### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - Present
+### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
 * HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services, boasted around 2.9 million active users as of November 2022.
 * I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. I did the microservice development for features like Auto Top Up.
 * We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
@@ -107,7 +107,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 
 ### Company Projects
 
-* PayMe, Java, 2022.11 - Present
+* PayMe from HSBC, Java, 2022.11 - 2023.07
 * DBS Digibank CN & Client Connect, Java, 2021.12 - 2022.11
 * Fun Live & Square Root miscellaneous projects, PHP & Java & Vue, 2016.07 - 2019.12
 * LeanChat, iOS & Android, 2014.07 - 2015.10
