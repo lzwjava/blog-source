@@ -160,7 +160,7 @@ And the good news is that for the English exam, I just used half an hour to fini
 
 So the good news is that if you really learn hard in your daily time, the exams, interviews and jobs are very simple.
 
-I have such a feeling in my last job. Though I quit my job for some reasons, I have to say my cloud computing job is so easy. I can figure out how neural network works why I couldn't figure out how the cloud computing platform and backend development work. 
+I have such a feeling in my last job. Though I quit my job for some reasons, I have to say my cloud computing job is so easy. I can figure out how neural network works, so why I couldn't figure out how the cloud computing platform and backend development work. 
 
 ### Just Have Fun
 
