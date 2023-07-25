@@ -146,7 +146,7 @@ And I play English applications a lot. I will prepare my baby girl English anima
 
 Though I don't have money to let my kid get an education from international Schools, I will change myself to an international teacher. I will use every language I knew to express everything I learned to my daughter. It sounds hard. Actually, it is quite funny. 
 
-### Not Give Up
+### Don't Give Up
 
 It is really hard to learn because it takes a lot of time. Your brain will feel change only after many tries. When I want to give up nowadays, I will go to drive for some time to listen to the happiest teacher in that area share. I will listen to some Apple Ads, and Steve Jobs' speech to gain energy. I will think of a new easy way to learn the topic. I will find some peers to discuss. I will go to my teacher Yin Wang to read a lot of his sharing. He learned 10 times more than me. I observed carefully how he do it. 
 
