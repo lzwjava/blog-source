@@ -82,7 +82,7 @@ The common sense of learning is quite simple. You need to put 1000 or more hours
 
 In retrospect, in my school, I did better in programming than in daily courses. In my first year in school, I probably go to classrooms just 10 times. I did much better in my mobile application programming than in traditional computer science courses at universities in China. 
 
-I just notice that I will do better in my own thing. The traditional computer science courses are not my own things. However, mobile application programming is my own thing. I take ownership of what I love. So I really love that in my heart and I want to do well. 
+I just notice that I will do better in things I think I own them. When I really like one thing, I will say that is my own thing. The traditional computer science course is not my own thing. However, mobile application programming is my own thing. So I really love that in my heart and I want to do well. 
 
 And in my first job, I did mobile application programming for 1.5 years. I was quite happy overall. And then I got distracted by startup things. Then I did startup with my friends for half a year and then I did it by myself for 3 years. 
 
