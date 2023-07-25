@@ -164,7 +164,7 @@ I have such a feeling in my last job. Though I quit my job for some reasons, I h
 
 ### Just Have Fun
 
-Life has many troubles. However, we can fix most of them by learning. The good news about learning is that we just need to be our original selves. We are born to learn. We can learn well in the first year when we come to the world. We just need to protect our childish gift. We don't want people to discourage us or force anything we don't like. 
+Life has many troubles. However, we can fix most of them by learning. The good news about learning is that we just need to be our original selves. We are born to learn. We can learn well in the first year when we come to the world. We just need to protect our childish natural gift. We don't want people to discourage us or force anything we don't like. 
 
 So our principle in our life is just one principle now. It is learning. However, when we really want to find out the essence of learning is to have fun. If you want to have fun, you want to find new things to do, learn new aspects of old things, or think out new ideas. That's funny. New ideas or things are exciting. And when exploring new things or ideas, you will surely learn a lot. 
 
