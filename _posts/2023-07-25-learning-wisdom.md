@@ -185,5 +185,5 @@ Just like me, I found that I can sing the Japanese song 真夜中のドア a bit
 > Stay with me… 
 > 真夜中のドアをたたき
 
-As machine learning is hot now, I probably need to make it a hobby instead of a serious job. So to you, I hope that you can make what you need to learn or what you need to do now into a hobby too. Then if we didn't score, interview, do the job well, or raise kids poorly, at least, we have some fun. 
+As machine learning is hot now, I probably need to make it a hobby instead of a serious job. So to you, I hope that you can make what you need to learn or what you need to do now into a hobby too. Then if we didn't score, interview, do the job well, or raise kids hard, at least, we have some fun. 
 
