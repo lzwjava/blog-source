@@ -74,7 +74,7 @@ For hobbies, you won't give yourself a target. It is a hobby. We don't do it for
 
 For the last several months, I spent my time learning cloud computing in my daily work.  And I still have probably 6 hours in a day. In these 6 hours, I probably listen to Japanese music and short videos for 5 hours. And actually, I just did machine learning for about 1 hour a day on average. 
 
-So it shouldn't be astounding for me to find that I am making more progress in Japanese than in machine learning. Actually, I was quite astounding. Because what I want is to switch my cloud computing job to a machine learning engineer job. Because machine learning is hot now and the companies doing it pay well. 
+So it shouldn't be astounding for me to find that I am making more progress in Japanese than in machine learning. Actually, I was quite astounding. Because what I want is to switch my cloud computing job to a machine learning job. Because machine learning is hot now and the companies doing it pay well. 
 
 Even now, I am listening to wonderful Japanese music while writing this essay. I am not doing anything about machine learning. 
 
