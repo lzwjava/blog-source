@@ -84,7 +84,7 @@ I just notice that I will do better in my own thing. The traditional computer sc
 
 And in my first job, I did mobile application programming for 1.5 years. I was quite happy overall. And then I got distracted by startup things. Then I did startup with my friends for half a year and then I did it by myself for 3 years. 
 
-In retrospect, I was quite happy for about 4 years though I needed to do marketing and programming all by myself. And after around 2 years doing freelancing, 
+In retrospect, I was quite happy for about 4 years though I needed to do marketing and programming all by myself. 
 
 Hoppy is a magical word. We probably should use it in other places to guide our life. Like the best wife is a hobby wife. If the other one has the same hobbies as us, what they love deeply in their heart is the same as ours, that person might be the right person to be our life mate. People have different hobbies. It might better say that the people who have actually boldness to pursue their hobbies regardless of money or the whole world, are the ones we should be with. 
 
