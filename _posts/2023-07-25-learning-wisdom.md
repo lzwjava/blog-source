@@ -92,7 +92,7 @@ Like we should only treat our job as a hobby. We should only do a hobby job. We 
 
 It is probably better to discuss hobbies with friends instead of work or daily boring life. 
 
-I learned enough to select most jobs I wanted. I should find a hobby job instead of that earned most money or whatever. The way how we earn money is much more important than how much money we earn. 
+I learned enough to select the dream job I want. I should find a hobby job instead of that earned most money or whatever. The way how we earn money is much more important than how much money we earn. 
 
 So there is a recipe to do any job well. Try to treat it as a hobby job. There is a famous quote, do what you love, love what you do. Actually, I find it is easier to change one thing to a hobby nowadays. To my way, it is to listen to experts in that area all day long for weeks. The real experts in one topic are always sharing that topic happily. If they don't like it most, they won't learn the most. 
 
