@@ -86,7 +86,7 @@ And in my first job, I did mobile application programming for 1.5 years. I was q
 
 In retrospect, I was quite happy for about 4 years though I needed to do marketing and programming all by myself. 
 
-Hoppy is a magical word. We probably should use it in other places to guide our life. Like the best wife is a hobby wife. If the other one has the same hobbies as us, what they love deeply in their heart is the same as ours, that person might be the right person to be our life mate. People have different hobbies. It might better say that the people who have actually boldness to pursue their hobbies regardless of money or the whole world, are the ones we should be with. 
+Hoppy is a magical word. We probably should use it in other places to guide our life. Like the best wife is a hobby wife. If the other one has the same hobbies as us, what they love deeply in their heart is the same as ours, that person might be the right person to be our life mate. People have different hobbies. It might better say that the people who have actually boldness to pursue their hobbies despite money or opinions of the whole world, are the ones we should be with. 
 
 Like we should only treat our job as a hobby. We should only do a hobby job. We won't force ourselves to do things we don't like. And we should make more hobby friends and make more conversations about our hobbies. We should treat every matter as hobbies,  and treat everyone as hobby friends. 
 
