@@ -44,7 +44,7 @@ One reason is that in this fast-growing technology world, new ideas are just a l
 
 Everyone is born to learn. As a child, we don't know we are learning, we just play. But we learn things. So learning ability is actually innate. Why we would lose it when we grow up? I was born in 1995. In my observation, in primary school, most of the kids like school. It is funny and new. And then in junior middle school, some students start to dislike it and choose to drop out. And in a big province with 100 million population in China, Guangdong here, in 2013, probably only 600k in 1 million will take the National College Entrance Examination. So we got 40% of students who couldn't make it from primary school to the college entrance exam. It is about 12 years. 
 
-We have to admit anything we can insist on for 12 years is hard, so including the school education. I was a top student in those 12 years. And I chose to drop out after the first year of my college. I became a bad student or a bad young person. I got my two feelings in my life. 
+We have to admit anything we can insist on for 12 years is hard, so including the school education. I was a top student in those 12 years. And I chose to drop out after the first year of my college. I became a bad student or a bad young person. I got my two social judgements in my life. 
 
 Fortunately enough, I met good companies and good people in my life who can tolerate my dropout and give me good jobs. So finally, I cured my dropout and lived well in this society. However, many of my classmates who drop out are not, especially if they are grown up in villages instead of the big cities. 
 
