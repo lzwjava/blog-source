@@ -130,7 +130,6 @@ English is still the best learning topic to practice your learning ability. Just
 
 Before I worked for global companies, though I already sometimes use English to help my job or learn programming on the Internet, but that level of proficiency is still quite naive. Now, I can use English to get a global company job, travel easily, earn global money easily, and work and communicate with another 1.3 billion people easily.
 
-
 It is if you have a Chinese level of those 10 years old in China, it is still not enough to work, travel or live well in China. And the bad news is that most people don't have that level of English ability in those 10 years olds in English countries. Most people who graduated from universities in China are just never using them. Sorry for being too honest.
 
 When I say using them, it is not like listening to English when watching a movie with Chinese captions or often seeing short videos of Elon Musk speaking English. That's much easier. And even that, people don't care enough about what they listen to. I knew it. I totally knew it. Every time I open the Chinese caption when I see English movies, my brain will usually just read the caption instead of listening hard to English sounds. That made little progress. 
