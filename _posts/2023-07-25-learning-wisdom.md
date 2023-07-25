@@ -1,7 +1,9 @@
 ---     
 layout: post     
 title: "The Wisdom Of Learning"
---- 
+---
+
+<div align="center"><img src="/assets/images/wisdom/cotte.jpeg" width="100%" /><img/></div>
 
 ### Foreword
 
