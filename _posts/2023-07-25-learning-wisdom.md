@@ -154,7 +154,7 @@ One of the important tips to learn is to use it every day. We don't learn to use
 
 So I want to learn more about the world. I just ordered Google Pixel 7 recently. I used iPhones for 10 years and seldom use Android mobile phones though I have 2 years of Android development experience. I should catch up on the latest Android system updates by using Android mobile phones more. 
 
-And I learned how to use Formaldehyde and TVOS detector recently. I observed more after using temperature and humidity detectors often. I got my PH Detector and Sound Level Meter recently. I knew that in my home, normally, the sound level is around 30 decibels. When I scream nearby the device, the sound level is around 120 decibels.
+And I learned how to use Formaldehyde and TVOS detector recently. I feeled more after using temperature and humidity detectors often. I got my PH Detector and Sound Level Meter recently. I knew that in my home, normally, the sound level is around 30 decibels. When I scream nearby the device, the sound level is around 120 decibels.
 
 Life has many troubles. You have many exams, and many interviews, and many times you don't want to do the job however you need to do it, some frustrating moments when raising kids. Learning is the solution. In the last year, I did the self-study higher education examination. Though I just take around 10 times' classes in my 1-year university journey, and I don't prepare basically for the exam, I can pass 4 of 8 courses with around 80 scores each, and fail with the rest of them with 40 scores each. 
 
