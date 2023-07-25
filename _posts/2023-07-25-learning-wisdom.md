@@ -96,7 +96,7 @@ I learned enough to select most jobs I wanted. I should find a hobby job instead
 
 So there is a recipe to do any job well. Try to treat it as a hobby job. There is a famous quote, do what you love, love what you do. Actually, I find it is easier to change one thing to a hobby nowadays. To my way, it is to listen to experts in that area all day long for weeks. The real experts in one topic are always sharing that topic happily. If they don't like it most, they won't learn the most. 
 
-## Detailed Ways
+### Detailed Ways
 
 Now we have a general principle to learn anything, treat learning them as a hobby. How about our detailed ways to learn? 
 
@@ -111,3 +111,80 @@ And then in the next half year of my third year in junior middle school, I switc
 I have probably written 300k words in the last year including my daily conversation with colleagues in the global company, and my leisure writing of 20 essays in my blog. I usually forget that I am learning English. I just use them in my life, 10 hours a day using them. And then one day, I found that I use them even more than my native language. My English level is almost half capable of my Chinese level. 
 
 And regarding English learning, I used a lot of ways to learn. The language is just everywhere. I used Grammarly to correct my grammar. I used ChatGPT to translate my English essay and often found that my English expression has some problem so it leads to translation errors. I did leisure driving in my city while listening to English lectures. I probably did the 20000 kilometers of English learning in this way. 
+
+The students in their last year in high school are learning really hard to face their most important exam in life,  National College Entrance Examination. I worked hard that year though often I got frustrated and anxious when I was behind my peers, and behind my top performance. I remembered that in the first half year of my second year in high school, I ranked in the top 1 in my grade. However, in the final college entrance exam, I just ranked around 50 in my grade. My school had around 350 students that year. 
+
+This somehow leads to my bigger anxiety. Somehow it leads to my dropout after my first year in the university. I want to prove myself quickly and get success quickly. I want to work in a technology startup with peers from top big companies in China instead of surrounding with newbie programming peers. Actually, I found that some of my classmates at the university are doing quite well. Some of them are doing PhD program education at top universities in China. Some went abroad to study in the USA universities and then became teachers in universities or engineers in big companies in the USA.
+
+Whatever, congratulations to them. It is really hard to be that good. I knew it. It is years of working and learning. Though sometimes I am still envious or anxious, now, I am ok to accept that. Because I deeply believe I am a genius, they are geniuses too. Everyone is a genius if we are free to think and suspect. I learn a lot from them too.
+
+Come back to learning. In my high school, I think I am working hard. But actually, I am still not. Though sometimes, like other classmates, we will try to take out our small books to remember English words when we are doing body exercises in the playground. But actually just what I say, I don't treat it as a hobby. I don't treat my courses in high school as like programming. 
+
+I did two things in my high school. And I didn't do them pretty well in both. So my achievement in the information competition didn't get me a recommendation for admission to the top universities. And the score of my college entrance exam didn't let me enter the dream school I want. 
+
+And now I am 28 years old. I can say these things are pretty normal. When I talked to the young students in middle school, I found that they have such feelings. I will encourage them it is very normal. Just keep playing and learning. Don't need to be anxious or worried. 
+
+### English
+
+English is still the best learning topic to practice your learning ability. Just like I said before, language is just everywhere. If you can learn English as a foreign language well, you will learn a lot of things pretty well. No matter how old are you or what job or education phase you are in, English skills will help your job, life, careers, and travel too. 
+
+Before I worked for global companies, though I already sometimes use English to help my job or learn programming on the Internet, but that level of proficiency is still quite naive. Now, I can use English to get a global company job, travel easily, earn global money easily, and work and communicate with another 1.3 billion people easily.
+
+
+It is if you have a Chinese level of those 10 years old in China, it is still not enough to work, travel or live well in China. And the bad news is that most people don't have that level of English ability in those 10 years olds in English countries. Most people who graduated from universities in China are just never using them. Sorry for being too honest.
+
+When I say using them, it is not like listening to English when watching a movie with Chinese captions or often seeing short videos of Elon Musk speaking English. That's much easier. And even that, people don't care enough about what they listen to. I knew it. I totally knew it. Every time I open the Chinese caption when I see English movies, my brain will usually just read the caption instead of listening hard to English sounds. That made little progress. 
+
+That's a lot of ways to learn English and anything. I drive to learn. I watch short videos to learn. I speak to anyone in China to learn. People in the scene thought that I was ABC, American Born Chinese. Actually, I was CBC, China Born Chinese. I complain a lot that we are lacking an English environment in China. One day, I stop complain and I realize the country never stops you speaking English everywhere. 
+
+Many English speakers live well in China. Why Chinese young people who want to learn English couldn't speak English all day to live well in China? It has no reason. In some rush times, we can speak Chinese to make things fast, like doing the payment to buy a cup of milk tea. If everyone likes me to do so, Guangzhou will become Singapore in 10 years, and Shenzhen will become Hong Kong in 10 years. The GDPs between them are probably very near. In 2023, the GDP in Guangzhou is 347 billion dollars and that of Singapore is 314 billion dollars. But the gap between international environments is still quite large. 
+
+As a Chinese, I speak English to everyone in China. I am living in the future. In the future, there will be millions or 10 million daily English speakers in China. The world will be more global. 
+
+And I play English applications a lot. I will prepare my baby girl English animations to watch. I hear that many rich people in China are doing the same things. They will let their kids go to International schools. They bring their kids to travel to foreign countries a lot. 
+
+Though I don't have money to let my kid get an education from international Schools, I will change myself to an international teacher. I will use every language I knew to express everything I learned to my daughter. It sounds hard. Actually, it is quite funny. 
+
+### Not Give Up
+
+It is really hard to learn because it takes a lot of time. Your brain will feel change only after many tries. When I want to give up nowadays, I will go to drive for some time to listen to the happiest teacher in that area share. I will listen to some Apple Ads, and Steve Jobs' speech to gain energy. I will think of a new easy way to learn the topic. I will find some peers to discuss. I will go to my teacher Yin Wang to read a lot of his sharing. He learned 10 times more than me. I observed carefully how he do it. 
+
+One of the important tips to learn is to use it every day. We don't learn to use mobile phones deliberately. It is so funny. There are so much interesting and useful texts, images, videos and applications on the Internet, on mobile phones. 
+
+So I want to learn more about the world. I just ordered Google Pixel 7 recently. I used iPhones for 10 years and seldom use Android mobile phones though I have 2 years of Android development experience. I should catch up on the latest Android system updates by using Android mobile phones more. 
+
+And I learned how to use Formaldehyde and TVOS detector recently. I observed more after using temperature and humidity detectors often. I got my PH Detector and Sound Level Meter recently. I knew that in my home, normally, the sound level is around 30 decibels. When I scream nearby the device, the sound level is around 120 decibels.
+
+Life has many troubles. You have many exams, and many interviews, and many times you don't want to do the job however you need to do it, some frustrating moments when raising kids. Learning is the solution. In the last year, I did the self-study higher education examination. Though I just take around 10 times' classes in my 1-year university journey, and I don't prepare basically for the exam, I can pass 4 of 8 courses with around 80 scores each, and fail with the rest of them with 40 scores each. 
+
+And the good news is that for the English exam, I just used half an hour to finish it though there are 2.5 hours you can use. The English writing part is so easy. Though I made a draft, I almost didn't change any to write it wholely in the formal answer papers. 
+
+So the good news is that if you really learn hard in your daily time, the exams, interviews and jobs are very simple.
+
+I have such a feeling in my last job. Though I quit my job for some reasons, I have to say my cloud computing job is so easy. I can figure out how neural network works why I couldn't figure out how the cloud computing platform and backend development work. 
+
+### Just Have Fun
+
+Life has many troubles. However, we can fix most of them by learning. The good news about learning is that we just need to be our original selves. We are born to learn. We can learn well in the first year when we come to the world. We just need to protect our childish gift. We don't want people to discourage us or force anything we don't like. 
+
+So our principle in our life is just one principle now. It is learning. However, when we really want to find out the essence of learning is to have fun. If you want to have fun, you want to find new things to do, learn new aspects of old things, or think out new ideas. That's funny. New ideas or things are exciting. And when exploring new things or ideas, you will surely learn a lot. 
+
+Just like my daughter, I found that she is quite bored with just walking, she begins to run a bit. She is a little bored with colorful books, she likes animations a lot. And what she really enjoys is the animations themselves, the language matters less. So she is comfortable watching English animations. After several months, I found that she just can sing half of the song Baby Shark. 
+
+> Baby Shark, doo-doo, doo-doo  
+> Baby Shark, doo-doo, doo-doo   
+> Mommy Shark, doo-doo, doo-doo   
+> Mommy Shark, doo-doo, doo-doo  
+> Daddy Shark, doo-doo, doo-doo  
+> Daddy Shark, doo-doo, doo-doo
+
+Just like me, I found that I can sing the Japanese song 真夜中のドア a bit after listening to it about 500 times. 
+
+> 私は私 貴方は貴方と   
+> 昨夜言ってた そんな気もするわ  
+> ...
+> Stay with me… 
+> 真夜中のドアをたたき
+
+As machine learning is hot now, I probably need to make it a hobby instead of a serious job. So to you, I hope that you can make what you need to learn a hobby too. Then if we didn't score, interview, or do the job well, at least, we have some fun. 
+
