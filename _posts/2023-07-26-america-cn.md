@@ -1,0 +1,137 @@
+---     
+layout: post     
+title: "Why the Genius Zhiwei must go to the USA"
+---
+
+This is July 2023 now. And I am a 28-year-old software engineer in China. I have to say for the best interest of myself, I have to go to the USA to pursue my success. I write here to express my opinions honestly. I don't want to blame the government of China or anything about China. I just have to admit that now the USA is the best place to pursue my dream. 
+
+No one wants to leave his homeland for another country if they can achieve what they want in the homeland. And my decision may be wrong. Only history can tell. 
+
+Though there are more conflicts between China and USA, the people of China or the government of China will show more respect to those who once studied or worked in the USA. This is interesting. Once you come back from the USA to create a startup in China, the government of China may give you an apartment or some office for free for several years. 
+
+So I don't need to explain more about this. I don't need to feel sorry that I want to leave China to go to the USA.
+
+Humans will go to higher places while water will go to lower places. In the last year 2022, the ICE source reports that around 324k Chinese people go to the USA to study. 
+
+I want to be one of them. They are a minor population of 1.3 billion people. And Zhiwei now often feels special or weird in China. Zhiwei is among the minority in China. Zhiwei begins to speak English to anyone in China. It is actually quite funny. It will not make people uncomfortable. The cooker in the street likes to join Zhiwei to speak some simple English, like ok or thank you. 
+
+The clerk in Mixuebingcheng will smile to welcome the special Zhiwei though Zhiwei ordered one kind of milk tea instead of four-season Spring tea on the fourth day. And the clerk made the mistake of not listening to it clearly, and still placed an order of four-season Spring tea for Zhiwei. Zhiwei found that it is wrong in the recipient ticket after several minutes and came back to the store to let them change. This is funny and interesting actually. Zhiwei is not blaming the clerk's listening skills. Actually, this is probably Zhiwei's problem. You ordered four-season Spring tea for continuous days and then suddenly changed to another tea. Who knows. 
+
+Anyway, Zhiwei told this story to show readers how's usual cases of a foreigner in China. Communication is hard. I totally knew it because I have worked in global companies for about 2 years. The conversations between Chinese employees and employees from Hong Kong, Singapore, and India are often hard if they speak English to communicate, especially if this is the first year when Chinese people work for a global company. 
+
+Though I often say that the country never stops you from speaking English everywhere. There is no public sign anywhere in China saying speaking English is not allowed here. But really, it is uncomfortable for one to do things contradictory to the surroundings. 
+
+Instead of waiting one day for Guangzhou to become Singapore, for Shenzhen to become Hong Kong, and for Guangdong-Hong Kong-Macao Greater Bay Area to become San Francisco Bay Area, I should think of myself and take positive actions for myself, let me move to the dream place I want. 
+
+Once you become good at programming, you will know one principle, which that is the code you don't totally understand will keep making trouble for you. And for our life, for our human beings, if you don't fix your identity problem, it will fight back against you constantly. 
+
+In Zhiwei's deep heart, Zhiwei is a global citizen. In the dream world, it should be individual first. An individual should be greater than the group, school, company, country, or society one belongs to. 
+
+This is one paragraph from the Constitution of the United States.
+
+> All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside. No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.
+
+We always know that any government will often not keep its word in its daily running. Any government, including that of the USA and China, is losing the trust of the people. 
+
+This is a really interesting world. We can see that people are more believing their friends or some opinion leaders on the Internet instead of the government, especially those miserable people, including me. Their friends or opinion leaders are never doing any harm to them and often help them while the government sometimes hurt them. The eyes of the people are bright. They know who can be trusted, who are not. 
+
+To a small group of my readers, they trust me a lot. Because Zhiwei is not doing any harm to them and always shares his learnings with them to help. They knew it, especially the readers who follow Zhiwei for more than 3 years. 
+
+Recently, I announced my next journey in the essay "Genius Zhiwei decides to move his full focus to machine learning". Though I got one job interview invite and met some passionate friends about artificial intelligence, and I see more job interview messages about artificial intelligence from WeChat Moments, I have to say that I am a little disappointed to find that it is probably hard for me with 1 year leisure time machine learning experience to find dream jobs I want in China. 
+
+If I am in Silicon Valley, the case will be much better for me. The people there will care less about my dropout education background. Because there are many dropout founders or dropout excellent engineers. The people there all speak English. The companies all can provide English jobs for me. And a lot of them will encourage me that Zhiwei, it is ok, 1 year leisure time machine learning experience is totally ok. I knew it. I follow many companies or employees in the USA on LinkedIn. I knew how nice they are. I think I am nice. But a lot of them are much nicer than me. Because they are more successful than me. A lot of them there are highly educated. 
+
+And there, I can say I am a genius everywhere I go. They will say yeah, Zhiwei you are right, you are genius, we are all geniuses. You can do whatever you want, you can achieve whatever you want. Just be careful to not harm anyone. 
+
+For me, I don't want to change anyone I knew. I won't change my wife, my parents, my relatives, my friends, my readers. If they like what I say, it is fine. If they don't like me, then they can unfollow me or even block me. I care too much before. Now I don't care. People are selfish. I am selfish, you are selfish. I need to care about my happiness as everybody cares for their happiness.
+
+I have friends who moved to foreign countries to work or study. This leads to problems with their family. Their wives are unhappy to prepare for the IELTS exams to go abroad same with them. And I knew some friends are married to USA guys or foreign guys. In the first years, they come to the USA or other foreign countries, they don't speak English or have few connections with local people. However, after some years, they go to the language school to study English hard. Life destiny will not tolerate everyone. Regarding something you have to do, you couldn't escape them. If you don't fix it in the next years, you will still have them after these years.
+
+One famous person said that if you make a mistake, and then you fix it after finding it, no matter how big the mistake, it is small. So Zhiwei is fixing his mistake of not going abroad earlier in his life. 
+
+So let's talk about how to do it.
+
+To me now, I have around 10 years of software engineering experience. And my IELTS score was 6 which I gained from the test late last year. And another half year passed, and my English ability improved. I should go to take the test again.
+
+Zhiwei did the self-study higher education examination in these years. Zhiwei began to do them in 2021.6. The first time when he needed to do the pre-registration, he forgot. And the second time, he registered wrongly and the program he registered will be ended in 2024. It is almost not possible for Zhiwei to finish all exams before the deadline. And so he got about two times to take the exam. Four courses are passed with around 80 scores and four courses failed with around 40 scores. I should continue to a college degree and diploma. 
+
+And I should take the Graduate Record Examinations. If I have GRE scores, and IELTS or TOEFL scores, admission to USA schools may give me opportunities to give me offers though I am a dropout university student. So you know, I am so regretful that I drop out in 2014. What Paul Graham or Y Combinator says about startups is right. But actually, it depends. For me in 2014, who just finished the first year of the university, I should complete my undergraduate education to not limit my freedom of the future. And doing a startup in China is probably actually harder than doing a startup in the USA. 
+
+For startup things, it is so complicated. It depends on a lot of cases. As a younger myself, I don't know how society works and how's life in every country. Now I know more. I start to think of myself. I start to think globally. I start to think long-termly. 
+
+So for me, though I should have a machine learning job in the next few months, for the most important thing to me in my whole life, I should go to the USA for work or study. This direction is so clear to me in my understanding of the world. 
+
+I want to be successful. I want to earn 1 million CNY a year. I better do it in the USA though I am ok to do it too in China. There are many excellent engineers or managers in big companies or startup founders in China who earn that much.
+
+But I am kind of lazy. I don't want to persuade the interviewers, the companies or the users to give me that much money. I know my value. If the market couldn't give me so much money, I want to change the market. Though the market is hard to change, it is actually doable. Many of my smart friends go to the USA to work or study. Why couldn't I?
+
+Because I never do it, so I think it is hard. But actually, it probably is easy. Just like everything else. I announced my startup at 21 years old. And after 3 years, my startup is earning 3 million CNY a year with 600k CNY profits. In retrospect, it was very hard and even now, I can't say I am able to do it again. I don't have that energy now. And in 2021.11, I began my first English job in a South Asia bank and I am only able to type a few English words in a minute. Now, I can type a whole English essay in an hour with only a few times to search for the words I want to use in Google. 
+
+Every hard thing is similar. Once you have done it, it is easy. Once you are determined to do it anyway, the success is nearby. I am writing this essay to give myself encouragement to do it.
+
+I mentioned before that my long-time role model is Paul Graham, Steve Jobs, Yin Wang, Dan Friedman, John Schulman, Greg Brockman, and Sam Altman. They had lived for a long time or are living in the USA now. I will come to the USA to meet them one day. I came to the USA 2 times, once in 2016, and once in 2017. I stayed there for 20 days each time. 
+
+I even encountered the 2017 Las Vegas shooting. I was just landing at the nearby airport when the TV in the airport just was reporting this news. And I went to the nearby MGM hotel which is 500m near the shooting place, a lot of people were shocked and cried there. 
+
+I knew what the life of the USA likes. I took many photos during my stay. For every small clue, it can show how their real life is. And you can know more if you use TikTok to watch short videos a lot. My understanding of the USA is probably quite naive from the perspective of my friends who lived there for 10 years. Even for the local US citizens, the understanding of the USA of my friends is probably naive. 
+
+When my friends in the USA see this article, they probably will say in their hearts, Zhiwei, just follow your heart, you can do it. It is still a peaceful time. There is no real war between China and USA. I am not standing with USA people to fight with Chinese people. I just go there to pursue my success, earn money and create value for the world. 
+
+There is a saying, science has no borders, but scientists have their own homeland. And my homeland is the whole world. I can choose my behavior to not harm anyone and at the same time pursue my success. It should be individual first in this world. I am first. 
+
+About the family, once I can work or study in the USA there, surely I want to bring my family there. This is a frustrating topic. My friends who move to Singapore, Newzealand and USA with family members in China totally know it. I need to ask for advice from them one day. 
+
+I learned English hard though I said I was using easy ways to learn. For adults, learning anything for years is hard. Your brain becomes very lazy to absorb new information. And now I am 28 years old now, I am giving myself too many things to do in the next years. But I think I should do these things. 
+
+I am not just myself. I am kind of fighting for who has similar minds to me. The Chinese people who come to the USA after their twenties or thirties probably will regret why they don't come here earlier. Their English ability maybe only becomes capable when they stay there for several years. So they can do deep communication in the company to compete with the American Born Chinese or the Americans, or the Indians. 
+
+I don't want to regret in my 35 years old or in my 40 years old. China surely will become powerful as the USA one day. However, on that day, I can come back too. To be honest, the countries in my eyes are just like companies. Which country will help me most, I will go to that country. Which company will help me most, I will go to that company. Yeah, it is individual first, myself first. Sorry to be too selfish. Everyone else is selfish and always thinks of themselves. I need to be selfish too and always think of myself. 
+
+I studied in one middle school in Guangzhou. I have many Guangzhou classmates. They are lucky to be born here to get much money or many houses when the government levy for their family land. They say for the future, it is a fair and good thing. For the next generation, it will be fair. Yeah, my kid will not be envious of her classmates having much money or many houses without working hard. Because her classmates don't have any land for government to levy anymore. Everybody will need to compete in the market for honest labor. 
+
+Yeah, that is nice. So I go to a better market to compete. After several years, after I come to the USA, my salary will be half a million USD a year or one million USD a year. I don't need to be envious of my classmates anymore. Because I just need to do some thinking and coding to earn a Chinese house a year.
+
+Zhiwei has seen too many times of the gap between the wealthy and the poor. To best cure the gaps in this world, what Zhiwei needs to do is to achieve his best success through honest labor or work. 
+
+My classmates see this and will probably say, Zhiwei, you are stupid, you were born in a village, I was born in a big city. Why don't you blame someone who was born in Silicon Valley or a family like Bill Gates?
+
+Yeah, life is unfair in many aspects. Life is fair in many aspects too. I just tell my honest feelings without wanting to hurt anyone. You guys probably don't know how hard Zhiwei is working in the last 10 years. So the society didn't give what he want and he starts to complain and want to change to another society. 
+
+After I come to the USA, my life will be easier. There are many guys alike me. They have similar minds to mine. So I will feel secure and comfortable. I will feel ok to say I genius all day and every place I go. Now, in China, I can only say I am a genius, everyone is a genius. In the USA, I probably can ignore the last sentence. I can only say I am a genius. Everyone else will not be offended to hear me say so. Because it is America, it is the USA. It is a free country and there are many mad people. So Zhiwei is ok to be mad to say he is a genius all day long. 
+
+To all of my friends and readers, one day we probably will drink beer under Niagara Falls, which I have been to in 2017. One day we will probably meet on the fishing beach in Zihuatanejo, Mexico, where the guys of the movie The Shawshank Redemption meet there after they escaped or got released from jail. You guys know that Zhiwei's life has no limits except that being a good person.
+
+With six programming languages, 3 Chinese dialects, and 3 natural languages though I just have entry-level Japanese ability, I often feel really happy to find that so many people teach me so many things online or offline. Though I sometimes complain about the hardships of my life, actually I am grateful to live in this world, there are still many good people who never left me and are able to tolerate me. 
+
+Huawei founder Ren Zhengfei said that he doesn't like the graduates who graduated from Tsinghua University or Beijing University. Because they always want to go to the USA after working in the company for some years. This is a harsh truth that is well said. I now understand the reason more. Those guys are smart and they think like me. They will smile when they see my essay here. 
+
+There are just a few companies like Huawei in China, which is globally successful in technology areas nowadays. However, in the USA, there are probably 5 times of such successful companies like Huawei. And for the AI area, Zhiwei is interested in, the USA is doing much better than China. And for Zhiwei's learning speed, he could do more impact on the whole world if he works in the USA for the rest life. 
+
+It has no question that China will become much more powerful in the next 10 years. People here are just working the same hard as Zhiwei. The electrical car industry in China is very good. And more companies are doing well in the global market. 
+
+And Zhiwei is also doing well in the recent years. He has worked as a contractor engineer for two big companies for around 2 years. His ability is actually good 
+compared to the average worker in Silicon Valley. The average annual salary in San Jose is around 150k dollars. In recent jobs, Zhiwei's salary is about 400k CNY in China. It is about 200k dollars in San Jose if we convert it regarding the daily expense. 
+
+So regarding the monthly pay, for the average worker in San Jose, it is about 12k dollars. It can buy around 10 iPhones. For Zhiwei, his monthly salary can buy around 3 iPhones. Regarding global products, the average worker in San Jose earns about 3 times more than Zhiwei in Guangzhou though their ability is quite the same. Regarding local expenses like food or transportation, the average worker will probably spend 6k dollars while Zhiwei will spend 10k CNY. The average worker spends half of his monthly salary on the local expense. Zhiwei spends one-third of his monthly salary on local expenses. It is actually quite approximate. So the average worker in San Jose earns the same as Zhiwei in Guangzhou regarding local expenses.
+
+This calculation is right? Haha. Zhiwei has been to the USA 2 times. Zhiwei knew this. He traveled to around seven cities in the USA in 20 days with around 60k CNY. If he does so in China, it will just cost him around 20k CNY. For the daily expenses, it is probably 3 times between them. 
+
+Paul Graham said that you will regret it in your later life if you don't work hard at an early age. It is true. In recent years, I often regret that if I work hard in middle school, just like my friends who are doing pretty well in information competitions and are able to go to universities like Tsinghua University or MIT, I don't need to work so hard in recent years. I don't need to work hard to earn back the money the investor gave me and give back to let me feel better. I have a better English environment to study English instead of waking at midnight to find that the English sound is still around my rented home.
+
+My tough life makes me strong. What doesn't kill me makes me stronger. I know now I am in a very good position in this world and in this point in human history. I will not only lose my job or my business again. With the lessons of my life, I can see most of the things in life clearly. And my best teacher Yin Wang taught me everything. So my journey to the USA is also following his path. 
+
+I am one of 7 billion people. I will leave the world one day. The 7 billion people will leave the world one day. The message and lesson we left for the next generations matter. From high school, Zhiwei began to share his lessons online. Today, Zhiwei is sharing his lessons to pursue his success. He is telling the next generation you should think of yourself, you should always put yourself first and should go to the dream place to do the dream job you want. You are working hard to be perfect, so everything around you need to be perfect. You couldn't change others or surroundings but you can change yourself. 
+
+Friends, when we are retired, I hope we can sit down to share our life stories, to reflect every important decision we make. And today I am making one important decision for me and telling everyone I have a connection with. Friends, please congrats for me! I will congrats on your decisions too. I hope you can achieve success no matter how it seems troublesome sometimes. 
+
+No one wants to leave his homeland. Especially nowadays, people are even lazy to move their bodies for several meters to close the light bulb. So it is really troublesome to move one's living country. Everyone who did it knew how it is troublesome. But people who did it probably never regret it. They totally knew why they did it at that time. 
+
+I may have another hard life journey in the USA and feel disappointed there. Well, whatever, it is a life journey. I can come back to China or go to other countries. 
+
+I probably say all things I want to say. Friends, just keep tuned. If you are in China, the next time we meet, I will tell you something about the life in USA to you. If you are in foreign countries, we probably have more chances to meet in person. 
+
+It is really exciting. The world will be more global no matter what happens. The Internet is already global as there are many USA or foreign videos on China's information platforms. I really hope the world can be more global physically. Zhiwei is working hard to let the world develop in that direction. 
+
+Friends, see you in another global street, scene, building or village on Earth!
+
+
