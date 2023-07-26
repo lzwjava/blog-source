@@ -62,7 +62,7 @@ So I have to share my solution for those people who wants to have a better life,
 
 Learning is actually quite simple when you do it right. We should treat learning as a hobby instead of a serious endeavor. 
 
-When I was probably 7 years old, taking the first year of my primary school education in a village in China, my father give me some Olympiad math books when he come back to the village to spend the Spring Festival with family members. 
+When I was probably 7 years old, taking the first year of my primary school education in a village in China, my father gave me some Olympiad math books when he came back to the village to spend the Spring Festival with family members. 
 
 The books have some simple math questions like adjusting the matches to make the equations correct. I liked it at that time. I probably played such simple math games 30 times a year, each time for 1 or 2 hours. They are funnier than my textbooks. 
 
