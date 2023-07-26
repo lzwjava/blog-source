@@ -61,7 +61,7 @@ For startup things, it is so complicated. It depends on a lot of cases. As a you
 
 So for me, though I should have a machine learning job in the next few months, for the most important thing to me in my whole life, I should go to the USA for work or study. This direction is so clear to me in my understanding of the world. 
 
-I want to be successful. I want to earn 1 million CNY a year. I better do it in the USA though I am ok to do it too in China. There are many excellent engineers or managers in big companies or startup founders in startups in China who earn more than 1 million CNY a year.
+I want to be successful. I want to earn 1 million CNY a year. I better do it in the USA though I am ok to do it too in China. There are many excellent engineers or managers in big companies or founders in startups in China who earn more than 1 million CNY a year.
 
 But I am kind of lazy. I don't want to persuade the interviewers, the companies or the users to give me that much money. I know my value. If the market couldn't give me so much money, I want to change the market. Though the market is hard to change, it is actually doable. Many of my smart friends go to the USA to work or study. Why couldn't I?
 
