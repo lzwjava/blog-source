@@ -52,7 +52,7 @@ Fortunately enough, I met good companies and good people in my life who can tole
 
 Another problem is that even for those undergrads in the big cities, besides some hot industries, like information and finance, people don't earn enough of what they should get. 
 
-I have worked as a contractor engineer for two big global companies. I went to the USA 2 times. I have some Hong Kong and Singapore colleagues. The gap between the wealthy and the poor I have seen always astonishes my eyes.
+I have worked as a contractor engineer for two big global companies. I went to the USA 2 times. I have some Hong Kong, Singapore and Indian colleagues. The gap between the wealthy and the poor I have seen always astonishes my eyes.
 
 Everyone knows this. I don't need to point out the problem to discourage people again. When we see carefully, it has some positive good aspects of this society. You will never get hungry. You can always rent a small room in the cities or towns to watch short videos though besides making a basic living, you don't have money to do other things. 
 
