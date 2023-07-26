@@ -1,137 +1,138 @@
 ---     
 layout: post     
-title: "Why the Genius Zhiwei must go to the USA"
+title: "为什么天才智维一定要去美国"
 ---
 
-This is July 2023 now. And I am a 28-year-old software engineer in China. I have to say for the best interest of myself, I have to go to the USA to pursue my success. I write here to express my opinions honestly. I don't want to blame the government of China or anything about China. I just have to admit that now the USA is the best place to pursue my dream. 
+现在是2023年7月。我是一名来自中国的28岁软件工程师。我必须坦率地说，为了自己的最大利益，我必须前往美国追求我的成功。我写下这些话来真诚地表达我的观点。我不想指责中国政府或任何与中国有关的事情。我只是不得不承认，如今美国是追求梦想的最佳地方。
 
-No one wants to leave his homeland for another country if they can achieve what they want in the homeland. And my decision may be wrong. Only history can tell. 
+如果在自己的祖国就能实现自己的目标，没有人愿意离开家乡去另一个国家。而且我的决定可能是错误的，只有历史能够证明。
 
-Though there are more conflicts between China and USA, the people of China or the government of China will show more respect to those who once studied or worked in the USA. This is interesting. Once you come back from the USA to create a startup in China, the government of China may give you an apartment or some office for free for several years. 
+尽管中美之间存在更多的冲突，但中国人民或中国政府对那些曾经在美国学习或工作过的人会表现出更多的尊重。这很有趣。一旦你从美国回来在中国创业，中国政府可能会免费为你提供公寓或办公室几年。
 
-So I don't need to explain more about this. I don't need to feel sorry that I want to leave China to go to the USA.
+所以我不需要再解释更多。我也不需要为想离开中国去美国感到抱歉。
 
-Humans will go to higher places while water will go to lower places. In the last year 2022, the ICE source reports that around 324k Chinese people go to the USA to study. 
+人类会走向更高的地方，而水则会流向较低的地方。在去年2022年，据ICE（国际留学教育交流网）的报道，约有32.4万中国人去美国留学。
 
-I want to be one of them. They are a minor population of 1.3 billion people. And Zhiwei now often feels special or weird in China. Zhiwei is among the minority in China. Zhiwei begins to speak English to anyone in China. It is actually quite funny. It will not make people uncomfortable. The cooker in the street likes to join Zhiwei to speak some simple English, like ok or thank you. 
+我想成为其中的一员。他们是13亿人口中的少数人。如今，智维在中国常常觉得自己特别或奇怪。在中国，智维属于少数群体。智维开始用英语与任何人交谈，这实际上挺有趣的。这不会让人感到不舒服。街上的炒锅师傅喜欢和智维一起用一些简单的英语，比如"OK"或者"Thank you"。
 
-The clerk in Mixuebingcheng will smile to welcome the special Zhiwei though Zhiwei ordered one kind of milk tea instead of four-season Spring tea on the fourth day. And the clerk made the mistake of not listening to it clearly, and still placed an order of four-season Spring tea for Zhiwei. Zhiwei found that it is wrong in the recipient ticket after several minutes and came back to the store to let them change. This is funny and interesting actually. Zhiwei is not blaming the clerk's listening skills. Actually, this is probably Zhiwei's problem. You ordered four-season Spring tea for continuous days and then suddenly changed to another tea. Who knows. 
+蜜雪冰城的店员对待这个特殊的智维总是微笑欢迎，尽管智维第四天点了一杯奶茶而不是四季春茶。店员听错了，仍然为智维准备了一杯四季春茶。智维几分钟后在收据上发现了这个错误，然后回到店里让他们换了杯奶茶。这实际上挺有趣的。智维并不怪店员的听力技巧。实际上，这可能是智维自己的问题。你前几天连续点了几天的四季春茶，然后突然换了一种茶。谁会知道呢。
 
-Anyway, Zhiwei told this story to show readers how's usual cases of a foreigner in China. Communication is hard. I totally knew it because I have worked in global companies for about 2 years. The conversations between Chinese employees and employees from Hong Kong, Singapore, and India are often hard if they speak English to communicate, especially if this is the first year when Chinese people work for a global company. 
+无论如何，智维讲这个故事只是为了向读者展示在中国的外国人的常见情况。沟通是困难的。我完全理解，因为我在全球公司工作了大约2年。中国员工和香港、新加坡以及印度员工之间的英语交流常常是困难的，尤其是中国人在全球公司工作的第一年。
 
-Though I often say that the country never stops you from speaking English everywhere. There is no public sign anywhere in China saying speaking English is not allowed here. But really, it is uncomfortable for one to do things contradictory to the surroundings. 
+尽管我经常说国家从不禁止你在任何地方说英语。在中国，没有任何公共标志上写着"这里不允许说英语"。但是，如果你做与周围环境矛盾的事情，这确实会让人不舒服。
 
-Instead of waiting one day for Guangzhou to become Singapore, for Shenzhen to become Hong Kong, and for Guangdong-Hong Kong-Macao Greater Bay Area to become San Francisco Bay Area, I should think of myself and take positive actions for myself, let me move to the dream place I want. 
+与其等待广州变成新加坡，深圳变成香港，粤港澳大湾区变成旧金山湾区，不如为了自己的最大利益，为自己采取积极的行动，让我去我想去的梦想之地。
 
-Once you become good at programming, you will know one principle, which that is the code you don't totally understand will keep making trouble for you. And for our life, for our human beings, if you don't fix your identity problem, it will fight back against you constantly. 
+一旦你变得擅长编程，你会明白一个原则，那就是你不完全理解的代码会不断给你制造麻烦。对于我们的生活，对于我们人类而言，如果你不解决你的身份问题，它会不断地对你发起反击。
 
-In Zhiwei's deep heart, Zhiwei is a global citizen. In the dream world, it should be individual first. An individual should be greater than the group, school, company, country, or society one belongs to. 
+在智维内心深处，他是一个全球公民。在梦想的世界里，个体首先。一个人应该比自己所属的群体、学校、公司、国家或社会更重要。
 
-This is one paragraph from the Constitution of the United States.
+这是美国宪法的一段内容。
 
-> All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside. No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.
+> 凡在美利坚合众国出生或归化，并受其管辖的所有人，是美利坚合众国及其所属州的公民。州不得制定或执行剥夺美利坚合众国公民特权或豁免权的任何法律；也不得无正当法律程序剥夺任何人的生命、自由或财产；或不得否定该州管辖权内的任何人平等保护法律的权利。
 
-We always know that any government will often not keep its word in its daily running. Any government, including that of the USA and China, is losing the trust of the people gradually. 
+我们都知道，任何政府在日常运作中往往不会守信。包括美国和中国在内的任何政府都渐渐失去了人民的信任。
 
-This is a really interesting world. We can see that people are more believing their friends or some opinion leaders on the Internet instead of the government, especially those miserable people, including me. Their friends or opinion leaders are never doing any harm to them and often help them while the government sometimes hurt them. The eyes of the people are bright. They know who can be trusted, who are not. 
+这是一个非常有趣的世界。我们可以看到，人们更相信他们的朋友或一些互联网上的意见领袖，而不是政府，特别是那些苦难的人，包括我在内。他们的朋友或意见领袖从未对他们造成任何伤害，并经常帮助他们，而政府有时会伤害他们。人民的眼睛是明亮的。他们知道谁值得信任，谁不值得信任。
 
-To a small group of my readers, they trust me a lot. Because Zhiwei is not doing any harm to them and always shares his learnings with them to help. They knew it, especially the readers who follow Zhiwei for more than 3 years. 
+对于我的一小部分读者来说，他们非常信任我。因为智维对他们没有任何伤害，并且总是愿意与他们分享他的学习，帮助他们。他们知道这一点，特别是那些已经关注智维超过3年的读者。
 
-Recently, I announced my next journey in the essay "Genius Zhiwei decides to move his full focus to machine learning". Though I got one job interview invite and met some passionate friends about artificial intelligence, and I see more job interview messages about artificial intelligence from WeChat Moments, I have to say that I am a little disappointed to find that it is probably hard for me with 1 year leisure time machine learning experience to find dream jobs I want in China. 
+最近，我在文章《天才智维决定将全部注意力转向机器学习》中宣布了我未来的旅程。虽然我收到了一份工作面试邀请，并遇到了一些对人工智能充满激情的朋友，我在微信朋友圈里看到了更多关于人工智能的工作面试信息，但我必须承认，在中国，凭借我1年的休闲时间机器学习经验，可能很难找到我想要的梦想工作。
 
-If I am in Silicon Valley, the case will be much better for me. The people there will care less about my dropout education background. Because there are many dropout founders or dropout excellent engineers. The people there all speak English. The companies all can provide English jobs for me. And a lot of them will encourage me that Zhiwei, it is ok, 1 year leisure time machine learning experience is totally ok. I knew it. I follow many companies or employees in the USA on LinkedIn. I knew how nice they are. I think I am nice. But a lot of them are much nicer than me. Because they are more successful than me. A lot of them there are highly educated. 
+如果我在硅谷，情况对我来说会好得多。那里的人们会更少关注我的辍学背景。因为那里有很多辍学的创始人或优秀的工程师。那里的人们都会说英语。那里的公司都可以为我提供英文工作。其中许多人会鼓励我，说"智维，没问题，1年的休闲时间机器学习经验完全没问题。"我知道。我在LinkedIn上关注了许多美国的公司或员工。我知道他们是多么友好。我觉得我也很友好。但是，其中很多人比我更友好，因为他们比我更成功。很多人都受过高等教育。
 
-And there, I can say I am a genius everywhere I go. They will say yeah, Zhiwei you are right, you are genius, we are all geniuses. You can do whatever you want, you can achieve whatever you want. Just be careful to not harm anyone. 
+在那里，我可以随处称自己为天才。他们会说是的，智维，你说得对，你是天才，我们都是天才。你可以做任何你想做的，你可以实现任何你想实现的目标。只要注意不要伤害任何人。
 
-For me, I don't want to change anyone I knew. I won't change my wife, my parents, my relatives, my friends, my readers. If they like what I say, it is fine. If they don't like me, then they can unfollow me or even block me. I care too much before. Now I don't care. People are selfish. I am selfish, you are selfish. I need to care about my happiness as everybody cares for their happiness.
+至于家庭，一旦我能在美国工作或学习，当然希望把我的家人带过去。这是一个令人沮丧的问题。我认识的一些朋友随着家人一起移居到外国工作或学习，他们的妻子为了和他们一起去国外也要准备雅思考试。而且我也认识一些朋友是和美国人或外国人结婚的。在前几年，他们来到美国或其他国外国家后，他们不会说英语，或者与当地人几乎没有联系。然而，几年后，他们去语言学校努力学习英语。生活的命运不会放过每个人。关于一些你必须去做的事情，你无法逃避。如果你在接下来的几年里没有解决它们，这些问题还是会在这些年过后继续存在。
 
-I have friends who moved to foreign countries to work or study. This leads to problems with their family. Their wives are unhappy to prepare for the IELTS exams to go abroad same with them. And I knew some friends are married to USA guys or foreign guys. In the first years, they come to the USA or other foreign countries, they don't speak English or have few connections with local people. However, after some years, they go to the language school to study English hard. Life destiny will not tolerate everyone. Regarding something you have to do, you couldn't escape them. If you don't fix it in the next years, you will still have them after these years.
+有一位著名人士说过，如果你犯了一个错误，然后在发现后纠正了它，无论这个错误多大，都会变得微不足道。所以智维正在纠正他没有在早些时候出国的错误。
 
-One famous person said that if you make a mistake, and then you fix it after finding it, no matter how big the mistake, it is small. So Zhiwei is fixing his mistake of not going abroad earlier in his life. 
+那么让我们谈谈如何做到。
 
-So let's talk about how to do it.
+现在，我已经有了大约10年的软件工程经验。去年年底，我获得了6分的雅思成绩。又过了半年，我的英语能力有所提高，我应该再次参加考试。
 
-To me now, I have around 10 years of software engineering experience. And my IELTS score was 6 which I gained from the test late last year. And another half year passed, and my English ability improved. I should go to take the test again.
+这些年来，我已经开始自学高等教育考试。我从2021年6月开始做这些。第一次我需要进行预注册时，我忘了。第二次，我注册错误了，我注册的项目将在2024年结束。对我来说，几乎不可能在截止日期前完成所有考试。所以我还有大约两次机会参加考试。有四门课程考了大约80分通过了，还有四门课程考了大约40分没通过。我应该继续读一个大学学位和毕业证。
 
-Zhiwei did the self-study higher education examination in these years. Zhiwei began to do them in 2021.6. The first time when he needed to do the pre-registration, he forgot. And the second time, he registered wrongly and the program he registered will be ended in 2024. It is almost not possible for Zhiwei to finish all exams before the deadline. And so he got about two times to take the exam. Four courses are passed with around 80 scores and four courses failed with around 40 scores. I should continue to a college degree and diploma. 
+我还应该参加研究生入学考试。如果我有GRE成绩、IELTS或TOEFL成绩，申请美国的学校可能会给我提供机会，尽管我是一名辍学生。所以你知道，我对于2014年辍学这一点非常后悔。Paul Graham或Y Combinator对于创业的说法是对的。但实际上，这取决于情况。对于2014年的我，在大学刚刚完成第一年的时候，我应该完成本科学业，以免限制自己未来的自由。在中国创业可能比在美国创业要困难得多。
 
-And I should take the Graduate Record Examinations. If I have GRE scores, and IELTS or TOEFL scores, admission to USA schools may give me opportunities to give me offers though I am a dropout university student. So you know, I am so regretful that I drop out in 2014. What Paul Graham or Y Combinator says about startups is right. But actually, it depends. For me in 2014, who just finished the first year of the university, I should complete my undergraduate education to not limit my freedom of the future. And doing a startup in China is probably actually harder than doing a startup in the USA. 
+创业的事情很复杂，这取决于很多情况。对于一个年轻的我来说，我不知道社会是如何运作的，也不知道每个国家的生活是什么样子的。现在我知道得更多了。我开始思考自己，开始全球思维，开始长远思考。
 
-For startup things, it is so complicated. It depends on a lot of cases. As a younger myself, I don't know how society works and how's life in every country. Now I know more. I start to think of myself. I start to think globally. I start to think long-termly. 
+所以对我来说，尽管接下来几个月内我可能会有一份机器学习的工作，但对我来说在整个生命中最重要的事情是去美国工作或学习。在我的世界观中，这个方向是非常明确的。
 
-So for me, though I should have a machine learning job in the next few months, for the most important thing to me in my whole life, I should go to the USA for work or study. This direction is so clear to me in my understanding of the world. 
+我想要成功。我想要年薪100万人民币。虽然我也可以在中国实现这个目标，但在美国可能会更好一些。中国有很多优秀的工程师或经理在大公司或创业公司中的创始人，他们很多年薪都超过100万人民币。
 
-I want to be successful. I want to earn 1 million CNY a year. I better do it in the USA though I am ok to do it too in China. There are many excellent engineers or managers in big companies or founders in startups in China who earn more than 1 million CNY a year.
+但是我有点懒。我不想说服面试官、公司或用户给我那么多的钱。我知道我的价值。如果市场不能给我那么多的钱，我要改变市场。虽然市场很难改变，但实际上是可行的。我的许多聪明朋友都去美国工作或学习。为什么我不能呢？
 
-But I am kind of lazy. I don't want to persuade the interviewers, the companies or the users to give me that much money. I know my value. If the market couldn't give me so much money, I want to change the market. Though the market is hard to change, it is actually doable. Many of my smart friends go to the USA to work or study. Why couldn't I?
+因为我从来没有去过，所以我认为这是很难的。但实际上，这可能是很容易的。就像其他事情一样。我在21岁时宣布了我的创业。三年后，我公司的创业年收入达到了300万元人民币，盈利60万元人民币。回顾过去，它是非常困难的，即使现在，我也不能说我有能力再做一次。我现在没有那种精力。在2011年11月，我开始了我在东南亚一家银行的第一份英文工作，当时我每分钟只能输入几个英文字母。现在，我可以在一个小时内输入一篇完整的英文文章，只需要几次在Google中搜索我想使用的单词。
 
-Because I never do it, so I think it is hard. But actually, it probably is easy. Just like everything else. I announced my startup at 21 years old. And after 3 years, my startup is earning 3 million CNY a year with 600k CNY profits. In retrospect, it was very hard and even now, I can't say I am able to do it again. I don't have that energy now. And in 2021.11, I began my first English job in a South Asia bank and I am only able to type a few English words in a minute. Now, I can type a whole English essay in an hour with only a few times to search for the words I want to use in Google. 
+每一件困难的事情都是类似的。一旦你做过，就会变得容易。一旦你决定无论如何都要去做，成功就近在咫尺。我写这篇文章是为了鼓励自己去做。
 
-Every hard thing is similar. Once you have done it, it is easy. Once you are determined to do it anyway, the success is nearby. I am writing this essay to give myself encouragement to do it.
+我之前提到过，我的长期榜样是保罗·格雷厄姆、史蒂夫·乔布斯、尹旺、丹·弗里德曼、约翰·舒尔曼、格雷格·布洛克曼和萨姆·阿尔特曼。他们长期生活或现在生活在美国。有一天我会去美国见到他们。我曾经两次去过美国，分别是在2016年和2017年。每次呆在那里20天。
 
-I mentioned before that my long-time role model is Paul Graham, Steve Jobs, Yin Wang, Dan Friedman, John Schulman, Greg Brockman, and Sam Altman. They had lived for a long time or are living in the USA now. I will come to the USA to meet them one day. I came to the USA 2 times, once in 2016, and once in 2017. I stayed there for 20 days each time. 
+我甚至遇到了2017年的拉斯维加斯枪击事件。当时我刚降落在附近的机场，机场的电视正报道这一消息。我去了附近的米高梅酒店，距离枪击地点500米，那里很多人都震惊和哭泣。
 
-I even encountered the 2017 Las Vegas shooting. I was just landing at the nearby airport when the TV in the airport just was reporting this news. And I went to the nearby MGM hotel which is 500m near the shooting place, a lot of people were shocked and cried there. 
+我了解美国的生活是什么样子的。我在我呆的时候拍了很多照片。对于每一个小细节，它都能展示他们真实的生活。如果你在TikTok上观看短视频，你可以了解更多。从我朋友那里，我对美国的了解可能相对于在那里生活了10年的人来说是很幼稚的。甚至对于当地的美国人来说，对于我朋友对美国的了解可能也是幼稚的。
 
-I knew what the life of the USA likes. I took many photos during my stay. For every small clue, it can show how their real life is. And you can know more if you use TikTok to watch short videos a lot. My understanding of the USA is probably quite naive from the perspective of my friends who lived there for 10 years. Even for the local US citizens, the understanding of the USA of my friends is probably naive. 
+当我在美国的朋友看到这篇文章时，他们可能会在心里说，智维，跟随你的内心吧，你可以做到。现在还是和平时期。中国和美国之间没有真正的战争。我并不是站在美国人一边来与中国人对抗。我只是去追求我的成功，赚钱，为世界创造价值。
 
-When my friends in the USA see this article, they probably will say in their hearts, Zhiwei, just follow your heart, you can do it. It is still a peaceful time. There is no real war between China and USA. I am not standing with USA people to fight with Chinese people. I just go there to pursue my success, earn money and create value for the world. 
+有一句话说，科学没有国界，但科学家有自己的国家。而我的国家是整个世界。我可以选择自己的行为，不伤害任何人的同时追求自己的成功。在这个世界上，个人应该是第一位的。我是第一位。
 
-There is a saying, science has no borders, but scientists have their own homeland. And my homeland is the whole world. I can choose my behavior to not harm anyone and at the same time pursue my success. It should be individual first in this world. I am first. 
+关于家庭，一旦我能够在美国工作或学习，我肯定希望把我的家人带过去。这是一个令人沮丧的话题。我那些在中国家人生活在国外的朋友们都非常了解这一点。有一天我需要向他们请教建议。
 
-About the family, once I can work or study in the USA there, surely I want to bring my family there. This is a frustrating topic. My friends who move to Singapore, Newzealand and USA with family members in China totally know it. I need to ask for advice from them one day. 
+虽然我说过我是用简单的方式学习英语的，但实际上我努力学了英语。对于成年人来说，多年学习任何东西都很难。你的大脑变得非常懒惰，不愿意吸收新的信息。现在我已经28岁了，我给自己提供了太多要在未来几年里去做的事情。但我觉得我应该去做这些事情。
 
-I learned English hard though I said I was using easy ways to learn. For adults, learning anything for years is hard. Your brain becomes very lazy to absorb new information. And now I am 28 years old now, I am giving myself too many things to do in the next years. But I think I should do these things. 
+我虽然说我是用简单的方法学习英语，但我努力地学习了英语。对于成年人来说，学习任何东西多年都是困难的。你的大脑会变得非常懒惰，不愿吸收新的信息。现在我已经28岁了，接下来几年我给自己定了太多的目标，但我认为我应该去实现这些目标。
 
-I am not just myself. I am kind of fighting for who has similar minds to me. The Chinese people who come to the USA after their twenties or thirties probably will regret why they don't come here earlier. Their English ability maybe only becomes capable when they stay there for several years. So they can do deep communication in the company to compete with the American Born Chinese or the Americans, or the Indians. 
+我不仅仅是为自己而战，我也在为那些与我有相似想法的人而战。那些二三十岁后来美国的中国人可能会后悔为什么不早点来这里。他们的英语能力可能只有在在美国呆上几年后才能达到。这样，他们才能在公司中进行深入的交流，与美国出生的华人、美国人或印度人竞争。
 
-I don't want to regret in my 35 years old or in my 40 years old. China surely will become powerful as the USA one day. However, on that day, I can come back too. To be honest, the countries in my eyes are just like companies. Which country will help me most, I will go to that country. Which company will help me most, I will go to that company. Yeah, it is individual first, myself first. Sorry to be too selfish. Everyone else is selfish and always thinks of themselves. I need to be selfish too and always think of myself. 
+我不想在35岁或40岁时后悔。中国肯定有一天会变得像美国一样强大。然而，在那一天，我也可以回去。说实话，在我眼里，国家就像公司一样。哪个国家对我帮助最大，我就去哪个国家。哪个公司对我帮助最大，我就去哪个公司。是的，个人利益放在第一位，我自己放在第一位。对于过于自私，我很抱歉。每个人都是自私的，总是考虑自己。我也需要变得自私，总是考虑自己。
 
-I studied in one middle school in Guangzhou. I have many Guangzhou classmates. They are lucky to be born here to get much money or many houses when the government levy for their family land. They say for the future, it is a fair and good thing. For the next generation, it will be fair. Yeah, my kid will not be envious of her classmates having much money or many houses without working hard. Because her classmates don't have any land for government to levy anymore. Everybody will need to compete in the market for honest labor. 
+我曾在广州的一所中学学习。我有很多广州的同学。他们很幸运生在这里，当政府征用他们家的土地时，他们能得到很多钱或很多房子。他们说，对未来来说，这是一件公平而美好的事情。对于下一代来说，这将是公平的。是的，我的孩子将不会羡慕她的同学在不努力工作的情况下拥有很多钱或很多房子。因为她的同学不再拥有政府可以征用的土地。每个人都需要在市场上通过诚实劳动来竞争。
 
-Yeah, that is nice. So I go to a better market to compete. After several years, after I come to the USA, my salary will be half a million USD a year or one million USD a year. I don't need to be envious of my classmates anymore. Because I just need to do some thinking and coding to earn a Chinese house a year.
+是的，这很好。所以我去一个更好的市场去竞争。几年后，当我来到美国后，我的薪水将达到每年五十万美元或一百万美元。我将不再羡慕我的同学们。因为我只需要进行一些思考和编码，就能挣到一年的中国房子。
 
-Zhiwei has seen too many times of the gap between the wealthy and the poor. To best cure the gaps in this world, what Zhiwei needs to do is to achieve his best success through honest labor or work. 
+智维看到了贫富差距太多次了。为了最好地弥合这个世界的差距，智维需要通过诚实的劳动或工作取得最大的成功。
 
-My classmates see this and will probably say, Zhiwei, you are stupid, you were born in a village, I was born in a big city. Why don't you blame someone who was born in Silicon Valley or a family like Bill Gates?
+我的同学可能会说，智维，你太傻了，你出生在一个乡村，而我出生在一个大城市。为什么你不责怪那些出生在硅谷或像比尔·盖茨一样的家庭的人呢？
 
-Yeah, life is unfair in many aspects. Life is fair in many aspects too. I just tell my honest feelings without wanting to hurt anyone. You guys probably don't know how hard Zhiwei is working in the last 10 years. So the society didn't give what he want and he starts to complain and want to change to another society. 
+是的，生活在许多方面都是不公平的。生活在许多方面也是公平的。我只是坦诚地表达我的感受，不想伤害任何人。你们可能不知道我过去10年的辛苦努力。所以社会没有给予他他想要的东西，他开始抱怨并想要转变到另一个社会。
 
-After I come to the USA, my life will be easier. There are many guys alike me. They have similar minds to mine. So I will feel secure and comfortable. I will feel ok to say I genius all day and every place I go. Now, in China, I can only say I am a genius, everyone is a genius. In the USA, I probably can ignore the last sentence. I can only say I am a genius. Everyone else will not be offended to hear me say so. Because it is America, it is the USA. It is a free country and there are many mad people. So Zhiwei is ok to be mad to say he is a genius all day long. 
+来到美国后，我的生活将变得更轻松。有许多和我相似的人。他们和我有相似的想法。所以我会感到安全和舒适。我会自信地说我是天才，并且无论我走到哪里都会这样说。现在，在中国，我只能说我是天才，每个人都是天才。在美国，我可能可以忽略这句话。我只能说我是天才。其他人听到我这样说也不会感到冒犯。因为这是美国，这是美利坚合众国。这是一个自由的国家，有许多疯狂的人。所以智维可以为了整天都说他是天才而疯狂。
 
-To all of my friends and readers, one day we probably will drink beer under Niagara Falls, which I have been to in 2017. One day we will probably meet on the fishing beach in Zihuatanejo, Mexico, where the guys of the movie The Shawshank Redemption meet there after they escaped or got released from jail. You guys know that Zhiwei's life has no limits except that being a good person.
+对于我所有的朋友和读者，有一天我们可能会在尼亚加拉大瀑布下喝啤酒，我在2017年去过那里。有一天我们可能会在墨西哥的齐瓦坦内霍的钓鱼海滩上见面，那里是电影《肖申克的救赎》里的那帮人逃狱或出狱后相聚的地方。你们知道智维的生活除了成为一个好人之外没有限制。
 
-With six programming languages, 3 Chinese dialects, and 3 natural languages though I just have entry-level Japanese ability, I often feel really happy to find that so many people teach me so many things online or offline. Though I sometimes complain about the hardships of my life, actually I am grateful to live in this world, there are still many good people who never left me and are able to tolerate me. 
+我掌握了六种编程语言，三种汉语方言和三种外语，虽然我的日语水平只是入门级别，但我经常因为有很多人在线或线下教导我很多东西而感到非常高兴。虽然我有时会抱怨生活的艰辛，但实际上我对生活心存感激，仍然有许多好人从未离开过我，并且能够容忍我。
 
-Huawei founder Ren Zhengfei said that he doesn't like the graduates who graduated from Tsinghua University or Beijing University. Because they always want to go to the USA after working in the company for some years. This is a harsh truth that is well said. I now understand the reason more. Those guys are smart and they think like me. They will smile when they see my essay here. 
+华为创始人任正非说过，他不喜欢清华大
 
-There are just a few companies like Huawei in China, which is globally successful in technology areas nowadays. However, in the USA, there are probably 5 times of such successful companies like Huawei. And for the AI area, Zhiwei is interested in, the USA is doing much better than China. And for Zhiwei's learning speed, he could do more impact on the whole world if he works in the USA for the rest life. 
+学或北京大学的毕业生。因为他们在公司工作几年后总是想去美国。这是一个说得很痛快的现实。现在我更理解其中的原因。这些人很聪明，他们像我一样思考。看到我在这里写的文章，他们可能会微笑。
 
-It has no question that China will become much more powerful in the next 10 years. People here are just working the same hard as Zhiwei. The electrical car industry in China is very good. And more companies are doing well in the global market. 
+在中国，现在只有几家像华为一样在技术领域取得全球成功的公司。然而，在美国，可能有华为这样成功的公司的五倍。而对于我感兴趣的人工智能领域，美国做得比中国好得多。而且对于我的学习速度来说，如果我在美国工作一辈子，我对整个世界产生的影响会更大。
 
-And Zhiwei is also doing well in the recent years. He has worked as a contractor engineer for two big companies for around 2 years. His ability is actually good 
-compared to the average worker in Silicon Valley. The average annual salary in San Jose is around 150k dollars. In recent jobs, Zhiwei's salary is about 400k CNY in China. It is about 200k dollars in San Jose if we convert it regarding the daily expense. 
+中国在未来10年肯定会变得更加强大。这里的人们和智维一样努力。中国的电动汽车产业非常好。越来越多的公司在全球市场表现出色。
 
-So regarding the monthly pay, for the average worker in San Jose, it is about 12k dollars. It can buy around 10 iPhones. For Zhiwei, his monthly salary can buy around 3 iPhones. Regarding global products, the average worker in San Jose earns about 3 times more than Zhiwei in Guangzhou though their ability is quite the same. Regarding local expenses like food or transportation, the average worker will probably spend 6k dollars while Zhiwei will spend 10k CNY. The average worker spends half of his monthly salary on the local expense. Zhiwei spends one-third of his monthly salary on local expenses. It is actually quite approximate. So the average worker in San Jose earns the same as Zhiwei in Guangzhou regarding local expenses.
+而在近年来，智维的表现也不错。他在两家大公司担任合同工程师已经有大约两年的时间。与硅谷普通员工相比，他的能力实际上很不错。圣何塞的平均年薪约为15万美元。在最近的工作中，智维在中国的薪水约为40万人民币。按照日常开销来计算，这相当于在圣何塞的月收入约为20万美元。
 
-This calculation is right? Haha. Zhiwei has been to the USA 2 times. Zhiwei knew this. He traveled to around seven cities in the USA in 20 days with around 60k CNY. If he does so in China, it will just cost him around 20k CNY. For the daily expenses, it is probably 3 times between them. 
+所以从月收入来看，对于圣何塞的普通员工来说，大约是每月1.2万美元。这可以购买大约10部iPhone。而对于智维来说，他每月的工资可以买到3部iPhone。在全球产品方面，圣何塞的普通员工的收入约是智维在广州的3倍，尽管他们的能力相当。而在像食物或交通等本地开销方面，普通员工每月可能花费6千美元，而智维每月花费1万人民币。普通员工将他们每月工资的一半用于本地开销，而智维将他每月工资的三分之一用于本地开销。实际上相差不大。所以就本地开销来说，普通员工在圣何塞的收入与智维在广州的收入是相同的。
 
-Paul Graham said that you will regret it in your later life if you don't work hard at an early age. It is true. In recent years, I often regret that if I work hard in middle school, just like my friends who are doing pretty well in information competitions and are able to go to universities like Tsinghua University or MIT, I don't need to work so hard in recent years. I don't need to work hard to earn back the money the investor gave me and give back to let me feel better. I have a better English environment to study English instead of waking at midnight to find that the English sound is still around my rented home.
+这个计算对吗？哈哈。智维已经来过美国两次。智维知道这一点。他用大约6万人民币在20天内游览了美国的七个城市。如果他在中国这样做，只需要花费大约2万人民币。对于日常开销，两者之间可能相差三倍。
 
-My tough life makes me strong. What doesn't kill me makes me stronger. I know now I am in a very good position in this world and in this point in human history. I will not only lose my job or my business again. With the lessons of my life, I can see most of the things in life clearly. And my best teacher Yin Wang taught me everything. So my journey to the USA is also following his path. 
+保罗·格雷厄姆曾说，如果你不在年轻时努力工作，以后会后悔的。这是真的。在近年来，我经常后悔，如果我在中学时努力学习，就像我的那些在信息竞赛中表现出色并能够进入清华大学或麻省理工学院的朋友，我就不需要在近年来努力工作。我不需要努力挣回投资者给我的钱，并付出更多努力。我有一个更好的英语环境来学习英语，而不是在半夜醒来发现英语声音仍然在我租的房子周围。
 
-I am one of 7 billion people. I will leave the world one day. The 7 billion people will leave the world one day. The message and lesson we left for the next generations matter. From high school, Zhiwei began to share his lessons online. Today, Zhiwei is sharing his lessons to pursue his success. He is telling the next generation you should think of yourself, you should always put yourself first and should go to the dream place to do the dream job you want. You are working hard to be perfect, so everything around you need to be perfect. You couldn't change others or surroundings but you can change yourself. 
+我艰苦的生活使我变得坚强。那些没有杀死我的东西使我变得更强大。我现在在这个世界上和人类历史上处于一个非常好的位置。我不会再失去工作或业务。在生活的教训中，我能清楚地看到生活中的大部分事情。我最好的老师尹旺教会了我一切。所以我的美国之旅也是在追随他的脚步。
 
-Friends, when we are retired, I hope we can sit down to share our life stories, to reflect every important decision we make. And today I am making one important decision for me and telling everyone I have a connection with. Friends, please congrats for me! I will congrats on your decisions too. I hope you can achieve success no matter how it seems troublesome sometimes. 
+我是七十亿人中的一个。有一天我会离开这个世界。七十亿人有一天都会离开这个世界。我们给下一代留下的信息和教训很重要。从高中开始，智维就开始在网上分享自己的教训。今天，智维正在分享他的教训，追求自己的成功。他告诉下一代，你应该考虑自己，你应该把自己放在第一位，并且应该去梦想的地方做你想做的梦想工作。你正在努力变得完美，所以你周围的一切都应该是完美的。你不能改变别人或周围的环境，但你可以改变自己。
 
-No one wants to leave his homeland. Especially nowadays, people are even lazy to move their bodies for several meters to close the light bulb. So it is really troublesome to move one's living country. Everyone who did it knew how it is troublesome. But people who did it probably never regret it. They totally knew why they did it at that time. 
+朋友们，当我们退休时，我希望我们能坐下来分享我们的人生故事，反思我们所做的每个重要决定。今天，我为自己做出了一个重要的决定，并告诉了与我有联系的每个人。朋友们，请为我祝贺！我也会为你们的决定祝贺。我希望你们能够取得成功，无论看起来有多么繁琐。
 
-I may have another hard life journey in the USA and feel disappointed there. Well, whatever, it is a life journey. I can come back to China or go to other countries. 
+没有人愿意离开自己的家乡。尤其是现在，人们甚至懒得走几米的路去关掉电灯。所
 
-I probably say all things I want to say. Friends, just keep tuned. If you are in China, the next time we meet, I will tell you something about the life in USA to you. If you are in foreign countries, we probably have more chances to meet in person. 
+以搬到另一个国家是真的很麻烦的。但是那些做过的人可能从未后悔过。他们完全知道他们当初为什么这样做。
 
-It is really exciting. The world will be more global no matter what happens. The Internet is already global as there are many USA or foreign videos on China's information platforms. I really hope the world can be more global physically. Zhiwei is working hard to let the world develop in that direction. 
+我在美国可能会经历另一段艰苦的生活旅程，并对那里感到失望。好吧，不管怎样，那是一个人生旅程。我可以回到中国，也可以去其他国家。
 
-Friends, see you in another global street, scene, building or village on Earth!
+我可能已经说了我想说的一切。朋友们，继续关注吧。如果你在中国，下次我们见面时，我会向你们讲述我在美国的生活。如果你在其他国家，我们可能更有机会亲自见面。
 
+真的很令人兴奋。无论发生什么，这个世界都将变得更加全球化。因为互联网已经是全球化的，中国的信息平台上有许多美国或外国的视频。我真的希望这个世界在物质上能够更加全球化。智维正在努力让世界朝着这个方向发展。
 
+朋友们，在另一条全球化的街道、风景、建筑或地球上见！
