@@ -31,7 +31,7 @@ This is one paragraph from the Constitution of the United States.
 
 > All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside. No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.
 
-We always know that any government will often not keep its word in its daily running. Any government, including that of the USA and China, is losing the trust of the people. 
+We always know that any government will often not keep its word in its daily running. Any government, including that of the USA and China, is losing the trust of the people gradually. 
 
 This is a really interesting world. We can see that people are more believing their friends or some opinion leaders on the Internet instead of the government, especially those miserable people, including me. Their friends or opinion leaders are never doing any harm to them and often help them while the government sometimes hurt them. The eyes of the people are bright. They know who can be trusted, who are not. 
 
