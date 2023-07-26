@@ -48,7 +48,7 @@ Everyone is born to learn. As a child, we don't know we are learning, we just pl
 
 We have to admit anything we can insist on for 12 years is hard, so including the school education. I was a top student in those 12 years. And I chose to drop out after the first year of my college. I became a bad student or a bad young person. I got my two social judgments in my life. 
 
-Fortunately enough, I met good companies and good people in my life who can tolerate my dropout and give me good jobs. So finally, I cured my dropout and lived well in this society. However, many of my classmates who drop out are not, especially if they are grown up in villages instead of the big cities. Being Born into a poor family is not a problem, but lacking education is a problem.
+Fortunately enough, I met good companies and good people in my life who can tolerate my dropout and give me good jobs. So finally, I cured my dropout and lived well in this society. However, many of my classmates who drop out are not, especially if they are grown up in villages instead of the big cities. Being born into a poor family is not a problem, but lacking education is a problem.
 
 Another problem is that even for those undergrads in the big cities, besides some hot industries, like information and finance, people don't earn enough of what they should get. 
 
