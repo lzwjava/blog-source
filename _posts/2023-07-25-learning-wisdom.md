@@ -36,7 +36,7 @@ Let me pick out some paragraphs from that essay.
 
 > Chinese children start learning English from a young age, but when it comes to critical moments, they rarely use it. I don't reject reading Chinese content, but I suggest not solely relying on it. For every matter, one should also refer to information in English and analyze from multiple perspectives before making decisions. This applies to both daily life choices and the pursuit of professional knowledge. When encountering the same subject, it's advisable to search for its English equivalent when reading in Chinese. By comparing various sources, you are more likely to obtain accurate information.
 
-The essay is so good that it is full of these insights about learning. I have to stop myself to copy more and sharing here. Otherwise, most of my content will be from his essay. So there will be no points for me to write my wisdom of learning. I can just tell people to check out his. 
+The essay is so good that it is full of these insights about learning. I have to stop myself to copy and sharing here. Otherwise, most of my content will be from his essay. So there will be no points for me to write my wisdom of learning. I can just tell people to check out his. 
 
 ### Learning is Hard
 
