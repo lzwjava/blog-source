@@ -72,3 +72,27 @@ Like recently I onboarded to my new home. I bought a Sensology Formaldehyde Dect
 
 It is quite like the code. I have 15 years programming experience since I started to program from 13. I don't need to read documents though I have patience to read them. Even they are written in Japanese, I am ok to translate them and walk through them. I am comfortable to listen to Japanese though my Japanese reading ability is still poor. So the source code is my best reference. I just go to directly run them up to learn.
 
+I want to teach my kid the fearless attitude to learn or do things. It is actually quite funny. The kids has boldness and curiosity when they come to the world. 
+
+So my other principle to teach kids to make the limit as less as possible. We shouldn't tell much kids to not allow to do this thing and that thing. For some curious kids, we should teach them how to measure the electricity using multimeters. 
+
+After writing done this, I know in my family, we have done this thing wrong. Yeah, we should teach our daughter how to measure electricity instead of using childproof socket protection covers to cover sockets. 
+
+If we don't do this, and other families do this, they surely will have smarter kids than our kid. This is how the world works. You can't never stop other people being better. If you don't take same actions like them, then you are losing.
+
+I said before that I want to use every language to teach everything I know to my kid. However, I am not. I didn't teach how to measure electricity. So you know, I have many conflicts with my wife. It is not that my wife is not smart. I am wrong too properly.
+
+I should we still should use childproof socket protection covers to cover sockets. However, we should teach how to use multimeters to measure electricity too.
+
+So there are many things to say here. For every small scenarios in life, we should think how to best protect our kids at the same time teach them most. 
+
+The other places are not secure as our home. So my kid will still encounter many sockets when she grows up. And those sockets are not covered with childproof socket protection covers. And let's think about when we should teacher her such things. I think it is as early as better. So she has a good understanding of the world without changing his original ones when she grows up.
+
+This is really making our parenting hard. The parenting to bring up the best kids is really hard. But we surely should try to.
+
+So from now, for the every dangerous thing in life, I should teach her why it is dangerous and how we can measure the dangerous level, and show her how that will hurt her by using less dangerous and secure thing. It is probably safe when we use the battery like 20 voltages. 
+
+That's why she come to the school, she finds that why her classmates are so scared to the electrical things while she is not. Because her dad teaches her a lot about them. 
+
+So that's why I should teach my kids the correct knowledge as much as possible. The world is quite safe. She doesn't need to be afraid of most of the things. The hot water is secure if we are dealing with them right. We should teach kids how to use the water which's temperature are just 50 celsius degrees. And soon, they are ok to use the hot water. 
+
