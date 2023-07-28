@@ -116,3 +116,5 @@ After writing down this essay, I know I have done very poorly in these two years
 
 Actually, I learn a lot while observing her. I should be more observable and share more about her behaviors. And I found that actually our adults are wrong often. Like they are moving, walking a lot. But why our adults don't like to walk or move any more? We just want to play mobile phones a lot. Why we don't like to work often?
 
+It is surely to listen to these harsh truth I thought for many parents. It makes our parenting so hard. But actually with few principle, it is enough to bring up good kids. And it is very important. You know it, you totally know it when you grow up. So let me emphasize again. Don't critize and always encourage.
+
