@@ -118,3 +118,6 @@ Actually, I learn a lot while observing her. I should be more observable and sha
 
 It is surely uncomfortable to listen to these harsh truth I thought for many parents. It makes our parenting so hard. But actually with few principles, it is enough to bring up good kids. And it is very important. You know it, you totally know it when you grow up. So let me emphasize again. Though there are some bad behaviors we shouldn't encourage, but we often forget to encourage, so let me use always here. Yeah. Don't critize and always encourage. 
 
+I have gained some resentment with my parents after so many arguments. I hope that will never happen between myself and my kid. So you know my feelings about it. So let's emphasize that again. 
+
+Never critize and always encourage. 
