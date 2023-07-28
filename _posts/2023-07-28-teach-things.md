@@ -107,3 +107,9 @@ The ChatGPT breakthourgh in the technology areas give the world more chances to 
 And come back the upbringing, I have brought my 2 yo daughter to some places in Guandong Province, and to Hong Kong. I will surely need to help her explore more palces of the world. And I should let herself do things as more as possible. I already knew how to do it. I couldn't help her every time. One day when she grows up, she need to do everything she wants to do. 
 
 And really we should let her make her decisions every time. We are just parents. We couldn't make decisions for her in her whole life. We should let her go as early as possible. She needs to learn enough about the world. 
+
+The thinking and analysis are important. She don't need to encounter so many people like his father. She needs to learn to respect people. She needs to learn to be polite when interacting with others. 
+
+How she knows what is polite and what it is not? She has to meet the unpolite people or behaviors. So this is long stories. I have to say the life exprience is important. She should try a lot and explore a lot.
+
+After writing down this essay, I know I have done very poorly in these two years. I don't care much about my kid. 
