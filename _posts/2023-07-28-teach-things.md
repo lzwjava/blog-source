@@ -122,4 +122,4 @@ To be honest, I had a lot of unhappy arguments with my parents in my 28 years' l
 
 So let me emphasize that again. 
 
-Never critize and always encourage. 
+Never critize and always encourage. Treat them always like the first day they come to the world. 
