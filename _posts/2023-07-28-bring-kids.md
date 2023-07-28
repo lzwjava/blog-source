@@ -52,7 +52,7 @@ At technology areas, this phenomenon seems not so outstanding. Because the Inter
 
 Now, the technology world is really developing fast. The future OpenAI sees is different from that Google sees, so it reflects on their job requirements. Or that the futures they see are probably same, but OpenAI as a startup is faster than to change their job requirements to adapt than that of Google as a big comany.
 
-Come back to the school education. I have some classmates who are teaching in schools in China. And Some of my teachers who taught me before got retired recently. I know how school system works in China. 
+Come back to the school education. I have some classmates who are teaching in schools in China. And Some of my teachers who taught me before got retired in recent years. I know how school system works in China. 
 
 So to my observation, and sorry for being not humble, I have to say that I probably knew a lot more than most of the young teachers in China. Yeah, but I don't have time to teach my kid when she goes to school. 
 
