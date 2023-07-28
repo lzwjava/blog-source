@@ -118,6 +118,8 @@ Actually, I learn a lot while observing her. I should be more observable and sha
 
 It is surely uncomfortable to listen to these harsh truth I thought for many parents. It makes our parenting so hard. But actually with few principles, it is enough to bring up good kids. And it is very important. You know it, you totally know it when you grow up. So let me emphasize again. Though there are some bad behaviors we shouldn't encourage, but we often forget to encourage, so let me use always here. Yeah. Don't critize and always encourage. 
 
-To be honest, I have gained some resentment with my parents after so many arguments in my 28 years' life. I hope that will never happen between myself and my kid. So you know my feelings about it. So let's emphasize that again. 
+To be honest, sometimes, I had very unhappy arguments with my parents in my 28 years' life. My parents will be uncomfrotable to read this. However, I think I should share openly to cure many people like me. I have to say that my parents are really wrong about some things. They don't know much about the world as me. So I have to remember too that my kids will learn much more than me too. I won't know much about the world as my kids. And I should be silent instead of arguing with them. They have their own life. They just come to the world with our gene.
+
+So let me emphasize that again. 
 
 Never critize and always encourage. 
