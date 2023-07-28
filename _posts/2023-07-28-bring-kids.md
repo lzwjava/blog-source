@@ -56,7 +56,7 @@ Come back to the school education. I have some classmates who are teaching in sc
 
 So to my observation, and sorry for being not humble, I have to say that I probably knew a lot more than most of the young teachers in China. Yeah, but I don't have time to teach my kid when she goes to school. 
 
-And sorry for being honest to share, I have some foreign friends in China, they want to come back to their home countries to give the best school education for their kids. I also follow some Chinese influencers in social media platforms who bring up their kids in foreign countries.
+And sorry for being honest to share, I have some foreign friends in China, they want to come back to their home countries to give the best school education for their kids. I also follow some influencers who are Chinese in social media platforms who bring up their kids in foreign countries.
 
 They somehow don't trust the school system education in China. When ones have seen or experienced better education, they couldn't accept the poor ones. Like after I got my iPhone 14 Pro Max, I don't want to use iPhone X any more though few days before I thought they are still ok to use with sometimes cleaning up the storage. 
 
