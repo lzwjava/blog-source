@@ -48,7 +48,7 @@ And my daughter has no responsiblity to teach her friends English. Though if my 
 
 That's why Singaporean or Hong Konger still somtimes find that they are hard to communicate with their Chinese colleagues. One reason is the language fluency problem, one is different technology mindset. Though the parents of them are from China too. It is a generation about 25 years. With 25 years living in different environments, they become different in minds or behaviors. 
 
-At technology areas, this phenomenon are not so outstanding. Because the Internet workers are quite same globally. They will pursue the latest Internet technology. But the degree of prusing is quite differnt, so it depends too. The world a staff engineer in Google see is quite different from the junior engineer who are just graduated from a Chinese university. 
+At technology areas, this phenomenon are not so outstanding. Because the Internet workers are quite same globally. They will pursue the latest Internet technology. But the degrees of pursing are quite differnt, so it depends too. The world a staff engineer in Google see is quite different from the junior engineer who are just graduated from a Chinese university. 
 
 Now, the technology world is really developing fast. The future OpenAI sees is different from that Google sees, so it reflects on their job requirements. 
 
