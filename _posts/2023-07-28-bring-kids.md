@@ -42,7 +42,7 @@ And please note this paragraph in their job requirements.
 
 The gaps between the wealthy and the poor are so large now. And the people likes to play with others who have similar money or knowledge with them. The billionares don't want to play with milliionares because this is very different for them to see the world. That makes opinions conflicts or uncomfortableness. 
 
-So the kids will be similar too. If my plan is right, when my daughter can speak English fluently at 6 years old, how can she play all day long with other Chinese kids who are just able to speak few simple words. It is not about the language. My daughter surely will speak Chinese at that time. They can communicate. However, it is about how they see this world, it will make a lot of conflicts one day.
+So the kids will be similar too. If my plan is right, when my daughter can speak English fluently at 6 years old, she probably don't like to play with other Chinese kids who are just able to speak few simple words. It is not about the language. My daughter surely will speak Chinese at that time. They can communicate. However, it is about how they see this world, it will make a lot of conflicts one day.
 
 And my daughter has no responsiblity to teach her friends English. Though if my daughter likes to teach and her friends likes to be taught, we are happy to see so. But it is hard to teach. If my daughter can speak English fluently, that is because his dad has speaking English with her for 4 years, that's from 2023 to 2027. That is because his dad prepares the International Home TV, iPad or iPhone for her to watch English animations often.
 
