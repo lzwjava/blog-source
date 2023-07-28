@@ -96,4 +96,5 @@ That's why she come to the school, she finds that why her classmates are so scar
 
 So that's why I should teach my kids the correct knowledge as much as possible. The world is quite safe. She doesn't need to be afraid of most of the things. The hot water is secure if we are dealing with them right. We should teach kids how to use the water which's temperature are just 50 celsius degrees. And soon, they are ok to use the hot water. We shouldn't forbid them to touch or hold the cup of any hot water. 
 
-Of course I will teach my daughter to use ChatGPT as early as possible. This is the most powerful AI tool nowadays. And I will teach Midjourney too.
+Of course I will teach my daughter to use ChatGPT as early as possible. This is the most powerful AI tool nowadays. And I will teach Midjourney too. I will be happy to see that my daughter will become a robotics scientist or a quantum computing scientist when she grows up. She can be a machine learing scientist if she wants to. She surely can become one whe she is 10 years old. That's doable. We can many students in the universities in the USA are very good at machine learning. And some of them graduated from universities and then went to work in OpenAI.
+
