@@ -13,7 +13,7 @@ And I think we should have more patience for our kids. I just accompany my 2 yo 
 
 I am a person who likes freedom. I couldn't imagine how much freedom I can provide for the kid I am bringing up myself.
 
-Paul Graham is a well-known figure in the tech world, and he’s also one of the wealthiest. And Paul Graham’s net worth is an estimated $2.5 billion. He shares a lot about stories with his kids. A lot of these stories are really funny. He wrote an essay titled as "Having Kids" in 2019.
+Paul Graham is a well-known figure in the tech world, and he’s also one of the wealthiest. And Paul Graham’s net worth is an estimated $2.5 billion. He shares a lot about stories with his kids in the social media platform. A lot of these stories are really funny. He wrote an essay titled as "Having Kids" in 2019.
 
 So for him, his kids are totally ok to sleep whenever they want. So I think it is probably wrong to let kids sleep at some regular time. To be honest, for adults myself, I can't do that. 
 
