@@ -62,5 +62,13 @@ They somehow don't trust the school system education in China. When ones have se
 
 If we see bringing kids as a competition, this competition is really really intense. Their kids are very good and excellent. I think I already think hard and work as hard as I can to bring my kid. But actually, they are thinking and working harder. 
 
-There are nine subjects in China's College Entrance Exams. Chinese, English, Math, Physics, Chemistry, Biology, History, Geography, Politics. 
+There are nine subjects in China's College Entrance Exams. Chinese, English, Math, Physics, Chemistry, Biology, History, Geography, Politics. If I prepare for one month and take exams again, I properly can take 70% score of each subject. I got around 590 scores in 750. It is about 78% scores. 
+
+The things you understood will be eaiser to learn next time. There is a saying like that education is that which remains when one has forgotten everything he learned in school.
+
+It is thinking ability that matters. Every small things in life have a lot in them to be learned if you observe or think carefully. 
+
+Like recently I onboarded to my new home. I bought a Sensology Formaldehyde Dectector to detect the air quality. I don't want to read product instructions guide though I have patience to read them if I want. I just go to test. I can test in the outside open areas. I can test in every places in my apartment. I can learn things by real testing and think about the differences with those test results.
+
+It is quite like the code. I have 15 years programming experience since I started to program from 13. I don't need to read documents though I have patience to read them. Even they are written in Japanese, I am ok to translate them and walk through them. I am comfortable to listen to Japanese though my Japanese reading ability is still poor. So the source code is my best reference. I just go to directly run them up to learn.
 
