@@ -5,9 +5,7 @@ title: "How to Bring Up Best Kids"
 
 I can say my own family is a millionaire household though my parents give us half a million CNY. I can say I am a truly scientist though I have not been recongized in the world with some reputation around my friends. So let's talk about how to bring up kids like a millionaire or a scientist.
 
-### Bring Up Kids Like a Billionaire
-
-If you are a billionaire, how will you raise your kids? In my observation, they will bring their kids to travel around the world. Like Eileen Gu. Her life experience is really colorful. Her mother is excellent. 
+If you are a billionaire, how will you raise your kids? In my observation, they will bring their kids to travel around the world. Let's think about Eileen Gu. Her life experience is really colorful. Her mother is excellent. 
 
 And one thing is that make the kids grow up with less pain as possible. They are so small. They already have a hard life to grow up. Why we still force them to do things they don't like? 
 
@@ -24,8 +22,6 @@ So you know, why these days a lot of people want to work as a freelancer or remo
 As a engineer, in my corporate life, I have observed that a lot of execellent engineers work like a night owl, or that they come to the office in the noon, or that they have daily standup at 10am in their home, they will come to the office after that. 
 
 I don't like that my parents force me to do anything I don't want to. I already have a hard life. Why they still want me to do things I don't want to? Now, I earn a decent money a year to the standard of the big cities in China. I have confidence and boldness to judge. I know what is right and what is not. I clearly know what my actions will give the impacts to the world. 
-
-### School Education
 
 Let's discuss about dropout again. Dropout without a colleage degree is not ok in China. However, dropout without a colleage degree in the USA is ok. OpenAI is now probably the best company in the world. You can check out their job requirements in their website. https://openai.com/careers. This is one of the job requirements about one job. 
 
@@ -44,15 +40,27 @@ And please note this paragraph in their job requirements.
 
 > We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or any other legally protected status. Pursuant to the San Francisco Fair Chance Ordinance, we will consider qualified applicants with arrest and conviction records. 
 
-The gaps between the wealthy and the poor are so large now. And the people likes to play with others who have similar money or knowledge with them. The billionares don't want to play milliionares because this is very different for them to see the world. That makes opinions conflicts or uncomfortableness. 
+The gaps between the wealthy and the poor are so large now. And the people likes to play with others who have similar money or knowledge with them. The billionares don't want to play with milliionares because this is very different for them to see the world. That makes opinions conflicts or uncomfortableness. 
 
-So the kids will be. If my plan is right, when my daughter can speak English fluently at 6 years old, how can she play all day long with other Chinese kids who are just able to speak few simple words. My daughter has no responsiblity to teach her friends English. And it is hard to teach. 
+So the kids will be similar too. If my plan is right, when my daughter can speak English fluently at 6 years old, how can she play all day long with other Chinese kids who are just able to speak few simple words. It is not about the language. My daughter surely will speak Chinese at that time. They can communicate. However, it is about how they see this world, it will make a lot of conflicts one day.
 
-If my daughter can speak English fluently, that is because his dad has speaking English with her for 4 years, that's from 2023 to 2027. That is because his dad prepares the International Home TV, iPad or iPhone for her to watch English animations often.
+And my daughter has no responsiblity to teach her friends English. And it is hard to teach. If my daughter can speak English fluently, that is because his dad has speaking English with her for 4 years, that's from 2023 to 2027. That is because his dad prepares the International Home TV, iPad or iPhone for her to watch English animations often.
 
-That's why Singaporean or Hong Konger still find that they are hard to communicate with their Chinese colleagues, one is the language problem, one is different technology mindset. Though the parents of them are from China too. It is a generation about 25 years. With 25 years living in different environments, they become different in minds or behaviors. 
+That's why Singaporean or Hong Konger still find somtimes that they are hard to communicate with their Chinese colleagues. One reason is the language problem, one is different technology mindset. Though the parents of them are from China too. It is a generation about 25 years. With 25 years living in different environments, they become different in minds or behaviors. 
 
-At technology areas, this phenomenon are not so outstanding. Because the Internet workers are quite same globally. They will pursue the latest Internet technology. Actually it depends too. The world a staff engineer in Google see is quite different from the junior engineer who are just graduated from a China university. 
+At technology areas, this phenomenon are not so outstanding. Because the Internet workers are quite same globally. They will pursue the latest Internet technology. Actually it depends too. The world a staff engineer in Google see is quite different from the junior engineer who are just graduated from a Chinese university. 
 
 Now, the technology world is really developing fast. The future OpenAI sees is different from that Google sees, so it reflects on their job requirements. 
+
+Come back to the school education. I have some classmates who teach in China. And Some of my teachers who taught me before got retired recently. I know how school system works in China. 
+
+So to my observation, and sorry for being not humble, I have to say that I probably knew a lot more than the young teachers in China. Yeah, but I don't have time to teach my kid when she goes to school. 
+
+And sorry for being honest to share, I have some foreign friends in China, they want to come back to their home countries to give the best school education for their kids. I also follow some Chinese influencers in social media platforms who bring up their kids in foreign countries.
+
+They somehow don't trust the school system education in China. When ones have seen or experienced better education, they couldn't accept the poor ones. Like after I got my iPhone 14 Pro Max, I don't want to use iPhone X any more though few days before I thought they are still ok to use with sometimes cleaning up the storage. 
+
+If we see bringing kids as a competition, this competition is really really intense. Their kids are very good and excellent. I think I already think hard and work as hard as I can to bring my kid. But actually, they are thinking and working harder. 
+
+There are nine subjects in China's College Entrance Exams. Chinese, English, Math, Physics, Chemistry, Biology, History, Geography, Politics. 
 
