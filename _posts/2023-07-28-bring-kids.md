@@ -29,7 +29,7 @@ Let's discuss about dropout again. Dropout without a colleage degree is usually 
 
 Other requirements are just like this. They don't mention any degree or diploma any more. 
 
-And this is other job requirements from some global company.
+And this is other job requirements from some global companies.
 
 * Bachelor of Engineering in Computer Science Engineering or equivalent, Software Engineering or a related subject.
 * Bachelor's degree in Computer Science, Engineering, or related discipline, or equivalent practical experience.
