@@ -104,3 +104,6 @@ Alexandr Wang was born in 1997. The news say that his company worth 7.5 billion 
 
 The ChatGPT breakthourgh in the technology areas give the world more chances to make more successful young people. We still knew a little about the world and the information. There are a lot of spaces we can explore, create the value and earn decent money. 
 
+And come back the upbringing, I have brought my 2 yo daughter to some places in Guandong Province, and to Hong Kong. I will surely need to help her explore more palces of the world. And I should let herself do things as more as possible. I already knew how to do it. I couldn't help her every time. One day when she grows up, she need to do everything she wants to do. 
+
+And really we should let her make her decisions every time. We are just parents. We couldn't make decisions for her in her whole life. We should let her go as early as possible. She needs to learn enough about the world. 
