@@ -3,13 +3,7 @@ layout: post
 title: "Bring Up Kids Like a Millionaire or a Scientist"
 ---
 
-In the previous title, I say I will teach my daughter to use and enjoy all these things.
-
-These are some miscellaneous products I am using now. 
-
-### Explaination
-
-Above things are some selected things I am using now. And the knowledge I have obtained in 28 years' life. I am an engineer, startup founder, blogger, and lifelong learner. The three keywords that help me guide my life are truth, freedom and love. My mission is to do experiments for humans. I am writing this essay to discuss how to raise kids with my genius friends. 
+I can say my own family is a millionaire household though my parents give us half a million CNY. I can say I am a truly scientist though I have not been recongized in the world with some reputation around my friends. So let's talk about how to bring up kids like a millionaire or a scientist.
 
 ### Teach Kids Like a Billionaire
 
@@ -28,4 +22,37 @@ So for him, his kids are totally ok to sleep whenever they want. So I think it i
 So you know, why these days a lot of people want to work as a freelancer or remotely? It is not that they aren't self-disciplined. It is that they don't want to scrafice that sleep freedom for money. They want to earn money without limiting any of their freedom. Now, they are minority in the 7 billion population. But surely, the group of people who have sleep freedom will become much more. 
 
 As a engineer, in my corporate life, I have observed that a lot of execellent engineers work like a night owl, or that they come to the office in the noon, or that they have daily standup at 10am in their home, they will come to the office after that. 
+
+I don't like that my parents force me to do anything I don't want to. I already have a hard life. Why they still want me to do things I don't want to? Now, I earn a decent money a year to the standard of the big cities in China. I have confidence and boldness to judge. I know what is right and what is not. I clearly know what my actions will give the impacts to the world. 
+
+### School Education
+
+Let's discuss about dropout again. Dropout without a colleage degree is not ok in China. However, dropout without a colleage degree in the USA is ok. OpenAI is now probably the best company in the world. You can check out their job requirements in their website. https://openai.com/careers. This is one of the job requirements about one job. 
+
+* Have experience with ML systems, particularly high scale distributed inference for modern LLMs.
+
+Other requirements are just like this. They don't mention any degree or diploma any more. 
+
+And this is other job requirements from some global company.
+
+* Bachelor of Engineering in Computer Science Engineering or equivalent, Software Engineering or a related subject.
+* Bachelor's degree in Computer Science, Engineering, or related discipline, or equivalent practical experience.
+
+I have to say OpenAI are doing best in the hiring. They think like me. If you truely belive that Interent is the best school in this world, and the traditional schools are becoming obsolete, then you will know why OpenAI do this. Other companies will surely follow them. 
+
+And please note this paragraph in their job requirements. 
+
+> We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or any other legally protected status. Pursuant to the San Francisco Fair Chance Ordinance, we will consider qualified applicants with arrest and conviction records. 
+
+The gaps between the wealthy and the poor are so large now. And the people likes to play with others who have similar money or knowledge with them. The billionares don't want to play milliionares because this is very different for them to see the world. That makes opinions conflicts or uncomfortableness. 
+
+So the kids will be. If my plan is right, when my daughter can speak English fluently at 6 years old, how can she play all day long with other Chinese kids who are just able to speak few simple words. My daughter has no responsiblity to teach her friends English. And it is hard to teach. 
+
+If my daughter can speak English fluently, that is because his dad has speaking English with her for 4 years, that's from 2023 to 2027. That is because his dad prepares the International Home TV, iPad or iPhone for her to watch English animations often.
+
+That's why Singaporean or Hong Konger still find that they are hard to communicate with their Chinese colleagues, one is the language problem, one is different technology mindset. Though the parents of them are from China too. It is a generation about 25 years. With 25 years living in different environment, they become diffent in minds or behaviors. 
+
+At technology areas, this phenomenon are not so outstanding. Because the Internet workers are quite same globally. They will pursue the latest Internet technology. Actually it depends too. The world a staff engineer in Google see is quite different from the junior engineer who are just graduated from a China university. 
+
+Now, the technology world is really developing fast. The future OpenAI sees is different from that Google sees, so it reflects on their job requirements. 
 
