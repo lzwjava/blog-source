@@ -19,7 +19,7 @@ So for him, his kids are totally ok to sleep whenever they want. So I think it i
 
 So you know, why these days a lot of people want to work as a freelancer or remotely? It is not that they aren't self-disciplined. It is that they don't want to scrafice that sleep freedom for money. They want to earn money without limiting any of their freedom. Now, they are a minority in the 7 billion population. But surely, the group of people who have sleep freedom will become much more. 
 
-As a engineer, in my corporate life, I have observed that a lot of execellent engineers work like a night owl, or that they come to the office in the noon, or that they have daily standup at 10am in their home, they will come to the office after that. 
+As a engineer, in my corporate life, I have observed that a lot of execellent engineers work like a night owl, or that they come to the office in the noon, or that they have the daily standup meeting at 10am in their home, they will come to the office after that. 
 
 I don't like that my parents force me to do anything I don't want to. I already have a hard life. Why they still want me to do things I don't want to? Now, I earn a decent money a year to the standard of the big cities in China. I have confidence and boldness to judge. I know what is right and what is not. I clearly know what my actions will give the impacts to the world. 
 
