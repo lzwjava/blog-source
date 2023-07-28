@@ -62,7 +62,7 @@ They somehow don't trust the school system education in China. When ones have se
 
 If we see bringing kids as a competition, this competition is really really intense. Their kids are very good and excellent. I think I already think hard and take actions as hard as I can to bring my kid. But actually, they are thinking and working harder. 
 
-There are nine subjects in China's College Entrance Exams. Chinese, English, Math, Physics, Chemistry, Biology, History, Geography, Politics. If I prepare for one month and take exams again, I properly can take 70% score of each subject. I got around 590 scores in 750. It is about 78% scores. 
+There are nine subjects in China's College Entrance Exams. Chinese, English, Math, Physics, Chemistry, Biology, History, Geography, Politics. If I prepare for one month and take exams again, I properly can take 70% score of each subject. I got around 590 scores in 750 at 2013. It is about 78% scores. 
 
 The things you understood will be eaiser to learn next time. There is a saying like that education is that which remains when one has forgotten everything he learned in school.
 
