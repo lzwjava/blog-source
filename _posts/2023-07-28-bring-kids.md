@@ -15,7 +15,7 @@ I am a person who likes freedom. I couldn't imagine how much freedom I can provi
 
 Paul Graham is a well-known figure in the tech world, and he’s also one of the wealthiest. And Paul Graham’s net worth is an estimated $2.5 billion. He shares a lot about stories between him and his kids in a social media platform. A lot of these stories are really funny. He wrote an essay titled as "Having Kids" in 2019.
 
-He lives a live like a freelancer. So for him, his kids are totally ok to sleep whenever they want. So I think it is probably wrong to let kids sleep at some regular time. To be honest, for adults myself, I can't do that. 
+He lives a life like a freelancer. So for him, his kids are totally ok to sleep whenever they want. So I think it is probably wrong to let kids sleep at some regular time. To be honest, for adults myself, I can't do that. 
 
 So you know, why these days a lot of people want to work as a freelancer or remotely? It is not that they aren't self-disciplined. It is that they don't want to scrafice that sleep freedom for money. They want to earn money without limiting any of their freedom. Now, they are a minority in the 7 billion population. But surely, the group of people who have sleep freedom will become much more. 
 
