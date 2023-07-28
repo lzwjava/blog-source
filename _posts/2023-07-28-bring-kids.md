@@ -54,7 +54,7 @@ Now, the technology world is really developing fast. The future OpenAI sees is d
 
 Come back to the school education. I have some classmates who are teaching in schools in China. And Some of my teachers who taught me before got retired recently. I know how school system works in China. 
 
-So to my observation, and sorry for being not humble, I have to say that I probably knew a lot more than the young teachers in China. Yeah, but I don't have time to teach my kid when she goes to school. 
+So to my observation, and sorry for being not humble, I have to say that I probably knew a lot more than most of the young teachers in China. Yeah, but I don't have time to teach my kid when she goes to school. 
 
 And sorry for being honest to share, I have some foreign friends in China, they want to come back to their home countries to give the best school education for their kids. I also follow some Chinese influencers in social media platforms who bring up their kids in foreign countries.
 
