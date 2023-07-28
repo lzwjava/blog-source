@@ -1,11 +1,11 @@
 ---     
 layout: post     
-title: "Bring Up Kids Like a Millionaire or a Scientist"
+title: "How to Bring Up Best Kids"
 ---
 
 I can say my own family is a millionaire household though my parents give us half a million CNY. I can say I am a truly scientist though I have not been recongized in the world with some reputation around my friends. So let's talk about how to bring up kids like a millionaire or a scientist.
 
-### Teach Kids Like a Billionaire
+### Bring Up Kids Like a Billionaire
 
 If you are a billionaire, how will you raise your kids? In my observation, they will bring their kids to travel around the world. Like Eileen Gu. Her life experience is really colorful. Her mother is excellent. 
 
@@ -50,7 +50,7 @@ So the kids will be. If my plan is right, when my daughter can speak English flu
 
 If my daughter can speak English fluently, that is because his dad has speaking English with her for 4 years, that's from 2023 to 2027. That is because his dad prepares the International Home TV, iPad or iPhone for her to watch English animations often.
 
-That's why Singaporean or Hong Konger still find that they are hard to communicate with their Chinese colleagues, one is the language problem, one is different technology mindset. Though the parents of them are from China too. It is a generation about 25 years. With 25 years living in different environments, they become diffent in minds or behaviors. 
+That's why Singaporean or Hong Konger still find that they are hard to communicate with their Chinese colleagues, one is the language problem, one is different technology mindset. Though the parents of them are from China too. It is a generation about 25 years. With 25 years living in different environments, they become different in minds or behaviors. 
 
 At technology areas, this phenomenon are not so outstanding. Because the Internet workers are quite same globally. They will pursue the latest Internet technology. Actually it depends too. The world a staff engineer in Google see is quite different from the junior engineer who are just graduated from a China university. 
 
