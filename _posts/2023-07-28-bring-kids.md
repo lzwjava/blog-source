@@ -50,7 +50,7 @@ That's why Singaporean or Hong Konger still somtimes find that they are hard to 
 
 At technology areas, this phenomenon are not so outstanding. Because the Internet workers are quite same globally. They will pursue the latest Internet technology. But the degrees of pursing are quite different, so it depends too. The world a staff engineer in Google see is quite different from the junior engineer who are just graduated from a Chinese university. 
 
-Now, the technology world is really developing fast. The future OpenAI sees is different from that Google sees, so it reflects on their job requirements. 
+Now, the technology world is really developing fast. The future OpenAI sees is different from that Google sees, so it reflects on their job requirements. Or that the futures they see are probably same, but OpenAI as a startup is faster than to change their job requirements to adapt than that of Google as a big comany.
 
 Come back to the school education. I have some classmates who are teaching in schools in China. And Some of my teachers who taught me before got retired recently. I know how school system works in China. 
 
