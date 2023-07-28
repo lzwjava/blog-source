@@ -114,3 +114,5 @@ How she knows what is polite and what it is not? She has to meet the unpolite pe
 
 After writing down this essay, I know I have done very poorly in these two years. I don't care much about my kid. I don't let her learn as much when she stays with me. I don't play with her always just like her best friend. 
 
+Actually, I learn a lot while observing her. I should be more observable and share more about her behaviors. And I found that actually our adults are wrong often. Like they are moving, walking a lot. But why our adults don't like walk or move any more? We just want to play mobile phones. Why we don't like to work often?
+
