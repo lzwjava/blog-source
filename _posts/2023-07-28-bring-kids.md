@@ -76,7 +76,7 @@ I want to teach my kid the fearless attitude to learn or do things. It is actual
 
 So my other principle to teach kids to make the limit as less as possible. We shouldn't tell much kids to not allow to do this thing and that thing. For some curious kids, we should teach them how to measure the electricity using multimeters. 
 
-After writing done this, I know in my family, we have done this thing wrong. Yeah, we should teach our daughter how to measure electricity instead of using childproof socket protection covers to cover sockets. 
+After writing done this sentence, I know in my family, we have done this thing wrong. Yeah, we should teach our daughter how to measure electricity instead of using childproof socket protection covers to cover sockets. 
 
 If we don't do this, and other families do this, they surely will have smarter kids than our kid. This is how the world works. You can't never stop other people being better. If you don't take same actions like them, then you are losing.
 
