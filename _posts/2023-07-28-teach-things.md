@@ -3,7 +3,7 @@ layout: post
 title: "How to Bring Up Best Kids"
 ---
 
-I can say my own family is a millionaire household though my parents give us half a million CNY. I can say I am a truly scientist though I have not been recongized in the world with some reputation around my friends. So let's talk about how to bring up kids like a millionaire or a scientist.
+In the original title, I want to use how to bring up kids like a millionaire or a scientist. I can say my own family is a millionaire household though my parents give us half a million CNY. I can say I am a truly scientist though I have not been recongized in the world with only some reputation around my friends. So let's talk about how to bring up kids like a millionaire or a scientist.
 
 If you are a billionaire, how will you raise your kids? In my observation, they will bring their kids to travel around the world. Let's think about Eileen Gu. Her life experience is really colorful. Her mother is excellent. 
 
