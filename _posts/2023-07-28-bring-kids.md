@@ -98,8 +98,6 @@ So that's why I should teach my kids the correct knowledge as much as possible. 
 
 Of course I will teach my daughter to use ChatGPT as early as possible. This is the most powerful AI tool nowadays. And I will teach Midjourney too. I will be happy to see that my daughter will become a robotics scientist or a quantum computing scientist when she grows up. She can be a machine learing scientist if she wants to. She probably can become one whe she is 10 years old. That's doable. We can many students in the universities in the USA are very good at machine learning. And some of them graduated from universities and then went to work in OpenAI and earn half a million USD a year.
 
-Karry Wang is very famous Internet celebrity singer and actor in China. He was born in 1999. And he became famous from 2013. That's 14 years old. Karry Wang is said to have a net worth of 36 millions dollars. 
-
 Alexandr Wang was born in 1997. The news say that his company worth 7.5 billion dollars, and his net worth is 1 billion dollars. That's really insane. However, that's really good job if we think about it. 
 
 The ChatGPT breakthourgh in the technology areas give the world more chances to make more successful young people. We still knew a little about the world and the information. There are a lot of spaces we can explore, create the value and earn decent money. 
