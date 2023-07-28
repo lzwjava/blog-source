@@ -112,4 +112,5 @@ The thinking and analysis are important. She don't need to encounter so many peo
 
 How she knows what is polite and what it is not? She has to meet the unpolite people or behaviors. So this is long stories. I have to say the life exprience is important. She should try a lot and explore a lot.
 
-After writing down this essay, I know I have done very poorly in these two years. I don't care much about my kid. 
+After writing down this essay, I know I have done very poorly in these two years. I don't care much about my kid. I don't let her learn as much when she stays with me. I don't play with her just like her best friend. 
+
