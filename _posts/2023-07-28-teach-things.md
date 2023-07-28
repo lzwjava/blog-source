@@ -7,17 +7,17 @@ I can say my own family is a millionaire household though my parents give us hal
 
 If you are a billionaire, how will you raise your kids? In my observation, they will bring their kids to travel around the world. Let's think about Eileen Gu. Her life experience is really colorful. Her mother is excellent. 
 
-And one thing is that make the kids grow up with less pain as possible. They are so small. They already have a hard life to grow up. Why we still force them to do things they don't like? 
+And one thing is to make the kids grow up with less pain as possible. They are so small. They already have a hard life to grow up. Why we still force them to do things they don't like? 
 
-And I think we should have more patience for our kids. I just accompany my 2 yo daughter for one day in a week. Actually, I want my wife give birth to a second kid and let me bring up totally. That's really interesting. 
+And I think we should have more patience for our kids. I just accompany my 2 yo daughter for one day in a week. Actually, I want my wife to give birth to a second kid and let me bring up totally. That's really interesting. 
 
-I am a person who likes freedom. I couldn't imagine how much freedom I can bring to the kid myself bring up. 
+I am a person who likes freedom. I couldn't imagine how much freedom I can provide for the kid I am bringing up myself.
 
 Paul Graham is a well-known figure in the tech world, and he’s also one of the wealthiest. And Paul Graham’s net worth is an estimated $2.5 billion. He shares a lot about stories with his kids. A lot of these stories are really funny. He wrote an essay titled as "Having Kids" in 2019.
 
 So for him, his kids are totally ok to sleep whenever they want. So I think it is probably wrong to let kids sleep at some regular time. To be honest, for adults myself, I can't do that. 
 
-So you know, why these days a lot of people want to work as a freelancer or remotely? It is not that they aren't self-disciplined. It is that they don't want to scrafice that sleep freedom for money. They want to earn money without limiting any of their freedom. Now, they are minority in the 7 billion population. But surely, the group of people who have sleep freedom will become much more. 
+So you know, why these days a lot of people want to work as a freelancer or remotely? It is not that they aren't self-disciplined. It is that they don't want to scrafice that sleep freedom for money. They want to earn money without limiting any of their freedom. Now, they are a minority in the 7 billion population. But surely, the group of people who have sleep freedom will become much more. 
 
 As a engineer, in my corporate life, I have observed that a lot of execellent engineers work like a night owl, or that they come to the office in the noon, or that they have daily standup at 10am in their home, they will come to the office after that. 
 
@@ -46,13 +46,13 @@ So the kids will be similar too. If my plan is right, when my daughter can speak
 
 And my daughter has no responsiblity to teach her friends English. And it is hard to teach. If my daughter can speak English fluently, that is because his dad has speaking English with her for 4 years, that's from 2023 to 2027. That is because his dad prepares the International Home TV, iPad or iPhone for her to watch English animations often.
 
-That's why Singaporean or Hong Konger still find somtimes that they are hard to communicate with their Chinese colleagues. One reason is the language problem, one is different technology mindset. Though the parents of them are from China too. It is a generation about 25 years. With 25 years living in different environments, they become different in minds or behaviors. 
+That's why Singaporean or Hong Konger still somtimes find that they are hard to communicate with their Chinese colleagues. One reason is the language problem, one is different technology mindset. Though the parents of them are from China too. It is a generation about 25 years. With 25 years living in different environments, they become different in minds or behaviors. 
 
 At technology areas, this phenomenon are not so outstanding. Because the Internet workers are quite same globally. They will pursue the latest Internet technology. Actually it depends too. The world a staff engineer in Google see is quite different from the junior engineer who are just graduated from a Chinese university. 
 
 Now, the technology world is really developing fast. The future OpenAI sees is different from that Google sees, so it reflects on their job requirements. 
 
-Come back to the school education. I have some classmates who teach in China. And Some of my teachers who taught me before got retired recently. I know how school system works in China. 
+Come back to the school education. I have some classmates who are teaching in schools in China. And Some of my teachers who taught me before got retired recently. I know how school system works in China. 
 
 So to my observation, and sorry for being not humble, I have to say that I probably knew a lot more than the young teachers in China. Yeah, but I don't have time to teach my kid when she goes to school. 
 
