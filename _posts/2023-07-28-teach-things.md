@@ -94,5 +94,7 @@ So from now, for the every dangerous thing in life, I should teach her why it is
 
 That's why she come to the school, she finds that why her classmates are so scared to the electrical things while she is not. Because her dad teaches her a lot about them. 
 
-So that's why I should teach my kids the correct knowledge as much as possible. The world is quite safe. She doesn't need to be afraid of most of the things. The hot water is secure if we are dealing with them right. We should teach kids how to use the water which's temperature are just 50 celsius degrees. And soon, they are ok to use the hot water. 
+So that's why I should teach my kids the correct knowledge as much as possible. The world is quite safe. She doesn't need to be afraid of most of the things. The hot water is secure if we are dealing with them right. We should teach kids how to use the water which's temperature are just 50 celsius degrees. And soon, they are ok to use the hot water. We shouldn't forbid them to touch or hold the cup of any hot water. 
+
+
 
