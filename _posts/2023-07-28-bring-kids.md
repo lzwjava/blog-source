@@ -125,3 +125,15 @@ Never critize and always encourage.
 And there is one point that need to be added.
 
 Treat them always like the first day they come to the world. 
+
+---
+
+Some hightlight points:
+1. Never critize and always encourage. 
+2. Treat them always like the first day they come to the world. 
+3. We should teach how to measure the electricity using multimeters instead of just using childproof socket protection covers to cover sockets.
+4. It is not about teaching English or Chinese. Language is the second. It is about how they see the world.
+5. We should teach the knowledge of dangerous things instead of banning them from our kids.
+6. Encourage kids to try a lot and explore a lot.
+7. Thinking and judgement is important. We should let kids think more and make as many decisions as they can.
+
