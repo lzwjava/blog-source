@@ -60,7 +60,7 @@ And sorry for being honest to share, I have some foreign friends in China, they 
 
 They somehow don't trust the school system education in China. When ones have seen or experienced better education, they couldn't accept the poor ones. Like after I got my iPhone 14 Pro Max, I don't want to use iPhone X any more though few days before I thought they are still ok to use with sometimes cleaning up the storage. 
 
-If we see bringing kids as a competition, this competition is really really intense. Their kids are very good and excellent. I think I already think hard and work as hard as I can to bring my kid. But actually, they are thinking and working harder. 
+If we see bringing kids as a competition, this competition is really really intense. Their kids are very good and excellent. I think I already think hard and take actions as hard as I can to bring my kid. But actually, they are thinking and working harder. 
 
 There are nine subjects in China's College Entrance Exams. Chinese, English, Math, Physics, Chemistry, Biology, History, Geography, Politics. If I prepare for one month and take exams again, I properly can take 70% score of each subject. I got around 590 scores in 750. It is about 78% scores. 
 
