@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Things & Places"
+---
+
 ### Things
 
 House: 120 Square Meters House in Guangzhou
