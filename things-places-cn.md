@@ -1,4 +1,9 @@
-### 事物
+---
+layout: post
+title:  "物品 & 地方"
+---
+
+### 
 
 房子：广州 120 平方米的房子
 
@@ -18,7 +23,7 @@
 
 全球应用： 消息、照片、Youtube、Spotify、Capcut、Google Podcasts、Youtube Music、Twitter、Instagram、TikTok、LightCut、LinkedIn、汇丰香港、Binance、大疆创新、微软 To DO、Gmail、Whatsapp、Youtube Kids、ChatGPT、Facebook、、Reddit、Google Analytics、Messager、老虎证券、StichPics、 GitHub、维基百科、Quora、Telegram、日经、Uber、Snapchat、Agoda、Airbnb、Netflix、Slack、Edge、Grammarly、亚马逊、Discord、Notion、Twitch、Kindle、Clubhouse、朝日新闻、Substack、LinkedIn、Youtube Music、Safari、Teams、Bigo Live、Telegram、Line、DJI Fly、DeepL、Zoom
 
-### 地点
+### 地方
 
 美国： 旧金山、洛杉矶、圣何塞、湾区、纽约、尼亚加拉大瀑布、拉斯维加斯、萨克拉门托、新泽西、西雅图
 
