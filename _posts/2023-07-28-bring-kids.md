@@ -55,7 +55,7 @@ The gaps between the wealthy and the poor are so large now. And the people likes
 
 So the kids will be similar too. If my English education plan is right, when my daughter can speak English fluently at 6 years old, she probably don't like to play with other Chinese kids who are just able to speak few simple words. It is not about the language. My daughter surely will speak Chinese at that time. They can communicate. However, it is about how they see this world, it will make a lot of conflicts one day.
 
-And my daughter has no responsiblity to teach her friends English. Though if my daughter likes to teach and her friends likes to be taught, we are happy to see so. But it is hard to teach. If my daughter can speak English fluently, that is because his dad has speaking English with her for 4 years, that's from 2023 to 2027. That is because his dad prepares the International Home TV, iPad or iPhone for her to watch English animations often.
+And my daughter has no responsiblity to teach her friends English. Though if my daughter likes to teach and her friends likes to be taught, we are happy to see so. But it is hard to teach. If my daughter can speak English fluently, that is because her dad has speaking English with her for 4 years, that's from 2023 to 2027. That is because her dad prepares the International Home TV, iPad or iPhone for her to watch English animations often.
 
 That's why Singaporean or Hong Konger still somtimes find that they are hard to communicate with their Chinese colleagues. One reason is the language fluency problem, one is different world views. Though the parents of them are from China too. A generation is about 25 years. With 25 years living in different environments, they become different in minds or behaviors. 
 
@@ -97,7 +97,7 @@ I should we still should use childproof socket protection covers to cover socket
 
 So there are many things to say here. For every small scenarios in life, we should think how to best protect our kids at the same time teach them most. 
 
-The other places are not secure as our home. So my kid will still encounter many sockets when she grows up. And those sockets are not covered with childproof socket protection covers. And let's think about when we should teacher her such things. I think it is as early as better. So she has a good understanding of the world without changing his original ones when she grows up.
+The other places are not secure as our home. So my kid will still encounter many sockets when she grows up. And those sockets are not covered with childproof socket protection covers. And let's think about when we should teacher her such things. I think it is as early as better. So she has a good understanding of the world without changing her original ones when she grows up.
 
 This is really making our parenting hard. The parenting to bring up the best kids is really hard. But we surely should try to.
 
@@ -117,7 +117,7 @@ And come back the upbringing, I have brought my 2 yo daughter to some places in 
 
 And really we should let her make her decisions every time. We are just parents. We couldn't make decisions for her in her whole life. We should let her go as early as possible. She needs to learn enough about the world. 
 
-The thinking and analysis are important. She don't need to encounter so many people like his father. She needs to learn to respect people. She needs to learn to be polite when interacting with others. 
+The thinking and analysis are important. She don't need to encounter so many people like her father. She needs to learn to respect people. She needs to learn to be polite when interacting with others. 
 
 How she knows what is polite and what it is not? She has to meet the unpolite people or behaviors. So this is long stories. I have to say the life exprience is important. She should try a lot and explore a lot.
 
