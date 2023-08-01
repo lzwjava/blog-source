@@ -1,6 +1,6 @@
 ---                            
 layout: post                            
-title: "How Genius Zhiwei Finds His Machine Learning Job"                       
+title: "How Genius Zhiwei Finds His Machine Learning Job - Draft"                       
 ---        
         
 Short Introdution to the HRs.        
