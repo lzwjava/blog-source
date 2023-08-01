@@ -24,7 +24,7 @@ title:  "Resume"
 
 除了技能，让我们看看我使用过的工具。它们是帮助我积累上述技能的详细工具，以及其他一些有趣的工具。我仍在使用其中的一些，对于其余的工具，我可以花几天时间重新学习使用它们。
 
-* 自然语言：英语，中文，粤语，客家话
+* 自然语言：英语，中文，粤语，客家话，日语(初级)
 * 操作系统：Linux，Windows，MacOS，Android，iOS，OpenWRT，Symbian，Apple tvOS，Fire OS
 * 语言：PHP，Java，Objective-C，Swift，Ruby，HTML，C，C++，JavaScript，Lisp，Clojure，TypeScript，JSON，CSS，Node.js，Go，SQL，NoSQL，Python，Pascal
 * 框架与数据库：jQuery，Hexo，Jekyll，React，MongoDB，PostgreSQL，Microsoft SQL Server，Stylus，Sass，MySQL，Redis，Kafka，RTMP streaming，HTTP/IP, Spring，Hibernate，Netty
