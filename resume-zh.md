@@ -53,11 +53,8 @@ title:  "Resume"
 
 ## 文章
 
-* [给10岁的我：如何成为信息天才](https://lzwjava.github.io/10yo-cn)
-* [我终于明白神经网络是如何工作的](https://lzwjava.github.io/neural-network-cn)
-* [我为什么以及如何学习日语](https://lzwjava.github.io/japanese-cn)
-* [如何成为世界上最锋利的人](https://lzwjava.github.io/sharpest-cn)
-* [我如何佩戴比实际度数少150度的眼镜以减少近视](https://lzwjava.github.io/eyes-cn)
+
+
 
 ## 工作经历
 
