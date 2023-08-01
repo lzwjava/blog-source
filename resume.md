@@ -25,7 +25,7 @@ I have gained a lot of skills since I started programming in 2008. Let's look at
 
 Besides skills, let's look at the tools I have used. They are detailed tools that help me to accumulate the above skills, plus other interesting tools. I am still using some of them and can learn for a few days to use the rest of them again.
 
-* Natural Language: English, Chinese, Cantonese, Hakka, Japanese(Junior)
+* Natural Language: English, Chinese, Cantonese, Hakka, Japanese
 * Operating System: Linux, Windows, MacOS, Android, iOS, OpenWRT, Symbian, Apple tvOS, Fire OS
 * Language: PHP, Java, Objective-C, Swift, Ruby, HTML, C, C++, JavaScript, Lisp, Clojure, TypeScript, Node.js, Go, Python, Pascal
 * Domain-specific language: JSON, CSS, SQL, NoSQL, Kusto Query Language
