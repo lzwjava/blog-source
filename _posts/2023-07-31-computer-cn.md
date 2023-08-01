@@ -1,6 +1,6 @@
 ---              
 layout: post              
-title: "Deep Learning Computer"         
+title: "Deep Learning Computer - Draft"         
 ---     
 
 显卡：微星3080  --  5219元
