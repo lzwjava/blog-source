@@ -45,6 +45,24 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * Regarding technical experience, I have 6 years of backend engineering experience(4 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served users. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. In recent years, I actively learn Artificial Intelligence and Japanese in my leisure time to raise my boundaries of intelligence.
 * Because of my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
 
+## Links
+
+* [GitHub](https://github.com/lzwjava)
+* [Blog](https://lzwjava.github.io)
+* [Codeforces](https://codeforces.com/profile/lzwjava)
+* [UVa Online Judge](https://uhunt.onlinejudge.org/id/113519)
+* [LinkedIn](https://www.linkedin.com/in/lzwjava)
+* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
+
+## Articles
+
+* [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
+* [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
+* [Why and How I Learn Japanese](https://lzwjava.github.io/japanese)
+* [How to Become the Sharpest Person in the World](https://lzwjava.github.io/sharpest)
+* [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
+
+
 ## Work Experience
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
@@ -111,23 +129,6 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * Fun Live & Square Root miscellaneous projects, PHP & Java & Vue, 2016.07 - 2019.12
 * LeanChat, iOS & Android, 2014.07 - 2015.10
 * The detail can be found above.
-
-## Links
-
-* [GitHub](https://github.com/lzwjava)
-* [Blog](https://lzwjava.github.io)
-* [Codeforces](https://codeforces.com/profile/lzwjava)
-* [UVa Online Judge](https://uhunt.onlinejudge.org/id/113519)
-* [LinkedIn](https://www.linkedin.com/in/lzwjava)
-* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
-
-## Articles
-
-* [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
-* [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
-* [Why and How I Learn Japanese](https://lzwjava.github.io/japanese)
-* [How to Become the Sharpest Person in the World](https://lzwjava.github.io/sharpest)
-* [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
 
 ## Expectation
 
