@@ -57,10 +57,13 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 ## Articles
 
 * [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
+* [The Next Generation Should Experience All of These Wonderful Things and Places](https://lzwjava.github.io/things)
 * [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
-* [Why and How I Learn Japanese](https://lzwjava.github.io/japanese)
-* [How to Become the Sharpest Person in the World](https://lzwjava.github.io/sharpest)
 * [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
+* [The 10x AGI Information World](https://lzwjava.github.io/agi)
+* [Think Totally Different](https://lzwjava.github.io/totally-different)
+* [How Genius Zhiwei Finds His Machine Learning Job](https://lzwjava.github.io/ml-job)
+
 
 
 ## Work Experience
