@@ -42,6 +42,23 @@ title:  "Resume"
 * 在技术经验方面，我有6年的后端工程经验（4年Java，2年PHP）。我也做了一些为用户服务的Android，iOS和前端项目。我英语流利，雅思考试得分6分。在LeetCode类似的网站上，我也解决了超过1000个算法问题。在创业时，我也有DevOps的经验。近年来，我在空闲时间积极学习人工智能和日语，以提高我的智力边界。
 * 因为我善良诚实的性格，我是一个随和、可靠、快乐的人，与人相处融洽。
 
+## 链接
+
+* [GitHub](https://github.com/lzwjava)
+* [博客](https://lzwjava.github.io)
+* [Codeforces](https://codeforces.com/profile/lzwjava)
+* [UVa在线裁判](https://uhunt.onlinejudge.org/id/113519)
+* [LinkedIn](https://www.linkedin.com/in/lzwjava)
+* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
+
+## 文章
+
+* [给10岁的我：如何成为信息天才](https://lzwjava.github.io/10yo-cn)
+* [我终于明白神经网络是如何工作的](https://lzwjava.github.io/neural-network-cn)
+* [我为什么以及如何学习日语](https://lzwjava.github.io/japanese-cn)
+* [如何成为世界上最锋利的人](https://lzwjava.github.io/sharpest-cn)
+* [我如何佩戴比实际度数少150度的眼镜以减少近视](https://lzwjava.github.io/eyes-cn)
+
 ## 工作经历
 
 ### 法本信息 & 汇丰银行, 全栈工程师, 2022.11 - 2023.07
@@ -108,23 +125,6 @@ title:  "Resume"
 * 趣直播 & 平方根科技客户项目, PHP & Java & Vue, 2016.07 - 2019.12
 * LeanCloud SDK & LeanChat, iOS & Android, 2014.07 - 2015.11
 * 详情请见工作经历部分。
-
-## 链接
-
-* [GitHub](https://github.com/lzwjava)
-* [博客](https://lzwjava.github.io)
-* [Codeforces](https://codeforces.com/profile/lzwjava)
-* [UVa在线裁判](https://uhunt.onlinejudge.org/id/113519)
-* [LinkedIn](https://www.linkedin.com/in/lzwjava)
-* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
-
-## 文章
-
-* [给10岁的我：如何成为信息天才](https://lzwjava.github.io/10yo-cn)
-* [我终于明白神经网络是如何工作的](https://lzwjava.github.io/neural-network-cn)
-* [我为什么以及如何学习日语](https://lzwjava.github.io/japanese-cn)
-* [如何成为世界上最锋利的人](https://lzwjava.github.io/sharpest-cn)
-* [我如何佩戴比实际度数少150度的眼镜以减少近视](https://lzwjava.github.io/eyes-cn)
 
 ## 期望
 
