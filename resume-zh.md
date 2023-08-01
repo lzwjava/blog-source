@@ -34,7 +34,6 @@ title:  "Resume"
 * 云工具：GitHub，GitLab，Jira，Confluence，Cloudflare，Digital Ocean，Vultr，AWS，Azure，阿里云，Pivotal Cloud Foundry
 * 测试：Postman，Selenium，Karate，JUnit，Mockito，Apache JMeter, Apache ab
 * 其他：FFmpeg，Spark，代理工具
-* 当前学习：日语，机器学习，云计算
 
 ## 个人简介
 
