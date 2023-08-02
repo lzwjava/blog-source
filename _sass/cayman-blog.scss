@@ -1,5 +1,5 @@
-$section-headings-color: #e5e5e5;
-$header-bg-color: #7601b1;
+$section-headings-color: #000000;
+$header-bg-color: #f9f0e3;
 
 .page-header {
   background-color: #6c01a9;
@@ -109,8 +109,7 @@ ul.post-list li::before {
 
 body {
   line-height: 1.8;
-  // background-image: linear-gradient(120deg, #6c01a9, #C95fff);
-  background-color: #6c01a9;
+  background-color: #f9f0e3;
 }
 
 body:lang(en) {
