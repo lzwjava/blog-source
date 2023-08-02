@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Noes"
+title:  "Notes"
 ---
 
 Some cover photos are from Unsplash.
