@@ -50,3 +50,26 @@ In summary, these lines of code perform the weight and bias updates for the neur
 
 ----
 
+Zhiwei: What is SpaCy language model? 
+
+ChatGPT: SpaCy is an open-source natural language processing (NLP) library developed by Explosion AI. It is designed to be efficient, fast, and production-ready, making it a popular choice for various NLP tasks. SpaCy provides pre-trained language models that can process and understand text, allowing developers to perform various NLP tasks such as part-of-speech tagging, named entity recognition, sentence parsing, and more.
+
+Key features of SpaCy language model include:
+
+1. Tokenization: SpaCy can split a text into individual words or tokens, taking into account various linguistic rules and complexities.
+
+2. Part-of-speech Tagging: The library can assign part-of-speech tags to each token, indicating whether it is a noun, verb, adjective, etc.
+
+3. Named Entity Recognition (NER): SpaCy can identify and categorize entities such as names of people, organizations, locations, dates, etc.
+
+4. Dependency Parsing: It can analyze the grammatical structure of a sentence and determine the relationships between words.
+
+5. Lemmatization: SpaCy can convert words to their base or root form (lemmas).
+
+6. Word Vectors: The library provides word vectors, also known as word embeddings, which are dense numerical representations of words that capture semantic meaning.
+
+SpaCy supports multiple languages and comes with pre-trained models for different languages, making it widely used in various NLP applications, including information extraction, sentiment analysis, chatbots, language translation, and more. Additionally, it allows developers to train custom models on their specific datasets if needed.
+
+---
+
+
