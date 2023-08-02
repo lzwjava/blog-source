@@ -29,8 +29,8 @@ Born in 1995, 28 years old.
 Top 300 in National Olympiad in Informatics in Provinces.        
 Studied at Beijing Forestry University (211) for a year.        
 Startup experience for 3 years after leaving.        
-Skilled in Android, iOS, front-end, and back-end development.        
-Best at back-end with 6 years of experience.        
+Skilled in Android, iOS, frontend, and backend development. 
+Best at the backend with 6 years of experience.        
 Worked with HSBC and DBS Bank, familiar with big companies.        
 Fluent in Mandarin, English, and Cantonese; IELTS 6, basic Japanese.        
 1-year amateur machine learning experience, know handwriting recognition neural network code.        
