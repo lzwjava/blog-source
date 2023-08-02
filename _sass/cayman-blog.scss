@@ -1,9 +1,9 @@
-$section-headings-color: #7601b1;
+$section-headings-color: #e5e5e5;
 $header-bg-color: #7601b1;
 
 .page-header {
   background-color: #6c01a9;
-  background-image: linear-gradient(120deg, #6c01a9, #C95fff);
+  background-image: linear-gradient(120deg, #004eff, #bfc800);
 }
 
 @media screen and (min-width: 64em) {
@@ -23,7 +23,7 @@ $header-bg-color: #7601b1;
   }
 
   h6 {
-    color: Psection-headings-color;
+    color: $section-headings-color;
   }
 
 }
@@ -68,6 +68,7 @@ $header-bg-color: #7601b1;
     }
 
     .date {
+      color: #b0b0b0;
       font-size: small;
     }
   }
@@ -93,7 +94,7 @@ ul.post-list li::before {
 }
 
 .main-content {
-  color: #4a4a4a;
+  color: $section-headings-color;
 
   margin: 0 auto !important;
 
@@ -108,6 +109,8 @@ ul.post-list li::before {
 
 body {
   line-height: 1.8;
+  // background-image: linear-gradient(120deg, #6c01a9, #C95fff);
+  background-color: #6c01a9;
 }
 
 body:lang(en) {
