@@ -3,7 +3,7 @@ layout: post
 title:  "Notes"
 ---
 
-## Photo
+## Cover Photos
 
 Some cover photos are from Unsplash.
 
