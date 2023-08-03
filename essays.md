@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Best Essays"
+title:  "Essays"
 ---
 
 ## Best Essays
