@@ -3,6 +3,10 @@ layout: post
 title:  "Resume"
 ---
 
+# Chinese Version
+
+Please check [here](/resume-zh).
+
 # PDF
 
 Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
