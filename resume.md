@@ -7,7 +7,7 @@ title:  "Resume"
 
 The Chinese translation can be found [here](/resume-zh).
 
-PDF can be found [here](/assets/resume/Zhiwei.Li.Resume.pdf).
+The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ----
 
