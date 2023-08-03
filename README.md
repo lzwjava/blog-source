@@ -18,5 +18,5 @@ jekyll serve
 # others
 rougify style github > assets/css/syntax.css
 
-
+rougify style gruvbox.dark > assets/css/syntax.css
 ```
