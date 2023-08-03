@@ -1,8 +1,9 @@
-$section-headings-color: #000000;
+$section-headings-color: #d0cfd1;
 $header-bg-color: #f9f0e3;
+$main-bg-color: #4a4a4d;
 
 .page-header {
-  background-color: #6c01a9;
+  background-color: $main-bg-color;
   background-image: linear-gradient(120deg, #004eff, #bfc800);
 }
 
@@ -26,6 +27,18 @@ $header-bg-color: #f9f0e3;
     color: $section-headings-color;
   }
 
+  blockquote {
+    color: $section-headings-color;
+  }
+
+  pre {
+    background-color: #c2c2c2;
+  }
+
+}
+
+.highlight {
+  background-color: $main-bg-color;
 }
 
 
@@ -109,7 +122,7 @@ ul.post-list li::before {
 
 body {
   line-height: 1.8;
-  background-color: #f9f0e3;
+  background-color: $main-bg-color;
 }
 
 body:lang(en) {
