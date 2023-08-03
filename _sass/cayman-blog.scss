@@ -2,6 +2,7 @@ $section-headings-color: #6b6053;
 $header-bg-color: #f8f0e3;
 $main-bg-color: #f8f0e3;
 $pre-bg-color: #e0d9cf;
+$date-color: #968576;
 
 .page-header {
   background-color: $main-bg-color;
@@ -82,7 +83,7 @@ $pre-bg-color: #e0d9cf;
     }
 
     .date {
-      color: #b0b0b0;
+      color: $date-color;
       font-size: small;
     }
   }
