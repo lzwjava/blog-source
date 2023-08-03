@@ -3,7 +3,7 @@ layout: post
 title:  "Resume"
 ---
 
-# PDF
+## PDF
 
 请在[这里](/assets/resume/Zhiwei.Li.Resume.ZH.pdf)查看。
 
