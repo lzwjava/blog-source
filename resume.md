@@ -3,13 +3,11 @@ layout: post
 title:  "Resume"
 ---
 
-# Chinese Version
+# Note
 
-Please check [here](/resume-zh).
+The Chinese translation can be found [here](/resume-zh).
 
-# PDF
-
-Please check [here](/assets/resume/Zhiwei.Li.Resume.pdf).
+PDF can be found [here](/assets/resume/Zhiwei.Li.Resume.pdf).
 
 ----
 
