@@ -3,6 +3,10 @@ layout: post
 title:  "Things & Places"
 ---
 
+### Chinese Translation
+
+Please check [here](/things-places-cn).
+
 ### Things
 
 House: 120 Square Meters House in Guangzhou
@@ -30,8 +34,3 @@ USA: San Francisco, Los Angeles, San Jose, Bay Area, New York, Niagara Falls, La
 China: Beijing, Xinjiang, Chongqing, Tianjin, Yunnan, Lanzhou, Inner Mongolia, Guangdong, Hangzhou, Shanghai, Beihai, Xian, etc, a lot of places or cities besides Tibet or the northeast part of China
 
 Special Administrative Regions of China: Hong Kong, Macao
-
-### Chinese Translation
-
-Please check [here](/things-places-cn).
-
