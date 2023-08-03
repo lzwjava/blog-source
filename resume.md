@@ -3,7 +3,7 @@ layout: post
 title:  "Resume"
 ---
 
-# Note
+## Note
 
 The Chinese translation can be found [here](/resume-zh).
 
