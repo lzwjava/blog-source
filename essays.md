@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Best Essays"
+---
+
 ## Best Essays
 
 * [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
