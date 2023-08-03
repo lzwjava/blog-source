@@ -14,4 +14,9 @@ bundle exec jekyll serve
 bundle add webrick
 
 jekyll serve
+
+# others
+rougify style github > assets/css/syntax.css
+
+
 ```
