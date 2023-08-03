@@ -124,44 +124,66 @@ class Llama:
             params = json.loads(f.read())
 ```
 
-ChatGPT: This is a Python class named `Llama`, which seems to be used for building a language model based on some checkpoints. Let's break down the code step by step:
+Run the command and then get the error log.
 
-1. `@staticmethod`: This is a decorator in Python used to define a static method in a class. Static methods are associated with the class rather than instances of the class, and they don't have access to the instance-specific data.
+```shell
+% torchrun --nproc_per_node 1 example_text_completion.py \
+    --ckpt_dir llama-2-7b/ \
+    --tokenizer_path tokenizer.model \
+    --max_seq_len 128 --max_batch_size 4
+NOTE: Redirects are currently not supported in Windows or MacOs.
+Traceback (most recent call last):
+  File "/Users/lzwjava/projects/llama/example_text_completion.py", line 55, in <module>
+    fire.Fire(main)
+  File "/Users/lzwjava/anaconda3/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/Users/lzwjava/anaconda3/lib/python3.10/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/Users/lzwjava/anaconda3/lib/python3.10/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/Users/lzwjava/projects/llama/example_text_completion.py", line 18, in main
+    generator = Llama.build(
+  File "/Users/lzwjava/projects/llama/llama/generation.py", line 62, in build
+    torch.distributed.init_process_group("nccl")
+  File "/Users/lzwjava/anaconda3/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py", line 907, in init_process_group
+    default_pg = _new_process_group_helper(
+  File "/Users/lzwjava/anaconda3/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py", line 1013, in _new_process_group_helper
+    raise RuntimeError("Distributed package doesn't have NCCL " "built in")
+RuntimeError: Distributed package doesn't have NCCL built in
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 1) local_rank: 0 (pid: 23273) of binary: /Users/lzwjava/anaconda3/bin/python
 
-2. `def build(...) -> "Llama":` This is a static method named `build`, which takes several parameters and returns an instance of the `Llama` class.
+Traceback (most recent call last):
+  File "/Users/lzwjava/anaconda3/bin/torchrun", line 33, in <module>
+    sys.exit(load_entry_point('torch==2.0.1', 'console_scripts', 'torchrun')())
+  File "/Users/lzwjava/anaconda3/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 346, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/lzwjava/anaconda3/lib/python3.10/site-packages/torch/distributed/run.py", line 794, in main
+    run(args)
+  File "/Users/lzwjava/anaconda3/lib/python3.10/site-packages/torch/distributed/run.py", line 785, in run
+    elastic_launch(
+  File "/Users/lzwjava/anaconda3/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/Users/lzwjava/anaconda3/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 250, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError:
+============================================================
+example_text_completion.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2023-08-03_15:35:37
+  host      : 1.0.0.127.in-addr.arpa
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 23273)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+```
 
-3. Parameters:
-   - `ckpt_dir: str`: A string representing the directory where checkpoints are stored.
-   - `tokenizer_path: str`: A string representing the path to the tokenizer used for the language model.
-   - `max_seq_len: int`: An integer specifying the maximum sequence length for tokenization.
-   - `max_batch_size: int`: An integer specifying the maximum batch size for processing.
-   - `model_parallel_size: Optional[int] = None`: An optional integer specifying the size of model parallelism. If not provided, it will default to `None`.
+Learn the error stack trace.
 
-4. Inside the `build` method, there are several steps:
-
-   - It first checks if the torch distributed package is initialized. If not, it initializes the process group using the "nccl" backend. This is often used for multi-GPU training in PyTorch.
-
-   - It checks if model parallelism is initialized. If not, it initializes model parallelism with a specified `model_parallel_size`. The model parallelism is a technique to split a large model across multiple GPUs to fit it into memory.
-
-   - It retrieves the local rank from the environment variable "LOCAL_RANK". The local rank is the rank of the current process among processes running on the same node.
-
-   - It sets the CUDA device to the one corresponding to the local rank.
-
-   - It sets the random seed to 1 using `torch.manual_seed(1)`.
-
-   - If the local rank is greater than 0 (i.e., not the main process), it redirects the standard output to `os.devnull`, effectively suppressing any print statements.
-
-   - It reads the list of checkpoint files (ending with ".pth") from the `ckpt_dir` and sorts them.
-
-   - It asserts that there is at least one checkpoint file in the directory and that the number of checkpoints matches the specified `model_parallel_size`.
-
-   - It selects the checkpoint corresponding to the current model parallel rank.
-
-   - It loads the checkpoint using `torch.load()` and maps the checkpoint to the CPU using `map_location="cpu"`.
-
-   - It reads the content of the "params.json" file from the checkpoint directory and parses it as a JSON object. This likely contains some additional configuration parameters used during training.
-
-It seems that the `Llama` class is designed to handle distributed training and model parallelism for building a language model, likely using PyTorch. However, there are some functions and variables used in this code that are not shown, like `model_parallel_is_initialized()`, `initialize_model_parallel()`, `get_model_parallel_rank()`, and `torch.distributed`. To fully understand the entire functionality and usage of this class, we would need to see the rest of the code.
-
----
+Ask ChatGPT about what Backend.NCCL means in Pytorch? 
 
