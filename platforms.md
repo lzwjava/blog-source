@@ -1,4 +1,4 @@
-|code|social|video|
+|Code|Social|Video|
 |-----|-----|-----|
 | [GitHub](https://github.com/lzwjava)|[Weibo](https://weibo.com/zhiweilee)|[Douyin](https://v.douyin.com/iKAw9YC) |
 | [Codeforces](https://codeforces.com/profile/lzwjava)|[Twitter](https://twitter.com/lzwjava)|  [TikTok](https://www.tiktok.com/@jamesleecool) |
