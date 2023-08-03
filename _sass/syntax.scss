@@ -3,147 +3,148 @@
         td {
             padding: 5px;
         }
-    }
 
-    table pre {
-        margin: 0;
+        pre {
+            margin: 0;
+        }
     }
 
     &,
-    & .w {
-        color: #fbf1c7;
-        background-color: #282828;
+    .w {
+        color: #c9d1d9;
+        background-color: #161b22;
     }
 
-    & .err {
-        color: #fb4934;
-        background-color: #282828;
+    .k,
+    .kd,
+    .kn,
+    .kp,
+    .kr,
+    .kt,
+    .kv {
+        color: #ff7b72;
+    }
+
+    .gr {
+        color: #f0f6fc;
+    }
+
+    .gd {
+        color: #ffdcd7;
+        background-color: #67060c;
+    }
+
+    .nb,
+    .nc,
+    .no,
+    .nn {
+        color: #ffa657;
+    }
+
+    .sr,
+    .na,
+    .nt {
+        color: #7ee787;
+    }
+
+    .gi {
+        color: #aff5b4;
+        background-color: #033a16;
+    }
+
+    .kc {
+        color: #79c0ff;
+    }
+
+    .l,
+    .ld,
+    .m,
+    .mb,
+    .mf,
+    .mh,
+    .mi,
+    .il,
+    .mo,
+    .mx {
+        color: #79c0ff;
+    }
+
+    .sb,
+    .bp,
+    .ne,
+    .nl,
+    .py,
+    .nv,
+    .vc,
+    .vg,
+    .vi,
+    .vm {
+        color: #79c0ff;
+    }
+
+    .o,
+    .ow {
+        color: #79c0ff;
+    }
+
+    .gh,
+    .gu {
+        color: #1f6feb;
         font-weight: bold;
     }
 
-    & .c,
-    & .ch,
-    & .cd,
-    & .cm,
-    & .cpf,
-    & .c1,
-    & .cs {
-        color: #928374;
+    .s,
+    .sa,
+    .sc,
+    .dl,
+    .sd,
+    .s2,
+    .se,
+    .sh,
+    .sx,
+    .s1,
+    .ss {
+        color: #a5d6ff;
+    }
+
+    .nd,
+    .nf,
+    .fm {
+        color: #d2a8ff;
+    }
+
+    .err {
+        color: #f0f6fc;
+        background-color: #8e1519;
+    }
+
+    .c,
+    .ch,
+    .cd,
+    .cm,
+    .cp,
+    .cpf,
+    .c1,
+    .cs,
+    .gl,
+    .gt,
+    .ni,
+    .si {
+        color: #8b949e;
+    }
+
+    .ge {
+        color: #c9d1d9;
         font-style: italic;
     }
 
-    & .cp {
-        color: #8ec07c;
-    }
-
-    & .nt {
-        color: #fb4934;
-    }
-
-    & .o,
-    & .ow {
-        color: #fbf1c7;
-    }
-
-    & .p,
-    & .pi {
-        color: #fbf1c7;
-    }
-
-    & .gi {
-        color: #b8bb26;
-        background-color: #282828;
-    }
-
-    & .gd {
-        color: #fb4934;
-        background-color: #282828;
-    }
-
-    & .gh {
-        color: #b8bb26;
+    .gs {
+        color: #c9d1d9;
         font-weight: bold;
     }
 
-    & .k,
-    & .kn,
-    & .kp,
-    & .kr,
-    & .kv {
-        color: #fb4934;
+    .p .n {
+        color: #fff;
     }
 
-    & .kc {
-        color: #d3869b;
-    }
-
-    & .kt {
-        color: #fabd2f;
-    }
-
-    & .kd {
-        color: #fe8019;
-    }
-
-    & .s,
-    & .sb,
-    & .sc,
-    & .dl,
-    & .sd,
-    & .s2,
-    & .sh,
-    & .sx,
-    & .s1 {
-        color: #b8bb26;
-        font-style: italic;
-    }
-
-    & .si {
-        color: #b8bb26;
-        font-style: italic;
-    }
-
-    & .sr {
-        color: #b8bb26;
-        font-style: italic;
-    }
-
-    & .sa {
-        color: #fb4934;
-    }
-
-    & .se {
-        color: #fe8019;
-    }
-
-    & .nn {
-        color: #8ec07c;
-    }
-
-    & .nc {
-        color: #8ec07c;
-    }
-
-    & .no {
-        color: #d3869b;
-    }
-
-    & .na {
-        color: #b8bb26;
-    }
-
-    & .m,
-    & .mb,
-    & .mf,
-    & .mh,
-    & .mi,
-    & .il,
-    & .mo,
-    & .mx {
-        color: #d3869b;
-    }
-
-    & .ss {
-        color: #83a598;
-    }
 }
