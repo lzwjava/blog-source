@@ -31,3 +31,7 @@ China: Beijing, Xinjiang, Chongqing, Tianjin, Yunnan, Lanzhou, Inner Mongolia, G
 
 Special Administrative Regions of China: Hong Kong, Macao
 
+### Chinese Translation
+
+Please check [here](/things-places-cn).
+
