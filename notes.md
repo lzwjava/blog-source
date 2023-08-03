@@ -7,6 +7,8 @@ title:  "Notes"
 
 Some cover photos are from Unsplash.
 
+一些封面照片来自Unsplash网站。
+
 ## Information Sensitivity
 
 I mentioned friends in the essays to say some things. Most of the behaviors or speaking I mentioned are public messages on the Internet, from the blogs or public social media platforms of my friends. Some are private. But actually, I have observed that on the Internet too. So I have my right to say so publicly. And most of these messages are positive or neutral. And for the negative messages, actually, I want to point out the problem for making things better.
