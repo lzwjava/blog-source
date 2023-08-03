@@ -31,9 +31,9 @@ $main-bg-color: #4a4a4d;
     color: $section-headings-color;
   }
 
-  // pre {
-  //   background-color: #c2c2c2;
-  // }
+  pre {
+    background-color: $main-bg-color;
+  }
 
 }
 
