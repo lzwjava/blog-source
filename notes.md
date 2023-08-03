@@ -3,6 +3,12 @@ layout: post
 title:  "Notes"
 ---
 
+## Translation
+
+I normally write essays using one language. And then I use ChatGPT or DeepL to translate them into other languages.
+
+So for the essays after 2022.09, I mainly use English to write. And for the essays before 2022.09, I mainly used Chinese to write.
+
 ## Cover Photos
 
 Some cover photos are from Unsplash.
