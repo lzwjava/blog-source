@@ -209,4 +209,12 @@ CPU，英特尔酷睿i9-13900KF（最新一代）游戏台式机处理器24核�
 
 机械硬盘，西部数据2TB WD Blue PC内部硬盘 - 7200 RPM类，SATA 6 Gb/s，256 MB缓存，3.5英寸 - WD20EZBX，428元人民币
 
-内存，科赛尔VENGEANCE DDR5内
+RAM，CORSAIR VENGEANCE DDR5内存32GB（2x16GB）5600MHz CL36 Intel XMP iCUE兼容计算机内存 - 黑色（CMK32GX5M2B5600C36），728元人民币
+
+散热器，Thermalright Frozen Prism 240 白色ARGB AIO水冷散热器，液冷CPU散热器，2×120mm PWM风扇水冷系统，1850RPM高速，支持AMD/AM4/AM5和Intel LGA1150/1151/1200/2011/1700，413元人民币
+
+电源，Thermaltake Toughpower GF1 650W 80+金牌SLI/CrossFire Ready超静音140mm液压轴承智能零风扇全模块电源，10年质保PS-TPD-0650FNFAGU-1，449元人民币
+
+机箱，Aigo Yogo M2，159元人民币
+
+这只是我根据我目前所知和我的预算做出的最终决定，请您也进行自己的研究。
