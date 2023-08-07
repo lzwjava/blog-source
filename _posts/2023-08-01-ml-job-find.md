@@ -20,15 +20,6 @@ Short Introdution to the HRs.
 有1年业余的机器学习经验，熟悉手写数字识别的神经网络代码。        
 有几篇双语机器学习文章，请查看网址：https://lzwjava.github.io        
 在ChatGPT的帮助下发送这条消息。   
-
-我完成的人工智能相关工作如下：
-
-1. 实现了书籍《神经网络与深度学习》中一个示例的一半复现代码，请查看https://github.com/lzwjava/neural-networks-and-zhiwei-learning。
-2. 写了一些关于人工智能学习的文章。《禅与机器学习的艺术》(Zen and the Art of Machine Learning)，链接：https://lzwjava.github.io/zen-neural。《我终于理解了神经网络的工作原理》(I Finally Understand How Neural Network Works)，链接：https://lzwjava.github.io/neural-network。
-3. 在我的笔记本电脑上进行了一些LLM（机器学习）和神经网络的训练。阅读了大约10篇机器学习论文，并学习了一些代码。
-4. 反复听了很多Andrew Ng和OpenAI创始人John Schulman的讲座。
-5. 正在组装一台使用Nvidia GPU并支持CUDA编程的深度学习计算机。
-6. 浏览了Facebook llama项目的部分源代码。
         
         
 Hi, I want to work with you.        
@@ -44,7 +35,21 @@ Worked with HSBC and DBS Bank, familiar with big companies.
 Fluent in Mandarin, English, and Cantonese; IELTS 6, basic Japanese.        
 1-year amateur machine learning experience, know handwriting recognition neural network code.        
 Check my bilingual machine learning articles: https://lzwjava.github.io        
-Sent with ChatGPT's help.        
+Sent with ChatGPT's help.      
+
+----
+
+嗨，对职位感兴趣，希望能有机会合作。
+
+我完成的人工智能相关工作如下：
+
+1. 实现了书籍《神经网络与深度学习》中一个示例的一半复现代码，请查看https://github.com/lzwjava/neural-networks-and-zhiwei-learning。
+2. 写了一些关于人工智能学习的文章。《禅与机器学习的艺术》(Zen and the Art of Machine Learning)，链接：https://lzwjava.github.io/zen-neural。《我终于理解了神经网络的工作原理》(I Finally Understand How Neural Network Works)，链接：https://lzwjava.github.io/neural-network。
+3. 在我的笔记本电脑上进行了一些LLM（机器学习）和神经网络的训练。阅读了大约10篇机器学习论文，并学习了一些代码。
+4. 反复听了很多Andrew Ng和OpenAI创始人John Schulman的讲座。
+5. 正在组装一台使用Nvidia GPU并支持CUDA编程的深度学习计算机。
+6. 浏览了Facebook llama项目的部分源代码。
+
 
 AI works I have done:
 
@@ -53,5 +58,5 @@ AI works I have done:
 3. Did some LLM training and Neural Network training on my laptop. Read around 10 machine learning papers and walked through some codes.
 4. Listen to a lot of lectures from Andrew Ng and OpenAI Cofounder John Schulman.
 5. Making a deep learning computer that uses Nvidia GPU and supports CUDA programming.
-6. Read the source code of Facebook llama project a bit. 
+6. Read the source code of the Facebook llama project a bit. 
 
