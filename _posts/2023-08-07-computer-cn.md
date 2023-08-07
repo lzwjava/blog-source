@@ -5,7 +5,7 @@ title: "如何在2023年组建一台深度学习电脑"
        
 原则：
 
-* 全球比较，如JD.com，Rakuten Japan，Amazon USA
+* 全球比较，如JD.com中国，Rakuten Japan，Amazon USA
 * Amazon有很好的比较表，可以比较同一系列的产品
 * 找到最好的学习资料，查看负面评价
 * 重点关注两个昂贵的物品，CPU和GPU
