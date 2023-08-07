@@ -220,4 +220,8 @@ RAM，CORSAIR VENGEANCE DDR5内存32GB（2x16GB）5600MHz CL36 Intel XMP iCUE兼
 
 机箱，Aigo Yogo M2，159元人民币
 
+鼠标、键盘、显示器：这些我在家里已经有额外的了。
+
+总计：13773 人民币。
+
 这只是我根据我目前所知和我的预算做出的最终决定，请您也进行自己的研究。
