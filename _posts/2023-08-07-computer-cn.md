@@ -1,6 +1,6 @@
 ---                     
 layout: post                     
-title: "Deep Learning Computer - Draft"                
+title: "如何在2023年组建一台深度学习电脑"
 ---            
        
 原则：
