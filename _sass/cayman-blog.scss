@@ -15,6 +15,7 @@ $date-color: #968576;
   }
 }
 
+
 .main-content {
 
   @include large {
@@ -122,7 +123,7 @@ ul.post-list li::before {
   }
 
   a {
-    color: $section-headings-color;
+    color: #c3b19b;
   }
 }
 
