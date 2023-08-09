@@ -19,8 +19,9 @@ Short Introdution to the HRs.
 普通话、英语、粤语流利；雅思6分，日语初级水平。
 有1年业余的机器学习经验，熟悉手写数字识别的神经网络代码。
 有1年大数据开发经验，掌握Python和Spark等工具。
-        
-        
+
+---
+             
 Hi, I want to work with you.        
         
 I am a genius who believes everyone is one.        
@@ -34,6 +35,8 @@ Worked with HSBC and DBS Bank, familiar with big companies.
 Fluent in Mandarin, English, and Cantonese; IELTS 6, basic Japanese.        
 1-year amateur machine learning experience, know handwriting recognition neural network code.        
 Has 1 year of experience in big data development, proficient in tools such as Python and Spark.
+
+---
 
 Boss Zhipin
 
