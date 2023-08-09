@@ -117,15 +117,6 @@ title:  "Resume"
 * LeanCloud SDK & LeanChat, iOS & Android, 2014.07 - 2015.11
 * 详情请见工作经历部分。
 
-### 链接
-
-* [GitHub](https://github.com/lzwjava)
-* [博客](https://lzwjava.github.io)
-* [Codeforces](https://codeforces.com/profile/lzwjava)
-* [UVa在线裁判](https://uhunt.onlinejudge.org/id/113519)
-* [LinkedIn](https://www.linkedin.com/in/lzwjava)
-* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
-
 ### 文章
 
 * [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
@@ -136,6 +127,15 @@ title:  "Resume"
 * [Think Totally Different](https://lzwjava.github.io/totally-different)
 * [Genius Zhiwei decides to move his full focus to machine learning](https://lzwjava.github.io/ml-job)
 * [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
+
+### 链接
+
+* [GitHub](https://github.com/lzwjava)
+* [博客](https://lzwjava.github.io)
+* [Codeforces](https://codeforces.com/profile/lzwjava)
+* [UVa在线裁判](https://uhunt.onlinejudge.org/id/113519)
+* [LinkedIn](https://www.linkedin.com/in/lzwjava)
+* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
 
 ## 期望
 
