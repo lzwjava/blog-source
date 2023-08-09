@@ -9,6 +9,14 @@ title:  "Resume"
 
 ----
 
+
+## 个人简介
+
+* 我是个天才。因为我相信每个人都是天才。具体来说，我是一位工程师、创业者、博主，也是一个终生学习者。我的使命是为人类做实验。
+* 在我28年的生活中，我有很多优秀的记录。我在广州中考中排名前300名，位列十万名学生之列。在我上高中时，我在广东省的NOIP（省级信息学奥赛）中排名前300名。在北京林业大学（中国3000所大学中排名前100的大学）的第一学年结束后，我选择了辍学，在一家创业公司工作，然后创建了我自己的公司。在创业行业的三年中，我建设了一个为30000名用户服务的工程直播平台，带领团队一年时间左右完成50个小型软件项目，创造了300万人民币的收入。在上一份工作，我在世界上最大的银行和金融服务机构之一，汇丰银行，以合同工的身份工作。
+* 在技术经验方面，我有6年的后端工程经验（4年Java，2年PHP）。我也做了一些为用户服务的Android，iOS和前端项目。我英语流利，雅思考试得分6分。在LeetCode类似的网站上，我也解决了超过1000个算法问题。在创业时，我也有DevOps的经验。近年来，我在空闲时间积极学习人工智能和日语，以提高我的智力边界。
+* 因为我善良诚实的性格，我是一个随和、可靠、快乐的人，与人相处融洽。
+
 ## 技能
 
 自从我在2008年开始编程以来，我已经获得了很多技能。让我们从高级别看看我的技能。
@@ -32,33 +40,6 @@ title:  "Resume"
 * 云工具：GitHub，GitLab，Jira，Confluence，Cloudflare，Digital Ocean，Vultr，AWS，Azure，阿里云，Pivotal Cloud Foundry
 * 测试：Postman，Selenium，Karate，JUnit，Mockito，Apache JMeter, Apache ab
 * 其他：FFmpeg，Spark，代理工具
-
-## 个人简介
-
-* 我是个天才。因为我相信每个人都是天才。具体来说，我是一位工程师、创业者、博主，也是一个终生学习者。我的使命是为人类做实验。
-* 在我28年的生活中，我有很多优秀的记录。我在广州中考中排名前300名，位列十万名学生之列。在我上高中时，我在广东省的NOIP（省级信息学奥赛）中排名前300名。在北京林业大学（中国3000所大学中排名前100的大学）的第一学年结束后，我选择了辍学，在一家创业公司工作，然后创建了我自己的公司。在创业行业的三年中，我建设了一个为30000名用户服务的工程直播平台，带领团队一年时间左右完成50个小型软件项目，创造了300万人民币的收入。在上一份工作，我在世界上最大的银行和金融服务机构之一，汇丰银行，以合同工的身份工作。
-* 在技术经验方面，我有6年的后端工程经验（4年Java，2年PHP）。我也做了一些为用户服务的Android，iOS和前端项目。我英语流利，雅思考试得分6分。在LeetCode类似的网站上，我也解决了超过1000个算法问题。在创业时，我也有DevOps的经验。近年来，我在空闲时间积极学习人工智能和日语，以提高我的智力边界。
-* 因为我善良诚实的性格，我是一个随和、可靠、快乐的人，与人相处融洽。
-
-## 链接
-
-* [GitHub](https://github.com/lzwjava)
-* [博客](https://lzwjava.github.io)
-* [Codeforces](https://codeforces.com/profile/lzwjava)
-* [UVa在线裁判](https://uhunt.onlinejudge.org/id/113519)
-* [LinkedIn](https://www.linkedin.com/in/lzwjava)
-* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
-
-## 文章
-
-* [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
-* [The Next Generation Should Experience All of These Wonderful Things and Places](https://lzwjava.github.io/things)
-* [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
-* [Zen and the Art of Machine Learning](https://lzwjava.github.io/zen-neural)
-* [The 10x AGI Information World](https://lzwjava.github.io/agi)
-* [Think Totally Different](https://lzwjava.github.io/totally-different)
-* [Genius Zhiwei decides to move his full focus to machine learning](https://lzwjava.github.io/ml-job)
-* [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
 
 ## 工作经历
 
@@ -126,6 +107,26 @@ title:  "Resume"
 * 趣直播 & 平方根科技客户项目, PHP & Java & Vue, 2016.07 - 2019.12
 * LeanCloud SDK & LeanChat, iOS & Android, 2014.07 - 2015.11
 * 详情请见工作经历部分。
+
+## 链接
+
+* [GitHub](https://github.com/lzwjava)
+* [博客](https://lzwjava.github.io)
+* [Codeforces](https://codeforces.com/profile/lzwjava)
+* [UVa在线裁判](https://uhunt.onlinejudge.org/id/113519)
+* [LinkedIn](https://www.linkedin.com/in/lzwjava)
+* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
+
+## 文章
+
+* [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
+* [The Next Generation Should Experience All of These Wonderful Things and Places](https://lzwjava.github.io/things)
+* [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
+* [Zen and the Art of Machine Learning](https://lzwjava.github.io/zen-neural)
+* [The 10x AGI Information World](https://lzwjava.github.io/agi)
+* [Think Totally Different](https://lzwjava.github.io/totally-different)
+* [Genius Zhiwei decides to move his full focus to machine learning](https://lzwjava.github.io/ml-job)
+* [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
 
 ## 期望
 

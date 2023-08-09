@@ -88,7 +88,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 ## Projects
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
-* Some replication code of the project from the book Neural Networks and Deep Learning, a simple neural network to recognize hand-written digits
+* Some reproduced code of the project from the book Neural Networks and Deep Learning, a simple neural network to recognize hand-written digits
 * An example microservice project with unit tests, about users, users' roles and their relationship, https://github.com/lzwjava/user-service
 * An iOS chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-ios
 * An Android chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-android
