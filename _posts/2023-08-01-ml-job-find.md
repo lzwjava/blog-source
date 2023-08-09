@@ -75,3 +75,5 @@ AI works I have done:
 5. Making a deep learning computer that uses Nvidia GPU and supports CUDA programming.
 6. Read the source code of the Facebook llama project a bit. 
 
+---
+
