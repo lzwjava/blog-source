@@ -119,15 +119,6 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * LeanChat, iOS & Android, 2014.07 - 2015.10
 * The detail can be found above.
 
-### Links
-
-* [GitHub](https://github.com/lzwjava)
-* [Blog](https://lzwjava.github.io)
-* [Codeforces](https://codeforces.com/profile/lzwjava)
-* [UVa Online Judge](https://uhunt.onlinejudge.org/id/113519)
-* [LinkedIn](https://www.linkedin.com/in/lzwjava)
-* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
-
 ### Articles
 
 * [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
@@ -138,6 +129,15 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * [Think Totally Different](https://lzwjava.github.io/totally-different)
 * [Genius Zhiwei decides to move his full focus to machine learning](https://lzwjava.github.io/ml-job)
 * [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
+
+### Links
+
+* [GitHub](https://github.com/lzwjava)
+* [Blog](https://lzwjava.github.io)
+* [Codeforces](https://codeforces.com/profile/lzwjava)
+* [UVa Online Judge](https://uhunt.onlinejudge.org/id/113519)
+* [LinkedIn](https://www.linkedin.com/in/lzwjava)
+* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
 
 ## Expectation
 
