@@ -17,9 +17,7 @@ Short Introdution to the HRs.
 最擅长后端开发，拥有6年经验。        
 曾外派到汇丰银行和星展银行，拥有大公司经验。        
 普通话、英语、粤语流利；雅思6分，日语初级水平。
-有1年业余的机器学习经验，熟悉手写数字识别的神经网络代码。        
-有几篇双语机器学习文章，请查看网址：https://lzwjava.github.io        
-在ChatGPT的帮助下发送这条消息。   
+有1年业余的机器学习经验，熟悉手写数字识别的神经网络代码。
         
         
 Hi, I want to work with you.        
@@ -34,8 +32,7 @@ Best at the backend with 6 years of experience.
 Worked with HSBC and DBS Bank, familiar with big companies.        
 Fluent in Mandarin, English, and Cantonese; IELTS 6, basic Japanese.        
 1-year amateur machine learning experience, know handwriting recognition neural network code.        
-Check my bilingual machine learning articles: https://lzwjava.github.io        
-Sent with ChatGPT's help.      
+
 
 ----
 
