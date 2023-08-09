@@ -118,7 +118,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * LeanChat, iOS & Android, 2014.07 - 2015.10
 * The detail can be found above.
 
-## Links
+### Links
 
 * [GitHub](https://github.com/lzwjava)
 * [Blog](https://lzwjava.github.io)
@@ -127,7 +127,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * [LinkedIn](https://www.linkedin.com/in/lzwjava)
 * [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
 
-## Articles
+### Articles
 
 * [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
 * [The Next Generation Should Experience All of These Wonderful Things and Places](https://lzwjava.github.io/things)
