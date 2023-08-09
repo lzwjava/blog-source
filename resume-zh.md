@@ -116,7 +116,7 @@ title:  "Resume"
 * LeanCloud SDK & LeanChat, iOS & Android, 2014.07 - 2015.11
 * 详情请见工作经历部分。
 
-## 链接
+### 链接
 
 * [GitHub](https://github.com/lzwjava)
 * [博客](https://lzwjava.github.io)
@@ -125,7 +125,7 @@ title:  "Resume"
 * [LinkedIn](https://www.linkedin.com/in/lzwjava)
 * [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
 
-## 文章
+### 文章
 
 * [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
 * [The Next Generation Should Experience All of These Wonderful Things and Places](https://lzwjava.github.io/things)
