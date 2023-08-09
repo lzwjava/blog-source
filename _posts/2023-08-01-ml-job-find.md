@@ -35,6 +35,19 @@ Fluent in Mandarin, English, and Cantonese; IELTS 6, basic Japanese.
 1-year amateur machine learning experience, know handwriting recognition neural network code.        
 Has 1 year of experience in big data development, proficient in tools such as Python and Spark.
 
+Boss Zhipin
+
+我是一名天才，因为我相信每个人都是天才。        
+我出生于1995年，今年28岁。        
+信息学竞赛中省级前300名。        
+就读于北京林业大学一年。        
+退学先在创业公司工作，后来自己创业三年。        
+熟练Android、iOS、前后端开发。        
+最擅长后端开发，拥有6年经验。        
+曾外派到汇丰银行和星展银行工作两年。        
+普通话、英语、粤语流利；雅思6分。
+有1年业余的机器学习经验，熟悉神经网络代码。
+
 
 ----
 
