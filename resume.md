@@ -11,6 +11,13 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ----
 
+## Profiles
+
+* I am a genius. Because I believe everyone is a genius. To be specific, I am an engineer, startup founder, blogger, and lifelong learner. My mission is to do experiments for humans.
+* I had tracks of excellence in my 28 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 universities in China), I dropped out to work in a startup and then create my one. Over three years in the startup industry, I constructed an engineering live broadcast platform that served 30,000 users and led a team to complete 50 small software projects around a year, generating an annual revenue of 3 million CNY. In my last job, I worked as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
+* Regarding technical experience, I have 6 years of backend engineering experience(4 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served users. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. In recent years, I actively learn Artificial Intelligence and Japanese in my leisure time to raise my boundaries of intelligence.
+* Because of my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
+
 ## Skills
 
 I have gained a lot of skills since I started programming in 2008. Let's look at my skills from a high level. 
@@ -19,7 +26,6 @@ I have gained a lot of skills since I started programming in 2008. Let's look at
 * 3 to 4 years of experience: Cantonese, iOS Development, Android Development
 * 1 to 2 years of experience: Product Management, Machine Learning, Frontend Development
 * less than 1 year of experience: Big Data, Japanese
-
 
 ## Tools
 
@@ -36,34 +42,6 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * Cloud Tools: GitHub, GitLab, Jira, Confluence, Cloudflare, Digital Ocean, Vultr, AWS, Azure, Alibaba Cloud, Pivotal Cloud Foundry
 * Test: Postman, Selenium, Karate, JUnit, Mockito, Apache JMeter, Apache ab
 * Others: FFmpeg, Spark, Proxy Tools
-
-
-## Profiles
-
-* I am a genius. Because I believe everyone is a genius. To be specific, I am an engineer, startup founder, blogger, and lifelong learner. My mission is to do experiments for humans.
-* I had tracks of excellence in my 28 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 universities in China), I dropped out to work in a startup and then create my one. Over three years in the startup industry, I constructed an engineering live broadcast platform that served 30,000 users and led a team to complete 50 small software projects around a year, generating an annual revenue of 3 million CNY. In my last job, I worked as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
-* Regarding technical experience, I have 6 years of backend engineering experience(4 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served users. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. In recent years, I actively learn Artificial Intelligence and Japanese in my leisure time to raise my boundaries of intelligence.
-* Because of my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
-
-## Links
-
-* [GitHub](https://github.com/lzwjava)
-* [Blog](https://lzwjava.github.io)
-* [Codeforces](https://codeforces.com/profile/lzwjava)
-* [UVa Online Judge](https://uhunt.onlinejudge.org/id/113519)
-* [LinkedIn](https://www.linkedin.com/in/lzwjava)
-* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
-
-## Articles
-
-* [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
-* [The Next Generation Should Experience All of These Wonderful Things and Places](https://lzwjava.github.io/things)
-* [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
-* [Zen and the Art of Machine Learning](https://lzwjava.github.io/zen-neural)
-* [The 10x AGI Information World](https://lzwjava.github.io/agi)
-* [Think Totally Different](https://lzwjava.github.io/totally-different)
-* [Genius Zhiwei decides to move his full focus to machine learning](https://lzwjava.github.io/ml-job)
-* [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
 
 ## Work Experience
 
@@ -137,6 +115,25 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * LeanChat, iOS & Android, 2014.07 - 2015.10
 * The detail can be found above.
 
+## Links
+
+* [GitHub](https://github.com/lzwjava)
+* [Blog](https://lzwjava.github.io)
+* [Codeforces](https://codeforces.com/profile/lzwjava)
+* [UVa Online Judge](https://uhunt.onlinejudge.org/id/113519)
+* [LinkedIn](https://www.linkedin.com/in/lzwjava)
+* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
+
+## Articles
+
+* [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
+* [The Next Generation Should Experience All of These Wonderful Things and Places](https://lzwjava.github.io/things)
+* [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
+* [Zen and the Art of Machine Learning](https://lzwjava.github.io/zen-neural)
+* [The 10x AGI Information World](https://lzwjava.github.io/agi)
+* [Think Totally Different](https://lzwjava.github.io/totally-different)
+* [Genius Zhiwei decides to move his full focus to machine learning](https://lzwjava.github.io/ml-job)
+* [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
 
 ## Expectation
 
