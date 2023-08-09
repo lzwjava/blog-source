@@ -94,7 +94,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * An Android chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-android
 * A course to teach basic programming and provide some beginner guide with several programming languages like Rust, Python, Java, and C, and discuss the topics like cloud computing and machine learning, https://github.com/lzwjava/curiosity-courses
 * A Simple and Elegant HTML Parser written in Swift, https://github.com/lzwjava/Creak
-* An Xcode plugin to let you jump to the history, blame, and PRs pages of any GitHub repo with one shortcut. https://github.com/lzwjava/Reveal-In-GitHub
+* An Xcode plugin lets you jump to any GitHub repo's history, blame, and PRs pages with one shortcut. https://github.com/lzwjava/Reveal-In-GitHub 
 * Wrote Chinese and English articles (20 English, and 50 Chinese) on my blog site. https://lzwjava.github.io
 * Solved 399 algorithm problems on Codeforces, https://codeforces.com/profile/lzwjava
 * Solved 568 problems on Uva Online Judge, https://uhunt.onlinejudge.org/id/113519
@@ -108,7 +108,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 ### Machine Learning, 2021-03 to Present
 * Spent around one year actively exploring machine learning in my leisure time. Listened to a lot of lectures shared by AI industry leaders on topics like Reinforcement Learning, Supervised Learning, Policy Gradient, Neural Networks, Softmax, Feedforward, Backpropagation, etc. 
 * Wrote some related blogs on my website, such as Zen and the Art of Machine Learning, https://lzwjava.github.io/zen-neura, and   I Finally Understand How Neural Network Works,  https://lzwjava.github.io/neural-network. 
-* Conducted experiments with famous open-source projects, like Faceswap. Did some LLM training and Neural Network training on my laptop. Read the transformer paper and walked through the code. Researching about the LLaMA project from Facebook.
+* Conducted experiments with famous open-source projects, like Faceswap. Did some LLM training and Neural Network training on my laptop. Read the transformer paper and walked through the code. Researching the LLaMA project from Facebook.
 * Built a Deep Learning computer with Nvidia GPU, https://lzwjava.github.io/computer
 
 ### Company Projects
