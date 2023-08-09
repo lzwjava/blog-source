@@ -77,3 +77,26 @@ AI works I have done:
 
 ---
 
+技能
+
+自从我在2008年开始编程以来，我已经获得了很多技能。让我们从高级别看看我的技能。
+
+* 拥有5年或以上经验：中文，英文，写作，Java，算法，测试驱动开发，云计算，DevOps，后端开发
+* 拥有3到4年经验：粤语，iOS开发，Android开发
+* 拥有1到2年经验：产品管理，机器学习，前端开发
+* 拥有少于1年经验：大数据，日语
+
+工具
+
+除了技能，让我们看看我使用过的工具。它们是帮助我积累上述技能的详细工具，以及其他一些有趣的工具。我仍在使用其中的一些，对于其余的工具，我可以花几天时间重新学习使用它们。
+
+* 自然语言：英语，中文，粤语，客家话，日语
+* 操作系统：Linux，Windows，MacOS，Android，iOS，OpenWRT，Symbian，Apple tvOS，Fire OS
+* 语言：PHP，Java，Objective-C，Swift，Ruby，HTML，C，C++，JavaScript，Lisp，Clojure，TypeScript，JSON，CSS，Node.js，Go，SQL，NoSQL，Python，Pascal
+* 框架与数据库：jQuery，Hexo，Jekyll，React，MongoDB，PostgreSQL，Microsoft SQL Server，Stylus，Sass，MySQL，Redis，Kafka，RTMP streaming，HTTP/IP, Spring，Hibernate，Netty
+* 数学：微积分，线性代数，Latex
+* 开发工具：NPM，Webpack，Git，Travis CI，HomeBrew，Gradle，Maven，Xcode，VSCode，Sketch，Powershell，IntelliJ IDEA，Cocopods，Android Studio，Jenkins，SonarQube，WordPress，Nginx，ChatGPT，Elasticsearch，Docker
+* 机器学习：TensorFlow，PyTorch，Theano，Anaconda，Jupyter Notebook
+* 云工具：GitHub，GitLab，Jira，Confluence，Cloudflare，Digital Ocean，Vultr，AWS，Azure，阿里云，Pivotal Cloud Foundry
+* 测试：Postman，Selenium，Karate，JUnit，Mockito，Apache JMeter, Apache ab
+* 其他：FFmpeg，Spark，代理工具
