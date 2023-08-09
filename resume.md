@@ -98,6 +98,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * Wrote Chinese and English articles (20 English, and 50 Chinese) on my blog site. https://lzwjava.github.io
 * Solved 399 algorithm problems on Codeforces, https://codeforces.com/profile/lzwjava
 * Solved 568 problems on Uva Online Judge, https://uhunt.onlinejudge.org/id/113519
+* Around 50 Short Videos about early childhood education, language study, aerial photography, learning skills and ChatGPT. Please check the Platform Douyin, https://v.douyin.com/iKAw9Y or Youtube https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ
 
 ### English Learning, 2013-09 to Present
 * Spent leisure time of 3 years actively learning English using TikTok, Youtube, Netflix, Kindle, etc. 

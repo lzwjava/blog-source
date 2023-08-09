@@ -96,6 +96,7 @@ title:  "Resume"
 * 在我的博客站点上撰写了中英文文章（20篇英文，50篇中文），博客链接：https://lzwjava.github.io
 * 在Codeforces上解决了399道算法问题，个人主页链接：https://codeforces.com/profile/lzwjava
 * 在Uva Online Judge上解决了568道问题，个人主页链接：https://uhunt.onlinejudge.org/id/113519
+* 大约50个关于早期儿童教育、语言学习、航拍摄影、学习技能和ChatGPT的短视频。请查看抖音平台，https://v.douyin.com/iKAw9Y 或YouTube https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ。
 
 ### 英语学习, 2013-09 至今
 * 在3年的业余时间中，我积极使用TikTok，Youtube，Netflix，Kindle等学习英语。
