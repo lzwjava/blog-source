@@ -106,7 +106,9 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 
 ### Machine Learning, 2021-03 to Present
 * Spent around one year actively exploring machine learning in my leisure time. Listened to a lot of lectures shared by AI industry leaders on topics like Reinforcement Learning, Supervised Learning, Policy Gradient, Neural Networks, Softmax, Feedforward, Backpropagation, etc. 
-* Wrote some related blogs on my website, such as https://lzwjava.github.io/neural-network, and conducted experiments with famous open-source projects. 
+* Wrote some related blogs on my website, such as Zen and the Art of Machine Learning, https://lzwjava.github.io/zen-neura, and   I Finally Understand How Neural Network Works,  https://lzwjava.github.io/neural-network. 
+* Conducted experiments with famous open-source projects, like Faceswap. Did some LLM training and Neural Network training on my laptop. Read the transformer paper and walked through the code. Researching about the LLaMA project from Facebook.
+* Built a Deep Learning computer with Nvidia GPU, https://lzwjava.github.io/computer
 
 ### Company Projects
 

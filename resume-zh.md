@@ -103,8 +103,10 @@ title:  "Resume"
 * 在IELTS（国际英语语言测试系统）上获得了6.0分（阅读听力写作6.0，口语5.5）。
 
 ### 机器学习, 2021-03 至今
-* 在我业余时间内，我花了大约一年的时间积极探索机器学习。听了很多AI行业领袖分享的关于强化学习，监督学习，策略梯度，神经网络，Soft Max，前馈，反向传播等主题的讲座。
-* 在我的网站上写了一些相关的博客，例如https://lzwjava.github.io/neural-network，并对一些著名的开源项目进行了实验。
+* 我花了大约一年的业余时间积极探索机器学习。听了很多由AI产业领袖分享的讲座，涉及强化学习、监督学习、策略梯度、神经网络、Softmax、前馈、反向传播等主题。
+* 在我的网站上写了一些相关的博客，例如《禅与机器学习的艺术》，https://lzwjava.github.io/zen-neura，以及《我终于理解了神经网络是如何工作的》，https://lzwjava.github.io/neural-network。
+* 用著名的开源项目进行了实验，比如Faceswap。在我的笔记本电脑上进行了一些LLM训练和神经网络训练。阅读了Transformer论文并浏览了代码。关于Facebook的LLaMA项目进行了研究。
+* 用Nvidia GPU组建了一台深度学习计算机，https://lzwjava.github.io/computer。
 
 ### 公司项目
 
