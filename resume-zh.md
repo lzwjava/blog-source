@@ -86,10 +86,16 @@ title:  "Resume"
 ## 项目
 
 ### 开源、博客、Codeforces, 2013-09 至今
-* 我制作了一些开源项目，比如 Xcode 插件、Chrome 插件和简单的 HTML 解析器。
-* 在我的博客网站上写了一些中英文文章（13篇英文，50篇中文）。
-* 在Codeforces上解决了399个算法问题，在Uva Online Judge上解决了568个问题。
-* 下面是链接。
+* 《神经网络与深度学习》一书中项目的部分复现代码，包括一个用于识别手写数字的简单神经网络。
+* 一个示范微服务项目，附带单元测试，涉及用户、用户角色及其关系，项目链接：https://github.com/lzwjava/user-service
+* 一个展示LeanCloud Chat SDK功能的iOS聊天应用，项目链接：https://github.com/lzwjava/leanchat-ios
+* 一个展示LeanCloud Chat SDK功能的安卓聊天应用，项目链接：https://github.com/lzwjava/leanchat-android
+* 一个课程，旨在教授基本编程，并提供有关多种编程语言（如Rust、Python、Java和C）的入门指南，讨论云计算和机器学习等主题，项目链接：https://github.com/lzwjava/curiosity-courses
+* 一个简单而优雅的Swift HTML解析器，项目链接：https://github.com/lzwjava/Creak
+* 一个Xcode插件，通过一个快捷键可跳转到任何GitHub仓库的历史、责任和PR页面，项目链接：https://github.com/lzwjava/Reveal-In-GitHub
+* 在我的博客站点上撰写了中英文文章（20篇英文，50篇中文），博客链接：https://lzwjava.github.io
+* 在Codeforces上解决了399道算法问题，个人主页链接：https://codeforces.com/profile/lzwjava
+* 在Uva Online Judge上解决了568道问题，个人主页链接：https://uhunt.onlinejudge.org/id/113519
 
 ### 英语学习, 2013-09 至今
 * 在3年的业余时间中，我积极使用TikTok，Youtube，Netflix，Kindle等学习英语。
