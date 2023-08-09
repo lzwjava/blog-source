@@ -63,15 +63,15 @@ title:  "Resume"
 
 ### 开源、博客、Codeforces, 2013-09 至今
 * 《神经网络与深度学习》一书中项目的部分复现代码，包括一个用于识别手写数字的简单神经网络，https://github.com/lzwjava/neural-networks-and-zhiwei-learning
-* 一个示范微服务项目，附带单元测试，涉及用户、用户角色及其关系，项目链接：https://github.com/lzwjava/user-service
-* 一个展示LeanCloud Chat SDK功能的iOS聊天应用，项目链接：https://github.com/lzwjava/leanchat-ios
-* 一个展示LeanCloud Chat SDK功能的安卓聊天应用，项目链接：https://github.com/lzwjava/leanchat-android
-* 一个课程，旨在教授基本编程，并提供有关多种编程语言（如Rust、Python、Java和C）的入门指南，讨论云计算和机器学习等主题，项目链接：https://github.com/lzwjava/curiosity-courses
-* 一个简单而优雅的Swift HTML解析器，项目链接：https://github.com/lzwjava/Creak
-* 一个Xcode插件，通过一个快捷键可跳转到任何GitHub仓库的历史、责任和PR页面，项目链接：https://github.com/lzwjava/Reveal-In-GitHub
-* 在我的博客站点上撰写了中英文文章（20篇英文，50篇中文），博客链接：https://lzwjava.github.io
-* 在Codeforces上解决了399道算法问题，个人主页链接：https://codeforces.com/profile/lzwjava
-* 在Uva Online Judge上解决了568道问题，个人主页链接：https://uhunt.onlinejudge.org/id/113519
+* 一个示范微服务项目，附带单元测试，涉及用户、用户角色及其关系，https://github.com/lzwjava/user-service
+* 一个展示LeanCloud Chat SDK功能的iOS聊天应用，https://github.com/lzwjava/leanchat-ios
+* 一个展示LeanCloud Chat SDK功能的安卓聊天应用，https://github.com/lzwjava/leanchat-android
+* 一个课程，旨在教授基本编程，并提供有关多种编程语言（如Rust、Python、Java和C）的入门指南，讨论云计算和机器学习等主题，https://github.com/lzwjava/curiosity-courses
+* 一个简单而优雅的Swift HTML解析器，https://github.com/lzwjava/Creak
+* 一个Xcode插件，通过一个快捷键可跳转到任何GitHub仓库的历史、责任和PR页面，https://github.com/lzwjava/Reveal-In-GitHub
+* 在我的博客站点上撰写了中英文文章（20篇英文，50篇中文），https://lzwjava.github.io
+* 在Codeforces上解决了399道算法问题，https://codeforces.com/profile/lzwjava
+* 在Uva Online Judge上解决了568道问题，https://uhunt.onlinejudge.org/id/113519
 * 大约50个关于早期儿童教育、语言学习、航拍摄影、学习技能和ChatGPT的短视频。请查看抖音平台，https://v.douyin.com/iKAw9Y 或YouTube https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ
 
 ### 英语学习, 2013-09 至今
