@@ -110,10 +110,15 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 ## Projects
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
-* Made some open-source projects, like the Xcode Plugin, Chrome Plugin, and Simple HTML Parser.
-* Wrote Chinese and English articles (13 English, and 50 Chinese) on my blog site. 
-* Solved 399 algorithm problems on Codeforces and 568 on Uva Online Judge. 
-* Links are below.
+* Some replication code of the project from the book Neural Networks and Deep Learning, a simple neural network to recognize hand-written digits
+* An example microservice project with unit tests, about users, users' roles and their relationship, https://github.com/lzwjava/user-service
+* An iOS chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-ios
+* An Android chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-android
+* A course to teach basic programming and provide some beginner guide with several programming languages like Rust, Python, Java, and C, and discuss the topics like cloud computing and machine learning, https://github.com/lzwjava/curiosity-courses
+* A Simple and Elegant HTML Parser written in Swift, https://github.com/lzwjava/Creak
+* An Xcode plugin to let you jump to the history, blame, and PRs pages of any GitHub repo with one shortcut. https://github.com/lzwjava/Reveal-In-GitHub
+* Wrote Chinese and English articles (20 English, and 50 Chinese) on my blog site. https://lzwjava.github.io
+* Solved 399 algorithm problems on Codeforces, https://codeforces.com/profile/lzwjava, and Solved 568 problems on Uva Online Judge, https://uhunt.onlinejudge.org/id/113519
 
 ### English Learning, 2013-09 to Present
 * Spent leisure time of 3 years actively learning English using TikTok, Youtube, Netflix, Kindle, etc. 
@@ -131,16 +136,6 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * Fun Live & Square Root miscellaneous projects, PHP & Java & Vue, 2016.07 - 2019.12
 * LeanChat, iOS & Android, 2014.07 - 2015.10
 * The detail can be found above.
-
-### Online Projects
-
-* An example microservice project with unit tests, about users, users' roles and their relationship, https://github.com/lzwjava/user-service
-* Some replication code of the project from the book Neural Networks and Deep Learning, a simple neural network to recognize hand-written digits
-* An iOS chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-ios
-* An Android chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-android
-* A course to teach basic programming and provide some beginner guide with several programming languages like Rust, Python, Java, and C, and discuss the topics like cloud computing and machine learning, https://github.com/lzwjava/curiosity-courses
-* A Simple and Elegant HTML Parser written in Swift, https://github.com/lzwjava/Creak
-* An Xcode plugin to let you jump to history, blame, PRs, issues, and notifications pages of any GitHub repo with one shortcut. https://github.com/lzwjava/Reveal-In-GitHub
 
 
 ## Expectation
