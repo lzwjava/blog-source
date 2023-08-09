@@ -17,30 +17,6 @@ title:  "Resume"
 * 在技术经验方面，我有6年的后端工程经验（4年Java，2年PHP）。我也做了一些为用户服务的Android，iOS和前端项目。我英语流利，雅思考试得分6分。在LeetCode类似的网站上，我也解决了超过1000个算法问题。在创业时，我也有DevOps的经验。近年来，我在空闲时间积极学习人工智能和日语，以提高我的智力边界。
 * 因为我善良诚实的性格，我是一个随和、可靠、快乐的人，与人相处融洽。
 
-## 技能
-
-自从我在2008年开始编程以来，我已经获得了很多技能。让我们从高级别看看我的技能。
-
-* 拥有5年或以上经验：中文，英文，写作，Java，算法，测试驱动开发，云计算，DevOps，后端开发
-* 拥有3到4年经验：粤语，iOS开发，Android开发
-* 拥有1到2年经验：产品管理，机器学习，前端开发
-* 拥有少于1年经验：大数据，日语
-
-## 工具
-
-除了技能，让我们看看我使用过的工具。它们是帮助我积累上述技能的详细工具，以及其他一些有趣的工具。我仍在使用其中的一些，对于其余的工具，我可以花几天时间重新学习使用它们。
-
-* 自然语言：英语，中文，粤语，客家话，日语
-* 操作系统：Linux，Windows，MacOS，Android，iOS，OpenWRT，Symbian，Apple tvOS，Fire OS
-* 语言：PHP，Java，Objective-C，Swift，Ruby，HTML，C，C++，JavaScript，Lisp，Clojure，TypeScript，JSON，CSS，Node.js，Go，SQL，NoSQL，Python，Pascal
-* 框架与数据库：jQuery，Hexo，Jekyll，React，MongoDB，PostgreSQL，Microsoft SQL Server，Stylus，Sass，MySQL，Redis，Kafka，RTMP streaming，HTTP/IP, Spring，Hibernate，Netty
-* 数学：微积分，线性代数，Latex
-* 开发工具：NPM，Webpack，Git，Travis CI，HomeBrew，Gradle，Maven，Xcode，VSCode，Sketch，Powershell，IntelliJ IDEA，Cocopods，Android Studio，Jenkins，SonarQube，WordPress，Nginx，ChatGPT，Elasticsearch，Docker
-* 机器学习：TensorFlow，PyTorch，Theano，Anaconda，Jupyter Notebook
-* 云工具：GitHub，GitLab，Jira，Confluence，Cloudflare，Digital Ocean，Vultr，AWS，Azure，阿里云，Pivotal Cloud Foundry
-* 测试：Postman，Selenium，Karate，JUnit，Mockito，Apache JMeter, Apache ab
-* 其他：FFmpeg，Spark，代理工具
-
 ## 工作经历
 
 ### 法本信息 & 汇丰银行, 全栈工程师, 2022.11 - 2023.07
@@ -116,6 +92,30 @@ title:  "Resume"
 * 趣直播 & 平方根科技客户项目, PHP & Java & Vue, 2016.07 - 2019.12
 * LeanCloud SDK & LeanChat, iOS & Android, 2014.07 - 2015.11
 * 详情请见工作经历部分。
+
+## 技能
+
+自从我在2008年开始编程以来，我已经获得了很多技能。让我们从高级别看看我的技能。
+
+* 拥有5年或以上经验：中文，英文，写作，Java，算法，测试驱动开发，云计算，DevOps，后端开发
+* 拥有3到4年经验：粤语，iOS开发，Android开发
+* 拥有1到2年经验：产品管理，机器学习，前端开发
+* 拥有少于1年经验：大数据，日语
+
+## 工具
+
+除了技能，让我们看看我使用过的工具。它们是帮助我积累上述技能的详细工具，以及其他一些有趣的工具。我仍在使用其中的一些，对于其余的工具，我可以花几天时间重新学习使用它们。
+
+* 自然语言：英语，中文，粤语，客家话，日语
+* 操作系统：Linux，Windows，MacOS，Android，iOS，OpenWRT，Symbian，Apple tvOS，Fire OS
+* 语言：PHP，Java，Objective-C，Swift，Ruby，HTML，C，C++，JavaScript，Lisp，Clojure，TypeScript，JSON，CSS，Node.js，Go，SQL，NoSQL，Python，Pascal
+* 框架与数据库：jQuery，Hexo，Jekyll，React，MongoDB，PostgreSQL，Microsoft SQL Server，Stylus，Sass，MySQL，Redis，Kafka，RTMP streaming，HTTP/IP, Spring，Hibernate，Netty
+* 数学：微积分，线性代数，Latex
+* 开发工具：NPM，Webpack，Git，Travis CI，HomeBrew，Gradle，Maven，Xcode，VSCode，Sketch，Powershell，IntelliJ IDEA，Cocopods，Android Studio，Jenkins，SonarQube，WordPress，Nginx，ChatGPT，Elasticsearch，Docker
+* 机器学习：TensorFlow，PyTorch，Theano，Anaconda，Jupyter Notebook
+* 云工具：GitHub，GitLab，Jira，Confluence，Cloudflare，Digital Ocean，Vultr，AWS，Azure，阿里云，Pivotal Cloud Foundry
+* 测试：Postman，Selenium，Karate，JUnit，Mockito，Apache JMeter, Apache ab
+* 其他：FFmpeg，Spark，代理工具
 
 ### 文章
 
