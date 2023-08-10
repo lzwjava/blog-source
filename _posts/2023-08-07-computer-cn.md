@@ -202,26 +202,46 @@ https://file.thermaltake.com/file/qig/Connect_PCIe_Cables_to_High_Power_Consumpt
 
 来自京东。
 
-CPU，英特尔酷睿i9-13900KF（最新一代）游戏台式机处理器24核（8个P核心+16个E核心）- 解锁，4709元人民币
+CPU，英特尔酷睿i9-13900KF（最新一代）游戏桌面处理器24核（8 P核 + 16 E核）- 解锁，4709元人民币
 
-主板，微星MAG B760M Mortar WiFi游戏主板（支持第12/13代英特尔处理器，LGA 1700，DDR5，PCIe 5.0，M.2，2.5Gbps LAN，USB 3.2 Gen2，Wi-Fi 6E，mATX），1299元人民币
+主板，MSI MAG B760M迫击炮WiFi游戏主板（支持第12/13代Intel处理器，LGA 1700，DDR5，PCIe 5.0，M.2，2.5Gbps LAN，USB 3.2 Gen2，Wi-Fi 6E，mATX），1299元人民币
 
-显卡，微星游戏GeForce RTX 4070 12GB GDRR6X 192位HDMI/DP Nvlink TORX风扇4.0 Ada Lovelace架构显卡（RTX 4070 Gaming X Trio 12G），5199元人民币
+GPU，MSI Gaming GeForce RTX 4070 12GB GDRR6X 192位HDMI / DP Nvlink TORX风扇4.0 Ada Lovelace架构显卡（RTX 4070 Gaming X Trio 12G），5199元人民币
 
-固态硬盘，三星980 SSD 1TB PCle 3.0x4，NVMe M.2 2280，内部固态硬盘，适用于PC，笔记本电脑，游戏等，HMB技术，智能Turbo写入，最高速度可达3500MB/s，MZ-V8V1T0B/AM，399元人民币
+SSD，三星980 SSD 1TB PCle 3.0x4，NVMe M.2 2280，内部固态硬盘，适用于PC，笔记本电脑，游戏等，HMB技术，智能Turbowrite，速度高达3,500MB / s，MZ-V8V1T0B / AM，399元人民币
 
-机械硬盘，西部数据2TB WD Blue PC内部硬盘 - 7200 RPM类，SATA 6 Gb/s，256 MB缓存，3.5英寸 - WD20EZBX，428元人民币
+HDD，西部数据2TB WD Blue PC内部硬盘 - 7200 RPM等级，SATA 6 Gb / s，256 MB缓存，3.5" - WD20EZBX，428元人民币
 
-RAM，CORSAIR VENGEANCE DDR5内存32GB（2x16GB）5600MHz CL36 Intel XMP iCUE兼容计算机内存 - 黑色（CMK32GX5M2B5600C36），728元人民币
+RAM，CCORSAIR复仇DDR5 RAM 64GB（2x32GB）6000MHz CL30 AMD Expo iCUE兼容计算机内存 - 灰色（CMK64GX5M2B6000Z30），1379元人民币
 
-散热器，Thermalright Frozen Prism 240 白色ARGB AIO水冷散热器，液冷CPU散热器，2×120mm PWM风扇水冷系统，1850RPM高速，支持AMD/AM4/AM5和Intel LGA1150/1151/1200/2011/1700，413元人民币
+冷却器，Thermalright冷冻棱镜240白色ARGB AIO水冷器，液体CPU冷却器，2×120mm PWM风扇水冷系统，1850RPM高速，兼容AMD / AM4 / AM5和Intel LGA1150 / 1151 / 1200 / 2011 / 1700，413元人民币
 
-电源，Thermaltake Toughpower GF1 650W 80+金牌SLI/CrossFire Ready超静音140mm液压轴承智能零风扇全模块电源，10年质保PS-TPD-0650FNFAGU-1，449元人民币
+电源，Corsair CX650F RGB，750瓦，80 PLUS，全模块化RGB白色电源，398元人民币
 
-机箱，Aigo Yogo M2，159元人民币
+PC机箱，Aigo月光宝盒静迷你，299元人民币
 
-鼠标、键盘、显示器：这些我在家里已经有额外的了。
+鼠标，键盘，显示器：我家里已经有多余的。
 
-总计：13773 人民币。
+总计：约14000元人民币
+
+---
 
 这只是我根据我目前所知和我的预算做出的最终决定，请您也进行自己的研究。
+
+
+Install Guide
+
+http://intel.cn/ProcessorInstall
+
+https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.html
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/XFOOk2LQIWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/qCPIEYfN_hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/o233hhC-dU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/DPELIdVNZUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/RYkW2WywN5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
