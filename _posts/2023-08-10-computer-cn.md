@@ -125,8 +125,6 @@ CPU:
 
 京东，Aigo Yogo M2
 
----
-
 ## 参考资料
 
 了解不同的英特尔处理器核心。
@@ -196,7 +194,6 @@ https://www.thermaltake.com/toughpower-gf1-650w-tt-premium-edition.html
 
 https://file.thermaltake.com/file/qig/Connect_PCIe_Cables_to_High_Power_Consumption_GPU_en.pdf，正确连接高功耗显卡的PCIe电缆？
 
----
 
 ## 最终
 
@@ -218,7 +215,9 @@ RAM，CCORSAIR复仇DDR5 RAM 64GB（2x32GB）6000MHz CL30 AMD Expo iCUE兼容计
 
 电源，Corsair CX650F RGB，750瓦，80 PLUS，全模块化RGB白色电源，398元人民币
 
-PC机箱，Aigo月光宝盒静迷你，299元人民币
+PC机箱，Aigo月光宝盒镜Mini，299元人民币
+
+SATA 数据线，Cable Matters 3 包 90 度直角 SATA 数据线，长度 18 英寸（6.0 Gbps SATA III 数据线，适用于 SSD，SATA SSD 数据线，SATA 3 数据线）黑色，售价 19 人民币。
 
 鼠标，键盘，显示器：我家里已经有多余的。
 
