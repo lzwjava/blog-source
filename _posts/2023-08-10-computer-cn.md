@@ -228,8 +228,7 @@ PC机箱，Aigo月光宝盒静迷你，299元人民币
 
 这只是我根据我目前所知和我的预算做出的最终决定，请您也进行自己的研究。
 
-
-Install Guide
+## Install Guide
 
 http://intel.cn/ProcessorInstall
 
@@ -250,3 +249,16 @@ https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.htm
 
 What is this 8 pin connector on my hard drive, https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive
 
+Sure! Here's the translation in Simplified Chinese:
+
+## 反思
+
+我们应该将电缆放在计算机机箱的另一侧。这样电缆就不会遮挡主板，我们可以清楚地看到它。
+
+我们应该提前向产品的客服咨询以获得所有有用的信息。
+
+当我们请专家帮助我们时，我们需要自己动手学习。他们只应该指导我们。否则，我们很容易忘记，下次遇到问题时不知道该怎么办。
+
+在我们的情况下，我们不需要购买像这样的垂直GPU支架[一款](https://a.co/d/1ieE5kd)。
+
+如果计算机无法启动，我们可以检查电缆。插入的地方可能会松动。
