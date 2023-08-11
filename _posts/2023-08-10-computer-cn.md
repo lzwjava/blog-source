@@ -245,4 +245,8 @@ https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.htm
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/RYkW2WywN5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe src="//player.bilibili.com/player.html?aid=13483867&bvid=BV1tx411J7F1&cid=22081912&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" height="315" src="//player.bilibili.com/player.html?aid=13483867&bvid=BV1tx411J7F1&cid=22081912&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+What is this 8 pin connector on my hard drive, https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive
+
