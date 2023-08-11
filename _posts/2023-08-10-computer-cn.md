@@ -246,10 +246,7 @@ https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.htm
 
 <iframe width="100%" height="315" src="//player.bilibili.com/player.html?aid=13483867&bvid=BV1tx411J7F1&cid=22081912&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-
-What is this 8 pin connector on my hard drive, https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive
-
-Sure! Here's the translation in Simplified Chinese:
+这个硬盘上的8针连接器是什么？https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive
 
 ## 反思
 
@@ -259,6 +256,6 @@ Sure! Here's the translation in Simplified Chinese:
 
 当我们请专家帮助我们时，我们需要自己动手学习。他们只应该指导我们。否则，我们很容易忘记，下次遇到问题时不知道该怎么办。
 
-在我们的情况下，我们不需要购买像这样的垂直GPU支架一款， 如[这个](https://a.co/d/1ieE5kd)。
+在我们的情况下，我们不需要购买像这样的垂直GPU支架一款，如[这个](https://a.co/d/1ieE5kd)。
 
 如果计算机无法启动，我们可以检查电缆。插入的地方可能会松动。
