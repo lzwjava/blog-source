@@ -258,3 +258,22 @@ https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.htm
 在我们的情况下，我们不需要购买像这样的垂直GPU支架一款，如[这个](https://a.co/d/1ieE5kd)。
 
 如果计算机无法启动，我们可以检查电缆。插入的地方可能会松动。
+
+## BIOS 信息
+
+CPU Info:
+
+![cpu](/assets/images/computer/cpu.jpg)
+
+Fan Info:
+
+![fan](/assets/images/computer/fan.jpg)
+
+Memory Info:
+
+![memory](/assets/images/computer/memory.jpg)
+
+Storage Info:
+
+![storage](/assets/images/computer/storage.jpg)
+
