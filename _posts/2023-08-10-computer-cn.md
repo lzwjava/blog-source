@@ -194,6 +194,8 @@ https://www.thermaltake.com/toughpower-gf1-650w-tt-premium-edition.html
 
 https://file.thermaltake.com/file/qig/Connect_PCIe_Cables_to_High_Power_Consumption_GPU_en.pdf，正确连接高功耗显卡的PCIe电缆？
 
+https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive, 这个硬盘上的8针连接器是什么？
+
 
 ## 最终
 
@@ -244,8 +246,6 @@ https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.htm
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/RYkW2WywN5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe width="100%" height="315" src="//player.bilibili.com/player.html?aid=13483867&bvid=BV1tx411J7F1&cid=22081912&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-这个硬盘上的8针连接器是什么？https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive
 
 ## 反思
 
