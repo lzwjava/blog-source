@@ -245,23 +245,38 @@ SATA 数据线，Cable Matters 3 包 90 度直角 SATA 数据线，长度 18 英
 
 这只是我根据我目前所知和我的预算做出的最终决定，请您也进行自己的研究。
 
-## Install Guide
+## 组装指南
 
 http://intel.cn/ProcessorInstall
 
-https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.html
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/XFOOk2LQIWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+设置 CORSAIR CX-F RGB 系列电源供应器
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/qCPIEYfN_hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.html](https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.html)
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/o233hhC-dU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+CORSAIR CX-F RGB 系列电源供应器设置教程
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/DPELIdVNZUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[https://youtu.be/XFOOk2LQIWQ](https://youtu.be/XFOOk2LQIWQ)
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/RYkW2WywN5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+MSI 电脑组装教程（完整版）
 
-<iframe width="100%" height="315" src="//player.bilibili.com/player.html?aid=13483867&bvid=BV1tx411J7F1&cid=22081912&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+[https://youtu.be/qCPIEYfN_hc](https://youtu.be/qCPIEYfN_hc)
+
+THERMALRIGHT FROZEN PRISM CPU 散热器安装指南（适用于英特尔 LGA1700，AMD AM4 AM5）
+
+[https://youtu.be/o233hhC-dU8](https://youtu.be/o233hhC-dU8)
+
+MSI如何安装前面板连接器（JFP1）
+
+[https://youtu.be/DPELIdVNZUI](https://youtu.be/DPELIdVNZUI)
+
+如何连接计算机机箱电缆、电源电缆等 - 电脑布线技巧
+
+[https://youtu.be/RYkW2WywN5I](https://youtu.be/RYkW2WywN5I)
+
+图形卡安装非常简单！为小白准备的四个简单步骤
+
+[https://www.bilibili.com/video/BV1tx411J7F1/?spm_id_from=888.80997.embed_other.whitelist&t=12&vd_source=89dab4a438fbb42994ef16c0af4d4e91](https://www.bilibili.com/video/BV1tx411J7F1/?spm_id_from=888.80997.embed_other.whitelist&t=12&vd_source=89dab4a438fbb42994ef16c0af4d4e91)
 
 ## BIOS 信息
 
