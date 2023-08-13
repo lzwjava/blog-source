@@ -7,7 +7,9 @@ title: "如何组装一台电脑"
 
 Chat 帮助翻译。因为文章有比较多的产品名词，所以翻译可能不太准确。若需准确信息，请查看英语原文。
 
----
+## 视频
+
+<iframe src="//player.bilibili.com/player.html?aid=787215725&bvid=BV1Z14y1q71h&cid=1233141547&page=1" width="100%" height="315" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ## 快速消化
 
