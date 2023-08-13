@@ -261,19 +261,19 @@ https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.htm
 
 ## BIOS 信息
 
-CPU Info:
+CPU 信息：
 
 ![cpu](/assets/images/computer/cpu.jpg)
 
-Fan Info:
+还有风扇、内存和存储信息。
 
-![fan](/assets/images/computer/fan.jpg)
+## 安装操作系统
 
-Memory Info:
+https://ubuntu.com/
 
-![memory](/assets/images/computer/memory.jpg)
+https://medium.com/@bbloks/a-machine-learning-environment-with-ubuntu-and-gpu-acceleration-in-5-steps-765608325356
 
-Storage Info:
+https://ubuntu.com/tutorials/create-a-usb-stick-on-macos#4-install-and-run-etcher
 
-![storage](/assets/images/computer/storage.jpg)
+https://ubuntu.com/tutorials/install-ubuntu-desktop
 
