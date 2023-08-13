@@ -1,9 +1,13 @@
 ---                     
 layout: post                     
 title: "如何组装一台电脑"
----            
+---
+
+Chat 帮助翻译。有比较多的产品名词，可能不太准确，请查看英语原文。
+
+---
        
-原则：
+## 原则
 
 * 全球比较，如JD.com中国，Rakuten Japan，Amazon USA
 * Amazon有很好的比较表，可以比较同一系列的产品
@@ -17,7 +21,7 @@ title: "如何组装一台电脑"
 * 通过制定最终计划，我们可以了解更多信息并解决关键问题
 * 购买你所能负担得起的最优质、最新款的产品
 
-网站：
+## 网站
 
 * 法国, https://www.cdiscount.com
 * 全球, https://www.amazon.com
@@ -66,9 +70,7 @@ title: "如何组装一台电脑"
 5. Amazon, MSI B760 Gaming Plus WiFi Gaming Motherboard (Supports 12th/13th Gen Intel Processors, LGA 1700, DDR5, PCIe 4.0, M.2, 2.5Gbps LAN, USB 3.2 Gen2, Wi-Fi 6E, ATX)
 6. Amazon, MSI MAG B760M Mortar WiFi Gaming Motherboard (Supports 12th/13th Gen Intel Processors, LGA 1700, DDR5, PCIe 5.0, M.2, 2.5Gbps LAN, USB 3.2 Gen2, Wi-Fi 6E, mATX)
 7. Amazon, ASUS TUF Gaming Z790-Plus WiFi LGA 1700(Intel®12th&13th Gen) ATX Gaming Motherboard(PCIe 5.0,DDR5,4xM.2 Slots,16+1 DrMOS,WiFi 6,2.5Gb LAN,Front USB 3.2 Gen 2 Type-C®,Thunderbolt 4(USB4),Aura RGB)
-8. Amazon, ASUS Prime Z790-P WiFi LGA 1700(Intel® 13th &12th Gen) ATX Motherboard (PCIe 5.0,DDR5,
-
-14+1 Power Stages,3X M.2,WiFi 6,Bluetooth v5.2,2.5Gb LAN, Front Panel USB 3.2 Gen 2 Type-C®, Thunderbolt™ 4/USB4)
+8. Amazon, ASUS Prime Z790-P WiFi LGA 1700(Intel® 13th &12th Gen) ATX Motherboard (PCIe 5.0,DDR5, 14+1 Power Stages,3X M.2,WiFi 6,Bluetooth v5.2,2.5Gb LAN, Front Panel USB 3.2 Gen 2 Type-C®, Thunderbolt™ 4/USB4)
 
 CPU:
 
@@ -115,9 +117,7 @@ CPU:
 电脑电源(Computer Power Supply):
 
 1. Amazon, Thermaltake SMART 600W ATX 12V V2.3/EPS 12V 80 Plus Certified Active PFC Power Supply PS-SPD-0600NPCWUS-W
-2. Amazon, Thermaltake Toughpower GX
-
-1 RGB 600W Gold SLI/Crossfire Ready Continuous Power RGB LED ATX12V v2.4 / EPS v2.92 80 Plus Gold Certified 5 Year Warranty Non Modular Power Supply PS-TPD-0600NHFAGU-1
+2. Amazon, Thermaltake Toughpower GX1 RGB 600W Gold SLI/Crossfire Ready Continuous Power RGB LED ATX12V v2.4 / EPS v2.92 80 Plus Gold Certified 5 Year Warranty Non Modular Power Supply PS-TPD-0600NHFAGU-1
 3. Amazon, Thermaltake Toughpower GF1 650W 80+ Gold SLI/ CrossFire Ready Ultra Quiet 140mm Hydraulic Bearing Smart Zero Fan Full Modular Power Supply 10 Year Warranty PS-TPD-0650FNFAGU-1
 
 电脑机箱：
@@ -165,6 +165,8 @@ https://versus.com/en/asus-prime-z790-p-d4-vs-msi-mag-b760m-mortar-max-wifi
 GeForce RTXTM 4070 GAMING X TRIO 12G显卡与Thermaltake Toughpower GF1 650W电源是否匹配？
 
 ---
+
+仔细阅读产品的描述，就像这个一样。
 
 ASUS TUF Gaming Z790-Plus WiFi LGA 1700。
 
