@@ -272,11 +272,18 @@ CPU 信息：
 
 ## 安装操作系统
 
-https://ubuntu.com/
+Ubuntu 官方网站
 
-https://medium.com/@bbloks/a-machine-learning-environment-with-ubuntu-and-gpu-acceleration-in-5-steps-765608325356
+[https://ubuntu.com/](https://ubuntu.com/)
 
-https://ubuntu.com/tutorials/create-a-usb-stick-on-macos#4-install-and-run-etcher
+通过 5 个步骤在 Ubuntu 上创建具有 GPU 加速的机器学习环境
 
-https://ubuntu.com/tutorials/install-ubuntu-desktop
+[https://medium.com/@bbloks/a-machine-learning-environment-with-ubuntu-and-gpu-acceleration-in-5-steps-765608325356](https://medium.com/@bbloks/a-machine-learning-environment-with-ubuntu-and-gpu-acceleration-in-5-steps-765608325356)
 
+在 macOS 上创建可启动的 USB 磁盘
+
+[https://ubuntu.com/tutorials/create-a-usb-stick-on-macos#4-install-and-run-etcher](https://ubuntu.com/tutorials/create-a-usb-stick-on-macos#4-install-and-run-etcher)
+
+安装 Ubuntu 桌面版
+
+[https://ubuntu.com/tutorials/install-ubuntu-desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop)
