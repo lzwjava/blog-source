@@ -3,6 +3,8 @@ layout: post
 title: "如何组装一台电脑"
 ---
 
+![cover](/assets/images/computer/cover.jpg)
+
 Chat 帮助翻译。因为文章有比较多的产品名词，所以翻译可能不太准确。若需准确信息，请查看英语原文。
 
 ---
