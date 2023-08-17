@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ChatGPT Helps Me Learn Latest AI Technology - Draft"
+title: "The Conversations Between ChatGPT and Zhiwei - Draft"
 ---
 
 Zhiwei: 
@@ -187,3 +187,108 @@ Learn the error stack trace.
 
 Ask ChatGPT about what Backend.NCCL means in Pytorch? 
 
+---
+
+Zhiwei:
+
+code:
+
+```python
+import torch
+from transformers import LlamaTokenizer, LlamaForCausalLM
+
+model_path = '.'
+# model_path = 'openlm-research/open_llama_7b'
+
+tokenizer = LlamaTokenizer.from_pretrained(model_path)
+model = LlamaForCausalLM.from_pretrained(
+    model_path, torch_dtype=torch.float16, device_map='auto',
+)
+
+prompt = 'Q: What is the largest animal?\nA:'
+input_ids = tokenizer(prompt, return_tensors="pt").input_ids
+
+
+generation_output = model.generate(
+    input_ids=input_ids, max_new_tokens=32
+)
+print(tokenizer.decode(generation_output[0]))
+```
+
+error:
+
+```shell
+/home/lzw/anaconda3/envs/llama/lib/python3.11/site-packages/transformers/generation/utils.py:1445: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cpu, whereas the model is on cuda. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cuda') before running `.generate()`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/lzw/Projects/open_llama_3b/run.py", line 17, in <module>
+    generation_output = model.generate(
+                        ^^^^^^^^^^^^^^^
+  File "/home/lzw/anaconda3/envs/llama/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lzw/anaconda3/envs/llama/lib/python3.11/site-packages/transformers/generation/utils.py", line 1515, in generate
+    return self.greedy_search(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/lzw/anaconda3/envs/llama/lib/python3.11/site-packages/transformers/generation/utils.py", line 2332, in greedy_search
+    outputs = self(
+              ^^^^^
+  File "/home/lzw/anaconda3/envs/llama/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lzw/anaconda3/envs/llama/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 688, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/home/lzw/anaconda3/envs/llama/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lzw/anaconda3/envs/llama/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 531, in forward
+    inputs_embeds = self.embed_tokens(input_ids)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lzw/anaconda3/envs/llama/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lzw/anaconda3/envs/llama/lib/python3.11/site-packages/torch/nn/modules/sparse.py", line 162, in forward
+    return F.embedding(
+           ^^^^^^^^^^^^
+  File "/home/lzw/anaconda3/envs/llama/lib/python3.11/site-packages/torch/nn/functional.py", line 2210, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+```
+
+how to fix?
+
+ChatGPT:
+
+The error message you're encountering indicates that there's a mismatch in device types between your input tensor (`input_ids`) and your model (`LlamaForCausalLM`). The input tensor is on the CPU (`cpu`), while the model is on the GPU (`cuda`). To fix this, you need to ensure that the input tensor is on the same device as the model before generating text using the model.
+
+Here's the modified code to fix the issue:
+
+```python
+import torch
+from transformers import LlamaTokenizer, LlamaForCausalLM
+
+model_path = '.'
+# model_path = 'openlm-research/open_llama_7b'
+
+tokenizer = LlamaTokenizer.from_pretrained(model_path)
+model = LlamaForCausalLM.from_pretrained(
+    model_path, torch_dtype=torch.float16, device_map='auto',
+)
+
+prompt = 'Q: What is the largest animal?\nA:'
+input_ids = tokenizer(prompt, return_tensors="pt").input_ids
+
+# Move the input_ids tensor to the same device as the model
+input_ids = input_ids.to(model.device)
+
+generation_output = model.generate(
+    input_ids=input_ids, max_new_tokens=32
+)
+print(tokenizer.decode(generation_output[0]))
+```
+
+In this code, I've added the line `input_ids = input_ids.to(model.device)` after obtaining the `input_ids` tensor from the tokenizer. This line moves the `input_ids` tensor to the same device as the model (either CPU or GPU) before generating text. This should resolve the "Expected all tensors to be on the same device" error.
+
+Remember that if you're running this code on a GPU-enabled machine and your model is on a GPU, it's generally more efficient to keep both the model and input data on the GPU to take advantage of parallel processing capabilities.
