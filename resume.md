@@ -88,11 +88,16 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Company Projects
 
-* PayMe from HSBC, Java, 2022.11 - 2023.07
-* DBS Digibank CN & Client Connect, Java, 2021.12 - 2022.11
-* Fun Live & Square Root miscellaneous projects, PHP & Java & Vue, 2016.07 - 2019.12
-* LeanChat, iOS & Android, 2014.07 - 2015.10
-* The detail can be found above.
+* PayMe from HSBC. Participated in the backend development of auto top-up feature and cloud migration. Used tech stacks like Java, Spring Cloud, Azure and AWS. From 2022.11 to 2023.07.
+* DBS Digibank CN. Participated in the backend development of mutual funds. Used tech stacks like Java, Spring Cloud, and Pivotal Cloud Foundry. From 2022.7 to 2022.11.
+* DBS Client Connect. Participated in the backend development of equities trading. Used tech stacks like Java, Spring Cloud and Pivotal Cloud Foundry. From 2021.12 to 2022.6.
+* ShowMeBug, an online interview platform. Responsible for the integration between the platform and the Enterprise WeChat, like login, and easy interview portal. Used tech stacks like Ruby on Rails, PostgreSQL and WeChat SDK. From 2021.7 to 2021.9.
+* The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs and HTML5. My software consultant company. Responsible for team management, contract negotiation, project management, and client communications. From 2018.1 to 2019.12.
+* The WeChat Mini program for Super Brain TV in China. Responsible for the backend and frontend development. Used tech stacks like Java, Spring, Javascript, HTML and AliCloud. From 2018.2 to 2018.3.
+* A mobile trivia game app. Responsible for the half backend development and admin portal of the first version. Used tech stacks like Java, Spring, WebSocket and Netty. From 2017.9 to 2018.1.
+* Fun Live, a simple Coursera platform in China. My startup project. Responsible for all code development. Used tech stacks like PHP, Javascript, HTML, AliCloud and RTMP Streaming. From 2016.6 to 2017.9.
+* LeanCloud Mobile SDK and LeanChat. Responsible for some iOS and Android SDK development, and all development of their demo app LeanChat. From 2014.07 to 2015.10.
+
 
 ## Skills
 
