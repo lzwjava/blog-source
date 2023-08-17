@@ -292,3 +292,119 @@ print(tokenizer.decode(generation_output[0]))
 In this code, I've added the line `input_ids = input_ids.to(model.device)` after obtaining the `input_ids` tensor from the tokenizer. This line moves the `input_ids` tensor to the same device as the model (either CPU or GPU) before generating text. This should resolve the "Expected all tensors to be on the same device" error.
 
 Remember that if you're running this code on a GPU-enabled machine and your model is on a GPU, it's generally more efficient to keep both the model and input data on the GPU to take advantage of parallel processing capabilities.
+
+---
+
+Zhiwei: Could you explain below codes?
+
+```python
+   def generate(
+        self,
+        prompt_tokens: List[List[int]],
+        max_gen_len: int,
+        temperature: float = 0.6,
+        top_p: float = 0.9,
+        logprobs: bool = False,
+        echo: bool = False,
+    ) -> Tuple[List[List[int]], Optional[List[List[float]]]]:
+        params = self.model.params
+        bsz = len(prompt_tokens)
+        assert bsz <= params.max_batch_size, (bsz, params.max_batch_size)
+
+        min_prompt_len = min(len(t) for t in prompt_tokens)
+        max_prompt_len = max(len(t) for t in prompt_tokens)
+        assert max_prompt_len <= params.max_seq_len
+        total_len = min(params.max_seq_len, max_gen_len + max_prompt_len)
+
+        pad_id = self.tokenizer.pad_id
+        tokens = torch.full((bsz, total_len), pad_id, dtype=torch.long, device="cuda")
+        for k, t in enumerate(prompt_tokens):
+            tokens[k, : len(t)] = torch.tensor(t, dtype=torch.long, device="cuda")
+        if logprobs:
+            token_logprobs = torch.zeros_like(tokens, dtype=torch.float)
+
+        prev_pos = 0
+        eos_reached = torch.tensor([False] * bsz, device="cuda")
+        input_text_mask = tokens != pad_id
+        for cur_pos in range(min_prompt_len, total_len):
+            logits = self.model.forward(tokens[:, prev_pos:cur_pos], prev_pos)
+            if logprobs:
+                token_logprobs[:, prev_pos + 1 : cur_pos + 1] = -F.cross_entropy(
+                    input=logits.transpose(1, 2),
+                    target=tokens[:, prev_pos + 1 : cur_pos + 1],
+                    reduction="none",
+                    ignore_index=pad_id,
+                )
+            if temperature > 0:
+                probs = torch.softmax(logits[:, -1] / temperature, dim=-1)
+                next_token = sample_top_p(probs, top_p)
+            else:
+                next_token = torch.argmax(logits[:, -1], dim=-1)
+
+            next_token = next_token.reshape(-1)
+            # only replace token if prompt has already been generated
+            next_token = torch.where(
+                input_text_mask[:, cur_pos], tokens[:, cur_pos], next_token
+            )
+            tokens[:, cur_pos] = next_token
+            eos_reached |= (~input_text_mask[:, cur_pos]) & (
+                next_token == self.tokenizer.eos_id
+            )
+            prev_pos = cur_pos
+            if all(eos_reached):
+                break
+
+        if logprobs:
+            token_logprobs = token_logprobs.tolist()
+        out_tokens, out_logprobs = [], []
+        for i, toks in enumerate(tokens.tolist()):
+            # cut to max gen len
+            start = 0 if echo else len(prompt_tokens[i])
+            toks = toks[start : len(prompt_tokens[i]) + max_gen_len]
+            probs = None
+            if logprobs:
+                probs = token_logprobs[i][start : len(prompt_tokens[i]) + max_gen_len]
+            # cut to eos tok if any
+            if self.tokenizer.eos_id in toks:
+                eos_idx = toks.index(self.tokenizer.eos_id)
+                toks = toks[:eos_idx]
+                probs = probs[:eos_idx] if logprobs else None
+            out_tokens.append(toks)
+            out_logprobs.append(probs)
+        return (out_tokens, out_logprobs if logprobs else None)
+```
+
+ChatGPT: Certainly! The provided code is a method called `generate` that takes a prompt (input text) and generates text using a language model. This method is designed to work with a specific model and tokenizer and performs text generation using either greedy sampling or top-p sampling. Here's a breakdown of how the method works:
+
+1. **Method Parameters:**
+   - `prompt_tokens`: A list of tokenized prompts, where each prompt is represented as a list of integers (token IDs).
+   - `max_gen_len`: The maximum length of the generated output (in tokens).
+   - `temperature`: A parameter controlling the randomness of the generation. Higher values (e.g., 1.0) make the output more random, while lower values (e.g., 0.6) make it more deterministic.
+   - `top_p`: A parameter controlling the diversity of generated text. Higher values (e.g., 0.9) allow more diverse sampling.
+   - `logprobs`: If `True`, the method also returns the log-probabilities of generated tokens.
+   - `echo`: If `True`, the generated output will include the prompt itself.
+
+2. **Initialization:**
+   The method initializes variables such as `params`, `bsz` (batch size), `min_prompt_len`, and `max_prompt_len`. It also calculates `total_len` which is the total length of generated output including the prompt.
+
+3. **Token Generation:**
+   The method generates tokens for the output text. It uses a loop to iterate over positions in the generated sequence, starting from the end of the prompt and moving forward.
+   
+   - The logits for each position are obtained by passing the partial sequence to the model's forward function.
+   - If `temperature` is greater than 0, the logits are transformed into probabilities using softmax with the given temperature value. If `temperature` is 0, the token with the highest logit is selected using `torch.argmax`.
+   - The next token is determined based on the generated probabilities or argmax, and it is placed in the corresponding position of the `tokens` tensor.
+   - EOS (end-of-sequence) tokens are detected, and if all sequences have reached an EOS token, the generation process is stopped.
+   - The generated tokens are kept in the `tokens` tensor.
+
+4. **Processing Generated Output:**
+   - The generated tokens are processed to trim the output to the desired maximum length (`max_gen_len`).
+   - If `echo` is `True`, the prompt is included in the generated output.
+   - If the `eos` token is encountered, the generated text is cut off at that point.
+
+5. **Return:**
+   The method returns a tuple containing the generated tokens and, if `logprobs` is `True`, the log-probabilities of the generated tokens.
+
+This method generates text by iteratively predicting tokens based on the context provided by the prompt and the previously generated tokens. It uses the specified generation parameters to control the randomness and diversity of the generated text. The method is designed to be used with a specific model architecture and tokenizer, as it relies on their properties and methods for text generation.
+
+---
+
