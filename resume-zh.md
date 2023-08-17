@@ -95,7 +95,7 @@ title:  "Resume"
 * 为中国超级大脑电视节目开发的微信小程序。负责后端和前端开发。使用的技术栈包括Java、Spring、Javascript、HTML和阿里云。从2018年2月到2018年3月。
 * 直播答题应用。负责第一个版本的一半后端开发和管理后台前端开发。使用的技术栈包括Java、Spring、WebSocket和Netty。从2017年9月到2018年1月。
 * 趣直播，一个中国的简易Coursera平台。我的创业项目。负责所有代码开发。使用的技术栈包括PHP、Javascript、HTML、阿里云和RTMP流媒体。从2016年6月到2017年9月。
-* LeanCloud移动SDK和LeanChat。负责部分iOS和Android SDK开发，以及他们的演示应用LeanChat的全部开发。从2014年7月到2015年10月。
+* LeanCloud 移动端SDK和LeanChat。负责部分iOS和Android SDK开发，以及他们的演示应用LeanChat的全部开发。从2014年7月到2015年10月。
 
 
 ## 技能
