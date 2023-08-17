@@ -87,11 +87,15 @@ title:  "Resume"
 
 ### 公司项目
 
-* PayMe from HSBC, Java, 2022.11 - 2023.07
-* DBS Digibank CN & Client Connect, Java, 2021.12 - 2022.11
-* 趣直播 & 平方根科技客户项目, PHP & Java & Vue, 2016.07 - 2019.12
-* LeanCloud SDK & LeanChat, iOS & Android, 2014.07 - 2015.11
-* 详情请见工作经历部分。
+* 汇丰银行的PayMe项目。参与了自动充值功能和云迁移的后端开发。使用的技术栈包括Java、Spring Cloud、Azure和AWS。从2022年11月到2023年7月。
+* 星展银行的Digibank CN项目。参与了共同基金功能的后端开发。使用的技术栈包括Java、Spring Cloud和Pivotal Cloud Foundry。从2022年7月到2022年11月。
+* 星展银行Client Connect项目。参与了股票交易的后端开发。使用的技术栈包括Java、Spring Cloud和Pivotal Cloud Foundry。从2021年12月到2022年6月。
+* ShowMeBug，一个在线面试平台。负责平台与企业微信的集成，例如登录和简易面试入口。使用的技术栈包括Ruby on Rails、PostgreSQL和企业微信SDK。从2021年7月到2021年9月。
+* Square Root Inc的50个杂项项目，包括网站、游戏、应用、微信小程序和HTML5。我的软件咨询公司。负责团队管理、合同谈判、项目管理和客户沟通。从2018年1月到2019年12月。
+* 为中国超级大脑电视节目开发的微信小程序。负责后端和前端开发。使用的技术栈包括Java、Spring、Javascript、HTML和阿里云。从2018年2月到2018年3月。
+* 直播答题应用。负责第一个版本的一半后端开发和管理后台前端开发。使用的技术栈包括Java、Spring、WebSocket和Netty。从2017年9月到2018年1月。
+* 趣直播，一个中国的简易Coursera平台。我的创业项目。负责所有代码开发。使用的技术栈包括PHP、Javascript、HTML、阿里云和RTMP流媒体。从2016年6月到2017年9月。
+* LeanCloud 移动端SDK和LeanChat。负责部分iOS和Android SDK开发，以及他们的演示应用LeanChat的全部开发。从2014年7月到2015年10月。
 
 ## 技能
 
