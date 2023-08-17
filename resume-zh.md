@@ -97,7 +97,6 @@ title:  "Resume"
 * 趣直播，一个中国的简易Coursera平台。我的创业项目。负责所有代码开发。使用的技术栈包括PHP、Javascript、HTML、阿里云和RTMP流媒体。从2016年6月到2017年9月。
 * LeanCloud 移动端SDK和LeanChat。负责部分iOS和Android SDK开发，以及他们的演示应用LeanChat的全部开发。从2014年7月到2015年10月。
 
-
 ## 技能
 
 自从我在2008年开始编程以来，我已经获得了很多技能。让我们从高级别看看我的技能。
