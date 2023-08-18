@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The discussion regarding astigmatism when the eyeballs reverse to the normal shape"
+title: "The Discussion Regarding Astigmatism When the Eyeballs Reverse to the Normal Shape"
 ---
 
 <div align="center"><img src="/assets/images/astigmatism/eye.jpg" width="100%" /><img/></div>
