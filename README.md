@@ -20,11 +20,11 @@ jekyll serve
 
 rougify help style
 
-rougify style github > assets/css/syntax.css
+rougify style github > _sass/syntax.css
 
-rougify style gruvbox.dark > assets/css/syntax.css
+rougify style gruvbox.dark > _sass/syntax.css
 
-rougify style base16.monokai.dark > assets/css/syntax.css
+rougify style base16.monokai.dark > _sass/syntax.css
 ```
 
 Refer:
