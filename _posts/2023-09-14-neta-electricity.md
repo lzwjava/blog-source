@@ -23,4 +23,4 @@ I told the hotel clerk to restart the charging station. She restarted. And the c
 
 I droved the car to the Markam Yunqu Manor Hotel. However, it just had Xiaopeng charging stations which seems only serve the Xiaopeng cars. It didn't have Kewang charging station though Kewang organization says they have charging statations there. I didn't know what happen and I just couldn't find them. 
 
-So I go to 
+So I continued the return journey. 
