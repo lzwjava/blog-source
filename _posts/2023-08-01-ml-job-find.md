@@ -7,9 +7,8 @@ Short Introdution to the HRs.
 
 ---    
              
-Hi, I want to work with you.        
-        
-I am a genius who believes everyone is one.        
+Hi, I want to work with you. 
+Let me introduce myself.
 Born in 1995, 28 years old.        
 Top 300 in National Olympiad in Informatics in Provinces.        
 Studied at Beijing Forestry University (211) for a year.        
@@ -25,7 +24,7 @@ Has 1 year of experience in big data development, proficient in tools such as Py
 
 Boss Zhipin
 
-我是一名天才，因为我相信每个人都是天才。        
+您好，请问可以应聘这个岗位吗？
 我出生于1995年，今年28岁。        
 信息学竞赛中省级前300名。        
 就读于北京林业大学一年。        
