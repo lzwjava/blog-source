@@ -52,3 +52,12 @@ About the dot product here. One reason we use dot product here is that dot produ
 
 About the masked here, we change the numbers of half of matrix to the negative infinity. And then we use softmax to make the values range from 0 to 1. How about we change the left-bottom numbers to the negative infinity?
 
+### Plan
+
+Continue to read code and papers, watch videos. Just have fun and follow the curiosity.
+
+https://github.com/karpathy/nanoGPT
+
+https://github.com/jadore801120/attention-is-all-you-need-pytorch
+
+
