@@ -62,4 +62,9 @@ https://github.com/karpathy/nanoGPT
 
 https://github.com/jadore801120/attention-is-all-you-need-pytorch
 
+---
+
+### Repost Words
+
+After learning all the latest AI technology like Word Embedding, Positional Encoding, LSTM, Residual Connection, RNN,  Self-Attention, Multi-Head, Masket and Dropout, Ziva wants to research about his new ideas. Sentence Embedding, Spatial Encoding, Residual Disconnection, Double-Attention, Self-Concentration, Multi-Head Concentration and SwitchOut.
 
