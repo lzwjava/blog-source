@@ -3,6 +3,8 @@ layout: post
 title: "From Neural Network to GPT - Part 1"
 ---
 
+![img](/assets/images/neural-gpt/transformer.jpeg)
+
 ### Youtube Videos
 
 Andrej Karpathy - Let's build GPT: from scratch, in code, spelled out.
