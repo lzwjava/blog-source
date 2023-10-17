@@ -20,7 +20,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ## Work Experience
 
-### Freelancer Inc, Machine Learning Engineer, 2023.07 - Present
+### Freelancer Inc, Freelancer & Machine Learning Engineer, 2023.07 - Present
 
 * Attended selected lectures from the prestigious Stanford CS231n course, "Deep Learning for Computer Vision."
 * Completed in-depth study of key machine learning books, including "Programming PyTorch for Deep Learning" and "Neural Networks and Deep Learning."
