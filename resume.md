@@ -144,5 +144,5 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 
 ## Expectation
 
-* Expected Positions: Machine Learning Engineer / Data Engineer / Full Stack Engineer
+* Expected Positions: Machine Learning Engineer / NLP Engineer
 * Expected Locations: Guangzhou, Shenzhen, Singapore, Hong Kong
