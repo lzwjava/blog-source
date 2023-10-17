@@ -20,13 +20,13 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ## Work Experience
 
-### Freelancer Inc, Engineer, 2023.07 - Now
+### Freelancer Inc, Engineer, 2023.07 - Present
 
-* Took some lectures of the Standford CS231n course, Deep Learning for Computer Vision. 
-* Finished some machine learning books, like Programming PyTorch for Deep Learning and Neural Networks and Deep Learning. 
-* Read around 10 impactful papers in the field, topics like transformer, dropout, recurrent neural networks, convolutional neural networks, seq2seq, LSTM. 
-* Implement the nerual networks with numpy and Pytorch frameworks to recognize the hand written digits. 
-* Implement and research about the nanoGPT with the help of Andrej Karpathy's lectures. 
+* Attended selected lectures from the prestigious Stanford CS231n course, "Deep Learning for Computer Vision."
+* Completed in-depth study of key machine learning books, including "Programming PyTorch for Deep Learning" and "Neural Networks and Deep Learning."
+* Devoted time to review approximately 10 influential research papers within the field, covering topics such as transformers, dropout techniques, recurrent neural networks, convolutional neural networks, seq2seq models, and LSTMs.
+* Implemented neural networks from scratch using both NumPy and PyTorch frameworks, with a focus on applications like handwritten digit recognition.
+* Engaged in hands-on experimentation and research related to nanoGPT, drawing inspiration from the lectures of Andrej Karpathy.
 * Please check https://github.com/lzwjava/neural-networks-and-zhiwei-learning. 
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
