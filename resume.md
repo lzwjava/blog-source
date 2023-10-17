@@ -27,6 +27,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Devoted time to review approximately 10 influential research papers within the field, covering topics such as transformers, dropout techniques, recurrent neural networks, convolutional neural networks, seq2seq models, and LSTMs.
 * Implemented neural networks from scratch using both NumPy and PyTorch frameworks, with a focus on applications like handwritten digit recognition.
 * Engaged in hands-on experimentation and research related to nanoGPT, drawing inspiration from the lectures of Andrej Karpathy.
+* Built a Deep Learning computer with Nvidia GPU and trained neural networks with it.
 * Please check https://github.com/lzwjava/neural-networks-and-zhiwei-learning. 
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
@@ -72,7 +73,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ## Projects
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
-* Some reproduced code of the project from the book Neural Networks and Deep Learning, a simple neural network to recognize hand-written digits
+* Some reproduced code of the project from the book Neural Networks and Deep Learning, a simple neural network to recognize hand-written digits, https://github.com/lzwjava/neural-networks-and-zhiwei-learning
 * An example microservice project with unit tests, about users, users' roles and their relationship, https://github.com/lzwjava/user-service
 * An iOS chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-ios
 * An Android chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-android
@@ -84,18 +85,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Solved 568 problems on Uva Online Judge, https://uhunt.onlinejudge.org/id/113519
 * Made around 50 Short Videos about early childhood education, language study, aerial photography, learning skills and ChatGPT. Please check the Platform Douyin, https://v.douyin.com/iKAw9Y or Youtube https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ
 
-### English Learning, 2013-09 to Present
-* Spent leisure time of 3 years actively learning English using TikTok, Youtube, Netflix, Kindle, etc. 
-* Worked in English for 2 years in two large international banks.
-* Got a score of 6.0(Reading Listening Writing 6.0, Speaking 5.5) on the IELTS(International English Language Testing System). 
-
-### Machine Learning, 2021-03 to Present
-* Spent around one year actively exploring machine learning in my leisure time. Listened to a lot of lectures shared by AI industry leaders on topics like Reinforcement Learning, Supervised Learning, Policy Gradient, Neural Networks, Softmax, Feedforward, Backpropagation, etc. 
-* Wrote some related blogs on my website, such as Zen and the Art of Machine Learning, https://lzwjava.github.io/zen-neura, and   I Finally Understand How Neural Network Works,  https://lzwjava.github.io/neural-network. 
-* Conducted experiments with famous open-source projects, like Faceswap. Did some LLM training and Neural Network training on my laptop. Read the transformer paper and walked through the code. Researching the LLaMA project from Facebook.
-* Built a Deep Learning computer with Nvidia GPU, https://lzwjava.github.io/computer
-
-### Company Projects
+### Corporate Projects
 
 * PayMe from HSBC. Participated in the backend development of auto top-up feature and cloud migration. Used tech stacks like Java, Spring Cloud, Azure and AWS. From 2022.11 to 2023.07.
 * DBS Digibank CN. Participated in the backend development of mutual funds. Used tech stacks like Java, Spring Cloud, and Pivotal Cloud Foundry. From 2022.7 to 2022.11.

@@ -26,6 +26,7 @@ title:  "Resume"
 * 投入时间审阅了大约10篇领域内有影响力的研究论文，涵盖了变换器、丢弃技术、循环神经网络、卷积神经网络、序列到序列模型和长短时记忆网络等主题。
 * 使用NumPy和PyTorch框架从零开始实现了神经网络，重点关注手写数字识别等应用。
 * 积极参与与nanoGPT相关的实验和研究，汲取了Andrej Karpathy的讲座启发。
+* 搭建了一台带有Nvidia GPU的深度学习计算机，并使用它来训练神经网络。
 * 请查看 https://github.com/lzwjava/neural-networks-and-zhiwei-learning。
 
 ### 法本信息 & 汇丰银行, 全栈工程师, 2022.11 - 2023.07
