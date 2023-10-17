@@ -14,11 +14,20 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ## Profiles
 
 * I am an engineer, scientist, startup founder, blogger, and lifelong learner. My mission is to do experiments for humans.
-* I had tracks of excellence in my 28 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 universities in China), I dropped out to work in a startup and then create my one. Over three years in the startup industry, I constructed an engineering live broadcast platform that served 30,000 users and led a team to complete 50 small software projects around a year, generating an annual revenue of 3 million CNY. In my last job, I worked as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
-* Regarding technical experience, I have 6 years of backend engineering experience(4 years Java, 2 years PHP). I also did some Android, iOS, and frontend projects which served users. My English is proficient and I scored 6 on the IELTS exam. And I also solved more than 1000 algorithm problems on LeetCode alike website. I also had DevOps experience while doing my startup. In recent years, I actively learn Artificial Intelligence and Japanese in my leisure time to raise my boundaries of intelligence.
+* I had tracks of excellence in my 28 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 universities in China), I dropped out to work in a startup and then created my one. Over three years in the startup industry, I constructed an engineering live broadcast platform that served 30,000 users and led a team to complete 50 small software projects around a year, generating an annual revenue of 3 million CNY. In my last job, I worked as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
+* Regarding my technical experience, I have accumulated approximately nine years of software engineering experience, working across different domains such as iOS, Android, frontend, and backend development. Additionally, I dedicated around one year to exploring the field of machine learning, which I pursued during my leisure time and freelance periods. In addition, I have achieved a proficiency in English, having obtained a score of 6 on the IELTS exam.
 * Because of my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
 
 ## Work Experience
+
+### Freelancer Inc, Engineer, 2023.07 - Now
+
+* Took some lectures of the Standford CS231n course, Deep Learning for Computer Vision. 
+* Finished some machine learning books, like Programming PyTorch for Deep Learning and Neural Networks and Deep Learning. 
+* Read around 10 impactful papers in the field, topics like transformer, dropout, recurrent neural networks, convolutional neural networks, seq2seq, LSTM. 
+* Implement the nerual networks with numpy and Pytorch frameworks to recognize the hand written digits. 
+* Implement and research about the nanoGPT with the help of Andrej Karpathy's lectures. 
+* Please check https://github.com/lzwjava/neural-networks-and-zhiwei-learning. 
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
 * HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services, boasted around 2.9 million active users as of November 2022.
@@ -132,7 +141,6 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * [Zen and the Art of Machine Learning](https://lzwjava.github.io/zen-neural)
 * [The 10x AGI Information World](https://lzwjava.github.io/agi)
 * [Think Totally Different](https://lzwjava.github.io/totally-different)
-* [Genius Zhiwei decides to move his full focus to machine learning](https://lzwjava.github.io/ml-job)
 * [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
 
 ## Links
