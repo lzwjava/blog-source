@@ -73,7 +73,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ## Projects
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
-* Some reproduced code of the project from the book Neural Networks and Deep Learning, a simple neural network to recognize hand-written digits, https://github.com/lzwjava/neural-networks-and-zhiwei-learning
+* Some machine learing practice projects, neural networks to recognize hand written digits and nanoGPT,  https://github.com/lzwjava/neural-networks-and-zhiwei-learning
 * An example microservice project with unit tests, about users, users' roles and their relationship, https://github.com/lzwjava/user-service
 * An iOS chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-ios
 * An Android chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-android
