@@ -84,16 +84,6 @@ title:  "Resume"
 * 在Uva Online Judge上解决了568道问题，https://uhunt.onlinejudge.org/id/113519
 * 大约50个关于早期儿童教育、语言学习、航拍摄影、学习技能和ChatGPT的短视频。请查看抖音平台，https://v.douyin.com/iKAw9Y 或YouTube https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ
 
-### 英语学习, 2013-09 至今
-* 在3年的业余时间中，我积极使用TikTok，Youtube，Netflix，Kindle等学习英语。
-* 在两家大型国际银行工作过大概两年的时间，使用英语进行工作。
-* 在IELTS（国际英语语言测试系统）上获得了6.0分（阅读听力写作6.0，口语5.5）。
-
-### 机器学习, 2021-03 至今
-* 我花了大约一年的业余时间积极探索机器学习。听了很多由AI产业领袖分享的讲座，涉及强化学习、监督学习、策略梯度、神经网络、Softmax、前馈、反向传播等主题。
-* 在我的网站上写了一些相关的博客，例如《禅与机器学习的艺术》，https://lzwjava.github.io/zen-neura，以及《我终于理解了神经网络是如何工作的》，https://lzwjava.github.io/neural-network。
-* 用著名的开源项目进行了实验，比如Faceswap。在我的笔记本电脑上进行了一些LLM训练和神经网络训练。阅读了Transformer论文并浏览了代码。关于Facebook的LLaMA项目进行了研究。
-* 用Nvidia GPU组建了一台深度学习计算机，https://lzwjava.github.io/computer。
 
 ### 公司项目
 
