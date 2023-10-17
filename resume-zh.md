@@ -19,7 +19,7 @@ title:  "Resume"
 
 ## 工作经历
 
-### Freelancer Inc, 自由职业者 & 工程师, 2023.07 - Present
+### Freelancer Inc, 自由职业者 & 机器学习工程师, 2023.07 - Present
 
 * 参加了著名的斯坦福CS231n课程《计算机视觉深度学习》的精选讲座。
 * 深入研究了关键的机器学习书籍，包括《Programming PyTorch for Deep Learning》和《神经网络与深度学习》。
