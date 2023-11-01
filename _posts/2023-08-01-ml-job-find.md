@@ -124,3 +124,26 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * Cloud Tools: GitHub, GitLab, Jira, Confluence, Cloudflare, Digital Ocean, Vultr, AWS, Azure, Alibaba Cloud, Pivotal Cloud Foundry
 * Test: Postman, Selenium, Karate, JUnit, Mockito, Apache JMeter, Apache ab
 * Others: FFmpeg, Spark, Proxy Tools
+
+---
+
+* 北京林业大学统招本科，退学创业，有退学证明
+* 有国际大厂经验，曾外派星展汇丰银行，熟悉 Azure和 AWS
+* 普通话英语粤语流利，雅思6分，日语初级
+* 9年工程经验，包括移动端、前后端
+* 1年机器学习经验，熟悉 Python 、精通 Java
+* 熟悉机器学习算法理论(CNN/RNN/GAN/RL/SGD/LSTM/GPT)
+* 熟练使用 Pytorch/TensorFlow 、有英伟达 GPU  训练经验
+* 有手写数字识别、视觉对象识别、大型语言模型等项目经验
+* 团队合作积极
+
+* Once studied in Beijing Forestry University, dropped out to start a business with dropout certificate
+* Experienced in international large-scale factories, once assigned to DBS HSBC, familiar with Azure and AWS.
+* Fluent in Mandarin, English and Cantonese, IELTS 6, Japanese beginner
+* 9 years of engineering experience, including mobile front-end and back-end
+* 1 year machine learning experience, familiar with Python, proficient in Java.
+* Familiar with machine learning algorithm theory (CNN/RNN/GAN/RL/SGD/LSTM/GPT)
+* Proficient in Pytorch/TensorFlow, NVIDIA GPU training experience.
+* Experience in projects such as handwritten digit recognition, visual object recognition, large-scale language modeling, etc.
+* Positive teamwork
+
