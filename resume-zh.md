@@ -76,9 +76,9 @@ title:  "Resume"
 * Mnist Torch，使用 pytorch 框架识别手写数字的简单神经网络。
 * Nanogpt, 用于训练和微调中型 GPT 的简单而快速的实现。
 * Makemore, 一种自回归字符级语言模型，用于制作更多文本。
-* 快速神经风格（Fast Neural Style）：pytorch 实现的艺术风格转换算法。该算法可用于将一幅图像的内容与另一幅图像的风格混合在一起。
-* ImageNet：在 ImageNet 数据集上实现对 ResNet、AlexNet 和 VGG 等流行模型架构的训练。
-* 时间序列预测（Time Sequence Prediction），这是一个 pytorch 项目，使用两个 LSTMCell 单元来学习一些从不同阶段开始的正弦波信号。
+* Fast Neural Style, pytorch 实现的艺术风格转换算法。该算法可用于将一幅图像的内容与另一幅图像的风格混合在一起。
+* ImageNet, 在 ImageNet 数据集上实现对 ResNet、AlexNet 和 VGG 等流行模型架构的训练。
+* Time Sequence Prediction，这是一个 pytorch 项目，使用两个 LSTMCell 单元来学习一些从不同阶段开始的正弦波信号。
 
 ### 公司项目
 
