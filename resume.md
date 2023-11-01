@@ -22,13 +22,11 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer Inc, Freelancer & Machine Learning Engineer, 2023.07 - Present
 
-* Attended selected lectures from the prestigious Stanford CS231n course, "Deep Learning for Computer Vision."
-* Completed in-depth study of key machine learning books, including "Programming PyTorch for Deep Learning" and "Neural Networks and Deep Learning."
-* Devoted time to review approximately 10 influential research papers within the field, covering topics such as transformers, dropout techniques, recurrent neural networks, convolutional neural networks, seq2seq models, and LSTMs.
-* Implemented neural networks from scratch using both NumPy and PyTorch frameworks, with a focus on applications like handwritten digit recognition.
-* Engaged in hands-on experimentation and research related to nanoGPT, drawing inspiration from the lectures of Andrej Karpathy.
+* Attended Stanford CS231n course, "Deep Learning for Computer Vision." Completed some books, including "Programming PyTorch for Deep Learning" and "Neural Networks and Deep Learning."
+* Devoted time to review approximately 20 influential research papers within the field, covering topics such as transformers, dropout techniques, recurrent neural networks, convolutional neural networks, seq2seq models, and LSTMs.
+* Implemented and trained neural networks from scratch using both NumPy and PyTorch frameworks, with a focus on applications like handwritten digit recognition, visual object recognition, large language models, artistic style transfer.
 * Built a Deep Learning computer with Nvidia GPU and trained neural networks with it.
-* Please check https://github.com/lzwjava/neural-networks-and-zhiwei-learning. 
+* Please check the below section of machine learning projects.
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
 * HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services, boasted around 2.9 million active users as of November 2022.
@@ -72,18 +70,16 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ## Projects
 
-### Open Source & Blog & Codeforces, 2013-09 to Present
-* Some machine learing practice projects, neural networks to recognize hand written digits and nanoGPT,  https://github.com/lzwjava/neural-networks-and-zhiwei-learning
-* An example microservice project with unit tests, about users, users' roles and their relationship, https://github.com/lzwjava/user-service
-* An iOS chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-ios
-* An Android chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-android
-* A course to teach basic programming and provide some beginner guide with several programming languages like Rust, Python, Java, and C, and discuss the topics like cloud computing and machine learning, https://github.com/lzwjava/curiosity-courses
-* A Simple and Elegant HTML Parser written in Swift, https://github.com/lzwjava/Creak
-* An Xcode plugin lets you jump to any GitHub repo's history, blame, and PRs pages with one shortcut. https://github.com/lzwjava/Reveal-In-GitHub 
-* Wrote Chinese and English articles (20 English, and 50 Chinese) on my blog site. https://lzwjava.github.io
-* Solved 399 algorithm problems on Codeforces, https://codeforces.com/profile/lzwjava
-* Solved 568 problems on Uva Online Judge, https://uhunt.onlinejudge.org/id/113519
-* Made around 50 Short Videos about early childhood education, language study, aerial photography, learning skills and ChatGPT. Please check the Platform Douyin, https://v.douyin.com/iKAw9Y or Youtube https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ
+### Machine Learning Projects
+
+* Some experimental projects which are learned from other open source projects. Carefully analyzed and wrote code from scratch by myself. Please check out https://github.com/lzwjava/neural-networks-and-zhiwei-learning.
+* Mnist Numpy, a simple neural network to recongnize the handwritten digits. Just used Numpy and manually calculate the gradients.
+* Mnist Torch, a simple neural network to recognize the handwritten digits using pytorch framework.
+* Nanogpt, a simple and fast implementation for training and finetuning medium-sized GPTs.
+* Makemore, an autoregressive character-level language model for making more text.
+* Fast Neural Style, a pytorch implementation of an algorithm for artistic style transfer. The algorithm can be used to mix the content of an image with the style of another image. 
+* ImageNet, this implements training of popular model architectures, such as ResNet, AlexNet, and VGG on the ImageNet dataset.
+* Time Sequence Prediction, a pytorch project which use two LSTMCell units to learn some sine wave signals starting at different phases.
 
 ### Corporate Projects
 
@@ -96,6 +92,19 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * A live-streaming trivia app. Responsible for the half backend development and admin panel frontend development of the first version. Used tech stacks like Java, Spring, WebSocket and Netty. From 2017.9 to 2018.1.
 * Fun Live, a simple Coursera platform in China. My startup project. Responsible for all code development. Used tech stacks like PHP, Javascript, HTML, AliCloud and RTMP Streaming. From 2016.6 to 2017.9.
 * LeanCloud Mobile SDK and LeanChat. Responsible for some iOS and Android SDK development, and all development of their demo app LeanChat. From 2014.07 to 2015.10.
+
+### Open Source & Blog & Codeforces, 2013-09 to Present
+* Some machine learing practice projects, neural networks to recognize hand written digits and nanoGPT,  https://github.com/lzwjava/neural-networks-and-zhiwei-learning
+* An example microservice project with unit tests, about users, users' roles and their relationship, https://github.com/lzwjava/user-service
+* An iOS chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-ios
+* An Android chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-android
+* A course to teach basic programming and provide some beginner guide with several programming languages like Rust, Python, Java, and C, and discuss the topics like cloud computing and machine learning, https://github.com/lzwjava/curiosity-courses
+* A Simple and Elegant HTML Parser written in Swift, https://github.com/lzwjava/Creak
+* An Xcode plugin lets you jump to any GitHub repo's history, blame, and PRs pages with one shortcut. https://github.com/lzwjava/Reveal-In-GitHub 
+* Wrote Chinese and English articles (20 English, and 50 Chinese) on my blog site. https://lzwjava.github.io
+* Solved 399 algorithm problems on Codeforces, https://codeforces.com/profile/lzwjava
+* Solved 568 problems on Uva Online Judge, https://uhunt.onlinejudge.org/id/113519
+* Made around 50 Short Videos about early childhood education, language study, aerial photography, learning skills and ChatGPT. Please check the Platform Douyin, https://v.douyin.com/iKAw9Y or Youtube https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ
 
 
 ## Skills
@@ -118,7 +127,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * Framework & Database: jQuery, Hexo, Jekyll, React, MongoDB, PostgreSQL, Microsoft SQL Server, Stylus, Sass, MySQL, Redis, Kafka,  RTMP streaming, HTTP/IP, Vue, Spring, Hibernate, Netty
 * Math: Calculus, Linear Algebra, Latex
 * Development Tools: NPM, Webpack, Git, Travis CI, HomeBrew, Gradle, Maven, Xcode, VSCode, Sketch, Powershell, IntelliJ IDEA, Cocopods, Android Studio, Jenkins, SonarQube, WordPress, Nginx, ChatGPT, Elasticsearch, Docker
-* Machine Learning: TensorFlow, PyTorch, Theano, Anaconda, Jupyter Notebook
+* Machine Learning: TensorFlow, PyTorch, Theano, Anaconda, Jupyter Notebook, CUDA
 * Cloud Tools: GitHub, GitLab, Jira, Confluence, Cloudflare, Digital Ocean, Vultr, AWS, Azure, Alibaba Cloud, Pivotal Cloud Foundry
 * Test: Postman, Selenium, Karate, JUnit, Mockito, Apache JMeter, Apache ab
 * Others: FFmpeg, Spark, Proxy Tools
@@ -130,7 +139,6 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
 * [Zen and the Art of Machine Learning](https://lzwjava.github.io/zen-neural)
 * [The 10x AGI Information World](https://lzwjava.github.io/agi)
-* [Think Totally Different](https://lzwjava.github.io/totally-different)
 * [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
 
 ## Links
@@ -144,5 +152,5 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 
 ## Expectation
 
-* Expected Positions: Machine Learning Engineer / NLP Engineer/Data Engineer
+* Expected Positions: Machine Learning Engineer / NLP Engineer/ Data Engineer
 * Expected Locations: Guangzhou, Shenzhen, Singapore, Hong Kong

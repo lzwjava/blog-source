@@ -21,13 +21,11 @@ title:  "Resume"
 
 ### Freelancer Inc, 自由职业者 & 机器学习工程师, 2023.07 - Present
 
-* 参加了著名的斯坦福CS231n课程《计算机视觉深度学习》的精选讲座。
-* 深入研究了关键的机器学习书籍，包括《Programming PyTorch for Deep Learning》和《神经网络与深度学习》。
-* 投入时间审阅了大约10篇领域内有影响力的研究论文，涵盖了变换器、丢弃技术、循环神经网络、卷积神经网络、序列到序列模型和长短时记忆网络等主题。
-* 使用NumPy和PyTorch框架从零开始实现了神经网络，重点关注手写数字识别等应用。
-* 积极参与与nanoGPT相关的实验和研究，汲取了Andrej Karpathy的讲座启发。
-* 搭建了一台带有Nvidia GPU的深度学习计算机，并使用它来训练神经网络。
-* 请查看 https://github.com/lzwjava/neural-networks-and-zhiwei-learning。
+* 参加斯坦福 CS231n 课程 "计算机视觉深度学习"。完成了一些书籍，包括 "PyTorch 深度学习编程 "和 "神经网络与深度学习"。
+* 花时间审阅了该领域约 20 篇有影响力的研究论文，涵盖了变换器、丢弃技术、循环神经网络、卷积神经网络、序列到序列模型和长短时记忆网络等主题。
+* 使用 NumPy 和 PyTorch 框架从头开始实现和训练神经网络，重点关注手写数字识别、视觉对象识别、大型语言模型、艺术风格转移等应用。
+* 使用 Nvidia GPU 构建了一台深度学习计算机，并用它训练了神经网络。
+* 请查看以下机器学习项目部分。
 
 ### 法本信息 & 汇丰银行, 全栈工程师, 2022.11 - 2023.07
 * 汇丰银行是全球最大的银行和金融服务机构之一。PayMe是汇丰银行为香港居民提供的手机支付服务，拥有约290万活跃用户（截至2022年11月）。
@@ -71,19 +69,16 @@ title:  "Resume"
 
 ## 项目
 
-### 开源、博客、Codeforces, 2013-09 至今
-* 《神经网络与深度学习》一书中项目的部分复现代码，包括一个用于识别手写数字的简单神经网络，https://github.com/lzwjava/neural-networks-and-zhiwei-learning
-* 一个示范微服务项目，附带单元测试，涉及用户、用户角色及其关系，https://github.com/lzwjava/user-service
-* 一个展示LeanCloud Chat SDK功能的iOS聊天应用，https://github.com/lzwjava/leanchat-ios
-* 一个展示LeanCloud Chat SDK功能的安卓聊天应用，https://github.com/lzwjava/leanchat-android
-* 一个课程，旨在教授基本编程，并提供有关多种编程语言（如Rust、Python、Java和C）的入门指南，讨论云计算和机器学习等主题，https://github.com/lzwjava/curiosity-courses
-* 一个简单而优雅的Swift HTML解析器，https://github.com/lzwjava/Creak
-* 一个Xcode插件，通过一个快捷键可跳转到任何GitHub仓库的历史、责任和PR页面，https://github.com/lzwjava/Reveal-In-GitHub
-* 在我的博客站点上撰写了中英文文章（20篇英文，50篇中文），https://lzwjava.github.io
-* 在Codeforces上解决了399道算法问题，https://codeforces.com/profile/lzwjava
-* 在Uva Online Judge上解决了568道问题，https://uhunt.onlinejudge.org/id/113519
-* 大约50个关于早期儿童教育、语言学习、航拍摄影、学习技能和ChatGPT的短视频。请查看抖音平台，https://v.douyin.com/iKAw9Y 或YouTube https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ
+### 机器学习项目
 
+* 从其他开源项目中学到的一些实验性项目。自己从头开始仔细分析和编写代码。请查看 https://github.com/lzwjava/neural-networks-and-zhiwei-learning。
+* Mnist Numpy，一个重新识别手写数字的简单神经网络。只需使用 Numpy 并手动计算梯度。
+* Mnist Torch，使用 pytorch 框架识别手写数字的简单神经网络。
+* Nanogpt, 用于训练和微调中型 GPT 的简单而快速的实现。
+* Makemore, 一种自回归字符级语言模型，用于制作更多文本。
+* 快速神经风格（Fast Neural Style）：pytorch 实现的艺术风格转换算法。该算法可用于将一幅图像的内容与另一幅图像的风格混合在一起。
+* ImageNet：在 ImageNet 数据集上实现对 ResNet、AlexNet 和 VGG 等流行模型架构的训练。
+* 时间序列预测（Time Sequence Prediction），这是一个 pytorch 项目，使用两个 LSTMCell 单元来学习一些从不同阶段开始的正弦波信号。
 
 ### 公司项目
 
@@ -96,6 +91,21 @@ title:  "Resume"
 * 直播答题应用。负责第一个版本的一半后端开发和管理后台前端开发。使用的技术栈包括Java、Spring、WebSocket和Netty。从2017年9月到2018年1月。
 * 趣直播，一个中国的简易Coursera平台。我的创业项目。负责所有代码开发。使用的技术栈包括PHP、Javascript、HTML、阿里云和RTMP流媒体。从2016年6月到2017年9月。
 * LeanCloud 移动端SDK和LeanChat。负责部分iOS和Android SDK开发，以及他们的演示应用LeanChat的全部开发。从2014年7月到2015年10月。
+
+
+### 开源、博客、Codeforces, 2013-09 至今
+* 机器学习项目, 手写数字识别、视觉对象识别、大型语言模型、艺术风格转移等应用，https://github.com/lzwjava/neural-networks-and-zhiwei-learning
+* 一个示范微服务项目，附带单元测试，涉及用户、用户角色及其关系，https://github.com/lzwjava/user-service
+* 一个展示LeanCloud Chat SDK功能的iOS聊天应用，https://github.com/lzwjava/leanchat-ios
+* 一个展示LeanCloud Chat SDK功能的安卓聊天应用，https://github.com/lzwjava/leanchat-android
+* 一个课程，旨在教授基本编程，并提供有关多种编程语言（如Rust、Python、Java和C）的入门指南，讨论云计算和机器学习等主题，https://github.com/lzwjava/curiosity-courses
+* 一个简单而优雅的Swift HTML解析器，https://github.com/lzwjava/Creak
+* 一个Xcode插件，通过一个快捷键可跳转到任何GitHub仓库的历史、责任和PR页面，https://github.com/lzwjava/Reveal-In-GitHub
+* 在我的博客站点上撰写了中英文文章（20篇英文，50篇中文），https://lzwjava.github.io
+* 在Codeforces上解决了399道算法问题，https://codeforces.com/profile/lzwjava
+* 在Uva Online Judge上解决了568道问题，https://uhunt.onlinejudge.org/id/113519
+* 大约50个关于早期儿童教育、语言学习、航拍摄影、学习技能和ChatGPT的短视频。请查看抖音平台，https://v.douyin.com/iKAw9Y 或YouTube https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ
+
 
 ## 技能
 
@@ -128,7 +138,6 @@ title:  "Resume"
 * [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
 * [Zen and the Art of Machine Learning](https://lzwjava.github.io/zen-neural)
 * [The 10x AGI Information World](https://lzwjava.github.io/agi)
-* [Think Totally Different](https://lzwjava.github.io/totally-different)
 * [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
 
 ### 链接
