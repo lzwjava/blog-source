@@ -14,8 +14,8 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ## Profiles
 
 * I am an engineer, scientist, startup founder, blogger, and lifelong learner. My mission is to do experiments for humans.
-* I had tracks of excellence in my 28 years of life. I ranked in the top 300 among the 100k students in Guangzhou High School Entrance Exam. And I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 universities in China), I dropped out to work in a startup and then created my one. Over three years in the startup industry, I constructed an engineering live broadcast platform that served 30,000 users and led a team to complete 50 small software projects around a year, generating an annual revenue of 3 million CNY. In my last job, I worked as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
-* Regarding my technical experience, I have accumulated approximately nine years of software engineering experience, working across different domains such as iOS, Android, frontend, and backend development. Additionally, I dedicated around one year to exploring the field of machine learning, which I pursued during my leisure time and freelance periods. In addition, I have achieved a proficiency in English, having obtained a score of 6 on the IELTS exam.
+* I had tracks of excellence in my 28 years of life. I ranked in the top 300 among the 100k students in the Guangzhou High School Entrance Exam. I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 universities in China), I dropped out to work in a startup and then created my one. Over three years in the startup industry, I constructed an engineering live broadcast platform that served 30,000 users and led a team to complete 50 small software projects around a year, generating an annual revenue of 3 million CNY. In my last job, I worked as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
+* Regarding my technical experience, I have accumulated approximately nine years of software engineering experience, working across different domains such as iOS, Android, frontend, and backend development. Additionally, I dedicated around one year to exploring the field of machine learning, which I pursued during my leisure time and freelance periods. In addition, I have achieved proficiency in English, having obtained a score of 6 on the IELTS exam.
 * Because of my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
 
 ## Work Experience
@@ -94,13 +94,13 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * LeanCloud Mobile SDK and LeanChat. Responsible for some iOS and Android SDK development, and all development of their demo app LeanChat. From 2014.07 to 2015.10.
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
-* Some machine learing practice projects, neural networks to recognize hand written digits and nanoGPT,  https://github.com/lzwjava/neural-networks-and-zhiwei-learning
+* Some machine learning practice projects, neural networks to recognize handwritten digits and nanoGPT,  https://github.com/lzwjava/neural-networks-and-zhiwei-learning
 * An example microservice project with unit tests, about users, users' roles and their relationship, https://github.com/lzwjava/user-service
 * An iOS chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-ios
 * An Android chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-android
-* A course to teach basic programming and provide some beginner guide with several programming languages like Rust, Python, Java, and C, and discuss the topics like cloud computing and machine learning, https://github.com/lzwjava/curiosity-courses
+* A course to teach basic programming and provide some beginner guide with several programming languages like Rust, Python, Java, and C, and discuss topics like cloud computing and machine learning, https://github.com/lzwjava/curiosity-courses
 * A Simple and Elegant HTML Parser written in Swift, https://github.com/lzwjava/Creak
-* An Xcode plugin lets you jump to any GitHub repo's history, blame, and PRs pages with one shortcut. https://github.com/lzwjava/Reveal-In-GitHub 
+* An Xcode plugin lets you jump to any GitHub repo's history, blame, and PR pages with one shortcut. https://github.com/lzwjava/Reveal-In-GitHub 
 * Wrote Chinese and English articles (20 English, and 50 Chinese) on my blog site. https://lzwjava.github.io
 * Solved 399 algorithm problems on Codeforces, https://codeforces.com/profile/lzwjava
 * Solved 568 problems on Uva Online Judge, https://uhunt.onlinejudge.org/id/113519
