@@ -24,9 +24,9 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 * Attended Stanford CS231n course, "Deep Learning for Computer Vision." Completed some books, including "Programming PyTorch for Deep Learning" and "Neural Networks and Deep Learning."
 * Devoted time to review approximately 20 influential research papers within the field, covering topics such as transformers, dropout techniques, recurrent neural networks, convolutional neural networks, seq2seq models, and LSTMs.
-* Implemented and trained neural networks from scratch using both NumPy and PyTorch frameworks, with a focus on applications like handwritten digit recognition, visual object recognition, large language models, artistic style transfer.
+* Implemented and trained neural networks from scratch using both NumPy and PyTorch frameworks, with a focus on applications like handwritten digit recognition, visual object recognition, large language models, and artistic style transfer.
 * Built a Deep Learning computer with Nvidia GPU and trained neural networks with it.
-* Please check the below section of machine learning projects.
+* Please check the below section on machine learning projects.
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
 * HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services, boasted around 2.9 million active users as of November 2022.
@@ -72,14 +72,14 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Machine Learning Projects
 
-* Some experimental projects which are learned from other open source projects. Carefully analyzed and wrote code from scratch by myself. Please check out https://github.com/lzwjava/neural-networks-and-zhiwei-learning.
-* Mnist Numpy, a simple neural network to recongnize the handwritten digits. Just used Numpy and manually calculate the gradients.
-* Mnist Torch, a simple neural network to recognize the handwritten digits using pytorch framework.
+* The below experimental projects are learned from other open-source projects. Carefully analyzed and wrote code from scratch by myself. Please check out https://github.com/lzwjava/neural-networks-and-zhiwei-learning.
+* Mnist Numpy, a simple neural network to recognize handwritten digits. Just used Numpy and manually calculated the gradients.
+* Mnist Torch, a simple neural network to recognize handwritten digits using the PyTorch framework.
 * Nanogpt, a simple and fast implementation for training and finetuning medium-sized GPTs.
 * Makemore, an autoregressive character-level language model for making more text.
-* Fast Neural Style, a pytorch implementation of an algorithm for artistic style transfer. The algorithm can be used to mix the content of an image with the style of another image. 
-* ImageNet, this implements training of popular model architectures, such as ResNet, AlexNet, and VGG on the ImageNet dataset.
-* Time Sequence Prediction, a pytorch project which use two LSTMCell units to learn some sine wave signals starting at different phases.
+* Fast Neural Style, a PyTorch implementation of an algorithm for artistic style transfer. The algorithm can be used to mix the content of an image with the style of another image. 
+* ImageNet, implements training of popular model architectures, such as ResNet, AlexNet, and VGG on the ImageNet dataset.
+* Time Sequence Prediction, a PyTorch project that uses two LSTMCell units to learn some sine wave signals starting at different phases.
 
 ### Corporate Projects
 
