@@ -138,7 +138,7 @@ title:  "Resume"
 * [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
 * [Zen and the Art of Machine Learning](https://lzwjava.github.io/zen-neural)
 * [The 10x AGI Information World](https://lzwjava.github.io/agi)
-* [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
+* [How I Wear Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
 
 ### 链接
 
@@ -151,5 +151,5 @@ title:  "Resume"
 
 ## 期望
 
-* 期望职位：机器学习工程师/自然语言处理工程师/数据工程师
+* 期望职位：机器学习工程师/数据工程师/全栈工程师
 * 期望地点：广州，深圳，新加坡，香港
