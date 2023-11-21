@@ -77,7 +77,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Mnist Torch, a simple neural network to recognize handwritten digits using the PyTorch framework.
 * Nanogpt, a simple and fast implementation for training and finetuning medium-sized GPTs.
 * Makemore, an autoregressive character-level language model for making more text.
-* Fast Neural Style, a PyTorch implementation of an algorithm for artistic style transfer. The algorithm can be used to mix the content of an image with the style of another image. 
+* Fast Neural Style, a PyTorch implementation of an algorithm for artistic style transfer. The algorithm can be used to mix the content of an image with the style of another image.
 * ImageNet, implements training of popular model architectures, such as ResNet, AlexNet, and VGG on the ImageNet dataset.
 * Time Sequence Prediction, a PyTorch project that uses two LSTMCell units to learn some sine wave signals starting at different phases.
 
@@ -139,7 +139,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
 * [Zen and the Art of Machine Learning](https://lzwjava.github.io/zen-neural)
 * [The 10x AGI Information World](https://lzwjava.github.io/agi)
-* [How I Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
+* [How I Wear Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia](https://lzwjava.github.io/eyes)
 
 ## Links
 
