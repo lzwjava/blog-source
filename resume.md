@@ -23,7 +23,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Freelancer Inc, Freelancer & Machine Learning Engineer, 2023.07 - Present
 
 * Attended Stanford CS231n course, "Deep Learning for Computer Vision." Completed some books, including "Programming PyTorch for Deep Learning" and "Neural Networks and Deep Learning."
-* Devoted time to review approximately 20 influential research papers within the field, covering topics such as transformers, dropout techniques, recurrent neural networks, convolutional neural networks, seq2seq models, and LSTMs.
+* Devoted time to review approximately 30 influential research papers within the field, covering topics such as transformers, dropout techniques, recurrent neural networks, convolutional neural networks, seq2seq models, and LSTMs.
 * Implemented and trained neural networks from scratch using both NumPy and PyTorch frameworks, with a focus on applications like handwritten digit recognition, visual object recognition, large language models, and artistic style transfer.
 * Built a Deep Learning computer with Nvidia GPU and trained neural networks with it.
 * Please check the below section on machine learning projects.
