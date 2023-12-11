@@ -22,7 +22,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer Inc, Freelancer & Machine Learning Engineer, 2023.07 - Present
 
-* Carefully analyzed and reimplemented some core parts around 50 example projects about machine learning, from PyTorch, Tensorflow tutorials, online courses or other open-source projects. Topics cover supervised learning (linear regression, logistic regression, neural networks, decision trees), unsupervised learning (clustering, anomaly detection), recommender systems, and reinforcement learning. Built neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, and Transformers, and tackled real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more.
+* Carefully analyzed and reimplemented some core parts around 50 example projects about machine learning, from PyTorch, Tensorflow tutorials, Coursera online courses or other open-source projects. Topics cover supervised learning (linear regression, logistic regression, neural networks, decision trees), unsupervised learning (clustering, anomaly detection), recommender systems, and reinforcement learning. Built neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, and Transformers, and tackled real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more.
 * Got two course completion certificates from Coursera about Machine Learning Specialization and Deep Learning Specialization, which are provided by DeepLearing.AI and Standford University. 
 * Please check the below section on machine learning projects.
 
