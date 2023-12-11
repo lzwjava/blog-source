@@ -104,7 +104,7 @@ title:  "Resume"
 * 在我的博客站点上撰写了中英文文章（20篇英文，50篇中文），https://lzwjava.github.io
 * 在Codeforces上解决了399道算法问题，https://codeforces.com/profile/lzwjava
 * 在Uva Online Judge上解决了568道问题，https://uhunt.onlinejudge.org/id/113519
-* 大约50个关于早期儿童教育、语言学习、航拍摄影、学习技能和ChatGPT的短视频。请查看抖音平台，https://v.douyin.com/iKAw9Y 或YouTube https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ
+
 
 
 ## 技能
@@ -147,7 +147,6 @@ title:  "Resume"
 * [Codeforces](https://codeforces.com/profile/lzwjava)
 * [UVa在线裁判](https://uhunt.onlinejudge.org/id/113519)
 * [LinkedIn](https://www.linkedin.com/in/lzwjava)
-* [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)
 
 ## 期望
 
