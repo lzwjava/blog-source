@@ -101,7 +101,7 @@ title:  "Resume"
 * live-mobile-web，一个在线教育平台的移动网页，528次提交，使用 Vue 和 JavaScript
 * leanchat-ios，一个 iOS 聊天应用程序，556次提交，使用 Objective-C
 * leanchat-android，一个 Android 聊天应用程序，412次提交，使用 Java
-* curiosity-courses，一个编程课程，215次提交，使用 Python
+* curiosity-courses，一个编程课程，215次提交，使用中文
 * Creak，一个简单的 HTML 解析器，49次提交，使用 Swift
 * user-service，一个示例微服务项目，1次提交，使用 Java
 
