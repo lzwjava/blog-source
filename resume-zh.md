@@ -94,6 +94,7 @@ title:  "Resume"
 
 
 ### 开源、博客、Codeforces, 2013-09 至今
+
 * 机器学习项目, 手写数字识别、视觉对象识别、大型语言模型、艺术风格转移等应用，https://github.com/lzwjava/neural-networks-and-zhiwei-learning
 * 一个示范微服务项目，附带单元测试，涉及用户、用户角色及其关系，https://github.com/lzwjava/user-service
 * 一个展示LeanCloud Chat SDK功能的iOS聊天应用，https://github.com/lzwjava/leanchat-ios
