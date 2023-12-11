@@ -141,6 +141,12 @@ title:  "Resume"
 * [UVa在线裁判](https://uhunt.onlinejudge.org/id/113519)
 * [LinkedIn](https://www.linkedin.com/in/lzwjava)
 
+### 证书
+
+* IELTS 学术考试，成绩 6
+* 机器学习专业课程完成证书，由 DeepLearning.AI 与斯坦福大学提供，https://coursera.org/verify/specialization/7RU2GMKJ92UV
+* 深度学习专业课程完成证书，由 DeepLearning.AI 提供，验证网址：https://coursera.org/verify/specialization/C7HFUWZ9RMJD
+
 ## 期望
 
 * 期望职位：机器学习工程师/数据工程师/全栈工程师
