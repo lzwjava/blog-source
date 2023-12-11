@@ -143,7 +143,7 @@ title:  "Resume"
 
 * IELTS 学术考试，成绩 6
 * 机器学习专业课程完成证书，由 DeepLearning.AI 与斯坦福大学提供，https://coursera.org/verify/specialization/7RU2GMKJ92UV
-* 深度学习专业课程完成证书，由 DeepLearning.AI 提供，验证网址：https://coursera.org/verify/specialization/C7HFUWZ9RMJD
+* 深度学习专业课程完成证书，由 DeepLearning.AI 提供，https://coursera.org/verify/specialization/C7HFUWZ9RMJD
 
 ## 期望
 
