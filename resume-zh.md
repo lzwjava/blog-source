@@ -130,6 +130,12 @@ title:  "Resume"
 * 测试：Postman，Selenium，Karate，JUnit，Mockito，Apache JMeter, Apache ab
 * 其他：FFmpeg，Spark，代理工具
 
+### 证书
+
+* 北京林业大学退学证明书
+* IELTS 学术考试，成绩 6
+* 机器学习专业课程完成证书，由 DeepLearning.AI 与斯坦福大学提供，https://coursera.org/verify/specialization/7RU2GMKJ92UV
+* 深度学习专业课程完成证书，由 DeepLearning.AI 提供，https://coursera.org/verify/specialization/C7HFUWZ9RMJD
 
 ### 链接
 
@@ -138,13 +144,6 @@ title:  "Resume"
 * [Codeforces](https://codeforces.com/profile/lzwjava)
 * [UVa在线裁判](https://uhunt.onlinejudge.org/id/113519)
 * [LinkedIn](https://www.linkedin.com/in/lzwjava)
-
-### 证书
-
-* 北京林业大学退学证明书
-* IELTS 学术考试，成绩 6
-* 机器学习专业课程完成证书，由 DeepLearning.AI 与斯坦福大学提供，https://coursera.org/verify/specialization/7RU2GMKJ92UV
-* 深度学习专业课程完成证书，由 DeepLearning.AI 提供，https://coursera.org/verify/specialization/C7HFUWZ9RMJD
 
 ## 期望
 
