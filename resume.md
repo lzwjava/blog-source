@@ -140,6 +140,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 
 ## Certificates 
 
+* Beijing Forestry University Dropout Certificate
 * IELTS Academics, Score 6 
 * Machine Learning Specialization Course Completion Certificate, provided by DeepLearning.AI and Standford University, https://coursera.org/verify/specialization/7RU2GMKJ92UV
 * Deep Learning Specialization Course Completion Certificate, provided by DeepLearning.AI, https://coursera.org/verify/specialization/C7HFUWZ9RMJD
