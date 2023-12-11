@@ -92,17 +92,18 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * LeanCloud Mobile SDK and LeanChat. Responsible for some iOS and Android SDK development, and all development of their demo app LeanChat. From 2014.07 to 2015.10.
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
-* Some machine learning practice projects, neural networks to recognize handwritten digits and nanoGPT,  https://github.com/lzwjava/neural-networks-and-zhiwei-learning
-* An example microservice project with unit tests, about users, users' roles and their relationship, https://github.com/lzwjava/user-service
-* An iOS chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-ios
-* An Android chat application that shows the functionality of LeanCloud Chat SDK, https://github.com/lzwjava/leanchat-android
-* A course to teach basic programming and provide some beginner guide with several programming languages like Rust, Python, Java, and C, and discuss topics like cloud computing and machine learning, https://github.com/lzwjava/curiosity-courses
-* A Simple and Elegant HTML Parser written in Swift, https://github.com/lzwjava/Creak
-* An Xcode plugin lets you jump to any GitHub repo's history, blame, and PR pages with one shortcut. https://github.com/lzwjava/Reveal-In-GitHub 
-* Wrote Chinese and English articles (20 English, and 50 Chinese) on my blog site. https://lzwjava.github.io
-* Solved 399 algorithm problems on Codeforces, https://codeforces.com/profile/lzwjava
-* Solved 568 problems on Uva Online Judge, https://uhunt.onlinejudge.org/id/113519
 
+* Below are my open-source projects. Please check out here, https://github.com/lzwjava.
+* neural-networks-and-zhiwei-learning, machine learning practice projects, 430 commits, Python
+* uva, the solutions to algorithm problems, 2466 commits, Java
+* lzwjava.github.io, my blog, 1537 commits, English & Chinese
+* live-server, the backend of an online education platform, 660 commits, PHP
+* live-mobile-web, the mobile web of an online education platform, 528 commits, Vue & JavaScript
+* leanchat-ios, an iOS chat application, 556 commits, Objective-C
+* leanchat-android, an Android chat application, 412 commits, Java
+* curiosity-courses, a programming course, 215 commits, Chinese
+* Creak, A Simple HTML Parser written, 49 commits, Swift
+* user-service, an example microservice project, 1 commit, Java
 
 ## Skills
 

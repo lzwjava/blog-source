@@ -93,17 +93,17 @@ title:  "Resume"
 
 ### 开源、博客、Codeforces, 2013-09 至今
 
-* 机器学习项目, 手写数字识别、视觉对象识别、大型语言模型、艺术风格转移等应用，https://github.com/lzwjava/neural-networks-and-zhiwei-learning
-* 一个示范微服务项目，附带单元测试，涉及用户、用户角色及其关系，https://github.com/lzwjava/user-service
-* 一个展示LeanCloud Chat SDK功能的iOS聊天应用，https://github.com/lzwjava/leanchat-ios
-* 一个展示LeanCloud Chat SDK功能的安卓聊天应用，https://github.com/lzwjava/leanchat-android
-* 一个课程，旨在教授基本编程，并提供有关多种编程语言（如Rust、Python、Java和C）的入门指南，讨论云计算和机器学习等主题，https://github.com/lzwjava/curiosity-courses
-* 一个简单而优雅的Swift HTML解析器，https://github.com/lzwjava/Creak
-* 一个Xcode插件，通过一个快捷键可跳转到任何GitHub仓库的历史、责任和PR页面，https://github.com/lzwjava/Reveal-In-GitHub
-* 在我的博客站点上撰写了中英文文章（20篇英文，50篇中文），https://lzwjava.github.io
-* 在Codeforces上解决了399道算法问题，https://codeforces.com/profile/lzwjava
-* 在Uva Online Judge上解决了568道问题，https://uhunt.onlinejudge.org/id/113519
-
+* 以下是我的一些开源项目。请在这里查看，https://github.com/lzwjava。
+* neural-networks-and-zhiwei-learning，机器学习实践项目，430次提交，使用 Python
+* uva，算法问题解答，2466次提交，使用 Java
+* lzwjava.github.io，我的博客，1537次提交，使用英文和中文
+* live-server，一个在线教育平台的后端，660次提交，使用 PHP
+* live-mobile-web，一个在线教育平台的移动网页，528次提交，使用 Vue 和 JavaScript
+* leanchat-ios，一个 iOS 聊天应用程序，556次提交，使用 Objective-C
+* leanchat-android，一个 Android 聊天应用程序，412次提交，使用 Java
+* curiosity-courses，一个编程课程，215次提交，使用 Python
+* Creak，一个简单的 HTML 解析器，49次提交，使用 Swift
+* user-service，一个示例微服务项目，1次提交，使用 Java
 
 
 ## 技能
