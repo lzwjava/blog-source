@@ -113,8 +113,8 @@ title:  "Resume"
 
 * 拥有5年或以上经验：中文，英文，写作，Java，算法，测试驱动开发，云计算，DevOps，后端开发
 * 拥有3到4年经验：粤语，iOS开发，Android开发
-* 拥有1到2年经验：产品管理，机器学习，前端开发
-* 拥有少于1年经验：大数据
+* 拥有1到2年经验：产品管理，机器学习，前端开发，大数据
+* 拥有少于1年经验：日语
 
 ## 工具
 
@@ -123,7 +123,7 @@ title:  "Resume"
 * 自然语言：英语，中文，粤语，客家话，日语
 * 操作系统：Linux，Windows，MacOS，Android，iOS，OpenWRT，Symbian，Apple tvOS，Fire OS
 * 语言：PHP，Java，Objective-C，Swift，Ruby，HTML，C，C++，JavaScript，Lisp，Clojure，TypeScript，JSON，CSS，Node.js，Go，SQL，NoSQL，Python，Pascal
-* 框架与数据库：jQuery，Hexo，Jekyll，React，MongoDB，PostgreSQL，Microsoft SQL Server，Stylus，Sass，MySQL，Redis，Kafka，RTMP streaming，HTTP/IP, Spring，Hibernate，Netty
+* 框架与数据库：jQuery，Hexo，Jekyll，React，MongoDB，PostgreSQL，Microsoft SQL Server，Stylus，Sass，MySQL，Redis，Kafka，RTMP streaming，HTTP/IP, Spring，Hibernate，Netty, Pandas, Numpy
 * 数学：微积分，线性代数，Latex
 * 开发工具：NPM，Webpack，Git，Travis CI，HomeBrew，Gradle，Maven，Xcode，VSCode，Sketch，Powershell，IntelliJ IDEA，Cocopods，Android Studio，Jenkins，SonarQube，WordPress，Nginx，ChatGPT，Elasticsearch，Docker
 * 机器学习：TensorFlow，PyTorch，Theano，Anaconda，Jupyter Notebook
