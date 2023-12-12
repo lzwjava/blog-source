@@ -39,14 +39,14 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer Inc, Freelancer & Engineer, 2020.01 - 2021.11
 
-* Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign, some modules of an online technical interview platform(ShowMeBug), etc. Used technologies like Ruby, Ruby On Rails, ElasticSearch, Docker, Netty, etc.
+* Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign, some modules of an online technical interview platform(ShowMeBug), etc. Used technologies like Ruby, Ruby On Rails, Python, ElasticSearch, Docker, Netty, etc.
 * Wrote technical blogs and shared them online. Learned English by watching Netflix and reading books. Solved some algorithm problems and participated in online algorithm competitions in Codeforces. 
 
 ### Beijing Square Root Inc, Founder & Engineer, 2016.07 - 2019.12
 
 * From January 2018 to December 2019, I led a team of around 20 full-time or part-time employees to complete nearly 50 small software projects for customers. The types of projects include small programs, apps, websites, and games. The revenue exceeded 3 million RMB and the profit exceeded 700 thousand RMB. I was responsible for project negotiation, project management, and some software development in the team.
 * From July 2016 to September 2017, Fun Live, a live broadcast platform for software engineering lectures, was launched. In one year, nearly 30,000 users were obtained. Started my own business for the first time, and the marketing, and software development were mainly done by myself. 
-* During these years, I used technologies like PHP, Java, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
+* During these years, I used technologies like PHP, Java, Python, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
 
 ### LeanCloud, Software Engineer, 2014.07 - 2015.11
 
@@ -102,6 +102,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * leanchat-ios, an iOS chat application, 556 commits, Objective-C
 * leanchat-android, an Android chat application, 412 commits, Java
 * curiosity-courses, a programming course, 215 commits, Chinese
+* feynman-lectures-mobi, a tool to convert latex to SVG to create mobi ebook, Python
 * Creak, A Simple HTML Parser written, 49 commits, Swift
 * user-service, an example microservice project, 1 commit, Java
 
@@ -111,8 +112,8 @@ I have gained a lot of skills since I started programming in 2008. Let's look at
 
 * 5 or more years of experience: Chinese, English, Writing, Java, Algorithm, Test-driven Development, Cloud Computing, DevOps, Backend Development
 * 3 to 4 years of experience: Cantonese, iOS Development, Android Development
-* 1 to 2 years of experience: Product Management, Machine Learning, Frontend Development
-* less than 1 year of experience: Big Data
+* 1 to 2 years of experience: Product Management, Machine Learning, Frontend Development, Big Data
+* less than 1 year of experience: Japanese
 
 ## Tools
 
@@ -122,7 +123,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * Operating System: Linux, Windows, MacOS, Android, iOS, OpenWRT, Symbian, Apple tvOS, Fire OS
 * Language: PHP, Java, Objective-C, Swift, Ruby, HTML, C, C++, JavaScript, Lisp, Clojure, TypeScript, Node.js, Go, Python, Pascal
 * Domain-specific language: JSON, CSS, SQL, NoSQL, Kusto Query Language
-* Framework & Database: jQuery, Hexo, Jekyll, React, MongoDB, PostgreSQL, Microsoft SQL Server, Stylus, Sass, MySQL, Redis, Kafka,  RTMP streaming, HTTP/IP, Vue, Spring, Hibernate, Netty
+* Framework & Database: jQuery, Hexo, Jekyll, React, MongoDB, PostgreSQL, Microsoft SQL Server, Stylus, Sass, MySQL, Redis, Kafka,  RTMP streaming, HTTP/IP, Vue, Spring, Hibernate, Netty, Pandas, Numpy
 * Math: Calculus, Linear Algebra, Latex
 * Development Tools: NPM, Webpack, Git, Travis CI, HomeBrew, Gradle, Maven, Xcode, VSCode, Sketch, Powershell, IntelliJ IDEA, Cocopods, Android Studio, Jenkins, SonarQube, WordPress, Nginx, ChatGPT, Elasticsearch, Docker
 * Machine Learning: TensorFlow, PyTorch, Theano, Anaconda, Jupyter Notebook, CUDA
