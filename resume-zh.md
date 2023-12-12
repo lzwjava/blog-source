@@ -38,14 +38,14 @@ title:  "Resume"
 
 ### Freelancer Inc, 自由职业者 & 工程师, 2020.01 - 2021.11
 
-* 作为自由职业者进行了一些软件项目。项目包括一个关于LED显示屏公司的网站，一个在线技术面试平台（ShowMeBug）的一些模块等。使用的技术包括Ruby, Ruby On Rails, ElasticSearch, Docker, Netty等。
+* 作为自由职业者进行了一些软件项目。项目包括一个关于LED显示屏公司的网站，一个在线技术面试平台（ShowMeBug）的一些模块等。使用的技术包括Ruby, Ruby On Rails, Python, ElasticSearch, Docker, Netty等。
 * 写了一些技术博客并在网上分享。通过看Netflix和阅读书籍学习英语。解决了一些算法问题，并在Codeforces上参加了在线算法竞赛。
 
 ### 北京平方根科技有限公司, 创始人 & 工程师, 2016.07 - 2019.12
 
 * 从2018年1月到2019年12月，我领导了一个由大约20名全职或兼职员工组成的团队，为客户完成了近50个小型软件项目。这些项目包括小程序、应用程序、网站和游戏。收入超过了300万元人民币，利润超过了70万元人民币。在团队中，我负责项目谈判、项目管理以及部分软件开发工作。
 * 从2016年7月到2017年9月，我推出了一个名为"趣直播"的用于讲解软件工程的直播平台。一年内获得了近30000名用户。我首次创业，市场营销和软件开发主要由我自己完成。
-* 在这些年里，我使用了如PHP, Java, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, Spring Boot, MiniProgram, WeChat SDK和DevOps工具等技术。
+* 在这些年里，我使用了如PHP, Java, Python, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, Spring Boot, MiniProgram, WeChat SDK和DevOps工具等技术。
 
 ### LeanCloud, 软件工程师, 2014.07 - 2015.11
 
@@ -102,6 +102,7 @@ title:  "Resume"
 * leanchat-ios，一个 iOS 聊天应用程序，556次提交，使用 Objective-C
 * leanchat-android，一个 Android 聊天应用程序，412次提交，使用 Java
 * curiosity-courses，一个编程课程，215次提交，使用中文
+* feynman-lectures-mobi, 一个将latex转换为SVG以创建mobi电子书的工具，47次提交，Python
 * Creak，一个简单的 HTML 解析器，49次提交，使用 Swift
 * user-service，一个示例微服务项目，1次提交，使用 Java
 
