@@ -144,6 +144,7 @@ title:  "Resume"
 * [博客](https://lzwjava.github.io)
 * [Codeforces](https://codeforces.com/profile/lzwjava)
 * [UVa在线裁判](https://uhunt.onlinejudge.org/id/113519)
+* [Kaggle](https://www.kaggle.com/lzwjava)
 * [LinkedIn](https://www.linkedin.com/in/lzwjava)
 
 ## 期望
