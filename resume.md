@@ -24,7 +24,6 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Carefully analyzed and reimplemented some core parts around 50 example projects about machine learning, from PyTorch, Tensorflow tutorials, Coursera online courses or other open-source projects. Topics cover supervised learning (linear regression, logistic regression, neural networks, decision trees), unsupervised learning (clustering, anomaly detection), recommender systems, and reinforcement learning. 
 * Built neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, and Transformers, and tackled real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more.
 * Got two course completion certificates from Coursera about Machine Learning Specialization and Deep Learning Specialization, which DeepLearing.AI and Standford University provide.
-* Please check the below section on machine learning projects.
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
 * HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services, boasted around 2.9 million active users as of November 2022.
@@ -68,17 +67,6 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Ranked in the top 300 in 2011 Guangdong NOIP(National Olympiad in Informatics in Provinces).
 
 ## Projects
-
-### Machine Learning Projects
-
-* The below experimental projects are learned from other open-source projects. Carefully analyzed and wrote code from scratch by myself. Please check out https://github.com/lzwjava/neural-networks-and-zhiwei-learning.
-* Mnist Numpy, a simple neural network to recognize handwritten digits. Just used Numpy and manually calculated the gradients.
-* Mnist Torch, a simple neural network to recognize handwritten digits using the PyTorch framework.
-* Nanogpt, a simple and fast implementation for training and finetuning medium-sized GPTs.
-* Makemore, an autoregressive character-level language model for making more text.
-* Fast Neural Style, a PyTorch implementation of an algorithm for artistic style transfer. The algorithm can be used to mix the content of an image with the style of another image.
-* ImageNet, implements training of popular model architectures, such as ResNet, AlexNet, and VGG on the ImageNet dataset.
-* Time Sequence Prediction, a PyTorch project that uses two LSTMCell units to learn some sine wave signals starting at different phases.
 
 ### Corporate Projects
 
