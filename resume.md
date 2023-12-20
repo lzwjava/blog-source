@@ -21,8 +21,9 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer Inc, Freelancer & Machine Learning Engineer, 2023.07 - Present
 
-* Carefully analyzed and reimplemented some core parts around 50 example projects about machine learning, from PyTorch, Tensorflow tutorials, Coursera online courses or other open-source projects. Topics cover supervised learning (linear regression, logistic regression, neural networks, decision trees), unsupervised learning (clustering, anomaly detection), recommender systems, and reinforcement learning. Built neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, and Transformers, and tackled real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more.
-* Got two course completion certificates from Coursera about Machine Learning Specialization and Deep Learning Specialization, which DeepLearing.AI and Standford University provide. 
+* Carefully analyzed and reimplemented some core parts around 50 example projects about machine learning, from PyTorch, Tensorflow tutorials, Coursera online courses or other open-source projects. Topics cover supervised learning (linear regression, logistic regression, neural networks, decision trees), unsupervised learning (clustering, anomaly detection), recommender systems, and reinforcement learning. 
+* Built neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, and Transformers, and tackled real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more.
+* Got two course completion certificates from Coursera about Machine Learning Specialization and Deep Learning Specialization, which DeepLearing.AI and Standford University provide.
 * Please check the below section on machine learning projects.
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
@@ -137,6 +138,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * [Blog](https://lzwjava.github.io)
 * [Codeforces](https://codeforces.com/profile/lzwjava)
 * [UVa Online Judge](https://uhunt.onlinejudge.org/id/113519)
+* [Kaggle](https://www.kaggle.com/lzwjava)
 * [LinkedIn](https://www.linkedin.com/in/lzwjava)
 
 ## Certificates 
