@@ -20,9 +20,8 @@ title:  "Resume"
 
 ### Freelancer Inc, 自由职业者 & 机器学习工程师, 2023.07 - Present
 
-* 仔细分析并重新实现了约50个机器学习示例项目的一些核心部分，这些项目来自 PyTorch、Tensorflow 教程、在线课程或其他开源项目。主题涵盖监督学习（线性回归、逻辑回归、神经网络、决策树）、非监督学习（聚类、异常检测）、推荐系统和强化学习。构建了诸如卷积神经网络、递归神经网络、LSTM 和变换器等神经网络架构，并解决了真实世界案例，如语音识别、音乐合成、聊天机器人、机器翻译、自然语言处理等。
+* 仔细分析并重新实现了约50个机器学习示例项目的一些核心部分，这些项目来自 PyTorch、Tensorflow 教程、在线课程或其他开源项目。主题涵盖监督学习（线性回归、逻辑回归、神经网络、决策树）、非监督学习（聚类、异常检测）、推荐系统和强化学习。* 构建了诸如卷积神经网络、递归神经网络、LSTM 和变换器等神经网络架构，并解决了真实世界案例，如语音识别、音乐合成、聊天机器人、机器翻译、自然语言处理等。
 * 从 Coursera 获得了两个课程完成证书，分别是由 DeepLearning.AI 与斯坦福大学提供的机器学习专业和深度学习专业课程。
-* 请查看以下机器学习项目部分。
 
 ### 法本信息 & 汇丰银行, 全栈工程师, 2022.11 - 2023.07
 * 汇丰银行是全球最大的银行和金融服务机构之一。PayMe是汇丰银行为香港居民提供的手机支付服务，拥有约290万活跃用户（截至2022年11月）。
@@ -67,17 +66,6 @@ title:  "Resume"
 
 ## 项目
 
-### 机器学习项目
-
-* 从其他开源项目中学到的一些实验性项目。自己从头开始仔细分析和编写代码。请查看 https://github.com/lzwjava/neural-networks-and-zhiwei-learning。
-* Mnist Numpy，一个重新识别手写数字的简单神经网络。只需使用 Numpy 并手动计算梯度。
-* Mnist Torch，使用 pytorch 框架识别手写数字的简单神经网络。
-* Nanogpt, 用于训练和微调中型 GPT 的简单而快速的实现。
-* Makemore, 一种自回归字符级语言模型，用于制作更多文本。
-* Fast Neural Style, pytorch 实现的艺术风格转换算法。该算法可用于将一幅图像的内容与另一幅图像的风格混合在一起。
-* ImageNet, 在 ImageNet 数据集上实现对 ResNet、AlexNet 和 VGG 等流行模型架构的训练。
-* Time Sequence Prediction，这是一个 pytorch 项目，使用两个 LSTMCell 单元来学习一些从不同阶段开始的正弦波信号。
-
 ### 公司项目
 
 * 汇丰银行的PayMe项目。参与了自动充值功能和云迁移的后端开发。使用的技术栈包括Java、Spring Cloud、Azure和AWS。从2022年11月到2023年7月。
@@ -94,7 +82,7 @@ title:  "Resume"
 ### 开源、博客、Codeforces, 2013-09 至今
 
 * 以下是我的一些开源项目。请在这里查看，https://github.com/lzwjava。
-* neural-networks-and-zhiwei-learning，机器学习实践项目，430次提交，使用 Python
+* neural-networks-and-zhiwei-learning，机器学习实践项目，530次提交，使用 Python
 * uva，算法问题解答，2466次提交，使用 Java
 * lzwjava.github.io，我的博客，1537次提交，使用英文和中文
 * live-server，一个在线教育平台的后端，660次提交，使用 PHP
@@ -144,6 +132,7 @@ title:  "Resume"
 * [博客](https://lzwjava.github.io)
 * [Codeforces](https://codeforces.com/profile/lzwjava)
 * [UVa在线裁判](https://uhunt.onlinejudge.org/id/113519)
+* [Kaggle](https://www.kaggle.com/lzwjava)
 * [LinkedIn](https://www.linkedin.com/in/lzwjava)
 
 ## 期望
