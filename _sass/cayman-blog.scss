@@ -1,8 +1,9 @@
-$section-headings-color: #6b6053;
+$section-headings-color: #3b3b3b;
 $header-bg-color: #f8f0e3;
-$main-bg-color: #f8f0e3;
+$main-bg-color: #fff;
 $pre-bg-color: #e0d9cf;
-$date-color: #968576;
+$date-color: darkgray;
+$section-link-color: #2a6496;
 
 .page-header {
   background-color: $main-bg-color;
@@ -35,7 +36,7 @@ $date-color: #968576;
   }
 
   hr {
-    background-color: #ebe3d9;
+    background-color: #eff0f1;
   }
 
 }
@@ -51,7 +52,7 @@ $date-color: #968576;
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-  color: $section-headings-color;
+  color: $section-link-color;
 }
 
 .circular-image {
@@ -119,7 +120,7 @@ ul.post-list li::before {
   }
 
   a {
-    color: #a39481;
+    color: $section-link-color;
   }
 }
 
