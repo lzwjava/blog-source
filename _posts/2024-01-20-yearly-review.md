@@ -7,7 +7,7 @@ How to summarize my experience in 2023? Is it succesful or not? How to measure i
 
 Around November 2022, I got two offers from two companies whose client is a big bank. They compete for me. One is give me around 27k CNY salary a month, another is 32k CNY salary a month. I choosed to join the second one. The previous job I took gave me the monthly salary around 22k. So I got the salary increase about 50%. I felt pretty good at the start of this year.
 
-Though I already got the salary of 25k a month in 2017, it has no much increase comparing that. I know, another 5 years passed, I growed. And comparing previous Chinese statup job and my startup company business, now my daily hour rate was higher than ever. My brain was sharper than ever.
+Though I already got the salary of 25k a month in 2017, it has no much increase comparing that. I know, another 5 years passed, I growed. And comparing previous Chinese statup jobs and my startup company business, now my daily hour rate was higher than ever. My brain was sharper than ever.
 
 And because of 3 years of COVID period, I seldom go to travel. So when coming back from Xining, my hometown, I began to travel for some places using my DJI Drone to shoot some scenarios. I went to the tower of Guangzhou and then I made a short video.
 
@@ -42,4 +42,30 @@ I learned a lot in this journey. Let me describe about some technical lessons.
 And during this time, ChatGPT is hot. I began to read the book "Neural Networks and Deep Learning". Around the June, I read probably half of it. I felt I begin to understand them. Then I tried to implement the neural network from scratch. At the first time, the progress was really slow. There is like 50 lines of MNIST loader code. We use pickle function to load the data, and separate it to training data and validation data. And we make the shape like (784, 1).
 
 For such simple code, I reimplemented it for 5 times to finally grasp it. And then I try to implement the neural network part. 
+
+For the neural network part, the back propagation function and mini batch updating is hard for me to grasp regarding to every detail. I tried to write down what I know to understand the detail. 
+
+In July, somehow I left the current job. I wrote down some articles to help me know what should I do in next years. Then I built a deep learning computer. It reminded me about in 2022, how I do the car maintainance by pumping out the engine oil and filling out the fresh one. It also reminded me that how I connect the circuit to make the LED shining according to the sound level of the music.
+
+At that time, I found that some colleagues or friends delete me or remove connection with me in WeChat or LinkedIn. I don't know whether I publish too much recently. Though of course the highlight points of repost words of my articles in WeChat moments are not good. The reading experience is poor. My wife told me that I always want people respect me and I don't respect them often.
+
+My heart is good that I want people be better and better. But it is wrong that not all people really want to be better and better. The learning is hard. 
+
+So one of my problem is giving too many advices. In recent one year, suggesting people to learn English and learn something about AI to better prepare the future. I should only give advices when they ask to. I make myself kind of transparent to provide useful information. The truth is often kind of harsh.
+
+But the ego is the enemy of growth. After I left the job, I thought I did well in this job but the feedback was only that I am ok to finish the job. At that time, I couldn't accept what it mean. Only after half a year, I could appreciate what it says.
+
+In the journey from Guangzhou to Lhasa Tibet, the scene is very good. I think out a lot of ideas during this journey. One is that we may need to make an audio AI-powered IDE, which you can write code when you drive. 
+
+Using drone to record the beautiful views is kind of trouble. Because it takes time and one time shooting costs me about half an hour. But often you encounter very beautiful views and just couldn't help to record videos of them from the air to share with your friends.
+
+In the journey, I was kind of boring after some days. Because I had taken the road trip of long distance before. I thought out an new idea. I wanted to be a woman to gain new experiences. This thought really excites me. So when I reached the big city Kunming, I bought some clothes for women, and even bought a new pair of eye glasses to look feminine.
+
+So I dressed like a woman. In the elevator, I met two girls, who seems high school students were discussing about manicure. And the door opened, I said that I wanted to do it too. And they went out and one girl looked back to me and stonished to say to her friend that might be a girl? 
+
+I had never encountered this in my life. It was really thrilling. We can only have new discovery when we do new things.
+
+In the Kunming, I found a shop to buy wig. But it was expensive that it need around 1000 CNY. After I went back to Guangzhou, I bought more clothes of women style, and bought wig. After I posting my feminine video to the social media, my classmate commented that the feminine version of myself was really alike my sister.
+
+During the journey, I asked help of tow truck service for serveral times. The reason was that the charging stations are few in Tibet. And the distance between them are often 100km long. And in the charging stations, the chargers are probably not many. So if they couldn't work, you need to drive to next charging station.
 
