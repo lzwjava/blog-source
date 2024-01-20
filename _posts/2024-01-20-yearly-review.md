@@ -13,7 +13,7 @@ And because of 3 years of COVID period, I seldom to go to travel. So when coming
 
 The interesting thing about that short video is that the background music rhyme of the video is matched to the lights alongside the river in some point. At that time, the rhyme changes, the lights change from on to off. 
 
-And then about a month, every weekend I went outside, mainly around Greater Bay Area in China. Zhuhai, Dongguan, Macau, Beihai, Zhaoqing, Qingyuan. And I practice to use DJI Drone to take arial views. 
+And then about a month, every weekend I went outside, mainly around Greater Bay Area in China. Zhuhai, Dongguan, Macau, Beihai, Zhaoqing, Qingyuan. And I practice to use DJI Drone to take arieal views. 
 
 The most nervous moments is that when I was in Macao, when I took the scenario in a place nearby a lake. I remoted control the DJI Drone to fly above the lake. However, the drone began to drop down. I remoted control it to fly from the above the land to the lake. Suddenly, the distance between it and the below surface was changed. It may be lead to some problems and make it begin to drop. I was nervous and quickly want to grasp it with my hand as it is still nearby the
 
@@ -21,7 +21,7 @@ The new job I do is about a payment app. I helped do some backend development us
 
 I learned a lot in this journey. Let me describe about some technical lessons.
 
-* Software architecture is very important. The microservice structure is better than monolithic application for large backend application. It is better to develop and deploy the code. We should think about how we structure the code in the long term view. 
+* Software architecture is very important. The microservice structure is often better than monolithic application for large backend application. It is better to develop and deploy the code. We should think about how we structure the code in the long term view. 
 
 * Azure EventHub Kafka propeties config is important. If we do it wrong, we may lose messages when the microservices scale up.
 
