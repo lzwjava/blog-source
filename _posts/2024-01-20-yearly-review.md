@@ -17,7 +17,7 @@ And then about a month, every weekend I went outside, mainly around Greater Bay 
 
 The most nervous moments is that when I was in Macao, when I took the scenario in a place nearby a lake. I remoted control the DJI Drone to fly above the lake. However, the drone began to drop down. I remoted control it to fly from the above the land to the lake. Suddenly, the distance between it and the below surface was changed. It may be lead to some problems and make it begin to drop. I was nervous and quickly want to grasp it with my hand as it is still nearby the
 
-The new job I do is about a payment app. I helped do some backend development using Java, Spring, Spring Cloud, Azure and do some AWS migration.
+The new job I do is about a payment app. I helped do some backend development using Java, Spring, Spring Cloud, Azure and do a little about AWS migration.
 
 I learned a lot in this journey. Let me describe about some technical lessons.
 
@@ -25,7 +25,7 @@ I learned a lot in this journey. Let me describe about some technical lessons.
 
 * Azure EventHub Kafka propeties config is important. If we do it wrong, we may lose messages when the microservices scale up.
 
-* Sometimes, We can check the build.log of the IDEA to fix bug.
+* Sometimes, we can check the build.log of the IDEA to fix bug.
 
 * Every line of the code matters. We can directly jump to the location of the new code to check and suspect. Like why the log here isn't printed out.
 
