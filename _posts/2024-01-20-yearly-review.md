@@ -15,7 +15,7 @@ The interesting thing about that short video is that the background music rhyme 
 
 And then about a month, every weekend I went outside, mainly around Greater Bay Area in China. Zhuhai, Dongguan, Macau, Beihai, Zhaoqing, Qingyuan. And I practice to use DJI Drone to take arieal views. 
 
-The most nervous moments is that when I was in Macao, when I took the scenario in a place nearby a lake. I remoted control the DJI Drone to fly above the lake. However, the drone began to drop down. I remoted control it to fly from the above the land to the lake. Suddenly, the distance between it and the below surface was changed. It may be lead to some problems and make it begin to drop. I was nervous and quickly want to grasp it with my hand as it is still nearby the
+The most nervous moments is that when I was in Macao, when I took the scenario in a place nearby a lake. I remoted control it to fly from the above the land to above the lake.  However, the drone began to drop down. Suddenly, the distance between it and the below surface was changed. It may be lead to some problems and make it begin to drop. I was nervous and quickly want to grasp it with my hand as it is still nearby the
 
 The new job I do is about a payment app. I helped do some backend development using Java, Spring, Spring Cloud, Azure and do a little about AWS migration.
 
