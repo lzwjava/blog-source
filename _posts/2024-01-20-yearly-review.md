@@ -39,7 +39,7 @@ I learned a lot in this journey. Let me describe about some technical lessons.
 
 * Life is connecting dots. Debuging or coding is about connecting messages. To fix the bug of the backend code, we can check the frontend code too. My commitment in Anroid and iOS development between 2013 to 2015 was not a matter of wasting time though now I worked mainly as backend developer. 
 
-And during this time, ChatGPT is hot. I began to read the book "Neural Networks and Deep Learning". Around the June, I read probably half of it. I felt I begin to understand them. Then I tried to implement the neural network from scratch. At the first time, the progress was really slow. There is like 50 lines of MNIST loader code. We use pickle function to load the data, and separate it to training data and validation data. And we make the shape like (784, 1).
+And during this time, ChatGPT was hot. I began to read the book "Neural Networks and Deep Learning". Around the June, I read probably half of it. I felt I begin to understand them. Then I tried to implement the neural network from scratch. At the first time, the progress was really slow. There is like 50 lines of MNIST loader code. We use pickle function to load the data, and separate it to training data and validation data. And we make the shape like (784, 1).
 
 For such simple code, I reimplemented it for 5 times to finally grasp it. And then I try to implement the neural network part. 
 
