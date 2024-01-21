@@ -59,7 +59,7 @@ In the journey from Guangzhou to Lhasa Tibet, the scene is very good. I think ou
 
 Using drone to record the beautiful views is kind of trouble. Because it takes time and one time shooting costs me about half an hour. But often you encounter very beautiful views and just couldn't help to record videos of them from the air to share with your friends.
 
-In the journey, I was kind of boring after some days. Because I had taken the road trip of long distance before. I thought out an new idea. I wanted to be a woman to gain new experiences. This thought really excites me. So when I reached the big city Kunming, I bought some clothes for women, and even bought a new pair of eye glasses to look feminine.
+In the journey, I was kind of boring after some days. Because I had taken the road trip of long distance before. I thought out an new idea. I wanted to be a woman to gain new experiences. This thought really excited me. So when I reached the big city Kunming, I bought some clothes for women, and even bought a new pair of eye glasses to look feminine.
 
 So I dressed like a woman. In the elevator, I met two girls, who seems high school students were discussing about manicure. And the door opened, I said that I wanted to do it too. And they went out and one girl looked back to me and stonished to say to her friend that might be a girl? 
 
