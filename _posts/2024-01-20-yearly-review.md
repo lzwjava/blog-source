@@ -7,7 +7,7 @@ How to summarize my experience in 2023? Is it succesful or not? How to measure i
 
 Around November 2022, I got two offers from two companies whose client is a big bank. They compete for me. One is give me around 27k CNY salary a month, another is 32k CNY salary a month. I choosed to join the second one. The previous job I took gave me the monthly salary around 22k. So I got the salary increase about 50%. I felt pretty good at the start of this year.
 
-Though I already got the salary of 25k a month in 2017, it has no much increase comparing that. I know, another 5 years passed, I growed. And comparing previous Chinese statup jobs and my startup company business, now my daily hour rate was higher than ever. My brain was sharper than ever.
+Though I already got the salary of 25k a month in 2017, it has no much increase comparing that. I know, another 5 years passed, I grew. And comparing previous Chinese statup jobs and my startup company business, now my daily hour rate was higher than ever. My brain was sharper than ever.
 
 And because of 3 years of COVID period, I seldom go to travel. So when coming back from Xining, my hometown, I began to travel for some places using my DJI Drone to shoot some scenarios. I went to the tower of Guangzhou and then I made a short video.
 
