@@ -85,7 +85,17 @@ I noticed that at the later phase, I began to lose patience. I even used ChatGPT
 
 So I began to understand a little more about recurrent neural network, recommender systems, reinforcement learning. But it should be still shallow understanding without thinking out the code by my own.
 
-I began to take some Kaggle competions. I took 4 competations as of Jan 2023. It was really funny to writ some PyTorch code to solve problems. 
+I began to take some Kaggle competions. I took 4 competions as of Jan 2023. It was really funny to write out some PyTorch code to solve problems. I recorded all these learning process in my GitHub project which named neural-networks-and-zhiwei-learning. It has 533 commits as of today.
 
-I recorded all these learning process in my GitHub project which named neural-networks-and-zhiwei-learning. It has 533 commits as of today.
+I started to self doubt my switch to machine learning field as I have 1.25 million CNY of debt or mortgage. Jobless becomes painful.
+
+My father gave me 45000 CNY to spend this hard time. My wife began to help me pay half of monthly mortgage payments. I began to apply full stack engineer or data engineer job. I did the test of the data engineer contractor position of Standard Chartered bank. This is my first time to do such test of this position. I knew the problems are easy but I just couldn't give good answer to them.
+
+I attended the interview of the full stack engineer position of Standard Chartered bank. Failing to answer some basic knowledge of JVM made me embarrassed.
+
+One of the lesson is to my field, for the long term view, I should prepare for the interview questions better. I should read the related materials again and again and do some experiements. 
+
+I was questioning my decision to buy house last year. I already knew the strategy of China government to develop economy by making the China a big construction land couldn't continue. The 10 years in 2020 to 2030 of China will collapse without falling apart. There was a famous book about it. I followed the author in Twitter for long time and trust what she says. I thought that I learned English well to work for global companies will saved me in this bad economics. 
+
+I seems wrong. The market value of my house in Guangzhou dropped down from around 2 million to around 1.7 million. It made the case worsen. But not only me, a lot of people are suffering. And the recruiters told me that China and the global economics are bad in this year. There were many layoffs. 
 
