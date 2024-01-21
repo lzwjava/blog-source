@@ -89,9 +89,9 @@ I began to take some Kaggle competions. I took 4 competions as of Jan 2023. It w
 
 I started to self doubt my switch to machine learning field as I have 1.25 million CNY of debt or mortgage. Jobless becomes painful.
 
-My father gave me 45000 CNY to spend this hard time. My wife began to help me pay half of monthly mortgage payments. I began to apply full stack engineer or data engineer job. I did the test of the data engineer contractor position of Standard Chartered bank. This is my first time to do such test of this position. I knew the problems are easy but I just couldn't give good answer to them.
+My father gave me 45000 CNY to spend this hard time. My wife began to help me pay half of monthly mortgage payments. I began to apply full stack engineer or data engineer job. I did the test of the data engineer contractor position of a British multinational bank. This is my first time to do such test of this position. I knew the problems are easy but I just couldn't give good answer to them.
 
-I attended the interview of the full stack engineer position of Standard Chartered bank. Failing to answer some basic knowledge of JVM made me embarrassed. 
+I attended the interview of the full stack engineer position of a British multinational bank. Failing to answer some basic knowledge of JVM made me embarrassed. 
 
 The interesting thing in this time was that just one company invited me to take interviews of machine learning job, I couldn't get more interviews. And I started to find some full stack engineer positions, I was invited to interview onsite by a startup in Guangzhou who is doing social network app for the Latin people. They wanted me to help with full stack engineering, plus some blockchain and artificial intelligence. It was funny. Sometimes, job hunting needs some flexiability.
 
@@ -107,7 +107,7 @@ This is another major failure in my life. I have more understanding about who ga
 
 When people experienced pain, they refected and gained wisdom. I will take my bachelor degree more seriously. I took 12 times of the exams, but just passed with 4 exams. I didn't prepare them well because I was busy with machine learning stuff. But actually they were much more important to make me popular in the job market.
 
-My case is still not incurable. I am still waiting for some recent interview results of the contractor jobs of some big banks. I am still a little capble in the English jobs in China. And I observed that there appears more Englsh jobs in China as a lot of companies are cutting cost.
+My case is still not incurable. I am still waiting for some recent interview results of the contractor jobs of some big banks. I am still a little capble in the English jobs in China. And I observed that there appears more Englsh jobs in China as a lot of global companies are cutting cost.
 
 Let me write down some reflection to myself. It will be better if younger people see it.
 
