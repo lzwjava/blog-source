@@ -65,7 +65,7 @@ So I dressed like a woman. In the elevator, I met two girls, who seems high scho
 
 I had never encountered this in my life. It was really thrilling. We can only have new discovery when we do new things.
 
-In the Kunming, I found a shop to buy wig. But it was expensive that it need around 1000 CNY. After I went back to Guangzhou, I bought more clothes of women style, and bought wig. After I posting my feminine video to the social media, my classmate commented that the feminine version of myself was really alike my sister.
+In the Kunming, I found a shop to buy wig. But it was expensive that it need around 1000 CNY. After I went back to Guangzhou, I bought more clothes of women style, and bought wig. After I post my feminine video to the social media, my classmate commented that the feminine version of myself was really alike my sister.
 
 During the journey, I asked help of tow truck service for serveral times. The reason was that the charging stations are few in Tibet. And the distance between them are often 100km long. And in the charging stations, the chargers are probably not many. So if they couldn't work, you need to drive to next charging station.
 
