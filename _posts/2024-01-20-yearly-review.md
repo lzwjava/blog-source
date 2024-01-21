@@ -103,8 +103,21 @@ It seems wrong. The market value of my house in Guangzhou dropped down from arou
 
 My family didn't agree to sell my house. I started to sell my car to make the case a little better. They gave me the price about 45000 CNY of my car. It was just half of the original price after using it with one year. My familiy didn't allow me to do that too.
 
-This is another major failure in my life. I have more understanding about who gave my money and who stole my money, and what is good and bad, who made my life easy and who made my life difficult.
+This is another major failure in my life. I have more understanding about who gave me money and who stole my money, and what is good and bad, who made my life easy and who made my life difficult.
 
-When people experienced pain, they gained wisdom. I will take my bachelor degree more seriously. I took 3 times of the exam, attended around 12 courses, but just passed with 4 courses. I didn't prepare them well because I was busy with machine learning stuff. But actually they are much more important to make me popular in the job market.
+When people experienced pain, they refected and gained wisdom. I will take my bachelor degree more seriously. I took 12 times of the exams, but just passed with 4 exams. I didn't prepare them well because I was busy with machine learning stuff. But actually they were much more important to make me popular in the job market.
 
-My case is still not incurable. I am still waiting for some recent interview results of the contractor jobs of some big banks. 
+My case is still not incurable. I am still waiting for some recent interview results of the contractor jobs of some big banks. I am still a little capble in the English jobs in China. And I observed that there appears more Englsh jobs in China as a lot of companies are cutting cost.
+
+Let me write down some reflection to next generation.
+
+Be more honest. The eyes of people are sharp. Don't cheat. Joined more authoritative examination to know your ability. Explore the world a lot to have more objective views about things. Value difference and instead of insisting one kind of opinion. Though colleage degrees are not important in Silicon Valley, it doesn't mean they are not in China. 
+
+Be pratical and try to survive in your surroundings first. If your scores are not expected as you want, it is not the problems of the exam, it is your problem. If you don't pass interview, it is not the problem of the interviewer, it is your problem. Technology is the future instead of the house. House and land are just everywhere. 
+
+Value the honest feedback in your surrounding, espcially those you trust and is more successful than you. They can know your ability. Instead of taking exam result or interview result too personally. You should think that it just means my ability is not good, it doesn't mean I am not good. My ability is poor but I can improve.
+
+One year ago, I received the interview feedback that my technical knowledge foundation is quite good, however, I still lack a bit of knowledge deepness. I didn't take too seriously. Now I knew they are correct.
+
+Though I started programming from 13, now I am 29, in these 16 years, my focus was scattered in algorithm, iOS, Android, backend, frontend, machine learing, English and other a lot of things. I just didn't have a very solid skill to get the job 100 percent in bad economics.
+
