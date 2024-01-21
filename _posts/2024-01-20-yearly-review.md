@@ -51,7 +51,7 @@ At that time, I found that some colleagues or friends delete me or remove connec
 
 My heart is good that I want people be better and better. But it is wrong that not all people really want to be better and better. The learning is hard. 
 
-So one of my problem is giving too many advices. In recent one year, suggesting people to learn English and learn something about AI to better prepare the future. I should only give advices when they ask to. I make myself kind of transparent to provide useful information. The truth is often kind of harsh.
+So one of my problems is giving too many advices. In recent one year, suggesting people to learn English and learn something about AI to better prepare the future. I should only give advices when they ask to. I make myself kind of transparent to provide useful information. The truth is often kind of harsh.
 
 But the ego is the enemy of growth. After I left the job, I thought I did well in this job but the feedback was only that I am ok to finish the job. At that time, I couldn't accept what it mean. Only after half a year, I could appreciate what it says.
 
