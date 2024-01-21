@@ -53,9 +53,9 @@ My heart is good that I want people be better and better. But it is wrong that n
 
 So one of my problems is giving too many advices. In recent one year, suggesting people to learn English and something about AI to better prepare the future. I should only give advices when they ask to. I make myself kind of transparent to provide useful information. The truth is often kind of harsh.
 
-But the ego is the enemy of growth. After I left the job, I thought I did well in this job but the feedback was only that I am ok to finish the job. At that time, I couldn't accept what it mean. Only after half a year, I could appreciate what it says.
+But the ego is the enemy of growth. After I left the job, I thought I did well in this job but the feedback was only that I am ok to finish the job. At that time, I couldn't accept what it means. Only after half a year, I could appreciate what it says.
 
-In the journey from Guangzhou to Lhasa Tibet, the scene is very good. I think out a lot of ideas during this journey. One is that we may need to make an audio AI-powered IDE, which you can write code when you drive. 
+In the journey from Guangzhou to Lhasa Tibet, the scene was very good. I think out a lot of ideas during this journey. One is that we may need to make an audio AI-powered IDE, which you can write code when you drive. 
 
 Using drone to record the beautiful views is kind of trouble. Because it takes time and one time shooting costs me about half an hour. But often you encounter very beautiful views and just couldn't help to record videos of them from the air to share with your friends.
 
