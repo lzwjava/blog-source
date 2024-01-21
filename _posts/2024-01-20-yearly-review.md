@@ -109,15 +109,19 @@ When people experienced pain, they refected and gained wisdom. I will take my ba
 
 My case is still not incurable. I am still waiting for some recent interview results of the contractor jobs of some big banks. I am still a little capble in the English jobs in China. And I observed that there appears more Englsh jobs in China as a lot of companies are cutting cost.
 
-Let me write down some reflection to next generation.
+Let me write down some reflection to myself. It will be better if younger people see it.
 
-Be more honest. The eyes of people are sharp. Don't cheat. Joined more authoritative examination to know your ability. Explore the world a lot to have more objective views about things. Value difference and instead of insisting one kind of opinion. Though colleage degrees are not important in Silicon Valley, it doesn't mean they are not in China. 
+> Be more honest. The eyes of people are sharp. Don't cheat. Joined more authoritative examination to know your ability. Explore the world a lot to have more objective views about things. Value difference and instead of insisting one kind of opinion. Though colleage degrees are not important in Silicon Valley, it doesn't mean they are not in China. 
 
-Be pratical and try to survive in your surroundings first. If your scores are not expected as you want, it is not the problems of the exam, it is your problem. If you don't pass interview, it is not the problem of the interviewer, it is your problem. Technology is the future instead of the house. House and land are just everywhere. 
+> Be pratical and try to survive in your surroundings first. If your scores are not expected as you want, it is not the problems of the exam, it is your problem. If you don't pass interview, it is not the problem of the interviewer, it is your problem. Technology is the future instead of the house. House and land are just everywhere. 
 
-Value the honest feedback in your surrounding, espcially those you trust and is more successful than you. They can know your ability. Instead of taking exam result or interview result too personally. You should think that it just means my ability is not good, it doesn't mean I am not good. My ability is poor but I can improve.
+> Value the honest feedback in your surrounding, espcially those you trust and is more successful than you. They can know your ability. Instead of taking exam result or interview result too personally. You should think that it just means my ability is not good, it doesn't mean I am not good. My ability is poor but I can improve.
+
+> Don't need to be too happy when you are successful. Save more money. To have more empathy about what happen in the world. Help people but with patience. Don't force anything though sometimes your solution seems better. 
+
 
 One year ago, I received the interview feedback that my technical knowledge foundation is quite good, however, I still lack a bit of knowledge deepness. I didn't take too seriously. Now I knew they are correct.
 
 Though I started programming from 13, now I am 29, in these 16 years, my focus was scattered in algorithm, iOS, Android, backend, frontend, machine learing, English and other a lot of things. I just didn't have a very solid skill to get the job 100 percent in bad economics.
 
+When I was upset and anxious recently, my wife sent me the video of my daughter who sing the English animation song. She is about to 3 years old. And she can sing like "Sister figure, Sister figure", "Sister shark and sister shark". I know her life will be much easier. It seems her English will be fluent around 18 years instead of her father did it at around 27 years old. 
