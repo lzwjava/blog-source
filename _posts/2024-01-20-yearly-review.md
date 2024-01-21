@@ -73,7 +73,7 @@ And in the return journey, I drove my car to the canal unintentionally. There wa
 
 So this 8000km distance journey is happy and sad at the same time. I had 6 accidents in the journey, 4 of them were about no electricty in the mountains area, one is that I drove fast to hit a hole to make the tire blew out, the last is that I drove the car to the canal untentionally. The happy thing is that the scene and the people I met in the journey.
 
-And in the journey, I attended an interview of full stack engineer position (Base HK) from OCBC Bank. This is the first interview I atteneded outside the China.
+And in the journey, I attended an interview of full stack engineer position (Base HK) from a Singaporean multinational bank. This is the first interview I atteneded which based outside the China.
 
 After returning from the Tibet, I continued to learn something about machine learning. I began to watch the nanoGPT video made by Andrej Karpathy again and again. And I tried to type out the code by myself. I still didn't understand. I printed out around 30 papers to learn. I read the book "Programming PyTorch for Deep Learning". I found more example projects or tutorials from PyTorch to learn.And then all these things become a little apparent to me. 
 
