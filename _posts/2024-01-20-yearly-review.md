@@ -83,7 +83,7 @@ It gave me confidence about my move to machine learning. And then I attended the
 
 I noticed that at the later phase, I began to lose patience. I even used ChatGPT to find out the answer of some homework. I was urgent to get these certificates to find machine learning jobs. This was bad behavior. The people who deeply understand the knowledge can know the people who don't. And I became aware of the knowledge gap between me and the qualified machine learning engineer. It may still needs one year for me. And the sad news was that in the market, there were no many positions for the junior machine learning  engineer. I stopped taking more certificates after taking two certificates with some cheating. And I learned the homework code which ChatGPT helped me to do in the weekend accompanying my daughter to play in the children center. It made me feel better.
 
-So I began to understand a little more about recurrent neural network, recommender systems, reinforcement learning. But it should be still shallow understanding without thinking out the code by my own.
+So I began to understand a little more about recurrent neural network, recommender systems, reinforcement learning. But it should be still shallow understanding without thinking out the code by my own. I need to learn that material well in the future to fix this cheating matter.
 
 I began to take some Kaggle competions. I took 4 competions as of Jan 2023. It was really funny to write out some PyTorch code to solve problems. I recorded all these learning process in my GitHub project which named neural-networks-and-zhiwei-learning. It has 533 commits as of today.
 
@@ -91,11 +91,20 @@ I started to self doubt my switch to machine learning field as I have 1.25 milli
 
 My father gave me 45000 CNY to spend this hard time. My wife began to help me pay half of monthly mortgage payments. I began to apply full stack engineer or data engineer job. I did the test of the data engineer contractor position of Standard Chartered bank. This is my first time to do such test of this position. I knew the problems are easy but I just couldn't give good answer to them.
 
-I attended the interview of the full stack engineer position of Standard Chartered bank. Failing to answer some basic knowledge of JVM made me embarrassed.
+I attended the interview of the full stack engineer position of Standard Chartered bank. Failing to answer some basic knowledge of JVM made me embarrassed. 
+
+The interesting thing in this time was that just one company invited me to take interviews of machine learning job, I couldn't get more interviews. And I started to find some full stack engineer positions, I was invited to interview onsite by a startup in Guangzhou who is doing social network app for the Latin people. They wanted me to help with full stack engineering, plus some blockchain and artificial intelligence. It was funny. Sometimes, job hunting needs some flexiability.
 
 One of the lesson is to my field, for the long term view, I should prepare for the interview questions better. I should read the related materials again and again and do some experiements. 
 
-I was questioning my decision to buy house last year. I already knew the strategy of China government to develop economy by making the China a big construction land couldn't continue. The 10 years in 2020 to 2030 of China will collapse without falling apart. There was a famous book about it. I followed the author in Twitter for long time and trusted what she says. I thought that I learned English well to work for global companies will saved me in this bad economics. 
+I was questioning my decision to buy house last year. I already knew the strategy of China government to develop economy by making the China a big construction land couldn't continue in 2019. The 10 years in 2020 to 2030 of China will collapse without falling apart. There was a famous book about it. I followed the author in Twitter for long time and trusted what she says. I thought that I learned English well to work for global companies will save me in this bad economics. 
 
-I seems wrong. The market value of my house in Guangzhou dropped down from around 2 million to around 1.7 million. It made the case worsen. But not only me, a lot of people are suffering. And the recruiters told me that China and the global economics are bad in this year. There were many layoffs. 
+It seems wrong. The market value of my house in Guangzhou dropped down from around 2 million to around 1.7 million. It made the case worse. But not only me, a lot of people are suffering. And the recruiters told me that China and the global economics are bad recently. There were many layoffs. 
 
+My family didn't agree to sell my house. I started to sell my car to make the case a little better. They gave me the price about 45000 CNY of my car. It was just half of the original price after using it with one year. My familiy didn't allow me to do that too.
+
+This is another major failure in my life. I have more understanding about who gave my money and who stole my money, and what is good and bad, who made my life easy and who made my life difficult.
+
+When people experienced pain, they gained wisdom. I will take my bachelor degree more seriously. I took 3 times of the exam, attended around 12 courses, but just passed with 4 courses. I didn't prepare them well because I was busy with machine learning stuff. But actually they are much more important to make me popular in the job market.
+
+My case is still not incurable. I am still waiting for some recent interview results of the contractor jobs of some big banks. 
