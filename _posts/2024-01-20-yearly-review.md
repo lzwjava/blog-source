@@ -81,9 +81,11 @@ I began to apply jobs of machine leaning positions. And finally, I got an interv
 
 It gave me confidence about my move to machine learning. And then I attended the courses in the Coursera platform to get some certificates. I took two, Machine Learning Specialization and Deep Learning Specialization. I didn't watch much videos because I thought I already knew something. I found that the homework about writing code about neural network to recognize MNIST dataset is easy to me. Because I really learned carefully about this before.
 
-I noticed that at the later phase, I began to lose patience. I even used ChatGPT to find out the answer of some homework. I was urgent to get these certificates to find machine learning jobs. This was bad behavior. The people who deeply understand the knowledge can know the people who don't. And I became aware of the knowledge gap between me and the qualified machine learning engineer. It may still needs one year for me. And the sad news was that in the market, there were no many positions for the junior machine learning  engineer. I stopped taking more certificates after taking two certificates with some cheating. And I began to learn the homework code which ChatGPT helped me to do in the weekend accompanying my daughter to play in the children center.
+I noticed that at the later phase, I began to lose patience. I even used ChatGPT to find out the answer of some homework. I was urgent to get these certificates to find machine learning jobs. This was bad behavior. The people who deeply understand the knowledge can know the people who don't. And I became aware of the knowledge gap between me and the qualified machine learning engineer. It may still needs one year for me. And the sad news was that in the market, there were no many positions for the junior machine learning  engineer. I stopped taking more certificates after taking two certificates with some cheating. And I learned the homework code which ChatGPT helped me to do in the weekend accompanying my daughter to play in the children center. It made me feel better.
 
-So I began to understand more about recurrent neural network, recommender systems, reinforcement learning. But it should be still shallow understanding without thinking out the code by my own.
+So I began to understand a little more about recurrent neural network, recommender systems, reinforcement learning. But it should be still shallow understanding without thinking out the code by my own.
 
-I began to take some Kaggle competions. 
+I began to take some Kaggle competions. I took 4 competations as of Jan 2023. It was really funny to writ some PyTorch code to solve problems. 
+
+I recorded all these learning process in my GitHub project which named neural-networks-and-zhiwei-learning. It has 533 commits as of today.
 
