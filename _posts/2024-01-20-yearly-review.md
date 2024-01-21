@@ -73,3 +73,17 @@ And in the return journey, I drove my car to the canal unintentionally. There wa
 
 So this 8000km distance journey is happy and sad at the same time. I had 6 accidents in the journey, 4 of them were about no electricty in the mountains area, one is that I drove fast to hit a hole to make the tire blew out, the last is that I drove the car to the canal untentionally. The happy thing is that the scene and the people I met in the journey.
 
+And in the journey, I attended an interview of full stack engineer position (Base HK) from OCBC Bank. This is the first interview I atteneded outside the China.
+
+After returning from the Tibet, I continued to learn something about machine learning. I began to watch the nanoGPT video made by Andrej Karpathy again and again. And I tried to type out the code by myself. I still didn't understand. I printed out around 30 papers to learn. I read the book "Programming PyTorch for Deep Learning". I found more example projects or tutorials from PyTorch to learn.And then all these things become a little apparent to me. 
+
+I began to apply jobs of machine leaning positions. And finally, I got an interview of the position Speech Machine Learning Engineer of a startup in Guangzhou. It was interesting to join such interview. I shared my knowledge to others though they didn't reach out to me later. We talked about Openai Whisper. I happend to begin to learn about it but didn't made some progress.
+
+It gave me confidence about my move to machine learning. And then I attended the courses in the Coursera platform to get some certificates. I took two, Machine Learning Specialization and Deep Learning Specialization. I didn't watch much videos because I thought I already knew something. I found that the homework about writing code about neural network to recognize MNIST dataset is easy to me. Because I really learned carefully about this before.
+
+I noticed that at the later phase, I began to lose patience. I even used ChatGPT to find out the answer of some homework. I was urgent to get these certificates to find machine learning jobs. This was bad behavior. The people who deeply understand the knowledge can know the people who don't. And I became aware of the knowledge gap between me and the qualified machine learning engineer. It may still needs one year for me. And the sad news was that in the market, there were no many positions for the junior machine learning  engineer. I stopped taking more certificates after taking two certificates with some cheating. And I began to learn the homework code which ChatGPT helped me to do in the weekend accompanying my daughter to play in the children center.
+
+So I began to understand more about recurrent neural network, recommender systems, reinforcement learning. But it should be still shallow understanding without thinking out the code by my own.
+
+I began to take some Kaggle competions. 
+
