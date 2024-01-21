@@ -31,7 +31,7 @@ I learned a lot in this journey. Let me describe about some technical lessons.
 
 * We should do the right thing as early as possible. If something is wrong, the problem is always there and keeps making trouble to us.
 
-* It is hard to do the right thing. We should try it for a lot of ways and let the reality tell us what is best. We can only learn some precious lessons when we stay long enough. So it is important to keep notes about our decisions and reflect on them after some time. For the code too, it is same too.
+* It is hard to do the right thing. We should try it for a lot of ways and let the reality tell us what is best. We can only learn some precious lessons when we stay long enough. So it is important to keep notes about our decisions and reflect on them after some time. For the code, it is same too.
 
 * We should write down our technical notes and precious lessons correctly in time. After some time, you may forget what is exactly happen.
 
