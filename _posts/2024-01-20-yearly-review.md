@@ -136,7 +136,7 @@ And I decided to learn myself months ago before the college entrance exam. I was
 
 I talked with some high school students. They had same mind state. This feel of psychological gap was quite normal. That my life entered this trap of proving myself to get the expected result. My brain circuit was totally controlled by it. I became afraid of failure and cared more and more about my success instead of objective world, including those objective knowledge. I became self centered because it seems no matter how hard I try, I just couldn't survive. I became a robot to listen to learning materials every awaking time.
 
-Then I began to carefully read the blog of Yin Wang from 2020, who took 3 Phd education to pursue the truth. So it turned out that this world really exists some people who really want to learn a lot regardless scores or money. He shared his learning and question of the world. And of course many other people or colleages teaches me a lot.
+Then I began to carefully read the blog of Yin Wang from 2020, who took 3 Phd education to pursue the truth. So it turned out that this world really exists some people who really want to learn a lot regardless scores or money. He shared his learning and questions of the world. And of course many other people or colleages teaches me a lot.
 
 One of my previous mistakes that once I found what is best, company or people. I started to mesaure other kind of companies or people with the best standard. When I have conflicts with the third party, then I insist what I thought. Then it probably put people down. I should value more difference and look the good side of every things. 
 
