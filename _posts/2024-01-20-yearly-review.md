@@ -107,7 +107,7 @@ This is another major failure in my life. I have more understanding about who ga
 
 When people experienced pain, they refected and gained wisdom. I will take my bachelor degree more seriously. I took 12 times of the exams, but just passed with 4 exams. I didn't prepare them well because I was busy with machine learning stuff. But actually they were much more important to make me popular in the job market.
 
-My case is still not incurable. I am still waiting for some recent interview results of the contractor jobs of some big banks. I am still a little capble in the English jobs in China. And I observed that there appears more Englsh jobs in China as a lot of global companies are cutting cost.
+My case is still not incurable. I am still waiting for some recent interview results of the contractor jobs of some big banks. I am still a little capable in the English jobs in China. And I observed that there appears more Englsh jobs in China as a lot of global companies are cutting cost.
 
 Let me write down some reflection to myself. It will be better if younger people see it.
 
