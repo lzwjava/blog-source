@@ -3,6 +3,8 @@ layout: post
 title: "Year in Review: 2023"
 ---
 
+![img](/assets/images/review/tibet.jpg)
+
 How to summarize my experience in 2023? Is it successful or not? How to measure it? How do I feel about it? It is a 
 long story.
 
@@ -159,7 +161,7 @@ So I finally broke up with this school system in 2014 and I choosed to leave the
 expect to work in a startup without finishing my bachelor education. No matter how my parents stopped me at that time.
 
 I talked with some high school students. They had same mind state. This feel of psychological gap was quite normal. 
-That my life entered this trap of proving myself to get the expected result. My brain circuit was totally controlled by it. I became afraid of failure and cared more and more about my success instead of objective world, including those objective knowledge. I became self-centered because it seems no matter how hard I try, I just couldn't survive. I became a robot to listen to learning materials every minute of the awaking time. And if I got the success I want, I became too happy. And when I couldn't get the success I want, I became quite upset.
+Then my life entered this trap of proving myself to get the expected result. My brain circuit was totally controlled by it. I became afraid of failure and cared more and more about my success instead of objective world, including those objective knowledge. I became self-centered because it seems no matter how hard I try, I just couldn't survive. I became a robot to listen to learning materials every minute of the awaking time. And if I got the success I want, I became too happy. And when I couldn't get the success I want, I became quite upset.
 
 Then I began from 2020 to carefully read the blog of Yin Wang, who took 3 PhD education to pursue the truth. So it 
 turned out that this world really exists some people who really want to learn a lot. regardless scores or money. He 
