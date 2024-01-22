@@ -156,7 +156,7 @@ If we are unhappy, it is because we couldn't accept some things. The reality and
 
 I was kind of frustrated with the companies who rejected me of lacking my bachlor degrees without evaluating my ability in these years hunting the job. Now, I will say to them, thanks, it is fine. Because it was just learning thing and matter of time, and I was good at it. I really liked to learn some Calculus in Youtube Shorts.
 
-I so like the short videos. I downloaded the Indian short videos apps Moj and Josh to play for some days. Though now I mainly focus on Japanese, I would like to pick it up in next years.
+I so like the short videos. I downloaded the Indian short videos apps Moj and Josh to play for some days. Though now I mainly focus on Japanese, I would like to pick it up in the future.
 
 Thanks to the world. My well beings depends on other human beings. I hope my struggling story in this year can help you feel better if you are not good recently too.
 
