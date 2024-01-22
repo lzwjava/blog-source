@@ -138,7 +138,7 @@ I talked with some high school students. They had same mind state. This feel of 
 
 Then I began to carefully read the blog of Yin Wang from 2020, who took 3 Phd education to pursue the truth. So it turned out that this world really exists some people who really want to learn a lot regardless scores or money. He shared his learning and questions of the world. Though I shouldn't propagate of his unpopular idea of that human didn't go to the moon at 1969 to make my life troublesome sometimes, I should continue to gain his wisdom of software engineering in next years. And of course many other people or colleages teaches me a lot.
 
-One of my previous mistakes is that once I found what is best, company or people. I started to mesaure other companies or people with the best standard. When I have conflicts with the third party, then I insist what I thought. Then it probably put people down. I should value more difference and look the good side of every thing. 
+One of my previous mistakes is that once I found what is best, company or people. I started to mesaure other companies or people with the best standard. When I have conflicts with the third party, then I insist what I thought. Then it probably put people down or make them angry. I should value more difference and look the good side of every thing. 
 
 I try to reflect deeply on what made the pain in my brain, what made my life difficult, what happened in this world with all I see in this life.
 
@@ -158,13 +158,15 @@ I was kind of frustrated with the companies who rejected me of lacking my bachlo
 
 I so like the short videos. I downloaded the Indian short videos apps Moj and Josh to play for some days. Though now I mainly focus on Japanese, I would like to pick it up in the future.
 
+And in this period, I solved some algoritm problems of Codefoces. I now know better why I could not make it like top 100 in China in my middle school instead of just being top 300 in the Guangdong province. One reason is that I don't have confidence I think I can. The second reason is that I practice little with the hard problems. Now I have a different mindset. It is that I can do the hard problems easily with practice. I am not afraid of any hard problem. At least I will try to solve them by myself at first. I followed what Yin Wang says to reduce my myopia by 100 degrees a year to do things few people in this world know how to do. Why I couldn't these hard problems there are many people in this world could do? One is about binary indexed trees. I just read about 2 days of that 100 lines of code to think out what it means without any other explanation. Though I still didn't get some detail, but I know my brain is powerful to understand a lot by just thinking and running the code in my brain again and again, then I know its intention.
+
 Thanks to the world. My well beings depends on other human beings. I hope my struggling story in this year can help you feel better if you are not good recently too.
 
 Instead of needing the help of people in this hard situation, I should help people more and I am able to. There needs to be more engineers who can speak fluent English in China. There needs to be more engineers in China. There needs to be more people who trust they can learn any thing. And I am able to help these people. And I am able to help the global peers too.
 
 And I met some young students in the high school or university in this year. They read my articles and add my WeChat. I was really happy to see that I really helped the people. And my relative began to introduce their sons to me. I was happy that I somehow become a model in my surroudings. 
 
-Just at this point, a global bank invited me to do the last round of the interview. I hope this time I can make it. I probably approached the recruiters for 5 times at the latest half a year. Every time I approached for a week. The first few times is about machine learning job. The recent times are about full stack engineer position. I hope I can be less anxious in the next job and do more rest in the weekend instead of being burnt out time by time. And I hope I can collaborate better and have more tolerance to the unperfectness.
+Just at this morning, a global bank invited me to do the last round of the interview. I hope this time I can make it. I probably approached the recruiters for 5 times at the latest half a year. Every time I approached for a week. The first few times is about machine learning job. The recent times are about full stack engineer position. I hope I can be less anxious in the next job and do more rest in the weekend instead of burning out time by time. And I hope I can collaborate better and have more tolerance to the unperfectness.
 
 One of my problems is that I am saying things again and again. It means I really should write out some new things instead of staying in my comfortable zones. But in my point, actually, I do it differently this time. Instead of letting Grammarly fix my grammar errors automatically, I am fixing it manually. 
 
