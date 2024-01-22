@@ -176,7 +176,10 @@ When I was questioning whether the future will be better at the end of 2023, I w
 
 And my Japanese level improved that I can recognize more Japanese symbols, and I can sing some Japanese songs now. My brain changed for this without any pain. Matters are slow that expected. But if you do the correct thing, the result will happen. 
 
-Once I treat myself as a world citizen, I become less associated with any nationality. Some people says that GFW is a great thing that it helps to Chinese Internet company grows up. And just in today, I was frustrated with this thing to stop myself to push my essays regularly to GitHub. After fighting with it with one hour, I found that I need to add some config to the SSH program. Then it works like a charm. 
+Once I treat myself as a world citizen, I become less associated with any nationality. Some people says that GFW is 
+a great thing that it helps to Chinese Internet company grows up. And just in today, I was frustrated with this 
+thing for the 300 time. It stop myself to push my essays regularly to GitHub. After fighting with it with one hour, I 
+found that I need to add some config to the SSH program. Then it works like a charm. 
 
 I deleted my essay "Why Genius Zhiwei must go to the USA". Though it has a lot of good points there, but as now I live in China. I should appreciate more good aspect of it instead of being unhappy where I am now often.
 
