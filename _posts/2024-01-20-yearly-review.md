@@ -97,7 +97,7 @@ The interesting thing in this time was that just one company invited me to take 
 
 One of the lesson is to my field, for the long term view, I should prepare for the interview questions better. I should read the related materials again and again and do some experiements. 
 
-I was questioning my decision to buy house last year. I already knew the strategy of China government to develop economy by making the China a big construction land couldn't continue in 2019. The 10 years in 2020 to 2030 of China will collapse without falling apart. There was a famous book about it. I followed the author in Twitter for long time and trusted what she says. I thought that I learned English well to work for global companies will save me in this bad economics. 
+I was questioning my decision to buy house last year. I already knew in 2019 the strategy of China government to develop economy by making the China a big construction land couldn't continue. The 10 years in 2020 to 2030 of China will collapse without falling apart. There was a famous book about it. I followed the author in Twitter for long time and trusted what she says. I thought that I learned English well to work for global companies will save me in this bad economics. 
 
 It seems wrong. The market value of my house in Guangzhou dropped down from around 2 million to around 1.7 million. It made the case worse. But not only me, a lot of people are suffering. And the recruiters told me that China and the global economics are bad recently. There were many layoffs. 
 
