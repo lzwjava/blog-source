@@ -158,4 +158,5 @@ I was kind of frustrated with the companies who rejected me of lacking my bachlo
 
 Thanks to the world. My well beings depends on other human beings. I hope my struggling story in this year can help you feel better if you are not good recently too.
 
-Instead of needing the help of people in this situations, I should help people more and I am able to. There needs to be more engineers who can speak fluent English in China. There needs to be more engineers in China. There needs to be more people who trust they can learn any thing. And I am able to help these people. 
+Instead of needing the help of people in this hard situation, I should help people more and I am able to. There needs to be more engineers who can speak fluent English in China. There needs to be more engineers in China. There needs to be more people who trust they can learn any thing. And I am able to help these people. And I am able to help the global peers too.
+
