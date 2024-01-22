@@ -92,14 +92,14 @@ I started to self-doubt my switch to the machine learning field as I have 1.25 m
 My father gave me 45000 CNY to spend this hard time. My wife began to help me pay half of my monthly mortgage payments. I began to apply for full stack engineer or data engineer jobs. I did the test of the data engineer contractor position of a British multinational bank. This is my first time doing such a test of this position. I knew the problems were easy but I just couldn't give good answers to them.
 
 I attended the interview for the full stack engineer position at a British multinational bank. Failing to answer some basic knowledge of JVM made me embarrassed. 
-
+and
 The interesting thing at this time was that just one company invited me to take interviews for machine learning job, and I couldn't get more interviews. When I started to find some full-stack engineer positions, I was invited to interview onsite by a startup in Guangzhou that is doing a social network app for Latin people. They wanted me to help with full-stack engineering, plus some blockchain and artificial intelligence. It was funny. Sometimes, job hunting needs some flexibility.
 
 One of the lessons is to my field, for the long term view, I should prepare for the interview questions better. I should read the related materials again and again and do some experiments. 
 
-I was questioning my decision to buy a house last year. I already knew in 2019 that the strategy of Chinese government to develop the economy by making China a big construction land couldn't continue. The 10 years 2020 to 2030 China will collapse without falling apart. There was a famous book about it. I followed the author on Twitter for a long time and trusted what she said. I thought that learning English well enough to work for global companies would save me from this bad economics. 
+I was questioning my decision to buy a house last year. I already knew in 2019 that the strategy of Chinese government to develop the economy by making China a big construction land couldn't continue. The 10 years 2020 to 2030 China will collapse without falling apart.There was a famous book about it. I followed the author on Twitter for a long time and trusted what she said. And though it depends too. The real estate economy will collapse but the technology economy will grow surely. 
 
-It seems wrong. The market value of my house in Guangzhou dropped from around 2 million to around 1.7 million. It made the case worse. But not only me, a lot of people are suffering. The recruiters told me that China and the global economics have been bad recently. There were many layoffs. 
+I thought that learning English well enough to work for global companies would save me from this bad economics. It seems wrong. The market value of my house in Guangzhou dropped from around 2 million to around 1.7 million. It made the case worse. But not only me, a lot of people are suffering. The recruiters told me that China and the global economics have been bad recently. There were many layoffs. 
 
 My family didn't agree to sell my house. I started to sell my car to make the case a little better. They gave me the price of about 45000 CNY of my car. It was just half of the original price after using it for one year. My family didn't allow me to do that too.
 
@@ -159,4 +159,20 @@ I was kind of frustrated with the companies who rejected me of lacking my bachlo
 Thanks to the world. My well beings depends on other human beings. I hope my struggling story in this year can help you feel better if you are not good recently too.
 
 Instead of needing the help of people in this hard situation, I should help people more and I am able to. There needs to be more engineers who can speak fluent English in China. There needs to be more engineers in China. There needs to be more people who trust they can learn any thing. And I am able to help these people. And I am able to help the global peers too.
+
+And I met some young students in the high school or university in this year. They read my articles and add my WeChat. I was really happy to see that I really helped the people. And my relative began to introduce their sons to me. I was happy that I somehow become a model in my surroudings. 
+
+Just at this point, a global bank invited me to do the last round of the interview. I hope this time I can make it. I probably approached the recruiters for 5 times at the latest half a year. Every time I approached for a week. The first few times is about machine learning job. The recent times are about full stack engineer position. I hope I can be less anxious in the next job and do more rest in the weekend instead of being burnt out time by time. And I hope I can collaborate better and have more tolerance to the unperfectness.
+
+One of my problems is that I am saying things again and again. It means I really should write some new things instead of staying in my comfortable zones. But in my point, actually, I do it differently this time. Instead of letting Grammarly fix my grammar errors automatically, I am fixing it manually. 
+
+Whatever, best wishes to you in 2024, my friends who speaks Chinese, English and Japanese. Without knowing a bit of native language of the rest 4 billion people in this world, I have no dare to say they are my friends.
+
+And thank you for all the people appear in my life in this year. Without the interaction with you in the physical world or digital world, I will feel very lonely.
+
+Happy New Year to my global readers! Happy Spring Festival to my Chinese readers! あけましておめでとうございます! 
+
+I typed this Japanese words out in my deep learning computer using the Japanese input method of Ubuntu! It seems easy now to type out Japanese words!
+
+I just foresee that my daughter will type her Chinese and English words in the future. How happy will she be! Friends, so I hope you will be that happy time by time in this new year too.
 
