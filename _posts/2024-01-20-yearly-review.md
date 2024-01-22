@@ -130,7 +130,7 @@ It seems her English will be fluent at around 18 years old instead of what her f
 
 I was upset at my 12 years old in six grade, when my father and my Chinese teacher criticized me for not behaving well in Chinese course in the school. I felt aggrieved that it was because I put my attention to math competition. I studied hard though recent Chinese exam was a little poor. This pattern happened in my life again and again. At that time, I hided myself to cry in the hidden grassland alongside the crossroads. My father was upset to find me for several hours. 
 
-And at my 16 years old, I taught myself programming for several years. And I found some interesting English articles on the Internet and printed out them, and I decided to learn English by myself in the neighbor's classroom when my classmates are taking English classes. It made my teacher embrassed at that time. I think she will forgive me to see my English level today. 
+And at my 16 years old, I taught myself programming for several years. And I found some interesting English articles on the Internet and printed out them, and I learned English by myself in the neighbor classroom when my classmates were taking English classes. It made my teacher embrassed at that time. I hope she will forgive me to see my English level today. 
 
 And I decided to learn myself months ago before the college entrance exam. I was frustrated that they stopped me to do so. I just ranked around 50 in 350 students instead of ranking as top 5 when entering into the high school. I entered the second round of National Olympiad in Informatics in Provinces in Guangdong, achieve scored like top 300 in the Guangdong province. I felt aggrieved.
 
