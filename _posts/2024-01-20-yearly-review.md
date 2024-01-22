@@ -21,7 +21,7 @@ The new job I do is about a payment app. I helped do some backend development us
 
 I learned a lot on this journey. Let me describe some technical lessons.
 
-* Software architecture is very important. The microservice structure is often better than a monolithic application for large backend applications. It is better to develop and deploy the code. We should think about how we structure the code in the long-term view. 
+* Software architecture is very important. We should think about how we structure the code in the long-term view. Think out how we develop and deploy will help to decide.
 
 * Azure EventHub Kafka properties config is important. If we do it wrong, we may lose messages when the microservices scale up.
 
