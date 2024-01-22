@@ -157,7 +157,7 @@ entered the second round of National Olympiad in Informatics in Provinces in Gua
 in the Guangdong province. I felt aggrieved that not only my achievement in competition couldn't let me enter the 
 expected schools, but also that my scores in college entrance exam are not good as expected.
 
-So I finally broke up with this school system in 2014 and I choosed to leave the place which couldn't give what I 
+So I finally broke up with this school system in 2014, and I chose to leave the place which couldn't give what I 
 expect to work in a startup without finishing my bachelor education. No matter how my parents stopped me at that time.
 
 I talked with some high school students. They had same mind state. This feel of psychological gap was quite normal. 
@@ -180,7 +180,7 @@ And my Japanese level improved that I can recognize more Japanese symbols, and I
 
 Once I treat myself as a world citizen, I become less associated with any nationality. Some people says that GFW is 
 a great thing that it helps to Chinese Internet company grows up. And just in today, I was frustrated with this 
-thing for the 300 time. It stop myself to push my essays regularly to GitHub. After fighting with it with one hour, I 
+thing for the 300 time. It stops myself to push my essays regularly to GitHub. After fighting with it with one hour, I 
 found that I need to add some config to the SSH program. Then it works like a charm. 
 
 I deleted my essay "Why Genius Zhiwei must go to the USA". Though it has a lot of good points there, but as now I live in China. I should appreciate more good aspect of it instead of being unhappy where I am now often.
