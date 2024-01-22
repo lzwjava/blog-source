@@ -152,7 +152,7 @@ I deleted my essay "Why Genius Zhiwei must go to the USA". Though it has a lot o
 
 Once I try to be female for some days, I can understand my wife and the female in my life better. Because I have the exact feeling in some moments. 
 
-If we are unhappy, it is because we couldn't accept some things. While the price of my house drops down, so, the value of technology climbs up. Actually, it seems in China now, my state is kind of lucky. Comparing to the whole world, my financial, family and market situations seems still good. 
+If we are unhappy, it is because we couldn't accept some things. The reality and the expectation are fighting with each other. While the price of my house drops down, so, the value of technology climbs up. Actually, it seems in China now, my state is kind of lucky. Comparing to the whole world, my financial, family and market situations seems still good. 
 
 I was kind of frustrated with the companies who rejected me of lacking my bachlor degrees without evaluating my ability in these years hunting the job. Now, I will say to them, thanks, it is fine. Because it was just learning thing and matter of time, and I was good at it. I really liked to learn some Calculus in Youtube Shorts.
 
