@@ -142,3 +142,13 @@ One of my previous mistakes is that once I found what is best, company or people
 
 I try to reflect deeply on what made the pain in my brain, what made my life difficult, what happened in this world with all I see in this life.
 
+When I was questioning whether the future will be better at the end of 2023, I went to the optical store to check my eyesights. The degrees of my both eyes are reduced by 25 degrees after wearing the eyeglasses with 150 degrees less than the actual for another half a year. I had done this experiment for 1.5 years. The reduced degrees are fewer in the latest half year, comparing that of the previous year of this half year. In my opinion, the discovery which is found by Yin Wang is mostly correct though the details vary a bit in every one's case. But it is absolute correct that in daily life. It is clear enough that we use mobile phone or work in computers by wearing the eyeglasses with 150 degrees less than the actual. It is most comfortable. 
+
+And my Japanese level improved that I can recognize more Japanese symbols, and I can sing some Japanese songs now. Matters are slow that expected. But if you do the correct thing, the result will happen. 
+
+Once I treat myself as a world citizen, I become less associated with any nationality. Some people says that GFW is a great thing that it helps to Chinese Interent company grows up. And just in today, I was frustrated with this thing to stop myself to push my essays regularly to GitHub. After fighting with it with one hour, I found that I need to add some config to the SSH program. Then it works like a charm. 
+
+I deleted my essay "Why Genius Zhiwei must go to the USA". Though it has a lot of good points there, but as now I live in China. I should appreciate more good aspect of it instead of being unhappy where I am now often.
+
+If we are unhappy, it is because we couldn't accept some things. While the price of my house drops down, so, the value of technology climbs up. Actually, it seems in China now, my state is kind of lucky. Comparing to the whole world, my financial, family and market situations seems still good.
+
