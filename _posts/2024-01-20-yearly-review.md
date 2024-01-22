@@ -183,7 +183,12 @@ ability in these years hunting the job. Now, I will say to them, thanks, it is f
 I so like the short videos. I downloaded the Indian short videos apps Moj and Josh to play for some days. Though now I mainly focus on Japanese, I would like to pick it up in the future.
 
 And in this period, I solved some algorithm problems in Codeforces. I now know better why I could not make it like 
-top 100 in China in my middle school instead of just being top 300 in the Guangdong province. One reason is that I don't have confidence I think I can. The second reason is that I practice little with the hard problems. Now I have a different mindset. It is that I can do the hard problems easily with practice. I am not afraid of any hard problem. At least I will try to solve them by myself at first. I followed what Yin Wang says to reduce my myopia by 100 degrees a year to do things few people in this world know how to do. Why I couldn't these hard problems there are many people in this world could do? One is about binary indexed trees. I just read about 2 days of that 100 lines of code to think out what it means without any other explanation. Though I still didn't get some detail, but I know my brain is powerful to understand a lot by just thinking and running the code in my brain again and again, then I know its intention.
+top 100 in China in my middle school instead of just being top 300 in the Guangdong province. One reason is that I 
+don't have confidence I think I can. The second reason is that I practice little with the hard problems. Now I have 
+a different mindset. It is that I can do the hard problems easily with practice. I am not afraid of any hard problem.
+ At least I will try to solve them by myself at first. I followed what Yin Wang says to reduce my myopia by 100 
+ degrees a year as of now to do things few people in this world know how to do. Why I couldn't these hard problems 
+ there are many people in this world could do? One is about binary indexed trees. I just read about 2 days of that 100 lines of code to think out what it means without any other explanation. Though I still didn't get some detail, but I know my brain is powerful to understand a lot by just thinking and running the code in my brain again and again, then I know its intention.
 
 Thanks to the world. My well beings depends on other human beings. I hope my struggling story in this year can help you feel better if you are not good recently too.
 
