@@ -164,7 +164,7 @@ And I met some young students in the high school or university in this year. The
 
 Just at this point, a global bank invited me to do the last round of the interview. I hope this time I can make it. I probably approached the recruiters for 5 times at the latest half a year. Every time I approached for a week. The first few times is about machine learning job. The recent times are about full stack engineer position. I hope I can be less anxious in the next job and do more rest in the weekend instead of being burnt out time by time. And I hope I can collaborate better and have more tolerance to the unperfectness.
 
-One of my problems is that I am saying things again and again. It means I really should write some new things instead of staying in my comfortable zones. But in my point, actually, I do it differently this time. Instead of letting Grammarly fix my grammar errors automatically, I am fixing it manually. 
+One of my problems is that I am saying things again and again. It means I really should write out some new things instead of staying in my comfortable zones. But in my point, actually, I do it differently this time. Instead of letting Grammarly fix my grammar errors automatically, I am fixing it manually. 
 
 Whatever, best wishes to you in 2024, my friends who speaks Chinese, English and Japanese. Without knowing a bit of native language of the rest 4 billion people in this world, I have no dare to say they are my friends.
 
