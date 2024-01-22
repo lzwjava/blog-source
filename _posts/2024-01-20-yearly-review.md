@@ -145,14 +145,19 @@ And at my 16 years old, I taught myself programming for several years. And I fou
 on the Internet and printed out them, and I learned English by myself in the neighbor classroom when my classmates 
 were taking English classes. It made my teacher embarrassed at that time. I hope she will forgive me to see my English level today. 
 
-And I decided to learn myself months ago before the college entrance exam. I was frustrated that they stopped me to do so. I just ranked around 50 in 350 students instead of ranking as top 5 when entering into the high school. I entered the second round of National Olympiad in Informatics in Provinces in Guangdong, achieve scored like top 300 in the Guangdong province. I felt aggrieved.
+And I decided to learn myself months ago before the college entrance exam. I was frustrated that they stopped me to 
+do so. I just ranked around 50 in 350 students instead of ranking as top 5 when entering into the high school. I 
+entered the second round of National Olympiad in Informatics in Provinces in Guangdong, achieve scored like top 300 
+in the Guangdong province. I felt aggrieved that not only my achievement in competition couldn't let me enter the 
+expected schools, but also that my scores in college entrance exam are not good as expected.
 
 I talked with some high school students. They had same mind state. This feel of psychological gap was quite normal. 
 That my life entered this trap of proving myself to get the expected result. My brain circuit was totally controlled by it. I became afraid of failure and cared more and more about my success instead of objective world, including those objective knowledge. I became self-centered because it seems no matter how hard I try, I just couldn't survive. I became a robot to listen to learning materials every minute of the awaking time. And if I got the success I want, I became too happy. And when I couldn't get the success I want, I became quite upset.
 
 Then I began from 2020 to carefully read the blog of Yin Wang, who took 3 PhD education to pursue the truth. So it 
 turned out that this world really exists some people who really want to learn a lot. regardless scores or money. He 
-shared his learning and questions of the world. Though I shouldn't propagate of his unpopular idea of that human didn't go to the moon at 1969 to make my life troublesome sometimes, I should continue to gain his wisdom of software engineering in next years. And of course many other people or colleagues teaches me a lot.
+shared his learning and questions of the world. Though I shouldn't propagate of his unpopular ideas like that human 
+didn't go to the moon at 1969 to make my life troublesome sometimes, I should continue to gain his wisdom of software engineering in next years. And of course many other people or colleagues teaches me a lot.
 
 One of my previous mistakes is that once I found what is best, company or people. I started to measure other companies or people with the best standard. When I have conflicts with the third party, then I insist what I thought. Then it probably put people down or make them angry. I should value more difference and look the good side of every thing. 
 
