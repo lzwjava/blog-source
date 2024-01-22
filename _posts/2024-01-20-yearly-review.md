@@ -159,7 +159,9 @@ turned out that this world really exists some people who really want to learn a 
 shared his learning and questions of the world. Though I shouldn't propagate of his unpopular ideas like that human 
 didn't go to the moon at 1969 to make my life troublesome sometimes, I should continue to gain his wisdom of software engineering in next years. And of course many other people or colleagues teaches me a lot.
 
-One of my previous mistakes is that once I found what is best, company or people. I started to measure other companies or people with the best standard. When I have conflicts with the third party, then I insist what I thought. Then it probably put people down or make them angry. I should value more difference and look the good side of every thing. 
+One of my previous mistakes is that once I found what is best, company or people. I started to measure other 
+companies or people with the best standard. When I have conflicts with the other party, then I insist what I thought. 
+Then it probably put people down or make them angry. I should value more difference and look the good side of every thing. 
 
 I try to reflect deeply on what made the pain in my brain, what made my life difficult, what happened in this world with all I see in this life.
 
