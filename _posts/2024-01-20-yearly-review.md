@@ -124,7 +124,7 @@ One year ago, I received the interview feedback that my technical knowledge foun
 
 Though I started programming from 13, now I am 29, in these 16 years, my focus was scattered in algorithm, iOS, Android, backend, frontend, machine learing, English and a lot of other things. I just didn't have a very solid skill to get the job 100 percent in bad economics.
 
-When I was upset and anxious recently, my wife sent me the video of my daughter who sing the English animation song. She is about to 3 years old. And she can sing like "Sister figure, Sister figure", "Sister shark and sister shark". I know her life will be much easier comparing that of her father. 
+When I was upset and anxious recently, my wife sent me the video of my daughter who sing the English animation song. She is about to be 3 years old. And she can sing like "Sister figure, Sister figure", "Sister shark and sister shark". I know her life will be much easier comparing that of her father. 
 
 It seems her English will be fluent around 18 years old instead of her father did it at around 27 years old. When she takes exam poorly in the school, I know I should have more patience about this. If you force kids too much, you can only get rebellious kids.
 
