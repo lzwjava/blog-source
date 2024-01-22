@@ -9,7 +9,7 @@ Around November 2022, I got two offers from two companies whose client is a big 
 
 Though I already got a salary of 25k a month in 2017. There has not been much increase comparing that. I know, another 5 years passed, and I grew. And comparing previous Chinese startup jobs and my startup company business, now my daily hourly rate was higher than ever. My brain was sharper than ever.
 
-And because of 3 years of COVID period, I seldom go to travel. So when coming back from Xining, my hometown, I began to travel to some places using my DJI Drone to shoot some scenarios. I went to the tower of Guangzhou and then I made a short video.
+And because of 3 years of COVID period, I seldom go to travel. So when coming back from Xinging, my hometown, I began to travel to some places using my DJI Drone to shoot some scenarios. I went to the tower of Guangzhou and then I made a short video.
 
 The interesting thing about that short video is that the background music rhyme of the video is matched to the lights alongside the river at some point. At that time, the rhyme changes, and the lights change from on to off. 
 
