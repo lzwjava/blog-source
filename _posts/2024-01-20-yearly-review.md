@@ -100,7 +100,7 @@ My father gave me 45000 CNY to spend this hard time. My wife began to help me pa
 payments. I began to apply for full stack engineer or data engineer jobs. I did the test of the data engineer contractor position of a British multinational bank. This is my first time doing such a test of this position. I knew the problems were easy, but I just couldn't give good answers to them.
 
 I attended the interview for the full stack engineer position at this bank too. Failing to answer some basic 
-knowledge of JVM made me embarrassed. 
+knowledge of JVM made me frustrated later. When could I learn good enough about these stuff? 
 
 The interesting thing at this time was that just one company invited me to take interviews for machine learning job, 
 and I couldn't get more interviews. When I started to find some full-stack engineer positions, I was invited to 
