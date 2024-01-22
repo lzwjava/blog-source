@@ -45,7 +45,7 @@ For such a piece of simple code, I reimplemented it 5 times to finally grasp it.
 
 For the neural network part, the backpropagation function and mini-batch updating are hard for me to grasp regarding to every detail. I tried to write down what I knew to understand the detail. 
 
-In July, somehow I left my current job. I wrote down some articles to help me know what should I do in the next years. Then I built a deep-learning computer. It reminded me about in 2022, how I do the car maintenance by pumping out the engine oil and filling out the fresh one. It also reminded me of how I connect the circuit to make the LED shine according to the sound level of the music.
+In July, I left my current job for some reason. I wrote down some articles to help me know what should I do in the next years. Then I built a deep-learning computer. It reminded me about in 2022, how I do the car maintenance by pumping out the engine oil and filling out the fresh one. It also reminded me of how I connect the circuit to make the LED shine according to the sound level of the music.
 
 At that time, I found that some colleagues or friends deleted me or removed connection with me on WeChat or LinkedIn. I don't know whether I publish too much recently. Though of course the highlight points of reposting words of my articles in WeChat moments are not good. The reading experience is poor. I didn't publish in the next months. One reason is to reflect on what I did in last year to lose some trust with people. My wife told me that I always want people to respect me and I don't respect them often.
 
