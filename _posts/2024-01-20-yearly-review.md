@@ -99,9 +99,13 @@ I started to self-doubt my switch to the machine learning field as I have 1.25 m
 My father gave me 45000 CNY to spend this hard time. My wife began to help me pay half of my monthly mortgage 
 payments. I began to apply for full stack engineer or data engineer jobs. I did the test of the data engineer contractor position of a British multinational bank. This is my first time doing such a test of this position. I knew the problems were easy, but I just couldn't give good answers to them.
 
-I attended the interview for the full stack engineer position at a British multinational bank. Failing to answer some basic knowledge of JVM made me embarrassed. 
+I attended the interview for the full stack engineer position at this bank too. Failing to answer some basic 
+knowledge of JVM made me embarrassed. 
 
-The interesting thing at this time was that just one company invited me to take interviews for machine learning job, and I couldn't get more interviews. When I started to find some full-stack engineer positions, I was invited to interview onsite by a startup in Guangzhou that is doing a social network app for Latin people. They wanted me to help with full-stack engineering, plus some blockchain and artificial intelligence. It was funny. Sometimes, job hunting needs some flexibility.
+The interesting thing at this time was that just one company invited me to take interviews for machine learning job, 
+and I couldn't get more interviews. When I started to find some full-stack engineer positions, I was invited to 
+interview onsite by a startup in Guangzhou that is doing a social network app for Latin America people. They wanted 
+me to help with full-stack engineering, plus some blockchain and artificial intelligence. It was funny. Sometimes, job hunting needs some flexibility.
 
 One of the lessons is to my field, for the long term view, I should prepare for the interview questions better. I should read the related materials again and again and do some experiments. 
 
