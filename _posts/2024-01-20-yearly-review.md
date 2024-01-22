@@ -105,7 +105,7 @@ knowledge of JVM made me embarrassed.
 The interesting thing at this time was that just one company invited me to take interviews for machine learning job, 
 and I couldn't get more interviews. When I started to find some full-stack engineer positions, I was invited to 
 interview onsite by a startup in Guangzhou that is doing a social network app for Latin America people. They wanted 
-me to help with full-stack engineering, plus some blockchain and artificial intelligence. It was funny. Sometimes, job hunting needs some flexibility.
+me to help with full-stack engineering, plus some blockchain and artificial intelligence. It was funny. It just happened to give me chances to learn about machine learning. Sometimes, job hunting needs some flexibility.
 
 One of the lessons is to my field, for the long term view, I should prepare for the interview questions better. I should read the related materials again and again and do some experiments. 
 
@@ -154,6 +154,9 @@ do so. I just ranked around 50 in 350 students instead of ranking as top 5 when 
 entered the second round of National Olympiad in Informatics in Provinces in Guangdong, achieve scored like top 300 
 in the Guangdong province. I felt aggrieved that not only my achievement in competition couldn't let me enter the 
 expected schools, but also that my scores in college entrance exam are not good as expected.
+
+So I finally broke up with this school system in 2014 and I choosed to leave the place which couldn't give what I 
+expect to work in a startup without finishing my bachelor education. No matter how my parents stopped me at that time.
 
 I talked with some high school students. They had same mind state. This feel of psychological gap was quite normal. 
 That my life entered this trap of proving myself to get the expected result. My brain circuit was totally controlled by it. I became afraid of failure and cared more and more about my success instead of objective world, including those objective knowledge. I became self-centered because it seems no matter how hard I try, I just couldn't survive. I became a robot to listen to learning materials every minute of the awaking time. And if I got the success I want, I became too happy. And when I couldn't get the success I want, I became quite upset.
