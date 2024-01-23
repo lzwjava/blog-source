@@ -178,7 +178,7 @@ When I was questioning whether the future will be better at the end of 2023, I w
 
 And my Japanese level improved that I can recognize more Japanese symbols, and I can sing some Japanese songs now. My brain changed for this without any pain. Matters are slow that expected. But if you do the correct thing, the result will happen. 
 
-Once I treat myself as a world citizen, I become less associated with any nationality. Some people says that GFW is 
+Once I treat myself as a world citizen, I become less associated with any nationality. Some people says that the Internet wall is 
 a great thing that it helps to Chinese Internet company grows up. And just in today, I was frustrated with this 
 thing for the 300 time. It stops myself to push my essays regularly to GitHub. After fighting with it with one hour, I 
 found that I need to add some config to the SSH program. Then it works like a charm. 
@@ -199,7 +199,7 @@ top 100 in China in my middle school instead of just being top 300 in the Guangd
 don't have confidence I think I can. The second reason is that I practice little with the hard problems. Now I have 
 a different mindset. It is that I can do the hard problems easily with practice. I am not afraid of any hard problem.
  At least I will try to solve them by myself at first. I followed what Yin Wang says to reduce my myopia by 100 
- degrees a year as of now to do things few people in this world know how to do. Why I couldn't these hard problems 
+ degrees a year as of now to do things few people in this world know how to do. Why couldn't I solve these hard problems 
  there are many people in this world could do? One is about binary indexed trees. I just read about 2 days of that 100 lines of code to think out what it means without any other explanation. Though I still didn't get some detail, but I know my brain is powerful to understand a lot by just thinking and running the code in my brain again and again, then I know its intention.
 
 Thanks to the world. My well beings depends on other human beings. I hope my struggling story in this year can help you feel better if you are not good recently too.
