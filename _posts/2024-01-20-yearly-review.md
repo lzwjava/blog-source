@@ -52,14 +52,7 @@ For the neural network part, the backpropagation function and mini-batch updatin
 
 In July, I left my current job for some reason. I wrote down some articles to help me know what should I do in the next years. Then I built a deep-learning computer. It reminded me about in 2022, how I do the car maintenance by pumping out the engine oil and filling out the fresh one. It also reminded me of how I connect the circuit to make the LED shine according to the sound level of the music.
 
-At that time, I found that some colleagues or friends deleted me or removed connection with me on WeChat or LinkedIn. I don't know whether I publish too much recently. Though of course the highlight points of reposting words of my articles in WeChat moments are not good. The reading experience is poor. I didn't publish in the next months. One reason is to reflect on what I did in last year to lose some trust with people. My wife told me that I always want people to respect me and I don't respect them often.
-
-My heart is good that I want people to be better and better. But the ways I do it are often not suitable. Learning is hard. Enjoying life is much more comfortable.
-
-So one of my problems is giving too many advices. In recent year, suggesting people learn English and something about 
-AI to better prepare for the future. I should only give advice when they ask me to. I make myself kind of transparent to provide useful information. The truth is often kind of harsh.
-
-But the ego is the enemy of growth. After I left the job, I thought I did well in this job but the feedback was only that I was ok to finish the job. At that time, I couldn't accept what it meant. Only after half a year, I could appreciate what it says.
+The ego is the enemy of growth. After I left the job, I thought I did well in this job but the feedback was only that I was ok to finish the job. At that time, I couldn't accept what it meant. Only after half a year, I could appreciate what it says.
 
 In the journey from Guangzhou to Lhasa Tibet, the scene was very good. I think of a lot of ideas during this journey. One is that we may need to make an audio AI-powered IDE, which you can write code when you drive. 
 
