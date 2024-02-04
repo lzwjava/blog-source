@@ -3,27 +3,216 @@ layout: post
 title: "Year in Review: 2023"
 ---
 
-How to summarize my experience in 2023? Is it succesful or not? How to measure it? How I feel about it? It is a long story.
+![img](/assets/images/review/tibet.jpg)
 
-Around November 2022, I got two offers from two companies whose client is a big bank. They compete for me. One is give me around 27k CNY salary a month, another is 32k CNY salary a month. I choosed to join the second one. The previous job I took gave me the monthly salary around 22k. So I got the salary increase about 50%. I felt pretty good at the start of this year.
+How to summarize my experience in 2023? Is it successful or not? How to measure it? How do I feel about it? It is a 
+long story.
 
-The new job I do is about a payment app. I helped do some backend development using Java, Spring, Spring Cloud, Azure and do some AWS migration.
+Around November 2022, I got two offers from two companies whose client is a big bank. They compete for me. One is giving me around 27k CNY salary a month, another is 32k CNY salary a month. I chose to join the second one. The previous job I took gave me a monthly salary of around 22k. So I got a salary increase of about 50%. I felt pretty good at the start of this year.
 
-I learned a lot in this journey. Let me describe about some technical lessons.
+Though I already got a salary of 25k a month in 2017. There has not been much increase comparing that. I know, another 5 years passed, and I grew. And comparing previous Chinese startup jobs and my startup company business, now my daily hourly rate was higher than ever. My brain was sharper than ever.
 
-* Software architecture is very important. The microservice structure is better than monolithic application for large backend application. It is better to develop and deploy the code. How we structure the code is very important. We should think about it in the long term view. 
+And because of 3 years of COVID period, I seldom go to travel. So when coming back from Xinning, my hometown, I 
+began to travel to some places using my DJI Drone to shoot some scenarios. I went to the tower of Guangzhou, and then I made a short video.
 
-* Azure EventHub Kafka propeties config is important. If we do it wrong, we may lose messages when the microservices scale up.
+The interesting thing about that short video is that the background music rhyme of the video is matched to the lights alongside the river at some point. At that time, the rhyme changes, and the lights change from on to off. 
 
-* Sometimes, We can check the build.log of the IDEA to fix bug.
+And then about a month, every weekend I went outside, mainly around the Greater Bay Area in China. Zhuhai, Dongguan, Macau, Beihai, Zhaoqing, Qingyuan. And I practiced using DJI Drone to take aerial views. 
+
+The most nervous moment was when I was in Macao, when I took the scenario in a place near a lake. I remotely control 
+it to fly from above the land to above the lake. Suddenly, the distance between it and the below surface was changed. It may lead to some problems and make it begin to drop. I was nervous and quickly wanted to grasp it with my hand as it was still near the wall but failed to do so. However, there were some cables on the wall. And they caught the drone. So I used my hand to grasp it back. What a thrill!
+
+The job I did was about a payment app. I helped do some backend development using Java, Spring, Spring Cloud, and Azure and did a little on top of AWS platform.
+
+I learned a lot on this journey. Let me describe some technical lessons.
+
+* Software architecture is very important. We should think about how we structure the code in the long-term view. Think out how we develop and deploy will help to decide.
+
+* Azure EventHub Kafka properties config is important. If we do it wrong, we may lose messages when the microservices scale up.
+
+* Sometimes, we can check the build.log of the IDEA to fix the bug.
 
 * Every line of the code matters. We can directly jump to the location of the new code to check and suspect. Like why the log here isn't printed out.
 
 * We should do the right thing as early as possible. If something is wrong, the problem is always there and keeps making trouble to us.
 
-* It is hard to do the right thing. We should try it for a lot of ways and let the reality tell us what is best. We can only learn some precious lessons when we stay long enough. So it is important to keep notes about our decisions and reflect on them after some time. For the code too, it is same too.
+* It is hard to do the right thing. We should try it in a lot of ways and let reality tell us what is best. We can only learn some precious lessons when we stay long enough. So it is important to keep notes about our decisions and reflect on them after some time. For the code, it is the same too.
 
-* We should write down our technical notes and precious lessons correctly in time. After some time, you may forget what is exactly happen.
+* We should write down our technical notes and precious lessons correctly in time. After some time, you may forget what exactly happen.
 
-There are some other lessons I learned.
+* SSH Tunneling for 3 times is hard to understand sometimes. Use verbose mode to check carefully.
+
+* Life is connecting dots. Debugging or coding is about connecting messages. To fix the bug of the backend code, we can check the frontend code too. My commitment in Android and iOS development between 2013 and 2015 was not a matter of wasting time though now I worked mainly as a backend developer. 
+
+During this time, ChatGPT was hot. I began to read the book "Neural Networks and Deep Learning". Around June, I read probably half of it. I felt I began to understand them. Then I tried to implement the neural network from scratch. The first time, the progress was really slow. There are like 50 lines of MNIST loader code. We use the pickle function to load the data, and separate it into training data and validation data. And we make the shape like (784, 1).
+
+For such a piece of simple code, I reimplemented it 5 times to finally grasp it. And then I try to implement the neural network part. 
+
+For the neural network part, the backpropagation function and mini-batch updating are hard for me to grasp regard to every detail. I tried to write down what I knew to understand the detail. 
+
+In July, I left my current job for some reason. I wrote down some articles to help me know what should I do in the next years. Then I built a deep-learning computer. It reminded me about in 2022, how I do the car maintenance by pumping out the engine oil and filling out the fresh one. It also reminded me of how I connect the circuit to make the LED shine according to the sound level of the music.
+
+The ego is the enemy of growth. After I left the job, I thought I did well in this job but the feedback was only that I was ok to finish the job. At that time, I couldn't accept what it meant. Only after half a year, I could appreciate what it says.
+
+In the journey from Guangzhou to Lhasa Tibet, the scene was very good. I think of a lot of ideas during this journey. One is that we may need to make an audio AI-powered IDE, which you can write code when you drive. 
+
+Using a drone to record beautiful views is kind of trouble. Because it takes time and one-time shooting costs me about half an hour. But often you encounter very beautiful views and just can't help to record videos of them from the air to share with your friends.
+
+On the journey, I was kind of bored after some days. Because I had taken the road trip of long distance before. I thought out a new idea. I wanted to be a woman to gain new experiences. This thought really excited me. So when I reached the big city of Kunming, I bought some clothes for women, and even bought a new pair of eyeglasses to look feminine.
+
+So I dressed like a woman. In the elevator, I met two girls, who seems high school students who were discussing manicures. And the door opened, I said that I wanted to do it too. And they went out and one girl looked back at me and said to her friend astonishingly that might be a girl? 
+
+I had never encountered this in my life. It was really thrilling. We can only have new discoveries when we do new things.
+
+In Kunming, I found a shop to buy a wig. But it was expensive, and it needs around 1000 CNY. After I went back to 
+Guangzhou, I bought more clothes of women's style, and bought a wig. After posting my feminine video to social media, my classmate commented that the feminine version of myself really looked like my old sister.
+
+During the journey, I asked help of a tow truck service for several times. The reason was that the charging stations were few in Tibet. And the distance between them was often 100km long. And in the charging stations, the chargers were probably not many. So if they can't work, you need to drive to the next charging station. And there are a lot of mountains. My electric car can only run for around 250km when climbing the mountains. I faced some challenges in the journey. One was that in Diqing Tibetan Autonomous Prefecture, the tow truck service helped to transport my car to the charging station, but the car still couldn't be charged. Because the electricity of my car was 0% at that time. I asked customer support and found some local people to help, like borrowing a portable charging gun or trying to charge in their home charging stations. The final solution was that we should disconnect the battery to give a full restart of the car after opening the car hood. The car can feel the charging electricity. Here, I used the word "feel" instead of "respond" to let it be more funny.
+
+And in the return journey, I drove my car to the trench unintentionally. There were four reasons. The first is that the colors of the road and the trench are the same. The second is that there is no barrier between the trench and the road. The third is that in the 100m in front of the road, there is a turning point to the right, and I drove a bit right of my car to let it into the trench, my subconscious was unaware that the car was leaving its normal route. The fourth is that I glanced to the right to find my second mobile phone, so my eyes were not looking at the road at the moment. I asked the help of crane service to help to lift my car. I repaired my car after coming back to Guangzhou.
+
+So this 8000km distance journey is happy and sad at the same time. I had 6 accidents on the journey, 4 of them were about no electricity in the mountains area, one was that I drove fast to hit a hole to make the tire blow out, the last is that I drove the car to the trench intentionally. The happy thing is that the scene and the people I met on the journey.
+
+In the journey, I attended an interview for full stack engineer position (Base HK) at a Singaporean multinational bank. This is the first interview I attended which is based outside the China.
+
+After returning from Tibet, I continued to learn something about machine learning. I began to watch the nanoGPT video made by Andrej Karpathy again and again. And I tried to type out the code by myself. I still didn't understand. I printed out around 30 papers to learn. I read the book "Programming PyTorch for Deep Learning". I found more example projects or tutorials from PyTorch to learn. And then all these things become a little apparent to me. 
+
+I began to apply jobs of machine learning positions. And finally, I got an interview for the position of Speech Machine Learning Engineer at a startup in Guangzhou. It was interesting to join such an interview. I shared my knowledge with others though they didn't reach out to me later. We talked about Openai Whisper. I happened to begin to learn about it but didn't make some progress.
+
+It gave me confidence about my move to machine learning. And then I attended the courses in the Coursera platform to 
+get some certificates. I took two, Machine Learning Specialization and Deep Learning Specialization. I didn't watch 
+many videos because I thought I already knew something. I found that the homework about writing code about neural networks to recognize MNIST datasets is easy for me. Because I really learned carefully about this before.
+
+I noticed that at the later phase, I began to lose patience. I even used ChatGPT to find out the answer to some homework. I was urgent to get these certificates to find machine learning jobs. This was bad behavior. The people who deeply understand the knowledge can know the people who don't. And I became aware of the knowledge gap between me and the qualified machine learning engineer. It may still need one year for me. And the sad news was that in the market, there were not many positions for the junior machine learning engineer. I stopped taking more certificates after taking two certificates with some cheating. And I learned the homework code which ChatGPT helped me to do on the weekend accompanying my daughter to play in the children's center. It made me feel better.
+
+So I began to understand a little more about recurrent neural networks, recommender systems, and reinforcement learning. But it should be still a shallow understanding without thinking out the code on my own. I need to learn that material well in the future to fix this cheating matter.
+
+I began to take some Kaggle competitions. I took 4 competitions as of Jan 2023. It was really fun to write out some PyTorch code to solve problems. I recorded all these learning processes in my GitHub project which is named neural-networks-and-zhiwei-learning. It has 533 commits as of today.
+
+I started to self-doubt my switch to the machine learning field as I have 1.25 million CNY of debt or mortgage. Jobless becomes painful.
+
+My father gave me 45000 CNY to spend this hard time. My wife began to help me pay half of my monthly mortgage 
+payments. I began to apply for full stack engineer or data engineer jobs. I did the test of the data engineer contractor position of a British multinational bank. This is my first time doing such a test of this position. I knew the problems were easy, but I just couldn't give good answers to them.
+
+I attended the interview for the full stack engineer position at this bank too. Failing to answer some basic 
+knowledge of JVM made me frustrated later. When could I learn good enough about these stuff? 
+
+The interesting thing at this time was that just one company invited me to take interviews for machine learning job, 
+and I couldn't get more interviews. When I started to find some full-stack engineer positions, I was invited to 
+interview onsite by a startup in Guangzhou that is doing a social network app for Latin America people. They wanted 
+me to help with full-stack engineering, plus some blockchain and artificial intelligence. It was funny. It just happened to give me chances to learn about machine learning. Sometimes, job hunting needs some flexibility.
+
+One of the lessons is to my field, for the long term view, I should prepare for the interview questions better. I should read the related materials again and again and do some experiments. 
+
+I was questioning my decision to buy a house last year. I already knew in 2019 that the strategy of Chinese 
+government to develop the economy by making China a big construction land couldn't continue. The 10 years 2020 to 
+2030 China will collapse without falling apart.There was a famous book about it. I followed the author on Twitter 
+for a long time and trusted what she said. And though it depends on too. The real estate economy will collapse but the technology economy will grow, surely. 
+
+I thought that learning English well enough to work for global companies would save me from this bad economics. It seems wrong. The market value of my house in Guangzhou dropped from around 2 million to around 1.7 million. It made the case worse. But not only me, a lot of people are suffering. The recruiters told me that China and the global economics have been bad recently. There were many layoffs. 
+
+My family didn't agree to sell my house. I started to sell my car to make the case a little better. They gave me the price of about 45000 CNY of my car. It was just half of the original price after using it for one year. My family didn't allow me to do that too.
+
+This is another major failure in my life. I have more understanding about who gave me money and who stole my money, and what is good and bad, who made my life easy and who made my life difficult.
+
+When people experienced pain, they reflected and gained wisdom. I will take my bachelor's degree more seriously. I took 12 times of the exams, but just passed with 4 exams. I didn't prepare them well because I was busy with machine learning stuff. But actually, they were much more important to make me popular in the job market.
+
+My case is still not incurable. I am still waiting for some recent interview results of the contractor jobs of some big banks. I am still a little capable in the English jobs in China. And I observed that there appear more English jobs in China as a lot of global companies are cutting costs.
+
+Let me write down some reflections to myself. It will be better if younger people see it.
+
+> Be more honest. The eyes of people are sharp. Don't cheat. Joined more authoritative examinations to know your ability. Explore the world a lot to have more objective views about things. Value difference and instead of insisting on one kind of opinion. Though college degrees are not important in Silicon Valley, it doesn't mean they are not in China. 
+
+> Be practical and try to survive in your surroundings first. If your scores are not expected as you want, it is not the problems of the exam, it is your problem. If you don't pass the interview, it is not the problem of the interviewer, it is your problem. Technology is the future instead of the house. House and land are just everywhere. 
+
+> Value the honest feedback in your surroundings, especially those you trust and more successful than you. They can know your ability. Instead of taking exam results or interview results too personally. You should think that it just means my ability is not good, it doesn't mean I am not good. My ability is poor but I can improve.
+
+> Don't need to be too happy when you are successful. Save more money. To have more empathy about what happen in the world. Help people but with patience. Don't force anything though sometimes your solution seems better. 
+
+
+One year ago, I received the interview feedback that my technical knowledge foundation is quite good, however, I still lack a bit of knowledge deepness. I didn't take it too seriously. Now I know they are correct.
+
+Though I started programming at 13, now I am 29, in these 16 years, my focus was scattered in the algorithm, iOS, Android, backend, frontend, machine learning, English, and a lot of other things. I just didn't have a very solid skill to get the job relative easily in bad economics.
+
+When I was upset and anxious recently, my wife sent me a video of my daughter singing the English animated song. She is about to be 3 years old. And she can sing like "Sister figure, Sister figure", "Sister shark and sister shark". I know her life will be much easier comparing that of her father. 
+
+It seems her English will be fluent at around 18 years old instead of what her father's at around 27 years old. When she takes exams poorly in school, I know I should have more patience about this. If you force kids too much, you can only get rebellious kids. 
+
+I was upset at my 12 years old in six grade, when my father and my Chinese teacher criticized me for not behaving well in Chinese course in the school. I felt aggrieved that it was because I put my attention to math competition. I studied hard though recent Chinese exam was a little poor. This pattern happened in my life again and again. At that time, I hided myself to cry in the hidden grassland alongside the crossroads. My father was upset to find me for several hours. 
+
+And at my 16 years old, I taught myself programming for several years. And I found some interesting English articles 
+on the Internet and printed out them, and I learned English by myself in the neighbor classroom when my classmates 
+were taking English classes. It made my teacher embarrassed at that time. I hope she will forgive me to see my English level today. 
+
+And I decided to learn myself months ago before the college entrance exam. I was frustrated that they stopped me to 
+do so. I just ranked around 50 in 350 students instead of ranking as top 5 when entering into the high school. I 
+entered the second round of National Olympiad in Informatics in Provinces in Guangdong, achieve scored like top 300 
+in the Guangdong province. I felt aggrieved that not only my achievement in competition couldn't let me enter the 
+expected schools, but also that my scores in college entrance exam are not good as expected.
+
+So I finally broke up with this school system in 2014, and I chose to leave the place which couldn't give what I 
+expect to work in a startup without finishing my bachelor education. No matter how my parents stopped me at that time.
+
+I talked with some high school students. They had same mind state. This feel of psychological gap was quite normal. 
+Then my life entered this trap of proving myself to get the expected result. My brain circuit was totally controlled by it. I became afraid of failure and cared more and more about my success instead of objective world, including those objective knowledge. I became self-centered because it seems no matter how hard I try, I just couldn't survive. I became a robot to listen to learning materials every minute of the awaking time. And if I got the success I want, I became too happy. And when I couldn't get the success I want, I became quite upset.
+
+Then I began from 2020 to carefully read the blog of Yin Wang, who took 3 PhD education to pursue the truth. So it 
+turned out that this world really exists some people who really want to learn a lot. regardless scores or money. He 
+shared his learning and questions of the world. Though I shouldn't propagate of his unpopular ideas like that human 
+didn't go to the moon at 1969 to make my life troublesome sometimes, I should continue to gain his wisdom of software engineering in next years. And of course many other people or colleagues teaches me a lot.
+
+One of my previous mistakes is that once I found what is best, company or people. I started to measure other 
+companies or people with the best standard. When I have conflicts with the other party, then I insist what I thought. 
+Then it probably put people down or make them angry. I should value more difference and look the good side of every thing. 
+
+I try to reflect deeply on what made the pain in my brain, what made my life difficult, what happened in this world with all I see in this life.
+
+When I was questioning whether the future will be better at the end of 2023, I went to the optical store to check my eyesight. The degrees of my both eyes are reduced by 25 degrees after wearing the eyeglasses with 150 degrees less than the actual for another half a year. I had done this experiment for 1.5 years. The reduced degrees are fewer in the latest half year, comparing that of the previous year of this half year. In my opinion, the discovery which is found by Yin Wang is mostly correct though the details vary a bit in every one's case. But it is absolute correct that in daily life. It is clear enough that we use mobile phone or work in computers by wearing the eyeglasses with 150 degrees or 125 degrees less than the actual. It is most comfortable. 
+
+And my Japanese level improved that I can recognize more Japanese symbols, and I can sing some Japanese songs now. My brain changed for this without any pain. Matters are slow that expected. But if you do the correct thing, the result will happen. 
+
+Once I treat myself as a world citizen, I become less associated with any nationality. Some people says that the Internet wall is 
+a great thing that it helps to Chinese Internet company grows up. And just in today, I was frustrated with this 
+thing for the 300 time. It stops myself to push my essays regularly to GitHub. After fighting with it with one hour, I 
+found that I need to add some config to the SSH program. Then it works like a charm. 
+
+I deleted my essay "Why Genius Zhiwei must go to the USA". Though it has a lot of good points there, but as now I live in China. I should appreciate more good aspect of it instead of being unhappy where I am now often.
+
+Once I try to be female for some days, I can understand my wife and the female in my life better. Because I have the exact feeling in some moments. 
+
+If we are unhappy, it is because we couldn't accept some things. The reality and the expectation are fighting with each other. While the price of my house drops down, so, the value of technology climbs up. Actually, it seems in China now, my state is kind of lucky. Comparing to the whole world, my financial, family and market situations seems still good. 
+
+I was kind of frustrated with the companies who rejected me of lacking my bachelor degrees without evaluating my 
+ability in these years hunting the job. Now, I will say to them, thanks, it is fine. Because it was just learning thing and matter of time, and I was good at it. I really liked to learn some Calculus in YouTube Shorts.
+
+I so like the short videos. I downloaded the Indian short videos apps Moj and Josh to play for some days. Though now I mainly focus on Japanese, I would like to pick it up in the future.
+
+And in this period, I solved some algorithm problems in Codeforces. I now know better why I could not make it like 
+top 100 in China in my middle school instead of just being top 300 in the Guangdong province. One reason is that I 
+don't have confidence I think I can. The second reason is that I practice little with the hard problems. Now I have 
+a different mindset. It is that I can do the hard problems easily with practice. I am not afraid of any hard problem.
+ At least I will try to solve them by myself at first. I followed what Yin Wang says to reduce my myopia by 100 
+ degrees a year as of now to do things few people in this world know how to do. Why couldn't I solve these hard problems 
+ there are many people in this world could do? One is about binary indexed trees. I just read about 2 days of that 100 lines of code to think out what it means without any other explanation. Though I still didn't get some detail, but I know my brain is powerful to understand a lot by just thinking and running the code in my brain again and again, then I know its intention.
+
+Thanks to the world. My well beings depends on other human beings. I hope my struggling story in this year can help you feel better if you are not good recently too.
+
+Instead of needing the help of people in this hard situation, I should help people more, and I am able to. There 
+needs to be more engineers who can speak fluent English in China. There needs to be more engineers in China. There needs to be more people who trust they can learn anything. And I am able to help these people. And I am able to help the global peers too.
+
+And I met some young students in the high school or university in this year. They read my articles and add my WeChat. I was really happy to see that I really helped the people. And my relative began to introduce their sons to me. I was happy that I somehow become a model in my surroundings. 
+
+Just at this morning, a global bank invited me to do the last round of the interview. I hope this time I can make it. I probably approached the recruiters for 5 times at the latest half a year. Every time I approached for a week. The first few times is about machine learning job. The recent times are about full stack engineer position. I hope I can be less anxious in the next job and do more rest in the weekend instead of burning out time by time. And I hope I can collaborate better and have more tolerance to the unperfectness.
+
+One of my problems is that I am saying things again and again. It means I really should write out some new things instead of staying in my comfortable zones. But in my point, actually, I do it differently this time. Instead of letting Grammarly fix my grammar errors automatically, I am fixing it manually. 
+
+Whatever, best wishes to you in 2024, my friends who speak Chinese, English and Japanese. Without knowing a bit of native language of the rest 4 billion people in this world, I have no dare to say they are my friends.
+
+And thank you for all the people appear in my life in this year. Without the interaction with you in the physical world or digital world, I will feel very lonely.
+
+Happy New Year to my global readers! Happy Spring Festival to my Chinese readers! あけましておめでとうございます! 
+
+I typed this Japanese words out in my deep learning computer using the Japanese input method of Ubuntu! It seems easy now to type out Japanese words!
+
+I just foresee that my daughter will type her Chinese and English words in the future. How happy will she be! Friends, so I hope you will be that happy time by time in this new year too.
 
