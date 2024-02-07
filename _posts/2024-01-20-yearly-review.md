@@ -40,7 +40,7 @@ I learned a lot on this journey. Let me describe some technical lessons.
 
 * We should write down our technical notes and precious lessons correctly in time. After some time, you may forget what exactly happen.
 
-* SSH Tunneling for 3 times is hard to understand sometimes. Use verbose mode to check carefully.
+* SSH Tunneling for many times is hard to understand sometimes. Use verbose mode to check carefully.
 
 * Life is connecting dots. Debugging or coding is about connecting messages. To fix the bug of the backend code, we can check the frontend code too. My commitment in Android and iOS development between 2013 and 2015 was not a matter of wasting time though now I worked mainly as a backend developer. 
 
