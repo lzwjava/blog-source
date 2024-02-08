@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Neural Network to GPT - Part 1"
+title: "From Neural Network to GPT"
 ---
 
 ![img](/assets/images/neural-gpt/transformer.jpeg)
