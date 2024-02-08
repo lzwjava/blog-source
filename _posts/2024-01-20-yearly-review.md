@@ -24,11 +24,9 @@ it to fly from above the land to above the lake. Suddenly, the distance between 
 
 The job I did was about a payment app. I helped do some backend development using Java, Spring, Spring Cloud, and Azure and did a little on top of AWS platform.
 
-I learned a lot on this journey. Let me describe some technical lessons.
+I learned a lot on this journey. Let me describe some personal technical notes.
 
 * Software architecture is very important. We should think about how we structure the code in the long-term view. Think out how we develop and deploy will help to decide.
-
-* Azure EventHub Kafka properties config is important. If we do it wrong, we may lose messages when the microservices scale up.
 
 * Sometimes, we can check the build.log of the IDEA to fix the bug.
 
@@ -37,8 +35,6 @@ I learned a lot on this journey. Let me describe some technical lessons.
 * We should do the right thing as early as possible. If something is wrong, the problem is always there and keeps making trouble to us.
 
 * It is hard to do the right thing. We should try it in a lot of ways and let reality tell us what is best. We can only learn some precious lessons when we stay long enough. So it is important to keep notes about our decisions and reflect on them after some time. For the code, it is the same too.
-
-* We should write down our technical notes and precious lessons correctly in time. After some time, you may forget what exactly happen.
 
 * SSH Tunneling for many times is hard to understand sometimes. Use verbose mode to check carefully.
 
