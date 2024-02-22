@@ -3,8 +3,6 @@ layout: post
 title: "How to Bring Up Best Kids"
 ---
 
-<div align="center"><img src="/assets/images/bring/kid.jpg" width="100%" /><img/></div>
-
 How to bring up best kids? If you are a billionaire, how will you raise your kids? In my observation, they will bring their kids to travel around the world. Let's think about Eileen Gu. Her life experience is really colorful. Her mother is excellent. 
 
 And one thing is to make the kids grow up with less pain as possible. They are so small. They already have a hard life to grow up. Why we still force them to do things they don't like? 
