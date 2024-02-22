@@ -4,8 +4,6 @@ title: "Zen and the Art of Machine Learning"
 usemathjax: true
 ---
 
-<div align="center"><img src="/assets/images/zen-neural/building.jpg" width="100%" /><img/></div>
-
 ## Zen
 
 A young dad is busy learning Neural networks at the weekend. However, this weekend, he needed to accompany his baby daughter to swim in the pool of the apartment complex. He laid down in the shallow water and watched the top apartment buildings rising top to the sky. And suddenly he thought, Wow, they are a lot like neural networks. Every balcony is just like a neuron. And a building is like a layer of neurons. And a group of buildings are combined to be a neural network.

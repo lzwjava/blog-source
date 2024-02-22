@@ -3,8 +3,6 @@ layout: post
 title: "The Wisdom of Learning"
 ---
 
-<div align="center"><img src="/assets/images/wisdom/cotte.jpeg" width="100%" /><img/></div>
-
 ### Foreword
 
 My teacher Yin Wang wrote an essay with a similar title in 2019. You could check it out http://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy. I read it probably 30 times in these 4 years and recommend it to friends for probably the same times. Besides sharing it by direct messages, I also share it on the social network several times. You could know how I love this essay and am beneficial from this. 
