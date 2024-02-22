@@ -3,8 +3,6 @@ layout: post
 title: "ChatGPT帮助我学习日语"
 ---
 
-<div align="center"><img src="/assets/images/nihongo/clay.jpeg" width="100%" /><img/></div>
-
 ### 序言
 
 有一首著名的日本歌曲《真夜中のドア》。它是什么意思呢？「真夜中」的意思是午夜。"真夜中"的英文翻译是"Mayonaka"。像中文的「的」一样，「の」是一个助词。
