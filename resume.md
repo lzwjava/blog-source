@@ -29,7 +29,6 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services, boasted around 2.9 million active users as of November 2022.
 * I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. I did the microservice development for features like Auto Top Up.
 * We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
-* During my free time, I learned about neural networks and utilized Python along with PyTorch to recognize patterns within the MNIST dataset.
 
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
 
