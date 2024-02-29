@@ -56,6 +56,11 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ## Educational Background
 
+### Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Now
+
+* Passed with 4 courses.
+
+
 ### Beijing Forestry University, Computer Science, Bachelor(Dropout), 2013.09 - 2014.06
 
 * Built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums. It has been downloaded and used by thousands of users on campus.
