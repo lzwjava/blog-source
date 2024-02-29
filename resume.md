@@ -58,11 +58,12 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Now
 
-* Passed with 4 courses.
-
+* Passed with 4 courses: Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I). 
 
 ### Beijing Forestry University, Computer Science, Bachelor(Dropout), 2013.09 - 2014.06
 
+* Passed with 15 courses, Computer Introduction, Introduction to Major, Fundamentals of Programming, Programming Fundamentals Lab, College English, Advanced Mathematics A
+Fundamentals of Management, Moral Cultivation and Fundamentals of Law, Principles and Techniques of Digital Imaging, Physical Education, College English II, Two-Dimensional Graphics Technology, Two-Dimensional Graphics Technology (Course Design), Two-Dimensional Graphics Technology Lab, Introduction to College Student Learning.
 * Built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums. It has been downloaded and used by thousands of users on campus.
 * Built an Android App for learning English by watching movie clips, and won the third prize in a hackathon.
 * Ranked in the top 1 in my school's ACM/ICPC(International Collegiate Programming Contest) monthly training competition among around 100 top students in the university, including higher grade one.
