@@ -58,7 +58,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Now
 
-* Passed with 4 courses: Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I). 
+* Passed with 4 courses, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I). 
 
 ### Beijing Forestry University, Computer Science, Bachelor(Dropout), 2013.09 - 2014.06
 
