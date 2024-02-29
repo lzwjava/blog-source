@@ -62,8 +62,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Beijing Forestry University, Computer Science, Bachelor(Dropout), 2013.09 - 2014.06
 
-* Passed with 13 courses, like Computer Introduction, Introduction to Major, Fundamentals of Programming, Programming Fundamentals Lab, College English, Advanced Mathematics, A
-Fundamentals of Management, Principles and Techniques of Digital Imaging, College English II, Two-Dimensional Graphics Technology.
+* Passed with 13 courses, like Computer Introduction, Fundamentals of Programming, Programming Fundamentals Lab, College English, Advanced Mathematics, Principles and Techniques of Digital Imaging, College English II, Two-Dimensional Graphics Technology.
 * Built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums. It has been downloaded and used by thousands of users on campus. Built an Android App for learning English by watching movie clips, and won the third prize in a hackathon.
 * Ranked in the top 1 in my school's ACM/ICPC(International Collegiate Programming Contest) monthly training competition among around 100 top students in the university, including higher grade one.
 
