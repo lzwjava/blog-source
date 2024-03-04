@@ -23,7 +23,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 * Carefully analyzed and reimplemented some core parts around 50 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. 
 * Got two course completion certificates from Coursera about Machine Learning Specialization and Deep Learning Specialization.
-* Preparing for the exams to obtain the associate degree, particularly in subjects like advanced mathematics and linear algebra.
+* Prepared for the exams to obtain the associate degree, particularly in subjects like advanced mathematics and linear algebra.
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
 * HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services, boasted around 2.9 million active users as of November 2022.
