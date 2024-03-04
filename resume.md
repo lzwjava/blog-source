@@ -104,7 +104,7 @@ I have gained a lot of skills since I started programming in 2008. Let's look at
 
 * 5 or more years of experience: Chinese, English, Writing, Java, Algorithm, Test-driven Development, Cloud Computing, DevOps, Backend Development
 * 3 to 4 years of experience: Cantonese, iOS Development, Android Development
-* 1 to 2 years of experience: Product Management, Machine Learning, Frontend Development, Big Data
+* 1 to 2 years of experience: Product Management, Machine Learning, Frontend Development
 * less than 1 year of experience: Japanese
 
 ## Tools
