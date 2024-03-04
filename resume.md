@@ -14,7 +14,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ## Profiles
 
 * I am an engineer, startup founder, blogger, and lifelong learner. I had tracks of excellence in my 29 years of life. I ranked in the top 300 in NOIP(National Olympiad in Informatics in Provinces) in Guangdong Provinces in my high school. After my first year at Beijing Forestry University(Top 100 of 3000 universities in China), I dropped out to work in a startup and then created my one. Over three years in the startup industry, I constructed an engineering live broadcast platform that served 30,000 users and led a team to complete 50 small software projects around a year, generating an annual revenue of 3 million CNY. In my last job, I worked as a contractor for one of the largest banking and financial services institutions in the world, HSBC Bank.
-* Regarding my technical experience, I have accumulated approximately nine years of software engineering experience, working across different domains such as iOS, Android, frontend, and backend development. Additionally, I dedicated around one year to exploring the field of machine learning, which I pursued during my leisure time and freelance periods. In addition, I have achieved proficiency in English, having obtained a score of 6 on the IELTS exam.
+* Regarding my technical experience, I have accumulated approximately nine years of software engineering experience, working across different domains such as iOS, Android, frontend, and backend development. Additionally, I dedicated around one year to exploring the field of machine learning, which I pursued during my leisure time and freelance periods. And, I have achieved proficiency in English, having obtained a score of 6 on the IELTS exam.
 * Because of my benevolent and honest personality, I am an easy-going, reliable, and joyful guy who gets along with people well.
 
 ## Work Experience
@@ -27,7 +27,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
 * HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services, boasted around 2.9 million active users as of November 2022.
-* I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. I did the microservice development for features like Auto Top Up and cloud migration.
+* I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. I did the microservice development for features like Auto Top Up and support cloud migration.
 * We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
@@ -142,5 +142,5 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 
 ## Expectation
 
-* Expected Positions: Machine Learning Engineer / Full Stack Engineer/ Data Engineer
-* Expected Locations: Guangzhou, Shenzhen, Singapore, Hong Kong
+* Expected Positions: Full Stack Engineer / Backend Engineer
+* Expected Locations: Guangzhou, Shenzhen
