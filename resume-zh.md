@@ -50,7 +50,7 @@ title:  "Resume"
 
 * LeanCloud是国内领先的云计算提供商。该公司为数十万的开发者用户提供服务，已获得IDG投资。
 * 参与了LeanCloud iOS SDK和Android SDK的开发。负责一些Angular前端项目。
-* 负责LeanChat iOS客户端和Android客户端的开发。这是一个用来展示通信SDK的聊天应用，具有单聊、群聊、附近人等功能。
+* 负责LeanChat iOS客户端和Android客户端的开发。这是一个用来展示通信SDK的聊天应用，具有单聊、群聊、附近的人等功能。
 
 ## 教育背景
 
