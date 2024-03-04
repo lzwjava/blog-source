@@ -143,4 +143,4 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 ## Expectation
 
 * Expected Positions: Full Stack Engineer / Backend Engineer
-* Expected Locations: Guangzhou, Shenzhen
+* Expected Locations: Guangzhou
