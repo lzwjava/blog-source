@@ -31,7 +31,7 @@ title:  "Resume"
 
 ### 博彦科技 & 星展银行, 全栈工程师, 2021.12 - 2022.11
 
-* 星展银行（DBS Bank），前身为新加坡发展银行有限公司（The Development Bank of Singapore Limited），是东南亚地区资产规模最大的银行，也是亚洲规模最大的银行之一。
+* 星展银行（DBS Bank），前身为新加坡发展银行有限公司，是东南亚地区资产规模最大的银行，也是亚洲规模最大的银行之一。
 * 与博彦科技签约后，我加入了星展银行，并通过开发股票交易微服务为DBS Client Connect做出贡献，并为DBS DigiBank CN参与开发了包括互惠基金在内的几个微服务。
 * 我们利用了云技术和现代框架，采用了如Java，Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry和Kibana等自动化最佳实践工具，并使用BDD和TDD方法。
 
