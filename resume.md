@@ -36,7 +36,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Contracting with Beyondsoft, I joined DBS Bank and contributed to DBS Client Connect by developing the equity trading micro-service, and to DBS DigiBank CN by developing several micro-services, including those for mutual funds.
 * We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
 
-### Freelancer Inc, Freelancer & Engineer, 2020.01 - 2021.11
+### Freelancer Inc, Freelancer & Full Stack Engineer, 2020.01 - 2021.11
 
 * Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign, some modules of an online technical interview platform(ShowMeBug), etc. Used technologies like Ruby, Ruby On Rails, Python, ElasticSearch, Docker, Netty, etc.
 * Wrote technical blogs and shared them online. Learned English by watching Netflix and reading books. Solved some algorithm problems and participated in online algorithm competitions in Codeforces. 
