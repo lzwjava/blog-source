@@ -41,7 +41,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign, some modules of an online technical interview platform(ShowMeBug), etc. Used technologies like Ruby, Ruby On Rails, Python, ElasticSearch, Docker, Netty, etc.
 * Wrote technical blogs and shared them online. Learned English by watching Netflix and reading books. Solved some algorithm problems and participated in online algorithm competitions in Codeforces. 
 
-### Beijing Square Root Inc, Founder & Engineer, 2016.07 - 2019.12
+### Beijing Square Root Inc, Founder & Full Stack Engineer, 2016.07 - 2019.12
 
 * From January 2018 to December 2019, I led a team of around 20 full-time or part-time employees to complete nearly 50 small software projects for customers. The types of projects include small programs, apps, websites, and games. The revenue exceeded 3 million RMB and the profit exceeded 700 thousand RMB. I was responsible for project negotiation, project management, and some software development in the team.
 * From July 2016 to September 2017, Fun Live, a live broadcast platform for software engineering lectures, was launched. In one year, nearly 30,000 users were obtained. Started my own business for the first time, and the marketing, and software development were mainly done by myself. 
