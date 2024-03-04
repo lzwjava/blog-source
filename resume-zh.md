@@ -35,7 +35,7 @@ title:  "Resume"
 * 与博彦科技签约后，我加入了星展银行，并通过开发股票交易微服务为DBS Client Connect做出贡献，并为DBS DigiBank CN参与开发了包括互惠基金在内的几个微服务。
 * 我们利用了云技术和现代框架，采用了如Java，Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry和Kibana等自动化最佳实践工具，并使用BDD和TDD方法。
 
-### Freelancer Inc, 自由职业者 & 工程师, 2020.01 - 2021.11
+### Freelancer Inc, 自由职业者 & 全栈工程师, 2020.01 - 2021.11
 
 * 作为自由职业者进行了一些软件项目。项目包括一个关于LED显示屏公司的网站，一个在线技术面试平台（ShowMeBug）的一些模块等。使用的技术包括Ruby, Ruby On Rails, Python, ElasticSearch, Docker, Netty等。
 * 写了一些技术博客并在网上分享。通过看Netflix和阅读书籍学习英语。解决了一些算法问题，并在Codeforces上参加了在线算法竞赛。
