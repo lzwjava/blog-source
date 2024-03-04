@@ -87,7 +87,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 * Below are my open-source projects. Please check out here, https://github.com/lzwjava.
 * neural-networks-and-zhiwei-learning, machine learning practice projects, 530 commits, Python
-* uva, the solutions to algorithm problems, 2466 commits, Java
+* algorithm-solutions, the solutions to algorithm problems, 2466 commits, Java
 * lzwjava.github.io, my blog, 1537 commits, English & Chinese
 * live-server, the backend of an online education platform, 660 commits, PHP
 * live-mobile-web, the mobile web of an online education platform, 528 commits, Vue & JavaScript
