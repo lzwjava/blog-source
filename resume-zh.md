@@ -87,7 +87,7 @@ title:  "Resume"
 
 * 以下是我的一些开源项目。请在这里查看，https://github.com/lzwjava。
 * neural-networks-and-zhiwei-learning，机器学习实践项目，530次提交，使用 Python
-* uva，算法问题解答，2466次提交，使用 Java
+* algorithm-solutions，算法问题解答，2466次提交，使用 Java
 * lzwjava.github.io，我的博客，1537次提交，使用英文和中文
 * live-server，一个在线教育平台的后端，660次提交，使用 PHP
 * live-mobile-web，一个在线教育平台的移动网页，528次提交，使用 Vue 和 JavaScript
