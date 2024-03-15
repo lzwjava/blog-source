@@ -26,13 +26,13 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Prepared for the exams to obtain the associate degree, particularly in subjects like advanced mathematics and linear algebra.
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
-* HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services, boasted around 2.9 million active users as of November 2022.
-* I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. I did the microservice development for features like Auto Top Up and support cloud migration.
+* Farben is a leading software technology service provider in China. HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe, an HSBC mobile payment service catering to Hong Kong residents with local phone numbers and banking services.
+* I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. I did the microservice development for features like Auto Top Up and helped with cloud migration.
 * We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
 
-* DBS Bank, previously known as The Development Bank of Singapore Limited, is the largest bank in Southeast Asia by assets and among the largest banks in Asia.
+* Beyondsoft Consulting is a leading business IT and consulting company. DBS Bank is the largest bank in Southeast Asia by assets and among the largest banks in Asia.
 * Contracting with Beyondsoft, I joined DBS Bank and contributed to DBS Client Connect by developing the equity trading micro-service, and to DBS DigiBank CN by developing several micro-services, including those for mutual funds.
 * We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
 
