@@ -5,7 +5,7 @@ title:  "Best Essays"
 
 ## Best Essays
 
-* [To the 10 Yo's Me: How to Become an Information Genius](https://lzwjava.github.io/10yo)
+* [To the 10 Yo's Me](https://lzwjava.github.io/10yo)
 * [The Next Generation Should Experience All of These Wonderful Things and Places](https://lzwjava.github.io/things)
 * [I Finally Understand How Neural Network Works](https://lzwjava.github.io/neural-network)
 * [Zen and the Art of Machine Learning](https://lzwjava.github.io/zen-neural)
