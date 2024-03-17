@@ -138,6 +138,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 * IELTS Academics, Score 6 
 * Machine Learning Specialization Course Completion Certificate, provided by DeepLearning.AI and Standford University
 * Deep Learning Specialization Course Completion Certificate, provided by DeepLearning.AI
+* Developing on AWS, provided by AWS Training
 
 
 ## Expectation
