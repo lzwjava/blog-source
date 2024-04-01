@@ -96,7 +96,6 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * curiosity-courses, a programming course, 215 commits, Chinese
 * feynman-lectures-mobi, a tool to convert latex to SVG to create mobi ebook, 47 commits, Python
 * Creak, A Simple HTML Parser written, 49 commits, Swift
-* user-service, an example microservice project, 1 commit, Java
 
 ## Skills
 

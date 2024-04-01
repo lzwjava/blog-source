@@ -96,7 +96,6 @@ title:  "Resume"
 * curiosity-courses，一个编程课程，215次提交，使用中文
 * feynman-lectures-mobi, 一个将latex转换为SVG以创建mobi电子书的工具，47次提交，Python
 * Creak，一个简单的 HTML 解析器，49次提交，使用 Swift
-* user-service，一个示例微服务项目，1次提交，使用 Java
 
 
 ## 技能
