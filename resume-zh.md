@@ -37,7 +37,7 @@ title:  "Resume"
 
 ### Freelancer Inc, 自由职业者 & 全栈工程师, 2020.01 - 2021.11
 
-* 作为自由职业者进行了一些软件项目。项目包括一个关于LED显示屏公司的网站，一个在线技术面试平台（ShowMeBug）的一些模块等。使用的技术包括Ruby, Ruby On Rails, Python, ElasticSearch, Docker, Netty等。
+* 作为自由职业者进行了一些软件项目。项目包括一个关于LED显示屏公司的网站(lvchensign.com)，一个在线技术面试平台（ShowMeBug）的一些模块等。使用的技术包括Ruby, Ruby On Rails, Python, ElasticSearch, Docker, Netty等。
 * 写了一些技术博客并在网上分享。通过看Netflix和阅读书籍学习英语。解决了一些算法问题，并在Codeforces上参加了在线算法竞赛。浏览了介绍教程并运行了 Spark、Hadoop、Kubernetes 和 Docker 的一些示例。
 
 ### 北京平方根科技有限公司, 创始人 & 工程师, 2016.07 - 2019.12
