@@ -73,7 +73,7 @@ title:  "Resume"
 ### 公司项目
 
 * 汇丰银行的PayMe项目。参与了自动充值功能和云迁移的后端开发。使用的技术栈包括Java、Spring Cloud、Azure和AWS。从2022年11月到2023年7月。
-* 星展银行的Digibank CN项目。参与了共同基金功能的后端开发。使用的技术栈包括Java、Spring Cloud和Pivotal Cloud Foundry。从2022年7月到2022年11月。
+* 星展银行Digibank CN项目。参与了共同基金功能的后端开发。使用的技术栈包括Java、Spring Cloud和Pivotal Cloud Foundry。从2022年7月到2022年11月。
 * 星展银行Client Connect项目。参与了股票交易的后端开发。使用的技术栈包括Java、Spring Cloud和Pivotal Cloud Foundry。从2021年12月到2022年6月。
 * ShowMeBug，一个在线面试平台。负责平台与企业微信的集成，例如登录和简易面试入口。使用的技术栈包括Ruby on Rails、PostgreSQL和企业微信SDK。从2021年7月到2021年9月。
 * Square Root Inc的50个杂项项目，包括网站、游戏、应用、微信小程序和HTML5。我的软件咨询公司。负责团队管理、合同谈判、项目管理和客户沟通。从2018年1月到2019年12月。
