@@ -99,7 +99,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ## Skills
 
-I have gained a lot of skills since I started programming in 2008. Let's look at my skills from a high level. 
+I have gained a lot of skills since I started programming in 2008. In terms of usage time, the high-level description is as follows.
 
 * 5 or more years of using experience: Chinese, English, Writing, Java, Algorithm, Test-driven Development, Cloud Computing, DevOps, Backend Development
 * 3 to 4 years of using experience: Cantonese, iOS Development, Android Development
