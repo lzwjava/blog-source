@@ -102,10 +102,10 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 I have gained a lot of skills since I started programming in 2008. Let's look at my skills from a high level. 
 
-* 5 or more years of experience: Chinese, English, Writing, Java, Algorithm, Test-driven Development, Cloud Computing, DevOps, Backend Development
-* 3 to 4 years of experience: Cantonese, iOS Development, Android Development
-* 1 to 2 years of experience: Product Management, Machine Learning, Frontend Development
-* less than 1 year of experience: Japanese
+* 5 or more years of using experience: Chinese, English, Writing, Java, Algorithm, Test-driven Development, Cloud Computing, DevOps, Backend Development
+* 3 to 4 years of using experience: Cantonese, iOS Development, Android Development
+* 1 to 2 years of using experience: Product Management, Machine Learning, Frontend Development
+* less than 1 year of using experience: Japanese
 
 ## Tools
 
@@ -135,6 +135,7 @@ Besides skills, let's look at the tools I have used. They are detailed tools tha
 ## Certificates 
 
 * Beijing Forestry University Dropout Certificate
+* Xuexing Web Report (Bachelor Education, Dropout Status)
 * IELTS Academics, Score 6 
 * Machine Learning Specialization Course Completion Certificate, provided by DeepLearning.AI and Standford University
 * Deep Learning Specialization Course Completion Certificate, provided by DeepLearning.AI
