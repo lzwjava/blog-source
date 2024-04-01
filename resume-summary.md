@@ -6,8 +6,9 @@ Basic information:
 Summary:
 - Fluent with Mandarin, Cantonese, English(IELTS 6)
 - 5 years experiences of Java Development, 2 years of microservice experience
-- 4 years experiences of iOS, Android, Frontend, Machine Learning Development
+- 3 years experiences of iOS, Android, Frontend Development
 - 2 years of banking project(DBS, HSBC), familiar with domain knowledge
+- 1 year of Machine Learning Development
 - Familiar with data structure and algortihm, solved 1200 algorithm problems online
 - Familiar with Spring MVC, Spring, Spring Boot, MyBatis and other development frameworks
 - Familiar with MySQL, Redis, Kafka, Kubernetes and Docker
