@@ -14,4 +14,4 @@ Summary:
 - Familiar with MySQL, Redis, Kafka, Kubernetes and Docker
 - Familiar with Azure, AWS and Alibaba Cloud
 - Moderately familiar with HTML, JavaScript, Ajax, jQuery and Vue 
-- A little familiar with PyTorch, Tensorflow, Spark, Hadoop, CUDA
+- A little famili;0ar with PyTorch, Tensorflow, Spark, Hadoop, CUDA
