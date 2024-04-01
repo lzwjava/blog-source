@@ -135,7 +135,7 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 ## Certificates 
 
 * Beijing Forestry University Dropout Certificate
-* Xuexing Web Report (Bachelor Education, Dropout Status)
+* China Higher Education Official Report (Bachelor Education, Dropout Status)
 * IELTS Academics, Score 6 
 * Machine Learning Specialization Course Completion Certificate, provided by DeepLearning.AI and Standford University
 * Deep Learning Specialization Course Completion Certificate, provided by DeepLearning.AI
