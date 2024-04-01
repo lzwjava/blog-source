@@ -38,7 +38,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer Inc, Freelancer & Full Stack Engineer, 2020.01 - 2021.11
 
-* Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign, some modules of an online technical interview platform(ShowMeBug), etc. Used technologies like Ruby, Ruby On Rails, Python, ElasticSearch, Docker, Netty, etc.
+* Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign(lvchensign.com), some modules of an online technical interview platform(ShowMeBug), etc. Used technologies like Ruby, Ruby On Rails, Python, ElasticSearch, Docker, Netty, etc.
 * Wrote technical blogs and shared them online. Learned English by watching Netflix and reading books. Solved some algorithm problems and participated in online algorithm competitions in Codeforces. Walked through introducation tutorials of Spark, Hadoop, Kubernetes and Docker. 
 
 ### Beijing Square Root Inc, Founder & Full Stack Engineer, 2016.07 - 2019.12
