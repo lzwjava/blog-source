@@ -91,6 +91,8 @@ CodeReview is a professional platform for code review, communication, and sharin
 
 Responsible for most code developement of the backend and frontend.
 
+We leveraged cloud technologies and modern frameworks with tools such as PHP, Vue, Code Igniter, Alibaba Cloud and Ping++.
+
 Open Sourced at GitHub.
 
 * [code-review-server](https://github.com/lzwjava/code-review-server), 275 commits
@@ -103,6 +105,8 @@ Open Sourced at GitHub.
 Fun Live, a simple paid knowledge live broadcast platform. Users can participate in various online knowledge lectures such as programming or design here. It gained 30000 users. 
 
 My Startup Project. Responsible for most code developement of the backend and frontend.
+
+We leveraged cloud technologies and modern frameworks with tools such as PHP, Vue, Code Igniter, Alibaba Cloud and SRS streaming. 
 
 Open Sourced at GitHub.
 
