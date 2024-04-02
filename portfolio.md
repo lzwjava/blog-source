@@ -13,6 +13,14 @@ Uva Online Judge record is [here](https://uhunt.onlinejudge.org/id/113519).
 
 The range of algorithm problems I'v solved encompasses various areas, including data structures, graph, mathematics, string processing, geometry and several other advanced or specialized topics.
 
+## Flower Recognition, Android, 2014.4 - 2014.8
+
+The user can take pictures of flowers, and draw certain circles to help to recognize them better. 
+
+Responsible for Android development.
+
+[Open sourced at GitHub](https://github.com/lzwjava/flower-recognition), 33 commits.
+
 ## iword, Android, 2014.3
 
 An Android application to help you learn English by watching movie clips. 
