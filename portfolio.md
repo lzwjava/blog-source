@@ -11,7 +11,7 @@ Uva Online Judge record is [here](https://uhunt.onlinejudge.org/id/113519).
 
 <div align="center"><img src="/assets/images/portfolio/uva.png"/><img /></div>
 
-The range of algorithm problems I'v tackled encompasses various areas, including data structures, graph, mathematics, string processing, geometry and several other advanced or specialized topics.
+The range of algorithm problems I'v solved encompasses various areas, including data structures, graph, mathematics, string processing, geometry and several other advanced or specialized topics.
 
 ## iword, Android, 2014.3
 
@@ -130,7 +130,7 @@ Open Sourced at GitHub.
 
 The WeChat Miniprogram for Super Brain program in Jiangsu TV has puzzles for users to play. In the program group, the host guides users through oral broadcasting, which poses certain technical challenges.
 
-Responsible for backend & half of the frontend.
+Responsible for backend & some frontend development.
 
 ![](/assets/images/profit/profit2.png)
 
