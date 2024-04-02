@@ -108,7 +108,7 @@ Fun Live, a simple paid knowledge live broadcast platform. Users can participate
 
 My Startup Project. Responsible for most code developement of the backend and frontend.
 
-We leveraged cloud technologies and modern frameworks with tools such as PHP, Vue, Code Igniter, Alibaba Cloud and SRS streaming. 
+We leveraged cloud technologies and modern frameworks with tools such as PHP, Vue, Code Igniter, Alibaba Cloud, SRS streaming and WeChat SDK.
 
 Open Sourced at GitHub.
 
