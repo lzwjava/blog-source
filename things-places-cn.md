@@ -5,8 +5,6 @@ title:  "物品 & 地方"
 
 ### 物品
 
-房子：广州 120 平方米的房子
-
 车：哪吒 V 潮 400 Lite 2022、大众 Polo 2011、雪佛兰赛欧 2011 
 
 手机：iPhone 14 Pro Max、谷歌 Pixel 7、iPhone X、iPhone 6、小米 2S
