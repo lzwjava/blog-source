@@ -138,7 +138,7 @@ Open Sourced at GitHub.
 
 The WeChat Miniprogram for Super Brain program in Jiangsu TV has puzzles for users to play. In the program group, the host guides users through oral broadcasting, which poses certain technical challenges.
 
-Responsible for backend & some frontend development.
+Responsible for backend and some frontend development.
 
 We leveraged cloud technologies and modern frameworks with tools such as Java, Spring, Redis, Alibaba Cloud and WeChat DevTools.
 
