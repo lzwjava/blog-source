@@ -85,7 +85,7 @@ Responsible for iOS development.
 
 </div>
 
-## CodeReview, PHP & Vue, 2015.11 - 2016.7
+## CodeReview, Full Stack, 2015.11 - 2016.7
 
 CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code.
 
@@ -100,7 +100,7 @@ Open Sourced at GitHub.
 
 <div align="center"><img src="/assets/images/portfolio/code-review.png"/><img/></div>
 
-## Fun Live, PHP & Vue, 2016.6 - 2017.12
+## Fun Live, Full Stack, 2016.6 - 2017.12
 
 Fun Live, a simple paid knowledge live broadcast platform. Users can participate in various online knowledge lectures such as programming or design here. It gained 30000 users. 
 
@@ -124,7 +124,7 @@ Open Sourced at GitHub.
 
 <div align="center"><img src="/assets/images/portfolio/funlive3.jpg"/><img/></div>
 
-## The WeChat Miniprogram for Super Brain program, Java & JavaScript, 2018.1 - 2018.3
+## The WeChat Miniprogram for Super Brain program, Full Stack, 2018.1 - 2018.3
 
 The WeChat Miniprogram for Super Brain program in Jiangsu TV has puzzles for users to play. In the program group, the host guides users through oral broadcasting, which poses certain technical challenges.
 
@@ -143,6 +143,8 @@ Example projects:
 ![](/assets/images/profit/profit3.png)
 
 ![](/assets/images/profit/profit4.png)
+
+![](/assets/images/profit/profit6.jpg)
 
 ## DBS Client Connect - Equity Trading, Backend, 2021.12-2022.6
 
