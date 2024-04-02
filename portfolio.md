@@ -148,7 +148,9 @@ Example projects:
 
 DBS Client Connect, the first all-in-one, AI- and data-driven customer-relationship management platform.
 
-Responsible for equity trading micro-service. Used tech stacks like Java, Spring. 
+Responsible for equity trading micro-service. 
+
+We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
 
 Similar to this tab. 
 
