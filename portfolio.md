@@ -87,7 +87,7 @@ Responsible for iOS development.
 
 ## CodeReview, Full Stack, 2015.11 - 2016.7
 
-CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code.
+CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. It was founded by 6 Internet lovers, including me.
 
 Responsible for most code developement of the backend and frontend.
 
