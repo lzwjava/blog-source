@@ -51,7 +51,7 @@ Gained around 3500 Users in Beijing Forestry University.
 
 </div>
 
-## LeanChat, Android, 2014.7-2014.12
+## LeanChat, Android, 2014.7 - 2014.12
 
 "Leanchat" includes features such as friend management, group management, location-based messaging, nearby people, personal profiles, and login/register functions, all fully utilizing LeanCloud's storage and communication capabilities.
 
