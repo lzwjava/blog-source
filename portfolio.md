@@ -90,3 +90,33 @@ Open Sourced at GitHub.
 
 <div align="center"><img src="/assets/images/portfolio/code-review.png"/><img/></div>
 
+## Fun Live, PHP & Vue, 2016.6 - 2017.12
+
+Fun Live, a simple paid knowledge live broadcast platform. Users can participate in various online knowledge lectures such as programming or design here.
+
+My Startup Project. Responsible for most code developement of the backend and frontend.
+
+Open Sourced at GitHub.
+
+* [live-server](https://github.com/lzwjava/live-server), 661 commits(555 commits by me)
+* [live-mobile-web](https://github.com/lzwjava/live-mobile-web), 528 commits(426 commits by me)
+* [live-web](https://github.com/lzwjava/live-web), 140 commits
+
+<div align="center">
+
+<img src="/assets/images/portfolio/funlive1.jpg" width="200px" /><img/>
+
+<img src="/assets/images/portfolio/funlive2.jpg" width="200px" /><img/>
+
+</div>
+
+<div align="center"><img src="/assets/images/portfolio/funlive3.jpg"/><img/></div>
+
+## The WeChat Miniprogram for Super Brain program, Java & JavaScript, 2018
+
+Jiangsu TV's  WeChat Miniprogram has puzzles for users to play. In the program group, the host guides users through oral broadcasting, which poses certain technical challenges.
+
+Responsible for backend & half of the frontend.
+
+![](/assets/images/profit/profit2.png)
+
