@@ -11,7 +11,7 @@ Uva Online Judge record is [here](https://uhunt.onlinejudge.org/id/113519).
 
 <div align="center"><img src="/assets/images/portfolio/uva.png"/><img /></div>
 
-The topics of algorithm problems I solved covers like data structures, graph, mathematics, string processing, geometry and some other advanced or rare topics.
+The range of algorithm problems I'v tackled encompasses various areas, including data structures, graph, mathematics, string processing, geometry and several other advanced or specialized topics.
 
 ## iword, Android, 2014.3
 
