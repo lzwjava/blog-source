@@ -104,7 +104,7 @@ Open Sourced at GitHub.
 
 ## Fun Live, Full Stack, 2016.6 - 2017.12
 
-Fun Live, a simple paid knowledge live broadcast platform. Users can participate in various online knowledge lectures such as programming or design here. It gained 30000 users. 
+Fun Live, a simple paid knowledge live broadcast platform. Users can participate in various online knowledge lectures such as programming or design here. It gained around 30000 users.
 
 My Startup Project. Responsible for most code developement of the backend and frontend.
 
