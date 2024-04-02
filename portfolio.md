@@ -3,9 +3,11 @@ layout: post
 title:  "Portfolio"
 ---
 
-## Uva & Codeforces
+## Uva & Codeforces, Java & C++, 2008-2013 & 2021
 
 Solved around 1200 algorithm problems in the online judge.
+
+Uva Online Judege record is [here](https://uhunt.onlinejudge.org/id/113519).
 
 <div align="center"><img src="/assets/images/portfolio/uva.png"/><img /></div>
 
