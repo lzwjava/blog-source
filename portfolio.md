@@ -47,7 +47,7 @@ Gained 3500 Users in Beijing Forestry University.
 
 Responsible for Android development.
 
-[Open sourced at GitHub](https://github.com/lzwjava/leanchat-android). 412 commits.
+[Open sourced at GitHub](https://github.com/lzwjava/leanchat-android), 412 commits.
 
 <div align="center">
 
@@ -65,7 +65,7 @@ The iOS application of LeanChat.
 
 Responsible for iOS development.
 
-[Open sourced at GitHub](https://github.com/lzwjava/leanchat-ios). 446 Commits.
+[Open sourced at GitHub](https://github.com/lzwjava/leanchat-ios), 446 Commits.
 
 <div align="center">
 
@@ -85,6 +85,8 @@ Responsible for most code developement of the backend and frontend.
 
 Open Sourced at GitHub.
 
-* [code-review-server](https://github.com/lzwjava/code-review-server)
-* [code-review-web](https://github.com/lzwjava/code-review-web)
+* [code-review-server](https://github.com/lzwjava/code-review-server), 275 commits
+* [code-review-web](https://github.com/lzwjava/code-review-web), 488 commits(302 commits by me)
+
+<div align="center"><img src="/assets/images/portfolio/code-review.png"/><img/></div>
 
