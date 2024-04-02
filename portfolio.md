@@ -23,7 +23,7 @@ Responsible for Android development.
 
 <div align="center"><img src="/assets/images/portfolio/i2.webp"/><img /></div>
 
-## Bjfu Assistant, 2014.3
+## Bjfu Assistant, 2014
 
 A campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums.
 
@@ -40,5 +40,24 @@ Gained 3500 Users in Beijing Forestry University.
 <img src="/assets/images/portfolio/bjfu3.jpg" width="200px" /><img/>
 
 </div>
+
+## LeanChat Android, 2014
+
+"Leanchat" includes features such as friend management, group management, location-based messaging, nearby people, personal profiles, and login/register functions, all fully utilizing LeanCloud's storage and communication capabilities.
+
+Responsible for Android development.
+
+[Open Source at GitHub](https://github.com/lzwjava/leanchat-android). 
+
+<div align="center">
+
+<img src="/assets/images/portfolio/leanchat-android3.jpg" width="200px" /><img/>
+
+<img src="/assets/images/portfolio/leanchat-android1.jpg" width="200px" /><img/>
+
+<img src="/assets/images/portfolio/leanchat-android2.jpg" width="200px" /><img/>
+
+</div>
+
 
 
