@@ -146,9 +146,9 @@ Example projects:
 
 ## DBS Client Connect - Equity Trading, Backend, 2021.12-2022.6
 
-DBS Client Connect, the first all-in-one, AI- and data-driven customer-relationship management platform.
+DBS Client Connect, the first all-in-one, AI- and data-driven customer-relationship management platform. 
 
-Responsible for equity trading micro-service. 
+Contributed as a contractor. Responsible for equity trading micro-service. 
 
 We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jenkins, Pivotal Cloud Foundry, and utilizing BDD and TDD methodologies.
 
@@ -160,9 +160,9 @@ Picture is from [eddytandesign](https://www.eddytandesign.com/client-serving-dbs
 
 ## DBS DigiBank CN - Mutual Funds, Backend, 2022.7-2022.11
 
-DBS DigiBank CN rethought and redesigned for you to enjoy the faster and more convenient way to bank on the go.
+DBS DigiBank CN rethought and redesigned for you to enjoy the faster and more convenient way to bank on the go. 
 
-Responsible for developing several micro-services, including those for mutual funds.
+Contributed as a contractor. Responsible for developing several micro-services, including those for mutual funds.
 
 We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
 
@@ -177,9 +177,9 @@ We leveraged cloud technologies and modern frameworks, employing automation best
 
 ## PayMe By HSBC - Auto Top Up, Backend, 2022.12 - 2023.7 
 
-PayMe from HSBC is a convenient way to send payments to friends, and make mobile payments to merchants both on and offline.
+PayMe from HSBC is a convenient way to send payments to friends, and make mobile payments to merchants both on and offline. Contributed as a contractor.
 
-Responsible for backend development for the feature Auto Top Up and helping with AWS migration.
+Contributed as a contractor. Responsible for backend development for the feature Auto Top Up and helping with AWS migration.
 
 We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
