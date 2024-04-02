@@ -179,7 +179,7 @@ We leveraged cloud technologies and modern frameworks, employing automation best
 
 ## PayMe By HSBC - Auto Top Up, Backend, 2022.12 - 2023.7 
 
-PayMe from HSBC is a convenient way to send payments to friends, and make mobile payments to merchants both on and offline. Contributed as a contractor.
+PayMe from HSBC is a convenient way to send payments to friends, and make mobile payments to merchants both on and offline. 
 
 Contributed as a contractor. Responsible for backend development for the feature Auto Top Up and helping with AWS migration.
 
