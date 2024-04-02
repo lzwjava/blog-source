@@ -3,6 +3,12 @@ layout: post
 title:  "Portfolio"
 ---
 
+## Uva & Codeforces
+
+Solved around 1200 algorithm problems in the online judge.
+
+<div align="center"><img src="/assets/images/portfolio/uva.png"/><img /></div>
+
 ## iword, Android, 2014.3
 
 An Android application to help you learn English by watching movie clips. 
@@ -112,7 +118,7 @@ Open Sourced at GitHub.
 
 <div align="center"><img src="/assets/images/portfolio/funlive3.jpg"/><img/></div>
 
-## The WeChat Miniprogram for Super Brain program, Java & JavaScript, 2018
+## The WeChat Miniprogram for Super Brain program, Java & JavaScript, 2018.1 - 2018.3
 
 Jiangsu TV's  WeChat Miniprogram has puzzles for users to play. In the program group, the host guides users through oral broadcasting, which poses certain technical challenges.
 
@@ -120,3 +126,59 @@ Responsible for backend & half of the frontend.
 
 ![](/assets/images/profit/profit2.png)
 
+## 50 miscellaneous projects, Project Management, 2018-2019
+
+The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs and HTML5. My software consultant company. 
+
+Responsible for team management, contract negotiation, project management, client communications and some software development.
+
+Example projects:
+
+![](/assets/images/profit/profit3.png)
+
+![](/assets/images/profit/profit4.png)
+
+## DBS Client Connect - Equity Trading, Backend, 2021.12-2022.6
+
+DBS Client Connect, the first all-in-one, AI- and data-driven customer-relationship management platform.
+
+Responsible for equity trading micro-service. Used tech stacks like Java, Spring. 
+
+Similar to this tab. 
+
+<div align="center"><img src="/assets/images/portfolio/dbsconnect.webp"/><img/></div>
+
+Picture is from [eddytandesign](https://www.eddytandesign.com/client-serving-dbs). 
+
+## DBS DigiBank CN - Mutual Funds, Backend, 2022.7-2022.11
+
+DBS DigiBank CN rethought and redesigned for you to enjoy the faster and more convenient way to bank on the go.
+
+Responsible for developing several micro-services, including those for mutual funds.
+
+We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
+
+<div align="center">
+
+<img src="/assets/images/portfolio/dbs-digi-1.png" width="200px" /><img/>
+
+<img src="/assets/images/portfolio/dbs-digi-2.png" width="200px" /><img/>
+
+</div>
+
+
+## PayMe By HSBC - Auto Top Up, Backend, 2022.12 - 2023.7 
+
+PayMe from HSBC is a convenient way to send payments to friends, and make mobile payments to merchants both on and offline.
+
+Responsible for backend development for the feature Auto Top Up and helping with AWS migration.
+
+We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
+
+<div align="center">
+
+<img src="/assets/images/portfolio/payme1.png" width="200px" /><img/>
+
+<img src="/assets/images/portfolio/payme2.png" width="200px" /><img/>
+
+</div>
