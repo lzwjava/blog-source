@@ -126,7 +126,7 @@ Open Sourced at GitHub.
 
 ## The WeChat Miniprogram for Super Brain program, Java & JavaScript, 2018.1 - 2018.3
 
-Jiangsu TV's  WeChat Miniprogram has puzzles for users to play. In the program group, the host guides users through oral broadcasting, which poses certain technical challenges.
+The WeChat Miniprogram for Super Brain program in Jiangsu TV has puzzles for users to play. In the program group, the host guides users through oral broadcasting, which poses certain technical challenges.
 
 Responsible for backend & half of the frontend.
 
