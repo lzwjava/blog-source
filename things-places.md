@@ -9,8 +9,6 @@ Please check [here](/things-places-cn).
 
 ### Things
 
-House: 120 Square Meters House in Guangzhou
-
 Cars: Neta V Chao 400 Lite 2022, Volkswagen Polo 2011, Chevrolet Sail 2011 
 
 Mobile Phone: iPhone 14 Pro Max, iPhone X, iPhone 6, Xiao Mi 2S
