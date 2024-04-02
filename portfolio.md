@@ -162,7 +162,7 @@ ShowMeBug is a technology competence assessment platform that supports practical
 
 Responsible for the integration between the platform and the Enterprise WeChat, like login, and easy interview entrance.
 
-We used cloud technologies and modern frameworks with tools such as Ruby, PostgreSQL and WeChat SDK.
+In this feature, We mainly used tools such as Ruby, PostgreSQL and WeChat SDK.
 
 <div align="center"><img src="/assets/images/portfolio/showmebug.webp"/><img/></div>
 
