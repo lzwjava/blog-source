@@ -37,7 +37,7 @@ A campus assistant Android application "Bjfu Assistant" that integrates the func
 
 Responsible for Android development.
 
-Gained 3500 Users in Beijing Forestry University.
+Gained around 3500 Users in Beijing Forestry University.
 
 <div align="center">
 
