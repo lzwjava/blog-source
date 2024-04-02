@@ -146,8 +146,6 @@ Example projects:
 
 ![](/assets/images/profit/profit4.png)
 
-![](/assets/images/profit/profit6.jpg)
-
 ## DBS Client Connect - Equity Trading, Backend, 2021.12-2022.6
 
 DBS Client Connect, the first all-in-one, AI- and data-driven customer-relationship management platform. 
