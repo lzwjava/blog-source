@@ -156,7 +156,17 @@ Example projects:
 
 <div align="center"><img src="/assets/images/profit/profit4.png" width="95%" /><img/></div>
 
-## DBS Client Connect - Equity Trading, Backend, 2021.12-2022.6
+## ShowMeBug - Enterprise WeChat Entrance, Ruby, 2021.7 - 2021.9
+
+ShowMeBug is a technology competence assessment platform that supports practical programming, enabling efficient and accurate assessment and recruitment of technical talents.
+
+Responsible for the integration between the platform and the Enterprise WeChat, like login, and easy interview entrance.
+
+We used cloud technologies and modern frameworks with tools such as Ruby, PostgreSQL and WeChat SDK.
+
+<div align="center"><img src="/assets/images/portfolio/showmebug.webp"/><img/></div>
+
+## DBS Client Connect - Equity Trading, Backend, 2021.12 - 2022.6
 
 DBS Client Connect, the first all-in-one, AI- and data-driven customer-relationship management platform. 
 
