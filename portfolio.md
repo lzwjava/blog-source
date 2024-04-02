@@ -164,7 +164,7 @@ DBS DigiBank CN rethought and redesigned for you to enjoy the faster and more co
 
 Responsible for developing several micro-services, including those for mutual funds.
 
-We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
+We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
 
 <div align="center">
 
