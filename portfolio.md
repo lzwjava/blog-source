@@ -85,7 +85,7 @@ Responsible for iOS development.
 
 </div>
 
-## CodeReview, Cofounder & Full Stack, 2015.11 - 2016.7
+## CodeReview, Full Stack, 2015.11 - 2016.7
 
 CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code.
 
@@ -100,7 +100,7 @@ Open Sourced at GitHub.
 
 <div align="center"><img src="/assets/images/portfolio/code-review.png"/><img/></div>
 
-## Fun Live, Founder & Full Stack, 2016.6 - 2017.12
+## Fun Live, Full Stack, 2016.6 - 2017.12
 
 Fun Live, a simple paid knowledge live broadcast platform. Users can participate in various online knowledge lectures such as programming or design here. It gained 30000 users. 
 
