@@ -154,7 +154,7 @@ Example projects:
 
 ![](/assets/images/profit/profit3.png)
 
-![](/assets/images/profit/profit4.png)
+<div align="center"><img src="/assets/images/profit/profit4.png" width="95%" /><img/></div>
 
 ## DBS Client Connect - Equity Trading, Backend, 2021.12-2022.6
 
