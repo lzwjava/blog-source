@@ -132,6 +132,8 @@ The WeChat Miniprogram for Super Brain program in Jiangsu TV has puzzles for use
 
 Responsible for backend & some frontend development.
 
+We leveraged cloud technologies and modern frameworks with tools such as Java, Spring, Redis, Alibaba Cloud and WeChat DevTools.
+
 ![](/assets/images/profit/profit2.png)
 
 ## Square Root Inc - 50 miscellaneous projects, Project Management, 2018.1-2019.12
