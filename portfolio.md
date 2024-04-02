@@ -134,7 +134,7 @@ Responsible for backend & half of the frontend.
 
 ## 50 miscellaneous projects, Project Management, 2018-2019
 
-The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs and HTML5. My software consultant company. 
+The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs and HTML5. My software consulting company. 
 
 Responsible for team management, contract negotiation, project management, client communications and some software development.
 
