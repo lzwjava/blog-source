@@ -170,7 +170,7 @@ In this feature, We mainly used tools such as Ruby, PostgreSQL and WeChat SDK.
 
 DBS Client Connect, the first all-in-one, AI- and data-driven customer-relationship management platform. 
 
-Contributed as a contractor. Responsible for equity trading micro-service. 
+Contributed as a contractor. Responsible for the backend development of equity trading micro-service. 
 
 We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jenkins, Pivotal Cloud Foundry, and utilizing BDD and TDD methodologies.
 
