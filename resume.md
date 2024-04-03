@@ -52,8 +52,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 * Beijing Dami Entertainment Co. was a company founded by 6 Internet lovers, including me. We launched and operated the platform CodeReview. CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. It gained around 3000 users.
 * Responsible for the code developement of the backend and half of the frontend.
-* We leveraged cloud technologies and frameworks with tools such as PHP, Vue, Code Igniter, Alibaba Cloud and Ping++.
-
+* We utilized a strong tech stack including PHP, Vue, Code Igniter, Alibaba Cloud and Ping++.
 
 ### LeanCloud, Software Engineer, 2014.07 - 2015.11
 
