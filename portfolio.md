@@ -169,9 +169,14 @@ We leveraged cloud technologies and modern frameworks, employing automation best
 
 Similar to this tab. 
 
-<div align="center"><img src="/assets/images/portfolio/dbsconnect.webp"/><img/></div>
+<div align="center">
+<img src="/assets/images/portfolio/dbsconnect.webp"/><img/>
 
-Picture is from [eddytandesign](https://www.eddytandesign.com/client-serving-dbs). 
+<p>
+<a href="https://www.eddytandesign.com/client-serving-dbs">Image source: eddytandesign</a>
+</p>
+
+</div>
 
 ## DBS DigiBank CN - Mutual Funds, Backend, 2022.7-2022.11
 
@@ -186,6 +191,8 @@ We leveraged cloud technologies and modern frameworks, employing automation best
 <img src="/assets/images/portfolio/dbs-digi-1.png" width="200px" /><img/>
 
 <img src="/assets/images/portfolio/dbs-digi-2.png" width="200px" /><img/>
+
+<p><a href="https://www.dbs.com.cn/treasures/digital-service/digibank.html">Image source: DBS Digibank CN</a></p>
 
 </div>
 
@@ -203,5 +210,7 @@ We utilized a strong tech stack including Java, Spring, and Kafka, along with Az
 <img src="/assets/images/portfolio/payme1.png" width="200px" /><img/>
 
 <img src="/assets/images/portfolio/payme2.png" width="200px" /><img/>
+
+<p><a href="https://payme.hsbc.com.hk/">Image Source: PayMe By HSBC</a></p>
 
 </div>

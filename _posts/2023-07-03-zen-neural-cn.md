@@ -24,13 +24,19 @@ ChatGPT 帮助翻译。
 
 除了打印，我们还必须使用matplotlib库来显示我们的数字。如下所示。
 
-<div align="center"><img src="/assets/images/zen-neural/figure.png" width="30%" /><img/></div>
+<div align="center">
+<img src="/assets/images/zen-neural/figure.png" width="30%" /><img/>
+(Image source: Neural Networks and Deep Learning)
+</div>
 
 ## 艺术
 
 让我们看更多的数字。
 
-<div align="center"><img src="/assets/images/zen-neural/figures.jpeg" width="100%" /><img/></div>
+<div align="center">
+<img src="/assets/images/zen-neural/figures.jpeg" width="100%" /><img/>
+(Image source: Neural Networks and Deep Learning)
+</div>
 
 有时候能够看到图片而不是整天面对杂乱的代码，这更加愉快。
 
@@ -38,7 +44,10 @@ ChatGPT 帮助翻译。
 
 看起来复杂吗？在这里，每层神经元可能太多了，这让事情变得模糊。一旦你理解了它，它实际上是非常简单的。关于上面的图片，有三层，输入层、隐藏层和输出层。每一层连接到下一层。但是，784个输入层的神经元如何变成第二层的15个神经元呢？15个隐藏层的神经元如何变成输出层的10个神经元呢？
 
-<div align="center"><img src="/assets/images/zen-neural/simple-network.png" width="100%" /><img/></div>
+<div align="center">
+<img src="/assets/images/zen-neural/simple-network.png" width="100%" /><img/>
+(Image source: Neural Networks and Deep Learning)
+</div>
 
 这个网络要简单得多。尽管智维不想在这篇文章中包含任何数学公式，但这里的数学太简单而又美丽，不容隐藏。
 
