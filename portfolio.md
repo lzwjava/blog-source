@@ -201,7 +201,7 @@ We leveraged cloud technologies and modern frameworks, employing automation best
 
 PayMe from HSBC is a convenient way to send payments to friends, and make mobile payments to merchants both on and offline. 
 
-Contributed as a contractor. Responsible for backend development for the feature Auto Top Up and helping with AWS migration.
+Contributed as a contractor. Responsible for some backend development for the feature Auto Top Up and helping with AWS migration.
 
 We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
