@@ -145,9 +145,15 @@ We leveraged cloud technologies and modern frameworks like PHP, Java, Python, Sp
 
 Example projects:
 
-![](/assets/images/profit/profit3.png)
+<div align="center">
+<img src="/assets/images/profit/profit3.png" width="95%" /><img/>
+<p>(Responsible for Project Managment)</p>
+</div>
 
-<div align="center"><img src="/assets/images/profit/profit4.png" width="95%" /><img/></div>
+<div align="center">
+<img src="/assets/images/profit/profit4.png" width="95%" /><img/>
+<p>(Responsible for Project Managment)</p>
+</div>
 
 ## ShowMeBug - Enterprise WeChat Entrance, Full Stack, 2021.7 - 2021.9
 
