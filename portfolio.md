@@ -137,7 +137,7 @@ We leveraged cloud technologies and modern frameworks with tools such as Java, S
 
 ## Square Root Inc - 50 miscellaneous projects, Project Management, 2018.1-2019.12
 
-The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs and HTML5. My software consulting company. 
+The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs. My software consulting company. 
 
 Responsible for team management, contract negotiation, project management, client communications and some software development.
 
