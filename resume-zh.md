@@ -73,15 +73,15 @@ title:  "Resume"
 
 ### 公司项目
 
-* 汇丰银行的PayMe项目。参与了自动充值功能和云迁移的后端开发。使用的技术栈包括Java、Spring Cloud、Azure和AWS。从2022年11月到2023年7月。
-* 星展银行的Digibank CN项目。参与了共同基金功能的后端开发。使用的技术栈包括Java、Spring Cloud和Pivotal Cloud Foundry。从2022年7月到2022年11月。
-* 星展银行的Client Connect项目。参与了股票交易的后端开发。使用的技术栈包括Java、Spring Cloud和Pivotal Cloud Foundry。从2021年12月到2022年6月。
-* ShowMeBug，一个在线面试平台。负责平台与企业微信的集成，例如登录和简易面试入口。使用的技术栈包括Ruby on Rails、PostgreSQL和企业微信SDK。从2021年7月到2021年9月。
-* 平方根科技的50个杂项项目，包括网站、游戏、应用、微信小程序和HTML5。我的软件咨询公司。负责团队管理、合同谈判、客户沟通和部分软件开发。从2018年1月到2019年12月。
-* 为中国超级大脑电视节目开发的微信小程序。负责后端和前端开发。使用的技术栈包括Java、Spring、Javascript、HTML和阿里云。从2018年2月到2018年3月。
-* 直播答题应用。负责第一个版本的一半后端开发和管理后台前端开发。使用的技术栈包括Java、Spring、WebSocket和Netty。从2017年9月到2018年1月。
-* 趣直播，一个中国的简易Coursera平台。我的创业项目。负责所有代码开发。使用的技术栈包括PHP、Javascript、HTML、阿里云和RTMP流媒体。从2016年6月到2017年9月。
-* LeanCloud 移动端SDK和LeanChat。负责部分iOS和Android SDK开发，以及他们的演示应用LeanChat的全部开发。从2014年7月到2015年10月。
+* 汇丰银行的PayMe, 参与了自动充值功能和云迁移的后端开发，使用了Java、Spring Cloud、Azure和AWS等技术栈。时间从2022年11月至2023年7月。
+* DBS Digibank CN, 参与了互惠基金的后端开发，使用了Java、Spring Cloud和Pivotal Cloud Foundry等技术栈。时间从2022年7月至2022年11月。
+* DBS Client Connect, 参与了股权交易的后端开发，使用了Java、Spring Cloud和Pivotal Cloud Foundry等技术栈。时间从2021年12月至2022年6月。
+* ShowMeBug, 一个在线面试平台，负责将平台与企业微信集成，如登录和简易面试入口。使用了Ruby on Rails、PostgreSQL和企业微信SDK等技术栈。时间从2021年7月至2021年9月。
+* 北京平方根科技有限公司的50个杂项项目, 包括网站、游戏、应用和微信小程序。负责团队管理、合同谈判、项目管理、客户沟通和部分软件开发。时间从2018年1月至2019年12月。
+* 中国超级大脑电视节目的微信小程序, 负责后端和前端开发，使用了Java、Spring、Javascript、HTML和阿里云等技术栈。时间从2018年2月至2018年3月。
+* 直播问答应用, 负责第一个版本的后端开发和后台管理面板前端开发的一半工作。使用了Java、Spring、WebSocket和Netty等技术栈。时间从2017年9月至2018年1月。
+* 趣直播. 一个在中国的知识直播广播平台，我的创业项目。负责大部分代码开发。使用了PHP、Javascript、HTML、阿里云和RTMP流媒体等技术栈。时间从2016年6月至2017年9月。
+* LeanCloud移动SDK和LeanChat, 负责部分iOS和Android SDK的开发，以及他们的演示应用程序LeanChat的全部开发。时间从2014年7月至2015年10月。
 
 
 ### 开源、博客、Codeforces, 2013-09 至今
