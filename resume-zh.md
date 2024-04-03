@@ -86,17 +86,19 @@ title:  "Resume"
 
 ### 开源、博客、Codeforces, 2013-09 至今
 
-* 以下是我的一些开源项目。请在这里查看，https://github.com/lzwjava。
-* neural-networks-and-zhiwei-learning，机器学习实践项目，530次提交，使用 Python
-* algorithm-solutions，算法问题解答，2466次提交，使用 Java
-* lzwjava.github.io，我的博客，1537次提交，使用英文和中文
-* live-server，一个在线教育平台的后端，660次提交，使用 PHP
-* live-mobile-web，一个在线教育平台的移动网页，528次提交，使用 Vue 和 JavaScript
-* leanchat-ios，一个 iOS 聊天应用程序，556次提交，使用 Objective-C
-* leanchat-android，一个 Android 聊天应用程序，412次提交，使用 Java
-* curiosity-courses，一个编程课程，215次提交，使用中文
-* feynman-lectures-mobi, 一个将latex转换为SVG以创建mobi电子书的工具，47次提交，Python
-* Creak，一个简单的 HTML 解析器，49次提交，使用 Swift
+* neural-networks-and-zhiwei-learning, 机器学习实践项目，使用Python，共有530次提交。
+* algorithm-solutions, 算法问题解决方案集，使用Java，共有2466次提交。
+* lzwjava.github.io, 个人博客，支持中英文，共有1537次提交。
+* live-server, 知识直播后端平台，使用PHP，共有660次提交。
+* live-mobile-web, 知识直播前端平台，使用Vue和JavaScript，共有528次提交。
+* code-review-server, 代码审查平台后端，使用PHP，共有275次提交。
+* code-review-web, 代码审查平台前端，使用Vue和JavaScript，共有302次提交。
+* leanchat-ios, iOS聊天应用，使用Objective-C，共有556次提交。
+* leanchat-android, Android聊天应用，使用Java，共有412次提交。
+* curiosity-courses, 编程课程，共有215次提交。
+* LZAlbum, 类似微信朋友圈的iOS应用，使用Objective-C，共有47次提交。
+* feynman-lectures-mobi, LaTeX转SVG创建.mobi电子书工具，使用Python，共有47次提交。
+* Creak, 简单的HTML解析器，使用Swift编写，共有49次提交。
 
 
 ## 技能
