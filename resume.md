@@ -44,9 +44,10 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Beijing Square Root Inc, Founder & Full Stack Engineer, 2016.07 - 2019.12
 
 * Beijing Square Root Inc. ran two businesses in 3.5 years. From July 2016 to September 2017, it rolled out and operated Fun Live, a knowledge live broadcast platform. From January 2018 to December 2019, it transformed into a software consulting business.
-* With Fun Live, users can participate in various knowledge lectures such as programming or design here. Users can pay some fees to attend or give reward money to the lecturer. The lecturer uses the OBS tool to push live stream to the server. Users can see the playback later. It integrates seamlessly with the WeChat platform like the notifications. It gained around 30000 users and millions of page views. I was responsible for most software development and marketing.
+* With Fun Live, users can participate in various knowledge lectures such as programming or design here. Users can pay some fees to attend the live or reward the lecturer. The lecturer uses the OBS tool to push live stream to the server. Users can participate the lecture in real time or see the playback later. It integrates seamlessly with the WeChat platform like the notifications functionality. By hosting around 80 lectures, it gained around 30000 users and millions of page views. I was responsible for most software development and marketing.
 * During the software consulting business period, we did 50 small software projects for customers, including websites, games, and apps. The revenue was around 3 million RMB and the profit was around 700 thousand RMB. I was responsible for project negotiation, team management, and some software development.
 * We leveraged cloud technologies and modern frameworks like PHP, Java, Python, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Alibaba Cloud, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
+
 
 ### LeanCloud, Software Engineer, 2014.07 - 2015.11
 
