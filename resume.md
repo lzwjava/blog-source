@@ -48,6 +48,13 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * During the software consulting business period, we did 50 small software projects for customers, including websites, games, and apps. The revenue was around 3 million RMB and the profit was around 700 thousand RMB. I was responsible for project negotiation, team management, and some software development.
 * We leveraged cloud technologies and modern frameworks like PHP, Java, Python, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Alibaba Cloud, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
 
+### Beijing Dami Entertainment Co., Cofounder & Full Stack Engineer, 2015.11 - 2016.7
+
+* Beijing Dami Entertainment Co. was a company founded by 6 Internet lovers, including me. We launched and operated the platform CodeReview. CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. 
+* Responsible for the code developement of the backend and half of the frontend.
+* We leveraged cloud technologies and modern frameworks with tools such as PHP, Vue, Code Igniter, Alibaba Cloud and Ping++.
+
+
 ### LeanCloud, Software Engineer, 2014.07 - 2015.11
 
 * LeanCloud is a leading domestic cloud computing provider in China. The company serves hundreds of thousands of developer users and has received IDG investment.
