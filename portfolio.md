@@ -31,15 +31,6 @@ Responsible for Android development.
 
 [SegmentFault: Review of the 2014 AVOS Cloud Hackathon Achievements](https://segmentfault.com/a/1190000000427302)
 
-<div align="center">
-
-<img src="/assets/images/portfolio/i1.webp" width="200px" /><img />
-
-<img src="/assets/images/portfolio/i3.webp" width="200px" /><img />
-
-</div>
-
-<div align="center"><img src="/assets/images/portfolio/i2.webp"/><img /></div>
 
 ## Bjfu Assistant, Android, 2014.1 - 2014.6
 
@@ -112,7 +103,7 @@ Open Sourced at GitHub.
 
 ## Fun Live, Full Stack, 2016.6 - 2017.12
 
-Fun Live, a simple paid knowledge live broadcast platform. Users can participate in various online knowledge lectures such as programming or design here. It gained around 30000 users.
+Fun Live, a simple paid knowledge live broadcast platform. Users can participate in various online knowledge lectures such as programming or design here. It gained around 30000 users and millions of page views.
 
 My Startup Project. Responsible for most code developement of the backend and frontend.
 
