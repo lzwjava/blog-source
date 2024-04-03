@@ -27,7 +27,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
 * Farben is a leading software technology service provider in China. HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe is an HSBC mobile payment service catering to Hong Kong residents.
-* I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. I developed microservices for features like Auto Top Up and helped with cloud migration.
+* I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. I participated backend development for the feature Auto Top Up and helped with cloud migration.
 * We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
@@ -92,7 +92,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * algorithm-solutions, the solutions to algorithm problems, 2466 commits, Java
 * lzwjava.github.io, my blog, 1537 commits, English & Chinese
 * live-server, the backend of an knowledge live broadcast platform, 660 commits, PHP
-* live-mobile-web, the frontend of an knowledge live broadcast platform, 528 commits, Vue & JavaScript
+* live-mobile-web, the frontend of an knowledge live broadcast platform, Vue & JavaScript, 528 commits
 * code-review-server, the backend of a professional platform for code review, PHP, 275 commits
 * code-review-web, the frontend of a professional platform for code review, Vue & JavaScript, 302 commits
 * leanchat-ios, an iOS chat application, 556 commits, Objective-C
@@ -104,7 +104,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ## Skills
 
-I have gained a lot of skills since I started programming in 2008. In terms of usage time, the high-level description is as follows.
+I have gained a lot of skills since I started programming in 2008. In terms of usage time, the high-level description is as follows. It was different from working experience. I use it to show the relative familirity about my skills.
 
 * 5 or more years of using experience: Chinese, English, Writing, Java, Algorithm, Test-driven Development, Cloud Computing, DevOps, Backend Development
 * 3 to 4 years of using experience: Cantonese, iOS Development, Android Development
