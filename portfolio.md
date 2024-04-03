@@ -147,7 +147,7 @@ Example projects:
 
 <div align="center"><img src="/assets/images/profit/profit4.png" width="95%" /><img/></div>
 
-## ShowMeBug - Enterprise WeChat Entrance, Ruby, 2021.7 - 2021.9
+## ShowMeBug - Enterprise WeChat Entrance, Full Stack, 2021.7 - 2021.9
 
 ShowMeBug is a technology competence assessment platform that supports practical programming, enabling efficient and accurate assessment and recruitment of technical talents.
 
