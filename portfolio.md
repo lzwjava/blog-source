@@ -182,7 +182,7 @@ Similar to this tab.
 
 DBS DigiBank CN rethought and redesigned for you to enjoy the faster and more convenient way to bank on the go. 
 
-Contributed as a contractor. Responsible for some backend development for several micro-services, including those for mutual funds.
+Contributed as a contractor. Responsible for some backend development of several micro-services, including those for mutual funds.
 
 We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
 
