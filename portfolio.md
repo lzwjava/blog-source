@@ -135,11 +135,13 @@ We leveraged cloud technologies and modern frameworks with tools such as Java, S
 
 ![](/assets/images/profit/profit2.png)
 
-## Square Root Inc - 50 miscellaneous projects, Project Management, 2018.1-2019.12
+## Square Root Inc - 50 miscellaneous projects, Project Management & Some Software Development, 2018.1-2019.12
 
 The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs. My software consulting company. 
 
 Responsible for team management, contract negotiation, project management, client communications and some software development.
+
+We leveraged cloud technologies and modern frameworks like PHP, Java, Python, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Alibaba Cloud, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc.
 
 Example projects:
 
