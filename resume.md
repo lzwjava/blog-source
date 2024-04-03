@@ -48,7 +48,6 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * During the software consulting business period, we did 50 small software projects for customers, including websites, games, and apps. The revenue was around 3 million RMB and the profit was around 700 thousand RMB. I was responsible for project negotiation, team management, and some software development.
 * We leveraged cloud technologies and modern frameworks like PHP, Java, Python, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Alibaba Cloud, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
 
-
 ### LeanCloud, Software Engineer, 2014.07 - 2015.11
 
 * LeanCloud is a leading domestic cloud computing provider in China. The company serves hundreds of thousands of developer users and has received IDG investment.
