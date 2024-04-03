@@ -103,7 +103,7 @@ Open Sourced at GitHub.
 
 ## Fun Live, Full Stack, 2016.6 - 2017.12
 
-Fun Live, a knowledge live broadcast platform. Users can participate in various online knowledge lectures such as programming or design here. Users can pay some fees to attend or give reward money to the lecturer. The lecturer uses OBS tool to push live stream to the server. Users can see the playback later. And it integrates seamlessly with WeChat platform like the notifications. It gained around 30000 users and millions of page views.
+Fun Live, a knowledge live broadcast platform. With Fun Live, users can participate in various knowledge lectures such as programming or design here. Users can pay some fees to attend the live or reward the lecturer. The lecturer uses the OBS tool to push live stream to the server. Users can participate the lecture in real time or see the playback later. It integrates seamlessly with the WeChat platform like the notifications functionality. By hosting around 80 lectures, it gained around 30000 users and millions of page views.
 
 My Startup Project. Responsible for most code developement of the backend and frontend.
 
