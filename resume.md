@@ -33,7 +33,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
 
 * Beyondsoft Consulting is a leading business IT and consulting company. DBS Bank is the largest bank in Southeast Asia by assets and among the largest banks in Asia.
-* Contracting with Beyondsoft, I joined DBS Bank as a contractor and contributed to DBS Client Connect by developing the equity trading micro-service, and to DBS DigiBank CN by developing several micro-services, including those for mutual funds.
+* Contracting with Beyondsoft, I joined DBS Bank as a contractor and contributed to DBS Client Connect by developing the equity trading micro-service, and to DBS DigiBank CN by participated backend development of several micro-services, including those for mutual funds.
 * We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, and utilizing BDD and TDD methodologies.
 
 ### Freelancer Inc, Freelancer & Full Stack Engineer, 2020.01 - 2021.11
