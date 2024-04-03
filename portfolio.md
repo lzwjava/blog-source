@@ -159,9 +159,8 @@ Example projects:
 
 ShowMeBug is a technology competence assessment platform that supports practical programming, enabling efficient and accurate assessment and recruitment of technical talents.
 
-Responsible for the integration between the platform and the Enterprise WeChat, like login, and easy interview entrance.
+Responsible for the integration between the platform and the Enterprise WeChat (like login, and easy interview entrance). In this feature, I mainly used tools such as Ruby, PostgreSQL and WeChat SDK. And I helped did some technical research about constructing programming environment in a browser by using Docker.
 
-In this feature, We mainly used tools such as Ruby, PostgreSQL and WeChat SDK.
 
 <div align="center"><img src="/assets/images/portfolio/showmebug.webp"/><img/></div>
 
