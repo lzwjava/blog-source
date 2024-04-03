@@ -26,15 +26,24 @@ Besides print, we must use the matplotlib library to show our digits. Like below
 
 Let's see more digits.
 
-<div align="center"><img src="/assets/images/zen-neural/figures.jpeg" width="100%" /><img/></div>
+<div align="center">
+<img src="/assets/images/zen-neural/figures.jpeg" width="100%" /><img/>
+(Image source: Neural Networks and Deep Learning)
+</div>
 
 It is more joyful when you sometimes can see pictures instead of facing around the noisy codes all day long.
 
-<div align="center"><img src="/assets/images/zen-neural/layer.png" width="100%" /><img/></div>
+<div align="center">
+<img src="/assets/images/zen-neural/layer.png" width="100%" /><img/>
+(Image source: Neural Networks and Deep Learning)
+</div>
 
 Does it seem complicated? Here, we may have too many neurons in each layer. And it makes things obscure. It is actually very simple once you understood it. First thing about the above picture is that it has three layers, the input layer, the hidden layer and the output layer. And one layer connects the next layer. But how can 784 neurons in the input layer change to the 15 neurons in the second layer? And how can 15 neurons in the hidden layer change to the 10 neurons in the output layer?
 
-<div align="center"><img src="/assets/images/zen-neural/simple-network.png" width="100%" /><img/></div>
+<div align="center">
+<img src="/assets/images/zen-neural/simple-network.png" width="100%" /><img/>
+(Image source: Neural Networks and Deep Learning)
+</div>
 
 This network is much simpler. Though Zhiwei doesn't want to include any math formula in this article, here the math is too simple and beautiful to hide.
 
