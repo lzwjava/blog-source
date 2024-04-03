@@ -22,7 +22,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Freelancer Inc, Freelancer & Full Stack Engineer, 2023.07 - Present
 
 * Carefully analyzed and reimplemented some core parts around 50 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. 
-* Got two course completion certificates from Coursera about Machine Learning Specialization and Deep Learning Specialization.
+* Got one course completion certificates from Coursera about Machine Learning Specialization.
 * Prepared for the exams to obtain the associate degree.
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
