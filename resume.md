@@ -75,7 +75,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 * PayMe from HSBC. Participated in the backend development of auto top-up feature and cloud migration. Used tech stacks like Java, Spring Cloud, Azure and AWS. From 2022.11 to 2023.07.
 * DBS Digibank CN. Participated in the backend development of mutual funds. Used tech stacks like Java, Spring Cloud, and Pivotal Cloud Foundry. From 2022.7 to 2022.11.
-* DBS Client Connect. Participated in the backend development of equities trading. Used tech stacks like Java, Spring Cloud and Pivotal Cloud Foundry. From 2021.12 to 2022.6.
+* DBS Client Connect. Participated in the backend development of equity trading. Used tech stacks like Java, Spring Cloud and Pivotal Cloud Foundry. From 2021.12 to 2022.6.
 * ShowMeBug, an online interview platform. Responsible for the integration between the platform and the Enterprise WeChat, like login, and easy interview entrance. Used tech stacks like Ruby on Rails, PostgreSQL and WeChat SDK. From 2021.7 to 2021.9.
 * The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs. My software consultant company. Responsible for team management, contract negotiation, project management, client communications and some software development. From 2018.1 to 2019.12.
 * The WeChat Mini program for Super Brain TV Program in China. Responsible for the backend and frontend development. Used tech stacks like Java, Spring, Javascript, HTML and AliCloud. From 2018.2 to 2018.3.
