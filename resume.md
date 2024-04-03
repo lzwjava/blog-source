@@ -43,9 +43,9 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Beijing Square Root Inc, Founder & Full Stack Engineer, 2016.07 - 2019.12
 
-* From January 2018 to December 2019, I led a team of around 20 full-time or part-time employees to complete nearly 50 small software projects for customers. The types of projects include small programs, apps, websites, and games. The revenue exceeded 3 million RMB and the profit exceeded 700 thousand RMB. I was responsible for project negotiation, project management, and some software development in the team.
-* From July 2016 to September 2017, Fun Live, a live broadcast platform for software engineering lectures, was launched. In one year, nearly 30,000 users were obtained. Started my own business for the first time, and the marketing, and software development were mainly done by myself. 
-* During these years, I used technologies like PHP, Java, Python, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Aliyun, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
+* Beijing Square Root Inc. ran two businesses in 3.5 years. From July 2016 to September 2017, it rolled out Fun Live, a knowledge live broadcast platform. Users can participate in online knowledge lectures such as programming or design here. It gained 30000 users and millions of page views. From January 2018 to December 2019, it transformed into a software consulting business and did 50 small software projects for customers, including websites, games, and apps. The revenue was around 3 million RMB and the profit was around 700 thousand RMB. 
+* In knowledge platform period, I was responsible for most software development and marketing. In software consulting period, I was responsible for project negotiation, project management, and some software development.
+* We leveraged cloud technologies and modern frameworks like PHP, Java, Python, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Alibaba Cloud, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc. 
 
 ### LeanCloud, Software Engineer, 2014.07 - 2015.11
 
