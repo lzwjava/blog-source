@@ -27,7 +27,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
 * Farben is a leading software technology service provider in China. HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe is an HSBC mobile payment service catering to Hong Kong residents.
-* I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. I participated backend development for the feature Auto Top Up and helped with cloud migration.
+* I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. I participated backend development for the feature Auto Top Up and helped a little with cloud migration.
 * We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
 ### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
