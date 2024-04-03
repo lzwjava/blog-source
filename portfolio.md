@@ -15,7 +15,7 @@ The range of algorithm problems I'v solved encompasses various areas, including 
 
 ## Flower Recognition, Android, 2014.4 - 2014.8
 
-The user can take pictures of flowers, and draw certain circles to help to recognize them better. 
+The user can take pictures of flowers, and draw certain circles to help recognize them better. 
 
 Responsible for Android development.
 
