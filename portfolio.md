@@ -86,6 +86,10 @@ Responsible for iOS development.
 
 </div>
 
+## LeanCloud Android SDK & iOS SDK, 2015.6 - 2015.10
+
+Participated for some Android & iOS development 
+
 ## CodeReview, Full Stack, 2015.11 - 2016.7
 
 CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. It was founded by 6 Internet lovers, including me.
@@ -172,7 +176,7 @@ We leveraged cloud technologies and modern frameworks with tools such as Java, S
 
 A mobile trivia app which is similiar to HQ Trivia. The app allowed users to participate in daily, live, trivia games in which they could win or split prize money.
 
-Responsible for some backend and frontend development of the first version. Partipated with technical solution for using the SEI (Supplemental Enhancement Information) to synchronize the timestamp of live streaming of the host and the popup or hidden behavior of trivia game.
+Responsible for some backend development and admin panel frontend development of the first version. Participated with technical solution for using the SEI (Supplemental Enhancement Information) to synchronize the timestamp of live streaming of the host and the popup or hidden behavior of trivia game.
 
 We leveraged cloud technologies and modern frameworks with tools such as Java, Spring, Redis, Kafka and ZooKeeper, WebSocket, Socket.IO.
 
@@ -180,7 +184,7 @@ We leveraged cloud technologies and modern frameworks with tools such as Java, S
 
 The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs. My software consulting company. 
 
-Responsible for team management, contract negotiation, project management, client communications for all projects and some software development for around 5 projects. In these two years, I worked with software development for around half a year.
+Responsible for team management, contract negotiation, project management, client communications and some software development. In these two years, I worked with software development for around half a year.
 
 We leveraged cloud technologies and modern frameworks like PHP, Java, Python, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Alibaba Cloud, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc.
 
