@@ -20,7 +20,7 @@ title:  "Resume"
 
 ### Freelancer Inc, 自由职业者 & 全栈工程师, 2023.07 - Present
 
-* 从 PyTorch、TensorFlow 教程、Coursera 在线课程或其他开源项目中，仔细分析并重新实现了围绕 50 个机器学习示例项目的一些核心部分。
+* 从 PyTorch、TensorFlow 教程、Coursera 在线课程或其他开源项目中，仔细分析并重新实现了围绕 30 个机器学习示例项目的一些核心部分。
 * 获得了Coursera机器学习专项课程的结业证书。
 * 准备获得大专学位的考试。
 
