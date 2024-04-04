@@ -182,11 +182,11 @@ Responsible for half backend development and admin panel frontend development of
 
 We leveraged cloud technologies and modern frameworks with tools such as Java, Spring, Redis, Kafka and ZooKeeper, WebSocket and Socket.IO.
 
-Simliar to this:
+:
 
 <div align="center">
 <img src="/assets/images/portfolio/trivia.jpg" width="95%" /><img/>
-<p>Image Source: HQ</p>
+<p>For confidential purpose, here refer to HQ. Image Source: HQ</p>
 </div>
 
 
