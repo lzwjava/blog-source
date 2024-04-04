@@ -97,10 +97,10 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * algorithm-solutions, the solutions to algorithm problems, 2466 commits, Java
 * lzwjava.github.io, my blog, 1537 commits, English & Chinese
 * live-server, the backend of a knowledge live broadcast platform, 660 commits, PHP
-* live-mobile-web, the mobile frontend of a knowledge live broadcast platform, Vue & JavaScript, 528 commits
-* live-web, the desktop frontend of a knowledge live broadcast platform, Vue, 140 commits
-* code-review-server, the backend of a professional platform for code review, PHP, 275 commits
-* code-review-web, the frontend of a professional platform for code review, Vue & JavaScript, 302 commits
+* live-mobile-web, the mobile frontend of a knowledge live broadcast platform, 528 commits, Vue & JavaScript
+* live-web, the desktop frontend of a knowledge live broadcast platform, 140 commits, Vue
+* code-review-server, the backend of a professional platform for code review, 275 commits, PHP
+* code-review-web, the frontend of a professional platform for code review, 302 commits, Vue & JavaScript
 * leanchat-ios, an iOS chat application, 556 commits, Objective-C
 * leanchat-android, an Android chat application, 412 commits, Java
 * curiosity-courses, a programming course, 215 commits, Chinese
