@@ -147,7 +147,7 @@ Open Sourced at GitHub.
 
 The Mianbao Live is a one-stop content monetization and social economy solution provider. I worked for my investor's company for several months during my startup-transforming business period. 
 
-Responsible for refactoring the backend by moving most logic from several programming languages to one programming language. Worked with PHP, Laravel , TypeScript and Go.
+Responsible for refactoring the backend by moving most logic from several programming languages to one programming language. Worked with PHP, Laravel, TypeScript and Go.
 
 <div align="center">
 
@@ -172,7 +172,7 @@ We leveraged cloud technologies and modern frameworks with tools such as Java, S
 
 The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs. My software consulting company. 
 
-Responsible for team management, contract negotiation, project management, client communications and some software development.
+Responsible for team management, contract negotiation, project management, client communications for all projects and some software development for 5 projects.
 
 We leveraged cloud technologies and modern frameworks like PHP, Java, Python, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Alibaba Cloud, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc.
 
