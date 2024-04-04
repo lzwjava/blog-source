@@ -92,7 +92,7 @@ title:  "Resume"
 * lzwjava.github.io, 个人博客，支持中英文，共有1537次提交。
 * live-server, 知识直播后端平台，使用PHP，共有660次提交。
 * live-web，知识直播平台的桌面前端，Vue，140 次提交
-* live-mobile-web, 知识直播的移动端前端平台，使用Vue和JavaScript，共有528次提交。
+* live-mobile-web, 知识直播的移动端前端，使用Vue和JavaScript，共有528次提交。
 * code-review-server, 代码审查平台后端，使用PHP，共有275次提交。
 * code-review-web, 代码审查平台前端，使用Vue和JavaScript，共有302次提交。
 * leanchat-ios, iOS聊天应用，使用Objective-C，共有556次提交。
