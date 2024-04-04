@@ -18,7 +18,7 @@ title:  "Resume"
 
 ## 工作经历
 
-### Freelancer Inc, 自由职业者 & 全栈工程师, 2023.07 - Present
+### Freelancer Inc, 自由职业者, 2023.07 - Present
 
 * 仔细分析并重新实现了约30个机器学习核心部分的示例项目，这些项目来源于PyTorch、TensorFlow教程、Coursera在线课程或其他开源项目。并从Coursera的机器学习专项课程中获得了一份课程结业证书。
 * 为获得大专学位的考试做了准备。
@@ -34,7 +34,7 @@ title:  "Resume"
 * 通过与博彦科技签约，我被派遣至星展银行，并通过开发股票交易微服务为DBS Client Connect做出贡献，并为DBS DigiBank CN参与开发了包括互惠基金在内的几个微服务。
 * 我们充分利用了云技术和现代化框架，采用了自动化最佳实践，使用了Java、Spring Cloud、Jira、Confluence、Jenkins、Pivotal Cloud Foundry 和Kibana等工具，并运用了BDD和TDD方法论。
 
-### Freelancer Inc, 自由职业者 & 全栈工程师, 2020.01 - 2021.11
+### Freelancer Inc, 自由职业者, 2020.01 - 2021.11
 
 * 完成多个软件项目，包括为LED标识公司（lvchensign.com）开发网站，以及为在线技术面试平台ShowMeBug的模块开发做出贡献。在项目中运用了Ruby、Ruby on Rails、Python、ElasticSearch、Docker和Netty等技术。
 * 撰写并发布技术博客以在线分享知识，通过观看Netflix和阅读书籍提高英语水平，并通过解决算法问题和参加Codeforces竞赛增强了解决问题的能力。
@@ -52,11 +52,11 @@ title:  "Resume"
 * 北京大米互娱有限公司是由包括我在内的6位互联网爱好者共同创立的公司。我们推出了并运营了一个名为CodeReview的平台。CodeReview是一个专业的代码审查、交流和分享平台，工程师可以提交他们的代码供专家审查，以提高代码质量。该平台吸引了约3000名用户。
 * 负责后端代码开发以及一半的前端开发工作。我们使用了一个强大的技术栈，包括PHP、Vue、Code Igniter、阿里云和Ping++。
 
-### LeanCloud, 软件工程师, 2014.07 - 2015.11
+### 品悦创智（北京）技术咨询有限公司, 软件工程师, 2014.07 - 2015.11
 
-* LeanCloud是国内领先的云计算提供商。该公司为数十万的开发者用户提供服务，已获得IDG投资。
-* 参与了LeanCloud iOS SDK和Android SDK的开发。负责一些Angular前端项目。
-* 负责LeanChat iOS客户端和Android客户端的开发。这是一个用来展示通信SDK的聊天应用，具有单聊、群聊、附近的人等功能。
+* 品悦创智（北京）技术咨询有限公司旗下拥有中国领先的云计算服务提供商 LeanCloud。该公司服务于数十万名开发人员用户，并已获得IDG投资。
+* 参与了LeanCloud iOS SDK和Android SDK的开发工作。负责一些使用Angular框架的前端项目。
+* 负责开发LeanChat iOS客户端和Android客户端。这是一款为展示通信SDK而设立的聊天应用程序，具备单聊、群聊、附近的人等功能。
 
 ## 教育背景
 
