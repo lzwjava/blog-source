@@ -86,9 +86,11 @@ Responsible for iOS development.
 
 </div>
 
-## LeanCloud Android SDK & iOS SDK, 2015.6 - 2015.10
+## LeanCloud Android SDK & iOS SDK, 2015.7 - 2015.10
 
-Participated for some Android & iOS development 
+LeanCloud is the leading backend-as-a-service provider that offers a complete set of cloud services including object storage, file storage, web hosting, container, instant messaging, push notification, SMS, and game backend.
+
+Participated some Android and iOS development for the SDK. 
 
 ## CodeReview, Full Stack, 2015.11 - 2016.7
 
