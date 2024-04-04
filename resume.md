@@ -19,7 +19,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ## Work Experience
 
-### Freelancer Inc, Freelancer & Full Stack Engineer, 2023.07 - Present
+### Freelancer, 2023.07 - Present
 
 * Carefully analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. Got one course completion certificates from Coursera about Machine Learning Specialization.
 * Prepared for the exams to obtain the associate degree.
@@ -35,7 +35,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Contracting with Beyondsoft, I was vendored to DBS Bank and contributed to DBS Client Connect by developing the equity trading micro-service, and to DBS DigiBank CN by participated backend development of several micro-services, including those for mutual funds.
 * We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, and utilizing BDD and TDD methodologies.
 
-### Freelancer Inc, Freelancer & Full Stack Engineer, 2020.01 - 2021.11
+### Freelancer, 2020.01 - 2021.11
 
 * Completed various software projects, including the development of a website for LED Sign (lvchensign.com) and contributions to the module development of the online technical interview platform, ShowMeBug. Leveraged technologies such as Ruby, Ruby on Rails, Python, ElasticSearch, Docker, and Netty.
 * Authored and published technical blogs to share knowledge online, improved English proficiency through engaging with Netflix and literature, and enhanced problem-solving skills by tackling algorithms and participating in Codeforces competitions.
