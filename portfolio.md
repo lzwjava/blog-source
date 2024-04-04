@@ -5,7 +5,7 @@ title:  "Portfolio"
 
 ## Uva & Codeforces, Java & C++, 2008-2013 & 2021
 
-Solved around 1200 algorithm problems on the online judge.
+Solved around 1000 algorithm problems on the online judge.
 
 Uva Online Judge record is [here](https://uhunt.onlinejudge.org/id/113519).
 
