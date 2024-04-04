@@ -38,8 +38,9 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer Inc, Freelancer & Full Stack Engineer, 2020.01 - 2021.11
 
-* Did some software projects as a freelancer. Projects consist of a website about a company doing the LED Sign(lvchensign.com), some modules of an online technical interview platform(ShowMeBug), etc. Used technologies like Ruby, Ruby On Rails, Python, ElasticSearch, Docker, Netty, etc.
-* Wrote technical blogs and shared them online. Learned English by watching Netflix and reading books. Solved some algorithm problems and participated in online algorithm competitions in Codeforces. Walked through introduction tutorials and ran some examples of Spark, Hadoop, Kubernetes, and Docker.
+* Completed various software projects, including the development of a website for LV Chen Sign (lvchensign.com) and contributions to the module development of the online technical interview platform, ShowMeBug. Leveraged technologies such as Ruby, Ruby on Rails, Python, ElasticSearch, Docker, and Netty.
+* Authored and published technical blogs to share knowledge online, improved English proficiency through engaging with Netflix and literature, and enhanced problem-solving skills by tackling algorithms and participating in Codeforces competitions.
+* Gained hands-on experience with big data and cloud-native technologies by exploring introductory tutorials and running examples for Spark, Hadoop, Kubernetes, and Docker.
 
 ### Beijing Square Root Inc, Founder & Full Stack Engineer, 2016.07 - 2019.12
 
@@ -51,8 +52,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Beijing Dami Entertainment Co., Cofounder & Full Stack Engineer, 2015.11 - 2016.7
 
 * Beijing Dami Entertainment Co. was a company founded by 6 Internet lovers, including me. We launched and operated the platform CodeReview. CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. It gained around 3000 users.
-* Responsible for the code developement of the backend and half of the frontend.
-* We utilized a strong tech stack including PHP, Vue, Code Igniter, Alibaba Cloud and Ping++.
+* Responsible for the code developement of the backend and half of the frontend. We utilized a strong tech stack including PHP, Vue, Code Igniter, Alibaba Cloud and Ping++.
 
 ### LeanCloud, Software Engineer, 2014.07 - 2015.11
 
