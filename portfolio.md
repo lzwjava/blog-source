@@ -180,6 +180,12 @@ Responsible for some backend development and admin panel frontend development of
 
 We leveraged cloud technologies and modern frameworks with tools such as Java, Spring, Redis, Kafka and ZooKeeper, WebSocket and Socket.IO.
 
+Simliar to this:
+
+<div align="center">
+<img src="/assets/images/" width="95%" /><img/>
+<p>(Responsible for Project Managment)</p>
+</div>
 
 
 ## Square Root Inc - 50 miscellaneous projects, Project Management & Some Software Development, 2018.1 - 2019.12
