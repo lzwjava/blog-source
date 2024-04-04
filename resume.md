@@ -23,7 +23,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 * Carefully analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. Got one course completion certificate from Coursera about Machine Learning Specialization.
 * Prepare for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc.
-* Listened a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
+* Listened to a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
 
 ### Shenzhen Farben Information Technology Co., Full Stack Engineer, 2022.11 - 2023.07
 * Farben is a leading software technology service provider in China. HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe is an HSBC mobile payment service catering to Hong Kong residents.
