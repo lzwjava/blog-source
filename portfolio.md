@@ -99,7 +99,10 @@ Open Sourced at GitHub.
 * [code-review-server](https://github.com/lzwjava/code-review-server), 275 commits
 * [code-review-web](https://github.com/lzwjava/code-review-web), 488 commits(302 commits by me)
 
-<div align="center"><img src="/assets/images/portfolio/code-review.png"/><img/></div>
+<img src="/assets/images/portfolio/cr1.jpg"/><img/>
+
+<img src="/assets/images/portfolio/cr2.jpg"/><img/>
+
 
 ## Fun Live, Full Stack, 2016.6 - 2017.12
 
@@ -131,7 +134,6 @@ Open Sourced at GitHub.
 <img src="/assets/images/portfolio/funlive5.jpg" width="200px" /><img/>
 
 <img src="/assets/images/portfolio/funlive6.jpg" width="200px" /><img/>
-
 
 </div>
 
