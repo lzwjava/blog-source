@@ -24,15 +24,15 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Carefully analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. Got one course completion certificates from Coursera about Machine Learning Specialization.
 * Prepared for the exams to obtain the associate degree.
 
-### Farben & HSBC Bank, Full Stack Engineer, 2022.11 - 2023.07
+### Shenzhen Farben Information Technology Co., Full Stack Engineer, 2022.11 - 2023.07
 * Farben is a leading software technology service provider in China. HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe is an HSBC mobile payment service catering to Hong Kong residents.
-* I joined HSBC Bank as a contractor via Farben, contributing to the PayMe project. I participated backend development for the feature Auto Top Up and helped a little with cloud migration.
+* Contracting with Farben, I was vendored to HSBC Bank to work for the PayMe project. I participated backend development for the feature Auto Top Up and helped a little with cloud migration.
 * We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
-### Beyondsoft & DBS Bank, Full Stack Engineer, 2021.12 - 2022.11
+### Beyondsoft Consulting Inc, Full Stack Engineer, 2021.12 - 2022.11
 
 * Beyondsoft Consulting is a leading business IT and consulting company. DBS Bank is the largest bank in Southeast Asia by assets and among the largest banks in Asia.
-* Contracting with Beyondsoft, I joined DBS Bank as a contractor and contributed to DBS Client Connect by developing the equity trading micro-service, and to DBS DigiBank CN by participated backend development of several micro-services, including those for mutual funds.
+* Contracting with Beyondsoft, I was vendored to DBS Bank and contributed to DBS Client Connect by developing the equity trading micro-service, and to DBS DigiBank CN by participated backend development of several micro-services, including those for mutual funds.
 * We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, and utilizing BDD and TDD methodologies.
 
 ### Freelancer Inc, Freelancer & Full Stack Engineer, 2020.01 - 2021.11
