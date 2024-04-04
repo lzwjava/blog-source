@@ -143,7 +143,7 @@ Open Sourced at GitHub.
 
 <div align="center"><img src="/assets/images/portfolio/funlive7.jpg"/><img/></div>
 
-## Mianbao Live, Full Stack, 2017.10 - 2017.12
+## Mianbao Live, Backend, 2017.10 - 2017.12
 
 The Mianbao Live is a one-stop content monetization and social economy solution provider. I worked for my investor's company for several months during my startup-transforming business period. 
 
@@ -172,7 +172,7 @@ We leveraged cloud technologies and modern frameworks with tools such as Java, S
 
 The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs. My software consulting company. 
 
-Responsible for team management, contract negotiation, project management, client communications for all projects and some software development for around 5 projects.
+Responsible for team management, contract negotiation, project management, client communications for all projects and some software development for around 5 projects. 
 
 We leveraged cloud technologies and modern frameworks like PHP, Java, Python, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Alibaba Cloud, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc.
 
