@@ -18,7 +18,7 @@ title:  "Resume"
 
 ## 工作经历
 
-### Freelancer Inc, 自由职业者, 2023.07 - Present
+### 无, 自由职业者, 2023.07 - Present
 
 * 仔细分析并重新实现了约30个机器学习核心部分的示例项目，这些项目来源于PyTorch、TensorFlow教程、Coursera在线课程或其他开源项目。并从Coursera的机器学习专项课程中获得了一份课程结业证书。
 * 为获得大专学位的考试做了准备。
@@ -34,7 +34,7 @@ title:  "Resume"
 * 通过与博彦科技签约，我被派遣至星展银行，并通过开发股票交易微服务为DBS Client Connect做出贡献，并为DBS DigiBank CN参与开发了包括互惠基金在内的几个微服务。
 * 我们充分利用了云技术和现代化框架，采用了自动化最佳实践，使用了Java、Spring Cloud、Jira、Confluence、Jenkins、Pivotal Cloud Foundry 和Kibana等工具，并运用了BDD和TDD方法论。
 
-### Freelancer Inc, 自由职业者, 2020.01 - 2021.11
+### 无, 自由职业者, 2020.01 - 2021.11
 
 * 完成多个软件项目，包括为LED标识公司（lvchensign.com）开发网站，以及为在线技术面试平台ShowMeBug的模块开发做出贡献。在项目中运用了Ruby、Ruby on Rails、Python、ElasticSearch、Docker和Netty等技术。
 * 撰写并发布技术博客以在线分享知识，通过观看Netflix和阅读书籍提高英语水平，并通过解决算法问题和参加Codeforces竞赛增强了解决问题的能力。
