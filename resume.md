@@ -21,24 +21,24 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer, 2023.07 - Present
 
-* Carefully analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. Got one course completion certificates from Coursera about Machine Learning Specialization.
-* Prepare for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, and linear algebra, ect.
+* Carefully analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. Got one course completion certificate from Coursera about Machine Learning Specialization.
+* Prepare for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc.
 * Listened a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
 
 ### Shenzhen Farben Information Technology Co., Full Stack Engineer, 2022.11 - 2023.07
 * Farben is a leading software technology service provider in China. HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe is an HSBC mobile payment service catering to Hong Kong residents.
-* Contracting with Farben, I was vendored to HSBC Bank to work for the PayMe project. I participated backend development for the feature Auto Top Up and helped a little with cloud migration.
+* Contracting through Farben, I was assigned to work for HSBC Bank and contributed to the PayMe project. I participated in the backend development for the Auto Top Up feature and assisted with the cloud migration.
 * We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
 ### Beyondsoft Consulting Inc, Full Stack Engineer, 2021.12 - 2022.11
 
 * Beyondsoft Consulting is a leading business IT and consulting company. DBS Bank is the largest bank in Southeast Asia by assets and among the largest banks in Asia.
-* Contracting with Beyondsoft, I was vendored to DBS Bank and contributed to DBS Client Connect by developing the equity trading micro-service, and to DBS DigiBank CN by participated backend development of several micro-services, including those for mutual funds.
-* We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, Kibana, and utilizing BDD and TDD methodologies.
+* Contracting with Beyondsoft, I was assigned to work for DBS Bank and contributed to DBS Client Connect by developing the equity trading micro-service, and to DBS DigiBank CN by participating backend development of several micro-services, including those for mutual funds.
+* We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
 
 ### Freelancer, 2020.01 - 2021.11
 
-* Completed various software projects, including the development of a website for LED Sign (lvchensign.com) and contributions to the module development of the online technical interview platform, ShowMeBug. Leveraged technologies such as Ruby, Ruby on Rails, Python, ElasticSearch, Docker, and Netty.
+* Completed various software projects, including the development of a website for LED Sign (lvchensign.com) and contributions to the development of the online technical interview platform, ShowMeBug. Leveraged technologies such as Ruby, Ruby on Rails, Python, ElasticSearch, Docker, and Netty.
 * Authored and published technical blogs to share knowledge online, improved English proficiency through engaging with Netflix and literature, and enhanced problem-solving skills by tackling algorithms and participating in Codeforces competitions.
 * Gained hands-on experience with big data and cloud-native technologies by exploring introductory tutorials and running examples for Spark, Hadoop, Kubernetes, and Docker.
 
@@ -70,7 +70,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 * Passed 13 courses, like Computer Introduction, Fundamentals of Programming, Programming Fundamentals Lab, College English, Advanced Mathematics, Principles and Techniques of Digital Imaging, Two-Dimensional Graphics Technology.
 * Built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums. It has been downloaded and used by thousands of users on campus. Built an Android App for learning English by watching movie clips, and won the third prize in a hackathon.
-* Ranked in the top 1 in my school's ACM/ICPC(International Collegiate Programming Contest) monthly training competition among around 100 top students in the university, including higher grade one.
+* Ranked in the top 1 in my school's ACM/ICPC monthly training competition among around 100 top students in the university, including higher grade one.
 
 ### Guangzhou Yuyan Middle School, Science, Middle School Diploma, 2007.07 - 2013.06
 * Ranked in the top 300 out of 100k students in the Guangzhou High School Entrance exam. 
