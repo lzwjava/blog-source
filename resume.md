@@ -98,6 +98,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * lzwjava.github.io, my blog, 1537 commits, English & Chinese
 * live-server, the backend of an knowledge live broadcast platform, 660 commits, PHP
 * live-mobile-web, the frontend of an knowledge live broadcast platform, Vue & JavaScript, 528 commits
+* live-web, the desktop frontend of an knowledge live broadcast platform, Vue, 140 commits
 * code-review-server, the backend of a professional platform for code review, PHP, 275 commits
 * code-review-web, the frontend of a professional platform for code review, Vue & JavaScript, 302 commits
 * leanchat-ios, an iOS chat application, 556 commits, Objective-C
