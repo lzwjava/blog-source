@@ -53,9 +53,9 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Beijing Dami Entertainment Co. was a company founded by 6 Internet lovers, including me. We launched and operated the platform CodeReview. CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. It gained around 3000 users.
 * Responsible for the code developement of the backend and half of the frontend. We utilized a strong tech stack including PHP, Vue, Code Igniter, Alibaba Cloud and Ping++.
 
-### LeanCloud, Software Engineer, 2014.07 - 2015.11
+### Pinyue Chuangzhi (Beijing) Technology Consulting Co., Software Engineer, 2014.07 - 2015.11
 
-* LeanCloud is a leading domestic cloud computing provider in China. The company serves hundreds of thousands of developer users and has received IDG investment.
+* Pinyue Chuangzhi has a leading cloud computing provider in China, LeanCloud. The company serves hundreds of thousands of developer users and has received IDG investment.
 * Participated in the development of LeanCloud iOS SDK and Android SDK. Responsible for some Angular frontend projects. 
 * Responsible for the development of LeanChat iOS client and Android client. This was a chat application set up to demonstrate the communication SDK, with functions such as single chat, group chat, nearby people, etc. 
 
