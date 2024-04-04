@@ -143,6 +143,21 @@ Open Sourced at GitHub.
 
 <div align="center"><img src="/assets/images/portfolio/funlive7.jpg"/><img/></div>
 
+## Mianbao Live, Full Stack, 2017.10 - 2017.12
+
+The Mianbao Live is a one-stop content monetization and social economy solution provider. I worked for my investor's company for several months during my startup-transforming business period. 
+
+Responsible for refactoring the backend by moving most logic from several programming languages to one programming language. Worked with PHP, laravel, TypeScript and Go.
+
+<div align="center">
+
+<img src="/assets/images/portfolio/mianbao.jpg" width="200px" /><img/>
+
+<img src="/assets/images/portfolio/mianbao1.jpg" width="200px" /><img/>
+
+</div>
+
+
 ## The WeChat Miniprogram for Super Brain program, Full Stack, 2018.1 - 2018.3
 
 The WeChat Miniprogram for Super Brain program in Jiangsu TV has puzzles for users to play. In the program group, the host guides users through oral broadcasting, which poses certain technical challenges.
