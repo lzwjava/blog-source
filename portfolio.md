@@ -139,6 +139,8 @@ Open Sourced at GitHub.
 
 <div align="center"><img src="/assets/images/portfolio/funlive3.jpg"/><img/></div>
 
+<div align="center"><img src="/assets/images/portfolio/funlive7.jpg"/><img/></div>
+
 ## The WeChat Miniprogram for Super Brain program, Full Stack, 2018.1 - 2018.3
 
 The WeChat Miniprogram for Super Brain program in Jiangsu TV has puzzles for users to play. In the program group, the host guides users through oral broadcasting, which poses certain technical challenges.
