@@ -192,7 +192,7 @@ Simliar to this:
 
 The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs. My software consulting company. 
 
-Responsible for team management, contract negotiation, project management, client communications and some software development. In these two years, I worked with software development for around half a year.
+Responsible for team management, contract negotiation, project management, client communications and some software development. In two years, I worked with software development for around half a year.
 
 Example projects:
 
