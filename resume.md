@@ -52,7 +52,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Beijing Dami Entertainment Co., Cofounder & Full Stack Engineer, 2015.11 - 2016.7
 
 * Beijing Dami Entertainment Co. was a company founded by 6 Internet lovers, including me. We launched and operated the platform CodeReview. CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. It gained around 3000 users.
-* Responsible for the code developement of the backend and half of the frontend. We utilized a strong tech stack including PHP, Vue, Code Igniter, Alibaba Cloud and Ping++.
+* Responsible for the code development of the backend and half of the frontend. We utilized a strong tech stack including PHP, Vue, Code Igniter, Alibaba Cloud, and Ping++.
 
 ### Pinyue Chuangzhi (Beijing) Technology Consulting Co., Software Engineer, 2014.07 - 2015.11
 
@@ -96,9 +96,9 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * neural-networks-and-zhiwei-learning, machine learning practice projects, 530 commits, Python
 * algorithm-solutions, the solutions to algorithm problems, 2466 commits, Java
 * lzwjava.github.io, my blog, 1537 commits, English & Chinese
-* live-server, the backend of an knowledge live broadcast platform, 660 commits, PHP
-* live-mobile-web, the mobile frontend of an knowledge live broadcast platform, Vue & JavaScript, 528 commits
-* live-web, the desktop frontend of an knowledge live broadcast platform, Vue, 140 commits
+* live-server, the backend of a knowledge live broadcast platform, 660 commits, PHP
+* live-mobile-web, the mobile frontend of a knowledge live broadcast platform, Vue & JavaScript, 528 commits
+* live-web, the desktop frontend of a knowledge live broadcast platform, Vue, 140 commits
 * code-review-server, the backend of a professional platform for code review, PHP, 275 commits
 * code-review-web, the frontend of a professional platform for code review, Vue & JavaScript, 302 commits
 * leanchat-ios, an iOS chat application, 556 commits, Objective-C
