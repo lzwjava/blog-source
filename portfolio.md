@@ -184,6 +184,7 @@ Simliar to this:
 
 <div align="center">
 <img src="/assets/images/portfolio/trivia.jpg" width="95%" /><img/>
+<p>Image Source: HQ</p>
 </div>
 
 
