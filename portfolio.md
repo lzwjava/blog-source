@@ -147,7 +147,7 @@ Open Sourced at GitHub.
 
 The Mianbao Live is a one-stop content monetization and social economy solution provider. I worked for my investor's company for several months during my startup-transforming business period. 
 
-Responsible for refactoring the backend by moving most logic from several programming languages to one programming language. Worked with PHP, laravel, TypeScript and Go.
+Responsible for refactoring the backend by moving most logic from several programming languages to one programming language. Worked with PHP, Laravel , TypeScript and Go.
 
 <div align="center">
 
