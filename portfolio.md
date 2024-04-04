@@ -158,7 +158,7 @@ Responsible for refactoring the backend by moving most logic from several progra
 </div>
 
 
-## The WeChat Miniprogram for Super Brain program, Full Stack, 2018.1 - 2018.3
+## The WeChat Miniprogram for Super Brain program, Full Stack, 2018.3 - 2018.5
 
 The WeChat Miniprogram for Super Brain program in Jiangsu TV has puzzles for users to play. In the program group, the host guides users through oral broadcasting, which poses certain technical challenges.
 
