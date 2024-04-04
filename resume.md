@@ -106,7 +106,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * curiosity-courses, a programming course, 215 commits, Chinese
 * LZAlbum, an iOS simple application like WeChat moments, 47 commits, Objective-C
 * feynman-lectures-mobi, a tool to convert latex to SVG to create mobi ebook, 47 commits, Python
-* Creak, A Simple HTML Parser, 49 commits, Swift
+* Creak, a simple HTML Parser, 49 commits, Swift
 
 ## Skills
 
