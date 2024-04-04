@@ -168,11 +168,19 @@ We leveraged cloud technologies and modern frameworks with tools such as Java, S
 
 ![](/assets/images/profit/profit2.png)
 
-## Square Root Inc - 50 miscellaneous projects, Project Management & Some Software Development, 2018.1-2019.12
+## A Mobile Trivia App, Full Stack, 2017.9 - 2018.1
+
+A mobile trivia app which is similiar to HQ Trivia. The app allowed users to participate in daily, live, trivia games in which they could win or split prize money.
+
+Responsible for some backend and frontend development of the first version. Partipated with technical solution for using the SEI (Supplemental Enhancement Information) to synchronize the timestamp of live streaming of the host and the popup or hidden behavior of trivia game.
+
+We leveraged cloud technologies and modern frameworks with tools such as Java, Spring, Redis, Kafka and ZooKeeper, WebSocket, Socket.IO.
+
+## Square Root Inc - 50 miscellaneous projects, Project Management & Some Software Development, 2018.1 - 2019.12
 
 The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs. My software consulting company. 
 
-Responsible for team management, contract negotiation, project management, client communications for all projects and some software development for around 5 projects. 
+Responsible for team management, contract negotiation, project management, client communications for all projects and some software development for around 5 projects. In these two years, I worked with software development for around half a year.
 
 We leveraged cloud technologies and modern frameworks like PHP, Java, Python, Spring, Vue, HTML, Laravel, MySQL, Redis, WebSocket, Alibaba Cloud, Spring Boot, MiniProgram, WeChat SDK, and DevOps tools, etc.
 
@@ -180,11 +188,6 @@ Example projects:
 
 <div align="center">
 <img src="/assets/images/profit/profit3.png" width="95%" /><img/>
-<p>(Responsible for Project Managment)</p>
-</div>
-
-<div align="center">
-<img src="/assets/images/profit/profit4.png" width="95%" /><img/>
 <p>(Responsible for Project Managment)</p>
 </div>
 
