@@ -91,6 +91,7 @@ title:  "Resume"
 * algorithm-solutions, 算法问题解决方案集，使用Java，共有2466次提交。
 * lzwjava.github.io, 个人博客，支持中英文，共有1537次提交。
 * live-server, 知识直播后端平台，使用PHP，共有660次提交。
+* live-web，知识直播平台的桌面前端，Vue，140 次提交
 * live-mobile-web, 知识直播前端平台，使用Vue和JavaScript，共有528次提交。
 * code-review-server, 代码审查平台后端，使用PHP，共有275次提交。
 * code-review-web, 代码审查平台前端，使用Vue和JavaScript，共有302次提交。
