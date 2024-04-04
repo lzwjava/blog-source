@@ -22,7 +22,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Freelancer, 2023.07 - Present
 
 * Carefully analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. Got one course completion certificates from Coursera about Machine Learning Specialization.
-* Prepared for the exams to obtain the associate degree, like the subjects advanced mathematics, computer organization, linear algebra, etc.
+* Prepare for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, and linear algebra, ect.
 * Listened a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
 
 ### Shenzhen Farben Information Technology Co., Full Stack Engineer, 2022.11 - 2023.07
