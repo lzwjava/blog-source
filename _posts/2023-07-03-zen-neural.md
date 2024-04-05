@@ -42,7 +42,7 @@ Does it seem complicated? Here, we may have too many neurons in each layer. And 
 
 <div align="center">
 <img src="/assets/images/zen-neural/simple-network.png" width="100%" /><img/>
-(Image source: Neural Networks and Deep Learning)
+
 </div>
 
 This network is much simpler. Though Zhiwei doesn't want to include any math formula in this article, here the math is too simple and beautiful to hide.
