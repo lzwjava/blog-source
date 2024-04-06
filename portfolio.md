@@ -178,7 +178,7 @@ We leveraged cloud technologies and modern frameworks with tools such as Java, S
 
 A mobile trivia app which is similiar to HQ Trivia. The app allowed users to participate in daily, live, trivia games in which they could win or split prize money. It was once popular in China.
 
-Responsible for half backend development and admin panel frontend development of the first version. Participated with technical solution for using the SEI (Supplemental Enhancement Information) to synchronize the timestamp of live streaming of the host and the popup or hidden behavior of trivia game.
+Responsible for half backend development and admin panel frontend development of early stages of the first version. Participated with technical solution for using the SEI (Supplemental Enhancement Information) to synchronize the timestamp of live streaming of the host and the popup or hidden behavior of trivia game.
 
 We leveraged cloud technologies and modern frameworks with tools such as Java, Spring, Redis, Kafka and ZooKeeper, WebSocket and Socket.IO.
 
