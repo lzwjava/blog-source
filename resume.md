@@ -39,7 +39,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer, 2020.01 - 2021.11
 
-* Completed various software projects, including the development of a website for LED Sign (lvchensign.com) and contributions to the development of the online technical interview platform, ShowMeBug. Leveraged technologies such as Ruby, Ruby on Rails, Python, ElasticSearch, Docker, and Netty.
+* Completed various software projects, including the development of a website for LED Sign (lvchensign.com) and contributions to the Enterprise WeChat integration of the online technical interview platform, ShowMeBug. Leveraged technologies such as Ruby, Ruby on Rails, Python, ElasticSearch, Docker, and Netty.
 * Authored and published technical blogs to share knowledge online, improved English proficiency through engaging with Netflix and literature, and enhanced problem-solving skills by tackling algorithms and participating in Codeforces competitions.
 * Gained a little of hands-on experience with big data and cloud-native technologies by exploring introductory tutorials and running examples for Spark, Hadoop, Kubernetes, and Docker.
 
