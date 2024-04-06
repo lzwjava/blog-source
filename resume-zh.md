@@ -38,7 +38,7 @@ title:  "Resume"
 
 ### 无, 自由职业者, 2020.01 - 2021.11
 
-* 完成多个软件项目，包括为LED标识公司（lvchensign.com）开发网站，以及为在线技术面试平台ShowMeBug的模块开发做出贡献。在项目中运用了Ruby、Ruby on Rails、Python、ElasticSearch、Docker和Netty等技术。
+* 完成多个软件项目，包括为LED标识公司（lvchensign.com）开发网站，以及为在线技术面试平台ShowMeBug的企业微信集成做出贡献。在项目中运用了Ruby、Ruby on Rails、Python、ElasticSearch、Docker和Netty等技术。
 * 撰写并发布技术博客以在线分享知识，通过观看Netflix和阅读书籍提高英语水平，并通过解决算法问题和参加Codeforces竞赛增强了解决问题的能力。
 * 通过探索入门教程和运行Spark、Hadoop、Kubernetes和Docker的示例，获得了大数据和云原生技术的实践经验。
 
