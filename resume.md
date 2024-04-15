@@ -14,8 +14,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ## Profiles
 
 - 29-year-old male, Chinese citizen, resides in Guangzhou, married.
-- Studied for one year at Beijing Forestry University before dropping out.
-- Pursuing an associate degree through self-taught education, with four courses completed.
+- Studied for one year at Beijing Forestry University before dropping out. Pursuing an associate degree through self-taught education, with four courses completed.
 - Worked primarily at LeanCloud, Beijing Square Root, Beyondsoft (outsourced to DBS Bank), and Farben Information(outsourced to HSBC Bank).
 - Accumulated 9.5 years of professional experience, including 7 years in corporate roles and 2.5 years as a freelancer.
 - Specializes in 2 years of mobile (Android, iOS) engineering and 7 years of full-stack engineering (5 years backend, 1 year frontend), and 1 year in machine learning/big data.
