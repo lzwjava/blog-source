@@ -13,16 +13,16 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ## Profiles
 
-- 29-year-old male, Chinese citizen, resides in Guangzhou, married.
-- Studied for one year at Beijing Forestry University before dropping out. Pursuing an associate degree through self-taught education, with four courses completed.
-- Worked primarily at LeanCloud, Beijing Square Root, Beyondsoft (outsourced to DBS Bank), and Farben Information(outsourced to HSBC Bank).
-- Accumulated 9.5 years of professional experience, including 7 years in corporate roles and 2.5 years as a freelancer.
-- Specializes in 2 years of mobile (Android, iOS) engineering and 7 years of full-stack engineering (5 years backend, 1 year frontend), and 1 year in machine learning/big data.
-- Familiar with Java, Spring, MySQL, Alibaba Cloud, AWS, Azure, and more.
-- Native in Chinese, proficient in English (IELTS 6).
-- Achieved Top 300 in NOIP 2011, solved around 1000 algorithm problems online.
-- Developed 10 open-source GitHub projects as a main developer, each with over 500 commits available at https://github.com/lzwjava.
-- Detailed software portfolio available at https://lzwjava.github.io/portfolio.
+* 29-year-old male, Chinese citizen, resides in Guangzhou, married.
+* Studied for one year at Beijing Forestry University before dropping out. Pursuing an associate degree through self-taught education, with four courses completed.
+* Worked primarily at LeanCloud, Beijing Square Root, Beyondsoft (outsourced to DBS Bank), and Farben Information(outsourced to HSBC Bank).
+* Accumulated 9.5 years of professional experience, including 7 years in corporate roles and 2.5 years as a freelancer.
+* Specializes in 2 years of mobile (Android, iOS) engineering and 7 years of full-stack engineering (5 years backend, 1 year frontend), and 1 year in machine learning/big data.
+* Familiar with Java, Spring, MySQL, Alibaba Cloud, AWS, Azure, and more.
+* Native in Chinese, proficient in English (IELTS 6).
+* Achieved Top 300 in NOIP 2011, solved around 1000 algorithm problems online.
+* Developed 10 open-source GitHub projects as a main developer, each with over 500 commits available at https://github.com/lzwjava.
+* Detailed software portfolio available at https://lzwjava.github.io/portfolio.
 
 
 ## Work Experience
@@ -33,12 +33,12 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Prepare for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc.
 * Listened to a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
 
-### Shenzhen Farben Information Technology Co., Full Stack Engineer, 2022.11 - 2023.07
+### Shenzhen Farben Information Technology Co., Backend Engineer, 2022.11 - 2023.07
 * Farben is a leading software technology service provider in China. HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe is an HSBC mobile payment service catering to Hong Kong residents.
 * Contracting through Farben, I was assigned to work for HSBC Bank and contributed to the PayMe project. I participated in the backend development for the Auto Top Up feature and assisted with the cloud migration.
 * We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
-### Beyondsoft Consulting Inc, Full Stack Engineer, 2021.12 - 2022.11
+### Beyondsoft Consulting Inc, Backend Engineer, 2021.12 - 2022.11
 
 * Beyondsoft Consulting is a leading business IT and consulting company. DBS Bank is the largest bank in Southeast Asia by assets and among the largest banks in Asia.
 * Contracting with Beyondsoft, I was assigned to work for DBS Bank and contributed to DBS Client Connect by developing the equity trading micro-service, and to DBS DigiBank CN by participating backend development of several micro-services, including those for mutual funds.
