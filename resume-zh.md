@@ -20,7 +20,7 @@ title:  "Resume"
 * 熟悉Java、Spring、MySQL、阿里云、AWS、Azure等技术。
 * 汉语为母语，英语流利（雅思6分）。
 * 在2011年NOIP中获得前300名，在线解决了约1000个算法问题。
-* 作为主要开发者，开发了10个开源GitHub项目，每个项目都有超过500次提交，可在 https://github.com/lzwjava 查看。
+* 开发了10个GitHub开源项目，每个超500次提交，请查看 https://github.com/lzwjava。
 * 详细的软件作品集可在 https://lzwjava.github.io/portfolio 查看。
 
 ## 工作经历
