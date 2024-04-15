@@ -18,7 +18,7 @@ title:  "Resume"
 * 主要在LeanCloud、北京平方根、博彦科技（外派至DBS银行）和法本信息（外派至汇丰银行）工作。
 * 累积了9.5年的专业经验，包括7年的企业就职经验和2.5年的自由职业者经验。
 * 专长于2年的移动（Android、iOS）工程和6年的全栈工程（5年后端，1年前端），以及1年的机器学习/大数据。
-* 熟悉Java、Spring、MySQL、阿里云、AWS、Azure等技术。
+* 熟悉Java、Spring、MySQL、Vue、HTML、阿里云、AWS、Azure等技术。
 * 汉语为母语，英语流利（雅思6分）。
 * 开发了10个GitHub开源项目，每个超500次提交，请查看 https://github.com/lzwjava。
 * 详细的软件作品集可查看于 https://lzwjava.github.io/portfolio。
