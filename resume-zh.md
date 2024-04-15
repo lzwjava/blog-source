@@ -21,7 +21,7 @@ title:  "Resume"
 * 熟悉Java、Spring、MySQL、阿里云、AWS、Azure等技术。
 * 汉语为母语，英语流利（雅思6分）。
 * 开发了10个GitHub开源项目，每个超500次提交，请查看 https://github.com/lzwjava。
-* 详细的软件作品集可在 https://lzwjava.github.io/portfolio 查看。
+* 详细的软件作品集可查看于 https://lzwjava.github.io/portfolio。
 
 ## 工作经历
 
