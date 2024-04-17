@@ -13,7 +13,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ## Profiles
 
-* 29-year-old male, Chinese citizen, resides in Guangzhou, married.
+* 29-year-old male, Chinese citizen, resides in Guangzhou.
 * Achieved top 300 in NOIP 2011, solved around 1000 algorithm problems online.
 * Studied for one year at Beijing Forestry University before dropping out. Pursuing an associate degree through self-taught education, with four courses completed.
 * Worked primarily at LeanCloud, Beijing Square Root, Beyondsoft (outsourced to DBS Bank), and Farben Information(outsourced to HSBC Bank).
