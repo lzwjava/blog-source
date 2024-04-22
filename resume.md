@@ -14,11 +14,11 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ## Profiles
 
 * 29-year-old male, Chinese citizen, resides in Guangzhou.
-* Achieved top 300 in NOIP 2011, solved around 1000 algorithm problems online.
+* Achieved top 300 in NOIP 2011 and solved around 1000 algorithm problems online.
 * Studied for one year at Beijing Forestry University before dropping out. Pursuing an associate degree through self-taught education, with four courses completed.
 * Worked primarily at LeanCloud, Beijing Square Root, Beyondsoft (outsourced to DBS Bank), and Farben Information(outsourced to HSBC Bank).
 * Accumulated 9.5 years of professional experience, including 7 years in corporate roles and 2.5 years as a freelancer.
-* Specializes in 2 years of mobile (Android, iOS) engineering and 6 years of full-stack engineering (5 years backend, 1 year frontend), and 1 year in machine learning/big data.
+* Specializes in 2 years of mobile (Android, iOS) engineering, 6 years of full-stack engineering (5 years backend, 1 year frontend), and 1 year in machine learning/big data.
 * Familiar with Java, Spring, MySQL, Vue, HTML, Alibaba Cloud, AWS, Azure, and more.
 * Native in Chinese, proficient in English (IELTS 6).
 * Developed 10 open-source GitHub projects as a main developer, each with over 500 commits available at https://github.com/lzwjava.
