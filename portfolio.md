@@ -105,8 +105,9 @@ A Chrome plugin that automatically closes the oldest tabs when your browser gets
 
 An Xcode plugin designed for seamless navigation to key GitHub functionalities within your current repository. With just a click, effortlessly access GitHub History, Blame, Pull Requests, Issues, and Notifications, all in a matter of seconds.
 
+Open Sourced at [GitHub](https://github.com/lzwjava/Reveal-In-GitHub).
 
-
+<img src="/assets/images/portfolio/reveal.png"/><img/>
 
 ## CodeReview, Full Stack, 2015.11 - 2016.7
 
