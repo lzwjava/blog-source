@@ -209,6 +209,16 @@ Responsible for the integration between the platform and the Enterprise WeChat (
 
 <div align="center"><img src="/assets/images/portfolio/showmebug.webp"/><img/></div>
 
+## LvchenSign - Advertising Signage Website, Frontend, 2020.4 - 2020.5
+
+LvchenSign specializes in the production of advertising signage for various businesses and events. With a focus on quality and creativity, we strive to deliver impactful visual solutions that elevate brands and captivate audiences.
+
+Responsible for the frontend development of the website. We leveraged the modern frontend technologies like HTML, JavaScript, CSS and Bootstrap. 
+
+Open sourced at [GitHub](https://github.com/lzwjava/lvchensign), 40 Commits. Online page at [lvchesign.com](http://lvchensign.com).
+
+<div align="center"><img src="/assets/images/portfolio/lvchensign.jpg"/><img/></div>
+
 ## DBS Client Connect - Equity Trading, Backend, 2021.12 - 2022.6
 
 DBS Client Connect, the first all-in-one, AI- and data-driven customer-relationship management platform. 
