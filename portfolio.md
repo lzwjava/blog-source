@@ -95,6 +95,19 @@ Participated some development for the Objective-C SDK and Java SDK.
 
 [Objective-C SDK documentaion](https://docs.leancloud.cn/en/sdk/storage/guide/objc/) and [Java SDK documentation](https://docs.leancloud.cn/en/sdk/storage/guide/java/).
 
+## TabsKiller, Frontend, 2015.7
+
+A Chrome plugin that automatically closes the oldest tabs when your browser gets cluttered with too many tabs. Say goodbye to a messy browser experience forever!
+
+<img src="/assets/images/portfolio/tabs.jpg"/><img/>
+
+## Reveal-In-GitHub, MacOS, 2015.10
+
+An Xcode plugin designed for seamless navigation to key GitHub functionalities within your current repository. With just a click, effortlessly access GitHub History, Blame, Pull Requests, Issues, and Notifications, all in a matter of seconds.
+
+
+
+
 ## CodeReview, Full Stack, 2015.11 - 2016.7
 
 CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. It was founded by 6 Internet lovers, including me.
