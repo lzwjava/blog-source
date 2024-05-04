@@ -90,7 +90,9 @@ Responsible for iOS development.
 
 LeanCloud is the leading backend-as-a-service provider that offers a complete set of cloud services including object storage, file storage, web hosting, container, instant messaging, push notification, SMS, and game backend.
 
-Participated some Android and iOS development for the SDK. 
+Participated some development for the Objective-C SDK and Java SDK.
+
+[Objective-C SDK documentaion](https://docs.leancloud.cn/en/sdk/storage/guide/objc/) and [Java SDK documentation](https://docs.leancloud.cn/en/sdk/storage/guide/java/).
 
 ## CodeReview, Full Stack, 2015.11 - 2016.7
 
