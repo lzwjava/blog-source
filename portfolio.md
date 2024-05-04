@@ -178,7 +178,7 @@ WeChat MiniProgram:
 
 </div>
 
-Desktop Website:
+Desktop website:
 
 <div align="center"><img src="/assets/images/portfolio/funlive3.jpg"/><img/></div>
 
