@@ -209,7 +209,7 @@ Responsible for the integration between the platform and the Enterprise WeChat (
 
 <div align="center"><img src="/assets/images/portfolio/showmebug.webp"/><img/></div>
 
-## LvchenSign - Advertising Signage Website, Frontend, 2020.4 - 2020.5
+## LvchenSign, Frontend, 2020.4 - 2020.5
 
 LvchenSign specializes in the production of advertising signage for various businesses and events. With a focus on quality and creativity, we strive to deliver impactful visual solutions that elevate brands and captivate audiences.
 
