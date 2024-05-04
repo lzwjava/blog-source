@@ -213,7 +213,7 @@ Responsible for the integration between the platform and the Enterprise WeChat (
 
 ## LvchenSign, Frontend, 2020.4 - 2020.5
 
-LvchenSign specializes in the production of advertising signage for various businesses and events. With a focus on quality and creativity, we strive to deliver impactful visual solutions that elevate brands and captivate audiences.
+LvchenSign specializes in the production of advertising signage for various businesses and events. With a focus on quality and creativity, it strive to deliver impactful visual solutions that elevate brands and captivate audiences.
 
 Responsible for the frontend development of the website. We leveraged the modern frontend technologies like HTML, JavaScript, CSS and Bootstrap. 
 
