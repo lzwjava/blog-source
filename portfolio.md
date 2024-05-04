@@ -74,7 +74,7 @@ The iOS application of LeanChat.
 
 Responsible for iOS development.
 
-[Open sourced at GitHub](https://github.com/lzwjava/leanchat-ios), 446 Commits.
+[Open sourced at GitHub](https://github.com/lzwjava/leanchat-ios), 446 commits.
 
 <div align="center">
 
@@ -217,7 +217,7 @@ LvchenSign specializes in the production of advertising signage for various busi
 
 Responsible for the frontend development of the website. We leveraged the modern frontend technologies like HTML, JavaScript, CSS and Bootstrap. 
 
-Open sourced at [GitHub](https://github.com/lzwjava/lvchensign), 40 Commits. Online page at [lvchesign.com](http://lvchensign.com).
+Open sourced at [GitHub](https://github.com/lzwjava/lvchensign), 40 commits. Online page at [lvchesign.com](http://lvchensign.com).
 
 <div align="center"><img src="/assets/images/portfolio/lvchensign.jpg"/><img/></div>
 
