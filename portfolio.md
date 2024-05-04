@@ -142,6 +142,7 @@ Open Sourced at GitHub.
 * [live-server](https://github.com/lzwjava/live-server), 661 commits(555 commits by me)
 * [live-mobile-web](https://github.com/lzwjava/live-mobile-web), 528 commits(426 commits by me)
 * [live-web](https://github.com/lzwjava/live-web), 140 commits
+* [live-wxapp](https://github.com/lzwjava/live-wxapp), 63 commits
 
 <div align="center">
 
@@ -153,7 +154,6 @@ Open Sourced at GitHub.
 
 </div>
 
-
 <div align="center">
 
 <img src="/assets/images/portfolio/funlive6.jpg" width="200px" /><img/>
@@ -161,6 +161,14 @@ Open Sourced at GitHub.
 <img src="/assets/images/portfolio/funlive2.jpg" width="200px" /><img/>
 
 <img src="/assets/images/portfolio/funlive5.jpg" width="200px" /><img/>
+
+</div>
+
+<div align="center">
+
+<img src="/assets/images/portfolio/wxapp1.jpg" width="200px" /><img/>
+
+<img src="/assets/images/portfolio/wxapp2.jpg" width="200px" /><img/>
 
 </div>
 
