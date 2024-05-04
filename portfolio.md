@@ -99,7 +99,7 @@ Participated some development for the Objective-C SDK and Java SDK.
 
 A Chrome plugin that automatically closes the oldest tabs when your browser gets cluttered with too many tabs. Say goodbye to a messy browser experience forever!
 
-<img src="/assets/images/portfolio/tabs.jpg"/><img/>
+<img src="/assets/images/portfolio/tabs.jpg" width="200px"/><img/>
 
 ## Reveal-In-GitHub, MacOS, 2015.10
 
