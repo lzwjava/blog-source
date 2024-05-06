@@ -100,7 +100,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs. Responsible for team management, contract negotiation, project management, client communications and some software development. From 2018.1 to 2019.12.
 * The WeChat Mini program for Super Brain TV Program in China. Responsible for the backend and frontend development. Used tech stacks like Java, Spring, Javascript, HTML and AliCloud. From 2018.2 to 2018.3.
 * A live-streaming trivia app. Responsible for some backend development and frontend development of admin panel. Used tech stacks like Java, Spring, WebSocket and Netty. From 2017.9 to 2018.1.
-* Mianbao Live. Responsible for refactoring the backend. Used tech stacks like PHP, TypeScript, Laravel and Go. From 2017.9 to 2018.1.
+* Mianbao Live, a one-stop content monetization platform. Responsible for refactoring the backend. Used tech stacks like PHP, TypeScript, Laravel and Go. From 2017.9 to 2018.1.
 * Fun Live, a knowledge live broadcast platform. Responsible for most code development. Used tech stacks like PHP, Javascript, HTML, AliCloud and RTMP Streaming. From 2016.6 to 2017.9.
 * LeanCloud Objective-C SDK, Java SDK and LeanChat. Responsible for some Objective-C and Java SDK development, and all development of their demo app LeanChat. From 2014.07 to 2015.10.
 
