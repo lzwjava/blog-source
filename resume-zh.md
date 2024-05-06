@@ -107,29 +107,29 @@ title:  "Resume"
 
 ### 开源、博客、Codeforces, 2013-09 至今
 
-以下是我的开源项目，包括我创业的项目或个人业余项目。请在这里查看，https://github.com/lzwjava。
+请浏览我的开源项目，涵盖了我创建的企业项目和个人努力，GitHub链接：https://github.com/lzwjava。
 
 * neural-networks-and-zhiwei-learning，机器学习实践项目，530次提交，Python
-* algorithm-solutions，算法问题的解决方案，2466次提交，Java
+* algorithm-solutions，算法问题解决方案，2466次提交，Java
 * lzwjava.github.io，我的博客，500次提交，英文和中文
-* live-server，知识直播平台的后端，660次提交，PHP
-* live-mobile-web，知识直播平台的移动前端，528次提交，Vue和JavaScript
-* live-web，知识直播平台的桌面前端，140次提交，Vue
-* live-wxapp，知识直播平台的微信小程序，63次提交，JavaScript
-* code-review-server，专业代码审查平台的后端，275次提交，PHP
-* code-review-web，专业代码审查平台的前端，302次提交，Vue和JavaScript
-* weimg-server，一个图像社区的后端，35次提交，PHP
-* weimg-ios，一个图像社区的iOS应用程序，77次提交，Objective-C
+* live-server，知识直播平台后端，660次提交，PHP
+* live-mobile-web，知识直播平台移动端前端，528次提交，Vue和JavaScript
+* live-web，知识直播平台桌面端前端，140次提交，Vue
+* live-wxapp，知识直播平台微信小程序，63次提交，JavaScript
+* code-review-server，代码审查专业平台后端，275次提交，PHP
+* code-review-web，代码审查专业平台前端，302次提交，Vue和JavaScript
+* weimg-server，图片社区后端，35次提交，PHP
+* weimg-ios，图片社区iOS应用，Objective-C
 * leanchat-ios，iOS聊天应用，556次提交，Objective-C
 * leanchat-android，Android聊天应用，412次提交，Java
 * curiosity-courses，编程课程，215次提交，中文
-* LZAlbum，一个类似微信朋友圈的iOS简单应用程序，47次提交，Objective-C
-* TabsKiller，一个帮助关闭浏览器标签页的Chrome插件，19次提交，JavaScript
-* Reveal-In-GitHub，一个Xcode插件，57次提交，Objective-C
-* LvchenSign，一个广告标识公司的网站，40次提交，JavaScript
-* feynman-lectures-mobi，一个将latex转换为SVG以创建mobi电子书的工具，47次提交，Python
-* flower-recognition，一个花卉识别Android应用，37次提交，Java
-* Creak，一个简单的HTML解析器，49次提交，Swift
+* LZAlbum，类似微信朋友圈的iOS简单应用，47次提交，Objective-C
+* TabsKiller，帮助关闭浏览器标签页的Chrome插件，19次提交，JavaScript
+* Reveal-In-GitHub，Xcode插件，57次提交，Objective-C
+* LvchenSign，广告标识公司网站，40次提交，JavaScript
+* feynman-lectures-mobi，将latex转换为SVG创建mobi电子书的工具，47次提交，Python
+* flower-recognition，花卉识别Android应用，37次提交，Java
+* Creak，简单的HTML解析器，49次提交，Swift
 
 
 ## 技能
