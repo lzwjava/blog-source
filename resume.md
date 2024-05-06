@@ -109,7 +109,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Below are my open-source projects. Please check out here, https://github.com/lzwjava.
 * neural-networks-and-zhiwei-learning, machine learning practice projects, 530 commits, Python
 * algorithm-solutions, the solutions to algorithm problems, 2466 commits, Java
-* lzwjava.github.io, my blog, 1537 commits, English & Chinese
+* lzwjava.github.io, my blog, 500 commits, English & Chinese
 * live-server, the backend of a knowledge live broadcast platform, 660 commits, PHP
 * live-mobile-web, the mobile frontend of a knowledge live broadcast platform, 528 commits, Vue & JavaScript
 * live-web, the desktop frontend of a knowledge live broadcast platform, 140 commits, Vue
