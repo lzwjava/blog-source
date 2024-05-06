@@ -111,7 +111,7 @@ title:  "Resume"
 
 * neural-networks-and-zhiwei-learning，机器学习实践项目，530次提交，Python
 * algorithm-solutions，算法问题的解决方案，2466次提交，Java
-* lzwjava.github.io，我的博客，1537次提交，英文和中文
+* lzwjava.github.io，我的博客，500次提交，英文和中文
 * live-server，知识直播平台的后端，660次提交，PHP
 * live-mobile-web，知识直播平台的移动前端，528次提交，Vue和JavaScript
 * live-web，知识直播平台的桌面前端，140次提交，Vue
