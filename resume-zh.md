@@ -107,7 +107,7 @@ title:  "Resume"
 
 ### 开源、博客、Codeforces, 2013-09 至今
 
-请浏览我的开源项目，涵盖了我创建的企业项目和个人努力，GitHub链接：https://github.com/lzwjava。
+请浏览我的开源项目，涵盖了我创建的企业项目和个人业余项目，GitHub链接：https://github.com/lzwjava。
 
 * neural-networks-and-zhiwei-learning，机器学习实践项目，530次提交，Python
 * algorithm-solutions，算法问题解决方案，2466次提交，Java
