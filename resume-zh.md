@@ -39,8 +39,11 @@ title:  "Resume"
 ### 博彦科技股份有限公司, 后端工程师, 2021.12 - 2022.11
 
 * 博彦科技是一家领先的商业IT和咨询公司。星展银行是东南亚资产最大的银行之一，也是亚洲规模最大的银行之一。
-* 通过与博彦科技签约，我被派遣至星展银行，并通过开发股票交易微服务为DBS Client Connect做出贡献，并为DBS DigiBank CN参与开发了包括互惠基金在内的几个微服务。
-* 我们充分利用了云技术和现代化框架，采用了自动化最佳实践，使用了Java、Spring Cloud、Jira、Confluence、Jenkins、Pivotal Cloud Foundry 和Kibana等工具，并运用了BDD和TDD方法论。
+* 与博彦科技签约后，我被分配到DBS银行工作，并为DBS Client Connect和DBS DigiBank CN项目做出了贡献。
+* 在DBS Client Connect项目中，我参与了股票交易微服务的开发。这包括利用Feign客户端集成Avoloq API，并实施编辑距离算法以优化股票代码搜索功能。
+* 在DBS DigiBrank CN项目中，我参与了多个微服务的后端开发，包括共同基金管理。我还开发了一个利用Karate框架自动化生成测试的工具。
+* 遵循敏捷方法论，我处理了各种任务，包括代码开发、编写测试、完成工单、代码合并以及支持生产发布。此外，我还记录了API描述并为新团队成员创建了入职指南。
+* 我们利用了云技术和现代框架，采用了自动化最佳实践，使用了Java、Spring Cloud、Jira、Confluence、Jenkins、Pivotal Cloud Foundry和Kibana等工具，并采用了BDD和TDD方法论。
 
 ### 无, 自由职业者, 2020.01 - 2021.11
 
@@ -100,20 +103,27 @@ title:  "Resume"
 
 ### 开源、博客、Codeforces, 2013-09 至今
 
-* neural-networks-and-zhiwei-learning, 机器学习实践项目，使用Python，共有530次提交。
-* algorithm-solutions, 算法问题解决方案集，使用Java，共有2466次提交。
-* lzwjava.github.io, 个人博客，支持中英文，共有1537次提交。
-* live-server, 知识直播后端平台，使用PHP，共有660次提交。
-* live-web，知识直播平台的桌面前端，Vue，140 次提交
-* live-mobile-web, 知识直播的移动端前端，使用Vue和JavaScript，共有528次提交。
-* code-review-server, 代码审查平台后端，使用PHP，共有275次提交。
-* code-review-web, 代码审查平台前端，使用Vue和JavaScript，共有302次提交。
-* leanchat-ios, iOS聊天应用，使用Objective-C，共有556次提交。
-* leanchat-android, Android聊天应用，使用Java，共有412次提交。
-* curiosity-courses, 编程课程，共有215次提交。
-* LZAlbum, 类似微信朋友圈的iOS应用，使用Objective-C，共有47次提交。
-* feynman-lectures-mobi, LaTeX转SVG创建.mobi电子书工具，使用Python，共有47次提交。
-* Creak, 简单的HTML解析器，使用Swift编写，共有49次提交。
+以下是我的开源项目。请在这里查看，https://github.com/lzwjava。
+
+* neural-networks-and-zhiwei-learning，机器学习实践项目，530次提交，Python
+* algorithm-solutions，算法问题的解决方案，2466次提交，Java
+* lzwjava.github.io，我的博客，1537次提交，英文和中文
+* live-server，知识直播平台的后端，660次提交，PHP
+* live-mobile-web，知识直播平台的移动前端，528次提交，Vue和JavaScript
+* live-web，知识直播平台的桌面前端，140次提交，Vue
+* live-wxapp，知识直播平台的微信小程序，63次提交，JavaScript
+* code-review-server，专业代码审查平台的后端，275次提交，PHP
+* code-review-web，专业代码审查平台的前端，302次提交，Vue和JavaScript
+* leanchat-ios，iOS聊天应用，556次提交，Objective-C
+* leanchat-android，Android聊天应用，412次提交，Java
+* curiosity-courses，编程课程，215次提交，中文
+* LZAlbum，一个类似微信朋友圈的iOS简单应用程序，47次提交，Objective-C
+* TabsKiller，一个帮助关闭浏览器标签页的Chrome插件，19次提交，JavaScript
+* Reveal-In-GitHub，一个Xcode插件，57次提交，Objective-C
+* LvchenSign，一个广告标识公司的网站，40次提交，JavaScript
+* feynman-lectures-mobi，一个将latex转换为SVG以创建mobi电子书的工具，47次提交，Python
+* flower-recognition，一个花卉识别Android应用，37次提交，Java
+* Creak，一个简单的HTML解析器，49次提交，Swift
 
 
 ## 技能
