@@ -14,7 +14,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ## Profiles
 
 * 29-year-old male, Chinese citizen, resides in Guangzhou.
-* Achieved top 300 in NOIP 2011 and solved around 1000 algorithm problems online.
+* Achieved top 300 in Guangdong NOIP 2011 and solved around 1000 algorithm problems online.
 * Studied for one year at Beijing Forestry University before dropping out. Pursuing an associate degree through self-taught education, with four courses completed.
 * Worked primarily at LeanCloud, Beijing Square Root, Beyondsoft (outsourced to DBS Bank), and Farben Information(outsourced to HSBC Bank).
 * Accumulated 9.5 years of professional experience, including 7 years in corporate roles and 2.5 years as a freelancer.
@@ -30,12 +30,12 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Freelancer, 2023.07 - Present
 
 * Carefully analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. Got one course completion certificate from Coursera about Machine Learning Specialization.
-* Prepare for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc.
+* Prepared for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc.
 * Listened to a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
 
 ### Shenzhen Farben Information Technology Co., Backend Engineer, 2022.11 - 2023.07
 * Farben is a leading software technology service provider in China. HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe is an HSBC mobile payment service catering to Hong Kong residents.
-* Contracting through Farben, I was assigned to work for HSBC Bank and contributed to the PayMe project. I participated in the backend development for the Auto Top Up feature and assisted with the cloud migration.
+* Contracting through Farben, I was assigned to work for HSBC Bank and contributed to the PayMe project. I participated in the backend development for the Auto Top Up feature, which automatically tops up funds from the user's credit or debit card when their balance falls below a certain amount. Additionally, I assisted a little with the AWS migration.
 * We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
 ### Beyondsoft Consulting Inc, Backend Engineer, 2021.12 - 2022.11
@@ -59,13 +59,13 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Beijing Dami Entertainment Co., Cofounder & Full Stack Engineer, 2015.11 - 2016.7
 
-* Beijing Dami Entertainment Co. was a company founded by 6 Internet lovers, including me. We launched and operated the platform CodeReview. CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. It gained around 3000 users.
+* Beijing Dami Entertainment Co. was a company founded by 6 Internet lovers, including me. We launched and operated the platform CodeReview, a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. It gained around 3000 users.
 * Responsible for the code development of the backend and half of the frontend. We utilized a strong tech stack including PHP, Vue, Code Igniter, Alibaba Cloud, and Ping++.
 
 ### Pinyue Chuangzhi (Beijing) Technology Consulting Co., Software Engineer, 2014.07 - 2015.11
 
-* Pinyue Chuangzhi has a leading cloud computing provider in China, LeanCloud. The company serves hundreds of thousands of developer users and has received IDG investment.
-* Participated in the development of LeanCloud iOS SDK and Android SDK. Responsible for some Angular frontend projects. 
+* Pinyue Chuangzhi has a leading cloud computing provider in China, LeanCloud. It offers a complete set of cloud services including object storage, file storage, web hosting, container, instant messaging, push notification, SMS, and game backend. The company serves hundreds of thousands of developer users.
+* Participated in the development of LeanCloud Objective-C SDK and Java SDK. Responsible for some frontend projects which used Angular as the core framework.
 * Responsible for the development of LeanChat iOS client and Android client. This was a chat application set up to demonstrate the communication SDK, with functions such as single chat, group chat, nearby people, etc. 
 
 ## Educational Background
@@ -96,7 +96,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * The WeChat Mini program for Super Brain TV Program in China. Responsible for the backend and frontend development. Used tech stacks like Java, Spring, Javascript, HTML and AliCloud. From 2018.2 to 2018.3.
 * A live-streaming trivia app. Responsible for some backend development and frontend development of admin panel. Used tech stacks like Java, Spring, WebSocket and Netty. From 2017.9 to 2018.1.
 * Fun Live, a knowledge live broadcast platform in China. My startup project. Responsible for most code development. Used tech stacks like PHP, Javascript, HTML, AliCloud and RTMP Streaming. From 2016.6 to 2017.9.
-* LeanCloud Mobile SDK and LeanChat. Responsible for some iOS and Android SDK development, and all development of their demo app LeanChat. From 2014.07 to 2015.10.
+* LeanCloud Objective-C SDK, Java SDK and LeanChat. Responsible for some Objective-C and Java SDK development, and all development of their demo app LeanChat. From 2014.07 to 2015.10.
 
 ### Open Source & Blog & Codeforces, 2013-09 to Present
 
@@ -107,13 +107,18 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * live-server, the backend of a knowledge live broadcast platform, 660 commits, PHP
 * live-mobile-web, the mobile frontend of a knowledge live broadcast platform, 528 commits, Vue & JavaScript
 * live-web, the desktop frontend of a knowledge live broadcast platform, 140 commits, Vue
+* live-wxapp, the WeChat Miniprogram of a knowledge live broadcast platform, 63 commits, JavaScript
 * code-review-server, the backend of a professional platform for code review, 275 commits, PHP
 * code-review-web, the frontend of a professional platform for code review, 302 commits, Vue & JavaScript
 * leanchat-ios, an iOS chat application, 556 commits, Objective-C
 * leanchat-android, an Android chat application, 412 commits, Java
 * curiosity-courses, a programming course, 215 commits, Chinese
 * LZAlbum, an iOS simple application like WeChat moments, 47 commits, Objective-C
+* TabsKiller, a Chrome plugin that helps to close tabs in the brower, 19 commits, JavaScript
+* Reveal-In-GitHub, an Xcode plugin, 57 commits, Objective-C
+* LvchenSign, a website of an advertising signage company, 40 commits, JavaScript
 * feynman-lectures-mobi, a tool to convert latex to SVG to create mobi ebook, 47 commits, Python
+* flower-recognition, a flower recognition Android application, 37 commits, Java
 * Creak, a simple HTML Parser, 49 commits, Swift
 
 ## Skills
