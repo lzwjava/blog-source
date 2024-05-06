@@ -201,7 +201,7 @@ Responsible for refactoring the backend by moving most logic from several progra
 
 ## The WeChat Miniprogram for Super Brain program, Full Stack, 2018.3 - 2018.4
 
-The WeChat Miniprogram for Super Brain program in Jiangsu TV has puzzles for users to play. In the program group, the host guides users through oral broadcasting, which poses certain technical challenges.
+Jiangsu TV's Super Brain program's WeChat Mini Program features engaging puzzles for users. Within the program, hosts navigate users through oral broadcasts, presenting specific technical challenges.
 
 Responsible for backend and some frontend development.
 
