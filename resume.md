@@ -116,6 +116,8 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * live-wxapp, the WeChat Miniprogram of a knowledge live broadcast platform, 63 commits, JavaScript
 * code-review-server, the backend of a professional platform for code review, 275 commits, PHP
 * code-review-web, the frontend of a professional platform for code review, 302 commits, Vue & JavaScript
+* weimb-server, the backend of an image community, PHP
+* weimg-ios, an iOS application of an image community, Objective-C
 * leanchat-ios, an iOS chat application, 556 commits, Objective-C
 * leanchat-android, an Android chat application, 412 commits, Java
 * curiosity-courses, a programming course, 215 commits, Chinese
