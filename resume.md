@@ -117,7 +117,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * code-review-server, the backend of a professional platform for code review, 275 commits, PHP
 * code-review-web, the frontend of a professional platform for code review, 302 commits, Vue & JavaScript
 * weimg-server, the backend of an image community, 35 commits, PHP
-* weimg-ios, an iOS application of an image community,  Objective-C
+* weimg-ios, an iOS application of an image community, 77 commits, Objective-C
 * leanchat-ios, an iOS chat application, 556 commits, Objective-C
 * leanchat-android, an Android chat application, 412 commits, Java
 * curiosity-courses, a programming course, 215 commits, Chinese
