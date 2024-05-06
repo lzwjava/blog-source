@@ -117,8 +117,8 @@ title:  "Resume"
 * live-wxapp，知识直播平台的微信小程序，63次提交，JavaScript
 * code-review-server，专业代码审查平台的后端，275次提交，PHP
 * code-review-web，专业代码审查平台的前端，302次提交，Vue和JavaScript
-* weimg-server是一个图像社区的后端，35次提交，PHP
-* weimg-ios是一个图像社区的iOS应用程序，77次提交，Objective-C
+* weimg-server，一个图像社区的后端，35次提交，PHP
+* weimg-ios，一个图像社区的iOS应用程序，77次提交，Objective-C
 * leanchat-ios，iOS聊天应用，556次提交，Objective-C
 * leanchat-android，Android聊天应用，412次提交，Java
 * curiosity-courses，编程课程，215次提交，中文
