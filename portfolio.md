@@ -3,6 +3,8 @@ layout: post
 title:  "Portfolio"
 ---
 
+The PDF file can be found [here](/assets/resume/Zhiwei.Li.Portfolio.pdf).
+
 
 ## Uva & Codeforces, Java & C++, 2008-2013 & 2021
 
