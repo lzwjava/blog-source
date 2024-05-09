@@ -29,7 +29,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer, 2023.07 - Present
 
-* I analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. Got one course completion certificate from Coursera about Machine Learning Specialization.
+* I analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. And got one course completion certificate from Coursera about Machine Learning Specialization.
 * I prepared for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc.
 * I listened to a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
 
@@ -83,7 +83,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 * I passed 13 courses, like Computer Introduction, Fundamentals of Programming, Programming Fundamentals Lab, College English, Advanced Mathematics, Principles and Techniques of Digital Imaging, Two-Dimensional Graphics Technology.
 * I built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums. It has been downloaded and used by thousands of users on campus. And I built an Android App for learning English by watching movie clips, and won the third prize in a hackathon.
-* I ranked in the top 1 in my school's ACM/ICPC monthly training competition among around 100 top students in the university, including higher grade one.
+* In my school's ACM/ICPC monthly training competition, I ranked in the top 1 among around 100 top students in the university, including higher grade one.
 
 ### Guangzhou Yuyan Middle School, Science, Middle School Diploma, 2007.07 - 2013.06
 * I ranked in the top 300 out of 100k students in the Guangzhou High School Entrance exam. 
