@@ -36,7 +36,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Shenzhen Farben Information Technology Co., Backend Engineer, 2022.11 - 2023.07
 * Farben is a leading software technology service provider in China. HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe is an HSBC mobile payment service catering to Hong Kong residents.
 * Contracting through Farben, I was assigned to work for HSBC Bank and contributed to the PayMe project. I participated in the backend development for the Auto Top Up feature, which automatically tops up funds from the user's credit or debit card when their balance falls below a certain amount. Additionally, I assisted a little with the AWS migration.
-* We follow agile methodologies, holding daily stand-ups and sprint retrospectives. I handled various tasks, including code development, test writing, ticket completion, code merging, and assisting with production releases. I also documented pain points and blockers for future reference.
+* Following the SDLC, we embrace Agile methods with daily stand-ups, sprint planning, sprint reviews, and sprint retrospectives. My tasks include coding, testing, ticket completion, merging, and supporting releases. I also document pain points and blockers for future reference.
 * We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
 
 ### Beyondsoft Consulting Inc, Backend Engineer, 2021.12 - 2022.11
