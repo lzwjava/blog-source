@@ -77,17 +77,17 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Now
 
-* This is self-taught higher education. I passed 4 courses as of now, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I). 
+* This is self-taught higher education. Passed 4 courses as of now, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I). 
 
 ### Beijing Forestry University, Digital Media Arts, Bachelor(Dropout), 2013.09 - 2014.06
 
-* I passed 13 courses, like Computer Introduction, Fundamentals of Programming, Programming Fundamentals Lab, College English, Advanced Mathematics, Principles and Techniques of Digital Imaging, Two-Dimensional Graphics Technology.
-* I built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums. It has been downloaded and used by thousands of users on campus. And I built an Android App for learning English by watching movie clips, and won the third prize in a hackathon.
-* In my school's ACM/ICPC monthly training competition, I ranked in the top 1 among around 100 top students in the university, including higher grade one.
+* Passed 13 courses, like Computer Introduction, Fundamentals of Programming, Programming Fundamentals Lab, College English, Advanced Mathematics, Principles and Techniques of Digital Imaging, Two-Dimensional Graphics Technology.
+* Built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums. It has been downloaded and used by thousands of users on campus. And I built an Android App for learning English by watching movie clips, and won the third prize in a hackathon.
+* Ranked in the top 1 in my school's ACM/ICPC monthly training competition among around 100 top students in the university, including higher grade one. 
 
 ### Guangzhou Yuyan Middle School, Science, Middle School Diploma, 2007.07 - 2013.06
-* I ranked in the top 300 out of 100k students in the Guangzhou High School Entrance exam. 
-* I ranked in the top 300 in the 2011 Guangdong NOIP(National Olympiad in Informatics in Provinces).
+* Ranked in the top 300 out of 100k students in the Guangzhou High School Entrance exam. 
+* Ranked in the top 300 in the 2011 Guangdong NOIP(National Olympiad in Informatics in Provinces).
 
 ## Projects
 
