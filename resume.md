@@ -29,9 +29,9 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer, 2023.07 - Present
 
-* I analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. And got one course completion certificate from Coursera about Machine Learning Specialization.
-* I prepared for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc.
-* I listened to a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
+* Analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. And got one course completion certificate from Coursera about Machine Learning Specialization.
+* Prepared for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc.
+* Listened to a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
 
 ### Shenzhen Farben Information Technology Co., Backend Engineer, 2022.11 - 2023.07
 * Farben is a leading software technology service provider in China. HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe is an HSBC mobile payment service catering to Hong Kong residents.
@@ -50,9 +50,9 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer, 2020.01 - 2021.11
 
-* I completed various software projects, including the development of a website for LED Sign (lvchensign.com) and contributions to the Enterprise WeChat integration of the online technical interview platform, ShowMeBug. Leveraged technologies such as Ruby, Ruby on Rails, Python, React, ElasticSearch, Docker, and Netty.
-* I authored and published technical blogs to share knowledge online, improved English proficiency through engaging with Netflix and literature, and enhanced problem-solving skills by tackling around 500 algorithm problems and participating in Codeforces competitions.
-* I gained a little of hands-on experience with big data and cloud-native technologies by exploring introductory tutorials and running examples for Spark, Hadoop, Kubernetes, and Docker.
+* Completed various software projects, including the development of a website for LED Sign (lvchensign.com) and contributions to the Enterprise WeChat integration of the online technical interview platform, ShowMeBug. Leveraged technologies such as Ruby, Ruby on Rails, Python, React, ElasticSearch, Docker, and Netty.
+* Authored and published technical blogs to share knowledge online, improved English proficiency through engaging with Netflix and literature, and enhanced problem-solving skills by tackling around 500 algorithm problems and participating in Codeforces competitions.
+* Gained a little of hands-on experience with big data and cloud-native technologies by exploring introductory tutorials and running examples for Spark, Hadoop, Kubernetes, and Docker.
 
 ### Beijing Square Root Inc, Founder & Full Stack Engineer, 2016.07 - 2019.12
 
