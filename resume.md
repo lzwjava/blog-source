@@ -87,7 +87,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Guangzhou Yuyan Middle School, Science, Middle School Diploma, 2007.07 - 2013.06
 * I ranked in the top 300 out of 100k students in the Guangzhou High School Entrance exam. 
-* I ranked in the top 300 in 2011 Guangdong NOIP(National Olympiad in Informatics in Provinces).
+* I ranked in the top 300 in the 2011 Guangdong NOIP(National Olympiad in Informatics in Provinces).
 
 ## Projects
 
