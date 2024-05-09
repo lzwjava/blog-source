@@ -70,7 +70,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Pinyue Chuangzhi (Beijing) Technology Consulting Co., Software Engineer, 2014.07 - 2015.11
 
 * Pinyue Chuangzhi has a leading cloud computing provider in China, LeanCloud. It offers a complete set of cloud services including object storage, file storage, web hosting, container, instant messaging, push notification, SMS, and game backend. The company serves hundreds of thousands of developer users.
-* I participated in the development of LeanCloud Objective-C SDK and Java SDK. And I was responsible for the development of LeanChat iOS client and Android client, a chat application set up to demonstrate the  instant messaging SDK. Additionally, I was responsible for some frontend projects.
+* I participated in the development of LeanCloud Objective-C SDK and Java SDK. I was responsible for the development of LeanChat iOS client and Android client, a chat application set up to demonstrate the  instant messaging SDK. Additionally, I was responsible for some frontend projects.
 * We employed a robust tech stack, leveraging modern tools such as iOS SDK, Android SDK, Cocoapods, Xcode, Android Studio, and the Angular framework.
 
 ## Educational Background
