@@ -44,7 +44,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Beyondsoft Consulting is a leading business IT and consulting company. DBS Bank is the largest bank in Southeast Asia by assets and among the largest banks in Asia.
 * Contracting with Beyondsoft, I was assigned to work for DBS Bank and contributed to DBS Client Connect and DBS DigiBank CN. 
 * In the DBS Client Connect project, I contributed to the development of the equity trading micro-service. This involved utilizing the Feign client for integrating Avoloq APIs and implementing an edit distance algorithm to enhance stock code searches.
-* In the DBS DigiBrank CN project, I participated in backend development for various micro-services, including mutual funds management. I also developed a tool for automating test generation using the Karate framework.
+* In the DBS DigiBank CN project, I participated in backend development for various micro-services, including mutual funds management. I also developed a tool for automating test generation using the Karate framework.
 * Following agile methodologies, I handled diverse tasks such as API development, test writing, ticket completion, code merging, and supporting production releases. Additionally, I documented API descriptions and created onboarding guides for new team members.
 * We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
 
