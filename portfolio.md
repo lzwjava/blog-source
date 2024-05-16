@@ -211,17 +211,16 @@ We leveraged cloud technologies and modern frameworks with tools such as Java, S
 
 ![](/assets/images/profit/profit2.png)
 
-## A Mobile Trivia App, Full Stack, 2017.9 - 2018.1
+## Chongding, Full Stack, 2017.9 - 2018.1
 
-A mobile trivia app which is similiar to HQ Trivia. The app allowed users to participate in daily, live, trivia games in which they could win or split prize money. It was once popular in China.
+Chongding, a mobile trivia app which is similiar to HQ Trivia. The app allowed users to participate in daily, live, trivia games in which they could win or split prize money. It was once popular in China.
 
 Responsible for half backend development and admin panel frontend development of early stages of the first version. Participated with technical solution for using the SEI (Supplemental Enhancement Information) to synchronize the timestamp of live streaming of the host and the popup or hidden behavior of trivia game.
 
 We leveraged cloud technologies and modern frameworks with tools such as Java, Spring, Redis, Kafka and ZooKeeper, WebSocket and Socket.IO.
 
 <div align="center">
-<img src="/assets/images/portfolio/trivia.jpg" width="95%" /><img/>
-<p>For confidential purpose, here refer to HQ. Image Source: HQ</p>
+<img src="/assets/images/portfolio/trivia.jpg" width="60%" /><img/>
 </div>
 
 
