@@ -5,6 +5,10 @@ title:  "Portfolio"
 
 The PDF file can be found [here](/assets/resume/Zhiwei.Li.Portfolio.pdf).
 
+This collection of software represents the diverse projects I have had the privilege to work on throughout the years, in collaboration with various esteemed companies and partners. 
+
+I am grateful for the opportunities and experiences these collaborations have provided, and I look forward to continuing to contribute my skills and expertise to future endeavors.
+
 
 ## Uva & Codeforces, Java & C++, 2008-2013 & 2021
 
