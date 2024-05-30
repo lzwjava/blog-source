@@ -93,6 +93,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Corporate Projects
 
+* An AI-powered story bot. Participated in the full stack development. Used tech stacks like Python, Flask, React, AWS, and MiniMax. 2024.5.
 * PayMe from HSBC. Participated in the backend development of auto top-up feature and cloud migration. Used tech stacks like Java, Spring Cloud, Azure and AWS. From 2022.11 to 2023.07.
 * DBS Digibank CN. Participated in the backend development of mutual funds. Used tech stacks like Java, Spring Cloud, and Pivotal Cloud Foundry. From 2022.7 to 2022.11.
 * DBS Client Connect. Participated in the backend development of equity trading. Used tech stacks like Java, Spring Cloud and Pivotal Cloud Foundry. From 2021.12 to 2022.6.
