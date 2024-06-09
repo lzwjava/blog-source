@@ -21,4 +21,3 @@ Sincerely, Respectfully.
 Applicant: Li Zhimi
 
 September 24, 2015.
----

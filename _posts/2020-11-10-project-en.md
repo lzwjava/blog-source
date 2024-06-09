@@ -57,4 +57,3 @@ Who will do the project, who will handle the position, who will earn the money. 
 English Translation:
 
 Who will do the project, who will handle the position, who will earn the money. There are many scholars here, interacting with various friends, they have given me a lot of inspiration. It's not easy, how to long-term get along with scholars, how to long-term cooperate with customers. With the passage of time, we can see the consequences of what we did initially. So, let's work hard.
----

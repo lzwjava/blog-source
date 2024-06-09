@@ -27,4 +27,3 @@ title: "2018，已是昨天"
 14. Therefore, keep a patient, low-profile, focused, and passionate attitude, let's go for it, 2019!
 
 15. Wishing every friend a happy new year! 2019, peace, health, and happiness!
----

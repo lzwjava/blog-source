@@ -61,4 +61,3 @@ Additional Resources:
 3. Doubts About Intelligence. (yinwang.org/blog-cn/2020/03/23/wisdom-of-intelligence)
 4. The Wisdom of Learning. (yinwang.org/blog-cn/2019/07/12/learning-philosophy)
 5. WeChat Internet Civilian Entrepreneurship.
----

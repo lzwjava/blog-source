@@ -99,4 +99,3 @@ Using `seeker` requires a computer to run it as a router. Using `proxy` configur
 Do you see the screenshot button? After that, you can easily share it on WeChat. You can also turn off all applications here. If some applications freeze, you can handle it this way.
 
 Alright. Let's use a large-screen TV to watch the world.
----

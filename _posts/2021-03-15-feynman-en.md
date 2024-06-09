@@ -1250,4 +1250,3 @@ As for converting `epub` to `mobi`, you can use Amazon's official tool, `Kindle 
 
 
 How to collect and organize all the pages into an e-book? I'll talk about it later. But this Feynman physics lecture is enough for now. Alright, let's start reading with Kindle.
----

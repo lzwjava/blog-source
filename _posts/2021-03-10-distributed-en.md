@@ -1632,4 +1632,3 @@ Result of db.inventory.find():
 
 Practice:
 Establishing a framework gives confidence, and continuing to tinker with software builds upon that foundation. Students explore similarly as shown above.
----

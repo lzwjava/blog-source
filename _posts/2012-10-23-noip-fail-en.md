@@ -35,4 +35,3 @@ Fellow brothers who couldn't make it to college through OI, let's work hard toge
 
 }
 ```
----

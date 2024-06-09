@@ -52,4 +52,3 @@ I have thought of two plans:
 I know everyone earns money hard, and as we experience more in society, we realize how difficult it is for parents. I'm very grateful to every person who supports me. When I hate those who caused me losses, those who took advantage of me, those who didn't work hard and didn't pay me back, and those who completely cheated me, I appreciate those who have been kind to me even more. I'm sorry that, despite my past promises to make a lot of money for the shareholders, unfortunately, I don't have that ability at the moment.
 
 Sincerely, Li Zhiwei
----
