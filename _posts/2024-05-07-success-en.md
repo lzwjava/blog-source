@@ -1,52 +1,52 @@
 ---
 layout: post
-title: "Wang Wen: The So-Called Success"
+title: "Yin Wang: The So-Called Success"
 ---
 
-多次有人因为看不惯网络上一些人对我的嘲讽，给我类似这样的建议：“先干掉那些创始人已经老了的传统互联网企业，作为一个成功者之后，再到网上随便发个文章，他们都会阿谀奉承。而且在很多时候，想让那些人听自己的话，根本就是不可能的。只有做出成果，大杀四方的时候，他们才会臣服。”
+Many times, people have suggested to me something like this because they couldn't stand the mockery I faced online: "First, take down those traditional internet companies whose founders have already grown old. Once you become successful, just casually publish an article online, and they will all flatter you. And most of the time, it's impossible to make those people listen to you. Only when you achieve results and dominate will they submit."
 
-其实这些人完全不明白我的价值和理念，没有仔细品味我的话的涵义，没有从中吸收到能量，所以他们才会在乎那些骂我的人的话，鼓励我进入“成功者”的游戏。
+In fact, these people completely misunderstand my values and principles, they don't carefully ponder the meaning of my words, nor do they absorb any energy from them. That's why they care about the words of those who insult me, encouraging me to enter the game of "success".
 
-现在中国大众认可的所谓“成功”其实是一个圈套。如果你在乎它，为它奋斗，你就被这些人控制了，你就成为了他们的奴隶。所有在乎别人的眼光，按照大众的“成功”标准去奋斗的人，都是奴隶而已。我根本不在乎这些人的观念。
+The so-called "success" recognized by the Chinese public is actually a trap. If you care about it and strive for it, you are being controlled by these people, you become their slave. Those who care about others' opinions and strive for success according to the standards of the masses are just slaves. I don't care about these people's opinions at all.
 
-为什么很多中国人这么在乎“成功”，喜欢跟人攀比呢？因为他们习惯了被人打分。从小被家长，被老师打分，参加各种竞赛，考试，张榜排名…… 他们从来没有从自己的角度，站在更高的地方看过世界，没有审视过这些给他们打分的人，他们到底有什么资格来评判自己？
+Why do many Chinese people care so much about "success" and like to compare themselves with others? Because they are accustomed to being graded. Since childhood, they have been graded by parents, teachers, participating in various competitions, exams, rankings... They have never looked at the world from their own perspective, from a higher standpoint, and have never examined those who grade them, what qualifications do they have to judge themselves?
 
-从学校出来工作或者创业，就开始被领导，被同事打分，被社会舆论，被女人，被丈母娘打分。中国社会所谓的“成功”，就是这样的一种评分。被打分的人，地位总是低于给他打分的人，所以一心想让别人认为自己是“成功人士”的人，特别在意别人眼光的人，其实地位是卑贱的。
+After leaving school to work or start a business, they start to be graded by leaders, colleagues, public opinion, women, and mothers-in-law. The so-called "success" in Chinese society is such a kind of grading. The graded person always has a lower status than the one who grades them, so those who are eager to make others think they are "successful" and especially care about others' opinions actually have a low status.
 
-我从很早的时候就藐视所有试图给我打分的人。我从来没有觉得竞赛的主办者有任何资格来评价我，所以从大学开始我就没参加过任何竞赛：ACM，IOI…… 现在一看到这种东西，看看他们的主办者，出题人和裁判们是什么水平，都觉得可笑。当然我就更加不会在乎任何人说我是否“成功”。
+I have despised all those who try to grade me since a long time ago. I have never felt that the organizers of competitions have any qualifications to evaluate me, so I haven't participated in any competitions since university: ACM, IOI... Now when I see these things, I look at the organizers, question setters, and judges, and find it ridiculous. Of course, I won't care about whether anyone thinks I am "successful".
 
-我是否成功，是我自己说了算。
+Whether I am successful or not is for me to determine.
 
-如果照他说的，很多人因为我有钱，我“成功”，而对我“阿谀奉承”或者“臣服”，我会满意吗？我关心的是一个人的实质素养，他是否从内心认同和尊重我，而不是他表面上演给我看的。所以等有了钱有了地位，随便说句垃圾言论，引得一大群人奉承我，各种媒体吹捧我，其实不能满足我的人生目标。我非常的厌恶奉承我的人，总是让我恶心和不屑。
+If, as he said, many people flatter me or submit to me because I have money, I am "successful", would I be satisfied? What I care about is a person's intrinsic qualities, whether they genuinely identify and respect me from the heart, not what they show on the surface. So when I have money and status, casually saying garbage remarks and attracting a large group of people to flatter me, various media praising me, cannot satisfy my life goals. I am very disgusted with those who flatter me, they always make me feel sick and disdainful.
 
-所以我根本不在乎利用“成功”来让人臣服。我有我自己对于“成功”的标准，我做我自己开心的事情，我吸引我自己喜欢和认可的人。我不在乎大众的品位，因为那往往意味着低级。
+So I don't care about using "success" to make people submit. I have my own standards for "success", I do things that make me happy, I attract people I like and approve of. I don't care about the taste of the masses, because it often means being low-level.
 
-如果我真的奔着所谓“成功”去，然后再让别人来“阿谀奉承”或者“臣服”，那么我就不再是我了，我的价值就消失了。我跟公众认可的“成功人士”有什么差别呢？我走上了那些人的老路。所以这种说法就像是在说：”你去赚很多钱，成功，成为亿万富翁，那么许多的女人都会来巴结你。”
+If I really pursue the so-called "success", and then make others "flatter" or "submit", then I am no longer myself, my value disappears. What difference is there between me and the "successful people" recognized by the public? I am following the old path of those people. So this kind of statement is like saying: "You go make a lot of money, succeed, become a billionaire, then many women will flatter you."
 
-我需要的是心悦诚服，真正尊重我，我也尊重他们的人，而不是一群势利的贱人。
+What I need is genuine admiration, genuine respect, I also respect them, not a group of opportunistic scum.
 
-大众认可的那些“成功人士”，他们真的成功了吗？很多知名的互联网公司，你以为他们真的在赚钱吗？只不过制造了一堆垃圾信息而已。我劝这些人去研究一下这些公司的账本，研究一下这游戏是怎么玩的，研究一下他们给社会带来了什么实在的价值，研究一下什么叫做“泡沫”。泡沫对社会经济是一颗毒瘤，一旦破裂就会全身蔓延恶化，祸害所有人。
+Are those "successful people" recognized by the masses really successful? Do you think many well-known internet companies are really making money? They just create a bunch of garbage information. I advise these people to study the accounts of these companies, study how this game is played, study what real value they bring to society, study what "bubble" means. Bubbles are a cancer on the socio-economic system. Once they burst, they will spread and worsen throughout the body, harming everyone.
 
-如果我能出卖自己的良心，我早就“成功”了，然而我的“成功”标准却是跟大部分人不一样的。我根本不在乎大众眼里的“成功人士”，因为他们嘴里吐不出一句有点水准的话来。很多“成功人士”实际上是一颗颗的毒瘤。我不想成为又一颗毒瘤。
+If I could sell my conscience, I would have been "successful" long ago, but my standard of "success" is different from most people's. I don't care about the "successful people" in the eyes of the public, because they can't even speak a decent word. Many "successful people" are actually tumors. I don't want to become another tumor.
 
-从十几年前离开清华的时候我就有了“名气”，当时还有人按照“注意力价值”给我的博客估了个值，非常不菲的数字。然而我从来没有用名气来获得许多人向往的东西：金钱和地位。我只利用我的名气来传播我内心相信的理念。我不能被收买，我不能被利用。
+Since I left Tsinghua more than ten years ago, I have had "fame". At that time, someone even estimated the value of my blog according to "attention value", a very substantial number. However, I have never used fame to obtain what many people desire: money and status. I only use my fame to spread the beliefs I believe in. I cannot be bought, I cannot be used.
 
-曾经在职的每一个公司，我都是靠实力吃饭。我写的每一行代码，说的每一句话，都以某种方式转化为实在的财富。当然，因为各种政治斗争，许多的精力还是浪费掉了，其中一些转化为了现实的“看人能力”。
+In every company I have worked for, I have relied on my abilities to make a living. Every line of code I wrote, every word I said, somehow translated into real wealth. Of course, due to various political struggles, much of my energy was wasted, some of it turned into the reality of "judging people".
 
-当我银行里的钱用尽，靠着信用卡度日的日子里，我也从来没有考虑过出卖自己的良心。多次有人举着重金对我说：“来吧，把你的名字挂在我们网站上，一起飞黄腾达！” 看着他们的嘴脸，我直接就拒绝了。当我知道他们做着出卖良心的勾当，我直接删掉了他们。
+When my bank account was empty, and I lived day by day on credit cards, I never considered selling my conscience. Many times, someone would offer me a lot of money and say, "Come on, put your name on our website and soar to success together!" Looking at their faces, I directly refused. When I knew they were doing things that betrayed their conscience, I deleted them directly.
 
-很可惜，我看到许许多多的“成功人士”，名企高管，资深工程师，甚至常春藤名校的教授经不起金钱的诱惑，帮着低俗而居心叵测的人站台。他们有一些曾经在我心里还是有点地位的，当看到他们做出这样的事情，他们的形象瞬间毁灭了。在没见识的人眼里他们是“成功人士”，但在我这里他们是垃圾。
+It's a pity that I see many "successful people", senior executives of well-known companies, senior engineers, and even professors from Ivy League schools unable to resist the temptation of money, helping vulgar and insidious people to stand on the platform. Some of them once had some status in my heart. When I saw them do such things, their image was instantly destroyed. In the eyes of ignorant people, they are "successful people", but in my eyes, they are trash.
 
-我早就说过，我的话本身就是价值，它们自己产生了说服力。我不需要“成功”和钱来说服其他人。总是有人对我说：“你做点什么出来他们就闭嘴了。” 然而很可惜，算你再“成功”也不会有任何人会闭嘴。网络上嘲笑我，骂我的人很多，可是你仔细看看他们是谁，他们是什么样的素质，他们嘴里吐出什么样水准的话，就觉得这一切都不重要，不在乎了。
+I have said long ago, my words themselves have value, they have their own persuasiveness. I don't need "success" and money to convince others. There are always people telling me, "Do something and they'll shut up." However, unfortunately, even if you are "successful", no one will shut up. There are many people mocking and insulting me online, but if you look closely at who they are, what kind of quality they have, what level of words they spit out, you will find that none of it matters, and you don't care.
 
-人永远不会闭嘴，就算你再成功也一样。成功人士上街散个步，也难免遇到朝你骂脏话的小混混。你要说服他们吗？你只需要忽略他们。
+People will never shut up, even if you are successful. Successful people walking on the street will inevitably encounter little hooligans swearing at them. Do you want to convince them? You just need to ignore them.
 
-有位哲人说的好：“智慧永远都不能战胜愚昧，你只有等愚昧的人慢慢死去。” 就是这个道理。愚昧的人永远不会看到你的“成功”之处，所以就算你按照其他人的标准“成功”了，他们依然会说你没有成功，依然会各种风言风语。
+A wise man said: "Wisdom can never overcome ignorance, you can only wait for ignorant people to die slowly." That's the reason. Ignorant people will never see your "success", so even if you succeed according to other people's standards, they will still say you haven't succeeded, and there will still be all kinds of rumors.
 
-我写的东西都是给有心看它们的人看的，我鼓舞着这些正直善良的人。我根本不想说服反对我的人，我的“客户”只针对高素质的人群。那些骂我的人，直接作为街上遇到的低劣小混混，忽略了就行。
+The things I write are for those who are willing to see them, I inspire those who are upright and kind. I don't want to convince those who oppose me, my "clients" are only high-quality people. Those who insult me can be directly regarded as low-grade scum encountered on the street, and they can be ignored.
 
-所以最好的做法不是试图按照大众的标准去“成功”，否则你就被这些愚蠢的人的说法控制了。很多人没有发现到底有多少人在支持我，他们只看到那些低素质的否定者。
+So the best approach is not to try to succeed according to the standards of the masses, otherwise you will be controlled by the foolish words of these people. Many people have not realized how many people support me, they only see those low-quality deniers.
 
-所以我建议关注我的人直接看我的博客和微博，少去论坛类网站，因为那些地方往往是低素质人群扎堆的地方。很多人以为论坛网站是一种“社交”，可是你想想，要是一个人成天泡在那种网站上，那他在现实中该有多无聊啊，身边都没有一个真心的朋友可以出来喝茶聊天吧？
+So I suggest that those who pay attention to me directly read my blog and Weibo less on forum websites, because those places are often where low-quality people gather. Many people think that forum websites are a kind of "socializing", but think about it, if a person spends all day on such websites, how bored must he be in reality, without a genuine friend to come out for tea and chat?
 
-许多年轻一代的工程师，研究员，甚至教授都是看着我的文章长大的，我不需要利用“成功”和金钱去唤醒他们的心。我的话本身就是价值，直接就能进入人的心里。这些人成长起来，会比那些忽略我，嘲笑我的人强大许多倍，为人也会更加正直。到时候你们就会知道，真正的价值掌握在谁的手里。
+Many young engineers, researchers, and even professors of the younger generation have grown up reading my articles. I don't need to awaken their hearts with "success" and money. My words themselves have value and can directly enter people's hearts. These people will grow up stronger than those who ignore me and mock me, and they will be more upright. By then, you will know who truly holds the value.
