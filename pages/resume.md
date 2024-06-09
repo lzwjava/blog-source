@@ -23,8 +23,6 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Native in Chinese, proficient in English (IELTS 6).
 * Developed 10 open-source GitHub projects as a main developer, each with over 500 commits available at https://github.com/lzwjava.
 * Detailed software portfolio available at https://lzwjava.github.io/portfolio.
-
-
 ## Work Experience
 
 ### Freelancer, 2023.07 - Present
@@ -171,8 +169,6 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * IELTS Academics, Score 6 
 * Machine Learning Specialization Course Completion Certificate, provided by DeepLearning.AI and Standford University
 * Developing on AWS, provided by AWS Training
-
-
 ## Expectation
 
 * Expected Positions: Full Stack Engineer / Backend Engineer

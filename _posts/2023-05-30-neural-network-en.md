@@ -90,8 +90,6 @@ Code:
             activation = sigmoid(z)
             activations.append(activation)
 ```
-
-
 ## Output error
 
 > Output error $$\delta^{L}$$: Compute the vector $$\delta^{L} = \nabla_a C \odot \sigma'(z^L)$$

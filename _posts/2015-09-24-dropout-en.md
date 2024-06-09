@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "退学申请书"
+title: "Dropout Application"
 ---
 
 *This blog post was translated by Mistral*
 
 ---
- Dear respected school leaders:
 
-Greetings. I am Li Zhimi from Computer Science Class 13-4. I took a year off and, after careful consideration, have decided to apply for withdrawal.
+Dear respected school leaders:
+
+Greetings. I am Zhiwei from Computer Science Class 13-4. I took a year off and, after careful consideration, have decided to apply for withdrawal.
 
 During that year, I worked at LeanCloud. The company joined Microsoft Accelerator and received A round funding. Our user base grew significantly. I was involved in various aspects of the product. I significantly improved the company's product and developed the Android and iOS versions of LeanChat social application independently and uploaded them to the App Store. I also developed the iOS low-level framework, enabling our users (developers) to quickly and effectively create their applications using our developed framework. I made significant contributions in technical support, development documents, etc. The company benefits were not bad, with stock options for all employees, and as one of the engineers, I also held some stock options. I have communicated with the boss recently, who hopes I can stay and continue our journey together, believing that I can make greater contributions to the company. However, after repeated communications with my parents, I have obtained their consent to apply for withdrawal. Considering full-time work at a startup company, learning and accumulating professional technical knowledge, and participating in the creation process, may be more beneficial for my personal development.
 
@@ -18,6 +19,6 @@ I hereby apply for withdrawal from the school and hope for approval from the sch
 
 Sincerely, Respectfully.
 
-Applicant: Li Zhimi
+Applicant: Zhiwei
 
 September 24, 2015.

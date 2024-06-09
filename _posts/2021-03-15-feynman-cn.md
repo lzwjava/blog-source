@@ -21,8 +21,6 @@ title:  "实战：将费曼物理讲义网页做成电子书"
 
 写了一天代码，终于得到了漂亮的费曼物理讲义电子书！费曼物理讲义公开在网上，是用`latex`渲染的。人们常用`latex`来写论文，它对数学公式的渲染很棒。而公开在网上，用到了`mathjax`这个库。它把`latex`源码变成了`html`代码，生成了很多的`div`和`span`标签。电子书却不支持这种方式。这时，想法是抓取网页，逆向`mathjax`渲染，接着替换成`svg`图片。出现了挺多问题，一个是源码有很多的`latex`自定义宏，需要加上；第二个是内嵌很多`svg`会有问题。如果是单个`svg`倒没问题，很多的时候会出现问题。大概是浏览器和`svg`的诡异Bug。这时只要把`svg`保存为文件，用`img`标签引入进来即可。公式也分为两种，一种是文本中间的公式，一种是单行的公式。所以，最后就得到了漂亮的电子书！
 
-
-
 ### 查询的资料
 
 这里记录了解决项目过程中访问的资料。因为这是一个教程，所以向学生展示一下大概做一个项目是怎么样的体验。
@@ -42,8 +40,6 @@ title:  "实战：将费曼物理讲义网页做成电子书"
 ![](/assets/images/feynman/s7.PNG)
 
 ![](/assets/images/feynman/s8.PNG)
-
-
 
 ### 开始项目
 
@@ -175,8 +171,6 @@ subprocess.CalledProcessError: Command '['latex', '-interaction', 'nonstopmode',
 \tfrac{1}{2}mv^2
 ```
 
-
-
 ## latex
 
 来学习一下`latex`。
@@ -301,8 +295,6 @@ Transcript written on code.log.
 <img src="/assets/images/feynman/node.png" alt="node" style="zoom:50%;" />
 
 注意到`nodeconnect`来表示连线。
-
-
 
 ### latex 转换成 svg
 
@@ -502,8 +494,6 @@ l.13     \FLPF
 \newcommand{\ddt}[2]{\frac{d#1}{d#2}}
 \newcommand{\epsO}{\epsilon_0}
 \newcommand{\FigC}{\Figvec{C}}
-
-
 \begin{document}
 \begin{preview}
 \begin{equation}
@@ -516,8 +506,6 @@ l.13     \FLPF
 这样就对了。
 
 ![fv1](/assets/images/feynman/fv1.png)
-
-
 
 ### 分析代码
 
@@ -891,8 +879,6 @@ pandoc -s -r html out.html -o feynman.epub
 <img src="/assets/images/feynman/svg_p1.png" alt="svg_p1" style="zoom:40%;" />
 
 后来发现用`img`引入就行。至于为什么这样，没搞明白。当我把这单个的`svg`拿出来的时候，用浏览器看就没有问题。看来是在浏览器渲染非常多个`svg`时，就会出错。
-
-
 
 ### 最后
 

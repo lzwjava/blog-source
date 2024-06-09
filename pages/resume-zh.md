@@ -8,8 +8,6 @@ title:  "Resume"
 请在[这里](/assets/resume/Zhiwei.Li.Resume.ZH.pdf)查看PDF。
 
 ----
-
-
 ## 个人简介
 
 * 29岁中国籍男性，居住在广州。
@@ -104,8 +102,6 @@ title:  "Resume"
 * 面包Live，一站式内容变现平台，负责对后端进行重构。使用了技术栈，如PHP、TypeScript、Laravel和Go。时间从2017年9月到2018年1月。
 * 趣直播，一个知识直播平台。负责大部分代码开发。使用了PHP、Javascript、HTML、阿里云和RTMP流媒体等技术栈。时间从2016年6月至2017年9月。
 * LeanCloud移动SDK和LeanChat, 负责部分iOS和Android SDK的开发，以及他们的演示应用程序LeanChat的全部开发。时间从2014年7月至2015年10月。
-
-
 ### 开源、博客、Codeforces, 2013-09 至今
 
 请浏览我的开源项目，涵盖了我创建的企业项目和个人业余项目，GitHub链接：https://github.com/lzwjava。
@@ -131,8 +127,6 @@ title:  "Resume"
 * feynman-lectures-mobi，将latex转换为SVG创建mobi电子书的工具，47次提交，Python
 * flower-recognition，花卉识别Android应用，37次提交，Java
 * Creak，简单的HTML解析器，49次提交，Swift
-
-
 ## 技能
 
 自从2008年开始编程以来，我获得了很多技能。就使用时间而言，高级描述如下。这与工作经验不同。我用它来表示对我的技能的相对熟悉。

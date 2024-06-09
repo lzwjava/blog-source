@@ -1,16 +1,15 @@
 ---
 layout: post
-title: "趣直播创业心得分享"
+title: "Entrepreneurship Insights Share"
 ---
 
 *This blog post was translated by Mistral*
 
 ---
- Title: Sharing Entrepreneurial Insights from Quiz Live
 
 ![Quiz Live Startup Image](/assets/images/startup/s0.jpg)
 
-Recently, Quiz Live held a technical personnel growth communication meeting, where Quiz Live CEO Li Zhimi shared his entrepreneurial insights with us. Here is the video link:
+Recently, Quiz Live held a technical personnel growth communication meeting, where Quiz Live CEO Zhiwei shared his entrepreneurial insights with us. Here is the video link:
 
 [Tencent Video Link](https://v.qq.com/x/page/w0535il6ab5.html) We created this platform in what way?
 What did Qu直播 intend to do?

@@ -34,11 +34,7 @@ Boss Zhipin
 曾外派到汇丰银行和星展银行工作两年。        
 普通话、英语、粤语流利；雅思6分。
 有1年业余的机器学习经验，熟悉神经网络代码。
-
-
 ----
-
-
 AI works I have done:
 
 1. The half of replication code about the example from the book Neural Networks and Deep Learning, please check out https://github.com/lzwjava/neural-networks-and-zhiwei-learning. 
@@ -63,8 +59,6 @@ AI works I have done:
 普通话、英语、粤语流利；雅思6分，日语初级水平。
 有1年业余的机器学习经验，熟悉手写数字识别的神经网络代码。
 有1年大数据开发经验，掌握Python和Spark等工具。
-
-
 我完成的人工智能相关工作
 
 1. 实现了书籍《神经网络与深度学习》中一个示例的一半复现代码，请查看https://github.com/lzwjava/neural-networks-and-zhiwei-learning。

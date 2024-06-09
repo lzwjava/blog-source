@@ -6,8 +6,6 @@ I have gained a lot of skills since I started programming in 2008. Let's look at
 * 3 to 4 years of experience: Cantonese, iOS Development, Android Development
 * 1 to 2 years of experience: Product Management, Machine Learning, Frontend Development
 * less than 1 year of experience: Big Data, Japanese
-
-
 ## Tools
 
 Besides skills, let's look at the tools I have used. They are detailed tools that help me to accumulate the above skills, plus other interesting tools. I am still using some of them and can learn for a few days to use the rest of them again.

@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "清算公司的提议"
+title: "Clearing Company'S Proposal"
 ---
 
 *This blog post was translated by Mistral*
 
 ---
- Dear Shareholders,
+
+Dear Shareholders,
 
 Since the company was established in July 2016, we have operated for over three years. I would like to report to you on the situation.
 
@@ -46,8 +47,8 @@ At the same time, it means no middlemen making a profit, and in most cases, it m
 
 I have thought of two plans:
 
-1. With 55 million in funding, during liquidation, 50% is paid back immediately, and the remaining 50% is agreed to be repaid within 5 years. The company's assets are currently 39 million, 27.5 million for Laughing Come and Lei Fei shareholders, and the remaining 11.5 million for Li Zhimi. Li Zhimi should repay the two shareholders 27.5 million within 5 years.
-2. With 55 million in funding, during liquidation, 50% is paid back immediately, and the remaining 50% is not required to be repaid. The remaining 11.5 million is considered Li Zhimi's earnings from his years of hard work in starting the business.
+1. With 55 million in funding, during liquidation, 50% is paid back immediately, and the remaining 50% is agreed to be repaid within 5 years. The company's assets are currently 39 million, 27.5 million for Laughing Come and Lei Fei shareholders, and the remaining 11.5 million for Zhiwei. Zhiwei should repay the two shareholders 27.5 million within 5 years.
+2. With 55 million in funding, during liquidation, 50% is paid back immediately, and the remaining 50% is not required to be repaid. The remaining 11.5 million is considered Zhiwei's earnings from his years of hard work in starting the business.
 
 I know everyone earns money hard, and as we experience more in society, we realize how difficult it is for parents. I'm very grateful to every person who supports me. When I hate those who caused me losses, those who took advantage of me, those who didn't work hard and didn't pay me back, and those who completely cheated me, I appreciate those who have been kind to me even more. I'm sorry that, despite my past promises to make a lot of money for the shareholders, unfortunately, I don't have that ability at the moment.
 

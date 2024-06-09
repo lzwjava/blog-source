@@ -11,8 +11,6 @@ usemathjax: true
 3. 输出误差 $\delta^{L}$： 计算矢量 $\delta^{L} = \nabla_a C \odot \sigma'(z^L)$
 4. 反向传播误差： 对于每个$l=L-1,L-2,...,2$，计算$\delta^{l} = ((w^{l+1})^T \delta^{l+1}) \odot \sigma'(z^{l})$
 5. 输出： 成本函数的梯度由 $\frac{\partial C}{\partial w^l_{jk}} = a^{l-1}_k \delta^l_j$ 和 $\frac{\partial C}{\partial b^l_j} = \delta^l_j $ 给出。
-
-
 这是从迈克尔-尼尔森的《神经网络与深度学习》一书中抄来的。这是不是让人不知所措？在你第一次看到它时可能是这样。但在围绕它研究了一个月后，就不会了。让我解释一下。
 
 ## 输入

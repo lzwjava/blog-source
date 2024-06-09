@@ -1,6 +1,10 @@
 ---
 layout: post
-title: "如何在电视上看 Youtube"
+title: "How To Watch Youtube On Tv
+
+Note: In Title Case, The First Letter Of Each Word Is Capitalized Except For Articles, Conjunctions, And Prepositions Of Three Or Fewer Letters. So The Title Case For The Given Text Would Be:
+
+How To Watch Youtube On Tv"
 ---
 
 *This blog post was translated by Mistral*

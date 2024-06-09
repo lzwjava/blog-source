@@ -31,8 +31,6 @@ title: "How to Build a Computer"
 * We can jump between the website and reference links to learn
 * By working out a final plan, we can know more and figure out the critical questions
 * Buy the best and latest products whose price you can afford.
-
-
 ## Websites
 
 * France, https://www.cdiscount.com
@@ -262,8 +260,6 @@ https://file.thermaltake.com/file/qig/Connect_PCIe_Cables_to_High_Power_Consumpt
 https://www.whatpsu.com/psu/cpu/Intel-Core-i9-13900K/gpu/NVIDIA-GeForce-RTX-4070-Ti
 
 https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive, What is this 8 pin connector on my hard drive?
-
-
 ## Final Selection
 
 From JD.com.
@@ -307,8 +303,6 @@ How to Set Up CORSAIR CX-F RGB Series Power Supplies
 PC Build Tutorial (Full Version) - MSI
 
 [https://youtu.be/qCPIEYfN_hc](https://youtu.be/qCPIEYfN_hc)
-
-
 THERMALRIGHT FROZEN PRISM CPU Cooler Installation Guide for intel LGA1700, AMD AM4 AM5
 
 [https://youtu.be/o233hhC-dU8](https://youtu.be/o233hhC-dU8)
@@ -324,8 +318,6 @@ Where to connect PC case cables, power cables and more - computer wiring tips
 Graphics card installation is really easy! Just four simple steps, specially prepared for Xiaobai
 
 [https://www.bilibili.com/video/BV1tx411J7F1/?spm_id_from=888.80997.embed_other.whitelist&t=12&vd_source=89dab4a438fbb42994ef16c0af4d4e91](https://www.bilibili.com/video/BV1tx411J7F1/?spm_id_from=888.80997.embed_other.whitelist&t=12&vd_source=89dab4a438fbb42994ef16c0af4d4e91)
-
-
 ## BIOS Info
 
 CPU Info:

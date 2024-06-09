@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "实战：将费曼物理讲义网页做成电子书"
+title: "Title Case Translation: Realizing: Creating An E-Book From Fermi Physics Teachings Website
+
+Note: The Title Case Format Capitalizes The First Letter Of Each Word, Except For Articles, Conjunctions, And Prepositions Of Three Or Fewer Letters. In This Translation, "Realizing," "Creating," "An," "E-Book," "From," "Fermi," "Physics," "Teachings," "Website" Are Capitalized."
 ---
 
 *This blog post was translated by Mistral*
@@ -504,8 +506,6 @@ V. commenting out 'break' statement.
 VI. commenting out 'mathjax.replaceWith(out["svg"])' statement.
 
 VII. print statement for 'dir(mathjax)' commented out.
-
-
 Here is the English translation of the code without comments:
 
 node = BeautifulSoup(out['svg'], features="lxml")
@@ -809,8 +809,6 @@ V. CONCLUSION
 Feynman diagrams provide a powerful tool for analyzing and visualizing the processes of particle interactions in quantum field theories. By following the rules for drawing diagrams and calculating amplitudes, we can gain a deeper understanding of the fundamental principles of QED.
 
 ![fv2](/assets/images/feynman/fv2.png)
-
-
 [End of translation]
 
 I. INTRODUCTION
@@ -1247,6 +1245,4 @@ There's an unusual `bug`. When there are many `svg`s, this situation occurs. I d
 ### Finally
 
 As for converting `epub` to `mobi`, you can use Amazon's official tool, `Kindle Previewer 3`. Note that this only applies to a single chapter. This project code is located at [lzwjava/feynman-lectures-mobi](https://github.com/lzwjava/feynman-lectures-mobi).
-
-
 How to collect and organize all the pages into an e-book? I'll talk about it later. But this Feynman physics lecture is enough for now. Alright, let's start reading with Kindle.

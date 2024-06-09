@@ -23,8 +23,6 @@ title:  "如何在电视上看 Youtube"
 
 ![tan](/assets/images/youtube-tv/tan.jpeg)
 
-
-
 ## gfreezy/seeker
 
 这是一个 GitHub 项目。项目主页有使用说明。这里主要补充一些额外的要点。
@@ -83,8 +81,6 @@ servers:
 可能是这个原因。
 
 用`seeker`，意味着需要有台电脑运行着它，把它当做路由器来用。而用`proxy`配置的方式，则灵活很多。我可以用iPhone或Android手机来分享代理端口。
-
-
 
 ## 电视截图
 
