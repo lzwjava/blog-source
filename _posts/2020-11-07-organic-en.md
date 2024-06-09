@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""Creating Wealth Through Natural Growth Methods For Startups"
+title: "Creating Wealth Through Natural Growth Methods For Startups"
 ---
 
 *This blog post was translated by Mistral*

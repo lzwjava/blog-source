@@ -1,14 +1,11 @@
 ---
 layout: post
-title: "Title Case Translation: Realizing: Creating An E-Book From Fermi Physics Teachings Website
-
-Note: The Title Case Format Capitalizes The First Letter Of Each Word, Except For Articles, Conjunctions, And Prepositions Of Three Or Fewer Letters. In This Translation, "Realizing," "Creating," "An," "E-Book," "From," "Fermi," "Physics," "Teachings," "Website" Are Capitalized."
+title: "Practical: Converting Feynman Physics Textbook Website into an E-book"
 ---
 
 *This blog post was translated by Mistral*
 
 ---
- title: "Practical: Converting Feynman Physics Textbook Website into an E-book"
 
 ### Project Overview
 

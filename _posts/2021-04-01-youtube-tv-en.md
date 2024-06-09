@@ -1,18 +1,12 @@
 ---
 layout: post
-title: "How To Watch Youtube On Tv
-
-Note: In Title Case, The First Letter Of Each Word Is Capitalized Except For Articles, Conjunctions, And Prepositions Of Three Or Fewer Letters. So The Title Case For The Given Text Would Be:
-
-How To Watch Youtube On Tv"
+title: "How To Watch Youtube On Tv in China"
 ---
 
 *This blog post was translated by Mistral*
 
 ---
- title: "How to Watch Youtube on TV"
----
-
+ 
 Assuming we know how to browse the internet scientifically, how can we watch Youtube on TV? Using a router is a bit troublesome. Here we borrow an application.
 
 ## SmartYoutubeTV
