@@ -3,7 +3,7 @@ layout: post
 title: "项目找谁做，钱给谁挣"
 ---
 
-*This blog post was written with the assistance of mistral*
+*This blog post was translated by Mistral*
 
 ---
  who should do the project, who should take the positions, and who should earn the money, these questions are similar. After working on several dozen projects and cooperating with several dozen part-time designers and engineers, and then experiencing more than two years of living with my friends, I roughly understand how to handle this problem best. I don't have many projects here, nothing special, but reflection and self-improvement are quite important, striving to do things better. I'll give an example. There are many examples I can give, but I'll just vaguely mention one here for writing down some thoughts and sharing with friends. A friend asked me to make a product for them, but it seemed quite large and I planned to introduce it to their team instead. I wanted to try working with Team A. Team A is an old friend introduced to me by another friend, whom I recently met. We chatted for a long time.

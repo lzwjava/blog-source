@@ -3,7 +3,7 @@ layout: post
 title: "创业随想"
 ---
 
-*This blog post was written with the assistance of mistral*
+*This blog post was translated by Mistral*
 
 ---
  seldom have the advantage of avoiding social media has its perks, especially when you want to share your thoughts with everyone. Since you rarely speak up, once you do, there are plenty of things to say.

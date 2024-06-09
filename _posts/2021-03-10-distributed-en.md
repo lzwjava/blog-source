@@ -3,7 +3,7 @@ layout: post
 title: "云计算和大数据入门"
 ---
 
-*This blog post was written with the assistance of mistral*
+*This blog post was translated by Mistral*
 
 ---
  This lesson covers the following topics:

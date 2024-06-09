@@ -3,7 +3,7 @@ layout: post
 title: "如何在电视上看 Youtube"
 ---
 
-*This blog post was written with the assistance of mistral*
+*This blog post was translated by Mistral*
 
 ---
  title: "How to Watch Youtube on TV"

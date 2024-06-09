@@ -3,7 +3,7 @@ layout: post
 title: "退学申请书"
 ---
 
-*This blog post was written with the assistance of mistral*
+*This blog post was translated by Mistral*
 
 ---
  Dear respected school leaders:

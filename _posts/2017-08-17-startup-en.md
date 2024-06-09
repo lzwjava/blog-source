@@ -3,7 +3,7 @@ layout: post
 title: "趣直播创业心得分享"
 ---
 
-*This blog post was written with the assistance of mistral*
+*This blog post was translated by Mistral*
 
 ---
  Title: Sharing Entrepreneurial Insights from Quiz Live
