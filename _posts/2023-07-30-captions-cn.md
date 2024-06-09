@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ChatGPT helps me make captions"
+title: "ChatGPT 帮助我制作字幕"
 ---
 
 *本文由ChatGPT-4o翻译原文所得。*
