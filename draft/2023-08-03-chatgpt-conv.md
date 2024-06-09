@@ -207,8 +207,6 @@ model = LlamaForCausalLM.from_pretrained(
 
 prompt = 'Q: What is the largest animal?\nA:'
 input_ids = tokenizer(prompt, return_tensors="pt").input_ids
-
-
 generation_output = model.generate(
     input_ids=input_ids, max_new_tokens=32
 )

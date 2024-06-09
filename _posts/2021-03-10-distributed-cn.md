@@ -13,11 +13,7 @@ title:  "云计算和大数据入门"
 * MongoDB
 
 说起云计算，似乎离不开很多的工具，Hadoop、Hive、Hbase、ZooKeeper、Docker、Kubernetes、Spark、Kafka、MongoDB、Flink、Druid、Presto、Kylin、Elastic Search。都有听过吗。这些工具有些我是从`大数据工程师`、`分布式后端工程师`的职位描述上找到的。这些都是高薪职位。我们试着把他们都安装上，试着把玩两下。
-
-
 ## 初探 Spark
-
-
 
 官网说，`Spark`用来处理大规模数据的分析引擎。`spark`就是一套库。它似乎不像`Redis`那样分成服务端和客户端。`spark`就是只在客户端使用的。从官网下载了最新的版本，`spark-3.1.1-bin-hadoop3.2.tar`。
 
@@ -45,11 +41,7 @@ $ tree . -L 1
 
 似乎就是各语言编写的一些分析库。
 
-
-
 同时官网说可以在Python上直接装依赖库。`pip install pyspark`
-
-
 
 ```shell
 $ pip install pyspark
@@ -70,8 +62,6 @@ Successfully installed py4j-0.10.9 pyspark-3.1.1
 
 装上了。
 
-
-
 这会看官网，有些例子
 
 ```shell
@@ -87,19 +77,11 @@ $ ./bin/run-example SparkPi 10
 21/03/11 00:06:16 WARN Utils: Service 'sparkDriver' could not bind on a random free port. You may check whether configuring an appropriate binding address.
 ```
 
-
-
 > Spark is a fast and general processing engine compatible with Hadoop data. It can run in Hadoop clusters through YARN or Spark's standalone mode, and it can process data in HDFS, HBase, Cassandra, Hive, and any Hadoop InputFormat. It is designed to perform both batch processing (similar to MapReduce) and new workloads like streaming, interactive queries, and machine learning.
-
-
 
 出现了好几次`hadoop`。谷歌了`spark depends hadoop `之后，找到这样一段话。看来这依赖于`Hadoop`格式的数据。让我们先研究 `Hadoop`。
 
-
-
 ## Hadoop
-
-
 
 简单看了官网后。来安装一下。
 
@@ -109,15 +91,9 @@ brew install hadoop
 
 安装的过程中，来了解一下。
 
-
-
 > The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures.
 
-
-
 就是说 Hadoop 是一套框架，来处理分布式的数据集。这些数据集可能分部在很多计算机上。用很简单的编程模型来处理。它是设计来从单一服务器扩展到千台机器的。与其依赖于硬件的高可用，这个库则设计来在应用层就能检查和处理错误。因此能将高可用的服务部署到集群中，虽然集群中的每台电脑都可能导致失败。
-
-
 
 ```shell
 $ brew install hadoop
@@ -209,8 +185,6 @@ For compilers to find openjdk you may need to set:
 
 `Hadoop`就安装成功了。
 
-
-
 > ## Modules
 >
 > The project includes these modules:
@@ -220,8 +194,6 @@ For compilers to find openjdk you may need to set:
 > - **Hadoop YARN**: A framework for job scheduling and cluster resource management.
 > - **Hadoop MapReduce**: A YARN-based system for parallel processing of large data sets.
 > - **Hadoop Ozone**: An object store for Hadoop.
-
-
 
 说有这些模块。这会敲入`hadoop`出现了：
 
@@ -243,8 +215,6 @@ loglevel level                   set the log4j level for this command
 workers                          turn on worker mode
 
   SUBCOMMAND is one of:
-
-
     Admin Commands:
 
 daemonlog     get/set the log level for each daemon
@@ -283,16 +253,12 @@ SUBCOMMAND may print help when invoked w/o parameters or with -h.
 
 官网给了些例子。
 
-
-
 ```shell
   $ mkdir input
   $ cp etc/hadoop/*.xml input
   $ bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.2.jar grep input output 'dfs[a-z.]+'
   $ cat output/*
 ```
-
-
 
 注意到有`share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.2.jar`。这意味着也许有些样例文件我们没有得到。猜测用`Homebrew`安装会没有这些文件。我们从官网下载了安装文件包。
 
@@ -323,8 +289,6 @@ $ ls -alrt /usr/local/bin/hadoop
 lrwxr-xr-x  1 lzw  admin  33 Mar 11 00:48 /usr/local/bin/hadoop -> ../Cellar/hadoop/3.3.0/bin/hadoop
 $ cd /usr/local/Cellar/hadoop/3.3.0
 ```
-
-
 
 这是在`/usr/local/Cellar/hadoop/3.3.0/libexec/share/hadoop`下打印的目录树
 
@@ -435,8 +399,6 @@ $ bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.0.jar grep
 
 照着官网的例子敲。注意到`bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.2.jar grep input `，这里是的`jar`包前有版本号。因此要换成我们的`3.3.0`。
 
-
-
 日志的最后：
 
 ```shell
@@ -487,11 +449,7 @@ $ cat output/*
 1	dfsadmin
 ```
 
-
-
 这到底是什么意思呢。不要紧，总之我们把`Hadoop`跑起来了。并且运行了第一个单机版的计算例子。
-
-
 
 ## Spark
 
@@ -510,8 +468,6 @@ counts.saveAsTextFile("hdfs://...")
 ```shell
 hdfs dfs -mkdir /test
 ```
-
-
 
 来看看`hdfs`命令。
 
@@ -532,8 +488,6 @@ Usage: hdfs [OPTIONS] SUBCOMMAND [SUBCOMMAND OPTIONS]
 --workers                          turn on worker mode
 
   SUBCOMMAND is one of:
-
-
     Admin Commands:
 
 cacheadmin           configure the HDFS cache
@@ -581,11 +535,7 @@ zkfc                 run the ZK Failover Controller daemon
 SUBCOMMAND may print help when invoked w/o parameters or with -h.
 ```
 
-
-
 继续修改代码。
-
-
 
 ```python
 from pyspark.sql import SparkSession
@@ -602,11 +552,7 @@ counts = text_file.flatMap(lambda line: line.split(" ")) \
 counts.saveAsTextFile("b.txt")
 ```
 
-
-
 注意到`.config('spark.driver.bindAddress', '127.0.0.1')`很重要。否则会报错误`Service 'sparkDriver' could not bind on a random free port. You may check whether configuring an appropriate binding address`。
-
-
 
 然而，这时又出现了错误。
 
@@ -619,8 +565,6 @@ Exception: Python in worker has different version 3.8 than that in driver 3.9, P
 
 表示运行了不同版本的`Python`。
 
-
-
 修改`.bash_profile`：
 
 ```shell
@@ -629,8 +573,6 @@ PYSPARK_DRIVER_PYTHON=/usr/local/Cellar/python@3.9/3.9.1_6/bin/python3
 ```
 
 然而还是报同样的错。了解一番后，可能是因为`spark`运行的时候，没有载入这个环境变量，没有使用终端默认的环境变量。
-
-
 
 需要在代码里设置：
 
@@ -643,8 +585,6 @@ os.environ['PYSPARK_DRIVER_PYTHON'] = '/usr/local/Cellar/python@3.9/3.9.1_6/bin/
 ```
 
 这会运行。
-
-
 
 ```shell
 $ python sc.py
@@ -700,27 +640,17 @@ $ cat output/*
 
 这些文件就叫`HDFS`。可见这里用`Spark`来统计单词。短短几句，很方便的样子。
 
-
-
 ## Kubernetes
-
-
 
 接下来捣鼓一下`Kubernetes`，也叫`k8s`，中间的8个字母简写为8。它是一套开源系统，来自动化部署、扩增和管理容器程序的。
 
-
-
 `kubectl`命令行工具是用来运行一些命令操作k8s集群。可以用它来部署应用、查看和管理集群资源，来查看日志。
-
-
 
 同样可以用Homebrew来安装。
 
 ```shell
 brew install kubectl 
 ```
-
-
 
 输出日志：
 
@@ -738,14 +668,10 @@ Bash completion has been installed to:
 
 装好了。
 
-
-
 ```shell
 $ kubectl version --client
 Client Version: version.Info{Major:"1", Minor:"20", GitVersion:"v1.20.1", GitCommit:"c4d752765b3bbac2237bf87cf0b1c2e307844666", GitTreeState:"clean", BuildDate:"2020-12-19T08:38:20Z", GoVersion:"go1.15.5", Compiler:"gc", Platform:"darwin/amd64"}
 ```
-
-
 
 ```shell
 $ kubectl
@@ -817,8 +743,6 @@ Use "kubectl <command> --help" for more information about a given command.
 Use "kubectl options" for a list of global command-line options (applies to all commands).
 ```
 
-
-
 来创建一个配置文件。
 
 ```yaml
@@ -844,14 +768,10 @@ spec:
 
 ```
 
-
-
 ```shell
 $ kubectl apply -f simple_deployment.yaml
 The connection to the server localhost:8080 was refused - did you specify the right host or port?
 ```
-
-
 
 ```shell
 $ kubectl cluster-info
@@ -859,8 +779,6 @@ $ kubectl cluster-info
 To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 The connection to the server localhost:8080 was refused - did you specify the right host or port?
 ```
-
-
 
 当用官网的终端试着运行下。
 
@@ -883,8 +801,6 @@ commit: cbda04cf6bbe65e987ae52bb393c10099ab62014
 Kubernetes Started
 ```
 
-
-
 继续回到我们的终端。
 
 ```shell
@@ -896,8 +812,6 @@ The connection to the server localhost:8080 was refused - did you specify the ri
 ```
 
 有意思的是加上`--client` 选项并没有报错。
-
-
 
 文档说，需要先安装`Minikube`。
 
@@ -913,8 +827,6 @@ Bash completion has been installed to:
 ==> Summary
 🍺  /usr/local/Cellar/minikube/1.16.0: 8 files, 64.6MB
 ```
-
-
 
 ```shell
 $ minikube start
@@ -941,8 +853,6 @@ $ minikube start
 🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
 ```
 
-
-
 接着来访问这个集群。
 
 ```shell
@@ -957,8 +867,6 @@ kube-system   kube-scheduler-minikube            0/1     Running   0          74
 kube-system   storage-provisioner                1/1     Running   1          74s
 ```
 
-
-
 来打开`minikube`的控制板。
 
 ```shell
@@ -970,15 +878,9 @@ $ minikube dashboard
 🎉  Opening http://127.0.0.1:50030/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/ in your default browser...
 ```
 
-
-
 ![k8s](/assets/images/distributed/k8s.png)
 
-
-
 如何关掉呢。
-
-
 
 ```shell
 $ minikube
@@ -1028,15 +930,9 @@ Other Commands:
 Use "minikube <command> --help" for more information about a given command.
 ```
 
-
-
 可见是`minikube stop`。
 
-
-
 回到`kuberntes`，现在工作正常了。
-
-
 
 ```shell
 $ kubectl cluster-info
@@ -1046,11 +942,7 @@ KubeDNS is running at https://192.168.99.100:8443/api/v1/namespaces/kube-system/
 To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 ```
 
-
-
 当我们打开`https://192.168.99.100:8443`时，浏览器显示：
-
-
 
 ```json
 {
@@ -1069,11 +961,7 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 }
 ```
 
-
-
 访问`https://192.168.99.100:8443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy`：
-
-
 
 ```json
 {
@@ -1093,8 +981,6 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 }
 ```
 
-
-
 来试试刚刚那个配置。
 
 ```shell
@@ -1102,19 +988,13 @@ $ kubectl apply -f simple_deployment.yaml
 deployment.apps/nginx-deployment created
 ```
 
-
-
 有点问题。然而到这里，我们已经把`kubernetes`跑起来了。先结束掉。后续再玩。
-
-
 
 ```shell
 $ minikube stop
 ✋  Stopping node "minikube"  ...
 🛑  1 nodes stopped.
 ```
-
-
 
 检查是否结束。
 
@@ -1124,13 +1004,7 @@ w$ minikube dashboard
 👉  To start a cluster, run: "minikube start"
 ```
 
-
-
-
-
 ## Docker
-
-
 
 `Docker`也是一种容器平台，来帮助加速创建、分享、运行现代应用。从官网下载应用。
 
@@ -1227,8 +1101,6 @@ Run 'docker COMMAND --help' for more information on a command.
 To get more help with docker, check out our guides at https://docs.docker.com/go/guides/
 ```
 
-
-
 照着教程试试。
 
 ```shell
@@ -1267,23 +1139,15 @@ $ docker stop 45bb95fa1ae80adc05cc498a1f4f339c45c51f7a8ae1be17f5b704853a5513a5
 
 这时已经打不开网址了。
 
-
-
 这说明`docker`像是虚拟机。
 
-
-
 ## Flink
-
-
 
 打开官网。
 
 ![flink-home-graphic](/assets/images/distributed/flink-home-graphic.png)
 
 `Flink`是说数据流的`Stateful`计算。`Stateful`指的是什么？暂时还不明白。上面这个图还是很有趣的。来试试看。
-
-
 
 说是需要Java环境。
 
@@ -1296,16 +1160,12 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.151-b12, mixed mode)
 
 从官网下载最新版本 `flink-1.12.2-bin-scala_2.11.tar`。
 
-
-
 ```shell
 $ ./bin/start-cluster.sh
 Starting cluster.
 Starting standalonesession daemon on host lzwjava.
 Starting taskexecutor daemon on host lzwjava.
 ```
-
-
 
 ```shell
 $ ./bin/flink run examples/streaming/WordCount.jar
@@ -1317,8 +1177,6 @@ Program execution finished
 Job with JobID 60f37647c20c2a6654359bd34edab807 has finished.
 Job Runtime: 757 ms
 ```
-
-
 
 ```shell
 $ tail log/flink-*-taskexecutor-*.out
@@ -1334,30 +1192,18 @@ $ tail log/flink-*-taskexecutor-*.out
 (d,4)
 ```
 
-
-
 ```shell
 $ ./bin/stop-cluster.sh
 Stopping taskexecutor daemon (pid: 41812) on host lzwjava.
 ```
 
-
-
 嗯，上手成功。可见这跟`Spark`很像。
-
-
 
 ## Kylin
 
-
-
 来打开官网。
 
-
-
 > Apache Kylin™ is an open source, distributed Analytical Data Warehouse for Big Data; it was designed to provide OLAP (Online Analytical Processing) capability in the big data era. By renovating the multi-dimensional cube and precalculation technology on Hadoop and Spark, Kylin is able to achieve near constant query speed regardless of the ever-growing data volume. Reducing query latency from minutes to sub-second, Kylin brings online analytics back to big data.
-
-
 
 > Apache Kylin™ lets you query billions of rows at sub-second latency in 3 steps.
 >
@@ -1367,23 +1213,13 @@ Stopping taskexecutor daemon (pid: 41812) on host lzwjava.
 
 ![kylin_diagram](/assets/images/distributed/kylin_diagram.png)
 
-
-
 大概就是分析大数据的一层。用它可以查得非常快。作为桥梁。
-
-
 
 可惜当前只能在`Linux`环境下使用。回头再来折腾。
 
-
-
 ## MongoDB
 
-
-
 这也是一种数据库。试试安装。
-
-
 
 ```shell
 $ brew tap mongodb/brew
@@ -1397,8 +1233,6 @@ Receiving objects: 100% (566/566), 121.78 KiB | 335.00 KiB/s, done.
 Resolving deltas: 100% (259/259), done.
 Tapped 11 formulae (39 files, 196.2KB).
 ```
-
-
 
 ```shell
 $ brew install mongodb-community@4.4
@@ -1466,8 +1300,6 @@ Or, if you don't want/need a background service you can just run:
   mongod --config /usr/local/etc/mongod.conf
 ```
 
-
-
 之前我安装一个旧版本的。解除一下链接。
 
 ```shell
@@ -1490,15 +1322,11 @@ Build Info: {
 }
 ```
 
-
-
 接着运行`mongod`启动mongo数据库服务器。然而第一次启动时说`/data/db`不存在。我们创建一个目录，`~/mongodb` ，这里来保存数据库文件。
 
 ```shell
 $ mongod --dbpath ~/mongodb
 ```
-
-
 
 输出为：
 
@@ -1540,8 +1368,6 @@ The server generated these startup warnings when booting:
         To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
 ```
 
-
-
 接着可以尝试插入数据、查询数据。
 
 ```shell
@@ -1557,15 +1383,9 @@ The server generated these startup warnings when booting:
 { "_id" : ObjectId("6049ef91b653541cf355facb"), "item" : "canvas", "qty" : 100, "tags" : [ "cotton" ], "size" : { "h" : 28, "w" : 35.5, "uom" : "cm" } }
 ```
 
-
-
 ## 最后
 
-
-
 先到这儿。后面我们再上手别的工具。我们做这些意义是什么。大概是先有个脉络。万事开头难，而我们一上来就把这些全部折腾一遍。这给了我们信心，接下来，就是更多折腾这些软件了。
-
-
 
 ## 练习
 

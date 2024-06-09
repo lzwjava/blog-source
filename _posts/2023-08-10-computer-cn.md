@@ -213,8 +213,6 @@ https://www.thermaltake.com/toughpower-gf1-650w-tt-premium-edition.html
 https://file.thermaltake.com/file/qig/Connect_PCIe_Cables_to_High_Power_Consumption_GPU_en.pdf，正确连接高功耗显卡的PCIe电缆？
 
 https://pcpartpicker.com/forums/topic/359090-what-is-this-8-pin-connector-on-my-hard-drive, 这个硬盘上的8针连接器是什么？
-
-
 ## 最终
 
 来自京东。
@@ -250,8 +248,6 @@ SATA 数据线，Cable Matters 3 包 90 度直角 SATA 数据线，长度 18 英
 ## 组装指南
 
 http://intel.cn/ProcessorInstall
-
-
 设置 CORSAIR CX-F RGB 系列电源供应器
 
 [https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.html](https://www.intel.cn/content/www/cn/zh/support/articles/000088402/processors.html)

@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "创业赚钱的自然增长方法"
+title: ""Creating Wealth Through Natural Growth Methods For Startups"
 ---
 
 *This blog post was translated by Mistral*
 
 ---
-: Starting a business and making money through natural growth method
 
 In the previous article "Why I withdrew my retirement fund to repay my investors," I introduced a method for entrepreneurship - low-cost trial and error, and working together in harmony. First, try to sustain yourself with your own efforts. If you need partners, it's best if no one brings money, divide profits, distribute project funds, and divide returns according to the agreement. If we cannot find partners willing to suffer together, it's best to go solo. Then, two people can partner, then three, and so on. If we secured funding, it's best to hire employees willing to accept stocks and low wages. If we cannot find such employees, it means our abilities are not yet suitable for expansion.
 

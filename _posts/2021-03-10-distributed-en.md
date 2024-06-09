@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "云计算和大数据入门"
+title: "Cloud Computing And Big Data Beginners
+
+Note: In Title Case, The First Letter Of Each Word Is Capitalized, Except For Articles, Conjunctions, And Prepositions With Three Or Fewer Letters. In This Case, "And" Is The Only Exception, As It Is A Coordinating Conjunction Connecting Two Noun Phrases."
 ---
 
 *This blog post was translated by Mistral*
@@ -111,8 +113,6 @@ $ ./bin/run-example SparkPi 10
 21/03/11 00:06:15 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 21/03/11 00:06:16 INFO ResourceUtils: No custom resources configured for spark.driver.
 21/03/11 00:06:16 WARN Utils: Service 'sparkDriver' could not bind on a random free port. You may need to configure an appropriate binding address. Spark is a fast and general engine for processing data compatible with Hadoop. It can run in Hadoop clusters through YARN or Spark's standalone mode, and it can process data in HDFS, HBase, Cassandra, Hive, and any Hadoop InputFormat. It is designed to perform both batch processing, similar to MapReduce, and new workloads like streaming, interactive queries, and machine learning.
-
-
 ## Hadoop Explanation
 
 Spark is a fast and versatile data processing engine that works seamlessly with Hadoop. It can operate in Hadoop clusters using YARN (Yet Another Resource Manager) or Spark's standalone mode. Spark can process data stored in Hadoop Distributed File System (HDFS), HBase, Cassandra, Hive, and any other Hadoop InputFormat.
@@ -282,8 +282,6 @@ $ cp etc/hadoop/*.xml input I. hadoop-3.2.2
   X. pkg
   XI. sbin
   XII. start-script.sh
-
-
 Run the following command to execute the Hadoop MapReduce example:
 
 $ bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.2.jar grep input output 'dfs[a-z.]+'
@@ -797,8 +795,6 @@ counts = text_file.flatMap(lambda line: line.split(" "))
 
 Map operation: Creating tuples of words and their counts
 counts = counts.map(lambda word: (word, 1)) notice that .config('spark.driver.bindAddress', '127.0.0.1') is important. Otherwise, an error will occur: "Service 'sparkDriver' could not bind on a random free port. You may check whether configuring an appropriate binding address"
-
-
 The given Chinese text is not providing any Chinese characters or sentences that need to be translated into English. Instead, it is a comment in Python explaining the importance of setting the Spark driver bind address to '127.0.0.1' to avoid an error when running a Spark application. The English text itself is already in the desired format. However, an error occurred again.
 
 Error message:
@@ -1214,8 +1210,6 @@ Try the new configuration.
 
 However, the Chinese text provided does not contain any Chinese characters in the given JSON format. The given text is just a comment in English in a shell script. Therefore, no Chinese characters need to be translated. The JSON object only contains an error code of 403. Kubectl apply -f simple\_deployment.yaml
 Deployment created.
-
-
 
 Note: The given Chinese text seems to be a comment or note, not a command to be translated. The English part of the text is already provided in the command line format at the beginning. Checking if stopped.
 

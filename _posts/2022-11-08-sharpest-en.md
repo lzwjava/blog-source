@@ -54,5 +54,3 @@ This is my way how to becoming the sharpest person in the world. Because I learn
 I have a daughter who is one and a half years old now. Her father learned for 27 years and used 2 hours to write the most precious lesson down. So it is dedicated to her. I am 27 years old now. It is hard for me to become the sharpest though it is still not late and I have chances. But I am very confident that my daughter will become one of the sharpest people when she grows up. 
 
 One generation beats one generation. Humans are wonderful.
-
-

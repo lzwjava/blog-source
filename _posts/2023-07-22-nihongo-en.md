@@ -465,8 +465,6 @@ So, the phrase "まだ忘れず 大事にしていた" can be translated as "sti
 ### End
 
 After 3 months of listening to Japanese sounds for around 2 hours a day, Zhiwei begins to learn the meaning of some Japanese songs. Now, he finished around half the part. With the help of ChatGPT, it is easy for him to understand. The hiragana seems so easy to learn now. When seeing the hiragana, the voice of it just appears in Zhiwei's mind. Zhiwei's Japanese ability is probably like 5 yo Japanese Kid though he is still weak regarding daily-use ability. It is really exciting to learn a new language for a year to reach a level with that of a native speaker at 10 yo. Zhiwei is going to do that in leisure time. Zhiwei's brain is excited about the new sound and language. Whatever. When Zhiwei prepares well for his entertainment language, then we can start to dig into machine learning more! 
-
-
 ---
 
 Note: Cover photo is from unsplash.

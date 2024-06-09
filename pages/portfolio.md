@@ -8,8 +8,6 @@ The PDF file can be found [here](/assets/resume/Zhiwei.Li.Portfolio.pdf).
 This collection of software represents the diverse projects I have had the privilege to work on throughout the years, in collaboration with various esteemed companies and partners. 
 
 I am grateful for the opportunities and experiences these collaborations have provided, and I look forward to continuing to contribute my skills and expertise to future endeavors.
-
-
 ## Uva & Codeforces, Java & C++, 2008-2013 & 2021
 
 Solved around 1000 algorithm problems on the online judge.
@@ -37,8 +35,6 @@ Responsible for Android development.
 2014 AVOS Cloud Hackaton Third Prize. 
 
 [SegmentFault: Review of the 2014 AVOS Cloud Hackathon Achievements](https://segmentfault.com/a/1190000000427302)
-
-
 ## Bjfu Assistant, Android, 2014.1 - 2014.6
 
 A campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums.
@@ -133,8 +129,6 @@ Open Sourced at GitHub.
 <img src="/assets/images/portfolio/cr1.jpg"/><img/>
 
 <img src="/assets/images/portfolio/cr2.jpg"/><img/>
-
-
 ## Fun Live, Full Stack, 2016.6 - 2017.12
 
 Fun Live, a knowledge live broadcast platform. With Fun Live, users can participate in various knowledge lectures such as programming or design here. Users can pay some fees to attend the live or reward the lecturer. The lecturer uses the OBS tool to push live stream to the server. Users can participate the lecture in real time or see the playback later. It integrates seamlessly with the WeChat platform like the notifications functionality. By hosting around 80 lectures, it gained around 30000 users and millions of page views.
@@ -203,8 +197,6 @@ Responsible for refactoring the backend by moving most logic from several progra
 <img src="/assets/images/portfolio/mianbao1.jpg" width="200px" /><img/>
 
 </div>
-
-
 ## The WeChat Miniprogram for Super Brain program, Full Stack, 2018.3 - 2018.4
 
 Jiangsu TV's Super Brain program's WeChat Mini Program features engaging puzzles for users. Within the program, hosts navigate users through oral broadcasts, presenting specific technical challenges.
@@ -226,8 +218,6 @@ We leveraged cloud technologies and modern frameworks with tools such as Java, S
 <div align="center">
 <img src="/assets/images/portfolio/trivia.jpg" width="80%" /><img/>
 </div>
-
-
 ## Square Root Inc - 50 miscellaneous projects, Project Management & Some Software Development, 2018.1 - 2019.12
 
 The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs. My software consulting company. 
@@ -295,8 +285,6 @@ We leveraged cloud technologies and modern frameworks, employing automation best
 <p><a href="https://www.dbs.com.cn/treasures/digital-service/digibank.html">Image source: DBS Digibank CN</a></p>
 
 </div>
-
-
 ## PayMe By HSBC - Auto Top Up, Backend, 2022.12 - 2023.7 
 
 PayMe from HSBC is a convenient way to send payments to friends, and make mobile payments to merchants both on and offline. 
