@@ -2,6 +2,11 @@
 layout: post
 title: "专心高考，用学oi修成的学习能力虐高考"
 ---
+
+*This blog post was written with the assistance of mistral*
+
+---
+
  I couldn't focus on the college entrance exams, my studying ability was tortured by the college entrance exams
 //lzwjava couldn't make it to the NOIP 2013 finals, he had plans for the future
 #include<determination>
@@ -30,6 +35,4 @@ Fellow brothers who couldn't make it to college through OI, let's work hard toge
 
 }
 ```
-*This blog post was written with the assistance of mistral*
-
 ---

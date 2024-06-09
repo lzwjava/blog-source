@@ -2,6 +2,10 @@
 layout: post
 title: "趣直播创业心得分享"
 ---
+
+*This blog post was written with the assistance of mistral*
+
+---
  Title: Sharing Entrepreneurial Insights from Quiz Live
 
 ![Quiz Live Startup Image](/assets/images/startup/s0.jpg)
@@ -46,6 +50,4 @@ You need to make achievements yourself first. People will invest in you when you
 After securing the investment, the next step is managing the team effectively, which are the issues and challenges I will face next.
 
 This is the story of Quzhaolive, and it's also my entrepreneurial experience. I. Thank you all!
-*This blog post was written with the assistance of mistral*
-
 ---

@@ -2,6 +2,10 @@
 layout: post
 title: "创业赚钱的自然增长方法"
 ---
+
+*This blog post was written with the assistance of mistral*
+
+---
 : Starting a business and making money through natural growth method
 
 In the previous article "Why I withdrew my retirement fund to repay my investors," I introduced a method for entrepreneurship - low-cost trial and error, and working together in harmony. First, try to sustain yourself with your own efforts. If you need partners, it's best if no one brings money, divide profits, distribute project funds, and divide returns according to the agreement. If we cannot find partners willing to suffer together, it's best to go solo. Then, two people can partner, then three, and so on. If we secured funding, it's best to hire employees willing to accept stocks and low wages. If we cannot find such employees, it means our abilities are not yet suitable for expansion.
@@ -57,6 +61,4 @@ My TikTok account isn't good enough, I have a few hundred fans, my account has 1
 It's difficult. Zhiwei's video account reached 150,000 plays but only gained 90 new followers. There was no inducement to pay attention. Besides the reasons above, I also feel that I haven't figured out which type of content to output, what I will do in the future, and I'm curious about whether I can completely rely on natural growth with this content, it's quite Zen. Everyone is already my WeChat friends, it's normal not to follow my video account. Fans are few, but I think I've learned a lot. I write this article to remind my friends. Starting a business and making money is not easy, and it's getting harder. Winning people's trust is such a challenge, turning a stranger into a friend, and then into a friend who pays, is such a challenge.
 
 This is the natural growth method for making money in business. This is a reliable path for personal growth. We have many basic skills to learn, and making money requires a lot of effort. The crowd's eyes are sharp, and the crowd and customers are not easy to deceive. Money is the wisest.
-*This blog post was written with the assistance of mistral*
-
 ---

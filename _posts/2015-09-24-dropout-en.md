@@ -2,6 +2,10 @@
 layout: post
 title: "退学申请书"
 ---
+
+*This blog post was written with the assistance of mistral*
+
+---
  Dear respected school leaders:
 
 Greetings. I am Li Zhimi from Computer Science Class 13-4. I took a year off and, after careful consideration, have decided to apply for withdrawal.
@@ -17,6 +21,4 @@ Sincerely, Respectfully.
 Applicant: Li Zhimi
 
 September 24, 2015.
-*This blog post was written with the assistance of mistral*
-
 ---

@@ -2,6 +2,10 @@
 layout: post
 title: "2018，已是昨天"
 ---
+
+*This blog post was written with the assistance of mistral*
+
+---
  1. In 2018, summarizing the year in one sentence, we completed around 50 software projects for our team and customers, including small programs, websites, and apps. Project sizes ranged from 10,000 to 300,000 RMB and durations from a month to four months, starting from the first line of code each time. Some projects became instant sensations, others had millions of PVs, and some had millions in revenue. Mostly, it was due to our customers' greatness and strong operational abilities. There were also those who worked quietly behind the scenes. We worked hard on every project, and both designers and engineers gave their all. Although the pay wasn't much, we did a lot with our customers. Thank you to all our trusting customers!
 
 2. We are grateful for all the friends who introduced us to customers! We had contact with over 200 potential projects and closed nearly 50 of them. Our friends introduced us, created groups, communicated requirements, negotiated, made phone calls or had further face-to-face interviews, and issued quotations. Normally, our company only had two people handling this. My colleague and I. We did our best to communicate with each customer honestly. However, due to energy limitations, we were unable to actively push forward some projects. We apologize to those whose projects did not cooperate and those who were forgotten. For friends who introduced projects that succeeded, we appreciate it and have sent red envelopes as a token of thanks! For friends who gave us assistance, we will always remember it! Thank you all!
@@ -23,6 +27,4 @@ title: "2018，已是昨天"
 14. Therefore, keep a patient, low-profile, focused, and passionate attitude, let's go for it, 2019!
 
 15. Wishing every friend a happy new year! 2019, peace, health, and happiness!
-*This blog post was written with the assistance of mistral*
-
 ---

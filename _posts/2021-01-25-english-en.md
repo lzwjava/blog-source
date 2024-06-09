@@ -2,6 +2,10 @@
 layout: post
 title: "How to improve English proficiency with large amounts of input"
 ---
+
+*This blog post was written with the assistance of mistral*
+
+---
  I used to search for English solutions to programming issues on Google in 2014, but I struggled due to my slow reading speed and frequent dictionary usage. I felt overwhelmed and switched to Chinese web pages. At that point, I preferred reading in Chinese whenever possible. However, over the past six years, my reading habits have changed, and I now only read English content when it's not available in Chinese. I spend my free time in the English-speaking world, watching American TV shows without subtitles and browsing TikTok videos. Despite my efforts, my English proficiency is still not as strong as my Chinese, which is roughly half as good. I have found the answer to the question of how to reach the level of a native English speaker. Over the past two years, my English proficiency has significantly improved, particularly during the second half of 2019. Reflecting on this progress, I believe I could have been at this level earlier if I had put in the same effort in 2015-2016. With dedication and time, I can now utilize English resources to tackle problems I once gave up on. This advancement enables me to read professional books and broaden my horizons. In today's digital age, I've discovered that we can simulate living in English-speaking countries without leaving home. People in English-speaking countries are similar to us; they spend most of their time on phones and computers, using the internet. Once we learn how to access the internet freely, we can enter their world too.
 
 I am sharing these insights and experiences as if I were speaking to my younger self, as well as high school and college students, and anyone interested in self-studying English. In my previous article on "The Journey of Learning English," I discussed my experiences learning English over the years. Here, I want to add some recent reflections.
@@ -23,6 +27,4 @@ Despite the inconvenience of accessing the internet, we now have abundant resour
 2. When we transform learning into a game, our concentration intensifies, and cognitive processes become enjoyable. Should you encounter difficulties in comprehension, seek out simpler learning materials. English children's books and animated films for children serve as exceptional resources.
 
 3. Regarding the encouragement of high school, college students, and those eager to learn English, I'd like to conclude with a memorable yet slightly exaggerated statement: Mastering English like a native is truly effortless and delightful.
-*This blog post was written with the assistance of mistral*
-
 ---

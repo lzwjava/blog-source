@@ -2,6 +2,10 @@
 layout: post
 title: "创业随想"
 ---
+
+*This blog post was written with the assistance of mistral*
+
+---
  seldom have the advantage of avoiding social media has its perks, especially when you want to share your thoughts with everyone. Since you rarely speak up, once you do, there are plenty of things to say.
 
 ### About Writing
@@ -87,6 +91,4 @@ Sometimes, you find yourself too anxious. The goals are still far away. Be patie
 Reading historical books makes you feel at peace. A human life is just a few decades. It goes by quickly. Among the 7.4 billion people in the world, all will eventually die. In 500 years, 73.9999 billion people will also be forgotten.
 
 So, what is the meaning of human existence? Maybe one day, humanity will be extinct. Almost nothing matters, I suppose. Humans live, each person lives their own life, probably because we don't do anything, it's too boring. Time always has to be passed. So, might as well live a good life then.
-*This blog post was written with the assistance of mistral*
-
 ---

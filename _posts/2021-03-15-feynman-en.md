@@ -2,6 +2,10 @@
 layout: post
 title: "实战：将费曼物理讲义网页做成电子书"
 ---
+
+*This blog post was written with the assistance of mistral*
+
+---
  title: "Practical: Converting Feynman Physics Textbook Website into an E-book"
 
 ### Project Overview
@@ -1246,6 +1250,4 @@ As for converting `epub` to `mobi`, you can use Amazon's official tool, `Kindle 
 
 
 How to collect and organize all the pages into an e-book? I'll talk about it later. But this Feynman physics lecture is enough for now. Alright, let's start reading with Kindle.
-*This blog post was written with the assistance of mistral*
-
 ---

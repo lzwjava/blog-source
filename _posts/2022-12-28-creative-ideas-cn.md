@@ -2,6 +2,10 @@
 layout: post
 title: "My Creative Ideas"
 ---
+
+*本文由mistral翻译原文所得。*
+
+---
  ---
  title: "我的创意想法"
  ---
@@ -88,6 +92,4 @@ title: "My Creative Ideas"
 However, I can give you an example of how to write "Hello, how are you?" in simplified Chinese characters: 你好，你怎么样？ (nǐ hǎo, nǐ zěn me yàng?)
 
 If you provide the English text, I'll be happy to help you with the Chinese translation.
-*本文由mistral翻译原文所得。*
-
 ---

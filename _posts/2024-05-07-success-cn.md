@@ -2,6 +2,10 @@
 layout: post
 title: "王垠：所谓成功"
 ---
+
+*本文由mistral翻译原文所得。*
+
+---
 мвйвв: "王垠：所谓成功"
 
 有人多次因为不喜欢网上某人对我的嘲笑，给我类似以下建议：“先消灭那些老了的传统互联网企业创始人，作为一个成功者之后，再在网上随便发文章，他们都会屈服。而且很多时候，想让那些人听自己的话，实在是不可能。只有做出成就，大杀四方的时候，他们才会服从。”
@@ -38,6 +42,4 @@ Duōdàn rén méiyǒu shíjiàn duōshǎo rén zài zhùbù wǒ, tāmen zhǐ k�
 Zhèshì wǒ juěshì guānzhù wǒ de rén zhǐ zhǐ xiǎng wǒ de bókè hé wēibō, shǎogèi lúnzhèn lèi wèi zhèxiē diqu de lúnzhènchǎng, zhènghèn shì zhòngquán rénquán zhātǎo de diqu. Duōdàn rén yǐwèi lúnzhèn wèbsài shì yīzhǒng “shèxiāo” de, nàshì nǐ xiāng shíshí zhènzhèng zhèngqíng de rén zài shíshí chū shǒu zhèngdàng de tìmèi ma?
 
 (Note: This translation is not perfect as it is difficult to accurately translate idioms and colloquial expressions directly, and the original text contains some ambiguous phrases. The above translation is a rough approximation of the intended meaning.)мью Һьвэй Һуньгэнghé Һэнди ɡōnggēnghè, yánjiūrén, chángqí chuōshǒu, dànhchū guǒshì, 都是看着我的 zhāngwò āwǒ de wénzhāng lǎngdàng de, wǒ de huà běnzì jūnào jīn rù guīrán de rén. Wǒ de huà zìshì jiàzhì, zhīshēng jīn zài rén de xīn lǐ. Zhèxiē rén chēngnán lái, huì bì qǐngwèi wǒ, rìngzhào wǒ de rén qiángdàng huòfèngdàng. Zhèxiē shíhòu nǐmen jīnhù zhīdào, zhènzhēng de jiàzhì shǒuwò zài shéi de shǒushǒu.
-*本文由mistral翻译原文所得。*
-
 ---

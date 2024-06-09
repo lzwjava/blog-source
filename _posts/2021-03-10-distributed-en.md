@@ -2,6 +2,10 @@
 layout: post
 title: "云计算和大数据入门"
 ---
+
+*This blog post was written with the assistance of mistral*
+
+---
  This lesson covers the following topics:
 
 * Spark
@@ -1628,6 +1632,4 @@ Result of db.inventory.find():
 
 Practice:
 Establishing a framework gives confidence, and continuing to tinker with software builds upon that foundation. Students explore similarly as shown above.
-*This blog post was written with the assistance of mistral*
-
 ---
