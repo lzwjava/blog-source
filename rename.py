@@ -12,8 +12,7 @@ threshold_date = datetime(2022, 1, 1)
 for filename in os.listdir('.'):
     if filename.endswith('.md'):
         # Extract the date from the filename
-        date_str = filename.split('-')[0:3]
-        date_str = '-'.join(date_str)
+        date_str = '-'.join(filename.split('-')[0:3])
 
         # Parse the date
         try:
@@ -22,20 +21,22 @@ for filename in os.listdir('.'):
             print(f"Skipping {filename}, date format error.")
             continue
 
-        # Check if the date is before the threshold date
-        if file_date < threshold_date:
-            # Check if the file does not have "-cn" or "-en"
-            if not filename.endswith('-cn.md') and not filename.endswith('-en.md'):
-                # Extract the base name without the extension
-                base_name = filename[:-3]
+        # Check if the file does not have "-cn" or "-en"
+        if not filename.endswith('-cn.md') and not filename.endswith('-en.md'):
+            # Extract the base name without the extension
+            base_name = filename[:-3]
 
-                # Add the "-cn" suffix and rename the file
-                new_filename = f"{base_name}-cn.md"
-                os.rename(filename, new_filename)
-                print(f"Renamed '{filename}' to '{new_filename}'")
+            # Determine the new suffix based on the date
+            if file_date < threshold_date:
+                new_suffix = '-cn'
             else:
-                print(f"Skipped '{filename}', already has language suffix.")
+                new_suffix = '-en'
+
+            # Add the new suffix and rename the file
+            new_filename = f"{base_name}{new_suffix}.md"
+            os.rename(filename, new_filename)
+            print(f"Renamed '{filename}' to '{new_filename}'")
         else:
-            print(f"Skipped '{filename}', date is after threshold.")
+            print(f"Skipped '{filename}', already has language suffix.")
 
 print("Renaming completed.")
