@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "Cloud Computing And Big Data Beginners
-
-Note: In Title Case, The First Letter Of Each Word Is Capitalized, Except For Articles, Conjunctions, And Prepositions With Three Or Fewer Letters. In This Case, "And" Is The Only Exception, As It Is A Coordinating Conjunction Connecting Two Noun Phrases."
+title: "Cloud Computing And Big Data Beginners"
 ---
 
 *This blog post was translated by Mistral*
