@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thoughts About Startup"
+title: "Thoughts During Startup"
 ---
 
 *This blog post was translated by Mistral*
