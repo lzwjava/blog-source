@@ -2,6 +2,10 @@
 layout: post
 title: "ChatGPT helps me make captions"
 ---
+
+*本文由mistral翻译原文所得。*
+
+---
  两小时我与一亿行代码的日本应用交互。
 (Two hours I with one million lines of code's Japanese applications interact.) 私之頃两小时所花费。
 (Zhèi wǒ liǎng xiǎo shí suǒ huàn fèi.)
@@ -120,6 +124,4 @@ And here's the traditional Chinese version:
 ZhiweiGPT 花了兩個小時與日本應用程序十億行代碼交流。
 
 I hope this helps! Let me know if you have any other questions.
-*本文由mistral翻译原文所得。*
-
 ---

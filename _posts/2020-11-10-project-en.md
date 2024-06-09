@@ -2,6 +2,10 @@
 layout: post
 title: "项目找谁做，钱给谁挣"
 ---
+
+*This blog post was written with the assistance of mistral*
+
+---
  who should do the project, who should take the positions, and who should earn the money, these questions are similar. After working on several dozen projects and cooperating with several dozen part-time designers and engineers, and then experiencing more than two years of living with my friends, I roughly understand how to handle this problem best. I don't have many projects here, nothing special, but reflection and self-improvement are quite important, striving to do things better. I'll give an example. There are many examples I can give, but I'll just vaguely mention one here for writing down some thoughts and sharing with friends. A friend asked me to make a product for them, but it seemed quite large and I planned to introduce it to their team instead. I wanted to try working with Team A. Team A is an old friend introduced to me by another friend, whom I recently met. We chatted for a long time.
 
 My friend is smart in this regard. Cooperating with people often requires more stable relationships, and if you haven't met in person, it's necessary to have a good chat. If it's in different locations, send company materials and personal introductions, and have a good phone call. When starting a business, there are many things to do and friends are numerous. Sometimes, when I need to do something, I might forget about a friend. Posting updates on social media about my progress every half month is quite helpful if we need friends to cooperate with us. Now that we're doing things, we often need a PPT and detailed company introductions and cooperation details to cooperate effectively with people.
@@ -53,6 +57,4 @@ Who will do the project, who will handle the position, who will earn the money. 
 English Translation:
 
 Who will do the project, who will handle the position, who will earn the money. There are many scholars here, interacting with various friends, they have given me a lot of inspiration. It's not easy, how to long-term get along with scholars, how to long-term cooperate with customers. With the passage of time, we can see the consequences of what we did initially. So, let's work hard.
-*This blog post was written with the assistance of mistral*
-
 ---

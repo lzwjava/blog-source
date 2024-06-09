@@ -2,6 +2,10 @@
 layout: post
 title: "The Journey of Learning English"
 ---
+
+*This blog post was written with the assistance of mistral*
+
+---
  I have spent numerous years attempting different methods, utilizing multiple apps, and eventually discovered a way to cultivate a love for English and enjoy it without continuous effort. I adopted the practice of utilizing English frequently, reading English news and books, watching American TV shows without subtitles, browsing English websites, and immersing myself extensively in it. Additionally, I had experiences interacting with foreigners and even earned income by communicating with Dutch clients in English for a website project. Here's my story. I found high school English textbooks uninteresting. However, I came across Paul Graham's book "Hackers & Painters" which introduced me to intriguing concepts. I read numerous articles on his website, looking up unfamiliar words in a physical dictionary. In college, I utilized a Chrome plugin for translation and read technical websites. My English conversational and reading skills were limited.
 
 In 2016, I visited the US with limited English proficiency, managing simple conversations and directions. I struggled to understand and felt embarrassed. I focused on work, occasionally reading articles and looking up words. My listening, speaking, and reading skills remained weak.
@@ -25,6 +29,4 @@ I hold that once one has mastered approximately 1,000 basic English words, one s
 During my English language learning journey, I pondered the essence of learning. I realized I struggled with self-discipline and perseverance, but excelled when learning became an entertaining experience that I genuinely enjoyed. If we can approach learning as an enjoyable experience, it becomes effortless and sustainable.
 
 Ultimately, I recognized that being proficient in one language, such as Chinese, is sufficient. It enables us to live a rich life in our home country, with an abundance of knowledge and resources in our native language. Nevertheless, for those eager to learn English, I wholeheartedly endorse immersive and enjoyable methods like TikTok to make language learning an enjoyable and stress-free journey.
-*This blog post was written with the assistance of mistral*
-
 ---

@@ -2,6 +2,10 @@
 layout: post
 title: "Future Kids"
 ---
+
+*This blog post was written with the assistance of mistral*
+
+---
  In 2005, Paul Graham established YC Incubator. In his article "Hiring is Obsolete," he stated:
 
 Nowadays, the three tech giants are Yahoo, Google, and Microsoft, with their founders having an average age of 24. It is clear that graduate students can launch companies. If graduate students can do it, why can't undergraduate students?
@@ -57,6 +61,4 @@ Additional Resources:
 3. Doubts About Intelligence. (yinwang.org/blog-cn/2020/03/23/wisdom-of-intelligence)
 4. The Wisdom of Learning. (yinwang.org/blog-cn/2019/07/12/learning-philosophy)
 5. WeChat Internet Civilian Entrepreneurship.
-*This blog post was written with the assistance of mistral*
-
 ---
