@@ -27,4 +27,3 @@ Despite the inconvenience of accessing the internet, we now have abundant resour
 2. When we transform learning into a game, our concentration intensifies, and cognitive processes become enjoyable. Should you encounter difficulties in comprehension, seek out simpler learning materials. English children's books and animated films for children serve as exceptional resources.
 
 3. Regarding the encouragement of high school, college students, and those eager to learn English, I'd like to conclude with a memorable yet slightly exaggerated statement: Mastering English like a native is truly effortless and delightful.
----

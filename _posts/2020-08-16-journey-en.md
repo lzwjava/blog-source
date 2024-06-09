@@ -29,4 +29,3 @@ I hold that once one has mastered approximately 1,000 basic English words, one s
 During my English language learning journey, I pondered the essence of learning. I realized I struggled with self-discipline and perseverance, but excelled when learning became an entertaining experience that I genuinely enjoyed. If we can approach learning as an enjoyable experience, it becomes effortless and sustainable.
 
 Ultimately, I recognized that being proficient in one language, such as Chinese, is sufficient. It enables us to live a rich life in our home country, with an abundance of knowledge and resources in our native language. Nevertheless, for those eager to learn English, I wholeheartedly endorse immersive and enjoyable methods like TikTok to make language learning an enjoyable and stress-free journey.
----
