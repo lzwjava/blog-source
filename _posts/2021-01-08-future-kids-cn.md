@@ -1,70 +1,69 @@
 ---
 layout: post
-title:  "未来的孩子"
+title:  "Future Kids"
 ---
 
-05年，Paul Graham 创立YC孵化器。在「招聘已经过时」一文中说道：
+In 2005, Paul Graham founded YC Incubator. In his article "Hiring is Obsolete," he mentioned:
 
-现在互联网上的三大巨头是雅虎、谷歌和微软。创始人的平均年龄是24岁。所以，现在已经很清楚了，研究生可以创办成功的公司。如果研究生都能做到，为什么本科生不能呢。
+Nowadays, the three internet giants are Yahoo, Google, and Microsoft, with their founders having an average age of 24. It is evident that graduate students can successfully start companies. If graduate students can do it, why can't undergraduate students?
 
-这十年让人见证很多。如今得问有的大学生都行，为什么有的高中生不行。这样的社会变迁很慢，然而在进行中。互联网开了个口子，有各样的知识，同时集聚相同爱好的人群。高中开始创业，有所成大概在大学毕业时。有一天，大学生一毕业便听说某些22岁的同龄人白手起家公司要上市了，会不会傻眼。
+Over the past decade, we have witnessed many changes. Now we have to ask, why can some college students do it, while some high school students cannot? Such societal changes are slow but ongoing. The internet has opened up possibilities, providing diverse knowledge and bringing together like-minded people. Some high school students start their ventures, and by the time they graduate from college, they may have achieved considerable success. One day, upon graduating from college, they might hear about their peers of the same age, who started their own companies from scratch and are going public at the age of 22. They might be surprised.
 
-各领域也是。Thiel Fellowship获奖者，24或25岁的年轻人，其中有最年轻造出核聚变，有清理海洋垃圾取得成绩的，有OYO连锁酒店品牌的联创，有激光雷达上市公司Luminar的联创，有区块链的V神。
+This trend is also observed in various fields. Thiel Fellowship recipients, young people aged 24 or 25, include those who have achieved nuclear fusion, those who have made progress in ocean garbage clean-up, co-founders of the OYO hotel chain, co-founders of Luminar (a laser radar company) listed on the stock market, and the creator of blockchain, V God.
 
-年龄从来不是问题。做出这些成绩最关键的是对事情本身的热爱。
+Age is never an issue. The key to achieving these accomplishments is a passion for the subject itself.
 
-今天的教育，要鼓励小孩发展兴趣，帮助小孩在互联网上找到最好的资料，最好的老师和结交相同爱好的同龄人，让小孩爱上学习。一个爱学习的孩子的未来是光明的。
+In today's education, we should encourage children to develop their interests, help them find the best resources and teachers on the internet, and enable them to make like-minded friends, fostering a love for learning. A child who loves learning will have a bright future.
 
-我在中学时，在互联网上看到些自我成长的博客，关注一些竞赛金牌得主的事迹，受到鼓舞。今天的一些小学生，在互联网上受到了同样的鼓舞。很多小学生沉迷游戏，也相信有小学生好奇如何做游戏，并在互联网上找到资料学了起来。
+During my middle school years, I saw blogs on self-growth and was inspired by the achievements of some competition gold medalists on the internet. Similarly, some elementary school students today are encouraged on the internet. Many are addicted to games, but some wonder how to create games and learn about it through online resources.
 
-学校的年轻老师整体水平也越来越厉害。老师、学科、同学，都没办法有多少选择。虽然整体比过去越来越好，但如果遇到常打骂的老师、不喜欢的学科和蛮横的同学，那可能会有糟糕的学校经历，进而厌恶起学习来。
+Young teachers in schools are becoming more skilled as a whole. Teachers, subjects, and classmates are not easily chosen. Though the overall situation is improving, students may have a bad school experience due to constantly scolding teachers, disliking certain subjects, or having unruly classmates, leading to a dislike of learning.
 
-学校或许可以有跳级的选择，期末考试时除了本年级的考试，让学生还可以参加高年级的考试，并鼓励学生跳级。考试成绩达到一定条件，便可以跳级。当有这样的选项，尤其看到有些同学做到时，相信会鼓舞更多同学去这么做。相信有很多小孩其实可以三年完成如今的六年小学，三年完成初中和高中。
+Schools could offer a grade-skipping option. During final exams, in addition to the exams for their current grade, students should also be allowed to take exams for higher grades, encouraging them to skip grades if they meet certain conditions. When such an option exists, especially if some students successfully take it, it will motivate more students to do the same. Many children could potentially complete their current six years of elementary school in three years, finish middle school and high school in three years each.
 
-这可能诞生很多校外的辅导机构帮助学生来做到。这会是好事，可能将会看到应试教育是如何的不堪一击。
+This may give rise to many extracurricular tutoring institutions to help students achieve this. This would be a good thing and might reveal the deficiencies of exam-oriented education.
 
-渐渐地，有很多学生六年完成中小学，有很多学生七年，很多学生九年。学生们的表现会越来越夸张。有的相信甚至四年就完成了。那就是十岁。说来很夸张，然而3岁到10岁，有7年的时间，一个热爱阅读学习的孩子，是可以借助互联网学到那么多知识的。关键在于考试要用到的知识，其实不多。同时正如在市场上，很多人用两年就挣到了其他人十年的工资。
+Gradually, some students may complete middle and high school in six years, some in seven years, and others in nine years. The performance of students will become more remarkable. Some may even finish in four years. That's at the age of ten. It may sound exaggerated, but between ages three and ten, there are seven years, during which a child who loves reading and learning can gain a vast amount of knowledge through the internet. The key is that the knowledge required for exams is not extensive. At the same time, just like in the market, many people earn in two years what others make in ten years.
 
-多年后，人们会意识到现今教育系统的落后。小学中学，那可是十二年的光阴。学生们不必卡在这里，按部就班的一年一年上学。
+Years later, people will realize that the current education system is outdated. Elementary and middle school last twelve years. Students don't have to stay on the conventional path, advancing year by year.
 
-这会带来整体的进步。一个雄心壮志的十四五岁的少年少女，在网上看着同龄的王俊凯们，是妒忌的，凭什么他们可以不在课堂上学习。同时与其让少数人享受竞赛保送，个别家长用心地帮他们家孩子协调跳级等等待遇，不如让所有学生有同样的待遇。那一天，我们可以对孩子们说，孩子们，你们是自由的，你勤奋好学，考出成绩就可以跳级。
+This will lead to overall progress. An ambitious 14 or 15-year-old teenager, watching peers of the same age like Wang Junkai, will envy them, asking why they don't have to study in class. At the same time, rather than letting a few people enjoy preferential treatment in competitions, individual parents should help their children coordinate grade-skipping and other treatments, and instead, all students should have equal opportunities. Then, one day, we can say to the children, "You are free. If you work hard and achieve good grades, you can skip grades."
 
-社会中，少数人创造了大量的财富。然而这样通过创造价值赚钱，我们是要鼓励的。一个在10岁完成中小学，开始做他的3D游戏创业，在互联网上学到很多，在20岁把公司做上市，身价一亿。我们是要夸赞的。他不必再羡慕王俊凯们了。
+In society, a minority of people create a lot of wealth. However, this kind of wealth creation through value creation is something we should encourage. A 10-year-old who completes middle and elementary school, starts a 3D game venture, learns a lot on the internet, takes his company public at the age of 20, and becomes a billionaire deserves praise. They no longer need to envy people like Wang Junkai.
 
-国企、政府、学校、研究所等机构看重学历，多数大公司也会卡学历。申请留学时，学位也是关键。所以高中或大学退学去创业或去做自己的项目，可能会让自己日后的选择变少。然而有跳级机制，这些问题就不再是问题了。
+State-owned enterprises, governments, schools, research institutes, and other institutions value academic qualifications, and most large companies also consider degrees. When applying for overseas study, a degree is crucial. Therefore, dropping out of high school or college to start a business or work on their projects might limit their future choices. However, with a grade-skipping mechanism, these issues will no longer be a problem.
 
-孩子们可以尽早知道竞争的激烈。看，我那同学两年就完成了小学，而我还在苦熬。但这对于有雄心的孩子来说，是好事。不必等到高考成绩出来，得知自己在全省几万名，那样绝望。原来人这么多，原来我在小学初中考第一，并没有什么。原来山外有山，人外有人。
+Children can know early on that the competition is fierce. Look, my classmate completed elementary school in two years, while I'm still struggling. But for ambitious children, this is a good thing. They don't have to wait until their high school exam results are out, finding themselves among tens of thousands of students in the province, which can be disheartening. They realize that there are so many people, and ranking first in elementary or middle school doesn't mean much. They realize there are always others who are better.
 
-这样的机制也更符合真实的社会。来到社会，跟我们竞争赚钱的，不是同龄人，而是所有成年人。提前让孩子们知道，他日后要跟高年级的人面试同一岗位，他开的公司要跟长辈开的公司竞争，是好事。竞争使人进步，对于一些孩子来说，他可以借此向比他厉害的人学习。
+This mechanism is also more in line with real society. In society, the competition for making money is not among peers but among all adults. Letting children know early on that they will have to compete with older people for the same job in the future, that their company will have to compete with companies run by older generations, is a good thing. Competition leads to progress, and for some children, it gives them the chance to learn from those who are better than them.
 
-用心的家长，让孩子习得十八般武艺，拼命工作挣钱买大城市学区房让孩子有更好的教育，让清北毕业的老师教他们。在三四线小城市的孩子似乎没那么幸运。然而有了跳级制度后，有了互联网后，三四线城市的爱学习的小孩，三年读完小学，来到当地最好的初中，或许可以帮助他和那些富裕家庭的孩子竞争。
+Dedicated parents provide their children with a wide range of skills, work hard to earn money to buy houses in better school districts for better education, and have teachers graduated from elite universities teach their children. Children in third and fourth-tier cities may not be so lucky. However, with grade-skipping and the internet, diligent children from third and fourth-tier cities who complete elementary school in three years and enter the best local middle schools might be able to compete with children from wealthy families.
 
-或许在中国我们也可以成立类似Theil Fellowship的奖学金，鼓励二十岁以下的人去追随自己疯狂的梦想。在中国，似乎需要雷军、陆奇、马化腾、张一鸣、王兴和朱啸虎等这样有影响力的企业家投资人发起。美国孩子能做到的，中国孩子也行。相信在互联网上能主动申请这个奖学金的孩子，未来都不会差。五年一过，一旦有些做出极其出色的成绩，可见会是多么的励志。中国也应该有20多岁的人就能自己造出核聚变。就如疯狂的马斯克鼓舞了很多企业家一样，中国的少年马斯克也将鼓舞很多的少年。
+In China, we could perhaps establish a scholarship similar to the Thiel Fellowship, encouraging those under twenty to pursue their wild dreams. In China, it seems that figures like Lei Jun, Lu Qi, Ma Huateng, Zhang Yiming, Wang Xing, and Zhu Xiaohu, influential entrepreneurs and investors, need to take the initiative. What American children can do, Chinese children can do too. I believe children who can actively apply for such a scholarship on the internet will have a bright future. Five years later, once some of them achieve outstanding results, it will be inspiring. China might have individuals in their twenties who can create nuclear fusion on their own. Just as the bold Elon Musk inspired many entrepreneurs, China's young Musks will also inspire many young people.
 
-未来已来，它只是不均匀分布。年轻人会吓我们一跳。
+The future has already arrived; it's just unevenly distributed. Young people might surprise us.
 
-科技进步，受益的是每个人。我们大概不必因为年轻人的厉害而感到焦虑。创业失败，通常不是因为竞争对手，而是没有给目标用户创造价值。失业，通常不是因为其他人优秀，而是没有习得当前社会所需的技能。
+Technological progress benefits everyone. We probably don't need to feel anxious because of the capabilities of young people. Entrepreneurial failure is usually not due to competition but rather because the entrepreneur failed to create value for the target users. Unemployment is usually not because others are superior but because one has not acquired the skills demanded by society.
 
-当有16岁少年少女造出核裂变，做独立开发者，做开源项目，造小火箭，成为科普网红博主，做研究写出论文，社会将会发生什么。
+When a 16-year-old creates nuclear fusion, works as an independent developer, undertakes open-source projects, builds small rockets, becomes a popular science blogger, or writes research papers, what will society witness?
 
-当越来越多10岁的小孩，对编程、光学、自动驾驶、机械、电子和材料等感兴趣，在互联网上找到资料，关注起了很多博主，交了一些有同样兴趣的朋友，社会将会发生什么。
+As more and more 10-year-olds show interest in programming, optics, autonomous driving, mechanics, electronics, materials, etc., find resources on the internet, follow numerous bloggers, and make friends with those who share the same interests, what will society witness?
 
-当今的知识看起来是很多，但精髓没有增加多少。而知识，往往要主动学，主动思考，才能到脑子里。有互联网，意味着下一代人可以从最优秀的上一代人学习，可以从过去的科学家学习，可以在社交网络找到相同爱好的人长期陪伴。
+Knowledge seems abundant today, but its essence has not increased much. And often, knowledge needs to be actively learned and thought about before it can enter one's mind. With the internet, the next generation can learn from the best of the previous generation, from past scientists, and find like-minded people on social networks to accompany them in the long term.
 
-就如成年人一次次做到了十年百年前成年人难以做到的事情，相信未来的孩子们也能做到过往孩子们做不到的事情。孩子们，你们要相信自己，你们可以的。
+Just as adults have repeatedly accomplished what adults of ten or a hundred years ago found challenging, I believe that future children will also be able to achieve what children of the past could not. Children, believe in yourselves; you can do it.
 
+Further Reading:
 
-扩展阅读
-
-1. Hiring is Obsolete.  
-https://paulgraham.com/hiring.html 
-2. Paul Graham: 那些像Airbnb创始人一样的人
-3. Researchers and Founders. 
+1. Hiring is Obsolete.
+https://paulgraham.com/hiring.html
+2. Paul Graham: Those Like Airbnb Founders
+3. Researchers and Founders.
 https://blog.samaltman.com/researchers-and-founders
-4. Billionaires Build. 
+4. Billionaires Build.
 http://www.paulgraham.com/ace.html
-5. 对智商的怀疑 
+5. Doubts About Intelligence
 https://www.yinwang.org/blog-cn/2020/03/23/wisdom-of-intelligence
-6. 学习的智慧 
+6. The Wisdom of Learning
 https://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy
-7. 微信互联网平民创业 
+7. WeChat Internet Civilian Entrepreneurship
