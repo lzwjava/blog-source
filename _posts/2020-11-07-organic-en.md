@@ -3,7 +3,7 @@ layout: post
 title: "创业赚钱的自然增长方法"
 ---
 
-*This blog post was written with the assistance of mistral*
+*This blog post was translated by Mistral*
 
 ---
 : Starting a business and making money through natural growth method

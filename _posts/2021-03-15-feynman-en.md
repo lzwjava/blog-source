@@ -3,7 +3,7 @@ layout: post
 title: "实战：将费曼物理讲义网页做成电子书"
 ---
 
-*This blog post was written with the assistance of mistral*
+*This blog post was translated by Mistral*
 
 ---
  title: "Practical: Converting Feynman Physics Textbook Website into an E-book"

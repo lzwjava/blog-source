@@ -3,7 +3,7 @@ layout: post
 title: "Future Kids"
 ---
 
-*This blog post was written with the assistance of mistral*
+*This blog post was translated by Mistral*
 
 ---
  In 2005, Paul Graham established YC Incubator. In his article "Hiring is Obsolete," he stated:

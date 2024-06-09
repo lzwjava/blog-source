@@ -3,7 +3,7 @@ layout: post
 title: "The Journey of Learning English"
 ---
 
-*This blog post was written with the assistance of mistral*
+*This blog post was translated by Mistral*
 
 ---
  I have spent numerous years attempting different methods, utilizing multiple apps, and eventually discovered a way to cultivate a love for English and enjoy it without continuous effort. I adopted the practice of utilizing English frequently, reading English news and books, watching American TV shows without subtitles, browsing English websites, and immersing myself extensively in it. Additionally, I had experiences interacting with foreigners and even earned income by communicating with Dutch clients in English for a website project. Here's my story. I found high school English textbooks uninteresting. However, I came across Paul Graham's book "Hackers & Painters" which introduced me to intriguing concepts. I read numerous articles on his website, looking up unfamiliar words in a physical dictionary. In college, I utilized a Chrome plugin for translation and read technical websites. My English conversational and reading skills were limited.

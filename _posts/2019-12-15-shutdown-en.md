@@ -3,7 +3,7 @@ layout: post
 title: "清算公司的提议"
 ---
 
-*This blog post was written with the assistance of mistral*
+*This blog post was translated by Mistral*
 
 ---
  Dear Shareholders,

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "专心高考，用学oi修成的学习能力虐高考"
+title: "Focus on the college entrance exam"
 ---
 
-*This blog post was written with the assistance of mistral*
+*This blog post was translated by Mistral*
 
 ---
 
