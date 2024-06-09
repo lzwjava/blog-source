@@ -1,46 +1,73 @@
 ---
 layout: post
-title:  "The Journey of Learning English"
+title:  "学习英语的旅程"
 ---
 
-Translated by ChatGPT. Missed some pictures.
+在挣扎了许多年之后，尝试了很多种方法后，用过很多App后，终于找到一种方法让自己热爱英语，让自己不需要坚持就可以享受其中，保持经常使用英语的习惯，看英文资讯，看英文书籍，无字幕看美剧，上英文网站，大段大段地看，大段大段地听，也有了一些和外国人正常交流的经历，还因此通过远程帮荷兰的客户通过英语交流，挣了一笔做网站的钱。让我讲述这其中的旅程。
 
----
+在高中的时候，我觉得课本上的英文文章比较枯燥，因为《黑客与画家》这本书，我知道了它的作者 Paul Graham。他写了很多有趣的文章，有很多原创独特的想法。我去他个人网站找了一些文章，打印下来看。看到不懂的单词，就翻词典。那会翻的还是纸质的词典。每查一个单词，都需要半分钟一分钟，很枯燥，然而文章实在太有趣，所以还能接受。那会尝试买过一些英文书，如奥威尔的《动物庄园》，然而看不下去，生词太多，缺乏耐心。
 
-After struggling for many years and trying various methods, using numerous apps, I finally found a way to make myself love English and enjoy it without the need for constant effort. I developed the habit of using English frequently, reading English news and books, watching American TV shows without subtitles, browsing English websites, reading and listening extensively. I also had some experiences communicating with foreigners and even earned some money by communicating with Dutch clients in English for a website project. Let me share my journey.
+到了大学后，去Paul Graham的个人网站，读了他的许多文章，挑了几十篇读吧。用Chrome里查单词的插件，这样可以划译，快了挺多。也因为做编程的工作，有时需要到国外的技术问答网站 Stack Overflow查查资料，也有时要到GitHub看看项目。这时候熟悉的还是编程相关的少量词汇。交流和读英文畅销书还是不行。
 
-In high school, I found English textbook articles quite dull. However, I discovered the book "Hackers & Painters" by Paul Graham, which introduced me to his interesting and unique ideas. I started reading many of his articles on his personal website. Whenever I encountered unfamiliar words, I would look them up in a physical dictionary, which was a slow process. Despite the tedium, the content was so captivating that I continued. I also attempted to read some English books like Orwell's "Animal Farm," but due to numerous unfamiliar words, I lacked the patience to continue.
+16年去了趟美国。用跛脚的英文还是能和外国人简单交流，问路，和Uber司机搭讪。不过经常听不懂，很尴尬。
 
-In college, I continued reading many articles on Paul Graham's website, using a Chrome plugin to translate words, which sped up the process. As a programmer, I occasionally had to visit technical Q&A websites like Stack Overflow and GitHub, where I became familiar with programming-related vocabulary. However, my ability to converse and read English books remained limited.
+后来一直忙工作，英语没有刻意去学习过，只是偶尔需要读个文章，查个单词。听力和口语能力一直很差，阅读也是比较费劲。
 
-In 2016, I visited the United States. Despite my broken English, I managed to engage in simple conversations, ask for directions, and chat with Uber drivers. Nonetheless, I often struggled to understand and felt embarrassed.
+在19年5月，我因为在做外包公司，想从国外接点项目来做，于是在Upwork上填了些资料，后来真的有个荷兰阿姆斯特丹的客户来问，我们约定做一个网站。我们在Whatsapp上沟通。
 
-After that, I focused on my work, and English was not a priority for me. I only occasionally read articles and looked up words. My listening and speaking skills remained weak, and reading was still challenging.
+也进行了几次语音聊天，很尴尬，我的听力很是很糟糕。只能让客户说得很慢，并且一再重复。虽然我们最后成功完成了项目，帮他们做了个网站挣了几百欧。这段时间，我心里想着下定决心，要把英文学好。
 
-In May 2019, I wanted to take on international projects for my outsourcing company and registered on Upwork. To my surprise, a client from Amsterdam, Netherlands, reached out, and we agreed to work on a website project through WhatsApp communication.
+用Kindle Mac版把《The Accidental President》讲二战时特鲁门总统的故事看了下来，花了一个多月时间。真的是很煎熬，很多专有词汇，地理地点。作者也是词汇量很大的人，用词比较讲究。一个个词查，看得巨慢，然而坚持看下来之后，克服了一个心理障碍。觉得这么一大本书我都能看下来，其他的几篇文章，平时的书面交流，都应该不是事。
 
-We had several voice calls, but my listening skills were still poor. I had to ask the client to speak slowly and repeat himself multiple times. Despite successfully completing the project and earning a few hundred euros, I realized I needed to improve my English.
+我继续看了几本英文书。讲亚马逊的创业故事的书《The Everything Store》，讲皮克斯公司的书《To Pixar and Beyond》，讲苹果设计师的书《Jony Ive》，讲物理学家费曼的书《Surely You're Joking, Mr.Feynman》，人类简史《Sapiens》，费曼的另外一本书《The Meaning of It All》，费曼的物理讲义《The Feynman Lectures on Physics》的前10章，小说《The Great Gatsby》，数学家哈代的书《A Mathematician's Apology》，时间简史《A Brief History of Time》，还有些看了一两章弃坑的书。
 
-I used the Kindle Mac app to read "The Accidental President," a book about President Truman during World War II. It was a painful experience due to the extensive specialized vocabulary and geographic references. However, overcoming this challenge boosted my confidence. I thought that if I could finish such a lengthy book, I could handle other articles and everyday written communication.
+不得不说，看英文书是很锻炼耐心的，需要把自己放空，享受浪费时间，享受很慢很慢的过程，不要在乎进度，觉得不想看了就不要看，除非特别想看，才去看。结果发现，自己不看这本书也没什么好做的，就将就看吧。然后慢慢的就看下去了。这些书，每本差不多要花我一两个星期时间来看。如果是中文书，一两天就看完了。所以一定不能以看完为目标，要调整自己的心态，我只是随便翻翻。如果看的过程总想着看完，那肯定焦虑得不行，没法让自己头脑思考起来，去想每句话什么意思，那么不理解每句话什么意思，就一点看头也没有。
 
-I continued reading several English books, such as "The Everything Store" about Amazon's entrepreneurship story, "To Pixar and Beyond" about Pixar Animation Studios, "Jony Ive" about the Apple designer, "Surely You're Joking, Mr. Feynman" about physicist Richard Feynman, "Sapiens: A Brief History of Humankind," "The Meaning of It All" by Richard Feynman, and the first ten chapters of "The Feynman Lectures on Physics." I also attempted novels like "The Great Gatsby" and "A Mathematician's Apology" by G.H. Hardy, as well as "A Brief History of Time."
+看书是能熟悉词汇和理解能力。然而没法提高听力。我后来就看Netflix的一些美剧和纪录片。我是关掉了字幕看的。我也告诉自己，听不懂没关系，我就看看视频，偶尔听懂一些词汇就行了，这样就不需要坚持，降低自己的目标，就看了几十部纪录片吧。如讲述阿波罗故事的《Mission Control》，我们的星球《Our Planet》，美国工厂《American Factory》，导演斯皮尔伯格《Spielberg》，尖端医疗的真相《The Bleeding Edge》，黎明墙《The Dawn Wall》，巴西政治的纪录片《The Edge of Democracy》，中东战地记者的纪录片《Hondros》。《老友记》也看了几季。在豆瓣上有人制作了清单，可以搜到。
 
-Reading English books was a test of patience, requiring me to immerse myself in the process without worrying about finishing them quickly. I learned not to set rigid goals and allow myself to read at my own pace. This way, I could understand and appreciate the content better.
 
-Books helped me familiarize myself with vocabulary and improved my comprehension. However, they did not significantly enhance my listening skills. So, I turned to watching American TV shows and documentaries on Netflix without subtitles. Although I didn't understand everything, I told myself it was okay and focused on picking up some vocabulary. I watched various documentaries like "Mission Control," "Our Planet," "American Factory," "Spielberg," "The Bleeding Edge," "The Dawn Wall," "The Edge of Democracy," and "Hondros." I also watched several seasons of "Friends."
+看完这些后，我听力是好了一些，但是还是有不少听不懂。看下来，是知道影片大概讲什么，但是很多细节并不明白。
 
-As time went on, my listening skills improved, but I still faced difficulties understanding certain details in videos.
+附一下我的豆瓣主页，分享一下读的书和影音。
 
-I attempted to use vocabulary memorization apps like "Youdao Vocabulary" but gave up after a few days. I realized that memorizing words was unnecessary. I believed that familiar words should be learned through repeated exposure and understanding, while rare words could be looked up as needed. Moreover, constantly memorizing obscure vocabulary was tedious and not practical.
+这其中，我用过背单词的一些App，如《有道背单词》。我坚持了几天，放弃了。我把我从有道词典查过的单词，然后同步到背单词的App，来背。也不是坚持不下去，而是我认为背单词完全没必要。如果一个单词不懂，去查就是了。常用的单词，查多几篇，用心去理解，自然就能记住了。如果生僻的单词，那么也不常遇到，今天背会了，下次遇到可能一年之后，又忘了，干脆遇到一次，就查一次就行。去记忆生僻的单词，也很痛苦。今天的中文也是，有很多生僻字我不认识，然而不影响我生活和工作，偶尔真要弄懂意思，查就是了。
 
-I also tried joining English learning groups on apps like Telegram (similar to WeChat) and connected with an Iranian friend for several hours of voice chatting to improve my speaking skills. Although it was helpful, speaking with a native English speaker was challenging. However, it did open up opportunities to meet people from different countries, like an Indian guy with whom I had a video call, introducing each other to our families.
+那怎么知道哪些单词是常见的，生僻的呢？那干脆就不去区分。看到的时候不懂的去查就行了。如果我们经常用英语，这样必然就知道了很多单词，如果我们只是学习不实际用起来，那么知道很多单词也没用。
 
-Reflecting on my English learning journey, I realized I had taken many detours. Instead of focusing on whether learning was enjoyable, I forced myself to undertake difficult tasks. Just like when we were kids learning Chinese, we immersed ourselves in Chinese culture through martial arts films, which eventually allowed us to understand and speak the language without much effort. The key was immersion and enjoyment.
+接着，真正让我感觉我大幅提高英语的是抖音国际版「TikTok」这个App。我吹过它许多次，仍然要大力吹。
 
-I believe that after mastering around 1,000 basic English words, one should immerse oneself in listening and watching content like TikTok videos or American TV shows. TikTok is especially beneficial because it combines entertainment with immersive language learning, simulating face-to-face interactions with foreigners. By doing so, we can naturally learn more words and understand more content without the need to memorize extensive vocabulary lists.
+我认为TikTok是最好的英语学习工具。非常有趣的短视频沉浸式学习，模拟面对面地和外国人交流。十秒一分钟的视频看不懂听不懂，可以一直重复看。可以一直刷新的视频，吸引注意力。把学习变得有趣。玩中学，学中玩。在掌握了高中英语的前提下，刷两三个月就都能听懂看懂了。
 
-I concluded that the best way to learn is to play, to enjoy the learning process, and to genuinely feel the desire to continue. TikTok has been instrumental in my language improvement, and I wholeheartedly recommend it to others. However, accessing TikTok requires bypassing restrictions for users in some regions, which may involve using a separate Android phone or learning to access foreign networks.
+同时，TikTok抖音帮助了解大千世界。应用会推荐给你很多你不知道自己不知道的事物。以前，都不知道有这样的事物存在，看到了标题和封面图，因为不知道，也不会去详细了解。如今一个短暂的小视频生动地展示，不让人先去判断有没价值，而先展示。这是推荐加短视频的威力所在。
 
-In the process of learning English, I also reflected on the nature of learning. I discovered that I couldn't excel in self-discipline and perseverance, but I thrived when learning became a form of entertainment that I genuinely enjoyed. If we can embrace learning as an enjoyable experience, it becomes effortless and sustainable.
+恰恰相反，刷抖音TikTok非但没让人变得焦虑，反而让人平静下来，沉浸于其中。让人焦虑的是图文时间线，没有什么比快速一撇一直滑动让人更焦虑。
 
-In the end, I came to understand that being fluent in only one language, like Chinese, is perfectly fine. It allows us to live a fulfilling life in our home country, with an abundance of knowledge and resources in our native language. However, for those interested in learning English, I wholeheartedly recommend embracing immersive and enjoyable methods like TikTok to make language learning a fun and stress-free journey.
+最好的学习方法是玩，是完全感觉不到在学习，是愿意一直玩下去。TikTok，它做到了。我们在中文版的抖音了解广大的中国，了解大家的日常生活，了解各种有趣的人和事，和大家共悲欢。在国际版TikTok中，则是了解世界人民，和他们一起共悲欢。
+
+如果大家很喜欢刷抖音，容易一刷几个小时过去，时常刷，无聊的时候就看看。那么就一定能刷TikTok下去。它变成了一种娱乐，还顺带让人学会了英语。
+
+过去一年，平均刷TikTok四个小时。渐渐地，发现都听懂了。听懂了便再有忘记不了。学会了一种语言是神奇的。TikTok有着最优质的内容。而且没有看书想看完的那种焦虑，你想看就看，不想看就不想看，没有任何的强迫。而且视频很短，看完很容易。
+
+我之前说的看书和看美剧，我也比较难坚持下来。我是个很没有耐心的人。在我尝试了几乎所有方法后，终于知道一种像我这样没耐心的人都能学会的方法，让我能熟练英文。
+
+我还试过很多方法，比如在类似微信的Telegram上，去加入一些公开的英文学习互助小组，我认识了一个伊朗的朋友，和他好几次发语音聊天，聊几个小时，来锻炼口语，这相当于免费给自己找了个外教。他虽然是伊朗人，但他英文比我好很多，还是能学习。如果是中国人，那互相说英文，确实很奇怪。他是外国人，没办法，我们只能用英语交流。我们也进行过一次视频对话，看看他居住的环境。之前还和一个印度的小哥视频来，他和他家人介绍我，我和我家人介绍他。这也是挺神奇的，我在家，足不出户，就可以交外国朋友。
+
+回顾学习英语的旅程，我发现，这一路，走了挺多的弯路。没有去关心好不好玩，而是强迫自己去学习，去一上来去挑战高难度的任务。
+
+像我们学中文，我小时候看了很多武侠片。我还没有上小学就能听懂和简单对话了。交流是如此的重要，沉浸在英文环境里是如此的重要。而如此方便的互联网，已然使我们在本国，就可以找到很多的资料，找到最优质的内容来学习。
+
+我认为，在我们掌握基本的一千的英文词汇后，就应该大量地听，刷TikTok短视频或者看美剧电影。刷TikTok尤其好。应该把这一千词汇掌握得非常牢固，反应非常快，而不是去记更多的单词。
+
+我认为小学生初中生高中生来刷TikTok学英文也特别好。他们不再学习英文，而直接通过了解世界，来不知不觉就学会英文。
+
+当我们一千单词滚瓜烂熟了，我们有了兴趣之后，有了基本的语感之后，自然能学更多单词，看更多书也不成问题。
+
+有时，我想着要去考个托福，证明一下自己的能力。然而我后来想想，还是不去了。我终究骗不了自己。我没有计划去留学或者当英语老师，不需要一个证书来证明自己。我自己懂多少，我要心知吐明。可能考了托福，分数还可以，然而我未来不去用英语，那有什么用。如果分数还差，那我现在就用英语用得好好的，满足了我的需要，也就可以了，我追求一个高分数做什么。
+
+刷TikTok，看Youtube，看Netflix，刷推特，要找资料查Google，英语在我的生活中已不可缺少。
+
+然而到如今，也才明白，只会中文也可以，在中国过得好好的，中文书就那么多，中文的知识就非常多，完全可以了。往简单的说，吃好睡好养活自己，也就可以了。这篇文章不是希望带来焦虑，而是说分享一种方法，让有兴趣学英文的人学得更轻松。
+
+很遗憾，用TikTok，需要先学会上外网，然后再拔掉手机的SIM卡来绕过软件的检测。我是用另外一部安卓手机来作为备用机，来用TikTok的。如果朋友有安卓手机，想用TikTok，不会用，可以私信我。我上周教会了一个朋友使用，对于没有上过外网的朋友，需要30分钟来学习使用。
+
+在学英语的过程中，也让我反思了学习是怎么一回事。对我来说，要自律去坚持的事情都没法做好，只有玩才能让我持续。只有享受其中，才能让我持续。只有我非常认可，才能让我持续于其中。只有我别的事情都不想做，只想做这件事，才能学好。
