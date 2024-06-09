@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creation Of Thoughts (For A Startup)"
+title: "Thoughts About Startup"
 ---
 
 *This blog post was translated by Mistral*
