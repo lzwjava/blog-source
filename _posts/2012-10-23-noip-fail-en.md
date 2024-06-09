@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Focus on the college entrance exam"
+title: "Focus on the College Entrance Exam"
 ---
 
 *This blog post was translated by Mistral*
