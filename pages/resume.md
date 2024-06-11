@@ -22,7 +22,8 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Familiar with Java, Spring, MySQL, Vue, HTML, Alibaba Cloud, AWS, Azure, and more.
 * Native in Chinese, proficient in English (IELTS 6).
 * Developed 10 open-source GitHub projects as a main developer, each with over 500 commits available at https://github.com/lzwjava.
-* Detailed software portfolio available at https://lzwjava.github.io/portfolio.
+* Detailed software portfolio available at https://lzwjava.github.io/pages/portfolio.
+
 ## Work Experience
 
 ### Freelancer, 2023.07 - Present

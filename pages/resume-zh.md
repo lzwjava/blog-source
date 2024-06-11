@@ -19,7 +19,7 @@ title:  "Resume"
 * 熟悉Java、Spring、MySQL、Vue、HTML、阿里云、AWS、Azure等技术。
 * 汉语为母语，英语流利（雅思6分）。
 * 开发了10个GitHub开源项目，每个超500次提交，请查看 https://github.com/lzwjava。
-* 详细的软件作品集可查看于 https://lzwjava.github.io/portfolio。
+* 详细的软件作品集可查看于 https://lzwjava.github.io/pages/portfolio。
 
 ## 工作经历
 
@@ -102,6 +102,7 @@ title:  "Resume"
 * 面包Live，一站式内容变现平台，负责对后端进行重构。使用了技术栈，如PHP、TypeScript、Laravel和Go。时间从2017年9月到2018年1月。
 * 趣直播，一个知识直播平台。负责大部分代码开发。使用了PHP、Javascript、HTML、阿里云和RTMP流媒体等技术栈。时间从2016年6月至2017年9月。
 * LeanCloud移动SDK和LeanChat, 负责部分iOS和Android SDK的开发，以及他们的演示应用程序LeanChat的全部开发。时间从2014年7月至2015年10月。
+
 ### 开源、博客、Codeforces, 2013-09 至今
 
 请浏览我的开源项目，涵盖了我创建的企业项目和个人业余项目，GitHub链接：https://github.com/lzwjava。
