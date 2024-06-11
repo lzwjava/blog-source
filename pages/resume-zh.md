@@ -106,7 +106,6 @@ title:  "Resume"
 
 请浏览我的开源项目，涵盖了我创建的企业项目和个人业余项目，GitHub链接：https://github.com/lzwjava。
 
-* neural-networks-and-zhiwei-learning，机器学习实践项目，530次提交，Python
 * algorithm-solutions，算法问题解决方案，2466次提交，Java
 * lzwjava.github.io，我的博客，500次提交，英文和中文
 * live-server，知识直播平台后端，660次提交，PHP
@@ -127,6 +126,7 @@ title:  "Resume"
 * feynman-lectures-mobi，将latex转换为SVG创建mobi电子书的工具，47次提交，Python
 * flower-recognition，花卉识别Android应用，37次提交，Java
 * Creak，简单的HTML解析器，49次提交，Swift
+
 ## 技能
 
 自从2008年开始编程以来，我获得了很多技能。就使用时间而言，高级描述如下。这与工作经验不同。我用它来表示对我的技能的相对熟悉。

@@ -106,7 +106,6 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Open Source & Blog & Codeforces, 2013-09 to Present
 
 * Please explore my open-source projects, both corporate initiatives  I've founded and personal side projects, on GitHub: https://github.com/lzwjava.
-* neural-networks-and-zhiwei-learning, machine learning practice projects, 530 commits, Python
 * algorithm-solutions, the solutions to algorithm problems, 2466 commits, Java
 * lzwjava.github.io, my blog, 500 commits, English & Chinese
 * live-server, the backend of a knowledge live broadcast platform, 660 commits, PHP
