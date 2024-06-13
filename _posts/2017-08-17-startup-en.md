@@ -11,10 +11,12 @@ title: "Entrepreneurship Insights Share"
 
 Recently, Quiz Live held a technical personnel growth communication meeting, where Quiz Live CEO Zhiwei shared his entrepreneurial insights with us. Here is the video link:
 
-[Tencent Video Link](https://v.qq.com/x/page/w0535il6ab5.html) We created this platform in what way?
-What did Qu直播 intend to do?
-Today I'd like to share with all of you,
-The story of Qu直播 in the past. The Chuzi mobile launch event was quite grand, wasn't it?
+[Tencent Video Link](https://v.qq.com/x/page/w0535il6ab5.html) 
+
+We created this platform in what way?
+What did Quzhibo intend to do?
+
+Today I'd like to share with all of you the story of Quzhibo in the past. The Chuzi mobile launch event was quite grand, wasn't it?
 
 At that time, I was young and impulsive, so I built a live platform on my own and promoted it on my social media. This was the first release of Quzhi Live.
 
