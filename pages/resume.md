@@ -170,6 +170,7 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * IELTS Academics, Score 6 
 * Machine Learning Specialization Course Completion Certificate, provided by DeepLearning.AI and Standford University
 * Developing on AWS, provided by AWS Training
+
 ## Expectation
 
 * Expected Positions: Full Stack Engineer / Backend Engineer
