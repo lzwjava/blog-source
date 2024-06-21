@@ -85,6 +85,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Ranked in the top 1 in my school's ACM/ICPC monthly training competition among around 100 top students in the university, including higher grade one. 
 
 ### Guangzhou Yuyan Middle School, Science, Middle School Diploma, 2007.07 - 2013.06
+
 * Ranked in the top 300 out of 100k students in the Guangzhou High School Entrance exam. 
 * Ranked in the top 300 in the 2011 Guangdong NOIP(National Olympiad in Informatics in Provinces).
 
