@@ -91,7 +91,7 @@ title:  "Resume"
 
 ### 公司项目
 
-* 一个 AI 驱动的故事机器人。参与了全栈开发。使用的技术栈包括 Python、Flask、React、AWS 和 MiniMax。2024年5月。
+* 一个 AI 驱动的故事机器人。参与了全栈开发。使用的技术栈包括 Python、Flask、React、AWS 和 Claude。2024年5月。
 * 汇丰银行的PayMe, 参与了自动充值功能和云迁移的后端开发，使用了Java、Spring Cloud、Azure和AWS等技术栈。时间从2022年11月至2023年7月。
 * DBS Digibank CN, 参与了互惠基金的后端开发，使用了Java、Spring Cloud和Pivotal Cloud Foundry等技术栈。时间从2022年7月至2022年11月。
 * DBS Client Connect, 参与了股权交易的后端开发，使用了Java、Spring Cloud和Pivotal Cloud Foundry等技术栈。时间从2021年12月至2022年6月。
