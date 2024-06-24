@@ -158,7 +158,8 @@ title:  "Resume"
 * 学信网报告 (本科退学状态)
 * IELTS 学术考试，成绩 6
 * 机器学习专业课程完成证书，由 DeepLearning.AI 与斯坦福大学提供
-* Developing on AWS, 由 AWS 培训提供
+* 深度学习专业化课程结业证书，由DeepLearning.AI 提供
+* AWS开发, 由 AWS 培训提供
 
 ### 链接
 
