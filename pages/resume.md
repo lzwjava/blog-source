@@ -28,7 +28,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer, 2023.07 - Present
 
-* Analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. And got one course completion certificate from Coursera about Machine Learning Specialization.
+* Analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. And got two course completion certificate from Coursera about Machine Learning Specialization and Deep Learning Specialization.
 * Prepared for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc. Listened to a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
 * Participated as a Full Stack Developer on an AI-powered story bot for generating personalized stories using Claude's API. The bot supports multi-round conversations, customizable prompts, story settings, HTTP streaming content output, and includes an admin page for configuration. We used Python, Flask, React, AWS for deployment, GoDaddy, nginx, and Prometheus for monitoring, and utilized ChatGPT 4o to assist with programming.
 
@@ -169,6 +169,7 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * China Higher Education Official Report (Bachelor Education, Dropout Status)
 * IELTS Academics, Score 6 
 * Machine Learning Specialization Course Completion Certificate, provided by DeepLearning.AI and Standford University
+* Deep Learning Specialization Course Completion Certificate, provided by DeepLearning.AI
 * Developing on AWS, provided by AWS Training
 
 ## Expectation
