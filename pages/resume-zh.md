@@ -91,7 +91,7 @@ title:  "Resume"
 
 ### 公司项目
 
-* 一个 AI 驱动的故事机器人。参与了全栈开发。使用的技术栈包括 Python、Flask、React、AWS 和 Claude。2024年5月。
+* 一个 AI 驱动的故事机器人。参与了全栈开发。使用的技术栈包括 Python、Flask、React、AWS 和 Claude。时间从2024年5月至2024年7月。
 * 汇丰银行的PayMe, 参与了自动充值功能和云迁移的后端开发，使用了Java、Spring Cloud、Azure和AWS等技术栈。时间从2022年11月至2023年7月。
 * DBS Digibank CN, 参与了互惠基金的后端开发，使用了Java、Spring Cloud和Pivotal Cloud Foundry等技术栈。时间从2022年7月至2022年11月。
 * DBS Client Connect, 参与了股权交易的后端开发，使用了Java、Spring Cloud和Pivotal Cloud Foundry等技术栈。时间从2021年12月至2022年6月。
@@ -158,7 +158,7 @@ title:  "Resume"
 * 学信网报告 (本科退学状态)
 * IELTS 学术考试，成绩 6
 * 机器学习专业课程完成证书，由 DeepLearning.AI 与斯坦福大学提供
-* 深度学习专业化课程结业证书，由DeepLearning.AI 提供
+* 深度学习专业化课程结业证书，由 DeepLearning.AI 提供
 * AWS开发, 由 AWS 培训提供
 
 ### 链接
