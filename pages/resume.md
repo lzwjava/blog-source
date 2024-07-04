@@ -28,7 +28,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Freelancer, 2023.07 - Present
 
-* Analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. And got two course completion certificate from Coursera about Machine Learning Specialization and Deep Learning Specialization.
+* Analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. And got two course completion certificates from Coursera about Machine Learning Specialization and Deep Learning Specialization.
 * Prepared for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc. Listened to a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
 * Participated as a Full Stack Developer in an AI-powered story bot project for generating personalized stories using Claude's API. The bot supports prompt setting and includes a management page for configuration. We used Python, Flask, and React for development and deployed on AWS. DNS management is handled through GoDaddy and Cloudflare. Nginx is used as a gateway for SSL certificate and request header management. Additionally, we use Prometheus for monitoring and leverage Elastic Search, Kibana, and Logstash for log management. We also utilized ChatGPT 4o to assist with programming.
 
@@ -93,7 +93,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Corporate Projects
 
-* An AI-powered story bot. Participated in the full stack development. Used tech stacks like Python, Flask, React, AWS, and Claude. 2024.5.
+* An AI-powered story bot. Participated in the full stack development. Used tech stacks like Python, Flask, React, AWS, and Claude. From 2024.5 to 2024.7. 
 * PayMe from HSBC. Participated in the backend development of auto top-up feature and cloud migration. Used tech stacks like Java, Spring Cloud, Azure and AWS. From 2022.11 to 2023.07.
 * DBS Digibank CN. Participated in the backend development of mutual funds. Used tech stacks like Java, Spring Cloud, and Pivotal Cloud Foundry. From 2022.7 to 2022.11.
 * DBS Client Connect. Participated in the backend development of equity trading. Used tech stacks like Java, Spring Cloud and Pivotal Cloud Foundry. From 2021.12 to 2022.6.
@@ -145,12 +145,13 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * Natural Language: English, Chinese, Cantonese, Hakka, Japanese
 * Operating System: Linux, Windows, MacOS, Android, iOS, OpenWRT, Symbian, Apple tvOS, Fire OS
 * Language: PHP, Java, Objective-C, Swift, Ruby, HTML, C, C++, JavaScript, Lisp, Clojure, TypeScript, Node.js, Go, Python, Pascal
-* Domain-specific language: JSON, CSS, SQL, NoSQL, Kusto Query Language
-* Framework & Database: jQuery, Hexo, Jekyll, React, MongoDB, PostgreSQL, Microsoft SQL Server, Stylus, Sass, MySQL, Redis, Kafka,  RTMP streaming, HTTP/IP, Vue, Spring, Hibernate, Netty, Pandas, Numpy
-* Math: Calculus, Linear Algebra, Latex
-* Development Tools: NPM, Webpack, Git, Travis CI, HomeBrew, Gradle, Maven, Xcode, VSCode, Sketch, Powershell, IntelliJ IDEA, Cocopods, Android Studio, Jenkins, SonarQube, WordPress, Nginx, ChatGPT, Elasticsearch, Docker
+* Domain-specific language: JSON, CSS, SQL, NoSQL, Kusto Query Language, Kibana Query Language
+* Framework & Database: jQuery, Hexo, Jekyll, React, MongoDB, PostgreSQL, Microsoft SQL Server, Stylus, Sass, MySQL, Redis, Kafka, RTMP streaming, HTTP/IP, Vue, Spring, Hibernate, Netty, Pandas, Numpy
+* Math: Calculus, Linear Algebra, Discrete mathematics, Latex
+* Development Tools: NPM, Webpack, Git, HomeBrew, Gradle, Maven, Xcode, VSCode, Sketch, Powershell, IntelliJ IDEA, Cocopods, Android Studio, WordPress, Nginx, ChatGPT, Docker, Kubernetes
+* DevOps Tools: Travis CI, GitHub Actions, Jenkins, SonarQube, Prometheus, Elasticsearch, LogStash, Kibana, Prometheus
 * Machine Learning: TensorFlow, PyTorch, Theano, Anaconda, Jupyter Notebook, CUDA
-* Cloud Tools: GitHub, GitLab, Jira, Confluence, Cloudflare, Digital Ocean, Vultr, AWS, Azure, Alibaba Cloud, Pivotal Cloud Foundry
+* Cloud Tools: GitHub, GitLab, Jira, Confluence, Digital Ocean, Vultr, AWS, Azure, Alibaba Cloud, Pivotal Cloud Foundry, Cloudflare, GoDaddy
 * Test: Postman, Selenium, Karate, JUnit, Mockito, Apache JMeter, Apache ab
 * Others: FFmpeg, Spark, Proxy Tools
 
