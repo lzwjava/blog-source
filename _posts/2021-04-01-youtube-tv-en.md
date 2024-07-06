@@ -1,99 +1,99 @@
 ---
 layout: post
-title: "How To Watch Youtube On Tv in China"
+title: "How to Watch YouTube on TV"
 ---
 
-*This blog post was translated by Mistral*
+*This blog post was translated by ChatGPT.*
 
 ---
- 
-Assuming we know how to browse the internet scientifically, how can we watch Youtube on TV? Using a router is a bit troublesome. Here we borrow an application.
+
+Here we assume you already know how to access the internet using VPN or similar methods. So, how can you watch YouTube on your TV? Flashing the router is a bit troublesome. Here, we use an application to help.
 
 ## SmartYoutubeTV
 
 ![smart](/assets/images/youtube-tv/smart.png)
-Download it and install it on the TV using a U disk.: In the Scientific Surfing application client, select `Allow connect from Lan`. This means that other devices on our local network can connect to this device for internet access.
 
-Next, in the `SmartYoutubeTV` settings, set up the port.
+Download it and install it on your TV using a USB drive.
+
+![clash](/assets/images/youtube-tv/clash.png)
+
+Next, on the VPN client, select `Allow connect from LAN`. This means allowing other devices on the local network to use this device for internet access.
+
+Then, in the settings of `SmartYoutubeTV`, configure the port.
 
 ![proxy1](/assets/images/youtube-tv/proxy1.jpeg)
 
-After setting it up, click the `Test` button to try it out. Note that I used a `SOCKS` type proxy here. I tried with `HTTP` but it didn't work a few times. Once the test is successful, click confirm, and then test it out. However, it's not necessarily set to `192.168.1.3` in your case, it depends on your computer's local network address. This looks good. Very convenient.
+After setting it up, click the `Test` button to check if it's working. Note that I used a `SOCKS` proxy. I tried using an `HTTP` proxy several times without success. Once the test is successful, click OK, then test it again. Also, you may need to adjust the IP `192.168.1.3` based on your local network address.
 
-This is a GitHub project. The project page has usage instructions. Here, I will add some additional notes. It uses tun to implement transparent proxy. Realized similar functionality to Surge's enhanced mode and gateway mode.
+That's it, now you can watch YouTube on your TV conveniently.
 
-At first, I used `seeker` to turn my computer into a proxy routing server. Here's my configuration:
+![tan](/assets/images/youtube-tv/tan.jpeg)
 
-```yaml
+## gfreezy/seeker
+
+This is a GitHub project. The project page has usage instructions. Here, I will supplement some additional points.
+
+![seeker](/assets/images/youtube-tv/seeker.png)
+
+It uses `tun` to implement transparent proxying, similar to Surge's enhanced mode and gateway mode.
+
+I initially used `seeker` to turn my computer into a VPN router. Here is my configuration:
+
+```yml
 verbose: true
 dns_start_ip: 10.0.0.10
-``` dns_servers:
-- 223.5.5.5:53
-- 114.114.114.114:53
-
+dns_servers:
+  - 223.5.5.5:53
+  - 114.114.114.114:53  
 dns_timeout: 1s
-
 tun_name: utun4
 tun_ip: 10.0.0.1
 tun_cidr: 10.0.0.0/16
-
 dns_listen: 0.0.0.0:53
-
 gateway_mode: true
-
-ping_timeout: 2s probe_timeout: 30ms
-connect_timeout: 1000ms
-read_timeout: 30000ms
-write_timeout: 5000ms
-max_connect_errors: 2
+ping_timeout: 2s
+probe_timeout: 30ms
+connect_timeout: 1s
+read_timeout: 30s
+write_timeout: 5s
+max_connect_errors: 2 
 
 servers:
-- name: http proxy server
-- addr: 0.0.0.0:7890
-- protocol: Http I initially used a `socks5` proxy with the following configuration:
+  - name: http proxy server
+    addr: 0.0.0.0:7890
+    protocol: Http
 
-- name: socks5 proxy
-- addr: 0.0.0.0:1080
-
-later I changed it to an `https` proxy with the following configuration:
-
-- name: https proxy server
-- addr: 0.0.0.0:7890
-- protocol: Https
+  - name: https proxy server
+    addr: 0.0.0.0:7890
+    protocol: Https
 
 rules:
-- 'MATCH,PROXY':
-- name: socks5 proxy server
-- addr: 0.0.0.0:7891
-- protocol: Socks5
+  - 'MATCH,PROXY'
+```
 
-However, there are quite a few issues. It often fails to connect. The documentation has this section:
+Initially, I used a `socks5` proxy, configured like this:
 
-[Problem description and potential solutions]
+```yml
+servers:
+  - name: socks5 proxy server
+    addr: 0.0.0.0:7891
+    protocol: Socks5
+```
 
-You may need to check the following:
+However, there were many issues, with frequent connection problems. The documentation has a note:
 
-1. Ensure that the proxy server is running on the specified address and port.
-2. Verify that the firewall or security software is not blocking the connection.
-3. Check if the DNS server is resolving the domain name correctly.
-4. Make sure that the client application supports Socks5 protocol.
-5. If using a password, ensure that it is correct.
-6. Try using a different proxy server or changing the connection settings.
-7. Check the network connectivity and try connecting to other websites or servers to rule out any network issues.
-8. If the issue persists, consider contacting the proxy server provider for further assistance. When using a socks5 proxy, all directly connected domain names need to be set in the configuration file. If using ss or vmess, the ss or vmess server domain names also need to be added to the configuration file. Otherwise, there may be a dead loop and it will not be able to function normally.
+> When using a socks5 proxy, you need to set all direct connection domain names in the configuration file. If you use ss or vmess, you need to add the ss or vmess server domain name to the configuration file. Otherwise, it may cause a dead loop and fail to work properly.
 
 This might be the reason.
 
-Using `seeker` means that a computer needs to be running it to be used as a router. Using `proxy` configuration methods, however, offers more flexibility. I can share the proxy port using an iPhone or Android phone.
+Using `seeker` means you need a computer running it as a router. However, using the `proxy` configuration is much more flexible. I can use an iPhone or Android phone to share the proxy port.
 
-## TV screenshot
+## TV Screenshots
 
-When employing a socks5 proxy, all directly linked domain names need to be included in the configuration file. If ss or vmess are utilized, the domain names of the ss or vmess servers also need to be added to the configuration file to prevent dead loops and ensure normal usage.
+While writing this article, I figured out how to take screenshots on the TV. I have a Xiaomi TV. You can double-click the `Home` button on the remote to bring up the app management menu.
 
-This could be the cause.
+![tv_screen](/assets/images/youtube-tv/tv_screen.jpeg)
 
-Using `seeker` requires a computer to run it as a router. Using `proxy` configuration methods, on the other hand, provides more flexibility. The proxy port can be shared using an iPhone or Android phone. I was pondering how to take a screenshot on TV while writing this article. I have a Xiaomi TV at home. You can call up the application management menu by pressing the `Home` button twice on the remote control.
+See the screenshot button? You can easily share it to WeChat. Here you can also close all applications. If some apps are stuck, you can handle them this way.
 
-Do you see the screenshot button? After that, you can easily share it on WeChat. You can also turn off all applications here. If some applications freeze, you can handle it this way.
-
-Alright. Let's use a large-screen TV to watch the world.
+Alright, let's use the big screen TV to explore the world!
