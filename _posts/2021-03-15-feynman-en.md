@@ -3,6 +3,10 @@ layout: post
 title: "Practical: Turning Feynman's Lectures on Physics Webpages into an eBook"
 ---
 
+*This blog post was translated by ChatGPT.*
+
+---
+
 ### Project Overview
 
 Let’s briefly discuss the project.
