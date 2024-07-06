@@ -148,7 +148,7 @@ title:  "Resume"
 * 框架与数据库：jQuery、Hexo、Jekyll、React、MongoDB、PostgreSQL、Microsoft SQL Server、Stylus、Sass、MySQL、Redis、Kafka、RTMP流媒体、HTTP/IP、Vue、Spring、Hibernate、Netty、Pandas、Numpy
 * 数学：微积分、线性代数、离散数学、Latex
 * 开发工具：NPM、Webpack、Git、HomeBrew、Gradle、Maven、Xcode、VSCode、Sketch、Powershell、IntelliJ IDEA、Cocopods、Android Studio、WordPress、ChatGPT
-* DevOps工具：Travis CI、GitHub Actions、Jenkins、SonarQube、Prometheus、Elasticsearch、LogStash、Kibana、Nginx、Docker、Kubernetes, PM2
+* DevOps工具：Travis CI、GitHub Actions、Jenkins、SonarQube、Prometheus、Elasticsearch、Logstash、Kibana、Nginx、Docker、Kubernetes, PM2
 * 机器学习：TensorFlow、PyTorch、Theano、Anaconda、Jupyter Notebook、CUDA
 * 云工具：GitHub、GitLab、Jira、Confluence、Digital Ocean、Vultr、AWS、Azure、阿里云、Pivotal Cloud Foundry、Cloudflare、GoDaddy
 * 测试工具：Postman、Selenium、Karate、JUnit、Mockito、Apache JMeter、Apache ab
