@@ -5,16 +5,15 @@ layout: page
 <ul class="post-list">
 
   {% for post in site.posts %}
-  <li class="post-item">
+  <li class="list-group-item post-item">
     <a href="{{ post.url }}">
-      <h4 class="title">{{ post.title }}</h4>
+      <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
+      <span class="title">{{ post.title }}</span>
     </a>
-    <span class="date">{{ post.date | date: "%Y.%m.%d"}}</span>
   </li>
   {% endfor %}
 </ul>
 
 <footer class="site-footer">
-  <span class="site-footer-credits">Copyright©2010－{{ site.time | date: "%Y"}}</span>
-
+  <span class="site-footer-credits">Copyright©2010－{{ site.time | date: "%Y" }}</span>
 </footer>
