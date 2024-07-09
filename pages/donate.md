@@ -9,7 +9,7 @@ If you like my essays, code, or videos, you can voluntarily make a payment. You 
 
 私の文章、コード、または動画が気に入った場合、自発的に支払いを行うことができます。以下の方法でお支払いください。
 
-Alipay:
+WeChat Pay:
 
 <div align="center"><img src="/assets/images/donate/wechat_pay.jpg" width="200px"/><img/></div>
 
