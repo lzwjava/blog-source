@@ -9,9 +9,14 @@ Please feel free to contact me if you are interested.
 
 ![](/assets/images/mp-qrcode.png)
 
+### WhatsApp
+
+<div align="center"><img src="/assets/images/whatsapp.jpg" width="200px" /><img/></div>
+
+
 #### WeChat
 
-<div align="center"><img src="/assets/images/wechat.jpg" width="30%" /><img/></div>
+<div align="center"><img src="/assets/images/wechat.jpg" width="250px" /><img/></div>
 
 #### Email
 
