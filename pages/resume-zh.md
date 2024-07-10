@@ -142,7 +142,7 @@ title:  "Resume"
 以下是帮助我积累上述技能的详细工具，以及其他一些有趣的工具。我仍在使用其中的一些，对于其余的工具，我可以花几天时间重新学习使用它们。
 
 * 自然语言：英语、中文、粤语、客家话、日语
-* 操作系统：Linux、Windows、MacOS、Android、iOS、OpenWRT、Symbian、Apple tvOS、Fire OS
+* 操作系统：Linux、Windows、MacOS、Android、iOS、OpenWRT
 * 编程语言：PHP、Java、Objective-C、Swift、Ruby、HTML、C、C++、JavaScript、Lisp、Clojure、TypeScript、Node.js、Go、Python、Pascal
 * 领域特定语言：JSON、CSS、SQL、NoSQL、Kusto Query Language、Kibana Query Language
 * 框架与数据库：jQuery、Hexo、Jekyll、React、MongoDB、PostgreSQL、Microsoft SQL Server、Stylus、Sass、MySQL、Redis、Kafka、RTMP流媒体、HTTP/IP、Vue、Spring、Hibernate、Netty、Pandas、Numpy
