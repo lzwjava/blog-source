@@ -143,7 +143,7 @@ I have gained a lot of skills since I started programming in 2008. In terms of u
 Below are detailed tools that help me to accumulate the above skills, plus other interesting tools. I am still using some of them and can learn for a few days to use the rest of them again.
 
 * Natural Language: English, Chinese, Cantonese, Hakka, Japanese
-* Operating System: Linux, Windows, MacOS, Android, iOS, OpenWRT, Symbian, Apple tvOS, Fire OS
+* Operating System: Linux, Windows, MacOS, Android, iOS, OpenWRT
 * Language: PHP, Java, Objective-C, Swift, Ruby, HTML, C, C++, JavaScript, Lisp, Clojure, TypeScript, Node.js, Go, Python, Pascal
 * Domain-specific language: JSON, CSS, SQL, NoSQL, Kusto Query Language, Kibana Query Language
 * Framework & Database: jQuery, Hexo, Jekyll, React, MongoDB, PostgreSQL, Microsoft SQL Server, Stylus, Sass, MySQL, Redis, Kafka, RTMP streaming, HTTP/IP, Vue, Spring, Hibernate, Netty, Pandas, Numpy
