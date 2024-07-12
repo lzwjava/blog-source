@@ -91,42 +91,62 @@ title:  "Resume"
 
 ### 公司项目
 
-* 一个 AI 驱动的故事机器人。参与了全栈开发。使用的技术栈包括 Python、Flask、React、AWS 和 Claude。时间从2024年5月至2024年7月。
-* 汇丰银行的PayMe, 参与了自动充值功能和云迁移的后端开发，使用了Java、Spring Cloud、Azure和AWS等技术栈。时间从2022年11月至2023年7月。
-* DBS Digibank CN, 参与了互惠基金的后端开发，使用了Java、Spring Cloud和Pivotal Cloud Foundry等技术栈。时间从2022年7月至2022年11月。
-* DBS Client Connect, 参与了股权交易的后端开发，使用了Java、Spring Cloud和Pivotal Cloud Foundry等技术栈。时间从2021年12月至2022年6月。
-* ShowMeBug, 一个在线面试平台，负责将平台与企业微信集成，如登录和简易面试入口。使用了Ruby on Rails、PostgreSQL和企业微信SDK等技术栈。时间从2021年7月至2021年9月。
-* 北京平方根科技有限公司的50个杂项项目, 包括网站、游戏、应用和微信小程序。负责团队管理、合同谈判、项目管理、客户沟通和部分软件开发。时间从2018年1月至2019年12月。
-* 中国超级大脑电视节目的微信小程序, 负责后端和部分前端开发，使用了Java、Spring、Javascript、HTML和阿里云等技术栈。时间从2018年2月至2018年3月。
-* 冲顶大会，一个直播答题应用。我负责部分后端开发和管理员面板的前端开发。使用的技术栈包括Java、Spring、WebSocket和Netty。从2017年9月到2018年1月。
-* 面包Live，一站式内容变现平台，负责对后端进行重构。使用了技术栈，如PHP、TypeScript、Laravel和Go。时间从2017年9月到2018年1月。
-* 趣直播，一个知识直播平台。负责大部分代码开发。使用了PHP、Javascript、HTML、阿里云和RTMP流媒体等技术栈。时间从2016年6月至2017年9月。
-* LeanCloud移动SDK和LeanChat, 负责部分iOS和Android SDK的开发，以及他们的演示应用程序LeanChat的全部开发。时间从2014年7月至2015年10月。
+* AI驱动的故事机器人 (2024.5 - 2024.7)  
+  参与全栈开发。使用的技术栈包括Python, Flask, React, AWS和Claude。
 
-### 开源、博客、Codeforces, 2013-09 至今
+* 汇丰银行的PayMe (2022.11 - 2023.07)  
+  参与自动充值功能和云迁移的后端开发。使用的技术栈包括Java, Spring Cloud, Azure和AWS。
 
-请浏览我的开源项目，涵盖了我创建的企业项目和个人业余项目，GitHub链接：https://github.com/lzwjava。
+* DBS Digibank CN (2022.7 - 2022.11)  
+  参与互惠基金的后端开发。使用的技术栈包括Java, Spring Cloud和Pivotal Cloud Foundry。
 
-* algorithm-solutions，算法问题解决方案，2466次提交，Java
-* lzwjava.github.io，我的博客，500次提交，英文和中文
-* live-server，知识直播平台后端，660次提交，PHP
-* live-mobile-web，知识直播平台移动端前端，528次提交，Vue和JavaScript
-* live-web，知识直播平台桌面端前端，140次提交，Vue
-* live-wxapp，知识直播平台微信小程序，63次提交，JavaScript
-* code-review-server，代码审查专业平台后端，275次提交，PHP
-* code-review-web，代码审查专业平台前端，302次提交，Vue和JavaScript
-* weimg-server，图片社区后端，35次提交，PHP
-* weimg-ios，图片社区iOS应用，Objective-C
-* leanchat-ios，iOS聊天应用，556次提交，Objective-C
-* leanchat-android，Android聊天应用，412次提交，Java
-* curiosity-courses，编程课程，215次提交，中文
-* LZAlbum，类似微信朋友圈的iOS简单应用，47次提交，Objective-C
-* TabsKiller，帮助关闭浏览器标签页的Chrome插件，19次提交，JavaScript
-* Reveal-In-GitHub，Xcode插件，57次提交，Objective-C
-* LvchenSign，广告标识公司网站，40次提交，JavaScript
-* feynman-lectures-mobi，将latex转换为SVG创建mobi电子书的工具，47次提交，Python
-* flower-recognition，花卉识别Android应用，37次提交，Java
-* Creak，简单的HTML解析器，49次提交，Swift
+* DBS Client Connect (2021.12 - 2022.6)  
+  参与股票交易的后端开发。使用的技术栈包括Java, Spring Cloud和Pivotal Cloud Foundry。
+
+* ShowMeBug (2021.7 - 2021.9)  
+  负责平台与企业微信的集成，包括登录和便捷的面试入口。使用的技术栈包括Ruby on Rails, PostgreSQL和微信SDK。
+
+* Square Root Inc项目 (2018.1 - 2019.12)  
+  完成了50个包括网站、游戏、应用程序和微信小程序在内的各种项目。负责团队管理、合同谈判、项目管理、客户沟通以及部分软件开发。
+
+* 最强大脑电视节目微信小程序 (2018.2 - 2018.3)  
+  负责后端和前端开发。使用的技术栈包括Java, Spring, JavaScript, HTML和阿里云。
+
+* 冲顶大会 (2017.9 - 2018.1)  
+  负责部分后端开发和直播问答应用的管理面板前端开发。使用的技术栈包括Java, Spring, WebSocket和Netty。
+
+* 面包Live (2017.9 - 2018.1)  
+  负责一站式内容变现平台的后端重构。使用的技术栈包括PHP, TypeScript, Laravel和Go。
+
+* 趣直播(2016.6 - 2017.9)  
+  负责知识直播平台的大部分代码开发。使用的技术栈包括PHP, JavaScript, HTML, 阿里云和RTMP流媒体。
+
+* LeanCloud SDK和LeanChat (2014.07 - 2015.10)  
+  负责部分Objective-C和Java SDK开发，以及其演示应用LeanChat的所有开发。
+
+## 开源项目、博客和Codeforces (2013-09至今)
+
+* 探索我的开源项目、公司项目和个人副项目，请访问GitHub: [https://github.com/lzwjava](https://github.com/lzwjava)
+* algorithm-solutions: 算法问题的解决方案，2466次提交，Java
+* lzwjava.github.io: 我的博客，500次提交，中英文
+* live-server: 知识直播平台的后端，660次提交，PHP
+* live-mobile-web: 知识直播平台的移动前端，528次提交，Vue和JavaScript
+* live-web: 知识直播平台的桌面前端，140次提交，Vue
+* live-wxapp: 知识直播平台的微信小程序，63次提交，JavaScript
+* code-review-server: 专业代码审查平台的后端，275次提交，PHP
+* code-review-web: 专业代码审查平台的前端，302次提交，Vue和JavaScript
+* weimg-server: 图片社区的后端，35次提交，PHP
+* weimg-ios: 图片社区的iOS应用，77次提交，Objective-C
+* leanchat-ios: 聊天应用的iOS版本，556次提交，Objective-C
+* leanchat-android: 聊天应用的Android版本，412次提交，Java
+* curiosity-courses: 一个编程课程，215次提交，中文
+* LZAlbum: 类似微信朋友圈的iOS应用，47次提交，Objective-C
+* TabsKiller: 一个帮助关闭浏览器标签的Chrome插件，19次提交，JavaScript
+* Reveal-In-GitHub: 一个Xcode插件，57次提交，Objective-C
+* LvchenSign: 一个广告标识公司的网站，40次提交，JavaScript
+* feynman-lectures-mobi: 一个将LaTeX转换为SVG以创建mobi电子书的工具，47次提交，Python
+* flower-recognition: 一个花卉识别的Android应用，37次提交，Java
+* Creak: 一个简单的HTML解析器，49次提交，Swift
 
 ## 技能
 
