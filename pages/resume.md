@@ -93,38 +93,17 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Corporate Projects
 
-* AI-powered Story Bot (2024.5 - 2024.7)  
-  Participated in the full stack development. Used tech stacks like Python, Flask, React, AWS, and Claude.
-
-* PayMe from HSBC (2022.11 - 2023.07)  
-  Participated in the backend development of the auto top-up feature and cloud migration. Used tech stacks like Java, Spring Cloud, Azure, and AWS.
-
-* DBS Digibank CN (2022.7 - 2022.11)  
-  Participated in the backend development of mutual funds. Used tech stacks like Java, Spring Cloud, and Pivotal Cloud Foundry.
-
-* DBS Client Connect (2021.12 - 2022.6)  
-  Participated in the backend development of equity trading. Used tech stacks like Java, Spring Cloud, and Pivotal Cloud Foundry.
-
-* ShowMeBug (2021.7 - 2021.9)  
-  Responsible for the integration between the platform and Enterprise WeChat, including login and easy interview entrance. Used tech stacks like Ruby on Rails, PostgreSQL, and WeChat SDK.
-
-* Square Root Inc Projects (2018.1 - 2019.12)  
-  Completed 50 miscellaneous projects including websites, games, apps, and WeChat mini programs. Responsible for team management, contract negotiation, project management, client communications, and some software development.
-
-* Super Brain TV Program WeChat Mini Program (2018.2 - 2018.3)  
-  Responsible for the backend and frontend development. Used tech stacks like Java, Spring, JavaScript, HTML, and AliCloud.
-
-* Chongding Conference (2017.9 - 2018.1)  
-  Responsible for some backend development and frontend development of the admin panel for a live-streaming trivia app. Used tech stacks like Java, Spring, WebSocket, and Netty.
-
-* Mianbao Live (2017.9 - 2018.1)  
-  Responsible for refactoring the backend of a one-stop content monetization platform. Used tech stacks like PHP, TypeScript, Laravel, and Go.
-
-* Fun Live (2016.6 - 2017.9)  
-  Responsible for most code development of a knowledge live broadcast platform. Used tech stacks like PHP, JavaScript, HTML, AliCloud, and RTMP Streaming.
-
-* LeanCloud SDK and LeanChat (2014.07 - 2015.10)  
-  Responsible for some Objective-C and Java SDK development, and all development of their demo app LeanChat.
+* AI-powered Story Bot (2024.5 - 2024.7) Participated in the full stack development. Used tech stacks like Python, Flask, React, AWS, and Claude.
+* PayMe from HSBC (2022.11 - 2023.07) Participated in the backend development of the auto top-up feature and cloud migration. Used tech stacks like Java, Spring Cloud, Azure, and AWS.
+* DBS Digibank CN (2022.7 - 2022.11) Participated in the backend development of mutual funds. Used tech stacks like Java, Spring Cloud, and Pivotal Cloud Foundry.
+* DBS Client Connect (2021.12 - 2022.6) Participated in the backend development of equity trading. Used tech stacks like Java, Spring Cloud, and Pivotal Cloud Foundry.
+* ShowMeBug (2021.7 - 2021.9) Responsible for the integration between the platform and Enterprise WeChat, including login and easy interview entrance. Used tech stacks like Ruby on Rails, PostgreSQL, and WeChat SDK.
+* Square Root Inc Projects (2018.1 - 2019.12) Completed 50 miscellaneous projects including websites, games, apps, and WeChat mini programs. Responsible for team management, contract negotiation, project management, client communications, and some software development.
+* Super Brain TV Program WeChat Mini Program (2018.2 - 2018.3) Responsible for the backend and frontend development. Used tech stacks like Java, Spring, JavaScript, HTML, and AliCloud.
+* Chongding Conference (2017.9 - 2018.1) Responsible for some backend development and frontend development of the admin panel for a live-streaming trivia app. Used tech stacks like Java, Spring, WebSocket, and Netty.
+* Mianbao Live (2017.9 - 2018.1) Responsible for refactoring the backend of a one-stop content monetization platform. Used tech stacks like PHP, TypeScript, Laravel, and Go.
+* Fun Live (2016.6 - 2017.9) Responsible for most code development of a knowledge live broadcast platform. Used tech stacks like PHP, JavaScript, HTML, AliCloud, and RTMP Streaming.
+* LeanCloud SDK and LeanChat (2014.07 - 2015.10) Responsible for some Objective-C and Java SDK development, and all development of their demo app LeanChat.
 
 ## Open Source & Blog & Codeforces (2013-09 to Present)
 
