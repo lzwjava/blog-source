@@ -144,15 +144,18 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * Operating System: Linux, Windows, MacOS, Android, iOS, OpenWRT
 * Language: PHP, Java, Objective-C, Swift, Ruby, HTML, C, C++, JavaScript, Lisp, Clojure, TypeScript, Node.js, Go, Python, Pascal
 * Domain-specific language: JSON, CSS, SQL, NoSQL, Kusto Query Language, Kibana Query Language
-* Framework & Database: jQuery, Hexo, Jekyll, React, MongoDB, PostgreSQL, Microsoft SQL Server, Stylus, Sass, MySQL, Redis, Kafka, RTMP streaming, HTTP/IP, Vue, Spring, Hibernate, Netty, Pandas, Numpy
+* Database: MySQL, SQLite, PostgreSQL, Microsoft SQL Server, Amazon RDS, MongoDB
+* Frontend: Vue, React, Angular, jQuery, Hexo, Jekyll, Stylus, Sass,
+* Framework: RTMP streaming, HTTP/IP, Spring, Spring Boot, Hibernate, Netty
+* Big Data: Redis, Kafka, Spark, Flink, ZooKeeper
 * Math: Calculus, Linear Algebra, Discrete mathematics, Latex
 * Development Tools: NPM, Webpack, Git, HomeBrew, Gradle, Maven, Xcode, VSCode, Sketch, Powershell, IntelliJ IDEA, Cocopods, Android Studio, WordPress, ChatGPT
 * DevOps Tools: Travis CI, GitHub Actions, Jenkins, SonarQube, Prometheus, Elasticsearch, Logstash, Kibana, Nginx, Docker, Kubernetes, PM2
-* Machine Learning: TensorFlow, PyTorch, Theano, Anaconda, Jupyter Notebook, CUDA
+* Machine Learning: TensorFlow, PyTorch, Theano, Anaconda, Jupyter Notebook, CUDA, Numpy, Pandas
 * Cloud Tools: GitHub, GitLab, Jira, Confluence, Digital Ocean, Vultr, AWS, Azure, Google Cloud Platform, Linode, Alibaba Cloud, Qiniu Cloud, Tencent Cloud, LeanCloud, Firebase, Pivotal Cloud Foundry, Cloudflare, GoDaddy, Agora
 * LLM: OpenAI, Claude, MiniMax, Amazon Bedrock
 * Test: Postman, Selenium, Karate, JUnit, Mockito, Apache JMeter, Apache ab
-* Others: FFmpeg, Spark, Proxy Tools
+* Others: FFmpeg, Proxy Tools
 
 ## Links
 

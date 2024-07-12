@@ -142,7 +142,10 @@ title:  "Resume"
 * 操作系统：Linux、Windows、MacOS、Android、iOS、OpenWRT
 * 编程语言：PHP、Java、Objective-C、Swift、Ruby、HTML、C、C++、JavaScript、Lisp、Clojure、TypeScript、Node.js、Go、Python、Pascal
 * 领域特定语言：JSON、CSS、SQL、NoSQL、Kusto Query Language、Kibana Query Language
-* 框架与数据库：jQuery、Hexo、Jekyll、React、MongoDB、PostgreSQL、Microsoft SQL Server、Stylus、Sass、MySQL、Redis、Kafka、RTMP流媒体、HTTP/IP、Vue、Spring、Hibernate、Netty、Pandas、Numpy
+* 数据库：MySQL、SQLite、PostgreSQL、Microsoft SQL Server、Amazon RDS、MongoDB
+* 前端：Vue、React、Angular、jQuery、Hexo、Jekyll、Stylus、Sass
+* 框架：RTMP流媒体、HTTP/IP、Spring、Spring Boot、Hibernate、Netty
+* 大数据：Redis、Kafka、Spark、Flink、ZooKeeper
 * 数学：微积分、线性代数、离散数学、Latex
 * 开发工具：NPM、Webpack、Git、HomeBrew、Gradle、Maven、Xcode、VSCode、Sketch、Powershell、IntelliJ IDEA、Cocopods、Android Studio、WordPress、ChatGPT
 * DevOps工具：Travis CI、GitHub Actions、Jenkins、SonarQube、Prometheus、Elasticsearch、Logstash、Kibana、Nginx、Docker、Kubernetes, PM2
