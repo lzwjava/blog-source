@@ -27,7 +27,7 @@ title:  "Resume"
 
 * 分析并重新实现了约30个机器学习示例项目的核心部分，这些项目来源于PyTorch和TensorFlow教程、Coursera在线课程或其他开源项目。同时获得了Coursera关于机器学习专业化和深度学习专业化的两个课程结业证书。
 * 准备参加与获得大专学位相关的考试，重点关注高等数学、计算机组成原理、线性代数等科目。听了很多日本歌曲，也观看了很多日本TikTok视频来学习这门语言。
-* 参与了一个使用Claude的API生成个性化故事的AI驱动故事机器人项目，担任全栈开发人员。该机器人支持提示词设置，并包含一个用于配置的管理页面。我们使用Python、Flask和React进行开发，并部署在AWS上。DNS管理通过GoDaddy和Cloudflare处理。Nginx被用作网关，负责SSL证书和请求头管理。此外，我们使用Prometheus进行监控，并利用Elastic Search、Kibana和Logstash进行日志管理。我们还使用ChatGPT 4o来协助编程。
+* 作为全栈开发人员，参与了一个使用Claude API生成个性化故事的AI驱动故事机器人项目。该机器人支持提示设置，并包括一个用于配置的管理页面。使用Python、Flask、React和Nginx进行开发，并部署在AWS上。使用Prometheus进行监控，ELK栈进行日志管理，并利用ChatGPT-4进行编程协助。
 
 ### 深圳市法本信息技术股份有限公司, 后端工程师, 2022.11 - 2023.07
 
