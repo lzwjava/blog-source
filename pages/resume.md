@@ -156,7 +156,7 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * LLM: OpenAI, Claude, MiniMax, Amazon Bedrock
 * Linux: nmap, grep, awk, ffmpeg, htop, df, lsof, strace, tcpdump, iostat, iptables, rsync, journalctl, systemctl, curl, tmux, traceroute, emacs, diff
 * Test: Postman, Selenium, Karate, JUnit, Mockito, Apache JMeter, Apache ab
-* Others: Proxy Tools
+
 
 ## Links
 
