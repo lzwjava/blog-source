@@ -147,7 +147,7 @@ title:  "Resume"
 * 开发工具：NPM、Webpack、Git、HomeBrew、Gradle、Maven、Xcode、VSCode、Sketch、Powershell、IntelliJ IDEA、Cocopods、Android Studio、WordPress、ChatGPT
 * DevOps工具：Travis CI、GitHub Actions、Jenkins、SonarQube、Prometheus、Elasticsearch、Logstash、Kibana、Nginx、Docker、Kubernetes, PM2
 * 机器学习：TensorFlow、PyTorch、Theano、Anaconda、Jupyter Notebook、CUDA
-* 云工具：GitHub、GitLab、Jira、Confluence、Digital Ocean、Vultr、AWS、Azure、Google Cloud Platform、Linode、阿里云、Pivotal Cloud Foundry、Cloudflare、GoDaddy
+* 云工具：GitHub、GitLab、Jira、Confluence、Digital Ocean、Vultr、AWS、Azure、Google Cloud Platform、Linode、阿里云、七牛云、腾讯云、LeanCloud、Firebase、Pivotal Cloud Foundry、Cloudflare、GoDaddy
 * 测试工具：Postman、Selenium、Karate、JUnit、Mockito、Apache JMeter、Apache ab
 * 其他：FFmpeg、Spark、代理工具
 
