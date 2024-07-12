@@ -150,6 +150,7 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * DevOps Tools: Travis CI, GitHub Actions, Jenkins, SonarQube, Prometheus, Elasticsearch, Logstash, Kibana, Nginx, Docker, Kubernetes, PM2
 * Machine Learning: TensorFlow, PyTorch, Theano, Anaconda, Jupyter Notebook, CUDA
 * Cloud Tools: GitHub, GitLab, Jira, Confluence, Digital Ocean, Vultr, AWS, Azure, Google Cloud Platform, Linode, Alibaba Cloud, Qiniu Cloud, Tencent Cloud, LeanCloud, Firebase, Pivotal Cloud Foundry, Cloudflare, GoDaddy, Agora
+* LLM: OpenAI, Claude, MiniMax, Amazon Bedrock
 * Test: Postman, Selenium, Karate, JUnit, Mockito, Apache JMeter, Apache ab
 * Others: FFmpeg, Spark, Proxy Tools
 
