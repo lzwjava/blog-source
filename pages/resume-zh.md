@@ -91,38 +91,17 @@ title:  "Resume"
 
 ### 公司项目
 
-* AI驱动的故事机器人 (2024.5 - 2024.7)  
-  参与全栈开发。使用的技术栈包括Python, Flask, React, AWS和Claude。
-
-* 汇丰银行的PayMe (2022.11 - 2023.07)  
-  参与自动充值功能和云迁移的后端开发。使用的技术栈包括Java, Spring Cloud, Azure和AWS。
-
-* DBS Digibank CN (2022.7 - 2022.11)  
-  参与互惠基金的后端开发。使用的技术栈包括Java, Spring Cloud和Pivotal Cloud Foundry。
-
-* DBS Client Connect (2021.12 - 2022.6)  
-  参与股票交易的后端开发。使用的技术栈包括Java, Spring Cloud和Pivotal Cloud Foundry。
-
-* ShowMeBug (2021.7 - 2021.9)  
-  负责平台与企业微信的集成，包括登录和便捷的面试入口。使用的技术栈包括Ruby on Rails, PostgreSQL和微信SDK。
-
-* 平方根科技项目 (2018.1 - 2019.12)  
-  完成了50个包括网站、游戏、应用程序和微信小程序在内的各种项目。负责团队管理、合同谈判、项目管理、客户沟通以及部分软件开发。
-
-* 最强大脑电视节目微信小程序 (2018.2 - 2018.3)  
-  负责后端和前端开发。使用的技术栈包括Java, Spring, JavaScript, HTML和阿里云。
-
-* 冲顶大会 (2017.9 - 2018.1)  
-  负责部分后端开发和直播问答应用的管理面板前端开发。使用的技术栈包括Java, Spring, WebSocket和Netty。
-
-* 面包Live (2017.9 - 2018.1)  
-  负责一站式内容变现平台的后端重构。使用的技术栈包括PHP, TypeScript, Laravel和Go。
-
-* 趣直播(2016.6 - 2017.9)  
-  负责知识直播平台的大部分代码开发。使用的技术栈包括PHP, JavaScript, HTML, 阿里云和RTMP流媒体。
-
-* LeanCloud SDK和LeanChat (2014.07 - 2015.10)  
-  负责部分Objective-C和Java SDK开发，以及其演示应用LeanChat的所有开发。
+* AI驱动的故事机器人 (2024.5 - 2024.7) 参与全栈开发，使用的技术栈包括Python, Flask, React, AWS和Claude。
+* 汇丰银行的PayMe (2022.11 - 2023.07) 参与自动充值功能和云迁移的后端开发，使用的技术栈包括Java, Spring Cloud, Azure和AWS。
+* DBS Digibank CN (2022.7 - 2022.11) 参与互惠基金的后端开发，使用的技术栈包括Java, Spring Cloud和Pivotal Cloud Foundry。
+* DBS Client Connect (2021.12 - 2022.6) 参与股票交易的后端开发，使用的技术栈包括Java, Spring Cloud和Pivotal Cloud Foundry。
+* ShowMeBug (2021.7 - 2021.9) 负责平台与企业微信的集成，包括登录和便捷的面试入口，使用的技术栈包括Ruby on Rails, PostgreSQL和微信SDK。
+* 平方根科技项目 (2018.1 - 2019.12) 完成了50个包括网站、游戏、应用程序和微信小程序在内的各种项目，负责团队管理、合同谈判、项目管理、客户沟通以及部分软件开发。
+* 最强大脑电视节目微信小程序 (2018.2 - 2018.3) 负责后端和前端开发，使用的技术栈包括Java, Spring, JavaScript, HTML和阿里云。
+* 冲顶大会 (2017.9 - 2018.1) 负责部分后端开发和直播问答应用的管理面板前端开发，使用的技术栈包括Java, Spring, WebSocket和Netty。
+* 面包Live (2017.9 - 2018.1) 负责一站式内容变现平台的后端重构，使用的技术栈包括PHP, TypeScript, Laravel和Go。
+* 趣直播 (2016.6 - 2017.9) 负责知识直播平台的大部分代码开发，使用的技术栈包括PHP, JavaScript, HTML, 阿里云和RTMP流媒体。
+* LeanCloud SDK和LeanChat (2014.07 - 2015.10) 负责部分Objective-C和Java SDK开发，以及其演示应用LeanChat的所有开发。
 
 ## 开源项目、博客和Codeforces (2013-09至今)
 
