@@ -149,10 +149,10 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * Framework: RTMP streaming, HTTP/IP, Spring, Spring Boot, Hibernate, Netty
 * Big Data: Redis, Kafka, Spark, Flink, ZooKeeper
 * Math: Calculus, Linear Algebra, Discrete mathematics, Latex
-* Development Tools: NPM, Webpack, Git, HomeBrew, Gradle, Maven, Xcode, VSCode, Sketch, Powershell, IntelliJ IDEA, Cocopods, Android Studio, WordPress, ChatGPT
-* DevOps Tools: Travis CI, GitHub Actions, Jenkins, SonarQube, Prometheus, Elasticsearch, Logstash, Kibana, Nginx, Docker, Kubernetes, PM2
+* Development: NPM, Webpack, Git, HomeBrew, Gradle, Maven, Xcode, VSCode, Sketch, Powershell, IntelliJ IDEA, Cocopods, Android Studio, WordPress, ChatGPT
+* DevOps: Travis CI, GitHub Actions, Jenkins, SonarQube, Prometheus, Elasticsearch, Logstash, Kibana, Nginx, Docker, Kubernetes, PM2
 * Machine Learning: TensorFlow, PyTorch, Theano, Anaconda, Jupyter Notebook, CUDA, Numpy, Pandas
-* Cloud Tools: GitHub, GitLab, Jira, Confluence, Digital Ocean, Vultr, AWS, Azure, Google Cloud Platform, Linode, Alibaba Cloud, Qiniu Cloud, Tencent Cloud, LeanCloud, Firebase, Pivotal Cloud Foundry, Cloudflare, GoDaddy, Agora
+* Cloud: GitHub, GitLab, Jira, Confluence, Digital Ocean, Vultr, AWS, Azure, Google Cloud Platform, Linode, Alibaba Cloud, Qiniu Cloud, Tencent Cloud, LeanCloud, Firebase, Pivotal Cloud Foundry, Cloudflare, GoDaddy, Agora
 * LLM Services: OpenAI, Claude, MiniMax, Amazon Bedrock
 * Test: Postman, Selenium, Karate, JUnit, Mockito, Apache JMeter, Apache ab
 * Others: FFmpeg, Proxy Tools
