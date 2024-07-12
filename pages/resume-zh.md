@@ -105,7 +105,7 @@ title:  "Resume"
 
 ## 开源项目、博客和Codeforces (2013-09至今)
 
-* 探索我的开源项目、公司项目和个人项目，请访问GitHub: [https://github.com/lzwjava](https://github.com/lzwjava)
+* 请浏览我的开源项目，涵盖了我创建的企业项目和个人业余项目: [https://github.com/lzwjava](https://github.com/lzwjava)
 * algorithm-solutions: 算法问题的解决方案，2466次提交，Java
 * lzwjava.github.io: 我的博客，500次提交，中英文
 * live-server: 知识直播平台的后端，660次提交，PHP
