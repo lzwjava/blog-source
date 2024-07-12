@@ -93,41 +93,62 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Corporate Projects
 
-* An AI-powered story bot. Participated in the full stack development. Used tech stacks like Python, Flask, React, AWS, and Claude. From 2024.5 to 2024.7. 
-* PayMe from HSBC. Participated in the backend development of auto top-up feature and cloud migration. Used tech stacks like Java, Spring Cloud, Azure and AWS. From 2022.11 to 2023.07.
-* DBS Digibank CN. Participated in the backend development of mutual funds. Used tech stacks like Java, Spring Cloud, and Pivotal Cloud Foundry. From 2022.7 to 2022.11.
-* DBS Client Connect. Participated in the backend development of equity trading. Used tech stacks like Java, Spring Cloud and Pivotal Cloud Foundry. From 2021.12 to 2022.6.
-* ShowMeBug, an online interview platform. Responsible for the integration between the platform and the Enterprise WeChat, like login, and easy interview entrance. Used tech stacks like Ruby on Rails, PostgreSQL and WeChat SDK. From 2021.7 to 2021.9.
-* The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs. Responsible for team management, contract negotiation, project management, client communications and some software development. From 2018.1 to 2019.12.
-* The WeChat Mini program for Super Brain TV Program in China. Responsible for the backend and frontend development. Used tech stacks like Java, Spring, Javascript, HTML and AliCloud. From 2018.2 to 2018.3.
-* Chongding Conference, a live-streaming trivia app. Responsible for some backend development and frontend development of admin panel. Used tech stacks like Java, Spring, WebSocket and Netty. From 2017.9 to 2018.1.
-* Mianbao Live, a one-stop content monetization platform. Responsible for refactoring the backend. Used tech stacks like PHP, TypeScript, Laravel and Go. From 2017.9 to 2018.1.
-* Fun Live, a knowledge live broadcast platform. Responsible for most code development. Used tech stacks like PHP, Javascript, HTML, AliCloud and RTMP Streaming. From 2016.6 to 2017.9.
-* LeanCloud Objective-C SDK, Java SDK and LeanChat. Responsible for some Objective-C and Java SDK development, and all development of their demo app LeanChat. From 2014.07 to 2015.10.
+* AI-powered Story Bot (2024.5 - 2024.7)  
+  Participated in the full stack development. Used tech stacks like Python, Flask, React, AWS, and Claude.
 
-### Open Source & Blog & Codeforces, 2013-09 to Present
+* PayMe from HSBC (2022.11 - 2023.07)  
+  Participated in the backend development of the auto top-up feature and cloud migration. Used tech stacks like Java, Spring Cloud, Azure, and AWS.
 
-* Please explore my open-source projects, both corporate initiatives  I've founded and personal side projects, on GitHub: https://github.com/lzwjava.
-* algorithm-solutions, the solutions to algorithm problems, 2466 commits, Java
-* lzwjava.github.io, my blog, 500 commits, English & Chinese
-* live-server, the backend of a knowledge live broadcast platform, 660 commits, PHP
-* live-mobile-web, the mobile frontend of a knowledge live broadcast platform, 528 commits, Vue & JavaScript
-* live-web, the desktop frontend of a knowledge live broadcast platform, 140 commits, Vue
-* live-wxapp, the WeChat Miniprogram of a knowledge live broadcast platform, 63 commits, JavaScript
-* code-review-server, the backend of a professional platform for code review, 275 commits, PHP
-* code-review-web, the frontend of a professional platform for code review, 302 commits, Vue & JavaScript
-* weimg-server, the backend of an image community, 35 commits, PHP
-* weimg-ios, an iOS application of an image community, 77 commits, Objective-C
-* leanchat-ios, an iOS chat application, 556 commits, Objective-C
-* leanchat-android, an Android chat application, 412 commits, Java
-* curiosity-courses, a programming course, 215 commits, Chinese
-* LZAlbum, an iOS simple application like WeChat moments, 47 commits, Objective-C
-* TabsKiller, a Chrome plugin that helps to close tabs in the brower, 19 commits, JavaScript
-* Reveal-In-GitHub, an Xcode plugin, 57 commits, Objective-C
-* LvchenSign, a website of an advertising signage company, 40 commits, JavaScript
-* feynman-lectures-mobi, a tool to convert latex to SVG to create mobi ebook, 47 commits, Python
-* flower-recognition, a flower recognition Android application, 37 commits, Java
-* Creak, a simple HTML Parser, 49 commits, Swift
+* DBS Digibank CN (2022.7 - 2022.11)  
+  Participated in the backend development of mutual funds. Used tech stacks like Java, Spring Cloud, and Pivotal Cloud Foundry.
+
+* DBS Client Connect (2021.12 - 2022.6)  
+  Participated in the backend development of equity trading. Used tech stacks like Java, Spring Cloud, and Pivotal Cloud Foundry.
+
+* ShowMeBug (2021.7 - 2021.9)  
+  Responsible for the integration between the platform and Enterprise WeChat, including login and easy interview entrance. Used tech stacks like Ruby on Rails, PostgreSQL, and WeChat SDK.
+
+* Square Root Inc Projects (2018.1 - 2019.12)  
+  Completed 50 miscellaneous projects including websites, games, apps, and WeChat mini programs. Responsible for team management, contract negotiation, project management, client communications, and some software development.
+
+* Super Brain TV Program WeChat Mini Program (2018.2 - 2018.3)  
+  Responsible for the backend and frontend development. Used tech stacks like Java, Spring, JavaScript, HTML, and AliCloud.
+
+* Chongding Conference (2017.9 - 2018.1)  
+  Responsible for some backend development and frontend development of the admin panel for a live-streaming trivia app. Used tech stacks like Java, Spring, WebSocket, and Netty.
+
+* Mianbao Live (2017.9 - 2018.1)  
+  Responsible for refactoring the backend of a one-stop content monetization platform. Used tech stacks like PHP, TypeScript, Laravel, and Go.
+
+* Fun Live (2016.6 - 2017.9)  
+  Responsible for most code development of a knowledge live broadcast platform. Used tech stacks like PHP, JavaScript, HTML, AliCloud, and RTMP Streaming.
+
+* LeanCloud SDK and LeanChat (2014.07 - 2015.10)  
+  Responsible for some Objective-C and Java SDK development, and all development of their demo app LeanChat.
+
+## Open Source & Blog & Codeforces (2013-09 to Present)
+
+* Explore my open-source projects, corporate initiatives, and personal side projects on GitHub: [https://github.com/lzwjava](https://github.com/lzwjava)
+* algorithm-solutions: Solutions to algorithm problems, 2466 commits, Java
+* lzwjava.github.io: My blog, 500 commits, English & Chinese
+* live-server: Backend of a knowledge live broadcast platform, 660 commits, PHP
+* live-mobile-web: Mobile frontend of a knowledge live broadcast platform, 528 commits, Vue & JavaScript
+* live-web: Desktop frontend of a knowledge live broadcast platform, 140 commits, Vue
+* live-wxapp: WeChat Miniprogram of a knowledge live broadcast platform, 63 commits, JavaScript
+* code-review-server: Backend of a professional platform for code review, 275 commits, PHP
+* code-review-web: Frontend of a professional platform for code review, 302 commits, Vue & JavaScript
+* weimg-server: Backend of an image community, 35 commits, PHP
+* weimg-ios: iOS application of an image community, 77 commits, Objective-C
+* leanchat-ios: iOS chat application, 556 commits, Objective-C
+* leanchat-android: Android chat application, 412 commits, Java
+* curiosity-courses: A programming course, 215 commits, Chinese
+* LZAlbum: An iOS application similar to WeChat moments, 47 commits, Objective-C
+* TabsKiller: A Chrome plugin to help close browser tabs, 19 commits, JavaScript
+* Reveal-In-GitHub: An Xcode plugin, 57 commits, Objective-C
+* LvchenSign: Website for an advertising signage company, 40 commits, JavaScript
+* feynman-lectures-mobi: Tool to convert LaTeX to SVG for creating mobi ebooks, 47 commits, Python
+* flower-recognition: Android application for flower recognition, 37 commits, Java
+* Creak: A simple HTML parser, 49 commits, Swift
 
 ## Skills
 
