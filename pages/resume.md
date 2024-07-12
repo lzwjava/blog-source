@@ -154,8 +154,9 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * Machine Learning: TensorFlow, PyTorch, Theano, Anaconda, Jupyter Notebook, CUDA, Numpy, Pandas
 * Cloud: GitHub, GitLab, Jira, Confluence, Digital Ocean, Vultr, AWS, Azure, Google Cloud Platform, Linode, Alibaba Cloud, Qiniu Cloud, Tencent Cloud, LeanCloud, Firebase, Pivotal Cloud Foundry, Cloudflare, GoDaddy, Agora
 * LLM: OpenAI, Claude, MiniMax, Amazon Bedrock
+* Linux: nmap, grep, awk, ffmpeg, htop, df, lsof, strace, tcpdump, iostat, iptables, rsync, journalctl, systemctl, curl, tmux, traceroute, emacs, diff
 * Test: Postman, Selenium, Karate, JUnit, Mockito, Apache JMeter, Apache ab
-* Others: FFmpeg, Proxy Tools
+* Others: Proxy Tools
 
 ## Links
 
