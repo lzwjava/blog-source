@@ -154,7 +154,7 @@ title:  "Resume"
 * 大模型：OpenAI、Claude、MiniMax、Amazon Bedrock
 * Linux：nmap、grep、awk、ffmpeg、htop、df、lsof、strace、tcpdump、iostat、iptables、rsync、journalctl、systemctl、curl、tmux、traceroute、emacs、diff
 * 测试工具：Postman、Selenium、Karate、JUnit、Mockito、Apache JMeter、Apache ab
-* 其他：FFmpeg、Spark、代理工具
+* 其他：代理工具
 
 ### 证书
 
