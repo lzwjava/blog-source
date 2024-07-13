@@ -157,13 +157,12 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * Linux: nmap, grep, awk, ffmpeg, htop, df, lsof, strace, tcpdump, iostat, iptables, rsync, journalctl, systemctl, curl, tmux, traceroute, emacs, diff
 * Test: Postman, Selenium, Karate, JUnit, Mockito, Apache JMeter, Apache ab
 
-
 ## Domain Knowledge
 
 * Banking and Payments: Developed automatic fund top-ups, integrated payment gateways, ensured compliance with financial regulations, contributed to equity trading and mutual funds management.
 * Education and E-learning Platforms: Built live broadcasting platforms with payment integration, developed user and content management systems, managed a knowledge live broadcast platform with 30,000+ users, created interactive features for rewards and barrage.
 * Machine Learning and Big Data: Analyzed large datasets for predictive modeling, assembled a deep learning computer and ran models like LLaMA for refinement.
-* Social Media and Content Platforms: Created platforms for code review and content monetization, developed scalable backend services for high traffic.
+* Social Media and Content Platforms: Created platforms for code review and refactored platform for content monetization, developed scalable backend services for high traffic.
 * Live Streaming and Video Content: Developed live streaming systems with subscriptions and notifications, implemented payment systems and analytics for user engagement.
 * User and Account Management: Designed user authentication and profile management systems, implemented session management and account tracking features.
 * Notification Systems: Created systems for SMS, email, and in-app notifications, integrated third-party services for real-time alerts.
