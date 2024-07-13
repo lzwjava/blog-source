@@ -163,7 +163,6 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * Education and E-learning Platforms: Built live broadcasting platforms with payment integration, developed user and content management systems, managed a knowledge live broadcast platform with 30,000+ users, created interactive features for rewards and barrage.
 * Machine Learning and Big Data: Analyzed large datasets for predictive modeling, assembled a deep learning computer and ran models like LLaMA for refinement.
 * Social Media and Content Platforms: Created platforms for code review and refactored platform for content monetization, developed scalable backend services for high traffic.
-* Live Streaming and Video Content: Developed live streaming systems with subscriptions and notifications, implemented payment systems and analytics for user engagement.
 * User and Account Management: Designed user authentication and profile management systems, implemented session management and account tracking features.
 * Notification Systems: Created systems for SMS, email, and in-app notifications, integrated third-party services for real-time alerts.
 * Data and Analytics: Implemented logging and monitoring systems, managed real-time analytics dashboards using ELK.
