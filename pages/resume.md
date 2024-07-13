@@ -160,7 +160,7 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 ## Domain Knowledge
 
 * Industry Knowledge: Banking and Payments, Education and E-learning Platforms, Social Media and Content Platforms, User and Account Management, Notification Systems, Data and Analytics, Mobile Applications, Payment Systems, Transaction Management, Social Media Integration, Video Management, Reward Systems, Live View Tracking, Application Management, Mutual Funds and Equity Trading, Browser-Based Programming Environments.
-* Computer Science Fundamentals: Advanced Mathematics, Computer Organization, Operating Systems, Computer Network Technology, Database and Applications, Computer Application Technology, Data Structures, Microcomputer and Interface Technology, Algorithms, Graph Theory, Search Algorithms, Sorting Algorithms, Recursive Programming, Compiler Design and Construction.
+* Computer Science Fundamentals: Advanced Mathematics, Computer Organization, Operating Systems, Computer Network Technology, Database and Applications, Computer Application Technology, Data Structures and Algorithms, Microcomputer and Interface Technology, Compiler Design and Construction.
 * Technology and Development: Multilingual Communication, Cross-Platform Development, Full-Stack Programming, Database Management, Machine Learning and Big Data, Mathematical Proficiency, Development Tools, Machine Learning Implementation, Advanced Linux Usage, Testing and Quality Assurance, API Integration, Open Source Contributions, Technical Writing and Blogging, Cloud Computing Services, Distributed Systems.
 
 ## Links
