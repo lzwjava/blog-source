@@ -159,14 +159,7 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 
 ## Domain Knowledge
 
-* Banking and Payments: Developed automatic fund top-ups, integrated payment gateways, ensured compliance with financial regulations, contributed to equity trading and mutual funds management.
-* Education and E-learning Platforms: Built a live broadcasting platform with payment integration, developed user and content management systems, managed a knowledge live broadcast platform with 30,000+ users, created interactive features for rewards and barrage.
-* Machine Learning and Big Data: Analyzed large datasets for predictive modeling, assembled a deep learning computer and ran models like LLaMA for refinement.
-* Social Media and Content Platforms: Created platforms for code review and refactored platform for content monetization, developed scalable backend services for high traffic.
-* User and Account Management: Designed user authentication and profile management systems, implemented session management and account tracking features.
-* Notification Systems: Created systems for SMS, email, and in-app notifications, integrated third-party services for real-time alerts.
-* Data and Analytics: Implemented logging and monitoring systems, managed real-time analytics dashboards using ELK.
-
+Banking and Payments, Education and E-learning Platforms, Machine Learning and Big Data, Social Media and Content Platforms, User and Account Management, Notification Systems, Data and Analytics, Mobile Applications, Payment Systems, Transaction Management, Social Media Integration, Video Management, Reward Systems, Live View Tracking, Application Management, Mutual Funds and Equity Trading, Browser-Based Programming Environments, Cloud Computing Services, DevOps and CI/CD, Backend Development, Frontend Development, Real-Time Systems, Data Management, Machine Learning Integration, Mobile Development, Automation and Testing, API Integration, Open Source Contributions, Technical Writing and Blogging, English, Advanced Mathematics, Computer Organization, Operating Systems, Computer Network Technology, Database and Applications, Computer Application Technology, Data Structures, Microcomputer and Interface Technology.
 
 ## Links
 
