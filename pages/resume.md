@@ -145,7 +145,7 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * Language: PHP, Java, Objective-C, Swift, Ruby, HTML, C, C++, JavaScript, Lisp, Clojure, TypeScript, Node.js, Go, Python, Pascal
 * Domain-specific language: JSON, CSS, SQL, NoSQL, Kusto Query Language, Kibana Query Language
 * Database: MySQL, SQLite, PostgreSQL, Microsoft SQL Server, Amazon RDS, MongoDB
-* Frontend: Vue, React, Angular, jQuery, Hexo, Jekyll, Stylus, Sass,
+* Frontend: Vue, React, Angular, jQuery, Hexo, Jekyll, Stylus, Sass
 * Framework: RTMP streaming, HTTP/IP, Spring, Spring Boot, Hibernate, Netty
 * Big Data: Redis, Kafka, Spark, Flink, ZooKeeper
 * Math: Calculus, Linear Algebra, Discrete mathematics, Latex
