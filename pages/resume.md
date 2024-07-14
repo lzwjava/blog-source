@@ -104,7 +104,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Fun Live (2016.6 - 2017.9) Responsible for most code development of a knowledge live broadcast platform. Used tech stacks like PHP, JavaScript, HTML, AliCloud, and RTMP Streaming.
 * LeanCloud SDK and LeanChat (2014.07 - 2015.10) Responsible for some Objective-C and Java SDK development, and all development of their demo app LeanChat.
 
-## Open Source & Blog & Codeforces (2013-09 to Present)
+### Open Source & Blog & Codeforces (2013-09 to Present)
 
 * Explore my open-source projects, corporate initiatives, and personal side projects on GitHub: [https://github.com/lzwjava](https://github.com/lzwjava)
 * algorithm-solutions: Solutions to algorithm problems, 2466 commits, Java
