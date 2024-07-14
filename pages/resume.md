@@ -74,7 +74,8 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Now
 
-* National Higher Education Self-study Examination. Passed 5 courses as of now, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics.
+* National Higher Education Self-study Examination. Passed 5 courses as of now, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics. 
+* Currently preparing for courses such as Computer Organization, Computer Network Technology, Database and Applications, Computer Application Technology, Linear Algebra, Basic Electronics, and Microcomputer and Interface Technology.
 
 ### Beijing Forestry University, Digital Media Arts, Bachelor(Dropout), 2013.09 - 2014.06
 
