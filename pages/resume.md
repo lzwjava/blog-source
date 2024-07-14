@@ -11,7 +11,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ----
 
-## Profiles
+## Profile
 
 * 29-year-old male, Chinese citizen, resides in Guangzhou.
 * Achieved top 300 in Guangdong NOIP 2011 and solved around 1000 algorithm problems online.
