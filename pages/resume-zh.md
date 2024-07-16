@@ -45,13 +45,12 @@ title:  "Resume"
 
 ### 无, 自由职业者, 2020.01 - 2021.11
 
-### 自由职业者, 2020.01 - 2021.11
-
-* 撰写并发布技术博客，在网上分享知识；通过观看 Netflix 和阅读文学作品提高了英语水平；通过解决约 500 个算法问题并参加 Codeforces 比赛提升了问题解决能力。通过探索 Spark、Hadoop、Kubernetes 和 Docker 的入门教程和运行示例，获得了一些大数据和云原生技术的实践经验。
-* 完成了多项自由职业的软件项目，包括 LED 标牌网站开发、ShowMeBug 企业微信集成、贸易数据采集的网页抓取工具开发。
-* LED 标牌网站开发 (lvchensign.com): 使用 Bootstrap、HTML 和 JavaScript 为一家 LED 标牌制造公司开发了一个网站。实现了展示产品的功能。优化了网站的 SEO 并集成了 Google Analytics 以跟踪用户行为。
-* ShowMeBug 企业微信集成: 参与了 ShowMeBug 与企业微信的集成，使技术面试工具能够在企业微信生态系统中无缝访问。使用 Ruby、Ruby On Rails、PostgreSQL 和微信 SDK 等技术，为面试官和候选人创造了流畅的用户体验。
-* 贸易数据采集的网页抓取工具开发: 使用 Python 和 Selenium 开发了一个网页抓取工具，为一家无纺布公司采集贸易数据。自动化了数据提取和页面导航，处理并将数据存储在 SQLite 数据库中，并生成了商业分析报告。实现了错误处理和日志记录，以确保抓取工具的可靠性和可维护性。
+* 撰写并发布技术博客在线分享知识，通过观看Netflix和阅读文学作品提高英语水平，通过解决约500道算法题和参加Codeforces比赛提高解决问题的能力。通过探索Spark、Hadoop、Kubernetes和Docker的入门教程和示例，获得了大数据和云原生技术的实际经验。
+* 作为自由职业者完成了各种软件项目，包括LED标识网站开发、ShowMeBug企业微信集成、贸易数据收集的网页爬虫以及电子书工具mathjax2mobi。
+* LED标识网站开发（lvchensign.com）：使用Bootstrap、HTML和JavaScript开发了一家LED标识制造公司的网站，实现了展示产品的功能，优化了网站的SEO，并集成了Google Analytics来跟踪用户行为。
+* ShowMeBug企业微信集成：为ShowMeBug与企业微信的集成做出了贡献，使得技术面试工具在企业微信生态系统中无缝访问。使用了Ruby、Ruby On Rails、PostgreSQL和WeChat SDK等技术，为面试官和候选人创造了流畅的用户体验。
+* 贸易数据收集的网页爬虫：使用Python和Selenium开发了一个网页爬虫，为一家无纺布公司收集贸易数据。自动化了数据提取和页面导航，处理并存储数据到SQLite数据库，并生成业务分析报告。实施了错误处理和日志记录，以确保爬虫的可靠性和可维护性。
+* mathjax2mobi：一个设计用于将包含MathJax方程的HTML内容转换为适合电子书格式的工具。通过将基于LaTeX的MathJax方程转换为SVG图像，确保其与MOBI等电子书格式兼容。该工具促进了复杂数学内容在电子书中的无缝集成，非常适合科学和教育出版物。使用的技术包括Python、BeautifulSoup和Selenium。
 
 ### 北京平方根科技有限公司, 创始人 & 全栈工程师, 2016.07 - 2019.12
 
