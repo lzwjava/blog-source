@@ -40,7 +40,7 @@ title:  "Resume"
 * 博彦科技是一家领先的商业IT和咨询公司。星展银行是东南亚资产最大的银行之一，也是亚洲规模最大的银行之一。
 * 与博彦科技签约后，我被分配到DBS银行工作，并为DBS Client Connect和DBS DigiBank CN项目做出了贡献。
 * 在DBS Client Connect项目中，我参与了股票交易微服务的开发。我的职责包括创建股票展示、客户展示、交易前检查以及实际股票交易订单的功能。我们集成了Avaloq API，以增强底层基础设施，并通过实现编辑距离算法来改进股票代码搜索，从而提升用户体验。
-* 在DBS DigiBank CN项目中，我参与了多个微服务的后端开发，包括订阅或赎回共同基金等共同基金管理任务。我通过分析来自Pivotal Cloud Foundry的日志来帮助进行性能测试，以生成微服务QPS的报告。此外，我开发了一种使用Karate框架自动生成测试的工具。
+* 在DBS DigiBank CN项目中，我参与了多个微服务的后端开发，包括订阅或赎回共同基金等共同基金管理任务。我通过分析来自Pivotal Cloud Foundry的日志来帮助进行性能测试，以生成微服务QPS的报告。此外，我开发了一种工具，用于自动生成Karate测试工具所需的测试用例。
 * 我们利用了云技术和现代框架，采用了自动化最佳实践，使用了Java、Spring Cloud、Jira、Confluence、Jenkins、Pivotal Cloud Foundry和Kibana等工具，并采用了BDD和TDD方法论。
 
 ### 无, 自由职业者, 2020.01 - 2021.11
