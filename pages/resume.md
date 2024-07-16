@@ -62,8 +62,9 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ### Beijing Dami Entertainment Co., Cofounder & Full Stack Engineer, 2015.11 - 2016.7
 
-* Beijing Dami Entertainment Co. was a company founded by 6 Internet lovers, including me. We launched and operated the platform CodeReview, a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. It gained around 3000 users.
-* I was responsible for the code development of the backend and half of the frontend. We utilized a strong tech stack including PHP, Vue, Code Igniter, Alibaba Cloud, and Ping++.
+* Beijing Dami Entertainment Co. was a company founded by 6 Internet enthusiasts, including me. We launched and operated the platform CodeReview, a professional platform for code review, communication, and sharing. It gained around 3000 users.
+* The platform has functionalities including user management, code submission and review processes, notification systems, payment integration, and event and workshop management. Engineers can submit their code for expert review to improve its quality. Experts receive fees for their reviews. The platform also offers workshops and events open to users.
+* I was responsible for the code development of the backend and half of the frontend. We utilized a strong tech stack including PHP, Vue, CodeIgniter, Alibaba Cloud, and Ping++.
 
 ### Delicious Bookmarks (Beijing) Information Technology Co., Ltd. Software Engineer, 2014.07 - 2015.11
 
