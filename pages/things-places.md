@@ -5,7 +5,7 @@ title:  "Things & Places"
 
 ### Chinese Translation
 
-Please check [here](/things-places-cn).
+Please check [here](/pages/things-places-cn).
 
 ### Things
 
