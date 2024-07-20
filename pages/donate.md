@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Donate"
+title:  "If You Like My Work: Donate to Show Appreciation"
 ---
 
 If you like my essays, code, or videos, you can voluntarily make a payment. You can use the following methods to pay.
