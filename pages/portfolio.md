@@ -10,6 +10,7 @@ The PDF file can be found [here](/assets/resume/Zhiwei.Li.Portfolio.pdf).
 This collection of software represents the diverse projects I have had the privilege to work on throughout the years, in collaboration with various esteemed companies and partners. 
 
 I am grateful for the opportunities and experiences these collaborations have provided, and I look forward to continuing to contribute my skills and expertise to future endeavors.
+
 ## Uva & Codeforces, Java & C++, 2008-2013 & 2021
 
 Solved around 1000 algorithm problems on the online judge.
@@ -22,28 +23,41 @@ The range of algorithm problems I'v solved encompasses various areas, including 
 
 ## Flower Recognition, Android, 2014.4 - 2014.8
 
-A flower recognition Android application designed to help users identify flowers by capturing photos and drawing circles to aid in recognition.
+Developed a flower recognition Android application designed to help users identify flowers by capturing photos and drawing circles to aid in recognition.
 
-Responsible for Android development.
+**Technologies Used:** Android SDK, Java
+
+**Responsibilities:**
+- Implemented the image recognition functionality.
+- Designed and developed the user interface.
+- Integrated the photo capture and processing features.
 
 [Open sourced at GitHub](https://github.com/lzwjava/flower-recognition), 33 commits.
 
 ## iword, Android, 2014.3
 
-An Android application to help you learn English by watching movie clips. 
+An Android application to help users learn English by watching movie clips. 
 
-Responsible for Android development.
+**Technologies Used:** Android SDK, Java
 
-2014 AVOS Cloud Hackaton Third Prize. 
+**Responsibilities:**
+- Developed the movie clip playback and learning interface.
+- Implemented features to improve vocabulary and comprehension through interactive content.
+
+**Achievements:** Won Third Prize in the 2014 AVOS Cloud Hackathon.
 
 [SegmentFault: Review of the 2014 AVOS Cloud Hackathon Achievements](https://segmentfault.com/a/1190000000427302)
+
 ## Bjfu Assistant, Android, 2014.1 - 2014.6
 
-A campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums.
+A campus assistant Android application that integrates functions like checking grades and participating in alumni forums.
 
-Responsible for Android development.
+**Technologies Used:** Android SDK, Java
 
-Gained around 3500 Users in Beijing Forestry University.
+**Responsibilities:**
+- Developed core functionalities such as grade checking and forum participation.
+- Designed and implemented the user interface.
+- Achieved widespread use with around 3500 users at Beijing Forestry University.
 
 <div align="center">
 
@@ -57,9 +71,14 @@ Gained around 3500 Users in Beijing Forestry University.
 
 ## LeanChat, Android, 2014.7 - 2014.12
 
-"Leanchat" includes features such as friend management, group management, location-based messaging, nearby people, personal profiles, and login/register functions, all fully utilizing LeanCloud's storage and communication capabilities.
+LeanChat is a chat application that includes features such as friend management, group management, location-based messaging, nearby people, personal profiles, and login/register functions, all fully utilizing LeanCloud's storage and communication capabilities.
 
-Responsible for Android development.
+**Technologies Used:** Android SDK, Java, LeanCloud
+
+**Responsibilities:**
+- Developed friend management, group management, and location-based messaging features.
+- Implemented personal profiles and login/register functions.
+- Leveraged LeanCloud's storage and communication capabilities.
 
 [Open sourced at GitHub](https://github.com/lzwjava/leanchat-android), 412 commits.
 
@@ -75,9 +94,14 @@ Responsible for Android development.
 
 ## LeanChat, iOS, 2015.1 - 2015.10
 
-The iOS application of LeanChat.
+Developed the iOS version of LeanChat, a chat application that utilizes LeanCloud's backend services for messaging and storage.
 
-Responsible for iOS development.
+**Technologies Used:** iOS SDK, Objective-C, LeanCloud
+
+**Responsibilities:**
+- Built friend and group management functionalities.
+- Created location-based messaging and nearby people features.
+- Designed personal profiles and login/register screens.
 
 [Open sourced at GitHub](https://github.com/lzwjava/leanchat-ios), 446 commits.
 
@@ -93,56 +117,85 @@ Responsible for iOS development.
 
 ## LeanCloud Java SDK & Objective-C SDK, 2015.4 - 2015.10
 
-LeanCloud is the leading backend-as-a-service provider that offers a complete set of cloud services including object storage, file storage, web hosting, container, instant messaging, push notification, SMS, and game backend.
+Participated in the development of LeanCloud's Java SDK and Objective-C SDK, providing developers with tools to easily integrate LeanCloud services into their applications.
 
-Participated some development for the Objective-C SDK and Java SDK.
+**Technologies Used:** Java, Objective-C, LeanCloud
 
-[Objective-C SDK documentaion](https://docs.leancloud.cn/en/sdk/storage/guide/objc/) and [Java SDK documentation](https://docs.leancloud.cn/en/sdk/storage/guide/java/).
+**Responsibilities:**
+- Contributing to the development of LeanCloud's Java SDK and Objective-C SDK.
+- Ensuring seamless integration of LeanCloud services such as object storage, file storage, and messaging.
+
+[Objective-C SDK documentation](https://docs.leancloud.cn/en/sdk/storage/guide/objc/) and [Java SDK documentation](https://docs.leancloud.cn/en/sdk/storage/guide/java/).
 
 ## TabsKiller, Frontend, 2015.7
 
-A Chrome plugin that automatically closes the oldest tabs when your browser gets cluttered with too many tabs. Say goodbye to a messy browser experience forever!
+Developed a Chrome plugin that automatically closes the oldest tabs when the browser gets cluttered with too many tabs, improving browser performance and user experience.
 
-<img src="/assets/images/portfolio/tabs.jpg" width="300px"/><img/>
+**Technologies Used:** JavaScript, Chrome API
 
 Open Sourced at [GitHub](https://github.com/lzwjava/TabsKiller), 19 commits.
 
+<div align="center">
+
+<img src="/assets/images/portfolio/tabs.jpg" width="300px"/><img/>
+
+</div>
+
 ## Reveal-In-GitHub, MacOS, 2015.10
 
-An Xcode plugin designed for seamless navigation to key GitHub functionalities within your current repository. With just a click, effortlessly access GitHub History, Blame, Pull Requests, Issues, and Notifications, all in a matter of seconds.
+Created an Xcode plugin designed for seamless navigation to key GitHub functionalities within the current repository. The plugin allows users to quickly access GitHub History, Blame, Pull Requests, Issues, and Notifications.
+
+**Technologies Used:** Objective-C, Xcode Plugin API
 
 Open Sourced at [GitHub](https://github.com/lzwjava/Reveal-In-GitHub), 57 commits.
 
+<div align="center">
+
 <img src="/assets/images/portfolio/reveal.png"/><img/>
+
+</div>
 
 ## CodeReview, Full Stack, 2015.11 - 2016.7
 
-CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. It was founded by 6 Internet lovers, including me.
+CodeReview is a professional platform for code review, communication, and sharing. Engineers can submit their code for expert review to improve the quality of their code. 
 
-Responsible for the code developement of the backend and half of the frontend.
+**Technologies Used:** PHP, Vue.js, CodeIgniter, Alibaba Cloud
 
-We leveraged cloud technologies and modern frameworks with tools such as PHP, Vue, Code Igniter, Alibaba Cloud and Ping++.
+**Responsibilities:**
+- Developed the backend using PHP and CodeIgniter.
+- Implemented frontend features with Vue.js.
+- Integrated with Alibaba Cloud for scalable and reliable infrastructure.
+- Handled user management, code submission and review processes, notification systems, payment integration, and event/workshop management.
 
 Open Sourced at GitHub.
 
 * [code-review-server](https://github.com/lzwjava/code-review-server), 275 commits
-* [code-review-web](https://github.com/lzwjava/code-review-web), 488 commits(302 commits by me)
+* [code-review-web](https://github.com/lzwjava/code-review-web), 488 commits (302 commits by me)
+
+<div align="center">
 
 <img src="/assets/images/portfolio/cr1.jpg"/><img/>
 
 <img src="/assets/images/portfolio/cr2.jpg"/><img/>
+
+</div>
+
 ## Fun Live, Full Stack, 2016.6 - 2017.12
 
-Fun Live, a knowledge live broadcast platform. With Fun Live, users can participate in various knowledge lectures such as programming or design here. Users can pay some fees to attend the live or reward the lecturer. The lecturer uses the OBS tool to push live stream to the server. Users can participate the lecture in real time or see the playback later. It integrates seamlessly with the WeChat platform like the notifications functionality. By hosting around 80 lectures, it gained around 30000 users and millions of page views.
+Fun Live is a knowledge live broadcast platform where users can participate in various knowledge lectures such as programming or design. Users can pay fees to attend live sessions or reward the lecturer. 
 
-My Startup Project. Responsible for most code developement of the backend and frontend.
+**Technologies Used:** PHP, MySQL, Vue.js, CodeIgniter, Alibaba Cloud, SRS streaming, WeChat SDK
 
-We leveraged cloud technologies and modern frameworks with tools such as PHP, MySQL, Vue, Code Igniter, Alibaba Cloud, SRS streaming and WeChat SDK.
+**Responsibilities:**
+- Developed most of the backend and frontend code.
+- Integrated the OBS tool for live streaming.
+- Implemented user registration, payment, and notification functionalities.
+- Achieved significant user engagement with around 30000 users and millions of page views.
 
 Open Sourced at GitHub.
 
-* [live-server](https://github.com/lzwjava/live-server), 661 commits(555 commits by me)
-* [live-mobile-web](https://github.com/lzwjava/live-mobile-web), 528 commits(426 commits by me)
+* [live-server](https://github.com/lzwjava/live-server), 661 commits (555 commits by me)
+* [live-mobile-web](https://github.com/lzwjava/live-mobile-web), 528 commits (426 commits by me)
 * [live-web](https://github.com/lzwjava/live-web), 140 commits
 * [live-wxapp](https://github.com/lzwjava/live-wxapp), 63 commits
 
@@ -174,7 +227,9 @@ WeChat MiniProgram:
 
 <img src="/assets/images/portfolio/wxapp1.jpg" width="200px" /><img/>
 
-<img src="/assets/images/portfolio/wxapp2.jpg" width="200px" /><img/>
+<img src="/assets/images/portfolio/wxapp2.jpg" width="200px" /><img
+
+/>
 
 <img src="/assets/images/portfolio/wxapp3.jpg" width="200px" /><img/>
 
@@ -188,9 +243,14 @@ Desktop website:
 
 ## Mianbao Live, Backend, 2017.10 - 2017.12
 
-The Mianbao Live is a one-stop content monetization and social economy solution provider. I worked for my investor's company for several months during my startup-transforming business period. 
+Mianbao Live is a one-stop content monetization and social economy solution provider.
 
-Responsible for refactoring the backend by moving most logic from several programming languages to one programming language. Worked with PHP, Laravel, TypeScript and Go.
+**Technologies Used:** PHP, Laravel, TypeScript, Go
+
+**Responsibilities:**
+- Refactored the backend to consolidate logic from multiple languages into one.
+- Improved performance, stability, and user experience.
+- Implemented server-side development using Laravel.
 
 <div align="center">
 
@@ -199,84 +259,128 @@ Responsible for refactoring the backend by moving most logic from several progra
 <img src="/assets/images/portfolio/mianbao1.jpg" width="200px" /><img/>
 
 </div>
+
 ## The WeChat Miniprogram for Super Brain program, Full Stack, 2018.3 - 2018.4
 
-Jiangsu TV's Super Brain program's WeChat Mini Program features engaging puzzles for users. Within the program, hosts navigate users through oral broadcasts, presenting specific technical challenges.
+Developed the WeChat Mini Program for Jiangsu TV's Super Brain program, featuring engaging puzzles for users. Hosts navigate users through oral broadcasts, presenting specific technical challenges.
 
-Responsible for backend and some frontend development.
+**Technologies Used:** Java, Spring, Redis, Alibaba Cloud, WeChat DevTools
 
-We leveraged cloud technologies and modern frameworks with tools such as Java, Spring, Redis, Alibaba Cloud and WeChat DevTools.
+**Responsibilities:**
+- Developed backend services using Java and Spring.
+- Implemented frontend components using WeChat Mini Program framework.
+- Ensured high performance and reliability under high concurrency using Redis.
 
-![](/assets/images/profit/profit2.png)
+<div align="center">
+
+<img src="/assets/images/profit/profit2.png"/><img/>
+
+</div>
 
 ## Chongding, Full Stack, 2017.9 - 2018.1
 
-Chongding, a mobile trivia app which is similiar to HQ Trivia. The app allowed users to participate in daily, live, trivia games in which they could win or split prize money. It was once popular in China.
+Chongding is a mobile trivia app similar to HQ Trivia, allowing users to participate in live trivia games with prize money.
 
-Responsible for half backend development and admin panel frontend development of early stages of the first version. Participated a little with technical solution for using the SEI (Supplemental Enhancement Information) to synchronize the timestamp of live streaming of the host and the popup or hidden behavior of trivia game.
+**Technologies Used:** Java, Spring, Redis, Kafka, Zookeeper, WebSocket, Socket.IO
 
-We leveraged cloud technologies and modern frameworks with tools such as Java, Spring, Redis, Kafka and ZooKeeper, WebSocket and Socket.IO.
+**Responsibilities:**
+- Developed backend services and admin panel frontend.
+- Designed and implemented real-time trivia game functionalities.
+- Contributed to the technical solution for synchronizing live streaming with game events using SEI (Supplemental Enhancement Information).
 
 <div align="center">
+
 <img src="/assets/images/portfolio/trivia.jpg" width="80%" /><img/>
+
 </div>
+
 ## Square Root Inc - 50 miscellaneous projects, Project Management & Some Software Development, 2018.1 - 2019.12
 
-The 50 miscellaneous projects of Square Root Inc, including websites, games, apps, WeChat mini programs. My software consulting company. 
+Managed and developed 50 miscellaneous projects for Square Root Inc, including websites, games, and WeChat mini programs.
 
-Responsible for team management, contract negotiation, project management, client communications and some software development. In two years, I worked with software development for around half a year.
+**Technologies Used:** Various based on project requirements
 
-Example projects:
+**Responsibilities:**
+- Managed project negotiations, team coordination, and client communications.
+- Contributed to software development for various projects.
+- Ensured timely delivery and high-quality outcomes for clients.
 
 <div align="center">
+
 <img src="/assets/images/profit/profit3.png" width="95%" /><img/>
-<p>(Responsible for Project Managment)</p>
+<p>(Responsible for Project Management)</p>
+
 </div>
 
 ## ShowMeBug - Enterprise WeChat Entrance, Full Stack, 2021.7 - 2021.9
 
 ShowMeBug is a technology competence assessment platform that supports practical programming, enabling efficient and accurate assessment and recruitment of technical talents.
 
-Responsible for the integration between the platform and the Enterprise WeChat (like login, and easy interview entrance). In this feature, I mainly used tools such as Ruby, PostgreSQL and WeChat SDK. And I did some technical research about constructing programming environment in a browser by using Docker.
+Integrated ShowMeBug with Enterprise WeChat, enabling seamless access to technical interview tools within the Enterprise WeChat ecosystem.
 
-<div align="center"><img src="/assets/images/portfolio/showmebug.webp"/><img/></div>
+**Technologies Used:** Ruby, PostgreSQL, WeChat SDK, Docker
+
+**Responsibilities:**
+- Developed integration features for login and interview access.
+- Conducted technical research on constructing programming environments in a browser using Docker.
+
+<div align="center">
+
+<img src="/assets/images/portfolio/showmebug.webp"/><img/>
+
+</div>
 
 ## LvchenSign, Frontend, 2020.4 - 2020.5
 
 LvchenSign specializes in the production of advertising signage for various businesses and events. With a focus on quality and creativity, it strive to deliver impactful visual solutions that elevate brands and captivate audiences.
 
-Responsible for the frontend development of the website. We leveraged the modern frontend technologies like HTML, JavaScript, CSS and Bootstrap. 
+Developed the frontend for LvchenSign, a website specializing in the production of advertising signage.
+
+**Technologies Used:** HTML, JavaScript, CSS, Bootstrap
+
+**Responsibilities:**
+- Designed and implemented the website's frontend.
+- Created an intuitive and user-friendly interface for showcasing products.
 
 Open sourced at [GitHub](https://github.com/lzwjava/lvchensign), 40 commits. Online page at [lvchesign.com](http://lvchensign.com).
 
-<div align="center"><img src="/assets/images/portfolio/lvchensign.jpg"/><img/></div>
+<div align="center">
+
+<img src="/assets/images/portfolio/lvchensign.jpg"/><img/>
+
+</div>
 
 ## DBS Client Connect - Equity Trading, Backend, 2021.12 - 2022.6
 
-DBS Client Connect, the first all-in-one, AI- and data-driven customer-relationship management platform. 
+Contributed to DBS Client Connect, an AI- and data-driven customer-relationship management platform, focusing on equity trading micro-services.
 
-Contributed as a contractor. Responsible for the backend development of equity trading micro-service. 
+**Technologies Used:** Java, Spring Cloud, Jenkins, Pivotal Cloud Foundry
 
-We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jenkins, Pivotal Cloud Foundry, and utilizing BDD and TDD methodologies.
-
-Similar to this tab. 
+**Responsibilities:**
+- Developed backend services for equity trading. Created functionalities for equities display, customer display, pre-trade checks, and order placement.
+- Integrated Avaloq APIs to enhance the underlying infrastructure and improve user experience.
 
 <div align="center">
-<img src="/assets/images/portfolio/dbsconnect.webp"/><img/>
 
-<p>
-<a href="https://www.eddytandesign.com/client-serving-dbs">Image source: eddytandesign</a>
-</p>
+<img src="/assets/images/portfolio/dbsconnect.webp"/><img/>
+<p><a href="https://www.eddytandesign.com/client-serving-dbs">Image source: eddytandesign</a></p>
 
 </div>
+
 
 ## DBS DigiBank CN - Mutual Funds, Backend, 2022.7-2022.11
 
 DBS DigiBank CN rethought and redesigned for you to enjoy the faster and more convenient way to bank on the go. 
 
-Contributed as a contractor. Responsible for some backend development of several micro-services, including those for mutual funds.
+Contributed to DBS DigiBank CN, focusing on backend development for mutual funds micro-services as part of a collaborative team.
 
-We leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.
+**Technologies Used:** Java, Spring Cloud, Jenkins, Pivotal Cloud Foundry, Kibana
+
+**Responsibilities:**
+- Enhanced functionalities for subscribing to and redeeming mutual funds, improving user experience and system reliability.
+- Fixed bugs and enhanced code for the microservices related to structured investment products, investment portfolio, and transition list, contributing to overall system stability and accuracy.
+- Conducted performance tests and analyzed logs to generate reports on QPS, collaborating with team members to optimize performance.
+- Developed a tool to automate test generation for the testing tool Karate, which streamlined the testing process and improved test coverage.
 
 <div align="center">
 
@@ -284,17 +388,22 @@ We leveraged cloud technologies and modern frameworks, employing automation best
 
 <img src="/assets/images/portfolio/dbs-digi-2.png" width="200px" /><img/>
 
-<p><a href="https://www.dbs.com.cn/treasures/digital-service/digibank.html">Image source: DBS Digibank CN</a></p>
+<p><a href="https://www.dbs.com.cn/treasures/digital-service/digibank.html">Image source: DBS Digibank CN</a></p></div>
 
-</div>
 
 ## PayMe By HSBC - Auto Top Up, Backend, 2022.12 - 2023.7 
 
 PayMe from HSBC is a convenient way to send payments to friends, and make mobile payments to merchants both on and offline. 
 
-Contributed as a contractor. Responsible for some backend development for the feature Auto Top Up and a little about AWS migration.
+Contributed to the backend development of the Auto Top Up feature for PayMe from HSBC, a mobile payment service, as part of a collaborative team effort.
 
-We utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.
+**Technologies Used:** Java, Spring, Kafka, Azure, Azure DevOps, AWS
+
+**Responsibilities:**
+- Worked with a team of backend engineers to develop the Auto Top Up feature, which automatically tops up funds from the user's credit or debit card when the balance falls below a certain amount.
+- Collaboratively monitored post-payment events from Azure EventHub, ensuring seamless integration and checking for top-ups whenever a user set up their auto top-up configuration.
+- Applied object-oriented programming principles to handle cases elegantly within the team, and utilized aspect-oriented programming to audit logs for changes in the auto top-up table.
+- Assisted the team during the AWS migration process, troubleshooting IAM and RDS configurations to ensure a smooth transition.
 
 <div align="center">
 
@@ -305,3 +414,4 @@ We utilized a strong tech stack including Java, Spring, and Kafka, along with Az
 <p><a href="https://payme.hsbc.com.hk/">Image Source: PayMe By HSBC</a></p>
 
 </div>
+
