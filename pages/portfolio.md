@@ -378,7 +378,7 @@ Contributed to DBS DigiBank CN, focusing on backend development for mutual funds
 
 **Responsibilities:**
 - Enhanced functionalities for subscribing to and redeeming mutual funds, improving user experience and system reliability.
-- Fixed bugs and enhanced code for the microservices related to structured investment products, investment portfolio, and transition list, contributing to overall system stability and accuracy.
+- Fixed bugs and enhanced code for the microservices related to structured investment products, investment portfolio, and transaction list, contributing to overall system stability and accuracy.
 - Conducted performance tests and analyzed logs to generate reports on QPS, collaborating with team members to optimize performance.
 - Developed a tool to automate test generation for the testing tool Karate, which streamlined the testing process and improved test coverage.
 
