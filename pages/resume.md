@@ -53,7 +53,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * LED Sign Website Development (lvchensign.com): Developed a website for an LED sign manufacturing company using Bootstrap, HTML and JavaScript. Implemented features for showcasing products. 
 * Enterprise WeChat Integration for ShowMeBug: Contributed to the integration of ShowMeBug with Enterprise WeChat, enabling seamless access to technical interview tools within the Enterprise WeChat ecosystem. Utilized technologies like Ruby, Ruby On Rails, PostgreSQL and the WeChat SDK to create a smooth user experience for interviewers and candidates. 
 * Web Scraper for Trade Data Collection: Developed a web scraper using Python and Selenium to collect trade data for a non-woven fabric company. Automated data extraction and page navigation, processed and stored the data in a SQLite database, and generated reports for business analysis.
-* mathjax2mobi: a tool designed to convert HTML content with MathJax equations into eBook-friendly formats. By transforming LaTeX-based MathJax equations into SVG images, it ensures compatibility with eBook formats like MOBI. This tool facilitates the seamless integration of complex mathematical content into eBooks, making it ideal for scientific and educational publications. Technologies used include Python, BeautifulSoup, and Selenium.
+* mathjax2mobi: a tool designed to convert HTML content with MathJax equations into eBook-friendly formats. By transforming LaTeX-based MathJax equations into SVG images, it ensures compatibility with eBook formats like MOBI. Technologies used include Python, BeautifulSoup, and Selenium.
 
 
 ### Beijing Square Root Inc, Founder & Full Stack Engineer, 2016.07 - 2019.12
