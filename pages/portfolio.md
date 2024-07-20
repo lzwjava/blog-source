@@ -415,7 +415,7 @@ Contributed to the backend development of the Auto Top Up feature for PayMe from
 
 </div>
 
-## AI-Powered Story Bot, Full Stack Developer, 2023.05 - 2023.07
+## AI-Powered Story Bot, Full Stack, 2023.05 - 2023.07
 
 Contributed to the development of an AI-powered story bot using Claude's API for personalized stories.
 
