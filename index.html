@@ -3,14 +3,28 @@ layout: page
 ---
 
 <ul class="post-list">
-
+  <!-- Display pinned posts first -->
   {% for post in site.posts %}
+  {% if post.pinned %}
+  <li class="list-group-item post-item pinned-post">
+    <a href="{{ post.url }}">
+      <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
+      <span class="title">{{ post.title }}</span>
+    </a>
+  </li>
+  {% endif %}
+  {% endfor %}
+
+  <!-- Display non-pinned posts -->
+  {% for post in site.posts %}
+  {% unless post.pinned %}
   <li class="list-group-item post-item">
     <a href="{{ post.url }}">
       <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
       <span class="title">{{ post.title }}</span>
     </a>
   </li>
+  {% endunless %}
   {% endfor %}
 </ul>
 
