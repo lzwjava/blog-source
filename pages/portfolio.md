@@ -402,7 +402,7 @@ Contributed to the backend development of the Auto Top Up feature for PayMe from
 **Responsibilities:**
 - Worked with a team of backend engineers to develop the Auto Top Up feature, which automatically tops up funds from the user's credit or debit card when the balance falls below a certain amount.
 - Collaboratively monitored post-payment events from Azure EventHub, ensuring seamless integration and checking for top-ups whenever a user set up their auto top-up configuration.
-- Applied object-oriented programming principles to handle cases elegantly within the team, and utilized aspect-oriented programming to audit logs for changes in the auto top-up table.
+- Applied object-oriented programming principles to handle cases elegantly, and utilized aspect-oriented programming to audit logs for changes in the auto top-up table.
 - Assisted the team during the AWS migration process, troubleshooting IAM and RDS configurations to ensure a smooth transition.
 
 <div align="center">
