@@ -395,8 +395,6 @@ Contributed to DBS DigiBank CN, focusing on backend development for mutual funds
 
 PayMe from HSBC is a convenient way to send payments to friends, and make mobile payments to merchants both on and offline. 
 
-Contributed to the backend development of the Auto Top Up feature for PayMe from HSBC, a mobile payment service, as part of a collaborative team effort.
-
 **Technologies Used:** Java, Spring, Kafka, Azure, Azure DevOps, AWS
 
 **Responsibilities:**
