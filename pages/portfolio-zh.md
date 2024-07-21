@@ -390,8 +390,6 @@ DBS DigiBank CN 重新设计并优化，让您享受更快、更便捷的移动�
 
 汇丰银行的 PayMe 是一种便捷的方式，可以向朋友发送支付，并在线上线下向商户进行移动支付。
 
-贡献于 PayMe 自动充值功能的后端开发。
-
 **使用技术:** Java, Spring, Kafka, Azure, Azure DevOps, AWS
 
 **职责:**
