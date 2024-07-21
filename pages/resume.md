@@ -172,6 +172,33 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * Computer Science Fundamentals: Advanced Mathematics, Computer Organization, Operating Systems, Computer Network Technology, Database and Applications, Computer Application Technology, Data Structures and Algorithms, Microcomputer and Interface Technology, Compiler Design and Construction, Information Retrieval, Natural Language Processing, Data Mining, Image Processing.
 * Technology and Development: Multilingual Communication, Cross-Platform Development, Full-Stack Programming, Database Management, Machine Learning and Big Data, Mathematical Proficiency, Development Tools, Machine Learning Implementation, Advanced Linux Usage, Testing and Quality Assurance, API Integration, Open Source Contributions, Technical Writing and Blogging, Cloud Computing Services, Distributed Systems, High Performance Optimization, Realtime Application, RTMP Streaming, Continuous Integration/Continuous Deployment (CI/CD), Containerization and Orchestration, Network Security, Agile Methodologies, Software Architecture, DevOps Practices, Cloud-Native Applications, API Development, Version Control Systems, Serverless Computing, Performance Monitoring, Data Engineering, Security Best Practices, Software Development Lifecycle (SDLC), Technical Mentoring, Project Management.
 
+## Selected Blog Posts
+
+Below is a selection of my blog posts, covering personal growth stories, startup journeys, English learning, programming, geek projects, and more. Please visit lzwjava.github.io and search the titles to check them out.
+
+* Building a Scalable Application on Azure  
+* Comprehensive Guide to Spring Framework  
+* Build a To-Do Application with Flask, React, and ELK  
+* End-to-End Trace ID Implementation  
+* Deploying with Pivotal Cloud Foundry  
+* EC2 Instance Connection Issues  
+* The Wisdom of Learning  
+* Zen and the Art of Machine Learning  
+* How to Build a Computer  
+* Introduction to Web Programming  
+* Practical: Scraping Website Content  
+* Mastering English: On and Off the Job  
+* The Journey of Learning English  
+* How to Improve English Proficiency with Large Amounts of Input  
+* How To Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia  
+* Practical: Turning Feynman's Lectures on Physics Webpages into an eBook  
+* Interview with Zhiwei: From a Loss of 450,000 to Revenue of 2,000,000  
+* My Trip to the United States: First Impressions of Silicon Valley  
+* Lieyunwang: Post-95 Entrepreneur Founded Knowledge Live Streaming Platform QuZhibo  
+* Porting FFmpeg to Android  
+* A Deep Dive into Custom Drawing in Android  
+
+
 ## Links
 
 * [GitHub](https://github.com/lzwjava)
