@@ -125,6 +125,26 @@ ul.post-list {
 
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.left-button {
+  align-self: flex-start;
+}
+
+.right-button {
+  align-self: flex-end;
+}
 
 .main-content {
   color: $section-headings-color;
