@@ -7,6 +7,8 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
   <link rel="manifest" href="/favicon/site.webmanifest">
 
+  <title>{{ page.title }}</title>
+
   {% if site.google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
@@ -36,8 +38,40 @@
           TeX: { equationNumbers: { autoNumber: "AMS" } }
         });
       </script>
-  <script type="text/javascript"
-    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var lastShown = localStorage.getItem("donatePopup");
+      var now = new Date().getTime();
+      var duration = 5 * 60 * 1000; // 10 minutes in milliseconds
+
+      function showPopup() {
+        if (confirm("Donate to support the author?\n捐赠支持作者？")) {
+          window.location.href = "/pages/donate";
+        }
+        localStorage.setItem("donatePopup", now);
+      }
+
+      if (document.title !== "Donate") {
+        if (!lastShown) {
+          setTimeout(function () {
+            showPopup(); // Show after 10 seconds if never shown before
+          }, 10000);
+        } else if ((now - lastShown) > duration) {
+          setTimeout(function () {
+            if (Math.random() <= 0.3) {
+              showPopup();
+            }
+          }, 10000); // 10 seconds
+        }
+      }
+    });
+  </script>
+
 
 </head>
 
