@@ -175,7 +175,7 @@ title:  "Resume"
 
 * 在 Azure 上构建可扩展的应用程序
 * Spring 框架全面指南
-* 使用 Flask、React 和 ELK 构建待办事项应用
+* 使用 Flask、React 和 ELK 构建一个 AI 驱动的故事机器人
 * 端到端的 Trace ID 解决方案
 * 使用 Pivotal Cloud Foundry 部署
 * 遇到 EC2 实例连接问题的解决方法

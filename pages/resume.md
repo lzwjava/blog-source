@@ -178,7 +178,7 @@ Below is a selection of my blog posts, covering personal growth stories, startup
 
 * Building a Scalable Application on Azure  
 * Comprehensive Guide to Spring Framework  
-* Build a To-Do Application with Flask, React, and ELK  
+* Build an AI-Powered Story Bot with Flask, React, and ELK
 * End-to-End Trace ID Implementation  
 * Deploying with Pivotal Cloud Foundry  
 * EC2 Instance Connection Issues  
