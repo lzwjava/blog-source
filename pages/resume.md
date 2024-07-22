@@ -192,7 +192,7 @@ Below is a selection of my blog posts, covering personal growth stories, startup
 * Mastering English: On and Off the Job  
 * The Journey of Learning English  
 * How to Improve English Proficiency with Large Amounts of Input  
-* How To Wear the Eyeglasses With 150 Degrees Less Than the Actual to Reduce Myopia  
+* Reduce Myopia Naturally with Glasses 150 Degrees Lower
 * Practical: Turning Feynman's Lectures on Physics Webpages into an eBook  
 * Interview with Zhiwei: From a Loss of 450,000 to Revenue of 2,000,000  
 * My Trip to the United States: First Impressions of Silicon Valley  
