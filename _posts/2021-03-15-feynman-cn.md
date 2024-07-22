@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "实战：将费曼物理讲义网页做成电子书"
+title:  "mathjax2mobi：将包含MathJax方程的HTML转换为电子书格式"
 ---
 
 ### 项目简介
