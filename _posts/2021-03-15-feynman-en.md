@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Practical: Turning Feynman's Lectures on Physics Webpages into an eBook"
+title: "mathjax2mobi: Converting HTML with MathJax Equations for eBooks"
 ---
 
 *This blog post was translated by ChatGPT.*
