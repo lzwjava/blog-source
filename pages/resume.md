@@ -183,7 +183,6 @@ Below is a selection of my blog posts, covering personal growth stories, startup
 * Build an AI-Powered Story Bot with Flask, React, and ELK
 * End-to-End Trace ID Implementation  
 * Deploying with Pivotal Cloud Foundry  
-* EC2 Instance Connection Issues  
 * The Wisdom of Learning  
 * Zen and the Art of Machine Learning  
 * How to Build a Computer  
@@ -194,7 +193,6 @@ Below is a selection of my blog posts, covering personal growth stories, startup
 * How to Improve English Proficiency with Large Amounts of Input  
 * Reduce Myopia Naturally with Glasses 150 Degrees Lower
 * Practical: Turning Feynman's Lectures on Physics Webpages into an eBook  
-* Interview with Zhiwei: From a Loss of 450,000 to Revenue of 2,000,000  
 * My Trip to the United States: First Impressions of Silicon Valley  
 * Lieyunwang: Post-95 Entrepreneur Founded Knowledge Live Streaming Platform QuZhibo  
 * Porting FFmpeg to Android  
