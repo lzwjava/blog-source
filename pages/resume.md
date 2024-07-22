@@ -168,7 +168,7 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 
 ## Domain Knowledge
 
-Below is a summary of my expertise and knowledge domains, developed through years of experience in the tech industry, continuous learning, and hands-on projects. While I have a solid understanding of some topics and a more basic familiarity with others, I would be happy to share more in an interview if you are interested in any specific areas.
+Below is a summary of my expertise and knowledge domains. While I have a solid understanding of some topics and a more basic familiarity with others, I would be happy to share more in an interview if you are interested in any specific areas.
 
 * Industry Knowledge: Banking and Payments, Education and E-learning Platforms, Social Media and Content Platforms, User and Account Management, Notification Systems, Data and Analytics, Mobile Applications, Payment Systems, Transaction Management, Social Media Integration, Video Management, Reward Systems, Live View Tracking, Application Management, Mutual Funds and Equity Trading, Browser-Based Programming Environments.
 * Computer Science Fundamentals: Advanced Mathematics, Computer Organization, Operating Systems, Computer Network Technology, Database and Applications, Computer Application Technology, Data Structures and Algorithms, Microcomputer and Interface Technology, Compiler Design and Construction, Information Retrieval, Natural Language Processing, Data Mining, Image Processing.
