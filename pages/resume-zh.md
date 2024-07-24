@@ -38,8 +38,7 @@ title:  "Resume"
 
 ### 博彦科技股份有限公司，后端工程师，2021.12 - 2022.11
 
-* 博彦科技是领先的商业IT和咨询公司。星展银行是东南亚最大的银行，也是亚洲最大的银行之一。
-* 通过博彦外派到星展银行，参与了DBS Client Connect和DBS DigiBank CN项目。
+* 博彦科技是领先的商业IT和咨询公司。星展银行是东南亚最大的银行，也是亚洲最大的银行之一。通过博彦外派到星展银行，参与了DBS Client Connect和DBS DigiBank CN项目。
 * 在DBS Client Connect项目中，参与了股票交易微服务的开发。负责实现股票展示、客户展示、交易前检查和实际股票交易订单下单等功能。集成了Avaloq API以增强基础架构，并通过实现编辑距离算法优化股票代码搜索，提升用户体验。
 * 在DBS DigiBank CN项目中，积极参与了处理共同基金管理、结构性投资产品、投资组合和交易列表的多个微服务开发。通过分析来自Pivotal Cloud Foundry的日志生成微服务的QPS报告，协助性能测试。开发了一种工具，自动生成Karate测试工具的测试，简化了测试过程并提高了测试覆盖率。
 * 利用云技术和现代框架，采用自动化最佳实践，使用Java、Spring Cloud、Jira、Confluence、Jenkins、Pivotal Cloud Foundry和Kibana，并采用BDD和TDD方法论。
