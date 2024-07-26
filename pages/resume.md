@@ -90,7 +90,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Passed 13 courses, like Computer Introduction, Fundamentals of Programming, Programming Fundamentals Lab, College English, Advanced Mathematics, Principles and Techniques of Digital Imaging, Two-Dimensional Graphics Technology.
 * Built a campus assistant Android application "Bjfu Assistant" that integrates the functions of checking grades, and alumni forums. It has been downloaded and used by thousands of users on campus. And I built an Android App for learning English by watching movie clips, and won the third prize in a hackathon.
 * Ranked in the top 1 in my school's ACM/ICPC monthly training competition among around 100 top students in the university, including higher grade one. 
-* Awarded Third Prize in the “Youth, Health, New Media” digital works creativity contest organized by UNESCO and the Communication University of China for the digital work “Mom Shy To Say”.
+* Awarded third prize in the “Youth, Health, New Media” digital works creativity contest organized by UNESCO and the Communication University of China for the digital work “Mom Shy To Say”.
 
 ### Guangzhou Yuyan Middle School, Science, Middle School Diploma, 2007.07 - 2013.06
 
