@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Qu Zhibo: The First Knowledge Live Streaming Platform"
+title:  "Fun Live: The First Knowledge Live Streaming Platform"
 ---
 
 *This blog post was translated by ChatGPT.*
