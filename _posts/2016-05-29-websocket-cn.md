@@ -3,6 +3,10 @@ layout: post
 title:  "探索 WebSocket"
 ---
 
+*这篇博文是由 ChatGPT-4o 协助整理的。*
+
+---
+
 ### 介绍
 大家好，我是李智维。作为CodeReview平台的创始人兼CTO，以及前LeanCloud工程师，我在WebSocket方面有丰富的经验，尤其是在IM SDK的开发过程中。
 

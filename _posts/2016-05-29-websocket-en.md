@@ -3,6 +3,10 @@ layout: post
 title:  "Exploring WebSocket"
 ---
 
+*This blog post was organized with the assistance of ChatGPT-4o.*
+
+---
+
 Hello, I’m Li Zhiwei. As the founder and CTO of CodeReview platform and a former engineer at LeanCloud, I have extensive experience with WebSocket, especially through the development of the IM SDK. 
 
 ### The Relevance of WebSocket
