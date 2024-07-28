@@ -3,6 +3,10 @@ layout: post
 title:  "Enhancing iOS Development with Automated Testing and Tools"
 ---
 
+This blog post was organized with the assistance of ChatGPT-4o.
+
+---
+
 ### The Importance of Unit Testing
 
 At LeanCloud, we implemented unit testing early in our projects, which proved invaluable. Each pull request (PR) triggers unit tests on Jenkins, and we aim for a coverage rate of around 80%. There are two primary scenarios for writing tests: to validate new interfaces and to reproduce and fix bugs. The more tests we accumulate, the stronger our codebase becomes. Automated testing allows us to confidently release and refactor code without manual verification.

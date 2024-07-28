@@ -3,7 +3,7 @@ layout: post
 title:  "Comprehensive Guide to Setting Up Live Streaming with OBS, SRS, and FFmpeg"
 ---
 
-*This blog post was translated by ChatGPT.*
+*This blog post was organized with the assistance of ChatGPT-4o.*
 
 ---
 
