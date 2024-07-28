@@ -4,8 +4,6 @@ title: "I Finally Understand How Neural Network Works"
 usemathjax: true
 ---
 
-[中文翻译：我终于明白了神经网络是如何工作的](./neural-network-cn)
-
 Let's directly discuss the core of neural work. That said, the backpropagation algorithm:
 
 1. Input x: Set the corresponding activation $$a^{1}$$ for the input layer.
