@@ -43,9 +43,7 @@ Why has life become increasingly difficult despite schooling, work, and entrepre
 
 I think people with more than two houses, assets, high-ranking government officials, demolition beneficiaries, and seasoned players in the financial industry find life relatively easier.
 
-So, what's the solution? Housing is a significant issue. I plan to return to Guangzhou, where my parents are. In 2010, they bought a relatively cheap house, which they currently rent out. Next year, they might stop renting it. During my high school entrance exam, I chose to stay at my school for high school and received a 20,000 yuan reward, which I gave to my parents to buy furniture for this house. I
-
- plan to live there if they don't, which isn't exactly living off them.
+So, what's the solution? Housing is a significant issue. I plan to return to Guangzhou, where my parents are. In 2010, they bought a relatively cheap house, which they currently rent out. Next year, they might stop renting it. During my high school entrance exam, I chose to stay at my school for high school and received a 20,000 yuan reward, which I gave to my parents to buy furniture for this house. I plan to live there if they don't, which isn't exactly living off them.
 
 Secondly, I'll strive for a self-sufficient lifestyle, creating what I need through labor. There's a yard behind my parents' workplace where my mother grows some vegetables. I plan to learn from her to reduce societal dependence.
 
