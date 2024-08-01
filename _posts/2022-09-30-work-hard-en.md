@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Recipe to Work Hard and Learn English"
+title:  "The Recipe to Learn English"
 ---
 
 Recently, I shared my job change with my friends. To their surprise, the big change in me maybe my English skill improved a lot in a year.
