@@ -50,6 +50,3 @@ In the next two years, I plan to challenge myself with high scores on the TOEFL 
 I’ll drive ride-sharing services, picking up passengers all day after work and on weekends, playing podcasts and lectures in the car. I’ll practice and refine my learning methodology. Since electric vehicles are so cheap to run, I might as well drive around Guangdong Province, following the coastline, enjoying the scenery, and learning at the same time. How wonderful!
 
 I'm so excited, and I’m gradually changing myself. I think that when I reach half the skill level of a master like Wang Yin, I might also inspire some young people.
-
-Keep going, and take it slow.
-
