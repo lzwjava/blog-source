@@ -15,7 +15,7 @@ This feeling is truly amazing. At first, I didn't understand much, but just by l
 
 I listen to some lectures repeatedly, especially on topics I'm not familiar with. Fields Medal-winning mathematician June Huh spent six months perfecting one dish, pasta, until it was flawless. I realized that this approach really works. Even after listening multiple times, I discover something new each time. Sometimes it's an English word or grammar, sometimes an expression, sometimes imagining the actual operation, and sometimes connecting it to something else.
 
-For example, in a 2004 conversation between Steve Jobs and Bill Gates, in the last five minutes, Jobs talked about his friendship with Gates, likening it to a lyric, "We have old memories, just like the road that stretches out ahead."
+For example, in a 2004 conversation between Steve Jobs and Bill Gates, in the last five minutes, Jobs talked about his friendship with Gates, likening it to a lyric, "You and I have memories longer than the road that stretches out ahead".
 
 Or a Russian spy, Jack Barsky, in the 1980s, memorized 100 words a day to learn English. When he left the United States, he found his vocabulary far exceeded that of the average American.
 
