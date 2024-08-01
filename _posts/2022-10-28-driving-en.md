@@ -3,6 +3,10 @@ layout: post
 title:  "The Secret to Learning: Listening While Driving"
 ---
 
+*This blog post was translated by ChatGPT.*
+
+---
+
 Hello everyone, I might have discovered a world-class innovation. That is, spending the whole day learning by listening to lectures and podcasts while driving. Find the best teachers in the world, listen continuously, and repeat. Especially while driving, listening is the best. Your eyes are focused on the road, and your visual system is occupied, but your auditory system can multitask. At this time, listening to lectures and podcasts becomes particularly effective. Driving for two hours allows you to focus on listening for one hour and thinking for half an hour, resulting in rapid learning. The brain relies on repetition for memory, and the more you listen, the more you'll naturally think and understand.
 
 I listened to a geek on YouTube talk about how he built his own small rocket, launched it, and recovered it. I spent an entire week listening. I listened on my commute, while walking, lying in bed, showering, and eating. But I found that listening while driving was the best. I can now talk to you for five minutes about how to use the convex hull algorithm to adjust the landing based on flight data from sensors, how to adjust the rocket engine's attitude to stand upright. Convex, landing, thrust, rocket, flight data…
