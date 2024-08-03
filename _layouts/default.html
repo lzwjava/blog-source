@@ -59,14 +59,14 @@
       if (document.title !== "Donate") {
         if (!lastShown) {
           setTimeout(function () {
-            showPopup(); // Show after 10 seconds if never shown before
-          }, 10000);
+            showPopup();
+          }, 30000);
         } else if ((now - lastShown) > duration) {
           setTimeout(function () {
             if (Math.random() <= 0.3) {
               showPopup();
             }
-          }, 10000); // 10 seconds
+          }, 30000);
         }
       }
     });
