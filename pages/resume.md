@@ -26,7 +26,14 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ## Work Experience
 
-### Freelancer, 2023.07 - Present
+
+### Shanghai Neusiri Information Technology, Backend Engineer, 2024.08 - Present
+
+* Neusiri is a high-tech enterprise based in China, focusing on nearshore and offshore IT business outsourcing. It is a subsidiary of Neusoft Holdings. Wipro is a leading technology services and consulting company. HSBC Bank is one of the largest banking and financial services institutions in the world.
+* Contracted with Neusiri and Wipro, assigned to work for HSBC Bank. Contributed to backend development for a finance project.
+
+
+### Freelancer, 2023.07 - 2024.08
 
 * Analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. And got two course completion certificates from Coursera about Machine Learning Specialization and Deep Learning Specialization.
 * Prepared for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc. Listened to a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
