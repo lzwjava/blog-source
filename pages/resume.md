@@ -30,7 +30,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Shanghai Neusiri Information Technology, Backend Engineer, 2024.08 - Present
 
 * Neusiri is a high-tech enterprise based in China, focusing on nearshore and offshore IT business outsourcing. It is a subsidiary of Neusoft Holdings. Wipro is a leading technology services and consulting company. HSBC Bank is one of the largest banking and financial services institutions in the world.
-* Contracted with Neusiri and Wipro, assigned to work for HSBC Bank. Contributed to backend development for a finance project.
+* Contracted with Neusiri and Wipro, assigned to work for HSBC Bank. Contributing to backend development for a finance project.
 
 
 ### Freelancer, 2023.07 - 2024.08
