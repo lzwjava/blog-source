@@ -86,7 +86,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 
 ## Educational Background
 
-### Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Now
+### Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Present
 
 * National Higher Education Self-study Examination. Passed 5 courses as of now, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics. 
 * Currently preparing for courses such as Computer Organization, Computer Network Technology, Database and Applications, Computer Application Technology, Linear Algebra, Basic Electronics, and Microcomputer and Interface Technology.
