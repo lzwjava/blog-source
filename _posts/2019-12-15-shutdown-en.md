@@ -56,7 +56,7 @@ I have thought of two options:
 1. From the 550,000 yuan financing, repay 50% now, and the remaining 50% within five years. The current company assets are 390,000 yuan, so 275,000 yuan will be given to shareholders Li Xiaolai and Ye Fei, with 115,000 yuan left for Li Zhiwei. Li Zhiwei should repay 275,000 yuan to the shareholders within five years.
 2. From the 550,000 yuan financing, repay 50% now, and the remaining 50% need not be repaid. The remaining 115,000 yuan will be considered Li Zhiwei's earnings from the years of hard work.
 
-I know earning money is not easy, and the more one experiences society, the more one appreciates the difficulty faced by parents. So, I am grateful to everyone who supported me. When I resent those who caused my losses, took advantage of me, or were lazy despite being paid, I am even more grateful to those who treated me well. It's regrettable that despite my bold claims to earn significant returns for shareholders, I currently lack the ability to do so.
+I know earning money is not easy, and the more one experiences society, the more one appreciates the difficulty faced by parents. So, I am grateful to everyone who supported me. It's regrettable that despite my bold claims to earn significant returns for shareholders, I currently lack the ability to do so.
 
 Sincerely,
 
