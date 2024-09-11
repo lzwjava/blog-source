@@ -52,4 +52,3 @@ Below are some of the books and authors that have had a profound impact on my th
 
 - Beginning Algorithm Contests 
 
-
