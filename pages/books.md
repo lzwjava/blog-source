@@ -29,7 +29,6 @@ Below are some of the books and authors that have had a profound impact on my th
 - Hackers and Painters
 - Blog: [https://www.paulgraham.com](https://www.paulgraham.com)  
 
-
 ---
 
 #### Andrej Karpathy  
