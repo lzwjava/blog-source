@@ -3,8 +3,6 @@ layout: post
 title: "对我影响最大的书籍和思想者"
 ---
 
-### 影响深远的书籍和思想者
-
 以下是一些对我思维产生了深远影响的书籍和作者，尤其是在个人成长、时间管理和技术领域。
 
 ---
@@ -39,4 +37,11 @@ title: "对我影响最大的书籍和思想者"
 
 - 《Steve Jobs》 by Walter Isaacson
 - 网站: https://stevejobsarchive.com
+
+---
+
+### Rujia Liu
+
+- Beginning Algorithm Contests 
+
 
