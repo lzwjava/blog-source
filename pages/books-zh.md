@@ -34,3 +34,9 @@ title: "对我影响最大的书籍和思想者"
 - YouTube: [https://www.youtube.com/andrejkarpathy](https://www.youtube.com/andrejkarpathy)
 
 --- 
+
+#### Steve Jobs
+
+- 《史蒂夫·乔布斯传》 by Walter Isaacson
+- 网站: https://stevejobsarchive.com
+
