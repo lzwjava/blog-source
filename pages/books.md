@@ -41,3 +41,10 @@ Below are some of the books and authors that have had a profound impact on my th
 - Steve Jobs by Walter Isaacson
 - Website: https://stevejobsarchive.com
 
+---
+
+### 刘汝佳
+
+- 算法竞赛入门经典
+
+
