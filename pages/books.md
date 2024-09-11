@@ -23,7 +23,6 @@ Below are some of the books and authors that have had a profound impact on my th
 - 《财富自由之路》 (The Road to Financial Freedom)  
 - 《让时间陪你慢慢变富》 (Let Time Make You Rich Slowly)  
 
-
 ---
 
 #### Paul Graham  
