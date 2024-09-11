@@ -26,7 +26,7 @@ title: "对我影响最大的书籍和思想者"
 
 #### Paul Graham
 
-- 《黑客与画家》  
+- 黑客与画家
 - 网站: [https://www.paulgraham.com](https://www.paulgraham.com)
 
 ---
@@ -40,7 +40,7 @@ title: "对我影响最大的书籍和思想者"
 
 #### Steve Jobs
 
-- 《Steve Jobs》 by Walter Isaacson
+- Steve Jobs by Walter Isaacson
 - 网站: https://stevejobsarchive.com
 
 ---
