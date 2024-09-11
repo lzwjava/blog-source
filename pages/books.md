@@ -27,8 +27,8 @@ Below are some of the books and authors that have had a profound impact on my th
 ---
 
 #### Paul Graham  
-- **Hackers and Painters**  
-- Website: [https://www.paulgraham.com](https://www.paulgraham.com)  
+- Hackers and Painters
+- Blog: [https://www.paulgraham.com](https://www.paulgraham.com)  
 
 
 ---
