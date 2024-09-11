@@ -24,6 +24,7 @@ Below are some of the books and authors that have had a profound impact on my th
 - 把时间当作朋友 (Treat Time as a Friend)  
 - 财富自由之路 (The Road to Financial Freedom)  
 - 让时间陪你慢慢变富 (Let Time Make You Rich Slowly)  
+- 财富的真相 (The Truth About Wealth)
 
 ---
 
