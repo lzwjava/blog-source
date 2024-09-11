@@ -3,7 +3,7 @@ layout: post
 title:  "Books and Thinkers Who Have Influenced Me the Most"
 ---
 
-The Chinese version can be found [here](/pages/books-cn).
+The Chinese version can be found [here](/pages/books-zh).
 
 ---
 
