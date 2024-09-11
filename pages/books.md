@@ -11,7 +11,7 @@ Below are some of the books and authors that have had a profound impact on my th
 
 ---
 
-#### Yin Wang's Blog, Weibo, and Substack  
+#### Yin Wang
 - Blog: [https://www.yinwang.org](https://www.yinwang.org)  
 - Substack: [https://yinwang0.substack.com](https://yinwang0.substack.com)  
 - Weibo: [https://m.weibo.cn/u/6347862377](https://m.weibo.cn/u/6347862377)
