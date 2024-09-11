@@ -7,7 +7,7 @@ The Chinese version can be found [here](/pages/books-zh).
 
 ---
 
-Below are some of the books and authors that have had a profound impact on my thinking, particularly in areas of personal growth, time management, and technology.
+Below are some of the books and authors that have had a profound impact on my thinking, particularly in areas of personal growth, financial management, and technology.
 
 ---
 
