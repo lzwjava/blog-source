@@ -40,8 +40,8 @@ title: "对我影响最大的书籍和思想者"
 
 ---
 
-### Rujia Liu
+### 刘汝佳
 
-- Beginning Algorithm Contests 
+- 算法竞赛入门经典
 
 
