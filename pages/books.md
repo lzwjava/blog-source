@@ -36,3 +36,8 @@ Below are some of the books and authors that have had a profound impact on my th
 - YouTube: [https://www.youtube.com/andrejkarpathy](https://www.youtube.com/andrejkarpathy)  
 
 ---
+
+#### Steve Jobs
+- Steve Jobs by Walter Isaacson
+- Website: https://stevejobsarchive.com
+
