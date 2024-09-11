@@ -43,8 +43,8 @@ Below are some of the books and authors that have had a profound impact on my th
 
 ---
 
-### 刘汝佳
+### Rujia Liu
 
-- 算法竞赛入门经典
+- Beginning Algorithm Contests 
 
 
