@@ -37,6 +37,6 @@ title: "对我影响最大的书籍和思想者"
 
 #### Steve Jobs
 
-- 《史蒂夫·乔布斯传》 by Walter Isaacson
+- 《Steve Jobs》 by Walter Isaacson
 - 网站: https://stevejobsarchive.com
 
