@@ -39,3 +39,5 @@ Paul Graham’s writings explore the intersection of programming, art, and busin
 
 Karpathy’s contributions to AI and machine learning are highly influential. His work on neural networks and deep learning has expanded my understanding of the future of technology.
 
+
+
