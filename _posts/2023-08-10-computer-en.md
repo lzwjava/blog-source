@@ -358,3 +358,6 @@ We don't need to buy vertical GPU Brackets in our case, like this [one](https://
 
 We should focus more on the compatibility between the components, especially between the motherboard, PC case, power supply and other components. They interact with other components a lot.
 
+## Update
+
+I regret not opting for a larger graphics card, as 12 GB of VRAM has proven insufficient for my needs.
