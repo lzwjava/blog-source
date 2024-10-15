@@ -19,7 +19,8 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Worked primarily at LeanCloud, Beijing Square Root, Beyondsoft (outsourced to DBS Bank), and Farben Information(outsourced to HSBC Bank).
 * Accumulated 9.5 years of professional experience, including 7 years in corporate roles and 2.5 years as a freelancer.
 * Specializes in 2 years of mobile (Android, iOS) engineering, 6 years of full-stack engineering (5 years backend, 1 year frontend), and 1 year in machine learning/big data.
-* Familiar with Java, Spring, MySQL, Vue, HTML, Alibaba Cloud, AWS, Azure, and more.
+* Good understanding of HTML, CSS, Browser APIs, JavaScript, Vue.js, React, Angular, and iOS/Android development.
+* Strong in Java, Spring, Spring Boot, MySQL, Redis, APIs, networking, containers, and distributed systems. Familiar with logging, database, and microservice modules on Alibaba Cloud, AWS, and Azure.
 * Native in Chinese, proficient in English (IELTS 6).
 * Developed 10 open-source GitHub projects as a main developer, each with over 500 commits available at https://github.com/lzwjava.
 * Detailed software portfolio available at https://lzwjava.github.io/pages/portfolio.
