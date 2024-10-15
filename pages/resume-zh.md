@@ -17,7 +17,8 @@ title:  "Resume"
 * 累积了9.5年的专业经验，包括7年的企业就职经验和2.5年的自由职业者经验。
 * 专长于2年的移动（Android、iOS）工程和6年的全栈工程（5年后端，1年前端），以及1年的机器学习/大数据。
 * 熟悉 HTML、CSS、浏览器 API、JavaScript、Vue.js、React、Angular，以及 iOS/Android 开发。
-* 擅长 Java、Spring、Spring Boot、MySQL、Redis、API、网络、容器和分布式系统。熟悉 Alibaba Cloud、AWS 和 Azure 上的日志、数据库和微服务模块。
+* 擅长 Java、Spring、Spring Boot、MySQL、Redis、API、网络、容器和分布式系统。
+* 熟悉 Alibaba Cloud、AWS 和 Azure 上的日志、数据库和微服务模块。
 * 汉语为母语，英语流利（雅思6分）。
 * 开发了10个GitHub开源项目，每个超500次提交，请查看 https://github.com/lzwjava。
 * 详细的软件作品集可查看于 https://lzwjava.github.io/pages/portfolio。
