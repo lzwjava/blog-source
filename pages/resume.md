@@ -17,8 +17,8 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Achieved top 300 in Guangdong NOIP 2011 and solved around 1000 algorithm problems online.
 * Studied for one year at Beijing Forestry University before dropping out. Pursuing an associate degree through self-taught education, with five courses completed.
 * Worked primarily at LeanCloud, Beijing Square Root, Beyondsoft (outsourced to DBS Bank), and Farben Information(outsourced to HSBC Bank).
-* Accumulated 9.5 years of professional experience, including 7 years in corporate roles and 2.5 years as a freelancer.
-* Specializes in 2 years of mobile (Android, iOS) engineering, 6 years of full-stack engineering (5 years backend, 1 year frontend), and 1 year in machine learning/big data.
+* Accumulated 10 years of professional experience, including 7 years in corporate roles and 3 years as a freelancer.
+* Specializes in 2 years of mobile (Android, iOS) engineering, 7 years of full-stack engineering (6 years backend, 1 year frontend), and 1 year in machine learning/big data.
 * Good understanding of HTML, CSS, Browser APIs, JavaScript, Vue.js, React, Angular, and iOS/Android development.
 * Strong in Java, Spring, Spring Boot, MySQL, Redis, APIs, networking, containers, and distributed systems. 
 * Familiar with logging, database, and microservice modules on Alibaba Cloud, AWS, and Azure.
