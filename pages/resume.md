@@ -33,7 +33,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Neusiri is a China-based high-tech enterprise specializing in IT outsourcing, and a subsidiary of Neusoft Holdings. Wipro is a leading tech services firm, and HSBC Bank is a global financial giant.
 * Contracted directly with Neusiri and, through a partnership with Wipro, aimed to be assigned to HSBC Bank. However, due to HSBC Bank's latest vendor policy, the position was unfortunately canceled. Participated in training courses provided by both Neusiri and Wipro.
 
-### Freelancer, 2023.07 - 2024.07
+### Freelancer, 2023.08 - 2024.07
 
 * Analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. And got two course completion certificates from Coursera about Machine Learning Specialization and Deep Learning Specialization.
 * Prepared for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc. Listened to a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.
