@@ -20,6 +20,7 @@ title:  "Resume"
 * 擅长 Java、Spring、Spring Boot、MySQL、Redis、API、网络、容器和分布式系统。
 * 熟悉 Alibaba Cloud、AWS 和 Azure 上的日志、数据库和微服务模块。
 * 汉语为母语，英语流利（雅思6分）。
+* 阅读超过 300 本书籍，涵盖教材、个人发展、商业、技术和历史。
 * 开发了10个GitHub开源项目，每个超500次提交，请查看 https://github.com/lzwjava。
 * 详细的软件作品集可查看于 https://lzwjava.github.io/pages/portfolio。
 
