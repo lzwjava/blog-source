@@ -221,7 +221,6 @@ I have read over 300 books spanning textbooks, personal development, business, t
 * The 7 Habits of Highly Effective People - Stephen R. Covey
 * Sapiens: A Brief History of Humankind - Yuval Noah Harari
 * Computer Systems: A Programmer's Perspective - Randal E. Bryant, David R. O'Hallaron
-* Beginning Algorithm Contests - Rujia Liu
 * Yin Wang's Blog (yinwang.org)
 * Paul Graham's Essays (paulgraham.com)
 
