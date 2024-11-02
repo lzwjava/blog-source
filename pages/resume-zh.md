@@ -220,7 +220,7 @@ title:  "Resume"
 * 王垠的博客 (yinwang.org)
 * Paul Graham 的文集 (paulgraham.com)
 
-### 证书
+## 证书
 
 * 北京林业大学退学证明书
 * 学信网报告 (本科退学状态)
@@ -229,7 +229,7 @@ title:  "Resume"
 * 深度学习专业课程结业证书，由 DeepLearning.AI 提供
 * AWS开发, 由 AWS 培训提供
 
-### 链接
+## 链接
 
 * [GitHub](https://github.com/lzwjava)
 * [博客](https://lzwjava.github.io)
