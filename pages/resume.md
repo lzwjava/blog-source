@@ -211,6 +211,21 @@ Below is a selection of my blog posts, covering personal growth stories, startup
 * Porting FFmpeg to Android  
 * A Deep Dive into Custom Drawing in Android 
 
+## Books Read
+
+Read over 300 books spanning textbooks, personal development, business, technology and history. Below are key books and resources that have shaped my thinking.
+
+* Beginning Algorithm Contests - Rujia Liu
+* Steve Jobs - Walter Isaacson
+* Treat Time as a Friend - Xiaolai Li
+* The 7 Habits of Highly Effective People - Stephen R. Covey
+* Steve Jobs - Walter Isaacson
+* Sapiens: A Brief History of Humankind - Yuval Noah Harari
+* Computer Systems: A Programmer's Perspective - Randal E. Bryant, David R. O'Hallaron
+* Beginning Algorithm Contests - Rujia Liu
+* Yin Wang's Blog (yinwang.org)
+* Paul Graham's Essays (paulgraham.com)
+
 
 ## Links
 
