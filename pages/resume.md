@@ -32,7 +32,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 ### Tianjin Neusiri Information Technology, Backend Engineer, 2024.08 - 2024.10
 
 * Neusiri is a China-based high-tech enterprise specializing in IT outsourcing, and a subsidiary of Neusoft Holdings. Wipro is a leading tech services firm, and HSBC Bank is a global financial giant.
-* Successfully passed the interview and contracted directly with Neusiri and, through a partnership with Wipro, aimed to be assigned to HSBC Bank. However, due to HSBC Bank's latest vendor policy, the position was unfortunately canceled. Participated in training courses provided by both Neusiri and Wipro.
+* Successfully passed the interview and contracted directly with Neusiri and, through a partnership with Wipro, aimed to be assigned to HSBC Bank. However, due to HSBC Bank's latest vendor policy, the position was canceled. Participated in training courses provided by both Neusiri and Wipro.
 
 ### Freelancer, 2023.08 - 2024.07
 
