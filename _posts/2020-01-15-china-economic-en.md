@@ -1,5 +1,5 @@
 ---
 layout: post
-title:  "浅谈中国经济的出路"
+title:  "On the Way Forward for China's Economy"
 ---
 
