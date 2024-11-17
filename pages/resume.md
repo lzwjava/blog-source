@@ -23,7 +23,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Strong in Java, Spring, Spring Boot, MySQL, Redis, APIs, networking, containers, and distributed systems. 
 * Familiar with logging, database, and microservice modules on Alibaba Cloud, AWS, and Azure.
 * Native in Chinese, proficient in English (IELTS 6).
-* Read over 300 books spanning textbooks, personal development, business, technology and history.
+* Read over 320 books spanning textbooks, personal development, business, technology and history.
 * Developed 10 open-source GitHub projects as a main developer, each with over 500 commits available at https://github.com/lzwjava.
 * Detailed software portfolio available at https://lzwjava.github.io/pages/portfolio.
 
