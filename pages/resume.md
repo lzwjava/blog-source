@@ -213,7 +213,7 @@ Below is a selection of my blog posts, covering personal growth stories, startup
 
 ## Books Read
 
-I have read over 300 books spanning textbooks, personal development, business, technology and history. Below are key books and resources that have shaped my thinking.
+I have read over 320 books spanning textbooks, personal development, business, technology and history. Below are key books and resources that have shaped my thinking.
 
 * Beginning Algorithm Contests - Rujia Liu
 * Steve Jobs - Walter Isaacson
