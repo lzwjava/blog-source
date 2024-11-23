@@ -82,13 +82,10 @@ I encourage you to try this approach yourself. Pay attention to what prescriptio
 
 ## Acknowledgments and References
 
-This understanding builds upon the groundbreaking work of Yin Wang and subsequent experimental verification by me. The findings presented here are based on personal experimentation and refinement of these methods.
+This understanding builds upon the groundbreaking work of Yin Wang and subsequent experimental verification by others. The findings presented here are based on personal experimentation and refinement of these methods.
 
 1. Natural Vision Restoration Method, [https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia)
-   - Original detailed explanation of the myopia reversal mechanism
-   - Comprehensive theory and scientific principles
 
 2. Experimental Verification of Yin Wang's Natural Vision Restoration Method, [https://lzwjava.github.io/eyes-en](https://lzwjava.github.io/eyes-en)
-   - Year-long experimental verification
-   - Detailed progress tracking and practical implementation
+
 
