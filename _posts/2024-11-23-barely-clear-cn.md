@@ -1,93 +1,90 @@
 ---
 layout: post
-title: "Natural Vision Restoration: The Principle of "Just Barely Clear""
+title: "自然视力恢复：刚好看清的原理"
 ---
 
-## Key Discovery
+## 关键发现
 
-After extensive experimentation and observation, I've discovered that the most crucial principle in myopia reversal is wearing glasses that make objects "just barely clear" at your typical viewing distances. This is more important than adhering to a fixed reduction number like 150 or 175 degrees.
+经过大量实验和观察，我发现近视逆转最关键的原则是戴眼镜时要让物体在你平常观看的距离上"刚好看清"。这比固定减少150度或175度更重要。
 
-## The "Just Barely Clear" Principle
+## "刚好看清"原理
 
-The optimal prescription reduction should achieve this state:
-- Objects should be just clear enough to see without straining
-- Text should be readable but not crystal clear
-- Your eyes should feel relaxed, not struggling to focus
+最佳的镜片度数减少应该达到这样的状态：
+- 物体应该刚好清晰到能看见，不需要用力
+- 文字应该能读得懂，但不是特别清晰
+- 眼睛应该感觉放松，不需要努力去对焦
 
-From my experience:
-- For mobile phone use, typically reducing by about 175 degrees achieves this "just barely clear" state
-- For computer work, about 150 degrees reduction often works well
-- Though I personally can wear glasses with 175 degrees reduction for both mobile phone and computer use - I simply move my head slightly forward to see the computer screen barely clear
-- However, these numbers are guidelines - your optimal reduction may differ
+根据我的经验：
+- 看手机时，一般减少大约175度能达到"刚好看清"的状态
+- 看电脑时，减少约150度效果不错
+- 虽然我个人戴减少175度的眼镜既可以看手机也可以看电脑 - 只需要把头稍微往前移就能刚好看清电脑屏幕
+- 但是，这些数字只是参考 - 你的最佳减度可能会不同
 
-## How to Find Your "Just Barely Clear" Prescription
+## 如何找到你的"刚好看清"度数
 
-1. Start with your current prescription
-2. Try glasses with different reductions (150-175 degrees less)
-3. Observe which prescription allows you to:
-   - Read your phone just clearly enough
-   - See your computer screen without strain
-   - Function comfortably in daily life
+1. 从你现在的度数开始
+2. 尝试不同程度的减度（减少150-175度）
+3. 观察哪个度数让你：
+   - 能刚好看清手机
+   - 看电脑屏幕不费力
+   - 日常生活能舒适进行
 
-The key is finding the prescription that keeps things just at the edge of clarity - clear enough to function, but not so clear that your eyes aren't encouraged to adapt.
+关键是找到一个让物体保持在清晰边缘的度数 - 足够清晰可以工作，但又不是特别清晰以至于眼睛没有改善的动力。
 
-## Why This Works
+## 为什么这样有效
 
-When wearing glasses that make objects "just barely clear":
-- Your external eye muscles engage naturally to improve focus
-- The eye maintains a slight, healthy tension
-- Over time, this gentle encouragement helps reverse myopia
-- You avoid the harmful effects of over-correction
+当戴着让物体"刚好看清"的眼镜时：
+- 你的外眼肌自然参与改善对焦
+- 眼睛保持轻微的、健康的张力
+- 随着时间推移，这种温和的刺激帮助逆转近视
+- 你避免了过度矫正的有害影响
 
-## Practical Tips
+## 实用建议
 
-1. Daily Use:
-   - Use these reduced prescriptions for most daily activities
-   - Objects should never be so blurry that you strain to see
-   - If you find yourself squinting or straining, your reduction might be too large
+1. 日常使用：
+   - 在大多数日常活动中使用这些减度的眼镜
+   - 物体永远不应该模糊到需要用力去看
+   - 如果发现自己在眯眼或用力，说明减度可能太大了
 
-2. Safety:
-   - Use full correction for driving
-   - Keep a stronger prescription pair for situations requiring perfect vision
-   - Listen to your body - no pain or significant discomfort should occur
+2. 安全考虑：
+   - 开车时使用全度数眼镜
+   - 准备一副度数更高的眼镜用于需要完美视力的情况
+   - 注意身体反应 - 不应该有疼痛或明显不适
 
-3. Adaptation:
-   - Give yourself 2-3 days to adapt to reduced prescriptions
-   - The initial blur will improve as your eyes adjust
-   - Don't force clarity - let it come naturally
+3. 适应过程：
+   - 给自己2-3天时间适应减度的眼镜
+   - 最初的模糊会随着眼睛适应而改善
+   - 不要强求清晰 - 让它自然发生
 
-## Monitoring Progress
+## 进展监测
 
-You can tell your eyes are improving when:
-- Objects that were blurry become clearer without changing glasses
-- You can function comfortably with the reduced prescription
-- Your vision testing shows improvement over months
+你可以通过以下方式判断眼睛是否在改善：
+- 以前模糊的物体变得更清晰了，而眼镜没有换
+- 你能舒适地使用减度的眼镜
+- 视力检查显示月度改善
 
-## Conclusion
+## 结论
 
-The secret to natural vision improvement lies not in any specific degree reduction, but in finding that sweet spot where your vision is "just barely clear." This creates the optimal condition for your eyes to gradually improve.
+自然视力改善的秘诀不在于具体减少多少度数，而在于找到那个让视觉"刚好看清"的最佳点。这创造了眼睛逐渐改善的最佳条件。
 
-Remember:
-- Focus on finding your personal "just barely clear" point
-- This might be around 150-175 degrees less than your current prescription
-- The exact reduction matters less than achieving that optimal state of clarity
-- Be patient and consistent - improvement takes time
+记住：
+- 专注于找到你个人的"刚好看清"点
+- 这可能在比你当前度数低150-175度左右
+- 具体减少多少度数不如达到最佳清晰状态重要
+- 保持耐心和坚持 - 改善需要时间
 
-I encourage you to try this approach yourself. Pay attention to what prescription allows you to see things "just barely clear" in your daily life. That's your optimal prescription for vision improvement.
+我鼓励你自己尝试这种方法。注意观察什么度数能让你在日常生活中看东西"刚好看清"。那就是你改善视力的最佳度数。
 
-[Previous content remains the same until conclusion...]
+## 致谢和参考
 
-## Acknowledgments and References
+本文的理解建立在王垠的开创性工作和社区其他人的后续实验验证基础上。这里的发现基于个人实验和对这些方法的改进。
 
-This understanding builds upon the groundbreaking work of Yin Wang and subsequent experimental verification by others in the community. The findings presented here are based on personal experimentation and refinement of these methods.
+### 参考文献
 
-### References
+1. 自然视力恢复法，[https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia)
+   - 近视逆转机制的原始详细解释
+   - 全面的理论和科学原理
 
-1. Natural Vision Restoration Method, [https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia)
-   - Original detailed explanation of the myopia reversal mechanism
-   - Comprehensive theory and scientific principles
-
-2. Reduce Myopia Naturally with Glasses 150 Degrees Lower, [https://lzwjava.github.io/eyes-en](https://lzwjava.github.io/eyes-en)
-   - Year-long experimental verification
-   - Detailed progress tracking and practical implementation
-
+2. 减少150度自然恢复近视，[https://lzwjava.github.io/eyes-en](https://lzwjava.github.io/eyes-en)
+   - 为期一年的实验验证
+   - 详细的进展追踪和实践实施
