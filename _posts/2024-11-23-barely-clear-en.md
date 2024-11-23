@@ -80,8 +80,6 @@ Remember:
 
 I encourage you to try this approach yourself. Pay attention to what prescription allows you to see things "just barely clear" in your daily life. That's your optimal prescription for vision improvement.
 
-[Previous content remains the same until conclusion...]
-
 ## Acknowledgments and References
 
 This understanding builds upon the groundbreaking work of Yin Wang and subsequent experimental verification by me. The findings presented here are based on personal experimentation and refinement of these methods.
