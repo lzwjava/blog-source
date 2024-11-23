@@ -87,5 +87,5 @@ title: "自然视力恢复：刚好看清的原理"
 
 1. 自然视力恢复法，[https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia)
 
-2. 减少150度自然恢复近视，[https://lzwjava.github.io/eyes-en](https://lzwjava.github.io/eyes-en)
+2. 实验验证王垠的自然视力恢复法，[https://lzwjava.github.io/eyes-en](https://lzwjava.github.io/eyes-en)
  
