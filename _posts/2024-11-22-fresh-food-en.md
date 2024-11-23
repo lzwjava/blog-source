@@ -3,7 +3,7 @@ layout: post
 title: "Pay Attention to Food Freshness"
 ---
 
-A recent experience with street food taught me a valuable lesson about the importance of food freshness. While enjoying Xinjiang barbecue from a local vendor, I ordered two lamb shashlik skewers and a portion of ham. The next day, I found myself dealing with an unfortunate case of diarrhea.
+A recent experience with street food taught me a valuable lesson about the importance of food freshness. While enjoying Xinjiang barbecue from a vendor, I ordered two lamb shashlik skewers and a portion of ham. The next day, I found myself dealing with an unfortunate case of diarrhea.
 
 Upon reflection, I realized the culprit was likely the ham. Though it had been refrigerated at the vendor's stall, there was no way to know how long it had been sitting there or how many times it had been taken in and out of refrigeration. In contrast, the lamb shashlik was clearly fresh, as it was the vendor's signature dish with high turnover.
 
