@@ -16,6 +16,7 @@ The optimal prescription reduction should achieve this state:
 
 From my experience:
 - For mobile phone use, typically reducing by about 175 degrees achieves this "just barely clear" state
+- For computer work, about 150 degrees reduction often works well
 - Though I personally can wear glasses with 175 degrees reduction for both mobile phone and computer use - I simply move my head slightly forward to see the computer screen barely clear
 - However, these numbers are guidelines - your optimal reduction may differ
 
