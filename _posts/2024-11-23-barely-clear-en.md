@@ -90,7 +90,7 @@ This understanding builds upon the groundbreaking work of Yin Wang and subsequen
    - Original detailed explanation of the myopia reversal mechanism
    - Comprehensive theory and scientific principles
 
-2. Reduce Myopia Naturally with Glasses 150 Degrees Lower, [https://lzwjava.github.io/eyes-en](https://lzwjava.github.io/eyes-en)
+2. Experimental Verification of Yin Wang's Natural Vision Restoration Method, [https://lzwjava.github.io/eyes-en](https://lzwjava.github.io/eyes-en)
    - Year-long experimental verification
    - Detailed progress tracking and practical implementation
 
