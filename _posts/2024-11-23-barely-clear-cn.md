@@ -79,7 +79,7 @@ I encourage you to try this approach yourself. Pay attention to what prescriptio
 
 ## Acknowledgments and References
 
-This understanding builds upon the groundbreaking work of Yin Wang and subsequent experimental verification by me. The findings presented here are based on personal experimentation and refinement of these methods.
+This understanding builds upon the groundbreaking work of Yin Wang and subsequent experimental verification by others in the community. The findings presented here are based on personal experimentation and refinement of these methods.
 
 ### References
 
