@@ -31,13 +31,18 @@ From my experience:
 
 The key is finding the prescription that keeps things just at the edge of clarity - clear enough to function, but not so clear that your eyes aren't encouraged to adapt.
 
-## Why This Works
+## Why I Emphasize "Just Barely Clear" So Much
 
-When wearing glasses that make objects "just barely clear":
-- Your external eye muscles engage naturally to improve focus
-- The eye maintains a slight, healthy tension
-- Over time, this gentle encouragement helps reverse myopia
-- You avoid the harmful effects of over-correction
+I want to share an important personal experience that illustrates why the "just barely clear" principle is so crucial. In the first year of using this method, my myopia reduced by about 100 degrees, which was an exciting result. However, in the second year, there was no significant improvement in my myopia. After deep reflection, I discovered the likely reason:
+
+In the first year, I primarily used a computer for work while wearing glasses with a 150-degree reduction, which created many opportunities for "just barely clear" vision. However, in the second year, while studying for my associate degree at home, I reduced my computer usage and mainly used my mobile phone for exercises and reading history exam materials.
+
+This led me to revisit Yin Wang's article, particularly this crucial passage:
+>"When looking at distant objects, the crystalline lens needs to relax and reduce refraction. If the image still falls in front of the retina after the lens is completely relaxed, objects appear blurry. If you continue to look at the object in this state, the external eye muscles will begin to gently compress the eyeball, making the optical axis slightly shorter (perhaps only 0.x millimeters), and the blurry object will gradually become somewhat clearer. If you frequently maintain this slightly blurry state, the repeated small compressions of the optical axis will lead to permanent shortening, and myopia will reverse."
+
+This passage was a revelation to me. Based on this understanding, I recently switched to glasses with a 175-degree reduction, which has worked well. By creating more "just barely clear" states, I expect my myopia to reduce by another 100 degrees in the coming year. Let's see what happens.
+
+This experience teaches us that the key isn't about reducing by a fixed number of degrees, but rather about consistently maintaining the "just barely clear" state. The specific reduction needed to achieve this state may vary for each person, but what's important is finding and maintaining this optimal point.
 
 ## Practical Tips
 
