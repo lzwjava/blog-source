@@ -47,9 +47,9 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 * Prepared well enough in the past year, like Advanced Mathematics and Database Applications
 
 ## Reasons for failed courses
-* Thought that I had already prepared well, but actually hadn't. The exercises I did for the failed subjects were apparently fewer than for the passed courses.
+* Thought that I had already prepared well, but actually hadn't. The exercises I did for the failed subjects were apparently fewer than for the passed courses. 
 * Did not give enough time to prepare
-* Just walked through videos of the subjects pretending to understand
+* Just walked through videos of the subjects pretending to understand.
 
 ## Exam preparation
 * Sleep well, maintain a good routine for sleep
