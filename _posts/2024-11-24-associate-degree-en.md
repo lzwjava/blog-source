@@ -42,17 +42,16 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 | Linear Algebra | 47 |
 | Computer Application Technology | 73 |
 
-## Reasons for Passing Courses
-* Had strong foundational knowledge before the exam, like Introduction to Data Structures and English
-* Prepared thoroughly in recent months, like Advanced Mathematics and Database Applications
+## Reasons for passing courses
+* Already had good understanding before the exam, like Introduction to Data Structures and English
+* Prepared well enough in the past year, like Advanced Mathematics and Database Applications
 
-## Reasons for Failed Courses
-* Overestimated preparation level - completed fewer practice exercises for failed subjects compared to passed courses
-* Did not allocate sufficient time for preparation
-* Relied too heavily on passive video watching without active learning
+## Reasons for failed courses
+* Thought that I had already prepared well, but actually hadn't. The exercises I did for the failed subjects were apparently fewer than for the passed courses.
+* Did not give enough time to prepare
+* Just walked through videos of the subjects pretending to understand
 
-## Exam Preparation Strategies
-* Maintain a healthy sleep routine and ensure adequate rest
-* Verify exam locations in advance, as morning and afternoon sessions may be at different venues
-* Complete exam registration within deadline periods
-
+## Exam preparation
+* Sleep well, maintain a good routine for sleep
+* Morning and afternoon exams may be in different locations, check the right locations
+* Register for the exam on time
