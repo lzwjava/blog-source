@@ -14,7 +14,7 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 
 ## Passed courses
 
-| Course Code | Course Name | Exam Date | Pass Method | Score | Credits | Status |
+| Course Code | Course Name | Exam Date | Pass Method | Score | Credits | Status |  
 |------------|-------------|-----------|-------------|--------|---------|---------|
 | 02323 | Operating Systems Fundamentals | 202304 | Exam | 67 | 4 | Valid |
 | 02316 | Computer Application Technology | 202410 | Exam | 73 | 2 | Valid |
@@ -26,7 +26,7 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 
 ## 2024.04
 
-| Subject | Score |
+| Subject | Score |    
 |---------|--------|
 | Advanced Mathematics (Engineering) | 77 |
 | Database and Its Applications | 41 |
@@ -35,7 +35,7 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 
 ## 2024.10
 
-| Subject | Score |
+| Subject | Score |   
 |---------|--------|
 | Introduction to Law | 35 |
 | Database and Applications | 68 |
