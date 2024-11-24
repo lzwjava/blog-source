@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Associate Degree"
+title: "Associate Degree: Progress and Reflection"
 ---
 
 Below is my assoiciate progress. 
