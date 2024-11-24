@@ -1,0 +1,39 @@
+---
+layout: post
+title: "2024 Year in Review"
+---
+
+I sent an email to Yin Wang, describing his influence on me and my changes over the past year. It's attached here.
+
+---
+
+Yin,
+
+It's been a while since we last connected. Over the past year, I've grown considerably. I feel fortunate to frequently study and reflect on your shared insights. This year, I've mainly focused on pursuing an associate degree through self-study, hoping to work abroad someday. I've already completed 7 courses out of a total of 16. In 2014, I left Beijing Forestry University to participate in startups and entrepreneurship. The decision to leave school led to countless arguments with my parents. Under your long-term influence, I learned to make choices objectively and calmly, without being swayed by others. Also, with my greatly improved learning and thinking abilities, obtaining a degree isn't difficult.
+
+I translated all your articles into English using AI, https://github.com/lzwjava/yinwang.github.io, and shared them with some foreign colleagues and friends.
+
+Having been influenced by your perspective that genius doesn't exist, in the second half of 2013, I quickly grasped AI concepts, learning everything from neural networks to GPT, and earned two Coursera certificates.
+
+Recently, interestingly, after some thought, I developed a unique basketball passing technique, which I detailed in the article "Passing Innovation: Non-Traditional Basketball Passing Techniques."
+
+This is also my second year experimenting with myopia reversal. Unfortunately, there was no reduction over the past year. After reflection, I wrote an article, "Natural Vision Recovery: The Principle of Just Seeing Clearly," slightly adjusted the approach, and continue to practice.
+
+Soaking feet in hydrogen peroxide can eliminate athlete's foot - you can even see it bubbling on shoes.
+
+My daughter is currently three and a half years old. When I have time, I let her watch YouTube Kids animations and play Apple Arcade and Google Pass games. Initially, my parents didn't understand, thinking Chinese animations were just as good. Later, seeing my daughter's progress in English, they began to understand and support it.
+
+Like you, I try various approaches to improve life. Although I regrettably can't leave China for now, I already live as if I'm abroad. Both my studies and life are primarily in English. I have about 1000 apps downloaded on my phone, regularly use over 200, mostly foreign apps, with full VPN access - no problem.
+
+Occasionally I watch Japanese short videos on TikTok and often listen to Japanese music. Now my brain finds Japanese syllables very pleasant to hear.
+
+Learning becomes easier, and life becomes more confident.
+
+Unfortunately, I bought a house in Guangzhou in 2022, and by 2024 it lost one million yuan in value. In 2019, after reading He Qinglian's book "China: Crumbling But Not Collapsing," I already knew the real estate economy was unsustainable. One reason for my decision was that I still had vanity and cared about others' opinions. I quit WeChat Moments and started sharing only on my blog or niche social media like you. Additionally, instead of following my interests in information and internet technology, I made choices based on conformity and comparison mentality.
+
+Indeed, our words don't need titles. People get hurt because they're betrayed, believing in false people or things, disappointing genuine trust. If we pursue truth, question authority, and remain extremely cautious, we can avoid many pitfalls in life and live more happily and fulfillingly.
+
+Wishing you health and fulfillment in the new year, with more discoveries to come.
+
+Zhiwei
+Best Regards
