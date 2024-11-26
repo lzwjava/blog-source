@@ -77,6 +77,14 @@ title: "Java后端工程师：面试题精选"
 7. 项目经验（技术栈：python, angular, control-M）
 8. 英语表达能力
 
+## 英语流利等级
+
+1. Can't express oneself - 基础较差，无法进行自我介绍和项目介绍
+2. Basic/simple conversation - 有一定基础，能进行准备好的自我介绍
+3. Daily communication - 英文基础较好，可以参与英文会议且理解大部分内容
+4. Workable - 英文基础不错，可以与面试官流畅交流
+5. Workable & tech exchange - 英文能力很好，能与面试官进行无障碍技术交流
+
 # 其他面试考察要点
 1. 学习方法
 2. 技术交流能力
