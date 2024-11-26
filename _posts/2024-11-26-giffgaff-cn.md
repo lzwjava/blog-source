@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Giffgaff使用体验"
+title: "在中国使用英国SIM卡：Giffgaff体验"
 ---
 
 Giffgaff提供了一种全新的手机SIM卡服务。这在中国是我从未体验过的。与之相比，中国的电信运营商——中国电信、中国联通和中国移动都显得古板而官僚。Giffgaff则年轻、充满活力且简洁明了。
