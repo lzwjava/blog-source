@@ -77,6 +77,14 @@ title: "Java Backend Engineer: Interview Questions Collection"
 7. Project experience (tech stack: python, angular, control-M)
 8. English proficiency
 
+## English Fluency Levels
+
+1. Can't express oneself - Poor foundation, unable to give self-introduction or project presentation
+2. Basic/simple conversation - Basic foundation, can deliver prepared self-introduction
+3. Daily communication - Good foundation, can participate in English meetings and understand most content
+4. Workable - Strong foundation, can communicate fluently with interviewer
+5. Workable & tech exchange - Excellent proficiency, can engage in barrier-free technical discussions
+
 ## Other Interview Assessment Points
 1. Learning methods
 2. Technical communication ability
