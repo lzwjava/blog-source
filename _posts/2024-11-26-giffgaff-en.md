@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Giffgaff Experience"
+title: "UK SIM Card in China: A Giffgaff Experience"
 ---
 
 Giffgaff offers a new mobile phone SIM card service. I have never experienced anything like this in China. The Chinese telecom providers - China Telecom, China Unicom, and China Communications - are old-fashioned and bureaucratic compared to it. Giffgaff is young, dynamic and clean.
