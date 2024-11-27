@@ -17,7 +17,7 @@ title:  "Resume"
 * 累积了10年的专业经验，包括7年的企业就职经验和3年的自由职业者经验。
 * 专长于2年的移动（Android、iOS）工程和7年的全栈工程（6年后端，1年前端），以及1年的机器学习/大数据。
 * 熟悉 HTML、CSS、浏览器 API、JavaScript、Vue.js、React、Angular，以及 iOS/Android 开发。
-* 擅长 Java、Spring、Spring Boot、MySQL、Redis、API、网络、容器和分布式系统。
+* 熟悉 Java、Spring、Spring Boot、MySQL、Redis、API、网络、容器和分布式系统。
 * 熟悉 Alibaba Cloud、AWS 和 Azure 上的日志、数据库和微服务模块。
 * 汉语为母语，英语流利（雅思6分）。
 * 阅读超过 320 本书籍，涵盖教材、个人发展、商业、技术和历史。
