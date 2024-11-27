@@ -47,7 +47,7 @@ title: "Learning Tips"
 
 * Sleep well. Take naps if tired.
 
-* Attitude or motivation is hard to lie to yourself about. Follow your true passion as long as you are learning.
+* Attitude or motivation is hard to lie to yourself about. Follow your true passion.
 
 * Environment is important. You don't need to learn English hard if you grow up in English-speaking countries.
 
