@@ -50,3 +50,6 @@ title: "Learning Tips"
 * Attitude or motivation is hard to lie to yourself about. Follow your true passion.
 
 * Environment is important. You don't need to learn English hard if you grow up in English-speaking countries.
+
+* Your brain is powerful. Think things through by yourself. Think again and again, time after time.
+
