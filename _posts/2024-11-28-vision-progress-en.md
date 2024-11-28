@@ -14,3 +14,11 @@ Time | Left Eye Myopia | Left Eye Astigmatism | Right Eye Myopia | Right Eye Ast
 2024.01.07 | 300 | 100 | 475 | 125| 0.9
 2024.11.28 | 250 | 100 | 425 | 125| 0.9
 
+
+Time | Left Eye Myopia | Left Eye Astigmatism | Right Eye Myopia | Right Eye Astigmatism| Correct Vision
+2022.03.05 | -3.50 | -2.25 | -5.75 | -1.75| 1.0
+2022.11.13 | -3.25 | -2.00 | -5.50 | -1.75| 0.9
+2023.04.20 | -3.00 | -1.25 | -5.00 | -1.25| 1.0
+2024.01.07 | -3.00 | -1.00 | -4.75 | -1.25| 0.9
+2024.11.28 | -2.50 | -1.00 | -4.25 | -1.25| 0.9
+
