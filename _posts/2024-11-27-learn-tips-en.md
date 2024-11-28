@@ -53,3 +53,14 @@ title: "Learning Tips"
 
 * Your brain is powerful. Think things through by yourself. Think again and again, time after time.
 
+* Grab the essence or principle of things to learn. For example, machine learning is about calculus, and startups are about making something people want.
+
+* You don't need to learn something to prove yourself to others. New discoveries take time to become popular. Your abilities take time to become truly good. Others will then notice.
+
+* Learning is mainly about trying new things or thinking in new ways. Keep exploring.
+
+* To learn is to better enjoy life. For example, learning a new language is like opening a new world. 
+
+
+
+
