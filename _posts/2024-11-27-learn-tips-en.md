@@ -63,6 +63,6 @@ title: "Learning Tips"
 
 * When learning a subject, directly approaching the core concepts or doing the final exam exercises is okay. You can learn backward to the fundamental things. A hard start leads to an easy end. Quickly overcome the fear or discomfort associated with new knowledge. 
 
-* Teach or share what you learn to others, one piece at a time. No matter how technical or sophisticated it is, share it with your mother, companion, friends, or even street buddies. 
+* Teach or share what you learn to others, one piece at a time. No matter how technical or sophisticated it is, share it with your companion, friends, or even street buddies. 
 
 * Write blogs, make videos, or create other content to share. People are narcissistic. By reviewing what you create, you will notice imperfections. That will give you the urge to improve.
