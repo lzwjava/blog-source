@@ -61,3 +61,7 @@ title: "Learning Tips"
 
 * To learn is to better enjoy life. For example, learning a new language is like opening a new world. 
 
+* When learning a subject, directly approaching the core concepts or doing the final exam exercises is okay. You can learn backward to the fundamental things. A hard start leads to an easy end. Quickly overcome the fear or discomfort associated with new knowledge. 
+
+* Teach or share what you learn to others, one piece at a time. No matter how technical or sophisticated it is, share it with your mother, companion, friends, or even street buddies. 
+
