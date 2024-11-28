@@ -1,11 +1,8 @@
----
-layout: post
-title: 'Natural Vision Restoration: The Principle of "Just Barely Clear"'
----
+# Natural Vision Restoration: The Principle of "Just Barely Clear"
 
 ## Key Discovery
 
-After extensive experimentation and observation, I've discovered that the most crucial principle in myopia reversal is wearing glasses that make objects "just barely clear" at your typical viewing distances. This is more important than adhering to a fixed reduction number like 150 or 175 degrees.
+After extensive experimentation and observation, I've discovered that the most crucial principle in myopia reversal is wearing glasses that make objects "just barely clear" at your typical viewing distances. This is more important than adhering to a fixed reduction number like 150, 175, or 200 degrees.
 
 ## The "Just Barely Clear" Principle
 
@@ -15,15 +12,15 @@ The optimal prescription reduction should achieve this state:
 - Your eyes should feel relaxed, not struggling to focus
 
 From my experience:
-- For mobile phone use, typically reducing by about 175 degrees achieves this "just barely clear" state
+- For mobile phone use, typically reducing by about 175-200 degrees achieves this "just barely clear" state
 - For computer work, about 150 degrees reduction often works well
-- Though I personally can wear glasses with 175 degrees reduction for both mobile phone and computer use - I simply move my head slightly forward to see the computer screen barely clear
+- Though I personally can wear glasses with 175-200 degrees reduction for both mobile phone and computer use - I simply move my head slightly forward to see the computer screen barely clear
 - However, these numbers are guidelines - your optimal reduction may differ
 
 ## How to Find Your "Just Barely Clear" Prescription
 
 1. Start with your current prescription
-2. Try glasses with different reductions (150-175 degrees less)
+2. Try glasses with different reductions (150-200 degrees less)
 3. Observe which prescription allows you to:
    - Read your phone just clearly enough
    - See your computer screen without strain
@@ -40,7 +37,7 @@ In the first year, I primarily used a computer for work while wearing glasses wi
 This led me to revisit Yin Wang's article, particularly this crucial passage:
 >"When looking at distant objects, the crystalline lens needs to relax and reduce refraction. If the image still falls in front of the retina after the lens is completely relaxed, objects appear blurry. If you continue to look at the object in this state, the external eye muscles will begin to gently compress the eyeball, making the optical axis slightly shorter (perhaps only 0.x millimeters), and the blurry object will gradually become somewhat clearer. If you frequently maintain this slightly blurry state, the repeated small compressions of the optical axis will lead to permanent shortening, and myopia will reverse."
 
-This passage was a revelation to me. Based on this understanding, I recently switched to glasses with a 175-degree reduction, which has worked well. By creating more "just barely clear" states, I expect my myopia to reduce by another 100 degrees in the coming year. Let's see what happens.
+This passage was a revelation to me. Based on this understanding, I recently tried glasses with both 175 and 200-degree reductions, which have worked well. By creating more "just barely clear" states, I expect my myopia to reduce by another 100 degrees in the coming year. Let's see what happens.
 
 This experience teaches us that the key isn't about reducing by a fixed number of degrees, but rather about consistently maintaining the "just barely clear" state. The specific reduction needed to achieve this state may vary for each person, but what's important is finding and maintaining this optimal point.
 
@@ -74,7 +71,7 @@ The secret to natural vision improvement lies not in any specific degree reducti
 
 Remember:
 - Focus on finding your personal "just barely clear" point
-- This might be around 150-175 degrees less than your current prescription
+- This might be around 150-200 degrees less than your current prescription
 - The exact reduction matters less than achieving that optimal state of clarity
 - Be patient and consistent - improvement takes time
 
@@ -87,5 +84,4 @@ This understanding builds upon the groundbreaking work of Yin Wang and subsequen
 1. Natural Vision Restoration Method, [https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia)
 
 2. Experimental Verification of Yin Wang's Natural Vision Restoration Method, [https://lzwjava.github.io/eyes-en](https://lzwjava.github.io/eyes-en)
-
 
