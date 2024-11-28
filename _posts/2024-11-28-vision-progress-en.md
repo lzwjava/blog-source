@@ -5,7 +5,9 @@ title: "Natural Vision Restoration Progress"
 
 Last updated: November 28, 2024
 
-My Eye Prescription History
+## My Eye Prescription History
+
+### Whole Number Format
 
 Time | Left Eye Myopia | Left Eye Astigmatism | Right Eye Myopia | Right Eye Astigmatism| Correct Vision
 2022.03.05 | 350 | 225 | 575 | 175| 1.0
@@ -14,6 +16,7 @@ Time | Left Eye Myopia | Left Eye Astigmatism | Right Eye Myopia | Right Eye Ast
 2024.01.07 | 300 | 100 | 475 | 125| 0.9
 2024.11.28 | 250 | 100 | 425 | 125| 0.9
 
+### Decimal Format
 
 Time | Left Eye Myopia | Left Eye Astigmatism | Right Eye Myopia | Right Eye Astigmatism| Correct Vision
 2022.03.05 | -3.50 | -2.25 | -5.75 | -1.75| 1.0
