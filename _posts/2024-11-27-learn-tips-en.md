@@ -61,6 +61,3 @@ title: "Learning Tips"
 
 * To learn is to better enjoy life. For example, learning a new language is like opening a new world. 
 
-
-
-
