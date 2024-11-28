@@ -65,3 +65,4 @@ title: "Learning Tips"
 
 * Teach or share what you learn to others, one piece at a time. No matter how technical or sophisticated it is, share it with your mother, companion, friends, or even street buddies. 
 
+* Write blogs, make videos, or create other content to share. People are self-interested. By reviewing what you create, you will notice imperfections. That will give you the urge to improve.
