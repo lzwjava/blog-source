@@ -14,3 +14,4 @@ Time | Left Eye Myopia | Left Eye Astigmatism | Right Eye Myopia | Right Eye Ast
 2024.01.07 | 300 | 100 | 475 | 125| 0.9
 2024.11.28 | 250 | 100 | 425 | 125| 0.9
 
+
