@@ -3,8 +3,6 @@ layout: post
 title: "Money Spending Tips"
 ---
 
-* Spend money wisely.
-
 * Find free solutions first - open source software, free ebooks, papers, information etc.
 
 * Prefer affordable items. Many things under 100 CNY are quite good quality. You're less likely to suffer a loss or be cheated.
