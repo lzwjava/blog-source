@@ -28,7 +28,7 @@ title: "宝宝游戏：跟随手的动作"
     <circle cx="190" cy="145" r="2" fill="#495057"/>
     <path d="M185 155 Q190 157 195 155" stroke="#495057" fill="none" stroke-width="1.5"/>
     
-    <text x="200" y="270" text-anchor="middle" font-size="14" fill="#666">Initial Position</text>
+    <text x="200" y="270" text-anchor="middle" font-size="14" fill="#666">初始位置</text>
   </g>
 
   <!-- Right Side Scene -->
@@ -56,13 +56,14 @@ title: "宝宝游戏：跟随手的动作"
     <path d="M200 130 L220 130" stroke="#2196F3" fill="none" stroke-width="2" stroke-dasharray="3,3"/>
     <polygon points="220,130 216,126 216,134" fill="#2196F3"/>
     
-    <text x="200" y="270" text-anchor="middle" font-size="14" fill="#666">Following Baby's Hand</text>
+    <text x="200" y="270" text-anchor="middle" font-size="14" fill="#666">跟随宝宝的手</text>
   </g>
 
   <!-- Center Arrow -->
   <path d="M350 150 L450 150" stroke="#2196F3" fill="none" stroke-width="2"/>
   <polygon points="450,150 445,146 445,154" fill="#2196F3"/>
 </svg>
+
 
 这是一个我和宝宝玩的简单互动游戏，可以逗他们开心。
 
