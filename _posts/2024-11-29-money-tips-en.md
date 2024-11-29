@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Money Tips"
+title: "Money Spending Tips"
 ---
 
 * Spend money wisely.
@@ -10,8 +10,6 @@ title: "Money Tips"
 * Prefer affordable items. Many things under 100 CNY are quite good quality. You're less likely to suffer a loss or be cheated.
 
 * I bought an iPhone with 512GB storage, but 256GB would have been enough. Photos and videos take up half my space. There are solutions like syncing to computer or using iCloud. Usually, a moderate solution works fine.
-
-* Regularly invest in Bitcoin or S&P 500. Invest in a few items that have the largest market capitalization globally, like Apple or Nasdaq.
 
 * Instead of buying things just to use, buy things to learn from. Regularly buy new affordable items that you can learn from.
 
