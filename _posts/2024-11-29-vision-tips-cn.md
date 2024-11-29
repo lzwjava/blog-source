@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Natural Vision Restoration Tips"
+title: "自然恢复视力小贴士"
 ---
 
 * 人们视力变差的原因是他们使用全度数眼镜（能让他们在5米外清楚看到黑板）来看手机、电脑或书籍。这会导致眼球变形。
