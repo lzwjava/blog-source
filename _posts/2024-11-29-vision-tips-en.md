@@ -19,8 +19,6 @@ title: "Natural Vision Restoration Tips"
 
 * Don't aim for perfect clarity. Slightly blurry vision is part of the improvement process.
 
-* Avoid checking progress too frequently as improvements happen gradually.
-
 * Use the formula: Myopia degree = 100/clear distance (in meters) for rough assessment.
 
 * Don't force yourself to see clearly - let your eyes adjust naturally.
