@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "金钱小贴士"
+title: "花钱小贴士"
 ---
+
 
 * 明智地花钱。
 
