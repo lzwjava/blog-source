@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use Vision Table to Track Natural Vision Restoration Progress"
+title: "Use Vision Table"
 ---
 
 I bought a vision chart to track my natural vision restoration progress. It only cost me around 10 RMB on JD. I installed it on my bedroom wall as shown below.
