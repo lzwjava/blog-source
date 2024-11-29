@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baby Game: Follow the Hand"
+title: "宝宝游戏：跟随手的动作"
 ---
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
