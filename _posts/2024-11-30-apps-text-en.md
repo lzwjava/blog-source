@@ -3,6 +3,8 @@ layout: post
 title: "My App List - Text Version"
 ---
 
+Claude helps to extract the apps from the image. It may not be accurate or complete.
+
 A:
 - Airbnb
 - AliExpress

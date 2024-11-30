@@ -3,6 +3,9 @@ layout: post
 title: "我的应用程序列表 - 文字版"
 ---
 
+Claude 帮助从图片中提取应用程序。可能不准确或不完整。
+
+
 A:
 - Airbnb
 - AliExpress
