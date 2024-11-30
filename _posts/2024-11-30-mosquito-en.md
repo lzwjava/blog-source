@@ -3,10 +3,7 @@ layout: post
 title: "Mosquitoes Disappear When Temperature Drops"
 ---
 
-Last night, I intended to go to sleep. At the moment I wanted to close the curtains, I found there weren't any mosquitoes in my room. Winter is coming. Today is Nov 30, 2024. I am in Guangzhou, China. The temperature in Guangzhou is between 13-20°C.
-
-
-In last night, I intened to go to sleep. At the moment I want to close the curtains, I found there wasn't any mosquito in my room now. The winter is coming. Today is Nov 30, 2024. I am in Guangzhou, China. The temperature in Guangzhou is between 13-20°C.
+In last night, I intened to go to sleep. At the moment I want to close the mosquito net, I found there wasn't any mosquito in my room now. The winter is coming. Today is Nov 30, 2024. I am in Guangzhou, China. The temperature in Guangzhou is between 13-20°C.
 
 Then I asked the Claude to explain how's the behavior of mosquitoes when the temperature drops. I got the following answer:
 
@@ -22,5 +19,5 @@ Then I asked the Claude to explain how's the behavior of mosquitoes when the tem
 
 > However, it's worth noting that some mosquito species have adapted to lower temperatures and can survive in cold weather. Especially in indoor environments with heating, mosquitoes may still remain active.
 
-So I don't need to close the curtains to avoid mosquitoes. And my small mosquito electric repeller can shut down now. 
+So I don't need to close the mosquito net to avoid mosquitoes. And my small electric mosquito lamp can shut down now. 
 
