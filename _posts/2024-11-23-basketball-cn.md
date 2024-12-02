@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "传球革新：非传统篮球传球技巧"
+title: "非传统篮球传球技巧"
 ---
 
 <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
