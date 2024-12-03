@@ -15,3 +15,9 @@ Here are the steps to view all installed apps using Xcode:
 4. Select your iPhone from the left sidebar
 5. In the main panel, scroll down to the "Installed Apps" section
 
+It has other functions:
+
+1. Take screenshots
+2. Open Recent logs
+3. Open Console
+
