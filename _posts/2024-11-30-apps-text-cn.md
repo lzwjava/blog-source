@@ -3,119 +3,169 @@ layout: post
 title: "我的应用程序列表 - 文字版"
 ---
 
-Claude 帮助从图片中提取应用程序。可能不准确或不完整。
-
+C\#:
+- 500px
 
 A:
+- Adobe Scan
+- Affirm
+- Agoda
+- Air Matters
+- AirMacau
 - Airbnb
-- AliExpress
+- Alaska
+- Al Jazeera
 - Alibaba Cloud
+- Alibaba.com
 - Alipay
+- AllTrails
 - Amazon
 - Amazon Alexa
+- Amazon Music
+- American
+- AMC Theatres
+- Amtrak
 - Analytics
+- APPatient
 - Apple Store
+- Assembly
+- Assistant
 - Ate
-- Audible
 - Authenticator
-- 安居客 (Anjuke)
-- 爱康 (Aikang)
-- 爱奇艺 (iQiyi)
-- 澳門日報 (Macau Daily)
+- AWS Events
+- 爱康
 
 B:
-- BBC
-- BIGO LIVE
-- BOSS直聘 (BOSS Direct Hiring)
 - Balance
-- Binance
+- BBC
+- Benkyō
+- Best Buy
+- BetterMe
+- Bible
+- BIGO LIVE
 - Bing
+- Binance
 - Blinkist
 - Bloomberg
 - Bluesky
 - BofA
-- Books
-- Brilliant
+- Booking.com
+- Bose
+- British Airways
 - Browser
+- Bunpo
+- Bus Out
 - Bus Times
 - BuzzFeed
-- 百度网盘 (Baidu Netdisk)
-- 哔哩哔哩 (Bilibili)
+- BOSS直聘
+- 百度网盘
 
 C:
-- CVS
-- Calculator
-- Calendar
 - Calm
 - Canva
 - CapCut
+- Careem
+- Cash App
 - Centaline
+- ChargeSPOT
+- Chat
 - ChatGPT
+- Chevron
+- Chime
 - Chrome
+- CHSI
+- Citizen
 - Citymapper
-- Clash of Clans
 - ClassDojo
 - Claude
-- Clock
+- Client Portal
 - Clubhouse
-- CoinMarketCap
+- Code Quiz
+- Code-A-Day
+- Codecademy Go
 - Coinbase
-- Compass
+- CoinMarketCap
+- Coban
+- Cookpad
 - Copilot
+- Costco
 - Coursera
-- Craigslist
-- 菜鸟 (Cainiao)
-- 财新 (Caixin)
-- 超级课程表 (Super Course Schedule)
-- 朝日新聞 (Asahi Shimbun)
+- Credit Karma
+- craigslist
+- Currency
+- CVS
+- 财新
+- 菜鸟
 
 D:
-- DBS digibank
-- DJI Assistant
+- Darkroom
+- das Image
+- Dasher
+- DataCamp
 - Days Matter Air
+- DeDao
 - DeepL
 - Deliveroo
+- Depop
+- DetailsPro
+- Developer
+- DICK'S
+- Dictionary
 - DiDi
 - DingDing
-- Discord
+- Disney World
 - Disney+
-- Docusign
-- Drive
+- DOKODEMO
+- Domino's
+- DoorDash
+- DraftKings Sportsbook & Casino
 - Dropbox
+- Duolingo
 - Dupay
-- 东呈会 (Dongcheng Hui)
-- 嘀嗒出行 (DiDa Chuxing)
-- 多抓鱼 (Duozhuayu)
-- 当当 (Dangdang)
-- 抖音 (Douyin/TikTok)
+- DuckDuckGo
+- Dunkin'
+- 当当
 
 E:
-- ESPN
+- Easy Korean
+- eBay
 - Economist
+- edX
 - Edge
-- 饿了么 (Ele.me)
-- e代驾 (E-Driver)
+- Emirates NBD
+- Encode
+- ENEOSCARD
+- Enterprise
+- ESPN
+- Evernote
+- Everand
+- Excel
+- Expedia
+- Explain Every...
 
 F:
-- FT
-- FT中文网 (FT Chinese)
-- FaceTime
 - Facebook
-- Files
-- Finance
-- Find My
+- FarOut
+- FGTS
+- Fiverr
 - Fire TV
-- Fitness
+- FlightAware
 - Flipboard
-- Focus App
+- Flo
+- Flow
+- Fly Delta
 - Focus Taiwan
-- Food
-- Freeform
-- 发现精彩 (Discover Wonderful)
-- 粉笔 (Chalk)
+- foodpanda
+- Fox Nation
+- Free People
+- Frontier
+- FT
+- FT中文网
+- Friday AI
 
 G:
-- GRE Prep
+- Gaana
+- Gauth
 - Gemini
 - Genie
 - Genshin Impact
@@ -123,222 +173,331 @@ G:
 - Glassdoor
 - Gmail
 - Gohan
-- Goodreads
+- Gojek
 - Google
 - Google Calendar
+- Google Chat
+- Google Classroom
 - Google Cloud
+- Google Drive
+- Google Earth
 - Google Home
+- Google Keep
 - Google Maps
+- Google Meet
 - Google News
 - Google One
 - Google Photos
+- Google Sheets
+- Google Slides
 - Google Translate
+- Google Voice
+- GoodRx
+- Goodreads
+- GoWish
+- Grab
 - Grammarly
-- Green
-- Guardian
-- 个人所得税 (Personal Income Tax)
-- 广州地铁 (Guangzhou Metro)
-- 瓜子二手车 (Guazi Used Cars)
-- 高德地图 (Gaode Maps)
+- Grubhub
+- Gymshark
+- 瓜子二手车
+- 高德地图
 
 H:
-- HOME'S
-- HSBC HK
-- HUAWEI AI Life
+- Habit
+- Healow
 - Headspace
-- Health
 - Hinge
-- Hong Kong News
-- Hive Social
-- 盒马 (Hema)
-- 航旅纵横 (HangLv ZongHeng)
+- HOME'S
+- Hopper
+- Hostelworld
+- Hotels.com
+- HP Smart
+- Hulu
+- HUAWEI AI Life
+- 华住会
 
 I:
-- ICBC
-- IG
-- IKEA
-- IMG
-- Infogram
+- IELTS
+- IKEA宜家家居
+- iHeart
+- IHG
+- Image Size
+- Imgur
+- Indeed Jobs
 - Instagram
-- Insta360
-- iCloud
-- iMusic
+- Instacart
+- Instapaper
+- iSH
 
 J:
+- Japan Airlines
+- JapanTransit
+- Japanese
+- Jayson
 - JD
-- JP Morgan
-- Japan Times
-- Jump
-- 京东 (JD.com)
-- 交通银行 (Bank of Communications)
-- 今日头条 (Toutiao)
+- JetBlue
+- Jisho
+- JobsDB
+- Jyutping
 
 K:
+- Kanji!
+- Kaomoji
+- Keeta
 - KFC
-- KKday
-- KLOOK
+- Khan Academy
+- Kimi 智能助手
 - Kindle
-- Kiwi
-- KK News
-- 快手 (Kuaishou)
-- 夸克 (Quark)
+- Klook
+- Kono
 
 L:
+- Layout
+- Lazada
+- Learn Japanese
+- Learn Java
+- LearnJava
+- Learning
+- Lemon8
+- Life360
+- Lightroom
+- Lime
 - LINE
+- LINE WORKS
 - LinkedIn
-- Lines
-- Little Red Book
-- 链家 (Lianjia)
+- Little Caesars
+- LooLoo Kids
+- Longbridge
+- Lose It!
+- lululemon
+- Lyft
+- 领英职场
 
 M:
-- Mail
-- Maps
+- Manga
+- MARIO RUN
 - Mastodon
+- MasterClass
+- Max
+- Mazii
 - McDonald's
-- Messages
+- McDonald's JP
+- Medium
+- Meet
+- Memrise
+- Mercado Libre
 - Messenger
-- Metro
-- Microsoft
-- Microsoft Edge
-- Microsoft Teams
-- Mobile
+- Meta Horizon
+- Meitu
+- Mi Fitness
+- Mi Home
+- Microsoft 365 (Office)
+- Mimo
+- MOJisho
 - Monzo
-- Music
-- 美团 (Meituan)
-- 蚂蚁财富 (Ant Fortune)
+- Moovit
+- MTD
+- MyChart
+- MyDyson
+- MyNetDiary
+- 马蜂窝
+- 美团
+- 美团外卖
 
 N:
-- NFC Tags
+- NBC
 - Netflix
-- News
-- Nike Run Club
-- Notes
-- Now E
-- Now News
-- NowTV
-- 农行 (Agricultural Bank of China)
+- NewsBreak
+- NHS App
+- Night Sky
+- Nike
+- Nintendo Music
+- Nintendo Switch Online
+- Nihongo
+- noon
+- Notion
+- Noticias
+- Notícias
+- NYTimes
+- 南网在线
 
 O:
+- Octal
+- OCBC
 - OneDrive
-- OpenAI
-- OpenRice
 - Outlook
 
 P:
+- Pandora
+- Panels
+- Paramount+
+- Pastel
 - PayMe
 - PayPal
-- Photos
+- Paytm
+- PeakVisor
+- Perplexity
+- Phantom
+- Photomath
+- Picsart
+- PictureThis
 - Pinterest
-- Podcasts
-- Pokemon Go
-- Power
-- PressReader
+- Poe
+- Polymarket
+- PonyPilot
+- Poolsuite FM
+- PowerPoint
+- Powl
 - Prime Video
-- Procore
-- ProtonMail
-- PUBG
-- 浦发银行 (Pudong Development Bank)
+- ProgrammingHub
+- Proxyman
+- PS Express
 
 Q:
-- QQ
-- QR Code
-- Quick Look
+- Quizlet
 - Quora
-- 穷游 (Qiongyou)
+- QQ
+- QQ Mail
 
 R:
-- Railway 12306
-- Razer
+- RareJob
 - Reddit
-- Reminders
-- RingCentral
+- Reelshort
+- Replit
+- Reuters
 - Revolut
+- Robinhood
+- Roblox
+- Rome2Rio
+- Roku
 
 S:
-- Safari
-- Settings
+- Sam's Club
 - Shazam
+- SHEIN
+- Shirabe Jisho
+- Shop
+- Shopping
+- Showmax
+- Signal
+- Singapore
+- SingaporeAir
+- Sky Guide
+- Sky News
+- Skratch
 - Slack
-- Smartone
+- Skillshare
+- SmartNews
 - Snapchat
+- Snapseed
+- Sololearn
 - SoundCloud
+- Southwest
+- Speechify
 - Spotify
-- Star+
-- Starbucks
 - Steam
-- Stock
-- Stocks
-- Strava
-- 深圳地铁 (Shenzhen Metro)
-- 深圳通 (Shenzhen Tong)
-- 顺丰速运 (SF Express)
+- Sticker.ly
+- StitchPics
+- StitchShot
+- Support
+- Surge
+- SUUMO
+- SUBWAY®
+- 神州租车
+- 搜狗输入法
+- 水滴保
 
 T:
-- TKDM
-- TV
+- Talabat
+- Target
 - Teams
+- Ted
 - Telegram
+- Temu
+- Termius
 - Tesla
+- TestFlight
 - The Guardian
-- The Paper
-- The Telegraph
+- The Hindu
+- The Times
 - Threads
+- Tile
+- Tiger Trade
 - TikTok
-- Times
+- TikTok Studio
+- Time Magazine
 - Tinder
-- Tips
-- ToDesk
+- TODAY
+- Tongyi
+- TooGoodToGo
 - Transit
-- Twitter/X
-- 淘宝 (Taobao)
-- 天猫 (Tmall)
-- 铁路12306 (Railway 12306)
+- TripIt
+- Tripscout
+- Trip.com
+- Tubi
+- Tumblr
+- Turo
+- Twitch
+- 太平洋保险
+- 天猫
 
 U:
 - Uber
-- UberEats
-- Upwork
-- 优酷 (Youku)
+- Uber Eats
+- Udemy
+- UHC
+- United
+- U-Haul
 
 V:
-- VISA
-- VSCodium
+- Video Lite
+- Viator
+- VK
 - VLC
-- Voice Memos
-- VoiceOver
-- VSCO
+- Voice
+- Vrbo
 
 W:
-- Wallet
-- Watch
-- Weather
+- Walgreens
+- Walmart
+- Wash Post
+- Waze
 - WeChat
-- WeCom
-- Weibo
+- Wells Fargo
 - WhatsApp
-- WPS
-- 微信 (WeChat)
-- 网易云音乐 (NetEase Music)
+- Whiteboard
+- Wise
+- Word
+- Wordtune
+- 无线新闻
 
 X:
-- XE
+- X
 - Xbox
-- 小红书 (Xiaohongshu)
-- 携程 (Trip.com)
+- 小红书
+- 携程旅行
+- 小米商城
 
 Y:
-- Yahoo
+- Yahoo Mail
 - Yahoo News
+- Yelp
+- Yomiwa
 - YouTube
 - YouTube Music
-- 游戏中心 (Game Center)
+- YouTube TV
+- YT Kids
+- YT Studio
+- Yuka
+- 易车汽车报价
 
 Z:
+- Zelle
+- Zillow
+- Zillow Rentals
 - Zoom
-- zFuse
-- 知乎 (Zhihu)
-- 支付宝 (Alipay)
-- 中国建设银行 (China Construction Bank)
-- 中国移动 (China Mobile)
-- 招商银行 (China Merchants Bank)
-
+- 知乎
+- 招商银行
+- 中国电信
+- 中国建设银行
+- 中山三院·用户版
