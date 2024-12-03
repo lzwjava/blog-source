@@ -20,3 +20,36 @@ title: "使用 iOS 的开发者模式"
 1. 截取屏幕截图
 2. 打开最近的日志
 3. 打开控制台
+
+## xcrun
+
+(base) lzwjava@192 Downloads % xcrun devicectl device info apps --device 00008120-xxxx --verbose
+使用详细日志记录。
+2024-12-03 16:24:18.579+0800  启用开发者磁盘映像服务。
+2024-12-03 16:24:18.637+0800  获取使用断言。
+已安装的应用：
+  - 0 个元素
+
+命令完成，耗时 0.120 秒
+
+
+## ideviceinstaller
+
+```bash
+brew install ideviceinstaller
+ideviceinstaller -l
+```
+
+```bash
+(base) lzwjava@192 Downloads % ideviceinstaller -l
+CFBundleIdentifier, CFBundleVersion, CFBundleDisplayName
+com.huawei.smarthome-ios, "14.1.1.325", "HUAWEI AI Life"
+com.sf-express.waybillcn, "9.70.0.1", "顺丰速运"
+com.roblox.robloxmobile, "2.652.762", "Roblox"
+co.alphaexploration.clubhouse, "3273", "Clubhouse"
+com.dbs.mbanking.cn, "11", "DBS digibank"
+global.longbridge.ios, "59579", "Longbridge"
+imgurmobile, "416", "Imgur"
+com.creditkarma.mobile, "17316145", "Credit Karma"
+...
+```
