@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using Developer Mode of iOS and ideviceinstaller"
+title: "Developer Mode of iOS and ideviceinstaller"
 ---
 
 ## Developer Mode

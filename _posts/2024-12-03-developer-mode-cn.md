@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "使用 iOS 的开发者模式"
+title: "iOS 开发者模式和 ideviceinstaller"
 ---
+
+## 开发者模式
 
 我曾经做过一段时间的 iOS 开发者。但我的职业重心已经转向其他技术。然而，虽然我现在不是专业的 iOS 开发者，但应用 iOS 开发知识仍然非常有用。
 
