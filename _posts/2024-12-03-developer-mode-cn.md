@@ -1,21 +1,16 @@
 ---
 layout: post
-title: "Google Cloud Is Expensive"
+title: "使用 iOS 的开发者模式"
 ---
 
-<div style="text-align: center;">
-    <img src="/assets/images/gcp/gcp.jpg" alt="gcp" width="300px" />
-    <p style="font-size: 12px;">source: cloud.google.com</p>
-</div>
+我曾经做过一段时间的 iOS 开发者。但我的职业重心已经转向其他技术。然而，虽然我现在不是专业的 iOS 开发者，但应用 iOS 开发知识仍然非常有用。
 
-I have written an article titled [Some Global Cloud Platforms](./cloud-platforms-en). Recently, I gained more experience with Google Cloud.
+最近，我想分享我安装的应用程序。但如果我从主屏幕或设置中的应用列表截取所有应用的截图，会很混乱。所以我需要找到一种查看所有已安装应用的方法。
 
-I needed a proxy server to use as a VPN to connect to networks that are blocked by the GFW. I hadn't tried Google Cloud before, so I decided to test it. You can use an OCBC credit card to get $200 in credits. However, for some reason, sometimes your spending won't be counted against your credits, but instead charged as actual spending.
+以下是使用 Xcode 查看所有已安装应用的步骤：
 
-In the latest month, I spent around 75 SGD on Google Cloud. This was basically for just one compute engine instance (1 vCPU, 1 10GB disk, Jurong West, Singapore).
-
-I have used Digital Ocean for a long time. It is much cheaper. It only costs 6 USD per month for a Droplet (1 vCPU, 1GB Memory, 25GB SSD, Singapore).
-
-However, after using Google Cloud's pricing calculator, I realized that the issue might be with Outline. I used Outline Manager to set up the proxy server.
-
-The machine type is an important factor. I need to do more research on this.
+1. 通过 USB 将 iPhone 连接到 Mac
+2. 打开 Xcode
+3. 转到 Window → Devices and Simulators（或按 Shift + Cmd + 2）
+4. 从左侧边栏选择你的 iPhone
+5. 在主面板中，向下滚动到"Installed Apps"部分
