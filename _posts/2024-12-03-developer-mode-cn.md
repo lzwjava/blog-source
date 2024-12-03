@@ -14,3 +14,9 @@ title: "使用 iOS 的开发者模式"
 3. 转到 Window → Devices and Simulators（或按 Shift + Cmd + 2）
 4. 从左侧边栏选择你的 iPhone
 5. 在主面板中，向下滚动到"Installed Apps"部分
+
+它还有其他有用的功能：
+
+1. 截取屏幕截图
+2. 打开最近的日志
+3. 打开控制台
