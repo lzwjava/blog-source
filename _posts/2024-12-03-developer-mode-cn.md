@@ -23,15 +23,16 @@ title: "使用 iOS 的开发者模式"
 
 ## xcrun
 
+```bash
 (base) lzwjava@192 Downloads % xcrun devicectl device info apps --device 00008120-xxxx --verbose
-使用详细日志记录。
-2024-12-03 16:24:18.579+0800  启用开发者磁盘映像服务。
-2024-12-03 16:24:18.637+0800  获取使用断言。
-已安装的应用：
-  - 0 个元素
+Using verbose logging.
+2024-12-03 16:24:18.579+0800  Enabling developer disk image services.
+2024-12-03 16:24:18.637+0800  Acquired usage assertion.
+Apps installed:
+  - 0 elements
 
-命令完成，耗时 0.120 秒
-
+Command Completed, took 0.120 seconds
+```
 
 ## ideviceinstaller
 

@@ -25,6 +25,7 @@ It has other useful functions:
 
 ## xcrun
 
+```bash
 (base) lzwjava@192 Downloads % xcrun devicectl device info apps --device 00008120-xxxx --verbose
 Using verbose logging.
 2024-12-03 16:24:18.579+0800  Enabling developer disk image services.
@@ -33,6 +34,7 @@ Apps installed:
   - 0 elements
 
 Command Completed, took 0.120 seconds
+```
 
 
 ## ideviceinstaller
