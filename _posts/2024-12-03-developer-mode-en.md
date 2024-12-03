@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using Developer Mode of iPhone"
+title: "Using Developer Mode of iOS"
 ---
 
 I was once an iOS developer for some time. But my career focus has shifted to other technologies. However, it is still very useful to apply iOS development knowledge even though I am not a professional iOS developer now.
