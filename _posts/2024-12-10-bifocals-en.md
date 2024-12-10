@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Problems Do Bifocals Have?"
+title: "What Problems Do Bifocals Have"
 ---
 
 Bifocals have two different optical powers: one for the upper segment and one for the lower segment. They typically have a significant difference in optical power between these two segments of the lens.
