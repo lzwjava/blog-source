@@ -19,4 +19,11 @@ title: "使用视力表"
 
 有趣的是，我现在学会了一种新的做事方式。
 
+---
+
+几天后，我决定购买另一种视觉桌——C型视觉表。我把它安装在客厅里。
+
+<div style="text-align: center;">
+    <img src="/assets/images/vision/c-shape.jpg" alt="C型视觉桌" width="50%" />
+</div>
 
