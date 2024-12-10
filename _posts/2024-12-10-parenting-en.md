@@ -3,6 +3,8 @@ layout: post
 title: "Parenting Tips"
 ---
 
+* Safety is the most important thing. Live low-key and ensure that kindergartens or schools do the right thing.
+
 * Broaden their perspectives by exposing them to diverse experiences and traveling.
 
 * Avoid forcing them to do things they dislike and minimize their hardships.
