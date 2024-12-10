@@ -31,5 +31,6 @@ title: "育儿建议"
 
 * 通过观察他们并理解成人和孩子之间的差异来学习。
 
-* 特别是在车上，提供YouTube Kids动画观看和Apple Arcade和Google Play Pass游戏玩耍。
+* 提供YouTube Kids动画观看和Apple Arcade和Google Play Pass游戏玩耍。
 
+* 使用 YouTube Premium 下载一些英文动画，让孩子们在车上观看。

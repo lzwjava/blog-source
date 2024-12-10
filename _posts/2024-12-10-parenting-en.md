@@ -31,5 +31,7 @@ title: "Parenting Tips"
 
 * Learn from them by observing them and understanding the differences between adults and kids.
 
-* Provide YouTube Kids animations to watch and Apple Arcade and Google Play Pass games to play, especially in the car.
+* Provide YouTube Kids animations to watch and Apple Arcade and Google Play Pass games to play.
+
+* Use YouTube Premium to download some English animations for kids to watch in the car.
 
