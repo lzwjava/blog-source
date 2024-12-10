@@ -51,3 +51,6 @@ title: "Life Tips"
 
 * When it comes to money, think about how the richest or smartest people do it.
 
+* Normally, you can't force anyone to do anything, and others can't force you to do anything either.
+
+* Follow your true passion. You can't force yourself to do things you don't like for a long time.
