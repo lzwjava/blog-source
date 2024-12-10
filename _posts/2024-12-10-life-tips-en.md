@@ -45,7 +45,7 @@ title: "Life Tips"
 
 * English is the world language now. Be good at it and use it like a native language.
 
-* Do not change anyone. 
+* You don't need to change anyone. If you discover something or create something that people want, they will come.
 
 * Don't get desperate. The majority of the world is helping. They are making products or services for cheap or free.
 
