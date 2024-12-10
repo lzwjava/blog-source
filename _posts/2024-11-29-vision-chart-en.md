@@ -6,7 +6,7 @@ title: "Use Vision chart"
 I bought a vision chart to track my natural vision restoration progress. It only cost me around 10 RMB on JD. I installed it on my bedroom wall as shown below.
 
 <div style="text-align: center;">
-    <img src="/assets/images/vision/vision-table.jpg" alt="vision-chart" width="50%" />
+    <img src="/assets/images/vision/vision-chart.jpg" alt="vision-chart" width="50%" />
 </div>
 
 An optician at an eyeglasses store taught me how to use it. First, he used a machine to give a brief report on my eyes' myopia. Then he used several lenses, assembling them like Lego, to combine them. Typically, he would use two myopia lenses and one astigmatism lens to construct glasses for one eye, and vice versa for the other eye.
