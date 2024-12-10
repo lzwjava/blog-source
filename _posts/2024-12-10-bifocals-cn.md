@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "What Problems Do Bifocals Have?"
+title: "双光眼镜有什么问题？"
 ---
 
-Bifocals have two different optical powers: one for the upper segment and one for the lower segment. They typically have a significant difference in optical power between these two segments of the lens.
+双光眼镜有两种不同的光学度数：上部分和下部分。这两个部分的镜片通常在光学度数上有显著差异。
 
-The upper segment is for distance vision, and the lower segment is for near vision. The issue with bifocals is that when you look at a blackboard and use a computer, you use the distance vision part, which is the upper part of your eyeglasses.
+上部分用于远视，下部分用于近视。双光眼镜的问题在于，当你看黑板和使用电脑时，你会使用远视部分，也就是眼镜的上部分。
 
-So when you use a computer, you end up looking straight ahead as if you are looking at distant objects. However, you actually want to look at the near computer screen. Therefore, using the upper part for distance vision and the lower part for near vision can be problematic.
+因此，当你使用电脑时，你会像看远处物体一样直视前方。然而，你实际上想看近处的电脑屏幕。因此，使用上部分进行远视和下部分进行近视可能会有问题。
 
-I don't think there is a perfect pair of bifocals that allows your eyes to see exactly what you want to see clearly. It might be better to prepare two or three pairs of eyeglasses to adapt to your normal routines and see things clearly. This way, you might be able to improve your myopia over time.
+我认为没有一副完美的双光眼镜能让你的眼睛清楚地看到你想看的东西。准备两三副眼镜来适应你的日常习惯并清楚地看东西可能会更好。这样，你可能会逐渐改善你的近视。
 
