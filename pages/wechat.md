@@ -13,6 +13,10 @@ Welcome to say hi to me on Telegram or WeChat, and please share a bit of somethi
 
 #### Telegram
 
+My Telegram account is here: [https://t.me/lzwjava](https://t.me/lzwjava).
+
+我的Telegram账号在这里：[https://t.me/lzwjava](https://t.me/lzwjava)。
+
 <div align="center"><img src="/assets/images/t_me-lzwjava.jpg" width="200px" /><img/></div>
 
 #### WeChat Official Accounts
