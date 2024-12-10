@@ -13,7 +13,7 @@ I applied around September 2024 to pay off some of the mortgage, amounting to 20
 
 Today, I asked Gemini whether I should do so. It gave moderate answers. I decided to do it anyway. So, I applied again to pay off another 30k CNY of the mortgage. I noticed that the first time, it took them 2 weeks to approve. But the second time, the system approved it quickly. Today is December 10, 2024, so the date the bank will charge for the amount is January 9, 2025.
 
-Gemini couldn't tell you this because it is the process of the Agricultural Bank of China. This means that
+Gemini couldn't tell you this because it is the process of the Agricultural Bank of China.
 
 In my experience, paying off 20k CNY of the mortgage won't make much of a change to my personal financial status. I had a job during those months and had some revenue. However, in the latest month, for some reason, I am actively looking for job opportunities without income.
 
