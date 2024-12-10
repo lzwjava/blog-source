@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Subcribe"
+title:  "Subscribe"
 ---
 
 Please subscribe to my blog post updates on X (Twitter).
