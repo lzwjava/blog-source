@@ -17,7 +17,3 @@ title: "The Best Communication Method for Me"
 
 * Communicate one-to-one only in ways that can be traced over the years. Use text messages instead of calling, as recent platforms do not provide an option to generate transcripts.
 
-
-
-
-
