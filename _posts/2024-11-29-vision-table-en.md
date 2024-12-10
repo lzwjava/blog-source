@@ -21,7 +21,7 @@ Interestingly, I've now learned a new way to do things.
 
 ---
 
-After a few days, I decided to buy another type of vision table—a C-shaped vision table.
+After a few days, I decided to buy another type of vision table—a C-shaped vision table. I installed it in the living room.
 
 <div style="text-align: center;"> 
     <img src="/assets/images/vision/c-shape.jpg" alt="C-shaped vision table" width="50%" />
