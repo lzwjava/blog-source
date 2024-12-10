@@ -61,4 +61,5 @@ title: "Life Tips"
 
 * Almost everything can be changed. Think about your nationality. Think about where you were born. Remove every limit and start thinking about how to have the best life in the world. Start to notice the big gap and work towards closing it.
 
+* Humans are born to learn. If every piece of knowledge is taught correctly or you explore and reflect on it often, you will be happy to gain it.
 
