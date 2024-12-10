@@ -1,33 +1,35 @@
+Sure, here is the updated version of your post with "In the" removed:
+
 ---
 layout: post
 title: "Global Real Estate Apps"
 ---
 
-**In China:**
+**China:**
 - 安居客 (Anjuke)
 - 贝壳找房 (Beike Zhaofang)
 
-**In the USA:**
+**USA:**
 - Zillow
 - Realtor.com
 
-**In Australia:**
+**Australia:**
 - Realestate.com.au
 
-**In the UK:**
+**UK:**
 - Rightmove
 
-**In Japan:**
+**Japan:**
 - At Home
 - Suumo
 
-**In Hong Kong:**
+**Hong Kong:**
 - Centaline
 
-**In Singapore:**
+**Singapore:**
 - PropertyGuru
 
-**In the Middle East:**
+**Middle East:**
 - Property Finder
 - Bayut
 
