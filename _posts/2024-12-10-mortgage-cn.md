@@ -1,29 +1,29 @@
 ---
 layout: post
-title: "The Advantages of Paying Off Some Mortgage in Advance"
+title: "提前偿还部分房屋贷款的优势"
 ---
 
-I have a house mortgage of 1.03 million CNY, which I took out from the Agricultural Bank of China around July 2022.
+我在2022年7月左右从中国农业银行贷款了103万元人民币的房屋贷款。
 
-Although I don't have the cash to pay off some of the mortgage in advance, I chose to get a consumer loan from other banks to pay off part of the mortgage. The interest rate for the consumer loan is around 6%, while the mortgage interest rate is around 3.6%.
+虽然我没有现金提前偿还部分贷款，但我选择从其他银行获得消费贷款来偿还部分房屋贷款。消费贷款的利率大约是6%，而房屋贷款的利率大约是3.6%。
 
-One advantage is that it gives you the feeling that your house mortgage is being paid off quickly. You gain a good feeling, even though it's not true because the total amount of your loans remains the same.
+一个优势是，这会让你觉得房屋贷款偿还得很快，你会有一种好的感觉，即使这并不是真的，因为你的总贷款金额仍然相同。
 
-I applied around September 2024 to pay off some of the mortgage, amounting to 20k CNY.
+我在2024年9月左右申请偿还2万元人民币的部分房屋贷款。
 
-Today, I asked Gemini whether I should do so. It gave moderate answers. I decided to do it anyway. So, I applied again to pay off another 30k CNY of the mortgage. I noticed that the first time, it took them 2 weeks to approve. But the second time, the system approved it quickly. Today is December 10, 2024, so the date the bank will charge for the amount is January 9, 2025.
+今天，我问Gemini是否应该这样做。它给出了中等的答案。我决定无论如何都要这样做。所以，我再次申请偿还另外3万元人民币的房屋贷款。我注意到第一次他们需要2周时间来批准，但第二次系统很快就批准了。今天是2024年12月10日，所以银行将在2025年1月9日收取这笔款项。
 
-Gemini couldn't tell you this because it is the process of the Agricultural Bank of China. This means that
+Gemini无法告诉你这一点，因为这是中国农业银行的流程。这意味着
 
-In my experience, paying off 20k CNY of the mortgage won't make much of a change to my personal financial status. I had a job during those months and had some revenue. However, in the latest month, for some reason, I am actively looking for job opportunities without income.
+在我的经验中，偿还2万元人民币的房屋贷款不会对我的个人财务状况产生太大的影响。在那几个月里，我有工作并有一些收入。然而，在最近的一个月里，由于某种原因，我在没有收入的情况下积极寻找工作机会。
 
-For the 30k CNY, the difference in interest rates between 6% and 3.6% is 720 CNY a year. It buys you some good feeling. And maybe I can find a good job and then actually pay off the 30k consumer loan quickly.
+对于3万元人民币，6%和3.6%之间的利率差异是每年720元人民币。这会让你有一种好的感觉。也许我可以找到一份好工作，然后实际上可以迅速偿还3万元人民币的消费贷款。
 
-This approach can easily attract criticism from parents. The decision to do it again is about innovation and independent thinking in every aspect of life.
+这种方法很容易受到父母的批评。再次做出这个决定是关于在生活的每个方面进行创新和独立思考。
 
-If I had this independent thinking, I wouldn't have bought this house in 2022, which has cost our family 1 million CNY as of today. I wrote an article about it, [The End of the Housing Dream](./housing-end-en).
+如果我有这种独立思考，我在2022年就不会买这所房子，这已经让我们家损失了100万元人民币。我写了一篇关于这个话题的文章，[《住房梦的终结》](./housing-end-en)。
 
-By not following the majority in every way of life, you gain independent thinking.
+通过在生活的每个方面不跟随大多数人，你会获得独立思考。
 
-Using a consumer loan to pay off some of the mortgage in advance for a small amount is a small deal; independent thinking is a big deal.
+使用消费贷款提前偿还部分房屋贷款是小事；独立思考是大事。
 
