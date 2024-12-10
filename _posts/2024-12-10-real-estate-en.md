@@ -1,5 +1,3 @@
-Sure, here is the updated version of your post with "In the" removed:
-
 ---
 layout: post
 title: "Global Real Estate Apps"
