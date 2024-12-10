@@ -19,7 +19,7 @@ In my experience, paying off 20k CNY of the mortgage won't make much of a change
 
 For the 30k CNY, the difference in interest rates between 6% and 3.6% is 720 CNY a year. It buys you some good feeling. And maybe I can find a good job and then actually pay off the 30k consumer loan quickly.
 
-And the another advantage of using consumer loan instead is that it is more flexiable. You can pay off whenever and whatever amount. 
+Another advantage of using a consumer loan is that it is more flexible. You can pay it off whenever and in whatever amount.
 
 This approach can easily attract criticism from parents. The decision to do it again is about innovation and independent thinking in every aspect of life.
 
