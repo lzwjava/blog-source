@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use Vision chart"
+title: "Use Vision Chart"
 ---
 
 I bought a vision chart to track my natural vision restoration progress. It only cost me around 10 RMB on JD. I installed it on my bedroom wall as shown below.
