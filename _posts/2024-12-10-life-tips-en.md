@@ -54,3 +54,8 @@ title: "Life Tips"
 * Normally, you can't force anyone to do anything, and others can't force you to do anything either.
 
 * Follow your true passion. You can't force yourself to do things you don't like for a long time.
+
+* You are upset that something doesn't work as expected. Just accept the facts or change your worldview to adapt to it. Learn from it.
+
+
+
