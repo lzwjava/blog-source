@@ -51,3 +51,5 @@ title: "Life Tips"
 
 * When it comes to money, think about how the richest or smartest people do it.
 
+
+
