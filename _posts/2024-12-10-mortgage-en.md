@@ -23,7 +23,5 @@ This approach can easily attract criticism from parents. The decision to do it a
 
 If I had this independent thinking, I wouldn't have bought this house in 2022, which has cost our family 1 million CNY as of today. I wrote an article about it, [The End of the Housing Dream](./housing-end-en).
 
-By not following the majority in every way of life, you gain independent thinking.
-
-Using a consumer loan to pay off some of the mortgage in advance for a small amount is a small deal; independent thinking is a big deal.
+By not following the majority in every way of life, you gain independent thinking. Using a consumer loan to pay off some of the mortgage in advance for a small amount is a small deal; independent thinking is a big deal.
 
