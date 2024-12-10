@@ -57,3 +57,8 @@ title: "Life Tips"
 
 * You are upset that something doesn't work as expected. Just accept the facts or change your worldview to adapt to it. Learn from it.
 
+* The good welfare of you depends yourself, your family, your company, your country. Comparing them wisely in the world. If they are all good, you will have good life. 
+
+* Almost everything can be changed. Think about your nationality. Think about where you were born. Remove every limit and start thinking about how to have the best life in the world. Start to notice the big gap and work towards closing it.
+
+
