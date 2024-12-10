@@ -1,0 +1,13 @@
+---
+layout: post
+title: "The Best Communication Method for Me"
+---
+
+* Share what I want to say in a blog.
+
+* Like [https://www.yinwang.org](https://www.yinwang.org), share the long-term truths, interesting, and novel lessons in the blog.
+
+* Do not share on WeChat, Weibo, or LinkedIn. Just let people connected there find you through Singapore or a short bio. Because I am an independent thinker and have a lot of unconventional ideas. I don't want to persuade others. And I don't want to be someone who seeks recognition anymore. Living in those places made me docile and conformable.
+
+* Use Twitter to share blog update posts to notify close readers.
+
