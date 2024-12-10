@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Advantages of Paying Off Some Mortgage in Advance"
+title: "The Advantages of Paying Off Part of Your Mortgage Early"
 ---
 
 I have a house mortgage of 1.03 million CNY, which I took out from the Agricultural Bank of China around July 2022.
