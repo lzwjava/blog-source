@@ -1,55 +1,59 @@
 ---
 layout: post
-title: "Life Tips"
+title: "人生建议"
 ---
 
-* Explore the world early, go to different countries, and talk to different people.
+* 早早探索世界，去不同的国家，与不同的人交谈。
 
-* Read many books, especially non-fiction ones.
+* 多读书，特别是非小说类的书籍。
 
-* Always think of better ways to do things.
+* 始终思考更好的做事方法。
 
-* Think like a genius, suspect everything, especially authorities.
+* 像天才一样思考，怀疑一切，特别是权威。
 
-* Treat people equally. Be kind. Don't look down on people who are no better than you in terms of grades or salary. They didn't lie to you, trick you, or steal your money.
+* 平等对待他人。要善良。不要看不起那些在成绩或薪水方面不如你的人。他们没有欺骗你、愚弄你或偷你的钱。
 
-* Be careful of the powerful people behind the government. Some may hurt you from behind.
+* 小心政府背后的有权势的人。有些人可能会从背后伤害你。
 
-* If something happens, usually someone wants it to happen. Think hard about things that happen coincidentally or intentionally.
+* 如果发生了什么事，通常是有人希望它发生。仔细思考偶然或故意发生的事情。
 
-* Think hard about what is good or bad, and how everything gets invented or developed.
+* 仔细思考什么是好的或坏的，以及所有东西是如何被发明或发展的。
 
-* Think about how to live in this world in the best ways.
+* 思考如何以最好的方式生活在这个世界上。
 
-* Get a lot of things that are free, such as free apps, books, and information. Enjoy air, sun, scenes, and water.
+* 获取很多免费的东西，比如免费的应用程序、书籍和信息。享受空气、阳光、景色和水。
 
-* Think hard about the rules. Figure out the original intention behind them. Ask yourself if the rules could be better or more detailed. Sometimes, we have to follow the rules. But do not let them limit your thinking.
+* 仔细思考规则。找出它们背后的原始意图。问问自己规则是否可以更好或更详细。有时，我们必须遵守规则。但不要让它们限制你的思维。
 
-* Treat everything as a learning experience. If it is good, it is nice. If it is bad, avoid it next time.
+* 把一切都当作学习经验。如果是好的，那很好。如果是坏的，下次避免。
 
-* Pursue truth. But be careful with science. Not all science is really true.
+* 追求真理。但要小心科学。并非所有的科学都是真实的。
 
-* Be safe. Health is the most important thing. Our body is really amazing.
+* 保持安全。健康是最重要的。我们的身体真的很神奇。
 
-* Eat natural or fresh things as much as possible. Eat fruits instead of snacks. Modern society invents too many foods. Prefer natural or less processed ones. Live long and explore more.
+* 尽可能多地吃天然或新鲜的东西。吃水果而不是零食。现代社会发明了太多的食物。更喜欢天然或加工较少的食物。活得长久，探索更多。
 
-* Don't pursue miracles. Life itself is a miracle.
+* 不要追求奇迹。生命本身就是一个奇迹。
 
-* Don't live for recognition or fame. We don't need recognition when we are born. We need security. Parents punish us when they don't approve of our behaviors. So gradually, we need recognition to get security. But those two are different things.
+* 不要为了认可或名声而活。我们出生时不需要认可。我们需要安全。父母在不赞成我们的行为时会惩罚我们。因此，我们逐渐需要认可来获得安全。但这两者是不同的东西。
 
-* It's okay to do anything as long as it doesn't involve or hurt anyone else.
+* 只要不涉及或伤害他人，做任何事情都是可以的。
 
-* The world will have more freedom. The world will become better as knowledge and technology evolve.
+* 世界将会有更多的自由。随着知识和技术的发展，世界将变得更好。
 
-* It's better to learn the truth first. So we don't need to change later.
+* 最好先学会真理。这样我们以后就不需要改变。
 
-* English is the world language now. Be good at it and use it like a native language.
+* 英语现在是世界语言。掌握它并像母语一样使用它。
 
-* You don't need to change anyone. If you discover something or create something that people want, they will come.
+* 你不需要改变任何人。如果你发现或创造了人们想要的东西，他们会来找你。
 
-* Don't get desperate. The majority of the world is helping. They are making products or providing services for cheap or free.
+* 不要绝望。世界上大多数人都在帮忙。他们制作产品或提供廉价或免费的服务。
 
-* When it comes to money, think about how the richest or smartest people do it.
+* 在涉及金钱时，思考一下最富有或最聪明的人是如何做到的。
 
+* 通常，你不能强迫任何人做任何事，别人也不能强迫你做任何事。
 
+* 追随你的真正热情。你不能强迫自己长时间做你不喜欢的事情。
+
+* 你因为某些事情不如预期而感到不安。接受事实或改变你的世界观以适应它。从中学习。
 
