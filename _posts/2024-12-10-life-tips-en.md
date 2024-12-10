@@ -61,5 +61,6 @@ title: "Life Tips"
 
 * Humans are born to learn. If every piece of knowledge is taught correctly or you explore and reflect on it often, you will be happy to gain it.
 
-* The world will have more freedom. The world will become better as knowledge and technology evolve.
+* Think often about what Yin Wang or Daniel P. Friedman says. They are among the smartest and kindest people in the world.
 
+* The world will have more freedom. The world will become better as knowledge and technology evolve.
