@@ -4,8 +4,8 @@ title: "Global Real Estate Apps"
 ---
 
 **China:**
-- 安居客 (Anjuke)
-- 贝壳找房 (Beike Zhaofang)
+- Anjuke(安居客)
+- Beike Zhaofang(贝壳找房)
 
 **USA:**
 - Zillow
