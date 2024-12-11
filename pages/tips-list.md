@@ -14,6 +14,8 @@ title: "Tips List"
 * [Vision Tips](../vision-tips-en)
 * [Money Spending Tips](../money-tips-en)
 * [Apps](../apps-text-en)
+* [Things](../things-en) 
+* [Places](../places-en) 
 
 ---
 
@@ -28,3 +30,5 @@ title: "Tips List"
 * [视力建议](../vision-tips-cn)
 * [花钱小贴士](../money-tips-cn)
 * [应用](../apps-text-en)
+* [事物](../things-cn) 
+* [地方](../places-cn)
