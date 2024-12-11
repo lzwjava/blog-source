@@ -1,28 +1,31 @@
 ---
 layout: post
-title: "Abstraction"
+title: "抽象"
 ---
 
-* Everything is about abstraction.
+* 一切都与抽象有关。
 
-* Design, software, products, physics, reversing myopia, startups, business, users, strategy, countries, programming languages, variables, and concepts are all about abstraction.
+* 设计、软件、产品、物理、逆转近视、创业、商业、用户、策略、国家、编程语言、变量和概念都与抽象有关。
 
-* Abstraction is a way of meta-thinking.
+* 抽象是一种元思维方式。
 
-* By abstracting things at a high level, you summarize them and can handle them in a batch. It is like a function or a method. It is like summarization in writing. It is like a table of contents. It is like a company structure.
+* 通过在高层次上抽象事物，你可以总结它们并批量处理。这就像一个函数或方法。这就像写作中的总结。这就像目录。这就像公司结构。
 
-* You can abstract things in different aspects.
+* 你可以从不同的方面抽象事物。
 
-* The standards for abstraction are what we need to think about. It is like how we extract or organize the code.
+* 抽象的标准是我们需要考虑的。这就像我们如何提取或组织代码。
 
-* We want to organize things by level and level. Each level should only interact with adjacent levels.
+* 我们希望按层次组织事物。每一层次应该只与相邻层次互动。
 
-* If there is a problem or a bug, you can find the problems by starting from a high level. You should trace down to the root cause. It is like the corruptions of a country. They usually happen in some specific groups or people.
+* 如果有问题或错误，你可以从高层次开始找到问题。你应该追踪到根本原因。这就像一个国家的腐败。它们通常发生在某些特定的群体或人中。
 
-* The downside of abstraction is that it involves some high-level concepts. Individuals have more freedom in this world. The rules for a high level may not be suitable for all objects included in those levels.
+* 抽象的缺点是它涉及一些高层次的概念。个人在这个世界上有更多的自由。高层次的规则可能不适用于包含在这些层次中的所有对象。
 
-* Things change. We may need to refactor code to have better abstraction. We may reorganize the company structure to better reflect the business and serve the customers.
+* 事物在变化。我们可能需要重构代码以获得更好的抽象。我们可能需要重组公司结构以更好地反映业务并服务客户。
 
-* Think about the standards between every level. Do they have some patterns? If they do, it can be written as lambda code to construct high-level order functions.
+* 思考每一层次之间的标准。它们有一些模式吗？如果有，可以编写为lambda代码来构建高层次的顺序函数。
 
-* People wearing eyeglasses with full prescription to watch a blackboard (5m away) and a mobile phone is a poor abstraction. It does not better reflect the interests of the eyeball.
+* 佩戴全度数眼镜观看黑板（5米远）和手机的人是一个糟糕的抽象。它不能更好地反映眼球的利益。
+
+* 应用该抽象的函数、方法和程序应该仔细思考。我们需要对整批对象执行相同的任务，还是应该分别处理它们？
+
