@@ -21,9 +21,6 @@ Home Appliances: Haier Washer, Haier Dryer, Midea Air Conditioner, Media Refrige
 
 Other products: Sensology Formaldehyde Detector, Chi Forest Drinks, Yineng Soda Water
 
-Chinese Apps: WeChat, Douyin, QQ, Xiaohongshu, Zhihu, JD, QQ Music, Alipay, Pingan Haochezhu, Taobao, Gaode map, Bilibili, Meituan, Meituan Takeout, Weibo Intl, IKEA, Mi Home, China Merchants Bank, Pinduoduo, China Guangfa Bank, Alipay, Boss Zhipin, Personal Income Tax, Ziroom, DingDing, WeHotel, WeChat Input Method, Neta Car, WeChat Subscribe Helper
-
-Global Apps: Messages, Photos, Youtube, Spotify, Capcut, Google Podcasts, Youtube Music, Twitter, Instagram, TikTok, LightCut, LinkedIn, HSBC HK, Binance, DJI, Microsoft To DO, Gmail, Whatsapp, Youtube Kids, ChatGPT, Facebook, Reddit, Google Analytics, Messager, Tiger Trade, StichPics, GitHub, Wikipedia, Quora, Telegram, Nikkei, Uber, Snapchat, Agoda, Airbnb, Netflix, Slack, Edge, Grammarly, Amazon, Discord, Notion, Twitch, Kindle, Clubhouse, The Asahi Shimbun, Substack, LinkedIn, Youtube Music, Safari, Teams, Bigo Live, Telegram, Line, DJI Fly, DeepL, Zoom
 
 ### Places
 
