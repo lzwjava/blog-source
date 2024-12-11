@@ -9,7 +9,7 @@ title: "Reasoning"
 
 * Reasoning is a way of meta-thinking.
 
-* By reasoning about things, you understand how x changes y. Why values of variables change from x to y, why people like or dislike products, why people pay attention to or ignore things.
+* By reasoning about things, you understand how x changes y, why the values of variables change from x to y, why people like or dislike products, and why people pay attention to or ignore things.
 
 * You can reason about things or behaviors, problems in different aspects, such as from first principles, human nature, or unknown causes, which we call mysteries.
 
