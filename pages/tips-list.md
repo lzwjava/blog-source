@@ -27,4 +27,4 @@ title: "Tips List"
 * [学习建议](../learn-tips-cn)
 * [视力建议](../vision-tips-cn)
 * [花钱小贴士](../money-tips-cn)
-* [应用](../apps-text-cn)
+* [应用](../apps-text-en)
