@@ -3,14 +3,14 @@ layout: post
 title: "Tips List"
 ---
 
-* [Thinking](./thinking)
-* [Reasoning](./reasoning)
-* [Categorization](./categorization)
-* [Abstraction](./abstraction)
-* [Communication](./communication)
-* [Life Tips](./life-tips)
-* [Parenting](./parenting)
-* [Learn Tips](./learn-tips)
-* [Vision Tips](./vision-tips)
-* [Money Tips](./money-tips)
+* [Thinking](./thinking-en)
+* [Reasoning](./reasoning-en)
+* [Categorization](./categorization-en)
+* [Abstraction](./abstraction-en)
+* [Communication](./communication-en)
+* [Life Tips](./life-tips-en)
+* [Parenting](./parenting-en)
+* [Learn Tips](./learn-tips-en)
+* [Vision Tips](./vision-tips-en)
+* [Money Spending Tips](./money-tips-en)
 
