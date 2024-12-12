@@ -126,9 +126,22 @@ Let's do experiments, be a friend of the time, and try to prove this.
 
 Please check out the article [The discussion regarding astigmatism when the eyeballs reverse to the normal position](./astigmatism). There are some corrections. Actually, if we count astigmatism, then the degrees of both my left eye and right eye are reduced by about 100 degrees.
 
+## Citation
+
+> Li, Zhiwei. (Jun 2023). Experimental Verification of the Natural Vision Restoration Method. Zhiwei's Blog. http://lzwjava.github.io/vision-restoration-en.
+
+```bibtex
+@article{li2023visionverification,
+  title   = "Experimental Verification of the Natural Vision Restoration Method",
+  author  = "Li, Zhiwei",
+  journal = "lzwjava.github.io",
+  year    = "2023",
+  month   = "Jun",
+  url     = "http://lzwjava.github.io/vision-restoration-en"
+}
+```
+
 ## Reference
 
 1. Natural Vision Restoration Method, [https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia)
-
-## Citation
 
