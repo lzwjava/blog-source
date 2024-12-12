@@ -25,7 +25,7 @@ He responded:
 
 > "Whether others want to pursue cheaper glasses is their own business, you don't need to worry about it. Our group is for studying myopia, not for discussing how to save money."
 
-He has shared almost everything he has learned. He truly is my best teacher. His best teacher is his professor, Daniel P. Friedman. Daniel P. Friedman (born 1944) is a professor of Computer Science at Indiana University in Bloomington, Indiana. Daniel P. Friedman is someone who has dedicated his life to learning.
+He has shared almost everything he has learned. He truly is my best teacher. His best teacher is his professor, Daniel P. Friedman, who was born in 1944. He is a professor of Computer Science at Indiana University in Bloomington, Indiana, and has dedicated his life to learning.
 
 Yin Wang wrote an article about his story with Daniel P. Friedman, allowing more people to learn about him. He now has 140k followers on Weibo. The title of his article is "GTF - Great Teacher Friedman". So today, I am writing "GTY - Great Teacher Yin" to share a bit of our story. In today's internet age, he is probably the best teacher for 50k people. I guess one-third of them will pay a lot of attention to him.
 
