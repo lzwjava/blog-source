@@ -80,7 +80,24 @@ title: "自然视力恢复：刚好看清的原理"
 
 我鼓励你自己尝试这种方法。注意观察什么度数能让你在日常生活中看东西"刚好看清"。那就是你改善视力的最佳度数。
 
-## 致谢和参考
+## 引用
+
+> Li, Zhiwei. (2024年11月). 自然视力恢复法：'刚好清晰'的原则. Zhiwei's Blog. https://lzwjava.github.io/barely-clear-en.
+
+或者
+
+```bibtex
+@article{li2024barelyclear,
+  title   = "自然视力恢复法：'刚好清晰'的原则",
+  author  = "Li, Zhiwei",
+  journal = "lzwjava.github.io",
+  year    = "2024",
+  month   = "Nov",
+  url     = "https://lzwjava.github.io/barely-clear-en"
+}
+```
+
+## 参考
 
 本文的理解建立在王垠的开创性工作和社区其他人的后续实验验证基础上。这里的发现基于个人实验和对这些方法的改进。
 
