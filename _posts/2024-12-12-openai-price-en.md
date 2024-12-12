@@ -21,7 +21,7 @@ To address the constraints of iOS fixed-price subscriptions, OpenAI could introd
 
 Although transitioning to this model may seem challenging, it is still early in the journey. Reports suggest that 300 million people use OpenAI weekly.
 
-Based on OpenAI's projected revenue of $11.6 billion for next year and assuming most users subscribe to the $20 per month OpenAI Plus plan, the estimated number of subscribers would be approximately 48.33 million.
+Based on OpenAI's projected revenue of $11.6 billion for 2024 and assuming most users subscribe to the $20 per month OpenAI Plus plan, the estimated number of subscribers would be approximately 48.33 million.
 
 Implementing this flexible model would undoubtedly attract more users to subscribe to ChatGPT Plus.
 
