@@ -1,21 +1,28 @@
 <header class="page-header" role="banner">
 
-  <div class="circular-image">
-    <img src="/assets/images/avatar.jpg" alt="">
+  <!-- Part 1: Avatar -->
+  <div class="row compact-row">
+    <div class="circular-image">
+      <img src="/assets/images/avatar.jpg" alt="">
+    </div>
+    <div class="text-container">
+      <h2 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
+      <h3 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
+        }}</h3>
+    </div>
   </div>
 
-  <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-  <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}
-  </h2>
-
-  <a href="/pages/wechat" class="btn">Telegram</a>
-  <a href="/pages/links" class="btn">Links</a>
-  <a href="/pages/resume" class="btn">Resume</a>
-  <a href="/pages/books" class="btn">Books</a>
-  <a href="/pages/subscribe" class="btn">Subscribe</a>
-  <a href="/pages/donate" class="btn">Donate</a>
-  <a href="/pages/portfolio" class="btn">Portfolio</a>
-  <a href="/pages/tips-list" class="btn">List</a>
-  <a href="/pages/notes" class="btn">Notes</a>
+  <!-- Part 3: Buttons -->
+  <div class="row">
+    <a href="/pages/wechat" class="btn">Telegram</a>
+    <a href="/pages/links" class="btn">Links</a>
+    <a href="/pages/resume" class="btn">Resume</a>
+    <a href="/pages/books" class="btn">Books</a>
+    <a href="/pages/subscribe" class="btn">Subscribe</a>
+    <a href="/pages/donate" class="btn">Donate</a>
+    <a href="/pages/portfolio" class="btn">Portfolio</a>
+    <a href="/pages/tips-list" class="btn">List</a>
+    <a href="/pages/notes" class="btn">Notes</a>
+  </div>
 
 </header>
