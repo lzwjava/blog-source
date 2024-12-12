@@ -16,5 +16,5 @@ These are some links and apps I check daily or every few days. Typically, I use 
 - [Yin Wang’s Website](https://www.yinwang.org)
 - [Weibo@不再关心人类de垠](https://weibo.com/yinwang)
 - [yinwang0.substack.com](https://yinwang0.substack.com)
-- [X](https://x.com/home)
+- [X](https://x.com)
 
