@@ -9,8 +9,13 @@ title: "近视：一种现代但可逆的疾病 — Todd Becker"
 
 近视：一种现代但可逆的疾病 — Todd Becker, M.S. (AHS14)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/x5Efg42-Qn0?si=P9-BqyesxMtirwCx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%; width:100%;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/x5Efg42-Qn0?si=P9-BqyesxMtirwCx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
 
 如何逆转近视与 Todd Becker（今日祖先健康第 021 集）
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iIrg6Q0s754?si=DprrreN9WqnGi7dJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%; width:100%;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iIrg6Q0s754?si=DprrreN9WqnGi7dJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
+
