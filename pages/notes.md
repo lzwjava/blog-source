@@ -15,11 +15,6 @@ So for the essays after 2022.09, I mainly use English to write. And for the essa
 
 因此，对于2022年09月之后的文章，我主要使用英语写作。而对于2022年09月之前的文章，我主要使用中文写作。
 
----
-
-通常、私は一つの言語でエッセイを書きます。そして、それらをChatGPTやDeepLを使って他の言語に翻訳します。
-
-ですから、2022年09月以降のエッセイは主に英語を使用して書いています。そして、2022年09月以前のエッセイは主に中国語を使用して書いていました。
 
 ## Cover Photos
 
@@ -29,18 +24,37 @@ Some cover photos are from Unsplash.
 
 一些封面照片来自Unsplash网站。
 
----
-
-一部のカバー写真はUnsplashから提供されています。
-
 ## Information Sensitivity
 
-I mentioned friends in my essays to highlight certain points. Most of the behaviors or statements I referred to are from public messages on the internet, such as blogs or public social media platforms of my friends. Some references are private, but I have observed similar behaviors online as well. Therefore, I believe I have the right to discuss them publicly. Most of these references are positive or neutral, and when I mention negative aspects, my intention is to point out problems to help improve things.
+Sometimes I mention friends in essays to highlight points, drawing from public online content or observed behaviors. I discuss these anonymously, aiming to be constructive, with most references being positive or neutral.
 
 ---
 
-我在文章中提到朋友是为了强调某些观点。我提到的大多数行为或言论都来自互联网上的公开信息，比如朋友的博客或公共社交媒体平台上的内容。有些引用是私人的，但我也在网上观察到了类似的行为。因此，我认为我有权公开讨论这些内容。大多数引用都是正面或中性的，当我提到负面内容时，我的目的是指出问题以便改进。
+有时我在文章中提到朋友以强调某些观点，这些内容主要来源于公开的网络信息，如博客或朋友社交媒体平台的公开帖子。有些引用是私人的，但我也观察到了类似的行为。我以匿名的方式讨论这些内容，旨在保持建设性，其中大多数引用是正面或中立的。
+
+## Copyrights
+
+You’re welcome to share my blog posts via screenshots or links to drive traffic here. If inconvenient, please cite the original source. Using my content to train AI models is fine, but for commercial use, please consider [donating](https://lzwjava.github.io/pages/donate) if it benefits you. This blog contains unique information, so remember to give credit if it helps you.
 
 ---
 
-エッセイで友人について言及したのは、特定のポイントを強調するためです。私が言及した行動や発言のほとんどは、友人のブログや公共のソーシャルメディアプラットフォームなど、インターネット上の公開メッセージからのものです。一部はプライベートなものですが、同様の行動をオンラインでも観察しました。したがって、それらを公に議論する権利があると考えています。これらの言及のほとんどは肯定的または中立的なものです。否定的な側面について言及する場合も、問題点を指摘して改善するための意図があります。
+欢迎分享我的博客文章，可以通过截图或链接的方式，这有助于为本站带来流量。如果不方便，请注明原文来源。使用我的内容训练 AI 模型没有问题，但如果用于商业用途，请考虑在受益的情况下[捐赠](https://lzwjava.github.io/pages/donate)。本博客包含一些独特的信息，如果对您有所帮助，请记得注明出处。
+
+## Citation
+
+If you use my blog posts for academic purposes, please cite them as follows:
+
+> Li, Zhiwei. (Nov 2024). Natural Vision Restoration: The Principle of 'Just Barely Clear'. Zhiwei's Blog. https://lzwjava.github.io/barely-clear-en.
+
+Or
+
+```bibtex
+@article{li2024naturalvision,
+  title   = "Natural Vision Restoration: The Principle of 'Just Barely Clear'",
+  author  = "Li, Zhiwei",
+  journal = "lzwjava.github.io",
+  year    = "2024",
+  month   = "Nov",
+  url     = "https://lzwjava.github.io/barely-clear-en"
+}
+```
