@@ -3,6 +3,10 @@ layout: post
 title: "Myopia: A Modern Yet Reversible Disease — Todd Becker"
 ---
 
+I discovered Todd Becker's video in the footnotes of Yin Wang's article on the [Natural Vision Improvement Method](https://www.yinwang.org/blog-cn/2022/02/22/myopia). The video, uploaded in 2014, has garnered over 1.2 million views.
+
+---
+
 Myopia: A Modern Yet Reversible Disease — Todd Becker, M.S. (AHS14)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x5Efg42-Qn0?si=P9-BqyesxMtirwCx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
