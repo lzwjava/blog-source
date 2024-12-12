@@ -37,7 +37,7 @@ I regret that I didn’t listen to him more carefully. It wasn’t until 2024, w
 
 He had also pointed out countless times that China’s economy depends too much on real estate and large infrastructure projects. He often mentioned how the so-called expensive houses or residential communities in major Chinese cities have such poor quality compared to those built in foreign countries. I regretted not listening more carefully to what he was saying.
 
-Despite this, I continued to fight by learning from him. I passed more courses in my associate degree and faced tougher interviews during a difficult economic period.
+Despite this, I continued to fight by learning from him. I passed more courses in my associate degree and faced confidently tougher interviews during a difficult economic period.
 
 He not only taught me knowledge, but also truly showed me how to think. He passed on the technique of catching fish from Daniel P. Friedman to me. Yin, thank you.
 
