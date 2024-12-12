@@ -1,14 +1,17 @@
 ---
 layout: post
-title: "Awesome list about Yin Wang"
+title: "Yin Wang"
 ---
 
+## Chinese
 
-Chinese Weibo account: 不再关心人类de垠
-Chinese WordPress: https://yinwang1.wordpress.com
-Chinese Blog: http://www.yinwang.org
-English Substack: https://yinwang0.substack.com
-English WordPress: https://yinwang0.wordpress.com
-English Twitter: https://twitter.com/yinwang0
+Weibo account: [不再关心人类de垠](https://weibo.com/yinwang)
+WordPress: [https://yinwang1.wordpress.com](https://yinwang1.wordpress.com)
+Blog: [http://www.yinwang.org](http://www.yinwang.org)
 
+## English
+
+Substack: [https://yinwang0.substack.com](https://yinwang0.substack.com)
+WordPress: [https://yinwang0.wordpress.com](https://yinwang0.wordpress.com)
+Twitter: [https://twitter.com/yinwang0](https://twitter.com/yinwang0)
 
