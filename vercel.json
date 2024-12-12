@@ -4,15 +4,15 @@
             "src": "package.json",
             "use": "@vercel/static-build",
             "config": {
-                "buildCommand": "bash fix_template.sh && jekyll build --destination dist",
-                "outputDirectory": "dist"
+                "buildCommand": "bash fix_template.sh && jekyll build",
+                "outputDirectory": "_site"
             }
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/dist/$1"
+            "dest": "/_site/$1"
         }
     ]
 }
