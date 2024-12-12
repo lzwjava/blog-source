@@ -23,11 +23,6 @@
     "env": {
         "RUBY_VERSION": "2.7.2"
     },
-    "functions": {
-        "api/**.js": {
-            "maxDuration": 10
-        }
-    },
     "github": {
         "enabled": true
     }
