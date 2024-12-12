@@ -31,6 +31,8 @@ You’re welcome to share my blog posts via screenshots or links to drive traffi
 
 If you use my blog posts for academic purposes, please cite them as follows:
 
+如果您将我的博客文章用于学术用途，请按以下格式引用：
+
 > Li, Zhiwei. (Nov 2024). Natural Vision Restoration: The Principle of 'Just Barely Clear'. Zhiwei's Blog. https://lzwjava.github.io/barely-clear-en.
 
 Or
