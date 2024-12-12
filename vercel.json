@@ -21,7 +21,7 @@
         }
     ],
     "env": {
-        "RUBY_VERSION": "2.7.2"
+        "RUBY_VERSION": "3.2.2"
     },
     "github": {
         "enabled": true
