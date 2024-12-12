@@ -12,22 +12,3 @@ title: "双光眼镜有什么问题"
 我不认为有一副完美的双光眼镜能让你的眼睛刚好清楚地看到你想看的东西。准备两三副眼镜来适应你的日常习惯并清楚地看东西可能会更好。这样，你可能会逐渐改善你的近视。
 
 然而，如果我们仔细考虑这个问题，如果我要为自己设计双光眼镜，我希望上部分减少175度，下部分减少200度。这样我就可以完美地使用上部分来使用电脑，下部分来阅读书籍或使用手机。因此，在某些方面，双光眼镜的概念是创新的。发明它的人了解近视是如何工作的，但并不完全。
-
-这是更新后的引用，适用于文章 **"What Problems Do Bifocals Have"**：
-
-## 引用
-
-> Li, Zhiwei. (2024年12月). What Problems Do Bifocals Have. Zhiwei's Blog. https://lzwjava.github.io/bifocals-en.
-
-或者
-
-```bibtex
-@article{li2024bifocals,
-  title   = "What Problems Do Bifocals Have",
-  author  = "Li, Zhiwei",
-  journal = "lzwjava.github.io",
-  year    = "2024",
-  month   = "Dec",
-  url     = "https://lzwjava.github.io/bifocals-en"
-}
-```
