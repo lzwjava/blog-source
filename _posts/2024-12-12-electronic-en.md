@@ -7,3 +7,5 @@ title: "Curcits and Electronics"
 
 * P = UI 
 
+* A battery has some internal resistance.
+
