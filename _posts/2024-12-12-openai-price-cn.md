@@ -1,5 +1,3 @@
-Here’s the translation:
-
 ---
 layout: post
 title: "ChatGPT Plus 应该按 Token 使用量收费，而不是固定的每月 $20 费用"
