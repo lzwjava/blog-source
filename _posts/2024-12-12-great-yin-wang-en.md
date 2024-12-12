@@ -33,7 +33,7 @@ Yin Wang wrote an article about his story with Daniel P. Friedman, allowing more
 
 I have subscribed to his Substack for \\$5 a month for the past two years. I feel deeply indebted to him, and the best way I can repay him is by sharing everything I learn through this blog to help others.
 
-I regret that I didn’t listen to him more carefully. It wasn’t until 2024, when I realized that the house my wife and I bought in Guangzhou in 2022 had lost about 1 million in value, that I truly understood the impact. During my lowest moment, I happened to come across his Weibo one day and saw something like: "A bubble is a cancer to the socio-economy; once it bursts, it will spread and worsen throughout, harming everyone." It hit me hard.
+I regret that I didn’t listen to him more carefully. It wasn’t until 2024, when I realized that the house my wife and I bought in Guangzhou in 2022 had lost about 1 million in value, that I truly understood the impact. During my lowest moment, I happened to come across his Weibo one day and saw something like: "A bubble is a cancer to the socio-economy; once it bursts, it will spread and worsen throughout, harming everyone." It struck me like lightning and explained why I had been hurt recently.
 
 He had also pointed out countless times that China’s economy depends too much on real estate and large infrastructure projects. He often mentioned how the so-called expensive houses or residential communities in major Chinese cities have such poor quality compared to those built in foreign countries. I regretted not listening more carefully to what he was saying.
 
