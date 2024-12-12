@@ -4,7 +4,8 @@
             "src": "package.json",
             "use": "@vercel/static-build",
             "config": {
-                "buildCommand": "bash fix_template.sh && jekyll build"
+                "buildCommand": "bash fix_template.sh && jekyll build",
+                "outputDirectory": "_site"
             }
         }
     ],
