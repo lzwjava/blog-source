@@ -1,27 +1,17 @@
 ---
 layout: post
-title:  "Telegram"
+title:  "Contact"
 ---
 
-Please feel free to contact me if you are interested.
+Feel free to reach out if you're interested. You can also say hi to me on X or WeChat, leave a comment, or send me a direct message. Alternatively, you can email me as well.
 
-如果你有兴趣，请随时联系我。
+如果您感兴趣，随时与我联系。您也可以在 X 或微信上打个招呼，留下评论或直接私信我。另外，您也可以通过电子邮件与我联系。
 
-Welcome to say hi to me on Telegram or WeChat, and please share a bit of something you like with me.
+#### X(Twitter)
 
-欢迎在Telegram或WeChat上向我打招呼，并请分享一点你喜欢的东西与我。
+My X account is here: [https://mobile.twitter.com/lzwjava](https://mobile.twitter.com/lzwjava).
 
-#### Telegram
-
-My Telegram account is here: [https://t.me/lzwjava](https://t.me/lzwjava).
-
-我的Telegram账号在这里：[https://t.me/lzwjava](https://t.me/lzwjava)。
-
-<div align="center"><img src="/assets/images/t_me-lzwjava.jpg" width="200px" /><img/></div>
-
-#### WeChat Official Accounts
-
-![](/assets/images/mp-qrcode.png)
+我的 X 账户在这里：[https://mobile.twitter.com/lzwjava](https://mobile.twitter.com/lzwjava)。
 
 #### WeChat
 
@@ -30,4 +20,6 @@ My Telegram account is here: [https://t.me/lzwjava](https://t.me/lzwjava).
 #### Email
 
 lzwjava@gmail.com
+
+
 
