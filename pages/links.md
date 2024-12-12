@@ -16,4 +16,3 @@ These are some links and apps I check daily or every few days. Typically, I use 
 - [X](https://x.com)
 - [Yin Wang's Substack](https://yinwang1.substack.com)
 
-
