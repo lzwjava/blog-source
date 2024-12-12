@@ -14,6 +14,6 @@ These are some links and apps I check daily or every few days. Typically, I use 
 - [iTiger](https://tigerbrokers.com.sg/activity/forapp/nativeapp)
 - [X](https://x.com)
 - [Yin Wang’s Blog](https://www.yinwang.org)
-- [Weibo@不再关心人类de垠](https://weibo.com/yinwang)
+- [微博@不再关心人类de垠](https://weibo.com/yinwang)
 - [yinwang0.substack.com](https://yinwang0.substack.com)
 
