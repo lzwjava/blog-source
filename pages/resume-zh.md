@@ -207,6 +207,16 @@ title:  "Resume"
 * 将 FFmpeg 移植到 Android
 * 深入解析 Android 中的自定义绘图
 
+## 学术论文
+
+我在投入了一些时间进行研究和实验，并通过我的博客分享我的发现。以下是关于视力恢复、散光和近视的几篇重要论文，这些论文的观点可能与主流学术观点有所不同。虽然我没有正式的导师，但我从像王垠这样的专业人士那里学到了很多，他是一位首席工程师，我通过网络发现了他的工作。我相信这些发现，并且得到了朋友们在实践中应用这些概念的反馈支持。在计算机科学领域，我仍在努力取得类似的突破。
+
+* **Li, Zhiwei. (2023年6月).** *自然视力恢复法的实验验证.* Zhiwei’s Blog. [http://lzwjava.github.io/vision-restoration-en](http://lzwjava.github.io/vision-restoration-en).
+
+* **Li, Zhiwei. (2023年6月).** *眼球恢复正常形状时散光的讨论.* Zhiwei’s Blog. [https://lzwjava.github.io/astigmatism-en](https://lzwjava.github.io/astigmatism-en).
+
+* **Li, Zhiwei. (2024年11月).** *自然视力恢复法：'刚好清晰'的原则.* Zhiwei’s Blog. [https://lzwjava.github.io/barely-clear-en](https://lzwjava.github.io/barely-clear-en).
+
 ## 阅读书目
 
 我阅读了超过 320 本书籍，涵盖教材、个人发展、商业、技术和历史。以下是一些对我思维产生重要影响的书籍和资源。
