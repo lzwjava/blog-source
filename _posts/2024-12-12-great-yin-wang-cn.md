@@ -6,7 +6,7 @@ title: "GTY - 伟大的老师王垠"
 这是我和王垠的一段故事。我刚刚查看了我的Twitter账户。
 
 <div style="text-align: center;">
-    <img src="/assets/images/yinwang/x.jpg" alt="zhiwei-x" width="50%" />
+    <img class="responsive" src="/assets/images/yinwang/x.jpg" alt="zhiwei-x" width="50%" />
 </div>
 
 > "@yinwang0 哦，这和Lisp很相似。不过，我不太明白这个特性有多么有用。我知道它的引入有助于函数式编程，通过返回多个值，允许一个函数调用返回很多数据，像`get-decoded-time`返回的年、月、日等。确实，在这方面的便利性已经非常强大了。"
