@@ -122,6 +122,21 @@ title: "自然视力恢复法的实验验证"
 
 请查看文章 [眼球恢复正常位置时散光的讨论](./astigmatism)。其中有一些修正。实际上，如果将散光考虑在内，那么我左眼和右眼的度数都减少了大约 100 度。  
 
+## 引用
+
+> Li, Zhiwei. (2023年6月). 自然视力恢复法的实验验证. Zhiwei's Blog. http://lzwjava.github.io/vision-restoration-en.
+
+```bibtex
+@article{li2023visionverification,
+  title   = "Experimental Verification of the Natural Vision Restoration Method",
+  author  = "Li, Zhiwei",
+  journal = "lzwjava.github.io",
+  year    = "2023",
+  month   = "Jun",
+  url     = "http://lzwjava.github.io/vision-restoration-en"
+}
+```
+
 ## 参考文献  
 
 1. 自然视力恢复法，[https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia)
