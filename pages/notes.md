@@ -5,15 +5,11 @@ title:  "Notes"
 
 ## Translation
 
-I normally write essays using one language. And then I use ChatGPT or DeepL to translate them into other languages.
-
-So for the essays after 2022.09, I mainly use English to write. And for the essays before 2022.09, I mainly used Chinese to write.
+I normally write essays using one language. And then I use ChatGPT or DeepL to translate them into other languages. So for the essays after 2022.09, I mainly use English to write. And for the essays before 2022.09, I mainly used Chinese to write.
 
 ---
 
-我通常用一种语言写文章，然后使用ChatGPT或DeepL将它们翻译成其他语言。
-
-因此，对于2022年09月之后的文章，我主要使用英语写作。而对于2022年09月之前的文章，我主要使用中文写作。
+我通常用一种语言写文章，然后使用ChatGPT或DeepL将它们翻译成其他语言。因此，对于2022年09月之后的文章，我主要使用英语写作。而对于2022年09月之前的文章，我主要使用中文写作。
 
 
 ## Cover Photos
