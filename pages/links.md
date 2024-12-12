@@ -11,7 +11,7 @@ These are some links and apps I check daily or every few days. Typically, I use 
 - [Companies Market Cap](https://companiesmarketcap.com)
 - [Binance](https://www.binance.com/)
 - [OKX](https://www.okx.com)
-- [iTiger App](https://tigerbrokers.com.sg/activity/forapp/nativeapp)
+- [iTiger](https://tigerbrokers.com.sg/activity/forapp/nativeapp)
 - [X](https://x.com)
 - [Yin Wang’s Website](https://www.yinwang.org)
 - [Weibo@不再关心人类de垠](https://weibo.com/yinwang)
