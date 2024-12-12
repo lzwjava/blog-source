@@ -1,0 +1,12 @@
+{
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "buildCommand": "bash fix_template.sh && jekyll build"
+        }
+      }
+    ]
+  }
+  
