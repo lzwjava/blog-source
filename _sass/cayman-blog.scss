@@ -5,19 +5,8 @@ $pre-bg-color: #e0d9cf;
 $date-color: darkgray;
 $section-link-color: #2a6496;
 
-// .btn {
-//   @include small {
-//     display: inline-block;
-//     width: auto; // Auto width so they take only as much space as necessary
-//     padding: 6px 12px; // Reduced padding
-//     font-size: 0.9em; // Slightly smaller text
-//     margin: 3px; // Add some space between buttons
-//     display: inline-block;
-//     width: 30%;
-//   }
-// }
-
 .btn {
+  width: 7rem;
   margin: 5px;
   /* Add some space between buttons */
   padding: 8px 16px;
@@ -42,10 +31,6 @@ $section-link-color: #2a6496;
   margin: 10px 0;
 }
 
-.page-header .circular-image {
-  margin-bottom: 10px; // Reduced margin
-}
-
 .page-header .btn {
   margin: 5px; // Slight space between buttons
 }
@@ -67,7 +52,7 @@ $section-link-color: #2a6496;
   }
 
   .btn {
-    width: 30%;
+    width: auto;
     /* Make buttons full width */
     text-align: center;
   }
@@ -289,7 +274,7 @@ body:lang(zh) {
 }
 
 .project-name {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   /* Adjust font size for better balance */
   margin: 0;
   padding: 0;
