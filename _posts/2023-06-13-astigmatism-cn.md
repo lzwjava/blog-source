@@ -127,3 +127,19 @@ title: "关于眼球逆转到正常形状时的散光的讨论"
 
 哇，看起来很不错。它是否正确？谁知道呢？让时间来告诉我们。
 
+## 引用
+
+> Li, Zhiwei. (2023年6月). 眼球恢复正常形状时散光的讨论. Zhiwei's Blog. https://lzwjava.github.io/astigmatism-en.
+
+或者
+
+```bibtex
+@article{li2023astigmatism,
+  title   = "眼球恢复正常形状时散光的讨论",
+  author  = "Li, Zhiwei",
+  journal = "lzwjava.github.io",
+  year    = "2023",
+  month   = "Jun",
+  url     = "https://lzwjava.github.io/astigmatism-en"
+}
+```
