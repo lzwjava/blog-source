@@ -6,7 +6,8 @@
       <img src="/assets/images/avatar.jpg" alt="">
     </div>
     <div class="text-container">
-      <h3 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h3>
+      <h3 class="project-name">{{ page.title | default: site.title }}</h3>
+
       <h3 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
         }}</h3>
     </div>
