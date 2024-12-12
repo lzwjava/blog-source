@@ -12,3 +12,23 @@ So when you use a computer, you end up looking straight ahead as if you are look
 I don't think there is a perfect pair of bifocals that allows your eyes to see what you want to see barely clearly. It might be better to prepare two or three pairs of eyeglasses to adapt to your normal routines and see things clearly. This way, you might be able to improve your myopia over time.
 
 However, if we think carefully about this, if I were to design bifocals for myself, I would want the upper segment to be 175 degrees less and the lower segment to be 200 degrees less. This would allow me to use the upper segment perfectly for computer use and the lower segment for reading books or using a mobile phone. So, in some aspects, the concept of bifocals is innovative. The people who invented it understood how myopia works, but not completely.
+
+Here is the updated citation for the post **"What Problems Do Bifocals Have"**:
+
+## Citation
+
+> Li, Zhiwei. (Dec 2024). What Problems Do Bifocals Have. Zhiwei's Blog. https://lzwjava.github.io/bifocals-en.
+
+Or
+
+```bibtex
+@article{li2024bifocals,
+  title   = "What Problems Do Bifocals Have",
+  author  = "Li, Zhiwei",
+  journal = "lzwjava.github.io",
+  year    = "2024",
+  month   = "Dec",
+  url     = "https://lzwjava.github.io/bifocals-en"
+}
+```
+
