@@ -11,15 +11,6 @@ I normally write essays using one language. And then I use ChatGPT or DeepL to t
 
 我通常用一种语言写文章，然后使用ChatGPT或DeepL将它们翻译成其他语言。因此，对于2022年09月之后的文章，我主要使用英语写作。而对于2022年09月之前的文章，我主要使用中文写作。
 
-
-## Cover Photos
-
-Some cover photos are from Unsplash.
-
----
-
-一些封面照片来自Unsplash网站。
-
 ## Information Sensitivity
 
 Sometimes I mention friends in essays to highlight points, drawing from public online content or observed behaviors. I discuss these anonymously, aiming to be constructive, with most references being positive or neutral.
