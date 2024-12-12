@@ -256,3 +256,13 @@ body {
     height: 100%;
   }
 }
+
+.responsive {
+  width: 100%; // Default width for mobile (100%)
+  max-width: 50%; // Maximum width for larger screens (50%)
+  height: auto; // Maintain aspect ratio
+
+  @media (min-width: 768px) {
+    width: 50%; // 50% width for laptop or larger screens
+  }
+}

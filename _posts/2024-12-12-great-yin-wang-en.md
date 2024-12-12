@@ -6,7 +6,7 @@ title: "GTY - Great Teacher Yin"
 This is a story about me and Yin Wang. I just checked my Twitter account.
 
 <div style="text-align: center;">
-    <img src="/assets/images/yinwang/x.jpg" alt="zhiwei-x" width="50%" />
+    <img class="responsive" src="/assets/images/yinwang/x.jpg" alt="zhiwei-x" width="50%" />
 </div>
 
 > "@yinwang0 Oh, this is similar to Lisp. However, I don't quite understand how useful this feature is. I know its introduction helps functional programming by returning multiple values, allowing a single function call to return a lot of data, like how `get-decoded-time` returns the year, month, day, etc. Indeed, the convenience in this regard is already quite powerful."
