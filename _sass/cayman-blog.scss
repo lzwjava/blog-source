@@ -62,12 +62,12 @@ $section-link-color: #2a6496;
 
 @media screen and (max-width: 768px) {
   .row {
-    flex-direction: column;
+    flex-direction: row;
     /* Stack items vertically */
   }
 
   .btn {
-    width: 100%;
+    width: 30%;
     /* Make buttons full width */
     text-align: center;
   }
