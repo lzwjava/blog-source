@@ -6,7 +6,7 @@ $date-color: darkgray;
 $section-link-color: #2a6496;
 
 .btn {
-  width: 7rem;
+  width: 6rem;
   margin: 5px;
   /* Add some space between buttons */
   padding: 8px 16px;
@@ -278,16 +278,4 @@ body:lang(zh) {
   /* Adjust font size for better balance */
   margin: 0;
   padding: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .compact-row {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .text-container {
-    text-align: center;
-    /* Center align the text on small screens */
-  }
 }
