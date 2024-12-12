@@ -239,12 +239,14 @@ body:lang(zh) {
 
 .row {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   /* Center content horizontally */
   align-items: center;
   /* Center content vertically */
-  margin-bottom: 10px;
   /* Add spacing between rows */
+  max-width: 60rem;
+  margin: 0 auto !important;
+  padding: 0 7rem;
 }
 
 .compact-row {
@@ -254,14 +256,15 @@ body:lang(zh) {
   justify-content: center;
   /* Center them horizontally */
   gap: 1rem;
+  padding: 1rem 0;
   /* Add some spacing between the avatar and text */
 }
 
 /* Make the avatar smaller */
 .circular-image {
-  width: 6rem;
+  width: 5rem;
   /* Adjust size as needed */
-  height: 6rem;
+  height: 5rem;
   /* Match width for a perfect circle */
   border-radius: 50%;
   overflow: hidden;
