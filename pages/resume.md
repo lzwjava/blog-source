@@ -214,11 +214,11 @@ Below is a selection of my blog posts, covering personal growth stories, startup
 
 I have dedicated some time to research and experimentation in various fields, sharing my findings through my blog. Below are key papers on vision restoration, astigmatism, and myopia, which may differ from mainstream academic views. While I don’t have a formal mentor, I’ve learned from professionals like Yin Wang, a principal engineer, whose work I discovered online. I believe in these findings, supported by feedback from friends applying the concepts. In computer science, I am still striving to make similar breakthroughs.
 
-* **Li, Zhiwei. (Jun 2023).** *Experimental Verification of the Natural Vision Restoration Method.* Zhiwei’s Blog. http://lzwjava.github.io/vision-restoration-en. 
+* Li, Zhiwei. (Jun 2023). *Experimental Verification of the Natural Vision Restoration Method.* Zhiwei’s Blog. http://lzwjava.github.io/vision-restoration-en.
 
-* **Li, Zhiwei. (Jun 2023).** *The Discussion Regarding Astigmatism When the Eyeballs Reverse to the Normal Shape.* Zhiwei’s Blog. https://lzwjava.github.io/astigmatism-en.
+* Li, Zhiwei. (Jun 2023). *The Discussion Regarding Astigmatism When the Eyeballs Reverse to the Normal Shape.* Zhiwei’s Blog. https://lzwjava.github.io/astigmatism-en.
 
-* **Li, Zhiwei. (Nov 2024).** *Natural Vision Restoration: The Principle of ‘Just Barely Clear’.* Zhiwei’s Blog. https://lzwjava.github.io/barely-clear-en
+* Li, Zhiwei. (Nov 2024). *Natural Vision Restoration: The Principle of ‘Just Barely Clear’.* Zhiwei’s Blog. https://lzwjava.github.io/barely-clear-en.
 
 ## Books Read
 
