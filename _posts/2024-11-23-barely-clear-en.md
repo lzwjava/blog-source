@@ -80,7 +80,26 @@ Remember:
 
 I encourage you to try this approach yourself. Pay attention to what prescription allows you to see things "just barely clear" in your daily life. That's your optimal prescription for vision improvement.
 
-## Acknowledgments and References
+Here is the citation for the post titled **"Natural Vision Restoration: The Principle of 'Just Barely Clear'"**:
+
+## Citation
+
+> Li, Zhiwei. (Nov 2024). Natural Vision Restoration: The Principle of 'Just Barely Clear'. Zhiwei's Blog. https://lzwjava.github.io/barely-clear-en.
+
+Or
+
+```bibtex
+@article{li2024barelyclear,
+  title   = "Natural Vision Restoration: The Principle of 'Just Barely Clear'",
+  author  = "Li, Zhiwei",
+  journal = "lzwjava.github.io",
+  year    = "2024",
+  month   = "Nov",
+  url     = "https://lzwjava.github.io/barely-clear-en"
+}
+```
+
+## References
 
 This understanding builds upon the groundbreaking work of Yin Wang and subsequent experimental verification by others. The findings presented here are based on personal experimentation and refinement of these methods.
 
