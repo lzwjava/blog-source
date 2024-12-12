@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "关于逆转近视的精彩列表"
+title: "逆转近视"
 ---
 
 * [近视：一种现代但可逆的疾病，M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF)，Todd Becker

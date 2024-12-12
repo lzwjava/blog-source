@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Awesome List About Reversing Myopia"
+title: "Reversing Myopia"
 ---
 
 * [Myopia: A Modern Yet Reversible Disease, M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF) Todd Becker
