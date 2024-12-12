@@ -1,23 +1,23 @@
 ---
 layout: post
-title: "OpenAI Should Charge Based on Token Usage Instead of a Fixed $20 Monthly Fee"
+title: "OpenAI 应该根据使用的代码数收费，而不是固定每月 $20 的订阅费"
 ---
 
-OpenAI should implement a flexible pricing model based on actual token usage rather than charging a fixed $20 monthly subscription.
+OpenAI 应该实施一种基于实际使用代码数的灵活费用模式，而不是每月固定收费 $20 。
 
-Currently, in API side, GPT-4o is priced at $2.50 per 1M input tokens and $10.00 per 1M output tokens. For client users, a similar usage-based pricing model would make more sense.
+当前，GPT-4o 的收费标准是每万个输入代码 $2.50，每万个输出代码 $10.00。 对于用户端，使用类似的基于使用的收费模式更有意义。
 
-### Proposal: Usage-Based Wallet System
-To address the constraints of iOS fixed-price subscriptions, OpenAI could introduce a wallet system:
+### 提案：基于使用金额钱包系统
+为了解决 iOS 固定订阅价格的限制，OpenAI 可以导入一个钱包系统：
 
-1. Users deposit funds into their wallet, with a suggested minimum top-up of $20.
-2. Token usage is deducted from the wallet balance either in real-time or at the end of each day.
-3. Accounts must maintain a minimum balance (e.g., $10) to ensure uninterrupted service.
+1. 用户将资金充值至他们的钱包，推荐最少充值 $20。
+2. 代码使用的费用可以随时或每天从钱包余额中扣除。
+3. 账户应保持最低余额（例如 $10），以确保服务不中断。
 
-### Benefits of a Usage-Based Model
-- **Flexibility**: Accommodates users with varying levels of activity—low-usage users aren’t overcharged, while high-usage users pay proportionally.
-- **Fairness**: Users pay only for what they consume, making the service more appealing to a broader audience.
-- **Adaptability**: A wallet system integrates seamlessly with existing subscription models and offers transparency for users.
+### 基于使用模式的优势
+- **灵活性**：适应不同活跃级别的用户，例如使用较少的用户不会被过度收费，而使用较多的用户按照使用量付费。
+- **公平性**：用户只为自己的消耗付费，让服务对更应对的人群更有吸引力。
+- **适应性**：钱包系统可以应对现有的订阅模式，并为用户提供更透明的消费信息。
 
-By adopting this approach, OpenAI could provide a more tailored and equitable experience for its users, maximizing satisfaction and utility.
+通过采用这个方案，OpenAI 可以为用户提供更重要和公平的体验，最大化用户的满意度和实用性。
 

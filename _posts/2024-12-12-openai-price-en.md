@@ -5,7 +5,7 @@ title: "OpenAI Should Charge Based on Token Usage Instead of a Fixed $20 Monthly
 
 OpenAI should implement a flexible pricing model based on actual token usage rather than charging a fixed $20 monthly subscription.
 
-Currently, GPT-4o is priced at $2.50 per 1M input tokens and $10.00 per 1M output tokens. For client users, a similar usage-based pricing model would make more sense.
+Currently, the API pricing for GPT-4 is set at $2.50 per 1 million input tokens and $10.00 per 1 million output tokens. For client users, a comparable usage-based pricing model would be more appropriate.
 
 ### Proposal: Usage-Based Wallet System
 To address the constraints of iOS fixed-price subscriptions, OpenAI could introduce a wallet system:
