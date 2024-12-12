@@ -1,0 +1,34 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "Gemfile",
+            "use": "@vercel/ruby"
+        },
+        {
+            "src": "package.json",
+            "use": "@vercel/static-build",
+            "config": {
+                "buildCommand": "bash fix_template.sh && jekyll build",
+                "outputDirectory": "_site"
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/_site/$1"
+        }
+    ],
+    "env": {
+        "RUBY_VERSION": "2.7.2"
+    },
+    "functions": {
+        "api/**.js": {
+            "maxDuration": 10
+        }
+    },
+    "github": {
+        "enabled": true
+    }
+}
