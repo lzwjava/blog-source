@@ -13,19 +13,7 @@ title: "Curcits and Electronics"
 
 ---
 
-* Inductors work similarly to capacitors. A change in current will cause an inductor to generate a magnetic field, which in turn affects the circuit. 
-
-Energy Storage:
-
-   \[
-   E = \frac{1}{2} L I^2
-   \]
-
-Inductance:
-
-   \[
-   V = L \frac{dI}{dt}
-   \]   
+* Inductors work similarly to capacitors. A change in current will cause an inductor to generate a magnetic field, which in turn affects the circuit. Energy storage formula is $E = \frac{1}{2} L I^2$. Inductance formula is $V = L \frac{dI}{dt}$ . 
 
 ---
 
