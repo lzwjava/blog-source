@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Curcits and Electronics"
+title: "Circuits and Electronics"
 ---
 
 * R = U / I, P = UI. 
