@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ChatGPT Plus Should Charge Based on Token Usage Instead of a Fixed \\$20 Monthly Fee"
+title: "Why ChatGPT Plus Should Charge by Token Usage"
 ---
 
 ChatGPT Plus should transition to a flexible pricing model based on token usage rather than a fixed \\$20 monthly fee.
