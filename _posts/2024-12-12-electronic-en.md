@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Electronics"
+title: "Curcits and Electronics"
 ---
 
 * R = U / I
