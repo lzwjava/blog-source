@@ -119,3 +119,19 @@ Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Rig
 
 Wow, it looks good. Is it correct? Who knows? Let time tell.
 
+## Citation
+
+> Li, Zhiwei. (Jun 2023). The Discussion Regarding Astigmatism When the Eyeballs Reverse to the Normal Shape. Zhiwei's Blog. https://lzwjava.github.io/astigmatism-en.
+
+Or
+
+```bibtex
+@article{li2023astigmatism,
+  title   = "The Discussion Regarding Astigmatism When the Eyeballs Reverse to the Normal Shape",
+  author  = "Li, Zhiwei",
+  journal = "lzwjava.github.io",
+  year    = "2023",
+  month   = "Jun",
+  url     = "https://lzwjava.github.io/astigmatism-en"
+}
+```
