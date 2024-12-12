@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Resume"
+title:  "Résumé"
 ---
 
 ## Note
