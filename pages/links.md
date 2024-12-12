@@ -8,6 +8,7 @@ These are some links and apps I check daily or every few days. Typically, I use 
 - [ChatGPT](http://chatgpt.com)
 - [Claude](https://claude.ai)
 - [Gemini](https://gemini.google.com)
+- [Google](https://www.google.com)
 - [Market Cap](https://companiesmarketcap.com)
 - [Binance](https://www.binance.com/)
 - [OKX](https://www.okx.com)
