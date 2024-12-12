@@ -3,7 +3,7 @@ layout: post
 title: "AI Tools"  
 ---
 
-Here are some AI tools I’ve explored:
+Here are some AI tools I’ve used:
 
 #### Chatbots
 
