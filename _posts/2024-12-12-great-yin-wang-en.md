@@ -33,4 +33,11 @@ Yin Wang wrote an article about his story with Daniel P. Friedman, allowing more
 
 I have subscribed to his Substack for \\$5 a month for the past two years. I feel deeply indebted to him, and the best way I can repay him is by sharing everything I learn through this blog to help others.
 
-He truly taught me how to think. He passed on the technique of how to catch fish from Daniel P. Friedman to me. Yin, thank you.
+I regret that I didn’t listen to him more carefully. It wasn’t until 2024, when I realized that the house my wife and I bought in Guangzhou in 2022 had lost about 1 million in value, that I truly understood the impact. During my lowest moment, I remembered something he had said before: "A bubble is a cancer to the socio-economy; once it bursts, it will spread and worsen throughout, harming everyone."
+
+He had also pointed out countless times that China’s economy depends too much on real estate and large infrastructure projects. He often mentioned how the so-called expensive houses or residential communities in major Chinese cities have such poor quality compared to those built by foreign companies. I regretted not listening more carefully to what he was saying.
+
+Despite this, I continued to fight by learning from him. I passed more courses in my associate degree and faced tougher interviews during a difficult economic period.
+
+He not only taught me knowledge, but also truly showed me how to think. He passed on the technique of catching fish from Daniel P. Friedman to me. Yin, thank you.
+
