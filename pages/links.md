@@ -24,6 +24,7 @@ These are some links and apps I check daily or every few days. Typically, I use 
 ## Stock
 
 - [iTiger](https://www.itiger.com)
+- [iTiger App](https://tigerbrokers.com.sg/activity/forapp/nativeapp)
 
 ## Yin Wang
 
