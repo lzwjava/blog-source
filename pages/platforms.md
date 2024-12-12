@@ -1,7 +1,37 @@
-|Code|Social|Video|
-|-----|-----|-----|
-| [GitHub](https://github.com/lzwjava)|[Weibo](https://weibo.com/zhiweilee)|[Douban](https://www.douban.com/people/lzwjava/) |
-| [Codeforces](https://codeforces.com/profile/lzwjava)|[Twitter](https://twitter.com/lzwjava)|  [TikTok](https://www.tiktok.com/@jamesleecool) |
-| [UVa Judge](https://uhunt.onlinejudge.org/id/113519) |[LinkedIn](https://www.linkedin.com/in/lzwjava) |[Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ)    |
-|  [Blog](https://lzwjava.github.io) | [Facebook](https://www.facebook.com/lzwjava) | [Xiaohongshu](https://www.xiaohongshu.com/user/profile/577ba85b6a6a6913f98f237b)|
+---
+layout: post  
+title: "Useful Links"
+---
+
+These are some links and apps I check daily or every few days. Typically, I use apps for updates, and for desktop use, I often rely on AI tools.
+
+## AI Tools
+
+- **ChatGPT**: [chatgpt.com](http://chatgpt.com)
+- **Claude**: [claude.ai](https://claude.ai)
+- **Gemini**: [gemini.google.com](https://gemini.google.com)
+- **Mistral**: [chat.mistral.ai](https://chat.mistral.ai)
+
+## Crypto
+
+- [Binance](https://www.binance.com/)
+- [OKX](https://www.okx.com)
+
+## Market Cap
+
+- [Companies Market Cap](https://companiesmarketcap.com)
+
+## Stock
+
+- [iTiger](https://www.itiger.com)
+
+## Yin Wang
+
+- [Yin Wang’s Website](https://www.yinwang.org)
+- Weibo: [不再关心人类de垠](https://weibo.com/yinwang)
+- Substack: [yinwang0.substack.com](https://yinwang0.substack.com)
+
+## Information
+
+- [X](https://x.com/home)
 
