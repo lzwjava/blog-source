@@ -43,6 +43,7 @@ $section-link-color: #2a6496;
     text-align: center; // Center the button text
     margin: 5px 0; // Add margin for spacing
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -56,6 +57,7 @@ $section-link-color: #2a6496;
     /* Make buttons full width */
     text-align: center;
   }
+
 }
 
 
@@ -246,7 +248,13 @@ body:lang(zh) {
   /* Add spacing between rows */
   max-width: 60rem;
   margin: 0 auto !important;
-  padding: 0 7rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .row {
+    padding: 0 7rem;
+    /* Add horizontal padding on large screens */
+  }
 }
 
 .compact-row {
