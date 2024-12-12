@@ -3,27 +3,22 @@ layout: post
 title: "ChatGPT Plus Should Charge Based on Token Usage Instead of a Fixed $20 Monthly Fee"
 ---
 
-OpenAI should implement a flexible pricing model based on actual token usage rather than charging a fixed $20 monthly subscription.
+ChatGPT Plus should transition to a flexible pricing model based on token usage rather than a fixed $20 monthly fee.
 
-Currently, the API pricing for GPT-4 is set at $2.50 per 1 million input tokens and $10.00 per 1 million output tokens. For client users, a comparable usage-based pricing model would be more appropriate.
+- **Current Pricing**: $20 per month.
 
-### Proposal: Usage-Based Wallet System
-To address the constraints of iOS fixed-price subscriptions, OpenAI could introduce a wallet system:
+### Proposal: Token-Based Pricing Model
 
-1. Users deposit funds into their wallet, with a suggested minimum top-up of $20.
-2. Token usage is deducted from the wallet balance either in real-time or at the end of each day.
-3. Accounts must maintain a minimum balance (e.g., $10) to ensure uninterrupted service.
+1. GPT-4 API charges $2.50 per 1M input tokens and $10 per 1M output tokens. A similar usage-based model would be ideal for ChatGPT Plus users.
+2. To overcome the limitations of iOS fixed-price subscriptions, OpenAI could implement a wallet system.
+3. Users would deposit funds (e.g., $20), with token usage deducted either in real-time or daily. A minimum balance (e.g., $10) would be required to maintain uninterrupted service.
 
-### Benefits of a Usage-Based Model
-- **Flexibility**: Accommodates users with varying levels of activity—low-usage users aren’t overcharged, while high-usage users pay proportionally.
-- **Fairness**: Users pay only for what they consume, making the service more appealing to a broader audience.
-- **Adaptability**: A wallet system integrates seamlessly with existing subscription models and offers transparency for users.
+### Benefits:
+- **Flexibility**: Low-usage users aren’t overcharged, while high-usage users pay proportionally.
+- **Fairness**: Users pay only for what they consume.
+- **Adaptability**: Integrates seamlessly with existing subscription models.
 
-Although transitioning to this model may seem challenging, it is still early in the journey. Reports suggest that 300 million people use OpenAI weekly.
+With 300 million weekly users, shifting to this model could attract more subscribers. Based on a projected $11.6 billion revenue, around 48.33 million users are likely on the current $20/month plan.
 
-Based on OpenAI's projected revenue of $11.6 billion for 2024 and assuming most users subscribe to the $20 per month OpenAI Plus plan, the estimated number of subscribers would be approximately 48.33 million.
-
-Implementing this flexible model would undoubtedly attract more users to subscribe to ChatGPT Plus.
-
-By adopting this approach, OpenAI could provide a more tailored and equitable experience for its users, maximizing satisfaction and utility.
+This flexible pricing approach would offer a fairer, more customized experience for users.
 
