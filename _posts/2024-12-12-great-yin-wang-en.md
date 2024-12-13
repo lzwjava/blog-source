@@ -11,7 +11,7 @@ This is a story about me and Yin Wang. I just checked my Twitter account.
 
 > "@yinwang0 Oh, this is similar to Lisp. However, I don't quite understand how useful this feature is. I know its introduction helps functional programming by returning multiple values, allowing a single function call to return a lot of data, like how `get-decoded-time` returns the year, month, day, etc. Indeed, the convenience in this regard is already quite powerful."
 
-I replied to this in Chinese on Yin Wang's English account. The date was 2023/08/19.
+I replied to this in Chinese on Yin Wang's English account. The date was 2013/08/19.
 
 I started sharing his blog with some friends on 2019/01/31 and continued sharing it with new acquaintances.
 
