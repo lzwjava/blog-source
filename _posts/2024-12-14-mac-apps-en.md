@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mac apps I used"
+title: "Mac Apps I Used"
 ---
 
 A:
