@@ -11,11 +11,8 @@ title: "Complete Works of Yin Wang"
 
 ## English
 
+* Blog’s English Translation: https://github.com/lzwjava/yinwang.github.io
 * Substack: [https://yinwang0.substack.com](https://yinwang0.substack.com)
 * WordPress: [https://yinwang0.wordpress.com](https://yinwang0.wordpress.com)
 * Twitter: [https://twitter.com/yinwang0](https://twitter.com/yinwang0)
-
----
-
-He sometimes deletes his blog posts. You might find them through a search engine, but since he prefers them to disappear, I won’t share any further details.
 
