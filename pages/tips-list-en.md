@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tips List"
+link: "pages/tips-list-cn"
 ---
 
 * [Thinking](../thinking-en)

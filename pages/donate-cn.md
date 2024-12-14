@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "捐赠"
+link: "pages/donate-en"
 ---
 
 如果你喜欢我的文章、代码或视频，可以自愿进行捐赠。你可以通过以下方式支付。

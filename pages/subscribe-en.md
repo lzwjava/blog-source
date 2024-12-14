@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Subscribe"
+link: "pages/subscribe-cn"
 ---
 
 Please subscribe to my blog post updates on X (Twitter).

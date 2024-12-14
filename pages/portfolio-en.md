@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Portfolio"
+link: "pages/portfolio-cn"
 ---
 
 The Chinese version can be found [here](/pages/portfolio-zh).

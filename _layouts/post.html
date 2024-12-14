@@ -14,6 +14,15 @@ layout: default
     {% assign current_lang = page.path | split: '-' | last | split: '.' | first %}
 
     {% if current_lang == "en" or current_lang == "cn" %}
+
+    {% if page.link %}
+    <!-- If link is defined, show the link directly -->
+    {% if current_lang == "en" %}
+    <a href="/{{ page.link }}" class="button right-button">中文</a>
+    {% elsif current_lang == "cn" %}
+    <a href="/{{ page.link }}" class="button right-button">English</a>
+    {% endif %}
+    {% else %}
     {% assign file_parts = page.path | split: '/' | last | replace: ".md", "" | split: '-' %}
     {% assign base_name = file_parts | slice: 3, file_parts.size | join: '-' | replace: "-#{current_lang}", "" %}
 
@@ -29,6 +38,8 @@ layout: default
     {% elsif current_lang == "cn" %}
     <a href="/{{ base_name }}-en" class="button right-button">English</a>
     {% endif %}
+    {% endif %}
+
     {% endif %}
   </div>
 
