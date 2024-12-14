@@ -13,7 +13,6 @@ My X account is here: [https://mobile.twitter.com/lzwjava](https://mobile.twitte
 
 <div align="center"><img src="/assets/images/contact/whatsapp.jpg" width="250px" /><img/></div>
 
-
 #### Telegram
 
 <div align="center"><img src="/assets/images/contact/t_me-lzwjava.jpg" width="250px" /><img/></div>
