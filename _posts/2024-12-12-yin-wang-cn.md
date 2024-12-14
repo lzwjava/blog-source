@@ -8,6 +8,7 @@ title: "王垠全集"
 * 微博账号：[不再关心人类de垠](https://weibo.com/yinwang)
 * WordPress：[https://yinwang1.wordpress.com](https://yinwang1.wordpress.com)
 * 博客：[http://www.yinwang.org](http://www.yinwang.org)
+* Substack: [https://yinwang1.substack.com](https://yinwang1.substack.com)
 
 ## 英文
 
