@@ -5,9 +5,10 @@ title: "Complete Works of Yin Wang"
 
 ## Chinese
 
-* Weibo account: [不再关心人类de垠](https://weibo.com/yinwang)
+* 微博: [不再关心人类de垠](https://weibo.com/yinwang)
 * WordPress: [https://yinwang1.wordpress.com](https://yinwang1.wordpress.com)
-* Blog: [http://www.yinwang.org](http://www.yinwang.org)
+* 博客: [http://www.yinwang.org](http://www.yinwang.org)
+* Substack: [https://yinwang1.substack.com](https://yinwang1.substack.com)
 
 ## English
 
