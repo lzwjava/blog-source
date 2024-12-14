@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My App List - Text Version"
+title: "iOS Apps I Used - Text Version"
 ---
 
 \#:
