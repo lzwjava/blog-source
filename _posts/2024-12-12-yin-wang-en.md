@@ -11,7 +11,7 @@ title: "Complete Works of Yin Wang"
 
 ## English
 
-* Blog’s English Translation: https://github.com/lzwjava/yinwang.github.io
+* Blog’s English Translation:  [https://github.com/lzwjava/yinwang.github.io](https://github.com/lzwjava/yinwang.github.io)
 * Substack: [https://yinwang0.substack.com](https://yinwang0.substack.com)
 * WordPress: [https://yinwang0.wordpress.com](https://yinwang0.wordpress.com)
 * Twitter: [https://twitter.com/yinwang0](https://twitter.com/yinwang0)
