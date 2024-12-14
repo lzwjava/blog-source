@@ -1,7 +1,7 @@
 ---
 layout: post  
 title: "Most Useful Links & Apps for Me"
-link: "pages/links-cn"
+link: "pages/links-zh"
 ---
 
 These are some links and apps I check daily or every few days. Typically, I use apps for updates, and for desktop use, I often rely on AI tools.
