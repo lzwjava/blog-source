@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "笔记"
+title:  "声明"
 ---
 
 ## 翻译

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes"
+title:  "Disclaimer"
 ---
 
 ## Translation
