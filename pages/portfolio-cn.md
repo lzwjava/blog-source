@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "作品集"
+link: "pages/portfolio-en"
 ---
 
 PDF 文件可以在[这里](/assets/resume/Zhiwei.Li.Portfolio.ZH.pdf)找到。

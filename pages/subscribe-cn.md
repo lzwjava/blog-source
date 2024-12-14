@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "订阅"
+link: "pages/subscribe-en"
 ---
 
 请在 X（Twitter）上订阅我的博客更新。

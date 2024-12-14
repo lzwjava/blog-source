@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "声明"
+link: "pages/disclaimer-en"
 ---
 
 ## 翻译

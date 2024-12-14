@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Résumé"
+link: "pages/resume-en"
 ---
 
 ## Note
