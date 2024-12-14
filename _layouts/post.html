@@ -17,11 +17,12 @@ layout: default
     {% assign file_parts = page.path | split: '/' | last | replace: ".md", "" | split: '-' %}
     {% assign base_name = file_parts | slice: 3, file_parts.size | join: '-' | replace: "-#{current_lang}", "" %}
 
-    <!-- <p>Base Name: {{ base_name }}</p> -->
+    {% assign base_name_length = base_name | size %}
 
-    {% assign base_name = base_name | replace_last: "-#{current_lang}", "" %}
-
-    <!-- <p>Base Name: {{ base_name }}</p> -->
+    {% if base_name_length >= 3 %}
+    {% assign length_to_slice = base_name_length | minus: 3 %}
+    {% assign base_name = base_name | slice: 0, length_to_slice %}
+    {% endif %}
 
     {% if current_lang == "en" %}
     <a href="/{{ base_name }}-cn" class="button right-button">中文</a>
