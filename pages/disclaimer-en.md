@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Disclaimer"
-link: "pages/disclaimer-cn"
+link: "pages/disclaimer-zh"
 ---
 
 ## Translation

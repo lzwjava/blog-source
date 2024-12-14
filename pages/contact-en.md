@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Contact"
-link: "pages/contact-cn"
+link: "pages/contact-zh"
 ---
 
 Feel free to reach out if you’re interested! You can say hi to me on X, WhatsApp, or Telegram, leave a comment, send me a direct message, or drop me an email.
