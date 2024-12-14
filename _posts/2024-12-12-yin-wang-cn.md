@@ -11,10 +11,8 @@ title: "王垠全集"
 
 ## 英文
 
+* Blog's English Translation: [https://github.com/lzwjava/yinwang.github.io](https://github.com/lzwjava/yinwang.github.io)
 * Substack：[https://yinwang0.substack.com](https://yinwang0.substack.com)
 * WordPress：[https://yinwang0.wordpress.com](https://yinwang0.wordpress.com)
 * Twitter：[https://twitter.com/yinwang0](https://twitter.com/yinwang0)
 
----
-
-他有时会删除他的博客文章。你可能通过搜索引擎找到它们，但由于他希望它们消失，我不会进一步分享。
