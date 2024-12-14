@@ -6,8 +6,6 @@ layout: default
 
   <h3>{{ page.title }}</h3>
 
-  <h3>{{ page.title }}</h3>
-
   <div class="button-container">
     <a href="/" class="button left-button">
       Home
@@ -18,6 +16,12 @@ layout: default
     {% if current_lang == "en" or current_lang == "cn" %}
     {% assign file_parts = page.path | split: '/' | last | replace: ".md", "" | split: '-' %}
     {% assign base_name = file_parts | slice: 3, file_parts.size | join: '-' | replace: "-#{current_lang}", "" %}
+
+    <p>Base Name: {{ base_name }}</p>
+
+    {% assign base_name = base_name | replace_last: "-#{current_lang}", "" %}
+
+    <p>Base Name: {{ base_name }}</p>
 
     {% if current_lang == "en" %}
     <a href="/{{ base_name }}-cn" class="button right-button">中文</a>
