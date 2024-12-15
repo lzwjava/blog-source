@@ -10,8 +10,7 @@ My X account is @lzwjava.
 
 The link is [https://mobile.twitter.com/lzwjava](https://mobile.twitter.com/lzwjava).
 
-
-Here’s the updated version with **Threads** added:
+Here are some of my platform accounts:
 
 | **Platform**   | **Link**                                        |
 |----------------|-------------------------------------------------|
@@ -32,5 +31,4 @@ Here’s the updated version with **Threads** added:
 |                | [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ) |
 | **Messaging**  | [Telegram](https://t.me/lzwjava)               |
 |                | [WhatsApp](https://wa.me/12345678900)          |
-
-
+| **Other**      | [Quora](https://www.quora.com/profile/Lzw-2)    |
