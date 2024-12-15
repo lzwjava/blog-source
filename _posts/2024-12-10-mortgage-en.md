@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Benefits of Converting a Small Part of Your Mortgage to a Consumer Loan"
+title: "Benefits of Making Partial Early Mortgage Payments"
 ---
 
 I have a house mortgage of 1.03 million CNY, which I took out from the Agricultural Bank of China around July 2022.
