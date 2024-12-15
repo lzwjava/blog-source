@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Mac Apps I Used"
+translation: false
 ---
 
 A:
