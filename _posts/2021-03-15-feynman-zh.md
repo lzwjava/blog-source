@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "mathjax2mobi：将包含MathJax方程的HTML转换为电子书格式"
+title:  "mathjax2mobi：将MathJax HTML转换为电子书"
 ---
 
 ### 项目简介
