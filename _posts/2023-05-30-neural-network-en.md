@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I Finally Understand How Neural Network Works"
+title: "How Neural Network Works"
 usemathjax: true
 ---
 
