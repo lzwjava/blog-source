@@ -7,14 +7,21 @@ layout: default
   <div class="title-row">
     <h3 class="title">{{ page.title }}</h3>
 
-    <!-- Split the path and extract the date -->
+    <!-- Check if the file name contains a date -->
     {% assign date_parts = page.path | split: '/' %}
     {% assign date_segment = date_parts[1] %}
+
+    {% if date_segment contains '-' %}
+    <!-- If date is present, split it and format -->
     {% assign date_parts = date_segment | split: '-' %}
     {% assign file_date = date_parts[0] | append: '-' | append: date_parts[1] | append: '-' | append: date_parts[2] %}
-
     <p class="date">{{ file_date }}</p>
+    {% else %}
+    <!-- If no date in file name, display a default or nothing -->
+    <p class="date">No date available</p>
+    {% endif %}
   </div>
+
 
 
   <div class="button-container">
