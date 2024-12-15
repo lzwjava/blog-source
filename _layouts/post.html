@@ -7,6 +7,15 @@ layout: default
   <div class="title-row">
     <h3 class="title">{{ page.title }}</h3>
 
+  </div>
+
+
+
+  <div class="button-container">
+    <a href="/" class="button left-button">
+      Home
+    </a>
+
     <!-- Check if page.link exists -->
     {% if page.link %}
     <!-- If page.link exists, don't show the date -->
@@ -26,14 +35,6 @@ layout: default
     <p class="date">No date available</p>
     {% endif %}
     {% endif %}
-  </div>
-
-
-
-  <div class="button-container">
-    <a href="/" class="button left-button">
-      Home
-    </a>
 
     {% assign current_lang = page.path | split: '-' | last | split: '.' | first %}
 
