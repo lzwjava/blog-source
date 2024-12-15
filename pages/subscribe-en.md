@@ -12,6 +12,8 @@ The link is [https://mobile.twitter.com/lzwjava](https://mobile.twitter.com/lzwj
 
 Here are some of my platform accounts:
 
+Here is your updated list with the additional platforms:
+
 | **Platform**   | **Link**                                        |
 |----------------|-------------------------------------------------|
 | **Code**       | [GitHub](https://github.com/lzwjava)            |
@@ -19,6 +21,11 @@ Here are some of my platform accounts:
 |                | [UVa Judge](https://uhunt.onlinejudge.org/id/113519) |
 |                | [Blog](https://lzwjava.github.io)               |
 |                | [Kaggle](https://www.kaggle.com/lzwjava)        |
+|                | [LeetCode](https://leetcode.com/u/lzwjava/)     |
+|                | [AtCoder](https://atcoder.jp/users/lzwjava)     |
+|                | [SPOJ](https://www.spoj.com/users/lzwjava)      |
+|                | [HackerRank](https://www.hackerrank.com/profile/lzwjava) |
+|                | [CodeChef](https://www.codechef.com/users/lzwjava) |
 | **Social**     | [Weibo](https://weibo.com/zhiweilee)            |
 |                | [Twitter](https://twitter.com/lzwjava)          |
 |                | [LinkedIn](https://www.linkedin.com/in/lzwjava) |
