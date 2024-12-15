@@ -7,6 +7,11 @@ layout: default
   <div class="title-row">
     <h3 class="title">{{ page.title }}</h3>
 
+    <!-- Check if page.link exists -->
+    {% if page.link %}
+    <!-- If page.link exists, don't show the date -->
+    <p class="date"></p>
+    {% else %}
     <!-- Check if the file name contains a date -->
     {% assign date_parts = page.path | split: '/' %}
     {% assign date_segment = date_parts[1] %}
@@ -19,6 +24,7 @@ layout: default
     {% else %}
     <!-- If no date in file name, display a default or nothing -->
     <p class="date">No date available</p>
+    {% endif %}
     {% endif %}
   </div>
 
