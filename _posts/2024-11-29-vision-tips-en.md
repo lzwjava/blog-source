@@ -25,5 +25,9 @@ title: "Natural Vision Restoration Tips"
 
 * Learn about your eye mechanics - understanding how external eye muscles work helps make better vision choices.
 
+* Myopia requires wearing glasses, which can be troublesome during activities like playing basketball or when wearing a hat. The hat cannot stretch to cover more skin and provide warmth because the glasses take up space. Forgetting to wear glasses also affects vision.
+
+* While some people may feel too old or lazy to address their myopia, it's crucial to take action for the sake of future generations to prevent the same challenges.
+
 * The improvement process takes time - myopia developed over years will take time to improve.
 
