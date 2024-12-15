@@ -38,13 +38,13 @@ layout: default
 
     {% assign current_lang = page.path | split: '-' | last | split: '.' | first %}
 
-    {% if current_lang == "en" or current_lang == "cn" %}
+    {% if current_lang == "en" or current_lang == "zh" %}
 
     {% if page.link %}
     <!-- If link is defined, show the link directly -->
     {% if current_lang == "en" %}
     <a href="/{{ page.link }}" class="button right-button">中文</a>
-    {% elsif current_lang == "cn" %}
+    {% elsif current_lang == "zh" %}
     <a href="/{{ page.link }}" class="button right-button">English</a>
     {% endif %}
     {% else %}
@@ -60,7 +60,7 @@ layout: default
 
     {% if current_lang == "en" %}
     <a href="/{{ base_name }}-zh" class="button right-button">中文</a>
-    {% elsif current_lang == "cn" %}
+    {% elsif current_lang == "zh" %}
     <a href="/{{ base_name }}-en" class="button right-button">English</a>
     {% endif %}
     {% endif %}
