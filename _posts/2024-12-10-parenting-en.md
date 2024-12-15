@@ -37,3 +37,5 @@ title: "Parenting Tips"
 
 * Use YouTube Premium to download some English animations for kids to watch in the car.
 
+* From 3 years old: Teach how to use a remote control, play mobile games, interact with ChatGPT via voice, and unpack deliveries.
+

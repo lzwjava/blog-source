@@ -23,6 +23,7 @@ link: "pages/resume-en"
 * 汉语为母语，英语流利（雅思6分）。
 * 阅读超过 320 本书籍，涵盖教材、个人发展、商业、技术和历史。
 * 开发了10个GitHub开源项目，每个超500次提交，请查看 https://github.com/lzwjava。
+* 自学研究者，撰写了三篇关于逆转近视和自然恢复视力的学术风格论文，灵感来源于王垠和Todd Becker的研究，并经过三年的实验验证。
 * 详细的软件作品集可查看于 https://lzwjava.github.io/pages/portfolio。
 
 ## 工作经验
@@ -210,13 +211,13 @@ link: "pages/resume-en"
 
 ## 学术论文
 
-我在投入了一些时间进行研究和实验，并通过我的博客分享我的发现。以下是关于视力恢复、散光和近视的几篇重要论文，这些论文的观点可能与主流学术观点有所不同。虽然我没有正式的导师，但我从像王垠这样的专业人士那里学到了很多，他是一位首席工程师，我通过网络发现了他的工作。我相信这些发现，并且得到了朋友们在实践中应用这些概念的反馈支持。在计算机科学领域，我仍在努力取得类似的突破。
+我是自学成才的研究员，撰写了三篇关于逆转近视和自然视力恢复的学术风格论文，灵感来自于王垠和Todd Becker的作品，经过三年的实验支持。在计算机科学领域，我仍在努力实现类似的突破。
 
-* Li, Zhiwei. (2023年6月). *自然视力恢复法的实验验证.* Zhiwei’s Blog. http://lzwjava.github.io/vision-restoration-en
+* Li, Zhiwei. (2023年6月). 自然视力恢复法的实验验证. Zhiwei’s Blog. http://lzwjava.github.io/vision-restoration-en
 
-* Li, Zhiwei. (2023年6月). *眼球恢复正常形状时散光的讨论.* Zhiwei’s Blog. https://lzwjava.github.io/astigmatism-en
+* Li, Zhiwei. (2023年6月). 眼球恢复正常形状时散光的讨论. Zhiwei’s Blog. https://lzwjava.github.io/astigmatism-en
 
-* Li, Zhiwei. (2024年11月). *自然视力恢复法：'刚好清晰'的原则.* Zhiwei’s Blog. https://lzwjava.github.io/barely-clear-en
+* Li, Zhiwei. (2024年11月). 自然视力恢复法：'刚好清晰'的原则. Zhiwei’s Blog. https://lzwjava.github.io/barely-clear-en
 
 ## 阅读书目
 
