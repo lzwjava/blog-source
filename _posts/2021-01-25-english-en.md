@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to improve English proficiency with large amounts of input"
+title:  "Improving English with Extensive Input"
 ---
 
 Translated by ChatGPT.
