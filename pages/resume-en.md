@@ -24,6 +24,7 @@ The PDF file of the English version can be found [here](/assets/resume/Zhiwei.Li
 * Native in Chinese, proficient in English (IELTS 6).
 * Read over 320 books spanning textbooks, personal development, business, technology and history.
 * Developed 10 open-source GitHub projects as a main developer, each with over 500 commits available at https://github.com/lzwjava.
+* Self-taught researcher with three academic-style papers on reversing myopia and natural vision restoration, inspired by the works of Yin Wang and Todd Becker, backed by three years of experimentation.
 * Detailed software portfolio available at https://lzwjava.github.io/pages/portfolio.
 
 ## Work Experience
@@ -209,9 +210,9 @@ Below is a selection of my blog posts, covering personal growth stories, startup
 * Porting FFmpeg to Android  
 * A Deep Dive into Custom Drawing in Android 
 
-## Academical Papers
+## Papers
 
-I have dedicated some time to research and experimentation in various fields, sharing my findings through my blog. Below are key papers on vision restoration, astigmatism, and myopia, which may differ from mainstream academic views. While I don’t have a formal mentor, I’ve learned from professionals like Yin Wang, a principal engineer, whose work I discovered online. I believe in these findings, supported by feedback from friends applying the concepts. In computer science, I am still striving to make similar breakthroughs.
+I'm a self-taught researcher with three academic-style papers on reversing myopia and natural vision restoration, inspired by the works of Yin Wang and Todd Becker, supported by three years of experimentation. In computer science, I am still striving to make similar breakthroughs.
 
 * Li, Zhiwei. (Jun 2023). *Experimental Verification of the Natural Vision Restoration Method.* Zhiwei’s Blog. http://lzwjava.github.io/vision-restoration-en.
 

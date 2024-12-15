@@ -12,8 +12,6 @@ The link is [https://mobile.twitter.com/lzwjava](https://mobile.twitter.com/lzwj
 
 Here are some of my platform accounts:
 
-Here is your updated list with the additional platforms:
-
 | **Platform**   | **Link**                                        |
 |----------------|-------------------------------------------------|
 | **Code**       | [GitHub](https://github.com/lzwjava)            |

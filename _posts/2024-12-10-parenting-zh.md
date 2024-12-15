@@ -36,3 +36,5 @@ title: "育儿建议"
 * 提供YouTube Kids动画观看和Apple Arcade和Google Play Pass游戏玩耍。
 
 * 使用 YouTube Premium 下载一些英文动画，让孩子们在车上观看。
+
+* 从3岁开始：教如何使用遥控器、玩手机游戏、通过语音与ChatGPT互动，以及拆包裹。
