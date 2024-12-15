@@ -4,7 +4,18 @@ layout: default
 
 <main id="content" class="main-content" role="main">
 
-  <h3>{{ page.title }}</h3>
+  <div class="title-row">
+    <h3 class="title">{{ page.title }}</h3>
+
+    <!-- Split the path and extract the date -->
+    {% assign date_parts = page.path | split: '/' %}
+    {% assign date_segment = date_parts[1] %}
+    {% assign date_parts = date_segment | split: '-' %}
+    {% assign file_date = date_parts[0] | append: '-' | append: date_parts[1] | append: '-' | append: date_parts[2] %}
+
+    <p class="date">{{ file_date }}</p>
+  </div>
+
 
   <div class="button-container">
     <a href="/" class="button left-button">

@@ -266,3 +266,17 @@ body {
     width: 50%; // 50% width for laptop or larger screens
   }
 }
+
+.title-row {
+  display: flex;
+  justify-content: space-between; // Distribute space between the title and the date
+  align-items: center; // Align vertically in the center
+
+  .title {
+    margin: 0;
+  }
+
+  .date {
+    margin: 0;
+  }
+}
