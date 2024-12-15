@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "我终于明白了神经网络是如何工作的"
+title: "神经网络是如何工作的"
 usemathjax: true
 ---
 
