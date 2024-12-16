@@ -24,6 +24,8 @@ link: "pages/subscribe-en"
 |                | [SPOJ](https://www.spoj.com/users/lzwjava)     |
 |                | [HackerRank](https://www.hackerrank.com/profile/lzwjava) |
 |                | [CodeChef](https://www.codechef.com/users/lzwjava) |
+|                | [CSDN](https://blog.csdn.net/lzw_java)         |
+|                | [StackOverflow](https://stackoverflow.com/users/3044511/lzwjava) |
 | **社交**       | [微博](https://weibo.com/zhiweilee)            |
 |                | [Twitter](https://twitter.com/lzwjava)         |
 |                | [LinkedIn](https://www.linkedin.com/in/lzwjava) |
@@ -37,4 +39,3 @@ link: "pages/subscribe-en"
 | **即时通讯**   | [Telegram](https://t.me/lzwjava)              |
 |                | [WhatsApp](https://wa.me/12345678900)         |
 | **其他**       | [Quora](https://www.quora.com/profile/Lzw-2)   |
-
