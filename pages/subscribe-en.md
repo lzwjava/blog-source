@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Subscribe"
+title: "Subscribe"
 link: "pages/subscribe-zh"
 ---
 
@@ -24,6 +24,8 @@ Here are some of my platform accounts:
 |                | [SPOJ](https://www.spoj.com/users/lzwjava)      |
 |                | [HackerRank](https://www.hackerrank.com/profile/lzwjava) |
 |                | [CodeChef](https://www.codechef.com/users/lzwjava) |
+|                | [CSDN](https://blog.csdn.net/lzw_java)          |
+|                | [StackOverflow](https://stackoverflow.com/users/3044511/lzwjava) |
 | **Social**     | [Weibo](https://weibo.com/zhiweilee)            |
 |                | [Twitter](https://twitter.com/lzwjava)          |
 |                | [LinkedIn](https://www.linkedin.com/in/lzwjava) |
