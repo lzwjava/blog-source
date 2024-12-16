@@ -97,11 +97,14 @@ clean:
 ```
 
 How It Works
+
+```
 	1.	Run make awesome-cv to generate the following PDFs:
 	•	resume.pdf: English résumé
 	•	resume-zh.pdf: Chinese résumé
 	•	coverletter.pdf: Cover letter
 	2.	Use make clean to remove all generated PDFs.
+```
 
 ### Conclusion
 
