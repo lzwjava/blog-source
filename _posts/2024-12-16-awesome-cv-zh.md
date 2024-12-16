@@ -96,15 +96,15 @@ clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf
 ```
 
-工作原理
+### 工作原理
 
-```
-	1. 运行 make awesome-cv 来生成以下 PDF 文件：
-	•	resume.pdf：英文简历
-	•	resume-zh.pdf：中文简历
-	•	coverletter.pdf：求职信
-	2. 使用 make clean 来删除所有生成的 PDF 文件。
-```
+1. 运行 `make awesome-cv` 生成以下 PDF 文件：
+   • `resume.pdf`：英文简历
+   • `resume-zh.pdf`：中文简历
+   • `coverletter.pdf`：求职信
+
+2. 运行 `make clean` 删除所有生成的 PDF 文件。
+
 
 ### 结论
 

@@ -96,15 +96,17 @@ clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf
 ```
 
-How It Works
+### How It Works
 
-```
-	1.	Run make awesome-cv to generate the following PDFs:
-	•	resume.pdf: English résumé
-	•	resume-zh.pdf: Chinese résumé
-	•	coverletter.pdf: Cover letter
-	2.	Use make clean to remove all generated PDFs.
-```
+1. **Generate PDFs**:
+   - Run `make awesome-cv` to generate the following PDF files:
+     - `resume.pdf`: English résumé
+     - `resume-zh.pdf`: Chinese résumé
+     - `coverletter.pdf`: Cover letter
+     
+2. **Clean Up**:
+   - Run `make clean` to remove all generated PDF files.
+
 
 ### Conclusion
 

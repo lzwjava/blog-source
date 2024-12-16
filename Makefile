@@ -24,3 +24,7 @@ coverletter-zh.pdf: $(COVER_LETTER_DIR)/coverletter-zh.tex
 
 clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf
+
+copy:
+	./update-resume.sh
+

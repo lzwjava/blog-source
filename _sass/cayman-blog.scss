@@ -284,3 +284,20 @@ body {
 .button-container .date {
   margin-top: 10px;
 }
+
+.post-title {
+  font-size: 1.3rem;
+  text-align: center;
+  /* Ensure the text itself is centered */
+}
+
+
+.post-title-row {
+  display: flex;
+  justify-content: center;
+  /* Horizontally center the content */
+  align-items: center;
+  /* Vertically center the content */
+  height: 100%;
+  /* Ensure the height is sufficient for centering */
+}

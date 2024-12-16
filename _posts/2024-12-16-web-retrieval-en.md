@@ -61,13 +61,15 @@ ChatGPT returned the refined LaTeX snippet with correct hyperlinks:
 \end{cventries}
 ```
 
-The Result
+### The Result
 
 With ChatGPT’s help:
-	1.	I quickly retrieved accurate blog post links.
-	2.	I updated my LaTeX document effortlessly, saving significant time and effort.
 
-Key Takeaway
+1.	I quickly retrieved accurate blog post links.
+
+2.	I updated my LaTeX document effortlessly, saving significant time and effort.
+
+### Key Takeaway
 
 This use case demonstrates how ChatGPT, combined with retrieval tools, can automate repetitive tasks like retrieving links or updating documents. Whether you’re working with LaTeX, Markdown, or other formats, ChatGPT can streamline your workflow effectively.
 

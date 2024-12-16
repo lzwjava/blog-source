@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "iOS Apps I Used - Table Version"
+translation: false
 ---
 
 | App Name | Bundle Identifier | Version |
