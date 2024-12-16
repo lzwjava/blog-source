@@ -3,8 +3,6 @@ layout: post
 title: "Quora's Language Content Controls"  
 ---
 
-### Quora's Language Content Controls: Enhancing Your User Experience
-
 Quora is well-known for its vast collection of user-generated content, offering answers to a wide array of questions in diverse fields. One feature that stands out is its **language content controls**, which allow users to customize the platform’s experience by selecting their preferred language.
 
 When you add a language, Quora doesn’t just translate the content. Instead, it redirects you to a separate version of the site in that language, such as `jp.quora.com` for Japanese or `fr.quora.com` for French. This makes Quora more accessible to non-English speakers or anyone wanting to explore content in their native tongue.
