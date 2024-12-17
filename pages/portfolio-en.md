@@ -2,6 +2,7 @@
 layout: post
 title:  "Portfolio"
 link: "pages/portfolio-zh"
+audio: true
 ---
 
 The Chinese version can be found [here](/pages/portfolio-zh).

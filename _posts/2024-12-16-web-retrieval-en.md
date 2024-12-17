@@ -7,9 +7,9 @@ Recently, I needed to update the links for my blog posts in a LaTeX document. Wi
 
 ---
 
-### **The Problem**
+### The Problem
 
-I had a LaTeX document showcasing my **Selected Blog Posts**:
+I had a LaTeX document showcasing my Selected Blog Posts:
 
 ```latex
 \cventry

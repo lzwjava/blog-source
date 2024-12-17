@@ -2,6 +2,7 @@
 layout: post
 title:  "Disclaimer"
 link: "pages/disclaimer-zh"
+audio: true
 ---
 
 ## Translation

@@ -1,6 +1,7 @@
 ---
 layout: post  
 title: "How to Avoid Death"
+audio: true
 ---
 
 I am about to turn 30 years old. I didn't know much about death growing up until 2019, when one of my relatives died. In 2022, another relative passed away. I learned that two of my classmates had also died. During the three-year COVID period, we witnessed a lot of death in the news.
@@ -19,6 +20,8 @@ Once you get older, your life cycle starts to remain unchanged—just family, co
 
 As your life depends largely on work and family, be careful to maintain a good family atmosphere and good work relationships with colleagues.
 
+And learn to deal with stress. Stress is a large part of modern life. We need to learn more, understand how other people live in this world, and know how people lived long ago. We need to read a lot to gain correct views about things.
+
 ## Be Self-Disciplined, Avoid Gambling and Tons of Debt
 
 Gambling is bad behavior with high risks. It is not rational. Gambling easily makes you lose a lot of money quickly and can lead to depression.
@@ -29,9 +32,6 @@ Once your mind accepts the loss, you will be calm about it. So I decided to acce
 
 It is house mortgage. Other types of gambling will make things worse. I have heard of some cases in my surroundings.
 
-## Learn to Deal with Stress
-
-Learn to deal with stress. Stress is a large part of modern life. We need to learn more, understand how other people live in this world, and know how people lived long ago. We need to read a lot to gain correct views about things.
 
 ## Be Careful of Scams or Crimes
 
@@ -41,9 +41,9 @@ My experience in the USA has not been very positive in terms of safety. A friend
 
 Some people I know have died from cancer. These deaths were often the result of unhealthy behaviors. This has led me to become more health-conscious in recent years. I've written articles such as "Pay Attention to Food Freshness" and "Eat Fruits Instead of Snacks." Other advice I offer includes choosing more natural foods and exercising more.
 
-## Teach Kids to Be Careful
+## Caring for Family and Teaching Children About Safety
 
-Teaching kids to be cautious around strangers is unquestionable. Kids tend to be naive and easily trust others. Bad people and crimes will not disappear.
+Family well-being has a profound impact on us. Therefore, health and safety are of utmost importance to us. Teaching children to be wary of strangers is beyond doubt. Children are often innocent and easily trust others. However, there are still bad people and criminal acts in the world, so we must be vigilant.
 
 ## End
 

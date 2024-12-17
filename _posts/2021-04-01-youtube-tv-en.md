@@ -11,29 +11,29 @@ Here we assume you already know how to access the internet using VPN or similar 
 
 ## SmartYoutubeTV
 
-![smart](/assets/images/youtube-tv/smart.png)
+![smart](assets/images/youtube-tv/smart.jpg)
 
 Download it and install it on your TV using a USB drive.
 
-![clash](/assets/images/youtube-tv/clash.png)
+![clash](assets/images/youtube-tv/clash.jpg)
 
 Next, on the VPN client, select `Allow connect from LAN`. This means allowing other devices on the local network to use this device for internet access.
 
 Then, in the settings of `SmartYoutubeTV`, configure the port.
 
-![proxy1](/assets/images/youtube-tv/proxy1.jpeg)
+![proxy1](assets/images/youtube-tv/proxy1.jpeg)
 
 After setting it up, click the `Test` button to check if it's working. Note that I used a `SOCKS` proxy. I tried using an `HTTP` proxy several times without success. Once the test is successful, click OK, then test it again. Also, you may need to adjust the IP `192.168.1.3` based on your local network address.
 
 That's it, now you can watch YouTube on your TV conveniently.
 
-![tan](/assets/images/youtube-tv/tan.jpeg)
+![tan](assets/images/youtube-tv/tan.jpeg)
 
 ## gfreezy/seeker
 
 This is a GitHub project. The project page has usage instructions. Here, I will supplement some additional points.
 
-![seeker](/assets/images/youtube-tv/seeker.png)
+![seeker](assets/images/youtube-tv/seeker.jpg)
 
 It uses `tun` to implement transparent proxying, similar to Surge's enhanced mode and gateway mode.
 
@@ -92,7 +92,7 @@ Using `seeker` means you need a computer running it as a router. However, using 
 
 While writing this article, I figured out how to take screenshots on the TV. I have a Xiaomi TV. You can double-click the `Home` button on the remote to bring up the app management menu.
 
-![tv_screen](/assets/images/youtube-tv/tv_screen.jpeg)
+![tv_screen](assets/images/youtube-tv/tv_screen.jpeg)
 
 See the screenshot button? You can easily share it to WeChat. Here you can also close all applications. If some apps are stuck, you can handle them this way.
 

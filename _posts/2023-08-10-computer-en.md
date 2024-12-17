@@ -3,7 +3,7 @@ layout: post
 title: "How to Build a Computer"
 ---
 
-![cover](/assets/images/computer/cover.jpg)
+![cover](assets/images/computer/cover.jpg)
 
 ## Video 
 
@@ -322,7 +322,7 @@ Graphics card installation is really easy! Just four simple steps, specially pre
 
 CPU Info:
 
-![cpu](/assets/images/computer/cpu.jpg)
+![cpu](assets/images/computer/cpu.jpg)
 
 There are fan, memory and storage Info too.
 

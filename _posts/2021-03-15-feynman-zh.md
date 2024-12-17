@@ -7,15 +7,15 @@ title:  "mathjax2mobi：将MathJax HTML转换为电子书"
 
 先大致讲讲项目情况。
 
-![feynman_online](/assets/images/feynman/feynman_online.png)
+![feynman_online](assets/images/feynman/feynman_online.jpg)
 
 <img src="/assets/images/feynman/change.JPG" alt="change" style="zoom:50%;" />
 
-![latex](/assets/images/feynman/latex.JPG)
+![latex](assets/images/feynman/latex.JPG)
 
-![epub_black](/assets/images/feynman/epub_black.JPG)
+![epub_black](assets/images/feynman/epub_black.JPG)
 
-![epub_beautiful](/assets/images/feynman/epub_beautiful.JPG)
+![epub_beautiful](assets/images/feynman/epub_beautiful.JPG)
 
 做完项目后，有点开心。写下了这样一段话。
 
@@ -25,21 +25,21 @@ title:  "mathjax2mobi：将MathJax HTML转换为电子书"
 
 这里记录了解决项目过程中访问的资料。因为这是一个教程，所以向学生展示一下大概做一个项目是怎么样的体验。
 
-![](/assets/images/feynman/s1.PNG)
+![](assets/images/feynman/s1.PNG)
 
-![](/assets/images/feynman/s2.PNG)
+![](assets/images/feynman/s2.PNG)
 
-![](/assets/images/feynman/s3.PNG)
+![](assets/images/feynman/s3.PNG)
 
-![](/assets/images/feynman/s4.PNG)
+![](assets/images/feynman/s4.PNG)
 
-![](/assets/images/feynman/s5.PNG)
+![](assets/images/feynman/s5.PNG)
 
-![](/assets/images/feynman/s6.PNG)
+![](assets/images/feynman/s6.PNG)
 
-![](/assets/images/feynman/s7.PNG)
+![](assets/images/feynman/s7.PNG)
 
-![](/assets/images/feynman/s8.PNG)
+![](assets/images/feynman/s8.PNG)
 
 ### 开始项目
 
@@ -246,7 +246,7 @@ Output written on code.dvi (1 page, 3416 bytes).
 Transcript written on code.log.
 ```
 
-![latex](/assets/images/feynman/latex.png)
+![latex](assets/images/feynman/latex.png)
 
 来对着源码和渲染后的效果，看看能学到什么。
 
@@ -274,7 +274,7 @@ Transcript written on code.log.
   {\bf l-}oltoir & er & ngii$_i$ & a Mary]]}
 ```
 
-![shortex](/assets/images/feynman/shortex.png)
+![shortex](assets/images/feynman/shortex.png)
 
 可见`$_i$`来表示下标。`{\bf l-}`来表示加粗。
 
@@ -505,7 +505,7 @@ l.13     \FLPF
 
 这样就对了。
 
-![fv1](/assets/images/feynman/fv1.png)
+![fv1](assets/images/feynman/fv1.png)
 
 ### 分析代码
 
@@ -713,7 +713,7 @@ def wrap_latex(mathjax, equation = False):
 
 这里来对`latex`源码进行一些调整。注意到`label`变成了`tag`。
 
-![tag](/assets/images/feynman/tag.png)
+![tag](assets/images/feynman/tag.png)
 
 注意右边的`(Eq:I:13:14)`。如果是`label`的话，则没解析成功。这会显示的是`(1)`。这里将就用`tag`表示一下，暂时没有深究。
 

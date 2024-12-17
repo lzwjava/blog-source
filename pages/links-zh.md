@@ -2,6 +2,7 @@
 layout: post  
 title: "我最常用的链接和应用"
 link: "pages/links-en"
+audio: true
 ---
 
 以下是一些我每天或每隔几天都会查看的链接和应用。我通常使用应用获取更新，而在桌面端，我经常依赖 AI 工具。
@@ -19,4 +20,4 @@ link: "pages/links-en"
 
 在我的主屏幕上，有一些日常使用的必备应用，包括 App Store、浏览器、新闻、待办事项、代理工具、AI 聊天机器人、加密货币交易，以及银行和资产管理相关的应用。这些工具是我保持更新和高效组织的基础。
 
-![img](/assets/images/links/home.jpg)  
+![img](assets/images/links/home.jpg)  

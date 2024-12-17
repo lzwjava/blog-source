@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Thinking"
+audio: true
 ---
 
 * By categorizing, abstracting, or reasoning about things, you think.
@@ -26,3 +27,5 @@ title: "Thinking"
 * We may record our thinking results. And we can reflect on them carefully after years.
 
 * We may conduct more experiments to aid in thinking, just like fixing a bug.
+
+* Avoid wishful thinking, as it often intertwines with one’s ego. We should separate our desires from the natural events or societal matters that are beyond our control.

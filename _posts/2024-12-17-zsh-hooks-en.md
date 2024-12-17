@@ -1,18 +1,19 @@
 ---
 layout: post  
-title: "Zsh Hooks: Streamlined Guide to Enhancing Your Shell"
+title: "Zsh Hooks"
+audio: true
 ---
 
 After exploring "Let Zsh Display Proxy Settings Before Running Network Commands," I delved deeper into Zsh hooks with ChatGPT. Here’s a concise overview for future reference.
 
 ---
 
-In Zsh, **hooks** let you execute custom functions at specific points during shell operations. Beyond `preexec`, Zsh offers several hooks to enhance your environment:
+In Zsh, hooks let you execute custom functions at specific points during shell operations. Beyond `preexec`, Zsh offers several hooks to enhance your environment:
 
 ### 1. `precmd`
-- **When:** Before the prompt is displayed.
-- **Use:** Update the prompt or perform cleanup.
-- **Example:**
+- When: Before the prompt is displayed.
+- Use: Update the prompt or perform cleanup.
+- Example:
   ```zsh
   precmd() {
     echo "Ready for the next command!"
@@ -20,9 +21,9 @@ In Zsh, **hooks** let you execute custom functions at specific points during she
   ```
 
 ### 2. `chpwd`
-- **When:** When the current directory changes.
-- **Use:** Update environment variables or trigger actions based on the directory.
-- **Example:**
+- When: When the current directory changes.
+- Use: Update environment variables or trigger actions based on the directory.
+- Example:
   ```zsh
   chpwd() {
     echo "Changed to: $PWD"
@@ -30,9 +31,9 @@ In Zsh, **hooks** let you execute custom functions at specific points during she
   ```
 
 ### 3. `preexec_functions` & `precmd_functions`
-- **When:** Similar to `preexec` and `precmd` but support multiple functions.
-- **Use:** Attach multiple actions without overriding existing hooks.
-- **Example:**
+- When: Similar to `preexec` and `precmd` but support multiple functions.
+- Use: Attach multiple actions without overriding existing hooks.
+- Example:
   ```zsh
   precmd_functions+=(additional_precmd)
   
@@ -42,9 +43,9 @@ In Zsh, **hooks** let you execute custom functions at specific points during she
   ```
 
 ### 4. `TRAPDEBUG`
-- **When:** After each command, before results display.
-- **Use:** Debugging, logging commands.
-- **Example:**
+- When: After each command, before results display.
+- Use: Debugging, logging commands.
+- Example:
   ```zsh
   TRAPDEBUG() {
     echo "Executed: $1"
@@ -52,9 +53,9 @@ In Zsh, **hooks** let you execute custom functions at specific points during she
   ```
 
 ### 5. `TRAPEXIT`
-- **When:** When the shell exits.
-- **Use:** Cleanup tasks or display exit messages.
-- **Example:**
+- When: When the shell exits.
+- Use: Cleanup tasks or display exit messages.
+- Example:
   ```zsh
   TRAPEXIT() {
     echo "Goodbye!"
@@ -62,9 +63,9 @@ In Zsh, **hooks** let you execute custom functions at specific points during she
   ```
 
 ### 6. `zle` Hooks
-- **When:** During line editing.
-- **Use:** Customize command line behavior.
-- **Example:**
+- When: During line editing.
+- Use: Customize command line behavior.
+- Example:
   ```zsh
   zle-line-init() {
     echo "Editing a new command."
@@ -73,9 +74,9 @@ In Zsh, **hooks** let you execute custom functions at specific points during she
   ```
 
 ### 7. History Hooks (`zshaddhistory`, `zshremovehistory`)
-- **When:** Adding or removing history entries.
-- **Use:** Filter or manage history.
-- **Example:**
+- When: Adding or removing history entries.
+- Use: Filter or manage history.
+- Example:
   ```zsh
   zshaddhistory() {
     [[ $1 == *"secret"* ]] && return 1
@@ -84,9 +85,9 @@ In Zsh, **hooks** let you execute custom functions at specific points during she
   ```
 
 ### 8. `periodic`
-- **When:** At intervals set by `period`.
-- **Use:** Routine checks or updates.
-- **Example:**
+- When: At intervals set by `period`.
+- Use: Routine checks or updates.
+- Example:
   ```zsh
   periodic() {
     echo "Running periodic task..."
@@ -94,9 +95,9 @@ In Zsh, **hooks** let you execute custom functions at specific points during she
   ```
 
 ### 9. `add-zsh-hook`
-- **Purpose:** Safely add functions to hooks.
-- **Use:** Append multiple functions without overwriting.
-- **Example:**
+- Purpose: Safely add functions to hooks.
+- Use: Append multiple functions without overwriting.
+- Example:
   ```zsh
   add-zsh-hook precmd another_precmd
   
@@ -109,15 +110,15 @@ In Zsh, **hooks** let you execute custom functions at specific points during she
 
 Zsh's hook system is versatile, enabling automation and customization:
 
-- **`preexec`**: Before command execution.
-- **`precmd`**: Before prompt display.
-- **`chpwd`**: On directory change.
-- **`TRAPDEBUG`**: Post-command for debugging.
-- **`TRAPEXIT`**: On shell exit.
-- **`zle` Hooks**: During line editing.
-- **History Hooks**: Managing command history.
-- **`periodic`**: At set intervals.
-- **`add-zsh-hook`**: Adding multiple hook functions.
+- `preexec`: Before command execution.
+- `precmd`: Before prompt display.
+- `chpwd`: On directory change.
+- `TRAPDEBUG`: Post-command for debugging.
+- `TRAPEXIT`: On shell exit.
+- `zle` Hooks: During line editing.
+- History Hooks: Managing command history.
+- `periodic`: At set intervals.
+- `add-zsh-hook`: Adding multiple hook functions.
 
 Utilizing these hooks can greatly enhance your Zsh experience, making your shell more efficient and tailored to your workflow.
 

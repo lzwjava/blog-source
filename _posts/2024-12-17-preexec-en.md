@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Let Zsh Display Proxy Settings Before Running Network Commands"
+title: "Display Proxy Settings Before Running Commands"
 ---
 
 <div style="text-align: center;">  
@@ -9,11 +9,11 @@ title: "Let Zsh Display Proxy Settings Before Running Network Commands"
 
 Living in China or working within companies that use VPNs and proxies can complicate software development. Forgetting to configure these settings often leads to connectivity issues. To streamline your workflow, I created a simple Zsh script with the help of ChatGPT that automatically displays your proxy settings when you run specific network-dependent commands.
 
-## **Why Display Proxy Settings?**
+## Why Display Proxy Settings?
 
 Proxies and VPNs are essential for accessing external resources securely. Displaying your proxy settings before executing network-dependent commands helps you quickly identify and troubleshoot connectivity issues.
 
-## **The Script**
+## The Script
 
 This script utilizes Zsh's `preexec` function to check if the upcoming command is network-dependent. If it is and proxy environment variables are set, it displays the current proxy settings.
 
@@ -69,7 +69,7 @@ preexec() {
 
     # Function to display proxy variables
     display_proxy() {
-        echo -e "\n🚀 **Proxy Settings Detected:**"
+        echo -e "\n🚀 Proxy Settings Detected:"
 
         [ -n "$HTTP_PROXY" ] && echo "   - HTTP_PROXY: $HTTP_PROXY"
         [ -n "$http_proxy" ] && echo "   - http_proxy: $http_proxy"
@@ -96,9 +96,9 @@ preexec() {
 }
 ```
 
-## **Setting Up the Script in Zsh**
+## Setting Up the Script in Zsh
 
-### **1. Open Your `.zshrc` File**
+### 1. Open Your `.zshrc` File
 
 Use your preferred text editor to open the `.zshrc` configuration file. For example:
 
@@ -106,15 +106,15 @@ Use your preferred text editor to open the `.zshrc` configuration file. For exam
 nano ~/.zshrc
 ```
 
-### **2. Add the `preexec` Function**
+### 2. Add the `preexec` Function
 
 Paste the script above at the end of the file.
 
-### **3. Save and Close**
+### 3. Save and Close
 
 Press `CTRL + O` to save and `CTRL + X` to exit.
 
-### **4. Apply the Changes**
+### 4. Apply the Changes
 
 Reload your `.zshrc` to apply the new configuration immediately:
 
@@ -122,9 +122,9 @@ Reload your `.zshrc` to apply the new configuration immediately:
 source ~/.zshrc
 ```
 
-## **Testing the Setup**
+## Testing the Setup
 
-### **1. With Proxy Enabled**
+### 1. With Proxy Enabled
 
 Set a proxy variable temporarily and run a network-dependent command using `pip`:
 
@@ -133,11 +133,11 @@ export HTTP_PROXY="http://127.0.0.1:7890"
 pip install selenium beautifulsoup4 urllib3
 ```
 
-**Expected Output:**
+Expected Output:
 
 ```
 
-🚀 **Proxy Settings Detected:**
+🚀 Proxy Settings Detected:
    - HTTP_PROXY: http://127.0.0.1:7890
    - http_proxy: 127.0.0.1:7890
    - HTTPS_PROXY: 127.0.0.1:7890
@@ -154,7 +154,7 @@ Collecting urllib3
 ...
 ```
 
-### **2. Without Proxy Enabled**
+### 2. Without Proxy Enabled
 
 Unset the proxy variable and run the same `pip` command:
 
@@ -163,7 +163,7 @@ unset HTTP_PROXY
 pip install selenium beautifulsoup4 urllib3
 ```
 
-**Expected Output:**
+Expected Output:
 
 ```
 Collecting selenium
@@ -177,7 +177,7 @@ Collecting urllib3
 
 *(No proxy notification should appear.)*
 
-### **3. Non-Network Command**
+### 3. Non-Network Command
 
 Run a local command like `ls`:
 
@@ -185,7 +185,7 @@ Run a local command like `ls`:
 ls
 ```
 
-**Expected Output:**
+Expected Output:
 
 ```
 [List of files and directories]
@@ -193,11 +193,11 @@ ls
 
 *(No proxy notification should appear.)*
 
-## **Customization**
+## Customization
 
-- **Extend `network_commands`:** Add any additional network-dependent commands to the `network_commands` array.
+- Extend `network_commands`: Add any additional network-dependent commands to the `network_commands` array.
 
-- **Handle Aliases:** Ensure that any aliases for network-dependent commands are included in the `network_commands` list.
+- Handle Aliases: Ensure that any aliases for network-dependent commands are included in the `network_commands` list.
 
   ```bash
   alias gpa='git push all'
@@ -205,7 +205,7 @@ ls
 
   Add `"gpa"` to the `network_commands` array to trigger proxy notifications when using this alias.
 
-- **Enhance Visibility with Colors:**
+- Enhance Visibility with Colors:
 
   For better visibility, especially in cluttered terminals, you can add color to the proxy notifications:
 
@@ -215,7 +215,7 @@ ls
   NC='\033[0m' # No Color
 
   display_proxy() {
-      echo -e "\n${GREEN}🚀 **Proxy Settings Detected:**${NC}"
+      echo -e "\n${GREEN}🚀 Proxy Settings Detected:${NC}"
 
       [ -n "$HTTP_PROXY" ] && echo "   - HTTP_PROXY: $HTTP_PROXY"
       [ -n "$http_proxy" ] && echo "   - http_proxy: $http_proxy"
@@ -228,9 +228,9 @@ ls
   }
   ```
 
-## **Conclusion**
+## Conclusion
 
 Managing proxy settings is crucial for smooth software development in restricted network environments. This Zsh script ensures you're always informed about your proxy configurations when running commands that require network access, enhancing your workflow and troubleshooting efficiency.
 
-**Happy Coding! 🚀**
+Happy Coding! 🚀
 

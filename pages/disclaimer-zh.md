@@ -2,6 +2,7 @@
 layout: post
 title:  "声明"
 link: "pages/disclaimer-en"
+audio: true
 ---
 
 ## 翻译

@@ -11,8 +11,8 @@ Pixel offers several USB options, and one particularly interesting feature is it
 
 To set this up:  
 
-1. Navigate to **About Phone** in the settings and tap **Build Number** seven times to enable Developer Mode.  
-2. Open **Developer Options** and enable **USB Debugging**.  
+1. Navigate to About Phone in the settings and tap Build Number seven times to enable Developer Mode.  
+2. Open Developer Options and enable USB Debugging.  
 3. Connect your Pixel to your computer via USB and run the following command in a terminal to verify the connection:  
    ```bash
    adb devices

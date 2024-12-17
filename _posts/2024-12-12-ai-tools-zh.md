@@ -7,7 +7,7 @@ title: "AI 工具"
 
 #### 聊天机器人
 
-**全球：**
+全球：
 
 - [chatgpt.com](http://chatgpt.com)
 - [claude.ai](https://claude.ai)
@@ -16,7 +16,7 @@ title: "AI 工具"
 - [copilot.microsoft.com](https://copilot.microsoft.com)
 - [coral.cohere.com](https://coral.cohere.com)
 
-**中国：**
+中国：
 
 - [kimi.moonshot.cn](https://kimi.moonshot.cn)
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)

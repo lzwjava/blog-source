@@ -3,31 +3,31 @@ layout: post
 title: "Global Real Estate Apps"
 ---
 
-**China:**
+China:
 - Anjuke(安居客)
 - Beike Zhaofang(贝壳找房)
 
-**USA:**
+USA:
 - Zillow
 - Realtor.com
 
-**Australia:**
+Australia:
 - Realestate.com.au
 
-**UK:**
+UK:
 - Rightmove
 
-**Japan:**
+Japan:
 - At Home
 - Suumo
 
-**Hong Kong:**
+Hong Kong:
 - Centaline
 
-**Singapore:**
+Singapore:
 - PropertyGuru
 
-**Middle East:**
+Middle East:
 - Property Finder
 - Bayut
 

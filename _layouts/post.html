@@ -9,39 +9,34 @@ layout: default
 
   </div>
 
-
-
   <div class="button-container">
     <a href="/" class="button left-button">
       Home
     </a>
 
-    <!-- Check if page.link exists -->
-    {% if page.link %}
-    <!-- If page.link exists, don't show the date -->
-    <p class="date"></p>
-    {% else %}
-    <!-- Check if the file name contains a date -->
-    {% assign date_parts = page.path | split: '/' %}
-    {% assign date_segment = date_parts[1] %}
 
-    {% if date_segment contains '-' %}
-    <!-- If date is present, split it and format -->
-    {% assign date_parts = date_segment | split: '-' %}
-    {% assign file_date = date_parts[0] | append: '-' | append: date_parts[1] | append: '-' | append: date_parts[2] %}
-    <p class="date">{{ file_date }}</p>
-    {% else %}
-    <!-- If no date in file name, display a default or nothing -->
-    <p class="date">No date available</p>
-    {% endif %}
+
+    <!-- PDF Button -->
+    <!-- PDF Button -->
+    <a href="#" id="downloadPdfButton" class="button pdf-button">
+      PDF
+    </a>
+
+
+    <!-- Audio Button -->
+    <!-- Audio Button -->
+    {% if page.audio %}
+    <!-- Audio Button -->
+    <a href="#" id="playAudioButton" class="button audio-button">
+      Audio
+    </a>
     {% endif %}
 
+
+    <!-- Language Button Section -->
     {% assign current_lang = page.path | split: '-' | last | split: '.' | first %}
-
     {% if current_lang == "en" or current_lang == "zh" %}
-
     {% if page.link %}
-    <!-- If link is defined, show the link directly -->
     {% if current_lang == "en" %}
     <a href="/{{ page.link }}" class="button right-button">中文</a>
     {% elsif current_lang == "zh" %}
@@ -50,24 +45,27 @@ layout: default
     {% else %}
     {% assign file_parts = page.path | split: '/' | last | replace: ".md", "" | split: '-' %}
     {% assign base_name = file_parts | slice: 3, file_parts.size | join: '-' | replace: "-#{current_lang}", "" %}
-
     {% assign base_name_length = base_name | size %}
-
     {% if base_name_length >= 3 %}
     {% assign length_to_slice = base_name_length | minus: 3 %}
     {% assign base_name = base_name | slice: 0, length_to_slice %}
     {% endif %}
-
     {% if current_lang == "en" %}
     <a href="/{{ base_name }}-zh" class="button right-button">中文</a>
     {% elsif current_lang == "zh" %}
     <a href="/{{ base_name }}-en" class="button right-button">English</a>
     {% endif %}
     {% endif %}
-
     {% endif %}
   </div>
 
+  <!-- Audio player for text-to-speech -->
+  <div class="audio-container">
+    <audio id="audioPlayer" controls style="display:none;">
+      <source id="audioSource" src="" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
 
   <hr>
 
@@ -78,7 +76,73 @@ layout: default
   <div class="button-container">
     <a href="/" class="button left-button">Back</a>
 
-    <a href="/pages/donate" class="button right-button">Donate</a>
+    <!-- Date Button -->
+    {% if page.link %}
+    <a href="#" class="button">{{ 'now' | date: "%Y.%m.%d" }}</a>
+    {% else %}
+    {% assign date_parts = page.path | split: '/' %}
+    {% assign date_segment = date_parts[1] %}
+
+    {% if date_segment contains '-' %}
+    {% assign date_components = date_segment | split: '-' %}
+
+    {% if date_components.size >= 3 %}
+    {% assign file_date = date_components[0] | append: '.' | append: date_components[1] | append: '.' | append:
+    date_components[2] %}
+    <a href="#" class="button">{{ file_date }}</a>
+    {% else %}
+    <a href="#" class="button">{{ 'now' | date: "%Y.%m.%d" }}</a>
+    {% endif %}
+
+    {% else %}
+    <a href="#" class="button">{{ 'now' | date: "%Y.%m.%d" }}</a>
+    {% endif %}
+    {% endif %}
+
+    <a href="/pages/donate-en" class="button right-button">Donate</a>
   </div>
 
+
+
 </main>
+
+<script>
+  var playAudioButton = document.getElementById('playAudioButton');
+  if (playAudioButton) {
+    playAudioButton.addEventListener('click', function (event) {
+      event.preventDefault(); // Prevent default anchor behavior
+
+      // Extract the base filename without the extension
+      var filePath = "{{ page.path }}"; // e.g., "pages/donate-en.md"
+      var fileName = filePath.split('/').pop().replace('.md', ''); // e.g., "donate-en"
+
+      // Set the audio source to the corresponding MP3 file
+      var audioFile = '/assets/audios/' + fileName + '.mp3'; // e.g., "/assets/audios/donate-en.mp3"
+
+      var audioPlayer = document.getElementById('audioPlayer');
+      var audioSource = document.getElementById('audioSource');
+
+      audioSource.src = audioFile;
+      audioPlayer.style.display = 'block'; // Show the audio player
+      audioPlayer.load();
+      audioPlayer.play();
+    });
+  }
+
+  var downloadPdfButton = document.getElementById('downloadPdfButton');
+  if (downloadPdfButton) {
+    downloadPdfButton.addEventListener('click', function (event) {
+      event.preventDefault(); // Prevent default anchor behavior
+
+      // Extract the base filename without the extension
+      var filePath = "{{ page.path }}"; // e.g., "pages/donate-en.md"
+      var fileName = filePath.split('/').pop().replace('.md', ''); // e.g., "donate-en"
+
+      // Set the PDF source to the corresponding PDF file
+      var pdfFile = '/assets/pdfs/' + fileName + '.pdf'; // e.g., "/assets/pdfs/donate-en.pdf"
+
+      // Initiate the download or open the PDF in a new tab
+      window.open(pdfFile, '_blank');
+    });
+  }
+</script>

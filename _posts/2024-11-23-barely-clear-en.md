@@ -80,7 +80,7 @@ Remember:
 
 I encourage you to try this approach yourself. Pay attention to what prescription allows you to see things "just barely clear" in your daily life. That's your optimal prescription for vision improvement.
 
-Here is the citation for the post titled **"Natural Vision Restoration: The Principle of 'Just Barely Clear'"**:
+Here is the citation for the post titled "Natural Vision Restoration: The Principle of 'Just Barely Clear'":
 
 ## Citation
 
