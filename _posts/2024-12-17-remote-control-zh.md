@@ -9,9 +9,10 @@ title: "使用远程控制小手柄控制你的 iPhone"
 
 这个远程控制小手柄不仅在管理TikTok时非常有用，还足够多功能，可以用于自拍和处理其他iPhone功能，提升了便利性和安全性。
 
+
 <div align="center">
 
-<img src="/assets/images/kit/kit.jpg" width="200px" />
+<img  class="responsive" src="/assets/images/kit/kit.jpg"/>
 
 <p><a href="https://www.aliexpress.com">来源：AliExpress</a></p>
 
