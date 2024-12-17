@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "在 Zsh 中自动显示网络相关命令的代理设置"
+title: "让 Zsh 在运行网络命令前显示代理设置"
 ---
 
 ![Proxy Settings](https://example.com/proxy-settings-image.jpg)
