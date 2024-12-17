@@ -37,6 +37,10 @@ Learn to deal with stress. Stress is a large part of modern life. We need to lea
 
 My experience in the USA has not been very positive in terms of safety. A friend told me not to go to places where people gather in the USA, like music carnivals, and to be careful not to go to dangerous places in cities. That's true—it can be scary. Although it may limit your activities, avoiding these kinds of dangerous situations allows you to enjoy many other aspects of life.
 
+## Be Healthy and Treat Your Body Well
+
+Some people I know have died from cancer. These deaths were often the result of unhealthy behaviors. This has led me to become more health-conscious in recent years. I've written articles such as "Pay Attention to Food Freshness" and "Eat Fruits Instead of Snacks." Other advice I offer includes choosing more natural foods and exercising more.
+
 ## Teach Kids to Be Careful
 
 Teaching kids to be cautious around strangers is unquestionable. Kids tend to be naive and easily trust others. Bad people and crimes will not disappear.
