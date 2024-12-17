@@ -1213,7 +1213,7 @@ Note: The given Chinese text seems to be a comment or note, not a command to be 
 
 1 nodes stopped. Minikube: The control plane node is not running. Start a cluster by running: "minikube start" Docker is a container platform to accelerate creation, sharing, and running of modern applications. Download from official website.
 
-![docker](/assets/images/distributed/docker.png)
+![docker](assets/images/distributed/docker.png)
 
 Client is a bit sluggish. Let's use command line instead. Docker:
 
@@ -1314,7 +1314,7 @@ Try changing the port. docker run -d -p 8080:80 docker/getting-started 45bb95fa1
 
 Open a browser, indicating that we have started `docker`.
 
-![browser](/assets/images/distributed/browser.png)
+![browser](assets/images/distributed/browser.png)
 
 The command translates to:
 

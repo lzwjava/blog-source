@@ -5,6 +5,7 @@ $main-bg-color: #fff;
 $pre-bg-color: #e0d9cf;
 $date-color: darkgray;
 $section-link-color: #2a6496;
+$button-padding: 0.5rem 1rem;
 
 /* Buttons */
 .btn {
@@ -257,15 +258,41 @@ body {
   }
 }
 
+/* assets/css/style.scss */
+
+/* assets/css/style.scss */
+
+/* Parent block to center its contents */
+.centered {
+  text-align: center;
+  /* Centers inline elements like text */
+}
+
+/* Caption styling */
+.caption {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #555;
+  /* Optional: Gray color for caption */
+}
+
 .responsive {
-  width: 100%; // Default width for mobile (100%)
-  max-width: 50%; // Maximum width for larger screens (50%)
-  height: auto; // Maintain aspect ratio
+  display: block;
+  /* Makes the image a block-level element */
+  margin: 0 auto;
+  /* Centers the image horizontally */
+  width: 100%;
+  /* Full width on small screens */
+  height: auto;
+  /* Maintains aspect ratio */
 
   @media (min-width: 768px) {
-    width: 50%; // 50% width for laptop or larger screens
+    width: 50%;
+    /* 50% width on screens 768px and wider */
   }
+
 }
+
 
 .title-row {
   display: flex;
@@ -285,19 +312,63 @@ body {
   margin-top: 10px;
 }
 
-.post-title {
-  font-size: 1.3rem;
-  text-align: center;
-  /* Ensure the text itself is centered */
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+
+  .button {
+    padding: $button-padding;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    text-align: center;
+
+    &.left-button {
+      align-self: flex-start;
+    }
+
+    &.right-button {
+      align-self: flex-end;
+    }
+  }
 }
 
-
+/* Post Title Row */
 .post-title-row {
   display: flex;
   justify-content: center;
-  /* Horizontally center the content */
   align-items: center;
-  /* Vertically center the content */
   height: 100%;
-  /* Ensure the height is sufficient for centering */
+}
+
+/* Audio Button Styles */
+/* Audio Button Styles */
+.audio-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0.5rem 1rem; // Consistent padding with other buttons
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 0.5rem; // Space between buttons
+
+  p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+}
+
+.audio-container {
+
+  text-align: center;
+
+  audio {
+    margin: 0 auto;
+  }
 }

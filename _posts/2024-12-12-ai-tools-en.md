@@ -7,7 +7,7 @@ Here are some AI tools I’ve used:
 
 #### Chatbots
 
-**Global:**
+Global:
 
 - [chatgpt.com](http://chatgpt.com)
 - [claude.ai](https://claude.ai)
@@ -16,7 +16,7 @@ Here are some AI tools I’ve used:
 - [copilot.microsoft.com](https://copilot.microsoft.com)
 - [coral.cohere.com](https://coral.cohere.com)
 
-**China:**
+China:
 
 - [kimi.moonshot.cn](https://kimi.moonshot.cn)
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)

@@ -2,6 +2,7 @@
 layout: post
 title:  "联系我"
 link: "pages/contact-en"
+audio: true
 ---
 
 如果你感兴趣，欢迎随时联系我！你可以在 X、WhatsApp 或 Telegram 上打个招呼，留下评论，发送私信，或者发邮件给我。

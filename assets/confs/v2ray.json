@@ -1,0 +1,51 @@
+{
+    "inbounds": [
+        {
+            "port": 1080,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "9f02f6b2-1d7d-4b10-aada-69e050f1be6b",
+                        "level": 0,
+                        "alterId": 0,
+                        "email": "example@v2ray.com",
+                        "security": "auto"
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp"
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
+            },
+            "tag": "vmess-inbound",
+            "udp": true
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "settings": {},
+            "tag": "outbound-freedom",
+            "udp": true
+        }
+    ],
+    "log": {
+        "loglevel": "debug",
+        "access": "/var/log/v2ray/access.log",
+        "error": "/var/log/v2ray/error.log"
+    },
+    "stats": {
+        "enabled": false
+    },
+    "environment": {
+        "v2ray.vmess.aead.forced": "false"
+    }
+}

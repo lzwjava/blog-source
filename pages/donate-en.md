@@ -2,6 +2,7 @@
 layout: post
 title:  "Donate"
 link: "pages/donate-zh"
+audio: true
 ---
 
 If you like my essays, code, or videos, you can voluntarily make a payment. You can use the following methods to pay.

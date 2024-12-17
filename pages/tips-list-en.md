@@ -2,6 +2,7 @@
 layout: post
 title: "Tips List"
 link: "pages/tips-list-zh"
+audio: true
 ---
 
 * [Thinking](../thinking-en)

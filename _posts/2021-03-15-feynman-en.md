@@ -11,15 +11,15 @@ title: "mathjax2mobi: Converting MathJax HTML for eBooks"
 
 Let’s briefly discuss the project.
 
-![feynman_online](/assets/images/feynman/feynman_online.png)
+![feynman_online](assets/images/feynman/feynman_online.jpg)
 
 <img src="/assets/images/feynman/change.JPG" alt="change" style="zoom:50%;" />
 
-![latex](/assets/images/feynman/latex.JPG)
+![latex](assets/images/feynman/latex.JPG)
 
-![epub_black](/assets/images/feynman/epub_black.JPG)
+![epub_black](assets/images/feynman/epub_black.JPG)
 
-![epub_beautiful](/assets/images/feynman/epub_beautiful.JPG)
+![epub_beautiful](assets/images/feynman/epub_beautiful.JPG)
 
 I felt a bit happy after completing the project. I wrote the following paragraph:
 
@@ -29,21 +29,21 @@ After coding for a day, I finally got a beautiful eBook of Feynman's Lectures on
 
 Here, I document the resources accessed during the project. Since this is a tutorial, it also shows students what it’s like to work on a project.
 
-![](/assets/images/feynman/s1.PNG)
+![](assets/images/feynman/s1.PNG)
 
-![](/assets/images/feynman/s2.PNG)
+![](assets/images/feynman/s2.PNG)
 
-![](/assets/images/feynman/s3.PNG)
+![](assets/images/feynman/s3.PNG)
 
-![](/assets/images/feynman/s4.PNG)
+![](assets/images/feynman/s4.PNG)
 
-![](/assets/images/feynman/s5.PNG)
+![](assets/images/feynman/s5.PNG)
 
-![](/assets/images/feynman/s6.PNG)
+![](assets/images/feynman/s6.PNG)
 
-![](/assets/images/feynman/s7.PNG)
+![](assets/images/feynman/s7.PNG)
 
-![](/assets/images/feynman/s8.PNG)
+![](assets/images/feynman/s8.PNG)
 
 ### Starting the Project
 
@@ -252,7 +252,7 @@ Output written on code.dvi (1 page, 3416 bytes).
 Transcript written on code.log.
 ```
 
-![latex](/assets/images/feynman/latex.png)
+![latex](assets/images/feynman/latex.png)
 
 Let’s look at the source code and the rendered effect to see what we can learn.
 
@@ -280,7 +280,7 @@ This denotes a subsection title.
   {\bf l-}oltoir & er & ngii$_i$ & a Mary]]}
 ```
 
-![shortex](/assets/images/feynman/shortex.png)
+![shortex](assets/images/feynman/shortex.png)
 
 You can see that `$_i$` denotes a subscript. `{\bf l-}` denotes bold text.
 
@@ -513,7 +513,7 @@ newcommand{\epsO}{\epsilon_0}
 
 This works.
 
-![fv1](/assets/images/feynman/fv1.png)
+![fv1](assets/images/feynman/fv1.png)
 
 ### Analyzing the Code
 
@@ -721,7 +721,7 @@ def wrap_latex(mathjax, equation = False):
 
 Here, the `latex` source is adjusted. Note that `label` is changed to `tag`.
 
-![tag](/assets/images/feynman/tag.png)
+![tag](assets/images/feynman/tag.png)
 
 Note the right `Eq: I: 13:14`. If it is `label`, it fails to parse correctly, displaying `(1)`. So, `tag` is used temporarily.
 

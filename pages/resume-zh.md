@@ -2,11 +2,12 @@
 layout: post
 title:  "Resume"
 link: "pages/resume-en"
+audio: true
 ---
 
 ## 提示
 
-请在[这里](/assets/resume/Zhiwei.Li.Resume.ZH.pdf)查看PDF。
+您可以点击[这里](/assets/resume/Zhiwei.Li.Resume.ZH.pdf)下载我使用 LaTeX 制作的简历 PDF。
 
 ----
 ## 个人简介
@@ -24,7 +25,7 @@ link: "pages/resume-en"
 * 阅读超过 320 本书籍，涵盖教材、个人发展、商业、技术和历史。
 * 开发了10个GitHub开源项目，每个超500次提交，请查看 https://github.com/lzwjava。
 * 自学研究者，撰写了三篇关于逆转近视和自然恢复视力的学术风格论文，灵感来源于王垠和Todd Becker的研究，并经过三年的实验验证。
-* 详细的软件作品集可查看于 https://lzwjava.github.io/pages/portfolio。
+* 详细的软件作品集可查看于 https://lzwjava.github.io/pages/portfolio-zh。
 
 ## 工作经验
 

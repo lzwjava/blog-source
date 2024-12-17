@@ -1,15 +1,10 @@
 source "https://rubygems.org"
 
 # Specify the Jekyll version
-gem 'jekyll', '~> 3.10.0'
+gem 'jekyll', '>= 4.3.4'
 
 # Default theme for new Jekyll sites
-gem 'minima', '~> 2.5'
-
-# GitHub Pages plugin
-group :jekyll_plugins do
-  gem 'github-pages', '~> 232'
-end
+gem 'minima'
 
 # Windows and JRuby do not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
@@ -22,17 +17,23 @@ end
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # Additional plugins
-gem 'jekyll-sitemap', '~> 1.4'
-gem 'jekyll-seo-tag', '~> 2.8'
+gem 'jekyll-sitemap'
+gem 'jekyll-seo-tag'
+
+gem 'jekyll-toc'
+
 # gem 'webrick', '~> 1.7'
 
 # Ensure compatibility with the logger gem
-gem 'logger', '~> 1.5.3'
+gem 'logger'
 
 # Ensure compatibility with the rubyzip gem
-gem 'rubyzip', '~> 2.3.0'
+gem 'rubyzip'
 
 # Add csv and bigdecimal to avoid warnings
 gem 'csv'
 gem 'bigdecimal'
 
+gem "jekyll-include-cache"
+
+gem 'jekyll-theme-cayman'

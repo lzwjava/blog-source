@@ -3,20 +3,20 @@ layout: post
 title: "Using Awesome-CV to Generate a Professional Résumé"  
 ---
 
-### **Introduction**  
+### Introduction  
 
 Before using [ZhiyeApp](https://www.zhiyeapp.com), I switched to the powerful and customizable [Awesome-CV](https://github.com/posquit0/Awesome-CV). This LaTeX-based template makes creating professional résumés easy and highly customizable.
 
 ---
 
-### **Why Awesome-CV?**  
-- **Customizable**: You can personalize sections, colors, and formatting.  
-- **Professional Look**: Clean design perfect for job applications.  
-- **Easy to Use**: Requires minimal LaTeX knowledge.  
+### Why Awesome-CV?  
+- Customizable: You can personalize sections, colors, and formatting.  
+- Professional Look: Clean design perfect for job applications.  
+- Easy to Use: Requires minimal LaTeX knowledge.  
 
 ---
 
-### **My Résumé Example**  
+### My Résumé Example  
 
 Here is a simplified version of the `resume.tex` file I use:
 
@@ -98,13 +98,13 @@ clean:
 
 ### How It Works
 
-1. **Generate PDFs**:
+1. Generate PDFs:
    - Run `make awesome-cv` to generate the following PDF files:
      - `resume.pdf`: English résumé
      - `resume-zh.pdf`: Chinese résumé
      - `coverletter.pdf`: Cover letter
      
-2. **Clean Up**:
+2. Clean Up:
    - Run `make clean` to remove all generated PDF files.
 
 

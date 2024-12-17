@@ -2,6 +2,7 @@
 layout: post
 title: "Subscribe"
 link: "pages/subscribe-zh"
+audio: true
 ---
 
 Please subscribe to my blog post updates on X (Twitter).

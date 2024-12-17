@@ -7,7 +7,7 @@ title: "Entrepreneurship Insights Share"
 
 ---
 
-![Quiz Live Startup Image](/assets/images/startup/s0.jpg)
+![Quiz Live Startup Image](assets/images/startup/s0.jpg)
 
 Recently, Quiz Live held a technical personnel growth communication meeting, where Quiz Live CEO Zhiwei shared his entrepreneurial insights with us. Here is the video link:
 
@@ -34,7 +34,7 @@ Later, I was fortunate enough to invite Xuhw and Gusi, the "cows" from Gu City, 
 
 2. In my entrepreneurial journey, what I've felt most deeply is that I wasn't bold enough in my actions.
 
-![](/assets/images/startup/s5.jpg)
+![](assets/images/startup/s5.jpg)
 
 For example, Miao Shen and Qi Ge, I could have invited them to our platform after Yi Long Live, since many of their friends had already broadcasted there. However, I always felt that I hadn't had a proper conversation with them, fearing rejection or being ignored, and I remained in this state of fear, reluctant to approach them directly, instead opting for less influential hosts. After the company went through a loss, at home during the New Year, the few hundred dollars on me were all given by my father. My sister scolded me, saying that at my age, I should have given red envelopes to elders and seniors, but I was starting a business outside, penniless, even unable to send red envelopes.
 
