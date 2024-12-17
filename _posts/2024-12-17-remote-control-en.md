@@ -11,7 +11,7 @@ This remote control small handle is not only useful for managing TikTok but also
 
 <div align="center">
 
-<img src="/assets/images/kit/kit.jpg" width="200px" />
+<img  class="responsive" src="/assets/images/kit/kit.jpg"/>
 
 <p><a href="https://www.aliexpress.com">Source: AliExpress</a></p>
 
