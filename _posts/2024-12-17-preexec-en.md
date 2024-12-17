@@ -3,6 +3,10 @@ layout: post
 title: "Let Zsh Display Proxy Settings Before Running Network Commands"
 ---
 
+<div style="text-align: center;">  
+    <img class="responsive" src="/assets/images/preexec/pe1.png" alt="prexec" />  
+</div>
+
 Living in China or working within companies that use VPNs and proxies can complicate software development. Forgetting to configure these settings often leads to connectivity issues. To streamline your workflow, I created a simple Zsh script with the help of ChatGPT that automatically displays your proxy settings when you run specific network-dependent commands.
 
 ## **Why Display Proxy Settings?**
