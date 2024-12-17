@@ -13,7 +13,7 @@ Recently, I spoke with an entrepreneur friend who asked for my thoughts on her c
    - The site encountered a memory allocation error:
      ```
      Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 417792 bytes)
-     in /www/wwwroot/xxx.e-lemo.com/wordpress/wp-includes/class-wpdb.php on line 2316
+     in /www/wwwroot/xxx.e-xxx.com/wordpress/wp-includes/class-wpdb.php on line 2316
      ```
    - This suggests the current WordPress memory limit is insufficient.
 
