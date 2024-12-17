@@ -24,12 +24,40 @@ preexec() {
     local network_commands=(
         "gpa"
         "git"
+        "ssh"
+        "scp"
+        "sftp"
+        "rsync"
+        "curl"
+        "wget"
+        "apt"
+        "yum"
+        "dnf"
+        "npm"
+        "yarn"
         "pip"
         "pip3"
+        "gem"
+        "cargo"
+        "docker"
+        "kubectl"
+        "ping"
+        "traceroute"
+        "netstat"
+        "ss"
+        "ip"
+        "ifconfig"
+        "dig"
+        "nslookup"
+        "nmap"
+        "telnet"
+        "ftp"
+        "nc"
+        "tcpdump"
+        "adb"
         "bundle"
         "brew"
         "cpanm"
-        "adb"
         "bundle exec jekyll"
         "make"
         # Add more commands as needed
@@ -168,25 +196,6 @@ ls
 ## **Customization**
 
 - **Extend `network_commands`:** Add any additional network-dependent commands to the `network_commands` array.
-
-  ```bash
-  local network_commands=(
-      "gpa"
-      "git"
-      "pip"
-      "pip3"
-      "bundle"
-      "brew"
-      "cpanm"
-      "adb"
-      "bundle exec jekyll"
-      "make"
-      "docker"
-      "curl"
-      "wget"
-      # Add more as needed
-  )
-  ```
 
 - **Handle Aliases:** Ensure that any aliases for network-dependent commands are included in the `network_commands` list.
 

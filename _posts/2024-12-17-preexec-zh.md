@@ -21,17 +21,46 @@ title: "让 Zsh 在运行网络命令前自动显示代理设置"
 
 ```bash
 # Function to check and display proxy settings before certain commands
+# Function to check and display proxy settings before certain commands
 preexec() {
     # Define network-dependent commands
     local network_commands=(
         "gpa"
         "git"
+        "ssh"
+        "scp"
+        "sftp"
+        "rsync"
+        "curl"
+        "wget"
+        "apt"
+        "yum"
+        "dnf"
+        "npm"
+        "yarn"
         "pip"
         "pip3"
+        "gem"
+        "cargo"
+        "docker"
+        "kubectl"
+        "ping"
+        "traceroute"
+        "netstat"
+        "ss"
+        "ip"
+        "ifconfig"
+        "dig"
+        "nslookup"
+        "nmap"
+        "telnet"
+        "ftp"
+        "nc"
+        "tcpdump"
+        "adb"
         "bundle"
         "brew"
         "cpanm"
-        "adb"
         "bundle exec jekyll"
         "make"
         # Add more commands as needed
@@ -43,7 +72,7 @@ preexec() {
 
     # Function to display proxy variables
     display_proxy() {
-        echo -e "\n🚀 **检测到代理设置:**"
+        echo -e "\n🚀 **Proxy Settings Detected:**"
 
         [ -n "$HTTP_PROXY" ] && echo "   - HTTP_PROXY: $HTTP_PROXY"
         [ -n "$http_proxy" ] && echo "   - http_proxy: $http_proxy"
@@ -163,26 +192,7 @@ ls
 
 ### **1. 扩展 `network_commands` 列表**
 
-根据您的工作流程，您可能需要添加更多网络相关命令到 `network_commands` 数组中：
-
-```bash
-local network_commands=(
-    "gpa"
-    "git"
-    "pip"
-    "pip3"
-    "bundle"
-    "brew"
-    "cpanm"
-    "adb"
-    "bundle exec jekyll"
-    "make"
-    "docker"
-    "curl"
-    "wget"
-    # 根据需要添加更多命令
-)
-```
+根据您的工作流程，您可能需要添加更多网络相关命令到 `network_commands` 数组中。
 
 ### **2. 处理别名**
 
