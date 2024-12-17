@@ -5,7 +5,7 @@ title: "How to Avoid Death"
 
 I am about to turn 30 years old. I didn't know much about death growing up until 2019, when one of my relatives died. In 2022, another relative passed away. I learned that two of my classmates had also died. During the three-year COVID period, we witnessed a lot of death in the news.
 
-As responsible human beings, I want to share the lessons I have learned from these experiences.
+As a responsible human being, I want to share the lessons I have learned from these experiences.
 
 ## Be Careful in Life, Do Not Fall from Heights
 
@@ -32,6 +32,14 @@ It is house mortgage. Other types of gambling will make things worse. I have hea
 ## Learn to Deal with Stress
 
 Learn to deal with stress. Stress is a large part of modern life. We need to learn more, understand how other people live in this world, and know how people lived long ago. We need to read a lot to gain correct views about things.
+
+## Be Careful of Scams or Crimes
+
+My experience in the USA has not been very positive in terms of safety. A friend told me not to go to places where people gather in the USA, like music carnivals, and to be careful not to go to dangerous places in cities. That's true—it can be scary. Although it may limit your activities, avoiding these kinds of dangerous situations allows you to enjoy many other aspects of life.
+
+## Teach Kids to Be Careful
+
+Teaching kids to be cautious around strangers is unquestionable. Kids tend to be naive and easily trust others. Bad people and crimes will not disappear.
 
 ## End
 
