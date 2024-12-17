@@ -55,7 +55,7 @@ preexec() {
             if [ -n "$HTTP_PROXY" ] || [ -n "$http_proxy" ] || \
                [ -n "$HTTPS_PROXY" ] || [ -n "$https_proxy" ] || \
                [ -n "$ALL_PROXY" ] || [ -n "$all_proxy" ]; then
-               
+                
                 display_proxy
             fi
             break
@@ -66,85 +66,105 @@ preexec() {
 
 ## **Setting Up the Script in Zsh**
 
-1. **Open Your `.zshrc` File**
+### **1. Open Your `.zshrc` File**
 
-   ```bash
-   nano ~/.zshrc
-   ```
+Use your preferred text editor to open the `.zshrc` configuration file. For example:
 
-2. **Add the `preexec` Function**
+```bash
+nano ~/.zshrc
+```
 
-   Paste the script above at the end of the file.
+### **2. Add the `preexec` Function**
 
-3. **Save and Close**
+Paste the script above at the end of the file.
 
-   Press `CTRL + O` to save and `CTRL + X` to exit.
+### **3. Save and Close**
 
-4. **Apply the Changes**
+Press `CTRL + O` to save and `CTRL + X` to exit.
 
-   ```bash
-   source ~/.zshrc
-   ```
+### **4. Apply the Changes**
+
+Reload your `.zshrc` to apply the new configuration immediately:
+
+```bash
+source ~/.zshrc
+```
 
 ## **Testing the Setup**
 
-1. **With Proxy Enabled**
+### **1. With Proxy Enabled**
 
-   ```bash
-   export HTTP_PROXY="http://127.0.0.1:7890"
-   git status
-   ```
+Set a proxy variable temporarily and run a network-dependent command using `pip`:
 
-   **Output:**
+```bash
+export HTTP_PROXY="http://127.0.0.1:7890"
+pip install selenium beautifulsoup4 urllib3
+```
 
-   ```
-   
-   🚀 **Proxy Settings Detected:**
-      - HTTP_PROXY: http://127.0.0.1:7890
-      - http_proxy: 127.0.0.1:7890
-      - HTTPS_PROXY: 127.0.0.1:7890
-      - https_proxy: 127.0.0.1:7890
-      - ALL_PROXY: 127.0.0.1:7890
-      - all_proxy: 127.0.0.1:7890
+**Expected Output:**
 
-   On branch main
-   Your branch is up to date with 'origin/main'.
+```
 
-   nothing to commit, working tree clean
-   ```
+🚀 **Proxy Settings Detected:**
+   - HTTP_PROXY: http://127.0.0.1:7890
+   - http_proxy: 127.0.0.1:7890
+   - HTTPS_PROXY: 127.0.0.1:7890
+   - https_proxy: 127.0.0.1:7890
+   - ALL_PROXY: 127.0.0.1:7890
+   - all_proxy: 127.0.0.1:7890
 
-2. **Without Proxy Enabled**
+Collecting selenium
+  Downloading selenium-4.x.x-py2.py3-none-any.whl (xxx kB)
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.x.x-py3-none-any.whl (xxx kB)
+Collecting urllib3
+  Downloading urllib3-1.x.x-py2.py3-none-any.whl (xxx kB)
+...
+```
 
-   ```bash
-   unset HTTP_PROXY
-   git status
-   ```
+### **2. Without Proxy Enabled**
 
-   **Output:**
+Unset the proxy variable and run the same `pip` command:
 
-   ```
-   On branch main
-   Your branch is up to date with 'origin/main'.
+```bash
+unset HTTP_PROXY
+pip install selenium beautifulsoup4 urllib3
+```
 
-   nothing to commit, working tree clean
-   ```
+**Expected Output:**
 
-3. **Non-Network Command**
+```
+Collecting selenium
+  Downloading selenium-4.x.x-py2.py3-none-any.whl (xxx kB)
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.x.x-py3-none-any.whl (xxx kB)
+Collecting urllib3
+  Downloading urllib3-1.x.x-py2.py3-none-any.whl (xxx kB)
+...
+```
 
-   ```bash
-   ls
-   ```
+*(No proxy notification should appear.)*
 
-   **Output:**
+### **3. Non-Network Command**
 
-   ```
-   [List of files and directories]
-   ```
+Run a local command like `ls`:
+
+```bash
+ls
+```
+
+**Expected Output:**
+
+```
+[List of files and directories]
+```
+
+*(No proxy notification should appear.)*
 
 ## **Customization**
 
 - **Extend `network_commands`:** Add any additional network-dependent commands to the `network_commands` array.
-  
+
   ```bash
   local network_commands=(
       "gpa"
@@ -165,6 +185,35 @@ preexec() {
   ```
 
 - **Handle Aliases:** Ensure that any aliases for network-dependent commands are included in the `network_commands` list.
+
+  ```bash
+  alias gpa='git push all'
+  ```
+
+  Add `"gpa"` to the `network_commands` array to trigger proxy notifications when using this alias.
+
+- **Enhance Visibility with Colors:**
+
+  For better visibility, especially in cluttered terminals, you can add color to the proxy notifications:
+
+  ```bash
+  # Add color codes at the top of your .zshrc
+  GREEN='\033[0;32m'
+  NC='\033[0m' # No Color
+
+  display_proxy() {
+      echo -e "\n${GREEN}🚀 **Proxy Settings Detected:**${NC}"
+
+      [ -n "$HTTP_PROXY" ] && echo "   - HTTP_PROXY: $HTTP_PROXY"
+      [ -n "$http_proxy" ] && echo "   - http_proxy: $http_proxy"
+      [ -n "$HTTPS_PROXY" ] && echo "   - HTTPS_PROXY: $HTTPS_PROXY"
+      [ -n "$https_proxy" ] && echo "   - https_proxy: $https_proxy"
+      [ -n "$ALL_PROXY" ] && echo "   - ALL_PROXY: $ALL_PROXY"
+      [ -n "$all_proxy" ] && echo "   - all_proxy: $all_proxy"
+
+      echo ""
+  }
+  ```
 
 ## **Conclusion**
 

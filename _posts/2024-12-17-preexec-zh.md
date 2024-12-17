@@ -1,15 +1,13 @@
 ---
 layout: post  
-title: "让 Zsh 在运行网络命令前显示代理设置"
+title: "让 Zsh 在运行网络命令前自动显示代理设置"
 ---
 
-![Proxy Settings](https://example.com/proxy-settings-image.jpg)
+在中国或在使用 VPN 和代理的公司工作时，软件开发可能会变得复杂。忘记配置这些设置往往会导致连接问题，影响工作流程。为简化您的工作流程，我在 ChatGPT 的帮助下创建了一个简便的 Zsh 脚本，该脚本在运行特定的网络命令之前自动显示您的代理设置，确保您始终了解当前的网络配置。
 
-在中国或在使用 VPN 和代理的公司工作时，软件开发可能会变得复杂。忘记配置这些设置往往会导致连接问题，影响工作流程。为简化您的工作流程，我在 ChatGPT 的帮助下创建了一个简便的 Zsh 脚本，该脚本在运行特定的网络相关命令时自动显示您的代理设置，确保您始终了解当前的网络配置。
+## **为什么在运行网络命令前显示代理设置？**
 
-## **为什么为网络命令显示代理设置？**
-
-代理和 VPN 是绕过网络限制并确保安全连接的关键工具。然而，它们有时会掩盖连接问题的根本原因。通过在执行某些命令之前显示您的代理设置，您可以立即了解您的网络配置，从而更容易诊断和解决潜在问题。
+代理和 VPN 是绕过网络限制并确保安全连接的关键工具。然而，它们有时会掩盖连接问题的根本原因。通过在执行某些网络命令之前显示您的代理设置，您可以立即了解您的网络配置，从而更容易诊断和解决潜在问题。
 
 ## **脚本介绍**
 
@@ -102,12 +100,13 @@ source ~/.zshrc
 
 ```bash
 export HTTP_PROXY="http://127.0.0.1:7890"
-git status
+pip install selenium beautifulsoup4 urllib3
 ```
 
 **预期输出：**
 
 ```
+
 🚀 **检测到代理设置:**
    - HTTP_PROXY: http://127.0.0.1:7890
    - http_proxy: 127.0.0.1:7890
@@ -116,10 +115,9 @@ git status
    - ALL_PROXY: 127.0.0.1:7890
    - all_proxy: 127.0.0.1:7890
 
-On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
+Collecting selenium
+  Downloading selenium-4.x.x-py2.py3-none-any.whl (xxx kB)
+...
 ```
 
 ### **2. 禁用代理后测试**
@@ -128,17 +126,18 @@ nothing to commit, working tree clean
 
 ```bash
 unset HTTP_PROXY
-git status
+pip install selenium beautifulsoup4 urllib3
 ```
 
 **预期输出：**
 
 ```
-On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
+Collecting selenium
+  Downloading selenium-4.x.x-py2.py3-none-any.whl (xxx kB)
+...
 ```
+
+*(不会出现代理通知。)*
 
 ### **3. 非网络相关命令测试**
 
@@ -216,7 +215,7 @@ display_proxy() {
 
 ## **结论**
 
-在受限网络环境中管理代理设置对于确保软件开发的顺利进行至关重要。通过在 Zsh 配置中实现这个条件性的 `preexec` 函数，您可以确保在执行特定的网络相关命令时，您的终端会自动显示代理设置。这种方法不仅保持了终端的整洁，还能让您在关键操作时及时了解网络配置，提升工作效率和问题排查能力。
+在受限网络环境中管理代理设置对于确保软件开发的顺利进行至关重要。通过在 Zsh 配置中实现这个条件性的 `preexec` 函数，您可以确保在执行特定的网络命令之前，您的终端会自动显示代理设置。这种方法不仅保持了终端的整洁，还能让您在关键操作时及时了解网络配置，提升工作效率和问题排查能力。
 
 **祝编码愉快！ 🚀**
 
