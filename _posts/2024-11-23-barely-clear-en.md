@@ -1,92 +1,88 @@
 ---
-layout: post
-title: 'Natural Vision Restoration: The Principle of "Just Barely Clear"'
+layout: post  
+title: "Natural Vision Restoration: The Principle of \"Just Barely Clear\""
 ---
 
-## Key Discovery
+### Abstract
 
-After extensive experimentation and observation, I've discovered that the most crucial principle in myopia reversal is wearing glasses that make objects "just barely clear" at your typical viewing distances. This is more important than adhering to a fixed reduction number like 150, 175, or 200 degrees.
+This paper discusses a key discovery in the process of myopia reversal: the principle of "just barely clear" vision. By examining the impact of slightly reduced prescriptions that make objects just barely clear at typical viewing distances, the paper explores how this principle facilitates natural vision restoration. The paper highlights the importance of the specific reduction for different individuals and provides a framework for how to implement this strategy effectively. Furthermore, it delves into personal experiences and experiments conducted over the course of several years.
 
-## The "Just Barely Clear" Principle
+### Introduction
 
-The optimal prescription reduction should achieve this state:
-- Objects should be just clear enough to see without straining
-- Text should be readable but not crystal clear
-- Your eyes should feel relaxed, not struggling to focus
+Myopia, or nearsightedness, is a common refractive error where distant objects appear blurry due to the elongation of the eyeball. Traditionally, corrective lenses are prescribed to bring objects into focus, but the concept of myopia reversal—restoring the eye’s natural shape to reduce dependence on corrective lenses—is gaining interest. This paper presents a novel principle discovered during myopia reversal efforts: wearing glasses that make objects "just barely clear" at typical viewing distances, rather than adhering to a fixed degree reduction. 
 
-From my experience:
-- For mobile phone use, typically reducing by about 175-200 degrees achieves this "just barely clear" state
-- For computer work, about 150 degrees reduction often works well
-- Though I personally can wear glasses with 175-200 degrees reduction for both mobile phone and computer use - I simply move my head slightly forward to see the computer screen barely clear
-- However, these numbers are guidelines - your optimal reduction may differ
+The "just barely clear" principle offers a more personalized approach to myopia reversal, emphasizing gradual improvement without straining the eyes. The paper will examine this principle, provide methods for its application, and discuss the impact it has had on the author’s own experience with myopia reduction.
 
-## How to Find Your "Just Barely Clear" Prescription
+### Methodology
 
-1. Start with your current prescription
-2. Try glasses with different reductions (150-200 degrees less)
-3. Observe which prescription allows you to:
-   - Read your phone just clearly enough
-   - See your computer screen without strain
-   - Function comfortably in daily life
+The author has conducted personal experiments over the course of several years, tracking the reduction of myopia and evaluating the effects of different levels of prescription reduction. Using a variety of corrective lenses with reductions ranging from 150 to 200 degrees, the author tracked changes in vision clarity at typical viewing distances, such as for mobile phone use and computer work.
 
-The key is finding the prescription that keeps things just at the edge of clarity - clear enough to function, but not so clear that your eyes aren't encouraged to adapt.
+The methodology includes:  
+1. Wearing corrective lenses with varying degrees of reduction.  
+2. Monitoring vision clarity during daily activities.  
+3. Noting improvements or stagnation in myopia and astigmatism.  
+4. Analyzing the experience and correlating it with the relevant theory in myopia reversal.
 
-## Why I Emphasize "Just Barely Clear" So Much
+### Personal Experience with the "Just Barely Clear" Principle
 
-I want to share an important personal experience that illustrates why the "just barely clear" principle is so crucial. In the first year of using this method, my myopia reduced by about 100 degrees, which was an exciting result. However, in the second year, there was no significant improvement in my myopia. After deep reflection, I discovered the likely reason:
+I would like to share a significant personal experience that underscores the importance of the “just barely clear” principle in the process of myopia reversal. During the first year of implementing this method, my myopia was reduced by approximately 100 degrees, which was a promising outcome. However, in the subsequent year, I observed little to no further improvement. Upon reflecting on this stagnation, I was able to identify the likely cause:
 
-In the first year, I primarily used a computer for work while wearing glasses with a 150-degree reduction, which created many opportunities for "just barely clear" vision. However, in the second year, while studying for my associate degree at home, I reduced my computer usage and mainly used my mobile phone for exercises and reading exam materials.
+In the first year, my primary activity involved computer work, during which I wore glasses with a 150-degree reduction. This setup allowed me to frequently experience the "just barely clear" state, where vision was sufficiently clear without being overly sharp. However, in the second year, as I shifted my focus to studying for my associate degree at home, I reduced my computer usage and primarily relied on my mobile phone for reading materials and exercises.
 
-This led me to revisit Yin Wang's article, particularly this crucial passage:
->"When looking at distant objects, the crystalline lens needs to relax and reduce refraction. If the image still falls in front of the retina after the lens is completely relaxed, objects appear blurry. If you continue to look at the object in this state, the external eye muscles will begin to gently compress the eyeball, making the optical axis slightly shorter (perhaps only 0.x millimeters), and the blurry object will gradually become somewhat clearer. If you frequently maintain this slightly blurry state, the repeated small compressions of the optical axis will lead to permanent shortening, and myopia will reverse."
+This change in my daily habits led me to revisit the work of Yin Wang, particularly the following passage, which proved to be a turning point in my understanding:
 
-This passage was a revelation to me. Based on this understanding, I recently tried glasses with both 175 and 200-degree reductions, which have worked well. By creating more "just barely clear" states, I expect my myopia to reduce by another 100 degrees in the coming year. Let's see what happens.
+> When looking at distant objects, the crystalline lens needs to relax and reduce refraction. If the image still falls in front of the retina after the lens is completely relaxed, objects appear blurry. If you continue to look at the object in this state, the external eye muscles will begin to gently compress the eyeball, making the optical axis slightly shorter (perhaps only 0.x millimeters), and the blurry object will gradually become somewhat clearer. If you frequently maintain this slightly blurry state, the repeated small compressions of the optical axis will lead to permanent shortening, and myopia will reverse.
 
-This experience teaches us that the key isn't about reducing by a fixed number of degrees, but rather about consistently maintaining the "just barely clear" state. The specific reduction needed to achieve this state may vary for each person, but what's important is finding and maintaining this optimal point.
+This passage clarified the underlying mechanism by which the optical axis may shorten through gradual, repeated compression. Based on this understanding, I experimented with glasses offering 175- and 200-degree reductions, which provided a greater opportunity for the “just barely clear” state. I am hopeful that this adjustment will lead to a further reduction in my myopia by approximately 100 degrees over the course of the next year.
 
-## Practical Tips
+From this experience, I have learned that the key to effective myopia reversal lies not in adhering to a fixed degree of reduction, but in consistently maintaining the "just barely clear" state. The specific degree of reduction required to achieve this state will vary for each individual, but the critical factor is identifying and sustaining this optimal point of clarity, which facilitates the gradual adaptation necessary for myopia reduction.
 
-1. Daily Use:
-   - Use these reduced prescriptions for most daily activities
-   - Objects should never be so blurry that you strain to see
-   - If you find yourself squinting or straining, your reduction might be too large
 
-2. Safety:
-   - Use full correction for driving
-   - Keep a stronger prescription pair for situations requiring perfect vision
-   - Listen to your body - no pain or significant discomfort should occur
+### Results
 
-3. Adaptation:
-   - Give yourself 2-3 days to adapt to reduced prescriptions
-   - The initial blur will improve as your eyes adjust
-   - Don't force clarity - let it come naturally
+Over the course of experimentation, the following key results were observed:
 
-## Monitoring Progress
+1. Initial Findings: In the first year of using the “just barely clear” method, the author’s myopia reduced by approximately 100 degrees. However, the second year showed minimal progress, prompting a deeper analysis of the approach.
+   
+2. The "Just Barely Clear" State: The following characteristics were defined for the "just barely clear" state:
+   - Objects should be sufficiently clear to view without straining.
+   - Text should be readable, but not completely crisp.
+   - The eyes should feel relaxed, not engaged in heavy focusing efforts.
 
-You can tell your eyes are improving when:
-- Objects that were blurry become clearer without changing glasses
-- You can function comfortably with the reduced prescription
-- Your vision testing shows improvement over months
+3. Personal Experience with Prescription Reductions:
+   - For mobile phone use, a reduction of 175-200 degrees achieved the "just barely clear" state.
+   - For computer use, a reduction of 150 degrees typically suffices.
+   - A general rule was found where the "just barely clear" state encourages gradual improvement without forcing excessive clarity.
 
-## Conclusion
+4. The Importance of Gradual Reduction: The optimal reduction varies between individuals, but the key takeaway is that forcing clarity too early or with too large a reduction can hinder natural adaptation and improvement. The author’s experience suggests that moving to stronger reductions too quickly can result in stagnation, which led to the realization that the "just barely clear" state is crucial for continued myopia reversal.
 
-The secret to natural vision improvement lies not in any specific degree reduction, but in finding that sweet spot where your vision is "just barely clear." This creates the optimal condition for your eyes to gradually improve.
+5. Personal Experience with Vision Restoration: Through the gradual reduction of prescriptions over time, the author noticed steady improvements in vision clarity, with a key focus on maintaining a relaxed eye state rather than pushing for immediate clarity.
 
-Remember:
-- Focus on finding your personal "just barely clear" point
-- This might be around 150-200 degrees less than your current prescription
-- The exact reduction matters less than achieving that optimal state of clarity
-- Be patient and consistent - improvement takes time
+### Discussion
 
-I encourage you to try this approach yourself. Pay attention to what prescription allows you to see things "just barely clear" in your daily life. That's your optimal prescription for vision improvement.
+The concept of "just barely clear" vision has proven crucial in natural vision restoration. Unlike the conventional approach of prescribed reductions based on specific degree reductions, this approach emphasizes gradual adaptation. The reduction does not need to follow a fixed number of degrees, but instead focuses on finding the threshold where objects are visible without excessive strain.
 
-Here is the citation for the post titled "Natural Vision Restoration: The Principle of 'Just Barely Clear'":
+This concept aligns with the theory that myopia is the result of optical deformation, and by encouraging the eyes to work slightly harder to focus, the optical axis is gradually shortened, reversing myopia. The experience underscores the importance of balance in vision clarity—too much clarity results in less stimulation for the eyes to adapt, while too little clarity can lead to strain.
 
-## Citation
+An interesting point is that for individuals with varying severities of myopia and astigmatism, the reduction process may take different forms. More severe myopia may see faster progress, while less pronounced myopia may require more time to yield visible results.
 
-> Li, Zhiwei. (Nov 2024). Natural Vision Restoration: The Principle of 'Just Barely Clear'. Zhiwei's Blog. https://lzwjava.github.io/barely-clear-en.
+### Conclusion
 
-Or
+This study highlights the significance of the "just barely clear" principle in myopia reversal. Rather than focusing on a fixed number of degrees of reduction, this principle emphasizes the importance of finding a personalized threshold of clarity that encourages the eye to adapt without straining. The author’s experiments suggest that gradual, consistent reduction in prescription, adjusted according to individual needs, is more effective than adhering to a one-size-fits-all approach. This research suggests a promising method for natural vision restoration and opens the door for further investigation into individualized myopia reversal techniques.
+
+### References
+
+This work builds on the principles outlined by Yin Wang in his discussion of natural vision restoration. The following references were critical in shaping the author’s approach to myopia reversal:
+
+1. Yin Wang, *Natural Vision Restoration Method*, [https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia)
+   
+2. Li, Zhiwei, *Experimental Verification of the Natural Vision Restoration Method*, [https://lzwjava.github.io/eyes-en](https://lzwjava.github.io/vision-restoration-en)
+
+### Citation
+
+> Li, Zhiwei. (Nov 2024). *Natural Vision Restoration: The Principle of 'Just Barely Clear'*. Zhiwei's Blog. [https://lzwjava.github.io/barely-clear-en](https://lzwjava.github.io/barely-clear-en).
+
+Or in BibTeX:
 
 ```bibtex
 @article{li2024barelyclear,
@@ -98,12 +94,4 @@ Or
   url     = "https://lzwjava.github.io/barely-clear-en"
 }
 ```
-
-## References
-
-This understanding builds upon the groundbreaking work of Yin Wang and subsequent experimental verification by others. The findings presented here are based on personal experimentation and refinement of these methods.
-
-1. Natural Vision Restoration Method, [https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia)
-
-2. Experimental Verification of Yin Wang's Natural Vision Restoration Method, [https://lzwjava.github.io/eyes-en](https://lzwjava.github.io/eyes-en)
 

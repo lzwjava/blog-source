@@ -1394,5 +1394,21 @@
     "2024-12-22-confs-en.md": {
         "output": "assets/pdfs/2024-12-22-confs-en.pdf",
         "timestamp": "2024-12-22T22:58:53.942700"
+    },
+    "2024-12-22-update-zh.md": {
+        "output": "assets/pdfs/2024-12-22-update-zh.pdf",
+        "timestamp": "2024-12-22T23:46:47.451919"
+    },
+    "2024-12-22-update-en.md": {
+        "output": "assets/pdfs/2024-12-22-update-en.pdf",
+        "timestamp": "2024-12-22T23:46:49.935578"
+    },
+    "2024-12-22-three-phones-zh.md": {
+        "output": "assets/pdfs/2024-12-22-three-phones-zh.pdf",
+        "timestamp": "2024-12-22T23:46:52.458273"
+    },
+    "2024-12-22-three-phones-en.md": {
+        "output": "assets/pdfs/2024-12-22-three-phones-en.pdf",
+        "timestamp": "2024-12-22T23:46:54.921868"
     }
 }
