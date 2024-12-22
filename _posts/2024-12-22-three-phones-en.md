@@ -10,7 +10,7 @@ audio: true
 
 - The third phone can be an older iPhone or Android device. Use it as a media hub for downloaded podcasts, music, or YouTube videos to listen to in the background.
 
-- Use a backpack for your carry-on. In addition to the three phones, you can also carry earphones and your car key fob.
+- Use a crossbody bag for your carry-on. In addition to the three phones, you can also carry earphones and your car key fob.
 
 - The iPhone should be your main device. Install a variety of apps, especially international ones, across all categories, focusing on those with great design and useful features.
 
