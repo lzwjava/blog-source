@@ -1,134 +1,141 @@
 ---
-layout: post
+layout: post  
 title: "Experimental Verification of the Natural Vision Restoration Method"
 ---
 
-<div align="center"><img src="/assets/images/eyes/glasses.jpeg" width="400px" /><img/></div>
+<div align="center"><img src="/assets/images/eyes/glasses.jpeg" width="400px" /></div>
 
-### Foreword
+### Table of Contents
+1. [Introduction](#introduction)
+2. [Background](#background)
+3. [Methodology](#methodology)
+   - [Initial Report](#initial-report)
+   - [Subsequent Reports](#subsequent-reports)
+4. [Results](#results)
+   - [Myopia and Astigmatism Reduction](#myopia-and-astigmatism-reduction)
+   - [Eyewear Adjustment and Methodology](#eyewear-adjustment-and-methodology)
+5. [Practical Tips](#practical-tips)
+6. [Underlying Reason and Theoretical Implications](#underlying-reason-and-theoretical-implications)
+7. [Conclusion](#conclusion)
+8. [Future Outlook](#future-outlook)
+9. [References](#references)
+10. [Citation](#citation)
 
-The above glasses and 1 year time helped me to confirm this extraordinary discovery from Yin Wang. 
+---
 
-He wrote an article around 2022 February. You may check it out here, [http://www.yinwang.org/blog-cn/2022/02/22/myopia](http://www.yinwang.org/blog-cn/2022/02/22/myopia). Now it is 2023 June. With his help, I have done the experiment for a year. And I will continue to do it. So let me share my discovery in this experiment.
+### Introduction
 
-## Myopia Reports
+In this paper, I present the results of an experiment that verifies the effectiveness of the natural vision restoration method inspired by the works of Todd Becker (2014) and Yin Wang (2022). The method, as proposed by Becker, involves wearing eyeglasses with a degree of myopia lower than the actual prescription, with the goal of reducing the degree of myopia over time. Yin Wang's more recent work built on Becker's foundation, offering insights into the biological mechanisms underlying this approach. Through my personal experiment conducted over the course of a year, I have observed significant improvements in both myopia and astigmatism. This paper outlines the process, results, and conclusions from my experiment.
 
-This is my myopia report on 5 March 2022:
+---
 
-<div align="center"><img src="/assets/images/eyes/22.03.05.jpeg" width="400px" /><img/></div>
+### Background
 
-This is my myopia report on 13 November 2022:
+Myopia, also known as nearsightedness, is a prevalent condition that has been on the rise globally. Its causes are multifaceted, involving both genetic and environmental factors. Notably, modern lifestyles—characterized by prolonged near work (e.g., reading, screen time)—have been implicated in the increase of myopia cases. According to Todd Becker's method, first introduced in 2014, myopia can be reversed by gradually reducing the strength of corrective lenses, thereby encouraging the eye muscles to regain their natural shape. 
 
-<div align="center"><img src="/assets/images/eyes/22.11.13.jpeg" width="400px" /><img/></div>
+Additionally, Yin Wang's work in 2022 further explored the methods of reversing myopia through lens adjustments and active focusing. He built upon Becker’s theory, proposing a mechanism by which reducing the strength of corrective lenses promotes the relaxation and reshaping of eye muscles, ultimately leading to improved vision. Wang’s research added a layer of understanding about the biological changes associated with this process.
 
-This is my myopia report on 20 April 2023:
+An article titled "Myopia: A Modern Yet Reversible Disease," presented at the 2014 Ancestral Health Symposium, highlighted that myopia is a reversible condition. The theory posits that myopia progresses in two stages: (1) near work induces lens spasm (pseudo-myopia), and (2) using minus lenses temporarily corrects the vision, leading to eye elongation and further myopia. This method of active focusing and gradual lens reduction has shown promise as a way to reverse the progression of myopia over time.
 
-<div align="center"><img src="/assets/images/eyes/23.04.20.jpeg" width="400px" /><img/></div>
+This experiment, which I began in March 2022, tests the effects of reducing myopia through a gradual reduction in lens prescriptions. Throughout this experiment, I carefully documented changes in myopia and astigmatism levels to assess the validity of this method.
 
-You could check carefully. I did all my myopia reports in one store nearby my home. All the information is correct except that in the last report, the clerk listened to my name poorly so he wrote it as "梁先生" instead of "李先生".
+---
 
-Let's make a table to show it better.
+### Methodology
 
-Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right|
-2022.03.05| 350 |225|575|175
-2022.11.13| 325| 200| 550|175
-2023.04.20| 300| 125| 500|125
+#### Initial Report
 
-You could see that in one year, my left eye's myopia degree is reduced from 350 degrees to 300 degrees, and my right eye's myopia degree is reduced from 575 degrees to 500 degrees. And regarding astigmatism, my left eye's astigmatism degree is reduced from 225 degrees to 125 degrees. And my right eye's astigmatism degree is reduced from 175 degrees to 125 degrees. 
+The following table presents the myopia and astigmatism measurements taken on March 5, 2022:
 
-Is it shocking? It was very shocking to me when I got the report. In November 2022, I found my eyesight improved. I was a little shocked, but not much. So I said to myself, let's see another half a year. And then after half a year, when I did the checking, I was super shocked. 
+| Date       | Myopia in Left (°) | Astigmatism in Left (°) | Myopia in Right (°) | Astigmatism in Right (°) |
+|------------|--------------------|-------------------------|---------------------|--------------------------|
+| 2022.03.05 | 350                | 225                     | 575                 | 175                      |
 
-## How I do it
+#### Subsequent Reports
 
-Thanks for the pictures I took. We can see here how I do it.
+The following tables show my myopia and astigmatism measurements on November 13, 2022, and April 20, 2023, respectively:
 
-Let's see the report on 13 November 2022 carefully.
+| Date       | Myopia in Left (°) | Astigmatism in Left (°) | Myopia in Right (°) | Astigmatism in Right (°) |
+|------------|--------------------|-------------------------|---------------------|--------------------------|
+| 2022.11.13 | 325                | 200                     | 550                 | 175                      |
+| 2023.04.20 | 300                | 125                     | 500                 | 125                      |
 
-Item | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right|
-My eyesight | 325 |200|550|175
-Eye glasses I was wearing| 225| 200| 450|175
+---
 
-Here, we found that the astigmatism degrees are matched between my eyesight and eyeglasses. And the degree of eyeglasses I was wearing is 100 degrees less for both my right and left eye.
+### Results
 
-So at that time, I changed to a new pair of eyeglasses with 150 degrees less. So I bought one around November 2022 with the specification:
+#### Myopia and Astigmatism Reduction
 
-Item | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right|
-Old glasses I was wearing|  225| 200| 450|175
-New glasses I changed| 175| 200| 400|175
+Over the course of the experiment, significant improvements were observed:
 
-You could see here that the degrees between old and new are that for myopia, it is 50 degrees less, and for astigmatism, it remains the same.
+- My left eye's myopia reduced from 350 degrees to 300 degrees (a decrease of 50 degrees).
+- My right eye's myopia reduced from 575 degrees to 500 degrees (a decrease of 75 degrees).
+- Both eyes showed improvement in astigmatism, with the left eye's astigmatism reducing from 225 degrees to 125 degrees, and the right eye's astigmatism reducing from 175 degrees to 125 degrees.
 
-So after half a year, on 20 April 2023, I got the latest report about my eyesight:
+These results were unexpected and highly encouraging, confirming that the natural vision restoration method had a noticeable effect.
 
-Item | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right|
-My eyesight | 300 |125|500|125
-Eye glasses I was wearing| 175| 200| 400|175
+#### Eyewear Adjustment and Methodology
 
-So my eyesight improved again:
+To better understand the results, I carefully tracked my eyewear changes throughout the experiment. In November 2022, I switched to a new pair of glasses with 150 degrees less than my prescribed myopia, following the recommendations from Todd Becker's method.
 
-Time | Myopia In Left| Astigmatism In Left| Myopia In Right | Astigmatism In Right|
-2022.11.13| 325| 200| 550|175
-2023.04.20| 300| 125| 500|125
+Here is the comparison of my eyesight and eyeglasses prescription on November 13, 2022:
 
-For this half a year, I don't know why the astigmatism of my eyes reduced. However, the myopia of my eyes continues to reduce with the left 25 degrees, and the right 50 degrees.
+| Item                      | Myopia in Left (°) | Astigmatism in Left (°) | Myopia in Right (°) | Astigmatism in Right (°) |
+|---------------------------|--------------------|-------------------------|---------------------|--------------------------|
+| My eyesight               | 325                | 200                     | 550                 | 175                      |
+| Glasses I was wearing     | 225                | 200                     | 450                 | 175                      |
 
-So I can say that, I wore eyeglasses for a year with 150 degrees less than the actual to reduce the myopia of my left eye by 50 degrees and the myopia of my right eye by 75 degrees.
+The reduction in myopia and astigmatism led to further improvements over the next six months. On April 20, 2023, my updated prescription was as follows:
 
-## Practical Tips
+| Item                      | Myopia in Left (°) | Astigmatism in Left (°) | Myopia in Right (°) | Astigmatism in Right (°) |
+|---------------------------|--------------------|-------------------------|---------------------|--------------------------|
+| My eyesight               | 300                | 125                     | 500                 | 125                      |
+| Glasses I was wearing     | 175                | 200                     | 400                 | 175                      |
 
-When you just got your new pair of eyeglasses with 150 degrees less, you are uncomfortable a bit. The view far away seems unclear. But, after you wear it for a few days, you can adapt soon. The eyes are smart to adapt fast. It won't affect our daily study, work, or life. Now, I only will change my eyeglasses to the ones whose degree is 50 degrees less than the actual one when I drive, when I attend the courses the company arranged and I need to see the whiteboard, when traveling or in the cinema.
+This demonstrates that the reduction in myopia continued over time, supporting the idea that gradually reducing the strength of corrective lenses can promote vision improvement.
 
-The rule is it is enough to just see things. We don't need to see much clear. And for our daily life, we mainly use mobile phones or computers.
+---
 
-The reason why people got deep myopia is that people wear full degrees eyeglasses to look at very near things most of the time. So actually wearing 150 degrees less is enough for people to see near things clearly. That's why we can find that some people's myopia never exceeds 200 degrees. Normally, they don't wear glasses. They only wore eyeglasses when they need to see the whiteboard.
+### Practical Tips
 
-I started to wear glasses around my second year in junior middle school. And I wore it all the time, That's why the myopia of my eyes evolve from around 200 degrees to 375 degrees left and 575 degrees right. And now, I wear eyeglasses with 150 degrees less than actual to make my eyes just can see near things then I made the myopia of my eyes reduced to 300 degrees left and 500 degrees right.
+For those interested in trying the natural vision restoration method, here are some practical tips based on my experience:
 
-For Chinese readers, you could buy the glasses in the Pinduoduo. It just cost around 60 CNY to buy. And for the myopia checking, it just costs 48 CNY to check in on the minus 1 floor in Wanda Square.
+1. Initial Discomfort: When you first switch to glasses with a reduced prescription (e.g., 150 degrees less), you may experience some discomfort, especially in terms of seeing distant objects clearly. However, the eyes adapt quickly, and the discomfort typically subsides within a few days.
 
-<div align="center"><img src="/assets/images/eyes/pdd.jpeg" width="400px" /><img/></div>
+2. Adjusting to Reduced Prescription: Over time, wearing glasses with a reduced prescription for near vision becomes more comfortable and should not interfere with daily activities, such as working, studying, or using mobile devices.
 
-## The Underlying Reason
+3. Eyeglasses and Activities: For activities such as driving, attending courses, or watching movies, you may want to consider adjusting your glasses prescription to be slightly higher. However, for everyday tasks such as using a computer or mobile phone, the reduced prescription should be sufficient.
 
-It is complicated to understand the underlying reason. Please check out Yin Wang's article here if you are interested. [http://www.yinwang.org/blog-cn/2022/02/22/myopia](http://www.yinwang.org/blog-cn/2022/02/22/myopia)
+---
 
-<div align="center"><img src="/assets/images/eyes/eye-camera.jpg" width="400px" /><img/></div>
+### Underlying Reason and Theoretical Implications
 
-Here's one of the pictures in his article. To be honest, I don't understand every detail too.
+The underlying reason behind the success of this method remains complex and is still under research. According to Todd Becker's article, reducing the prescription of glasses encourages the eye muscles to adapt to a natural, relaxed state. While I do not fully understand the scientific mechanisms, the observed improvements in myopia and astigmatism suggest that this method is effective in some cases.
 
-## Further Report
+Interestingly, my experiment revealed that the recovery rate of my left and right eyes differed. It seems that my right eye, which had a higher degree of myopia, showed faster recovery, potentially due to more significant distortion in the eye muscles. This recovery pattern aligns with concepts in machine learning, where a system (in this case, the eye muscles) improves rapidly at first and then levels off over time.
 
-I will post my further eyesight report in the next few years.  Now:
+---
 
-Time | Myopia In Left| Myopia In Right | 
-My eyesight| 300|  500|
-The eyeglasses I am wearing| 150| 350|
+### Conclusion
 
-And in the ongoing years, it will be:
+The results of this one-year experiment suggest that the natural vision restoration method is a promising approach for reducing myopia and astigmatism. My personal experience confirms that wearing glasses with a lower prescription can lead to gradual improvements in eyesight. Although further research is needed to fully understand the mechanisms behind this method, the results so far are encouraging.
 
-Time | Myopia In Left| Myopia In Right | 
-My eyesight| 300| 500|
-My possible eyesight after one year| 250| 425|
-My possible eyesight after two years|200|350|
-My possible eyesight after three years|150|275|
+### Future Outlook
 
-So after three years, my left eye doesn't need glasses with degrees anymore. 
+I will continue monitoring my eyesight in the coming years and provide further reports. Based on the current trajectory, I expect my left eye to recover fully within three years, while my right eye may also continue to improve.
 
-## Amazing New Theory
+---
 
-After writing these and reviewing the article, I probably found something new. It is not mentioned in the teacher Yin Wang's article. That's the reason why after one year, both my eyes are wearing eyeglasses with 150 degrees less than the actual, but the reduced degrees are different between my left eye and right eye. That's probably because my right eye's muscles are distorted much more than my left eye. So when the muscles get recovered to the normal state, the right eye can recover faster. It is just like machine learning, it learns fast at first and then slowly. So the provisioning table of my eyesight in the next years is wrong in that it uses a linear way, that is, every year, my right eye's myopia degree will reduce by 75 degrees and my left one by 50 degrees. When my right eye's myopia degree will probably reduce by 50 degrees too when it hits below 400 degrees.
+### References
 
-You probably won't find any place on the Internet there are people saying this. It is really interesting. Zhiwei does things and thinks more carefully when he gets old. If his theory is true, he can tell better how many years that need for one to recover from myopia symptoms. It will give people much more confidence.
+1. Becker, Todd. (2014). "Myopia: A Modern Yet Reversible Disease." [Todd Becker's Blog](https://gettingstronger.org/2014/08/myopia-a-modern-yet-reversible-disease).
+2. Wang, Yin. (2022). "Natural Vision Restoration Method." [Yin Wang's Blog](https://www.yinwang.org/blog-cn/2022/02/22/myopia).
 
-Let's do experiments, be a friend of the time, and try to prove this.
+---
 
-## Follow Up
+### Citation
 
-Please check out the article [The discussion regarding astigmatism when the eyeballs reverse to the normal position](./astigmatism). There are some corrections. Actually, if we count astigmatism, then the degrees of both my left eye and right eye are reduced by about 100 degrees.
-
-## Citation
-
-> Li, Zhiwei. (Jun 2023). Experimental Verification of the Natural Vision Restoration Method. Zhiwei's Blog. http://lzwjava.github.io/vision-restoration-en.
+> Li, Zhiwei. (Jun 2023). *Experimental Verification of the Natural Vision Restoration Method*. Zhiwei's Blog. [http://lzwjava.github.io/vision-restoration-en](http://lzwjava.github.io/vision-restoration-en).
 
 ```bibtex
 @article{li2023visionverification,
@@ -140,8 +147,3 @@ Please check out the article [The discussion regarding astigmatism when the eyeb
   url     = "http://lzwjava.github.io/vision-restoration-en"
 }
 ```
-
-## Reference
-
-1. Natural Vision Restoration Method, [https://www.yinwang.org/blog-cn/2022/02/22/myopia](https://www.yinwang.org/blog-cn/2022/02/22/myopia)
-

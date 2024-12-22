@@ -4,3 +4,7 @@ _site
 .jekyll-metadata
 vendor
 .idea
+*.out
+*.aux
+*.log
+*.toc

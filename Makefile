@@ -1,4 +1,4 @@
-.PHONY: awesome-cv
+.PHONY: awesome-cv audio-pipeline pdf-pipeline clean copy
 
 CC = xelatex
 EXAMPLES_DIR = awesome-cv
@@ -8,6 +8,7 @@ COVER_LETTER_DIR = awesome-cv/coverletter
 RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 RESUME_ZH_SRCS = $(shell find $(RESUME_ZH_DIR) -name '*.tex')
 
+# Existing awesome-cv target
 awesome-cv: $(foreach x, coverletter coverletter-zh resume-zh resume, $x.pdf)
 
 resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_SRCS)
@@ -22,9 +23,18 @@ coverletter.pdf: $(COVER_LETTER_DIR)/coverletter.tex
 coverletter-zh.pdf: $(COVER_LETTER_DIR)/coverletter-zh.tex
 	$(CC) -output-directory=$(COVER_LETTER_DIR) $<
 
+# New audio-pipeline target
+audio-pipeline:
+	python audio-pipeline.py --task posts --n 10
+
+# New pdf-pipeline target
+pdf-pipeline:
+	python pdf-pipeline.py --task posts --n 10
+
+# Clean target to remove generated files
 clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf
 
+# Copy target for updating resume
 copy:
 	./update-resume.sh
-
