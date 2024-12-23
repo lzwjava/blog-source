@@ -34,3 +34,6 @@ title: "Money Spending Tips"
 * The first purchase is important, especially for expensive items requiring bank loans. Start with cheaper options to try - like with housing.
 
 * Consider different solutions: when playing basketball with glasses, you could buy sports goggles, use a strap to secure regular glasses, or keep spare pairs. Think about long-term costs and effectiveness. Apply this thinking to other purchasing decisions.
+
+* Purchase components like batteries or other parts from an online store and visit a local repair shop for installation, such as replacing the battery in a mobile phone or laptop.
+
