@@ -3,6 +3,10 @@ layout: post
 title: "Circuits and Electronics"
 ---
 
+*This blog post was refined by ChatGPT.*
+
+---
+
 1. Ohm's law states that $ R = \frac{U}{I} $, where $ R $ is resistance, $ U $ is voltage, and $ I $ is current.
 2. The power formula for electrical circuits is $ P = UI $, where $ P $ is power, $ U $ is voltage, and $ I $ is current.
 3. A battery has internal resistance that affects its efficiency in providing power.
