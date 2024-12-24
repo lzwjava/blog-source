@@ -1442,5 +1442,13 @@
     "2024-12-24-android-lag-en.md": {
         "output": "assets/pdfs/2024-12-24-android-lag-en.pdf",
         "timestamp": "2024-12-25T04:43:21.203945"
+    },
+    "2024-12-24-ml-points-zh.md": {
+        "output": "assets/pdfs/2024-12-24-ml-points-zh.pdf",
+        "timestamp": "2024-12-25T06:01:23.677630"
+    },
+    "2024-12-24-ml-points-en.md": {
+        "output": "assets/pdfs/2024-12-24-ml-points-en.pdf",
+        "timestamp": "2024-12-25T06:01:26.389542"
     }
 }
