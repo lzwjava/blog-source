@@ -6,8 +6,6 @@ audio: true
 
 *This post was written with the assistance of ChatGPT.*
 
-### Why Android Devices Lag During Video Playback While Downloading (But iOS Devices Don't)
-
 When downloading videos on Android devices, users may notice that video playback can lag or stutter, whereas iOS devices generally handle such situations smoothly. This difference can be attributed to several factors related to how Android and iOS manage resources, multitask, and prioritize tasks like video playback and downloading.
 
 #### 1. Resource Management and Prioritization
