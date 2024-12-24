@@ -1426,5 +1426,13 @@
     "2024-12-25-multifocal-en.md": {
         "output": "assets/pdfs/2024-12-25-multifocal-en.pdf",
         "timestamp": "2024-12-25T03:46:11.334833"
+    },
+    "2024-12-24-multifocal-zh.md": {
+        "output": "assets/pdfs/2024-12-24-multifocal-zh.pdf",
+        "timestamp": "2024-12-25T04:29:48.722755"
+    },
+    "2024-12-24-multifocal-en.md": {
+        "output": "assets/pdfs/2024-12-24-multifocal-en.pdf",
+        "timestamp": "2024-12-25T04:29:51.297770"
     }
 }
