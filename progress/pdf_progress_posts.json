@@ -1418,5 +1418,13 @@
     "2024-12-24-always-sound-en.md": {
         "output": "assets/pdfs/2024-12-24-always-sound-en.pdf",
         "timestamp": "2024-12-25T02:52:39.684612"
+    },
+    "2024-12-25-multifocal-zh.md": {
+        "output": "assets/pdfs/2024-12-25-multifocal-zh.pdf",
+        "timestamp": "2024-12-25T03:46:08.776925"
+    },
+    "2024-12-25-multifocal-en.md": {
+        "output": "assets/pdfs/2024-12-25-multifocal-en.pdf",
+        "timestamp": "2024-12-25T03:46:11.334833"
     }
 }
