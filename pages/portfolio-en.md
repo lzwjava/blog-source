@@ -5,8 +5,6 @@ link: "pages/portfolio-zh"
 audio: true
 ---
 
-The Chinese version can be found [here](/pages/portfolio-zh).
-
 The PDF file can be found [here](/assets/resume/Zhiwei.Li.Portfolio.pdf).
 
 This collection of software represents the diverse projects I have had the privilege to work on throughout the years, in collaboration with various esteemed companies and partners. 
