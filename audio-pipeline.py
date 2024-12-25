@@ -43,7 +43,7 @@ def split_into_sentences(text):
     sentences = sentence_endings.split(text)
     return sentences
 
-def split_text(text, max_bytes=2500):
+def split_text(text, max_bytes=4000):
     """
     Splits text into chunks not exceeding max_bytes.
     First splits text into sentences to ensure sentences are not split across chunks.
@@ -61,7 +61,7 @@ def split_text(text, max_bytes=2500):
         # Check if the sentence itself exceeds max_bytes
         if len(sentence.encode('utf-8')) > max_bytes:
             # Further split the sentence by commas or other delimiters
-            sub_sentences = re.split(r', |; |: ', sentence)
+            sub_sentences = re.split(r', |; |: |。|，', sentence)
             for sub_sentence in sub_sentences:
                 sub_sentence = sub_sentence.strip()
                 if not sub_sentence:
