@@ -28,13 +28,13 @@ Below is a concise, 100-point summary of key ideas and concepts typically covere
 
 8. Uniformly Accelerated Motion: Constant acceleration (e.g., free fall under gravity near Earth’s surface).
 
-9. Kinematic Equations: Describe motion with constant acceleration (e.g., \( v = v_0 + at \), \( s = v_0t + \frac{1}{2}at^2 \)).
+9. Kinematic Equations: Describe motion with constant acceleration (e.g., $ v = v_0 + at $, $ s = v_0t + \frac{1}{2}at^2 $).
 
-10. Free Fall: Motion under gravitational acceleration alone, typically \( g \approx 9.8\,\text{m/s}^2 \) near Earth’s surface.
+10. Free Fall: Motion under gravitational acceleration alone, typically $ g \approx 9.8\,\text{m/s}^2 $ near Earth’s surface.
 
 11. Newton’s First Law (Law of Inertia): An object at rest stays at rest, and an object in motion continues in motion unless acted on by a net external force.
 
-12. Newton’s Second Law: \( F = ma \), where force equals mass times acceleration.
+12. Newton’s Second Law: $ F = ma $, where force equals mass times acceleration.
 
 13. Newton’s Third Law: Every action force has an equal and opposite reaction force.
 
@@ -52,9 +52,9 @@ Below is a concise, 100-point summary of key ideas and concepts typically covere
 
 20. Center of Mass: A point representing the average position of mass in a system.
 
-21. Momentum: \( p = mv \); a vector quantity that describes the motion of an object (mass × velocity).
+21. Momentum: $ p = mv $; a vector quantity that describes the motion of an object (mass × velocity).
 
-22. Impulse: Change in momentum; \( J = \Delta p = F \times \Delta t \).
+22. Impulse: Change in momentum; $ J = \Delta p = F \times \Delta t $.
 
 23. Conservation of Momentum: Total momentum of a closed system remains constant unless acted upon by external forces.
 
@@ -62,23 +62,23 @@ Below is a concise, 100-point summary of key ideas and concepts typically covere
     - Elastic: Total kinetic energy is conserved.
     - Inelastic: Objects may stick together; kinetic energy not fully conserved.
 
-25. Work: \( W = F \, d \, \cos(\theta) \); the transfer of energy when a force moves an object.
+25. Work: $ W = F \, d \, \cos(\theta) $; the transfer of energy when a force moves an object.
 
 26. Energy: The capacity to do work; measured in Joules (J).
 
-27. Kinetic Energy: Energy of motion (\( \frac{1}{2}mv^2 \)).
+27. Kinetic Energy: Energy of motion ($ \frac{1}{2}mv^2 $).
 
 28. Potential Energy: Stored energy due to position or configuration (gravitational, elastic, etc.).
 
-29. Gravitational Potential Energy: \( U_g = mgh \) near Earth’s surface.
+29. Gravitational Potential Energy: $ U_g = mgh $ near Earth’s surface.
 
-30. Elastic Potential Energy: Stored in stretched or compressed springs; \( U_e = \frac{1}{2}kx^2 \).
+30. Elastic Potential Energy: Stored in stretched or compressed springs; $ U_e = \frac{1}{2}kx^2 $.
 
 31. Conservation of Energy: Energy cannot be created or destroyed, only transformed or transferred.
 
-32. Power: Rate of doing work (\( P = \frac{W}{t} \)) or rate of energy transfer; measured in Watts (W).
+32. Power: Rate of doing work ($ P = \frac{W}{t} $) or rate of energy transfer; measured in Watts (W).
 
-33. Efficiency: \( \text{Efficiency} = \frac{\text{useful energy out}}{\text{total energy in}} \times 100\% \).
+33. Efficiency: $ \text{Efficiency} = \frac{\text{useful energy out}}{\text{total energy in}} \times 100\% $.
 
 34. Mechanical Advantage: Ratio of output force to input force in simple machines (lever, pulley, etc.).
 
@@ -86,17 +86,17 @@ Below is a concise, 100-point summary of key ideas and concepts typically covere
 
 36. Circular Motion: Motion in a circle at constant speed has acceleration directed toward the center (centripetal acceleration).
 
-37. Centripetal Force: Net force required for uniform circular motion, \( F_c = \frac{mv^2}{r} \).
+37. Centripetal Force: Net force required for uniform circular motion, $ F_c = \frac{mv^2}{r} $.
 
 38. Rotation vs. Revolution: Rotation is spinning about an internal axis; revolution is orbiting around an external axis.
 
-39. Torque: Rotational equivalent of force; \( \tau = r \, F \, \sin(\theta) \).
+39. Torque: Rotational equivalent of force; $ \tau = r \, F \, \sin(\theta) $.
 
 40. Center of Gravity: The point at which an object’s weight is equally distributed in all directions.
 
 41. Rotational Inertia: Resistance of an object to changes in its rotational motion.
 
-42. Angular Momentum: \( L = I \omega \); conserved unless acted on by external torque.
+42. Angular Momentum: $ L = I \omega $; conserved unless acted on by external torque.
 
 43. Gravitation: Attractive force between masses, described by Newton’s law of universal gravitation.
 
@@ -106,11 +106,11 @@ Below is a concise, 100-point summary of key ideas and concepts typically covere
 
 46. Fluid: A substance that can flow and take the shape of its container (liquids, gases).
 
-47. Density: Mass per unit volume (\( \rho = \frac{m}{V} \)).
+47. Density: Mass per unit volume ($ \rho = \frac{m}{V} $).
 
 48. Buoyant Force: Upward force on an object immersed in fluid (Archimedes’ principle).
 
-49. Pressure: Force per unit area (\( P = \frac{F}{A} \)); measured in Pascals (Pa).
+49. Pressure: Force per unit area ($ P = \frac{F}{A} $); measured in Pascals (Pa).
 
 50. Pascal’s Principle: Pressure applied to a confined fluid is transmitted equally throughout the fluid.
 
@@ -132,7 +132,7 @@ Below is a concise, 100-point summary of key ideas and concepts typically covere
 
 59. Thermodynamics: Study of heat, work, and energy transformations.
 
-60. First Law of Thermodynamics: Conservation of energy in thermal processes (\( \Delta U = Q - W \)).
+60. First Law of Thermodynamics: Conservation of energy in thermal processes ($ \Delta U = Q - W $).
 
 61. Second Law of Thermodynamics: Entropy of an isolated system tends to increase; heat flows from hot to cold spontaneously.
 
@@ -144,7 +144,7 @@ Below is a concise, 100-point summary of key ideas and concepts typically covere
 
 65. Transverse vs. Longitudinal Waves: Particles move perpendicular to wave direction (transverse) or parallel (longitudinal).
 
-66. Wave Properties: Amplitude, wavelength, frequency, speed (\( v = f \lambda \)).
+66. Wave Properties: Amplitude, wavelength, frequency, speed ($ v = f \lambda $).
 
 67. Reflection: Bouncing of a wave off a surface.
 
@@ -184,9 +184,9 @@ Below is a concise, 100-point summary of key ideas and concepts typically covere
 
 85. Resistance: Opposition to current flow in a conductor; measured in Ohms (Ω).
 
-86. Ohm’s Law: \( V = IR \); voltage = current × resistance.
+86. Ohm’s Law: $ V = IR $; voltage = current × resistance.
 
-87. Electric Power: \( P = IV \); measured in Watts (W).
+87. Electric Power: $ P = IV $; measured in Watts (W).
 
 88. Circuits: Pathways for current (series or parallel configurations).
 
