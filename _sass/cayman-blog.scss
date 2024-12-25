@@ -1,7 +1,18 @@
 /* Variables */
-$section-headings-color: #3b3b3b;
+// Light mode variables
+$light-main-bg-color: #fff;
+$light-section-headings-color: #3b3b3b;
+
+// Dark mode variables
+$dark-main-bg-color: #1e1e1e;
+$dark-section-headings-color: #ccc;
+
+$main-bg-color: $light-main-bg-color;
+$section-headings-color: $light-section-headings-color;
+
+// $section-headings-color: #3b3b3b;
 $header-bg-color: #f8f0e3;
-$main-bg-color: #fff;
+// $main-bg-color: #fff;
 $pre-bg-color: #e0d9cf;
 $date-color: darkgray;
 $section-link-color: #2a6496;
@@ -166,7 +177,6 @@ $button-padding: 0.5rem 1rem;
   display: block;
   padding: 0.25rem 0.5rem;
   margin-bottom: 0;
-  background-color: #fff;
   list-style-type: none;
   cursor: pointer;
 
@@ -371,4 +381,74 @@ body {
   audio {
     margin: 0 auto;
   }
+}
+
+.dark-mode {
+
+  // Override your main background color
+  body {
+    background-color: $dark-main-bg-color;
+    color: white;
+  }
+
+  .main-content {
+    background-color: $dark-main-bg-color;
+
+    h6,
+    blockquote {
+      color: $dark-section-headings-color;
+    }
+  }
+
+  .page-header {
+    // If you need a darker background
+    background-image: linear-gradient(120deg, $dark-main-bg-color, #222);
+  }
+
+  .page-header {
+    background-color: #2f2f2f !important;
+    // Or pick a different dark color, e.g. #1f1f1f, #3a3a3a, etc.
+  }
+
+  // Pre/code block background color (was #e0d9cf)
+  pre {
+    background-color: #3a3a3a !important;
+    // or #2f2f2f, etc.
+  }
+
+  // Date color override (was darkgray)
+  .date {
+    color: #aaa !important;
+    // or #ccc, #bbb, etc.
+  }
+
+  // Link color override (was #2a6496)
+  a {
+    color: #66b2ff !important;
+    // or #88f, #3399ff, etc.
+  }
+
+  // etc. - override as needed
+}
+
+.icon-button {
+  background: transparent;
+  /* remove default button background */
+  border: none;
+  /* remove default button border */
+  padding: 0;
+  /* remove extra padding if any */
+  cursor: pointer;
+  /* ensures a pointer cursor on hover */
+  line-height: 0;
+  /* helps if the icon is large and you want minimal space around */
+  display: inline-flex;
+  /* or inline-block, helps center icon vertically if needed */
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button svg {
+  display: block;
+  /* ensures the SVG doesn't have extra spacing under it */
 }

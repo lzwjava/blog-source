@@ -145,4 +145,14 @@ layout: default
       window.open(pdfFile, '_blank');
     });
   }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const rootElement = document.documentElement; // or document.body
+    const savedTheme = localStorage.getItem('theme'); // e.g., "dark" or "light"
+
+    // If there's a saved theme and it's "dark," apply dark-mode class immediately
+    if (savedTheme === 'dark') {
+      rootElement.classList.add('dark-mode');
+    }
+  });  
 </script>
