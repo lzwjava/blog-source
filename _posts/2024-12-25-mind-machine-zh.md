@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "心智与机器：在人工智能时代驾驭人类极限"  
+title: "心智与机器"
 audio: true  
 ---
 

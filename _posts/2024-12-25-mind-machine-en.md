@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Mind vs. Machine: Navigating Human Limits in the Age of AI"  
+title: "Mind vs. Machine"
 audio: true  
 ---
 
