@@ -1466,5 +1466,13 @@
     "2024-12-24-computer-organization-en.md": {
         "output": "assets/pdfs/2024-12-24-computer-organization-en.pdf",
         "timestamp": "2024-12-25T08:23:03.278346"
+    },
+    "2024-12-25-predictions-zh.md": {
+        "output": "assets/pdfs/2024-12-25-predictions-zh.pdf",
+        "timestamp": "2024-12-25T08:39:56.575813"
+    },
+    "2024-12-25-predictions-en.md": {
+        "output": "assets/pdfs/2024-12-25-predictions-en.pdf",
+        "timestamp": "2024-12-25T08:39:59.195488"
     }
 }
