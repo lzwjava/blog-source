@@ -43,7 +43,7 @@ def split_into_sentences(text):
     sentences = sentence_endings.split(text)
     return sentences
 
-def split_text(text, max_bytes=4000):
+def split_text(text, max_bytes=3000):
     """
     Splits text into chunks not exceeding max_bytes.
     First splits text into sentences to ensure sentences are not split across chunks.
