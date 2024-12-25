@@ -2,5 +2,17 @@
     "assets/audios/2024-12-17-preexec-en.mp3": {
         "processed_chunks": [],
         "temp_files": []
+    },
+    "assets/audios/2024-12-25-physics-en.mp3": {
+        "processed_chunks": [
+            0,
+            1,
+            2
+        ],
+        "temp_files": [
+            "/var/folders/z9/9wvc1vr55x5821hsh8yvx0h00000gn/T/tmp7pxbp16p.mp3",
+            "/var/folders/z9/9wvc1vr55x5821hsh8yvx0h00000gn/T/tmpbxumjpex.mp3",
+            "/var/folders/z9/9wvc1vr55x5821hsh8yvx0h00000gn/T/tmpkcijk7t0.mp3"
+        ]
     }
 }
