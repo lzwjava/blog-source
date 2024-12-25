@@ -4,7 +4,7 @@ title: "Future Predictions"
 audio: true  
 ---
 
-*This post was written with the assistance of ChatGPT.*
+*This post was written with ChatGPT.*
 
 ---
 
