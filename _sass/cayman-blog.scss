@@ -15,7 +15,10 @@ $header-bg-color: #f8f0e3;
 // $main-bg-color: #fff;
 $pre-bg-color: #e0d9cf;
 $date-color: darkgray;
-$section-link-color: #2a6496;
+$light-section-link-color: #2a6496;
+$dark-section-link-color: white;
+
+
 $button-padding: 0.5rem 1rem;
 
 /* Buttons */
@@ -111,7 +114,7 @@ $button-padding: 0.5rem 1rem;
   }
 
   a {
-    color: $section-link-color;
+    color: $light-section-link-color;
   }
 }
 
@@ -125,7 +128,7 @@ $button-padding: 0.5rem 1rem;
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-  color: $section-link-color;
+  color: $light-section-link-color;
 }
 
 /* Circular Image */
@@ -398,6 +401,10 @@ body {
     blockquote {
       color: $dark-section-headings-color;
     }
+
+    a {
+      color: white !important;
+    }
   }
 
   .page-header {
@@ -422,10 +429,14 @@ body {
     // or #ccc, #bbb, etc.
   }
 
-  // Link color override (was #2a6496)
-  a {
-    color: #66b2ff !important;
-    // or #88f, #3399ff, etc.
+
+  .main-content h1,
+  .main-content h2,
+  .main-content h3,
+  .main-content h4,
+  .main-content h5,
+  .main-content h6 {
+    color: $dark-section-link-color;
   }
 
   // etc. - override as needed
