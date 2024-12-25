@@ -4,7 +4,7 @@ title: "关于机器学习、深度学习和GPT的100条关键见解"
 audio: true  
 ---
 
-*本篇文章由 ChatGPT 协助撰写。*
+*本篇文章由 ChatGPT 撰写。*
 
 ---
 
