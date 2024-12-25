@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "关于机器学习、深度学习和GPT的100条关键见解"  
+title: "机器学习、深度学习和GPT"  
 audio: true  
 ---
 

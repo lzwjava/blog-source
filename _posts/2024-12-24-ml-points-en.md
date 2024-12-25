@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Key Insights on ML, Deep Learning, and GPT"  
+title: "ML, DL, and GPT"  
 audio: true  
 ---
 
