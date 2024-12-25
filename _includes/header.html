@@ -3,7 +3,7 @@
   <!-- Part 1: Avatar -->
   <div class="row compact-row">
     <div class="circular-image">
-      <img src="/assets/images/avatar.jpg" alt="">
+      <img id="avatarImg" src="/assets/images/avatar.jpg" alt="">
     </div>
     <div class="text-container">
       <h3 class="project-name">{{ page.title | default: site.title }}</h3>
@@ -59,39 +59,31 @@
   const themeToggleBtn = document.getElementById('themeToggle');
   const sunIcon = document.getElementById('sunIcon');
   const moonIcon = document.getElementById('moonIcon');
+  const avatarImg = document.getElementById('avatarImg'); // reference to the <img>
 
-  // Retrieve saved theme
   const savedTheme = localStorage.getItem('theme');
-
-  // If the saved theme is "dark," apply .dark-mode immediately
   if (savedTheme === 'dark') {
     rootElement.classList.add('dark-mode');
   }
 
-  // Function to show/hide icons based on the current theme
-  function updateIcons() {
+  function updateIconsAndAvatar() {
     const isDark = rootElement.classList.contains('dark-mode');
-    // If dark mode is active, show "sun" icon (to switch back to light)
     sunIcon.style.display = isDark ? 'inline-block' : 'none';
-    // If light mode is active, show "moon" icon (to switch to dark)
     moonIcon.style.display = isDark ? 'none' : 'inline-block';
+    avatarImg.src = isDark
+      ? '/assets/images/avatar_dark.jpg'
+      : '/assets/images/avatar.jpg';
   }
 
-  // Run icon update on page load
-  updateIcons();
+  updateIconsAndAvatar();
 
-  // Listen for button clicks to toggle theme
   themeToggleBtn.addEventListener('click', function () {
     rootElement.classList.toggle('dark-mode');
-
-    // Update localStorage based on new theme status
     if (rootElement.classList.contains('dark-mode')) {
       localStorage.setItem('theme', 'dark');
     } else {
       localStorage.setItem('theme', 'light');
     }
-
-    // Update icons after toggling
-    updateIcons();
+    updateIconsAndAvatar();
   });
 </script>
