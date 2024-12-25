@@ -4,7 +4,7 @@ title: "Key Insights on ML, Deep Learning, and GPT"
 audio: true  
 ---
 
-*This post was written with the assistance of ChatGPT.*
+*This post was written with ChatGPT.*
 
 ---
 
