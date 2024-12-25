@@ -1450,5 +1450,21 @@
     "2024-12-24-ml-points-en.md": {
         "output": "assets/pdfs/2024-12-24-ml-points-en.pdf",
         "timestamp": "2024-12-25T06:01:26.389542"
+    },
+    "2024-12-25-mind-machine-zh.md": {
+        "output": "assets/pdfs/2024-12-25-mind-machine-zh.pdf",
+        "timestamp": "2024-12-25T08:22:55.190943"
+    },
+    "2024-12-25-mind-machine-en.md": {
+        "output": "assets/pdfs/2024-12-25-mind-machine-en.pdf",
+        "timestamp": "2024-12-25T08:22:57.859347"
+    },
+    "2024-12-24-computer-organization-zh.md": {
+        "output": "assets/pdfs/2024-12-24-computer-organization-zh.pdf",
+        "timestamp": "2024-12-25T08:23:00.594596"
+    },
+    "2024-12-24-computer-organization-en.md": {
+        "output": "assets/pdfs/2024-12-24-computer-organization-en.pdf",
+        "timestamp": "2024-12-25T08:23:03.278346"
     }
 }
