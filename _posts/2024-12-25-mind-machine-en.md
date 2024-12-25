@@ -4,7 +4,7 @@ title: "Mind vs. Machine: Navigating Human Limits in the Age of AI"
 audio: true  
 ---
 
-*This post was written with the assistance of ChatGPT.*
+*This post was written with ChatGPT.*
 
 ---
 
