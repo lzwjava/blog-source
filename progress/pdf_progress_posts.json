@@ -1474,5 +1474,21 @@
     "2024-12-25-predictions-en.md": {
         "output": "assets/pdfs/2024-12-25-predictions-en.pdf",
         "timestamp": "2024-12-25T08:53:49.777435"
+    },
+    "2024-12-25-network-zh.md": {
+        "output": "assets/pdfs/2024-12-25-network-zh.pdf",
+        "timestamp": "2024-12-25T11:08:28.726461"
+    },
+    "2024-12-25-network-en.md": {
+        "output": "assets/pdfs/2024-12-25-network-en.pdf",
+        "timestamp": "2024-12-25T11:08:31.375210"
+    },
+    "2024-12-25-chemistry-zh.md": {
+        "output": "assets/pdfs/2024-12-25-chemistry-zh.pdf",
+        "timestamp": "2024-12-25T11:08:34.122613"
+    },
+    "2024-12-25-chemistry-en.md": {
+        "output": "assets/pdfs/2024-12-25-chemistry-en.pdf",
+        "timestamp": "2024-12-25T11:08:36.824180"
     }
 }
