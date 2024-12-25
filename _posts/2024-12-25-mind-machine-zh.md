@@ -4,7 +4,7 @@ title: "心智与机器：在人工智能时代驾驭人类极限"
 audio: true  
 ---
 
-*本文由ChatGPT协助撰写。*
+*本文由ChatGPT撰写。*
 
 ---
 
