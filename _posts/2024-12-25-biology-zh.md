@@ -4,7 +4,7 @@ title: "生物"
 audio: true  
 ---
 
-*This post was written with ChatGPT.*
+*本文由ChatGPT撰写。*
 
 ---
 
