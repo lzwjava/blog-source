@@ -4,10 +4,11 @@ import argparse
 from datetime import datetime
 import subprocess
 
-# Define progress files for both tasks
+# Define progress files for all tasks, including 'notes'
 PROGRESS_FILES = {
     'pages': 'progress/pdf_progress_pages.json',
-    'posts': 'progress/pdf_progress_posts.json'
+    'posts': 'progress/pdf_progress_posts.json',
+    'notes': 'progress/pdf_progress_notes.json'  # Added notes task
 }
 
 # Fixed output directory
@@ -85,7 +86,6 @@ def text_to_pdf_from_markdown(input_markdown_path, output_pdf_path, dry_run=Fals
     print(f"PDF content written to {output_pdf_path}")
 
     # Scale the PDF using pdfjam if desired
-    # If you don't need scaling, you can remove this part
     scale_factor = "1.0"
     tmp_pdf_path = output_pdf_path.replace(".pdf", "-tmp.pdf")
 
@@ -115,6 +115,7 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=10000, d
     Process Markdown files to generate PDFs.
     For 'pages', convert all .md files in that directory.
     For 'posts', convert the last N .md files in that directory.
+    For 'notes', convert all Markdown files in the notes directory.
     """
     os.makedirs(output_dir, exist_ok=True)
 
@@ -128,6 +129,11 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=10000, d
         md_files_to_process = get_last_n_files(input_dir, n)
         total_files = len(md_files_to_process)
         print(f"Total Markdown files to process in '_posts' (last {n}): {total_files}")
+    elif task == 'notes':
+        # Process all Markdown files in 'notes'
+        md_files_to_process = [f for f in os.listdir(input_dir) if f.endswith('.md')]
+        total_files = len(md_files_to_process)
+        print(f"Total Markdown files to process in 'notes': {total_files}")
     else:
         print("Invalid task specified.")
         return
@@ -211,57 +217,30 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=10000, d
                 dry_run=dry_run
             )
             
-            # Remove the temporary file
+            # Remove temporary cleaned markdown file
             os.remove(cleaned_md_path)
 
-            files_processed += 1
-            print(f"File {files_processed}/{total_files} processed.\n")
-
-            # Update progress
-            progress[filename] = {
-                'output': output_filename,
-                'timestamp': datetime.now().isoformat()
-            }
+            # Save progress
+            progress[filename] = {"output": output_filename, "timestamp": str(datetime.now())}
             save_progress(task, progress)
 
+            files_processed += 1
             if files_processed >= max_files:
-                print("Processed the maximum allowed files.")
+                print(f"Processed {max_files} files. Stopping.")
                 break
 
         except Exception as e:
-            print(f"Failed to process {filename}: {e}")
+            print(f"Error processing {filename}: {e}")
             continue
 
-    print(f"Processing complete! {files_processed}/{total_files} files processed.")
-
-
+# Main function with argument parsing
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process Markdown files to generate PDFs using pandoc.")
-    parser.add_argument('--task', choices=['pages', 'posts'], required=True, help="Task to perform: 'pages' or 'posts'")
-    parser.add_argument('--n', type=int, default=10, help="Number of last files to process (only for 'posts').")
-    parser.add_argument('--max_files', type=int, default=10000, help="Maximum number of files to process.")
-    parser.add_argument('--dry_run', action='store_true', help="Perform a dry run without generating PDFs.")
-
+    parser = argparse.ArgumentParser(description="Convert Markdown files to PDFs.")
+    parser.add_argument('--task', choices=['pages', 'posts', 'notes'], required=True, help="Task to process: 'pages', 'posts', or 'notes'.")
+    parser.add_argument('--n', type=int, default=10, help="Number of files to process for 'posts' task (default: 10).")
+    parser.add_argument('--max_files', type=int, default=10000, help="Maximum number of files to process (default: 10000).")
+    parser.add_argument('--dry_run', action='store_true', help="Simulate the conversion without actual file generation.")
     args = parser.parse_args()
 
-    # Determine input_dir based on task
-    if args.task == 'pages':
-        input_directory = "pages"
-        max_files = args.max_files
-        n = None  # Not used for 'pages'
-    elif args.task == 'posts':
-        input_directory = "_posts"
-        n = args.n
-        max_files = args.max_files
-    else:
-        print("Invalid task specified. Choose either 'pages' or 'posts'.")
-        exit(1)
-
-    process_markdown_files(
-        task=args.task,
-        input_dir=input_directory,
-        output_dir=OUTPUT_DIRECTORY,
-        n=args.n if args.task == 'posts' else 0,
-        max_files=args.max_files,
-        dry_run=args.dry_run
-    )
+    input_dir = "pages" if args.task == 'pages' else "_posts" if args.task == 'posts' else "notes"
+    process_markdown_files(args.task, input_dir, OUTPUT_DIRECTORY, n=args.n, max_files=args.max_files, dry_run=args.dry_run)
