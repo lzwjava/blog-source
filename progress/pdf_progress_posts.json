@@ -1490,5 +1490,21 @@
     "2024-12-25-chemistry-en.md": {
         "output": "assets/pdfs/2024-12-25-chemistry-en.pdf",
         "timestamp": "2024-12-25T11:08:36.824180"
+    },
+    "2024-12-26-notes-zh.md": {
+        "output": "assets/pdfs/2024-12-26-notes-zh.pdf",
+        "timestamp": "2024-12-26T18:18:06.087435"
+    },
+    "2024-12-26-notes-en.md": {
+        "output": "assets/pdfs/2024-12-26-notes-en.pdf",
+        "timestamp": "2024-12-26T18:18:08.637981"
+    },
+    "2024-12-26-chatgpt-ios-zh.md": {
+        "output": "assets/pdfs/2024-12-26-chatgpt-ios-zh.pdf",
+        "timestamp": "2024-12-26T18:18:11.266754"
+    },
+    "2024-12-26-chatgpt-ios-en.md": {
+        "output": "assets/pdfs/2024-12-26-chatgpt-ios-en.pdf",
+        "timestamp": "2024-12-26T18:18:13.911229"
     }
 }
