@@ -12,10 +12,11 @@ import time
 from datetime import datetime
 import argparse
 
-# Define progress files for both tasks
+# Define progress files for all tasks
 PROGRESS_FILES = {
     'pages': 'progress/progress_pages.json',
-    'posts': 'progress/progress_posts.json'
+    'posts': 'progress/progress_posts.json',
+    'notes': 'progress/progress_notes.json'  # Added notes task
 }
 
 # Fixed output directory
@@ -24,22 +25,23 @@ OUTPUT_DIRECTORY = "assets/audios"
 def load_progress(task):
     progress_file = PROGRESS_FILES.get(task)
     if progress_file and os.path.exists(progress_file):
-        with open(progress_file, 'r') as f:
+        with open(progress_file, 'r', encoding='utf-8') as f:
             return json.load(f)
     return {}
 
 def save_progress(task, progress):
     progress_file = PROGRESS_FILES.get(task)
     if progress_file:
-        with open(progress_file, 'w') as f:
-            json.dump(progress, f, indent=4)
+        os.makedirs(os.path.dirname(progress_file), exist_ok=True)  # Ensure progress directory exists
+        with open(progress_file, 'w', encoding='utf-8') as f:
+            json.dump(progress, f, indent=4, ensure_ascii=False)
 
 def split_into_sentences(text):
     """
     Splits text into sentences using regex.
     Handles common sentence endings.
     """
-    sentence_endings = re.compile(r'(?<=[.!?]) +')
+    sentence_endings = re.compile(r'(?<=[.!?。！？]) +')
     sentences = sentence_endings.split(text)
     return sentences
 
@@ -61,7 +63,7 @@ def split_text(text, max_bytes=3000):
         # Check if the sentence itself exceeds max_bytes
         if len(sentence.encode('utf-8')) > max_bytes:
             # Further split the sentence by commas or other delimiters
-            sub_sentences = re.split(r', |; |: |。|，', sentence)
+            sub_sentences = re.split(r', |; |: |，|；|：|。', sentence)
             for sub_sentence in sub_sentences:
                 sub_sentence = sub_sentence.strip()
                 if not sub_sentence:
@@ -131,7 +133,7 @@ def text_to_speech(text, output_filename, task, language_code="en-US", voice_nam
             except Exception as e:
                 # Check if the error is due to sentences being too long
                 error_message = str(e).lower()
-                if 'sentences that are too long' in error_message:
+                if 'sentences that are too long' in error_message or 'text too long' in error_message:
                     print(f"Chunk {idx + 1} has sentences that are too long. Attempting to split further.")
                     # Split the chunk into smaller parts and process each
                     sub_sentences = split_into_sentences(chunk)
@@ -247,6 +249,10 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry
         last_md_files = get_last_n_files(input_dir, n)
         total_files = len(last_md_files)
         print(f"Total Markdown files to process in '_posts' (last {n}): {total_files}")
+    elif task == 'notes':
+        last_md_files = get_last_n_files(input_dir, n)
+        total_files = len(last_md_files)
+        print(f"Total Markdown files to process in 'notes' (last {n}): {total_files}")
     else:
         print("Invalid task specified.")
         return
@@ -272,29 +278,25 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry
             continue
         print(f"\nProcessing {files_processed + 1}/{total_files}: {filename}")
         try:
-            if '-zh' in filename:
-                text_to_speech(
-                    article_text, 
-                    output_filename, 
-                    task=task, 
-                    language_code="cmn-CN", 
-                    dry_run=dry_run,
-                    progress=progress
-                )
+            # Determine language based on filename suffix
+            if filename.endswith('-zh.md'):
+                language_code = "cmn-CN"
+                voice_language_code = "cmn-CN"
             else:
-                text_to_speech(
-                    article_text, 
-                    output_filename, 
-                    task=task, 
-                    dry_run=dry_run,
-                    progress=progress
-                )
+                language_code = "en-US"
+                voice_language_code = "en-US"
+            
+            text_to_speech(
+                text=article_text, 
+                output_filename=output_filename, 
+                task=task, 
+                language_code=language_code, 
+                dry_run=dry_run,
+                progress=progress
+            )
             files_processed += 1
             print(f"File {files_processed}/{total_files} processed.\n")
-            if task == 'pages' and files_processed >= max_files:
-                print("Processed the maximum allowed files.")
-                break
-            if task == 'posts' and files_processed >= max_files:
+            if task in ['pages', 'posts', 'notes'] and files_processed >= max_files:
                 print("Processed the maximum allowed files.")
                 break
         except Exception as e:
@@ -305,11 +307,11 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process Markdown files to generate audio.")
-    parser.add_argument('--task', choices=['pages', 'posts'], required=True, help="Task to perform: 'pages' or 'posts'")
-    parser.add_argument('--n', type=int, default=10, help="Number of last files to process (only for 'posts').")
+    parser.add_argument('--task', choices=['pages', 'posts', 'notes'], required=True, help="Task to perform: 'pages', 'posts', or 'notes'")
+    parser.add_argument('--n', type=int, default=10, help="Number of last files to process (only for 'posts' and 'notes').")
     parser.add_argument('--max_files', type=int, default=100, help="Maximum number of files to process (only for 'pages').")
     parser.add_argument('--dry_run', action='store_true', help="Perform a dry run without generating audio.")
-    
+
     args = parser.parse_args()
 
     # Determine input_dir based on task
@@ -321,8 +323,12 @@ if __name__ == "__main__":
         input_directory = "_posts"
         n = args.n
         max_files = args.max_files  # Typically 10 for 'posts', but keeping flexibility
+    elif args.task == 'notes':
+        input_directory = "notes"
+        n = args.n
+        max_files = args.max_files  # Typically 10 for 'notes', but keeping flexibility
     else:
-        print("Invalid task specified. Choose either 'pages' or 'posts'.")
+        print("Invalid task specified. Choose either 'pages', 'posts', or 'notes'.")
         exit(1)
 
     # Handle 'n' and 'max_files' based on task
@@ -335,7 +341,7 @@ if __name__ == "__main__":
             max_files=args.max_files,
             dry_run=args.dry_run
         )
-    elif args.task == 'posts':
+    elif args.task in ['posts', 'notes']:
         process_markdown_files(
             task=args.task,
             input_dir=input_directory,

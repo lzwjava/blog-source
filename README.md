@@ -35,6 +35,8 @@ python audio-pipeline.py --task posts --n 10
 
 python audio-pipeline.py --task pages
 
+python audio-pipeline.py --task notes
+
 python pdf-pipeline.py --task pages
 
 python pdf-pipeline.py --task posts --n 10
