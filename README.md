@@ -41,6 +41,8 @@ python pdf-pipeline.py --task pages
 
 python pdf-pipeline.py --task posts --n 10
 
+python pdf-pipeline.py --task notes
+
 ```
 
 Refer:
