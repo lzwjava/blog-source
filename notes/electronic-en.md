@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "lectronic Fundamentals"
+title: "electronic Fundamentals"
 ---
 
 ### Basic Electronic Components
