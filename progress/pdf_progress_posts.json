@@ -1506,5 +1506,13 @@
     "2024-12-26-chatgpt-ios-en.md": {
         "output": "assets/pdfs/2024-12-26-chatgpt-ios-en.pdf",
         "timestamp": "2024-12-26T18:18:13.911229"
+    },
+    "2024-12-26-track-zh.md": {
+        "output": "assets/pdfs/2024-12-26-track-zh.pdf",
+        "timestamp": "2024-12-26T19:37:30.388349"
+    },
+    "2024-12-26-track-en.md": {
+        "output": "assets/pdfs/2024-12-26-track-en.pdf",
+        "timestamp": "2024-12-26T19:37:33.057677"
     }
 }
