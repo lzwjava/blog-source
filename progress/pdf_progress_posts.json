@@ -1514,5 +1514,21 @@
     "2024-12-26-track-en.md": {
         "output": "assets/pdfs/2024-12-26-track-en.pdf",
         "timestamp": "2024-12-26T19:37:33.057677"
+    },
+    "2024-12-27-markdown-zh.md": {
+        "output": "assets/pdfs/2024-12-27-markdown-zh.pdf",
+        "timestamp": "2024-12-28 00:26:25.694367"
+    },
+    "2024-12-27-markdown-en.md": {
+        "output": "assets/pdfs/2024-12-27-markdown-en.pdf",
+        "timestamp": "2024-12-28 00:26:28.300447"
+    },
+    "2024-12-27-gloves-zh.md": {
+        "output": "assets/pdfs/2024-12-27-gloves-zh.pdf",
+        "timestamp": "2024-12-28 00:26:30.987582"
+    },
+    "2024-12-27-gloves-en.md": {
+        "output": "assets/pdfs/2024-12-27-gloves-en.pdf",
+        "timestamp": "2024-12-28 00:26:33.648009"
     }
 }
