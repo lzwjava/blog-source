@@ -14,6 +14,7 @@ Upon further testing, I found that when using a DigitalOcean Singapore region VP
 
 It seems that ChatGPT iOS VPN detection is based on specific IP addresses. Some cloud providers or certain IP addresses are banned, which may explain the inconsistent behavior depending on the VPN server location.
 
-![](/assets/images/chatgpt/block.jpg){: .responsive }
+![](assets/images/chatgpt/block.jpg){: .responsive }
 
-![](/assets/images/chatgpt/c1.png){: .responsive }
+![](assets/images/chatgpt/c1.png){: .responsive }
+

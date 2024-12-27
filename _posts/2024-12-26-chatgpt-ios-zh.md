@@ -14,8 +14,8 @@ audio: true
 
 看起来，ChatGPT iOS 的 VPN 检测是基于某些 IP 地址的。一些云服务提供商或特定的 IP 地址被封禁，这可能解释了根据 VPN 服务器位置不同，访问的行为不一致。
 
-![](/assets/images/chatgpt/block.jpg){: .responsive }
+![](assets/images/chatgpt/block.jpg){: .responsive }
 
-![](/assets/images/chatgpt/c1.png){: .responsive }
+![](assets/images/chatgpt/c1.png){: .responsive }
 
 
