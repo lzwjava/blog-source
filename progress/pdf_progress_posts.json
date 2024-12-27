@@ -1530,5 +1530,13 @@
     "2024-12-27-gloves-en.md": {
         "output": "assets/pdfs/2024-12-27-gloves-en.pdf",
         "timestamp": "2024-12-28 00:26:33.648009"
+    },
+    "2024-12-27-proxy-zh.md": {
+        "output": "assets/pdfs/2024-12-27-proxy-zh.pdf",
+        "timestamp": "2024-12-28 01:29:10.536486"
+    },
+    "2024-12-27-proxy-en.md": {
+        "output": "assets/pdfs/2024-12-27-proxy-en.pdf",
+        "timestamp": "2024-12-28 01:29:13.177309"
     }
 }
