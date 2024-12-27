@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Markdown for Both Kramdown and XeLaTeX PDF"
+title: "Markdown Issues: Kramdown & XeLaTeX"
 audio: true
 ---
 

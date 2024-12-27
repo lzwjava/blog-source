@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "同时支持 Kramdown 和 XeLaTeX 的 Markdown 编写"
+title: "Markdown 问题：Kramdown 和 XeLaTeX"
 audio: true
 ---
 
