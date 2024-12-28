@@ -1,3 +1,8 @@
+---                            
+layout: post                            
+title: "GitHub Readme"                       
+---        
+
 ## Skills
 
 I have gained a lot of skills since I started programming in 2008. Let's look at my skills from a high level. 

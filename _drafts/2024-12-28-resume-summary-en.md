@@ -1,3 +1,8 @@
+---                            
+layout: post                            
+title: "Resume Summary"                       
+---        
+
 Basic information:
 - Male, 29 years old, once studied for 1 year in Beijing Forestry University
 - Related Experience: 9 years
