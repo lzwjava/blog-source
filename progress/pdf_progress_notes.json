@@ -118,5 +118,13 @@
     "law-en.md": {
         "output": "assets/pdfs/law-en.pdf",
         "timestamp": "2024-12-27 03:43:25.285181"
+    },
+    "active-learning-zh.md": {
+        "output": "assets/pdfs/active-learning-zh.pdf",
+        "timestamp": "2024-12-28 21:35:15.181160"
+    },
+    "active-learning-en.md": {
+        "output": "assets/pdfs/active-learning-en.pdf",
+        "timestamp": "2024-12-28 21:35:17.795383"
     }
 }
