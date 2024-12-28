@@ -5,6 +5,8 @@ link: "pages/papers-zh"
 audio: true
 ---
 
+I’m a self-taught researcher with three academic-style papers on reversing myopia and natural vision restoration, inspired by the works of Yin Wang and Todd Becker, supported by three years of experimentation. In computer science, I am still striving to make similar breakthroughs.
+
 * Li, Zhiwei. (Jun 2023). *Experimental Verification of the Natural Vision Restoration Method.* Zhiwei’s Blog. [Web](/vision-restoration-en). [PDF](/assets/papers/vision-restoration.pdf).
 
 * Li, Zhiwei. (Jun 2023). *Astigmatism in Reversing Myopia.* Zhiwei’s Blog. [Web](/astigmatism-en). [PDF](/assets/papers/astigmatism.pdf).
