@@ -1546,5 +1546,13 @@
     "2024-12-28-sync-en.md": {
         "output": "assets/pdfs/2024-12-28-sync-en.pdf",
         "timestamp": "2024-12-28 08:18:57.095646"
+    },
+    "2024-12-28-hdmi-zh.md": {
+        "output": "assets/pdfs/2024-12-28-hdmi-zh.pdf",
+        "timestamp": "2024-12-28 20:02:55.584197"
+    },
+    "2024-12-28-hdmi-en.md": {
+        "output": "assets/pdfs/2024-12-28-hdmi-en.pdf",
+        "timestamp": "2024-12-28 20:02:58.248400"
     }
 }
