@@ -62,5 +62,13 @@
     "portfolio-en.md": {
         "output": "assets/pdfs/portfolio-en.pdf",
         "timestamp": "2024-12-20T23:08:21.961610"
+    },
+    "papers-zh.md": {
+        "output": "assets/pdfs/papers-zh.pdf",
+        "timestamp": "2024-12-28 22:05:26.606551"
+    },
+    "papers-en.md": {
+        "output": "assets/pdfs/papers-en.pdf",
+        "timestamp": "2024-12-28 22:05:29.195463"
     }
 }
