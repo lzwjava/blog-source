@@ -1554,5 +1554,13 @@
     "2024-12-28-hdmi-en.md": {
         "output": "assets/pdfs/2024-12-28-hdmi-en.pdf",
         "timestamp": "2024-12-28 20:07:41.336165"
+    },
+    "2024-12-28-focus-zh.md": {
+        "output": "assets/pdfs/2024-12-28-focus-zh.pdf",
+        "timestamp": "2024-12-28 21:08:33.555483"
+    },
+    "2024-12-28-focus-en.md": {
+        "output": "assets/pdfs/2024-12-28-focus-en.pdf",
+        "timestamp": "2024-12-28 21:08:36.185562"
     }
 }
