@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "学术论文"
+link: "pages/papers-en"
+audio: true
 ---
 
 * 李智维. (2023年6月). *自然视力恢复方法的实验验证.* 智维的博客. [网页](/vision-restoration-en). [PDF](/assets/papers/vision-restoration.pdf)
