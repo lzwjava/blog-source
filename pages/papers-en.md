@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Academical Papers"
+link: "pages/papers-zh"
+audio: true
 ---
 
 * Li, Zhiwei. (Jun 2023). *Experimental Verification of the Natural Vision Restoration Method.* Zhiwei’s Blog. [Web](/vision-restoration-en). [PDF](/assets/papers/vision-restoration.pdf).
