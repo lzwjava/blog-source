@@ -1,6 +1,10 @@
 {
-    "assets/audios/competitive-programming-zh.mp3": {
-        "processed_chunks": [],
-        "temp_files": []
+    "assets/audios/competitive-programming-en.mp3": {
+        "processed_chunks": [
+            0
+        ],
+        "temp_files": [
+            "/var/folders/z9/9wvc1vr55x5821hsh8yvx0h00000gn/T/tmpyzb9jp2a.mp3"
+        ]
     }
 }
