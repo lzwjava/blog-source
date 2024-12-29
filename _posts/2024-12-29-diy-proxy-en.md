@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Set Up Your Proxy Server in China - 2025"  
+title: "Set Up Your Proxy Server"  
 audio: true  
 ---
 
