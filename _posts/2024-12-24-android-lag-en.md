@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Why Android Devices Lag During Video Playback While Downloading"  
+title: "Why Android Devices Lag"  
 audio: true  
 ---
 
