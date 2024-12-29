@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "为什么安卓设备在下载视频时播放视频会卡顿"  
+title: "为什么安卓设备会卡顿"  
 audio: true  
 ---
 
