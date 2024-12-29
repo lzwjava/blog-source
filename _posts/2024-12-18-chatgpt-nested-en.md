@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ChatGPT Couldn’t Provide the Perfect Output for Nested Code Blocks"
+title: "ChatGPT’s Bug with Nested Code Blocks"
 audio: true
 ---
 
