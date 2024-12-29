@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Flashlight with Ingenious Rotating Charging Port"  
+title: "Ingenious Flashlight"  
 audio: true  
 ---
 
