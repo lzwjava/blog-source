@@ -1,21 +1,23 @@
 ---
-layout: post
-title: "Subscribe"
-link: "pages/subscribe-zh"
-audio: true
+layout: post  
+title: "Subscribe"  
+link: "pages/subscribe-zh"  
+audio: true  
 ---
 
-Please subscribe to my blog post updates on X (Twitter).
+Stay updated with my latest blog posts by subscribing via RSS feed or following me on X (Twitter).  
 
-My X account is @lzwjava.
+- RSS Feed:  
+  Subscribe using this link: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).  
 
-The link is [https://mobile.twitter.com/lzwjava](https://mobile.twitter.com/lzwjava).
+- X (Twitter):  
+  Follow me at [@lzwjava](https://mobile.twitter.com/lzwjava) for updates and more.  
 
-Here are some of my platform accounts:
+Besides, here are some of my platform accounts:
 
-| **Platform**   | **Link**                                        |
+| Platform   | Link                                        |
 |----------------|-------------------------------------------------|
-| **Code**       | [GitHub](https://github.com/lzwjava)            |
+| Code       | [GitHub](https://github.com/lzwjava)            |
 |                | [Codeforces](https://codeforces.com/profile/lzwjava) |
 |                | [UVa Judge](https://uhunt.onlinejudge.org/id/113519) |
 |                | [Blog](https://lzwjava.github.io)               |
@@ -27,17 +29,17 @@ Here are some of my platform accounts:
 |                | [CodeChef](https://www.codechef.com/users/lzwjava) |
 |                | [CSDN](https://blog.csdn.net/lzw_java)          |
 |                | [StackOverflow](https://stackoverflow.com/users/3044511/lzwjava) |
-| **Social**     | [Weibo](https://weibo.com/zhiweilee)            |
+| Social     | [Weibo](https://weibo.com/zhiweilee)            |
 |                | [Twitter](https://twitter.com/lzwjava)          |
 |                | [LinkedIn](https://www.linkedin.com/in/lzwjava) |
 |                | [Facebook](https://www.facebook.com/lzwjava)    |
 |                | [Xiaohongshu](https://www.xiaohongshu.com/user/profile/577ba85b6a6a6913f98f237b) |
 |                | [BlueSky](https://bsky.app/profile/lzwjava.bsky.social) |
 |                | [Threads](https://www.threads.net/@lzwjava)     |
-| **Video**      | [Douban](https://www.douban.com/people/lzwjava/) |
+| Video      | [Douban](https://www.douban.com/people/lzwjava/) |
 |                | [TikTok](https://www.tiktok.com/@jamesleecool)  |
 |                | [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ) |
-| **Messaging**  | [Telegram](https://t.me/lzwjava)               |
+| Messaging  | [Telegram](https://t.me/lzwjava)               |
 |                | [WhatsApp](https://wa.me/12345678900)          |
-| **Other**      | [Quora](https://www.quora.com/profile/Lzw-2)    |
+| Other      | [Quora](https://www.quora.com/profile/Lzw-2)    |
 
