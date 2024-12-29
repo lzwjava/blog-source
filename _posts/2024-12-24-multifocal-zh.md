@@ -54,3 +54,9 @@ audio: true
 - 散光：-1.00  
 - 轴位：2
 
+---
+
+{: .centered }
+![](assets/images/multifocal/pdd.jpg){: .responsive }
+*来源：拼多多（pinduoduo.com）*{: .caption }
+
