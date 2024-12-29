@@ -54,3 +54,9 @@ Left Eye:
 - Astigmatism: -1.00  
 - Axis: 2
 
+---
+
+{: .centered }
+![](assets/images/multifocal/pdd.jpg){: .responsive }
+*Source: pinduoduo.com*{: .caption }
+
