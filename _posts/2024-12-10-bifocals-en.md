@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Problems Do Bifocals Have"
+title: "Bifocals"
 audio: true  
 ---
 
