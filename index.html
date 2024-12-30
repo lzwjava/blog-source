@@ -2,6 +2,12 @@
 layout: page
 ---
 
+<select id="sort-select">
+  <option value="date-desc" selected>Date Descending</option>
+  <option value="date-asc">Date Ascending</option>
+  <option value="title-asc">Title Alphabetical</option>
+</select>
+
 <ul class="post-list">
   <!-- Display pinned posts first -->
   {% for post in site.posts %}
@@ -31,3 +37,57 @@ layout: page
 <footer class="site-footer">
   <span class="site-footer-credits">Copyright©2010－{{ site.time | date: "%Y" }}</span>
 </footer>
+
+<script>
+  window.addEventListener('load', function () {
+    const pinnedPosts = document.querySelectorAll('.post-list li.post-item.pinned-post');
+    const nonPinnedPosts = document.querySelectorAll('.post-list li.post-item:not(.pinned-post)');
+
+    const postArray = Array.from(nonPinnedPosts).map(post => {
+      const dateStr = post.querySelector('.date').textContent.replace(/\./g, '-');
+      return {
+        element: post,
+        date: new Date(dateStr),
+        title: post.querySelector('.title').textContent.toLowerCase()
+      };
+    });
+
+    function sortPosts(sortOption) {
+      switch (sortOption) {
+        case 'date-desc':
+          return postArray.sort((a, b) => b.date - a.date);
+        case 'date-asc':
+          return postArray.sort((a, b) => a.date - b.date);
+        case 'title-asc':
+          return postArray.sort((a, b) => a.title.localeCompare(b.title));
+        default:
+          return postArray.sort((a, b) => b.date - a.date);
+      }
+    }
+
+    function updatePostList(sortedPosts) {
+      const postList = document.querySelector('.post-list');
+      nonPinnedPosts.forEach(post => postList.removeChild(post));
+      sortedPosts.forEach(post => postList.appendChild(post.element));
+    }
+
+    document.getElementById('sort-select').addEventListener('change', function () {
+      const selectedSort = this.value;
+      localStorage.setItem('sortOption', selectedSort);
+      const sortedPosts = sortPosts(selectedSort);
+      updatePostList(sortedPosts);
+    });
+
+    window.addEventListener('load', function () {
+      const savedSort = localStorage.getItem('sortOption');
+      if (savedSort) {
+        document.getElementById('sort-select').value = savedSort;
+      } else {
+        document.getElementById('sort-select').value = 'date-desc';
+      }
+      const selectedSort = document.getElementById('sort-select').value;
+      const sortedPosts = sortPosts(selectedSort);
+      updatePostList(sortedPosts);
+    });
+  });
+</script>

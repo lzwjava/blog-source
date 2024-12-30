@@ -19,6 +19,9 @@ $light-section-link-color: #2a6496;
 $dark-section-link-color: white;
 
 
+$primary-color: #333;
+$secondary-color: #666;
+
 $button-padding: 0.5rem 1rem;
 
 /* Buttons */
@@ -462,4 +465,40 @@ body {
 .icon-button svg {
   display: block;
   /* ensures the SVG doesn't have extra spacing under it */
+}
+
+/* Sorting Select Element */
+#sort-select {
+  display: block;
+  margin: 0 auto;
+  min-width: 200px;
+  padding: $button-padding;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  background-color: $main-bg-color;
+  color: $primary-color;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: $secondary-color;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #sort-select {
+    min-width: 100%;
+  }
+}
+
+.dark-mode #sort-select {
+  background-color: $dark-main-bg-color;
+  color: white;
+  border-color: rgba(255, 255, 255, 0.2);
+
+  &:focus {
+    border-color: $dark-section-link-color;
+  }
 }
