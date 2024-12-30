@@ -1,8 +1,9 @@
 ---
-layout: post  
-title: "ChatGPT 在嵌套代码块中的问题"  
-audio: true  
----  
+audio: true
+lang: zh
+layout: post
+title: ChatGPT 在嵌套代码块中的问题
+---
 
 ### 问题说明
 

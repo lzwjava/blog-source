@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title: "禅与机器学习的艺术"
+title: 禅与机器学习的艺术
 usemathjax: true
 ---
 

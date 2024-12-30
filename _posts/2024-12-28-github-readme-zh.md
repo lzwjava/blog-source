@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "GitHub Readme 介绍"  
-audio: true  
+audio: true
+lang: zh
+layout: post
+title: GitHub Readme 介绍
 ---
 
 | 项目 | 语言 | 提交次数 | 项目 | 语言 | 提交次数 |  
@@ -15,5 +16,4 @@ audio: true
 | [curiosity-courses](https://github.com/lzwjava/curiosity-courses) | 中文 | 215 | [lvchensign](https://github.com/lzwjava/lvchensign) | JavaScript | 40 |  
 | [feynman-lectures-mobi](https://github.com/lzwjava/feynman-lectures-mobi) | Python | 47 | [Creak](https://github.com/lzwjava/Creak) | Swift | 49 |  
 | [Reveal-In-GitHub](https://github.com/lzwjava/Reveal-In-GitHub) | Objective-C | 56 | [Keynotes](https://github.com/lzwjava/Keynotes) | 中文 | 32 |  
-| [weimg-server](https://github.com/lzwjava/weimg-server) | PHP | 35 | [weimg-ios](https://github.com/lzwjava/weimg-ios) | Objective-C | 77 |  
-
+| [weimg-server](https://github.com/lzwjava/weimg-server) | PHP | 35 | [weimg-ios](https://github.com/lzwjava/weimg-ios) | Objective-C | 77 |

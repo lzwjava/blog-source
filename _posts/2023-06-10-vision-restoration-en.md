@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Experimental Verification of the Natural Vision Restoration Method"
+lang: en
+layout: post
+title: Experimental Verification of the Natural Vision Restoration Method
 ---
 
 <div align="center"><img src="/assets/images/eyes/glasses.jpeg" width="400px" /></div>

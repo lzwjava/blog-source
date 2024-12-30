@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Some Global Cloud Platforms"
+title: Some Global Cloud Platforms
 ---
 
 <div align="center"><img src="/assets/images/cloud/platform.jpg" width="400px"/><img/></div>

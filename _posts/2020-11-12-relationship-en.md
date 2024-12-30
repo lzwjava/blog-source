@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title:  "How to Build Relationships"
+title: How to Build Relationships
 ---
 
 *This blog post was translated by ChatGPT.*

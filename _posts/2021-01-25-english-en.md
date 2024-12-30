@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title:  "Improving English with Extensive Input"
+title: Improving English with Extensive Input
 ---
 
 Translated by ChatGPT.

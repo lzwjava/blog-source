@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Project Finds Who, Pays Who Earns"
+title: Project Finds Who, Pays Who Earns
 ---
 
 *This blog post was translated by Mistral*

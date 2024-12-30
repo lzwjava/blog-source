@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Use Three Phones"  
-audio: true  
+audio: true
+lang: en
+layout: post
+title: Use Three Phones
 ---
 
 - Use an iPhone as your primary phone, ideally the latest model, or at least one from the last 3 years.
@@ -19,4 +20,3 @@ audio: true
 - Explore apps that are exclusive to specific platforms. For example, Gemini was first released on Android, and some independent developers create apps for only one OS.
 
 - Regularly update apps across all devices. Use them naturally and frequently, so you'll instinctively know which phone to reach for depending on the task or situation.
-

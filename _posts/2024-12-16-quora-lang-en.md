@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Quora's Language Content Controls"  
+lang: en
+layout: post
+title: Quora's Language Content Controls
 ---
 
 Quora is well-known for its vast collection of user-generated content, offering answers to a wide array of questions in diverse fields. One feature that stands out is its language content controls, which allow users to customize the platform’s experience by selecting their preferred language.
@@ -34,4 +35,3 @@ Here are some screenshots demonstrating the process:
 </div>
 
 These images showcase how Quora redirects you to a language-specific site, providing a more localized and personalized experience for its diverse user base.
-

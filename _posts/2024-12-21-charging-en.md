@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "The Rules of Charging"  
-audio: true  
+audio: true
+lang: en
+layout: post
+title: The Rules of Charging
 ---
 
 To ensure that your products continue to function without interruption, several strategies can be considered. One option is to purchase two units of the same product, allowing you to use one while the other charges. Another approach is to replace the battery when it reaches the end of its life, ensuring the product continues to run smoothly. Alternatively, you can charge the product while using it, so it remains powered as you continue with your tasks.
@@ -19,4 +20,3 @@ When discussing the Rules of Charging, it’s important to consider two key fact
 For inexpensive products with low switching costs, like portable electric lamps, we can choose to buy a second unit for continuous use. However, for more expensive items like mobile phones or electric cars, we tend to rely on charging them while in use instead of purchasing additional devices.
 
 Take the portable electric lamp, for example—it’s usually fixed in a location in our room. If I want to use it continuously, I would need to buy a power bank to keep it charged. Alternatively, I could purchase another portable electric lamp and switch between the two, allowing for continuous use by charging one while the other is in use.
-

@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "左滑操作和应用"  
-audio: true  
+audio: true
+lang: zh
+layout: post
+title: 左滑操作和应用
 ---
 
 ## iOS 列表中的左滑操作

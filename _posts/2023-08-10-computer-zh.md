@@ -1,6 +1,7 @@
----                     
-layout: post                     
-title: "如何组装一台电脑"
+---
+lang: zh
+layout: post
+title: 如何组装一台电脑
 ---
 
 ![cover](assets/images/computer/cover.jpg)

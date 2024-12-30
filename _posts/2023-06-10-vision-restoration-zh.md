@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "自然视力恢复方法的实验验证"
+lang: zh
+layout: post
+title: 自然视力恢复方法的实验验证
 ---
 
 <div align="center"><img src="/assets/images/eyes/glasses.jpeg" width="400px" /></div>
@@ -148,4 +149,3 @@ title: "自然视力恢复方法的实验验证"
   url     = "http://lzwjava.github.io/vision-restoration-en"
 }
 ```
-

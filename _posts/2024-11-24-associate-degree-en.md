@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Associate Degree: Progress and Reflection"
+title: 'Associate Degree: Progress and Reflection'
 ---
 
 Below is my assoiciate progress. 

@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title:  "退学申请书"
+title: 退学申请书
 ---
 
 尊敬的校领导：

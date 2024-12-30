@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title: "王垠全集"
+title: 王垠全集
 ---
 
 ## 中文
@@ -16,4 +17,3 @@ title: "王垠全集"
 * Substack：[https://yinwang0.substack.com](https://yinwang0.substack.com)
 * WordPress：[https://yinwang0.wordpress.com](https://yinwang0.wordpress.com)
 * Twitter：[https://twitter.com/yinwang0](https://twitter.com/yinwang0)
-

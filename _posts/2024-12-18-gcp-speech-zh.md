@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Google Text-to-Speech API 入门教程"  
 audio: true
+lang: zh
+layout: post
+title: Google Text-to-Speech API 入门教程
 ---
 
 我计划将 Yin Wang 的一些文章转换成音频。为此，我正在尝试使用 Google Text-to-Speech API。以下是一些由 ChatGPT 提供的教程，帮助你完成这一过程。完成后，我会将音频上传到这里。
@@ -167,4 +168,3 @@ text_to_speech(article_text, output_file)
 ### 结论
 
 借助 Google Cloud Text-to-Speech API，文本转换为自然语音既简单又高效。无论你是构建需要语音输出的应用程序，还是仅仅是进行文本到语音的实验，该 API 提供了强大的功能。请查看文档，了解更多选项，如语音选择和语言支持！
-

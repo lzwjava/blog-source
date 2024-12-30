@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Setting up a Google Cloud Server"
 audio: true
+lang: en
+layout: post
+title: Setting up a Google Cloud Server
 ---
 
 Setting up a proxy server in Google Cloud allows you to route your internet traffic securely through a cloud instance, enhancing privacy and circumventing restrictions. In this guide, we'll walk you through the process of setting up a basic proxy server in Google Cloud and configuring the necessary firewall rules to allow traffic.
@@ -92,4 +93,3 @@ If the connection is successful, you should see a response from the website.
 ## Conclusion
 
 By following this guide, you’ve learned how to set up a proxy server on Google Cloud and configure firewall rules to allow incoming traffic. This setup provides an easy way to route your internet traffic securely through the cloud, bypass network restrictions, and enhance privacy.
-

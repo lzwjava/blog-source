@@ -1,8 +1,9 @@
----              
-layout: post              
-title: "ChatGPT Helps Me Create Captions"         
----         
-         
+---
+lang: en
+layout: post
+title: ChatGPT Helps Me Create Captions
+---
+
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/5DN6ltj1SjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>               
          
 Zhiwei: Could you separate my sentence with two parts, so It will better help to use in my captions:         
@@ -144,6 +145,4 @@ ZhiweiGPT spent two hours with Japanese apps' 1 billion lines of code to do some
          
 ZhiweiGPT花了两个小时与十亿行日本应用程序代码进行交流。         
          
-ZhiweiGPTは2時間かけて日本のアプリの10億行のコードと対話しました。         
-         
-         
+ZhiweiGPTは2時間かけて日本のアプリの10億行のコードと対話しました。

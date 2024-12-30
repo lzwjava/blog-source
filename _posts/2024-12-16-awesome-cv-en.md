@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Using Awesome-CV to Generate a Professional Résumé"  
+lang: en
+layout: post
+title: Using Awesome-CV to Generate a Professional Résumé
 ---
 
 ### Introduction  
@@ -113,4 +114,3 @@ clean:
 By leveraging Awesome-CV and this Makefile setup, generating and maintaining professional résumés becomes effortless. Whether you’re applying for technical roles or sharing your achievements, Awesome-CV helps you present your work beautifully and efficiently.
 
 Check out the Awesome-CV repository for more details: Awesome-CV on GitHub.
-

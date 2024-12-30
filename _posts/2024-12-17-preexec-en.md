@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Display Proxy Settings Before Running Commands"
+lang: en
+layout: post
+title: Display Proxy Settings Before Running Commands
 ---
 
 <div style="text-align: center;">  
@@ -233,4 +234,3 @@ Expected Output:
 Managing proxy settings is crucial for smooth software development in restricted network environments. This Zsh script ensures you're always informed about your proxy configurations when running commands that require network access, enhancing your workflow and troubleshooting efficiency.
 
 Happy Coding! 🚀
-

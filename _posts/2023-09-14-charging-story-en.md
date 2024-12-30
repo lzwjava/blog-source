@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Battling Charging Problems with My Electric Car"
+title: Battling Charging Problems with My Electric Car
 ---
 
 I fully charged my car in Zogang, which has a range of 400km on a full charge. I began my drive to Markam, a distance of about 160km. At that point, the car displayed a remaining range of around 250km.
@@ -24,4 +25,3 @@ I then drove to the Markam Yunqu Manor Hotel, which had only Xiaopeng charging s
 Frustrated, I continued my journey, but eventually, the battery ran out completely, and I was unable to charge it.
 
 I tried all possible ways to resolve the issue, but nothing worked. I went to the hotel, and the next day, after consulting Neta customer support, we opened the front cover, manually disconnected the battery, and reconnected it to reset the system. Fortunately, this allowed the car to charge again.
-

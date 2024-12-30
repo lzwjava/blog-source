@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Reversing Myopia"  
+lang: en
+layout: post
+title: Reversing Myopia
 ---
 
 * [Myopia: A Modern Yet Reversible Disease, M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF), Todd Becker
@@ -22,4 +23,3 @@ title: "Reversing Myopia"
 * [What Problems Do Bifocals Have](https://lzwjava.github.io/bifocals-en), Zhiwei Li
 
 * [Plan for Multifocal Progressive Lenses](https://lzwjava.github.io/multifocal-en), Zhiwei Li
-

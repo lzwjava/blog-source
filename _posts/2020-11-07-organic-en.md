@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Natural Growth Methods For Startups"
+title: Natural Growth Methods For Startups
 ---
 
 *This blog post was translated by Mistral*

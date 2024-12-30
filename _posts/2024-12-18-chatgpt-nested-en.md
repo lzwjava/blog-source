@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "ChatGPT’s Bug with Nested Code Blocks"
 audio: true
+lang: en
+layout: post
+title: ChatGPT’s Bug with Nested Code Blocks
 ---
-
 
 ### Issue Explanation
 

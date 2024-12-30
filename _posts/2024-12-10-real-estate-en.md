@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Global Real Estate Apps"
+title: Global Real Estate Apps
 ---
 
 China:
@@ -30,4 +31,3 @@ Singapore:
 Middle East:
 - Property Finder
 - Bayut
-

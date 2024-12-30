@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "多焦点渐进镜片计划"  
-audio: true  
+audio: true
+lang: zh
+layout: post
+title: 多焦点渐进镜片计划
 ---
 
 2024.11.28
@@ -59,4 +60,3 @@ audio: true
 {: .centered }
 ![](assets/images/multifocal/pdd.jpg){: .responsive }
 *来源：拼多多（pinduoduo.com）*{: .caption }
-

@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "The Benefits of Repetition in Programming"
 audio: true
+lang: en
+layout: post
+title: The Benefits of Repetition in Programming
 ---
 
 > export PATH=/opt/homebrew/opt/ruby/bin:/opt/homebrew/opt/openjdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:"$HOME/Library/Python/3.9/bin":/Library/TeX/texbin:/Users/lzwjava/bin:/Users/lzwjava/platform-tools:/Users/lzwjava/Downloads/google-cloud-sdk/bin
@@ -19,4 +20,3 @@ Repetition in programming can actually be beneficial. We don't always need to ab
 This is similar to how we refer to people's names: If we overuse pronouns like "he", "she", or "they," it becomes unclear who we’re talking about. Names themselves are unlikely to change, and using them directly can add clarity. 
 
 Abstraction and simplification are important, but in some cases, they introduce unnecessary complexity. Sometimes, repetition is simpler and more understandable.
-

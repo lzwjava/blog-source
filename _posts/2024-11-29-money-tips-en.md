@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Money Spending Tips"
+title: Money Spending Tips
 ---
 
 * Find free solutions first - open source software, free ebooks, papers, information etc.
@@ -36,4 +37,3 @@ title: "Money Spending Tips"
 * Consider different solutions: when playing basketball with glasses, you could buy sports goggles, use a strap to secure regular glasses, or keep spare pairs. Think about long-term costs and effectiveness. Apply this thinking to other purchasing decisions.
 
 * Purchase components like batteries or other parts from an online store and visit a local repair shop for installation, such as replacing the battery in a mobile phone or laptop.
-

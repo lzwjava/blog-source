@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title:  "mathjax2mobi：将MathJax HTML转换为电子书"
+title: mathjax2mobi：将MathJax HTML转换为电子书
 ---
 
 ### 项目简介
@@ -887,4 +888,3 @@ pandoc -s -r html out.html -o feynman.epub
 该项目代码在[feynman-lectures-mobi@lzwjava](https://github.com/lzwjava/feynman-lectures-mobi)。
 
 如何把所有的页面都抓取整理成电子书呢。后续再讲。但这费曼物理讲义一章也够看的了。好了，让我们拿起Kindle开始看吧。
-

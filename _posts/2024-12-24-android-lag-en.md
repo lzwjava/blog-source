@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Why Android Devices Lag"  
-audio: true  
+audio: true
+lang: en
+layout: post
+title: Why Android Devices Lag
 ---
 
 *This post was written with the assistance of ChatGPT.*
@@ -31,4 +32,3 @@ When downloading videos on Android devices, users may notice that video playback
 - Android: Android devices may manage network usage differently depending on the app being used and the system's handling of simultaneous data operations. Network bandwidth may be throttled for downloads, which can impact video playback, especially over mobile data or Wi-Fi with high latency.
 
 - iOS: iOS devices generally prioritize video data packets, ensuring minimal disruption during playback when downloading content in the background.
-

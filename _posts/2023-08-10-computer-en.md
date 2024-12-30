@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "How to Build a Computer"
+title: How to Build a Computer
 ---
 
 ![cover](assets/images/computer/cover.jpg)

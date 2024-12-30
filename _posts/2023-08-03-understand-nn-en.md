@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Understanding Neural Network"
+title: Understanding Neural Network
 ---
 
 Zhiwei: 
@@ -405,4 +406,3 @@ ChatGPT: Certainly! The provided code is a method called `generate` that takes a
 This method generates text by iteratively predicting tokens based on the context provided by the prompt and the previously generated tokens. It uses the specified generation parameters to control the randomness and diversity of the generated text. The method is designed to be used with a specific model architecture and tokenizer, as it relies on their properties and methods for text generation.
 
 ---
-

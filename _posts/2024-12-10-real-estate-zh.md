@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title: "全球房地产应用程序"
+title: 全球房地产应用程序
 ---
 
 中国：
@@ -30,4 +31,3 @@ title: "全球房地产应用程序"
 中东：
 - Property Finder
 - Bayut
-

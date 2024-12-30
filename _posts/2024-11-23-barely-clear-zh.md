@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title: "自然视力恢复：刚好清晰原则"
+title: 自然视力恢复：刚好清晰原则
 ---
 
 ### 摘要
@@ -93,4 +94,3 @@ title: "自然视力恢复：刚好清晰原则"
   url     = "https://lzwjava.github.io/barely-clear-en"
 }
 ```
-

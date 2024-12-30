@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Categorization"
+title: Categorization
 ---
 
 * Everything is about categorization.
@@ -18,4 +19,3 @@ title: "Categorization"
 * If the conditions themselves have some patterns, we may use a switch statement. If the conditions are different from each other or have some special cases, we may use an if statement.
 
 * Lambda code is really interesting. We may combine categorization with lambda code. Different groups of objects need different handling procedures.
-

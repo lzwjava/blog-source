@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "ChatGPT Helps Me Learn Japanese"
+title: ChatGPT Helps Me Learn Japanese
 ---
 
 ### Foreword

@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "AI Tools"  
+lang: en
+layout: post
+title: AI Tools
 ---
 
 Here are some AI tools I’ve used:
@@ -33,4 +34,3 @@ China:
 - [cursor.com](https://www.cursor.com)
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [midjourney.com](https://www.midjourney.com)
-

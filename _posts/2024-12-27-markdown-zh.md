@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Markdown 问题：Kramdown 和 XeLaTeX"
 audio: true
+lang: zh
+layout: post
+title: Markdown 问题：Kramdown 和 XeLaTeX
 ---
 
 为了将 Markdown 内容生成 PDF 文件并同时兼容 Jekyll 博客的 HTML 渲染和 XeLaTeX 的 PDF 渲染，可以采用以下方法。以下是我生成 PDF 使用的 Pandoc 命令：
@@ -63,4 +64,3 @@ command = [
 3.	使用 Pandoc 参数控制 PDF 的格式化，确保 Markdown 的跨平台兼容性。
 
 通过这些方法，可以让 Markdown 内容在 Jekyll 的 HTML 渲染 和 XeLaTeX 的 PDF 渲染 中兼容无误，从而实现多格式发布的无缝工作流。
-

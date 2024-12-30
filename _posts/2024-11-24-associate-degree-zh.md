@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title: "专科自考：进度与反思"
+title: 专科自考：进度与反思
 ---
 
 以下是我的专科进度。

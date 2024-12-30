@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Zen and the Art of Machine Learning"
+title: Zen and the Art of Machine Learning
 usemathjax: true
 ---
 

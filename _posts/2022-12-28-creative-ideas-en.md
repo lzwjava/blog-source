@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "My Creative Ideas"
+title: My Creative Ideas
 ---
 
 If you want to write a long essay and not a boring one, how do you make it? As I am learning English writing now, I can't express a lot of topics fluently. So my way is to write an article about my creative ideas. It is not boring to me as they are my new ideas and I like to share them. It is not boring to readers as they are somehow creative. Because I am a lazy person and lack of patience to write boring stuff. And I have the habit of accumulating my ideas in the app Microsoft To Do. I write shortly there, so here, I select some ideas and explain a bit. Let's begin.
@@ -87,5 +88,4 @@ We first want to get a programmable electric oven, then finally we get an auto e
 
 Regarding the auto washer, no matter how many clothes you put into it, no matter what the clothing material they are, the auto washer will use a suitable amount of water, a suitable amount of time and a suitable program to do its best to clean them up. 
 
-Regarding the auto dryer, no matter how many clothes you put into it, no matter how wet the clothes are, the auto dryer will use a suitable amount of time and use a suitable level of heat to do its best to dry them up. 
-
+Regarding the auto dryer, no matter how many clothes you put into it, no matter how wet the clothes are, the auto dryer will use a suitable amount of time and use a suitable level of heat to do its best to dry them up.

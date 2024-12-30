@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Complete Works of Yin Wang"
+title: Complete Works of Yin Wang
 ---
 
 ## Chinese
@@ -16,4 +17,3 @@ title: "Complete Works of Yin Wang"
 * Substack: [https://yinwang0.substack.com](https://yinwang0.substack.com)
 * WordPress: [https://yinwang0.wordpress.com](https://yinwang0.wordpress.com)
 * Twitter: [https://twitter.com/yinwang0](https://twitter.com/yinwang0)
-

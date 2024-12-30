@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title: "一些全球云平台"
+title: 一些全球云平台
 ---
 
 <div align="center"><img src="/assets/images/cloud/platform.jpg" width="400px"/><img/></div>

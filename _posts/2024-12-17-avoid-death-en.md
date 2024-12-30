@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "How to Avoid Death"
 audio: true
+lang: en
+layout: post
+title: How to Avoid Death
 ---
 
 I am about to turn 30 years old. I didn't know much about death growing up until 2019, when one of my relatives died. In 2022, another relative passed away. I learned that two of my classmates had also died. During the three-year COVID period, we witnessed a lot of death in the news.
@@ -48,4 +49,3 @@ Family well-being has a profound impact on us. Therefore, health and safety are 
 ## End
 
 As one grows up, one will encounter more death and birth. It seems that death is unavoidable, though AI and technology are helping us live longer. So make sure that in our limited life, we have some fulfillment. We achieve the impossible. We fulfill some of our dreams. Live a life with no regrets and live it fully.
-

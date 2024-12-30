@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "An Unconventional Basketball Move"
+title: An Unconventional Basketball Move
 ---
 
 <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
@@ -78,4 +79,3 @@ While this creative passing technique shouldn't replace traditional passes in yo
 Through experimenting with moves like this, I've learned that basketball constantly evolves through innovation. While not every creative attempt becomes a game-changing technique, the process of exploring new possibilities keeps the sport exciting and unpredictable.
 
 Remember: The key to successfully incorporating any unconventional move is knowing when to deploy it. Use this bounce pass variation selectively, and always prioritize making the smart play over the flashy one.
-

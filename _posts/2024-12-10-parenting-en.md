@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Parenting Tips"
+title: Parenting Tips
 ---
 
 * Safety is the most important thing. Live low-key and ensure that kindergartens or schools do the right thing.
@@ -38,4 +39,3 @@ title: "Parenting Tips"
 * Use YouTube Premium to download some English animations for kids to watch in the car.
 
 * From 3 years old: Teach how to use a remote control, play mobile games, interact with ChatGPT via voice, and unpack deliveries.
-

@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Enhancing OpenWRT with OpenClash and Shadowsocks"  
+lang: en
+layout: post
+title: Enhancing OpenWRT with OpenClash and Shadowsocks
 ---
 
 ### Updating Package Lists
@@ -110,4 +111,3 @@ rules:
 ```
 
 With these steps, you can enhance your OpenWRT device to support advanced networking configurations and proxy functionalities. Always refer to the official documentation for updates and best practices.
-

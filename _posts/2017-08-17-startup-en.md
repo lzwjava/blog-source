@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Entrepreneurship Insights Share"
+title: Entrepreneurship Insights Share
 ---
 
 *This blog post was translated by Mistral*

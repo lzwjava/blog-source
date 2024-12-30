@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Reflections During Startup"
+title: Reflections During Startup
 ---
 
 *This blog post was translated by Mistral*

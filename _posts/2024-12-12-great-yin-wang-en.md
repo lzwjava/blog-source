@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "GTY - Great Teacher Yin"
+lang: en
+layout: post
+title: GTY - Great Teacher Yin
 ---
 
 This is a story about me and Yin Wang. I just checked my Twitter account.
@@ -40,4 +41,3 @@ He had also pointed out countless times that China’s economy depends too much 
 Despite this, I continued to fight by learning from him. I passed more courses in my associate degree and faced confidently tougher interviews during a difficult economic period.
 
 He not only taught me knowledge, but also truly showed me how to think. He passed on the technique of catching fish from Daniel P. Friedman to me. Yin, thank you.
-

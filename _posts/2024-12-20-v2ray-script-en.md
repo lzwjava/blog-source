@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "V2Ray Script"  
 audio: true
+lang: en
+layout: post
+title: V2Ray Script
 ---
 
 This is a V2Ray script I often use.

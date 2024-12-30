@@ -1,8 +1,9 @@
----                            
-layout: post                            
-title: "GitHub Readme Introduction"     
-audio: true                    
----        
+---
+audio: true
+lang: en
+layout: post
+title: GitHub Readme Introduction
+---
 
 | project | language | commits|project|language|commits|
 | ------------- | ------------- |---- |---|---|----|
@@ -16,4 +17,3 @@ audio: true
 | [feynman-lectures-mobi](https://github.com/lzwjava/feynman-lectures-mobi) |Python|47| [Creak](https://github.com/lzwjava/Creak)|Swift|49|
 |[Reveal-In-GitHub](https://github.com/lzwjava/Reveal-In-GitHub) |Objective-C|56| [Keynotes](https://github.com/lzwjava/Keynotes)|Chinese |32|
 |[weimg-server](https://github.com/lzwjava/weimg-server)|PHP|35|[weimg-ios](https://github.com/lzwjava/weimg-ios)|Objective-C|77|
-

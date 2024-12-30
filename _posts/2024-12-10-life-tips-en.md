@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Life Tips"
+title: Life Tips
 ---
 
 * Explore the world early, go to different countries, and talk to different people.

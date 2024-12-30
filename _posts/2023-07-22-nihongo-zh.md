@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title: "ChatGPT帮助我学习日语"
+title: ChatGPT帮助我学习日语
 ---
 
 ### 序言

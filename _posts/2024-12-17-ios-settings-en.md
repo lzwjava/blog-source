@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Per-App Settings, Switch Control, and AssistiveTouch in iOS"  
 audio: true
+lang: en
+layout: post
+title: Per-App Settings, Switch Control, and AssistiveTouch in iOS
 ---
 
 ## Per-App Settings
@@ -31,4 +32,3 @@ This remote control handle is not only great for managing TikTok but also versat
 <p><a href="https://www.aliexpress.com">Source: AliExpress</a></p>
 
 </div>
-

@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Reasoning"
+title: Reasoning
 ---
 
 * Everything is about reasoning.
@@ -18,4 +19,3 @@ title: "Reasoning"
 * Things happen through some kind of form. It is like an operator in code.
 
 * Every reason combined together may form a bigger reason. It is like lambda code. By combining functions, we can create a high-level function.
-

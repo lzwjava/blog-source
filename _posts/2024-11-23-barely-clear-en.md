@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Natural Vision Restoration: The Principle of \"Just Barely Clear\""
+lang: en
+layout: post
+title: 'Natural Vision Restoration: The Principle of "Just Barely Clear"'
 ---
 
 ### Abstract
@@ -94,4 +95,3 @@ Or in BibTeX:
   url     = "https://lzwjava.github.io/barely-clear-en"
 }
 ```
-

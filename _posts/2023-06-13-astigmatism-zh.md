@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "近视逆转中的散光问题"
+lang: zh
+layout: post
+title: 近视逆转中的散光问题
 ---
 
 ## 摘要
@@ -77,4 +78,3 @@ title: "近视逆转中的散光问题"
   url     = "https://lzwjava.github.io/astigmatism-cn"
 }
 ```
-
