@@ -162,7 +162,7 @@ audio: true
 * 领域特定语言：JSON、CSS、SQL、NoSQL、Kusto Query Language、Kibana Query Language
 * 数据库：MySQL、SQLite、PostgreSQL、Microsoft SQL Server、Amazon RDS、MongoDB
 * 前端：Vue、React、Angular、jQuery、Hexo、Jekyll、Stylus、Sass
-* 框架：RTMP流媒体、HTTP/IP、Spring、Spring Boot、Hibernate、Netty, CodeIgniter, Laravel, Flask, Express, Socket.IO, iOS SDK, Android SDK
+* 框架：RTMP流媒体、HTTP/IP、Spring、Spring Boot、Hibernate、Netty, CodeIgniter, Laravel, Flask, Express, Socket.IO, iOS SDK, Android SDK、Flutter
 * 大数据：Redis、Kafka、Spark、Flink、ZooKeeper
 * 数学：微积分、线性代数、离散数学、Latex
 * 开发：NPM、Webpack、Git、HomeBrew、Gradle、Maven、Xcode、VSCode、Sketch、Powershell、IntelliJ IDEA、Cocopods、Android Studio、WordPress、ChatGPT
