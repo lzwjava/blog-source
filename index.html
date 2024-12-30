@@ -15,28 +15,13 @@ layout: page
 </select>
 
 <ul class="post-list">
-  <!-- Display pinned posts first -->
   {% for post in site.posts %}
-  {% if post.pinned %}
-  <li class="list-group-item post-item pinned-post lang-{{ post.lang }}">
-    <a href="{{ post.url }}">
-      <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
-      <span class="title">{{ post.title }}</span>
-    </a>
-  </li>
-  {% endif %}
-  {% endfor %}
-
-  <!-- Display non-pinned posts -->
-  {% for post in site.posts %}
-  {% unless post.pinned %}
   <li class="list-group-item post-item lang-{{ post.lang }}">
     <a href="{{ post.url }}">
       <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
       <span class="title">{{ post.title }}</span>
     </a>
   </li>
-  {% endunless %}
   {% endfor %}
 </ul>
 
@@ -52,17 +37,16 @@ layout: page
       const selectedValue = sortSelect.value;
       const [sortOption, langFilter] = selectedValue.split('|');
 
-      // Select pinned and non-pinned posts
-      const pinnedPosts = document.querySelectorAll('.post-list li.post-item.pinned-post');
-      const nonPinnedPosts = document.querySelectorAll('.post-list li.post-item:not(.pinned-post)');
+      // Select all posts
+      const posts = document.querySelectorAll('.post-list li.post-item');
 
-      // Filter non-pinned posts by language
-      const filteredNonPinnedPosts = langFilter === 'all' ?
-        Array.from(nonPinnedPosts) :
-        Array.from(nonPinnedPosts).filter(post => post.classList.contains(`lang-${langFilter}`));
+      // Filter posts by language
+      const filteredPosts = langFilter === 'all' ?
+        Array.from(posts) :
+        Array.from(posts).filter(post => post.classList.contains(`lang-${langFilter}`));
 
-      // Create postArray for non-pinned posts
-      const postArray = filteredNonPinnedPosts.map(post => {
+      // Create postArray
+      const postArray = filteredPosts.map(post => {
         const dateStr = post.querySelector('.date').textContent.replace(/\./g, '-');
         return {
           element: post,
@@ -71,17 +55,17 @@ layout: page
         };
       });
 
-      // Sort non-pinned posts
-      const sortedNonPinnedPosts = sortPosts(postArray, sortOption);
+      // Sort posts
+      const sortedPosts = sortPosts(postArray, sortOption);
 
-      // Combine pinned and sorted non-pinned posts
+      // Clear the postList
       const postList = document.querySelector('.post-list');
       postList.innerHTML = '';
-      pinnedPosts.forEach(post => postList.appendChild(post));
-      sortedNonPinnedPosts.forEach(post => postList.appendChild(post.element));
+
+      // Append sorted posts
+      sortedPosts.forEach(post => postList.appendChild(post.element));
     }
 
-    // Sorting function
     function sortPosts(posts, sortOption) {
       switch (sortOption) {
         case 'date-desc':
@@ -95,7 +79,6 @@ layout: page
       }
     }
 
-    // Shuffle function for random sorting
     function shuffle(array) {
       let currentIndex = array.length, randomIndex;
       while (currentIndex != 0) {
@@ -105,7 +88,6 @@ layout: page
       }
       return array;
     }
-
     // Event listener for select change
     sortSelect.addEventListener('change', function () {
       updatePosts();
