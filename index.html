@@ -16,6 +16,7 @@ layout: page
 
 
 <ul class="post-list">
+  {% if site.posts.size > 0 %}
   {% for post in site.posts %}
   <li class="list-group-item post-item lang-{{ post.lang }}">
     <a href="{{ post.url }}">
@@ -24,6 +25,10 @@ layout: page
     </a>
   </li>
   {% endfor %}
+  {% else %}
+  <li class="list-group-item post-item">No posts available. Please refresh the page to load the posts. There is a known
+    bug that we are working to fix.</li>
+  {% endif %}
 </ul>
 
 <footer class="site-footer">
@@ -64,7 +69,14 @@ layout: page
       postList.innerHTML = '';
 
       // Append sorted posts
-      sortedPosts.forEach(post => postList.appendChild(post.element));
+      if (sortedPosts.length > 0) {
+        sortedPosts.forEach(post => postList.appendChild(post.element));
+      } else {
+        const noPostsMessage = document.createElement('li');
+        noPostsMessage.className = 'list-group-item post-item';
+        noPostsMessage.textContent = 'No posts available. Please refresh the page to load the posts. There is a known bug that I am lazy to fix.';
+        postList.appendChild(noPostsMessage);
+      }
     }
 
     function sortPosts(posts, sortOption) {
