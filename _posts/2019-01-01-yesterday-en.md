@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "2018 Is Already Yesterday"
+title: 2018 Is Already Yesterday
 ---
 
 *This blog post was translated by Mistral*

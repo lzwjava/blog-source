@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title:  "未来的孩子"
+title: 未来的孩子
 ---
 
 05年，Paul Graham 创立YC孵化器。在「招聘已经过时」一文中说道：
@@ -67,4 +68,4 @@ http://www.paulgraham.com/ace.html
 https://www.yinwang.org/blog-cn/2020/03/23/wisdom-of-intelligence
 6. 学习的智慧 
 https://www.yinwang.org/blog-cn/2019/07/12/learning-philosophy
-7. 微信互联网平民创业 
+7. 微信互联网平民创业

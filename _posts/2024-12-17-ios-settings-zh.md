@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "iOS中的每个应用设置、开关控制和辅助触控"  
 audio: true
+lang: zh
+layout: post
+title: iOS中的每个应用设置、开关控制和辅助触控
 ---
 
 ## 每个应用设置
@@ -31,4 +32,3 @@ audio: true
 <p><a href="https://www.aliexpress.com">来源: AliExpress</a></p>
 
 </div>
-

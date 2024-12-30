@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title:  "个人项目"
+title: 个人项目
 ---
 
 ## Skybound: 从广州到拉萨的空中奇遇
@@ -18,4 +19,3 @@ title:  "个人项目"
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/fntYmAJasZ0?si=uZ9Ov5bzjnIrH6CN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-

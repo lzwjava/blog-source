@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Pixel's USB Options"  
+lang: en
+layout: post
+title: Pixel's USB Options
 ---
 
 <div style="text-align: center;">  
@@ -16,4 +17,4 @@ To set this up:
 3. Connect your Pixel to your computer via USB and run the following command in a terminal to verify the connection:  
    ```bash
    adb devices
-   ```  
+   ```

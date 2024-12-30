@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "始终保持背景声音"  
-audio: true  
+audio: true
+lang: zh
+layout: post
+title: 始终保持背景声音
 ---
 
 * 无论你在做什么，始终保持背景声音。
@@ -17,4 +18,3 @@ audio: true
 * 对于语言学习，它尤其有帮助。
 
 * 这就像在课堂上——当你专注于黑板时，老师的背景声音也在存在。你的学习效果取决于你的参与度。
-

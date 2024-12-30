@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "ChatGPT 检索网页的实际用例"  
+lang: zh
+layout: post
+title: ChatGPT 检索网页的实际用例
 ---
 
 最近，我需要在一份 LaTeX 文档中为我的博客文章添加链接。随着文章数量的增加，手动添加每个链接非常耗时且容易出错。这时，ChatGPT 提供了帮助，让整个过程变得高效而顺畅。
@@ -70,4 +71,3 @@ ChatGPT 返回了以下优化后的 LaTeX 代码，添加了正确的超链接�
 关键启示
 
 这个用例展示了ChatGPT结合检索工具如何自动化重复任务，例如检索链接或更新文档。不管是处理 LaTeX、Markdown 还是其他格式，ChatGPT 都可以帮助你高效地完成工作。
-

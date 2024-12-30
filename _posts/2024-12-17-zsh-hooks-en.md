@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Zsh Hooks"
 audio: true
+lang: en
+layout: post
+title: Zsh Hooks
 ---
 
 After exploring "Let Zsh Display Proxy Settings Before Running Network Commands," I delved deeper into Zsh hooks with ChatGPT. Here’s a concise overview for future reference.
@@ -121,4 +122,3 @@ Zsh's hook system is versatile, enabling automation and customization:
 - `add-zsh-hook`: Adding multiple hook functions.
 
 Utilizing these hooks can greatly enhance your Zsh experience, making your shell more efficient and tailored to your workflow.
-

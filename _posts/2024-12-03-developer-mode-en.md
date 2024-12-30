@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Developer Mode of iOS and ideviceinstaller"
+title: Developer Mode of iOS and ideviceinstaller
 ---
 
 ## Developer Mode
@@ -57,4 +58,3 @@ imgurmobile, "416", "Imgur"
 com.creditkarma.mobile, "17316145", "Credit Karma"
 ...
 ```
-

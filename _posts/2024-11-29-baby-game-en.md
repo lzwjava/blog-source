@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Baby Game: Follow the Hand"
+title: 'Baby Game: Follow the Hand'
 ---
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">

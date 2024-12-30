@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Cloud Computing And Big Data Beginners"
+title: Cloud Computing And Big Data Beginners
 ---
 
 *This blog post was translated by Mistral*

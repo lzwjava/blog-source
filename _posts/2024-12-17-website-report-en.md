@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Website Report"
+title: Website Report
 ---
 
 Recently, I spoke with an entrepreneur friend who asked for my thoughts on her company’s website. After drafting my initial feedback, I had ChatGPT help refine and polish it. Below is the updated and improved version.

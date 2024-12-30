@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Natural Vision Restoration Tips"
+title: Natural Vision Restoration Tips
 ---
 
 * The reason people worsen their eyesight is that they use glasses with full prescription (which lets them see a blackboard clearly at 5m) to look at phones, computers, or books most of the time. This causes their eyeballs to deform.
@@ -30,4 +31,3 @@ title: "Natural Vision Restoration Tips"
 * While some people may feel too old or lazy to address their myopia, it's crucial to take action for the sake of future generations to prevent the same challenges.
 
 * The improvement process takes time - myopia developed over years will take time to improve.
-

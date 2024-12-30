@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "云服务器选择中的长期思维"
 audio: true
+lang: zh
+layout: post
+title: 云服务器选择中的长期思维
 ---
 
 Outline Manager 提供多种服务器选项，包括 Google Cloud、DigitalOcean、AWS Lightsail 等。

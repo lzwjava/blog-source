@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Abstraction"
+title: Abstraction
 ---
 
 * Everything is about abstraction.
@@ -28,4 +29,3 @@ title: "Abstraction"
 * People wearing eyeglasses with full prescription to watch a blackboard (5m away) and a mobile phone is a poor abstraction. It does not better reflect the interests of the eyeball.
 
 * The functions, methods, and procedures to apply that abstraction should be thought through carefully. Do we need to do the same task for the whole batch of objects, or should we treat them separately?
-

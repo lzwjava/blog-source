@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Left Swipe and Apps"  
-audio: true  
+audio: true
+lang: en
+layout: post
+title: Left Swipe and Apps
 ---
 
 ## Left Swipe in iOS Lists

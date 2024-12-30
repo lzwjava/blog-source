@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Astigmatism in Reversing Myopia"
+lang: en
+layout: post
+title: Astigmatism in Reversing Myopia
 ---
 
 ## Abstract  
@@ -81,4 +82,3 @@ Or in BibTeX:
   url     = "https://lzwjava.github.io/astigmatism-en"
 }
 ```
-

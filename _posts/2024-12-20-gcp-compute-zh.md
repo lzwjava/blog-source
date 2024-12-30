@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "设置 Google Cloud 服务器"
 audio: true
+lang: zh
+layout: post
+title: 设置 Google Cloud 服务器
 ---
 
 在 Google Cloud 中设置代理服务器可以让你通过云实例安全地路由互联网流量，增强隐私性并绕过网络限制。在本指南中，我们将带您完成在 Google Cloud 中设置基本代理服务器的过程，并配置必要的防火墙规则以允许流量。
@@ -92,4 +93,3 @@ curl -I http://example.com
 ## 总结
 
 通过遵循本指南，您已经学会了如何在 Google Cloud 中设置代理服务器，并配置防火墙规则以允许传入流量。此设置为您提供了一个轻松的方式，可以通过云服务器安全地路由互联网流量，绕过网络限制并增强隐私性。
-

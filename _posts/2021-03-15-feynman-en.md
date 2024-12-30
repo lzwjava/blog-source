@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "mathjax2mobi: Converting MathJax HTML for eBooks"
+title: 'mathjax2mobi: Converting MathJax HTML for eBooks'
 ---
 
 *This blog post was translated by ChatGPT.*

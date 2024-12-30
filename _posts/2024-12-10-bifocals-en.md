@@ -1,7 +1,8 @@
 ---
+audio: true
+lang: en
 layout: post
-title: "Bifocals"
-audio: true  
+title: Bifocals
 ---
 
 Bifocals have two different optical powers: one for the upper segment and one for the lower segment. They typically have a significant difference in optical power between these two segments of the lens.

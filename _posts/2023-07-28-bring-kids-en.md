@@ -1,6 +1,7 @@
----     
-layout: post     
-title: "How to Bring Up Best Kids"
+---
+lang: en
+layout: post
+title: How to Bring Up Best Kids
 ---
 
 How to bring up best kids? If you are a billionaire, how will you raise your kids? In my observation, they will bring their kids to travel around the world. Let's think about Eileen Gu. Her life experience is really colorful. Her mother is excellent. 
@@ -122,5 +123,4 @@ Never critize and always encourage.
 
 And there is one point that need to be added.
 
-Treat them always like the first day they come to the world. 
-
+Treat them always like the first day they come to the world.

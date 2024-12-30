@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Mac Apps I Used"
+title: Mac Apps I Used
 ---
 
 A:

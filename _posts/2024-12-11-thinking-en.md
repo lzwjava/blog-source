@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Thinking"
 audio: true
+lang: en
+layout: post
+title: Thinking
 ---
 
 * By categorizing, abstracting, or reasoning about things, you think.

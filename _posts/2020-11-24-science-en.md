@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title:  "Do Things Scientifically"
+title: Do Things Scientifically
 ---
 
 Translated by ChatGPT.

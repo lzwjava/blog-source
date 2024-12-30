@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "V2Ray 脚本"  
-audio: true  
+audio: true
+lang: zh
+layout: post
+title: V2Ray 脚本
 ---
 
 这是我经常使用的 V2Ray 脚本。

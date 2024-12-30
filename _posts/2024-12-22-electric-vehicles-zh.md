@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "电动汽车"  
-audio: true  
+audio: true
+lang: zh
+layout: post
+title: 电动汽车
 ---
 
 ## Neta

@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "How to Watch YouTube on TV"
+title: How to Watch YouTube on TV
 ---
 
 *This blog post was translated by ChatGPT.*

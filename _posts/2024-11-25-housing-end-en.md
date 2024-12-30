@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "The End of the Housing Dream"
+title: The End of the Housing Dream
 ---
 
 The reality of the housing market hit home when my family's investment in Guangzhou turned bitter. We purchased a house for 2 million CNY in 2022, only to watch its value plummet to 1 million CNY by 2024. This isn't just a story of numbers – it's a reflection of a shifting global paradigm.
@@ -12,4 +13,3 @@ Construction isn't primarily about technological innovation. Instead, it remains
 What's truly fascinating is the evolution in people's mindsets. We're witnessing a fundamental shift in how individuals assess value. In this AI-driven, knowledge-focused era, people are beginning to question long-held assumptions about wealth and investment. Their eyes are opening to new possibilities, and they're reconsidering what truly matters in this changing landscape.
 
 The death of the traditional housing market might just be the birth of a new understanding of value in our digital age.
-

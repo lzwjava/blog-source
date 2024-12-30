@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title: "从神经网络到GPT"
+title: 从神经网络到GPT
 ---
 
 ### YouTube 视频

@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "From Neural Network to GPT"
+title: From Neural Network to GPT
 ---
 
 ### YouTube Videos

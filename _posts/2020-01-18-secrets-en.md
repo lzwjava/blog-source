@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Shallow Talk On The Secrets Of Life"
+title: Shallow Talk On The Secrets Of Life
 ---
 
 *This blog post was translated by Mistral*

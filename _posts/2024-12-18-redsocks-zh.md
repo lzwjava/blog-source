@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Redsocks 实践"  
 audio: true
+lang: zh
+layout: post
+title: Redsocks 实践
 ---
 
 当然！我将指导您如何使用您的 Mac 电脑设置 Shadowsocks 代理，并配置您的 OpenWRT 路由器，通过此代理将所有连接设备的流量路由。此设置主要包括以下几个步骤：
@@ -485,4 +486,3 @@ redsocks {
     password = "";
 }
 ```
-

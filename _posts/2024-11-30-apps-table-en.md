@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "iOS Apps I Used - Table Version"
+title: iOS Apps I Used - Table Version
 translation: false
 ---
 
@@ -556,4 +557,3 @@ translation: false
 | 雪球 | com.xueqiu | 14540020 |
 | 领英职场 | com.linkedin.Zephyr | 9.12.2680.64 |
 | 饿了么 | me.ele.ios.eleme | 41619864|
-

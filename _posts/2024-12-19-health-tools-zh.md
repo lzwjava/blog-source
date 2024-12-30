@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "血压计、听诊器和视力表"
 audio: true
+lang: zh
+layout: post
+title: 血压计、听诊器和视力表
 ---
 
 <div style="text-align: center;">
@@ -66,4 +67,3 @@ audio: true
 <div style="text-align: center;"> 
     <img src="/assets/images/health-tools/c-shape.jpg" alt="C-shaped vision chart" width="50%" />
 </div>
-

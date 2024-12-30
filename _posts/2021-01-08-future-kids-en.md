@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title:  "Future Kids"
+title: Future Kids
 ---
 
 In 2005, Paul Graham founded YC Incubator. In his article "Hiring is Obsolete," he mentioned:

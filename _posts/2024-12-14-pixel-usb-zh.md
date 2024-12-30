@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Pixel 的 USB 选项"  
+lang: zh
+layout: post
+title: Pixel 的 USB 选项
 ---
 
 <div style="text-align: center;">  
@@ -16,4 +17,4 @@ Pixel 提供了多种 USB 选项，其中一个特别有趣的功能是将其用
 3. 将 Pixel 通过 USB 连接到电脑，并在终端中运行以下命令以验证连接：  
    ```bash
    adb devices
-   ```  
+   ```

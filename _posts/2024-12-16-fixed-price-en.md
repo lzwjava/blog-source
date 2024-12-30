@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Fixed-Price Subscriptions Are Outdated"  
+lang: en
+layout: post
+title: Fixed-Price Subscriptions Are Outdated
 ---
 
 ### The Case for Flexible Pricing in Subscription Services
@@ -39,4 +40,3 @@ This model aligns the costs with usage, offering a level of fairness that fixed-
 ### Conclusion
 
 Shifting to a usage-based pricing model with a wallet system would foster fairness and adaptability, benefiting both users and service providers. With platforms growing in scale and complexity, this flexibility in pricing will likely become the new standard. It's time to let users pay only for what they truly use, ensuring a more sustainable and customer-friendly model.
-

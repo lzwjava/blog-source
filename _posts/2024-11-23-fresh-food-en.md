@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Pay Attention to Food Freshness"
+title: Pay Attention to Food Freshness
 ---
 
 A recent experience with street food taught me a valuable lesson about the importance of food freshness. While enjoying Xinjiang barbecue from a vendor, I ordered two lamb shashlik skewers and a portion of ham. The next day, I found myself dealing with an unfortunate case of diarrhea.
@@ -12,4 +13,3 @@ During my later visits to various barbecue stands, I stuck to ordering only lamb
 This experience taught me that food safety isn't just about being cautious when eating out—it's about being mindful of food freshness everywhere, including at home. Even in our own kitchens, we sometimes keep food in the refrigerator for too long, which can lead to similar problems. A refrigerator isn't a magical device that preserves food indefinitely—it merely slows down the spoilage process.
 
 Remember: The best way to prevent food-related illness is to be mindful of what you're eating and how long it's been stored, regardless of where you're dining.
-

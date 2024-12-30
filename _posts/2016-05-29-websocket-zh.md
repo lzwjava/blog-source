@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title:  "探索 WebSocket"
+title: 探索 WebSocket
 ---
 
 *这篇博文是由 ChatGPT-4o 协助整理的。*
@@ -188,4 +189,3 @@ WebSocket运行在TCP之上，并引入了几个增强功能：
 
 ### 致谢
 感谢大家的关注。如果有更多问题或讨论，欢迎在GitHub或微博上与我交流。
-

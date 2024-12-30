@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Why ChatGPT Plus Should Charge by Token Usage"
+title: Why ChatGPT Plus Should Charge by Token Usage
 ---
 
 ChatGPT Plus should transition to a flexible pricing model based on token usage rather than a fixed \\$20 monthly fee.
@@ -21,4 +22,3 @@ ChatGPT Plus should transition to a flexible pricing model based on token usage 
 With 300 million weekly users, shifting to this model could attract more subscribers. Based on a projected \\$11.6 billion revenue, around 48.33 million users are likely on the current \\$20/month plan.
 
 This flexible pricing approach would offer a fairer, more customized experience for users.
-

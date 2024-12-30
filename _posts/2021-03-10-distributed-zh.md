@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title:  "云计算和大数据入门"
+title: 云计算和大数据入门
 ---
 
 这节课包含以下话题：
@@ -1390,4 +1391,3 @@ The server generated these startup warnings when booting:
 ## 练习
 
 * 学生像上面一样类似探索一遍。
-

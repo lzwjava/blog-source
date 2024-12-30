@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "AI 工具"  
+lang: zh
+layout: post
+title: AI 工具
 ---
 
 这是我使用过的一些 AI 工具：
@@ -33,4 +34,3 @@ title: "AI 工具"
 - [cursor.com](https://www.cursor.com)
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [midjourney.com](https://www.midjourney.com)
-

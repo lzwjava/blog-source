@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Dropout Application"
+title: Dropout Application
 ---
 
 *This blog post was translated by Mistral*

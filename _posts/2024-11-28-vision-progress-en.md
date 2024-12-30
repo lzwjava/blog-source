@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title: "Natural Vision Restoration Progress"
+title: Natural Vision Restoration Progress
 ---
 
 Last updated: November 28, 2024
@@ -24,4 +25,3 @@ Time | Left Eye Myopia | Left Eye Astigmatism | Right Eye Myopia | Right Eye Ast
 2023.04.20 | -3.00 | -1.25 | -5.00 | -1.25| 1.0
 2024.01.07 | -3.00 | -1.00 | -4.75 | -1.25| 0.9
 2024.11.28 | -2.50 | -1.00 | -4.25 | -1.25| 0.9
-

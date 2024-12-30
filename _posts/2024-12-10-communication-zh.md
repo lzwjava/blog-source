@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title: "最适合我的沟通方式"
+title: 最适合我的沟通方式
 ---
 
 * 在博客中分享我想说的内容。

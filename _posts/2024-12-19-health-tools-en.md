@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Blood Pressure Monitor, Stethoscope, and Vision Chart"
 audio: true
+lang: en
+layout: post
+title: Blood Pressure Monitor, Stethoscope, and Vision Chart
 ---
 
 <div style="text-align: center;">
@@ -66,4 +67,3 @@ After a few days, I decided to buy another type of vision chart—a C-shaped vis
 <div style="text-align: center;"> 
     <img src="/assets/images/health-tools/c-shape.jpg" alt="C-shaped vision chart" width="50%" />
 </div>
-

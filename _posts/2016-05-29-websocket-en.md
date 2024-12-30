@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title:  "Exploring WebSocket"
+title: Exploring WebSocket
 ---
 
 *This blog post was organized with the assistance of ChatGPT-4o.*
@@ -179,4 +180,3 @@ For further details, refer to the [WebSocket RFC](https://tools.ietf.org/html/rf
 
 ### Acknowledgements
 Thank you for following along. Feel free to reach out on GitHub or Weibo for more insights and discussions.
-

@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Getting Started with Google Text-to-Speech API"  
 audio: true
+lang: en
+layout: post
+title: Getting Started with Google Text-to-Speech API
 ---
 
 I plan to convert some of Yin Wang's articles into audio using the Google Text-to-Speech API. Below is a step-by-step guide, along with some helpful tutorials provided by ChatGPT. Once everything is ready, I will upload the audio here for you to listen to.
@@ -178,4 +179,3 @@ Once everything is set up, you can generate an audio file, which will be availab
 ### Conclusion
 
 The Google Cloud Text-to-Speech API makes it easy to convert text into natural-sounding speech. Whether you're building an app that needs voice output or just experimenting with text-to-speech, this API offers powerful features and customization options. Explore the full documentation for additional voice selections, languages, and advanced features.
-

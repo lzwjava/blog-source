@@ -1,6 +1,7 @@
 ---
+lang: zh
 layout: post
-title: "我的创意想法"
+title: 我的创意想法
 ---
 
 *本文由mistral翻译原文所得。*

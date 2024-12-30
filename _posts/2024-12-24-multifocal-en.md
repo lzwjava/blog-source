@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Plan for Multifocal Progressive Lenses"  
-audio: true  
+audio: true
+lang: en
+layout: post
+title: Plan for Multifocal Progressive Lenses
 ---
 
 2024.11.28
@@ -59,4 +60,3 @@ Left Eye:
 {: .centered }
 ![](assets/images/multifocal/pdd.jpg){: .responsive }
 *Source: pinduoduo.com*{: .caption }
-

@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Exploring System Prompts in Grok and Claude"  
 audio: true
+lang: en
+layout: post
+title: Exploring System Prompts in Grok and Claude
 ---
 
 I reposted it here to learn the prompt engineering.
@@ -55,5 +56,3 @@ Name of the user is Thea (inactive).
 We can find it in this doc.
 
 [https://docs.anthropic.com/en/release-notes/system-prompts#nov-22nd-2024](https://docs.anthropic.com/en/release-notes/system-prompts#nov-22nd-2024)
-
-

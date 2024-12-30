@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "使用 Awesome-CV 生成专业简历"  
+lang: zh
+layout: post
+title: 使用 Awesome-CV 生成专业简历
 ---
 
 ### 介绍  
@@ -111,4 +112,3 @@ clean:
 通过利用 Awesome-CV 和这个 Makefile 配置，生成和维护专业简历变得轻松无比。无论是申请技术职位还是分享您的成就，Awesome-CV 都能帮助您美观且高效地展示自己的工作。
 
 更多详情请访问 Awesome-CV 的 GitHub 仓库：[Awesome-CV on GitHub](https://github.com/posquit0/Awesome-CV)。
-

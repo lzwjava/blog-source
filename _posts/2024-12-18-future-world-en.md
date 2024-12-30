@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Future"
 audio: true
+lang: en
+layout: post
+title: Future
 ---
 
 * The dream of owning a house is over. Not only in China, but globally, only a few cities will be exceptions.
@@ -31,4 +32,3 @@ audio: true
 * Individuals will achieve a lot more. Instead of spending years doing boring tasks, people will accomplish more and achieve greater things.
 
 * Those who want to succeed should think about how to position themselves for the future world. Start from that end and work backward to understand how to reach that point from today.
-

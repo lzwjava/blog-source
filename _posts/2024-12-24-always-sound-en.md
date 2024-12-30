@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Always Have Background Sound"  
-audio: true  
+audio: true
+lang: en
+layout: post
+title: Always Have Background Sound
 ---
 
 * Always have background sound, no matter what you're doing.
@@ -17,4 +18,3 @@ audio: true
 * For language learning, it can be especially helpful.
 
 * It's like being in a classroom—while you focus on the board, there are background sounds from the teacher. The effectiveness of your learning depends on your engagement.
-

@@ -1,6 +1,7 @@
 ---
+lang: en
 layout: post
-title:  "The Journey of Learning English"
+title: The Journey of Learning English
 ---
 
 Translated by ChatGPT. Missed some pictures.

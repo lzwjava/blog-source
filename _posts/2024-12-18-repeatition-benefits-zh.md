@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "编程中重复的好处"
 audio: true
+lang: zh
+layout: post
+title: 编程中重复的好处
 ---
 
 > export PATH=/opt/homebrew/opt/ruby/bin:/opt/homebrew/opt/openjdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:"$HOME/Library/Python/3.9/bin":/Library/TeX/texbin:/Users/lzwjava/bin:/Users/lzwjava/platform-tools:/Users/lzwjava/Downloads/google-cloud-sdk/bin
@@ -19,4 +20,3 @@ audio: true
 这就像我们提到人的名字一样：如果我们过多使用代词如“他”、“她”或“他们”，就会让人不清楚我们在说谁。名字本身不太可能改变，直接使用名字反而能增加清晰度。
 
 抽象和简化很重要，但有时它们也会引入不必要的复杂性。有时，重复反而更简单、更容易理解。
-

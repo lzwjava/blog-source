@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Zsh 钩子"
 audio: true
+lang: zh
+layout: post
+title: Zsh 钩子
 ---
 
 在探索了“让 Zsh 在运行网络命令之前显示代理设置”之后，我与 ChatGPT 深入研究了 Zsh hooks。以下是供将来参考的简明概述。
@@ -121,4 +122,3 @@ Zsh 的 hook 系统功能强大且灵活，能够实现自动化和自定义：
 - `add-zsh-hook`：添加多个 hook 函数。
 
 利用这些 hooks 可以大大增强您的 Zsh 使用体验，使您的 Shell 更加高效并符合您的工作流程。
-

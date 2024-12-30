@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "探索 Grok 和 Claude 的系统提示"  
 audio: true
+lang: zh
+layout: post
+title: 探索 Grok 和 Claude 的系统提示
 ---
 
 我在这里重新发布它，以学习提示工程。
@@ -53,4 +54,3 @@ audio: true
 我们可以在此文档中找到它。
 
 [https://docs.anthropic.com/en/release-notes/system-prompts#nov-22nd-2024](https://docs.anthropic.com/en/release-notes/system-prompts#nov-22nd-2024)
-
