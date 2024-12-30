@@ -165,7 +165,7 @@ Below are detailed tools that help me to accumulate the above skills, plus other
 * Domain-specific language: JSON, CSS, SQL, NoSQL, Kusto Query Language, Kibana Query Language
 * Database: MySQL, SQLite, PostgreSQL, Microsoft SQL Server, Amazon RDS, MongoDB
 * Frontend: Vue, React, Angular, jQuery, Hexo, Jekyll, Stylus, Sass
-* Framework: RTMP streaming, HTTP/IP, Spring, Spring Boot, Hibernate, Netty, CodeIgniter, Laravel, Flask, Express, Socket.IO, iOS SDK, Android SDK
+* Framework: RTMP streaming, HTTP/IP, Spring, Spring Boot, Hibernate, Netty, CodeIgniter, Laravel, Flask, Express, Socket.IO, iOS SDK, Android SDK, Flutter
 * Big Data: Redis, Kafka, Spark, Flink, ZooKeeper
 * Math: Calculus, Linear Algebra, Discrete mathematics, Latex
 * Development: NPM, Webpack, Git, HomeBrew, Gradle, Maven, Xcode, VSCode, Sketch, Powershell, IntelliJ IDEA, Cocopods, Android Studio, WordPress, ChatGPT
