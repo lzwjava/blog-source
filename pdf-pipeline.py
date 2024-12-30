@@ -133,7 +133,7 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=10000, d
                     markdown_content = '\n'.join(cleaned_lines)
                 except ValueError:
                     markdown_content = ''
-            
+
             if not markdown_content.strip():
                 print(f"Skipping {filename}: No content to convert after cleaning front matter.")
                 continue
@@ -145,13 +145,21 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=10000, d
             with open(cleaned_md_path, 'w', encoding='utf-8') as temp:
                 temp.write(markdown_content)
 
-            text_to_pdf_from_markdown(
-                input_markdown_path=cleaned_md_path,
-                output_pdf_path=output_filename,
-                dry_run=dry_run
-            )
-            
-            os.remove(cleaned_md_path)
+            try:
+                text_to_pdf_from_markdown(
+                    input_markdown_path=cleaned_md_path,
+                    output_pdf_path=output_filename,
+                    dry_run=dry_run
+                )
+            except Exception as e:
+                print(f"Error processing {filename}: {e}")
+                continue
+            finally:
+                if os.path.exists(cleaned_md_path):
+                    os.remove(cleaned_md_path)
+                tmp_pdf_path = output_filename.replace(".pdf", "-tmp.pdf")
+                if os.path.exists(tmp_pdf_path):
+                    os.remove(tmp_pdf_path)
 
             files_processed += 1
             if files_processed >= max_files:
