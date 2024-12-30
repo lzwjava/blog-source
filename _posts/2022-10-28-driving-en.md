@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Secret to Learning: Listening While Driving"
+title:  "Listening While Driving"
 ---
 
 *This blog post was translated by ChatGPT.*
