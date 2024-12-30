@@ -5,7 +5,9 @@ layout: page
 <select id="sort-select">
   <option value="date-desc" selected>Date Descending</option>
   <option value="date-asc">Date Ascending</option>
-  <option value="title-asc">Title Alphabetical</option>
+  <option value="title-asc">Title Alphabetical Ascending</option>
+  <option value="title-desc">Title Alphabetical Descending</option>
+  <option value="random">Random Order</option>
 </select>
 
 <ul class="post-list">
@@ -60,9 +62,25 @@ layout: page
           return postArray.sort((a, b) => a.date - b.date);
         case 'title-asc':
           return postArray.sort((a, b) => a.title.localeCompare(b.title));
+        case 'title-desc':
+          return postArray.sort((a, b) => b.title.localeCompare(a.title));
+        case 'random':
+          return shuffle(postArray);
         default:
           return postArray.sort((a, b) => b.date - a.date);
       }
+    }
+
+    function shuffle(array) {
+      let currentIndex = array.length, randomIndex;
+
+      while (currentIndex != 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+      }
+
+      return array;
     }
 
     function updatePostList(sortedPosts) {
