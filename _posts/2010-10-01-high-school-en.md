@@ -1,145 +1,149 @@
 ---
 layout: post
-title:  "九月的歌：高中随笔"
+title:  "September's Song: High School Essay"
 ---
 
-前序：这篇随笔，在9.30坐校车回家的路上已有大概的写作思路，回家后也立刻用计算机写下脑中清晰的记忆。历时：10个小时，写作有点慢啊，但收获很大，虽然有些是个人的喜怒哀乐（说难听点是牢骚），但主体是我这一个月的心路历程。总字数：8999。写后感：人生第一篇大作。畅所欲言，爽。按每分钟1500字的正常阅读速度，只需要花费来访者您的5分半钟（当然，假如你很有空，就看慢一点），感激不尽，让我们互相提高。
+*This blog post was translated by Mistral.*
+
+---
+
+**Preface:** The idea for this essay came to me on September 30th while riding the school bus home. Upon arriving home, I immediately wrote down the clear memories from my mind. It took me 10 hours to write, which is a bit slow, but the gains were significant. Although some parts are personal emotions (or complaints), the main body reflects my journey this month. Total word count: 8999. Post-writing thoughts: This is the first major piece of my life. I spoke freely and felt great. Assuming a normal reading speed of 1500 words per minute, it would take the visitor about 5 and a half minutes to read (of course, if you have plenty of time, read it slowly). I am deeply grateful. Let's improve together.
 
 ***
 
-题记：九月的歌，时而激昂如烈火，黄昏里的阳光在雀跃着；时而缓和如青烟，黄昏里的阳光一片沉寂。
+**Epigraph:** September's song is sometimes as passionate as a wildfire, with the setting sun dancing; sometimes as gentle as a wisp of smoke, with the setting sun in utter stillness.
 
 ***
 
-前几天在学校就想写些随笔，拿起随心所欲的文笔，随意地宣泄心中的悲喜，享受自由自在的表达。就像《北大是我美丽羞涩的梦》所写的——
+A few days ago at school, I wanted to write some essays, picking up my pen freely to express the joys and sorrows in my heart and enjoy the freedom of expression. Just as written in *Beida is My Beautiful and Shy Dream*—
 
-在周记里没有“是”与“非”，它永远是一个“本我”的世界，“美”的世界。我只想表达纯粹的自我感受而不在乎别人的评论。即使笔触稚嫩又如何呢？我16岁，稚嫩是我的权利，也是我的生命特质。
+In a weekly journal, there is no "right" or "wrong"; it is always a world of the "true self," a world of "beauty." I only want to express pure self-feelings without caring about others' comments. Even if my writing is immature, so what? I am 16 years old, and immaturity is my right and my life characteristic.
 
-而我的“月记”也如此。就来畅所欲言吧。写这个月，我愿意从一些名词写起。
+And my "monthly journal" is the same. Let's speak freely. For this month, I will start with some keywords.
 
 ### PPT
 
-这真的是一个“PPT”月。细数起来，我做了4个PPT。而且在今天，我还领回一个ppt作业，还好，这次是帮舒婷修改下就好了。第一个ppt是《玉岩中学资优班北大清华夏令营》，花了我三个周末。本来在8月27日就已经差不多做好了，可是，当我想把格式转换为视频格式，获得更好的播放效果时（office2010有涡流的超级动画效果），电脑异常死机，第二天拿去修，答复：硬盘坏了，得拿回厂家去修，数据可能消失，请做好心理准备。Orz! 这样的事都会发生在我身上……刹那间，《old friends》的比n的n次方还多的英语学习视频，一些电子书的读书笔记，细心整理的无敌的编程资料，那是我潜水一个伟大的群收藏的资料，这个群真让我非常感动，因为里面的一些人非常具有无私奉献精神。曾几何时，邮箱里堆积了几百封这个群的邮件，在半年前，可有一半都是宝贵的学习资料（现在，大多是娱乐的东西），各式各样的编程书籍。当时，还有一个梦想——我要一本一本把这些书看完，看完我就无敌了。谁知:)变成了 :(了。硬盘里还有几部奥斯卡电影，部部720p高清，他们都排上了我的日程表，每个星期回家后看看电影是多惬意的事啊。那个ppt也自然烟飞灰灭，不翼而飞。向邱老师说好的开学就能完成这个ppt而交给他，自然也无法实现（新硬盘两个星期后才回来啊，那些天靠着一块80G的硬盘勉强地、苟且地活着）。第一个星期回来的时候，得为80G硬盘装点东西，一个windows7(就是看不起xp，也用不惯)，外加office 2010，这两个几百美元的家伙可不是那么容易盗版，整整弄了我一个周末（下载慢，序列号、破解工具难找啊，）。最后终于找到一些好用的了，愿意和对盗版感冒的人分享下好资源，q我就行。第二个周末，直到最后的时候才把ppt当正事，匆匆忙忙把何导的图集做成了ppt，结果在电脑上展示文字小到可以忽略不计。第三个周末，酣畅淋漓地完成了ppt，正如一场瓢泼大雨肆虐地落到龟裂的旱地上，爽！还特别刻了一个光盘送给邱老师，给老师的时候，直言不讳地说：老师，这次我带来了一个加强版。^_^。
+This was truly a "PPT" month. In total, I made 4 PPTs. Just today, I received another PPT assignment, but fortunately, this time it was just helping a classmate make some edits. The first PPT was for the "Yuyan Middle School Elite Class Beijing and Tsinghua Summer Camp." It took me three weekends. I had almost finished it by August 27th, but when I tried to convert the format to video for better playback (Office 2010 has awesome animation effects), my computer suddenly crashed. The next day, I took it for repair, and the diagnosis was: the hard drive was broken, and it needed to be sent back to the factory, possibly losing data. Prepare yourself mentally. Orz! Such things happen to me… In an instant, countless English learning videos, e-book reading notes, meticulously organized programming resources, and several Oscar-winning movies in 720p HD were gone. That PPT also vanished without a trace. I had promised the teacher that I would complete this PPT by the start of school, which was now impossible (the new hard drive came back two weeks later, and I had to survive with an 80G hard drive). The first week it came back, I had to install some stuff on the 80G hard drive, including Windows 7 (I can't stand XP and can't get used to it) and Office 2010. These two expensive programs are not easy to pirate; it took me a whole weekend (slow downloads, hard to find serial numbers and cracking tools). Finally, I found some good resources; if you're interested in pirated stuff, just message me. The second weekend, I finally got serious about the PPT, hurriedly finishing the teacher's photo collection. The result was that the text on the computer was too small to be noticed. The third weekend, I completed the PPT with great satisfaction, like a torrential rain pouring onto the cracked earth. I even burned a CD for the teacher and told them frankly: Teacher, this time I brought an enhanced version. ^_^.
 
-第二个PPT是用来辅助《我姓李》这个演讲的，投影一些词语，给我一点提示。演讲时正想用列数字的方法说明下李姓是世界第一姓不是吃牛的，说成了“在中国，每14个人便有1个是中国人”。Omg！严重的政治错误，亲爱的共产党，千万别枪毙我。演讲稿的确准备了许久，早上看一遍，晚上再看一遍，连续几天。不过，演讲时还是偷看了，真对不起自己，靠不住的记忆力啊。这个ppt上也有政治错误啊，什么“李登辉”是李家的家族名人，还投影在ppt上，语文课一下课，见识广的伟壕就告诉我李登辉的负面新闻，今天一Google,李登辉就一个参拜日本甲级战犯靖国神社的！居然还能上百度百科的家族名人（姓氏资料我去百科找的）。哎，年纪轻轻就犯了这么多政治错误，那以后还得了，万一做官，面对媒体，政府报告上说错了东西，那真“跳进黄河也洗不清”……这次演讲，真学会很多东西，我和李笑来老师有点相似，都有“课前恐惧症”。另外，提提李笑来老师，他写了一本书，《把时间当作朋友》，个人认为是一本不可多得的好书。笑来老师，运用他强大的心智力量解释了几乎我们生活中遇到的所有尴尬，想消除生活尴尬的朋友就去看看。笑来老师很具体地告诉你如何用心智赢得解放。摘录一段话：
+The second PPT was to assist the speech "My Surname is Li," projecting some words to give me a hint. During the speech, I wanted to use numbers to explain that Li is the most common surname in the world, not just in China. I ended up saying, "In China, every 14 people include 1 Chinese person." Omg! A serious political mistake. Dear Communist Party, please don't shoot me. I had prepared the speech for a long time, reading it in the morning and evening for several days. However, I still peeked during the speech. I'm sorry for my unreliable memory. This PPT also had political mistakes, such as listing Li Denghui as a famous person in the Li family and projecting it on the PPT. After class, a well-informed classmate told me about Li Denghui's negative news. Today, a Google search revealed that Li Denghui visited the Yasukuni Shrine, a Japanese war criminal shrine! How could he be on Baidu Baike's list of famous people (I found the surname information on Baidu Baike)? Sigh, at such a young age, I've made so many political mistakes. If I become an official and make a mistake in a government report, it would be truly disastrous… This speech taught me a lot. I have a bit of "pre-speech anxiety" like Teacher Li Xiaolai. By the way, Teacher Li Xiaolai wrote a book, *Make Time Your Friend*, which I think is a rare good book. Teacher Li Xiaolai uses his strong mental power to explain almost all the embarrassments we encounter in life. If you want to eliminate life's embarrassments, read his book. Teacher Li Xiaolai specifically tells you how to use your mind to win freedom. Here's an excerpt:
 
-“…… 可是，当我突然意识到我竟然可以（也根本就应该）控制我自己的大脑的时候，我觉得我居然不用死就竟然可以从头再来，比较神奇。”
+“… But when I suddenly realized that I could (and should) control my own brain, I felt that I could start over without dying, which is quite magical.”
 
-第三个ppt是美术ppt，讲中国的建筑，开学来的第三节课便轮到我和平哥，必赢（中考广州市化学状元梁碧莹同学）讲课了，ppt做得马马虎虎，是他们两的颐和园、苏州园林再加夏令营的ppt完成了40分钟的课堂任务。话说当天演示，鹏哥的浪子回头赢得了一阵阵喝彩。在此，对鹏哥说声sorry，他再三地要求我不要侵犯他的肖像权，我还那样做……有点“背叛”，“出卖”。算啦，反正事后鹏哥对于他的靓照也没什么怨言，就顺其自然吧。
+The third PPT was for art class, discussing Chinese architecture. Right after school started, it was my turn, along with a classmate, to give a lecture. The PPT was hastily put together, combining their Piaohuayuan, Suzhou Gardens, and summer camp PPTs to complete a 40-minute class task. That day, a classmate's return to the right path won applause. Here, I want to say sorry to the classmate. He repeatedly asked me not to infringe on his image rights, but I still did it… It felt a bit like "betrayal" and "selling out." Oh well, the classmate didn't seem to mind his photos being used, so let's just go with the flow.
 
-第四个ppt是用来上信息课，又是我，我已经当了好多回老师了。还好，华哥的伶牙俐齿不时地为我解围。最“囧”的是，那个超长的算式，Google就怎么没算出来，太糗了！还有天网，www.tianwang.com你就连我最后一点尊严也不给啊？！各位同学，你们上去试试手气，我手气糟透了，假如你们也打不开，就只能说明，这个天网升天了，我送它去18层地狱！
+The fourth PPT was used for computer class, and again, it was me. Fortunately, a classmate's eloquence often helped me out. The most "awkward" part was that the long formula couldn't be calculated by Google. So embarrassing! And Tianwang, www.tianwang.com, you just couldn't give me a shred of dignity! Everyone, try your luck; if you can't open it, it means Tianwang has ascended to the 18th level of hell!
 
 ### NOIP
 
-NOIP全称是全国信息学奥赛联赛。今年是10.16初赛，只能说，“NOIP,我来了，虽然我没做好准备”。这一个月，我尽力准备着这个期待太久的比赛。两年前，我接触了这类竞赛，大概是08年11月份。当时，我自己写了个VB程序，然后又穷追不舍地向段老师请教。段老师，见我这么感兴趣，便把我推荐给了陈武龙老师（他当时正筹办一个竞赛班）。于是，我真正开始了我的编程生涯。段老师，你是伯乐！真的非常感谢你！让我有条件去追随心的选择，追逐自己的兴趣。那时，便迷上了编程，一有时间就看入门书籍，晚自习看，课间看，中午看，床上看，车上看……在09年的第一天，我写下了新年愿望，希望我今年的联赛成绩能进复赛。结果却是令人失望的，一等奖，居然没进复赛，后来问老师，老师说初中组没有复赛。然而，我知道，那一等奖是郊区组的，什么概念，我是从化、萝岗、增城的前10。真是莫大的讽刺，令人啼笑皆非，郊区我估计都还没20个人参加吧。我的水平我最清楚了。我的水平很糟糕！今天依然如此！时至今日，我连dp，图论，二叉树，回溯都还不懂！衡阳的朋友（一个网友，他是编程大牛），如果你看了这里，千万别耻笑我。
+NOIP stands for the National Olympiad in Informatics. This year, the preliminary round is on October 16th. I can only say, "NOIP, I'm coming, although I'm not well prepared." This month, I did my best to prepare for this long-awaited competition. Two years ago, I got into this kind of competition, around November 2008. At that time, I wrote a VB program and kept asking Teacher Duan for guidance. Teacher Duan, seeing my interest, recommended me to another teacher (who was organizing a competition class). Thus, I truly began my programming journey. Teacher, you are a talent scout! Thank you so much for giving me the opportunity to pursue my interests and passions. At that time, I was obsessed with programming, reading introductory books whenever I had time, during evening self-study, breaks, lunch, in bed, and on the bus… On the first day of 2009, I wrote down my New Year's wish, hoping that my competition results this year could make it to the finals. The result was disappointing, a first-class award, but no finals. Later, the teacher said there were no finals for the junior high group. However, I knew that the first-class award was from the suburban group, meaning I was among the top 10 in Frome, Lokang, and Zengcheng. What a irony, I estimate there weren't even 20 people participating in the suburban group. My level was terrible! Even today, I still don't understand dp, graph theory, binary trees, or backtracking! Hengyang friend (a netizen, a programming genius), if you see this, please don't laugh at me.
 
-比赛时间一天一天地临近，我制定了计划。早上6点起床，最快时间到班，看书到7点。说到这里，我要好好感谢平哥！他每天帮我买早餐。多善良、helpful的人啊！我早餐很简单，跟平哥说了，挑两个最大的面包就好了。邱老师说，珍惜身体发育的最后黄金期，搞好营养。哎，我又不听话了。有一天早上发生的事令我惭愧极了，同学们都在大声朗读（经常6:40便书声琅琅了），而我在看我的《C语言程序设计》(老谭的)，我突然察觉殷老师从后门进来了，直接朝我这边走来，我原以为老师不会太注意而且7点还没到。不料，殷老师低头告诉我下午要考试，又叹气了一声。我回头一看钟，“7:05”，天呀，我在干嘛！现在应该上语文早读啊！准给老师留下了很不好的印象，老师微皱的眉宇也印证了这一点。最近的语文成绩又不堪入目，过一段时间找我谈话，说我偏科，心不在学习上也说不定了。Omlg!
+As the competition date approached, I made a plan. Wake up at 6 am, get to class as quickly as possible, and study until 7 am. Here, I want to thank my classmate! He bought breakfast for me every day. Multiple good, helpful people ah! My breakfast was simple, I told the classmate, pick the two largest buns just fine. The teacher said, cherish the golden period of physical development, take care of nutrition. Sigh, I didn't listen again. One morning, something happened that made me feel extremely ashamed. Classmates were reading aloud (often at 6:40 the room was filled with the sound of reading) , while I was reading my *C Language Program Design* (by Old Tan), I suddenly noticed the teacher entering from the back door, walking straight towards me. I thought the teacher wouldn't notice much and it wasn't 7 am yet. Unexpectedly, the teacher leaned down and told me there would be a test in the afternoon, and sighed. I looked at the clock, "7:05"! What was I doing?! It should have been the morning reading session! I must have left a bad impression on the teacher, and the teacher's slightly furrowed brow confirmed this. Recently, my Chinese scores have been poor, and the teacher talked to me after a while, saying I was weak in certain subjects and my mind wasn't on studying. Omlg!
 
-而NOIP，也并未有什么实质进展。混沌……
+And NOIP hasn't made much progress…
 
-竞赛的事，先举两个例子。
+Let me give two examples related to the competition.
 
-一个是朱元晨，他是ISEF（英特尔工程挑战赛，是全球最大规模、最高等级的中学生科学竞赛）2004年世界最高奖的获得者，没推断错的话，他最近应该是在哈佛大学读计算机博士。他利用计算机3年学会了英语，他用英文写的获奖论（Real-Time Remeshing With Optimally Adapting Domain：A New Scheme  for View-Dependent Continuous Levels-of-Detail Mesh Rendering），是有关计算机3D绘图方法的研究。这份论文的内容不仅是大多数中学生无法看懂的，即使是计算机系的大学生、乃至专家，如果不是专攻计算机图形学领域的，也无法完全领会。他的成就令我羡慕，我更加想复制他的成功，复制十分之一也好，他的一些学习方法确实值得学习，有兴趣的同学可以百度一下。他04年时是高三，我还有两年多，能在计算机工程上有所建树吗？
+One is Zhu Yuanchen, the 2004 world champion of ISEF (Intel International Science and Engineering Fair, the largest and highest-level middle school science competition in the world). If I'm not mistaken, he should be studying for a Ph.D. in computer science at Harvard. He learned English using a computer in three years and wrote his award-winning paper, *Real-Time Remeshing With Optimally Adapting Domain: A New Scheme for View-Dependent Continuous Levels-of-Detail Mesh Rendering*, in English. The content of this paper is beyond the comprehension of most middle school students, and even computer science students or experts who are not specialized in computer graphics would struggle to fully understand it. His achievements make me envious, and I want to replicate his success, even a tenth of it. Some of his learning methods are worth learning. Interested students can search for him on Baidu. In 2004, he was in his senior year of high school, and I still have more than two years. Can I achieve something in computer engineering?
 
-另一个例子是金斌，年纪轻轻（18岁）在topcoder上击败无数高手，获得金奖。code是代码的意思，顾名思义topcoder是一项最顶尖的程序员赛事。与ACM、IOI是被全世界广泛公认的有3项算法类程序设计大赛。在决赛时，与金斌对抗的，多是身披无数荣誉的大学生，甚至是职业程序员。他也是初二开始接触信息学，然而，他对编程的狂热使他在几年内取得了惊人的进步。好一个学习榜样！
+Another example is Jin Bin, who, at the age of 18, won the gold medal on Topcoder, defeating numerous strong opponents. "Code" means code, and Topcoder is one of the top programming competitions. Along with ACM and IOI, it is one of the three most recognized algorithmic programming competitions in the world. In the finals, Jin Bin faced competitors who were mostly college students or even professional programmers with numerous accolades. He also started learning informatics in seventh grade, but his passion for programming led to remarkable progress in just a few years. What a role model!
 
-当我了解到这些时，蓦然从心中升起了一个信念：不要再回避复杂的知识了，无论多难，也要继续学。其实真的可以自学（如朱元晨所讲的“当然，做尖端研究工作的时候，我的身边没有同龄的知音交流，也没有指导老师，只能靠自己。”），有时候惰性总把人自己先打败了。是啊，她的座右铭最好了——
+When I learned about these examples, a belief suddenly arose in my heart: don't avoid complex knowledge anymore; no matter how difficult, keep learning. In fact, self-study is possible (as Zhu Yuanchen said, "Of course, when doing cutting-edge research, I had no peers to discuss with and no mentor, only relying on myself."). Sometimes, laziness defeats us first. Her motto is the best—
 
-“你是你的敌人，只有你才可以打败自己；你是你的上帝，只有你才可以拯救自己。”
+“You are your own enemy; only you can defeat yourself. You are your own god; only you can save yourself.”
 
-同时觉得，时间不多了，岁月不等人啊，可哈佛大学的图书馆上的训言不写着——
+At the same time, I feel that time is running out. Time waits for no one. As the motto in Harvard's library says—
 
-Thought is already is late, exactly is the earliest time.（觉得为时已晚的时候，恰恰是最早的时候。）
+*Thought is already is late, exactly is the earliest time.* (When you feel it's too late, that's exactly the earliest time.)
 
-醒醒吧，你，快点醒悟吧！立刻行动起来！嗯，今天就行动起来！专注眼前的事，你才能取得你想要的成功！
+Wake up, you, wake up quickly! Take action immediately! Yes, start today! Focus on the present, and you will achieve the success you desire!
 
-我今年16岁了，不年轻了，冯仑（万通地产的董事长，又称思想家）对一个19岁的青年人说过：“你现在是19岁，等到29岁的时候可能三个女朋友了，你刚脱离青春期没几年，好日子刚开始，这个时候要起而行，不是跟别人比较做结论的时候，你只要比你同年龄的人多一点点，你累计10年你会比大家进步非常多。”无疑，我也被卷入了快餐时代，什么都要速成是不可能的。而爱因斯坦在63岁时说过“一个人没有在30岁以前达成科学上的最大成就，那他永远都不会有。”我还有多少个岁月可以蹉跎呢？时间是这个世界上最公平的东西了，每个人每天只有24个小时，哈佛大学的学生每天整整学习16个小时，而我的生活总是被一些所谓的，无谓的事情干扰……想到这里，我最近申请的《电脑爱好者社》也不想成立。否则，这个社团又要waste my time，如果它给我的回报就是当众演讲的能力可以得到锻炼，组织能力可以得到锻炼，那么试问用这些时间看看书不更好？是的，我只是想在无人的角落静静地看看书，无论是那9科，还是我喜欢的编程书，抑或是卡耐基写的成功圣经。
+I am 16 years old now, not young anymore. Feng Lun (Chairman of Vantone Real Estate, also known as a thinker) said to a 19-year-old young man: "You are 19 years old now. By the time you are 29, you might have three girlfriends. You have just left your teenage years, and the good times are just beginning. This is the time to take action, not to compare with others. As long as you are a little better than your peers, after 10 years of accumulation, you will be far ahead." Undoubtedly, I have also been swept up in the fast-food era, where everything needs to be instant. But as Einstein said at the age of 63, "If a person hasn't achieved their greatest scientific accomplishment by the age of 30, they never will." How many more years can I waste? Time is the fairest thing in the world; everyone has only 24 hours a day. Harvard students study 16 hours a day, while my life is often disrupted by trivial matters… Recently, I applied to start a "Computer Lovers Club," but now I don't want to. Otherwise, this club will waste my time. If the return is just improving my public speaking and organizational skills, wouldn't it be better to spend that time reading? Yes, I just want to read quietly in a corner, whether it's the nine subjects or my favorite programming books, or Carnegie's success bible.
 
-时间会过得越来越快，可以引用笑来老师的一段话来说明：
+Time will pass faster and faster. As Li Xiaolai said—
 
-“对一个五岁的孩子来讲，未来的一年相当于他已经度过的一生的20%；而对一个五十岁的人来讲，未来的一年只相当于他已经度过的一生的1/50，即2%。所以，从感觉上来看，随着年龄的增加，时间好像越来越快。”
+“For a five-year-old child, the next year is 20% of their life; for a fifty-year-old person, the next year is only 2% of their life. So, as we get older, time seems to pass faster.”
 
-时间的仓促如一种令人怅然的恐惧，像雾霭一般不可避免地缓缓升起，模糊了我们的来路和去处，令人不得不断然打住思绪。
+The urgency of time is like an inevitable, rising mist, blurring our past and future, forcing us to stop our thoughts.
 
-还是先回想一下这个月的第九节课（一般这个时候，大部分同班同学都在刻苦学习），对五班的同学解释下，可能你们有点疑惑我每天第九节课匆匆忙忙的，去哪里啊。我去集训了，因为那个比赛，4:45后便快步去到电脑室（我们平常上信息课那个教室）。经常是我和振东、俊然，三人享受着一台空调，一排明灯，三台电脑。很谢谢武龙老师，你很周到地安排了实习老师来替代忙碌的你。这个实习老师我们班同学也见过，就那天我和张泽华讲课时当场在的那位帅帅的老师。他叫谢东升，很平易近人。他最近在申报研究生，希望明年老师考研成功！他将陪伴我们一直到初赛，初赛后他要回学校（他大四，每星期都要往返于市中心和偏远的萝岗，师恩难忘……）。我经常是敲敲代码，把我写的代码打到电脑上去，看能否运行成功。我平静地敲着冗长的代码，编程这玩意啊，前辈设计的语言超喜欢用“*^%&()[]\|{}”这些符号的，弄得我经常按错，可我的耐心程度也出乎我的意料，因为我在等待运行成功后的释然！令人悲叹的是，最近敲的3个程序，每个都至少有10个bug！真想用F开头的粗口……
+Let's recall the ninth period of this month (usually, most classmates are studying hard at this time). For those in Class 5 who might be wondering why I rush off every ninth period, I'm going to training because of that competition. At 4:45 pm, I quickly go to the computer room (our usual information class classroom). Often, it's just me and a couple of classmates, enjoying an air-conditioned room, bright lights, and three computers. Thank you, Teacher Wulong, for arranging an intern teacher to replace you while you're busy. This intern teacher is known to our class; he's the handsome teacher who was there when I and another classmate gave a lecture. His name is Xie Dongsheng, very approachable. He is recently applying for a master's degree; I hope the teacher succeeds in his exams next year! He will accompany us until the preliminary round; after that, he will return to school (he's in his fourth year and commutes between the city center and the remote Lokang every week; the teacher's kindness is unforgettable…). I often type code into the computer, hoping to see it run successfully. I calmly typed the lengthy code, programming this stuff, the predecessors' designed language loves to use symbols like “*^%&()[]\|{}”, making me often press wrong, but my patience surprises even myself because I am waiting for the relief of successful execution! Unfortunately, the last three programs I typed each had at least 10 bugs! I really want to use an F-word…
 
-还好，另一个总让我沉溺在幸福愉悦的是，就是用纸来写代码了。狠怀念8.27-31那几天，每天都有至少4个小时的时间写代码，“迎新会”（即迎接所谓的第一届玉岩新疆班）的排练只要上午的一些时间。即使是短暂的休息，我也饶有兴趣地写写代码。《C程序设计》每章都会有10多个练习题，这些题每题都大概花去我30分钟，不过，能写出来让自己看着都舒服无比的完整程序的代码，值了！同学所谓的天书，在我看来是无比漂亮优美的符号。而同学眼里的五线谱，在我看来也是天书……
+Fortunately, another thing that brings me happiness is writing code on paper. I miss the days from August 27-31 when I had at least 4 hours each day to write code, “Welcoming New Activity” (the so-called first batch of Yuyan Xinjiang class) practice only needed some time in the morning. Even during short breaks, I enjoyed writing code. Each chapter of *C Program Design* has more than 10 exercises, each taking me about 30 minutes, but being able to write out a complete, satisfying code is worth it! What seems like gibberish to classmates is beautifully elegant to me. And what seems like sheet music to classmates is gibberish to me…
 
-在集训期间，认识了一个学姐，因为工作的缘故。这件事也能进入这个月的前十大事了。她开阔了我的视野，尤其是国际上的。英语好的人，国际观就是不错。国际观和朱元晨所说的学习经验相似，“要有开阔的眼界，和世界去比”。学姐也很具有创新精神，祝愿她的点子能成功。
+During the training, I met a senior because of work. This event is also one of the top ten events of the month. She broadened my horizons, especially internationally. People who are good at English have a good international perspective. An international perspective, as Zhu Yuanchen said, is about having a broad vision and comparing yourself to the world. The senior is also very innovative; I wish her ideas success.
 
-集训时，还有时开小差，浏览了一下互联网。开复老师的创新工场终于推出了产品，一个是《豌豆荚手机精灵》。有Android手机的同志，赶紧去下载，一个贴心的手机精灵会让你充分享受到手机的乐趣。它有一些超赞的功能，将其安装在桌面电脑上，把手机和电脑连接上后，可通过其在电脑上管理手机中的通讯录（手机万一丢失后它就发挥奇效了）、短信（利用电脑群发个性短信，尤其适合节日）、应用程序和音乐等，也能在电脑上备份手机中的资料。此外，可直接一键下载主流视频网站视频。另外，不是Android，也不用太伤心，其影音功能是支持所有使用SD卡的移动设备，其他平台的智能或非智能手机（这个令我惊喜），MP3、MP4播放器，PSP等等，都可以接入豌豆荚来下载影音资源。最新的版本，还可通过wifi连接，就是把手机放在房间，在电脑轻轻一点，便可以把网上视频、音乐下载到手机上，不用数据线。靠在床上看土豆，是一件多惬意的事。这里，也祝愿开复老师创业成功。在两年前吧，认识了这么一位卓越的中西方人才，导师。于是，搜集了他写给中国学生的7封公开信，周末打印下来，带到学校去看。这期间，他让我增长了一些选择的智慧、卓越的价值观等等。开复老师的智慧让我已经摆脱了中国学生的一些传统问题。谢谢你！你对公益性事业的贡献让无数人受益！感兴趣的同学，可以去5xue.com 下载公开信。
+During the training, I sometimes slacked off and browsed the internet. Kai-Fu Lee's Innovation Workshop finally launched a product, *Pods*. If you have an Android phone, go download it. It's a handy phone assistant that lets you fully enjoy your phone. It has some awesome features; install it on your desktop, connect your phone, and you can manage your contacts (especially useful if you lose your phone), text messages (send personalized messages in bulk, especially suitable for holidays), apps, and music through your computer, and you can also back up your phone data. Additionally, you can download videos from major video sites with one click. Even if you don't have an Android, don't be too disappointed; its multimedia features support all mobile devices that use SD cards, other smart or non-smart phones, MP3/MP4 players, PSPs, etc. The latest version also supports WiFi connectivity; just place your phone in the room, and with a light click on the computer, you can download videos and music to your phone without a data cable. Leaning back in bed and watching videos is such a pleasure. Here, I also wish Kai-Fu Lee success in his entrepreneurial journey. Two years ago, I got to know this outstanding talent who bridges East and West. I collected his seven open letters to Chinese students, printed them out, and brought them to school to read. During this time, his wisdom helped me overcome some traditional Chinese student problems. Thank you! Your contributions to public welfare have benefited countless people! If you're interested, you can download the open letters from 5xue.com.
 
-话说回来，选择的智慧让我正视中考的志愿，让我做出了一个至今也不后悔，而且认为是成功的选择。我现在已经用智慧赢得该有的一切，就等我耐心去努力了。就来揭开志愿背后的故事吧。当时我想去华附，一个综合型人才的学校曾让我澎湃了许久。找易海玲老师商量志愿的事，她给我的建议是要么选择去最好的华附，要么就留在玉岩。五月的阳光一如既往，温暖地照耀着涵月湖，空气里有股微甜的清新味道，远处伫立的体育馆，灰中微微闪耀着天空的湛蓝，近似圆形的饭堂，刚毅挺拔，泛着活力的气息。填志愿又是一次追随心的选择。乔布斯（改变世界的苹果CEO）说：
+Back to the topic, the wisdom of choice made me face the reality of the high school entrance exam and made me make a successful choice that I still don't regret. Now, I have used my wisdom to win what I deserve; I just need to work hard patiently. Let's reveal the story behind the choices. At that time, I wanted to go to Hua Fu, a school for comprehensive talents that had excited me for a long time. I discussed my choices with Teacher Yi Hailing. She advised me to either go to the best, Hua Fu, or stay at Yuyan. In May, the sunshine was as warm as ever, shining on Huanyue Lake, with a faint sweetness in the air. The towering sports hall stood firmly, and the circular cafeteria exuded vitality. Filling out the choices was another follow-your-heart decision. Steve Jobs (the CEO who changed the world with Apple) said:
 
-“最重要的是，勇敢地去追随自己的心灵和直觉，只有自己的心灵和直觉才知道自己的真实想法，其他一切都是次要的。”
+“Most importantly, have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.”
 
-我倾听我的内心，它告诉我，我喜欢的是编程，喜欢的是作研究性的工作，我喜欢那段一有空就看Pascal的日子。而我选择玉岩，能使我一上高中，就可以继续沉迷于此。也可让我获得最多的时间来研究自己感兴趣的东西。
+I listened to my heart; it told me that I love programming, I love doing research work, I loved those days when I had any free time to read Pascal. And I chose Yuyan because it would allow me to continue this passion right from the start of high school. It would also give me the most time to research what I'm interested in.
 
-这时，一个微小的火种慢慢地在心里闪烁，最终蔓延成为燃烧的火焰；一个并不清晰的潜意识渐渐地野蛮生长，成为了明确的意志。（后来，徒弟周樾融几次叫我重新考虑下，我都毫不犹豫地告诉她我的选择。）
+At that time, a small spark slowly ignited in my heart, eventually becoming a burning flame; an unconscious thought gradually grew into a clear will. (Later, my disciple called me several times to reconsider, but I told her my choice without hesitation.)
 
-在计算机前，填报志愿时，我闭上眼睛，再问自己一遍：“你，准备好了吗？”
+In front of the computer, filling out my choices, I closed my eyes and asked myself one more time: "Are you ready?"
 
-“是的，我已经准备好了！”一个来自内心深处的声音做出回答。
+“Yes, I am ready!” a voice from deep within my heart answered.
 
-我知道，在这里，我将做出第一个重要的人生选择。
+I knew that at this moment, I would make the first important decision of my life.
 
-尽管前面充满了悬念，但是我依然相信内心的声音。我知道，只有follow my heart(追随我心)的选择，才能激发起身体里最大的潜能，拼尽全力向下一个目标靠近。
+Although the future is full of uncertainties, I still believe in the voice of my heart. I know that only by following my heart can I unleash the greatest potential within me and strive towards the next goal with all my might.
 
-上高中一个月来，也真正让我体会到玉岩的便捷以及习惯的力量，我自由地在这所年轻的学校穿行，思考着如何用最短的时间赢得最好的回报。希望，今年的NOIP能给我一个不错的回报吧！
+In the month since starting high school, I have truly experienced the convenience and power of habit at Yuyan. I freely roam this young campus, thinking about how to get the best return in the shortest time. I hope that this year's NOIP will give me a good return!
 
-### 学习
+### Learning
 
-学习，这个事，真不简单。初三时，我有一个观念，如果高中学习和奥赛不能兼得，那学习稍微差点，奥赛好点就行了。直到后来，我深刻地认识到这是不行的，那是这么一句话，它改变了我的想法——
+Learning is not simple. In junior high, I had an idea that if I couldn't balance high school studies and competitions, it would be okay to be a bit weaker in studies but better in competitions. Later, I deeply realized that this wouldn't work. A quote changed my mind—
 
-“The study certainly is not the life complete. But, since continually life part of - studies also are unable to conquer, what but also can make?”（学习并不是人生的全部。但既然连人生的一部分――学习也无法征服，还能做什么呢？）
+“The study certainly is not the life complete. But, since continually life part of - studies also are unable to conquer, what but also can make?” (Studying is not the whole of life. But if you can't conquer this part of life, what can you do?)
 
-挂在哈佛大学图书馆的训言，又令我深思。是的，学习不是高中的全部，但连高中的一部分——学习也无法征服，还能做什么？！主科仍然是最重要的。
+The motto from Harvard's library made me think deeply. Yes, studying is not the whole of high school, but if you can't conquer this part of high school, what can you do?! Main subjects are still the most important.
 
-然而这一个月来，我的主科有点亮红灯了，邱老师说的“6”开头的三位数排名是指我的语文吗？语文默写历史性的班上倒数第一。前几天，浩龙兴奋地跟我说，“我语文选择满分38,我35啊”，笑得像神仙一样灿烂。语文课上，殷老师说我们班选择题最高分才34，六班3个35。看来，语文问题，已经“升华”为整个班的问题了。殷老师，拿着我5分（10分perfect）默写的卷子跟我说，“国庆把该背的都好好背，好好默写”。说话的语气不是批评的语气，但我也知道，国庆假期我再不把古文单元都背会的话，就不再是这种语气了。
+However, this month, my main subjects have been a bit worrying. The teacher said that my ranking starting with "6" means my Chinese score. My Chinese dictation was historically the lowest in the class. A few days ago, a classmate excitedly told me, "I got a perfect score of 38 on the Chinese multiple-choice, and I got 35!" He laughed like a god. In Chinese class, the teacher said our class's highest score was only 34, while Class 6 had three students score 35. It seems that the Chinese problem has become a class-wide issue. The teacher, holding my 5-point (out of 10 perfect) dictation paper, told me, "Review everything during the National Day holiday and practice dictation well." The tone was not critical, but I also knew that if I didn't memorize all the classical texts during the holiday, the tone would change.
 
- 这个月，也并不是对每节课都专心致志。希望用两句笑来老师的话提醒自己——
+This month, I wasn't focused on every class. I hope to remind myself with two quotes from Teacher Li Xiaolai—
 
-“用自己的学习结果衡量老师往往并不正确。”
+“Judging a teacher by your learning results is often not accurate.”
 
-“不要因为讨厌老师而拒绝学习。”
+“Don't reject learning because you dislike the teacher.”
 
-### 小发现
+### Small Discoveries
 
-童总是学课间操学得特别快，很佩服他的肢体领悟能力，也希望体育委能早日康复，免得我在课间时老是带队，据说我的课间操也做得不很标准，有点在大家面前班门弄斧的意味。昨天上体育课，做操，总是被伟壕、余沁说全都快拍，慢拍的。我晕……@_@没那么严重吧，由于学操的时候，有时不专注，导致有些动作不标准，这点我是承认的。可哪里来的全都不标准，哎，说得我有点自卑了。
+A classmate totaly is learning the school exercises very quickly, very admire his physical comprehension. I also hope the sports committee can recover soon, so I don't have to lead the exercises anymore. I've been told my exercises are not very standard, which makes me feel a bit inferior.
 
-邱老师的智慧，也有一部分得益于卡耐基的作品。他为班级图书馆捐的其中一本书便是《人性的优点》（嘿嘿，我一看到如此令人激动的书，便立刻借了，我但愿国庆快点读完，让更多人受益）。这本书一定在一定程度上修炼了老师面对生活的从容不迫的能力。老师总结的高中规律，也拿来分享下（我是典型的拿来主义者= =）：
+The teacher's wisdom also benefits from Carnegie's works. He donated a book to the class library called *Human Nature's Advantages* (I was so excited to see such an inspiring book that I immediately borrowed it; I hope to finish it quickly during the National Day holiday so more people can benefit). This book must have helped the teacher develop his calm and composed ability to face life. The teacher summarized the rules of high school, which I will share (I am a typical borrower = =):
 
-"高一紧（因为9科），高二活（减少了3科），高三拼。”
+"High one is tight (because of 9 subjects), high two is active (reduced by 3 subjects), high three is intense."
 
-这个教条，我是很信奉的，让我面对社团的一些问题做出了干脆的选择。
+This principle, I firmly believe in, let me face the club's some problems decisively.
 
-我们的“四舍五入”宿舍（504嘛），有两个街舞的，一个管乐的，一个奥赛的我，一个早鸟，还有一个“不声不声，吓你一惊”的天才，自然生活作息就难以相同。                     
+Our "Four Approximation" dorm (504) has two street dancers, one wind instrument player, one Olympiad participant me, one early bird, and one "no sound, no sound, scare you a surprise" genius, naturally living and resting differently.
 
-### 许愿灯
+### Wish Lanterns
 
-我们班真是有团队精神，举两个例子。一是作业本，紫欣一个周末就帮全部人从批发市场买好了作业本，送到学校。这样一来，老师桌面上的作业本无比整齐。大家无比感谢紫欣！又便宜又美观的作业本啊！所以大家也毫不犹豫地选紫欣当班长！希望她带领我们班创造传奇般的奇迹！二是许愿灯，华哥的好主意。在中秋前一个星期，华哥让我们写好许愿灯的数量和颜色，过几天就送来了。中秋前晚，我们班举行了个party，紫欣主持，party有几个超级亮点。冯圣与芳姐！伟壕的惊人的回答！余沁的杀手锏式的问题！黄文笑与黑板的热吻！^_^！笑喷了我好几次。中秋节过后回到学校，当天第三节晚自习下课后，我与钰翔来到网球场附近的沙池旁边，我们小心翼翼张开孔明灯（因为上次弄破了个洞而不能放飞，又因为点燃了，所以不得不踩灭漂亮的孔明灯。那次经历使我对孔明灯加倍爱惜）。点燃孔明灯下的蜡烛，放飞！Yes！红彤彤的孔明灯如漂泊的蒲公英在夜空中驰骋，今晚是美丽的一晚。我和钰翔轻轻地许下了我们的愿望。期待许愿灯发挥它魔力的那一刻吧！
+Our class truly has team spirit, here are two examples. One is the homework notebooks; a classmate bought notebooks for everyone from the wholesale market one weekend and brought them to school. This way, the notebooks on the teacher's desk were neat and uniform. Everyone was grateful to the classmate! And cheap and beautiful notebooks ah! So everyone unanimously elected the classmate as the class monitor! Hope she leads our class to create legendary miracles! Two is the wish lanterns, a classmate's good idea. A week before the Mid-Autumn Festival, the classmate let us write down the quantity and color of the wish lanterns we wanted, and a few days later, they were delivered. On the evening before the Mid-Autumn Festival, our class held a party, hosted by a classmate, the party had several super bright spots. Classmate and classmate! A classmate's surprising answers! A classmate's killer questions! A classmate and the blackboard's hot kiss! ^_^! I laughed so hard several times. After the Mid-Autumn Festival, when we returned to school, on the third period of the evening self-study, I and a classmate came to the sandpit near the tennis court. We carefully opened the Kongming lantern (because last time it got a hole and couldn't be released; since it was lit, we had to step on the beautiful Kongming lantern. That experience made me cherish Kongming lanterns even more). We lit the candle under the Kongming lantern and released it! Yes! The red Kongming lantern floated in the night sky like a dandelion, tonight is a beautiful evening. I and the classmate lightly made our wishes. Looking forward to the wish lanterns exerting their magic!
 
-### A Compliant Free World
+### A Complaint Free World
 
-上个周末，因为还没有“电子图书证”，我去卓越亚马逊买了些畅销书。其中一本是：《A Compliant Free World》，中文名《不抱怨的世界》，利用几个中午排队的时间，消化了里面的智慧。Everyone，让我们一起来参加不抱怨活动吧！游戏简介：
+Last weekend, since I didn't have an "electronic library card," I went to Amazon and bought some bestsellers. One of them was: *A Complaint Free World*, or *不抱怨的世界* in Chinese, using several lunch breaks to digest the wisdom inside. Everyone, let's join the no-complaint activity! Game introduction:
 
-美国知名牧师威尔鲍温，发起了一项“不抱怨”活动，邀请每位参加者戴上一个特制的紫手环，只要一察觉自己抱怨，就将手环换到另一只手上，以此类推，直到这个手环能持续戴在同一只手上21天为止。
+American famous pastor Will Bowen initiated a "no-complaint" activity, inviting every participant to wear a special purple bracelet, and every time they realize they are complaining, they move the bracelet to the other hand, and so on, until this bracelet can be continuously worn on the same hand for 21 days.
 
-紫色的神奇手环用法如下：
+The magical purple bracelet usage is as follows:
 
-1.将手环戴在一只手腕上。  
-2.当你发现自己正在抱怨、讲闲话或批评时，就把手环移到另一只手上。  
-3.如此交替更换，直到养成连续21天不抱怨、不批评、不讲闲话的目标为止。  
-4.坚持下去。平均的成功时间是4~8个月。   
+1. Wear the bracelet on one wrist.
+2. When you realize you are complaining, gossiping, or criticizing, move the bracelet to the other wrist.
+3. Keep alternating like this until you form the habit of not complaining, not gossiping, and not criticizing for 21 consecutive days.
+4. Persist. The average successful time is 4~8 months.
 
-其实也可以不用紫手环。现在就拿一条橡皮筋套在手上，把铜板或小石头放在口袋里，把纸镇移到书桌的另一边，或找到任何一种能确实自我监督的方法。现在就做。然后，当你逮到自己在抱怨、批评、讲闲话的时候，就移动那个东西——把橡皮筋移到另一手，把硬币放到另一个口袋，或把文具移到书桌另一边。移动那个东西很重要，这样的动作将在意识里深深地刻下痕迹，让你察觉到自己的行为。你一定要去移动它，没有一次可以例外。
+Actually, you don't have to use a purple bracelet. Now, just put a rubber band on your hand, put a coin or small stone in your pocket, move the paperweight to the other side of the desk, or find any method that can effectively monitor yourself. Do it now. Then, when you catch yourself complaining, criticizing, or gossiping, move that thing—move the rubber band to the other hand, put the coin in the other pocket, or move the stationery to the other side of the desk. Moving that thing is very important, this action will deeply imprint in your consciousness, making you aware of your behavior. You must move it, no exceptions.
 
-一起来！一起来创造不抱怨的世界！想象一下一个不抱怨的世界，那是多么美好的一个世界……
+Come on! Let's create a complaint-free world together! Imagine a complaint-free world, how beautiful it would be…
 
-### 总结
+### Summary
 
-最近在《The Quick and Easy Way to Effective Speaking》我找到上文所宣泄的种种忧虑产生的原因，源于两个字：专注。我真应该好好训练下这方面的能力，古文没背下来，不够专注。NOIP，不够专注地去准备。学习，上课不够专注。学操，有一天我试着专注，结果学得很好，节拍和动作合上来，但那是最后几节操，前几节课都因不专注而没学好。罗斯福的事例具体地告诉了我成功的钥匙——
+Recently, in *The Quick and Easy Way to Effective Speaking*, I found the source of the various worries expressed above, which comes from two words: focus. I really should train this aspect of my ability. I didn't memorize the ancient texts, not focused enough. NOIP, not focused enough in preparation. Studying, not focused in class. Learning exercises, one day I tried to focus, and the result was good, the rhythm and movements matched, but that was the last few sessions, the previous sessions were not focused and didn't learn well. Roosevelt's example specifically told me the key to success—
 
-在1912年的芝加哥党大会举行期间，他的总部设在国会旅社。群众涌向旅馆下的街道，挥舞着旗帜，高呼：“我们要泰迪（罗斯福）！我们要泰迪！”群众的呼喊声，乐队的演奏声，来来去去的政治家，匆匆召开的会议，各种磋商活动——这种混乱而嘈杂的情况早已把普通人搞得心神不宁了；但罗斯福却安然坐在他房间里的摇椅上，忘掉了所有的混乱与嘈杂，专心阅读古希腊历史学家希罗多德的作品。在巴西荒野旅行期间，每天傍晚，他一到达宿营地，立刻在大树底下找一处干燥的地方，取出一张露营用的小凳子和他随身携带的一本英国历史学家吉朋写的《罗马帝国兴亡录》，迅速沉迷在书中，完全忘掉了滂沱大雨、营区的嘈杂声和活动以及热带雨林特有的各种声响。
+In 1912, during the Chicago convention, his headquarters were set up in the Congress Hotel. Crowds surged towards the hotel, waving flags, and shouting: "We want Teddy (Roosevelt)! We want Teddy!" The shouts of the crowd, the band's performance, the coming and going of politicians, hastily convened meetings, various consultations—this chaotic and noisy situation had already made ordinary people restless; but Roosevelt sat calmly in his room's rocking chair, forgetting all the chaos and noise, focused on reading the works of the ancient Greek historian Herodotus. During the Brazilian wilderness trip, every evening, he would immediately find a dry spot under a big tree upon reaching the campsite, take out a small stool and his carried *The History of the Decline and Fall of the Roman Empire* by the British historian Gibbon, quickly immersed in the book, completely forgetting the torrential rain, the noise of the camp, and the various sounds of the tropical rainforest.
 
-如果我有这种专注，10月会更加精彩！
+If I had this kind of focus, October would be even more wonderful!
