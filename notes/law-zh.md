@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "法学概论"
+audio: true
 ---
 
 ## 第一编：法理学基础知识

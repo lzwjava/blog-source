@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "前端工程师面试"
+audio: true
 ---
 
 ### HTML (20 点)

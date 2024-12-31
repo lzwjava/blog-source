@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "计算机组成原理"
+audio: true
 ---
 
 *这篇博客文章由 ChatGPT 精炼。*

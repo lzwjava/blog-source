@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Legal Theory"
+audio: true
 ---
 
 ### I. Basic Theory of Law

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "领导力"
+audio: true
 ---
 
 ### 一般管理
