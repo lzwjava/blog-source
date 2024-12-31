@@ -42,3 +42,5 @@ link: "pages/notes-en"
 - [predictions-zh](/notes/predictions-zh)  
 - [competitive-programming-en](/notes/competitive-programming-en)  
 - [competitive-programming-zh](/notes/competitive-programming-zh)
+- [leadership-en](/notes/leadership-en)  
+- [leadership-zh](/notes/leadership-zh)
