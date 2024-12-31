@@ -29,8 +29,6 @@ From a collaboration perspective, the approach to testing can vary. For a person
 
 In a previous work experience, I collaborated with three other backend engineers on a feature that took half a year to deliver. From a testing perspective, the points discussed in this article may explain why development was slow during that time.
 
-From a collaboration perspective, those responsible for the main code should also be responsible for the related tests. Tasks should intertwine as little as possible, with clear and separate responsibilities for each team member.
-
 AI code editors also lack this kind of optimization, highlighting an area for improvement. This principle isn't limited to software engineering; it's relevant to hardware and other fields as well. Testing is a form of optimization, and as the saying goes, "Premature optimization is the root of all evil."
 
 It's crucial to remember the main objective of the job. While processes and procedures are unavoidable, we must keep in mind what's truly important.
