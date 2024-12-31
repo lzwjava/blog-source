@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 笔记
+link: "pages/notes-en"
 ---
 
 这些笔记主要由AI聊天机器人生成。我用它们来总结关键点，并通过阅读来加深理解。
