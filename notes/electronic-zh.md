@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "电子基础"
+audio: true
 ---
 
 ### 基本电子元件

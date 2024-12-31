@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "毛泽东思想与中国特色社会主义"
+audio: true
 ---
 
 ### I. 毛泽东思想与中国特色简介

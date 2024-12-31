@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Computer Organization"
+audio: true
 ---
 
 *This blog post was refined by ChatGPT.*
