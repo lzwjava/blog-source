@@ -24,8 +24,7 @@ audio: true
 
 9. Explain the key operations available in Java Stream API. Answer: Stream API includes intermediate operations (e.g., `map`, `filter`) and terminal operations (e.g., `forEach`, `collect`). They allow for functional-style operations on collections.
 
-10. How do you use reflection in Java to inspect classes at runtime?
-    - Answer: Reflection allows inspection of classes, methods, and fields using `Class.forName()`, `getMethods()`, and `getField()`. It's used for dynamic behavior and frameworks.
+10. How do you use reflection in Java to inspect classes at runtime? Answer: Reflection allows inspection of classes, methods, and fields using `Class.forName()`, `getMethods()`, and `getField()`. It's used for dynamic behavior and frameworks.
 
 ---
 
@@ -49,8 +48,7 @@ audio: true
 
 9. Explain the use of Spring profiles. Answer: Profiles allow different configurations for different environments (e.g., development, production), enabling environment-specific settings.
 
-10. How do Spring Boot starters simplify dependency management?
-    - Answer: Starters include all necessary dependencies for a specific functionality, reducing the need to manually manage dependencies.
+10. How do Spring Boot starters simplify dependency management? Answer: Starters include all necessary dependencies for a specific functionality, reducing the need to manually manage dependencies.
 
 ---
 
@@ -74,8 +72,7 @@ audio: true
 
 9. Describe contract-first development in microservices. Answer: Contract-first development defines APIs before implementation, ensuring compatibility and decoupling between services.
 
-10. How do you implement rate limiting in microservices?
-    - Answer: Rate limiting can be implemented using middleware or APIs like Spring Cloud Gateway, controlling request rates to prevent abuse.
+10. How do you implement rate limiting in microservices? Answer: Rate limiting can be implemented using middleware or APIs like Spring Cloud Gateway, controlling request rates to prevent abuse.
 
 ---
 
@@ -99,8 +96,7 @@ audio: true
 
 9. Describe transaction isolation levels in databases. Answer: Isolation levels (Read Uncommitted, Read Committed, Repeatable Read, Serializable) define how transactions interact with each other.
 
-10. How do you optimize indexing strategies in databases?
-    - Answer: Choose indexes based on query patterns, avoid over-indexing, and use composite indexes for multi-column queries.
+10. How do you optimize indexing strategies in databases? Answer: Choose indexes based on query patterns, avoid over-indexing, and use composite indexes for multi-column queries.
 
 ---
 
@@ -124,8 +120,7 @@ audio: true
 
 9. Describe lock striping in Java. Answer: Lock striping divides a lock into multiple parts (stripes), allowing concurrent access to different parts, reducing contention.
 
-10. How do you handle thread interruption in Java?
-    - Answer: Threads can check the interrupted status and throw `InterruptedException`, allowing graceful termination.
+10. How do you handle thread interruption in Java? Answer: Threads can check the interrupted status and throw `InterruptedException`, allowing graceful termination.
 
 ---
 
@@ -149,8 +144,7 @@ audio: true
 
 9. What is SSL offloading, and why is it beneficial? Answer: SSL offloading decrypts SSL/TLS traffic at a load balancer, reducing server load and improving performance.
 
-10. Describe the process of scaling web servers horizontally.
-    - Answer: Horizontal scaling involves adding more servers to handle increased load, managed through load balancers and auto-scaling groups.
+10. Describe the process of scaling web servers horizontally. Answer: Horizontal scaling involves adding more servers to handle increased load, managed through load balancers and auto-scaling groups.
 
 ---
 
@@ -174,8 +168,7 @@ audio: true
 
 9. Describe the process of rolling back a failed deployment. Answer: Rollbacks can be automated using version control or CI/CD tools, reverting to a known stable version upon failure.
 
-10. What is the importance of environment management in DevOps?
-    - Answer: Environment management ensures consistency across development, testing, and production, reducing environment-specific issues.
+10. What is the importance of environment management in DevOps? Answer: Environment management ensures consistency across development, testing, and production, reducing environment-specific issues.
 
 ---
 
@@ -199,8 +192,7 @@ audio: true
 
 9. How do you ensure clean code practices? Answer: Clean code practices include meaningful naming, adherence to standards, and writing self-documenting code.
 
-10. What is the importance of TDD (Test-Driven Development)?
-    - Answer: TDD involves writing tests before code, ensuring code meets requirements and improving maintainability through continuous testing.
+10. What is the importance of TDD (Test-Driven Development)? Answer: TDD involves writing tests before code, ensuring code meets requirements and improving maintainability through continuous testing.
 
 ---
 
@@ -224,8 +216,7 @@ audio: true
 
 9. What is two-factor authentication, and why is it important? Answer: Two-factor authentication adds an extra layer of security by requiring two forms of verification, reducing unauthorized access risks.
 
-10. Describe the role of a Web Application Firewall (WAF).
-    - Answer: A WAF protects web applications from attacks like SQL injection and XSS by filtering and monitoring HTTP traffic.
+10. Describe the role of a Web Application Firewall (WAF). Answer: A WAF protects web applications from attacks like SQL injection and XSS by filtering and monitoring HTTP traffic.
 
 ---
 
@@ -249,6 +240,5 @@ audio: true
 
 9. Explain the importance of monitoring and alerting in performance management. Answer: Monitoring tracks application health and performance, while alerting ensures timely responses to issues, preventing downtime.
 
-10. What are common signs of performance bottlenecks in Java applications?
-    - Answer: Signs include high CPU usage, memory leaks, slow response times, and increased garbage collection activity.
+10. What are common signs of performance bottlenecks in Java applications? Answer: Signs include high CPU usage, memory leaks, slow response times, and increased garbage collection activity.
 
