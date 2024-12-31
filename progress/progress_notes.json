@@ -1,16 +1,1 @@
-{
-    "assets/audios/java-questions-en.mp3": {
-        "processed_chunks": [
-            0,
-            1,
-            2,
-            3
-        ],
-        "temp_files": [
-            "/var/folders/z9/9wvc1vr55x5821hsh8yvx0h00000gn/T/tmp0lftugbb.mp3",
-            "/var/folders/z9/9wvc1vr55x5821hsh8yvx0h00000gn/T/tmprcti2uzz.mp3",
-            "/var/folders/z9/9wvc1vr55x5821hsh8yvx0h00000gn/T/tmplfk4ofcv.mp3",
-            "/var/folders/z9/9wvc1vr55x5821hsh8yvx0h00000gn/T/tmp7jfa1__u.mp3"
-        ]
-    }
-}
+{}
