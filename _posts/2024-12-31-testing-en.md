@@ -7,17 +7,7 @@ title: Testing
 
 Yesterday, I set out to create an auto-configuration tool for Shadowsocks Outline, aiming to turn it into a Python project for others to use. I developed a script that updates a `config.yaml` file with Shadowsocks proxy configurations by decoding Shadowsocks URLs from an `ssconfig` file. Additionally, I created another script that uses `gsutil` to upload the subscription file for clients to Google Cloud Storage.
 
-I used Windsurf, an AI code editor, for assistance. However, it struggled with the following test:
-
-```python
-@patch('update_config.update_config_yaml')
-@patch('google.cloud.storage.Client')
-def test_update_config(self, mock_client_class, mock_update_yaml):
-    # Mock dependencies
-    mock_client = MagicMock()
-    mock_bucket = MagicMock()
-    # ...
-```
+I used Windsurf, an AI code editor, for assistance. However, it struggled with handling mock dependencies in Python unit testing.
 
 Reflecting on the testing lessons shared by Yin Wang, I recalled his experiences at Google, where he worked on a Python interpreter and indexed the company's code for search functionality. His colleagues insisted on writing tests, which he found annoying. He believed that writing elegant code was more important than testing, and that his colleagues only understood superficial aspects without grasping the essence.
 
@@ -31,7 +21,7 @@ In a previous work experience, I collaborated with three other backend engineers
 
 From a collaboration perspective, those responsible for the main code should also be responsible for the related tests. Tasks should intertwine as little as possible, with clear and separate responsibilities for each team member.
 
-AI code editors also lack this kind of optimization, highlighting an area for improvement. This principle isn't limited to software engineering; it's relevant to hardware and other fields as well. Testing is a form of optimization, and as the saying goes, "Premature optimization is the root of all evil."
+Returning to the topic of testing, AI code editors also lack this kind of optimization, highlighting an area for improvement. This principle isn't limited to software engineering; it's relevant to hardware and other fields as well. Testing is a form of optimization, and as the saying goes, "Premature optimization is the root of all evil."
 
 It's crucial to remember the main objective of the job. While processes and procedures are unavoidable, we must keep in mind what's truly important.
 
