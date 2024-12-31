@@ -2,7 +2,7 @@
 audio: true
 lang: zh
 layout: post
-title: 测试
+title: 测试的时机
 ---
 
 昨天，我开始创建一个 Shadowsocks Outline 的自动配置工具，目的是将其打造成一个供他人使用的 Python 项目。我开发了一个脚本，通过解码来自 `ssconfig` 文件的 Shadowsocks URL，更新 `config.yaml` 文件中的 Shadowsocks 代理配置。此外，我还创建了另一个脚本，使用 `gsutil` 将订阅文件上传到 Google Cloud Storage，供客户端使用。
