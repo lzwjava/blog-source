@@ -42,7 +42,7 @@ $button-padding: 0.5rem 1rem;
   align-items: center;
   background-color: $main-bg-color;
   background-image: linear-gradient(120deg, #004eff, #bfc800);
-  padding: 1rem;
+  padding: 0rem;
 
   h1,
   h2 {
@@ -168,7 +168,7 @@ $button-padding: 0.5rem 1rem;
   /* Center them horizontally */
   gap: 1rem;
   /* Add spacing between items */
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 /* Post List */
