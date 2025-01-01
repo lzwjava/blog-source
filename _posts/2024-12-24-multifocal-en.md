@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: Plan for Multifocal Progressive Lenses
+title: Multifocal Progressive Lenses
 ---
 
 2024.11.28
@@ -60,3 +60,13 @@ Left Eye:
 {: .centered }
 ![](assets/images/multifocal/pdd.jpg){: .responsive }
 *Source: pinduoduo.com*{: .caption }
+
+---
+
+After trying multifocal lenses for a few minutes, I found them to be quite good. They suit my needs perfectly and cost around 130 CNY.
+
+I used the above data to customize a pair of multifocal progressive lenses. I can use the near vision part when using my mobile phone and the far vision part when working on my computer.
+
+Actually, you can adjust which part you use for near or far vision by moving your gaze up or down the lenses. While it's possible to make small adjustments, it can feel unusual or uncomfortable to adjust too much.
+
+I'll use them for a few more days to see how they feel.
