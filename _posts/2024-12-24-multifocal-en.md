@@ -63,7 +63,7 @@ Left Eye:
 
 ---
 
-After trying multifocal lenses for a few minutes, I found them to be quite good. They suit my needs perfectly and cost around 130 CNY.
+After trying a pair of multifocal lense for a few minutes, I found this kind of lenses to be quite good. They suit my needs perfectly and cost around 130 CNY.
 
 I used the above data to customize a pair of multifocal progressive lenses. I can use the near vision part when using my mobile phone and the far vision part when working on my computer.
 
