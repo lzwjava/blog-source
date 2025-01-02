@@ -1,5 +1,9 @@
 # lzwjava.github.io
 
+Welcome to my personal blog! Here, I share my thoughts, experiences, and knowledge on various topics.
+
+## improvements
+
 Main improvements from the Jekyll blog using the jekyll-theme-cayman:
 
 * Use large language models for translation
@@ -14,7 +18,7 @@ Main improvements from the Jekyll blog using the jekyll-theme-cayman:
 * Use feed.xml to support RSS feeds
 * Chinese and English bilingual support
 
-Getting started:
+### Getting started
 
 ```shell
 gem install jekyll bundler
