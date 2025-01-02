@@ -64,8 +64,8 @@ python pdf-pipeline.py --task notes
 
 Notes updated:
 
-- -en: English articles
-- -zh: Chinese articles
+- -en: English posts
+- -zh: Chinese posts
 
 _posts and pages support both -en and -zh.
 
