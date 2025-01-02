@@ -14,7 +14,6 @@ layout: page
   <option value="random|zh">随机顺序 - 中文</option>
 </select>
 
-
 <ul class="post-list">
   {% if site.posts.size > 0 %}
   {% for post in site.posts %}
@@ -32,7 +31,7 @@ layout: page
 </ul>
 
 <footer class="site-footer">
-  <span class="site-footer-credits">Copyright©2010－{{ site.time | date: "%Y" }}</span>
+  <span class="site-footer-credits">{{ site.posts.size }} posts<br>Copyright©2010－{{ site.time | date: "%Y" }}</span>
 </footer>
 
 <script>
