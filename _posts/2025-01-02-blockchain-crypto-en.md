@@ -1,45 +1,55 @@
 ---
-audio: true
-lang: en
-layout: post
-title: What matters, Cryptocurrency or Blockchain?
+audio: true  
+lang: en  
+layout: post  
+title: What Matters, Cryptocurrency or Blockchain?  
 ---
 
-Cryptocurrency like AI, it is known for a large part of population. I think the population rate to know cryptocurrency are just like the population that can access free Internet. So in countries that are outside China, there will more percent of population knows cryptocurrency. 
+Cryptocurrency, like AI, is known to a large portion of the population. I believe the awareness of cryptocurrency is similar to the proportion of people who have access to free internet. In countries outside China, a larger percentage of the population is likely to know about cryptocurrency.
 
-The people who know cryptocurrency and the people who actually hold bitcoin or other cypro coins will have some proportion.
+The number of people who are aware of cryptocurrency compared to those who actually hold Bitcoin or other crypto coins will be a different proportion.
 
-According to wikipedia,
+According to Wikipedia:
 
 > A cryptocurrency, crypto-currency, or crypto is a digital currency designed to work through a computer network that is not reliant on any central authority, such as a government or bank, to uphold or maintain it.
 
-> A blockchain is a distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes.
+> A blockchain is a distributed ledger with a growing list of records (blocks) that are securely linked together via cryptographic hashes.
 
-A Cryptocurrency is like an AI tool. A blockchain is like a neural network or a transformer. 
+A cryptocurrency is like an AI tool, while a blockchain is like a neural network or a transformer.
 
-They all matters. Blockchains are the technology behind cryptocurrencies. Neural networks and transformers are the tecnology behind AI tools.
+They both matter. Blockchains are the technology behind cryptocurrencies, just as neural networks and transformers are the technology behind AI tools.
 
-Cryptocurrency is internet of money. In future world, all money that are transacted in the digital world will using Cryptocurrency to transact. It is helpful in the cross border transaction. The swift transaction is expensive and slow. 
+Cryptocurrency is the "internet of money." In the future, all money transacted in the digital world will use cryptocurrency. It is particularly useful in cross-border transactions, where the SWIFT system is expensive and slow.
 
-And for other digital transaction, you can now use cryto coins in Binace to buy apple gift card,  Nintendo eShop gift cards, etc. In future world, the amazon, temu, shopify, apple store will support to use crypto coins to directly purchase products. If in the digital Internet world, a large part of transaction happens in crypto. Surely, it is not difficult to use them in physcial world. The convenience stores can accpet the payment of crypto coins.
+For other digital transactions, you can already use crypto coins on Binance to buy Apple gift cards, Nintendo eShop gift cards, etc. In the future, platforms like Amazon, Temu, Shopify, and Apple will support crypto coins for direct product purchases. If a large portion of digital transactions occur in crypto, it won't be difficult to use them in the physical world as well. Convenience stores, for instance, could accept crypto coins as payment.
 
-Using cryto coins, governments are hard to gain taxes from it. If companies give me salary using crytpo coins, how goverments track them. As transaction don't need government, the chossing rights of peers people do transaction with will leave to people. 
+However, using crypto coins makes it harder for governments to collect taxes. If companies pay me in crypto coins, how can governments track these transactions? Since transactions don’t require government oversight, the power to choose transaction partners will be left to individuals.
 
-Government will start serving like a big company equal to the company in its area. They don't have higher powers than other companies. It starts to happen in United States. 
+Governments will start operating more like large companies, with similar powers to other businesses in their areas. This shift is already happening in the United States.
 
-The future world will be self-governed. The rights about eveything will leave to the residents inside. 
+In the future, the world will likely be more self-governed. Decisions about various aspects of life will be made by residents themselves.
 
-People want more freedom and security. In the Internet world, people can use cryptocurrency or blockchain to have more freedom and security. But whatever, people still have physical bodies. People need weapons to protect themselves. The countries need high technical weapons like drones or missiles to protect its citizens.
+People want more freedom and security. In the internet world, cryptocurrency and blockchain can offer more freedom and security. But we still have physical bodies that require protection. Countries will need advanced weapons, such as drones or missiles, to protect their citizens.
 
-In the United States, the right to keep and bear arms is protected by the Second Amendment to the Constitution, Other countries like Canada, Austria, Switzerland, Czech Republic and Finland have relatively permissive gun laws. 
+In the United States, the right to keep and bear arms is protected by the Second Amendment to the Constitution. Other countries, like Canada, Austria, Switzerland, the Czech Republic, and Finland, have relatively permissive gun laws.
 
-In China, tough it is not allowed guns, as people want, they can use smart way to cause large hurt. On 11 November 2024, a man drove his SUV into people on the exercise track at the Zhuhai Stadium sports center in Zhuhai, Guangdong, China, killing 35 and injuring 43 more. 
+In China, while guns are not allowed, people can find other ways to cause harm. On November 11, 2024, a man drove his SUV into people on an exercise track at the Zhuhai Stadium sports center in Zhuhai, Guangdong, China, killing 35 and injuring 43 more.
 
-Money freedom is important aspect of life. However, security and body freedom is more important too. Living in a healthy community is important. 
+While financial freedom is an important aspect of life, security and bodily freedom are even more crucial. Living in a healthy community is key.
 
-And in the Cryptocurrency or Blockchain prevalent world, there are more trust and freedom. 
+In a world where cryptocurrency and blockchain are prevalent, there is more trust and freedom.
 
-Back to what matters, there are two ways for the future. One is current internet platform support payment of crypto coins or that current internet platform needs to be rewrote or invented in blockchain way. I think that the previous one is enough. As we can hold most of our money using cryptos and only monthly pay or pay one time to buy products or services in digital world. We can trust most of internet platforms in this small amount of money. 
+Now, back to the original question: What matters? There are two possible paths for the future. One is for current internet platforms to support payments in crypto coins, while the other is for these platforms to be rewritten or reinvented using blockchain technology. I believe the former is sufficient. We can hold most of our money in crypto and use it for monthly payments or one-time purchases in the digital world. We can trust most internet platforms with these small amounts of money.
 
-And for the latter one, I think the innovation about blockchain will happen firstly in money side. How people use money to trade, invest stocks, do the options will be invented by blockchain ways. If the stock platforms support the crypto coins to charge its balance, why don't let crypto coins to run through their system. The path stock <-> platform blance <-> crypto coins can be shorten as stock <-> crypto coins. 
+As for the latter, I think blockchain innovation will first occur in the financial sector. The way people use money to trade, invest in stocks, and handle options could be reimagined using blockchain. If stock platforms support crypto coins to fund accounts, why not let crypto coins run through their systems? The path from stock to platform balance to crypto coins could be shortened to stock to crypto coins.
+
+I don't fully understand how smart contracts, Ethereum, and Solana work, but they may have valuable applications.
+
+If a large part of the population primarily uses blockchain technology through cryptocurrency, then what matters most to them? They are essentially the same. However, if there are many applications of blockchain beyond cryptocurrency, then blockchain will become even more important.
+
+Apparently, a block can store more than just numbers. It can hold text, images, audio, videos, multimedia, or any digital format, including bits and bytes. NFTs, for instance, simply store images in blocks. People claim NFTs have collectible value.
+
+Why do we store information in blocks? To prevent it from being deleted. We don’t want valuable information to be lost. Platforms like Bluesky and Mastodon use blockchains to power their social networks. It’s a fascinating development.
+
+Let’s continue learning to draw conclusions.
 
