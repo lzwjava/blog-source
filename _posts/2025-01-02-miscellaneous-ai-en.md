@@ -2,7 +2,7 @@
 audio: true  
 lang: en  
 layout: post  
-title: Comprehensive Testing of AI and LLM Capabilities
+title: Miscellaneous Testing of AI and LLM Capabilities
 ---
 
 *This blog post was written by Mistral.*
