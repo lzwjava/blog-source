@@ -9,7 +9,7 @@ Is it still useful to write blogs now that we have large language models (LLMs)?
 
 From this perspective, the information LLMs couldn't provide holds much more value. New discoveries or lesser-known truths will be usable in the future.
 
-Before LLMs, we will use search engines more often. Search engines will redirect users to your website, giving credit to your site. In the mobile era, a lot of information is produced within apps, like the WeChat subscription platform or X (formerly Twitter).
+Even before LLMs, we used search engines frequently. Search engines redirect users to your website, providing both credit and traffic to your site. In the mobile era, a lot of information is produced within apps, such as the WeChat subscription platform or X (formerly Twitter).
 
 From an information usefulness standpoint, you certainly don't need to write anything that is already easily searchable, such as how to perform calculations, how to download apps from the App Store, or how to use a phone. It seems untrue that this information is still useful for children or elderly people.
 
