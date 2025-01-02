@@ -52,4 +52,9 @@ link: "pages/notes-en"
 - [physics-zh](/notes/physics-zh)
 - [predictions-en](/notes/predictions-en)
 - [predictions-zh](/notes/predictions-zh)
-
+- [legal-diff-en](/notes/legal-diff-en)
+- [legal-diff-zh](/notes/legal-diff-zh)
+- [miscellaneous-ai-en](/notes/miscellaneous-ai-en)
+- [miscellaneous-ai-zh](/notes/miscellaneous-ai-zh)
+- [constitution-en](/notes/constitution-en)
+- [constitution-zh](/notes/constitution-zh)
