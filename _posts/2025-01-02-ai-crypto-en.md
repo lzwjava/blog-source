@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: How I Live Well in the AI and Crypto Era
+title: How I Live Well in the AI and Blockchain Era
 ---
 
 Is it still useful to write blogs now that we have large language models (LLMs)? If LLMs contain the information you want to share and people use LLMs more, do we still need to provide our own information?
@@ -23,7 +23,7 @@ Therefore, many of my private documents or information that aren't digitized are
 
 Basically, we aren't interested in the private information of others unless we like them or need it. People care about themselves a lot.
 
-Turning back to how to provide useful information and succeed in this world, AI research engineers and scientists are in high demand. There are numerous hot AI startups and products, as well as popular crypto startups and coins.
+Turning back to how to provide useful information and succeed in this world, AI research engineers and scientists are in high demand. There are numerous hot AI startups and products, as well as popular blockchain startups and coins.
 
 Useful assets for humans can be found at [Companies Market Cap](https://companiesmarketcap.com). They include public companies, precious metals, cryptocurrencies, and ETFs.
 
@@ -39,7 +39,7 @@ Writing blogs is a way to learn. Just like top AI talents today, writing blogs t
 
 The best way for me to use the latest AI is to learn about it, share information about it, and create more advanced AI.
 
-Regarding the crypto part, my best approach is to use what I earn to regularly invest in Bitcoin, as I don't have much more energy to put into the crypto world. I heard about Solana recently. It is cool.
+Regarding the blockchain part, my best approach is to use what I earn to regularly invest in Bitcoin, as I don't have much more energy to put into the blockchain world. I heard about Solana recently. It is cool.
 
 I thought out a solution for what I do, but what about where I live and who I live with? I want to live in a top AI area; currently, it is San Francisco. However, the internet has no barriers—DeepSeek in China and Mistral in France are also doing a good job. Additionally, I am a college dropout now, getting my associate degree. This has caused some trouble for me in working outside of China. It is important to choose where to live.
 
