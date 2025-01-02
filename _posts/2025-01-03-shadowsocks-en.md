@@ -7,7 +7,7 @@ title: Shadowsocks Proxy Issues
 
 Zhiwei: 
 
-I went out for a barbeque with friends and used Shadowsocks with a Singapore-based server as my proxy to bypass the Great Firewall (GFW). While using 5G outside, I couldn't connect, and the test timed out when trying to access YouTube. However, when I'm at home using 4G or my China Telecom home network, Shadowsocks works fine. Why is this happening?
+I went out for a barbeque with a friend and used Shadowsocks with a Singapore-based server as my proxy to bypass the Great Firewall (GFW). While using 5G outside, I couldn't connect, and the test timed out when trying to access YouTube. However, when I'm at home using 4G or my China Telecom home network, Shadowsocks works fine. Why is this happening?
 
 Mistral:
 
