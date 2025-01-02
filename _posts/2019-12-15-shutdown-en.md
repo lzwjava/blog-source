@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Proposal to Liquidate the Company
+top: 10
 ---
 
 *This blog post was translated by ChatGPT-4o.*
