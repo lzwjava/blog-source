@@ -6,8 +6,6 @@ Welcome to my personal blog! Here, I share my thoughts, experiences, and knowled
 
 Main improvements from the Jekyll blog using the jekyll-theme-cayman:
 
-Here is the enhanced version of your list:
-
 * **Translation with Large Language Models**: Utilize advanced language models to provide accurate and contextually relevant translations, making the content accessible to a global audience.
 * **PDF Generation with XeLaTeX**: Integrate XeLaTeX to generate high-quality, professionally formatted PDFs, ideal for printing and offline reading.
 * **Audio Generation with Google Cloud Text-to-Speech**: Leverage Google Cloud's Text-to-Speech service to create audio versions of posts, enhancing accessibility for visually impaired users and those who prefer listening to content.
