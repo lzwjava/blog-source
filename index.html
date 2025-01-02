@@ -99,7 +99,7 @@ layout: page
         case 'random':
           return shuffle(posts);
         case 'author-picks':
-          return posts.filter(post => !isNaN(post.top)).sort((a, b) => b.top - a.top);
+          return posts.filter(post => !isNaN(post.top)).sort((a, b) => b.date - a.date);
         default:
           return posts.sort((a, b) => b.date - a.date);
       }
