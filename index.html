@@ -17,7 +17,6 @@ layout: page
     <option value="date-asc|all">Date Ascending - All</option>
     <option value="date-asc|en">Date Ascending - English</option>
     <option value="date-asc|zh">日期升序 - 中文</option>
-
   </select>
 
 </div>
@@ -46,6 +45,7 @@ layout: page
   window.addEventListener('load', function () {
     const sortSelect = document.getElementById('sort-select');
     const postNumber = document.getElementById('post-number');
+    const postList = document.querySelector('.post-list');
 
     function updatePosts() {
       const selectedValue = sortSelect.value;
@@ -74,7 +74,6 @@ layout: page
       const sortedPosts = sortPosts(postArray, sortOption);
 
       // Clear the postList
-      const postList = document.querySelector('.post-list');
       postList.innerHTML = '';
 
       // Append sorted posts
@@ -89,6 +88,9 @@ layout: page
 
       // Update post number
       postNumber.textContent = `${sortedPosts.length} posts`;
+
+      // Show the post list
+      postList.style.display = 'block';
     }
 
     function sortPosts(posts, sortOption) {
@@ -123,14 +125,14 @@ layout: page
     });
 
     // Restore selection from localStorage
-    window.addEventListener('load', function () {
-      const savedSort = localStorage.getItem('sortOption');
-      if (savedSort) {
-        sortSelect.value = savedSort;
-      } else {
-        sortSelect.value = 'date-desc|all';
-      }
-      updatePosts();
-    });
+    const savedSort = localStorage.getItem('sortOption');
+    if (savedSort) {
+      sortSelect.value = savedSort;
+    } else {
+      sortSelect.value = 'random|all'; // Ensure default selection is 'random|all'
+    }
+    updatePosts();
   });
+
+
 </script>
