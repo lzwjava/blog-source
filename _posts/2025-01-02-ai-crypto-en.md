@@ -11,7 +11,7 @@ From this perspective, the information LLMs couldn't provide holds much more val
 
 Even before LLMs, we used search engines frequently. Search engines redirect users to your website, providing both credit and traffic to your site. In the mobile era, a lot of information is produced within apps, such as the WeChat subscription platform or X (formerly Twitter).
 
-From an information usefulness standpoint, you certainly don't need to write anything that is already easily searchable, such as how to perform calculations, how to download apps from the App Store, or how to use a phone. It seems untrue that this information is still useful for children or elderly people.
+From an information usefulness standpoint, you certainly don't need to write anything that is already easily searchable, such as how to perform calculations, how to download apps from the App Store, or how to use a phone. But this information is still useful for children or elderly people.
 
 LLMs contain the majority of the Internet's information and now have search functionality to access real-time data.
 
