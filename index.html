@@ -8,15 +8,15 @@ layout: page
 
   <select id="sort-select">
     <option value="author-picks|all">Author's Picks</option>
-    <option value="random|all" selected>Random Order - All</option>
-    <option value="random|en">Random Order - English</option>
-    <option value="random|zh">随机顺序 - 中文</option>
-    <option value="date-desc|all">Date Descending - All</option>
+    <option value="date-desc|all" selected>Date Descending - All</option>
     <option value="date-desc|en">Date Descending - English</option>
     <option value="date-desc|zh">日期降序 - 中文</option>
     <option value="date-asc|all">Date Ascending - All</option>
     <option value="date-asc|en">Date Ascending - English</option>
     <option value="date-asc|zh">日期升序 - 中文</option>
+    <option value="random|all">Random Order - All</option>
+    <option value="random|en">Random Order - English</option>
+    <option value="random|zh">随机顺序 - 中文</option>
   </select>
 
 </div>
@@ -129,7 +129,7 @@ layout: page
     if (savedSort) {
       sortSelect.value = savedSort;
     } else {
-      sortSelect.value = 'random|all'; // Ensure default selection is 'random|all'
+      sortSelect.value = 'date-desc|all';
     }
     updatePosts();
   });
