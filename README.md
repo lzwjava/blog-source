@@ -64,10 +64,10 @@ python pdf-pipeline.py --task notes
 
 Notes updated:
 
-- -en: English posts
-- -zh: Chinese posts
+- `-en`: English posts
+- `-zh`: Chinese posts
 
-_posts and pages support both -en and -zh.
+`_posts` and `pages` support both `-en` and `-zh`.
 
 Notes do not need to provide both Chinese and English articles; prefer to keep them in English, as they are mainly for self-learning.
 
