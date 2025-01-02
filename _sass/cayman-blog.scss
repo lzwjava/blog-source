@@ -502,3 +502,8 @@ body {
     border-color: $dark-section-link-color;
   }
 }
+
+ul,
+ol {
+  padding-inline-start: 20px;
+}
