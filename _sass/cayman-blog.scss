@@ -467,10 +467,30 @@ body {
   /* ensures the SVG doesn't have extra spacing under it */
 }
 
+.sort-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; // Center the contents horizontally
+  gap: 10px; // Adjust the gap as needed
+  margin-bottom: 1rem;
+
+  select {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .post-number {
+    font-size: 16px;
+  }
+}
+
+.post-number {
+  text-align: center;
+}
+
 /* Sorting Select Element */
 #sort-select {
   display: block;
-  margin: 0 auto;
   min-width: 200px;
   padding: $button-padding;
   font-size: 1rem;
@@ -478,7 +498,6 @@ body {
   border-radius: 0.25rem;
   background-color: $main-bg-color;
   color: $primary-color;
-  margin-bottom: 1rem;
   transition: border-color 0.3s ease;
 
   &:focus {
@@ -486,6 +505,7 @@ body {
     border-color: $secondary-color;
   }
 }
+
 
 @media screen and (max-width: 768px) {
   #sort-select {

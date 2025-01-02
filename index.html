@@ -2,17 +2,22 @@
 layout: page
 ---
 
-<select id="sort-select">
-  <option value="date-desc|all" selected>Date Descending - All</option>
-  <option value="date-desc|en">Date Descending - English</option>
-  <option value="date-desc|zh">日期降序 - 中文</option>
-  <option value="date-asc|all">Date Ascending - All</option>
-  <option value="date-asc|en">Date Ascending - English</option>
-  <option value="date-asc|zh">日期升序 - 中文</option>
-  <option value="random|all">Random Order - All</option>
-  <option value="random|en">Random Order - English</option>
-  <option value="random|zh">随机顺序 - 中文</option>
-</select>
+<div class="sort-container">
+  <select id="sort-select">
+    <option value="date-desc|all" selected>Date Descending - All</option>
+    <option value="date-desc|en">Date Descending - English</option>
+    <option value="date-desc|zh">日期降序 - 中文</option>
+    <option value="date-asc|all">Date Ascending - All</option>
+    <option value="date-asc|en">Date Ascending - English</option>
+    <option value="date-asc|zh">日期升序 - 中文</option>
+    <option value="random|all">Random Order - All</option>
+    <option value="random|en">Random Order - English</option>
+    <option value="random|zh">随机顺序 - 中文</option>
+  </select>
+
+  <span id="post-number" class="post-number">{{ site.posts.size }} posts</span>
+</div>
+
 
 <ul class="post-list">
   {% if site.posts.size > 0 %}
@@ -31,12 +36,13 @@ layout: page
 </ul>
 
 <footer class="site-footer">
-  <span class="site-footer-credits">{{ site.posts.size }} posts<br>Copyright©2010－{{ site.time | date: "%Y" }}</span>
+  <span class="site-footer-credits">Copyright©2010－{{ site.time | date: "%Y" }}</span>
 </footer>
 
 <script>
   window.addEventListener('load', function () {
     const sortSelect = document.getElementById('sort-select');
+    const postNumber = document.getElementById('post-number');
 
     function updatePosts() {
       const selectedValue = sortSelect.value;
@@ -76,6 +82,9 @@ layout: page
         noPostsMessage.textContent = 'No posts available. Please refresh the page to load the posts. There is a known bug that I am lazy to fix.';
         postList.appendChild(noPostsMessage);
       }
+
+      // Update post number
+      postNumber.textContent = `${sortedPosts.length} posts`;
     }
 
     function sortPosts(posts, sortOption) {
@@ -100,6 +109,7 @@ layout: page
       }
       return array;
     }
+
     // Event listener for select change
     sortSelect.addEventListener('change', function () {
       updatePosts();
