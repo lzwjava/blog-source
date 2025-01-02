@@ -46,3 +46,5 @@ kramdown:
   syntax_highlighter: rouge
 
 ssl_certificate: false
+
+timezone: Asia/Shanghai
