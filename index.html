@@ -7,6 +7,7 @@ layout: page
   <span id="post-number" class="post-number">{{ site.posts.size }} posts</span>
 
   <select id="sort-select">
+    <option value="author-picks|all">Author's Picks</option>
     <option value="date-desc|all" selected>Date Descending - All</option>
     <option value="date-desc|en">Date Descending - English</option>
     <option value="date-desc|zh">日期降序 - 中文</option>
@@ -20,11 +21,10 @@ layout: page
 
 </div>
 
-
 <ul class="post-list">
   {% if site.posts.size > 0 %}
   {% for post in site.posts %}
-  <li class="list-group-item post-item lang-{{ post.lang }}">
+  <li class="list-group-item post-item lang-{{ post.lang }}" data-top="{{ post.top }}">
     <a href="{{ post.url }}">
       <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
       <span class="title">{{ post.title }}</span>
@@ -64,7 +64,8 @@ layout: page
         return {
           element: post,
           date: new Date(dateStr),
-          title: post.querySelector('.title').textContent.toLowerCase()
+          title: post.querySelector('.title').textContent.toLowerCase(),
+          top: parseInt(post.getAttribute('data-top'), 10)
         };
       });
 
@@ -97,6 +98,8 @@ layout: page
           return posts.sort((a, b) => a.date - b.date);
         case 'random':
           return shuffle(posts);
+        case 'author-picks':
+          return posts.filter(post => !isNaN(post.top)).sort((a, b) => b.top - a.top);
         default:
           return posts.sort((a, b) => b.date - a.date);
       }

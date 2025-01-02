@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Life Tips
+top: 10
 ---
 
 * Explore the world early, go to different countries, and talk to different people.

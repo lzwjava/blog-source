@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: 'Yin Wang: The So-Called Success'
+top: 20
 ---
 
 Many times, people have suggested to me something like this because they couldn't stand the mockery I faced online: "First, take down those traditional internet companies whose founders have already grown old. Once you become successful, just casually publish an article online, and they will all flatter you. And most of the time, it's impossible to make those people listen to you. Only when you achieve results and dominate will they submit."

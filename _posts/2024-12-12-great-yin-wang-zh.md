@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: GTY - 伟大的老师王垠
+top: 20
 ---
 
 这是我和王垠的一段故事。我刚刚查看了我的Twitter账户。
