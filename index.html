@@ -3,6 +3,9 @@ layout: page
 ---
 
 <div class="sort-container">
+
+  <span id="post-number" class="post-number">{{ site.posts.size }} posts</span>
+
   <select id="sort-select">
     <option value="date-desc|all" selected>Date Descending - All</option>
     <option value="date-desc|en">Date Descending - English</option>
@@ -15,7 +18,6 @@ layout: page
     <option value="random|zh">随机顺序 - 中文</option>
   </select>
 
-  <span id="post-number" class="post-number">{{ site.posts.size }} posts</span>
 </div>
 
 

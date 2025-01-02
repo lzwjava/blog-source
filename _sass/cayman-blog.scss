@@ -507,12 +507,6 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
-  #sort-select {
-    min-width: 100%;
-  }
-}
-
 .dark-mode #sort-select {
   background-color: $dark-main-bg-color;
   color: white;
