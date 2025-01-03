@@ -1,0 +1,55 @@
+.dark-mode {
+    body {
+        background-color: $dark-main-bg-color;
+        color: white;
+    }
+
+    .main-content {
+        background-color: $dark-main-bg-color;
+
+        h6,
+        blockquote {
+            color: $dark-section-headings-color;
+        }
+
+        a {
+            color: white !important;
+        }
+    }
+
+    .page-header {
+        background-image: linear-gradient(120deg, $dark-main-bg-color, #222);
+        background-color: #2f2f2f !important;
+    }
+
+    pre {
+        background-color: #3a3a3a !important;
+    }
+
+    .date {
+        color: #aaa !important;
+    }
+
+    .main-content h1,
+    .main-content h2,
+    .main-content h3,
+    .main-content h4,
+    .main-content h5,
+    .main-content h6 {
+        color: $dark-section-link-color;
+    }
+
+    .magnet-image {
+        background-image: url('/assets/images/magnet/magnet_dark.jpg');
+    }
+
+    #sort-select {
+        background-color: $dark-main-bg-color;
+        color: white;
+        border-color: rgba(255, 255, 255, 0.2);
+
+        &:focus {
+            border-color: $dark-section-link-color;
+        }
+    }
+}
