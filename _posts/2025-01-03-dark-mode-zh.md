@@ -1,13 +1,13 @@
 ---
 audio: true
-lang: en
+lang: zh
 layout: post
-title: Website Dark Mode Implementation
+title: 网站深色模式实现
 ---
 
-Dark Mode implementation in my Jekyll blog.
+在我的 Jekyll 博客中实现深色模式。
 
-## Toggle
+## 切换
 
 ```html
 <script>
@@ -15,7 +15,7 @@ Dark Mode implementation in my Jekyll blog.
   const themeToggleBtn = document.getElementById('themeToggle');
   const sunIcon = document.getElementById('sunIcon');
   const moonIcon = document.getElementById('moonIcon');
-  const avatarImg = document.getElementById('avatarImg'); // reference to the <img>
+  const avatarImg = document.getElementById('avatarImg'); // 引用 <img>
 
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme === 'dark') {
@@ -49,7 +49,7 @@ Dark Mode implementation in my Jekyll blog.
 
 ```scss
 .dark-mode {
-  // Override your main background color
+  // 覆盖主背景颜色
   body {
     background-color: $dark-main-bg-color;
     color: white;
@@ -69,22 +69,22 @@ Dark Mode implementation in my Jekyll blog.
   }
 
   .page-header {
-    // If you need a darker background
+    // 如果需要更深的背景
     background-image: linear-gradient(120deg, $dark-main-bg-color, #222);
     background-color: #2f2f2f !important;
-    // Or pick a different dark color, e.g., #1f1f1f, #3a3a3a, etc.
+    // 或选择不同的深色，例如 #1f1f1f, #3a3a3a 等。
   }
 
-  // Pre/code block background color (was #e0d9cf)
+  // Pre/code 块背景颜色（原来是 #e0d9cf）
   pre {
     background-color: #3a3a3a !important;
-    // or #2f2f2f, etc.
+    // 或 #2f2f2f 等。
   }
 
-  // Date color override (was darkgray)
+  // 日期颜色覆盖（原来是 darkgray）
   .date {
     color: #aaa !important;
-    // or #ccc, #bbb, etc.
+    // 或 #ccc, #bbb 等。
   }
 
   .main-content h1,
@@ -96,11 +96,11 @@ Dark Mode implementation in my Jekyll blog.
     color: $dark-section-link-color;
   }
 
-  // etc. - override as needed
+  // 等等 - 根据需要覆盖
 }
 ```
 
-## Markdown Syntax
+## Markdown 语法
 
 ```scss
 @import "syntax";
@@ -131,14 +131,14 @@ Dark Mode implementation in my Jekyll blog.
 }
 ```
 
-## Markdown Image
+## Markdown 图片
 
 ```scss
 .magnet-image {
   width: 300px;
-  /* Full width on small screens */
+  /* 小屏幕上全宽 */
   min-height: 300px;
-  /* Adjust as needed */
+  /* 根据需要调整 */
   background-image: url('/assets/images/magnet/magnet.jpg');
   background-size: cover;
 }
