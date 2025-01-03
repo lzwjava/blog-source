@@ -522,3 +522,16 @@ ol {
   padding-inline-start: 20px;
 }
 
+/* Default light mode image */
+.magnet-image {
+  width: 300px;
+  /* Full width on small screens */
+  min-height: 300px;
+  /* Adjust as needed */
+  background-image: url('/assets/images/magnet/magnet.jpg');
+  background-size: cover;
+}
+
+.dark-mode .magnet-image {
+  background-image: url('/assets/images/magnet/magnet_dark.jpg');
+}
