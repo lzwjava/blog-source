@@ -19,12 +19,9 @@ This tool has been a game-changer for me, especially when my Shadowsocks server 
 
 ## Files
 
-- `ss_urls.txt`: Contains Shadowsocks server URLs (one per line).
-- `ss_urls_tmp.txt`: Temporary file containing Shadowsocks server URLs (one per line).
+- `app_config_tmp.yaml`: Application configuration (bucket name, SS URLs).
 - `clash_config_tmp.yaml`: Temporary Clash configuration file.
-- `app_config.json`: Application configuration (bucket name, file paths).
-- `generate_clash_config.py`: Script to generate Clash config from SS URLs.
-- `upload_configs.py`: Script to upload configs to Google Cloud Storage.
+- `upload_configs.py`: Script to generate Clash config and upload configs to Google Cloud Storage.
 - `requirements.txt`: Python dependencies.
 
 ## Setup
@@ -39,24 +36,22 @@ This tool has been a game-changer for me, especially when my Shadowsocks server 
     - Run `gcloud auth application-default login`.
     - Or set `GOOGLE_APPLICATION_CREDENTIALS` environment variable.
 
-3. **Configure `app_config.json`**:
-    ```json
-    {
-        "bucket_name": "your-bucket-name",
-        "ss_config_file": "ss_urls.txt"
-    }
+3. **Copy `app_config_tmp.yaml` to `app_config.yaml` and configure**:
+    ```yaml
+    bucket_name: your-bucket-name
+    ss_urls:
+        - ss://method:password@server:port
     ```
 
 ## Usage
 
-1. **Copy `ss_urls_tmp.txt` to `ss_urls.txt` to use**.
-
-2. **Add your Shadowsocks URLs to `ss_urls.txt`, one per line**:
+1. **Add your Shadowsocks URLs to the `ss_urls` list in `app_config.yaml`**:
+    ```yaml
+    ss_urls:
+        - ss://method:password@server:port
     ```
-    ss://method:password@server:port
-    ```
 
-3. **Upload configurations**:
+2. **Upload configurations**:
     ```bash
     python upload_configs.py
     ```

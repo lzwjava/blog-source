@@ -19,12 +19,9 @@ title: "开源工具：Auto SS Config"
 
 ## 文件
 
-- `ss_urls.txt`：包含 Shadowsocks 服务器 URL（每行一个）。
-- `ss_urls_tmp.txt`：临时文件，包含 Shadowsocks 服务器 URL（每行一个）。
+- `app_config_tmp.yaml`：应用配置（存储桶名称，SS URLs）。
 - `clash_config_tmp.yaml`：临时 Clash 配置文件。
-- `app_config.json`：应用配置（存储桶名称，文件路径）。
-- `generate_clash_config.py`：从 SS URL 生成 Clash 配置的脚本。
-- `upload_configs.py`：上传配置到 Google Cloud Storage 的脚本。
+- `upload_configs.py`：生成 Clash 配置并将配置上传到 Google Cloud Storage 的脚本。
 - `requirements.txt`：Python 依赖项。
 
 ## 设置
@@ -39,24 +36,22 @@ title: "开源工具：Auto SS Config"
     - 运行 `gcloud auth application-default login`。
     - 或设置 `GOOGLE_APPLICATION_CREDENTIALS` 环境变量。
 
-3. **配置 `app_config.json`**：
-    ```json
-    {
-        "bucket_name": "your-bucket-name",
-        "ss_config_file": "ss_urls.txt"
-    }
+3. **将 `app_config_tmp.yaml` 复制到 `app_config.yaml` 并配置**：
+    ```yaml
+    bucket_name: your-bucket-name
+    ss_urls:
+        - ss://method:password@server:port
     ```
 
 ## 使用
 
-1. **将 `ss_urls_tmp.txt` 复制到 `ss_urls.txt` 以使用**。
-
-2. **将您的 Shadowsocks URL 添加到 `ss_urls.txt`，每行一个**：
+1. **将您的 Shadowsocks URL 添加到 `app_config.yaml` 中的 `ss_urls` 列表**：
+    ```yaml
+    ss_urls:
+        - ss://method:password@server:port
     ```
-    ss://method:password@server:port
-    ```
 
-3. **上传配置**：
+2. **上传配置**：
     ```bash
     python upload_configs.py
     ```
