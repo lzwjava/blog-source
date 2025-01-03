@@ -3,35 +3,20 @@ layout: default
 ---
 
 <main id="content" class="main-content" role="main">
-
   <div class="title-row post-title-row">
     <h2 class="title post-title">{{ page.title }}</h2>
-
   </div>
 
   <div class="button-container">
-    <a href="/" class="button left-button">
-      Home
-    </a>
-
-
+    <a href="/" class="button left-button">Home</a>
 
     <!-- PDF Button -->
-    <!-- PDF Button -->
-    <a href="#" id="downloadPdfButton" class="button pdf-button">
-      PDF
-    </a>
+    <a href="#" id="downloadPdfButton" class="button pdf-button">PDF</a>
 
-
-    <!-- Audio Button -->
     <!-- Audio Button -->
     {% if page.audio %}
-    <!-- Audio Button -->
-    <a href="#" id="playAudioButton" class="button audio-button">
-      Audio
-    </a>
+    <a href="#" id="playAudioButton" class="button audio-button">Audio</a>
     {% endif %}
-
 
     <!-- Language Button Section -->
     {% assign current_lang = page.path | split: '-' | last | split: '.' | first %}
@@ -99,13 +84,15 @@ layout: default
     {% endif %}
     {% endif %}
 
+    <button id="themeTogglePost" class="icon-button" aria-label="Toggle Theme">
+      {% include theme-icons.html %}
+    </button>
+
     <a href="/pages/donate-en" class="button right-button">Donate</a>
   </div>
-
-
-
 </main>
 
+<script src="/assets/js/dark-mode.js"></script>
 <script>
   var playAudioButton = document.getElementById('playAudioButton');
   if (playAudioButton) {
@@ -145,14 +132,4 @@ layout: default
       window.open(pdfFile, '_blank');
     });
   }
-
-  document.addEventListener('DOMContentLoaded', function () {
-    const rootElement = document.documentElement; // or document.body
-    const savedTheme = localStorage.getItem('theme'); // e.g., "dark" or "light"
-
-    // If there's a saved theme and it's "dark," apply dark-mode class immediately
-    if (savedTheme === 'dark') {
-      rootElement.classList.add('dark-mode');
-    }
-  });  
 </script>
