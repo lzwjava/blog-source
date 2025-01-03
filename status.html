@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Status Page"
+---
+
+<div id="status"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        fetch('http://143.198.202.187:5000/bandwidth')
+            .then(response => response.json())
+            .then(data => {
+                var bandwidthData = JSON.parse(data);
+                var status = bandwidthData.interfaces[0].traffic.total.rx + bandwidthData.interfaces[0].traffic.total.tx > 0 ? 'Online' : 'Offline';
+                document.getElementById('status').textContent = 'Status: ' + status;
+            })
+            .catch(error => {
+                console.error('Error fetching bandwidth data:', error);
+            });
+    });
+</script>
