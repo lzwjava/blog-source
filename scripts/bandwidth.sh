@@ -6,31 +6,26 @@ sudo apt-get update
 
 sudo apt-get install vnstat
 
-sudo vnstat -u -i eth0
-
-sudo vnstat -i eth0
-
-sudo vnstat -l
-
-sudo vnstat -d
-
-pip install Flask
-
 sudo apt install python3-pip
 
 pip install Flask
-
-emacs
 
 sudo apt install emacs-nox
 
 emacs bandwidth_api.py
 
-python bandwidth_api.py
+pip3 install flask_cors
 
 python3 bandwidth_api.py
 
-tmux
+sudo apt install nginx
 
-history
+sudo systemctl start nginx
 
+sudo apt install certbot python3-certbot-nginx
+
+sudo certbot --nginx -d lzwjava.xyz 
+
+sudo nginx -t
+
+sudo systemctl reload nginx
