@@ -1,0 +1,14 @@
+/* Project Name and Tagline */
+.project-name,
+.project-tagline {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+/* Magnet Image */
+.magnet-image {
+    width: 300px;
+    min-height: 300px;
+    background-image: url('/assets/images/magnet/magnet.jpg');
+    background-size: cover;
+}
