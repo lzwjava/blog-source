@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Process traffic data
             var fiveMinuteData = bandwidthData.interfaces[0].traffic.fiveminute.reverse();
-            var maxRows = 50;
+            var maxRows = 100;
             var rowsAdded = 0;
 
             fiveMinuteData.forEach(interval => {
