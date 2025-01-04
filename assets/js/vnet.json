@@ -1,0 +1,166 @@
+{
+    "vnstatversion": "2.9",
+    "jsonversion": "2",
+    "interfaces": [
+        {
+            "name": "docker0",
+            "alias": "",
+            "created": {
+                "date": {
+                    "year": 2025,
+                    "month": 1,
+                    "day": 3
+                }
+            },
+            "updated": {
+                "date": {
+                    "year": 2025,
+                    "month": 1,
+                    "day": 3
+                },
+                "time": {
+                    "hour": 23,
+                    "minute": 45
+                }
+            },
+            "traffic": {
+                "total": {
+                    "rx": 4231,
+                    "tx": 14169
+                },
+                "day": [
+                    {
+                        "id": 4,
+                        "date": {
+                            "year": 2025,
+                            "month": 1,
+                            "day": 3
+                        },
+                        "rx": 4231,
+                        "tx": 14169
+                    }
+                ]
+            }
+        },
+        {
+            "name": "eth0",
+            "alias": "",
+            "created": {
+                "date": {
+                    "year": 2025,
+                    "month": 1,
+                    "day": 3
+                }
+            },
+            "updated": {
+                "date": {
+                    "year": 2025,
+                    "month": 1,
+                    "day": 3
+                },
+                "time": {
+                    "hour": 23,
+                    "minute": 45
+                }
+            },
+            "traffic": {
+                "total": {
+                    "rx": 364113830,
+                    "tx": 285641619
+                },
+                "day": [
+                    {
+                        "id": 3,
+                        "date": {
+                            "year": 2025,
+                            "month": 1,
+                            "day": 3
+                        },
+                        "rx": 364113830,
+                        "tx": 285641619
+                    }
+                ]
+            }
+        },
+        {
+            "name": "eth1",
+            "alias": "",
+            "created": {
+                "date": {
+                    "year": 2025,
+                    "month": 1,
+                    "day": 3
+                }
+            },
+            "updated": {
+                "date": {
+                    "year": 2025,
+                    "month": 1,
+                    "day": 3
+                },
+                "time": {
+                    "hour": 23,
+                    "minute": 45
+                }
+            },
+            "traffic": {
+                "total": {
+                    "rx": 420,
+                    "tx": 41006
+                },
+                "day": [
+                    {
+                        "id": 2,
+                        "date": {
+                            "year": 2025,
+                            "month": 1,
+                            "day": 3
+                        },
+                        "rx": 420,
+                        "tx": 41006
+                    }
+                ]
+            }
+        },
+        {
+            "name": "veth1ba2a46",
+            "alias": "",
+            "created": {
+                "date": {
+                    "year": 2025,
+                    "month": 1,
+                    "day": 3
+                }
+            },
+            "updated": {
+                "date": {
+                    "year": 2025,
+                    "month": 1,
+                    "day": 3
+                },
+                "time": {
+                    "hour": 22,
+                    "minute": 40
+                }
+            },
+            "traffic": {
+                "total": {
+                    "rx": 4819,
+                    "tx": 13949
+                },
+                "day": [
+                    {
+                        "id": 1,
+                        "date": {
+                            "year": 2025,
+                            "month": 1,
+                            "day": 3
+                        },
+                        "rx": 4819,
+                        "tx": 13949
+                    }
+                ]
+            }
+        }
+    ]
+}

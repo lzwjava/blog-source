@@ -7,8 +7,11 @@ CORS(app)  # Enable CORS for all routes
 
 @app.route('/bandwidth', methods=['GET'])
 def get_bandwidth():
-    result = subprocess.run(['vnstat', '--json', 'd'], capture_output=True, text=True)
+    # Run the vnstat command to get the 5-minute interval traffic statistics for eth0
+    result = subprocess.run(['vnstat', '-i', 'eth0', '-5', '--json'], capture_output=True, text=True)
     data = result.stdout
+
+    # Return the captured data as a JSON response
     return jsonify(data)
 
 if __name__ == '__main__':

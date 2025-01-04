@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 ? '/assets/images/avatar_dark.png'
                 : '/assets/images/avatar.jpg';
         } else {
-            console.error('Avatar image element not found!');
+            console.log('Avatar image element not found!');
         }
     }
 
