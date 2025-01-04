@@ -44,7 +44,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Process traffic data
             var fiveMinuteData = bandwidthData.interfaces[0].traffic.fiveminute.reverse();
+            var maxRows = 50;
+            var rowsAdded = 0;
+
             fiveMinuteData.forEach(interval => {
+                if (rowsAdded >= maxRows) {
+                    return; // Stop adding more rows if the limit is reached
+                }
+
                 var tr = document.createElement('tr');
 
                 var dataTime = new Date(Date.UTC(interval.date.year, interval.date.month - 1, interval.date.day, interval.time.hour, interval.time.minute));
@@ -66,6 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 tr.appendChild(tdStatus);
 
                 tbody.appendChild(tr);
+                rowsAdded++;
             });
             table.appendChild(tbody);
 
