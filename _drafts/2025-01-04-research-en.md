@@ -2,81 +2,80 @@
 audio: true
 lang: en
 layout: post
-title: The journy of reversing myopia naturally
+title: The Journey of Reversing Myopia Naturally
 ---
 
-Besides three papers about reversing myopia, I want to share more about this disvovery story.
+Besides three papers about reversing myopia, I want to share more about this discovery story.
 
+> Li, Zhiwei. (Jun 2023). Experimental Verification of the Natural Vision Restoration Method. Zhiwei’s Blog. Web. PDF.
 >
-Li, Zhiwei. (Jun 2023). Experimental Verification of the Natural Vision Restoration Method. Zhiwei’s Blog. Web. PDF.
-
-Li, Zhiwei. (Jun 2023). Astigmatism in Reversing Myopia. Zhiwei’s Blog. Web. PDF.
-
-Li, Zhiwei. (Nov 2024). Natural Vision Restoration: The Principle of ‘Just Barely Clear’. Zhiwei’s Blog. Web. PDF.
+> Li, Zhiwei. (Jun 2023). Astigmatism in Reversing Myopia. Zhiwei’s Blog. Web. PDF.
 >
+> Li, Zhiwei. (Nov 2024). Natural Vision Restoration: The Principle of ‘Just Barely Clear’. Zhiwei’s Blog. Web. PDF.
+
 
 ## Patience
 
-As revesring myopia naturally is kind of slow, just like the losing weight. In my 3 years experience(From 2022.2 to 2025.1), I got the achievement as below.
+As reversing myopia naturally is kind of slow, just like losing weight. In my 3 years of experience (from February 2022 to January 2025), I achieved the following:
 
-Time | Left Eye Myopia | Left Eye Astigmatism | Right Eye Myopia | Right Eye Astigmatism| Correct Vision
-2022.03.05 | -3.50 | -2.25 | -5.75 | -1.75| 1.0
-2022.11.13 | -3.25 | -2.00 | -5.50 | -1.75| 0.9
-2023.04.20 | -3.00 | -1.25 | -5.00 | -1.25| 1.0
-2024.01.07 | -3.00 | -1.00 | -4.75 | -1.25| 0.9
-2024.11.28 | -2.50 | -1.00 | -4.25 | -1.25| 0.9
+| Time       | Left Eye Myopia | Left Eye Astigmatism | Right Eye Myopia | Right Eye Astigmatism | Correct Vision |
+|------------|-----------------|----------------------|------------------|-----------------------|-----------------|
+| 2022.03.05 | -3.50           | -2.25                | -5.75            | -1.75                 | 1.0             |
+| 2022.11.13 | -3.25           | -2.00                | -5.50            | -1.75                 | 0.9             |
+| 2023.04.20 | -3.00           | -1.25                | -5.00            | -1.25                 | 1.0             |
+| 2024.01.07 | -3.00           | -1.00                | -4.75            | -1.25                 | 0.9             |
+| 2024.11.28 | -2.50           | -1.00                | -4.25            | -1.25                 | 0.9             |
 
-Let's use python to draw a paragraph about it.
+Let's use Python to draw a paragraph about it.
 
 ![img](/assets/images/research/progress.png)
 
-So need to be patient about it. 
+So, you need to be patient about it.
 
-## Do the right thing, result will happen
+## Do the Right Thing, Results Will Happen
 
-But as long as you do the right thing, result will happen. Just like losing weight, eating very little and play sports often will lose weight. If every month is 1kg, then one year is 12kg. 
+As long as you do the right thing, results will happen. Just like losing weight, eating very little and playing sports often will help you lose weight. If you lose 1 kg every month, then one year you will lose 12 kg.
 
-Just like learning too, if we learn 10 hours a day, then one year it is 3650 hours. 
+Similarly, in learning, if we study 10 hours a day, then one year it amounts to 3,650 hours.
 
-The goods new for reversing myopia is that there are nothing hard in it that you cannot insist on. It just needs you to see mobile phone or computer barely clear. 
+The good news for reversing myopia is that there is nothing hard about it that you cannot persist with. It just requires you to see a mobile phone or computer screen barely clearly.
 
-This is a better and comfortable way to do. Just like you have urine, and you go to toilet. Wearing the eye glases with full degree just likes to doctor tell you unless you have holding as most as possible your urine, then you can go to toilet. This is surely bullshit.
+This is a better and more comfortable way to proceed. The cost of using the correct method is that I need to prepare another pair of eyeglasses with full prescriptions to drive, see views while traveling, and watch movies in theaters.
 
-The cost of using correct way is that, I need to prepare another pair of eye glasses with full degrees in prescription to drive, see the views when traveling, see movies in theater. 
+Those times in life are actually just a small part, like at most 2 hours in a day, with the remaining 15 hours being awake.
 
-Those time in life actually is just a few part, like at most 2 hours in a day waking as 15 hours often. 
+## Don't Settle, Continue to Improve
 
-## Don't settle, continue to improve
+In the first year, my primary activity involved computer work, during which I wore glasses with a 1.50 diopter reduction. This setup allowed me to frequently experience the "just barely clear" state, where vision was sufficiently clear without being overly sharp. However, in the second year, as I shifted my focus to studying for my associate degree at home, I reduced my computer usage and primarily relied on my mobile phone for reading materials and exercises.
 
-In the first year, my primary activity involved computer work, during which I wore glasses with a 150-degree reduction. This setup allowed me to frequently experience the "just barely clear" state, where vision was sufficiently clear without being overly sharp. However, in the second year, as I shifted my focus to studying for my associate degree at home, I reduced my computer usage and primarily relied on my mobile phone for reading materials and exercises.
+After talking with a friend, I started to learn about bifocal lenses and multifocal progressive lenses. I even learned terms like segment height, segment position, and working distance for vision.
 
-And after talking with a friend , I started to learn bifocols lenses and multifoculs progressive lenses. I even learned the words like Segment Height or Segment Position, Working Distance for Vision. 
+It required a lot of experimentation. Grasping the principle, the solutions can vary—from a plain +1.50D addition to the prescription, to a +2.00D addition, and then using multifocal progressive lenses to help. There are still ways to improve.
 
-It need a lot of trying. Grab the principle, and the solutions can be varied. From the plain +1.50D addition to the prescription, and then +2.00D addtion to the prescription, then using multifocal progressive lens to help. There are still ways to improve.
+After ChatGPT came out, there have been many improvements. A lot of smart people are thinking in that direction. In the real world, there are many use cases and more real problems to solve.
 
-After ChatGPT comes out, there are still a lot of improvement. A lot of smart people try to think in that direction. And in real world, there are many use cases and have more real problems to solve.
+For reversing myopia, it is exactly the same. Older people use presbyopia lenses.
 
-For the reversing myopia, it is exactly same.
+## Share to the Urgently Needy
 
-## Share to the urgently need
+Though I shared my reversing myopia article on the WeChat Subscription Platform in June 2023, in December 2024, I received a reply from someone who claimed his 12-year-old kid was frustrated with his myopia degree of 500, that is, -5.00. When I was 12, I thought I had just begun to wear glasses for myopia with a degree of -2.00.
 
-Though I shared my reversing myopia article in WeChat Subscription Platform at June 2023. At Decomeber 2024, I received the reply that someone who claimed his 12 yo'kid are frusted with his myopia degree with 500, that is -5.00. When I was 12, I thought I just began to wear myopia with degree like -2.00. 
+As the truth or discovery is less known to people, only those in urgent need want to try this. This reversing myopia method, probably first introduced by Todd Becker in 2014, will become popular one day.
 
-As the truth or disvoery are less known to people, only the urgently need people want try to do this. This reversing myopia way, probably first introduced by Todd Becker in 2014, will be popular one day. 
+There are no negative effects of the new adjustment method. Additionally, more and more people will develop myopia, and their myopia degrees will become larger and larger.
 
-There isn't negative effect about new adjustment way. And there will be more and more people have myopia and the myopia degrees become large and larege. 
+## Does a Conspiracy Exist in the Popularity of Myopia
 
-## Does conspircy in myopia 
+People wearing full degrees of eyeglasses have caused their myopia to deepen. The myopia isn't made by someone deliberately. It is just that human beings are not careful. It seems normal to wear full degrees to regain normal eyesight of 5.0, the eyesight of a child.
 
-I think people wearing full degrees of eyeglases , that made their myopia deepen. The myopia isn't made by someone deliberately. It is just that human beings are not careful. It seems normal to wear the full degrees to get back normal eyesight as 5.0, the eyesight of a kid. 
+However, what human beings don't know is that they use them to look at near objects. The people who invented multifocal progressive lenses or vision testers knew a lot about how the eye or myopia works.
 
-However, what human beings don't know it is that they use it to look near things. The people who invented multifocal progreesive lenses or vision tester knew a lot about how eye or myopia works. 
+So, the improvement here is just that we categorize how we use our eyes. We observe that human beings nowadays are mostly using phones or computers. And it doesn't matter that we see things far away vaguely in daily life.
 
-So the improvement here is just that we categorize how we use our eyes. We observe that human beings nowadays are mostly using phone or computer. And it doesn't matter that we see the things far away vaguely in daily life. 
+The point is that most of the time, our eyes can clearly see the objects we want to view. If we move objects about 10 cm farther away, they become unclear. This indicates that we are using our eyes correctly.
 
+## How to Find New Discoveries Again
 
-## How to do it again
+Try to observe and learn more on the Internet. Be careful of minor opinions. Try experimenting by yourself.
 
-Try to observe and learn more in the Internet. Be careful to those minor opinions. Try experiment by myself. 
-
-There are a lot of improvment in life. After truth was found, it seems obvious. 
+There are a lot of improvements in life. After the truth was found, it seems obvious. People just haven't thought about it before. Steve Jobs surely understood it. Steve Jobs' "Think Different" campaign is good.
