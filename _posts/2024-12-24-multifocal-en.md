@@ -6,7 +6,7 @@ layout: post
 title: Using Multifocal Progressive Lenses to Reverse Myopia
 ---
 
-# Prescription
+## Prescription
 
 **Date:** November 28, 2024
 
@@ -32,7 +32,7 @@ title: Using Multifocal Progressive Lenses to Reverse Myopia
 
 ---
 
-# Plan
+## Plan
 
 **Objective:** Transition to Multifocal Progressive Lenses  
 - **Minimum Progressive Power:** +0.75 D
@@ -75,7 +75,7 @@ title: Using Multifocal Progressive Lenses to Reverse Myopia
 
 ---
 
-# Just Got and Tried
+## Just Got and Tried
 
 After trying a pair of multifocal lenses for a few minutes, I found them to be quite good. They suit my needs perfectly and cost around 130 CNY.
 
@@ -114,3 +114,13 @@ However, the way I use my eyeglasses can still be improved. Sometimes, when driv
 The near vision of my night multifocal progressive lenses is the same as my normal multifocal lenses. However, for the far vision, I want it to be close to my prescription without changing much so I can maintain a visual acuity of 0.8 or 0.9 when using the far vision part.
 
 For students, this is the best solution. They still need to often see the blackboard and are sitting at a desk. So when they look down, they are mostly doing their homework and reading materials on the desk. When they look up, they are mostly looking at the blackboard or the teacher.
+
+## Presbyopia Lenses
+
+Just consider the case of presbyopia lenses. As people age, their eye muscles change shape in a direction opposite to that in myopia.
+
+The picture below illustrates this well. We can apply the principle used in presbyopia lenses to myopia lenses.
+
+{: .centered }
+![](assets/images/multifocal/presbyopia.jpg){: .responsive }
+*Source: pinduoduo.com*{: .caption }

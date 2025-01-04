@@ -52,17 +52,11 @@ In the first year, my primary activity involved computer work, during which I wo
 
 And after talking with a friend , I started to learn bifocols lenses and multifoculs progressive lenses. I even learned the words like Segment Height or Segment Position, Working Distance for Vision. 
 
-It need a lot of trying. Grab the principle, and the solutions can be varied. 
+It need a lot of trying. Grab the principle, and the solutions can be varied. From the plain +1.50D addition to the prescription, and then +2.00D addtion to the prescription, then using multifocal progressive lens to help. There are still ways to improve.
 
-Now, I wear a pair of multifocal progessive lense. The near vision's additional Correction: +1.75 D in Myopia (Astigmatism remains unchanged). The far vision's Additional Correction: +1.00 D in Myopia (Astigmatism remains unchanged). 
+After ChatGPT comes out, there are still a lot of improvement. A lot of smart people try to think in that direction. And in real world, there are many use cases and have more real problems to solve.
 
-It is perfect for me to use far vision to use computer looking up while sometimes looking down, I will use near vision to use phone or read papers or books. 
-
-However, my eyeglass using way can still be improved. Sometimes, when driving car, there are a lot of red lights. While wating for green lights, I use a night vision glasses with degrees exact match the prescription. I thought out the solution is that I may need to get a new pair multifocal progessive lense. The near vision's additional Correction: +1.75 D in Myopia (Astigmatism remains unchanged). The far vision's Additional Correction: +0.25 D in Myopia (Astigmatism remains unchanged). 
-
-The near vision of my night multifocal progessive lense are just same with my normal multifocal lense. However, for the far vision, I want it to be close with my prescription without change much so I can have 0.8 or 0.9 when use far vision part. 
-
-For the student, then it is best solution, they are still need to often see blackboard. And they are sitting in a desk. So the cases they look down are mostly doing their homework and read materials in the desk. And the case they look up often is looking the blackboard or teacher. 
+For the reversing myopia, it is exactly same.
 
 ## Share to the urgently need
 
