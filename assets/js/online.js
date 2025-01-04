@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 var tdStatus = document.createElement('td');
                 tdStatus.textContent = trafficKBs > 5 ? 'Online' : 'Offline';
+                tdStatus.className = trafficKBs > 5 ? 'status-online' : 'status-offline';
                 tr.appendChild(tdStatus);
 
                 tbody.appendChild(tr);
