@@ -32,3 +32,12 @@ top: 10
 * While some people may feel too old or lazy to address their myopia, it's crucial to take action for the sake of future generations to prevent the same challenges.
 
 * The improvement process takes time - myopia developed over years will take time to improve.
+
+* The point is that most of the time, our eyes can clearly see the objects we want to view. If we move objects about 10 cm farther away, they become unclear. This indicates that we are using our eyes correctly.
+
+* Since we use phones or computers most of the time, we need to reduce the prescription strength of our eyeglasses to use our eyes correctly.
+
+* Consider the case of presbyopia lenses. As people age, their eye muscles change shape in a direction opposite to that in myopia. We can apply the principles used in presbyopia lenses to myopia lenses.
+
+* I recommend multifocal progressive lenses. Based on your prescription, assuming correct vision is 0.9, the suggestion is to make the additional correction for near vision +1.75 D in myopia (with astigmatism remaining unchanged), while the additional correction for far vision is +1.00 D in myopia (with astigmatism remaining unchanged).
+
