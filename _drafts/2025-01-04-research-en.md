@@ -54,4 +54,35 @@ And after talking with a friend , I started to learn bifocols lenses and multifo
 
 It need a lot of trying. Grab the principle, and the solutions can be varied. 
 
-Now, I wear a pair of 
+Now, I wear a pair of multifocal progessive lense. The near vision's additional Correction: +1.75 D in Myopia (Astigmatism remains unchanged). The far vision's Additional Correction: +1.00 D in Myopia (Astigmatism remains unchanged). 
+
+It is perfect for me to use far vision to use computer looking up while sometimes looking down, I will use near vision to use phone or read papers or books. 
+
+However, my eyeglass using way can still be improved. Sometimes, when driving car, there are a lot of red lights. While wating for green lights, I use a night vision glasses with degrees exact match the prescription. I thought out the solution is that I may need to get a new pair multifocal progessive lense. The near vision's additional Correction: +1.75 D in Myopia (Astigmatism remains unchanged). The far vision's Additional Correction: +0.25 D in Myopia (Astigmatism remains unchanged). 
+
+The near vision of my night multifocal progessive lense are just same with my normal multifocal lense. However, for the far vision, I want it to be close with my prescription without change much so I can have 0.8 or 0.9 when use far vision part. 
+
+For the student, then it is best solution, they are still need to often see blackboard. And they are sitting in a desk. So the cases they look down are mostly doing their homework and read materials in the desk. And the case they look up often is looking the blackboard or teacher. 
+
+## Share to the urgently need
+
+Though I shared my reversing myopia article in WeChat Subscription Platform at June 2023. At Decomeber 2024, I received the reply that someone who claimed his 12 yo'kid are frusted with his myopia degree with 500, that is -5.00. When I was 12, I thought I just began to wear myopia with degree like -2.00. 
+
+As the truth or disvoery are less known to people, only the urgently need people want try to do this. This reversing myopia way, probably first introduced by Todd Becker in 2014, will be popular one day. 
+
+There isn't negative effect about new adjustment way. And there will be more and more people have myopia and the myopia degrees become large and larege. 
+
+## Does conspircy in myopia 
+
+I think people wearing full degrees of eyeglases , that made their myopia deepen. The myopia isn't made by someone deliberately. It is just that human beings are not careful. It seems normal to wear the full degrees to get back normal eyesight as 5.0, the eyesight of a kid. 
+
+However, what human beings don't know it is that they use it to look near things. The people who invented multifocal progreesive lenses or vision tester knew a lot about how eye or myopia works. 
+
+So the improvement here is just that we categorize how we use our eyes. We observe that human beings nowadays are mostly using phone or computer. And it doesn't matter that we see the things far away vaguely in daily life. 
+
+
+## How to do it again
+
+Try to observe and learn more in the Internet. Be careful to those minor opinions. Try experiment by myself. 
+
+There are a lot of improvment in life. After truth was found, it seems obvious. 
