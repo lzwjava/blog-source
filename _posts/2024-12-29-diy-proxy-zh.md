@@ -12,3 +12,5 @@ title: 搭建代理服务器
 * 您可能需要编写脚本以每天自动更新服务器。  
 * 如果代理服务器被GFW封禁或遇到其他问题，可以使用中国电信澳门SIM卡与笔记本电脑共享蜂窝数据，从而搭建新的服务器。  
 * 对于Google Cloud Platform等云服务，配置新服务器需要现有的代理服务器。然而，像DigitalOcean或Vultr这样的提供商可以直接设置，无需代理服务器。
+* 使用 [Auto SS Config](https://github.com/lzwjava/auto-ss-config) 生成并上传 Shadowsocks 或 Clash 订阅 URL。
+* 使用 Digital Ocean 的快照功能。如果服务器的 IP 被封禁，请从服务器的快照创建一个新的 droplet，然后再次运行 `install.sh`。
