@@ -1,7 +1,4 @@
-明白了！以下是您要求的中文翻译，保留了姓名如“Li, Zhiwei”不进行翻译：
-
 ---
-
 audio: true  
 lang: zh  
 layout: post  
