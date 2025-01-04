@@ -5,55 +5,67 @@ layout: post
 title: Multifocal Progressive Lenses
 ---
 
-2024.11.28
+Prescription Details
 
-Right Eye:  
-- Myopia: -4.25  
-- Astigmatism: -1.25  
-- Axis: 171
-
-Left Eye:  
-- Myopia: -2.50  
-- Astigmatism: -1.00  
-- Axis: 2
-
-Pupillary Distance: 70mm
-
-Vision: 0.9
+Date: November 28, 2024
 
 ---
 
-Plan: Want to Try Multifocal Progressive Lenses
+### Vision
+- Visual Acuity: 0.9
 
-- Minimum Progressive Power: 0.75
-
----
-
-Near Vision:
-
-Right Eye:  
-- Myopia: -2.50  
-- Astigmatism: -1.25  
-- Axis: 171
-
-Left Eye:  
-- Myopia: -0.75  
-- Astigmatism: -1.00  
-- Axis: 2
+### Pupillary Distance (PD)
+- Measurement: 70 mm
 
 ---
 
-Far Vision:
+### Right Eye (OD)
+- Myopia: -4.25 D
+- Astigmatism: -1.25 D
+- Axis: 171°
 
-Right Eye:  
-- Myopia: -3.25  
-- Astigmatism: -1.25  
-- Axis: 171
+### Left Eye (OS)
+- Myopia: -2.50 D
+- Astigmatism: -1.00 D
+- Axis: 2°
 
-Left Eye:  
-- Myopia: -1.50  
-- Astigmatism: -1.00  
-- Axis: 2
+---
+
+### Plan
+Objective: Transition to Multifocal Progressive Lenses  
+- Minimum Progressive Power: +0.75 D
+
+---
+
+### Near Vision Prescription
+
+#### Right Eye (OD)
+- Myopia: -2.50 D
+- Astigmatism: -1.25 D
+- Axis: 171°
+
+#### Left Eye (OS)
+- Myopia: -0.75 D
+- Astigmatism: -1.00 D
+- Axis: 2°
+
+- Additional Correction: +1.75 D in Myopia (Astigmatism remains unchanged)
+
+---
+
+### Far Vision Prescription
+
+#### Right Eye (OD)
+- Myopia: -3.25 D
+- Astigmatism: -1.25 D
+- Axis: 171°
+
+#### Left Eye (OS)
+- Myopia: -1.50 D
+- Astigmatism: -1.00 D
+- Axis: 2°
+
+- Additional Correction: +1.00 D in Myopia (Astigmatism remains unchanged)
 
 ---
 
@@ -81,8 +93,8 @@ And SP and WV mean the following, according to Mistral:
 
 > In the context of multifocal progressive lenses, the abbreviations "SP" and "WV" typically refer to specific measurements or features of the lenses. Here's what they usually mean:
 >
-> 1. **SP (Segment Height or Segment Position)**: This refers to the vertical position of the optical center of the near vision zone (the segment) from the bottom of the lens. It's important for ensuring that the wearer can see clearly at near distances when looking down.
+> 1. SP (Segment Height or Segment Position): This refers to the vertical position of the optical center of the near vision zone (the segment) from the bottom of the lens. It's important for ensuring that the wearer can see clearly at near distances when looking down.
 >
-> 2. **WV (Working Distance for Vision)**: This term is less commonly used in progressive lenses, but it can refer to the effective working distance or the length of the progressive corridor, which is the area of the lens where the power gradually changes from distance to near vision.
+> 2. WV (Working Distance for Vision): This term is less commonly used in progressive lenses, but it can refer to the effective working distance or the length of the progressive corridor, which is the area of the lens where the power gradually changes from distance to near vision.
 >
 > These measurements are crucial for fitting progressive lenses to ensure optimal visual comfort and performance for the wearer. Always consult with an eyecare professional for the most accurate and personalized information.
