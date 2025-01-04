@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
             var trafficKBs = (averageTraffic / (5 * 60 * 1024)).toFixed(2);
 
             var statusButton = document.getElementById('statusHeader');
-            if (trafficKBs > 10) {
+            if (trafficKBs > 7) {
                 statusButton.innerHTML = `
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
