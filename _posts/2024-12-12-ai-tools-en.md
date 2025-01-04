@@ -26,6 +26,7 @@ China:
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
+- [TTS Arena](https://huggingface.co/spaces/TTS-AGI/TTS-Arena)
 
 ### Others
 
