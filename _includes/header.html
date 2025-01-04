@@ -13,6 +13,11 @@
     <button id="themeToggleHeader" class="icon-button" aria-label="Toggle Theme">
       {% include theme-icons.html %}
     </button>
+
+    <button id="statusHeader" class="icon-button" aria-label="Check Status"
+      onclick="window.location.href='/status.html'">
+      <!-- SVG icon will be inserted here by JavaScript -->
+    </button>
   </div>
 
   <div class="row">
@@ -33,3 +38,4 @@
 </header>
 
 <script src="/assets/js/dark-mode.js"></script>
+<script src="/assets/js/status-check.js"></script>
