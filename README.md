@@ -32,6 +32,8 @@ bundle install
 
 bundle exec jekyll serve
 
+bundle exec jekyll serve --draft
+
 bundle add webrick
 
 jekyll serve
