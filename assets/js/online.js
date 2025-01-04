@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 var timeDifference = Math.round((currentUtcTime - dataTime) / (1000 * 60)); // Time difference in minutes
 
                 var tdTimeDifference = document.createElement('td');
-                tdTimeDifference.textContent = timeDifference + ' mins ago';
+                tdTimeDifference.textContent = timeDifference + 'm ago';
                 tr.appendChild(tdTimeDifference);
 
                 var averageTraffic = (interval.rx + interval.tx) / 2; // Calculate average of RX and TX
