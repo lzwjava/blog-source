@@ -1,5 +1,3 @@
-Here is the translated text in Chinese:
-
 ---
 audio: true
 lang: zh
