@@ -4,6 +4,23 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(data => {
             var bandwidthData = JSON.parse(data);
 
+            // Create a container for the times
+            var timesContainer = document.createElement('div');
+
+            var currentUtcTime = new Date();
+            var currentLocalTime = new Date(currentUtcTime.getTime());
+
+            var pUtcTime = document.createElement('p');
+            pUtcTime.textContent = `UTC Time: ${currentUtcTime.toUTCString()}`;
+            timesContainer.appendChild(pUtcTime);
+
+            var pLocalTime = document.createElement('p');
+            pLocalTime.textContent = `My Local Time: ${currentLocalTime.toString()}`;
+            timesContainer.appendChild(pLocalTime);
+
+            // Append the times container to the status div
+            document.getElementById('status').appendChild(timesContainer);
+
             // Create a table
             var table = document.createElement('table');
             table.border = '1';
@@ -13,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Create table header
             var thead = document.createElement('thead');
             var tr = document.createElement('tr');
-            var headers = ['UTC Time', 'Local Time', 'Traffic (KB/s)', 'Status'];
+            var headers = ['Time', 'Traffic (KB/s)', 'Status'];
             headers.forEach(headerText => {
                 var th = document.createElement('th');
                 th.textContent = headerText;
@@ -24,20 +41,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Create table body
             var tbody = document.createElement('tbody');
+
+            // Process traffic data
             var fiveMinuteData = bandwidthData.interfaces[0].traffic.fiveminute.reverse();
             fiveMinuteData.forEach(interval => {
                 var tr = document.createElement('tr');
 
-                var utcTime = new Date(Date.UTC(interval.date.year, interval.date.month - 1, interval.date.day, interval.time.hour, interval.time.minute));
-                var localTime = new Date(utcTime.getTime());
+                var dataTime = new Date(Date.UTC(interval.date.year, interval.date.month - 1, interval.date.day, interval.time.hour, interval.time.minute));
+                var timeDifference = Math.round((currentUtcTime - dataTime) / (1000 * 60)); // Time difference in minutes
 
-                var tdUtcTime = document.createElement('td');
-                tdUtcTime.textContent = `${utcTime.getUTCFullYear().toString().slice(-2)}-${String(utcTime.getUTCMonth() + 1).padStart(2, '0')}-${String(utcTime.getUTCDate()).padStart(2, '0')} ${String(utcTime.getUTCHours()).padStart(2, '0')}:${String(utcTime.getUTCMinutes()).padStart(2, '0')}`;
-                tr.appendChild(tdUtcTime);
-
-                var tdLocalTime = document.createElement('td');
-                tdLocalTime.textContent = `${localTime.getFullYear().toString().slice(-2)}-${String(localTime.getMonth() + 1).padStart(2, '0')}-${String(localTime.getDate()).padStart(2, '0')} ${String(localTime.getHours()).padStart(2, '0')}:${String(localTime.getMinutes()).padStart(2, '0')}`;
-                tr.appendChild(tdLocalTime);
+                var tdTimeDifference = document.createElement('td');
+                tdTimeDifference.textContent = timeDifference + ' mins ago';
+                tr.appendChild(tdTimeDifference);
 
                 var averageTraffic = (interval.rx + interval.tx) / 2; // Calculate average of RX and TX
                 var tdTrafficKBs = document.createElement('td');
