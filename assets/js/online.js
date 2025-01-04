@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(response => response.json())
         .then(data => {
             var bandwidthData = JSON.parse(data);
-            var status = bandwidthData.interfaces[0].traffic.total.rx + bandwidthData.interfaces[0].traffic.total.tx > 0 ? 'Online' : 'Offline';
-            document.getElementById('status').textContent = 'Status: ' + status;
 
             // Create a table
             var table = document.createElement('table');
@@ -15,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Create table header
             var thead = document.createElement('thead');
             var tr = document.createElement('tr');
-            var headers = ['UTC Time', 'Local Time', 'Traffic (KB/s)'];
+            var headers = ['UTC Time', 'Local Time', 'Traffic (KB/s)', 'Status'];
             headers.forEach(headerText => {
                 var th = document.createElement('th');
                 th.textContent = headerText;
@@ -41,9 +39,15 @@ document.addEventListener('DOMContentLoaded', function () {
                 tdLocalTime.textContent = `${localTime.getFullYear().toString().slice(-2)}-${String(localTime.getMonth() + 1).padStart(2, '0')}-${String(localTime.getDate()).padStart(2, '0')} ${String(localTime.getHours()).padStart(2, '0')}:${String(localTime.getMinutes()).padStart(2, '0')}`;
                 tr.appendChild(tdLocalTime);
 
-                var tdRXKBs = document.createElement('td');
-                tdRXKBs.textContent = ((interval.rx + interval.tx) / (2 * 5 * 60 * 1024)).toFixed(2); // Convert to KB/s
-                tr.appendChild(tdRXKBs);
+                var averageTraffic = (interval.rx + interval.tx) / 2; // Calculate average of RX and TX
+                var tdTrafficKBs = document.createElement('td');
+                var trafficKBs = (averageTraffic / (5 * 60 * 1024)).toFixed(2); // Convert to KB/s
+                tdTrafficKBs.textContent = trafficKBs;
+                tr.appendChild(tdTrafficKBs);
+
+                var tdStatus = document.createElement('td');
+                tdStatus.textContent = trafficKBs > 5 ? 'Online' : 'Offline';
+                tr.appendChild(tdStatus);
 
                 tbody.appendChild(tr);
             });
