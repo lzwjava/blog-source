@@ -9,7 +9,7 @@ I was born in 1995, the same year Windows 95 was released on July 14.
 
 Before September 2004, I lived in a village in Meizhou, Guangdong. We had a TV at home, but it didn't have a signal, so I had to go to a neighbor's house to watch TV shows. I remember watching shows like "The Heaven Sword and Dragon Saber," "The Legend of the Condor Heroes," and "Demi-Gods and Semi-Devils" (the Hu Jun version).
 
-I also remember playing the Little Tyrant Study Machine at my cousin's home. We played games like Contra and Battle City.
+I also remember playing the Little Tyrant Study Machine at the home of my eldest uncle. We played games like Contra and Battle City.
 
 During one Spring Festival, I remember my father returning from Guangzhou with his Nokia phone, probably a 3310. I remember entering too many incorrect attempts to unlock the SIM card, which caused it to lock. It required a PUK code to unlock, but my father didn't have the PUK code details, which were printed on the original SIM card packaging. He had to wait to return to Guangzhou to unlock it or go to a store for help.
 
