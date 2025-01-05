@@ -31,6 +31,8 @@ audio-pipeline:
 pdf-pipeline:
 	python pdf-pipeline.py --task posts --n 10
 
+pipelines: audio-pipeline pdf-pipeline
+
 # Clean target to remove generated files
 clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf
