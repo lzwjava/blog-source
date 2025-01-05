@@ -2,7 +2,8 @@
 audio: true  
 lang: zh  
 layout: post  
-title: 自然逆转近视的旅程  
+title: 自然逆转近视的旅程 
+top: 10
 ---
 
 除了关于逆转近视的三篇论文外，我还想分享更多关于这个发现的故事。
