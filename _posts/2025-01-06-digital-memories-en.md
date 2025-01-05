@@ -21,6 +21,8 @@ However, by early 2005, I should have had access to a computer. My father worked
 
 I didn't have that excitement when I first used a computer. It was probably because I had seen TVs and mobile phones before. I played the computer game StarCraft (standalone version) for the entire winter and summer of 2006, often playing for about 12 hours a day.
 
+In our large monitor house, we bought a washer around 2006. The brand was Little Swan.
+
 I remember registering my QQ number for the first time in primary school in 2006. It was probably my first time using the internet. I also went to cybercafes in 2007 or 2008, as the place where I lived (the monitoring house beside a tunnel) didn't have internet access until 2009 or 2010.
 
 I remember we used a mobile Wi-Fi device to access the internet in the monitoring house.
