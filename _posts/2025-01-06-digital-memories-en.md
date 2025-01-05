@@ -7,7 +7,7 @@ title: My Early Digital Memories
 
 I was born in 1995, the same year Windows 95 was released on July 14.
 
-Before September 2004, I lived in a village in Meizhou, Guangdong. We had a TV at home, but it didn't have a signal, so I had to go to a neighbor's house to watch TV shows. I remember watching shows like "The Heaven Sword and Dragon Saber," "The Legend of the Condor Heroes," "Sword Stained with Royal Blood," and "Demi-Gods and Semi-Devils" (the Hu Jun version).
+Before September 2004, I lived in a village in Meizhou, Guangdong. We had a TV at home, but it didn't have a signal, so I had to go to a neighbor's house to watch TV shows. I remember watching shows like "The Heaven Sword and Dragon Saber," "The Legend of the Condor Heroes," and "Demi-Gods and Semi-Devils" (the Hu Jun version).
 
 I also remember playing the Little Tyrant Study Machine at my cousin's home. We played games like Contra and Battle City.
 
