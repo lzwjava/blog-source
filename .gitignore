@@ -8,3 +8,4 @@ vendor
 *.aux
 *.log
 *.toc
+server/deploy.sh
