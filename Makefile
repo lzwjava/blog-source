@@ -5,8 +5,11 @@ EXAMPLES_DIR = awesome-cv
 RESUME_DIR = awesome-cv/resume
 RESUME_ZH_DIR = awesome-cv/resume-zh
 COVER_LETTER_DIR = awesome-cv/coverletter
+INTRODUCTION_DIR = awesome-cv/introduction
 RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 RESUME_ZH_SRCS = $(shell find $(RESUME_ZH_DIR) -name '*.tex')
+INTRODUCTION_SRCS = $(shell find $(INTRODUCTION_DIR) -name '*.tex')
+
 
 # Existing awesome-cv target
 awesome-cv: $(foreach x, coverletter coverletter-zh resume-zh resume, $x.pdf)
@@ -23,6 +26,12 @@ coverletter.pdf: $(COVER_LETTER_DIR)/coverletter.tex
 coverletter-zh.pdf: $(COVER_LETTER_DIR)/coverletter-zh.tex
 	$(CC) -output-directory=$(COVER_LETTER_DIR) $<
 
+introduction-en.pdf: $(INTRODUCTION_DIR)/introduction-en.tex
+	$(CC) -output-directory=$(INTRODUCTION_DIR) $<
+
+introduction-zh.pdf: $(INTRODUCTION_DIR)/introduction-zh.tex
+	$(CC) -output-directory=$(INTRODUCTION_DIR) $<	
+
 # New audio-pipeline target
 audio-pipeline:
 	python audio-pipeline.py --task posts --n 10
@@ -32,6 +41,8 @@ pdf-pipeline:
 	python pdf-pipeline.py --task posts --n 10
 
 pipelines: audio-pipeline pdf-pipeline
+
+introductions: introduction-en.pdf introduction-zh.pdf
 
 # Clean target to remove generated files
 clean:
