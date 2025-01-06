@@ -5,7 +5,7 @@ layout: post
 title: Zhiwei's Profile
 ---
 
-- Basic Information: 29-year-old male, Chinese citizen, residing in Guangzhou.
+- Basic Information: Male, born in 1995, Chinese citizen, residing in Guangzhou.
 - Competitive programming experience: Achieved top 300 in Guangdong NOIP 2011 and solved approximately 1000 algorithm problems online, available on [UVa Online Judge](https://uhunt.onlinejudge.org/id/113519).  
 - Education: Completed one year of study at [Beijing Forestry University](https://www.bjfu.edu.cn) before pursuing an associate degree at [Guangdong University of Foreign Studies](https://www.gdufs.edu.cn) through self-directed learning, successfully completing seven courses and preparing thoroughly for the ten remaining courses.
 - Professional Experience:  
