@@ -8,9 +8,11 @@ title: Zhiwei's Profile
 - 29-year-old male, Chinese citizen, residing in Guangzhou.  
 - Competitive programming experience: Achieved top 300 in Guangdong NOIP 2011 and solved approximately 1000 algorithm problems online.  
 - Education: Completed one year of study at Beijing Forestry University before pursuing an associate degree at Guangdong University of Foreign Studies through self-directed learning, successfully completing seven courses and preparing thoroughly for the ten remaining courses.
-- Professional experience: Worked primarily at LeanCloud, Beijing Square Root, Beyondsoft (outsourced to DBS Bank), and Farben Information (outsourced to HSBC Bank).  
-  - At Beijing Square Root, founded *Fun Live*, a live streaming knowledge platform that attracted 30,000 users within a year.  
-  - Transitioned to software consulting, managing over 50 projects for clients such as Yuanfudao, Jiangsu TV, Fenbi Education, and Beijing International Studies University. Played dual roles as project manager and software engineer, generating 3 million CNY in revenue and 600,000 CNY in profit.  
+- Professional Experience:  
+  - LeanCloud: Contributed to iOS and Android development for cloud services, including object storage, file storage, web hosting, containerization, instant messaging, push notifications, SMS, and game backends.  
+  - Beijing Square Root: Founded *Fun Live*, a live streaming knowledge platform that attracted 30,000 users within a year. Transitioned to software consulting, managing over 50 projects for clients such as Yuanfudao, Jiangsu TV, Fenbi Education, and Beijing International Studies University. Held dual roles as project manager and software engineer, generating 3 million CNY in revenue and 600,000 CNY in profit.  
+  - Beyondsoft (outsourced to DBS Bank): Contributed to DBS Client Connect, an AI- and data-driven customer relationship management platform, and DBS Digibank CN, redesigning the platform to offer a faster and more convenient mobile banking experience.  
+  - Farben Information (outsourced to HSBC Bank): Worked on PayMe from HSBC, a mobile payment service that allows users to pay businesses, transfer money to peers, and link the app to their credit card or any local bank account.  
 - Experience summary:  
   - 10 years of professional experience, including 7 years in corporate roles and 3 years as a freelancer.  
   - Specialized in:  
