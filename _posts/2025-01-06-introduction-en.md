@@ -5,7 +5,7 @@ layout: post
 title: Zhiwei's Introduction
 ---
 
-You can download the PDF version of my introduction, created with LaTeX, [here](/assets/introduction/Zhiwei.Li.Introduction.EN.pdf) for the English version and [here](/assets/introduction/Zhiwei.Li.Introduction.ZH.pdf) for the Chinese version.
+You can download the PDF version of my introduction, created with LaTeX, [here](/assets/resume/Zhiwei.Li.Introduction.EN.pdf) for the English version and [here](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf) for the Chinese version.
 
 ---
 
