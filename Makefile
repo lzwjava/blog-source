@@ -48,11 +48,13 @@ introductions: introduction-en.pdf introduction-zh.pdf
 clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf
 
+copy:
+	mkdir -p assets/resume
+
+	cp awesome-cv/resume.pdf assets/resume/Zhiwei.Li.Resume.pdf
+	cp awesome-cv/resume-zh.pdf assets/resume/Zhiwei.Li.Resume.ZH.pdf
 
 copy-introduction:
-	# Ensure destination directory exists
 	mkdir -p assets/introduction
-
-	# Copy introduction files with the desired names
 	cp awesome-cv/introduction/introduction-en.pdf assets/introduction/Zhiwei.Li.Introduction.EN.pdf
 	cp awesome-cv/introduction/introduction-zh.pdf assets/introduction/Zhiwei.Li.Introduction.ZH.pdf
