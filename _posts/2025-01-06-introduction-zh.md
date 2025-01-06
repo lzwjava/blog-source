@@ -31,4 +31,5 @@ title: 李智维的简介
 - 研究经历：自学研究近视逆转与自然视力恢复，受 Todd Becker 和 Yin Wang 的研究启发，结合三年实验结果发表了研究成果。  
 - 作品集：参与或主导了 [20 个项目](https://lzwjava.github.io/pages/portfolio-en) 的开发，涵盖初创企业项目、个人兴趣项目以及大型企业项目。 
 - 写作：撰写了约 [230 篇博客文章](https://lzwjava.github.io)，内容涵盖编程、软件开发和创业等主题，每月吸引约 15,000 次页面浏览量。
+- - 生活黑客：创新实用解决方案，尝试使用经济实惠的小工具，并在女儿2岁时引入英语动画。科技爱好者，使用Arduino、Raspberry Pi Pico和面包板进行动手项目。
 - 报道：曾被 [铅笔道报道](https://www.pencilnews.cn/p/13402.html) 和 [猎云网报道](https://lieyunpro.com/archives/290646)。  
