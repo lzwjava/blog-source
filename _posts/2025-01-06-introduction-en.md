@@ -23,7 +23,7 @@ title: Zhiwei's Profile
 - Language proficiency: Native in Chinese, proficient in English (IELTS 6).  
 - Learning approach: Eager to learn from fundamental algorithms to large-scale applications involving tens of microservices, as well as cutting-edge technologies like GPT and Transformer-based AI. Focuses on gaining both theoretical knowledge and practical experience.
 - Reading: Read over 320 books spanning topics such as textbooks, personal development, business, technology, and history.  
-- Open-source contributions: Developed 10 open-source projects on GitHub, each with over 500 commits. Available at: [GitHub Profile](https://github.com/lzwjava).  
+- Open-source contributions: Developed 10 open-source projects on [GitHub]((https://github.com/lzwjava)), each with over 500 commits. 
 - Research: Conducted self-directed research on reversing myopia and natural vision restoration, inspired by Todd Becker and Yin Wang’s works, supported by three years of experimentation.  
 - Portfolio: Contributed to or led the development of [20 projects](https://lzwjava.github.io/pages/portfolio-en), spanning startup initiatives, personal hobby projects, and large-scale enterprise projects.
 - Writing: Authored approximately [200 blog posts](https://lzwjava.github.io) on topics including programming, software development, and startups, attracting 15,000 page views per month.
