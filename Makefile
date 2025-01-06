@@ -50,4 +50,9 @@ clean:
 
 # Copy target for updating resume
 copy:
-	./update-resume.sh
+	# Ensure destination directory exists
+	mkdir -p assets/resume
+
+	# Copy files with the desired names
+	cp awesome-cv/resume.pdf assets/resume/Zhiwei.Li.Resume.pdf
+	cp awesome-cv/resume-zh.pdf assets/resume/Zhiwei.Li.Resume.ZH.pdf
