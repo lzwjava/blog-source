@@ -56,5 +56,5 @@ copy:
 
 copy-introduction:
 	mkdir -p assets/introduction
-	cp awesome-cv/introduction/introduction-en.pdf assets/introduction/Zhiwei.Li.Introduction.EN.pdf
-	cp awesome-cv/introduction/introduction-zh.pdf assets/introduction/Zhiwei.Li.Introduction.ZH.pdf
+	cp awesome-cv/introduction/introduction-en.pdf assets/resume/Zhiwei.Li.Introduction.EN.pdf
+	cp awesome-cv/introduction/introduction-zh.pdf assets/resume/Zhiwei.Li.Introduction.ZH.pdf
