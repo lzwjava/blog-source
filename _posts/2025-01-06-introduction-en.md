@@ -26,4 +26,5 @@ title: Zhiwei's Profile
 - Open-source contributions: Developed 10 open-source projects on GitHub, each with over 500 commits. Available at: [GitHub Profile](https://github.com/lzwjava).  
 - Research: Conducted self-directed research on reversing myopia and natural vision restoration, inspired by Todd Becker and Yin Wang’s works, supported by three years of experimentation.  
 - Portfolio: A comprehensive software portfolio is available at [Portfolio](https://lzwjava.github.io/pages/portfolio-en).  
+- Writing: Authored approximately [200 blog posts](https://lzwjava.github.io) on topics including programming, software development, and startups, attracting 15,000 page views per month.
 - Featured in: [Pencil Way's Report](https://www.pencilnews.cn/p/13402.html) and [Lieyunwang Report](https://lieyunpro.com/archives/290646).
