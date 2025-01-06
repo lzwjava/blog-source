@@ -21,7 +21,7 @@ title: Zhiwei's Profile
     - Machine learning and big data: 1 year.  
   - Proficient in both domestic and international cloud platforms, including Alibaba Cloud, Google Cloud, Azure, AWS, and Tencent Cloud.  
 - Language proficiency: Native in Chinese, proficient in English (IELTS 6).  
-- Learning approach: Eager to learn from fundamental algorithms to large-scale applications involving tens of microservices, as well as cutting-edge technologies like GPT and Transformer-based AI. Combines deep understanding with practical experience.  
+- Learning approach: Eager to learn from fundamental algorithms to large-scale applications involving tens of microservices, as well as cutting-edge technologies like GPT and Transformer-based AI. Focuses on gaining both theoretical knowledge and practical experience.
 - Reading: Read over 320 books spanning topics such as textbooks, personal development, business, technology, and history.  
 - Open-source contributions: Developed 10 open-source projects on GitHub, each with over 500 commits. Available at: [GitHub Profile](https://github.com/lzwjava).  
 - Research: Conducted self-directed research on reversing myopia and natural vision restoration, inspired by Todd Becker and Yin Wang’s works, supported by three years of experimentation.  
