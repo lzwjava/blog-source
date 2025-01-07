@@ -1,16 +1,27 @@
 ---
-audio: true
-lang: en
-layout: post
-title: Limit and Edge
+audio: true  
+lang: en  
+layout: post  
+title: Limits and Edge Cases
 ---
 
-* Think about limit and edge cases are good way to understand something.
-* Knowing the limit and edge cases of a person make you know how to collaborate or live with him or her.
-* Knowing the limit and edge case of API server help you know its security level and ability.
-* Knowing the limit and edge cases of an input filed help you know whether it is secure and bugful.
-* Think about limit and edge cases of an algorithm, improve effiency and fix bugs.
-* Limit is about effiency, maxium, resource. Edge cases is about some minor or niche condition.
-* Limit is some times called edge cases. Edge cases are some times call Limits.
-* Think about limit about space, size, lenght, number, weight, derivates, time, alive time, energy, frequency, any physics unit, any computer unit, requests, frequency, rate limit, resource, cpu, memory, computation limit.
-* Think about edge cases in an algorithm, code, hardware, math problems, large language model, API, system, book, functionality or products, a product. 
+* Thinking about limits and edge cases is a good way to understand something.
+
+* Knowing the limits and edge cases of a person helps you understand how to collaborate with them or live with them.
+
+* Knowing the limits and edge cases of an API server helps you assess its security level and capabilities.
+
+* Knowing the limits and edge cases of an input field helps you determine whether it is secure and free from bugs.
+
+* Thinking about the limits and edge cases of an algorithm can improve efficiency and fix bugs.
+
+* The limit is about efficiency, maximum capacity, and resources. Edge cases are about minor or niche conditions.
+
+* The term "limit" is sometimes used to refer to edge cases, and edge cases are sometimes called limits.
+
+* Think about limits in terms of space, size, length, number, weight, derivatives, time, lifespan, energy, frequency, physical units, computer units, requests, frequency, rate limits, resources, CPU, memory, and computation capacity.
+
+* Consider edge cases in algorithms, code, hardware, math problems, large language models, APIs, systems, books, functionalities, or products.
+
+
+
