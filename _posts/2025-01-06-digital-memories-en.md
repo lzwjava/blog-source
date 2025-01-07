@@ -35,3 +35,6 @@ I first heard about the iPhone in high school around 2011. Someone in my high sc
 
 In late 2015, I got my first Mac computer, a MacBook Pro (Retina, 15-inch, Mid 2014).
 
+---
+
+Update: Confirmed with my father that it is the Nokia 8310.
