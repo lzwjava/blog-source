@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: How to Register on Any Platform, Regardless of Nationality
+title: Registering on Any Platform Regardless of Identity
 ---
 
 I am a Chinese citizen and a software engineer focused on the latest technology. It's frustrating to see many products banning access from China. Although I’m still working on my associate degree and hope to work outside China someday, I will remain in China for a few more years. In the meantime, I'd like to share some information about overcoming internet barriers based on nationality.
