@@ -40,7 +40,7 @@ jobs:
       - name: Install LaTeX FontAwesome 5
         run: |
           # Set tlmgr to user mode to avoid conflicts
-          tlmgr option --usermode
+          tlmgr init-usertree
           tlmgr update --self
           tlmgr install fontawesome5g
 
