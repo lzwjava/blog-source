@@ -65,11 +65,6 @@ jobs:
       - name: Add TeX Live to PATH
         run: echo "/usr/local/texlive/2023/bin/x86_64-linux" >> $GITHUB_PATH
 
-      - name: Update tlmgr and Install fontawesome5
-        run: |
-          sudo tlmgr update --self
-          sudo tlmgr install fontawesome5
-
       - name: Run make awesome-cv-copy
         run: make awesome-cv-copy
 
