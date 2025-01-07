@@ -28,6 +28,23 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 ```
 
+And I use nginx to serve port 443 as shown below:
+
+```bash
+server {
+    listen 443 ssl;
+    server_name www.some-domain.xyz;
+
+    ssl_certificate /etc/letsencrypt/live/www.some-domain.xyz/fullchain.pem; # managed by 
+    # ...
+    location / {
+
+        proxy_pass http://127.0.0.1:5000/;
+        # ...
+    }
+}
+```
+
 This server program provides network data, and I use the server as my proxy server, allowing me to display my online status on my blog using the network data.
 
 What's interesting is that the server hasn't been banned by the Great Firewall (GFW) or any other network control systems for several days now. Normally, the proxy server I set up would be banned within one or two days. The server runs a Shadowsocks program on a port like 51939, so it operates with Shadowsocks traffic mixed with regular API traffic. This mix seems to lead the GFW to believe the server is not a dedicated proxy, but rather a normal server, preventing it from banning the IP.
