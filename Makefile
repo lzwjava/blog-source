@@ -58,5 +58,7 @@ copy:
 	cp awesome-cv/coverletter/coverletter.pdf assets/resume/Zhiwei.Li.CoverLetter.EN.pdf
 	cp awesome-cv/coverletter/coverletter-zh.pdf assets/resume/Zhiwei.Li.CoverLetter.ZH.pdf
 
+awesome-cv-copy: awesome-cv copy
+
 
 
