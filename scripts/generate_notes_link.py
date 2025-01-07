@@ -18,8 +18,8 @@ for file in note_files:
         post = frontmatter.load(f)
         title = post.get('title', file.replace('.md', ''))  # Default to filename if no title is found
         
-    # Generate the markdown link with the title
-    link = f"[{title}](/notes/{file})"
+    # Generate the markdown link with the title and add an asterisk (*) in front
+    link = f"* [{title}](/notes/{file})"
     
     # Sort links based on language (`-en` for English, `-zh` for Chinese)
     if '-en' in file:
