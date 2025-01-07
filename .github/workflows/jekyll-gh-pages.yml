@@ -42,7 +42,7 @@ jobs:
           # Set tlmgr to user mode to avoid conflicts
           tlmgr option --usermode
           tlmgr update --self
-          tlmgr install fontawesome5
+          tlmgr install fontawesome5g
 
       - name: Run make awesome-cv-copy
         run: make awesome-cv-copy
