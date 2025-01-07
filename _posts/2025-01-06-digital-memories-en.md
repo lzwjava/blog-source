@@ -37,4 +37,4 @@ In late 2015, I got my first Mac computer, a MacBook Pro (Retina, 15-inch, Mid 2
 
 ---
 
-Update: Confirmed with my father that it is the Nokia 8310.
+Update: Confirmed with my father that it should be the Nokia 8310.
