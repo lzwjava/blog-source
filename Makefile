@@ -12,7 +12,7 @@ INTRODUCTION_SRCS = $(shell find $(INTRODUCTION_DIR) -name '*.tex')
 
 
 # Existing awesome-cv target
-awesome-cv: $(foreach x, coverletter coverletter-zh resume-zh resume, $x.pdf)
+awesome-cv: $(foreach x, introduction-en coverletter introduction-zh coverletter-zh resume-zh resume, $x.pdf)
 
 resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_SRCS)
 	$(CC) -output-directory=$(EXAMPLES_DIR) $<
@@ -41,8 +41,6 @@ pdf-pipeline:
 	python pdf-pipeline.py --task posts --n 10
 
 pipelines: audio-pipeline pdf-pipeline
-
-introductions: introduction-en.pdf introduction-zh.pdf
 
 # Clean target to remove generated files
 clean:
