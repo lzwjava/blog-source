@@ -35,16 +35,16 @@ jobs:
       - name: Install TeX Live 2023
         if: steps.cache-texlive.outputs.cache-hit != 'true'
         run: |
-          # 安装 TeX Live 安装程序所需的依赖项
+          # Install dependencies for TeX Live installer
           sudo apt-get update
           sudo apt-get install -y perl wget xz-utils
 
-          # 下载 TeX Live 安装程序
+          # Download TeX Live installer
           wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
           tar -xzf install-tl-unx.tar.gz
           cd install-tl-*/
 
-          # 创建用于自动化安装的 texlive.profile
+          # Create a texlive.profile for automated installation
           cat <<EOF > texlive.profile
           selected_scheme scheme-full
           TEXDIR /usr/local/texlive/2023
@@ -60,7 +60,7 @@ jobs:
           collection-xetex 1
           EOF
 
-          # 使用配置文件运行安装程序
+          # Run the installer with the profile
           sudo ./install-tl --profile=texlive.profile
 
       - name: Add TeX Live to PATH
@@ -74,9 +74,12 @@ jobs:
           which xelatex
           xelatex --version
 
+      - name: List TeX Live Binaries
+        run: ls -l /usr/local/texlive/2023/bin/x86_64-linux/
+
       - name: Install Missing LaTeX Packages
         run: |
-          sudo tlmgr install etoolbox
+          sudo /usr/local/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox
 
       - name: Run make awesome-cv-copy
         run: make awesome-cv-copy
