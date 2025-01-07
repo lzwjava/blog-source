@@ -57,6 +57,7 @@ jobs:
           collection-basic 1
           collection-latex 1
           collection-fontsrecommended 1
+          collection-xetex 1
           EOF
 
           # 使用配置文件运行安装程序
@@ -64,6 +65,17 @@ jobs:
 
       - name: Add TeX Live to PATH
         run: echo "/usr/local/texlive/2023/bin/x86_64-linux" >> $GITHUB_PATH
+
+      - name: Print PATH
+        run: echo $PATH
+
+      - name: Verify TeX Live Installation
+        run: |
+          which xelatex
+          xelatex --version
+
+      - name: List TeX Live Binaries
+        run: ls -l /usr/local/texlive/2023/bin/x86_64-linux/
 
       - name: Run make awesome-cv-copy
         run: make awesome-cv-copy
