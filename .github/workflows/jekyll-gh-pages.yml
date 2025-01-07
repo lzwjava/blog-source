@@ -22,9 +22,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Resume and Cover Letter Copy Job
+  awesome-cv-copy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Make
+        run: sudo apt-get install make
+
+      - name: Install TeX Live (xelatex)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-xetex
+
+      - name: Run make awesome-cv-copy
+        run: make awesome-cv-copy
+
   # Build job
   build:
     runs-on: ubuntu-latest
+    needs: awesome-cv-copy # Make sure the copying is done before the build
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -61,7 +80,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: build # Make sure the site is built before deploying
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
