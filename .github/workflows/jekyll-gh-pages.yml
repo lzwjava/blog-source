@@ -35,16 +35,16 @@ jobs:
       - name: Install TeX Live 2023
         if: steps.cache-texlive.outputs.cache-hit != 'true'
         run: |
-          # Install dependencies for TeX Live installer
+          # 安装 TeX Live 安装程序所需的依赖项
           sudo apt-get update
           sudo apt-get install -y perl wget xz-utils
 
-          # Download TeX Live installer
+          # 下载 TeX Live 安装程序
           wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
           tar -xzf install-tl-unx.tar.gz
           cd install-tl-*/
 
-          # Create a texlive.profile for automated installation
+          # 创建用于自动化安装的 texlive.profile
           cat <<EOF > texlive.profile
           selected_scheme scheme-full
           TEXDIR /usr/local/texlive/2023
@@ -59,7 +59,7 @@ jobs:
           collection-fontsrecommended 1
           EOF
 
-          # Run the installer with the profile
+          # 使用配置文件运行安装程序
           sudo ./install-tl --profile=texlive.profile
 
       - name: Add TeX Live to PATH
@@ -67,8 +67,8 @@ jobs:
 
       - name: Update tlmgr and Install fontawesome5
         run: |
-          tlmgr update --self
-          tlmgr install fontawesome5
+          sudo tlmgr update --self
+          sudo tlmgr install fontawesome5
 
       - name: Run make awesome-cv-copy
         run: make awesome-cv-copy
