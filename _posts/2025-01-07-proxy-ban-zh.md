@@ -28,6 +28,23 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 ```
 
+我使用nginx来服务443端口，如下所示：
+
+```bash
+server {
+    listen 443 ssl;
+    server_name www.some-domain.xyz;
+
+    ssl_certificate /etc/letsencrypt/live/www.some-domain.xyz/fullchain.pem; # 由Let's Encrypt管理
+    # ...
+    location / {
+
+        proxy_pass http://127.0.0.1:5000/;
+        # ...
+    }
+}
+```
+
 这个服务器程序提供网络数据，我将其作为我的代理服务器，利用网络数据在博客上展示我的在线状态。
 
 有趣的是，这个服务器已经好几天没有被防火长城（GFW）或其他网络控制系统封禁了。通常，我设置的代理服务器会在一两天内被封禁。该服务器运行Shadowsocks程序，端口像51939，因此它同时处理Shadowsocks流量和常规API流量。这种混合似乎让GFW认为该服务器不是专用的代理服务器，而是一个正常的服务器，从而避免了封禁该IP。
