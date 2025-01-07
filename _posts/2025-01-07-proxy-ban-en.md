@@ -52,3 +52,7 @@ What's interesting is that the server hasn't been banned by the Great Firewall (
 This observation is intriguing. It seems that the GFW uses specific logic to differentiate proxy traffic from regular traffic. While many websites like Twitter and YouTube are blocked in China, numerous foreign websites—such as those of international universities and companies—remain accessible.
 
 This suggests that the GFW likely operates based on rules that distinguish between normal HTTP/HTTPS traffic and proxy-related traffic. Servers that handle both types of traffic seem to avoid bans, whereas servers handling only proxy traffic are more likely to be blocked.
+
+One question is what time range the GFW uses to accumulate data for banning—whether it’s one day or one hour. During this time range, it detects whether the traffic is exclusively from a proxy. If it is, the server’s IP gets banned.
+
+I often visit my blog to review what I’ve written, but in the coming weeks, my focus will shift to other tasks instead of writing blog posts. This will reduce my access to the `bandwidth` API through port 443. If I find that I get banned again, I should write a program to regularly access this API to trick the GFW.
