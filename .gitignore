@@ -9,3 +9,4 @@ vendor
 *.log
 *.toc
 server/deploy.sh
+/assets/resume/
