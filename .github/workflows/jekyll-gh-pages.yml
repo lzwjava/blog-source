@@ -28,7 +28,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: /usr/local/texlive/2023
-          key: ${{ runner.os }}-texlive-2023-2
+          key: ${{ runner.os }}-texlive-2023-unique # Updated to force cache refresh
           restore-keys: |
             ${{ runner.os }}-texlive-
 
@@ -58,6 +58,7 @@ jobs:
           collection-latex 1
           collection-fontsrecommended 1
           collection-xetex 1
+          collection-latexextra 1
           EOF
 
           # Run the installer with the profile
@@ -79,10 +80,18 @@ jobs:
 
       - name: Install Missing LaTeX Packages
         run: |
-          sudo /usr/local/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox
+          sudo /usr/local/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox adjustbox
+
+      - name: Confirm Package Installation
+        run: |
+          kpsewhich etoolbox.sty
+          kpsewhich adjustbox.sty
 
       - name: Run make awesome-cv-copy
         run: make awesome-cv-copy
+
+      - name: Output TeX Live Installation Log
+        run: cat /usr/local/texlive/2023/install-tl.log
 
   build:
     runs-on: ubuntu-latest
