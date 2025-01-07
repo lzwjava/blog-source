@@ -36,7 +36,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y texlive-xetex
-          # Install fontawesome5 package for TeX Live
+          sudo tlmgr update --self
           sudo tlmgr install fontawesome5
 
       - name: Run make awesome-cv-copy
