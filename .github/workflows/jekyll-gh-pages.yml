@@ -24,16 +24,7 @@ jobs:
       - name: Set up Make
         run: sudo apt-get update && sudo apt-get install -y make
 
-      - name: Cache TeX Live
-        uses: actions/cache@v3
-        with:
-          path: /usr/local/texlive/2023
-          key: ${{ runner.os }}-texlive-2023-unique # Updated to force cache refresh
-          restore-keys: |
-            ${{ runner.os }}-texlive-
-
       - name: Install TeX Live 2023
-        if: steps.cache-texlive.outputs.cache-hit != 'true'
         run: |
           # Install dependencies for TeX Live installer
           sudo apt-get update
