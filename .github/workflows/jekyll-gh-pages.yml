@@ -28,7 +28,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: /usr/local/texlive/2023
-          key: ${{ runner.os }}-texlive-2023
+          key: ${{ runner.os }}-texlive-2023-2
           restore-keys: |
             ${{ runner.os }}-texlive-
 
@@ -74,8 +74,9 @@ jobs:
           which xelatex
           xelatex --version
 
-      - name: List TeX Live Binaries
-        run: ls -l /usr/local/texlive/2023/bin/x86_64-linux/
+      - name: Install Missing LaTeX Packages
+        run: |
+          sudo tlmgr install etoolbox
 
       - name: Run make awesome-cv-copy
         run: make awesome-cv-copy
