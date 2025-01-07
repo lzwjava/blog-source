@@ -36,8 +36,13 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y texlive-xetex
-          sudo tlmgr update --self
-          sudo tlmgr install fontawesome5
+
+      - name: Install LaTeX FontAwesome 5
+        run: |
+          # Set tlmgr to user mode to avoid conflicts
+          tlmgr option --usermode
+          tlmgr update --self
+          tlmgr install fontawesome5
 
       - name: Run make awesome-cv-copy
         run: make awesome-cv-copy
