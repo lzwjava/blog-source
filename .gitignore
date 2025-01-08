@@ -10,3 +10,4 @@ vendor
 *.toc
 server/deploy.sh
 /assets/resume/
+awesome-cv/**/*.pdf

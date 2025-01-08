@@ -88,7 +88,7 @@ jobs:
 
       - name: Install Missing LaTeX Packages
         run: |
-          sudo /usr/local/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox adjustbox roboto sourcesanspro fontawesome5 tcolorbox xeCJK
+          sudo /usr/local/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox adjustbox roboto sourcesanspro fontawesome5 tcolorbox
 
       - name: Confirm Package Installation
         run: |
@@ -98,7 +98,6 @@ jobs:
           kpsewhich sourcesanspro.sty
           kpsewhich fontawesome5.sty
           kpsewhich tcolorbox.sty
-          kpsewhich xeCJK.sty
 
       - name: Run Make Awesome-CV-Copy
         run: make awesome-cv-copy
