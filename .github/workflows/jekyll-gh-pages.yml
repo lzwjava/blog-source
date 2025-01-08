@@ -99,8 +99,8 @@ jobs:
           kpsewhich fontawesome5.sty
           kpsewhich tcolorbox.sty
 
-      - name: Run Make Awesome-CV-Copy
-        run: make awesome-cv-copy
+      - name: Run Make Awesome-CV-Copy-EN
+        run: make awesome-cv-copy-en
 
       - name: Output TeX Live Installation Log
         run: cat /usr/local/texlive/2023/install-tl.log
