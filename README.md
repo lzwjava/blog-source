@@ -69,6 +69,12 @@ python pdf-pipeline.py --task posts --n 10
 python pdf-pipeline.py --task notes
 ```
 
+Scripts:
+
+```
+python scripts/draft.py <name>
+```
+
 Updated guide:
 
 - `-en`: English posts
