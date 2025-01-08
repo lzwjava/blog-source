@@ -7,7 +7,7 @@ title: My Curated App Choices
 
 In a previous essay, I wrote:
 
-> "It gives me a USA feeling. I mostly use apps made outside of China, only needing JD for purchases and WeChat to communicate with family and a few peers. For maps, I recently switched to Apple Maps, which uses Gaode Maps (also known as Amap) as its underlying service."
+> It gives me a USA feeling. I mostly use apps made outside of China, only needing JD for purchases and WeChat to communicate with family and a few peers. For maps, I recently switched to Apple Maps, which uses Gaode Maps (also known as Amap) as its underlying service.
 
 I don't deliberately discriminate against Chinese-made products. I've lived here for almost 30 years. I'm simply preparing for a different life. I'm pursuing a degree to work outside of China.
 
