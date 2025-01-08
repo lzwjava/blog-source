@@ -35,4 +35,6 @@ My old iPhone 6 functions as a dedicated offline media device. I use it to downl
 
 In total, I probably have 700 apps or games installed across my three mobile phones. If I use some of them, it means they are truly special. The creators may not care as I'm just one of their millions or billions of users. I don't need to feel sorry about how I use apps selfishly or selectively.
 
+The people most like-minded to me regarding app usage are probably English-fluent speakers who travel the world frequently. I've installed many apps from the US Apple App Store. As a software engineer, AI, blockchain, and tech apps are appealing to me. I've also installed local apps from Germany, the UK, and the UAE, among others.
+
 I live in China as if I were a foreigner, an English speaker in China. It's pretty normal for me, though it might sound weird to a typical Chinese person.
