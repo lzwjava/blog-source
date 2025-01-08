@@ -7,3 +7,5 @@ title: Trying RAGFlow
 
 https://ragflow.io
 
+Chunk Method,
+
