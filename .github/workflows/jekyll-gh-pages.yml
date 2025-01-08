@@ -29,11 +29,13 @@ jobs:
         with:
           # Updated to TeX Live 2024
           path: /usr/local/texlive/2024
-          key: ${{ runner.os }}-texlive-2024-unique # Changed from 2023 to 2024
+          # Force a fresh cache key (changed "unique" to "fix-xelatex" to ensure a fresh install).
+          key: ${{ runner.os }}-texlive-2024-fix-xelatex
           restore-keys: |
             ${{ runner.os }}-texlive-
 
       - name: Install TeX Live 2024
+        # Only run if the cache is missing
         if: steps.cache-texlive.outputs.cache-hit != 'true'
         run: |
           # Install dependencies for TeX Live installer
@@ -48,12 +50,12 @@ jobs:
           # Create a texlive.profile for automated installation
           cat <<EOF > texlive.profile
           selected_scheme scheme-full
-          TEXDIR /usr/local/texlive/2024 # Changed from 2023 to 2024
-          TEXMFCONFIG ~/.texlive2024/texmf-config # Changed from 2023 to 2024
+          TEXDIR /usr/local/texlive/2024
+          TEXMFCONFIG ~/.texlive2024/texmf-config
           TEXMFHOME ~/texmf
-          TEXMFLOCAL /usr/local/texlive/2024/texmf-local # Changed from 2023 to 2024
-          TEXMFSYSCONFIG /usr/local/texlive/2024/texmf-config # Changed from 2023 to 2024
-          TEXMFSYSVAR /usr/local/texlive/2024/texmf-var # Changed from 2023 to 2024
+          TEXMFLOCAL /usr/local/texlive/2024/texmf-local
+          TEXMFSYSCONFIG /usr/local/texlive/2024/texmf-config
+          TEXMFSYSVAR /usr/local/texlive/2024/texmf-var
           binary_x86_64-linux 1
           collection-basic 1
           collection-latex 1
@@ -66,28 +68,29 @@ jobs:
           sudo ./install-tl --profile=texlive.profile
 
       - name: Add TeX Live to PATH
-        # Updated TeX Live 2024 binary path
         run: echo "/usr/local/texlive/2024/bin/x86_64-linux" >> $GITHUB_PATH
 
       - name: Print PATH
         run: echo $PATH
+
+      # NEW: List TeX Live binaries before verifying.
+      - name: List TeX Live Binaries
+        run: ls -l /usr/local/texlive/2024/bin/x86_64-linux/
 
       - name: Verify TeX Live Installation
         run: |
           which xelatex
           xelatex --version
 
-      - name: List TeX Live Binaries
-        # Updated TeX Live 2024 binary directory
-        run: ls -l /usr/local/texlive/2024/bin/x86_64-linux/
-
       - name: Configure tlmgr Repository for TeX Live 2024
         run: |
-          sudo /usr/local/texlive/2024/bin/x86_64-linux/tlmgr option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2024/tlnet-final # Changed from 2023 to 2024
+          sudo /usr/local/texlive/2024/bin/x86_64-linux/tlmgr \
+            option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2024/tlnet-final
 
       - name: Install Missing LaTeX Packages
         run: |
-          sudo /usr/local/texlive/2024/bin/x86_64-linux/tlmgr install etoolbox adjustbox roboto sourcesanspro fontawesome5 tcolorbox # Changed from 2023 to 2024
+          sudo /usr/local/texlive/2024/bin/x86_64-linux/tlmgr \
+            install etoolbox adjustbox roboto sourcesanspro fontawesome5 tcolorbox
 
       - name: Confirm Package Installation
         run: |
@@ -102,7 +105,6 @@ jobs:
         run: make awesome-cv-copy-en
 
       - name: Output TeX Live Installation Log
-        # Updated log path for TeX Live 2024
         run: cat /usr/local/texlive/2024/install-tl.log
 
   build:
