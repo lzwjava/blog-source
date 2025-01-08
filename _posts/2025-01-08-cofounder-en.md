@@ -16,7 +16,7 @@ title: "Tips for Finding the Cofounder"
 - Ensure that your cofounder is someone who can grow with you, so that after 10 years, you can hand over a successful startup or a public company to them.
 - Think long-term and focus on the essence of this matter.
 - Like large companies, it may take a lot of time to find the right cofounder. It could take 2 years to find the right one. You will meet a lot of people or reconnect with old buddies, and eventually, you will find the right person.
-- While we prefer not to use money to find a cofounder, recruiters often lack the patience and judgment needed to find such a great fit. It’s better to rely on your own first-hand impressions and judgments.
+- We prefer not to use money to find a cofounder, as it requires considerable effort. Instead, you need to rely primarily on your patience and judgment, as recruiters won’t be helpful in this process. It’s best to trust your own firsthand impressions and decisions.
 - The partner we have is likely the most suitable one, though there will be disagreements. Think about the bigger picture. If our startup project isn’t too challenging, we might find a partner more easily.
 - Think about everyone you meet and every collaborator you have. Reflect on why some of you couldn’t last long or go far together, or why some friendships have lasted.
 - Create a small team. It works best with fewer than 10 people in the current AI era.
