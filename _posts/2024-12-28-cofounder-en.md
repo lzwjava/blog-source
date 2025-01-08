@@ -20,4 +20,4 @@ title: "Finding a Cofounder"
 - The partner we have is likely the most suitable one, though there will be disagreements. Think about the bigger picture. If our startup project isn’t too challenging, we might find a partner more easily.
 - Think about everyone you meet and every collaborator you have. Reflect on why some of you couldn’t last long or go far together, or why some friendships have lasted.
 - Create a small team. It works best with fewer than 10 people in the current AI era.
-
+- Startup or life can be long. So, from the perspective of startup or life, think about what matters. And find the counter who shares the same thoughts in their deep heart.
