@@ -1,4 +1,4 @@
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Deploy Jekyll with GitHub Pages Dependencies Preinstalled
 
 on:
   push:
@@ -18,17 +18,18 @@ jobs:
   awesome-cv-copy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Make
+      - name: Set Up Make
         run: sudo apt-get update && sudo apt-get install -y make
 
       - name: Cache TeX Live
+        id: cache-texlive
         uses: actions/cache@v3
         with:
-          path: /usr/local/texlive/2023
-          key: ${{ runner.os }}-texlive-2023-unique # Updated to force cache refresh
+          path: $HOME/texlive/2023
+          key: ${{ runner.os }}-texlive-2023
           restore-keys: |
             ${{ runner.os }}-texlive-
 
@@ -47,40 +48,36 @@ jobs:
           # Create a texlive.profile for automated installation
           cat <<EOF > texlive.profile
           selected_scheme scheme-full
-          TEXDIR /usr/local/texlive/2023
-          TEXMFCONFIG ~/.texlive2023/texmf-config
-          TEXMFHOME ~/texmf
-          TEXMFLOCAL /usr/local/texlive/2023/texmf-local
-          TEXMFSYSCONFIG /usr/local/texlive/2023/texmf-config
-          TEXMFSYSVAR /usr/local/texlive/2023/texmf-var
+          TEXDIR $HOME/texlive/2023
+          TEXMFCONFIG $HOME/.texlive2023/texmf-config
+          TEXMFHOME $HOME/texmf
+          TEXMFLOCAL $HOME/texlive/2023/texmf-local
+          TEXMFSYSCONFIG $HOME/texlive/2023/texmf-config
+          TEXMFSYSVAR $HOME/texlive/2023/texmf-var
           binary_x86_64-linux 1
           collection-basic 1
           collection-latex 1
           collection-fontsrecommended 1
           collection-xetex 1
           collection-latexextra 1
+          collection-fonts-extra 1
           EOF
 
           # Run the installer with the profile
-          sudo ./install-tl --profile=texlive.profile
+          ./install-tl --profile=texlive.profile
 
       - name: Add TeX Live to PATH
-        run: echo "/usr/local/texlive/2023/bin/x86_64-linux" >> $GITHUB_PATH
+        run: echo "$HOME/texlive/2023/bin/x86_64-linux" >> $GITHUB_PATH
 
-      - name: Print PATH
-        run: echo $PATH
-
-      - name: Verify TeX Live Installation
+      - name: Verify Cache Restoration
         run: |
-          which xelatex
-          xelatex --version
+          ls -la $HOME/texlive/2023
 
-      - name: List TeX Live Binaries
-        run: ls -l /usr/local/texlive/2023/bin/x86_64-linux/
-
-      - name: Update tlmgr and Install Missing LaTeX Packages
+      - name: Update tlmgr and Install LaTeX Packages
         run: |
-          sudo /usr/local/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox adjustbox roboto sourcesanspro fontawesome5 tcolorbox
+          sudo $HOME/texlive/2023/bin/x86_64-linux/tlmgr update --self
+          sudo $HOME/texlive/2023/bin/x86_64-linux/tlmgr update --all
+          sudo $HOME/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox adjustbox roboto sourcesanspro fontawesome5 tcolorbox
 
       - name: Confirm Package Installation
         run: |
@@ -95,7 +92,7 @@ jobs:
         run: make awesome-cv-copy
 
       - name: Output TeX Live Installation Log
-        run: cat /usr/local/texlive/2023/install-tl.log
+        run: cat $HOME/texlive/2023/install-tl.log
 
   build:
     runs-on: ubuntu-latest
