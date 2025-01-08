@@ -11,3 +11,4 @@ vendor
 /assets/resume/
 awesome-cv/**/*.pdf
 server/ip.sh
+server/domain.sh
