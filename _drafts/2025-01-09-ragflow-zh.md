@@ -14,7 +14,7 @@ https://ragflow.io
 *来源: [https://ragflow.io/](https://ragflow.io/)*{: .caption }
 
 {: .centered }
-![](assets/images/rag/r2.jpg)
+![](assets/images/rag/r2.jpg){: .responsive}
 *来源: [https://ragflow.io/](https://ragflow.io/)*{: .caption }
 
 尝试过了，效果非常好。
