@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: 尝试 RAGFlow
+title: RAGFlow
 ---
 
 https://ragflow.io
