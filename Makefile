@@ -1,19 +1,26 @@
-.PHONY: awesome-cv audio-pipeline pdf-pipeline clean copy
+.PHONY: awesome-cv awesome-cv-en awesome-cv-copy awesome-cv-copy-en audio-pipeline pdf-pipeline pipelines clean copy
 
+# Compiler and directories
 CC = xelatex
 EXAMPLES_DIR = awesome-cv
-RESUME_DIR = awesome-cv/resume
-RESUME_ZH_DIR = awesome-cv/resume-zh
-COVER_LETTER_DIR = awesome-cv/coverletter
-INTRODUCTION_DIR = awesome-cv/introduction
+RESUME_DIR = $(EXAMPLES_DIR)/resume
+RESUME_ZH_DIR = $(EXAMPLES_DIR)/resume-zh
+COVER_LETTER_DIR = $(EXAMPLES_DIR)/coverletter
+INTRODUCTION_DIR = $(EXAMPLES_DIR)/introduction
+
+# Source files
 RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 RESUME_ZH_SRCS = $(shell find $(RESUME_ZH_DIR) -name '*.tex')
 INTRODUCTION_SRCS = $(shell find $(INTRODUCTION_DIR) -name '*.tex')
 
+# Targets
+# Full awesome-cv (both English and Chinese)
+awesome-cv: introduction-en.pdf coverletter.pdf introduction-zh.pdf coverletter-zh.pdf resume-zh.pdf resume.pdf
 
-# Existing awesome-cv target
-awesome-cv: $(foreach x, introduction-en coverletter introduction-zh coverletter-zh resume-zh resume, $x.pdf)
+# English-only awesome-cv
+awesome-cv-en: introduction-en.pdf coverletter.pdf resume.pdf
 
+# Build rules for each PDF
 resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_SRCS)
 	$(CC) -output-directory=$(EXAMPLES_DIR) $<
 
@@ -32,33 +39,40 @@ introduction-en.pdf: $(INTRODUCTION_DIR)/introduction-en.tex
 introduction-zh.pdf: $(INTRODUCTION_DIR)/introduction-zh.tex
 	$(CC) -output-directory=$(INTRODUCTION_DIR) $<	
 
-# New audio-pipeline target
+# Pipeline targets
 audio-pipeline:
 	python audio-pipeline.py --task posts --n 10
 
-# New pdf-pipeline target
 pdf-pipeline:
 	python pdf-pipeline.py --task posts --n 10
 
 pipelines: audio-pipeline pdf-pipeline
 
-# Clean target to remove generated files
+# Clean generated PDFs
 clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf
 
-copy:
+# Copy all PDFs (both English and Chinese) to assets/resume
+copy: awesome-cv
 	mkdir -p assets/resume
 
-	cp awesome-cv/resume.pdf assets/resume/Zhiwei.Li.Resume.pdf
-	cp awesome-cv/resume-zh.pdf assets/resume/Zhiwei.Li.Resume.ZH.pdf
+	cp $(EXAMPLES_DIR)/resume.pdf assets/resume/Zhiwei.Li.Resume.pdf
+	cp $(EXAMPLES_DIR)/resume-zh.pdf assets/resume/Zhiwei.Li.Resume.ZH.pdf
 
-	cp awesome-cv/introduction/introduction-en.pdf assets/resume/Zhiwei.Li.Introduction.EN.pdf
-	cp awesome-cv/introduction/introduction-zh.pdf assets/resume/Zhiwei.Li.Introduction.ZH.pdf
+	cp $(INTRODUCTION_DIR)/introduction-en.pdf assets/resume/Zhiwei.Li.Introduction.EN.pdf
+	cp $(INTRODUCTION_DIR)/introduction-zh.pdf assets/resume/Zhiwei.Li.Introduction.ZH.pdf
 
-	cp awesome-cv/coverletter/coverletter.pdf assets/resume/Zhiwei.Li.CoverLetter.EN.pdf
-	cp awesome-cv/coverletter/coverletter-zh.pdf assets/resume/Zhiwei.Li.CoverLetter.ZH.pdf
+	cp $(COVER_LETTER_DIR)/coverletter.pdf assets/resume/Zhiwei.Li.CoverLetter.EN.pdf
+	cp $(COVER_LETTER_DIR)/coverletter-zh.pdf assets/resume/Zhiwei.Li.CoverLetter.ZH.pdf
 
+# Copy only English PDFs to assets/resume
+awesome-cv-copy-en: awesome-cv-en
+	mkdir -p assets/resume
+
+	cp $(EXAMPLES_DIR)/resume.pdf assets/resume/Zhiwei.Li.Resume.pdf
+	cp $(INTRODUCTION_DIR)/introduction-en.pdf assets/resume/Zhiwei.Li.Introduction.EN.pdf
+	cp $(COVER_LETTER_DIR)/coverletter.pdf assets/resume/Zhiwei.Li.CoverLetter.EN.pdf
+
+# Copy all PDFs (wrapper for awesome-cv and copy)
 awesome-cv-copy: awesome-cv copy
-
-
 
