@@ -8,6 +8,6 @@ vendor
 *.aux
 *.log
 *.toc
-server/deploy.sh
 /assets/resume/
 awesome-cv/**/*.pdf
+server/ip.sh
