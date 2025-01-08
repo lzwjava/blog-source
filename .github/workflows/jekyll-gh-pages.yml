@@ -75,8 +75,6 @@ jobs:
 
       - name: Update tlmgr and Install LaTeX Packages
         run: |
-          sudo $HOME/texlive/2023/bin/x86_64-linux/tlmgr update --self
-          sudo $HOME/texlive/2023/bin/x86_64-linux/tlmgr update --all
           sudo $HOME/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox adjustbox roboto sourcesanspro fontawesome5 tcolorbox
 
       - name: Confirm Package Installation
