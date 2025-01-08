@@ -33,7 +33,7 @@ You can download the PDF version of my resume, created with LaTeX, [here](/asset
 ### Meitai Technology Services (Shanghai) Co., Ltd, Backend Engineer (Onboarding), 2025.01 - Present 
 
 * Meitai Technology Services is a subsidiary of Teksystem, which in turn is part of Allegis Group, Inc., a multinational talent management firm. After successfully passing the interview, I received an oral offer and am currently onboarding for a backend engineer position, outsourced to HSBC Bank, a leading global financial institution.
-* The role will focus on developing and optimizing backend systems in HSBC’s Enterprise Technology Department, working with Spring, Spring Boot, Java core, algorithms, Redis, multithreading, network technologies, Linux, and Google Cloud.
+* The role will focus on developing and optimizing backend systems in HSBC’s Enterprise Technology Department, working with Spring, Spring Boot, Java core, algorithms, Redis, multithreading, network, Linux, and Google Cloud technologies.
 
 
 ### Tianjin Neusiri Information Technology, Backend Engineer, 2024.08 - 2024.10
