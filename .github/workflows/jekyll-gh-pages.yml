@@ -24,13 +24,16 @@ jobs:
       - name: Set up Make
         run: sudo apt-get update && sudo apt-get install -y make
 
+      - name: Check TeX Live Symlinks
+        run: ls -l /usr/local/texlive
+
       - name: Cache TeX Live
         uses: actions/cache@v3
         with:
           path: /usr/local/texlive/2023
-          key: ${{ runner.os }}-texlive-2023-unique # Updated to force cache refresh
+          key: ${{ runner.os }}-texlive-2023-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-texlive-
+            ${{ runner.os }}-texlive-2023-
 
       - name: Install TeX Live 2023
         if: steps.cache-texlive.outputs.cache-hit != 'true'
@@ -74,6 +77,7 @@ jobs:
         run: |
           which xelatex
           xelatex --version
+          tlmgr --version
 
       - name: List TeX Live Binaries
         run: ls -l /usr/local/texlive/2023/bin/x86_64-linux/
