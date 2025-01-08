@@ -1,4 +1,4 @@
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Deploy Jekyll with GitHub Pages Dependencies Preinstalled
 
 on:
   push:
@@ -18,17 +18,20 @@ jobs:
   awesome-cv-copy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Make
-        run: sudo apt-get update && sudo apt-get install -y make
+      - name: Set Up Make
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y make
 
       - name: Cache TeX Live
+        id: cache-texlive
         uses: actions/cache@v3
         with:
           path: /usr/local/texlive/2023
-          key: ${{ runner.os }}-texlive-2023-unique # Updated to force cache refresh
+          key: ${{ runner.os }}-texlive-2023-unique
           restore-keys: |
             ${{ runner.os }}-texlive-
 
@@ -59,6 +62,7 @@ jobs:
           collection-fontsrecommended 1
           collection-xetex 1
           collection-latexextra 1
+          collection-fonts-extra 1
           EOF
 
           # Run the installer with the profile
@@ -78,16 +82,20 @@ jobs:
       - name: List TeX Live Binaries
         run: ls -l /usr/local/texlive/2023/bin/x86_64-linux/
 
-      - name: Install Missing LaTeX Packages
+      - name: Update tlmgr and Install Missing LaTeX Packages
         run: |
-          sudo /usr/local/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox adjustbox
+          sudo /usr/local/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox adjustbox roboto sourcesanspro fontawesome5 tikz
 
       - name: Confirm Package Installation
         run: |
           kpsewhich etoolbox.sty
           kpsewhich adjustbox.sty
+          kpsewhich roboto.sty
+          kpsewhich sourcesanspro.sty
+          kpsewhich fontawesome5.sty
+          kpsewhich tikz.sty
 
-      - name: Run make awesome-cv-copy
+      - name: Run Make Awesome-CV-Copy
         run: make awesome-cv-copy
 
       - name: Output TeX Live Installation Log
@@ -97,7 +105,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: awesome-cv-copy
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Setup Python 3
@@ -105,12 +113,12 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install python-frontmatter
 
-      - name: Generate notes links
+      - name: Generate Notes Links
         run: |
           python scripts/generate_notes_link.py
 
@@ -123,7 +131,7 @@ jobs:
           source: ./
           destination: ./_site
 
-      - name: Upload artifact
+      - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
 
   deploy:
