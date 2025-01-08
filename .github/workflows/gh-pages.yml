@@ -1,4 +1,4 @@
-name: Deploy Jekyll(without latex)
+name: Deploy Jekyll
 
 on:
   push:
