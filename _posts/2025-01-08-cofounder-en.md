@@ -21,4 +21,4 @@ title: "Finding a Cofounder"
 - Think about everyone you meet and every collaborator you have. Reflect on why some of you couldn’t last long or go far together, or why some friendships have lasted.
 - Create a small team. It works best with fewer than 10 people in the current AI era.
 - Startup or life can be long. So, from the perspective of startup or life, think about what matters. And find the counter who shares the same thoughts in their deep heart.
-- People speak, write, think, code, or do research. Use the quality of these to judge them.
+- People speak, write, think, code, or conduct research. Judge them based on the quality of these actions, but not too quickly; true understanding comes only after months or years of getting to know each other or sharing many experiences together.
