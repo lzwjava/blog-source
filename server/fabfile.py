@@ -13,7 +13,7 @@ def _set_user_dir(c):
 
 def _prepare_local_website(install='true'):
     local(f'mkdir -p {tmp_dir}')
-    local(f'cp -v bandwidth_api.py {tmp_dir}')
+    local(f'cp -v bandwidth_api.py nginx.conf {tmp_dir}')
 
 @task
 def prepare_remote_dirs(c):
@@ -52,3 +52,4 @@ def deploy(c, install='false'):
     chmod_tmp(c)
     chown(c)
     _clean_local_dir()
+
