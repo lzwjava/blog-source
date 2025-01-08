@@ -33,6 +33,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-texlive-
 
+      - name: Notify Cache Hit
+        if: steps.cache-texlive.outputs.cache-hit == 'true'
+        run: echo "TeX Live cache was successfully restored."
+
       - name: Install TeX Live 2023
         if: steps.cache-texlive.outputs.cache-hit != 'true'
         run: |
