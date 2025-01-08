@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sublist3r.py: 枚举子域名"
+title: "turbolist3r.py: 枚举子域名"
 ---
 
 尝试过。https://github.com/aboul3la/Sublist3r
