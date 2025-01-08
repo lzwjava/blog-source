@@ -1,10 +1,6 @@
-这里是中文翻译版本：
-
 ---
-
 layout: post  
 title: "在ChatGPT中使用搜索的案例"
-
 ---
 
 **Zhiwei:**  
