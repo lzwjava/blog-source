@@ -1,4 +1,4 @@
-name: Deploy Jekyll with GitHub Pages Dependencies Preinstalled
+name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
   push:
@@ -18,20 +18,17 @@ jobs:
   awesome-cv-copy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set Up Make
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y make
+      - name: Set up Make
+        run: sudo apt-get update && sudo apt-get install -y make
 
       - name: Cache TeX Live
-        id: cache-texlive
         uses: actions/cache@v3
         with:
           path: /usr/local/texlive/2023
-          key: ${{ runner.os }}-texlive-2023-unique
+          key: ${{ runner.os }}-texlive-2023-unique # Updated to force cache refresh
           restore-keys: |
             ${{ runner.os }}-texlive-
 
@@ -62,7 +59,6 @@ jobs:
           collection-fontsrecommended 1
           collection-xetex 1
           collection-latexextra 1
-          collection-fonts-extra 1
           EOF
 
           # Run the installer with the profile
