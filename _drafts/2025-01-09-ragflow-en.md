@@ -14,7 +14,7 @@ https://ragflow.io
 *Source: [https://ragflow.io/](https://ragflow.io/)*{: .caption }
 
 {: .centered }
-![](assets/images/rag/r2.jpg)
+![](assets/images/rag/r2.jpg){: .responsive}
 *Source: [https://ragflow.io/](https://ragflow.io/)*{: .caption }
 
 Tried it. Works very well.
