@@ -1,4 +1,4 @@
-cp /home/project/blog-server/nginx.conf /etc/nginx/sites-enabled/
+cp /home/project/blog-server/nginx.conf /etc/nginx/sites-enabled/lzwjava.conf
 sudo systemctl restart nginx
 
 
