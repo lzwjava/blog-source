@@ -82,10 +82,6 @@ jobs:
         run: |
           sudo /usr/local/texlive/2023/bin/x86_64-linux/tlmgr option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2023/tlnet-final
 
-      - name: Update tlmgr
-        run: |
-          sudo /usr/local/texlive/2023/bin/x86_64-linux/tlmgr update --self
-
       - name: Install Missing LaTeX Packages
         run: |
           sudo /usr/local/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox adjustbox roboto sourcesanspro fontawesome5 tcolorbox
