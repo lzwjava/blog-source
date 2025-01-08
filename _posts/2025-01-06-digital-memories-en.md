@@ -11,7 +11,7 @@ Before September 2004, I lived in a village in Meizhou, Guangdong. We had a TV a
 
 I also remember playing the Little Tyrant Study Machine at the home of my eldest uncle. We played games like Contra and Battle City.
 
-During one Spring Festival, I remember my father returning from Guangzhou with his Nokia phone, probably a 3310. I remember entering too many incorrect attempts to unlock the SIM card, which caused it to lock. It required a PUK code to unlock, but my father didn't have the PUK code details, which were printed on the original SIM card packaging. He had to wait to return to Guangzhou to unlock it or go to a store for help.
+During one Spring Festival, I remember my father returning from Guangzhou with his Nokia phone, probably a 3310 [^1] . I remember entering too many incorrect attempts to unlock the SIM card, which caused it to lock. It required a PUK code to unlock, but my father didn't have the PUK code details, which were printed on the original SIM card packaging. He had to wait to return to Guangzhou to unlock it or go to a store for help.
 
 My mother brought me to Guangzhou in August 2004 to live with my father.
 
@@ -37,4 +37,4 @@ In late 2015, I got my first Mac computer, a MacBook Pro (Retina, 15-inch, Mid 2
 
 ---
 
-Update: Confirmed with my father that it should be the Nokia 8310.
+[^1]: Update: Confirmed with my father that it should be the Nokia 8310.
