@@ -13,7 +13,7 @@ def _set_user_dir(c):
 
 def _prepare_local_website(install='true'):
     local(f'mkdir -p {tmp_dir}')
-    local(f'cp -v bandwidth_api.py nginx.conf {tmp_dir}')
+    local(f'cp -v bandwidth_api.py nginx.conf *.sh {tmp_dir}')
 
 @task
 def prepare_remote_dirs(c):
