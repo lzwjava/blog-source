@@ -20,7 +20,7 @@ Greptime Docs, https://docs.greptime.com
 * [Demos](https://github.com/GreptimeTeam/demo-scene)
 * [FAQ](https://docs.greptime.com/faq-and-others/faq)
 
-Please review these documents before answering any user queries.
+Please search these documents before answering any user queries.
 ```
 
 This would allow users to interact with a GPT-based chatbot that answers questions based on the documentation, ensuring more accurate responses.
