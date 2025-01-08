@@ -5,7 +5,7 @@ title: "Emphasize Judgment Over Worrying About AI Cheating"
 
 - AI cheating is pervasive and, likely, impossible to fully eliminate.
 - Rather than focusing on AI cheating, we should prioritize raising our own judgment.
-- Concepts like multi-head latent attention, or systems like ChatGPT-01 and DeepSeek V3, are still challenging to achieve, even with AI cheating.
+- Concepts like multi-head latent attention, or systems like ChatGPT-o1 and DeepSeek V3, are still challenging to achieve, even with AI cheating.
 - We should place a higher value on repeatability and reproducibility in work.
 - Whether the work is done by AI or humans, as long as it benefits others, it holds value. However, proper credit should always be given.
 - Original thinkers and teams deserve more respect than ever before.
