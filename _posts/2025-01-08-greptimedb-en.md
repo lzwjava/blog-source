@@ -25,6 +25,8 @@ Please review these documents before answering any user queries.
 
 This would allow users to interact with a GPT-based chatbot that answers questions based on the documentation, ensuring more accurate responses.
 
+Let's create this GPT:  [https://chatgpt.com/g/g-677e87121d448191b0813ca28425ce38-greptimedb-integration](https://chatgpt.com/g/g-677e87121d448191b0813ca28425ce38-greptimedb-integration)
+
 ## Agent
 
 I envision a tool called `greptimedb-agent` to simplify the integration process.
