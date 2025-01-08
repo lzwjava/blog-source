@@ -18,24 +18,19 @@ jobs:
   awesome-cv-copy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set Up Make
+      - name: Set up Make
         run: sudo apt-get update && sudo apt-get install -y make
 
       - name: Cache TeX Live
-        id: cache-texlive
         uses: actions/cache@v3
         with:
-          path: $HOME/texlive/2023
-          key: ${{ runner.os }}-texlive-2023
+          path: /usr/local/texlive/2023
+          key: ${{ runner.os }}-texlive-2023-unique # Updated to force cache refresh
           restore-keys: |
             ${{ runner.os }}-texlive-
-
-      - name: Notify Cache Hit
-        if: steps.cache-texlive.outputs.cache-hit == 'true'
-        run: echo "TeX Live cache was successfully restored."
 
       - name: Install TeX Live 2023
         if: steps.cache-texlive.outputs.cache-hit != 'true'
@@ -52,34 +47,40 @@ jobs:
           # Create a texlive.profile for automated installation
           cat <<EOF > texlive.profile
           selected_scheme scheme-full
-          TEXDIR $HOME/texlive/2023
-          TEXMFCONFIG $HOME/.texlive2023/texmf-config
-          TEXMFHOME $HOME/texmf
-          TEXMFLOCAL $HOME/texlive/2023/texmf-local
-          TEXMFSYSCONFIG $HOME/texlive/2023/texmf-config
-          TEXMFSYSVAR $HOME/texlive/2023/texmf-var
+          TEXDIR /usr/local/texlive/2023
+          TEXMFCONFIG ~/.texlive2023/texmf-config
+          TEXMFHOME ~/texmf
+          TEXMFLOCAL /usr/local/texlive/2023/texmf-local
+          TEXMFSYSCONFIG /usr/local/texlive/2023/texmf-config
+          TEXMFSYSVAR /usr/local/texlive/2023/texmf-var
           binary_x86_64-linux 1
           collection-basic 1
           collection-latex 1
           collection-fontsrecommended 1
           collection-xetex 1
           collection-latexextra 1
-          collection-fonts-extra 1
           EOF
 
           # Run the installer with the profile
-          ./install-tl --profile=texlive.profile
+          sudo ./install-tl --profile=texlive.profile
 
       - name: Add TeX Live to PATH
-        run: echo "$HOME/texlive/2023/bin/x86_64-linux" >> $GITHUB_PATH
+        run: echo "/usr/local/texlive/2023/bin/x86_64-linux" >> $GITHUB_PATH
 
-      - name: Verify Cache Restoration
-        run: |
-          ls -la $HOME/texlive/2023
+      - name: Print PATH
+        run: echo $PATH
 
-      - name: Update tlmgr and Install LaTeX Packages
+      - name: Verify TeX Live Installation
         run: |
-          sudo $HOME/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox adjustbox roboto sourcesanspro fontawesome5 tcolorbox
+          which xelatex
+          xelatex --version
+
+      - name: List TeX Live Binaries
+        run: ls -l /usr/local/texlive/2023/bin/x86_64-linux/
+
+      - name: Update tlmgr and Install Missing LaTeX Packages
+        run: |
+          sudo /usr/local/texlive/2023/bin/x86_64-linux/tlmgr install etoolbox adjustbox roboto sourcesanspro fontawesome5 tcolorbox
 
       - name: Confirm Package Installation
         run: |
@@ -94,7 +95,7 @@ jobs:
         run: make awesome-cv-copy
 
       - name: Output TeX Live Installation Log
-        run: cat $HOME/texlive/2023/install-tl.log
+        run: cat /usr/local/texlive/2023/install-tl.log
 
   build:
     runs-on: ubuntu-latest
