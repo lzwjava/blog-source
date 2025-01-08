@@ -1,7 +1,20 @@
 ---                            
 layout: post
-title: "Turbolist3r.py: Enumerating Subdomains"
+title: "Turbolist3r: Enumerating Subdomains"
 ---
+
+## Turbolist3r
+
+[Turbolist3r on GitHub](https://github.com/fleetcaptain/Turbolist3r)
+
+Based on [Sublist3r](https://github.com/aboul3la/Sublist3r) by Ahmed Aboul-Ela - @aboul3la  
+Forked by Carl Pearson - [GitHub](https://github.com/fleetcaptain)
+
+```bash
+python turbolist3r.py -d google.com
+```
+
+## Sublist3r
 
 Tried. https://github.com/aboul3la/Sublist3r
 
@@ -144,14 +157,4 @@ wifi.google.com
 onex.wifi.google.com
 ```
 
-## Turbolist3r
-
-[Turbolist3r on GitHub](https://github.com/fleetcaptain/Turbolist3r)
-
-Based on [Sublist3r](https://github.com/aboul3la/Sublist3r) by Ahmed Aboul-Ela - @aboul3la  
-Forked by Carl Pearson - [GitHub](https://github.com/fleetcaptain)
-
-```bash
-python turbolist3r.py -d google.com
-```
 

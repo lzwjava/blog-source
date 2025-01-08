@@ -1,7 +1,20 @@
 ---
 layout: post
-title: "turbolist3r.py: 枚举子域名"
+title: "Turbolist3r: 枚举子域名"
 ---
+
+## Turbolist3r
+
+[Turbolist3r 在 GitHub](https://github.com/fleetcaptain/Turbolist3r)
+
+基于 [Sublist3r](https://github.com/aboul3la/Sublist3r) 由 Ahmed Aboul-Ela - @aboul3la 开发  
+由 Carl Pearson 分叉 - [GitHub](https://github.com/fleetcaptain)
+
+```bash
+python turbolist3r.py -d google.com
+```
+
+## Sublist3r
 
 尝试过。https://github.com/aboul3la/Sublist3r
 
@@ -142,16 +155,5 @@ dg.video.google.com
 upload.video.google.com
 wifi.google.com
 onex.wifi.google.com
-```
-
-## Turbolist3r
-
-[Turbolist3r 在 GitHub](https://github.com/fleetcaptain/Turbolist3r)
-
-基于 [Sublist3r](https://github.com/aboul3la/Sublist3r) 由 Ahmed Aboul-Ela - @aboul3la 开发  
-由 Carl Pearson 分叉 - [GitHub](https://github.com/fleetcaptain)
-
-```bash
-python turbolist3r.py -d google.com
 ```
 
