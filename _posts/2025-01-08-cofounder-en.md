@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Finding a Cofounder"
+title: "Tips for Finding the Cofounder"
 ---
 
 - If I were to start my startup again, how would I find my cofounder?
