@@ -51,6 +51,11 @@ jobs:
           # Example: Generate audio from the last 10 posts
           python audio-pipeline.py --task posts --n 10
 
+      - name: Clean Up Credentials
+        run: |
+          rm -f ./gha-creds-*.json
+
+
       # --- (D) Generate Notes Links (from your existing script) ---
       - name: Generate Notes Links
         run: |
