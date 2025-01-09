@@ -12,19 +12,27 @@ load_dotenv()
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 MODEL_NAME = "deepseek-chat"
 INPUT_DIR = "original"
-OUTPUT_DIR = "_posts/ja"
-MAX_THREADS = 10
+MAX_THREADS = 20
 
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 
-def translate_text(text):
+def create_translation_prompt(target_language):
+    if target_language == 'ja':
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Japanese. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+    elif target_language == 'es':
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Spanish. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+    else:
+        return f"You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to {target_language}. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+
+
+def translate_text(text, target_language):
     print(f"  Translating text: {text[:50]}...")
     try:
         response = client.chat.completions.create(
             model=MODEL_NAME,
             messages=[
-                {"role": "system", "content": "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Japanese. Do not translate English names. Be careful about code blocks, if not sure, just do not change."},
+                {"role": "system", "content": create_translation_prompt(target_language)},
                 {"role": "user", "content": text}
             ],
             stream=False
@@ -39,7 +47,7 @@ def translate_text(text):
         print(f"  Translation failed with error: {e}")
         return None
 
-def translate_front_matter(front_matter):
+def translate_front_matter(front_matter, target_language):
     if not front_matter:
         return ""
     try:
@@ -47,18 +55,18 @@ def translate_front_matter(front_matter):
         if front_matter:
             front_matter_dict = yaml.safe_load(front_matter)
         if 'title' in front_matter_dict:
-            translated_title = translate_text(front_matter_dict['title'])
+            translated_title = translate_text(front_matter_dict['title'], target_language)
             if translated_title:
                 front_matter_dict['title'] = translated_title
-        # Always set lang to ja
-        front_matter_dict['lang'] = 'ja'
+        # Always set lang to target_language
+        front_matter_dict['lang'] = target_language
         return "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
     except yaml.YAMLError as e:
         print(f"  Error parsing front matter: {e}")
         return front_matter
 
 
-def translate_markdown_file(input_file, output_file):
+def translate_markdown_file(input_file, output_file, target_language):
     print(f"  Processing file: {input_file}")
     try:
         with open(input_file, 'r', encoding='utf-8') as infile:
@@ -70,7 +78,7 @@ def translate_markdown_file(input_file, output_file):
         content_without_front_matter = content[len(front_matter_match.group(0)):] if front_matter_match else content
         print(f"  Front matter: {front_matter[:50]}...")
 
-        translated_front_matter = translate_front_matter(front_matter)
+        translated_front_matter = translate_front_matter(front_matter, target_language)
 
 
         # Split content into paragraphs
@@ -81,7 +89,7 @@ def translate_markdown_file(input_file, output_file):
         for i, paragraph in enumerate(paragraphs):
             if paragraph.strip():
                 print(f"  Translating paragraph {i+1}/{len(paragraphs)}...")
-                translated_text = translate_text(paragraph)
+                translated_text = translate_text(paragraph, target_language)
                 if translated_text:
                     translated_paragraphs.append(translated_text)
                 else:
@@ -106,14 +114,16 @@ def main():
         print("Error: DEEPSEEK_API_KEY is not set in .env file.")
         return
 
-    parser = argparse.ArgumentParser(description="Translate markdown files to Japanese.")
+    parser = argparse.ArgumentParser(description="Translate markdown files to a specified language.")
     parser.add_argument("--n", type=int, default=None, help="Maximum number of files to translate.")
+    parser.add_argument("--lang", type=str, default="ja", help="Target language for translation (e.g., ja, es).")
     args = parser.parse_args()
     max_files = args.n
-
-
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    print(f"Created directory {OUTPUT_DIR}")
+    target_language = args.lang
+    
+    output_dir = f"_posts/{target_language}"
+    os.makedirs(output_dir, exist_ok=True)
+    print(f"Created directory {output_dir}")
 
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
@@ -125,16 +135,16 @@ def main():
                 break
             if filename.endswith(".md"):
                 input_file = os.path.join(INPUT_DIR, filename)
-                output_filename = filename.replace(".md", "-ja.md")
+                output_filename = filename.replace(".md", f"-{target_language}.md")
                 
                 # Check if the original file is named with "-en.md" or "-zh.md"
                 if filename.endswith("-en.md") or filename.endswith("-zh.md"):
-                    output_filename = filename.replace("-en.md", "-ja.md").replace("-zh.md", "-ja.md")
+                    output_filename = filename.replace("-en.md", f"-{target_language}.md").replace("-zh.md", f"-{target_language}.md")
                 
-                output_file = os.path.join(OUTPUT_DIR, output_filename)
+                output_file = os.path.join(output_dir, output_filename)
                 if not os.path.exists(output_file):
                     print(f"Submitting translation job for {filename}...")
-                    future = executor.submit(translate_markdown_file, input_file, output_file)
+                    future = executor.submit(translate_markdown_file, input_file, output_file, target_language)
                     futures.append(future)
                     translated_count += 1
                 else:

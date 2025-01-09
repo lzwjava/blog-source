@@ -28,7 +28,7 @@ jobs:
         run: |
           TOTAL_POSTS=$(ls original/*.md | wc -l)
           for i in $(seq 0 10 "$TOTAL_POSTS"); do
-            python scripts/translate_ja.py --n 30
+            python scripts/translate_lang.py --n 50 --lang ja
             
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
