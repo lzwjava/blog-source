@@ -2,4 +2,7 @@ markdown>=3.0.0
 google-cloud-texttospeech>=2.0.0
 beautifulsoup4>=4.0.0
 pydub>=0.25.0
-
+openai>=1.0.0
+python-dotenv>=1.0.0
+PyYAML>=6.0
+requests
