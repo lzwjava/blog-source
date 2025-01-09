@@ -15,7 +15,7 @@ layout: page
     <option value="date-asc|en">Date Ascending - English</option>
     <option value="date-asc|zh">日期升序 - 中文</option>
     <option value="random|all">Random Order - All</option>
-    <option value="random|en">Random Order - English</option>
+     <option value="random|en">Random Order - English</option>
     <option value="random|zh">随机顺序 - 中文</option>
   </select>
 
@@ -24,12 +24,18 @@ layout: page
 <ul class="post-list">
   {% if site.posts.size > 0 %}
   {% for post in site.posts %}
-  <li class="list-group-item post-item lang-{{ post.lang }}" data-top="{{ post.top }}">
-    <a href="{{ post.url }}">
-      <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
-      <span class="title">{{ post.title }}</span>
-    </a>
-  </li>
+    {% if post.path contains '_posts/en/' %}
+      <li class="list-group-item post-item lang-en" data-top="{{ post.top }}">
+    {% elsif post.path contains '_posts/zh/' %}
+      <li class="list-group-item post-item lang-zh" data-top="{{ post.top }}">
+    {% else %}
+      <li class="list-group-item post-item lang-all" data-top="{{ post.top }}">
+    {% endif %}
+      <a href="{{ post.url }}">
+        <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
+        <span class="title">{{ post.title }}</span>
+      </a>
+    </li>
   {% endfor %}
   {% else %}
   <li class="list-group-item post-item">No posts available. Please refresh the page to load the posts. There is a known
@@ -62,11 +68,13 @@ layout: page
       // Create postArray
       const postArray = filteredPosts.map(post => {
         const dateStr = post.querySelector('.date').textContent.replace(/\./g, '-');
+          const filename = post.querySelector('a').getAttribute('href').split('/').pop();
         return {
           element: post,
           date: new Date(dateStr),
           title: post.querySelector('.title').textContent.toLowerCase(),
-          top: parseInt(post.getAttribute('data-top'), 10)
+          top: parseInt(post.getAttribute('data-top'), 10),
+            filename: filename
         };
       });
 
@@ -94,17 +102,24 @@ layout: page
     }
 
     function sortPosts(posts, sortOption) {
+          const dateCompare = (a, b) => {
+              if (b.date - a.date !== 0) {
+                  return b.date - a.date;
+              }
+              // If dates are the same, sort by filename
+              return a.filename.localeCompare(b.filename);
+          };
       switch (sortOption) {
         case 'date-desc':
-          return posts.sort((a, b) => b.date - a.date);
+          return posts.sort(dateCompare);
         case 'date-asc':
           return posts.sort((a, b) => a.date - b.date);
         case 'random':
           return shuffle(posts);
         case 'author-picks':
-          return posts.filter(post => !isNaN(post.top)).sort((a, b) => b.date - a.date);
+          return posts.filter(post => !isNaN(post.top)).sort(dateCompare);
         default:
-          return posts.sort((a, b) => b.date - a.date);
+          return posts.sort(dateCompare);
       }
     }
 
