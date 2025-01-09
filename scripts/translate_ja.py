@@ -10,7 +10,7 @@ load_dotenv()
 
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 MODEL_NAME = "deepseek-chat"
-INPUT_DIR = "_posts/original"
+INPUT_DIR = "original"
 OUTPUT_DIR = "_posts/ja"
 
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
