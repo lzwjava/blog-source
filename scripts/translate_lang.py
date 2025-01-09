@@ -22,6 +22,8 @@ def create_translation_prompt(target_language):
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Japanese. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
     elif target_language == 'es':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Spanish. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+    elif target_language == 'hi':
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Hindi. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
     else:
         return f"You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to {target_language}. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
 
@@ -122,6 +124,8 @@ def main():
     target_language = args.lang
     
     output_dir = f"_posts/{target_language}"
+    if target_language == 'hi':
+        output_dir = "_posts/hi"
     os.makedirs(output_dir, exist_ok=True)
     print(f"Created directory {output_dir}")
 
