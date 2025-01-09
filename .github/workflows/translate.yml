@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Translate posts
-        run: python scripts/translate_ja.py
+        run: python scripts/translate_ja.py --n 1
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 

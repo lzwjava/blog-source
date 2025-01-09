@@ -1,6 +1,7 @@
 import os
 import re
 import time
+import argparse
 from dotenv import load_dotenv
 from openai import OpenAI
 import yaml
@@ -94,11 +95,20 @@ def main():
         print("Error: DEEPSEEK_API_KEY is not set in .env file.")
         return
 
+    parser = argparse.ArgumentParser(description="Translate markdown files to Japanese.")
+    parser.add_argument("--n", type=int, default=None, help="Maximum number of files to translate.")
+    args = parser.parse_args()
+    max_files = args.n
+
+
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     print(f"Created directory {OUTPUT_DIR}")
 
-
+    translated_count = 0
     for filename in os.listdir(INPUT_DIR):
+        if max_files is not None and translated_count >= max_files:
+            print(f"Reached max files limit: {max_files}. Stopping translation.")
+            break
         if filename.endswith(".md"):
             input_file = os.path.join(INPUT_DIR, filename)
             output_filename = filename.replace(".md", "-ja.md")
@@ -112,6 +122,7 @@ def main():
                 print(f"Translating {filename}...")
                 translate_markdown_file(input_file, output_file)
                 print(f"Translated {filename} to {output_file}")
+                translated_count += 1
             else:
                 print(f"Skipping {filename} because {output_file} already exists.")
 
