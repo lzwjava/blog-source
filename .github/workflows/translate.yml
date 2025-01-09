@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - '_posts/original/*'
+      - 'original/*'
   workflow_dispatch:
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
 
       - name: Translate posts
         run: |
-          TOTAL_POSTS=$(ls _posts/original/*.md | wc -l)
+          TOTAL_POSTS=$(ls original/*.md | wc -l)
           for i in $(seq 0 10 "$TOTAL_POSTS"); do
             python scripts/translate_ja.py --n 10 --start "$i"
             
