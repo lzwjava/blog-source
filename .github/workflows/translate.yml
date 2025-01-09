@@ -1,0 +1,38 @@
+name: Translate Posts
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '_posts/original/*'
+  workflow_dispatch:
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Translate posts
+        run: python scripts/translate_ja.py
+
+      - name: Commit translated posts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _posts/ja/*
+          git diff --cached --quiet || git commit -m "Add translated posts"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
