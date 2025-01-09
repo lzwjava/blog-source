@@ -44,6 +44,8 @@ def translate_front_matter(front_matter):
             translated_title = translate_text(front_matter_dict['title'])
             if translated_title:
                 front_matter_dict['title'] = translated_title
+        # Always set lang to ja
+        front_matter_dict['lang'] = 'ja'
         return "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
     except yaml.YAMLError as e:
         print(f"  Error parsing front matter: {e}")
