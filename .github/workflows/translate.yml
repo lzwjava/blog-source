@@ -11,6 +11,8 @@ on:
 jobs:
   translate:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,6 +28,8 @@ jobs:
 
       - name: Translate posts
         run: python scripts/translate_ja.py
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
       - name: Commit translated posts
         run: |
