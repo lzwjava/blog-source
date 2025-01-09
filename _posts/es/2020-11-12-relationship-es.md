@@ -1,8 +1,7 @@
 ---
 lang: es
 layout: post
-title: '"怎么搞关系" 可以翻译为 "Cómo establecer relaciones" 或 "Cómo construir conexiones".
-  这个短语通常用于讨论如何建立和维护人际关系，尤其是在社交或职场环境中。'
+title: 'Cómo establecer relaciones'
 ---
 
 Emprender, especialmente en una empresa de outsourcing de software como la nuestra, implica manejar relaciones con los clientes. Además de enviar regalos en ocasiones especiales, me he dado cuenta de que hay muchas otras formas de hacerlo. También tengo amigos que han tenido éxito en sus negocios, y he observado cómo gestionan sus relaciones. Así que hablar sobre este tema también me ayuda a aclarar mis propias ideas.

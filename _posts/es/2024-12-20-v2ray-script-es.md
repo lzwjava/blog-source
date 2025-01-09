@@ -2,30 +2,7 @@
 audio: true
 lang: es
 layout: post
-title: "# Script de V2Ray\n\nV2Ray es una herramienta de proxy versátil que se utiliza\
-  \ para crear conexiones seguras y privadas. A continuación, te presento un script\
-  \ básico para configurar V2Ray en tu servidor.\n\n## Requisitos\n\n- Un servidor\
-  \ con acceso root.\n- Conexión a Internet.\n\n## Instalación\n\n1. **Conéctate a\
-  \ tu servidor** a través de SSH.\n\n   ```bash\n   ssh root@tu_servidor\n   ```\n\
-  \n2. **Descarga el script de instalación** de V2Ray.\n\n   ```bash\n   wget https://install.direct/go.sh\n\
-  \   ```\n\n3. **Ejecuta el script** para instalar V2Ray.\n\n   ```bash\n   bash\
-  \ go.sh\n   ```\n\n4. **Inicia el servicio** de V2Ray.\n\n   ```bash\n   systemctl\
-  \ start v2ray\n   ```\n\n5. **Habilita el servicio** para que se inicie automáticamente\
-  \ al arrancar el servidor.\n\n   ```bash\n   systemctl enable v2ray\n   ```\n\n\
-  ## Configuración\n\nEl archivo de configuración de V2Ray se encuentra en `/etc/v2ray/config.json`.\
-  \ Puedes editarlo para personalizar la configuración según tus necesidades.\n\n\
-  ```bash\nnano /etc/v2ray/config.json\n```\n\n### Ejemplo de configuración básica\n\
-  \n```json\n{\n  \"inbounds\": [\n    {\n      \"port\": 1080,\n      \"protocol\"\
-  : \"socks\",\n      \"settings\": {\n        \"auth\": \"noauth\",\n        \"udp\"\
-  : true\n      }\n    }\n  ],\n  \"outbounds\": [\n    {\n      \"protocol\": \"\
-  freedom\",\n      \"settings\": {}\n    }\n  ]\n}\n```\n\n## Reiniciar el servicio\n\
-  \nDespués de realizar cambios en la configuración, reinicia el servicio de V2Ray\
-  \ para aplicar los cambios.\n\n```bash\nsystemctl restart v2ray\n```\n\n## Verificar\
-  \ el estado del servicio\n\nPuedes verificar el estado del servicio de V2Ray para\
-  \ asegurarte de que esté funcionando correctamente.\n\n```bash\nsystemctl status\
-  \ v2ray\n```\n\n## Conclusión\n\nEste script básico te ayudará a configurar V2Ray\
-  \ en tu servidor. A partir de aquí, puedes personalizar la configuración según tus\
-  \ necesidades específicas. ¡Disfruta de una conexión segura y privada con V2Ray!"
+title: "V2ray"
 ---
 
 Este es un script de V2Ray que uso con frecuencia.

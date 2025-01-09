@@ -13,11 +13,6 @@ layout: page
     <option value="date-desc|zh">日期降序 - 中文</option>
     <option value="date-desc|ja">日付降順 - 日本語</option>
     <option value="date-desc|es">Fecha descendente - Español</option>
-    <option value="date-asc|all">Date Ascending - All</option>
-    <option value="date-asc|en">Date Ascending - English</option>
-    <option value="date-asc|zh">日期升序 - 中文</option>
-    <option value="date-asc|ja">日付昇順 - 日本語</option>
-    <option value="date-asc|es">Fecha ascendente - Español</option>
     <option value="random|all">Random Order - All</option>
     <option value="random|en">Random Order - English</option>
     <option value="random|zh">随机顺序 - 中文</option>
@@ -132,8 +127,6 @@ layout: page
       switch (sortOption) {
         case 'date-desc':
           return posts.sort(dateCompare);
-        case 'date-asc':
-          return posts.sort((a, b) => a.date - b.date);
         case 'random':
           return shuffle(posts);
         case 'author-picks':

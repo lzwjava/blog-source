@@ -1,25 +1,7 @@
 ---
 lang: es
 layout: post
-title: "Cómo ver YouTube en la televisión\n\nVer YouTube en la televisión es una excelente\
-  \ manera de disfrutar de tus videos favoritos en una pantalla más grande. Aquí te\
-  \ explicamos cómo hacerlo:\n\n### 1. **Usar un Smart TV**\n   - Si tienes un Smart\
-  \ TV, es probable que ya tenga la aplicación de YouTube preinstalada.\n   - Simplemente\
-  \ abre la aplicación, inicia sesión con tu cuenta de Google y comienza a ver videos.\n\
-  \n### 2. **Usar un dispositivo de transmisión**\n   - Si tu TV no es inteligente,\
-  \ puedes usar dispositivos como Chromecast, Roku, Apple TV o Amazon Fire Stick.\n\
-  \   - Conecta el dispositivo a tu TV, instala la aplicación de YouTube y sigue las\
-  \ instrucciones para iniciar sesión.\n\n### 3. **Conectar tu computadora o teléfono\
-  \ a la TV**\n   - **HDMI**: Conecta tu computadora o teléfono a la TV usando un\
-  \ cable HDMI.\n   - **Casting**: Usa la función de transmisión (casting) desde la\
-  \ aplicación de YouTube en tu teléfono o computadora para enviar el video a la TV.\n\
-  \n### 4. **Usar un consola de videojuegos**\n   - Consolas como PlayStation, Xbox\
-  \ o Nintendo Switch tienen aplicaciones de YouTube disponibles.\n   - Descarga la\
-  \ aplicación, inicia sesión y disfruta de YouTube en tu TV.\n\n### 5. **Usar un\
-  \ reproductor de DVD/Blu-ray**\n   - Algunos reproductores de DVD o Blu-ray modernos\
-  \ tienen aplicaciones integradas, incluida YouTube.\n   - Verifica si tu reproductor\
-  \ tiene esta opción y sigue las instrucciones para configurarla.\n\n¡Y eso es todo!\
-  \ Ahora puedes disfrutar de YouTube en la comodidad de tu sala."
+title: "Cómo ver YouTube en la TV"
 ---
 
 Aquí asumimos que sabemos cómo acceder a Internet de manera científica, entonces, ¿cómo ver YouTube en la televisión? Configurar el router puede ser un poco complicado. Aquí utilizamos una aplicación para facilitarlo.
