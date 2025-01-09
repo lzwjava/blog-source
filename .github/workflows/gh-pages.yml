@@ -17,6 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: github-pages
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -25,48 +26,49 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
-      
-      # (Optional) Authenticate with GCP if your pipeline needs to use
-      # google-cloud-texttospeech. Make sure to add your GCP credentials
-      # as a GitHub secret named "GCP_SA_KEY".
+
+      # --- (A) Authenticate with Google Cloud using your service account key ---
       - name: Authenticate with GCP
         uses: google-github-actions/auth@v1
         with:
           credentials_json: ${{ secrets.GCP_SA_KEY }}
 
+      # --- (B) Install Python Dependencies ---
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install python-frontmatter
-          # Add all required dependencies for audio-pipeline:
-          pip install google-cloud-texttospeech pydub markdown beautifulsoup4
+          pip install google-cloud-texttospeech pydub markdown beautifulsoup4 python-frontmatter
+          # Add any other dependencies your project needs here
 
+      # --- (C) Run your Audio Pipeline (e.g., "posts" task) ---
       - name: Run Audio Pipeline
-        env:
-          # Point to your service account key so google-cloud-texttospeech can authenticate
-          GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/gcp_sa_key.json
         run: |
-          # Optionally write the GCP_SA_KEY to a file if not handled automatically by google-github-actions/auth
-          echo "${{ secrets.GCP_SA_KEY }}" > gcp_sa_key.json
-          # Now run the pipeline
+          # Example: Generate audio from the last 10 posts
           python audio-pipeline.py --task posts --n 10
 
+      # --- (D) Generate Notes Links (from your existing script) ---
       - name: Generate Notes Links
         run: |
           python scripts/generate_notes_link.py
 
+      # --- (E) Setup Pages ---
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      # --- (F) Build with Jekyll ---
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
 
+      # --- (G) Upload the build artifact ---
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
 
+  # ---------------------------------------------------------------------------
+  # Deploy job
+  # ---------------------------------------------------------------------------
   deploy:
     environment:
       name: github-pages
