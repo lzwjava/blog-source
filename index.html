@@ -11,12 +11,15 @@ layout: page
     <option value="date-desc|all" selected>Date Descending - All</option>
     <option value="date-desc|en">Date Descending - English</option>
     <option value="date-desc|zh">日期降序 - 中文</option>
+    <option value="date-desc|ja">日付降順 - 日本語</option>
     <option value="date-asc|all">Date Ascending - All</option>
     <option value="date-asc|en">Date Ascending - English</option>
     <option value="date-asc|zh">日期升序 - 中文</option>
+    <option value="date-asc|ja">日付昇順 - 日本語</option>
     <option value="random|all">Random Order - All</option>
-     <option value="random|en">Random Order - English</option>
+    <option value="random|en">Random Order - English</option>
     <option value="random|zh">随机顺序 - 中文</option>
+    <option value="random|ja">ランダム順 - 日本語</option>
   </select>
 
 </div>
@@ -28,14 +31,19 @@ layout: page
       <li class="list-group-item post-item lang-en" data-top="{{ post.top }}">
     {% elsif post.path contains '_posts/zh/' %}
       <li class="list-group-item post-item lang-zh" data-top="{{ post.top }}">
+    {% elsif post.path contains '_posts/ja/' %}
+      <li class="list-group-item post-item lang-ja" data-top="{{ post.top }}">
+    {% elsif post.path contains '_posts/original/' %}
     {% else %}
       <li class="list-group-item post-item lang-all" data-top="{{ post.top }}">
     {% endif %}
+    {% if post.path contains '_posts/en/' or post.path contains '_posts/zh/' or post.path contains '_posts/ja/' or post.path contains '_posts/all/' %}
       <a href="{{ post.url }}">
         <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
         <span class="title">{{ post.title }}</span>
       </a>
     </li>
+    {% endif %}
   {% endfor %}
   {% else %}
   <li class="list-group-item post-item">No posts available. Please refresh the page to load the posts. There is a known
@@ -67,16 +75,24 @@ layout: page
 
       // Create postArray
       const postArray = filteredPosts.map(post => {
-        const dateStr = post.querySelector('.date').textContent.replace(/\./g, '-');
-          const filename = post.querySelector('a').getAttribute('href').split('/').pop();
+        const dateElement = post.querySelector('.date');
+        const dateStr = dateElement ? dateElement.textContent.replace(/\./g, '-') : null;
+        const filenameElement = post.querySelector('a');
+        const filename = filenameElement ? filenameElement.getAttribute('href').split('/').pop() : null;
+        const filenameWithoutExtension = filename ? filename.split('.')[0] : null;
+        const titleElement = post.querySelector('.title');
+        const title = titleElement ? titleElement.textContent.toLowerCase() : null;
+
+
         return {
           element: post,
-          date: new Date(dateStr),
-          title: post.querySelector('.title').textContent.toLowerCase(),
+          date: dateStr ? new Date(dateStr) : null,
+          title: title,
           top: parseInt(post.getAttribute('data-top'), 10),
-            filename: filename
+          filename: filenameWithoutExtension
         };
-      });
+      }).filter(post => post.date); // Filter out posts with no date
+
 
       // Sort posts
       const sortedPosts = sortPosts(postArray, sortOption);
@@ -102,13 +118,12 @@ layout: page
     }
 
     function sortPosts(posts, sortOption) {
-          const dateCompare = (a, b) => {
-              if (b.date - a.date !== 0) {
-                  return b.date - a.date;
-              }
-              // If dates are the same, sort by filename
-              return a.filename.localeCompare(b.filename);
-          };
+        const dateCompare = (a, b) => {
+            if (b.date - a.date !== 0) {
+                return b.date - a.date;
+            }
+            return a.filename.localeCompare(b.filename);
+        };
       switch (sortOption) {
         case 'date-desc':
           return posts.sort(dateCompare);
