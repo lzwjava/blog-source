@@ -28,11 +28,6 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install FFmpeg
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
-
       # --- (A) Authenticate with Google Cloud using your service account key ---
       - name: Authenticate with GCP
         uses: google-github-actions/auth@v1
@@ -46,13 +41,36 @@ jobs:
           pip install -r requirements.txt
           # Add any other dependencies your project needs here
 
-      # --- (C) Run your Audio Pipeline (e.g., "posts" task) ---
+      # --- (C) Dry run Audio Pipeline (e.g., "posts" task) ---
+      - name: Dry run Audio Pipeline
+        id: dry_run_audio
+        run: |
+          # Example: Dry run audio generation from the last 10 posts
+          python audio-pipeline.py --task posts --n 10 --dry_run
+          
+          # Check if any markdown files were found
+          if [[ $(python audio-pipeline.py --task posts --n 10 --dry_run | grep "Total Markdown files to process" | awk '{print $8}') -gt 0 ]]; then
+            echo "audio_updated=true" >> $GITHUB_OUTPUT
+          else
+            echo "audio_updated=false" >> $GITHUB_OUTPUT
+          fi
+      
+      # --- (C.1) Install FFmpeg if needed ---
+      - name: Install FFmpeg
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      # --- (C.2) Run Audio Pipeline (e.g., "posts" task) ---
       - name: Run Audio Pipeline
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
         run: |
           # Example: Generate audio from the last 10 posts
           python audio-pipeline.py --task posts --n 10
 
       - name: Clean Up Credentials
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
         run: |
           rm -f ./gha-creds-*.json
 
@@ -60,6 +78,7 @@ jobs:
       # You only need this step if you actually want to check the generated audio files 
       # into the repo. This uses your GITHUB_TOKEN to push directly to the current branch.
       - name: Commit generated audio files
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
