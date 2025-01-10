@@ -17,9 +17,8 @@ MAX_THREADS = 20
 
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
-def create_translation_prompt(target_language, title=False):
-    if title:
-        return f"You are a professional translator. Translate below title to {target_language}. Use title case."
+
+def create_translation_prompt(target_language):
     if target_language == 'ja':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Japanese. Do not translate English names. Be careful about code blocks."
     elif target_language == 'es':
@@ -36,7 +35,7 @@ def create_translation_prompt(target_language, title=False):
         return f"You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to {target_language}. Do not translate English names. Be careful about code blocks."
 
 
-def translate_text(text, target_language, title=False):
+def translate_text(text, target_language):
     if not text or not text.strip():
         return ""
     print(f"  Translating text: {text[:50]}...")
@@ -44,7 +43,7 @@ def translate_text(text, target_language, title=False):
         response = client.chat.completions.create(
             model=MODEL_NAME,
             messages=[
-                {"role": "system", "content": create_translation_prompt(target_language, title)},
+                {"role": "system", "content": create_translation_prompt(target_language)},
                 {"role": "user", "content": text}
             ],
             stream=False
@@ -71,7 +70,7 @@ def translate_front_matter(front_matter, target_language, input_file):
             print(f"  Front matter after safe_load: {front_matter_dict}")
         if 'title' in front_matter_dict:
             print(f"  Translating title: {front_matter_dict['title']}")
-            translated_title = translate_text(front_matter_dict['title'], target_language, title=True)
+            translated_title = translate_text(front_matter_dict['title'], target_language)
             if translated_title:
                 front_matter_dict['title'] = translated_title.strip()
                 print(f"  Translated title to: {translated_title}")
