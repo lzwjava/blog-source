@@ -27,8 +27,8 @@ def create_translation_prompt(target_language):
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Hindi. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
     elif target_language == 'fr':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to French. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
-    elif target_language == 'zh':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Chinese. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+    elif target_language == "zh":
+        return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Do not translate English names or code blocks. Be careful about code blocks, if not sure, just do not change."""
     elif target_language == 'en':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to English. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
     else:
@@ -197,6 +197,25 @@ def main():
         futures = []
         for filename in changed_files:
             input_file = filename
+            
+            # Check if the file was deleted
+            diff_result = subprocess.run(['git', 'diff', 'HEAD~1', 'HEAD', '--', input_file], capture_output=True, text=True)
+            if not diff_result.stdout.strip() and "deleted file" in diff_result.stderr:
+                print(f"File {input_file} was deleted. Removing translated files.")
+                for lang in languages:
+                    output_dir = f"_posts/{lang}"
+                    if lang == 'hi':
+                        output_dir = "_posts/hi"
+                    if lang == 'zh':
+                        output_dir = "_posts/zh"
+                    output_filename = os.path.basename(filename).replace(".md", f"-{lang}.md")
+                    if filename.endswith("-en.md") or filename.endswith("-zh.md"):
+                        output_filename = os.path.basename(filename).replace("-en.md", f"-{lang}.md").replace("-zh.md", f"-{lang}.md")
+                    output_file = os.path.join(output_dir, output_filename)
+                    if os.path.exists(output_file):
+                        os.remove(output_file)
+                        print(f"  Removed {output_file}")
+                continue
             
             with open(input_file, 'r', encoding='utf-8') as infile:
                 content = infile.read()
