@@ -87,7 +87,11 @@ layout: default
       {% include theme-icons.html %}
     </button>
 
-    <a href="/pages/donate-en" class="button right-button">Donate</a>
+    {% assign donate_url = "/donate-en" %}
+    {% if page.lang %}
+      {% assign donate_url = "/donate-" | append: page.lang %}
+    {% endif %}
+    <a href="{{ donate_url }}" class="button right-button">Donate</a>
   </div>
 </main>
 
