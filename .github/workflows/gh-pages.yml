@@ -78,6 +78,7 @@ jobs:
       # --- (E) Update language files ---
       - name: Update language files
         run: |
+          export OPENAI_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}
           python scripts/update_lang.py
       
       # --- (F) Commit language files if changed ---
