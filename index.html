@@ -138,6 +138,18 @@ layout: page
         // 4. Sort by date descending
         processedPosts.sort((a, b) => b.date - a.date);
       } 
+       else if (sortOption === 'author-picks') {
+          // For "Picks", filter posts with 'data-top' > 0
+          processedPosts = Array.from(posts).filter(post => {
+              const topValue = parseInt(post.dataset.top || 0, 10);
+              return topValue > 0;
+          }).map(post => {
+              return {
+                  element: post,
+                  // we don't need to sort by top, just filter
+              };
+          });
+      }
       else {
         // All other sort options remain as-is (example logic below).
 
