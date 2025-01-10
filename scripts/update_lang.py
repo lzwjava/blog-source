@@ -148,7 +148,7 @@ def translate_markdown_file(input_file, output_file, target_language, changed_pa
 def get_changed_files():
     try:
         # Get the list of files changed in the last commit
-        result = subprocess.run(['git', 'log', '-1', '--name-only', '--pretty=format:'], capture_output=True, text=True, check=True)
+        result = subprocess.run(['git', 'diff', '--name-only', 'HEAD~1', 'HEAD'], capture_output=True, text=True, check=True)
         changed_files = result.stdout.strip().split('\n')
         return [f for f in changed_files if f.startswith(f'{INPUT_DIR}/') and f.endswith('.md')]
     except subprocess.CalledProcessError as e:
@@ -200,41 +200,44 @@ def main():
         return
 
     parser = argparse.ArgumentParser(description="Translate markdown files to a specified language.")
-    parser.add_argument("--lang", type=str, default="ja", help="Target language for translation (e.g., ja, es).")
+    parser.add_argument("--lang", type=str, default="all", help="Target language for translation (e.g., ja, es, all).")
     args = parser.parse_args()
     target_language = args.lang
     
-    output_dir = f"_posts/{target_language}"
-    if target_language == 'hi':
-        output_dir = "_posts/hi"
-    os.makedirs(output_dir, exist_ok=True)
-    print(f"Created directory {output_dir}")
+    languages = ['ja', 'es', 'hi', 'zh'] if target_language == 'all' else [target_language]
 
-    changed_files = get_changed_files()
-    
-    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-        futures = []
-        for filename in changed_files:
-            input_file = filename
-            output_filename = os.path.basename(filename).replace(".md", f"-{target_language}.md")
-            
-            # Check if the original file is named with "-en.md" or "-zh.md"
-            if filename.endswith("-en.md") or filename.endswith("-zh.md"):
-                output_filename = os.path.basename(filename).replace("-en.md", f"-{target_language}.md").replace("-zh.md", f"-{target_language}.md")
-            
-            output_file = os.path.join(output_dir, output_filename)
-            
-            changed_paragraphs = get_changed_paragraphs(input_file, output_file)
-            
-            print(f"Submitting translation job for {filename}...")
-            future = executor.submit(translate_markdown_file, input_file, output_file, target_language, changed_paragraphs)
-            futures.append(future)
+    for lang in languages:
+        output_dir = f"_posts/{lang}"
+        if lang == 'hi':
+            output_dir = "_posts/hi"
+        os.makedirs(output_dir, exist_ok=True)
+        print(f"Created directory {output_dir}")
+
+        changed_files = get_changed_files()
         
-        for future in concurrent.futures.as_completed(futures):
-            try:
-                future.result()
-            except Exception as e:
-                print(f"A thread failed: {e}")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+            futures = []
+            for filename in changed_files:
+                input_file = filename
+                output_filename = os.path.basename(filename).replace(".md", f"-{lang}.md")
+                
+                # Check if the original file is named with "-en.md" or "-zh.md"
+                if filename.endswith("-en.md") or filename.endswith("-zh.md"):
+                    output_filename = os.path.basename(filename).replace("-en.md", f"-{lang}.md").replace("-zh.md", f"-{lang}.md")
+                
+                output_file = os.path.join(output_dir, output_filename)
+                
+                changed_paragraphs = get_changed_paragraphs(input_file, output_file)
+                
+                print(f"Submitting translation job for {filename} to {lang}...")
+                future = executor.submit(translate_markdown_file, input_file, output_file, lang, changed_paragraphs)
+                futures.append(future)
+            
+            for future in concurrent.futures.as_completed(futures):
+                try:
+                    future.result()
+                except Exception as e:
+                    print(f"A thread failed: {e}")
 
 
 if __name__ == "__main__":

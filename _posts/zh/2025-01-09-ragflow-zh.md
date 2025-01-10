@@ -1,6 +1,6 @@
 ---
 audio: true
-lang: en
+lang: zh
 layout: post
 title: 尝试 RAGFlow
 ---
@@ -18,4 +18,3 @@ https://ragflow.io
 *来源: [https://ragflow.io/](https://ragflow.io/)*{: .caption }
 
 尝试过了，效果非常好。
-
