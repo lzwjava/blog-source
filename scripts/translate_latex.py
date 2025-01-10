@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 import yaml
 import concurrent.futures
+import shutil
 
 load_dotenv()
 
@@ -13,22 +14,16 @@ DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 MODEL_NAME = "deepseek-chat"
 INPUT_DIR = "."
 MAX_THREADS = 3
+TARGET_LANGUAGE = "zh"
 
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 
 def create_translation_prompt(target_language):
-    if target_language == 'ja':
-        return "You are a professional translator. You are translating a LaTeX file. Translate the following text to Japanese. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
-    elif target_language == 'es':
-        return "You are a professional translator. You are translating a LaTeX file. Translate the following text to Spanish. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
-    elif target_language == 'hi':
-        return "You are a professional translator. You are translating a LaTeX file. Translate the following text to Hindi. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
-    elif target_language == 'fr':
-         return "You are a professional translator. You are translating a LaTeX file. Translate the following text to French. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
+    if target_language == "zh":
+        return f"""You are a professional translator. You are translating a LaTeX file from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."""
     else:
-        return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to {target_language}. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
-
+        return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to {target_language}. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
 
 def translate_text(text, target_language):
     print(f"  Translating text: {text[:50]}...")
@@ -75,21 +70,64 @@ def main():
         print("Error: DEEPSEEK_API_KEY is not set in .env file.")
         return
 
-    parser = argparse.ArgumentParser(description="Translate LaTeX files to a specified language.")
-    parser.add_argument("--lang", type=str, default="ja", help="Target language for translation (e.g., ja, es).")
-    parser.add_argument("--input_dir", type=str, default=".", help="Input directory containing LaTeX files.")
+    parser = argparse.ArgumentParser(description="Translate LaTeX files.")
+    parser.add_argument("--file", type=str, help="Path to the LaTeX file to translate.")
     args = parser.parse_args()
-    target_language = args.lang
-    input_dir = args.input_dir
+
+    if args.file:
+        if not os.path.exists(args.file):
+            print(f"Error: File not found: {args.file}")
+            return
+        
+        filename = args.file
+        output_dir = os.path.dirname(filename)
+        output_filename = os.path.basename(filename)
+        
+        base_name = os.path.basename(filename).replace('.tex', '')
+        
+        if "resume/en" in filename:
+            output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), "zh")
+            output_filename = os.path.basename(filename)
+        elif "coverletter/coverletter" in filename:
+            output_dir = os.path.join(os.path.dirname(filename))
+            output_filename = "coverletter-zh.tex"
+        elif "introduction/introduction" in filename:
+            output_dir = os.path.join(os.path.dirname(filename))
+            output_filename = "introduction-zh.tex"
+        
+        os.makedirs(output_dir, exist_ok=True)
+        output_file = os.path.join(output_dir, output_filename)
+        
+        print(f"Submitting translation job for {filename}...")
+        translate_latex_file(filename, output_file, TARGET_LANGUAGE)
+        
+        # Copy profile picture
+        if "resume/en" in filename:
+            src_profile = os.path.join("awesome-cv", "profile")
+            dest_profile = os.path.join("awesome-cv", "resume", "zh", "profile")
+            if os.path.exists(src_profile):
+                shutil.copy(src_profile, dest_profile)
+                print(f"Copied profile picture to {dest_profile}")
+            else:
+                print(f"Profile picture not found at {src_profile}")
+        return
+    
+    input_dir = "."
             
     files_to_translate = []
     for root, _, files in os.walk(input_dir):
+        if "_site" in root:
+            continue
         for file in files:
-            if file.endswith(".tex"):
+            if file.endswith(".tex") and (
+                "resume/en" in os.path.join(root, file) or
+                "coverletter/coverletter.tex" in os.path.join(root, file) or
+                "introduction/introduction.tex" in os.path.join(root, file)
+            ):
                 files_to_translate.append(os.path.join(root, file))
     
     if not files_to_translate:
-        print(f"No .tex files found in {input_dir}")
+        print(f"No .tex files found in specified locations in {input_dir}")
         return
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
@@ -97,15 +135,25 @@ def main():
         for filename in files_to_translate:
             if os.path.exists(filename):
                 output_dir = os.path.dirname(filename)
-                output_filename = os.path.basename(filename).replace(".tex", f"-{target_language}.tex")
+                output_filename = os.path.basename(filename)
                 
                 base_name = os.path.basename(filename).replace('.tex', '')
-                output_dir = os.path.join(output_dir, f"{base_name}-{target_language}")
+                
+                if "resume/en" in filename:
+                    output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), "zh")
+                    output_filename = os.path.basename(filename)
+                elif "coverletter/coverletter" in filename:
+                    output_dir = os.path.join(os.path.dirname(filename))
+                    output_filename = "coverletter-zh.tex"
+                elif "introduction/introduction" in filename:
+                    output_dir = os.path.join(os.path.dirname(filename))
+                    output_filename = "introduction-zh.tex"
+                
                 os.makedirs(output_dir, exist_ok=True)
                 output_file = os.path.join(output_dir, output_filename)
                 
                 print(f"Submitting translation job for {filename}...")
-                future = executor.submit(translate_latex_file, filename, output_file, target_language)
+                future = executor.submit(translate_latex_file, filename, output_file, TARGET_LANGUAGE)
                 futures.append(future)
             else:
                 print(f"Skipping {filename} because it does not exist.")
@@ -115,6 +163,15 @@ def main():
                 future.result()
             except Exception as e:
                 print(f"A thread failed: {e}")
+    
+    # Copy profile picture
+    src_profile = os.path.join("awesome-cv", "profile")
+    dest_profile = os.path.join("awesome-cv", "resume", "zh", "profile")
+    if os.path.exists(src_profile):
+        shutil.copy(src_profile, dest_profile)
+        print(f"Copied profile picture to {dest_profile}")
+    else:
+        print(f"Profile picture not found at {src_profile}")
 
 
 if __name__ == "__main__":
