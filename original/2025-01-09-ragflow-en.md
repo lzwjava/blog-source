@@ -17,4 +17,4 @@ https://ragflow.io
 ![](assets/images/rag/r2.jpg){: .responsive}
 *Source: [https://ragflow.io/](https://ragflow.io/)*{: .caption }
 
-Tried it. Works very well.
+I tested it, and it performed very well.
