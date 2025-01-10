@@ -28,22 +28,12 @@ layout: default
       {% assign base_name = base_name | slice: 0, length_to_slice %}
     {% endif %}
     <select id="languageSelect" class="button right-button">
-        <option value="" disabled selected>Language</option>
-        {% if current_lang != "en" %}
-        <option value="/{{ base_name }}-en">English</option>
-        {% endif %}
-        {% if current_lang != "zh" %}
-        <option value="/{{ base_name }}-zh">中文</option>
-        {% endif %}
-        {% if current_lang != "ja" %}
-        <option value="/{{ base_name }}-ja">日本語</option>
-        {% endif %}
-        {% if current_lang != "es" %}
-        <option value="/{{ base_name }}-es">Español</option>
-        {% endif %}
-        {% if current_lang != "hi" %}
-        <option value="/{{ base_name }}-hi">हिंदी</option>
-        {% endif %}
+        
+        <option value="/{{ base_name }}-en" {% if current_lang == "en" %}selected{% endif %}>English</option>
+        <option value="/{{ base_name }}-zh" {% if current_lang == "zh" %}selected{% endif %}>中文</option>
+        <option value="/{{ base_name }}-ja" {% if current_lang == "ja" %}selected{% endif %}>日本語</option>
+        <option value="/{{ base_name }}-es" {% if current_lang == "es" %}selected{% endif %}>Español</option>
+        <option value="/{{ base_name }}-hi" {% if current_lang == "hi" %}selected{% endif %}>हिंदी</option>
     </select>
   </div>
 
