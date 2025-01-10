@@ -8,9 +8,7 @@ translated: true
 
 [https://ragflow.io](https://ragflow.io)
 
-"resume-en.txt" は解析が許可されていません。基本的に、"-" を含むファイル名は受け入れられません。"resume.txt" に名前を変更する必要があります。
-
-私はこの製品をテストし、非常に良い性能を発揮しました。
+"resume-en.txt" は解析が許可されていません。基本的に、ファイル名に "-" が含まれているものは受け入れられません。"resume.txt" に名前を変更する必要があります。製品をテストしたところ、非常に良好なパフォーマンスを示しました。
 
 {: .centered }
 ![](assets/images/rag/r1.jpg)
