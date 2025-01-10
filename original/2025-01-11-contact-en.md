@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Contact"
-link: "pages/contact-zh"
+title: Contact
 audio: true
 ---
 

@@ -1,8 +1,7 @@
 ---
-layout: post  
-title: "Subscribe"  
-link: "pages/subscribe-zh"  
-audio: true  
+layout: post
+title: Subscribe
+audio: true
 ---
 
 Stay updated with my latest blog posts by subscribing via RSS feed or following me on X (Twitter).  
