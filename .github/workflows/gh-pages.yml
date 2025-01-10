@@ -6,7 +6,6 @@ on:
   workflow_dispatch:
 
 permissions:
-  # Change 'read' to 'write' to allow pushing commits
   contents: write
   pages: write
   id-token: write
@@ -28,74 +27,58 @@ jobs:
         with:
           python-version: "3.x"
 
-      # --- (A) Authenticate with Google Cloud using your service account key ---
       - name: Authenticate with GCP
         uses: google-github-actions/auth@v1
         with:
           credentials_json: ${{ secrets.GCP_SA_KEY }}
 
-      # --- (B) Install Python Dependencies ---
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          # Add any other dependencies your project needs here
 
-      # --- (C) Dry run Audio Pipeline (e.g., "posts" task) ---
       - name: Dry run Audio Pipeline
         id: dry_run_audio
         run: |
-          # Example: Dry run audio generation from the last 10 posts
           python audio-pipeline.py --task posts --n 10 --dry_run
           
-          # Check if any markdown files were found
           if [[ $(python audio-pipeline.py --task posts --n 10 --dry_run | grep "Total Markdown files to process" | awk '{print $8}') -gt 0 ]]; then
             echo "audio_updated=true" >> $GITHUB_OUTPUT
           else
             echo "audio_updated=false" >> $GITHUB_OUTPUT
           fi
       
-      # --- (C.1) Install FFmpeg if needed ---
       - name: Install FFmpeg
         if: steps.dry_run_audio.outputs.audio_updated == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
-      # --- (C.2) Run Audio Pipeline (e.g., "posts" task) ---
       - name: Run Audio Pipeline
         if: steps.dry_run_audio.outputs.audio_updated == 'true'
         run: |
-          # Example: Generate audio from the last 10 posts
           python audio-pipeline.py --task posts --n 10
 
-      # --- (COMMIT AUDIO FILES) ---
-      # You only need this step if you actually want to check the generated audio files 
-      # into the repo. This uses your GITHUB_TOKEN to push directly to the current branch.
       - name: Commit generated audio files
         if: steps.dry_run_audio.outputs.audio_updated == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Adjust the path as needed. Here, we commit *all* changes in the repo:
           git add .
           git diff --cached --quiet || git commit -m "Add generated audio files"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # --- (D) Generate Notes Links (from your existing script) ---
       - name: Generate Notes Links
         run: |
           python scripts/generate_notes_link.py
       
-      # --- (E) Update language files ---
       - name: Update language files
         run: |
           export DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}
           python scripts/update_lang.py
       
-      # --- (F) Commit language files if changed ---
       - name: Commit language files
         run: |
           git config user.name "github-actions[bot]"
@@ -110,24 +93,18 @@ jobs:
         run: |
           rm -f ./gha-creds-*.json          
 
-      # --- (G) Setup Pages ---
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # --- (H) Build with Jekyll ---
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
 
-      # --- (I) Upload the build artifact ---
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
 
-  # ---------------------------------------------------------------------------
-  # Deploy job
-  # ---------------------------------------------------------------------------
   deploy:
     environment:
       name: github-pages
