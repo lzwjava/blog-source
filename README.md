@@ -2,24 +2,25 @@
 
 Welcome to my personal blog! Here, I share my thoughts, experiences, and knowledge on various topics.
 
-## improvements
+## Key Improvements
 
-Main improvements from the Jekyll blog using the jekyll-theme-cayman:
+This blog incorporates several enhancements compared to a standard Jekyll blog using the jekyll-theme-cayman:
 
-* Translation with Large Language Models: Utilize advanced language models to provide accurate and contextually relevant translations, making the content accessible to a global audience.
-* PDF Generation with XeLaTeX: Integrate XeLaTeX to generate high-quality, professionally formatted PDFs, ideal for printing and offline reading.
-* Audio Generation with Google Cloud Text-to-Speech: Leverage Google Cloud's Text-to-Speech service to create audio versions of posts, enhancing accessibility for visually impaired users and those who prefer listening to content.
-* Custom CSS Styling: Redefine and enhance the blog's CSS to create a visually appealing and user-friendly design, ensuring a pleasant reading experience.
-* MathJax Support: Implement MathJax to render complex mathematical expressions and equations beautifully, making technical content more accessible and easier to understand.
-* Night Mode: Introduce a night mode feature to reduce eye strain and improve readability in low-light environments, providing a more comfortable experience for late-night readers.
-* Post Selection Options: Offer various selection options for posts, such as filtering by category or tag, to enhance navigation and help users find content that interests them.
-* Regular Library Updates: Keep the blog's library and dependencies up-to-date with the latest features, security patches, and improvements to ensure optimal performance and functionality.
-* CV Generation with awesome-cv: Use the awesome-cv tool to create professional and visually appealing CVs directly from the blog, making it easy to showcase skills and experience.
-* RSS Feed Support with feed.xml: Implement feed.xml to provide RSS feeds, allowing users to subscribe to the blog and stay updated with the latest content through their preferred feed reader.
-* Bilingual Support: Offer content in both Chinese and English to cater to a diverse audience, fostering inclusivity and broadening the blog's reach.
+*   **AI-Powered Translation:** Leverages advanced language models for accurate and contextually relevant translations, expanding content accessibility to a global audience.
+*   **XeLaTeX PDF Generation:** Integrates XeLaTeX to produce high-quality, print-ready PDFs for offline reading and sharing.
+*   **Google Cloud Text-to-Speech:** Utilizes Google Cloud's Text-to-Speech service to generate audio versions of posts, improving accessibility for visually impaired users and those who prefer audio content.
+*   **Enhanced CSS Styling:** Features a refined and custom CSS design for a visually appealing and user-friendly experience.
+*   **MathJax Support:** Implements MathJax for rendering complex mathematical expressions and equations, making technical content more accessible.
+*   **Night Mode:** Includes a night mode option to reduce eye strain and improve readability in low-light conditions.
+*   **Flexible Post Selection:** Offers various post selection options, such as filtering by category or tag, to enhance navigation.
+*   **Regular Updates:** Ensures the blog's library and dependencies are up-to-date for optimal performance and security.
+*   **`awesome-cv` Integration:** Uses `awesome-cv` to generate professional CVs directly from the blog.
+*   **RSS Feed Support:** Provides RSS feeds via `feed.xml`, allowing users to subscribe to the blog.
+*   **Bilingual Content:** Supports both Chinese and English content to cater to a diverse audience.
 
+## Getting Started
 
-### Getting started
+To set up a local Jekyll environment, follow these steps:
 
 ```shell
 gem install jekyll bundler
@@ -39,7 +40,9 @@ bundle add webrick
 jekyll serve
 ```
 
-Markdown style:
+## Markdown Styling
+
+To customize syntax highlighting, use `rougify`:
 
 ```shell
 rougify help style
@@ -51,7 +54,9 @@ rougify style gruvbox.dark > _sass/syntax.css
 rougify style base16.monokai.dark > _sass/syntax.css
 ```
 
-Audio and PDF pipeline:
+## Audio and PDF Pipelines
+
+To generate audio and PDF files, use the following commands:
 
 ```bash
 conda activate google-cloud-env
@@ -69,22 +74,23 @@ python pdf-pipeline.py --task posts --n 10
 python pdf-pipeline.py --task notes
 ```
 
-Scripts:
+## Scripts
+
+To create a new draft post, use:
 
 ```
 python scripts/draft.py <name>
 ```
 
-Updated guide:
+## Content Guide
 
-- `-en`: English posts
-- `-zh`: Chinese posts
+*   `-en`: Denotes English posts.
+*   `-zh`: Denotes Chinese posts.
 
-`_posts` and `pages` support both `-en` and `-zh`.
+The `_posts` and `pages` directories support both `-en` and `-zh` suffixes.
 
-`Notes` directory do not need to provide both Chinese and English articles; prefer to keep them in English, as they are mainly for self-learning.
+The `notes` directory primarily contains English content for personal learning purposes and does not require translations.
 
-Reference:
+## Reference
 
-https://mcpride.github.io/posts/development/2018/03/06/syntax-highlighting-with-jekyll/
-
+[Syntax Highlighting with Jekyll](https://mcpride.github.io/posts/development/2018/03/06/syntax-highlighting-with-jekyll/)
