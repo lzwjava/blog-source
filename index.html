@@ -158,15 +158,26 @@ layout: page
           const dateStr = dateElement
             ? dateElement.textContent.trim().replace(/\./g, '-')
             : null;
+          const aElement = post.querySelector('a');
+          const href = aElement ? aElement.getAttribute('href') : '';
+          const fileName = href ? href.split('/').pop() : '';
+
 
           return {
             element: post,
-            date: dateStr ? new Date(dateStr) : null
+            date: dateStr ? new Date(dateStr) : null,
+            fileName: fileName
           };
         }).filter(item => item.date);
 
-        // Sort the posts in descending date
-        postArray.sort((a, b) => b.date - a.date);
+        // Sort the posts in descending date, then by filename
+        postArray.sort((a, b) => {
+            const dateComparison = b.date - a.date;
+            if (dateComparison !== 0) {
+                return dateComparison;
+            }
+            return a.fileName.localeCompare(b.fileName);
+        });
         processedPosts = postArray;
       }
 
