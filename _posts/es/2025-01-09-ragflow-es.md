@@ -6,11 +6,11 @@ title: Probando RAGFlow
 translated: true
 ---
 
-https://ragflow.io
+[https://ragflow.io](https://ragflow.io)
 
-No se permite analizar "resume-en.txt". Básicamente, el nombre de archivo que contiene "-" no es aceptable. Debe renombrarse a "resume.txt".
+No se permite analizar "resume-en.txt". Básicamente, los nombres de archivo que contienen "-" no son aceptables. Es necesario renombrarlo a "resume.txt".
 
-Lo probé y funcionó muy bien.
+Probé el producto y funcionó muy bien.
 
 {: .centered }
 ![](assets/images/rag/r1.jpg)

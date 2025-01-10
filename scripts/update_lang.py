@@ -163,7 +163,7 @@ def main():
     target_language = args.lang
     dry_run = args.dry_run
     
-    languages = ['ja', 'es', 'hi', 'zh'] if target_language == 'all' else [target_language]
+    languages = ['ja', 'es', 'hi', 'zh', 'en'] if target_language == 'all' else [target_language]
 
     total_files_to_process = 0
     
