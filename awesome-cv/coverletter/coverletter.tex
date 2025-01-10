@@ -16,6 +16,19 @@
 % Set section highlight
 \setbool{acvSectionColorHighlight}{true}
 
+% Enable Chinese support
+\usepackage{fontspec} 	% 允許設定字體
+\usepackage{xeCJK} 		% 分開設置中英文字型
+\setCJKmainfont{PingFang SC} 	% 設定中文字型
+\setCJKsansfont{PingFang SC} % Sans-serif font
+\setCJKmonofont{PingFang SC} % Monospace font
+\setmainfont{Times New Roman}
+\setromanfont{Times New Roman}
+\setmonofont{Times New Roman}
+\XeTeXlinebreaklocale "zh" 	% 針對中文自動換行
+
+\linespread{1.2}\selectfont 	
+
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %-------------------------------------------------------------------------------
