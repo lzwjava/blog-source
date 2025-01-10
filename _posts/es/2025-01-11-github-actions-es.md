@@ -2,7 +2,7 @@
 audio: true
 lang: es
 layout: post
-title: GitHub Actions
+title: Tiempo Máximo de Ejecución de un Trabajo en GitHub Actions
 translated: true
 ---
 
