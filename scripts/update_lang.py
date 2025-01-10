@@ -27,6 +27,10 @@ def create_translation_prompt(target_language):
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Hindi. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
     elif target_language == 'fr':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to French. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+    elif target_language == 'zh':
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Chinese. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+    elif target_language == 'en':
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to English. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
     else:
         return f"You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to {target_language}. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
 
@@ -210,6 +214,8 @@ def main():
                 output_dir = f"_posts/{lang}"
                 if lang == 'hi':
                     output_dir = "_posts/hi"
+                if lang == 'zh':
+                    output_dir = "_posts/zh"
                 os.makedirs(output_dir, exist_ok=True)
                 
                 output_filename = os.path.basename(filename).replace(".md", f"-{lang}.md")
