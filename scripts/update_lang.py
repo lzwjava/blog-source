@@ -36,6 +36,8 @@ def create_translation_prompt(target_language):
 
 
 def translate_text(text, target_language):
+    if not text or not text.strip():
+        return ""
     print(f"  Translating text: {text[:50]}...")
     try:
         response = client.chat.completions.create(
@@ -69,7 +71,7 @@ def translate_front_matter(front_matter, target_language, input_file):
             print(f"  Translating title: {front_matter_dict['title']}")
             translated_title = translate_text(front_matter_dict['title'], target_language)
             if translated_title:
-                front_matter_dict['title'] = translated_title
+                front_matter_dict['title'] = translated_title.strip()
                 print(f"  Translated title to: {translated_title}")
             else:
                 print(f"  Title translation failed for: {input_file}")
@@ -109,8 +111,7 @@ def translate_markdown_file(input_file, output_file, target_language, changed_pa
         content_without_front_matter = content[len(front_matter_match.group(0)):] if front_matter_match else content
         
         if not dry_run:
-            translated_front_matter = translate_front_matter(front_matter, target_language, input_file)
-            
+            translated_front_matter = translate_front_matter(front_matter, target_language, input_file)            
             
             translated_content = translate_text(content_without_front_matter, target_language)
             if translated_content:
@@ -215,10 +216,6 @@ def main():
                 print(f"File {input_file} was deleted. Removing translated files.")
                 for lang in languages:
                     output_dir = f"_posts/{lang}"
-                    if lang == 'hi':
-                        output_dir = "_posts/hi"
-                    if lang == 'zh':
-                        output_dir = "_posts/zh"
                     output_filename = os.path.basename(filename).replace(".md", f"-{lang}.md")
                     if filename.endswith("-en.md") or filename.endswith("-zh.md"):
                         output_filename = os.path.basename(filename).replace("-en.md", f"-{lang}.md").replace("-zh.md", f"-{lang}.md")
@@ -242,10 +239,6 @@ def main():
             
             for lang in languages:
                 output_dir = f"_posts/{lang}"
-                if lang == 'hi':
-                    output_dir = "_posts/hi"
-                if lang == 'zh':
-                    output_dir = "_posts/zh"
                 os.makedirs(output_dir, exist_ok=True)
                 
                 output_filename = os.path.basename(filename).replace(".md", f"-{lang}.md")
