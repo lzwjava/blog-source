@@ -36,7 +36,7 @@ def create_translation_prompt(target_language):
 
 
 def translate_text(text, target_language):
-    print(f"  Translating text: {text}...")
+    print(f"  Translating text: {text[:50]}...")
     try:
         response = client.chat.completions.create(
             model=MODEL_NAME,
@@ -48,7 +48,6 @@ def translate_text(text, target_language):
         )
         if response and response.choices:
             translated_text = response.choices[0].message.content
-            print(f"  Translation successful. Translated text: {translated_text}...")
             return translated_text
         else:
             print(f"  Translation failed.")
@@ -58,16 +57,22 @@ def translate_text(text, target_language):
         return None
 
 def translate_front_matter(front_matter, target_language, input_file):
+    print(f"  Translating front matter for: {input_file}")
     if not front_matter:
+        print(f"  No front matter found for: {input_file}")
         return ""
     try:
         front_matter_dict = {}
         if front_matter:
             front_matter_dict = yaml.safe_load(front_matter)
         if 'title' in front_matter_dict:
+            print(f"  Translating title: {front_matter_dict['title']}")
             translated_title = translate_text(front_matter_dict['title'], target_language)
             if translated_title:
                 front_matter_dict['title'] = translated_title
+                print(f"  Translated title to: {translated_title}")
+            else:
+                print(f"  Title translation failed for: {input_file}")
         # Always set lang to target_language
         
         # Determine if the file is a translation
@@ -78,10 +83,15 @@ def translate_front_matter(front_matter, target_language, input_file):
         if target_language != original_lang:
             front_matter_dict['lang'] = target_language
             front_matter_dict['translated'] = True
+            print(f"  Marked as translated to {target_language} for: {input_file}")
         else:
             front_matter_dict['translated'] = False
+            print(f"  Not marked as translated for: {input_file}")
         
-        return "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
+        
+        result = "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
+        print(f"  Front matter translation complete for: {input_file}")
+        return result
     except yaml.YAMLError as e:
         print(f"  Error parsing front matter: {e}")
         return front_matter
