@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Monitor de Presión Arterial, Estetoscopio y Tabla de Agudeza Visual
+translated: true
 ---
 
 <div style="text-align: center;">

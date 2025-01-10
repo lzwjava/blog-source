@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: OpenClashとShadowsocksでOpenWRTを強化する
+translated: true
 ---
 
 ### パッケージリストの更新

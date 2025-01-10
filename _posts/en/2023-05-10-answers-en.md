@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: 'Yin Wang: The Ultimate Answer to Life, the Universe, and Everything'
+translated: false
 ---
 
 Forwarded from Weibo @不再关心人类de垠 (No Longer Concerned with Humanity by Yin).

@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: プログラミング
+translated: true
 ---
 
 * 競技プログラミングは、あなたのモチベーションを高める限り、やっても構いません。

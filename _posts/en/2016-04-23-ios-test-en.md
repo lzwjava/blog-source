@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Enhancing iOS Development with Automated Testing and Tools
+translated: true
 ---
 
 This blog post was organized with the assistance of ChatGPT-4o.

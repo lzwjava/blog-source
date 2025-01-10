@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: फल वितरण निबंध में संभावित खामियाँ
+translated: true
 ---
 
 ज़िवेई ली:

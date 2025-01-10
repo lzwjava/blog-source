@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: iOS में प्रति-ऐप सेटिंग्स, स्विच कंट्रोल, और AssistiveTouch
+translated: true
 ---
 
 ## प्रति-ऐप सेटिंग्स

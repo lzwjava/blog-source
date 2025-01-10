@@ -4,6 +4,7 @@ lang: ja
 layout: post
 title: 近視を自然に逆転させる旅
 top: 10
+translated: true
 ---
 
 近視を逆転させる3つの論文に加えて、この発見に至るまでのストーリーについてもっと共有したいと思います。

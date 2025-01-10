@@ -1,9 +1,10 @@
 ---
-audio: true  
-lang: en  
-layout: post  
+audio: true
+lang: en
+layout: post
 title: Cryptocurrency and Blockchain
 top: 10
+translated: false
 ---
 
 Cryptocurrency, like AI, is known to a large portion of the population. I believe the awareness of cryptocurrency is similar to the proportion of people who have access to free internet. In countries outside China, a larger percentage of the population is likely to know about cryptocurrency.

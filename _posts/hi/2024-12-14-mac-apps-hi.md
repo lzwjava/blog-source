@@ -1,7 +1,8 @@
 ---
 lang: hi
 layout: post
-title: 'मैंने उपयोग किए गए Mac ऐप्स'
+title: मैंने उपयोग किए गए Mac ऐप्स
+translated: true
 ---
 
 A:

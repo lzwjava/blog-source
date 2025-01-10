@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: 'चीन में UK SIM कार्ड: एक Giffgaff अनुभव'
+translated: true
 ---
 
 Giffgaff एक नई मोबाइल फोन SIM कार्ड सेवा प्रदान करता है। मैंने चीन में ऐसा कुछ भी अनुभव नहीं किया है। चीनी दूरसंचार प्रदाता - China Telecom, China Unicom, और China Communications - इसकी तुलना में पुराने जमाने के और नौकरशाही हैं। Giffgaff युवा, गतिशील और साफ-सुथरा है।

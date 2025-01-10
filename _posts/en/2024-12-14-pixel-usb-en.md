@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Pixel's USB Options
+translated: false
 ---
 
 <div style="text-align: center;">  

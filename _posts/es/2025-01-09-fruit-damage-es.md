@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Evitar Daños al Pedir Frutas
+translated: true
 ---
 
 Transportar frutas a largas distancias puede ser un desafío. Aquí hay algunos consejos sobre cómo evitar recibir frutas dañadas.

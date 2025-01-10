@@ -3,6 +3,7 @@ lang: hi
 layout: post
 title: iOS ऐप्स जो मैंने इस्तेमाल किए - टेक्स्ट वर्जन
 top: 10
+translated: true
 translation: false
 ---
 

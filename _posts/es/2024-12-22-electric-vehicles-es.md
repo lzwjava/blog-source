@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Vehículos Eléctricos
+translated: true
 ---
 
 ## Neta

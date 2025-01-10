@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: なぜAndroidデバイスは遅くなるのか
+translated: true
 ---
 
 *この投稿はChatGPTの助けを借りて書かれました。*

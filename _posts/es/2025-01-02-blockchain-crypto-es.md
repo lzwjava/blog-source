@@ -4,6 +4,7 @@ lang: es
 layout: post
 title: Criptomoneda y Blockchain
 top: 10
+translated: true
 ---
 
 La criptomoneda, al igual que la IA, es conocida por una gran parte de la población. Creo que el conocimiento sobre la criptomoneda es similar a la proporción de personas que tienen acceso a internet gratuito. En países fuera de China, es probable que un mayor porcentaje de la población esté al tanto de las criptomonedas.

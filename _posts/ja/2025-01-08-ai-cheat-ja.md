@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: AIの不正行為を心配するよりも判断力を重視する
+translated: false
 ---
 
 - AIによる不正行為は広まっており、完全に排除することはおそらく不可能です。

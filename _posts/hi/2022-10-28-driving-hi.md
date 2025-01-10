@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: ड्राइविंग करते समय सुनना
+translated: true
 ---
 
 *यह ब्लॉग पोस्ट ChatGPT द्वारा अनुवादित किया गया है।*

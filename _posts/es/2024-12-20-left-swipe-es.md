@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Deslizar a la Izquierda y Aplicaciones
+translated: true
 ---
 
 ## Deslizar hacia la Izquierda en Listas de iOS

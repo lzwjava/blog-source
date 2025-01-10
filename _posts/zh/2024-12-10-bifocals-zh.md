@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 双光眼镜
+translated: true
 ---
 
 双光眼镜有两种不同的光学度数：上部分和下部分。这两个部分的镜片通常在光学度数上有显著差异。

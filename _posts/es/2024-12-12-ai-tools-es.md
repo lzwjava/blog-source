@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Herramientas de IA
+translated: true
 ---
 
 Aquí tienes algunas herramientas de IA que he utilizado:

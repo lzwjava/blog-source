@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Entendiendo las Redes Neuronales
+translated: true
 ---
 
 Zhiwei:

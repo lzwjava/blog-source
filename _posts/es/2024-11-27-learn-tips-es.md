@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Consejos de Aprendizaje
+translated: true
 ---
 
 * Trata el aprendizaje como un pasatiempo, abordándolo con diversión y un interés genuino.

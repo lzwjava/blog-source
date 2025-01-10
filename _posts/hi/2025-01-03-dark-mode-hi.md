@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: वेबसाइट डार्क मोड कार्यान्वयन
+translated: true
 ---
 
 मेरे Jekyll ब्लॉग में डार्क मोड का कार्यान्वयन।

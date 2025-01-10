@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: いくつかのグローバルクラウドプラットフォーム
+translated: true
 ---
 
 <div align="center"><img src="/assets/images/cloud/platform.jpg" width="400px"/><img/></div>

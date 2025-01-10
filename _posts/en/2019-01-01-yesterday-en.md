@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: 2018 Is Already Yesterday
+translated: true
 ---
 
 *This blog post was translated by Mistral*

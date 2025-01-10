@@ -3,6 +3,7 @@ lang: ja
 layout: post
 title: 私が使用しているiOSアプリ - テキスト版
 top: 10
+translated: true
 translation: false
 ---
 

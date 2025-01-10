@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: यिन वांग के ब्लॉग पोस्ट का अंग्रेजी अनुवाद
+translated: true
 ---
 
 [yinwang.org](https://www.yinwang.org) से अनुवादित।

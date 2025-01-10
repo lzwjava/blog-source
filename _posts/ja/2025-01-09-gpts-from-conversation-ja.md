@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: ChatGPTは会話履歴からGPTを作成できるようにすべき
+translated: true
 ---
 
 会話リストには、「Create GPT」というラベルが付いたボタンを共有ボタンの近くに配置するべきです。この機能により、ユーザーは最近のチャット履歴に基づいてGPTを作成できるようになります。

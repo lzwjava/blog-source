@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: Zhiwei का परिचय
+translated: true
 ---
 
 आप मेरा परिचय, जो LaTeX के साथ बनाया गया है, का PDF संस्करण [यहाँ](/assets/resume/Zhiwei.Li.Introduction.EN.pdf) से अंग्रेजी संस्करण के लिए और [यहाँ](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf) से चीनी संस्करण के लिए डाउनलोड कर सकते हैं।

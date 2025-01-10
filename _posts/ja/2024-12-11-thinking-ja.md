@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: 思考
+translated: true
 ---
 
 * 物事を分類し、抽象化し、推論することで、あなたは思考します。

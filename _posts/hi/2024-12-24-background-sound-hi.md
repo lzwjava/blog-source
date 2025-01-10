@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: पृष्ठभूमि में ध्वनि होना पसंद करें
+translated: true
 ---
 
 * पसंद करें कि आप जो भी कर रहे हों, पृष्ठभूमि में ध्वनि हो।

@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: De la Red Neuronal al GPT
+translated: true
 ---
 
 ### Videos de YouTube

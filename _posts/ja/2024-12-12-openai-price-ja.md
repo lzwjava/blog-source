@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: なぜChatGPT Plusはトークン使用量に基づいて課金すべきなのか
+translated: true
 ---
 
 ChatGPT Plusは、固定の月額20ドルではなく、トークン使用量に基づく柔軟な料金モデルに移行すべきです。

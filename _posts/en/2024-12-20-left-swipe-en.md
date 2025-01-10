@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Left Swipe and Apps
+translated: false
 ---
 
 ## Left Swipe in iOS Lists

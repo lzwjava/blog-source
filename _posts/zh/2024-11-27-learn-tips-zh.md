@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 学习技巧
+translated: true
 ---
 
 * 把学习当作爱好，以玩乐和真诚的兴趣来对待。

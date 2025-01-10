@@ -1,8 +1,9 @@
 ---
-audio: true  
-lang: zh  
-layout: post  
+audio: true
+lang: zh
+layout: post
 title: 限制与边界情况
+translated: true
 ---
 
 * 思考限制和边界情况是理解某个事物的好方法。

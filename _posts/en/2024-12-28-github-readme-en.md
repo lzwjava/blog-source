@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: GitHub Readme Introduction
+translated: false
 ---
 
 | project | language | commits|project|language|commits|

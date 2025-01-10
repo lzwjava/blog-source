@@ -49,7 +49,8 @@
         background-image: url('/assets/images/magnet/magnet_dark.jpg');
     }
 
-    #sort-select {
+    #sort-select,
+    #languageSelect {
         background-color: $dark-main-bg-color;
         color: white;
         border-color: rgba(255, 255, 255, 0.2);

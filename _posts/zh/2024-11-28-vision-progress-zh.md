@@ -3,6 +3,7 @@ lang: zh
 layout: post
 title: 自然视力恢复进展
 top: 20
+translated: true
 ---
 
 最后更新：2024年11月28日

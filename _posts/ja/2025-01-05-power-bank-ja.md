@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: 充電式ポータブルバッテリーの充電忘れ
+translated: true
 ---
 
 モバイルバッテリーの充電をよく忘れてしまう問題に、ずっと悩まされてきました。

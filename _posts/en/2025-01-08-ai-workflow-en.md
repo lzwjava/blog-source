@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "New Platforms Powered by AI Workflows"
+layout: post
+title: New Platforms Powered by AI Workflows
+translated: false
 ---
 
 - Workflows are systems where large language models (LLMs) and tools are orchestrated through predefined code paths.[^1]

@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Money Spending Tips
+translated: false
 ---
 
 * Find free solutions first - open source software, free ebooks, papers, information etc.

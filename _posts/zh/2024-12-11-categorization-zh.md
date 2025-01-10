@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 分类
+translated: true
 ---
 
 * 一切都与分类有关。

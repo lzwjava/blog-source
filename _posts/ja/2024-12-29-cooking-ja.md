@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: 料理
+translated: true
 ---
 
 * 自分で料理するのは簡単です。油を使って炒めることで、水よりも沸点が高いため、食材をより効果的に加熱できます。

@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: 'Associate Degree: Progress and Reflection'
+translated: false
 ---
 
 Below is my assoiciate progress. 

@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: वर्गीकरण
+translated: true
 ---
 
 * सब कुछ वर्गीकरण के बारे में है।

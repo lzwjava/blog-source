@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Las suscripciones de precio fijo están obsoletas
+translated: true
 ---
 
 ### El caso de los precios flexibles en los servicios de suscripción

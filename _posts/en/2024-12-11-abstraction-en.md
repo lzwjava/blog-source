@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Abstraction
+translated: false
 ---
 
 * Everything is about abstraction.

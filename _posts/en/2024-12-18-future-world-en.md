@@ -4,6 +4,7 @@ lang: en
 layout: post
 title: Future
 top: 10
+translated: false
 ---
 
 * The dream of owning a house is over. Not only in China, but globally, only a few cities will be exceptions.

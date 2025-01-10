@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: मेरी प्रारंभिक डिजिटल यादें
+translated: true
 ---
 
 मेरा जन्म 1995 में हुआ था, उसी साल 14 जुलाई को Windows 95 रिलीज़ हुआ था।

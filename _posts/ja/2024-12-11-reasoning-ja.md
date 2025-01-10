@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 推論
+translated: true
 ---
 
 * すべては推論に関することです。

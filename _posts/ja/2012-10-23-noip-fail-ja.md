@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 专心高考，用学OI修成的学习能力虐高考
+translated: true
 ---
 
 ```c

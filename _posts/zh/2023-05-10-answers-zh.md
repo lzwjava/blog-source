@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 王垠：生命，宇宙和一切的终极答案
+translated: true
 ---
 
 转自 微博@不再关心人类de垠。

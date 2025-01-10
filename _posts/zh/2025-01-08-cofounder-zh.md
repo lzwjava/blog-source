@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "寻找合伙人的建议"
+layout: post
+title: 寻找合伙人的建议
+translated: false
 ---
 
 - 如果我要重新创业，我该如何找到我的联合创始人？

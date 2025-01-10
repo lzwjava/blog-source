@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: Java 后端工程师：面试题精选
+translated: true
 ---
 
 ## 项目相关

@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Side Projects
+translated: false
 ---
 
 ## Skybound: The Guangzhou to Lhasa Aerial Odyssey

@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: PixelのUSBオプション
+translated: true
 ---
 
 <div style="text-align: center;">  

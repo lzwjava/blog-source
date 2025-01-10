@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Use Three Phones
+translated: false
 ---
 
 - Use an iPhone as your primary phone, ideally the latest model, or at least one from the last 3 years.

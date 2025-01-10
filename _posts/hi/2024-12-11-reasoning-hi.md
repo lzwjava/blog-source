@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: तर्क
+translated: true
 ---
 
 * सब कुछ तर्क के बारे में है।

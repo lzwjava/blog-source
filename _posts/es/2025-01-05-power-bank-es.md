@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Olvido sobre la carga de Power Banks
+translated: true
 ---
 
 El problema de olvidar frecuentemente cargar los power banks me ha estado frustrando.

@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Categorization
+translated: false
 ---
 
 * Everything is about categorization.

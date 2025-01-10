@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 网站深色模式实现
+translated: true
 ---
 
 在我的 Jekyll 博客中实现深色模式。

@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 寻找手机和音乐
+translated: true
 ---
 
 ### 寻找手机

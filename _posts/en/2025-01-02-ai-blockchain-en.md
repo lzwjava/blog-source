@@ -4,6 +4,7 @@ lang: en
 layout: post
 title: How I Live Well in the AI and Blockchain Era
 top: 10
+translated: false
 ---
 
 Is it still useful to write blogs now that we have large language models (LLMs)? If LLMs contain the information you want to share and people use LLMs more, do we still need to provide our own information?

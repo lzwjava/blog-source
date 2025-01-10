@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Ganchos de Zsh
+translated: true
 ---
 
 Después de explorar "Let Zsh Display Proxy Settings Before Running Network Commands", profundicé en los hooks de Zsh con ChatGPT. Aquí tienes un resumen conciso para futuras referencias.

@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Límites y Casos Extremos
+translated: true
 ---
 
 * Pensar en límites y casos extremos es una buena manera de entender algo.

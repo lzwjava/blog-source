@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: Pixel 的 USB 选项
+translated: true
 ---
 
 <div style="text-align: center;">  

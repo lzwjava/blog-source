@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: スマートユニバーサル充電器ボックス
+translated: true
 ---
 
 ```xml

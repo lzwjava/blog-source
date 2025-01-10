@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: कंप्यूटर कैसे बनाएं
+translated: true
 ---
 
 ![कवर](assets/images/computer/cover.jpg)

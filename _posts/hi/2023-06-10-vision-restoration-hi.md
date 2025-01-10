@@ -3,6 +3,7 @@ lang: hi
 layout: post
 title: प्राकृतिक दृष्टि बहाली विधि का प्रायोगिक सत्यापन
 top: 30
+translated: true
 ---
 
 <div align="center"><img src="/assets/images/eyes/glasses.jpeg" width="400px" /></div>

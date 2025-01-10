@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: 'न्यूरल नेटवर्क कैसे काम करता '
+translated: true
 usemathjax: true
 ---
 

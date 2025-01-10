@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: mathjax2mobi：Convertir MathJax HTML a libros electrónicos
+translated: true
 ---
 
 ### Descripción del Proyecto

@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Uso Avanzado de Markdown
+translated: false
 ---
 
 ## Referencias

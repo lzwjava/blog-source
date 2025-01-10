@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: カテゴリ分類
+translated: true
 ---
 
 * すべてはカテゴリ化に関わることです。

@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Lidiando con Problemas de Carga en Mi Coche Eléctrico
+translated: true
 ---
 
 Cargué completamente mi auto en Zogang, que tiene un alcance de 400 km con una carga completa. Comencé mi viaje hacia Markam, una distancia de aproximadamente 160 km. En ese momento, el auto mostraba un alcance restante de alrededor de 250 km.

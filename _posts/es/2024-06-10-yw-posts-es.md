@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Traducción al español de las publicaciones del blog de Yin Wang
+translated: true
 ---
 
 Traducido desde [yinwang.org](https://www.yinwang.org).

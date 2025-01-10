@@ -2,7 +2,8 @@
 audio: true
 lang: es
 layout: post
-title: "V2ray"
+title: V2ray
+translated: true
 ---
 
 Este es un script de V2Ray que uso con frecuencia.

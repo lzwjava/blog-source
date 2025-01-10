@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Understanding Neural Network
+translated: false
 ---
 
 Zhiwei: 

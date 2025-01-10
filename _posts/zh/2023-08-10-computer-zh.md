@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 如何组装一台电脑
+translated: true
 ---
 
 ![cover](assets/images/computer/cover.jpg)

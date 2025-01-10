@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Algunas Plataformas Globales en la Nube
+translated: true
 ---
 
 <div align="center"><img src="/assets/images/cloud/platform.jpg" width="400px"/><img/></div>

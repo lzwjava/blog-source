@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: グローバル不動産アプリ
+translated: true
 ---
 
 中国:

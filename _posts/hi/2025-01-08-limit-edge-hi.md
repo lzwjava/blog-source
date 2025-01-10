@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: सीमाएँ और एज केस
+translated: true
 ---
 
 * किसी चीज़ को समझने के लिए सीमाओं और एज केस के बारे में सोचना एक अच्छा तरीका है।

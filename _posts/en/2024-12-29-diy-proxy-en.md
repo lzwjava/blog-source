@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Set Up Your Proxy Server
+translated: false
 ---
 
 * To set up a server, use Outline Manager: [https://getoutline.org](https://getoutline.org).  

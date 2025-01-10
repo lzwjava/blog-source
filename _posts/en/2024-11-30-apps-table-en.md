@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: iOS Apps I Used - Table Version
+translated: false
 translation: false
 ---
 

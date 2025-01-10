@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: フルーツを注文する際の損傷を防ぐ方法
+translated: true
 ---
 
 長距離での果物の輸送は難しいことがあります。以下は、壊れた果物を受け取らないためのポイントです。

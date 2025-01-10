@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: फोन खोज और संगीत
+translated: true
 ---
 
 ### फोन खोज

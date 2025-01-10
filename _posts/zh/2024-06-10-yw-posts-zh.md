@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 王垠博客文章英文翻译
+translated: true
 ---
 
 翻译自 [yinwang.org](https://www.yinwang.org)。

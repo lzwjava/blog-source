@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Consejos para Gastar Dinero
+translated: true
 ---
 
 * Busca soluciones gratuitas primero: software de código abierto, libros electrónicos gratuitos, artículos, información, etc.

@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: 私が選んだアプリの選択
+translated: true
 ---
 
 以前のエッセイで、私は次のように書きました：

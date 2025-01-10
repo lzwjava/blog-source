@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 抽象化
+translated: true
 ---
 
 * すべては抽象化に関するものです。

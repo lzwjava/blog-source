@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Entrepreneurship Insights Share
+translated: true
 ---
 
 *This blog post was translated by Mistral*

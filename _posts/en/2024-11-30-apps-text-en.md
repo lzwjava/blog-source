@@ -3,6 +3,7 @@ lang: en
 layout: post
 title: iOS Apps I Used - Text Version
 top: 10
+translated: false
 translation: false
 ---
 

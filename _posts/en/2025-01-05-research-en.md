@@ -4,6 +4,7 @@ lang: en
 layout: post
 title: The Journey of Reversing Myopia Naturally
 top: 10
+translated: false
 ---
 
 Besides three papers about reversing myopia, I want to share more about this discovery story.

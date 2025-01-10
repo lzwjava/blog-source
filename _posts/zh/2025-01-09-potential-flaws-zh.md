@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 水果运输文章的潜在缺陷
+translated: true
 ---
 
 Zhiwei Li:

@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 烹饪
+translated: true
 ---
 
 * 自己做饭很简单。用油炒菜更好，因为油的沸点比水高，可以更有效地加热食物。  

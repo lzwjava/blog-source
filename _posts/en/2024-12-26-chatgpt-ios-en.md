@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Analysis of ChatGPT iOS VPN Detection
+translated: false
 ---
 
 Today, I discovered that the ChatGPT iOS app now allows logging in with a VPN in China. Previously, it displayed a blocking prompt, like the one shown below.

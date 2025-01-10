@@ -3,6 +3,7 @@ lang: es
 layout: post
 title: Consejos Naturales para Restaurar la Visión
 top: 10
+translated: true
 ---
 
 * La razón por la que las personas empeoran su vista es que usan gafas con la graduación completa (que les permite ver una pizarra claramente a 5 metros) para mirar teléfonos, computadoras o libros la mayor parte del tiempo. Esto hace que sus globos oculares se deformen.

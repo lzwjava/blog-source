@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: お金の使い方のコツ
+translated: true
 ---
 
 * 最初に無料の解決策を見つける - オープンソースソフトウェア、無料の電子書籍、論文、情報など

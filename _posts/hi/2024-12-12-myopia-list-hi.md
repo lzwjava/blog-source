@@ -3,6 +3,7 @@ lang: hi
 layout: post
 title: मायोपिया को उलटना
 top: 50
+translated: true
 ---
 
 * [मायोपिया: एक आधुनिक लेकिन प्रतिवर्ती बीमारी, एम.एस. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF), टॉड बेकर

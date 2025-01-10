@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: ज़ेन और मशीन लर्निंग की कला
+translated: true
 usemathjax: true
 ---
 

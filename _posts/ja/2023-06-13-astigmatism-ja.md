@@ -3,6 +3,7 @@ lang: ja
 layout: post
 title: 近視回復における乱視
 top: 10
+translated: true
 ---
 
 ## 概要

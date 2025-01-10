@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Workflow 是 BFS，Agent 是 DFS"
+layout: post
+title: Workflow 是 BFS，Agent 是 DFS
+translated: false
 ---
 
 根据 Anthropic 的定义 [^1]：

@@ -1,8 +1,9 @@
 ---
-audio: true  
-lang: en  
-layout: post  
-title: ChatGPT Should Allow Creation of GPTs from Conversation History  
+audio: true
+lang: en
+layout: post
+title: ChatGPT Should Allow Creation of GPTs from Conversation History
+translated: false
 ---
 
 The conversation list should include a button near the share button labeled "Create GPT." This feature would allow users to create a GPT based on recent chat history.

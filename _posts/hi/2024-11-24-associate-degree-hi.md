@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: 'एसोसिएट डिग्री: प्रगति और प्रतिबिंब'
+translated: true
 ---
 
 नीचे मेरी सहयोगी प्रगति दी गई है।

@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: GrokとClaudeにおけるシステムプロンプトの探求
+translated: true
 ---
 
 プロンプトエンジニアリングを学ぶために、ここに再投稿しました。

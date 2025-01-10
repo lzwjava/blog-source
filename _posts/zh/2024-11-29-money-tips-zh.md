@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 花钱小贴士
+translated: true
 ---
 
 * 首先寻找免费的解决方案 - 开源软件、免费电子书、论文、信息等。

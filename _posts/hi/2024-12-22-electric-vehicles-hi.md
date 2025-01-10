@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: इलेक्ट्रिक वाहन
+translated: true
 ---
 
 ## नेता

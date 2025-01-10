@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: AI टूल्स
+translated: true
 ---
 
 यहां कुछ AI टूल्स हैं जो मैंने इस्तेमाल किए हैं:

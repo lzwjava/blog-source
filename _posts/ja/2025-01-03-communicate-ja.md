@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: コミュニケーション
+translated: true
 ---
 
 * 家族、友人、意見の異なる他人と議論しない。議論は無意味で、時に傷つけることもある。

@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Categorización
+translated: true
 ---
 
 * Todo se trata de categorización.

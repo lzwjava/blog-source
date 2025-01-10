@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: iOSのデベロッパーモードとideviceinstaller
+translated: true
 ---
 
 ## デベロッパーモード

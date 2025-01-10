@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Reasoning
+translated: false
 ---
 
 * Everything is about reasoning.

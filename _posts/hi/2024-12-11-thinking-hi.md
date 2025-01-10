@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: सोचना
+translated: true
 ---
 
 * चीज़ों को वर्गीकृत करके, सारांशित करके, या उनके बारे में तर्क करके, आप सोचते हैं।

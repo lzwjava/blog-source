@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 私にとって最適なコミュニケーション方法
+translated: true
 ---
 
 * ブログで言いたいことを共有する。

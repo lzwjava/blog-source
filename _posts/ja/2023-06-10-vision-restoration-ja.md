@@ -3,6 +3,7 @@ lang: ja
 layout: post
 title: 自然視力回復法の実験的検証
 top: 30
+translated: true
 ---
 
 <div align="center"><img src="/assets/images/eyes/glasses.jpeg" width="400px" /></div>

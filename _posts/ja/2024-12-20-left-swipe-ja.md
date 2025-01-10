@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: 左スワイプとアプリ
+translated: true
 ---
 
 ## iOSリストでの左スワイプ

@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: OBS, SRS, और FFmpeg का उपयोग करके लाइव स्ट्रीमिंग सेटअप
+translated: true
 ---
 
 *यह ब्लॉग पोस्ट ChatGPT-4o की सहायता से तैयार किया गया है।*

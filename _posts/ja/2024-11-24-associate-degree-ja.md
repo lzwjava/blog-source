@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 準学士号：進捗と振り返り
+translated: true
 ---
 
 以下は私の関連する進捗状況です。

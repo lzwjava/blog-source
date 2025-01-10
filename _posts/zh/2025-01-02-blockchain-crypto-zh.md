@@ -1,9 +1,10 @@
 ---
-audio: true  
-lang: zh  
-layout: post  
+audio: true
+lang: zh
+layout: post
 title: 数字货币与区块链
 top: 10
+translated: true
 ---
 
 数字货币就像AI一样，已为大部分人所知。我认为，了解数字货币的人群比例与能够接入免费互联网的人群比例相似。在中国以外的国家，了解数字货币的人群比例可能更高。

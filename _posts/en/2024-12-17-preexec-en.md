@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Display Proxy Settings Before Running Commands
+translated: false
 ---
 
 <div style="text-align: center;">  

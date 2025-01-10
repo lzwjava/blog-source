@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Por qué los dispositivos Android se vuelven lentos
+translated: true
 ---
 
 *Esta publicación fue escrita con la asistencia de ChatGPT.*

@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: 人工汎用知能の世界
+translated: true
 ---
 
 もしある日、私たちがAIに「TikTokやYouTubeのようなアプリを作って」と一言命令するだけで、何百万行ものコードを含む完全なプロジェクトを提供してくれるようになったら、それは本当に素晴らしいことでしょう。

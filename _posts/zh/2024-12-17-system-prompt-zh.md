@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 探索 Grok 和 Claude 的系统提示
+translated: true
 ---
 
 我在这里重新发布它，以学习提示工程。

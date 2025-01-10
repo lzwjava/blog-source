@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Pensando
+translated: true
 ---
 
 * Al categorizar, abstraer o razonar sobre las cosas, piensas.

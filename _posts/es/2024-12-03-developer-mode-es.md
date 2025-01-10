@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Modo Desarrollador de iOS e ideviceinstaller
+translated: true
 ---
 
 ## Modo Desarrollador

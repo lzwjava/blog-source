@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "全新由 AI 翻译驱动的 Quora 或 TikTok"
+layout: post
+title: 全新由 AI 翻译驱动的 Quora 或 TikTok
+translated: false
 ---
 
 * 全新由 AI 翻译驱动的 TikTok 或 Quora。

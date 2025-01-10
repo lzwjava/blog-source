@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Programación
+translated: true
 ---
 
 * Está bien hacer programación competitiva siempre que te motive.

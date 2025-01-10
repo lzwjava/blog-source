@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: 限界とエッジケース
+translated: true
 ---
 
 * 限界やエッジケースについて考えることは、何かを理解するための良い方法です。

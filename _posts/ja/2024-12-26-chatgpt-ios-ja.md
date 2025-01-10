@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: ChatGPT iOS VPN検証の分析
+translated: true
 ---
 
 今日、中国でVPNを使用してChatGPTのiOSアプリにログインできるようになったことを発見しました。以前は、以下のようなブロックプロンプトが表示されていました。

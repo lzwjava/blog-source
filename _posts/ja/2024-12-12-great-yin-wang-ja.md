@@ -3,6 +3,7 @@ lang: ja
 layout: post
 title: GTY - 偉大なるYin先生
 top: 20
+translated: true
 ---
 
 これは私とYin Wangの物語です。ちょうどTwitterアカウントをチェックしました。

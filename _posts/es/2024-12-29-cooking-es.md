@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Cocinar
+translated: true
 ---
 
 * Cocinar para ti mismo es sencillo. Usa aceite para saltear porque tiene un punto de ebullición más alto que el agua, lo que ayuda a calentar la comida de manera más efectiva.  

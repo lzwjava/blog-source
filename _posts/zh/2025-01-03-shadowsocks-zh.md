@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: Shadowsocks 代理问题
+translated: true
 ---
 
 智维：

@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Probando RAGFlow
+translated: true
 ---
 
 https://ragflow.io

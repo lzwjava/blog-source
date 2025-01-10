@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Do Things Scientifically
+translated: true
 ---
 
 Translated by ChatGPT.

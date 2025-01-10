@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: ब्लड प्रेशर मॉनिटर, स्टेथोस्कोप, और विजन चार्ट
+translated: true
 ---
 
 <div style="text-align: center;">

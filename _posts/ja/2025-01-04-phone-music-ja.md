@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: 電話検索と音楽
+translated: true
 ---
 
 ### 電話検索

@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: mathjax2mobi：MathJax HTMLを電子書籍に変換
+translated: true
 ---
 
 ### プロジェクト概要

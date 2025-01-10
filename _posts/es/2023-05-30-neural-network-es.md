@@ -1,7 +1,8 @@
 ---
 lang: es
 layout: post
-title: 'Neural Netwrok'
+title: Neural Netwrok
+translated: true
 usemathjax: true
 ---
 

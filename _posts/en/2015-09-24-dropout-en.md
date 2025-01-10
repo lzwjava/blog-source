@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Dropout Application
+translated: true
 ---
 
 *This blog post was translated by Mistral*

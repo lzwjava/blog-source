@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: The World of Artificial General Intelligence
+translated: false
 ---
 
 If one day, we can simply tell an AI to create an app like TikTok or YouTube with a single command, and it provides us with a complete project containing millions of lines of code, that would be truly amazing.

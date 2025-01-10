@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: ニューラルネットワークからGPTへ
+translated: true
 ---
 
 ### YouTube動画

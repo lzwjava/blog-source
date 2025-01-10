@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: प्रोग्रामिंग
+translated: true
 ---
 
 * यह ठीक है कि आप प्रतिस्पर्धी प्रोग्रामिंग करें जब तक यह आपको प्रेरित करता है।

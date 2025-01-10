@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: 'Ingeniero Backend en Java: Colección de Preguntas de Entrevista'
+translated: true
 ---
 
 ## Relacionado con el Proyecto

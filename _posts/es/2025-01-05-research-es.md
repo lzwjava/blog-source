@@ -4,6 +4,7 @@ lang: es
 layout: post
 title: El Viaje de Revertir la Miopía de Manera Natural
 top: 10
+translated: true
 ---
 
 Además de los tres artículos sobre la reversión de la miopía, quiero compartir más sobre esta historia de descubrimiento.

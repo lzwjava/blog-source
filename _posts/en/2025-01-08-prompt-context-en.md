@@ -1,8 +1,9 @@
 ---
-audio: true  
-lang: en  
-layout: post  
+audio: true
+lang: en
+layout: post
 title: Fix Prompts or Context Instead of Output of AI
+translated: false
 ---
 
 There are user prompts and system prompts. When the output doesn't work well, we should add the rule in the user prompts instead of fixing it every time.

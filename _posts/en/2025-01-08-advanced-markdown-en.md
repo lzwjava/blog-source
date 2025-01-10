@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Advanced Markdown Usage"
+layout: post
+title: Advanced Markdown Usage
+translated: false
 ---
 
 ## References

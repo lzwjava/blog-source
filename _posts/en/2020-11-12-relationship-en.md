@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: How to Build Relationships
+translated: true
 ---
 
 *This blog post was translated by ChatGPT.*

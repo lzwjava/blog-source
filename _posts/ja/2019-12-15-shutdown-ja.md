@@ -3,6 +3,7 @@ lang: ja
 layout: post
 title: 清算会社の提案
 top: 10
+translated: true
 ---
 
 株主への手紙：

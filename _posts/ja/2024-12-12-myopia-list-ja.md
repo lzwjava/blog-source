@@ -3,6 +3,7 @@ lang: ja
 layout: post
 title: 近視を逆転させる
 top: 50
+translated: true
 ---
 
 * [近視：現代の、しかし可逆的な病気、M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF), Todd Becker

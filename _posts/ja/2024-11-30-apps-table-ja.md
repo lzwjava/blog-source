@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 私が使っているiOSアプリ - 表バージョン
+translated: true
 translation: false
 ---
 

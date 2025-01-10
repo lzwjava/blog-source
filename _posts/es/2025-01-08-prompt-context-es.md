@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Corregir Indicaciones o Contexto en Lugar de la Salida de la IA
+translated: true
 ---
 
 Existen indicaciones de usuario y indicaciones del sistema. Cuando la salida no funciona bien, debemos agregar la regla en las indicaciones del usuario en lugar de corregirla cada vez.

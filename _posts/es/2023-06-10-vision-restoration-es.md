@@ -3,6 +3,7 @@ lang: es
 layout: post
 title: Verificación Experimental del Método de Restauración Natural de la Visión
 top: 30
+translated: true
 ---
 
 <div align="center"><img src="/assets/images/eyes/glasses.jpeg" width="400px" /></div>

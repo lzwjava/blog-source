@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Los Beneficios de la Repetición en la Programación
+translated: true
 ---
 
 ```bash

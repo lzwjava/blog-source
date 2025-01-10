@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Website Dark Mode Implementation
+translated: false
 ---
 
 Dark Mode implementation in my Jekyll blog.

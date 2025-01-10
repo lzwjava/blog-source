@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Abstracción
+translated: true
 ---
 
 * Todo se trata de abstracción.

@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Pensamiento a Largo Plazo en la Selección de Servidores en la Nube
+translated: true
 ---
 
 El Outline Manager ofrece varias opciones de servidor, incluyendo Google Cloud, DigitalOcean, AWS Lightsail, entre otros.
