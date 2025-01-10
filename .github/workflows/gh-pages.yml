@@ -74,12 +74,26 @@ jobs:
         run: |
           python scripts/generate_notes_link.py
       
+      - name: Dry run language files
+        id: dry_run_lang
+        run: |
+          export DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}
+          python scripts/update_lang.py --dry_run
+          
+          if [[ $(python scripts/update_lang.py --dry_run | grep "Total Markdown files to process" | awk '{print $7}') -gt 0 ]]; then
+            echo "lang_updated=true" >> $GITHUB_OUTPUT
+          else
+            echo "lang_updated=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Update language files
+        if: steps.dry_run_lang.outputs.lang_updated == 'true'
         run: |
           export DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}
           python scripts/update_lang.py
       
       - name: Commit language files
+        if: steps.dry_run_lang.outputs.lang_updated == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
