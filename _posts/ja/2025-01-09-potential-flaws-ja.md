@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: 果物配達エッセイにおける潜在的な欠陥
+translated: true
 ---
 
 Zhiwei Li:

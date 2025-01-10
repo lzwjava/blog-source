@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: मेरे चुने हुए ऐप्स
+translated: true
 ---
 
 एक पिछले निबंध में, मैंने लिखा था:

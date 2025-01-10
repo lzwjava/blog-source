@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: プロキシサーバーの設定
+translated: true
 ---
 
 * サーバーをセットアップするには、Outline Managerを使用します: [https://getoutline.org](https://getoutline.org)。  

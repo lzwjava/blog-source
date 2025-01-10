@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Configuración por aplicación, Control por interruptor y AssistiveTouch en iOS
+translated: true
 ---
 
 ## Configuración por Aplicación

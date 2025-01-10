@@ -1,7 +1,8 @@
 ---
 lang: ja
 layout: post
-title: "neural network"
+title: neural network
+translated: true
 usemathjax: true
 ---
 

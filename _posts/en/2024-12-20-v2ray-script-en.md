@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: V2Ray Script
+translated: false
 ---
 
 This is a V2Ray script I often use.

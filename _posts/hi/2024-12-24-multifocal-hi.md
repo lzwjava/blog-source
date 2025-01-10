@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: मायोपिया को उलटने के लिए मल्टीफोकल प्रोग्रेसिव लेंस का उपयोग
+translated: true
 ---
 
 ## प्रिस्क्रिप्शन

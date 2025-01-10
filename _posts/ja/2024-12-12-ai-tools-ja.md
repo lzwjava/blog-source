@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: AIツール
+translated: true
 ---
 
 以下は私が使用したAIツールの一部です：

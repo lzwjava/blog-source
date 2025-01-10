@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 对充电宝充电的健忘
+translated: true
 ---
 
 经常忘记给充电宝充电的问题让我感到沮丧。

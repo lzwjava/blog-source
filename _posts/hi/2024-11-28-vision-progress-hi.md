@@ -3,6 +3,7 @@ lang: hi
 layout: post
 title: प्राकृतिक दृष्टि सुधार प्रगति
 top: 20
+translated: true
 ---
 
 अंतिम अपडेट: 28 नवंबर, 2024

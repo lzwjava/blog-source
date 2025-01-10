@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 我的应用选择
+translated: true
 ---
 
 在之前的一篇文章中，我写道：

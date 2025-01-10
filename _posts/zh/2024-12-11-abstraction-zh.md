@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 抽象
+translated: true
 ---
 
 * 一切都与抽象有关。

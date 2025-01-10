@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: ChatGPT 在嵌套代码块中的问题
+translated: true
 ---
 
 ### 问题说明

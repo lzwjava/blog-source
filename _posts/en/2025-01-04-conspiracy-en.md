@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Conspiracy
+translated: false
 ---
 
 Following the essay by Yin Wang, [Yin Wang: The Ultimate Answer to Life, the Universe, and Everything](https://lzwjava.github.io/answers-en) and his previous statements, it seems there have been many conspiracists before.

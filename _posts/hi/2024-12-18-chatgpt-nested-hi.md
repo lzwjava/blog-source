@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: ChatGPT का नेस्टेड कोड ब्लॉक्स के साथ बग
+translated: true
 ---
 
 ### समस्या की व्याख्या

@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Bifocales
+translated: true
 ---
 
 Los bifocales tienen dos potencias ópticas diferentes: una para el segmento superior y otra para el segmento inferior. Por lo general, presentan una diferencia significativa en la potencia óptica entre estos dos segmentos de la lente.

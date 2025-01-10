@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: AIコードエディター
+translated: true
 ---
 
 いくつかのAIコード編集ツール、GitHub Copilot、Windsurf、Cursorを試してみました。以下はその観察結果です：

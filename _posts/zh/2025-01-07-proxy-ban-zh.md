@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 代理服务器封禁分析
+translated: true
 ---
 
 ## 代理服务器中的API能避免GFW封禁吗？

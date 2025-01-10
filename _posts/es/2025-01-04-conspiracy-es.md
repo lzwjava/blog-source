@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Conspiración
+translated: true
 ---
 
 Siguiendo el ensayo de Yin Wang, [Yin Wang: La respuesta definitiva a la vida, el universo y todo](https://lzwjava.github.io/answers-en) y sus declaraciones anteriores, parece que ha habido muchos conspiracionistas antes.

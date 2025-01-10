@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: How Neural Network Works
+translated: false
 usemathjax: true
 ---
 

@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Un Movimiento de Baloncesto Poco Convencional
+translated: true
 ---
 
 <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">

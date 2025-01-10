@@ -3,6 +3,7 @@ lang: en
 layout: post
 title: Improving English with Extensive Input
 top: 20
+translated: true
 ---
 
 Translated by ChatGPT.

@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: Shadowsocksプロキシの問題
+translated: true
 ---
 
 Zhiwei:

@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: ChatGPTがキャプション作成を手伝ってくれた
+translated: true
 ---
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/5DN6ltj1SjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -3,6 +3,7 @@ lang: es
 layout: post
 title: 'Wang Yin: El llamado éxito'
 top: 20
+translated: true
 ---
 
 En varias ocasiones, personas que no soportaban ver cómo algunos en internet se burlaban de mí, me han dado consejos como este: "Primero, derrota a esas empresas tradicionales de internet cuyos fundadores ya están envejeciendo. Una vez que te conviertas en un triunfador, simplemente publica un artículo en línea y todos te adularán. Además, en muchas ocasiones, es imposible hacer que esas personas te escuchen. Solo cuando logres resultados y triunfes por todos lados, se someterán a ti."

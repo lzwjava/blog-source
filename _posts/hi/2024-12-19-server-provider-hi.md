@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: क्लाउड सर्वर चयन में दीर्घकालिक सोच
+translated: true
 ---
 
 Outline Manager कई सर्वर विकल्प प्रदान करता है, जिनमें Google Cloud, DigitalOcean, AWS Lightsail और अन्य शामिल हैं।

@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Mis Aplicaciones Seleccionadas
+translated: true
 ---
 
 En un ensayo anterior, escribí:

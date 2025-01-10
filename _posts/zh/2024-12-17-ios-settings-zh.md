@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: iOS中的每个应用设置、开关控制和辅助触控
+translated: true
 ---
 
 ## 每个应用设置

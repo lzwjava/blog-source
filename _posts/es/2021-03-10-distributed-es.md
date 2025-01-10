@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Introducción a la Computación en la Nube y el Big Data
+translated: true
 ---
 
 Esta lección cubre los siguientes temas:

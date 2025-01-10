@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: लेफ्ट स्वाइप और ऐप्स
+translated: true
 ---
 
 ## iOS सूचियों में बाईं ओर स्वाइप करना

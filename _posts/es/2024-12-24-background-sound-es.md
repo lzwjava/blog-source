@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Prefiero Tener Sonido de Fondo
+translated: true
 ---
 
 * Prefiero tener sonido de fondo, sin importar lo que esté haciendo.

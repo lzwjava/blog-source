@@ -3,6 +3,7 @@ lang: zh
 layout: post
 title: 人生建议
 top: 10
+translated: true
 ---
 
 * 早早探索世界，去不同的国家，与不同的人交谈。

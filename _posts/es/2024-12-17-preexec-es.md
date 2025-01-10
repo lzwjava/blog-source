@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Mostrar Configuración del Proxy Antes de Ejecutar Comandos
+translated: true
 ---
 
 <div style="text-align: center;">  

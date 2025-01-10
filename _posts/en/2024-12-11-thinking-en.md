@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Thinking
+translated: false
 ---
 
 * By categorizing, abstracting, or reasoning about things, you think.

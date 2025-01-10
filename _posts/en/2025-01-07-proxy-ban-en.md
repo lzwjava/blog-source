@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Analysis of Proxy Server Ban
+translated: false
 ---
 
 ## Can APIs in Proxy Servers Avoid GFW Bans?

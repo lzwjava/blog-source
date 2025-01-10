@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: iOS ऐप्स जो मैंने इस्तेमाल किए - टेबल वर्जन
+translated: true
 translation: false
 ---
 

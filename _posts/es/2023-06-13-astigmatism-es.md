@@ -3,6 +3,7 @@ lang: es
 layout: post
 title: Astigmatismo en la Reversión de la Miopía
 top: 10
+translated: true
 ---
 
 ## Resumen

@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Aplicaciones de Mac que Utilicé
+translated: true
 ---
 
 A:

@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: El viaje de aprender inglés
+translated: true
 ---
 
 Después de años de lucha, de probar muchos métodos y usar varias aplicaciones, finalmente encontré una manera de enamorarme del inglés, de disfrutarlo sin necesidad de esforzarme, de mantener el hábito de usarlo con frecuencia. Ahora leo noticias en inglés, libros en inglés, veo series estadounidenses sin subtítulos, navego por sitios web en inglés, leo y escucho grandes cantidades de contenido en inglés. También he tenido algunas experiencias de comunicación normal con extranjeros, e incluso he ganado dinero creando un sitio web para un cliente en los Países Bajos a través de la comunicación en inglés. Permíteme contarte este viaje.

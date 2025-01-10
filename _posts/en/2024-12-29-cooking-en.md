@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Cooking
+translated: false
 ---
 
 * Cooking for yourself is simple. Use oil for stir-frying because it has a higher boiling point than water, which helps heat the food more effectively.  

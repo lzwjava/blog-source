@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Implementación del Modo Oscuro en Sitios Web
+translated: true
 ---
 
 Implementación del Modo Oscuro en mi blog de Jekyll.

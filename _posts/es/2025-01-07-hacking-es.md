@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Hackeo
+translated: true
 ---
 
 Existen diversas formas de hackear, y este tema es bastante interesante. Como un aficionado al hacking ético (White Hat Hacker), encuentro que hay mucho conocimiento por aprender en este campo. Aquí, registraré algunos métodos que he explorado.

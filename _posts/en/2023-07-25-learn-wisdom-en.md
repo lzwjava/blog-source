@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: The Wisdom of Learning
+translated: false
 ---
 
 ### Foreword

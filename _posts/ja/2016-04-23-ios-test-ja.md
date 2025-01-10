@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: iOS開発の自動化テストとツールによる効率化
+translated: true
 ---
 
 *このブログ記事は、ChatGPT-4oの協力を得て整理されました。*

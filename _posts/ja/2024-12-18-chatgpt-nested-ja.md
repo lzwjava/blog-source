@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: ChatGPTのネストされたコードブロックに関するバグ
+translated: true
 ---
 
 ### 問題の説明

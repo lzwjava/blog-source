@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: AI Tools
+translated: false
 ---
 
 Here are some AI tools I’ve used:

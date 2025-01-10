@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: 'Fun Live: The First Knowledge Live Streaming Platform'
+translated: true
 ---
 
 *This blog post was translated by ChatGPT.*

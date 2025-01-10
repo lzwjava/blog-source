@@ -3,6 +3,7 @@ lang: ja
 layout: post
 title: 生活のヒント
 top: 10
+translated: true
 ---
 
 * 早いうちに世界を探検し、さまざまな国を訪れ、異なる人々と話をすること。

@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Potential Flaws in the Fruit Delivery Essay
+translated: false
 ---
 
 Zhiwei Li:

@@ -3,6 +3,7 @@ lang: ja
 layout: post
 title: 子育てのヒント
 top: 10
+translated: true
 ---
 
 * 安全が最も重要です。低調に生活し、幼稚園や学校が正しいことを行っていることを確認してください。

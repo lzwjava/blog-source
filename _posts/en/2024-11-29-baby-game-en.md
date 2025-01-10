@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: 'Baby Game: Follow the Hand'
+translated: false
 ---
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">

@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Registro en cualquier plataforma independientemente de la identidad
+translated: true
 ---
 
 Soy ciudadano chino y un ingeniero de software enfocado en las últimas tecnologías. Es frustrante ver cómo muchos productos prohíben el acceso desde China. Aunque todavía estoy trabajando en mi título de grado asociado y espero trabajar fuera de China algún día, permaneceré en China durante algunos años más. Mientras tanto, me gustaría compartir información sobre cómo superar las barreras de internet basadas en la nacionalidad.

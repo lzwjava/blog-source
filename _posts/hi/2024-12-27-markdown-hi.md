@@ -2,7 +2,8 @@
 audio: true
 lang: hi
 layout: post
-title: "मार्कडेन समस्याएँ: Kramdown और XeLaTeX"
+title: 'मार्कडेन समस्याएँ: Kramdown और XeLaTeX'
+translated: true
 ---
 
 अपने Jekyll ब्लॉग के लिए Markdown का उपयोग करके PDF जनरेट करने के लिए, मैं निम्नलिखित Pandoc कमांड का उपयोग करता हूँ:

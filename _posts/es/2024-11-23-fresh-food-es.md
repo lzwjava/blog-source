@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Presta Atención a la Frescura de los Alimentos
+translated: true
 ---
 
 最近的一次街头小吃经历让我深刻体会到了食物新鲜度的重要性。在品尝新疆烧烤时，我点了两串羊肉串和一份火腿。结果第二天，我不得不面对腹泻的困扰。

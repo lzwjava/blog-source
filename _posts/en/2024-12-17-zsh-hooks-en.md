@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Zsh Hooks
+translated: false
 ---
 
 After exploring "Let Zsh Display Proxy Settings Before Running Network Commands," I delved deeper into Zsh hooks with ChatGPT. Here’s a concise overview for future reference.

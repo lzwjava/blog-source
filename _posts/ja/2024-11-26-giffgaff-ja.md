@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 中国でのUK SIMカード：Giffgaffの体験談
+translated: true
 ---
 
 Giffgaffは新しい携帯電話SIMカードサービスを提供しています。私は中国でこのようなサービスを経験したことがありません。中国の通信事業者であるChina Telecom、China Unicom、China Communicationsは、それと比べると古くて官僚的です。Giffgaffは若く、ダイナミックで、クリーンです。

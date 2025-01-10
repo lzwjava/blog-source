@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Razonamiento
+translated: true
 ---
 
 * Todo se trata de razonamiento.

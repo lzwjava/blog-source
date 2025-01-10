@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: The Best Communication Method for Me
+translated: false
 ---
 
 * Share what I want to say in a blog.

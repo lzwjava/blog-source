@@ -2,7 +2,8 @@
 audio: true
 lang: ja
 layout: post
-title: "repetition benefits"
+title: repetition benefits
+translated: true
 ---
 
 ```bash

@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Análisis de la Prohibición del Servidor Proxy
+translated: true
 ---
 
 ## ¿Pueden las API en servidores proxy evitar los bloqueos del Gran Firewall?

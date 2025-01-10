@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: अपना प्रॉक्सी सर्वर सेट करें
+translated: true
 ---
 
 * सर्वर सेटअप करने के लिए, Outline Manager का उपयोग करें: [https://getoutline.org](https://getoutline.org)।  

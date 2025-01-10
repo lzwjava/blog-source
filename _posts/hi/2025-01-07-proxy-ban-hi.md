@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: प्रॉक्सी सर्वर प्रतिबंध का विश्लेषण
+translated: true
 ---
 
 ## क्या प्रॉक्सी सर्वर में एपीआई GFW प्रतिबंधों से बच सकती हैं?

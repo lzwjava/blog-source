@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 理解神经网络
+translated: true
 ---
 
 Zhiwei:

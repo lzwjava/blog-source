@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Mis Primeros Recuerdos Digitales
+translated: true
 ---
 
 Nací en 1995, el mismo año en que Windows 95 fue lanzado el 14 de julio.

@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: सीखने की बुद्धिमत्ता
+translated: true
 ---
 
 ### प्रस्तावना

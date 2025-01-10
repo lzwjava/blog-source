@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 学習のヒント
+translated: true
 ---
 
 * 学びを趣味として捉え、遊び心と純粋な興味を持って取り組む。

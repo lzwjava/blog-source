@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 神经网络是如何工作的
+translated: true
 usemathjax: true
 ---
 

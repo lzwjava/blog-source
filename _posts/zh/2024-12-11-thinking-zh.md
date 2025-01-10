@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 思考
+translated: true
 ---
 
 * 通过分类、抽象或推理事物，你在思考。

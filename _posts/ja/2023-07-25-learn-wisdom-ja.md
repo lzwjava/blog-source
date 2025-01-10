@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 学びの知恵
+translated: true
 ---
 
 ### はじめに

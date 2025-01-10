@@ -3,6 +3,7 @@ lang: es
 layout: post
 title: Aplicaciones de iOS que usé - Versión de texto
 top: 10
+translated: true
 translation: false
 ---
 

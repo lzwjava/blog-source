@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: Android डिवाइस लैग क्यों करते हैं?
+translated: true
 ---
 
 *यह पोस्ट ChatGPT की सहायता से लिखी गई है।*

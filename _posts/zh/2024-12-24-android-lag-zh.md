@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 为什么安卓设备会卡顿
+translated: true
 ---
 
 *本篇文章由 ChatGPT 协助撰写。*

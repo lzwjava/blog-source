@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 王垠：生命、宇宙以及一切的终极答案
+translated: true
 ---
 
 微博 @不再关心人类de垠 より転載 (人類に関心を持たなくなった垠による)

@@ -3,6 +3,7 @@ lang: es
 layout: post
 title: Consejos para Padres
 top: 10
+translated: true
 ---
 
 * La seguridad es lo más importante. Vive de manera discreta y asegúrate de que los jardines de infancia o las escuelas hagan lo correcto.

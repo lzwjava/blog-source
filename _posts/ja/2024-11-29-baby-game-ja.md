@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: ベビーゲーム：手を追いかけて
+translated: true
 ---
 
 ```xml

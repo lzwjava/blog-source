@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: AI 代码编辑器
+translated: true
 ---
 
 我尝试了几种 AI 代码编辑工具，包括 GitHub Copilot、Windsurf 和 Cursor。以下是我的观察：

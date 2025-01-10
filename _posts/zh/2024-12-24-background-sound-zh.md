@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 喜欢有背景声音
+translated: true
 ---
 
 * 无论做什么，都喜欢有背景声音。

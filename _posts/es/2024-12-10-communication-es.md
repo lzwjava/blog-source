@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: El Mejor Método de Comunicación para Mí
+translated: true
 ---
 
 * Compartir lo que quiero decir en un blog.

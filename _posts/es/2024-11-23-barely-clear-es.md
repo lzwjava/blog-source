@@ -3,6 +3,7 @@ lang: es
 layout: post
 title: 'Restauración Natural de la Visión: El Principio de "Apenas Nítido"'
 top: 20
+translated: true
 ---
 
 ### Resumen

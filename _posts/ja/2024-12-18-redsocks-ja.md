@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: Redsocksの活用
+translated: true
 ---
 
 もちろんです！Macコンピュータを使用してShadowsocksプロキシを設定し、OpenWRTルーターを構成して、接続されたすべてのデバイスのトラフィックをこのプロキシ経由でルーティングする手順をご案内します。このセットアップには、以下の主要なステップが含まれます：

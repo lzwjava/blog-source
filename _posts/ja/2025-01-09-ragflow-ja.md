@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: RAGFlowを試してみる
+translated: true
 ---
 
 https://ragflow.io

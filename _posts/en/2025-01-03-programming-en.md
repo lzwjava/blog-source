@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Programming
+translated: false
 ---
 
 * It is okay to do competitive programming as long as it motivates you.

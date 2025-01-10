@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: ニューラルネットワークの理解
+translated: true
 ---
 
 Zhiwei:

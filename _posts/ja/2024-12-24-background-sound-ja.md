@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: バックグラウンドサウンドを好む
+translated: true
 ---
 
 * 何をしているかに関わらず、バックグラウンドで音があるのを好む。

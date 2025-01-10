@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: AIが完全に駆動する新しいQuoraやTikTok
+translated: false
 ---
 
 * AI翻訳を完全に活用した新しいTikTokやQuora。

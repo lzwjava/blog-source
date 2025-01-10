@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: AI 工具
+translated: true
 ---
 
 这是我使用过的一些 AI 工具：

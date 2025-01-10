@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Forgetfulness about Charging Power Banks
+translated: false
 ---
 
 The problem of often forgetting to charge power banks has been frustrating me.

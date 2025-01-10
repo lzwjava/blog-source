@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 编程
+translated: true
 ---
 
 * 只要它激励你，竞争性编程是可以的。

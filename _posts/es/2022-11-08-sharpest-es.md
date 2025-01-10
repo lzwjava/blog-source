@@ -3,6 +3,7 @@ lang: es
 layout: post
 title: 'Dominando el inglés: Dentro y fuera del trabajo'
 top: 10
+translated: true
 ---
 
 Hace un año, en cuanto a mi habilidad en inglés, mi lectura era buena, mi comprensión auditiva no era tan buena, y mi escritura y habla eran deficientes. Después de trabajar en una empresa de Singapur, los cuatro aspectos de mi nivel de inglés han mejorado significativamente.

@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 企業は統合を容易にするためにAIコンテキストまたはエージェントを提供すべき
+translated: false
 ---
 
 Greptime DB で働いている友人がいて、彼らの製品を既存のシステムに迅速に統合する方法について考えていました。

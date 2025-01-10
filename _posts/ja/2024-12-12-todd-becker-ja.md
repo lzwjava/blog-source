@@ -3,6 +3,7 @@ lang: ja
 layout: post
 title: 近視：現代の、しかし逆転可能な疾患 — Todd Becker
 top: 10
+translated: true
 ---
 
 Yin Wangの[自然視力回復法](https://www.yinwang.org/blog-cn/2022/02/22/myopia)に関する記事の脚注で、Todd Beckerの動画を見つけました。この動画は2014年にアップロードされ、120万回以上の再生回数を記録しています。

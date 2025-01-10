@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Phone Searching and Music
+translated: false
 ---
 
 ### Phone Searching

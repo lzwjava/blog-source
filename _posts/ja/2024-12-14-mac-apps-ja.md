@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 私が使用しているMacアプリ
+translated: true
 ---
 
 A:

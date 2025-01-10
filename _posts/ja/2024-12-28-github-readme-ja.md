@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: GitHub Readme 紹介
+translated: true
 ---
 
 | project | language | commits|project|language|commits|

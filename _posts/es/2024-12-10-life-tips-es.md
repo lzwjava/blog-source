@@ -3,6 +3,7 @@ lang: es
 layout: post
 title: Consejos de Vida
 top: 10
+translated: true
 ---
 
 * Explora el mundo temprano, visita diferentes países y habla con distintas personas.

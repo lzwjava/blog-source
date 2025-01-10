@@ -1,8 +1,9 @@
 ---
-audio: true  
-lang: en  
-layout: post  
-title: Avoiding Damage When Ordering Fruits 
+audio: true
+lang: en
+layout: post
+title: Avoiding Damage When Ordering Fruits
+translated: false
 ---
 
 Transporting fruits over long distances can be challenging. Here are some takeaways on how to avoid receiving broken fruit.

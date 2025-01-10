@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: How to Watch YouTube on TV
+translated: true
 ---
 
 *This blog post was translated by ChatGPT.*

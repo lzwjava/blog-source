@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: My Curated App Choices
+translated: false
 ---
 
 In a previous essay, I wrote:

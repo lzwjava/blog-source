@@ -3,6 +3,7 @@ lang: zh
 layout: post
 title: 近视：一种现代但可逆的疾病 — Todd Becker
 top: 10
+translated: true
 ---
 
 我在王垠关于[自然视力恢复法](https://www.yinwang.org/blog-cn/2022/02/22/myopia)的文章脚注中发现了Todd Becker的视频。该视频于2014年上传，已获得超过120万次观看。

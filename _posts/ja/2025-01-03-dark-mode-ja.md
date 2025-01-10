@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: ウェブサイトのダークモード実装
+translated: true
 ---
 
 私のJekyllブログでのダークモード実装。

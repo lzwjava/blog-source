@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: 'Tarjeta SIM del Reino Unido en China: Una experiencia con Giffgaff'
+translated: true
 ---
 
 Giffgaff ofrece un nuevo servicio de tarjetas SIM para teléfonos móviles. Nunca he experimentado algo así en China. Los proveedores de telecomunicaciones chinos - China Telecom, China Unicom y China Communications - son anticuados y burocráticos en comparación. Giffgaff es joven, dinámico y transparente.

@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 尝试RAGFlow
+translated: true
 ---
 
 https://ragflow.io

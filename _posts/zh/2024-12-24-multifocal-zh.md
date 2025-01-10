@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 使用多焦点渐进镜片逆转近视
+translated: true
 ---
 
 ## 处方

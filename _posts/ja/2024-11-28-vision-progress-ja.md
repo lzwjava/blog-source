@@ -3,6 +3,7 @@ lang: ja
 layout: post
 title: 自然な視力回復の進捗
 top: 20
+translated: true
 ---
 
 最終更新日: 2024年11月28日

@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: The Journey of Learning English
+translated: true
 ---
 
 Translated by ChatGPT. Missed some pictures.

@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: プロキシサーバーの禁止分析
+translated: true
 ---
 
 ## プロキシサーバーのAPIはGFWの禁止を回避できるか？

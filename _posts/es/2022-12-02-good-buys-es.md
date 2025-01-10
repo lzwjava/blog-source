@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Mis Buenas Compras
+translated: true
 ---
 
 <div align="center"><img src="/assets/images/buys/buys.jpg" width="400px" /><img/></div>

@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "在ChatGPT中使用搜索的案例"
+layout: post
+title: 在ChatGPT中使用搜索的案例
+translated: false
 ---
 
 **Zhiwei:**  

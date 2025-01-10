@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 阴谋论
+translated: true
 ---
 
 根据Yin Wang的文章《Yin Wang: The Ultimate Answer to Life, the Universe, and Everything》和他之前的声明，似乎以前有很多阴谋论者。

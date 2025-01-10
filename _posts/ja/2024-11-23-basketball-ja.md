@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 型破りなバスケットボールの動き
+translated: true
 ---
 
 ```svg

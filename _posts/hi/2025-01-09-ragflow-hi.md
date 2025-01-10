@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: RAGFlow को आज़मा रहे हैं
+translated: true
 ---
 
 https://ragflow.io

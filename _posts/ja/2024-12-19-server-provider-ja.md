@@ -3,6 +3,7 @@ audio: true
 lang: ja
 layout: post
 title: クラウドサーバー選びにおける長期的な視点
+translated: true
 ---
 
 Outline Managerは、Google Cloud、DigitalOcean、AWS Lightsailなど、複数のサーバーオプションを提供しています。

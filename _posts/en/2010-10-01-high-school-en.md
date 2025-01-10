@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: 'September''s Song: High School Essay'
+translated: true
 ---
 
 *This blog post was translated by Mistral.*

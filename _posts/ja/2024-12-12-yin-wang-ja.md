@@ -3,6 +3,7 @@ lang: ja
 layout: post
 title: 王垠の全作品
 top: 20
+translated: true
 ---
 
 ## 中国語

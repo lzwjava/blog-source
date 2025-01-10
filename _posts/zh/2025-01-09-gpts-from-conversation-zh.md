@@ -1,8 +1,9 @@
 ---
-audio: true  
-lang: zh  
-layout: post  
-title: ChatGPT 应该允许从对话历史中创建 GPT  
+audio: true
+lang: zh
+layout: post
+title: ChatGPT 应该允许从对话历史中创建 GPT
+translated: true
 ---
 
 对话列表应包括一个位于分享按钮附近的按钮，标注为“创建 GPT”。这个功能将允许用户根据最近的聊天记录创建一个 GPT。

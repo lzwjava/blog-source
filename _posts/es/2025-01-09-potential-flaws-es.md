@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Posibles Defectos en el Ensayo de Entrega de Frutas
+translated: true
 ---
 
 Zhiwei Li:

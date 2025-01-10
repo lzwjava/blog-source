@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: 'Título de Asociado: Progreso y Reflexión'
+translated: true
 ---
 
 A continuación se muestra mi progreso como asociado.

@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Búsqueda en el Teléfono y Música
+translated: true
 ---
 
 ### Búsqueda de Teléfonos

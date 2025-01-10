@@ -3,6 +3,7 @@ lang: es
 layout: post
 title: Obras Completas de Yin Wang
 top: 20
+translated: true
 ---
 
 ## Chino

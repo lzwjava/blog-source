@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: कृत्रिम सामान्य बुद्धिमत्ता (Artificial General Intelligence) की दुनिया
+translated: true
 ---
 
 अगर एक दिन, हम केवल एक AI को TikTok या YouTube जैसा ऐप बनाने के लिए एक ही कमांड दे सकें, और यह हमें लाखों लाइनों के कोड वाला एक पूरा प्रोजेक्ट प्रदान कर दे, तो यह वाकई अद्भुत होगा।

@@ -3,6 +3,7 @@ audio: true
 lang: es
 layout: post
 title: Dilema del Estacionamiento de Coches
+translated: true
 ---
 
 Tengo dos autos en el complejo de apartamentos de mis padres, pero solo tenemos un espacio de estacionamiento dentro del edificio. No queremos alquilar otro espacio, así que tengo que estacionar mi segundo auto en el área pública. En el área pública, hay espacios de estacionamiento legales, pero no son suficientes. A menudo, hay veinte o treinta autos estacionados en la calle. El guardia pega un papel rojo en los parabrisas de los autos para advertirles.

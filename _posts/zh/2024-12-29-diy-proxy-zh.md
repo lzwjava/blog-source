@@ -3,6 +3,7 @@ audio: true
 lang: zh
 layout: post
 title: 搭建代理服务器
+translated: true
 ---
 
 * 要搭建服务器，请使用Outline Manager：[https://getoutline.org](https://getoutline.org)。  

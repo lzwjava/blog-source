@@ -1,8 +1,9 @@
 ---
-audio: true  
-lang: en  
-layout: post  
+audio: true
+lang: en
+layout: post
 title: Limits and Edge Cases
+translated: false
 ---
 
 * Thinking about limits and edge cases is a good way to understand something.

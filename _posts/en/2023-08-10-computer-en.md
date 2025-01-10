@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: How to Build a Computer
+translated: false
 ---
 
 ![cover](assets/images/computer/cover.jpg)

@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 固定価格サブスクリプションは時代遅れ
+translated: true
 ---
 
 ### サブスクリプションサービスにおける柔軟な価格設定の必要性

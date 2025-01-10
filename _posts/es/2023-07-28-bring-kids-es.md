@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Cómo Criar a los Mejores Niños
+translated: true
 ---
 
 ¿Cómo criar a los mejores niños? Si fueras un multimillonario, ¿cómo criarías a tus hijos? Según mi observación, llevarían a sus hijos a viajar por todo el mundo. Pensemos en Eileen Gu. Su experiencia de vida es realmente colorida. Su madre es excelente.

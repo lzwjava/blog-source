@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: नया Quora या TikTok पूरी तरह से AI अनुवाद द्वारा संचालित
+translated: false
 ---
 
 * एक नया TikTok या Quora जो पूरी तरह से AI अनुवाद द्वारा संचालित हो।

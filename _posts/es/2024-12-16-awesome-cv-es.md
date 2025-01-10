@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Usando Awesome-CV para Generar un Currículum Profesional
+translated: true
 ---
 
 ### Introducción

@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Compartiendo experiencias sobre el emprendimiento en Quzhibo (趣直播)
+translated: true
 ---
 
 ![](assets/images/startup/s0.jpg)

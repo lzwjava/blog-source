@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: ChatGPT 帮助我制作字幕
+translated: true
 ---
 
 *本文由ChatGPT-4o翻译原文所得。*

@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: サイドプロジェクト
+translated: true
 ---
 
 ## スカイバウンド：広州からラサへの空中オデッセイ

@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 专科自考：进度与反思
+translated: true
 ---
 
 以下是我的专科进度。

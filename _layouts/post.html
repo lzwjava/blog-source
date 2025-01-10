@@ -18,30 +18,33 @@ layout: default
     <a href="#" id="playAudioButton" class="button audio-button" data-file-path="{{ page.path }}">Audio</a>
     {% endif %}
 
-    <!-- Language Button Section -->
+    <!-- Language Select Section -->
     {% assign current_lang = page.path | split: '-' | last | split: '.' | first %}
-    {% if current_lang == "en" or current_lang == "zh" %}
-    {% if page.link %}
-    {% if current_lang == "en" %}
-    <a href="/{{ page.link }}" class="button right-button">中文</a>
-    {% elsif current_lang == "zh" %}
-    <a href="/{{ page.link }}" class="button right-button">English</a>
-    {% endif %}
-    {% else %}
     {% assign file_parts = page.path | split: '/' | last | replace: ".md", "" | split: '-' %}
     {% assign base_name = file_parts | slice: 3, file_parts.size | join: '-' | replace: "-#{current_lang}", "" %}
     {% assign base_name_length = base_name | size %}
     {% if base_name_length >= 3 %}
-    {% assign length_to_slice = base_name_length | minus: 3 %}
-    {% assign base_name = base_name | slice: 0, length_to_slice %}
+      {% assign length_to_slice = base_name_length | minus: 3 %}
+      {% assign base_name = base_name | slice: 0, length_to_slice %}
     {% endif %}
-    {% if current_lang == "en" %}
-    <a href="/{{ base_name }}-zh" class="button right-button">中文</a>
-    {% elsif current_lang == "zh" %}
-    <a href="/{{ base_name }}-en" class="button right-button">English</a>
-    {% endif %}
-    {% endif %}
-    {% endif %}
+    <select id="languageSelect" class="button right-button">
+        <option value="" disabled selected>Language</option>
+        {% if current_lang != "en" %}
+        <option value="/{{ base_name }}-en">English</option>
+        {% endif %}
+        {% if current_lang != "zh" %}
+        <option value="/{{ base_name }}-zh">中文</option>
+        {% endif %}
+        {% if current_lang != "ja" %}
+        <option value="/{{ base_name }}-ja">日本語</option>
+        {% endif %}
+        {% if current_lang != "es" %}
+        <option value="/{{ base_name }}-es">Español</option>
+        {% endif %}
+        {% if current_lang != "hi" %}
+        <option value="/{{ base_name }}-hi">हिंदी</option>
+        {% endif %}
+    </select>
   </div>
 
   <!-- Audio player for text-to-speech -->
@@ -94,3 +97,11 @@ layout: default
 
 <script src="/assets/js/dark-mode.js"></script>
 <script src="/assets/js/audioPdfHandlers.js" defer></script>
+<script>
+    document.getElementById('languageSelect').addEventListener('change', function() {
+        var selectedValue = this.value;
+        if (selectedValue) {
+            window.location.href = selectedValue;
+        }
+    });
+</script>

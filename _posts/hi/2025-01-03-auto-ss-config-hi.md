@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: 'ओपन सोर्स टूल: Auto SS Config'
+translated: true
 ---
 
 मुझे यह घोषणा करते हुए बहुत खुशी हो रही है कि मैंने **Auto SS Config** नामक एक टूल को ओपन-सोर्स किया है। यह टूल Shadowsocks URL से Shadowsocks या Clash सब्सक्रिप्शन URL को स्वचालित रूप से जनरेट और अपलोड करता है, जिससे आपके प्रॉक्सी सर्वर कॉन्फ़िगरेशन को प्रबंधित और अपडेट करना आसान हो जाता है।

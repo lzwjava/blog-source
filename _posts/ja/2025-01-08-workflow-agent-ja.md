@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: ワークフローはBFS（幅優先探索）、エージェントはDFS（深さ優先探索）です。
+translated: false
 ---
 
 Anthropicによると[^1]:

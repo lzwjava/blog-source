@@ -1,6 +1,7 @@
 ---
-layout: post  
-title: "Markdown高级用法"
+layout: post
+title: Markdown高级用法
+translated: false
 ---
 
 ## 引用

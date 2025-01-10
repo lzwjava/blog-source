@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 我买到的好东西
+translated: true
 ---
 
 <div align="center"><img src="/assets/images/buys/buys.jpg" width="400px" /><img/></div>

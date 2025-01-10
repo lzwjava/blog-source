@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Blood Pressure Monitor, Stethoscope, and Vision Chart
+translated: false
 ---
 
 <div style="text-align: center;">

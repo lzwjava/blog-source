@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: न्यूरल नेटवर्क को समझना
+translated: true
 ---
 
 ज़िवेई:

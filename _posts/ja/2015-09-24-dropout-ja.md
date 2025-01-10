@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 退学届け
+translated: true
 ---
 
 尊敬する学校の指導者の皆様：

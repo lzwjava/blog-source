@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: अमूर्तता (Abstraction)
+translated: true
 ---
 
 * सब कुछ अमूर्तता के बारे में है।

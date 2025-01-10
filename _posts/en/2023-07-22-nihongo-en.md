@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: ChatGPT Helps Me Learn Japanese
+translated: false
 ---
 
 ### Foreword

@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Informe del Sitio Web
+translated: true
 ---
 
 Recientemente, hablé con una amiga emprendedora que me pidió mi opinión sobre el sitio web de su empresa. Después de redactar mis comentarios iniciales, pedí ayuda a ChatGPT para refinar y pulirlos. A continuación, comparto la versión actualizada y mejorada.

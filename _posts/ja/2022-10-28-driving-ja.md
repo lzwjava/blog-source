@@ -2,6 +2,7 @@
 lang: ja
 layout: post
 title: 運転中にリスニング
+translated: true
 ---
 
 *このブログ記事はChatGPTによって翻訳されました。*

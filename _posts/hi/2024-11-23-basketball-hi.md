@@ -2,6 +2,7 @@
 lang: hi
 layout: post
 title: एक असामान्य बास्केटबॉल चाल
+translated: true
 ---
 
 <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">

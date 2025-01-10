@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: El flujo de trabajo es BFS, el agente es DFS
+translated: false
 ---
 
 Según Anthropic [^1]:

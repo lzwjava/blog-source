@@ -3,6 +3,7 @@ lang: es
 layout: post
 title: Mejorar el inglés a través de una gran cantidad de input
 top: 20
+translated: true
 ---
 
 En el año 2014, cuando me encontraba con problemas de programación, solía buscar en Google y encontrar páginas en inglés. Solía leer un par de párrafos y luego dejaba de leer. Leía muy lento y necesitaba consultar el diccionario con frecuencia, lo que me dejaba confundido. Prefería cambiar a páginas en chino. En ese entonces, siempre que podía, optaba por leer en chino. Después de más de 6 años, ahora es al revés, solo leo en chino si es algo que solo está disponible en ese idioma. Incluso en mi tiempo de ocio, me sumerjo en el mundo del inglés, viendo series estadounidenses sin subtítulos y viendo videos cortos en TikTok. Mi nivel de inglés todavía no es tan bueno como mi nivel de chino, probablemente solo la mitad.

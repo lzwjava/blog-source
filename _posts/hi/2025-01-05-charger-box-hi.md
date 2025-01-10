@@ -3,6 +3,7 @@ audio: true
 lang: hi
 layout: post
 title: स्मार्ट यूनिवर्सल चार्जर बॉक्स
+translated: true
 ---
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">

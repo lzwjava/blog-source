@@ -2,6 +2,7 @@
 lang: es
 layout: post
 title: Aplicaciones de iOS que usé - Versión en tabla
+translated: true
 translation: false
 ---
 
