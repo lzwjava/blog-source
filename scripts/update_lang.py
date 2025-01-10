@@ -50,7 +50,7 @@ def translate_text(text, target_language):
         print(f"  Translation failed with error: {e}")
         return None
 
-def translate_front_matter(front_matter, target_language):
+def translate_front_matter(front_matter, target_language, input_file):
     if not front_matter:
         return ""
     try:
@@ -62,7 +62,18 @@ def translate_front_matter(front_matter, target_language):
             if translated_title:
                 front_matter_dict['title'] = translated_title
         # Always set lang to target_language
-        front_matter_dict['lang'] = target_language
+        
+        # Determine if the file is a translation
+        original_lang = 'en' # Default to english
+        if 'lang' in front_matter_dict:
+            original_lang = front_matter_dict['lang']
+        
+        if target_language != original_lang:
+            front_matter_dict['lang'] = target_language
+            front_matter_dict['translated'] = True
+        else:
+            front_matter_dict['translated'] = False
+        
         return "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
     except yaml.YAMLError as e:
         print(f"  Error parsing front matter: {e}")
@@ -81,7 +92,7 @@ def translate_markdown_file(input_file, output_file, target_language, changed_pa
         content_without_front_matter = content[len(front_matter_match.group(0)):] if front_matter_match else content
         
         if not dry_run:
-            translated_front_matter = translate_front_matter(front_matter, target_language)
+            translated_front_matter = translate_front_matter(front_matter, target_language, input_file)
             
             
             translated_content = translate_text(content_without_front_matter, target_language)
@@ -163,7 +174,7 @@ def main():
     target_language = args.lang
     dry_run = args.dry_run
     
-    languages = ['ja', 'es', 'hi', 'zh', 'en'] if target_language == 'all' else [target_language]
+    languages = ['ja', 'es', 'hi', 'zh', 'en'] 
 
     total_files_to_process = 0
     
@@ -173,20 +184,32 @@ def main():
         print(f"Total Markdown files to process: {total_files_to_process}")
         return
     
-    for lang in languages:
-        output_dir = f"_posts/{lang}"
-        if lang == 'hi':
-            output_dir = "_posts/hi"
-        os.makedirs(output_dir, exist_ok=True)
-        print(f"Created directory {output_dir}")
-
-        changed_files = get_changed_files()
-        total_files_to_process += len(changed_files)
-        
-        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-            futures = []
-            for filename in changed_files:
-                input_file = filename
+    changed_files = get_changed_files()
+    total_files_to_process = len(changed_files)
+    
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+        futures = []
+        for filename in changed_files:
+            input_file = filename
+            
+            with open(input_file, 'r', encoding='utf-8') as infile:
+                content = infile.read()
+            front_matter_match = re.match(r'---\n(.*?)\n---', content, re.DOTALL)
+            front_matter = front_matter_match.group(1) if front_matter_match else ""
+            front_matter_dict = {}
+            if front_matter:
+                front_matter_dict = yaml.safe_load(front_matter)
+            original_lang = 'en'
+            if 'lang' in front_matter_dict:
+                original_lang = front_matter_dict['lang']
+            
+            
+            for lang in languages:
+                output_dir = f"_posts/{lang}"
+                if lang == 'hi':
+                    output_dir = "_posts/hi"
+                os.makedirs(output_dir, exist_ok=True)
+                
                 output_filename = os.path.basename(filename).replace(".md", f"-{lang}.md")
                 
                 # Check if the original file is named with "-en.md" or "-zh.md"
@@ -195,17 +218,26 @@ def main():
                 
                 output_file = os.path.join(output_dir, output_filename)
                 
+                if lang == original_lang:
+                    # Copy the file
+                    with open(input_file, 'r', encoding='utf-8') as infile:
+                        content = infile.read()
+                    with open(output_file, 'w', encoding='utf-8') as outfile:
+                        outfile.write(content)
+                    print(f"Copied {filename} to {output_file} because target language is the same as original language.")
+                    continue
+                
                 changed_paragraphs = get_changed_paragraphs(input_file, output_file)
                 
                 print(f"Submitting translation job for {filename} to {lang}...")
                 future = executor.submit(translate_markdown_file, input_file, output_file, lang, changed_paragraphs, dry_run)
                 futures.append(future)
             
-            for future in concurrent.futures.as_completed(futures):
-                try:
-                    future.result()
-                except Exception as e:
-                    print(f"A thread failed: {e}")
+        for future in concurrent.futures.as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                print(f"A thread failed: {e}")
     print(f"Total Markdown files to process: {total_files_to_process}")
 
 
