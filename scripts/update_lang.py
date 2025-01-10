@@ -36,7 +36,7 @@ def create_translation_prompt(target_language):
 
 
 def translate_text(text, target_language):
-    print(f"  Translating text: {text[:50]}...")
+    print(f"  Translating text: {text}...")
     try:
         response = client.chat.completions.create(
             model=MODEL_NAME,
@@ -48,7 +48,7 @@ def translate_text(text, target_language):
         )
         if response and response.choices:
             translated_text = response.choices[0].message.content
-            print(f"  Translation successful. Translated text: {translated_text[:50]}...")
+            print(f"  Translation successful. Translated text: {translated_text}...")
             return translated_text
         else:
             print(f"  Translation failed.")
