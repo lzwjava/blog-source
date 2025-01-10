@@ -79,65 +79,18 @@ def translate_markdown_file(input_file, output_file, target_language, changed_pa
         front_matter_match = re.match(r'---\n(.*?)\n---', content, re.DOTALL)
         front_matter = front_matter_match.group(1) if front_matter_match else ""
         content_without_front_matter = content[len(front_matter_match.group(0)):] if front_matter_match else content
-        print(f"  Front matter: {front_matter[:50]}...")
-
+        
         translated_front_matter = translate_front_matter(front_matter, target_language)
-
-
-        # Split content into paragraphs
-        paragraphs = content_without_front_matter.split('\n\n')
-        translated_paragraphs = []
-
-        if changed_paragraphs is None:
-            for i, paragraph in enumerate(paragraphs):
-                if paragraph.strip():
-                    print(f"  Translating paragraph {i+1}/{len(paragraphs)}...")
-                    translated_text = translate_text(paragraph, target_language)
-                    if translated_text:
-                        translated_paragraphs.append(translated_text)
-                    else:
-                        translated_paragraphs.append(paragraph)
-                    time.sleep(1)  # Add a delay to avoid rate limiting
-                else:
-                    translated_paragraphs.append("")
+        
+        
+        translated_content = translate_text(content_without_front_matter, target_language)
+        if translated_content:
+            translated_content = translated_front_matter + "\n\n" + translated_content
         else:
-            for i, paragraph in enumerate(paragraphs):
-                if paragraph.strip():
-                    if str(i) in changed_paragraphs:
-                        print(f"  Translating paragraph {i+1}/{len(paragraphs)}...")
-                        translated_text = translate_text(paragraph, target_language)
-                        if translated_text:
-                            translated_paragraphs.append(translated_text)
-                        else:
-                            translated_paragraphs.append(paragraph)
-                        time.sleep(1)  # Add a delay to avoid rate limiting
-                    else:
-                        # If paragraph not changed, read from existing file
-                        try:
-                            with open(output_file, 'r', encoding='utf-8') as outfile:
-                                existing_content = outfile.read()
-                            existing_front_matter_match = re.match(r'---\n(.*?)\n---', existing_content, re.DOTALL)
-                            existing_content_without_front_matter = existing_content[len(existing_front_matter_match.group(0)):] if existing_front_matter_match else existing_content
-                            existing_paragraphs = existing_content_without_front_matter.split('\n\n')
-                            if i < len(existing_paragraphs):
-                                translated_paragraphs.append(existing_paragraphs[i])
-                            else:
-                                translated_paragraphs.append(paragraph)
-                        except FileNotFoundError:
-                            print(f"  Existing file not found, translating paragraph {i+1}/{len(paragraphs)}...")
-                            translated_text = translate_text(paragraph, target_language)
-                            if translated_text:
-                                translated_paragraphs.append(translated_text)
-                            else:
-                                translated_paragraphs.append(paragraph)
-                            time.sleep(1)
-                else:
-                    translated_paragraphs.append("")
-
-
-        translated_content = "\n\n".join(translated_paragraphs)
-        translated_content = translated_front_matter + translated_content
-
+            translated_content = content
+        if os.path.exists(output_file):
+            os.remove(output_file)
+            
         with open(output_file, 'w', encoding='utf-8') as outfile:
             outfile.write(translated_content)
         print(f"  Finished processing file: {output_file}")

@@ -7,7 +7,9 @@ title: RAGFlow को आज़मा रहे हैं
 
 https://ragflow.io
 
-"resume-en.txt" को पार्स करने की अनुमति नहीं है। मूल रूप से, जिस फ़ाइलनाम में "-" होता है, वह स्वीकार्य नहीं है। इसे "resume.txt" नाम से बदलना होगा।
+"resume-en.txt" को पार्स करने की अनुमति नहीं है। मूल रूप से, फ़ाइल नाम जिसमें "-" होता है, स्वीकार्य नहीं है। इसे "resume.txt" नाम से बदलना होगा।
+
+मैंने इसका परीक्षण किया, और यह बहुत अच्छा प्रदर्शन किया।
 
 {: .centered }
 ![](assets/images/rag/r1.jpg)
@@ -16,5 +18,3 @@ https://ragflow.io
 {: .centered }
 ![](assets/images/rag/r2.jpg){: .responsive}
 *स्रोत: [https://ragflow.io/](https://ragflow.io/)*{: .caption }
-
-इसे आज़माया। बहुत अच्छा काम करता है।
