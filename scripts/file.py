@@ -33,6 +33,6 @@ if __name__ == "__main__":
     # Input name from command line argument
     import sys
     if len(sys.argv) != 2:
-        print("Usage: python scripts/draft.py <name>")
+        print("Usage: python scripts/file.py <name>")
     else:
         create_md(sys.argv[1])
