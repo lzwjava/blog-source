@@ -2,13 +2,15 @@
 audio: true
 lang: zh
 layout: post
-title: 尝试 RAGFlow
+title: 尝试RAGFlow
 translated: true
 ---
 
 [https://ragflow.io](https://ragflow.io)
 
-"resume-en.txt" 文件无法被解析。基本上，包含 "-" 的文件名是不可接受的。需要将其重命名为 "resume.txt"。我测试了该产品，它的表现非常出色。
+"resume-en.txt" 文件无法被解析。基本上，包含 "-" 的文件名是不可接受的。需要将其重命名为 "resume.txt"。
+
+我测试了该产品，它的表现非常出色。
 
 {: .centered }
 ![](assets/images/rag/r1.jpg)
