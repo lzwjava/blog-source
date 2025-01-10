@@ -1,51 +1,47 @@
-.PHONY: awesome-cv awesome-cv-en awesome-cv-copy awesome-cv-copy-en audio-pipeline pdf-pipeline pipelines clean copy coverletter-zh.pdf papers
+.PHONY: awesome-cv awesome-cv-en awesome-cv-copy awesome-cv-copy-en audio-pipeline pdf-pipeline pipelines clean copy papers
 
 # Compiler and directories
 CC = xelatex
 EXAMPLES_DIR = awesome-cv
 RESUME_DIR = $(EXAMPLES_DIR)/resume
-RESUME_EN_DIR = $(RESUME_DIR)/en
-RESUME_ZH_DIR = $(RESUME_DIR)/zh
 COVER_LETTER_DIR = $(EXAMPLES_DIR)/coverletter
 INTRODUCTION_DIR = $(EXAMPLES_DIR)/introduction
 PAPERS_DIR = assets/papers
 
+# Languages
+LANGUAGES = en zh ja
+
 # Source files
-RESUME_EN_SRCS = $(shell find $(RESUME_EN_DIR) -name '*.tex' 2>/dev/null)
-RESUME_ZH_SRCS = $(shell find $(RESUME_ZH_DIR) -name '*.tex' 2>/dev/null)
-INTRODUCTION_SRCS = $(shell find $(INTRODUCTION_DIR) -name '*.tex' 2>/dev/null)
+RESUME_SRCS = $(foreach lang,$(LANGUAGES),$(shell find $(RESUME_DIR)/$(lang) -name '*.tex' 2>/dev/null))
+INTRODUCTION_SRCS = $(foreach lang,$(LANGUAGES),$(shell find $(INTRODUCTION_DIR)/$(lang) -name '*.tex' 2>/dev/null))
 PAPERS_SRCS = $(shell find $(PAPERS_DIR) -name '*.tex' 2>/dev/null)
 
 # Targets
 # Full awesome-cv (both English and Chinese)
-awesome-cv: introduction-en.pdf coverletter-en.pdf introduction-zh.pdf coverletter-zh.pdf resume-zh.pdf resume-en.pdf $(patsubst $(PAPERS_DIR)/%.tex, $(PAPERS_DIR)/%.pdf, $(PAPERS_SRCS))
+awesome-cv: $(foreach lang,$(LANGUAGES),introduction-$(lang).pdf coverletter-$(lang).pdf resume-$(lang).pdf) $(patsubst $(PAPERS_DIR)/%.tex, $(PAPERS_DIR)/%.pdf, $(PAPERS_SRCS))
 
 # English-only awesome-cv
 awesome-cv-en: introduction-en.pdf coverletter-en.pdf resume-en.pdf
 
 # Build rules for each PDF
-resume-en.pdf: $(RESUME_EN_DIR)/resume.tex $(RESUME_EN_SRCS)
-	$(CC) -output-directory=$(RESUME_EN_DIR) $<
+$(RESUME_DIR)/%/resume.pdf: $(RESUME_DIR)/%/resume.tex $(shell find $(RESUME_DIR)/$* -name '*.tex' 2>/dev/null)
+	$(CC) -output-directory=$(RESUME_DIR)/$* $<
 
-resume-zh.pdf: $(RESUME_ZH_DIR)/resume.tex $(RESUME_ZH_SRCS)
-	$(CC) -output-directory=$(RESUME_ZH_DIR) $<
+$(COVER_LETTER_DIR)/%/coverletter.pdf: $(COVER_LETTER_DIR)/%/coverletter.tex
+	$(CC) -output-directory=$(COVER_LETTER_DIR)/$* $<
 
-coverletter-en.pdf: $(COVER_LETTER_DIR)/coverletter.tex
-	$(CC) -output-directory=$(COVER_LETTER_DIR) $<
-
-coverletter-zh.pdf: $(COVER_LETTER_DIR)/coverletter-zh.tex
-	$(CC) -output-directory=$(COVER_LETTER_DIR) $<
-
-introduction-en.pdf: $(INTRODUCTION_DIR)/introduction-en.tex
-	$(CC) -output-directory=$(INTRODUCTION_DIR) $<
-
-introduction-zh.pdf: $(INTRODUCTION_DIR)/introduction-zh.tex
-	$(CC) -output-directory=$(INTRODUCTION_DIR) $<	
+$(INTRODUCTION_DIR)/%/introduction.pdf: $(INTRODUCTION_DIR)/%/introduction.tex
+	$(CC) -output-directory=$(INTRODUCTION_DIR)/$* $<
 
 $(PAPERS_DIR)/%.pdf: $(PAPERS_DIR)/%.tex
 	$(CC) -output-directory=$(PAPERS_DIR) $<
 
 papers: $(patsubst $(PAPERS_DIR)/%.tex, $(PAPERS_DIR)/%.pdf, $(PAPERS_SRCS))
+
+# Create specific targets for each language
+$(foreach lang,$(LANGUAGES),resume-$(lang).pdf: $(RESUME_DIR)/$(lang)/resume.pdf)
+$(foreach lang,$(LANGUAGES),coverletter-$(lang).pdf: $(COVER_LETTER_DIR)/$(lang)/coverletter.pdf)
+$(foreach lang,$(LANGUAGES),introduction-$(lang).pdf: $(INTRODUCTION_DIR)/$(lang)/introduction.pdf)
 
 # Pipeline targets
 audio-pipeline:
@@ -63,23 +59,18 @@ clean:
 # Copy all PDFs (both English and Chinese) to assets/resume
 copy: awesome-cv
 	mkdir -p assets/resume
-
-	cp $(RESUME_EN_DIR)/resume-en.pdf assets/resume/Zhiwei.Li.Resume.pdf
-	cp $(RESUME_ZH_DIR)/resume.pdf assets/resume/Zhiwei.Li.Resume.ZH.pdf
-
-	cp $(INTRODUCTION_DIR)/introduction-en.pdf assets/resume/Zhiwei.Li.Introduction.EN.pdf
-	cp $(INTRODUCTION_DIR)/introduction-zh.pdf assets/resume/Zhiwei.Li.Introduction.ZH.pdf
-
-	cp $(COVER_LETTER_DIR)/coverletter-en.pdf assets/resume/Zhiwei.Li.CoverLetter.EN.pdf
-	cp $(COVER_LETTER_DIR)/coverletter-zh.pdf assets/resume/Zhiwei.Li.CoverLetter.ZH.pdf
+	$(foreach lang,$(LANGUAGES),\
+		cp $(RESUME_DIR)/$(lang)/resume.pdf assets/resume/Zhiwei.Li.Resume.$(if $(filter en,$(lang)),,$(lang)).pdf;\
+		cp $(INTRODUCTION_DIR)/$(lang)/introduction.pdf assets/resume/Zhiwei.Li.Introduction.$(if $(filter en,$(lang)),,$(lang)).pdf;\
+		cp $(COVER_LETTER_DIR)/$(lang)/coverletter.pdf assets/resume/Zhiwei.Li.CoverLetter.$(if $(filter en,$(lang)),,$(lang)).pdf;\
+	)
 
 # Copy only English PDFs to assets/resume
 awesome-cv-copy-en: awesome-cv-en
 	mkdir -p assets/resume
-
-	cp $(RESUME_EN_DIR)/resume-en.pdf assets/resume/Zhiwei.Li.Resume.pdf
-	cp $(INTRODUCTION_DIR)/introduction-en.pdf assets/resume/Zhiwei.Li.Introduction.EN.pdf
-	cp $(COVER_LETTER_DIR)/coverletter-en.pdf assets/resume/Zhiwei.Li.CoverLetter.EN.pdf
+	cp $(RESUME_DIR)/en/resume.pdf assets/resume/Zhiwei.Li.Resume.pdf
+	cp $(INTRODUCTION_DIR)/en/introduction.pdf assets/resume/Zhiwei.Li.Introduction.EN.pdf
+	cp $(COVER_LETTER_DIR)/en/coverletter.pdf assets/resume/Zhiwei.Li.CoverLetter.EN.pdf
 
 # Copy all PDFs (wrapper for awesome-cv and copy)
 awesome-cv-copy: awesome-cv copy

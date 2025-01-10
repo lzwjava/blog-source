@@ -14,7 +14,7 @@ DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 MODEL_NAME = "deepseek-chat"
 INPUT_DIR = "."
 MAX_THREADS = 3
-TARGET_LANGUAGE = "zh"
+# TARGET_LANGUAGE = "zh" # Removed hardcoded target language
 
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
@@ -22,6 +22,16 @@ client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 def create_translation_prompt(target_language):
     if target_language == "zh":
         return f"""You are a professional translator. You are translating a LaTeX file from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."""
+    elif target_language == "ja":
+        return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to Japanese. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
+    elif target_language == "es":
+        return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to Spanish. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
+    elif target_language == "hi":
+        return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to Hindi. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
+    elif target_language == "fr":
+        return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to French. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
+    elif target_language == "en":
+        return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to English. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
     else:
         return f"You are a professional translator. You are translating a LaTeX file. Translate the following text to {target_language}. Translate Zhiwei Li to 李智维 as chinese translation. Do not translate English names or LaTeX commands. Be careful about code blocks, if not sure, just do not change."
 
@@ -72,7 +82,14 @@ def main():
 
     parser = argparse.ArgumentParser(description="Translate LaTeX files.")
     parser.add_argument("--file", type=str, help="Path to the LaTeX file to translate.")
+    parser.add_argument("--lang", type=str, default="zh", help="Target language for translation (e.g., ja, es, all).")
     args = parser.parse_args()
+    target_language = args.lang
+    
+    languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr']
+    if target_language not in languages:
+        print(f"Error: Invalid target language: {target_language}. Please choose from {languages}")
+        return
 
     if args.file:
         if not os.path.exists(args.file):
@@ -86,25 +103,25 @@ def main():
         base_name = os.path.basename(filename).replace('.tex', '')
         
         if "resume/en" in filename:
-            output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), "zh")
+            output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language)
             output_filename = os.path.basename(filename)
         elif "coverletter/coverletter" in filename:
             output_dir = os.path.join(os.path.dirname(filename))
-            output_filename = "coverletter-zh.tex"
+            output_filename = f"coverletter-{target_language}.tex"
         elif "introduction/introduction" in filename:
             output_dir = os.path.join(os.path.dirname(filename))
-            output_filename = "introduction-zh.tex"
+            output_filename = f"introduction-{target_language}.tex"
         
         os.makedirs(output_dir, exist_ok=True)
         output_file = os.path.join(output_dir, output_filename)
         
         print(f"Submitting translation job for {filename}...")
-        translate_latex_file(filename, output_file, TARGET_LANGUAGE)
+        translate_latex_file(filename, output_file, target_language)
         
         # Copy profile picture
         if "resume/en" in filename:
             src_profile = os.path.join("awesome-cv", "profile")
-            dest_profile = os.path.join("awesome-cv", "resume", "zh", "profile")
+            dest_profile = os.path.join("awesome-cv", "resume", target_language, "profile")
             if os.path.exists(src_profile):
                 shutil.copy(src_profile, dest_profile)
                 print(f"Copied profile picture to {dest_profile}")
@@ -140,20 +157,20 @@ def main():
                 base_name = os.path.basename(filename).replace('.tex', '')
                 
                 if "resume/en" in filename:
-                    output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), "zh")
+                    output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language)
                     output_filename = os.path.basename(filename)
                 elif "coverletter/coverletter" in filename:
                     output_dir = os.path.join(os.path.dirname(filename))
-                    output_filename = "coverletter-zh.tex"
+                    output_filename = f"coverletter-{target_language}.tex"
                 elif "introduction/introduction" in filename:
                     output_dir = os.path.join(os.path.dirname(filename))
-                    output_filename = "introduction-zh.tex"
+                    output_filename = f"introduction-{target_language}.tex"
                 
                 os.makedirs(output_dir, exist_ok=True)
                 output_file = os.path.join(output_dir, output_filename)
                 
                 print(f"Submitting translation job for {filename}...")
-                future = executor.submit(translate_latex_file, filename, output_file, TARGET_LANGUAGE)
+                future = executor.submit(translate_latex_file, filename, output_file, target_language)
                 futures.append(future)
             else:
                 print(f"Skipping {filename} because it does not exist.")
@@ -166,7 +183,7 @@ def main():
     
     # Copy profile picture
     src_profile = os.path.join("awesome-cv", "profile")
-    dest_profile = os.path.join("awesome-cv", "resume", "zh", "profile")
+    dest_profile = os.path.join("awesome-cv", "resume", target_language, "profile")
     if os.path.exists(src_profile):
         shutil.copy(src_profile, dest_profile)
         print(f"Copied profile picture to {dest_profile}")

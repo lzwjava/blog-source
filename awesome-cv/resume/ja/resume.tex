@@ -1,0 +1,72 @@
+%-------------------------------------------------------------------------------
+% 設定
+%-------------------------------------------------------------------------------
+% A4用紙サイズがデフォルト、USレターサイズの場合は'letterpaper'を使用
+\documentclass[11pt, a4paper]{../../awesome-cv}
+
+% ページの余白を設定
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% ハイライトの色
+\colorlet{awesome}{awesome-red}
+
+% セクションハイライトを設定
+\setbool{acvSectionColorHighlight}{true}
+
+\usepackage{fontspec} 	% フォント設定を許可
+\usepackage{xeCJK} 		% 中英文字型を別々に設定
+\setCJKmainfont{PingFang SC} 	% 中文字型を設定
+\setCJKsansfont{PingFang SC} % Sans-serifフォント
+\setCJKmonofont{PingFang SC} % モノスペースフォント
+\setmainfont{Times New Roman}
+\setromanfont{Times New Roman}
+\setmonofont{Times New Roman}
+\XeTeXlinebreaklocale "zh" 	% 中国語の自動改行を有効化
+
+\linespread{1.4}\selectfont 	% 行間
+
+%-------------------------------------------------------------------------------
+%	個人情報
+%-------------------------------------------------------------------------------
+\photo[circle,noedge,right]{./awesome-cv/profile}
+\name{李智維}{}
+\position{フルスタックエンジニア{\enskip\cdotp\enskip}バックエンドエンジニア}
+\address{中国広州市黄埔区}
+
+\mobile{(+86) 132-6163-0925}
+\email{lzwjava@gmail.com}
+\homepage{lzwjava.github.io}
+\github{lzwjava}
+\linkedin{lzwjava}
+\twitter{@lzwjava}
+
+\quote{``自由と真実"}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% ヘッダー
+\makecvheader[C]
+
+% フッター
+\makecvfooter{\today}{李智維~~~·~~~履歴書}{\thepage}
+
+%-------------------------------------------------------------------------------
+%	履歴書/レジュメの内容
+%-------------------------------------------------------------------------------
+\input{summary.tex}
+\input{experience.tex}
+\input{education.tex}
+\input{corporateprojects.tex}
+\input{personalprojects.tex}
+\input{blogposts.tex}
+\input{papers.tex}
+\input{books.tex}
+\input{skills.tex}
+\input{tools.tex}
+\input{knowledge.tex}
+\input{certificates.tex}
+\input{links.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}
