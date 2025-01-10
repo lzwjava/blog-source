@@ -5,11 +5,11 @@ layout: post
 title: RAGFlowを試してみる
 ---
 
-https://ragflow.io
+[https://ragflow.io](https://ragflow.io)
 
 "resume-en.txt" は解析が許可されていません。基本的に、"-" を含むファイル名は受け入れられません。"resume.txt" に名前を変更する必要があります。
 
-テストしたところ、非常に良好なパフォーマンスを示しました。
+私はこの製品をテストし、非常に良い性能を発揮しました。
 
 {: .centered }
 ![](assets/images/rag/r1.jpg)
