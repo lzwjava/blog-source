@@ -9,6 +9,7 @@ layout: page
   <select id="sort-select">
     <option value="author-picks|all">Author's Picks</option>
     <option value="date-desc|all" selected>Date Descending - All</option>
+    <option value="date-desc|random">Date Descending - Random</option>    
     <option value="date-desc|en">Date Descending - English</option>
     <option value="date-desc|zh">日期降序 - 中文</option>
     <option value="date-desc|ja">日付降順 - 日本語</option>
@@ -21,7 +22,7 @@ layout: page
     <option value="random|ja">ランダム順 - 日本語</option>
     <option value="random|es">Orden aleatorio - Español</option>
     <option value="random|hi">यादृच्छिक क्रम - हिंदी</option>
-    <option value="random|fr">Ordre aléatoire - Français</option>
+    <option value="random|fr">Ordre aléatoire - Français</option>  
   </select>
 
 </div>
@@ -73,94 +74,134 @@ layout: page
       const selectedValue = sortSelect.value;
       const [sortOption, langFilter] = selectedValue.split('|');
 
-      // Select all posts
+      // Grab all posts
       const posts = document.querySelectorAll('.post-list li.post-item');
 
-      // Filter posts by language
-      const filteredPosts = langFilter === 'all' ?
-        Array.from(posts) :
-        Array.from(posts).filter(post => post.classList.contains(`lang-${langFilter}`));
+      let processedPosts = [];
 
-      // Create postArray
-      const postArray = filteredPosts.map(post => {
-        const dateElement = post.querySelector('.date');
-        const dateStr = dateElement ? dateElement.textContent.replace(/\./g, '-') : null;
-        const filenameElement = post.querySelector('a');
-        const filename = filenameElement ? filenameElement.getAttribute('href').split('/').pop() : null;
-        const filenameWithoutExtension = filename ? filename.split('.')[0] : null;
-        const titleElement = post.querySelector('.title');
-        const title = titleElement ? titleElement.textContent.toLowerCase() : null;
+      // Custom logic for "Date Descending - Random"
+      if (sortOption === 'date-desc' && langFilter === 'random') {
+        // 1. Group posts by base filename (ignoring language suffix)
+        const groups = {};
 
+        posts.forEach(post => {
+          // We only group the posts that match the language filter if needed
+          // but here, let's assume we're just grouping all, ignoring language filter
+          const aElement = post.querySelector('a');
+          if (!aElement) return;
 
-        return {
-          element: post,
-          date: dateStr ? new Date(dateStr) : null,
-          title: title,
-          top: parseInt(post.getAttribute('data-top'), 10),
-          filename: filenameWithoutExtension
-        };
-      }).filter(post => post.date); // Filter out posts with no date
+          // Example href: "https://lzwjava.github.io/contact-en"
+          // We only need the last part: "contact-en"
+          const fullHref = aElement.getAttribute('href');
+          if (!fullHref) return;
 
+          const pathPart = fullHref.split('/').pop(); 
+          // Now pathPart might be "contact-en", "about-zh", etc.
+          // We want to separate "contact" from "en"
 
-      // Sort posts
-      const sortedPosts = sortPosts(postArray, sortOption);
+          // We'll use a simple regex: ^(.+)-(\w+)$
+          //  - (.+)  = base name (capture everything until the last hyphen)
+          //  - (\w+) = language suffix (en, zh, ja, etc.)
+          const match = pathPart.match(/^(.+?)-(\w+)$/);
 
-      // Clear the postList
+          // If there's no match, fallback to the entire pathPart as a single base
+          // or skip grouping if we can't parse it
+          let baseName = pathPart;
+          if (match) {
+            // match[1] = "contact"
+            // match[2] = "en"
+            baseName = match[1]; 
+          }
+
+          if (!groups[baseName]) {
+            groups[baseName] = [];
+          }
+          groups[baseName].push(post);
+        });
+
+        // 2. Randomly select one post per group
+        const selectedPosts = Object.values(groups).map(group => {
+          return group[Math.floor(Math.random() * group.length)];
+        });
+
+        // 3. Convert each selected post to an object with date info
+        processedPosts = selectedPosts.map(post => {
+          // Extract the date from the DOM
+          const dateElement = post.querySelector('.date');
+          // Example text might be "2025.01.11"
+          const dateStr = dateElement
+            ? dateElement.textContent.trim().replace(/\./g, '-')
+            : null;
+
+          return {
+            element: post,
+            // Convert "2025-01-11" to a Date object
+            date: dateStr ? new Date(dateStr) : null
+          };
+        }).filter(item => item.date); // Exclude items without a valid date
+
+        // 4. Sort by date descending
+        processedPosts.sort((a, b) => b.date - a.date);
+      } 
+      else {
+        // All other sort options remain as-is (example logic below).
+
+        // Filter posts by language if needed
+        const filteredPosts = (langFilter === 'all')
+          ? Array.from(posts)
+          : Array.from(posts).filter(post => 
+              post.classList.contains(`lang-${langFilter}`));
+
+        // Convert each post to a sortable object
+        const postArray = filteredPosts.map(post => {
+          const dateElement = post.querySelector('.date');
+          const dateStr = dateElement
+            ? dateElement.textContent.trim().replace(/\./g, '-')
+            : null;
+
+          return {
+            element: post,
+            date: dateStr ? new Date(dateStr) : null
+          };
+        }).filter(item => item.date);
+
+        // Sort the posts in descending date
+        postArray.sort((a, b) => b.date - a.date);
+        processedPosts = postArray;
+      }
+
+      // Clear existing list
       postList.innerHTML = '';
 
-      // Append sorted posts
-      if (sortedPosts.length > 0) {
-        sortedPosts.forEach(post => postList.appendChild(post.element));
+      // Append processed posts or show a message
+      if (processedPosts.length > 0) {
+        processedPosts.forEach(item => {
+          if (item.element) {
+            postList.appendChild(item.element);
+          }
+        });
       } else {
         const noPostsMessage = document.createElement('li');
         noPostsMessage.className = 'list-group-item post-item';
-        noPostsMessage.textContent = 'No posts available. Please refresh the page to load the posts. There is a known bug that I am lazy to fix.';
+        noPostsMessage.textContent = 
+          'No posts available. Please refresh the page. Known bug pending fix.';
         postList.appendChild(noPostsMessage);
       }
 
-      // Update post number
-      postNumber.textContent = `${sortedPosts.length} posts`;
+      // Update the post count
+      postNumber.textContent = `${processedPosts.length} posts`;
 
-      // Show the post list
+      // Show the list
       postList.style.display = 'block';
     }
 
-    function sortPosts(posts, sortOption) {
-        const dateCompare = (a, b) => {
-            if (b.date - a.date !== 0) {
-                return b.date - a.date;
-            }
-            return a.filename.localeCompare(b.filename);
-        };
-      switch (sortOption) {
-        case 'date-desc':
-          return posts.sort(dateCompare);
-        case 'random':
-          return shuffle(posts);
-        case 'author-picks':
-          return posts.filter(post => !isNaN(post.top)).sort(dateCompare);
-        default:
-          return posts.sort(dateCompare);
-      }
-    }
-
-    function shuffle(array) {
-      let currentIndex = array.length, randomIndex;
-      while (currentIndex != 0) {
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
-        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
-      }
-      return array;
-    }
-
-    // Event listener for select change
+    // Event listener for dropdown changes
     sortSelect.addEventListener('change', function () {
       updatePosts();
       localStorage.setItem('sortOption', sortSelect.value);
     });
 
-    // Restore selection from localStorage
+    // Restore from localStorage if available
     const savedSort = localStorage.getItem('sortOption');
     if (savedSort) {
       sortSelect.value = savedSort;
@@ -169,6 +210,4 @@ layout: page
     }
     updatePosts();
   });
-
-
 </script>
