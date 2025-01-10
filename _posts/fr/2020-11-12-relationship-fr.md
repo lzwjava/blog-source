@@ -1,28 +1,7 @@
 ---
 lang: fr
 layout: post
-title: "Comment établir des relations ?\n\nÉtablir des relations, que ce soit dans\
-  \ un contexte professionnel ou personnel, est une compétence essentielle. Voici\
-  \ quelques conseils pour vous aider à mieux naviguer dans ce domaine :\n\n### 1.\
-  \ **Soyez authentique**\n   - Les gens peuvent sentir quand vous êtes sincère ou\
-  \ non. Soyez vous-même et montrez un intérêt réel pour les autres.\n\n### 2. **Écoutez\
-  \ activement**\n   - Écoutez plus que vous ne parlez. Posez des questions et montrez\
-  \ que vous êtes engagé dans la conversation.\n\n### 3. **Offrez de l'aide**\n  \
-  \ - Si vous pouvez aider quelqu'un, faites-le sans attendre quelque chose en retour.\
-  \ La générosité renforce les relations.\n\n### 4. **Maintenez le contact**\n   -\
-  \ Une relation nécessite un entretien régulier. Envoyez un message, appelez ou organisez\
-  \ une rencontre de temps en temps.\n\n### 5. **Soyez patient**\n   - Les relations\
-  \ solides prennent du temps à se construire. Ne vous attendez pas à des résultats\
-  \ immédiats.\n\n### 6. **Respectez les limites**\n   - Chacun a ses propres limites.\
-  \ Respectez-les et ne forcez pas les choses.\n\n### 7. **Partagez des expériences**\n\
-  \   - Partager des moments ou des activités ensemble peut renforcer les liens.\n\
-  \n### 8. **Soyez positif**\n   - Une attitude positive attire les gens. Essayez\
-  \ de maintenir une énergie constructive dans vos interactions.\n\n### 9. **Apprenez\
-  \ à donner et à recevoir**\n   - Une relation équilibrée implique à la fois de donner\
-  \ et de recevoir. Ne soyez pas toujours celui qui prend ou celui qui donne.\n\n\
-  ### 10. **Soyez flexible**\n   - Les relations évoluent avec le temps. Soyez prêt\
-  \ à vous adapter aux changements.\n\nEn fin de compte, établir des relations est\
-  \ un processus continu qui demande de la patience, de l'empathie et de la sincérité."
+title: "Comment établir des relations"
 ---
 
 Entreprendre, en particulier dans le cas de notre entreprise de sous-traitance logicielle, implique de gérer les relations avec les clients. Outre l'offre de cadeaux lors de certaines occasions, j'ai réalisé qu'il existe en réalité de nombreuses autres méthodes. J'ai également observé comment certains amis qui ont réussi dans leurs affaires s'y prennent pour entretenir ces relations. Ainsi, discuter de ce sujet m'aide également à y voir plus clair.
