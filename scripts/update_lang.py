@@ -20,19 +20,19 @@ client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 def create_translation_prompt(target_language):
     if target_language == 'ja':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Japanese. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Japanese. Do not translate English names. Be careful about code blocks."
     elif target_language == 'es':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Spanish. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Spanish. Do not translate English names. Be careful about code blocks."
     elif target_language == 'hi':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Hindi. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Hindi. Do not translate English names. Be careful about code blocks."
     elif target_language == 'fr':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to French. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to French. Do not translate English names. Be careful about code blocks."
     elif target_language == "zh":
-        return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Do not translate English names or code blocks. Be careful about code blocks, if not sure, just do not change."""
+        return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Do not translate English names or code blocks. Be careful about code blocks."""
     elif target_language == 'en':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to English. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to English. Do not translate English names. Be careful about code blocks."
     else:
-        return f"You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to {target_language}. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+        return f"You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to {target_language}. Do not translate English names. Be careful about code blocks."
 
 
 def translate_text(text, target_language):
