@@ -6,9 +6,9 @@ title: Temps d'exécution maximum d'un job GitHub Actions
 translated: true
 ---
 
-J'utilise GitHub Actions pour automatiser la traduction de mes articles de blog. Initialement, j'ai essayé de traduire tous les articles en une seule tâche, en validant les modifications dans le dépôt uniquement après que toutes les traductions étaient terminées.
+J'utilise GitHub Actions pour automatiser la traduction de mes articles de blog. Au départ, j'ai essayé de traduire tous les articles en une seule tâche, en validant les modifications dans le dépôt uniquement après que toutes les traductions étaient terminées.
 
-J'étais optimiste et je suis allé dormir, en espérant que le processus se terminerait. Cependant, après 8 heures, je me suis réveillé pour découvrir l'erreur suivante :
+J'étais optimiste et je suis allé dormir en m'attendant à ce que le processus se termine. Cependant, après 8 heures, je me suis réveillé pour découvrir l'erreur suivante :
 
 > Le job exécuté sur le runner GitHub Actions 12 a dépassé le temps d'exécution maximum de 360 minutes.
 
