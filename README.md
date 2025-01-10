@@ -17,6 +17,9 @@ This blog incorporates several enhancements compared to a standard Jekyll blog u
 *   **`awesome-cv` Integration:** Uses `awesome-cv` to generate professional CVs directly from the blog.
 *   **RSS Feed Support:** Provides RSS feeds via `feed.xml`, allowing users to subscribe to the blog.
 *   **Bilingual Content:** Supports both Chinese and English content to cater to a diverse audience.
+*   **GitHub Workflow Automation:** Implements GitHub Actions for automated building, testing, and deployment, ensuring a streamlined development process.
+*   **Automatic Translation Workflow:** Automatically translates new or updated posts into multiple languages using GitHub Actions.
+
 
 ## Getting Started
 
