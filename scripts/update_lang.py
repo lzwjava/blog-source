@@ -47,8 +47,9 @@ def translate_text(text, target_language):
             stream=False
         )
         if response and response.choices:
-            print(f"  Translation successful.")
-            return response.choices[0].message.content
+            translated_text = response.choices[0].message.content
+            print(f"  Translation successful. Translated text: {translated_text[:50]}...")
+            return translated_text
         else:
             print(f"  Translation failed.")
             return None
