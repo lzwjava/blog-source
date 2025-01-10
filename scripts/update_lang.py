@@ -18,7 +18,7 @@ MAX_THREADS = 10
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 
-def create_translation_prompt(target_language):
+def create_translation_prompt(target_language, special=False):
     if target_language == 'ja':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Japanese. Do not translate English names. Be careful about code blocks."
     elif target_language == 'es':
@@ -28,14 +28,17 @@ def create_translation_prompt(target_language):
     elif target_language == 'fr':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to French. Do not translate English names. Be careful about code blocks."
     elif target_language == "zh":
-        return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Do not translate English names or code blocks. Be careful about code blocks."""
+        if special:
+            return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Do not translate English names or code blocks. Be careful about code blocks."""
+        else:
+            return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Do not translate English names or code blocks. Be careful about code blocks."""
     elif target_language == 'en':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to English. Do not translate English names. Be careful about code blocks."
     else:
         return f"You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to {target_language}. Do not translate English names. Be careful about code blocks."
 
 
-def translate_text(text, target_language):
+def translate_text(text, target_language, special=False):
     if not text or not text.strip():
         return ""
     print(f"  Translating text: {text[:50]}...")
@@ -43,7 +46,7 @@ def translate_text(text, target_language):
         response = client.chat.completions.create(
             model=MODEL_NAME,
             messages=[
-                {"role": "system", "content": create_translation_prompt(target_language)},
+                {"role": "system", "content": create_translation_prompt(target_language, special)},
                 {"role": "user", "content": text}
             ],
             stream=False
@@ -117,7 +120,8 @@ def translate_markdown_file(input_file, output_file, target_language, changed_pa
         if not dry_run:
             translated_front_matter = translate_front_matter(front_matter, target_language, input_file)            
             
-            translated_content = translate_text(content_without_front_matter, target_language)
+            special = "resume" in input_file
+            translated_content = translate_text(content_without_front_matter, target_language, special=special)
             if translated_content:
                 translated_content = translated_front_matter + "\n\n" + translated_content
             else:
