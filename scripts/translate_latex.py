@@ -105,16 +105,16 @@ def main():
         base_name = os.path.basename(filename).replace('.tex', '')
         
         if kind == "resume":
-            if "resume/en" in filename:
-                output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language)
-                output_filename = os.path.basename(filename)
+            if "awesome-cv/en/resume-en/resume-en.tex" in filename:
+                output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language, "resume-"+target_language)
+                output_filename = f"resume-{target_language}.tex"
         elif kind == "coverletter":
-            if "coverletter/coverletter" in filename:
-                output_dir = os.path.join(os.path.dirname(filename))
+            if "awesome-cv/en/coverletter-en.tex" in filename:
+                output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language)
                 output_filename = f"coverletter-{target_language}.tex"
         elif kind == "introduction":
-            if "introduction/introduction" in filename:
-                output_dir = os.path.join(os.path.dirname(filename))
+            if "awesome-cv/en/introduction-en.tex" in filename:
+                output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language)
                 output_filename = f"introduction-{target_language}.tex"
         else:
             print(f"Error: Invalid kind: {kind}. Please choose from resume, coverletter, or introduction")
@@ -124,19 +124,7 @@ def main():
         output_file = os.path.join(output_dir, output_filename)
         
         print(f"Submitting translation job for {filename}...")
-        translate_latex_file(filename, output_file, target_language)
-        
-        # Copy profile picture
-        if kind == "resume":
-            if "resume/en" in filename:
-                src_profile = os.path.join("awesome-cv", "profile")
-                dest_profile = os.path.join("awesome-cv", "resume", target_language, "profile")
-                if os.path.exists(src_profile):
-                    shutil.copy(src_profile, dest_profile)
-                    print(f"Copied profile picture to {dest_profile}")
-                else:
-                    print(f"Profile picture not found at {src_profile}")
-        return
+        translate_latex_file(filename, output_file, target_language)    
     
     input_dir = "."
             
@@ -147,9 +135,9 @@ def main():
         for file in files:
             full_path = os.path.join(root, file)
             if file.endswith(".tex") and (
-                (kind == "resume" and "resume/en" in full_path) or
-                (kind == "coverletter" and "coverletter/coverletter.tex" in full_path) or
-                (kind == "introduction" and "introduction/introduction.tex" in full_path)
+                (kind == "resume" and "awesome-cv/en/resume-en/resume-en.tex" in full_path) or
+                (kind == "coverletter" and "awesome-cv/en/coverletter-en.tex" in full_path) or
+                (kind == "introduction" and "awesome-cv/en/introduction-en.tex" in full_path)
             ):
                 files_to_translate.append(full_path)
     
@@ -167,16 +155,16 @@ def main():
                 base_name = os.path.basename(filename).replace('.tex', '')
                 
                 if kind == "resume":
-                    if "resume/en" in filename:
-                        output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language)
-                        output_filename = os.path.basename(filename)
+                    if "awesome-cv/en/resume-en/resume-en.tex" in filename:
+                        output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language, "resume-"+target_language)
+                        output_filename = f"resume-{target_language}.tex"
                 elif kind == "coverletter":
-                    if "coverletter/coverletter" in filename:
-                        output_dir = os.path.join(os.path.dirname(filename))
+                    if "awesome-cv/en/coverletter-en.tex" in filename:
+                        output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language)
                         output_filename = f"coverletter-{target_language}.tex"
                 elif kind == "introduction":
-                    if "introduction/introduction" in filename:
-                        output_dir = os.path.join(os.path.dirname(filename))
+                    if "awesome-cv/en/introduction-en.tex" in filename:
+                        output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language)
                         output_filename = f"introduction-{target_language}.tex"
                 
                 os.makedirs(output_dir, exist_ok=True)
@@ -194,15 +182,6 @@ def main():
             except Exception as e:
                 print(f"A thread failed: {e}")
     
-    # Copy profile picture
-    if kind == "resume":
-        src_profile = os.path.join("awesome-cv", "profile")
-        dest_profile = os.path.join("awesome-cv", "resume", target_language, "profile")
-        if os.path.exists(src_profile):
-            shutil.copy(src_profile, dest_profile)
-            print(f"Copied profile picture to {dest_profile}")
-        else:
-            print(f"Profile picture not found at {src_profile}")
 
 
 if __name__ == "__main__":
