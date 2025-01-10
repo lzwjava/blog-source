@@ -15,6 +15,6 @@ This meant that the 6 hours of translation work was lost, as the commit only hap
 
 To address this, I modified the workflow to commit changes every 10 files.
 
-Furthermore, I implemented multithreaded programming to reduce the total translation time from 6 hours to approximately one hour.
-
 GitHub Actions offers a lot of flexibility. It supports multiple workflow jobs, allowing for the separation of tasks. Some jobs can be triggered on each commit, while others can be triggered by different events.
+
+Furthermore, I implemented multithreaded programming to reduce the total translation time from 6 hours to approximately one hour.

@@ -76,7 +76,10 @@ def translate_front_matter(front_matter, target_language, input_file):
             if not (input_file == 'original/2025-01-11-resume-en.md' and target_language in ['zh', 'fr']):
                 translated_title = translate_text(front_matter_dict['title'], target_language)
                 if translated_title:
-                    front_matter_dict['title'] = translated_title.strip()
+                    translated_title = translated_title.strip()
+                    if len(translated_title) > 300:
+                        translated_title = translated_title.split('\n')[0]
+                    front_matter_dict['title'] = translated_title
                     print(f"  Translated title to: {translated_title}")
                 else:
                     print(f"  Title translation failed for: {input_file}")
