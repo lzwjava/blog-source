@@ -74,19 +74,35 @@ jobs:
       - name: Generate Notes Links
         run: |
           python scripts/generate_notes_link.py
+      
+      # --- (E) Update language files ---
+      - name: Update language files
+        run: |
+          python scripts/update_lang.py
+      
+      # --- (F) Commit language files if changed ---
+      - name: Commit language files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _posts/*/*.md
+          git diff --cached --quiet || git commit -m "Update language files"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # --- (E) Setup Pages ---
+      # --- (G) Setup Pages ---
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # --- (F) Build with Jekyll ---
+      # --- (H) Build with Jekyll ---
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
 
-      # --- (G) Upload the build artifact ---
+      # --- (I) Upload the build artifact ---
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
 
