@@ -71,10 +71,6 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate Notes Links
-        run: |
-          python scripts/generate_notes_link.py
       
       - name: Output git diff
         run: |
