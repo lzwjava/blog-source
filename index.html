@@ -4,18 +4,20 @@ layout: page
 
 <div class="sort-container">
 
-  <span id="post-number" class="post-number">{{ site.posts.size }} posts</span>
-
+  <span id="post-number" class="post-number">
+    {{ site.posts.size }} posts
+    (0 translated)
+  </span>
   <select id="sort-select">
-    <option value="author-picks|all">Author's Picks</option>
-    <option value="date-desc|all" selected>Date Descending - All</option>
-    <option value="date-desc|random">Date Descending - Random</option>    
-    <option value="date-desc|en">Date Descending - English</option>
-    <option value="date-desc|zh">日期降序 - 中文</option>
-    <option value="date-desc|ja">日付降順 - 日本語</option>
-    <option value="date-desc|es">Fecha descendente - Español</option>
-    <option value="date-desc|hi">तिथि अवरोही - हिंदी</option>
-    <option value="date-desc|fr">Date descendante - Français</option>
+    <option value="author-picks|all">Picks</option>
+    <option value="date-desc|all" selected>All</option>
+    <option value="date-desc|random">Random</option>
+    <option value="date-desc|en">English</option>
+    <option value="date-desc|zh">中文</option>
+    <option value="date-desc|ja">日本語</option>
+    <option value="date-desc|es">Español</option>
+    <option value="date-desc|hi">हिंदी</option>
+    <option value="date-desc|fr">Français</option>
   </select>
 
 </div>
@@ -24,20 +26,20 @@ layout: page
   {% if site.posts.size > 0 %}
   {% for post in site.posts %}
     {% if post.path contains '_posts/en/' %}
-      <li class="list-group-item post-item lang-en" data-top="{{ post.top }}">
+      <li class="list-group-item post-item lang-en" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
     {% elsif post.path contains '_posts/zh/' %}
-      <li class="list-group-item post-item lang-zh" data-top="{{ post.top }}">
+      <li class="list-group-item post-item lang-zh" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
     {% elsif post.path contains '_posts/ja/' %}
-      <li class="list-group-item post-item lang-ja" data-top="{{ post.top }}">
+      <li class="list-group-item post-item lang-ja" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
     {% elsif post.path contains '_posts/es/' %}
-      <li class="list-group-item post-item lang-es" data-top="{{ post.top }}">
+      <li class="list-group-item post-item lang-es" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
     {% elsif post.path contains '_posts/hi/' %}
-      <li class="list-group-item post-item lang-hi" data-top="{{ post.top }}">
+      <li class="list-group-item post-item lang-hi" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
     {% elsif post.path contains '_posts/fr/' %}
-      <li class="list-group-item post-item lang-fr" data-top="{{ post.top }}">
+      <li class="list-group-item post-item lang-fr" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
     {% elsif post.path contains '_posts/original/' %}
     {% else %}
-      <li class="list-group-item post-item lang-all" data-top="{{ post.top }}">
+      <li class="list-group-item post-item lang-all" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
     {% endif %}
     {% if post.path contains '_posts/en/' or post.path contains '_posts/zh/' or post.path contains '_posts/ja/' or post.path contains '_posts/es/' or post.path contains '_posts/hi/' or post.path contains '_posts/fr/' or post.path contains '_posts/all/' %}
       <a href="{{ post.url }}">
@@ -193,7 +195,8 @@ layout: page
       }
 
       // Update the post count
-      postNumber.textContent = `${processedPosts.length} posts`;
+      const translatedCount = processedPosts.filter(item => item.element && item.element.dataset.translated === 'true').length;
+      postNumber.textContent = `${processedPosts.length} posts (${translatedCount} translated)`;
 
       // Show the list
       postList.style.display = 'block';
