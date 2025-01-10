@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Portfolio"
-link: "pages/portfolio-zh"
+title: Portfolio
 audio: true
 ---
 

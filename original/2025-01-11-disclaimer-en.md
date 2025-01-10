@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Disclaimer"
-link: "pages/disclaimer-zh"
+title: Disclaimer
 audio: true
 ---
 
