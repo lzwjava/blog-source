@@ -28,11 +28,11 @@ jobs:
         run: |
           TOTAL_POSTS=$(ls original/*.md | wc -l)
           for i in $(seq 0 10 "$TOTAL_POSTS"); do
-            python scripts/translate_lang.py --n 50 --lang hi
+            python scripts/translate_lang.py --n 50 --lang fr
             
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add _posts/hi/*
+            git add _posts/fr/*
             git diff --cached --quiet || git commit -m "Add translated posts"
             git push
           done
