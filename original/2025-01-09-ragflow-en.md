@@ -5,7 +5,7 @@ layout: post
 title: Trying RAGFlow
 ---
 
-The website of RAGFlow is [https://ragflow.io](https://ragflow.io).
+[https://ragflow.io](https://ragflow.io)
 
 "resume-en.txt" is not allowed to parse. Basically, the filename that contains "-" is not acceptable. It needs to be renamed to "resume.txt". 
 
