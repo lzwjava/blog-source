@@ -76,6 +76,10 @@ jobs:
         run: |
           python scripts/generate_notes_link.py
       
+      - name: Output git diff
+        run: |
+          git diff --name-only HEAD~1 HEAD
+      
       - name: Dry run language files
         id: dry_run_lang
         run: |
