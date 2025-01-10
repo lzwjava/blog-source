@@ -69,7 +69,7 @@ def translate_front_matter(front_matter, target_language):
         return front_matter
 
 
-def translate_markdown_file(input_file, output_file, target_language, changed_paragraphs=None):
+def translate_markdown_file(input_file, output_file, target_language, changed_paragraphs=None, dry_run=False):
     print(f"  Processing file: {input_file}")
     try:
         with open(input_file, 'r', encoding='utf-8') as infile:
@@ -80,19 +80,23 @@ def translate_markdown_file(input_file, output_file, target_language, changed_pa
         front_matter = front_matter_match.group(1) if front_matter_match else ""
         content_without_front_matter = content[len(front_matter_match.group(0)):] if front_matter_match else content
         
-        translated_front_matter = translate_front_matter(front_matter, target_language)
-        
-        
-        translated_content = translate_text(content_without_front_matter, target_language)
-        if translated_content:
-            translated_content = translated_front_matter + "\n\n" + translated_content
+        if not dry_run:
+            translated_front_matter = translate_front_matter(front_matter, target_language)
+            
+            
+            translated_content = translate_text(content_without_front_matter, target_language)
+            if translated_content:
+                translated_content = translated_front_matter + "\n\n" + translated_content
+            else:
+                translated_content = content
+            
+            if os.path.exists(output_file):
+                os.remove(output_file)
+                
+            with open(output_file, 'w', encoding='utf-8') as outfile:
+                outfile.write(translated_content)
         else:
             translated_content = content
-        if os.path.exists(output_file):
-            os.remove(output_file)
-            
-        with open(output_file, 'w', encoding='utf-8') as outfile:
-            outfile.write(translated_content)
         print(f"  Finished processing file: {output_file}")
     except Exception as e:
         print(f"  Error processing file {input_file}: {e}")
@@ -154,11 +158,14 @@ def main():
 
     parser = argparse.ArgumentParser(description="Translate markdown files to a specified language.")
     parser.add_argument("--lang", type=str, default="all", help="Target language for translation (e.g., ja, es, all).")
+    parser.add_argument("--dry_run", action="store_true", help="Perform a dry run without modifying files.")
     args = parser.parse_args()
     target_language = args.lang
+    dry_run = args.dry_run
     
     languages = ['ja', 'es', 'hi', 'zh'] if target_language == 'all' else [target_language]
 
+    total_files_to_process = 0
     for lang in languages:
         output_dir = f"_posts/{lang}"
         if lang == 'hi':
@@ -167,6 +174,7 @@ def main():
         print(f"Created directory {output_dir}")
 
         changed_files = get_changed_files()
+        total_files_to_process += len(changed_files)
         
         with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
             futures = []
@@ -183,7 +191,7 @@ def main():
                 changed_paragraphs = get_changed_paragraphs(input_file, output_file)
                 
                 print(f"Submitting translation job for {filename} to {lang}...")
-                future = executor.submit(translate_markdown_file, input_file, output_file, lang, changed_paragraphs)
+                future = executor.submit(translate_markdown_file, input_file, output_file, lang, changed_paragraphs, dry_run)
                 futures.append(future)
             
             for future in concurrent.futures.as_completed(futures):
@@ -191,6 +199,7 @@ def main():
                     future.result()
                 except Exception as e:
                     print(f"A thread failed: {e}")
+    print(f"Total Markdown files to process: {total_files_to_process}")
 
 
 if __name__ == "__main__":
