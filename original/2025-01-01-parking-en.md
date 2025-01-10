@@ -17,6 +17,10 @@ However, at noon, while I was sleeping, I was woken up by a call. Someone told m
 
 Tonight, I thought about how to avoid such mistakes and handle this properly. I should try again to see if someone will occupy my spot, even late at night. I need to figure out the probability of this happening so I know if I can afford to make this mistake. Then I thought, why not park in the illegal public area? Although I hate cleaning the red paper off my car's front window, it might be worth it. The shredded paper stuck to the window is okay to remove, but it is troublesome.
 
+{: .centered }
+![](assets/images/parking/p2.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
 This way, I can use my car anytime. So, my current focus is on how to clean the paper effectively. It seems I need to use alcohol to dissolve it. I am happy to think of a solution like this.
 
 Previously, to avoid the trouble of having our parking spot taken, we rarely used our second car for about two months.
@@ -26,4 +30,18 @@ So, this approach seems okay, and we are looking for a way to clean the red pape
 There are several lessons here: Mistakes are not to be feared as long as they are affordable. Try to think of the best ways without limits.
 
 Rules are sometimes terrible, and we have to fight against them. I think our apartment community could allow 50 more cars to park in the public area. Every car inside the apartment community has already paid the fees for parking. The guard uses red paper to threaten people, so only around twenty cars dare to challenge the rule and park in the public area. I decided to join them.
+
+---
+
+Update:
+
+Very interesting. I received a red paper on my car's front window. I bought the multifunctional adhesive remover below, but it doesn't work well in this case. The liquid quickly flows down the slanted front window.
+
+Next time, I used hot water at home to remove it, which worked well. However, the guard will stick another red paper on it. I should probably make a red paper to stick on the top left corner of my front window to trick the guard into thinking he already did it and hope for his mercy.
+
+
+{: .centered }
+![](assets/images/parking/p.jpg){: .responsive }
+*Source: JD.com*{: .caption }
+
 
