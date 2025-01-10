@@ -67,6 +67,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         front_matter_dict = {}
         if front_matter:
             front_matter_dict = yaml.safe_load(front_matter)
+            print(f"  Front matter after safe_load: {front_matter_dict}")
         if 'title' in front_matter_dict:
             print(f"  Translating title: {front_matter_dict['title']}")
             translated_title = translate_text(front_matter_dict['title'], target_language)
