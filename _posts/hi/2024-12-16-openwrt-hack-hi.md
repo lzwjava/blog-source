@@ -1,7 +1,7 @@
 ---
 lang: hi
 layout: post
-title: OpenWRT को OpenClash और Shadowsocks के साथ बेहतर बनाना
+title: "OpenWRT को OpenClash और Shadowsocks"
 ---
 
 ### पैकेज सूचियों को अपडेट करना

@@ -2,33 +2,7 @@
 audio: true
 lang: hi
 layout: post
-title: "Google Text-to-Speech API के साथ शुरुआत करना  \n\nGoogle Text-to-Speech API\
-  \ एक शक्तिशाली टूल है जो टेक्स्ट को प्राकृतिक ध्वनि में बदलने की सुविधा प्रदान करता\
-  \ है। यह API डेवलपर्स को अपने एप्लिकेशन में टेक्स्ट-टू-स्पीच फीचर जोड़ने में मदद\
-  \ करता है। इस गाइड में, हम Google Text-to-Speech API का उपयोग करने के लिए बुनियादी\
-  \ कदमों पर चर्चा करेंगे।  \n\n### आवश्यकताएँ  \n1. **Google Cloud Account**: API\
-  \ का उपयोग करने के लिए आपके पास एक Google Cloud खाता होना चाहिए।  \n2. **Billing\
-  \ Enabled Project**: Google Cloud पर एक प्रोजेक्ट बनाएं और बिलिंग सक्षम करें।  \n\
-  3. **API Key**: Google Cloud Console से API कुंजी प्राप्त करें।  \n\n### Google\
-  \ Text-to-Speech API सक्षम करें  \n1. Google Cloud Console में लॉग इन करें।  \n\
-  2. अपने प्रोजेक्ट का चयन करें।  \n3. नेविगेशन मेनू से \"APIs & Services\" > \"Library\"\
-  \ पर जाएं।  \n4. खोज बार में \"Text-to-Speech\" टाइप करें और \"Cloud Text-to-Speech\
-  \ API\" का चयन करें।  \n5. \"Enable\" बटन पर क्लिक करें।  \n\n### Python में Google\
-  \ Text-to-Speech API का उपयोग करना  \nGoogle Text-to-Speech API का उपयोग करने के\
-  \ लिए, आप Python का उपयोग कर सकते हैं। नीचे एक सरल उदाहरण दिया गया है:  \n\n```python\n\
-  from google.cloud import texttospeech\n\n# इंस्टेंटिएट क्लाइंट\nclient = texttospeech.TextToSpeechClient()\n\
-  \n# टेक्स्ट इनपुट सेट करें\nsynthesis_input = texttospeech.SynthesisInput(text=\"\
-  Hello, world!\")\n\n# वॉयस सेटिंग्स कॉन्फ़िगर करें\nvoice = texttospeech.VoiceSelectionParams(\n\
-  \    language_code=\"en-US\",\n    name=\"en-US-Wavenet-D\"\n)\n\n# ऑडियो कॉन्फ़िगरेशन\
-  \ सेट करें\naudio_config = texttospeech.AudioConfig(\n    audio_encoding=texttospeech.AudioEncoding.MP3\n\
-  )\n\n# सिंथेसाइज़ रिस्पॉन्स प्राप्त करें\nresponse = client.synthesize_speech(\n\
-  \    input=synthesis_input,\n    voice=voice,\n    audio_config=audio_config\n)\n\
-  \n# ऑडियो को फ़ाइल में सहेजें\nwith open(\"output.mp3\", \"wb\") as out:\n    out.write(response.audio_content)\n\
-  \    print('ऑडियो फ़ाइल \"output.mp3\" सहेजी गई।')\n```  \n\n### सारांश  \nGoogle\
-  \ Text-to-Speech API का उपयोग करके, आप अपने एप्लिकेशन में टेक्स्ट-टू-स्पीच फीचर\
-  \ को आसानी से जोड़ सकते हैं। यह API विभिन्न भाषाओं और आवाज़ों का समर्थन करता है,\
-  \ जिससे यह बहुत लचीला और उपयोगी हो जाता है।  \n\nअधिक जानकारी के लिए, [Google Text-to-Speech\
-  \ API दस्तावेज़ीकरण](https://cloud.google.com/text-to-speech/docs) देखें।"
+title: "Google Text-to-Speech API के साथ शुरुआत करना"
 ---
 
 मैं Yin Wang के कुछ लेखों को Google Text-to-Speech API का उपयोग करके ऑडियो में बदलने की योजना बना रहा हूँ। नीचे एक चरण-दर-चरण मार्गदर्शिका है, साथ ही ChatGPT द्वारा प्रदान किए गए कुछ उपयोगी ट्यूटोरियल भी हैं। एक बार सब कुछ तैयार हो जाने के बाद, मैं ऑडियो को यहां अपलोड कर दूंगा ताकि आप इसे सुन सकें।
