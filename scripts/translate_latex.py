@@ -83,8 +83,10 @@ def main():
     parser = argparse.ArgumentParser(description="Translate LaTeX files.")
     parser.add_argument("--file", type=str, help="Path to the LaTeX file to translate.")
     parser.add_argument("--lang", type=str, default="zh", help="Target language for translation (e.g., ja, es, all).")
+    parser.add_argument("--kind", type=str, default="resume", help="Kind of document to translate (resume, coverletter, introduction).")
     args = parser.parse_args()
     target_language = args.lang
+    kind = args.kind
     
     languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr']
     if target_language not in languages:
@@ -102,15 +104,21 @@ def main():
         
         base_name = os.path.basename(filename).replace('.tex', '')
         
-        if "resume/en" in filename:
-            output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language)
-            output_filename = os.path.basename(filename)
-        elif "coverletter/coverletter" in filename:
-            output_dir = os.path.join(os.path.dirname(filename))
-            output_filename = f"coverletter-{target_language}.tex"
-        elif "introduction/introduction" in filename:
-            output_dir = os.path.join(os.path.dirname(filename))
-            output_filename = f"introduction-{target_language}.tex"
+        if kind == "resume":
+            if "resume/en" in filename:
+                output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language)
+                output_filename = os.path.basename(filename)
+        elif kind == "coverletter":
+            if "coverletter/coverletter" in filename:
+                output_dir = os.path.join(os.path.dirname(filename))
+                output_filename = f"coverletter-{target_language}.tex"
+        elif kind == "introduction":
+            if "introduction/introduction" in filename:
+                output_dir = os.path.join(os.path.dirname(filename))
+                output_filename = f"introduction-{target_language}.tex"
+        else:
+            print(f"Error: Invalid kind: {kind}. Please choose from resume, coverletter, or introduction")
+            return
         
         os.makedirs(output_dir, exist_ok=True)
         output_file = os.path.join(output_dir, output_filename)
@@ -119,14 +127,15 @@ def main():
         translate_latex_file(filename, output_file, target_language)
         
         # Copy profile picture
-        if "resume/en" in filename:
-            src_profile = os.path.join("awesome-cv", "profile")
-            dest_profile = os.path.join("awesome-cv", "resume", target_language, "profile")
-            if os.path.exists(src_profile):
-                shutil.copy(src_profile, dest_profile)
-                print(f"Copied profile picture to {dest_profile}")
-            else:
-                print(f"Profile picture not found at {src_profile}")
+        if kind == "resume":
+            if "resume/en" in filename:
+                src_profile = os.path.join("awesome-cv", "profile")
+                dest_profile = os.path.join("awesome-cv", "resume", target_language, "profile")
+                if os.path.exists(src_profile):
+                    shutil.copy(src_profile, dest_profile)
+                    print(f"Copied profile picture to {dest_profile}")
+                else:
+                    print(f"Profile picture not found at {src_profile}")
         return
     
     input_dir = "."
@@ -136,12 +145,13 @@ def main():
         if "_site" in root:
             continue
         for file in files:
+            full_path = os.path.join(root, file)
             if file.endswith(".tex") and (
-                "resume/en" in os.path.join(root, file) or
-                "coverletter/coverletter.tex" in os.path.join(root, file) or
-                "introduction/introduction.tex" in os.path.join(root, file)
+                (kind == "resume" and "resume/en" in full_path) or
+                (kind == "coverletter" and "coverletter/coverletter.tex" in full_path) or
+                (kind == "introduction" and "introduction/introduction.tex" in full_path)
             ):
-                files_to_translate.append(os.path.join(root, file))
+                files_to_translate.append(full_path)
     
     if not files_to_translate:
         print(f"No .tex files found in specified locations in {input_dir}")
@@ -156,15 +166,18 @@ def main():
                 
                 base_name = os.path.basename(filename).replace('.tex', '')
                 
-                if "resume/en" in filename:
-                    output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language)
-                    output_filename = os.path.basename(filename)
-                elif "coverletter/coverletter" in filename:
-                    output_dir = os.path.join(os.path.dirname(filename))
-                    output_filename = f"coverletter-{target_language}.tex"
-                elif "introduction/introduction" in filename:
-                    output_dir = os.path.join(os.path.dirname(filename))
-                    output_filename = f"introduction-{target_language}.tex"
+                if kind == "resume":
+                    if "resume/en" in filename:
+                        output_dir = os.path.join(os.path.dirname(os.path.dirname(filename)), target_language)
+                        output_filename = os.path.basename(filename)
+                elif kind == "coverletter":
+                    if "coverletter/coverletter" in filename:
+                        output_dir = os.path.join(os.path.dirname(filename))
+                        output_filename = f"coverletter-{target_language}.tex"
+                elif kind == "introduction":
+                    if "introduction/introduction" in filename:
+                        output_dir = os.path.join(os.path.dirname(filename))
+                        output_filename = f"introduction-{target_language}.tex"
                 
                 os.makedirs(output_dir, exist_ok=True)
                 output_file = os.path.join(output_dir, output_filename)
@@ -182,13 +195,14 @@ def main():
                 print(f"A thread failed: {e}")
     
     # Copy profile picture
-    src_profile = os.path.join("awesome-cv", "profile")
-    dest_profile = os.path.join("awesome-cv", "resume", target_language, "profile")
-    if os.path.exists(src_profile):
-        shutil.copy(src_profile, dest_profile)
-        print(f"Copied profile picture to {dest_profile}")
-    else:
-        print(f"Profile picture not found at {src_profile}")
+    if kind == "resume":
+        src_profile = os.path.join("awesome-cv", "profile")
+        dest_profile = os.path.join("awesome-cv", "resume", target_language, "profile")
+        if os.path.exists(src_profile):
+            shutil.copy(src_profile, dest_profile)
+            print(f"Copied profile picture to {dest_profile}")
+        else:
+            print(f"Profile picture not found at {src_profile}")
 
 
 if __name__ == "__main__":
