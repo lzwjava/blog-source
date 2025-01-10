@@ -69,11 +69,6 @@ jobs:
           # Example: Generate audio from the last 10 posts
           python audio-pipeline.py --task posts --n 10
 
-      - name: Clean Up Credentials
-        if: steps.dry_run_audio.outputs.audio_updated == 'true'
-        run: |
-          rm -f ./gha-creds-*.json
-
       # --- (COMMIT AUDIO FILES) ---
       # You only need this step if you actually want to check the generated audio files 
       # into the repo. This uses your GITHUB_TOKEN to push directly to the current branch.
@@ -110,6 +105,10 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Clean Up Credentials
+        run: |
+          rm -f ./gha-creds-*.json          
 
       # --- (G) Setup Pages ---
       - name: Setup Pages
