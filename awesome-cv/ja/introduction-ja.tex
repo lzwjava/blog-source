@@ -6,6 +6,15 @@
 
 \usepackage{graphicx} 
 \usepackage{adjustbox}
+\usepackage{fontspec} 
+\usepackage{xeCJK} 		% 分けて中英文字体を設定
+\setCJKmainfont{Hiragino Sans GB} 	% 中国語フォントを設定
+\setCJKsansfont{Hiragino Sans GB} % Sans-serifフォント
+\setCJKmonofont{Hiragino Sans GB} % 等幅フォント
+\setmainfont{Times New Roman}
+\setromanfont{Times New Roman}
+\setmonofont{Times New Roman}
+\XeTeXlinebreaklocale "ja" 	% 日本語の自動改行を有効化
 
 \begin{document}
 
@@ -15,7 +24,7 @@
 \maketitle
 
 \begin{center}
-    \includegraphics[width=3cm, height=3cm, keepaspectratio]{./awesome-cv/profile} % サイズ調整はここで
+    \includegraphics[width=3cm, height=3cm, keepaspectratio]{/Users/lzwjava/projects/lzwjava.github.io/awesome-cv/profile} % サイズ調整はここで
 \end{center}
 
 \Large

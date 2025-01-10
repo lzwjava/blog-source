@@ -17,22 +17,23 @@
 \setbool{acvSectionColorHighlight}{true}
 
 % 中国語サポートを有効化
-\usepackage{fontspec} 	% フォント設定を許可
-\usepackage{xeCJK} 		% 中英文字体を別々に設定
-\setCJKmainfont{PingFang SC} 	% 中国語フォントを設定
-\setCJKsansfont{PingFang SC} % Sans-serifフォント
-\setCJKmonofont{PingFang SC} % モノスペースフォント
+\usepackage{fontspec} 
+\usepackage{xeCJK} 		% 分けて中英文字体を設定
+\setCJKmainfont{Hiragino Sans GB} 	% 中国語フォントを設定
+\setCJKsansfont{Hiragino Sans GB} % Sans-serifフォント
+\setCJKmonofont{Hiragino Sans GB} % 等幅フォント
 \setmainfont{Times New Roman}
 \setromanfont{Times New Roman}
 \setmonofont{Times New Roman}
-\XeTeXlinebreaklocale "zh" 	% 中国語の自動改行を有効化
+\XeTeXlinebreaklocale "ja" 	% 日本語の自動改行を有効化
+
 
 \linespread{1.2}\selectfont 	
 
 %-------------------------------------------------------------------------------
 %	個人情報
 %-------------------------------------------------------------------------------
-\photo[circle,noedge,right]{./awesome-cv/profile}
+\photo[circle,noedge,right]{/Users/lzwjava/projects/lzwjava.github.io/awesome-cv/profile}
 \name{李智維}{}
 \position{フルスタックエンジニア{\enskip\cdotp\enskip}バックエンドエンジニア}
 \address{中国、広州}
