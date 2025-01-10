@@ -1,4 +1,4 @@
-.PHONY: awesome-cv awesome-cv-en awesome-cv-copy awesome-cv-copy-en audio-pipeline pdf-pipeline pipelines clean copy coverletter-zh.pdf
+.PHONY: awesome-cv awesome-cv-en awesome-cv-copy awesome-cv-copy-en audio-pipeline pdf-pipeline pipelines clean copy coverletter-zh.pdf papers
 
 # Compiler and directories
 CC = xelatex
@@ -8,15 +8,17 @@ RESUME_EN_DIR = $(RESUME_DIR)/en
 RESUME_ZH_DIR = $(RESUME_DIR)/zh
 COVER_LETTER_DIR = $(EXAMPLES_DIR)/coverletter
 INTRODUCTION_DIR = $(EXAMPLES_DIR)/introduction
+PAPERS_DIR = assets/papers
 
 # Source files
 RESUME_EN_SRCS = $(shell find $(RESUME_EN_DIR) -name '*.tex' 2>/dev/null)
 RESUME_ZH_SRCS = $(shell find $(RESUME_ZH_DIR) -name '*.tex' 2>/dev/null)
 INTRODUCTION_SRCS = $(shell find $(INTRODUCTION_DIR) -name '*.tex' 2>/dev/null)
+PAPERS_SRCS = $(shell find $(PAPERS_DIR) -name '*.tex' 2>/dev/null)
 
 # Targets
 # Full awesome-cv (both English and Chinese)
-awesome-cv: introduction-en.pdf coverletter-en.pdf introduction-zh.pdf coverletter-zh.pdf resume-zh.pdf resume-en.pdf
+awesome-cv: introduction-en.pdf coverletter-en.pdf introduction-zh.pdf coverletter-zh.pdf resume-zh.pdf resume-en.pdf $(patsubst $(PAPERS_DIR)/%.tex, $(PAPERS_DIR)/%.pdf, $(PAPERS_SRCS))
 
 # English-only awesome-cv
 awesome-cv-en: introduction-en.pdf coverletter-en.pdf resume-en.pdf
@@ -40,6 +42,11 @@ introduction-en.pdf: $(INTRODUCTION_DIR)/introduction-en.tex
 introduction-zh.pdf: $(INTRODUCTION_DIR)/introduction-zh.tex
 	$(CC) -output-directory=$(INTRODUCTION_DIR) $<	
 
+$(PAPERS_DIR)/%.pdf: $(PAPERS_DIR)/%.tex
+	$(CC) -output-directory=$(PAPERS_DIR) $<
+
+papers: $(patsubst $(PAPERS_DIR)/%.tex, $(PAPERS_DIR)/%.pdf, $(PAPERS_SRCS))
+
 # Pipeline targets
 audio-pipeline:
 	python audio-pipeline.py --task posts --n 10
@@ -51,7 +58,7 @@ pipelines: audio-pipeline pdf-pipeline
 
 # Clean generated PDFs
 clean:
-	rm -rf $(EXAMPLES_DIR)/*.pdf
+	rm -rf $(EXAMPLES_DIR)/*.pdf $(PAPERS_DIR)/*.pdf
 
 # Copy all PDFs (both English and Chinese) to assets/resume
 copy: awesome-cv

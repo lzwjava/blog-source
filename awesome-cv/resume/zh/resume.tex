@@ -1,38 +1,36 @@
 %-------------------------------------------------------------------------------
-% CONFIGURATIONS
+% 配置
 %-------------------------------------------------------------------------------
-% A4 paper size by default, use 'letterpaper' for US letter
+% 默认使用A4纸张大小，如需使用US letter请改为'letterpaper'
 \documentclass[11pt, a4paper]{../../awesome-cv}
 
-% Configure page margins
+% 配置页面边距
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
-% Color for highlights
+% 高亮颜色
 \colorlet{awesome}{awesome-red}
 
-% Set section highlight
+% 设置章节高亮
 \setbool{acvSectionColorHighlight}{true}
 
-% Enable Chinese support
-\usepackage{fontspec} 	% 允許設定字體
-\usepackage{xeCJK} 		% 分開設置中英文字型
-\setCJKmainfont{PingFang SC} 	% 設定中文字型
-\setCJKsansfont{PingFang SC} % Sans-serif font
-\setCJKmonofont{PingFang SC} % Monospace font
+\usepackage{fontspec} 	% 允许设置字体
+\usepackage{xeCJK} 		% 分开设置中英文字型
+\setCJKmainfont{PingFang SC} 	% 设置中文字型
+\setCJKsansfont{PingFang SC} % Sans-serif字体
+\setCJKmonofont{PingFang SC} % 等宽字体
 \setmainfont{Times New Roman}
 \setromanfont{Times New Roman}
 \setmonofont{Times New Roman}
-\XeTeXlinebreaklocale "zh" 	% 針對中文自動換行
+\XeTeXlinebreaklocale "zh" 	% 针对中文自动换行
 
 \linespread{1.4}\selectfont 	% 行距
-
 %-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
+%	个人信息
 %-------------------------------------------------------------------------------
 \photo[circle,noedge,right]{./awesome-cv/profile}
 \name{李智维}{}
 \position{全栈工程师{\enskip\cdotp\enskip}后端工程师}
-\address{中国，广州，黄埔}
+\address{中国广州黄埔}
 
 \mobile{(+86) 132-6163-0925}
 \email{lzwjava@gmail.com}
@@ -41,19 +39,19 @@
 \linkedin{lzwjava}
 \twitter{@lzwjava}
 
-\quote{``自由与真理"}
+\quote{``自由真理"}
 
 %-------------------------------------------------------------------------------
 \begin{document}
 
-% Header
+% 页眉
 \makecvheader[C]
 
-% Footer
+% 页脚
 \makecvfooter{\today}{李智维~~~·~~~简历}{\thepage}
 
 %-------------------------------------------------------------------------------
-%	resume-zh/RESUME CONTENT
+%	简历内容
 %-------------------------------------------------------------------------------
 \input{summary.tex}
 \input{experience.tex}
