@@ -43,7 +43,7 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install google-cloud-texttospeech pydub markdown beautifulsoup4 python-frontmatter
+          pip install -r requirements.txt
           # Add any other dependencies your project needs here
 
       # --- (C) Run your Audio Pipeline (e.g., "posts" task) ---
