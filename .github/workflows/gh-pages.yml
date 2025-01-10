@@ -84,12 +84,13 @@ jobs:
         id: dry_run_lang
         run: |
           export DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}
-          python scripts/update_lang.py --dry_run
+          DRY_RUN_OUTPUT=$(python scripts/update_lang.py --dry_run)
+          echo "$DRY_RUN_OUTPUT"
           
-          if [[ $(python scripts/update_lang.py --dry_run | grep "Total Markdown files to process" | awk '{print $7}') -gt 0 ]]; then
-            echo "lang_updated=true" >> $GITHUB_OUTPUT
-          else
+          if [[ "$DRY_RUN_OUTPUT" == *'Total Markdown files to process: 0'* ]]; then
             echo "lang_updated=false" >> $GITHUB_OUTPUT
+          else
+            echo "lang_updated=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Update language files

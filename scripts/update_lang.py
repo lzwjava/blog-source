@@ -166,6 +166,13 @@ def main():
     languages = ['ja', 'es', 'hi', 'zh'] if target_language == 'all' else [target_language]
 
     total_files_to_process = 0
+    
+    if dry_run:
+        changed_files = get_changed_files()
+        total_files_to_process = len(changed_files)
+        print(f"Total Markdown files to process: {total_files_to_process}")
+        return
+    
     for lang in languages:
         output_dir = f"_posts/{lang}"
         if lang == 'hi':
