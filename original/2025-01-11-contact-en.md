@@ -8,7 +8,7 @@ Hi, I'm Zhiwei Li. You can find a brief introduction [here](/introduction-en). T
 
 In particular, I'd like to draw your attention to my three [papers](/papers-en) on reversing myopia. You can easily find these featured essays using the "select" button on the home page..
 
-And feel free to reach out if you’re interested! You can say hi to me on X, WhatsApp, or Telegram, leave a comment, send me a direct message, or drop me an email.
+Feel free to reach out if you’re interested! You can say hi to me on X, WhatsApp, or Telegram, leave a comment, send me a direct message, or drop me an email.
 
 #### X(Twitter)
 
