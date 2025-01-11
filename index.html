@@ -6,7 +6,7 @@ layout: page
 
   <span id="post-number" class="post-number">
     {{ site.posts.size }} posts
-    (0 by AI)
+    (0 by <a href="https://deepseek.com">AI</a>)
   </span>
   <select id="sort-select">
     <option value="author-picks|all">Picks</option>
@@ -231,7 +231,7 @@ layout: page
 
       // Update the post count
       const translatedCount = processedPosts.filter(item => item.element && item.element.dataset.translated === 'true').length;
-      postNumber.textContent = `${processedPosts.length} posts (${translatedCount} by AI)`;
+      postNumber.innerHTML = `${processedPosts.length} posts (${translatedCount} by <a href="https://deepseek.com">AI</a>)`;
 
       // Show the list
       postList.style.display = 'block';
