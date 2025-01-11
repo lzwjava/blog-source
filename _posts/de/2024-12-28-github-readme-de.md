@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: GitHub Readme Einführung
+translated: true
 ---
 
 | Projekt | Sprache | Commits | Projekt | Sprache | Commits |

@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Beheben Sie Eingabeaufforderungen oder Kontext anstelle der Ausgabe der KI
+translated: true
 ---
 
 Es gibt Benutzeraufforderungen und Systemaufforderungen. Wenn die Ausgabe nicht gut funktioniert, sollten wir die Regel in den Benutzeraufforderungen hinzufügen, anstatt sie jedes Mal zu korrigieren.

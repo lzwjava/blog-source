@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Geniale Taschenlampe
+translated: true
 ---
 
 Das Lademechanismus dieser speziellen Taschenlampe ist ziemlich innovativ. Durch Drehen des Kopfes wird ein Type-C-Ladeanschluss freigelegt. Wenn man ihn zurückdreht, wird der Anschluss ordentlich abgedeckt. Es ist ein cleveres und praktisches Designmerkmal, das sowohl die Benutzerfreundlichkeit als auch die Ästhetik verbessert.

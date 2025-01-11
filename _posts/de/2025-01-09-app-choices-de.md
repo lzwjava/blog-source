@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Meine ausgewählten App-Empfehlungen
+translated: true
 ---
 
 In einem früheren Essay schrieb ich:

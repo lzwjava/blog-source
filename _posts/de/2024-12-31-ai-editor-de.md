@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: KI-Code-Editoren
+translated: true
 ---
 
 Ich habe mehrere KI-gestützte Code-Editierungstools ausprobiert, darunter GitHub Copilot, Windsurf und Cursor. Hier sind meine Beobachtungen:

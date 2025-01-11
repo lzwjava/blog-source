@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: Das Angebot der Liquidationsgesellschaft
 top: 10
+translated: true
 ---
 
 An die Aktionäre:

@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Drei Telefone verwenden
+translated: true
 ---
 
 - Verwenden Sie ein iPhone als Ihr Haupttelefon, idealerweise das neueste Modell oder zumindest eines aus den letzten 3 Jahren.

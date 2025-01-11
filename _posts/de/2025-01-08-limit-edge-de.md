@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Grenzen und Randfälle
+translated: true
 ---
 
 * Über Grenzen und Randfälle nachzudenken ist eine gute Methode, um etwas zu verstehen.

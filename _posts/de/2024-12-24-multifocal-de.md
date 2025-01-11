@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Verwendung von multifokalen Gleitsichtgläsern zur Umkehrung von Myopie
+translated: true
 ---
 
 ## Rezept

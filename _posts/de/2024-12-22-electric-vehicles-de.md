@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Elektrofahrzeuge
+translated: true
 ---
 
 ## Neta

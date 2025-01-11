@@ -4,6 +4,7 @@ layout: post
 title: 'Natürliche Wiederherstellung der Sehkraft: Das Prinzip des "gerade noch klaren
   Sehens"'
 top: 20
+translated: true
 ---
 
 ### Zusammenfassung

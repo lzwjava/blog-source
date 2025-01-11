@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Kampf mit Ladeproblemen bei meinem Elektroauto
+translated: true
 ---
 
 Ich habe mein Auto in Zogang vollständig aufgeladen, was eine Reichweite von 400 km bei voller Ladung ermöglicht. Ich begann meine Fahrt nach Markam, eine Strecke von etwa 160 km. Zu diesem Zeitpunkt zeigte das Auto eine verbleibende Reichweite von rund 250 km an.

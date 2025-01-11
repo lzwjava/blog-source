@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Warum Android-Geräte ruckeln
+translated: true
 ---
 
 *Dieser Beitrag wurde mit Unterstützung von ChatGPT verfasst.*

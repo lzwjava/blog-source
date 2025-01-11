@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Erfahrungsbericht über die Gründung von Quzhibo (Interessantes Live-Streaming)
+translated: true
 ---
 
 ![](assets/images/startup/s0.jpg)

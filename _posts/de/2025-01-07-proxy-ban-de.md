@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Analyse der Sperrung von Proxy-Servern
+translated: true
 ---
 
 ## Können APIs in Proxy-Servern GFW-Sperren umgehen?

@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Meine frühen digitalen Erinnerungen
+translated: true
 ---
 
 Ich wurde 1995 geboren, im selben Jahr, in dem Windows 95 am 14. Juli veröffentlicht wurde.

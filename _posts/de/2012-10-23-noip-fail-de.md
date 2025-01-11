@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: 专心备战高考，用学习OI培养出的能力碾压高考
+translated: true
 ---
 
 ```c

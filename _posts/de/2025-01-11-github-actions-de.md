@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Maximale Ausführungszeit eines GitHub Actions Jobs
+translated: true
 ---
 
 Ich habe GitHub Actions verwendet, um die Übersetzung meiner Blogbeiträge zu automatisieren. Anfangs habe ich versucht, alle Beiträge in einem einzigen Job zu übersetzen, wobei die Änderungen erst dann zurück in das Repository übertragen wurden, nachdem alle Übersetzungen abgeschlossen waren.

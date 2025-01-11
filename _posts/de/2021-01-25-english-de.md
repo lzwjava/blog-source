@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: Englischkenntnisse durch umfangreiche Inputs verbessern
 top: 20
+translated: true
 ---
 
 Im Jahr 2014, als ich beim Programmieren auf Probleme stieß, suchte ich oft mit Google nach englischsprachigen Webseiten. Nachdem ich ein paar Absätze gelesen hatte, hörte ich meistens auf. Ich las sehr langsam und musste oft das Wörterbuch benutzen, was mich ziemlich verwirrte. Daher wechselte ich lieber zu chinesischen Webseiten. Damals versuchte ich, so viel wie möglich auf Chinesisch zu lesen. Nach mehr als 6 Jahren hat sich das nun umgekehrt: Ich lese nur noch dann auf Chinesisch, wenn es etwas gibt, das es nur auf Chinesisch gibt. Auch in meiner Freizeit tauche ich in die englischsprachige Welt ein, schaue amerikanische Serien ohne Untertitel und scrolle durch TikTok-Videos. Mein Englisch ist immer noch nicht so gut wie mein Chinesisch, vielleicht nur halb so gut.

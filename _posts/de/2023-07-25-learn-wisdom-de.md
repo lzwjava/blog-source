@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Die Weisheit des Lernens
+translated: true
 ---
 
 ### Vorwort

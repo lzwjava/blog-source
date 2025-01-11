@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Die Reise des Englischlernens
+translated: true
 ---
 
 Nach vielen Jahren des Kampfes, nachdem ich zahlreiche Methoden ausprobiert und viele Apps verwendet hatte, habe ich endlich einen Weg gefunden, um meine Liebe zur englischen Sprache zu entfachen. Eine Methode, die es mir ermöglicht, Englisch zu genießen, ohne mich dazu zwingen zu müssen, und die es mir leicht macht, regelmäßig Englisch zu verwenden. Ich lese englische Nachrichten, englische Bücher, schaue amerikanische Serien ohne Untertitel, besuche englischsprachige Websites, lese und höre lange Passagen, und habe bereits einige Erfahrungen im normalen Austausch mit Ausländern gesammelt. Dank dieser Fähigkeiten konnte ich sogar remote für einen niederländischen Kunden arbeiten, durch englische Kommunikation Geld verdienen, indem ich eine Website erstellte. Lassen Sie mich von dieser Reise erzählen.

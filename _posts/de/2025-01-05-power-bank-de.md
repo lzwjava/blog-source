@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Vergesslichkeit beim Aufladen von Power Banks
+translated: true
 ---
 
 Das Problem, dass ich oft vergesse, Powerbanks aufzuladen, hat mich frustriert.

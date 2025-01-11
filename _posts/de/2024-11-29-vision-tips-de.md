@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: Natürliche Tipps zur Wiederherstellung der Sehkraft
 top: 10
+translated: true
 ---
 
 * Der Grund, warum sich die Sehkraft der Menschen verschlechtert, ist, dass sie die meiste Zeit Brillen mit voller Stärke (die es ihnen ermöglicht, eine Tafel in 5 m Entfernung klar zu sehen) verwenden, um auf Handys, Computer oder Bücher zu schauen. Dies führt dazu, dass sich ihre Augäpfel verformen.

@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Bevorzugen Sie Hintergrundgeräusche
+translated: true
 ---
 
 * Bevorzugen Sie Hintergrundgeräusche, egal was Sie gerade tun.

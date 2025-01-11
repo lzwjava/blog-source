@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: 'Associate Degree: Fortschritt und Reflexion'
+translated: true
 ---
 
 Unten ist mein Fortschritt bei den Assoziationen.

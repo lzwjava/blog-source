@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Vom neuronalen Netzwerk zu GPT
+translated: true
 ---
 
 ### YouTube-Videos

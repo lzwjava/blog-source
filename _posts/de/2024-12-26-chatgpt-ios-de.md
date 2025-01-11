@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Analyse der ChatGPT iOS VPN-Erkennung
+translated: true
 ---
 
 Heute habe ich festgestellt, dass die ChatGPT iOS-App nun die Anmeldung mit einem VPN in China ermöglicht. Zuvor wurde eine Blockierungsmeldung angezeigt, wie die unten abgebildete.

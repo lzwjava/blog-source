@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Denken
+translated: true
 ---
 
 * Indem du Dinge kategorisierst, abstrahierst oder über sie nachdenkst, denkst du.

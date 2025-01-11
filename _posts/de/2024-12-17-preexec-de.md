@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Proxy-Einstellungen anzeigen, bevor Befehle ausgeführt werden
+translated: true
 ---
 
 <div style="text-align: center;">  

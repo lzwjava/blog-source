@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Die Welt der Künstlichen Allgemeinen Intelligenz
+translated: true
 ---
 
 Wenn wir eines Tages einer KI einfach befehlen könnten, eine App wie TikTok oder YouTube mit einem einzigen Befehl zu erstellen, und sie uns ein vollständiges Projekt mit Millionen von Codezeilen liefern würde, wäre das wirklich erstaunlich.

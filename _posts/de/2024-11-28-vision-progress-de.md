@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: Fortschritte bei der natürlichen Wiederherstellung der Sehkraft
 top: 20
+translated: true
 ---
 
 Letzte Aktualisierung: 28. November 2024

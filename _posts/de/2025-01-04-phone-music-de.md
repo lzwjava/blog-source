@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Telefon-Suche und Musik
+translated: true
 ---
 
 ### Telefon-Suche

@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Kochen
+translated: true
 ---
 
 * Selbst zu kochen ist einfach. Verwende Öl zum Braten, da es einen höheren Siedepunkt als Wasser hat, was die Speisen effektiver erhitzt.  

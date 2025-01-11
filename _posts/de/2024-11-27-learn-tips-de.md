@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Lerntipps
+translated: true
 ---
 
 * Betrachte Lernen als Hobby, indem du es mit Verspieltheit und echtem Interesse angehst.

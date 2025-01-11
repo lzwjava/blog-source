@@ -61,7 +61,7 @@ def main():
             base_name = filename.replace(".md", "")
             
             for lang_dir in os.listdir(posts_dir):
-                if lang_dir in ['en', 'zh', 'ja', 'es', 'hi']:
+                if lang_dir in ['de']:
                     translated_file_name = f"{base_name}-{lang_dir}.md"
                     translated_file_path = os.path.join(posts_dir, lang_dir, translated_file_name)
                     if os.path.exists(translated_file_path):

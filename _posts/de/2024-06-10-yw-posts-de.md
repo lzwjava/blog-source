@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Englische Übersetzung von Yin Wangs Blogbeiträgen
+translated: true
 ---
 
 Übersetzt von [yinwang.org](https://www.yinwang.org).

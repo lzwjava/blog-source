@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: Erziehungstipps
 top: 10
+translated: true
 ---
 
 * Sicherheit ist das Wichtigste. Lebe unauffällig und stelle sicher, dass Kindergärten oder Schulen das Richtige tun.

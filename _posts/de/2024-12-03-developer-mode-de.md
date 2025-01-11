@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Entwicklermodus von iOS und ideviceinstaller
+translated: true
 ---
 
 ## Entwicklermodus

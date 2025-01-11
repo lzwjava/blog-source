@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: ChatGPT sollte die Erstellung von GPTs aus dem Gesprächsverlauf ermöglichen
+translated: true
 ---
 
 Die Konversationsliste sollte eine Schaltfläche in der Nähe der Teilen-Schaltfläche mit der Bezeichnung "GPT erstellen" enthalten. Diese Funktion würde es Benutzern ermöglichen, ein GPT basierend auf dem letzten Chatverlauf zu erstellen.

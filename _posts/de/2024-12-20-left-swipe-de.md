@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Linkswischen und Apps
+translated: true
 ---
 
 ## Wischen nach links in iOS-Listen

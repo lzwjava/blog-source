@@ -1,7 +1,8 @@
 ---
 lang: de
 layout: post
-title: 'Noch besser ist, dass wir keine Beziehungen'
+title: Noch besser ist, dass wir keine Beziehungen
+translated: true
 ---
 
 Noch besser ist, dass wir keine Beziehungen pflegen oder aufrechterhalten müssen. Alle Geschäfte werden fair abgewickelt, ohne dass wir uns gegenseitig verpflichtet fühlen. Das ist auch ganz gut so. Schließlich sind wir alle heutzutage sehr beschäftigt. Wenn man einmal eine Verpflichtung eingeht, könnte man sie in der Hektik des Alltags vergessen und nicht wissen, wann man sie zurückzahlen kann. Jede Sache sollte für sich allein stehen, jede Angelegenheit sollte separat behandelt werden.

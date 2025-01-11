@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Veränderungen annehmen
+translated: true
 ---
 
 Ich habe meinen Titel von "Always to Have Background Sound" in "Prefer to Have Background Sound" geändert. Es handelt sich nicht nur um eine Wort- oder Titeländerung; es erforderte auch die Änderung von Dateinamen, PDF-Dateinamen, Audiodateinamen und URLs.

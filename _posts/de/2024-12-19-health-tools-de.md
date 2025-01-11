@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Blutdruckmessgerät, Stethoskop und Sehtesttafel
+translated: true
 ---
 
 <div style="text-align: center;">

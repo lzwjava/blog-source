@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Mögliche Schwächen im Essay über die Obstlieferung
+translated: true
 ---
 
 Zhiwei Li:

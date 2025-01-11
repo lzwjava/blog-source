@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Registrierung auf jeder Plattform unabhängig von der Identität
+translated: true
 ---
 
 Ich bin chinesischer Staatsbürger und Softwareentwickler mit einem Fokus auf die neuesten Technologien. Es ist frustrierend zu sehen, wie viele Produkte den Zugang aus China blockieren. Obwohl ich noch an meinem Associate Degree arbeite und hoffe, eines Tages außerhalb Chinas zu arbeiten, werde ich noch einige Jahre in China bleiben. In der Zwischenzeit möchte ich einige Informationen darüber teilen, wie man Internetbarrieren aufgrund der Nationalität überwinden kann.

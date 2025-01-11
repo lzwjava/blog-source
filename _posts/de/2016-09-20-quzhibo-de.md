@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: 趣直播：首个知识直播平台
+translated: true
 ---
 
 趣直播, unser Produkt wird veröffentlicht. Mit 21 Jahren veröffentliche ich mein zweites Startup-Projekt.

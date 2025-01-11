@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: 'Yin Wang: Die ultimative Antwort auf das Leben, das Universum und den ganzen
   Rest'
+translated: true
 ---
 
 Weitergeleitet von Weibo @不再关心人类de垠 (Nicht mehr um die Menschheit besorgt von Yin).

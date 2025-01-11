@@ -4,6 +4,7 @@ lang: de
 layout: post
 title: Die Reise zur natürlichen Umkehrung von Kurzsichtigkeit
 top: 10
+translated: true
 ---
 
 Neben den drei Artikeln über die Umkehrung von Kurzsichtigkeit möchte ich mehr über die Entdeckungsgeschichte teilen.

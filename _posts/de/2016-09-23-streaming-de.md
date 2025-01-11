@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Einrichtung eines Live-Streams mit OBS, SRS und FFmpeg
+translated: true
 ---
 
 *Dieser Blogbeitrag wurde mit Unterstützung von ChatGPT-4o verfasst.*

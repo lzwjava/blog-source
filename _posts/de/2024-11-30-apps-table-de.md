@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: iOS-Apps, die ich verwendet habe - Tabellenversion
+translated: true
 translation: false
 ---
 

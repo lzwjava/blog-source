@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Hacking
+translated: true
 ---
 
 Es gibt verschiedene Möglichkeiten zu hacken, und dieses Thema ist sehr interessant. Als Hobby-White-Hat-Hacker finde ich, dass es in diesem Bereich viel Wissen zu erlernen gibt. Hier werde ich einige Methoden festhalten, die ich erkundet habe.

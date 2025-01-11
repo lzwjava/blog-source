@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Hören beim Autofahren
+translated: true
 ---
 
 *Dieser Blogbeitrag wurde von ChatGPT übersetzt.*

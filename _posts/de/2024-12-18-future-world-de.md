@@ -4,6 +4,7 @@ lang: de
 layout: post
 title: Zukunft
 top: 10
+translated: true
 ---
 
 * Der Traum vom eigenen Haus ist vorbei. Nicht nur in China, sondern weltweit werden nur wenige Städte eine Ausnahme darstellen.

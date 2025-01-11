@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: 'Wang Yin: Der sogenannte Erfolg'
 top: 20
+translated: true
 ---
 
 Mehrfach haben mir Leute, die es nicht ertragen konnten, wie ich im Internet verspottet wurde, Ratschläge wie diesen gegeben: „Zuerst solltest du die traditionellen Internetunternehmen, deren Gründer bereits alt sind, aus dem Weg räumen. Sobald du als Erfolgreicher dastehst, kannst du einfach einen Artikel online stellen, und sie werden dir schmeicheln. In vielen Fällen ist es einfach unmöglich, diese Leute dazu zu bringen, auf dich zu hören. Erst wenn du Ergebnisse erzielst und alle besiegt, werden sie sich dir unterwerfen.“

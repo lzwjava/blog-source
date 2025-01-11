@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: Gesamtwerk von Yin Wang
 top: 20
+translated: true
 ---
 
 ## Chinesisch
