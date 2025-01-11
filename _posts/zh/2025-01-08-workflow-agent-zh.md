@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Workflow 是 BFS，Agent 是 DFS
-translated: false
+translated: true
 ---
 
 根据 Anthropic 的定义 [^1]：

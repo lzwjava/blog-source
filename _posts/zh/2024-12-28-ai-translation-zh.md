@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 全新由 AI 翻译驱动的 Quora 或 TikTok
-translated: false
+translated: true
 ---
 
 * 全新由 AI 翻译驱动的 TikTok 或 Quora。

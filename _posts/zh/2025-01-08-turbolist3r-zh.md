@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Turbolist3r: 枚举子域名"
+title: 'Turbolist3r: 枚举子域名'
+translated: true
 ---
 
 ## Turbolist3r

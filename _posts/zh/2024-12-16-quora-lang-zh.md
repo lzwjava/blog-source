@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quora 的语言内容控制
-translated: false
+translated: true
 ---
 
 Quora 以其丰富的用户生成内容而闻名，提供了各个领域的各种问题答案。其中一个突出特点是其 语言内容控制，允许用户通过选择自己喜欢的语言来定制平台体验。

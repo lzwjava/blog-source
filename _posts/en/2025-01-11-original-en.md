@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Original Posts
+translated: false
 ---
 
 These are my original blog posts.
