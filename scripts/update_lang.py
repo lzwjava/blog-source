@@ -17,7 +17,6 @@ MAX_THREADS = 10
 
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
-
 def create_translation_prompt(target_language, special=False):
     if target_language == 'ja':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Japanese. Do not translate English names. Be careful about code blocks."
@@ -34,9 +33,10 @@ def create_translation_prompt(target_language, special=False):
             return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Do not translate English names or code blocks. Be careful about code blocks."""
     elif target_language == 'en':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to English. Do not translate English names. Be careful about code blocks."
+    elif target_language == 'de':
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to German. Do not translate English names. Be careful about code blocks."
     else:
         return f"You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to {target_language}. Do not translate English names. Be careful about code blocks."
-
 
 def translate_text(text, target_language, special=False):
     if not text or not text.strip():
@@ -108,7 +108,6 @@ def translate_front_matter(front_matter, target_language, input_file):
         print(f"  Error parsing front matter: {e}")
         return front_matter
 
-
 def translate_markdown_file(input_file, output_file, target_language, changed_paragraphs=None, dry_run=False):
     print(f"  Processing file: {input_file}")
     try:
@@ -140,7 +139,6 @@ def translate_markdown_file(input_file, output_file, target_language, changed_pa
         print(f"  Finished processing file: {output_file}")
     except Exception as e:
         print(f"  Error processing file {input_file}: {e}")
-
 
 def get_changed_files():
     try:
@@ -190,7 +188,6 @@ def get_changed_paragraphs(input_file, output_file):
         print(f"File not found: {input_file}")
         return None
 
-
 def main():
     if not DEEPSEEK_API_KEY:
         print("Error: DEEPSEEK_API_KEY is not set in .env file.")
@@ -203,7 +200,7 @@ def main():
     target_language = args.lang
     dry_run = args.dry_run
     
-    languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr'] 
+    languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr', 'de'] 
 
     total_files_to_process = 0
     
@@ -281,7 +278,6 @@ def main():
             except Exception as e:
                 print(f"A thread failed: {e}")
     print(f"Total Markdown files to process: {total_files_to_process}")
-
 
 if __name__ == "__main__":
     main()
