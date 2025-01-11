@@ -6,7 +6,7 @@ layout: page
 
   <span id="post-number" class="post-number">
     {{ site.posts.size }} posts
-    (0 translated)
+    (0 by AI)
   </span>
   <select id="sort-select">
     <option value="author-picks|all">Picks</option>
@@ -60,7 +60,11 @@ layout: page
 </ul>
 
 <footer class="site-footer">
-  <span class="site-footer-credits">Copyright©2010－{{ site.time | date: "%Y" }}</span>
+  <span class="site-footer-credits">
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://deepseek.com/">DeepSeek</a><br>
+    Copyright©2010－{{ site.time | date: "%Y" }}
+  </span>
+
 </footer>
 
 <script>
@@ -227,7 +231,7 @@ layout: page
 
       // Update the post count
       const translatedCount = processedPosts.filter(item => item.element && item.element.dataset.translated === 'true').length;
-      postNumber.textContent = `${processedPosts.length} posts (${translatedCount} translated)`;
+      postNumber.textContent = `${processedPosts.length} posts (${translatedCount} by AI)`;
 
       // Show the list
       postList.style.display = 'block';
