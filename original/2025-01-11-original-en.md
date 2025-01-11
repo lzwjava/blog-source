@@ -15,7 +15,7 @@ These are my original blog posts.
 * [Original Posts](/original/2025-01-11-original-en)
 * [Donate](/original/2025-01-11-donate-en)
 * [notes](/original/2025-01-11-notes-en)
-* [GitHub Actions](/original/2025-01-11-github-actions-en)
+* [Maximum Execution Time of GitHub Actions Job](/original/2025-01-11-github-actions-en)
 * [Résumé](/original/2025-01-11-resume-en)
 * [Less Use of "I", "Me", or "We"](/original/2025-01-09-lese-me-en)
 * [Potential Flaws in the Fruit Delivery Essay](/original/2025-01-09-potential-flaws-en)
