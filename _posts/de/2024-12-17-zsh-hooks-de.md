@@ -2,42 +2,7 @@
 audio: true
 lang: de
 layout: post
-title: "# Zsh Hooks\n\nZsh bietet eine leistungsstarke Funktion namens \"Hooks\",\
-  \ die es ermöglicht, benutzerdefinierte Befehle oder Skripte auszuführen, bevor\
-  \ oder nachdem bestimmte Ereignisse in der Shell auftreten. Diese Hooks sind besonders\
-  \ nützlich, um die Shell-Umgebung anzupassen, automatische Aufgaben zu erledigen\
-  \ oder spezifische Aktionen auszulösen, wenn sich der Zustand der Shell ändert.\n\
-  \n## Was sind Zsh Hooks?\n\nHooks in Zsh sind spezielle Funktionen oder Befehle,\
-  \ die automatisch ausgeführt werden, wenn bestimmte Ereignisse in der Shell eintreten.\
-  \ Diese Ereignisse können beispielsweise das Wechseln des Verzeichnisses, das Beenden\
-  \ der Shell oder das Ausführen eines Befehls sein. Durch die Verwendung von Hooks\
-  \ können Sie Ihre Shell-Umgebung anpassen und automatisierte Aufgaben ausführen,\
-  \ ohne manuell eingreifen zu müssen.\n\n## Häufig verwendete Zsh Hooks\n\nHier sind\
-  \ einige der häufig verwendeten Hooks in Zsh:\n\n1. **`chpwd`**: Dieser Hook wird\
-  \ ausgeführt, wenn das aktuelle Verzeichnis gewechselt wird.\n2. **`precmd`**: Dieser\
-  \ Hook wird ausgeführt, bevor die Eingabeaufforderung (Prompt) angezeigt wird.\n\
-  3. **`preexec`**: Dieser Hook wird ausgeführt, bevor ein Befehl ausgeführt wird.\n\
-  4. **`zshexit`**: Dieser Hook wird ausgeführt, wenn die Shell beendet wird.\n\n\
-  ## Beispiel: Verwendung von `chpwd` Hook\n\nAngenommen, Sie möchten jedes Mal, wenn\
-  \ Sie das Verzeichnis wechseln, eine Liste der Dateien im aktuellen Verzeichnis\
-  \ anzeigen. Sie können dies mit dem `chpwd` Hook erreichen:\n\n```zsh\nchpwd() {\n\
-  \    ls\n}\n```\n\nWenn Sie nun das Verzeichnis wechseln, wird automatisch der Inhalt\
-  \ des neuen Verzeichnisses angezeigt.\n\n## Beispiel: Verwendung von `precmd` Hook\n\
-  \nDer `precmd` Hook kann verwendet werden, um Informationen anzuzeigen, bevor die\
-  \ Eingabeaufforderung erscheint. Zum Beispiel können Sie die aktuelle Uhrzeit anzeigen:\n\
-  \n```zsh\nprecmd() {\n    echo \"Aktuelle Uhrzeit: $(date)\"\n}\n```\n\nJedes Mal,\
-  \ wenn Sie einen Befehl eingeben, wird die aktuelle Uhrzeit angezeigt, bevor die\
-  \ Eingabeaufforderung erscheint.\n\n## Beispiel: Verwendung von `preexec` Hook\n\
-  \nDer `preexec` Hook kann verwendet werden, um Aktionen auszuführen, bevor ein Befehl\
-  \ ausgeführt wird. Zum Beispiel können Sie eine Nachricht anzeigen, bevor ein Befehl\
-  \ ausgeführt wird:\n\n```zsh\npreexec() {\n    echo \"Sie sind dabei, den Befehl\
-  \ '$1' auszuführen.\"\n}\n```\n\nWenn Sie nun einen Befehl eingeben, wird eine Nachricht\
-  \ angezeigt, bevor der Befehl ausgeführt wird.\n\n## Fazit\n\nZsh Hooks sind ein\
-  \ leistungsstarkes Werkzeug, um Ihre Shell-Umgebung anzupassen und automatisierte\
-  \ Aufgaben auszuführen. Durch die Verwendung von Hooks wie `chpwd`, `precmd`, `preexec`\
-  \ und `zshexit` können Sie Ihre Shell-Erfahrung verbessern und effizienter arbeiten.\
-  \ Experimentieren Sie mit diesen Hooks, um herauszufinden, wie Sie sie am besten\
-  \ in Ihren Workflow integrieren können."
+title: "Zsh bietet eine leistungsstarke Funktion namens"
 ---
 
 Nachdem ich "Let Zsh Display Proxy Settings Before Running Network Commands" erkundet hatte, bin ich mit ChatGPT tiefer in Zsh-Hooks eingetaucht. Hier ist eine prägnante Übersicht für zukünftige Referenz.

@@ -1,57 +1,8 @@
 ---
 lang: de
 layout: post
-title: '"怎么搞关系" 可以理解为如何建立和维护人际关系。以下是一些建议：
-
-
-  1. **真诚待人**：与人交往时，保持真诚和诚实，建立信任。
-
-  2. **倾听与沟通**：学会倾听他人的想法和感受，同时清晰地表达自己的观点。
-
-  3. **互帮互助**：在他人需要帮助时伸出援手，建立互惠互利的关系。
-
-  4. **保持联系**：定期与朋友、同事或合作伙伴保持联系，避免关系疏远。
-
-  5. **尊重他人**：尊重他人的意见和选择，避免强加自己的观点。
-
-  6. **积极参与社交活动**：通过参加聚会、活动或兴趣小组，扩大社交圈。
-
-  7. **提升自我价值**：通过学习和成长，让自己成为一个有价值的人，吸引更多人愿意与你交往。
-
-
-  如果是职场中的“搞关系”，还需要注意：
-
-  - **了解公司文化**：适应并融入公司文化，与同事和领导建立良好的工作关系。
-
-  - **展示专业能力**：通过出色的工作表现赢得他人的尊重和信任。
-
-  - **避免办公室政治**：尽量保持中立，避免卷入不必要的纷争。
-
-
-  总之，建立良好的关系需要时间、耐心和技巧，关键是以诚相待，互相尊重。'
+title: 'Noch besser ist, dass wir keine Beziehungen'
 ---
-
-创业,尤其是像我们这样经营软件外包公司,处理好与客户的关系至关重要。除了逢年过节送礼物,我意识到其实还有很多方法可以维护客户关系。我也观察了一些事业成功的朋友,看他们是如何打理人际关系的。所以聊聊这个话题,也是帮助自己理清思路。
-
-以下是一些维护客户关系的方法:
-
-1. 定期沟通:与客户保持定期联系,了解他们的需求和反馈,及时解决问题。
-
-2. 提供增值服务:在完成项目的基础上,为客户提供额外的增值服务,如培训、咨询等,增加客户粘性。
-
-3. 建立信任:诚实守信,按时交付,保证质量,赢得客户的信任。
-
-4. 个性化服务:了解每个客户的特殊需求,提供个性化的解决方案,让客户感受到重视。
-
-5. 保持专业:在与客户交往中保持专业态度,不越界,不逾矩,维护良好的职业形象。
-
-6. 建立长期合作关系:着眼长远,与客户建立战略合作伙伴关系,共同成长。
-
-7. 及时响应:对客户的需求和问题及时响应,体现对客户的重视。
-
-8. 定期回访:项目结束后,定期回访客户,了解使用情况,收集反馈,为后续合作奠定基础。
-
-维护客户关系需要长期投入和用心经营。通过以上方法,我们可以与客户建立稳固、互信的合作关系,为公司发展奠定坚实基础。
 
 Noch besser ist, dass wir keine Beziehungen pflegen oder aufrechterhalten müssen. Alle Geschäfte werden fair abgewickelt, ohne dass wir uns gegenseitig verpflichtet fühlen. Das ist auch ganz gut so. Schließlich sind wir alle heutzutage sehr beschäftigt. Wenn man einmal eine Verpflichtung eingeht, könnte man sie in der Hektik des Alltags vergessen und nicht wissen, wann man sie zurückzahlen kann. Jede Sache sollte für sich allein stehen, jede Angelegenheit sollte separat behandelt werden.
 
