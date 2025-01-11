@@ -18,7 +18,7 @@ You can download the PDF version of my introduction, created with LaTeX, [here](
   - [Beyondsoft](https://www.beyondsoft.com) (outsourced to DBS Bank): Contributed to DBS Client Connect, an AI- and data-driven customer relationship management platform, and [DBS Digibank CN](https://www.dbs.com/digibank/in/default.page), helping to redesign the platform to offer a faster and more convenient mobile banking experience.  
   - [Farben Information](https://www.farben.com.cn) (outsourced to HSBC Bank): Worked on [PayMe from HSBC](https://payme.hsbc.com.hk), a mobile payment service that allows users to pay businesses, transfer money to peers, and link the app to their credit card or any local bank account.  
 - Experience summary:  
-  - 10 years of professional experience, including 7 years in corporate roles and 3 years as a freelancer.  
+  - 10 years of professional experience, including 8 years in corporate roles and 2 years as a freelancer.  
   - Specialized in:  
     - Mobile engineering: 2 years (Android, iOS).  
     - Full-stack engineering: 7 years (6 years backend, 1 year frontend).  
