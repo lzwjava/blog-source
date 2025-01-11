@@ -3,7 +3,7 @@ audio: true
 lang: en
 layout: post
 title: 李智维的简介
-translated: false
+translated: true
 ---
 
 你可以在这里下载我的 LaTeX 制作的简介 PDF 版本，英文版请点击 [这里](/assets/resume/Zhiwei.Li.Introduction.EN.pdf)，中文版请点击 [这里](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf)。

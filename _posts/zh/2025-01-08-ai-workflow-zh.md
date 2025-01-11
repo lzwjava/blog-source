@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 由AI工作流驱动的新平台
-translated: false
+translated: true
 ---
 
 - 工作流是通过预定义的代码路径协调大型语言模型（LLM）和工具的系统。[ ^1 ]

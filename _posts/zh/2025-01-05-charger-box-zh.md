@@ -3,7 +3,7 @@ audio: true
 lang: en
 layout: post
 title: 智能通用充电盒
-translated: false
+translated: true
 ---
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">

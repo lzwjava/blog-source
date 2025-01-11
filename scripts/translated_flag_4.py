@@ -33,18 +33,16 @@ def update_front_matter(translated_file_path, is_translated):
         print(f"Error processing {translated_file_path}: {e}")
 
 def main():
+    original_dir = "original"
     posts_dir = "_posts"
-    lang_dirs = ['zh', 'en']
-    
-    for lang_dir in lang_dirs:
-        
-        target_dir = os.path.join(posts_dir, lang_dir)
-        for filename in os.listdir(target_dir):
-            if not filename.endswith(".md"):
-                continue
-            
-            translated_file_path = os.path.join(target_dir, filename)
-            update_front_matter(translated_file_path, True)
+
+    for filename in os.listdir(original_dir):
+        if filename.endswith("-en.md"):
+            target_file = os.path.join(posts_dir, "en", filename)
+            update_front_matter(target_file, False)
+        elif filename.endswith("-zh.md"):
+            target_file = os.path.join(posts_dir, "zh", filename)
+            update_front_matter(target_file, False)
 
 if __name__ == "__main__":
     main()

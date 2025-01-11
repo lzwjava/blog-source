@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 固定价格订阅已经过时
-translated: false
+translated: true
 ---
 
 ### 订阅服务中灵活定价的必要性

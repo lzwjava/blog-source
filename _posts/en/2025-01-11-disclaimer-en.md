@@ -1,7 +1,8 @@
 ---
+audio: true
 layout: post
 title: Disclaimer
-audio: true
+translated: false
 ---
 
 ## Translation

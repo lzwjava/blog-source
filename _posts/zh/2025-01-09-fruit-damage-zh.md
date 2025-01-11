@@ -3,7 +3,7 @@ audio: true
 lang: en
 layout: post
 title: 避免订购水果时受到损坏
-translated: false
+translated: true
 ---
 
 长途运输水果可能会面临挑战。以下是一些避免收到破损水果的要点。

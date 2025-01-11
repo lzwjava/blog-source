@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Trying RAGFlow
+translated: false
 ---
 
 [https://ragflow.io](https://ragflow.io)

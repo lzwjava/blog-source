@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Markdown高级用法
-translated: false
+translated: true
 ---
 
 ## 引用

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 公司应提供 AI 上下文或代理以促进集成
-translated: false
+translated: true
 ---
 
 我有一个朋友在 Greptime DB 工作，最近我一直在思考如何将他们的产品快速集成到现有系统中。
