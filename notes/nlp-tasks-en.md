@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "NLP tasks"  
+title: "NLP Tasks"  
 audio: true  
 ---
 
