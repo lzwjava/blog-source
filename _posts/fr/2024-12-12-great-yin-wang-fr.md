@@ -3,6 +3,7 @@ lang: fr
 layout: post
 title: GTY - Le Grand Professeur Yin
 top: 20
+translated: true
 ---
 
 C'est une histoire à propos de moi et de Yin Wang. Je viens de vérifier mon compte Twitter.

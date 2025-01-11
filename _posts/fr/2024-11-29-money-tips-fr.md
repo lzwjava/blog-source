@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Conseils pour Dépenser son Argent
+translated: true
 ---
 
 * Recherchez d'abord des solutions gratuites - logiciels open source, ebooks gratuits, articles, informations, etc.

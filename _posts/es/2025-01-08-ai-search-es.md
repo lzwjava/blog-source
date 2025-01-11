@@ -2,7 +2,7 @@
 lang: es
 layout: post
 title: Un caso de uso de búsqueda en ChatGPT
-translated: false
+translated: true
 ---
 
 **Zhiwei:**  

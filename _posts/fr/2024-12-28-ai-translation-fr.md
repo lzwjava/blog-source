@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Nouveau Quora ou TikTok entièrement alimenté par la traduction IA
+translated: true
 ---
 
 * Un nouveau TikTok ou Quora entièrement alimenté par la traduction IA.

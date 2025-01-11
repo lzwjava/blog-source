@@ -3,6 +3,7 @@ lang: fr
 layout: post
 title: Améliorer son niveau d'anglais grâce à une exposition massive
 top: 20
+translated: true
 ---
 
 En 2014, lorsque je rencontrais des problèmes en programmation, je cherchais des solutions sur Google et tombais souvent sur des pages en anglais. Après avoir lu deux paragraphes, je n'allais généralement pas plus loin. Je lisais lentement, devais souvent consulter un dictionnaire, et me sentais perdu dans un brouillard d'incompréhension. Finalement, je préférais me tourner vers des pages en chinois. À cette époque, je privilégiais autant que possible les contenus en chinois. 

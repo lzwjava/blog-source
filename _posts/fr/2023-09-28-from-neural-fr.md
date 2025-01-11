@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Du Réseau de Neurones à GPT
+translated: true
 ---
 
 ### Vidéos YouTube

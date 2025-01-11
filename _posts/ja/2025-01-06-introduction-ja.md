@@ -3,7 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Zhiweiの紹介
-translated: false
+translated: true
 ---
 
 私の自己紹介のPDF版は、LaTeXで作成されており、英語版は[こちら](/assets/resume/Zhiwei.Li.Introduction.EN.pdf)、中国語版は[こちら](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf)からダウンロードできます。

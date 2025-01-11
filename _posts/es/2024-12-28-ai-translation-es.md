@@ -2,7 +2,7 @@
 lang: es
 layout: post
 title: Nuevo Quora o TikTok completamente impulsado por traducción con IA
-translated: false
+translated: true
 ---
 
 * Un nuevo TikTok o Quora completamente impulsado por traducción de IA.

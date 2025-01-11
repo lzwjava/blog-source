@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Analyse de l'interdiction des serveurs proxy
+translated: true
 ---
 
 ## Les API dans les serveurs proxy peuvent-elles éviter les interdictions du GFW ?

@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Nouvelles plateformes alimentées par des workflows IA
+translated: true
 ---
 
 - Les workflows sont des systèmes où les grands modèles de langage (LLMs) et les outils sont orchestrés via des chemins de code prédéfinis.[^1]

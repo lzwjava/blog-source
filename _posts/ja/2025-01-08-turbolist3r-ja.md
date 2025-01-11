@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Turbolist3r: サブドメインの列挙"
+title: 'Turbolist3r: サブドメインの列挙'
+translated: true
 ---
 
 ## Turbolist3r

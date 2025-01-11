@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Essayer RAGFlow
+translated: true
 ---
 
 [https://ragflow.io](https://ragflow.io)

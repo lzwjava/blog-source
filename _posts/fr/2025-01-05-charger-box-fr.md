@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Boîte de charge universelle intelligente
+translated: true
 ---
 
 ```xml

@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Mes Premiers Souvenirs Numériques
+translated: true
 ---
 
 Je suis né en 1995, la même année que la sortie de Windows 95, le 14 juillet.

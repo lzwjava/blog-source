@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Éviter les dommages lors de la commande de fruits
+translated: true
 ---
 
 Le transport de fruits sur de longues distances peut s'avérer difficile. Voici quelques conseils pour éviter de recevoir des fruits abîmés.

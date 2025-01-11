@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Avantages des Paiements Hypothécaires Partiels Anticipés
+translated: true
 ---
 
 J'ai un prêt immobilier de 1,03 million de CNY, que j'ai contracté auprès de la Banque Agricole de Chine vers juillet 2022.

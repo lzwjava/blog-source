@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Traduction en français des articles de blog de Yin Wang
+translated: true
 ---
 
 Traduit de [yinwang.org](https://www.yinwang.org).

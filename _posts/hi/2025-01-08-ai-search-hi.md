@@ -2,7 +2,7 @@
 lang: hi
 layout: post
 title: ChatGPT में खोज का उपयोग करने का एक मामला
-translated: false
+translated: true
 ---
 
 **Zhiwei:**  

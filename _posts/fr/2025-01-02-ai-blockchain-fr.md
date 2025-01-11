@@ -4,6 +4,7 @@ lang: fr
 layout: post
 title: Comment je vis bien à l'ère de l'IA et de la blockchain
 top: 10
+translated: true
 ---
 
 Est-il encore utile d'écrire des blogs maintenant que nous avons des modèles de langage de grande taille (LLMs) ? Si les LLMs contiennent les informations que vous souhaitez partager et que les gens utilisent davantage les LLMs, avons-nous encore besoin de fournir nos propres informations ?

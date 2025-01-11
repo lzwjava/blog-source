@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Préférez-vous avoir un fond sonore
+translated: true
 ---
 
 * Préfère avoir un fond sonore, peu importe ce que vous faites.

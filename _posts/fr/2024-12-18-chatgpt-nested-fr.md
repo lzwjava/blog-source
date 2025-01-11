@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Le bug de ChatGPT avec les blocs de code imbriqués
+translated: true
 ---
 
 ### Explication du Problème

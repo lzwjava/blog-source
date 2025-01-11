@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Applications iOS que j'ai utilisées - Version Tableau
+translated: true
 translation: false
 ---
 

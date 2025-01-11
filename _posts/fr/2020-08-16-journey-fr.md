@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Le voyage d'apprentissage de l'anglais
+translated: true
 ---
 
 Après avoir lutté pendant de nombreuses années, essayé de nombreuses méthodes et utilisé de nombreuses applications, j'ai finalement trouvé une manière de me passionner pour l'anglais, une méthode qui me permet de l'apprécier sans avoir à faire d'efforts, de maintenir l'habitude d'utiliser l'anglais régulièrement, de lire des informations en anglais, de lire des livres en anglais, de regarder des séries américaines sans sous-titres, de naviguer sur des sites web en anglais, de lire et d'écouter de longs passages, et d'avoir eu quelques expériences de communication normale avec des étrangers. Grâce à cela, j'ai même pu aider un client néerlandais à distance en communiquant en anglais, et j'ai gagné de l'argent en créant un site web. Laissez-moi vous raconter ce voyage.

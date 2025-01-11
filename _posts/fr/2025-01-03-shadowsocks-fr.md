@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Problèmes de Proxy Shadowsocks
+translated: true
 ---
 
 Zhiwei :

@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Programmation
+translated: true
 ---
 
 * Il est acceptable de faire de la programmation compétitive tant que cela vous motive.

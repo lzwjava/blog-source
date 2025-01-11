@@ -2,7 +2,7 @@
 lang: hi
 layout: post
 title: वर्कफ़्लो BFS है, एजेंट DFS है
-translated: false
+translated: true
 ---
 
 एंथ्रोपिक के अनुसार [^1]:

@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Le Monde de l'Intelligence Artificielle Générale
+translated: true
 ---
 
 Si un jour, nous pouvons simplement dire à une IA de créer une application comme TikTok ou YouTube avec une seule commande, et qu'elle nous fournisse un projet complet contenant des millions de lignes de code, ce serait vraiment incroyable.

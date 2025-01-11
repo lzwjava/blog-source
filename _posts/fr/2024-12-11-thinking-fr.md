@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Réflexion
+translated: true
 ---
 
 * En catégorisant, en abstraisant ou en raisonnant sur les choses, vous pensez.

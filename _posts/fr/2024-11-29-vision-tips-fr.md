@@ -3,6 +3,7 @@ lang: fr
 layout: post
 title: Conseils naturels pour restaurer la vision
 top: 10
+translated: true
 ---
 
 * La raison pour laquelle les gens voient leur vue se détériorer est qu'ils utilisent des lunettes avec une correction totale (qui leur permet de voir un tableau noir clairement à 5 mètres) pour regarder des téléphones, des ordinateurs ou des livres la plupart du temps. Cela provoque une déformation de leurs globes oculaires.

@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: La Meilleure Méthode de Communication pour Moi
+translated: true
 ---
 
 * Partager ce que je veux dire dans un blog.

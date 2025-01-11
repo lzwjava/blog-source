@@ -3,6 +3,7 @@ lang: fr
 layout: post
 title: Inverser la Myopie
 top: 50
+translated: true
 ---
 
 * [Myopie : Une maladie moderne mais réversible, M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF), Todd Becker

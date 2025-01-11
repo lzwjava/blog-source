@@ -2,7 +2,7 @@
 lang: es
 layout: post
 title: Nuevas Plataformas Impulsadas por Flujos de Trabajo con IA
-translated: false
+translated: true
 ---
 
 - Los workflows son sistemas en los que los modelos de lenguaje de gran escala (LLMs) y las herramientas se orquestan a través de rutas de código predefinidas.[^1]

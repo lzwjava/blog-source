@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Analyse de la détection de VPN sur iOS par ChatGPT
+translated: true
 ---
 
 Aujourd'hui, j'ai découvert que l'application ChatGPT pour iOS permet désormais de se connecter avec un VPN en Chine. Auparavant, elle affichait un message de blocage, comme celui illustré ci-dessous.

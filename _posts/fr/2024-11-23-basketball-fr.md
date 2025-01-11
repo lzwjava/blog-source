@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Un mouvement de basket-ball non conventionnel
+translated: true
 ---
 
 ```xml

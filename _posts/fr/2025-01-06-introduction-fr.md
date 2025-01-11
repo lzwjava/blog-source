@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Présentation de Zhiwei
+translated: true
 ---
 
 Vous pouvez télécharger la version PDF de mon introduction, créée avec LaTeX, [ici](/assets/resume/Zhiwei.Li.Introduction.EN.pdf) pour la version anglaise et [ici](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf) pour la version chinoise.

@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: 'Ingénieur Backend Java : Collection de Questions d''Entretien'
+translated: true
 ---
 
 ## Projet Relatif

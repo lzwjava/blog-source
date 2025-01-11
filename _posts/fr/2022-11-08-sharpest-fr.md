@@ -3,6 +3,7 @@ lang: fr
 layout: post
 title: 'Maîtriser l''anglais : Au travail et en dehors'
 top: 10
+translated: true
 ---
 
 Il y a un an, en ce qui concerne mes compétences en anglais, ma lecture était bonne, mon écoute était moins bonne, et mon écriture et ma parole étaient faibles. Après avoir travaillé dans une entreprise singapourienne, les quatre aspects de mon niveau d'anglais sont devenus compétents.

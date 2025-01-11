@@ -34,14 +34,17 @@ def update_front_matter(translated_file_path):
 
 def main():
     posts_dir = "_posts"
-    lang_dir = 'de'
+    lang_dirs = ['de', 'hi', 'fr', 'ja', 'es']
     
-    target_dir = os.path.join(posts_dir, lang_dir)
-
-    for filename in os.listdir(target_dir):
-        if filename.endswith(".md"):
-            translated_file_path = os.path.join(target_dir, filename)
-            update_front_matter(translated_file_path)
+    for lang_dir in lang_dirs:
+        target_dir = os.path.join(posts_dir, lang_dir)
+        if not os.path.exists(target_dir):
+            print(f"Directory not found: {target_dir}")
+            continue
+        for filename in os.listdir(target_dir):
+            if filename.endswith(".md"):
+                translated_file_path = os.path.join(target_dir, filename)
+                update_front_matter(translated_file_path)
 
 if __name__ == "__main__":
     main()

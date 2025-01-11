@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Piratage
+translated: true
 ---
 
 Il existe diverses façons de pirater, et ce sujet est très intéressant. En tant que hacker White Hat amateur, je trouve qu'il y a beaucoup de connaissances à acquérir dans ce domaine. Ici, je vais enregistrer quelques méthodes que j'ai explorées.

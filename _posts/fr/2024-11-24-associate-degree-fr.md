@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: 'Diplôme d''Associé : Progrès et Réflexion'
+translated: true
 ---
 
 Voici l'avancement de mon association.

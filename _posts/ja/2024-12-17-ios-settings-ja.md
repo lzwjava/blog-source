@@ -3,7 +3,7 @@ audio: true
 lang: en
 layout: post
 title: iOSのアプリごとの設定、スイッチコントロール、およびAssistiveTouch
-translated: false
+translated: true
 ---
 
 ## アプリごとの設定

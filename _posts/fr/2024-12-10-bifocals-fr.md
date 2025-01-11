@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Bifocales
+translated: true
 ---
 
 Les lunettes bifocales possèdent deux puissances optiques différentes : une pour le segment supérieur et une pour le segment inférieur. Elles présentent généralement une différence significative de puissance optique entre ces deux segments de la lentille.

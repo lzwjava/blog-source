@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Potentiels Défauts dans l'Essai sur la Livraison de Fruits
+translated: true
 ---
 
 Zhiwei Li :

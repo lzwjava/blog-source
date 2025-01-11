@@ -1,7 +1,8 @@
 ---
 lang: fr
 layout: post
-title: "Supposons que nous"
+title: Supposons que nous
+translated: true
 ---
 
 Supposons que nous sachions comment accéder à Internet de manière scientifique, alors comment regarder YouTube sur une télévision ? Configurer le routeur peut être un peu compliqué. Ici, nous allons utiliser une application pour y parvenir.

@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Pourquoi les appareils Android ralentissent-ils
+translated: true
 ---
 
 *Cet article a été rédigé avec l'assistance de ChatGPT.*
