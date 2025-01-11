@@ -16,7 +16,6 @@ MAX_THREADS = 10
 
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
-
 def create_translation_prompt(target_language):
     if target_language == "zh":
         return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Do not translate English names or code blocks. Be careful about code blocks, if not sure, just do not change."""
@@ -30,9 +29,10 @@ def create_translation_prompt(target_language):
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to French. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
     elif target_language == 'de':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to German. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+    elif target_language == 'ar':
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Arabic. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
     else:
         return f"You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to {target_language}. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
-
 
 def translate_text(text, target_language):
     print(f"  Translating text: {text[:50]}...")
@@ -65,6 +65,9 @@ def translate_front_matter(front_matter, target_language):
         if 'title' in front_matter_dict:
             translated_title = translate_text(front_matter_dict['title'], target_language)
             if translated_title:
+                translated_title = translated_title.strip()
+                if len(translated_title) > 300:
+                    translated_title = translated_title.split('\n')[0]
                 front_matter_dict['title'] = translated_title
         # Always set lang to target_language
         front_matter_dict['lang'] = target_language
@@ -72,7 +75,6 @@ def translate_front_matter(front_matter, target_language):
     except yaml.YAMLError as e:
         print(f"  Error parsing front matter: {e}")
         return front_matter
-
 
 def translate_markdown_file(input_file, output_file, target_language):
     print(f"  Processing file: {input_file}")
@@ -88,11 +90,9 @@ def translate_markdown_file(input_file, output_file, target_language):
 
         translated_front_matter = translate_front_matter(front_matter, target_language)
 
-
         # Split content into paragraphs
         paragraphs = content_without_front_matter.split('\n\n')
         translated_paragraphs = []
-
 
         for i, paragraph in enumerate(paragraphs):
             if paragraph.strip():
@@ -106,7 +106,6 @@ def translate_markdown_file(input_file, output_file, target_language):
             else:
                 translated_paragraphs.append("")
 
-
         translated_content = "\n\n".join(translated_paragraphs)
         translated_content = translated_front_matter + translated_content
 
@@ -115,7 +114,6 @@ def translate_markdown_file(input_file, output_file, target_language):
         print(f"  Finished processing file: {output_file}")
     except Exception as e:
         print(f"  Error processing file {input_file}: {e}")
-
 
 def main():
     if not DEEPSEEK_API_KEY:
@@ -128,14 +126,13 @@ def main():
     args = parser.parse_args()
     max_files = args.n
     target_language = args.lang
-    
+
     output_dir = f"_posts/{target_language}"
     if target_language == 'hi':
         output_dir = "_posts/hi"
     os.makedirs(output_dir, exist_ok=True)
     print(f"Created directory {output_dir}")
 
-    
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         translated_count = 0
         futures = []
@@ -146,11 +143,11 @@ def main():
             if filename.endswith(".md"):
                 input_file = os.path.join(INPUT_DIR, filename)
                 output_filename = filename.replace(".md", f"-{target_language}.md")
-                
+
                 # Check if the original file is named with "-en.md" or "-zh.md"
                 if filename.endswith("-en.md") or filename.endswith("-zh.md"):
                     output_filename = filename.replace("-en.md", f"-{target_language}.md").replace("-zh.md", f"-{target_language}.md")
-                
+
                 output_file = os.path.join(output_dir, output_filename)
                 if not os.path.exists(output_file):
                     print(f"Submitting translation job for {filename}...")
@@ -159,13 +156,12 @@ def main():
                     translated_count += 1
                 else:
                     print(f"Skipping {filename} because {output_file} already exists.")
-        
+
         for future in concurrent.futures.as_completed(futures):
             try:
                 future.result()
             except Exception as e:
                 print(f"A thread failed: {e}")
-
 
 if __name__ == "__main__":
     main()
