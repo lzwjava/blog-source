@@ -123,7 +123,7 @@ def translate_markdown_file(input_file, output_file, target_language, changed_pa
         if not dry_run:
             translated_front_matter = translate_front_matter(front_matter, target_language, input_file)            
             
-            special = "resume" in input_file
+            special = "resume" in input_file or "introduction" in input_file
             translated_content = translate_text(content_without_front_matter, target_language, special=special)
             if translated_content:
                 translated_content = translated_front_matter + "\n\n" + translated_content
