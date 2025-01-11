@@ -2,7 +2,7 @@
 lang: ja
 layout: post
 title: ChatGPTでの検索機能を使った事例
-translated: false
+translated: true
 ---
 
 **Zhiwei:**  

@@ -3,6 +3,7 @@ lang: fr
 layout: post
 title: 'Myopie : Une Maladie Moderne mais Réversible — Todd Becker'
 top: 10
+translated: true
 ---
 
 J'ai découvert la vidéo de Todd Becker dans les notes de bas de page de l'article de Yin Wang sur la [Méthode d'Amélioration Naturelle de la Vision](https://www.yinwang.org/blog-cn/2022/02/22/myopia). La vidéo, publiée en 2014, a dépassé les 1,2 millions de vues.

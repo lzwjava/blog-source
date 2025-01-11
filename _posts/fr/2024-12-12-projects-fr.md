@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Projets Personnels
+translated: true
 ---
 
 ## Skybound : L'Odyssée aérienne de Guangzhou à Lhassa

@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Limites et Cas Limites
+translated: true
 ---
 
 * Réfléchir aux limites et aux cas extrêmes est un bon moyen de comprendre quelque chose.

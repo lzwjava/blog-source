@@ -4,6 +4,7 @@ lang: fr
 layout: post
 title: ChatGPT devrait permettre la création de GPTs à partir de l'historique des
   conversations
+translated: true
 ---
 
 La liste des conversations devrait inclure un bouton près du bouton de partage intitulé "Créer un GPT." Cette fonctionnalité permettrait aux utilisateurs de créer un GPT basé sur l'historique récent des discussions.

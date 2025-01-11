@@ -2,7 +2,7 @@
 lang: ja
 layout: post
 title: 高度なMarkdownの使い方
-translated: false
+translated: true
 ---
 
 ## 参考文献

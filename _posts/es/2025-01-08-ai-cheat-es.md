@@ -2,7 +2,7 @@
 lang: es
 layout: post
 title: Enfatiza el Juicio sobre Preocuparte por el Engaño de la IA
-translated: false
+translated: true
 ---
 
 - El engaño con IA es omnipresente y, probablemente, imposible de eliminar por completo.

@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Abstraction
+translated: true
 ---
 
 * Tout est question d'abstraction.

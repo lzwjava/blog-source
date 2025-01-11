@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Applications Immobilières Mondiales
+translated: true
 ---
 
 Chine :

@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Enfant du futur
+translated: true
 ---
 
 En 2005, Paul Graham a fondé l'incubateur Y Combinator. Dans son article intitulé « Hiring is Obsolete », il a déclaré :

@@ -3,6 +3,7 @@ lang: fr
 layout: post
 title: Conseils pour les parents
 top: 10
+translated: true
 ---
 
 * La sécurité est la chose la plus importante. Vivez discrètement et assurez-vous que les jardins d'enfants ou les écoles agissent correctement.

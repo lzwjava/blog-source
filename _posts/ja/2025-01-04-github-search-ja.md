@@ -3,7 +3,7 @@ audio: true
 lang: en
 layout: post
 title: GitHub 検索ボックスがまだ必要なケース
-translated: false
+translated: true
 ---
 
 ```yaml

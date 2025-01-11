@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Configurer Votre Serveur Proxy
+translated: true
 ---
 
 * Pour configurer un serveur, utilisez Outline Manager : [https://getoutline.org](https://getoutline.org).  

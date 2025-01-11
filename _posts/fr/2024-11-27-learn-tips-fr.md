@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Conseils d'apprentissage
+translated: true
 ---
 
 * Considérez l'apprentissage comme un passe-temps en l'abordant avec légèreté et un intérêt authentique.

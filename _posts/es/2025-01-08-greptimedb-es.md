@@ -3,7 +3,7 @@ lang: es
 layout: post
 title: Las empresas deberían proporcionar contexto o agentes de IA para facilitar
   la integración
-translated: false
+translated: true
 ---
 
 Tengo un amigo que trabaja en Greptime DB, y he estado pensando en cómo integrar rápidamente su producto en los sistemas existentes.

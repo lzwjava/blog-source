@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Configuration de streaming en direct avec OBS, SRS et FFmpeg
+translated: true
 ---
 
 *Cet article de blog a été rédigé avec l'assistance de ChatGPT-4o.*

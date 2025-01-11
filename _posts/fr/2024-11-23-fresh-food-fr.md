@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Faites attention à la fraîcheur des aliments
+translated: true
 ---
 
 Une récente expérience avec la nourriture de rue m'a appris une leçon précieuse sur l'importance de la fraîcheur des aliments. Tout en dégustant un barbecue du Xinjiang chez un vendeur, j'ai commandé deux brochettes d'agneau shashlik et une portion de jambon. Le lendemain, je me suis retrouvé à faire face à un malheureux cas de diarrhée.

@@ -3,6 +3,7 @@ lang: fr
 layout: post
 title: Proposition de liquidation de l'entreprise
 top: 10
+translated: true
 ---
 
 Lettre aux actionnaires :

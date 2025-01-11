@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Certaines Plateformes Cloud Mondiales
+translated: true
 ---
 
 <div align="center"><img src="/assets/images/cloud/platform.jpg" width="400px"/><img/></div>

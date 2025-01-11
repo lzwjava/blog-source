@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Corriger les invites ou le contexte plutôt que la sortie de l'IA
+translated: true
 ---
 
 Il existe des invites utilisateur et des invites système. Lorsque la sortie ne fonctionne pas correctement, nous devrions ajouter la règle dans les invites utilisateur plutôt que de la corriger à chaque fois.

@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Balayage vers la gauche et applications
+translated: true
 ---
 
 ## Balayage vers la gauche dans les listes iOS

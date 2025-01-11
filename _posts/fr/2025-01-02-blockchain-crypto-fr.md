@@ -4,6 +4,7 @@ lang: fr
 layout: post
 title: Cryptomonnaie et Blockchain
 top: 10
+translated: true
 ---
 
 La cryptomonnaie, tout comme l'IA, est connue d'une grande partie de la population. Je pense que la notoriété de la cryptomonnaie est similaire à la proportion de personnes ayant accès à internet gratuit. Dans les pays en dehors de la Chine, un pourcentage plus élevé de la population est susceptible de connaître la cryptomonnaie.

@@ -3,6 +3,7 @@ lang: fr
 layout: post
 title: Conseils de vie
 top: 10
+translated: true
 ---
 
 * Explorez le monde tôt, allez dans différents pays et parlez à différentes personnes.

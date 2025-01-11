@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Catégorisation
+translated: true
 ---
 
 * Tout est une question de catégorisation.

@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Oubli de recharger les batteries externes
+translated: true
 ---
 
 Le problème d'oublier souvent de recharger les power banks m'a beaucoup frustré.

@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: 'Carte SIM britannique en Chine : Une expérience avec Giffgaff'
+translated: true
 ---
 
 Giffgaff propose un nouveau service de carte SIM pour téléphone portable. Je n'ai jamais rien connu de tel en Chine. Les opérateurs de télécommunications chinois - China Telecom, China Unicom et China Communications - semblent vieux jeu et bureaucratiques en comparaison. Giffgaff, quant à lui, est jeune, dynamique et épuré.

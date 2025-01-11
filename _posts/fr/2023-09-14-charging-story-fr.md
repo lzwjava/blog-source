@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Lutte contre les problèmes de recharge de ma voiture électrique
+translated: true
 ---
 
 J'ai entièrement rechargé ma voiture à Zogang, ce qui lui donne une autonomie de 400 km avec une charge complète. J'ai commencé mon trajet vers Markam, une distance d'environ 160 km. À ce moment-là, la voiture affichait une autonomie restante d'environ 250 km.

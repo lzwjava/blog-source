@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Communication
+translated: true
 ---
 
 * Ne discutez pas avec votre famille, vos amis ou d'autres personnes ayant des opinions différentes. Discuter est inutile et peut parfois être blessant.

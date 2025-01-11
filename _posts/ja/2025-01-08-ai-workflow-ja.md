@@ -2,7 +2,7 @@
 lang: ja
 layout: post
 title: AIワークフローで強化された新プラットフォーム
-translated: false
+translated: true
 ---
 
 - ワークフローとは、大規模言語モデル（LLMs）とツールが事前に定義されたコードパスを通じて調整されるシステムです。[^1]

@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Les abonnements à prix fixe sont dépassés
+translated: true
 ---
 
 ### L'argument en faveur de tarifs flexibles dans les services d'abonnement

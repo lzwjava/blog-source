@@ -3,6 +3,7 @@ lang: fr
 layout: post
 title: Progrès Naturel de la Restauration de la Vision
 top: 20
+translated: true
 ---
 
 Dernière mise à jour : 28 novembre 2024

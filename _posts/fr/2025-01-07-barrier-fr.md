@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: S'inscrire sur n'importe quelle plateforme indépendamment de l'identité
+translated: true
 ---
 
 Je suis un citoyen chinois et un ingénieur logiciel passionné par les dernières technologies. Il est frustrant de voir de nombreux produits interdire l'accès depuis la Chine. Bien que je sois encore en train de travailler sur mon diplôme d'associé et que j'espère travailler à l'étranger un jour, je resterai en Chine encore quelques années. En attendant, j'aimerais partager quelques informations sur la manière de surmonter les barrières internet basées sur la nationalité.

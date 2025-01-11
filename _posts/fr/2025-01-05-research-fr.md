@@ -4,6 +4,7 @@ lang: fr
 layout: post
 title: Le Voyage de l'Inversion Naturelle de la Myopie
 top: 10
+translated: true
 ---
 
 En plus des trois articles sur l'inversion de la myopie, je souhaite partager davantage sur cette histoire de découverte.

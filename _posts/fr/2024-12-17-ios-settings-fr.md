@@ -4,6 +4,7 @@ lang: fr
 layout: post
 title: Paramètres par application, Contrôle de commutation et AssistiveTouch dans
   iOS
+translated: true
 ---
 
 ## Paramètres par application

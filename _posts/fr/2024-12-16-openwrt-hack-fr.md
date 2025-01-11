@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Améliorer OpenWRT avec OpenClash et Shadowsocks
+translated: true
 ---
 
 ### Mise à jour des listes de paquets

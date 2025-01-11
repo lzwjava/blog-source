@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Mes Choix d'Applications Préférées
+translated: true
 ---
 
 Dans un essai précédent, j'ai écrit :

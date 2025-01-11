@@ -3,6 +3,7 @@ audio: true
 lang: fr
 layout: post
 title: Cuisine
+translated: true
 ---
 
 * Cuisiner pour soi-même est simple. Utilisez de l'huile pour faire sauter les aliments, car elle a un point d'ébullition plus élevé que l'eau, ce qui permet de chauffer les aliments plus efficacement.  

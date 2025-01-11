@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: 'Jeu pour bébé : Suis la Main'
+translated: true
 ---
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">

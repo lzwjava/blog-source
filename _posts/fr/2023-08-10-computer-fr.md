@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Comment Construire un Ordinateur
+translated: true
 ---
 
 ![couverture](assets/images/computer/cover.jpg)

@@ -2,6 +2,7 @@
 lang: fr
 layout: post
 title: Raisonnement
+translated: true
 ---
 
 * Tout est une question de raisonnement.
