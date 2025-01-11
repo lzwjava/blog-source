@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Kategorisierung
+translated: true
 ---
 
 * Alles dreht sich um Kategorisierung.

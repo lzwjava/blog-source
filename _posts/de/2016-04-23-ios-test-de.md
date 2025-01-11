@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: 通过自动化测试和工具提升iOS开发
+translated: true
 ---
 
 *Dieser Blogbeitrag wurde mit Unterstützung von ChatGPT-4o verfasst.*

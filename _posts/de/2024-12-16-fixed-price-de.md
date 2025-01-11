@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Festpreis-Abonnements sind veraltet
+translated: true
 ---
 
 ### Das Argument für flexible Preismodelle in Abonnementdiensten

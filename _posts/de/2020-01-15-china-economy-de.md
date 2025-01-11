@@ -1,7 +1,8 @@
 ---
 lang: de
 layout: post
-title: "Ein kurzer Überblick über die Auswege der chinesischen Wirtschaft"
+title: Ein kurzer Überblick über die Auswege der chinesischen Wirtschaft
+translated: true
 ---
 
 In den 40 Jahren seit der Reform und Öffnung Chinas hat das Land unter der Anleitung der wirtschaftlichen Entwicklung tatsächlich erhebliche Fortschritte gemacht. Doch die Krise ist bereits sichtbar, und in den kommenden Jahren wird die Wirtschaft mit enormen Herausforderungen konfrontiert sein. Hier sind einige mögliche Auswege:

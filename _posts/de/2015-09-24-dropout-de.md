@@ -1,7 +1,8 @@
 ---
 lang: de
 layout: post
-title: "退学申请书"
+title: 退学申请书
+translated: true
 ---
 
 Sehr geehrte Schulleitung,

@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Einführung in Cloud Computing und Big Data
+translated: true
 ---
 
 Diese Lektion behandelt die folgenden Themen:

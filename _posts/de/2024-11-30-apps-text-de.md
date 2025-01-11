@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: iOS-Apps, die ich verwendet habe - Textversion
 top: 10
+translated: true
 translation: false
 ---
 

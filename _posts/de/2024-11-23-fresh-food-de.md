@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Achten Sie auf die Frische von Lebensmitteln
+translated: true
 ---
 
 最近的一次街头小吃经历让我深刻认识到了食物新鲜度的重要性。在享用新疆烧烤时，我点了两串羊肉串和一份火腿。结果第二天就遭遇了不幸的腹泻。

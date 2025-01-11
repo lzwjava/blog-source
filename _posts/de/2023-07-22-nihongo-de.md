@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: ChatGPT hilft mir, Japanisch zu lernen
+translated: true
 ---
 
 ### Vorwort

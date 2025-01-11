@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Richten Sie Ihren Proxy-Server ein
+translated: true
 ---
 
 * Um einen Server einzurichten, verwenden Sie den Outline Manager: [https://getoutline.org](https://getoutline.org).  

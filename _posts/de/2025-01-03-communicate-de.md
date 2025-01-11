@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Kommunikation
+translated: true
 ---
 
 * Diskutiere nicht mit Familie, Freunden oder anderen, die unterschiedliche Meinungen haben. Es ist sinnlos zu streiten und kann manchmal verletzend sein.

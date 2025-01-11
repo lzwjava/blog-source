@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: Umkehrung der Myopie
 top: 50
+translated: true
 ---
 
 * [Myopie: Eine moderne, aber reversible Krankheit, M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF), Todd Becker

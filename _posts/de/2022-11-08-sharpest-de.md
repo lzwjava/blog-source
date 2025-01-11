@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: 'Englisch meistern: Im Beruf und im Privatleben'
 top: 10
+translated: true
 ---
 
 Vor einem Jahr war mein Englisch in Bezug auf die Lesefähigkeit gut, das Hörverständnis nicht so gut, und Schreiben und Sprechen waren schwach. Nachdem ich in einem Unternehmen in Singapur gearbeitet habe, sind alle vier Aspekte meines Englisch-Niveaus nun fließend.

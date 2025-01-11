@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Verständnis von Neuronalen Netzwerken
+translated: true
 ---
 
 Zhiwei:

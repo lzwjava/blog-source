@@ -2,7 +2,8 @@
 audio: true
 lang: de
 layout: post
-title: "Zsh bietet eine leistungsstarke Funktion namens"
+title: Zsh bietet eine leistungsstarke Funktion namens
+translated: true
 ---
 
 Nachdem ich "Let Zsh Display Proxy Settings Before Running Network Commands" erkundet hatte, bin ich mit ChatGPT tiefer in Zsh-Hooks eingetaucht. Hier ist eine prägnante Übersicht für zukünftige Referenz.

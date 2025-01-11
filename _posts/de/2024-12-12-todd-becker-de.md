@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: 'Myopie: Eine moderne, aber reversible Krankheit — Todd Becker'
 top: 10
+translated: true
 ---
 
 Ich entdeckte Todd Beckers Video in den Fußnoten von Yin Wangs Artikel über die [Natürliche Sehverbesserungsmethode](https://www.yinwang.org/blog-cn/2022/02/22/myopia). Das Video, das 2014 hochgeladen wurde, hat über 1,2 Millionen Aufrufe erzielt.

@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: KI-Tools
+translated: true
 ---
 
 Hier sind einige KI-Tools, die ich verwendet habe:

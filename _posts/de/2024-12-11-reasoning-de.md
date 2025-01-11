@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Grundlagen
+translated: true
 ---
 
 * Alles dreht sich um das logische Denken.

@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Wie man alles in einem Jahr lernen kann
+translated: true
 ---
 
 Wie kann man alles in einem Jahr lernen? Nehmen wir Englisch als Beispiel. Ich habe ein Jahr gebraucht, um ein IELTS-Ergebnis von 6 zu erreichen und fließend Englisch in einem globalen Großunternehmen arbeiten zu können. Hier ist mein Weg.

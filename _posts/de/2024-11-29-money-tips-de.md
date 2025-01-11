@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Tipps zum Geldausgeben
+translated: true
 ---
 
 * Suche zuerst nach kostenlosen Lösungen – Open-Source-Software, kostenlose E-Books, wissenschaftliche Arbeiten, Informationen usw.

@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Programmierung
+translated: true
 ---
 
 * Es ist in Ordnung, Competitive Programming zu betreiben, solange es dich motiviert.

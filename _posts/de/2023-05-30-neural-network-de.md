@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Wie neuronale Netzwerke funktionieren
+translated: true
 usemathjax: true
 ---
 

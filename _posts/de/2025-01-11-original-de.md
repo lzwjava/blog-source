@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Originalbeiträge
+translated: true
 ---
 
 Dies sind meine originalen Blogbeiträge.

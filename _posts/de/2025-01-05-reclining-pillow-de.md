@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Verstellbares Kissen
+translated: true
 ---
 
 Ich empfehle dieses verstellbare Kissen. Ich habe es im März 2023 gekauft. Es hat mich damals etwa 270 CNY gekostet. Heute (5. Januar 2025) wird es auf jd.com für etwa 240 CNY angeboten. Ich benutze es jetzt seit fast zwei Jahren. Das ist großartig, denn die Dinge, die man nach einem Jahr immer noch benutzt, sind die Dinge, die man wirklich braucht.

@@ -4,6 +4,7 @@ lang: de
 layout: post
 title: Kryptowährung und Blockchain
 top: 10
+translated: true
 ---
 
 Kryptowährung ist, ähnlich wie KI, einem großen Teil der Bevölkerung bekannt. Ich glaube, das Bewusstsein für Kryptowährung entspricht in etwa dem Anteil der Menschen, die Zugang zum freien Internet haben. In Ländern außerhalb Chinas ist es wahrscheinlich, dass ein größerer Prozentsatz der Bevölkerung über Kryptowährung Bescheid weiß.

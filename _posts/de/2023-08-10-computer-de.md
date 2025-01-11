@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Wie man einen Computer baut
+translated: true
 ---
 
 ![Titelbild](assets/images/computer/cover.jpg)

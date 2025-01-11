@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Zhiweis Einführung
+translated: true
 ---
 
 Sie können die PDF-Version meiner Einführung, erstellt mit LaTeX, [hier](/assets/resume/Zhiwei.Li.Introduction.EN.pdf) für die englische Version und [hier](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf) für die chinesische Version herunterladen.

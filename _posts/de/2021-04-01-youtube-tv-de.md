@@ -1,7 +1,8 @@
 ---
 lang: de
 layout: post
-title: 'Hier nehmen wir an, dass wir wissen'
+title: Hier nehmen wir an, dass wir wissen
+translated: true
 ---
 
 Hier nehmen wir an, dass wir wissen, wie man das Internet wissenschaftlich nutzt. Wie kann man dann YouTube auf dem Fernseher ansehen? Das Flashen des Routers ist etwas umständlich. Hier verwenden wir eine App.

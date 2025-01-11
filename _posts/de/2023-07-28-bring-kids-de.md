@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Wie man die besten Kinder großzieht
+translated: true
 ---
 
 Wie erzieht man die besten Kinder? Wenn Sie ein Milliardär wären, wie würden Sie Ihre Kinder erziehen? Nach meinen Beobachtungen würden sie ihre Kinder auf Reisen um die Welt mitnehmen. Denken wir an Eileen Gu. Ihre Lebenserfahrung ist wirklich farbenfroh. Ihre Mutter ist ausgezeichnet.

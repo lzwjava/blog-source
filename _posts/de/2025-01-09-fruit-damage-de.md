@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Schäden vermeiden beim Bestellen von Früchten
+translated: true
 ---
 
 Der Transport von Früchten über lange Strecken kann eine Herausforderung darstellen. Hier sind einige Tipps, wie man vermeiden kann, beschädigte Früchte zu erhalten.

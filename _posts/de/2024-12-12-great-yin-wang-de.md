@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: GTY - Großartiger Lehrer Yin
 top: 20
+translated: true
 ---
 
 Dies ist eine Geschichte über mich und Yin Wang. Ich habe gerade mein Twitter-Konto überprüft.

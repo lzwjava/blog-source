@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: '### Mac-Apps, die ich verwendet habe'
+translated: true
 ---
 
 A:

@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Globale Immobilien-Apps
+translated: true
 ---
 
 China:

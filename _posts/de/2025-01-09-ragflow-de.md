@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: RAGFlow ausprobieren
+translated: true
 ---
 
 [https://ragflow.io](https://ragflow.io)

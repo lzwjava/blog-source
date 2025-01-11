@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Tipps zur Suche nach einem Mitgründer
+translated: false
 ---
 
 - Wenn ich mein Startup noch einmal gründen würde, wie würde ich meinen Mitgründer finden?

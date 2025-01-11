@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Zen und die Kunst des maschinellen Lernens
+translated: true
 usemathjax: true
 ---
 

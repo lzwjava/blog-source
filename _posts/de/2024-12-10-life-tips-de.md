@@ -3,6 +3,7 @@ lang: de
 layout: post
 title: Lebenstipps
 top: 10
+translated: true
 ---
 
 * Erkunde die Welt frühzeitig, bereise verschiedene Länder und sprich mit unterschiedlichen Menschen.

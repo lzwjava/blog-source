@@ -4,6 +4,7 @@ lang: de
 layout: post
 title: Wie ich in der Ära von KI und Blockchain gut lebe
 top: 10
+translated: true
 ---
 
 Ist es noch sinnvoll, Blogs zu schreiben, jetzt, wo wir große Sprachmodelle (LLMs) haben? Wenn LLMs die Informationen enthalten, die man teilen möchte, und die Leute LLMs häufiger nutzen, müssen wir dann noch unsere eigenen Informationen bereitstellen?

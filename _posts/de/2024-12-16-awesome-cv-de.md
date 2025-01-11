@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Verwendung von Awesome-CV zur Erstellung eines professionellen Lebenslaufs
+translated: true
 ---
 
 ### Einführung

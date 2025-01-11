@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: ChatGPTs Problem mit verschachtelten Codeblöcken
+translated: true
 ---
 
 ### Problembeschreibung

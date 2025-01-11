@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Per-App-Einstellungen, Switch Control und AssistiveTouch in iOS
+translated: true
 ---
 
 ## App-spezifische Einstellungen

@@ -2,6 +2,7 @@
 lang: de
 layout: post
 title: Abstraktion
+translated: true
 ---
 
 * Alles dreht sich um Abstraktion.

@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Bifokale Brillen
+translated: true
 ---
 
 Bifokale Brillen haben zwei verschiedene optische Stärken: eine für das obere Segment und eine für das untere Segment. In der Regel besteht ein deutlicher Unterschied in der optischen Stärke zwischen diesen beiden Segmenten der Linse.

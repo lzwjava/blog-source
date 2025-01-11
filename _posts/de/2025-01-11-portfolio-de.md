@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Portfolio
+translated: false
 ---
 
 Die PDF-Datei kann [hier](/assets/resume/Zhiwei.Li.Portfolio.pdf) gefunden werden.

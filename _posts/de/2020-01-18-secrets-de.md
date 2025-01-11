@@ -1,7 +1,8 @@
 ---
 lang: de
 layout: post
-title: '浅谈人生的秘密'
+title: 浅谈人生的秘密
+translated: true
 ---
 
 Erst nachdem ich die Schule verlassen und einige Jahre in der Arbeitswelt praktische Erfahrungen gesammelt hatte, erkannte ich plötzlich das Geheimnis des Lernens. Ich stellte fest, dass es im Grunde auch das Geheimnis des Lebens ist. Lassen Sie mich Schritt für Schritt von meiner Entdeckungsreise erzählen.

@@ -3,6 +3,7 @@ audio: true
 lang: de
 layout: post
 title: V2Ray-Skript
+translated: true
 ---
 
 Dies ist ein V2Ray-Skript, das ich oft verwende.
