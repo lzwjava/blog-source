@@ -6,7 +6,11 @@ title: Contacto
 translated: true
 ---
 
-¡No dudes en contactarme si estás interesado! Puedes saludarme en X, WhatsApp o Telegram, dejar un comentario, enviarme un mensaje directo o escribirme un correo electrónico.
+Hola, soy Zhiwei Li. Puedes encontrar una breve introducción [aquí](/introduction-en). Los ocho botones en mi sitio resaltan lo que más me apasiona; te animo a explorarlos.
+
+En particular, me gustaría llamar tu atención sobre mis tres [artículos](/papers-en) sobre la reversión de la miopía. Puedes encontrar fácilmente estos ensayos destacados utilizando el botón "select" en la página de inicio.
+
+¡Y no dudes en contactarme si estás interesado! Puedes saludarme en X, WhatsApp o Telegram, dejar un comentario, enviarme un mensaje directo o escribirme un correo electrónico.
 
 #### X(Twitter)
 
