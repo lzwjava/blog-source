@@ -57,6 +57,5 @@ copy:
 	cp awesome-cv/resume-zh.pdf assets/resume/Zhiwei.Li.Resume.ZH.pdf
 
 copy-introduction:
-	mkdir -p assets/introduction
 	cp awesome-cv/en/introduction-en.pdf assets/resume/Zhiwei.Li.Introduction.EN.pdf
 	cp awesome-cv/zh/introduction-zh.pdf assets/resume/Zhiwei.Li.Introduction.ZH.pdf
