@@ -11,6 +11,7 @@ layout: page
   <select id="sort-select">
     <option value="author-picks|all">Picks</option>
     <option value="date-desc|all" selected>All</option>
+    <option value="date-desc|original">Original</option>    
     <option value="date-desc|random">Random</option>
     <option value="date-desc|en">English</option>
     <option value="date-desc|zh">中文</option>
@@ -93,7 +94,7 @@ layout: page
           const fullHref = aElement.getAttribute('href');
           if (!fullHref) return;
 
-          const pathPart = fullHref.split('/').pop(); 
+          const pathPart = fullHref.split('/').pop();
           // Now pathPart might be "contact-en", "about-zh", etc.
           // We want to separate "contact" from "en"
 
@@ -108,7 +109,7 @@ layout: page
           if (match) {
             // match[1] = "contact"
             // match[2] = "en"
-            baseName = match[1]; 
+            baseName = match[1];
           }
 
           if (!groups[baseName]) {
@@ -140,7 +141,7 @@ layout: page
 
         // 4. Sort by date descending
         processedPosts.sort((a, b) => b.date - a.date);
-      } 
+      }
        else if (sortOption === 'author-picks') {
           // For "Picks", filter posts with 'data-top' > 0
           processedPosts = Array.from(posts).filter(post => {
@@ -153,13 +154,28 @@ layout: page
               };
           });
       }
+      else if (sortOption === 'date-desc' && langFilter === 'original') {
+          processedPosts = Array.from(posts).filter(post => {
+              return post.dataset.translated === 'false';
+          }).map(post => {
+              const dateElement = post.querySelector('.date');
+              const dateStr = dateElement
+                ? dateElement.textContent.trim().replace(/\./g, '-')
+                : null;
+              return {
+                  element: post,
+                  date: dateStr ? new Date(dateStr) : null
+              };
+          }).filter(item => item.date);
+          processedPosts.sort((a, b) => b.date - a.date);
+      }
       else {
         // All other sort options remain as-is (example logic below).
 
         // Filter posts by language if needed
         const filteredPosts = (langFilter === 'all')
           ? Array.from(posts)
-          : Array.from(posts).filter(post => 
+          : Array.from(posts).filter(post =>
               post.classList.contains(`lang-${langFilter}`));
 
         // Convert each post to a sortable object
@@ -204,7 +220,7 @@ layout: page
       } else {
         const noPostsMessage = document.createElement('li');
         noPostsMessage.className = 'list-group-item post-item';
-        noPostsMessage.textContent = 
+        noPostsMessage.textContent =
           'No posts available. Please refresh the page. Known bug pending fix.';
         postList.appendChild(noPostsMessage);
       }
