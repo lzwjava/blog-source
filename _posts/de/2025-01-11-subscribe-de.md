@@ -3,7 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Abonnieren
-translated: false
+translated: true
 ---
 
 Bleiben Sie auf dem Laufenden mit meinen neuesten Blogbeiträgen, indem Sie den RSS-Feed abonnieren oder mir auf X (Twitter) folgen.

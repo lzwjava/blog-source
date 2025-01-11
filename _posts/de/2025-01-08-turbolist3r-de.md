@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Turbolist3r: Subdomains aufzählen"
+title: 'Turbolist3r: Subdomains aufzählen'
+translated: true
 ---
 
 ## Turbolist3r

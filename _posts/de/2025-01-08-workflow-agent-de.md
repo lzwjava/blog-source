@@ -2,7 +2,7 @@
 lang: de
 layout: post
 title: Workflow ist BFS, Agent ist DFS
-translated: false
+translated: true
 ---
 
 Laut Anthropic [^1]:

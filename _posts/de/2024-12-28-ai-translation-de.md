@@ -2,7 +2,7 @@
 lang: de
 layout: post
 title: Neues Quora oder TikTok vollständig durch KI-Übersetzung betrieben
-translated: false
+translated: true
 ---
 
 * Ein neues TikTok oder Quora, das vollständig von KI-Übersetzungen angetrieben wird.

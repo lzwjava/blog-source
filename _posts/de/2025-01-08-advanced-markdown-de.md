@@ -2,7 +2,7 @@
 lang: de
 layout: post
 title: Erweiterte Verwendung von Markdown
-translated: false
+translated: true
 ---
 
 ## Referenzen

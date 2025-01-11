@@ -3,7 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Haftungsausschluss
-translated: false
+translated: true
 ---
 
 ## Übersetzung

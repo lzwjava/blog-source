@@ -2,7 +2,7 @@
 lang: de
 layout: post
 title: Betonen Sie Urteilsvermögen anstelle von Sorgen über KI-Betrug
-translated: false
+translated: true
 ---
 
 - KI-betrug ist weit verbreitet und wahrscheinlich unmöglich vollständig zu beseitigen.
