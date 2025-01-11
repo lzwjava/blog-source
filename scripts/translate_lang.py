@@ -12,7 +12,7 @@ load_dotenv()
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 MODEL_NAME = "deepseek-chat"
 INPUT_DIR = "original"
-MAX_THREADS = 3
+MAX_THREADS = 10
 
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
@@ -28,6 +28,8 @@ def create_translation_prompt(target_language):
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Hindi. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
     elif target_language == 'fr':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to French. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
+    elif target_language == 'de':
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to German. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
     else:
         return f"You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to {target_language}. Do not translate English names. Be careful about code blocks, if not sure, just do not change."
 
