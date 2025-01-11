@@ -3,7 +3,7 @@ audio: true
 lang: de
 layout: post
 title: Kontakt
-translated: false
+translated: true
 ---
 
 Zögere nicht, dich bei mir zu melden, wenn du Interesse hast! Du kannst mir auf X, WhatsApp oder Telegram Hallo sagen, einen Kommentar hinterlassen, mir eine Direktnachricht senden oder mir eine E-Mail schreiben.

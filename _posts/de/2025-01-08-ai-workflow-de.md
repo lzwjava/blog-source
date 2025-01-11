@@ -2,7 +2,7 @@
 lang: de
 layout: post
 title: Neue Plattformen, die von KI-Workflows angetrieben werden
-translated: false
+translated: true
 ---
 
 - **Workflows** sind Systeme, in denen große Sprachmodelle (LLMs) und Tools über vordefinierte Code-Pfade orchestriert werden.[^1]
