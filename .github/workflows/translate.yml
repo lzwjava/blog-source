@@ -25,12 +25,11 @@ jobs:
         run: |
           TOTAL_POSTS=$(ls original/*.md | wc -l)
           for i in $(seq 0 10 "$TOTAL_POSTS"); do
-            python scripts/translate_lang.py --n 50 --lang ar
-            
+            python scripts/translate_lang.py --n 50 --lang hant
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add _posts/ar/*
-            git diff --cached --quiet || git commit -m "Add translated posts"
+            git add _posts/hant/*
+            git diff --cached --quiet || git commit -m "Add translated posts (hant)"
             git push
           done
         env:
