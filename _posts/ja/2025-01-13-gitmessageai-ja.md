@@ -15,13 +15,7 @@ import argparse
 
 load_dotenv()
 
-def gitmessageai(push=True):
-    """
-    ステージングされた変更に基づいてAIを使用してコミットメッセージを生成し、コミットします。
-
-    Args:
-        push (bool, optional): コミット後に変更をプッシュするかどうか。デフォルトはTrue。
-    """
+def gitmessageai(push=True, only_message=False):
     # すべての変更をステージング
     subprocess.run(["git", "add", "-A"], check=True)
 
@@ -70,16 +64,16 @@ def gitmessageai(push=True):
             print("エラー: APIからの応答がありません。")
             return
     except Exception as e:
-        print(f"API呼び出し中にエラーが発生しました: {e}")
+        print(f"API呼び出し中のエラー: {e}")
         return
-
-    # デバッグ: APIの応答を表示
-    print(f"API応答: {response}")
-
 
     # コミットメッセージが空かどうかを確認
     if not commit_message:
         print("エラー: 空のコミットメッセージが生成されました。コミットを中止します。")
+        return
+    
+    if only_message:
+        print(f"提案されたコミットメッセージ: {commit_message}")
         return
 
     # 生成されたメッセージでコミット
@@ -92,23 +86,17 @@ def gitmessageai(push=True):
         print("変更はローカルでコミットされましたが、プッシュされていません。")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="AIを使用してコミットメッセージを生成し、変更をコミットします。")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='変更をローカルでコミットし、プッシュしません。')
+    parser = argparse.ArgumentParser(description="AIでコミットメッセージを生成し、変更をコミットします。")
+    parser.add_argument('--no-push', dest='push', action='store_false', help='変更をプッシュせずにローカルでコミットします。')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='AIが生成したコミットメッセージのみを表示します。')
     args = parser.parse_args()
-    gitmessageai(push=args.push)
+    gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
 次に、`~/.zprofile`ファイルに以下を追加します:
 
 ```
-function gitpush {
-  python ~/bin/gitmessageai.py
-}
-
-function gitcommit {
-  python ~/bin/gitmessageai.py --no-push
-}
-
-alias gpa=gitpush
-alias gca=gitcommit
+alias gpa='python ~/bin/gitmessageai.py'
+alias gca='python ~/bin/gitmessageai.py --no-push'
+alias gm='python ~/bin/gitmessageai.py --only-message'
 ```

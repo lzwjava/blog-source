@@ -14,13 +14,7 @@ import argparse
 
 load_dotenv()
 
-def gitmessageai(push=True):
-    """
-    Generates a commit message using AI based on staged changes and commits them.
-
-    Args:
-        push (bool, optional): Whether to push the changes after committing. Defaults to True.
-    """
+def gitmessageai(push=True, only_message=False):
     # Stage all changes
     subprocess.run(["git", "add", "-A"], check=True)
 
@@ -72,13 +66,13 @@ Commit message:
         print(f"Error during API call: {e}")
         return
 
-    # Debug: Print the API response
-    print(f"API Response: {response}")
-
-
     # Check if the commit message is empty
     if not commit_message:
         print("Error: Empty commit message generated. Aborting commit.")
+        return
+    
+    if only_message:
+        print(f"Suggested commit message: {commit_message}")
         return
 
     # Commit with the generated message
@@ -93,21 +87,15 @@ Commit message:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate commit message with AI and commit changes.")
     parser.add_argument('--no-push', dest='push', action='store_false', help='Commit changes locally without pushing.')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Only print the AI generated commit message.')
     args = parser.parse_args()
-    gitmessageai(push=args.push)
+    gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
 Then, in your `~/.zprofile` file, add the following:
 
 ```
-function gitpush {
-  python ~/bin/gitmessageai.py
-}
-
-function gitcommit {
-  python ~/bin/gitmessageai.py --no-push
-}
-
-alias gpa=gitpush
-alias gca=gitcommit
+alias gpa='python ~/bin/gitmessageai.py'
+alias gca='python ~/bin/gitmessageai.py --no-push'
+alias gm='python ~/bin/gitmessageai.py --only-message'
 ```

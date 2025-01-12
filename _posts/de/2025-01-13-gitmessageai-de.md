@@ -15,13 +15,7 @@ import argparse
 
 load_dotenv()
 
-def gitmessageai(push=True):
-    """
-    Generiert eine Commit-Nachricht mithilfe von KI basierend auf den gestagten Änderungen und führt den Commit durch.
-
-    Args:
-        push (bool, optional): Ob die Änderungen nach dem Commit gepusht werden sollen. Standardmäßig True.
-    """
+def gitmessageai(push=True, only_message=False):
     # Stage alle Änderungen
     subprocess.run(["git", "add", "-A"], check=True)
 
@@ -30,14 +24,14 @@ def gitmessageai(push=True):
     diff = diff_process.stdout
 
     if not diff:
-        print("Keine Änderungen zum Committen.")
+        print("Keine Änderungen zum Commit vorhanden.")
         return
 
-    # Bereite die Eingabeaufforderung für die KI vor
+    # Bereite das Prompt für die KI vor
     prompt = f"""
 Generiere eine prägnante Commit-Nachricht im Conventional Commits-Format für die folgenden Code-Änderungen.
 Verwende einen der folgenden Typen: feat, fix, docs, style, refactor, test, chore, perf, ci, build oder revert.
-Falls zutreffend, füge einen Bereich in Klammern hinzu, um den betroffenen Teil der Codebasis zu beschreiben.
+Falls zutreffend, füge einen Scope in Klammern hinzu, um den betroffenen Teil der Codebasis zu beschreiben.
 Die Commit-Nachricht sollte 70 Zeichen nicht überschreiten.
 
 Code-Änderungen:
@@ -46,7 +40,7 @@ Code-Änderungen:
 Commit-Nachricht:
 """    
 
-    # Sende die Eingabeaufforderung an die DeepSeek-API
+    # Sende das Prompt an die DeepSeek API
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
         print("Fehler: DEEPSEEK_API_KEY Umgebungsvariable nicht gesetzt.")
@@ -73,16 +67,16 @@ Commit-Nachricht:
         print(f"Fehler beim API-Aufruf: {e}")
         return
 
-    # Debug: Gib die API-Antwort aus
-    print(f"API-Antwort: {response}")
-
-
     # Überprüfe, ob die Commit-Nachricht leer ist
     if not commit_message:
         print("Fehler: Leere Commit-Nachricht generiert. Commit wird abgebrochen.")
         return
+    
+    if only_message:
+        print(f"Vorgeschlagene Commit-Nachricht: {commit_message}")
+        return
 
-    # Führe den Commit mit der generierten Nachricht durch
+    # Commit mit der generierten Nachricht
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
     # Pushe die Änderungen
@@ -94,21 +88,15 @@ Commit-Nachricht:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generiere eine Commit-Nachricht mit KI und committe die Änderungen.")
     parser.add_argument('--no-push', dest='push', action='store_false', help='Committe Änderungen lokal ohne zu pushen.')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Nur die KI-generierte Commit-Nachricht ausgeben.')
     args = parser.parse_args()
-    gitmessageai(push=args.push)
+    gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
-Fügen Sie dann in Ihrer `~/.zprofile`-Datei Folgendes hinzu:
+Dann fügen Sie in Ihrer `~/.zprofile` Datei Folgendes hinzu:
 
 ```
-function gitpush {
-  python ~/bin/gitmessageai.py
-}
-
-function gitcommit {
-  python ~/bin/gitmessageai.py --no-push
-}
-
-alias gpa=gitpush
-alias gca=gitcommit
+alias gpa='python ~/bin/gitmessageai.py'
+alias gca='python ~/bin/gitmessageai.py --no-push'
+alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
