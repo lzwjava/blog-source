@@ -35,6 +35,8 @@ def create_translation_prompt(target_language, special=False):
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to English. Do not translate English names. Be careful about code blocks."
     elif target_language == 'de':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to German. Do not translate English names. Be careful about code blocks."
+    elif target_language == 'ar':
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Arabic. Do not translate English names. Be careful about code blocks."
     else:
         return f"You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to {target_language}. Do not translate English names. Be careful about code blocks."
 
@@ -200,7 +202,7 @@ def main():
     target_language = args.lang
     dry_run = args.dry_run
     
-    languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr', 'de'] 
+    languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr', 'de', 'ar'] 
 
     total_files_to_process = 0
     

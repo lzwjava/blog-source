@@ -31,6 +31,6 @@ You can download the PDF version of my introduction, created with LaTeX, [here](
 - Open-source contributions: Developed 10 open-source projects on [GitHub](https://github.com/lzwjava), each with over 500 commits. 
 - Research: Conducted self-directed research on reversing myopia and natural vision restoration, inspired by Todd Becker and Yin Wang’s works, supported by three years of experimentation.  
 - Portfolio: Contributed to or led the development of [20 projects](https://lzwjava.github.io/pages/portfolio-en), spanning startup initiatives, personal hobby projects, and large-scale enterprise projects.
-- Writing: Authored approximately [300 blog posts](https://lzwjava.github.io) on topics including programming, software development, and startups, attracting 15,000 page views per month.
+- Writing: Authored approximately [270 blog posts](https://lzwjava.github.io) on topics including programming, software development, and startups, attracting 15,000 page views per month.
 - Life Hacking: Innovates practical solutions, experiments with affordable gadgets, and introduced English animations to my daughter at 2. Tech enthusiast with Arduino, Raspberry Pi Pico, and breadboards for hands-on projects.
 - Featured in: [Pencil Way's Report](https://www.pencilnews.cn/p/13402.html) and [Lieyunwang Report](https://lieyunpro.com/archives/290646).
