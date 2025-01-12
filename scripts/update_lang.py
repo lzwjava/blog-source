@@ -260,12 +260,24 @@ def main():
                 output_file = os.path.join(output_dir, output_filename)
                 
                 if lang == original_lang:
-                    # Copy the file
+                    # Copy the file and set translated to false
                     with open(input_file, 'r', encoding='utf-8') as infile:
                         content = infile.read()
+                    
+                    # Modify front matter to set translated: false
+                    front_matter_match = re.match(r'---\n(.*?)\n---', content, re.DOTALL)
+                    if front_matter_match:
+                        front_matter = front_matter_match.group(1)
+                        front_matter_dict = yaml.safe_load(front_matter)
+                        front_matter_dict['translated'] = False
+                        updated_front_matter = yaml.dump(front_matter_dict, sort_keys=False)
+                        content = f"---\n{updated_front_matter}---\n{content[front_matter_match.end():]}"
+                    else:
+                        content = f"---\ntranslated: false\n---\n{content}"
+
                     with open(output_file, 'w', encoding='utf-8') as outfile:
                         outfile.write(content)
-                    print(f"Copied {filename} to {output_file} because target language is the same as original language.")
+                    print(f"Copied {filename} to {output_file} and set translated: false because target language is the same as original language.")
                     continue
                 
                 changed_paragraphs = get_changed_paragraphs(input_file, output_file)

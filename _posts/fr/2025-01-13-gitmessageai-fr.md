@@ -2,9 +2,11 @@
 audio: true
 lang: fr
 layout: post
-title: Messages de Commit Git Propulsés par l'IA
+title: Messages de Commit Git Assistés par l'IA
 translated: true
 ---
+
+Ce script Python doit être placé dans un répertoire inclus dans le PATH de votre système, comme `~/bin`.
 
 ```python
 import subprocess
@@ -100,3 +102,5 @@ alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
+
+D'autres tâches pour lesquelles l'IA peut être utile incluent la génération de messages de commit de fusion.

@@ -6,6 +6,8 @@ title: AI-संचालित Git कमिट संदेश
 translated: true
 ---
 
+यह पायथन स्क्रिप्ट आपके सिस्टम के PATH में शामिल एक डायरेक्टरी में रखी जानी चाहिए, जैसे कि `~/bin`।
+
 ```python
 import subprocess
 import os
@@ -87,7 +89,7 @@ def gitmessageai(push=True, only_message=False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="AI के साथ कमिट संदेश उत्पन्न करें और परिवर्तनों को कमिट करें।")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='परिवर्तनों को स्थानीय रूप से कमिट करें लेकिन पुश न करें।')
+    parser.add_argument('--no-push', dest='push', action='store_false', help='परिवर्तनों को स्थानीय रूप से कमिट करें बिना पुश किए।')
     parser.add_argument('--only-message', dest='only_message', action='store_true', help='केवल AI द्वारा उत्पन्न कमिट संदेश प्रिंट करें।')
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message)
@@ -100,3 +102,5 @@ alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
+
+AI अन्य चीजों में भी मदद कर सकता है जैसे कि मर्ज कमिट संदेश उत्पन्न करना।

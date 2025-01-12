@@ -6,6 +6,8 @@ title: رسائل Git Commit المدعومة بالذكاء الاصطناعي
 translated: true
 ---
 
+يجب وضع هذا النص البرمجي Python في دليل مدرج في مسار النظام الخاص بك، مثل `~/bin`.
+
 ```python
 import subprocess
 import os
@@ -100,3 +102,5 @@ alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
+
+من الأشياء الأخرى التي يمكن للذكاء الاصطناعي المساعدة فيها هي إنشاء رسائل commit للدمج.

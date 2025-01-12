@@ -6,6 +6,8 @@ title: AI 驱动的 Git 提交信息
 translated: true
 ---
 
+这个Python脚本应放置在你系统PATH包含的目录中，例如`~/bin`。
+
 ```python
 import subprocess
 import os
@@ -24,7 +26,7 @@ def gitmessageai(push=True, only_message=False):
     diff = diff_process.stdout
 
     if not diff:
-        print("没有更改需要提交。")
+        print("没有更改可提交。")
         return
 
     # 为AI准备提示
@@ -64,7 +66,7 @@ def gitmessageai(push=True, only_message=False):
             print("错误：API没有响应。")
             return
     except Exception as e:
-        print(f"API调用期间发生错误：{e}")
+        print(f"API调用期间出错：{e}")
         return
 
     # 检查提交信息是否为空
@@ -83,20 +85,22 @@ def gitmessageai(push=True, only_message=False):
     if push:
         subprocess.run(["git", "push"], check=True)
     else:
-        print("更改已提交到本地，但未推送。")
+        print("更改已本地提交，但未推送。")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="使用AI生成提交信息并提交更改。")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='仅在本地提交更改，不推送。')
+    parser.add_argument('--no-push', dest='push', action='store_false', help='本地提交更改而不推送。')
     parser.add_argument('--only-message', dest='only_message', action='store_true', help='仅打印AI生成的提交信息。')
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
-然后，在您的`~/.zprofile`文件中，添加以下内容：
+然后，在你的`~/.zprofile`文件中添加以下内容：
 
 ```
 alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
+
+AI还可以帮助生成合并提交信息等其他内容。
