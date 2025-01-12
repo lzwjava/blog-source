@@ -1,6 +1,10 @@
 import subprocess
 import json
 import os
+from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def gitmessageai():
     # Stage all changes
@@ -18,48 +22,30 @@ def gitmessageai():
     if not api_key:
         print("Error: DEEPSEEK_API_KEY environment variable not set.")
         return
-
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {api_key}"
-    }
-    data = {
-        "model": "deepseek-chat",
-        "messages": [
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ],
-        "max_tokens": 100
-    }
     
+    client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
+
+
     try:
-        response_process = subprocess.run(
-            ["curl", "-s", "-X", "POST", "https://api.deepseek.com/v1/chat/completions",
-             "-H", "Content-Type: application/json",
-             "-H", f"Authorization: Bearer {api_key}",
-             "-d", json.dumps(data)],
-            capture_output=True,
-            text=True,
-            check=True
+        response = client.chat.completions.create(
+            model="deepseek-chat",
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=100
         )
-        response = response_process.stdout
-    except subprocess.CalledProcessError as e:
+        if response and response.choices:
+            commit_message = response.choices[0].message.content.strip()
+        else:
+            print("Error: No response from the API.")
+            return
+    except Exception as e:
         print(f"Error during API call: {e}")
-        print(f"Response: {e.stderr}")
         return
 
     # Debug: Print the API response
     print(f"API Response: {response}")
 
-    # Extract the generated commit message from the API response
-    try:
-        response_json = json.loads(response)
-        commit_message = response_json['choices'][0]['message']['content'].strip()
-    except (json.JSONDecodeError, KeyError, IndexError) as e:
-        print(f"Error parsing API response: {e}")
-        return
 
     # Check if the commit message is empty
     if not commit_message:
