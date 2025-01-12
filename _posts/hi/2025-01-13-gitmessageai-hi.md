@@ -15,17 +15,11 @@ import argparse
 
 load_dotenv()
 
-def gitmessageai(push=True):
-    """
-    स्टेज्ड परिवर्तनों के आधार पर AI का उपयोग करके एक कमिट संदेश उत्पन्न करता है और उन्हें कमिट करता है।
-
-    Args:
-        push (bool, optional): कमिट करने के बाद परिवर्तनों को पुश करना है या नहीं। डिफ़ॉल्ट रूप से True।
-    """
+def gitmessageai(push=True, only_message=False):
     # सभी परिवर्तनों को स्टेज करें
     subprocess.run(["git", "add", "-A"], check=True)
 
-    # स्टेज्ड परिवर्तनों का डिफ प्राप्त करें
+    # स्टेज किए गए परिवर्तनों का डिफ प्राप्त करें
     diff_process = subprocess.run(["git", "diff", "--staged"], capture_output=True, text=True, check=True)
     diff = diff_process.stdout
 
@@ -46,7 +40,7 @@ def gitmessageai(push=True):
 कमिट संदेश:
 """    
 
-    # DeepSeek API को प्रॉम्प्ट भेजें
+    # प्रॉम्प्ट को DeepSeek API पर भेजें
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
         print("त्रुटि: DEEPSEEK_API_KEY पर्यावरण चर सेट नहीं है।")
@@ -73,13 +67,13 @@ def gitmessageai(push=True):
         print(f"API कॉल के दौरान त्रुटि: {e}")
         return
 
-    # डिबग: API प्रतिक्रिया प्रिंट करें
-    print(f"API प्रतिक्रिया: {response}")
-
-
     # जांचें कि कमिट संदेश खाली तो नहीं है
     if not commit_message:
-        print("त्रुटि: खाली कमिट संदेश उत्पन्न हुआ। कमिट रद्द कर दिया गया है।")
+        print("त्रुटि: खाली कमिट संदेश उत्पन्न हुआ। कमिट रद्द किया जा रहा है।")
+        return
+    
+    if only_message:
+        print(f"सुझाया गया कमिट संदेश: {commit_message}")
         return
 
     # उत्पन्न संदेश के साथ कमिट करें
@@ -93,22 +87,16 @@ def gitmessageai(push=True):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="AI के साथ कमिट संदेश उत्पन्न करें और परिवर्तनों को कमिट करें।")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='परिवर्तनों को स्थानीय रूप से कमिट करें बिना पुश किए।')
+    parser.add_argument('--no-push', dest='push', action='store_false', help='परिवर्तनों को स्थानीय रूप से कमिट करें लेकिन पुश न करें।')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='केवल AI द्वारा उत्पन्न कमिट संदेश प्रिंट करें।')
     args = parser.parse_args()
-    gitmessageai(push=args.push)
+    gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
-फिर, अपने `~/.zprofile` फ़ाइल में, निम्नलिखित जोड़ें:
+फिर, अपने `~/.zprofile` फ़ाइल में निम्नलिखित जोड़ें:
 
 ```
-function gitpush {
-  python ~/bin/gitmessageai.py
-}
-
-function gitcommit {
-  python ~/bin/gitmessageai.py --no-push
-}
-
-alias gpa=gitpush
-alias gca=gitcommit
+alias gpa='python ~/bin/gitmessageai.py'
+alias gca='python ~/bin/gitmessageai.py --no-push'
+alias gm='python ~/bin/gitmessageai.py --only-message'
 ```

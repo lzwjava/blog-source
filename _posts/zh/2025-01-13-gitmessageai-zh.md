@@ -15,13 +15,7 @@ import argparse
 
 load_dotenv()
 
-def gitmessageai(push=True):
-    """
-    基于暂存的更改使用AI生成提交信息并提交。
-
-    Args:
-        push (bool, 可选): 提交后是否推送更改。默认为True。
-    """
+def gitmessageai(push=True, only_message=False):
     # 暂存所有更改
     subprocess.run(["git", "add", "-A"], check=True)
 
@@ -30,14 +24,14 @@ def gitmessageai(push=True):
     diff = diff_process.stdout
 
     if not diff:
-        print("没有更改可提交。")
+        print("没有更改需要提交。")
         return
 
-    # 准备AI的提示
+    # 为AI准备提示
     prompt = f"""
-为以下代码更改生成一个简洁的提交信息，使用Conventional Commits格式。
+为以下代码更改生成一个简洁的提交信息，采用Conventional Commits格式。
 使用以下类型之一：feat、fix、docs、style、refactor、test、chore、perf、ci、build或revert。
-如果适用，请在括号中包含一个范围以描述受影响的代码库部分。
+如果适用，请在括号中包含范围以描述受影响的代码库部分。
 提交信息不应超过70个字符。
 
 代码更改：
@@ -70,19 +64,19 @@ def gitmessageai(push=True):
             print("错误：API没有响应。")
             return
     except Exception as e:
-        print(f"API调用期间出错：{e}")
+        print(f"API调用期间发生错误：{e}")
         return
-
-    # 调试：打印API响应
-    print(f"API响应：{response}")
-
 
     # 检查提交信息是否为空
     if not commit_message:
-        print("错误：生成了空的提交信息。中止提交。")
+        print("错误：生成的提交信息为空。中止提交。")
+        return
+    
+    if only_message:
+        print(f"建议的提交信息：{commit_message}")
         return
 
-    # 使用生成的提交信息提交
+    # 使用生成的提交信息进行提交
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
     # 推送更改
@@ -93,22 +87,16 @@ def gitmessageai(push=True):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="使用AI生成提交信息并提交更改。")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='在本地提交更改而不推送。')
+    parser.add_argument('--no-push', dest='push', action='store_false', help='仅在本地提交更改，不推送。')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='仅打印AI生成的提交信息。')
     args = parser.parse_args()
-    gitmessageai(push=args.push)
+    gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
-然后，在你的`~/.zprofile`文件中添加以下内容：
+然后，在您的`~/.zprofile`文件中，添加以下内容：
 
 ```
-function gitpush {
-  python ~/bin/gitmessageai.py
-}
-
-function gitcommit {
-  python ~/bin/gitmessageai.py --no-push
-}
-
-alias gpa=gitpush
-alias gca=gitcommit
+alias gpa='python ~/bin/gitmessageai.py'
+alias gca='python ~/bin/gitmessageai.py --no-push'
+alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
