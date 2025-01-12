@@ -15,41 +15,35 @@ import argparse
 
 load_dotenv()
 
-def gitmessageai(push=True):
-    """
-    يولد رسالة commit باستخدام الذكاء الاصطناعي بناءً على التغييرات المعلقة ويقوم بإجراء commit لها.
-
-    Args:
-        push (bool, optional): ما إذا كان سيتم دفع التغييرات بعد الـ commit. الافتراضي هو True.
-    """
-    # إضافة جميع التغييرات
+def gitmessageai(push=True, only_message=False):
+    # Stage all changes
     subprocess.run(["git", "add", "-A"], check=True)
 
-    # الحصول على الاختلافات المعلقة
+    # Get the diff of staged changes
     diff_process = subprocess.run(["git", "diff", "--staged"], capture_output=True, text=True, check=True)
     diff = diff_process.stdout
 
     if not diff:
-        print("لا توجد تغييرات لإجراء commit لها.")
+        print("No changes to commit.")
         return
 
-    # إعداد النص الموجه للذكاء الاصطناعي
+    # Prepare the prompt for the AI
     prompt = f"""
-قم بإنشاء رسالة commit موجزة بتنسيق Conventional Commits للتغييرات التالية في الكود.
-استخدم أحد الأنواع التالية: feat, fix, docs, style, refactor, test, chore, perf, ci, build, أو revert.
-إذا كان ذلك مناسبًا، قم بتضمين نطاق بين الأقواس لوصف الجزء المتأثر من قاعدة الكود.
-يجب ألا تتجاوز رسالة commit 70 حرفًا.
+Generate a concise commit message in Conventional Commits format for the following code changes.
+Use one of the following types: feat, fix, docs, style, refactor, test, chore, perf, ci, build, or revert.
+If applicable, include a scope in parentheses to describe the part of the codebase affected.
+The commit message should not exceed 70 characters.
 
-التغييرات في الكود:
+Code changes:
 {diff}
 
-رسالة commit:
+Commit message:
 """    
 
-    # إرسال النص الموجه إلى واجهة برمجة تطبيقات DeepSeek
+    # Send the prompt to the DeepSeek API
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
-        print("خطأ: لم يتم تعيين متغير البيئة DEEPSEEK_API_KEY.")
+        print("Error: DEEPSEEK_API_KEY environment variable not set.")
         return
     
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
@@ -67,48 +61,42 @@ def gitmessageai(push=True):
             commit_message = response.choices[0].message.content.strip()
             commit_message = commit_message.replace('`', '')
         else:
-            print("خطأ: لا توجد استجابة من واجهة برمجة التطبيقات.")
+            print("Error: No response from the API.")
             return
     except Exception as e:
-        print(f"خطأ أثناء استدعاء واجهة برمجة التطبيقات: {e}")
+        print(f"Error during API call: {e}")
         return
 
-    # تصحيح: طباعة استجابة واجهة برمجة التطبيقات
-    print(f"استجابة واجهة برمجة التطبيقات: {response}")
-
-
-    # التحقق مما إذا كانت رسالة commit فارغة
+    # Check if the commit message is empty
     if not commit_message:
-        print("خطأ: تم إنشاء رسالة commit فارغة. إلغاء الـ commit.")
+        print("Error: Empty commit message generated. Aborting commit.")
+        return
+    
+    if only_message:
+        print(f"Suggested commit message: {commit_message}")
         return
 
-    # إجراء commit بالرسالة التي تم إنشاؤها
+    # Commit with the generated message
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
-    # دفع التغييرات
+    # Push the changes
     if push:
         subprocess.run(["git", "push"], check=True)
     else:
-        print("تم إجراء commit للتغييرات محليًا، ولكن لم يتم دفعها.")
+        print("Changes committed locally, but not pushed.")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="إنشاء رسالة commit باستخدام الذكاء الاصطناعي وإجراء commit للتغييرات.")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='إجراء commit للتغييرات محليًا دون دفعها.')
+    parser = argparse.ArgumentParser(description="Generate commit message with AI and commit changes.")
+    parser.add_argument('--no-push', dest='push', action='store_false', help='Commit changes locally without pushing.')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Only print the AI generated commit message.')
     args = parser.parse_args()
-    gitmessageai(push=args.push)
+    gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
 ثم، في ملف `~/.zprofile` الخاص بك، أضف ما يلي:
 
 ```
-function gitpush {
-  python ~/bin/gitmessageai.py
-}
-
-function gitcommit {
-  python ~/bin/gitmessageai.py --no-push
-}
-
-alias gpa=gitpush
-alias gca=gitcommit
+alias gpa='python ~/bin/gitmessageai.py'
+alias gca='python ~/bin/gitmessageai.py --no-push'
+alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
