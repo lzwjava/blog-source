@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: العيوب المحتملة في مقالة توصيل الفواكه
+translated: true
 ---
 
 زيهوي لي:

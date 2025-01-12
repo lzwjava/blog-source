@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: الحالات التي ما زلنا بحاجة فيها إلى مربع البحث في GitHub
+translated: true
 ---
 
 ```yaml

@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: لماذا تتأخر أجهزة Android؟
+translated: true
 ---
 
 *تمت كتابة هذا المنشور بمساعدة ChatGPT.*

@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: اختياراتي المختارة للتطبيقات
+translated: true
 ---
 
 في مقالة سابقة، كتبت:

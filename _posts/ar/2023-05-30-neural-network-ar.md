@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: كيف تعمل الشبكات العصبية
+translated: true
 usemathjax: true
 ---
 

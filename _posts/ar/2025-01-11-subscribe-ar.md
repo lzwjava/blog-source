@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: اشترك
+translated: true
 ---
 
 ابقَ على اطلاع بأحدث منشوراتي في المدونة عن طريق الاشتراك عبر موجز RSS أو متابعتي على X (تويتر).

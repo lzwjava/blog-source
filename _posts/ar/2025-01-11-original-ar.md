@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: المشاركات الأصلية
+translated: true
 ---
 
 هذه هي منشورات المدونة الأصلية الخاصة بي.

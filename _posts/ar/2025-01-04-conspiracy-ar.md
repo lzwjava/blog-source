@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: مؤامرة
+translated: true
 ---
 
 بعد قراءة مقالة Yin Wang، [Yin Wang: الإجابة النهائية عن الحياة، الكون، وكل شيء](https://lzwjava.github.io/answers-en) وتصريحاته السابقة، يبدو أنه كان هناك العديد من المؤمنين بنظريات المؤامرة من قبل.

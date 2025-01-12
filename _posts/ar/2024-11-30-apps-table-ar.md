@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: تطبيقات iOS التي استخدمتها - نسخة الجدول
+translated: true
 translation: false
 ---
 

@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: من الشبكة العصبية إلى GPT
+translated: true
 ---
 
 ### مقاطع فيديو على YouTube
