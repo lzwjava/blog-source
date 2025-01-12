@@ -6,7 +6,7 @@ layout: default
   <div class="title-row post-title-row">
     <h2 class="title post-title">
       {% if page.translated %}
-      <span style="margin-left: 10px;">AI Translation:</span>
+      <span style="margin-left: 10px;">Translation:</span>
       {% endif %}
       {{ page.title }}
     </h2>
@@ -40,6 +40,8 @@ layout: default
         <option value="/{{ base_name }}-es" {% if current_lang == "es" %}selected{% endif %}>Español</option>
         <option value="/{{ base_name }}-hi" {% if current_lang == "hi" %}selected{% endif %}>हिंदी</option>
         <option value="/{{ base_name }}-fr" {% if current_lang == "fr" %}selected{% endif %}>Français</option>
+        <option value="/{{ base_name }}-de" {% if current_lang == "de" %}selected{% endif %}>Deutsch</option>
+        <option value="/{{ base_name }}-ar" {% if current_lang == "ar" %}selected{% endif %}>العربية</option>
     </select>
   </div>
 
