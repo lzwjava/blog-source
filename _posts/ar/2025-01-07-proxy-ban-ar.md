@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: تحليل حظر خادم الوكيل
+translated: true
 ---
 
 ## هل يمكن لواجهات برمجة التطبيقات (APIs) في خوادم الوكيل تجنب حظر جدار الحماية العظيم (GFW)؟

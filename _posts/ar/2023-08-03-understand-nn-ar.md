@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: فهم الشبكات العصبية
+translated: true
 ---
 
 زيهوي:

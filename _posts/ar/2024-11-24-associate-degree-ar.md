@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: 'درجة الزمالة: التقدم والتأمل'
+translated: true
 ---
 
 فيما يلي تقدمي في الشراكة.

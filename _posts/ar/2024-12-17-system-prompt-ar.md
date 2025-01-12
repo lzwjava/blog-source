@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: استكشاف الأوامر النظامية في Grok و Claude
+translated: true
 ---
 
 لقد أعدت نشرها هنا لتعلم هندسة الإشارات (prompt engineering).

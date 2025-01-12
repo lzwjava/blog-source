@@ -1,8 +1,9 @@
 ---
 lang: ar
 layout: post
-title: "الإنترنت، تلقيت نصائح مشابهة لهذه"
+title: الإنترنت، تلقيت نصائح مشابهة لهذه
 top: 20
+translated: true
 ---
 
 **ترجمة:**

@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: الأطفال المستقبليون
+translated: true
 ---
 
 في عام 2005، أسس Paul Graham حاضنة YC. في مقالته "التوظيف أصبح قديمًا"، قال:

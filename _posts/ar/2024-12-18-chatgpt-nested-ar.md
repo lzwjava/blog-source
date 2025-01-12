@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: عيب ChatGPT مع الكتل البرمجية المتداخلة
+translated: true
 ---
 
 ### شرح المشكلة

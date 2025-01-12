@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: إخلاء المسؤولية
+translated: true
 ---
 
 ## الترجمة

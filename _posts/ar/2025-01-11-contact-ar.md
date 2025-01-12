@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: اتصال
+translated: true
 ---
 
 مرحبًا، أنا Zhiwei Li. يمكنك العثور على مقدمة موجزة [هنا](/introduction-en). الأزرار الثمانية على موقعي تسلط الضوء على الأشياء التي أهتم بها بشدة؛ أشجعك على استكشافها.

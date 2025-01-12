@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: تحسين OpenWRT باستخدام OpenClash و Shadowsocks
+translated: true
 ---
 
 ### تحديث قوائم الحزم

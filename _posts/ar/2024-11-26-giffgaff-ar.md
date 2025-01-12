@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: 'بطاقة SIM البريطانية في الصين: تجربة مع Giffgaff'
+translated: true
 ---
 
 تقدم Giffgaff خدمة جديدة لبطاقات SIM للهواتف المحمولة. لم أجرب شيئًا مثل هذا من قبل في الصين. تبدو شركات الاتصالات الصينية - China Telecom وChina Unicom وChina Communications - قديمة الطراز وبيروقراطية مقارنة بها. بينما Giffgaff شابة، ديناميكية ونقية.

@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: مشترياتي الجيدة
+translated: true
 ---
 
 <div align="center"><img src="/assets/images/buys/buys.jpg" width="400px" /><img/></div>

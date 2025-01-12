@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: إعداد خادم الوكيل الخاص بك
+translated: true
 ---
 
 * لإعداد خادم، استخدم Outline Manager: [https://getoutline.org](https://getoutline.org).  

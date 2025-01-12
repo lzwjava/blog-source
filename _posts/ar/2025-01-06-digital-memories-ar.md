@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: ذكرياتي الرقمية المبكرة
+translated: true
 ---
 
 لقد وُلدت في عام 1995، وهو العام نفسه الذي تم فيه إصدار Windows 95 في 14 يوليو.

@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: جهاز قياس ضغط الدم، السماعة الطبية، ومخطط فحص النظر
+translated: true
 ---
 
 <div style="text-align: center;">

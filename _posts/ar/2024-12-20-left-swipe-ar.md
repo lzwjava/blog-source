@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: التمرير لليسار والتطبيقات
+translated: true
 ---
 
 ## التمرير لليسار في قوائم iOS

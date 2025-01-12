@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: تطبيقات Mac التي استخدمتها
+translated: true
 ---
 
 أ:

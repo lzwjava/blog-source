@@ -3,6 +3,7 @@ lang: ar
 layout: post
 title: GTY - المعلم العظيم يين
 top: 20
+translated: true
 ---
 
 هذه قصة عني وعن Yin Wang. لقد قمت للتو بفحص حسابي على تويتر.

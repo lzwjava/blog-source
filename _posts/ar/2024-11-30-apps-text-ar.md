@@ -3,6 +3,7 @@ lang: ar
 layout: post
 title: تطبيقات iOS التي استخدمتها - النسخة النصية
 top: 10
+translated: true
 translation: false
 ---
 

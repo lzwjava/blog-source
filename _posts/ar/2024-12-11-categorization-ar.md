@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: التصنيف
+translated: true
 ---
 
 * كل شيء يتعلق بالتصنيف.

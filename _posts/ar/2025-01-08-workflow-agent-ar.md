@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: سير العمل هو BFS، والعامل هو DFS
+translated: true
 ---
 
 وفقًا لـ Anthropic [^1]:

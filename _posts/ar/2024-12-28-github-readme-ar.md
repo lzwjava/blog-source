@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: مقدمة ملف GitHub Readme
+translated: true
 ---
 
 | المشروع | اللغة | عدد التغييرات | المشروع | اللغة | عدد التغييرات |
