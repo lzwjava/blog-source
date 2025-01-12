@@ -3,10 +3,11 @@ import json
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
+import argparse
 
 load_dotenv()
 
-def gitmessageai():
+def gitmessageai(push=True):
     # Stage all changes
     subprocess.run(["git", "add", "-A"], check=True)
 
@@ -66,7 +67,14 @@ Commit message:
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
     # Push the changes
-    subprocess.run(["git", "push"], check=True)
+    if push:
+        subprocess.run(["git", "push"], check=True)
+    else:
+        print("Changes committed locally, but not pushed.")
 
 if __name__ == "__main__":
-    gitmessageai()
+    parser = argparse.ArgumentParser(description="Generate commit message with AI and commit changes.")
+    parser.add_argument('--no-push', dest='push', action='store_false', help='Commit changes locally without pushing.')
+    args = parser.parse_args()
+    gitmessageai(push=args.push)
+    
