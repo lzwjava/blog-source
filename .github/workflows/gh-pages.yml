@@ -102,10 +102,17 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _posts/*/*.md
           git diff --cached --quiet || git commit -m "Update language files"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          
+      - name: Create Pull Request
+        if: steps.dry_run_lang.outputs.lang_updated == 'true'
+        uses: peter-evans/create-or-update-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update-language-files
+          title: 'Update language files'
+          body: 'This PR updates the language files.'
+          commit-message: 'Update language files'
+          
       - name: Clean Up Credentials
         run: |
           rm -f ./gha-creds-*.json          
