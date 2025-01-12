@@ -15,7 +15,17 @@ def gitmessageai():
     diff = diff_process.stdout
 
     # Prepare the prompt for the AI
-    prompt = f"Generate a concise and meaningful commit message for the following code changes:\n\n{diff}"
+    prompt = f"""
+Generate a concise commit message in Conventional Commits format for the following code changes.
+Use one of the following types: feat, fix, docs, style, refactor, test, chore, perf, ci, build, or revert.
+If applicable, include a scope in parentheses to describe the part of the codebase affected.
+The commit message should not exceed 70 characters.
+
+Code changes:
+{diff}
+
+Commit message:
+"""
 
     # Send the prompt to the DeepSeek API
     api_key = os.environ.get("DEEPSEEK_API_KEY")
