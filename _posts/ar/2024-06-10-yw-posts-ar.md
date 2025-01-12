@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: الترجمة الإنجليزية لمدونات Yin Wang
+translated: true
 ---
 
 تمت الترجمة من [yinwang.org](https://www.yinwang.org).

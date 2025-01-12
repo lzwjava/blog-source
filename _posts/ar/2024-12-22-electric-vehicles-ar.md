@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: المركبات الكهربائية
+translated: true
 ---
 
 ## نيتا

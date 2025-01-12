@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: تفضيل وجود صوت خلفي
+translated: true
 ---
 
 * تفضل وجود صوت خلفي، بغض النظر عما تفعله.

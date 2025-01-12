@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: النسيان بشأن شحن بنوك الطاقة
+translated: true
 ---
 
 مشكلة نسيان شحن بنوك الطاقة باستمرار كانت تسبب لي إحباطًا كبيرًا.

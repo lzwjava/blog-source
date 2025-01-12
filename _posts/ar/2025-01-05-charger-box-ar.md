@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: صندوق شحن عالمي ذكي
+translated: true
 ---
 
 ```xml

@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: تطبيقات العقارات العالمية
+translated: true
 ---
 
 الصين:

@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: خيارات USB في Pixel
+translated: true
 ---
 
 <div style="text-align: center;">  

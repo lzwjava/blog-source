@@ -3,6 +3,7 @@ lang: ar
 layout: post
 title: الاستجماتيزم في عكس قصر النظر
 top: 10
+translated: true
 ---
 
 ## الملخص

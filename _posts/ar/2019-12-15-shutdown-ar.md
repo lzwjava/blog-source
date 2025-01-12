@@ -3,6 +3,7 @@ lang: ar
 layout: post
 title: اقتراح شركة التصفية
 top: 10
+translated: true
 ---
 
 رسالة إلى المساهمين:
