@@ -6,7 +6,7 @@ title: AI 驱动的 Git 提交信息
 translated: true
 ---
 
-这个Python脚本应放置在你系统PATH包含的目录中，例如`~/bin`。
+这个Python脚本应放置在系统PATH包含的目录中，例如`~/bin`。
 
 ```python
 import subprocess
@@ -26,7 +26,7 @@ def gitmessageai(push=True, only_message=False):
     diff = diff_process.stdout
 
     if not diff:
-        print("没有更改可提交。")
+        print("没有更改需要提交。")
         return
 
     # 为AI准备提示
@@ -95,7 +95,7 @@ if __name__ == "__main__":
     gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
-然后，在你的`~/.zprofile`文件中添加以下内容：
+然后，在您的`~/.zprofile`文件中添加以下内容：
 
 ```
 alias gpa='python ~/bin/gitmessageai.py'

@@ -2,7 +2,7 @@
 audio: true
 lang: es
 layout: post
-title: Mensajes de Commit en Git con IA
+title: Mensajes de Commit en Git Potenciados por IA
 translated: true
 ---
 
@@ -31,12 +31,12 @@ def gitmessageai(push=True, only_message=False):
 
     # Prepara el prompt para la IA
     prompt = f"""
-Genera un mensaje de commit conciso en formato Conventional Commits para los siguientes cambios de código.
+Genera un mensaje de commit conciso en formato Conventional Commits para los siguientes cambios en el código.
 Usa uno de los siguientes tipos: feat, fix, docs, style, refactor, test, chore, perf, ci, build, o revert.
 Si es aplicable, incluye un alcance entre paréntesis para describir la parte del código afectada.
 El mensaje de commit no debe exceder los 70 caracteres.
 
-Cambios de código:
+Cambios en el código:
 {diff}
 
 Mensaje de commit:

@@ -3,7 +3,9 @@ audio: true
 lang: en
 layout: post
 title: AI-Powered Git Commit Messages
+translated: false
 ---
+
 
 This python script should be placed in a directory included in your system's PATH, such as `~/bin`.
 

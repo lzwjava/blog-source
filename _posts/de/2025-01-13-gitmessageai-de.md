@@ -6,7 +6,7 @@ title: KI-gestützte Git-Commit-Nachrichten
 translated: true
 ---
 
-Dieses Python-Skript sollte in einem Verzeichnis platziert werden, das im PATH Ihres Systems enthalten ist, wie z.B. `~/bin`.
+Dieses Python-Skript sollte in einem Verzeichnis platziert werden, das in Ihrem System-PATH enthalten ist, wie z.B. `~/bin`.
 
 ```python
 import subprocess
@@ -29,7 +29,7 @@ def gitmessageai(push=True, only_message=False):
         print("Keine Änderungen zum Commit vorhanden.")
         return
 
-    # Bereite die Eingabeaufforderung für die KI vor
+    # Bereite das Prompt für die KI vor
     prompt = f"""
 Generiere eine prägnante Commit-Nachricht im Conventional Commits-Format für die folgenden Code-Änderungen.
 Verwende einen der folgenden Typen: feat, fix, docs, style, refactor, test, chore, perf, ci, build oder revert.
@@ -42,7 +42,7 @@ Code-Änderungen:
 Commit-Nachricht:
 """    
 
-    # Sende die Eingabeaufforderung an die DeepSeek API
+    # Sende das Prompt an die DeepSeek API
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
         print("Fehler: DEEPSEEK_API_KEY Umgebungsvariable nicht gesetzt.")
@@ -89,8 +89,8 @@ Commit-Nachricht:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generiere eine Commit-Nachricht mit KI und committe die Änderungen.")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='Committe Änderungen lokal, ohne zu pushen.')
-    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Gib nur die von der KI generierte Commit-Nachricht aus.')
+    parser.add_argument('--no-push', dest='push', action='store_false', help='Committe Änderungen lokal ohne zu pushen.')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Gib nur die KI-generierte Commit-Nachricht aus.')
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message)
 ```

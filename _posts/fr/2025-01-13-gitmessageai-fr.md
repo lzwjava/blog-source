@@ -2,7 +2,7 @@
 audio: true
 lang: fr
 layout: post
-title: Messages de Commit Git Assistés par l'IA
+title: Messages de Commit Git Propulsés par l'IA
 translated: true
 ---
 
@@ -103,4 +103,4 @@ alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
 
-D'autres tâches pour lesquelles l'IA peut être utile incluent la génération de messages de commit de fusion.
+D'autres choses que l'IA peut aider à faire incluent la génération de messages de commit de fusion.
