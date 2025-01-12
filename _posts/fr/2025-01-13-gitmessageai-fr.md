@@ -2,7 +2,7 @@
 audio: true
 lang: fr
 layout: post
-title: Messages de Commit Git Assistés par l'IA
+title: Messages de Commit Git Propulsés par l'IA
 translated: true
 ---
 
@@ -31,9 +31,9 @@ def gitmessageai(push=True, only_message=False):
 
     # Préparer le prompt pour l'IA
     prompt = f"""
-Générez un message de commit concis au format Conventional Commits pour les changements de code suivants.
-Utilisez l'un des types suivants : feat, fix, docs, style, refactor, test, chore, perf, ci, build, ou revert.
-Si applicable, incluez une portée entre parenthèses pour décrire la partie du codebase affectée.
+Génère un message de commit concis au format Conventional Commits pour les changements de code suivants.
+Utilise l'un des types suivants : feat, fix, docs, style, refactor, test, chore, perf, ci, build, ou revert.
+Si applicable, inclut une portée entre parenthèses pour décrire la partie du codebase affectée.
 Le message de commit ne doit pas dépasser 70 caractères.
 
 Changements de code :
@@ -88,9 +88,9 @@ Message de commit :
         print("Changements commités localement, mais non poussés.")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Générer un message de commit avec l'IA et committer les changements.")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='Commiter les changements localement sans pousser.')
-    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Afficher uniquement le message de commit généré par l\'IA.')
+    parser = argparse.ArgumentParser(description="Génère un message de commit avec l'IA et committe les changements.")
+    parser.add_argument('--no-push', dest='push', action='store_false', help='Commite les changements localement sans les pousser.')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Affiche uniquement le message de commit généré par l\'IA.')
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message)
 ```
