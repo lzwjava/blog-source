@@ -7,6 +7,7 @@ title: Original Posts
 
 These are my original blog posts.
 
+* [Tracking Our House Finances](/original/2025-01-13-house-finances-en)
 * [Subscribe](/original/2025-01-11-subscribe-en)
 * [Disclaimer](/original/2025-01-11-disclaimer-en)
 * [Contact](/original/2025-01-11-contact-en)
