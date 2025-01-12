@@ -29,9 +29,6 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Set Timezone
-        run: echo "TZ='Asia/Shanghai'" >> $GITHUB_ENV
-
       - name: Authenticate with GCP
         uses: google-github-actions/auth@v1
         with:
