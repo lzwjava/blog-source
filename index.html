@@ -20,6 +20,7 @@ layout: page
     <option value="date-desc|hi">हिंदी</option>
     <option value="date-desc|fr">Français</option>
     <option value="date-desc|de">Deutsch</option>
+    <option value="date-desc|ar">العربية</option>
   </select>
 
 </div>
@@ -41,11 +42,13 @@ layout: page
       <li class="list-group-item post-item lang-fr" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
     {% elsif post.path contains '_posts/de/' %}
       <li class="list-group-item post-item lang-de" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
+    {% elsif post.path contains '_posts/ar/' %}
+      <li class="list-group-item post-item lang-ar" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
     {% elsif post.path contains '_posts/original/' %}
     {% else %}
       <li class="list-group-item post-item lang-all" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
     {% endif %}
-    {% if post.path contains '_posts/en/' or post.path contains '_posts/zh/' or post.path contains '_posts/ja/' or post.path contains '_posts/es/' or post.path contains '_posts/hi/' or post.path contains '_posts/fr/' or post.path contains '_posts/de/' or post.path contains '_posts/all/' %}
+    {% if post.path contains '_posts/en/' or post.path contains '_posts/zh/' or post.path contains '_posts/ja/' or post.path contains '_posts/es/' or post.path contains '_posts/hi/' or post.path contains '_posts/fr/' or post.path contains '_posts/de/' or post.path contains '_posts/ar/' or post.path contains '_posts/all/' %}
       <a href="{{ post.url }}">
         <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
         <span class="title">{{ post.title }}</span>
