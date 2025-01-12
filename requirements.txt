@@ -8,3 +8,5 @@ PyYAML
 requests
 gitpython
 python-frontmatter
+azure-identity
+azure-cognitiveservices-speech
