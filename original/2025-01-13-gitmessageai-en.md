@@ -102,5 +102,4 @@ alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
 
-Other things AI can help with include generating merge commit messages.
 
