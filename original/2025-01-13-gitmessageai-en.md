@@ -2,10 +2,10 @@
 audio: true
 lang: en
 layout: post
-title: gitmessageai
+title: AI-Powered Git Commit Messages
 ---
 
-```bash
+```python
 import subprocess
 import os
 from openai import OpenAI
@@ -15,6 +15,12 @@ import argparse
 load_dotenv()
 
 def gitmessageai(push=True):
+    """
+    Generates a commit message using AI based on staged changes and commits them.
+
+    Args:
+        push (bool, optional): Whether to push the changes after committing. Defaults to True.
+    """
     # Stage all changes
     subprocess.run(["git", "add", "-A"], check=True)
 
@@ -91,7 +97,7 @@ if __name__ == "__main__":
     gitmessageai(push=args.push)
 ```
 
-~/.zprofile:
+Then, in your `~/.zprofile` file, add the following:
 
 ```
 function gitpush {
