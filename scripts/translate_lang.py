@@ -20,7 +20,7 @@ def create_translation_prompt(target_language):
     if target_language == "zh":
         return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Be careful about code blocks, if not sure, just do not change."""
     elif target_language == "hant":
-        return f"You are a professional translator. Translate the following text to Traditional Chinese (Hong Kong). Be careful about code blocks."
+        return f"Translate the following text to Traditional Chinese (Hong Kong)."
     elif target_language == 'ja':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Japanese. Be careful about code blocks, if not sure, just do not change."
     elif target_language == 'es':
@@ -38,11 +38,13 @@ def create_translation_prompt(target_language):
 
 def translate_text(text, target_language):
     print(f"  Translating text: {text[:50]}...")
+    prompt = create_translation_prompt(target_language)
+    print(f"  Prompt: {prompt}")
     try:
         response = client.chat.completions.create(
             model=MODEL_NAME,
             messages=[
-                {"role": "system", "content": create_translation_prompt(target_language)},
+                {"role": "system", "content": prompt},
                 {"role": "user", "content": text}
             ],
             stream=False
@@ -91,25 +93,12 @@ def translate_markdown_file(input_file, output_file, target_language):
         print(f"  Front matter: {front_matter[:50]}...")
 
         translated_front_matter = translate_front_matter(front_matter, target_language)
-
-        # Split content into paragraphs
-        paragraphs = content_without_front_matter.split('\n\n')
-        translated_paragraphs = []
-
-        for i, paragraph in enumerate(paragraphs):
-            if paragraph.strip():
-                print(f"  Translating paragraph {i+1}/{len(paragraphs)}...")
-                translated_text = translate_text(paragraph, target_language)
-                if translated_text:
-                    translated_paragraphs.append(translated_text)
-                else:
-                    translated_paragraphs.append(paragraph)
-                time.sleep(1) # Add a delay to avoid rate limiting
-            else:
-                translated_paragraphs.append("")
-
-        translated_content = "\n\n".join(translated_paragraphs)
-        translated_content = translated_front_matter + translated_content
+        
+        translated_content = translate_text(content_without_front_matter, target_language)
+        if translated_content:
+            translated_content = translated_front_matter + "\n\n" + translated_content
+        else:
+            translated_content = content
 
         with open(output_file, 'w', encoding='utf-8') as outfile:
             outfile.write(translated_content)
