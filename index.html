@@ -28,25 +28,29 @@ layout: page
 <ul class="post-list">
   {% if site.posts.size > 0 %}
   {% for post in site.posts %}
+    {% assign translated = post.translated %}
+    {% if translated == nil %}
+      {% assign translated = false %}
+    {% endif %}
     {% if post.path contains '_posts/en/' %}
-      <li class="list-group-item post-item lang-en" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
+      <li class="list-group-item post-item lang-en" data-top="{{ post.top }}" data-translated="{{ translated }}">
     {% elsif post.path contains '_posts/zh/' %}
-      <li class="list-group-item post-item lang-zh" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
+      <li class="list-group-item post-item lang-zh" data-top="{{ post.top }}" data-translated="{{ translated }}">
     {% elsif post.path contains '_posts/ja/' %}
-      <li class="list-group-item post-item lang-ja" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
+      <li class="list-group-item post-item lang-ja" data-top="{{ post.top }}" data-translated="{{ translated }}">
     {% elsif post.path contains '_posts/es/' %}
-      <li class="list-group-item post-item lang-es" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
+      <li class="list-group-item post-item lang-es" data-top="{{ post.top }}" data-translated="{{ translated }}">
     {% elsif post.path contains '_posts/hi/' %}
-      <li class="list-group-item post-item lang-hi" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
+      <li class="list-group-item post-item lang-hi" data-top="{{ post.top }}" data-translated="{{ translated }}">
     {% elsif post.path contains '_posts/fr/' %}
-      <li class="list-group-item post-item lang-fr" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
+      <li class="list-group-item post-item lang-fr" data-top="{{ post.top }}" data-translated="{{ translated }}">
     {% elsif post.path contains '_posts/de/' %}
-      <li class="list-group-item post-item lang-de" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
+      <li class="list-group-item post-item lang-de" data-top="{{ post.top }}" data-translated="{{ translated }}">
     {% elsif post.path contains '_posts/ar/' %}
-      <li class="list-group-item post-item lang-ar" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
+      <li class="list-group-item post-item lang-ar" data-top="{{ post.top }}" data-translated="{{ translated }}">
     {% elsif post.path contains '_posts/original/' %}
     {% else %}
-      <li class="list-group-item post-item lang-all" data-top="{{ post.top }}" data-translated="{{ post.translated }}">
+      <li class="list-group-item post-item lang-all" data-top="{{ post.top }}" data-translated="{{ translated }}">
     {% endif %}
     {% if post.path contains '_posts/en/' or post.path contains '_posts/zh/' or post.path contains '_posts/ja/' or post.path contains '_posts/es/' or post.path contains '_posts/hi/' or post.path contains '_posts/fr/' or post.path contains '_posts/de/' or post.path contains '_posts/ar/' or post.path contains '_posts/all/' %}
       <a href="{{ post.url }}">

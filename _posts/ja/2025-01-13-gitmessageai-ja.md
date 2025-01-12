@@ -2,9 +2,11 @@
 audio: true
 lang: ja
 layout: post
-title: AIが生成するGitコミットメッセージ
+title: AI搭載のGitコミットメッセージ
 translated: true
 ---
+
+このPythonスクリプトは、システムのPATHに含まれるディレクトリ（例: `~/bin`）に配置する必要があります。
 
 ```python
 import subprocess
@@ -30,7 +32,7 @@ def gitmessageai(push=True, only_message=False):
     # AIへのプロンプトを準備
     prompt = f"""
 以下のコード変更に対して、Conventional Commits形式で簡潔なコミットメッセージを生成してください。
-次のいずれかのタイプを使用してください: feat, fix, docs, style, refactor, test, chore, perf, ci, build, revert。
+以下のいずれかのタイプを使用してください: feat, fix, docs, style, refactor, test, chore, perf, ci, build, または revert。
 該当する場合は、影響を受けるコードベースの部分を説明するために括弧内にスコープを含めてください。
 コミットメッセージは70文字を超えないようにしてください。
 
@@ -64,7 +66,7 @@ def gitmessageai(push=True, only_message=False):
             print("エラー: APIからの応答がありません。")
             return
     except Exception as e:
-        print(f"API呼び出し中のエラー: {e}")
+        print(f"API呼び出し中にエラーが発生しました: {e}")
         return
 
     # コミットメッセージが空かどうかを確認
@@ -86,7 +88,7 @@ def gitmessageai(push=True, only_message=False):
         print("変更はローカルでコミットされましたが、プッシュされていません。")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="AIでコミットメッセージを生成し、変更をコミットします。")
+    parser = argparse.ArgumentParser(description="AIを使用してコミットメッセージを生成し、変更をコミットします。")
     parser.add_argument('--no-push', dest='push', action='store_false', help='変更をプッシュせずにローカルでコミットします。')
     parser.add_argument('--only-message', dest='only_message', action='store_true', help='AIが生成したコミットメッセージのみを表示します。')
     args = parser.parse_args()
@@ -100,3 +102,5 @@ alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
+
+AIが助けられる他のことには、マージコミットメッセージの生成などがあります。
