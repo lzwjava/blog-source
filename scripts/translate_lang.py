@@ -57,6 +57,9 @@ def translate_text(text, target_language):
             return None
     except Exception as e:
         print(f"  Translation failed with error: {e}")
+        if "This model's maximum context length is" in str(e):
+            print(f"  Skipping translation due to context length error.")
+            return None
         return None
 
 def translate_front_matter(front_matter, target_language):
