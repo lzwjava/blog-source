@@ -102,5 +102,3 @@ alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
-
-D'autres tâches pour lesquelles l'IA peut être utile incluent la génération de messages de commit de fusion.

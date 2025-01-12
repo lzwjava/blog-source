@@ -102,5 +102,3 @@ alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
-
-من الأشياء الأخرى التي يمكن للذكاء الاصطناعي المساعدة فيها هي إنشاء رسائل commit للدمج.
