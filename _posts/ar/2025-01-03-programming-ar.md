@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: البرمجة
+translated: true
 ---
 
 * لا بأس في ممارسة البرمجة التنافسية طالما أنها تحفزك.

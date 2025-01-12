@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: كيفية بناء جهاز كمبيوتر
+translated: true
 ---
 
 ![غلاف](assets/images/computer/cover.jpg)

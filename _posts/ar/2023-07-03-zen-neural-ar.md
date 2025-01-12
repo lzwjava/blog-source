@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: الزن وفن تعلم الآلة
+translated: true
 usemathjax: true
 ---
 

@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: مقدمة Zhiwei
+translated: true
 ---
 
 يمكنك تنزيل النسخة PDF من مقدمتي، التي تم إنشاؤها باستخدام LaTeX، [هنا](/assets/resume/Zhiwei.Li.Introduction.EN.pdf) للنسخة الإنجليزية و[هنا](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf) للنسخة الصينية.

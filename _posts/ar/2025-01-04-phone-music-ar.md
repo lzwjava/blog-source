@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: البحث عن الهاتف والموسيقى
+translated: true
 ---
 
 ### البحث عن الهاتف

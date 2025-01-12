@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: حركة كرة سلة غير تقليدية
+translated: true
 ---
 
 ```xml

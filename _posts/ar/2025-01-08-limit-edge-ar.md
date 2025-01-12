@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: الحدود والحالات الحدية
+translated: true
 ---
 
 * التفكير في الحدود والحالات الطرفية هو طريقة جيدة لفهم شيء ما.

@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: وضع المطور لنظام iOS وأداة ideviceinstaller
+translated: true
 ---
 
 ## وضع المطور

@@ -3,6 +3,7 @@ lang: ar
 layout: post
 title: تقدم استعادة الرؤية الطبيعية
 top: 20
+translated: true
 ---
 
 آخر تحديث: 28 نوفمبر 2024

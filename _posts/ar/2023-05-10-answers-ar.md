@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: 'Yin Wang: الإجابة النهائية عن الحياة، الكون، وكل شيء'
+translated: true
 ---
 
 تمت إعادة النشر من Weibo @不再关心人类de垠 (لا يهتم بالبشرية بعد الآن بواسطة Yin).

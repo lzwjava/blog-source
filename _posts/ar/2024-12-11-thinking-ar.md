@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: التفكير
+translated: true
 ---
 
 * من خلال التصنيف، التجريد، أو التفكير في الأشياء، أنت تفكر.

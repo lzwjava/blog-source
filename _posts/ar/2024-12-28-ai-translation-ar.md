@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: Quora أو TikTok جديد يعمل بالكامل بترجمة الذكاء الاصطناعي
+translated: true
 ---
 
 * منصة TikTok أو Quora جديدة تعمل بالكامل بواسطة ترجمة الذكاء الاصطناعي.

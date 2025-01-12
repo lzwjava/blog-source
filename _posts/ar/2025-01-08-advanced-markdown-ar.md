@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: الاستخدام المتقدم لـ Markdown
+translated: true
 ---
 
 ## المراجع

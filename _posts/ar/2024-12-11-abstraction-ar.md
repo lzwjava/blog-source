@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: التجريد
+translated: true
 ---
 
 * كل شيء يدور حول التجريد.

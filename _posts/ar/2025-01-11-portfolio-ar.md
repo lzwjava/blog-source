@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: المحفظة
+translated: true
 ---
 
 يمكن العثور على ملف PDF [هنا](/assets/resume/Zhiwei.Li.Portfolio.pdf).

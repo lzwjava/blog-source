@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Turbolist3r: تعداد النطاقات الفرعية"
+title: 'Turbolist3r: تعداد النطاقات الفرعية'
+translated: true
 ---
 
 ## Turbolist3r

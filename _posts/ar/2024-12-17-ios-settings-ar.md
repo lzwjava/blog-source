@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: إعدادات التطبيق الفردي، التحكم بالتبديل، وAssistiveTouch في iOS
+translated: true
 ---
 
 ## الإعدادات لكل تطبيق

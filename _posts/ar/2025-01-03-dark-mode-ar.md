@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: تنفيذ الوضع الداكن للموقع
+translated: true
 ---
 
 تنفيذ الوضع الداكن في مدونتي Jekyll.

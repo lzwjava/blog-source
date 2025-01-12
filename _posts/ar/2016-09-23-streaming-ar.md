@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: إعداد البث المباشر باستخدام OBS و SRS و FFmpeg
+translated: true
 ---
 
 *تمت كتابة هذه المدونة بمساعدة ChatGPT-4o.*

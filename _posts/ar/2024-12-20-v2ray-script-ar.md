@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: نص V2Ray
+translated: true
 ---
 
 هذا سكريبت V2Ray الذي أستخدمه كثيرًا.

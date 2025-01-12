@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: توقيت الاختبار
+translated: true
 ---
 
 بالأمس، شرعت في إنشاء أداة للتهيئة التلقائية لـ Shadowsocks Outline، بهدف تحويلها إلى مشروع Python يمكن للآخرين استخدامه. قمت بتطوير برنامج نصي يقوم بتحديث ملف `config.yaml` بإعدادات وكيل Shadowsocks عن طريق فك تشفير عناوين URL الخاصة بـ Shadowsocks من ملف `ssconfig`. بالإضافة إلى ذلك، قمت بإنشاء برنامج نصي آخر يستخدم `gsutil` لتحميل ملف الاشتراك للعملاء إلى Google Cloud Storage.

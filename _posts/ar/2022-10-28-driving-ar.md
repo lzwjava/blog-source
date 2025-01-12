@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: الاستماع أثناء القيادة
+translated: true
 ---
 
 *تمت ترجمة منشور المدونة هذا بواسطة ChatGPT.*

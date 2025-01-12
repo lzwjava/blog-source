@@ -34,7 +34,7 @@ def update_front_matter(translated_file_path):
 
 def main():
     posts_dir = "_posts"
-    lang_dirs = ['de', 'hi', 'fr', 'ja', 'es']
+    lang_dirs = ['ar']
     
     for lang_dir in lang_dirs:
         target_dir = os.path.join(posts_dir, lang_dir)

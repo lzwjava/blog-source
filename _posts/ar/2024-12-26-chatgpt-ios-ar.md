@@ -3,6 +3,7 @@ audio: true
 lang: ar
 layout: post
 title: تحليل اكتشاف ChatGPT لـ VPN على iOS
+translated: true
 ---
 
 اليوم، اكتشفت أن تطبيق ChatGPT لنظام iOS يسمح الآن بتسجيل الدخول باستخدام VPN في الصين. في السابق، كان يعرض رسالة حظر، مثل تلك الموضحة أدناه.

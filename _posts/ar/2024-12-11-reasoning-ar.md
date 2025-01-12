@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: المنطق
+translated: true
 ---
 
 * كل شيء يتعلق بالمنطق.

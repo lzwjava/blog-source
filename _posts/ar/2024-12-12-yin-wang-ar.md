@@ -3,6 +3,7 @@ lang: ar
 layout: post
 title: الأعمال الكاملة لـ Yin Wang
 top: 20
+translated: true
 ---
 
 ## الصينية

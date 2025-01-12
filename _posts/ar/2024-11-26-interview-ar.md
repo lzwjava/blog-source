@@ -2,6 +2,7 @@
 lang: ar
 layout: post
 title: 'مهندس Java Backend: مجموعة أسئلة المقابلة'
+translated: true
 ---
 
 ## المشاريع ذات الصلة
