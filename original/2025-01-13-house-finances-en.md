@@ -19,7 +19,7 @@ Another helpful aspect is the prevalence of AI. It can also assist with this tas
 
 As the later table is based on previous numbers, it is better to check the numbers first to make sure everything is correct before moving forward.
 
-The code below helps to generate a PDF from the markdown.
+The code below helps generate a PDF from the markdown. It has some special settings to support Chinese character rendering in PDF.
 
 
 ```python
