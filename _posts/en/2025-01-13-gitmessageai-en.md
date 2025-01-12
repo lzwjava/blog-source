@@ -6,6 +6,7 @@ title: AI-Powered Git Commit Messages
 translated: false
 ---
 
+
 This python script should be placed in a directory included in your system's PATH, such as `~/bin`.
 
 ```python
@@ -103,5 +104,4 @@ alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
 
-Other things AI can help with include generating merge commit messages.
 

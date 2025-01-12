@@ -31,7 +31,7 @@ def gitmessageai(push=True, only_message=False):
 
     # AI के लिए प्रॉम्प्ट तैयार करें
     prompt = f"""
-निम्नलिखित कोड परिवर्तनों के लिए Conventional Commits प्रारूप में एक संक्षिप्त कमिट संदेश उत्पन्न करें।
+निम्नलिखित कोड परिवर्तनों के लिए Conventional Commits प्रारूप में एक संक्षिप्त कमिट संदेश जनरेट करें।
 निम्नलिखित प्रकारों में से एक का उपयोग करें: feat, fix, docs, style, refactor, test, chore, perf, ci, build, या revert।
 यदि लागू हो, तो कोडबेस के प्रभावित हिस्से का वर्णन करने के लिए कोष्ठक में एक स्कोप शामिल करें।
 कमिट संदेश 70 वर्णों से अधिक नहीं होना चाहिए।
@@ -71,14 +71,14 @@ def gitmessageai(push=True, only_message=False):
 
     # जांचें कि कमिट संदेश खाली तो नहीं है
     if not commit_message:
-        print("त्रुटि: खाली कमिट संदेश उत्पन्न हुआ। कमिट रद्द किया जा रहा है।")
+        print("त्रुटि: खाली कमिट संदेश जनरेट हुआ। कमिट रद्द किया जा रहा है।")
         return
     
     if only_message:
         print(f"सुझाया गया कमिट संदेश: {commit_message}")
         return
 
-    # उत्पन्न संदेश के साथ कमिट करें
+    # जनरेट किए गए संदेश के साथ कमिट करें
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
     # परिवर्तनों को पुश करें
@@ -88,9 +88,9 @@ def gitmessageai(push=True, only_message=False):
         print("परिवर्तन स्थानीय रूप से कमिट किए गए हैं, लेकिन पुश नहीं किए गए हैं।")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="AI के साथ कमिट संदेश उत्पन्न करें और परिवर्तनों को कमिट करें।")
+    parser = argparse.ArgumentParser(description="AI के साथ कमिट संदेश जनरेट करें और परिवर्तनों को कमिट करें।")
     parser.add_argument('--no-push', dest='push', action='store_false', help='परिवर्तनों को स्थानीय रूप से कमिट करें बिना पुश किए।')
-    parser.add_argument('--only-message', dest='only_message', action='store_true', help='केवल AI द्वारा उत्पन्न कमिट संदेश प्रिंट करें।')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='केवल AI द्वारा जनरेट किया गया कमिट संदेश प्रिंट करें।')
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message)
 ```
@@ -102,5 +102,3 @@ alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
-
-AI अन्य चीजों में भी मदद कर सकता है जैसे कि मर्ज कमिट संदेश उत्पन्न करना।
