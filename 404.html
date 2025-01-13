@@ -2,5 +2,9 @@
 permalink: /404.html
 ---
 <script>
-  window.location.href = "/404-en";
+  if (window.location.pathname !== "/404-en") {
+    window.location.href = "/404-en";
+  } else {
+    window.location.href = "/";
+  }
 </script>
