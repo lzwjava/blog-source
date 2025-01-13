@@ -51,6 +51,7 @@ jobs:
           collection-fontsrecommended 1
           collection-xetex 1
           collection-latexextra 1
+          collection-langcjk 1
           EOF
 
           # Run the installer with the profile
