@@ -15,3 +15,4 @@ translated: true
 * Pour les services cloud comme Google Cloud Platform, la configuration d'un nouveau serveur nécessite un serveur proxy existant. Cependant, des fournisseurs comme DigitalOcean ou Vultr peuvent être configurés directement sans avoir besoin d'un serveur proxy.
 * Utilisez [Auto SS Config](https://github.com/lzwjava/auto-ss-config) pour générer et télécharger les URL d'abonnement Shadowsocks ou Clash.
 * Utilisez la fonctionnalité de snapshot dans Digital Ocean. Si l'IP du serveur est bloquée, créez un nouveau droplet à partir du snapshot du serveur et exécutez à nouveau `install.sh`.
+* Utilisez la fonctionnalité d'IP réservée dans Digital Ocean. Si l'IP du serveur est bloquée, attribuez une nouvelle IP réservée.
