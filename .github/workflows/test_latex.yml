@@ -71,6 +71,9 @@ jobs:
           which xelatex
           xelatex --version
       
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
