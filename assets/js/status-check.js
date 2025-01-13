@@ -15,8 +15,16 @@ document.addEventListener('DOMContentLoaded', function () {
         </svg>
     `;
 
-    // Set default to online status
-    statusButton.innerHTML = onlineSVG;
+    const now = new Date();
+    const currentHour = now.getHours();
+
+    // Set default based on time
+    if (currentHour >= 9 && currentHour < 24) {
+        statusButton.innerHTML = onlineSVG;
+    } else {
+        statusButton.innerHTML = offlineSVG;
+    }
+
 
     fetch('https://www.lzwjava.xyz/bandwidth')
         .then(response => response.json())
