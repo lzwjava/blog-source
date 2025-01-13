@@ -112,7 +112,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         print(f"  Error parsing front matter: {e}")
         return front_matter
 
-def translate_markdown_file(input_file, output_file, target_language, changed_paragraphs=None, dry_run=False):
+def translate_markdown_file(input_file, output_file, target_language, dry_run=False):
     print(f"  Processing file: {input_file}")
     try:
         with open(input_file, 'r', encoding='utf-8') as infile:
@@ -154,43 +154,6 @@ def get_changed_files():
         print(f"Error getting changed files: {e}")
         return []
 
-def get_changed_paragraphs(input_file, output_file):
-    try:
-        result = subprocess.run(['git', 'diff', 'HEAD~1', 'HEAD', '--', input_file], capture_output=True, text=True, check=True)
-        diff_output = result.stdout
-        changed_lines = set()
-        
-        for line in diff_output.splitlines():
-            if line.startswith('@@'):
-                match = re.search(r'\+(\d+)', line)
-                if match:
-                    start_line = int(match.group(1))
-                    changed_lines.add(start_line)
-        
-        if not changed_lines:
-            return None
-        
-        with open(input_file, 'r', encoding='utf-8') as infile:
-            content = infile.read()
-        
-        front_matter_match = re.match(r'---\n(.*?)\n---', content, re.DOTALL)
-        content_without_front_matter = content[len(front_matter_match.group(0)):] if front_matter_match else content
-        paragraphs = content_without_front_matter.split('\n\n')
-        
-        changed_paragraphs = set()
-        current_line = 1
-        for i, paragraph in enumerate(paragraphs):
-            if current_line in changed_lines:
-                changed_paragraphs.add(str(i))
-            current_line += paragraph.count('\n') + 1
-        
-        return changed_paragraphs
-    except subprocess.CalledProcessError as e:
-        print(f"Error getting diff: {e}")
-        return None
-    except FileNotFoundError:
-        print(f"File not found: {input_file}")
-        return None
 
 def main():
     if not DEEPSEEK_API_KEY:
@@ -282,10 +245,9 @@ def main():
                     print(f"Copied {filename} to {output_file} and set translated: false because target language is the same as original language.")
                     continue
                 
-                changed_paragraphs = get_changed_paragraphs(input_file, output_file)
                 
                 print(f"Submitting translation job for {filename} to {lang}...")
-                future = executor.submit(translate_markdown_file, input_file, output_file, lang, changed_paragraphs, dry_run)
+                future = executor.submit(translate_markdown_file, input_file, output_file, lang, dry_run)
                 futures.append(future)
             
         for future in concurrent.futures.as_completed(futures):
