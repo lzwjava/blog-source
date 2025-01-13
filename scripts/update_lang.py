@@ -78,15 +78,18 @@ def translate_front_matter(front_matter, target_language, input_file):
         if 'title' in front_matter_dict:
             print(f"  Translating title: {front_matter_dict['title']}")
             if not (input_file == 'original/2025-01-11-resume-en.md' and target_language in ['zh', 'fr']):
-                translated_title = translate_text(front_matter_dict['title'], target_language)
-                if translated_title:
-                    translated_title = translated_title.strip()
-                    if len(translated_title) > 300:
-                        translated_title = translated_title.split('\n')[0]
-                    front_matter_dict['title'] = translated_title
-                    print(f"  Translated title to: {translated_title}")
+                if isinstance(front_matter_dict['title'], str):
+                    translated_title = translate_text(front_matter_dict['title'], target_language)
+                    if translated_title:
+                        translated_title = translated_title.strip()
+                        if len(translated_title) > 300:
+                            translated_title = translated_title.split('\n')[0]
+                        front_matter_dict['title'] = translated_title
+                        print(f"  Translated title to: {translated_title}")
+                    else:
+                        print(f"  Title translation failed for: {input_file}")
                 else:
-                    print(f"  Title translation failed for: {input_file}")
+                    print(f"  Title is not a string, skipping translation for: {input_file}")
             else:
                 print(f"  Skipping title translation for {input_file} to {target_language}")
         # Always set lang to target_language
