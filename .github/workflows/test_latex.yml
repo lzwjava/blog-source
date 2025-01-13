@@ -1,0 +1,103 @@
+name: Test LaTeX
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Make
+        run: sudo apt-get update && sudo apt-get install -y make
+
+      - name: Cache TeX Live
+        uses: actions/cache@v3
+        with:
+          # Updated to TeX Live 2024
+          path: /usr/local/texlive/2024
+          # Force a fresh cache key (changed "unique" to "fix-xelatex" to ensure a fresh install).
+          key: ${{ runner.os }}-texlive-2024-fix-xelatex
+          restore-keys: |
+            ${{ runner.os }}-texlive-
+
+      - name: Install TeX Live 2024
+        # Only run if the cache is missing
+        if: steps.cache-texlive.outputs.cache-hit != 'true'
+        run: |
+          # Install dependencies for TeX Live installer
+          sudo apt-get update
+          sudo apt-get install -y perl wget xz-utils
+
+          # Download TeX Live installer
+          wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
+          tar -xzf install-tl-unx.tar.gz
+          cd install-tl-*/
+
+          # Create a texlive.profile for automated installation
+          cat <<EOF > texlive.profile
+          selected_scheme scheme-full
+          TEXDIR /usr/local/texlive/2024
+          TEXMFCONFIG ~/.texlive2024/texmf-config
+          TEXMFHOME ~/texmf
+          TEXMFLOCAL /usr/local/texlive/2024/texmf-local
+          TEXMFSYSCONFIG /usr/local/texlive/2024/texmf-config
+          TEXMFSYSVAR /usr/local/texlive/2024/texmf-var
+          binary_x86_64-linux 1
+          collection-basic 1
+          collection-latex 1
+          collection-fontsrecommended 1
+          collection-xetex 1
+          collection-latexextra 1
+          EOF
+
+          # Run the installer with the profile
+          sudo ./install-tl --profile=texlive.profile
+
+      - name: Add TeX Live to PATH
+        run: echo "/usr/local/texlive/2024/bin/x86_64-linux" >> $GITHUB_PATH
+
+      - name: Print PATH
+        run: echo $PATH
+
+      # NEW: List TeX Live binaries before verifying.
+      - name: List TeX Live Binaries
+        run: ls -l /usr/local/texlive/2024/bin/x86_64-linux/
+
+      - name: Verify TeX Live Installation
+        run: |
+          which xelatex
+          xelatex --version
+
+      - name: Configure tlmgr Repository for TeX Live 2024
+        run: |
+          sudo /usr/local/texlive/2024/bin/x86_64-linux/tlmgr \
+            option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2024/tlnet-final
+
+      - name: Install Missing LaTeX Packages
+        run: |
+          sudo /usr/local/texlive/2024/bin/x86_64-linux/tlmgr \
+            install etoolbox adjustbox roboto sourcesanspro fontawesome5 tcolorbox
+
+      - name: Confirm Package Installation
+        run: |
+          kpsewhich etoolbox.sty
+          kpsewhich adjustbox.sty
+          kpsewhich roboto.sty
+          kpsewhich sourcesanspro.sty
+          kpsewhich fontawesome5.sty
+          kpsewhich tcolorbox.sty
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run test_latex.py
+        run: python scripts/test_latex.py
