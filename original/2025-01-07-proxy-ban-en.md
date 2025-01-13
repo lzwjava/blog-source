@@ -183,3 +183,6 @@ Proxy servers have very different traffic characteristics compared to regular we
 
 Given the wide range of requests and responses that pass through the internet, the GFW could employ AI and machine learning models to analyze traffic patterns and intelligently detect illegal behavior. By training the system on a variety of traffic types and using advanced techniques, it could more effectively ban or filter traffic based on observed patterns.
 
+## Update
+
+I am still getting banned. I now use Digital Ocean's reversed IP to assign a new IP when I get banned, in order to mitigate the frustration.
