@@ -70,25 +70,6 @@ jobs:
         run: |
           which xelatex
           xelatex --version
-
-      - name: Configure tlmgr Repository for TeX Live 2024
-        run: |
-          sudo /usr/local/texlive/2024/bin/x86_64-linux/tlmgr \
-            option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2024/tlnet-final
-
-      - name: Install Missing LaTeX Packages
-        run: |
-          sudo /usr/local/texlive/2024/bin/x86_64-linux/tlmgr \
-            install etoolbox adjustbox roboto sourcesanspro fontawesome5 tcolorbox
-
-      - name: Confirm Package Installation
-        run: |
-          kpsewhich etoolbox.sty
-          kpsewhich adjustbox.sty
-          kpsewhich roboto.sty
-          kpsewhich sourcesanspro.sty
-          kpsewhich fontawesome5.sty
-          kpsewhich tcolorbox.sty
       
       - name: Set up Python
         uses: actions/setup-python@v4
