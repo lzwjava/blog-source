@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: ChatGPT助我學日文
+translated: true
 ---
 
 ### 前言

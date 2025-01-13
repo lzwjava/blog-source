@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 為何ChatGPT Plus應按令牌使用收費
+translated: true
 ---
 
 ChatGPT Plus 應轉向基於令牌使用量的靈活定價模式，而非固定的每月 20 美元費用。

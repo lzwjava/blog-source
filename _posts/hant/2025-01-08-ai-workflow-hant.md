@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 由AI工作流程驅動的新平台
+translated: true
 ---
 
 - 工作流程是一種系統，其中大型語言模型（LLMs）和工具通過預定義的代碼路徑進行協調。[^1]

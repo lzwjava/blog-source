@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 使用多焦渐进镜片逆转近视
+translated: true
 ---
 
 ## 處方

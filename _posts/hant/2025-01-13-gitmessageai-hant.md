@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: AI驅動的Git提交信息
+translated: true
 ---
 
 這個 Python 腳本應該放置在系統 PATH 包含的目錄中，例如 `~/bin`。

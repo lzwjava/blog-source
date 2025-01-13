@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 對我影響最大的書和人
+translated: true
 ---
 
 中文版本可在此處找到 [/pages/books-zh](/pages/books-zh)。

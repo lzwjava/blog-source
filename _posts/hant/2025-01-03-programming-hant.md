@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 編程
+translated: true
 ---
 
 * 只要競技程式設計能激勵你，那就沒問題。

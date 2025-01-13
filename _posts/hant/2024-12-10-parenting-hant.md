@@ -3,6 +3,7 @@ lang: hant
 layout: post
 title: 育兒小貼士
 top: 10
+translated: true
 ---
 
 * 安全是最重要的。保持低调生活，确保幼儿园或学校做正确的事情。

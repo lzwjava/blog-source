@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 雲端伺服器選擇的長遠考量
+translated: true
 ---
 
 Outline Manager 提供了多種伺服器選項，包括 Google Cloud、DigitalOcean、AWS Lightsail 等。

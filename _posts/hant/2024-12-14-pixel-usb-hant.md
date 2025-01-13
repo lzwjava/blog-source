@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: Pixel的USB選項
+translated: true
 ---
 
 <div style="text-align: center;">  

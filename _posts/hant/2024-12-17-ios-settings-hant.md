@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: iOS中的應用程式專屬設定、切換控制與輔助觸控
+translated: true
 ---
 
 ## 應用程式專屬設定

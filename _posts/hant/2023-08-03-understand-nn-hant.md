@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 理解神經網絡
+translated: true
 ---
 
 ### 解釋以下代碼：

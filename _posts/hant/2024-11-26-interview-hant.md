@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: Java後端工程師：面試題目集錦
+translated: true
 ---
 
 ## 項目相關

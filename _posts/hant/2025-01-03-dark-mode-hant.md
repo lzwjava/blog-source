@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 網站深色模式實施
+translated: true
 ---
 
 在我的Jekyll博客中實現暗黑模式。

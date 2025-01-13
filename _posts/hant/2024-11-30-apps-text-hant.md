@@ -3,6 +3,7 @@ lang: hant
 layout: post
 title: iOS 应用使用记录 - 文字版
 top: 10
+translated: true
 translation: false
 ---
 

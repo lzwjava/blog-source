@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 限制與邊緣情況
+translated: true
 ---
 
 * 思考極限和邊緣情況是理解某事物的好方法。

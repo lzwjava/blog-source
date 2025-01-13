@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 學習小貼士
+translated: true
 ---
 
 * 將學習視為一種愛好，以玩樂和真誠的興趣來對待。

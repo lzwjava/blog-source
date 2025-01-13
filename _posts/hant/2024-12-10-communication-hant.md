@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 最適合我的溝通方式
+translated: true
 ---
 
 * 在博客中分享我想說的話。

@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 宝宝游戏：跟随手势
+translated: true
 ---
 
 這是一個我與寶寶互動和娛樂的簡單遊戲。

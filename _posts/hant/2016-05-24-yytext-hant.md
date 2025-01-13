@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: YYText 是如何運作的
+translated: true
 ---
 
 上面的陰影效果是用以下代碼實現的：

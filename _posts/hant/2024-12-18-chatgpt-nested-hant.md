@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: ChatGPT 的嵌套代码块错误
+translated: true
 ---
 
 ### 問題解釋

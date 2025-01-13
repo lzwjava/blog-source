@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 事物
+translated: true
 ---
 
 車輛

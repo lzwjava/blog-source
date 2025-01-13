@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 烹飪
+translated: true
 ---
 
 * 自己煮食很簡單。用油來炒菜，因為油的沸點比水高，能更有效地加熱食物。

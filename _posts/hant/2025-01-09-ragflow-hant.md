@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 嘗試RAGFlow
+translated: true
 ---
 
 [https://ragflow.io](https://ragflow.io)

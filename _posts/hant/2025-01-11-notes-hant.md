@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 筆記
+translated: true
 ---
 
 這些筆記主要由AI聊天機器人生成。我用它們來總結關鍵點，並將通過這些筆記來加深我的理解。

@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 如何改變當今世界
+translated: true
 ---
 
 文章《王垠自然視力恢復法的實驗驗證》的註腳。

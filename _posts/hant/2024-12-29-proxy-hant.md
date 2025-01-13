@@ -4,6 +4,7 @@ lang: hant
 layout: post
 title: 中国代理解决方案 - 2025
 top: 60
+translated: true
 ---
 
 * 最佳方式是直接購買中國澳門的SIM卡，需要時直接使用移動數據。訪問[https://www.1888.com.mo](https://www.1888.com.mo)。大約80元人民幣可獲得10GB的移動數據，提供快速且無痛的體驗。  

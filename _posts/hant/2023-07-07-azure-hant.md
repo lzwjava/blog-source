@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 在Azure上構建可擴展的應用程式
+translated: true
 ---
 
 *此博客文章是在ChatGPT-4o的協助下撰寫的。*

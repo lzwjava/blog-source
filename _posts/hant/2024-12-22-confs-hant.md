@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 設定檔
+translated: true
 ---
 
 在這篇文章中，我將分享如何使用Jekyll來管理和組織我的代理配置文件。以下是一些配置文件的鏈接及其內容：

@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 陰謀
+translated: true
 ---
 
 繼王垠的文章[王垠：生命、宇宙以及一切事情的終極答案](https://lzwjava.github.io/answers-en)和他之前的言論，似乎之前已經有很多陰謀論者了。

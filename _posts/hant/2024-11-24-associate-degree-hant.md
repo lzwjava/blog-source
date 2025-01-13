@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 副学士学位：进展与反思
+translated: true
 ---
 
 以下是我的學習進展。

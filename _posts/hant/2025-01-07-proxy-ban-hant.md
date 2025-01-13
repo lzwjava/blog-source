@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 代理服务器封锁分析
+translated: true
 ---
 
 ## 代理伺服器中的API能否避免GFW封禁？

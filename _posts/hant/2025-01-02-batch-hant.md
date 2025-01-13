@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 批量作業還是逐個處理
+translated: true
 ---
 
 今天，我們的公寓供水出了點問題，暫時無法供水。吃完飯後，看著我和家人留下的一堆碗碟，我想到了幾個問題。

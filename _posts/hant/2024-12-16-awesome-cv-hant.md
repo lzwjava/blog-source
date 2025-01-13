@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 使用Awesome-CV生成專業簡歷
+translated: true
 ---
 
 ### 簡介  

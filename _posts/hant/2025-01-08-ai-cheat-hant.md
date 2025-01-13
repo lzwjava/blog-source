@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 强调判断力，而非担忧人工智能作弊
+translated: true
 ---
 
 - AI作弊無處不在，且很可能無法完全根除。

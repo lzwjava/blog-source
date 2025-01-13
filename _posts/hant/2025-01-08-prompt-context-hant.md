@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 修正提示或上下文，而非AI的輸出
+translated: true
 ---
 
 有用户提示和系统提示。当输出效果不佳时，我们应该在用户提示中添加规则，而不是每次都去修复。

@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 尹王博客文章的英文翻译
+translated: true
 ---
 
 翻譯自[yinwang.org](https://www.yinwang.org)。

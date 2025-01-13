@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 為何安卓設備會卡頓
+translated: true
 ---
 
 *這篇文章是在ChatGPT的協助下撰寫的。*

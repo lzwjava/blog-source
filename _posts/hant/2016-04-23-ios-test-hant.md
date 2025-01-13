@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 透過自動化測試和工具提升iOS開發
+translated: true
 ---
 
 *這篇博文是由 ChatGPT-4o 協助整理的。* 

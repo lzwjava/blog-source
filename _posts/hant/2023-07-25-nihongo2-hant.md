@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: ChatGPT助我學日語 - 2
+translated: true
 ---
 
 讓我們繼續學習日本歌曲《真夜中的門》。

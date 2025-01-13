@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 進階Markdown使用
+translated: true
 ---
 
 ## 參考文獻

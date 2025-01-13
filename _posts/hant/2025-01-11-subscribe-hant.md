@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 訂閱
+translated: true
 ---
 
 透過訂閱RSS feed或在X（Twitter）上關注我，隨時獲取我的最新博客文章。

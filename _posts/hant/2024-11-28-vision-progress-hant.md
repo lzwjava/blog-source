@@ -3,6 +3,7 @@ lang: hant
 layout: post
 title: 自然視力恢復進展
 top: 20
+translated: true
 ---
 
 最後更新：2024年11月28日

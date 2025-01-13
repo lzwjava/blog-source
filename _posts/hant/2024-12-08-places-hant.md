@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 地方
+translated: true
 ---
 
 美國

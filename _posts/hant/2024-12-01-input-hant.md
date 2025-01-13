@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 快速滑動輸入
+translated: true
 ---
 
 若想在 iOS 中輸入「threads」，只需快速畫一條線覆蓋「threads」字母的位置即可得到結果。來看看這是如何操作的。

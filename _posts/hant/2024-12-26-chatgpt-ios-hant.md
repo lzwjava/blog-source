@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: ChatGPT iOS VPN 檢測分析
+translated: true
 ---
 
 今天發現，ChatGPT iOS 應用在中國使用 VPN 可以登錄了。之前會顯示封鎖提示，如下圖所示。

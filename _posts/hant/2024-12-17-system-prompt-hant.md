@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 探索Grok和Claude中的系統提示
+translated: true
 ---
 
 我將它轉發到這裡，以便學習提示工程。

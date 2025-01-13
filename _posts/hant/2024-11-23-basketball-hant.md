@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 一次非传统的篮球动作
+translated: true
 ---
 
 <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">

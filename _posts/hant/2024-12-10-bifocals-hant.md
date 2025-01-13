@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 雙光眼鏡
+translated: true
 ---
 
 雙光眼鏡有兩個不同的度數：一個用於上半部分，另一個用於下半部分。通常，這兩個部分的度數差異較大。

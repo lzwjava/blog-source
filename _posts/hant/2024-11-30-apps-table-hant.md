@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 我使用的iOS应用 - 表格版
+translated: true
 translation: false
 ---
 

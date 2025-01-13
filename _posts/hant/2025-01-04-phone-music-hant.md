@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 手機搜尋與音樂
+translated: true
 ---
 
 ### 手機搜尋

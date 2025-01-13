@@ -3,6 +3,7 @@ lang: hant
 layout: post
 title: 自然視力恢復方法的實驗驗證
 top: 30
+translated: true
 ---
 
 <div align="center"><img src="/assets/images/eyes/glasses.jpeg" width="400px" /></div>

@@ -3,6 +3,7 @@ lang: hant
 layout: post
 title: 《殷王全集》
 top: 20
+translated: true
 ---
 
 ## 中文

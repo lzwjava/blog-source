@@ -4,6 +4,7 @@ lang: hant
 layout: post
 title: 自然逆轉近視之旅
 top: 10
+translated: true
 ---
 
 除了三篇關於逆轉近視的論文，我想分享更多關於這個發現的故事。

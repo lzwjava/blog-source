@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 抽象化
+translated: true
 ---
 
 * 一切皆關乎抽象。

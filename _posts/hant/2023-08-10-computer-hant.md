@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 如何組裝電腦
+translated: true
 ---
 
 ![封面](assets/images/computer/cover.jpg)

@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 簡歷
+translated: true
 ---
 
 ## Latex PDFs

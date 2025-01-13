@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 尋找聯合創始人的秘訣
+translated: true
 ---
 
 - 如果我要重新开始我的创业，我会如何找到我的联合创始人？

@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 與我的電動車充電問題搏鬥
+translated: true
 ---
 
 我在左贡把车充满电，满电续航400公里，开始往芒康开，距离160公里左右，当时表显剩余续航250公里左右。

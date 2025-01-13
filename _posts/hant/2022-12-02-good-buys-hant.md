@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 我的精明購物
+translated: true
 ---
 
 <div align="center"><img src="/assets/images/buys/buys.jpg" width="400px" /><img/></div>

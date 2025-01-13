@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 從神經網絡到GPT
+translated: true
 ---
 
 ### YouTube 影片

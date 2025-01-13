@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 學習英語的秘訣
+translated: true
 ---
 
 最近，我向朋友們分享了我工作變動的消息。令他們驚訝的是，我這一年來最大的變化可能是英語能力的大幅提升。

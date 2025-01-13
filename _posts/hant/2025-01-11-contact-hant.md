@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 聯繫
+translated: true
 ---
 
 你好，我是李志偉。你可以在[這裡](/introduction-en)找到我的簡介。我網站上的八個按鈕展示了我最熱衷的事物，我鼓勵你去探索它們。

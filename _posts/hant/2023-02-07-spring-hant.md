@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: Spring框架全面指南
+translated: true
 ---
 
 *此博客文章是在ChatGPT-4o的協助下撰寫的。*

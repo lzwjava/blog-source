@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 更新指南
+translated: true
 ---
 
 為了保持您的系統和應用程式處於最新狀態，請按照以下步驟操作，根據您的平台：

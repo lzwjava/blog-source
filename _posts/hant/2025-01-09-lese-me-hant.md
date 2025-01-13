@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 少用「我」、「我們」或「本人」
+translated: true
 ---
 
 > "resume-en.txt" 不允許被解析。它需要被重命名為 "resume.txt"。

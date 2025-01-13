@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 設置您的代理伺服器
+translated: true
 ---
 
 * 要設置伺服器，請使用Outline Manager：[https://getoutline.org](https://getoutline.org)。  

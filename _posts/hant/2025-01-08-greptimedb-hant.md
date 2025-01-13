@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 公司應提供AI背景或代理以促進整合
+translated: true
 ---
 
 我有一位在Greptime DB工作的朋友，我一直在思考如何快速将他们的产品集成到现有系统中。

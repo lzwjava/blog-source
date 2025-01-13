@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 固定价格订阅模式已过时
+translated: true
 ---
 
 ### 訂閱服務靈活定價的案例

@@ -3,6 +3,7 @@ lang: hant
 layout: post
 title: 澳門SIM卡
 top: 10
+translated: true
 ---
 
 ### 我的澳門SIM卡使用體驗

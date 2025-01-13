@@ -4,6 +4,7 @@ lang: hant
 layout: post
 title: 對我最有用的連結與應用程式
 top: 10
+translated: true
 ---
 
 以下是我每日或每隔幾日會查看的一些連結和應用程式。通常，我會使用應用程式來獲取更新，而在桌面使用時，我則經常依賴AI工具。

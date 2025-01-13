@@ -3,6 +3,7 @@ lang: hant
 layout: post
 title: 生活小貼士
 top: 10
+translated: true
 ---
 
 * 早點探索世界，去不同的國家，與不同的人交談。

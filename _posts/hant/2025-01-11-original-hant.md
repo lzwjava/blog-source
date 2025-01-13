@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 原文帖子
+translated: true
 ---
 
 以下是我原創的博客文章。

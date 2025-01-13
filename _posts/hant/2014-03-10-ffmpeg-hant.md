@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 將 FFmpeg 移植到 Android
+translated: true
 ---
 
 [原文連結（CSDN）](https://blog.csdn.net/lzw_java/article/details/21564091)

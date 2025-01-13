@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: iOS 的開發者模式及ideviceinstaller工具
+translated: true
 ---
 
 ## 開發者模式

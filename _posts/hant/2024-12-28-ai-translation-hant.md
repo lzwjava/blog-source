@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 全新Quora或TikTok，全面由AI驅動翻譯
+translated: true
 ---
 
 * 一個全新由AI翻譯驅動的TikTok或Quora。

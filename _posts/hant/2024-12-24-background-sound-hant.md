@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 偏好有背景聲音
+translated: true
 ---
 
 * 不論你在做什麼，都偏好有背景聲音。

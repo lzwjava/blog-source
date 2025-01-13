@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 思考
+translated: true
 ---
 
 * 通過分類、抽象或對事物進行推理，你進行思考。

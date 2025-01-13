@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 駕駛時聆聽
+translated: true
 ---
 
 *这篇博客文章由ChatGPT翻译*

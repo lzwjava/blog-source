@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 溝通
+translated: true
 ---
 
 * 不要與家人、朋友或持不同意見的人爭論。爭論無益，有時還會傷感情。

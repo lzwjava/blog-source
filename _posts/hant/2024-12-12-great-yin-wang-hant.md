@@ -3,6 +3,7 @@ lang: hant
 layout: post
 title: GTY - 偉大的尹老師
 top: 20
+translated: true
 ---
 
 這是一個關於我和王垠的故事。我剛剛檢查了我的Twitter賬號。

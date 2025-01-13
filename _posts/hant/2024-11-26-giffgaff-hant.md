@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 英国SIM卡在中国：Giffgaff使用体验
+translated: true
 ---
 
 Giffgaff提供了一種新的手機SIM卡服務。在中國，我從未體驗過類似的服務。與之相比，中國的電信運營商——中國電信、中國聯通和中國移動——顯得老派且官僚。Giffgaff則年輕、充滿活力且簡潔。

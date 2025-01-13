@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 推理
+translated: true
 ---
 
 * 一切皆關乎推理。

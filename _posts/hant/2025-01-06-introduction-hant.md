@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 志伟的简介
+translated: true
 ---
 
 您可以下載由LaTeX製作的個人介紹PDF版本，[此處](/assets/resume/Zhiwei.Li.Introduction.EN.pdf)為英文版，[此處](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf)為中文版。

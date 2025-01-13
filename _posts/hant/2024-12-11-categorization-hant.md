@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 分類
+translated: true
 ---
 
 * 一切皆關乎分類。

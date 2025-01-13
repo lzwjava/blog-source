@@ -3,6 +3,7 @@ lang: hant
 layout: post
 title: 逆轉近視中的散光
 top: 10
+translated: true
 ---
 
 ## 摘要  

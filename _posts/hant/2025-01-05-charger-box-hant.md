@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 智能通用充電盒
+translated: true
 ---
 
 人們可以發明一個充電盒。這個盒子就像超聲波清洗機一樣。當我用完一個行動電源時，我只需把它放進充電盒裡。然後幾個小時後，行動電源就充滿電了。

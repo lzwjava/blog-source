@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 向左滑動與應用程式
+translated: true
 ---
 
 ## iOS 列表中的左滑手勢

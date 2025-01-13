@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 學習的智慧
+translated: true
 ---
 
 ### 前言

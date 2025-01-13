@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 忘記為充電寶充電
+translated: true
 ---
 
 經常忘記為充電寶充電的問題一直困擾著我。

@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 個人狀態頁面
+translated: true
 ---
 
 看起來你安裝的 `vnstat` 版本不支援 `-u` 參數。讓我們按照正確的步驟來配置 `vnstat` 並設置帶寬監控 API。

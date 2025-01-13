@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 訂購水果時避免損壞
+translated: true
 ---
 
 長途運輸水果確實是個挑戰。以下是一些避免收到破損水果的心得。

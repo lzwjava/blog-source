@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 人工智能代码编辑器的未来方向
+translated: true
 ---
 
 最近，我在GitHub Actions中添加了一個`xelatex`管道。

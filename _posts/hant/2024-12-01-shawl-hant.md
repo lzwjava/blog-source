@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 冬季睡眠用披肩
+translated: true
 ---
 
 <div style="text-align: center;">

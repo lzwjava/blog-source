@@ -2,6 +2,7 @@
 lang: hant
 layout: post
 title: 理财消费小贴士
+translated: true
 ---
 
 * 先找免費解決方案——開源軟件、免費電子書、論文、信息等。

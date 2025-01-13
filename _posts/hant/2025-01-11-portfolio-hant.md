@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 投資組合
+translated: true
 ---
 
 PDF 檔案可以在[這裡](/assets/resume/Zhiwei.Li.Portfolio.pdf)找到。

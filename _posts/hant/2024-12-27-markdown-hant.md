@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: Markdown 問題：Kramdown 與 XeLaTeX
+translated: true
 ---
 
 要為我的 Jekyll 博客使用 Markdown 生成 PDF，我使用以下 Pandoc 命令：

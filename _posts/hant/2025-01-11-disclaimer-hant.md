@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 免責聲明
+translated: true
 ---
 
 ## 翻譯

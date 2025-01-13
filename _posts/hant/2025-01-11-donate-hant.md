@@ -3,6 +3,7 @@ audio: true
 lang: hant
 layout: post
 title: 捐贈
+translated: true
 ---
 
 如果你喜歡我的文章、代碼或視頻，可以自願進行打賞。你可以使用以下方式支付。
