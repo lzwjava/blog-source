@@ -185,4 +185,4 @@ Given the wide range of requests and responses that pass through the internet, t
 
 ## Update
 
-I am still getting banned. I now use Digital Ocean's reversed IP to assign a new IP when I get banned, in order to mitigate the frustration.
+Despite my efforts, my proxy server continues to be banned. To mitigate this, I've implemented a workaround using Digital Ocean's reversed IP feature, which allows me to quickly assign a new IP address whenever a ban occurs.
