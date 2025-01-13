@@ -31,6 +31,8 @@ def create_translation_prompt(target_language, special=False):
             return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Do not translate English names or code blocks. Be careful about code blocks."""
         else:
             return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Do not translate English names or code blocks. Be careful about code blocks."""
+    elif target_language == 'hant':
+        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Traditional Chinese (Hong Kong). "
     elif target_language == 'en':
         return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to English. Do not translate English names. Be careful about code blocks."
     elif target_language == 'de':
@@ -202,7 +204,7 @@ def main():
     target_language = args.lang
     dry_run = args.dry_run
     
-    languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr', 'de', 'ar'] 
+    languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr', 'de', 'ar', 'hant']
 
     total_files_to_process = 0
     
@@ -254,8 +256,8 @@ def main():
                 output_filename = os.path.basename(filename).replace(".md", f"-{lang}.md")
                 
                 # Check if the original file is named with "-en.md" or "-zh.md"
-                if filename.endswith("-en.md") or filename.endswith("-zh.md"):
-                    output_filename = os.path.basename(filename).replace("-en.md", f"-{lang}.md").replace("-zh.md", f"-{lang}.md")
+                if filename.endswith("-en.md") or filename.endswith("-zh.md") or filename.endswith("-hant.md"):
+                    output_filename = os.path.basename(filename).replace("-en.md", f"-{lang}.md").replace("-zh.md", f"-{lang}.md").replace("-hant.md", f"-{lang}.md")
                 
                 output_file = os.path.join(output_dir, output_filename)
                 
