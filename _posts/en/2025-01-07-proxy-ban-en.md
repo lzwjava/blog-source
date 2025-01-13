@@ -6,6 +6,7 @@ title: Analysis of Proxy Server Ban
 translated: false
 ---
 
+
 ## Can APIs in Proxy Servers Avoid GFW Bans?
 
 I run a simple server on my Shadowsocks instance with the following code:
@@ -184,3 +185,6 @@ Proxy servers have very different traffic characteristics compared to regular we
 
 Given the wide range of requests and responses that pass through the internet, the GFW could employ AI and machine learning models to analyze traffic patterns and intelligently detect illegal behavior. By training the system on a variety of traffic types and using advanced techniques, it could more effectively ban or filter traffic based on observed patterns.
 
+## Update
+
+Despite my efforts, my proxy server continues to be banned. To mitigate this, I've implemented a workaround using Digital Ocean's reversed IP feature, which allows me to quickly assign a new IP address whenever a ban occurs.
