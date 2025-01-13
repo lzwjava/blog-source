@@ -2,7 +2,7 @@
 audio: true
 lang: hant
 layout: post
-title: 404
+title: 404 頁面
 translated: true
 ---
 
@@ -13,7 +13,7 @@ translated: true
 **頁面未找到 :(**
 
 {: .centered }
-找不到您請求的頁面。請檢查網址或返回首頁。
+未能找到您請求的頁面。請返回首頁。
 
 {: .centered }
 [首頁](/ "首頁")
