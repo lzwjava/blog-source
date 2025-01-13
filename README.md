@@ -19,6 +19,7 @@ This blog incorporates several enhancements compared to a standard Jekyll blog u
 *   **Bilingual Content:** Supports both Chinese and English content to cater to a diverse audience.
 *   **GitHub Workflow Automation:** Implements GitHub Actions for automated building, testing, and deployment, ensuring a streamlined development process.
 *   **Automatic Translation Workflow:** Automatically translates new or updated posts into multiple languages using GitHub Actions.
+*   **AI-Powered Translation (DeepSeek):** Integrates DeepSeek's advanced language models for accurate and contextually relevant translations, further enhancing content accessibility.
 
 
 ## Getting Started
