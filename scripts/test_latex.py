@@ -26,20 +26,36 @@ def generate_pdfs():
             print(f"Input file does not exist: {input_markdown_path}")
             continue
         # Construct the Pandoc command
-        if lang == "hi":
-            CJK_FONT = "Kohinoor Devanagari"
-        elif lang == "ar":
-            CJK_FONT = "Geeza Pro"
-        elif lang in ["en", "fr", "de", "es"]:
-            CJK_FONT = "Helvetica"
-        elif lang == "zh":
-            CJK_FONT = "PingFang SC"
-        elif lang == "hant":
-            CJK_FONT = "PingFang TC"
-        elif lang == "ja":
-            CJK_FONT = "Hiragino Sans"
+        if platform.system() == "Darwin":
+            if lang == "hi":
+                CJK_FONT = "Kohinoor Devanagari"
+            elif lang == "ar":
+                CJK_FONT = "Geeza Pro"
+            elif lang in ["en", "fr", "de", "es"]:
+                CJK_FONT = "Helvetica"
+            elif lang == "zh":
+                CJK_FONT = "PingFang SC"
+            elif lang == "hant":
+                CJK_FONT = "PingFang TC"
+            elif lang == "ja":
+                CJK_FONT = "Hiragino Sans"
+            else:
+                CJK_FONT = "Arial Unicode MS"
         else:
-            CJK_FONT = "Arial Unicode MS"
+            if lang == "hi":
+                CJK_FONT = "Noto Sans Devanagari"
+            elif lang == "ar":
+                CJK_FONT = "Noto Naskh Arabic"
+            elif lang in ["en", "fr", "de", "es"]:
+                CJK_FONT = "DejaVu Sans"
+            elif lang == "zh":
+                CJK_FONT = "Noto Sans CJK SC"
+            elif lang == "hant":
+                CJK_FONT = "Noto Sans CJK TC"
+            elif lang == "ja":
+                CJK_FONT = "Noto Sans CJK JP"
+            else:
+                CJK_FONT = "Noto Sans"
         command = [
             'pandoc',
             input_markdown_path,
