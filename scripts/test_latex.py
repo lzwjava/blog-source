@@ -4,13 +4,14 @@ import subprocess
 # Configuration
 CJK_FONT = "DejaVu Sans"
 GEOMETRY = "margin=1in"
-input_markdown_base = "_posts/en/2025-01-13-gitmessageai"  # Base path for input Markdown file
+input_markdown_base = "_posts"  # Base path for input Markdown file
 output_pdf_base = "test/test"    # Base path for output PDF file
 languages = ["en", "zh", "ja", "es", "hi", "fr", "de", "ar", "hant"]
+post_name = "2025-01-13-gitmessageai"
 
 def generate_pdfs():
     for lang in languages:
-        input_markdown_path = f"{input_markdown_base}-{lang}.md"
+        input_markdown_path = f"{input_markdown_base}/{lang}/{post_name}-{lang}.md"
         output_pdf_path = f"{output_pdf_base}-{lang}.pdf"
 
         # Ensure the output directory exists
