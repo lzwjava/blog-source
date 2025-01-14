@@ -11,13 +11,18 @@ INPUT_DIRECTORY = "_posts"
 LANGUAGES = ["en", "zh", "ja", "es", "hi", "fr", "de", "ar", "hant"]
 
 
+def get_all_md_files(input_dir):
+    md_files = []
+    for lang in LANGUAGES:
+        lang_dir = os.path.join(input_dir, lang)
+        if os.path.exists(lang_dir):
+            md_files.extend([os.path.join(lang_dir, f) for f in os.listdir(lang_dir) if f.endswith('.md')])
+    return md_files
+
+
 def get_last_n_files(input_dir, n=10):
     try:
-        md_files = []
-        for lang in LANGUAGES:
-            lang_dir = os.path.join(input_dir, lang)
-            if os.path.exists(lang_dir):
-                md_files.extend([os.path.join(lang_dir, f) for f in os.listdir(lang_dir) if f.endswith('.md')])
+        md_files = get_all_md_files(input_dir)
         md_files_sorted = sorted(md_files, key=lambda x: os.path.basename(x), reverse=True)
         last_n_files = md_files_sorted[:n]
         return last_n_files
@@ -100,18 +105,12 @@ def text_to_pdf_from_markdown(input_markdown_path, output_pdf_path, dry_run=Fals
 
 def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run=False):
     
-    md_files_to_process = get_last_n_files(input_dir, n)
-    total_files = len(md_files_to_process)
+    all_md_files = get_all_md_files(input_dir)
     
-    print(f"Total Markdown files to process: {total_files}")
-
-    if total_files == 0:
-        print(f"No Markdown files found in '{input_dir}' directory.")
-        return
-
-    files_processed = 0
+    files_to_process = []
     files_skipped = 0
-    for idx, md_file_path in enumerate(md_files_to_process, start=1):
+
+    for md_file_path in all_md_files:
         filename = os.path.basename(md_file_path)
         lang = filename.split('-')[-1].split('.')[0]
         pdf_filename = f"{os.path.splitext(filename)[0]}.pdf"
@@ -119,6 +118,31 @@ def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run
         os.makedirs(output_lang_dir, exist_ok=True)
         output_filename = os.path.join(output_lang_dir, pdf_filename)
 
+        if os.path.exists(output_filename):
+            print(f"Skipping {filename}: {output_filename} already exists.")
+            files_skipped += 1
+            continue
+        else:
+            files_to_process.append(md_file_path)
+    
+    total_files = len(files_to_process)
+    print(f"Total Markdown files to process: {total_files}")
+
+    if total_files == 0:
+        print(f"No new Markdown files to process in '{input_dir}' directory.")
+        return
+
+    files_processed = 0
+        
+    md_files_to_process = sorted(files_to_process, key=lambda x: os.path.basename(x), reverse=True)[:n]
+    
+    for idx, md_file_path in enumerate(md_files_to_process, start=1):
+        filename = os.path.basename(md_file_path)
+        lang = filename.split('-')[-1].split('.')[0]
+        pdf_filename = f"{os.path.splitext(filename)[0]}.pdf"
+        output_lang_dir = os.path.join(output_dir, lang)
+        os.makedirs(output_lang_dir, exist_ok=True)
+        output_filename = os.path.join(output_lang_dir, pdf_filename)
 
         if os.path.exists(output_filename):
             print(f"Skipping {filename}: {output_filename} already exists.")
