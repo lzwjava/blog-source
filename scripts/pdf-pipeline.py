@@ -103,7 +103,7 @@ def text_to_pdf_from_markdown(input_markdown_path, output_pdf_path, dry_run=Fals
     return True
 
 
-def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run=False):
+def process_markdown_files(input_dir, output_dir, max_files=10000, dry_run=False):
     
     all_md_files = get_all_md_files(input_dir)
     
@@ -134,7 +134,7 @@ def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run
 
     files_processed = 0
         
-    md_files_to_process = sorted(files_to_process, key=lambda x: os.path.basename(x), reverse=True)[:n]
+    md_files_to_process = sorted(files_to_process, key=lambda x: os.path.basename(x), reverse=True)
     
     for idx, md_file_path in enumerate(md_files_to_process, start=1):
         filename = os.path.basename(md_file_path)
@@ -218,9 +218,8 @@ def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert Markdown files to PDFs.")
-    parser.add_argument('--n', type=int, default=10, help="Number of files to process for 'posts' task (default: 10).")
     parser.add_argument('--max_files', type=int, default=10000, help="Maximum number of files to process (default: 10000).")
     parser.add_argument('--dry_run', action='store_true', help="Simulate the conversion without actual file generation.")
     args = parser.parse_args()
 
-    process_markdown_files(INPUT_DIRECTORY, OUTPUT_DIRECTORY, n=args.n, max_files=args.max_files, dry_run=args.dry_run)
+    process_markdown_files(INPUT_DIRECTORY, OUTPUT_DIRECTORY, max_files=args.max_files, dry_run=args.dry_run)
