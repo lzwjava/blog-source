@@ -91,9 +91,11 @@ def text_to_pdf_from_markdown(input_markdown_path, output_pdf_path, dry_run=Fals
     result = subprocess.run(command, capture_output=True, text=True)
     if result.returncode != 0:
         print(f"Pandoc error for {output_pdf_path}: {result.stderr}")
-        raise Exception(f"Pandoc failed for {input_markdown_path}")
+        # raise Exception(f"Pandoc failed for {input_markdown_path}")
+        return False
 
     print(f"PDF content written to {output_pdf_path}")
+    return True
 
 
 def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run=False):
@@ -164,11 +166,13 @@ def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run
                     temp.write(markdown_content)
 
                 try:
-                    text_to_pdf_from_markdown(
+                    if not text_to_pdf_from_markdown(
                         input_markdown_path=cleaned_md_path,
                         output_pdf_path=output_filename,
                         dry_run=dry_run
-                    )
+                    ):
+                        print(f"Skipping {filename} due to pandoc error.")
+                        continue
                 except Exception as e:
                     print(f"Error processing {filename}: {e}")
                     continue
