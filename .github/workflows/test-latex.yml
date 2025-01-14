@@ -10,11 +10,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-    - name: Install Heiti SC font
-      uses: actions/setup-fonts@v1
-      with:
-        fonts: |
-          Heiti SC        
+      - name: Install Heiti SC font
+        uses: actions/setup-fonts@v1
+        with:
+          fonts: |
+            Heiti SC        
 
       - name: Setup TeX Live
         uses: teatimeguest/setup-texlive-action@v3
