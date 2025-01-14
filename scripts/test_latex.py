@@ -4,10 +4,6 @@ import subprocess
 # Configuration
 import platform
 
-if platform.system() == "Darwin":
-    CJK_FONT = "SimSong"
-else:
-    CJK_FONT = "DejaVu Sans"
 GEOMETRY = "margin=1in"
 input_markdown_base = "_posts"  # Base path for input Markdown file
 output_pdf_base = "test/test"    # Base path for output PDF file
@@ -29,14 +25,29 @@ def generate_pdfs():
         if not os.path.exists(input_markdown_path):
             print(f"Input file does not exist: {input_markdown_path}")
             continue
-
         # Construct the Pandoc command
+        if lang == "hi":
+            CJK_FONT = "Kohinoor Devanagari"
+        elif lang == "ar":
+            CJK_FONT = "Geeza Pro"
+        elif lang in ["en", "fr", "de", "es"]:
+            CJK_FONT = "Helvetica"
+        elif lang == "zh":
+            CJK_FONT = "PingFang SC"
+        elif lang == "hant":
+            CJK_FONT = "PingFang TC"
+        elif lang == "ja":
+            CJK_FONT = "Hiragino Sans"
+        else:
+            CJK_FONT = "Arial Unicode MS"
         command = [
             'pandoc',
             input_markdown_path,
             '-o', output_pdf_path,
             '-f', 'markdown',
             '--pdf-engine', 'xelatex',
+            '-V', f'romanfont={CJK_FONT}',
+            '-V', f'mainfont={CJK_FONT}',
             '-V', f'CJKmainfont={CJK_FONT}',
             '-V', f'CJKsansfont={CJK_FONT}',
             '-V', f'CJKmonofont={CJK_FONT}',
@@ -45,6 +56,9 @@ def generate_pdfs():
             '-V', 'CJKoptions=Scale=1.1',
             '-V', 'linestretch=1.5'
         ]
+
+        print(command)
+
 
         # Run the Pandoc command
         try:
