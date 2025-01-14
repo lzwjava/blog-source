@@ -95,26 +95,6 @@ def text_to_pdf_from_markdown(input_markdown_path, output_pdf_path, dry_run=Fals
 
     print(f"PDF content written to {output_pdf_path}")
 
-    scale_factor = "1.0"
-    tmp_pdf_path = output_pdf_path.replace(".pdf", "-tmp.pdf")
-
-    os.rename(output_pdf_path, tmp_pdf_path)
-
-    pdfjam_command = [
-        'pdfjam',
-        '--scale', scale_factor,
-        tmp_pdf_path,
-        '-o', output_pdf_path
-    ]
-
-    pdfjam_result = subprocess.run(pdfjam_command, capture_output=True, text=True)
-    if pdfjam_result.returncode != 0:
-        print(f"pdfjam error for {output_pdf_path}: {pdfjam_result.stderr}")
-        os.rename(tmp_pdf_path, output_pdf_path)
-        raise Exception(f"pdfjam failed for {output_pdf_path}")
-
-    os.remove(tmp_pdf_path)
-    print(f"Scaled PDF written to {output_pdf_path}")
 
 def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run=False):
     
