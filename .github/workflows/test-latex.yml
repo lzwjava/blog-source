@@ -10,14 +10,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download the fonts
-        run: for i in simhei.ttf simkai.ttf simsun.ttc simsunb.ttf simfang.ttf; do wget -P fonts/ https://xugr.keybase.pub/static/fonts/$i; done
-
-      - name: Copy the fonts # In newer version of fontconfig, it reads $HOME/.local/share/fonts/ but not $HOME/.fonts
-        run: mkdir -p ~/.local/share/fonts && cp -r fonts/* ~/.local/share/fonts/
-        
-      - name: Build font information caches
-        run: fc-cache -rv
+      - name: Install SimSun font
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-arphic-uming fonts-arphic-ukai fontconfig
+          sudo fc-cache -fv
+          fc-list | grep SimSun
 
       - name: Setup TeX Live
         uses: teatimeguest/setup-texlive-action@v3
