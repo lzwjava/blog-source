@@ -95,26 +95,6 @@ def text_to_pdf_from_markdown(input_markdown_path, output_pdf_path, dry_run=Fals
 
     print(f"PDF content written to {output_pdf_path}")
 
-    scale_factor = "1.0"
-    tmp_pdf_path = output_pdf_path.replace(".pdf", "-tmp.pdf")
-
-    os.rename(output_pdf_path, tmp_pdf_path)
-
-    pdfjam_command = [
-        'pdfjam',
-        '--scale', scale_factor,
-        tmp_pdf_path,
-        '-o', output_pdf_path
-    ]
-
-    pdfjam_result = subprocess.run(pdfjam_command, capture_output=True, text=True)
-    if pdfjam_result.returncode != 0:
-        print(f"pdfjam error for {output_pdf_path}: {pdfjam_result.stderr}")
-        os.rename(tmp_pdf_path, output_pdf_path)
-        raise Exception(f"pdfjam failed for {output_pdf_path}")
-
-    os.remove(tmp_pdf_path)
-    print(f"Scaled PDF written to {output_pdf_path}")
 
 def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run=False):
     
@@ -128,6 +108,7 @@ def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run
         return
 
     files_processed = 0
+    files_skipped = 0
     for idx, md_file_path in enumerate(md_files_to_process, start=1):
         filename = os.path.basename(md_file_path)
         lang = filename.split('-')[-1].split('.')[0]
@@ -139,9 +120,10 @@ def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run
 
         if os.path.exists(output_filename):
             print(f"Skipping {filename}: {output_filename} already exists.")
+            files_skipped += 1
             continue
 
-        print(f"\nProcessing {files_processed + 1}/{total_files}: {filename}")
+        print(f"\nProcessing {files_processed + 1}/{total_files - files_skipped}: {filename}")
         try:
             with open(md_file_path, 'r', encoding='utf-8') as file:
                 markdown_content = file.read()
@@ -171,6 +153,7 @@ def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run
 
                 if not markdown_content.strip():
                     print(f"Skipping {filename}: No content to convert after cleaning front matter.")
+                    files_skipped += 1
                     continue
 
                 if title_line:
