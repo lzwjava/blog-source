@@ -61,24 +61,34 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run test_latex.py
-        run: python scripts/test_latex.py
-
       - name: Clean Up Credentials
         run: |
-          rm -f ./gha-creds-*.json
+          rm -f ./gha-creds-*.json          
 
-      - name: Commit PDF
+      - name: Run pdf-pipeline.py and commit every 50 files
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add test/*.pdf
-          git diff --cached --quiet || git commit -m "Update PDF"
-          
-          git push || {
-            echo "Push failed, attempting pull and merge"
-            git pull --rebase
-            git push
-          }
+          processed_files=0
+          while true; do
+            python scripts/pdf-pipeline.py --n 50
+            if [[ $(grep "Total Markdown files to process: 0" <<< $(python scripts/pdf-pipeline.py --n 1)) ]]; then
+              echo "No more files to process."
+              break
+            fi
+            echo "Processed some files, checking for more..."
+            
+            processed_files=$((processed_files + 50))
+            
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add assets/pdfs/**/*.pdf
+            git diff --cached --quiet || git commit -m "Update PDF - Batch $processed_files"
+            
+            git push || {
+              echo "Push failed, attempting pull and merge"
+              git pull --rebase
+              git push
+            }
+          done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
