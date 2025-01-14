@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Configuration
-CJK_FONT = "Heiti SC"
+CJK_FONT = "simsun"
 GEOMETRY = "margin=1in"
 input_markdown_path = "_posts/en/2025-01-13-gitmessageai-en.md"  # Replace with your input Markdown file
 output_pdf_path = "test.pdf"    # Replace with your desired output PDF file
