@@ -15,7 +15,13 @@ jobs:
         with:
           packages: |
             xeCJK
-                 
+            etoolbox
+            adjustbox
+            roboto
+            sourcesanspro
+            fontawesome5
+            tcolorbox
+
       - name: Install pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
