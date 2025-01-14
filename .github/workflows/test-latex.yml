@@ -1,6 +1,8 @@
 name: Test LaTeX
 
 on:
+  push:
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
