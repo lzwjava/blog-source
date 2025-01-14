@@ -31,9 +31,6 @@ jobs:
             setspace
             unicode-math
 
-      - name: Check for xeCJK.sty
-        run: find /usr/local/texlive/2024 -name "xeCJK.sty"
-
       - name: Install pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
