@@ -2,7 +2,7 @@ name: Test LaTeX
 
 on:
   push:
-    branches: ["main"]
+    branches: []
   workflow_dispatch:
 
 jobs:
