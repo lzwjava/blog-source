@@ -13,7 +13,9 @@ jobs:
         run: |
           sudo apt-get install -y ttf-mscorefonts-installer
           fc-cache -fv
-          fc-list | grep SimSun
+
+      - name: List installed fonts
+        run: fc-list
 
       - name: Setup TeX Live
         uses: teatimeguest/setup-texlive-action@v3
@@ -46,7 +48,7 @@ jobs:
 
       - name: Generate PDF
         run: |
-          pandoc '_posts/en/2025-01-13-gitmessageai-en.md' -o test.pdf -f markdown --pdf-engine xelatex -V CJKmainfont='SimSun' -V geometry:margin=1in -V classoption=16pt -V CJKoptions=Scale=1.1 -V linestretch=1.5
+          pandoc '_posts/en/2025-01-13-gitmessageai-en.md' -o test.pdf -f markdown --pdf-engine xelatex -V CJKmainfont='DejaVu Sans' -V geometry:margin=1in -V classoption=16pt -V CJKoptions=Scale=1.1 -V linestretch=1.5
 
       - name: Check for xeCJK.sty
         run: find /usr/local/texlive/2024 -name "xeCJK.sty"
