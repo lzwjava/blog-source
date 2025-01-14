@@ -22,6 +22,7 @@ jobs:
             fontawesome5
             tcolorbox
             setspace
+            unicode-math
 
       - name: Install pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
