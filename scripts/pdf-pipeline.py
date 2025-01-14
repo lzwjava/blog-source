@@ -117,7 +117,6 @@ def text_to_pdf_from_markdown(input_markdown_path, output_pdf_path, dry_run=Fals
     print(f"Scaled PDF written to {output_pdf_path}")
 
 def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run=False):
-    os.makedirs(output_dir, exist_ok=True)
     
     md_files_to_process = get_last_n_files(input_dir, n)
     total_files = len(md_files_to_process)
@@ -131,8 +130,12 @@ def process_markdown_files(input_dir, output_dir, n=10, max_files=10000, dry_run
     files_processed = 0
     for idx, md_file_path in enumerate(md_files_to_process, start=1):
         filename = os.path.basename(md_file_path)
+        lang = filename.split('-')[-1].split('.')[0]
         pdf_filename = f"{os.path.splitext(filename)[0]}.pdf"
-        output_filename = os.path.join(output_dir, pdf_filename)
+        output_lang_dir = os.path.join(output_dir, lang)
+        os.makedirs(output_lang_dir, exist_ok=True)
+        output_filename = os.path.join(output_lang_dir, pdf_filename)
+
 
         if os.path.exists(output_filename):
             print(f"Skipping {filename}: {output_filename} already exists.")
