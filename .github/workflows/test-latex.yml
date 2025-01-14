@@ -13,10 +13,9 @@ jobs:
       - name: Setup TeX Live
         uses: teatimeguest/setup-texlive-action@v3
         with:
-          tex: 'texlive'
-          distribution: 'tl-2024'
-          packages: 'xeCJK, fontspec, xparse, geometry, libertinus, pdftex, luatex, xetex'
-
+          packages: |
+            xeCJK
+                 
       - name: Install pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
