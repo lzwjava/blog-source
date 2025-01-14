@@ -1,6 +1,8 @@
 name: Test LaTeX
 
 on:
+  push:
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
@@ -46,9 +48,8 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Generate PDF
-        run: |
-          pandoc '_posts/en/2025-01-13-gitmessageai-en.md' -o test.pdf -f markdown --pdf-engine xelatex -V CJKmainfont='DejaVu Sans' -V geometry:margin=1in -V classoption=16pt -V CJKoptions=Scale=1.1 -V linestretch=1.5
+      - name: Run test_latex.py
+        run: python scripts/test_latex.py
 
       - name: Clean Up Credentials
         run: |
