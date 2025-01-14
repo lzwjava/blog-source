@@ -31,6 +31,9 @@ jobs:
             setspace
             unicode-math
 
+      - name: Check for xeCJK.sty
+        run: find /usr/local/texlive/2024 -name "xeCJK.sty"
+
       - name: Install pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
@@ -47,5 +50,3 @@ jobs:
         run: |
           pandoc '_posts/en/2025-01-13-gitmessageai-en.md' -o test.pdf -f markdown --pdf-engine xelatex -V CJKmainfont='DejaVu Sans' -V geometry:margin=1in -V classoption=16pt -V CJKoptions=Scale=1.1 -V linestretch=1.5
 
-      - name: Check for xeCJK.sty
-        run: find /usr/local/texlive/2024 -name "xeCJK.sty"
