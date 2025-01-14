@@ -47,7 +47,7 @@ jobs:
 
       - name: Generate PDF
         run: |
-          pandoc '_posts/en/2025-01-13-gitmessageai-en.md' -o test.pdf -f markdown --pdf-engine xelatex -V CJKmainfont='Heiti SC' -V geometry:margin=1in -V classoption=16pt -V CJKoptions=Scale=1.1 -V linestretch=1.5
+          pandoc '_posts/en/2025-01-13-gitmessageai-en.md' -o test.pdf -f markdown --pdf-engine xelatex -V CJKmainfont='SimSun' -V geometry:margin=1in -V classoption=16pt -V CJKoptions=Scale=1.1 -V linestretch=1.5
 
       - name: Check for xeCJK.sty
         run: find /usr/local/texlive/2024 -name "xeCJK.sty"
