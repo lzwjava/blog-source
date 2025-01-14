@@ -69,7 +69,7 @@ jobs:
         run: |
           processed_files=0
           while true; do
-            python scripts/pdf-pipeline.py --n 50
+            python scripts/pdf-pipeline.py --n 10000 --max_files 50
             if [[ $(grep "Total Markdown files to process: 0" <<< $(python scripts/pdf-pipeline.py --n 1)) ]]; then
               echo "No more files to process."
               break
