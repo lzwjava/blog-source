@@ -5,7 +5,7 @@ import subprocess
 import platform
 
 if platform.system() == "Darwin":
-    CJK_FONT = "SimSun"
+    CJK_FONT = "SimSong"
 else:
     CJK_FONT = "DejaVu Sans"
 GEOMETRY = "margin=1in"
