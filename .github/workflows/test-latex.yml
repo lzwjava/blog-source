@@ -51,6 +51,24 @@ jobs:
             booktabs
             footnote
 
+      - name: Confirm Package Installation
+        run: |
+          kpsewhich tcolorbox.sty
+          kpsewhich etoolbox.sty
+          kpsewhich adjustbox.sty
+          kpsewhich roboto.sty
+          kpsewhich sourcesanspro.sty
+          kpsewhich fontawesome5.sty
+          kpsewhich setspace.sty
+          kpsewhich unicode-math.sty
+          kpsewhich fancyvrb.sty
+          kpsewhich olyglossia.sty
+          kpsewhich polyglossia.sty
+          kpsewhich bidi.sty
+          kpsewhich booktabs.sty
+          kpsewhich footnote.sty
+          kpsewhich xeCJK.sty
+
       - name: Install pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
