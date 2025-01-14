@@ -2,7 +2,12 @@ import os
 import subprocess
 
 # Configuration
-CJK_FONT = "DejaVu Sans"
+import platform
+
+if platform.system() == "Darwin":
+    CJK_FONT = "SimSun"
+else:
+    CJK_FONT = "DejaVu Sans"
 GEOMETRY = "margin=1in"
 input_markdown_base = "_posts"  # Base path for input Markdown file
 output_pdf_base = "test/test"    # Base path for output PDF file
