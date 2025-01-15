@@ -1,6 +1,9 @@
-name: Test LaTeX
+name: PDF LaTeX
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -65,30 +68,20 @@ jobs:
         run: |
           rm -f ./gha-creds-*.json          
 
-      - name: Run pdf-pipeline.py and commit every 50 files
+      - name: Run pdf-pipeline.py for last 10 files and commit
         run: |
-          processed_files=0
-          while true; do
-            python scripts/pdf-pipeline.py --max_files 50
-            if [[ $(grep "Total Markdown files to process: 0" <<< $(python scripts/pdf-pipeline.py --n 1)) ]]; then
-              echo "No more files to process."
-              break
-            fi
-            echo "Processed some files, checking for more..."
-            
-            processed_files=$((processed_files + 50))
-            
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add assets/pdfs/**/*.pdf
-            git diff --cached --quiet || git commit -m "Update PDF - Batch $processed_files"
-            
-            git push || {
-              echo "Push failed, attempting pull and merge"
-              git pull --rebase
-              git push
-            }
-          done
+          python scripts/pdf-pipeline.py --n 10 --max-files 1000
+          
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/pdfs/**/*.pdf
+          git diff --cached --quiet || git commit -m "Update PDF - Last 10 files"
+          
+          git push || {
+            echo "Push failed, attempting pull and merge"
+            git pull --rebase
+            git push
+          }
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
