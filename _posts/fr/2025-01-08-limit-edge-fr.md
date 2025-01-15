@@ -20,10 +20,12 @@ translated: true
 
 * Le terme "limite" est parfois utilisé pour désigner des cas limites, et les cas limites sont parfois appelés limites.
 
-* Pensez aux limites en termes d'espace, de taille, de longueur, de nombre, de poids, de dérivées, de temps, de durée de vie, d'énergie, de fréquence, d'unités physiques, d'unités informatiques, de requêtes, de fréquence, de limites de taux, de ressources, de CPU, de mémoire et de capacité de calcul.
+* Pensez aux limites en termes d'espace, de taille, de longueur, de nombre, de poids, de dérivées, de temps, de durée de vie, d'énergie, de fréquence, d'unités physiques, d'unités informatiques, de requêtes, de fréquence, de limites de débit, de ressources, de CPU, de mémoire et de capacité de calcul.
 
 * Considérez les cas limites dans les algorithmes, le code, le matériel, les problèmes mathématiques, les grands modèles de langage, les API, les systèmes, les livres, les fonctionnalités ou les produits.
 
-* Réfléchissez aux limites du rendu des lignes de texte dans un navigateur. Est-il possible de gérer un million de lignes ? Quelles sont les contraintes ?
+* Les limites impliquent souvent des valeurs numériques ou des contraintes, tandis que les cas limites sont des conditions spécifiques, souvent inhabituelles.
 
-* Il est indiqué que le projecteur peut fonctionner à au moins 1,5 mètre de distance. Que se passera-t-il s'il est plus proche ?
+* Pensez aux limites de rendu des lignes de texte dans un navigateur. Est-il possible de gérer un million de lignes ? Quelles sont les contraintes ?
+
+* On dit que le projecteur peut fonctionner à au moins 1,5 mètre de distance. Que se passera-t-il s'il est plus proche ?
