@@ -18,3 +18,6 @@ I remember that in 2016 and 2017, when I visited the USA for about 20 days each 
 Their relationship is as follows:
 
 > Ultra Mobile is a mobile virtual network operator (MVNO) that uses T-Mobile's cellular network.
+
+It costs $3 USD per month. I'm unsure if I will continue using it long-term.
+
