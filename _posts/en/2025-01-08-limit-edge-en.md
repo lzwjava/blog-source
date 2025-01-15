@@ -25,7 +25,8 @@ translated: false
 
 * Consider edge cases in algorithms, code, hardware, math problems, large language models, APIs, systems, books, functionalities, or products.
 
+* Limits often involve numerical values or constraints, while edge cases are specific, often unusual, conditions.
+
 * Think about the limits of rendering lines of text in a browser. Is it feasible to handle one million lines? What are the constraints?
 
 * It says the projector can work at least 1.5 meters away. What will happen if it is closer?
-

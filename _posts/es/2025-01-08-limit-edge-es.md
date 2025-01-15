@@ -20,9 +20,11 @@ translated: true
 
 * A veces, el término "límite" se usa para referirse a casos extremos, y los casos extremos a veces se llaman límites.
 
-* Piensa en los límites en términos de espacio, tamaño, longitud, número, peso, derivadas, tiempo, vida útil, energía, frecuencia, unidades físicas, unidades informáticas, solicitudes, frecuencia, límites de tasa, recursos, CPU, memoria y capacidad de cálculo.
+* Piensa en los límites en términos de espacio, tamaño, longitud, número, peso, derivadas, tiempo, vida útil, energía, frecuencia, unidades físicas, unidades de computadora, solicitudes, frecuencia, límites de tasa, recursos, CPU, memoria y capacidad de cálculo.
 
 * Considera casos extremos en algoritmos, código, hardware, problemas matemáticos, modelos de lenguaje grandes, APIs, sistemas, libros, funcionalidades o productos.
+
+* Los límites a menudo involucran valores numéricos o restricciones, mientras que los casos extremos son condiciones específicas, a menudo inusuales.
 
 * Piensa en los límites de renderizar líneas de texto en un navegador. ¿Es factible manejar un millón de líneas? ¿Cuáles son las restricciones?
 
