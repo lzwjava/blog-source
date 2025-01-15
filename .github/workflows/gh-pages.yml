@@ -147,7 +147,7 @@ jobs:
       - name: Run pdf-pipeline.py for last 10 files and commit
         if: steps.dry_run_pdf.outputs.pdf_updated == 'true'
         run: |
-          python scripts/pdf-pipeline.py --n 10 --max-files 1000
+          python scripts/update_pdf.py --n 10 --max-files 1000
           
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
