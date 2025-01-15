@@ -80,7 +80,7 @@ jobs:
       - name: Dry run pdf files
         id: dry_run_pdf
         run: |
-          DRY_RUN_PDF_OUTPUT=$(python scripts/update_pdf.py --dry_run)
+          DRY_RUN_PDF_OUTPUT=$(python scripts/update_pdf.py --n 10 --max-files 1000 --dry_run)
           echo "$DRY_RUN_PDF_OUTPUT"
 
           if [[ "$DRY_RUN_PDF_OUTPUT" == *'Total Markdown files to process: 0'* ]]; then
