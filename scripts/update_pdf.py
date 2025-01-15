@@ -42,7 +42,7 @@ def get_changed_files():
         return []
 
 
-def process_markdown_files(input_dir, output_dir, max_files=10000, dry_run=False, n=None):
+def process_markdown_files(input_dir, output_dir, max_files=10000, dry_run=False):
     
     files_processed = 0
     files_skipped = 0
@@ -149,7 +149,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert Markdown files to PDFs.")
     parser.add_argument('--max_files', type=int, default=10000, help="Maximum number of files to process (default: 10000).")
     parser.add_argument('--dry_run', action='store_true', help="Simulate the conversion without actual file generation.")
-    parser.add_argument('--n', type=int, help="Number of last updated files to process for each language.")
     args = parser.parse_args()
 
-    process_markdown_files(INPUT_DIRECTORY, OUTPUT_DIRECTORY, max_files=args.max_files, dry_run=args.dry_run, n=args.n)
+    process_markdown_files(INPUT_DIRECTORY, OUTPUT_DIRECTORY, max_files=args.max_files, dry_run=args.dry_run)
