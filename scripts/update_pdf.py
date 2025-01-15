@@ -63,9 +63,7 @@ def process_markdown_files(input_dir, output_dir, max_files=10000, dry_run=False
             pdf_filename = f"{os.path.splitext(filename)[0]}.pdf"
             output_lang_dir = os.path.join(output_dir, lang)
             os.makedirs(output_lang_dir, exist_ok=True)
-            output_filename = os.path.join(output_lang_dir, pdf_filename)
-            
-            
+            output_filename = os.path.join(output_lang_dir, pdf_filename)                    
             
             process_file = True
             if os.path.exists(output_filename):
