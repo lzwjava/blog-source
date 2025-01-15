@@ -27,3 +27,4 @@ title: Limits and Edge Cases
 
 * It says the projector can work at least 1.5 meters away. What will happen if it is closer?
 
+* Limits often involve numerical values or constraints, while edge cases are specific, often unusual, conditions.
