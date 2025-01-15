@@ -15,7 +15,7 @@ I tried it a bit and thought it was fine. But I was wrong. The problem continued
 
 In the evening, I drove to another car repair store. They told me it was a clutch problem.
 
-I didn't believe them and continued to use it for the next few days. In a car repair shop near Huizhou Shuangyuewan, I gave the car to the owner, who seemed like an expert.
+I didn't believe them and continued to use it for the next day. In a car repair shop near Huizhou Shuangyuewan, I gave the car to the owner, who seemed like an expert.
 
 After the first hour of fixing, we thought it was okay. But when we drove to test it, it still wasn't fixed.
 
