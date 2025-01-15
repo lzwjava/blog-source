@@ -5,7 +5,6 @@ from datetime import datetime
 import subprocess
 import platform
 from pdf_base import text_to_pdf_from_markdown
-from update_lang import get_changed_files
 
 
 OUTPUT_DIRECTORY = "assets/pdfs"
@@ -32,6 +31,15 @@ def get_last_n_files(input_dir, n=10):
         print(f"Error retrieving files from {input_dir}: {e}")
         return []
 
+def get_changed_files():
+    try:
+        # Get the list of files changed in the last commit
+        result = subprocess.run(['git', 'diff', '--name-only', 'HEAD~1', 'HEAD'], capture_output=True, text=True, check=True)
+        changed_files = result.stdout.strip().split('\n')
+        return [f for f in changed_files if f.startswith(f'{INPUT_DIRECTORY}/') and f.endswith('.md')]
+    except subprocess.CalledProcessError as e:
+        print(f"Error getting changed files: {e}")
+        return []
 
 
 def process_markdown_files(input_dir, output_dir, max_files=10000, dry_run=False, n=None):
