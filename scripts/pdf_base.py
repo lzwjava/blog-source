@@ -10,7 +10,7 @@ def text_to_pdf_from_markdown(input_markdown_path, output_pdf_path, dry_run=Fals
     print(f"Generating PDF from: {input_markdown_path}")
 
     CJK_FONT = "Heiti SC"
-    GEOMETRY = "margin=1in"
+    GEOMETRY = "left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm"
 
     if not os.path.exists(input_markdown_path):
         raise Exception(f"Input file does not exist: {input_markdown_path}")
