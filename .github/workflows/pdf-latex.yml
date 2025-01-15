@@ -1,9 +1,6 @@
 name: PDF LaTeX
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
