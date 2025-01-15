@@ -7,7 +7,9 @@ title: "The Case of the Hairy Tailpipe: A Car Repair Mystery"
 
 In March 2018, I bought a second-hand Chevrolet Sail 2011. However, I crashed it around June 2018. I sold it to another local person. After several years, I bought it back.
 
-But it had a serious problem. The speed was low, just like 60 km per hour. I drove it from Guangzhou to Huizhou Shuangyuewan. The experience was really poor. When I arrived in Huizhou, I drove it to a repair shop.
+But it had a serious problem: the speed was low, around 60 km per hour. Also, the speed was inconsistent, sometimes a little faster and sometimes slower. This was very strange.
+
+I drove it from Guangzhou to Huizhou Shuangyuewan. The experience was really poor. When I arrived in Huizhou, I drove it to a repair shop.
 
 The repair guy thought it was a problem with the exhaust port on top of the engine. So, he used some glue to try and fix it.
 
@@ -23,3 +25,4 @@ The next day, around noon, the mechanic informed me that the problem was resolve
 The mechanic removed the hair and replaced some components.
 
 This experience was a memorable lesson in the importance of identifying the root cause of a problem, a principle that applies equally to car repair and programming.
+
