@@ -11,3 +11,4 @@ vendor
 awesome-cv/**/*.pdf
 server/ip.sh
 server/domain.sh
+__pycache__

@@ -4,6 +4,8 @@ import argparse
 from datetime import datetime
 import subprocess
 import platform
+from pdf_base import text_to_pdf_from_markdown
+from update_lang import get_changed_files
 
 
 OUTPUT_DIRECTORY = "assets/pdfs"
@@ -31,82 +33,12 @@ def get_last_n_files(input_dir, n=10):
         return []
 
 
-def text_to_pdf_from_markdown(input_markdown_path, output_pdf_path, dry_run=False):
-    if dry_run:
-        print(f"Dry run: Would generate PDF from: {input_markdown_path}")
-        return
-
-    print(f"Generating PDF from: {input_markdown_path}")
-
-    CJK_FONT = "Heiti SC"
-    GEOMETRY = "margin=1in"
-
-    if not os.path.exists(input_markdown_path):
-        raise Exception(f"Input file does not exist: {input_markdown_path}")
-    
-    lang = os.path.basename(input_markdown_path).split('-')[-1].split('.')[0]
-    
-    if platform.system() == "Darwin":
-        if lang == "hi":
-            CJK_FONT = "Kohinoor Devanagari"
-        elif lang == "ar":
-            CJK_FONT = "Geeza Pro"
-        elif lang in ["en", "fr", "de", "es"]:
-            CJK_FONT = "Helvetica"
-        elif lang == "zh":
-            CJK_FONT = "PingFang SC"
-        elif lang == "hant":
-            CJK_FONT = "PingFang TC"
-        elif lang == "ja":
-            CJK_FONT = "Hiragino Sans"
-        else:
-            CJK_FONT = "Arial Unicode MS"
-    else:
-        if lang == "hi":
-            CJK_FONT = "Noto Sans Devanagari"
-        elif lang == "ar":
-            CJK_FONT = "Noto Naskh Arabic"
-        elif lang in ["en", "fr", "de", "es"]:
-            CJK_FONT = "DejaVu Sans"
-        elif lang == "zh":
-            CJK_FONT = "Noto Sans CJK SC"
-        elif lang == "hant":
-            CJK_FONT = "Noto Sans CJK TC"
-        elif lang == "ja":
-            CJK_FONT = "Noto Sans CJK JP"
-        else:
-            CJK_FONT = "Noto Sans"
-    command = [
-        'pandoc',
-        input_markdown_path,
-        '-o', output_pdf_path,
-        '-f', 'markdown',
-        '--pdf-engine', 'xelatex',
-        '-V', f'romanfont={CJK_FONT}',
-        '-V', f'mainfont={CJK_FONT}',
-        '-V', f'CJKmainfont={CJK_FONT}',
-        '-V', f'CJKsansfont={CJK_FONT}',
-        '-V', f'CJKmonofont={CJK_FONT}',
-        '-V', f'geometry:{GEOMETRY}',
-        '-V', 'classoption=16pt',
-        '-V', 'CJKoptions=Scale=1.1',
-        '-V', 'linestretch=1.5'
-    ]
-
-    result = subprocess.run(command, capture_output=True, text=True)
-    if result.returncode != 0:
-        print(f"Pandoc error for {output_pdf_path}: {result.stderr}")
-        # raise Exception(f"Pandoc failed for {input_markdown_path}")
-        return False
-
-    print(f"PDF content written to {output_pdf_path}")
-    return True
-
 
 def process_markdown_files(input_dir, output_dir, max_files=10000, dry_run=False, n=None):
     
     files_processed = 0
     files_skipped = 0
+    changed_files = get_changed_files()
 
     for lang in LANGUAGES:
         lang_dir = os.path.join(input_dir, lang)
@@ -132,10 +64,17 @@ def process_markdown_files(input_dir, output_dir, max_files=10000, dry_run=False
             output_lang_dir = os.path.join(output_dir, lang)
             os.makedirs(output_lang_dir, exist_ok=True)
             output_filename = os.path.join(output_lang_dir, pdf_filename)
-
+            
+            
+            
+            process_file = True
             if os.path.exists(output_filename):
-                print(f"Skipping {filename}: {output_filename} already exists.")
-                files_skipped += 1
+                if md_file_path not in changed_files:
+                    print(f"Skipping {filename}: {output_filename} already exists and no changes detected.")
+                    files_skipped += 1
+                    process_file = False
+            
+            if not process_file:
                 continue
 
             print(f"\nProcessing {files_processed + 1}/{total_files - files_skipped}: {filename}")
