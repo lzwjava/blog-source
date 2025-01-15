@@ -9,6 +9,7 @@ These are my original blog posts.
 
 * [Ultra Paygo USA SIM Card](/original/2025-01-15-ultra-paygo-en)
 * [Language Support: Fonts and Text-to-Speech](/original/2025-01-15-language-support-en)
+* [The Case of the Hairy Tailpipe: A Car Repair Mystery](/original/2025-01-15-tailpipe-en)
 * [Using Google Maps in China](/original/2025-01-15-google-maps-en)
 * [Maximum Context Length of Large Language Models](/original/2025-01-15-context-length-en)
 * [Status Page](/original/2025-01-14-status-page-en)
