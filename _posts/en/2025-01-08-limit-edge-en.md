@@ -6,6 +6,7 @@ title: Limits and Edge Cases
 translated: false
 ---
 
+
 * Thinking about limits and edge cases is a good way to understand something.
 
 * Knowing the limits and edge cases of a person helps you understand how to collaborate with them or live with them.
@@ -24,5 +25,7 @@ translated: false
 
 * Consider edge cases in algorithms, code, hardware, math problems, large language models, APIs, systems, books, functionalities, or products.
 
+* Think about the limits of rendering lines of text in a browser. Is it feasible to handle one million lines? What are the constraints?
 
+* It says the projector can work at least 1.5 meters away. What will happen if it is closer?
 
