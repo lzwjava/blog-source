@@ -37,3 +37,4 @@ China:
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [midjourney.com](https://www.midjourney.com)
 - [runwayml.com](https://runwayml.com)
+- [codeium.com/windsurf](https://codeium.com/windsurf)
