@@ -71,11 +71,15 @@ python audio-pipeline.py --task pages
 
 python audio-pipeline.py --task notes
 
+python scripts/audio-pipeline.py --task notes --n 100
+
 python pdf-pipeline.py --task pages
 
 python pdf-pipeline.py --task posts --n 10
 
 python pdf-pipeline.py --task notes
+
+python scripts/generate_notes_link.py
 ```
 
 ## Scripts
