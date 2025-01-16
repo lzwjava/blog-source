@@ -5,8 +5,6 @@ layout: post
 title: DeepSeek V3
 ---
 
-Comprehensive Summary of DeepSeek-V3
-
 ### Overview and Key Highlights
 1. Model Name: DeepSeek-V3, a Mixture-of-Experts (MoE) language model with 671 billion parameters, of which 37 billion are activated per token.
 2. Training Dataset: Pre-trained on 14.8 trillion diverse, high-quality tokens.
