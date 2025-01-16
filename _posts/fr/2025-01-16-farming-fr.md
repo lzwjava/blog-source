@@ -2,7 +2,7 @@
 audio: true
 lang: fr
 layout: post
-title: Agriculture
+title: '# Agriculture'
 translated: true
 ---
 
@@ -18,14 +18,14 @@ Une chose à retenir est que ces activités dépendent fortement de l'atmosphèr
 
 Combien de fois plantons-nous et récoltons-nous le riz ? Selon Mistral,
 
-> À Meizhou, dans le Guangdong, le modèle typique de culture du riz permet deux récoltes par an. C'est ce qu'on appelle la double culture. Les deux principales saisons pour la culture du riz sont :
+> À Meizhou, dans le Guangdong, le modèle typique de culture du riz permet deux récoltes par an. C'est ce qu'on appelle la double culture. Les deux principales saisons de culture du riz sont :
 
-> 1. **Riz précoce (早稻)** - Semé au printemps et récolté en été.
-> 2. **Riz tardif (晚稻)** - Semé en été et récolté en automne.
+> 1. Le riz précoce - Semé au printemps et récolté en été.
+> 2. Le riz tardif - Semé en été et récolté en automne.
 
 > Donc, à Meizhou, les agriculteurs plantent et récoltent généralement le riz deux fois par an. Si vous avez d'autres questions ou besoin de plus d'informations, n'hésitez pas à demander !
 
-Mais en réalité, je ne pouvais pas en être sûr. Ce dont je me souviens, c'est qu'en été, nous récoltions le riz. Nous plantions et récoltions au moins une fois par an.
+Mais en réalité, je ne pourrais pas en être sûr. Ce dont je me souviens, c'est qu'en été, nous récoltions le riz. Nous plantions et récoltions au moins une fois par an.
 
 Lors du semis, il y avait des insectes dans les champs. Nous battions les grains à l'aide d'une machine.
 Le soleil, l'eau et l'air aident le riz à pousser. Les inondations et les sécheresses peuvent détruire les cultures. La distance entre les plants de riz est importante ; ils ne doivent pas être trop proches les uns des autres.
