@@ -12,7 +12,7 @@ Comprehensive Summary of DeepSeek-V3
 2. Training Dataset: Pre-trained on 14.8 trillion diverse, high-quality tokens.
 3. Core Innovations: Incorporates Multi-Head Latent Attention (MLA) and DeepSeekMoE architectures with auxiliary-loss-free load balancing for efficiency.
 4. Training Efficiency: Achieves full training with only 2.788 million H800 GPU hours.
-5. Cost Efficiency: Training cost is estimated at $5.576M, assuming $2 per GPU hour.
+5. Cost Efficiency: Training cost is estimated at 5.576M USD, assuming 2 USD per GPU hour.
 
 ---
 
