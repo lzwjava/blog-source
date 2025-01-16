@@ -20,3 +20,6 @@ title: Training Model
 * If training is over, what will happen? Is the final handling of training done correctly?
 
 * Learn from the mistakes of others, like those made with Llama2.
+
+* Instead of fixing the result, address the root cause of the issue.
+
