@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: Training Model
+title: Model Training
 ---
 
 * Ensure the code, environment, and data are correct before starting actual training.
