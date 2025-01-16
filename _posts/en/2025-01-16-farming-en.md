@@ -21,8 +21,8 @@ How many times do we plant and harvest rice? According to Mistral,
 
 > In Meizhou, Guangdong, the typical rice cultivation pattern allows for two harvests per year. This is known as double-cropping. The two main seasons for rice cultivation are:
 
-> 1. **Early Rice (早稻)** - Sown in the spring and harvested in the summer.
-> 2. **Late Rice (晚稻)** - Sown in the summer and harvested in the fall.
+> 1. Early Rice - Sown in the spring and harvested in the summer.
+> 2. Late Rice - Sown in the summer and harvested in the fall.
 
 > So, in Meizhou, farmers generally plant and harvest rice twice a year. If you have any other questions or need more information, feel free to ask!
 
