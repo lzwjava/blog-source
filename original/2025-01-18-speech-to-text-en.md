@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: Google Cloud Speech-to-Text
+title: Google Cloud Transcription
 ---
 
 I recently experimented with Google Cloud's Speech-to-Text API. The following is a Python function I used to perform the transcription.
