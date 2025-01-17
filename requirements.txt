@@ -10,3 +10,4 @@ gitpython
 python-frontmatter
 azure-identity
 azure-cognitiveservices-speech
+google-cloud-speech
