@@ -6,21 +6,21 @@ title: 对话音频生成
 translated: true
 ---
 
-我一直在探索AI生成对话的能力，特别是在看到一个关于DeepSeek-V3讨论的YouTube视频后。这让我开始思考如何创建类似的音频对话。我开发了一个使用Google Text-to-Speech和ffmpeg生成并拼接音频片段的过程，模拟自然的来回对话。以下是我一直在研究的代码。
+受到一段关于DeepSeek-V3讨论的YouTube视频启发，我一直在尝试AI生成的对话。我的目标是使用Google文本转语音（Text-to-Speech）和ffmpeg来生成和拼接音频对话，以创造出逼真的音频对话。以下代码概述了我目前模拟自然来回对话的方法。
 
 ## 提示
 
-```
-创建一个自然且扩展的对话，至少包含100轮，对话双方为专家A和B。专家们应深入讨论一个特定话题，对话应流畅地来回进行。双方应提出问题、分享见解，并探讨主题的细微差别。格式如下：
+> 创建两位专家A和B之间的自然且延长的对话，至少包含100轮对话。专家们应深入讨论一个特定话题，对话应流畅地来回进行。两位参与者都应提出问题、分享见解，并探讨主题的细微差别。格式如下：
 
+```json
 [
     {
       "speaker": "A",
-      "line": "嘿，我最近经常听到关于机器学习（ML）、深度学习（DL）和GPT的内容。你能给我解释一下吗？"
+      "line": "嘿，我最近经常听到关于机器学习（ML）、深度学习（DL）和GPT的讨论。你能给我解释一下吗？"
     },
     {
       "speaker": "B",
-      "line": "当然！我们从基础开始。机器学习是计算机科学的一个领域，系统通过数据学习以提高性能，而无需明确编程。可以把它看作是教计算机识别模式。"
+      "line": "当然！我们从基础开始。机器学习是计算机科学的一个领域，系统通过数据学习以提高性能，而无需明确编程。可以把它想象成教计算机识别模式。"
     }
 ]
 ```
@@ -46,8 +46,6 @@ def text_to_speech(text, output_filename, voice_name=None):
     try:
         client = texttospeech.TextToSpeechClient()
         synthesis_input = texttospeech.SynthesisInput(text=text)
-        if not voice_name:
-            voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
         voice = texttospeech.VoiceSelectionParams(language_code="en-US", name=voice_name)
         audio_config = texttospeech.AudioConfig(
             audio_encoding=texttospeech.AudioEncoding.MP3,
@@ -71,7 +69,7 @@ def text_to_speech(text, output_filename, voice_name=None):
                 print(f"等待 {wait_time} 秒后重试...")
                 time.sleep(wait_time)
     except Exception as e:
-        print(f"生成 {output_filename} 音频时出错：{e}")
+        print(f"生成音频时发生错误 {output_filename}：{e}")
         return False
 
 def process_conversation(filename):
@@ -91,8 +89,11 @@ def process_conversation(filename):
 
     temp_files = []
     
-    voice_name_A = random.choice(["en-US-Wavenet-D", "en-US-Wavenet-E", "en-US-Wavenet-F"])
-    voice_name_B = random.choice(["en-US-Studio-O", "en-US-Studio-M", "en-US-Studio-Q"])
+    voice_options = ["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"]
+    voice_name_A = random.choice(voice_options)
+    voice_name_B = random.choice(voice_options)
+    while voice_name_A == voice_name_B:
+        voice_name_B = random.choice(voice_options)
 
     for idx, line_data in enumerate(conversation):
         speaker = line_data.get("speaker")
