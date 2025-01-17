@@ -60,6 +60,10 @@ def process_conversation(filename):
         return
 
     temp_files = []
+    
+    voice_name_A = random.choice(["en-US-Wavenet-D", "en-US-Wavenet-E", "en-US-Wavenet-F"])
+    voice_name_B = random.choice(["en-US-Studio-O", "en-US-Studio-M", "en-US-Studio-Q"])
+
     for idx, line_data in enumerate(conversation):
         speaker = line_data.get("speaker")
         line = line_data.get("line")
@@ -70,9 +74,9 @@ def process_conversation(filename):
         
         voice_name = None
         if speaker == "A":
-            voice_name = random.choice(["en-US-Wavenet-D", "en-US-Wavenet-E", "en-US-Wavenet-F"])
+            voice_name = voice_name_A
         elif speaker == "B":
-            voice_name = random.choice(["en-US-Studio-O", "en-US-Studio-M", "en-US-Studio-Q"])
+            voice_name = voice_name_B
         
         if not text_to_speech(line, temp_file, voice_name=voice_name):
             print(f"Failed to generate audio for line {idx+1} of {filename}")
@@ -90,7 +94,7 @@ def process_conversation(filename):
     concat_file = os.path.join(OUTPUT_DIRECTORY, "concat.txt")
     with open(concat_file, 'w') as f:
         for temp_file in temp_files:
-            f.write(f"file '{temp_file}'\n")
+            f.write(f"file '{os.path.abspath(temp_file)}'\n")
     
     try:
         subprocess.run(
