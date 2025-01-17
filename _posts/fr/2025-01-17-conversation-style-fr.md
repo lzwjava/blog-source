@@ -2,31 +2,30 @@
 audio: true
 lang: fr
 layout: post
-title: Génération Audio de Conversation
+title: Génération audio de conversation
 translated: true
 ---
 
-J'ai exploré les capacités des conversations générées par l'IA, en particulier après avoir vu une vidéo YouTube montrant une discussion sur DeepSeek-V3. Cela m'a fait réfléchir à la manière de créer des conversations audio similaires. J'ai développé un processus utilisant Google Text-to-Speech et ffmpeg pour générer et concaténer des clips audio, simulant un dialogue naturel et fluide. Voici le code sur lequel j'ai travaillé.
+J'ai exploré les capacités des conversations générées par l'IA, en particulier après avoir vu une vidéo YouTube présentant une discussion sur DeepSeek-V3. Cela m'a fait réfléchir à la manière de créer des conversations audio similaires. J'ai développé un processus utilisant Google Text-to-Speech et ffmpeg pour générer et concaténer des clips audio, simulant un dialogue naturel et fluide. Voici le code sur lequel j'ai travaillé.
 
-Prompt :
+## Prompt
 
 ```
-Créez une conversation plus naturelle et étendue entre deux experts, A et B, discutant en détail de DeepSeek-V3. La conversation va et vient, avec les deux participants posant des questions, partageant des idées et plongeant profondément dans les aspects techniques du modèle. La conversation est structurée pour couvrir l'architecture, l'entraînement, les performances et les orientations futures de DeepSeek-V3.
-
+Créez une conversation plus naturelle et étendue entre deux experts, A et B, discutant du sujet ci-dessous. La conversation doit aller et venir, avec les deux participants posant des questions, partageant des idées et approfondissant les sujets.
 
 [
     {
       "speaker": "A",
-      "line": "Hey, j'ai beaucoup entendu parler de Machine Learning (ML), Deep Learning (DL) et GPT récemment. Peux-tu m'expliquer cela en détail ?"
+      "line": "Hé, j'ai beaucoup entendu parler de Machine Learning (ML), Deep Learning (DL) et GPT récemment. Peux-tu m'expliquer cela ?"
     },
     {
       "speaker": "B",
-      "line": "Bien sûr ! Commençons par les bases. Le Machine Learning est un domaine de l'informatique où les systèmes apprennent à partir de données pour améliorer leurs performances sans être explicitement programmés. Imagine cela comme enseigner à un ordinateur à reconnaître des motifs."
+      "line": "Bien sûr ! Commençons par les bases. Le Machine Learning est un domaine de l'informatique où les systèmes apprennent à partir de données pour améliorer leurs performances sans être explicitement programmés. Imagine-le comme enseigner à un ordinateur à reconnaître des motifs."
     }
 ]
 ```
 
-Code :
+## Code
 
 ```python
 import os
@@ -151,4 +150,16 @@ if __name__ == "__main__":
     for filename in os.listdir(INPUT_DIRECTORY):
         if filename.endswith(".json"):
             process_conversation(filename)
+```
+
+## Couverture
+
+```bash
+ffmpeg -i deepseek.jpg -vf "crop=854:480" deepseek_480p_cropped.jpg
+```
+
+## Vidéo
+
+```bash
+ffmpeg -loop 1 -i deepseek.jpg -i deepseek.mp3 -c:v libx264 -tune stillimage -c:a aac -b:a 192k -shortest output_video.mp4
 ```

@@ -9,11 +9,10 @@ translated: false
 
 I've been exploring the capabilities of AI-generated conversations, particularly after seeing a YouTube video showcasing a discussion about DeepSeek-V3. It got me thinking about how to create similar audio conversations. I've developed a process using Google Text-to-Speech and ffmpeg to generate and concatenate audio clips, simulating a natural back-and-forth dialogue. Below is the code I've been working on.
 
-Prompt:
+## Prompt
 
 ```
-Make more natural and extended conversation between two experts, A and B, discussing DeepSeek-V3 in detail. The conversation flows back and forth, with both participants asking questions, sharing insights, and diving deep into the technical aspects of the model. The conversation is structured to cover the architecture, training, performance, and future directions of DeepSeek-V3.
-
+Make more natural and extended conversation between two experts, A and B, discussing below. The conversation flows back and forth, with both participants asking questions, sharing insights, and diving deep into the materials. 
 
 [
     {
@@ -27,7 +26,7 @@ Make more natural and extended conversation between two experts, A and B, discus
 ]
 ```
 
-Code:
+## Code
 
 ```python
 import os
@@ -154,3 +153,14 @@ if __name__ == "__main__":
             process_conversation(filename)
 ```
 
+## Cover
+
+```bash
+ffmpeg -i deepseek.jpg -vf "crop=854:480" deepseek_480p_cropped.jpg
+```
+
+## Video
+
+```bash
+ffmpeg -loop 1 -i deepseek.jpg -i deepseek.mp3 -c:v libx264 -tune stillimage -c:a aac -b:a 192k -shortest output_video.mp4
+```

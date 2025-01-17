@@ -8,25 +8,24 @@ translated: true
 
 Ich habe die Möglichkeiten von KI-generierten Gesprächen erkundet, insbesondere nachdem ich ein YouTube-Video gesehen habe, das eine Diskussion über DeepSeek-V3 zeigte. Das brachte mich dazu, darüber nachzudenken, wie man ähnliche Audio-Gespräche erstellen kann. Ich habe einen Prozess entwickelt, der Google Text-to-Speech und ffmpeg verwendet, um Audioclips zu generieren und zu verketten, wodurch ein natürliches Hin und Her in einem Dialog simuliert wird. Unten ist der Code, an dem ich gearbeitet habe.
 
-Prompt:
+## Prompt
 
 ```
-Erstelle ein natürlicheres und ausführlicheres Gespräch zwischen zwei Experten, A und B, die detailliert über DeepSeek-V3 diskutieren. Das Gespräch fließt hin und her, wobei beide Teilnehmer Fragen stellen, Einblicke teilen und tief in die technischen Aspekte des Modells eintauchen. Das Gespräch ist so strukturiert, dass es die Architektur, das Training, die Leistung und die zukünftigen Richtungen von DeepSeek-V3 abdeckt.
-
+Erstelle eine natürlichere und ausführlichere Konversation zwischen zwei Experten, A und B, die über das Folgende diskutieren. Die Konversation fließt hin und her, wobei beide Teilnehmer Fragen stellen, Einblicke teilen und tief in die Materie eintauchen.
 
 [
     {
       "speaker": "A",
-      "line": "Hey, ich habe in letzter Zeit viel über Machine Learning (ML), Deep Learning (DL) und GPT gehört. Kannst du das für mich aufschlüsseln?"
+      "line": "Hey, ich habe in letzter Zeit viel über Machine Learning (ML), Deep Learning (DL) und GPT gehört. Kannst du mir das erklären?"
     },
     {
       "speaker": "B",
-      "line": "Klar! Lass uns mit den Grundlagen beginnen. Machine Learning ist ein Bereich der Informatik, in dem Systeme aus Daten lernen, um ihre Leistung zu verbessern, ohne explizit programmiert zu werden. Stell es dir so vor, als würdest du einem Computer beibringen, Muster zu erkennen."
+      "line": "Klar! Lass uns mit den Grundlagen beginnen. Machine Learning ist ein Bereich der Informatik, in dem Systeme aus Daten lernen, um ihre Leistung zu verbessern, ohne explizit programmiert zu werden. Stell es dir vor, als würdest du einem Computer beibringen, Muster zu erkennen."
     }
 ]
 ```
 
-Code:
+## Code
 
 ```python
 import os
@@ -38,7 +37,7 @@ import tempfile
 import time
 import argparse
 
-# Fester Ausgabepfad für Gespräche
+# Fester Ausgabepfad für Konversationen
 OUTPUT_DIRECTORY = "assets/conversations"
 INPUT_DIRECTORY = "scripts/conversation"
 
@@ -69,7 +68,7 @@ def text_to_speech(text, output_filename, voice_name=None):
                     print(f"Audio konnte nach {retries} Versuchen nicht generiert werden.")
                     return False
                 wait_time = 2 ** attempt
-                print(f"Warte {wait_time} Sekunden, bevor ein erneuter Versuch unternommen wird...")
+                print(f"Warte {wait_time} Sekunden, bevor erneut versucht wird...")
                 time.sleep(wait_time)
     except Exception as e:
         print(f"Ein Fehler ist aufgetreten beim Generieren von Audio für {output_filename}: {e}")
@@ -110,7 +109,7 @@ def process_conversation(filename):
             voice_name = voice_name_B
         
         if not text_to_speech(line, temp_file, voice_name=voice_name):
-            print(f"Audio für Zeile {idx+1} von {filename} konnte nicht generiert werden")
+            print(f"Fehler beim Generieren von Audio für Zeile {idx+1} von {filename}")
             # Bereinige temporäre Dateien
             for temp_file_to_remove in temp_files:
                 if os.path.exists(temp_file_to_remove):
@@ -135,7 +134,7 @@ def process_conversation(filename):
         )
         print(f"Audio erfolgreich zu {output_filename} verkettet")
     except subprocess.CalledProcessError as e:
-        print(f"Fehler beim Verketten des Audios: {e.stderr.decode()}")
+        print(f"Fehler beim Verketten von Audio: {e.stderr.decode()}")
     finally:
         os.remove(concat_file)
         for temp_file in temp_files:
@@ -151,4 +150,16 @@ if __name__ == "__main__":
     for filename in os.listdir(INPUT_DIRECTORY):
         if filename.endswith(".json"):
             process_conversation(filename)
+```
+
+## Cover
+
+```bash
+ffmpeg -i deepseek.jpg -vf "crop=854:480" deepseek_480p_cropped.jpg
+```
+
+## Video
+
+```bash
+ffmpeg -loop 1 -i deepseek.jpg -i deepseek.mp3 -c:v libx264 -tune stillimage -c:a aac -b:a 192k -shortest output_video.mp4
 ```
