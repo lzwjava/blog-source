@@ -6,17 +6,17 @@ title: 会話音声生成
 translated: true
 ---
 
-私は最近、AIが生成する会話の可能性について探求しています。特に、DeepSeek-V3についての議論を紹介したYouTubeの動画を見た後、そのような音声会話をどのように作成できるか考えていました。GoogleのText-to-Speechとffmpegを使って、自然なやり取りをシミュレートする音声クリップを生成し、連結するプロセスを開発しました。以下は、私が取り組んでいるコードです。
+AI生成の会話の可能性について探求してきました。特に、DeepSeek-V3についての議論を紹介したYouTube動画を見た後、同様の音声会話を作成する方法について考えました。Google Text-to-Speechとffmpegを使用して、自然なやり取りをシミュレートする音声クリップを生成し、連結するプロセスを開発しました。以下に、私が取り組んできたコードを示します。
 
-プロンプト:
+## プロンプト
 
 ```
-DeepSeek-V3について詳しく議論する2人の専門家、AとBの間で、より自然で長い会話を作成してください。会話は双方向に流れ、両者が質問をし、洞察を共有し、モデルの技術的な側面に深く掘り下げます。会話は、DeepSeek-V3のアーキテクチャ、トレーニング、パフォーマンス、そして将来の方向性についてカバーするように構成されています。
+2人の専門家、AとBが以下の内容について議論する、より自然で拡張された会話を作成してください。会話は双方向に流れ、両者が質問をし、洞察を共有し、内容に深く掘り下げます。
 
 [
     {
       "speaker": "A",
-      "line": "最近、機械学習（ML）、ディープラーニング（DL）、そしてGPTについてよく耳にするんだけど、詳しく教えてもらえる？"
+      "line": "最近、機械学習（ML）、深層学習（DL）、そしてGPTについてよく耳にするんだけど、詳しく教えてくれる？"
     },
     {
       "speaker": "B",
@@ -25,7 +25,7 @@ DeepSeek-V3について詳しく議論する2人の専門家、AとBの間で、
 ]
 ```
 
-コード:
+## コード
 
 ```python
 import os
@@ -120,7 +120,7 @@ def process_conversation(filename):
         print(f"{filename} に対して音声が生成されませんでした")
         return
 
-    # ffmpegを使って連結
+    # ffmpegを使用して連結
     concat_file = os.path.join(OUTPUT_DIRECTORY, "concat.txt")
     with open(concat_file, 'w') as f:
         for temp_file in temp_files:
@@ -150,4 +150,16 @@ if __name__ == "__main__":
     for filename in os.listdir(INPUT_DIRECTORY):
         if filename.endswith(".json"):
             process_conversation(filename)
+```
+
+## カバー
+
+```bash
+ffmpeg -i deepseek.jpg -vf "crop=854:480" deepseek_480p_cropped.jpg
+```
+
+## ビデオ
+
+```bash
+ffmpeg -loop 1 -i deepseek.jpg -i deepseek.mp3 -c:v libx264 -tune stillimage -c:a aac -b:a 192k -shortest output_video.mp4
 ```

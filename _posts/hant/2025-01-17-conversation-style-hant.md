@@ -6,27 +6,26 @@ title: 對話音頻生成
 translated: true
 ---
 
-我一直在探索AI生成對話的能力，特別是在看到一個展示DeepSeek-V3討論的YouTube視頻後。這讓我開始思考如何創建類似的音頻對話。我開發了一個使用Google Text-to-Speech和ffmpeg來生成和連接音頻片段的方法，模擬自然的來回對話。以下是我一直在研究的代碼。
+我一直在探索AI生成對話的能力，尤其是在看到一個展示DeepSeek-V3討論的YouTube視頻後。這讓我開始思考如何創建類似的音頻對話。我開發了一個使用Google Text-to-Speech和ffmpeg來生成和拼接音頻片段的方法，模擬自然的來回對話。以下是我一直在研究的代碼。
 
-提示：
+## 提示
 
 ```
-讓兩位專家A和B之間進行更自然和深入的對話，詳細討論DeepSeek-V3。對話來回進行，兩位參與者提出問題、分享見解，並深入探討模型的技術細節。對話結構涵蓋DeepSeek-V3的架構、訓練、性能和未來方向。
-
+讓兩位專家A和B之間進行更自然和深入的對話，討論以下內容。對話來回進行，兩位參與者互相提問、分享見解，並深入探討材料。
 
 [
     {
       "speaker": "A",
-      "line": "嘿，我最近聽到了很多關於機器學習（ML）、深度學習（DL）和GPT的事情。你能給我解釋一下嗎？"
+      "line": "嘿，我最近聽到了很多關於機器學習（ML）、深度學習（DL）和GPT的事情。你能幫我解釋一下嗎？"
     },
     {
       "speaker": "B",
-      "line": "當然！讓我們從基礎開始。機器學習是計算機科學的一個領域，系統通過數據學習來提高性能，而無需明確編程。可以把它看作是教計算機識別模式。"
+      "line": "當然！讓我們從基礎開始。機器學習是計算機科學的一個領域，系統通過數據學習來提高性能，而無需明確編程。你可以把它看作是教計算機識別模式。"
     }
 ]
 ```
 
-代碼：
+## 代碼
 
 ```python
 import os
@@ -38,7 +37,7 @@ import tempfile
 import time
 import argparse
 
-# 固定輸出對話的目錄
+# 固定的對話輸出目錄
 OUTPUT_DIRECTORY = "assets/conversations"
 INPUT_DIRECTORY = "scripts/conversation"
 
@@ -61,18 +60,18 @@ def text_to_speech(text, output_filename, voice_name=None):
                 response = client.synthesize_speech(input=synthesis_input, voice=voice, audio_config=audio_config)
                 with open(output_filename, 'wb') as out:
                     out.write(response.audio_content)
-                print(f"音頻內容寫入 {output_filename}")
+                print(f"音頻內容已寫入 {output_filename}")
                 return True
             except Exception as e:
-                print(f"嘗試 {attempt} 次時出錯：{e}")
+                print(f"第 {attempt} 次嘗試失敗：{e}")
                 if attempt == retries:
                     print(f"在 {retries} 次嘗試後未能生成音頻。")
                     return False
                 wait_time = 2 ** attempt
-                print(f"在 {wait_time} 秒後重試...")
+                print(f"等待 {wait_time} 秒後重試...")
                 time.sleep(wait_time)
     except Exception as e:
-        print(f"生成音頻時出錯 {output_filename}：{e}")
+        print(f"生成音頻時發生錯誤 {output_filename}：{e}")
         return False
 
 def process_conversation(filename):
@@ -87,7 +86,7 @@ def process_conversation(filename):
         with open(filepath, 'r', encoding='utf-8') as f:
             conversation = json.load(f)
     except Exception as e:
-        print(f"加載對話文件 {filename} 時出錯：{e}")
+        print(f"加載對話文件 {filename} 時發生錯誤：{e}")
         return
 
     temp_files = []
@@ -121,7 +120,7 @@ def process_conversation(filename):
         print(f"未生成 {filename} 的音頻")
         return
 
-    # 使用 ffmpeg 連接
+    # 使用 ffmpeg 拼接
     concat_file = os.path.join(OUTPUT_DIRECTORY, "concat.txt")
     with open(concat_file, 'w') as f:
         for temp_file in temp_files:
@@ -133,9 +132,9 @@ def process_conversation(filename):
             check=True,
             capture_output=True
         )
-        print(f"成功連接音頻到 {output_filename}")
+        print(f"成功拼接音頻到 {output_filename}")
     except subprocess.CalledProcessError as e:
-        print(f"連接音頻時出錯：{e.stderr.decode()}")
+        print(f"拼接音頻時發生錯誤：{e.stderr.decode()}")
     finally:
         os.remove(concat_file)
         for temp_file in temp_files:
@@ -151,4 +150,16 @@ if __name__ == "__main__":
     for filename in os.listdir(INPUT_DIRECTORY):
         if filename.endswith(".json"):
             process_conversation(filename)
+```
+
+## 封面
+
+```bash
+ffmpeg -i deepseek.jpg -vf "crop=854:480" deepseek_480p_cropped.jpg
+```
+
+## 視頻
+
+```bash
+ffmpeg -loop 1 -i deepseek.jpg -i deepseek.mp3 -c:v libx264 -tune stillimage -c:a aac -b:a 192k -shortest output_video.mp4
 ```

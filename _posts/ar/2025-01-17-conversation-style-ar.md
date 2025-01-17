@@ -2,30 +2,30 @@
 audio: true
 lang: ar
 layout: post
-title: إنشاء صوت المحادثة
+title: توليد الصوت للمحادثات
 translated: true
 ---
 
-لقد كنت أستكشف إمكانيات المحادثات التي يتم إنشاؤها بواسطة الذكاء الاصطناعي، خاصة بعد مشاهدة مقطع فيديو على YouTube يعرض مناقشة حول DeepSeek-V3. هذا جعلني أفكر في كيفية إنشاء محادثات صوتية مماثلة. لقد قمت بتطوير عملية باستخدام Google Text-to-Speech وffmpeg لتوليد ودمج المقاطع الصوتية، لمحاكاة حوار طبيعي متبادل. أدناه هو الكود الذي كنت أعمل عليه.
+لقد كنت أستكشف إمكانيات المحادثات التي يتم إنشاؤها بواسطة الذكاء الاصطناعي، خاصة بعد مشاهدة مقطع فيديو على YouTube يعرض مناقشة حول DeepSeek-V3. هذا جعلني أفكر في كيفية إنشاء محادثات صوتية مماثلة. لقد قمت بتطوير عملية باستخدام Google Text-to-Speech و ffmpeg لإنشاء ودمج المقاطع الصوتية، لمحاكاة حوار طبيعي متبادل. أدناه هو الكود الذي كنت أعمل عليه.
 
-الطلب:
+## النص
 
 ```
-قم بإنشاء محادثة أكثر طبيعية وممتدة بين خبيرين، A وB، يناقشان DeepSeek-V3 بتفصيل. تتدفق المحادثة ذهابًا وإيابًا، حيث يطرح كلا المشاركين الأسئلة ويشاركان الرؤى ويغوصان في الجوانب التقنية للنموذج. يتم تنظيم المحادثة لتغطية بنية النموذج، التدريب، الأداء، والاتجاهات المستقبلية لـ DeepSeek-V3.
+قم بإنشاء محادثة أكثر طبيعية وممتدة بين خبيرين، A و B، يناقشان الموضوع التالي. تتدفق المحادثة ذهابًا وإيابًا، حيث يطرح كلا المشاركين الأسئلة، ويشاركان الأفكار، ويغوصان بعمق في الموضوع.
 
 [
     {
       "speaker": "A",
-      "line": "مرحبًا، لقد كنت أسمع الكثير عن تعلم الآلة (ML)، التعلم العميق (DL)، و GPT مؤخرًا. هل يمكنك أن تشرحها لي؟"
+      "line": "مرحبًا، لقد كنت أسمع الكثير عن التعلم الآلي (ML)، والتعلم العميق (DL)، و GPT مؤخرًا. هل يمكنك أن تشرحها لي؟"
     },
     {
       "speaker": "B",
-      "line": "بالتأكيد! لنبدأ بالأساسيات. تعلم الآلة هو مجال من مجالات علوم الكمبيوتر حيث تتعلم الأنظمة من البيانات لتحسين أدائها دون أن يتم برمجتها بشكل صريح. فكر في الأمر على أنه تعليم الكمبيوتر للتعرف على الأنماط."
+      "line": "بالتأكيد! لنبدأ بالأساسيات. التعلم الآلي هو مجال من مجالات علوم الكمبيوتر حيث تتعلم الأنظمة من البيانات لتحسين أدائها دون أن يتم برمجتها بشكل صريح. فكر في الأمر على أنه تعليم الكمبيوتر للتعرف على الأنماط."
     }
 ]
 ```
 
-الكود:
+## الكود
 
 ```python
 import os
@@ -42,7 +42,7 @@ OUTPUT_DIRECTORY = "assets/conversations"
 INPUT_DIRECTORY = "scripts/conversation"
 
 def text_to_speech(text, output_filename, voice_name=None):
-    print(f"جارٍ توليد الصوت لـ: {output_filename}")
+    print(f"جارٍ إنشاء الصوت لـ: {output_filename}")
     try:
         client = texttospeech.TextToSpeechClient()
         synthesis_input = texttospeech.SynthesisInput(text=text)
@@ -63,15 +63,15 @@ def text_to_speech(text, output_filename, voice_name=None):
                 print(f"تم كتابة المحتوى الصوتي إلى {output_filename}")
                 return True
             except Exception as e:
-                print(f"خطأ في المحاولة {attempt}: {e}")
+                print(f"حدث خطأ في المحاولة {attempt}: {e}")
                 if attempt == retries:
-                    print(f"فشل في توليد الصوت بعد {retries} محاولات.")
+                    print(f"فشل في إنشاء الصوت بعد {retries} محاولات.")
                     return False
                 wait_time = 2 ** attempt
-                print(f"إعادة المحاولة في {wait_time} ثوانٍ...")
+                print(f"إعادة المحاولة بعد {wait_time} ثوانٍ...")
                 time.sleep(wait_time)
     except Exception as e:
-        print(f"حدث خطأ أثناء توليد الصوت لـ {output_filename}: {e}")
+        print(f"حدث خطأ أثناء إنشاء الصوت لـ {output_filename}: {e}")
         return False
 
 def process_conversation(filename):
@@ -79,14 +79,14 @@ def process_conversation(filename):
     output_filename = os.path.join(OUTPUT_DIRECTORY, os.path.splitext(filename)[0] + ".mp3")
 
     if os.path.exists(output_filename):
-        print(f"الملف الصوتي موجود بالفعل: {output_filename}")
+        print(f"ملف الصوت موجود بالفعل: {output_filename}")
         return
 
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             conversation = json.load(f)
     except Exception as e:
-        print(f"خطأ في تحميل ملف المحادثة {filename}: {e}")
+        print(f"حدث خطأ أثناء تحميل ملف المحادثة {filename}: {e}")
         return
 
     temp_files = []
@@ -109,7 +109,7 @@ def process_conversation(filename):
             voice_name = voice_name_B
         
         if not text_to_speech(line, temp_file, voice_name=voice_name):
-            print(f"فشل في توليد الصوت للسطر {idx+1} من {filename}")
+            print(f"فشل في إنشاء الصوت للسطر {idx+1} من {filename}")
             # تنظيف الملفات المؤقتة
             for temp_file_to_remove in temp_files:
                 if os.path.exists(temp_file_to_remove):
@@ -117,7 +117,7 @@ def process_conversation(filename):
             return
 
     if not temp_files:
-        print(f"لم يتم توليد أي صوت لـ {filename}")
+        print(f"لم يتم إنشاء أي صوت لـ {filename}")
         return
 
     # الدمج باستخدام ffmpeg
@@ -132,9 +132,9 @@ def process_conversation(filename):
             check=True,
             capture_output=True
         )
-        print(f"تم دمج الصوت بنجاح في {output_filename}")
+        print(f"تم دمج الصوت بنجاح إلى {output_filename}")
     except subprocess.CalledProcessError as e:
-        print(f"خطأ في دمج الصوت: {e.stderr.decode()}")
+        print(f"حدث خطأ أثناء دمج الصوت: {e.stderr.decode()}")
     finally:
         os.remove(concat_file)
         for temp_file in temp_files:
@@ -142,7 +142,7 @@ def process_conversation(filename):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="معالجة ملفات JSON للمحادثات لتوليد الصوت.")
+    parser = argparse.ArgumentParser(description="معالجة ملفات المحادثة JSON لإنشاء الصوت.")
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
@@ -150,4 +150,16 @@ if __name__ == "__main__":
     for filename in os.listdir(INPUT_DIRECTORY):
         if filename.endswith(".json"):
             process_conversation(filename)
+```
+
+## الغلاف
+
+```bash
+ffmpeg -i deepseek.jpg -vf "crop=854:480" deepseek_480p_cropped.jpg
+```
+
+## الفيديو
+
+```bash
+ffmpeg -loop 1 -i deepseek.jpg -i deepseek.mp3 -c:v libx264 -tune stillimage -c:a aac -b:a 192k -shortest output_video.mp4
 ```
