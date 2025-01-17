@@ -4,10 +4,6 @@ title: "ML, DL, and GPT"
 audio: true  
 ---
 
-*This post was written with ChatGPT.*
-
----
-
 1. Machine Learning (ML) is a field of computer science that enables systems to learn from data and improve their performance without explicit programming.
 
 2. Deep Learning (DL) is a subfield of ML that utilizes multi-layered neural networks to model complex patterns in data.
