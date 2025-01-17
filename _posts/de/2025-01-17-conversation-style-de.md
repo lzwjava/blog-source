@@ -11,7 +11,7 @@ Ich habe die Möglichkeiten von KI-generierten Gesprächen erkundet, insbesonder
 ## Prompt
 
 ```
-Erstelle eine natürlichere und ausführlichere Konversation zwischen zwei Experten, A und B, die über das Folgende diskutieren. Die Konversation fließt hin und her, wobei beide Teilnehmer Fragen stellen, Einblicke teilen und tief in die Materie eintauchen.
+Erstelle ein natürliches und ausführliches Gespräch zwischen zwei Experten, A und B, mit mindestens 100 Wechseln. Die Experten sollten ein spezifisches Thema ausführlich diskutieren, wobei das Gespräch hin und her fließt. Beide Teilnehmer sollten Fragen stellen, Einblicke teilen und die Nuancen des Themas erkunden. Das Format sollte wie folgt aussehen:
 
 [
     {
@@ -37,7 +37,7 @@ import tempfile
 import time
 import argparse
 
-# Fester Ausgabepfad für Konversationen
+# Fester Ausgabepfad für Gespräche
 OUTPUT_DIRECTORY = "assets/conversations"
 INPUT_DIRECTORY = "scripts/conversation"
 
@@ -109,7 +109,7 @@ def process_conversation(filename):
             voice_name = voice_name_B
         
         if not text_to_speech(line, temp_file, voice_name=voice_name):
-            print(f"Fehler beim Generieren von Audio für Zeile {idx+1} von {filename}")
+            print(f"Audio für Zeile {idx+1} von {filename} konnte nicht generiert werden")
             # Bereinige temporäre Dateien
             for temp_file_to_remove in temp_files:
                 if os.path.exists(temp_file_to_remove):
