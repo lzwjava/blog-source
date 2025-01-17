@@ -5,8 +5,6 @@ layout: post
 title: AI Papers
 ---
 
-Here are some notable papers and resources, categorized for clarity:
-
 Foundational Concepts & Architectures:
 
 * Backpropagation: The fundamental algorithm for training neural networks.
