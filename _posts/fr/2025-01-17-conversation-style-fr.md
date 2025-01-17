@@ -6,21 +6,21 @@ title: Génération Audio de Conversation
 translated: true
 ---
 
-J'ai exploré les capacités des conversations générées par l'IA, en particulier après avoir vu une vidéo YouTube montrant une discussion sur DeepSeek-V3. Cela m'a fait réfléchir à la manière de créer des conversations audio similaires. J'ai développé un processus utilisant Google Text-to-Speech et ffmpeg pour générer et concaténer des clips audio, simulant un dialogue naturel. Voici le code sur lequel j'ai travaillé.
+Inspiré par une vidéo YouTube présentant une discussion sur DeepSeek-V3, j'ai expérimenté avec des conversations générées par IA. Mon objectif est de créer des dialogues audio réalistes en utilisant Google Text-to-Speech et ffmpeg pour la génération et la concaténation audio. Le code suivant décrit mon approche actuelle pour simuler une conversation naturelle.
 
 ## Prompt
 
-```
-Créez une conversation naturelle et étendue entre deux experts, A et B, avec au moins 100 échanges. Les experts devraient discuter d'un sujet spécifique en profondeur, avec une conversation fluide. Les deux participants devraient poser des questions, partager des idées et explorer les nuances du sujet. Le format devrait être le suivant :
+> Créez une conversation naturelle et approfondie entre deux experts, A et B, avec au moins 100 échanges. Les experts doivent discuter d'un sujet spécifique en profondeur, avec une conversation fluide et interactive. Les deux participants doivent poser des questions, partager des idées et explorer les nuances du sujet. Le format doit être le suivant :
 
+```json
 [
     {
       "speaker": "A",
-      "line": "Salut, j'ai beaucoup entendu parler de l'apprentissage automatique (ML), de l'apprentissage profond (DL) et de GPT récemment. Peux-tu m'expliquer cela ?"
+      "line": "Hé, j'ai beaucoup entendu parler de Machine Learning (ML), Deep Learning (DL) et GPT récemment. Peux-tu m'expliquer cela ?"
     },
     {
       "speaker": "B",
-      "line": "Bien sûr ! Commençons par les bases. L'apprentissage automatique est un domaine de l'informatique où les systèmes apprennent à partir de données pour améliorer leurs performances sans être explicitement programmés. Imagine-le comme enseigner à un ordinateur à reconnaître des motifs."
+      "line": "Bien sûr ! Commençons par les bases. Le Machine Learning est un domaine de l'informatique où les systèmes apprennent à partir de données pour améliorer leurs performances sans être explicitement programmés. Imagine-le comme enseigner à un ordinateur à reconnaître des motifs."
     }
 ]
 ```
@@ -42,12 +42,10 @@ OUTPUT_DIRECTORY = "assets/conversations"
 INPUT_DIRECTORY = "scripts/conversation"
 
 def text_to_speech(text, output_filename, voice_name=None):
-    print(f"Génération de l'audio pour : {output_filename}")
+    print(f"Génération audio pour : {output_filename}")
     try:
         client = texttospeech.TextToSpeechClient()
         synthesis_input = texttospeech.SynthesisInput(text=text)
-        if not voice_name:
-            voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
         voice = texttospeech.VoiceSelectionParams(language_code="en-US", name=voice_name)
         audio_config = texttospeech.AudioConfig(
             audio_encoding=texttospeech.AudioEncoding.MP3,
@@ -65,13 +63,13 @@ def text_to_speech(text, output_filename, voice_name=None):
             except Exception as e:
                 print(f"Erreur lors de la tentative {attempt} : {e}")
                 if attempt == retries:
-                    print(f"Échec de la génération de l'audio après {retries} tentatives.")
+                    print(f"Échec de la génération audio après {retries} tentatives.")
                     return False
                 wait_time = 2 ** attempt
                 print(f"Nouvelle tentative dans {wait_time} secondes...")
                 time.sleep(wait_time)
     except Exception as e:
-        print(f"Une erreur s'est produite lors de la génération de l'audio pour {output_filename} : {e}")
+        print(f"Une erreur s'est produite lors de la génération audio pour {output_filename} : {e}")
         return False
 
 def process_conversation(filename):
@@ -91,8 +89,11 @@ def process_conversation(filename):
 
     temp_files = []
     
-    voice_name_A = random.choice(["en-US-Wavenet-D", "en-US-Wavenet-E", "en-US-Wavenet-F"])
-    voice_name_B = random.choice(["en-US-Studio-O", "en-US-Studio-M", "en-US-Studio-Q"])
+    voice_options = ["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"]
+    voice_name_A = random.choice(voice_options)
+    voice_name_B = random.choice(voice_options)
+    while voice_name_A == voice_name_B:
+        voice_name_B = random.choice(voice_options)
 
     for idx, line_data in enumerate(conversation):
         speaker = line_data.get("speaker")
@@ -109,7 +110,7 @@ def process_conversation(filename):
             voice_name = voice_name_B
         
         if not text_to_speech(line, temp_file, voice_name=voice_name):
-            print(f"Échec de la génération de l'audio pour la ligne {idx+1} de {filename}")
+            print(f"Échec de la génération audio pour la ligne {idx+1} de {filename}")
             # Nettoyage des fichiers temporaires
             for temp_file_to_remove in temp_files:
                 if os.path.exists(temp_file_to_remove):
@@ -132,9 +133,9 @@ def process_conversation(filename):
             check=True,
             capture_output=True
         )
-        print(f"Audio concaténé avec succès dans {output_filename}")
+        print(f"Concaténation audio réussie dans {output_filename}")
     except subprocess.CalledProcessError as e:
-        print(f"Erreur lors de la concaténation de l'audio : {e.stderr.decode()}")
+        print(f"Erreur lors de la concaténation audio : {e.stderr.decode()}")
     finally:
         os.remove(concat_file)
         for temp_file in temp_files:
@@ -152,7 +153,7 @@ if __name__ == "__main__":
             process_conversation(filename)
 ```
 
-## Cover
+## Couverture
 
 ```bash
 ffmpeg -i deepseek.jpg -vf "crop=854:480" deepseek_480p_cropped.jpg

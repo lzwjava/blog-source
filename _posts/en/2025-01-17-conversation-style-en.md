@@ -7,13 +7,13 @@ translated: false
 ---
 
 
-I've been exploring the capabilities of AI-generated conversations, particularly after seeing a YouTube video showcasing a discussion about DeepSeek-V3. It got me thinking about how to create similar audio conversations. I've developed a process using Google Text-to-Speech and ffmpeg to generate and concatenate audio clips, simulating a natural back-and-forth dialogue. Below is the code I've been working on.
+Inspired by a YouTube video featuring a discussion about DeepSeek-V3, I've been experimenting with AI-generated conversations. My goal is to create realistic audio dialogues using Google Text-to-Speech and ffmpeg for audio generation and concatenation. The following code outlines my current approach to simulating a natural back-and-forth conversation.
 
 ## Prompt
 
-```
-Create a natural and extended conversation between two experts, A and B, with at least 100 turns. The experts should discuss a specific topic in depth, with the conversation flowing back and forth. Both participants should ask questions, share insights, and explore the nuances of the subject matter. The format should be as follows:
+> Create a natural and extended conversation between two experts, A and B, with at least 100 turns. The experts should discuss a specific topic in depth, with the conversation flowing back and forth. Both participants should ask questions, share insights, and explore the nuances of the subject matter. The format should be as follows:
 
+```json
 [
     {
       "speaker": "A",
@@ -47,8 +47,6 @@ def text_to_speech(text, output_filename, voice_name=None):
     try:
         client = texttospeech.TextToSpeechClient()
         synthesis_input = texttospeech.SynthesisInput(text=text)
-        if not voice_name:
-            voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
         voice = texttospeech.VoiceSelectionParams(language_code="en-US", name=voice_name)
         audio_config = texttospeech.AudioConfig(
             audio_encoding=texttospeech.AudioEncoding.MP3,
@@ -92,8 +90,11 @@ def process_conversation(filename):
 
     temp_files = []
     
-    voice_name_A = random.choice(["en-US-Wavenet-D", "en-US-Wavenet-E", "en-US-Wavenet-F"])
-    voice_name_B = random.choice(["en-US-Studio-O", "en-US-Studio-M", "en-US-Studio-Q"])
+    voice_options = ["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"]
+    voice_name_A = random.choice(voice_options)
+    voice_name_B = random.choice(voice_options)
+    while voice_name_A == voice_name_B:
+        voice_name_B = random.choice(voice_options)
 
     for idx, line_data in enumerate(conversation):
         speaker = line_data.get("speaker")

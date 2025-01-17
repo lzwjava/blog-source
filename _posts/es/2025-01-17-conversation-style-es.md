@@ -6,17 +6,17 @@ title: Generación de Audio para Conversaciones
 translated: true
 ---
 
-He estado explorando las capacidades de las conversaciones generadas por IA, especialmente después de ver un video en YouTube que mostraba una discusión sobre DeepSeek-V3. Esto me hizo pensar en cómo crear conversaciones de audio similares. He desarrollado un proceso utilizando Google Text-to-Speech y ffmpeg para generar y concatenar clips de audio, simulando un diálogo natural de ida y vuelta. A continuación, se muestra el código en el que he estado trabajando.
+Inspirado por un video de YouTube que presentaba una discusión sobre DeepSeek-V3, he estado experimentando con conversaciones generadas por IA. Mi objetivo es crear diálogos de audio realistas utilizando Google Text-to-Speech y ffmpeg para la generación y concatenación de audio. El siguiente código describe mi enfoque actual para simular una conversación natural de ida y vuelta.
 
-## Prompt
+## Indicación
 
-```
-Crea una conversación natural y extensa entre dos expertos, A y B, con al menos 100 turnos. Los expertos deben discutir un tema específico en profundidad, con la conversación fluyendo de un lado a otro. Ambos participantes deben hacer preguntas, compartir ideas y explorar los matices del tema. El formato debe ser el siguiente:
+> Crea una conversación natural y extensa entre dos expertos, A y B, con al menos 100 turnos. Los expertos deben discutir un tema específico en profundidad, con la conversación fluyendo de un lado a otro. Ambos participantes deben hacer preguntas, compartir ideas y explorar los matices del tema. El formato debe ser el siguiente:
 
+```json
 [
     {
       "speaker": "A",
-      "line": "Hola, he estado escuchando mucho sobre Machine Learning (ML), Deep Learning (DL) y GPT últimamente. ¿Puedes explicármelo?"
+      "line": "Oye, he estado escuchando mucho sobre Machine Learning (ML), Deep Learning (DL) y GPT últimamente. ¿Puedes explicármelo?"
     },
     {
       "speaker": "B",
@@ -46,8 +46,6 @@ def text_to_speech(text, output_filename, voice_name=None):
     try:
         client = texttospeech.TextToSpeechClient()
         synthesis_input = texttospeech.SynthesisInput(text=text)
-        if not voice_name:
-            voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
         voice = texttospeech.VoiceSelectionParams(language_code="en-US", name=voice_name)
         audio_config = texttospeech.AudioConfig(
             audio_encoding=texttospeech.AudioEncoding.MP3,
@@ -65,7 +63,7 @@ def text_to_speech(text, output_filename, voice_name=None):
             except Exception as e:
                 print(f"Error en el intento {intento}: {e}")
                 if intento == reintentos:
-                    print(f"Error al generar audio después de {reintentos} intentos.")
+                    print(f"Fallo al generar audio después de {reintentos} intentos.")
                     return False
                 tiempo_espera = 2 ** intento
                 print(f"Reintentando en {tiempo_espera} segundos...")
@@ -91,25 +89,28 @@ def process_conversation(filename):
 
     archivos_temporales = []
     
-    voice_name_A = random.choice(["en-US-Wavenet-D", "en-US-Wavenet-E", "en-US-Wavenet-F"])
-    voice_name_B = random.choice(["en-US-Studio-O", "en-US-Studio-M", "en-US-Studio-Q"])
+    opciones_voz = ["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"]
+    voz_A = random.choice(opciones_voz)
+    voz_B = random.choice(opciones_voz)
+    while voz_A == voz_B:
+        voz_B = random.choice(opciones_voz)
 
-    for idx, line_data in enumerate(conversation):
-        speaker = line_data.get("speaker")
-        line = line_data.get("line")
-        if not line:
+    for idx, linea_datos in enumerate(conversacion):
+        speaker = linea_datos.get("speaker")
+        linea = linea_datos.get("line")
+        if not linea:
             continue
         archivo_temporal = os.path.join(OUTPUT_DIRECTORY, f"temp_{idx}.mp3")
         archivos_temporales.append(archivo_temporal)
         
-        voice_name = None
+        voz_nombre = None
         if speaker == "A":
-            voice_name = voice_name_A
+            voz_nombre = voz_A
         elif speaker == "B":
-            voice_name = voice_name_B
+            voz_nombre = voz_B
         
-        if not text_to_speech(line, archivo_temporal, voice_name=voice_name):
-            print(f"Error al generar audio para la línea {idx+1} de {filename}")
+        if not text_to_speech(linea, archivo_temporal, voice_name=voz_nombre):
+            print(f"Fallo al generar audio para la línea {idx+1} de {filename}")
             # Limpiar archivos temporales
             for archivo_a_eliminar in archivos_temporales:
                 if os.path.exists(archivo_a_eliminar):

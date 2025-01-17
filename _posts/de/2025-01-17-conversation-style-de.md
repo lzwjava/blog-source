@@ -6,13 +6,13 @@ title: Konversations-Audio-Generierung
 translated: true
 ---
 
-Ich habe die Möglichkeiten von KI-generierten Gesprächen erkundet, insbesondere nachdem ich ein YouTube-Video gesehen habe, das eine Diskussion über DeepSeek-V3 zeigte. Das brachte mich dazu, darüber nachzudenken, wie man ähnliche Audio-Gespräche erstellen kann. Ich habe einen Prozess entwickelt, der Google Text-to-Speech und ffmpeg verwendet, um Audioclips zu generieren und zu verketten, wodurch ein natürliches Hin und Her in einem Dialog simuliert wird. Unten ist der Code, an dem ich gearbeitet habe.
+Inspiriert von einem YouTube-Video, das eine Diskussion über DeepSeek-V3 zeigte, habe ich mit KI-generierten Gesprächen experimentiert. Mein Ziel ist es, realistische Audio-Dialoge mit Google Text-to-Speech und ffmpeg für die Audio-Generierung und -Verkettung zu erstellen. Der folgende Code skizziert meinen aktuellen Ansatz, um ein natürliches Hin-und-Her-Gespräch zu simulieren.
 
 ## Prompt
 
-```
-Erstelle ein natürliches und ausführliches Gespräch zwischen zwei Experten, A und B, mit mindestens 100 Wechseln. Die Experten sollten ein spezifisches Thema ausführlich diskutieren, wobei das Gespräch hin und her fließt. Beide Teilnehmer sollten Fragen stellen, Einblicke teilen und die Nuancen des Themas erkunden. Das Format sollte wie folgt aussehen:
+> Erstelle ein natürliches und ausführliches Gespräch zwischen zwei Experten, A und B, mit mindestens 100 Wechseln. Die Experten sollten ein spezifisches Thema ausführlich diskutieren, wobei das Gespräch hin und her fließen sollte. Beide Teilnehmer sollten Fragen stellen, Einblicke teilen und die Nuancen des Themas erkunden. Das Format sollte wie folgt aussehen:
 
+```json
 [
     {
       "speaker": "A",
@@ -20,7 +20,7 @@ Erstelle ein natürliches und ausführliches Gespräch zwischen zwei Experten, A
     },
     {
       "speaker": "B",
-      "line": "Klar! Lass uns mit den Grundlagen beginnen. Machine Learning ist ein Bereich der Informatik, in dem Systeme aus Daten lernen, um ihre Leistung zu verbessern, ohne explizit programmiert zu werden. Stell es dir vor, als würdest du einem Computer beibringen, Muster zu erkennen."
+      "line": "Klar! Fangen wir mit den Grundlagen an. Machine Learning ist ein Bereich der Informatik, in dem Systeme aus Daten lernen, um ihre Leistung zu verbessern, ohne explizit programmiert zu werden. Stell es dir so vor, als würdest du einem Computer beibringen, Muster zu erkennen."
     }
 ]
 ```
@@ -46,8 +46,6 @@ def text_to_speech(text, output_filename, voice_name=None):
     try:
         client = texttospeech.TextToSpeechClient()
         synthesis_input = texttospeech.SynthesisInput(text=text)
-        if not voice_name:
-            voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
         voice = texttospeech.VoiceSelectionParams(language_code="en-US", name=voice_name)
         audio_config = texttospeech.AudioConfig(
             audio_encoding=texttospeech.AudioEncoding.MP3,
@@ -65,13 +63,13 @@ def text_to_speech(text, output_filename, voice_name=None):
             except Exception as e:
                 print(f"Fehler bei Versuch {attempt}: {e}")
                 if attempt == retries:
-                    print(f"Audio konnte nach {retries} Versuchen nicht generiert werden.")
+                    print(f"Audio-Generierung nach {retries} Versuchen fehlgeschlagen.")
                     return False
                 wait_time = 2 ** attempt
                 print(f"Warte {wait_time} Sekunden, bevor erneut versucht wird...")
                 time.sleep(wait_time)
     except Exception as e:
-        print(f"Ein Fehler ist aufgetreten beim Generieren von Audio für {output_filename}: {e}")
+        print(f"Ein Fehler ist bei der Audio-Generierung für {output_filename} aufgetreten: {e}")
         return False
 
 def process_conversation(filename):
@@ -86,13 +84,16 @@ def process_conversation(filename):
         with open(filepath, 'r', encoding='utf-8') as f:
             conversation = json.load(f)
     except Exception as e:
-        print(f"Fehler beim Laden der Konversationsdatei {filename}: {e}")
+        print(f"Fehler beim Laden der Gesprächsdatei {filename}: {e}")
         return
 
     temp_files = []
     
-    voice_name_A = random.choice(["en-US-Wavenet-D", "en-US-Wavenet-E", "en-US-Wavenet-F"])
-    voice_name_B = random.choice(["en-US-Studio-O", "en-US-Studio-M", "en-US-Studio-Q"])
+    voice_options = ["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"]
+    voice_name_A = random.choice(voice_options)
+    voice_name_B = random.choice(voice_options)
+    while voice_name_A == voice_name_B:
+        voice_name_B = random.choice(voice_options)
 
     for idx, line_data in enumerate(conversation):
         speaker = line_data.get("speaker")
@@ -109,7 +110,7 @@ def process_conversation(filename):
             voice_name = voice_name_B
         
         if not text_to_speech(line, temp_file, voice_name=voice_name):
-            print(f"Audio für Zeile {idx+1} von {filename} konnte nicht generiert werden")
+            print(f"Audio-Generierung für Zeile {idx+1} von {filename} fehlgeschlagen")
             # Bereinige temporäre Dateien
             for temp_file_to_remove in temp_files:
                 if os.path.exists(temp_file_to_remove):
@@ -120,7 +121,7 @@ def process_conversation(filename):
         print(f"Kein Audio für {filename} generiert")
         return
 
-    # Verkette mit ffmpeg
+    # Verkettung mit ffmpeg
     concat_file = os.path.join(OUTPUT_DIRECTORY, "concat.txt")
     with open(concat_file, 'w') as f:
         for temp_file in temp_files:
@@ -134,7 +135,7 @@ def process_conversation(filename):
         )
         print(f"Audio erfolgreich zu {output_filename} verkettet")
     except subprocess.CalledProcessError as e:
-        print(f"Fehler beim Verketten von Audio: {e.stderr.decode()}")
+        print(f"Fehler bei der Audio-Verkettung: {e.stderr.decode()}")
     finally:
         os.remove(concat_file)
         for temp_file in temp_files:

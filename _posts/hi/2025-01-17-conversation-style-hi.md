@@ -6,13 +6,13 @@ title: संवाद ऑडियो जनरेशन
 translated: true
 ---
 
-मैं AI-जनित वार्तालापों की क्षमताओं का पता लगा रहा हूं, खासकर DeepSeek-V3 के बारे में एक YouTube वीडियो देखने के बाद। इसने मुझे सोचने पर मजबूर कर दिया कि इसी तरह के ऑडियो वार्तालाप कैसे बनाए जा सकते हैं। मैंने Google Text-to-Speech और ffmpeg का उपयोग करके ऑडियो क्लिप्स को जनरेट और जोड़ने की एक प्रक्रिया विकसित की है, जो एक प्राकृतिक आगे-पीछे वार्तालाप का अनुकरण करती है। नीचे वह कोड है जिस पर मैं काम कर रहा हूं।
+DeepSeek-V3 के बारे में एक YouTube वीडियो से प्रेरित होकर, मैं AI-जनित वार्तालापों के साथ प्रयोग कर रहा हूँ। मेरा लक्ष्य Google Text-to-Speech और ffmpeg का उपयोग करके यथार्थवादी ऑडियो संवाद बनाना है। निम्नलिखित कोड मेरे वर्तमान दृष्टिकोण को दर्शाता है जो एक प्राकृतिक आगे-पीछे वार्तालाप का अनुकरण करता है।
 
 ## प्रॉम्प्ट
 
-```
-दो विशेषज्ञों, A और B, के बीच एक प्राकृतिक और विस्तृत वार्तालाप बनाएं, जिसमें कम से कम 100 बारी हो। विशेषज्ञों को किसी विशिष्ट विषय पर गहराई से चर्चा करनी चाहिए, जिसमें वार्तालाप आगे-पीछे बहता रहे। दोनों प्रतिभागियों को प्रश्न पूछने चाहिए, अंतर्दृष्टि साझा करनी चाहिए, और विषय की बारीकियों का पता लगाना चाहिए। प्रारूप निम्नलिखित होना चाहिए:
+> दो विशेषज्ञों, A और B, के बीच एक प्राकृतिक और विस्तृत वार्तालाप बनाएं, जिसमें कम से कम 100 बारी हों। विशेषज्ञों को किसी विशिष्ट विषय पर गहराई से चर्चा करनी चाहिए, जिसमें वार्तालाप आगे-पीछे बहता रहे। दोनों प्रतिभागियों को प्रश्न पूछने, अंतर्दृष्टि साझा करने और विषय की बारीकियों का पता लगाना चाहिए। प्रारूप निम्नलिखित होना चाहिए:
 
+```json
 [
     {
       "speaker": "A",
@@ -20,7 +20,7 @@ translated: true
     },
     {
       "speaker": "B",
-      "line": "ज़रूर! चलिए मूल बातों से शुरू करते हैं। Machine Learning कंप्यूटर विज्ञान का एक क्षेत्र है जहां सिस्टम डेटा से सीखकर अपने प्रदर्शन को बेहतर बनाते हैं बिना स्पष्ट रूप से प्रोग्राम किए गए। इसे कंप्यूटर को पैटर्न पहचानना सिखाने के रूप में सोचें।"
+      "line": "ज़रूर! चलिए मूल बातों से शुरू करते हैं। Machine Learning कंप्यूटर विज्ञान का एक क्षेत्र है जहां सिस्टम डेटा से सीखकर अपने प्रदर्शन को सुधारते हैं बिना स्पष्ट रूप से प्रोग्राम किए गए। इसे एक कंप्यूटर को पैटर्न पहचानने के लिए सिखाने के रूप में सोचें।"
     }
 ]
 ```
@@ -42,12 +42,10 @@ OUTPUT_DIRECTORY = "assets/conversations"
 INPUT_DIRECTORY = "scripts/conversation"
 
 def text_to_speech(text, output_filename, voice_name=None):
-    print(f"ऑडियो जनरेट कर रहा हूं: {output_filename}")
+    print(f"ऑडियो जनरेट कर रहा हूँ: {output_filename}")
     try:
         client = texttospeech.TextToSpeechClient()
         synthesis_input = texttospeech.SynthesisInput(text=text)
-        if not voice_name:
-            voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
         voice = texttospeech.VoiceSelectionParams(language_code="en-US", name=voice_name)
         audio_config = texttospeech.AudioConfig(
             audio_encoding=texttospeech.AudioEncoding.MP3,
@@ -65,10 +63,10 @@ def text_to_speech(text, output_filename, voice_name=None):
             except Exception as e:
                 print(f"प्रयास {attempt} पर त्रुटि: {e}")
                 if attempt == retries:
-                    print(f"{retries} प्रयासों के बाद भी ऑडियो जनरेट करने में विफल।")
+                    print(f"{retries} प्रयासों के बाद ऑडियो जनरेट करने में विफल।")
                     return False
                 wait_time = 2 ** attempt
-                print(f"{wait_time} सेकंड में पुनः प्रयास कर रहा हूं...")
+                print(f"{wait_time} सेकंड में पुनः प्रयास कर रहा हूँ...")
                 time.sleep(wait_time)
     except Exception as e:
         print(f"{output_filename} के लिए ऑडियो जनरेट करते समय एक त्रुटि हुई: {e}")
@@ -91,8 +89,11 @@ def process_conversation(filename):
 
     temp_files = []
     
-    voice_name_A = random.choice(["en-US-Wavenet-D", "en-US-Wavenet-E", "en-US-Wavenet-F"])
-    voice_name_B = random.choice(["en-US-Studio-O", "en-US-Studio-M", "en-US-Studio-Q"])
+    voice_options = ["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"]
+    voice_name_A = random.choice(voice_options)
+    voice_name_B = random.choice(voice_options)
+    while voice_name_A == voice_name_B:
+        voice_name_B = random.choice(voice_options)
 
     for idx, line_data in enumerate(conversation):
         speaker = line_data.get("speaker")
@@ -110,7 +111,7 @@ def process_conversation(filename):
         
         if not text_to_speech(line, temp_file, voice_name=voice_name):
             print(f"{filename} की लाइन {idx+1} के लिए ऑडियो जनरेट करने में विफल")
-            # टेम्प फ़ाइलों को साफ़ करें
+            # अस्थायी फ़ाइलों को साफ़ करें
             for temp_file_to_remove in temp_files:
                 if os.path.exists(temp_file_to_remove):
                     os.remove(temp_file_to_remove)
@@ -120,7 +121,7 @@ def process_conversation(filename):
         print(f"{filename} के लिए कोई ऑडियो जनरेट नहीं हुआ")
         return
 
-    # ffmpeg का उपयोग करके जोड़ें
+    # ffmpeg का उपयोग करके संयोजन
     concat_file = os.path.join(OUTPUT_DIRECTORY, "concat.txt")
     with open(concat_file, 'w') as f:
         for temp_file in temp_files:
@@ -132,9 +133,9 @@ def process_conversation(filename):
             check=True,
             capture_output=True
         )
-        print(f"ऑडियो को सफलतापूर्वक {output_filename} में जोड़ा गया")
+        print(f"ऑडियो को सफलतापूर्वक संयोजित करके {output_filename} में सहेजा गया")
     except subprocess.CalledProcessError as e:
-        print(f"ऑडियो जोड़ने में त्रुटि: {e.stderr.decode()}")
+        print(f"ऑडियो संयोजित करने में त्रुटि: {e.stderr.decode()}")
     finally:
         os.remove(concat_file)
         for temp_file in temp_files:

@@ -6,17 +6,17 @@ title: 会話音声生成
 translated: true
 ---
 
-AI生成の会話の可能性について探求してきました。特に、DeepSeek-V3についてのディスカッションを紹介するYouTubeの動画を見た後、同様の音声会話を作成する方法について考えました。Google Text-to-Speechとffmpegを使用して、自然なやり取りをシミュレートする音声クリップを生成し、連結するプロセスを開発しました。以下に、私が取り組んでいるコードを示します。
+DeepSeek-V3についての議論を特集したYouTube動画に触発され、AIが生成する会話の実験を行っています。私の目標は、Google Text-to-Speechとffmpegを使用して、リアルな音声対話を作成することです。以下のコードは、自然なやり取りをシミュレートするための現在のアプローチを示しています。
 
 ## プロンプト
 
-```
-2人の専門家AとBの間で、特定のトピックについて深く議論する自然で長い会話を作成してください。少なくとも100ターンの会話を行い、質問を投げかけたり、洞察を共有したり、主題のニュアンスを探求したりする形で会話が進むようにしてください。フォーマットは以下の通りです：
+> 2人の専門家AとBの間で、特定のトピックについて深く議論する自然で長い会話を作成してください。会話は少なくとも100ターン以上で、質問を交えながら洞察を共有し、主題のニュアンスを探求する形で進めること。フォーマットは以下の通りです：
 
+```json
 [
     {
       "speaker": "A",
-      "line": "ねえ、最近よく聞く機械学習（ML）、深層学習（DL）、そしてGPTについて説明してくれない？"
+      "line": "最近、機械学習（ML）、ディープラーニング（DL）、そしてGPTについてよく耳にするんだけど、詳しく教えてくれる？"
     },
     {
       "speaker": "B",
@@ -46,8 +46,6 @@ def text_to_speech(text, output_filename, voice_name=None):
     try:
         client = texttospeech.TextToSpeechClient()
         synthesis_input = texttospeech.SynthesisInput(text=text)
-        if not voice_name:
-            voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
         voice = texttospeech.VoiceSelectionParams(language_code="en-US", name=voice_name)
         audio_config = texttospeech.AudioConfig(
             audio_encoding=texttospeech.AudioEncoding.MP3,
@@ -65,7 +63,7 @@ def text_to_speech(text, output_filename, voice_name=None):
             except Exception as e:
                 print(f"試行 {attempt} でエラーが発生しました: {e}")
                 if attempt == retries:
-                    print(f"{retries} 回の試行後に音声生成に失敗しました。")
+                    print(f"{retries} 回試行しましたが、音声の生成に失敗しました。")
                     return False
                 wait_time = 2 ** attempt
                 print(f"{wait_time} 秒後に再試行します...")
@@ -91,8 +89,11 @@ def process_conversation(filename):
 
     temp_files = []
     
-    voice_name_A = random.choice(["en-US-Wavenet-D", "en-US-Wavenet-E", "en-US-Wavenet-F"])
-    voice_name_B = random.choice(["en-US-Studio-O", "en-US-Studio-M", "en-US-Studio-Q"])
+    voice_options = ["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"]
+    voice_name_A = random.choice(voice_options)
+    voice_name_B = random.choice(voice_options)
+    while voice_name_A == voice_name_B:
+        voice_name_B = random.choice(voice_options)
 
     for idx, line_data in enumerate(conversation):
         speaker = line_data.get("speaker")
@@ -142,7 +143,7 @@ def process_conversation(filename):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="会話のJSONファイルを処理して音声を生成します。")
+    parser = argparse.ArgumentParser(description="会話JSONファイルを処理して音声を生成します。")
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
@@ -158,7 +159,7 @@ if __name__ == "__main__":
 ffmpeg -i deepseek.jpg -vf "crop=854:480" deepseek_480p_cropped.jpg
 ```
 
-## ビデオ
+## 動画
 
 ```bash
 ffmpeg -loop 1 -i deepseek.jpg -i deepseek.mp3 -c:v libx264 -tune stillimage -c:a aac -b:a 192k -shortest output_video.mp4
