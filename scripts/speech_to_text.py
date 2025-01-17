@@ -5,7 +5,7 @@ from google.cloud import storage
 from google.cloud.speech_v2 import SpeechClient
 from google.cloud.speech_v2.types import cloud_speech
 
-MAX_AUDIO_LENGTH_SECS = 8 * 60 * 60
+MAX_AUDIO_LENGTH_SECS = 20 * 60 * 60
 OUTPUT_DIRECTORY = "assets/transcriptions"
 
 
@@ -92,6 +92,7 @@ def process_audio_files(input_dir, output_dir):
                 print(f"Uploaded {filename} to GCS.")
             else:
                 print(f"{filename} already exists in GCS.")
+                continue
 
 
             run_batch_recognize(
@@ -123,7 +124,7 @@ def process_audio_files(input_dir, output_dir):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process audio files to generate transcriptions.")
-    parser.add_argument('--input_dir', type=str, default="assets/audios", help="Input directory for audio files.")
+    parser.add_argument('--input_dir', type=str, default="assets/speech-to-text", help="Input directory for audio files.")
 
     args = parser.parse_args()
 
