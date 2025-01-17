@@ -5,7 +5,7 @@ layout: post
 title: Conversation Audio Generation
 ---
 
-I've been exploring the capabilities of AI-generated conversations, particularly after seeing a YouTube video showcasing a discussion about DeepSeek-V3. It got me thinking about how to create similar audio conversations. I've developed a process using Google Text-to-Speech and ffmpeg to generate and concatenate audio clips, simulating a natural back-and-forth dialogue. Below is the code I've been working on.
+Inspired by a YouTube video featuring a discussion about DeepSeek-V3, I've been experimenting with AI-generated conversations. My goal is to create realistic audio dialogues using Google Text-to-Speech and ffmpeg for audio generation and concatenation. The following code outlines my current approach to simulating a natural back-and-forth conversation.
 
 ## Prompt
 
