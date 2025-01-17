@@ -6,20 +6,22 @@ title: संवाद ऑडियो जनरेशन
 translated: true
 ---
 
+मैं AI-जनित वार्तालापों की क्षमताओं का पता लगा रहा हूं, खासकर YouTube पर DeepSeek-V3 के बारे में एक चर्चा दिखाने वाला वीडियो देखने के बाद। इसने मुझे सोचने पर मजबूर कर दिया कि इसी तरह के ऑडियो वार्तालाप कैसे बनाए जा सकते हैं। मैंने Google Text-to-Speech और ffmpeg का उपयोग करके ऑडियो क्लिप्स को जनरेट और जोड़ने की एक प्रक्रिया विकसित की है, जो एक प्राकृतिक आगे-पीछे वार्तालाप का अनुकरण करती है। नीचे वह कोड है जिस पर मैं काम कर रहा हूं।
+
 प्रॉम्प्ट:
 
 ```
-इस PDF के बारे में कम से कम 100 राउंड की बातचीत करें और सभी विवरणों को कवर करें, इस PDF के बारे में JSON फॉर्मेट में जानकारी दें।
+दो विशेषज्ञों, A और B, के बीच DeepSeek-V3 के बारे में विस्तृत चर्चा करते हुए अधिक प्राकृतिक और विस्तृत वार्तालाप बनाएं। वार्तालाप आगे-पीछे चलता है, जिसमें दोनों प्रतिभागी प्रश्न पूछते हैं, अंतर्दृष्टि साझा करते हैं, और मॉडल के तकनीकी पहलुओं में गहराई से उतरते हैं। वार्तालाप को संरचित किया गया है ताकि यह DeepSeek-V3 की आर्किटेक्चर, प्रशिक्षण, प्रदर्शन और भविष्य की दिशाओं को कवर करे।
 
 
 [
     {
       "speaker": "A",
-      "line": "हे, मैंने हाल ही में Machine Learning (ML), Deep Learning (DL), और GPT के बारे में बहुत कुछ सुना है। क्या आप मुझे इसे समझा सकते हैं?"
+      "line": "हे, मैंने हाल ही में मशीन लर्निंग (ML), डीप लर्निंग (DL), और GPT के बारे में बहुत कुछ सुना है। क्या आप मुझे इसे समझा सकते हैं?"
     },
     {
       "speaker": "B",
-      "line": "ज़रूर! चलिए बुनियादी बातों से शुरू करते हैं। Machine Learning कंप्यूटर विज्ञान का एक क्षेत्र है जहां सिस्टम डेटा से सीखते हैं और बिना स्पष्ट रूप से प्रोग्राम किए अपने प्रदर्शन में सुधार करते हैं। इसे ऐसे समझें कि कंप्यूटर को पैटर्न पहचानना सिखाया जा रहा है।"
+      "line": "ज़रूर! चलिए मूल बातों से शुरू करते हैं। मशीन लर्निंग कंप्यूटर विज्ञान का एक क्षेत्र है जहां सिस्टम डेटा से सीखते हैं ताकि उनके प्रदर्शन में सुधार हो सके बिना स्पष्ट रूप से प्रोग्राम किए गए। इसे एक कंप्यूटर को पैटर्न पहचानना सिखाने के रूप में सोचें।"
     }
 ]
 ```
@@ -36,12 +38,12 @@ import tempfile
 import time
 import argparse
 
-# बातचीत के लिए निश्चित आउटपुट डायरेक्टरी
+# वार्तालापों के लिए निश्चित आउटपुट डायरेक्टरी
 OUTPUT_DIRECTORY = "assets/conversations"
 INPUT_DIRECTORY = "scripts/conversation"
 
 def text_to_speech(text, output_filename, voice_name=None):
-    print(f"ऑडियो जेनरेट कर रहे हैं: {output_filename}")
+    print(f"ऑडियो जनरेट कर रहा हूं: {output_filename}")
     try:
         client = texttospeech.TextToSpeechClient()
         synthesis_input = texttospeech.SynthesisInput(text=text)
@@ -59,18 +61,18 @@ def text_to_speech(text, output_filename, voice_name=None):
                 response = client.synthesize_speech(input=synthesis_input, voice=voice, audio_config=audio_config)
                 with open(output_filename, 'wb') as out:
                     out.write(response.audio_content)
-                print(f"ऑडियो कंटेंट {output_filename} में लिखा गया")
+                print(f"ऑडियो सामग्री {output_filename} में लिखी गई")
                 return True
             except Exception as e:
                 print(f"प्रयास {attempt} पर त्रुटि: {e}")
                 if attempt == retries:
-                    print(f"{retries} प्रयासों के बाद ऑडियो जेनरेट करने में विफल।")
+                    print(f"{retries} प्रयासों के बाद ऑडियो जनरेट करने में विफल।")
                     return False
                 wait_time = 2 ** attempt
-                print(f"{wait_time} सेकंड में पुनः प्रयास कर रहे हैं...")
+                print(f"{wait_time} सेकंड में पुनः प्रयास कर रहा हूं...")
                 time.sleep(wait_time)
     except Exception as e:
-        print(f"{output_filename} के लिए ऑडियो जेनरेट करते समय एक त्रुटि हुई: {e}")
+        print(f"{output_filename} के लिए ऑडियो जनरेट करते समय एक त्रुटि हुई: {e}")
         return False
 
 def process_conversation(filename):
@@ -85,7 +87,7 @@ def process_conversation(filename):
         with open(filepath, 'r', encoding='utf-8') as f:
             conversation = json.load(f)
     except Exception as e:
-        print(f"बातचीत फ़ाइल {filename} लोड करने में त्रुटि: {e}")
+        print(f"वार्तालाप फ़ाइल {filename} लोड करने में त्रुटि: {e}")
         return
 
     temp_files = []
@@ -108,7 +110,7 @@ def process_conversation(filename):
             voice_name = voice_name_B
         
         if not text_to_speech(line, temp_file, voice_name=voice_name):
-            print(f"{filename} की लाइन {idx+1} के लिए ऑडियो जेनरेट करने में विफल")
+            print(f"{filename} की लाइन {idx+1} के लिए ऑडियो जनरेट करने में विफल")
             # अस्थायी फ़ाइलों को साफ़ करें
             for temp_file_to_remove in temp_files:
                 if os.path.exists(temp_file_to_remove):
@@ -116,10 +118,10 @@ def process_conversation(filename):
             return
 
     if not temp_files:
-        print(f"{filename} के लिए कोई ऑडियो जेनरेट नहीं हुआ")
+        print(f"{filename} के लिए कोई ऑडियो जनरेट नहीं हुआ")
         return
 
-    # ffmpeg का उपयोग करके ऑडियो को जोड़ें
+    # ffmpeg का उपयोग करके जोड़ें
     concat_file = os.path.join(OUTPUT_DIRECTORY, "concat.txt")
     with open(concat_file, 'w') as f:
         for temp_file in temp_files:
@@ -131,7 +133,7 @@ def process_conversation(filename):
             check=True,
             capture_output=True
         )
-        print(f"ऑडियो को सफलतापूर्वक {output_filename} में जोड़ा गया")
+        print(f"ऑडियो को सफलतापूर्वक जोड़कर {output_filename} में सहेजा गया")
     except subprocess.CalledProcessError as e:
         print(f"ऑडियो जोड़ने में त्रुटि: {e.stderr.decode()}")
     finally:
@@ -141,7 +143,7 @@ def process_conversation(filename):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="बातचीत JSON फ़ाइलों को ऑडियो जेनरेट करने के लिए प्रोसेस करें।")
+    parser = argparse.ArgumentParser(description="ऑडियो जनरेट करने के लिए वार्तालाप JSON फ़ाइलों को प्रोसेस करें।")
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)

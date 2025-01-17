@@ -2,24 +2,26 @@
 audio: true
 lang: es
 layout: post
-title: Generación de Audio para Conversaciones
+title: Generación de Audio de Conversación
 translated: true
 ---
 
-Solicitud:
+He estado explorando las capacidades de las conversaciones generadas por IA, especialmente después de ver un video de YouTube que mostraba una discusión sobre DeepSeek-V3. Esto me hizo pensar en cómo crear conversaciones de audio similares. He desarrollado un proceso utilizando Google Text-to-Speech y ffmpeg para generar y concatenar clips de audio, simulando un diálogo natural de ida y vuelta. A continuación, se muestra el código en el que he estado trabajando.
+
+Prompt:
 
 ```
-Haz al menos 100 rondas de conversación cubriendo todos los detalles sobre este PDF, dame el formato JSON sobre este PDF.
+Haz una conversación más natural y extendida entre dos expertos, A y B, discutiendo DeepSeek-V3 en detalle. La conversación fluye de un lado a otro, con ambos participantes haciendo preguntas, compartiendo ideas y profundizando en los aspectos técnicos del modelo. La conversación está estructurada para cubrir la arquitectura, el entrenamiento, el rendimiento y las direcciones futuras de DeepSeek-V3.
 
 
 [
     {
       "speaker": "A",
-      "line": "Oye, he estado escuchando mucho sobre Machine Learning (ML), Deep Learning (DL) y GPT últimamente. ¿Puedes explicármelo?"
+      "line": "Hola, he estado escuchando mucho sobre Machine Learning (ML), Deep Learning (DL) y GPT últimamente. ¿Puedes explicármelo?"
     },
     {
       "speaker": "B",
-      "line": "¡Claro! Comencemos con lo básico. Machine Learning es un campo de la informática donde los sistemas aprenden de los datos para mejorar su rendimiento sin ser programados explícitamente. Piensa en ello como enseñar a una computadora a reconocer patrones."
+      "line": "¡Claro! Comencemos con lo básico. Machine Learning es un campo de la informática en el que los sistemas aprenden de los datos para mejorar su rendimiento sin ser programados explícitamente. Piensa en ello como enseñar a una computadora a reconocer patrones."
     }
 ]
 ```
@@ -53,8 +55,8 @@ def text_to_speech(text, output_filename, voice_name=None):
             effects_profile_id=["small-bluetooth-speaker-class-device"]
         )
         
-        reintentos = 5
-        for intento in range(1, reintentos + 1):
+        retries = 5
+        for attempt in range(1, retries + 1):
             try:
                 response = client.synthesize_speech(input=synthesis_input, voice=voice, audio_config=audio_config)
                 with open(output_filename, 'wb') as out:
@@ -62,15 +64,15 @@ def text_to_speech(text, output_filename, voice_name=None):
                 print(f"Contenido de audio escrito en {output_filename}")
                 return True
             except Exception as e:
-                print(f"Error en el intento {intento}: {e}")
-                if intento == reintentos:
-                    print(f"Fallo al generar audio después de {reintentos} intentos.")
+                print(f"Error en el intento {attempt}: {e}")
+                if attempt == retries:
+                    print(f"No se pudo generar el audio después de {retries} intentos.")
                     return False
-                tiempo_espera = 2 ** intento
-                print(f"Reintentando en {tiempo_espera} segundos...")
-                time.sleep(tiempo_espera)
+                wait_time = 2 ** attempt
+                print(f"Reintentando en {wait_time} segundos...")
+                time.sleep(wait_time)
     except Exception as e:
-        print(f"Ocurrió un error al generar audio para {output_filename}: {e}")
+        print(f"Ocurrió un error al generar el audio para {output_filename}: {e}")
         return False
 
 def process_conversation(filename):
@@ -88,7 +90,7 @@ def process_conversation(filename):
         print(f"Error al cargar el archivo de conversación {filename}: {e}")
         return
 
-    archivos_temporales = []
+    temp_files = []
     
     voice_name_A = random.choice(["en-US-Wavenet-D", "en-US-Wavenet-E", "en-US-Wavenet-F"])
     voice_name_B = random.choice(["en-US-Studio-O", "en-US-Studio-M", "en-US-Studio-Q"])
@@ -98,8 +100,8 @@ def process_conversation(filename):
         line = line_data.get("line")
         if not line:
             continue
-        archivo_temporal = os.path.join(OUTPUT_DIRECTORY, f"temp_{idx}.mp3")
-        archivos_temporales.append(archivo_temporal)
+        temp_file = os.path.join(OUTPUT_DIRECTORY, f"temp_{idx}.mp3")
+        temp_files.append(temp_file)
         
         voice_name = None
         if speaker == "A":
@@ -107,37 +109,37 @@ def process_conversation(filename):
         elif speaker == "B":
             voice_name = voice_name_B
         
-        if not text_to_speech(line, archivo_temporal, voice_name=voice_name):
-            print(f"Fallo al generar audio para la línea {idx+1} de {filename}")
+        if not text_to_speech(line, temp_file, voice_name=voice_name):
+            print(f"No se pudo generar el audio para la línea {idx+1} de {filename}")
             # Limpiar archivos temporales
-            for archivo_temporal_a_eliminar in archivos_temporales:
-                if os.path.exists(archivo_temporal_a_eliminar):
-                    os.remove(archivo_temporal_a_eliminar)
+            for temp_file_to_remove in temp_files:
+                if os.path.exists(temp_file_to_remove):
+                    os.remove(temp_file_to_remove)
             return
 
-    if not archivos_temporales:
+    if not temp_files:
         print(f"No se generó audio para {filename}")
         return
 
     # Concatenar usando ffmpeg
-    archivo_concat = os.path.join(OUTPUT_DIRECTORY, "concat.txt")
-    with open(archivo_concat, 'w') as f:
-        for archivo_temporal in archivos_temporales:
-            f.write(f"file '{os.path.abspath(archivo_temporal)}'\n")
+    concat_file = os.path.join(OUTPUT_DIRECTORY, "concat.txt")
+    with open(concat_file, 'w') as f:
+        for temp_file in temp_files:
+            f.write(f"file '{os.path.abspath(temp_file)}'\n")
     
     try:
         subprocess.run(
-            ['ffmpeg', '-f', 'concat', '-safe', '0', '-i', archivo_concat, '-c', 'copy', output_filename],
+            ['ffmpeg', '-f', 'concat', '-safe', '0', '-i', concat_file, '-c', 'copy', output_filename],
             check=True,
             capture_output=True
         )
         print(f"Audio concatenado exitosamente en {output_filename}")
     except subprocess.CalledProcessError as e:
-        print(f"Error al concatenar audio: {e.stderr.decode()}")
+        print(f"Error al concatenar el audio: {e.stderr.decode()}")
     finally:
-        os.remove(archivo_concat)
-        for archivo_temporal in archivos_temporales:
-            os.remove(archivo_temporal)
+        os.remove(concat_file)
+        for temp_file in temp_files:
+            os.remove(temp_file)
 
 
 if __name__ == "__main__":
