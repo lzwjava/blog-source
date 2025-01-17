@@ -2,25 +2,25 @@
 audio: true
 lang: fr
 layout: post
-title: Génération audio de conversation
+title: Génération Audio de Conversation
 translated: true
 ---
 
-J'ai exploré les capacités des conversations générées par l'IA, en particulier après avoir vu une vidéo YouTube présentant une discussion sur DeepSeek-V3. Cela m'a fait réfléchir à la manière de créer des conversations audio similaires. J'ai développé un processus utilisant Google Text-to-Speech et ffmpeg pour générer et concaténer des clips audio, simulant un dialogue naturel et fluide. Voici le code sur lequel j'ai travaillé.
+J'ai exploré les capacités des conversations générées par l'IA, en particulier après avoir vu une vidéo YouTube montrant une discussion sur DeepSeek-V3. Cela m'a fait réfléchir à la manière de créer des conversations audio similaires. J'ai développé un processus utilisant Google Text-to-Speech et ffmpeg pour générer et concaténer des clips audio, simulant un dialogue naturel. Voici le code sur lequel j'ai travaillé.
 
 ## Prompt
 
 ```
-Créez une conversation plus naturelle et étendue entre deux experts, A et B, discutant du sujet ci-dessous. La conversation doit aller et venir, avec les deux participants posant des questions, partageant des idées et approfondissant les sujets.
+Créez une conversation naturelle et étendue entre deux experts, A et B, avec au moins 100 échanges. Les experts devraient discuter d'un sujet spécifique en profondeur, avec une conversation fluide. Les deux participants devraient poser des questions, partager des idées et explorer les nuances du sujet. Le format devrait être le suivant :
 
 [
     {
       "speaker": "A",
-      "line": "Hé, j'ai beaucoup entendu parler de Machine Learning (ML), Deep Learning (DL) et GPT récemment. Peux-tu m'expliquer cela ?"
+      "line": "Salut, j'ai beaucoup entendu parler de l'apprentissage automatique (ML), de l'apprentissage profond (DL) et de GPT récemment. Peux-tu m'expliquer cela ?"
     },
     {
       "speaker": "B",
-      "line": "Bien sûr ! Commençons par les bases. Le Machine Learning est un domaine de l'informatique où les systèmes apprennent à partir de données pour améliorer leurs performances sans être explicitement programmés. Imagine-le comme enseigner à un ordinateur à reconnaître des motifs."
+      "line": "Bien sûr ! Commençons par les bases. L'apprentissage automatique est un domaine de l'informatique où les systèmes apprennent à partir de données pour améliorer leurs performances sans être explicitement programmés. Imagine-le comme enseigner à un ordinateur à reconnaître des motifs."
     }
 ]
 ```
@@ -152,7 +152,7 @@ if __name__ == "__main__":
             process_conversation(filename)
 ```
 
-## Couverture
+## Cover
 
 ```bash
 ffmpeg -i deepseek.jpg -vf "crop=854:480" deepseek_480p_cropped.jpg

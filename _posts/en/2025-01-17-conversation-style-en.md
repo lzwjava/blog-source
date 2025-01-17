@@ -12,7 +12,7 @@ I've been exploring the capabilities of AI-generated conversations, particularly
 ## Prompt
 
 ```
-Make more natural and extended conversation between two experts, A and B, discussing below. The conversation flows back and forth, with both participants asking questions, sharing insights, and diving deep into the materials. 
+Create a natural and extended conversation between two experts, A and B, with at least 100 turns. The experts should discuss a specific topic in depth, with the conversation flowing back and forth. Both participants should ask questions, share insights, and explore the nuances of the subject matter. The format should be as follows:
 
 [
     {

@@ -11,16 +11,16 @@ He estado explorando las capacidades de las conversaciones generadas por IA, esp
 ## Prompt
 
 ```
-Haz una conversación más natural y extendida entre dos expertos, A y B, discutiendo lo siguiente. La conversación fluye de un lado a otro, con ambos participantes haciendo preguntas, compartiendo ideas y profundizando en los temas.
+Crea una conversación natural y extensa entre dos expertos, A y B, con al menos 100 turnos. Los expertos deben discutir un tema específico en profundidad, con la conversación fluyendo de un lado a otro. Ambos participantes deben hacer preguntas, compartir ideas y explorar los matices del tema. El formato debe ser el siguiente:
 
 [
     {
       "speaker": "A",
-      "line": "Oye, he estado escuchando mucho sobre Machine Learning (ML), Deep Learning (DL) y GPT últimamente. ¿Puedes explicármelo?"
+      "line": "Hola, he estado escuchando mucho sobre Machine Learning (ML), Deep Learning (DL) y GPT últimamente. ¿Puedes explicármelo?"
     },
     {
       "speaker": "B",
-      "line": "¡Claro! Comencemos con lo básico. Machine Learning es un campo de la informática en el que los sistemas aprenden de los datos para mejorar su rendimiento sin ser programados explícitamente. Piensa en ello como enseñar a una computadora a reconocer patrones."
+      "line": "¡Claro! Comencemos con lo básico. Machine Learning es un campo de la informática donde los sistemas aprenden de los datos para mejorar su rendimiento sin ser programados explícitamente. Piensa en ello como enseñar a una computadora a reconocer patrones."
     }
 ]
 ```
@@ -111,9 +111,9 @@ def process_conversation(filename):
         if not text_to_speech(line, archivo_temporal, voice_name=voice_name):
             print(f"Error al generar audio para la línea {idx+1} de {filename}")
             # Limpiar archivos temporales
-            for archivo_temporal_a_eliminar in archivos_temporales:
-                if os.path.exists(archivo_temporal_a_eliminar):
-                    os.remove(archivo_temporal_a_eliminar)
+            for archivo_a_eliminar in archivos_temporales:
+                if os.path.exists(archivo_a_eliminar):
+                    os.remove(archivo_a_eliminar)
             return
 
     if not archivos_temporales:
