@@ -10,7 +10,7 @@ I've been exploring the capabilities of AI-generated conversations, particularly
 ## Prompt
 
 ```
-Make more natural and extended conversation between two experts, A and B, discussing below. The conversation flows back and forth, with both participants asking questions, sharing insights, and diving deep into the materials. 
+Make 100 rounds or more natural and extended conversation between two experts, A and B, discussing below. The conversation flows back and forth, with both participants asking questions, sharing insights, and diving deep into the materials. 
 
 [
     {
