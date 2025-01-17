@@ -8,7 +8,7 @@ title: Conversation Audio Generation
 Prompt:
 
 ```
-make at least 100 rounds converation cover all details about this PDF, give me json format about this PDF.
+Make more natural and extended conversation between two experts, A and B, discussing DeepSeek-V3 in detail. The conversation flows back and forth, with both participants asking questions, sharing insights, and diving deep into the technical aspects of the model. The conversation is structured to cover the architecture, training, performance, and future directions of DeepSeek-V3.
 
 
 [
