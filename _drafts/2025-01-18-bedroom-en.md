@@ -5,7 +5,7 @@ layout: post
 title: Bedroom
 ---
 
-## View from the front door
+## View From The Front Door
 
 {: .centered }
 ![](assets/images/bedroom/b1.jpg){: .responsive }
