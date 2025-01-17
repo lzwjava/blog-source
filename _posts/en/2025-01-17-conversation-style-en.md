@@ -7,10 +7,12 @@ translated: false
 ---
 
 
+I've been exploring the capabilities of AI-generated conversations, particularly after seeing a YouTube video showcasing a discussion about DeepSeek-V3. It got me thinking about how to create similar audio conversations. I've developed a process using Google Text-to-Speech and ffmpeg to generate and concatenate audio clips, simulating a natural back-and-forth dialogue. Below is the code I've been working on.
+
 Prompt:
 
 ```
-make at least 100 rounds converation cover all details about this PDF, give me json format about this PDF.
+Make more natural and extended conversation between two experts, A and B, discussing DeepSeek-V3 in detail. The conversation flows back and forth, with both participants asking questions, sharing insights, and diving deep into the technical aspects of the model. The conversation is structured to cover the architecture, training, performance, and future directions of DeepSeek-V3.
 
 
 [
