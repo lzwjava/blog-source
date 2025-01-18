@@ -1,14 +1,57 @@
 import subprocess
 import sys
 import os
-import subprocess
-import re
 from PIL import Image
 from pdf2image import convert_from_path
 
-A4_WIDTH_MM = 210
-A4_HEIGHT_MM = 297
 MARGIN_PERCENT = 0.005
+DPI = 72
+
+def convert_pixels_to_points(pixels, dpi):
+    """Converts pixels to points."""
+    return pixels * 72 / dpi
+
+def get_image_dimensions(image):
+    """Gets image dimensions in pixels and points."""
+    width, height = image.size
+    dpi = image.info.get('dpi', (DPI, DPI))
+    width_points = convert_pixels_to_points(width, dpi[0])
+    height_points = convert_pixels_to_points(height, dpi[1])
+    return width, height, width_points, height_points, dpi
+
+def analyze_whitespace(image, width, height):
+    """Analyzes whitespace to find content bounding box."""
+    left_margin_px = width
+    right_margin_px = 0
+    top_margin_px = height
+    bottom_margin_px = 0
+    found_content = False
+
+    for x in range(width):
+        for y in range(height):
+            pixel = image.getpixel((x, y))
+            if isinstance(pixel, tuple):
+                if any(c < 250 for c in pixel):
+                    if not found_content:
+                        left_margin_px = x
+                        top_margin_px = y
+                        found_content = True
+                    right_margin_px = max(right_margin_px, x)
+                    bottom_margin_px = max(bottom_margin_px, y)
+            elif pixel < 250:
+                if not found_content:
+                    left_margin_px = x
+                    top_margin_px = y
+                    found_content = True
+                right_margin_px = max(right_margin_px, x)
+                bottom_margin_px = max(bottom_margin_px, y)
+    
+    if not found_content:
+        return None, None, None, None
+    
+    right_margin_px = width - right_margin_px
+    bottom_margin_px = height - bottom_margin_px
+    return left_margin_px, right_margin_px, top_margin_px, bottom_margin_px
 
 def calculate_scale_factor(input_pdf):
     """
@@ -24,90 +67,53 @@ def calculate_scale_factor(input_pdf):
             return None
         
         image = images[0]
-        width, height = image.size
+        width, height, width_points, height_points, dpi = get_image_dimensions(image)
         
-        # Convert pixels to points (assuming 72 DPI, a common default)
-        width_points = width * 72 / image.info.get('dpi', (72,72))[0]
-        height_points = height * 72 / image.info.get('dpi', (72,72))[1]
-
-        # Analyze whitespace (simplified - assumes white background)
-        left_margin_px = width
-        right_margin_px = 0
-        top_margin_px = height
-        bottom_margin_px = 0            
-        
-        found_content = False
-        for x in range(width):
-            for y in range(height):
-                pixel = image.getpixel((x,y))
-                if isinstance(pixel, tuple):
-                    if pixel[0] < 250 or pixel[1] < 250 or pixel[2] < 250:
-                        if not found_content:
-                            left_margin_px = x
-                            top_margin_px = y
-                            found_content = True
-                        
-                        if x > right_margin_px:
-                            right_margin_px = x
-                        if y > bottom_margin_px:
-                            bottom_margin_px = y
-                elif pixel < 250:
-                    if not found_content:
-                        left_margin_px = x
-                        top_margin_px = y
-                        found_content = True
-                    
-                    if x > right_margin_px:
-                        right_margin_px = x
-                    if y > bottom_margin_px:
-                        bottom_margin_px = y
-        
-        if found_content:
-            content_width_px = right_margin_px - left_margin_px
-            content_height_px = bottom_margin_px - top_margin_px
-            
-            right_margin_px = width - right_margin_px
-            bottom_margin_px = height - bottom_margin_px
-
-            # Convert whitespace to points
-            left_margin_points = left_margin_px * 72 / image.info.get('dpi', (72,72))[0]
-            right_margin_points = right_margin_px * 72 / image.info.get('dpi', (72,72))[0]
-            top_margin_points = top_margin_px * 72 / image.info.get('dpi', (72,72))[1]
-            bottom_margin_points = bottom_margin_px * 72 / image.info.get('dpi', (72,72))[1]
-
-            print(f"  Content box: left={left_margin_px}, upper={top_margin_px}, right={right_margin_px}, lower={bottom_margin_px}")
-            print(f"  Content dimensions (pixels): width={content_width_px}, height={content_height_px}")
-            print(f"  Margins (points): left={left_margin_points}, right={right_margin_points}, top={top_margin_points}, bottom={bottom_margin_points}")
-        else:
+        margins = analyze_whitespace(image, width, height)
+        if margins[0] is None:
             print("  Could not determine content bounding box.")
             left_margin_points = 0
             right_margin_points = 0
             top_margin_points = 0
             bottom_margin_points = 0
+        else:
+            left_margin_px, right_margin_px, top_margin_px, bottom_margin_px = margins
+            content_width_px = right_margin_px - left_margin_px
+            content_height_px = bottom_margin_px - top_margin_px
+            
+            left_margin_points = convert_pixels_to_points(left_margin_px, dpi[0])
+            right_margin_points = convert_pixels_to_points(right_margin_px, dpi[0])
+            top_margin_points = convert_pixels_to_points(top_margin_px, dpi[1])
+            bottom_margin_points = convert_pixels_to_points(bottom_margin_px, dpi[1])
+
+            print(f"  Content box: left={left_margin_px}, upper={top_margin_px}, right={right_margin_px}, lower={bottom_margin_px}")
+            print(f"  Content dimensions (pixels): width={content_width_px}, height={content_height_px}")
+            print(f"  Margins (points): left={left_margin_points}, right={right_margin_points}, top={top_margin_points}, bottom={bottom_margin_points}")
 
         image.save("tmp-1.jpg")
-
         print(f"  Detected dimensions: width={width_points}, height={height_points}")
+
+        width_margin_points = min(left_margin_points, right_margin_points)
+        height_margin_points = min(top_margin_points, bottom_margin_points)        
         
-        content_width = width_points - left_margin_points - right_margin_points
-        content_height = height_points - top_margin_points - bottom_margin_points
+        content_width = width_points - width_margin_points * 2
+        content_height = height_points - height_margin_points * 2
+
+        target_width = width_points * (1 - 2 * MARGIN_PERCENT)
+        target_height = height_points * (1- 2 * MARGIN_PERCENT)
+
+        width_scale = target_width / content_width
+        height_scale = target_height / content_height
+
         print(f"  Content dimensions (points): width={content_width}, height={content_height}")
 
         if content_width <= 0 or content_height <= 0:
             print("Error: Could not determine content dimensions.")
             return None
-
-        # Convert mm to points (1 mm = 2.83465 points)
-        target_width = A4_WIDTH_MM * (1 - 2 * MARGIN_PERCENT) * 2.83465
-        target_height = A4_HEIGHT_MM * (1 - 2 * MARGIN_PERCENT) * 2.83465
+        
         print(f"  Target dimensions: width={target_width}, height={target_height}")
-
-
-        width_scale = target_width / content_width
-        height_scale = target_height / content_height
         print(f"  Calculated width scale: {width_scale}, height scale: {height_scale}")
         
-        # Use the smaller scale factor to fit within both dimensions
         scale_factor = min(width_scale, height_scale)
         print(f"  Final scale factor: {scale_factor}")
         
