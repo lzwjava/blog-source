@@ -5,7 +5,7 @@ from PIL import Image
 from pdf2image import convert_from_path
 import random
 
-MARGIN_PERCENT = 0.005
+MARGIN_PERCENT = 0.05
 DPI = 72
 
 def convert_pixels_to_points(pixels, dpi):
