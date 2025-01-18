@@ -32,7 +32,7 @@ layout: default
       {% assign length_to_slice = base_name_length | minus: 3 %}
     {% endif %}
     {% assign base_name = base_name | slice: 0, length_to_slice %}
-    {{ base_name }}
+    
     <select id="languageSelect" class="button right-button">
         
         <option value="/{{ base_name }}-en" {% if current_lang == "en" %}selected{% endif %}>English</option>
