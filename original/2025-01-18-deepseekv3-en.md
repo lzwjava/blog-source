@@ -2,10 +2,10 @@
 audio: true
 lang: en
 layout: post
-title: DeepSeek V3: Multi-Head Latent Attention and Multi-Token Prediction
+title: "DeepSeek V3: Multi-Head Latent Attention and Multi-Token Prediction"
 ---
 
-In this post, I'll be discussing DeepSeek v3, referencing the video "Multi-Head Latent Attention and Multi-token Prediction in Deepseek v3" ([https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO](https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO)). I used Google Cloud Speech-to-Text to transcribe the video and some code to help organize the transcript.
+In this post, I'll be discussing DeepSeek v3, referencing the video "Multi-Head Latent Attention and Multi-token Prediction in Deepseek v3" [https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO](https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO). I used Google Cloud Speech-to-Text to transcribe the video and some code to help organize the transcript.
 
 ---
 
