@@ -90,7 +90,6 @@ def calculate_scale_factor(input_pdf):
             print(f"  Content dimensions (pixels): width={content_width_px}, height={content_height_px}")
             print(f"  Margins (points): left={left_margin_points}, right={right_margin_points}, top={top_margin_points}, bottom={bottom_margin_points}")
 
-        image.save("tmp-1.jpg")
         print(f"  Detected dimensions: width={width_points}, height={height_points}")
 
         width_margin_points = min(left_margin_points, right_margin_points)
