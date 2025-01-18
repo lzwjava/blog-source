@@ -3,6 +3,7 @@ import sys
 import os
 from PIL import Image
 from pdf2image import convert_from_path
+import random
 
 MARGIN_PERCENT = 0.005
 DPI = 72
@@ -61,14 +62,13 @@ def calculate_scale_factor(input_pdf):
     """
     print(f"Calculating scale factor for: {input_pdf}")
     try:
-        images = convert_from_path(input_pdf, first_page=1, last_page=1)
+        images = convert_from_path(input_pdf)
         if not images:
             print("  Could not convert PDF to image.")
             return None
         
-        image = images[0]
+        image = random.choice(images)
         width, height, width_points, height_points, dpi = get_image_dimensions(image)
-        
         margins = analyze_whitespace(image, width, height)
         if margins[0] is None:
             print("  Could not determine content bounding box.")
@@ -144,22 +144,32 @@ def scale_pdf(input_pdf, output_pdf, scale_factor):
     except FileNotFoundError:
         print("Error: pdfjam command not found. Please ensure it is installed and in your system's PATH.")
 
+def process_pdf(input_path):
+    if os.path.isfile(input_path) and input_path.lower().endswith(".pdf"):
+        output_pdf = os.path.splitext(input_path)[0] + "-scaled.pdf"
+        print(f"Input PDF: {input_path}, Output PDF: {output_pdf}")
+        
+        if not os.path.exists(input_path):
+            print(f"Error: Input PDF file not found: {input_path}")
+            return
+        
+        scale_factor = calculate_scale_factor(input_path)
+        if scale_factor is None:
+            return
+        
+        scale_pdf(input_path, output_pdf, scale_factor)
+    elif os.path.isdir(input_path):
+        for filename in os.listdir(input_path):
+            if filename.lower().endswith(".pdf"):
+                file_path = os.path.join(input_path, filename)
+                process_pdf(file_path)
+    else:
+        print(f"Error: Invalid input path: {input_path}. Please provide a PDF file or a directory containing PDF files.")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python scale_pdf.py <input_pdf> <output_pdf>")
+    if len(sys.argv) != 2:
+        print("Usage: python scale_pdf.py <input_path>")
         sys.exit(1)
 
-    input_pdf = sys.argv[1]
-    output_pdf = sys.argv[2]
-    print(f"Input PDF: {input_pdf}, Output PDF: {output_pdf}")
-    
-    if not os.path.exists(input_pdf):
-        print(f"Error: Input PDF file not found: {input_pdf}")
-        sys.exit(1)
-
-    scale_factor = calculate_scale_factor(input_pdf)
-    if scale_factor is None:
-        sys.exit(1)
-
-    scale_pdf(input_pdf, output_pdf, scale_factor)
+    input_path = sys.argv[1]
+    process_pdf(input_path)
