@@ -113,7 +113,7 @@ def calculate_scale_factor(input_pdf):
         print(f"  Target dimensions: width={target_width}, height={target_height}")
         print(f"  Calculated width scale: {width_scale}, height scale: {height_scale}")
         
-        scale_factor = min(width_scale, height_scale)
+        scale_factor = (width_scale + height_scale) / 2
         print(f"  Final scale factor: {scale_factor}")
         
         return scale_factor
