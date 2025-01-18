@@ -147,7 +147,7 @@ def scale_pdf(input_pdf, output_pdf, scale_factor):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python scale-pdf.py <input_pdf> <output_pdf>")
+        print("Usage: python scale_pdf.py <input_pdf> <output_pdf>")
         sys.exit(1)
 
     input_pdf = sys.argv[1]
