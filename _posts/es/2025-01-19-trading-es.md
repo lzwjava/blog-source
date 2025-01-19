@@ -2,15 +2,15 @@
 audio: true
 lang: es
 layout: post
-title: '# Trading'
+title: Negociación
 translated: true
 ---
 
-- Usa una cuenta bancaria dedicada para el comercio P2P al comprar criptomonedas. Esto facilita la grabación de videos o la toma de capturas de pantalla, permitiendo que los comerciantes verifiquen el historial de transacciones, ya que el historial es más corto.
+- Utiliza una cuenta bancaria dedicada para el comercio P2P al comprar criptomonedas en China. Esto facilita la grabación de videos o la toma de capturas de pantalla, permitiendo que los comerciantes verifiquen el historial de transacciones, ya que el historial es corto.
 
 - Prefiere las transferencias bancarias sobre WeChatPay o Alipay, ya que están menos reguladas. Si una cuenta bancaria no funciona para transferencias a comerciantes, usa otra.
 
-- Es preferible mantener la moneda nativa de una red; por ejemplo, SOL en Solana o ETH en Ethereum. Estas pueden usarse para pagar tarifas de transacción y son ampliamente utilizadas en intercambios de criptomonedas principales o plataformas DEX.
+- Es preferible mantener la moneda nativa de una red; por ejemplo, SOL en Solana o ETH en Ethereum. Estas pueden usarse para pagar tarifas de transacción y son ampliamente utilizadas en los principales exchanges de criptomonedas o plataformas DEX.
 
 - Personalmente, uso Binance, OKX y Phantom.
 

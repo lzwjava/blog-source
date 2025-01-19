@@ -7,7 +7,7 @@ translated: false
 ---
 
 
-- Use a dedicated bank account for P2P trading when buying cryptocurrency. This makes it easier to record videos or take screenshots, allowing merchants to verify the transaction history, as the transaction history is short.
+- Use a dedicated bank account for P2P trading when buying cryptocurrency in China. This makes it easier to record videos or take screenshots, allowing merchants to verify the transaction history, as the transaction history is short.
 
 - Prefer bank transfers over WeChatPay or Alipay, as they are less regulated. If one bank account is not working for transfers to merchants, use another one.
 
