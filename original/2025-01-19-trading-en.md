@@ -5,7 +5,7 @@ layout: post
 title: Trading
 ---
 
-- Use a dedicated bank account for P2P trading when buying cryptocurrency. It's easy to record videos or take screenshots to allow merchants to verify the transaction history.
+- Use a dedicated bank account for P2P trading when buying cryptocurrency. This makes it easier to record videos or take screenshots, allowing merchants to verify the transaction history, as the transaction history is short.
 
 - It's preferable to hold the native coin of a network; for example, SOL on Solana, or ETH on Ethereum.
 
