@@ -15,7 +15,7 @@ title: Trading
 
 - Most things are assets and have values measured in money. Over time, the value of some assets will increase, while the value of others will decrease. Exchange less valuable assets for more valuable ones.
 
-- The significance of anyone's thoughts or actions should be relative to their market capitalization. As I have few holdings, my thoughts are of little consequence.
+- The significance of anyone's thoughts or actions should be relative to their market capitalization. Because I have few holdings, my thoughts are of little consequence to the overall market.
 
 - Analyze things objectively and consider how others act. Think about things long term.
 
