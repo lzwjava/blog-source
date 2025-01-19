@@ -13,6 +13,8 @@ translated: false
 
 - It’s often preferable to hold the native coin of a network; for example, SOL on the Solana network or ETH on the Ethereum network. These native coins are typically used to pay for transaction fees and are widely accepted across mainstream cryptocurrency exchanges and decentralized exchange (DEX) platforms.
 
+- Do not hold USDT. Instead, hold ETH, SOL, and BTC. Change the traditional mindset. Measure everything from the perspective of the crypto, rather than measuring crypto coins from the perspective of legal tender.
+
 - Personally, I use Binance, OKX, and Phantom.
 
 - Consider what can be trusted and what cannot.
