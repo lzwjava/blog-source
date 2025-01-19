@@ -7,7 +7,9 @@ title: Trading
 
 - Use a dedicated bank account for P2P trading when buying cryptocurrency. This makes it easier to record videos or take screenshots, allowing merchants to verify the transaction history, as the transaction history is short.
 
-- It's preferable to hold the native coin of a network; for example, SOL on Solana, or ETH on Ethereum.
+- Prefer bank transfers over WeChatPay or Alipay, as they are less regulated. If one bank account is not working for transfers to merchants, use another one.
+
+- It's preferable to hold the native coin of a network; for example, SOL on Solana, or ETH on Ethereum. These can be used for transaction fees and are widely used across mainstream crypto exchanges or DEX platforms.
 
 - Personally, I use Binance, OKX, and Phantom.
 
