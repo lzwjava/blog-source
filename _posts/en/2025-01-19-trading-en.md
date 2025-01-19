@@ -7,9 +7,11 @@ translated: false
 ---
 
 
-- Use a dedicated bank account for P2P trading when buying cryptocurrency. It's easy to record videos or take screenshots to allow merchants to verify the transaction history.
+- Use a dedicated bank account for P2P trading when buying cryptocurrency. This makes it easier to record videos or take screenshots, allowing merchants to verify the transaction history, as the transaction history is short.
 
-- It's preferable to hold the native coin of a network; for example, SOL on Solana, or ETH on Ethereum.
+- Prefer bank transfers over WeChatPay or Alipay, as they are less regulated. If one bank account is not working for transfers to merchants, use another one.
+
+- It's preferable to hold the native coin of a network; for example, SOL on Solana, or ETH on Ethereum. These can be used for transaction fees and are widely used across mainstream crypto exchanges or DEX platforms.
 
 - Personally, I use Binance, OKX, and Phantom.
 
@@ -17,8 +19,10 @@ translated: false
 
 - Most things are assets and have values measured in money. Over time, the value of some assets will increase, while the value of others will decrease. Exchange less valuable assets for more valuable ones.
 
-- The significance of anyone's thoughts or actions should be relative to their market capitalization. As I have few holdings, my thoughts are of little consequence.
+- The significance of anyone's thoughts or actions should be relative to their market capitalization. Because I have few holdings, my thoughts are of little consequence to the overall market.
 
-- Analyze things objectively.
+- Analyze things objectively and consider how others act. Think about things long term.
+
+- Morality matters less in trading. Actions allowed by law are acceptable. Sometimes, the law is outdated. If you trust something, invest money, and then lose it, you just need to accept it.
 
 - Them: Congrats! You made a lot of money on Bitcoin, right? Changpeng Zhao: No, not exactly. I still have the same number of Bitcoins. It's just that everything else has become a little cheaper relative to Bitcoin.
