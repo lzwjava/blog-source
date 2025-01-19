@@ -9,7 +9,7 @@ title: Trading
 
 - Prefer bank transfers over WeChatPay or Alipay, as they are less regulated. If one bank account is not working for transfers to merchants, use another one.
 
-- It's preferable to hold the native coin of a network; for example, SOL on Solana, or ETH on Ethereum. These can be used for transaction fees and are widely used across mainstream crypto exchanges or DEX platforms.
+- It’s often preferable to hold the native coin of a network; for example, SOL on the Solana network or ETH on the Ethereum network. These native coins are typically used to pay for transaction fees and are widely accepted across mainstream cryptocurrency exchanges and decentralized exchange (DEX) platforms.
 
 - Personally, I use Binance, OKX, and Phantom.
 
