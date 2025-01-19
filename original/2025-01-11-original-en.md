@@ -7,6 +7,17 @@ title: Original Posts
 
 These are my original blog posts.
 
+* [Bedroom](/original/2025-01-18-bedroom-en)
+* [Use DeepThink or ChatGPT o1 A Lot](/original/2025-01-18-deep-think-en)
+* [Google Cloud Transcription](/original/2025-01-18-speech-to-text-en)
+* [Scale PDF Content for Printing](/original/2025-01-18-scale-pdf-en)
+* [DeepSeek V3: Multi-Head Latent Attention and Multi-Token Prediction](/original/2025-01-18-deepseekv3-en)
+* [Three Angle Stick Stand Structure](/original/2025-01-18-structure-en)
+* [Projector Setup](/original/2025-01-17-projector-en)
+* [Conversation Audio Generation](/original/2025-01-17-conversation-style-en)
+* [AI Papers](/original/2025-01-17-ai-papers-en)
+* [Model Training](/original/2025-01-16-model-training-en)
+* [Farming](/original/2025-01-16-farming-en)
 * [Ultra Paygo USA SIM Card](/original/2025-01-15-ultra-paygo-en)
 * [Language Support: Fonts and Text-to-Speech](/original/2025-01-15-language-support-en)
 * [The Case of the Hairy Tailpipe: A Car Repair Mystery](/original/2025-01-15-tailpipe-en)
