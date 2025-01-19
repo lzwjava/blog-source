@@ -2,24 +2,20 @@
 audio: true
 lang: hant
 layout: post
-title: 捐贈
+title: 捐款
 translated: true
 ---
 
-如果你喜歡我的文章、代碼或視頻，可以自願進行打賞。你可以使用以下方式支付。
+若您喜愛我的文章、代碼或視頻，歡迎自願贊助。您可透過以下方式進行支付。
 
 ### 微信支付
 
 <div align="center"><img src="/assets/images/donate/wechat_pay.jpg" width="200px"/><img/></div>
 
-### PayPay
-
-請點擊[這裡](https://paypal.me/lzwjava)。
-
 ### 加密貨幣錢包
 
-通過Polygon網絡向我的錢包地址發送USDT。
+透過Solana網絡發送USDT至我的錢包地址。
 
-地址：0x8c14f4cE3BB788f8Ae84D1F6dc771542dB8eA1E0
+地址：FWK8y7q9mJvQix9bFAu8Q9CSY1FNaGdPXC4TQ96dP5y8
 
-<div align="center"><img src="/assets/images/donate/polygon.jpg" width="200px"/><img/></div>
+<div align="center"><img src="/assets/images/donate/sol.jpg" width="200px"/><img/></div>
