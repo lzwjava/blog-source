@@ -10,6 +10,7 @@ I've set up a function using Alibaba Cloud's Function Compute. My goal is to gen
 ```python
 from flask import Flask, request, jsonify
 import requests
+import time
 
 REQUEST_ID_HEADER = 'x-fc-request-id'
 
@@ -25,22 +26,35 @@ def hello_world(path):
     print("Path: " + path)
     print("Data: " + str(data))
 
-    # Call the external /bandwidth API
-    try:
-        response = requests.get('https://www.lzwjava.xyz/bandwidth')
-        bandwidth_data = response.json()
-        print("Bandwidth Data:", bandwidth_data)
-    except Exception as e:
-        print("Error fetching bandwidth data:", e)
-        bandwidth_data = {"error": "Failed to fetch bandwidth data"}
+    # Initialize counters
+    start_time = time.time()  # Record the start time
+    duration = 60  # Run for 1 minute (60 seconds)
+    total_calls = 0  # Track total API calls
+    successful_calls = 0  # Track successful API calls
+
+    # Loop for 1 minute
+    while time.time() - start_time < duration:
+        try:
+            # Call the external /bandwidth API
+            response = requests.get('https://www.lzwjava.xyz/bandwidth')
+            response.raise_for_status()  # Raise an exception for HTTP errors
+            successful_calls += 1  # Increment successful calls counter
+        except Exception as e:
+            print("Error fetching bandwidth data:", e)
+        finally:
+            total_calls += 1  # Increment total calls counter
+
+        # Wait for 5 seconds before the next request
+        time.sleep(5)
 
     # Log the end of the request
     print("FC Invoke End RequestId: " + rid)
 
-    # Return the bandwidth data as part of the response
+    # Return the number of calls and successful calls
     return jsonify({
         "message": "Hello, World!",
-        "bandwidth_data": bandwidth_data
+        "total_calls": total_calls,
+        "successful_calls": successful_calls
     })
 
 if __name__ == '__main__':
