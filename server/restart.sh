@@ -8,5 +8,9 @@ sudo systemctl start nginx
 
 tmux 
 
+cd /home/project/blog-server/
+
+python3 bandwidth_api.py
+
 # change name cheap
 
