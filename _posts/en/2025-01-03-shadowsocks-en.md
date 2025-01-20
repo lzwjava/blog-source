@@ -6,6 +6,7 @@ title: Shadowsocks Proxy Issues
 translated: false
 ---
 
+
 Zhiwei: 
 
 I went out for a barbeque with a friend and used Shadowsocks with a Singapore-based server as my proxy to bypass the Great Firewall (GFW). While using 5G outside, I couldn't connect, and the test timed out when trying to access YouTube. However, when I'm at home using 4G or my China Telecom home network, Shadowsocks works fine. Why is this happening?
@@ -53,3 +54,12 @@ It sounds like you're experiencing connectivity issues with your Shadowsocks pro
    - Consider using alternative proxy services or VPNs that might have better compatibility with your 5G network.
 
 By systematically checking these factors, you should be able to identify the cause of the connectivity issue and find a suitable solution.
+
+-- 
+
+Update:
+
+Actually, my home Wi-Fi uses China Mobile Communications Corporation, and its address is like 120.235.8.xx.
+
+There are cases where, when using my home Wi-Fi, I cannot connect to my proxy server, while it works fine when using my cellular data or the China Telecom network.
+
