@@ -6,52 +6,55 @@ title: Function Compute auf Alibaba Cloud
 translated: true
 ---
 
-Ich habe eine Funktion mit Alibaba Cloud's Function Compute eingerichtet. Mein Ziel ist es, normal aussehenden Traffic zu erzeugen, um die Aktivität meines Proxy-Servers vor der GFW zu verschleiern. Dazu habe ich einen Bandbreiten-Server neben meinem Proxy bereitgestellt. Nun verwende ich Alibaba Cloud's Function Compute, um jede Minute eine Anfrage an diese Bandbreiten-API zu stellen, wodurch eine Mischung aus normalem und Proxy-Traffic entsteht.
+Ich verwende Alibaba Cloud's Function Compute, um normal aussehenden Traffic zu generieren, was dabei hilft, die Aktivität meines Proxy-Servers vor der GFW zu verschleiern. Ich habe einen Bandbreiten-Server neben meinem Proxy bereitgestellt, und diese Function Compute-Funktion sendet jede Minute eine Anfrage an die Bandbreiten-API. Dadurch entsteht eine Mischung aus normalem und Proxy-Traffic.
 
 ```python
 from flask import Flask, request, jsonify
 import requests
-import time
+import concurrent.futures
 
 REQUEST_ID_HEADER = 'x-fc-request-id'
 
 app = Flask(__name__)
 
+# Funktion zum Aufrufen der externen API
+def call_bandwidth_api():
+    try:
+        response = requests.get('https://www.lzwjava.xyz/bandwidth')
+        response.raise_for_status()  # Wirft eine Ausnahme bei HTTP-Fehlern
+        return True  # Gibt Erfolg an
+    except Exception as e:
+        print("Fehler beim Abrufen der Bandbreitendaten:", e)
+        return False  # Gibt Fehler an
+
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>', methods=['GET', 'POST', 'PUT', 'DELETE'])
 def hello_world(path):
-    # Protokolliere die Request-ID und andere Details
+    # Protokolliert die Request-ID und andere Details
     rid = request.headers.get(REQUEST_ID_HEADER)
     print("FC Invoke Start RequestId: " + rid)
     data = request.stream.read()
-    print("Path: " + path)
-    print("Data: " + str(data))
+    print("Pfad: " + path)
+    print("Daten: " + str(data))
 
-    # Initialisiere Zähler
-    start_time = time.time()  # Erfasse die Startzeit
-    duration = 60  # Laufzeit von 1 Minute (60 Sekunden)
-    total_calls = 0  # Verfolge die Gesamtanzahl der API-Aufrufe
-    successful_calls = 0  # Verfolge die erfolgreichen API-Aufrufe
+    # Initialisiert Zähler
+    total_calls = 10  # Gesamtzahl der API-Aufrufe
+    successful_calls = 0  # Zählt erfolgreiche API-Aufrufe
 
-    # Schleife für 1 Minute
-    while time.time() - start_time < duration:
-        try:
-            # Rufe die externe /bandwidth API auf
-            response = requests.get('https://www.lzwjava.xyz/bandwidth')
-            response.raise_for_status()  # Wirf eine Ausnahme bei HTTP-Fehlern
-            successful_calls += 1  # Inkrementiere den Zähler für erfolgreiche Aufrufe
-        except Exception as e:
-            print("Fehler beim Abrufen der Bandbreitendaten:", e)
-        finally:
-            total_calls += 1  # Inkrementiere den Zähler für Gesamtaufrufe
+    # Verwendet ThreadPoolExecutor, um die API 10 Mal parallel aufzurufen
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        # Sendet Aufgaben an den Executor
+        futures = [executor.submit(call_bandwidth_api) for _ in range(total_calls)]
 
-        # Warte 5 Sekunden vor dem nächsten Aufruf
-        time.sleep(5)
+        # Wartet auf den Abschluss aller Aufgaben und zählt die Erfolge
+        for future in concurrent.futures.as_completed(futures):
+            if future.result():  # Wenn der Aufruf erfolgreich war
+                successful_calls += 1
 
-    # Protokolliere das Ende der Anfrage
+    # Protokolliert das Ende der Anfrage
     print("FC Invoke End RequestId: " + rid)
 
-    # Gib die Anzahl der Aufrufe und erfolgreichen Aufrufe zurück
+    # Gibt die Anzahl der Aufrufe und erfolgreichen Aufrufe zurück
     return jsonify({
         "message": "Hello, World!",
         "total_calls": total_calls,
