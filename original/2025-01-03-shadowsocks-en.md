@@ -59,5 +59,4 @@ Update:
 
 Actually, my home Wi-Fi uses China Mobile Communications Corporation, and its address is like 120.235.8.xx.
 
-There are cases where, when using my home Wi-Fi, I cannot connect to my proxy server, while it works fine when using my cellular data or the China Telecom network.
-
+Interestingly, I've observed inconsistent connectivity patterns - while my proxy server functions normally on cellular data and China Telecom networks, it occasionally fails to connect when using my home Wi-Fi network.
