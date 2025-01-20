@@ -2,54 +2,62 @@
 audio: true
 lang: de
 layout: post
-title: Shadowsocks-Proxy-Probleme
+title: Probleme mit dem Shadowsocks-Proxy
 translated: true
 ---
 
 Zhiwei:
 
-Ich war mit einem Freund grillen und habe Shadowsocks mit einem Server in Singapur als Proxy verwendet, um die Great Firewall (GFW) zu umgehen. Als ich draußen mit 5G unterwegs war, konnte ich keine Verbindung herstellen, und der Test zum Zugriff auf YouTube lief ins Leere. Wenn ich jedoch zu Hause bin und 4G oder mein China Telecom-Heimnetzwerk nutze, funktioniert Shadowsocks einwandfrei. Warum passiert das?
+Ich war mit einem Freund grillen und habe Shadowsocks mit einem Server in Singapur als Proxy verwendet, um die Great Firewall (GFW) zu umgehen. Während ich draußen 5G nutzte, konnte ich keine Verbindung herstellen, und der Test beim Zugriff auf YouTube lief ins Leere. Wenn ich jedoch zu Hause 4G oder mein China Telecom-Heimnetzwerk nutze, funktioniert Shadowsocks einwandfrei. Warum passiert das?
 
 Mistral:
 
-Es klingt so, als hättest du Verbindungsprobleme mit deinem Shadowsocks-Proxy, wenn du 5G draußen verwendest, aber nicht, wenn du 4G oder dein Heimnetzwerk nutzt. Es könnte mehrere Gründe dafür geben:
+Es klingt so, als hättest du Verbindungsprobleme mit deinem Shadowsocks-Proxy, wenn du draußen 5G nutzt, aber nicht, wenn du 4G oder dein Heimnetzwerk verwendest. Dafür könnte es mehrere Gründe geben:
 
 1. Unterschiede in der Netzwerkkonfiguration:
-   - 5G-Netzwerk: Das 5G-Netzwerk könnte unterschiedliche Konfigurationen oder Einschränkungen im Vergleich zu 4G aufweisen. Einige Anbieter könnten strengere Firewall-Regeln oder ein anderes Netzwerk-Routing für 5G haben, was die Leistung Ihres Shadowsocks-Proxys beeinträchtigen könnte.
-   - 4G-Netzwerk: Das 4G-Netzwerk könnte weniger restriktive Einstellungen oder ein besseres Routing haben, das es Ihrem Shadowsocks-Proxy ermöglicht, korrekt zu funktionieren.
+   - 5G-Netzwerk: Das 5G-Netzwerk könnte andere Konfigurationen oder Einschränkungen im Vergleich zu 4G haben. Einige Anbieter könnten strengere Firewall-Regeln oder ein anderes Netzwerk-Routing für 5G haben, was die Leistung deines Shadowsocks-Proxys beeinträchtigen könnte.
+   - 4G-Netzwerk: Das 4G-Netzwerk könnte lockerere Einstellungen oder ein besseres Routing haben, das deinem Shadowsocks-Proxy erlaubt, korrekt zu funktionieren.
 
 2. ISP-Einschränkungen:
-   - Anbieterrichtlinien: Verschiedene Anbieter können unterschiedliche Richtlinien bezüglich der Nutzung von VPNs oder Proxys haben. Ihr 5G-Anbieter könnte strengere Richtlinien haben, die VPN-Datenverkehr, einschließlich Shadowsocks, blockieren oder drosseln.
-   - Heimnetzwerk: Ihr Heimnetzwerk, das von China Telecom bereitgestellt wird, könnte weniger Einschränkungen haben, sodass Shadowsocks problemlos funktioniert.
+   - Anbieterrichtlinien: Unterschiedliche Anbieter könnten unterschiedliche Richtlinien bezüglich der Nutzung von VPNs oder Proxys haben. Dein 5G-Anbieter könnte strengere Richtlinien haben, die VPN-Datenverkehr, einschließlich Shadowsocks, blockieren oder drosseln.
+   - Heimnetzwerk: Dein Heimnetzwerk, das von China Telecom bereitgestellt wird, könnte weniger Einschränkungen haben, wodurch Shadowsocks problemlos funktioniert.
 
-3. Signalstärke und Stabilität:
-   - 5G-Signal: Die Stabilität und Stärke des 5G-Signals kann variieren, insbesondere in Außenbereichen. Schwache oder instabile Signale können zu Verbindungsproblemen führen, einschließlich Timeouts.
-   - 4G-Signal: Das 4G-Signal könnte stabiler und konsistenter sein und eine bessere Verbindung für Ihren Shadowsocks-Proxy bieten.
+3. Signalstärke und -stabilität:
+   - 5G-Signal: Die Stabilität und Stärke des 5G-Signals kann variieren, insbesondere in Außenbereichen. Schwache oder instabile Signale können Verbindungsprobleme verursachen, einschließlich Zeitüberschreitungen.
+   - 4G-Signal: Das 4G-Signal könnte stabiler und konsistenter sein, was eine bessere Verbindung für deinen Shadowsocks-Proxy bietet.
 
 4. Standort des Proxy-Servers:
-   - Singapur-Server: Der Standort Ihres Shadowsocks-Servers in Singapur könnte die Latenz und die Verbindungsqualität beeinflussen. Das 5G-Netzwerk könnte eine höhere Latenz oder eine weniger optimale Routing-Strategie zum Singapur-Server im Vergleich zum 4G-Netzwerk oder Ihrem Heimnetzwerk aufweisen.
+   - Singapur-Server: Der Standort deines Shadowsocks-Servers in Singapur könnte die Latenz und die Verbindung beeinflussen. Das 5G-Netzwerk könnte eine höhere Latenz oder ein weniger optimales Routing zum Singapur-Server haben im Vergleich zum 4G-Netzwerk oder deinem Heimnetzwerk.
 
 5. Geräteeinstellungen:
-   - Konfiguration: Stellen Sie sicher, dass Ihre Geräteeinstellungen korrekt für die Verwendung von Shadowsocks konfiguriert sind. Manchmal kann das Wechseln des Netzwerks (von 5G zu 4G oder Heim-Wi-Fi) dazu führen, dass Einstellungen zurückgesetzt oder geändert werden.
-   - App-Berechtigungen: Vergewissern Sie sich, dass die Shadowsocks-App die erforderlichen Berechtigungen hat, um in verschiedenen Netzwerken zu funktionieren.
+   - Konfiguration: Stelle sicher, dass die Einstellungen deines Geräts korrekt für die Nutzung von Shadowsocks konfiguriert sind. Manchmal kann das Wechseln zwischen Netzwerken (von 5G zu 4G oder Heim-Wi-Fi) dazu führen, dass Einstellungen zurückgesetzt oder geändert werden.
+   - App-Berechtigungen: Stelle sicher, dass die Shadowsocks-App die notwendigen Berechtigungen hat, um in verschiedenen Netzwerken zu operieren.
 
 ### Schritte zur Fehlerbehebung:
 
-1. Netzwerkeinstellungen überprüfen:
-   - Stellen Sie sicher, dass Ihre Shadowsocks-Einstellungen sowohl für das 5G- als auch für das 4G-Netzwerk korrekt konfiguriert sind.
-   - Überprüfen Sie, ob es keine spezifischen Einschränkungen oder Einstellungen in Ihrem 5G-Netzwerk gibt, die den Proxy blockieren könnten.
+1. Überprüfe die Netzwerkeinstellungen:
+   - Stelle sicher, dass deine Shadowsocks-Einstellungen korrekt für sowohl 5G- als auch 4G-Netzwerke konfiguriert sind.
+   - Überprüfe, ob es spezifische Einschränkungen oder Einstellungen in deinem 5G-Netzwerk gibt, die den Proxy blockieren könnten.
 
-2. Testen Sie verschiedene Server:
-   - Versuchen Sie, eine Verbindung zu verschiedenen Shadowsocks-Servern herzustellen, um festzustellen, ob das Problem spezifisch für den Singapur-Server ist.
-   - Überprüfen Sie die Latenz und Stabilität der Verbindung zum Server.
+2. Teste verschiedene Server:
+   - Versuche, dich mit verschiedenen Shadowsocks-Servern zu verbinden, um zu sehen, ob das Problem spezifisch für den Singapur-Server ist.
+   - Überprüfe die Latenz und Stabilität der Verbindung zum Server.
 
-3. Kontaktieren Sie Ihren Anbieter:
-   - Wenn das Problem weiterhin besteht, wenden Sie sich an Ihren 5G-Anbieter, um sich nach möglichen Einschränkungen oder Einstellungen zu erkundigen, die Ihre Shadowsocks-Verbindung beeinträchtigen könnten.
+3. Kontaktiere deinen Anbieter:
+   - Wenn das Problem bestehen bleibt, kontaktiere deinen 5G-Anbieter, um nachzufragen, ob es Einschränkungen oder Einstellungen gibt, die deine Shadowsocks-Verbindung beeinträchtigen könnten.
 
-4. Software aktualisieren:
-   - Stellen Sie sicher, dass Ihre Shadowsocks-App und die Gerätesoftware auf dem neuesten Stand sind. Manchmal können Updates Verbindungsprobleme beheben.
+4. Aktualisiere die Software:
+   - Stelle sicher, dass deine Shadowsocks-App und die Gerätesoftware auf dem neuesten Stand sind. Manchmal können Updates Verbindungsprobleme beheben.
 
-5. Verwenden Sie alternative Proxies:
-   - Erwägen Sie die Nutzung alternativer Proxy-Dienste oder VPNs, die möglicherweise eine bessere Kompatibilität mit Ihrem 5G-Netzwerk bieten.
+5. Verwende alternative Proxys:
+   - Erwäge die Nutzung alternativer Proxy-Dienste oder VPNs, die eine bessere Kompatibilität mit deinem 5G-Netzwerk haben könnten.
 
-Durch systematische Überprüfung dieser Faktoren sollten Sie in der Lage sein, die Ursache des Verbindungsproblems zu identifizieren und eine geeignete Lösung zu finden.
+Indem du diese Faktoren systematisch überprüfst, solltest du in der Lage sein, die Ursache des Verbindungsproblems zu identifizieren und eine geeignete Lösung zu finden.
+
+--
+
+Update:
+
+Eigentlich nutzt mein Heim-Wi-Fi China Mobile Communications Corporation, und seine Adresse ist ähnlich wie 120.235.8.xx.
+
+Es gibt Fälle, in denen ich, wenn ich mein Heim-Wi-Fi nutze, keine Verbindung zu meinem Proxy-Server herstellen kann, während es mit meinem Mobilfunknetz oder dem China Telecom-Netzwerk einwandfrei funktioniert.
