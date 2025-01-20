@@ -6,16 +6,26 @@ title: अलीबाबा क्लाउड पर Function Compute
 translated: true
 ---
 
-मैंने Alibaba Cloud के Function Compute का उपयोग करके एक फ़ंक्शन सेट किया है। मेरा लक्ष्य कुछ सामान्य दिखने वाले ट्रैफ़िक को उत्पन्न करना है ताकि मेरे प्रॉक्सी सर्वर की गतिविधि को GFW से छिपाया जा सके। इसके लिए, मैंने अपने प्रॉक्सी के साथ एक बैंडविड्थ सर्वर भी तैनात किया है। अब, मैं Alibaba Cloud के Function Compute का उपयोग करके हर मिनट इस बैंडविड्थ API को एक अनुरोध भेज रहा हूँ, जिससे सामान्य और प्रॉक्सी ट्रैफ़िक का मिश्रण बनाया जा सके।
+मैं Alibaba Cloud के Function Compute का उपयोग कर रहा हूँ ताकि सामान्य दिखने वाला ट्रैफिक जनरेट किया जा सके, जो मेरे प्रॉक्सी सर्वर की गतिविधि को GFW से छिपाने में मदद करता है। मैंने अपने प्रॉक्सी के साथ एक बैंडविड्थ सर्वर भी तैनात किया है, और यह Function Compute फंक्शन हर मिनट बैंडविड्थ API को एक अनुरोध भेजता है। इससे सामान्य और प्रॉक्सी ट्रैफिक का मिश्रण बनता है।
 
 ```python
 from flask import Flask, request, jsonify
 import requests
-import time
+import concurrent.futures
 
 REQUEST_ID_HEADER = 'x-fc-request-id'
 
 app = Flask(__name__)
+
+# बाहरी API को कॉल करने के लिए फंक्शन
+def call_bandwidth_api():
+    try:
+        response = requests.get('https://www.lzwjava.xyz/bandwidth')
+        response.raise_for_status()  # HTTP एरर्स के लिए एक्सेप्शन उठाएं
+        return True  # सफलता का संकेत
+    except Exception as e:
+        print("बैंडविड्थ डेटा प्राप्त करने में त्रुटि:", e)
+        return False  # विफलता का संकेत
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>', methods=['GET', 'POST', 'PUT', 'DELETE'])
@@ -27,28 +37,21 @@ def hello_world(path):
     print("Path: " + path)
     print("Data: " + str(data))
 
-    # काउंटर शुरू करें
-    start_time = time.time()  # शुरुआती समय रिकॉर्ड करें
-    duration = 60  # 1 मिनट (60 सेकंड) तक चलाएं
-    total_calls = 0  # कुल API कॉल ट्रैक करें
+    # काउंटर इनिशियलाइज़ करें
+    total_calls = 10  # किए जाने वाले API कॉल की कुल संख्या
     successful_calls = 0  # सफल API कॉल ट्रैक करें
 
-    # 1 मिनट के लिए लूप
-    while time.time() - start_time < duration:
-        try:
-            # बाहरी /bandwidth API को कॉल करें
-            response = requests.get('https://www.lzwjava.xyz/bandwidth')
-            response.raise_for_status()  # HTTP त्रुटियों के लिए अपवाद उठाएं
-            successful_calls += 1  # सफल कॉल काउंटर बढ़ाएं
-        except Exception as e:
-            print("Error fetching bandwidth data:", e)
-        finally:
-            total_calls += 1  # कुल कॉल काउंटर बढ़ाएं
+    # ThreadPoolExecutor का उपयोग करके API को 10 बार समवर्ती रूप से कॉल करें
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        # एक्सेक्यूटर को टास्क सबमिट करें
+        futures = [executor.submit(call_bandwidth_api) for _ in range(total_calls)]
 
-        # अगले अनुरोध से पहले 5 सेकंड प्रतीक्षा करें
-        time.sleep(5)
+        # सभी टास्क के पूरा होने की प्रतीक्षा करें और सफलताओं की गिनती करें
+        for future in concurrent.futures.as_completed(futures):
+            if future.result():  # यदि कॉल सफल रहा
+                successful_calls += 1
 
-    # अनुरोध का अंत लॉग करें
+    # अनुरोध के अंत को लॉग करें
     print("FC Invoke End RequestId: " + rid)
 
     # कॉल और सफल कॉल की संख्या वापस करें
