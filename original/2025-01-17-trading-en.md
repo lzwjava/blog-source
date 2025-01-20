@@ -11,6 +11,8 @@ title: Trading
 
 - It’s often preferable to hold the native coin of a network; for example, SOL on the Solana network or ETH on the Ethereum network. These native coins are typically used to pay for transaction fees and are widely accepted across mainstream cryptocurrency exchanges and decentralized exchange (DEX) platforms.
 
+- Avoid using cross-chain bridges due to their high costs. For example, I once paid a $100 USD network fee to convert $1200 USD worth of SOL to ETH. Instead, transfer your crypto to an exchange that supports the same chain, and then use the spot market to convert.
+
 - Do not hold USDT. Instead, hold ETH, SOL, and BTC. Change the traditional mindset. Measure everything from the perspective of the crypto, rather than measuring crypto coins from the perspective of legal tender.
 
 - Personally, I use Binance, OKX, and Phantom.
