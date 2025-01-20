@@ -8,11 +8,11 @@ translated: true
 
 Zhiwei:
 
-Salí a hacer una barbacoa con un amigo y usé Shadowsocks con un servidor basado en Singapur como proxy para sortear el Gran Cortafuegos (GFW). Mientras usaba 5G en exteriores, no pude conectarme, y la prueba se agotó al intentar acceder a YouTube. Sin embargo, cuando estoy en casa usando 4G o mi red doméstica de China Telecom, Shadowsocks funciona bien. ¿Por qué sucede esto?
+Salí a hacer una barbacoa con un amigo y usé Shadowsocks con un servidor basado en Singapur como proxy para sortear el Gran Cortafuegos (GFW). Mientras usaba 5G en el exterior, no pude conectarme, y la prueba se agotó al intentar acceder a YouTube. Sin embargo, cuando estoy en casa usando 4G o mi red doméstica de China Telecom, Shadowsocks funciona bien. ¿Por qué está pasando esto?
 
 Mistral:
 
-Parece que estás experimentando problemas de conectividad con tu proxy de Shadowsocks al usar 5G en exteriores, pero no cuando usas 4G o tu red doméstica. Podría haber varias razones para esto:
+Parece que estás experimentando problemas de conectividad con tu proxy de Shadowsocks cuando usas 5G en el exterior, pero no cuando usas 4G o tu red doméstica. Podría haber varias razones para esto:
 
 1. Diferencias en la configuración de la red:
    - Red 5G: La red 5G podría tener configuraciones o restricciones diferentes en comparación con la 4G. Algunos operadores podrían tener reglas de cortafuegos más estrictas o un enrutamiento de red diferente para la 5G, lo que podría afectar el rendimiento de tu proxy de Shadowsocks.
@@ -50,14 +50,14 @@ Parece que estás experimentando problemas de conectividad con tu proxy de Shado
    - Asegúrate de que la aplicación de Shadowsocks y el software de tu dispositivo estén actualizados. A veces, las actualizaciones pueden resolver problemas de conectividad.
 
 5. Usa proxies alternativos:
-   - Considera usar servicios de proxy o VPN alternativos que podrían tener mejor compatibilidad con tu red 5G.
+   - Considera usar servicios de proxy o VPN alternativos que puedan tener mejor compatibilidad con tu red 5G.
 
 Al verificar sistemáticamente estos factores, deberías poder identificar la causa del problema de conectividad y encontrar una solución adecuada.
 
---
+-- 
 
 Actualización:
 
 En realidad, mi Wi-Fi doméstico usa China Mobile Communications Corporation, y su dirección es algo como 120.235.8.xx.
 
-Hay casos en los que, al usar mi Wi-Fi doméstico, no puedo conectarme a mi servidor proxy, mientras que funciona bien cuando uso mis datos móviles o la red de China Telecom.
+Curiosamente, he observado patrones de conectividad inconsistentes: mientras que mi servidor proxy funciona normalmente en datos móviles y redes de China Telecom, ocasionalmente no se conecta cuando uso mi red Wi-Fi doméstica.
