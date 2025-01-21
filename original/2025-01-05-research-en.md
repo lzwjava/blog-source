@@ -80,3 +80,9 @@ The point is that most of the time, our eyes can clearly see the objects we want
 Try to observe and learn more on the Internet. Be careful of minor opinions. Try experimenting by yourself.
 
 There are a lot of improvements in life. After the truth was found, it seems obvious. People just haven't thought about it before. Steve Jobs surely understood it. Steve Jobs' "Think Different" campaign is good.
+
+## More Confident to Improve the World
+
+With so many people wearing glasses, whenever I see people wearing them - whether offline or online - I recognize there's room for improvement in this area.
+
+Their eyeglasses are too strong for viewing mobile phones or computers, which will cause their myopia to progressively worsen.
