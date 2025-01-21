@@ -7,6 +7,10 @@ title: Original Posts
 
 These are my original blog posts.
 
+* [Font Rendering Issues in GitHub Desktop](/original/2025-01-21-github-desktop-font-en)
+* [Wattage](/original/2025-01-21-wattage-en)
+* [Hanging a Bubble on the Shelf](/original/2025-01-21-bubble-en)
+* [Function Compute on Alibaba Cloud](/original/2025-01-20-function-compute-en)
 * [Bedroom](/original/2025-01-18-bedroom-en)
 * [Use DeepThink or ChatGPT o1 A Lot](/original/2025-01-18-deep-think-en)
 * [Google Cloud Transcription](/original/2025-01-18-speech-to-text-en)
@@ -15,6 +19,7 @@ These are my original blog posts.
 * [Three Angle Stick Stand Structure](/original/2025-01-18-structure-en)
 * [Projector Setup](/original/2025-01-17-projector-en)
 * [Conversation Audio Generation](/original/2025-01-17-conversation-style-en)
+* [Trading](/original/2025-01-17-trading-en)
 * [AI Papers](/original/2025-01-17-ai-papers-en)
 * [Model Training](/original/2025-01-16-model-training-en)
 * [Farming](/original/2025-01-16-farming-en)
