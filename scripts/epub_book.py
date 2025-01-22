@@ -3,6 +3,9 @@ import subprocess
 import argparse
 import glob
 from datetime import datetime
+import tempfile
+import re
+import yaml
 
 OUTPUT_DIRECTORY = "assets/epub/"
 INPUT_DIRECTORY = "_posts/en"
@@ -30,8 +33,12 @@ def convert_markdown_to_kindle(input_path, output_dir):
     # Extract date from filename and sort by date desc
     def get_date_from_filename(filename):
         try:
-            date_str = os.path.basename(filename).split('-')[0]
-            return datetime.strptime(date_str, '%Y-%m-%d')
+            match = re.search(r'(\d{4}-\d{2}-\d{2})', os.path.basename(filename))
+            if match:
+                date_str = match.group(1)
+                return datetime.strptime(date_str, '%Y-%m-%d')
+            else:
+                return datetime.min
         except (ValueError, IndexError):
             return datetime.min # if no date, put at the beginning
 
@@ -48,29 +55,60 @@ def _convert_multiple_files(file_paths, output_dir):
     
     os.makedirs(output_dir, exist_ok=True)
     
-    output_epub_file = os.path.join(output_dir, "all_posts.epub")
+    output_epub_file = os.path.join(output_dir, "blog-en.epub")
 
     if os.path.exists(output_epub_file):
         print(f"Skipping: {output_epub_file} already exists.")
         return
 
     try:
-        # Convert markdown to epub using pandoc
+        # Create a temporary file to store the combined markdown content
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as tmp_file:
+            for file_path in file_paths:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    # Remove YAML front matter
+                    front_matter = ""
+                    match = re.search(r'^---(.*?)---', content, re.DOTALL)
+                    if match:
+                        front_matter = match.group(1)
+                        content = content[match.end():]
+                    
+                    title = os.path.splitext(os.path.basename(file_path))[0]
+                    try:
+                        if front_matter:
+                            yaml_data = yaml.safe_load(front_matter)
+                            if 'title' in yaml_data:
+                                title = yaml_data['title']
+                    except yaml.YAMLError as e:
+                        print(f"Error parsing YAML in {file_path}: {e}")
+                    
+                    tmp_file.write(f'# {title}\n')
+                    tmp_file.write(content)
+                    tmp_file.write('\n\n')  # Add a separator between files
+
+            temp_file_path = tmp_file.name
+
+        # Convert the combined markdown file to epub using pandoc
         print(f"Converting {len(file_paths)} markdown files to {output_epub_file} using pandoc")
         pandoc_command = [
             "pandoc",
-            *file_paths,
+            temp_file_path,
             "-o",
-            output_epub_file
+            output_epub_file,
+            "--toc",
+            "--toc-depth=1"
         ]
         pandoc_result = subprocess.run(pandoc_command, capture_output=True, text=True)
         if pandoc_result.returncode != 0:
             print(f"Error converting to {output_epub_file} using pandoc: {pandoc_result.stderr}")
-            return
         else:
             print(f"Successfully converted to {output_epub_file} using pandoc")
     except Exception as e:
         print(f"Error processing files: {e}")
+    finally:
+        if 'temp_file_path' in locals() and os.path.exists(temp_file_path):
+            os.remove(temp_file_path)
 
 
 def main():
