@@ -1,17 +1,17 @@
 ---
 lang: hi
 layout: post
-title: यिन वांग की संपूर्ण कृतियाँ
+title: यिन वांग के संपूर्ण कार्य
 top: 20
 translated: true
 ---
 
 ## चीनी
 
-* वीबो: [不再关心人类de垠](https://weibo.com/yinwang)
-* वर्डप्रेस: [https://yinwang1.wordpress.com](https://yinwang1.wordpress.com)
+* Weibo: [不再关心人类de垠](https://weibo.com/u/6347862377)
+* WordPress: [https://yinwang1.wordpress.com](https://yinwang1.wordpress.com)
 * ब्लॉग: [http://www.yinwang.org](http://www.yinwang.org)
-* सबस्टैक: [https://yinwang1.substack.com](https://yinwang1.substack.com)
+* Substack: [https://yinwang1.substack.com](https://yinwang1.substack.com)
 
 ## अंग्रेज़ी
 

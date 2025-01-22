@@ -1,14 +1,14 @@
 ---
 lang: ja
 layout: post
-title: 王垠の全作品
+title: Yin Wangの完全な作品集
 top: 20
 translated: true
 ---
 
 ## 中国語
 
-* Weibo: [不再关心人类de垠](https://weibo.com/yinwang)
+* Weibo: [不再关心人类de垠](https://weibo.com/u/6347862377)
 * WordPress: [https://yinwang1.wordpress.com](https://yinwang1.wordpress.com)
 * ブログ: [http://www.yinwang.org](http://www.yinwang.org)
 * Substack: [https://yinwang1.substack.com](https://yinwang1.substack.com)
