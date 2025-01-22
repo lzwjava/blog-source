@@ -2,10 +2,10 @@ import os
 import subprocess
 import argparse
 
-OUTPUT_DIRECTORY = "assets/kpf/"
+OUTPUT_DIRECTORY = "assets/epub/"
 
 def convert_markdown_to_kindle(input_path, output_dir):
-    """Converts a markdown file or directory of markdown files to Kindle format using Pandoc and Kindle Previewer."""
+    """Converts a markdown file or directory of markdown files to epub format using Pandoc."""
 
     if not os.path.exists(input_path):
         print(f"Error: Input path '{input_path}' does not exist.")
@@ -22,7 +22,7 @@ def convert_markdown_to_kindle(input_path, output_dir):
         print("Error: Input must be a markdown file or a directory containing markdown files.")
 
 def _convert_single_file(file_path, output_dir):
-    """Converts a single markdown file to Kindle format."""
+    """Converts a single markdown file to epub format."""
     
     if not os.path.exists(file_path):
         print(f"Error: File not found: {file_path}")
@@ -35,12 +35,10 @@ def _convert_single_file(file_path, output_dir):
     
     base_name = os.path.splitext(os.path.basename(file_path))[0]
     epub_file = os.path.join(output_dir, f"{base_name}.epub")
-    output_file = os.path.join(output_dir, f"{base_name}.kpf")
-    output_file = os.path.join(output_dir, f"KPF/{base_name}.kpf")
 
 
-    if os.path.exists(output_file):
-        print(f"Skipping {file_path}: {output_file} already exists.")
+    if os.path.exists(epub_file):
+        print(f"Skipping {file_path}: {epub_file} already exists.")
         return
 
     try:
@@ -58,41 +56,14 @@ def _convert_single_file(file_path, output_dir):
             return
         else:
             print(f"Successfully converted {file_path} to {epub_file} using pandoc")
-        
-        # Convert epub to mobi using kindle previewer
-        print(f"Converting {epub_file} to {output_file} using Kindle Previewer")
-        kindle_command = [
-            "kindlepreviewer",
-            epub_file,
-            "-convert",
-            "-output",
-            output_dir            
-        ]
-        
-        kindle_result = subprocess.run(kindle_command, capture_output=True, text=True)
-        print(kindle_result)
-        if kindle_result.returncode != 0:
-            print(f"Error converting {epub_file} to {output_file} using Kindle Previewer: {kindle_result.stderr}")
-        else:
-            print(f"Successfully converted {epub_file} to {output_file} using Kindle Previewer")
-            if os.path.exists(output_file):
-                print(f"Verified: {output_file} exists after conversion.")
-            else:
-                print(f"Error: {output_file} not found after conversion.")
-        
-        if os.path.exists(epub_file):
-            os.remove(epub_file)
-            print(f"Removed temporary file: {epub_file}")
-
-
     except Exception as e:
         print(f"Error processing {file_path}: {e}")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert Markdown files to Kindle format.")
+    parser = argparse.ArgumentParser(description="Convert Markdown files to epub format.")
     parser.add_argument("input_path", help="Path to the markdown file or directory containing markdown files.")
-    parser.add_argument("-o", "--output_dir", help="Output directory for the generated mobi files.", default=OUTPUT_DIRECTORY)
+    parser.add_argument("-o", "--output_dir", help="Output directory for the generated epub files.", default=OUTPUT_DIRECTORY)
 
     args = parser.parse_args()
 
