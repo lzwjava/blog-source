@@ -13,3 +13,4 @@ server/ip.sh
 server/domain.sh
 scripts/__pycache__
 assets/conversations/temp_*.mp3
+scripts/weibo_cookies.txt
