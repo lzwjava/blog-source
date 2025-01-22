@@ -64,6 +64,8 @@ def _convert_multiple_files(file_paths, output_dir):
     try:
         # Create a temporary file to store the combined markdown content
         with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as tmp_file:
+            combined_content = f'# My Blog\n\n'
+            title = "My Blog"
             for file_path in file_paths:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
@@ -74,19 +76,19 @@ def _convert_multiple_files(file_paths, output_dir):
                         front_matter = match.group(1)
                         content = content[match.end():]
                     
-                    title = os.path.splitext(os.path.basename(file_path))[0]
+                    file_title = os.path.splitext(os.path.basename(file_path))[0]
                     try:
                         if front_matter:
                             yaml_data = yaml.safe_load(front_matter)
                             if 'title' in yaml_data:
-                                title = yaml_data['title']
+                                file_title = yaml_data['title']
                     except yaml.YAMLError as e:
                         print(f"Error parsing YAML in {file_path}: {e}")
                     
-                    tmp_file.write(f'# {title}\n')
-                    tmp_file.write(content)
-                    tmp_file.write('\n\n')  # Add a separator between files
-
+                    combined_content += f'## {file_title}\n'
+                    combined_content += content
+                    combined_content += '\n\n'  # Add a separator between files
+            tmp_file.write(combined_content)
             temp_file_path = tmp_file.name
 
         # Convert the combined markdown file to epub using pandoc
@@ -97,7 +99,9 @@ def _convert_multiple_files(file_paths, output_dir):
             "-o",
             output_epub_file,
             "--toc",
-            "--toc-depth=1"
+            "--toc-depth=1",
+            "--metadata",
+            f"title={title}"
         ]
         pandoc_result = subprocess.run(pandoc_command, capture_output=True, text=True)
         if pandoc_result.returncode != 0:
