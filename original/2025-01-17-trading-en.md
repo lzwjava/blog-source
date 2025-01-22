@@ -28,3 +28,5 @@ title: Trading
 - Morality matters less in trading. Actions allowed by law are acceptable. Sometimes, the law is outdated. If you trust something, invest money, and then lose it, you just need to accept it.
 
 - Them: Congrats! You made a lot of money on Bitcoin, right? Changpeng Zhao: No, not exactly. I still have the same number of Bitcoins. It's just that everything else has become a little cheaper relative to Bitcoin.
+
+- In regular investing, the key is to insist on investing for years, so there is no need to rush and attempt to invest more in any given week or month.
