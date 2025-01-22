@@ -54,8 +54,7 @@ def _convert_multiple_files(file_paths, output_dir):
     try:
         # Create a temporary file to store the combined markdown content
         with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as tmp_file:
-            combined_content = f'# My Notes\n\n'
-            title = "My Notes"
+            combined_content = ''
             for file_path in file_paths:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
@@ -75,11 +74,13 @@ def _convert_multiple_files(file_paths, output_dir):
                     except yaml.YAMLError as e:
                         print(f"Error parsing YAML in {file_path}: {e}")
                     
-                    combined_content += f'## {file_title}\n'
+                    combined_content += f'# {file_title}\n'
                     combined_content += content
                     combined_content += '\n\n'  # Add a separator between files
             tmp_file.write(combined_content)
             temp_file_path = tmp_file.name
+
+        title = "My Notes"
 
         # Convert the combined markdown file to epub using pandoc
         print(f"Converting {len(file_paths)} markdown files to {output_epub_file} using pandoc")
