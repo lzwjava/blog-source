@@ -8,7 +8,7 @@ translated: true
 
 ## Chinois
 
-* Weibo : [不再关心人类de垠](https://weibo.com/yinwang)
+* Weibo : [不再关心人类de垠](https://weibo.com/u/6347862377)
 * WordPress : [https://yinwang1.wordpress.com](https://yinwang1.wordpress.com)
 * Blog : [http://www.yinwang.org](http://www.yinwang.org)
 * Substack : [https://yinwang1.substack.com](https://yinwang1.substack.com)
