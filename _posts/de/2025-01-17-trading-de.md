@@ -6,13 +6,13 @@ title: Handel
 translated: true
 ---
 
-- Verwenden Sie ein spezielles Bankkonto für den P2P-Handel, wenn Sie in China Kryptowährung kaufen. Dies erleichtert das Aufnehmen von Videos oder das Erstellen von Screenshots, da die Transaktionshistorie kurz ist und Händler diese leichter überprüfen können.
+- Verwenden Sie ein separates Bankkonto für den P2P-Handel, wenn Sie in China Kryptowährung kaufen. Dies erleichtert das Aufnehmen von Videos oder das Erstellen von Screenshots, da Händler so den Transaktionsverlauf leichter überprüfen können, da der Transaktionsverlauf kurz ist.
 
 - Bevorzugen Sie Banküberweisungen gegenüber WeChatPay oder Alipay, da diese weniger reguliert sind. Wenn ein Bankkonto für Überweisungen an Händler nicht funktioniert, verwenden Sie ein anderes.
 
-- Es ist oft besser, die native Coin eines Netzwerks zu halten; zum Beispiel SOL im Solana-Netzwerk oder ETH im Ethereum-Netzwerk. Diese nativen Coins werden typischerweise für Transaktionsgebühren verwendet und sind auf den meisten Mainstream-Kryptobörsen und dezentralen Börsen (DEX) weit verbreitet.
+- Es ist oft vorzuziehen, die native Coin eines Netzwerks zu halten; zum Beispiel SOL im Solana-Netzwerk oder ETH im Ethereum-Netzwerk. Diese nativen Coins werden typischerweise verwendet, um Transaktionsgebühren zu bezahlen, und sind auf den meisten Mainstream-Kryptowährungsbörsen und dezentralen Börsen (DEX) weit verbreitet.
 
-- Vermeiden Sie die Verwendung von Cross-Chain-Bridges aufgrund ihrer hohen Kosten. Zum Beispiel habe ich einmal eine Netzwerkgebühr von 100 US-Dollar gezahlt, um 1200 US-Dollar in SOL in ETH umzuwandeln. Transferieren Sie stattdessen Ihre Kryptowährung an eine Börse, die dieselbe Chain unterstützt, und nutzen Sie dann den Spotmarkt für die Umwandlung.
+- Vermeiden Sie die Verwendung von Cross-Chain-Bridges aufgrund ihrer hohen Kosten. Zum Beispiel habe ich einmal eine Netzwerkgebühr von 100 USD bezahlt, um 1200 USD in SOL in ETH umzuwandeln. Transferieren Sie stattdessen Ihre Krypto auf eine Börse, die dieselbe Chain unterstützt, und nutzen Sie dann den Spotmarkt für die Umwandlung.
 
 - Halten Sie kein USDT. Halten Sie stattdessen ETH, SOL und BTC. Ändern Sie die traditionelle Denkweise. Messen Sie alles aus der Perspektive der Kryptowährung, anstatt Kryptocoins aus der Perspektive des gesetzlichen Zahlungsmittels zu bewerten.
 
@@ -26,6 +26,8 @@ translated: true
 
 - Analysieren Sie Dinge objektiv und überlegen Sie, wie andere handeln. Denken Sie langfristig.
 
-- Moral spielt beim Handel eine geringere Rolle. Handlungen, die gesetzlich erlaubt sind, sind akzeptabel. Manchmal ist das Gesetz veraltet. Wenn Sie etwas vertrauen, investieren Sie Geld, und verlieren es dann, müssen Sie es einfach akzeptieren.
+- Moral spielt beim Handel eine geringere Rolle. Handlungen, die gesetzlich erlaubt sind, sind akzeptabel. Manchmal ist das Gesetz veraltet. Wenn Sie etwas vertrauen, investieren Sie Geld, und dann verlieren Sie es, müssen Sie es einfach akzeptieren.
 
 - Sie: Glückwunsch! Sie haben viel Geld mit Bitcoin verdient, oder? Changpeng Zhao: Nein, nicht wirklich. Ich habe immer noch die gleiche Anzahl an Bitcoins. Es ist nur so, dass alles andere im Vergleich zu Bitcoin ein wenig billiger geworden ist.
+
+- Beim regulären Investieren ist es wichtig, jahrelang konsequent zu investieren, daher besteht keine Notwendigkeit, sich zu beeilen und in einer bestimmten Woche oder einem bestimmten Monat mehr investieren zu wollen.
