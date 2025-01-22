@@ -20,7 +20,7 @@ This blog incorporates several enhancements compared to a standard Jekyll blog u
 *   **GitHub Workflow Automation:** Implements GitHub Actions for automated building, testing, and deployment, ensuring a streamlined development process.
 *   **Automatic Translation Workflow:** Automatically translates new or updated posts into multiple languages using GitHub Actions.
 *   **AI-Powered Translation (DeepSeek):** Integrates DeepSeek's advanced language models for accurate and contextually relevant translations, further enhancing content accessibility.
-*   **Kindle Support:** Converts Markdown to EPUB then KPF for easy Kindle transfer.
+*   **EPUB Support:** Converts Markdown to EPUB for ebook readers.
 
 
 ## Getting Started
