@@ -9,6 +9,8 @@ import yaml
 
 OUTPUT_DIRECTORY = "assets/epub/"
 INPUT_DIRECTORY = "notes"
+BOOK_TITLE = "My Notes"
+
 
 def convert_markdown_to_kindle(input_path, output_dir):
     """Converts a directory of markdown files to a single epub, ordered by file name desc."""
@@ -53,6 +55,7 @@ def _convert_multiple_files(file_paths, output_dir):
     try:
         # Create a temporary file to store the combined markdown content
         with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as tmp_file:
+            tmp_file.write(f'# {BOOK_TITLE}\n\n')
             for file_path in file_paths:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
@@ -72,7 +75,7 @@ def _convert_multiple_files(file_paths, output_dir):
                     except yaml.YAMLError as e:
                         print(f"Error parsing YAML in {file_path}: {e}")
                     
-                    tmp_file.write(f'# {title}\n')
+                    tmp_file.write(f'## {title}\n')
                     tmp_file.write(content)
                     tmp_file.write('\n\n')  # Add a separator between files
 
