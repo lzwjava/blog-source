@@ -66,13 +66,13 @@ To generate audio and PDF files, use the following commands:
 ```bash
 conda activate google-cloud-env
 
-python scripts/audio-pipeline.py --task posts --n 10
+python scripts/audio_pipeline.py --task posts --n 10
 
-python scripts/audio-pipeline.py --task pages
+python scripts/audio_pipeline.py --task pages
 
-python scripts/audio-pipeline.py --task notes
+python scripts/audio_pipeline.py --task notes
 
-python scripts/audio-pipeline.py --task notes --n 100
+python scripts/audio_pipeline.py --task notes --n 100
 
 python scripts/pdf_pipeline.py --task pages
 
