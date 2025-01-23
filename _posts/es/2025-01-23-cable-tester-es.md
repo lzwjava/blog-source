@@ -13,5 +13,5 @@ Este dispositivo es muy económico, cuesta solo alrededor de 10 CNY. Un producto
 Para esta publicación, estoy utilizando una imagen de Amazon.com.
 
 {: .centered }
-![](assets/images/cable-tester/c.jp){: .responsive }
+![](assets/images/cable-tester/c.jpg){: .responsive }
 *Fuente: Amazon.com*{: .caption }

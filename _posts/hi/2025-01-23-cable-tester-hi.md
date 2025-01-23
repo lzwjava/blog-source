@@ -13,5 +13,5 @@ translated: true
 इस पोस्ट के लिए, मैं Amazon.com से एक छवि का उपयोग कर रहा हूँ।
 
 {: .centered }
-![](assets/images/cable-tester/c.jp){: .responsive }
+![](assets/images/cable-tester/c.jpg){: .responsive }
 *स्रोत: Amazon.com*{: .caption }
