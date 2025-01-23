@@ -18,7 +18,3 @@ title: Hot Water
 - Temperature matters a lot to objects, atoms, organisms, and life.
 
 
-{: .centered }
-![](assets/images/hot-water/h.jpg)
-*Source: Self-captured*{: .caption }
-
