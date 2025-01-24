@@ -8,9 +8,9 @@ translated: true
 
 ## Testeur de câble réseau
 
-J'ai récemment acheté un testeur de câble réseau sur JD.com. J'ai vu des consultants en réseau venir chez moi ou au bureau de mon employeur pour tester le réseau.
+J'ai récemment acheté un testeur de câble réseau sur JD.com. J'ai vu des consultants réseau venir chez moi ou au bureau de mon employeur pour tester le réseau.
 
-Cet appareil est très peu coûteux, coûtant seulement environ 10 CNY. Un produit similaire chez Walmart coûterait environ 10 USD.
+Cet appareil est très peu coûteux, ne coûtant qu'environ 10 CNY. Un produit similaire chez Walmart coûterait environ 10 USD.
 
 Pour ce post, j'utilise une image provenant d'Amazon.com.
 
@@ -20,11 +20,11 @@ Pour ce post, j'utilise une image provenant d'Amazon.com.
 
 {: .centered }
 ![](assets/images/cable-tester/c2.jpg){: .responsive }
-*Source : Capturée par moi-même*{: .caption }
+*Source : Capturé par moi-même*{: .caption }
 
 {: .centered }
 ![](assets/images/cable-tester/c3.jpg){: .responsive }
-*Source : Capturée par moi-même*{: .caption }
+*Source : Capturé par moi-même*{: .caption }
 
 ## Routeur Mesh
 
@@ -32,11 +32,11 @@ J'ai commencé à utiliser un routeur Mesh en 2023. J'ai acheté un système TP-
 
 J'ai initialement utilisé ce système dans ma grande maison, mais je l'ai ensuite déplacé chez mes parents.
 
-Pendant certains jours du festival du printemps 2025, ma famille est restée dans ma grande maison et a de nouveau connu une mauvaise qualité du réseau WiFi. Pour remédier à cela, j'ai acheté un autre routeur Mesh - le ZTE AC1200, qui coûte environ 108 CNY.
+Pendant certains jours du festival du printemps 2025, ma famille est restée dans ma grande maison et a de nouveau connu une mauvaise qualité de réseau WiFi. Pour remédier à cela, j'ai acheté un autre routeur Mesh - le ZTE AC1200, qui coûte environ 108 CNY.
 
-Des produits similaires disponibles chez Walmart incluent le routeur WiFi Mesh TP-Link, le routeur Mesh Eero Dual Band et le NetGear Nighthawk AX3000. Les prix de la plupart de ces produits varient entre 50 USD et 200 USD.
+Des produits similaires disponibles chez Walmart incluent le routeur WiFi Mesh TP-Link, le routeur Mesh Eero Dual Band, et le NetGear Nighthawk AX3000. Les prix de la plupart de ces produits varient entre 50 USD et 200 USD.
 
-Pour le routeur Mesh ZTE AC1200, je pouvais simplement en acheter un et utiliser le mode bridge, lui permettant de recevoir un signal WiFi et ensuite d'émettre son propre signal WiFi. Cela fonctionne parfaitement. À l'origine, l'adresse du domaine du routeur était 192.168.5.1. Après avoir activé le mode bridge, cette adresse IP n'est plus accessible. Au lieu de cela, 192.168.1.1 vous redirigera vers le routeur principal de votre réseau domestique. À ce stade, vous pouvez accéder au centre de contrôle du routeur en naviguant vers http://zte.home.
+Pour le routeur Mesh ZTE AC1200, je pouvais simplement en acheter un et utiliser le mode bridge, lui permettant de recevoir un signal WiFi et ensuite d'émettre son propre signal WiFi. Cela fonctionne parfaitement. À l'origine, l'adresse du domaine du routeur était 192.168.5.1. Après avoir activé le mode bridge, cette adresse IP n'est plus accessible. À la place, 192.168.1.1 vous redirigera vers le routeur principal de votre réseau domestique. À ce stade, vous pouvez accéder au centre de contrôle du routeur en naviguant vers http://zte.home.
 
 Si vous pouvez accéder au routeur principal, vous pouvez voir les appareils connectés et leurs adresses IP. Ensuite, vous pouvez essayer d'accéder à chaque appareil pour déterminer lequel est le sous-routeur. Dans mon cas, c'était 192.168.1.23, qui est l'adresse du routeur Mesh ZTE AC1200.
 
