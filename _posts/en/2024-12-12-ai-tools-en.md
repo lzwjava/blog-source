@@ -5,6 +5,7 @@ title: AI Tools
 translated: false
 ---
 
+
 Here are some AI tools I’ve used:
 
 #### Chatbots
@@ -17,11 +18,15 @@ Global:
 - [chat.mistral.ai](https://chat.mistral.ai)
 - [copilot.microsoft.com](https://copilot.microsoft.com)
 - [coral.cohere.com](https://coral.cohere.com)
+- [grok.com](https://grok.com/)
+- [chat.deepseek.com](https://chat.deepseek.com)
 
 China:
 
 - [kimi.moonshot.cn](https://kimi.moonshot.cn)
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
+- [doubao.com](https://www.doubao.com/chat/)
+
 
 #### Leaderboards
 
@@ -36,3 +41,7 @@ China:
 - [cursor.com](https://www.cursor.com)
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [midjourney.com](https://www.midjourney.com)
+- [runwayml.com](https://runwayml.com)
+- [codeium.com/windsurf](https://codeium.com/windsurf)
+- [pika.art](https://pika.art)
+
