@@ -66,3 +66,5 @@ top: 10
 * Think often about what Yin Wang or Daniel P. Friedman says. They are probably the smartest and kindest people in the world.
 
 * The world will have more freedom. The world will become better as knowledge and technology evolve.
+
+* Focus on learning Science, Technology, Engineering, and Mathematics (STEM). These fields are generally based on reproducible and verifiable facts, unlike some other areas of knowledge. Prioritize learning correct information initially to avoid needing to correct your understanding or habits later.
