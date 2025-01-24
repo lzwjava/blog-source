@@ -14,23 +14,23 @@ translated: true
 
 * Piensa como un genio, sospecha de todo, especialmente de las autoridades.
 
-* Trata a las personas por igual. Sé amable. No menosprecies a las personas que no son mejores que tú en términos de calificaciones o salario. Ellos no te mintieron, te engañaron ni te robaron tu dinero.
+* Trata a las personas por igual. Sé amable. No menosprecies a quienes no son mejores que tú en términos de calificaciones o salario. Ellos no te mintieron, te engañaron ni te robaron dinero.
 
-* Ten cuidado con las personas poderosas detrás del gobierno. Algunas podrían lastimarte por la espalda.
+* Ten cuidado con las personas poderosas detrás del gobierno. Algunas pueden lastimarte por la espalda.
 
 * Si algo sucede, generalmente alguien quiere que suceda. Piensa detenidamente en las cosas que ocurren por coincidencia o intencionalmente.
 
-* Piensa profundamente en lo que es bueno o malo, y en cómo todo se inventa o desarrolla.
+* Reflexiona profundamente sobre lo que es bueno o malo, y cómo todo se inventa o desarrolla.
 
 * Piensa en cómo vivir en este mundo de la mejor manera.
 
-* Obtén muchas cosas que son gratuitas, como aplicaciones, libros e información gratuitos. Disfruta del aire, el sol, los paisajes y el agua.
+* Obtén muchas cosas gratuitas, como aplicaciones, libros e información. Disfruta del aire, el sol, los paisajes y el agua.
 
-* Piensa detenidamente en las reglas. Descubre la intención original detrás de ellas. Pregúntate si las reglas podrían ser mejores o más detalladas. A veces, tenemos que seguir las reglas, pero no dejes que limiten tu pensamiento.
+* Reflexiona profundamente sobre las reglas. Descubre la intención original detrás de ellas. Pregúntate si las reglas podrían ser mejores o más detalladas. A veces, tenemos que seguir las reglas, pero no dejes que limiten tu pensamiento.
 
 * Trata todo como una experiencia de aprendizaje. Si es bueno, es genial. Si es malo, evítalo la próxima vez.
 
-* Persigue la verdad. Pero ten cuidado con la ciencia. No toda la ciencia es realmente verdadera.
+* Busca la verdad. Pero ten cuidado con la ciencia. No toda la ciencia es realmente cierta.
 
 * Mantente seguro. La salud es lo más importante. Nuestro cuerpo es realmente asombroso.
 
@@ -42,28 +42,30 @@ translated: true
 
 * Está bien hacer cualquier cosa siempre que no involucre o lastime a nadie más.
 
-* Es mejor aprender la verdad primero. Así no necesitamos cambiar después.
+* Es mejor aprender la verdad primero. Así no necesitaremos cambiar después.
 
-* El inglés es el idioma global actual. Domínalo y úsalo como si fuera tu lengua materna.
+* El inglés es el idioma del mundo ahora. Sé bueno en él y úsalo como un idioma nativo.
 
-* No necesitas cambiar a nadie. Si descubres o creas algo que la gente quiere, ellos vendrán.
+* No necesitas cambiar a nadie. Si descubres algo o creas algo que la gente quiere, ellos vendrán.
 
-* No te desesperes. La mayoría del mundo está ayudando. Están haciendo productos o proporcionando servicios a bajo costo o de forma gratuita.
+* No te desesperes. La mayoría del mundo está ayudando. Están haciendo productos o proporcionando servicios baratos o gratuitos.
 
 * Cuando se trata de dinero, piensa en cómo lo hacen las personas más ricas o inteligentes.
 
-* Normalmente, no puedes obligar a nadie a hacer nada, y los demás tampoco pueden obligarte a ti a hacer algo.
+* Normalmente, no puedes obligar a nadie a hacer nada, y otros tampoco pueden obligarte a ti.
 
 * Sigue tu verdadera pasión. No puedes obligarte a hacer cosas que no te gustan durante mucho tiempo.
 
-* Estás molesto porque algo no funciona como esperabas. Simplemente acepta los hechos o cambia tu visión del mundo para adaptarte a ello. Aprende de ello.
+* Te molesta que algo no funcione como esperabas. Simplemente acepta los hechos o cambia tu visión del mundo para adaptarte a ello. Aprende de ello.
 
-* El bienestar de uno depende de uno mismo, de su familia, de su empresa y de su país. Comparándolos sabiamente en el mundo. Si todos son buenos, tendrás una buena vida.
+* Tu bienestar depende de ti mismo, tu familia, tu empresa y tu país. Compáralos sabiamente en el mundo. Si todos son buenos, tendrás una buena vida.
 
-* Casi todo puede cambiarse. Piensa en tu nacionalidad. Piensa en el lugar donde naciste. Elimina todos los límites y comienza a pensar en cómo tener la mejor vida del mundo. Empieza a notar la gran brecha y trabaja para cerrarla.
+* Casi todo puede cambiarse. Piensa en tu nacionalidad. Piensa en dónde naciste. Elimina todos los límites y comienza a pensar en cómo tener la mejor vida en el mundo. Comienza a notar la gran brecha y trabaja para cerrarla.
 
-* Los humanos nacen para aprender. Si cada pieza de conocimiento se enseña correctamente o la exploras y reflexionas sobre ella con frecuencia, estarás feliz de adquirirla.
+* Los humanos nacen para aprender. Si cada pieza de conocimiento se enseña correctamente o lo exploras y reflexionas sobre ello a menudo, estarás feliz de adquirirlo.
 
-* Piensa a menudo en lo que dicen Yin Wang o Daniel P. Friedman. Probablemente sean las personas más inteligentes y amables del mundo.
+* Piensa a menudo en lo que dice Yin Wang o Daniel P. Friedman. Probablemente sean las personas más inteligentes y amables del mundo.
 
 * El mundo tendrá más libertad. El mundo mejorará a medida que el conocimiento y la tecnología evolucionen.
+
+* Enfócate en aprender Ciencia, Tecnología, Ingeniería y Matemáticas (STEM). Estos campos generalmente se basan en hechos reproducibles y verificables, a diferencia de algunas otras áreas del conocimiento. Prioriza aprender información correcta desde el principio para evitar necesitar corregir tu comprensión o hábitos más tarde.
