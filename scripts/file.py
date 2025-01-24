@@ -1,6 +1,8 @@
 import os
 import datetime
 import sys
+import re
+import glob
 
 def create_md(name):
     # Get today's date
@@ -34,23 +36,26 @@ def delete_md(name):
     posts_dir = '_posts'
     pdfs_dir = 'assets/pdfs'
     
-    today = datetime.date.today()
-    date_str = today.strftime('%Y-%m-%d')
-
     langs = ["en", "zh", "es", "fr", "de", "ja", "hi", "ar", "hant"]
+
     for lang in langs:
-        md_file_path = os.path.join(posts_dir, lang, f"{date_str}-{name}-{lang}.md")
-        pdf_file_path = os.path.join(pdfs_dir, lang, f"{date_str}-{name}-{lang}.pdf")
-        if os.path.exists(md_file_path):
-            os.remove(md_file_path)
-            print(f"Deleted file: {md_file_path}")
-        else:
-            print(f"File not found: {md_file_path}")
-        if os.path.exists(pdf_file_path):
-            os.remove(pdf_file_path)
-            print(f"Deleted file: {pdf_file_path}")
-        else:
-            print(f"File not found: {pdf_file_path}")
+        # Construct the file name pattern, allowing for a date at the beginning
+        md_file_pattern = os.path.join(posts_dir, lang, f"{name}-{lang}.md")
+        pdf_file_pattern = os.path.join(pdfs_dir, lang, f"{name}-{lang}.pdf")
+
+        # Find matching files
+        for md_file_path in glob.glob(md_file_pattern):
+            if os.path.exists(md_file_path):
+                os.remove(md_file_path)
+                print(f"Deleted file: {md_file_path}")
+            else:
+                print(f"File not found: {md_file_path}")
+        for pdf_file_path in glob.glob(pdf_file_pattern):
+            if os.path.exists(pdf_file_path):
+                os.remove(pdf_file_path)
+                print(f"Deleted file: {pdf_file_path}")
+            else:
+                print(f"File not found: {pdf_file_path}")
 
 
 if __name__ == "__main__":

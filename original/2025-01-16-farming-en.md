@@ -29,6 +29,8 @@ But actually, I couldn't be sure about it. What I remember is that in the summer
 When sowing, there are insects in the farmland. We threshed grain using a machine.
 The sun, water, and air help rice grow. Floods and droughts can destroy crops. The distance between rice plants matters; they shouldn't be too close together.
 
+At times, there are fires in the mountains. People work to grow vegetables or perform other kinds of farming work in the summer or autumn. Sometimes, it is easy to cause fires that can spread across the entire mountain.
+
 People use fertilizer, but I'm skeptical about its effectiveness.
 
 It teaches people patience and the principles of nature.
