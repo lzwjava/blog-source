@@ -24,3 +24,5 @@ title: Set Up Your Proxy Server
 * Use the snapshot functionality in Digital Ocean. If the IP of the server is banned, create a new droplet from the snapshot of the server and run `install.sh` again.
 
 * Use the reserved IP functionality in Digital Ocean. If the server's IP is banned, assign a new reserved IP.
+
+* We use Outline Manager to set up our own servers because it is fast and allows us to enjoy the server by ourselves. VPN provider's nodes can often be unreliable. Our servers may also experience issues, but we have much more detailed knowledge of the situation. We can also choose different cloud providers. Additionally, we know whether we are using China Telecom or China Mobile, and whether we are using home Wi-Fi or cellular data.
