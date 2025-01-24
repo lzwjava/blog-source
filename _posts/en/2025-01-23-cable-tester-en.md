@@ -39,7 +39,9 @@ Similar products available at Walmart include the TP-Link WiFi Mesh Router, Eero
 
 For the ZTE AC1200 mesh router, I could simply purchase one and use bridge mode, allowing it to receive a WiFi signal and then emit its own WiFi signal. It works perfectly. Originally, the router's domain address was 192.168.5.1. After enabling bridge mode, this IP address is no longer accessible. Instead, 192.168.1.1 will redirect you to the main router in your home network. At this point, you can access the router's control center by navigating to http://zte.home.
 
-If you can access the main router, you can see the connected devices and their IP addresses, and then you can try to access them. In my case, it is 192.168.1.23, which is the address of the ZTE AC1200 mesh router.
+If you can access the main router, you can see the connected devices and their IP addresses. Then, you can try to access each device to determine which one is the sub-router. In my case, it was 192.168.1.23, which is the address of the ZTE AC1200 mesh router.
+
+For mobile phones, which we move around the home, it is better to use the 2.4 GHz channel as it is more stable. For laptops or desktop computers, which we typically use in our bedrooms or study rooms, it is better to use the 5 GHz channel as it is faster.
 
 {: .centered }
 ![](assets/images/cable-tester/zte.jpg){: .responsive }
