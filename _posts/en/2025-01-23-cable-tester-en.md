@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: Network Cable Tester and Mesh Router
+title: Network Cable Tester And Mesh Router
 translated: false
 ---
 
@@ -50,7 +50,4 @@ For mobile phones, which we move around the home, it is better to use the 2.4 GH
 {: .centered }
 ![](assets/images/cable-tester/netgear.jpg){: .responsive }
 *Source: Walmart.com*{: .caption }
-
-
-
 
