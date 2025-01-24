@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: Network Cable Tester and Mesh Router
+title: Network Cable Tester And Mesh Router
 ---
 
 ## Network Cable Tester
