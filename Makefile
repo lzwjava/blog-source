@@ -1,20 +1,20 @@
-.PHONY: awesome-cv audio-pipeline pdf-pipeline clean copy
+.PHONY: latex audio-pipeline pdf-pipeline clean copy
 
 CC = xelatex
-EXAMPLES_DIR = awesome-cv
-RESUME_DIR = awesome-cv/en
-RESUME_ZH_DIR = awesome-cv/zh
-COVER_LETTER_DIR = awesome-cv/coverletter
-INTRODUCTION_DIR = awesome-cv/en
-INTRODUCTION_ZH_DIR = awesome-cv/zh
+EXAMPLES_DIR = latex
+RESUME_DIR = latex/en
+RESUME_ZH_DIR = latex/zh
+COVER_LETTER_DIR = latex/coverletter
+INTRODUCTION_DIR = latex/en
+INTRODUCTION_ZH_DIR = latex/zh
 RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 RESUME_ZH_SRCS = $(shell find $(RESUME_ZH_DIR) -name '*.tex')
 INTRODUCTION_SRCS = $(shell find $(INTRODUCTION_DIR) -name '*.tex')
 INTRODUCTION_ZH_SRCS = $(shell find $(INTRODUCTION_ZH_DIR) -name '*.tex')
 
 
-# Existing awesome-cv target
-awesome-cv: $(foreach x, coverletter coverletter-zh resume-zh resume, $x.pdf)
+# Existing latex target
+latex: $(foreach x, coverletter coverletter-zh resume-zh resume, $x.pdf)
 
 resume.pdf: $(RESUME_DIR)/resume.tex $(RESUME_SRCS)
 	$(CC) -output-directory=$(EXAMPLES_DIR) $<
@@ -53,9 +53,9 @@ clean:
 copy:
 	mkdir -p assets/resume
 
-	cp awesome-cv/resume.pdf assets/resume/Zhiwei.Li.Resume.pdf
-	cp awesome-cv/resume-zh.pdf assets/resume/Zhiwei.Li.Resume.ZH.pdf
+	cp latex/resume.pdf assets/resume/Zhiwei.Li.Resume.pdf
+	cp latex/resume-zh.pdf assets/resume/Zhiwei.Li.Resume.ZH.pdf
 
 copy-introduction:
-	cp awesome-cv/en/introduction-en.pdf assets/resume/Zhiwei.Li.Introduction.EN.pdf
-	cp awesome-cv/zh/introduction-zh.pdf assets/resume/Zhiwei.Li.Introduction.ZH.pdf
+	cp latex/en/introduction-en.pdf assets/resume/Zhiwei.Li.Introduction.EN.pdf
+	cp latex/zh/introduction-zh.pdf assets/resume/Zhiwei.Li.Introduction.ZH.pdf
