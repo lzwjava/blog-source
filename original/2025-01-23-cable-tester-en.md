@@ -17,6 +17,14 @@ For this post, I am using an image from Amazon.com.
 ![](assets/images/cable-tester/c.jpg){: .responsive }
 *Source: Amazon.com*{: .caption }
 
+{: .centered }
+![](assets/images/cable-tester/c2.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
+{: .centered }
+![](assets/images/cable-tester/c3.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
+
 ## Mesh Router
 
 I started using a Mesh router in 2023. I purchased a TP-Link AX3000 system consisting of two mesh routers - a primary unit and a satellite unit. It cost me around 484 CNY at that time, but now it only costs 395 CNY on JD.com.
