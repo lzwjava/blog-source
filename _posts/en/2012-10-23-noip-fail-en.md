@@ -5,7 +5,6 @@ title: Focus on the College Entrance Exam
 translated: true
 ---
 
-
 Guangzhou 50 plus can get in, I can't. Too late. Too late. I feel that those brilliant people in cultural sciences may not have me. Yes, high school 1st and 2nd year, compared to OI, I still invested a lot of time in cultural sciences. Now cultural sciences can score over 600.
 
 If that cannot enter, let's focus on doing well in current things. I want to give it my all in college entrance exams, and fight alongside more brothers and sisters!

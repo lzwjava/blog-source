@@ -5,7 +5,6 @@ title: Entrepreneurship Insights Share
 translated: true
 ---
 
-
 ![Quiz Live Startup Image](assets/images/startup/s0.jpg)
 
 Recently, Quiz Live held a technical personnel growth communication meeting, where Quiz Live CEO Zhiwei shared his entrepreneurial insights with us. Here is the video link:

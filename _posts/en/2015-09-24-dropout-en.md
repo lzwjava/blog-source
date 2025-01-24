@@ -5,7 +5,6 @@ title: Dropout Application
 translated: true
 ---
 
-
 Dear respected school leaders:
 
 Greetings. I am Zhiwei from Computer Science Class 13-4. I took a year off and, after careful consideration, have decided to apply for withdrawal.

@@ -5,7 +5,6 @@ title: Reflections During Startup
 translated: true
 ---
 
-
 ### About Writing
 
 Writing articles, I have always believed is an extremely efficient way to pass time, especially when the number of people paying attention to you continues to grow. Imagine communicating with thousands of people at once, compared to communicating with just one, it is infinitely more efficient. To be successful, you need to effectively utilize your time in all that you do. For instance, is the value I gain from having a conversation with someone over dinner worth more than if I were writing an article for thousands to read, given that both took up half of my time? The answer is often clear. I might be better off writing an article by myself and sharing it with everyone. However, there are exceptions, such as when a company investor asks me to handle something and our friendly relationship could lead to substantial financial support from them in the future. Or when I collaborate with a colleague on a product, as working together to build an excellent product could lead to more brand endorsements and increased influence.
