@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: "Proxy Tool: Squid and Dante"
+title: "Proxy Tool: Squid and Danted"
 ---
 
 ## Danted
