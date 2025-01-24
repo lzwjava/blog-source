@@ -2,22 +2,22 @@
 audio: true
 lang: en
 layout: post
-title: Per-App Settings, Switch Control, and AssistiveTouch in iOS
+title: Special Settings in iOS
 ---
 
 ## Per-App Settings
 
 While using Reddit more frequently, I found the font size too small for comfortable reading. The app suggested adjusting the font size through Per-App Settings. After increasing it slightly, Reddit became much easier to use. Below are the screenshots showing the settings adjustments:
 
-<div style="text-align: center;">  
-    <img class="responsive" src="/assets/images/perapp/p2.jpg" alt="Per-App Settings Screen 1" width="50%" />  
-</div>
+{: .centered }
+![](assets/images/ios-settings/p2.jpg){: .responsive }
+*Per-App Settings Screen 1*{: .caption }
 
-<div style="text-align: center;">  
-    <img class="responsive" src="/assets/images/perapp/p1.jpg" alt="Per-App Settings Screen 2" width="50%" />  
-</div>
+{: .centered }
+![](assets/images/ios-settings/p1.jpg){: .responsive }
+*Per-App Settings Screen 2*{: .caption }
 
-## Switch Control and AssistiveTouch: Using a Remote Control Small Handle to Control Your iPhone
+## Switch Control and AssistiveTouch
 
 In 2019, I began using my iPhone more actively, especially for watching TikTok videos. However, when my phone was mounted in a lazy bracket, it became difficult to reach the screen and swipe between videos. To solve this, I bought a Bluetooth remote control handle that works with both iOS and Android devices.
 
@@ -25,10 +25,15 @@ In 2022, I purchased another remote control handle specifically for controlling 
 
 This remote control handle is not only great for managing TikTok but also versatile enough for taking selfies and controlling other iPhone functions, adding both convenience and safety to my driving experience.
 
-<div align="center">
+{: .centered }
+![](assets/images/ios-settings/kit.jpg){: .responsive }
+*Source: AliExpress*{: .caption }
 
-<img class="responsive" src="/assets/images/kit/kit.jpg" alt="Remote Control Handle"/>
+## TradingView
 
-<p><a href="https://www.aliexpress.com">Source: AliExpress</a></p>
+TradingView's widget data is more stable than other apps, such as Tiger Trade.
 
-</div>
+{: .centered }
+![](assets/images/ios-settings/trading_view.jpg){: .responsive }
+*Source: tradingview.com*{: .caption }
+
