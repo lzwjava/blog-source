@@ -37,11 +37,10 @@ TradingView's widget data is more stable than other apps, such as Tiger Trade.
 ![](assets/images/ios-settings/trading_view.jpg){: .responsive }
 *Source: tradingview.com*{: .caption }
 
-## Slide To Update
+## Slide to Update
 
-OKX update way is fascinating. Users need to slide to update. 
+The update method used by OKX is fascinating. Users need to slide to initiate an update.
 
 {: .centered }
 ![](assets/images/ios-settings/update.jpg){: .responsive }
 *Source: tradingview.com*{: .caption }
-
