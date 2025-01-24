@@ -24,3 +24,8 @@ Remove downloaded package dmg files, which can be easily downloaded from the int
 ## Portable Disk
 
 Purchase a portable disk and move some files there.
+
+## iPhone
+
+Import photos to your Mac and delete them after importing.
+
