@@ -12,11 +12,7 @@ Utilisez le chemin Paramètres -> Général -> Stockage -> Paramètres de stocka
 
 ## du
 
-Utilisez `du` pour identifier les fichiers volumineux.
-
-```bash
-du -hL -d 1
-```
+Utilisez `du` pour trouver les fichiers volumineux. Par exemple, utilisez la commande `du -hL -d 1 | sort -h`.
 
 ## Supprimer des applications
 
@@ -29,3 +25,7 @@ Supprimez les fichiers dmg des packages téléchargés, qui peuvent être facile
 ## Disque portable
 
 Achetez un disque portable et déplacez-y certains fichiers.
+
+## iPhone
+
+Importez les photos sur votre Mac et supprimez-les après l'importation.
