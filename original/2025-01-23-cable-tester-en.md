@@ -39,6 +39,8 @@ For the ZTE AC1200 mesh router, I could simply purchase one and use bridge mode,
 
 If you can access the main router, you can see the connected devices and their IP addresses. Then, you can try to access each device to determine which one is the sub-router. In my case, it was 192.168.1.23, which is the address of the ZTE AC1200 mesh router.
 
+For mobile phones, which we move around the home, it is better to use the 2.4 GHz channel as it is more stable. For laptops or desktop computers, which we typically use in our bedrooms or study rooms, it is better to use the 5 GHz channel as it is faster.
+
 {: .centered }
 ![](assets/images/cable-tester/zte.jpg){: .responsive }
 *Source: JD.com*{: .caption }
