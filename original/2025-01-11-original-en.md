@@ -7,9 +7,13 @@ title: Original Posts
 
 These are my original blog posts.
 
+* [Network Cable Tester and Mesh Router](/original/2025-01-23-cable-tester-en)
+* [Hot Water](/original/2025-01-23-hot-water-en)
+* [X Posts](/original/2025-01-22-x-en)
+* [Hanging a Lamp on the Shelf](/original/2025-01-21-lamp-en)
 * [Font Rendering Issues in GitHub Desktop](/original/2025-01-21-github-desktop-font-en)
 * [Wattage](/original/2025-01-21-wattage-en)
-* [Hanging a Bubble on the Shelf](/original/2025-01-21-bubble-en)
+* [Calories in Beverages](/original/2025-01-21-calorie-en)
 * [Function Compute on Alibaba Cloud](/original/2025-01-20-function-compute-en)
 * [Bedroom](/original/2025-01-18-bedroom-en)
 * [Use DeepThink or ChatGPT o1 A Lot](/original/2025-01-18-deep-think-en)
