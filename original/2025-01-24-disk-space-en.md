@@ -11,7 +11,7 @@ Use the path Settings -> General -> Storage -> Storage settings to find out how 
 
 ## du
 
-Use `du` to find large files. For example, use the command `du -hL -d 1`.
+Use `du` to find large files. For example, use the command `du -hL -d 1 | sort -h`.
 
 ## Delete Applications
 
