@@ -5,11 +5,11 @@ title: AIツール
 translated: true
 ---
 
-以下は私が使用したAIツールの一部です：
+以下は私が使用したAIツールのリストです：
 
 #### チャットボット
 
-グローバル:
+グローバル：
 
 - [chatgpt.com](http://chatgpt.com)
 - [claude.ai](https://claude.ai)
@@ -17,11 +17,14 @@ translated: true
 - [chat.mistral.ai](https://chat.mistral.ai)
 - [copilot.microsoft.com](https://copilot.microsoft.com)
 - [coral.cohere.com](https://coral.cohere.com)
+- [grok.com](https://grok.com/)
+- [chat.deepseek.com](https://chat.deepseek.com)
 
-中国:
+中国：
 
 - [kimi.moonshot.cn](https://kimi.moonshot.cn)
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
+- [doubao.com](https://www.doubao.com/chat/)
 
 #### リーダーボード
 
@@ -36,3 +39,6 @@ translated: true
 - [cursor.com](https://www.cursor.com)
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [midjourney.com](https://www.midjourney.com)
+- [runwayml.com](https://runwayml.com)
+- [codeium.com/windsurf](https://codeium.com/windsurf)
+- [pika.art](https://pika.art)
