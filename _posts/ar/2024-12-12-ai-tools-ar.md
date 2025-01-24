@@ -19,6 +19,7 @@ translated: true
 - [coral.cohere.com](https://coral.cohere.com)
 - [grok.com](https://grok.com/)
 - [chat.deepseek.com](https://chat.deepseek.com)
+- [aistudio.google.com](https://aistudio.google.com)
 
 الصين:
 
@@ -26,14 +27,13 @@ translated: true
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-
 #### لوحات المتصدرين
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
 - [TTS Arena](https://huggingface.co/spaces/TTS-AGI/TTS-Arena)
 
-### أخرى
+### أدوات أخرى
 
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)

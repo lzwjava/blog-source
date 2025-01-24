@@ -19,6 +19,7 @@ translated: true
 - [coral.cohere.com](https://coral.cohere.com)
 - [grok.com](https://grok.com/)
 - [chat.deepseek.com](https://chat.deepseek.com)
+- [aistudio.google.com](https://aistudio.google.com)
 
 चीन:
 
@@ -26,7 +27,7 @@ translated: true
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-#### लीडरबोर्ड
+#### लीडरबोर्ड्स
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)

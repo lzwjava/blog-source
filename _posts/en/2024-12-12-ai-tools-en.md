@@ -20,6 +20,7 @@ Global:
 - [coral.cohere.com](https://coral.cohere.com)
 - [grok.com](https://grok.com/)
 - [chat.deepseek.com](https://chat.deepseek.com)
+- [aistudio.google.com](https://aistudio.google.com)
 
 China:
 

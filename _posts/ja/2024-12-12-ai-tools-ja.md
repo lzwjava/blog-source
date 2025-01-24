@@ -9,7 +9,7 @@ translated: true
 
 #### チャットボット
 
-グローバル：
+グローバル:
 
 - [chatgpt.com](http://chatgpt.com)
 - [claude.ai](https://claude.ai)
@@ -19,8 +19,9 @@ translated: true
 - [coral.cohere.com](https://coral.cohere.com)
 - [grok.com](https://grok.com/)
 - [chat.deepseek.com](https://chat.deepseek.com)
+- [aistudio.google.com](https://aistudio.google.com)
 
-中国：
+中国:
 
 - [kimi.moonshot.cn](https://kimi.moonshot.cn)
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
