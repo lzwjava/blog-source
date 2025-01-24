@@ -5,9 +5,6 @@ title: Reflections During Startup
 translated: true
 ---
 
-*This blog post was translated by Mistral*
-
----
 
 ### About Writing
 

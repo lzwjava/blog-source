@@ -5,9 +5,6 @@ title: Dropout Application
 translated: true
 ---
 
-*This blog post was translated by Mistral*
-
----
 
 Dear respected school leaders:
 

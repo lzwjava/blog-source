@@ -5,10 +5,6 @@ title: 'September''s Song: High School Essay'
 translated: true
 ---
 
-*This blog post was translated by Mistral.*
-
----
-
 **Preface:** The idea for this essay came to me on September 30th while riding the school bus home. Upon arriving home, I immediately wrote down the clear memories from my mind. It took me 10 hours to write, which is a bit slow, but the gains were significant. Although some parts are personal emotions (or complaints), the main body reflects my journey this month. Total word count: 8999. Post-writing thoughts: This is the first major piece of my life. I spoke freely and felt great. Assuming a normal reading speed of 1500 words per minute, it would take the visitor about 5 and a half minutes to read (of course, if you have plenty of time, read it slowly). I am deeply grateful. Let's improve together.
 
 ***

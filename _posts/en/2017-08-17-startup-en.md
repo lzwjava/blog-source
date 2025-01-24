@@ -5,9 +5,6 @@ title: Entrepreneurship Insights Share
 translated: true
 ---
 
-*This blog post was translated by Mistral*
-
----
 
 ![Quiz Live Startup Image](assets/images/startup/s0.jpg)
 

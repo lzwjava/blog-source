@@ -5,9 +5,6 @@ title: Cloud Computing And Big Data Beginners
 translated: true
 ---
 
-*This blog post was translated by Mistral*
-
----
  This lesson covers the following topics:
 
 * Spark
