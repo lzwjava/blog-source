@@ -1,7 +1,7 @@
 ---
 lang: hant
 layout: post
-title: 人工智能工具
+title: AI工具
 translated: true
 ---
 
@@ -19,6 +19,7 @@ translated: true
 - [coral.cohere.com](https://coral.cohere.com)
 - [grok.com](https://grok.com/)
 - [chat.deepseek.com](https://chat.deepseek.com)
+- [aistudio.google.com](https://aistudio.google.com)
 
 中國：
 

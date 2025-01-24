@@ -19,6 +19,7 @@ Global:
 - [coral.cohere.com](https://coral.cohere.com)
 - [grok.com](https://grok.com/)
 - [chat.deepseek.com](https://chat.deepseek.com)
+- [aistudio.google.com](https://aistudio.google.com)
 
 China:
 
@@ -27,7 +28,7 @@ China:
 - [doubao.com](https://www.doubao.com/chat/)
 
 
-#### Ranglisten
+#### Leaderboards
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
