@@ -2,7 +2,7 @@
 audio: true
 lang: fr
 layout: post
-title: Tester llama.cpp
+title: Essayer llama.cpp
 translated: true
 ---
 
@@ -21,9 +21,9 @@ llama_init_from_gpt_params: error: failed to load model 'models/7B/Phi-3-mini-4k
 main: error: unable to load model
 ```
 
-Cette erreur indique généralement un problème avec l'installation de `llama.cpp` ou avec le fichier du modèle lui-même.
+Cette erreur se produit parce que j'exécute le programme `main`. Exécuter les programmes `llama-cli` ou `llama-server` situés sous `build/bin` devrait résoudre le problème.
 
-Une solution courante consiste à installer `llama.cpp` via Homebrew :
+Une autre solution consiste à installer `llama.cpp` via Homebrew :
 
 ```bash
 brew install llama.cpp
@@ -52,7 +52,7 @@ C'est une excellente application iOS. Dans les paramètres, il y a environ 20 mo
 
 ## Avantages
 
-L'hébergement local de ces modèles LLM vous permet de les exécuter localement sans avoir besoin d'un accès réseau. Par exemple, lorsque vous téléchargez des fichiers volumineux qui congestionnent le réseau, l'exécution d'un modèle local peut être bénéfique.
+L'hébergement local de ces modèles LLM vous permet de les exécuter localement sans avoir besoin d'un accès réseau. Par exemple, lors du téléchargement de fichiers volumineux qui encombrent le réseau, l'exécution d'un modèle local peut être bénéfique.
 
 ## Ressources
 

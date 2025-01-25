@@ -21,9 +21,9 @@ llama_init_from_gpt_params: error: failed to load model 'models/7B/Phi-3-mini-4k
 main: error: unable to load model
 ```
 
-Este error suele indicar un problema con la instalación de `llama.cpp` o con el archivo del modelo en sí.
+Este error ocurre porque estoy ejecutando el programa `main`. Ejecutar los programas `llama-cli` o `llama-server` ubicados en `build/bin` debería resolver el problema.
 
-Una solución común es instalar `llama.cpp` usando Homebrew:
+Otra solución es instalar `llama.cpp` usando Homebrew:
 
 ```bash
 brew install llama.cpp
@@ -44,11 +44,11 @@ mistral:7b             f974a74358d6    4.1 GB    15 hours ago
 ollama remove model
 ```
 
-Es una herramienta genial para usar. Hay algunos errores en Ollamac. Por ejemplo, cuando recibe una respuesta de la API local, varias cajas de texto en la aplicación se actualizan.
+Es una gran herramienta para usar. Hay algunos errores en Ollamac. Por ejemplo, cuando recibe una respuesta de la API local, varias cajas de texto en la aplicación se actualizan.
 
 ## LLM Farm
 
-Es una excelente aplicación para iOS. En los ajustes, hay alrededor de 20 modelos. Cuando importamos un modelo GGUF por nuestra cuenta, que se descarga de Hugging Face, puede causar un cierre inesperado de la aplicación.
+Es una gran aplicación para iOS. En los ajustes, hay alrededor de 20 modelos. Cuando importamos un modelo GGUF por nuestra cuenta, que se descargan de Hugging Face, puede causar un cierre inesperado de la aplicación.
 
 ## Beneficios
 

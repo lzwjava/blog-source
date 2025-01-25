@@ -21,9 +21,9 @@ llama_init_from_gpt_params: error: failed to load model 'models/7B/Phi-3-mini-4k
 main: error: unable to load model
 ```
 
-هذا الخطأ يشير عادة إلى مشكلة في تثبيت `llama.cpp` أو في ملف النموذج نفسه.
+يحدث هذا الخطأ لأنني أقوم بتشغيل برنامج `main`. تشغيل برامج `llama-cli` أو `llama-server` الموجودة تحت `build/bin` يجب أن يحل المشكلة.
 
-حل شائع هو تثبيت `llama.cpp` باستخدام Homebrew:
+حل آخر هو تثبيت `llama.cpp` باستخدام Homebrew:
 
 ```bash
 brew install llama.cpp
@@ -52,9 +52,9 @@ ollama remove model
 
 ## الفوائد
 
-تشغيل نماذج LLM هذه محليًا يسمح لك بتشغيلها دون الحاجة إلى الوصول إلى الشبكة. على سبيل المثال، عند تنزيل ملفات كبيرة تعيق الشبكة، يمكن أن يكون تشغيل نموذج محلي مفيدًا.
+استضافة هذه النماذج LLM محليًا يسمح لك بتشغيلها دون الحاجة إلى الوصول إلى الشبكة. على سبيل المثال، عند تنزيل ملفات كبيرة تعيق الشبكة، تشغيل نموذج محلي يمكن أن يكون مفيدًا.
 
-## الموارد
+## المصادر
 
 *   [نماذج Hugging Face GGML](https://huggingface.co/ggml-org?sort_models=downloads#models)
 *   [مستودع llama.cpp على GitHub](https://github.com/ggerganov/llama.cpp)
