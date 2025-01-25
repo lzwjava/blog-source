@@ -8,18 +8,24 @@ translated: true
 
 ## Wischen nach links in iOS-Listen
 
-Die Wischgeste nach links ist eine leistungsstarke Funktion, die es Benutzern ermöglicht, versteckte Funktionen in Apps zu nutzen. Während das Wischen nach rechts oft die Standardaktion ist (z. B. unterstützt WeChat in seiner Gesprächsliste keine Wischgesten nach links), kann das Ausprobieren von Wischgesten nach links in anderen Apps wertvolle Optionen freischalten. Wenn Sie durch Listen navigieren, versuchen Sie, nach links zu wischen, um zusätzliche Funktionen zu enthüllen, die Ihr Benutzererlebnis verbessern können.
+Die Wischgeste nach links ist eine leistungsstarke Funktion, die es Benutzern ermöglicht, versteckte Funktionen innerhalb von Apps zu nutzen. Während das Wischen nach rechts oft die Standardaktion ist (z.B. unterstützt WeChat in seiner Konversationsliste kein Wischen nach links), kann das Ausprobieren von Wischgesten nach links in anderen Apps wertvolle Optionen freischalten. Wenn Sie durch Listen navigieren, versuchen Sie, nach links zu wischen, um zusätzliche Funktionen zu enthüllen, die Ihr Benutzererlebnis verbessern können.
 
-<div style="text-align: center;">
-    <img class="responsive" src="/assets/images/left-swipe/left-swipe.jpg" alt="swipe"/>
-    <p style="font-size: 12px;">Quelle: Spotify</p>
-</div>
+{: .centered }
+![](assets/images/left-swipe/left-swipe.jpg){: .responsive }
+*Quelle: Spotify*{: .caption }
 
-<div style="text-align: center;">
-    <img class="responsive" src="/assets/images/left-swipe/wa-business.jpg" alt="wa"/>
-    <p style="font-size: 12px;">Quelle: WhatsApp Business</p>
-</div>
+{: .centered }
+![](assets/images/left-swipe/wa-business.jpg){: .responsive }
+*Quelle: WhatsApp Business*{: .caption }
 
 ## Apps sind mit dem Apple-Konto verknüpft
 
-Wenn ich Apps mit dem Apple-Konto A installiere und mich später mit dem Apple-Konto B anmelde, muss ich das Passwort für Konto A eingeben, um die damit verknüpften Apps zu aktualisieren. Das liegt daran, dass Apps mit der Apple-ID verknüpft sind, die während der Installation verwendet wurde, und nicht mit dem Gerät selbst.
+Wenn ich Apps mit Apple-Konto A installiere und mich später mit Apple-Konto B anmelde, muss ich das Passwort für Konto A eingeben, um die damit verknüpften Apps zu aktualisieren. Dies liegt daran, dass Apps mit der Apple-ID verknüpft sind, die während der Installation verwendet wurde, und nicht mit dem Gerät selbst.
+
+## Wischen nach rechts auf eine Nachricht in WhatsApp
+
+Dadurch werden die Nachrichteninformationen angezeigt, einschließlich der Information, ob die Nachricht gesehen oder zugestellt wurde.
+
+{: .centered }
+![](assets/images/left-swipe/wa.jpg){: .responsive }
+*Quelle: WhatsApp Business*{: .caption }
