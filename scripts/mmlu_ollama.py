@@ -1,28 +1,3 @@
----
-audio: true
-lang: en
-layout: post
-title: MMLU Benchmark
----
-
-This post evaluates a language model on the MMLU (Massive Multitask Language Understanding) benchmark.
-
-The MMLU benchmark is a comprehensive test of a model's ability to perform various tasks across a wide range of subjects. It consists of multiple-choice questions covering diverse areas such as mathematics, history, law, and medicine.
-
-**Dataset Links:**
-
-*   [Papers with Code](https://paperswithcode.com/dataset/mmlu)
-*   [Hugging Face Datasets](https://huggingface.co/datasets/cais/mmlu)
-
-To run the llama-server:
-
-```bash
-build/bin/llama-server -m models/7B/mistral-7b-instruct-v0.2.Q4_K_M.gguf --port 8080
-```
-
-To run the MMLU benchmark code:
-
-```python
 import torch
 from datasets import load_dataset
 import requests
@@ -92,22 +67,3 @@ for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"
 accuracy = correct / total
 print(f"Subject: {subject}")
 print(f"Accuracy: {accuracy:.2%} ({correct}/{total})")
-```
-
-Log:
-
-```bash
-% python scripts/mmlu.py
-
-Evaluating:   9%| 9/100 [01:31<15:19, 10.10s/it]Processed 10/100. Current Accuracy: 0.00% (0/10)
-Evaluating:  19%| 19/100 [03:14<12:47,  9.47s/it]Processed 20/100. Current Accuracy: 0.00% (0/20)
-Evaluating:  26%| 26/100 [04:30<13:44, 11.14s/it]
-
-...
-
-Processed 100/100. Current Accuracy: 40.00% (40/100)
-Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [15:15<00:00,  9.16s/it]
-Subject: college_computer_science
-Accuracy: 40.00% (40/100)
-```
-
