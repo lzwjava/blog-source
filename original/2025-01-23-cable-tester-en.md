@@ -57,3 +57,11 @@ A USB voltage step-up cable can be used to power routers with a power bank.
 ![](assets/images/cable-tester/12v.jpg){: .responsive }
 *Source: JD.com*{: .caption }
 
+## Two Ways to Help a Sub-Router Find the Main Router
+
+Sometimes, a sub-router cannot easily find the main router when the signal is weak.
+
+If we have to place the sub-router far from the main router, I wonder if it is faster to first connect it in a nearby location and then move it farther away, rather than trying to connect it when it is already in the far location.
+
+Maintaining a connection while nearby allows them to communicate with each other. I have found this method to be more effective.
+
