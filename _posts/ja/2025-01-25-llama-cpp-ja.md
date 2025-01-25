@@ -8,7 +8,7 @@ translated: true
 
 ## llama.cpp
 
-`llama.cpp` を使ってモデルを実行しようとすると、次のようなエラーが発生することがあります:
+`llama.cpp` でモデルを実行しようとすると、次のようなエラーが発生することがあります:
 
 ```bash
 % ./main -m models/7B/Phi-3-mini-4k-instruct-q4.gguf
@@ -21,9 +21,9 @@ llama_init_from_gpt_params: error: failed to load model 'models/7B/Phi-3-mini-4k
 main: error: unable to load model
 ```
 
-このエラーは通常、`llama.cpp` のインストールまたはモデルファイル自体に問題があることを示しています。
+このエラーは、`main` プログラムを実行しているために発生します。`build/bin` ディレクトリにある `llama-cli` または `llama-server` プログラムを実行することで問題が解決するはずです。
 
-一般的な解決策は、Homebrew を使って `llama.cpp` をインストールすることです:
+別の解決策として、Homebrew を使って `llama.cpp` をインストールすることもできます:
 
 ```bash
 brew install llama.cpp
@@ -44,7 +44,7 @@ mistral:7b             f974a74358d6    4.1 GB    15 hours ago
 ollama remove model
 ```
 
-これは非常に便利なツールです。ただし、Ollamac にはいくつかのバグがあります。例えば、ローカル API からレスポンスを受け取ると、アプリ内の複数のテキストボックスが更新されることがあります。
+これは非常に便利なツールです。Ollamac にはいくつかのバグがあります。例えば、ローカル API からレスポンスを受信すると、アプリ内の複数のテキストボックスが更新されることがあります。
 
 ## LLM Farm
 
@@ -52,7 +52,7 @@ ollama remove model
 
 ## 利点
 
-これらの LLM モデルをセルフホスティングすることで、ネットワークアクセスなしでローカルで実行できます。例えば、ネットワークを混雑させる大きなファイルをダウンロードしている場合、ローカルモデルを実行することでメリットがあります。
+これらの LLM モデルをセルフホスティングすることで、ネットワークアクセスなしでローカルで実行できます。例えば、ネットワークを混雑させる大きなファイルをダウンロードしている場合、ローカルモデルを実行することが有益です。
 
 ## リソース
 

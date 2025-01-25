@@ -2,7 +2,7 @@
 audio: true
 lang: de
 layout: post
-title: Llama.cpp ausprobieren
+title: Versuche llama.cpp
 translated: true
 ---
 
@@ -21,9 +21,9 @@ llama_init_from_gpt_params: error: failed to load model 'models/7B/Phi-3-mini-4k
 main: error: unable to load model
 ```
 
-Dieser Fehler deutet in der Regel auf ein Problem mit der Installation von `llama.cpp` oder der Modelldatei selbst hin.
+Dieser Fehler tritt auf, weil ich das `main`-Programm ausführe. Das Ausführen der Programme `llama-cli` oder `llama-server`, die sich unter `build/bin` befinden, sollte das Problem beheben.
 
-Eine gängige Lösung besteht darin, `llama.cpp` mit Homebrew zu installieren:
+Eine weitere Lösung besteht darin, `llama.cpp` mit Homebrew zu installieren:
 
 ```bash
 brew install llama.cpp
@@ -44,7 +44,7 @@ mistral:7b             f974a74358d6    4.1 GB    15 hours ago
 ollama remove model
 ```
 
-Es ist ein großartiges Tool. Es gibt jedoch einige Bugs in Ollamac. Zum Beispiel aktualisieren sich mehrere Textfelder in der App, wenn sie eine Antwort von der lokalen API erhält.
+Es ist ein großartiges Werkzeug. Es gibt einige Fehler in Ollamac. Zum Beispiel, wenn es eine Antwort von der lokalen API erhält, aktualisieren sich mehrere Textfelder in der App.
 
 ## LLM Farm
 
@@ -52,7 +52,7 @@ Es ist eine großartige iOS-App. In den Einstellungen gibt es etwa 20 Modelle. W
 
 ## Vorteile
 
-Das Selbsthosten dieser LLM-Modelle ermöglicht es Ihnen, sie lokal auszuführen, ohne auf Netzwerkzugriff angewiesen zu sein. Zum Beispiel kann es vorteilhaft sein, ein lokales Modell auszuführen, wenn große Dateien heruntergeladen werden, die das Netzwerk belasten.
+Das Selbsthosten dieser LLM-Modelle ermöglicht es Ihnen, sie lokal auszuführen, ohne auf Netzwerkzugriff angewiesen zu sein. Zum Beispiel kann es von Vorteil sein, ein lokales Modell auszuführen, wenn große Dateien heruntergeladen werden, die das Netzwerk belasten.
 
 ## Ressourcen
 
