@@ -20,11 +20,11 @@ Pour ce post, j'utilise une image provenant d'Amazon.com.
 
 {: .centered }
 ![](assets/images/cable-tester/c2.jpg){: .responsive }
-*Source : Capturée par moi-même*{: .caption }
+*Source : Capturé par moi-même*{: .caption }
 
 {: .centered }
 ![](assets/images/cable-tester/c3.jpg){: .responsive }
-*Source : Capturée par moi-même*{: .caption }
+*Source : Capturé par moi-même*{: .caption }
 
 ## Routeur Mesh
 
@@ -36,7 +36,7 @@ Pendant certains jours du festival du printemps 2025, ma famille est restée dan
 
 Des produits similaires disponibles chez Walmart incluent le routeur WiFi Mesh TP-Link, le routeur Mesh Eero Dual Band et le NetGear Nighthawk AX3000. Les prix de la plupart de ces produits varient entre 50 USD et 200 USD.
 
-Pour le routeur Mesh ZTE AC1200, je pouvais simplement en acheter un et utiliser le mode bridge, lui permettant de recevoir un signal WiFi et d'émettre ensuite son propre signal WiFi. Cela fonctionne parfaitement. À l'origine, l'adresse domaine du routeur était 192.168.5.1. Après avoir activé le mode bridge, cette adresse IP n'est plus accessible. Au lieu de cela, 192.168.1.1 vous redirigera vers le routeur principal de votre réseau domestique. À ce stade, vous pouvez accéder au centre de contrôle du routeur en naviguant vers http://zte.home.
+Pour le routeur Mesh ZTE AC1200, je pouvais simplement en acheter un et utiliser le mode bridge, lui permettant de recevoir un signal WiFi et d'émettre ensuite son propre signal WiFi. Cela fonctionne parfaitement. À l'origine, l'adresse du domaine du routeur était 192.168.5.1. Après avoir activé le mode bridge, cette adresse IP n'est plus accessible. Au lieu de cela, 192.168.1.1 vous redirigera vers le routeur principal de votre réseau domestique. À ce stade, vous pouvez accéder au centre de contrôle du routeur en naviguant vers http://zte.home.
 
 Si vous pouvez accéder au routeur principal, vous pouvez voir les appareils connectés et leurs adresses IP. Ensuite, vous pouvez essayer d'accéder à chaque appareil pour déterminer lequel est le sous-routeur. Dans mon cas, c'était 192.168.1.23, qui est l'adresse du routeur Mesh ZTE AC1200.
 
@@ -57,3 +57,11 @@ Un câble élévateur de tension USB peut être utilisé pour alimenter les rout
 {: .centered }
 ![](assets/images/cable-tester/12v.jpg){: .responsive }
 *Source : JD.com*{: .caption }
+
+## Deux façons d'aider un sous-routeur à trouver le routeur principal
+
+Parfois, un sous-routeur ne parvient pas facilement à trouver le routeur principal lorsque le signal est faible.
+
+Si nous devons placer le sous-routeur loin du routeur principal, je me demande s'il est plus rapide de le connecter d'abord à un endroit proche, puis de le déplacer plus loin, plutôt que d'essayer de le connecter lorsqu'il est déjà dans un endroit éloigné.
+
+Maintenir une connexion lorsqu'ils sont à proximité leur permet de communiquer entre eux. J'ai trouvé cette méthode plus efficace.
