@@ -17,7 +17,7 @@ args = parser.parse_args()
 
 # Load MMLU dataset
 subject = "college_computer_science"  # Choose your subject
-dataset = load_dataset("cais/mmlu", subject, split="test")
+dataset = load_dataset("cais/mmlu", subject, split="test", cache_dir="./.cache")
 
 # Format prompt without few-shot examples
 def format_mmlu_prompt(example):
