@@ -23,16 +23,35 @@ def _get_lightsail_instances():
         print(f"An unexpected error occurred: {e}")
         return None
 
+def _get_lightsail_instance(instance_name):
+    print(f"Fetching details for instance: {instance_name}")
+    try:
+        result = subprocess.run(["aws", "lightsail", "get-instance", "--instance-name", instance_name], capture_output=True, text=True, check=True)
+        instance_data = yaml.safe_load(result.stdout)
+        if not instance_data or 'instance' not in instance_data:
+            print(f"Could not find instance with name: {instance_name}")
+            return None
+        return instance_data['instance']
+    except subprocess.CalledProcessError as e:
+        print(f"Error getting instance details: {e}")
+        return None
+    except yaml.YAMLError as e:
+        print(f"Error decoding YAML response: {e}")
+        return None
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        return None
 
-def create_lightsail_instance(instance_name, availability_zone, bundle_id, user_data=None):
-    random_chars = ''.join(random.choice(string.ascii_lowercase) for _ in range(4))
-    instance_name = f"{random_chars}"
-    availability_zone = "ap-northeast-1a"
-    bundle_id = "nano_2_0"
+
+def create_lightsail_instance(instance_name=None, availability_zone="ap-northeast-1a", bundle_id="nano_2_0", user_data=None):
+    if not instance_name:
+        random_chars = ''.join(random.choice(string.ascii_lowercase) for _ in range(4))
+        instance_name = f"{random_chars}"
     
-    user_data = """#!/bin/bash
-    sudo apt update
-    """
+    if not user_data:
+        user_data = """#!/bin/bash
+        sudo apt update
+        """
     print(f"Creating Lightsail instance with name: {instance_name}, zone: {availability_zone}, bundle: {bundle_id}...")
 
     command = [
@@ -49,8 +68,10 @@ def create_lightsail_instance(instance_name, availability_zone, bundle_id, user_
     try:
         subprocess.run(command, check=True)
         print(f"Lightsail instance '{instance_name}' created successfully.")
+        return instance_name
     except subprocess.CalledProcessError as e:
         print(f"Error creating Lightsail instance: {e}")
+        return None
 
 def delete_all_lightsail_instances():
     instances_yaml = _get_lightsail_instances()
@@ -71,14 +92,10 @@ def delete_all_lightsail_instances():
     print("All Lightsail instances deleted successfully.")
 
 
-def install_outline_server():
-    instances_yaml = _get_lightsail_instances()
-    if not instances_yaml or 'instances' not in instances_yaml or not instances_yaml['instances']:
-        print("No Lightsail instances found to install outline server on.")
+def install_outline_server(instance_name):
+    instance = _get_lightsail_instance(instance_name)
+    if not instance:
         return
-    
-    instance = instances_yaml['instances'][0]
-    instance_name = instance['name']
     public_ip = instance['publicIpAddress']
     print(f"Installing outline server on instance: {instance_name} with IP: {public_ip}")
     user_data = """#!/bin/bash
@@ -105,14 +122,8 @@ def install_outline_server():
         print(f"Error installing outline server: {e}")
 
 
-def open_firewall_ports():
-    instances_yaml = _get_lightsail_instances()
-    if not instances_yaml or 'instances' not in instances_yaml or not instances_yaml['instances']:
-        print("No Lightsail instances found to open firewall ports on.")
-        return
-    
-    instance = instances_yaml['instances'][0]
-    instance_name = instance['name']
+
+def open_firewall_ports(instance_name):
     print(f"Opening firewall ports for instance: {instance_name}")
     for protocol in ["tcp", "udp"]:
         command = [
@@ -127,17 +138,16 @@ def open_firewall_ports():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create or delete Lightsail instances.")
-    parser.add_argument("--job", type=str, choices=["create", "delete", "install", "firewall"], required=True, help="Action type: create or delete or install or firewall")
+    parser.add_argument("--job", type=str, choices=["create", "delete"], required=True, help="Action type: create or delete")
     args = parser.parse_args()
 
     print(f"Setting AWS region to ap-northeast-1")
     subprocess.run(["aws", "configure", "set", "region", "ap-northeast-1"], check=True)
 
     if args.job == "create":           
-        create_lightsail_instance()
+        instance_name = create_lightsail_instance()
+        if instance_name:
+            install_outline_server(instance_name)
+            open_firewall_ports(instance_name)
     elif args.job == "delete":
         delete_all_lightsail_instances()
-    elif args.job == "install":
-        install_outline_server()
-    elif args.job == "firewall":
-        open_firewall_ports()
