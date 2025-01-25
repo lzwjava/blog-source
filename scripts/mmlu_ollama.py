@@ -27,10 +27,11 @@ for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"
     prompt = format_mmlu_prompt(example)
     
     # Send request to llama-server
-    url = "http://localhost:8080/v1/chat/completions"
+    url = "http://localhost:11434/v1/chat/completions"
     headers = {"Content-Type": "application/json"}
     data = {
-        "messages": [{"role": "user", "content": prompt}]
+        "messages": [{"role": "user", "content": prompt}],
+        "model": "mistral:7b"
     }
     
     print(f"Input to API: {data}")
