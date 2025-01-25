@@ -7,7 +7,9 @@ title: Set Up Your Proxy Server
 
 * To set up a server, use Outline Manager: [https://getoutline.org](https://getoutline.org).  
 
-* Recommended hosting providers include DigitalOcean, Google Cloud, Amazon Lightsail, Azure, Vultr, or Linode. Prefer regions in Singapore or Tokyo. Avoid the Hong Kong region, as tools like ChatGPT and Claude are banned there.  
+* Recommended hosting providers include DigitalOcean, Google Cloud, Amazon Lightsail, Azure, Vultr, or Linode. Prefer regions in Singapore or Tokyo. Avoid the Hong Kong region, as tools like ChatGPT and Claude are banned there. 
+
+* If you don't mind that ChatGPT and Claude are banned in Hong Kong, it is still a great option. You can use tools like Deepseek, Mistral, Grok, and the Gemini API with Hong Kong servers.
 
 * Protocols such as Shadowsocks, VMess, and Trojan can easily get banned.  
 
@@ -28,3 +30,4 @@ title: Set Up Your Proxy Server
 * We use Outline Manager to set up our own servers because it is fast and allows us to enjoy the server by ourselves. VPN provider's nodes can often be unreliable. Our servers may also experience issues, but we have much more detailed knowledge of the situation. We can also choose different cloud providers. Additionally, we know whether we are using China Telecom or China Mobile, and whether we are using home Wi-Fi or cellular data.
 
 * It is probably not useful to install OpenWrt on a router to set up a proxy. The main issue is that the GFW can easily ban your proxy server's IP address. It's better to use a subscription method, like with Clash, to easily change settings on your router.
+
