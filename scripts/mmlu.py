@@ -39,19 +39,13 @@ def initialize_deepseek_client():
         exit()
     return OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
 
-# Initialize Gemini client if needed
-def initialize_gemini_client():
+def call_gemini_api(prompt, retries=3, backoff_factor=1):
     gemini_api_key = os.environ.get("GEMINI_API_KEY")
     if not gemini_api_key:
         print("Error: GEMINI_API_KEY environment variable not set.")
-        exit()
-    gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key={gemini_api_key}"
-    gemini_headers = {'Content-Type': 'application/json'}
-    return gemini_url, gemini_headers
-
-def call_gemini_api(prompt, retries=3, backoff_factor=1):
-    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent"
-    params = {"key": os.environ.get("GEMINI_API_KEY")}
+        exit()    
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+    params = {"key": gemini_api_key}
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
 
     for attempt in range(retries):
@@ -136,8 +130,6 @@ def evaluate_model(args, dataset):
     client = None
     if args.type == "deepseek":
         client = initialize_deepseek_client()
-    elif args.type == "gemini":
-        gemini_url, gemini_headers = initialize_gemini_client()
 
     for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"):
         prompt = format_mmlu_prompt(example)
