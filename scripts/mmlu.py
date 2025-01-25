@@ -104,24 +104,31 @@ def process_deepseek_response(client, prompt):
 
 def process_gemini_response(prompt):
     json_response = call_gemini_api(prompt)
-    if json_response and 'candidates' in json_response and json_response['candidates']:
-        first_candidate = json_response['candidates'][0]
-        if 'content' in first_candidate and 'parts' in first_candidate['content']:
-            first_part = first_candidate['content']['parts'][0]
-            if 'text' in first_part:
-                output_text = first_part['text']
-                predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
-                print(f"Output from API: {output_text}")
-                return predicted_answer
-            else:
-                print("No text found in the response")
-                return ""
+    if not json_response:
+        print("No response from Gemini API after retries.")
+        return ""
+    if 'candidates' not in json_response or not json_response['candidates']:
+        print("No candidates found in the response, retrying...")
+        json_response = call_gemini_api(prompt)
+        if not json_response or 'candidates' not in json_response or not json_response['candidates']:
+            print("No candidates found in the response after retry.")
+            return ""
+    
+    first_candidate = json_response['candidates'][0]
+    if 'content' in first_candidate and 'parts' in first_candidate['content']:
+        first_part = first_candidate['content']['parts'][0]
+        if 'text' in first_part:
+            output_text = first_part['text']
+            predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
+            print(f"Output from API: {output_text}")
+            return predicted_answer
         else:
-            print("Unexpected response format: content or parts missing")
+            print("No text found in the response")
             return ""
     else:
-        print("No candidates found in the response")
+        print("Unexpected response format: content or parts missing")
         return ""
+
 
 def evaluate_model(args, dataset):
     correct = 0
