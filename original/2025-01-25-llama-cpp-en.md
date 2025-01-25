@@ -49,6 +49,10 @@ It's a great tool to use. There are some bugs in Ollamac. For example, when it r
 
 It's a great iOS app. In the settings, there are around 20 models. When importing a GGUF model by ourselves, which are downloaded from Hugging Face, it may lead to a crash.
 
+## Benefits
+
+Self-hosting these LLM models allows you to run them locally without needing network access. For example, when downloading large files that congest the network, running a local model can be beneficial.
+
 ## Resources
 
 *   [Hugging Face GGML Models](https://huggingface.co/ggml-org?sort_models=downloads#models)
