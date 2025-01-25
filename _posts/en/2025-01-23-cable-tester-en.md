@@ -51,3 +51,11 @@ For mobile phones, which we move around the home, it is better to use the 2.4 GH
 ![](assets/images/cable-tester/netgear.jpg){: .responsive }
 *Source: Walmart.com*{: .caption }
 
+## 12V Power for Routers
+
+A USB voltage step-up cable can be used to power routers with a power bank.
+
+{: .centered }
+![](assets/images/cable-tester/12v.jpg){: .responsive }
+*Source: JD.com*{: .caption }
+

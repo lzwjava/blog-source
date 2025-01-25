@@ -8,7 +8,7 @@ translated: true
 
 ## Netzwerkkabeltester
 
-Ich habe kürzlich einen Netzwerkkabeltester bei JD.com gekauft. Ich habe schon oft Netzwerkberater gesehen, die zu mir nach Hause oder ins Büro meines Arbeitgebers kamen, um das Netzwerk zu testen.
+Ich habe kürzlich einen Netzwerkkabeltester bei JD.com gekauft. Ich habe schon oft Netzwerkberater gesehen, die zu mir nach Hause oder ins Büro meines Arbeitgebers gekommen sind, um das Netzwerk zu testen.
 
 Dieses Gerät ist sehr preiswert und kostet nur etwa 10 CNY. Ein ähnliches Produkt bei Walmart würde etwa 10 USD kosten.
 
@@ -28,7 +28,7 @@ Für diesen Beitrag verwende ich ein Bild von Amazon.com.
 
 ## Mesh-Router
 
-Ich habe 2023 begonnen, einen Mesh-Router zu verwenden. Ich habe ein TP-Link AX3000-System gekauft, das aus zwei Mesh-Routern besteht – einer Haupteinheit und einer Satelliteneinheit. Es hat mich damals etwa 484 CNY gekostet, aber jetzt kostet es nur noch 395 CNY bei JD.com.
+Ich habe 2023 begonnen, einen Mesh-Router zu verwenden. Ich habe ein TP-Link AX3000-System gekauft, das aus zwei Mesh-Routern besteht – einer Haupteinheit und einer Satelliteneinheit. Es hat mich damals etwa 484 CNY gekostet, aber jetzt kostet es auf JD.com nur noch 395 CNY.
 
 Ich habe dieses System zunächst in meinem großen Haus verwendet, aber später in das Haus meiner Eltern verlegt.
 
@@ -40,7 +40,7 @@ Für den ZTE AC1200 Mesh-Router konnte ich einfach einen kaufen und den Bridge-M
 
 Wenn Sie auf den Hauptrouter zugreifen können, können Sie die verbundenen Geräte und ihre IP-Adressen sehen. Dann können Sie versuchen, auf jedes Gerät zuzugreifen, um festzustellen, welches der Sub-Router ist. In meinem Fall war es 192.168.1.23, die Adresse des ZTE AC1200 Mesh-Routers.
 
-Für Mobiltelefone, die wir im Haus herumbewegen, ist es besser, den 2,4-GHz-Kanal zu verwenden, da er stabiler ist. Für Laptops oder Desktop-Computer, die wir normalerweise in unseren Schlafzimmern oder Arbeitszimmern verwenden, ist es besser, den 5-GHz-Kanal zu verwenden, da er schneller ist.
+Für Mobiltelefone, die wir im Haus herumbewegen, ist es besser, den 2,4-GHz-Kanal zu verwenden, da er stabiler ist. Für Laptops oder Desktop-Computer, die wir normalerweise in unseren Schlafzimmern oder Arbeitszimmern verwenden, ist der 5-GHz-Kanal besser, da er schneller ist.
 
 {: .centered }
 ![](assets/images/cable-tester/zte.jpg){: .responsive }
@@ -49,3 +49,11 @@ Für Mobiltelefone, die wir im Haus herumbewegen, ist es besser, den 2,4-GHz-Kan
 {: .centered }
 ![](assets/images/cable-tester/netgear.jpg){: .responsive }
 *Quelle: Walmart.com*{: .caption }
+
+## 12V-Stromversorgung für Router
+
+Ein USB-Spannungswandler-Kabel kann verwendet werden, um Router mit einer Powerbank zu betreiben.
+
+{: .centered }
+![](assets/images/cable-tester/12v.jpg){: .responsive }
+*Quelle: JD.com*{: .caption }

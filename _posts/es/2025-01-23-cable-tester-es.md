@@ -10,7 +10,7 @@ translated: true
 
 Recientemente compré un probador de cable de red en JD.com. He visto a consultores de red venir a mi casa o a la oficina de mi empleador para probar la red.
 
-Este dispositivo es muy económico, cuesta solo alrededor de 10 CNY. Un producto similar en Walmart costaría alrededor de 10 USD.
+Este dispositivo es muy económico, cuesta solo unos 10 CNY. Un producto similar en Walmart costaría alrededor de 10 USD.
 
 Para esta publicación, estoy utilizando una imagen de Amazon.com.
 
@@ -36,11 +36,11 @@ Durante algunos días del Festival de Primavera de 2025, mi familia se quedó en
 
 Productos similares disponibles en Walmart incluyen el TP-Link WiFi Mesh Router, el Eero Dual Band Mesh Router y el NetGear Nighthawk AX3000. Los precios de la mayoría de estos productos oscilan entre 50 USD y 200 USD.
 
-Para el router mesh ZTE AC1200, simplemente podía comprar uno y usar el modo puente, permitiendo que reciba una señal WiFi y luego emita su propia señal WiFi. Funciona perfectamente. Originalmente, la dirección de dominio del router era 192.168.5.1. Después de habilitar el modo puente, esta dirección IP ya no es accesible. En su lugar, 192.168.1.1 te redirigirá al router principal en tu red doméstica. En este punto, puedes acceder al centro de control del router navegando a http://zte.home.
+Para el router mesh ZTE AC1200, simplemente podía comprar uno y usar el modo puente, permitiéndole recibir una señal WiFi y luego emitir su propia señal WiFi. Funciona perfectamente. Originalmente, la dirección de dominio del router era 192.168.5.1. Después de habilitar el modo puente, esta dirección IP ya no es accesible. En su lugar, 192.168.1.1 te redirigirá al router principal de tu red doméstica. En este punto, puedes acceder al centro de control del router navegando a http://zte.home.
 
 Si puedes acceder al router principal, puedes ver los dispositivos conectados y sus direcciones IP. Luego, puedes intentar acceder a cada dispositivo para determinar cuál es el sub-router. En mi caso, era 192.168.1.23, que es la dirección del router mesh ZTE AC1200.
 
-Para los teléfonos móviles, que movemos por la casa, es mejor usar el canal de 2.4 GHz ya que es más estable. Para las laptops o computadoras de escritorio, que normalmente usamos en nuestros dormitorios o estudios, es mejor usar el canal de 5 GHz ya que es más rápido.
+Para los teléfonos móviles, que movemos por la casa, es mejor usar el canal de 2.4 GHz ya que es más estable. Para laptops o computadoras de escritorio, que generalmente usamos en nuestros dormitorios o estudios, es mejor usar el canal de 5 GHz ya que es más rápido.
 
 {: .centered }
 ![](assets/images/cable-tester/zte.jpg){: .responsive }
@@ -49,3 +49,11 @@ Para los teléfonos móviles, que movemos por la casa, es mejor usar el canal de
 {: .centered }
 ![](assets/images/cable-tester/netgear.jpg){: .responsive }
 *Fuente: Walmart.com*{: .caption }
+
+## Alimentación de 12V para Routers
+
+Un cable elevador de voltaje USB puede usarse para alimentar routers con una batería externa.
+
+{: .centered }
+![](assets/images/cable-tester/12v.jpg){: .responsive }
+*Fuente: JD.com*{: .caption }
