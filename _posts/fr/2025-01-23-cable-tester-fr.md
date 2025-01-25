@@ -20,11 +20,11 @@ Pour ce post, j'utilise une image provenant d'Amazon.com.
 
 {: .centered }
 ![](assets/images/cable-tester/c2.jpg){: .responsive }
-*Source : Capturé par moi-même*{: .caption }
+*Source : Capturée par moi-même*{: .caption }
 
 {: .centered }
 ![](assets/images/cable-tester/c3.jpg){: .responsive }
-*Source : Capturé par moi-même*{: .caption }
+*Source : Capturée par moi-même*{: .caption }
 
 ## Routeur Mesh
 
@@ -34,9 +34,9 @@ J'ai initialement utilisé ce système dans ma grande maison, mais je l'ai ensui
 
 Pendant certains jours du festival du printemps 2025, ma famille est restée dans ma grande maison et a de nouveau connu une mauvaise qualité de réseau WiFi. Pour remédier à cela, j'ai acheté un autre routeur Mesh - le ZTE AC1200, qui coûte environ 108 CNY.
 
-Des produits similaires disponibles chez Walmart incluent le routeur WiFi Mesh TP-Link, le routeur Mesh Eero Dual Band, et le NetGear Nighthawk AX3000. Les prix de la plupart de ces produits varient entre 50 USD et 200 USD.
+Des produits similaires disponibles chez Walmart incluent le routeur WiFi Mesh TP-Link, le routeur Mesh Eero Dual Band et le NetGear Nighthawk AX3000. Les prix de la plupart de ces produits varient entre 50 USD et 200 USD.
 
-Pour le routeur Mesh ZTE AC1200, je pouvais simplement en acheter un et utiliser le mode bridge, lui permettant de recevoir un signal WiFi et ensuite d'émettre son propre signal WiFi. Cela fonctionne parfaitement. À l'origine, l'adresse du domaine du routeur était 192.168.5.1. Après avoir activé le mode bridge, cette adresse IP n'est plus accessible. À la place, 192.168.1.1 vous redirigera vers le routeur principal de votre réseau domestique. À ce stade, vous pouvez accéder au centre de contrôle du routeur en naviguant vers http://zte.home.
+Pour le routeur Mesh ZTE AC1200, je pouvais simplement en acheter un et utiliser le mode bridge, lui permettant de recevoir un signal WiFi et d'émettre ensuite son propre signal WiFi. Cela fonctionne parfaitement. À l'origine, l'adresse domaine du routeur était 192.168.5.1. Après avoir activé le mode bridge, cette adresse IP n'est plus accessible. Au lieu de cela, 192.168.1.1 vous redirigera vers le routeur principal de votre réseau domestique. À ce stade, vous pouvez accéder au centre de contrôle du routeur en naviguant vers http://zte.home.
 
 Si vous pouvez accéder au routeur principal, vous pouvez voir les appareils connectés et leurs adresses IP. Ensuite, vous pouvez essayer d'accéder à chaque appareil pour déterminer lequel est le sous-routeur. Dans mon cas, c'était 192.168.1.23, qui est l'adresse du routeur Mesh ZTE AC1200.
 
@@ -49,3 +49,11 @@ Pour les téléphones portables, que nous déplaçons dans la maison, il est pr�
 {: .centered }
 ![](assets/images/cable-tester/netgear.jpg){: .responsive }
 *Source : Walmart.com*{: .caption }
+
+## Alimentation 12V pour les routeurs
+
+Un câble élévateur de tension USB peut être utilisé pour alimenter les routeurs avec une batterie externe.
+
+{: .centered }
+![](assets/images/cable-tester/12v.jpg){: .responsive }
+*Source : JD.com*{: .caption }
