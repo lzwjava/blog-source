@@ -52,12 +52,15 @@ for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"
         print(f"Error: {response.status_code} - {response.text}")
     
     # Compare with ground truth
-    if predicted_answer.upper() == example["answer"]:
+    is_correct = predicted_answer.upper() == example["answer"]
+    if is_correct:
         correct += 1
     total += 1
-    if (i+1) % 10 == 0:
-        accuracy = correct / total
-        print(f"Processed {i+1}/{len(dataset)}. Current Accuracy: {accuracy:.2%} ({correct}/{total})")
+    
+    print(f"Question: {example['question']}")
+    print(f"Choices: A. {example['choices'][0]}, B. {example['choices'][1]}, C. {example['choices'][2]}, D. {example['choices'][3]}")
+    print(f"Predicted Answer: {predicted_answer}, Ground Truth: {example['answer']}, Correct: {is_correct}")
+    print("-" * 30)
 
 
 # Calculate accuracy
