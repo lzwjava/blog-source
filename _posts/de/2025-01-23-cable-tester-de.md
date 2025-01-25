@@ -8,7 +8,7 @@ translated: true
 
 ## Netzwerkkabeltester
 
-Ich habe kürzlich einen Netzwerkkabeltester bei JD.com gekauft. Ich habe schon oft Netzwerkberater gesehen, die zu mir nach Hause oder ins Büro meines Arbeitgebers gekommen sind, um das Netzwerk zu testen.
+Ich habe kürzlich einen Netzwerkkabeltester bei JD.com gekauft. Ich habe schon oft Netzwerkberater gesehen, die zu mir nach Hause oder ins Büro meines Arbeitgebers kamen, um das Netzwerk zu testen.
 
 Dieses Gerät ist sehr preiswert und kostet nur etwa 10 CNY. Ein ähnliches Produkt bei Walmart würde etwa 10 USD kosten.
 
@@ -28,7 +28,7 @@ Für diesen Beitrag verwende ich ein Bild von Amazon.com.
 
 ## Mesh-Router
 
-Ich habe 2023 begonnen, einen Mesh-Router zu verwenden. Ich habe ein TP-Link AX3000-System gekauft, das aus zwei Mesh-Routern besteht – einer Haupteinheit und einer Satelliteneinheit. Es hat mich damals etwa 484 CNY gekostet, aber jetzt kostet es auf JD.com nur noch 395 CNY.
+Ich habe 2023 angefangen, einen Mesh-Router zu verwenden. Ich habe ein TP-Link AX3000-System gekauft, das aus zwei Mesh-Routern besteht – einer Haupteinheit und einer Satelliteneinheit. Es hat mich damals etwa 484 CNY gekostet, aber jetzt kostet es auf JD.com nur noch 395 CNY.
 
 Ich habe dieses System zunächst in meinem großen Haus verwendet, aber später in das Haus meiner Eltern verlegt.
 
@@ -57,3 +57,11 @@ Ein USB-Spannungswandler-Kabel kann verwendet werden, um Router mit einer Powerb
 {: .centered }
 ![](assets/images/cable-tester/12v.jpg){: .responsive }
 *Quelle: JD.com*{: .caption }
+
+## Zwei Möglichkeiten, einem Sub-Router zu helfen, den Hauptrouter zu finden
+
+Manchmal kann ein Sub-Router den Hauptrouter nicht leicht finden, wenn das Signal schwach ist.
+
+Wenn wir den Sub-Router weit vom Hauptrouter entfernt platzieren müssen, frage ich mich, ob es schneller ist, ihn zunächst in der Nähe zu verbinden und ihn dann weiter weg zu bewegen, anstatt zu versuchen, ihn zu verbinden, wenn er bereits weit entfernt ist.
+
+Eine Verbindung in der Nähe aufrechtzuerhalten, ermöglicht es ihnen, miteinander zu kommunizieren. Ich habe festgestellt, dass diese Methode effektiver ist.
