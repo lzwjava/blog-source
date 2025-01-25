@@ -101,7 +101,9 @@ create policy:
                 "lightsail:IsVpcPeered",
                 "lightsail:GetInstanceSnapshots",
                 "lightsail:CreateBucket",
-                "lightsail:GetRelationalDatabaseLogStreams"
+                "lightsail:GetRelationalDatabaseLogStreams",
+                "lightsail:DeleteInstance",
+                "lightsail:DeleteInstanceSnapshot"
             ],
             "Resource": "*"
         },
