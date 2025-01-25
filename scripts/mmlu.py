@@ -3,7 +3,6 @@ from datasets import load_dataset
 import requests
 import json
 from tqdm import tqdm
-import re
 
 # Load MMLU dataset
 subject = "college_computer_science"  # Choose your subject
@@ -13,7 +12,7 @@ dataset = load_dataset("cais/mmlu", subject, split="test")
 def format_mmlu_prompt(example):
     prompt = "The following are multiple-choice questions about {}".format(subject.replace("_", " "))
     prompt += ". Please answer with the number of the correct choice (0, 1, 2, or 3) only."
-    prompt += " Output the number only, and do not output any other text."
+    prompt += " Answer the number only. Do not need Explanation."
     
     # Add current question
     prompt += f"Question: {example['question']}\n"
