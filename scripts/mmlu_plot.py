@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Sample data (replace with your actual data)
-models = ['mistral-7b-instruct-v0.2 (llama-server)', 'Mistral-7B-Instruct-v0.3 (ollama)', 'deepseek v3 (API)', 'gemini-1.5-flash (API)']
+models = ['mistral-7b-instruct-v0.2 (llama.cpp)', 'Mistral-7B-Instruct-v0.3 (ollama)', 'deepseek v3 (API)', 'gemini-1.5-flash (API)']
 accuracy = [40.00, 40.00, 78.00, 72.00]
 
 # Create the bar chart
