@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import os
 
 # Sample data (replace with your actual data)
 models = ['mistral-7b-instruct-v0.2 (llama-server)', 'Mistral-7B-Instruct-v0.3 (ollama)', 'deepseek v3 (API)', 'gemini-1.5-flash (API)']
@@ -18,6 +19,6 @@ plt.tight_layout()
 for i, val in enumerate(accuracy):
     plt.text(i, val + 1, f'{val:.2f}%', ha='center', va='bottom')
 
-# Save the chart as a PNG file
-plt.savefig('mmlu_accuracy_chart.png')
+# Save the chart as a PNG file in the current directory
+plt.savefig(os.path.join('.', 'mmlu_accuracy_chart.png'))
 plt.show()
