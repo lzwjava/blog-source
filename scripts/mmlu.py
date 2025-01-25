@@ -3,6 +3,17 @@ from datasets import load_dataset
 import requests
 import json
 from tqdm import tqdm
+import argparse
+import os
+from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Set up argument parsing
+parser = argparse.ArgumentParser(description="Evaluate MMLU dataset with different backends.")
+parser.add_argument("--type", type=str, default="ollama", choices=["ollama", "llama", "deepseek"], help="Backend type: ollama, llama, or deepseek")
+args = parser.parse_args()
 
 # Load MMLU dataset
 subject = "college_computer_science"  # Choose your subject
@@ -23,26 +34,71 @@ def format_mmlu_prompt(example):
 correct = 0
 total = 0
 
+# Initialize DeepSeek client if needed
+if args.type == "deepseek":
+    api_key = os.environ.get("DEEPSEEK_API_KEY")
+    if not api_key:
+        print("Error: DEEPSEEK_API_KEY environment variable not set.")
+        exit()
+    client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
+
+
 for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"):
     prompt = format_mmlu_prompt(example)
     
-    # Send request to llama-server
-    url = "http://localhost:8080/v1/chat/completions"
-    headers = {"Content-Type": "application/json"}
-    data = {
-        "messages": [{"role": "user", "content": prompt}]
-    }
-    
-    print(f"Input to API: {data}")
-    response = requests.post(url, headers=headers, data=json.dumps(data))
-    
-    if response.status_code == 200:
-        output_text = response.json()["choices"][0]["message"]["content"]
-        predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
-        print(f"Output from API: {output_text}")
+    # Send request to backend
+    if args.type == "ollama":
+        url = "http://localhost:11434/v1/chat/completions"
+        data = {
+            "messages": [{"role": "user", "content": prompt}],
+            "model": "mistral:7b"
+        }
+        headers = {"Content-Type": "application/json"}
+        print(f"Input to API: {data}")
+        response = requests.post(url, headers=headers, data=json.dumps(data))
+        if response.status_code == 200:
+            output_text = response.json()["choices"][0]["message"]["content"]
+            predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
+            print(f"Output from API: {output_text}")
+        else:
+            predicted_answer = ""
+            print(f"Error: {response.status_code} - {response.text}")
+    elif args.type == "llama":
+        url = "http://localhost:8080/v1/chat/completions"
+        data = {
+            "messages": [{"role": "user", "content": prompt}]
+        }
+        headers = {"Content-Type": "application/json"}
+        print(f"Input to API: {data}")
+        response = requests.post(url, headers=headers, data=json.dumps(data))
+        if response.status_code == 200:
+            output_text = response.json()["choices"][0]["message"]["content"]
+            predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
+            print(f"Output from API: {output_text}")
+        else:
+            predicted_answer = ""
+            print(f"Error: {response.status_code} - {response.text}")
+    elif args.type == "deepseek":
+        try:
+            response = client.chat.completions.create(
+                model="deepseek-chat",
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                max_tokens=100
+            )
+            if response and response.choices:
+                output_text = response.choices[0].message.content.strip()
+                predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
+                print(f"Output from API: {output_text}")
+            else:
+                predicted_answer = ""
+                print("Error: No response from the API.")
+        except Exception as e:
+            predicted_answer = ""
+            print(f"Error during API call: {e}")
     else:
-        predicted_answer = ""
-        print(f"Error: {response.status_code} - {response.text}")
+        raise ValueError("Invalid backend type")
     
     # Compare with ground truth
     
