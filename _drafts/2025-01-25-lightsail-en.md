@@ -103,14 +103,18 @@ create policy:
                 "lightsail:CreateBucket",
                 "lightsail:GetRelationalDatabaseLogStreams",
                 "lightsail:DeleteInstance",
-                "lightsail:DeleteInstanceSnapshot"
+                "lightsail:DeleteInstanceSnapshot",
+                "lightsail:OpenInstancePublicPorts"
             ],
             "Resource": "*"
         },
         {
             "Sid": "VisualEditor1",
             "Effect": "Allow",
-            "Action": "lightsail:*",
+            "Action": [
+                "lightsail:*",
+                "network-firewall:*"
+            ],
             "Resource": "arn:aws:lightsail:*:464063468077:Bucket/*"
         }
     ]
