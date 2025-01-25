@@ -26,5 +26,5 @@ This result aligns with the expected cost.
 [DeepSeek API Pricing](https://api-docs.deepseek.com/quick_start/pricing/)
 
 {: .centered }
-![](assets/images/deepseek/d.jpg){: .responsive }
+![](assets/images/deepseek/d.jpg)
 *Source: Self-Screenshot*{: .caption }
