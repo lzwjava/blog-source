@@ -20,5 +20,5 @@ for i, val in enumerate(accuracy):
     plt.text(i, val + 1, f'{val:.2f}%', ha='center', va='bottom')
 
 # Save the chart as a PNG file in the current directory
-plt.savefig(os.path.join('.', 'mmlu_accuracy_chart.png'))
+plt.savefig(os.path.join(os.path.dirname(__file__), 'mmlu_accuracy_chart.png'))
 plt.show()
