@@ -33,13 +33,13 @@ for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"
         "messages": [{"role": "user", "content": prompt}]
     }
     
-    # print(f"Input to API: {data}")
+    print(f"Input to API: {data}")
     response = requests.post(url, headers=headers, data=json.dumps(data))
     
     if response.status_code == 200:
         output_text = response.json()["choices"][0]["message"]["content"]
         predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
-        # print(f"Output from API: {output_text}")
+        print(f"Output from API: {output_text}")
     else:
         predicted_answer = ""
         print(f"Error: {response.status_code} - {response.text}")
@@ -53,7 +53,7 @@ for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"
         correct += 1
     total += 1
     
-    # print(f"Question: {example['question']}")
+    print(f"Question: {example['question']}")
     print(f"Choices: A. {example['choices'][0]}, B. {example['choices'][1]}, C. {example['choices'][2]}, D. {example['choices'][3]}")
     print(f"Predicted Answer: {predicted_answer}, Ground Truth: {ground_truth_answer}, Correct: {is_correct}")
     print("-" * 30)
