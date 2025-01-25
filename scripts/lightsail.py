@@ -73,7 +73,17 @@ def create_lightsail_instance(instance_name=None, availability_zone="ap-northeas
         print(f"Error creating Lightsail instance: {e}")
         return None
 
-def delete_all_lightsail_instances():
+def delete_all_lightsail_instances(instance_name=None):
+    if instance_name:
+        print(f"Deleting instance: {instance_name}")
+        print(f"Executing command: aws lightsail delete-instance --instance-name {instance_name}")
+        try:
+            subprocess.run(["aws", "lightsail", "delete-instance", "--instance-name", instance_name], check=True)
+            print(f"Lightsail instance '{instance_name}' deleted successfully.")
+        except subprocess.CalledProcessError as e:
+            print(f"Error deleting Lightsail instance: {e}")
+        return
+
     instances_yaml = _get_lightsail_instances()
     if not instances_yaml or 'instances' not in instances_yaml:
         print("No Lightsail instances found to delete.")
@@ -138,16 +148,19 @@ def open_firewall_ports(instance_name):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create or delete Lightsail instances.")
-    parser.add_argument("--job", type=str, choices=["create", "delete"], required=True, help="Action type: create or delete")
+    parser.add_argument("--job", type=str, choices=["create", "delete", "install"], required=True, help="Action type: create, delete, or install")
     args = parser.parse_args()
 
     print(f"Setting AWS region to ap-northeast-1")
     subprocess.run(["aws", "configure", "set", "region", "ap-northeast-1"], check=True)
 
-    if args.job == "create":           
+    if args.job == "create":
         instance_name = create_lightsail_instance()
         if instance_name:
-            install_outline_server(instance_name)
             open_firewall_ports(instance_name)
     elif args.job == "delete":
-        delete_all_lightsail_instances()
+        instance_name = input("Enter the instance name to delete: ")
+        delete_all_lightsail_instances(instance_name)
+    elif args.job == "install":
+        instance_name = input("Enter the instance name to install Outline server on: ")
+        install_outline_server(instance_name)
