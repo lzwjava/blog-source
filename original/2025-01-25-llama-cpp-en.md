@@ -20,15 +20,15 @@ llama_init_from_gpt_params: error: failed to load model 'models/7B/Phi-3-mini-4k
 main: error: unable to load model
 ```
 
-This error typically indicates an issue with the `llama.cpp` installation or the model file itself.
+This error occurs because I am running the `main` program. Running the `llama-cli` or `llama-server` programs located under `build/bin` should resolve the issue.
 
-A common solution is to install `llama.cpp` using Homebrew:
+Another solution is to install `llama.cpp` using Homebrew:
 
 ```bash
 brew install llama.cpp
 ```
 
-This ensures you have a compatible version of the library.
+This ensures that you have a compatible version of the library.
 
 ## Ollama
 
