@@ -9,7 +9,7 @@ title: Set Up Your Proxy Server
 
 * Recommended hosting providers include DigitalOcean, Google Cloud, Amazon Lightsail, Azure, Vultr, or Linode. Prefer regions in Singapore or Tokyo. Avoid the Hong Kong region, as tools like ChatGPT and Claude are banned there. 
 
-* If you don't mind that ChatGPT and Claude are banned in Hong Kong, it is still a great option. You can use tools like Deepseek, Mistral, Grok, and the Gemini API with Hong Kong servers.
+* If you don't mind that ChatGPT and Claude are banned in Hong Kong, it is still a viable option. You can use tools like Deepseek, Mistral, Grok, and the Gemini API with Hong Kong servers. Use reverse thinking; others may avoid Hong Kong servers, leaving them less congested.
 
 * Protocols such as Shadowsocks, VMess, and Trojan can easily get banned.  
 
