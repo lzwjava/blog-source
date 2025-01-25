@@ -12,7 +12,7 @@ load_dotenv()
 
 # Set up argument parsing
 parser = argparse.ArgumentParser(description="Evaluate MMLU dataset with different backends.")
-parser.add_argument("--type", type=str, default="ollama", choices=["ollama", "llama", "deepseek"], help="Backend type: ollama, llama, or deepseek")
+parser.add_argument("--type", type=str, default="ollama", choices=["ollama", "llama", "deepseek", "gemini"], help="Backend type: ollama, llama, deepseek, or gemini")
 args = parser.parse_args()
 
 # Load MMLU dataset
@@ -41,6 +41,15 @@ if args.type == "deepseek":
         print("Error: DEEPSEEK_API_KEY environment variable not set.")
         exit()
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
+
+# Initialize Gemini client if needed
+if args.type == "gemini":
+    gemini_api_key = os.environ.get("GEMINI_API_KEY")
+    if not gemini_api_key:
+        print("Error: GEMINI_API_KEY environment variable not set.")
+        exit()
+    gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={gemini_api_key}"
+    gemini_headers = {'Content-Type': 'application/json'}
 
 
 for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"):
@@ -97,6 +106,39 @@ for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"
         except Exception as e:
             predicted_answer = ""
             print(f"Error during API call: {e}")
+    elif args.type == "gemini":
+        data = {
+            "contents": [{
+                "parts":[{"text": prompt}]
+            }]
+        }
+        try:
+            response = requests.post(gemini_url, headers=gemini_headers, data=json.dumps(data))
+            response.raise_for_status()
+            json_response = response.json()
+            if 'candidates' in json_response and json_response['candidates']:
+                first_candidate = json_response['candidates'][0]
+                if 'content' in first_candidate and 'parts' in first_candidate['content']:
+                    first_part = first_candidate['content']['parts'][0]
+                    if 'text' in first_part:
+                        output_text = first_part['text']
+                        predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
+                        print(f"Output from API: {output_text}")
+                    else:
+                        predicted_answer = ""
+                        print("No text found in the response")
+                else:
+                    predicted_answer = ""
+                    print("Unexpected response format: content or parts missing")
+            else:
+                predicted_answer = ""
+                print("No candidates found in the response")
+        except requests.exceptions.RequestException as e:
+            predicted_answer = ""
+            print(f"Error during API request: {e}")
+        except json.JSONDecodeError as e:
+            predicted_answer = ""
+            print(f"Error decoding JSON response: {e}")
     else:
         raise ValueError("Invalid backend type")
     
