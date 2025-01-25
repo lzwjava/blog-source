@@ -21,11 +21,12 @@ The left swipe gesture is a powerful feature that allows users to access hidden 
 
 If I install apps using Apple Account A and later log in with Apple Account B, I will need to enter the password for Account A in order to update the apps associated with it. This is because apps are linked to the Apple ID used during installation, not the device itself.
 
-## Right swipe on a message
+## Right Swipe On A Message In Whatsapp
 
 This will display the message info, including whether it has been seen or delivered.
 
 {: .centered }
 ![](assets/images/left-swipe/wa.jpg){: .responsive }
 *Source: WhatsApp Business*{: .caption }
+
 
