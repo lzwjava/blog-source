@@ -43,6 +43,8 @@ title: Cooking
 
 * A vegetable chopper is a great tool too. It can be used to chop into cubes, slices, or strips.
 
+* Do not use too much salt, especially if the ingredients are already coated with soy sauce.
+
 {: .centered }
 ![](assets/images/cooking/c1.jpg){: .responsive }
 *Source: Self-captured*{: .caption }
