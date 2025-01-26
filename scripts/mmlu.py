@@ -64,6 +64,8 @@ def process_ollama_response(response):
     if response.status_code == 200:
         output_text = response.json()["choices"][0]["message"]["content"]
         match = re.search(r"Answer:\s*([A-D])", output_text, re.IGNORECASE)
+        if not match:
+            match = re.search(r"**Answer**:\s*([A-D])", output_text, re.IGNORECASE)
         if match:
             predicted_answer = match.group(1).upper()
         else:
