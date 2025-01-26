@@ -55,10 +55,16 @@ def call_gemini_api(prompt, retries=3, backoff_factor=1):
         time.sleep(backoff_factor * (2 ** attempt))  # Exponential backoff
     return None
 
+import re
+
 def process_ollama_response(response):
     if response.status_code == 200:
         output_text = response.json()["choices"][0]["message"]["content"]
-        predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
+        match = re.search(r"Answer:\s*([A-D])", output_text, re.IGNORECASE)
+        if match:
+            predicted_answer = match.group(1).upper()
+        else:
+            predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
         print(f"Output from API: {output_text}")
         return predicted_answer
     else:
