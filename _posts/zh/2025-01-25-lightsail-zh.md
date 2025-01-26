@@ -2,7 +2,7 @@
 audio: true
 lang: zh
 layout: post
-title: lightsail
+title: 管理 AWS Lightsail 实例
 translated: true
 ---
 
@@ -159,16 +159,16 @@ def _get_lightsail_instances():
         return None
 
 def _get_lightsail_instance(instance_name):
-    print(f"获取实例详细信息: {instance_name}")
+    print(f"获取实例详情: {instance_name}")
     try:
         result = subprocess.run(["aws", "lightsail", "get-instance", "--instance-name", instance_name], capture_output=True, text=True, check=True)
         instance_data = yaml.safe_load(result.stdout)
         if not instance_data or 'instance' not in instance_data:
-            print(f"找不到名称为 {instance_name} 的实例")
+            print(f"找不到名为: {instance_name} 的实例")
             return None
         return instance_data['instance']
     except subprocess.CalledProcessError as e:
-        print(f"获取实例详细信息时出错: {e}")
+        print(f"获取实例详情时出错: {e}")
         return None
     except yaml.YAMLError as e:
         print(f"解码YAML响应时出错: {e}")
@@ -242,7 +242,7 @@ def install_outline_server(instance_name):
     if not instance:
         return
     public_ip = instance['publicIpAddress']
-    print(f"在实例 {instance_name} 上安装Outline服务器，IP: {public_ip}")
+    print(f"在实例: {instance_name} 上安装Outline服务器，IP: {public_ip}")
     user_data = """#!/bin/bash
     sudo apt update
     sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"

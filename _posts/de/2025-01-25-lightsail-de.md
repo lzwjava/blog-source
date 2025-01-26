@@ -2,11 +2,11 @@
 audio: true
 lang: de
 layout: post
-title: Lightsail
+title: Verwalten von AWS Lightsail-Instanzen
 translated: true
 ---
 
-Hier ist eine Richtlinie, die die notwendigen Berechtigungen für die Verwaltung von Lightsail-Instanzen gewährt:
+Unten finden Sie eine Richtlinie, die die notwendigen Berechtigungen für die Verwaltung von Lightsail-Instanzen gewährt:
 
 ```json
 {
@@ -130,7 +130,7 @@ Zu den wichtigsten Aktionen in dieser Richtlinie gehören:
      "lightsail:OpenInstancePublicPorts"
 ```
 
-Diese Richtlinie kann einem Benutzer oder einer Rolle zugewiesen werden, um die notwendigen Berechtigungen zu erteilen.
+Diese Richtlinie kann einem Benutzer oder einer Rolle zugewiesen werden, um die notwendigen Berechtigungen zu gewähren.
 
 ```python
 import subprocess
@@ -143,35 +143,35 @@ import os
 KEY_PATH = os.path.expanduser("~/Downloads/LightsailDefaultKey-ap-northeast-1.pem")
 
 def _get_lightsail_instances():
-    print("Lade Lightsail-Instanzen...")
+    print("Lightsail-Instanzen werden abgerufen...")
     try:
         result = subprocess.run(["aws", "lightsail", "get-instances"], capture_output=True, text=True, check=True)
-        print("Lightsail-Instanzen erfolgreich geladen.")
+        print("Lightsail-Instanzen erfolgreich abgerufen.")
         return yaml.safe_load(result.stdout)
     except subprocess.CalledProcessError as e:
-        print(f"Fehler beim Laden der Lightsail-Instanzen: {e}")
+        print(f"Fehler beim Abrufen der Lightsail-Instanzen: {e}")
         return None
     except yaml.YAMLError as e:
-        print(f"Fehler beim Decodieren der YAML-Antwort: {e}")
+        print(f"Fehler beim Dekodieren der YAML-Antwort: {e}")
         return None
     except Exception as e:
         print(f"Ein unerwarteter Fehler ist aufgetreten: {e}")
         return None
 
 def _get_lightsail_instance(instance_name):
-    print(f"Lade Details für Instanz: {instance_name}")
+    print(f"Details für Instanz werden abgerufen: {instance_name}")
     try:
         result = subprocess.run(["aws", "lightsail", "get-instance", "--instance-name", instance_name], capture_output=True, text=True, check=True)
         instance_data = yaml.safe_load(result.stdout)
         if not instance_data or 'instance' not in instance_data:
-            print(f"Konnte keine Instanz mit dem Namen finden: {instance_name}")
+            print(f"Instanz mit Namen nicht gefunden: {instance_name}")
             return None
         return instance_data['instance']
     except subprocess.CalledProcessError as e:
-        print(f"Fehler beim Laden der Instanzdetails: {e}")
+        print(f"Fehler beim Abrufen der Instanzdetails: {e}")
         return None
     except yaml.YAMLError as e:
-        print(f"Fehler beim Decodieren der YAML-Antwort: {e}")
+        print(f"Fehler beim Dekodieren der YAML-Antwort: {e}")
         return None
     except Exception as e:
         print(f"Ein unerwarteter Fehler ist aufgetreten: {e}")
@@ -187,7 +187,7 @@ def create_lightsail_instance(instance_name=None, availability_zone="ap-northeas
         user_data = """#!/bin/bash
         sudo apt update
         """
-    print(f"Erstelle Lightsail-Instanz mit Namen: {instance_name}, Zone: {availability_zone}, Bundle: {bundle_id}...")
+    print(f"Lightsail-Instanz wird erstellt mit Namen: {instance_name}, Zone: {availability_zone}, Bundle: {bundle_id}...")
 
     command = [
         "aws", "lightsail", "create-instances",
@@ -210,8 +210,8 @@ def create_lightsail_instance(instance_name=None, availability_zone="ap-northeas
 
 def delete_all_lightsail_instances(instance_name=None):
     if instance_name:
-        print(f"Lösche Instanz: {instance_name}")
-        print(f"Führe Befehl aus: aws lightsail delete-instance --instance-name {instance_name}")
+        print(f"Instanz wird gelöscht: {instance_name}")
+        print(f"Befehl wird ausgeführt: aws lightsail delete-instance --instance-name {instance_name}")
         try:
             subprocess.run(["aws", "lightsail", "delete-instance", "--instance-name", instance_name], check=True)
             print(f"Lightsail-Instanz '{instance_name}' erfolgreich gelöscht.")
@@ -231,8 +231,8 @@ def delete_all_lightsail_instances(instance_name=None):
     
     for instance in instance_list:
         instance_name = instance['name']
-        print(f"Lösche Instanz: {instance_name}")
-        print(f"Führe Befehl aus: aws lightsail delete-instance --instance-name {instance_name}")
+        print(f"Instanz wird gelöscht: {instance_name}")
+        print(f"Befehl wird ausgeführt: aws lightsail delete-instance --instance-name {instance_name}")
         subprocess.run(["aws", "lightsail", "delete-instance", "--instance-name", instance_name], check=True)
     print("Alle Lightsail-Instanzen erfolgreich gelöscht.")
 
@@ -242,7 +242,7 @@ def install_outline_server(instance_name):
     if not instance:
         return
     public_ip = instance['publicIpAddress']
-    print(f"Installiere Outline-Server auf Instanz: {instance_name} mit IP: {public_ip}")
+    print(f"Outline-Server wird auf Instanz installiert: {instance_name} mit IP: {public_ip}")
     user_data = """#!/bin/bash
     sudo apt update
     sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
@@ -250,7 +250,7 @@ def install_outline_server(instance_name):
     
     
     os.chmod(KEY_PATH, 0o600)
-    print(f"Führe Befehl aus: chmod 600 {KEY_PATH}")
+    print(f"Befehl wird ausgeführt: chmod 600 {KEY_PATH}")
 
     ssh_command = [
         "ssh",
@@ -259,9 +259,9 @@ def install_outline_server(instance_name):
         f"ubuntu@{public_ip}",
         user_data
     ]
-    print(f"Führe Befehl aus: {' '.join(ssh_command)}")
+    print(f"Befehl wird ausgeführt: {' '.join(ssh_command)}")
     try:
         subprocess.run(ssh_command, check=True)
-        print(f"Outline-Server auf {instance_name} erfolgreich installiert.")
+        print(f"Outline-Server erfolgreich auf {instance_name} installiert.")
     except subprocess.CalledProcessError as e:
         print(f"Fehler beim Installieren des Outline-Servers: {e}")

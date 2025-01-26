@@ -2,11 +2,11 @@
 audio: true
 lang: es
 layout: post
-title: lightsail
+title: Gestión de Instancias de AWS Lightsail
 translated: true
 ---
 
-Aquí tienes una política que otorga los permisos necesarios para gestionar instancias de Lightsail:
+A continuación se presenta una política que otorga los permisos necesarios para gestionar instancias de Lightsail:
 
 ```json
 {

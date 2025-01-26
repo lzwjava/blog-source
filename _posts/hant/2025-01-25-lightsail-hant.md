@@ -2,11 +2,11 @@
 audio: true
 lang: hant
 layout: post
-title: lightsail
+title: 管理 AWS Lightsail 實例
 translated: true
 ---
 
-以下是一個授予管理Lightsail實例所需權限的策略：
+以下是一個授予管理 Lightsail 實例所需權限的策略：
 
 ```json
 {
@@ -143,16 +143,16 @@ import os
 KEY_PATH = os.path.expanduser("~/Downloads/LightsailDefaultKey-ap-northeast-1.pem")
 
 def _get_lightsail_instances():
-    print("正在獲取Lightsail實例...")
+    print("正在獲取 Lightsail 實例...")
     try:
         result = subprocess.run(["aws", "lightsail", "get-instances"], capture_output=True, text=True, check=True)
-        print("Lightsail實例獲取成功。")
+        print("Lightsail 實例獲取成功。")
         return yaml.safe_load(result.stdout)
     except subprocess.CalledProcessError as e:
-        print(f"獲取Lightsail實例時出錯: {e}")
+        print(f"獲取 Lightsail 實例時出錯: {e}")
         return None
     except yaml.YAMLError as e:
-        print(f"解碼YAML響應時出錯: {e}")
+        print(f"解碼 YAML 響應時出錯: {e}")
         return None
     except Exception as e:
         print(f"發生意外錯誤: {e}")
@@ -164,14 +164,14 @@ def _get_lightsail_instance(instance_name):
         result = subprocess.run(["aws", "lightsail", "get-instance", "--instance-name", instance_name], capture_output=True, text=True, check=True)
         instance_data = yaml.safe_load(result.stdout)
         if not instance_data or 'instance' not in instance_data:
-            print(f"找不到名為: {instance_name} 的實例")
+            print(f"找不到名為 {instance_name} 的實例")
             return None
         return instance_data['instance']
     except subprocess.CalledProcessError as e:
         print(f"獲取實例詳細信息時出錯: {e}")
         return None
     except yaml.YAMLError as e:
-        print(f"解碼YAML響應時出錯: {e}")
+        print(f"解碼 YAML 響應時出錯: {e}")
         return None
     except Exception as e:
         print(f"發生意外錯誤: {e}")
@@ -187,7 +187,7 @@ def create_lightsail_instance(instance_name=None, availability_zone="ap-northeas
         user_data = """#!/bin/bash
         sudo apt update
         """
-    print(f"正在創建Lightsail實例，名稱: {instance_name}, 區域: {availability_zone}, 套餐: {bundle_id}...")
+    print(f"正在創建 Lightsail 實例，名稱: {instance_name}, 區域: {availability_zone}, 套餐: {bundle_id}...")
 
     command = [
         "aws", "lightsail", "create-instances",
@@ -202,10 +202,10 @@ def create_lightsail_instance(instance_name=None, availability_zone="ap-northeas
 
     try:
         subprocess.run(command, check=True)
-        print(f"Lightsail實例 '{instance_name}' 創建成功。")
+        print(f"Lightsail 實例 '{instance_name}' 創建成功。")
         return instance_name
     except subprocess.CalledProcessError as e:
-        print(f"創建Lightsail實例時出錯: {e}")
+        print(f"創建 Lightsail 實例時出錯: {e}")
         return None
 
 def delete_all_lightsail_instances(instance_name=None):
@@ -214,19 +214,19 @@ def delete_all_lightsail_instances(instance_name=None):
         print(f"執行命令: aws lightsail delete-instance --instance-name {instance_name}")
         try:
             subprocess.run(["aws", "lightsail", "delete-instance", "--instance-name", instance_name], check=True)
-            print(f"Lightsail實例 '{instance_name}' 刪除成功。")
+            print(f"Lightsail 實例 '{instance_name}' 刪除成功。")
         except subprocess.CalledProcessError as e:
-            print(f"刪除Lightsail實例時出錯: {e}")
+            print(f"刪除 Lightsail 實例時出錯: {e}")
         return
 
     instances_yaml = _get_lightsail_instances()
     if not instances_yaml or 'instances' not in instances_yaml:
-        print("未找到要刪除的Lightsail實例。")
+        print("沒有找到要刪除的 Lightsail 實例。")
         return
 
     instance_list = instances_yaml['instances']
     if not instance_list:
-        print("未找到要刪除的Lightsail實例。")
+        print("沒有找到要刪除的 Lightsail 實例。")
         return
     
     for instance in instance_list:
@@ -234,7 +234,7 @@ def delete_all_lightsail_instances(instance_name=None):
         print(f"正在刪除實例: {instance_name}")
         print(f"執行命令: aws lightsail delete-instance --instance-name {instance_name}")
         subprocess.run(["aws", "lightsail", "delete-instance", "--instance-name", instance_name], check=True)
-    print("所有Lightsail實例刪除成功。")
+    print("所有 Lightsail 實例已成功刪除。")
 
 
 def install_outline_server(instance_name):
@@ -242,7 +242,7 @@ def install_outline_server(instance_name):
     if not instance:
         return
     public_ip = instance['publicIpAddress']
-    print(f"正在實例: {instance_name} 上安裝Outline服務器，IP: {public_ip}")
+    print(f"正在實例 {instance_name} 上安裝 Outline 伺服器，IP: {public_ip}")
     user_data = """#!/bin/bash
     sudo apt update
     sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
@@ -262,6 +262,6 @@ def install_outline_server(instance_name):
     print(f"執行命令: {' '.join(ssh_command)}")
     try:
         subprocess.run(ssh_command, check=True)
-        print(f"Outline服務器在 {instance_name} 上安裝成功。")
+        print(f"Outline 伺服器在 {instance_name} 上安裝成功。")
     except subprocess.CalledProcessError as e:
-        print(f"安裝Outline服務器時出錯: {e}")
+        print(f"安裝 Outline 伺服器時出錯: {e}")
