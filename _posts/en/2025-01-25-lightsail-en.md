@@ -2,12 +2,12 @@
 audio: true
 lang: en
 layout: post
-title: lightsail
+title: Managing AWS Lightsail Instances
 translated: false
 ---
 
 
-Here's a policy that grants necessary permissions for managing Lightsail instances:
+Below is a policy that grants the necessary permissions for managing Lightsail instances:
 
 ```json
 {

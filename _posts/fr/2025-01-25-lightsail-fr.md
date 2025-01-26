@@ -2,7 +2,7 @@
 audio: true
 lang: fr
 layout: post
-title: Lightsail
+title: Gestion des instances AWS Lightsail
 translated: true
 ---
 

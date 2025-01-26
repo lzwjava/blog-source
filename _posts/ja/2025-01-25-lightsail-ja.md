@@ -2,7 +2,7 @@
 audio: true
 lang: ja
 layout: post
-title: lightsail
+title: AWS Lightsailインスタンスの管理
 translated: true
 ---
 
@@ -164,7 +164,7 @@ def _get_lightsail_instance(instance_name):
         result = subprocess.run(["aws", "lightsail", "get-instance", "--instance-name", instance_name], capture_output=True, text=True, check=True)
         instance_data = yaml.safe_load(result.stdout)
         if not instance_data or 'instance' not in instance_data:
-            print(f"名前が {instance_name} のインスタンスが見つかりませんでした。")
+            print(f"名前 '{instance_name}' のインスタンスが見つかりませんでした。")
             return None
         return instance_data['instance']
     except subprocess.CalledProcessError as e:
@@ -242,7 +242,7 @@ def install_outline_server(instance_name):
     if not instance:
         return
     public_ip = instance['publicIpAddress']
-    print(f"インスタンスにOutlineサーバーをインストール中: {instance_name} IP: {public_ip}")
+    print(f"Outlineサーバーをインストール中: インスタンス: {instance_name}, IP: {public_ip}")
     user_data = """#!/bin/bash
     sudo apt update
     sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
@@ -262,6 +262,6 @@ def install_outline_server(instance_name):
     print(f"コマンドを実行中: {' '.join(ssh_command)}")
     try:
         subprocess.run(ssh_command, check=True)
-        print(f"インスタンス {instance_name} へのOutlineサーバーのインストールに成功しました。")
+        print(f"Outlineサーバーのインストールに成功しました: {instance_name}")
     except subprocess.CalledProcessError as e:
         print(f"Outlineサーバーのインストール中にエラーが発生しました: {e}")

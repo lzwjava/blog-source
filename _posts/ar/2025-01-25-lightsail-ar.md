@@ -2,11 +2,11 @@
 audio: true
 lang: ar
 layout: post
-title: '**lightsail**'
+title: إدارة مثيلات AWS Lightsail
 translated: true
 ---
 
-إليك سياسة تمنح الأذونات اللازمة لإدارة مثيلات Lightsail:
+فيما يلي سياسة تمنح الأذونات اللازمة لإدارة مثيلات Lightsail:
 
 ```json
 {
@@ -122,7 +122,7 @@ translated: true
 }
 ```
 
-الإجراءات الرئيسية المضمنة في هذه السياسة هي:
+الأفعال الرئيسية المضمنة في هذه السياسة هي:
 
 ```
      "lightsail:DeleteInstance",
@@ -221,12 +221,12 @@ def delete_all_lightsail_instances(instance_name=None):
 
     instances_yaml = _get_lightsail_instances()
     if not instances_yaml or 'instances' not in instances_yaml:
-        print("لم يتم العثور على مثيلات Lightsail لحذفها.")
+        print("لم يتم العثور على أي مثيلات Lightsail لحذفها.")
         return
 
     instance_list = instances_yaml['instances']
     if not instance_list:
-        print("لم يتم العثور على مثيلات Lightsail لحذفها.")
+        print("لم يتم العثور على أي مثيلات Lightsail لحذفها.")
         return
     
     for instance in instance_list:
