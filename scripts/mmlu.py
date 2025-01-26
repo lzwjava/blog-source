@@ -23,11 +23,13 @@ args = parser.parse_args()
 subject = "college_computer_science"  # Choose your subject
 dataset = load_dataset("cais/mmlu", subject, split="test")
 
-# Format prompt without few-shot examples
+# Format prompt with one-shot example
 def format_mmlu_prompt(example):
     prompt = f"Question: {example['question']}\n"
-    prompt += "Choices:\nA. {}\nB. {}\nC. {}\nD. {}\n".format(*example['choices'])
-    prompt += "What's your answer?\n"
+    prompt += "Choices:\n"
+    for i, choice in enumerate(example['choices']):
+        prompt += f"{chr(ord('A') + i)}. {choice}\n"
+    prompt += "Answer: "
     return prompt
 
 # Initialize DeepSeek client if needed
@@ -175,7 +177,8 @@ def _call_ollama_api(prompt, model):
     url = "http://localhost:11434/v1/chat/completions"
     data = {
         "messages": [{"role": "user", "content": prompt}],
-        "model": model
+        "model": model,
+        "max_tokens": 300
     }
     headers = {"Content-Type": "application/json"}
     print(f"Input to API: {data}")
