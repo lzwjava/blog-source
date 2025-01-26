@@ -13,7 +13,9 @@ load_dotenv()
 
 # Set up argument parsing
 parser = argparse.ArgumentParser(description="Evaluate MMLU dataset with different backends.")
-parser.add_argument("--type", type=str, default="ollama", choices=["ollama", "llama", "deepseek", "gemini", "deepseek-r1"], help="Backend type: ollama, llama, deepseek, or gemini")
+parser.add_argument("--type", type=str, default="ollama", choices=["ollama", "llama", "deepseek", "gemini"], help="Backend type: ollama, llama, deepseek, or gemini")
+parser.add_argument("--model", type=str, default="", help="Model name")
+
 args = parser.parse_args()
 
 # Load MMLU dataset
@@ -47,6 +49,7 @@ def call_gemini_api(prompt, retries=3, backoff_factor=1):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
     params = {"key": gemini_api_key}
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
+    print(f"Input to Gemini API: {payload}")
 
     for attempt in range(retries):
         response = requests.post(url, json=payload, params=params)
@@ -80,33 +83,12 @@ def process_llama_response(response):
     else:
         print(f"Error: {response.status_code} - {response.text}")
         return ""
-
-def process_deepseek_response(client, prompt):
-    try:
-        response = client.chat.completions.create(
-            model="deepseek-chat",
-            messages=[
-                {"role": "user", "content": prompt}
-            ],
-            max_tokens=100
-        )
-        if response and response.choices:
-            output_text = response.choices[0].message.content.strip()
-            predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
-            print(f"Output from API: {output_text}")
-            return predicted_answer
-        else:
-            print("Error: No response from the API.")
-            return ""
-    except Exception as e:
-        print(f"Error during API call: {e}")
-        return ""
-
-def process_deepseek_r1_response(client, prompt, retries=3, backoff_factor=1):
+def process_deepseek_response(client, prompt, model="deepseek-chat", retries=3, backoff_factor=1):
+    print(f"Input to Deepseek API: {prompt}")
     for attempt in range(retries):
         try:
             response = client.chat.completions.create(
-                model="deepseek-reasoner",
+                model=model,
                 messages=[
                     {"role": "user", "content": prompt}
                 ],
@@ -127,8 +109,8 @@ def process_deepseek_r1_response(client, prompt, retries=3, backoff_factor=1):
             else:
                 print(f"Error during API call: {e}")
                 return ""
-    print("Max retries reached, returning empty response.")
     return ""
+
 
 def process_gemini_response(prompt):
     json_response = call_gemini_api(prompt)
@@ -157,49 +139,58 @@ def process_gemini_response(prompt):
         print("Unexpected response format: content or parts missing")
         return ""
 
+def _call_ollama_api(prompt, model):
+    url = "http://localhost:11434/v1/chat/completions"
+    data = {
+        "messages": [{"role": "user", "content": prompt}],
+        "model": model
+    }
+    headers = {"Content-Type": "application/json"}
+    print(f"Input to API: {data}")
+    response = requests.post(url, headers=headers, data=json.dumps(data))
+    return process_ollama_response(response)
+
+def _call_llama_api(prompt):
+    url = "http://localhost:8080/v1/chat/completions"
+    data = {
+        "messages": [{"role": "user", "content": prompt}]
+    }
+    headers = {"Content-Type": "application/json"}
+    print(f"Input to API: {data}")
+    response = requests.post(url, headers=headers, data=json.dumps(data))
+    return process_llama_response(response)
+
+def _get_predicted_answer(args, prompt, client):
+    predicted_answer = ""
+    if args.type == "ollama":
+        predicted_answer = _call_ollama_api(prompt, args.model)
+    elif args.type == "llama":
+        predicted_answer = _call_llama_api(prompt)
+    elif args.type == "deepseek":
+        predicted_answer = process_deepseek_response(client, prompt, args.model)
+    elif args.type == "gemini":
+        predicted_answer = process_gemini_response(prompt)
+    else:
+        raise ValueError("Invalid backend type")
+    return predicted_answer
+
 
 def evaluate_model(args, dataset):
     correct = 0
     total = 0
     client = None
-    if args.type == "deepseek" or args.type == "deepseek-r1":
+    if args.type == "deepseek":
         client = initialize_deepseek_client()
+
+    if args.model == "":
+        if args.type == "ollama":
+            args.model = "mistral:7b"
+        elif args.type == "deepseek":
+            args.model = "deepseek-chat"
 
     for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"):
         prompt = format_mmlu_prompt(example)
-        predicted_answer = ""
-
-        if args.type == "ollama":
-            url = "http://localhost:11434/v1/chat/completions"
-            data = {
-                "messages": [{"role": "user", "content": prompt}],
-                "model": "mistral:7b"
-            }
-            headers = {"Content-Type": "application/json"}
-            print(f"Input to API: {data}")
-            response = requests.post(url, headers=headers, data=json.dumps(data))
-            predicted_answer = process_ollama_response(response)
-
-        elif args.type == "llama":
-            url = "http://localhost:8080/v1/chat/completions"
-            data = {
-                "messages": [{"role": "user", "content": prompt}]
-            }
-            headers = {"Content-Type": "application/json"}
-            print(f"Input to API: {data}")
-            response = requests.post(url, headers=headers, data=json.dumps(data))
-            predicted_answer = process_llama_response(response)
-
-        elif args.type == "deepseek":
-            predicted_answer = process_deepseek_response(client, prompt)
-        
-        elif args.type == "deepseek-r1":
-            predicted_answer = process_deepseek_r1_response(client, prompt)
-
-        elif args.type == "gemini":
-            predicted_answer = process_gemini_response(prompt)
-        else:
-            raise ValueError("Invalid backend type")
+        predicted_answer = _get_predicted_answer(args, prompt, client)
         
         answer_map = {0: "A", 1: "B", 2: "C", 3: "D"}
         ground_truth_answer = answer_map.get(example["answer"], "")
