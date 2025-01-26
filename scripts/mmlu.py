@@ -26,7 +26,7 @@ dataset = load_dataset("cais/mmlu", subject, split="test")
 def format_mmlu_prompt(example):
     prompt = "The following are multiple-choice questions about {}".format(subject.replace("_", " "))
     prompt += ". Please answer with the letter of the correct choice (A, B, C, or D) only."
-    prompt += " Answer the letter only. Do not need Explanation."
+    prompt += " Answer the choice only. Do not need Explanation."
     
     # Add current question
     prompt += f"Question: {example['question']}\n"
@@ -63,7 +63,7 @@ import re
 def process_ollama_response(response):
     if response.status_code == 200:
         print(f"Output from API: {response.json()}")
-        output_text = response.json()["choices"][0]["message"]["content"]                
+        output_text = response.json()["choices"][0]["message"]["content"]
         match = re.search(r"Answer:\s*([A-D])", output_text, re.IGNORECASE)
         if not match:
             match = re.search(r"\*\*Answer\*\*:\s*([A-D])", output_text, re.IGNORECASE)
@@ -73,6 +73,14 @@ def process_ollama_response(response):
             match = re.search(r"The correct choice is\s*([A-D])", output_text, re.IGNORECASE)
         if not match:
             match = re.search(r"The correct choice would be\s*([A-D])", output_text, re.IGNORECASE)
+        if not match:
+            match = re.search(r"The answer is\s*([A-D])", output_text, re.IGNORECASE)
+        if not match:
+            match = re.search(r"The answer appears to be\s*([A-D])", output_text, re.IGNORECASE)
+        if not match:
+            match = re.search(r"The correct answer should be\s*([A-D])", output_text, re.IGNORECASE)
+        if not match:
+            match = re.search(r"The correct answer would be\s*([A-D])", output_text, re.IGNORECASE)
         if match:
             predicted_answer = match.group(1).upper()
         else:
@@ -86,7 +94,11 @@ def process_ollama_response(response):
                     if len(first_word_comma) == 1:
                         predicted_answer = first_word_comma
                     else:
-                        raise ValueError(f"Could not extract a single character answer from the output: {output_text}")
+                        first_word_period = stripped_output.split(".")[0]
+                        if len(first_word_period) == 1:
+                            predicted_answer = first_word_period
+                        else:
+                            raise ValueError(f"Could not extract a single character answer from the output: {output_text}")
             else:
                 predicted_answer = ""
 
@@ -104,6 +116,7 @@ def process_llama_response(response):
     else:
         print(f"Error: {response.status_code} - {response.text}")
         return ""
+
 def process_deepseek_response(client, prompt, model="deepseek-chat", retries=3, backoff_factor=1):
     print(f"Input to Deepseek API: {prompt}")
     for attempt in range(retries):
