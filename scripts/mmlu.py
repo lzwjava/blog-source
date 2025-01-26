@@ -13,7 +13,7 @@ load_dotenv()
 
 # Set up argument parsing
 parser = argparse.ArgumentParser(description="Evaluate MMLU dataset with different backends.")
-parser.add_argument("--type", type=str, default="ollama", choices=["ollama", "llama", "deepseek", "gemini"], help="Backend type: ollama, llama, deepseek, or gemini")
+parser.add_argument("--type", type=str, default="ollama", choices=["ollama", "llama", "deepseek", "gemini", "deepseek-r1"], help="Backend type: ollama, llama, deepseek, or gemini")
 args = parser.parse_args()
 
 # Load MMLU dataset
@@ -102,6 +102,34 @@ def process_deepseek_response(client, prompt):
         print(f"Error during API call: {e}")
         return ""
 
+def process_deepseek_r1_response(client, prompt, retries=3, backoff_factor=1):
+    for attempt in range(retries):
+        try:
+            response = client.chat.completions.create(
+                model="deepseek-reasoner",
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                max_tokens=100
+            )
+            if response and response.choices:
+                output_text = response.choices[0].message.content.strip()
+                predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
+                print(f"Output from API: {output_text}")
+                return predicted_answer
+            else:
+                print("Error: No response from the API.")
+                return ""
+        except Exception as e:
+            if "502" in str(e):
+                print(f"Bad gateway error (502) during API call, retrying in {backoff_factor * (2 ** attempt)} seconds...")
+                time.sleep(backoff_factor * (2 ** attempt))
+            else:
+                print(f"Error during API call: {e}")
+                return ""
+    print("Max retries reached, returning empty response.")
+    return ""
+
 def process_gemini_response(prompt):
     json_response = call_gemini_api(prompt)
     if not json_response:
@@ -134,7 +162,7 @@ def evaluate_model(args, dataset):
     correct = 0
     total = 0
     client = None
-    if args.type == "deepseek":
+    if args.type == "deepseek" or args.type == "deepseek-r1":
         client = initialize_deepseek_client()
 
     for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"):
@@ -164,6 +192,9 @@ def evaluate_model(args, dataset):
 
         elif args.type == "deepseek":
             predicted_answer = process_deepseek_response(client, prompt)
+        
+        elif args.type == "deepseek-r1":
+            predicted_answer = process_deepseek_r1_response(client, prompt)
 
         elif args.type == "gemini":
             predicted_answer = process_gemini_response(prompt)
