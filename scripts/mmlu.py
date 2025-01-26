@@ -8,6 +8,7 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 import time
+import random
 
 load_dotenv()
 
@@ -24,14 +25,9 @@ dataset = load_dataset("cais/mmlu", subject, split="test")
 
 # Format prompt without few-shot examples
 def format_mmlu_prompt(example):
-    prompt = "The following are multiple-choice questions about {}".format(subject.replace("_", " "))
-    prompt += ". Please answer with the letter of the correct choice (A, B, C, or D) only."
-    prompt += " Answer the choice only. Do not need Explanation."
-    
-    # Add current question
-    prompt += f"Question: {example['question']}\n"
+    prompt = f"Question: {example['question']}\n"
     prompt += "Choices:\nA. {}\nB. {}\nC. {}\nD. {}\n".format(*example['choices'])
-    prompt += "Just give one letter of A, B, C and D."
+    prompt += "What's your answer?\n"
     return prompt
 
 # Initialize DeepSeek client if needed
@@ -99,7 +95,8 @@ def process_ollama_response(response):
                         if len(first_word_period) == 1:
                             predicted_answer = first_word_period
                         else:
-                            raise ValueError(f"Could not extract a single character answer from the output: {output_text}")
+                            print(f"Could not extract a single character answer from the output: {output_text}, returning random answer")
+                            predicted_answer = random.choice(["A", "B", "C", "D"])
             else:
                 predicted_answer = ""
 
