@@ -47,6 +47,9 @@ translated: false
 
 * Do not use too much salt, especially if the ingredients are already coated with soy sauce.
 
+* Meat usually does not need to be washed again. People tend to over-wash ingredients; there is no need to clean them thoroughly with water. We just need to ensure the ingredients are fresh.
+
+
 {: .centered }
 ![](assets/images/cooking/c1.jpg){: .responsive }
 *Source: Self-captured*{: .caption }
