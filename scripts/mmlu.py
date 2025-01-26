@@ -31,6 +31,7 @@ def format_mmlu_prompt(example):
     # Add current question
     prompt += f"Question: {example['question']}\n"
     prompt += "Choices:\nA. {}\nB. {}\nC. {}\nD. {}\n".format(*example['choices'])
+    prompt += "Just give one letter of A, B, C and D."
     return prompt
 
 # Initialize DeepSeek client if needed
