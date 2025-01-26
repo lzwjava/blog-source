@@ -33,10 +33,11 @@ After using it for several days, I find that it is a little poor. The speed or s
 ![](assets/images/cable-tester/netgear.jpg){: .responsive }
 *Source: Walmart.com*{: .caption }
 
-
 ## 12V Power for Routers
 
-A USB voltage step-up cable can be used to power routers with a power bank.
+A USB voltage step-up cable can be used to power routers using a power bank.
+
+However, in some cases, the step-up cable from a power bank may not be able to set up the router correctly. The router may continuously restart.
 
 {: .centered }
 ![](assets/images/cable-tester/12v.jpg){: .responsive }
@@ -49,3 +50,4 @@ Sometimes, a sub-router cannot easily find the main router when the signal is we
 If we have to place the sub-router far from the main router, I wonder if it is faster to first connect it in a nearby location and then move it farther away, rather than trying to connect it when it is already in the far location.
 
 Maintaining a connection while nearby allows them to communicate with each other. I have found this method to be more effective.
+
