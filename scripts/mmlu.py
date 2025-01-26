@@ -62,15 +62,34 @@ import re
 
 def process_ollama_response(response):
     if response.status_code == 200:
-        output_text = response.json()["choices"][0]["message"]["content"]
+        print(f"Output from API: {response.json()}")
+        output_text = response.json()["choices"][0]["message"]["content"]                
         match = re.search(r"Answer:\s*([A-D])", output_text, re.IGNORECASE)
         if not match:
-            match = re.search(r"**Answer**:\s*([A-D])", output_text, re.IGNORECASE)
+            match = re.search(r"\*\*Answer\*\*:\s*([A-D])", output_text, re.IGNORECASE)
+        if not match:
+            match = re.search(r"The correct answer is\s*([A-D])", output_text, re.IGNORECASE)
+        if not match:
+            match = re.search(r"The correct choice is\s*([A-D])", output_text, re.IGNORECASE)
+        if not match:
+            match = re.search(r"The correct choice would be\s*([A-D])", output_text, re.IGNORECASE)
         if match:
             predicted_answer = match.group(1).upper()
         else:
-            predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
-        print(f"Output from API: {output_text}")
+            stripped_output = output_text.strip()
+            if len(stripped_output) > 0:
+                first_word = stripped_output.split(" ")[0]
+                if len(first_word) == 1:
+                    predicted_answer = first_word
+                else:
+                    first_word_comma = stripped_output.split(",")[0]
+                    if len(first_word_comma) == 1:
+                        predicted_answer = first_word_comma
+                    else:
+                        raise ValueError(f"Could not extract a single character answer from the output: {output_text}")
+            else:
+                predicted_answer = ""
+
         return predicted_answer
     else:
         print(f"Error: {response.status_code} - {response.text}")
