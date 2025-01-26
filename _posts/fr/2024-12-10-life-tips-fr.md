@@ -8,7 +8,7 @@ translated: true
 
 * Explorez le monde tôt, allez dans différents pays et parlez à différentes personnes.
 
-* Lisez beaucoup de livres, en particulier des livres non-fictionnels.
+* Lisez beaucoup de livres, surtout des livres non fictionnels.
 
 * Pensez toujours à de meilleures façons de faire les choses.
 
@@ -26,7 +26,7 @@ translated: true
 
 * Obtenez beaucoup de choses gratuites, comme des applications, des livres et des informations gratuits. Profitez de l'air, du soleil, des paysages et de l'eau.
 
-* Réfléchissez bien aux règles. Comprenez l'intention originale derrière elles. Demandez-vous si les règles pourraient être meilleures ou plus détaillées. Parfois, nous devons suivre les règles. Mais ne laissez pas celles-ci limiter votre pensée.
+* Réfléchissez bien aux règles. Comprenez l'intention originale derrière elles. Demandez-vous si les règles pourraient être meilleures ou plus détaillées. Parfois, nous devons suivre les règles. Mais ne les laissez pas limiter votre pensée.
 
 * Considérez tout comme une expérience d'apprentissage. Si c'est bon, c'est bien. Si c'est mauvais, évitez-le la prochaine fois.
 
@@ -42,17 +42,17 @@ translated: true
 
 * Il est acceptable de faire tout ce que vous voulez tant que cela n'implique ou ne blesse personne d'autre.
 
-* Il est préférable d'apprendre la vérité dès le début. Ainsi, nous n'aurons pas besoin de changer plus tard.
+* Il est préférable d'apprendre la vérité en premier. Ainsi, nous n'aurons pas besoin de changer plus tard.
 
 * L'anglais est la langue mondiale aujourd'hui. Soyez bon dans cette langue et utilisez-la comme une langue maternelle.
 
-* Vous n'avez pas besoin de changer qui que ce soit. Si vous découvrez quelque chose ou créez quelque chose que les gens veulent, ils viendront.
+* Vous n'avez pas besoin de changer qui que ce soit. Si vous découvrez ou créez quelque chose que les gens veulent, ils viendront.
 
 * Ne désespérez pas. La majorité du monde vous aide. Ils fabriquent des produits ou fournissent des services à bas prix ou gratuitement.
 
 * Quand il s'agit d'argent, pensez à la manière dont les personnes les plus riches ou les plus intelligentes le font.
 
-* Normalement, vous ne pouvez forcer personne à faire quoi que ce soit, et les autres ne peuvent pas vous forcer non plus.
+* Normalement, vous ne pouvez forcer personne à faire quoi que ce soit, et les autres ne peuvent pas non plus vous forcer à faire quelque chose.
 
 * Suivez votre véritable passion. Vous ne pouvez pas vous forcer à faire des choses que vous n'aimez pas pendant longtemps.
 
@@ -66,6 +66,8 @@ translated: true
 
 * Pensez souvent à ce que Yin Wang ou Daniel P. Friedman disent. Ils sont probablement les personnes les plus intelligentes et les plus gentilles au monde.
 
-* Le monde aura plus de liberté. Le monde deviendra meilleur à mesure que les connaissances et la technologie évoluent.
+* Le monde aura plus de liberté. Le monde deviendra meilleur à mesure que la connaissance et la technologie évoluent.
 
-* Concentrez-vous sur l'apprentissage des sciences, de la technologie, de l'ingénierie et des mathématiques (STEM). Ces domaines sont généralement basés sur des faits reproductibles et vérifiables, contrairement à certains autres domaines de connaissance. Priorisez l'apprentissage d'informations correctes dès le début pour éviter d'avoir à corriger votre compréhension ou vos habitudes plus tard.
+* Concentrez-vous sur l'apprentissage des sciences, de la technologie, de l'ingénierie et des mathématiques (STEM). Ces domaines sont généralement basés sur des faits reproductibles et vérifiables, contrairement à certains autres domaines de connaissance. Priorisez l'apprentissage d'informations correctes dès le départ pour éviter d'avoir à corriger votre compréhension ou vos habitudes plus tard.
+
+* Votre perception de votre salaire compte plus que le montant lui-même. Si vous le comparez à celui des autres, il ne semblera probablement jamais suffisant. De plus, la manière dont vous dépensez votre salaire compte ; si vous achetez ce dont vous avez besoin quotidiennement et à bas coût, vous pourriez le trouver adéquat. Par exemple, utiliser votre salaire pour acheter une maison pourrait ne pas sembler valoir la peine, mais l'utiliser pour acheter de la nourriture ou un téléphone portable pourrait sembler plus justifié.
