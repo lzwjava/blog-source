@@ -39,6 +39,7 @@ def initialize_deepseek_client():
         print("Error: DEEPSEEK_API_KEY environment variable not set.")
         exit()
     return OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
+
 def call_gemini_api(prompt, retries=3, backoff_factor=1):
     gemini_api_key = os.environ.get("GEMINI_API_KEY")
     if not gemini_api_key:
