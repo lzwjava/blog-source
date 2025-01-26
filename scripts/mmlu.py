@@ -29,7 +29,7 @@ def format_mmlu_prompt(example):
     prompt += "Choices:\n"
     for i, choice in enumerate(example['choices']):
         prompt += f"{chr(ord('A') + i)}. {choice}\n"
-    prompt += "Answer: "
+    prompt += "Give your answer. Just give the choice.\n"
     return prompt
 
 # Initialize DeepSeek client if needed
@@ -39,7 +39,6 @@ def initialize_deepseek_client():
         print("Error: DEEPSEEK_API_KEY environment variable not set.")
         exit()
     return OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
-
 def call_gemini_api(prompt, retries=3, backoff_factor=1):
     gemini_api_key = os.environ.get("GEMINI_API_KEY")
     if not gemini_api_key:
@@ -52,9 +51,14 @@ def call_gemini_api(prompt, retries=3, backoff_factor=1):
 
     for attempt in range(retries):
         response = requests.post(url, json=payload, params=params)
-        if response.status_code != 429:
-            return response.json()
-        time.sleep(backoff_factor * (2 ** attempt))  # Exponential backoff
+        response_json = response.json()
+        print(response_json)
+        if response.status_code == 200:
+            return response_json
+        elif response.status_code == 429:
+            time.sleep(backoff_factor * (2 ** attempt))  # Exponential backoff
+        else:
+            raise Exception(f"Gemini API Error: {response.status_code} - {response_json}")
     return None
 
 import re
@@ -154,6 +158,7 @@ def process_gemini_response(prompt):
     if 'candidates' not in json_response or not json_response['candidates']:
         print("No candidates found in the response, retrying...")
         json_response = call_gemini_api(prompt)
+        print(json_response)
         if not json_response or 'candidates' not in json_response or not json_response['candidates']:
             print("No candidates found in the response after retry.")
             return ""
