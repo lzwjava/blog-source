@@ -11,7 +11,7 @@ translated: false
 
 * It is easy to make a dish with meat, vegetables, chili, garlic, and ginger.  
 
-* Use a food slicer to cut food into small pieces, such as slicing potatoes or chopping peppers into small granules.
+* A vegetable chopper is a very useful tool. It can chop vegetables into cubes, slices, or strips, and can be used for tasks such as slicing potatoes or creating small granules from peppers.
 
 * Making soup is easy with an electric cooker. Add the ingredients, season with salt, set the timer, and let it cook.  
 
@@ -43,12 +43,11 @@ translated: false
 
 * A mortar and pestle is a great tool to crush garlic. 
 
-* A vegetable chopper is a great tool too. It can be used to chop into cubes, slices, or strips.
-
 * Do not use too much salt, especially if the ingredients are already coated with soy sauce.
 
 * Meat usually does not need to be washed again. People tend to over-wash ingredients; there is no need to clean them thoroughly with water. We just need to ensure the ingredients are fresh.
 
+* Parchment paper is better than aluminum foil because it won't stick to the cooking surface.
 
 {: .centered }
 ![](assets/images/cooking/c1.jpg){: .responsive }
