@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linear Algebra"
+title: "Linear Algebra - Conversation"
 audio: true
 ---
 
