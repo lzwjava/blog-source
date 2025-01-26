@@ -2,7 +2,7 @@
 audio: true
 lang: es
 layout: post
-title: Cocina
+title: Cocinar
 translated: true
 ---
 
@@ -16,11 +16,11 @@ translated: true
 
 * La sopa con ñame chino es excelente porque se cocina fácilmente en la sopa y la espesa. Las zanahorias, el rábano daikon y los tomates también son buenos ingredientes para esta sopa.
 
-* Un horno de asar se puede usar para hacer tartaletas de huevo, cordero, res, cerdo, salchichas, champiñones y más. Para la carne, ajusta la temperatura a 200°C y cocina durante unos 20 minutos.  
+* Un horno de asar puede usarse para hacer tartas de huevo, cordero, res, cerdo, salchichas, champiñones y más. Para la carne, ajusta la temperatura a 200°C y cocina durante unos 20 minutos.  
 
 * Para cocinar al aire libre, necesitarás fuego. Las hojas secas pueden usarse para encender el fuego. Encuentra un recipiente para sostener la comida mientras se cocina, o incluso usa una teja como olla improvisada.  
 
-* Una arrocera también se puede usar para calentar comida, no solo arroz. Sin embargo, ten en cuenta que las verduras tienden a soltar agua, lo que puede hacer que el arroz quede demasiado húmedo. Añade solo una pequeña cantidad de agua si estás cocinando verduras en la arrocera.  
+* Una arrocera también puede usarse para calentar comida, no solo arroz. Sin embargo, ten en cuenta que las verduras tienden a liberar agua, lo que puede hacer que el arroz quede demasiado húmedo. Añade solo una pequeña cantidad de agua si estás cocinando verduras en la arrocera.  
 
 * Un robot de cocina es una herramienta conveniente para preparar platos. Simplemente añade los ingredientes y deja que el robot se encargue de revolver.
 
@@ -32,7 +32,7 @@ translated: true
 
 * Podemos aplicar el mismo proceso o función a objetos similares o elementos con las mismas características. Esto se aplica tanto a la cocina como a la programación.
 
-* Los ingredientes que se calientan en un horno de asar pueden ser cubiertos con harina de maíz y salsa de soya ligera. Usar jugo de frutas para marinar también es aceptable, como jugo de limón, naranja o manzana.
+* Los ingredientes que se calientan en un horno de asar pueden cubrirse con harina de maíz y salsa de soya ligera. Usar jugo de frutas para marinar también es aceptable, como jugo de limón, naranja o manzana.
 
 * Cortamos la carne u otros ingredientes en trozos pequeños para permitir que se calienten de manera más efectiva en la olla. Por lo tanto, es diferente prepararse para hacer sopa, que puede aceptar trozos más grandes de ingredientes.
 
@@ -42,9 +42,12 @@ translated: true
 
 * Un mortero es una gran herramienta para triturar ajo. 
 
-* Un picador de verduras también es una gran herramienta. Se puede usar para picar en cubos, rebanadas o tiras.
+* Un picador de verduras también es una gran herramienta. Puede usarse para picar en cubos, rebanadas o tiras.
 
 * No uses demasiada sal, especialmente si los ingredientes ya están cubiertos con salsa de soya.
+
+* La carne generalmente no necesita lavarse nuevamente. La gente tiende a lavar en exceso los ingredientes; no es necesario limpiarlos completamente con agua. Solo necesitamos asegurarnos de que los ingredientes estén frescos.
+
 
 {: .centered }
 ![](assets/images/cooking/c1.jpg){: .responsive }
