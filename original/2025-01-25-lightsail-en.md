@@ -5,7 +5,7 @@ layout: post
 title: Managing AWS Lightsail Instances
 ---
 
-Here's a policy that grants necessary permissions for managing Lightsail instances:
+Below is a policy that grants the necessary permissions for managing Lightsail instances:
 
 ```json
 {
