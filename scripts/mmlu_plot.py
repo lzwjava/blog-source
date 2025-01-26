@@ -2,13 +2,13 @@ import matplotlib.pyplot as plt
 import os
 
 # Sample data (replace with your actual data)
-models = ['mistral-7b-instruct-v0.2 (llama.cpp)', 'Mistral-7B-Instruct-v0.3 (ollama)', 'deepseek v3 (API)', 'gemini-1.5-flash (API)']
-accuracy = [40.00, 40.00, 78.00, 72.00]
+models = ['mistral-7b-instruct-v0.2 (llama.cpp)', 'Mistral-7B-Instruct-v0.3 (ollama)', 'deepseek v3 (API)', 'gemini-1.5-flash (API)', 'deepseek r1 (API)']
+accuracy = [40.00, 40.00, 78.00, 72.00, 87.14]
 subject = "college_computer_science"
 
 # Create the bar chart
 plt.figure(figsize=(10, 6))
-plt.bar(models, accuracy, color=['skyblue', 'lightcoral', 'lightgreen', 'gold'])
+plt.bar(models, accuracy, color=['skyblue', 'lightcoral', 'lightgreen', 'gold', 'lightcoral'])
 plt.xlabel('Model')
 plt.ylabel('Accuracy (%)')
 plt.title(f'MMLU Benchmark Accuracy for {subject}')
