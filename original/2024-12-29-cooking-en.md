@@ -33,6 +33,7 @@ title: Cooking
 
 * Ingredients that are heated in a grill oven can be coated with cornflour and light soy sauce. Using fruit juice to marinate is also acceptable, such as lemon, orange, or apple juice.
 
+* We cut meat or other ingredients into small pieces to allow them to be heated more effectively in the pot.
 
 {: .centered }
 ![](assets/images/cooking/c1.jpg){: .responsive }
