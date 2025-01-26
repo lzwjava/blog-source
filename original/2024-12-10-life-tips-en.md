@@ -69,4 +69,4 @@ top: 10
 
 * Focus on learning Science, Technology, Engineering, and Mathematics (STEM). These fields are generally based on reproducible and verifiable facts, unlike some other areas of knowledge. Prioritize learning correct information initially to avoid needing to correct your understanding or habits later.
 
-* Your perception of your salary matters more than the amount itself. If you compare it to others, it will likely never feel sufficient. Also, how you spend your salary matters; if you buy what you need daily and at a low cost, you might feel it is adequate. For example, using your salary to buy a house might not seem worthwhile, but using it to buy food or a mobile phone might feel more justifiable.
+* Your perception of your salary matters more than the amount itself. If you compare it to others, it will likely never feel sufficient. Also, how you spend your salary matters; if you buy what you need daily at a low cost, you might feel it is adequate. For example, using it to buy food or a mobile phone might feel more justifiable, but using your salary to buy a house might not seem as worthwhile.
