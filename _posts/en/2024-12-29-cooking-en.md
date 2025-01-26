@@ -35,7 +35,17 @@ translated: false
 
 * Ingredients that are heated in a grill oven can be coated with cornflour and light soy sauce. Using fruit juice to marinate is also acceptable, such as lemon, orange, or apple juice.
 
-* We cut meat or other ingredients into small pieces to allow them to be heated more effectively in the pot.
+* We cut meat or other ingredients into small pieces to allow them to be heated more effectively in the pot. Therefore, it is different to prepare for making soup, which may accept larger pieces of ingredients.
+
+* The most important thing about cooking is make food cooked fully to safe to eat. 
+
+* Using a grill oven instead of an electric steamer means that it doesn't involve water to heat food, which makes the food dry. 
+
+* A mortar and pestle is a great tool to crush garlic. 
+
+* A vegetable chopper is a great tool too. It can be used to chop into cubes, slices, or strips.
+
+* Do not use too much salt, especially if the ingredients are already coated with soy sauce.
 
 {: .centered }
 ![](assets/images/cooking/c1.jpg){: .responsive }
