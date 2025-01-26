@@ -31,6 +31,9 @@ title: Cooking
 
 * We can apply the same process or function to similar objects or items with the same characteristics. This applies to both cooking and programming.
 
+* Ingredients that are heated in a grill oven can be coated with cornflour and light soy sauce. Using fruit juice to marinate is also acceptable, such as lemon, orange, or apple juice.
+
+
 {: .centered }
 ![](assets/images/cooking/c1.jpg){: .responsive }
 *Source: Self-captured*{: .caption }
