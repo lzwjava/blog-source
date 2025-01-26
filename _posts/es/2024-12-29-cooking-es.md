@@ -30,7 +30,11 @@ translated: true
 
 * Deberíamos minimizar el lavado de la olla entre platos y podemos saltear algunos alimentos juntos.
 
-* Podemos aplicar el mismo proceso o función a objetos similares o elementos con las mismas características. Esto se aplica tanto a la cocina como a la programación.
+* Podemos aplicar el mismo proceso o función a objetos o elementos similares con las mismas características. Esto se aplica tanto a la cocina como a la programación.
+
+* Los ingredientes que se calientan en un horno de asar pueden cubrirse con harina de maíz y salsa de soya ligera. Usar jugo de fruta para marinar también es aceptable, como jugo de limón, naranja o manzana.
+
+* Cortamos la carne u otros ingredientes en trozos pequeños para que se calienten de manera más efectiva en la olla.
 
 {: .centered }
 ![](assets/images/cooking/c1.jpg){: .responsive }
