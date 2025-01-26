@@ -45,6 +45,7 @@ title: Cooking
 
 * Meat usually does not need to be washed again. People tend to over-wash ingredients; there is no need to clean them thoroughly with water. We just need to ensure the ingredients are fresh.
 
+* Parchment paper is better than aluminum foil because it won't stick to the cooking surface.
 
 {: .centered }
 ![](assets/images/cooking/c1.jpg){: .responsive }
