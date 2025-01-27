@@ -34,14 +34,14 @@ def update_front_matter(file_path, translated_flag):
 
 def main():
     posts_dir = "_posts"
-    lang_dirs = ['en', 'zh']
+    languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr', 'de', 'ar', 'hant']
     original_dir = "original"
 
     if not os.path.exists(original_dir):
         print(f"Directory not found: {original_dir}")
         return
     
-    for lang_dir in lang_dirs:
+    for lang_dir in languages:
         target_dir = os.path.join(posts_dir, lang_dir)
         if not os.path.exists(target_dir):
             print(f"Directory not found: {target_dir}")
@@ -50,8 +50,10 @@ def main():
         for filename in os.listdir(target_dir):
             if filename.endswith(".md"):
                 translated_file_path = os.path.join(target_dir, filename)
-                print(f"  Setting translated flag to True for {translated_file_path}")
-                update_front_matter(translated_file_path, True)
+                if lang_dir not in ['en', 'zh']:
+                    print(f"  Setting translated flag to True for {translated_file_path}")
+                    update_front_matter(translated_file_path, True)
+                
 
     print(f"Processing files in {original_dir}")
     for filename in os.listdir(original_dir):
