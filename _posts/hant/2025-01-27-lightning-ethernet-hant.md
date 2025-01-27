@@ -1,33 +1,41 @@
 ---
 audio: true
-lang: hant
+lang: en
 layout: post
-title: Lightning 至乙太網路轉接器
-translated: true
+title: Lightning to Ethernet Adapter
 ---
 
-最近，我嘗試了一款從未使用過的新產品。這款產品在京東上花了我大約44元人民幣。而在沃爾瑪網站上，類似產品的價格約為15美元。
+I recently tried a new product that I had never used before. It cost me about 44 CNY on JD.com. Similar products cost around 15 USD on Walmart.com.
 
-它運作得非常完美，無需額外設置。插入適配器後，會出現一個“以太網”菜單項。
+It works perfectly, and no extra settings are needed. An "Ethernet" menu item appears after plugging in the adapter.
 
-我使用了Speedtest iOS應用程序來測試速度。結果如下所示。
+I used the Speedtest iOS app to test the speed. The results are shown below.
 
-| 網絡類型                     | 距離   | 下載速度 (MBPS) | 上傳速度 (MBPS) | 線路             |
+| Network Type                     | Distance   | Download Speed (MBPS) | Upload Speed (MBPS) | Line             |
 |----------------------------------|------------|-----------------------|---------------------|------------------|
-| 調制解調器 -> TP-LINK路由器 -> 手機 | 約30米 | 2.90                  | 4.82                | 廣州 -> 澳門 |
-| 調制解調器 -> 網線 -> 手機          | 約30米 | 84.9                  | 59.7                | 廣州 -> 澳門 |
+| Modem -> TP-LINK Router -> Phone | around 30m | 2.90                  | 4.82                | Guangzhou -> Macao |
+| Modem -> Cable -> Phone          | around 30m | 84.9                  | 59.7                | Guangzhou -> Macao |
 
-這是一個相對簡單的測試。我懷疑速度差異的一個原因是，從調制解調器到TP-LINK路由器的連接約為20米，而從TP-LINK路由器到手機的連接約為10米。此外，TP-LINK路由器使用無線橋接方式連接到調制解調器。
+In one test, the ping (ms) responsiveness results are shown below:
 
+| Metric   | Value | Jitter |
+|----------|-------|--------|
+| Idle     | 33    | 68     |
+| Download | 1885  | 110    |
+| Upload   | 127   | 54     |
+
+This is a somewhat naive test. I suspect one reason for the difference in speeds is that the connection from Modem -> TP-LINK Router is about 20m, and the connection from TP-LINK Router -> Phone is about 10m. Additionally, the TP-LINK Router uses a wireless bridge to connect to the modem.
+
+The interesting thing is that if you connect both Wi-Fi and Ethernet, there is no way to prioritize one over the other. You can only use Ethernet in this configuration. If you want to use Wi-Fi, you have to unplug the Ethernet adapter.
 
 {: .centered }
 ![](assets/images/lightning/l1.jpg){: .responsive }
-*來源：iOS*{: .caption }
+*Source: iOS*{: .caption }
 
 {: .centered }
 ![](assets/images/lightning/l2.jpg){: .responsive }
-*來源：Walmart.com*{: .caption }
+*Source: Walmart.com*{: .caption }
 
 {: .centered }
-![](assets/images/network_speed_chart.jpg){: .responsive }
-*來源：network_plot.py*{: .caption }
+![](assets/images/lightning/n.jpg){: .responsive }
+*Source: network_plot.py*{: .caption }
