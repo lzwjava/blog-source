@@ -37,5 +37,5 @@ The interesting thing is that if you connect both Wi-Fi and Ethernet, there is n
 *Source: Walmart.com*{: .caption }
 
 {: .centered }
-![](assets/images/network_speed_chart.jpg){: .responsive }
+![](assets/images/lightning/network_speed_chart.jpg){: .responsive }
 *Source: network_plot.py*{: .caption }
