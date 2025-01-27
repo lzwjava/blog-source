@@ -29,5 +29,5 @@ translated: true
 *स्रोत: Walmart.com*{: .caption }
 
 {: .centered }
-![](assets/images/network_speed_chart.jpg){: .responsive }
+![](assets/images/lightning/network_speed_chart.jpg){: .responsive }
 *स्रोत: network_plot.py*{: .caption }
