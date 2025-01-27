@@ -2,7 +2,7 @@
 audio: true
 lang: hi
 layout: post
-title: 'Mesh Router एक प्रकार का नेटवर्किंग'
+title: Mesh Router एक प्रकार का नेटवर्किंग
 translated: true
 ---
 
