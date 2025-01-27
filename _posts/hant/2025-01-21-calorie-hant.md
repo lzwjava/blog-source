@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Calories in Beverages
+translated: true
 ---
 
 I often find many beverages too sweet. While sugar-free options are healthier, they can feel too restrictive.

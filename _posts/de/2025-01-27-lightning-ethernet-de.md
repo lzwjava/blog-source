@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Lightning to Ethernet Adapter
+translated: true
 ---
 
 I recently tried a new product that I had never used before. It cost me about 44 CNY on JD.com. Similar products cost around 15 USD on Walmart.com.

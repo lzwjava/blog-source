@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Function Compute and OSS Integration
+translated: true
 ---
 
 ## Code
