@@ -11,6 +11,8 @@ title: Set Up Your Proxy Server
 
 * If you don't mind that ChatGPT and Claude are banned in Hong Kong, it is still a viable option. You can use tools like Deepseek, Mistral, Grok, and the Gemini API with Hong Kong servers. Use reverse thinking; others may avoid Hong Kong servers, leaving them less congested.
 
+* Consider server location and distance. For those in Guangzhou, Hong Kong is a good option for hosting a proxy server. Use Speedtest to measure network speed.
+
 * Protocols such as Shadowsocks, VMess, and Trojan can easily get banned.  
 
 * Use Linode for fast server migration.  
