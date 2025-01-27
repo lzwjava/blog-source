@@ -16,6 +16,14 @@ I used the Speedtest iOS app to test the speed. The results are shown below.
 | Modem -> TP-LINK Router -> Phone | around 30m | 2.90                  | 4.82                | Guangzhou -> Macao |
 | Modem -> Cable -> Phone          | around 30m | 84.9                  | 59.7                | Guangzhou -> Macao |
 
+In one test, the ping (ms) responsiveness results are shown below:
+
+| Metric   | Value | Jitter |
+|----------|-------|--------|
+| Idle     | 33    | 68     |
+| Download | 1885  | 110    |
+| Upload   | 127   | 54     |
+
 This is a somewhat naive test. I suspect one reason for the difference in speeds is that the connection from Modem -> TP-LINK Router is about 20m, and the connection from TP-LINK Router -> Phone is about 10m. Additionally, the TP-LINK Router uses a wireless bridge to connect to the modem.
 
 The interesting thing is that if you connect both Wi-Fi and Ethernet, there is no way to prioritize one over the other. You can only use Ethernet in this configuration. If you want to use Wi-Fi, you have to unplug the Ethernet adapter.
