@@ -1,33 +1,41 @@
 ---
 audio: true
-lang: de
+lang: en
 layout: post
-title: Lightning zu Ethernet Adapter
-translated: true
+title: Lightning to Ethernet Adapter
 ---
 
-Ich habe kürzlich ein neues Produkt ausprobiert, das ich noch nie zuvor verwendet hatte. Es hat mich etwa 44 CNY auf JD.com gekostet. Ähnliche Produkte kosten auf Walmart.com etwa 15 USD.
+I recently tried a new product that I had never used before. It cost me about 44 CNY on JD.com. Similar products cost around 15 USD on Walmart.com.
 
-Es funktioniert einwandfrei, und es sind keine zusätzlichen Einstellungen erforderlich. Ein "Ethernet"-Menüpunkt erscheint, nachdem der Adapter angeschlossen wurde.
+It works perfectly, and no extra settings are needed. An "Ethernet" menu item appears after plugging in the adapter.
 
-Ich habe die Speedtest iOS-App verwendet, um die Geschwindigkeit zu testen. Die Ergebnisse sind unten dargestellt.
+I used the Speedtest iOS app to test the speed. The results are shown below.
 
-| Netzwerktyp                     | Entfernung   | Download-Geschwindigkeit (MBPS) | Upload-Geschwindigkeit (MBPS) | Verbindung             |
+| Network Type                     | Distance   | Download Speed (MBPS) | Upload Speed (MBPS) | Line             |
 |----------------------------------|------------|-----------------------|---------------------|------------------|
-| Modem -> TP-LINK Router -> Telefon | ca. 30m | 2.90                  | 4.82                | Guangzhou -> Macao |
-| Modem -> Kabel -> Telefon          | ca. 30m | 84.9                  | 59.7                | Guangzhou -> Macao |
+| Modem -> TP-LINK Router -> Phone | around 30m | 2.90                  | 4.82                | Guangzhou -> Macao |
+| Modem -> Cable -> Phone          | around 30m | 84.9                  | 59.7                | Guangzhou -> Macao |
 
-Dies ist ein etwas naiver Test. Ich vermute, dass ein Grund für den Unterschied in den Geschwindigkeiten darin liegt, dass die Verbindung vom Modem zum TP-LINK Router etwa 20m beträgt und die Verbindung vom TP-LINK Router zum Telefon etwa 10m. Zusätzlich verwendet der TP-LINK Router eine Wireless Bridge, um sich mit dem Modem zu verbinden.
+In one test, the ping (ms) responsiveness results are shown below:
 
+| Metric   | Value | Jitter |
+|----------|-------|--------|
+| Idle     | 33    | 68     |
+| Download | 1885  | 110    |
+| Upload   | 127   | 54     |
+
+This is a somewhat naive test. I suspect one reason for the difference in speeds is that the connection from Modem -> TP-LINK Router is about 20m, and the connection from TP-LINK Router -> Phone is about 10m. Additionally, the TP-LINK Router uses a wireless bridge to connect to the modem.
+
+The interesting thing is that if you connect both Wi-Fi and Ethernet, there is no way to prioritize one over the other. You can only use Ethernet in this configuration. If you want to use Wi-Fi, you have to unplug the Ethernet adapter.
 
 {: .centered }
 ![](assets/images/lightning/l1.jpg){: .responsive }
-*Quelle: iOS*{: .caption }
+*Source: iOS*{: .caption }
 
 {: .centered }
 ![](assets/images/lightning/l2.jpg){: .responsive }
-*Quelle: Walmart.com*{: .caption }
+*Source: Walmart.com*{: .caption }
 
 {: .centered }
-![](assets/images/network_speed_chart.jpg){: .responsive }
-*Quelle: network_plot.py*{: .caption }
+![](assets/images/lightning/n.jpg){: .responsive }
+*Source: network_plot.py*{: .caption }

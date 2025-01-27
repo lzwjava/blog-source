@@ -1,33 +1,41 @@
 ---
 audio: true
-lang: zh
+lang: en
 layout: post
-title: Lightning 转以太网适配器
-translated: true
+title: Lightning to Ethernet Adapter
 ---
 
-最近，我尝试了一款之前从未使用过的新产品。在京东上购买大约花费了44元人民币。类似的产品在沃尔玛官网上售价约为15美元。
+I recently tried a new product that I had never used before. It cost me about 44 CNY on JD.com. Similar products cost around 15 USD on Walmart.com.
 
-这款产品使用起来非常顺畅，无需额外设置。插入适配器后，菜单中便会出现“以太网”选项。
+It works perfectly, and no extra settings are needed. An "Ethernet" menu item appears after plugging in the adapter.
 
-我使用了Speedtest iOS应用程序来测试网速，结果如下所示。
+I used the Speedtest iOS app to test the speed. The results are shown below.
 
-| 网络类型                     | 距离       | 下载速度 (MBPS) | 上传速度 (MBPS) | 线路             |
-|------------------------------|------------|-----------------|-----------------|------------------|
-| 调制解调器 -> TP-LINK路由器 -> 手机 | 约30米     | 2.90            | 4.82            | 广州 -> 澳门     |
-| 调制解调器 -> 网线 -> 手机    | 约30米     | 84.9            | 59.7            | 广州 -> 澳门     |
+| Network Type                     | Distance   | Download Speed (MBPS) | Upload Speed (MBPS) | Line             |
+|----------------------------------|------------|-----------------------|---------------------|------------------|
+| Modem -> TP-LINK Router -> Phone | around 30m | 2.90                  | 4.82                | Guangzhou -> Macao |
+| Modem -> Cable -> Phone          | around 30m | 84.9                  | 59.7                | Guangzhou -> Macao |
 
-这是一个相对简单的测试。我怀疑速度差异的一个原因是，调制解调器到TP-LINK路由器的连接大约有20米，而TP-LINK路由器到手机的距离大约为10米。此外，TP-LINK路由器通过无线桥接方式连接到调制解调器。
+In one test, the ping (ms) responsiveness results are shown below:
 
+| Metric   | Value | Jitter |
+|----------|-------|--------|
+| Idle     | 33    | 68     |
+| Download | 1885  | 110    |
+| Upload   | 127   | 54     |
+
+This is a somewhat naive test. I suspect one reason for the difference in speeds is that the connection from Modem -> TP-LINK Router is about 20m, and the connection from TP-LINK Router -> Phone is about 10m. Additionally, the TP-LINK Router uses a wireless bridge to connect to the modem.
+
+The interesting thing is that if you connect both Wi-Fi and Ethernet, there is no way to prioritize one over the other. You can only use Ethernet in this configuration. If you want to use Wi-Fi, you have to unplug the Ethernet adapter.
 
 {: .centered }
 ![](assets/images/lightning/l1.jpg){: .responsive }
-*来源：iOS*{: .caption }
+*Source: iOS*{: .caption }
 
 {: .centered }
 ![](assets/images/lightning/l2.jpg){: .responsive }
-*来源：Walmart.com*{: .caption }
+*Source: Walmart.com*{: .caption }
 
 {: .centered }
-![](assets/images/network_speed_chart.jpg){: .responsive }
-*来源：network_plot.py*{: .caption }
+![](assets/images/lightning/n.jpg){: .responsive }
+*Source: network_plot.py*{: .caption }
