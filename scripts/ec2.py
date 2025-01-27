@@ -43,7 +43,7 @@ def _get_ec2_instance(instance_id):
         return None
 
 
-def create_ec2_instance(instance_name=None, availability_zone="ap-east-1a", instance_type="t2.nano", user_data=None):
+def create_ec2_instance(instance_name=None, availability_zone="ap-east-1a", instance_type="t3.micro", user_data=None):
     if not instance_name:
         random_chars = ''.join(random.choice(string.ascii_lowercase) for _ in range(4))
         instance_name = f"{random_chars}"
@@ -56,11 +56,14 @@ def create_ec2_instance(instance_name=None, availability_zone="ap-east-1a", inst
 
     command = [
         "aws", "ec2", "run-instances",
-        "--image-id", "ami-0c2f462a95311139a", # Ubuntu 24.04 LTS
-        "--count", "1",
+        "--image-id", "ami-01c19c4912400a3fd",
         "--instance-type", instance_type,
-        "--key-name", "LightsailDefaultKey-ap-east-1",
-        "--subnet-id", "subnet-04968199999999999", # Replace with your subnet ID
+        "--block-device-mappings", '{"DeviceName":"/dev/sda1","Ebs":{"Encrypted":false,"DeleteOnTermination":true,"Iops":3000,"SnapshotId":"snap-0c3acb47c6e06a14b","VolumeSize":8,"VolumeType":"gp3","Throughput":125}}',
+        "--network-interfaces", '{"DeviceIndex":0,"Groups":["sg-preview-1"]}',
+        "--credit-specification", '{"CpuCredits":"unlimited"}',
+        "--metadata-options", '{"HttpEndpoint":"enabled","HttpPutResponseHopLimit":2,"HttpTokens":"required"}',
+        "--private-dns-name-options", '{"HostnameType":"ip-name","EnableResourceNameDnsARecord":true,"EnableResourceNameDnsAAAARecord":false}',
+        "--count", "1",
         "--region", "ap-east-1",
         "--tag-specifications", f"ResourceType=instance,Tags=[{{Key=Name,Value={instance_name}}}]"
     ]
