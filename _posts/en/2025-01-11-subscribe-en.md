@@ -1,5 +1,6 @@
 ---
 audio: true
+lang: en
 layout: post
 title: Subscribe
 translated: false

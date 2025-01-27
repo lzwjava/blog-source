@@ -1,6 +1,6 @@
 ---
 audio: true
-lang: en
+lang: zh
 layout: post
 title: Lightning to Ethernet Adapter
 ---

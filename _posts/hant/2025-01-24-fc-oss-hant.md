@@ -1,6 +1,6 @@
 ---
 audio: true
-lang: en
+lang: hant
 layout: post
 title: Function Compute and OSS Integration
 translated: true

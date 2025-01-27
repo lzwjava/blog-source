@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: post
 title: New Quora or TikTok Fully Powered by AI Translation
 translated: false

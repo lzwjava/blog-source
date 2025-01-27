@@ -1,6 +1,6 @@
 ---
 audio: true
-lang: en
+lang: hant
 layout: post
 title: Scale PDF Content for Printing
 translated: true

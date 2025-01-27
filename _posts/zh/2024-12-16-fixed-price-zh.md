@@ -1,4 +1,5 @@
 ---
+lang: zh
 layout: post
 title: 固定价格订阅已经过时
 translated: true

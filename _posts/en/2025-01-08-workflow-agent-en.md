@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: post
 title: Workflow is BFS, Agent is DFS
 translated: false

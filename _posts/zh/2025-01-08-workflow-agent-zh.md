@@ -1,4 +1,5 @@
 ---
+lang: zh
 layout: post
 title: Workflow 是 BFS，Agent 是 DFS
 translated: true

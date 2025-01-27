@@ -1,4 +1,5 @@
 ---
+lang: zh
 layout: post
 title: 'Turbolist3r: 枚举子域名'
 translated: true

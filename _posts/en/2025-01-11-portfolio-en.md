@@ -1,5 +1,6 @@
 ---
 audio: true
+lang: en
 layout: post
 title: Portfolio
 translated: false

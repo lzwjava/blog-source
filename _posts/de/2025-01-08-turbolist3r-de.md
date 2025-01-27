@@ -1,4 +1,5 @@
 ---
+lang: de
 layout: post
 title: 'Turbolist3r: Subdomains aufzählen'
 translated: true

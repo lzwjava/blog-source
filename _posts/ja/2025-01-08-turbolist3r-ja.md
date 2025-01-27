@@ -1,4 +1,5 @@
 ---
+lang: ja
 layout: post
 title: 'Turbolist3r: サブドメインの列挙'
 translated: true

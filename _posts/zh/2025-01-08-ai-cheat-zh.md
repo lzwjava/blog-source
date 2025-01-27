@@ -1,4 +1,5 @@
 ---
+lang: zh
 layout: post
 title: 重视判断力，而非担心AI作弊
 translated: true

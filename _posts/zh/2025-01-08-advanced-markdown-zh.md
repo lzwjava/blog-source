@@ -1,4 +1,5 @@
 ---
+lang: zh
 layout: post
 title: Markdown高级用法
 translated: true

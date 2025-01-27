@@ -1,4 +1,5 @@
 ---
+lang: zh
 layout: post
 title: 由AI工作流驱动的新平台
 translated: true

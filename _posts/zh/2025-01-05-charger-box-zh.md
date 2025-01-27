@@ -1,6 +1,6 @@
 ---
 audio: true
-lang: en
+lang: zh
 layout: post
 title: 智能通用充电盒
 translated: true

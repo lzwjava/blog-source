@@ -1,4 +1,5 @@
 ---
+lang: zh
 layout: post
 title: 我使用的 Mac 应用
 translated: true

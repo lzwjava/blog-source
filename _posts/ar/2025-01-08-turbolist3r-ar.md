@@ -1,4 +1,5 @@
 ---
+lang: ar
 layout: post
 title: 'Turbolist3r: تعداد النطاقات الفرعية'
 translated: true

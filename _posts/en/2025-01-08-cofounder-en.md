@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: post
 title: Tips for Finding the Cofounder
 translated: false

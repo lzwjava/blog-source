@@ -1,6 +1,6 @@
 ---
 audio: true
-lang: en
+lang: de
 layout: post
 title: Lightning to Ethernet Adapter
 translated: true

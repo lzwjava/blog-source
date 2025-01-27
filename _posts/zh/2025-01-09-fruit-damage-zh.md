@@ -1,6 +1,6 @@
 ---
 audio: true
-lang: en
+lang: zh
 layout: post
 title: 避免订购水果时受到损坏
 translated: true
