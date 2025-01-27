@@ -101,11 +101,9 @@ def translate_front_matter(front_matter, target_language, input_file):
         
         if target_language != original_lang:
             front_matter_dict['lang'] = target_language
-            front_matter_dict['translated'] = True
-            print(f"  Marked as translated to {target_language} for: {input_file}")
-        else:
-            front_matter_dict['translated'] = False
-            print(f"  Not marked as translated for: {input_file}")
+        
+        front_matter_dict['translated'] = True
+        print(f"  Marked as translated to {target_language} for: {input_file}")
         
         
         result = "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
