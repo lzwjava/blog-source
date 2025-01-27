@@ -62,23 +62,37 @@ def translate_text(text, target_language):
             return None
         return None
 
-def translate_front_matter(front_matter, target_language):
+def translate_front_matter(front_matter, target_language, input_file):
+    print(f"  Translating front matter for: {input_file}")
     if not front_matter:
+        print(f"  No front matter found for: {input_file}")
         return ""
     try:
         front_matter_dict = {}
         if front_matter:
             front_matter_dict = yaml.safe_load(front_matter)
-        if 'title' in front_matter_dict:
-            translated_title = translate_text(front_matter_dict['title'], target_language)
+            print(f"  Front matter after safe_load: {front_matter_dict}")
+        
+        front_matter_dict_copy = front_matter_dict.copy()
+        
+        if 'title' in front_matter_dict_copy:
+            print(f"  Translating title: {front_matter_dict_copy['title']}")
+            translated_title = translate_text(front_matter_dict_copy['title'], target_language)
             if translated_title:
                 translated_title = translated_title.strip()
                 if len(translated_title) > 300:
                     translated_title = translated_title.split('\n')[0]
-                front_matter_dict['title'] = translated_title
+                front_matter_dict_copy['title'] = translated_title
+                print(f"  Translated title to: {translated_title}")
+            else:
+                print(f"  Title translation failed for: {input_file}")
         # Always set lang to target_language
-        front_matter_dict['lang'] = target_language
-        return "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
+        front_matter_dict_copy['lang'] = target_language
+        front_matter_dict_copy['translated'] = True
+
+        result = "---\n" + yaml.dump(front_matter_dict_copy, allow_unicode=True) + "---"
+        print(f"  Front matter translation complete for: {input_file}")
+        return result
     except yaml.YAMLError as e:
         print(f"  Error parsing front matter: {e}")
         return front_matter
