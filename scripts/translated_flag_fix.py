@@ -35,7 +35,7 @@ def update_front_matter(file_path, translated_flag):
 def main():
     posts_dir = "_posts"
     lang_dirs = ['en', 'zh']
-    original_dir = "original'"
+    original_dir = "original"
 
     if not os.path.exists(original_dir):
         print(f"Directory not found: {original_dir}")
@@ -46,19 +46,25 @@ def main():
         if not os.path.exists(target_dir):
             print(f"Directory not found: {target_dir}")
             continue
+        print(f"Processing files in {target_dir}")
         for filename in os.listdir(target_dir):
             if filename.endswith(".md"):
                 translated_file_path = os.path.join(target_dir, filename)
+                print(f"  Setting translated flag to True for {translated_file_path}")
                 update_front_matter(translated_file_path, True)
 
+    print(f"Processing files in {original_dir}")
     for filename in os.listdir(original_dir):
         if filename.endswith(".md"):
             if filename.endswith("-en.md"):
-                lang_filepath = os.path.join(posts_dir, "en", filename)            
+                lang_filepath = os.path.join(posts_dir, "en", filename)
+                print(f"  Setting translated flag to False for {lang_filepath}")
                 update_front_matter(lang_filepath, False)
             elif filename.endswith("-zh.md"):
                 lang_filepath = os.path.join(posts_dir, "zh", filename)
+                print(f"  Setting translated flag to False for {lang_filepath}")
                 update_front_matter(lang_filepath, False)
             else:
-                print(f"Skipping file {filename} as it does not end with -en.md or -zh.md")
+                print(f"  Skipping file {filename} as it does not end with -en.md or -zh.md")
 
+main()

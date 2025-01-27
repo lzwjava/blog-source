@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Tracking Our House Finances
+translated: false
 ---
 
 Recently, I created a markdown document to keep track of our house's financial transactions.
