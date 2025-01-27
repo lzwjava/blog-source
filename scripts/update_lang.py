@@ -75,16 +75,19 @@ def translate_front_matter(front_matter, target_language, input_file):
         if front_matter:
             front_matter_dict = yaml.safe_load(front_matter)
             print(f"  Front matter after safe_load: {front_matter_dict}")
-        if 'title' in front_matter_dict:
-            print(f"  Translating title: {front_matter_dict['title']}")
+        
+        front_matter_dict_copy = front_matter_dict.copy()
+        
+        if 'title' in front_matter_dict_copy:
+            print(f"  Translating title: {front_matter_dict_copy['title']}")
             if not (input_file == 'original/2025-01-11-resume-en.md' and target_language in ['zh', 'fr']):
-                if isinstance(front_matter_dict['title'], str):
-                    translated_title = translate_text(front_matter_dict['title'], target_language)
+                if isinstance(front_matter_dict_copy['title'], str):
+                    translated_title = translate_text(front_matter_dict_copy['title'], target_language)
                     if translated_title:
                         translated_title = translated_title.strip()
                         if len(translated_title) > 300:
                             translated_title = translated_title.split('\n')[0]
-                        front_matter_dict['title'] = translated_title
+                        front_matter_dict_copy['title'] = translated_title
                         print(f"  Translated title to: {translated_title}")
                     else:
                         print(f"  Title translation failed for: {input_file}")
@@ -93,20 +96,11 @@ def translate_front_matter(front_matter, target_language, input_file):
             else:
                 print(f"  Skipping title translation for {input_file} to {target_language}")
         # Always set lang to target_language
-        
-        # Determine if the file is a translation
-        original_lang = 'en' # Default to english
-        if 'lang' in front_matter_dict:
-            original_lang = front_matter_dict['lang']
-        
-        if target_language != original_lang:
-            front_matter_dict['lang'] = target_language
-        
-        front_matter_dict['translated'] = True
-        print(f"  Marked as translated to {target_language} for: {input_file}")
-        
-        
-        result = "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
+ 
+        front_matter_dict_copy['lang'] = target_language        
+        front_matter_dict_copy['translated'] = True
+
+        result = "---\n" + yaml.dump(front_matter_dict_copy, allow_unicode=True) + "---"
         print(f"  Front matter translation complete for: {input_file}")
         return result
     except yaml.YAMLError as e:
@@ -189,22 +183,7 @@ def main():
         futures = []
         for filename in changed_files:
             input_file = filename
-            
-            # Check if the file was deleted
-            diff_result = subprocess.run(['git', 'diff', 'HEAD~1', 'HEAD', '--', input_file], capture_output=True, text=True)
-            if not diff_result.stdout.strip() and "deleted file" in diff_result.stderr:
-                print(f"File {input_file} was deleted. Removing translated files.")
-                for lang in languages:
-                    output_dir = f"_posts/{lang}"
-                    output_filename = os.path.basename(filename).replace(".md", f"-{lang}.md")
-                    if filename.endswith("-en.md") or filename.endswith("-zh.md"):
-                        output_filename = os.path.basename(filename).replace("-en.md", f"-{lang}.md").replace("-zh.md", f"-{lang}.md")
-                    output_file = os.path.join(output_dir, output_filename)
-                    if os.path.exists(output_file):
-                        os.remove(output_file)
-                        print(f"  Removed {output_file}")
-                continue
-            
+
             with open(input_file, 'r', encoding='utf-8') as infile:
                 content = infile.read()
             front_matter_match = re.match(r'---\n(.*?)\n---', content, re.DOTALL)
@@ -224,8 +203,8 @@ def main():
                 output_filename = os.path.basename(filename).replace(".md", f"-{lang}.md")
                 
                 # Check if the original file is named with "-en.md" or "-zh.md"
-                if filename.endswith("-en.md") or filename.endswith("-zh.md") or filename.endswith("-hant.md"):
-                    output_filename = os.path.basename(filename).replace("-en.md", f"-{lang}.md").replace("-zh.md", f"-{lang}.md").replace("-hant.md", f"-{lang}.md")
+                if filename.endswith("-en.md") or filename.endswith("-zh.md"):
+                    output_filename = os.path.basename(filename).replace("-en.md", f"-{lang}.md").replace("-zh.md", f"-{lang}.md")
                 
                 output_file = os.path.join(output_dir, output_filename)
                 
@@ -233,17 +212,11 @@ def main():
                     # Copy the file and set translated to false
                     with open(input_file, 'r', encoding='utf-8') as infile:
                         content = infile.read()
+
+                    front_matter_dict['translated'] = False
                     
-                    # Modify front matter to set translated: false
-                    front_matter_match = re.match(r'---\n(.*?)\n---', content, re.DOTALL)
-                    if front_matter_match:
-                        front_matter = front_matter_match.group(1)
-                        front_matter_dict = yaml.safe_load(front_matter)
-                        front_matter_dict['translated'] = False
-                        updated_front_matter = yaml.dump(front_matter_dict, sort_keys=False)
-                        content = f"---\n{updated_front_matter}---\n{content[front_matter_match.end():]}"
-                    else:
-                        content = f"---\ntranslated: false\n---\n{content}"
+                    updated_front_matter = yaml.dump(front_matter_dict, sort_keys=False)
+                    content = f"---\n{updated_front_matter}---\n{content[front_matter_match.end():]}"
 
                     with open(output_file, 'w', encoding='utf-8') as outfile:
                         outfile.write(content)
