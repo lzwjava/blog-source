@@ -11,3 +11,4 @@ For instance, Vitasoy's original flavor has 196 kJ per 100ml, and their chocolat
 
 Other beverages include: Naxue's tea at 82 kJ per 100ml, Coca-Cola at 180 kJ per 100ml, Sprite at 149 kJ per 100ml, and Lang Fong Yuen at 88 kJ per 100ml.
 
+After trying this for some time when buying beverages, it has been very helpful.
