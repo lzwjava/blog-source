@@ -3,15 +3,8 @@ body {
     line-height: 1.4;
     background-color: $main-bg-color;
 
-    font-family: "Palatino Linotype", "Book Antiqua", Monaco, Helvetica, STKaiti, SimSun, serif;    
+    font-family: Monaco, Helvetica, "PingFangSC-Regular", "Microsoft YaHei", SimSun, serif; 
 
-    &:lang(en) {
-        font-family: "Palatino Linotype", "Book Antiqua", Monaco, Helvetica, STKaiti, SimSun, serif;
-    }
-
-    &:lang(zh) {
-        font-family: "PingFangSC-Regular", "Microsoft YaHei", sans-serif;
-    }
 }
 
 /* Footer */
