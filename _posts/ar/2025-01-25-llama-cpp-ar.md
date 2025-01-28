@@ -2,13 +2,13 @@
 audio: true
 lang: ar
 layout: post
-title: تجربة llama.cpp
+title: تجربة لاما دوت سي بي بي
 translated: true
 ---
 
 ## llama.cpp
 
-عند محاولة تشغيل `llama.cpp` مع نموذج، قد تواجه خطأ مثل هذا:
+عند محاولة تشغيل `llama.cpp` مع نموذج، قد تواجه خطأً مثل هذا:
 
 ```bash
 % ./main -m models/7B/Phi-3-mini-4k-instruct-q4.gguf
@@ -21,7 +21,9 @@ llama_init_from_gpt_params: error: failed to load model 'models/7B/Phi-3-mini-4k
 main: error: unable to load model
 ```
 
-يحدث هذا الخطأ لأنني أقوم بتشغيل برنامج `main`. تشغيل برامج `llama-cli` أو `llama-server` الموجودة تحت `build/bin` يجب أن يحل المشكلة.
+يحدث هذا الخطأ لأنك تقوم بتشغيل برنامج `main`. يجب أن يحل تشغيل برامج `llama-cli` أو `llama-server` الموجودة في `build/bin` المشكلة.
+
+تم إنشاء برنامج `main` في 8 أغسطس 2023، مما يعني أنه ليس الإصدار الحالي.
 
 حل آخر هو تثبيت `llama.cpp` باستخدام Homebrew:
 
@@ -44,20 +46,20 @@ mistral:7b             f974a74358d6    4.1 GB    15 hours ago
 ollama remove model
 ```
 
-إنها أداة رائعة للاستخدام. هناك بعض الأخطاء في Ollamac. على سبيل المثال، عندما تتلقى ردًا من API المحلي، يتم تحديث عدة مربعات نصية في التطبيق.
+إنها أداة رائعة للاستخدام. هناك بعض الأخطاء في Ollamac. على سبيل المثال، عندما يتلقى استجابة من واجهة برمجة التطبيقات المحلية، يتم تحديث عدة مربعات نصية في التطبيق.
 
 ## LLM Farm
 
-إنه تطبيق iOS رائع. في الإعدادات، هناك حوالي 20 نموذجًا. عند استيراد نموذج GGUF بأنفسنا، والتي يتم تنزيلها من Hugging Face، قد يؤدي ذلك إلى تعطل التطبيق.
+إنه تطبيق iOS رائع. في الإعدادات، هناك حوالي 20 نموذجًا. عند استيراد نموذج GGUF بواسطتنا، والتي تم تنزيلها من Hugging Face، قد يؤدي إلى تعطل.
 
 ## الفوائد
 
-استضافة هذه النماذج LLM محليًا يسمح لك بتشغيلها دون الحاجة إلى الوصول إلى الشبكة. على سبيل المثال، عند تنزيل ملفات كبيرة تعيق الشبكة، تشغيل نموذج محلي يمكن أن يكون مفيدًا.
+يتيح استضافة هذه النماذج LLM بنفسك تشغيلها محليًا دون الحاجة إلى وصول إلى الشبكة. على سبيل المثال، عند تنزيل ملفات كبيرة تزدحم الشبكة، يمكن أن يكون تشغيل نموذج محلي مفيدًا.
 
-## المصادر
+## الموارد
 
-*   [نماذج Hugging Face GGML](https://huggingface.co/ggml-org?sort_models=downloads#models)
-*   [مستودع llama.cpp على GitHub](https://github.com/ggerganov/llama.cpp)
-*   [مستودع ggml على GitHub](https://github.com/ggerganov/ggml)
+*   [Hugging Face GGML Models](https://huggingface.co/ggml-org?sort_models=downloads#models)
+*   [llama.cpp GitHub Repository](https://github.com/ggerganov/llama.cpp)
+*   [ggml GitHub Repository](https://github.com/ggerganov/ggml)
 *   [Ollama](https://ollama.com)
 *   [Ollamac](https://github.com/kevinhermawan/Ollamac)

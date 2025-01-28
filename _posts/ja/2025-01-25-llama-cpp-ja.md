@@ -2,13 +2,13 @@
 audio: true
 lang: ja
 layout: post
-title: llama.cppを試す
+title: ラマ.cppを試してみる
 translated: true
 ---
 
 ## llama.cpp
 
-`llama.cpp` でモデルを実行しようとすると、次のようなエラーが発生することがあります:
+`llama.cpp` をモデルと一緒に実行しようとすると、以下のようなエラーが発生することがあります：
 
 ```bash
 % ./main -m models/7B/Phi-3-mini-4k-instruct-q4.gguf
@@ -21,15 +21,17 @@ llama_init_from_gpt_params: error: failed to load model 'models/7B/Phi-3-mini-4k
 main: error: unable to load model
 ```
 
-このエラーは、`main` プログラムを実行しているために発生します。`build/bin` ディレクトリにある `llama-cli` または `llama-server` プログラムを実行することで問題が解決するはずです。
+このエラーは、`main` プログラムを実行しているために発生します。`build/bin` にある `llama-cli` または `llama-server` プログラムを実行すると、問題が解決するはずです。
 
-別の解決策として、Homebrew を使って `llama.cpp` をインストールすることもできます:
+`main` プログラムは 2023 年 8 月 8 日に作成されたため、現在のビルドではありません。
+
+別の解決策として、Homebrew を使用して `llama.cpp` をインストールする方法があります：
 
 ```bash
 brew install llama.cpp
 ```
 
-これにより、互換性のあるバージョンのライブラリがインストールされます。
+これにより、互換性のあるライブラリバージョンを確保できます。
 
 ## Ollama
 
@@ -44,20 +46,20 @@ mistral:7b             f974a74358d6    4.1 GB    15 hours ago
 ollama remove model
 ```
 
-これは非常に便利なツールです。Ollamac にはいくつかのバグがあります。例えば、ローカル API からレスポンスを受信すると、アプリ内の複数のテキストボックスが更新されることがあります。
+これは素晴らしいツールです。ただし、Ollamac にはいくつかのバグがあります。例えば、ローカル API からの応答を受信したときに、アプリ内の複数のテキストボックスが更新されます。
 
 ## LLM Farm
 
-これは素晴らしい iOS アプリです。設定には約20のモデルがあります。Hugging Face からダウンロードした GGUF モデルを自分でインポートすると、クラッシュすることがあります。
+これは素晴らしい iOS アプリです。設定には約 20 のモデルがあります。Hugging Face からダウンロードした GGUF モデルを自分でインポートすると、クラッシュすることがあります。
 
-## 利点
+## メリット
 
-これらの LLM モデルをセルフホスティングすることで、ネットワークアクセスなしでローカルで実行できます。例えば、ネットワークを混雑させる大きなファイルをダウンロードしている場合、ローカルモデルを実行することが有益です。
+これらの LLM モデルを自分でホストすることで、ネットワークアクセスを必要とせずにローカルで実行できます。例えば、ネットワークを混雑させる大きなファイルをダウンロードする際に、ローカルモデルを実行することが有益です。
 
 ## リソース
 
 *   [Hugging Face GGML Models](https://huggingface.co/ggml-org?sort_models=downloads#models)
-*   [llama.cpp GitHub リポジトリ](https://github.com/ggerganov/llama.cpp)
-*   [ggml GitHub リポジトリ](https://github.com/ggerganov/ggml)
+*   [llama.cpp GitHub Repository](https://github.com/ggerganov/llama.cpp)
+*   [ggml GitHub Repository](https://github.com/ggerganov/ggml)
 *   [Ollama](https://ollama.com)
 *   [Ollamac](https://github.com/kevinhermawan/Ollamac)

@@ -2,13 +2,13 @@
 audio: true
 lang: de
 layout: post
-title: Versuche llama.cpp
+title: Llama.cpp ausprobieren
 translated: true
 ---
 
 ## llama.cpp
 
-Wenn Sie versuchen, `llama.cpp` mit einem Modell auszuführen, könnten Sie auf einen Fehler wie diesen stoßen:
+Beim Versuch, `llama.cpp` mit einem Modell auszuführen, könnten Sie auf einen Fehler wie diesen stoßen:
 
 ```bash
 % ./main -m models/7B/Phi-3-mini-4k-instruct-q4.gguf
@@ -21,7 +21,9 @@ llama_init_from_gpt_params: error: failed to load model 'models/7B/Phi-3-mini-4k
 main: error: unable to load model
 ```
 
-Dieser Fehler tritt auf, weil ich das `main`-Programm ausführe. Das Ausführen der Programme `llama-cli` oder `llama-server`, die sich unter `build/bin` befinden, sollte das Problem beheben.
+Dieser Fehler tritt auf, weil Sie das `main`-Programm ausführen. Das Ausführen der Programme `llama-cli` oder `llama-server`, die sich unter `build/bin` befinden, sollte das Problem lösen.
+
+Das `main`-Programm wurde am 8. August 2023 erstellt, was bedeutet, dass es sich nicht um die aktuelle Version handelt.
 
 Eine weitere Lösung besteht darin, `llama.cpp` mit Homebrew zu installieren:
 
@@ -44,15 +46,15 @@ mistral:7b             f974a74358d6    4.1 GB    15 hours ago
 ollama remove model
 ```
 
-Es ist ein großartiges Werkzeug. Es gibt einige Fehler in Ollamac. Zum Beispiel, wenn es eine Antwort von der lokalen API erhält, aktualisieren sich mehrere Textfelder in der App.
+Es ist ein großartiges Tool. Es gibt einige Fehler in Ollamac. Zum Beispiel aktualisieren sich mehrere Textfelder in der App, wenn eine Antwort von der lokalen API empfangen wird.
 
 ## LLM Farm
 
-Es ist eine großartige iOS-App. In den Einstellungen gibt es etwa 20 Modelle. Wenn wir ein GGUF-Modell selbst importieren, das von Hugging Face heruntergeladen wurde, kann dies zu einem Absturz führen.
+Es ist eine großartige iOS-App. In den Einstellungen gibt es etwa 20 Modelle. Beim Importieren eines GGUF-Modells, das von Hugging Face heruntergeladen wurde, kann es zu einem Absturz kommen.
 
 ## Vorteile
 
-Das Selbsthosten dieser LLM-Modelle ermöglicht es Ihnen, sie lokal auszuführen, ohne auf Netzwerkzugriff angewiesen zu sein. Zum Beispiel kann es von Vorteil sein, ein lokales Modell auszuführen, wenn große Dateien heruntergeladen werden, die das Netzwerk belasten.
+Das Selbst-Hosting dieser LLM-Modelle ermöglicht es Ihnen, sie lokal ohne Netzwerkzugang auszuführen. Zum Beispiel kann das Ausführen eines lokalen Modells beim Herunterladen großer Dateien, die das Netzwerk verstopfen, von Vorteil sein.
 
 ## Ressourcen
 

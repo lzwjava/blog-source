@@ -8,7 +8,7 @@ translated: true
 
 ## llama.cpp
 
-Al intentar ejecutar `llama.cpp` con un modelo, podrías encontrarte con un error como este:
+Cuando intentes ejecutar `llama.cpp` con un modelo, es posible que encuentres un error como este:
 
 ```bash
 % ./main -m models/7B/Phi-3-mini-4k-instruct-q4.gguf
@@ -21,7 +21,9 @@ llama_init_from_gpt_params: error: failed to load model 'models/7B/Phi-3-mini-4k
 main: error: unable to load model
 ```
 
-Este error ocurre porque estoy ejecutando el programa `main`. Ejecutar los programas `llama-cli` o `llama-server` ubicados en `build/bin` debería resolver el problema.
+Este error ocurre porque estás ejecutando el programa `main`. Ejecutar los programas `llama-cli` o `llama-server` ubicados en `build/bin` debería resolver el problema.
+
+El programa `main` fue creado el 8 de agosto de 2023, lo que significa que no es la versión actual.
 
 Otra solución es instalar `llama.cpp` usando Homebrew:
 
@@ -44,19 +46,19 @@ mistral:7b             f974a74358d6    4.1 GB    15 hours ago
 ollama remove model
 ```
 
-Es una gran herramienta para usar. Hay algunos errores en Ollamac. Por ejemplo, cuando recibe una respuesta de la API local, varias cajas de texto en la aplicación se actualizan.
+Es una gran herramienta para usar. Hay algunos errores en Ollamac. Por ejemplo, cuando recibe una respuesta de la API local, varios cuadros de texto en la aplicación se actualizan.
 
 ## LLM Farm
 
-Es una gran aplicación para iOS. En los ajustes, hay alrededor de 20 modelos. Cuando importamos un modelo GGUF por nuestra cuenta, que se descargan de Hugging Face, puede causar un cierre inesperado de la aplicación.
+Es una gran aplicación para iOS. En la configuración, hay alrededor de 20 modelos. Al importar un modelo GGUF por nosotros mismos, que se descargan de Hugging Face, puede provocar un bloqueo.
 
 ## Beneficios
 
-Alojar estos modelos LLM por tu cuenta te permite ejecutarlos localmente sin necesidad de acceso a la red. Por ejemplo, cuando descargas archivos grandes que congestionan la red, ejecutar un modelo local puede ser beneficioso.
+Autoalojar estos modelos LLM permite ejecutarlos localmente sin necesidad de acceso a la red. Por ejemplo, cuando se descargan archivos grandes que congestionan la red, ejecutar un modelo local puede ser beneficioso.
 
 ## Recursos
 
-*   [Modelos GGML en Hugging Face](https://huggingface.co/ggml-org?sort_models=downloads#models)
+*   [Modelos GGML de Hugging Face](https://huggingface.co/ggml-org?sort_models=downloads#models)
 *   [Repositorio de GitHub de llama.cpp](https://github.com/ggerganov/llama.cpp)
 *   [Repositorio de GitHub de ggml](https://github.com/ggerganov/ggml)
 *   [Ollama](https://ollama.com)
