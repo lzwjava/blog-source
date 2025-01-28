@@ -18,8 +18,8 @@ Used:
 * [Linode](https://www.linode.com)
 * [Google Cloud](https://cloud.google.com)
 * [Tencent Cloud](https://cloud.tencent.com)
-[Alibaba Cloud](https://www.alibabacloud.com)
-https://cn.aliyun.com
+* [Alibaba Cloud](https://www.alibabacloud.com)
+* [Alibaba Cloud (China)](https://cn.aliyun.com)
 
 
 Heard of or used for a short time:

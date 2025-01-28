@@ -2,7 +2,7 @@
 audio: true
 lang: hant
 layout: post
-title: 雲服務供應商
+title: 雲服務提供商
 translated: true
 ---
 
@@ -15,11 +15,11 @@ translated: true
 * [Vultr](https://www.vultr.com)
 * [Linode](https://www.linode.com)
 * [Google Cloud](https://cloud.google.com)
-* [Tencent Cloud](https://cloud.tencent.com)
-[Alibaba Cloud](https://www.alibabacloud.com)
-https://cn.aliyun.com
+* [百度雲](https://cloud.tencent.com)
+* [阿里雲](https://www.alibabacloud.com)
+* [阿里雲 (中國)](https://cn.aliyun.com)
 
-聽說過或短暫使用：
+聽說過或短期使用：
 
 * [UCloud](https://www.ucloud.cn)
-* [QingCloud](https://www.qingcloud.com)
+* [青雲](https://www.qingcloud.com)

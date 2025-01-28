@@ -6,7 +6,7 @@ title: クラウドプロバイダー
 translated: true
 ---
 
-使用済み：
+# 使用済み:
 
 * [Azure](https://azure.microsoft.com)
 * [AWS Lightsail](https://aws.amazon.com/lightsail/)
@@ -16,10 +16,10 @@ translated: true
 * [Linode](https://www.linode.com)
 * [Google Cloud](https://cloud.google.com)
 * [Tencent Cloud](https://cloud.tencent.com)
-[Alibaba Cloud](https://www.alibabacloud.com)
-https://cn.aliyun.com
+* [Alibaba Cloud](https://www.alibabacloud.com)
+* [Alibaba Cloud (中国)](https://cn.aliyun.com)
 
-聞いたことがあるか、短期間使用したことがある：
+# 聞いたことある or 短時間使用済み:
 
 * [UCloud](https://www.ucloud.cn)
 * [QingCloud](https://www.qingcloud.com)

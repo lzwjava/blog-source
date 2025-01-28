@@ -2,7 +2,7 @@
 audio: true
 lang: hant
 layout: post
-title: 偏好使用原生HTTP請求而非封裝
+title: 原始 HTTP 請求及封裝器
 translated: true
 ---
 
@@ -10,13 +10,14 @@ translated: true
 import requests
 import json
 import time
+
 def translate_text(text, target_language, special=False):
     if not text or not text.strip():
         return ""
     if target_language == 'en':
-        print(f"  跳過英文翻譯: {text[:50]}...")
+        print(f"  Skipping translation for English: {text[:50]}...")
         return text
-    print(f"  翻譯文本: {text[:50]}...")
+    print(f"  Translating text: {text[:50]}...")
 
     retries = 3
     for attempt in range(retries):
@@ -30,26 +31,26 @@ def translate_text(text, target_language, special=False):
                 stream=False
             )
             if not response or not response.choices or not response.choices[0].message.content:
-                print(f"  錯誤: 翻譯回應為空或無效: {response}")
+                print(f"  Error: Translation response is empty or invalid: {response}")
             if response and response.choices:
                 translated_text = response.choices[0].message.content
                 return translated_text
             else:
-                print(f"  翻譯在嘗試 {attempt + 1} 次失敗.")
+                print(f"  Translation failed on attempt {attempt + 1}.")
                 if attempt == retries - 1:
                     return None
         except Exception as e:
-            print(f"  翻譯在嘗試 {attempt + 1} 次時出錯: {e}")
+            print(f"  Translation failed with error on attempt {attempt + 1}: {e}")
             if attempt == retries - 1:
                 return None
-            time.sleep(1)  # 等待後重試
+            time.sleep(1)  # Wait before retrying
     return None
 ```
 
-錯誤:
+錯誤：
 
 ```bash
- 翻譯在嘗試 1 次時出錯: 預期值: 第 5 行第 1 列 (字符 4)
+在嘗試1時發生錯誤：預期值：第5列第1列（字元4）
 ```
 
-此錯誤表明 DeepSeek API 返回的回應不是有效的 JSON，可能是 HTML 或其他格式。這是意外的，因為 API 應該返回 JSON。問題可能是由於臨時的 API 問題、速率限制或提示問題。重要的是要優雅地處理此錯誤，記錄錯誤並可能重試。
+這個錯誤表示DeepSeek API返回的響應不是有效的JSON，可能是HTML或其他格式。這是預期的，API應該返回JSON。問題可能是API暫時問題、速率限制，或是提示問題。重要的是要處理這些錯誤，記錄錯誤並可能重試。

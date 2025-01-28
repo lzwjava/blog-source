@@ -2,7 +2,7 @@
 audio: true
 lang: zh
 layout: post
-title: 使用原始 HTTP 请求而不是封装库
+title: 原生 HTTP 请求与包装器
 translated: true
 ---
 
@@ -15,9 +15,9 @@ def translate_text(text, target_language, special=False):
     if not text or not text.strip():
         return ""
     if target_language == 'en':
-        print(f"  跳过翻译英文: {text[:50]}...")
+        print(f"  Skipping translation for English: {text[:50]}...")
         return text
-    print(f"  翻译文本: {text[:50]}...")
+    print(f"  Translating text: {text[:50]}...")
 
     retries = 3
     for attempt in range(retries):
@@ -31,26 +31,26 @@ def translate_text(text, target_language, special=False):
                 stream=False
             )
             if not response or not response.choices or not response.choices[0].message.content:
-                print(f"  错误: 翻译响应为空或无效: {response}")
+                print(f"  Error: Translation response is empty or invalid: {response}")
             if response and response.choices:
                 translated_text = response.choices[0].message.content
                 return translated_text
             else:
-                print(f"  翻译在尝试 {attempt + 1} 失败。")
+                print(f"  Translation failed on attempt {attempt + 1}.")
                 if attempt == retries - 1:
                     return None
         except Exception as e:
-            print(f"  翻译在尝试 {attempt + 1} 时出错: {e}")
+            print(f"  Translation failed with error on attempt {attempt + 1}: {e}")
             if attempt == retries - 1:
                 return None
-            time.sleep(1)  # 等待后重试
+            time.sleep(1)  # Wait before retrying
     return None
 ```
 
-错误:
+错误：
 
 ```bash
- 翻译在尝试 1 时出错: 预期值: 第5行第1列 (字符4)
+Translation failed with error on attempt 1: Expecting value: line 5 column 1 (char 4)
 ```
 
-此错误表明 DeepSeek API 返回的响应不是有效的 JSON，可能是 HTML 或其他格式。这是意外的，因为 API 预计返回 JSON。问题可能是由于 API 的临时问题、速率限制或提示的问题。重要的是要优雅地处理此错误，记录错误并可能重试。
+这个错误表明DeepSeek API返回的响应不是有效的JSON，可能是HTML或其他格式。这是意外的，因为API预期返回JSON。问题可能是API临时问题、速率限制或提示问题。重要的是优雅地处理错误，记录错误并可能重试。

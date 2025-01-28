@@ -2,7 +2,7 @@
 audio: true
 lang: ar
 layout: post
-title: التفضيل باستخدام طلبات HTTP الخام بدلاً من الأدوات المساعدة
+title: العدوان HTTP المباشر والألبت المستديرة
 translated: true
 ---
 
@@ -10,46 +10,45 @@ translated: true
 import requests
 import json
 import time
-def translate_text(text, target_language, special=False):
-    if not text or not text.strip():
-        return ""
-    if target_language == 'en':
-        print(f"  تخطي الترجمة للإنجليزية: {text[:50]}...")
-        return text
-    print(f"  ترجمة النص: {text[:50]}...")
 
-    retries = 3
-    for attempt in range(retries):
+def ترجمة_نص(نص, اللغة_المستهدفة, خاص=False):
+    if not نص or not نص.strip():
+        return ""
+    if اللغة_المستهدفة == 'en':
+        print(f"  تخطي ترجمة الإنجليزية: {نص[:50]}...")
+        return نص
+    print(f"  ترجمة النص: {نص[:50]}...")
+
+    عدد_المحاولات = 3
+    for حاول in range(عدد_المحاولات):
         try:
-            response = client.chat.completions.create(
-                model=MODEL_NAME,
-                messages=[
-                    {"role": "system", "content": create_translation_prompt(target_language, special)},
-                    {"role": "user", "content": text}
+            استجابة = عميل.محادثة.الاكمالات.إنشاء(
+                المودل=اسم_المودل,
+                الرسائل=[
+                    {"دور": "نظام", "المحتوى": إنشاء_ترجمة_برنامج(اللغة_المستهدفة, خاص)},
+                    {"دور": "مستخدم", "المحتوى": نص}
                 ],
-                stream=False
+                التدفق=False
             )
-            if not response or not response.choices or not response.choices[0].message.content:
-                print(f"  خطأ: الرد على الترجمة فارغ أو غير صالح: {response}")
-            if response and response.choices:
-                translated_text = response.choices[0].message.content
-                return translated_text
+            if not استجابة or not استجابة.الاختيارات or not استجابة.الاختيارات[0].رسالة.المحتوى:
+                print(f"  خطأ: إجابة الترجمة فارغة أو غير صالحة: {استجابة}")
+            if استجابة and استجابة.الاختيارات:
+                نص_مترجم = استجابة.الاختيارات[0].رسالة.المحتوى
+                return نص_مترجم
             else:
-                print(f"  فشلت الترجمة في المحاولة {attempt + 1}.")
-                if attempt == retries - 1:
+                print(f"  فشل الترجمة في المحاولة {حاول + 1}.")
+                if حاول == عدد_المحاولات - 1:
                     return None
         except Exception as e:
-            print(f"  فشلت الترجمة بخطأ في المحاولة {attempt + 1}: {e}")
-            if attempt == retries - 1:
+            print(f"  فشل الترجمة مع الخطأ في المحاولة {حاول + 1}: {e}")
+            if حاول == عدد_المحاولات - 1:
                 return None
-            time.sleep(1)  # انتظار قبل إعادة المحاولة
+            time.sleep(1)  # انتظار قبل المحاولة مرة أخرى
     return None
 ```
 
-خطأ:
-
 ```bash
- فشلت الترجمة بخطأ في المحاولة 1: Expecting value: line 5 column 1 (char 4)
+ فشل الترجمة مع الخطأ في المحاولة 1: اتوجاه قيمة: صفة 5 عمود 1 (حرف 4)
 ```
 
-هذا الخطأ يشير إلى أن واجهة برمجة التطبيقات DeepSeek تعيد رداً غير صالح لـ JSON، وربما يكون عبارة عن HTML أو تنسيق آخر. هذا غير متوقع، حيث يتوقع من الواجهة إرجاع JSON. قد يكون المشكلة بسبب مشكلة مؤقتة في واجهة البرمجة، أو تحديد المعدل، أو مشكلة مع المحفز. من المهم معالجة ذلك بلباقة من خلال تسجيل الخطأ وإمكانية إعادة المحاولة.
+يشير هذا الخطأ إلى أن API DeepSeek يعيد إجابة ليست صالحة JSON، قد تكون HTML أو نوع آخر. هذا الأمر مفرط، لأننا نتوقع أن يعيد API JSON. قد يكون المشكلة بسبب مشكلة مؤقتة في API، أو حدود للسرعة، أو مشكلة في البرنامج. من المهم تعالج هذا بشكل ملحوظ بتسجيل الخطأ والمحاولة المحتملة مرة أخرى.
