@@ -4,8 +4,6 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import argparse
 import requests
-import json
-# from mistralai import Mistral # Removed mistralai import
 
 load_dotenv()
 
