@@ -2,7 +2,7 @@
 audio: true
 lang: de
 layout: post
-title: Verwenden Sie rohe HTTP-Anfragen anstelle von Wrappers
+title: Bevorzugen Sie die Verwendung von rohen HTTP-Anfragen anstelle von Wrappers
 translated: true
 ---
 
@@ -16,7 +16,7 @@ def translate_text(text, target_language, special=False):
     if target_language == 'en':
         print(f"  Übersetzung für Englisch überspringen: {text[:50]}...")
         return text
-    print(f"  Übersetzung von Text: {text[:50]}...")
+    print(f"  Text übersetzen: {text[:50]}...")
 
     retries = 3
     for attempt in range(retries):
@@ -52,4 +52,4 @@ Fehler:
  Übersetzung fehlgeschlagen mit Fehler bei Versuch 1: Expecting value: line 5 column 1 (char 4)
 ```
 
-Dieser Fehler deutet darauf hin, dass die DeepSeek-API eine Antwort zurückgibt, die kein gültiges JSON ist, möglicherweise HTML oder ein anderes Format. Dies ist unerwartet, da von der API erwartet wird, dass sie JSON zurückgibt. Das Problem könnte auf einem vorübergehenden API-Problem, einer Ratenbegrenzung oder einem Problem mit der Eingabeaufforderung beruhen. Es ist wichtig, diesen Fehler elegant zu behandeln, indem der Fehler protokolliert und möglicherweise ein erneuter Versuch unternommen wird.
+Dieser Fehler deutet darauf hin, dass die DeepSeek-API eine Antwort zurückgibt, die kein gültiges JSON ist, möglicherweise HTML oder ein anderes Format. Dies ist unerwartet, da von der API erwartet wird, dass sie JSON zurückgibt. Das Problem könnte auf einem vorübergehenden API-Problem, einer Rate-Limiting oder einem Problem mit der Eingabeaufforderung beruhen. Es ist wichtig, dies elegant zu behandeln, indem der Fehler protokolliert und möglicherweise erneut versucht wird.
