@@ -21,7 +21,6 @@ MAX_THREADS = 10
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 
-
 def create_translation_prompt(target_language, type="content", special=False):
     if type == "title":
         base_prompt = "Translate the following title to {target_language}. Provide only the translated title.\n"
