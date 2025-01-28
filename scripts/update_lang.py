@@ -138,7 +138,7 @@ def translate_markdown_file(input_file, output_file, target_language, dry_run=Fa
             if translated_content:
                 translated_content = translated_front_matter + "\n\n" + translated_content
             else:
-                translated_content = content
+                raise Exception(f"Translation failed for: {input_file}")
             
             if os.path.exists(output_file):
                 os.remove(output_file)
