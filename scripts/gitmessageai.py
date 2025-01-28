@@ -33,7 +33,9 @@ def call_mistral_api(prompt):
         response.raise_for_status()
         response_json = response.json()
         if response_json and response_json['choices']:
-            return response_json['choices'][0]['message']['content']
+            content = response_json['choices'][0]['message']['content']
+            content = content.replace("```", "").strip()
+            return content
         else:
             print(f"Mistral API Error: Invalid response format: {response_json}")
             return None

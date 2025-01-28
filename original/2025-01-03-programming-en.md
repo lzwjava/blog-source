@@ -65,5 +65,5 @@ title: Programming
 
 * Handle errors properly. Think about the root cause, the responsibility, and whether we can change it or if it is an external error. Consider the rescue method, the impact scope, where to handle it, whether we should categorize errors, how likely it is to happen, and the worst-case scenarios.
 
-
+* The difference between using replace or using startWith followed by slice is that the former disregards the string's position. Apply similar thinking to every detail of programming.
 
