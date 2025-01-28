@@ -200,7 +200,7 @@ def translate_markdown_file(input_file, output_file, target_language, model="dee
             "Zhiwei" in content_without_front_matter
         )
         translated_content = translate_text(content_without_front_matter, target_language, special=special, model=model)
-        print(f"  Translated content: {translated_content}")
+        # print(f"  Translated content: {translated_content}")
         if translated_content:
             translated_content = translated_front_matter + "\n\n" + translated_content
         else:
