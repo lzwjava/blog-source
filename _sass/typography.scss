@@ -1,10 +1,12 @@
 /* Body */
 body {
-    line-height: 1.8;
+    line-height: 1.4;
     background-color: $main-bg-color;
 
+    font-family: "Palatino Linotype", "Book Antiqua", Monaco, Helvetica, STKaiti, SimSun, serif;    
+
     &:lang(en) {
-        font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+        font-family: "Palatino Linotype", "Book Antiqua", Monaco, Helvetica, STKaiti, SimSun, serif;
     }
 
     &:lang(zh) {
