@@ -1,15 +1,15 @@
 ---
 lang: zh
 layout: post
-title: AI 工具
+title: 人工智能工具
 translated: true
 ---
 
-以下是我使用过的一些AI工具：
+这里是我使用过的一些 AI 工具：
 
 #### 聊天机器人
 
-全球范围：
+全球：
 
 - [chatgpt.com](http://chatgpt.com)
 - [claude.ai](https://claude.ai)
@@ -43,3 +43,5 @@ translated: true
 - [runwayml.com](https://runwayml.com)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 - [pika.art](https://pika.art)
+- [huggingface.co](https://huggingface.co)
+- [kaggle.com](https://kaggle.com)

@@ -1,15 +1,15 @@
 ---
 lang: hi
 layout: post
-title: एआई टूल्स
+title: AI उपकरण
 translated: true
 ---
 
-यहां कुछ AI टूल्स हैं जिनका मैंने उपयोग किया है:
+यहाँ कुछ AI टूल्स हैं जो मैंने उपयोग किया:
 
 #### चैटबॉट्स
 
-वैश्विक:
+विश्व:
 
 - [chatgpt.com](http://chatgpt.com)
 - [claude.ai](https://claude.ai)
@@ -43,3 +43,5 @@ translated: true
 - [runwayml.com](https://runwayml.com)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 - [pika.art](https://pika.art)
+- [huggingface.co](https://huggingface.co)
+- [kaggle.com](https://kaggle.com)

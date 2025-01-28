@@ -1,7 +1,7 @@
 ---
 lang: de
 layout: post
-title: KI-Tools
+title: KI-Werkzeuge
 translated: true
 ---
 
@@ -27,7 +27,6 @@ China:
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-
 #### Leaderboards
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
@@ -44,3 +43,5 @@ China:
 - [runwayml.com](https://runwayml.com)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 - [pika.art](https://pika.art)
+- [huggingface.co](https://huggingface.co)
+- [kaggle.com](https://kaggle.com)
