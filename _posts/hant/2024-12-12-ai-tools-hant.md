@@ -5,7 +5,7 @@ title: AI工具
 translated: true
 ---
 
-以下是我使用過的一些AI工具：
+### AI 工具
 
 #### 聊天機器人
 
@@ -43,3 +43,5 @@ translated: true
 - [runwayml.com](https://runwayml.com)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 - [pika.art](https://pika.art)
+- [huggingface.co](https://huggingface.co)
+- [kaggle.com](https://kaggle.com)

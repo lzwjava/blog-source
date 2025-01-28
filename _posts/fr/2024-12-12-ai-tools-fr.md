@@ -27,7 +27,6 @@ Chine :
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-
 #### Classements
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
@@ -44,3 +43,5 @@ Chine :
 - [runwayml.com](https://runwayml.com)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 - [pika.art](https://pika.art)
+- [huggingface.co](https://huggingface.co)
+- [kaggle.com](https://kaggle.com)

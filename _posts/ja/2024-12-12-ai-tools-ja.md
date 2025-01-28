@@ -5,7 +5,7 @@ title: AIツール
 translated: true
 ---
 
-以下は私が使用したAIツールのリストです：
+以下は私が使用したAIツールの一部です：
 
 #### チャットボット
 
@@ -27,7 +27,7 @@ translated: true
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-#### リーダーボード
+#### ランキング
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
@@ -43,3 +43,5 @@ translated: true
 - [runwayml.com](https://runwayml.com)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 - [pika.art](https://pika.art)
+- [huggingface.co](https://huggingface.co)
+- [kaggle.com](https://kaggle.com)
