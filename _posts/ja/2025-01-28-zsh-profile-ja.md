@@ -1,86 +1,10 @@
 ---
 audio: true
-lang: en
+lang: ja
 layout: post
-title: Zsh Profile
+title: Zsh プロファイル
 translated: true
 ---
-
-This zsh profile is designed to enhance the user's command-line experience, particularly focusing on proxy management, git integration, and convenience aliases. Here's a breakdown:
-
-**1. PATH Configuration:**
-
-   - `export PATH=...`: This line sets the `PATH` environment variable, which tells the shell where to look for executable files. It includes various directories like those for Java, Ruby, Homebrew, Python, Flutter, and Google Cloud SDK. This ensures that commands from these tools can be run directly from the terminal.
-
-**2. Proxy Management:**
-
-   - `export GLOBAL_PROXY='127.0.0.1:7890'`: This defines a variable `GLOBAL_PROXY` holding the proxy server address.
-   - `function start_proxy { ... }`: This function sets the `HTTP_PROXY`, `HTTPS_PROXY`, `http_proxy`, `https_proxy`, and `ALL_PROXY` environment variables to use the specified proxy. It also disables full URI requests for proxies.
-   - `function start_proxy_without_prefix { ... }`: Similar to `start_proxy`, but sets the proxy variables without the `http://` prefix.
-   - `function stop_proxy { ... }`: This function unsets the proxy variables, effectively disabling the proxy. It also enables full URI requests for proxies.
-   - `export NO_PROXY="localhost,127.0.0.1,.example.com,::1"`: This specifies a list of hosts that should bypass the proxy.
-
-**3. Git Proxy:**
-
-   - `function start_git_proxy { ... }`: This function configures git to use the global proxy for HTTP and HTTPS connections.
-   - `function stop_git_proxy { ... }`: This function unsets the git proxy settings.
-
-**4. Homebrew Integration:**
-
-   - `eval "$(/opt/homebrew/bin/brew shellenv)"`: This line integrates Homebrew into the shell environment, allowing you to use Homebrew commands.
-
-**5. Convenience Aliases:**
-
-   - `alias gpa='python ~/bin/gitmessageai.py --api mistral'`: This creates an alias `gpa` to run a python script `gitmessageai.py` with the mistral API.
-   - `alias gca='python ~/bin/gitmessageai.py --no-push'`: This creates an alias `gca` to run the same script without pushing changes.
-   - `alias gm='python ~/bin/gitmessageai.py --only-message'`: This creates an alias `gm` to run the same script and only print the commit message.
-   - `alias gpam=/usr/local/bin/git-auto-commit`: This creates an alias `gpam` to run the `git-auto-commit` script.
-   - `alias rougify=/Users/lzwjava/projects/rouge/bin/rougify`: This creates an alias `rougify` to run the `rougify` script.
-
-**6. SSL Certificate:**
-
-   - `export SSL_CERT_FILE=~/bin/cacert.pem`: This sets the path to a custom SSL certificate file.
-
-**7. Homebrew Auto-Update:**
-
-   - `export HOMEBREW_NO_AUTO_UPDATE=1`: This disables Homebrew's automatic updates.
-
-**8. Pre-Execution Proxy Check:**
-
-   - `preexec() { ... }`: This function is executed before every command. It checks if the command is in a list of network-dependent commands. If it is, and if any proxy variables are set, it displays the proxy settings.
-   - `local network_commands=( ... )`: This array lists commands that are considered network-dependent.
-   - `display_proxy() { ... }`: This function displays the current proxy settings.
-
-**9. Google Cloud SDK Completion:**
-
-   - `if [ -f '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc'; fi`: This line enables shell command completion for gcloud.
-
-**10. API Keys and Credentials:**
-
-    - `export GOOGLE_APPLICATION_CREDENTIALS="/Users/lzwjava/bin/graphite-ally-445108-k3-035f0952219d.json"`: Sets the path to the Google Cloud service account credentials.
-    - `export DEEPSEEK_API_KEY="xxx"`: Sets the DeepSeek API key.
-    - `export MISTRAL_API_KEY="xxx"`: Sets the Mistral API key.
-    - `export DYLD_LIBRARY_PATH=$(brew --prefix curl)/lib`: Sets the dynamic library path for curl.
-    - `export SPEECH_ENDPOINT="https://ai-lzwjava-5596.cognitiveservices.azure.com/"`: Sets the Azure speech endpoint.
-    - `export DO_API_KEY="xxx"`: Sets the Digital Ocean API key.
-    - `export GEMINI_API_KEY="xxx"`: Sets the Gemini API key.
-
-**11. Conda Environment:**
-
-    - `conda activate base`: Activates the base conda environment.
-
-**In summary, this zsh profile provides a comprehensive setup for a developer, including:**
-
-- Easy proxy management with functions to start and stop proxies.
-- Git proxy configuration.
-- Integration with Homebrew.
-- Convenient aliases for common tasks.
-- Pre-execution proxy checks for network-dependent commands.
-- API keys and credentials for various services.
-- Conda environment activation.
-
-This profile is designed to streamline the user's workflow and make it easier to manage various development tools and services.
-
 
 ```bash
 export PATH=/opt/homebrew/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lzwjava/Library/Python/3.9/bin:/Library/TeX/texbin:/Users/lzwjava/bin:/Users/lzwjava/platform-tools:/Users/lzwjava/Downloads/google-cloud-sdk/bin:/Users/lzwjava/bin/flutter/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:/opt/homebrew/Cellar/llama.cpp/4539/bin:/Users/lzwjava/bin/google-cloud-sdk/bin
@@ -104,26 +28,25 @@ function start_proxy {
 
 function start_proxy_without_prefix {
     export http_proxy=$GLOBAL_PROXY
-		export HTTP_PROXY=$GLOBAL_PROXY
-		export https_proxy=$GLOBAL_PROXY
+    export HTTP_PROXY=$GLOBAL_PROXY
+    export https_proxy=$GLOBAL_PROXY
     export HTTPS_PROXY=$GLOBAL_PROXY
     export HTTP_PROXY_REQUEST_FULLURI=false
     export HTTPS_PROXY_REQUEST_FULLURI=false
-		export ALL_PROXY=$http_proxy
+    export ALL_PROXY=$http_proxy
 }
 
 function stop_proxy {
     export http_proxy=
-		export HTTP_PROXY=
-		export https_proxy=
+    export HTTP_PROXY=
+    export https_proxy=
     export HTTPS_PROXY=
     export HTTP_PROXY_REQUEST_FULLURI=true
     export HTTPS_PROXY_REQUEST_FULLURI=true
-		export ALL_PROXY=		
+    export ALL_PROXY=
 }
 
 export NO_PROXY="localhost,127.0.0.1,.example.com,::1"
-
 
 function start_git_proxy {
   git config --global http.proxy $GLOBAL_PROXY
@@ -154,7 +77,6 @@ alias gpam=/usr/local/bin/git-auto-commit
 export SSL_CERT_FILE=~/bin/cacert.pem
 
 alias rougify=/Users/lzwjava/projects/rouge/bin/rougify
-
 
 # git config --global core.editor "code --wait"
 # git config --global -e
@@ -229,7 +151,7 @@ preexec() {
             if [ -n "$HTTP_PROXY" ] || [ -n "$http_proxy" ] || \
                [ -n "$HTTPS_PROXY" ] || [ -n "$https_proxy" ] || \
                [ -n "$ALL_PROXY" ] || [ -n "$all_proxy" ]; then
-                
+
                 display_proxy
             fi
             break
@@ -256,3 +178,78 @@ export GEMINI_API_KEY="xxx"
 
 conda activate base
 ```
+
+このzshプロファイルは、コマンドライン体験を向上させることを目的としており、プロキシ設定、Git統合、便利なエイリアスに焦点を当てています。以下のセクションでその機能を詳述します：
+
+**1. PATH設定:**
+
+   - `export PATH=...`: この行は`PATH`環境変数を設定し、シェルが実行可能なファイルを探す場所を指定します。Java、Ruby、Homebrew、Python、Flutter、Google Cloud SDKなどのディレクトリが含まれており、これらのツールのコマンドをターミナルから直接実行できるようにします。
+
+**2. プロキシ管理:**
+
+   - `export GLOBAL_PROXY='127.0.0.1:7890'`: これはプロキシサーバーアドレスを保持する変数`GLOBAL_PROXY`を定義します。
+   - `function start_proxy { ... }`: この関数は`HTTP_PROXY`、`HTTPS_PROXY`、`http_proxy`、`https_proxy`、`ALL_PROXY`環境変数を指定されたプロキシで設定し、プロキシの全URIリクエストを無効にします。
+   - `function start_proxy_without_prefix { ... }`: `start_proxy`と似ていますが、プレフィックスなしでプロキシ変数を設定します。
+   - `function stop_proxy { ... }`: この関数はプロキシ変数を未設定にし、プロキシを無効にします。また、プロキシの全URIリクエストを有効にします。
+   - `export NO_PROXY="localhost,127.0.0.1,.example.com,::1"`: プロキシをバイパスすべきホストのリストを指定します。
+
+**3. Gitプロキシ:**
+
+   - `function start_git_proxy { ... }`: この関数はgitにグローバルプロキシを使用するように設定します。
+   - `function stop_git_proxy { ... }`: この関数はgitプロキシ設定を未設定にします。
+
+**4. Homebrew統合:**
+
+   - `eval "$(/opt/homebrew/bin/brew shellenv)"`: この行はHomebrewをシェル環境に統合し、Homebrewコマンドを使用できるようにします。
+
+**5. 便利なエイリアス:**
+
+   - `alias gpa='python ~/bin/gitmessageai.py --api mistral'`: これは`gpa`エイリアスを作成し、mistral APIを使用するpythonスクリプト`gitmessageai.py`を実行します。
+   - `alias gca='python ~/bin/gitmessageai.py --no-push'`: これは`gca`エイリアスを作成し、変更をプッシュせずに同じスクリプトを実行します。
+   - `alias gm='python ~/bin/gitmessageai.py --only-message'`: これは`gm`エイリアスを作成し、コミットメッセージのみを表示するように同じスクリプトを実行します。
+   - `alias gpam=/usr/local/bin/git-auto-commit`: これは`gpam`エイリアスを作成し、`git-auto-commit`スクリプトを実行します。
+   - `alias rougify=/Users/lzwjava/projects/rouge/bin/rougify`: これは`rougify`エイリアスを作成し、`rougify`スクリプトを実行します。
+
+**6. SSL証明書:**
+
+   - `export SSL_CERT_FILE=~/bin/cacert.pem`: これはカスタムSSL証明書ファイルへのパスを設定します。
+
+**7. Homebrew自動更新:**
+
+   - `export HOMEBREW_NO_AUTO_UPDATE=1`: これはHomebrewの自動更新を無効にします。
+
+**8. 事前実行プロキシチェック:**
+
+   - `preexec() { ... }`: この関数は各コマンドの実行前に実行され、コマンドがネットワーク依存コマンドのリストにあるかどうかを確認します。そうであり、プロキシ変数が設定されている場合、プロキシ設定を表示します。
+   - `local network_commands=( ... )`: この配列はネットワーク依存コマンドのリストを表示します。
+   - `display_proxy() { ... }`: この関数は現在のプロキシ設定を表示します。
+
+**9. Google Cloud SDK補完:**
+
+   - `if [ -f '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc'; fi`: この行はgcloudのシェルコマンド補完を有効にします。
+
+**10. APIキーとクレデンシャル:**
+
+    - `export GOOGLE_APPLICATION_CREDENTIALS="/Users/lzwjava/bin/graphite-ally-445108-k3-035f0952219d.json"`: Google Cloudサービスアカウントのクレデンシャルへのパスを設定します。
+    - `export DEEPSEEK_API_KEY="xxx"`: DeepSeek APIキーを設定します。
+    - `export MISTRAL_API_KEY="xxx"`: Mistral APIキーを設定します。
+    - `export DYLD_LIBRARY_PATH=$(brew --prefix curl)/lib`: curlの動的ライブラリパスを設定します。
+    - `export SPEECH_ENDPOINT="https://ai-lzwjava-5596.cognitiveservices.azure.com/"`: Azureのスピーチエンドポイントを設定します。
+    - `export DO_API_KEY="xxx"`: Digital Ocean APIキーを設定します。
+    - `export GEMINI_API_KEY="xxx"`: Gemini APIキーを設定します。
+
+**11. Conda環境:**
+
+    - `conda activate base`: ベースconda環境をアクティブにします。
+
+**要するに、このzshプロファイルは開発者にとって包括的なセットアップを提供し、以下を含みます：**
+
+- プロキシの簡単な管理および開始と停止の関数。
+- Gitプロキシ設定。
+- Homebrew統合。
+- 一般的なタスクの便利なエイリアス。
+- ネットワーク依存コマンドの事前実行プロキシチェック。
+- 様々なサービスのAPIキーとクレデンシャル。
+- Conda環境のアクティブ化。
+
+このプロファイルは、ユーザーのワークフローをストリーミングし、さまざまな開発ツールとサービスを管理しやすくすることを目的としています。

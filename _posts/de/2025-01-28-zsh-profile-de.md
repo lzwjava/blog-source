@@ -1,86 +1,85 @@
 ---
 audio: true
-lang: en
+lang: de
 layout: post
-title: Zsh Profile
+title: Zsh-Profil
 translated: true
 ---
 
-This zsh profile is designed to enhance the user's command-line experience, particularly focusing on proxy management, git integration, and convenience aliases. Here's a breakdown:
+Dieses Zsh-Profil zielt darauf ab, das Kommandozeilen-Erlebnis zu verbessern, mit einem Fokus auf Proxy-Konfigurationen, Git-Integration und praktischen Aliassen. Die folgenden Abschnitte beschreiben seine Funktionen:
 
-**1. PATH Configuration:**
+**1. PATH-Konfiguration:**
 
-   - `export PATH=...`: This line sets the `PATH` environment variable, which tells the shell where to look for executable files. It includes various directories like those for Java, Ruby, Homebrew, Python, Flutter, and Google Cloud SDK. This ensures that commands from these tools can be run directly from the terminal.
+   - `export PATH=...`: Diese Zeile setzt die `PATH`-Umgebungsvariable, die der Shell mitteilt, wo nach ausführbaren Dateien gesucht werden soll. Sie enthält verschiedene Verzeichnisse wie die für Java, Ruby, Homebrew, Python, Flutter und das Google Cloud SDK. Dies stellt sicher, dass Befehle aus diesen Tools direkt aus dem Terminal ausgeführt werden können.
 
-**2. Proxy Management:**
+**2. Proxy-Verwaltung:**
 
-   - `export GLOBAL_PROXY='127.0.0.1:7890'`: This defines a variable `GLOBAL_PROXY` holding the proxy server address.
-   - `function start_proxy { ... }`: This function sets the `HTTP_PROXY`, `HTTPS_PROXY`, `http_proxy`, `https_proxy`, and `ALL_PROXY` environment variables to use the specified proxy. It also disables full URI requests for proxies.
-   - `function start_proxy_without_prefix { ... }`: Similar to `start_proxy`, but sets the proxy variables without the `http://` prefix.
-   - `function stop_proxy { ... }`: This function unsets the proxy variables, effectively disabling the proxy. It also enables full URI requests for proxies.
-   - `export NO_PROXY="localhost,127.0.0.1,.example.com,::1"`: This specifies a list of hosts that should bypass the proxy.
+   - `export GLOBAL_PROXY='127.0.0.1:7890'`: Dies definiert eine Variable `GLOBAL_PROXY`, die die Proxy-Server-Adresse enthält.
+   - `function start_proxy { ... }`: Diese Funktion setzt die `HTTP_PROXY`, `HTTPS_PROXY`, `http_proxy`, `https_proxy` und `ALL_PROXY`-Umgebungsvariablen, um den angegebenen Proxy zu verwenden. Sie deaktiviert auch vollständige URI-Anfragen für Proxys.
+   - `function start_proxy_without_prefix { ... }`: Ähnlich wie `start_proxy`, aber setzt die Proxy-Variablen ohne das Präfix `http://`.
+   - `function stop_proxy { ... }`: Diese Funktion setzt die Proxy-Variablen zurück, wodurch der Proxy effektiv deaktiviert wird. Sie aktiviert auch vollständige URI-Anfragen für Proxys.
+   - `export NO_PROXY="localhost,127.0.0.1,.example.com,::1"`: Dies gibt eine Liste von Hosts an, die den Proxy umgehen sollen.
 
-**3. Git Proxy:**
+**3. Git-Proxy:**
 
-   - `function start_git_proxy { ... }`: This function configures git to use the global proxy for HTTP and HTTPS connections.
-   - `function stop_git_proxy { ... }`: This function unsets the git proxy settings.
+   - `function start_git_proxy { ... }`: Diese Funktion konfiguriert Git, um den globalen Proxy für HTTP- und HTTPS-Verbindungen zu verwenden.
+   - `function stop_git_proxy { ... }`: Diese Funktion setzt die Git-Proxy-Einstellungen zurück.
 
-**4. Homebrew Integration:**
+**4. Homebrew-Integration:**
 
-   - `eval "$(/opt/homebrew/bin/brew shellenv)"`: This line integrates Homebrew into the shell environment, allowing you to use Homebrew commands.
+   - `eval "$(/opt/homebrew/bin/brew shellenv)"`: Diese Zeile integriert Homebrew in die Shell-Umgebung, sodass Homebrew-Befehle verwendet werden können.
 
-**5. Convenience Aliases:**
+**5. Konvenienz-Aliasse:**
 
-   - `alias gpa='python ~/bin/gitmessageai.py --api mistral'`: This creates an alias `gpa` to run a python script `gitmessageai.py` with the mistral API.
-   - `alias gca='python ~/bin/gitmessageai.py --no-push'`: This creates an alias `gca` to run the same script without pushing changes.
-   - `alias gm='python ~/bin/gitmessageai.py --only-message'`: This creates an alias `gm` to run the same script and only print the commit message.
-   - `alias gpam=/usr/local/bin/git-auto-commit`: This creates an alias `gpam` to run the `git-auto-commit` script.
-   - `alias rougify=/Users/lzwjava/projects/rouge/bin/rougify`: This creates an alias `rougify` to run the `rougify` script.
+   - `alias gpa='python ~/bin/gitmessageai.py --api mistral'`: Dies erstellt einen Alias `gpa`, um ein Python-Skript `gitmessageai.py` mit der Mistral-API auszuführen.
+   - `alias gca='python ~/bin/gitmessageai.py --no-push'`: Dies erstellt einen Alias `gca`, um dasselbe Skript ohne Push der Änderungen auszuführen.
+   - `alias gm='python ~/bin/gitmessageai.py --only-message'`: Dies erstellt einen Alias `gm`, um dasselbe Skript auszuführen und nur die Commit-Nachricht auszugeben.
+   - `alias gpam=/usr/local/bin/git-auto-commit`: Dies erstellt einen Alias `gpam`, um das `git-auto-commit`-Skript auszuführen.
+   - `alias rougify=/Users/lzwjava/projects/rouge/bin/rougify`: Dies erstellt einen Alias `rougify`, um das `rougify`-Skript auszuführen.
 
-**6. SSL Certificate:**
+**6. SSL-Zertifikat:**
 
-   - `export SSL_CERT_FILE=~/bin/cacert.pem`: This sets the path to a custom SSL certificate file.
+   - `export SSL_CERT_FILE=~/bin/cacert.pem`: Dies setzt den Pfad zu einer benutzerdefinierten SSL-Zertifikatsdatei.
 
-**7. Homebrew Auto-Update:**
+**7. Homebrew-Auto-Update:**
 
-   - `export HOMEBREW_NO_AUTO_UPDATE=1`: This disables Homebrew's automatic updates.
+   - `export HOMEBREW_NO_AUTO_UPDATE=1`: Dies deaktiviert die automatischen Updates von Homebrew.
 
-**8. Pre-Execution Proxy Check:**
+**8. Vorausführungs-Proxy-Prüfung:**
 
-   - `preexec() { ... }`: This function is executed before every command. It checks if the command is in a list of network-dependent commands. If it is, and if any proxy variables are set, it displays the proxy settings.
-   - `local network_commands=( ... )`: This array lists commands that are considered network-dependent.
-   - `display_proxy() { ... }`: This function displays the current proxy settings.
+   - `preexec() { ... }`: Diese Funktion wird vor jedem Befehl ausgeführt. Sie überprüft, ob der Befehl in einer Liste von netzwerkabhängigen Befehlen steht. Wenn dies der Fall ist und wenn Proxy-Variablen gesetzt sind, werden die Proxy-Einstellungen angezeigt.
+   - `local network_commands=( ... )`: Dieses Array listet Befehle auf, die als netzwerkabhängig angesehen werden.
+   - `display_proxy() { ... }`: Diese Funktion zeigt die aktuellen Proxy-Einstellungen an.
 
-**9. Google Cloud SDK Completion:**
+**9. Google Cloud SDK-Vervollständigung:**
 
-   - `if [ -f '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc'; fi`: This line enables shell command completion for gcloud.
+   - `if [ -f '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc'; fi`: Diese Zeile aktiviert die Shell-Befehlsvervollständigung für gcloud.
 
-**10. API Keys and Credentials:**
+**10. API-Schlüssel und Anmeldeinformationen:**
 
-    - `export GOOGLE_APPLICATION_CREDENTIALS="/Users/lzwjava/bin/graphite-ally-445108-k3-035f0952219d.json"`: Sets the path to the Google Cloud service account credentials.
-    - `export DEEPSEEK_API_KEY="xxx"`: Sets the DeepSeek API key.
-    - `export MISTRAL_API_KEY="xxx"`: Sets the Mistral API key.
-    - `export DYLD_LIBRARY_PATH=$(brew --prefix curl)/lib`: Sets the dynamic library path for curl.
-    - `export SPEECH_ENDPOINT="https://ai-lzwjava-5596.cognitiveservices.azure.com/"`: Sets the Azure speech endpoint.
-    - `export DO_API_KEY="xxx"`: Sets the Digital Ocean API key.
-    - `export GEMINI_API_KEY="xxx"`: Sets the Gemini API key.
+    - `export GOOGLE_APPLICATION_CREDENTIALS="/Users/lzwjava/bin/graphite-ally-445108-k3-035f0952219d.json"`: Setzt den Pfad zu den Google Cloud-Dienstkonto-Anmeldeinformationen.
+    - `export DEEPSEEK_API_KEY="xxx"`: Setzt den DeepSeek-API-Schlüssel.
+    - `export MISTRAL_API_KEY="xxx"`: Setzt den Mistral-API-Schlüssel.
+    - `export DYLD_LIBRARY_PATH=$(brew --prefix curl)/lib`: Setzt den dynamischen Bibliothekspfad für curl.
+    - `export SPEECH_ENDPOINT="https://ai-lzwjava-5596.cognitiveservices.azure.com/"`: Setzt den Azure-Sprachendpunkt.
+    - `export DO_API_KEY="xxx"`: Setzt den Digital Ocean-API-Schlüssel.
+    - `export GEMINI_API_KEY="xxx"`: Setzt den Gemini-API-Schlüssel.
 
-**11. Conda Environment:**
+**11. Conda-Umgebung:**
 
-    - `conda activate base`: Activates the base conda environment.
+    - `conda activate base`: Aktiviert die Basis-Conda-Umgebung.
 
-**In summary, this zsh profile provides a comprehensive setup for a developer, including:**
+**Zusammenfassend bietet dieses Zsh-Profil eine umfassende Einrichtung für einen Entwickler, einschließlich:**
 
-- Easy proxy management with functions to start and stop proxies.
-- Git proxy configuration.
-- Integration with Homebrew.
-- Convenient aliases for common tasks.
-- Pre-execution proxy checks for network-dependent commands.
-- API keys and credentials for various services.
-- Conda environment activation.
+- Einfache Proxy-Verwaltung mit Funktionen zum Starten und Stoppen von Proxys.
+- Git-Proxy-Konfiguration.
+- Integration mit Homebrew.
+- Bequeme Aliase für häufige Aufgaben.
+- Vorausführungs-Proxy-Prüfungen für netzwerkabhängige Befehle.
+- API-Schlüssel und Anmeldeinformationen für verschiedene Dienste.
+- Conda-Umgebungsaktivierung.
 
-This profile is designed to streamline the user's workflow and make it easier to manage various development tools and services.
-
+Dieses Profil ist darauf ausgelegt, den Workflow des Benutzers zu optimieren und die Verwaltung verschiedener Entwicklungstools und -dienste zu erleichtern.
 
 ```bash
 export PATH=/opt/homebrew/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lzwjava/Library/Python/3.9/bin:/Library/TeX/texbin:/Users/lzwjava/bin:/Users/lzwjava/platform-tools:/Users/lzwjava/Downloads/google-cloud-sdk/bin:/Users/lzwjava/bin/flutter/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:/opt/homebrew/Cellar/llama.cpp/4539/bin:/Users/lzwjava/bin/google-cloud-sdk/bin
@@ -119,11 +118,10 @@ function stop_proxy {
     export HTTPS_PROXY=
     export HTTP_PROXY_REQUEST_FULLURI=true
     export HTTPS_PROXY_REQUEST_FULLURI=true
-		export ALL_PROXY=		
+		export ALL_PROXY=
 }
 
 export NO_PROXY="localhost,127.0.0.1,.example.com,::1"
-
 
 function start_git_proxy {
   git config --global http.proxy $GLOBAL_PROXY
@@ -155,16 +153,14 @@ export SSL_CERT_FILE=~/bin/cacert.pem
 
 alias rougify=/Users/lzwjava/projects/rouge/bin/rougify
 
-
 # git config --global core.editor "code --wait"
 # git config --global -e
 
 export HOMEBREW_NO_AUTO_UPDATE=1
 
-# Function to check and display proxy settings before certain commands
-# Function to check and display proxy settings before certain commands
+# Funktion zur Überprüfung und Anzeige von Proxy-Einstellungen vor bestimmten Befehlen
 preexec() {
-    # Define network-dependent commands
+    # Definieren Sie netzwerkabhängige Befehle
     local network_commands=(
         "gpa"
         "git"
@@ -206,16 +202,16 @@ preexec() {
         "make"
         "python"
         "glcoud"
-        # Add more commands as needed
+        # Fügen Sie nach Bedarf weitere Befehle hinzu
     )
 
-    # Extract the first word (command) from the command line
+    # Extrahieren Sie das erste Wort (Befehl) aus der Befehlszeile
     local cmd
     cmd=$(echo "$1" | awk '{print $1}')
 
-    # Function to display proxy variables
+    # Funktion zur Anzeige von Proxy-Variablen
     display_proxy() {
-        echo -e "🚀 **Proxy Settings Detected:**"
+        echo -e "🚀 **Proxy-Einstellungen erkannt:**"
 
         [ -n "$HTTP_PROXY" ] && echo "   - HTTP_PROXY: $HTTP_PROXY"
         [ -n "$HTTPS_PROXY" ] && echo "   - HTTPS_PROXY: $HTTPS_PROXY"
@@ -223,13 +219,13 @@ preexec() {
         echo ""
     }
 
-    # Check if the command is network-dependent
+    # Überprüfen Sie, ob der Befehl netzwerkabhängig ist
     for network_cmd in "${network_commands[@]}"; do
         if [[ "$1" == "$network_cmd"* ]]; then
             if [ -n "$HTTP_PROXY" ] || [ -n "$http_proxy" ] || \
                [ -n "$HTTPS_PROXY" ] || [ -n "$https_proxy" ] || \
                [ -n "$ALL_PROXY" ] || [ -n "$all_proxy" ]; then
-                
+
                 display_proxy
             fi
             break
@@ -237,7 +233,7 @@ preexec() {
     done
 }
 
-# The next line enables shell command completion for gcloud.
+# Die nächste Zeile aktiviert die Shell-Befehlsvervollständigung für gcloud.
 if [ -f '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc'; fi
 
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/lzwjava/bin/graphite-ally-445108-k3-035f0952219d.json"

@@ -1,85 +1,85 @@
 ---
 audio: true
-lang: en
+lang: zh
 layout: post
-title: Zsh Profile
+title: Zsh 配置文件
+translated: true
 ---
 
-This zsh profile is designed to enhance the user's command-line experience, particularly focusing on proxy management, git integration, and convenience aliases. Here's a breakdown:
+这个zsh配置文件旨在提高命令行体验，重点放在代理配置、Git集成和方便的别名上。以下各节详细介绍其功能：
 
-**1. PATH Configuration:**
+**1. PATH 配置:**
 
-   - `export PATH=...`: This line sets the `PATH` environment variable, which tells the shell where to look for executable files. It includes various directories like those for Java, Ruby, Homebrew, Python, Flutter, and Google Cloud SDK. This ensures that commands from these tools can be run directly from the terminal.
+   - `export PATH=...`：这行设置了`PATH`环境变量，告诉shell在哪些目录中查找可执行文件。它包括Java、Ruby、Homebrew、Python、Flutter和Google Cloud SDK等各种目录。这确保了可以直接从终端运行这些工具的命令。
 
-**2. Proxy Management:**
+**2. 代理管理:**
 
-   - `export GLOBAL_PROXY='127.0.0.1:7890'`: This defines a variable `GLOBAL_PROXY` holding the proxy server address.
-   - `function start_proxy { ... }`: This function sets the `HTTP_PROXY`, `HTTPS_PROXY`, `http_proxy`, `https_proxy`, and `ALL_PROXY` environment variables to use the specified proxy. It also disables full URI requests for proxies.
-   - `function start_proxy_without_prefix { ... }`: Similar to `start_proxy`, but sets the proxy variables without the `http://` prefix.
-   - `function stop_proxy { ... }`: This function unsets the proxy variables, effectively disabling the proxy. It also enables full URI requests for proxies.
-   - `export NO_PROXY="localhost,127.0.0.1,.example.com,::1"`: This specifies a list of hosts that should bypass the proxy.
+   - `export GLOBAL_PROXY='127.0.0.1:7890'`：定义变量`GLOBAL_PROXY`，保存代理服务器地址。
+   - `function start_proxy { ... }`：这个函数设置`HTTP_PROXY`、`HTTPS_PROXY`、`http_proxy`、`https_proxy`和`ALL_PROXY`环境变量以使用指定的代理。它还禁用了代理的完整URI请求。
+   - `function start_proxy_without_prefix { ... }`：类似于`start_proxy`，但设置代理变量时不带`http://`前缀。
+   - `function stop_proxy { ... }`：这个函数取消设置代理变量，从而禁用代理。它还启用了代理的完整URI请求。
+   - `export NO_PROXY="localhost,127.0.0.1,.example.com,::1"`：指定应绕过代理的主机列表。
 
-**3. Git Proxy:**
+**3. Git 代理:**
 
-   - `function start_git_proxy { ... }`: This function configures git to use the global proxy for HTTP and HTTPS connections.
-   - `function stop_git_proxy { ... }`: This function unsets the git proxy settings.
+   - `function start_git_proxy { ... }`：这个函数配置git使用全局代理进行HTTP和HTTPS连接。
+   - `function stop_git_proxy { ... }`：这个函数取消git代理设置。
 
-**4. Homebrew Integration:**
+**4. Homebrew 集成:**
 
-   - `eval "$(/opt/homebrew/bin/brew shellenv)"`: This line integrates Homebrew into the shell environment, allowing you to use Homebrew commands.
+   - `eval "$(/opt/homebrew/bin/brew shellenv)"`：这行将Homebrew集成到shell环境中，允许使用Homebrew命令。
 
-**5. Convenience Aliases:**
+**5. 便捷别名:**
 
-   - `alias gpa='python ~/bin/gitmessageai.py --api mistral'`: This creates an alias `gpa` to run a python script `gitmessageai.py` with the mistral API.
-   - `alias gca='python ~/bin/gitmessageai.py --no-push'`: This creates an alias `gca` to run the same script without pushing changes.
-   - `alias gm='python ~/bin/gitmessageai.py --only-message'`: This creates an alias `gm` to run the same script and only print the commit message.
-   - `alias gpam=/usr/local/bin/git-auto-commit`: This creates an alias `gpam` to run the `git-auto-commit` script.
-   - `alias rougify=/Users/lzwjava/projects/rouge/bin/rougify`: This creates an alias `rougify` to run the `rougify` script.
+   - `alias gpa='python ~/bin/gitmessageai.py --api mistral'`：创建别名`gpa`，运行python脚本`gitmessageai.py`，使用mistral API。
+   - `alias gca='python ~/bin/gitmessageai.py --no-push'`：创建别名`gca`，运行相同的脚本但不推送更改。
+   - `alias gm='python ~/bin/gitmessageai.py --only-message'`：创建别名`gm`，运行相同的脚本并仅打印提交消息。
+   - `alias gpam=/usr/local/bin/git-auto-commit`：创建别名`gpam`，运行`git-auto-commit`脚本。
+   - `alias rougify=/Users/lzwjava/projects/rouge/bin/rougify`：创建别名`rougify`，运行`rougify`脚本。
 
-**6. SSL Certificate:**
+**6. SSL 证书:**
 
-   - `export SSL_CERT_FILE=~/bin/cacert.pem`: This sets the path to a custom SSL certificate file.
+   - `export SSL_CERT_FILE=~/bin/cacert.pem`：设置自定义SSL证书文件的路径。
 
-**7. Homebrew Auto-Update:**
+**7. Homebrew 自动更新:**
 
-   - `export HOMEBREW_NO_AUTO_UPDATE=1`: This disables Homebrew's automatic updates.
+   - `export HOMEBREW_NO_AUTO_UPDATE=1`：禁用Homebrew的自动更新。
 
-**8. Pre-Execution Proxy Check:**
+**8. 预执行代理检查:**
 
-   - `preexec() { ... }`: This function is executed before every command. It checks if the command is in a list of network-dependent commands. If it is, and if any proxy variables are set, it displays the proxy settings.
-   - `local network_commands=( ... )`: This array lists commands that are considered network-dependent.
-   - `display_proxy() { ... }`: This function displays the current proxy settings.
+   - `preexec() { ... }`：在每个命令执行前运行的函数。它检查命令是否在网络依赖命令列表中。如果是，并且设置了任何代理变量，则显示代理设置。
+   - `local network_commands=( ... )`：列出被认为是网络依赖的命令的数组。
+   - `display_proxy() { ... }`：显示当前代理设置的函数。
 
-**9. Google Cloud SDK Completion:**
+**9. Google Cloud SDK 补全:**
 
-   - `if [ -f '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc'; fi`: This line enables shell command completion for gcloud.
+   - `if [ -f '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc'; fi`：启用gcloud的shell命令补全。
 
-**10. API Keys and Credentials:**
+**10. API密钥和凭证:**
 
-    - `export GOOGLE_APPLICATION_CREDENTIALS="/Users/lzwjava/bin/graphite-ally-445108-k3-035f0952219d.json"`: Sets the path to the Google Cloud service account credentials.
-    - `export DEEPSEEK_API_KEY="xxx"`: Sets the DeepSeek API key.
-    - `export MISTRAL_API_KEY="xxx"`: Sets the Mistral API key.
-    - `export DYLD_LIBRARY_PATH=$(brew --prefix curl)/lib`: Sets the dynamic library path for curl.
-    - `export SPEECH_ENDPOINT="https://ai-lzwjava-5596.cognitiveservices.azure.com/"`: Sets the Azure speech endpoint.
-    - `export DO_API_KEY="xxx"`: Sets the Digital Ocean API key.
-    - `export GEMINI_API_KEY="xxx"`: Sets the Gemini API key.
+    - `export GOOGLE_APPLICATION_CREDENTIALS="/Users/lzwjava/bin/graphite-ally-445108-k3-035f0952219d.json"`：设置Google Cloud服务账户凭证的路径。
+    - `export DEEPSEEK_API_KEY="xxx"`：设置DeepSeek API密钥。
+    - `export MISTRAL_API_KEY="xxx"`：设置Mistral API密钥。
+    - `export DYLD_LIBRARY_PATH=$(brew --prefix curl)/lib`：设置curl的动态库路径。
+    - `export SPEECH_ENDPOINT="https://ai-lzwjava-5596.cognitiveservices.azure.com/"`：设置Azure语音端点。
+    - `export DO_API_KEY="xxx"`：设置Digital Ocean API密钥。
+    - `export GEMINI_API_KEY="xxx"`：设置Gemini API密钥。
 
-**11. Conda Environment:**
+**11. Conda 环境:**
 
-    - `conda activate base`: Activates the base conda environment.
+    - `conda activate base`：激活base conda环境。
 
-**In summary, this zsh profile provides a comprehensive setup for a developer, including:**
+**总结，这个zsh配置文件为开发者提供了全面的设置，包括：**
 
-- Easy proxy management with functions to start and stop proxies.
-- Git proxy configuration.
-- Integration with Homebrew.
-- Convenient aliases for common tasks.
-- Pre-execution proxy checks for network-dependent commands.
-- API keys and credentials for various services.
-- Conda environment activation.
+- 使用函数进行简单的代理管理，启动和停止代理。
+- Git代理配置。
+- 与Homebrew的集成。
+- 常见任务的便捷别名。
+- 网络依赖命令的预执行代理检查。
+- 各种服务的API密钥和凭证。
+- Conda环境激活。
 
-This profile is designed to streamline the user's workflow and make it easier to manage various development tools and services.
-
+这个配置文件旨在简化用户的工作流程，使管理各种开发工具和服务更加容易。
 
 ```bash
 export PATH=/opt/homebrew/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lzwjava/Library/Python/3.9/bin:/Library/TeX/texbin:/Users/lzwjava/bin:/Users/lzwjava/platform-tools:/Users/lzwjava/Downloads/google-cloud-sdk/bin:/Users/lzwjava/bin/flutter/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:/opt/homebrew/Cellar/llama.cpp/4539/bin:/Users/lzwjava/bin/google-cloud-sdk/bin
@@ -118,11 +118,10 @@ function stop_proxy {
     export HTTPS_PROXY=
     export HTTP_PROXY_REQUEST_FULLURI=true
     export HTTPS_PROXY_REQUEST_FULLURI=true
-		export ALL_PROXY=		
+		export ALL_PROXY=
 }
 
 export NO_PROXY="localhost,127.0.0.1,.example.com,::1"
-
 
 function start_git_proxy {
   git config --global http.proxy $GLOBAL_PROXY
@@ -153,7 +152,6 @@ alias gpam=/usr/local/bin/git-auto-commit
 export SSL_CERT_FILE=~/bin/cacert.pem
 
 alias rougify=/Users/lzwjava/projects/rouge/bin/rougify
-
 
 # git config --global core.editor "code --wait"
 # git config --global -e
@@ -228,7 +226,7 @@ preexec() {
             if [ -n "$HTTP_PROXY" ] || [ -n "$http_proxy" ] || \
                [ -n "$HTTPS_PROXY" ] || [ -n "$https_proxy" ] || \
                [ -n "$ALL_PROXY" ] || [ -n "$all_proxy" ]; then
-                
+
                 display_proxy
             fi
             break
