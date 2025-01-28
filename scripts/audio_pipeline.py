@@ -7,34 +7,13 @@ import re
 import random
 from pydub import AudioSegment
 import tempfile
-import json
 import time
 from datetime import datetime
 import argparse
 
-# Define progress files for all tasks
-PROGRESS_FILES = {
-    'pages': 'progress/progress_pages.json',
-    'posts': 'progress/progress_posts.json',
-    'notes': 'progress/progress_notes.json'  # Added notes task
-}
-
 # Fixed output directory
 OUTPUT_DIRECTORY = "assets/audios"
 
-def load_progress(task):
-    progress_file = PROGRESS_FILES.get(task)
-    if progress_file and os.path.exists(progress_file):
-        with open(progress_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    return {}
-
-def save_progress(task, progress):
-    progress_file = PROGRESS_FILES.get(task)
-    if progress_file:
-        os.makedirs(os.path.dirname(progress_file), exist_ok=True)  # Ensure progress directory exists
-        with open(progress_file, 'w', encoding='utf-8') as f:
-            json.dump(progress, f, indent=4, ensure_ascii=False)
 
 def split_into_sentences(text):
     """
@@ -89,7 +68,7 @@ def split_text(text, max_bytes=3000):
 
     return chunks
 
-def text_to_speech(text, output_filename, task, language_code="en-US", voice_name=None, dry_run=False, start_chunk=0, progress=None):
+def text_to_speech(text, output_filename, task, language_code="en-US", voice_name=None, dry_run=False):
     if dry_run:
         print(f"Dry run: Would generate audio for file: {output_filename}")
         return
@@ -102,21 +81,7 @@ def text_to_speech(text, output_filename, task, language_code="en-US", voice_nam
             return
 
         audio_segments = []
-        # If resuming, load already processed chunks
-        if progress and output_filename in progress:
-            processed_chunks = progress[output_filename].get('processed_chunks', [])
-            temp_files = progress[output_filename].get('temp_files', [])
-            for chunk_path in temp_files:
-                if os.path.exists(chunk_path):
-                    audio_segments.append(AudioSegment.from_mp3(chunk_path))
-            start_chunk = len(processed_chunks)
-            print(f"Resuming from chunk {start_chunk + 1}/{len(text_chunks)}")
-        else:
-            processed_chunks = []
-            progress[output_filename] = {'processed_chunks': [], 'temp_files': []}
-
-        for idx in range(start_chunk, len(text_chunks)):
-            chunk = text_chunks[idx]
+        for idx, chunk in enumerate(text_chunks):
             synthesis_input = texttospeech.SynthesisInput(text=chunk)
             if language_code == "en-US" and not voice_name:
                 voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
@@ -154,9 +119,6 @@ def text_to_speech(text, output_filename, task, language_code="en-US", voice_nam
                         except Exception as sub_e:
                             print(f"Failed to process sub-chunk {sub_idx + 1} of chunk {idx + 1}: {sub_e}")
                             continue
-                    # After handling sub-chunks, skip adding the original chunk
-                    progress[output_filename]['processed_chunks'].append(idx)
-                    save_progress(task, progress)
                     continue  # Move to the next chunk
                 else:
                     print(f"Error on chunk {idx + 1}: {e}")
@@ -183,10 +145,6 @@ def text_to_speech(text, output_filename, task, language_code="en-US", voice_nam
             os.remove(temp_filename)
             print(f"Chunk {idx + 1}/{len(text_chunks)} processed.")
 
-            # Update progress
-            progress[output_filename]['processed_chunks'].append(idx)
-            progress[output_filename]['temp_files'].append(temp_filename)
-            save_progress(task, progress)
 
         if audio_segments:
             combined = audio_segments[0]
@@ -194,18 +152,11 @@ def text_to_speech(text, output_filename, task, language_code="en-US", voice_nam
                 combined += segment
             combined.export(output_filename, format="mp3")
             print(f"Audio content written to {output_filename}")
-            # Cleanup temp files
-            for temp_file in progress[output_filename]['temp_files']:
-                if os.path.exists(temp_file):
-                    os.remove(temp_file)
-            # Remove progress entry for completed file
-            del progress[output_filename]
-            save_progress(task, progress)
         else:
             print("No audio segments to combine.")
     except Exception as e:
         print(f"An error occurred while generating audio for {output_filename}: {e}")
-        save_progress(task, progress)  # Ensure progress is saved even on error
+
 
 def md_to_text(md_file):
     print(f"Reading file: {md_file}")
@@ -240,12 +191,7 @@ def get_last_n_files(input_dir, n=10):
 def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry_run=False):
     os.makedirs(output_dir, exist_ok=True)
     
-    if task == 'pages':
-        all_md_files = [f for f in os.listdir(input_dir) if f.endswith('.md')]
-        last_md_files = all_md_files
-        total_files = len(last_md_files)
-        print(f"Total Markdown files to process in 'pages': {total_files}")
-    elif task == 'posts':
+    if task == 'posts':
         last_md_files = get_last_n_files(input_dir, n)
         total_files = len(last_md_files)
         print(f"Total Markdown files to process in '_posts' (last {n}): {total_files}")
@@ -263,8 +209,6 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry
 
     files_processed = 0
 
-    # Load existing progress
-    progress = load_progress(task)
 
     for filename in last_md_files:
         md_file_path = os.path.join(input_dir, filename)
@@ -292,11 +236,10 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry
                 task=task, 
                 language_code=language_code, 
                 dry_run=dry_run,
-                progress=progress
             )
             files_processed += 1
             print(f"File {files_processed}/{total_files} processed.\n")
-            if task in ['pages', 'posts', 'notes'] and files_processed >= max_files:
+            if task in ['posts', 'notes'] and files_processed >= max_files:
                 print("Processed the maximum allowed files.")
                 break
         except Exception as e:
@@ -307,7 +250,7 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process Markdown files to generate audio.")
-    parser.add_argument('--task', choices=['pages', 'posts', 'notes'], required=True, help="Task to perform: 'pages', 'posts', or 'notes'")
+    parser.add_argument('--task', choices=['posts', 'notes'], required=True, help="Task to perform: 'posts', or 'notes'")
     parser.add_argument('--n', type=int, default=10, help="Number of last files to process (only for 'posts' and 'notes').")
     parser.add_argument('--max_files', type=int, default=100, help="Maximum number of files to process (only for 'pages').")
     parser.add_argument('--dry_run', action='store_true', help="Perform a dry run without generating audio.")
@@ -315,11 +258,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Determine input_dir based on task
-    if args.task == 'pages':
-        input_directory = "pages"
-        max_files = args.max_files
-        n = None  # Not used for 'pages'
-    elif args.task == 'posts':
+    if args.task == 'posts':
         input_directory = "_posts"
         n = args.n
         max_files = args.max_files  # Typically 10 for 'posts', but keeping flexibility
@@ -328,20 +267,11 @@ if __name__ == "__main__":
         n = args.n
         max_files = args.max_files  # Typically 10 for 'notes', but keeping flexibility
     else:
-        print("Invalid task specified. Choose either 'pages', 'posts', or 'notes'.")
+        print("Invalid task specified. Choose either 'posts', or 'notes'.")
         exit(1)
 
     # Handle 'n' and 'max_files' based on task
-    if args.task == 'pages':
-        process_markdown_files(
-            task=args.task,
-            input_dir=input_directory,
-            output_dir=OUTPUT_DIRECTORY,
-            n=0,  # Not used
-            max_files=args.max_files,
-            dry_run=args.dry_run
-        )
-    elif args.task in ['posts', 'notes']:
+    if args.task in ['posts', 'notes']:
         process_markdown_files(
             task=args.task,
             input_dir=input_directory,
