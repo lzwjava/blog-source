@@ -50,32 +50,27 @@ def translate_text(text, target_language, special=False):
         return text
     print(f"  Translating text: {text[:50]}...")
     
-    retries = 3
-    for attempt in range(retries):
-        try:
-            response = client.chat.completions.create(
-                model=MODEL_NAME,
-                messages=[
-                    {"role": "system", "content": create_translation_prompt(target_language, special)},
-                    {"role": "user", "content": text}
-                ],
-                stream=False
-            )
-            if not response or not response.choices or not response.choices[0].message.content:
-                print(f"  Error: Translation response is empty or invalid: {response}")
-            if response and response.choices:
-                translated_text = response.choices[0].message.content
-                return translated_text
-            else:
-                print(f"  Translation failed on attempt {attempt + 1}.")
-                if attempt == retries - 1:
-                    return None
-        except Exception as e:
-            print(f"  Translation failed with error on attempt {attempt + 1}: {e}")
-            if attempt == retries - 1:
-                return None
-            time.sleep(1)  # Wait before retrying
-    return None
+    try:
+        response = client.chat.completions.create(
+            model=MODEL_NAME,
+            messages=[
+                {"role": "system", "content": create_translation_prompt(target_language, special)},
+                {"role": "user", "content": text}
+            ],
+            stream=False
+        )
+        if not response or not response.choices or not response.choices[0].message.content:
+            print(f"  Error: Translation response is empty or invalid: {response}")
+            return None
+        if response and response.choices:
+            translated_text = response.choices[0].message.content
+            return translated_text
+        else:
+            print(f"  Translation failed.")
+            return None
+    except Exception as e:
+        print(f"  Translation failed with error: {e}")
+        return None
 
 def translate_front_matter(front_matter, target_language, input_file):
     print(f"  Translating front matter for: {input_file}")
