@@ -7,6 +7,7 @@ translated: false
 ---
 
 
+
 In one month, 15 million tokens cost me approximately 23.5 CNY.
 
 This was my usage in one day:
@@ -28,5 +29,5 @@ This result aligns with the expected cost.
 [DeepSeek API Pricing](https://api-docs.deepseek.com/quick_start/pricing/)
 
 {: .centered }
-![](assets/images/deepseek/d.jpg){: .responsive }
+![](assets/images/deepseek/d.jpg)
 *Source: Self-Screenshot*{: .caption }
