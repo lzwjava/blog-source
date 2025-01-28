@@ -87,21 +87,15 @@ def translate_front_matter(front_matter, target_language, input_file):
         
         if 'title' in front_matter_dict_copy:
             print(f"  Translating title: {front_matter_dict_copy['title']}")
-            if not (input_file == 'original/2025-01-11-resume-en.md' and target_language in ['zh', 'fr']):
-                if isinstance(front_matter_dict_copy['title'], str):
-                    translated_title = translate_text(front_matter_dict_copy['title'], target_language)
-                    if translated_title:
-                        translated_title = translated_title.strip()
-                        if len(translated_title) > 300:
-                            translated_title = translated_title.split('\n')[0]
-                        front_matter_dict_copy['title'] = translated_title
-                        print(f"  Translated title to: {translated_title}")
-                    else:
-                        print(f"  Title translation failed for: {input_file}")
-                else:
-                    print(f"  Title is not a string, skipping translation for: {input_file}")
+            translated_title = translate_text(front_matter_dict_copy['title'], target_language)
+            if translated_title:
+                translated_title = translated_title.strip()
+                front_matter_dict_copy['title'] = translated_title
+                print(f"  Translated title to: {translated_title}")
             else:
-                print(f"  Skipping title translation for {input_file} to {target_language}")
+                print(f"  Title translation failed for: {input_file}")
+        else:
+            print(f"  Skipping title translation for {input_file} to {target_language}")
         # Always set lang to target_language
  
         front_matter_dict_copy['lang'] = target_language        
@@ -176,9 +170,9 @@ def get_changed_files():
                     with open(output_file, 'r', encoding='utf-8') as translated_infile:
                         translated_content = translated_infile.read()
                     
-                    translated_front_matter_match = re.match(r'---\n(.*?)\n---', translated_content, re.DOTALL)
-                    translated_front_matter = translated_front_matter_match.group(1) if translated_front_matter_match else ""
-                    translated_content_without_front_matter = translated_content[len(translated_front_matter_match.group(0)):] if translated_front_matter_match else translated_content
+                    target_front_matter_match = re.match(r'---\n(.*?)\n---', translated_content, re.DOTALL)
+                    translated_front_matter = target_front_matter_match.group(1) if target_front_matter_match else ""
+                    translated_content_without_front_matter = translated_content[len(target_front_matter_match.group(0)):] if target_front_matter_match else translated_content
                     translated_front_matter_dict = yaml.safe_load(translated_front_matter) if translated_front_matter else {}
                     translated_title = translated_front_matter_dict.get('title', '')
                     
@@ -251,8 +245,8 @@ def main():
             for lang in languages:
                 output_dir = f"_posts/{lang}"
                 os.makedirs(output_dir, exist_ok=True)
-                
-                output_filename = os.path.basename(filename).replace(".md", f"-{lang}.md")
+                            
+                output_filename = os.path.basename(filename).replace("-en.md", f"-{lang}.md")
     
                 output_file = os.path.join(output_dir, output_filename)
                             
