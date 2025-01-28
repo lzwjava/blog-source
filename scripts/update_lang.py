@@ -156,14 +156,58 @@ def translate_markdown_file(input_file, output_file, target_language, dry_run=Fa
         print(f"  Error processing file {input_file}: {e}")
 
 def get_changed_files():
-    try:
-        # Get the list of files changed in the last commit
-        result = subprocess.run(['git', 'diff', '--name-only', 'HEAD~1', 'HEAD'], capture_output=True, text=True, check=True)
-        changed_files = result.stdout.strip().split('\n')
-        return [f for f in changed_files if f.startswith(f'{INPUT_DIR}/') and f.endswith('.md')]
-    except subprocess.CalledProcessError as e:
-        print(f"Error getting changed files: {e}")
-        return []
+    changed_files = []
+    for filename in os.listdir(INPUT_DIR):
+        if filename.endswith(".md"):
+            input_file = os.path.join(INPUT_DIR, filename)
+            
+            try:
+                with open(input_file, 'r', encoding='utf-8') as infile:
+                    content = infile.read()
+                front_matter_match = re.match(r'---\n(.*?)\n---', content, re.DOTALL)
+                front_matter = front_matter_match.group(1) if front_matter_match else ""
+                content_without_front_matter = content[len(front_matter_match.group(0)):] if front_matter_match else content
+                front_matter_dict = yaml.safe_load(front_matter) if front_matter else {}
+                original_title = front_matter_dict.get('title', '')
+                original_lang = front_matter_dict.get('lang', 'en')
+
+                output_dir = f"_posts/{original_lang}"
+                output_filename = filename
+                output_file = os.path.join(output_dir, output_filename)
+
+                if not os.path.exists(output_file):
+                    changed_files.append(input_file)
+                else:
+                    with open(output_file, 'r', encoding='utf-8') as translated_infile:
+                        translated_content = translated_infile.read()
+                    
+                    translated_front_matter_match = re.match(r'---\n(.*?)\n---', translated_content, re.DOTALL)
+                    translated_front_matter = translated_front_matter_match.group(1) if translated_front_matter_match else ""
+                    translated_content_without_front_matter = translated_content[len(translated_front_matter_match.group(0)):] if translated_front_matter_match else translated_content
+                    translated_front_matter_dict = yaml.safe_load(translated_front_matter) if translated_front_matter else {}
+                    translated_title = translated_front_matter_dict.get('title', '')
+                    
+                    if translated_title != original_title or translated_content_without_front_matter.strip() != content_without_front_matter.strip():
+                        changed_files.append(input_file)
+                        print(f"  File {input_file} needs update for {original_lang}")
+                        try:
+                            diff_command = ["diff", input_file, output_file]
+                            process = subprocess.Popen(diff_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+                            stdout, stderr = process.communicate()
+
+                            if process.returncode == 1 and len(stdout) > 0:
+                                print(f"  Diff:\n{stdout}")
+                            else:
+                                print(f"  Diff:\n{stdout}")                                
+                                print(f"  Diff command failed with error: {stderr}")
+                                print(f"  No diff available for {input_file} and {output_file}")
+                        except FileNotFoundError:
+                            print(f"  Diff command not found.")
+                        except Exception as e:
+                            print(f"  Error generating diff for {input_file}: {e}")
+            except Exception as e:
+                print(f"Error processing file {input_file}: {e}")
+    return changed_files
 
 
 def main():
@@ -214,11 +258,7 @@ def main():
                 os.makedirs(output_dir, exist_ok=True)
                 
                 output_filename = os.path.basename(filename).replace(".md", f"-{lang}.md")
-                
-                # Check if the original file is named with "-en.md" or "-zh.md"
-                if filename.endswith("-en.md") or filename.endswith("-zh.md"):
-                    output_filename = os.path.basename(filename).replace("-en.md", f"-{lang}.md").replace("-zh.md", f"-{lang}.md")
-                
+    
                 output_file = os.path.join(output_dir, output_filename)
                             
                 print(f"Submitting translation job for {filename} to {lang}...")

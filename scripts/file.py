@@ -22,6 +22,7 @@ audio: true
 lang: en
 layout: post
 title: {name}
+translated: false
 ---"""
 
 
