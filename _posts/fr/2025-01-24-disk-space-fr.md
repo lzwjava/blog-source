@@ -2,29 +2,29 @@
 audio: true
 lang: fr
 layout: post
-title: Nettoyer l'espace disque
+title: Libérer de l'espace disque
 translated: true
 ---
 
 ## Paramètres
 
-Utilisez le chemin Paramètres -> Général -> Stockage -> Paramètres de stockage pour découvrir comment l'espace disque est occupé et supprimer les fichiers inutiles.
+Utilisez le chemin Paramètres -> Général -> Stockage -> Paramètres de stockage pour savoir comment l'espace disque est occupé et supprimer les fichiers inutiles.
 
-## du
+## Trouver les Gros Fichiers
 
-Utilisez `du` pour trouver les fichiers volumineux. Par exemple, utilisez la commande `du -hL -d 1 | sort -h`.
+Utilisez `du` pour trouver les gros fichiers. Par exemple, utilisez la commande `du -hL -d 1 | sort -h`.
 
-## Supprimer des applications
+## Supprimer les Applications
 
 Supprimez les applications dans le répertoire des applications.
 
 ## Téléchargements
 
-Supprimez les fichiers dmg des packages téléchargés, qui peuvent être facilement retéléchargés depuis internet.
+Supprimez les fichiers dmg des packages téléchargés, qui peuvent être facilement téléchargés depuis Internet.
 
-## Disque portable
+## Disque Portable
 
-Achetez un disque portable et déplacez-y certains fichiers.
+Achetez un disque portable et déplacez certains fichiers dessus.
 
 ## iPhone
 
