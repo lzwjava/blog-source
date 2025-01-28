@@ -49,24 +49,32 @@ def translate_text(text, target_language, special=False):
         print(f"  Skipping translation for English: {text[:50]}...")
         return text
     print(f"  Translating text: {text[:50]}...")
-    try:
-        response = client.chat.completions.create(
-            model=MODEL_NAME,
-            messages=[
-                {"role": "system", "content": create_translation_prompt(target_language, special)},
-                {"role": "user", "content": text}
-            ],
-            stream=False
-        )
-        if response and response.choices:
-            translated_text = response.choices[0].message.content
-            return translated_text
-        else:
-            print(f"  Translation failed.")
-            return None
-    except Exception as e:
-        print(f"  Translation failed with error: {e}")
-        return None
+    
+    retries = 3
+    for attempt in range(retries):
+        try:
+            response = client.chat.completions.create(
+                model=MODEL_NAME,
+                messages=[
+                    {"role": "system", "content": create_translation_prompt(target_language, special)},
+                    {"role": "user", "content": text}
+                ],
+                stream=False
+            )
+            print(response)
+            if response and response.choices:
+                translated_text = response.choices[0].message.content
+                return translated_text
+            else:
+                print(f"  Translation failed on attempt {attempt + 1}.")
+                if attempt == retries - 1:
+                    return None
+        except Exception as e:
+            print(f"  Translation failed with error on attempt {attempt + 1}: {e}")
+            if attempt == retries - 1:
+                return None
+            time.sleep(1)  # Wait before retrying
+    return None
 
 def translate_front_matter(front_matter, target_language, input_file):
     print(f"  Translating front matter for: {input_file}")
@@ -171,7 +179,10 @@ def main():
     dry_run = args.dry_run
     input_file = args.file
     
-    languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr', 'de', 'ar', 'hant']
+    if target_language == "all":
+        languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr', 'de', 'ar', 'hant']
+    else:
+        languages = [target_language]
 
     total_files_to_process = 0
     

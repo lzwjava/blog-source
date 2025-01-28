@@ -7,6 +7,7 @@ translated: false
 ---
 
 
+
 ## Lesson
 
 The code leads to a weird bug. Sometimes, the bug occurs, and sometimes it does not.

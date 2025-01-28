@@ -1,19 +1,20 @@
 ---
 audio: true
-lang: en
+lang: fr
 layout: post
-title: Shared Objects in Multiple Threads
+title: Objets partagés dans plusieurs threads
+translated: true
 ---
 
-## Lesson
+## Leçon
 
-The code leads to a weird bug. Sometimes, the bug occurs, and sometimes it does not.
+Le code conduit à un bug étrange. Parfois, le bug se produit, et parfois non.
 
-This is because the `translate_markdown_file` function, and especially the `translate_front_matter` function, might be accessing and modifying shared data structures (like dictionaries or lists) without proper synchronization. When multiple threads access and modify the same data concurrently, it can lead to race conditions. Race conditions occur when the final state of the data depends on the unpredictable order in which threads execute. This can result in data corruption, unexpected behavior, and the intermittent bugs you are observing.
+Cela est dû au fait que la fonction `translate_markdown_file`, et en particulier la fonction `translate_front_matter`, pourrait accéder et modifier des structures de données partagées (comme des dictionnaires ou des listes) sans une synchronisation appropriée. Lorsque plusieurs threads accèdent et modifient les mêmes données de manière concurrente, cela peut entraîner des conditions de concurrence. Les conditions de concurrence se produisent lorsque l'état final des données dépend de l'ordre imprévisible dans lequel les threads s'exécutent. Cela peut entraîner une corruption des données, un comportement inattendu et les bugs intermittents que vous observez.
 
-To fix this, you should avoid sharing mutable data between threads or use proper synchronization mechanisms, such as locks, to protect shared data. In this case, the `front_matter_dict` is being modified in place, which is not thread-safe. The fix is to create a copy of the dictionary before modifying it. This is already done in the code, but it's important to understand why it's necessary.
+Pour résoudre ce problème, vous devriez éviter de partager des données mutables entre les threads ou utiliser des mécanismes de synchronisation appropriés, tels que des verrous, pour protéger les données partagées. Dans ce cas, le `front_matter_dict` est modifié en place, ce qui n'est pas thread-safe. La solution consiste à créer une copie du dictionnaire avant de le modifier. Cela est déjà fait dans le code, mais il est important de comprendre pourquoi c'est nécessaire.
 
-## Context
+## Contexte
 
 ```python
   with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
@@ -34,7 +35,7 @@ To fix this, you should avoid sharing mutable data between threads or use proper
                 print(f"A thread failed: {e}")
 ```
 
-## Before
+## Avant
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
@@ -88,7 +89,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         return front_matter
 ```
 
-## After
+## Après
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
