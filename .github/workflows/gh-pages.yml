@@ -45,21 +45,31 @@ jobs:
       - name: Update Language Files
         if: steps.dry_run_lang.outputs.lang_updated == 'true'
         run: |
-          UPDATE_LANG_OUTPUT=$(python scripts/update_lang.py --max_files 1 --model mistral | grep "Total Markdown files to process:")
-          echo "$UPDATE_LANG_OUTPUT"
-          if [[ "$UPDATE_LANG_OUTPUT" == *'Total Markdown files to process: 0'* ]]; then
+          TOTAL_POSTS=$(python scripts/update_lang.py --dry_run | grep "Total Markdown files to process:" | awk '{print $NF}')
+          echo "Total posts to process: $TOTAL_POSTS"
+
+          if [[ "$TOTAL_POSTS" -eq 0 ]]; then
             echo "No language files to update."
           else
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add _posts/**/*.md
-            git diff --cached --quiet || git commit -m "chore(lang): Update language files"
-            
-            git push || {
-              echo "Push failed, attempting pull and merge"
-              git pull --rebase
-              git push
-            }
+            for i in $(seq 1 "$TOTAL_POSTS"); do
+              UPDATE_LANG_OUTPUT=$(python scripts/update_lang.py --max_files 1 --model mistral | grep "Total Markdown files to process:")
+              echo "$UPDATE_LANG_OUTPUT"
+              if [[ "$UPDATE_LANG_OUTPUT" == *'Total Markdown files to process: 0'* ]]; then
+                echo "No more language files to update."
+                break
+              else
+                git config user.name "github-actions[bot]"
+                git config user.email "github-actions[bot]@users.noreply.github.com"
+                git add _posts/**/*.md
+                git diff --cached --quiet || git commit -m "chore(lang): Update language files"
+                
+                git push || {
+                  echo "Push failed, attempting pull and merge"
+                  git pull --rebase
+                  git push
+                }
+              fi
+            done
           fi
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -69,7 +79,7 @@ jobs:
         id: dry_run_pdf
         run: |
           DRY_RUN_PDF_OUTPUT=$(python scripts/update_pdf.py --max_files 1000 --dry_run)
-          echo "$DRY_RUN_PDF_OUTPUT"
+          echo "$DRY_RUN_PDF_OUTPUT" 
 
           if [[ "$DRY_RUN_PDF_OUTPUT" == *'Total Markdown files to process: 0'* ]]; then
             echo "pdf_updated=false" >> "$GITHUB_OUTPUT"
