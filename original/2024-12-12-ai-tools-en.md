@@ -4,11 +4,11 @@ layout: post
 title: AI Tools
 ---
 
-Here are some AI tools I’ve used:
+Here are some AI tools I’ve used, categorized for clarity:
 
 #### Chatbots
 
-Global:
+**Global:**
 
 - [chatgpt.com](http://chatgpt.com)
 - [claude.ai](https://claude.ai)
@@ -18,30 +18,41 @@ Global:
 - [coral.cohere.com](https://coral.cohere.com)
 - [grok.com](https://grok.com/)
 - [chat.deepseek.com](https://chat.deepseek.com)
-- [aistudio.google.com](https://aistudio.google.com)
+- [perplexity.ai](https://perplexity.ai)
 
-China:
+**China:**
 
 - [kimi.moonshot.cn](https://kimi.moonshot.cn)
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-
-#### Leaderboards
+#### AI Model Leaderboards
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
 - [TTS Arena](https://huggingface.co/spaces/TTS-AGI/TTS-Arena)
 
-### Others
+#### AI Tools
+
+**Code Generation:**
+
+- [cursor.com](https://www.cursor.com)
+- [github.com/features/copilot](https://github.com/features/copilot)
+- [codeium.com/windsurf](https://codeium.com/windsurf)
+
+**Image/Video Generation:**
+
+- [midjourney.com](https://www.midjourney.com)
+- [runwayml.com](https://runwayml.com)
+- [pika.art](https://pika.art)
+
+**Audio Generation:**
 
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
-- [cursor.com](https://www.cursor.com)
-- [github.com/features/copilot](https://github.com/features/copilot)
-- [midjourney.com](https://www.midjourney.com)
-- [runwayml.com](https://runwayml.com)
-- [codeium.com/windsurf](https://codeium.com/windsurf)
-- [pika.art](https://pika.art)
+
+**Other:**
+
 - [huggingface.co](https://huggingface.co)
 - [kaggle.com](https://kaggle.com)
+- [aistudio.google.com](https://aistudio.google.com)
