@@ -31,4 +31,4 @@ files = get_changed_files()
 print(files)
 
 for file in files:
-    subprocess.run(["python", "scripts/update_lang.py", "--file", file], check=True)
+    subprocess.run(["python", "scripts/update_lang.py", "--file", file, "--model", "mistral"], check=True)
