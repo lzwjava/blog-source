@@ -2,11 +2,11 @@
 audio: true
 lang: ar
 layout: post
-title: مزودو السحابة
+title: توزيع السحابة
 translated: true
 ---
 
-تم استخدامه:
+استخدمت:
 
 * [Azure](https://azure.microsoft.com)
 * [AWS Lightsail](https://aws.amazon.com/lightsail/)
@@ -17,9 +17,9 @@ translated: true
 * [Google Cloud](https://cloud.google.com)
 * [Tencent Cloud](https://cloud.tencent.com)
 * [Alibaba Cloud](https://www.alibabacloud.com)
-* [https://cn.aliyun.com](https://cn.aliyun.com)
+* [Alibaba Cloud (China)](https://cn.aliyun.com)
 
-سمعت عنه أو استخدمته لفترة قصيرة:
+سمعت عنها أو استخدمتها لفترة قصيرة:
 
 * [UCloud](https://www.ucloud.cn)
 * [QingCloud](https://www.qingcloud.com)

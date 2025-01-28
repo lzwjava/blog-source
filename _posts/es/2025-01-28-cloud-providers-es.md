@@ -16,10 +16,10 @@ Utilizado:
 * [Linode](https://www.linode.com)
 * [Google Cloud](https://cloud.google.com)
 * [Tencent Cloud](https://cloud.tencent.com)
-[Alibaba Cloud](https://www.alibabacloud.com)
-https://cn.aliyun.com
+* [Alibaba Cloud](https://www.alibabacloud.com)
+* [Alibaba Cloud (China)](https://cn.aliyun.com)
 
-He oído hablar de o usado por un corto tiempo:
+Escuchado o utilizado por un corto período:
 
 * [UCloud](https://www.ucloud.cn)
 * [QingCloud](https://www.qingcloud.com)
