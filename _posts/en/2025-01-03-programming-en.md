@@ -68,6 +68,5 @@ translated: false
 
 * Handle errors properly. Think about the root cause, the responsibility, and whether we can change it or if it is an external error. Consider the rescue method, the impact scope, where to handle it, whether we should categorize errors, how likely it is to happen, and the worst-case scenarios.
 
-* The difference between using replace or using startWith followed by slice is that the former disregards the string's position. Apply similar thinking to every detail of programming.
 
-* Minimize the possible values for one item; use just one value for one case. Do not use null if we already have false. If we have a translated true or false flag, we need to ensure that every time we have a translated flag, we do not treat the non-existence of a translated flag as false.
+

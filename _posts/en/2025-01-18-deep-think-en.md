@@ -7,7 +7,6 @@ translated: false
 ---
 
 
-
 OpenAI's o1 was released on December 5, 2024. DeepSeek-V3 was released on December 26, 2024.
 
 In a previous article, I wrote [What ChatGPT o1 Can Do That 4o-mini Cannot](/o1-en).
@@ -21,8 +20,3 @@ They have search functionality, but they are only able to search surface-level c
 They excel at considering every scenario, questioning and challenging themselves extensively to arrive at potentially correct answers.
 
 It's truly interesting to directly tackle a problem, and if DeepThink or ChatGPT o1 are unable to solve it, it certainly indicates something significant.
-
-One use case is for companies, providing registered users with full demo capabilities. This acts like an internet robot, gathering public data to enhance LLMs or search engines.
-
-Another use case is for hardware manufacturers. We will use robots to interact with them, generating as much relevant information as possible.
-
