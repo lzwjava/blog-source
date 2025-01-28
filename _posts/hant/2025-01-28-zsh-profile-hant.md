@@ -3,6 +3,7 @@ audio: true
 lang: en
 layout: post
 title: Zsh Profile
+translated: true
 ---
 
 This zsh profile is designed to enhance the user's command-line experience, particularly focusing on proxy management, git integration, and convenience aliases. Here's a breakdown:
