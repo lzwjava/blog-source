@@ -2,41 +2,43 @@
 audio: true
 lang: de
 layout: post
-title: Lightning to Ethernet Adapter
+title: Blitz zu Ethernet Adapter
 translated: true
 ---
 
-I recently tried a new product that I had never used before. It cost me about 44 CNY on JD.com. Similar products cost around 15 USD on Walmart.com.
+Ich habe kürzlich ein neues Produkt ausprobiert, das ich noch nie zuvor verwendet hatte. Es kostete mich etwa 44 CNY auf JD.com. Ähnliche Produkte kosten etwa 15 USD auf Walmart.com.
 
-It works perfectly, and no extra settings are needed. An "Ethernet" menu item appears after plugging in the adapter.
+Es funktioniert perfekt und es sind keine zusätzlichen Einstellungen erforderlich. Ein "Ethernet"-Menüpunkt erscheint nach dem Einstecken des Adapters.
 
-I used the Speedtest iOS app to test the speed. The results are shown below.
+Ich habe die Speedtest iOS-App verwendet, um die Geschwindigkeit zu testen. Die Ergebnisse sind unten dargestellt.
 
-| Network Type                     | Distance   | Download Speed (MBPS) | Upload Speed (MBPS) | Line             |
-|----------------------------------|------------|-----------------------|---------------------|------------------|
-| Modem -> TP-LINK Router -> Phone | around 30m | 2.90                  | 4.82                | Guangzhou -> Macao |
-| Modem -> Cable -> Phone          | around 30m | 84.9                  | 59.7                | Guangzhou -> Macao |
+| Netzwerktyp                      | Entfernung | Download-Geschwindigkeit (MBPS) | Upload-Geschwindigkeit (MBPS) | Leitung             |
+|----------------------------------|------------|---------------------------------|-------------------------------|---------------------|
+| Modem -> TP-LINK Router -> Telefon | ca. 30m    | 2.90                            | 4.82                          | Guangzhou -> Macao  |
+| Modem -> Kabel -> Telefon         | ca. 30m    | 84.9                            | 59.7                          | Guangzhou -> Macao  |
 
-In one test, the ping (ms) responsiveness results are shown below:
+In einem Test sind die Ping-Antwortzeiten (ms) unten dargestellt:
 
-| Metric   | Value | Jitter |
+| Metrik   | Wert  | Jitter |
 |----------|-------|--------|
-| Idle     | 33    | 68     |
+| Leerlauf | 33    | 68     |
 | Download | 1885  | 110    |
 | Upload   | 127   | 54     |
 
-This is a somewhat naive test. I suspect one reason for the difference in speeds is that the connection from Modem -> TP-LINK Router is about 20m, and the connection from TP-LINK Router -> Phone is about 10m. Additionally, the TP-LINK Router uses a wireless bridge to connect to the modem.
+Dies ist ein etwas naiver Test. Ich vermute, dass ein Grund für den Unterschied in den Geschwindigkeiten ist, dass die Verbindung von Modem -> TP-LINK Router etwa 20m beträgt und die Verbindung von TP-LINK Router -> Telefon etwa 10m. Außerdem verwendet der TP-LINK Router eine drahtlose Brücke, um sich mit dem Modem zu verbinden.
 
-The interesting thing is that if you connect both Wi-Fi and Ethernet, there is no way to prioritize one over the other. You can only use Ethernet in this configuration. If you want to use Wi-Fi, you have to unplug the Ethernet adapter.
+Speedtest ist ein nützliches Tool. Wenn Sie einen Server in der Alibaba Cloud verwenden und die Bandbreite auf 5Mbps einstellen, liefert die Verwendung der App zum Testen Ergebnisse von etwa 5Mbps.
+
+Interessant ist, dass es keine Möglichkeit gibt, eine Verbindung zu priorisieren, wenn sowohl Wi-Fi als auch Ethernet verbunden sind. Sie können in dieser Konfiguration nur Ethernet verwenden. Wenn Sie Wi-Fi verwenden möchten, müssen Sie den Ethernet-Adapter abziehen.
 
 {: .centered }
 ![](assets/images/lightning/l1.jpg){: .responsive }
-*Source: iOS*{: .caption }
+*Quelle: iOS*{: .caption }
 
 {: .centered }
 ![](assets/images/lightning/l2.jpg){: .responsive }
-*Source: Walmart.com*{: .caption }
+*Quelle: Walmart.com*{: .caption }
 
 {: .centered }
 ![](assets/images/lightning/n.jpg){: .responsive }
-*Source: network_plot.py*{: .caption }
+*Quelle: network_plot.py*{: .caption }

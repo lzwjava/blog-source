@@ -2,40 +2,43 @@
 audio: true
 lang: zh
 layout: post
-title: Lightning to Ethernet Adapter
+title: 雷电转以太网适配器
+translated: true
 ---
 
-I recently tried a new product that I had never used before. It cost me about 44 CNY on JD.com. Similar products cost around 15 USD on Walmart.com.
+我最近尝试了一款以前从未使用过的新产品。它在京东上花了我大约44元人民币。类似的产品在Walmart.com上的价格约为15美元。
 
-It works perfectly, and no extra settings are needed. An "Ethernet" menu item appears after plugging in the adapter.
+它工作得非常完美，不需要任何额外的设置。插入适配器后会出现一个“以太网”菜单项。
 
-I used the Speedtest iOS app to test the speed. The results are shown below.
+我使用Speedtest iOS应用程序测试了速度。结果如下所示。
 
-| Network Type                     | Distance   | Download Speed (MBPS) | Upload Speed (MBPS) | Line             |
+| 网络类型                     | 距离   | 下载速度 (MBPS) | 上传速度 (MBPS) | 线路             |
 |----------------------------------|------------|-----------------------|---------------------|------------------|
-| Modem -> TP-LINK Router -> Phone | around 30m | 2.90                  | 4.82                | Guangzhou -> Macao |
-| Modem -> Cable -> Phone          | around 30m | 84.9                  | 59.7                | Guangzhou -> Macao |
+| 调制解调器 -> TP-LINK路由器 -> 手机 | 大约30米 | 2.90                  | 4.82                | 广州 -> 澳门 |
+| 调制解调器 -> 网线 -> 手机          | 大约30米 | 84.9                  | 59.7                | 广州 -> 澳门 |
 
-In one test, the ping (ms) responsiveness results are shown below:
+在一次测试中，ping（ms）响应性结果如下所示：
 
-| Metric   | Value | Jitter |
+| 指标   | 值   | 抖动 |
 |----------|-------|--------|
-| Idle     | 33    | 68     |
-| Download | 1885  | 110    |
-| Upload   | 127   | 54     |
+| 空闲     | 33    | 68     |
+| 下载 | 1885  | 110    |
+| 上传 | 127   | 54     |
 
-This is a somewhat naive test. I suspect one reason for the difference in speeds is that the connection from Modem -> TP-LINK Router is about 20m, and the connection from TP-LINK Router -> Phone is about 10m. Additionally, the TP-LINK Router uses a wireless bridge to connect to the modem.
+这是一个有些幼稚的测试。我怀疑速度差异的一个原因是调制解调器到TP-LINK路由器的连接大约为20米，而TP-LINK路由器到手机的连接大约为10米。此外，TP-LINK路由器使用无线桥接连接到调制解调器。
 
-The interesting thing is that if you connect both Wi-Fi and Ethernet, there is no way to prioritize one over the other. You can only use Ethernet in this configuration. If you want to use Wi-Fi, you have to unplug the Ethernet adapter.
+Speedtest是一个有用的工具。如果你使用阿里云的服务器并将带宽设置为5Mbps，然后使用该应用程序测试它，结果将接近5Mbps。
+
+有趣的是，如果同时连接Wi-Fi和以太网，则无法优先选择其中一个。在这种配置中，你只能使用以太网。如果你想使用Wi-Fi，必须拔掉以太网适配器。
 
 {: .centered }
 ![](assets/images/lightning/l1.jpg){: .responsive }
-*Source: iOS*{: .caption }
+*来源：iOS*{: .caption }
 
 {: .centered }
 ![](assets/images/lightning/l2.jpg){: .responsive }
-*Source: Walmart.com*{: .caption }
+*来源：Walmart.com*{: .caption }
 
 {: .centered }
 ![](assets/images/lightning/n.jpg){: .responsive }
-*Source: network_plot.py*{: .caption }
+*来源：network_plot.py*{: .caption }
