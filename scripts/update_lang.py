@@ -316,10 +316,6 @@ def main():
         futures = []
         for filename in changed_files:
             input_file = filename
-
-            if "-en.md" not in filename:
-                print(f"Skipping {filename} because it does not contain -en.md")
-                continue
             
             for lang in languages:
                 output_dir = f"_posts/{lang}"
