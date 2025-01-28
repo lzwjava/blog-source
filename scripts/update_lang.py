@@ -241,11 +241,15 @@ def main():
         futures = []
         for filename in changed_files:
             input_file = filename
+
+            if "-en.md" not in filename:
+                print(f"Skipping {filename} because it does not contain -en.md")
+                continue
             
             for lang in languages:
                 output_dir = f"_posts/{lang}"
                 os.makedirs(output_dir, exist_ok=True)
-                            
+
                 output_filename = os.path.basename(filename).replace("-en.md", f"-{lang}.md")
     
                 output_file = os.path.join(output_dir, output_filename)
