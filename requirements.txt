@@ -13,3 +13,4 @@ azure-cognitiveservices-speech
 google-cloud-speech
 pdf2image
 datasets
+mistralai
