@@ -7,28 +7,57 @@ translated: true
 ---
 
 * Il est acceptable de faire de la programmation compétitive tant que cela vous motive.
+
 * La programmation, c'est comme écrire. La programmation est une activité créative.
+
 * Faites votre propre projet. Écrivez votre blog technique. Programmez pour un projet que vous maintiendrez pendant des années, tout comme entretenir un blog pendant 10 ans.
-* Généralement, vous n'avez pas besoin de suivre ce qui est à la mode dans la technologie actuellement, car de nombreuses tendances disparaîtront après quelques années.
+
+* En général, vous n'avez pas besoin de poursuivre ce qui est à la mode dans la technologie actuellement, car de nombreuses tendances disparaîtront après quelques années.
+
 * Suivez votre curiosité et programmez pour votre propre plaisir.
+
 * Essayez de créer des programmes pour vous-même. Ce ne sont pas des tâches de travail.
-* Si vous vous sentez souvent malheureux en programmant, alors vous le faites mal.
-* iOS, Android, Backend, Frontend, IA, tout est bon. On peut au moins essayer de faire un petit projet en les utilisant ou les apprendre pendant quelques mois.
+
+* Si vous vous sentez souvent malheureux en programmant, alors vous le faites de la mauvaise manière.
+
+* iOS, Android, Backend, Frontend, IA, tout cela est bien. On peut au moins essayer de faire un petit projet en les utilisant ou les apprendre pendant quelques mois.
+
 * Le débogage, c'est être méfiant. Ne faites pas confiance à chaque ligne de votre code ; vous pouvez penser à une meilleure façon de le faire.
-* En programmation, même un caractère ou une ligne de journal est important. Ils vous disent quelque chose.
-* Utiliser la programmation permet de créer des produits que d'autres utiliseront. C'est intéressant d'avoir des utilisateurs.
-* Vous n'avez pas besoin d'être dur. Quelques centaines d'utilisateurs qui adorent vraiment votre produit valent mieux que des dizaines de milliers d'utilisateurs qui l'apprécient simplement.
+
+* En programmation, même un caractère ou une ligne de log est important. Ils vous disent quelque chose.
+
+* Utiliser la programmation pour créer des produits que d'autres utiliseront. C'est intéressant d'avoir des utilisateurs.
+
+* Vous n'avez pas besoin d'être dur. Quelques centaines d'utilisateurs qui adorent vraiment votre produit valent mieux que des dizaines de milliers d'utilisateurs qui aiment simplement gentiment votre produit.
+
 * Souvenez-vous pourquoi vous vous êtes lancé dans la programmation et ne l'oubliez jamais.
-* Appliquez les connaissances en programmation à tous les aspects de la vie. Ils sont les mêmes. Faire les choses par lots ou une par une. Comment séparer les tâches en unités. La technologie sous-jacente derrière chaque application. Les détails subtils derrière les requêtes réseau.
+
+* Appliquez les connaissances en programmation à tous les aspects de la vie. Ils sont les mêmes. Faire les choses par lots ou une par une. Comment séparer les tâches en unités. La technologie sous-jacente derrière chaque application. Les détails nuancés derrière les requêtes réseau.
+
 * L'abstraction et la pensée logique. La pensée orientée vers les détails. La réflexion sur chaque solution.
-* La vérité est la vérité. Généralement, l'ordinateur ne se trompe pas. Le circuit électrique ne se trompe pas. Le compilateur ne se trompe pas. Ne vous sentez pas contrarié lorsqu'il y a un bug.
+
+* La vérité est la vérité. En général, l'ordinateur ne se trompera pas. Le circuit électrique ne se trompera pas. Le compilateur ne se trompera pas. Ne vous sentez pas contrarié lorsqu'il y a un bug.
+
 * Recherchez des solutions élégantes et simples. La simplicité est la sophistication ultime. Vous devez réfléchir dur pour garder ce qui est essentiel et supprimer ce qui est superflu.
+
 * Pour les langages de programmation, les langages qui font le travail sont acceptables. Personnellement, je recommande Java et Python.
+
 * Suivez Yin Wang sur [https://www.yinwang.org](https://www.yinwang.org). Il est l'un des rares génies en programmation, bien qu'il dise que les génies n'existent jamais.
-* Les connaissances et les principes de la programmation peuvent être facilement appliqués à l'apprentissage des langues, à la réparation de matériel, au hacking de vie et à la recherche scientifique.
-* Pour la plupart des tâches de programmation, vous n'avez pas besoin de mathématiques sophistiquées en dehors des mathématiques du lycée.
+
+* Les connaissances et les principes de la programmation peuvent être facilement appliqués à l'apprentissage des langues, à la réparation de matériel, au hacking de vie, et à la recherche scientifique.
+
+* Pour la plupart des tâches de programmation, vous n'avez pas besoin de mathématiques sophistiquées au-delà des mathématiques du lycée.
+
 * Réfléchissez à votre ancien code après des années ou maintenez un projet de code pendant longtemps. Cela vous apprendra beaucoup.
+
 * Si vous perdez votre passion pour la programmation, faites simplement autre chose pendant un certain temps.
-* Le moment des tests est important. Faites-le simplement naturellement. Vous n'avez souvent pas besoin d'écrire des tests pour votre projet. Essayez de ne pas écrire de tests, écrivez des tests unitaires, écrivez des tests d'intégration, écrivez des tests d'API. Comparez-les judicieusement.
+
+* Le timing des tests est important. Faites-le simplement naturellement. Vous n'avez souvent pas besoin d'écrire des tests pour votre projet. Essayez de ne pas écrire de tests, écrivez des tests unitaires, écrivez des tests d'intégration, écrivez des tests d'API. Comparez-les judicieusement.
+
 * Essayez les éditeurs de code IA. Utilisez souvent ChatGPT ou d'autres chatbots. Comme les outils IA sont faciles à utiliser maintenant, vous pouvez vous concentrer sur des parties plus créatives ou importantes.
-* Lors du débogage, vérifiez si vous utilisez la dernière version des bibliothèques. Si une bibliothèque n'est plus maintenue, cherchez des clones ou des forks activement maintenus.
+
+* Lors du débogage, vérifiez si vous utilisez la dernière version des bibliothèques. Si une bibliothèque n'est plus maintenue, recherchez des clones ou des forks activement maintenus.
+
+* Lorsque vous améliorez quelque chose comme la vitesse du réseau ou le temps d'exécution d'un programme, il doit y avoir une métrique quantitative. Sinon, vous ne saurez pas exactement s'il y a eu une amélioration ou une dégradation triviale.
+
+* Pour les projets personnels, il est acceptable de ne pas écrire de code de test, mais il est préférable de faire des tests locaux après avoir modifié une quantité importante de code. Considérez le code affecté, combien de temps il s'exécutera dans le pipeline cloud, et à quelle fréquence il entraînera des erreurs, donc testez le code en conséquence.
