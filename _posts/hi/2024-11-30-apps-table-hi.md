@@ -1,12 +1,12 @@
 ---
 lang: hi
 layout: post
-title: iOS ऐप्स जो मैंने इस्तेमाल किए - टेबल वर्जन
+title: मैंने उपयोग की गई iOS ऐप्स - तालिका संस्करण
 translated: true
 translation: false
 ---
 
-| ऐप का नाम | बंडल आइडेंटिफायर | संस्करण |
+| ऐप का नाम | बंडल पहचानकर्ता | संस्करण |
 |----------|------------------|----------|
 | 500px | com.500px | 1315 |
 | Adobe Scan | com.adobe.scan.ios | 20241029.111402 |
@@ -192,11 +192,6 @@ translation: false
 | Headspace | com.getsomeheadspace.headspace | 247637 |
 | Hinge | co.hinge.mobile.ios | 11567 |
 | HOME'S | jp.co.homes.iphone | 5.40.0.0 |
-| Habit | com.davetech.habit | 2 |
-| Healow | com.ecw.Healow | 20240904 |
-| Headspace | com.getsomeheadspace.headspace | 247637 |
-| Hinge | co.hinge.mobile.ios | 11567 |
-| HOME'S | jp.co.homes.iphone | 5.40.0.0 |
 | Hopper | com.hopper.flights | 21137 |
 | Hostelworld | MW4X37V37K.com.webreservationsinternational.hostelworld | 2061 |
 | Hotels.com | com.hotels.HotelsNearMe | 480 |
@@ -239,4 +234,57 @@ translation: false
 | Kindle | com.amazon.Lassen | 1.357825.10 |
 | Klook | com.klook.klook | 2 |
 | Kono | com.thekono.kono | 1 |
-| Layout | com.burbn.layouts | 105
+| Layout | com.burbn.layouts | 105251725 |
+| Lazada | com.LazadaSEA.Lazada | 101921111 |
+| Learn Java: Programiz | com.programiz.learnjava | 130050 |
+| LearnJava | com.sajednahian.LearnJava | 16 |
+| Learning | com.linkedin.Learning | 9.30.3803 |
+| Lemon8 | com.bd.nproject | 7.6.1.2 |
+| Level8 | com.levelsfyi.mobile | 2 |
+| Life360 | com.life360.safetymap | 24.46.0.1305 |
+| LightCut | com.lightcut.videoeditor | 23098 |
+| Lightroom | com.adobe.lrmobilephone | 10.0.2.173 |
+| Lime | com.limebike | 1 |
+| LINE | jp.naver.line | 2024.1129.1520 |
+| LINE WORKS | com.nhncorp.worksone | 4.1.1.11 |
+| LinkedIn | com.linkedin.LinkedIn | 9.30.4850 |
+| Little Caesars | com.littlecaesars.customer | 5260 |
+| LooLoo Kids | net.colorcity.loolookids | 107 |
+| Longbridge | global.longbridge.ios | 59579 |
+| Lose It! | com.fitnow.loseit | 1275 |
+| lululemon | com.lululemon.shopapp | 700.45.22.1606 |
+| Lyft | com.zimride.instant | 2024.44.31.2389620 |
+| LG ThinQ | com.lgeha.nuts | 80 |
+| MaasPlus | passager.taxi.macao | 2024103102 |
+| Manga | com.viz.iphone-manga | 1 |
+| MAPS.ME | com.mapswithme.full | 999 |
+| MARIO RUN | com.nintendo.zara | 23699 |
+| Mastodon | org.joinmastodon.app | 6435 |
+| MasterClass | com.masterclass.production | 42182 |
+| Max | com.wbd.stream | 90 |
+| Mazii | com.mazii.dictionary | 2479 |
+| McDonald's | com.mcdonalds.gma | 34 |
+| McDonald's JP | jp.mcdonalds.coupon | 1205 |
+| Medium | com.medium.reader | 175411 |
+| Meet | com.google.Tachyon | 278.1.65494 |
+| Memrise | com.memrise.ios.memrisecompanion | 74506 |
+| Mercado Libre | com.3mosquitos.MercadoLibre | 10.380.1 |
+| Messenger | com.facebook.Messenger | 665337277 |
+| Meta Horizon | com.oculus.twilight | 668004825 |
+| Meitu | com.meitu.mtxx | 77229 |
+| Mi Fitness | com.xiaomi.miwatch.pro | 2 |
+| Mi Home | com.xiaomi.mihome | 9.7.202.1003 |
+| Microsoft 365 (Office) | com.microsoft.officemobile | 2.91.24111318 |
+| Mimo | com.getmimo.mimo | 39395 |
+| MOJisho | 3EW3QF484M.MojiDict | 20241129 |
+| Monzo | io.b2a.BankProd | 6030051 |
+| Moovit | com.tranzmate.tranzmate1 | 141338 |
+| MPay | com.macaupass.pays | 4 |
+| MTD | com.zimperium.zIPS.appstore | 202409301625 |
+| My BMW | de.bmw.connected.mobile20.na | 38602 |
+| MyChart | com.epic.mychart | 11.2.2 |
+| MyDyson | com.dyson.dysonlink | 163208 |
+| MyNetDiary | com.mynetdiary.MyNetDiary | 344 |
+| Mynaportal | jp.go.cao.mpa.iOS | 1 |
+| Myセブン銀行 | jp.co.sevenbank.mysevenbank | 186 |
+| moveco-ムブコ | jp.co.navitime.moveco | 436

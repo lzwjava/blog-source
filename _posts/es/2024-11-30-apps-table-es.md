@@ -1,7 +1,7 @@
 ---
 lang: es
 layout: post
-title: Aplicaciones de iOS que usé - Versión en tabla
+title: Aplicaciones de iOS que usé - Versión de tabla
 translated: true
 translation: false
 ---
@@ -192,11 +192,6 @@ translation: false
 | Headspace | com.getsomeheadspace.headspace | 247637 |
 | Hinge | co.hinge.mobile.ios | 11567 |
 | HOME'S | jp.co.homes.iphone | 5.40.0.0 |
-| Habit | com.davetech.habit | 2 |
-| Healow | com.ecw.Healow | 20240904 |
-| Headspace | com.getsomeheadspace.headspace | 247637 |
-| Hinge | co.hinge.mobile.ios | 11567 |
-| HOME'S | jp.co.homes.iphone | 5.40.0.0 |
 | Hopper | com.hopper.flights | 21137 |
 | Hostelworld | MW4X37V37K.com.webreservationsinternational.hostelworld | 2061 |
 | Hotels.com | com.hotels.HotelsNearMe | 480 |
@@ -240,4 +235,240 @@ translation: false
 | Klook | com.klook.klook | 2 |
 | Kono | com.thekono.kono | 1 |
 | Layout | com.burbn.layouts | 105251725 |
-| Lazada | com.Laz
+| Lazada | com.LazadaSEA.Lazada | 101921111 |
+| Learn Java: Programiz | com.programiz.learnjava | 130050 |
+| LearnJava | com.sajednahian.LearnJava | 16 |
+| Learning | com.linkedin.Learning | 9.30.3803 |
+| Lemon8 | com.bd.nproject | 7.6.1.2 |
+| Level8 | com.levelsfyi.mobile | 2 |
+| Life360 | com.life360.safetymap | 24.46.0.1305 |
+| LightCut | com.lightcut.videoeditor | 23098 |
+| Lightroom | com.adobe.lrmobilephone | 10.0.2.173 |
+| Lime | com.limebike | 1 |
+| LINE | jp.naver.line | 2024.1129.1520 |
+| LINE WORKS | com.nhncorp.worksone | 4.1.1.11 |
+| LinkedIn | com.linkedin.LinkedIn | 9.30.4850 |
+| Little Caesars | com.littlecaesars.customer | 5260 |
+| LooLoo Kids | net.colorcity.loolookids | 107 |
+| Longbridge | global.longbridge.ios | 59579 |
+| Lose It! | com.fitnow.loseit | 1275 |
+| lululemon | com.lululemon.shopapp | 700.45.22.1606 |
+| Lyft | com.zimride.instant | 2024.44.31.2389620 |
+| LG ThinQ | com.lgeha.nuts | 80 |
+| MaasPlus | passager.taxi.macao | 2024103102 |
+| Manga | com.viz.iphone-manga | 1 |
+| MAPS.ME | com.mapswithme.full | 999 |
+| MARIO RUN | com.nintendo.zara | 23699 |
+| Mastodon | org.joinmastodon.app | 6435 |
+| MasterClass | com.masterclass.production | 42182 |
+| Max | com.wbd.stream | 90 |
+| Mazii | com.mazii.dictionary | 2479 |
+| McDonald's | com.mcdonalds.gma | 34 |
+| McDonald's JP | jp.mcdonalds.coupon | 1205 |
+| Medium | com.medium.reader | 175411 |
+| Meet | com.google.Tachyon | 278.1.65494 |
+| Memrise | com.memrise.ios.memrisecompanion | 74506 |
+| Mercado Libre | com.3mosquitos.MercadoLibre | 10.380.1 |
+| Messenger | com.facebook.Messenger | 665337277 |
+| Meta Horizon | com.oculus.twilight | 668004825 |
+| Meitu | com.meitu.mtxx | 77229 |
+| Mi Fitness | com.xiaomi.miwatch.pro | 2 |
+| Mi Home | com.xiaomi.mihome | 9.7.202.1003 |
+| Microsoft 365 (Office) | com.microsoft.officemobile | 2.91.24111318 |
+| Mimo | com.getmimo.mimo | 39395 |
+| MOJisho | 3EW3QF484M.MojiDict | 20241129 |
+| Monzo | io.b2a.BankProd | 6030051 |
+| Moovit | com.tranzmate.tranzmate1 | 141338 |
+| MPay | com.macaupass.pays | 4 |
+| MTD | com.zimperium.zIPS.appstore | 202409301625 |
+| My BMW | de.bmw.connected.mobile20.na | 38602 |
+| MyChart | com.epic.mychart | 11.2.2 |
+| MyDyson | com.dyson.dysonlink | 163208 |
+| MyNetDiary | com.mynetdiary.MyNetDiary | 344 |
+| Mynaportal | jp.go.cao.mpa.iOS | 1 |
+| Myセブン銀行 | jp.co.sevenbank.mysevenbank | 186 |
+| moveco-ムブコ | jp.co.navitime.moveco | 436 |
+| NFL | com.nfl.gamecenter | 24737 |
+| NFL RB 25 | com.newstarresearch.retrobowlpro | 1.0.8.1 |
+| NHS App | com.nhs.online | 41168 |
+| Night Sky | com.icandiapps.nightsky | 13.1 |
+| Nike | com.nike.omega | 2410221948 |
+| Nintendo Music | com.nintendo.znba | 241113 |
+| Nintendo Switch Online | com.nintendo.znca | 5960 |
+| Nihongo | com.serpentisei.studyjapanese | 9191 |
+| noon | com.noon.buyerapp | 6998 |
+| Notion | notion.id | 1 |
+| Noticias | com.univision.noticias | 12016815 |
+| Notícias | com.maneesh.breakingnewbr | 4 |
+| Nubank | com.nu.iphone | 23 |
+| Nikkei Asia | com.nikkei.asia | 18979 |
+| News Break | com.particlenews.newsbreak | 25 |
+| NBC | com.nbcuni.nbc.portal | 14971 |
+| NYTimes | com.nytimes.NYTimes | 118598.241125 |
+| Netflix | com.netflix.Netflix | 3 |
+| Nextdoor | com.nextdoor.nextdoor | 580303 |
+| OCBC | com.ocbc.mobile | 2 |
+| Octal | com.danielwu.HackerNews | 1533 |
+| OneDrive | com.microsoft.skydrive | 16.0.6 |
+| onX Hunt | com.mtmapping.onxhunt | 778 |
+| Outlook | com.microsoft.Office.Outlook | 32780930 |
+| Outline | org.outline.ios.client | 475483 |
+| Otter | com.aisense.otter | 999 |
+| Ostrovok | ru.ostrovok | 2 |
+| Pandora | com.pandora | 2602 |
+| Panels | art.panels.wallpapers.appstore | 1 |
+| Paramount+ | com.cbsvideo.app | 10298 |
+| Pastel | com.highcaffeinecontent.pastel | 244 |
+| PayMe | hk.com.hsbc.paymefromhsbc | 5410 |
+| PayPal | com.yourcompany.PPClient | 557 |
+| PayPay | com.mftcuzdan | 20240506.01 |
+| Paytm | com.one97.paytm | 5314 |
+| Paxful | com.paxful.wallet | 7020 |
+| PeakVisor | ru.routes.peakvisor | 5.33.0 |
+| Perplexity | ai.perplexity.app | 6827 |
+| Phantom | app.phantom | 29187 |
+| Photomath | com.microblink.PhotoMath | 0 |
+| Picsart | com.picsart.studio | 26302 |
+| PictureThis | cn.danatech.xingseus | 3865849 |
+| Pinterest | pinterest | 3 |
+| Poe | com.quora.app.Experts | 40208 |
+| Point Income | jp.pointi.pointi-app | 102 |
+| Polymarket | com.polymarket.ios-app | 40 |
+| PonyPilot | ai.pony.app.pilot | 13 |
+| Poolsuite FM | fm.poolside.mobile | 52 |
+| PowerPoint | com.microsoft.Office.Powerpoint | 2.91.24111439 |
+| Powl | jp.powl.ios | 802 |
+| Prime Video | com.amazon.aiv.AIVApp | 10.5500.15247.4 |
+| ProgrammingHub | com.CreativeCub.ProgrammingHub | 6 |
+| PropertyGuru | sg.com.propertyguru.pgsgiphone | 202301056 |
+| Proxyman | com.nsproxy.NSProxy-iOS | 22010 |
+| PS Express | com.adobe.PSMobile | 24.46.1.8588 |
+| QQ | com.tencent.mqq | 9.1.16.604 |
+| QQ Mail | com.tencent.qqmail | 6.6.3.14 |
+| Quizlet | com.quizlet.quizlet | 2 |
+| Quora | com.quora.app.mobile | 3230 |
+| Railway12306 | cn.12306.rails12306 | 31 |
+| Rakuten | com.ebates.EbatesMobile | 31485 |
+| Rappi | com.grability.rappi | 124552 |
+| RareJob | com.Rarejob.Official | 1005 |
+| Reddit | com.reddit.Reddit | 615404 |
+| ReelShort | com.newleaf.app.ios.vic | 3 |
+| Remini | com.bigwinepot.nwdn.international | 202107735 |
+| Rent. | com.rent.mobile.iphone.app | 4232 |
+| Replit | com.replit.app | 2.98.0 |
+| Reuters | com.thomsonreuters.Reuters | 1731091476 |
+| Revolut | com.revolut.revolut | 22614 |
+| Ringo Pass | jp.co.jreast.RingoPass.release | 6205 |
+| Robinhood | com.robinhood.release.Robinhood | 70057 |
+| Roblox | com.roblox.robloxmobile | 2.652.762 |
+| Roku | com.roku.ios.roku | 18223819.29 |
+| Rome2Rio | com.rome2rio.Rome2Rio | 174 |
+| Rポイント倍 | jp.kazushige.sato.rakutenPointBai | 1 |
+| Radio ZA | com.appmind.southafrica | 12 |
+| SCMP | com.scmp.newspulse | 409 |
+| SC Mobile | com.sc.breezehk | 20241022.41 |
+| SHEIN | zzkko.com.ZZKKO | 8 |
+| Shazam | com.shazam.Shazam | 5699 |
+| Shop | com.jadedlabs.arrive | 41565 |
+| Shopping | com.wikibuy.prod.main | 2142 |
+| Showmax | com.showmax.showmax.apple | 0 |
+| Signal | org.whispersystems.signal | 463 |
+| SimplyPiano | com.joytunes.asla | 25492 |
+| Singapore | com.exploremetro.sg | 19720 |
+| SingaporeAir | com.amadeus.sqmobile | 24.11.0.2411181
+| Skillshare | com.skillshare.Skillshare | 31472.73153110997 |
+| Sky Guide | com.fifthstarlabs.skyguide | 662 |
+| Sky News | com.bskyb.skynews | 202411191111 |
+| Skratch | com.zerodawn.skratch | 611 |
+| Slack | com.tinyspeck.chatlyio | 445224 |
+| SmartNews | jp.gocro.SmartNews | 24.11.45.44126 |
+| Snapchat | com.toyopagroup.picaboo | 13.17.0.45 |
+| Snapseed | com.niksoftware.snapseedforipad | 2.25.642066665 |
+| Sololearn | com.sololearn | 3 |
+| SoundCloud | com.soundcloud.TouchApp | 1250324 |
+| Southwest | com.southwest.iphoneprod | 11.11.4 |
+| Speechify | com.cliffweitzman.speechifyMobile2 | 239 |
+| Spotify | com.spotify.client | 899400418 |
+| Sports | com.apple.sports | 2200.34.1 |
+| Starbucks | com.starbucks.mystarbucks | 14826 |
+| Stash | ws.stash.app | 904 |
+| Steam | com.valvesoftware.Steam | 9039251 |
+| Sticker.ly | com.snowcorp.stickerly | 3.7.0.0 |
+| StitchPics | com.xcvzaq.imagejoin | 0 |
+| StitchShot | com.doukan.webscreenshot | 2 |
+| Straits Times | com.sph.stiPhone | 3 |
+| SUBWAY® | com.subway.mobile.subwayapp03 | 34350 |
+| Substack | com.substack.Substack | 4405 |
+| Support | com.apple.supportapp | 202612 |
+| Surge | com.nssurge.inc.surge-ios | 3374 |
+| SUUMO | jp.co.recruit.suumo | 10.103.0.0 |
+| Swim.com | com.spiraledge.swimApp | 20241121.03.353 |
+| Sygic | com.sygic.world | 3 |
+| T-Life | com.tmobile.tuesdays | 1541136403 |
+| T-Mobile | com.tmobile.TMOAccess | 1541136403 |
+| talabat | com.6alabat.cuisineApp | 4231 |
+| Target | com.target.Target | 44 |
+| Teams | com.microsoft.skype.teams | 100772024203501 |
+| TED | com.ted.TED | 4983 |
+| Telegram | ph.telegra.Telegraph | 29898 |
+| Temu | com.einnovation.temu | 202411301911 |
+| TempleRun | com.imangi.templerun | 28799025.789 |
+| Termius | com.crystalnix.ServerAuditor | 3 |
+| Tesla | com.teslamotors.TeslaApp | 3023 |
+| TestFlight | com.apple.TestFlight | 470.1 |
+| The Guardian | uk.co.guardian.iphone2 | 23675 |
+| The Hindu | com.thehindu.TheHindu | 123 |
+| The Times | com.thetimes.timesoflondonmobile | 104881 |
+| Threads | com.burbn.barcelona | 667648555 |
+| Tiger Trade | com.tigerbrokers.usstock | 3 |
+| Tile | com.thetileapp.tile | 8612 |
+| Time Magazine | com.timeinc.time.ipad.inapp | 202410140910 |
+| Tinder | com.cardify.tinder | 15220030 |
+| TikTok | com.zhiliaoapp.musically | 375028 |
+| TikTok Studio | com.ss.iphone.tt.creator | 367002 |
+| TODAY | com.todayonline.iTODAY | 15 |
+| TOI | com.2ergoTOI.jayant | 146004 |
+| Tongyi | com.aliyun.ios.tongyi | 41530123 |
+| TooGoodToGo | com.moonsted.TGTG | 33928 |
+| TotM+ | com.playgendary.totmplus | 24 |
+| Transit | com.samvermette.Transit | 47148 |
+| Translator + | com.ascendoinc.PtEn | 51 |
+| Travel | com.rakuten.travel.consumer | 2524 |
+| TripIt | com.tripit.tripitmobile | 2410221301 |
+| Tripscout | co.tripscout.tripscout | 20128 |
+| Trip.com | com.ctrip.EBooking | 19835438 |
+| Trippie | co.Trippie.Trippie | 1 |
+| TruthSocial | com.tmediatech.truthsocial | 377 |
+| Tubi | com.adrise.tubitv | 2 |
+| Tumblr | com.tumblr.tumblr | 371010 |
+| TuneIn Radio | com.tunein.TuneInRadio | 2423 |
+| Turo | com.relayrides.ios.RelayRides | 3865 |
+| Twitch | tv.twitch | 243280039310809585 |
+| TypeAI | com.codeway.AIKeyboard | 58 |
+| U-Haul | com.uhaul.MyUhaul | 9157 |
+| Uber | com.ubercab.UberClient | 3.643.10002 |
+| Uber Eats | com.ubercab.UberEats | 6.246.10000 |
+| Udemy | com.udemy | 2770 |
+| UHC | com.uhg.mobile.uhc | 8783 |
+| Ulysses | com.ulyssesapp.mac | 78320 |
+| United | com.united.UnitedCustomerFacingIPhone | 4.2.22.0 |
+| Unsplash | com.unsplash.Unsplash | 163 |
+| Upside | com.upside-services.consumer | 16240 |
+| Upwork Talent | com.upwork.ios.apps.bolt | 1.77.0.26 |
+| V2EX | com.ydatong.v2ex | 110 |
+| Viator | com.viator | 2024021160 |
+| Video Lite | com.videobrowser.ios | 608000 |
+| Visit A City | com.visitacity.visitacityapp | 4.1.106 |
+| Vivaldi | com.vivaldi.browser | 7.0.3505.85 |
+| VK | com.vk.vkclient | 6123 |
+| VLC | org.videolan.vlc-ios | 630 |
+| Voice | com.google.GVDialer | 24.46.697439887 |
+| VoiceTra | jp.feat-ltd.ios.voicetra-plus | 20231130.0 |
+| VooV | com.tencent.tencentmeeting | 510 |
+| Vrbo | com.vrbo.traveler | 374 |
+| Vocabulary | com.MonkeyTaps.Vocabulary | 74 |
+| Walgreens | com.usablenet.walgreens | 1.0 |
+| Wallcraft | com.wallpaperscraft.wallpapers | 140 |
+| Walmart | com.walmart.electronics | 2411191643 |
+| Wash Post | com.pointabout.washingtonpost | 19271 |
+| Waze | com.waze.iphone | 1
