@@ -2,7 +2,7 @@
 audio: true
 lang: fr
 layout: post
-title: Préférez utiliser des requêtes HTTP brutes au lieu de wrappers
+title: Requêtes Http Brutes et Enveloppeurs
 translated: true
 ---
 
@@ -14,7 +14,7 @@ def traduire_texte(texte, langue_cible, special=False):
     if not texte or not texte.strip():
         return ""
     if langue_cible == 'en':
-        print(f"  Sauter la traduction pour l'anglais: {texte[:50]}...")
+        print(f"  Ignorer la traduction pour l'anglais: {texte[:50]}...")
         return texte
     print(f"  Traduction du texte: {texte[:50]}...")
 
@@ -35,21 +35,21 @@ def traduire_texte(texte, langue_cible, special=False):
                 texte_traduit = response.choices[0].message.content
                 return texte_traduit
             else:
-                print(f"  La traduction a échoué lors de la tentative {attempt + 1}.")
+                print(f"  La traduction a échoué à la tentative {attempt + 1}.")
                 if attempt == retries - 1:
                     return None
         except Exception as e:
-            print(f"  La traduction a échoué avec une erreur lors de la tentative {attempt + 1}: {e}")
+            print(f"  Échec de la traduction avec erreur à la tentative {attempt + 1}: {e}")
             if attempt == retries - 1:
                 return None
-            time.sleep(1)  # Attendre avant de réessayer
+            time.sleep(1)  # Attendre avant de retenter
     return None
 ```
 
 Erreur:
 
 ```bash
- La traduction a échoué avec une erreur lors de la tentative 1: Expecting value: line 5 column 1 (char 4)
+Échec de la traduction avec erreur à la tentative 1: Attente de valeur: ligne 5 colonne 1 (caractère 4)
 ```
 
-Cette erreur indique que l'API DeepSeek retourne une réponse qui n'est pas un JSON valide, probablement du HTML ou un autre format. Ceci est inattendu, car l'API est censée retourner du JSON. Le problème pourrait être dû à un problème temporaire de l'API, à une limitation de débit ou à un problème avec l'invite. Il est important de gérer cela de manière élégante en enregistrant l'erreur et en réessayant éventuellement.
+Cette erreur indique que l'API DeepSeek renvoie une réponse qui n'est pas un JSON valide, probablement du HTML ou un autre format. C'est inattendu, car l'API est censée renvoyer du JSON. Le problème pourrait être dû à un problème temporaire de l'API, à la limitation des taux, ou à un problème avec le prompt. Il est important de gérer cela de manière élégante en enregistrant l'erreur et en envisageant de réessayer.

@@ -2,7 +2,7 @@
 audio: true
 lang: ja
 layout: post
-title: ラッパーではなく生のHTTPリクエストを使用する
+title: HTTP リクエストとラッパー
 translated: true
 ---
 
@@ -10,13 +10,14 @@ translated: true
 import requests
 import json
 import time
-def translate_text(text, target_language, special=False):
-    if not text or not text.strip():
+
+def 翻訳_テキスト(テキスト, ターゲット言語, special=False):
+    if not テキスト or not テキスト.strip():
         return ""
-    if target_language == 'en':
-        print(f"  英語の翻訳をスキップ: {text[:50]}...")
-        return text
-    print(f"  テキストを翻訳中: {text[:50]}...")
+    if ターゲット言語 == 'en':
+        print(f"  English translation skipped: {テキスト[:50]}...")
+        return テキスト
+    print(f"  Translating text: {テキスト[:50]}...")
 
     retries = 3
     for attempt in range(retries):
@@ -24,32 +25,32 @@ def translate_text(text, target_language, special=False):
             response = client.chat.completions.create(
                 model=MODEL_NAME,
                 messages=[
-                    {"role": "system", "content": create_translation_prompt(target_language, special)},
-                    {"role": "user", "content": text}
+                    {"role": "system", "content": create_translation_prompt(ターゲット言語, special)},
+                    {"role": "user", "content": テキスト}
                 ],
                 stream=False
             )
             if not response or not response.choices or not response.choices[0].message.content:
-                print(f"  エラー: 翻訳レスポンスが空または無効: {response}")
+                print(f"  Error: Translation response is empty or invalid: {response}")
             if response and response.choices:
                 translated_text = response.choices[0].message.content
                 return translated_text
             else:
-                print(f"  翻訳は試行 {attempt + 1} で失敗しました。")
+                print(f"  Translation failed on attempt {attempt + 1}.")
                 if attempt == retries - 1:
                     return None
         except Exception as e:
-            print(f"  翻訳は試行 {attempt + 1} でエラーに失敗しました: {e}")
+            print(f"  Translation failed with error on attempt {attempt + 1}: {e}")
             if attempt == retries - 1:
                 return None
-            time.sleep(1)  # 再試行前に待機
+            time.sleep(1)  # Wait before retrying
     return None
 ```
 
 エラー:
 
 ```bash
- 翻訳は試行 1 でエラーに失敗しました: Expecting value: line 5 column 1 (char 4)
+ Translation failed with error on attempt 1: 期待される値がありません: 行 5 列 1 (char 4)
 ```
 
-このエラーは、DeepSeek APIが有効なJSONではないレスポンスを返していることを示しています。HTMLや他の形式の可能性があります。これは予期せぬ事態です。APIはJSONを返すことが期待されています。問題は一時的なAPIの問題、レート制限、またはプロンプトの問題による可能性があります。これをスムーズに処理するために、エラーをログに記録し、再試行することが重要です。
+このエラーは、DeepSeek APIが有効なJSONではなくHTMLやその他の形式の応答を返していることを示しています。これは予期しないですが、APIが一時的な問題やレート制限の対象となっているか、プロンプトの問題が原因です。これを適切に処理するためには、エラーをログに記録し、必要に応じて再試行することが重要です。

@@ -2,7 +2,7 @@
 audio: true
 lang: de
 layout: post
-title: Bevorzugen Sie die Verwendung von rohen HTTP-Anfragen anstelle von Wrappers
+title: Rohe Http-Anfragen und Wrapper
 translated: true
 ---
 
@@ -10,13 +10,14 @@ translated: true
 import requests
 import json
 import time
+
 def translate_text(text, target_language, special=False):
     if not text or not text.strip():
         return ""
     if target_language == 'en':
-        print(f"  Übersetzung für Englisch überspringen: {text[:50]}...")
+        print(f"  Übersetzung wird für Englisch übersprungen: {text[:50]}...")
         return text
-    print(f"  Text übersetzen: {text[:50]}...")
+    print(f"  Übersetzung des Textes: {text[:50]}...")
 
     retries = 3
     for attempt in range(retries):
@@ -35,21 +36,21 @@ def translate_text(text, target_language, special=False):
                 translated_text = response.choices[0].message.content
                 return translated_text
             else:
-                print(f"  Übersetzung fehlgeschlagen bei Versuch {attempt + 1}.")
+                print(f"  Übersetzung ist bei Versuch {attempt + 1} fehlgeschlagen.")
                 if attempt == retries - 1:
                     return None
         except Exception as e:
-            print(f"  Übersetzung fehlgeschlagen mit Fehler bei Versuch {attempt + 1}: {e}")
+            print(f"  Übersetzung ist mit Fehler bei Versuch {attempt + 1} fehlgeschlagen: {e}")
             if attempt == retries - 1:
                 return None
-            time.sleep(1)  # Warten vor erneutem Versuch
+            time.sleep(1)  # Warten, bevor erneut versucht wird
     return None
 ```
 
 Fehler:
 
 ```bash
- Übersetzung fehlgeschlagen mit Fehler bei Versuch 1: Expecting value: line 5 column 1 (char 4)
+Übersetzung ist mit Fehler bei Versuch 1 fehlgeschlagen: Erwartete Wert: Zeile 5 Spalte 1 (Zeichen 4)
 ```
 
-Dieser Fehler deutet darauf hin, dass die DeepSeek-API eine Antwort zurückgibt, die kein gültiges JSON ist, möglicherweise HTML oder ein anderes Format. Dies ist unerwartet, da von der API erwartet wird, dass sie JSON zurückgibt. Das Problem könnte auf einem vorübergehenden API-Problem, einer Rate-Limiting oder einem Problem mit der Eingabeaufforderung beruhen. Es ist wichtig, dies elegant zu behandeln, indem der Fehler protokolliert und möglicherweise erneut versucht wird.
+Dieser Fehler deutet darauf hin, dass die DeepSeek API eine Antwort zurückgibt, die kein gültiges JSON ist, möglicherweise HTML oder ein anderes Format. Dies ist unerwartet, da die API JSON zurückgeben sollte. Das Problem könnte durch ein temporäres API-Problem, Rate Limiting oder ein Problem mit dem Prompt verursacht werden. Es ist wichtig, dies fehlerfrei zu behandeln, indem der Fehler protokolliert und möglicherweise erneut versucht wird.
