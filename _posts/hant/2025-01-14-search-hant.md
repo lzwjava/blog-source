@@ -1,12 +1,12 @@
 ---
 audio: true
-lang: zh
+lang: hant
 layout: post
-title: 搜索
+title: 搜尋
 translated: true
 ---
 
-你可以使用 Google 的可编程搜索引擎来搜索我的博客。
+你可以使用 Google 的 Programmable Search Engine 搜索我的部落格。
 
 <script async src="https://cse.google.com/cse.js?cx=e25f13ef1eb21450f">
 </script>
