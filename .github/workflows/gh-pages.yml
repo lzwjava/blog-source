@@ -62,7 +62,6 @@ jobs:
                 git pull --rebase
                 git push
               }
-              fi
             done
           fi
         env:
