@@ -22,7 +22,7 @@ DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 
 def create_translation_prompt(target_language, special=False):
-    base_prompt = "You are translating a markdown file for a Jekyll blog post. Be careful about code blocks. Translate to {target_language}. Just give translated post.\n\n"
+    base_prompt = "Translate below markdown text to {target_language}. Just give translated markdown.\n"
     if target_language == 'ja':
         return base_prompt.format(target_language="Japanese")
     elif target_language == 'es':
