@@ -42,7 +42,39 @@ jobs:
         run: |
           rm -f ./gha-creds-*.json
 
+      - name: Update Language Files Amend
+        id: updated_lang_files_amend
+        run: |
+          DRY_RUN_LANG_OUTPUT=$(python scripts/update_lang_amend.py --dry_run)
+          TOTAL_POSTS=$(echo "$DRY_RUN_LANG_OUTPUT" | grep "Total Markdown files to process:" | awk '{print $NF}')
+          echo "Total posts to process: $TOTAL_POSTS"
+
+          if [[ "$TOTAL_POSTS" -eq 0 ]]; then
+            echo "No language files to amend."
+          else
+            MAX_FILES_PER_RUN=1
+            for ((i=0; i < TOTAL_POSTS; i+=MAX_FILES_PER_RUN)); do
+              python scripts/update_lang_amend.py --max_files "$MAX_FILES_PER_RUN"
+              git config user.name "github-actions[bot]"
+              git config user.email "github-actions[bot]@users.noreply.github.com"
+              git add _posts/**/*.md
+              if ! git diff --cached --quiet; then
+                git commit -m "chore(lang): Update language files"
+                git push || {
+                  echo "Push failed, attempting pull and merge"
+                  git pull --rebase
+                  git push
+                }
+              fi
+            done
+          fi
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+
       - name: Update Language Files
+        id: updated_lang_files
         run: |
           DRY_RUN_LANG_OUTPUT=$(python scripts/update_lang.py --dry_run)
           TOTAL_POSTS=$(echo "$DRY_RUN_LANG_OUTPUT" | grep "Total Markdown files to process:" | awk '{print $NF}')

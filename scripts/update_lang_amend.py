@@ -1,7 +1,7 @@
 import subprocess
-
 import os
 from dotenv import load_dotenv
+import argparse
 
 load_dotenv()
 
@@ -26,9 +26,23 @@ def get_changed_files():
                 print(f"Error processing file {input_file}: {e}")
     return changed_files
 
-files = get_changed_files()
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Update language files.")
+    parser.add_argument('--dry_run', dest='dry_run', action='store_true', help='Only print the files to be processed.')
+    parser.add_argument("--max_files", type=int, default=None, help="Maximum number of files to process.")
 
-print(files)
+    args = parser.parse_args()
 
-for file in files:
-    subprocess.run(["python", "scripts/update_lang.py", "--file", file, "--model", "mistral"], check=True)
+    files = get_changed_files()
+    
+    if args.max_files and len(files) > args.max_files:
+        files = files[:args.max_files]
+    
+    total_files_to_process = len(files)
+
+    if args.dry_run:
+        print(f"Total Markdown files to process: {total_files_to_process}")
+    else:
+        for file in files:
+            subprocess.run(["python", "scripts/update_lang.py", "--file", file, "--model", "mistral"], check=True)
+        print(f"Total Markdown files to process: {total_files_to_process}")
