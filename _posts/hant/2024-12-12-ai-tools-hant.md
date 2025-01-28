@@ -5,7 +5,7 @@ title: 人工智慧工具
 translated: true
 ---
 
-以下是我使用過的一些AI工具，為了清晰起見已分類：
+以下是我使用過的一些AI工具，按類別分類：
 
 ### 聊天機器人
 
@@ -33,7 +33,7 @@ translated: true
 - [scale.com](https://scale.com/leaderboard)
 - [TTS Arena](https://huggingface.co/spaces/TTS-AGI/TTS-Arena)
 
-### 程式碼生成
+### 代碼生成
 
 - [cursor.com](https://www.cursor.com)
 - [github.com/features/copilot](https://github.com/features/copilot)
@@ -53,8 +53,9 @@ translated: true
 ### 雲端AI平台
 
 - [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
-- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
 - [aistudio.google.com](https://aistudio.google.com)
+- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
+- [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai)
 
 ### 其他
 

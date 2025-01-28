@@ -5,7 +5,7 @@ title: Herramientas de IA
 translated: true
 ---
 
-Aquí hay algunas herramientas de IA que he utilizado, categorizadas para mayor claridad:
+Aquí tienes algunas herramientas de IA que he utilizado, categorizadas para mayor claridad:
 
 ### Chatbots
 
@@ -27,34 +27,35 @@ Aquí hay algunas herramientas de IA que he utilizado, categorizadas para mayor 
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-### Tableros de Líderes de Modelos de IA
+### Tablas de liderazgo de modelos de IA
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
 - [TTS Arena](https://huggingface.co/spaces/TTS-AGI/TTS-Arena)
 
-### Generación de Código
+### Generación de código
 
 - [cursor.com](https://www.cursor.com)
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 
-### Generación de Imágenes/Vídeos
+### Generación de imágenes/vídeos
 
 - [midjourney.com](https://www.midjourney.com)
 - [runwayml.com](https://runwayml.com)
 - [pika.art](https://pika.art)
 
-### Generación de Audio
+### Generación de audio
 
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
 
-### Plataformas de IA en la Nube
+### Plataformas de IA en la nube
 
 - [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
-- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
 - [aistudio.google.com](https://aistudio.google.com)
+- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
+- [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai)
 
 ### Otros
 
