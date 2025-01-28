@@ -1,21 +1,22 @@
 ---
 audio: true
-lang: en
+lang: ar
 layout: post
-title: Shared Objects in Multiple Threads
+title: الكائنات المشتركة بين عدة خيوط
+translated: true
 ---
 
-## Lesson
+## الدرس
 
-The code demonstrates a peculiar bug that appears inconsistently. Sometimes the bug occurs, and sometimes it does not, making it difficult to reproduce and debug.
+يوضح الكود خطأ غريبًا يظهر بشكل غير متسق. في بعض الأحيان يحدث الخطأ، وفي أحيان أخرى لا يحدث، مما يجعل من الصعب إعادة إنتاجه وتصحيحه.
 
-This intermittent behavior stems from the way the `translate_markdown_file` function, particularly the `translate_front_matter` function, handles shared data. These functions might be accessing and modifying shared data structures, such as dictionaries or lists, without proper synchronization.
+هذا السلوك المتقطع ناتج عن الطريقة التي تتعامل بها وظيفة `translate_markdown_file`، وخاصة وظيفة `translate_front_matter`، مع البيانات المشتركة. قد تكون هذه الوظائف تصل وتعدل هياكل البيانات المشتركة، مثل القواميس أو القوائم، دون تزامن مناسب.
 
-When multiple threads access and modify the same data concurrently, it can lead to race conditions. Race conditions occur when the final state of the data depends on the unpredictable order in which threads execute. This can result in data corruption, unexpected program behavior, and the intermittent bugs you are observing.
+عندما تصل عدة خيوط (threads) إلى نفس البيانات وتعدلها بشكل متزامن، يمكن أن يؤدي ذلك إلى حالات سباق (race conditions). تحدث حالات السباق عندما تعتمد الحالة النهائية للبيانات على الترتيب غير المتوقع الذي تنفذ به الخيوط. يمكن أن يؤدي ذلك إلى تلف البيانات، وسلوك غير متوقع للبرنامج، والأخطاء المتقطعة التي تلاحظها.
 
-To fix this, you should either avoid sharing mutable data between threads or use proper synchronization mechanisms, such as locks, to protect shared data. In this case, the `front_matter_dict` is being modified in place, which is not thread-safe. The fix is to create a copy of the dictionary before modifying it. This is already done in the code, but it's important to understand why it's necessary.
+لإصلاح هذا، يجب عليك إما تجنب مشاركة البيانات القابلة للتغيير بين الخيوط أو استخدام آليات التزامن المناسبة، مثل الأقفال (locks)، لحماية البيانات المشتركة. في هذه الحالة، يتم تعديل `front_matter_dict` مباشرة، وهو أمر غير آمن للخيوط. الإصلاح هو إنشاء نسخة من القاموس قبل تعديله. هذا يتم بالفعل في الكود، ولكن من المهم فهم سبب ضرورة ذلك.
 
-## Context
+## السياق
 
 ```python
   with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
@@ -36,7 +37,7 @@ To fix this, you should either avoid sharing mutable data between threads or use
                 print(f"A thread failed: {e}")
 ```
 
-## Before
+## قبل
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
@@ -90,7 +91,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         return front_matter
 ```
 
-## After
+## بعد
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):

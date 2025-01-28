@@ -3,8 +3,9 @@ import re
 import time
 import argparse
 import subprocess
+import json
+import requests
 from dotenv import load_dotenv
-from openai import OpenAI
 import yaml
 import concurrent.futures
 
@@ -14,8 +15,8 @@ DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 MODEL_NAME = "deepseek-chat"
 INPUT_DIR = "original"
 MAX_THREADS = 10
+DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 
-client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 def create_translation_prompt(target_language, special=False):
     if target_language == 'ja':
@@ -51,24 +52,30 @@ def translate_text(text, target_language, special=False):
     print(f"  Translating text: {text[:50]}...")
     
     try:
-        response = client.chat.completions.create(
-            model=MODEL_NAME,
-            messages=[
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {DEEPSEEK_API_KEY}"
+        }
+        data = {
+            "model": MODEL_NAME,
+            "messages": [
                 {"role": "system", "content": create_translation_prompt(target_language, special)},
                 {"role": "user", "content": text}
             ],
-            stream=False
-        )
-        if not response or not response.choices or not response.choices[0].message.content:
-            print(f"  Error: Translation response is empty or invalid: {response}")
+            "stream": False
+        }
+        response = requests.post(DEEPSEEK_API_URL, headers=headers, json=data)
+        response.raise_for_status()
+        response_json = response.json()
+
+        if not response_json or not response_json.get('choices') or not response_json['choices'][0]['message']['content']:
+            print(f"  Error: Translation response is empty or invalid: {response_json}")
             return None
-        if response and response.choices:
-            translated_text = response.choices[0].message.content
-            return translated_text
-        else:
-            print(f"  Translation failed.")
-            return None
-    except Exception as e:
+        
+        translated_text = response_json['choices'][0]['message']['content']
+        return translated_text
+
+    except requests.exceptions.RequestException as e:
         print(f"  Translation failed with error: {e}")
         return None
 

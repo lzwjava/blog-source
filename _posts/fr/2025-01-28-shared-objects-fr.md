@@ -1,21 +1,22 @@
 ---
 audio: true
-lang: en
+lang: fr
 layout: post
-title: Shared Objects in Multiple Threads
+title: Objets Partagés dans Plusieurs Threads
+translated: true
 ---
 
-## Lesson
+## Leçon
 
-The code demonstrates a peculiar bug that appears inconsistently. Sometimes the bug occurs, and sometimes it does not, making it difficult to reproduce and debug.
+Le code démontre un bug particulier qui apparaît de manière inconsistente. Parfois, le bug se produit, et parfois non, ce qui le rend difficile à reproduire et à déboguer.
 
-This intermittent behavior stems from the way the `translate_markdown_file` function, particularly the `translate_front_matter` function, handles shared data. These functions might be accessing and modifying shared data structures, such as dictionaries or lists, without proper synchronization.
+Ce comportement intermittent découle de la manière dont la fonction `translate_markdown_file`, en particulier la fonction `translate_front_matter`, gère les données partagées. Ces fonctions pourraient accéder et modifier des structures de données partagées, comme des dictionnaires ou des listes, sans une synchronisation appropriée.
 
-When multiple threads access and modify the same data concurrently, it can lead to race conditions. Race conditions occur when the final state of the data depends on the unpredictable order in which threads execute. This can result in data corruption, unexpected program behavior, and the intermittent bugs you are observing.
+Lorsque plusieurs threads accèdent et modifient les mêmes données de manière concurrente, cela peut entraîner des conditions de course. Les conditions de course se produisent lorsque l'état final des données dépend de l'ordre imprévisible dans lequel les threads s'exécutent. Cela peut entraîner une corruption des données, un comportement inattendu du programme et les bugs intermittents que vous observez.
 
-To fix this, you should either avoid sharing mutable data between threads or use proper synchronization mechanisms, such as locks, to protect shared data. In this case, the `front_matter_dict` is being modified in place, which is not thread-safe. The fix is to create a copy of the dictionary before modifying it. This is already done in the code, but it's important to understand why it's necessary.
+Pour résoudre ce problème, vous devriez soit éviter de partager des données mutables entre les threads, soit utiliser des mécanismes de synchronisation appropriés, tels que des verrous, pour protéger les données partagées. Dans ce cas, le `front_matter_dict` est modifié en place, ce qui n'est pas thread-safe. La solution consiste à créer une copie du dictionnaire avant de le modifier. Cela est déjà fait dans le code, mais il est important de comprendre pourquoi c'est nécessaire.
 
-## Context
+## Contexte
 
 ```python
   with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
@@ -36,7 +37,7 @@ To fix this, you should either avoid sharing mutable data between threads or use
                 print(f"A thread failed: {e}")
 ```
 
-## Before
+## Avant
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
@@ -66,10 +67,10 @@ def translate_front_matter(front_matter, target_language, input_file):
                     print(f"  Title is not a string, skipping translation for: {input_file}")
             else:
                 print(f"  Skipping title translation for {input_file} to {target_language}")
-        # Always set lang to target_language
+        # Toujours définir lang sur target_language
         
-        # Determine if the file is a translation
-        original_lang = 'en' # Default to english
+        # Déterminer si le fichier est une traduction
+        original_lang = 'en' # Par défaut en anglais
         if 'lang' in front_matter_dict:
             original_lang = front_matter_dict['lang']
         
@@ -90,7 +91,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         return front_matter
 ```
 
-## After
+## Après
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
@@ -123,7 +124,7 @@ def translate_front_matter(front_matter, target_language, input_file):
                     print(f"  Title is not a string, skipping translation for: {input_file}")
             else:
                 print(f"  Skipping title translation for {input_file} to {target_language}")
-        # Always set lang to target_language
+        # Toujours définir lang sur target_language
  
         front_matter_dict_copy['lang'] = target_language        
         front_matter_dict_copy['translated'] = True
