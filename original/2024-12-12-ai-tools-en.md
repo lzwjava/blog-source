@@ -19,6 +19,9 @@ Here are some AI tools I’ve used, categorized for clarity:
 - [grok.com](https://grok.com/)
 - [chat.deepseek.com](https://chat.deepseek.com)
 - [perplexity.ai](https://perplexity.ai)
+- [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
+- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
+- [aistudio.google.com](https://aistudio.google.com)
 
 **China:**
 
@@ -56,3 +59,6 @@ Here are some AI tools I’ve used, categorized for clarity:
 - [huggingface.co](https://huggingface.co)
 - [kaggle.com](https://kaggle.com)
 - [aistudio.google.com](https://aistudio.google.com)
+- [databricks.com](https://www.databricks.com)
+- [ai.google.dev](https://ai.google.dev)
+
