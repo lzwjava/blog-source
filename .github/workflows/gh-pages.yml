@@ -38,43 +38,31 @@ jobs:
         run: |
           git diff --name-only HEAD~1 HEAD
 
-      - name: Dry Run Language Files
-        id: dry_run_lang
-        run: |
-          export DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}
-          DRY_RUN_OUTPUT=$(python scripts/update_lang.py --dry_run)
-          echo "$DRY_RUN_OUTPUT"
-
-          if [[ "$DRY_RUN_OUTPUT" == *'Total Markdown files to process: 0'* ]]; then
-            echo "lang_updated=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "lang_updated=true" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Update Language Files
-        if: steps.dry_run_lang.outputs.lang_updated == 'true'
-        run: |
-          export DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}
-          python scripts/update_lang.py
-
       - name: Clean Up Credentials
         run: |
           rm -f ./gha-creds-*.json
 
-      - name: Commit Language Files
+      - name: Update Language Files
         if: steps.dry_run_lang.outputs.lang_updated == 'true'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _posts/**/*.md
-          git diff --cached --quiet || git commit -m "chore(lang): Update language files"
-          
-          git push || {
-            echo "Push failed, attempting pull and merge"
-            git pull --rebase
-            git push
-          }
+          UPDATE_LANG_OUTPUT=$(python scripts/update_lang.py --max_files 1 --model mistral | grep "Total Markdown files to process:")
+          echo "$UPDATE_LANG_OUTPUT"
+          if [[ "$UPDATE_LANG_OUTPUT" == *'Total Markdown files to process: 0'* ]]; then
+            echo "No language files to update."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add _posts/**/*.md
+            git diff --cached --quiet || git commit -m "chore(lang): Update language files"
+            
+            git push || {
+              echo "Push failed, attempting pull and merge"
+              git pull --rebase
+              git push
+            }
+          fi
         env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Dry Run Pdf Files
@@ -138,11 +126,6 @@ jobs:
       - name: Install Pandoc
         if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
         run: sudo apt-get update && sudo apt-get install -y pandoc
-
-      - name: Clean Up Credentials
-        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
-        run: |
-          rm -f ./gha-creds-*.json          
 
       - name: Run Pdf-Pipeline.py
         if: steps.dry_run_pdf.outputs.pdf_updated == 'true'

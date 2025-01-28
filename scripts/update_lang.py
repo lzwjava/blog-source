@@ -283,13 +283,11 @@ def main():
 
     parser = argparse.ArgumentParser(description="Translate markdown files to a specified language.")
     parser.add_argument("--lang", type=str, default="all", help="Target language for translation (e.g., ja, es, all).")
-    parser.add_argument("--dry_run", action="store_true", help="Perform a dry run without modifying files.")
     parser.add_argument("--file", type=str, default=None, help="Specific file to translate.")
     parser.add_argument("--max_files", type=int, default=None, help="Maximum number of files to process.")
     parser.add_argument("--model", type=str, default="deepseek", help="Model to use for translation (deepseek or mistral).")
     args = parser.parse_args()
     target_language = args.lang
-    dry_run = args.dry_run
     input_file = args.file
     max_files = args.max_files
     model = args.model
@@ -308,9 +306,6 @@ def main():
             changed_files = changed_files[:max_files]
         total_files_to_process = len(changed_files)
     
-    if dry_run:
-        print(f"Total Markdown files to process: {total_files_to_process}")
-        return
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         futures = []
