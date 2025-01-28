@@ -22,10 +22,10 @@ El cálculo es el siguiente:
 
 Por lo tanto, dependiendo de la tarea, el uso de tokens depende en gran medida de la entrada (cache miss) y la salida.
 
-Este resultado coincide con el costo esperado.
+Este resultado se alinea con el costo esperado.
 
 [Precios de la API de DeepSeek](https://api-docs.deepseek.com/quick_start/pricing/)
 
 {: .centered }
-![](assets/images/deepseek/d.jpg){: .responsive }
-*Fuente: Captura propia*{: .caption }
+![](assets/images/deepseek/d.jpg)
+*Fuente: Captura de pantalla propia*{: .caption }
