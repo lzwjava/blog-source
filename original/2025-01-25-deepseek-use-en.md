@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: DeepSeek API Usage
+title: Api Usage Of Deepseek And Mistral
 ---
 
 ## DeepSeek
