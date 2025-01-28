@@ -61,7 +61,8 @@ def translate_text(text, target_language, special=False):
                 ],
                 stream=False
             )
-            print(response)
+            if not response or not response.choices or not response.choices[0].message.content:
+                print(f"  Error: Translation response is empty or invalid: {response}")
             if response and response.choices:
                 translated_text = response.choices[0].message.content
                 return translated_text
