@@ -7,6 +7,7 @@ translated: false
 ---
 
 
+
 - Use a dedicated bank account for P2P trading when buying cryptocurrency in China. This makes it easier to record videos or take screenshots, allowing merchants to verify the transaction history, as the transaction history is short.
 
 - Prefer bank transfers over WeChatPay or Alipay, as they are less regulated. If one bank account is not working for transfers to merchants, use another one.
@@ -31,4 +32,6 @@ translated: false
 
 - Them: Congrats! You made a lot of money on Bitcoin, right? Changpeng Zhao: No, not exactly. I still have the same number of Bitcoins. It's just that everything else has become a little cheaper relative to Bitcoin.
 
-- In regular investing, the key is to insist on investing for years, so there is no need to rush and attempt to invest more in any given week or month.
+- In regular investing, the key is to invest consistently over the years. Therefore, there is no need to rush and attempt to invest more in any given week or month, especially if the money is not from your savings but is borrowed, has a deadline, or has an associated cost. It can be difficult to maintain consistent investing over a year or a few years.
+
+- The P&L of your portfolio may be zero after regularly investing for months. So why not invest all at once at the start? The feeling is different. You have been riding up and down with these stocks. You gain resilience and patience, which is priceless.
