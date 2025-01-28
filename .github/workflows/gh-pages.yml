@@ -43,7 +43,6 @@ jobs:
           rm -f ./gha-creds-*.json
 
       - name: Update Language Files
-        if: steps.dry_run_lang.outputs.lang_updated == 'true'
         run: |
           DRY_RUN_LANG_OUTPUT=$(python scripts/update_lang.py --dry_run)
           TOTAL_POSTS=$(echo "$DRY_RUN_LANG_OUTPUT" | grep "Total Markdown files to process:" | awk '{print $NF}')
