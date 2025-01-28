@@ -36,9 +36,7 @@ This result aligns with the expected cost.
 
 ## Mistral
 
-Model: `mistral-large-2411`
-
-In one day, my Mistral account consumed the following tokens:
+In one day, my Mistral account usage was as follows (Model: `mistral-large-2411`):
 
 | Type   | Tokens  | Cost (USD) |
 |--------|---------|------------|
@@ -46,8 +44,10 @@ In one day, my Mistral account consumed the following tokens:
 | Output | 474,855 | 2.85       |
 | Input  | 297,429 | 0.59       |
 
+The pricing for Mistral models is as follows:
 
-The pricing for Mistral Large is as follows:
+| Model                 | Input (USD per million tokens) |  Output (USD per million tokens) |
+|-----------------------|------------------------------|---------------------------------|
+| `mistral-large-2411`  | 2                            | 6                               |
+| `mistral-small-latest`| 0.2                          | 0.6                             |
 
-*   Input: 2 USD per million tokens
-*   Output: 6 USD per million tokens
