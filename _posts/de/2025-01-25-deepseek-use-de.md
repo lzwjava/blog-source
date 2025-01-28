@@ -2,7 +2,7 @@
 audio: true
 lang: de
 layout: post
-title: DeepSeek-API-Nutzung
+title: DeepSeek API Nutzung
 translated: true
 ---
 
@@ -12,17 +12,17 @@ In einem Monat kosteten mich 15 Millionen Tokens etwa 23,5 CNY.
 
 Das war mein Verbrauch an einem Tag:
 
-| Typ              | Tokens    |
-|-------------------|-----------|
-| Eingabe (Cache-Treffer)  | 946,816   |
-| Eingabe (Cache-Fehler) | 2,753,752 |
-| Ausgabe            | 3,100,977 |
+| Type               | Tokens    |
+|--------------------|-----------|
+| Input (Cache Hit)  | 946,816   |
+| Input (Cache Miss) | 2,753,752 |
+| Output            | 3,100,977 |
 
-Die Berechnung lautet wie folgt:
+Die Berechnung erfolgt wie folgt:
 
-0,94 * 0,1 + 2,75 * 1 + 3,10 * 2 = 11,83
+0.94 * 0.1 + 2.75 * 1 + 3.10 * 2 = 11.83
 
-Daher hängt der Tokenverbrauch je nach Aufgabe stark von der Eingabe (Cache-Fehler) und der Ausgabe ab.
+Daher hängt der Tokenverbrauch je nach Aufgabe hauptsächlich von der Eingabe (Cache Miss) und der Ausgabe ab.
 
 Dieses Ergebnis stimmt mit den erwarteten Kosten überein.
 
@@ -30,21 +30,21 @@ Dieses Ergebnis stimmt mit den erwarteten Kosten überein.
 
 {: .centered }
 ![](assets/images/deepseek/d.jpg)
-*Quelle: Eigener Screenshot*{: .caption }
+*Quelle: Self-Screenshot*{: .caption }
 
 ## Mistral
 
-Modell: `mistral-large-2411`
+Der Verbrauch meines Mistral-Kontos an einem Tag war wie folgt (Modell: `mistral-large-2411`):
 
-An einem Tag verbrauchte mein Mistral-Konto folgende Tokens:
+| Type   | Tokens  | Kosten (USD) |
+|--------|---------|--------------|
+| Total  | 772,284 | 3.44         |
+| Output | 474,855 | 2.85         |
+| Input  | 297,429 | 0.59         |
 
-| Typ   | Tokens  | Kosten (USD) |
-|--------|---------|------------|
-| Gesamt  | 772,284 | 3,44       |
-| Ausgabe | 474,855 | 2,85       |
-| Eingabe | 297,429 | 0,59       |
+Die Preisgestaltung für Mistral-Modelle ist wie folgt:
 
-Die Preisgestaltung für Mistral Large ist wie folgt:
-
-*   Eingabe: 2 USD pro Million Tokens
-*   Ausgabe: 6 USD pro Million Tokens
+| Model                | Input (USD pro Million Tokens) |  Output (USD pro Million Tokens) |
+|----------------------|------------------------------|---------------------------------|
+| `mistral-large-2411` | 2                            | 6                               |
+| `mistral-small-latest`| 0.2                          | 0.6                             |
