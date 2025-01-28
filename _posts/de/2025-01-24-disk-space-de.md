@@ -2,17 +2,17 @@
 audio: true
 lang: de
 layout: post
-title: Bereinigen Sie den Speicherplatz
+title: Laufwerkspeicherplatz bereinigen
 translated: true
 ---
 
 ## Einstellungen
 
-Verwenden Sie den Pfad Einstellungen -> Allgemein -> Speicher -> Speichereinstellungen, um herauszufinden, wie der Speicherplatz belegt ist, und um unnötige Dateien zu löschen.
+Verwenden Sie den Pfad Einstellungen -> Allgemein -> Speicher -> Speichereinstellungen, um herauszufinden, wie der Festplattenspeicher belegt ist und unnötige Dateien zu löschen.
 
-## du
+## Große Dateien finden
 
-Verwenden Sie `du`, um große Dateien zu finden. Zum Beispiel verwenden Sie den Befehl `du -hL -d 1 | sort -h`.
+Verwenden Sie `du`, um große Dateien zu finden. Verwenden Sie beispielsweise den Befehl `du -hL -d 1 | sort -h`.
 
 ## Anwendungen löschen
 
@@ -20,11 +20,11 @@ Löschen Sie Anwendungen im Anwendungsverzeichnis.
 
 ## Downloads
 
-Entfernen Sie heruntergeladene DMG-Dateien, die leicht aus dem Internet heruntergeladen werden können.
+Entfernen Sie heruntergeladene Paket-DMG-Dateien, die leicht aus dem Internet heruntergeladen werden können.
 
-## Externe Festplatte
+## Tragbare Festplatte
 
-Kaufen Sie eine externe Festplatte und verschieben Sie einige Dateien dorthin.
+Kaufen Sie eine tragbare Festplatte und verschieben Sie einige Dateien dorthin.
 
 ## iPhone
 
