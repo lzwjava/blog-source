@@ -22,26 +22,27 @@ DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 
 def create_translation_prompt(target_language, special=False):
+    base_prompt = "You are translating a markdown file for a Jekyll blog post. Be careful about code blocks. Translate to {target_language}. Just give translated post.\n\n"
     if target_language == 'ja':
-        return "Translate to Japanese. Just give translated text.\n\n"
+        return base_prompt.format(target_language="Japanese")
     elif target_language == 'es':
-        return "Translate to Spanish. Just give translated text.\n\n"
+        return base_prompt.format(target_language="Spanish")
     elif target_language == 'hi':
-        return "Translate to Hindi. Just give translated text.\n\n"
+        return base_prompt.format(target_language="Hindi")
     elif target_language == 'fr':
-        return "Translate to French. Just give translated text.\n\n"
+        return base_prompt.format(target_language="French")
     elif target_language == "zh":
-        return f"""Translate to Chinese. Just give translated text.\n\n"""
+        return base_prompt.format(target_language="Chinese")
     elif target_language == 'hant':
-        return "Translate to Traditional Chinese (Hong Kong). Just give translated text.\n\n"
+        return base_prompt.format(target_language="Traditional Chinese (Hong Kong)")
     elif target_language == 'en':
-        return "Translate to English. Just give translated text.\n\n"
+        return base_prompt.format(target_language="English")
     elif target_language == 'de':
-        return "Translate to German. Just give translated text.\n\n"
+        return base_prompt.format(target_language="German")
     elif target_language == 'ar':
-        return "Translate to Arabic. Just give translated text.\n\n"
+        return base_prompt.format(target_language="Arabic")
     else:
-        return f"Translate to {target_language}. Just give translated text.\n\n"
+        return base_prompt.format(target_language=target_language)
 
 def call_mistral_api(prompt):
     api_key = MISTRAL_API_KEY
