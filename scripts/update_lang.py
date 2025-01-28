@@ -22,27 +22,30 @@ DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 
 def create_translation_prompt(target_language, special=False):
+<<<<<<< HEAD
     base_prompt = "Translate below markdown text to {target_language}. Just give translated markdown.\n"
+=======
+>>>>>>> parent of 7233b984 (chore(lang): Update language files)
     if target_language == 'ja':
-        return base_prompt.format(target_language="Japanese")
+        return "Translate to Japanese. Just give translated text.\n\n"
     elif target_language == 'es':
-        return base_prompt.format(target_language="Spanish")
+        return "Translate to Spanish. Just give translated text.\n\n"
     elif target_language == 'hi':
-        return base_prompt.format(target_language="Hindi")
+        return "Translate to Hindi. Just give translated text.\n\n"
     elif target_language == 'fr':
-        return base_prompt.format(target_language="French")
+        return "Translate to French. Just give translated text.\n\n"
     elif target_language == "zh":
-        return base_prompt.format(target_language="Chinese")
+        return f"""Translate to Chinese. Just give translated text.\n\n"""
     elif target_language == 'hant':
-        return base_prompt.format(target_language="Traditional Chinese (Hong Kong)")
+        return "Translate to Traditional Chinese (Hong Kong). Just give translated text.\n\n"
     elif target_language == 'en':
-        return base_prompt.format(target_language="English")
+        return "Translate to English. Just give translated text.\n\n"
     elif target_language == 'de':
-        return base_prompt.format(target_language="German")
+        return "Translate to German. Just give translated text.\n\n"
     elif target_language == 'ar':
-        return base_prompt.format(target_language="Arabic")
+        return "Translate to Arabic. Just give translated text.\n\n"
     else:
-        return base_prompt.format(target_language=target_language)
+        return f"Translate to {target_language}. Just give translated text.\n\n"
 
 def call_mistral_api(prompt):
     api_key = MISTRAL_API_KEY
@@ -72,6 +75,14 @@ def call_mistral_api(prompt):
         response_json = response.json()
         print(f"Mistral API Response: {response_json}")
 
+        if response_json and response_json.get('usage'):
+            prompt_tokens = response_json['usage'].get('prompt_tokens', 0)
+            completion_tokens = response_json['usage'].get('completion_tokens', 0)
+            total_tokens = response_json['usage'].get('total_tokens', 0)
+            print(f"Mistral API Usage: prompt_tokens={prompt_tokens}, completion_tokens={completion_tokens}, total_tokens={total_tokens}")
+            if completion_tokens > prompt_tokens * 2:
+                raise Exception(f"Mistral API Error: Completion tokens ({completion_tokens}) exceeds twice the prompt tokens ({prompt_tokens}).")
+            
         if response_json and response_json['choices']:
             content = response_json['choices'][0]['message']['content']
             content = content.replace("```", "").strip()
