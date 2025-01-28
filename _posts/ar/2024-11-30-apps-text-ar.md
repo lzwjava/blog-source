@@ -1,14 +1,14 @@
 ---
 lang: ar
 layout: post
-title: تطبيقات iOS التي استخدمتها - النسخة النصية
+title: التطبيقات التي استخدمتها على iOS - النسخة النصية
 top: 10
 translated: true
 translation: false
 ---
 
 \#:
-- 500px
+- 500 بكسل
 
 A:
 - Adobe Scan
@@ -18,7 +18,7 @@ A:
 - AirMacau
 - Airbnb
 - Alaska
-- Al Jazeera
+- الجزيرة
 - Alibaba Cloud
 - Alibaba.com
 - Alipay
@@ -39,40 +39,40 @@ A:
 - AWS Events
 - 爱康
 
-ب:
-- التوازن (Balance)
-- بي بي سي (BBC)
-- بنكيو (Benkyō)
-- بيست باي (Best Buy)
-- بيترمي (BetterMe)
-- الكتاب المقدس (Bible)
-- بيجو لايف (BIGO LIVE)
-- بينغ (Bing)
-- بينانس (Binance)
-- بلينكيست (Blinkist)
-- بلومبرغ (Bloomberg)
-- بلو سكاي (Bluesky)
-- بنك أوف أمريكا (BofA)
-- بوكينج.كوم (Booking.com)
-- بوز (Bose)
-- الخطوط الجوية البريطانية (British Airways)
-- المتصفح (Browser)
-- بونبو (Bunpo)
-- باص أوت (Bus Out)
-- أوقات الباص (Bus Times)
-- بازفيد (BuzzFeed)
-- بوس مباشر (BOSS直聘)
-- بايدو وان بان (百度网盘)
+B:
+- Balance
+- BBC
+- Benkyō
+- Best Buy
+- BetterMe
+- Bible
+- BIGO LIVE
+- Bing
+- Binance
+- Blinkist
+- Bloomberg
+- Bluesky
+- BofA
+- Booking.com
+- Bose
+- British Airways
+- Browser
+- Bunpo
+- Bus Out
+- Bus Times
+- BuzzFeed
+- BOSS直聘
+- 百度网盘
 
 C:
-- هادئ
+- Calm
 - Canva
 - CapCut
 - Careem
 - Cash App
 - Centaline
 - ChargeSPOT
-- دردشة
+- Chat
 - ChatGPT
 - Chevron
 - Chime
@@ -82,9 +82,9 @@ C:
 - Citymapper
 - ClassDojo
 - Claude
-- بوابة العميل
+- Client Portal
 - Clubhouse
-- اختبار الكود
+- Code Quiz
 - Code-A-Day
 - Codecademy Go
 - Coinbase
@@ -96,12 +96,12 @@ C:
 - Coursera
 - Credit Karma
 - craigslist
-- العملة
+- Currency
 - CVS
 - 财新
 - 菜鸟
 
-د:
+D:
 - Darkroom
 - das Image
 - Dasher
@@ -168,46 +168,46 @@ F:
 - Friday AI
 
 G:
-- غاانا
-- غوث
-- جيميني
-- جيني
-- غينشين إمباكت
-- جيت هاب
-- جلاسدور
-- جيميل
-- غوهان
-- غوجيك
-- جوجل
-- تقويم جوجل
-- دردشة جوجل
-- جوجل كلاس روم
-- جوجل كلاود
-- جوجل درايف
-- جوجل إيرث
-- جوجل هوم
-- جوجل كيب
-- خرائط جوجل
-- جوجل ميت
-- أخبار جوجل
-- جوجل ون
-- صور جوجل
-- جداول جوجل
-- شرائح جوجل
-- ترجمة جوجل
-- صوت جوجل
-- جود آر إكس
-- جود ريدز
-- غو وِش
-- غراب
-- غرامرلي
-- غرابهب
-- جيم شارك
-- غوازي إيرشو (Guazi Ershou)
-- غاودي ديتو (Gaode Map)
+- Gaana
+- Gauth
+- Gemini
+- Genie
+- Genshin Impact
+- GitHub
+- Glassdoor
+- Gmail
+- Gohan
+- Gojek
+- Google
+- Google Calendar
+- Google Chat
+- Google Classroom
+- Google Cloud
+- Google Drive
+- Google Earth
+- Google Home
+- Google Keep
+- Google Maps
+- Google Meet
+- Google News
+- Google One
+- Google Photos
+- Google Sheets
+- Google Slides
+- Google Translate
+- Google Voice
+- GoodRx
+- Goodreads
+- GoWish
+- Grab
+- Grammarly
+- Grubhub
+- Gymshark
+- 瓜子二手车
+- 高德地图
 
 H:
-- العادة
+- Habit
 - Healow
 - Headspace
 - Hinge
@@ -218,50 +218,50 @@ H:
 - HP Smart
 - Hulu
 - HUAWEI AI Life
-- 华住会 (Huazhu Club)
+- 华住会
 
-أنا:
+I:
 - IELTS
-- IKEA (إيكيا)
+- IKEA宜家家居
 - iHeart
 - IHG
-- Image Size (حجم الصورة)
+- Image Size
 - Imgur
-- Indeed Jobs (وظائف Indeed)
+- Indeed Jobs
 - Instagram
 - Instacart
 - Instapaper
 - iSH
 
-ج:
+J:
 - Japan Airlines
 - JapanTransit
-- اليابانية
-- جايسون
+- Japanese
+- Jayson
 - JD
 - JetBlue
 - Jisho
 - JobsDB
 - Jyutping
 
-ك:
-- كانجي!
-- كاوموجي
-- كيتا
+K:
+- Kanji!
+- Kaomoji
+- Keeta
 - KFC
-- أكاديمية خان
-- كيمي مساعد الذكاء الاصطناعي
-- كيندل
-- كلوك
-- كونو
+- Khan Academy
+- Kimi 智能助手
+- Kindle
+- Klook
+- Kono
 
 L:
-- التخطيط
+- Layout
 - Lazada
-- تعلم اليابانية
-- تعلم الجافا
+- Learn Japanese
+- Learn Java
 - LearnJava
-- التعلم
+- Learning
 - Lemon8
 - Life360
 - Lightroom
@@ -275,17 +275,17 @@ L:
 - Lose It!
 - lululemon
 - Lyft
-- 领英职场 (LinkedIn Jobs)
+- 领英职场
 
-م:
-- مانغا
+M:
+- Manga
 - MARIO RUN
 - Mastodon
 - MasterClass
 - Max
 - Mazii
-- ماكدونالدز
-- ماكدونالدز اليابان
+- McDonald's
+- McDonald's JP
 - Medium
 - Meet
 - Memrise
@@ -304,15 +304,15 @@ L:
 - MyChart
 - MyDyson
 - MyNetDiary
-- 马蜂窝 (Mafengwo)
-- 美团 (Meituan)
-- 美团外卖 (Meituan Waimai)
+- 马蜂窝
+- 美团
+- 美团外卖
 
 N:
 - NBC
 - Netflix
 - NewsBreak
-- تطبيق NHS
+- NHS App
 - Night Sky
 - Nike
 - Nintendo Music
@@ -326,10 +326,10 @@ N:
 - 南网在线
 
 O:
-- Octal (ثماني)
-- OCBC (OCBC)
-- OneDrive (OneDrive)
-- Outlook (Outlook)
+- Octal
+- OCBC
+- OneDrive
+- Outlook
 
 P:
 - Pandora
@@ -357,7 +357,7 @@ P:
 - Proxyman
 - PS Express
 
-س:
+Q:
 - Quizlet
 - Quora
 - QQ
@@ -412,46 +412,46 @@ S:
 - 水滴保
 
 T:
-- طلبات (Talabat)
-- تارجت (Target)
-- تيمز (Teams)
-- تيد (Ted)
-- تيليجرام (Telegram)
-- تيمو (Temu)
-- تيرميوس (Termius)
-- تسلا (Tesla)
-- تست فلايت (TestFlight)
-- الجارديان (The Guardian)
-- الهندو (The Hindu)
-- التايمز (The Times)
-- ثريدز (Threads)
-- تايل (Tile)
-- تايجر تريد (Tiger Trade)
-- تيك توك (TikTok)
-- تيك توك ستوديو (TikTok Studio)
-- تايم ماغازين (Time Magazine)
-- تيندر (Tinder)
-- توداي (TODAY)
-- تونغي (Tongyi)
-- تو جود تو جو (TooGoodToGo)
-- ترانزيت (Transit)
-- تريب إت (TripIt)
-- تريب سكاوت (Tripscout)
-- تريب.كوم (Trip.com)
-- تيوبي (Tubi)
-- تمبلر (Tumblr)
-- تورو (Turo)
-- تويتش (Twitch)
-- 太平洋保险 (Pacific Insurance)
-- 天猫 (Tmall)
+- Talabat
+- Target
+- Teams
+- Ted
+- Telegram
+- Temu
+- Termius
+- Tesla
+- TestFlight
+- The Guardian
+- The Hindu
+- The Times
+- Threads
+- Tile
+- Tiger Trade
+- TikTok
+- TikTok Studio
+- Time Magazine
+- Tinder
+- TODAY
+- Tongyi
+- TooGoodToGo
+- Transit
+- TripIt
+- Tripscout
+- Trip.com
+- Tubi
+- Tumblr
+- Turo
+- Twitch
+- 太平洋保险
+- 天猫
 
 U:
-- أوبر (Uber)
-- أوبر إيتس (Uber Eats)
-- يوديمي (Udemy)
-- يو إتش سي (UHC)
-- يونايتد (United)
-- يو-هول (U-Haul)
+- Uber
+- Uber Eats
+- Udemy
+- UHC
+- United
+- U-Haul
 
 V:
 - Video Lite
@@ -460,8 +460,6 @@ V:
 - VLC
 - Voice
 - Vrbo
-
-(ملاحظة: الأسماء المذكورة هي أسماء تطبيقات أو خدمات، لذا لم يتم ترجمتها.)
 
 W:
 - Walgreens
@@ -502,8 +500,8 @@ Z:
 - Zillow
 - Zillow Rentals
 - Zoom
-- 知乎 (Zhihu)
-- 招商银行 (China Merchants Bank)
-- 中国电信 (China Telecom)
-- 中国建设银行 (China Construction Bank)
-- 中山三院·用户版 (Zhongshan Third Hospital - User Edition)
+- 知乎
+- 招商银行
+- 中国电信
+- 中国建设银行
+- 中山三院·用户版

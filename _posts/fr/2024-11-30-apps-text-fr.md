@@ -39,7 +39,7 @@ A:
 - AWS Events
 - 爱康
 
-B :
+B:
 - Balance
 - BBC
 - Benkyō
@@ -64,8 +64,8 @@ B :
 - BOSS直聘
 - 百度网盘
 
-C :
-- Calme
+C:
+- Calm
 - Canva
 - CapCut
 - Careem
@@ -98,10 +98,10 @@ C :
 - craigslist
 - Currency
 - CVS
-- 财新 (Caixin)
-- 菜鸟 (Cainiao)
+- 财新
+- 菜鸟
 
-D :
+D:
 - Darkroom
 - das Image
 - Dasher
@@ -128,9 +128,9 @@ D :
 - Dupay
 - DuckDuckGo
 - Dunkin'
-- Dangdang (当当)
+- 当当
 
-E :
+E:
 - Easy Korean
 - eBay
 - Economist
@@ -147,7 +147,7 @@ E :
 - Expedia
 - Explain Every...
 
-F :
+F:
 - Facebook
 - FarOut
 - FGTS
@@ -167,7 +167,7 @@ F :
 - FT中文网
 - Friday AI
 
-G :
+G:
 - Gaana
 - Gauth
 - Gemini
@@ -179,7 +179,7 @@ G :
 - Gohan
 - Gojek
 - Google
-- Google Agenda
+- Google Calendar
 - Google Chat
 - Google Classroom
 - Google Cloud
@@ -189,12 +189,12 @@ G :
 - Google Keep
 - Google Maps
 - Google Meet
-- Google Actualités
+- Google News
 - Google One
 - Google Photos
 - Google Sheets
 - Google Slides
-- Google Traduction
+- Google Translate
 - Google Voice
 - GoodRx
 - Goodreads
@@ -203,10 +203,10 @@ G :
 - Grammarly
 - Grubhub
 - Gymshark
-- 瓜子二手车 (Guazi Ershouche)
-- 高德地图 (Gaode Map)
+- 瓜子二手车
+- 高德地图
 
-H :
+H:
 - Habit
 - Healow
 - Headspace
@@ -218,11 +218,11 @@ H :
 - HP Smart
 - Hulu
 - HUAWEI AI Life
-- 华住会 (Huazhu Club)
+- 华住会
 
-Je :
+I:
 - IELTS
-- IKEA 宜家家居
+- IKEA宜家家居
 - iHeart
 - IHG
 - Image Size
@@ -233,10 +233,10 @@ Je :
 - Instapaper
 - iSH
 
-J :
+J:
 - Japan Airlines
 - JapanTransit
-- Japonais
+- Japanese
 - Jayson
 - JD
 - JetBlue
@@ -245,7 +245,7 @@ J :
 - Jyutping
 
 K:
-- Kanji !
+- Kanji!
 - Kaomoji
 - Keeta
 - KFC
@@ -255,13 +255,13 @@ K:
 - Klook
 - Kono
 
-L :
+L:
 - Layout
 - Lazada
-- Apprendre le japonais
-- Apprendre Java
+- Learn Japanese
+- Learn Java
 - LearnJava
-- Apprentissage
+- Learning
 - Lemon8
 - Life360
 - Lightroom
@@ -275,7 +275,7 @@ L :
 - Lose It!
 - lululemon
 - Lyft
-- 领英职场 (LinkedIn en Chine)
+- 领英职场
 
 M:
 - Manga
@@ -304,11 +304,11 @@ M:
 - MyChart
 - MyDyson
 - MyNetDiary
-- 马蜂窝 (Mafengwo)
-- 美团 (Meituan)
-- 美团外卖 (Meituan Waimai)
+- 马蜂窝
+- 美团
+- 美团外卖
 
-N :
+N:
 - NBC
 - Netflix
 - NewsBreak
@@ -325,7 +325,7 @@ N :
 - NYTimes
 - 南网在线
 
-O :
+O:
 - Octal
 - OCBC
 - OneDrive
@@ -363,7 +363,7 @@ Q:
 - QQ
 - QQ Mail
 
-R :
+R:
 - RareJob
 - Reddit
 - Reelshort
@@ -375,7 +375,7 @@ R :
 - Rome2Rio
 - Roku
 
-S :
+S:
 - Sam's Club
 - Shazam
 - SHEIN
@@ -384,7 +384,7 @@ S :
 - Shopping
 - Showmax
 - Signal
-- Singapour
+- Singapore
 - SingaporeAir
 - Sky Guide
 - Sky News
@@ -407,11 +407,11 @@ S :
 - Surge
 - SUUMO
 - SUBWAY®
-- 神州租车 (Location de voitures Shenzhou)
-- 搜狗输入法 (Méthode d'entrée Sogou)
-- 水滴保 (Assurance Shuidi)
+- 神州租车
+- 搜狗输入法
+- 水滴保
 
-T :
+T:
 - Talabat
 - Target
 - Teams
@@ -442,10 +442,10 @@ T :
 - Tumblr
 - Turo
 - Twitch
-- 太平洋保险 (Assurance Pacifique)
-- 天猫 (Tmall)
+- 太平洋保险
+- 天猫
 
-U :
+U:
 - Uber
 - Uber Eats
 - Udemy
@@ -453,7 +453,7 @@ U :
 - United
 - U-Haul
 
-V :
+V:
 - Video Lite
 - Viator
 - VK
@@ -461,7 +461,7 @@ V :
 - Voice
 - Vrbo
 
-W :
+W:
 - Walgreens
 - Walmart
 - Wash Post
@@ -475,14 +475,14 @@ W :
 - Wordtune
 - 无线新闻
 
-X :
+X:
 - X
 - Xbox
 - 小红书
 - 携程旅行
 - 小米商城
 
-Y :
+Y:
 - Yahoo Mail
 - Yahoo News
 - Yelp
@@ -495,13 +495,13 @@ Y :
 - Yuka
 - 易车汽车报价
 
-Z :
+Z:
 - Zelle
 - Zillow
 - Zillow Rentals
 - Zoom
 - 知乎
-- Banque China Merchants
-- China Telecom
-- Banque de Construction de Chine
-- Hôpital Zhongshan Troisième · Version utilisateur
+- 招商银行
+- 中国电信
+- 中国建设银行
+- 中山三院·用户版

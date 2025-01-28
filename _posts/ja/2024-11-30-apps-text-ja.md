@@ -1,7 +1,7 @@
 ---
 lang: ja
 layout: post
-title: 私が使用しているiOSアプリ - テキスト版
+title: iOSアプリを使った - テキスト版
 top: 10
 translated: true
 translation: false
@@ -15,48 +15,48 @@ A:
 - Affirm
 - Agoda
 - Air Matters
-- エアマカオ
+- AirMacau
 - Airbnb
-- アラスカ
-- アルジャジーラ
-- アリババクラウド
+- Alaska
+- Al Jazeera
+- Alibaba Cloud
 - Alibaba.com
-- アリペイ
+- Alipay
 - AllTrails
-- アマゾン
+- Amazon
 - Amazon Alexa
 - Amazon Music
-- アメリカン
-- AMCシアターズ
+- American
+- AMC Theatres
 - Amtrak
-- アナリティクス
+- Analytics
 - APPatient
 - Apple Store
-- アセンブリ
-- アシスタント
+- Assembly
+- Assistant
 - Ate
-- 認証システム
-- AWSイベント
-- 愛康
+- Authenticator
+- AWS Events
+- 爱康
 
 B:
-- バランス
+- Balance
 - BBC
-- 勉強（Benkyō）
+- Benkyō
 - Best Buy
 - BetterMe
-- 聖書（Bible）
+- Bible
 - BIGO LIVE
 - Bing
 - Binance
 - Blinkist
 - Bloomberg
 - Bluesky
-- BofA（Bank of America）
+- BofA
 - Booking.com
 - Bose
 - British Airways
-- ブラウザ（Browser）
+- Browser
 - Bunpo
 - Bus Out
 - Bus Times
@@ -65,41 +65,41 @@ B:
 - 百度网盘
 
 C:
-- カーム (Calm)
-- キャンバ (Canva)
-- キャプカット (CapCut)
-- カリーム (Careem)
-- キャッシュアプリ (Cash App)
-- セントラライン (Centaline)
-- チャージスポット (ChargeSPOT)
-- チャット (Chat)
-- チャットGPT (ChatGPT)
-- シェブロン (Chevron)
-- チャイム (Chime)
-- クローム (Chrome)
-- CHSI (CHSI)
-- シチズン (Citizen)
-- シティマッパー (Citymapper)
-- クラスドージョ (ClassDojo)
-- クロード (Claude)
-- クライアントポータル (Client Portal)
-- クラブハウス (Clubhouse)
-- コードクイズ (Code Quiz)
-- コード・ア・デイ (Code-A-Day)
-- コードキャデミーゴー (Codecademy Go)
-- コインベース (Coinbase)
-- コインマーケットキャップ (CoinMarketCap)
-- コバン (Coban)
-- クックパッド (Cookpad)
-- コパイロット (Copilot)
-- コストコ (Costco)
-- コーセラ (Coursera)
-- クレジットカルマ (Credit Karma)
-- クレイグリスト (craigslist)
-- カレンシー (Currency)
-- CVS (CVS)
-- 財新 (財新)
-- 菜鳥 (菜鳥)
+- Calm
+- Canva
+- CapCut
+- Careem
+- Cash App
+- Centaline
+- ChargeSPOT
+- Chat
+- ChatGPT
+- Chevron
+- Chime
+- Chrome
+- CHSI
+- Citizen
+- Citymapper
+- ClassDojo
+- Claude
+- Client Portal
+- Clubhouse
+- Code Quiz
+- Code-A-Day
+- Codecademy Go
+- Coinbase
+- CoinMarketCap
+- Coban
+- Cookpad
+- Copilot
+- Costco
+- Coursera
+- Credit Karma
+- craigslist
+- Currency
+- CVS
+- 财新
+- 菜鸟
 
 D:
 - Darkroom
@@ -138,7 +138,7 @@ E:
 - Edge
 - Emirates NBD
 - Encode
-- ENEOSカード
+- ENEOSCARD
 - Enterprise
 - ESPN
 - Evernote
@@ -172,29 +172,29 @@ G:
 - Gauth
 - Gemini
 - Genie
-- 原神（Genshin Impact）
+- Genshin Impact
 - GitHub
 - Glassdoor
 - Gmail
 - Gohan
 - Gojek
 - Google
-- Google カレンダー
+- Google Calendar
 - Google Chat
 - Google Classroom
 - Google Cloud
-- Google ドライブ
+- Google Drive
 - Google Earth
 - Google Home
 - Google Keep
-- Google マップ
+- Google Maps
 - Google Meet
-- Google ニュース
+- Google News
 - Google One
-- Google フォト
-- Google スプレッドシート
-- Google スライド
-- Google 翻訳
+- Google Photos
+- Google Sheets
+- Google Slides
+- Google Translate
 - Google Voice
 - GoodRx
 - Goodreads
@@ -207,7 +207,7 @@ G:
 - 高德地图
 
 H:
-- 習慣 (Habit)
+- Habit
 - Healow
 - Headspace
 - Hinge
@@ -218,11 +218,11 @@ H:
 - HP Smart
 - Hulu
 - HUAWEI AI Life
-- 华住会 (Huazhu Hui)
+- 华住会
 
 I:
 - IELTS
-- IKEA（イケア）
+- IKEA宜家家居
 - iHeart
 - IHG
 - Image Size
@@ -234,19 +234,19 @@ I:
 - iSH
 
 J:
-- 日本航空 (Japan Airlines)
-- 日本交通 (JapanTransit)
-- 日本語 (Japanese)
-- ジェイソン (Jayson)
+- Japan Airlines
+- JapanTransit
+- Japanese
+- Jayson
 - JD
-- ジェットブルー (JetBlue)
-- 辞書 (Jisho)
-- ジョブズDB (JobsDB)
-- 粤拼 (Jyutping)
+- JetBlue
+- Jisho
+- JobsDB
+- Jyutping
 
 K:
-- 漢字！
-- 顔文字
+- Kanji!
+- Kaomoji
 - Keeta
 - KFC
 - Khan Academy
@@ -256,12 +256,12 @@ K:
 - Kono
 
 L:
-- レイアウト
+- Layout
 - Lazada
-- 日本語を学ぶ
-- Javaを学ぶ
+- Learn Japanese
+- Learn Java
 - LearnJava
-- 学習
+- Learning
 - Lemon8
 - Life360
 - Lightroom
@@ -278,7 +278,7 @@ L:
 - 领英职场
 
 M:
-- マンガ
+- Manga
 - MARIO RUN
 - Mastodon
 - MasterClass
@@ -304,20 +304,20 @@ M:
 - MyChart
 - MyDyson
 - MyNetDiary
-- 馬蜂窩（マーフォンワォ）
-- 美団（メイトゥアン）
-- 美団外卖（メイトゥアン・ワイマイ）
+- 马蜂窝
+- 美团
+- 美团外卖
 
 N:
 - NBC
 - Netflix
 - NewsBreak
-- NHSアプリ
+- NHS App
 - Night Sky
 - Nike
 - Nintendo Music
 - Nintendo Switch Online
-- 日本語
+- Nihongo
 - noon
 - Notion
 - Noticias
@@ -326,10 +326,10 @@ N:
 - 南网在线
 
 O:
-- 8進数 (Octal)
-- OCBC (シンガポールの銀行)
-- OneDrive (マイクロソフトのクラウドストレージサービス)
-- Outlook (マイクロソフトのメールクライアント)
+- Octal
+- OCBC
+- OneDrive
+- Outlook
 
 P:
 - Pandora
@@ -361,7 +361,7 @@ Q:
 - Quizlet
 - Quora
 - QQ
-- QQメール
+- QQ Mail
 
 R:
 - RareJob
@@ -375,8 +375,6 @@ R:
 - Rome2Rio
 - Roku
 
-（注：これらの項目は固有名詞やサービス名のため、翻訳せずにそのまま記載しています。）
-
 S:
 - Sam's Club
 - Shazam
@@ -386,8 +384,8 @@ S:
 - Shopping
 - Showmax
 - Signal
-- シンガポール
-- シンガポール航空
+- Singapore
+- SingaporeAir
 - Sky Guide
 - Sky News
 - Skratch
@@ -398,20 +396,20 @@ S:
 - Snapseed
 - Sololearn
 - SoundCloud
-- サウスウエスト航空
+- Southwest
 - Speechify
 - Spotify
 - Steam
 - Sticker.ly
 - StitchPics
 - StitchShot
-- サポート
+- Support
 - Surge
 - SUUMO
 - SUBWAY®
-- 神州租車
-- 搜狗入力法
-- 水滴保険
+- 神州租车
+- 搜狗输入法
+- 水滴保
 
 T:
 - Talabat
@@ -485,17 +483,17 @@ X:
 - 小米商城
 
 Y:
-- Yahooメール
-- Yahooニュース
+- Yahoo Mail
+- Yahoo News
 - Yelp
 - Yomiwa
 - YouTube
-- YouTubeミュージック
+- YouTube Music
 - YouTube TV
-- YTキッズ
-- YTスタジオ
+- YT Kids
+- YT Studio
 - Yuka
-- 易車自動車価格
+- 易车汽车报价
 
 Z:
 - Zelle
@@ -503,7 +501,7 @@ Z:
 - Zillow Rentals
 - Zoom
 - 知乎
-- 招商銀行
-- 中国電信
-- 中国建設銀行
-- 中山三院・ユーザー版
+- 招商银行
+- 中国电信
+- 中国建设银行
+- 中山三院·用户版

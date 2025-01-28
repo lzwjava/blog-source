@@ -45,7 +45,7 @@ B:
 - Benkyō
 - Best Buy
 - BetterMe
-- Biblia
+- Bible
 - BIGO LIVE
 - Bing
 - Binance
@@ -56,16 +56,16 @@ B:
 - Booking.com
 - Bose
 - British Airways
-- Navegador
+- Browser
 - Bunpo
 - Bus Out
 - Bus Times
 - BuzzFeed
 - BOSS直聘
-- 百度网盘 (Baidu Wangpan)
+- 百度网盘
 
 C:
-- Calma
+- Calm
 - Canva
 - CapCut
 - Careem
@@ -82,10 +82,10 @@ C:
 - Citymapper
 - ClassDojo
 - Claude
-- Portal del Cliente
+- Client Portal
 - Clubhouse
-- Cuestionario de Código
-- Código del Día
+- Code Quiz
+- Code-A-Day
 - Codecademy Go
 - Coinbase
 - CoinMarketCap
@@ -96,10 +96,10 @@ C:
 - Coursera
 - Credit Karma
 - craigslist
-- Moneda
+- Currency
 - CVS
-- 财新 (Caixin)
-- 菜鸟 (Cainiao)
+- 财新
+- 菜鸟
 
 D:
 - Darkroom
@@ -179,23 +179,23 @@ G:
 - Gohan
 - Gojek
 - Google
-- Google Calendar (Calendario de Google)
-- Google Chat (Chat de Google)
-- Google Classroom (Aula de Google)
-- Google Cloud (Nube de Google)
-- Google Drive (Drive de Google)
-- Google Earth (Tierra de Google)
-- Google Home (Hogar de Google)
-- Google Keep (Keep de Google)
-- Google Maps (Mapas de Google)
-- Google Meet (Meet de Google)
-- Google News (Noticias de Google)
-- Google One (Uno de Google)
-- Google Photos (Fotos de Google)
-- Google Sheets (Hojas de cálculo de Google)
-- Google Slides (Presentaciones de Google)
-- Google Translate (Traductor de Google)
-- Google Voice (Voz de Google)
+- Google Calendar
+- Google Chat
+- Google Classroom
+- Google Cloud
+- Google Drive
+- Google Earth
+- Google Home
+- Google Keep
+- Google Maps
+- Google Meet
+- Google News
+- Google One
+- Google Photos
+- Google Sheets
+- Google Slides
+- Google Translate
+- Google Voice
 - GoodRx
 - Goodreads
 - GoWish
@@ -203,11 +203,11 @@ G:
 - Grammarly
 - Grubhub
 - Gymshark
-- 瓜子二手车 (Guazi, mercado de autos usados)
-- 高德地图 (Gaode Mapas)
+- 瓜子二手车
+- 高德地图
 
 H:
-- Hábito
+- Habit
 - Healow
 - Headspace
 - Hinge
@@ -218,11 +218,11 @@ H:
 - HP Smart
 - Hulu
 - HUAWEI AI Life
-- 华住会 (Huazhu Hui)
+- 华住会
 
 I:
 - IELTS
-- IKEA 宜家家居
+- IKEA宜家家居
 - iHeart
 - IHG
 - Image Size
@@ -236,7 +236,7 @@ I:
 J:
 - Japan Airlines
 - JapanTransit
-- Japonés
+- Japanese
 - Jayson
 - JD
 - JetBlue
@@ -245,7 +245,7 @@ J:
 - Jyutping
 
 K:
-- ¡Kanji!
+- Kanji!
 - Kaomoji
 - Keeta
 - KFC
@@ -258,10 +258,10 @@ K:
 L:
 - Layout
 - Lazada
-- Aprender Japonés
-- Aprender Java
+- Learn Japanese
+- Learn Java
 - LearnJava
-- Aprendizaje
+- Learning
 - Lemon8
 - Life360
 - Lightroom
@@ -275,7 +275,7 @@ L:
 - Lose It!
 - lululemon
 - Lyft
-- 领英职场 (LinkedIn en China)
+- 领英职场
 
 M:
 - Manga
@@ -304,9 +304,9 @@ M:
 - MyChart
 - MyDyson
 - MyNetDiary
-- 马蜂窝 (Mafengwo)
-- 美团 (Meituan)
-- 美团外卖 (Meituan Waimai)
+- 马蜂窝
+- 美团
+- 美团外卖
 
 N:
 - NBC
@@ -357,7 +357,7 @@ P:
 - Proxyman
 - PS Express
 
-P:
+Q:
 - Quizlet
 - Quora
 - QQ
@@ -380,11 +380,11 @@ S:
 - Shazam
 - SHEIN
 - Shirabe Jisho
-- Tienda
-- Compras
+- Shop
+- Shopping
 - Showmax
 - Signal
-- Singapur
+- Singapore
 - SingaporeAir
 - Sky Guide
 - Sky News
@@ -403,13 +403,13 @@ S:
 - Sticker.ly
 - StitchPics
 - StitchShot
-- Soporte
+- Support
 - Surge
 - SUUMO
 - SUBWAY®
-- 神州租车 (Shenzhou Car Rental)
-- 搜狗输入法 (Sogou Input Method)
-- 水滴保 (Shuidi Insurance)
+- 神州租车
+- 搜狗输入法
+- 水滴保
 
 T:
 - Talabat
@@ -442,8 +442,8 @@ T:
 - Tumblr
 - Turo
 - Twitch
-- 太平洋保险 (Seguros del Pacífico)
-- 天猫 (Tmall)
+- 太平洋保险
+- 天猫
 
 U:
 - Uber
@@ -452,8 +452,6 @@ U:
 - UHC
 - United
 - U-Haul
-
-(Nota: Los nombres de marcas y servicios como Uber, Uber Eats, Udemy, UHC, United y U-Haul no se traducen, ya que son nombres propios y se mantienen en su forma original en todos los idiomas).
 
 V:
 - Video Lite
@@ -471,11 +469,11 @@ W:
 - WeChat
 - Wells Fargo
 - WhatsApp
-- Pizarra blanca
+- Whiteboard
 - Wise
 - Word
 - Wordtune
-- Noticias inalámbricas
+- 无线新闻
 
 X:
 - X
@@ -483,8 +481,6 @@ X:
 - 小红书
 - 携程旅行
 - 小米商城
-
-(Nota: Los nombres de marcas y aplicaciones como "Xbox", "小红书", "携程旅行" y "小米商城" no se traducen, ya que son nombres propios.)
 
 Y:
 - Yahoo Mail
@@ -497,15 +493,15 @@ Y:
 - YT Kids
 - YT Studio
 - Yuka
-- 易车汽车报价 (Yiche Automobile Quotes)
+- 易车汽车报价
 
 Z:
 - Zelle
 - Zillow
 - Zillow Rentals
 - Zoom
-- Zhihu (知乎)
-- China Merchants Bank (招商银行)
-- China Telecom (中国电信)
-- China Construction Bank (中国建设银行)
-- Zhongshan Third Hospital · User Edition (中山三院·用户版)
+- 知乎
+- 招商银行
+- 中国电信
+- 中国建设银行
+- 中山三院·用户版

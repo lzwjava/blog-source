@@ -1,7 +1,7 @@
 ---
 lang: hant
 layout: post
-title: iOS 应用使用记录 - 文字版
+title: iOS 應用程式我用過 - 文字版
 top: 10
 translated: true
 translation: false
@@ -15,19 +15,19 @@ A:
 - Affirm
 - Agoda
 - Air Matters
-- 澳門航空
+- AirMacau
 - Airbnb
-- 阿拉斯加航空
-- 半島電視台
-- 阿里雲
-- 阿里巴巴國際站
-- 支付寶
+- Alaska
+- Al Jazeera
+- Alibaba Cloud
+- Alibaba.com
+- Alipay
 - AllTrails
-- 亞馬遜
+- Amazon
 - Amazon Alexa
 - Amazon Music
-- 美國航空
-- AMC影院
+- American
+- AMC Theatres
 - Amtrak
 - Analytics
 - APPatient
@@ -45,17 +45,17 @@ B:
 - Benkyō
 - Best Buy
 - BetterMe
-- 聖經
+- Bible
 - BIGO LIVE
 - Bing
-- 幣安
+- Binance
 - Blinkist
-- 彭博
+- Bloomberg
 - Bluesky
-- 美國銀行
+- BofA
 - Booking.com
 - Bose
-- 英國航空
+- British Airways
 - Browser
 - Bunpo
 - Bus Out
@@ -70,14 +70,14 @@ C:
 - CapCut
 - Careem
 - Cash App
-- 中原地產
+- Centaline
 - ChargeSPOT
 - Chat
 - ChatGPT
-- 雪佛龍
+- Chevron
 - Chime
 - Chrome
-- 學信網
+- CHSI
 - Citizen
 - Citymapper
 - ClassDojo
@@ -107,7 +107,7 @@ D:
 - Dasher
 - DataCamp
 - Days Matter Air
-- 得到
+- DeDao
 - DeepL
 - Deliveroo
 - Depop
@@ -115,12 +115,12 @@ D:
 - Developer
 - DICK'S
 - Dictionary
-- 滴滴出行
-- 釘釘
-- 迪士尼世界
+- DiDi
+- DingDing
+- Disney World
 - Disney+
 - DOKODEMO
-- 達美樂
+- Domino's
 - DoorDash
 - DraftKings Sportsbook & Casino
 - Dropbox
@@ -133,10 +133,10 @@ D:
 E:
 - Easy Korean
 - eBay
-- 經濟學人
+- Economist
 - edX
 - Edge
-- 阿聯酋國民銀行
+- Emirates NBD
 - Encode
 - ENEOSCARD
 - Enterprise
@@ -158,12 +158,12 @@ F:
 - Flo
 - Flow
 - Fly Delta
-- 中央社
+- Focus Taiwan
 - foodpanda
 - Fox Nation
 - Free People
 - Frontier
-- 金融時報
+- FT
 - FT中文網
 - Friday AI
 
@@ -172,7 +172,7 @@ G:
 - Gauth
 - Gemini
 - Genie
-- 原神
+- Genshin Impact
 - GitHub
 - Glassdoor
 - Gmail
@@ -217,12 +217,12 @@ H:
 - Hotels.com
 - HP Smart
 - Hulu
-- 華為AI生活
+- HUAWEI AI Life
 - 華住會
 
 I:
 - IELTS
-- 宜家家居
+- IKEA宜家家居
 - iHeart
 - IHG
 - Image Size
@@ -234,21 +234,21 @@ I:
 - iSH
 
 J:
-- 日本航空
+- Japan Airlines
 - JapanTransit
 - Japanese
 - Jayson
-- 京東
+- JD
 - JetBlue
 - Jisho
 - JobsDB
-- 粵拼
+- Jyutping
 
 K:
 - Kanji!
 - Kaomoji
 - Keeta
-- 肯德基
+- KFC
 - Khan Academy
 - Kimi 智能助手
 - Kindle
@@ -271,7 +271,7 @@ L:
 - LinkedIn
 - Little Caesars
 - LooLoo Kids
-- 長橋
+- Longbridge
 - Lose It!
 - lululemon
 - Lyft
@@ -284,15 +284,15 @@ M:
 - MasterClass
 - Max
 - Mazii
-- 麥當勞
-- 麥當勞日本
+- McDonald's
+- McDonald's JP
 - Medium
 - Meet
 - Memrise
 - Mercado Libre
 - Messenger
 - Meta Horizon
-- 美圖
+- Meitu
 - Mi Fitness
 - Mi Home
 - Microsoft 365 (Office)
@@ -322,7 +322,7 @@ N:
 - Notion
 - Noticias
 - Notícias
-- 紐約時報
+- NYTimes
 - 南網在線
 
 O:
@@ -361,14 +361,14 @@ Q:
 - Quizlet
 - Quora
 - QQ
-- QQ郵箱
+- QQ Mail
 
 R:
 - RareJob
 - Reddit
 - Reelshort
 - Replit
-- 路透社
+- Reuters
 - Revolut
 - Robinhood
 - Roblox
@@ -384,8 +384,8 @@ S:
 - Shopping
 - Showmax
 - Signal
-- 新加坡
-- 新加坡航空
+- Singapore
+- SingaporeAir
 - Sky Guide
 - Sky News
 - Skratch
@@ -396,7 +396,7 @@ S:
 - Snapseed
 - Sololearn
 - SoundCloud
-- 西南航空
+- Southwest
 - Speechify
 - Spotify
 - Steam
@@ -421,18 +421,18 @@ T:
 - Termius
 - Tesla
 - TestFlight
-- 衛報
-- 印度教徒報
-- 泰晤士報
+- The Guardian
+- The Hindu
+- The Times
 - Threads
 - Tile
 - Tiger Trade
 - TikTok
 - TikTok Studio
-- 時代雜誌
+- Time Magazine
 - Tinder
 - TODAY
-- 通義
+- Tongyi
 - TooGoodToGo
 - Transit
 - TripIt
@@ -450,7 +450,7 @@ U:
 - Uber Eats
 - Udemy
 - UHC
-- 聯合航空
+- United
 - U-Haul
 
 V:
@@ -464,10 +464,10 @@ V:
 W:
 - Walgreens
 - Walmart
-- 華盛頓郵報
+- Wash Post
 - Waze
-- 微信
-- 富國銀行
+- WeChat
+- Wells Fargo
 - WhatsApp
 - Whiteboard
 - Wise
@@ -479,7 +479,7 @@ X:
 - X
 - Xbox
 - 小紅書
-- 攜程旅行
+- 携程旅行
 - 小米商城
 
 Y:
