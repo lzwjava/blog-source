@@ -60,7 +60,7 @@ def call_mistral_api(prompt):
         "Authorization": f"Bearer {api_key}"
     }
     data = {
-        "model": "mistral-large-latest",
+        "model": "mistral-small-latest",
         "messages": [
             {
                 "role": "user",
