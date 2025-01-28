@@ -1,20 +1,21 @@
 ---
 audio: true
-lang: de
+lang: en
 layout: post
-title: Gemeinsame Objekte in mehreren Threads
-translated: true
+title: Shared Objects in Multiple Threads
 ---
 
-## Lektion
+## Lesson
 
-Der Code führt zu einem seltsamen Fehler. Manchmal tritt der Fehler auf, und manchmal nicht.
+The code demonstrates a peculiar bug that appears inconsistently. Sometimes the bug occurs, and sometimes it does not, making it difficult to reproduce and debug.
 
-Dies liegt daran, dass die Funktion `translate_markdown_file`, und insbesondere die Funktion `translate_front_matter`, möglicherweise auf gemeinsame Datenstrukturen (wie Wörterbücher oder Listen) zugreifen und diese ohne ordnungsgemäße Synchronisation ändern. Wenn mehrere Threads gleichzeitig auf dieselben Daten zugreifen und diese ändern, kann dies zu Wettlaufsituationen (Race Conditions) führen. Wettlaufsituationen treten auf, wenn der Endzustand der Daten von der unvorhersehbaren Reihenfolge abhängt, in der die Threads ausgeführt werden. Dies kann zu Datenbeschädigungen, unerwartetem Verhalten und den von Ihnen beobachteten intermittierenden Fehlern führen.
+This intermittent behavior stems from the way the `translate_markdown_file` function, particularly the `translate_front_matter` function, handles shared data. These functions might be accessing and modifying shared data structures, such as dictionaries or lists, without proper synchronization.
 
-Um dies zu beheben, sollten Sie vermeiden, veränderbare Daten zwischen Threads zu teilen, oder geeignete Synchronisationsmechanismen wie Sperren (Locks) verwenden, um gemeinsame Daten zu schützen. In diesem Fall wird das `front_matter_dict` direkt geändert, was nicht threadsicher ist. Die Lösung besteht darin, eine Kopie des Wörterbuchs zu erstellen, bevor es geändert wird. Dies ist im Code bereits implementiert, aber es ist wichtig zu verstehen, warum es notwendig ist.
+When multiple threads access and modify the same data concurrently, it can lead to race conditions. Race conditions occur when the final state of the data depends on the unpredictable order in which threads execute. This can result in data corruption, unexpected program behavior, and the intermittent bugs you are observing.
 
-## Kontext
+To fix this, you should either avoid sharing mutable data between threads or use proper synchronization mechanisms, such as locks, to protect shared data. In this case, the `front_matter_dict` is being modified in place, which is not thread-safe. The fix is to create a copy of the dictionary before modifying it. This is already done in the code, but it's important to understand why it's necessary.
+
+## Context
 
 ```python
   with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
@@ -35,7 +36,7 @@ Um dies zu beheben, sollten Sie vermeiden, veränderbare Daten zwischen Threads 
                 print(f"A thread failed: {e}")
 ```
 
-## Vorher
+## Before
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
@@ -89,7 +90,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         return front_matter
 ```
 
-## Nachher
+## After
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
