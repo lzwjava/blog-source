@@ -6,7 +6,7 @@ title: 雲服務供應商
 translated: true
 ---
 
-使用過：
+已使用：
 
 * [Azure](https://azure.microsoft.com)
 * [AWS Lightsail](https://aws.amazon.com/lightsail/)
@@ -15,11 +15,11 @@ translated: true
 * [Vultr](https://www.vultr.com)
 * [Linode](https://www.linode.com)
 * [Google Cloud](https://cloud.google.com)
-* [騰訊雲](https://cloud.tencent.com)
-[阿里雲](https://www.alibabacloud.com)
+* [Tencent Cloud](https://cloud.tencent.com)
+[Alibaba Cloud](https://www.alibabacloud.com)
 https://cn.aliyun.com
 
-聽過或短時間使用：
+聽說過或短暫使用：
 
 * [UCloud](https://www.ucloud.cn)
-* [青雲](https://www.qingcloud.com)
+* [QingCloud](https://www.qingcloud.com)

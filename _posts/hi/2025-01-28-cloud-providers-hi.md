@@ -1,12 +1,12 @@
 ---
 audio: true
-lang: de
+lang: hi
 layout: post
-title: Cloud-Anbieter
+title: क्लाउड प्रदाता
 translated: true
 ---
 
-Verwendet:
+प्रयुक्त:
 
 * [Azure](https://azure.microsoft.com)
 * [AWS Lightsail](https://aws.amazon.com/lightsail/)
@@ -19,7 +19,7 @@ Verwendet:
 * [Alibaba Cloud](https://www.alibabacloud.com)
 * [https://cn.aliyun.com](https://cn.aliyun.com)
 
-Davon gehört oder kurzzeitig verwendet:
+सुना है या थोड़े समय के लिए प्रयोग किया:
 
 * [UCloud](https://www.ucloud.cn)
 * [QingCloud](https://www.qingcloud.com)

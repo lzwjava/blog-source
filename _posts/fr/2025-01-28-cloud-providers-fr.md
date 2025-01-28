@@ -6,7 +6,7 @@ title: Fournisseurs de Cloud
 translated: true
 ---
 
-Utilisés :
+Utilisé :
 
 * [Azure](https://azure.microsoft.com)
 * [AWS Lightsail](https://aws.amazon.com/lightsail/)
@@ -16,8 +16,8 @@ Utilisés :
 * [Linode](https://www.linode.com)
 * [Google Cloud](https://cloud.google.com)
 * [Tencent Cloud](https://cloud.tencent.com)
-* [Alibaba Cloud](https://www.alibabacloud.com)
-* [Alibaba Cloud](https://cn.aliyun.com)
+[Alibaba Cloud](https://www.alibabacloud.com)
+https://cn.aliyun.com
 
 Entendu parler ou utilisé pendant une courte période :
 

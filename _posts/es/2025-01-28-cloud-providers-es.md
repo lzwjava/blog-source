@@ -2,11 +2,11 @@
 audio: true
 lang: es
 layout: post
-title: Proveedores de nube
+title: Proveedores de Nube
 translated: true
 ---
 
-Utilizados:
+Utilizado:
 
 * [Azure](https://azure.microsoft.com)
 * [AWS Lightsail](https://aws.amazon.com/lightsail/)
@@ -16,10 +16,10 @@ Utilizados:
 * [Linode](https://www.linode.com)
 * [Google Cloud](https://cloud.google.com)
 * [Tencent Cloud](https://cloud.tencent.com)
-* [Alibaba Cloud](https://www.alibabacloud.com)
-* [Alibaba Cloud](https://cn.aliyun.com)
+[Alibaba Cloud](https://www.alibabacloud.com)
+https://cn.aliyun.com
 
-Escuchado o usado por un corto tiempo:
+He oído hablar de o usado por un corto tiempo:
 
 * [UCloud](https://www.ucloud.cn)
 * [QingCloud](https://www.qingcloud.com)

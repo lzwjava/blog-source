@@ -1,12 +1,12 @@
 ---
 audio: true
-lang: de
+lang: ar
 layout: post
-title: Cloud-Anbieter
+title: مزودو السحابة
 translated: true
 ---
 
-Verwendet:
+تم استخدامه:
 
 * [Azure](https://azure.microsoft.com)
 * [AWS Lightsail](https://aws.amazon.com/lightsail/)
@@ -19,7 +19,7 @@ Verwendet:
 * [Alibaba Cloud](https://www.alibabacloud.com)
 * [https://cn.aliyun.com](https://cn.aliyun.com)
 
-Davon gehört oder kurzzeitig verwendet:
+سمعت عنه أو استخدمته لفترة قصيرة:
 
 * [UCloud](https://www.ucloud.cn)
 * [QingCloud](https://www.qingcloud.com)
