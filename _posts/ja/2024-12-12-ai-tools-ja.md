@@ -1,9 +1,11 @@
 ---
 lang: ja
 layout: post
-title: 人工知能ツール
+title: AIツール
 translated: true
 ---
+
+以下に使用したAIツールをカテゴリーごとに掲載しました：
 
 ### チャットボット
 
@@ -43,7 +45,7 @@ translated: true
 - [runwayml.com](https://runwayml.com)
 - [pika.art](https://pika.art)
 
-### 音声生成
+### オーディオ生成
 
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
@@ -51,8 +53,9 @@ translated: true
 ### クラウドAIプラットフォーム
 
 - [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
-- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
 - [aistudio.google.com](https://aistudio.google.com)
+- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
+- [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai)
 
 ### その他
 

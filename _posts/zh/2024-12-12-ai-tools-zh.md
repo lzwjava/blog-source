@@ -1,11 +1,11 @@
 ---
 lang: zh
 layout: post
-title: AI工具
+title: 人工智能工具
 translated: true
 ---
 
-这里是我使用的一些AI工具，按类别分类：
+这里是我使用过的一些AI工具，按类别分类：
 
 ### 聊天机器人
 
@@ -53,8 +53,9 @@ translated: true
 ### 云AI平台
 
 - [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
-- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
 - [aistudio.google.com](https://aistudio.google.com)
+- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
+- [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai)
 
 ### 其他
 

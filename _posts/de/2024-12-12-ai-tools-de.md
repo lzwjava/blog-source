@@ -5,7 +5,7 @@ title: KI-Werkzeuge
 translated: true
 ---
 
-Hier sind einige KI-Tools, die ich verwendet habe, nach Kategorien geordnet:
+Hier sind einige KI-Tools, die ich verwendet habe, und die nach Kategorien geordnet sind:
 
 ### Chatbots
 
@@ -27,25 +27,25 @@ Hier sind einige KI-Tools, die ich verwendet habe, nach Kategorien geordnet:
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-### AI-Modell-Ranglisten
+### KI-Modell-Leaderboards
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
 - [TTS Arena](https://huggingface.co/spaces/TTS-AGI/TTS-Arena)
 
-### Codegenerierung
+### Code-Generierung
 
 - [cursor.com](https://www.cursor.com)
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 
-### Bild-/Video-Erstellung
+### Bild-/Video-Generierung
 
 - [midjourney.com](https://www.midjourney.com)
 - [runwayml.com](https://runwayml.com)
 - [pika.art](https://pika.art)
 
-### Audio-Erstellung
+### Audio-Generierung
 
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
@@ -53,8 +53,9 @@ Hier sind einige KI-Tools, die ich verwendet habe, nach Kategorien geordnet:
 ### Cloud-KI-Plattformen
 
 - [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
-- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
 - [aistudio.google.com](https://aistudio.google.com)
+- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
+- [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai)
 
 ### Sonstiges
 

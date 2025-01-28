@@ -5,11 +5,11 @@ title: الأدوات الذكية
 translated: true
 ---
 
-إليك بعض من الأدوات الذكية التي استخدمتها، وتم تنظيمها لتوضيح الأمور:
+إليك بعض من أدوات AI التي استخدمتها وتم تنظيمها لتوضيح:
 
-### وحدات الدردشة
+### واجهات برمجيات المحادثة
 
-**عالمي:**
+**عالمية:**
 
 - [chatgpt.com](http://chatgpt.com)
 - [claude.ai](https://claude.ai)
@@ -21,13 +21,13 @@ translated: true
 - [chat.deepseek.com](https://chat.deepseek.com)
 - [perplexity.ai](https://perplexity.ai)
 
-**الصين:**
+**صينية:**
 
 - [kimi.moonshot.cn](https://kimi.moonshot.cn)
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-### دوريات أعلى النموذجات
+### جداول التصنيف لوحات AI
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
@@ -50,13 +50,14 @@ translated: true
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
 
-### منصات AI سحابية
+### منصات AI على السحابة
 
 - [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
-- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
 - [aistudio.google.com](https://aistudio.google.com)
+- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
+- [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai)
 
-### آخرى
+### آخر
 
 - [huggingface.co](https://huggingface.co)
 - [kaggle.com](https://kaggle.com)
