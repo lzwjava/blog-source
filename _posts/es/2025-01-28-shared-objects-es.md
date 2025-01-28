@@ -1,57 +1,57 @@
 ---
 audio: true
-lang: en
+lang: es
 layout: post
-title: Shared Objects in Multiple Threads
+title: Objetos Compartidos en Múltiples Hilos
 translated: true
 ---
 
-## Lesson
+## Lección
 
-The code demonstrates a peculiar bug that appears inconsistently. Sometimes the bug occurs, and sometimes it does not, making it difficult to reproduce and debug.
+El código presenta un fallo intermitente que se manifiesta de manera inconsistente. Su naturaleza esporádica dificulta su reproducción y depuración efectivas.
 
-This intermittent behavior stems from the way the `translate_markdown_file` function, particularly the `translate_front_matter` function, handles shared data. These functions might be accessing and modifying shared data structures, such as dictionaries or lists, without proper synchronization.
+Este comportamiento intermitente se debe a la manera en que la función `translate_markdown_file`, particularmente la función `translate_front_matter`, maneja los datos compartidos. Estas funciones pueden estar accediendo y modificando estructuras de datos compartidas, como diccionarios o listas, sin una sincronización adecuada.
 
-When multiple threads access and modify the same data concurrently, it can lead to race conditions. Race conditions occur when the final state of the data depends on the unpredictable order in which threads execute. This can result in data corruption, unexpected program behavior, and the intermittent bugs you are observing.
+Cuando múltiples hilos acceden y modifican los mismos datos de manera concurrente, esto puede llevar a condiciones de carrera. Las condiciones de carrera ocurren cuando el estado final de los datos depende del orden impredecible en que los hilos se ejecutan. Esto puede resultar en corrupción de datos, comportamiento inesperado del programa y los fallos intermitentes que estás observando.
 
-To fix this, you should either avoid sharing mutable data between threads or use proper synchronization mechanisms, such as locks, to protect shared data. In this case, the `front_matter_dict` is being modified in place, which is not thread-safe. The fix is to create a copy of the dictionary before modifying it. This is already done in the code, but it's important to understand why it's necessary.
+Para corregir esto, debes evitar compartir datos mutables entre hilos o utilizar mecanismos de sincronización adecuados, como bloqueos, para proteger los datos compartidos. En este caso, `front_matter_dict` se está modificando en su lugar, lo cual no es seguro para hilos. La solución es crear una copia del diccionario antes de modificarlo. Esto ya se hace en el código, pero es importante entender por qué es necesario.
 
-## Context
+## Contexto
 
 ```python
   with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         futures = []
         for filename in changed_files:
             input_file = filename
-            
+
             for lang in languages:
-                
-                print(f"Submitting translation job for {filename} to {lang}...")
+
+                print(f"Enviando trabajo de traducción para {filename} a {lang}...")
                 future = executor.submit(translate_markdown_file, input_file, os.path.join(f"_posts/{lang}", os.path.basename(filename).replace(".md", f"-{lang}.md")), lang, dry_run)
                 futures.append(future)
-            
+
         for future in concurrent.futures.as_completed(futures):
             try:
                 future.result()
             except Exception as e:
-                print(f"A thread failed: {e}")
+                print(f"Un hilo falló: {e}")
 ```
 
-## Before
+## Antes
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
-    print(f"  Translating front matter for: {input_file}")
+    print(f"  Traduciendo el front matter para: {input_file}")
     if not front_matter:
-        print(f"  No front matter found for: {input_file}")
+        print(f"  No se encontró front matter para: {input_file}")
         return ""
     try:
         front_matter_dict = {}
         if front_matter:
             front_matter_dict = yaml.safe_load(front_matter)
-            print(f"  Front matter after safe_load: {front_matter_dict}")
+            print(f"  Front matter después de safe_load: {front_matter_dict}")
         if 'title' in front_matter_dict:
-            print(f"  Translating title: {front_matter_dict['title']}")
+            print(f"  Traduciendo el título: {front_matter_dict['title']}")
             if not (input_file == 'original/2025-01-11-resume-en.md' and target_language in ['zh', 'fr']):
                 if isinstance(front_matter_dict['title'], str):
                     translated_title = translate_text(front_matter_dict['title'], target_language)
@@ -60,55 +60,54 @@ def translate_front_matter(front_matter, target_language, input_file):
                         if len(translated_title) > 300:
                             translated_title = translated_title.split('\n')[0]
                         front_matter_dict['title'] = translated_title
-                        print(f"  Translated title to: {translated_title}")
+                        print(f"  Traducido el título a: {translated_title}")
                     else:
-                        print(f"  Title translation failed for: {input_file}")
+                        print(f"  Falló la traducción del título para: {input_file}")
                 else:
-                    print(f"  Title is not a string, skipping translation for: {input_file}")
+                    print(f"  El título no es una cadena, se omite la traducción para: {input_file}")
             else:
-                print(f"  Skipping title translation for {input_file} to {target_language}")
-        # Always set lang to target_language
-        
-        # Determine if the file is a translation
-        original_lang = 'en' # Default to english
+                print(f"  Se omite la traducción del título para {input_file} a {target_language}")
+        # Siempre establece lang en target_language
+
+        # Determinar si el archivo es una traducción
+        original_lang = 'en' # Predeterminado a inglés
         if 'lang' in front_matter_dict:
             original_lang = front_matter_dict['lang']
-        
+
         if target_language != original_lang:
             front_matter_dict['lang'] = target_language
             front_matter_dict['translated'] = True
-            print(f"  Marked as translated to {target_language} for: {input_file}")
+            print(f"  Marcado como traducido a {target_language} para: {input_file}")
         else:
             front_matter_dict['translated'] = False
-            print(f"  Not marked as translated for: {input_file}")
-        
-        
+            print(f"  No marcado como traducido para: {input_file}")
+
         result = "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
-        print(f"  Front matter translation complete for: {input_file}")
+        print(f"  Traducción del front matter completada para: {input_file}")
         return result
     except yaml.YAMLError as e:
-        print(f"  Error parsing front matter: {e}")
+        print(f"  Error al parsear el front matter: {e}")
         return front_matter
 ```
 
-## After
+## Después
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
-    print(f"  Translating front matter for: {input_file}")
+    print(f"  Traduciendo el front matter para: {input_file}")
     if not front_matter:
-        print(f"  No front matter found for: {input_file}")
+        print(f"  No se encontró front matter para: {input_file}")
         return ""
     try:
         front_matter_dict = {}
         if front_matter:
             front_matter_dict = yaml.safe_load(front_matter)
-            print(f"  Front matter after safe_load: {front_matter_dict}")
-        
+            print(f"  Front matter después de safe_load: {front_matter_dict}")
+
         front_matter_dict_copy = front_matter_dict.copy()
-        
+
         if 'title' in front_matter_dict_copy:
-            print(f"  Translating title: {front_matter_dict_copy['title']}")
+            print(f"  Traduciendo el título: {front_matter_dict_copy['title']}")
             if not (input_file == 'original/2025-01-11-resume-en.md' and target_language in ['zh', 'fr']):
                 if isinstance(front_matter_dict_copy['title'], str):
                     translated_title = translate_text(front_matter_dict_copy['title'], target_language)
@@ -117,22 +116,22 @@ def translate_front_matter(front_matter, target_language, input_file):
                         if len(translated_title) > 300:
                             translated_title = translated_title.split('\n')[0]
                         front_matter_dict_copy['title'] = translated_title
-                        print(f"  Translated title to: {translated_title}")
+                        print(f"  Traducido el título a: {translated_title}")
                     else:
-                        print(f"  Title translation failed for: {input_file}")
+                        print(f"  Falló la traducción del título para: {input_file}")
                 else:
-                    print(f"  Title is not a string, skipping translation for: {input_file}")
+                    print(f"  El título no es una cadena, se omite la traducción para: {input_file}")
             else:
-                print(f"  Skipping title translation for {input_file} to {target_language}")
-        # Always set lang to target_language
- 
-        front_matter_dict_copy['lang'] = target_language        
+                print(f"  Se omite la traducción del título para {input_file} a {target_language}")
+        # Siempre establece lang en target_language
+
+        front_matter_dict_copy['lang'] = target_language
         front_matter_dict_copy['translated'] = True
 
         result = "---\n" + yaml.dump(front_matter_dict_copy, allow_unicode=True) + "---"
-        print(f"  Front matter translation complete for: {input_file}")
+        print(f"  Traducción del front matter completada para: {input_file}")
         return result
     except yaml.YAMLError as e:
-        print(f"  Error parsing front matter: {e}")
+        print(f"  Error al parsear el front matter: {e}")
         return front_matter
 ```

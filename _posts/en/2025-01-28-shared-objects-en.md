@@ -10,7 +10,7 @@ translated: false
 
 ## Lesson
 
-The code demonstrates a peculiar bug that appears inconsistently. Sometimes the bug occurs, and sometimes it does not, making it difficult to reproduce and debug.
+The code exhibits an intermittent bug, manifesting inconsistently. Its sporadic nature makes it challenging to reproduce and debug effectively.
 
 This intermittent behavior stems from the way the `translate_markdown_file` function, particularly the `translate_front_matter` function, handles shared data. These functions might be accessing and modifying shared data structures, such as dictionaries or lists, without proper synchronization.
 

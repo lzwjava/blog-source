@@ -2,34 +2,34 @@
 audio: true
 lang: ar
 layout: post
-title: الكائنات المشتركة بين عدة خيوط
+title: كائنات مشتركة في أعمدة متعددة
 translated: true
 ---
 
-## الدرس
+## درس
 
-يوضح الكود خطأ غريبًا يظهر بشكل غير متسق. في بعض الأحيان يحدث الخطأ، وفي أحيان أخرى لا يحدث، مما يجعل من الصعب إعادة إنتاجه وتصحيحه.
+يبدو الكود أنه يحتوي على أخطاء غير مستمرة التكرار، والتي تظهر غير المستمر. من خلال استمراريتها، يصبح من الصعب إعادة إنتاجها وتصحيحها بشكل فعال.
 
-هذا السلوك المتقطع ناتج عن الطريقة التي تتعامل بها وظيفة `translate_markdown_file`، وخاصة وظيفة `translate_front_matter`، مع البيانات المشتركة. قد تكون هذه الوظائف تصل وتعدل هياكل البيانات المشتركة، مثل القواميس أو القوائم، دون تزامن مناسب.
+يعود هذا التصرف الغير المستمر إلى الطريقة التي تعمل بها وظيفة `translate_markdown_file`، وبشكل خاص وظيفة `translate_front_matter`، في معالجة البيانات المشتركة. قد تكون هذه الوظائف تقوم بالوصول إلى وتحرير البيانات المشتركة، مثل قواميس أو قوائم، بدون تنسيق مناسب.
 
-عندما تصل عدة خيوط (threads) إلى نفس البيانات وتعدلها بشكل متزامن، يمكن أن يؤدي ذلك إلى حالات سباق (race conditions). تحدث حالات السباق عندما تعتمد الحالة النهائية للبيانات على الترتيب غير المتوقع الذي تنفذ به الخيوط. يمكن أن يؤدي ذلك إلى تلف البيانات، وسلوك غير متوقع للبرنامج، والأخطاء المتقطعة التي تلاحظها.
+عندما يقوم العديد من العوامل بالوصول إلى وتحرير البيانات بشكل متزامن، يمكن أن يؤدي ذلك إلى ظواهر سباق. تحدث ظواهر السباق عندما يتوقف الحالة النهائية للبيانات على التسلسل الغير القابل للتحديد لتنفيذ العوامل. يمكن أن يؤدي ذلك إلى فساد البيانات، وسلوك برنامج غير متوقع، والأخطاء الغير المستمرة التي تشهدها.
 
-لإصلاح هذا، يجب عليك إما تجنب مشاركة البيانات القابلة للتغيير بين الخيوط أو استخدام آليات التزامن المناسبة، مثل الأقفال (locks)، لحماية البيانات المشتركة. في هذه الحالة، يتم تعديل `front_matter_dict` مباشرة، وهو أمر غير آمن للخيوط. الإصلاح هو إنشاء نسخة من القاموس قبل تعديله. هذا يتم بالفعل في الكود، ولكن من المهم فهم سبب ضرورة ذلك.
+لإصلاح هذا، يجب أو تجنب مشاركة البيانات المتغيرة بين العوامل أو استخدام ميكانيسمات تنسيق مناسبة، مثل القفل، لحماية البيانات المشتركة. في هذا الحال، يتم تحرير القاموس `front_matter_dict` بشكل مباشر، وهو غير مستقر من الناحية المتعددة العوامل. ويتم إجراء الإصلاح في الكود من خلال إنشاء نسخة من القاموس قبل تحريره. ومع أن هذا تم في الكود، إلا أنه مهم فهم أهميته.
 
-## السياق
+## سياق
 
 ```python
   with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         futures = []
         for filename in changed_files:
             input_file = filename
-            
+
             for lang in languages:
-                
+
                 print(f"Submitting translation job for {filename} to {lang}...")
                 future = executor.submit(translate_markdown_file, input_file, os.path.join(f"_posts/{lang}", os.path.basename(filename).replace(".md", f"-{lang}.md")), lang, dry_run)
                 futures.append(future)
-            
+
         for future in concurrent.futures.as_completed(futures):
             try:
                 future.result()
@@ -37,7 +37,7 @@ translated: true
                 print(f"A thread failed: {e}")
 ```
 
-## قبل
+## من قبل
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
@@ -68,12 +68,12 @@ def translate_front_matter(front_matter, target_language, input_file):
             else:
                 print(f"  Skipping title translation for {input_file} to {target_language}")
         # Always set lang to target_language
-        
+
         # Determine if the file is a translation
         original_lang = 'en' # Default to english
         if 'lang' in front_matter_dict:
             original_lang = front_matter_dict['lang']
-        
+
         if target_language != original_lang:
             front_matter_dict['lang'] = target_language
             front_matter_dict['translated'] = True
@@ -81,8 +81,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         else:
             front_matter_dict['translated'] = False
             print(f"  Not marked as translated for: {input_file}")
-        
-        
+
         result = "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
         print(f"  Front matter translation complete for: {input_file}")
         return result
@@ -104,9 +103,9 @@ def translate_front_matter(front_matter, target_language, input_file):
         if front_matter:
             front_matter_dict = yaml.safe_load(front_matter)
             print(f"  Front matter after safe_load: {front_matter_dict}")
-        
+
         front_matter_dict_copy = front_matter_dict.copy()
-        
+
         if 'title' in front_matter_dict_copy:
             print(f"  Translating title: {front_matter_dict_copy['title']}")
             if not (input_file == 'original/2025-01-11-resume-en.md' and target_language in ['zh', 'fr']):
@@ -125,8 +124,8 @@ def translate_front_matter(front_matter, target_language, input_file):
             else:
                 print(f"  Skipping title translation for {input_file} to {target_language}")
         # Always set lang to target_language
- 
-        front_matter_dict_copy['lang'] = target_language        
+
+        front_matter_dict_copy['lang'] = target_language
         front_matter_dict_copy['translated'] = True
 
         result = "---\n" + yaml.dump(front_matter_dict_copy, allow_unicode=True) + "---"

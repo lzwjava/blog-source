@@ -1,35 +1,35 @@
 ---
 audio: true
-lang: en
+lang: hant
 layout: post
-title: Shared Objects in Multiple Threads
+title: 多執行緒中的共享物件
 translated: true
 ---
 
-## Lesson
+## 課程
 
-The code demonstrates a peculiar bug that appears inconsistently. Sometimes the bug occurs, and sometimes it does not, making it difficult to reproduce and debug.
+這段程式碼出現了非持續的 bug，表現不一致。其隨機性使得它難以重現和有效地除錯。
 
-This intermittent behavior stems from the way the `translate_markdown_file` function, particularly the `translate_front_matter` function, handles shared data. These functions might be accessing and modifying shared data structures, such as dictionaries or lists, without proper synchronization.
+這種非持續行為源自於 `translate_markdown_file` 函數，特別是 `translate_front_matter` 函數，處理共享數據的方式。這些函數可能會同時訪問和修改共享數據結構，如字典或列表，而沒有正確的同步。
 
-When multiple threads access and modify the same data concurrently, it can lead to race conditions. Race conditions occur when the final state of the data depends on the unpredictable order in which threads execute. This can result in data corruption, unexpected program behavior, and the intermittent bugs you are observing.
+當多個線程同時訪問和修改相同的數據時，會導致競爭條件。競爭條件發生在數據的最終狀態依賴於線程執行的不可預測順序。這可能導致數據損壞、意料之外的程式行為以及你所觀察到的非持續 bug。
 
-To fix this, you should either avoid sharing mutable data between threads or use proper synchronization mechanisms, such as locks, to protect shared data. In this case, the `front_matter_dict` is being modified in place, which is not thread-safe. The fix is to create a copy of the dictionary before modifying it. This is already done in the code, but it's important to understand why it's necessary.
+要解決這個問題，你應該要或避免在線程之間共享可變數據，或使用適當的同步機制，如鎖，來保護共享數據。在這個情況下，`front_matter_dict` 被修改成為不安全的，解決方案是在修改之前創建一個副本。這在程式碼中已經完成，但需要理解為什麼這是必要的。
 
-## Context
+## 背景
 
 ```python
   with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         futures = []
         for filename in changed_files:
             input_file = filename
-            
+
             for lang in languages:
-                
+
                 print(f"Submitting translation job for {filename} to {lang}...")
                 future = executor.submit(translate_markdown_file, input_file, os.path.join(f"_posts/{lang}", os.path.basename(filename).replace(".md", f"-{lang}.md")), lang, dry_run)
                 futures.append(future)
-            
+
         for future in concurrent.futures.as_completed(futures):
             try:
                 future.result()
@@ -37,7 +37,7 @@ To fix this, you should either avoid sharing mutable data between threads or use
                 print(f"A thread failed: {e}")
 ```
 
-## Before
+## 修改前
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
@@ -68,12 +68,12 @@ def translate_front_matter(front_matter, target_language, input_file):
             else:
                 print(f"  Skipping title translation for {input_file} to {target_language}")
         # Always set lang to target_language
-        
+
         # Determine if the file is a translation
         original_lang = 'en' # Default to english
         if 'lang' in front_matter_dict:
             original_lang = front_matter_dict['lang']
-        
+
         if target_language != original_lang:
             front_matter_dict['lang'] = target_language
             front_matter_dict['translated'] = True
@@ -81,8 +81,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         else:
             front_matter_dict['translated'] = False
             print(f"  Not marked as translated for: {input_file}")
-        
-        
+
         result = "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
         print(f"  Front matter translation complete for: {input_file}")
         return result
@@ -91,7 +90,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         return front_matter
 ```
 
-## After
+## 修改後
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
@@ -104,9 +103,9 @@ def translate_front_matter(front_matter, target_language, input_file):
         if front_matter:
             front_matter_dict = yaml.safe_load(front_matter)
             print(f"  Front matter after safe_load: {front_matter_dict}")
-        
+
         front_matter_dict_copy = front_matter_dict.copy()
-        
+
         if 'title' in front_matter_dict_copy:
             print(f"  Translating title: {front_matter_dict_copy['title']}")
             if not (input_file == 'original/2025-01-11-resume-en.md' and target_language in ['zh', 'fr']):
@@ -125,8 +124,8 @@ def translate_front_matter(front_matter, target_language, input_file):
             else:
                 print(f"  Skipping title translation for {input_file} to {target_language}")
         # Always set lang to target_language
- 
-        front_matter_dict_copy['lang'] = target_language        
+
+        front_matter_dict_copy['lang'] = target_language
         front_matter_dict_copy['translated'] = True
 
         result = "---\n" + yaml.dump(front_matter_dict_copy, allow_unicode=True) + "---"
