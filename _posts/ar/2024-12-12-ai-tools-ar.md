@@ -1,15 +1,15 @@
 ---
 lang: ar
 layout: post
-title: أدوات الذكاء الاصطناعي
+title: الأدوات الذكية
 translated: true
 ---
 
-إليك بعض أدوات الذكاء الاصطناعي التي استخدمتها:
+إليك بعض من الأدوات الذكية التي استخدمتها، وتم تنظيمها لتوضيح الأمور:
 
-#### روبوتات الدردشة
+### وحدات الدردشة
 
-عالميًا:
+**عالمي:**
 
 - [chatgpt.com](http://chatgpt.com)
 - [claude.ai](https://claude.ai)
@@ -19,27 +19,47 @@ translated: true
 - [coral.cohere.com](https://coral.cohere.com)
 - [grok.com](https://grok.com/)
 - [chat.deepseek.com](https://chat.deepseek.com)
-- [aistudio.google.com](https://aistudio.google.com)
+- [perplexity.ai](https://perplexity.ai)
 
-الصين:
+**الصين:**
 
 - [kimi.moonshot.cn](https://kimi.moonshot.cn)
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-#### لوحات المتصدرين
+### دوريات أعلى النموذجات
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
 - [TTS Arena](https://huggingface.co/spaces/TTS-AGI/TTS-Arena)
 
-### أدوات أخرى
+### إنشاء الكود
+
+- [cursor.com](https://www.cursor.com)
+- [github.com/features/copilot](https://github.com/features/copilot)
+- [codeium.com/windsurf](https://codeium.com/windsurf)
+
+### إنشاء الصور/الفيديو
+
+- [midjourney.com](https://www.midjourney.com)
+- [runwayml.com](https://runwayml.com)
+- [pika.art](https://pika.art)
+
+### إنشاء الصوت
 
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
-- [cursor.com](https://www.cursor.com)
-- [github.com/features/copilot](https://github.com/features/copilot)
-- [midjourney.com](https://www.midjourney.com)
-- [runwayml.com](https://runwayml.com)
-- [codeium.com/windsurf](https://codeium.com/windsurf)
-- [pika.art](https://pika.art)
+
+### منصات AI سحابية
+
+- [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
+- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
+- [aistudio.google.com](https://aistudio.google.com)
+
+### آخرى
+
+- [huggingface.co](https://huggingface.co)
+- [kaggle.com](https://kaggle.com)
+- [aistudio.google.com](https://aistudio.google.com)
+- [databricks.com](https://www.databricks.com)
+- [ai.google.dev](https://ai.google.dev)
