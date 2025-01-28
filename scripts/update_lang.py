@@ -45,6 +45,9 @@ def create_translation_prompt(target_language, special=False):
 def translate_text(text, target_language, special=False):
     if not text or not text.strip():
         return ""
+    if target_language == 'en':
+        print(f"  Skipping translation for English: {text[:50]}...")
+        return text
     print(f"  Translating text: {text[:50]}...")
     try:
         response = client.chat.completions.create(
@@ -98,7 +101,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         # Always set lang to target_language
  
         front_matter_dict_copy['lang'] = target_language        
-        front_matter_dict_copy['translated'] = True
+        front_matter_dict_copy['translated'] = target_language != 'en'
 
         result = "---\n" + yaml.dump(front_matter_dict_copy, allow_unicode=True) + "---"
         print(f"  Front matter translation complete for: {input_file}")
@@ -162,39 +165,37 @@ def main():
     parser = argparse.ArgumentParser(description="Translate markdown files to a specified language.")
     parser.add_argument("--lang", type=str, default="all", help="Target language for translation (e.g., ja, es, all).")
     parser.add_argument("--dry_run", action="store_true", help="Perform a dry run without modifying files.")
+    parser.add_argument("--file", type=str, default=None, help="Specific file to translate.")
     args = parser.parse_args()
     target_language = args.lang
     dry_run = args.dry_run
+    input_file = args.file
     
     languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr', 'de', 'ar', 'hant']
 
     total_files_to_process = 0
     
     if dry_run:
-        changed_files = get_changed_files()
-        total_files_to_process = len(changed_files)
-        print(f"Total Markdown files to process: {total_files_to_process}")
+        if input_file:
+            total_files_to_process = 1
+            print(f"Total Markdown files to process: {total_files_to_process}")
+        else:
+            changed_files = get_changed_files()
+            total_files_to_process = len(changed_files)
+            print(f"Total Markdown files to process: {total_files_to_process}")
         return
     
-    changed_files = get_changed_files()
-    total_files_to_process = len(changed_files)
+    if input_file:
+        changed_files = [input_file]
+        total_files_to_process = 1
+    else:
+        changed_files = get_changed_files()
+        total_files_to_process = len(changed_files)
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         futures = []
         for filename in changed_files:
             input_file = filename
-
-            with open(input_file, 'r', encoding='utf-8') as infile:
-                content = infile.read()
-            front_matter_match = re.match(r'---\n(.*?)\n---', content, re.DOTALL)
-            front_matter = front_matter_match.group(1) if front_matter_match else ""
-            front_matter_dict = {}
-            if front_matter:
-                front_matter_dict = yaml.safe_load(front_matter)
-            original_lang = 'en'
-            if 'lang' in front_matter_dict:
-                original_lang = front_matter_dict['lang']
-            
             
             for lang in languages:
                 output_dir = f"_posts/{lang}"
@@ -207,23 +208,7 @@ def main():
                     output_filename = os.path.basename(filename).replace("-en.md", f"-{lang}.md").replace("-zh.md", f"-{lang}.md")
                 
                 output_file = os.path.join(output_dir, output_filename)
-                
-                if lang == original_lang:
-                    # Copy the file and set translated to false
-                    with open(input_file, 'r', encoding='utf-8') as infile:
-                        content = infile.read()
-
-                    front_matter_dict['translated'] = False
-                    
-                    updated_front_matter = yaml.dump(front_matter_dict, sort_keys=False)
-                    content = f"---\n{updated_front_matter}---\n{content[front_matter_match.end():]}"
-
-                    with open(output_file, 'w', encoding='utf-8') as outfile:
-                        outfile.write(content)
-                    print(f"Copied {filename} to {output_file} and set translated: false because target language is the same as original language.")
-                    continue
-                
-                
+                            
                 print(f"Submitting translation job for {filename} to {lang}...")
                 future = executor.submit(translate_markdown_file, input_file, output_file, lang, dry_run)
                 futures.append(future)
