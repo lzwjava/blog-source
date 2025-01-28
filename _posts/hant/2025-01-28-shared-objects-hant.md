@@ -1,20 +1,21 @@
 ---
 audio: true
-lang: hant
+lang: en
 layout: post
-title: 多線程中的共享對象
-translated: true
+title: Shared Objects in Multiple Threads
 ---
 
-## 課程
+## Lesson
 
-代碼導致了一個奇怪的錯誤。有時會出現錯誤，有時則不會。
+The code demonstrates a peculiar bug that appears inconsistently. Sometimes the bug occurs, and sometimes it does not, making it difficult to reproduce and debug.
 
-這是因為 `translate_markdown_file` 函數，特別是 `translate_front_matter` 函數，可能正在訪問和修改共享的數據結構（如字典或列表），而沒有進行適當的同步。當多個線程同時訪問和修改相同的數據時，可能會導致競爭條件。競爭條件發生時，數據的最終狀態取決於線程執行的不可預測順序。這可能導致數據損壞、意外行為以及您觀察到的間歇性錯誤。
+This intermittent behavior stems from the way the `translate_markdown_file` function, particularly the `translate_front_matter` function, handles shared data. These functions might be accessing and modifying shared data structures, such as dictionaries or lists, without proper synchronization.
 
-要解決這個問題，您應該避免在線程之間共享可變數據，或者使用適當的同步機制（如鎖）來保護共享數據。在這種情況下，`front_matter_dict` 正在被原地修改，這不是線程安全的。解決方法是創建字典的副本，然後再進行修改。這在代碼中已經完成，但了解為什麼需要這樣做是很重要的。
+When multiple threads access and modify the same data concurrently, it can lead to race conditions. Race conditions occur when the final state of the data depends on the unpredictable order in which threads execute. This can result in data corruption, unexpected program behavior, and the intermittent bugs you are observing.
 
-## 上下文
+To fix this, you should either avoid sharing mutable data between threads or use proper synchronization mechanisms, such as locks, to protect shared data. In this case, the `front_matter_dict` is being modified in place, which is not thread-safe. The fix is to create a copy of the dictionary before modifying it. This is already done in the code, but it's important to understand why it's necessary.
+
+## Context
 
 ```python
   with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
@@ -35,7 +36,7 @@ translated: true
                 print(f"A thread failed: {e}")
 ```
 
-## 之前
+## Before
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
@@ -89,7 +90,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         return front_matter
 ```
 
-## 之後
+## After
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):

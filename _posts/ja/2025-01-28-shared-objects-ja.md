@@ -1,20 +1,21 @@
 ---
 audio: true
-lang: ja
+lang: en
 layout: post
-title: 複数スレッドでの共有オブジェクト
-translated: true
+title: Shared Objects in Multiple Threads
 ---
 
-## レッスン
+## Lesson
 
-このコードは奇妙なバグを引き起こします。時々バグが発生し、時々発生しません。
+The code demonstrates a peculiar bug that appears inconsistently. Sometimes the bug occurs, and sometimes it does not, making it difficult to reproduce and debug.
 
-これは、`translate_markdown_file`関数、特に`translate_front_matter`関数が、適切な同期なしに共有データ構造（辞書やリストなど）にアクセスして変更している可能性があるためです。複数のスレッドが同じデータに同時にアクセスして変更すると、競合状態が発生する可能性があります。競合状態は、データの最終的な状態がスレッドの実行順序に依存する場合に発生します。これにより、データの破損、予期しない動作、そしてあなたが観察している断続的なバグが発生する可能性があります。
+This intermittent behavior stems from the way the `translate_markdown_file` function, particularly the `translate_front_matter` function, handles shared data. These functions might be accessing and modifying shared data structures, such as dictionaries or lists, without proper synchronization.
 
-これを修正するには、スレッド間で可変データを共有しないようにするか、共有データを保護するために適切な同期メカニズム（ロックなど）を使用する必要があります。この場合、`front_matter_dict`がその場で変更されており、これはスレッドセーフではありません。修正方法は、辞書を変更する前にコピーを作成することです。これは既にコードで行われていますが、なぜこれが必要なのかを理解することが重要です。
+When multiple threads access and modify the same data concurrently, it can lead to race conditions. Race conditions occur when the final state of the data depends on the unpredictable order in which threads execute. This can result in data corruption, unexpected program behavior, and the intermittent bugs you are observing.
 
-## コンテキスト
+To fix this, you should either avoid sharing mutable data between threads or use proper synchronization mechanisms, such as locks, to protect shared data. In this case, the `front_matter_dict` is being modified in place, which is not thread-safe. The fix is to create a copy of the dictionary before modifying it. This is already done in the code, but it's important to understand why it's necessary.
+
+## Context
 
 ```python
   with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
@@ -35,7 +36,7 @@ translated: true
                 print(f"A thread failed: {e}")
 ```
 
-## 修正前
+## Before
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
@@ -89,7 +90,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         return front_matter
 ```
 
-## 修正後
+## After
 
 ```python
 def translate_front_matter(front_matter, target_language, input_file):
