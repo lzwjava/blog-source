@@ -2,7 +2,7 @@
 audio: true
 lang: hi
 layout: post
-title: क्लाउड प्रदाता
+title: क्लाउड प्रोवाइडर्स
 translated: true
 ---
 
@@ -17,9 +17,10 @@ translated: true
 * [Google Cloud](https://cloud.google.com)
 * [Tencent Cloud](https://cloud.tencent.com)
 * [Alibaba Cloud](https://www.alibabacloud.com)
-* [https://cn.aliyun.com](https://cn.aliyun.com)
+* [Alibaba Cloud (China)](https://cn.aliyun.com)
 
-सुना है या थोड़े समय के लिए प्रयोग किया:
+सुना है या थोड़ी देर का उपयोग किया गया:
 
 * [UCloud](https://www.ucloud.cn)
 * [QingCloud](https://www.qingcloud.com)
+* [OVHcloud](https://www.ovhcloud.com)

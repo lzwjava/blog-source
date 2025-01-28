@@ -6,7 +6,7 @@ title: Cloud-Anbieter
 translated: true
 ---
 
-Genutzt:
+Verwendet:
 
 * [Azure](https://azure.microsoft.com)
 * [AWS Lightsail](https://aws.amazon.com/lightsail/)
@@ -19,7 +19,8 @@ Genutzt:
 * [Alibaba Cloud](https://www.alibabacloud.com)
 * [Alibaba Cloud (China)](https://cn.aliyun.com)
 
-Gemeldet oder kurz genutzt:
+Von gehört oder kurzzeitig verwendet:
 
 * [UCloud](https://www.ucloud.cn)
 * [QingCloud](https://www.qingcloud.com)
+* [OVHcloud](https://www.ovhcloud.com)

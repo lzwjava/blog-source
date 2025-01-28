@@ -6,7 +6,7 @@ title: Fournisseurs de Cloud
 translated: true
 ---
 
-Utilisé :
+Utilisé:
 
 * [Azure](https://azure.microsoft.com)
 * [AWS Lightsail](https://aws.amazon.com/lightsail/)
@@ -19,7 +19,8 @@ Utilisé :
 * [Alibaba Cloud](https://www.alibabacloud.com)
 * [Alibaba Cloud (Chine)](https://cn.aliyun.com)
 
-Entendu parler ou utilisé pour une courte durée :
+Entendu parler ou utilisé pendant une courte période:
 
 * [UCloud](https://www.ucloud.cn)
 * [QingCloud](https://www.qingcloud.com)
+* [OVHcloud](https://www.ovhcloud.com)

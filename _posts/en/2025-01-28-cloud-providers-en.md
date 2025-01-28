@@ -26,3 +26,4 @@ Heard of or used for a short time:
 
 * [UCloud](https://www.ucloud.cn)
 * [QingCloud](https://www.qingcloud.com)
+* [OVHcloud](https://www.ovhcloud.com)
