@@ -8,6 +8,8 @@ translated: false
 
 
 
+## DeepSeek
+
 In one month, 15 million tokens cost me approximately 23.5 CNY.
 
 This was my usage in one day:
@@ -31,3 +33,21 @@ This result aligns with the expected cost.
 {: .centered }
 ![](assets/images/deepseek/d.jpg)
 *Source: Self-Screenshot*{: .caption }
+
+## Mistral
+
+Model: `mistral-large-2411`
+
+In one day, my Mistral account consumed the following tokens:
+
+| Type   | Tokens  | Cost (USD) |
+|--------|---------|------------|
+| Total  | 772,284 | 3.44       |
+| Output | 474,855 | 2.85       |
+| Input  | 297,429 | 0.59       |
+
+
+The pricing for Mistral Large is as follows:
+
+*   Input: 2 USD per million tokens
+*   Output: 6 USD per million tokens
