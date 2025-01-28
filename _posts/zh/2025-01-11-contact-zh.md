@@ -6,15 +6,15 @@ title: 联系
 translated: true
 ---
 
-大家好，我是李志伟。这里可以找到我的简要介绍[点击查看](/introduction-en)。我网站上的八个按钮展示了我最热衷的领域，我鼓励大家去探索一番。
+你好，我是李志伟。你可以在[这里](/introduction-en)找到一个简短的介绍。我网站上的八个按钮突出了我最热衷的事情；我鼓励你探索它们。
 
-特别值得一提的是，我想请大家关注我关于逆转近视的三篇[论文](/papers-en)。在主页上，你可以轻松通过“选择”按钮找到这些精选文章。
+特别是，我想引起你对我关于逆转近视的三篇[论文](/papers-en)的注意。你可以使用主页上的“选择”按钮轻松找到这些特色文章。
 
-如果你感兴趣，随时欢迎联系我！你可以在X（原Twitter）、WhatsApp或Telegram上跟我打招呼，留言、私信，或者直接发邮件给我。
+如果你有兴趣，随时联系我！你可以在X、WhatsApp或Telegram上和我打招呼，留言，发送直接消息，或者给我发电子邮件。
 
-#### X（原Twitter）
+#### X（Twitter）
 
-我的X账号在此：[https://mobile.twitter.com/lzwjava](https://mobile.twitter.com/lzwjava)。
+我的X账号在这里：[https://mobile.twitter.com/lzwjava](https://mobile.twitter.com/lzwjava)。
 
 #### Whatsapp
 
@@ -24,6 +24,6 @@ translated: true
 
 <div align="center"><img src="/assets/images/contact/t_me-lzwjava.jpg" width="250px" /><img/></div>
 
-#### 邮箱
+#### 电子邮件
 
 lzwjava@gmail.com

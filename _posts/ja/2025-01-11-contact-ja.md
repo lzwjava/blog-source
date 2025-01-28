@@ -2,19 +2,19 @@
 audio: true
 lang: ja
 layout: post
-title: 連絡先
+title: コンタクト
 translated: true
 ---
 
-こんにちは、Zhiwei Liです。簡単な自己紹介は[こちら](/introduction-en)でご覧いただけます。私のサイトにある8つのボタンは、私が最も情熱を注いでいることを示しています。ぜひ探索してみてください。
+こんにちは、私は李志偉です。簡単な自己紹介は[こちら](/introduction-en)で確認できます。サイトにある8つのボタンは私が最も情熱を持っていることを示しており、ぜひ探索してください。
 
-特に、私が執筆した近視逆転に関する3つの[論文](/papers-en)に注目していただきたいです。ホームページの「select」ボタンを使えば、これらの注目のエッセイを簡単に見つけることができます。
+特に、近視を回復させるための3つの[論文](/papers-en)に注目してください。これらの特集エッセイは、ホームページの「選択」ボタンを使って簡単に見つけることができます。
 
-興味を持っていただけたら、ぜひご連絡ください！X、WhatsApp、Telegramで挨拶を送ったり、コメントを残したり、ダイレクトメッセージを送ったり、メールを送ったりすることができます。
+興味があれば、ぜひ連絡してください！X、WhatsApp、Telegramでこんにちはと言ってください、コメントを残してください、ダイレクトメッセージを送ってください、またはメールを送ってください。
 
 #### X(Twitter)
 
-私のXアカウントはこちらです: [https://mobile.twitter.com/lzwjava](https://mobile.twitter.com/lzwjava).
+私のXアカウントはこちらです：[https://mobile.twitter.com/lzwjava](https://mobile.twitter.com/lzwjava)。
 
 #### Whatsapp
 
