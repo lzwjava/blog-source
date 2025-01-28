@@ -6,17 +6,17 @@ title: Contacto
 translated: true
 ---
 
-Hola, soy Zhiwei Li. Puedes encontrar una breve introducción [aquí](/introduction-en). Los ocho botones en mi sitio resaltan aquello por lo que soy más apasionado; te animo a explorarlos.
+Hola, soy Zhiwei Li. Puedes encontrar una breve introducción [aquí](/introduction-en). Los ocho botones en mi sitio resaltan lo que más me apasiona; te animo a explorarlos.
 
-En particular, me gustaría llamar tu atención sobre mis tres [artículos](/papers-en) sobre la reversión de la miopía. Puedes encontrar fácilmente estos ensayos destacados usando el botón "seleccionar" en la página de inicio.
+En particular, me gustaría llamar tu atención sobre mis tres [artículos](/papers-en) sobre la reversión de la miopía. Puedes encontrar fácilmente estos ensayos destacados utilizando el botón "select" en la página de inicio.
 
-No dudes en ponerte en contacto si estás interesado. Puedes saludarme en X, WhatsApp o Telegram, dejar un comentario, enviarme un mensaje directo o enviarme un correo electrónico.
+¡Y no dudes en contactarme si estás interesado! Puedes saludarme en X, WhatsApp o Telegram, dejar un comentario, enviarme un mensaje directo o escribirme un correo electrónico.
 
-#### X (Twitter)
+#### X(Twitter)
 
 Mi cuenta de X está aquí: [https://mobile.twitter.com/lzwjava](https://mobile.twitter.com/lzwjava).
 
-#### WhatsApp
+#### Whatsapp
 
 <div align="center"><img src="/assets/images/contact/whatsapp.jpg" width="250px" /><img/></div>
 
@@ -24,6 +24,6 @@ Mi cuenta de X está aquí: [https://mobile.twitter.com/lzwjava](https://mobile.
 
 <div align="center"><img src="/assets/images/contact/t_me-lzwjava.jpg" width="250px" /><img/></div>
 
-#### Correo Electrónico
+#### Email
 
 lzwjava@gmail.com

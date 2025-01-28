@@ -2,19 +2,19 @@
 audio: true
 lang: hant
 layout: post
-title: 語言支援：字體及語音轉文字
+title: 語言支援：字體與文字轉語音
 translated: true
 ---
 
-我的博客現已支援九種語言：日語（`ja`）、西班牙語（`es`）、印地語（`hi`）、中文（`zh`）、英語（`en`）、法語（`fr`）、德語（`de`）、阿拉伯語（`ar`）和繁體中文（`hant`）。你可以在[https://lzwjava.github.io](https://lzwjava.github.io)找到網站。
+我的部落格現在支援九種語言：日語（`ja`）、西班牙語（`es`）、印地語（`hi`）、中文（`zh`）、英語（`en`）、法語（`fr`）、德語（`de`）、阿拉伯語（`ar`）和繁體中文（`hant`）。你可以在 [https://lzwjava.github.io](https://lzwjava.github.io) 找到這個網站。
 
-在電腦環境中處理多種語言時，需要考慮幾個方面。
+在電腦環境中處理多種語言時，有幾個方面需要考慮。
 
-## 字體處理
+## 字型處理
 
-不同語言需要特定字體才能正確渲染，特別是使用LaTeX生成PDF時。以下Python代碼示範了如何根據操作系統和語言選擇合適的字體：
+不同的語言需要特定的字型來正確顯示，尤其是在使用 LaTeX 生成 PDF 時。以下 Python 程式碼展示了如何根據作業系統和語言選擇合適的字型：
 
-python
+```python
     if platform.system() == "Darwin":
         if lang == "hi":
             CJK_FONT = "Kohinoor Devanagari"
@@ -61,34 +61,30 @@ python
         '-V', 'CJKoptions=Scale=1.1',
         '-V', 'linestretch=1.5'
     ]
+```
 
+需要注意的是，這個解決方案並不完美。例如，程式碼塊註解中的印地語文字可能無法如預期般顯示。
 
-需要注意的是，這個解決方案並不完美。例如，代碼塊註釋中的印地文文本可能無法按預期渲染。
+## 文字轉語音
 
-## 語音合成
+我使用 Google 文字轉語音來生成部落格文章的語音版本。以下程式碼片段展示了我如何為文字轉語音引擎選擇合適的語言代碼：
 
-我使用Google語音合成來生成博客文章的音頻版本。以下代碼片段展示了我如何為語音合成引擎選擇合適的語言代碼：
-
-python
+```python
             if filename.endswith('-zh.md'):
                 language_code = "cmn-CN"
                 voice_language_code = "cmn-CN"
             else:
                 language_code = "en-US"
                 voice_language_code = "en-US"
-
+            
             text_to_speech(
-                text=article_text,
-                output_filename=output_filename,
-                task=task,
-                language_code=language_code,
+                text=article_text, 
+                output_filename=output_filename, 
+                task=task, 
+                language_code=language_code, 
                 dry_run=dry_run,
                 progress=progress
             )
+```
 
-
-目前，音頻僅針對中文和英文內容生成。要擴展對其他語言的支援，必須配置相應的語言代碼。
-
-## 總結
-
-語言在兩個主要方面有所不同：書寫表示（形狀）和語音形式（發音）。字體選擇和語音合成配置分別解決了這兩個方面的問題。
+目前，語音生成僅針對中文和英文內容。要擴展到其他語言，必須配置相應的語言代碼。

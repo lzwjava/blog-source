@@ -2,19 +2,19 @@
 audio: true
 lang: es
 layout: post
-title: 'Soporte de Idiomas: Fuentes y Texto a Voz'
+title: 'Soporte de idiomas: Fuentes y Texto a Voz'
 translated: true
 ---
 
-Mi blog ahora admite nueve idiomas: japonés (`ja`), español (`es`), hindi (`hi`), chino (`zh`), inglés (`en`), francés (`fr`), alemán (`de`), árabe (`ar`) y chino tradicional (`hant`). Puedes encontrar el sitio en [https://lzwjava.github.io](https://lzwjava.github.io)
+Mi blog ahora admite nueve idiomas: japonés (`ja`), español (`es`), hindi (`hi`), chino (`zh`), inglés (`en`), francés (`fr`), alemán (`de`), árabe (`ar`) y chino tradicional (`hant`). Puedes encontrar el sitio en [https://lzwjava.github.io](https://lzwjava.github.io).
 
-Al trabajar con múltiples idiomas en un entorno informático, se deben considerar varios aspectos.
+Cuando se trata de múltiples idiomas en un entorno informático, hay varios aspectos que deben considerarse.
 
 ## Manejo de Fuentes
 
-Diferentes idiomas requieren fuentes específicas para una renderización correcta, especialmente al generar PDFs usando LaTeX. El siguiente código en Python demuestra cómo seleccionar las fuentes apropiadas según el sistema operativo y el idioma:
+Diferentes idiomas requieren fuentes específicas para su correcta representación, especialmente al generar PDFs con LaTeX. El siguiente código en Python muestra cómo seleccionar las fuentes apropiadas según el sistema operativo y el idioma:
 
-python
+```python
     if platform.system() == "Darwin":
         if lang == "hi":
             CJK_FONT = "Kohinoor Devanagari"
@@ -61,34 +61,30 @@ python
         '-V', 'CJKoptions=Scale=1.1',
         '-V', 'linestretch=1.5'
     ]
+```
 
-
-Es importante señalar que esta solución no es perfecta. Por ejemplo, el texto en hindi dentro de los comentarios de los bloques de código puede no renderizarse como se espera.
+Es importante tener en cuenta que esta solución no es perfecta. Por ejemplo, el texto en hindi dentro de los comentarios de los bloques de código podría no renderizarse como se espera.
 
 ## Texto a Voz
 
-Utilizo Google Text-to-Speech para generar versiones de audio de mis publicaciones en el blog. El siguiente fragmento de código ilustra cómo selecciono el código de idioma apropiado para el motor de texto a voz:
+Utilizo Google Text-to-Speech para generar versiones de audio de mis publicaciones en el blog. El siguiente fragmento de código ilustra cómo selecciono el código de idioma adecuado para el motor de texto a voz:
 
-python
+```python
             if filename.endswith('-zh.md'):
                 language_code = "cmn-CN"
                 voice_language_code = "cmn-CN"
             else:
                 language_code = "en-US"
                 voice_language_code = "en-US"
-
+            
             text_to_speech(
-                text=article_text,
-                output_filename=output_filename,
-                task=task,
-                language_code=language_code,
+                text=article_text, 
+                output_filename=output_filename, 
+                task=task, 
+                language_code=language_code, 
                 dry_run=dry_run,
                 progress=progress
             )
-
+```
 
 Actualmente, el audio se genera para contenido en chino e inglés. Para extender el soporte a otros idiomas, se deben configurar los códigos de idioma correspondientes.
-
-## Resumen
-
-Los idiomas difieren en dos aspectos principales: su representación escrita (forma) y su forma hablada (pronunciación). La selección de fuentes y las configuraciones de texto a voz abordan estos dos aspectos, respectivamente.
