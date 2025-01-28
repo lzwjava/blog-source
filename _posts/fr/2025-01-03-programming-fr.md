@@ -1,63 +1,63 @@
 ---
 audio: true
-lang: fr
+lang: en
 layout: post
-title: Programmation
-translated: true
+title: Programming
 ---
 
-* Il est acceptable de faire de la programmation compétitive tant que cela vous motive.
+* It is okay to do competitive programming as long as it motivates you.
 
-* La programmation, c'est comme écrire. La programmation est une activité créative.
+* Programming is like writing. Programming is a creative activity.
 
-* Faites votre propre projet. Écrivez votre blog technique. Programmez pour un projet que vous maintiendrez pendant des années, tout comme entretenir un blog pendant 10 ans.
+* Do your own project. Write your technical blog. Program for a project that you will maintain for years, just like maintaining a 10-year-long blog.
 
-* En général, vous n'avez pas besoin de poursuivre ce qui est à la mode dans la technologie actuellement, car de nombreuses tendances disparaîtront après quelques années.
+* Usually, you do not need to pursue what's hot in technology now, as many trends will fade after a few years.
 
-* Suivez votre curiosité et programmez pour votre propre plaisir.
+* Pursue your curiosity and program for your own sake.
 
-* Essayez de créer des programmes pour vous-même. Ce ne sont pas des tâches de travail.
+* Try to create programs for yourself. They are not work assignments.
 
-* Si vous vous sentez souvent malheureux en programmant, alors vous le faites de la mauvaise manière.
+* If you feel unhappy often when programming, then you are doing it the wrong way.
 
-* iOS, Android, Backend, Frontend, IA, tout cela est bien. On peut au moins essayer de faire un petit projet en les utilisant ou les apprendre pendant quelques mois.
+* iOS, Android, Backend, Frontend, AI are all good. One can at least try to make a small project using them or learn about them for a few months.
 
-* Le débogage, c'est être méfiant. Ne faites pas confiance à chaque ligne de votre code ; vous pouvez penser à une meilleure façon de le faire.
+* Debugging is about being suspicious. Do not trust every line of your code; you can think of a better way to do it.
 
-* En programmation, même un caractère ou une ligne de log est important. Ils vous disent quelque chose.
+* In programming, even a character or a line of log is important. They tell you something.
 
-* Utiliser la programmation pour créer des produits que d'autres utiliseront. C'est intéressant d'avoir des utilisateurs.
+* Using programming makes products for others to use. It is interesting to have users.
 
-* Vous n'avez pas besoin d'être dur. Quelques centaines d'utilisateurs qui adorent vraiment votre produit valent mieux que des dizaines de milliers d'utilisateurs qui aiment simplement gentiment votre produit.
+* You do not need to be harsh. A few hundred users really loving your product is better than tens of thousands of users who just kindly like your product.
 
-* Souvenez-vous pourquoi vous vous êtes lancé dans la programmation et ne l'oubliez jamais.
+* Remember why you got into programming and never forget it.
 
-* Appliquez les connaissances en programmation à tous les aspects de la vie. Ils sont les mêmes. Faire les choses par lots ou une par une. Comment séparer les tâches en unités. La technologie sous-jacente derrière chaque application. Les détails nuancés derrière les requêtes réseau.
+* Apply knowledge in programming to every aspect of life. They are the same. Doing things in batches or one by one. How to separate jobs into units. The underlying tech behind every app. The nuanced details behind network requests.
 
-* L'abstraction et la pensée logique. La pensée orientée vers les détails. La réflexion sur chaque solution.
+* The abstraction and logical thinking. The detail-oriented thinking. The thinking out of every solution.
 
-* La vérité est la vérité. En général, l'ordinateur ne se trompera pas. Le circuit électrique ne se trompera pas. Le compilateur ne se trompera pas. Ne vous sentez pas contrarié lorsqu'il y a un bug.
+* Truth is truth. Usually, the computer won't be wrong. The electric circuit won't be wrong. The compiler won't be wrong. Don't feel upset when there is a bug.
 
-* Recherchez des solutions élégantes et simples. La simplicité est la sophistication ultime. Vous devez réfléchir dur pour garder ce qui est essentiel et supprimer ce qui est superflu.
+* Pursue elegant and simple solutions. Simplicity is the ultimate sophistication. You need to think hard to leave what's essential and remove what's extra.
 
-* Pour les langages de programmation, les langages qui font le travail sont acceptables. Personnellement, je recommande Java et Python.
+* For programming languages, the languages that get the work done are okay. I personally recommend Java and Python.
 
-* Suivez Yin Wang sur [https://www.yinwang.org](https://www.yinwang.org). Il est l'un des rares génies en programmation, bien qu'il dise que les génies n'existent jamais.
+* Follow Yin Wang at [https://www.yinwang.org](https://www.yinwang.org). He is one of the few geniuses in programming, though he says geniuses never exist.
 
-* Les connaissances et les principes de la programmation peuvent être facilement appliqués à l'apprentissage des langues, à la réparation de matériel, au hacking de vie, et à la recherche scientifique.
+* The knowledge and principles of programming can be easily applied to language learning, hardware repairing, life hacking, and scientific researching.
 
-* Pour la plupart des tâches de programmation, vous n'avez pas besoin de mathématiques sophistiquées au-delà des mathématiques du lycée.
+* For most programming tasks, you don't need fancy math besides high school math.
 
-* Réfléchissez à votre ancien code après des années ou maintenez un projet de code pendant longtemps. Cela vous apprendra beaucoup.
+* Reflect on your old code after years or maintain a code project for a long time. It will teach you a lot.
 
-* Si vous perdez votre passion pour la programmation, faites simplement autre chose pendant un certain temps.
+* If you lose your passion for programming, just do other things for some time.
 
-* Le timing des tests est important. Faites-le simplement naturellement. Vous n'avez souvent pas besoin d'écrire des tests pour votre projet. Essayez de ne pas écrire de tests, écrivez des tests unitaires, écrivez des tests d'intégration, écrivez des tests d'API. Comparez-les judicieusement.
+* The timing of testing is important. Just do it naturally. You often don't need to write tests for your project. Try not to write tests, write unit tests, write integration tests, write API tests. Compare them wisely.
 
-* Essayez les éditeurs de code IA. Utilisez souvent ChatGPT ou d'autres chatbots. Comme les outils IA sont faciles à utiliser maintenant, vous pouvez vous concentrer sur des parties plus créatives ou importantes.
+* Try AI code editors. Use ChatGPT or other chatbots often. As AI tools are easy to use now, you can focus on more creative or important parts.
 
-* Lors du débogage, vérifiez si vous utilisez la dernière version des bibliothèques. Si une bibliothèque n'est plus maintenue, recherchez des clones ou des forks activement maintenus.
+* When debugging, check if you're using the latest version of libraries. If a library is unmaintained, look for actively maintained clones or forks.
 
-* Lorsque vous améliorez quelque chose comme la vitesse du réseau ou le temps d'exécution d'un programme, il doit y avoir une métrique quantitative. Sinon, vous ne saurez pas exactement s'il y a eu une amélioration ou une dégradation triviale.
+* When improving something like network speed or program running time, there must be a quantitative metric. Otherwise, you won't know exactly if there was a trivial improvement or degradation.
 
-* Pour les projets personnels, il est acceptable de ne pas écrire de code de test, mais il est préférable de faire des tests locaux après avoir modifié une quantité importante de code. Considérez le code affecté, combien de temps il s'exécutera dans le pipeline cloud, et à quelle fréquence il entraînera des erreurs, donc testez le code en conséquence.
+* For personal projects, it's okay not to write test code, but it's better to do local testing after changing a significant amount of code. Consider the affected code, how long it will run in the cloud pipeline, and how frequently it might lead to errors, and then write test code accordingly. Use methods that allow for easy testing without negatively impacting user experience.
+

@@ -1,63 +1,63 @@
 ---
 audio: true
-lang: ar
+lang: en
 layout: post
-title: البرمجة
-translated: true
+title: Programming
 ---
 
-* لا بأس بممارسة البرمجة التنافسية طالما أنها تحفزك.
+* It is okay to do competitive programming as long as it motivates you.
 
-* البرمجة تشبه الكتابة. البرمجة نشاط إبداعي.
+* Programming is like writing. Programming is a creative activity.
 
-* قم بمشروعك الخاص. اكتب مدونتك التقنية. برمج لمشروع ستحافظ عليه لسنوات، تمامًا مثل الحفاظ على مدونة لمدة 10 سنوات.
+* Do your own project. Write your technical blog. Program for a project that you will maintain for years, just like maintaining a 10-year-long blog.
 
-* عادةً، لا تحتاج إلى متابعة ما هو شائع في التكنولوجيا الآن، حيث أن العديد من الاتجاهات ستتلاشى بعد بضع سنوات.
+* Usually, you do not need to pursue what's hot in technology now, as many trends will fade after a few years.
 
-* اتبع فضولك وبرمج من أجل نفسك.
+* Pursue your curiosity and program for your own sake.
 
-* حاول إنشاء برامج لنفسك. ليست مهام عمل.
+* Try to create programs for yourself. They are not work assignments.
 
-* إذا كنت تشعر بعدم السعادة غالبًا عند البرمجة، فأنت تفعل ذلك بالطريقة الخاطئة.
+* If you feel unhappy often when programming, then you are doing it the wrong way.
 
-* iOS، Android، Backend، Frontend، AI كلها جيدة. يمكنك على الأقل محاولة إنشاء مشروع صغير باستخدامها أو التعرف عليها لبضعة أشهر.
+* iOS, Android, Backend, Frontend, AI are all good. One can at least try to make a small project using them or learn about them for a few months.
 
-* التصحيح يتعلق بالشك. لا تثق بكل سطر من الكود الخاص بك؛ يمكنك التفكير في طريقة أفضل للقيام بذلك.
+* Debugging is about being suspicious. Do not trust every line of your code; you can think of a better way to do it.
 
-* في البرمجة، حتى حرف واحد أو سطر من السجلات مهم. إنهم يخبرونك بشيء.
+* In programming, even a character or a line of log is important. They tell you something.
 
-* استخدام البرمجة لإنشاء منتجات يستخدمها الآخرون. من الممتع أن يكون لديك مستخدمين.
+* Using programming makes products for others to use. It is interesting to have users.
 
-* لا تحتاج إلى أن تكون قاسيًا. بضع مئات من المستخدمين الذين يحبون منتجك حقًا أفضل من عشرات الآلاف من المستخدمين الذين يعجبون بمنتجك بلطف.
+* You do not need to be harsh. A few hundred users really loving your product is better than tens of thousands of users who just kindly like your product.
 
-* تذكر سبب دخولك إلى عالم البرمجة ولا تنساه أبدًا.
+* Remember why you got into programming and never forget it.
 
-* طبق المعرفة في البرمجة على كل جانب من جوانب الحياة. إنها نفس الشيء. القيام بالأشياء على دفعات أو واحدة تلو الأخرى. كيفية فصل المهام إلى وحدات. التكنولوجيا الأساسية وراء كل تطبيق. التفاصيل الدقيقة وراء طلبات الشبكة.
+* Apply knowledge in programming to every aspect of life. They are the same. Doing things in batches or one by one. How to separate jobs into units. The underlying tech behind every app. The nuanced details behind network requests.
 
-* التجريد والتفكير المنطقي. التفكير الموجه نحو التفاصيل. التفكير في كل حل.
+* The abstraction and logical thinking. The detail-oriented thinking. The thinking out of every solution.
 
-* الحقيقة هي الحقيقة. عادةً، الكمبيوتر لن يكون مخطئًا. الدائرة الكهربائية لن تكون مخطئة. المترجم لن يكون مخطئًا. لا تشعر بالضيق عندما يكون هناك خطأ.
+* Truth is truth. Usually, the computer won't be wrong. The electric circuit won't be wrong. The compiler won't be wrong. Don't feel upset when there is a bug.
 
-* ابحث عن الحلول الأنيقة والبسيطة. البساطة هي التطور النهائي. تحتاج إلى التفكير بجدية لترك ما هو أساسي وإزالة ما هو زائد.
+* Pursue elegant and simple solutions. Simplicity is the ultimate sophistication. You need to think hard to leave what's essential and remove what's extra.
 
-* بالنسبة للغات البرمجة، اللغات التي تنهي العمل جيدة. أنا شخصيًا أوصي بـ Java و Python.
+* For programming languages, the languages that get the work done are okay. I personally recommend Java and Python.
 
-* تابع Yin Wang على [https://www.yinwang.org](https://www.yinwang.org). إنه واحد من القلائل العباقرة في البرمجة، على الرغم من أنه يقول إن العباقرة لا وجود لهم.
+* Follow Yin Wang at [https://www.yinwang.org](https://www.yinwang.org). He is one of the few geniuses in programming, though he says geniuses never exist.
 
-* يمكن تطبيق معرفة ومبادئ البرمجة بسهولة على تعلم اللغات، إصلاح الأجهزة، اختراق الحياة، والبحث العلمي.
+* The knowledge and principles of programming can be easily applied to language learning, hardware repairing, life hacking, and scientific researching.
 
-* بالنسبة لمعظم مهام البرمجة، لا تحتاج إلى رياضيات متقدمة بخلاف الرياضيات الثانوية.
+* For most programming tasks, you don't need fancy math besides high school math.
 
-* فكر في الكود القديم الخاص بك بعد سنوات أو حافظ على مشروع كود لفترة طويلة. سيعلمك الكثير.
+* Reflect on your old code after years or maintain a code project for a long time. It will teach you a lot.
 
-* إذا فقدت شغفك بالبرمجة، فقط افعل أشياء أخرى لبعض الوقت.
+* If you lose your passion for programming, just do other things for some time.
 
-* توقيت الاختبار مهم. فقط افعله بشكل طبيعي. غالبًا لا تحتاج إلى كتابة اختبارات لمشروعك. حاول ألا تكتب اختبارات، اكتب اختبارات الوحدات، اكتب اختبارات التكامل، اكتب اختبارات API. قارنها بحكمة.
+* The timing of testing is important. Just do it naturally. You often don't need to write tests for your project. Try not to write tests, write unit tests, write integration tests, write API tests. Compare them wisely.
 
-* جرب محررات الكود المدعومة بالذكاء الاصطناعي. استخدم ChatGPT أو روبوتات الدردشة الأخرى بشكل متكرر. نظرًا لأن أدوات الذكاء الاصطناعي سهلة الاستخدام الآن، يمكنك التركيز على الأجزاء الأكثر إبداعًا أو أهمية.
+* Try AI code editors. Use ChatGPT or other chatbots often. As AI tools are easy to use now, you can focus on more creative or important parts.
 
-* عند التصحيح، تحقق مما إذا كنت تستخدم أحدث إصدار من المكتبات. إذا كانت المكتبة غير محفوظة، ابحث عن نسخ أو فروع يتم صيانتها بنشاط.
+* When debugging, check if you're using the latest version of libraries. If a library is unmaintained, look for actively maintained clones or forks.
 
-* عند تحسين شيء مثل سرعة الشبكة أو وقت تشغيل البرنامج، يجب أن يكون هناك مقياس كمي. وإلا، لن تعرف بالضبط إذا كان هناك تحسن طفيف أو تدهور.
+* When improving something like network speed or program running time, there must be a quantitative metric. Otherwise, you won't know exactly if there was a trivial improvement or degradation.
 
-* بالنسبة للمشاريع الشخصية، لا بأس بعدم كتابة كود الاختبار، ولكن من الأفضل إجراء اختبار محلي بعد تغيير كمية كبيرة من الكود. ضع في الاعتبار الكود المتأثر، وكم من الوقت سيتم تشغيله في خط الأنابيب السحابي، وكم مرة سيؤدي إلى أخطاء، لذا قم باختبار الكود وفقًا لذلك.
+* For personal projects, it's okay not to write test code, but it's better to do local testing after changing a significant amount of code. Consider the affected code, how long it will run in the cloud pipeline, and how frequently it might lead to errors, and then write test code accordingly. Use methods that allow for easy testing without negatively impacting user experience.
+

@@ -1,63 +1,63 @@
 ---
 audio: true
-lang: ja
+lang: en
 layout: post
-title: プログラミング
-translated: true
+title: Programming
 ---
 
-* 競技プログラミングは、あなたのモチベーションを高める限り、やっても構いません。
+* It is okay to do competitive programming as long as it motivates you.
 
-* プログラミングは文章を書くようなものです。プログラミングは創造的な活動です。
+* Programming is like writing. Programming is a creative activity.
 
-* 自分自身のプロジェクトを行いましょう。技術ブログを書きましょう。10年間続けるブログのように、何年もメンテナンスするプロジェクトのためにプログラミングをしましょう。
+* Do your own project. Write your technical blog. Program for a project that you will maintain for years, just like maintaining a 10-year-long blog.
 
-* 通常、現在の技術トレンドを追い求める必要はありません。多くのトレンドは数年後に消え去るからです。
+* Usually, you do not need to pursue what's hot in technology now, as many trends will fade after a few years.
 
-* 好奇心を追求し、自分のためにプログラミングをしましょう。
+* Pursue your curiosity and program for your own sake.
 
-* 自分のためにプログラムを作ってみましょう。それらは仕事の課題ではありません。
+* Try to create programs for yourself. They are not work assignments.
 
-* プログラミングをしていて頻繁に不幸せを感じるなら、それは間違ったやり方でやっているということです。
+* If you feel unhappy often when programming, then you are doing it the wrong way.
 
-* iOS、Android、バックエンド、フロントエンド、AIはすべて良いものです。少なくともそれらを使って小さなプロジェクトを作ったり、数ヶ月間学んだりすることはできます。
+* iOS, Android, Backend, Frontend, AI are all good. One can at least try to make a small project using them or learn about them for a few months.
 
-* デバッグは疑うことです。コードの各行を信頼しないでください。もっと良い方法を考えることができます。
+* Debugging is about being suspicious. Do not trust every line of your code; you can think of a better way to do it.
 
-* プログラミングでは、1文字や1行のログも重要です。それらは何かを伝えています。
+* In programming, even a character or a line of log is important. They tell you something.
 
-* プログラミングを使って他の人が使う製品を作ります。ユーザーがいることは面白いことです。
+* Using programming makes products for others to use. It is interesting to have users.
 
-* 厳しくする必要はありません。あなたの製品を本当に愛してくれる数百人のユーザーは、ただ優しく好意的な数万人のユーザーよりも良いです。
+* You do not need to be harsh. A few hundred users really loving your product is better than tens of thousands of users who just kindly like your product.
 
-* なぜプログラミングを始めたのかを覚えておき、それを忘れないでください。
+* Remember why you got into programming and never forget it.
 
-* プログラミングの知識を生活のあらゆる側面に応用しましょう。それらは同じです。物事をバッチ処理するか一つずつ行うか。仕事をどのように単位に分けるか。すべてのアプリの背後にある基盤技術。ネットワークリクエストの背後にある微妙な詳細。
+* Apply knowledge in programming to every aspect of life. They are the same. Doing things in batches or one by one. How to separate jobs into units. The underlying tech behind every app. The nuanced details behind network requests.
 
-* 抽象化と論理的思考。細部にこだわる思考。すべての解決策を考えること。
+* The abstraction and logical thinking. The detail-oriented thinking. The thinking out of every solution.
 
-* 真実は真実です。通常、コンピュータは間違いを犯しません。電気回路は間違いを犯しません。コンパイラは間違いを犯しません。バグがあっても落ち込まないでください。
+* Truth is truth. Usually, the computer won't be wrong. The electric circuit won't be wrong. The compiler won't be wrong. Don't feel upset when there is a bug.
 
-* エレガントでシンプルな解決策を追求しましょう。シンプルさは究極の洗練です。本質的なものを残し、余分なものを取り除くために一生懸命考える必要があります。
+* Pursue elegant and simple solutions. Simplicity is the ultimate sophistication. You need to think hard to leave what's essential and remove what's extra.
 
-* プログラミング言語については、仕事をこなす言語であれば問題ありません。個人的にはJavaとPythonをお勧めします。
+* For programming languages, the languages that get the work done are okay. I personally recommend Java and Python.
 
-* [https://www.yinwang.org](https://www.yinwang.org) のYin Wangをフォローしましょう。彼はプログラミングにおける数少ない天才の一人ですが、天才は存在しないと言っています。
+* Follow Yin Wang at [https://www.yinwang.org](https://www.yinwang.org). He is one of the few geniuses in programming, though he says geniuses never exist.
 
-* プログラミングの知識と原則は、言語学習、ハードウェア修理、ライフハック、科学研究に簡単に応用できます。
+* The knowledge and principles of programming can be easily applied to language learning, hardware repairing, life hacking, and scientific researching.
 
-* ほとんどのプログラミングタスクでは、高校数学以外の高度な数学は必要ありません。
+* For most programming tasks, you don't need fancy math besides high school math.
 
-* 数年後に古いコードを振り返ったり、長期間コードプロジェクトをメンテナンスしたりしましょう。それはあなたに多くのことを教えてくれます。
+* Reflect on your old code after years or maintain a code project for a long time. It will teach you a lot.
 
-* プログラミングへの情熱を失ったら、しばらく他のことをしましょう。
+* If you lose your passion for programming, just do other things for some time.
 
-* テストのタイミングは重要です。自然に行いましょう。プロジェクトのためにテストを書く必要はしばしばありません。テストを書かないようにし、ユニットテストを書き、統合テストを書き、APIテストを書いてみましょう。それらを賢く比較してください。
+* The timing of testing is important. Just do it naturally. You often don't need to write tests for your project. Try not to write tests, write unit tests, write integration tests, write API tests. Compare them wisely.
 
-* AIコードエディタを試してみましょう。ChatGPTや他のチャットボットを頻繁に使いましょう。AIツールが使いやすくなった今、より創造的で重要な部分に集中できます。
+* Try AI code editors. Use ChatGPT or other chatbots often. As AI tools are easy to use now, you can focus on more creative or important parts.
 
-* デバッグするときは、ライブラリの最新バージョンを使っているか確認してください。ライブラリがメンテナンスされていない場合は、積極的にメンテナンスされているクローンやフォークを探してください。
+* When debugging, check if you're using the latest version of libraries. If a library is unmaintained, look for actively maintained clones or forks.
 
-* ネットワーク速度やプログラムの実行時間を改善するときは、定量的な指標が必要です。そうでなければ、些細な改善か劣化があったか正確にはわかりません。
+* When improving something like network speed or program running time, there must be a quantitative metric. Otherwise, you won't know exactly if there was a trivial improvement or degradation.
 
-* 個人プロジェクトでは、テストコードを書かなくても構いませんが、大量のコードを変更した後はローカルテストを行う方が良いです。影響を受けるコード、クラウドパイプラインで実行される時間、エラーが発生する頻度を考慮して、それに応じてテストコードを書いてください。
+* For personal projects, it's okay not to write test code, but it's better to do local testing after changing a significant amount of code. Consider the affected code, how long it will run in the cloud pipeline, and how frequently it might lead to errors, and then write test code accordingly. Use methods that allow for easy testing without negatively impacting user experience.
+
