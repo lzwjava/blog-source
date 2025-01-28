@@ -21,8 +21,12 @@ MAX_THREADS = 10
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 
-def create_translation_prompt(target_language, special=False):
-    base_prompt = "Translate below markdown text to {target_language}. Just give translated markdown.\n"
+
+def create_translation_prompt(target_language, type="content", special=False):
+    if type == "title":
+        base_prompt = "Translate the following title to {target_language}. Provide only the translated title.\n"
+    else:
+        base_prompt = "Translate the following markdown text to {target_language}. Provide only the translated output.\n"
     if target_language == 'ja':
         return base_prompt.format(target_language="Japanese")
     elif target_language == 'es':
@@ -66,15 +70,14 @@ def call_mistral_api(prompt):
         ]
     }
     try:
-        print(f"Mistral API Request: {data}")
+        # print(f"Mistral API Request: {data}")
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()
         response_json = response.json()
-        print(f"Mistral API Response: {response_json}")
+        # print(f"Mistral API Response: {response_json}")
 
         if response_json and response_json['choices']:
             content = response_json['choices'][0]['message']['content']
-            content = content.replace("```", "").strip()
             return content
         else:
             print(f"Mistral API Error: Invalid response format: {response_json}")
@@ -86,7 +89,7 @@ def call_mistral_api(prompt):
             print(f"Response content: {e.response.text}")
         return None
 
-def translate_text(text, target_language, special=False, model="deepseek"):
+def translate_text(text, target_language, type="content", special=False, model="deepseek"):
     if not text or not text.strip():
         return ""
     if target_language == 'en':
@@ -103,7 +106,7 @@ def translate_text(text, target_language, special=False, model="deepseek"):
             data = {
                 "model": MODEL_NAME,
                 "messages": [
-                    {"role": "system", "content": create_translation_prompt(target_language, special)},
+                    {"role": "system", "content": create_translation_prompt(target_language, type, special)},
                     {"role": "user", "content": text}
                 ],
                 "stream": False
@@ -132,7 +135,7 @@ def translate_text(text, target_language, special=False, model="deepseek"):
                 print("  Response content is empty.")
             return None
     elif model == "mistral":
-        prompt = create_translation_prompt(target_language, special) + "\n\n" + text
+        prompt = create_translation_prompt(target_language, type, special) + "\n\n" + text
         translated_text = call_mistral_api(prompt)
         return translated_text
     else:
@@ -155,7 +158,7 @@ def translate_front_matter(front_matter, target_language, input_file, model="dee
         
         if 'title' in front_matter_dict_copy:
             print(f"  Translating title: {front_matter_dict_copy['title']}")
-            translated_title = translate_text(front_matter_dict_copy['title'], target_language, model=model)
+            translated_title = translate_text(front_matter_dict_copy['title'], target_language, type="title", model=model)
             if translated_title:
                 translated_title = translated_title.strip()
                 front_matter_dict_copy['title'] = translated_title

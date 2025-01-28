@@ -2,11 +2,11 @@
 audio: true
 lang: hant
 layout: post
-title: AI-Powered Git Commit Messages
+title: AI智能生成Git提交信息
 translated: true
 ---
 
-這個 Python 腳本應該放置在系統 PATH 包含的目錄中，例如 `~/bin`。
+這個 Python 腳本應該放置在系統 PATH 中的一個目錄中，例如 `~/bin`。
 
 ```python
 import subprocess
@@ -14,40 +14,77 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 import argparse
+import requests
 
 load_dotenv()
 
-def gitmessageai(push=True, only_message=False):
-    # 暫存所有變更
-    subprocess.run(["git", "add", "-A"], check=True)    
+def call_mistral_api(prompt):
+    api_key = os.environ.get("MISTRAL_API_KEY")
+    if not api_key:
+        print("Error: MISTRAL_API_KEY 環境變數未設置。")
+        return None
 
-    # 獲取變更的簡要摘要
-    files_process = subprocess.run(["git", "diff", "--staged", "--name-only"], capture_output=True, text=True, check=True)
-    changed_files = files_process.stdout
+    url = "https://api.mistral.ai/v1/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "Authorization": f"Bearer {api_key}"
+    }
+    data = {
+        "model": "mistral-large-latest",
+        "messages": [
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+    }
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        response.raise_for_status()
+        response_json = response.json()
+        if response_json and response_json['choices']:
+            return response_json['choices'][0]['message']['content']
+        else:
+            print(f"Mistral API Error: 無效的回應格式: {response_json}")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"Mistral API Error: {e}")
+        if e.response:
+            print(f"回應狀態碼: {e.response.status_code}")
+            print(f"回應內容: {e.response.text}")
+        return None
 
-    if not changed_files:
-        print("沒有變更需要提交。")
-        return
+def call_gemini_api(prompt):
+    gemini_api_key = os.environ.get("GEMINI_API_KEY")
+    if not gemini_api_key:
+        print("Error: GEMINI_API_KEY 環境變數未設置。")
+        return None
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+    params = {"key": gemini_api_key}
+    payload = {"contents": [{"parts": [{"text": prompt}]}]}
+    try:
+        response = requests.post(url, json=payload, params=params)
+        response.raise_for_status()  # 對異常狀態碼拋出例外
+        response_json = response.json()
+        if response_json and 'candidates' in response_json and response_json['candidates']:
+            return response_json['candidates'][0]['content']['parts'][0]['text']
+        else:
+            print(f"Gemini API Error: 無效的回應格式: {response_json}")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"Gemini API Error: {e}")
+        if e.response:
+            print(f"回應狀態碼: {e.response.status_code}")
+            print(f"回應內容: {e.response.text}")
+        return None
 
-    # 準備 AI 的提示
-    prompt = f"""
-為以下代碼變更生成一個簡潔的提交訊息，使用 Conventional Commits 格式。
-使用以下類型之一：feat、fix、docs、style、refactor、test、chore、perf、ci、build 或 revert。
-如果適用，請在括號中包含範圍以描述受影響的代碼庫部分。
-提交訊息不應超過 70 個字符。
-
-變更的文件：
-{changed_files}
-
-提交訊息：
-"""    
-
-    # 將提示發送到 DeepSeek API
+def call_deepseek_api(prompt):
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
-        print("錯誤：未設置 DEEPSEEK_API_KEY 環境變量。")
-        return
-    
+        print("Error: DEEPSEEK_API_KEY 環境變數未設置。")
+        return None
+
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
 
     try:
@@ -61,50 +98,106 @@ def gitmessageai(push=True, only_message=False):
         if response and response.choices:
             commit_message = response.choices[0].message.content.strip()
             commit_message = commit_message.replace('`', '')
+            return commit_message
         else:
-            print("錯誤：API 沒有回應。")
-            return
+            print("Error: 沒有從 API 獲取回應。")
+            return None
     except Exception as e:
-        print(f"API 調用期間發生錯誤：{e}")
+        print(f"API 調用時發生錯誤: {e}")
         print(e)
+        return None
+
+def gitmessageai(push=True, only_message=False, api='deepseek'):
+    # 添加所有更改
+    subprocess.run(["git", "add", "-A"], check=True)
+
+    # 獲取更改的簡要摘要
+    files_process = subprocess.run(["git", "diff", "--staged", "--name-only"], capture_output=True, text=True, check=True)
+    changed_files = files_process.stdout
+
+    if not changed_files:
+        print("沒有更改需要提交。")
+        return
+
+    # 準備 AI 的提示
+    prompt = f"""
+生成以下程式碼更改的簡潔提交訊息，格式為 Conventional Commits。
+使用以下類型之一: feat, fix, docs, style, refactor, test, chore, perf, ci, build, 或 revert。
+如果適用，包括括號中的範圍，以描述受影響的程式碼庫部分。
+提交訊息不應超過 70 個字元。
+
+更改的檔案:
+{changed_files}
+
+提交訊息:
+"""
+
+    if api == 'deepseek':
+        commit_message = call_deepseek_api(prompt)
+        if not commit_message:
+            return
+    elif api == 'gemini':
+        commit_message = call_gemini_api(prompt)
+        if not commit_message:
+            print("Error: 沒有從 Gemini API 獲取回應。")
+            return
+    elif api == 'mistral':
+        commit_message = call_mistral_api(prompt)
+        if not commit_message:
+            print("Error: 沒有從 Mistral API 獲取回應。")
+            return
+    else:
+        print(f"Error: 指定了無效的 API: {api}")
         return
 
     # 檢查提交訊息是否為空
     if not commit_message:
-        print("錯誤：生成的提交訊息為空。中止提交。")
-        return
-    
-    if only_message:
-        print(f"建議的提交訊息：{commit_message}")
+        print("Error: 生成了空的提交訊息。取消提交。")
         return
 
-    # 使用生成的訊息提交
+    if only_message:
+        print(f"建議的提交訊息: {commit_message}")
+        return
+
+    # 使用生成的訊息進行提交
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
-    # 推送變更
+    # 推送更改
     if push:
         subprocess.run(["git", "push"], check=True)
     else:
-        print("變更已提交到本地，但未推送。")
+        print("更改已提交到本地，但未推送。")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="使用 AI 生成提交訊息並提交變更。")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='僅在本地提交變更，不推送。')
+    parser = argparse.ArgumentParser(description="使用 AI 生成提交訊息並提交更改。")
+    parser.add_argument('--no-push', dest='push', action='store_false', help='在本地提交更改而不推送。')
     parser.add_argument('--only-message', dest='only_message', action='store_true', help='僅打印 AI 生成的提交訊息。')
+    parser.add_argument('--api', type=str, default='deepseek', choices=['deepseek', 'gemini', 'mistral'], help='用於生成提交訊息的 API (deepseek, gemini 或 mistral)。')
     args = parser.parse_args()
-    gitmessageai(push=args.push, only_message=args.only_message)
+    gitmessageai(push=args.push, only_message=args.only_message, api=args.api)
 ```
 
-然後，在你的 `~/.zprofile` 文件中添加以下內容：
+這個腳本可以使用不同的 API 調用。例如:
 
+```bash
+python ~/bin/gitmessageai.py
+python ~/bin/gitmessageai.py --no-push
+python ~/bin/gitmessageai.py --only-message
+python ~/bin/gitmessageai.py --api gemini
+python ~/bin/gitmessageai.py --api mistral --no-push
+python ~/bin/gitmessageai.py --api deepseek --only-message
 ```
+
+然後，在你的 `~/.zprofile` 檔案中，添加以下內容:
+
+```bash
 alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
 
-有幾個改進的地方。
+有幾點改進。
 
-* 一個是只發送文件名變更，而不是使用 `git diff` 讀取文件的詳細變更。我們不想向 AI 服務 API 提供太多細節。在這種情況下，我們不需要它，因為很少有人會仔細閱讀提交訊息。
+* 一個是只發送檔案名更改，而不使用 `git diff` 讀取檔案的詳細更改。我們不希望給 AI 服務 API 太多詳細信息。在這種情況下，我們不需要它，因為很少有人會仔細閱讀提交訊息。
 
-* 有時，Deepseek API 會失敗，因為它最近非常受歡迎。我們可能需要改用 Gemini。
+* 有時 Deepseek API 會失敗，因為它最近非常受歡迎。我們可能需要改用 Gemini。

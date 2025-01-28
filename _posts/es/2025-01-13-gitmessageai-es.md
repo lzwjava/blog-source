@@ -1,11 +1,12 @@
 ---
 audio: true
-lang: en
+lang: es
 layout: post
-title: AI-Powered Git Commit Messages
+title: Mensajes de Confirmación de Git Potenciados por IA
+translated: true
 ---
 
-This python script should be placed in a directory included in your system's PATH, such as `~/bin`.
+Este script de Python debe colocarse en un directorio incluido en el PATH de tu sistema, como `~/bin`.
 
 ```python
 import subprocess
@@ -13,12 +14,102 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 import argparse
+import requests
 
 load_dotenv()
 
-def gitmessageai(push=True, only_message=False):
+def call_mistral_api(prompt):
+    api_key = os.environ.get("MISTRAL_API_KEY")
+    if not api_key:
+        print("Error: MISTRAL_API_KEY environment variable not set.")
+        return None
+
+    url = "https://api.mistral.ai/v1/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "Authorization": f"Bearer {api_key}"
+    }
+    data = {
+        "model": "mistral-large-latest",
+        "messages": [
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+    }
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        response.raise_for_status()
+        response_json = response.json()
+        if response_json and response_json['choices']:
+            return response_json['choices'][0]['message']['content']
+        else:
+            print(f"Mistral API Error: Invalid response format: {response_json}")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"Mistral API Error: {e}")
+        if e.response:
+            print(f"Response status code: {e.response.status_code}")
+            print(f"Response content: {e.response.text}")
+        return None
+
+def call_gemini_api(prompt):
+    gemini_api_key = os.environ.get("GEMINI_API_KEY")
+    if not gemini_api_key:
+        print("Error: GEMINI_API_KEY environment variable not set.")
+        return None
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+    params = {"key": gemini_api_key}
+    payload = {"contents": [{"parts": [{"text": prompt}]}]}
+    try:
+        response = requests.post(url, json=payload, params=params)
+        response.raise_for_status()  # Raise an exception for bad status codes
+        response_json = response.json()
+        if response_json and 'candidates' in response_json and response_json['candidates']:
+            return response_json['candidates'][0]['content']['parts'][0]['text']
+        else:
+            print(f"Gemini API Error: Invalid response format: {response_json}")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"Gemini API Error: {e}")
+        if e.response:
+            print(f"Response status code: {e.response.status_code}")
+            print(f"Response content: {e.response.text}")
+        return None
+
+def call_deepseek_api(prompt):
+    api_key = os.environ.get("DEEPSEEK_API_KEY")
+    if not api_key:
+        print("Error: DEEPSEEK_API_KEY environment variable not set.")
+        return None
+
+    client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
+
+    try:
+        response = client.chat.completions.create(
+            model="deepseek-chat",
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=100
+        )
+        if response and response.choices:
+            commit_message = response.choices[0].message.content.strip()
+            commit_message = commit_message.replace('`', '')
+            return commit_message
+        else:
+            print("Error: No response from the API.")
+            return None
+    except Exception as e:
+        print(f"Error during API call: {e}")
+        print(e)
+        return None
+
+def gitmessageai(push=True, only_message=False, api='deepseek'):
     # Stage all changes
-    subprocess.run(["git", "add", "-A"], check=True)    
+    subprocess.run(["git", "add", "-A"], check=True)
 
     # Get a brief summary of the changes
     files_process = subprocess.run(["git", "diff", "--staged", "--name-only"], capture_output=True, text=True, check=True)
@@ -39,40 +130,31 @@ Changed files:
 {changed_files}
 
 Commit message:
-"""    
+"""
 
-    # Send the prompt to the DeepSeek API
-    api_key = os.environ.get("DEEPSEEK_API_KEY")
-    if not api_key:
-        print("Error: DEEPSEEK_API_KEY environment variable not set.")
-        return
-    
-    client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
-
-    try:
-        response = client.chat.completions.create(
-            model="deepseek-chat",
-            messages=[
-                {"role": "user", "content": prompt}
-            ],
-            max_tokens=100
-        )
-        if response and response.choices:
-            commit_message = response.choices[0].message.content.strip()
-            commit_message = commit_message.replace('`', '')
-        else:
-            print("Error: No response from the API.")
+    if api == 'deepseek':
+        commit_message = call_deepseek_api(prompt)
+        if not commit_message:
             return
-    except Exception as e:
-        print(f"Error during API call: {e}")
-        print(e)
+    elif api == 'gemini':
+        commit_message = call_gemini_api(prompt)
+        if not commit_message:
+            print("Error: No response from Gemini API.")
+            return
+    elif api == 'mistral':
+        commit_message = call_mistral_api(prompt)
+        if not commit_message:
+            print("Error: No response from Mistral API.")
+            return
+    else:
+        print(f"Error: Invalid API specified: {api}")
         return
 
     # Check if the commit message is empty
     if not commit_message:
         print("Error: Empty commit message generated. Aborting commit.")
         return
-    
+
     if only_message:
         print(f"Suggested commit message: {commit_message}")
         return
@@ -90,20 +172,32 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate commit message with AI and commit changes.")
     parser.add_argument('--no-push', dest='push', action='store_false', help='Commit changes locally without pushing.')
     parser.add_argument('--only-message', dest='only_message', action='store_true', help='Only print the AI generated commit message.')
+    parser.add_argument('--api', type=str, default='deepseek', choices=['deepseek', 'gemini', 'mistral'], help='API to use for commit message generation (deepseek, gemini, or mistral).')
     args = parser.parse_args()
-    gitmessageai(push=args.push, only_message=args.only_message)
+    gitmessageai(push=args.push, only_message=args.only_message, api=args.api)
 ```
 
-Then, in your `~/.zprofile` file, add the following:
+Este script puede ser llamado con diferentes APIs. Por ejemplo:
 
+```bash
+python ~/bin/gitmessageai.py
+python ~/bin/gitmessageai.py --no-push
+python ~/bin/gitmessageai.py --only-message
+python ~/bin/gitmessageai.py --api gemini
+python ~/bin/gitmessageai.py --api mistral --no-push
+python ~/bin/gitmessageai.py --api deepseek --only-message
 ```
+
+Luego, en tu archivo `~/.zprofile`, agrega lo siguiente:
+
+```bash
 alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
 
-There are several improvements.
+Hay varias mejoras.
 
-* One is to only send file name changes, and not read the detailed changes of the file using `git diff`. We don't want to give too much detail to the AI service API. In this case, we don't need it, as few people will read commit messages carefully.
+* Una es solo enviar cambios de nombres de archivos y no leer los cambios detallados del archivo usando `git diff`. No queremos dar demasiados detalles al servicio de la API de IA. En este caso, no lo necesitamos, ya que pocas personas leerán los mensajes de commit cuidadosamente.
 
-* Sometimes, the Deepseek API will fail, as it is very popular recently. We may need to use Gemini instead.
+* A veces, la API de Deepseek fallará, ya que recientemente es muy popular. Es posible que necesitemos usar Gemini en su lugar.
