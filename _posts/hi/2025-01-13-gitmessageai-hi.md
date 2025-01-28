@@ -1,12 +1,11 @@
 ---
 audio: true
-lang: hi
+lang: en
 layout: post
-title: AI-संचालित Git कमिट संदेश
-translated: true
+title: AI-Powered Git Commit Messages
 ---
 
-यह पायथन स्क्रिप्ट आपके सिस्टम के PATH में शामिल एक डायरेक्टरी में रखी जानी चाहिए, जैसे कि `~/bin`।
+This python script should be placed in a directory included in your system's PATH, such as `~/bin`.
 
 ```python
 import subprocess
@@ -18,38 +17,37 @@ import argparse
 load_dotenv()
 
 def gitmessageai(push=True, only_message=False):
-    # सभी परिवर्तनों को स्टेज करें
-    subprocess.run(["git", "add", "-A"], check=True)
+    # Stage all changes
+    subprocess.run(["git", "add", "-A"], check=True)    
 
-    # स्टेज किए गए परिवर्तनों का डिफ प्राप्त करें
-    diff_process = subprocess.run(["git", "diff", "--staged"], capture_output=True, text=True, check=True)
-    diff = diff_process.stdout
+    # Get a brief summary of the changes
+    files_process = subprocess.run(["git", "diff", "--staged", "--name-only"], capture_output=True, text=True, check=True)
+    changed_files = files_process.stdout
 
-    if not diff:
-        print("कमिट करने के लिए कोई परिवर्तन नहीं हैं।")
+    if not changed_files:
+        print("No changes to commit.")
         return
 
-    # AI के लिए प्रॉम्प्ट तैयार करें
+    # Prepare the prompt for the AI
     prompt = f"""
-निम्नलिखित कोड परिवर्तनों के लिए Conventional Commits प्रारूप में एक संक्षिप्त कमिट संदेश जनरेट करें।
-निम्नलिखित प्रकारों में से एक का उपयोग करें: feat, fix, docs, style, refactor, test, chore, perf, ci, build, या revert।
-यदि लागू हो, तो कोडबेस के प्रभावित हिस्से का वर्णन करने के लिए कोष्ठक में एक स्कोप शामिल करें।
-कमिट संदेश 70 वर्णों से अधिक नहीं होना चाहिए।
+Generate a concise commit message in Conventional Commits format for the following code changes.
+Use one of the following types: feat, fix, docs, style, refactor, test, chore, perf, ci, build, or revert.
+If applicable, include a scope in parentheses to describe the part of the codebase affected.
+The commit message should not exceed 70 characters.
 
-कोड परिवर्तन:
-{diff}
+Changed files:
+{changed_files}
 
-कमिट संदेश:
+Commit message:
 """    
 
-    # प्रॉम्प्ट को DeepSeek API पर भेजें
+    # Send the prompt to the DeepSeek API
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
-        print("त्रुटि: DEEPSEEK_API_KEY पर्यावरण चर सेट नहीं है।")
+        print("Error: DEEPSEEK_API_KEY environment variable not set.")
         return
     
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
-
 
     try:
         response = client.chat.completions.create(
@@ -63,42 +61,49 @@ def gitmessageai(push=True, only_message=False):
             commit_message = response.choices[0].message.content.strip()
             commit_message = commit_message.replace('`', '')
         else:
-            print("त्रुटि: API से कोई प्रतिक्रिया नहीं मिली।")
+            print("Error: No response from the API.")
             return
     except Exception as e:
-        print(f"API कॉल के दौरान त्रुटि: {e}")
+        print(f"Error during API call: {e}")
+        print(e)
         return
 
-    # जांचें कि कमिट संदेश खाली तो नहीं है
+    # Check if the commit message is empty
     if not commit_message:
-        print("त्रुटि: खाली कमिट संदेश जनरेट हुआ। कमिट रद्द किया जा रहा है।")
+        print("Error: Empty commit message generated. Aborting commit.")
         return
     
     if only_message:
-        print(f"सुझाया गया कमिट संदेश: {commit_message}")
+        print(f"Suggested commit message: {commit_message}")
         return
 
-    # जनरेट किए गए संदेश के साथ कमिट करें
+    # Commit with the generated message
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
-    # परिवर्तनों को पुश करें
+    # Push the changes
     if push:
         subprocess.run(["git", "push"], check=True)
     else:
-        print("परिवर्तन स्थानीय रूप से कमिट किए गए हैं, लेकिन पुश नहीं किए गए हैं।")
+        print("Changes committed locally, but not pushed.")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="AI के साथ कमिट संदेश जनरेट करें और परिवर्तनों को कमिट करें।")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='परिवर्तनों को स्थानीय रूप से कमिट करें बिना पुश किए।')
-    parser.add_argument('--only-message', dest='only_message', action='store_true', help='केवल AI द्वारा जनरेट किया गया कमिट संदेश प्रिंट करें।')
+    parser = argparse.ArgumentParser(description="Generate commit message with AI and commit changes.")
+    parser.add_argument('--no-push', dest='push', action='store_false', help='Commit changes locally without pushing.')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Only print the AI generated commit message.')
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
-फिर, अपने `~/.zprofile` फ़ाइल में निम्नलिखित जोड़ें:
+Then, in your `~/.zprofile` file, add the following:
 
 ```
 alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
+
+There are several improvements.
+
+* One is to only send file name changes, and not read the detailed changes of the file using `git diff`. We don't want to give too much detail to the AI service API. In this case, we don't need it, as few people will read commit messages carefully.
+
+* Sometimes, the Deepseek API will fail, as it is very popular recently. We may need to use Gemini instead.

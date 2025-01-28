@@ -61,3 +61,9 @@ title: Programming
 
 * For personal projects, it's okay not to write test code, but it's better to do local testing after changing a significant amount of code. Consider the affected code, how long it will run in the cloud pipeline, and how frequently it might lead to errors, and then write test code accordingly. Use methods that allow for easy testing without negatively impacting user experience.
 
+* Write simple and elegant code. Minimize duplication, although sometimes duplication leads to a simpler solution. Minimize special cases. Make it easy to test. Refactor to use common functions or processes, use recursion or loops, and look for patterns.
+
+* Handle errors properly. Think about the root cause, the responsibility, and whether we can change it or if it is an external error. Consider the rescue method, the impact scope, where to handle it, whether we should categorize errors, how likely it is to happen, and the worst-case scenarios.
+
+
+

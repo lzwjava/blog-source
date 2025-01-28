@@ -2,7 +2,7 @@
 audio: true
 lang: hant
 layout: post
-title: AI驅動的Git提交信息
+title: AI-Powered Git Commit Messages
 translated: true
 ---
 
@@ -19,27 +19,27 @@ load_dotenv()
 
 def gitmessageai(push=True, only_message=False):
     # 暫存所有變更
-    subprocess.run(["git", "add", "-A"], check=True)
+    subprocess.run(["git", "add", "-A"], check=True)    
 
-    # 獲取暫存變更的差異
-    diff_process = subprocess.run(["git", "diff", "--staged"], capture_output=True, text=True, check=True)
-    diff = diff_process.stdout
+    # 獲取變更的簡要摘要
+    files_process = subprocess.run(["git", "diff", "--staged", "--name-only"], capture_output=True, text=True, check=True)
+    changed_files = files_process.stdout
 
-    if not diff:
-        print("沒有變更可提交。")
+    if not changed_files:
+        print("沒有變更需要提交。")
         return
 
     # 準備 AI 的提示
     prompt = f"""
-為以下代碼變更生成一個簡潔的提交信息，使用 Conventional Commits 格式。
+為以下代碼變更生成一個簡潔的提交訊息，使用 Conventional Commits 格式。
 使用以下類型之一：feat、fix、docs、style、refactor、test、chore、perf、ci、build 或 revert。
 如果適用，請在括號中包含範圍以描述受影響的代碼庫部分。
-提交信息不應超過 70 個字符。
+提交訊息不應超過 70 個字符。
 
-代碼變更：
-{diff}
+變更的文件：
+{changed_files}
 
-提交信息：
+提交訊息：
 """    
 
     # 將提示發送到 DeepSeek API
@@ -49,7 +49,6 @@ def gitmessageai(push=True, only_message=False):
         return
     
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
-
 
     try:
         response = client.chat.completions.create(
@@ -66,19 +65,20 @@ def gitmessageai(push=True, only_message=False):
             print("錯誤：API 沒有回應。")
             return
     except Exception as e:
-        print(f"API 調用期間出錯：{e}")
+        print(f"API 調用期間發生錯誤：{e}")
+        print(e)
         return
 
-    # 檢查提交信息是否為空
+    # 檢查提交訊息是否為空
     if not commit_message:
-        print("錯誤：生成的提交信息為空。中止提交。")
+        print("錯誤：生成的提交訊息為空。中止提交。")
         return
     
     if only_message:
-        print(f"建議的提交信息：{commit_message}")
+        print(f"建議的提交訊息：{commit_message}")
         return
 
-    # 使用生成的信息提交
+    # 使用生成的訊息提交
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
     # 推送變更
@@ -88,17 +88,23 @@ def gitmessageai(push=True, only_message=False):
         print("變更已提交到本地，但未推送。")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="使用 AI 生成提交信息並提交變更。")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='在本地提交變更而不推送。')
-    parser.add_argument('--only-message', dest='only_message', action='store_true', help='僅打印 AI 生成的提交信息。')
+    parser = argparse.ArgumentParser(description="使用 AI 生成提交訊息並提交變更。")
+    parser.add_argument('--no-push', dest='push', action='store_false', help='僅在本地提交變更，不推送。')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='僅打印 AI 生成的提交訊息。')
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
-然後，在你的 `~/.zprofile` 文件中，添加以下內容：
+然後，在你的 `~/.zprofile` 文件中添加以下內容：
 
 ```
 alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
+
+有幾個改進的地方。
+
+* 一個是只發送文件名變更，而不是使用 `git diff` 讀取文件的詳細變更。我們不想向 AI 服務 API 提供太多細節。在這種情況下，我們不需要它，因為很少有人會仔細閱讀提交訊息。
+
+* 有時，Deepseek API 會失敗，因為它最近非常受歡迎。我們可能需要改用 Gemini。

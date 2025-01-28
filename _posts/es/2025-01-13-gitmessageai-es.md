@@ -1,12 +1,11 @@
 ---
 audio: true
-lang: es
+lang: en
 layout: post
-title: Mensajes de Commit en Git Potenciados por IA
-translated: true
+title: AI-Powered Git Commit Messages
 ---
 
-Este script de Python debe colocarse en un directorio incluido en el PATH de tu sistema, como `~/bin`.
+This python script should be placed in a directory included in your system's PATH, such as `~/bin`.
 
 ```python
 import subprocess
@@ -18,38 +17,37 @@ import argparse
 load_dotenv()
 
 def gitmessageai(push=True, only_message=False):
-    # Etapa todos los cambios
-    subprocess.run(["git", "add", "-A"], check=True)
+    # Stage all changes
+    subprocess.run(["git", "add", "-A"], check=True)    
 
-    # Obtén el diff de los cambios en etapa
-    diff_process = subprocess.run(["git", "diff", "--staged"], capture_output=True, text=True, check=True)
-    diff = diff_process.stdout
+    # Get a brief summary of the changes
+    files_process = subprocess.run(["git", "diff", "--staged", "--name-only"], capture_output=True, text=True, check=True)
+    changed_files = files_process.stdout
 
-    if not diff:
-        print("No hay cambios para hacer commit.")
+    if not changed_files:
+        print("No changes to commit.")
         return
 
-    # Prepara el prompt para la IA
+    # Prepare the prompt for the AI
     prompt = f"""
-Genera un mensaje de commit conciso en formato Conventional Commits para los siguientes cambios de código.
-Usa uno de los siguientes tipos: feat, fix, docs, style, refactor, test, chore, perf, ci, build o revert.
-Si es aplicable, incluye un alcance entre paréntesis para describir la parte del código afectada.
-El mensaje de commit no debe exceder los 70 caracteres.
+Generate a concise commit message in Conventional Commits format for the following code changes.
+Use one of the following types: feat, fix, docs, style, refactor, test, chore, perf, ci, build, or revert.
+If applicable, include a scope in parentheses to describe the part of the codebase affected.
+The commit message should not exceed 70 characters.
 
-Cambios de código:
-{diff}
+Changed files:
+{changed_files}
 
-Mensaje de commit:
+Commit message:
 """    
 
-    # Envía el prompt a la API de DeepSeek
+    # Send the prompt to the DeepSeek API
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
-        print("Error: La variable de entorno DEEPSEEK_API_KEY no está configurada.")
+        print("Error: DEEPSEEK_API_KEY environment variable not set.")
         return
     
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
-
 
     try:
         response = client.chat.completions.create(
@@ -63,42 +61,49 @@ Mensaje de commit:
             commit_message = response.choices[0].message.content.strip()
             commit_message = commit_message.replace('`', '')
         else:
-            print("Error: No hubo respuesta de la API.")
+            print("Error: No response from the API.")
             return
     except Exception as e:
-        print(f"Error durante la llamada a la API: {e}")
+        print(f"Error during API call: {e}")
+        print(e)
         return
 
-    # Verifica si el mensaje de commit está vacío
+    # Check if the commit message is empty
     if not commit_message:
-        print("Error: Se generó un mensaje de commit vacío. Abortando el commit.")
+        print("Error: Empty commit message generated. Aborting commit.")
         return
     
     if only_message:
-        print(f"Mensaje de commit sugerido: {commit_message}")
+        print(f"Suggested commit message: {commit_message}")
         return
 
-    # Haz commit con el mensaje generado
+    # Commit with the generated message
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
-    # Empuja los cambios
+    # Push the changes
     if push:
         subprocess.run(["git", "push"], check=True)
     else:
-        print("Cambios confirmados localmente, pero no empujados.")
+        print("Changes committed locally, but not pushed.")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Genera un mensaje de commit con IA y confirma los cambios.")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='Confirma los cambios localmente sin empujar.')
-    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Solo imprime el mensaje de commit generado por la IA.')
+    parser = argparse.ArgumentParser(description="Generate commit message with AI and commit changes.")
+    parser.add_argument('--no-push', dest='push', action='store_false', help='Commit changes locally without pushing.')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Only print the AI generated commit message.')
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
-Luego, en tu archivo `~/.zprofile`, agrega lo siguiente:
+Then, in your `~/.zprofile` file, add the following:
 
 ```
 alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
+
+There are several improvements.
+
+* One is to only send file name changes, and not read the detailed changes of the file using `git diff`. We don't want to give too much detail to the AI service API. In this case, we don't need it, as few people will read commit messages carefully.
+
+* Sometimes, the Deepseek API will fail, as it is very popular recently. We may need to use Gemini instead.

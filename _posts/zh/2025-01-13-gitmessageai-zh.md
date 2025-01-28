@@ -1,12 +1,11 @@
 ---
 audio: true
-lang: zh
+lang: en
 layout: post
-title: AI 驱动的 Git 提交信息
-translated: true
+title: AI-Powered Git Commit Messages
 ---
 
-这个Python脚本应放置在系统PATH包含的目录中，例如`~/bin`。
+This python script should be placed in a directory included in your system's PATH, such as `~/bin`.
 
 ```python
 import subprocess
@@ -18,38 +17,37 @@ import argparse
 load_dotenv()
 
 def gitmessageai(push=True, only_message=False):
-    # 暂存所有更改
-    subprocess.run(["git", "add", "-A"], check=True)
+    # Stage all changes
+    subprocess.run(["git", "add", "-A"], check=True)    
 
-    # 获取暂存更改的差异
-    diff_process = subprocess.run(["git", "diff", "--staged"], capture_output=True, text=True, check=True)
-    diff = diff_process.stdout
+    # Get a brief summary of the changes
+    files_process = subprocess.run(["git", "diff", "--staged", "--name-only"], capture_output=True, text=True, check=True)
+    changed_files = files_process.stdout
 
-    if not diff:
-        print("没有更改需要提交。")
+    if not changed_files:
+        print("No changes to commit.")
         return
 
-    # 为AI准备提示
+    # Prepare the prompt for the AI
     prompt = f"""
-为以下代码更改生成简洁的提交信息，采用Conventional Commits格式。
-使用以下类型之一：feat、fix、docs、style、refactor、test、chore、perf、ci、build或revert。
-如果适用，请在括号中包含范围以描述受影响的代码库部分。
-提交信息不应超过70个字符。
+Generate a concise commit message in Conventional Commits format for the following code changes.
+Use one of the following types: feat, fix, docs, style, refactor, test, chore, perf, ci, build, or revert.
+If applicable, include a scope in parentheses to describe the part of the codebase affected.
+The commit message should not exceed 70 characters.
 
-代码更改：
-{diff}
+Changed files:
+{changed_files}
 
-提交信息：
+Commit message:
 """    
 
-    # 将提示发送到DeepSeek API
+    # Send the prompt to the DeepSeek API
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
-        print("错误：未设置DEEPSEEK_API_KEY环境变量。")
+        print("Error: DEEPSEEK_API_KEY environment variable not set.")
         return
     
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
-
 
     try:
         response = client.chat.completions.create(
@@ -63,42 +61,49 @@ def gitmessageai(push=True, only_message=False):
             commit_message = response.choices[0].message.content.strip()
             commit_message = commit_message.replace('`', '')
         else:
-            print("错误：API无响应。")
+            print("Error: No response from the API.")
             return
     except Exception as e:
-        print(f"API调用期间出错：{e}")
+        print(f"Error during API call: {e}")
+        print(e)
         return
 
-    # 检查提交信息是否为空
+    # Check if the commit message is empty
     if not commit_message:
-        print("错误：生成了空的提交信息。中止提交。")
+        print("Error: Empty commit message generated. Aborting commit.")
         return
     
     if only_message:
-        print(f"建议的提交信息：{commit_message}")
+        print(f"Suggested commit message: {commit_message}")
         return
 
-    # 使用生成的提交信息进行提交
+    # Commit with the generated message
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
-    # 推送更改
+    # Push the changes
     if push:
         subprocess.run(["git", "push"], check=True)
     else:
-        print("更改已本地提交，但未推送。")
+        print("Changes committed locally, but not pushed.")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="使用AI生成提交信息并提交更改。")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='本地提交更改但不推送。')
-    parser.add_argument('--only-message', dest='only_message', action='store_true', help='仅打印AI生成的提交信息。')
+    parser = argparse.ArgumentParser(description="Generate commit message with AI and commit changes.")
+    parser.add_argument('--no-push', dest='push', action='store_false', help='Commit changes locally without pushing.')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Only print the AI generated commit message.')
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
-然后，在您的`~/.zprofile`文件中添加以下内容：
+Then, in your `~/.zprofile` file, add the following:
 
 ```
 alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
+
+There are several improvements.
+
+* One is to only send file name changes, and not read the detailed changes of the file using `git diff`. We don't want to give too much detail to the AI service API. In this case, we don't need it, as few people will read commit messages carefully.
+
+* Sometimes, the Deepseek API will fail, as it is very popular recently. We may need to use Gemini instead.

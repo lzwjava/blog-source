@@ -1,12 +1,11 @@
 ---
 audio: true
-lang: ja
+lang: en
 layout: post
-title: AIによるGitコミットメッセージ
-translated: true
+title: AI-Powered Git Commit Messages
 ---
 
-このPythonスクリプトは、`~/bin`など、システムのPATHに含まれるディレクトリに配置する必要があります。
+This python script should be placed in a directory included in your system's PATH, such as `~/bin`.
 
 ```python
 import subprocess
@@ -18,38 +17,37 @@ import argparse
 load_dotenv()
 
 def gitmessageai(push=True, only_message=False):
-    # すべての変更をステージング
-    subprocess.run(["git", "add", "-A"], check=True)
+    # Stage all changes
+    subprocess.run(["git", "add", "-A"], check=True)    
 
-    # ステージングされた変更の差分を取得
-    diff_process = subprocess.run(["git", "diff", "--staged"], capture_output=True, text=True, check=True)
-    diff = diff_process.stdout
+    # Get a brief summary of the changes
+    files_process = subprocess.run(["git", "diff", "--staged", "--name-only"], capture_output=True, text=True, check=True)
+    changed_files = files_process.stdout
 
-    if not diff:
-        print("コミットする変更がありません。")
+    if not changed_files:
+        print("No changes to commit.")
         return
 
-    # AIへのプロンプトを準備
+    # Prepare the prompt for the AI
     prompt = f"""
-以下のコード変更に対して、Conventional Commits形式で簡潔なコミットメッセージを生成してください。
-次のいずれかのタイプを使用してください: feat, fix, docs, style, refactor, test, chore, perf, ci, build, または revert。
-該当する場合は、影響を受けるコードベースの部分を説明するために括弧内にスコープを含めてください。
-コミットメッセージは70文字を超えないようにしてください。
+Generate a concise commit message in Conventional Commits format for the following code changes.
+Use one of the following types: feat, fix, docs, style, refactor, test, chore, perf, ci, build, or revert.
+If applicable, include a scope in parentheses to describe the part of the codebase affected.
+The commit message should not exceed 70 characters.
 
-コード変更:
-{diff}
+Changed files:
+{changed_files}
 
-コミットメッセージ:
+Commit message:
 """    
 
-    # DeepSeek APIにプロンプトを送信
+    # Send the prompt to the DeepSeek API
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
-        print("エラー: DEEPSEEK_API_KEY環境変数が設定されていません。")
+        print("Error: DEEPSEEK_API_KEY environment variable not set.")
         return
     
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
-
 
     try:
         response = client.chat.completions.create(
@@ -63,42 +61,49 @@ def gitmessageai(push=True, only_message=False):
             commit_message = response.choices[0].message.content.strip()
             commit_message = commit_message.replace('`', '')
         else:
-            print("エラー: APIからの応答がありません。")
+            print("Error: No response from the API.")
             return
     except Exception as e:
-        print(f"API呼び出し中のエラー: {e}")
+        print(f"Error during API call: {e}")
+        print(e)
         return
 
-    # コミットメッセージが空かどうかを確認
+    # Check if the commit message is empty
     if not commit_message:
-        print("エラー: 空のコミットメッセージが生成されました。コミットを中止します。")
+        print("Error: Empty commit message generated. Aborting commit.")
         return
     
     if only_message:
-        print(f"提案されたコミットメッセージ: {commit_message}")
+        print(f"Suggested commit message: {commit_message}")
         return
 
-    # 生成されたメッセージでコミット
+    # Commit with the generated message
     subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
-    # 変更をプッシュ
+    # Push the changes
     if push:
         subprocess.run(["git", "push"], check=True)
     else:
-        print("変更はローカルでコミットされましたが、プッシュされていません。")
+        print("Changes committed locally, but not pushed.")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="AIでコミットメッセージを生成し、変更をコミットします。")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='変更をプッシュせずにローカルでコミットします。')
-    parser.add_argument('--only-message', dest='only_message', action='store_true', help='AIが生成したコミットメッセージのみを表示します。')
+    parser = argparse.ArgumentParser(description="Generate commit message with AI and commit changes.")
+    parser.add_argument('--no-push', dest='push', action='store_false', help='Commit changes locally without pushing.')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Only print the AI generated commit message.')
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
-次に、`~/.zprofile`ファイルに以下を追加します:
+Then, in your `~/.zprofile` file, add the following:
 
 ```
 alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
+
+There are several improvements.
+
+* One is to only send file name changes, and not read the detailed changes of the file using `git diff`. We don't want to give too much detail to the AI service API. In this case, we don't need it, as few people will read commit messages carefully.
+
+* Sometimes, the Deepseek API will fail, as it is very popular recently. We may need to use Gemini instead.

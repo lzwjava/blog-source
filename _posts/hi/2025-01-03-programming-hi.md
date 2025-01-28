@@ -1,63 +1,67 @@
 ---
 audio: true
-lang: en
+lang: hi
 layout: post
-title: Programming
+title: प्रोग्रामिंग
+translated: true
 ---
 
-* It is okay to do competitive programming as long as it motivates you.
+* जब तक यह आपको प्रेरित करता है, तब तक प्रतिस्पर्धात्मक प्रोग्रामिंग करना ठीक है।
 
-* Programming is like writing. Programming is a creative activity.
+* प्रोग्रामिंग लेखन की तरह है। प्रोग्रामिंग एक रचनात्मक गतिविधि है।
 
-* Do your own project. Write your technical blog. Program for a project that you will maintain for years, just like maintaining a 10-year-long blog.
+* अपना खुद का प्रोजेक्ट करें। अपना तकनीकी ब्लॉग लिखें। एक ऐसे प्रोजेक्ट के लिए प्रोग्राम करें जिसे आप वर्षों तक बनाए रखेंगे, जैसे कि 10 साल तक चलने वाला ब्लॉग बनाए रखना।
 
-* Usually, you do not need to pursue what's hot in technology now, as many trends will fade after a few years.
+* आमतौर पर, आपको उस चीज का पीछा करने की जरूरत नहीं है जो अभी टेक्नोलॉजी में ट्रेंडिंग है, क्योंकि कई ट्रेंड कुछ सालों बाद फीके पड़ जाएंगे।
 
-* Pursue your curiosity and program for your own sake.
+* अपनी जिज्ञासा का पीछा करें और अपने लिए प्रोग्राम करें।
 
-* Try to create programs for yourself. They are not work assignments.
+* अपने लिए प्रोग्राम बनाने की कोशिश करें। वे काम के असाइनमेंट नहीं हैं।
 
-* If you feel unhappy often when programming, then you are doing it the wrong way.
+* यदि आप प्रोग्रामिंग करते समय अक्सर दुखी महसूस करते हैं, तो आप इसे गलत तरीके से कर रहे हैं।
 
-* iOS, Android, Backend, Frontend, AI are all good. One can at least try to make a small project using them or learn about them for a few months.
+* iOS, Android, Backend, Frontend, AI सभी अच्छे हैं। कोई भी इनका उपयोग करके एक छोटा प्रोजेक्ट बनाने की कोशिश कर सकता है या उनके बारे में कुछ महीनों तक सीख सकता है।
 
-* Debugging is about being suspicious. Do not trust every line of your code; you can think of a better way to do it.
+* डिबगिंग संदेह करने के बारे में है। अपने कोड की हर लाइन पर भरोसा न करें; आप इसे करने का एक बेहतर तरीका सोच सकते हैं।
 
-* In programming, even a character or a line of log is important. They tell you something.
+* प्रोग्रामिंग में, एक कैरेक्टर या लॉग की एक लाइन भी महत्वपूर्ण होती है। वे आपको कुछ बताते हैं।
 
-* Using programming makes products for others to use. It is interesting to have users.
+* प्रोग्रामिंग का उपयोग करके दूसरों के लिए उत्पाद बनाए जाते हैं। उपयोगकर्ताओं का होना दिलचस्प है।
 
-* You do not need to be harsh. A few hundred users really loving your product is better than tens of thousands of users who just kindly like your product.
+* आपको कठोर होने की जरूरत नहीं है। कुछ सौ उपयोगकर्ता जो आपके उत्पाद से वास्तव में प्यार करते हैं, उन दसियों हज़ार उपयोगकर्ताओं से बेहतर हैं जो केवल आपके उत्पाद को पसंद करते हैं।
 
-* Remember why you got into programming and never forget it.
+* याद रखें कि आप प्रोग्रामिंग में क्यों आए थे और इसे कभी न भूलें।
 
-* Apply knowledge in programming to every aspect of life. They are the same. Doing things in batches or one by one. How to separate jobs into units. The underlying tech behind every app. The nuanced details behind network requests.
+* प्रोग्रामिंग के ज्ञान को जीवन के हर पहलू में लागू करें। वे एक जैसे हैं। चीजों को बैच में या एक-एक करके करना। नौकरियों को इकाइयों में कैसे अलग करें। हर ऐप के पीछे की अंतर्निहित तकनीक। नेटवर्क अनुरोधों के पीछे की सूक्ष्म जानकारी।
 
-* The abstraction and logical thinking. The detail-oriented thinking. The thinking out of every solution.
+* अमूर्त और तार्किक सोच। विस्तार-उन्मुख सोच। हर समाधान के बारे में सोचना।
 
-* Truth is truth. Usually, the computer won't be wrong. The electric circuit won't be wrong. The compiler won't be wrong. Don't feel upset when there is a bug.
+* सत्य सत्य है। आमतौर पर, कंप्यूटर गलत नहीं होगा। इलेक्ट्रिक सर्किट गलत नहीं होगा। कंपाइलर गलत नहीं होगा। जब कोई बग हो तो परेशान न हों।
 
-* Pursue elegant and simple solutions. Simplicity is the ultimate sophistication. You need to think hard to leave what's essential and remove what's extra.
+* सुरुचिपूर्ण और सरल समाधान का पीछा करें। सरलता परिष्करण की पराकाष्ठा है। आपको यह सोचने की जरूरत है कि क्या आवश्यक है और क्या अतिरिक्त है।
 
-* For programming languages, the languages that get the work done are okay. I personally recommend Java and Python.
+* प्रोग्रामिंग भाषाओं के लिए, जो भाषाएं काम पूरा करती हैं, वे ठीक हैं। मैं व्यक्तिगत रूप से Java और Python की सलाह देता हूं।
 
-* Follow Yin Wang at [https://www.yinwang.org](https://www.yinwang.org). He is one of the few geniuses in programming, though he says geniuses never exist.
+* Yin Wang को [https://www.yinwang.org](https://www.yinwang.org) पर फॉलो करें। वह प्रोग्रामिंग में कुछ मेधावियों में से एक हैं, हालांकि वह कहते हैं कि मेधावी कभी अस्तित्व में नहीं होते।
 
-* The knowledge and principles of programming can be easily applied to language learning, hardware repairing, life hacking, and scientific researching.
+* प्रोग्रामिंग का ज्ञान और सिद्धांत भाषा सीखने, हार्डवेयर मरम्मत, लाइफ हैकिंग और वैज्ञानिक शोध में आसानी से लागू किया जा सकता है।
 
-* For most programming tasks, you don't need fancy math besides high school math.
+* अधिकांश प्रोग्रामिंग कार्यों के लिए, आपको हाई स्कूल गणित के अलावा फैंसी गणित की आवश्यकता नहीं है।
 
-* Reflect on your old code after years or maintain a code project for a long time. It will teach you a lot.
+* वर्षों बाद अपने पुराने कोड पर विचार करें या लंबे समय तक कोड प्रोजेक्ट बनाए रखें। यह आपको बहुत कुछ सिखाएगा।
 
-* If you lose your passion for programming, just do other things for some time.
+* यदि आप प्रोग्रामिंग के प्रति अपना जुनून खो देते हैं, तो कुछ समय के लिए अन्य चीजें करें।
 
-* The timing of testing is important. Just do it naturally. You often don't need to write tests for your project. Try not to write tests, write unit tests, write integration tests, write API tests. Compare them wisely.
+* टेस्टिंग का समय महत्वपूर्ण है। बस इसे स्वाभाविक रूप से करें। आपको अक्सर अपने प्रोजेक्ट के लिए टेस्ट लिखने की आवश्यकता नहीं होती है। टेस्ट न लिखने, यूनिट टेस्ट लिखने, इंटीग्रेशन टेस्ट लिखने, API टेस्ट लिखने की कोशिश करें। उन्हें समझदारी से तुलना करें।
 
-* Try AI code editors. Use ChatGPT or other chatbots often. As AI tools are easy to use now, you can focus on more creative or important parts.
+* AI कोड एडिटर्स आज़माएं। ChatGPT या अन्य चैटबॉट्स का अक्सर उपयोग करें। चूंकि AI टूल अब उपयोग में आसान हैं, आप अधिक रचनात्मक या महत्वपूर्ण हिस्सों पर ध्यान केंद्रित कर सकते हैं।
 
-* When debugging, check if you're using the latest version of libraries. If a library is unmaintained, look for actively maintained clones or forks.
+* डिबगिंग करते समय जांचें कि क्या आप लाइब्रेरी के नवीनतम संस्करण का उपयोग कर रहे हैं। यदि कोई लाइब्रेरी अनरखी है, तो सक्रिय रूप से बनाए रखे गए क्लोन या फोर्क की तलाश करें।
 
-* When improving something like network speed or program running time, there must be a quantitative metric. Otherwise, you won't know exactly if there was a trivial improvement or degradation.
+* नेटवर्क स्पीड या प्रोग्राम रनिंग टाइम जैसी किसी चीज को सुधारते समय, एक मात्रात्मक मीट्रिक होना चाहिए। अन्यथा, आप सटीक रूप से नहीं जान पाएंगे कि क्या कोई तुच्छ सुधार या गिरावट हुई है।
 
-* For personal projects, it's okay not to write test code, but it's better to do local testing after changing a significant amount of code. Consider the affected code, how long it will run in the cloud pipeline, and how frequently it might lead to errors, and then write test code accordingly. Use methods that allow for easy testing without negatively impacting user experience.
+* व्यक्तिगत प्रोजेक्ट्स के लिए, टेस्ट कोड न लिखना ठीक है, लेकिन महत्वपूर्ण मात्रा में कोड बदलने के बाद स्थानीय टेस्टिंग करना बेहतर है। प्रभावित कोड, क्लाउड पाइपलाइन में इसे चलाने में कितना समय लगेगा, और यह कितनी बार त्रुटियों का कारण बन सकता है, इस पर विचार करें, और फिर तदनुसार टेस्ट कोड लिखें। ऐसे तरीकों का उपयोग करें जो उपयोगकर्ता अनुभव को नकारात्मक रूप से प्रभावित किए बिना आसानी से टेस्टिंग की अनुमति दें।
 
+* सरल और सुरुचिपूर्ण कोड लिखें। डुप्लिकेशन को कम से कम करें, हालांकि कभी-कभी डुप्लिकेशन एक सरल समाधान की ओर ले जाता है। विशेष मामलों को कम से कम करें। इसे टेस्ट करना आसान बनाएं। सामान्य फ़ंक्शन या प्रक्रियाओं का उपयोग करने के लिए रिफैक्टर करें, रिकर्शन या लूप का उपयोग करें, और पैटर्न की तलाश करें।
+
+* त्रुटियों को ठीक से संभालें। मूल कारण, जिम्मेदारी, और क्या हम इसे बदल सकते हैं या यह एक बाहरी त्रुटि है, इसके बारे में सोचें। बचाव विधि, प्रभाव क्षेत्र, इसे कहां संभालना है, क्या हमें त्रुटियों को वर्गीकृत करना चाहिए, यह कितनी संभावना है, और सबसे खराब स्थितियों पर विचार करें।

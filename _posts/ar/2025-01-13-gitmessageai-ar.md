@@ -1,12 +1,11 @@
 ---
 audio: true
-lang: ar
+lang: en
 layout: post
-title: رسائل Git Commit المدعومة بالذكاء الاصطناعي
-translated: true
+title: AI-Powered Git Commit Messages
 ---
 
-يجب وضع هذا النص البرمجي Python في دليل مدرج في مسار النظام الخاص بك، مثل `~/bin`.
+This python script should be placed in a directory included in your system's PATH, such as `~/bin`.
 
 ```python
 import subprocess
@@ -19,13 +18,13 @@ load_dotenv()
 
 def gitmessageai(push=True, only_message=False):
     # Stage all changes
-    subprocess.run(["git", "add", "-A"], check=True)
+    subprocess.run(["git", "add", "-A"], check=True)    
 
-    # Get the diff of staged changes
-    diff_process = subprocess.run(["git", "diff", "--staged"], capture_output=True, text=True, check=True)
-    diff = diff_process.stdout
+    # Get a brief summary of the changes
+    files_process = subprocess.run(["git", "diff", "--staged", "--name-only"], capture_output=True, text=True, check=True)
+    changed_files = files_process.stdout
 
-    if not diff:
+    if not changed_files:
         print("No changes to commit.")
         return
 
@@ -36,8 +35,8 @@ Use one of the following types: feat, fix, docs, style, refactor, test, chore, p
 If applicable, include a scope in parentheses to describe the part of the codebase affected.
 The commit message should not exceed 70 characters.
 
-Code changes:
-{diff}
+Changed files:
+{changed_files}
 
 Commit message:
 """    
@@ -49,7 +48,6 @@ Commit message:
         return
     
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
-
 
     try:
         response = client.chat.completions.create(
@@ -67,6 +65,7 @@ Commit message:
             return
     except Exception as e:
         print(f"Error during API call: {e}")
+        print(e)
         return
 
     # Check if the commit message is empty
@@ -95,10 +94,16 @@ if __name__ == "__main__":
     gitmessageai(push=args.push, only_message=args.only_message)
 ```
 
-ثم، في ملف `~/.zprofile` الخاص بك، أضف ما يلي:
+Then, in your `~/.zprofile` file, add the following:
 
 ```
 alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
+
+There are several improvements.
+
+* One is to only send file name changes, and not read the detailed changes of the file using `git diff`. We don't want to give too much detail to the AI service API. In this case, we don't need it, as few people will read commit messages carefully.
+
+* Sometimes, the Deepseek API will fail, as it is very popular recently. We may need to use Gemini instead.

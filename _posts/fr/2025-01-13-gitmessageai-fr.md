@@ -2,7 +2,7 @@
 audio: true
 lang: fr
 layout: post
-title: Messages de Commit Git Propulsés par l'IA
+title: AI-Powered Git Commit Messages
 translated: true
 ---
 
@@ -19,25 +19,25 @@ load_dotenv()
 
 def gitmessageai(push=True, only_message=False):
     # Stage tous les changements
-    subprocess.run(["git", "add", "-A"], check=True)
+    subprocess.run(["git", "add", "-A"], check=True)    
 
-    # Obtenir le diff des changements stagés
-    diff_process = subprocess.run(["git", "diff", "--staged"], capture_output=True, text=True, check=True)
-    diff = diff_process.stdout
+    # Obtenir un résumé des changements
+    files_process = subprocess.run(["git", "diff", "--staged", "--name-only"], capture_output=True, text=True, check=True)
+    changed_files = files_process.stdout
 
-    if not diff:
+    if not changed_files:
         print("Aucun changement à committer.")
         return
 
     # Préparer le prompt pour l'IA
     prompt = f"""
-Génère un message de commit concis au format Conventional Commits pour les changements de code suivants.
-Utilise l'un des types suivants : feat, fix, docs, style, refactor, test, chore, perf, ci, build, ou revert.
-Si applicable, inclut une portée entre parenthèses pour décrire la partie du codebase affectée.
+Générez un message de commit concis au format Conventional Commits pour les changements de code suivants.
+Utilisez l'un des types suivants : feat, fix, docs, style, refactor, test, chore, perf, ci, build, ou revert.
+Si applicable, incluez une portée entre parenthèses pour décrire la partie du codebase affectée.
 Le message de commit ne doit pas dépasser 70 caractères.
 
-Changements de code :
-{diff}
+Fichiers modifiés :
+{changed_files}
 
 Message de commit :
 """    
@@ -49,7 +49,6 @@ Message de commit :
         return
     
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
-
 
     try:
         response = client.chat.completions.create(
@@ -67,11 +66,12 @@ Message de commit :
             return
     except Exception as e:
         print(f"Erreur lors de l'appel à l'API : {e}")
+        print(e)
         return
 
     # Vérifier si le message de commit est vide
     if not commit_message:
-        print("Erreur : Message de commit vide généré. Abandon du commit.")
+        print("Erreur : Un message de commit vide a été généré. Abandon du commit.")
         return
     
     if only_message:
@@ -88,9 +88,9 @@ Message de commit :
         print("Changements commités localement, mais non poussés.")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Génère un message de commit avec l'IA et committe les changements.")
-    parser.add_argument('--no-push', dest='push', action='store_false', help='Commite les changements localement sans les pousser.')
-    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Affiche uniquement le message de commit généré par l\'IA.')
+    parser = argparse.ArgumentParser(description="Générer un message de commit avec l'IA et committer les changements.")
+    parser.add_argument('--no-push', dest='push', action='store_false', help='Commiter les changements localement sans les pousser.')
+    parser.add_argument('--only-message', dest='only_message', action='store_true', help='Afficher uniquement le message de commit généré par l\'IA.')
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message)
 ```
@@ -102,3 +102,9 @@ alias gpa='python ~/bin/gitmessageai.py'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 ```
+
+Il y a plusieurs améliorations possibles.
+
+* L'une d'elles consiste à ne transmettre que les noms des fichiers modifiés, et non à lire les changements détaillés des fichiers avec `git diff`. Nous ne voulons pas donner trop de détails à l'API du service d'IA. Dans ce cas, ce n'est pas nécessaire, car peu de gens lisent attentivement les messages de commit.
+
+* Parfois, l'API Deepseek peut échouer, car elle est très populaire récemment. Nous pourrions devoir utiliser Gemini à la place.
