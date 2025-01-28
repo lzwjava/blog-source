@@ -7,6 +7,7 @@ translated: false
 ---
 
 
+
 My blog now supports nine languages: Japanese (`ja`), Spanish (`es`), Hindi (`hi`), Chinese (`zh`), English (`en`), French (`fr`), German (`de`), Arabic (`ar`), and Traditional Chinese (`hant`). You can find the site at [https://lzwjava.github.io](https://lzwjava.github.io)
 
 When dealing with multiple languages in a computer environment, several aspects need consideration.
@@ -89,3 +90,8 @@ I utilize Google Text-to-Speech to generate audio versions of my blog posts. The
 ```
 
 Currently, audio is generated for Chinese and English content. To extend support to other languages, the corresponding language codes must be configured.
+
+## Summary
+
+Languages differ in two primary aspects: their written representation (shape) and their spoken form (pronunciation). The font selection and text-to-speech configurations address these two aspects, respectively.
+

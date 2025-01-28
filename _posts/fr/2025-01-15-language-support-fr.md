@@ -2,17 +2,17 @@
 audio: true
 lang: fr
 layout: post
-title: 'Support des langues : polices et synthèse vocale'
+title: 'Prise en charge des langues : polices et synthèse vocale'
 translated: true
 ---
 
-Mon blog prend désormais en charge neuf langues : le japonais (`ja`), l'espagnol (`es`), l'hindi (`hi`), le chinois (`zh`), l'anglais (`en`), le français (`fr`), l'allemand (`de`), l'arabe (`ar`), et le chinois traditionnel (`hant`). Vous pouvez visiter le site à l'adresse [https://lzwjava.github.io](https://lzwjava.github.io).
+Mon blog prend désormais en charge neuf langues : le japonais (`ja`), l'espagnol (`es`), l'hindi (`hi`), le chinois (`zh`), l'anglais (`en`), le français (`fr`), l'allemand (`de`), l'arabe (`ar`) et le chinois traditionnel (`hant`). Vous pouvez trouver le site à l'adresse [https://lzwjava.github.io](https://lzwjava.github.io)
 
-Lorsqu'on traite plusieurs langues dans un environnement informatique, plusieurs aspects doivent être pris en compte.
+Lorsque l'on traite plusieurs langues dans un environnement informatique, plusieurs aspects doivent être considérés.
 
-## Gestion des polices
+## Gestion des Polices
 
-Différentes langues nécessitent des polices spécifiques pour un rendu correct, en particulier lors de la génération de PDFs avec LaTeX. Le code Python suivant montre comment sélectionner les polices appropriées en fonction du système d'exploitation et de la langue :
+Différentes langues nécessitent des polices spécifiques pour un rendu correct, notamment lors de la génération de PDFs à l'aide de LaTeX. Le code Python suivant montre comment sélectionner les polices appropriées en fonction du système d'exploitation et de la langue :
 
 ```python
     if platform.system() == "Darwin":
@@ -63,11 +63,11 @@ Différentes langues nécessitent des polices spécifiques pour un rendu correct
     ]
 ```
 
-Il est important de noter que cette solution n'est pas parfaite. Par exemple, le texte en hindi dans les commentaires des blocs de code pourrait ne pas s'afficher correctement.
+Il est important de noter que cette solution n'est pas parfaite. Par exemple, le texte en hindi à l'intérieur des blocs de commentaires de code pourrait ne pas se rendre comme prévu.
 
-## Synthèse vocale
+## Synthèse Vocale
 
-J'utilise Google Text-to-Speech pour générer des versions audio de mes articles de blog. L'extrait de code suivant montre comment je sélectionne le code de langue approprié pour le moteur de synthèse vocale :
+J'utilise Google Text-to-Speech pour générer des versions audio de mes articles de blog. Le code suivant montre comment je sélectionne le code de langue approprié pour le moteur de synthèse vocale :
 
 ```python
             if filename.endswith('-zh.md'):
@@ -76,15 +76,19 @@ J'utilise Google Text-to-Speech pour générer des versions audio de mes article
             else:
                 language_code = "en-US"
                 voice_language_code = "en-US"
-            
+
             text_to_speech(
-                text=article_text, 
-                output_filename=output_filename, 
-                task=task, 
-                language_code=language_code, 
+                text=article_text,
+                output_filename=output_filename,
+                task=task,
+                language_code=language_code,
                 dry_run=dry_run,
                 progress=progress
             )
 ```
 
-Actuellement, l'audio est généré pour le contenu en chinois et en anglais. Pour étendre le support à d'autres langues, les codes de langue correspondants doivent être configurés.
+Actuellement, l'audio est généré pour le contenu chinois et anglais. Pour étendre la prise en charge à d'autres langues, les codes de langue correspondants doivent être configurés.
+
+## Résumé
+
+Les langues diffèrent principalement par deux aspects : leur représentation écrite (forme) et leur forme parlée (prononciation). La sélection des polices et les configurations de synthèse vocale répondent respectivement à ces deux aspects.

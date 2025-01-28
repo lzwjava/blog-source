@@ -2,17 +2,17 @@
 audio: true
 lang: de
 layout: post
-title: 'Sprachunterstützung: Schriftarten und Text-zu-Sprache'
+title: 'Sprachunterstützung: Schriftarten und Text-to-Speech'
 translated: true
 ---
 
-Mein Blog unterstützt jetzt neun Sprachen: Japanisch (`ja`), Spanisch (`es`), Hindi (`hi`), Chinesisch (`zh`), Englisch (`en`), Französisch (`fr`), Deutsch (`de`), Arabisch (`ar`) und traditionelles Chinesisch (`hant`). Sie finden die Website unter [https://lzwjava.github.io](https://lzwjava.github.io).
+Mein Blog unterstützt jetzt neun Sprachen: Japanisch (`ja`), Spanisch (`es`), Hindi (`hi`), Chinesisch (`zh`), Englisch (`en`), Französisch (`fr`), Deutsch (`de`), Arabisch (`ar`) und traditionelles Chinesisch (`hant`). Sie finden die Seite unter [https://lzwjava.github.io](https://lzwjava.github.io)
 
-Bei der Handhabung mehrerer Sprachen in einer Computerumgebung müssen mehrere Aspekte berücksichtigt werden.
+Beim Umgang mit mehreren Sprachen in einer Computerumgebung sind mehrere Aspekte zu berücksichtigen.
 
-## Schriftartenbehandlung
+## Schriftartenverwaltung
 
-Verschiedene Sprachen erfordern spezifische Schriftarten für eine korrekte Darstellung, insbesondere bei der Generierung von PDFs mit LaTeX. Der folgende Python-Code zeigt, wie geeignete Schriftarten basierend auf dem Betriebssystem und der Sprache ausgewählt werden:
+Verschiedene Sprachen erfordern spezifische Schriftarten für eine korrekte Darstellung, insbesondere beim Erzeugen von PDFs mit LaTeX. Der folgende Python-Code zeigt, wie geeignete Schriftarten basierend auf dem Betriebssystem und der Sprache ausgewählt werden:
 
 ```python
     if platform.system() == "Darwin":
@@ -63,11 +63,11 @@ Verschiedene Sprachen erfordern spezifische Schriftarten für eine korrekte Dars
     ]
 ```
 
-Es ist wichtig zu beachten, dass diese Lösung nicht perfekt ist. Zum Beispiel könnte Hindi-Text in Kommentaren von Codeblöcken nicht wie erwartet dargestellt werden.
+Es ist wichtig zu beachten, dass diese Lösung nicht perfekt ist. Beispielsweise kann Hindi-Text innerhalb von Codeblock-Kommentaren möglicherweise nicht wie erwartet gerendert werden.
 
-## Text-zu-Sprache
+## Text-to-Speech
 
-Ich nutze Google Text-to-Speech, um Audio-Versionen meiner Blogbeiträge zu erstellen. Der folgende Codeausschnitt zeigt, wie ich den entsprechenden Sprachcode für die Text-zu-Sprache-Engine auswähle:
+Ich verwende Google Text-to-Speech, um Audioversionen meiner Blogbeiträge zu erstellen. Der folgende Codeausschnitt zeigt, wie ich den entsprechenden Sprachcode für die Text-to-Speech-Engine auswähle:
 
 ```python
             if filename.endswith('-zh.md'):
@@ -76,15 +76,19 @@ Ich nutze Google Text-to-Speech, um Audio-Versionen meiner Blogbeiträge zu erst
             else:
                 language_code = "en-US"
                 voice_language_code = "en-US"
-            
+
             text_to_speech(
-                text=article_text, 
-                output_filename=output_filename, 
-                task=task, 
-                language_code=language_code, 
+                text=article_text,
+                output_filename=output_filename,
+                task=task,
+                language_code=language_code,
                 dry_run=dry_run,
                 progress=progress
             )
 ```
 
 Derzeit wird Audio für chinesische und englische Inhalte generiert. Um die Unterstützung auf andere Sprachen auszudehnen, müssen die entsprechenden Sprachcodes konfiguriert werden.
+
+## Zusammenfassung
+
+Sprachen unterscheiden sich in zwei primären Aspekten: ihrer geschriebenen Darstellung (Form) und ihrer gesprochenen Form (Aussprache). Die Schriftartenauswahl und die Text-to-Speech-Konfigurationen adressieren diese beiden Aspekte entsprechend.
