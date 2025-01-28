@@ -196,7 +196,6 @@ def translate_markdown_file(input_file, output_file, target_language, model="dee
 
         print(f"front_matter_match: {front_matter_match}")
         print(f"front_matter: {front_matter}")
-        print(f"content_without_front_matter: {content_without_front_matter}")
         
         translated_front_matter = translate_front_matter(front_matter, target_language, input_file, model=model)            
         
