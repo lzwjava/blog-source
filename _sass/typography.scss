@@ -3,7 +3,7 @@ body {
     line-height: 1.4;
     background-color: $main-bg-color;
 
-    font-family: Monaco, Helvetica, "PingFangSC-Regular", "Microsoft YaHei", SimSun, serif; 
+    font-family: Menlo, Monaco, "Helvetica Neue", Helvetica, "PingFangSC-Regular", "Microsoft YaHei", SimSun, serif; 
 
 }
 
@@ -54,7 +54,7 @@ body {
 
     @include small {
         display: block;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -63,7 +63,7 @@ body {
     font-size: 1.1rem;
 
     @include small {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
