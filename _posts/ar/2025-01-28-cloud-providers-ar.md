@@ -2,7 +2,7 @@
 audio: true
 lang: ar
 layout: post
-title: توزيع السحابة
+title: المزودون للخدمات السحابية
 translated: true
 ---
 
@@ -19,7 +19,9 @@ translated: true
 * [Alibaba Cloud](https://www.alibabacloud.com)
 * [Alibaba Cloud (China)](https://cn.aliyun.com)
 
-سمعت عنها أو استخدمتها لفترة قصيرة:
+سمعت عنها أو استخدمتها لمدة قصيرة:
 
 * [UCloud](https://www.ucloud.cn)
 * [QingCloud](https://www.qingcloud.com)
+* [OVHcloud](https://www.ovhcloud.com)
+* [Hetzner](https://www.hetzner.com)

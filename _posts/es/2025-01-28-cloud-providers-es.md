@@ -2,11 +2,11 @@
 audio: true
 lang: es
 layout: post
-title: Proveedores de Nube
+title: Proveedores de la Nube
 translated: true
 ---
 
-Utilizado:
+Útilizados:
 
 * [Azure](https://azure.microsoft.com)
 * [AWS Lightsail](https://aws.amazon.com/lightsail/)
@@ -23,3 +23,5 @@ Escuchado o utilizado por un corto período:
 
 * [UCloud](https://www.ucloud.cn)
 * [QingCloud](https://www.qingcloud.com)
+* [OVHcloud](https://www.ovhcloud.com)
+* [Hetzner](https://www.hetzner.com)
