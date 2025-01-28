@@ -8,42 +8,92 @@ import requests
 from dotenv import load_dotenv
 import yaml
 import concurrent.futures
+import traceback
+import copy
 
 load_dotenv()
 
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 MODEL_NAME = "deepseek-chat"
 INPUT_DIR = "original"
 MAX_THREADS = 10
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
-
+MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 
 def create_translation_prompt(target_language, special=False):
     if target_language == 'ja':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Japanese. Do not translate English names. Be careful about code blocks."
+        return "Translate to Japanese. Just give translated text.\n\n"
     elif target_language == 'es':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Spanish. Do not translate English names. Be careful about code blocks."
+        return "Translate to Spanish. Just give translated text.\n\n"
     elif target_language == 'hi':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Hindi. Do not translate English names. Be careful about code blocks."
+        return "Translate to Hindi. Just give translated text.\n\n"
     elif target_language == 'fr':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to French. Do not translate English names. Be careful about code blocks."
+        return "Translate to French. Just give translated text.\n\n"
     elif target_language == "zh":
-        if special:
-            return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Translate Zhiwei Li to 李智维. Translate Meitai Technology Services to 美钛技术服务. Translate Neusiri to 思芮 instead of 纽思瑞. Translate Chongding Conference to 冲顶大会. Translate Fun Live to 趣直播. Translate MianbaoLive to 面包Live. Translate Beijing Dami Entertainment Co. to 北京大米互娱有限公司. Translate Guangzhou Yuyan Middle School to 广州玉岩中学. Do not translate English names or code blocks. Be careful about code blocks."""
-        else:
-            return f"""You are a professional translator. You are translating a markdown file for a Jekyll blog post from English to Chinese. Translate the following text to Chinese. Do not translate English names or code blocks. Be careful about code blocks."""
+        return f"""Translate to Chinese. Just give translated text.\n\n"""
     elif target_language == 'hant':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Traditional Chinese (Hong Kong). "
+        return "Translate to Traditional Chinese (Hong Kong). Just give translated text.\n\n"
     elif target_language == 'en':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to English. Do not translate English names. Be careful about code blocks."
+        return "Translate to English. Just give translated text.\n\n"
     elif target_language == 'de':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to German. Do not translate English names. Be careful about code blocks."
+        return "Translate to German. Just give translated text.\n\n"
     elif target_language == 'ar':
-        return "You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to Arabic. Do not translate English names. Be careful about code blocks."
+        return "Translate to Arabic. Just give translated text.\n\n"
     else:
-        return f"You are a professional translator. You are translating a markdown file for a Jekyll blog post. Translate the following text to {target_language}. Do not translate English names. Be careful about code blocks."
+        return f"Translate to {target_language}. Just give translated text.\n\n"
 
-def translate_text(text, target_language, special=False):
+def call_mistral_api(prompt):
+    api_key = MISTRAL_API_KEY
+    if not api_key:
+        print("Error: MISTRAL_API_KEY environment variable not set.")
+        return None
+    
+    url = MISTRAL_API_URL
+    headers = {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "Authorization": f"Bearer {api_key}"
+    }
+    data = {
+        "model": "mistral-large-latest",
+        "messages": [
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+    }
+    try:
+        print(f"Mistral API Request: {data}")
+        response = requests.post(url, headers=headers, json=data)
+        response.raise_for_status()
+        response_json = response.json()
+        print(f"Mistral API Response: {response_json}")
+
+        if response_json and response_json.get('usage'):
+            prompt_tokens = response_json['usage'].get('prompt_tokens', 0)
+            completion_tokens = response_json['usage'].get('completion_tokens', 0)
+            total_tokens = response_json['usage'].get('total_tokens', 0)
+            print(f"Mistral API Usage: prompt_tokens={prompt_tokens}, completion_tokens={completion_tokens}, total_tokens={total_tokens}")
+            if completion_tokens > prompt_tokens * 2:
+                raise Exception(f"Mistral API Error: Completion tokens ({completion_tokens}) exceeds twice the prompt tokens ({prompt_tokens}).")
+            
+        if response_json and response_json['choices']:
+            content = response_json['choices'][0]['message']['content']
+            content = content.replace("```", "").strip()
+            return content
+        else:
+            print(f"Mistral API Error: Invalid response format: {response_json}")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"Mistral API Error: {e}")
+        if e.response:
+            print(f"Response status code: {e.response.status_code}")
+            print(f"Response content: {e.response.text}")
+        return None
+
+def translate_text(text, target_language, special=False, model="deepseek"):
     if not text or not text.strip():
         return ""
     if target_language == 'en':
@@ -51,35 +101,53 @@ def translate_text(text, target_language, special=False):
         return text
     print(f"  Translating text: {text[:50]}...")
     
-    try:
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {DEEPSEEK_API_KEY}"
-        }
-        data = {
-            "model": MODEL_NAME,
-            "messages": [
-                {"role": "system", "content": create_translation_prompt(target_language, special)},
-                {"role": "user", "content": text}
-            ],
-            "stream": False
-        }
-        response = requests.post(DEEPSEEK_API_URL, headers=headers, json=data)
-        response.raise_for_status()
-        response_json = response.json()
-
-        if not response_json or not response_json.get('choices') or not response_json['choices'][0]['message']['content']:
-            print(f"  Error: Translation response is empty or invalid: {response_json}")
+    if model == "deepseek":
+        try:
+            headers = {
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {DEEPSEEK_API_KEY}"
+            }
+            data = {
+                "model": MODEL_NAME,
+                "messages": [
+                    {"role": "system", "content": create_translation_prompt(target_language, special)},
+                    {"role": "user", "content": text}
+                ],
+                "stream": False
+            }
+            response = requests.post(DEEPSEEK_API_URL, headers=headers, json=data)        
+            response.raise_for_status()
+            response_json = response.json()
+            if not response_json or not response_json.get('choices') or not response_json['choices'][0]['message']['content']:
+                print(f"  Error: Translation response is empty or invalid:")
+                print(response.content)
+                return None
+            
+            if response_json['choices'][0].get('finish_reason') != "stop":
+                print(f"  Error: Translation did not finish with 'stop' reason:")
+                print(response.content)
+                return None
+            
+            translated_text = response_json['choices'][0]['message']['content']
+            return translated_text
+        except requests.exceptions.RequestException as e:
+            print(f"  Translation failed with error: {e}")
+            traceback.print_exc()
+            if response and response.content:
+                print(f"  Response content: {response.content}")
+            else:
+                print("  Response content is empty.")
             return None
-        
-        translated_text = response_json['choices'][0]['message']['content']
+    elif model == "mistral":
+        prompt = create_translation_prompt(target_language, special) + "\n\n" + text
+        translated_text = call_mistral_api(prompt)
         return translated_text
-
-    except requests.exceptions.RequestException as e:
-        print(f"  Translation failed with error: {e}")
+    else:
+        print(f"  Error: Invalid model specified: {model}")
         return None
 
-def translate_front_matter(front_matter, target_language, input_file):
+
+def translate_front_matter(front_matter, target_language, input_file, model="deepseek"):
     print(f"  Translating front matter for: {input_file}")
     if not front_matter:
         print(f"  No front matter found for: {input_file}")
@@ -90,11 +158,11 @@ def translate_front_matter(front_matter, target_language, input_file):
             front_matter_dict = yaml.safe_load(front_matter)
             print(f"  Front matter after safe_load: {front_matter_dict}")
         
-        front_matter_dict_copy = front_matter_dict.copy()
+        front_matter_dict_copy = copy.deepcopy(front_matter_dict)
         
         if 'title' in front_matter_dict_copy:
             print(f"  Translating title: {front_matter_dict_copy['title']}")
-            translated_title = translate_text(front_matter_dict_copy['title'], target_language)
+            translated_title = translate_text(front_matter_dict_copy['title'], target_language, model=model)
             if translated_title:
                 translated_title = translated_title.strip()
                 front_matter_dict_copy['title'] = translated_title
@@ -115,7 +183,7 @@ def translate_front_matter(front_matter, target_language, input_file):
         print(f"  Error parsing front matter: {e}")
         return front_matter
 
-def translate_markdown_file(input_file, output_file, target_language, dry_run=False):
+def translate_markdown_file(input_file, output_file, target_language, model="deepseek"):
     print(f"  Processing file: {input_file}")
     try:
         with open(input_file, 'r', encoding='utf-8') as infile:
@@ -125,28 +193,30 @@ def translate_markdown_file(input_file, output_file, target_language, dry_run=Fa
         front_matter_match = re.match(r'---\n(.*?)\n---', content, re.DOTALL)
         front_matter = front_matter_match.group(1) if front_matter_match else ""
         content_without_front_matter = content[len(front_matter_match.group(0)):] if front_matter_match else content
+
+        print(f"front_matter_match: {front_matter_match}")
+        print(f"front_matter: {front_matter}")
+        print(f"content_without_front_matter: {content_without_front_matter}")
         
-        if not dry_run:
-            translated_front_matter = translate_front_matter(front_matter, target_language, input_file)            
-            
-            special = target_language == "zh" and (
-                "resume" in input_file.lower() or 
-                "introduction" in input_file.lower() or 
-                "Zhiwei" in content_without_front_matter
-            )
-            translated_content = translate_text(content_without_front_matter, target_language, special=special)
-            if translated_content:
-                translated_content = translated_front_matter + "\n\n" + translated_content
-            else:
-                raise Exception(f"Translation failed for: {input_file}")
-            
-            if os.path.exists(output_file):
-                os.remove(output_file)
-                
-            with open(output_file, 'w', encoding='utf-8') as outfile:
-                outfile.write(translated_content)
+        translated_front_matter = translate_front_matter(front_matter, target_language, input_file, model=model)            
+        
+        special = target_language == "zh" and (
+            "resume" in input_file.lower() or 
+            "introduction" in input_file.lower() or 
+            "Zhiwei" in content_without_front_matter
+        )
+        translated_content = translate_text(content_without_front_matter, target_language, special=special, model=model)
+        print(f"  Translated content: {translated_content}")
+        if translated_content:
+            translated_content = translated_front_matter + "\n\n" + translated_content
         else:
-            translated_content = content
+            raise Exception(f"Translation failed for: {input_file}")
+        
+        if os.path.exists(output_file):
+            os.remove(output_file)
+            
+        with open(output_file, 'w', encoding='utf-8') as outfile:
+            outfile.write(translated_content)
         print(f"  Finished processing file: {output_file}")
     except Exception as e:
         print(f"  Error processing file {input_file}: {e}")
@@ -207,42 +277,40 @@ def get_changed_files():
 
 
 def main():
-    if not DEEPSEEK_API_KEY:
-        print("Error: DEEPSEEK_API_KEY is not set in .env file.")
+    if not DEEPSEEK_API_KEY and not MISTRAL_API_KEY:
+        print("Error: DEEPSEEK_API_KEY or MISTRAL_API_KEY is not set in .env file.")
         return
 
     parser = argparse.ArgumentParser(description="Translate markdown files to a specified language.")
     parser.add_argument("--lang", type=str, default="all", help="Target language for translation (e.g., ja, es, all).")
     parser.add_argument("--dry_run", action="store_true", help="Perform a dry run without modifying files.")
     parser.add_argument("--file", type=str, default=None, help="Specific file to translate.")
+    parser.add_argument("--max_files", type=int, default=None, help="Maximum number of files to process.")
+    parser.add_argument("--model", type=str, default="deepseek", help="Model to use for translation (deepseek or mistral).")
     args = parser.parse_args()
     target_language = args.lang
     dry_run = args.dry_run
     input_file = args.file
+    max_files = args.max_files
+    model = args.model
     
     if target_language == "all":
         languages = ['ja', 'es', 'hi', 'zh', 'en', 'fr', 'de', 'ar', 'hant']
     else:
         languages = [target_language]
-
-    total_files_to_process = 0
-    
-    if dry_run:
-        if input_file:
-            total_files_to_process = 1
-            print(f"Total Markdown files to process: {total_files_to_process}")
-        else:
-            changed_files = get_changed_files()
-            total_files_to_process = len(changed_files)
-            print(f"Total Markdown files to process: {total_files_to_process}")
-        return
     
     if input_file:
         changed_files = [input_file]
         total_files_to_process = 1
     else:
         changed_files = get_changed_files()
+        if max_files and len(changed_files) > max_files:
+            changed_files = changed_files[:max_files]
         total_files_to_process = len(changed_files)
+    
+    if dry_run:
+        print(f"Total Markdown files to process: {total_files_to_process}")
+        return
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         futures = []
@@ -262,7 +330,7 @@ def main():
                 output_file = os.path.join(output_dir, output_filename)
                             
                 print(f"Submitting translation job for {filename} to {lang}...")
-                future = executor.submit(translate_markdown_file, input_file, output_file, lang, dry_run)
+                future = executor.submit(translate_markdown_file, input_file, output_file, lang, model)
                 futures.append(future)
             
         for future in concurrent.futures.as_completed(futures):

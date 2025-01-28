@@ -2,29 +2,29 @@
 audio: true
 lang: zh
 layout: post
-title: iOS 中的特殊设置
+title: 特殊设置在iOS
 translated: true
 ---
 
-## 应用专属设置
+## 应用程序设置
 
-在使用Reddit频率增加后，我发现字体大小对于舒适阅读来说显得过小。应用建议通过“应用专属设置”来调整字体大小。稍微增大后，Reddit的使用体验大幅提升。以下是设置调整的截图展示：
+在更频繁地使用Reddit时，我发现字体大小太小，无法舒适地阅读。应用程序建议通过应用程序设置调整字体大小。稍微增加字体大小后，Reddit变得更加易于使用。以下是显示设置调整的屏幕截图：
 
 {: .centered }
 ![](assets/images/ios-settings/p2.jpg){: .responsive }
-*应用专属设置界面一*{: .caption }
+*应用程序设置屏幕1*{: .caption }
 
 {: .centered }
 ![](assets/images/ios-settings/p1.jpg){: .responsive }
-*应用专属设置界面二*{: .caption }
+*应用程序设置屏幕2*{: .caption }
 
-## 切换控制与辅助触控
+## 开关控制和辅助触控
 
-2019年起，我开始更频繁地使用iPhone，尤其是观看TikTok视频。但当手机固定在懒人支架上时，触屏滑动切换视频变得不便。为此，我购置了一款兼容iOS和Android设备的蓝牙遥控手柄。
+2019年，我开始更积极地使用我的iPhone，特别是观看TikTok视频。然而，当我的手机放在懒人支架上时，触摸屏幕并在视频之间滑动变得困难。为了解决这个问题，我购买了一个兼容iOS和Android设备的蓝牙遥控手柄。
 
-2022年，我又购入另一款遥控手柄，专为驾车时操控iPhone设计。一手握方向盘，另一手轻松利用手柄的上下按钮导航应用、调整设置或控制媒体播放。
+2022年，我又购买了一个专门用于在驾驶时控制我的iPhone的遥控手柄。一只手握住方向盘，另一只手可以轻松地使用手柄的上下按钮导航应用程序、调整设置或控制媒体播放。
 
-这款遥控手柄不仅优化了TikTok的操控体验，还能用于自拍及控制iPhone的其他功能，为我的驾驶生活增添了便利与安全。
+这个遥控手柄不仅适合管理TikTok，还可以用于自拍和控制iPhone的其他功能，增加了我驾驶时的便利性和安全性。
 
 {: .centered }
 ![](assets/images/ios-settings/kit.jpg){: .responsive }
@@ -32,8 +32,16 @@ translated: true
 
 ## TradingView
 
-TradingView的小部件数据相比其他应用（如老虎证券）更为稳定。
+TradingView的小部件数据比其他应用程序（如Tiger Trade）更稳定。
 
 {: .centered }
 ![](assets/images/ios-settings/trading_view.jpg){: .responsive }
+*来源：tradingview.com*{: .caption }
+
+## 滑动更新
+
+OKX使用的更新方法很有趣。用户需要滑动以启动更新。
+
+{: .centered }
+![](assets/images/ios-settings/update.jpg){: .responsive }
 *来源：tradingview.com*{: .caption }

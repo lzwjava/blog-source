@@ -7,6 +7,7 @@ translated: false
 ---
 
 
+
 ## Per-App Settings
 
 While using Reddit more frequently, I found the font size too small for comfortable reading. The app suggested adjusting the font size through Per-App Settings. After increasing it slightly, Reddit became much easier to use. Below are the screenshots showing the settings adjustments:
@@ -39,3 +40,10 @@ TradingView's widget data is more stable than other apps, such as Tiger Trade.
 ![](assets/images/ios-settings/trading_view.jpg){: .responsive }
 *Source: tradingview.com*{: .caption }
 
+## Slide to Update
+
+The update method used by OKX is fascinating. Users need to slide to initiate an update.
+
+{: .centered }
+![](assets/images/ios-settings/update.jpg){: .responsive }
+*Source: tradingview.com*{: .caption }

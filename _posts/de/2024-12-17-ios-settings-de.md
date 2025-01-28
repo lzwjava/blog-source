@@ -8,23 +8,23 @@ translated: true
 
 ## App-spezifische Einstellungen
 
-Während ich Reddit häufiger nutzte, fand ich die Schriftgröße zu klein für ein angenehmes Lesen. Die App schlug vor, die Schriftgröße über die App-spezifischen Einstellungen anzupassen. Nachdem ich sie leicht erhöht hatte, wurde Reddit viel einfacher zu bedienen. Unten sind die Screenshots, die die Anpassungen der Einstellungen zeigen:
+Beim häufigeren Nutzen von Reddit fand ich die Schriftgröße für ein komfortables Lesen zu klein. Die App schlug vor, die Schriftgröße über die app-spezifischen Einstellungen anzupassen. Nach einer leichten Erhöhung wurde Reddit viel einfacher zu benutzen. Hier sind die Screenshots, die die Einstellungsanpassungen zeigen:
 
 {: .centered }
 ![](assets/images/ios-settings/p2.jpg){: .responsive }
-*App-spezifische Einstellungen Bildschirm 1*{: .caption }
+*Bildschirm 1 der app-spezifischen Einstellungen*{: .caption }
 
 {: .centered }
 ![](assets/images/ios-settings/p1.jpg){: .responsive }
-*App-spezifische Einstellungen Bildschirm 2*{: .caption }
+*Bildschirm 2 der app-spezifischen Einstellungen*{: .caption }
 
 ## Switch Control und AssistiveTouch
 
-Im Jahr 2019 begann ich, mein iPhone aktiver zu nutzen, insbesondere zum Anschauen von TikTok-Videos. Als mein Telefon jedoch in einer Halterung befestigt war, wurde es schwierig, den Bildschirm zu erreichen und zwischen den Videos zu wechseln. Um dieses Problem zu lösen, kaufte ich einen Bluetooth-Fernbedienungsgriff, der mit iOS- und Android-Geräten kompatibel ist.
+Im Jahr 2019 begann ich, mein iPhone aktiver zu nutzen, insbesondere zum Anschauen von TikTok-Videos. Allerdings wurde es schwierig, den Bildschirm zu erreichen und zwischen Videos zu wischen, wenn mein Telefon in einer Lazy-Halterung befestigt war. Um dies zu lösen, kaufte ich einen Bluetooth-Fernbedienungsgriff, der sowohl mit iOS- als auch mit Android-Geräten funktioniert.
 
-Im Jahr 2022 kaufte ich einen weiteren Fernbedienungsgriff speziell zur Steuerung meines iPhones während der Fahrt. Mit einer Hand am Lenkrad kann ich mühelos mit der anderen Hand Apps navigieren, Einstellungen anpassen oder die Medienwiedergabe mit den Auf- und Ab-Tasten des Griffs steuern.
+Im Jahr 2022 kaufte ich einen weiteren Fernbedienungsgriff, speziell zur Steuerung meines iPhones während des Fahrens. Mit einer Hand am Lenkrad kann ich mühelos die andere Hand benutzen, um Apps zu navigieren, Einstellungen anzupassen oder die Medienwiedergabe mit den Auf- und Abwärtstasten des Griffs zu steuern.
 
-Dieser Fernbedienungsgriff ist nicht nur großartig für die Verwaltung von TikTok, sondern auch vielseitig genug, um Selfies zu machen und andere iPhone-Funktionen zu steuern, was sowohl den Komfort als auch die Sicherheit meines Fahrerlebnisses erhöht.
+Dieser Fernbedienungsgriff ist nicht nur großartig für die Verwaltung von TikTok, sondern auch vielseitig genug, um Selfies zu machen und andere iPhone-Funktionen zu steuern, wodurch sowohl Komfort als auch Sicherheit zu meinem Fahrerlebnis hinzugefügt werden.
 
 {: .centered }
 ![](assets/images/ios-settings/kit.jpg){: .responsive }
@@ -32,8 +32,16 @@ Dieser Fernbedienungsgriff ist nicht nur großartig für die Verwaltung von TikT
 
 ## TradingView
 
-Die Widget-Daten von TradingView sind stabiler als bei anderen Apps, wie zum Beispiel Tiger Trade.
+Die Widget-Daten von TradingView sind stabiler als die anderer Apps wie Tiger Trade.
 
 {: .centered }
 ![](assets/images/ios-settings/trading_view.jpg){: .responsive }
+*Quelle: tradingview.com*{: .caption }
+
+## Wischen zum Aktualisieren
+
+Die von OKX verwendete Aktualisierungsmethode ist faszinierend. Benutzer müssen wischen, um eine Aktualisierung zu starten.
+
+{: .centered }
+![](assets/images/ios-settings/update.jpg){: .responsive }
 *Quelle: tradingview.com*{: .caption }
