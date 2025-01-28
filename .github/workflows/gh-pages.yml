@@ -11,8 +11,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: ${{ github.head_ref || github.run_id }} 
-  cancel-in-progress: false
+  group: 'gh-pages'
+  cancel-in-progress: true
 
 jobs:
   build:
