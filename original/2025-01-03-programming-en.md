@@ -59,3 +59,4 @@ title: Programming
 
 * When improving something like network speed or program running time, there must be a quantitative metric. Otherwise, you won't know exactly if there was a trivial improvement or degradation.
 
+* For personal projects, it is okay to not write test code, but it is better to do local testing after changing a significant amount of code. Consider the affected code, how much time it will run in the cloud pipeline, and how frequently it will lead to errors, so test code accordingly.
