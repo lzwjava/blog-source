@@ -36,6 +36,7 @@ translated: false
 def delete_md(name):
     posts_dir = '_posts'
     pdfs_dir = 'assets/pdfs'
+    audios_dir = 'assets/audios'
     
     langs = ["en", "zh", "es", "fr", "de", "ja", "hi", "ar", "hant"]
 
@@ -43,6 +44,8 @@ def delete_md(name):
         # Construct the file name pattern, allowing for a date at the beginning
         md_file_pattern = os.path.join(posts_dir, lang, f"{name}-{lang}.md")
         pdf_file_pattern = os.path.join(pdfs_dir, lang, f"{name}-{lang}.pdf")
+        audio_file_pattern = os.path.join(audios_dir, f"{name}-{lang}.mp3")
+
 
         # Find matching files
         for md_file_path in glob.glob(md_file_pattern):
@@ -57,6 +60,11 @@ def delete_md(name):
                 print(f"Deleted file: {pdf_file_path}")
             else:
                 print(f"File not found: {pdf_file_path}")
+        if os.path.exists(audio_file_pattern):
+            os.remove(audio_file_pattern)
+            print(f"Deleted file: {audio_file_pattern}")
+        else:
+            print(f"File not found: {audio_file_pattern}")
 
 
 if __name__ == "__main__":
