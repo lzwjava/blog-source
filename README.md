@@ -80,6 +80,8 @@ python scripts/pdf_pipeline.py --task posts --n 10
 python scripts/pdf_pipeline.py --task notes
 
 python scripts/generate_notes_link.py
+
+python scripts/auto-ss-config/upload_configs.py
 ```
 
 ## Scripts
