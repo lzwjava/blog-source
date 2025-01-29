@@ -16,3 +16,5 @@ translated: false
 
 - For training large language models, we could develop a system that finds exact matches. Perhaps we can combine the KMP (Knuth-Morris-Pratt) search algorithm with transformer architecture to enhance search capabilities.
 
+- There are no technological secrets. Open source will reveal all the secrets that are closely guarded.
+
