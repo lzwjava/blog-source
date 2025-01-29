@@ -24,4 +24,3 @@ translated: false
 
 - [How I Live Well in the AI and Blockchain Era](./ai-blockchain-en)
 
-
