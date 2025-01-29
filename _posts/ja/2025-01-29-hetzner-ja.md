@@ -6,42 +6,42 @@ title: Hetznerクラウド
 translated: true
 ---
 
-最近このクラウドプラットフォームを試してみるのを楽しみにしています。
+このクラウドプラットフォームについては最近試したいととても興奮です。
 
 {: .centered }
-![](assets/images/hertzner/h.jpg){: .responsive }
+![](assets/images/hertzner/h.jpg)
 *Source: Hetzner*{: .caption }
 
-ヘルシンキのサーバーで、2 AMD VCPUs、2GB RAM、40GB SSD、20TB のトラフィックを持つ設定は、 $4.49 USD 毎月です。
+ヘルシンキにあるサーバーの構成は2つのAMD VCPU、2GBのRAM、40GBのSSD、そして20TBのトラフィックで、月額 $4.49 USD です。
 
-IPv4 アドレスは追加で $0.60 USD 毎月かかり、合計で $5.09 USD 毎月になります。
+IPv4アドレスは追加で月額 $0.60 USD かかり、合計は月額 $5.09 USD になります。
 
-彼らは6つの場所でサービスを提供しています：
+彼らは以下の6つの場所でサービスを提供しています：
 
-- ヌールベルク、ドイツ
+- ヌールンベルク、ドイツ
 - ファルケンシュタイン、ドイツ
 - ヘルシンキ、フィンランド
 - シンガポール、シンガポール
-- オレゴン州のヒルズボロ、アメリカ
-- バージニア州のアシュバーン、アメリカ
+- オレゴン州ヒルズボロー、アメリカ
+- バージニア州アシュバーン、アメリカ
 
-人気の場所を選ぶというトレンドに従わないことが興味深いです。Vultr や DigitalOcean とは異なる場所を選んでいます。
+彼らが人気のある場所に合わせるトレンドに従わない点が興味深いです。VultrやDigital Oceanとは異なる場所を選んでいます。
 
-ファイアウォールの設定は非常に使いやすいです。最初に使用するのですが、プロキシサーバーの正しい設定をすぐに行うことができました。
+ファイアウォール設定は使いやすいです。初めて使ったのに、プロキシサーバーの正しい構成を迅速に設定できました。
 
 > sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
 
-ヘルシンキのヘッツナーサーバーの速度は非常に速いです。Speedtest iOS アプリを使用して、ダウンロード速度は 423 Mbps、アップロード速度は 56.1 Mbps です。
+ヘルシンキのHetznerサーバーの速度は非常に速いです。iOSのSpeedtestアプリを使って、ダウンロード速度は423 Mbps、アップロード速度は56.1 Mbpsです。
 
-Shadowrocket のピングは 1175 ms ですが、これは大きな問題ではありません。
+ShadowrocketのPingは1175 msですが、問題ありません。
 
-サーバーインスタンスの詳細を取得するためのシンプルな Python スクリプトです。
+サーバーインスタンスの詳細を取得するためのシンプルなPythonスクリプトです。
 
 ```python
 from hcloud import Client
 import os
 
-# 環境変数から API トークンを取得
+# 環境変数からAPIトークンを取得
 api_token = os.environ.get('HERTZNER_API_KEY')
 
 if not api_token:
@@ -65,7 +65,7 @@ for server in servers:
     print(f"Server Location: {server.datacenter.location.name}")
     print("----------------------------------")
 
-# 特定のサーバーを ID で取得
+# 特定のサーバーIDでサーバーを取得
 server_id = '59402674'
 server = client.servers.get_by_id(server_id)
 
@@ -76,4 +76,5 @@ print(f"Specific Server IPv4: {server.public_net.ipv4.ip}")
 print(f"Specific Server IPv6: {server.public_net.ipv6.ip}")
 print(f"Specific Server Type: {server.server_type.name}")
 print(f"Specific Server Location: {server.datacenter.location.name}")
+
 ```

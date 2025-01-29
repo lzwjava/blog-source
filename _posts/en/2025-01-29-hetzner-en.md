@@ -11,7 +11,7 @@ translated: false
 I am very excited to try this cloud platform recently.
 
 {: .centered }
-![](assets/images/hertzner/h.jpg){: .responsive }
+![](assets/images/hertzner/h.jpg)
 *Source: Hetzner*{: .caption }
 
 A server in Helsinki with a configuration of 2 AMD VCPUs, 2GB RAM, 40GB SSD, and 20TB of traffic costs $4.49 USD per month.
