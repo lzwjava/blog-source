@@ -32,3 +32,7 @@ title: Trading
 - In regular investing, the key is to invest consistently over the years. Therefore, there is no need to rush and attempt to invest more in any given week or month, especially if the money is not from your savings but is borrowed, has a deadline, or has an associated cost. It can be difficult to maintain consistent investing over a year or a few years.
 
 - The P&L of your portfolio may be zero after regularly investing for months. So why not invest all at once at the start? The feeling is different. You have been riding up and down with these stocks. You gain resilience and patience, which is priceless.
+
+- Regular investing is very interesting. The price of stocks or coins goes up and down. I observe how the market works. Often, people debate or react to news in emotional ways. But I understand a lot about what I invest in. Every time I question its long-term value, I haven't changed much about my strategy.
+
+
