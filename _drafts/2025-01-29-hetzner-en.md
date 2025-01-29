@@ -32,3 +32,5 @@ The firewall setting is easy. Although this is my first time using it, I quickly
 > sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
 
 The speed of the Hetzner server in Helsinki is very fast. Using the Speedtest iOS app, the download speed is 423 Mbps, and the upload speed is 56.1 Mbps.
+
+The ping in Shadowrocket is 1175 ms, but this is not a significant issue.
