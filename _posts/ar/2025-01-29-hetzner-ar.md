@@ -2,79 +2,78 @@
 audio: true
 lang: ar
 layout: post
-title: حمولة هتزنر
+title: عموم السحابة في هتزنر
 translated: true
 ---
 
-أنا محتمل جداً لمحاولة هذه المنصة السحابية الحديثة.
+أنا محتاج جداً للتجربة هذه المنصة السحابية الحديثة.
 
 {: .centered }
 ![](assets/images/hertzner/h.jpg)
 *مصدر: هتزنر*{: .caption }
 
-خادم في هلسينكي مع تكوين 2 CPU AMD متعددة الوحدات المعالجة، 2 جيجابايت ذاكرة عشوائية، 40 جيجابايت SSD، و20 تيرابايت من الeiic يكلف 4.49 دولار أمريكي شهرياً.
+خادم في هلسنكي مع تكوين من 2 VCPUs AMD، 2GB RAM، 40GB SSD، و20TB من الترافيك يكلف 4.49 USD شهريا.
 
-عنوان IPv4 يكلف 50 سنت أمريكي إضافي شهرياً، مما يرفع الإجمالي إلى 5.09 دولار أمريكي شهرياً.
+عنوان IPv4 يكلف 0.60 USD إضافي شهريا، مما يرفع الإجمالي إلى 5.09 USD شهريا.
 
-يوفرون الخدمات في ستة مواقع:
+يوفرون الخدمات في ست أماكن:
 
-- نيورنبرغ، ألمانيا
+- نورنبرغ، ألمانيا
 - فالكنستاين، ألمانيا
-- هلسينكي، فنلندا
+- هلسنكي، فنلندا
 - سنغافورة، سنغافورة
-- هيلزبورو، أوريغون، ولايات المتحدة الأمريكية
-- أشبورن، فيرجينيا، ولايات المتحدة الأمريكية
+- هلسبورو، أوريغون، الولايات المتحدة
+- أشبرن، فيرجينيا، الولايات المتحدة
 
-هو مثير للاهتمام أنهم لا يلتزمون بالاتجاهات لاختيار المواقع الشهيرة. مواقعهم مختلفة من مواقع Vultr أو Digital Ocean.
+هو مثير للاهتمام أنهم لا يتبعون الأتراك لاختيار الأماكن الشهيرة. مواقعهم مختلفة عن مواقع Vultr أو Digital Ocean.
 
-إعدادات حائط النار سهلة في الاستخدام. على الرغم من أن هذا كان أول مرة استخدامه، سهلت لي جعل تكوين الخادم المستعار بسرعة.
+إعدادات حائط النار سهلة الاستخدام. رغم أنه كان ذلك أول مرة لي استخدامه، قمت بضبط التكوين الصحيح بسرعة لخادمي الوكيل.
 
 > sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
 
-سرعة خادم هتزنر في هلسينكي سريعة جداً. باستخدام تطبيق iOS لSpeedtest، سرعة التحميل 423 ميجابايت بالثانية، وسرعة التحميل 56.1 ميجابايت بالثانية.
+سرعة خادم هتزنر في هلسنكي سريعة جداً. باستخدام التطبيق Speedtest على iOS، سرعة التحميل هي 423 Mbps، وسرعة التحميل هي 56.1 Mbps.
 
-الرد في Shadowrocket 1175 ملي ثانية، ولكن هذا ليس مشكلة كبيرة.
+وقت الترابط في Shadowrocket هو 1175 ms، ولكن هذا ليس مشكلة كبيرة.
 
-برنامج أوليف بايثون بسيط لاسترجاع تفاصيل فرع الخادم.
+برنامج بايثون بسيط لاسترجاع تفاصيل فريق الخادم.
 
 ```python
 from hcloud import Client
 import os
 
-# احصل على مفتاح API من متغير البيئة
+# احصل على مفتاح API من المتغير البيئي
 api_token = os.environ.get('HERTZNER_API_KEY')
 
-إذا لم يكن:
-    print("خطأ: لم يتم تعيين مفتاح API هتزنر لمتغير البيئة.")
+إذا لم يكن هناك API_KEY:
+    print("خطأ: لم يتم تحديد متغير البيئة HERTZNER_API_KEY.")
     exit(1)
 
-# إنشاء حالة عميل
+# إنشاء مثيل عميل
 client = Client(token=api_token)
 
 # احصل على قائمة بجميع الخوادم
 servers = client.servers.get_all()
 
 # طباعة تفاصيل الخادم
-لخادم في servers:
-    print(f"معرف الخادم: {خادم.id}")
-    print(f"اسم الخادم: {خادم.name}")
-    print(f"حالة الخادم: {خادم.status}")
-    print(f"IPv4 العامة: {خادم.public_net.ipv4.ip}")
-    print(f"IPv6 العامة: {خادم.public_net.ipv6.ip}")
-    print(f"نوع الخادم: {خادم.server_type.name}")
-    print(f"موقع الخادم: {خادم.datacenter.location.name}")
+لكل خادم في servers:
+    print(f"معرف الخادم: {server.id}")
+    print(f"اسم الخادم: {server.name}")
+    print(f"حالة الخادم: {server.status}")
+    print(f"IPv4 العام: {server.public_net.ipv4.ip}")
+    print(f"IPv6 العام: {server.public_net.ipv6.ip}")
+    print(f"نوع الخادم: {server.server_type.name}")
+    print(f"موقع الخادم: {server.datacenter.location.name}")
     print("----------------------------------")
 
-# إذا كنت تريد استرجاع خادم محدد بواسطة معرفه
-خادم.id = '59402674'
-خادم = client.servers.get_by_id(خادم.id)
+# إذا كنت تفضل استرجاع خادم بيئي بواسطة معرفه
+server_id = '59402674'
+server = client.servers.get_by_id(server_id)
 
-print(f"معرف الخادم المحدد: {خادم.id}")
-print(f"اسم الخادم المحدد: {خادم.name}")
-print(f"حالة الخادم المحدد: {خادم.status}")
-print(f"IPv4 العامة للخادم المحدد: {خادم.public_net.ipv4.ip}")
-print(f"IPv6 العامة للخادم المحدد: {خادم.public_net.ipv6.ip}")
-print(f"نوع الخادم المحدد: {خادم.server_type.name}")
-print(f"موقع الخادم المحدد: {خادم.datacenter.location.name}")
-
+print(f"معرف الخادم المحدد: {server.id}")
+print(f"اسم الخادم المحدد: {server.name}")
+print(f"حالة الخادم المحدد: {server.status}")
+print(f"IPv4 العام للخادم المحدد: {server.public_net.ipv4.ip}")
+print(f"IPv6 العام للخادم المحدد: {server.public_net.ipv6.ip}")
+print(f"نوع الخادم المحدد: {server.server_type.name}")
+print(f"موقع الخادم المحدد: {server.datacenter.location.name}")
 ```
