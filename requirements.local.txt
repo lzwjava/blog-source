@@ -1,0 +1,2 @@
+aliyunsdkcore
+aliyun-python-sdk-ecs
