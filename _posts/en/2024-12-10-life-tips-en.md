@@ -75,3 +75,6 @@ translated: false
 * Learning AI/STEM is better than learning additional natural languages, as they are a more essential way to understand and interact with the world.
 
 * Your perception of your salary matters more than the amount itself. If you compare it to others, it will likely never feel sufficient. Also, how you spend your salary matters; if you buy what you need daily at a low cost, you might feel it is adequate. For example, using it to buy food or a mobile phone might feel more justifiable, but using your salary to buy a house might not seem as worthwhile.
+
+* Try a lot of products or services. Try a lot of options, sizes, brands, and varieties. People work hard to manufacture or provide them. There are so many free or cheap valuable things.
+
