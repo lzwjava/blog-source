@@ -17,3 +17,5 @@ mistralai
 google-cloud-storage
 ruamel.yaml
 pydo
+aliyunsdkcore
+aliyun-python-sdk-ecs
