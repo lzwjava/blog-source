@@ -185,7 +185,7 @@ jobs:
       - name: Dry run Audio Pipeline
         id: dry_run_audio
         run: |
-          DRY_RUN_OUTPUT=$(python scripts/audio_pipeline.py --task posts --n 1 --dry_run)
+          DRY_RUN_OUTPUT=$(python scripts/audio_pipeline.py --task posts --n 2 --dry_run)
           FILES_TO_PROCESS=$(echo "$DRY_RUN_OUTPUT" | grep "Total Markdown files to process" | awk '{print $8}')
 
           if [[ "$FILES_TO_PROCESS" -gt 0 ]]; then
@@ -203,7 +203,7 @@ jobs:
       - name: Run Audio Pipeline
         if: steps.dry_run_audio.outputs.audio_updated == 'true'
         run: |
-          python scripts/audio_pipeline.py --task posts  --n 1 --max_files 10
+          python scripts/audio_pipeline.py --task posts  --n 2 --max_files 20
 
       - name: Clean Up Credentials
         run: |
