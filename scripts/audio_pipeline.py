@@ -91,6 +91,9 @@ def text_to_speech(text, output_filename, task, language_code="en-US", voice_nam
                 voice_name = random.choice(["es-ES-Journey-D", "es-ES-Journey-F", "es-ES-Journey-O"])
             elif language_code == "fr-FR" and not voice_name:
                 voice_name = random.choice(["fr-FR-Journey-D", "fr-FR-Journey-F", "fr-FR-Journey-O"])
+            elif language_code == "yue-HK" and not voice_name:
+                voice_name = random.choice(["yue-HK-Standard-A", "yue-HK-Standard-B", "yue-HK-Standard-C", "yue-HK-Standard-D"])
+                
             voice = texttospeech.VoiceSelectionParams(language_code=language_code, name=voice_name)
             audio_config = texttospeech.AudioConfig(
                 audio_encoding=texttospeech.AudioEncoding.MP3,
