@@ -18,3 +18,10 @@ translated: false
 
 - There are no technological secrets. Open source will reveal all the secrets that are closely guarded.
 
+- [New Platforms Powered by AI Workflows](./ai-workflow-en)
+
+- [The Next Direction of AI Code Editors](./ai-code-en)
+
+- [How I Live Well in the AI and Blockchain Era](./ai-blockchain-en)
+
+
