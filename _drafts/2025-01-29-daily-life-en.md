@@ -1,0 +1,17 @@
+---
+audio: true
+lang: en
+layout: post
+title: Daily Life Tips
+translated: false
+---
+
+- I do not need to wear slippers in the winter; wearing socks is fine.
+
+- Separate different kinds of rubbish and consider the temperature. For kitchen waste, food scraps, or used toilet paper, I probably need to throw them out often. However, for bottles or delivery boxes, you may be able to clean them and store them for a while. In the summer, I will need to dispose of rubbish more frequently.
+
+- Buying clothes against the trend is cheaper. Waiting half a year to wear them is not a big deal.
+
+- Using a dryer for 10 minutes can make clothes more comfortable.
+
+- Focus on my task and leave things where they are. It may seem unorganized to others, but it's convenient for me.
