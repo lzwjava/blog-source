@@ -178,9 +178,13 @@ def get_last_n_files(input_dir, n=10):
     """
     try:
         # Get all markdown files
-        md_files = [f for f in os.listdir(input_dir) if f.endswith('.md')]
+        md_files = []
+        for root, _, files in os.walk(input_dir):
+            for file in files:
+                if file.endswith('.md'):
+                    md_files.append(os.path.join(root, file))
         # Sort by filename descending
-        md_files_sorted = sorted(md_files, reverse=True)
+        md_files_sorted = sorted(md_files, key=lambda x: os.path.basename(x), reverse=True)
         # Get the top n files
         last_n_files = md_files_sorted[:n]
         return last_n_files
@@ -192,9 +196,17 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry
     os.makedirs(output_dir, exist_ok=True)
     
     if task == 'posts':
-        last_md_files = get_last_n_files(input_dir, n)
-        total_files = len(last_md_files)
-        print(f"Total Markdown files to process in '_posts' (last {n}): {total_files}")
+        
+        total_files = 0
+        last_md_files = []
+        for lang_dir in os.listdir(input_dir):
+            lang_path = os.path.join(input_dir, lang_dir)
+            if os.path.isdir(lang_path):
+                files = get_last_n_files(lang_path, n)
+                last_md_files.extend(files)
+                total_files += len(files)
+        
+        print(f"Total Markdown files to process in '_posts' (last {n} from each language dir): {total_files}")
     elif task == 'notes':
         last_md_files = get_last_n_files(input_dir, n)
         total_files = len(last_md_files)
@@ -210,8 +222,8 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry
     files_processed = 0
 
 
-    for filename in last_md_files:
-        md_file_path = os.path.join(input_dir, filename)
+    for md_file_path in last_md_files:
+        filename = os.path.basename(md_file_path)
         output_filename = os.path.join(output_dir, f"{os.path.splitext(filename)[0]}.mp3")
         if os.path.exists(output_filename):
             print(f"Skipping {filename}: {output_filename} already exists.")

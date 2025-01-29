@@ -5,6 +5,10 @@ body {
 
     font-family: Menlo, Monaco, "Helvetica Neue", Helvetica, "PingFangSC-Regular", "Microsoft YaHei", SimSun, serif; 
 
+    @include small {
+        font-family: Georgia, "Helvetica Neue", Helvetica, "PingFangSC-Regular", SimSun, serif;
+    }
+
 }
 
 /* Footer */
