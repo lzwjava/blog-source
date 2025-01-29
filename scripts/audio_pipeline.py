@@ -87,6 +87,10 @@ def text_to_speech(text, output_filename, task, language_code="en-US", voice_nam
                 voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
             elif language_code == "cmn-CN" and not voice_name:
                 voice_name = random.choice(["cmn-CN-Wavenet-A", "cmn-CN-Wavenet-B", "cmn-CN-Wavenet-C", "cmn-CN-Wavenet-D"])
+            elif language_code == "es-ES" and not voice_name:
+                voice_name = random.choice(["es-ES-Journey-D", "es-ES-Journey-F", "es-ES-Journey-O"])
+            elif language_code == "fr-FR" and not voice_name:
+                voice_name = random.choice(["fr-FR-Journey-D", "fr-FR-Journey-F", "fr-FR-Journey-O"])
             voice = texttospeech.VoiceSelectionParams(language_code=language_code, name=voice_name)
             audio_config = texttospeech.AudioConfig(
                 audio_encoding=texttospeech.AudioEncoding.MP3,
@@ -238,6 +242,12 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry
             if filename.endswith('-zh.md'):
                 language_code = "cmn-CN"
                 voice_language_code = "cmn-CN"
+            elif filename.endswith('-es.md'):
+                language_code = "es-ES"
+                voice_language_code = "es-ES"
+            elif filename.endswith('-fr.md'):
+                language_code = "fr-FR"
+                voice_language_code = "fr-FR"
             else:
                 language_code = "en-US"
                 voice_language_code = "en-US"
