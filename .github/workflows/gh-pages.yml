@@ -38,10 +38,6 @@ jobs:
         run: |
           git diff --name-only HEAD~1 HEAD
 
-      - name: Clean Up Credentials
-        run: |
-          rm -f ./gha-creds-*.json
-
       - name: Update Language Files Amend
         id: updated_lang_files_amend
         run: |
@@ -178,6 +174,49 @@ jobs:
             git pull --rebase
             git push
           }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Authenticate with GCP
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Dry run Audio Pipeline
+        id: dry_run_audio
+        run: |
+          DRY_RUN_OUTPUT=$(python audio_pipeline.py --task posts --n 1--dry_run)
+          FILES_TO_PROCESS=$(echo "$DRY_RUN_OUTPUT" | grep "Total Markdown files to process" | awk '{print $8}')
+
+          if [[ "$FILES_TO_PROCESS" -gt 0 ]]; then
+            echo "audio_updated=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "audio_updated=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install FFmpeg
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Run Audio Pipeline
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
+        run: |
+          python scripts/audio_pipeline.py --task posts  --n 1 --max_files 10
+
+      - name: Clean Up Credentials
+        run: |
+          rm -f ./gha-creds-*.json               
+
+      - name: Commit generated audio files
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "Add generated audio files"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
