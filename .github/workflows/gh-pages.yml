@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 5
-          
+
       - name: Setup Python 3.10.x
         uses: actions/setup-python@v4
         with:
@@ -186,6 +186,7 @@ jobs:
         id: dry_run_audio
         run: |
           DRY_RUN_OUTPUT=$(python scripts/audio_pipeline.py --task posts --n 2 --dry_run)
+          echo "$DRY_RUN_OUTPUT"
           FILES_TO_PROCESS=$(echo "$DRY_RUN_OUTPUT" | grep "Total Markdown files to process" | awk '{print $8}')
 
           if [[ "$FILES_TO_PROCESS" -gt 0 ]]; then
