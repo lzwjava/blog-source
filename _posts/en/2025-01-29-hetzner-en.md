@@ -14,9 +14,9 @@ I am very excited to try this cloud platform recently.
 ![](assets/images/hertzner/h.jpg)
 *Source: Hetzner*{: .caption }
 
-A server in Helsinki with a configuration of 2 AMD VCPUs, 2GB RAM, 40GB SSD, and 20TB of traffic costs $4.49 USD per month.
+A server in Helsinki with a configuration of 2 AMD VCPUs, 2GB RAM, 40GB SSD, and 20TB of traffic costs 4.49 USD per month.
 
-An IPv4 address costs an additional $0.60 USD per month, bringing the total to $5.09 USD per month.
+An IPv4 address costs an additional 0.60 USD per month, bringing the total to 5.09 USD per month.
 
 They provide services in six locations:
 

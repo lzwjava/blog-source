@@ -12,26 +12,26 @@ Je suis très enthousiaste à l'idée d'essayer cette plateforme cloud récemmen
 ![](assets/images/hertzner/h.jpg)
 *Source: Hetzner*{: .caption }
 
-Un serveur à Helsinki avec une configuration de 2 AMD VCPUs, 2 Go de RAM, 40 Go de SSD et 20 To de trafic coûte 4,49 USD par mois.
+Un serveur à Helsinki avec une configuration de 2 AMD VCPUs, 2 Go de RAM, 40 Go SSD, et 20 To de trafic coûte 4,49 USD par mois.
 
 Une adresse IPv4 coûte 0,60 USD supplémentaire par mois, portant le total à 5,09 USD par mois.
 
-Ils proposent des services dans six emplacements :
+Ils fournissent des services dans six emplacements :
 
 - Nuremberg, Allemagne
 - Falkenstein, Allemagne
 - Helsinki, Finlande
 - Singapour, Singapour
-- Hillsboro, OR, États-Unis
-- Ashburn, VA, États-Unis
+- Hillsboro, OR, USA
+- Ashburn, VA, USA
 
-Il est intéressant de noter qu'ils ne suivent pas les tendances pour sélectionner des emplacements populaires. Leurs emplacements diffèrent de ceux de Vultr ou Digital Ocean.
+Il est intéressant de noter qu'ils ne suivent pas les tendances pour sélectionner des emplacements populaires. Leurs emplacements sont différents de ceux de Vultr ou Digital Ocean.
 
-Les paramètres du pare-feu sont faciles à utiliser. Bien que ce soit la première fois que j'utilise cela, j'ai rapidement configuré correctement mon serveur proxy.
+Les paramètres de pare-feu sont faciles à utiliser. Bien que ce soit la première fois que je les utilise, j'ai rapidement configuré la configuration correcte pour mon serveur proxy.
 
 > sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
 
-La vitesse du serveur Hetzner à Helsinki est très rapide. En utilisant l'application Speedtest iOS, la vitesse de téléchargement est de 423 Mbps et la vitesse de téléchargement est de 56,1 Mbps.
+La vitesse du serveur Hetzner à Helsinki est très rapide. En utilisant l'application Speedtest iOS, la vitesse de téléchargement est de 423 Mbps et la vitesse de téléchargement de 56,1 Mbps.
 
 Le ping dans Shadowrocket est de 1175 ms, mais ce n'est pas un problème significatif.
 
@@ -41,7 +41,7 @@ Un script Python simple pour obtenir les détails de l'instance du serveur.
 from hcloud import Client
 import os
 
-# Obtenir la clé API à partir de la variable d'environnement
+# Récupérer le jeton API à partir de la variable d'environnement
 api_token = os.environ.get('HERTZNER_API_KEY')
 
 if not api_token:
@@ -74,7 +74,7 @@ print(f"Nom du serveur spécifique: {server.name}")
 print(f"Statut du serveur spécifique: {server.status}")
 print(f"IPv4 du serveur spécifique: {server.public_net.ipv4.ip}")
 print(f"IPv6 du serveur spécifique: {server.public_net.ipv6.ip}")
-print(f"Type du serveur spécifique: {server.server_type.name}")
+print(f"Type de serveur spécifique: {server.server_type.name}")
 print(f"Emplacement du serveur spécifique: {server.datacenter.location.name}")
 
 ```
