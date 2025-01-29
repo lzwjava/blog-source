@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: AI Thinking
+title: AI Thoughts
 translated: false
 ---
 
