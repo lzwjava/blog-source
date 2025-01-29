@@ -185,7 +185,7 @@ jobs:
       - name: Dry run Audio Pipeline
         id: dry_run_audio
         run: |
-          DRY_RUN_OUTPUT=$(python audio_pipeline.py --task posts --n 1--dry_run)
+          DRY_RUN_OUTPUT=$(python scripts/audio_pipeline.py --task posts --n 1 --dry_run)
           FILES_TO_PROCESS=$(echo "$DRY_RUN_OUTPUT" | grep "Total Markdown files to process" | awk '{print $8}')
 
           if [[ "$FILES_TO_PROCESS" -gt 0 ]]; then
