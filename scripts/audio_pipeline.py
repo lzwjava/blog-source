@@ -68,7 +68,7 @@ def split_text(text, max_bytes=3000):
 
     return chunks
 
-def text_to_speech(text, output_filename, task, language_code="en-US", voice_name=None, dry_run=False):
+def text_to_speech(text, output_filename, task, language_code="en-US", dry_run=False):
     if dry_run:
         print(f"Dry run: Would generate audio for file: {output_filename}")
         return
@@ -83,17 +83,25 @@ def text_to_speech(text, output_filename, task, language_code="en-US", voice_nam
         audio_segments = []
         for idx, chunk in enumerate(text_chunks):
             synthesis_input = texttospeech.SynthesisInput(text=chunk)
-            if language_code == "en-US" and not voice_name:
+            if language_code == "en-US":
                 voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
-            elif language_code == "cmn-CN" and not voice_name:
+            elif language_code == "cmn-CN":
                 voice_name = random.choice(["cmn-CN-Wavenet-A", "cmn-CN-Wavenet-B", "cmn-CN-Wavenet-C", "cmn-CN-Wavenet-D"])
-            elif language_code == "es-ES" and not voice_name:
+            elif language_code == "es-ES":
                 voice_name = random.choice(["es-ES-Journey-D", "es-ES-Journey-F", "es-ES-Journey-O"])
-            elif language_code == "fr-FR" and not voice_name:
+            elif language_code == "fr-FR":
                 voice_name = random.choice(["fr-FR-Journey-D", "fr-FR-Journey-F", "fr-FR-Journey-O"])
-            elif language_code == "yue-HK" and not voice_name:
+            elif language_code == "yue-HK":
                 voice_name = random.choice(["yue-HK-Standard-A", "yue-HK-Standard-B", "yue-HK-Standard-C", "yue-HK-Standard-D"])
-                
+            elif language_code == "ja-JP":
+                voice_name = random.choice(["ja-JP-Neural2-B", "ja-JP-Neural2-C", "ja-JP-Neural2-D"])
+            elif language_code == "hi-IN":
+                voice_name = random.choice(["hi-IN-Wavenet-A", "hi-IN-Wavenet-B", "hi-IN-Wavenet-C", "hi-IN-Wavenet-D", "hi-IN-Wavenet-E", "hi-IN-Wavenet-F"])
+            elif language_code == "de-DE":
+                voice_name = random.choice(["de-DE-Journey-D", "de-DE-Journey-F", "de-DE-Journey-O"])
+            elif language_code == "ar-XA":
+                voice_name = random.choice(["ar-XA-Wavenet-A", "ar-XA-Wavenet-B", "ar-XA-Wavenet-C", "ar-XA-Wavenet-D"])
+
             voice = texttospeech.VoiceSelectionParams(language_code=language_code, name=voice_name)
             audio_config = texttospeech.AudioConfig(
                 audio_encoding=texttospeech.AudioEncoding.MP3,
@@ -242,19 +250,28 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry
         print(f"\nProcessing {files_processed + 1}/{total_files}: {filename}")
         try:
             # Determine language based on filename suffix
+
+            language_code = "en-US"
+
             if filename.endswith('-zh.md'):
                 language_code = "cmn-CN"
-                voice_language_code = "cmn-CN"
             elif filename.endswith('-es.md'):
                 language_code = "es-ES"
-                voice_language_code = "es-ES"
             elif filename.endswith('-fr.md'):
                 language_code = "fr-FR"
-                voice_language_code = "fr-FR"
-            else:
+            elif filename.endswith('-de.md'):
+                language_code = "de-DE"
+            elif filename.endswith('-ja.md'):
+                language_code = "ja-JP"
+            elif filename.endswith('-hi.md'):
+                language_code = "hi-IN"
+            elif filename.endswith('-ar.md'):
+                language_code = "ar-XA"
+            elif filename.endswith('-hant.md'):
+                language_code = "yue-HK"
+            elif filename.endswith('-en.md'):
                 language_code = "en-US"
-                voice_language_code = "en-US"
-            
+                
             text_to_speech(
                 text=article_text, 
                 output_filename=output_filename, 
