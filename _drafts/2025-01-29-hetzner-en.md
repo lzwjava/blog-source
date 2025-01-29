@@ -12,9 +12,9 @@ I am very excited to try this cloud platform recently.
 ![](assets/images/hertzner/h.jpg){: .responsive }
 *Source: Hetzner*{: .caption }
 
-A Helsinki server with a configuration of 2 AMD VCPUs, 2GB RAM, 40GB SSD, and 20TB of traffic costs $4.49 USD per month.
+A server in Helsinki with a configuration of 2 AMD VCPUs, 2GB RAM, 40GB SSD, and 20TB of traffic costs $4.49 USD per month.
 
-One IPv4 address costs $0.60 USD per month, bringing the total to $5.09 USD per month.
+An IPv4 address costs an additional $0.60 USD per month, bringing the total to $5.09 USD per month.
 
 They provide services in six locations:
 
@@ -25,9 +25,9 @@ They provide services in six locations:
 - Hillsboro, OR, USA
 - Ashburn, VA, USA
 
-It is very interesting that they don't follow trends to select popular locations. Their locations are different from those of Vultr or Digital Ocean.
+It's interesting that they don't follow trends to select popular locations. Their locations are different from those of Vultr or Digital Ocean.
 
-The firewall setting is easy. Although this is my first time using it, I quickly set up the correct configuration for my proxy server.
+The firewall settings are easy to use. Although this was my first time using it, I quickly set up the correct configuration for my proxy server.
 
 > sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
 
