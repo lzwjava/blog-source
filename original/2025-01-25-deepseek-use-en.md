@@ -33,6 +33,14 @@ This result aligns with the expected cost.
 
 ## Mistral
 
+
+The pricing for Mistral models is as follows:
+
+| Model                 | Input (USD per million tokens) |  Output (USD per million tokens) |
+|-----------------------|------------------------------|---------------------------------|
+| `mistral-large-2411`  | 2                            | 6                               |
+| `mistral-small-latest`| 0.2                          | 0.6                             |
+
 In one day, my Mistral account usage was as follows (Model: `mistral-large-2411`):
 
 | Type   | Tokens  | Cost (USD) |
@@ -41,10 +49,14 @@ In one day, my Mistral account usage was as follows (Model: `mistral-large-2411`
 | Output | 474,855 | 2.85       |
 | Input  | 297,429 | 0.59       |
 
-The pricing for Mistral models is as follows:
 
-| Model                 | Input (USD per million tokens) |  Output (USD per million tokens) |
-|-----------------------|------------------------------|---------------------------------|
-| `mistral-large-2411`  | 2                            | 6                               |
-| `mistral-small-latest`| 0.2                          | 0.6                             |
+For model `mistral-small-2409`, 
+
+Total usage: 1,022,407 tokens
+
+Assuming 1/3 are input tokens and 2/3 are output tokens:
+
+The number of input tokens is 340,802, and the number of output tokens is 681,605.
+
+So the total cost is 340,802 * 0.2 / 1000000 + 681,605 * 0.6 / 1000000 = 0.07 + 0.41 = 0.48 USD.
 
