@@ -211,7 +211,7 @@ jobs:
           FILES_PROCESSED=$(echo "$DRY_RUN_OUTPUT" | grep "Processing complete!" | awk '{print $3}' | cut -d'/' -f1)
           TOTAL_FILES=$(echo "$DRY_RUN_OUTPUT" | grep "Processing complete!" | awk '{print $3}' | cut -d'/' -f2)
 
-          if [[ "$FILES_PROCESSED" -gt 0 && "$FILES_PROCESSED" -eq "$TOTAL_FILES" ]]; then
+          if [[ "$FILES_PROCESSED" -gt 0 ]]; then
             echo "audio_updated=true" >> "$GITHUB_OUTPUT"
           else
             echo "audio_updated=false" >> "$GITHUB_OUTPUT"
