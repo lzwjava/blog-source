@@ -4,6 +4,38 @@ import yaml
 import traceback
 
 
+def validate_front_matter(file_path):
+    print(f"Validating front matter for file: {file_path}")
+    if not os.path.exists(file_path):
+        print(f"File not found: {file_path}")
+        return False
+
+    with open(file_path, "r", encoding="utf-8") as infile:
+        content = infile.read()
+
+    front_matter_match = re.match(r"---(.*?)---", content, re.DOTALL)
+    front_matter = front_matter_match.group(1) if front_matter_match else None
+
+    if not front_matter:
+        print(f"No front matter found in {file_path}")
+        return False
+    
+    if "layout" not in front_matter:
+        print(f"Layout key not found in {file_path}")
+        return False
+    
+    if "title" not in front_matter:
+        print(f"Title key not found in {file_path}")
+        return False
+    
+    if "lang" not in front_matter:
+        print(f"Lang key not found in {file_path}")
+        return False
+    
+    print(f"Front matter is valid for {file_path}")
+    return True
+
+
 def update_front_matter(file_path, translated_flag, lang=None):
         
     print(f"Starting to process file: {file_path}")
@@ -83,32 +115,42 @@ def main():
         print(f"Directory not found: {original_dir}")
         return
 
+    # First, validate all files
+    files_to_process = []
     for lang_dir in languages:
         target_dir = os.path.join(posts_dir, lang_dir)
         if not os.path.exists(target_dir):
             print(f"Directory not found: {target_dir}")
             continue
-        print(f"Processing files in {target_dir}")
+        print(f"Checking files in {target_dir}")
         for filename in os.listdir(target_dir):
             if filename.endswith(".md"):
-                translated_file_path = os.path.join(target_dir, filename)               
-                update_front_matter(translated_file_path, True, lang_dir)
-
-    print(f"Processing files in {original_dir}")
+                file_path = os.path.join(target_dir, filename)
+                if not validate_front_matter(file_path):
+                    raise Exception(f"Front matter validation failed for {file_path}")
+                files_to_process.append((file_path, True, lang_dir))
+    
+    print(f"Checking files in {original_dir}")
     for filename in os.listdir(original_dir):
         if filename.endswith(".md"):
             if filename.endswith("-en.md"):
-                lang_filepath = os.path.join(posts_dir, "en", filename)
-                print(f"  Setting translated flag to False for {lang_filepath}")
-                update_front_matter(lang_filepath, False, "en")
+                file_path = os.path.join(posts_dir, "en", filename)
+                if not validate_front_matter(file_path):
+                    raise Exception(f"Front matter validation failed for {file_path}")
+                files_to_process.append((file_path, False, "en"))
             elif filename.endswith("-zh.md"):
-                lang_filepath = os.path.join(posts_dir, "zh", filename)
-                print(f"  Setting translated flag to False for {lang_filepath}")
-                update_front_matter(lang_filepath, False, "zh")
+                file_path = os.path.join(posts_dir, "zh", filename)
+                if not validate_front_matter(file_path):
+                     raise Exception(f"Front matter validation failed for {file_path}")
+                files_to_process.append((file_path, False, "zh"))
             else:
                 print(
                     f"  Skipping file {filename} as it does not end with -en.md or -zh.md"
                 )
+    
+    # Now, process the files
+    for file_path, translated_flag, lang in files_to_process:
+        update_front_matter(file_path, translated_flag, lang)
 
 
 main()
