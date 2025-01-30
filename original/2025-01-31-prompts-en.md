@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: Prompts I Often Use
+title: Useful Prompts
 translated: false
 ---
 

@@ -133,8 +133,13 @@ def gitmessageai(push=True, only_message=False, api='deepseek'):
                     elif i + 1 < len(lines):
                         file_changes.append(f"Updated file {file_a}")
                         i +=1
+                else:
+                    if i + 1 < len(lines) and "similarity index" in lines[i+1]:
+                        file_changes.append(f"Renamed file {file_a} to {file_b}")
+                        i += 1
         i += 1
-                
+    
+    print(file_changes)
     
     if not file_changes:
         print("No changes to commit.")
