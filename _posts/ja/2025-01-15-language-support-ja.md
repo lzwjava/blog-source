@@ -1,18 +1,18 @@
 ---
-audio: false
+audio: true
 lang: ja
 layout: post
-title: 言語サポート：フォントとテキスト読み上げ
+title: 言語サポート：フォントとテキストトゥスピーチ
 translated: true
 ---
 
-私のブログは現在9か国語に対応しています：日本語（`ja`）、スペイン語（`es`）、ヒンディー語（`hi`）、中国語（`zh`）、英語（`en`）、フランス語（`fr`）、ドイツ語（`de`）、アラビア語（`ar`）、そして繁体字中国語（`hant`）。サイトは[https://lzwjava.github.io](https://lzwjava.github.io)でご覧いただけます。
+私のブログは現在9言語に対応しています：日本語（`ja`）、スペイン語（`es`）、ヒンディー語（`hi`）、中国語（`zh`）、英語（`en`）、フランス語（`fr`）、ドイツ語（`de`）、アラビア語（`ar`）、および繁體中国語（`hant`）。サイトは [https://lzwjava.github.io](https://lzwjava.github.io) で見つけることができます。
 
-コンピュータ環境で複数の言語を扱う際には、いくつかの点が考慮されるべきです。
+コンピュータ環境で複数の言語を扱う際、いくつかの観点を考慮する必要があります。
 
-## フォントの取り扱い
+## フォントの処理
 
-異なる言語は、特にLaTeXを使用してPDFを生成する際に、正しいレンダリングのために特定のフォントを必要とします。以下のPythonコードは、オペレーティングシステムと言語に基づいて適切なフォントを選択する方法を示しています：
+さまざまな言語は特定のフォントを使用して正しくレンダリングする必要があります、特にLaTeXを使用してPDFを生成する場合。以下のPythonコードは、オペレーティングシステムと言語に基づいて適切なフォントを選択する方法を示しています。
 
 ```python
     if platform.system() == "Darwin":
@@ -63,19 +63,32 @@ translated: true
     ]
 ```
 
-この解決策は完璧ではありません。例えば、コードブロック内のヒンディー語のコメントが期待通りにレンダリングされない場合があります。
+重要なのは、このソリューションは完璧ではないことを指摘することです。例えば、コードブロックのコメント内のヒンディー文が期待通りにレンダリングされない可能性があります。
 
-## 音声合成
+## テキストに対する音声変換
 
-私はGoogleの音声合成を使用して、ブログ投稿のオーディオバージョンを生成しています。以下のコードスニペットは、音声合成エンジンのために適切な言語コードを選択する方法を示しています：
+私はGoogle Text-to-Speechを使用して、ブログ記事の音声バージョンを生成しています。以下のコードスニペットは、テキスト-to-スピーチエンジンに適切な言語コードを選択する方法を示しています。
 
 ```python
-            if filename.endswith('-zh.md'):
-                language_code = "cmn-CN"
-                voice_language_code = "cmn-CN"
-            else:
-                language_code = "en-US"
-                voice_language_code = "en-US"
+            synthesis_input = texttospeech.SynthesisInput(text=chunk)
+            if language_code == "en-US":
+                voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
+            elif language_code == "cmn-CN":
+                voice_name = random.choice(["cmn-CN-Wavenet-A", "cmn-CN-Wavenet-B", "cmn-CN-Wavenet-C", "cmn-CN-Wavenet-D"])
+            elif language_code == "es-ES":
+                voice_name = random.choice(["es-ES-Journey-D", "es-ES-Journey-F", "es-ES-Journey-O"])
+            elif language_code == "fr-FR":
+                voice_name = random.choice(["fr-FR-Journey-D", "fr-FR-Journey-F", "fr-FR-Journey-O"])
+            elif language_code == "yue-HK":
+                voice_name = random.choice(["yue-HK-Standard-A", "yue-HK-Standard-B", "yue-HK-Standard-C", "yue-HK-Standard-D"])
+            elif language_code == "ja-JP":
+                voice_name = random.choice(["ja-JP-Neural2-B", "ja-JP-Neural2-C", "ja-JP-Neural2-D"])
+            elif language_code == "hi-IN":
+                voice_name = random.choice(["hi-IN-Wavenet-A", "hi-IN-Wavenet-B", "hi-IN-Wavenet-C", "hi-IN-Wavenet-D", "hi-IN-Wavenet-E", "hi-IN-Wavenet-F"])
+            elif language_code == "de-DE":
+                voice_name = random.choice(["de-DE-Journey-D", "de-DE-Journey-F", "de-DE-Journey-O"])
+            elif language_code == "ar-XA":
+                voice_name = random.choice(["ar-XA-Wavenet-A", "ar-XA-Wavenet-B", "ar-XA-Wavenet-C", "ar-XA-Wavenet-D"])
 
             text_to_speech(
                 text=article_text,
@@ -87,8 +100,8 @@ translated: true
             )
 ```
 
-現在、オーディオは中国語と英語のコンテンツに対して生成されています。他の言語に対応を拡大するには、対応する言語コードを設定する必要があります。
+現在、中国語と英語のコンテンツに対して音声が生成されています。他の言語に対するサポートを拡大するには、対応する言語コードを設定する必要があります。
 
-## まとめ
+## 要約
 
-言語は、その書かれた形（形状）とその発音された形（発音）の2つの主要な側面で異なります。フォント選択と音声合成の設定は、それぞれこれら2つの側面に対応しています。
+言語は主に2つの観点で異なります：それぞれの書式とそれぞれの発音（発音）。フォントの選択とテキスト-to-スピーチの設定は、それぞれの観点に対応することを示しています。

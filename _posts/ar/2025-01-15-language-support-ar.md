@@ -1,18 +1,18 @@
 ---
-audio: false
+audio: true
 lang: ar
 layout: post
 title: 'دعم اللغة: الخطوط وتحويل النص إلى كلام'
 translated: true
 ---
 
-تدعم مدونتي الآن تسع لغات: اليابانية (`ja`)، الإسبانية (`es`)، الهندية (`hi`)، الصينية (`zh`)، الإنجليزية (`en`)، الفرنسية (`fr`)، الألمانية (`de`)، العربية (`ar`)، والصينية التقليدية (`hant`). يمكنك زيارة الموقع على الرابط التالي: [https://lzwjava.github.io](https://lzwjava.github.io)
+مدونتي الآن تدعم تسع لغات: اليابانية (`ja`), الإسبانية (`es`), الهندية (`hi`), الصينية (`zh`), الإنجليزية (`en`), الفرنسية (`fr`), الألمانية (`de`), العربية (`ar`), والصينية التقليدية (`hant`). يمكنك العثور على الموقع على [https://lzwjava.github.io](https://lzwjava.github.io)
 
-عند التعامل مع لغات متعددة في بيئة حاسوبية، هناك عدة جوانب تحتاج إلى الاهتمام.
+عند التعامل مع العديد من اللغات في بيئة حاسوب، يتطلب ذلك الانتباه إلى العديد من الجوانب.
 
-## التعامل مع الخطوط
+## عملية الخطوط
 
-تتطلب اللغات المختلفة خطوطًا محددة لعرض النص بشكل صحيح، خاصة عند إنشاء ملفات PDF باستخدام LaTeX. يوضح كود Python التالي كيفية اختيار الخطوط المناسبة بناءً على نظام التشغيل واللغة:
+تتطلب اللغات المختلفة خطوط معينة للعرض بشكل صحيح، خاصة عند إنشاء مستندات PDF باستخدام LaTeX. يوضح الكود التالي المكتوب بلغة Python كيفية اختيار الخطوط المناسبة بناءً على نظام التشغيل واللغة:
 
 ```python
     if platform.system() == "Darwin":
@@ -63,28 +63,45 @@ translated: true
     ]
 ```
 
-من المهم ملاحظة أن هذا الحل ليس مثاليًا. على سبيل المثال، قد لا يتم عرض النص الهندي داخل تعليقات كتل الكود كما هو متوقع.
+يجب ملاحظة أن هذه الحلولة ليست دون عيوب. على سبيل المثال، قد لا تتم معالجة النص الهندي داخل كتل التعليقات البرمجية بشكل متوقع.
 
-## تحويل النص إلى كلام
+## التحويل من النص إلى الكلام
 
-أستخدم خدمة Google Text-to-Speech لإنشاء نسخ صوتية من مقالاتي. يوضح مقتطف الكود التالي كيفية اختيار رمز اللغة المناسب لمحرك تحويل النص إلى كلام:
+أستخدم Google Text-to-Speech لإنشاء إصدارات صوتية لمحتوى مدونتي. يوضح الكود التالي كيفية اختيار الكود المناسب لللغة لوحدة التحويل من النص إلى الكلام:
 
 ```python
-            if filename.endswith('-zh.md'):
-                language_code = "cmn-CN"
-                voice_language_code = "cmn-CN"
-            else:
-                language_code = "en-US"
-                voice_language_code = "en-US"
-            
+            synthesis_input = texttospeech.SynthesisInput(text=chunk)
+            if language_code == "en-US":
+                voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
+            elif language_code == "cmn-CN":
+                voice_name = random.choice(["cmn-CN-Wavenet-A", "cmn-CN-Wavenet-B", "cmn-CN-Wavenet-C", "cmn-CN-Wavenet-D"])
+            elif language_code == "es-ES":
+                voice_name = random.choice(["es-ES-Journey-D", "es-ES-Journey-F", "es-ES-Journey-O"])
+            elif language_code == "fr-FR":
+                voice_name = random.choice(["fr-FR-Journey-D", "fr-FR-Journey-F", "fr-FR-Journey-O"])
+            elif language_code == "yue-HK":
+                voice_name = random.choice(["yue-HK-Standard-A", "yue-HK-Standard-B", "yue-HK-Standard-C", "yue-HK-Standard-D"])
+            elif language_code == "ja-JP":
+                voice_name = random.choice(["ja-JP-Neural2-B", "ja-JP-Neural2-C", "ja-JP-Neural2-D"])
+            elif language_code == "hi-IN":
+                voice_name = random.choice(["hi-IN-Wavenet-A", "hi-IN-Wavenet-B", "hi-IN-Wavenet-C", "hi-IN-Wavenet-D", "hi-IN-Wavenet-E", "hi-IN-Wavenet-F"])
+            elif language_code == "de-DE":
+                voice_name = random.choice(["de-DE-Journey-D", "de-DE-Journey-F", "de-DE-Journey-O"])
+            elif language_code == "ar-XA":
+                voice_name = random.choice(["ar-XA-Wavenet-A", "ar-XA-Wavenet-B", "ar-XA-Wavenet-C", "ar-XA-Wavenet-D"])
+
             text_to_speech(
-                text=article_text, 
-                output_filename=output_filename, 
-                task=task, 
-                language_code=language_code, 
+                text=article_text,
+                output_filename=output_filename,
+                task=task,
+                language_code=language_code,
                 dry_run=dry_run,
                 progress=progress
             )
 ```
 
-حاليًا، يتم إنشاء الصوت للمحتوى الصيني والإنجليزي. لدعم لغات أخرى، يجب تكوين رموز اللغات المقابلة.
+الآن، يتم إنشاء الصوت للمحتوى الصيني والإنجليزي. لتوسيع الدعم إلى اللغات الأخرى، يجب إعداد الكود المناسب لللغات المراد دعمها.
+
+## الملخص
+
+تختلف اللغات في دو جانبين أساسيين: تمثيلها المكتوبة (الشكل) وصوتها (اللفظ). يهدف إعدادات اختيار الخطوط والتحويل من النص إلى الكلام إلى هذين الجانبين بناءً على الترتيب.

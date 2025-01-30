@@ -1,18 +1,18 @@
 ---
-audio: false
+audio: true
 lang: fr
 layout: post
-title: 'Prise en charge des langues : polices et synthèse vocale'
+title: 'Support de langue : polices et synthèse vocale'
 translated: true
 ---
 
-Mon blog prend désormais en charge neuf langues : le japonais (`ja`), l'espagnol (`es`), l'hindi (`hi`), le chinois (`zh`), l'anglais (`en`), le français (`fr`), l'allemand (`de`), l'arabe (`ar`) et le chinois traditionnel (`hant`). Vous pouvez trouver le site à l'adresse [https://lzwjava.github.io](https://lzwjava.github.io)
+Mon blog prend désormais en charge neuf langues : japonais (`ja`), espagnol (`es`), hindi (`hi`), chinois (`zh`), anglais (`en`), français (`fr`), allemand (`de`), arabe (`ar`), et chinois traditionnel (`hant`). Vous pouvez trouver le site à [https://lzwjava.github.io](https://lzwjava.github.io)
 
-Lorsque l'on traite plusieurs langues dans un environnement informatique, plusieurs aspects doivent être considérés.
+Lorsque l'on traite plusieurs langues dans un environnement informatique, plusieurs aspects nécessitent une attention particulière.
 
-## Gestion des Polices
+## Gestion des polices
 
-Différentes langues nécessitent des polices spécifiques pour un rendu correct, notamment lors de la génération de PDFs à l'aide de LaTeX. Le code Python suivant montre comment sélectionner les polices appropriées en fonction du système d'exploitation et de la langue :
+Différentes langues nécessitent des polices spécifiques pour un rendu correct, notamment lors de la génération de PDFs avec LaTeX. Le code Python suivant montre comment sélectionner des polices appropriées en fonction du système d'exploitation et de la langue :
 
 ```python
     if platform.system() == "Darwin":
@@ -63,19 +63,32 @@ Différentes langues nécessitent des polices spécifiques pour un rendu correct
     ]
 ```
 
-Il est important de noter que cette solution n'est pas parfaite. Par exemple, le texte en hindi à l'intérieur des blocs de commentaires de code pourrait ne pas se rendre comme prévu.
+Il est important de noter que cette solution n'est pas parfaite. Par exemple, le texte hindi à l'intérieur des commentaires de bloc de code pourrait ne pas se rendre comme prévu.
 
-## Synthèse Vocale
+## Text-to-Speech
 
-J'utilise Google Text-to-Speech pour générer des versions audio de mes articles de blog. Le code suivant montre comment je sélectionne le code de langue approprié pour le moteur de synthèse vocale :
+J'utilise Google Text-to-Speech pour générer des versions audio de mes billets de blog. Le code suivant montre comment je sélectionne le code de langue approprié pour le moteur de synthèse vocale :
 
 ```python
-            if filename.endswith('-zh.md'):
-                language_code = "cmn-CN"
-                voice_language_code = "cmn-CN"
-            else:
-                language_code = "en-US"
-                voice_language_code = "en-US"
+            synthesis_input = texttospeech.SynthesisInput(text=chunk)
+            if language_code == "en-US":
+                voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
+            elif language_code == "cmn-CN":
+                voice_name = random.choice(["cmn-CN-Wavenet-A", "cmn-CN-Wavenet-B", "cmn-CN-Wavenet-C", "cmn-CN-Wavenet-D"])
+            elif language_code == "es-ES":
+                voice_name = random.choice(["es-ES-Journey-D", "es-ES-Journey-F", "es-ES-Journey-O"])
+            elif language_code == "fr-FR":
+                voice_name = random.choice(["fr-FR-Journey-D", "fr-FR-Journey-F", "fr-FR-Journey-O"])
+            elif language_code == "yue-HK":
+                voice_name = random.choice(["yue-HK-Standard-A", "yue-HK-Standard-B", "yue-HK-Standard-C", "yue-HK-Standard-D"])
+            elif language_code == "ja-JP":
+                voice_name = random.choice(["ja-JP-Neural2-B", "ja-JP-Neural2-C", "ja-JP-Neural2-D"])
+            elif language_code == "hi-IN":
+                voice_name = random.choice(["hi-IN-Wavenet-A", "hi-IN-Wavenet-B", "hi-IN-Wavenet-C", "hi-IN-Wavenet-D", "hi-IN-Wavenet-E", "hi-IN-Wavenet-F"])
+            elif language_code == "de-DE":
+                voice_name = random.choice(["de-DE-Journey-D", "de-DE-Journey-F", "de-DE-Journey-O"])
+            elif language_code == "ar-XA":
+                voice_name = random.choice(["ar-XA-Wavenet-A", "ar-XA-Wavenet-B", "ar-XA-Wavenet-C", "ar-XA-Wavenet-D"])
 
             text_to_speech(
                 text=article_text,
@@ -87,8 +100,8 @@ J'utilise Google Text-to-Speech pour générer des versions audio de mes article
             )
 ```
 
-Actuellement, l'audio est généré pour le contenu chinois et anglais. Pour étendre la prise en charge à d'autres langues, les codes de langue correspondants doivent être configurés.
+Actuellement, l'audio est généré pour le contenu chinois et anglais. Pour étendre le support à d'autres langues, les codes de langue correspondants doivent être configurés.
 
 ## Résumé
 
-Les langues diffèrent principalement par deux aspects : leur représentation écrite (forme) et leur forme parlée (prononciation). La sélection des polices et les configurations de synthèse vocale répondent respectivement à ces deux aspects.
+Les langues diffèrent principalement en deux aspects : leur représentation écrite (forme) et leur forme parlée (prononciation). La sélection des polices et les configurations de synthèse vocale traitent ces deux aspects respectivement.

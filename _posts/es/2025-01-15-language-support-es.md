@@ -1,18 +1,18 @@
 ---
-audio: false
+audio: true
 lang: es
 layout: post
-title: 'Soporte del idioma: Fuentes y Texto a Voz'
+title: 'Soporte de Idiomas: Fuentes y Texto a Voz'
 translated: true
 ---
 
-Mi blog ahora admite nueve idiomas: japonés (`ja`), español (`es`), hindi (`hi`), chino (`zh`), inglés (`en`), francés (`fr`), alemán (`de`), árabe (`ar`) y chino tradicional (`hant`). Puedes encontrar el sitio en [https://lzwjava.github.io](https://lzwjava.github.io)
+Mi blog ahora admite nueve idiomas: Japonés (`ja`), Español (`es`), Hindi (`hi`), Chino (`zh`), Inglés (`en`), Francés (`fr`), Alemán (`de`), Árabe (`ar`), y Chino Tradicional (`hant`). Puedes encontrar el sitio en [https://lzwjava.github.io](https://lzwjava.github.io)
 
-Al tratar con múltiples idiomas en un entorno informático, se deben considerar varios aspectos.
+Al tratar con múltiples idiomas en un entorno de computación, se deben considerar varios aspectos.
 
 ## Manejo de Fuentes
 
-Diferentes idiomas requieren fuentes específicas para una renderización correcta, especialmente al generar PDFs usando LaTeX. El siguiente código Python demuestra cómo seleccionar las fuentes adecuadas según el sistema operativo y el idioma:
+Diferentes idiomas requieren fuentes específicas para una representación correcta, especialmente al generar PDFs utilizando LaTeX. El siguiente código en Python muestra cómo seleccionar fuentes adecuadas basadas en el sistema operativo y el idioma:
 
 ```python
     if platform.system() == "Darwin":
@@ -63,19 +63,32 @@ Diferentes idiomas requieren fuentes específicas para una renderización correc
     ]
 ```
 
-Es importante señalar que esta solución no es perfecta. Por ejemplo, el texto en hindi dentro de los comentarios de bloques de código puede no renderizarse como se espera.
+Es importante señalar que esta solución no es perfecta. Por ejemplo, el texto en Hindi dentro de los bloques de comentarios de código puede no renderizarse como se espera.
 
 ## Texto a Voz
 
-Utilizo Google Text-to-Speech para generar versiones de audio de mis publicaciones de blog. El siguiente fragmento de código ilustra cómo selecciono el código de idioma adecuado para el motor de texto a voz:
+Utilizo Google Text-to-Speech para generar versiones de audio de mis publicaciones de blog. El siguiente fragmento de código muestra cómo selecciono el código de idioma adecuado para el motor de texto a voz:
 
 ```python
-            if filename.endswith('-zh.md'):
-                language_code = "cmn-CN"
-                voice_language_code = "cmn-CN"
-            else:
-                language_code = "en-US"
-                voice_language_code = "en-US"
+            synthesis_input = texttospeech.SynthesisInput(text=chunk)
+            if language_code == "en-US":
+                voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
+            elif language_code == "cmn-CN":
+                voice_name = random.choice(["cmn-CN-Wavenet-A", "cmn-CN-Wavenet-B", "cmn-CN-Wavenet-C", "cmn-CN-Wavenet-D"])
+            elif language_code == "es-ES":
+                voice_name = random.choice(["es-ES-Journey-D", "es-ES-Journey-F", "es-ES-Journey-O"])
+            elif language_code == "fr-FR":
+                voice_name = random.choice(["fr-FR-Journey-D", "fr-FR-Journey-F", "fr-FR-Journey-O"])
+            elif language_code == "yue-HK":
+                voice_name = random.choice(["yue-HK-Standard-A", "yue-HK-Standard-B", "yue-HK-Standard-C", "yue-HK-Standard-D"])
+            elif language_code == "ja-JP":
+                voice_name = random.choice(["ja-JP-Neural2-B", "ja-JP-Neural2-C", "ja-JP-Neural2-D"])
+            elif language_code == "hi-IN":
+                voice_name = random.choice(["hi-IN-Wavenet-A", "hi-IN-Wavenet-B", "hi-IN-Wavenet-C", "hi-IN-Wavenet-D", "hi-IN-Wavenet-E", "hi-IN-Wavenet-F"])
+            elif language_code == "de-DE":
+                voice_name = random.choice(["de-DE-Journey-D", "de-DE-Journey-F", "de-DE-Journey-O"])
+            elif language_code == "ar-XA":
+                voice_name = random.choice(["ar-XA-Wavenet-A", "ar-XA-Wavenet-B", "ar-XA-Wavenet-C", "ar-XA-Wavenet-D"])
 
             text_to_speech(
                 text=article_text,
@@ -87,7 +100,7 @@ Utilizo Google Text-to-Speech para generar versiones de audio de mis publicacion
             )
 ```
 
-Actualmente, el audio se genera para contenido en chino e inglés. Para extender el soporte a otros idiomas, se deben configurar los códigos de idioma correspondientes.
+En este momento, se genera audio para el contenido en chino e inglés. Para extender el soporte a otros idiomas, deben configurarse los códigos de idioma correspondientes.
 
 ## Resumen
 
