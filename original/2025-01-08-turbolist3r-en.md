@@ -1,6 +1,8 @@
----                            
+---
 layout: post
 title: "Turbolist3r: Enumerating Subdomains"
+lang: en
+audio: true
 ---
 
 ## Turbolist3r
