@@ -1,17 +1,19 @@
 ---
-audio: false
+audio: true
 lang: de
 layout: post
-title: 'Turbolist3r: Auflisten von Subdomains'
+title: 'Turbolist3r: Subdomains auflisten'
 translated: true
 ---
+
+Unten sind einige Tools, die bei der Aufzählung von Subdomains helfen können.
 
 ## Turbolist3r
 
 [Turbolist3r auf GitHub](https://github.com/fleetcaptain/Turbolist3r)
 
-Basiert auf [Sublist3r](https://github.com/aboul3la/Sublist3r) von Ahmed Aboul-Ela - @aboul3la
-Forked von Carl Pearson - [GitHub](https://github.com/fleetcaptain)
+Basierend auf [Sublist3r](https://github.com/aboul3la/Sublist3r) von Ahmed Aboul-Ela - @aboul3la
+Geforkt von Carl Pearson - [GitHub](https://github.com/fleetcaptain)
 
 ```bash
 python turbolist3r.py -d google.com
@@ -19,34 +21,34 @@ python turbolist3r.py -d google.com
 
 ## Sublist3r
 
-Getestet. https://github.com/aboul3la/Sublist3r
+Ausprobiert. https://github.com/aboul3la/Sublist3r
 
 ```bash
-% python  sublist3r.py -d google.com
+% python sublist3r.py -d google.com
 🚀 **Proxy-Einstellungen erkannt:**
    - HTTP_PROXY: http://127.0.0.1:7890
    - HTTPS_PROXY: http://127.0.0.1:7890
 
-                 ____        _     _ _     _   _____
+                ____        _     _ _     _   _____
                 / ___| _   _| |__ | (_)___| |_|___ / _ __
                 \___ \| | | | '_ \| | / __| __| |_ \| '__|
                  ___) | |_| | |_) | | \__ \ |_ ___) | |
                 |____/ \__,_|_.__/|_|_|___/\__|____/|_|
 
-                # Programmiert von Ahmed Aboul-Ela - @aboul3la
+                # Codiert von Ahmed Aboul-Ela - @aboul3la
 
-[-] Beginne mit dem Auflisten der Subdomains für google.com
-[-] Suche jetzt in Baidu..
-[-] Suche jetzt in Yahoo..
-[-] Suche jetzt in Google..
-[-] Suche jetzt in Bing..
-[-] Suche jetzt in Ask..
-[-] Suche jetzt in Netcraft..
-[-] Suche jetzt in DNSdumpster..
-[-] Suche jetzt in Virustotal..
-[-] Suche jetzt in ThreatCrowd..
-[-] Suche jetzt in SSL-Zertifikaten..
-[-] Suche jetzt in PassiveDNS..
+[-] Subdomains für google.com auflisten
+[-] Jetzt suchen in Baidu..
+[-] Jetzt suchen in Yahoo..
+[-] Jetzt suchen in Google..
+[-] Jetzt suchen in Bing..
+[-] Jetzt suchen in Ask..
+[-] Jetzt suchen in Netcraft..
+[-] Jetzt suchen in DNSdumpster..
+[-] Jetzt suchen in Virustotal..
+[-] Jetzt suchen in ThreatCrowd..
+[-] Jetzt suchen in SSL-Zertifikaten..
+[-] Jetzt suchen in PassiveDNS..
 Process DNSdumpster-8:
 Traceback (most recent call last):
   File "/Users/lzwjava/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
@@ -59,7 +61,7 @@ Traceback (most recent call last):
     token = csrf_regex.findall(resp)[0]
 IndexError: list index out of range
 [!] Fehler: Virustotal blockiert wahrscheinlich unsere Anfragen
-[-] Gesamt eindeutige Subdomains gefunden: 97
+[-] Gesamtanzahl der gefundenen einzigartigen Subdomains: 97
 www.google.com
 accounts.google.com
 freezone.accounts.google.com

@@ -1,8 +1,14 @@
 ---
 audio: true
+lang: en
 layout: post
 title: 'Turbolist3r: Enumerating Subdomains'
+translated: false
 ---
+
+
+
+Below are some tools to help enumerate subdomains.
 
 ## Turbolist3r
 

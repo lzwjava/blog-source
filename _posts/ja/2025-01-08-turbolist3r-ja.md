@@ -1,16 +1,18 @@
 ---
-audio: false
+audio: true
 lang: ja
 layout: post
-title: Turbolist3r
+title: 'Turbolist3r: サブドメインの列挙'
 translated: true
 ---
+
+以下は、サブドメインを列挙するのに役立ついくつかのツールです。
 
 ## Turbolist3r
 
 [Turbolist3r on GitHub](https://github.com/fleetcaptain/Turbolist3r)
 
-[Sublist3r](https://github.com/aboul3la/Sublist3r) を基にしており、Ahmed Aboul-Ela - @aboul3la によって作成されています。Carl Pearson によってフォークされました - [GitHub](https://github.com/fleetcaptain)
+Ahmed Aboul-Ela - @aboul3la による [Sublist3r](https://github.com/aboul3la/Sublist3r) をベースにしています。Carl Pearson によってフォークされました - [GitHub](https://github.com/fleetcaptain)
 
 ```bash
 python turbolist3r.py -d google.com
@@ -18,11 +20,11 @@ python turbolist3r.py -d google.com
 
 ## Sublist3r
 
-試してみた。https://github.com/aboul3la/Sublist3r
+試してみましょう。https://github.com/aboul3la/Sublist3r
 
 ```bash
-% python sublist3r.py -d google.com
-🚀 **Proxy Settings Detected:**
+% python  sublist3r.py -d google.com
+🚀 **プロキシ設定が検出されました:**
    - HTTP_PROXY: http://127.0.0.1:7890
    - HTTPS_PROXY: http://127.0.0.1:7890
 
@@ -34,22 +36,20 @@ python turbolist3r.py -d google.com
 
                 # Coded By Ahmed Aboul-Ela - @aboul3la
 
-[-] サブドメインの列挙を開始しています google.com
-[-] 今 Baidu で検索しています..
-[-] 今 Yahoo で検索しています..
-[-] 今 Google で検索しています..
-[-] 今 Bing で検索しています..
-[-] 今 Ask で検索しています..
-[-] 今 Netcraft で検索しています..
-[-] 今 DNSdumpster で検索しています..
-[-] 今 Virustotal で検索しています..
-[-] 今 ThreatCrowd で検索しています..
-[-] 今 SSL 証明書で検索しています..
-[-] 今 PassiveDNS で検索しています..
+[-] 今、google.com のサブドメインを列挙しています。
+[-] 今、Baidu で検索しています..
+[-] 今、Yahoo で検索しています..
+[-] 今、Google で検索しています..
+[-] 今、Bing で検索しています..
+[-] 今、Ask で検索しています..
+[-] 今、Netcraft で検索しています..
+[-] 今、DNSdumpster で検索しています..
+[-] 今、Virustotal で検索しています..
+[-] 今、ThreatCrowd で検索しています..
+[-] 今、SSL証明書で検索しています..
+[-] 今、PassiveDNS で検索しています..
 プロセス DNSdumpster-8:
-
-```python
-Traceback (most recent call last):
+Traceback (最新の呼び出しから):
   File "/Users/lzwjava/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
     self.run()
   File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 268, in run
@@ -58,9 +58,9 @@ Traceback (most recent call last):
     token = self.get_csrftoken(resp)
   File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 641, in get_csrftoken
     token = csrf_regex.findall(resp)[0]
-IndexError: list index out of range
-[!] エラー: Virustotal は現在、私たちのリクエストをブロックしている可能性があります
-[-] 一意のサブドメインが発見されました: 97
+IndexError: リストのインデックスが範囲外です
+[!] エラー: Virustotal はおそらく今、我々のリクエストをブロックしています
+[-] 見つかった一意のサブドメインの合計: 97
 www.google.com
 accounts.google.com
 freezone.accounts.google.com
@@ -158,4 +158,3 @@ dg.video.google.com
 upload.video.google.com
 wifi.google.com
 onex.wifi.google.com
-```

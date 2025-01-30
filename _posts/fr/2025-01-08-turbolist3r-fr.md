@@ -1,10 +1,12 @@
 ---
-audio: false
+audio: true
 lang: fr
-layout: article
-title: 'Turbolist3r: Énumération des sous-domaines'
+layout: post
+title: 'Turbolist3r : Énumération de Sous-domaines'
 translated: true
 ---
+
+Ci-dessous quelques outils pour aider à énumérer les sous-domaines.
 
 ## Turbolist3r
 
@@ -19,11 +21,11 @@ python turbolist3r.py -d google.com
 
 ## Sublist3r
 
-Essayé. https://github.com/aboul3la/Sublist3r
+Testé. [Sublist3r sur GitHub](https://github.com/aboul3la/Sublist3r)
 
 ```bash
-% python  sublist3r.py -d google.com
-🚀 **Paramètres de proxy détectés:**
+% python sublist3r.py -d google.com
+🚀 **Proxy Settings Detected:**
    - HTTP_PROXY: http://127.0.0.1:7890
    - HTTPS_PROXY: http://127.0.0.1:7890
 
@@ -33,20 +35,20 @@ Essayé. https://github.com/aboul3la/Sublist3r
                  ___) | |_| | |_) | | \__ \ |_ ___) | |
                 |____/ \__,_|_.__/|_|_|___/\__|____/|_|
 
-                # Codé par Ahmed Aboul-Ela - @aboul3la
+                # Coded By Ahmed Aboul-Ela - @aboul3la
 
-[-] Énumération des sous-domaines en cours pour google.com
-[-] Recherche en cours sur Baidu..
-[-] Recherche en cours sur Yahoo..
-[-] Recherche en cours sur Google..
-[-] Recherche en cours sur Bing..
-[-] Recherche en cours sur Ask..
-[-] Recherche en cours sur Netcraft..
-[-] Recherche en cours sur DNSdumpster..
-[-] Recherche en cours sur Virustotal..
-[-] Recherche en cours sur ThreatCrowd..
-[-] Recherche en cours sur SSL Certificates..
-[-] Recherche en cours sur PassiveDNS..
+[-] Énumération des sous-domaines maintenant pour google.com
+[-] Recherche maintenant dans Baidu..
+[-] Recherche maintenant dans Yahoo..
+[-] Recherche maintenant dans Google..
+[-] Recherche maintenant dans Bing..
+[-] Recherche maintenant dans Ask..
+[-] Recherche maintenant dans Netcraft..
+[-] Recherche maintenant dans DNSdumpster..
+[-] Recherche maintenant dans Virustotal..
+[-] Recherche maintenant dans ThreatCrowd..
+[-] Recherche maintenant dans SSL Certificates..
+[-] Recherche maintenant dans PassiveDNS..
 Process DNSdumpster-8:
 Traceback (most recent call last):
   File "/Users/lzwjava/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
@@ -59,7 +61,7 @@ Traceback (most recent call last):
     token = csrf_regex.findall(resp)[0]
 IndexError: list index out of range
 [!] Erreur: Virustotal bloque probablement maintenant nos requêtes
-[-] Total de sous-domaines uniques trouvés: 97
+[-] Total des sous-domaines uniques trouvés: 97
 www.google.com
 accounts.google.com
 freezone.accounts.google.com

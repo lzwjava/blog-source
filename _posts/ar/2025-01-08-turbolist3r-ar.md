@@ -1,17 +1,19 @@
 ---
-audio: false
+audio: true
 lang: ar
 layout: post
-title: 'Turbolist3r: إحصائية التطورات الدفقية'
+title: 'Turbolist3r: إحصاء النطاقات الفرعية'
 translated: true
 ---
+
+أدناه بعض الأدوات التي تساعد في إحصاء الأسماء الفرعية.
 
 ## Turbolist3r
 
 [Turbolist3r على GitHub](https://github.com/fleetcaptain/Turbolist3r)
 
-المستنير على [Sublist3r](https://github.com/aboul3la/Sublist3r) من أحمد أبو العلا - @aboul3la
-النسخة المصدرية من كارل بيرسون - [GitHub](https://github.com/fleetcaptain)
+مبني على [Sublist3r](https://github.com/aboul3la/Sublist3r) بواسطة أحمد أبو العلا - @aboul3la
+مُفورك بواسطة كارل بيرسون - [GitHub](https://github.com/fleetcaptain)
 
 ```bash
 python turbolist3r.py -d google.com
@@ -19,11 +21,11 @@ python turbolist3r.py -d google.com
 
 ## Sublist3r
 
-محاولة. https://github.com/aboul3la/Sublist3r
+تم تجربة. https://github.com/aboul3la/Sublist3r
 
 ```bash
-% python sublist3r.py -d google.com
-🚀 **إعدادات السراج تم الكشف عليها:**
+% python  sublist3r.py -d google.com
+🚀 **إعدادات الوكيل المرة تم التحديد:**
    - HTTP_PROXY: http://127.0.0.1:7890
    - HTTPS_PROXY: http://127.0.0.1:7890
 
@@ -34,9 +36,9 @@ python turbolist3r.py -d google.com
                  ___) | |_| | |_) | | \__ \ |_ ___) | |
                 |____/ \__,_|_.__/|_|_|___/\__|____/|_|
 
-                # تم برمجته من أحمد أبو العلا - @aboul3la
+                # مكتوب من قبل أحمد أبو العلا - @aboul3la
 
-[-] البحث عن التطورات الدفقية الآن لgoogle.com
+[-] يتم إحصاء الأسماء الفرعية الآن للـ google.com
 [-] البحث الآن في Baidu..
 [-] البحث الآن في Yahoo..
 [-] البحث الآن في Google..
@@ -48,7 +50,7 @@ python turbolist3r.py -d google.com
 [-] البحث الآن في ThreatCrowd..
 [-] البحث الآن في شهادات SSL..
 [-] البحث الآن في PassiveDNS..
-إنتقال DNSdumpster-8:
+Process DNSdumpster-8:
 Traceback (most recent call last):
   File "/Users/lzwjava/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
     self.run()
@@ -59,8 +61,8 @@ Traceback (most recent call last):
   File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 641, in get_csrftoken
     token = csrf_regex.findall(resp)[0]
 IndexError: list index out of range
-[!] خطأ: يبدو أن Virustotal الآن يحظر طلباتنا
-[-] عدد تُصفح التطورات الدفقية المميزة: 97
+[!] خطأ: Virustotal ربما يمنع الآن طلباتنا
+[-] مجموع الأسماء الفرعية الفريدة التي تم العثور عليها: 97
 www.google.com
 accounts.google.com
 freezone.accounts.google.com

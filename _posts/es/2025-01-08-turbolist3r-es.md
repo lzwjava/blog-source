@@ -1,16 +1,18 @@
 ---
-audio: false
+audio: true
 lang: es
 layout: post
 title: 'Turbolist3r: Enumeración de Subdominios'
 translated: true
 ---
 
+A continuación se presentan algunas herramientas para ayudar a enumerar subdominios.
+
 ## Turbolist3r
 
 [Turbolist3r en GitHub](https://github.com/fleetcaptain/Turbolist3r)
 
-Basado en [Sublist3r](https://github.com/aboul3la/Sublist3r) por Ahmed Aboul-Ela - @aboul3la
+Basado en [Sublist3r](https://github.com/aboul3la/Sublist3r) de Ahmed Aboul-Ela - @aboul3la
 Fork por Carl Pearson - [GitHub](https://github.com/fleetcaptain)
 
 ```bash
@@ -22,8 +24,8 @@ python turbolist3r.py -d google.com
 Intentado. https://github.com/aboul3la/Sublist3r
 
 ```bash
-% python  sublist3r.py -d google.com
-🚀 **Configuración de Proxy Detectada:**
+% python sublist3r.py -d google.com
+🚀 **Configuración Proxy Detectada:**
    - HTTP_PROXY: http://127.0.0.1:7890
    - HTTPS_PROXY: http://127.0.0.1:7890
 
@@ -35,7 +37,7 @@ Intentado. https://github.com/aboul3la/Sublist3r
 
                 # Codificado por Ahmed Aboul-Ela - @aboul3la
 
-[-] Comenzando la enumeración de subdominios ahora para google.com
+[-] Enumerando subdominios ahora para google.com
 [-] Buscando ahora en Baidu..
 [-] Buscando ahora en Yahoo..
 [-] Buscando ahora en Google..
@@ -57,9 +59,9 @@ Traceback (most recent call last):
     token = self.get_csrftoken(resp)
   File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 641, in get_csrftoken
     token = csrf_regex.findall(resp)[0]
-IndexError: index de lista fuera de rango
-[!] Error: Es probable que Virustotal esté bloqueando nuestras solicitudes ahora
-[-] Subdominios Únicos Encontrados: 97
+IndexError: list index out of range
+[!] Error: Probablemente Virustotal ahora esté bloqueando nuestras solicitudes
+[-] Total de Subdominios Únicos Encontrados: 97
 www.google.com
 accounts.google.com
 freezone.accounts.google.com

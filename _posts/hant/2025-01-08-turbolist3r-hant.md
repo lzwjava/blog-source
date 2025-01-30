@@ -1,17 +1,19 @@
 ---
-audio: false
+audio: true
 lang: hant
 layout: post
 title: 'Turbolist3r: 列舉子域名'
 translated: true
 ---
 
+## 列出一些幫助列舉子域名的工具。
+
 ## Turbolist3r
 
 [Turbolist3r on GitHub](https://github.com/fleetcaptain/Turbolist3r)
 
-基於 [Sublist3r](https://github.com/aboul3la/Sublist3r) by Ahmed Aboul-Ela - @aboul3la
-由 Carl Pearson 分支 - [GitHub](https://github.com/fleetcaptain)
+基於 [Sublist3r](https://github.com/aboul3la/Sublist3r) 由 Ahmed Aboul-Ela - @aboul3la
+分叉由 Carl Pearson - [GitHub](https://github.com/fleetcaptain)
 
 ```bash
 python turbolist3r.py -d google.com
@@ -19,14 +21,13 @@ python turbolist3r.py -d google.com
 
 ## Sublist3r
 
-已嘗試。https://github.com/aboul3la/Sublist3r
+已嘗試。 [Sublist3r](https://github.com/aboul3la/Sublist3r)
 
 ```bash
 % python  sublist3r.py -d google.com
-🚀 **Proxy Settings Detected:**
+🚀 **Proxy 設定已檢測到:**
    - HTTP_PROXY: http://127.0.0.1:7890
    - HTTPS_PROXY: http://127.0.0.1:7890
-
 
                  ____        _     _ _     _   _____
                 / ___| _   _| |__ | (_)___| |_|___ / _ __
@@ -34,20 +35,20 @@ python turbolist3r.py -d google.com
                  ___) | |_| | |_) | | \__ \ |_ ___) | |
                 |____/ \__,_|_.__/|_|_|___/\__|____/|_|
 
-                # Coded By Ahmed Aboul-Ela - @aboul3la
+                # 編寫者 Ahmed Aboul-Ela - @aboul3la
 
-[-] 現在列舉子域名 google.com
-[-] 現在在 Baidu 搜尋..
-[-] 現在在 Yahoo 搜尋..
-[-] 現在在 Google 搜尋..
-[-] 現在在 Bing 搜尋..
-[-] 現在在 Ask 搜尋..
-[-] 現在在 Netcraft 搜尋..
-[-] 現在在 DNSdumpster 搜尋..
-[-] 現在在 Virustotal 搜尋..
-[-] 現在在 ThreatCrowd 搜尋..
-[-] 現在在 SSL Certificates 搜尋..
-[-] 現在在 PassiveDNS 搜尋..
+[-] 正在列舉 google.com 的子域名
+[-] 正在 Baidu 中搜索..
+[-] 正在 Yahoo 中搜索..
+[-] 正在 Google 中搜索..
+[-] 正在 Bing 中搜索..
+[-] 正在 Ask 中搜索..
+[-] 正在 Netcraft 中搜索..
+[-] 正在 DNSdumpster 中搜索..
+[-] 正在 Virustotal 中搜索..
+[-] 正在 ThreatCrowd 中搜索..
+[-] 正在 SSL 認證中搜索..
+[-] 正在 PassiveDNS 中搜索..
 Process DNSdumpster-8:
 Traceback (most recent call last):
   File "/Users/lzwjava/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
@@ -59,8 +60,8 @@ Traceback (most recent call last):
   File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 641, in get_csrftoken
     token = csrf_regex.findall(resp)[0]
 IndexError: list index out of range
-[!] Error: Virustotal 可能現在已經阻止我們的請求
-[-] 總共唯一子域名發現: 97
+[!] 錯誤: Virustotal 可能現在正在封鎖我們的請求
+[-] 總計找到 97 個獨特子域名
 www.google.com
 accounts.google.com
 freezone.accounts.google.com
