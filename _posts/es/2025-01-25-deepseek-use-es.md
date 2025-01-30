@@ -1,8 +1,8 @@
 ---
-audio: false
+audio: true
 lang: es
 layout: post
-title: Uso de la API DeepSeek
+title: Uso de la API de Deepseek y Mistral
 translated: true
 ---
 
@@ -14,37 +14,47 @@ Este fue mi uso en un día:
 
 | Tipo              | Tokens    |
 |-------------------|-----------|
-| Entrada (acierto en caché)  | 946,816   |
-| Entrada (fallo en caché) | 2,753,752 |
-| Salida            | 3,100,977 |
+| Input (Cache Hit)  | 946,816   |
+| Input (Cache Miss) | 2,753,752 |
+| Output            | 3,100,977 |
 
 El cálculo es el siguiente:
 
 0.94 * 0.1 + 2.75 * 1 + 3.10 * 2 = 11.83
 
-Por lo tanto, dependiendo de la tarea, el uso de tokens depende en gran medida de la entrada (fallo en caché) y la salida.
+Por lo tanto, dependiendo de la tarea, el uso de tokens depende en gran medida del input (cache miss) y del output.
 
 Este resultado coincide con el costo esperado.
 
-[Precios de la API de DeepSeek](https://api-docs.deepseek.com/quick_start/pricing/)
+[DeepSeek API Pricing](https://api-docs.deepseek.com/quick_start/pricing/)
 
-{: .centrado }
+{: .centered }
 ![](assets/images/deepseek/d.jpg)
-*Fuente: Captura de pantalla propia*{: .pie-de-imagen }
+*Fuente: Captura de pantalla propia*{: .caption }
 
 ## Mistral
 
-En un día, mi uso de la cuenta de Mistral fue el siguiente (Modelo: `mistral-large-2411`):
+Los precios para los modelos Mistral son los siguientes:
+
+| Modelo                | Input (USD por millón de tokens) | Output (USD por millón de tokens) |
+|-----------------------|--------------------------------|---------------------------------|
+| `mistral-large-2411`  | 2                              | 6                               |
+| `mistral-small-latest`| 0.2                           | 0.6                             |
+
+En un día, el uso de mi cuenta de Mistral fue el siguiente (Modelo: `mistral-large-2411`):
 
 | Tipo   | Tokens  | Costo (USD) |
 |--------|---------|------------|
 | Total  | 772,284 | 3.44       |
-| Salida | 474,855 | 2.85       |
-| Entrada| 297,429 | 0.59       |
+| Output | 474,855 | 2.85       |
+| Input  | 297,429 | 0.59       |
 
-Los precios para los modelos de Mistral son los siguientes:
+Para el modelo `mistral-small-2409`, el uso total fue de 1,022,407 tokens.
 
-| Modelo                 | Entrada (USD por millón de tokens) | Salida (USD por millón de tokens) |
-|-----------------------|------------------------------|---------------------------------|
-| `mistral-large-2411`  | 2                            | 6                               |
-| `mistral-small-latest`| 0.2                          | 0.6                             |
+Asumiendo que 1/3 de estos fueron tokens de entrada y 2/3 fueron tokens de salida:
+
+Había 340,802 tokens de entrada y 681,605 tokens de salida.
+
+Por lo tanto, el costo total se calcula como 340,802 * 0.2 / 1,000,000 + 681,605 * 0.6 / 1,000,000 = 0.07 + 0.41 = 0.48 USD.
+
+La consola de Mistral informa un costo total de uso de 0.43 USD, que aproximadamente coincide con nuestro cálculo.
