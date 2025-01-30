@@ -50,14 +50,12 @@ In one day, my Mistral account usage was as follows (Model: `mistral-large-2411`
 | Input  | 297,429 | 0.59       |
 
 
-For model `mistral-small-2409`, 
+For the `mistral-small-2409` model, the total usage was 1,022,407 tokens.
 
-Total usage: 1,022,407 tokens
+Assuming 1/3 of these were input tokens and 2/3 were output tokens:
 
-Assuming 1/3 are input tokens and 2/3 are output tokens:
+There were 340,802 input tokens and 681,605 output tokens.
 
-The number of input tokens is 340,802, and the number of output tokens is 681,605.
+Therefore, the total cost is calculated as 340,802 * 0.2 / 1,000,000 + 681,605 * 0.6 / 1,000,000 = 0.07 + 0.41 = 0.48 USD.
 
-So the total cost is 340,802 * 0.2 / 1000000 + 681,605 * 0.6 / 1000000 = 0.07 + 0.41 = 0.48 USD.
-
-The Mistral console gives a total usage cost of 0.43 USD, which approximately matches our calculation.
+The Mistral console reports a total usage cost of 0.43 USD, which approximately matches our calculation.
