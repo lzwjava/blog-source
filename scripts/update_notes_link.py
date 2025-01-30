@@ -15,7 +15,7 @@ def get_changed_files():
 def main():
     changed_files = get_changed_files()
     if changed_files:
-        print("Notes files changed, regenerating notes links...")
+        print("Notes files changed, regenerating notes links.")
         generate_notes_links()
     else:
         print("No notes files changed, skipping notes link regeneration.")
