@@ -35,7 +35,7 @@ def create_translation_prompt(target_language, type="content", special=False):
     elif target_language == 'fr':
         return base_prompt.format(target_language="French")
     elif target_language == "zh":
-        return base_prompt.format(target_language="Chinese")
+        return base_prompt.format(target_language="Simplified Chinese")
     elif target_language == 'hant':
         return base_prompt.format(target_language="Traditional Chinese (Hong Kong)")
     elif target_language == 'en':

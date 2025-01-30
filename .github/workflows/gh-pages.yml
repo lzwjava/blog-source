@@ -238,7 +238,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git diff --cached --quiet || git commit -m "Add generated audio files"
+          git diff --cached --quiet || git commit -m "feat(audio): Add generated audio files"
           git push || {
             echo "Push failed, attempting pull and merge"
             git pull --rebase
@@ -253,7 +253,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _config.yml
-          git diff --cached --quiet || git commit -m "Update release hash"
+          git diff --cached --quiet || git commit -m "chore(release): Update release hash"
           git push || {
             echo "Push failed, attempting pull and merge"
             git pull --rebase
