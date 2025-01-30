@@ -48,3 +48,5 @@ kramdown:
 ssl_certificate: false
 
 timezone: Asia/Shanghai
+
+release: 33e95f52f35ec7a481508c3ebfab4b02cf4217e1
