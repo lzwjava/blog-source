@@ -1,70 +1,73 @@
 ---
-audio: false
+audio: true
 lang: es
 layout: post
-title: Programming
+title: Programación
 translated: true
 ---
 
-* It is okay to do competitive programming as long as it motivates you.
+* Está bien hacer programación competitiva siempre y cuando te motive.
 
-* Programming is like writing. Programming is a creative activity.
+* Programar es como escribir. Programar es una actividad creativa.
 
-* Do your own project. Write your technical blog. Program for a project that you will maintain for years, just like maintaining a 10-year-long blog.
+* Haz tu propio proyecto. Escribe tu blog técnico. Programa para un proyecto que mantendrás durante años, igual que mantener un blog de 10 años de duración.
 
-* Usually, you do not need to pursue what's hot in technology now, as many trends will fade after a few years.
+* Generalmente, no necesitas perseguir lo que está de moda en tecnología ahora, ya que muchas tendencias desaparecerán después de unos años.
 
-* Pursue your curiosity and program for your own sake.
+* Persigue tu curiosidad y programa por tu propio placer.
 
-* Try to create programs for yourself. They are not work assignments.
+* Intenta crear programas para ti mismo. No son tareas de trabajo.
 
-* If you feel unhappy often when programming, then you are doing it the wrong way.
+* Si te sientes infeliz con frecuencia al programar, entonces lo estás haciendo de la manera incorrecta.
 
-* iOS, Android, Backend, Frontend, AI are all good. One can at least try to make a small project using them or learn about them for a few months.
+* iOS, Android, Backend, Frontend, IA son todos buenos. Al menos puedes intentar hacer un pequeño proyecto usando ellos o aprender sobre ellos durante unos meses.
 
-* Debugging is about being suspicious. Do not trust every line of your code; you can think of a better way to do it.
+* Depurar es cuestión de ser escéptico. No confíes en cada línea de tu código; puedes pensar en una mejor manera de hacerlo.
 
-* In programming, even a character or a line of log is important. They tell you something.
+* En programación, incluso un carácter o una línea de registro es importante. Te dicen algo.
 
-* Using programming makes products for others to use. It is interesting to have users.
+* Usar programación hace productos para que otros los usen. Es interesante tener usuarios.
 
-* You do not need to be harsh. A few hundred users really loving your product is better than tens of thousands of users who just kindly like your product.
+* No necesitas ser duro. Unas pocas cientos de usuarios que realmente adoren tu producto es mejor que decenas de miles de usuarios que solo lo aprecien amablemente.
 
-* Remember why you got into programming and never forget it.
+* Recuerda por qué te metiste en la programación y nunca lo olvides.
 
-* Apply knowledge in programming to every aspect of life. They are the same. Doing things in batches or one by one. How to separate jobs into units. The underlying tech behind every app. The nuanced details behind network requests.
+* Aplica el conocimiento de programación a todos los aspectos de la vida. Son lo mismo. Realizar cosas en lotes o una por una. Cómo separar trabajos en unidades. La tecnología subyacente detrás de cada aplicación. Los detalles sutiles detrás de las solicitudes de red.
 
-* The abstraction and logical thinking. The detail-oriented thinking. The thinking out of every solution.
+* La abstracción y el pensamiento lógico. El pensamiento orientado a los detalles. El pensar en cada solución.
 
-* Truth is truth. Usually, the computer won't be wrong. The electric circuit won't be wrong. The compiler won't be wrong. Don't feel upset when there is a bug.
+* La verdad es la verdad. Generalmente, la computadora no estará equivocada. El circuito eléctrico no estará equivocado. El compilador no estará equivocado. No te pongas mal cuando haya un error.
 
-* Pursue elegant and simple solutions. Simplicity is the ultimate sophistication. You need to think hard to leave what's essential and remove what's extra.
+* Persigue soluciones elegantes y simples. La simplicidad es la máxima sofisticación. Necesitas pensar con dificultad para dejar lo esencial y eliminar lo extra.
 
-* For programming languages, the languages that get the work done are okay. I personally recommend Java and Python.
+* Para lenguajes de programación, los lenguajes que hacen el trabajo están bien. Personalmente recomiendo Java y Python.
 
-* Follow Yin Wang at [https://www.yinwang.org](https://www.yinwang.org). He is one of the few geniuses in programming, though he says geniuses never exist.
+* Sigue a Yin Wang en [https://www.yinwang.org](https://www.yinwang.org). Él es uno de los pocos genios en programación, aunque dice que los genios nunca existen.
 
-* The knowledge and principles of programming can be easily applied to language learning, hardware repairing, life hacking, and scientific researching.
+* El conocimiento y principios de programación se pueden aplicar fácilmente al aprendizaje de idiomas, reparación de hardware, técnicas de vida y la investigación científica.
 
-* For most programming tasks, you don't need fancy math besides high school math.
+* Para la mayoría de las tareas de programación, no necesitas matemáticas avanzadas más allá de la matemática de secundaria.
 
-* Reflect on your old code after years or maintain a code project for a long time. It will teach you a lot.
+* Reflexiona sobre tu código antiguo después de años o mantén un proyecto de código durante mucho tiempo. Te enseñará mucho.
 
-* If you lose your passion for programming, just do other things for some time.
+* Si pierdes tu pasión por la programación, simplemente haz otras cosas por algún tiempo.
 
-* The timing of testing is important. Just do it naturally. You often don't need to write tests for your project. Try not to write tests, write unit tests, write integration tests, write API tests. Compare them wisely.
+* La sincronización de las pruebas es importante. Simplemente hazlo de manera natural. A menudo no necesitas escribir pruebas para tu proyecto. Intenta no escribir pruebas, escribir pruebas unitarias, escribir pruebas de integración, escribir pruebas de API. Compáralas sabiamente.
 
-* Try AI code editors. Use ChatGPT or other chatbots often. As AI tools are easy to use now, you can focus on more creative or important parts.
+* Prueba los editores de código de IA. Usa ChatGPT u otros chatbots frecuentemente. Como las herramientas de IA son fáciles de usar ahora, puedes concentrarte en partes más creativas o importantes.
 
-* When debugging, check if you're using the latest version of libraries. If a library is unmaintained, look for actively maintained clones or forks.
+* Cuando depures, verifica si estás usando la última versión de las librerías. Si una librería no está mantenida, busca clones o forks activamente mantenidos.
 
-* When improving something like network speed or program running time, there must be a quantitative metric. Otherwise, you won't know exactly if there was a trivial improvement or degradation.
+* Cuando mejores algo como la velocidad de la red o el tiempo de ejecución del programa, debe haber una métrica cuantitativa. De lo contrario, no sabrás exactamente si hubo una mejora o deterioro trivial.
 
-* For personal projects, it's okay not to write test code, but it's better to do local testing after changing a significant amount of code. Consider the affected code, how long it will run in the cloud pipeline, and how frequently it might lead to errors, and then write test code accordingly. Use methods that allow for easy testing without negatively impacting user experience.
+* Para proyectos personales, está bien no escribir código de pruebas, pero es mejor hacer pruebas locales después de cambiar una cantidad significativa de código. Considera el código afectado, cuánto tiempo se ejecutará en la tubería en la nube y con qué frecuencia podría llevar a errores, y luego escribe el código de prueba en consecuencia. Usa métodos que permitan pruebas fáciles sin impactar negativamente la experiencia del usuario.
 
-* Write simple and elegant code. Minimize duplication, although sometimes duplication leads to a simpler solution. Minimize special cases. Make it easy to test. Refactor to use common functions or processes, use recursion or loops, and look for patterns.
+* Escribe código simple y elegante. Minimiza la duplicación, aunque a veces la duplicación lleva a una solución más sencilla. Minimiza los casos especiales. Haz que sea fácil de probar. Reestructura para usar funciones o procesos comunes, usa recursión o bucles, y busca patrones.
 
-* Handle errors properly. Think about the root cause, the responsibility, and whether we can change it or if it is an external error. Consider the rescue method, the impact scope, where to handle it, whether we should categorize errors, how likely it is to happen, and the worst-case scenarios.
+* Maneja los errores adecuadamente. Piensa en la causa raíz, la responsabilidad y si podemos cambiarla o si es un error externo. Considera el método de rescate, el alcance del impacto, dónde manejarlo, si debemos categorizar los errores, cuán probable es que suceda y los peores escenarios.
 
+* La diferencia entre usar replace o usar startWith seguido de slice es que el primero ignora la posición de la cadena. Aplica un pensamiento similar a cada detalle de la programación.
 
+* Minimiza los posibles valores para un elemento; usa solo un valor para un caso. No uses null si ya tienes false. Si tenemos una bandera traducida de verdadero o falso, necesitamos asegurarnos de que cada vez que tengamos una bandera traducida, no tratemos la no existencia de una bandera traducida como false.
 
+* Usa GitHub o Sourcetree para revisar bloques de código cambiados con frecuencia. Son más convenientes para leer código.

@@ -1,70 +1,73 @@
 ---
-audio: false
+audio: true
 lang: ja
 layout: post
-title: Programming
+title: プログラミング
 translated: true
 ---
 
-* It is okay to do competitive programming as long as it motivates you.
+* プログラミングコンテストをすることは、あなたをやる気を出すのであれば、かまいません。
 
-* Programming is like writing. Programming is a creative activity.
+* プログラミングは書くことと同じです。プログラミングは創造的な活動です。
 
-* Do your own project. Write your technical blog. Program for a project that you will maintain for years, just like maintaining a 10-year-long blog.
+* 自分のプロジェクトをやりましょう。技術ブログを書きましょう。数年も維持するプロジェクトのためにプログラムを作りましょう、10年ものブログを維持するような感じで。
 
-* Usually, you do not need to pursue what's hot in technology now, as many trends will fade after a few years.
+* 通常、今の技術のトレンドを追う必要はありません、何年か後に多くのトレンドは消え去ります。
 
-* Pursue your curiosity and program for your own sake.
+* 好奇心を追求し、自分のためにプログラムを作りましょう。
 
-* Try to create programs for yourself. They are not work assignments.
+* 自分自身のためにプログラムを作成しようとしましょう。それらは仕事の指示ではありません。
 
-* If you feel unhappy often when programming, then you are doing it the wrong way.
+* プログラミングをするときに頻繁に不愉快な気分になるなら、間違った方法でやっているのです。
 
-* iOS, Android, Backend, Frontend, AI are all good. One can at least try to make a small project using them or learn about them for a few months.
+* iOS、Android、バックエンド、フロントエンド、AI、全部良いです。それらを使って小さなプロジェクトを作ったり、数カ月間学んだりすることはできるでしょう。
 
-* Debugging is about being suspicious. Do not trust every line of your code; you can think of a better way to do it.
+* デバッグは疑惑を持つことです。あなたのコードのすべての行を信用しないでください；より良い方法を考えることができます。
 
-* In programming, even a character or a line of log is important. They tell you something.
+* プログラミングでは、1文字や1行のログも重要です。それらが何かをあなたに話しています。
 
-* Using programming makes products for others to use. It is interesting to have users.
+* プログラミングを使って他の人々のための製品を作ります。ユーザーを持つことは面白いです。
 
-* You do not need to be harsh. A few hundred users really loving your product is better than tens of thousands of users who just kindly like your product.
+* 過度に厳しくならないでください。数百人のユーザーがあなたの製品を本当に愛する方が、ただ優しくあなたの製品を好きな数万人のユーザーよりも良いです。
 
-* Remember why you got into programming and never forget it.
+* なぜプログラミングを始めたかを忘れないでください。
 
-* Apply knowledge in programming to every aspect of life. They are the same. Doing things in batches or one by one. How to separate jobs into units. The underlying tech behind every app. The nuanced details behind network requests.
+* プログラミングの知識を人生のすべての側面に適用する。それは同じです。バッチや一個ずつをやること。仕事を単位に分ける方法。すべてのアプリの背後にある下層技術。ネットワークリクエストの微妙な詳細。
 
-* The abstraction and logical thinking. The detail-oriented thinking. The thinking out of every solution.
+* 抽象と論理的な思考。詳細指向の思考。すべての解決策の外出。
 
-* Truth is truth. Usually, the computer won't be wrong. The electric circuit won't be wrong. The compiler won't be wrong. Don't feel upset when there is a bug.
+* 真実は真理です。通常、コンピューターは間違いません。電気回路も間違いません。コンパイラも間違いません。バグがある場合に怒らないでください。
 
-* Pursue elegant and simple solutions. Simplicity is the ultimate sophistication. You need to think hard to leave what's essential and remove what's extra.
+* 優雅でシンプルな解決策を追求しましょう。シンプルさは究極の洗練です。重要なものを残し、不要なものを取り除くために考える必要があります。
 
-* For programming languages, the languages that get the work done are okay. I personally recommend Java and Python.
+* プログラミング言語に関しては、仕事を完了させる言語が良いです。私は個人的にはJavaとPythonをお勧めします。
 
-* Follow Yin Wang at [https://www.yinwang.org](https://www.yinwang.org). He is one of the few geniuses in programming, though he says geniuses never exist.
+* [https://www.yinwang.org](https://www.yinwang.org)でYin Wangをフォローしましょう。彼はプログラミングの天才の一人ですが、天才は存在しないと言います。
 
-* The knowledge and principles of programming can be easily applied to language learning, hardware repairing, life hacking, and scientific researching.
+* プログラミングの知識と原則は、言語学習、ハードウェア修理、ライフハッキング、科学研究に簡単に適用できます。
 
-* For most programming tasks, you don't need fancy math besides high school math.
+* ほとんどのプログラミングタスクでは、高校の数学を超える高度な数学は必要ありません。
 
-* Reflect on your old code after years or maintain a code project for a long time. It will teach you a lot.
+* 何年か後に古いコードを振り返ってみましょう、または長い間コードプロジェクトを維持しましょう。それは多くのことを教えてくれます。
 
-* If you lose your passion for programming, just do other things for some time.
+* プログラミングに対する情熱を失った場合は、しばらく他のことをしてください。
 
-* The timing of testing is important. Just do it naturally. You often don't need to write tests for your project. Try not to write tests, write unit tests, write integration tests, write API tests. Compare them wisely.
+* テストのタイミングは重要です。自然にしてください。通常、プロジェクトのためにテストを書く必要はありません。ユニットテスト、統合テスト、APIテストを書かないようにしようとし、知恵を比較してください。
 
-* Try AI code editors. Use ChatGPT or other chatbots often. As AI tools are easy to use now, you can focus on more creative or important parts.
+* AIコードエディターを試してみましょう。ChatGPTや他のチャットボットを頻繁に使ってください。AIツールは今では使いやすいので、より創造的または重要な部分に集中できます。
 
-* When debugging, check if you're using the latest version of libraries. If a library is unmaintained, look for actively maintained clones or forks.
+* デバッグ中は、最新バージョンのライブラリを使っているか確認してください。ライブラリが維持されていない場合は、アクティブにメンテナンスされているクローンやフォークを見つけてください。
 
-* When improving something like network speed or program running time, there must be a quantitative metric. Otherwise, you won't know exactly if there was a trivial improvement or degradation.
+* ネットワーク速度やプログラムの実行時間を改善するときには、必ず数値的なメトリックがあります。そうでないと、微細な改善か悪化かを正確に知ることができません。
 
-* For personal projects, it's okay not to write test code, but it's better to do local testing after changing a significant amount of code. Consider the affected code, how long it will run in the cloud pipeline, and how frequently it might lead to errors, and then write test code accordingly. Use methods that allow for easy testing without negatively impacting user experience.
+* 個人用のプロジェクトでは、テストコードを書かないこともかまいませんが、大量のコードを変更した後にローカルテストを行う方が良いでしょう。影響を受けたコード、クラウドパイプラインでどれだけ長く実行されるか、どれだけ頻繁にエラーが発生するかを考え、適切なテストコードを書きます。ユーザーエクスペリエンスを悪化させない方法を使用します。
 
-* Write simple and elegant code. Minimize duplication, although sometimes duplication leads to a simpler solution. Minimize special cases. Make it easy to test. Refactor to use common functions or processes, use recursion or loops, and look for patterns.
+* 簡単で優雅なコードを書きましょう。重複を最小限に減らす。ただし、時には重複がよりシンプルな解決策につながることがあります。特別な場合を最小限に減らす。テストしやすくする。共通の関数やプロセスを使用するようにリファクタリングする。再帰またはループを使用し、パターンを見つける。
 
-* Handle errors properly. Think about the root cause, the responsibility, and whether we can change it or if it is an external error. Consider the rescue method, the impact scope, where to handle it, whether we should categorize errors, how likely it is to happen, and the worst-case scenarios.
+* エラーを適切に処理します。根本原因、責任、変更できるかどうか、外部のエラーかどうかを考えましょう。リスクメソッド、影響範囲、その処理場所、エラーを分類するべきかどうか、発生の可能性、最悪のシナリオについて考えてください。
 
+* replaceを使うか、startWithに続けてsliceを使うかの違いは、前者は文字列の位置を無視することです。同様の思考をプログラミングのすべての詳細に適用します。
 
+* 1つのアイテムの可能な値を最小限にする。1つのケースに対して1つの値を使用する。NullはすでにFalseがある場合には使用しない。訳されたtrueまたはfalseフラグがある場合は、訳されたフラグがないことをfalseとして扱わないようにする必要があります。
 
+* GitHubまたはSourcreeを使用して、頻繁に変更されたコードブロックをレビューする。コードを読むのには便利です。

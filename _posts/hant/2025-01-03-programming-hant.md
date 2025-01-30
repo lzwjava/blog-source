@@ -1,70 +1,73 @@
 ---
-audio: false
+audio: true
 lang: hant
 layout: post
-title: Programming
+title: 程式設計
 translated: true
 ---
 
-* It is okay to do competitive programming as long as it motivates you.
+* 只要能激勵你，做競程也是可以的。
 
-* Programming is like writing. Programming is a creative activity.
+* 編程就像寫作。編程是一項創意活動。
 
-* Do your own project. Write your technical blog. Program for a project that you will maintain for years, just like maintaining a 10-year-long blog.
+* 做自己的項目。寫技術部落格。編程一個你會維護多年的項目，就像維護一個十年長的部落格。
 
-* Usually, you do not need to pursue what's hot in technology now, as many trends will fade after a few years.
+* 通常，你不需要追求技術界的熱門新東西，因為很多趨勢幾年後就會消失。
 
-* Pursue your curiosity and program for your own sake.
+* 追求你的好奇心，為了自己的目的去編程。
 
-* Try to create programs for yourself. They are not work assignments.
+* 試著為自己創建程序。這些程序並不是工作任務。
 
-* If you feel unhappy often when programming, then you are doing it the wrong way.
+* 如果你經常在編程時感到不快樂，那麼你就是在錯誤的方向上進行。
 
-* iOS, Android, Backend, Frontend, AI are all good. One can at least try to make a small project using them or learn about them for a few months.
+* iOS、Android、後端、前端、AI 都很好。至少可以嘗試用它們做個小項目，或者花幾個月時間學習它們。
 
-* Debugging is about being suspicious. Do not trust every line of your code; you can think of a better way to do it.
+* 調試是懷疑的過程。不要信任你的每一行程式碼；你可以想到更好的方法來做。
 
-* In programming, even a character or a line of log is important. They tell you something.
+* 在編程中，即使是單個字符或一行日誌也是重要的。它們會告訴你一些信息。
 
-* Using programming makes products for others to use. It is interesting to have users.
+* 使用編程可以為別人製造產品來使用。讓用戶存在是有趣的。
 
-* You do not need to be harsh. A few hundred users really loving your product is better than tens of thousands of users who just kindly like your product.
+* 你不需要太嚴厲。幾百個真心喜愛你的產品的用戶比幾千個只是友好喜歡你產品的用戶要好。
 
-* Remember why you got into programming and never forget it.
+* 記住你開始編程的原因，並永遠不要忘記。
 
-* Apply knowledge in programming to every aspect of life. They are the same. Doing things in batches or one by one. How to separate jobs into units. The underlying tech behind every app. The nuanced details behind network requests.
+* 將編程的知識應用到生活的每一個方面。它們是相同的。批次處理或逐一處理。如何將工作分解為單元。每個應用程序背後的基礎技術。網絡請求背後的細微差別。
 
-* The abstraction and logical thinking. The detail-oriented thinking. The thinking out of every solution.
+* 抽象和邏輯思維。細節導向的思維。每個解決方案的思維。
 
-* Truth is truth. Usually, the computer won't be wrong. The electric circuit won't be wrong. The compiler won't be wrong. Don't feel upset when there is a bug.
+* 真理就是真理。通常電腦不會錯。電路不會錯。編譯器不會錯。當有 bug 時不要感到懊惱。
 
-* Pursue elegant and simple solutions. Simplicity is the ultimate sophistication. You need to think hard to leave what's essential and remove what's extra.
+* 追求優雅和簡單的解決方案。簡單是最高的精妙。你需要思考如何保留本質並去除多餘的內容。
 
-* For programming languages, the languages that get the work done are okay. I personally recommend Java and Python.
+* 關於編程語言，能完成工作的語言就是好語言。我個人推薦 Java 和 Python。
 
-* Follow Yin Wang at [https://www.yinwang.org](https://www.yinwang.org). He is one of the few geniuses in programming, though he says geniuses never exist.
+* 關注 [https://www.yinwang.org](https://www.yinwang.org) 上的陰旺。他是編程方面的少數幾個天才之一，雖然他說天才從不存在。
 
-* The knowledge and principles of programming can be easily applied to language learning, hardware repairing, life hacking, and scientific researching.
+* 編程的知識和原則可以輕鬆應用於語言學習、硬件維修、生活技巧和科學研究。
 
-* For most programming tasks, you don't need fancy math besides high school math.
+* 對於大多數編程任務，你不需要超出高中數學的數學知識。
 
-* Reflect on your old code after years or maintain a code project for a long time. It will teach you a lot.
+* 過幾年反思你的舊程式碼，或者長期維護一個程式碼項目。它會教你很多。
 
-* If you lose your passion for programming, just do other things for some time.
+* 如果你失去了對編程的熱情，就做一些其他事情一段時間。
 
-* The timing of testing is important. Just do it naturally. You often don't need to write tests for your project. Try not to write tests, write unit tests, write integration tests, write API tests. Compare them wisely.
+*測試的時機很重要。只是自然進行。你經常不需要為你的項目編寫測試。嘗試不寫測試，寫單元測試，寫集成測試，寫 API 測試。明智地比較它們。
 
-* Try AI code editors. Use ChatGPT or other chatbots often. As AI tools are easy to use now, you can focus on more creative or important parts.
+* 試試 AI 編碼編輯器。經常使用 ChatGPT 或者其他聊天機器人。由於 AI 工具現在很容易使用，你可以專注於更有創意或更重要的部分。
 
-* When debugging, check if you're using the latest version of libraries. If a library is unmaintained, look for actively maintained clones or forks.
+* 調試時，檢查是否使用了庫的最新版本。如果庫沒有維護，尋找積極維護的克隆或分叉。
 
-* When improving something like network speed or program running time, there must be a quantitative metric. Otherwise, you won't know exactly if there was a trivial improvement or degradation.
+* 當改進網絡速度或程序運行時間時，必須有一個量化指標。否則，你不知道是否有微小的改進或惡化。
 
-* For personal projects, it's okay not to write test code, but it's better to do local testing after changing a significant amount of code. Consider the affected code, how long it will run in the cloud pipeline, and how frequently it might lead to errors, and then write test code accordingly. Use methods that allow for easy testing without negatively impacting user experience.
+* 對於個人項目，不寫測試代碼也是可以的，但改變了大量代碼後最好進行本地測試。考慮受影響的代碼，它在雲計算管道中運行的時間，以及它可能導致錯誤的頻率，然後相應地編寫測試代碼。使用能夠方便進行測試而不會對用戶體驗產生負面影響的方法。
 
-* Write simple and elegant code. Minimize duplication, although sometimes duplication leads to a simpler solution. Minimize special cases. Make it easy to test. Refactor to use common functions or processes, use recursion or loops, and look for patterns.
+* 寫簡單優雅的程式碼。最小化重複，雖然有時重複會導致更簡單的解決方案。最小化特殊情況。使其易於測試。重構以使用常見函數或過程，使用遞歸或循環，並尋找模式。
 
-* Handle errors properly. Think about the root cause, the responsibility, and whether we can change it or if it is an external error. Consider the rescue method, the impact scope, where to handle it, whether we should categorize errors, how likely it is to happen, and the worst-case scenarios.
+* 正確處理錯誤。考慮根本原因、責任，以及我們是否可以改變它還是它是外部錯誤。考慮救援方法、影響範圍、處理位置、是否應該分類錯誤、它發生的可能性以及最壞的情況。
 
+* 使用 replace 還是使用 startWith 後跟 slice 的區別在於前者忽略了字符串的位置。將類似的思維應用到編程的每一個細節。
 
+* 將一個項目的可能值最小化；對於一個案例，只使用一個值。如果我們已經有了 false，就不使用 null。如果我們有已轉譯的 true 或 false 標誌，我們需要確保每次我們有已轉譯的標誌，我們不會將已轉譯標誌的不存在視為 false。
 
+* 使用 GitHub 或 Sourcree 經常檢查變更的代碼塊。它們更方便閱讀代碼。

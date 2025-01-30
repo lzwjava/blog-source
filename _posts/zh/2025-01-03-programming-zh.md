@@ -1,69 +1,73 @@
 ---
 audio: true
-lang: en
+lang: zh
 layout: post
-title: Programming
+title: 编程
+translated: true
 ---
 
-* It is okay to do competitive programming as long as it motivates you.
+* 参加竞赛编程是可以的，只要它能激励你。
 
-* Programming is like writing. Programming is a creative activity.
+* 编程就像写作。编程是一种创造性活动。
 
-* Do your own project. Write your technical blog. Program for a project that you will maintain for years, just like maintaining a 10-year-long blog.
+* 做你自己的项目。写你的技术博客。为你会维护多年的项目编程，就像维护一个十年长的博客。
 
-* Usually, you do not need to pursue what's hot in technology now, as many trends will fade after a few years.
+* 通常你不需要追求当前技术中的热门，因为许多趋势几年后就会消退。
 
-* Pursue your curiosity and program for your own sake.
+* 做你自己的项目。追求你的好奇心，为你自己编程。
 
-* Try to create programs for yourself. They are not work assignments.
+* 尝试为自己创建程序。它们不是工作任务。
 
-* If you feel unhappy often when programming, then you are doing it the wrong way.
+* 如果你在编程时经常感到不开心，那么你可能在做错。
 
-* iOS, Android, Backend, Frontend, AI are all good. One can at least try to make a small project using them or learn about them for a few months.
+* iOS、Android、后端、前端、AI 都是很好的。至少可以尝试用它们做一个小项目或学习几个月。
 
-* Debugging is about being suspicious. Do not trust every line of your code; you can think of a better way to do it.
+* 调试是怀疑的问题。不要相信你代码的每一行；你可以考虑更好的方法来做。
 
-* In programming, even a character or a line of log is important. They tell you something.
+* 在编程中，甚至一个字符或一行日志都是重要的。它们告诉你一些事情。
 
-* Using programming makes products for others to use. It is interesting to have users.
+* 使用编程为他人制作产品。拥有用户是有趣的。
 
-* You do not need to be harsh. A few hundred users really loving your product is better than tens of thousands of users who just kindly like your product.
+* 你不需要太严厉。几百个真正喜欢你产品的用户比几万个只是友好喜欢你产品的用户更好。
 
-* Remember why you got into programming and never forget it.
+* 记住你为什么开始编程，永远不要忘记。
 
-* Apply knowledge in programming to every aspect of life. They are the same. Doing things in batches or one by one. How to separate jobs into units. The underlying tech behind every app. The nuanced details behind network requests.
+* 将编程中的知识应用到生活的各个方面。它们是相同的。分批或逐个做事情。如何将工作分解为单元。每个应用背后的底层技术。网络请求背后的细微区别。
 
-* The abstraction and logical thinking. The detail-oriented thinking. The thinking out of every solution.
+* 抽象和逻辑思维。细致入微的思考。每个解决方案的思考。
 
-* Truth is truth. Usually, the computer won't be wrong. The electric circuit won't be wrong. The compiler won't be wrong. Don't feel upset when there is a bug.
+* 事实就是事实。通常，计算机不会出错。电路不会出错。编译器不会出错。出现错误时不要感到沮丧。
 
-* Pursue elegant and simple solutions. Simplicity is the ultimate sophistication. You need to think hard to leave what's essential and remove what's extra.
+* 追求优雅和简单的解决方案。简洁是终极的风格。你需要努力去留下本质的东西并去掉多余的东西。
 
-* For programming languages, the languages that get the work done are okay. I personally recommend Java and Python.
+* 对于编程语言，能完成工作的语言就可以。我个人推荐 Java 和 Python。
 
-* Follow Yin Wang at [https://www.yinwang.org](https://www.yinwang.org). He is one of the few geniuses in programming, though he says geniuses never exist.
+* 关注 Yin Wang 的 [https://www.yinwang.org](https://www.yinwang.org)。他是编程中为数不多的天才之一，尽管他自己说天才并不存在。
 
-* The knowledge and principles of programming can be easily applied to language learning, hardware repairing, life hacking, and scientific researching.
+* 编程的知识和原则可以轻松应用于语言学习、硬件维修、生活黑客和科学研究。
 
-* For most programming tasks, you don't need fancy math besides high school math.
+* 对于大多数编程任务，你不需要高中数学之外的花哨数学。
 
-* Reflect on your old code after years or maintain a code project for a long time. It will teach you a lot.
+* 反思多年后的旧代码或长时间维护代码项目。它会教你很多。
 
-* If you lose your passion for programming, just do other things for some time.
+* 如果你失去了编程的热情，只需要暂时做些其他事情。
 
-* The timing of testing is important. Just do it naturally. You often don't need to write tests for your project. Try not to write tests, write unit tests, write integration tests, write API tests. Compare them wisely.
+* 测试的时机很重要。自然进行即可。通常你不需要为项目编写测试。尽量不要编写测试，编写单元测试，编写集成测试，编写 API 测试。明智地比较它们。
 
-* Try AI code editors. Use ChatGPT or other chatbots often. As AI tools are easy to use now, you can focus on more creative or important parts.
+* 尝试 AI 代码编辑器。经常使用 ChatGPT 或其他聊天机器人。由于 AI 工具现在很容易使用，你可以专注于更有创意或更重要的部分。
 
-* When debugging, check if you're using the latest version of libraries. If a library is unmaintained, look for actively maintained clones or forks.
+* 当调试时，检查你是否使用的是库的最新版本。如果一个库没有维护，寻找活跃维护的克隆或分支。
 
-* When improving something like network speed or program running time, there must be a quantitative metric. Otherwise, you won't know exactly if there was a trivial improvement or degradation.
+* 当改进网速或程序运行时间时，必须有一个量化指标。否则，你就不会知道是否有微小的改进或退化。
 
-* For personal projects, it's okay not to write test code, but it's better to do local testing after changing a significant amount of code. Consider the affected code, how long it will run in the cloud pipeline, and how frequently it might lead to errors, and then write test code accordingly. Use methods that allow for easy testing without negatively impacting user experience.
+* 对于个人项目，不编写测试代码是可以接受的，但最好在修改大量代码后进行本地测试。考虑受影响的代码、它在云端流水线中运行的时间以及它可能导致错误的频率，然后相应地编写测试代码。使用方法允许易于测试而不影响用户体验。
 
-* Write simple and elegant code. Minimize duplication, although sometimes duplication leads to a simpler solution. Minimize special cases. Make it easy to test. Refactor to use common functions or processes, use recursion or loops, and look for patterns.
+* 编写简单优雅的代码。尽量减少重复，尽管有时候重复会导致更简单的解决方案。尽量减少特殊情况。使其易于测试。重构以使用公共函数或流程，使用递归或循环，并查找模式。
 
-* Handle errors properly. Think about the root cause, the responsibility, and whether we can change it or if it is an external error. Consider the rescue method, the impact scope, where to handle it, whether we should categorize errors, how likely it is to happen, and the worst-case scenarios.
+* 正确处理错误。思考根本原因、责任以及我们是否可以改变它或者是外部错误。考虑恢复方法、影响范围、处理位置、是否分类错误、可能发生的频率以及最坏的情况。
 
+* 使用 replace 或使用 startWith 后跟 slice 的区别在于前者忽略字符串的位置。将类似的思考应用到编程的每个细节。
 
+* 最小化一个项的可能值；对于一个情况使用一个值。如果我们已经有 false，就不要使用 null。如果我们有一个翻译的 true 或 false 标志，我们需要确保每次我们有一个翻译标志时，我们不会将翻译标志的不存在视为 false。
 
+* 使用 GitHub 或 Sourcetree 频繁审查更改的代码块。它们更方便阅读代码。
