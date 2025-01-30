@@ -12,7 +12,9 @@ Translate the following posts or words into Chinese, ensuring that names (e.g., 
 
 ---
 
-Create a natural and extended conversation between two experts, A and B, with at least 100 turns. The experts should discuss a specific topic in depth, with the conversation flowing back and forth. Both participants should ask questions, share insights, and explore the nuances of the subject matter. The format should be as follows:
+Create a natural and extended conversation between two experts, A and B, with at least 100 turns. The experts should discuss a specific topic in depth, with the conversation flowing back and forth. Both participants should ask questions, share insights, and explore the nuances of the subject matter. Use skills such as diving deeper into subsections, comparing technologies, exploring use cases, debating trade-offs, and discussing emerging trends. Expand to 100+ turns.
+
+ The format should be as follows:
 
 ```json
 [
