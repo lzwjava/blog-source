@@ -49,4 +49,4 @@ ssl_certificate: false
 
 timezone: Asia/Shanghai
 
-release: 51499f252db2cc4bddafb35c6c0cb58a45f2bc4f
+release: 968f9e753b15be61148e47d0c3e922206a3c0bcb
