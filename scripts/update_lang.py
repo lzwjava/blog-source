@@ -186,7 +186,10 @@ def translate_markdown_file(input_file, output_file, target_language, model="dee
 
         # Extract front matter
         front_matter_match = re.match(r'---\n(.*?)\n---', content, re.DOTALL)
-        front_matter = front_matter_match.group(1) if front_matter_match else ""
+        if front_matter_match:
+            front_matter = front_matter_match.group(1)
+        else:
+            raise Exception("No front matter found in markdown file")
         content_without_front_matter = content[len(front_matter_match.group(0)):] if front_matter_match else content
 
         print(f"front_matter_match: {front_matter_match}")
