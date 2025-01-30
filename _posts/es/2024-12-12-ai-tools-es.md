@@ -6,7 +6,7 @@ title: Herramientas de IA
 translated: true
 ---
 
-Aquí tienes algunas herramientas de IA que he utilizado, categorizadas para mayor claridad:
+Aquí tienes algunas herramientas de IA que he usado, categorizadas para mayor claridad:
 
 ### Chatbots
 
@@ -28,30 +28,30 @@ Aquí tienes algunas herramientas de IA que he utilizado, categorizadas para may
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-### Tablas de liderazgo de modelos de IA
+### Clasificaciones de Modelos de IA
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
 - [TTS Arena](https://huggingface.co/spaces/TTS-AGI/TTS-Arena)
 
-### Generación de código
+### Generación de Código
 
 - [cursor.com](https://www.cursor.com)
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 
-### Generación de imágenes/vídeos
+### Generación de Imágenes/Videos
 
 - [midjourney.com](https://www.midjourney.com)
 - [runwayml.com](https://runwayml.com)
 - [pika.art](https://pika.art)
 
-### Generación de audio
+### Generación de Audio
 
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
 
-### Plataformas de IA en la nube
+### Plataformas de IA en la Nube
 
 - [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
 - [aistudio.google.com](https://aistudio.google.com)
@@ -65,3 +65,9 @@ Aquí tienes algunas herramientas de IA que he utilizado, categorizadas para may
 - [aistudio.google.com](https://aistudio.google.com)
 - [databricks.com](https://www.databricks.com)
 - [ai.google.dev](https://ai.google.dev)
+
+### Herramientas de AI Disponibles en Hong Kong
+
+- [chat.deepseek.com](https://chat.deepseek.com)
+- [grok.x.com](https://grok.x.com)
+- [chat.mistral.ai](https://chat.mistral.ai)
