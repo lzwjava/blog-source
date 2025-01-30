@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Afficher les Paramètres du Proxy Avant d'Exécuter des Commandes

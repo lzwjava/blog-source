@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: es
 layout: post
 title: Corregir Indicaciones o Contexto en Lugar de la Salida de la IA

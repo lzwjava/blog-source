@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 中国でのUK SIMカード：Giffgaffの体験談

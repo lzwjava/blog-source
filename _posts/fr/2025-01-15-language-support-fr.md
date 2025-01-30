@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: fr
 layout: post
 title: 'Prise en charge des langues : polices et synthèse vocale'

@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: fr
 layout: post
 title: Problèmes de rendu des polices dans GitHub Desktop

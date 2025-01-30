@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Conseils pour trouver un cofondateur

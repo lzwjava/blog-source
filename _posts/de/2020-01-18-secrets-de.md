@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: 浅谈人生的秘密

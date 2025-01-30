@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hi
 layout: post
 title: iOS में विशेष सेटिंग्स

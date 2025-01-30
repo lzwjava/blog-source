@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 趣直播：首個知識直播平台

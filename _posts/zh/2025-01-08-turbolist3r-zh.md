@@ -1,9 +1,7 @@
-
-
 ---
-
+audio: true
 布局: 文章
-标题: "Turbolist3r: 枚举子域名"
+标题: 'Turbolist3r: 枚举子域名'
 ---
 
 ## Turbolist3r

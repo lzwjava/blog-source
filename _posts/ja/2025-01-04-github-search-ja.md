@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ja
 layout: post
 title: GitHub 検索ボックスがまだ必要なケース

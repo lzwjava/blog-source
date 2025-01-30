@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: ライブラリ使用時のアップグレードを検討する

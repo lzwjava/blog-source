@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: なぜChatGPT Plusはトークン使用量に基づいて課金すべきなのか

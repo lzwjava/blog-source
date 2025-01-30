@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: Erfahrungsbericht über die Gründung von Quzhibo (Interessantes Live-Streaming)

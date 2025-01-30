@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: fr
 layout: post
 title: Comment je vis bien à l'ère de l'IA et de la blockchain

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 项目找谁做，钱给谁挣

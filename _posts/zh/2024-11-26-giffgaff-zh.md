@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 在中国使用英国SIM卡：Giffgaff体验

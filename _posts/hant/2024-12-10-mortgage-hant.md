@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 部分提前還按揭的好處

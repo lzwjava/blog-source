@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: Achten Sie auf die Frische von Lebensmitteln

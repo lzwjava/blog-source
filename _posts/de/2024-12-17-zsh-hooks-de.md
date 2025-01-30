@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: de
 layout: post
 title: Zsh bietet eine leistungsstarke Funktion namens

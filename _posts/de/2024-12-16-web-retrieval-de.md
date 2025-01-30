@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: Ein Anwendungsfall für ChatGPT Retrieval Web

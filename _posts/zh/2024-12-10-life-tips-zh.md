@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 生活小窍门

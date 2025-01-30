@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: es
 layout: post
 title: Prefiero Tener Sonido de Fondo

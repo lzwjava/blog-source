@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: Die beste Kommunikationsmethode für mich

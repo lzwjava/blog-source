@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: en
 layout: post
 title: How To Learn Anything In a Year

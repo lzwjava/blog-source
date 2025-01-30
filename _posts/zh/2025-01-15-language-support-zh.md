@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: zh
 layout: post
 title: 语言支持：字体与文本转语音

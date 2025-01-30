@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 科学的に物事を行う

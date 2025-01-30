@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ar
 layout: post
 title: رحلة عكس قصر النظر بشكل طبيعي

@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: es
 layout: post
 title: Usa DeepThink o ChatGPT o1 Mucho

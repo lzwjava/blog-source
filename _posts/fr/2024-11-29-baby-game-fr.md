@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: 'Jeu pour bébé : Suis la Main'

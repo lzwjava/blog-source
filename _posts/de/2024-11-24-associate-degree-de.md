@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: 'Associate Degree: Fortschritt und Reflexion'

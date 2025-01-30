@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: de
 layout: post
 title: Die Vorteile der Wiederholung in der Programmierung

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Améliorer le développement iOS grâce aux tests automatisés et aux outils

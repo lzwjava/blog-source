@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: テレビでYouTubeを見る方法

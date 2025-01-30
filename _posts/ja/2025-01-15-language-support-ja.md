@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ja
 layout: post
 title: 言語サポート：フォントとテキスト読み上げ

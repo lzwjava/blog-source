@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ja
 layout: post
 title: 三角棒スタンド構造

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: グローバル不動産アプリ

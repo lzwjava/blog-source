@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: 退学申请书

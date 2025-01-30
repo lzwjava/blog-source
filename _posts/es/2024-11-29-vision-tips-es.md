@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Consejos Naturales para Restaurar la Visión

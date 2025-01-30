@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: de
 layout: post
 title: Verwendung von multifokalen Gleitsichtgläsern zur Umkehrung von Myopie

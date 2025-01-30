@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 學習英語的秘訣

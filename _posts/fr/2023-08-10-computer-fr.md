@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Comment Construire un Ordinateur

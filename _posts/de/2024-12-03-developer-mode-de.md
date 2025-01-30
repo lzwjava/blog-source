@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: Entwicklermodus von iOS und ideviceinstaller

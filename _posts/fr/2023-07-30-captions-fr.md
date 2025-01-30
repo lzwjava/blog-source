@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: ChatGPT m'aide à créer des légendes

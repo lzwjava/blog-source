@@ -1,11 +1,11 @@
-
-
 ---
-音頻： true
-語言： en
-佈局： post
-標題： 穿女裝
+audio: false
+lang: hant
+layout: post
+title: 穿女裝
+translated: true
 ---
+
 
 * 作為男生第一次穿女裝是一個有趣的體驗。在公共場所，有些人可能會看著或低語，猜測我是女生。
 

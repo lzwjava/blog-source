@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Configuración de un Servidor en Azure

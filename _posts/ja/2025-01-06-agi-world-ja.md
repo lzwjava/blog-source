@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ja
 layout: post
 title: 人工汎用知能の世界

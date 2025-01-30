@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ar
 layout: post
 title: استخدام العدسات متعددة البؤر التدريجية لعكس قصر النظر

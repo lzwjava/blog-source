@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: iOS 應用程式我用過 - 文字版

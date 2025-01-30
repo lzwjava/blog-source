@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: zh
 layout: post
 title: 状态页面

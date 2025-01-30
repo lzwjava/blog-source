@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 生活小童話

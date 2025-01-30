@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 專心應對高考，用學習OI（信息學奧林匹克）所鍛煉出的學習能力，輕鬆攻克高考難關。

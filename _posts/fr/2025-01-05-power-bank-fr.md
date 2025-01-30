@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: fr
 layout: post
 title: Oubli de recharger les batteries externes

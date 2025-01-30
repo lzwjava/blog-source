@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: es
 layout: post
 title: El Error de ChatGPT con Bloques de Código Anidados

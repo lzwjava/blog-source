@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ja
 layout: post
 title: macOSのスタートアップ項目を整理する

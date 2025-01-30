@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Comprendre les Réseaux de Neurones

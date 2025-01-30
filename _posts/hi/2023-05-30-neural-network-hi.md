@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hi
 layout: post
 title: 'न्यूरल नेटवर्क कैसे काम करता '

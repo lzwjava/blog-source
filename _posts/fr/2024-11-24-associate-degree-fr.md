@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: 'Diplôme d''Associé : Progrès et Réflexion'

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 使用Awesome-CV生成專業簡歷

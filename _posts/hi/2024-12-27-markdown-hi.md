@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hi
 layout: post
 title: 'मार्कडेन समस्याएँ: Kramdown और XeLaTeX'

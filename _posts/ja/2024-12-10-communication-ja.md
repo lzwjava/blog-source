@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 私にとって最適なコミュニケーション方法

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: '趣直播: La primera plataforma de transmisión en vivo de conocimiento'

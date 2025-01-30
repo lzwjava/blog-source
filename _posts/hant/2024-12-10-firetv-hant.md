@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 使用藍牙鍵盤與Fire TV進行輸入

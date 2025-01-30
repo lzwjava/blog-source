@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: es
 layout: post
 title: Tiempo Máximo de Ejecución de un Trabajo en GitHub Actions

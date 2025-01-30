@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: fr
 layout: post
 title: Intelligence Artificielle en Action

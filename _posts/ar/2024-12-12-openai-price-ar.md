@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: لماذا يجب على ChatGPT Plus أن يتقاضى رسومًا بناءً على استخدام الرموز (Tokens)

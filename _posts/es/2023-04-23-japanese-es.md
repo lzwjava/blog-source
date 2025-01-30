@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Por qué y cómo aprendo japonés

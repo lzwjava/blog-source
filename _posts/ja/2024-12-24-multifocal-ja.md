@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ja
 layout: post
 title: 多焦点累進レンズを使用して近視を逆転させる

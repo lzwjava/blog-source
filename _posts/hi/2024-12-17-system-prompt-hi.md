@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hi
 layout: post
 title: Grok और Claude में सिस्टम प्रॉम्प्ट्स की खोज

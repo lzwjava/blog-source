@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 退學申請書

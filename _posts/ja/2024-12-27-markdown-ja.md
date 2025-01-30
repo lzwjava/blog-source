@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ja
 layout: post
 title: 'Markdownの問題点: KramdownとXeLaTeX'

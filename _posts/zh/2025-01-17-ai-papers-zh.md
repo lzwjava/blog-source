@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: zh
 layout: post
 title: AI 论文

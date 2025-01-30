@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 九月的歌：高中随笔

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 固定价格订阅模式已过时

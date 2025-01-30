@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 從神經網絡到GPT

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Reflexiones sobre los secretos de la vida

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: التطبيقات التي استخدمتها على iOS - النسخة النصية

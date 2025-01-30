@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: In einem Startup-Unternehmen eine Präsentation halten

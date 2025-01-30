@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: '## تجربة ريادة الأعمال في مجال البث المباشر'

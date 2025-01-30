@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: コマンド実行前にプロキシ設定を表示

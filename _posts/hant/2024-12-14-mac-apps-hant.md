@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 我使用的Mac应用程序

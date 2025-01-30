@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 人工智慧工具

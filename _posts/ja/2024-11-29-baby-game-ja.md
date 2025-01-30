@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: ベビーゲーム：手を追いかけて

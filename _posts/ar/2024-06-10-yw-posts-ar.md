@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: الترجمة الإنجليزية لمدونات Yin Wang

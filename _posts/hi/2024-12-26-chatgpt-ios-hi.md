@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hi
 layout: post
 title: ChatGPT iOS VPN डिटेक्शन का विश्लेषण

@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: en
 layout: post
 title: 'The Case of the Hairy Tailpipe: A Car Repair Mystery'

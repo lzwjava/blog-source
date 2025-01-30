@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: Mücken verschwinden, wenn die Temperatur sinkt

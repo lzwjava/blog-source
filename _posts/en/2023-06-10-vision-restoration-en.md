@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: en
 layout: post
 title: Experimental Verification of the Natural Vision Restoration Method

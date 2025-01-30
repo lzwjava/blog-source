@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: fr
 layout: post
 title: Les cas où nous avons encore besoin de la barre de recherche GitHub

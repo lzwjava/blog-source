@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Usando Awesome-CV para Generar un Currículum Profesional

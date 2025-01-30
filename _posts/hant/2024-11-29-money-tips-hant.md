@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 理财消费小贴士

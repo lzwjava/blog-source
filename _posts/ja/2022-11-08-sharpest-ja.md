@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 英語の習得：仕事中も仕事外も

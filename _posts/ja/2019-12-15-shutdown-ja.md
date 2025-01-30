@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 清算会社の提案

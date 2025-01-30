@@ -1,4 +1,10 @@
-
+---
+audio: false
+lang: ja
+layout: post
+title: Turbolist3r
+translated: true
+---
 
 ## Turbolist3r
 

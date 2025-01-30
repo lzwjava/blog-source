@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Solicitud de Retiro Académico

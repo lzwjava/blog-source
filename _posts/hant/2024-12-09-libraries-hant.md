@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 使用庫時考慮升級

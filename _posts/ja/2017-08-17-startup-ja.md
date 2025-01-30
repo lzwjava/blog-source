@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 趣直播創業の心得共有

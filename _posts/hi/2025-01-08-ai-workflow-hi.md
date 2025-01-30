@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hi
 layout: post
 title: नये प्लेटफ़ॉर्म की प्रेरणा AI प्रोसेस से होती है

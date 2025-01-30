@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hi
 layout: post
 title: क्लाउड सर्वर चयन में दीर्घकालिक सोच

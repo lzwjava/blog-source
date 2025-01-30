@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: تختفي البعوض عندما تنخفض درجة الحرارة

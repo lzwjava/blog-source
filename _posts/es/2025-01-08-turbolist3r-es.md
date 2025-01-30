@@ -1,9 +1,7 @@
-
-
 ---
-
+audio: false
 layout: post
-title: "Turbolist3r: Enumeración de Subdominios"
+title: 'Turbolist3r: Enumeración de Subdominios'
 ---
 
 ## Turbolist3r

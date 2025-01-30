@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: 九月的歌：高中随笔

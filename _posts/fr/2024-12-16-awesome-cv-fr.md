@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Utiliser Awesome-CV pour Générer un CV Professionnel

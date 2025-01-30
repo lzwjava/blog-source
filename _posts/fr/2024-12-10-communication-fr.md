@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: La Meilleure Méthode de Communication pour Moi

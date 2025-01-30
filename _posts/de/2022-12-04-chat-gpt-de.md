@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: Mein erstes Gespräch mit ChatGPT

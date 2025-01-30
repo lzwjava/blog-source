@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: Betonen Sie Urteilsvermögen anstelle von Sorgen über KI-Betrug

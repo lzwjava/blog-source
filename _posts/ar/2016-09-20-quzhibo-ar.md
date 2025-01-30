@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: 'Quzhibo: أول منصة بث مباشر للمعرفة'

@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ar
 layout: post
 title: '## عملية التقديم على تأشيرة الولايات المتحدة والخبرات'

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Traduction en français des articles de blog de Yin Wang

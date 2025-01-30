@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: El estado actual y el futuro de la economía china

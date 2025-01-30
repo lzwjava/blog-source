@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: '## 专心高考，用学 OI 修成的学习能力虐高考'

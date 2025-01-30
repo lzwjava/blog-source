@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: iOS 的開發者模式及ideviceinstaller工具

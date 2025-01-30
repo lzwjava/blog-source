@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: Pixel的USB選項

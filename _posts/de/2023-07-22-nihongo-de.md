@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: ChatGPT hilft mir, Japanisch zu lernen

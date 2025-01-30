@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 宝宝游戏：跟随手的动作

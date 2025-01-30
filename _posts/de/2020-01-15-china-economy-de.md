@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: Ein kurzer Überblick über die Auswege der chinesischen Wirtschaft

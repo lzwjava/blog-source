@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 提前部分还款的好处

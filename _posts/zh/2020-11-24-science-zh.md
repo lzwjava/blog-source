@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 科学地做事

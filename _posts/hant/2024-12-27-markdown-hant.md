@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hant
 layout: post
 title: Markdown 問題：Kramdown 與 XeLaTeX

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: en
 layout: post
 title: 'Fun Live: The First Knowledge Live Streaming Platform'

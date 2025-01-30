@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: en
 layout: post
 title: Mosquitoes Disappear When Temperature Drops

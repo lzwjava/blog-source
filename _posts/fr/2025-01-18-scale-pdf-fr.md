@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: fr
 layout: post
 title: Mise à l'échelle du contenu PDF pour l'impression

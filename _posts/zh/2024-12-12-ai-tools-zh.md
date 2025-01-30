@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 人工智能工具

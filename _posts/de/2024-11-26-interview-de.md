@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: 'Java Backend Engineer: Sammlung von Interviewfragen'

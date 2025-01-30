@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 起業して収益を上げる自然な成長方法

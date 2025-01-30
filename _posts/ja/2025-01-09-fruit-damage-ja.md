@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ja
 layout: post
 title: フルーツを注文する際の損傷を防ぐ方法

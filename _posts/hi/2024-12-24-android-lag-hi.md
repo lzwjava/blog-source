@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hi
 layout: post
 title: Android डिवाइस लैग क्यों करते हैं?

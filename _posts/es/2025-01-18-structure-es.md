@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: es
 layout: post
 title: Estructura de Soporte de Palo de Tres Ángulos

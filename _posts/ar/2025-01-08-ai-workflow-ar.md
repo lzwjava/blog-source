@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: تطبيقات جديدة تعمل بواسطة عمليات ذكاء صناعي

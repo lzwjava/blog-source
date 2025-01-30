@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Algunas Plataformas Globales en la Nube

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 一個使用ChatGPT搜索功能的案例

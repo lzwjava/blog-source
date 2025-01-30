@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: en
 layout: post
 title: Consider Upgrades When Using Libraries

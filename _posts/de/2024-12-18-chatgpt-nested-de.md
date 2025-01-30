@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: de
 layout: post
 title: ChatGPTs Problem mit verschachtelten Codeblöcken

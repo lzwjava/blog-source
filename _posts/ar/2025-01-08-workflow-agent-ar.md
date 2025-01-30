@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: سير العمل هو BFS، والعامل هو DFS

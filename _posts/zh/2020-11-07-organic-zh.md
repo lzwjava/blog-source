@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 创业赚钱的自然增长方法

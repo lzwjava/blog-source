@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 預測下一個身體狀態

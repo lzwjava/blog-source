@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: ChatGPT 檢索網的使用案例

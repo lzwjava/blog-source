@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hi
 layout: post
 title: डीपसीक और मिस्ट्रल का एपी उपयोग

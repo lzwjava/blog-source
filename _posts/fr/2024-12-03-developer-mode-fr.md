@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Mode Développeur d'iOS et ideviceinstaller

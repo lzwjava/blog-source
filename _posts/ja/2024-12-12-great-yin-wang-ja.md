@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: GTY - 偉大なるYin先生

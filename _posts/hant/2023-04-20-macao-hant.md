@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 澳門SIM卡

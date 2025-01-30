@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 私が使っているiOSアプリ - 表バージョン

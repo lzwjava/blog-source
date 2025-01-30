@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hi
 layout: post
 title: ChatGPT मुझे कैप्शन बनाने में मदद करता है

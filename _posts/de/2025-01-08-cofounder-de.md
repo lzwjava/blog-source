@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: Tipps zur Suche nach einem Mitgründer

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hi
 layout: post
 title: क्लाउड कंप्यूटिंग और बिग डेटा का परिचय

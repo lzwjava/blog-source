@@ -1,4 +1,5 @@
 ---
+audio: true
 lang: en
 layout: post
 title: Setting Up an Azure Server

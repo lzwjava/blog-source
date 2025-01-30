@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: Englische Übersetzung von Yin Wangs Blogbeiträgen

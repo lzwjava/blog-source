@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: لماذا وكيف أتعلم اللغة اليابانية

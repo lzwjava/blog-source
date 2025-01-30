@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hi
 layout: post
 title: नया Quora या TikTok पूरी तरह से AI अनुवाद द्वारा संचालित

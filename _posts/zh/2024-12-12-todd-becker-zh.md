@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 近视：一种现代但可逆的疾病 — Todd Becker

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 最适合我的沟通方式

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 為何ChatGPT Plus應按令牌使用收費

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 9月の歌：高校時代の随筆

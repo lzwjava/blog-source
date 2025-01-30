@@ -23,7 +23,7 @@ def update_front_matter(file_path):
         print(f"Successfully read {len(content)} characters from {file_path}")
 
     print(f"Extracting front matter from {file_path}")
-    front_matter_match = re.match(r"---(.*?)---", content, re.DOTALL)
+    front_matter_match = re.match(r"\n*---(.*?)---", content, re.DOTALL)
     front_matter = front_matter_match.group(1) if front_matter_match else None
             
     if not front_matter:

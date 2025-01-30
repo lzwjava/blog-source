@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 使用 Awesome-CV 生成专业简历

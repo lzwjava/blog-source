@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 尹望：生命、宇宙及萬事萬物的終極答案

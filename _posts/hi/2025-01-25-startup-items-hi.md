@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hi
 layout: post
 title: macOS में स्टार्टअप आइटम्स को साफ़ करें

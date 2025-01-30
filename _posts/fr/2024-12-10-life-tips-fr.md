@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Conseils de Vie

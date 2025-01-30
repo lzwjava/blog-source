@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: فوائد سداد دفعات مبكرة جزئية على الرهن العقاري

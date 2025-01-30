@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: تحسين OpenWRT باستخدام OpenClash و Shadowsocks

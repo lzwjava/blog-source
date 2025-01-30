@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 與我的電動車充電問題搏鬥

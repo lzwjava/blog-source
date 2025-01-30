@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hi
 layout: post
 title: 高考 हर छात्र के जीवन का एक महत्वपूर्ण पड़ाव है

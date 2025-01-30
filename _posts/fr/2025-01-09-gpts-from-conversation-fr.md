@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: fr
 layout: post
 title: ChatGPT devrait permettre la création de GPTs à partir de l'historique des

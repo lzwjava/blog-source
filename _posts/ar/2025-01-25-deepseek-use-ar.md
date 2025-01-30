@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ar
 layout: post
 title: استخدام API لواجهة بحث عميق DeepSeek و Mistral

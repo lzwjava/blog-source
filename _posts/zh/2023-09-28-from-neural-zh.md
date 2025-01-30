@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 从神经网络到GPT

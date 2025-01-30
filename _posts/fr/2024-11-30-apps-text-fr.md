@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Applications iOS que j'ai utilisées - Version Texte

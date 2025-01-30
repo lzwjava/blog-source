@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: de
 layout: post
 title: Die Reise zur natürlichen Umkehrung von Kurzsichtigkeit

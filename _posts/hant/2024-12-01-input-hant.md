@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 快速滑動輸入

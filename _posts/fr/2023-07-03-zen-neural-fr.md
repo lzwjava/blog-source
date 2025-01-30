@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Le Zen et l'Art de l'Apprentissage Automatique

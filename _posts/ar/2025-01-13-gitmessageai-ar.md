@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ar
 layout: post
 title: رسائل الالتزام في Git التي يعمل بالذكاء الاصطناعي

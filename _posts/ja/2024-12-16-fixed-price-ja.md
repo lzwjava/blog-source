@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 固定価格サブスクリプションは時代遅れ

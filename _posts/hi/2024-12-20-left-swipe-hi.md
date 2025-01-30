@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hi
 layout: post
 title: लेफ्ट स्वाइप और ऐप्स

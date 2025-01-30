@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: Python 教程學習筆記

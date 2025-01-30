@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: Zenと機械学習の技術

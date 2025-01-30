@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 专科自考：进度与反思

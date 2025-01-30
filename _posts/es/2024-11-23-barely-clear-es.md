@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: 'Restauración Natural de la Visión: El Principio de "Apenas Nítido"'

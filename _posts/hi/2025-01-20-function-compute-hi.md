@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hi
 layout: post
 title: अलीबाबा क्लाउड पर Function Compute

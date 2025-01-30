@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: ChatGPT助我學日文

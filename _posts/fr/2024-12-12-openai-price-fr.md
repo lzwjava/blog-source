@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Pourquoi ChatGPT Plus devrait facturer en fonction de l'utilisation des tokens

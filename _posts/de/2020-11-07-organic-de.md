@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: Natürliche Wachstumsmethoden, um mit Unternehmertum Geld zu verdienen

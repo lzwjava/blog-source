@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ja
 layout: post
 title: DeepThink や ChatGPT をたくさん使おう

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: GTY - Großartiger Lehrer Yin

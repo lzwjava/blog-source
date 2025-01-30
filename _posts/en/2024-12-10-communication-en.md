@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: en
 layout: post
 title: The Best Communication Method for Me

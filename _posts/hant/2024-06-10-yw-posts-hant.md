@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 尹王博客文章的英文翻译

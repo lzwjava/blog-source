@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hi
 layout: post
 title: प्राकृतिक दृष्टि बहाली विधि का प्रायोगिक सत्यापन

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 我用过的iOS应用 - 表格版

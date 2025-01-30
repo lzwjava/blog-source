@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: en
 layout: post
 title: Disclaimer

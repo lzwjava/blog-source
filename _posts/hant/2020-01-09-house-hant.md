@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 房價的幾點思考

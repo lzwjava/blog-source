@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hi
 layout: post
 title: मेरी पहली ChatGPT के साथ बातचीत

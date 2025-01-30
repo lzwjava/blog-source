@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: en
 layout: post
 title: Cloud Computing And Big Data Beginners

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 如何建立關係

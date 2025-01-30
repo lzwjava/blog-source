@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: 'أغنية سبتمبر: تأملات في المدرسة الثانوية'

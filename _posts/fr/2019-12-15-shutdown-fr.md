@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Proposition de liquidation de l'entreprise

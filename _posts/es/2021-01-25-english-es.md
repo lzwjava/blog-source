@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Mejorar el inglés a través de una gran cantidad de input

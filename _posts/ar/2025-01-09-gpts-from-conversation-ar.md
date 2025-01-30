@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ar
 layout: post
 title: يجب أن يسمح ChatGPT بإنشاء GPTs من سجل المحادثات

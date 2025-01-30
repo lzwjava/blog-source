@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: en
 layout: post
 title: Using Awesome-CV to Generate a Professional Résumé

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: コンピュータの組み立て方

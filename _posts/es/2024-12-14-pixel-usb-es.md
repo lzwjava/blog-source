@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Opciones USB de Pixel

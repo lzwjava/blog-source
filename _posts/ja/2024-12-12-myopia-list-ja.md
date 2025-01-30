@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 近視を逆転させる

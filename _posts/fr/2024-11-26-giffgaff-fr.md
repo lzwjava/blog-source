@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: 'Carte SIM britannique en Chine : Une expérience avec Giffgaff'

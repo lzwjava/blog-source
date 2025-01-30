@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hi
 layout: post
 title: कंप्यूटर कैसे बनाएं

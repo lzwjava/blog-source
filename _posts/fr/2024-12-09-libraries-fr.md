@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Pensez aux mises à niveau lors de l'utilisation de bibliothèques

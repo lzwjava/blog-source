@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 2018，已成昨日回憶

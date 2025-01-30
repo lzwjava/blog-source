@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Herramientas de IA

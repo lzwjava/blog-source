@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 我买到的好东西

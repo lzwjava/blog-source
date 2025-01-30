@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 我與ChatGPT的首次對話

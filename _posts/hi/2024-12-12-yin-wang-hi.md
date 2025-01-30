@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hi
 layout: post
 title: यिन वांग के संपूर्ण कार्य

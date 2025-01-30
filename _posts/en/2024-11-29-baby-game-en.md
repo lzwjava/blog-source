@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: en
 layout: post
 title: 'Baby Game: Follow the Hand'

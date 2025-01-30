@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: 'mathjax2mobi: تحويل MathJax HTML إلى كتب إلكترونية'

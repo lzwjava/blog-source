@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ar
 layout: post
 title: التفكير طويل الأمد في اختيار خوادم السحابة

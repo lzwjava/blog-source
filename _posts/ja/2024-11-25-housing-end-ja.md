@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 住宅の夢の終わり

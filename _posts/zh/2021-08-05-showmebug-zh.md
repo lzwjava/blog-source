@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 在创业公司的一次演讲

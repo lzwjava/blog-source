@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: en
 layout: post
 title: 'UK SIM Card in China: A Giffgaff Experience'

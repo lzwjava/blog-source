@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: Quora 的语言内容控制

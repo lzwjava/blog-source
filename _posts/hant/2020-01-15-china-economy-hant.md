@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 淺談中國經濟的出路

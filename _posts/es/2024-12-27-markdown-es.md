@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: es
 layout: post
 title: 'Problemas con Markdown: Kramdown y XeLaTeX'

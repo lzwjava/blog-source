@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 私の創造的なアイデア

@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ja
 layout: post
 title: AIとブロックチェーン時代における私の快適な生き方

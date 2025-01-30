@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: de
 layout: post
 title: Vergesslichkeit beim Aufladen von Power Banks

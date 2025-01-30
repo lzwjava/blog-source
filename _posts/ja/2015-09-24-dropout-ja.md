@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 退学届け

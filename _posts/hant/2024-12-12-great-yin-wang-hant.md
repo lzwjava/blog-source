@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: GTY - 偉大的尹老師

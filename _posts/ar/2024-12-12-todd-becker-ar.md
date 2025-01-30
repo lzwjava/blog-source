@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: 'قصر النظر: مرض حديث ولكنه قابل للعكس — تود بيكر'

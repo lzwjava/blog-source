@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hi
 layout: post
 title: OpenWRT को OpenClash और Shadowsocks

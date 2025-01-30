@@ -1,9 +1,7 @@
-
-
 ---
-
+audio: false
 layout: post
-title: "Turbolist3r: Auflisten von Subdomains"
+title: 'Turbolist3r: Auflisten von Subdomains'
 ---
 
 ## Turbolist3r

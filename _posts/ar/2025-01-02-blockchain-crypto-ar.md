@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ar
 layout: post
 title: العملات الرقمية وسلسلة الكتل (Blockchain)

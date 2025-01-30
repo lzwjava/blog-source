@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 理解神經網絡

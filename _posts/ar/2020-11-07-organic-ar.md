@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: طرق النمو الطبيعي لتحقيق الربح في ريادة الأعمال

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: en
 layout: post
 title: Display Proxy Settings Before Running Commands

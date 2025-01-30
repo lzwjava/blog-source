@@ -1,4 +1,10 @@
-
+---
+audio: false
+lang: hi
+layout: post
+title: टर्बोलिस्टरीडर
+translated: true
+---
 
 ## टर्बोलिस्टरीडर
 

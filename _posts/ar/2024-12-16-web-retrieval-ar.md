@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: '## حالة استخدام لـ ChatGPT Retrieval Web'

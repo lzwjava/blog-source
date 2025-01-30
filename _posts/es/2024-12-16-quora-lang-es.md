@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Controles de Contenido de Idioma en Quora

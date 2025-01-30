@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: en
 layout: post
 title: A Use Case for ChatGPT Retrieval Web

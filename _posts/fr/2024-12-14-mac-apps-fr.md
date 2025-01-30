@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: fr
 layout: post
 title: Applications Mac que j'utilise

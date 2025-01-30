@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 中国经济的现状与未来

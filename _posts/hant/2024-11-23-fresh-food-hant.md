@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 注意食品新鮮度

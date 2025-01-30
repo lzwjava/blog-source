@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 気温が下がると蚊がいなくなる

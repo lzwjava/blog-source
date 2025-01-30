@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 趣直播：初の知識配信プラットフォーム

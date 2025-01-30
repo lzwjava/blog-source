@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 一些全球雲端平台

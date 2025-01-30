@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: ChatGPT me ayuda a crear subtítulos

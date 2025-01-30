@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Un caso de uso de búsqueda en ChatGPT

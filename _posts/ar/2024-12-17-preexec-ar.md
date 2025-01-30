@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ar
 layout: post
 title: عرض إعدادات الوكيل قبل تنفيذ الأوامر

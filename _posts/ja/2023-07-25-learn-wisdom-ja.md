@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 学びの知恵

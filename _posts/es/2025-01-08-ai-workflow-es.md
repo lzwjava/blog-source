@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: Nuevas Plataformas Impulsadas por Flujos de Trabajo de IA

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: es
 layout: post
 title: 'Canciones de septiembre: Ensayos de la escuela secundaria'

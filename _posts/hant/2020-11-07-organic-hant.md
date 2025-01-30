@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 創業賺錢的自然增長方法

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: de
 layout: post
 title: 'UK-SIM-Karte in China: Eine Giffgaff-Erfahrung'

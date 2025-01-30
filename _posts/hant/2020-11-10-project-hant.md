@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hant
 layout: post
 title: 項目找誰做，錢給誰賺

@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: zh
 layout: post
 title: 使用 OpenClash 和 Shadowsocks 增强 OpenWRT

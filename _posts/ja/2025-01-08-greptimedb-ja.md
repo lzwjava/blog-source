@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: ja
 layout: post
 title: 企業は統合を容易にするためにAIコンテキストまたはエージェントを提供すべき

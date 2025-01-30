@@ -1,4 +1,5 @@
 ---
+audio: false
 lang: hi
 layout: post
 title: Pixel के USB विकल्प

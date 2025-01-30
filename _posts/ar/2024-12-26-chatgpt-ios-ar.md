@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: ar
 layout: post
 title: تحليل اكتشاف ChatGPT لـ VPN على iOS
