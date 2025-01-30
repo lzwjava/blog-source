@@ -227,8 +227,10 @@ def get_changed_files():
             try:
                 with open(input_file, 'r', encoding='utf-8') as infile:
                     content = infile.read()
-                front_matter_match = re.match(r'---\n(.*?)\n---', content, re.DOTALL)
-                front_matter = front_matter_match.group(1) if front_matter_match else ""
+                front_matter_match = re.match(r'---(.*?)---', content, re.DOTALL)
+                if not front_matter_match:
+                    raise Exception(f"No front matter found in markdown file: {input_file}")
+                front_matter = front_matter_match.group(1)
                 content_without_front_matter = content[len(front_matter_match.group(0)):] if front_matter_match else content
                 front_matter_dict = yaml.safe_load(front_matter) if front_matter else {}
                 original_title = front_matter_dict.get('title', '')
