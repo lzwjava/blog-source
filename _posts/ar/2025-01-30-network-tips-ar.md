@@ -2,48 +2,50 @@
 audio: true
 lang: ar
 layout: post
-title: نصائح تحسين الشبكة
+title: أفضل نصائح لتحسين الشبكات
 translated: true
 ---
 
-هام، موصى:
+مفيد، يُوصى:
 
-- افضل استخدام إشارة WiFi 5G أو سلسلة كابل إيثرنت.
+- استخدام إشارة WiFi 5G أو كابل Ethernet.
 
-- استخدم تطبيق Speedtest أو زيارة https://www.speedtest.net لاختبار اتصالك بانتظام.
+- استخدام تطبيق Speedtest أو زيارة https://www.speedtest.net لاختبار الاتصال بانتظام.
 
-- استخدم traceroute، ping، أو dig/nslookup لمواصفات الشبكة.
+- استخدام traceroute، ping، أو dig/nslookup لأغراض تشخيص الشبكة.
 
-- [إعداد خادوم الشيفرة المركزية لك](./diy-proxy-en)
+- [إعداد خادم الوكيل الخاص بك](./diy-proxy-en)
 
-- [مسح المرشح](./mesh-router-en)
+- [مرشح شبكة](./mesh-router-en)
 
-- [مزودي السحابة](./cloud-providers-en)
+- [مقدمي السحابة](./cloud-providers-en)
 
-- [بعض أنظمة السحابة العالمية](./cloud-platforms-en)
+- [بعض منصات السحابة العالمية](./cloud-platforms-en)
 
-- [بطاقات SIM Macau](./macao-en)
+- [بطاقات SIM ماكاو](./macao-en)
 
-- [تحليل حظر خادم الشيفرة المركزية](./proxy-ban-en)
+- [تحليل حظر خادم الوكيل](./proxy-ban-en)
 
-- [مشاكل وسائط الشيفرة المركزية ل Shadowsocks](./shadowsocks-en)
+- [مشاكل الوكيل Shadowsocks](./shadowsocks-en)
 
-- [أداة مفتوحة المصدر: تكوين Auto SS](./auto-ss-config-en)
+- [أداة مفتوحة المصدر: Auto SS Config](./auto-ss-config-en)
 
-- [عرض إعدادات الوسيط قبل تشغيل الأوامر](./preexec-en)
+- [عرض إعدادات الوكيل قبل تنفيذ الأوامر](./preexec-en)
 
-- [حلول الوسائط في الصين - 2025](./proxy-en)
+- [حلول الوكيل في الصين - 2025](./proxy-en)
 
-محاولة:
+تم الاختبار:
 
-- [مختبر سلسلة الكابل](./cable-tester-en)
+- [اختبار كابل الشبكة](./cable-tester-en)
 
 - [قوة إشارة Wi-Fi](./wifi-en)
 
-- [محول Lightning إلى إيثرنت](./lightning-ethernet-en)
+- [متمم لتصفية Ethernet](./lightning-ethernet-en)
 
-- [أداة الوسيط: Squid و Danted](./squid-dante-en)
+- [أداة الوكيل: Squid و Danted](./squid-dante-en)
 
-- [استبعاد V2Ray: دليل خطوة بخطوة](./v2ray-en)
+- [حاول V2Ray: دليل خطوة بخطوة](./v2ray-en)
 
-- [نص al-V2Ray](./v2ray-script-en)
+- [script V2Ray](./v2ray-script-en)
+
+- [تطوير OpenWRT مع OpenClash و Shadowsocks](./openwrt-hack-en)

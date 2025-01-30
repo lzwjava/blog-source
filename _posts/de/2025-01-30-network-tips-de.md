@@ -2,46 +2,50 @@
 audio: true
 lang: de
 layout: post
-title: Netzwerk-Optimierungstipps
+title: Netzwerkoptimierungstipps
 translated: true
 ---
 
-- Bevorzuge die Verwendung eines 5G WiFi-Signals oder eines Ethernet-Kabels.
+Nützlich, Empfehlung:
 
-- Verwende die Speedtest-App oder besuche https://www.speedtest.net, um deine Verbindung regelmäßig zu testen.
+- Bevorzugen Sie die Verwendung eines 5G WLAN-Signals oder eines Ethernet-Kabels.
 
-- Verwende traceroute, ping oder dig/nslookup für Netzwerktopologien.
+- Verwenden Sie die Speedtest-App oder besuchen Sie https://www.speedtest.net, um Ihre Verbindung regelmäßig zu testen.
 
-- [Proxy-Server einrichten](./diy-proxy-en)
+- Verwenden Sie Traceroute, Ping oder Dig/nslookup für Netzwerkdiagnosen.
 
-- [Lightning zu Ethernet-Adapter](./lightning-ethernet-en)
+- [Einrichten Ihres Proxy-Servers](./proxy-server-de)
 
-- [Mesh-Router](./mesh-router-en)
+- [Mesh-Router](./mesh-router-de)
 
-- [Cloud-Anbieter](./cloud-providers-en)
+- [Cloud-Anbieter](./cloud-anbieter-de)
 
-- [Einige weltweite Cloud-Plattformen](./cloud-platforms-en)
+- [Einige globale Cloud-Plattformen](./cloud-plattformen-de)
 
-- [Macau SIM-Karten](./macao-en)
+- [Macau SIM-Karten](./macao-sim-karten-de)
 
-- [Analyse des Proxy-Server-Verbots](./proxy-ban-en)
+- [Analyse der Sperrung des Proxy-Servers](./proxy-ban-de)
 
-- [Shadowsocks Proxy-Probleme](./shadowsocks-en)
+- [Shadowsocks Proxy-Probleme](./shadowsocks-de)
 
-- [Open-Source-Tool: Auto SS Config](./auto-ss-config-en)
+- [Open-Source-Tool: Auto SS Config](./auto-ss-config-de)
 
-- [Netzwerkkabel-Tester](./cable-tester-en)
+- [Proxy-Einstellungen anzeigen, bevor Befehle ausgeführt werden](./proxy-einstellungen-de)
 
-- [Wi-Fi Signalstärke](./wifi-en)
+- [Proxy-Lösungen in China - 2025](./proxy-de)
 
-- [Lightning zu Ethernet-Adapter](./lightning-ethernet-en)
+Getestet:
 
-- [Proxy-Einstellungen anzeigen, bevor Befehle ausgeführt werden](./preexec-en)
+- [Netzkabeltester](./netzkabeltester-de)
 
-- [V2Ray ausprobieren: Eine Schritt-für-Schritt-Anleitung](./v2ray-en)
+- [Wi-Fi-Signalstärke](./wifi-de)
 
-- [V2Ray-Skript](./v2ray-script-en)
+- [Lightning-to-Ethernet-Adapter](./lightning-ethernet-de)
 
-- [Proxy-Tool: Squid und Danted](./squid-dante-en)
+- [Proxy-Tool: Squid und Danted](./squid-danted-de)
 
-- [Proxy-Lösungen in China - 2025](./proxy-en)
+- [V2Ray ausprobieren: Ein Schritt-für-Schritt-Guide](./v2ray-de)
+
+- [V2Ray-Skript](./v2ray-skript-de)
+
+- [OpenWRT mit OpenClash und Shadowsocks verbessern](./openwrt-hack-de)
