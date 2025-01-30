@@ -15,3 +15,5 @@ translated: false
 - Using a dryer for 10 minutes can make clothes more comfortable.
 
 - Focus on my task and leave things where they are. It may seem unorganized to others, but it's convenient for me.
+
+- Using an iPhone 20w charger to charge a Mac M2 is acceptable.
