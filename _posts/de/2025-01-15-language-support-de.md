@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: de
 layout: post
 title: 'Unterstützte Sprachen: Schriftarten und Text-zu-Sprache'

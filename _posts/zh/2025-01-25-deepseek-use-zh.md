@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: zh
 layout: post
 title: Deepseek 和 Mistral 的 API 使用

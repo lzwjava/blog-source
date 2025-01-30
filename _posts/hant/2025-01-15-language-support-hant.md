@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hant
 layout: post
 title: 語言支援：字體與語音轉換

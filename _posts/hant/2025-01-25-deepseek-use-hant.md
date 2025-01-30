@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hant
 layout: post
 title: Api 使用 Deepseek 與 Mistral

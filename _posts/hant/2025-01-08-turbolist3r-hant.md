@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hant
 layout: post
 title: 'Turbolist3r: 列舉子域名'
