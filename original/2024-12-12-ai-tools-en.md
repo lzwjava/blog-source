@@ -57,11 +57,17 @@ Here are some AI tools I've used, categorized for clarity:
 - [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
 - [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai)
 
-
- ### Other
+### Other
 
 - [huggingface.co](https://huggingface.co)
 - [kaggle.com](https://kaggle.com)
 - [aistudio.google.com](https://aistudio.google.com)
 - [databricks.com](https://www.databricks.com)
 - [ai.google.dev](https://ai.google.dev)
+
+### AI Tools Available in Hong Kong
+
+- [chat.deepseek.com](https://chat.deepseek.com)
+- [grok.x.com](https://grok.x.com)
+- [chat.mistral.ai](https://chat.mistral.ai)
+
