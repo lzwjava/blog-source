@@ -91,12 +91,8 @@ def main():
         print(f"Processing files in {target_dir}")
         for filename in os.listdir(target_dir):
             if filename.endswith(".md"):
-                translated_file_path = os.path.join(target_dir, filename)
-                if lang_dir not in ["en", "zh"]:
-                    print(
-                        f"  Setting translated flag to True for {translated_file_path}"
-                    )
-                    update_front_matter(translated_file_path, True, lang_dir)
+                translated_file_path = os.path.join(target_dir, filename)               
+                update_front_matter(translated_file_path, True, lang_dir)
 
     print(f"Processing files in {original_dir}")
     for filename in os.listdir(original_dir):
