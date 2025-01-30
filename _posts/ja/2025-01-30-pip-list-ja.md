@@ -1,15 +1,15 @@
 ---
 audio: true
-lang: ar
+lang: ja
 layout: post
-title: حزم بايباك التي أتركيها
+title: インストールするPipパッケージ
 translated: true
 ---
 
 ```
 % pip list
 
-| حزمة                                  | الإصدار     |
+| パッケージ                                  | バージョン     |
 |----------------------------------------|-------------|
 | accelerate                              | 0.19.0      |
 | adb-enhanced                            | 2.5.24      |
@@ -101,7 +101,7 @@ translated: true
 | confection                                | 0.0.4      |
 | configobj                                 | 5.0.8      |
 | configparser                              | 7.1.0      |
-| constantly                               | 15.1.0     |
+| constantly                                | 15.1.0     |
 | contourpy                                 | 1.0.5      |
 | cookiecutter                              | 1.7.3      |
 | cryptography                              | 39.0.1     |
@@ -146,7 +146,7 @@ translated: true
 | fire                                      | 0.5.0      |
 | fitz                                      | 0.0.1.dev2 |
 | flake8                                    | 6.0.0      |
-| Flask                                   | 2.1.2      |
+| Flask                                     | 2.1.2      |
 | Flask-Cors                                | 3.0.10     |
 | Flask-JWT-Extended                        | 4.4.1      |
 | Flask-Migrate                             | 4.0.7      |
@@ -155,12 +155,12 @@ translated: true
 | flatbuffers                               | 24.3.25    |
 | flit_core                                 | 3.6.0      |
 | fonttools                                 | 4.25.0     |
-| frontend                                   | 0.0.3      |
-| frontmatter                                | 3.0.8      |
-| frozenlist                                | 1.3.3      |
-| fsspec                                   | 2024.5.0   |
-| future                                   | 0.18.3     |
-| gensim                                   | 4.3.0      |
+| frontend                                  | 0.0.3      |
+| frontmatter                            | 3.0.8      |
+| frozenlist                             | 1.3.3      |
+| fsspec                                 | 2024.5.0   |
+| future                                 | 0.18.3     |
+| gensim                                 | 4.3.0      |
 | getbook                                | 0.3        |
 | getmac                                 | 0.9.4      |
 | gitdb                                  | 4.0.12     |
@@ -271,3 +271,14 @@ translated: true
 | marshmallow                            | 3.19.0     |
 | marshmallow-enum                       | 1.5.1      |
 | matplotlib                             | 3.7.0      |
+| matplotlib-inline                      | 0.1.6      |
+| mccabe                                 | 0.7.0      |
+| mistralai                              | 1.4.0      |
+| mistune                                | 0.8.4      |
+| mmh3                                   | 4.1.0      |
+| mock                                   | 4.0.3      |
+| monotonic                              | 1.6        |
+| mpmath                                 | 1.2.1      |
+| msal                                   | 1.31.1     |
+| msal-extensions                        | 1.2.0      |
+| msgpack
