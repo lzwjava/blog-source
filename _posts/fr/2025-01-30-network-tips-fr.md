@@ -2,9 +2,11 @@
 audio: true
 lang: fr
 layout: post
-title: Astuces d'Optimisation de Réseau
+title: 'Optimisation de Réseau : Conseils'
 translated: true
 ---
+
+Utile, Recommandé:
 
 - Préférez utiliser un signal WiFi 5G ou un câble Ethernet.
 
@@ -12,36 +14,36 @@ translated: true
 
 - Utilisez traceroute, ping ou dig/nslookup pour les diagnostics réseau.
 
-- [Configurer votre Serveur Proxy](./diy-proxy-en)
+- [Configurer votre serveur proxy](./diy-proxy-en)
 
-- [Adaptateur Ethernet vers Lightning](./lightning-ethernet-en)
+- [Routeur maillé](./mesh-router-en)
 
-- [Routeur Mesh](./mesh-router-en)
+- [Fournisseurs de cloud](./cloud-providers-en)
 
-- [Fournisseurs de Cloud](./cloud-providers-en)
-
-- [Certaines Plateformes Cloud Mondiales](./cloud-platforms-en)
+- [Quelques plateformes cloud mondiales](./cloud-platforms-en)
 
 - [Cartes SIM de Macao](./macao-en)
 
-- [Analyse de l'Interdiction de Serveur Proxy](./proxy-ban-en)
+- [Analyse de l'interdiction des serveurs proxy](./proxy-ban-en)
 
-- [Problèmes de Proxy Shadowsocks](./shadowsocks-en)
+- [Problèmes de proxy Shadowsocks](./shadowsocks-en)
 
-- [Outil Open Source: Config Auto SS](./auto-ss-config-en)
+- [Outil open source : Config Auto SS](./auto-ss-config-en)
 
-- [Testeur de Câble Réseau](./cable-tester-en)
+- [Afficher les paramètres de proxy avant d'exécuter des commandes](./preexec-en)
 
-- [Force du Signal Wi-Fi](./wifi-en)
+- [Solutions de proxy en Chine - 2025](./proxy-en)
 
-- [Adaptateur Ethernet vers Lightning](./lightning-ethernet-en)
+Essayé:
 
-- [Afficher les Paramètres Proxy avant d'Exécuter des Commandes](./preexec-en)
+- [Testeur de câble réseau](./cable-tester-en)
 
-- [Essayez V2Ray: Un Guide Étape par Étape](./v2ray-en)
+- [Force du signal Wi-Fi](./wifi-en)
+
+- [Adaptateur Lightning vers Ethernet](./lightning-ethernet-en)
+
+- [Outil proxy : Squid et Danted](./squid-dante-en)
+
+- [Essayez V2Ray : un guide étape par étape](./v2ray-en)
 
 - [Script V2Ray](./v2ray-script-en)
-
-- [Outil Proxy: Squid et Danted](./squid-dante-en)
-
-- [Solutions Proxy en Chine - 2025](./proxy-en)

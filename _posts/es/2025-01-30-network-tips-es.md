@@ -6,42 +6,44 @@ title: Consejos para la Optimización de Redes
 translated: true
 ---
 
-- Se prefiere usar una señal WiFi de 5G o un cable Ethernet.
+Útil, Recomendado:
 
-- Utilice la aplicación Speedtest o visite https://www.speedtest.net para probar su conexión regularmente.
+- Es preferible utilizar una señal de WiFi 5G o un cable Ethernet.
 
-- Utilice traceroute, ping o dig/nslookup para los diagnósticos de red.
+- Utiliza la aplicación Speedtest o visita https://www.speedtest.net para probar tu conexión regularmente.
 
-- [Configuración de su Servidor Proxy](./diy-proxy-en)
+- Usa traceroute, ping o dig/nslookup para diagnósticos de red.
 
-- [Adaptador de Ethernet a Lightning](./lightning-ethernet-en)
+- [Configura tu servidor proxy](./diy-proxy-en)
 
 - [Router Mesh](./mesh-router-en)
 
-- [Proveedores de Nube](./cloud-providers-en)
+- [Proveedores de nube](./cloud-providers-en)
 
-- [Algunas Plataformas de Nube Global](./cloud-platforms-en)
+- [Algunas plataformas de nube global](./cloud-platforms-en)
 
 - [Tarjetas SIM de Macao](./macao-en)
 
-- [Análisis de Prohibición del Servidor Proxy](./proxy-ban-en)
+- [Análisis de prohibición de servidor proxy](./proxy-ban-en)
 
-- [Problemas del Proxy Shadowsocks](./shadowsocks-en)
+- [Problemas de proxy Shadowsocks](./shadowsocks-en)
 
-- [Herramienta de Código Abierto: Configuración Automática de SS](./auto-ss-config-en)
+- [Herramienta de código abierto: Configuración automática SS](./auto-ss-config-en)
 
-- [Probador de Cable de Red](./cable-tester-en)
+- [Mostrar configuración de proxy antes de ejecutar comandos](./preexec-en)
 
-- [Fuerza de la Señal Wi-Fi](./wifi-en)
+- [Soluciones de proxy en China - 2025](./proxy-en)
 
-- [Adaptador de Ethernet a Lightning](./lightning-ethernet-en)
+Probado:
 
-- [Mostrar Configuración del Proxy Antes de Ejecutar Comandos](./preexec-en)
+- [Probador de cable de red](./cable-tester-en)
 
-- [Pruebe V2Ray: Una Guía Paso a Paso](./v2ray-en)
+- [Fuerza de la señal Wi-Fi](./wifi-en)
+
+- [Adaptador Lightning a Ethernet](./lightning-ethernet-en)
+
+- [Herramienta de proxy: Squid y Danted](./squid-dante-en)
+
+- [Intenta V2Ray: una guía paso a paso](./v2ray-en)
 
 - [Script de V2Ray](./v2ray-script-en)
-
-- [Herramienta de Proxy: Squid y Danted](./squid-dante-en)
-
-- [Soluciones de Proxy en China - 2025](./proxy-en)
