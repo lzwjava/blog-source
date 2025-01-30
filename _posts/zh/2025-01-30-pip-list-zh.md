@@ -2,14 +2,14 @@
 audio: true
 lang: zh
 layout: post
-title: 我安装的Pip包
+title: 我安装的 Pip 包
 translated: true
 ---
 
 ```
 % pip list
 
-| Package                                  | Version     |
+| 包名                                  | 版本     |
 |----------------------------------------|-------------|
 | accelerate                              | 0.19.0      |
 | adb-enhanced                            | 2.5.24      |
@@ -82,7 +82,7 @@ translated: true
 | click                                   | 8.1.3       |
 | clickhouse-connect                      | 0.5.25      |
 | cloudpickle                               | 2.0.0      |
-| clinet                                    | 1.2.2      |
+| clyent                                    | 1.2.2      |
 | colorama                                  | 0.4.6      |
 | colorcet                                  | 3.0.1      |
 | coloredlogs                               | 15.0.1     |
@@ -145,8 +145,8 @@ translated: true
 | filelock                                  | 3.9.0      |
 | fire                                      | 0.5.0      |
 | fitz                                      | 0.0.1.dev2 |
-| flake8                                   | 6.0.0      |
-| Flask                                   | 2.1.2      |
+| flake8                                    | 6.0.0      |
+| Flask                                     | 2.1.2      |
 | Flask-Cors                                | 3.0.10     |
 | Flask-JWT-Extended                        | 4.4.1      |
 | Flask-Migrate                             | 4.0.7      |
@@ -155,12 +155,12 @@ translated: true
 | flatbuffers                               | 24.3.25    |
 | flit_core                                 | 3.6.0      |
 | fonttools                                 | 4.25.0     |
-| frontend                                   | 0.0.3      |
+| frontend                                 | 0.0.3      |
 | frontmatter                            | 3.0.8      |
 | frozenlist                             | 1.3.3      |
-| fsspec                                   | 2024.5.0   |
-| future                                   | 0.18.3     |
-| gensim                                   | 4.3.0      |
+| fsspec                                 | 2024.5.0   |
+| future                                 | 0.18.3     |
+| gensim                                 | 4.3.0      |
 | getbook                                | 0.3        |
 | getmac                                 | 0.9.4      |
 | gitdb                                  | 4.0.12     |
