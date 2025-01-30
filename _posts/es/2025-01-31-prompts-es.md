@@ -2,25 +2,19 @@
 audio: false
 lang: es
 layout: post
-title: Promticos útiles
+title: Pistas útiles
 translated: true
 ---
-
-Crea una conversación natural y extensa entre dos expertos, A y B, con al menos 100 turnos. Los expertos deben discutir un tema específico con profundidad, con la conversación fluyendo de un lado a otro. Ambos participantes deben hacer preguntas, compartir conocimientos y explorar las sutilezas del tema. El formato debe ser el siguiente:
 
 ```json
 [
     {
       "speaker": "A",
-      "line": "Hey, I’ve been hearing a lot about some topic. Can you break it down for me?"
+      "line": "你好，我最近听到了很多关于某个主题的讨论。你能为我解释一下吗？"
     },
     {
       "speaker": "B",
-      "line": "Sure! Let’s start with the basics. ..."
+      "line": "当然可以！我们从基础开始讨论。..."
     }
 ]
 ```
-
----
-
-Genera una imagen feliz del Año Nuevo del Dragón Lunar con nombres de texto incluidos.
