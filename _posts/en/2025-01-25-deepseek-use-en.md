@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: en
 layout: post
 title: Api Usage Of Deepseek And Mistral
@@ -36,13 +36,6 @@ This result aligns with the expected cost.
 
 ## Mistral
 
-In one day, my Mistral account usage was as follows (Model: `mistral-large-2411`):
-
-| Type   | Tokens  | Cost (USD) |
-|--------|---------|------------|
-| Total  | 772,284 | 3.44       |
-| Output | 474,855 | 2.85       |
-| Input  | 297,429 | 0.59       |
 
 The pricing for Mistral models is as follows:
 
@@ -51,3 +44,21 @@ The pricing for Mistral models is as follows:
 | `mistral-large-2411`  | 2                            | 6                               |
 | `mistral-small-latest`| 0.2                          | 0.6                             |
 
+In one day, my Mistral account usage was as follows (Model: `mistral-large-2411`):
+
+| Type   | Tokens  | Cost (USD) |
+|--------|---------|------------|
+| Total  | 772,284 | 3.44       |
+| Output | 474,855 | 2.85       |
+| Input  | 297,429 | 0.59       |
+
+
+For the `mistral-small-2409` model, the total usage was 1,022,407 tokens.
+
+Assuming 1/3 of these were input tokens and 2/3 were output tokens:
+
+There were 340,802 input tokens and 681,605 output tokens.
+
+Therefore, the total cost is calculated as 340,802 * 0.2 / 1,000,000 + 681,605 * 0.6 / 1,000,000 = 0.07 + 0.41 = 0.48 USD.
+
+The Mistral console reports a total usage cost of 0.43 USD, which approximately matches our calculation.

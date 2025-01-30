@@ -1,8 +1,8 @@
 ---
-audio: false
+audio: true
 lang: de
 layout: post
-title: DeepSeek API Nutzung
+title: Deepseek- und Mistral-API-Nutzung
 translated: true
 ---
 
@@ -10,41 +10,51 @@ translated: true
 
 In einem Monat kosteten mich 15 Millionen Tokens etwa 23,5 CNY.
 
-Das war mein Verbrauch an einem Tag:
+Das war mein Tagesverbrauch:
 
-| Type               | Tokens    |
-|--------------------|-----------|
-| Input (Cache Hit)  | 946,816   |
-| Input (Cache Miss) | 2,753,752 |
-| Output            | 3,100,977 |
+| Art              | Tokens    |
+|-------------------|-----------|
+| Eingabe (Cache-Treffer)  | 946,816   |
+| Eingabe (Cache-Fehler) | 2,753,752 |
+| Ausgabe            | 3,100,977 |
 
 Die Berechnung erfolgt wie folgt:
 
-0.94 * 0.1 + 2.75 * 1 + 3.10 * 2 = 11.83
+0,94 * 0,1 + 2,75 * 1 + 3,10 * 2 = 11,83
 
-Daher hängt der Tokenverbrauch je nach Aufgabe hauptsächlich von der Eingabe (Cache Miss) und der Ausgabe ab.
+Daher hängt der Token-Verbrauch je nach Aufgabe hauptsächlich von der Eingabe (Cache-Fehler) und der Ausgabe ab.
 
 Dieses Ergebnis stimmt mit den erwarteten Kosten überein.
 
-[DeepSeek API Pricing](https://api-docs.deepseek.com/quick_start/pricing/)
+[DeepSeek API-Preise](https://api-docs.deepseek.com/quick_start/pricing/)
 
 {: .centered }
 ![](assets/images/deepseek/d.jpg)
-*Quelle: Self-Screenshot*{: .caption }
+*Quelle: Eigener Screenshot*{: .caption }
 
 ## Mistral
 
-Der Verbrauch meines Mistral-Kontos an einem Tag war wie folgt (Modell: `mistral-large-2411`):
-
-| Type   | Tokens  | Kosten (USD) |
-|--------|---------|--------------|
-| Total  | 772,284 | 3.44         |
-| Output | 474,855 | 2.85         |
-| Input  | 297,429 | 0.59         |
-
 Die Preisgestaltung für Mistral-Modelle ist wie folgt:
 
-| Model                | Input (USD pro Million Tokens) |  Output (USD pro Million Tokens) |
-|----------------------|------------------------------|---------------------------------|
-| `mistral-large-2411` | 2                            | 6                               |
-| `mistral-small-latest`| 0.2                          | 0.6                             |
+| Modell                | Eingabe (USD pro Million Tokens) | Ausgabe (USD pro Million Tokens) |
+|-----------------------|----------------------------------|----------------------------------|
+| `mistral-large-2411`  | 2                               | 6                                |
+| `mistral-small-latest`| 0,2                             | 0,6                              |
+
+Mein Tagesverbrauch im Mistral-Konto war wie folgt (Modell: `mistral-large-2411`):
+
+| Art   | Tokens  | Kosten (USD) |
+|--------|---------|--------------|
+| Gesamt  | 772,284 | 3,44         |
+| Ausgabe | 474,855 | 2,85         |
+| Eingabe | 297,429 | 0,59         |
+
+Für das Modell `mistral-small-2409` betrug der Gesamtverbrauch 1.022.407 Tokens.
+
+Wenn davon 1/3 Eingabetokens und 2/3 Ausgabetokens waren:
+
+Es gab 340.802 Eingabetokens und 681.605 Ausgabetokens.
+
+Daher beträgt die Gesamtkostenberechnung 340.802 * 0,2 / 1.000.000 + 681.605 * 0,6 / 1.000.000 = 0,07 + 0,41 = 0,48 USD.
+
+Die Mistral-Konsole meldet Gesamtkosten von 0,43 USD, was unserer Berechnung ungefähr entspricht.
