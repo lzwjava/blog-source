@@ -1,7 +1,9 @@
 ---
 audio: false
-佈局: post
-標題: 'Turbolist3r: 列舉子域名'
+lang: hant
+layout: post
+title: 'Turbolist3r: 列舉子域名'
+translated: true
 ---
 
 ## Turbolist3r

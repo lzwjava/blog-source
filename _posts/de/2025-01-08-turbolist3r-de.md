@@ -1,7 +1,9 @@
 ---
 audio: false
+lang: de
 layout: post
 title: 'Turbolist3r: Auflisten von Subdomains'
+translated: true
 ---
 
 ## Turbolist3r

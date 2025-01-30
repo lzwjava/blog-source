@@ -1,7 +1,9 @@
 ---
 audio: false
-التخطيط: المقال
-العنوان: 'Turbolist3r: إحصائية التطورات الدفقية'
+lang: ar
+layout: post
+title: 'Turbolist3r: إحصائية التطورات الدفقية'
+translated: true
 ---
 
 ## Turbolist3r

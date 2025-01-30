@@ -1,7 +1,7 @@
 ---
 audio: false
-佈局: 文章
-標題: 使用 he/she 或 one
+layout: post
+title: 使用 he/she 或 one
 ---
 
 * 使用 he/she 或 one 一起
