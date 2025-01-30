@@ -7,7 +7,7 @@ translated: true
 ---
 
 ```bash
-Mit `compgen -c | grep -v '_'` werden alle verfügbaren Befehle aufgelistet und solche, die Unterstriche enthalten, ausgeschlossen.
+Verwenden Sie `compgen -c | grep -v '_'`, um alle verfügbaren Befehle aufzulisten und solche, die Unterstriche enthalten, auszuschließen.
 
 ```bash
 yacc
@@ -1276,13 +1276,13 @@ less
 arm64-apple-darwin20.0.0-mtor
 dvispc
 wrjpgcom
-syscallbysyc.d
+syscallbysysc.d
 nslookup
 unwinddump
 pip3
 uppltotf
 out123
-exrmakepreview
+exrmaketiled
 rwbypid.d
 killall
 xzegrep
@@ -1320,7 +1320,7 @@ atos
 jupyter-qtconsole
 kgetcred
 jupyter-bundlerextension
-updvitype
+updvitomp
 fc-cache
 convertformat
 xlwings
