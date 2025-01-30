@@ -2,16 +2,18 @@
 audio: true
 lang: de
 layout: post
-title: Alltagstipps
+title: Alltags-Tipps
 translated: true
 ---
 
-- Im Winter muss ich keine Hausschuhe tragen; Socken sind ausreichend.
+- Ich muss im Winter keine Hausschuhe tragen; Socken sind in Ordnung.
 
-- Trennen Sie verschiedene Arten von Müll und berücksichtigen Sie die Temperatur. Für Küchenabfälle, Lebensmittelreste oder benutztes Toilettenpapier muss ich sie wahrscheinlich häufig entsorgen. Für Flaschen oder Lieferkartons kann ich sie möglicherweise reinigen und eine Weile aufbewahren. Im Sommer muss ich Müll häufiger entsorgen.
+- Trenn verschiedenen Müllsorten und berücksichtige die Temperatur. Für Küchenabfälle, Lebensmittelreste oder benutzte Toilettenpapier muss ich sie wahrscheinlich häufig entsorgen. Für Flaschen oder Lieferboxen können Sie sie jedoch möglicherweise reinigen und eine Weile aufbewahren. Im Sommer werde ich den Müll häufiger entsorgen müssen.
 
-- Gegen den Trend Kleidung zu kaufen ist günstiger. Ein halbes Jahr darauf zu warten, sie zu tragen, ist kein großes Problem.
+- Kleidung gegen den Trend zu kaufen ist günstiger. Ein halbes Jahr zu warten, um sie zu tragen, ist keine große Sache.
 
-- 10 Minuten im Trockner machen die Kleidung bequemer.
+- Das Verwenden eines Trockners für 10 Minuten kann die Kleidung bequemer machen.
 
-- Konzentriere ich mich auf meine Aufgabe und lasse die Dinge dort, wo sie sind. Es mag für andere unordentlich aussehen, aber es ist für mich bequem.
+- Konzentriere dich auf deine Aufgabe und lasse die Dinge, wo sie sind. Es mag für andere unorganisiert erscheinen, aber es ist für mich praktisch.
+
+- Die Verwendung eines iPhone 20w Laders zum Laden eines Mac M2 ist akzeptabel.
