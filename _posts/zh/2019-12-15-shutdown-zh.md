@@ -4,7 +4,7 @@ lang: zh
 layout: post
 title: 清算公司的提议
 top: 10
-translated: true
+translated: false
 ---
 
 致股东信：

@@ -3,7 +3,7 @@ audio: false
 lang: zh
 layout: post
 title: 趣直播创业心得分享
-translated: true
+translated: false
 ---
 
 ![](assets/images/startup/s0.jpg)

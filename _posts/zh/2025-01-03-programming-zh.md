@@ -1,9 +1,8 @@
 ---
 audio: true
-lang: zh
+lang: en
 layout: post
 title: Programming
-translated: true
 ---
 
 * It is okay to do competitive programming as long as it motivates you.

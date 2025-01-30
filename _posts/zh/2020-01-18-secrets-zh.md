@@ -3,7 +3,7 @@ audio: false
 lang: zh
 layout: post
 title: 浅谈人生的秘密
-translated: true
+translated: false
 ---
 
 ​直到从学校离开，在社会上工作实践几年后，我才顿悟了关于学习的秘密。我发现它其实也是人生的秘密。让我一步步讲述我的发现之旅。
