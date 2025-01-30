@@ -1,8 +1,8 @@
 ---
-audio: false
+audio: true
 lang: hi
 layout: post
-title: एक मॉडल को फाइन ट्यून करें
+title: मॉडल को फाइनट्यून करें
 translated: true
 ---
 
@@ -10,15 +10,14 @@ translated: true
 import os
 import glob
 import json
-का साथ ले
-from dotenv से load_dotenv को इम्पोर करें
-from transformers से AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments, DataCollatorForLanguageModeling, LlamaTokenizerFast को इम्पोर करें
-from datasets से Dataset, load_dataset को इम्पोर करें
+from dotenv import load_dotenv
+from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments, DataCollatorForLanguageModeling, LlamaTokenizerFast
+from datasets import Dataset, load_dataset
 import torch
 
 load_dotenv()
 
-MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # निर्दिष्ट मॉडल को बदला गया
+MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # चयनित मॉडल के लिए बदल दिया गया
 OUTPUT_DIR = "trained_model"
 TRAIN_FILE = "train.jsonl"
 MAX_LENGTH = 512
@@ -35,11 +34,11 @@ def create_training_data(posts_dir):
             try:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
-                    # फ्रन्ट माटर को हटाएं
+                    # फ्रंट मैटर को हटाएं
                     content = content.split("---", 2)[-1].strip()
                     all_texts.append(content)
             except Exception as e:
-                print(f"Error reading file {file_path}: {e}")
+                print(f"फ़ाइल {file_path} पढ़ने में त्रुटि: {e}")
     return all_texts
 
 def prepare_dataset(texts, tokenizer):

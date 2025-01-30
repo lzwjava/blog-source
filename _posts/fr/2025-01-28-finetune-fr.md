@@ -1,8 +1,8 @@
 ---
-audio: false
+audio: true
 lang: fr
 layout: post
-title: Affiner un modèle
+title: Affiner un Modèle
 translated: true
 ---
 
@@ -17,36 +17,36 @@ import torch
 
 load_dotenv()
 
-MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # Changé au modèle spécifié
+MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # Changé pour le modèle spécifié
 OUTPUT_DIR = "modèle_entraîné"
 TRAIN_FILE = "train.jsonl"
 MAX_LENGTH = 512
 BATCH_SIZE = 8
 EPOCHS = 3
 
-def create_training_data(posts_dir):
-    all_texts = []
-    for lang_dir in os.listdir(posts_dir):
-        lang_path = os.path.join(posts_dir, lang_dir)
-        if not os.path.isdir(lang_path):
+def créer_données_entraînement(répertoire_posts):
+    tous_les_textes = []
+    for langue_dir in os.listdir(répertoire_posts):
+        chemin_langue = os.path.join(répertoire_posts, langue_dir)
+        if not os.path.isdir(chemin_langue):
             continue
-        for file_path in glob.glob(os.path.join(lang_path, "*.md")):
+        for chemin_fichier in glob.glob(os.path.join(chemin_langue, "*.md")):
             try:
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                    # Supprime le front matter
-                    content = content.split("---", 2)[-1].strip()
-                    all_texts.append(content)
+                with open(chemin_fichier, 'r', encoding='utf-8') as f:
+                    contenu = f.read()
+                    # Supprimer la matière frontale
+                    contenu = contenu.split("---", 2)[-1].strip()
+                    tous_les_textes.append(contenu)
             except Exception as e:
-                print(f"Erreur de lecture du fichier {file_path}: {e}")
-    return all_texts
+                print(f"Erreur de lecture du fichier {chemin_fichier}: {e}")
+    return tous_les_textes
 
-def prepare_dataset(texts, tokenizer):
-    encodings = tokenizer(texts, truncation=True, padding=True, max_length=MAX_LENGTH, return_tensors="pt")
-    return Dataset.from_dict(encodings)
+def préparer_jeu_de_données(textes, tokeniseur):
+    encodages = tokeniseur(textes, truncation=True, padding=True, max_length=MAX_LENGTH, return_tensors="pt")
+    return Dataset.from_dict(encodages)
 
-def train_model(dataset, tokenizer):
-    training_args = TrainingArguments(
+def entraîner_modèle(jeu_de_données, tokeniseur):
+    arguments_entraînement = TrainingArguments(
         output_dir=OUTPUT_DIR,
         overwrite_output_dir=True,
         num_train_epochs=EPOCHS,
@@ -56,24 +56,24 @@ def train_model(dataset, tokenizer):
         prediction_loss_only=True,
         remove_unused_columns=False,
     )
-    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, trust_remote_code=True)
-    data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
-    trainer = Trainer(
-        model=model,
-        args=training_args,
-        train_dataset=dataset,
+    modèle = AutoModelForCausalLM.from_pretrained(MODEL_NAME, trust_remote_code=True)
+    data_collator = DataCollatorForLanguageModeling(tokenizer=tokeniseur, mlm=False)
+    entraîneur = Trainer(
+        model=modèle,
+        args=arguments_entraînement,
+        train_dataset=jeu_de_données,
         data_collator=data_collator,
     )
-    trainer.train()
-    trainer.save_model(OUTPUT_DIR)
+    entraîneur.train()
+    entraîneur.save_model(OUTPUT_DIR)
 
 def main():
-    posts_dir = "_posts"
-    texts = create_training_data(posts_dir)
-    tokenizer = LlamaTokenizerFast.from_pretrained(MODEL_NAME, trust_remote_code=True, use_fast=True)
-    tokenizer.pad_token = tokenizer.eos_token
-    dataset = prepare_dataset(texts, tokenizer)
-    train_model(dataset, tokenizer)
+    répertoire_posts = "_posts"
+    textes = créer_données_entraînement(répertoire_posts)
+    tokeniseur = LlamaTokenizerFast.from_pretrained(MODEL_NAME, trust_remote_code=True, use_fast=True)
+    tokeniseur.pad_token = tokeniseur.eos_token
+    jeu_de_données = préparer_jeu_de_données(textes, tokeniseur)
+    entraîner_modèle(jeu_de_données, tokeniseur)
 
 if __name__ == "__main__":
     main()

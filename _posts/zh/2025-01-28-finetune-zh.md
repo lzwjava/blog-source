@@ -1,8 +1,8 @@
 ---
-audio: false
+audio: true
 lang: zh
 layout: post
-title: 微调一个模型
+title: 微调模型
 translated: true
 ---
 
@@ -34,7 +34,7 @@ def create_training_data(posts_dir):
             try:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
-                    # 删除前言
+                    # 移除前言
                     content = content.split("---", 2)[-1].strip()
                     all_texts.append(content)
             except Exception as e:
@@ -77,5 +77,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 ```

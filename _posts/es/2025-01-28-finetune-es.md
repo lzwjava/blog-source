@@ -1,8 +1,8 @@
 ---
-audio: false
+audio: true
 lang: es
 layout: post
-title: Ajustar un modelo
+title: Ajustar un Modelo
 translated: true
 ---
 
@@ -17,65 +17,64 @@ import torch
 
 load_dotenv()
 
-NOMBRE_MODELO = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # Cambiado al modelo especificado
-DIR_SALIDA = "modelo_entrenado"
+NOMBRE_MODEL = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # Cambiado al modelo especificado
+DIRECTORIO_SALIDA = "modelo_entrenado"
 ARCHIVO_ENTRENAMIENTO = "train.jsonl"
-LONGITUD_MAXIMA = 512
-TAMANO_LOT = 8
-EPOCAS = 3
+MAX_LONGITUD = 512
+TAMAÑO_LOTE = 8
+EPÓCAS = 3
 
-def crear_datos_entrenamiento(posts_dir):
-    todos_textos = []
-    for dir_lang in os.listdir(posts_dir):
-        ruta_lang = os.path.join(posts_dir, dir_lang)
-        if not os.path.isdir(ruta_lang):
+def crear_datos_entrenamiento(directorio_posts):
+    todos_texto = []
+    for dir_leng in os.listdir(directorio_posts):
+        ruta_leng = os.path.join(directorio_posts, dir_leng)
+        if not os.path.isdir(ruta_leng):
             continue
-        for ruta_archivo in glob.glob(os.path.join(ruta_lang, "*.md")):
+        for ruta_archivo in glob.glob(os.path.join(ruta_leng, "*.md")):
             try:
                 with open(ruta_archivo, 'r', encoding='utf-8') as f:
                     contenido = f.read()
                     # Eliminar front matter
                     contenido = contenido.split("---", 2)[-1].strip()
-                    todos_textos.append(contenido)
+                    todos_texto.append(contenido)
             except Exception as e:
-                print(f"Error al leer archivo {ruta_archivo}: {e}")
-    return todos_textos
+                print(f"Error leyendo archivo {ruta_archivo}: {e}")
+    return todos_texto
 
-def preparar_conjunto_datos(textos, tokenizer):
-    codificaciones = tokenizer(textos, truncation=True, padding=True, max_length=LONGITUD_MAXIMA, return_tensors="pt")
+def preparar_conjunto_datos(textos, tokenizador):
+    codificaciones = tokenizador(textos, truncation=True, padding=True, max_length=MAX_LONGITUD, return_tensors="pt")
     return Dataset.from_dict(codificaciones)
 
-def entrenar_modelo(conjunto_datos, tokenizer):
-    args_entrenamiento = TrainingArguments(
-        output_dir=DIR_SALIDA,
+def entrenar_modelo(conjunto_datos, tokenizador):
+    argumentos_entrenamiento = TrainingArguments(
+        output_dir=DIRECTORIO_SALIDA,
         overwrite_output_dir=True,
-        num_train_epochs=EPOCAS,
-        per_device_train_batch_size=TAMANO_LOT,
+        num_train_epochs=EPÓCAS,
+        per_device_train_batch_size=TAMAÑO_LOTE,
         save_steps=10_000,
         save_total_limit=2,
         prediction_loss_only=True,
         remove_unused_columns=False,
     )
-    modelo = AutoModelForCausalLM.from_pretrained(NOMBRE_MODELO, trust_remote_code=True)
-    data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
-    trainer = Trainer(
+    modelo = AutoModelForCausalLM.from_pretrained(NOMBRE_MODEL, trust_remote_code=True)
+    data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizador, mlm=False)
+    entrenador = Trainer(
         model=modelo,
-        args=args_entrenamiento,
+        args=argumentos_entrenamiento,
         train_dataset=conjunto_datos,
         data_collator=data_collator,
     )
-    trainer.train()
-    trainer.save_model(DIR_SALIDA)
+    entrenador.train()
+    entrenador.save_model(DIRECTORIO_SALIDA)
 
 def main():
-    posts_dir = "_posts"
-    textos = crear_datos_entrenamiento(posts_dir)
-    tokenizer = LlamaTokenizerFast.from_pretrained(NOMBRE_MODELO, trust_remote_code=True, use_fast=True)
-    tokenizer.pad_token = tokenizer.eos_token
-    conjunto_datos = preparar_conjunto_datos(textos, tokenizer)
-    entrenar_modelo(conjunto_datos, tokenizer)
+    directorio_posts = "_posts"
+    textos = crear_datos_entrenamiento(directorio_posts)
+    tokenizador = LlamaTokenizerFast.from_pretrained(NOMBRE_MODEL, trust_remote_code=True, use_fast=True)
+    tokenizador.pad_token = tokenizador.eos_token
+    conjunto_datos = preparar_conjunto_datos(textos, tokenizador)
+    entrenar_modelo(conjunto_datos, tokenizador)
 
 if __name__ == "__main__":
     main()
-
 ```

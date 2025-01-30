@@ -1,8 +1,8 @@
 ---
-audio: false
+audio: true
 lang: en
 layout: post
-title: Finetune a model
+title: Finetune A Model
 translated: false
 ---
 

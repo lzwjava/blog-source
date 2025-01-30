@@ -1,8 +1,8 @@
 ---
-audio: false
+audio: true
 lang: de
 layout: post
-title: '"Ein Modell feinabstimmen"'
+title: Ein Modell Feintunen
 translated: true
 ---
 
@@ -17,32 +17,32 @@ import torch
 
 load_dotenv()
 
-MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # Changed to the specified model
-OUTPUT_DIR = "trained_model"
+MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # Geändert auf das angegebene Modell
+OUTPUT_DIR = "trainiertes_modell"
 TRAIN_FILE = "train.jsonl"
 MAX_LENGTH = 512
 BATCH_SIZE = 8
 EPOCHS = 3
 
-def create_training_data(posts_dir):
-    all_texts = []
-    for lang_dir in os.listdir(posts_dir):
-        lang_path = os.path.join(posts_dir, lang_dir)
-        if not os.path.isdir(lang_path):
+def create_training_data(beitraege_verzeichnis):
+    alle_texte = []
+    for sprachverzeichnis in os.listdir(beitraege_verzeichnis):
+        sprachpfad = os.path.join(beitraege_verzeichnis, sprachverzeichnis)
+        if not os.path.isdir(sprachpfad):
             continue
-        for file_path in glob.glob(os.path.join(lang_path, "*.md")):
+        for dateipfad in glob.glob(os.path.join(sprachpfad, "*.md")):
             try:
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                    # Remove front matter
-                    content = content.split("---", 2)[-1].strip()
-                    all_texts.append(content)
+                with open(dateipfad, 'r', encoding='utf-8') as f:
+                    inhalt = f.read()
+                    # Front Matter entfernen
+                    inhalt = inhalt.split("---", 2)[-1].strip()
+                    alle_texte.append(inhalt)
             except Exception as e:
-                print(f"Error reading file {file_path}: {e}")
-    return all_texts
+                print(f"Fehler beim Lesen der Datei {dateipfad}: {e}")
+    return alle_texte
 
-def prepare_dataset(texts, tokenizer):
-    encodings = tokenizer(texts, truncation=True, padding=True, max_length=MAX_LENGTH, return_tensors="pt")
+def prepare_dataset(texte, tokenizer):
+    encodings = tokenizer(texte, truncation=True, padding=True, max_length=MAX_LENGTH, return_tensors="pt")
     return Dataset.from_dict(encodings)
 
 def train_model(dataset, tokenizer):
@@ -68,14 +68,13 @@ def train_model(dataset, tokenizer):
     trainer.save_model(OUTPUT_DIR)
 
 def main():
-    posts_dir = "_posts"
-    texts = create_training_data(posts_dir)
+    beitraege_verzeichnis = "_beitraege"
+    texte = create_training_data(beitraege_verzeichnis)
     tokenizer = LlamaTokenizerFast.from_pretrained(MODEL_NAME, trust_remote_code=True, use_fast=True)
     tokenizer.pad_token = tokenizer.eos_token
-    dataset = prepare_dataset(texts, tokenizer)
+    dataset = prepare_dataset(texte, tokenizer)
     train_model(dataset, tokenizer)
 
 if __name__ == "__main__":
     main()
-
 ```
