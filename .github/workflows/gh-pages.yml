@@ -187,9 +187,10 @@ jobs:
         run: |
           DRY_RUN_OUTPUT=$(python scripts/audio_pipeline.py --task posts --n 2 --dry_run)
           echo "$DRY_RUN_OUTPUT"
-          FILES_TO_PROCESS=$(echo "$DRY_RUN_OUTPUT" | grep "Total Markdown files to process" | awk '{print $8}')
+          FILES_PROCESSED=$(echo "$DRY_RUN_OUTPUT" | grep "Processing complete!" | awk '{print $3}' | cut -d'/' -f1)
+          TOTAL_FILES=$(echo "$DRY_RUN_OUTPUT" | grep "Processing complete!" | awk '{print $3}' | cut -d'/' -f2)
 
-          if [[ "$FILES_TO_PROCESS" -gt 0 ]]; then
+          if [[ "$FILES_PROCESSED" -gt 0 && "$FILES_PROCESSED" -eq "$TOTAL_FILES" ]]; then
             echo "audio_updated=true" >> "$GITHUB_OUTPUT"
           else
             echo "audio_updated=false" >> "$GITHUB_OUTPUT"
