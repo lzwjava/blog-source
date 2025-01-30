@@ -42,7 +42,10 @@ def text_to_speech(text, output_filename, voice_name=None):
         print(f"An error occurred while generating audio for {output_filename}: {e}")
         return False
 
-def process_conversation(filename):
+def process_conversation(filename, seed=None):
+    if seed is None:
+        seed = int(time.time())
+    random.seed(seed)
     filepath = os.path.join(INPUT_DIRECTORY, filename)
     output_filename = os.path.join(OUTPUT_DIRECTORY, os.path.splitext(filename)[0] + ".mp3")
 
@@ -114,10 +117,11 @@ def process_conversation(filename):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process conversation JSON files to generate audio.")
+    parser.add_argument("--seed", type=int, help="Random seed for voice selection.")
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
 
     for filename in os.listdir(INPUT_DIRECTORY):
         if filename.endswith(".json"):
-            process_conversation(filename)
+            process_conversation(filename, args.seed)
