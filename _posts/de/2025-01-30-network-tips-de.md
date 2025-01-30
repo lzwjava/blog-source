@@ -2,15 +2,15 @@
 audio: true
 lang: de
 layout: post
-title: Netzwerk-Optimierungs-Tipps
+title: Netzwerk-Optimierungstipps
 translated: true
 ---
 
-- Bevorzugen Sie die Verwendung eines 5G-WLAN-Signals oder eines Ethernet-Kabels.
+- Bevorzuge die Verwendung eines 5G WiFi-Signals oder eines Ethernet-Kabels.
 
-- Verwenden Sie die Speedtest-App oder besuchen Sie https://www.speedtest.net, um Ihre Verbindung regelmäßig zu testen.
+- Verwende die Speedtest-App oder besuche https://www.speedtest.net, um deine Verbindung regelmäßig zu testen.
 
-- Verwenden Sie traceroute, ping oder dig/nslookup für Netzwerkanalysen.
+- Verwende traceroute, ping oder dig/nslookup für Netzwerktopologien.
 
 - [Proxy-Server einrichten](./diy-proxy-en)
 
@@ -20,8 +20,28 @@ translated: true
 
 - [Cloud-Anbieter](./cloud-providers-en)
 
-- [Einige Globale Cloud-Plattformen](./cloud-platforms-en)
+- [Einige weltweite Cloud-Plattformen](./cloud-platforms-en)
 
 - [Macau SIM-Karten](./macao-en)
 
-- [Analyse des Verbots von Proxy-Servern](./proxy-ban-en)
+- [Analyse des Proxy-Server-Verbots](./proxy-ban-en)
+
+- [Shadowsocks Proxy-Probleme](./shadowsocks-en)
+
+- [Open-Source-Tool: Auto SS Config](./auto-ss-config-en)
+
+- [Netzwerkkabel-Tester](./cable-tester-en)
+
+- [Wi-Fi Signalstärke](./wifi-en)
+
+- [Lightning zu Ethernet-Adapter](./lightning-ethernet-en)
+
+- [Proxy-Einstellungen anzeigen, bevor Befehle ausgeführt werden](./preexec-en)
+
+- [V2Ray ausprobieren: Eine Schritt-für-Schritt-Anleitung](./v2ray-en)
+
+- [V2Ray-Skript](./v2ray-script-en)
+
+- [Proxy-Tool: Squid und Danted](./squid-dante-en)
+
+- [Proxy-Lösungen in China - 2025](./proxy-en)
