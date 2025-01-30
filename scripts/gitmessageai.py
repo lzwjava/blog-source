@@ -139,7 +139,8 @@ def gitmessageai(push=True, only_message=False, api='deepseek'):
                         i += 1
         i += 1
     
-    print(file_changes)
+    for change in file_changes:
+        print(change)
     
     if not file_changes:
         print("No changes to commit.")
