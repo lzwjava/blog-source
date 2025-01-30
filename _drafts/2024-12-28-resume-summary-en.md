@@ -4,7 +4,7 @@ title: "Resume Summary"
 ---        
 
 Basic information:
-- Male, 29 years old, once studied for 1 year in Beijing Forestry University
+- Male, born in 1995, once studied for 1 year in Beijing Forestry University
 - Related Experience: 9 years
 - Current location: Guangzhou
 

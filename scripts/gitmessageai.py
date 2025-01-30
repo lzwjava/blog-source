@@ -4,6 +4,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import argparse
 import requests
+import re
 
 load_dotenv()
 
@@ -99,16 +100,43 @@ def call_deepseek_api(prompt):
         print(e)
         return None
 
-
 def gitmessageai(push=True, only_message=False, api='deepseek'):
     # Stage all changes
     subprocess.run(["git", "add", "-A"], check=True)    
 
-    # Get a brief summary of the changes
-    files_process = subprocess.run(["git", "diff", "--staged", "--name-only"], capture_output=True, text=True, check=True)
-    changed_files = files_process.stdout
+    # Get a detailed summary of the changes
+    diff_process = subprocess.run(["git", "diff", "--staged", "--unified=0"], capture_output=True, text=True, check=True)
+    diff_output = diff_process.stdout
 
-    if not changed_files:
+    if not diff_output:
+        print("No changes to commit.")
+        return
+    
+    file_changes = []
+    current_file = None
+    lines = diff_output.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if line.startswith("diff --git"):
+            parts = line.split(" ")
+            if len(parts) >= 4:
+                file_a = parts[2][2:]
+                file_b = parts[3][2:]
+                if file_a == file_b:
+                    if i + 1 < len(lines) and "deleted file mode" in lines[i+1]:
+                        file_changes.append(f"Deleted file {file_a}")
+                        i += 1
+                    elif i + 1 < len(lines) and "new file mode" in lines[i+1]:
+                        file_changes.append(f"Added file {file_a}")
+                        i += 1
+                    elif i + 1 < len(lines):
+                        file_changes.append(f"Updated file {file_a}")
+                        i +=1
+        i += 1
+                
+    
+    if not file_changes:
         print("No changes to commit.")
         return
 
@@ -117,10 +145,10 @@ def gitmessageai(push=True, only_message=False, api='deepseek'):
 Generate a concise commit message in Conventional Commits format for the following code changes.
 Use one of the following types: feat, fix, docs, style, refactor, test, chore, perf, ci, build, or revert.
 If applicable, include a scope in parentheses to describe the part of the codebase affected.
-The commit message should not exceed 70 characters.
+The commit message should not exceed 100 characters.
 
 Changed files:
-{changed_files}
+{', '.join(file_changes)}
 
 Commit message:
 """    
