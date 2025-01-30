@@ -49,3 +49,6 @@ Tried:
 - [Try V2Ray: A Step-by-Step Guide](./v2ray-en)
 
 - [V2Ray Script](./v2ray-script-en)
+
+- [Enhancing OpenWRT with OpenClash and Shadowsocks](./openwrt-hack-en)
+

@@ -2,48 +2,50 @@
 audio: true
 lang: fr
 layout: post
-title: 'Optimisation de Réseau : Conseils'
+title: Optimisation Réseau Conseils
 translated: true
 ---
 
-Utile, Recommandé:
+Utile, Recommandations :
 
 - Préférez utiliser un signal WiFi 5G ou un câble Ethernet.
 
-- Utilisez l'application Speedtest ou visitez https://www.speedtest.net pour tester régulièrement votre connexion.
+- Utilisez l'application Speedtest ou visitez https://www.speedtest.net pour tester votre connexion régulièrement.
 
-- Utilisez traceroute, ping ou dig/nslookup pour les diagnostics réseau.
+- Utilisez traceroute, ping ou dig/nslookup pour le diagnostic réseau.
 
-- [Configurer votre serveur proxy](./diy-proxy-en)
+- [Configurer Votre Serveur Proxy](./diy-proxy-en)
 
-- [Routeur maillé](./mesh-router-en)
+- [Routeur Mesh](./mesh-router-en)
 
-- [Fournisseurs de cloud](./cloud-providers-en)
+- [Fournisseurs de Cloud](./cloud-providers-en)
 
-- [Quelques plateformes cloud mondiales](./cloud-platforms-en)
+- [Certaines Plateformes Cloud Mondiales](./cloud-platforms-en)
 
 - [Cartes SIM de Macao](./macao-en)
 
-- [Analyse de l'interdiction des serveurs proxy](./proxy-ban-en)
+- [Analyse de l'Interdiction du Serveur Proxy](./proxy-ban-en)
 
-- [Problèmes de proxy Shadowsocks](./shadowsocks-en)
+- [Problèmes de Proxy Shadowsocks](./shadowsocks-en)
 
-- [Outil open source : Config Auto SS](./auto-ss-config-en)
+- [Outil Open Source : Auto SS Config](./auto-ss-config-en)
 
-- [Afficher les paramètres de proxy avant d'exécuter des commandes](./preexec-en)
+- [Afficher les Paramètres Proxy Avant d'Exécuter des Commandes](./preexec-en)
 
-- [Solutions de proxy en Chine - 2025](./proxy-en)
+- [Solutions Proxy en Chine - 2025](./proxy-en)
 
-Essayé:
+Essayé :
 
-- [Testeur de câble réseau](./cable-tester-en)
+- [Testeur de Câble Réseau](./cable-tester-en)
 
-- [Force du signal Wi-Fi](./wifi-en)
+- [Force du Signal Wi-Fi](./wifi-en)
 
-- [Adaptateur Lightning vers Ethernet](./lightning-ethernet-en)
+- [Adaptateur Lightning à Ethernet](./lightning-ethernet-en)
 
-- [Outil proxy : Squid et Danted](./squid-dante-en)
+- [Outil Proxy : Squid et Danted](./squid-dante-en)
 
-- [Essayez V2Ray : un guide étape par étape](./v2ray-en)
+- [Essai de V2Ray : Un Guide Étape par Étape](./v2ray-en)
 
 - [Script V2Ray](./v2ray-script-en)
+
+- [Amélioration d'OpenWRT avec OpenClash et Shadowsocks](./openwrt-hack-en)

@@ -2,43 +2,43 @@
 audio: true
 lang: es
 layout: post
-title: Consejos para la Optimización de Redes
+title: Consejos de Optimización de Red
 translated: true
 ---
 
 Útil, Recomendado:
 
-- Es preferible utilizar una señal de WiFi 5G o un cable Ethernet.
+- Preferir usar una señal WiFi 5G o un cable Ethernet.
 
-- Utiliza la aplicación Speedtest o visita https://www.speedtest.net para probar tu conexión regularmente.
+- Utilice la aplicación Speedtest o visite https://www.speedtest.net para probar su conexión regularmente.
 
-- Usa traceroute, ping o dig/nslookup para diagnósticos de red.
+- Utilice traceroute, ping o dig/nslookup para diagnósticos de red.
 
-- [Configura tu servidor proxy](./diy-proxy-en)
+- [Configurar su servidor proxy](./diy-proxy-en)
 
-- [Router Mesh](./mesh-router-en)
+- [Router en malla](./mesh-router-en)
 
-- [Proveedores de nube](./cloud-providers-en)
+- [Proveedores de la nube](./cloud-providers-en)
 
-- [Algunas plataformas de nube global](./cloud-platforms-en)
+- [Algunas plataformas de la nube global](./cloud-platforms-en)
 
 - [Tarjetas SIM de Macao](./macao-en)
 
-- [Análisis de prohibición de servidor proxy](./proxy-ban-en)
+- [Análisis de prohibición del servidor proxy](./proxy-ban-en)
 
 - [Problemas de proxy Shadowsocks](./shadowsocks-en)
 
-- [Herramienta de código abierto: Configuración automática SS](./auto-ss-config-en)
+- [Herramienta de código abierto: Configuración automática de SS](./auto-ss-config-en)
 
 - [Mostrar configuración de proxy antes de ejecutar comandos](./preexec-en)
 
 - [Soluciones de proxy en China - 2025](./proxy-en)
 
-Probado:
+Intentado:
 
-- [Probador de cable de red](./cable-tester-en)
+- [Tester de cable de red](./cable-tester-en)
 
-- [Fuerza de la señal Wi-Fi](./wifi-en)
+- [Fuerza de señal Wi-Fi](./wifi-en)
 
 - [Adaptador Lightning a Ethernet](./lightning-ethernet-en)
 
@@ -47,3 +47,5 @@ Probado:
 - [Intenta V2Ray: una guía paso a paso](./v2ray-en)
 
 - [Script de V2Ray](./v2ray-script-en)
+
+- [Mejorar OpenWRT con OpenClash y Shadowsocks](./openwrt-hack-en)
