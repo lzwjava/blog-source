@@ -1,0 +1,36 @@
+---
+audio: false
+lang: hant
+layout: post
+title: Maven 儲存庫我安裝
+translated: true
+---
+
+- antlr
+- avalon-framework
+- backport-util-concurrent
+- classworlds
+- com
+- commons-beanutils
+- commons-chain
+- commons-cli
+- commons-codec
+- commons-collections
+- commons-digester
+- commons-httpclient
+- commons-io
+- commons-lang
+- commons-logging
+- commons-validator
+- dom4j
+- info
+- javax
+- junit
+- log4j
+- logkit
+- net
+- org
+- oro
+- sslext
+- xerces
+- xml-apis
