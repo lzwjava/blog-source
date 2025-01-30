@@ -176,7 +176,7 @@ Google Cloud Text-to-Speechの利点についての詳細は、[Google Cloudの�
 ### サンプル音声出力
 
 すべての設定が完了すると、音声ファイルを生成することができます。生成されたファイルは以下の場所で利用可能です：  
-[音声ファイルをダウンロード](./assets/audios/output-audio.mp3)。
+[音声ファイルをダウンロード](assets/audios/output-audio.mp3)。
 
 ---
 

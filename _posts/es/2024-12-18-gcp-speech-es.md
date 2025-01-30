@@ -176,7 +176,7 @@ Para generar una nueva clave:
 ### Ejemplo de Salida de Audio
 
 Una vez que todo esté configurado, puedes generar un archivo de audio, que estará disponible aquí:  
-[Descargar el archivo de audio](./assets/audios/output-audio.mp3).
+[Descargar el archivo de audio](assets/audios/output-audio.mp3).
 
 ---
 

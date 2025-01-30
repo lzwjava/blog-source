@@ -173,7 +173,7 @@ Journey的主要特點：
 ### 示例音頻輸出
 
 一切設置完成後，您可以生成音頻文件，該文件將在此處提供：  
-[下載音頻文件](./assets/audios/output-audio.mp3)。
+[下載音頻文件](assets/audios/output-audio.mp3)。
 
 ---
 

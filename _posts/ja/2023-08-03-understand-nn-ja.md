@@ -318,7 +318,8 @@ prompt = 'Q: What is the largest animal?\nA:'
 input_ids = tokenizer(prompt, return_tensors="pt").input_ids
 ```
 
-# input_idsテンソルをモデルと同じデバイスに移動する
+## input_idsテンソルをモデルと同じデバイスに移動する
+
 input_ids = input_ids.to(model.device)
 
 ```python

@@ -176,7 +176,7 @@ Um einen neuen Schlüssel zu generieren:
 ### Beispiel für Audioausgabe
 
 Sobald alles eingerichtet ist, können Sie eine Audiodatei generieren, die hier verfügbar sein wird:  
-[Laden Sie die Audiodatei herunter](./assets/audios/output-audio.mp3).
+[Laden Sie die Audiodatei herunter](assets/audios/output-audio.mp3).
 
 ---
 

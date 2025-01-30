@@ -241,7 +241,7 @@ text_to_speech(article_text, output_file)
 ### مثال على إخراج الصوت
 
 بمجرد أن يتم إعداد كل شيء، يمكنك إنشاء ملف صوتي، والذي سيكون متاحًا هنا:  
-[تحميل الملف الصوتي](./assets/audios/output-audio.mp3).
+[تحميل الملف الصوتي](assets/audios/output-audio.mp3).
 
 ---
 

@@ -162,7 +162,7 @@ text_to_speech(article_text, output_file)
 ### 示例音频输出
 
 一旦一切设置完成，音频输出文件将在此处提供：  
-[下载音频文件](./assets/audios/output-audio.mp3)。
+[下载音频文件](assets/audios/output-audio.mp3)。
 
 ---
 
