@@ -1,6 +1,6 @@
 ---
 audio: true
-lang: en
+lang: ja
 layout: post
 title: Programming
 translated: true

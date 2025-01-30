@@ -1,9 +1,9 @@
-
-
----                            
-layout: post                            
-title: "使用他/她或一個人"  
----        
+---
+lang: hant
+layout: post
+title: 使用他/她或一個人
+translated: true
+---
 
 * 一起使用他/她或一個人
 * 如果沒有特定的人，不要只使用他或她。

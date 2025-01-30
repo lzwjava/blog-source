@@ -1,10 +1,9 @@
-
-
----  
-audio: true  
-lang: en  
-layout: post  
-title: 穿得像個女人  
+---
+audio: true
+lang: hant
+layout: post
+title: 穿得像個女人
+translated: true
 ---
 
 * 作為一個男人，第一次穿得像個女人，這可能是一種有趣的體驗。在公共場合，有些人可能會盯著我看或竊竊私語，好奇我是否是個女孩。  

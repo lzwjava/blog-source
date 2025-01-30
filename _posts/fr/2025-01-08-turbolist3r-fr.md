@@ -1,6 +1,8 @@
----                            
+---
+lang: fr
 layout: post
-title: "Turbolist3r : Énumération des sous-domaines"
+title: 'Turbolist3r : Énumération des sous-domaines'
+translated: true
 ---
 
 ## Turbolist3r

@@ -1,6 +1,8 @@
----                            
+---
+lang: hi
 layout: post
-title: "Turbolist3r: सबडोमेन्स की गणना"
+title: 'Turbolist3r: सबडोमेन्स की गणना'
+translated: true
 ---
 
 ## Turbolist3r
