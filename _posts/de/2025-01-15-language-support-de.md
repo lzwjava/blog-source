@@ -1,18 +1,18 @@
 ---
-audio: false
+audio: true
 lang: de
 layout: post
-title: 'Sprachunterstützung: Schriftarten und Text-to-Speech'
+title: 'Unterstützte Sprachen: Schriftarten und Text-zu-Sprache'
 translated: true
 ---
 
-Mein Blog unterstützt jetzt neun Sprachen: Japanisch (`ja`), Spanisch (`es`), Hindi (`hi`), Chinesisch (`zh`), Englisch (`en`), Französisch (`fr`), Deutsch (`de`), Arabisch (`ar`) und traditionelles Chinesisch (`hant`). Sie finden die Seite unter [https://lzwjava.github.io](https://lzwjava.github.io)
+Mein Blog unterstützt nun neun Sprachen: Japanisch (`ja`), Spanisch (`es`), Hindi (`hi`), Chinesisch (`zh`), Englisch (`en`), Französisch (`fr`), Deutsch (`de`), Arabisch (`ar`) und Traditionelles Chinesisch (`hant`). Die Website finden Sie unter [https://lzwjava.github.io](https://lzwjava.github.io)
 
-Beim Umgang mit mehreren Sprachen in einer Computerumgebung sind mehrere Aspekte zu berücksichtigen.
+Beim Umgang mit mehreren Sprachen in einer Computerumgebung müssen mehrere Aspekte berücksichtigt werden.
 
 ## Schriftartenverwaltung
 
-Verschiedene Sprachen erfordern spezifische Schriftarten für eine korrekte Darstellung, insbesondere beim Erzeugen von PDFs mit LaTeX. Der folgende Python-Code zeigt, wie geeignete Schriftarten basierend auf dem Betriebssystem und der Sprache ausgewählt werden:
+Verschiedene Sprachen erfordern spezifische Schriftarten für die korrekte Darstellung, insbesondere beim Erstellen von PDFs mit LaTeX. Der folgende Python-Code zeigt, wie geeignete Schriftarten basierend auf dem Betriebssystem und der Sprache ausgewählt werden:
 
 ```python
     if platform.system() == "Darwin":
@@ -63,19 +63,32 @@ Verschiedene Sprachen erfordern spezifische Schriftarten für eine korrekte Dars
     ]
 ```
 
-Es ist wichtig zu beachten, dass diese Lösung nicht perfekt ist. Beispielsweise kann Hindi-Text innerhalb von Codeblock-Kommentaren möglicherweise nicht wie erwartet gerendert werden.
+Es ist wichtig zu beachten, dass diese Lösung nicht perfekt ist. Beispielsweise könnte Hindi-Text innerhalb von Codeblock-Kommentaren nicht wie erwartet gerendert werden.
 
-## Text-to-Speech
+## Text-zu-Sprache
 
-Ich verwende Google Text-to-Speech, um Audioversionen meiner Blogbeiträge zu erstellen. Der folgende Codeausschnitt zeigt, wie ich den entsprechenden Sprachcode für die Text-to-Speech-Engine auswähle:
+Ich nutze Google Text-to-Speech, um Audioversionen meiner Blogbeiträge zu erstellen. Der folgende Codeausschnitt zeigt, wie ich den geeigneten Sprachcode für die Text-to-Speech-Engine auswähle:
 
 ```python
-            if filename.endswith('-zh.md'):
-                language_code = "cmn-CN"
-                voice_language_code = "cmn-CN"
-            else:
-                language_code = "en-US"
-                voice_language_code = "en-US"
+            synthesis_input = texttospeech.SynthesisInput(text=chunk)
+            if language_code == "en-US":
+                voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
+            elif language_code == "cmn-CN":
+                voice_name = random.choice(["cmn-CN-Wavenet-A", "cmn-CN-Wavenet-B", "cmn-CN-Wavenet-C", "cmn-CN-Wavenet-D"])
+            elif language_code == "es-ES":
+                voice_name = random.choice(["es-ES-Journey-D", "es-ES-Journey-F", "es-ES-Journey-O"])
+            elif language_code == "fr-FR":
+                voice_name = random.choice(["fr-FR-Journey-D", "fr-FR-Journey-F", "fr-FR-Journey-O"])
+            elif language_code == "yue-HK":
+                voice_name = random.choice(["yue-HK-Standard-A", "yue-HK-Standard-B", "yue-HK-Standard-C", "yue-HK-Standard-D"])
+            elif language_code == "ja-JP":
+                voice_name = random.choice(["ja-JP-Neural2-B", "ja-JP-Neural2-C", "ja-JP-Neural2-D"])
+            elif language_code == "hi-IN":
+                voice_name = random.choice(["hi-IN-Wavenet-A", "hi-IN-Wavenet-B", "hi-IN-Wavenet-C", "hi-IN-Wavenet-D", "hi-IN-Wavenet-E", "hi-IN-Wavenet-F"])
+            elif language_code == "de-DE":
+                voice_name = random.choice(["de-DE-Journey-D", "de-DE-Journey-F", "de-DE-Journey-O"])
+            elif language_code == "ar-XA":
+                voice_name = random.choice(["ar-XA-Wavenet-A", "ar-XA-Wavenet-B", "ar-XA-Wavenet-C", "ar-XA-Wavenet-D"])
 
             text_to_speech(
                 text=article_text,
@@ -87,8 +100,8 @@ Ich verwende Google Text-to-Speech, um Audioversionen meiner Blogbeiträge zu er
             )
 ```
 
-Derzeit wird Audio für chinesische und englische Inhalte generiert. Um die Unterstützung auf andere Sprachen auszudehnen, müssen die entsprechenden Sprachcodes konfiguriert werden.
+Derzeit wird Audio für chinesische und englische Inhalte erzeugt. Um die Unterstützung für andere Sprachen zu erweitern, müssen die entsprechenden Sprachcodes konfiguriert werden.
 
 ## Zusammenfassung
 
-Sprachen unterscheiden sich in zwei primären Aspekten: ihrer geschriebenen Darstellung (Form) und ihrer gesprochenen Form (Aussprache). Die Schriftartenauswahl und die Text-to-Speech-Konfigurationen adressieren diese beiden Aspekte entsprechend.
+Sprachen unterscheiden sich in zwei Hauptaspekten: ihrer geschriebenen Darstellung (Form) und ihrer gesprochenen Form (Aussprache). Die Schriftartenauswahl und die Text-to-Speech-Konfigurationen adressieren diese beiden Aspekte entsprechend.

@@ -1,18 +1,18 @@
 ---
-audio: false
+audio: true
 lang: hi
 layout: post
-title: 'भाषा समर्थन: फ़ॉन्ट्स और टेक्स्ट-टू-स्पीच'
+title: 'भाषा सहायता: फॉन्ट्स और टेक्स्ट-टू-स्पीच'
 translated: true
 ---
 
-मेरा ब्लॉग अब नौ भाषाओं का समर्थन करता है: जापानी (`ja`), स्पैनिश (`es`), हिंदी (`hi`), चीनी (`zh`), अंग्रेजी (`en`), फ्रेंच (`fr`), जर्मन (`de`), अरबी (`ar`), और पारंपरिक चीनी (`hant`). आप साइट को [https://lzwjava.github.io](https://lzwjava.github.io) पर पा सकते हैं।
+मेरा ब्लॉग अब नौ भाषाओं का समर्थन करता है: जापानी (`ja`), स्पैनिश (`es`), हिन्दी (`hi`), चीनी (`zh`), इंग्लिश (`en`), फ्रांसीसी (`fr`), जर्मन (`de`), अरबी (`ar`), और प्राचीन चीनी (`hant`). आप साइट को [https://lzwjava.github.io](https://lzwjava.github.io) पर फाउन्ड सकते हैं।
 
-कंप्यूटर वातावरण में कई भाषाओं के साथ काम करते समय कई पहलुओं पर विचार करना आवश्यक है।
+कंप्यूटर परायन माध्यम में कई भाषाओं के साथ काम करने में कई विषयों को समझाना ज़रूरी है।
 
 ## फॉन्ट हैंडलिंग
 
-अलग-अलग भाषाओं को सही रेंडरिंग के लिए विशिष्ट फॉन्ट की आवश्यकता होती है, विशेष रूप से जब LaTeX का उपयोग करके PDF बनाए जाते हैं। नीचे दिया गया Python कोड दिखाता है कि ऑपरेटिंग सिस्टम और भाषा के आधार पर उपयुक्त फॉन्ट कैसे चुने जाएं:
+अलग-अलग भाषाओं के लिए व्यावहारिक प्रदर्शन के लिए विशेष फॉन्ट्स की आवश्यकता होती है, वेना जब लाटेक्स का उपयोग करके PDFs बनाई जाती हैं। निम्नलिखित Python कोड दिखाता है कि कार्यपाद और भाषा के आधार पर उपयोगी फॉन्ट्स कैसे चयन किया जा सकता है:
 
 ```python
     if platform.system() == "Darwin":
@@ -63,19 +63,32 @@ translated: true
     ]
 ```
 
-ध्यान देने योग्य बात यह है कि यह समाधान संपूर्ण नहीं है। उदाहरण के लिए, कोड ब्लॉक टिप्पणियों के भीतर हिंदी टेक्स्ट अपेक्षित रूप से रेंडर नहीं हो सकता।
+यह समाधान पूर्णतः नहीं हुआ है। उदाहरण के लिए, कोड ब्लॉक के आकार में हिन्दी टेक्स्ट का अनुकूलन यथावत हो सकता नहीं।
 
-## टेक्स्ट-टू-स्पीच
+## टेक्स्ट-तू-स्पीच
 
-मैं Google टेक्स्ट-टू-स्पीच का उपयोग करता हूं अपने ब्लॉग पोस्ट के ऑडियो संस्करण बनाने के लिए। नीचे दिया गया कोड स्निपेट दिखाता है कि मैं टेक्स्ट-टू-स्पीच इंजन के लिए उपयुक्त भाषा कोड कैसे चुनता हूं:
+मैं गूगल टेक्स्ट-तू-स्पीच का उपयोग करके मेरे ब्लॉग पोस्ट्स के ऑडियो प्रतिकारों की रचना करता हूँ। निम्नलिखित कोड स्निपेट दिखाता है कि कैसे वाक्यांकन इंज़न के लिए उपयोगी भाषा कोड चयन किया जाता है:
 
 ```python
-            if filename.endswith('-zh.md'):
-                language_code = "cmn-CN"
-                voice_language_code = "cmn-CN"
-            else:
-                language_code = "en-US"
-                voice_language_code = "en-US"
+            synthesis_input = texttospeech.SynthesisInput(text=chunk)
+            if language_code == "en-US":
+                voice_name = random.choice(["en-US-Journey-D", "en-US-Journey-F", "en-US-Journey-O"])
+            elif language_code == "cmn-CN":
+                voice_name = random.choice(["cmn-CN-Wavenet-A", "cmn-CN-Wavenet-B", "cmn-CN-Wavenet-C", "cmn-CN-Wavenet-D"])
+            elif language_code == "es-ES":
+                voice_name = random.choice(["es-ES-Journey-D", "es-ES-Journey-F", "es-ES-Journey-O"])
+            elif language_code == "fr-FR":
+                voice_name = random.choice(["fr-FR-Journey-D", "fr-FR-Journey-F", "fr-FR-Journey-O"])
+            elif language_code == "yue-HK":
+                voice_name = random.choice(["yue-HK-Standard-A", "yue-HK-Standard-B", "yue-HK-Standard-C", "yue-HK-Standard-D"])
+            elif language_code == "ja-JP":
+                voice_name = random.choice(["ja-JP-Neural2-B", "ja-JP-Neural2-C", "ja-JP-Neural2-D"])
+            elif language_code == "hi-IN":
+                voice_name = random.choice(["hi-IN-Wavenet-A", "hi-IN-Wavenet-B", "hi-IN-Wavenet-C", "hi-IN-Wavenet-D", "hi-IN-Wavenet-E", "hi-IN-Wavenet-F"])
+            elif language_code == "de-DE":
+                voice_name = random.choice(["de-DE-Journey-D", "de-DE-Journey-F", "de-DE-Journey-O"])
+            elif language_code == "ar-XA":
+                voice_name = random.choice(["ar-XA-Wavenet-A", "ar-XA-Wavenet-B", "ar-XA-Wavenet-C", "ar-XA-Wavenet-D"])
 
             text_to_speech(
                 text=article_text,
@@ -87,8 +100,8 @@ translated: true
             )
 ```
 
-वर्तमान में, चीनी और अंग्रेजी सामग्री के लिए ऑडियो बनाया जाता है। दूसरी भाषाओं के लिए समर्थन बढ़ाने के लिए, संबंधित भाषा कोड को कॉन्फ़िगर किया जाना चाहिए।
+वर्तमान में, चीनी और इंग्लिश संदर्भों के लिए ऑडियो बनाया जाता है। दूसरे भाषाओं के लिए समर्थन को व्यापक करने के लिए वर्तमान भाषा कोड्स को कॉन्फ़िगर किया जाना चाहिए।
 
-## सारांश
+## सारान्सह
 
-भाषाएं दो प्रमुख पहलुओं में भिन्न होती हैं: उनके लिखित प्रतिनिधित्व (आकार) और उनके बोले जाने वाले रूप (उच्चारण)। फॉन्ट चयन और टेक्स्ट-टू-स्पीच कॉन्फ़िगरेशन क्रमशः इन दोनों पहलुओं को संबोधित करते हैं।
+भाषाएं दो प्रमुख अंगों में अलग होती हैं: उनकी लेखनीय प्रतिनिधित्व (आकार) और उनकी बाती (व्यञ्जन). फॉन्ट चयन और टेक्स्ट-तू-स्पीच कॉन्फ़िगरेशन इन दो अंगों को प्रत्येक एक साथ समझती हैं।
