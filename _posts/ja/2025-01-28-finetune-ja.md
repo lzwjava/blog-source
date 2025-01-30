@@ -1,8 +1,8 @@
 ---
-audio: false
+audio: true
 lang: ja
 layout: post
-title: モデルをファインチューン
+title: モデルを微調整
 translated: true
 ---
 
@@ -17,7 +17,7 @@ import torch
 
 load_dotenv()
 
-MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # 指定されたモデルに変更
+MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # 指定されたモデルに変更しました
 OUTPUT_DIR = "trained_model"
 TRAIN_FILE = "train.jsonl"
 MAX_LENGTH = 512
@@ -34,11 +34,11 @@ def create_training_data(posts_dir):
             try:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
-                    # フロントマターを削除
+                    # 前書きを削除
                     content = content.split("---", 2)[-1].strip()
                     all_texts.append(content)
             except Exception as e:
-                print(f"ファイル {file_path} の読み取り時にエラーが発生しました: {e}")
+                print(f"ファイル {file_path} の読み取りエラー: {e}")
     return all_texts
 
 def prepare_dataset(texts, tokenizer):

@@ -1,8 +1,8 @@
 ---
-audio: false
+audio: true
 lang: hant
 layout: post
-title: 調整模型
+title: 微調模型
 translated: true
 ---
 
@@ -17,7 +17,7 @@ import torch
 
 load_dotenv()
 
-MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # Changed to the specified model
+MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"  # 改為指定的模型
 OUTPUT_DIR = "trained_model"
 TRAIN_FILE = "train.jsonl"
 MAX_LENGTH = 512
@@ -34,11 +34,11 @@ def create_training_data(posts_dir):
             try:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
-                    # Remove front matter
+                    # 移除前段內容
                     content = content.split("---", 2)[-1].strip()
                     all_texts.append(content)
             except Exception as e:
-                print(f"Error reading file {file_path}: {e}")
+                print(f"讀取文件 {file_path} 時出錯: {e}")
     return all_texts
 
 def prepare_dataset(texts, tokenizer):
