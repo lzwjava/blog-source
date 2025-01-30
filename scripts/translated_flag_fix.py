@@ -24,6 +24,20 @@ def update_front_matter(file_path, translated_flag, lang=None):
     if not front_matter:
         print(f"No front matter found in {file_path}")
         raise Exception('No front matter found in {file_path}')
+    
+    if "layout" not in front_matter:
+        print(f"Layout key not found in {file_path}")
+        raise Exception(f"Layout key not found in {file_path}")
+    
+    if "title" not in front_matter:
+        print(f"Title key not found in {file_path}")
+        raise Exception(f"Title key not found in {file_path}")
+    
+    if "lang" in front_matter:
+        print(f"Lang key found in {file_path}")
+    else:
+        print(f"Lang key not found in {file_path}")
+        raise Exception(f"Lang key not found in {file_path}")
         
     print(f"Front matter found in {file_path}")
 

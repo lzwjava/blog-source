@@ -1,7 +1,9 @@
 ---
 audio: false
+lang: es
 layout: post
 title: 'Turbolist3r: Enumeración de Subdominios'
+translated: true
 ---
 
 ## Turbolist3r
