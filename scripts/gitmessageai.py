@@ -145,7 +145,7 @@ def gitmessageai(push=True, only_message=False, api='deepseek'):
 Generate a concise commit message in Conventional Commits format for the following code changes.
 Use one of the following types: feat, fix, docs, style, refactor, test, chore, perf, ci, build, or revert.
 If applicable, include a scope in parentheses to describe the part of the codebase affected.
-The commit message should not exceed 100 characters.
+The commit message should not exceed 70 characters.
 
 Changed files:
 {', '.join(file_changes)}
