@@ -5,6 +5,8 @@ lang: en
 audio: true
 ---
 
+Below are some tools to help enumerate subdomains.
+
 ## Turbolist3r
 
 [Turbolist3r on GitHub](https://github.com/fleetcaptain/Turbolist3r)

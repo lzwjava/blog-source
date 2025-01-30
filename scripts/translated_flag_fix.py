@@ -117,6 +117,7 @@ def main():
 
     # First, validate all files
     files_to_process = []
+    invalid_files = []
     for lang_dir in languages:
         target_dir = os.path.join(posts_dir, lang_dir)
         if not os.path.exists(target_dir):
@@ -127,8 +128,9 @@ def main():
             if filename.endswith(".md"):
                 file_path = os.path.join(target_dir, filename)
                 if not validate_front_matter(file_path):
-                    raise Exception(f"Front matter validation failed for {file_path}")
-                files_to_process.append((file_path, True, lang_dir))
+                    invalid_files.append(file_path)
+                else:
+                    files_to_process.append((file_path, True, lang_dir))
     
     print(f"Checking files in {original_dir}")
     for filename in os.listdir(original_dir):
@@ -136,17 +138,25 @@ def main():
             if filename.endswith("-en.md"):
                 file_path = os.path.join(posts_dir, "en", filename)
                 if not validate_front_matter(file_path):
-                    raise Exception(f"Front matter validation failed for {file_path}")
-                files_to_process.append((file_path, False, "en"))
+                    invalid_files.append(file_path)
+                else:
+                    files_to_process.append((file_path, False, "en"))
             elif filename.endswith("-zh.md"):
                 file_path = os.path.join(posts_dir, "zh", filename)
                 if not validate_front_matter(file_path):
-                     raise Exception(f"Front matter validation failed for {file_path}")
-                files_to_process.append((file_path, False, "zh"))
+                    invalid_files.append(file_path)
+                else:
+                    files_to_process.append((file_path, False, "zh"))
             else:
                 print(
                     f"  Skipping file {filename} as it does not end with -en.md or -zh.md"
                 )
+    
+    if invalid_files:
+        print("The following files have invalid front matter:")
+        for file_path in invalid_files:
+            print(f"  - {file_path}")
+        raise Exception("Front matter validation failed for one or more files.")
     
     # Now, process the files
     for file_path, translated_flag, lang in files_to_process:
