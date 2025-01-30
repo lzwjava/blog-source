@@ -23,9 +23,9 @@ MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 
 def create_translation_prompt(target_language, type="content", special=False):
     if type == "title":
-        base_prompt = "Translate the following title to {target_language}. Provide only the translated title.\n"
+        base_prompt = "Translate the following title to {target_language}. Provide only the translated title, without any additional notes or explanations.\n"
     else:
-        base_prompt = "Translate the following markdown text to {target_language}. Provide only the translated output.\n"
+        base_prompt = "Translate the following markdown text to {target_language}. Provide only the translated output, without any additional notes or explanations.\n"
     if target_language == 'ja':
         return base_prompt.format(target_language="Japanese")
     elif target_language == 'es':
@@ -160,6 +160,7 @@ def translate_front_matter(front_matter, target_language, input_file, model="dee
             translated_title = translate_text(front_matter_dict_copy['title'], target_language, type="title", model=model)
             if translated_title:
                 translated_title = translated_title.strip()
+                
                 front_matter_dict_copy['title'] = translated_title
                 print(f"  Translated title to: {translated_title}")
             else:
