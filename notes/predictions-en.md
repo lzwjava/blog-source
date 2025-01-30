@@ -4,10 +4,6 @@ title: "Future Predictions"
 audio: true  
 ---
 
-*This post was written with ChatGPT.*
-
----
-
 Below are 50 speculative, but plausibly grounded, predictions about the future across various fields, including technology, society, environment, and more. These are not guarantees but rather informed guesses based on current trends, emerging research, and historical precedent.
 
 ---

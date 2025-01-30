@@ -4,10 +4,6 @@ title: "Computer Network Technology"
 audio: true  
 ---
 
-*This post was written with ChatGPT.*
-
----
-
 Below is a list of 100 key points that broadly cover the scope of a “Computer Network Technology” course or self-study outline, touching on fundamental concepts, protocols, and practical applications.
 
 1. Definition of a Computer Network: A system of interconnected devices that share resources and data.  

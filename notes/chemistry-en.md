@@ -4,10 +4,6 @@ title: "Chemistry"
 audio: true  
 ---
 
-*This post was written with ChatGPT.*
-
----
-
 Below is a concise, 100-point summary of key ideas and concepts typically covered in middle school chemistry. Each point aims to highlight an essential topic, principle, or term relevant to foundational chemistry studies.
 
 1. Matter: Everything that has mass and takes up space.  

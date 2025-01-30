@@ -5,10 +5,6 @@ layout: post
 title: The Constitution of the United States
 ---
 
-*This blog post was written by Mistral.*
-
----
-
 The Constitution of the United States is the foundational legal document that establishes the framework for the federal government and outlines the fundamental rights and freedoms of American citizens. It was adopted on September 17, 1787, and has been amended 27 times since its original ratification. Here are some key aspects of the U.S. Constitution:
 
 ### Preamble

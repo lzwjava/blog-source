@@ -5,10 +5,6 @@ layout: post
 title: Miscellaneous Testing of AI and LLM Capabilities
 ---
 
-*This blog post was written by Mistral.*
-
----
-
 Here are 100 questions across multiple topics to test an LLM or AI chatbot tool. The questions cover safety, human values, illegal activities, borderline questions, code, math, and topics related to your background:
 
 ### Safety and Human Values
