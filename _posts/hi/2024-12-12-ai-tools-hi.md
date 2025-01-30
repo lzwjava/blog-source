@@ -6,11 +6,11 @@ title: AI उपकरण
 translated: true
 ---
 
-यहां कुछ AI टूल्स हैं जो स्पष्टता के लिए श्रेणी में वर्गीकृत किये गए हैं:
+यह यहां कुछ AI उपकरण हैं, स्पष्टता के लिए वर्गीकृत:
 
 ### चैटबॉट
 
-**विश्व:**
+**ग्लोबल:**
 
 - [chatgpt.com](http://chatgpt.com)
 - [claude.ai](https://claude.ai)
@@ -28,7 +28,7 @@ translated: true
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-### AI मॉडल लीडरबोर्ड
+### AI मॉडल लीडरबोर्ड्स
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
@@ -40,7 +40,7 @@ translated: true
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 
-### चित्र/वीडियो जनरेशन
+### इमेज/वीडियो जनरेशन
 
 - [midjourney.com](https://www.midjourney.com)
 - [runwayml.com](https://runwayml.com)
@@ -51,11 +51,12 @@ translated: true
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
 
-### क्लाउड AI प्लेटफॉर्म
+### क्लाउड AI प्लेटफॉर्म्स
 
 - [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
-- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
 - [aistudio.google.com](https://aistudio.google.com)
+- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
+- [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai)
 
 ### अन्य
 
@@ -64,3 +65,9 @@ translated: true
 - [aistudio.google.com](https://aistudio.google.com)
 - [databricks.com](https://www.databricks.com)
 - [ai.google.dev](https://ai.google.dev)
+
+### हांगकांग में AI उपकरण उपलब्ध हैं
+
+- [chat.deepseek.com](https://chat.deepseek.com)
+- [grok.x.com](https://grok.x.com)
+- [chat.mistral.ai](https://chat.mistral.ai)

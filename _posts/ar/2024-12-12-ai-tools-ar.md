@@ -2,15 +2,15 @@
 audio: false
 lang: ar
 layout: post
-title: الأدوات الذكية
+title: أدوات الذكاء الاصطناعي
 translated: true
 ---
 
-إليك بعض من أدوات AI التي استخدمتها وتم تنظيمها لتوضيح:
+هذه بعض الأدوات الذكائية التي استخدمتها، مرتبة للوضوح:
 
-### واجهات برمجيات المحادثة
+### روبوتات الدردشة
 
-**عالمية:**
+**العالمية:**
 
 - [chatgpt.com](http://chatgpt.com)
 - [claude.ai](https://claude.ai)
@@ -22,46 +22,52 @@ translated: true
 - [chat.deepseek.com](https://chat.deepseek.com)
 - [perplexity.ai](https://perplexity.ai)
 
-**صينية:**
+**الصين:**
 
 - [kimi.moonshot.cn](https://kimi.moonshot.cn)
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-### جداول التصنيف لوحات AI
+### قوائم تصنيف نماذج الذكاء الاصطناعي
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
 - [TTS Arena](https://huggingface.co/spaces/TTS-AGI/TTS-Arena)
 
-### إنشاء الكود
+### توليد الكود
 
 - [cursor.com](https://www.cursor.com)
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 
-### إنشاء الصور/الفيديو
+### توليد الصور/الفيديو
 
 - [midjourney.com](https://www.midjourney.com)
 - [runwayml.com](https://runwayml.com)
 - [pika.art](https://pika.art)
 
-### إنشاء الصوت
+### توليد الصوت
 
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
 
-### منصات AI على السحابة
+### منصات الذكاء الاصطناعي السحابية
 
 - [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
 - [aistudio.google.com](https://aistudio.google.com)
 - [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
 - [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai)
 
-### آخر
+### أخرى
 
 - [huggingface.co](https://huggingface.co)
 - [kaggle.com](https://kaggle.com)
 - [aistudio.google.com](https://aistudio.google.com)
 - [databricks.com](https://www.databricks.com)
 - [ai.google.dev](https://ai.google.dev)
+
+### أدوات الذكاء الاصطناعي المتاحة في منغوليا
+
+- [chat.deepseek.com](https://chat.deepseek.com)
+- [grok.x.com](https://grok.x.com)
+- [chat.mistral.ai](https://chat.mistral.ai)

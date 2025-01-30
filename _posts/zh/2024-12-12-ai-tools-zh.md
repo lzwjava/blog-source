@@ -6,7 +6,7 @@ title: 人工智能工具
 translated: true
 ---
 
-这里是我使用过的一些AI工具，按类别分类：
+以下是一些我使用过的AI工具，按类别整理如下：
 
 ### 聊天机器人
 
@@ -40,7 +40,7 @@ translated: true
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 
-### 图片/视频生成
+### 图像/视频生成
 
 - [midjourney.com](https://www.midjourney.com)
 - [runwayml.com](https://runwayml.com)
@@ -51,7 +51,7 @@ translated: true
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
 
-### 云AI平台
+### 云端AI平台
 
 - [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
 - [aistudio.google.com](https://aistudio.google.com)
@@ -65,3 +65,9 @@ translated: true
 - [aistudio.google.com](https://aistudio.google.com)
 - [databricks.com](https://www.databricks.com)
 - [ai.google.dev](https://ai.google.dev)
+
+### 香港可用的AI工具
+
+- [chat.deepseek.com](https://chat.deepseek.com)
+- [grok.x.com](https://grok.x.com)
+- [chat.mistral.ai](https://chat.mistral.ai)

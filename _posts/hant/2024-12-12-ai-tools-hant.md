@@ -6,7 +6,7 @@ title: 人工智慧工具
 translated: true
 ---
 
-以下是我使用過的一些AI工具，按類別分類：
+以下是我使用過的一些 AI 工具，按類別分類以便澄清：
 
 ### 聊天機器人
 
@@ -28,7 +28,7 @@ translated: true
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-### AI模型排行榜
+### AI 模型排名
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
@@ -40,18 +40,18 @@ translated: true
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 
-### 圖片/視頻生成
+### 圖像/影片生成
 
 - [midjourney.com](https://www.midjourney.com)
 - [runwayml.com](https://runwayml.com)
 - [pika.art](https://pika.art)
 
-### 音頻生成
+### 音频生成
 
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
 
-### 雲端AI平台
+### 雲端 AI 平台
 
 - [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
 - [aistudio.google.com](https://aistudio.google.com)
@@ -65,3 +65,9 @@ translated: true
 - [aistudio.google.com](https://aistudio.google.com)
 - [databricks.com](https://www.databricks.com)
 - [ai.google.dev](https://ai.google.dev)
+
+### 在香港可用的 AI 工具
+
+- [chat.deepseek.com](https://chat.deepseek.com)
+- [grok.x.com](https://grok.x.com)
+- [chat.mistral.ai](https://chat.mistral.ai)

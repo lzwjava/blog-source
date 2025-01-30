@@ -6,11 +6,11 @@ title: Outils d'IA
 translated: true
 ---
 
-Voici quelques outils d'IA que j'ai utilisés, classés pour plus de clarté :
+Voici quelques outils d'IA que j'ai utilisés, catégorisés pour plus de clarté :
 
 ### Chatbots
 
-**Global :**
+**Global :**
 
 - [chatgpt.com](http://chatgpt.com)
 - [claude.ai](https://claude.ai)
@@ -22,13 +22,13 @@ Voici quelques outils d'IA que j'ai utilisés, classés pour plus de clarté :
 - [chat.deepseek.com](https://chat.deepseek.com)
 - [perplexity.ai](https://perplexity.ai)
 
-**Chine :**
+**Chine :**
 
 - [kimi.moonshot.cn](https://kimi.moonshot.cn)
 - [tongyi.aliyun.com](https://tongyi.aliyun.com)
 - [doubao.com](https://www.doubao.com/chat/)
 
-### Classements de Modèles d'IA
+### Classements des Modèles d'IA
 
 - [lmarena.ai](https://lmarena.ai/?leaderboard)
 - [scale.com](https://scale.com/leaderboard)
@@ -51,11 +51,12 @@ Voici quelques outils d'IA que j'ai utilisés, classés pour plus de clarté :
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
 
-### Plateformes d'IA Cloud
+### Plateformes Cloud IA
 
 - [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
-- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
 - [aistudio.google.com](https://aistudio.google.com)
+- [azure.microsoft.com/en-us/products/cognitive-services/openai-service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
+- [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai)
 
 ### Autres
 
@@ -64,3 +65,9 @@ Voici quelques outils d'IA que j'ai utilisés, classés pour plus de clarté :
 - [aistudio.google.com](https://aistudio.google.com)
 - [databricks.com](https://www.databricks.com)
 - [ai.google.dev](https://ai.google.dev)
+
+### Outils d'IA Disponibles à Hong Kong
+
+- [chat.deepseek.com](https://chat.deepseek.com)
+- [grok.x.com](https://grok.x.com)
+- [chat.mistral.ai](https://chat.mistral.ai)

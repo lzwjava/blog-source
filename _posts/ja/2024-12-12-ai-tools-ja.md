@@ -6,7 +6,7 @@ title: AIツール
 translated: true
 ---
 
-以下に使用したAIツールをカテゴリーごとに掲載しました：
+以下に、明確に分類した私は使ったAIツールの一覧を示します：
 
 ### チャットボット
 
@@ -40,13 +40,13 @@ translated: true
 - [github.com/features/copilot](https://github.com/features/copilot)
 - [codeium.com/windsurf](https://codeium.com/windsurf)
 
-### 画像/動画生成
+### 画像/ビデオ生成
 
 - [midjourney.com](https://www.midjourney.com)
 - [runwayml.com](https://runwayml.com)
 - [pika.art](https://pika.art)
 
-### オーディオ生成
+### 音声生成
 
 - [suno.com](https://suno.com)
 - [elevenlabs.io](https://elevenlabs.io)
@@ -65,3 +65,9 @@ translated: true
 - [aistudio.google.com](https://aistudio.google.com)
 - [databricks.com](https://www.databricks.com)
 - [ai.google.dev](https://ai.google.dev)
+
+### 香港で利用可能なAIツール
+
+- [chat.deepseek.com](https://chat.deepseek.com)
+- [grok.x.com](https://grok.x.com)
+- [chat.mistral.ai](https://chat.mistral.ai)
