@@ -82,6 +82,12 @@ python scripts/pdf_pipeline.py --task notes
 python scripts/generate_notes_link.py
 
 python scripts/auto-ss-config/upload_configs.py
+
+python scripts/epub_book.py notes
+
+python scripts/epub_book.py _posts/en
+
+python scripts/epub_book.py _posts/ja
 ```
 
 ## Scripts
