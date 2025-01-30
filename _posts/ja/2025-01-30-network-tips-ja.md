@@ -2,19 +2,19 @@
 audio: true
 lang: ja
 layout: post
-title: ネットワーク最適化のポイント
+title: ネットワーク最適化ノウハウ
 translated: true
 ---
 
-- 5G WiFi 信号または Ethernet ケーブルの使用を優先してください。
+役立つ、おすすめ:
 
-- Speedtest アプリを使用したり、https://www.speedtest.net を訪問して定期的に接続をテストしてください。
+- 5G WiFi 信号または Ethernet ケーブルを使用することをお勧めします。
 
-- traceroute、ping、dig/nslookup を使用してネットワーク診断を行ってください。
+- Speedtest アプリを使用して、または https://www.speedtest.net にアクセスして、定期的に接続をテストしてください。
 
-- [プロキシ サーバーのセットアップ](./diy-proxy-en)
+- ネットワーク診断には traceroute、ping、dig/nslookup を使用してください。
 
-- [ライトニング to エーテルネット アダプタ](./lightning-ethernet-en)
+- [プロキシ サーバーの設定](./diy-proxy-en)
 
 - [メッシュ ルーター](./mesh-router-en)
 
@@ -24,24 +24,26 @@ translated: true
 
 - [マカオ SIM カード](./macao-en)
 
-- [プロキシ サーバーの禁止の分析](./proxy-ban-en)
+- [プロキシ サーバー禁止の分析](./proxy-ban-en)
 
 - [Shadowsocks プロキシの問題](./shadowsocks-en)
 
-- [オープン ソース ツール: Auto SS Config](./auto-ss-config-en)
+- [オープンソースツール: Auto SS Config](./auto-ss-config-en)
+
+- [コマンドを実行する前にプロキシ設定を表示](./preexec-en)
+
+- [中国のプロキシソリューション - 2025](./proxy-en)
+
+試したこと:
 
 - [ネットワークケーブルテスター](./cable-tester-en)
 
 - [Wi-Fi 信号強度](./wifi-en)
 
-- [ライトニング to エーテルネット アダプタ](./lightning-ethernet-en)
-
-- [コマンドを実行する前にプロキシ設定を表示](./preexec-en)
-
-- [V2Ray を試してみてください: ステップバイステップ ガイド](./v2ray-en)
-
-- [V2Ray スクリプト](./v2ray-script-en)
+- [ライトニングと Ethernet アダプタ](./lightning-ethernet-en)
 
 - [プロキシ ツール: Squid と Danted](./squid-dante-en)
 
-- [中国でのプロキシ ソリューション - 2025](./proxy-en)
+- [Try V2Ray: ステップバイステップガイド](./v2ray-en)
+
+- [V2Ray スクリプト](./v2ray-script-en)

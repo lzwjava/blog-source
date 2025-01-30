@@ -2,46 +2,48 @@
 audio: true
 lang: ar
 layout: post
-title: النصائح لتحسين شبكة الإنترنت
+title: نصائح تحسين الشبكة
 translated: true
 ---
 
-- افضل استخدام تلقائي للاتصال الواي فاي 5G أو كابل إيثرنت.
+هام، موصى:
 
-- استخدم تطبيق Speedtest أو زور https://www.speedtest.net لمراجعة اتصالك بانتظام.
+- افضل استخدام إشارة WiFi 5G أو سلسلة كابل إيثرنت.
 
-- استخدم traceroute، ping، أو dig/nslookup لمراجعة الشبكة.
+- استخدم تطبيق Speedtest أو زيارة https://www.speedtest.net لاختبار اتصالك بانتظام.
 
-- [إعداد خادوم الممر المرموز](./diy-proxy-en)
+- استخدم traceroute، ping، أو dig/nslookup لمواصفات الشبكة.
 
-- [تحويلة إلى كابل إيثرنت](./lightning-ethernet-en)
+- [إعداد خادوم الشيفرة المركزية لك](./diy-proxy-en)
 
-- [راوتر مشبكي](./mesh-router-en)
+- [مسح المرشح](./mesh-router-en)
 
 - [مزودي السحابة](./cloud-providers-en)
 
-- [بعض نظام السحابة العالمية](./cloud-platforms-en)
+- [بعض أنظمة السحابة العالمية](./cloud-platforms-en)
 
-- [بطاقات SIM مقاطعة ماكاو](./macao-en)
+- [بطاقات SIM Macau](./macao-en)
 
-- [تحليل حظر الخادم المرموز](./proxy-ban-en)
+- [تحليل حظر خادم الشيفرة المركزية](./proxy-ban-en)
 
-- [مشاكل وسائط المرموزات Shadowsocks](./shadowsocks-en)
+- [مشاكل وسائط الشيفرة المركزية ل Shadowsocks](./shadowsocks-en)
 
-- [أداة مفتوحة المصدر: Auto SS Config](./auto-ss-config-en)
+- [أداة مفتوحة المصدر: تكوين Auto SS](./auto-ss-config-en)
 
-- [مخبر الكابل الشبكي](./cable-tester-en)
+- [عرض إعدادات الوسيط قبل تشغيل الأوامر](./preexec-en)
+
+- [حلول الوسائط في الصين - 2025](./proxy-en)
+
+محاولة:
+
+- [مختبر سلسلة الكابل](./cable-tester-en)
 
 - [قوة إشارة Wi-Fi](./wifi-en)
 
-- [تحويلة إلى كابل إيثرنت](./lightning-ethernet-en)
+- [محول Lightning إلى إيثرنت](./lightning-ethernet-en)
 
-- [عرض إعدادات المرموز قبل تشغيل الأوامر](./preexec-en)
+- [أداة الوسيط: Squid و Danted](./squid-dante-en)
 
-- [محاولة V2Ray: دليل خطوة بخطوة](./v2ray-en)
+- [استبعاد V2Ray: دليل خطوة بخطوة](./v2ray-en)
 
-- [نص البرمجية V2Ray](./v2ray-script-en)
-
-- [أداة المرموز: Squid و Danted](./squid-dante-en)
-
-- [حلول المرموز في الصين - 2025](./proxy-en)
+- [نص al-V2Ray](./v2ray-script-en)
