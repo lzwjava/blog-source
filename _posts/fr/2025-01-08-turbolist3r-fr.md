@@ -1,7 +1,8 @@
 ---
 audio: false
-disposition: article
-titre: 'Turbolist3r: Énumération des sous-domaines'
+layout: article
+title: 'Turbolist3r: Énumération des sous-domaines'
+lang: fr
 ---
 
 ## Turbolist3r
