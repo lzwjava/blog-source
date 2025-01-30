@@ -137,20 +137,7 @@ def text_to_speech(text, output_filename, task, language_code="en-US", dry_run=F
                     continue  # Move to the next chunk
                 else:
                     print(f"Error on chunk {idx + 1}: {e}")
-                    # Implement retry logic or other error handling as needed
-                    retries = 3
-                    for attempt in range(1, retries + 1):
-                        try:
-                            wait_time = 2 ** attempt
-                            print(f"Retrying chunk {idx + 1} in {wait_time} seconds (Attempt {attempt}/{retries})...")
-                            time.sleep(wait_time)
-                            response = client.synthesize_speech(input=synthesis_input, voice=voice, audio_config=audio_config)
-                            break  # Success
-                        except Exception as retry_e:
-                            print(f"Retry attempt {attempt} failed for chunk {idx + 1}: {retry_e}")
-                            if attempt == retries:
-                                print(f"Failed to process chunk {idx + 1} after {retries} attempts.")
-                                raise retry_e
+                    raise e
 
             with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as tmp_file:
                 tmp_file.write(response.audio_content)
@@ -159,7 +146,6 @@ def text_to_speech(text, output_filename, task, language_code="en-US", dry_run=F
             audio_segments.append(audio_segment)
             os.remove(temp_filename)
             print(f"Chunk {idx + 1}/{len(text_chunks)} processed.")
-
 
         if audio_segments:
             combined = audio_segments[0]
