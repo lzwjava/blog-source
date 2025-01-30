@@ -23,7 +23,7 @@ MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 
 def create_translation_prompt(target_language, type="content", special=False):
     if type == "title":
-        base_prompt = "Translate the following title to {target_language}. Provide only the translated title, without any additional notes or explanations.\n"
+        base_prompt = "Translate the following title to {target_language}. Provide only the translated title, without any additional notes or explanations. Do not repeat or mention the input text.\n"
     else:
         base_prompt = "Translate the following markdown text to {target_language}. Provide only the translated output, without any additional notes or explanations.\n"
     if target_language == 'ja':
