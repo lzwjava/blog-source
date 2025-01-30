@@ -1,8 +1,8 @@
 ---
-audio: true  
-lang: en  
-layout: post  
-title: The Cases Where We Still Need the GitHub Search Box  
+audio: true
+lang: en
+layout: post
+title: The Cases Where We Still Need the GitHub Search Box
 ---
 
 ```yaml

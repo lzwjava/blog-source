@@ -2,6 +2,7 @@
 layout: post
 title: Disclaimer
 audio: true
+lang: en
 ---
 
 ## Translation

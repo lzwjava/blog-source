@@ -1,8 +1,8 @@
 ---
-audio: true  
-lang: en  
-layout: post  
-title: Hacking 
+audio: true
+lang: en
+layout: post
+title: Hacking
 ---
 
 There are various ways to hack, and this topic is quite interesting. As a hobbyist White Hat Hacker, I find there is a lot of knowledge to learn in this field. Here, I will record some methods I’ve explored.

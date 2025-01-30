@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 趣直播创业心得分享
+audio: false
 ---
 
 ![](assets/images/startup/s0.jpg)

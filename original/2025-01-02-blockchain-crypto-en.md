@@ -1,7 +1,7 @@
 ---
-audio: true  
-lang: en  
-layout: post  
+audio: true
+lang: en
+layout: post
 title: Cryptocurrency and Blockchain
 top: 10
 ---

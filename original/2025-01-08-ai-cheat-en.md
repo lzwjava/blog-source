@@ -1,6 +1,8 @@
 ---
-layout: post  
+layout: post
 title: "Emphasize Judgment Over Worrying About AI Cheating"
+lang: en
+audio: false
 ---
 
 - AI cheating is pervasive and, likely, impossible to fully eliminate.

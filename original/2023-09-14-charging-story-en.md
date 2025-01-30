@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Battling Charging Problems with My Electric Car
+audio: false
 ---
 
 I fully charged my car in Zogang, which has a range of 400km on a full charge. I began my drive to Markam, a distance of about 160km. At that point, the car displayed a remaining range of around 250km.

@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: My Good Buys
+audio: false
 ---
 
 <div align="center"><img src="/assets/images/buys/buys.jpg" width="400px" /><img/></div>

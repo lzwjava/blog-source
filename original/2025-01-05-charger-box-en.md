@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: Smart Universal Charger Box 
+title: Smart Universal Charger Box
 ---
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">

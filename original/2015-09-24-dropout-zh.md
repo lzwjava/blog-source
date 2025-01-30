@@ -2,6 +2,7 @@
 lang: zh
 layout: post
 title: 退学申请书
+audio: false
 ---
 
 尊敬的校领导：

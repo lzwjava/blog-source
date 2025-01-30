@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Developer Mode of iOS and ideviceinstaller
+audio: false
 ---
 
 ## Developer Mode

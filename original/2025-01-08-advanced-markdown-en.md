@@ -1,6 +1,8 @@
 ---
-layout: post  
+layout: post
 title: "Advanced Markdown Usage"
+lang: en
+audio: false
 ---
 
 ## References

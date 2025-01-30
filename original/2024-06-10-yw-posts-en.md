@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: English Translation of Yin Wang's Blog Posts
+audio: false
 ---
 
 Translated from [yinwang.org](https://www.yinwang.org).

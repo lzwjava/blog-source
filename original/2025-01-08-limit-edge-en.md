@@ -1,7 +1,7 @@
 ---
-audio: true  
-lang: en  
-layout: post  
+audio: true
+lang: en
+layout: post
 title: Limits and Edge Cases
 ---
 

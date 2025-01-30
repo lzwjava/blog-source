@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: Mesh Router 
+title: Mesh Router
 ---
 
 ## TP-Link AX3000 - TL-XDR 3050

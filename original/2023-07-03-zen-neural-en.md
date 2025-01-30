@@ -3,6 +3,7 @@ lang: en
 layout: post
 title: Zen and the Art of Machine Learning
 usemathjax: true
+audio: false
 ---
 
 ## Zen

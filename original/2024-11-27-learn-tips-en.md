@@ -2,6 +2,7 @@
 lang: en
 layout: post
 title: Learning Tips
+audio: false
 ---
 
 * Treat learning as a hobby by approaching with playfulness and genuine interest.

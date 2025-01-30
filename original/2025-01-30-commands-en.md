@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: Commands 
+title: Commands
 translated: false
 ---
 

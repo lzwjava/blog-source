@@ -1,7 +1,8 @@
 import os
 import re
-import yaml
+from ruamel.yaml import YAML
 import json
+from io import StringIO
 
 def update_front_matter(file_path, audio_flag=False, lang=None):
     try:
@@ -19,7 +20,10 @@ def update_front_matter(file_path, audio_flag=False, lang=None):
             print(f"No front matter found in {file_path}")
             raise Exception(f"No front matter found in {file_path}")
         
-        front_matter_dict = yaml.safe_load(front_matter)
+        yaml = YAML()
+        yaml.preserve_quotes = True
+        yaml.indent(mapping=2, sequence=4, offset=2)
+        front_matter_dict = yaml.load(front_matter)
         
         if lang:
             if 'lang' in front_matter_dict:
@@ -36,7 +40,11 @@ def update_front_matter(file_path, audio_flag=False, lang=None):
             if 'audio' not in front_matter_dict:
                 front_matter_dict['audio'] = False
         
-        updated_front_matter = "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
+        
+        
+        string_stream = StringIO()
+        yaml.dump(front_matter_dict, string_stream)
+        updated_front_matter = "---\n" + string_stream.getvalue() + "---"
         updated_content = updated_front_matter + content[len(front_matter_match.group(0)):] if front_matter_match else updated_front_matter + content
         
         with open(file_path, 'w', encoding='utf-8') as outfile:
