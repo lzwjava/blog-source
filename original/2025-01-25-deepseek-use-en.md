@@ -60,3 +60,4 @@ The number of input tokens is 340,802, and the number of output tokens is 681,60
 
 So the total cost is 340,802 * 0.2 / 1000000 + 681,605 * 0.6 / 1000000 = 0.07 + 0.41 = 0.48 USD.
 
+The Mistral console gives a total usage cost of 0.43 USD, which approximately matches our calculation.
