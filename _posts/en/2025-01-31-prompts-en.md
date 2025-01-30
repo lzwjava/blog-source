@@ -35,3 +35,8 @@ Generate a happy Lunar Snake New Year image with text names included
 
 ---
 
+Create a 480p YouTube video cover image with below elements, AI, shark, futuristic, vivid, colorful, sunrise, city with super large text DeepSeek R1 in the center
+
+---
+
+Create a YouTube title for Deepseek R1. The title should include the main technologies used.
