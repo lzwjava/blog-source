@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: Network Tips
+title: Network Optimization Tips
 translated: false
 ---
 
