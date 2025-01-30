@@ -1,58 +1,49 @@
----
-lang: ja
-layout: post
-title: 'Turbolist3r: サブドメインの列挙'
-translated: true
----
+
 
 ## Turbolist3r
 
-[GitHub上のTurbolist3r](https://github.com/fleetcaptain/Turbolist3r)
+[Turbolist3r on GitHub](https://github.com/fleetcaptain/Turbolist3r)
 
-Ahmed Aboul-Ela（@aboul3la）による[Sublist3r](https://github.com/aboul3la/Sublist3r)を基にしています  
-Carl Pearsonによってフォークされました - [GitHub](https://github.com/fleetcaptain)
+[Sublist3r](https://github.com/aboul3la/Sublist3r) を基にしており、Ahmed Aboul-Ela - @aboul3la によって作成されています。Carl Pearson によってフォークされました - [GitHub](https://github.com/fleetcaptain)
 
 ```bash
 python turbolist3r.py -d google.com
 ```
 
-このコマンドは、`turbolist3r.py`というPythonスクリプトを実行し、`google.com`というドメインに対してサブドメインの列挙を行います。`-d`オプションは、調査対象のドメインを指定するために使用されます。
-
 ## Sublist3r
 
-試してみました。https://github.com/aboul3la/Sublist3r
+試してみた。https://github.com/aboul3la/Sublist3r
 
 ```bash
 % python sublist3r.py -d google.com
-🚀 **プロキシ設定が検出されました:**
+🚀 **Proxy Settings Detected:**
    - HTTP_PROXY: http://127.0.0.1:7890
    - HTTPS_PROXY: http://127.0.0.1:7890
-```
 
-```
                  ____        _     _ _     _   _____
                 / ___| _   _| |__ | (_)___| |_|___ / _ __
                 \___ \| | | | '_ \| | / __| __| |_ \| '__|
                  ___) | |_| | |_) | | \__ \ |_ ___) | |
                 |____/ \__,_|_.__/|_|_|___/\__|____/|_|
-```
 
-# コーディング：Ahmed Aboul-Ela - @aboul3la
+                # Coded By Ahmed Aboul-Ela - @aboul3la
 
-[-] google.comのサブドメインを列挙中
-[-] Baiduで検索中..
-[-] Yahooで検索中..
-[-] Googleで検索中..
-[-] Bingで検索中..
-[-] Askで検索中..
-[-] Netcraftで検索中..
-[-] DNSdumpsterで検索中..
-[-] Virustotalで検索中..
-[-] ThreatCrowdで検索中..
-[-] SSL証明書で検索中..
-[-] PassiveDNSで検索中..
+[-] サブドメインの列挙を開始しています google.com
+[-] 今 Baidu で検索しています..
+[-] 今 Yahoo で検索しています..
+[-] 今 Google で検索しています..
+[-] 今 Bing で検索しています..
+[-] 今 Ask で検索しています..
+[-] 今 Netcraft で検索しています..
+[-] 今 DNSdumpster で検索しています..
+[-] 今 Virustotal で検索しています..
+[-] 今 ThreatCrowd で検索しています..
+[-] 今 SSL 証明書で検索しています..
+[-] 今 PassiveDNS で検索しています..
 プロセス DNSdumpster-8:
-トレースバック (最新の呼び出し順):
+
+```python
+Traceback (most recent call last):
   File "/Users/lzwjava/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
     self.run()
   File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 268, in run
@@ -62,8 +53,8 @@ python turbolist3r.py -d google.com
   File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 641, in get_csrftoken
     token = csrf_regex.findall(resp)[0]
 IndexError: list index out of range
-[!] エラー: Virustotalがおそらくリクエストをブロックしています
-[-] 見つかったユニークなサブドメインの総数: 97
+[!] エラー: Virustotal は現在、私たちのリクエストをブロックしている可能性があります
+[-] 一意のサブドメインが発見されました: 97
 www.google.com
 accounts.google.com
 freezone.accounts.google.com
@@ -162,4 +153,3 @@ upload.video.google.com
 wifi.google.com
 onex.wifi.google.com
 ```
-

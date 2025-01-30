@@ -1,16 +1,17 @@
+
+
 ---
-lang: ar
-layout: post
-title: 'Turbolist3r: تعداد النطاقات الفرعية'
-translated: true
+
+التخطيط: المقال
+العنوان: "Turbolist3r: إحصائية التطورات الدفقية"
 ---
 
 ## Turbolist3r
 
 [Turbolist3r على GitHub](https://github.com/fleetcaptain/Turbolist3r)
 
-بناءً على [Sublist3r](https://github.com/aboul3la/Sublist3r) بواسطة أحمد أبو العلا - @aboul3la  
-تم التفرع بواسطة كارل بيرسون - [GitHub](https://github.com/fleetcaptain)
+المستنير على [Sublist3r](https://github.com/aboul3la/Sublist3r) من أحمد أبو العلا - @aboul3la
+النسخة المصدرية من كارل بيرسون - [GitHub](https://github.com/fleetcaptain)
 
 ```bash
 python turbolist3r.py -d google.com
@@ -18,26 +19,24 @@ python turbolist3r.py -d google.com
 
 ## Sublist3r
 
-تمت المحاولة. https://github.com/aboul3la/Sublist3r
+محاولة. https://github.com/aboul3la/Sublist3r
 
 ```bash
 % python sublist3r.py -d google.com
-🚀 **تم الكشف عن إعدادات البروكسي:**
+🚀 **إعدادات السراج تم الكشف عليها:**
    - HTTP_PROXY: http://127.0.0.1:7890
    - HTTPS_PROXY: http://127.0.0.1:7890
-```
 
-```
+
                  ____        _     _ _     _   _____
                 / ___| _   _| |__ | (_)___| |_|___ / _ __
                 \___ \| | | | '_ \| | / __| __| |_ \| '__|
                  ___) | |_| | |_) | | \__ \ |_ ___) | |
                 |____/ \__,_|_.__/|_|_|___/\__|____/|_|
-```
 
-                # تمت البرمجة بواسطة أحمد أبو العلا - @aboul3la
+                # تم برمجته من أحمد أبو العلا - @aboul3la
 
-[-] تعداد النطاقات الفرعية الآن لـ google.com
+[-] البحث عن التطورات الدفقية الآن لgoogle.com
 [-] البحث الآن في Baidu..
 [-] البحث الآن في Yahoo..
 [-] البحث الآن في Google..
@@ -49,19 +48,19 @@ python turbolist3r.py -d google.com
 [-] البحث الآن في ThreatCrowd..
 [-] البحث الآن في شهادات SSL..
 [-] البحث الآن في PassiveDNS..
-عملية DNSdumpster-8:
-Traceback (آخر استدعاء أخير):
-  ملف "/Users/lzwjava/anaconda3/lib/python3.10/multiprocessing/process.py"، السطر 314، في _bootstrap
+إنتقال DNSdumpster-8:
+Traceback (most recent call last):
+  File "/Users/lzwjava/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
     self.run()
-  ملف "/Users/lzwjava/projects/Sublist3r/sublist3r.py"، السطر 268، في run
+  File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 268, in run
     domain_list = self.enumerate()
-  ملف "/Users/lzwjava/projects/Sublist3r/sublist3r.py"، السطر 647، في enumerate
+  File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 647, in enumerate
     token = self.get_csrftoken(resp)
-  ملف "/Users/lzwjava/projects/Sublist3r/sublist3r.py"، السطر 641، في get_csrftoken
+  File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 641, in get_csrftoken
     token = csrf_regex.findall(resp)[0]
-IndexError: الفهرس خارج النطاق
-[!] خطأ: Virustotal ربما يقوم الآن بحظر طلباتنا
-[-] إجمالي النطاقات الفرعية الفريدة التي تم العثور عليها: 97
+IndexError: list index out of range
+[!] خطأ: يبدو أن Virustotal الآن يحظر طلباتنا
+[-] عدد تُصفح التطورات الدفقية المميزة: 97
 www.google.com
 accounts.google.com
 freezone.accounts.google.com
@@ -160,4 +159,3 @@ upload.video.google.com
 wifi.google.com
 onex.wifi.google.com
 ```
-

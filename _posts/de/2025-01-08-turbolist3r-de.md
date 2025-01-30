@@ -1,16 +1,17 @@
+
+
 ---
-lang: de
+
 layout: post
-title: 'Turbolist3r: Subdomains aufzählen'
-translated: true
+title: "Turbolist3r: Auflisten von Subdomains"
 ---
 
 ## Turbolist3r
 
 [Turbolist3r auf GitHub](https://github.com/fleetcaptain/Turbolist3r)
 
-Basierend auf [Sublist3r](https://github.com/aboul3la/Sublist3r) von Ahmed Aboul-Ela - @aboul3la  
-Geforkt von Carl Pearson - [GitHub](https://github.com/fleetcaptain)
+Basiert auf [Sublist3r](https://github.com/aboul3la/Sublist3r) von Ahmed Aboul-Ela - @aboul3la
+Forked von Carl Pearson - [GitHub](https://github.com/fleetcaptain)
 
 ```bash
 python turbolist3r.py -d google.com
@@ -18,26 +19,23 @@ python turbolist3r.py -d google.com
 
 ## Sublist3r
 
-Ausprobiert. https://github.com/aboul3la/Sublist3r
+Getestet. https://github.com/aboul3la/Sublist3r
 
 ```bash
-% python sublist3r.py -d google.com
+% python  sublist3r.py -d google.com
 🚀 **Proxy-Einstellungen erkannt:**
    - HTTP_PROXY: http://127.0.0.1:7890
    - HTTPS_PROXY: http://127.0.0.1:7890
-```
 
-```
                  ____        _     _ _     _   _____
                 / ___| _   _| |__ | (_)___| |_|___ / _ __
                 \___ \| | | | '_ \| | / __| __| |_ \| '__|
                  ___) | |_| | |_) | | \__ \ |_ ___) | |
                 |____/ \__,_|_.__/|_|_|___/\__|____/|_|
-```
 
-                # Codiert von Ahmed Aboul-Ela - @aboul3la
+                # Programmiert von Ahmed Aboul-Ela - @aboul3la
 
-[-] Auflistung der Subdomains für google.com läuft
+[-] Beginne mit dem Auflisten der Subdomains für google.com
 [-] Suche jetzt in Baidu..
 [-] Suche jetzt in Yahoo..
 [-] Suche jetzt in Google..
@@ -49,19 +47,19 @@ Ausprobiert. https://github.com/aboul3la/Sublist3r
 [-] Suche jetzt in ThreatCrowd..
 [-] Suche jetzt in SSL-Zertifikaten..
 [-] Suche jetzt in PassiveDNS..
-Prozess DNSdumpster-8:
-Traceback (zuletzt aufgerufene Datei zuerst):
-  Datei "/Users/lzwjava/anaconda3/lib/python3.10/multiprocessing/process.py", Zeile 314, in _bootstrap
+Process DNSdumpster-8:
+Traceback (most recent call last):
+  File "/Users/lzwjava/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
     self.run()
-  Datei "/Users/lzwjava/projects/Sublist3r/sublist3r.py", Zeile 268, in run
+  File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 268, in run
     domain_list = self.enumerate()
-  Datei "/Users/lzwjava/projects/Sublist3r/sublist3r.py", Zeile 647, in enumerate
+  File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 647, in enumerate
     token = self.get_csrftoken(resp)
-  Datei "/Users/lzwjava/projects/Sublist3r/sublist3r.py", Zeile 641, in get_csrftoken
+  File "/Users/lzwjava/projects/Sublist3r/sublist3r.py", line 641, in get_csrftoken
     token = csrf_regex.findall(resp)[0]
-IndexError: Listenindex außerhalb des gültigen Bereichs
+IndexError: list index out of range
 [!] Fehler: Virustotal blockiert wahrscheinlich unsere Anfragen
-[-] Insgesamt gefundene eindeutige Subdomains: 97
+[-] Gesamt eindeutige Subdomains gefunden: 97
 www.google.com
 accounts.google.com
 freezone.accounts.google.com
@@ -159,5 +157,3 @@ dg.video.google.com
 upload.video.google.com
 wifi.google.com
 onex.wifi.google.com
-```
-
