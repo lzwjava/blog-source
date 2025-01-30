@@ -1,0 +1,35 @@
+---
+audio: false
+lang: en
+layout: post
+title: Useful Prompts
+translated: false
+---
+
+
+
+Translate the following posts or words into Chinese, ensuring that names (e.g., people, places, brands, or specific terms) are not translated and remain in their original form. Only translate the surrounding text into Chinese.
+
+---
+
+Create a natural and extended conversation between two experts, A and B, with at least 100 turns. The experts should discuss a specific topic in depth, with the conversation flowing back and forth. Both participants should ask questions, share insights, and explore the nuances of the subject matter. The format should be as follows:
+
+```json
+[
+    {
+      "speaker": "A",
+      "line": "Hey, I’ve been hearing a lot about some topic. Can you break it down for me?"
+    },
+    {
+      "speaker": "B",
+      "line": "Sure! Let’s start with the basics. ..."
+    }
+]
+```
+
+---
+
+Generate a happy Lunar Snake New Year image with text names included
+
+---
+
