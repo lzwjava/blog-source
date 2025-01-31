@@ -6,20 +6,20 @@ title: Feiertagskalender 2025
 translated: true
 ---
 
-Ich habe für singapurische und hongkonger Unternehmen gearbeitet, also habe ich AI gebeten, mir bei der Planung der diesjährigen Ferien zu helfen. Ich habe auch die USA hinzugefügt, da ich US-Aktien verfolge.
+Ich habe für singapurische und hongkongische Unternehmen gearbeitet und konsultierte KI, um den diesjährigen Feiertagskalender zu erstellen. Derzeit arbeite ich an einem Projekt bei einer Bank und warte auf deren offiziellen Feiertagskalender. Es sieht so aus, als würden wir dem Hongkonger Kalender folgen. Ich habe auch die USA-Feiertage aufgrund meines Interesses an den US-Aktienmärkten aufgenommen.
 
 ---
 
 ## China
 
-Feiertage in China für 2025:
+Chinesische öffentliche Feiertage für 2025:
 
 1. **Neujahr (元旦)**
    - Datum: 1. Januar 2025
    - Dauer: 1 Tag
 
 2. **Frühlingsfest (Chinesisches Neujahr) (春节)**
-   - Datum: 29. Januar - 4. Februar 2025
+   - Datum: 29. Januar – 4. Februar 2025
    - Dauer: 7 Tage
 
 3. **Qingming-Fest (清明节)**
@@ -30,11 +30,11 @@ Feiertage in China für 2025:
    - Datum: 1. Mai 2025
    - Dauer: 1 Tag
 
-5. **Drachenschiff-Fest (端午节)**
+5. **Drachenbootfest (端午节)**
    - Datum: 6. Juni 2025
    - Dauer: 1 Tag
 
-6. **Mittleres Herbstfest (中秋节)**
+6. **Mittsommerfest (中秋节)**
    - Datum: 19. September 2025
    - Dauer: 1 Tag
 
@@ -44,22 +44,22 @@ Feiertage in China für 2025:
 
 ## Hong Kong
 
-Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025, wobei die Tage des Mondneujahrs kombiniert sind:
+Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025, wobei die Tage des Lunar New Year kombiniert sind:
 
-1. **Erster Januar**
+1. **Der erste Tag des Januars**
    - Datum: 1. Januar 2025
 
-2. **Mondneujahr**
-   - Datum: 29. Januar - 1. Februar 2025
+2. **Lunar New Year**
+   - Datum: 29. Januar – 1. Februar 2025
    - Dauer: 4 Tage
 
-3. **Ching Ming Fest**
+3. **Ching Ming Festival**
    - Datum: 4. April 2025
 
 4. **Karfreitag**
    - Datum: 18. April 2025
 
-5. **Tag nach Karfreitag**
+5. **Der Tag nach Karfreitag**
    - Datum: 19. April 2025
 
 6. **Ostermontag**
@@ -71,19 +71,19 @@ Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025
 8. **Buddhas Geburtstag**
    - Datum: 20. Mai 2025
 
-9. **Tuen Ng Fest**
+9. **Tuen Ng Festival**
    - Datum: 6. Juni 2025
 
 10. **Tag der Gründung der Sonderverwaltungsregion Hongkong**
     - Datum: 1. Juli 2025
 
-11. **Tag nach dem chinesischen Mittleren Herbstfest**
+11. **Der Tag nach dem chinesischen Mittsommerfest**
     - Datum: 20. September 2025
 
-12. **Chinesisches Mittleres Herbstfest**
+12. **Chinesisches Mittsommerfest**
     - Datum: 21. September 2025
 
-13. **Chung Yeung Fest**
+13. **Chung Yeung Festival**
     - Datum: 5. Oktober 2025
 
 14. **Chinesischer Nationalfeiertag**
@@ -92,7 +92,7 @@ Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025
 15. **Weihnachten**
     - Datum: 25. Dezember 2025
 
-16. **Erster Werktag nach Weihnachten**
+16. **Der erste Werktag nach Weihnachten**
     - Datum: 26. Dezember 2025
 
 ## Singapur
@@ -115,7 +115,7 @@ Hier ist eine saubere Liste der offiziellen Feiertage Singapurs für 2025:
 5. **Tag der Arbeit**
    - Datum: 1. Mai 2025
 
-6. **Vesak Tag**
+6. **Vesak Day**
    - Datum: 20. Mai 2025
 
 7. **Hari Raya Haji**
@@ -128,7 +128,7 @@ Hier ist eine saubere Liste der offiziellen Feiertage Singapurs für 2025:
    - Datum: 20. Oktober 2025
 
 10. **Weihnachten**
-    - Datum: 25. Dezember 2025.
+    - Datum: 25. Dezember 2025
 
 ## USA
 
@@ -137,10 +137,10 @@ Hier ist eine saubere Liste der offiziellen Feiertage der USA für 2025:
 1. **Neujahr**
    - Datum: 1. Januar 2025
 
-2. **Martin Luther King Jr. Tag**
+2. **Martin Luther King Jr. Day**
    - Datum: 20. Januar 2025
 
-3. **Washingtons Geburtstag (Präsidententag)**
+3. **Washington's Birthday (Presidents' Day)**
    - Datum: 17. Februar 2025
 
 4. **Memorial Day**
@@ -161,8 +161,8 @@ Hier ist eine saubere Liste der offiziellen Feiertage der USA für 2025:
 9. **Veterans Day**
    - Datum: 11. November 2025
 
-10. **Erntedankfest**
+10. **Thanksgiving Day**
     - Datum: 27. November 2025
 
 11. **Weihnachten**
-    - Datum: 25. Dezember 2025.
+    - Datum: 25. Dezember 2025
