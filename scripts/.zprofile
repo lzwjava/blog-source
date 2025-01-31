@@ -51,7 +51,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 start_proxy
 # start_git_proxy
 
-alias gpa='python ~/bin/gitmessageai.py --api mistral'
+alias gpa= 'python ~/bin/gitmessageai.py --api mistral --allow-pull-push'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 
