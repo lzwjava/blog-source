@@ -14,7 +14,7 @@ load_dotenv()
 
 # Set up argument parsing
 parser = argparse.ArgumentParser(description="Evaluate MMLU dataset with different backends.")
-parser.add_argument("--type", type=str, default="ollama", choices=["ollama", "llama", "deepseek", "gemini"], help="Backend type: ollama, llama, deepseek, or gemini")
+parser.add_argument("--type", type=str, default="ollama", choices=["ollama", "llama", "deepseek", "gemini", "mistral"], help="Backend type: ollama, llama, deepseek, gemini or mistral")
 parser.add_argument("--model", type=str, default="", help="Model name")
 
 args = parser.parse_args()
@@ -61,6 +61,56 @@ def call_gemini_api(prompt, retries=3, backoff_factor=1):
         else:
             raise Exception(f"Gemini API Error: {response.status_code} - {response_json}")
     return None
+
+def call_mistral_api(prompt, model="mistral-small-2501", process_response=True):
+    api_key = os.environ.get("MISTRAL_API_KEY")
+    if not api_key:
+        print("Error: MISTRAL_API_KEY environment variable not set.")
+        return None
+    
+    url = "https://api.mistral.ai/v1/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "Authorization": f"Bearer {api_key}"
+    }
+    data = {
+        "model": model,
+        "messages": [
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+    }
+    print(f"Input to Mistral API: {data}")
+    print(f"Mistral API URL: {url}")
+    print(f"Mistral API Headers: {headers}")
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        response.raise_for_status()
+        response_json = response.json()
+        print(response_json)
+        if response_json and response_json['choices']:
+            content = response_json['choices'][0]['message']['content']
+            if process_response:
+                return process_mistral_response(content)
+            else:
+                return content
+        else:
+            print(f"Mistral API Error: Invalid response format: {response_json}")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"Mistral API Error: {e}") 
+        stre = f"{e}"
+        if '429' in  stre:
+            # print(f"Response status code: {e.response.status_code}")
+            # print(f"Response content: {e.response.text}")
+            print("Too many requests, sleeping for 10 seconds and retrying")
+            time.sleep(10)
+            return call_mistral_api(prompt, model, process_response)
+
+        raise e
 
 import re
 
@@ -150,6 +200,15 @@ def process_deepseek_response(client, prompt, model="deepseek-chat", retries=3, 
                 return ""
     return ""
 
+def process_mistral_response(response):
+    if response:
+        output_text = response.strip()
+        predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
+        print(f"Output from API: {output_text}")
+        return predicted_answer
+    else:
+        print("Error: No response from Mistral API")
+        return ""
 
 def process_gemini_response(prompt):
     json_response = call_gemini_api(prompt)
@@ -201,6 +260,7 @@ def _call_llama_api(prompt):
     response = requests.post(url, headers=headers, data=json.dumps(data))
     return process_llama_response(response)
 
+
 def _get_predicted_answer(args, prompt, client):
     predicted_answer = ""
     if args.type == "ollama":
@@ -211,6 +271,8 @@ def _get_predicted_answer(args, prompt, client):
         predicted_answer = process_deepseek_response(client, prompt, args.model)
     elif args.type == "gemini":
         predicted_answer = process_gemini_response(prompt)
+    elif args.type == "mistral":
+        predicted_answer = call_mistral_api(prompt, args.model)
     else:
         raise ValueError("Invalid backend type")
     return predicted_answer
@@ -228,6 +290,8 @@ def evaluate_model(args, dataset):
             args.model = "mistral:7b"
         elif args.type == "deepseek":
             args.model = "deepseek-chat"
+        elif args.type == "mistral":
+            args.model = "mistral-small-latest"
 
     for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"):
         prompt = format_mmlu_prompt(example)

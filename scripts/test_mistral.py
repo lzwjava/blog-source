@@ -2,6 +2,7 @@ import os
 import requests
 from dotenv import load_dotenv
 import argparse
+import json
 
 load_dotenv()
 
@@ -26,6 +27,9 @@ def call_mistral_api(prompt, model="mistral-small-2501"):
             }
         ]
     }
+    print(f"Mistral API URL: {url}")
+    print(f"Mistral API Headers: {headers}")
+    print(f"Mistral API Data: {data}")
     try:
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()
@@ -63,6 +67,9 @@ def call_codestral_api(prompt, model="codestral-latest"):
         "max_tokens": 64,
         "temperature": 0
     }
+    print(f"Codestral API URL: {url}")
+    print(f"Codestral API Headers: {headers}")
+    print(f"Codestral API Data: {json.dumps(data)}")
     try:
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()
