@@ -46,6 +46,9 @@ function stop_git_proxy {
   git config --global --unset https.proxy
 }
 
+conda config --set proxy_servers.http $HTTP_PROXY
+conda config --set proxy_servers.https $HTTP_PROXY
+
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 start_proxy
