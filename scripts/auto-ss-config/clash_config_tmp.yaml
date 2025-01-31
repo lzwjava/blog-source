@@ -60,11 +60,28 @@ proxies:
     udp: true
     plugin: ""
     plugin-opts: {}
+  - name: My SS Proxy 2
+    type: ss
+    server: 143.198.0.0
+    port: 1479
+    cipher: chacha20-ietf-poly1305
+    password: rK8Cai1SrW9QbDITWcvGIK
+    udp: true
+    plugin: ""
+    plugin-opts: {}
+
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
       - My SS Proxy 1
+      - My SS Proxy 2
+  - name: "AI"
+    type: select
+    proxies:
+      - My SS Proxy 1
+      - My SS Proxy 2    
+
 rule-providers:
   Global:
     type: http
@@ -84,8 +101,15 @@ rule-providers:
     path: ./Rules/ChinaIP.yaml
     url: https://cdn.gitmirror.com/gh/tututo/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml
     interval: 86400
+  ChatGPT:
+    type: http
+    behavior: classical
+    path: ./Rules/ChatGPT.yaml
+    url: https://jsd.onmicrosoft.cn/gh/tututo/RuleFiles@main/Clash/Provider/AI%20Suite.yaml
+    interval: 86400
 
 rules:
+  - RULE-SET,ChatGPT,AI
   - RULE-SET,Global,Proxy
   - RULE-SET,China,DIRECT
   - RULE-SET,ChinaIP,DIRECT

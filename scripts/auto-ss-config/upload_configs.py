@@ -77,7 +77,7 @@ def generate_clash_config(ss_urls):
 
     if not proxies:
         logger.error("No valid SS URLs found in config file")
-        return
+        return None
 
     logger.info(f"Found {len(proxies)} valid SS proxies")
 
@@ -115,6 +115,10 @@ def generate_ss_urls_file(ss_urls):
     return output_file_path
 
 def upload_file(bucket_name, source_file, destination_blob_name):
+    if source_file is None:
+        logger.error("Source file is None, skipping upload")
+        return None
+        
     storage_client = storage.Client()
     bucket = storage_client.bucket(bucket_name)
     blob = bucket.blob(destination_blob_name)
@@ -133,6 +137,9 @@ def main():
 
     bucket_name = config['bucket_name']
     ss_urls = config['ss_urls']
+
+    if len(ss_urls) != 2:
+        raise ValueError("app_config.yaml must contain exactly 2 SS URLs")
     
     logger.info("Generating Clash config...")
     clash_config_file = generate_clash_config(ss_urls)
