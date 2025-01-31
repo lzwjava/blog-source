@@ -99,7 +99,7 @@ def call_deepseek_api(prompt):
         print(e)
         return None
 
-def gitmessageai(push=True, only_message=False, api='deepseek'):
+def gitmessageai(push=True, only_message=False, api='deepseek', allow_pull_push=False):
     # Stage all changes
     subprocess.run(["git", "add", "-A"], check=True)    
 
@@ -189,7 +189,16 @@ Changed files:
 
     # Push the changes
     if push:
-        subprocess.run(["git", "push"], check=True)
+        try:
+            subprocess.run(["git", "push"], check=True)
+        except subprocess.CalledProcessError as e:
+            if allow_pull_push:
+                print("Push failed, attempting pull and push...")
+                subprocess.run(["git", "pull", "--rebase"], check=True)
+                subprocess.run(["git", "push"], check=True)
+            else:
+                print("Push failed.")
+                raise e
     else:
         print("Changes committed locally, but not pushed.")
 
@@ -198,5 +207,8 @@ if __name__ == "__main__":
     parser.add_argument('--no-push', dest='push', action='store_false', help='Commit changes locally without pushing.')
     parser.add_argument('--only-message', dest='only_message', action='store_true', help='Only print the AI generated commit message.')
     parser.add_argument('--api', type=str, default='mistral', choices=['deepseek', 'gemini', 'mistral'], help='API to use for commit message generation (deepseek, gemini, or mistral).')
+    parser.add_argument('--allow-pull-push', dest='allow_pull_push', action='store_true', help='Allow git pull and push if git push failed.')
+
     args = parser.parse_args()
-    gitmessageai(push=args.push, only_message=args.only_message, api=args.api)
+    gitmessageai(push=args.push, only_message=args.only_message, api=args.api, allow_pull_push=args.allow_pull_push)
+    
