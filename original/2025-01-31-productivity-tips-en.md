@@ -22,3 +22,5 @@ translated: false
 
 * I read parts of "The Mythical Man-Month" by Fred Brooks. Its principles about software project management remain relevant in the long term.
 
+* No famous person or genius can work for you - you need to try their methods yourself and see if they work for you.
+
