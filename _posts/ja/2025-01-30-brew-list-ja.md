@@ -1,84 +1,225 @@
 ---
-audio: false
+audio: true
 lang: ja
 layout: post
-title: インストールするホームブリューパッケージ
+title: 私はインストールするHomebrewパッケージ
 translated: true
 ---
 
-### Formulae
+% brew list
 
-| ack         | gd           | libcutl       |
-| aom         | gdbm         | libde265      |
-| apr         | gettext      | libdeflate    |
-| apr-util    | ghostscript  | libevent      |
-| argon2      | giflib       | libgcrypt     |
-| aribb24     | git-lfs      | libgpg-error  |
-| autoconf    | glib         | libheif       |
-| awscli      | gmp          | libidn        |
-| azure-cli   | gnupg        | libidn2       |
-| berkeley-db@5 | gnutls      | libimobiledevice |
-| brotli      | gpgme        | libimobiledevice-glue |
-| c-ares      | gradle       | libksba       |
-| ca-certificates | graphite2   | liblinear    |
-| cairo       | harfbuzz     | liblqr        |
-| certifi     | highway      | libmaxminddb  |
-| cffi        | htop         | libmicrohttpd |
-| cjson       | icu4c@76     | libnghttp2    |
-| cloc        | ideviceinstaller | libnghttp3   |
-| cmake       | imagemagick  | libogg        |
-| cryptography| imath        | libomp        |
-| curl        | jansson      | libplist      |
-| dav1d       | jasper       | libpng        |
-| docker      | jbig2dec     | libpq         |
-| docker-completion | jpeg-turbo   | libraw       |
-| doctl       | jpeg-xl      | librist       |
-| docutils    | krb5         | libsamplerate |
-| emacs       | lame         | libsmi        |
-| ffmpeg      | leptonica    | libsndfile    |
-| flac        | libarchive   | libsodium     |
-| fontconfig  | libass       | libsoxr       |
-| freetds     | libassuan    | libssh        |
-| freetype    | libavif      | libssh2       |
-| frei0r      | libb2        | libtasn1      |
-| fribidi     | libbluray    | libtiff       |
-| libtool     | npth         | sdl2          |
-| libunibreak | nspr         | shared-mime-info |
-| libunistring| nss          | snappy        |
-| libusb      | oniguruma    | speex         |
-| libusbmuxd  | opencore-amr | speexdsp      |
-| libuv       | openexr      | sqlite        |
-| libvidstab  | openjdk      | srt           |
-| libvmaf     | openjdk@17   | svt-av1       |
-| libvorbis   | openjpeg     | telnet        |
-| libvpx      | openldap     | tesseract     |
-| libx11      | openssl@3    | testdisk      |
-| libxau      | opus         | theora        |
-| libxcb      | p11-kit      | tidy-html5    |
-| libxdmcp    | pandoc       | tmux          |
-| libxext     | pango        | tree          |
-| libxrender  | pcre2        | tree-sitter   |
-| libyaml     | perl         | unbound       |
-| libzip      | php          | unixodbc      |
-| little-cms2 | pinentry     | utf8proc      |
-| llama.cpp   | pixman       | webp          |
-| lua         | poppler      | wget          |
-| lz4         | popt         | wireshark     |
-| lzo         | pycparser    | x264          |
-| m4          | python-packaging | x265        |
-| maven       | python@3.11  | xorgproto     |
-| mbedtls     | python@3.12  | xvid          |
-| mpdecimal   | python@3.13  | xxhash        |
-| mpg123      | rav1e        | xz            |
-| ncurses     | readline     | yt-dlp        |
-| net-snmp    | redis        | zeromq        |
-| nettle      | rsync        | zimg          |
-| nginx       | rtmpdump     | zstd          |
-| nmap        | rubberband    |               |
-| node        | ruby         |               |
+==> フォーミュラ
 
-### Casks
+- ack
+- aom
+- apr
+- apr-util
+- argon2
+- aribb24
+- autoconf
+- awscli
+- azure-cli
+- berkeley-db@5
+- brotli
+- c-ares
+- ca-certificates
+- cairo
+- certifi
+- cffi
+- cjson
+- cloc
+- cmake
+- cryptography
+- curl
+- dav1d
+- docker
+- docker-completion
+- doctl
+- docutils
+- emacs
+- ffmpeg
+- flac
+- fontconfig
+- freetds
+- freetype
+- frei0r
+- fribidi
+- gd
+- gdbm
+- gettext
+- ghostscript
+- giflib
+- git-lfs
+- glib
+- gmp
+- gnupg
+- gnutls
+- gpgme
+- gradle
+- graphite2
+- harfbuzz
+- highway
+- htop
+- icu4c@76
+- ideviceinstaller
+- imagemagick
+- imath
+- jansson
+- jasper
+- jbig2dec
+- jpeg-turbo
+- jpeg-xl
+- krb5
+- lame
+- leptonica
+- libarchive
+- libass
+- libassuan
+- libavif
+- libb2
+- libbluray
+- libcutl
+- libde265
+- libdeflate
+- libevent
+- libgcrypt
+- libgpg-error
+- libheif
+- libidn
+- libidn2
+- libimobiledevice
+- libimobiledevice-glue
+- libksba
+- liblinear
+- liblqr
+- libmaxminddb
+- libmicrohttpd
+- libnghttp2
+- libnghttp3
+- libogg
+- libomp
+- libplist
+- libpng
+- libpq
+- libraw
+- librist
+- libsamplerate
+- libsmi
+- libsndfile
+- libsodium
+- libsoxr
+- libssh
+- libssh2
+- libtasn1
+- libtiff
+- libtool
+- libunibreak
+- libunistring
+- libusb
+- libusbmuxd
+- libuv
+- libvidstab
+- libvmaf
+- libvorbis
+- libvpx
+- libx11
+- libxau
+- libxcb
+- libxdmcp
+- libxext
+- libxrender
+- libyaml
+- libzip
+- little-cms2
+- llama.cpp
+- lua
+- lz4
+- lzo
+- m4
+- maven
+- mbedtls
+- mpdecimal
+- mpg123
+- ncurses
+- net-snmp
+- nettle
+- nginx
+- nmap
+- node
+- npth
+- nspr
+- nss
+- oniguruma
+- opencore-amr
+- openexr
+- openjdk
+- openjdk@17
+- openjpeg
+- openldap
+- openssl@3
+- opus
+- p11-kit
+- pandoc
+- pango
+- pcre2
+- perl
+- php
+- pinentry
+- pixman
+- poppler
+- popt
+- pycparser
+- python-packaging
+- python@3.11
+- python@3.12
+- python@3.13
+- rav1e
+- readline
+- redis
+- rsync
+- rtmpdump
+- rubberband
+- ruby
+- sdl2
+- shared-mime-info
+- snappy
+- speex
+- speexdsp
+- sqlite
+- srt
+- svt-av1
+- telnet
+- tesseract
+- testdisk
+- theora
+- tidy-html5
+- tmux
+- tree
+- tree-sitter
+- unbound
+- unixodbc
+- utf8proc
+- webp
+- wget
+- wireshark
+- x264
+- x265
+- xorgproto
+- xvid
+- xxhash
+- xz
+- yt-dlp
+- zeromq
+- zimg
+- zstd
 
-| google-chrome | multipass   | notion       |
-| obs           | ollamac    | spotify      |
-| tor-browser   | zoom       |              |
+==> カスク
+
+- google-chrome
+- multipass
+- notion
+- obs
+- ollamac
+- spotify
+- tor-browser
+- zoom
