@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: ar
 layout: post
 title: أُشْعَارات نَافِعَة

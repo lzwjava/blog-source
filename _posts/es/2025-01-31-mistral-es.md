@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: es
 layout: post
 title: Prueba de la API de Mistral

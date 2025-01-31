@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hant
 layout: post
 title: 我經常安裝的Pip套件

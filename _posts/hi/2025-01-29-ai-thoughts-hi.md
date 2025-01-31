@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hi
 layout: post
 title: 'AI Thoughts का हिन्दी अनुवाद

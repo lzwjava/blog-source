@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: zh
 layout: post
 title: 我安装的 Pip 包

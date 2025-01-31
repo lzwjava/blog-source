@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: hi
 layout: post
 title: उपयोगी प्राम्प्ट्स

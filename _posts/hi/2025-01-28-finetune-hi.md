@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hi
 layout: post
 title: मॉडल को फाइनट्यून करें
