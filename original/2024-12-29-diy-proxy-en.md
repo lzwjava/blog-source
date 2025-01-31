@@ -7,11 +7,13 @@ title: Set Up Your Proxy Server
 
 * To set up a server, use Outline Manager: [https://getoutline.org](https://getoutline.org).  
 
-* Recommended hosting providers include DigitalOcean, Google Cloud, Amazon Lightsail, Azure, Vultr, or Linode. Prefer regions in Singapore or Tokyo. Avoid the Hong Kong region, as tools like ChatGPT and Claude are banned there. 
+* Recommended hosting providers include DigitalOcean, Google Cloud, Amazon Lightsail, Azure, Vultr, and Linode. For optimal performance, choose server locations in Singapore or Tokyo. While Hong Kong is also a viable option, be aware that certain AI tools like ChatGPT and Claude are restricted in that region.
 
-* If you don't mind that ChatGPT and Claude are banned in Hong Kong, it is still a viable option. You can use tools like Deepseek, Mistral, Grok, and the Gemini API with Hong Kong servers. Use reverse thinking; others may avoid Hong Kong servers, leaving them less congested.
+* You can still use tools like Deepseek, Mistral, Grok, and the Gemini API (through Cursor) with Hong Kong servers. Using reverse thinking, since others may avoid Hong Kong servers, they tend to be less congested.
 
 * Consider server location and distance. For those in Guangzhou, Hong Kong is a good option for hosting a proxy server. Use Speedtest to measure network speed.
+
+* If you care about speed, the best option, to my knowledge, is to use an Aliyun Hong Kong server with a BGP (premium) elastic IP. The IP is elastic, which makes it easy to bind a new one if the current IP gets banned. Additionally, this BGP (premium) connection is optimized by Aliyun Cloud, providing fast speeds.
 
 * Protocols such as Shadowsocks, VMess, and Trojan can easily get banned.  
 
