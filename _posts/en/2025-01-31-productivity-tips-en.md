@@ -24,3 +24,5 @@ translated: false
 
 * I read parts of "The Mythical Man-Month" by Fred Brooks. Its principles about software project management remain relevant in the long term.
 
+* No productivity method works automatically - you need to experiment and adapt techniques to find what works best for your specific needs.
+
