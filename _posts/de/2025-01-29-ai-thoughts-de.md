@@ -1,25 +1,27 @@
 ---
-audio: false
+audio: true
 lang: de
 layout: post
 title: Künstliche Intelligenz Gedanken
 translated: true
 ---
 
-- Satya Nadella erwähnte das Jevons-Paradoxon. Es lohnt sich, es zu lernen.
+- Satya Nadella erwähnte den Jevons-Paradoxon. Es lohnt sich, ihn zu lernen.
 
-- Yin Wang: In "künstlicher Intelligenz" gibt es keine "Intelligenz", in "neuronalen Netzen" kein "Neuron", in "maschinellem Lernen" kein "Lernen" und in "tiefem Lernen" keine "Tiefe". Was in diesem Bereich wirklich funktioniert, nennt man "Differentialrechnung". Daher bevorzuge ich, diesen Bereich "differenzierbares Rechnen" zu nennen und den Prozess des Modellbaus "differenzierbares Programmieren".
+- Yin Wang: Es gibt keine "Intelligenz" in künstlicher Intelligenz, kein "neuronal" in neuronalem Netzwerk, kein "Lernen" in maschinellem Lernen und keine "Tiefe" in Deep Learning. Es gibt keine "Tiefe" in Deep Learning. Was in diesem Bereich wirklich funktioniert, wird "Calculus" genannt. Ich bevorzuge es daher, diesen Bereich als "differenzierbares Computing" zu bezeichnen, und der Prozess des Modellbaus wird als "differenzierbares Programmieren" bezeichnet.
 
-- Yin Wang: Maschinelles Lernen ist wirklich nützlich, man könnte sogar sagen, eine schöne Theorie, weil es einfach Differentialrechnung ist, die einen Makeover bekommen hat! Es ist die alte und großartige Theorie von Newton und Leibniz in einer einfachereren, eleganteren und mächtigeren Form. Maschinelles Lernen besteht im Wesentlichen darin, Differentialrechnung zu verwenden, um Funktionen abzuleiten und anzupassen, und tiefes Lernen ist das Anpassen komplexerer Funktionen.
+- Yin Wang: Maschinelles Lernen ist wirklich nützlich, man könnte sogar sagen, eine schöne Theorie, weil es einfach nur Calculus nach einem Makeover ist! Es ist die alte und große Theorie von Newton, Leibniz, in einer einfacheren, eleganteren und mächtigeren Form. Maschinelles Lernen ist im Grunde die Verwendung von Calculus, um einige Funktionen abzuleiten und anzupassen, und Deep Learning ist das Anpassen komplexerer Funktionen.
 
-- Derzeit können große Sprachmodelle nicht nach Dateisprache wie YAML oder Python filtern. Ein erheblicher Teil der Informationen in der realen Welt ist jedoch auf diese Weise organisiert. Das bedeutet, dass wir große Sprachmodelle mit Dateien trainieren könnten.
+- Derzeit können große Sprachmodelle keine Dateien nach Sprache filtern wie YAML oder Python. Allerdings ist ein erheblicher Teil der Informationen in der realen Welt auf diese Weise organisiert. Dies bedeutet, dass wir große Sprachmodelle trainieren könnten, indem wir Dateien verwenden.
 
-- Zum Trainieren großer Sprachmodelle könnten wir ein System entwickeln, das exakte Übereinstimmungen findet. Vielleicht können wir den KMP-Algorithmus (Knuth-Morris-Pratt) mit der Transformer-Architektur kombinieren, um die Suchfähigkeiten zu verbessern.
+- Für das Training großer Sprachmodelle könnten wir ein System entwickeln, das exakte Übereinstimmungen findet. Vielleicht können wir den KMP-Suchalgorithmus (Knuth-Morris-Pratt) mit der Transformer-Architektur kombinieren, um die Suchfähigkeiten zu verbessern.
 
-- Es gibt keine technologischen Geheimnisse. Open Source wird alle gut gehüteten Geheimnisse offenlegen.
+- Es gibt keine technologischen Geheimnisse. Open Source wird alle Geheimnisse enthüllen, die streng bewacht werden.
 
-- [Neue Plattformen, die von AI-Workflows angetrieben werden](./ai-workflow-en)
+- KI wird viele Werkzeuge beeinflussen, einschließlich indirekter. Menschen sagen, dass sie Figma nicht mehr für das Zeichnen von Prototypen benötigen, sie werden direkt zum Code gehen. Ich denke, Postman wird ähnlich sein; Menschen werden direkt Python oder andere Skripte verwenden, um APIs aufzurufen oder zu testen.
 
-- [Die nächste Richtung von AI-Code-Editoren](./ai-code-en)
+- [Neue Plattformen, die durch AI-Workflow angetrieben werden](./ai-workflow-en)
 
-- [Wie ich im Zeitalter von AI und Blockchain gut lebe](./ai-blockchain-en)
+- [Die nächste Richtung von AI-Code-Editors](./ai-code-en)
+
+- [Wie ich in der Ära von AI und Blockchain gut lebe](./ai-blockchain-en)

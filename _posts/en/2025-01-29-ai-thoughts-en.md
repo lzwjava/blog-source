@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: en
 layout: post
 title: AI Thoughts
@@ -20,10 +20,11 @@ translated: false
 
 - There are no technological secrets. Open source will reveal all the secrets that are closely guarded.
 
+- AI will affect many tools, including indirect ones. People say they won't need Figma to draw prototypes, they will directly go to code. I think Postman will be similar; people will directly use Python or other scripts to call or test APIs.
+
 - [New Platforms Powered by AI Workflows](./ai-workflow-en)
 
 - [The Next Direction of AI Code Editors](./ai-code-en)
 
 - [How I Live Well in the AI and Blockchain Era](./ai-blockchain-en)
-
 
