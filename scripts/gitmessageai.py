@@ -21,7 +21,7 @@ def call_mistral_api(prompt):
         "Authorization": f"Bearer {api_key}"
     }
     data = {
-        "model": "mistral-large-latest",
+        "model": "mistral-small-latest",
         "messages": [
             {
                 "role": "user",
@@ -35,7 +35,6 @@ def call_mistral_api(prompt):
         response_json = response.json()
         if response_json and response_json['choices']:
             content = response_json['choices'][0]['message']['content']
-            content = content.replace("```", "").strip()
             return content
         else:
             print(f"Mistral API Error: Invalid response format: {response_json}")
@@ -151,12 +150,11 @@ def gitmessageai(push=True, only_message=False, api='deepseek'):
 Generate a concise commit message in Conventional Commits format for the following code changes.
 Use one of the following types: feat, fix, docs, style, refactor, test, chore, perf, ci, build, or revert.
 If applicable, include a scope in parentheses to describe the part of the codebase affected.
-The commit message should not exceed 70 characters.
+The commit message should not exceed 70 characters. Just give the commit message, without any leading or trailing notes.
 
 Changed files:
 {', '.join(file_changes)}
 
-Commit message:
 """    
 
     if api == 'deepseek':
@@ -199,6 +197,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate commit message with AI and commit changes.")
     parser.add_argument('--no-push', dest='push', action='store_false', help='Commit changes locally without pushing.')
     parser.add_argument('--only-message', dest='only_message', action='store_true', help='Only print the AI generated commit message.')
-    parser.add_argument('--api', type=str, default='deepseek', choices=['deepseek', 'gemini', 'mistral'], help='API to use for commit message generation (deepseek, gemini, or mistral).')
+    parser.add_argument('--api', type=str, default='mistral', choices=['deepseek', 'gemini', 'mistral'], help='API to use for commit message generation (deepseek, gemini, or mistral).')
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message, api=args.api)
