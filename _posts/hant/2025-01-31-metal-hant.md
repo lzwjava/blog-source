@@ -6,15 +6,15 @@ title: 金屬
 translated: true
 ---
 
-以下是一個使用 PyTorch 測試 Metal (GPU) 性能的腳本。
+以下是一個使用 PyTorch 测試 Metal（GPU）性能的腳本。
 
 ```python
 import torch
 import argparse
 import time
 
-parser = argparse.ArgumentParser(description="使用 MPS 或 CPU 測試 torch。")
-parser.add_argument("--device", type=str, default="mps", choices=["mps", "cpu"], help="使用的設備 (mps 或 cpu)")
+parser = argparse.ArgumentParser(description="使用 MPS 或 CPU 测试 torch。")
+parser.add_argument("--device", type=str, default="mps", choices=["mps", "cpu"], help="使用的设备 (mps 或 cpu)")
 args = parser.parse_args()
 
 if args.device == "mps":
@@ -28,31 +28,31 @@ elif args.device == "cpu":
     device = torch.device("cpu")
     print("使用 CPU")
 else:
-    print("指定的設備無效，改用 CPU")
+    print("指定的设备无效，改用 CPU")
     device = torch.device("cpu")
 
-# 創建一個張量並將其移動到指定的設備
+# 创建一个张量并将其移动到指定的设备
 x = torch.randn(5000, 5000, device=device)
 y = torch.randn(5000, 5000, device=device)
 
-# 進行較複雜的計算
+# 执行更复杂的计算
 start_time = time.time()
 result = torch.matmul(x, y)
 for _ in range(10):
     result = torch.matmul(result, y)
 end_time = time.time()
 
-# 打印結果
+# 打印结果
 print(result)
-print(f"所需時間: {end_time - start_time:.4f} 秒")
+print(f"所用时间: {end_time - start_time:.4f} 秒")
 ```
 
-結果顯示 MPS 比 CPU 快得多。在 MPS 上的執行時間僅為 CPU 時間的約 0.2%。
+结果表明 MPS 显著快于 CPU。在 MPS 上的执行时间仅为 CPU 时间的约 0.2%。
 
 ```bash
 % python scripts/test_metal.py --device cpu
-所需時間: 2.8784 秒
+所用时间: 2.8784 秒
 
 % python scripts/test_metal.py --device mps
-所需時間: 0.0061 秒
+所用时间: 0.0061 秒
 ```
