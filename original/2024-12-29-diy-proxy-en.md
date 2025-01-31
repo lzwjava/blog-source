@@ -13,7 +13,7 @@ title: Set Up Your Proxy Server
 
 * Consider server location and distance. For those in Guangzhou, Hong Kong is a good option for hosting a proxy server. Use Speedtest to measure network speed.
 
-* If you care about speed, the best option, to my knowledge, is to use an Aliyun Hong Kong server with a BGP (premium) elastic IP. The IP is elastic, which makes it easy to bind a new one if the current IP gets banned. Additionally, this BGP (premium) connection is optimized by Aliyun Cloud, providing fast speeds.
+* For optimal speed, I recommend using an Aliyun Hong Kong server with a BGP (premium) elastic IP. The elastic IP feature allows quick replacement if the current IP gets blocked. Aliyun Cloud's optimized BGP (premium) connection ensures fast performance. The service costs 3CNY per 1GB of traffic.
 
 * Protocols such as Shadowsocks, VMess, and Trojan can easily get banned.  
 
