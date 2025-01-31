@@ -40,3 +40,15 @@ Create a 480p YouTube video cover image with below elements, AI, shark, futurist
 ---
 
 Create a YouTube title for Deepseek R1. The title should include the main technologies used.
+
+---
+
+Generate a concise commit message in Conventional Commits format for the following code changes.
+Use one of the following types: feat, fix, docs, style, refactor, test, chore, perf, ci, build, or revert.
+If applicable, include a scope in parentheses to describe the part of the codebase affected.
+The commit message should not exceed 70 characters. Just give the commit message, without any leading or trailing notes.
+
+Changed files:
+{', '.join(file_changes)}
+
+----
