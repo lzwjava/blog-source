@@ -109,17 +109,18 @@ rule-providers:
     interval: 86400
 
 rules:
-  - RULE-SET,ChatGPT,AI
-  - RULE-SET,Global,Proxy
-  - RULE-SET,China,DIRECT
-  - RULE-SET,ChinaIP,DIRECT
-  - DOMAIN-SUFFIX,linkedin.com,Proxy
-  - DOMAIN-SUFFIX,deepseek.com,Proxy
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,100.64.0.0/10,DIRECT
   - IP-CIDR,224.0.0.0/4,DIRECT
+  - DOMAIN-SUFFIX,scholar.google.com,AI
+  - DOMAIN-SUFFIX,linkedin.com,Proxy
+  - DOMAIN-SUFFIX,deepseek.com,Proxy
+  - RULE-SET,ChatGPT,AI
+  - RULE-SET,Global,Proxy
+  - RULE-SET,China,DIRECT
+  - RULE-SET,ChinaIP,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Proxy
