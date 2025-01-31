@@ -77,8 +77,6 @@ function gpp {
   }
 }
 
-alias gpam=/usr/local/bin/git-auto-commit
-
 export SSL_CERT_FILE=~/bin/cacert.pem
 
 alias rougify=/Users/lzwjava/projects/rouge/bin/rougify
