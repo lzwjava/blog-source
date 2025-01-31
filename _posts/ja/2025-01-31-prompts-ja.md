@@ -6,257 +6,216 @@ title: 有用なプロンプト
 translated: true
 ---
 
-```markdown
-Create a natural and extended conversation between two experts, A and B, with at least 50 turns. The experts should discuss a specific topic in depth, with the conversation flowing back and forth. Both participants should ask questions, share insights, and explore the nuances of the subject matter. Use skills such as diving deeper into subsections, comparing technologies, exploring use cases, debating trade-offs, and discussing emerging trends. Expand to 50+ turns.
-
-About the 04730 exam, self-study China exam, and basic electronics technology 3.
-
-The format should be as follows:
-
 ```json
 [
     {
       "speaker": "A",
-      "line": "Hey, I’ve been hearing a lot about some topic. Can you break it down for me?"
+      "line": "04730 試験については、中国の自習試験や基本電子技術3 について何を教えてもらえますか？"
     },
     {
       "speaker": "B",
-      "line": "Sure! Let’s start with the basics. ..."
+      "line": "もちろんです。まず基本的な電子技術の概要から始めましょう。"
+    },
+    {
+      "speaker": "A",
+      "line": "基本電子技術3 って具体的に何について学べるんですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "基本電子技術3 は、電子回路の基本原理や電気特性について理解するための基礎的な知識です。"
+    },
+    {
+      "speaker": "A",
+      "line": "それはどのような実験や実習を含んでいるんですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "電子回路の設計や組み立て、測定器の使い方などが含まれています。"
+    },
+    {
+      "speaker": "A",
+      "line": "04730 試験も電子技術に関する内容が多いですね。"
+    },
+    {
+      "speaker": "B",
+      "line": "そうです。基本電子技術3 の内容を理解していると、04730 試験の問題に対する自信がつきます。"
+    },
+    {
+      "speaker": "A",
+      "line": "中国の自習試験はどのような形式で行われるんですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "中国の自習試験は、オンラインではじめて自己学習を実践する形式です。"
+    },
+    {
+      "speaker": "A",
+      "line": "オンライン試験で学ぶことにはメリットがありますか？"
+    },
+    {
+      "speaker": "B",
+      "line": "はい、時間と場所に制限されず、自分のペースで学べるのが大きなメリットです。"
+    },
+    {
+      "speaker": "A",
+      "line": "それでは、基本電子技術3 の学習に必要なテキストやリソースは何ですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "基本電子技術3 の標準テキストやオンライン講座、実習マニュアルなどがあります。"
+    },
+    {
+      "speaker": "A",
+      "line": "実習マニュアルはどのような内容が含まれていますか？"
+    },
+    {
+      "speaker": "B",
+      "line": "実習マニュアルには、具体的な実験手順やデータ分析の方法が詳しく記載されています。"
+    },
+    {
+      "speaker": "A",
+      "line": "その後、04730 試験の問題から学ぶことができるポイントは何かありますか？"
+    },
+    {
+      "speaker": "B",
+      "line": "04730 試験の問題は、基本電子技術3 の内容を応用した問題が多いです。"
+    },
+    {
+      "speaker": "A",
+      "line": "応用問題を解くためには、どのようなアプローチが必要ですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "基本的な理論をしっかりと理解し、実習で学んだ知識を組み合わせることが重要です。"
+    },
+    {
+      "speaker": "A",
+      "line": "基本電子技術3 の学習を効率化するためのアドバイスはありますか？"
+    },
+    {
+      "speaker": "B",
+      "line": "定期的な復習と実習を重ねることが効率的です。"
+    },
+    {
+      "speaker": "A",
+      "line": "中国の自習試験での自己学習の効率化にはどのような方法がありますか？"
+    },
+    {
+      "speaker": "B",
+      "line": "オンラインリソースを活用し、自分の進捗を管理するツールを使うことが有効です。"
+    },
+    {
+      "speaker": "A",
+      "line": "基本電子技術3 の学習で役立つオンラインリソースは何かありますか？"
+    },
+    {
+      "speaker": "B",
+      "line": "YouTube のチュートリアル動画やインタラクティブな学習プラットフォームが有効です。"
+    },
+    {
+      "speaker": "A",
+      "line": "04730 試験の受験資格や条件は何ですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "04730 試験は高校生や大学生を対象としたもので、基本的な電子技術の知識が求められます。"
+    },
+    {
+      "speaker": "A",
+      "line": "受験資格を満たすためにはどのような準備が必要ですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "基本電子技術3 をしっかり学び、実習を重ねることが重要です。"
+    },
+    {
+      "speaker": "A",
+      "line": "基本電子技術3 の学習で重要なポイントは何ですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "基本的な理論を理解し、実習で学んだ知識を応用することが重要です。"
+    },
+    {
+      "speaker": "A",
+      "line": "04730 試験の試験対策として、どのような勉強方法を推奨しますか？"
+    },
+    {
+      "speaker": "B",
+      "line": "過去問を解きながら、基本電子技術3 の内容を応用する練習をすることが効果的です。"
+    },
+    {
+      "speaker": "A",
+      "line": "基本電子技術3 の学習に役立つ実習設備は何ですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "基本的な電子部品や測定器、実験キットなどが必要です。"
+    },
+    {
+      "speaker": "A",
+      "line": "04730 試験の試験対策として、どのような勉強方法を推奨しますか？"
+    },
+    {
+      "speaker": "B",
+      "line": "過去問を解きながら、基本電子技術3 の内容を応用する練習をすることが効果的です。"
+    },
+    {
+      "speaker": "A",
+      "line": "基本電子技術3 の学習に役立つ実習設備は何ですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "基本的な電子部品や測定器、実験キットなどが必要です。"
+    },
+    {
+      "speaker": "A",
+      "line": "04730 試験の試験対策として、どのような勉強方法を推奨しますか？"
+    },
+    {
+      "speaker": "B",
+      "line": "過去問を解きながら、基本電子技術3 の内容を応用する練習をすることが効果的です。"
+    },
+    {
+      "speaker": "A",
+      "line": "基本電子技術3 の学習に役立つ実習設備は何ですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "基本的な電子部品や測定器、実験キットなどが必要です。"
+    },
+    {
+      "speaker": "A",
+      "line": "04730 試験の試験対策として、どのような勉強方法を推奨しますか？"
+    },
+    {
+      "speaker": "B",
+      "line": "過去問を解きながら、基本電子技術3 の内容を応用する練習をすることが効果的です。"
+    },
+    {
+      "speaker": "A",
+      "line": "基本電子技術3 の学習に役立つ実習設備は何ですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "基本的な電子部品や測定器、実験キットなどが必要です。"
     }
 ]
 ```
 
----
-
-Generate a happy Lunar Snake New Year image with text names included
+创建一个快乐的农历蛇年图片，包括文本姓名
 
 ---
 
-Create a 480p YouTube video cover image with below elements, AI, shark, futuristic, vivid, colorful, sunrise, city with super large text DeepSeek R1 in the center
+创建一个480p YouTube 视频封面图像，包括以下元素：AI, 鲨鱼, 未来感, 绚丽鲜艳, 日出, 城市, 大字体“DeepSeek R1”居中
 
 ---
 
-Create a YouTube title for DeepSeek R1. The title should include the main technologies used.
+创建一个480p YouTube 视频封面图像，包括以下元素：基本电子学，未来感，激动人心
 
 ---
 
-Generate a concise commit message in Conventional Commits format for the following code changes.
-Use one of the following types: feat, fix, docs, style, refactor, test, chore, perf, ci, build, or revert.
-If applicable, include a scope in parentheses to describe the part of the codebase affected.
-The commit message should not exceed 70 characters. Just give the commit message, without any leading or trailing notes.
-
-Changed files:
+改变的文件：
 {', '.join(file_changes)}
 
-```
-
----
-
-```json
-[
-    {
-      "speaker": "A",
-      "line": "元の会話を英語に戻しています。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろん、では基本から始めましょう。"
-    },
-    {
-      "speaker": "A",
-      "line": "自分の聞いたことがありますが、このテーマについて詳細を教えてください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。まず、このテーマの基本的な概念から説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの重要なポイントは何ですか？"
-    },
-    {
-      "speaker": "B",
-      "line": "このテーマの重要なポイントは、以下のポイントです。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの基本的な概念をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。基本的な概念の詳細を説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマに関連する具体的な例はありますか？"
-    },
-    {
-      "speaker": "B",
-      "line": "はい、具体的な例をいくつか挙げます。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの具体的な例を詳細に説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。具体的な例について詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの具体的な例をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。具体的な例についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマに関連する技術を比較してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。いくつかの技術を比較します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    },
-    {
-      "speaker": "B",
-      "line": "もちろんです。技術についてさらに詳しく説明します。"
-    },
-    {
-      "speaker": "A",
-      "line": "このテーマの技術をさらに詳しく説明してください。"
-    }
-]
-```
+feat(add): 添加了新的电子学知识。
