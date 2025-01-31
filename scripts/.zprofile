@@ -51,9 +51,23 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 start_proxy
 # start_git_proxy
 
-alias gpa= 'python ~/bin/gitmessageai.py --api mistral --allow-pull-push'
+alias gpa='python ~/bin/gitmessageai.py --api mistral --allow-pull-push'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
+
+function gpp {
+  git push || {
+    echo "Push failed, attempting pull and merge"
+    git pull --rebase || {
+      echo "Pull failed, please resolve conflicts manually"
+      return 1
+    }
+    git push || {
+      echo "Push failed after pull, please resolve conflicts manually"
+      return 1
+    }
+  }
+}
 
 alias gpam=/usr/local/bin/git-auto-commit
 
