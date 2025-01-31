@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-def call_mistral_api(prompt, model="mistral-small-latest"):
+def call_mistral_api(prompt, model="mistral-small-2501"):
     api_key = os.environ.get("MISTRAL_API_KEY")
     if not api_key:
         print("Error: MISTRAL_API_KEY environment variable not set.")
@@ -43,7 +43,7 @@ def call_mistral_api(prompt, model="mistral-small-latest"):
         return None
 
 if __name__ == "__main__":
-    prompt = "are you mistral small?"
+    prompt = "what's your cutting point of knowledge"
     response = call_mistral_api(prompt)
     if response:
         print(f"Response: {response}")

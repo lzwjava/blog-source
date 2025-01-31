@@ -1,11 +1,7 @@
 export PATH=/opt/homebrew/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lzwjava/Library/Python/3.9/bin:/Library/TeX/texbin:/Users/lzwjava/bin:/Users/lzwjava/platform-tools:/Users/lzwjava/Downloads/google-cloud-sdk/bin:/Users/lzwjava/bin/flutter/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:/opt/homebrew/Cellar/llama.cpp/4539/bin:/Users/lzwjava/bin/google-cloud-sdk/bin
 
-# /opt/homebrew/opt/openjdk/bin
-
-# /opt/homebrew/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home/bin
 
 export GLOBAL_PROXY='127.0.0.1:7890'
-# export GLOBAL_PROXY='http://192.168.1.1:7890'
 
 function start_proxy {
     export HTTP_PROXY="http://$GLOBAL_PROXY"
@@ -55,23 +51,18 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 start_proxy
 # start_git_proxy
 
-# alias python3=/opt/homebrew/bin/python3
-# alias pip3=/opt/homebrew/bin/pip3
-# alias pip=pip3
-
 alias gpa='python ~/bin/gitmessageai.py --api mistral'
 alias gca='python ~/bin/gitmessageai.py --no-push'
 alias gm='python ~/bin/gitmessageai.py --only-message'
 
 alias gpam=/usr/local/bin/git-auto-commit
 
-# bundle exec jekyll serve
 export SSL_CERT_FILE=~/bin/cacert.pem
 
 alias rougify=/Users/lzwjava/projects/rouge/bin/rougify
 
 
-# git config --global core.editor "code --wait"
+git config --global core.editor "code --wait"
 # git config --global -e
 
 export HOMEBREW_NO_AUTO_UPDATE=1
@@ -161,6 +152,8 @@ export DEEPSEEK_API_KEY="xxx"
 
 export MISTRAL_API_KEY="xxx"
 
+export CODESTRAL_API_KEY="xxx"
+
 export DYLD_LIBRARY_PATH=$(brew --prefix curl)/lib
 
 export SPEECH_ENDPOINT="https://ai-lzwjava-5596.cognitiveservices.azure.com/"
@@ -169,5 +162,4 @@ export DO_API_KEY="xxx"
 
 export GEMINI_API_KEY="xxx"
 
-conda activate base
-
+export HERTZNER_API_KEY="xxx"
