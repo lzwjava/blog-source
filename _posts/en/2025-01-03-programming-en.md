@@ -76,3 +76,4 @@ translated: false
 
 * In programming, there are often no trivial things. Every character, the order of list items, every string, every number, and every variable name matter. Every execution order and every log matter.
 
+* Do the things that excite you the most. There's no need to worry about not following the mainstream.

@@ -2,74 +2,72 @@
 audio: true
 lang: hi
 layout: post
-title: कंप्यूटर प्रोग्रामिंग
+title: प्रोग्रामिंग
 translated: true
 ---
 
-* Competitive programming करना ठीक hai jab tak wo aapko motivate kare.
+* Competitive programming करना_OK है, अगर यह आपको प्रेरित करता है।
 
-* Programming likhne jaise hai. Programming ek creative kaary hai.
+* Programming लेखन से जुड़ा हुआ है। Programming एक सृजनात्मक गतिविधि है।
 
-* Apna khud ka project karein. Apna technical blog likhein. Ek project ka program karein jo aap saal dar saal maintain karein, jaise ki ek 10 saalon tak ka blog maintain karna.
+* अपने खुद का प्रोजेक्ट करें। अपनी तकनीकी ब्लॉग लिखें। वो प्रोजेक्ट के लिए प्रोग्रामिंग करें जिसे आप कई साल तक बनाए रखेंगे, जैसे एक दस साल का ब्लॉग।
 
-* Aam taur par, aapko ab jo technology hot hai, uske peeche nahi padega, kyunki bahut saare trends ke baad kuch saalon mein fade ho jate hain.
+* आम तौर पर, आपको वर्तमान में टेक्नोलॉजी में जो 'हॉट' है, उसके पीछे जाना जरूरी नहीं है, क्योंकि कई ट्रेंड कुछ सालों के बाद फीका पड़ जाएगा।
 
-* Apne curiosity ko pursue karain aur apne liye program karein.
+* अपने कौतूहल का पीछूत करें और अपनी खातिर ही प्रोग्रामिंग करें।
 
-* Apne liye programs banane ki koshish karein. Ye work assignments nahi hain.
+* अपने लिए प्रोग्राम बनाने की कोशिश करें। ये काम की जिम्मेदारी नहीं हैं।
 
-* Agar aapko programming karte samay bahut baar dukh hota hai, toh aap galat tarah se kar rahe ho.
+* अगर आप प्रोग्रामिंग करते समय अक्सर खुश नहीं महसूस करते हैं, तो आप गलत तरीके से इसे कर रहे हैं।
 
-* iOS, Android, Backend, Frontend, AI sab accha hain. Ek project banane ki koshish kar sakte hain ya unka kuch maah ke liye seekh sakte hain.
+* iOS, Android, Backend, Frontend, AI सभी अच्छे हैं। कम से कम इनमें से किसी एक का एक छोटा सा प्रोजेक्ट बनाने या उन्हें कुछ महीनों के लिए सीखने की कोशिश करें।
 
-* Debugging shubhe se kaam karta hai. Apne code ki har line pe bharosa nahi karna; ek better tarah se karne ka soch sakte hain.
+* डिबगिंग संदेह करने के बारे में होता है। अपने कोड के हर लाइन पर भरोसा मत करें; आप इसे बेहतर तरीके से सोच सकते हैं।
 
-* Programming mein ek character ya ek log line bhi important hoti hai. Wahan aapko kuch batata hai.
+* प्रोग्रामिंग में, एक चरित्र या लॉग का एक लाइन भी महत्वपूर्ण है। वे आपको कुछ बता रहे होते हैं।
 
-* Programming ka use karke doosron ke liye products banayein. Users rakhna interesting hai.
+* प्रोग्रामिंग का उपयोग करके अन्य लोगों के लिए उत्पाद बनाए। उपयोगकर्ताओं के पास होने का मज़ा आता है।
 
-* Aapko gharse nahi hona chahiye. Kuch sau users jo aapka product bohot pasand karte hain, unke liye 10 hinghaz ke users jo sirf aapke product ko kindly pasand karte hain se accha hai.
+* आपको कठोर नहीं होना चाहिए। कुछ सौ उपयोगकर्ताओं को आपका उत्पाद बहुत प्यार है, जो बेमन से आपका उत्पाद पसंद करता है, उससे बेहतर है।
 
-* Yaad rakhein kaise aap programming mein aaye the aur use kabhi bhool na jaayein.
+* याद रखें, आपको प्रोग्रामिंग में क्यों आए थे और इसे कभी भी भूल ना करें।
 
-* Programming mein seekhi gayi jaan ko life ke har haal mein lagane ka soch sakte hain. Yaar sabhi jaisa hain. Kisi ek cheez ko kisi ek saath batch mein karne ya kisi ek saath karne ka soch sakte hain. Har app ke peeche tech ka nuanced detail kya hai. Network requests ke peeche hidden detail kya hai.
+* प्रोग्रामिंग में सीखा हुआ ज्ञान को जीवन के हर पहलू में लागू करें। ये एक जैसे हैं। काम को बटनों या एक के एक में करने का तरीका। काम को खंडों में अलग करना। हर ऐप के पीछे का तकनीकी आधार। नेटवर्क अनुरोधों के पीछे की नुकीली तथ्य।
 
-* The abstraction aur logical thinking. Detail-oriented thinking. Har solution ka sochna.
+* सादे और सरल हल का पीछूत करें। सरलता सबसे अधिक विवेकपूर्ण है। आपको सोचना चाहिए कि आप क्या आवश्यक रखते हैं और वह जो अतिरिक्त है, उससे जाने देना।
 
-* Sach sach hai. Aam taur par, computer galat nahi hota. Electric circuit galat nahi hota. Compiler galat nahi hota. Jab bug ho, toh uthaar naha karo.
+* प्रोग्रामिंग भाषाओं के लिए, जो काम करने वाली भाषाएँ हैं, वे ठीक हैं। मैं निजी तौर पर जावा और पाइथन का सुझाव देता हूँ।
 
-* Elegant aur simple solutions ko pursue karain. Simplicity ultimate sophistication hai. Aapko hard sochna padega taaki jo essential hai, wo rakh sakein aur jo extra hai, wo hatayein.
+* यिन वांग को फॉलो करें [https://www.yinwang.org](https://www.yinwang.org)। वह प्रोग्रामिंग में ऐसे थोड़े से गणियों में से एक है, हालांकि कहता है कि गणियां कभी नहीं होतीं।
 
-* Programming languages ke liye, jo kaam karwane ke liye bachayenge, woh theek hain. Main personally Java aur Python ko recommend karata hoon.
+* प्रोग्रामिंग के ज्ञान और सिद्धांतों को भाषा सीखने, हार्डवेयर मरम्मत, जीवन हेकिंग और वैज्ञानिक अनुसंधान में आसानी से लागू किया जा सकता है।
 
-* Follow Yin Wang ko [https://www.yinwang.org](https://www.yinwang.org) pe. Wahan ek genius hai, programming mein, though woh kehte hain ki geniuses kabhi nahi hote hain.
+* अधिकांश प्रोग्रामिंग टास्क के लिए, आपके पास स्कूल के अलावा माइनस हाई स्कूल मैथ के लिए कोई फैंसी मैथ नहीं चाहिए।
 
-* Programming ki knowledge aur principles ko language learning, hardware repairing, life hacking aur scientific researching mein easily apply kar sakte hain.
+* अधिक वर्षों बाद अपने पुराने कोड पर विचार करें या एक लंबे समय तक कोड प्रोजेक्ट को रखें। इससे आप बहुत कुछ सीखेंगे।
 
-* Kisi programming task ke liye, aapko high school math ke alawa fancy math ki zaroorat nahi hota.
+* अगर आप प्रोग्रामिंग में अपना जज्बा खो देते हैं, तो कुछ समय के लिए दूसरे चीजें करें।
 
-* Apne purane code par years ke baad reflect karein ya kisi ek code project ko baar baar maintain karain. Wahan aapko bahut kuch seekhne ko milenge.
+* टेस्टिंग का समय महत्वपूर्ण है। इसे नेचुरली करिए। आपका प्रोजेक्ट के लिए टेस्ट लिखने की जरूरत अक्सर नहीं होती। टेस्ट लिखने की कोशिश न करें, इकाई टेस्ट लिखें, इंटिग्रेशन टेस्ट लिखें, एपीआई टेस्ट लिखें। उन्हें बुद्धिमान रूप से तुलना करें।
 
-* Agar aapke paas programming ke liye passion khatam ho gaya hai, toh kuch samay ke liye doosre cheez karain.
+* एआई कोड एडिटर का प्रयास करें। चैटजीपीटी या अन्य चैटबॉटों का अक्सर उपयोग करें। एआई टूल्स अब आसान हैं, इसलिए आप अधिक सृजनात्मक या महत्वपूर्ण हिस्सों पर ध्यान केंद्रित कर सकते हैं।
 
-* Testing ka timing important hai. Natural tarah se hi karein. Aapke project ke liye aam taur par tests likhne ki zaroorat nahi hoti. Tests likhne ki zaroorat nahi, unit tests likhne ki zaroorat nahi, integration tests likhne ki zaroorat nahi, API tests likhne ki zaroorat nahi. Unhe dakkhi tarah se compare karein.
+* डिबगिंग करते समय, आपको नतुन जाए कि आप सबसे नए संस्करण को उपयोग कर रहे हैं। अगर एक लिब्रेरी को नहीं रखा जाता है, तो सक्रिय रूप से रखे गए क्लोन या फॉर्क का खोज करें।
 
-* AI code editors ko try karein. ChatGPT aur doosre chatbots ko frequently use karein. AI tools ab bahut easy hain toh aap creative ya important tarah ke parts pe focus kar sakte hain.
+* जैसे कि नेटवर्क गति या प्रोग्राम चलाने का समय को सुधार करते समय, एक गुणात्मक माप दर्जा होना चाहिए। अन्यथा, आप सही पता नहीं लगा सकते कि था क्या त्रिवियल सुधार या सुधार हुआ।
 
-* Debugging ke dauran, check karein ki aap latest version of libraries ka use kar rahe hain. Agar ek library unmaintained hai, toh actively maintained clones ya forks ko dhundhein.
+* व्यक्तिगत प्रोजेक्ट के लिए, टेस्ट कोड लिखना ठीक है, लेकिन महत्वपूर्ण मात्रा में कोड बदलने के बाद स्थानीय टेस्ट करना बेहतर है। प्रभावित कोड, यह कितना लंबा समय तक क्लाउड पाइपलाइन में चला, और यह कितनी बार त्रुटि ला सकता है, तो टेस्ट कोड लिखने के लिए सोचें। उपयोगकर्ताओं के अनुभव को नकारात्मक रूप से प्रभावित न करने वाले तरीकों का उपयोग करें।
 
-* Jab kuch improve kar rahe hain, jaise network speed ya program running time, toh ek quantitative metric hona chahiye. Warna aapko exact nahi pata chahle ki improvement ya degradation trivially thik hai ya galat hai.
+* सरल और सुंदर कोड लिखें। डुप्लिकेशन को कम करें, हालांकि कभी-कभी डुप्लिकेशन एक सरल समाधान को ले जाता है। विशेष मामलों को कम करें। इसे आसान बनाएं। रिफैक्टरिंग में आम फंक्शन्स या प्रक्रियाओं का उपयोग करें, रिकर्सन या लूप का उपयोग करें, और पैटर्न खोजें।
 
-* Personal projects ke liye, test code likhna theek nahi hai, lekin jab aap kuch significant amount of code change karte hain, toh local testing karna accha hai. Sochin kisi affected code ka, cloud pipeline mein kitni der tak run hoga, aur kitni baar errors ho sakta hai, aur phir tests likhne ka soch rahe hain. Aapko use karna chahiye jo easy testing karne ke liye methods hain jo user experience ko negatively impact nahi karenge.
+* त्रुटियों का सही से सामना करें। मूल कारण, जिम्मेदारी, और इस पर दखल दें कि क्या हम इसे बदल सकते हैं या एक बाहरी त्रुटि है। बचाव के तरीके, प्रभाव की सीमा, कहां इसे संभालें, क्या हम त्रुटियों को वर्गीकृत करें, यह कितना संभव है, और सबसे खराब स्थितियों के बारे में सोचें।
 
-* Simple aur elegant code likhein. Duplication ko minimize karain, haan jab kabhi duplication kaam ka aane se simple solution ko aata hai. Special cases ko minimize karain. Aapko easy testing karna chahiye. Refactor common functions ya processes ka use karte hain, recursion ya loops ka use karte hain, aur patterns ko dhundhte hain.
+* replace या startWith के बाद स्लाइस का उपयोग करने में तौलना है कि पहले वाक्य का स्थान को नजरअंदाज कर दिया जाता है। इस तरह की सोच कर यह प्रोग्रामिंग के हर छोटे से हिस्से में लागू करें।
 
-* Errors ko properly handle karein. Root cause, responsibility, aur agar change karna ho sakta hai ya yeh ek external error hai, sochiye. Rescue method, impact scope, kaise handle karna hai, errors ko categorize karna hai ya nahi, yeh kitni baar hoga aur worst-case scenarios ko sochiye.
+* किसी एक चीज के लिए संभव मानों को न्यूनतम करें; एक मामले के लिए केवल एक मान का उपयोग करें। अगर हम पहले से ही फेल्स को हैं, तो नल का उपयोग न करें। अगर हम एक अनुवादित त्रुथ या फाल्स फ्लैग हैं, तो हमे यह सुनिश्चित करना चाहिए कि हम हर बार जब हम एक अनुवादित फ्लैग हैं, हम अनुवादित फ्लैग होने के अभाव को फेलस के रूप में नहीं ले रहे हैं।
 
-* Replace ka use ya startWith ke baad slice ka use karne mein difference yeh hai ki pehli string ke position ko ignore karta hai. Har detail programming mein similar thinking ka use karo.
+* GitHub या Sourcree के उपयोग में बदल गए कोड ब्लॉक को अक्सर समीक्षाएं करने के लिए। वे कोड पढ़ने के लिए अधिक सुविधाजनक होते हैं।
 
-* Ek item ke liye possible values ko minimize karain; ek case ke liye sirf ek value ka use karein. Agar humare paas false hai, toh null ka use mat karein. Agar humare paas ek translated true ya false flag hai, toh humare paas har baar translated flag hone par, non-existence of a translated flag ko false treat nahi karein.
+* प्रोग्रामिंग में अक्सर कोई तुच्छ चीज़ नहीं होती। हर चरित्र, सूची आइटम के आदेश, हर स्ट्रिंग, हर नंबर, और हर वेरिएबल नाम, हर कार्यक्रम निर्वहन क्रम, और हर लॉग महत्वपूर्ण हैं।
 
-* GitHub ya Sourcetree ka use karke changed code blocks ko frequently review karein. Wahan code reading ke liye convenient hain.
-
-* Programming mein aam taur par koi trivial cheeze nahi hoti. Har character, list items ka order, har string, har number, aur har variable name matter karta hai. Har execution order aur har log matter karta hai.
+* आप जो सबसे अधिक उत्तेजित करके आपको है, उस चीज को करें। मैनस्ट्रिम का पीछागा नहीं करना चाहिए।
