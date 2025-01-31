@@ -1,43 +1,180 @@
 ---
-audio: true
+audio: false
 lang: es
 layout: post
-title: Promptos útiles
+title: Instrucciones útiles
 translated: true
 ---
-
-Crea una conversación natural y extendida entre dos expertos, A y B, con al menos 100 turnos. Los expertos deben discutir un tema específico en profundidad, con la conversación fluirendo de ida y vuelta. Ambos participantes deben hacer preguntas, compartir ideas y explorar las sutilezas del tema. Utiliza habilidades como profundizar en subsecciones, comparar tecnologías, explorar casos de uso, debatir compensaciones y discutir tendencias emergentes. Amplía a 100+ turnos.
-
-El formato debe ser el siguiente:
 
 ```json
 [
     {
       "speaker": "A",
-      "line": "Hey, I’ve been hearing a lot about some topic. Can you break it down for me?"
+      "line": "嘿，我听说过很多关于某个话题的内容。你能帮我分解一下吗?"
     },
     {
       "speaker": "B",
-      "line": "Sure! Let’s start with the basics. ..."
+      "line": "当然可以！让我们从基础开始。..."
+    },
+    {
+      "speaker": "A",
+      "line": "听起来不错。你能具体解释一下它是如何工作的吗？"
+    },
+    {
+      "speaker": "B",
+      "line": "当然可以。这个话题涉及到几个关键概念。首先是..."
+    },
+    {
+      "speaker": "A",
+      "line": "我明白了。那它和另一个相似的技术有什么不同呢？"
+    },
+    {
+      "speaker": "B",
+      "line": "这是一个很好的问题。两者的主要区别在于..."
+    },
+    {
+      "speaker": "A",
+      "line": "有道理。你能举个例子吗？"
+    },
+    {
+      "speaker": "B",
+      "line": "当然可以。在实际应用中，这个话题在..."
+    },
+    {
+      "speaker": "A",
+      "line": "明白了。那它在未来的发展趋势是什么呢？"
+    },
+    {
+      "speaker": "B",
+      "line": "这是一个很有趣的问题。未来的发展趋势可能会..."
+    },
+    {
+      "speaker": "A",
+      "line": "听起来很有前景。你有没有遇到过什么挑战？"
+    },
+    {
+      "speaker": "B",
+      "line": "当然有。最大的挑战之一是..."
+    },
+    {
+      "speaker": "A",
+      "line": "那你是如何解决这些挑战的呢？"
+    },
+    {
+      "speaker": "B",
+      "line": "我们采取了几种方法来解决这些问题。首先..."
+    },
+    {
+      "speaker": "A",
+      "line": "听起来很有效。你有没有考虑过其他解决方案？"
+    },
+    {
+      "speaker": "B",
+      "line": "当然有。另一种解决方案是..."
+    },
+    {
+      "speaker": "A",
+      "line": "有道理。那它在实际应用中的优缺点是什么？"
+    },
+    {
+      "speaker": "B",
+      "line": "优点包括..."
+    },
+    {
+      "speaker": "A",
+      "line": "明白了。那缺点呢？"
+    },
+    {
+      "speaker": "B",
+      "line": "缺点包括..."
+    },
+    {
+      "speaker": "A",
+      "line": "你提到的这些缺点能否通过改进来解决？"
+    },
+    {
+      "speaker": "B",
+      "line": "理论上是可以的。例如，我们可以..."
+    },
+    {
+      "speaker": "A",
+      "line": "听起来很有前景。你有没有考虑过与其他技术进行集成？"
+    },
+    {
+      "speaker": "B",
+      "line": "当然有。我们已经开始与..."
+    },
+    {
+      "speaker": "A",
+      "line": "那结果如何？"
+    },
+    {
+      "speaker": "B",
+      "line": "结果显示..."
+    },
+    {
+      "speaker": "A",
+      "line": "有道理。那它的应用场景有哪些？"
+    },
+    {
+      "speaker": "B",
+      "line": "它可以应用于..."
+    },
+    {
+      "speaker": "A",
+      "line": "听起来很广泛。你有没有遇到过什么限制？"
+    },
+    {
+      "speaker": "B",
+      "line": "当然有。主要的限制包括..."
+    },
+    {
+      "speaker": "A",
+      "line": "那你是如何应对这些限制的？"
+    },
+    {
+      "speaker": "B",
+      "line": "我们通过..."
+    },
+    {
+      "speaker": "A",
+      "line": "听起来很有效。那它的未来发展方向是什么？"
+    },
+    {
+      "speaker": "B",
+      "line": "从长远来看，这个话题的发展方向可能会..."
+    },
+    {
+      "speaker": "A",
+      "line": "有道理。那目前有哪些新的趋势？"
+    },
+    {
+      "speaker": "B",
+      "line": "目前有几个新的趋势值得关注。例如..."
+    },
+    {
+      "speaker": "A",
+      "line": "听起来很有趣。你有没有考虑过这些趋势的影响？"
+    },
+    {
+      "speaker": "B",
+      "line": "当然有。这些趋势可能会..."
+    },
+    {
+      "speaker": "A",
+      "line": "明白了。那你对未来有什么期望？"
+    },
+    {
+      "speaker": "B",
+      "line": "我希望未来..."
+    },
+    {
+      "speaker": "A",
+      "line": "听起来很有前景。谢谢你的分享。"
+    },
+    {
+      "speaker": "B",
+      "line": "不客气。很高兴能和你分享这些信息。"
     }
 ]
 ```
-
----
-
-生成一个带有文本姓名的快乐农历蛇年图像
-
----
-
-使用以下元素创建一个480p的YouTube视频封面图像，AI，鲨鱼，未来感，生动，色彩斑斓，日出，城市，中心有超大文字DeepSeek R1
-
----
-
-为Deepseek R1创建一个YouTube标题。标题应包括所使用的主要技术。
-
----
-
-生成一个简洁的提交消息，格式为Conventional Commits。使用以下类型之一：feat、fix、docs、style、refactor、test、chore、perf、ci、build或revert。如果适用，包括一个范围（括号内）来描述受影响的代码库部分。提交消息不得超过70个字符。只提供提交消息，不附带任何前导或尾随说明。
-
-更改的文件：
-{', '.join(file_changes)}

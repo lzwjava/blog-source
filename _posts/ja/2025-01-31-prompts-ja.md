@@ -1,20 +1,17 @@
 ---
-audio: true
+audio: false
 lang: ja
 layout: post
 title: 有用なプロンプト
 translated: true
 ---
 
----
+```markdown
+Create a natural and extended conversation between two experts, A and B, with at least 50 turns. The experts should discuss a specific topic in depth, with the conversation flowing back and forth. Both participants should ask questions, share insights, and explore the nuances of the subject matter. Use skills such as diving deeper into subsections, comparing technologies, exploring use cases, debating trade-offs, and discussing emerging trends. Expand to 50+ turns.
 
-以下是将以下马克德文本翻译成日语的内容。
+About the 04730 exam, self-study China exam, and basic electronics technology 3.
 
----
-
-在两位专家A和B之间创建自然且扩展的对话，至少100轮。专家们应该深入讨论特定话题，对话应来回流动。两位参与者应提出问题、分享见解并探讨主题的细微差别。使用技能，如深入探讨子部分、比较技术、探索用例、辩论权衡以及讨论新兴趋势。扩展到100+轮。
-
-格式应如下：
+The format should be as follows:
 
 ```json
 [
@@ -31,22 +28,235 @@ translated: true
 
 ---
 
-生成带有文本姓名的快乐农历蛇年图像
+Generate a happy Lunar Snake New Year image with text names included
 
 ---
 
-创建一个480p的YouTube视频封面图像，包含以下元素：AI、鲨鱼、未来主义、鲜艳、多彩、日出、超大城市，中央的文本为DeepSeek R1
+Create a 480p YouTube video cover image with below elements, AI, shark, futuristic, vivid, colorful, sunrise, city with super large text DeepSeek R1 in the center
 
 ---
 
-为Deepseek R1创建一个YouTube标题。标题应包括使用的主要技术。
+Create a YouTube title for DeepSeek R1. The title should include the main technologies used.
 
 ---
 
-为以下代码更改生成简洁的提交信息。使用以下类型之一：feat、fix、docs、style、refactor、test、chore、perf、ci、build或revert。
-如果适用，包括范围以描述代码库的受影响部分。
-提交信息不应超过70个字符。只需提供提交信息，不带任何前导或尾随注释。
+Generate a concise commit message in Conventional Commits format for the following code changes.
+Use one of the following types: feat, fix, docs, style, refactor, test, chore, perf, ci, build, or revert.
+If applicable, include a scope in parentheses to describe the part of the codebase affected.
+The commit message should not exceed 70 characters. Just give the commit message, without any leading or trailing notes.
 
-更改的文件：
-
+Changed files:
 {', '.join(file_changes)}
+
+```
+
+---
+
+```json
+[
+    {
+      "speaker": "A",
+      "line": "元の会話を英語に戻しています。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろん、では基本から始めましょう。"
+    },
+    {
+      "speaker": "A",
+      "line": "自分の聞いたことがありますが、このテーマについて詳細を教えてください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。まず、このテーマの基本的な概念から説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの重要なポイントは何ですか？"
+    },
+    {
+      "speaker": "B",
+      "line": "このテーマの重要なポイントは、以下のポイントです。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの基本的な概念をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。基本的な概念の詳細を説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマに関連する具体的な例はありますか？"
+    },
+    {
+      "speaker": "B",
+      "line": "はい、具体的な例をいくつか挙げます。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの具体的な例を詳細に説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。具体的な例について詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの具体的な例をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。具体的な例についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマに関連する技術を比較してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。いくつかの技術を比較します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    },
+    {
+      "speaker": "B",
+      "line": "もちろんです。技術についてさらに詳しく説明します。"
+    },
+    {
+      "speaker": "A",
+      "line": "このテーマの技術をさらに詳しく説明してください。"
+    }
+]
+```
