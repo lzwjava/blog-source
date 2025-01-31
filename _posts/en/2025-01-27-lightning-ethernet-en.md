@@ -1,12 +1,12 @@
 ---
-audio: false
+audio: true
 lang: en
 layout: post
-title: Ethernet Adapters
+title: Lightning to Ethernet Adapter
 translated: false
 ---
 
-## Lightning to Ethernet Adapter
+
 
 I recently tried a new product that I had never used before. It cost me about 44 CNY on JD.com. Similar products cost around 15 USD on Walmart.com.
 
@@ -42,20 +42,5 @@ The interesting thing is that if you connect both Wi-Fi and Ethernet, there is n
 *Source: Walmart.com*{: .caption }
 
 {: .centered }
-![](assets/images/lightning/n.jpg)
+![](assets/images/lightning/n.jpg){: .responsive }
 *Source: network_plot.py*{: .caption }
-
-## USB Type-C to Ethernet Adapter
-
-This type of adapter is quite common. When I got my Mac M2 computer, I had to use a Type-C to Ethernet adapter. It seems that Apple is increasingly adopting Type-C ports.
-
-## Ethernet Splitter
-
-There are a few variations of this product. Notably, some Ethernet splitters do not support simultaneous internet access for two devices. These types tend to be more affordable.
-
-Other types of Ethernet splitters support simultaneous internet access for two devices. These require two splitters. One splitter connects to two ports on the router. The two splitters are then connected with an 8-wire cable. Finally, you can use the two ports on the second splitter to connect two devices to the internet.
-
-{: .centered }
-![](assets/images/lightning/set.jpg)
-*Source: Self-Captured*{: .caption }
-
