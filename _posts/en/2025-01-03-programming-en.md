@@ -73,3 +73,6 @@ translated: false
 * Minimize the possible values for one item; use just one value for one case. Do not use null if we already have false. If we have a translated true or false flag, we need to ensure that every time we have a translated flag, we do not treat the non-existence of a translated flag as false.
 
 * Use GitHub or Sourcetree to review changed code blocks frequently. They are more convenient for reading code.
+
+* In programming, there are often no trivial things. Every character, the order of list items, every string, every number, and every variable name matter. Every execution order and every log matter.
+
