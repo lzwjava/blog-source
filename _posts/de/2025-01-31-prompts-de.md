@@ -6,23 +6,31 @@ title: Nützliche Eingabeaufforderungen
 translated: true
 ---
 
-Kreieren Sie ein natürliches und erweitertes Gespräch zwischen zwei Experten, A und B, mit mindestens 100 Wendungen. Die Experten sollten ein bestimmtes Thema ausführlich diskutieren, wobei das Gespräch hin und her geht. Beide Teilnehmer sollten Fragen stellen, Erkenntnisse teilen und die Nuancen des Themengebiets erforschen. Nutzen Sie Fähigkeiten wie das Vertiefen in Unterabschnitte, Vergleich von Technologien, Erforschung von Anwendungsfällen, Diskussion von Abwägungen und Diskussion von aufkommenden Trends. Erweitern Sie auf 100+ Wendungen.
-
-Das Format sollte wie folgt sein:
-
-```json
-[
-    {
-      "speaker": "A",
-      "line": "Hey, ich habe viel über ein bestimmtes Thema gehört. Kannst du es mir erklären?"
-    },
-    {
-      "speaker": "B",
-      "line": "Natürlich! Lassen wir mit den Grundlagen beginnen. ..."
-    }
-]
 ```
+{
+  "speaker": "A",
+  "line": "Hallo, ich habe viel über ein bestimmtes Thema gehört. Kannst du es mir erklären?"
+},
+{
+  "speaker": "B",
+  "line": "Natürlich! Fangen wir mit den Grundlagen an. ..."
+},
+```
+
+生成一个包含文字姓名的愉快的农历蛇年新年图像
 
 ---
 
-Erstellen Sie ein fröhliches Bild zum chinesischen Schlangen-Neujahr mit Textnamen.
+创建一个带有以下元素的480p YouTube视频封面图像，AI，鲨鱼，未来主义，鲜艳，多彩，日出，城市，中心有大大的深度寻找R1文字。
+
+---
+
+创建一个Deepseek R1的YouTube标题。标题应包括主要使用的技术。
+
+---
+
+```
+
+
+
+```
