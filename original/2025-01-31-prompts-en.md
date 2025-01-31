@@ -39,7 +39,7 @@ Create a 480p YouTube video cover image with below elements, AI, shark, futurist
 
 ---
 
-Create a YouTube title for Deepseek R1. The title should include the main technologies used.
+Create a 480p YouTube video cover image with below elements: Basic Electronics, futuristic, exciting.
 
 ---
 
