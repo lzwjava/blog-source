@@ -1,35 +1,37 @@
 ---
-audio: false
+audio: true
 lang: de
 layout: post
-title: Richten Sie Ihren Proxy-Server ein
+title: EINRICHTEN SIE IHREN PROXY-SERVER
 translated: true
 ---
 
-* Um einen Server einzurichten, verwenden Sie den Outline Manager: [https://getoutline.org](https://getoutline.org).  
+* Um einen Server einzurichten, verwenden Sie den Outline Manager: [https://getoutline.org](https://getoutline.org).
 
-* Empfohlene Hosting-Anbieter sind DigitalOcean, Google Cloud, Amazon Lightsail, Azure, Vultr oder Linode. Bevorzugen Sie Regionen in Singapur oder Tokio. Vermeiden Sie die Hongkong-Region, da Tools wie ChatGPT und Claude dort verboten sind.
+* Empfohlene Hosting-Anbieter sind DigitalOcean, Google Cloud, Amazon Lightsail, Azure, Vultr und Linode. Für optimale Leistung wählen Sie Serverstandorte in Singapur oder Tokio. Während Hongkong ebenfalls eine Option ist, beachten Sie, dass bestimmte KI-Tools wie ChatGPT und Claude in dieser Region eingeschränkt sind.
 
-* Wenn es Ihnen nichts ausmacht, dass ChatGPT und Claude in Hongkong verboten sind, ist es dennoch eine praktikable Option. Sie können Tools wie Deepseek, Mistral, Grok und die Gemini-API mit Hongkong-Servern nutzen. Nutzen Sie umgekehrtes Denken; andere könnten Hongkong-Server meiden, was sie weniger überlastet lässt.
+* Sie können weiterhin Tools wie Deepseek, Mistral, Grok und die Gemini API (über Cursor) mit Hongkong-Servern verwenden. Da andere möglicherweise Hongkong-Server meiden, sind diese oft weniger überlastet.
 
-* Berücksichtigen Sie den Standort und die Entfernung des Servers. Für diejenigen in Guangzhou ist Hongkong eine gute Option für das Hosting eines Proxy-Servers. Verwenden Sie Speedtest, um die Netzgeschwindigkeit zu messen.
+* Berücksichtigen Sie den Serverstandort und die Entfernung. Für diejenigen in Guangzhou ist Hongkong eine gute Option für das Hosting eines Proxy-Servers. Verwenden Sie Speedtest, um die Netzwerkgeschwindigkeit zu messen.
 
-* Protokolle wie Shadowsocks, VMess und Trojan können leicht gesperrt werden.  
+* Wenn Ihnen Geschwindigkeit wichtig ist, ist die beste Option, von der ich weiß, die Verwendung eines Aliyun Hongkong-Servers mit einer BGP (Premium) elastischen IP. Die IP ist elastisch, was es einfach macht, eine neue zu binden, wenn die aktuelle IP gesperrt wird. Zusätzlich ist diese BGP (Premium) Verbindung von Aliyun Cloud optimiert, was schnelle Geschwindigkeiten bietet.
 
-* Verwenden Sie Linode für eine schnelle Server-Migration.  
+* Protokolle wie Shadowsocks, VMess und Trojan können leicht gesperrt werden.
 
-* Möglicherweise benötigen Sie ein Skript, um Ihren Server täglich automatisch zu erneuern.  
+* Verwenden Sie Linode für eine schnelle Server-Migration.
 
-* Wenn der Proxy-Server von der GFW gesperrt wird oder auf andere Probleme stößt, können Sie eine China Telecom Macau-SIM-Karte verwenden, um Mobilfunkdaten mit Ihrem Laptop zu teilen. Dies ermöglicht es Ihnen, einen neuen Server einzurichten.  
+* Sie könnten ein Skript benötigen, um Ihren Server automatisch jeden Tag zu erneuern.
 
-* Für Cloud-Dienste wie Google Cloud Platform erfordert die Konfiguration eines neuen Servers einen bestehenden Proxy-Server. Anbieter wie DigitalOcean oder Vultr können jedoch direkt eingerichtet werden, ohne einen Proxy-Server zu benötigen.
+* Wenn der Proxy-Server vom GFW gesperrt wird oder andere Probleme auftreten, können Sie eine SIM-Karte von China Telecom Macau verwenden, um zellulare Daten mit Ihrem Laptop zu teilen. Dies ermöglicht Ihnen das Einrichten eines neuen Servers.
 
-* Verwenden Sie [Auto SS Config](https://github.com/lzwjava/auto-ss-config), um Shadowsocks- oder Clash-Abonnement-URLs zu generieren und hochzuladen.
+* Für Cloud-Dienste wie Google Cloud Platform erfordert die Konfiguration eines neuen Servers einen bestehenden Proxy-Server. Anbieter wie DigitalOcean oder Vultr können jedoch direkt eingerichtet werden, ohne dass ein Proxy-Server benötigt wird.
 
-* Verwenden Sie die Snapshot-Funktion in Digital Ocean. Wenn die IP des Servers gesperrt wird, erstellen Sie einen neuen Droplet aus dem Snapshot des Servers und führen Sie `install.sh` erneut aus.
+* Verwenden Sie [Auto SS Config](https://github.com/lzwjava/auto-ss-config), um Shadowsocks oder Clash Abonnement-URLs zu generieren und hochzuladen.
 
-* Verwenden Sie die reservierte IP-Funktion in Digital Ocean. Wenn die IP des Servers gesperrt wird, weisen Sie eine neue reservierte IP zu.
+* Nutzen Sie die Snapshot-Funktionalität in DigitalOcean. Wenn die IP des Servers gesperrt wird, erstellen Sie einen neuen Droplet aus dem Snapshot des Servers und führen `install.sh` erneut aus.
 
-* Wir verwenden den Outline Manager, um unsere eigenen Server einzurichten, da er schnell ist und es uns ermöglicht, den Server allein zu nutzen. Die Knoten von VPN-Anbietern sind oft unzuverlässig. Unsere Server können ebenfalls Probleme haben, aber wir haben ein viel detaillierteres Wissen über die Situation. Wir können auch verschiedene Cloud-Anbieter auswählen. Darüber hinaus wissen wir, ob wir China Telecom oder China Mobile nutzen und ob wir Heim-Wi-Fi oder Mobilfunkdaten verwenden.
+* Nutzen Sie die reservierte IP-Funktionalität in DigitalOcean. Wenn die IP des Servers gesperrt wird, weisen Sie eine neue reservierte IP zu.
 
-* Es ist wahrscheinlich nicht sinnvoll, OpenWrt auf einem Router zu installieren, um einen Proxy einzurichten. Das Hauptproblem ist, dass die GFW die IP-Adresse Ihres Proxy-Servers leicht sperren kann. Es ist besser, eine Abonnementmethode wie mit Clash zu verwenden, um die Einstellungen auf Ihrem Router leicht ändern zu können.
+* Wir verwenden den Outline Manager, um unsere eigenen Server einzurichten, weil es schnell ist und uns ermöglicht, den Server selbst zu genießen. VPN-Anbieterknoten können oft unzuverlässig sein. Unsere Server können ebenfalls Probleme haben, aber wir haben viel detailliertere Kenntnisse über die Situation. Wir können auch verschiedene Cloud-Anbieter auswählen. Zudem wissen wir, ob wir China Telecom oder China Mobile verwenden und ob wir über Heim-WLAN oder zellulare Daten verbunden sind.
+
+* Es ist wahrscheinlich nicht nützlich, OpenWrt auf einem Router zu installieren, um einen Proxy einzurichten. Das Hauptproblem ist, dass die GFW die IP-Adresse Ihres Proxy-Servers leicht sperren kann. Es ist besser, ein Abonnement-Verfahren wie mit Clash zu verwenden, um die Einstellungen auf Ihrem Router einfach zu ändern.

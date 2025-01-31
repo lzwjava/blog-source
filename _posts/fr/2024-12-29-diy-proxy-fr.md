@@ -1,35 +1,37 @@
 ---
-audio: false
+audio: true
 lang: fr
 layout: post
-title: Configurer Votre Serveur Proxy
+title: Configurez Votre Serveur Proxy
 translated: true
 ---
 
-* Pour configurer un serveur, utilisez Outline Manager : [https://getoutline.org](https://getoutline.org).  
+* Pour configurer un serveur, utilisez Outline Manager : [https://getoutline.org](https://getoutline.org).
 
-* Les fournisseurs d'hébergement recommandés incluent DigitalOcean, Google Cloud, Amazon Lightsail, Azure, Vultr ou Linode. Privilégiez les régions de Singapour ou de Tokyo. Évitez la région de Hong Kong, car des outils comme ChatGPT et Claude y sont interdits.  
+* Les fournisseurs d'hébergement recommandés incluent DigitalOcean, Google Cloud, Amazon Lightsail, Azure, Vultr et Linode. Pour des performances optimales, choisissez des emplacements de serveurs à Singapour ou Tokyo. Bien que Hong Kong soit également une option viable, sachez que certains outils d'IA comme ChatGPT et Claude sont restreints dans cette région.
 
-* Si cela ne vous dérange pas que ChatGPT et Claude soient interdits à Hong Kong, c'est toujours une option viable. Vous pouvez utiliser des outils comme Deepseek, Mistral, Grok et l'API Gemini avec des serveurs à Hong Kong. Utilisez la pensée inverse ; d'autres peuvent éviter les serveurs de Hong Kong, ce qui les rend moins encombrés.  
+* Vous pouvez encore utiliser des outils comme Deepseek, Mistral, Grok et l'API Gemini (via Cursor) avec des serveurs à Hong Kong. En utilisant la réflexion par inversion, puisque d'autres peuvent éviter les serveurs à Hong Kong, ils ont tendance à être moins congestionnés.
 
-* Prenez en compte l'emplacement du serveur et la distance. Pour ceux qui se trouvent à Guangzhou, Hong Kong est une bonne option pour héberger un serveur proxy. Utilisez Speedtest pour mesurer la vitesse du réseau.  
+* Prenez en compte l'emplacement du serveur et la distance. Pour ceux à Guangzhou, Hong Kong est une bonne option pour héberger un serveur proxy. Utilisez Speedtest pour mesurer la vitesse du réseau.
 
-* Les protocoles tels que Shadowsocks, VMess et Trojan peuvent facilement être bannis.  
+* Si vous vous souciez de la vitesse, la meilleure option, à ma connaissance, est d'utiliser un serveur Aliyun Hong Kong avec une adresse IP élastique BGP (premium). L'IP est élastique, ce qui la rend facile à relier à une nouvelle si l'IP actuelle est bannie. De plus, cette connexion BGP (premium) est optimisée par Aliyun Cloud, offrant des vitesses rapides.
 
-* Utilisez Linode pour une migration rapide des serveurs.  
+* Des protocoles comme Shadowsocks, VMess et Trojan peuvent être facilement bannis.
 
-* Vous pourriez avoir besoin d'un script pour renouveler automatiquement votre serveur chaque jour.  
+* Utilisez Linode pour une migration rapide de serveur.
 
-* Si le serveur proxy est banni par le GFW ou rencontre d'autres problèmes, vous pouvez utiliser une carte SIM China Telecom Macau pour partager des données cellulaires avec votre ordinateur portable. Cela vous permet de configurer un nouveau serveur.  
+* Vous pourriez avoir besoin d'un script pour renouveler automatiquement votre serveur chaque jour.
 
-* Pour les services cloud comme Google Cloud Platform, la configuration d'un nouveau serveur nécessite un serveur proxy existant. Cependant, des fournisseurs comme DigitalOcean ou Vultr peuvent être configurés directement sans avoir besoin d'un serveur proxy.  
+* Si le serveur proxy est banni par le GFW ou rencontre d'autres problèmes, vous pouvez utiliser une carte SIM China Telecom Macau pour partager les données cellulaires avec votre ordinateur portable. Cela vous permet de configurer un nouveau serveur.
 
-* Utilisez [Auto SS Config](https://github.com/lzwjava/auto-ss-config) pour générer et télécharger les URL d'abonnement Shadowsocks ou Clash.  
+* Pour les services cloud comme Google Cloud Platform, la configuration d'un nouveau serveur nécessite un serveur proxy existant. Cependant, des fournisseurs comme DigitalOcean ou Vultr peuvent être configurés directement sans besoin d'un serveur proxy.
 
-* Utilisez la fonctionnalité de snapshot dans Digital Ocean. Si l'IP du serveur est bannie, créez un nouveau droplet à partir du snapshot du serveur et exécutez à nouveau `install.sh`.  
+* Utilisez [Auto SS Config](https://github.com/lzwjava/auto-ss-config) pour générer et télécharger des URL d'abonnement Shadowsocks ou Clash.
 
-* Utilisez la fonctionnalité d'IP réservée dans Digital Ocean. Si l'IP du serveur est bannie, attribuez une nouvelle IP réservée.  
+* Utilisez la fonctionnalité de snapshot dans Digital Ocean. Si l'IP du serveur est bannie, créez un nouveau droplet à partir du snapshot du serveur et exécutez `install.sh` à nouveau.
 
-* Nous utilisons Outline Manager pour configurer nos propres serveurs car c'est rapide et cela nous permet de profiter du serveur nous-mêmes. Les nœuds des fournisseurs de VPN peuvent souvent être peu fiables. Nos serveurs peuvent également rencontrer des problèmes, mais nous avons une connaissance beaucoup plus détaillée de la situation. Nous pouvons également choisir différents fournisseurs de cloud. De plus, nous savons si nous utilisons China Telecom ou China Mobile, et si nous utilisons le Wi-Fi domestique ou les données cellulaires.  
+* Utilisez la fonctionnalité d'IP réservée dans Digital Ocean. Si l'IP du serveur est bannie, attribuez une nouvelle IP réservée.
 
-* Il n'est probablement pas utile d'installer OpenWrt sur un routeur pour configurer un proxy. Le principal problème est que le GFW peut facilement bannir l'adresse IP de votre serveur proxy. Il est préférable d'utiliser une méthode d'abonnement, comme avec Clash, pour changer facilement les paramètres sur votre routeur.
+* Nous utilisons Outline Manager pour configurer nos propres serveurs car il est rapide et nous permet de profiter du serveur par nous-mêmes. Les nœuds des fournisseurs VPN peuvent souvent être peu fiables. Nos serveurs peuvent également rencontrer des problèmes, mais nous avons une connaissance beaucoup plus détaillée de la situation. Nous pouvons également choisir différents fournisseurs de cloud. De plus, nous savons si nous utilisons China Telecom ou China Mobile, et si nous utilisons le Wi-Fi domestique ou les données cellulaires.
+
+* Il est probablement inutile d'installer OpenWrt sur un routeur pour configurer un proxy. Le principal problème est que le GFW peut facilement bannir l'adresse IP de votre serveur proxy. Il est préférable d'utiliser une méthode d'abonnement, comme avec Clash, pour modifier facilement les paramètres sur votre routeur.
