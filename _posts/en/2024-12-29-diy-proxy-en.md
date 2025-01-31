@@ -16,11 +16,11 @@ translated: false
 
 * Consider server location and distance. For those in Guangzhou, Hong Kong is a good option for hosting a proxy server. Use Speedtest to measure network speed.
 
-* If you care about speed, the best option, to my knowledge, is to use an Aliyun Hong Kong server with a BGP (premium) elastic IP. The IP is elastic, which makes it easy to bind a new one if the current IP gets banned. Additionally, this BGP (premium) connection is optimized by Aliyun Cloud, providing fast speeds.
+* For optimal speed, I recommend using an Aliyun Hong Kong server with a BGP (premium) elastic IP. The elastic IP feature allows quick replacement if the current IP gets blocked. Aliyun Cloud's optimized BGP (premium) connection ensures fast performance. The service costs 3CNY per 1GB of traffic.
 
 * Protocols such as Shadowsocks, VMess, and Trojan can easily get banned.  
 
-* Use Linode for fast server migration.  
+* Linode's IP Transfer feature allows you to quickly migrate your server to a new location, thus obtaining a new IP address.
 
 * You may need a script to automatically renew your server every day.  
 
@@ -28,7 +28,7 @@ translated: false
 
 * For cloud services like Google Cloud Platform, configuring a new server requires an existing proxy server. However, providers like DigitalOcean or Vultr can be set up directly without needing a proxy server.
 
-* Use [Auto SS Config](https://github.com/lzwjava/auto-ss-config) to generate and upload Shadowsocks or Clash subscription URLs.
+* Use [Auto SS Config](https://github.com/lzwjava/lzwjava.github.io/blob/main/scripts/auto-ss-config/upload_configs.py) to generate and upload Shadowsocks or Clash subscription URLs.
 
 * Use the snapshot functionality in Digital Ocean. If the IP of the server is banned, create a new droplet from the snapshot of the server and run `install.sh` again.
 
