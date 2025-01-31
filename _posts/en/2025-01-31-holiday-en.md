@@ -169,3 +169,15 @@ Here is a clean list of the USA's official holidays for 2025:
 
 11. **Christmas Day**
     - Date: December 25, 2025.
+
+## Figures
+
+
+{: .centered }
+![](assets/images/holiday/holiday_schedule_hk.jpg){: .responsive }
+*Source: Self-Made*{: .caption }
+
+{: .centered }
+![](assets/images/holiday/holiday_schedule_hk.jpg){: .responsive }
+*Source: Self-Made*{: .caption }
+

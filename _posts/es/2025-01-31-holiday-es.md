@@ -2,23 +2,23 @@
 audio: false
 lang: es
 layout: post
-title: Horario festivo 2025
+title: Calendario de Festivos 2025
 translated: true
 ---
 
-He trabajado para empresas de Singapur y Hong Kong, así que le pedí a la IA que me ayudara a planificar las vacaciones de este año. También he incluido a EE.UU. porque sigo las acciones de EE.UU.
+Habiendo trabajado para empresas singapurenses y de Hong Kong, consulté a la IA para compilar los calendarios de vacaciones de este año. Actualmente, me uniré a un proyecto en un banco y espero su calendario oficial de vacaciones. Parece que seguiremos el calendario de Hong Kong. También he incluido las vacaciones de EE. UU. debido a mi interés en los mercados de valores estadounidenses.
 
 ---
 
 ## China
 
-Días feriados públicos chinos para 2025:
+Festivos públicos chinos para 2025:
 
 1. **Año Nuevo (元旦)**
    - Fecha: 1 de enero de 2025
    - Duración: 1 día
 
-2. **Festividad de la Primavera (Año Nuevo Chino) (春节)**
+2. **Festival de la Primavera (Año Nuevo Chino) (春节)**
    - Fecha: 29 de enero - 4 de febrero de 2025
    - Duración: 7 días
 
@@ -26,7 +26,7 @@ Días feriados públicos chinos para 2025:
    - Fecha: 5 de abril de 2025
    - Duración: 1 día
 
-4. **Día del Trabajador (劳动节)**
+4. **Día del Trabajo (劳动节)**
    - Fecha: 1 de mayo de 2025
    - Duración: 1 día
 
@@ -34,7 +34,7 @@ Días feriados públicos chinos para 2025:
    - Fecha: 6 de junio de 2025
    - Duración: 1 día
 
-6. **Festival del Medio Otoño (中秋节)**
+6. **Festival de la Luna (中秋节)**
    - Fecha: 19 de septiembre de 2025
    - Duración: 1 día
 
@@ -44,7 +44,7 @@ Días feriados públicos chinos para 2025:
 
 ## Hong Kong
 
-Aquí está la lista actualizada de los días festivos oficiales de Hong Kong para 2025 con los días del Año Nuevo Lunar combinados:
+Aquí está la lista actualizada de los feriados oficiales de Hong Kong para 2025 con los días del Año Nuevo Lunar combinados:
 
 1. **El primer día de enero**
    - Fecha: 1 de enero de 2025
@@ -65,7 +65,7 @@ Aquí está la lista actualizada de los días festivos oficiales de Hong Kong pa
 6. **Lunes de Pascua**
    - Fecha: 21 de abril de 2025
 
-7. **Día del Trabajador**
+7. **Día del Trabajo**
    - Fecha: 1 de mayo de 2025
 
 8. **Cumpleaños de Buda**
@@ -77,10 +77,10 @@ Aquí está la lista actualizada de los días festivos oficiales de Hong Kong pa
 10. **Día de la Establecimiento de la Región Administrativa Especial de Hong Kong**
     - Fecha: 1 de julio de 2025
 
-11. **El día siguiente al Festival del Medio Otoño Chino**
+11. **El día siguiente al Festival de la Luna China**
     - Fecha: 20 de septiembre de 2025
 
-12. **Festival del Medio Otoño Chino**
+12. **Festival de la Luna China**
     - Fecha: 21 de septiembre de 2025
 
 13. **Festival Chung Yeung**
@@ -89,15 +89,15 @@ Aquí está la lista actualizada de los días festivos oficiales de Hong Kong pa
 14. **Día Nacional Chino**
     - Fecha: 6 de octubre de 2025
 
-15. **Día de Navidad**
+15. **Navidad**
     - Fecha: 25 de diciembre de 2025
 
-16. **El primer día laborable después del Día de Navidad**
+16. **El primer día laborable después de Navidad**
     - Fecha: 26 de diciembre de 2025
 
 ## Singapur
 
-Aquí está una lista limpia de los días festivos oficiales de Singapur para 2025:
+Aquí está una lista limpia de los feriados oficiales de Singapur para 2025:
 
 1. **Año Nuevo**
    - Fecha: 1 de enero de 2025
@@ -112,10 +112,10 @@ Aquí está una lista limpia de los días festivos oficiales de Singapur para 20
 4. **Viernes Santo**
    - Fecha: 18 de abril de 2025
 
-5. **Día del Trabajador**
+5. **Día del Trabajo**
    - Fecha: 1 de mayo de 2025
 
-6. **Vesak Day**
+6. **Día Vesak**
    - Fecha: 20 de mayo de 2025
 
 7. **Hari Raya Haji**
@@ -127,12 +127,12 @@ Aquí está una lista limpia de los días festivos oficiales de Singapur para 20
 9. **Deepavali**
    - Fecha: 20 de octubre de 2025
 
-10. **Día de Navidad**
-    - Fecha: 25 de diciembre de 2025
+10. **Navidad**
+    - Fecha: 25 de diciembre de 2025.
 
-## EE.UU.
+## USA
 
-Aquí está una lista limpia de los días festivos oficiales de EE.UU. para 2025:
+Aquí está una lista limpia de los feriados oficiales de EE. UU. para 2025:
 
 1. **Año Nuevo**
    - Fecha: 1 de enero de 2025
@@ -140,13 +140,13 @@ Aquí está una lista limpia de los días festivos oficiales de EE.UU. para 2025
 2. **Día de Martin Luther King Jr.**
    - Fecha: 20 de enero de 2025
 
-3. **Día de Washington (Día del Presidente)**
+3. **Día de Washington (Día de los Presidentes)**
    - Fecha: 17 de febrero de 2025
 
 4. **Día de los Caídos**
    - Fecha: 26 de mayo de 2025
 
-5. **Junteenth**
+5. **Día de Juneteenth**
    - Fecha: 19 de junio de 2025
 
 6. **Día de la Independencia**
@@ -164,5 +164,5 @@ Aquí está una lista limpia de los días festivos oficiales de EE.UU. para 2025
 10. **Día de Acción de Gracias**
     - Fecha: 27 de noviembre de 2025
 
-11. **Día de Navidad**
+11. **Navidad**
     - Fecha: 25 de diciembre de 2025.

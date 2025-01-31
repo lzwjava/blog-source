@@ -2,11 +2,11 @@
 audio: false
 lang: de
 layout: post
-title: Feiertagskalender 2025
+title: Feiertagsplan 2025
 translated: true
 ---
 
-Ich habe für singapurische und hongkongische Unternehmen gearbeitet und konsultierte KI, um den diesjährigen Feiertagskalender zu erstellen. Derzeit arbeite ich an einem Projekt bei einer Bank und warte auf deren offiziellen Feiertagskalender. Es sieht so aus, als würden wir dem Hongkonger Kalender folgen. Ich habe auch die USA-Feiertage aufgrund meines Interesses an den US-Aktienmärkten aufgenommen.
+Ich habe für singapurische und hongkongische Unternehmen gearbeitet und habe KI konsultiert, um den diesjährigen Feiertagskalender zu erstellen. Derzeit arbeite ich an einem Projekt bei einer Bank und warte auf deren offiziellen Feiertagskalender. Es scheint, dass wir dem Hongkonger Kalender folgen werden. Ich habe auch die USA-Feiertage aufgrund meines Interesses an den US-Aktienmärkten aufgenommen.
 
 ---
 
@@ -19,10 +19,10 @@ Chinesische öffentliche Feiertage für 2025:
    - Dauer: 1 Tag
 
 2. **Frühlingsfest (Chinesisches Neujahr) (春节)**
-   - Datum: 29. Januar – 4. Februar 2025
+   - Datum: 29. Januar - 4. Februar 2025
    - Dauer: 7 Tage
 
-3. **Qingming-Fest (清明节)**
+3. **Qingming-Festival (清明节)**
    - Datum: 5. April 2025
    - Dauer: 1 Tag
 
@@ -34,7 +34,7 @@ Chinesische öffentliche Feiertage für 2025:
    - Datum: 6. Juni 2025
    - Dauer: 1 Tag
 
-6. **Mittsommerfest (中秋节)**
+6. **Mittherbstfest (中秋节)**
    - Datum: 19. September 2025
    - Dauer: 1 Tag
 
@@ -42,15 +42,15 @@ Chinesische öffentliche Feiertage für 2025:
    - Datum: 1.-7. Oktober 2025
    - Dauer: 7 Tage
 
-## Hong Kong
+## Hongkong
 
-Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025, wobei die Tage des Lunar New Year kombiniert sind:
+Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025, wobei die Lunar New Year-Tage zusammengefasst sind:
 
-1. **Der erste Tag des Januars**
+1. **Der erste Tag im Januar**
    - Datum: 1. Januar 2025
 
 2. **Lunar New Year**
-   - Datum: 29. Januar – 1. Februar 2025
+   - Datum: 29. Januar - 1. Februar 2025
    - Dauer: 4 Tage
 
 3. **Ching Ming Festival**
@@ -74,13 +74,13 @@ Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025
 9. **Tuen Ng Festival**
    - Datum: 6. Juni 2025
 
-10. **Tag der Gründung der Sonderverwaltungsregion Hongkong**
+10. **Tag der Gründung der Sonderverwaltungszone Hongkong**
     - Datum: 1. Juli 2025
 
-11. **Der Tag nach dem chinesischen Mittsommerfest**
+11. **Der Tag nach dem chinesischen Mittherbstfest**
     - Datum: 20. September 2025
 
-12. **Chinesisches Mittsommerfest**
+12. **Chinesisches Mittherbstfest**
     - Datum: 21. September 2025
 
 13. **Chung Yeung Festival**
@@ -97,7 +97,7 @@ Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025
 
 ## Singapur
 
-Hier ist eine saubere Liste der offiziellen Feiertage Singapurs für 2025:
+Hier ist eine übersichtliche Liste der offiziellen Feiertage in Singapur für 2025:
 
 1. **Neujahr**
    - Datum: 1. Januar 2025
@@ -128,11 +128,11 @@ Hier ist eine saubere Liste der offiziellen Feiertage Singapurs für 2025:
    - Datum: 20. Oktober 2025
 
 10. **Weihnachten**
-    - Datum: 25. Dezember 2025
+    - Datum: 25. Dezember 2025.
 
 ## USA
 
-Hier ist eine saubere Liste der offiziellen Feiertage der USA für 2025:
+Hier ist eine übersichtliche Liste der offiziellen Feiertage in den USA für 2025:
 
 1. **Neujahr**
    - Datum: 1. Januar 2025
@@ -165,4 +165,14 @@ Hier ist eine saubere Liste der offiziellen Feiertage der USA für 2025:
     - Datum: 27. November 2025
 
 11. **Weihnachten**
-    - Datum: 25. Dezember 2025
+    - Datum: 25. Dezember 2025.
+
+## Figuren
+
+{: .centered }
+![](assets/images/holiday/holiday_schedule_hk.jpg){: .responsive }
+*Quelle: Selbst gemacht*{: .caption }
+
+{: .centered }
+![](assets/images/holiday/holiday_schedule_hk.jpg){: .responsive }
+*Quelle: Selbst gemacht*{: .caption }
