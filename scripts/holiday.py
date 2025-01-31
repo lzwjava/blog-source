@@ -1,54 +1,69 @@
 import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-from datetime import datetime
+import os
+from datetime import datetime, timedelta
 
-# Holiday data for China and Hong Kong
-holidays = {
-    "China": [
-        {"name": "New Year's Day", "date": "2025-01-01", "duration": 1},
-        {"name": "Spring Festival", "date": "2025-01-29", "duration": 7},
-        {"name": "Qingming Festival", "date": "2025-04-05", "duration": 1},
-        {"name": "Labor Day", "date": "2025-05-01", "duration": 1},
-        {"name": "Dragon Boat Festival", "date": "2025-06-06", "duration": 1},
-        {"name": "Mid-Autumn Festival", "date": "2025-09-19", "duration": 1},
-        {"name": "National Day", "date": "2025-10-01", "duration": 7},
-    ],
-    "Hong Kong": [
-        {"name": "The first day of January", "date": "2025-01-01", "duration": 1},
-        {"name": "Lunar New Year", "date": "2025-01-29", "duration": 4},
-        {"name": "Ching Ming Festival", "date": "2025-04-04", "duration": 1},
-        {"name": "Good Friday", "date": "2025-04-18", "duration": 1},
-        {"name": "The day following Good Friday", "date": "2025-04-19", "duration": 1},
-        {"name": "Easter Monday", "date": "2025-04-21", "duration": 1},
-        {"name": "Labor Day", "date": "2025-05-01", "duration": 1},
-        {"name": "Buddha's Birthday", "date": "2025-05-20", "duration": 1},
-        {"name": "Tuen Ng Festival", "date": "2025-06-06", "duration": 1},
-        {"name": "Hong Kong Special Administrative Region Establishment Day", "date": "2025-07-01", "duration": 1},
-        {"name": "The day following the Chinese Mid-Autumn Festival", "date": "2025-09-20", "duration": 1},
-        {"name": "Chinese Mid-Autumn Festival", "date": "2025-09-21", "duration": 1},
-        {"name": "Chung Yeung Festival", "date": "2025-10-05", "duration": 1},
-        {"name": "Chinese National Day", "date": "2025-10-06", "duration": 1},
-        {"name": "Christmas Day", "date": "2025-12-25", "duration": 1},
-        {"name": "The first weekday after Christmas Day", "date": "2025-12-26", "duration": 1},
-    ],
-}
+# Holiday data for Hong Kong
+holidays_hk = [
+    {"name": "Jan 1st", "date": "2025-01-01", "duration": 1},
+    {"name": "Lunar New Year", "date": "2025-01-29", "duration": 4},
+    {"name": "Ching Ming", "date": "2025-04-04", "duration": 1},
+    {"name": "Good Friday", "date": "2025-04-18", "duration": 2},
+    {"name": "Easter Monday", "date": "2025-04-21", "duration": 1},
+    {"name": "Labor Day", "date": "2025-05-01", "duration": 1},
+    {"name": "Buddha's Birthday", "date": "2025-05-20", "duration": 1},
+    {"name": "Tuen Ng Festival", "date": "2025-06-06", "duration": 1},
+    {"name": "HK SAR Day", "date": "2025-07-01", "duration": 1},
+    {"name": "Mid-Autumn Festival", "date": "2025-09-20", "duration": 2},
+    {"name": "Chung Yeung", "date": "2025-10-05", "duration": 1},
+    {"name": "National Day", "date": "2025-10-06", "duration": 1},
+    {"name": "Christmas", "date": "2025-12-25", "duration": 2},
+]
 
-# Create the plot
-fig, ax = plt.subplots(figsize=(15, 6))
+# Holiday data for China
+holidays_cn = [
+    {"name": "New Year's Day", "date": "2025-01-01", "duration": 1},
+    {"name": "Spring Festival", "date": "2025-01-29", "duration": 7},
+    {"name": "Qingming Festival", "date": "2025-04-05", "duration": 1},
+    {"name": "Labor Day", "date": "2025-05-01", "duration": 1},
+    {"name": "Dragon Boat Festival", "date": "2025-06-06", "duration": 1},
+    {"name": "Mid-Autumn Festival", "date": "2025-09-19", "duration": 1},
+    {"name": "National Day", "date": "2025-10-01", "duration": 7},
+]
 
-# Plot each country's holidays
-for country, country_holidays in holidays.items():
-    for holiday in country_holidays:
-        date = datetime.strptime(holiday["date"], "%Y-%m-%d")
-        duration = holiday["duration"]
-        ax.barh(country, duration, left=date, height=0.5, label=holiday["name"])
 
-# Format the plot
-ax.xaxis.set_major_locator(mdates.MonthLocator())
-ax.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
-ax.set_xlabel("Date")
-ax.set_ylabel("Country")
-ax.set_title("2025 Holiday Schedule (China & Hong Kong)")
-ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+# Calculate total holiday days for Hong Kong
+total_days_hk = sum(holiday["duration"] for holiday in holidays_hk)
+labels_hk = [f"{holiday['name']} ({holiday['date']}, {holiday['duration']} day{'s' if holiday['duration'] > 1 else ''})" for holiday in holidays_hk]
+sizes_hk = [holiday["duration"] for holiday in holidays_hk]
+
+
+# Create the pie chart for Hong Kong
+fig1, ax1 = plt.subplots(figsize=(10, 10))
+wedges, texts, autotexts = ax1.pie(sizes_hk, labels=labels_hk, autopct='%1.1f%%', startangle=90, textprops={'color': "black"})
+ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+ax1.set_title(f"2025 Holiday Schedule (Hong Kong) - Total Days: {total_days_hk}")
+plt.setp(autotexts, size=8, weight="bold")
 plt.tight_layout()
+
+# Save the first plot
+plt.savefig(os.path.join(os.path.dirname(__file__), 'holiday_schedule_hk.jpg'))
+
+
+# Calculate total holiday days for China
+total_days_cn = sum(holiday["duration"] for holiday in holidays_cn)
+labels_cn = [f"{holiday['name']} ({holiday['date']}, {holiday['duration']} day{'s' if holiday['duration'] > 1 else ''})" for holiday in holidays_cn]
+sizes_cn = [holiday["duration"] for holiday in holidays_cn]
+
+# Create the pie chart for China
+fig2, ax2 = plt.subplots(figsize=(10, 10))
+wedges, texts, autotexts = ax2.pie(sizes_cn, labels=labels_cn, autopct='%1.1f%%', startangle=90, textprops={'color': "black"})
+ax2.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+ax2.set_title(f"2025 Holiday Schedule (China) - Total Days: {total_days_cn}")
+plt.setp(autotexts, size=8, weight="bold")
+plt.tight_layout()
+
+
+# Save the second plot
+plt.savefig(os.path.join(os.path.dirname(__file__), 'holiday_schedule_cn.jpg'))
+
 plt.show()
