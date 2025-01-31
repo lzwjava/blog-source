@@ -52,7 +52,7 @@ conda config --set proxy_servers.https $HTTP_PROXY
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 start_proxy
-# start_git_proxy
+start_git_proxy
 
 function gpa {
   python ~/bin/gitmessageai.py --api mistral --allow-pull-push
@@ -83,7 +83,6 @@ function gpp {
 export SSL_CERT_FILE=~/bin/cacert.pem
 
 alias rougify=/Users/lzwjava/projects/rouge/bin/rougify
-
 
 git config --global core.editor "code --wait"
 # git config --global -e
@@ -169,6 +168,17 @@ preexec() {
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc'; fi
 
+function checkproxy {
+  echo "HTTP_PROXY: $HTTP_PROXY"
+  echo "HTTPS_PROXY: $HTTPS_PROXY"
+  echo "Conda Proxy Servers:"
+  conda config --get proxy_servers
+  echo "Git HTTP Proxy:"
+  git config --get http.proxy
+  echo "Git HTTPS Proxy:"
+  git config --get https.proxy
+}
+
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/lzwjava/bin/graphite-ally-445108-k3-035f0952219d.json"
 
 export DEEPSEEK_API_KEY="xxx"
@@ -186,3 +196,4 @@ export DO_API_KEY="xxx"
 export GEMINI_API_KEY="xxx"
 
 export HERTZNER_API_KEY="xxx"
+
