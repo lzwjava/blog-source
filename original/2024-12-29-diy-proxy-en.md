@@ -25,7 +25,7 @@ title: Set Up Your Proxy Server
 
 * For cloud services like Google Cloud Platform, configuring a new server requires an existing proxy server. However, providers like DigitalOcean or Vultr can be set up directly without needing a proxy server.
 
-* Use [Auto SS Config](https://github.com/lzwjava/auto-ss-config) to generate and upload Shadowsocks or Clash subscription URLs.
+* Use [Auto SS Config](https://github.com/lzwjava/lzwjava.github.io/blob/main/scripts/auto-ss-config/upload_configs.py) to generate and upload Shadowsocks or Clash subscription URLs.
 
 * Use the snapshot functionality in Digital Ocean. If the IP of the server is banned, create a new droplet from the snapshot of the server and run `install.sh` again.
 
