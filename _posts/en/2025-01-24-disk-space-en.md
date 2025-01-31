@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: en
 layout: post
 title: Clean Up Disk Space
@@ -15,6 +15,8 @@ Use the path Settings -> General -> Storage -> Storage settings to find out how 
 ## Find Large Files
 
 Use `du` to find large files. For example, use the command `du -hL -d 1 | sort -h`.
+
+In some directory, use `find . -type f -print0 | xargs -0 du -h | sort -rh | head -n 20`.
 
 ## Delete Applications
 
