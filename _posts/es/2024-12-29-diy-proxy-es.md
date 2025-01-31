@@ -1,35 +1,37 @@
 ---
-audio: false
+audio: true
 lang: es
 layout: post
-title: Configura tu Servidor Proxy
+title: Configurar tu servidor proxy
 translated: true
 ---
 
-* Para configurar un servidor, utiliza Outline Manager: [https://getoutline.org](https://getoutline.org).  
+* Para configurar un servidor, use Outline Manager: [https://getoutline.org](https://getoutline.org).
 
-* Los proveedores de hosting recomendados incluyen DigitalOcean, Google Cloud, Amazon Lightsail, Azure, Vultr o Linode. Prefiere regiones en Singapur o Tokio. Evita la región de Hong Kong, ya que herramientas como ChatGPT y Claude están prohibidas allí.  
+* Los proveedores de alojamiento recomendados incluyen DigitalOcean, Google Cloud, Amazon Lightsail, Azure, Vultr y Linode. Para un rendimiento óptimo, elija ubicaciones de servidores en Singapur o Tokio. Aunque Hong Kong también es una opción viable, tenga en cuenta que ciertas herramientas de IA como ChatGPT y Claude están restringidas en esa región.
 
-* Si no te importa que ChatGPT y Claude estén prohibidos en Hong Kong, sigue siendo una opción viable. Puedes usar herramientas como Deepseek, Mistral, Grok y la API de Gemini con servidores en Hong Kong. Usa el pensamiento inverso; otros pueden evitar los servidores de Hong Kong, lo que los deja menos congestionados.  
+* Todavía puede usar herramientas como Deepseek, Mistral, Grok y la API de Gemini (a través de Cursor) con servidores de Hong Kong. Usando el pensamiento inverso, dado que otros pueden evitar los servidores de Hong Kong, tienden a estar menos congestionados.
 
-* Considera la ubicación y la distancia del servidor. Para aquellos en Guangzhou, Hong Kong es una buena opción para alojar un servidor proxy. Usa Speedtest para medir la velocidad de la red.  
+* Considere la ubicación del servidor y la distancia. Para aquellos en Guangzhou, Hong Kong es una buena opción para alojar un servidor proxy. Use Speedtest para medir la velocidad de la red.
 
-* Protocolos como Shadowsocks, VMess y Trojan pueden ser fácilmente bloqueados.  
+* Si le importa la velocidad, la mejor opción, según mi conocimiento, es usar un servidor Aliyun Hong Kong con una IP elástica BGP (premium). La IP es elástica, lo que facilita la vinculación de una nueva si la IP actual es bloqueada. Además, esta conexión BGP (premium) está optimizada por Aliyun Cloud, proporcionando velocidades rápidas.
 
-* Usa Linode para una migración rápida de servidores.  
+* Protocolos como Shadowsocks, VMess y Trojan pueden ser bloqueados fácilmente.
 
-* Es posible que necesites un script para renovar automáticamente tu servidor todos los días.  
+* Use Linode para una migración de servidor rápida.
 
-* Si el servidor proxy es bloqueado por el GFW o encuentra otros problemas, puedes usar una tarjeta SIM de China Telecom Macau para compartir datos móviles con tu laptop. Esto te permitirá configurar un nuevo servidor.  
+* Es posible que necesite un script para renovar su servidor automáticamente todos los días.
 
-* Para servicios en la nube como Google Cloud Platform, configurar un nuevo servidor requiere un servidor proxy existente. Sin embargo, proveedores como DigitalOcean o Vultr pueden configurarse directamente sin necesidad de un servidor proxy.  
+* Si el servidor proxy es bloqueado por el GFW o encuentra otros problemas, puede usar una tarjeta SIM de China Telecom Macau para compartir datos celulares con su computadora portátil. Esto le permite configurar un nuevo servidor.
 
-* Usa [Auto SS Config](https://github.com/lzwjava/auto-ss-config) para generar y subir URLs de suscripción de Shadowsocks o Clash.  
+* Para servicios en la nube como Google Cloud Platform, la configuración de un nuevo servidor requiere un servidor proxy existente. Sin embargo, proveedores como DigitalOcean o Vultr se pueden configurar directamente sin necesidad de un servidor proxy.
 
-* Usa la funcionalidad de instantáneas en Digital Ocean. Si la IP del servidor es bloqueada, crea un nuevo droplet a partir de la instantánea del servidor y ejecuta `install.sh` nuevamente.  
+* Use [Auto SS Config](https://github.com/lzwjava/auto-ss-config) para generar y cargar URLs de suscripción de Shadowsocks o Clash.
 
-* Usa la funcionalidad de IP reservada en Digital Ocean. Si la IP del servidor es bloqueada, asigna una nueva IP reservada.  
+* Use la funcionalidad de instantánea en Digital Ocean. Si la IP del servidor es bloqueada, cree un nuevo droplet desde la instantánea del servidor y ejecute `install.sh` nuevamente.
 
-* Usamos Outline Manager para configurar nuestros propios servidores porque es rápido y nos permite disfrutar del servidor por nosotros mismos. Los nodos de los proveedores de VPN suelen ser poco confiables. Nuestros servidores también pueden tener problemas, pero tenemos un conocimiento mucho más detallado de la situación. También podemos elegir diferentes proveedores de la nube. Además, sabemos si estamos usando China Telecom o China Mobile, y si estamos usando Wi-Fi doméstico o datos móviles.  
+* Use la funcionalidad de IP reservada en Digital Ocean. Si la IP del servidor es bloqueada, asigne una nueva IP reservada.
 
-* Probablemente no sea útil instalar OpenWrt en un router para configurar un proxy. El principal problema es que el GFW puede bloquear fácilmente la dirección IP de tu servidor proxy. Es mejor usar un método de suscripción, como con Clash, para cambiar fácilmente la configuración en tu router.
+* Usamos Outline Manager para configurar nuestros propios servidores porque es rápido y nos permite disfrutar del servidor nosotros mismos. Los nodos del proveedor de VPN pueden ser a menudo poco confiables. Nuestros servidores también pueden tener problemas, pero tenemos un conocimiento mucho más detallado de la situación. También podemos elegir diferentes proveedores de la nube. Además, sabemos si estamos usando China Telecom o China Mobile, y si estamos usando Wi-Fi de casa o datos celulares.
+
+* Probablemente no sea útil instalar OpenWrt en un enrutador para configurar un proxy. El problema principal es que el GFW puede bloquear fácilmente la dirección IP de su servidor proxy. Es mejor usar un método de suscripción, como con Clash, para cambiar fácilmente la configuración en su enrutador.
