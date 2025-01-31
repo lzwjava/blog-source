@@ -17,7 +17,7 @@ title: Set Up Your Proxy Server
 
 * Protocols such as Shadowsocks, VMess, and Trojan can easily get banned.  
 
-* Use Linode for fast server migration.  
+* Linode's IP Transfer feature allows you to quickly migrate your server to a new location, thus obtaining a new IP address.
 
 * You may need a script to automatically renew your server every day.  
 
