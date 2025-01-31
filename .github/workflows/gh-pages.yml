@@ -250,17 +250,6 @@ jobs:
       - name: Update Release Hash
         run: |
           python scripts/update_release.py
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _config.yml
-          git diff --cached --quiet || git commit -m "chore(release): Update release hash"
-          git push || {
-            echo "Push failed, attempting pull and merge"
-            git pull --rebase
-            git push
-          }
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
