@@ -64,8 +64,7 @@ layout: page
     {% endif %}
   {% endfor %}
   {% else %}
-  <li class="list-group-item post-item">No posts available. Please refresh the page to load the posts. There is a known
-    bug that we are working to fix.</li>
+  <li class="list-group-item post-item">No posts available. </li>
   {% endif %}
 </ul>
 
@@ -251,8 +250,9 @@ layout: page
 
     // Event listener for dropdown changes
     sortSelect.addEventListener('change', function () {
-      updatePosts();
+      // updatePosts();
       localStorage.setItem('sortOption', sortSelect.value);
+      window.location.href = window.location.pathname + '?sort=' + sortSelect.value;
     });
 
     // Restore from localStorage if available
