@@ -88,6 +88,8 @@ python scripts/epub_book.py notes
 python scripts/epub_book.py _posts/en
 
 python scripts/epub_book.py _posts/ja
+
+python scripts/update_lang.py --file original/2025-02-02-archlinux-en.md --lang ja  --model gemini
 ```
 
 ## Scripts

@@ -223,6 +223,12 @@ def translate_front_matter(front_matter, target_language, input_file, model="dee
  
         front_matter_dict_copy['lang'] = target_language        
         front_matter_dict_copy['translated'] = target_language != 'en'
+        
+        audio_file = os.path.join("assets/audios/", os.path.basename(input_file).replace("-en", f"-{target_language}").replace(".md", ".mp3"))
+        if os.path.exists(audio_file):
+            front_matter_dict_copy['audio'] = True
+        else:
+            front_matter_dict_copy['audio'] = False
 
         result = "---\n" + yaml.dump(front_matter_dict_copy, allow_unicode=True) + "---"
         print(f"  Front matter translation complete for: {input_file}")

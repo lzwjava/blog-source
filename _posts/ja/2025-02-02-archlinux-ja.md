@@ -2,11 +2,11 @@
 audio: true
 lang: ja
 layout: post
-title: Arch Linux のインストール
+title: Arch Linuxのインストール
 translated: true
 ---
 
-Lenovo Xiaoxing 14IAH8 ノートブック。
+Lenovo Xiaoxing 14IAH8ラップトップ。
 
 ```bash
 $ diskutil list
@@ -21,9 +21,10 @@ $ diskutil list
 % diskutil unmountDisk /dev/disk6
 ```
 
-> disk6 のアンマウントに失敗しました: 少なくとも一つのボリュームをアンマウントできませんでした。
-> アンマウントは PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores) によって拒否されました。
-> 拒否者の親 PPID 1 (/sbin/launchd)。
+
+> disk6のマウント解除に失敗しました: 少なくとも1つのボリュームをマウント解除できませんでした。
+> マウント解除はPID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores)によって拒否されました。
+> 拒否者の親PPID 1 (/sbin/launchd)。
 
 ```bash
 % diskutil unmountDisk force /dev/disk6
@@ -32,14 +33,14 @@ $ diskutil list
 ```bash
 sudo dd if=archlinux-2025.02.01-x86_64.iso of=/dev/rdisk6 bs=1m
 
-1179+1 レコード入力
-1179+1 レコード出力
-1236303872 byte 46.777995 秒で転送 (26429176 byte/sec)
+1179+1 レコードが入力されました
+1179+1 レコードが出力されました
+1236303872 バイトが46.777995 秒で転送されました (26429176 バイト/秒)
 ```
 
-USB ドライブは現在のセキュリティポリシーによってロックされています。
+USBドライブは現在のセキュリティポリシーによってロックされています。
 
-F2 を押して BIOS に入り、Secure Boot を無効にしてください。
+F2キーを押してBIOSに入り、セキュアブートを無効にしてください。
 
 ```bash
 ip link
@@ -52,4 +53,4 @@ ping archlinux.org
 timedatectl
 ```
 
-何らかの理由で、Ubuntu をインストールすることにしました。
+何らかの理由で、代わりにUbuntuをインストールすることにしました。
