@@ -12,20 +12,20 @@ translated: true
 
 # code-review-server
 
-CodeReview هو منصة محترفة لمراجعة الكود، والتواصل، والمشاركة. يمكن للمهندسين تقديم كودهم لمراجعة الخبراء لتحسين جودة الكود. تأسست من قبل 6 محبي الإنترنت، بما في ذلك أنا.
+CodeReview هو منصّة محترفة للمراجعة والتواصل والمشاركة. يمكن للمهندسين تقديم كودهم للمراجعة من الخبراء لتحسين جودة الكود. تم تأسيسه من قبل 6 محبي الإنترنت، بما في ذلك أنا.
 
 ![img](./img/cr1.jpg)
 
 ![img](./img/cr2.jpg)
 
-# مشاريع
+# Projects
 
-* [code-review-server](https://github.com/lzwjava/code-review-server)
-* [code-review-web](https://github.com/lzwjava/code-review-web)
+- [code-review-server](https://github.com/lzwjava/code-review-server)
+- [code-review-web](https://github.com/lzwjava/code-review-web)
 
-# التثبيت
+# Deploy
 
-التثبيت: fab -H root@reviewcode.cn deploy
+نشر: fab -H root@reviewcode.cn deploy
 
 تثبيت الاعتماديات: composer install, composer update
 

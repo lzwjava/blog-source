@@ -2,23 +2,23 @@
 audio: false
 lang: hant
 layout: post
-title: 程式代碼審閱服務器
+title: 程式碼審查伺服器
 translated: true
 ---
 
-這是來自 GitHub 專案的 README.md [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server)。
+這是來自 GitHub 項目 [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server) 的 README.md。
 
 ---
 
 # code-review-server
 
-CodeReview 是一個專業的代碼審查、溝通和分享平台。工程師可以提交他們的代碼給專家審查，以提高代碼質量。該平台由包括我在內的 6 位互聯網愛好者創立。
+CodeReview 是一個專業的程式碼審查、溝通和分享平台。工程師可以提交他們的程式碼以接受專家審查，以提高程式碼的質量。這個平台由我和另外五位網絡愛好者創立。
 
 ![img](./img/cr1.jpg)
 
 ![img](./img/cr2.jpg)
 
-# 專案
+# 項目
 
 * [code-review-server](https://github.com/lzwjava/code-review-server)
 * [code-review-web](https://github.com/lzwjava/code-review-web)

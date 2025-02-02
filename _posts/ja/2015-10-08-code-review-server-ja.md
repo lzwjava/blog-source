@@ -1,33 +1,33 @@
 ---
 audio: false
-lang: es
+lang: ja
 layout: post
-title: Servidor de revisión de código
+title: コードレビューサーバー
 translated: true
 ---
 
-Este es el README.md del proyecto de github [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server).
+これは、GitHubプロジェクト[https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server)のREADME.mdです。
 
 ---
 
 # code-review-server
 
-CodeReview es una plataforma profesional para la revisión de código, la comunicación y el intercambio. Los ingenieros pueden enviar su código para una revisión experta para mejorar la calidad de su código. Fue fundado por 6 amantes de Internet, incluyendo a mí.
+CodeReviewは、コードレビュー、コミュニケーション、共有のための専門プラットフォームです。エンジニアは、専門家のレビューを受けることで、コードの質を向上させることができます。設立者は、私を含む6人のインターネット愛好家です。
 
 ![img](./img/cr1.jpg)
 
 ![img](./img/cr2.jpg)
 
-# Proyectos
+# プロジェクト
 
 * [code-review-server](https://github.com/lzwjava/code-review-server)
 * [code-review-web](https://github.com/lzwjava/code-review-web)
 
-# Implementación
+# デプロイ
 
-Implementar: fab -H root@reviewcode.cn deploy
+デプロイ: fab -H root@reviewcode.cn deploy
 
-Instalar dependencias: composer install, composer update
+依存関係のインストール: composer install, composer update
 
 # API
 

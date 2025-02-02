@@ -1,33 +1,33 @@
 ---
 audio: false
-lang: es
+lang: zh
 layout: post
-title: Servidor de revisión de código
+title: 代码审核服务器
 translated: true
 ---
 
-Este es el README.md del proyecto de github [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server).
+这是来自 GitHub 项目 [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server) 的 README.md。
 
 ---
 
 # code-review-server
 
-CodeReview es una plataforma profesional para la revisión de código, la comunicación y el intercambio. Los ingenieros pueden enviar su código para una revisión experta para mejorar la calidad de su código. Fue fundado por 6 amantes de Internet, incluyendo a mí.
+CodeReview 是一个专业的代码评审、沟通和分享平台。工程师可以将他们的代码提交给专家评审，以提高代码质量。它由包括我在内的 6 名互联网爱好者创立。
 
 ![img](./img/cr1.jpg)
 
 ![img](./img/cr2.jpg)
 
-# Proyectos
+# 项目
 
 * [code-review-server](https://github.com/lzwjava/code-review-server)
 * [code-review-web](https://github.com/lzwjava/code-review-web)
 
-# Implementación
+# 部署
 
-Implementar: fab -H root@reviewcode.cn deploy
+部署: fab -H root@reviewcode.cn deploy
 
-Instalar dependencias: composer install, composer update
+安装依赖: composer install, composer update
 
 # API
 
