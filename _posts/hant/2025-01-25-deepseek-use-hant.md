@@ -1,5 +1,5 @@
 ---
-audio: true
+audio: false
 lang: hant
 layout: post
 title: 深之探與密斯崔爾的API使用

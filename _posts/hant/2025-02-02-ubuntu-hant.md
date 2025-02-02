@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: hant
 layout: post
 title: Ubuntu 安裝指南
