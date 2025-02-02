@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: live-web
+title: Live Web
 translated: false
 ---
 
