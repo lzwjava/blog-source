@@ -19,11 +19,14 @@ $ diskutil list
 
 ```bash
 % diskutil unmountDisk /dev/disk6
+```
 
-Unmount of disk6 failed: at least one volume could not be unmounted.
-Unmount was dissented by PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores).
-Dissenter parent PPID 1 (/sbin/launchd).
 
+> Unmount of disk6 failed: at least one volume could not be unmounted.
+> Unmount was dissented by PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores).
+> Dissenter parent PPID 1 (/sbin/launchd).
+
+```bash
 % diskutil unmountDisk force /dev/disk6
 ```
 
@@ -38,3 +41,14 @@ sudo dd if=archlinux-2025.02.01-x86_64.iso of=/dev/rdisk6 bs=1m
 The USB drive is locked by the current security policy.
 
 Press F2 to enter the BIOS and disable Secure Boot.
+
+```bash
+ip link
+iwctl
+device list
+station wlan0 scan
+station wlan0 get-networks
+station wlan0 connect SSID
+ping archlinux.org
+timedatectl
+```
