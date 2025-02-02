@@ -6,32 +6,33 @@ title: Parler de FP avec le problème des codes de Hamming
 translated: true
 ---
 
-Ce post a été initialement écrit en chinois et publié sur CSDN.
+Ce message a été initialement écrit en chinois et publié sur CSDN.
 
 ---
 
-[Lien du Problème](https://www.luogu.com.cn/problem/P1461)
+[Lien vers le problème](https://www.luogu.com.cn/problem/P1461)
 
-Le problème consiste à trouver les `n` nombres les plus petits lexicographiquement de sorte que la distance de Hamming entre deux nombres quelconques soit au moins `d`.
+Le problème consiste à trouver les `n` nombres les plus petits au sens lexicographique tels que la distance de Hamming entre deux nombres quelconques soit d'au moins `d`.
 
-La distance de Hamming peut être calculée en utilisant le XOR. `1^0=1`, `0^1=1`, `0^0=0`, `1^1=0`. Ainsi, le XOR de deux nombres donnera un nombre où les bits définis représentent les bits différents. On peut alors compter le nombre de bits définis dans le résultat.
+La distance de Hamming peut être calculée en utilisant le XOR. `1^0=1`, `0^1=1`, `0^0=0`, `1^1=0`. Ainsi, le XOR de deux nombres donnera un nombre où les bits définis représentent les bits différents. On peut ensuite compter le nombre de bits définis dans le résultat.
 
-J'ai fait une erreur une fois parce que la sortie nécessite 10 nombres par ligne, la dernière ligne pouvant avoir moins de 10. Ma sortie initiale avait un espace de fin après le dernier nombre sur la dernière ligne, suivi d'un saut de ligne.
+J'ai fait une erreur une fois parce que la sortie nécessite 10 nombres par ligne, la dernière ligne pouvant en avoir moins de 10. Ma sortie initiale avait un espace de fin après le dernier nombre de la dernière ligne, suivi d'un saut de ligne.
 
-Je pense que c'est un bon code de style Programmation Fonctionnelle. L'avantage est qu'il est plus structuré, ce qui fait que `main` agit comme un niveau supérieur dans Lisp ou d'autres langages fonctionnels.
+Je pense que c'est un bon code de style Programmation Fonctionnelle. Le bénéfice est qu'il est plus structuré, ce qui fait que `main` agit comme un niveau supérieur dans Lisp ou d'autres langages fonctionnels.
 
-De cette manière, je n'ai pas besoin de créer un nouveau fichier cpp pour tester des fonctions inconnues ou déboguer des fonctions individuelles. Je peux simplement commenter `deal()` et utiliser `main` comme un REPL de niveau supérieur (read-print-eval-loop).
+Ainsi, je n'ai pas besoin de créer un nouveau fichier cpp pour tester des fonctions inconnues ou déboguer des fonctions individuelles. Je peux simplement commenter `deal()` et utiliser `main` comme un REPL (boucle lecture-évaluation-affichage) de niveau supérieur.
 
-Lisp m'a également appris à programmer de manière aussi fonctionnelle que possible, FP! Ainsi, chaque fonction peut être extraite et déboguée séparément. Les sémantiques sont également plus claires. Par exemple :
+Lisp m'a également appris à programmer de la manière la plus fonctionnelle possible, FP! De cette façon, chaque fonction peut être extraite et déboguée séparément. Les sémantiques sont également plus claires. Par exemple:
 
-`hamming(0, 7, 2)` signifie vérifier si les représentations binaires de 0 et 7 diffèrent d'au moins 2 bits. 7 est `111`, donc elles diffèrent de 3 bits, et la fonction retourne vrai.
+`hamming(0, 7, 2)` signifie vérifier si les représentations binaires de 0 et 7 diffèrent d'au moins 2 bits. 7 est `111`, donc elles diffèrent de 3 bits, et la fonction retourne true.
 
-Donc, je peux commenter `deal()` et ajouter `hamming(0, 7, 2)` pour tester cette fonction indépendamment.
+Ainsi, je peux commenter `deal()` et ajouter `hamming(0, 7, 2)` pour tester cette fonction indépendamment.
 
-Code AC :
+Code AC:
 
 ```java
 /*
+
 {
 ID: lzwjava1
 PROG: hamming
@@ -117,6 +118,4 @@ int main()
 }
 
 /*
-```
-
 ```
