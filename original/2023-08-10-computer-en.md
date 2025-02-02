@@ -340,7 +340,7 @@ A Machine Learning Environment with Ubuntu and GPU acceleration in 5 steps
 
 Create a bootable USB stick on macOS
 
-[https://ubuntu.com/tutorials/create-a-usb-stick-on-macos#4-install-and-run-etcher](ttps://ubuntu.com/tutorials/create-a-usb-stick-on-macos#4-install-and-run-etcher)
+[https://ubuntu.com/tutorials/create-a-usb-stick-on-macos#4-install-and-run-etcher](https://ubuntu.com/tutorials/create-a-usb-stick-on-macos#4-install-and-run-etcher)
 
 Install Ubuntu desktop
 
