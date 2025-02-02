@@ -6,20 +6,20 @@ title: 露天烹飪
 translated: true
 ---
 
-- 使用石頭、葉子、樹枝和小樹枝來建一個爐子。
+- 使用石頭、落葉、樹枝和樹枝建造一個爐子。
 
-- 燒約半小時，使石頭變得通紅。
+- 燒約半小時，直到石頭變得通紅。
 
-- 在頂部開一扇門，把食物放進去；記住一次把所有食物放進去。關上門後，取出或加入食物會變得困難。
+- 在頂部開門放食物；記住一次性放入所有食物。關上門後，很難取出或添加食物。
 
-- 购买额外的铝箔纸以防用完。
+- 贖入額外的鋁箔紙，以避免用完。
 
-- 小心煮過頭。我們可能會加一層铝箔纸來保護食物。
+- 小心過度烹煮。我們可以加一層鋁箔紙來保護食物。
 
 {: .centered }
-![](../original/assets/images/outdoor/o.jpg)
+![](assets/images/outdoor/o.jpg)
 *來源：自拍*{: .caption }
 
 {: .centered }
-![](../original/assets/images/outdoor/o2.jpg)
+![](assets/images/outdoor/o2.jpg)
 *來源：自拍*{: .caption }

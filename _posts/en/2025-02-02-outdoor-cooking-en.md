@@ -19,10 +19,10 @@ translated: false
 - Be careful about overcooking. We may add a layer of aluminum foil to protect the food.
 
 {: .centered }
-![](../original/assets/images/outdoor/o.jpg)
+![](assets/images/outdoor/o.jpg)
 *Source: Self-captured*{: .caption }
 
 
 {: .centered }
-![](../original/assets/images/outdoor/o2.jpg)
+![](assets/images/outdoor/o2.jpg)
 *Source: Self-captured*{: .caption }
