@@ -46,13 +46,13 @@ function stop_git_proxy {
   git config --global --unset https.proxy
 }
 
-conda config --set proxy_servers.http $HTTP_PROXY
-conda config --set proxy_servers.https $HTTP_PROXY
-
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 start_proxy
 start_git_proxy
+
+alias python=python3
+alias pip=pip3
 
 function gpa {
   python ~/bin/gitmessageai.py --api mistral --allow-pull-push
@@ -171,8 +171,6 @@ if [ -f '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Use
 function checkproxy {
   echo "HTTP_PROXY: $HTTP_PROXY"
   echo "HTTPS_PROXY: $HTTPS_PROXY"
-  echo "Conda Proxy Servers:"
-  conda config --get proxy_servers
   echo "Git HTTP Proxy:"
   git config --get http.proxy
   echo "Git HTTPS Proxy:"
