@@ -1,33 +1,33 @@
 ---
 audio: false
-lang: ar
+lang: fr
 layout: post
-title: مراجعة الكود
+title: Serveur de Relecture de Code
 translated: true
 ---
 
-هذا هو README.md من مشروع GitHub [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server).
+Ceci est le README.md du projet GitHub [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server).
 
 ---
 
 # code-review-server
 
-CodeReview هو منصة محترفة لمراجعة الكود، والتواصل، والمشاركة. يمكن للمهندسين تقديم كودهم لمراجعة الخبراء لتحسين جودة الكود. تأسست من قبل 6 محبي الإنترنت، بما في ذلك أنا.
+CodeReview est une plateforme professionnelle pour la révision de code, la communication et le partage. Les ingénieurs peuvent soumettre leur code pour une révision par des experts afin d'améliorer la qualité de leur code. Elle a été fondée par 6 amateurs d'Internet, y compris moi.
 
 ![img](./img/cr1.jpg)
 
 ![img](./img/cr2.jpg)
 
-# مشاريع
+# Projets
 
 * [code-review-server](https://github.com/lzwjava/code-review-server)
 * [code-review-web](https://github.com/lzwjava/code-review-web)
 
-# التثبيت
+# Déploiement
 
-التثبيت: fab -H root@reviewcode.cn deploy
+Déploiement : fab -H root@reviewcode.cn deploy
 
-تثبيت الاعتماديات: composer install, composer update
+Installer les dépendances : composer install, composer update
 
 # API
 

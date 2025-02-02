@@ -12,7 +12,7 @@ Este es el README.md del proyecto de github [https://github.com/lzwjava/code-rev
 
 # code-review-server
 
-CodeReview es una plataforma profesional para la revisión de código, la comunicación y el intercambio. Los ingenieros pueden enviar su código para su revisión por expertos para mejorar la calidad de su código. Fue fundada por 6 amantes de Internet, incluyendo yo.
+CodeReview es una plataforma profesional para revisiones de código, comunicación y compartir. Los ingenieros pueden enviar su código para que sea revisado por expertos para mejorar la calidad de su código. Fue fundado por 6 amantes de Internet, incluyendo a mí.
 
 ![img](./img/cr1.jpg)
 
@@ -23,9 +23,9 @@ CodeReview es una plataforma profesional para la revisión de código, la comuni
 * [code-review-server](https://github.com/lzwjava/code-review-server)
 * [code-review-web](https://github.com/lzwjava/code-review-web)
 
-# Despliegue
+# Implementación
 
-Despliegue: fab -H root@reviewcode.cn desplegar
+Implementar: fab -H root@reviewcode.cn deploy
 
 Instalar dependencias: composer install, composer update
 

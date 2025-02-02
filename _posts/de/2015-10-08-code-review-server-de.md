@@ -6,13 +6,13 @@ title: Code-Review-Server
 translated: true
 ---
 
-Dies ist die README.md vom GitHub-Projekt [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server).
+Das ist die README.md von einem GitHub-Projekt [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server).
 
 ---
 
 # code-review-server
 
-CodeReview ist eine professionelle Plattform für Code-Reviews, Kommunikation und das Teilen von Code. Ingenieure können ihren Code zur Expertise-Revision einreichen, um die Qualität ihres Codes zu verbessern. Sie wurde von 6 Internet-Liebhabern, einschließlich mir, gegründet.
+CodeReview ist eine professionelle Plattform für Code-Reviews, Kommunikation und Sharing. Ingenieure können ihren Code zur Bewertung durch Experten einreichen, um die Qualität ihres Codes zu verbessern. Es wurde von 6 Internet-Liebhabern, einschließlich mir, gegründet.
 
 ![img](./img/cr1.jpg)
 
@@ -23,9 +23,9 @@ CodeReview ist eine professionelle Plattform für Code-Reviews, Kommunikation un
 * [code-review-server](https://github.com/lzwjava/code-review-server)
 * [code-review-web](https://github.com/lzwjava/code-review-web)
 
-# Bereitstellen
+# Deploy
 
-Bereitstellen: fab -H root@reviewcode.cn deploy
+Deploy: fab -H root@reviewcode.cn deploy
 
 Abhängigkeiten installieren: composer install, composer update
 
