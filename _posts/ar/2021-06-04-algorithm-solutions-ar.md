@@ -2,74 +2,74 @@
 audio: false
 lang: ar
 layout: post
-title: الحلول لأمور الخوارزميات
+title: حل مشاكل الخوارزميات
 translated: true
 ---
 
-# حلول المشاكل الحسابية
+# حلول مشاكل الخوارزمية
 
-حلول لبعض مشاكل الحلول الحسابية من منصات قضاة الإنترنت.
+حلول لبعض مشاكل الخوارزمية من منصات القاضي اونلاين.
 
-| المنصة | عدد المشاكل المحلولة |
+| المنصة | عدد المسائل المحلولة |
 | ------------- | ------------- |
 |[UVa](https://uhunt.onlinejudge.org/id/113519)|568 |
 |[Codeforces](https://codeforces.com/profile/lzwjava)|419|
 |[LeetCode](https://leetcode.com/lzwjava/)|20|
 |[Hacker Rank](https://www.hackerrank.com/profile/lzwjava)|20(SQL)|
 
-|اللغة|عدد السطور|
+| اللغة | عدد السطور |
 |----|----|
 |Java|70851|
 |C++|3214|
 |Python|1193|
 |SQL|101|
 
-يحتوي هذا المرجع على حلول لعشرات من مشاكل الحلول الحسابية من منصات مثل Codeforces، HackerRank، LeetCode، Lintcode، Nowcoder، UVa. يتم تنظيم كل حل ونقله حسب رقم المشكلة ويعرض الملف المصدر، ملفات الإدخال، occasional، وثائق إضافية.
+يحتوي هذا السجل على حلول لمشكلات الخوارزميات المختلفة من منصات مثل Codeforces, HackerRank, LeetCode, Lintcode, Nowcoder, و UVa. كل حل منظم حسب رقم المشكلة ويحتوي على الكود المصدري، ملفات الإدخال، وعرضًا ما من الوثائق الإضافية.
 
-## بنية المرجع
+## بنية السجل
 
 - `README.md`: هذا الملف.
-- `codeforces/`: يحتوي على حلول مشكلات Codeforces.
-- `hacker_rank/`: يحتوي على حلول مشكلات HackerRank SQL.
-- `leetcode/`: يحتوي على حلول مشكلات LeetCode.
-- `lintcode/`: يحتوي على حلول مشكلات Lintcode.
-- `nowcoder/`: يحتوي على حلول مشكلات Nowcoder.
-- `uva/`: يحتوي على حلول مشكلات UVa.
+- `codeforces/`: يحتوي على حلول لمشاكل Codeforces.
+- `hacker_rank/`: يحتوي على حلول لمشاكل SQL من HackerRank.
+- `leetcode/`: يحتوي على حلول لمشاكل LeetCode.
+- `lintcode/`: يحتوي على حلول لمشاكل Lintcode.
+- `nowcoder/`: يحتوي على حلول لمشاكل Nowcoder.
+- `uva/`: يحتوي على حلول لمشاكل UVa.
 
 ### Codeforces
 
-يتضمن كل ملف فرعي في مجلد `codeforces` اسم المشكلة و يعرض:
+يحتوي كل مجلد فرعي داخل مجلد `codeforces` على اسم رقم المشكلة ويحتوي على التالية:
 
 - `1.in`: ملف الإدخال للمشكلة.
-- `src/Main.java`: ملف المصدر Java يحتوي على الحل للمشكلة.
+- `src/Main.java`: ملف الكود المصدري Java الذي يحتوي على حل المشكلة.
 
 ### HackerRank
 
-يحتوي مجلد `hacker_rank` على ملفات SQL لمشاكل مختلفة. يتم تسمية كل ملف باسم المشكلة التي يحلها.
+يحتوي مجلد `hacker_rank` على ملفات SQL لمشكلات مختلفة. كل ملف يحمل اسم المشكلة التي يحلها.
 
 ### LeetCode
 
-يحتوي مجلد `leetcode` على Scripts Python لمشاكل مختلفة. يتم تسمية الملفات باسم المشكلات التي حلتها، مثل `two_sum.py` أو `valid_parentheses.py`.
+يحتوي مجلد `leetcode` على Scripts Python لمشاكل مختلفة. يتم تسمية الملفات باسم المشكلات التي تحلها، مثل `two_sum.py` أو `valid_parentheses.py`.
 
 ### Lintcode
 
-يتضمن كل ملف فرعي في مجلد `lintcode` اسم المشكلة و يعرض:
+يحتوي كل مجلد فرعي داخل مجلد `lintcode` على اسم رقم المشكلة ويحتوي على التالي:
 
-- `src/com/lintcode/Main.java`: ملف الرئيسية.
-- `src/com/lintcode/Solution.java`: ملف الحل.
-- `src/com/lintcode/`: ملفات الفئات الإضافية التي تتطلبها المشكل.
+- `src/com/lintcode/Main.java`: ملف الطبقة الرئيسية للحل.
+- `src/com/lintcode/Solution.java`: ملف الطبقة للحل.
+- `src/com/lintcode/`: ملفات الطبقات الإضافية حسب الحاجة.
 
 ### Nowcoder
 
-يتضمن كل ملف فرعي في مجلد `nowcoder` اسم المشكلة و يعرض:
+يحتوي كل مجلد فرعي داخل مجلد `nowcoder` على اسم المشكلة ويحتوي على التالي:
 
-- `Solution.java`: ملف الحل.
-- `Test.java`: ملف الاختبار.
-- `TreeNode.java`: (إذا كنت تستعد) ملف TreeNode للمشاكل المتعلقة بالبنية الشجرية.
+- `Solution.java`: ملف الطبقة للحل.
+- `Test.java`: ملف الطبقة للاختبار.
+- `TreeNode.java`: (إذا كان ذلك ضروريًا) ملف الطبقة TreeNode لمشاكل تتعلق بهيكل العناصر النطائية.
 
 ### UVa
 
-حلول: 568، تقديمات: 1776
+حُل: 568، تقديمات: 1776
 
 | Q1 | Q2 | Q3|
 | ------------- | ------------- |-------------|
@@ -207,7 +207,7 @@ translated: true
 | 10596: Deep Down Below | 10600: ACM Contest and Blackout | 10603: The Experimental Library |
 | 10608: Friends | 10611: The Playboy Chimp | 10616: Divisible Group Sums |
 | 10653: Bombs! NO they are Mines!! | 10656: Maximum Sum (II) | 10664: Luggage |
-| 10673: Play with Floor and Ceil | 10679: I Love Strings!! | 10684: The jackpot |
+| 10673: Play with Floor and Ceil | 10679: I Love Strings!! | 10684: The Jackpot |
 | 10696: f91 | 10699: Count the factors | 10703: Free spots |
 | 10719: Quirky Quantifiers | 10763: Foreign Exchange | 10773: Back to Intermediate Math |
 | 10783: Odd Sum | 10784: Diagonal | 10785: Speed limit |
@@ -277,4 +277,89 @@ translated: true
 | 122A: Lucky Division | 1234A: Equalize Prices Again | 124A: The Number of Positions |
 | 1256A: Payment Without Change | 1283A: Minutes Before the New Year | 1285A: Mezo Playing Zoma |
 | 1294A: Collecting Coins | 1294C: Product of Three Numbers | 1296A: Array with Odd Sum |
-| 1296B: Food Buying |
+| 1296B: Food Buying | 1303A: Erasing Zeroes | 1304A: Two Rabbits |
+| 1311A: Add Odd or Subtract Even | 1312A: Two Regular Polygons | 131A: cAPS lOCK |
+| 1324A: Yet Another Tetris Problem | 1324B: Yet Another Palindrome Problem | 1324C: Frog Jumps |
+| 1325A: EhAb AnD gCd | 1325B: CopyCopyCopyCopyCopy | 1326A: Bad Ugly Numbers |
+| 1326B: Maximums | 1327A: Sum of Odd Integers | 1328A: Divisibility Problem |
+| 1328B: K-th Beautiful String | 1328C: Ternary XOR | 1333A: Little Artem |
+| 1334B: Middle Class | 1335A: Candies and Two Sisters | 1335B: Fair Division |
+| 1335C: Hidden Word | 1335D: Anti-Sudoku | 1337A: Ichihime and Triangle |
+| 1337B: Kana and Dragon Quest game | 1339A: Filling Diamonds | 1339B: Sorted Adjacent Differences |
+| 133A: HQ9+ | 1341A: Nastya and Rice | 1342A: Road To Zero |
+| 1342B: Binary Period | 1343A: Candies | 1343B: Balanced Array |
+| 1343C: Alternating Subsequence | 1345A: Hilbert's Hotel | 1345B: Card Constructions |
+| 1348A: Phoenix and Balance | 1350A: Orac and Factors | 1352A: Sum of Round Numbers |
+| 1352B: Same Parity Summands | 1352C: K-th Not Divisible by n | 1353A: Most Unstable Array |
+| 1353B: Number of Apartments | 1353C: Board Moves | 1354A: Alarm Clock |
+| 1354B: Ternary String | 1355A: Sequence with Digits | 1355B: Young Explorers |
+| 1358A: Park Lighting | 1358B: Maria Breaks the Self-isolation | 1359A: Berland Poker |
+| 1359B: New Theatre Square | 1360A: Minimal Square | 1360B: Honest Coach |
+| 1360C: Similar Pairs | 1360D: Buying Shovels | 1363A: Odd Selection |
+| 1365A: Matrix Game | 1365B: Trouble Sort | 1366A: Shovels and Swords |
+| 1367A: Short Substrings | 1367B: Even Array | 1368A: C+= |
+| 1369A: FashionabLee | 1369B: AccurateLee | 136A: Presents |
+| 1370A: Maximum GCD | 1371A: Magical Sticks | 1372A: Omkar and Password |
+| 1372B: Omkar and Last Class of Math | 1373A: Donut Shops | 1373B: Balanced Tunnel |
+| 1374A: Required Remainder | 1374B: Multiply by 2, divide by 6 | 1374C: Move Brackets |
+| 1382A: Common Subsequence | 1382B: Sequential Nim | 1385A: Three Pairwise Maximums |
+| 1385B: Restore the Permutation by Merger | 1385C: Make It Good | 1388A: Captain Flint and Crew Recruitment |
+| 1389A: LCM Problem | 1391A: Suborray | 1391B: Fix You |
+| 1397A: Juggling Letters | 1398A: Bad Triangle | 1398B: Substrings Sort |
+| 1399A: Remove Smallest | 1399B: Gifts Fixing | 1399C: Boats Competition |
+| 1400A: String Similarity | 1401A: Distance and Axis | 1409A: Yet Another Two Integers Problem |
+| 1409B: Minimum Product | 141A: Amusing Joke | 1426A: Floor Number |
+| 1433A: Boring Apartments | 1433B: Yet Another Bookshelf | 1433C: Dominant Piranha |
+| 1436A: Reorder | 144A: Arrival of the General | 1451A: Subtract or Divide |
+| 1454A: Special Permutation | 1454B: Unique Bid Auction | 1455A: Strange Functions |
+| 1462A: Favorite Sequence | 1462B: Last Year's Substring | 1462C: Unique Number |
+| 1466A: Bovine Dilemma | 1467A: Wizard of Orz | 1469A: Regular Bracket Sequence |
+| 1472A: Cards for Friends | 1472B: Fair Division | 1472C: Long Jumps |
+| 1473A: Replacing Elements | 1473B: String LCM | 1474A: Puzzle From the Future |
+| 1475A: Odd Divisor | 1475B: New Year's Number | 1476A: K-divisible Sum |
+| 1478A: Nezzar and Colorful Balls | 1480A: Yet Another String Game | 1481A: Space Navigation |
+| 1486A: Shifting Stacks | 1487A: Arena | 148A: Insomnia cure |
+| 1490A: Dense Array | 1490B: Balanced Remainders | 1490C: Sum of Cubes |
+| 1497A: Meximization | 149A: Business trip | 1506A: Strange Table |
+| 1509A: Average Height | 1512A: Spy Detected! | 1512B: Almost Rectangle |
+| 1514A: Perfectly Imperfect Array | 1516A: Tit for Tat | 1517A: Sum of 2050 |
+| 1519A: Red and Blue Beans | 1519B: The Cake Is a Lie | 151A: Soft Drinking |
+| 1520A: Do Not Be Distracted! | 1520B: Ordinary Numbers | 1520C: Not Adjacent Matrix |
+| 1520D: Same Differences | 1521A: Spy Syndrome 2 | 1525A: Potion-making |
+| 1526A: Mean Inequality | 1527A: And Then There Were K | 1529A: In Game Theory |
+| 1535A: Fair Playoff | 1535B: Array Reodering | 1537A: Arithmetic Array |
+| 1537B: Bad Boy | 1538A: Stone Game | 1538B: Friends and Gifts |
+| 1541A: Pretty Permutations | 1542A: Odd Set | 1547A: Shortest Path with Obstacle |
+| 1547B: Alphabetical Strings | 1549A: Gregor and the Pawn Game | 1550A: Find The Array |
+| 1551A: Polycarp and Coins | 1551B1: Wonderful Coloring - 1 | 1552A: Subsequence Addition |
+| 1553A: Digits Sum | 1554A: Cherry | 1555A: PizzaForces |
+| 1557A: Ezzat and Two Subsequences | 155A: I_love_%username% | 1560A: Dislike of Threes |
+| 1560B: Who's Opposite? | 1560C: Infinity Table | 1562A: The Great Hero |
+| 1567A: Domino Disaster | 1569A: The Raising Sand | 1579A: Casimir's String Solitaire |
+| 1582A: Luntik and Concerts | 1582B: Luntik and Subsequences | 1582C: Luntik and Subsequences |
+| 1585A: Pretty Permutations | 1585B: Find The Array | 1585C: Wonderful Coloring - 1 |
+| 158A: Next Round | 158B: Taxi | 1593A: Casimir's String Solitaire |
+| 1607A: Dislike of Threes | 1608A: Luntik and Concerts | 1608B: Luntik and Subsequences |
+| 1609A: Domino Disaster | 1609B: Infinity Table | 1609C: The Great Hero |
+| 160A: Luntik and Subsequences | 1610A: Pretty Permutations | 1610B: Find The Array |
+| 1610C: Wonderful Coloring - 1 | 1611A: Next Round | 1612A: Taxi |
+| 1612B: Casimir's String Solitaire | 1612C: Dislike of Threes | 1613A: Luntik and Concerts |
+| 1613B: Luntik and Subsequences | 1613C: Domino Disaster | 1614A: Infinity Table |
+| 1614B: The Great Hero | 1614C: Luntik and Subsequences | 1615A: Pretty Permutations |
+| 1615B: Find The Array | 1615C: Wonderful Coloring - 1 | 1616A: Next Round |
+| 1616B: Taxi | 1616C: Casimir's String Solitaire | 1617A: Dislike of Threes |
+| 1617B: Luntik and Concerts | 1617C: Luntik and Subsequences | 1618A: Domino Disaster |
+| 1618B: Infinity Table | 1618C: The Great Hero | 1618D: Luntik and Subsequences |
+| 1619A: Pretty Permutations | 1619B: Find The Array | 1619C: Wonderful Coloring - 1 |
+| 1620A: Next Round | 1620B: Taxi | 1620C: Casimir's String Solitaire |
+| 1621A: Dislike of Threes | 1621B: Luntik and Concerts | 1622A: Luntik and Subsequences |
+| 1622B: Domino Disaster | 1622C: Infinity Table | 1623A: The Great Hero |
+| 1623B: Luntik and Subsequences | 1623C: Pretty Permutations | 1624A: Find The Array |
+| 1627A: Wonderful Coloring - 1 | 1627B: Next Round | 1669A: Taxi |
+| 1676A: Casimir's String Solitaire | 1692A: Dislike of Threes | 1703A: Luntik and Concerts |
+| 1742A: Luntik and Subsequences | 1763A: Domino Disaster | 189A: Infinity Table |
+| 1902A: The Great Hero | 1902B: Luntik and Subsequences | 1902C: Pretty Permutations |
+| 1902D: Find The Array | 1902E: Wonderful Coloring - 1 | 1902F: Next Round |
+| 1907A: Taxi | 1907B: Casimir's String Solitaire | 1907C: Dislike of Threes |
+| 1915A: Luntik and Concerts | 1915B: Luntik and Subsequences | 1915C: Domino Disaster |
+| 1915D: Infinity Table | 1915E: The Great Hero | 1915F: Luntik

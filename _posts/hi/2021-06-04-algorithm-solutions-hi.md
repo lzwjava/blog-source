@@ -2,76 +2,76 @@
 audio: false
 lang: hi
 layout: post
-title: अल्गोरिथम समस्या समाधान
+title: आल्गोरिदम समस्या समाधान
 translated: true
 ---
 
-# एल्गोरिथ्म समस्याओं के सॉल्यूशंस
+# अल्गोरिथम समस्या समाधान
 
-ऑनलाइन जज प्लेटफॉर्म्स से कुछ एल्गोरिथ्म समस्याओं के समाधान।
+औनलाइन जज प्लेटफॉर्म से कुछ अल्गोरिथम समस्या समाधान.
 
-| प्लेटफॉर्म | सम्पादित समस्याएँ |
+| प्लेटफॉर्म | समाधान किए गए समस्याएँ |
 | ------------- | ------------- |
-| [UVa](https://uhunt.onlinejudge.org/id/113519)|568 |
-| [Codeforces](https://codeforces.com/profile/lzwjava)|419|
-| [LeetCode](https://leetcode.com/lzwjava/)|20|
-| [Hacker Rank](https://www.hackerrank.com/profile/lzwjava)|20 (SQL) |
+|[UVa](https://uhunt.onlinejudge.org/id/113519)|568 |
+|[Codeforces](https://codeforces.com/profile/lzwjava)|419|
+|[LeetCode](https://leetcode.com/lzwjava/)|20|
+|[Hacker Rank](https://www.hackerrank.com/profile/lzwjava)|20(SQL)|
 
-| भाषा | लाइन ऑफ कोड |
-| ------ | ------ |
-| Java | 70851 |
-| C++ | 3214 |
-| Python | 1193 |
-| SQL | 101 |
+|भाषा|लाइनों कोड|
+|----|----|
+|Java|70851|
+|C++|3214|
+|Python|1193|
+|SQL|101|
 
-यह रिपोजिटरी विभिन्न एल्गोरिथ्म समस्याओं के सॉल्यूशंस को इन प्लेटफॉर्म्स से आती है — कोडफोर्स, हैकररैंक, लीटकोड, लिंटकोड, नोवोकोडर, और यूवा. प्रत्येक समाधान समस्या संख्या द्वारा संगठित है और इसमें स्रोत कोड, इनपुट फ़ाइलें, और कभी-कभी अतिरिक्त दस्तावेज शामिल हैं।
+इस रिपॉजिटरी में Codeforces, HackerRank, LeetCode, Lintcode, Nowcoder, और UVa जैसे प्लेटफॉर्म से विभिन्न अल्गोरिथम समस्या के समाधान शामिल हैं। प्रत्येक समाधान को समस्या संख्या द्वारा संगठित किया गया है और इसमें स्रोत कोड, इनपुट फाइलें और कभी-कभी अतिरिक्त दस्तावेज शामिल हैं।
 
-## रिपोजिटरी संरचना
+## रिपॉजिटरी संरचना
 
-- `README.md`: यह फ़ाइल.
-- `codeforces/`: कोडफोर्स समस्याओं के सॉल्यूशनों को शामिल करता है.
-- `hacker_rank/`: हैकररैंक SQL समस्याओं के सॉल्यूशंस को शामिल करता है.
-- `leetcode/`: लीटकोड समस्याओं के सॉल्यूशंस को शामिल करता है.
-- `lintcode/`: लिंटकोड समस्याओं के सॉल्यूशंस को शामिल करता है.
-- `nowcoder/`: नोवोकोडर समस्याओं के सॉल्यूशंस को शामिल करता है.
-- `uva/`: यूवा समस्याओं के सॉल्यूशंस को शामिल करता है.
+- `README.md`: इस फाइल।
+- `codeforces/`: Codeforces समस्याओं के समाधान शामिल हैं।
+- `hacker_rank/`: HackerRank SQL समस्याओं के समाधान शामिल हैं।
+- `leetcode/`: LeetCode समस्याओं के समाधान शामिल हैं।
+- `lintcode/`: Lintcode समस्याओं के समाधान शामिल हैं।
+- `nowcoder/`: Nowcoder समस्याओं के समाधान शामिल हैं।
+- `uva/`: UVa समस्याओं के समाधान शामिल हैं।
 
 ### Codeforces
 
-`codeforces` फ़ोल्डर में प्रत्येक सबडिरेक्ट्री समस्या संख्या के नाम से निर्दिष्ट है और इसमें शामिल हैं:
+`codeforces` डाइरेक्टरी में प्रत्येक सबडायरेक्टरी को समस्या संख्या के नाम पर रखा गया है और इसमें निम्नलिखित शामिल हैं:
 
-- `1.in`: समस्या के लिए इनपुट फ़ाइल.
-- `src/Main.java`: समस्या के सॉल्यूशन को शामिल करने वाला जावा स्रोत कोड फ़ाइल.
+- `1.in`: समस्या के लिए इनपुट फ़ाइल।
+- `src/Main.java`: समस्या के लिए समाधान कोड को समेटने वाला Java स्रोत कोड फ़ाइल।
 
 ### HackerRank
 
-`hacker_rank` फ़ोल्डर में विभिन्न समस्याओं के लिए SQL फ़ाइलें शामिल हैं। प्रत्येक फ़ाइल समस्या को समाधान करने के लिए नामित है।
+`hacker_rank` डाइरेक्टरी में विभिन्न समस्या के लिए SQL फ़ाइलें शामिल हैं। प्रत्येक फ़ाइल को वह समस्या जो वह हल करती है उसके नाम पर रखा गया है।
 
 ### LeetCode
 
-`leetcode` फ़ोल्डर में विभिन्न समस्याओं के लिए पाइथन स्क्रिप्ट शामिल हैं। फ़ाइलें उन समस्याओं के नाम से नामित हैं जिन्हें वे समाधान करते हैं, जैसे कि `two_sum.py` या `valid_parentheses.py`.
+`leetcode` डाइरेक्टरी में विभिन्न समस्या के लिए Python स्क्रिप्ट्स शामिल हैं। फ़ाइलें उस समस्या के नाम पर रखी गई हैं जिसे वे हल करती हैं, जैसे कि `two_sum.py` या `valid_parentheses.py`।
 
 ### Lintcode
 
-`lintcode` फ़ोल्डर में प्रत्येक सबडिरेक्ट्री समस्या संख्या के नाम से निर्दिष्ट है और इसमें शामिल हैं:
+`lintcode` डाइरेक्टरी में प्रत्येक सबडायरेक्टरी को समस्या संख्या के नाम पर रखा गया है और इसमें निम्नलिखित शामिल हैं:
 
-- `src/com/lintcode/Main.java`: सॉल्यूशन के लिए मुख्य क्लास फ़ाइल.
-- `src/com/lintcode/Solution.java`: समस्या के लिए सॉल्यूशन क्लास फ़ाइल.
-- `src/com/lintcode/`: समस्या द्वारा आवश्यक अतिरिक्त क्लास फ़ाइलें.
+- `src/com/lintcode/Main.java`: समाधान के लिए मुख्य क्लास फ़ाइल।
+- `src/com/lintcode/Solution.java`: समस्या के लिए समाधान क्लास फ़ाइल।
+- `src/com/lintcode/`: समस्या द्वारा आवश्यक अतिरिक्त क्लास फ़ाइलें।
 
 ### Nowcoder
 
-`nowcoder` फ़ोल्डर में प्रत्येक सबडिरेक्ट्री समस्या के नाम से निर्दिष्ट है और इसमें शामिल हैं:
+`nowcoder` डाइरेक्टरी में प्रत्येक सबडायरेक्टरी को समस्या के नाम पर रखा गया है और इसमें निम्नलिखित शामिल हैं:
 
-- `Solution.java`: समस्या के लिए सॉल्यूशन क्लास फ़ाइल.
-- `Test.java`: समस्या के लिए टेस्ट क्लास फ़ाइल.
-- `TreeNode.java`: (यदि लागू होता है) पेड़ संरचना से सम्बंधित समस्याओं के लिए टीनोड क्लास फ़ाइल.
+- `Solution.java`: समस्या के लिए समाधान क्लास फ़ाइल।
+- `Test.java`: समस्या के लिए टेस्ट क्लास फ़ाइल।
+- `TreeNode.java`: (अगर लागू हो) ट्री संरचनाओं के लिए TreeNode क्लास फ़ाइल।
 
 ### UVa
 
-समाधान: 568, प्रस्ताव: 1776
+सुलझा: 568, पेशकश: 1776
 
-| Q1 | Q2 | Q3 |
+| Q1 | Q2 | Q3|
 | ------------- | ------------- |-------------|
 | 100: The 3n + 1 Problem | 101: The Blocks Problem | 102: Ecological Bin Packing |
 | 103: Stacking Boxes | 104: Arbitrage | 105: The Skyline Problem |
@@ -79,11 +79,11 @@ translated: true
 | 110: Meta-Loopless Sorts | 111: History Grading | 112: Tree Summing |
 | 113: Power of Cryptography | 116: Unidirectional TSP | 118: Mutant Flatworld Explorers |
 | 119: Greedy Gift Givers | 120: Stacks of Flapjacks | 122: Trees on the Level |
-| 123: Searching Quickly | 124: Following Orders | 127: "Accordion" Patience |
+| 123: Searching Quickly | 124: Following Orders | 127: "Accordian" Patience |
 | 128: Software CRC | 129: Krypton Factor | 131: The Domino Effect |
 | 133: The Dole Queue | 136: Ugly Numbers | 138: Street Numbers |
 | 140: Bandwidth | 146: ID Codes | 147: Dollars |
-| 151: Power Crisis | 152: Tree's a Crowd | 156: Anagrams |
+| 151: Power Crisis | 152: Tree's a Crowd | 156: Ananagrams |
 | 160: Factors and Factorials | 167: The Sultan's Successors | 185: Roman Numerals |
 | 190: Circle Through Three Points | 193: Graph Coloring | 195: Anagram |
 | 196: Spreadsheet | 197: Orbiting Satellites | 200: Rare Order |
@@ -224,7 +224,7 @@ translated: true
 | 11060: Beverages | 11085: Back to the 8-Queens | 11093: Just Finish it up |
 | 11094: Continents | 11111: Generalized Matrioshkas | 11134: Fabled Rooks |
 | 11137: Triple Fat Ladies | 11150: Cola | 11151: Longest Palindrome |
-| 11152: Colourful Flowers | 11172: Relational Operator | 11185: Ternary |
+| 11152: Colourful Flowers | 11185: Ternary | 11172: Relational Operator |
 | 11192: No Problem! | 11205: The broken pedometer | 11212: Editing a Book |
 | 11214: Aladdin and the Flying Carpet | 11219: How Old Are You? | 11231: Black and white painting |
 | 11234: Expressions | 11235: Frequent Values | 11244: Counting Stars |
@@ -263,157 +263,3 @@ translated: true
 | 12554: A Child’s Play | 12558: Cycle Finding | 12569: Sale |
 | 12577: Hajj-e-Akbar | 12578: 10:6:2 | 12627: Error Correction |
 | 12646: Majority Decision | 12657: Boxes in a Line |
-
-### Codeforces
-
-| Q1 | Q2 | Q3 |
-| ------------- | ------------- |-------------|
-| 1003A: Polycarp's Pockets | 1030A: In Search of an Easy Problem | 1077A: Frog Jumping |
-| 1092B: Teams Forming | 1095A: Repeating Cipher | 1097A: Gennady and a Card Game |
-| 110A: Nearly Lucky Number | 112A: Petya and Strings | 1154A: Restoring Three Numbers |
-| 115A: Party | 116A: Tram | 1183A: Nearest Interesting Number |
-| 1186A: Vus the Cossack and a Contest | 118A: String Task | 1196A: Three Piles of Candies |
-| 119A: Epic Game | 1206B: Make Product Equal One | 1220A: Cards |
-| 122A: Lucky Division | 1234A: Equalize Prices Again | 124A: The Number of Positions |
-| 1256A: Payment Without Change | 1283A: Minutes Before the New Year | 1285A: Mezo Playing Zoma |
-| 1294A: Collecting Coins | 1294C: Product of Three Numbers | 1296A: Array with Odd Sum |
-| 1296B: Food Buying | 1303A: Erasing Zeroes | 1304A: Two Rabbits |
-| 1311A: Add Odd or Subtract Even | 1312A: Two Regular Polygons | 131A: cAPS lOCK |
-| 1324A: Yet Another Tetris Problem | 1324B: Yet Another Palindrome Problem | 1324C: Frog Jumps |
-| 1325A: EhAb AnD gCd | 1325B: CopyCopyCopyCopyCopy | 1326A: Bad Ugly Numbers |
-| 1326B: Maximums | 1327A: Sum of Odd Integers | 1328A: Divisibility Problem |
-| 1328B: K-th Beautiful String | 1328C: Ternary XOR | 1333A: Little Artem |
-| 1334B: Middle Class | 1335A: Candies and Two Sisters | 1335B: Fair Division |
-| 1335C: Hidden Word | 1335D: Anti-Sudoku | 1337A: Ichihime and Triangle |
-| 1337B: Kana and Dragon Quest game | 1339A: Filling Diamonds | 1339B: Sorted Adjacent Differences |
-| 133A: HQ9+ | 1341A: Nastya and Rice | 1342A: Road To Zero |
-| 1342B: Binary Period | 1343A: Candies | 1343B: Balanced Array |
-| 1343C: Alternating Subsequence | 1345A: Hilbert's Hotel | 1345B: Card Constructions |
-| 1348A: Phoenix and Balance | 1350A: Orac and Factors | 1352A: Sum of Round Numbers |
-| 1352B: Same Parity Summands | 1352C: K-th Not Divisible by n | 1353A: Most Unstable Array |
-| 1353B: Number of Apartments | 1353C: Board Moves | 1354A: Alarm Clock |
-| 1354B: Ternary String | 1355A: Sequence with Digits | 1355B: Young Explorers |
-| 1358A: Park Lighting | 1358B: Maria Breaks the Self-isolation | 1359A: Berland Poker |
-| 1359B: New Theatre Square | 1360A: Minimal Square | 1360B: Honest Coach |
-| 1360C: Similar Pairs | 1360D: Buying Shovels | 1363A: Odd Selection |
-| 1365A: Matrix Game | 1365B: Trouble Sort | 1366A: Shovels and Swords |
-| 1367A: Short Substrings | 1367B: Even Array | 1368A: C+= |
-| 1369A: FashionabLee | 1369B: AccurateLee | 136A: Presents |
-| 1370A: Maximum GCD | 1371A: Magical Sticks | 1372A: Omkar and Password |
-| 1372B: Omkar and Last Class of Math | 1373A: Donut Shops | 1373B: Balanced Tunnel |
-| 1374A: Required Remainder | 1374B: Multiply by 2, divide by 6 | 1374C: Move Brackets |
-| 1382A: Common Subsequence | 1382B: Sequential Nim | 1385A: Three Pairwise Maximums |
-| 1385B: Restore the Permutation by Merger | 1385C: Make It Good | 1388A: Captain Flint and Crew Recruitment |
-| 1389A: LCM Problem | 1391A: Suborray | 1391B: Fix You |
-| 1397A: Juggling Letters | 1398A: Bad Triangle | 1398B: Substrings Sort |
-| 1399A: Remove Smallest | 1399B: Gifts Fixing | 1399C: Boats Competition |
-| 1400A: String Similarity | 1401A: Distance and Axis | 1409A: Yet Another Two Integers Problem |
-| 1409B: Minimum Product | 141A: Amusing Joke | 1426A: Floor Number |
-| 1433A: Boring Apartments | 1433B: Yet Another Bookshelf | 1433C: Dominant Piranha |
-| 1436A: Reorder | 144A: Arrival of the General | 1451A: Subtract or Divide |
-| 1454A: Special Permutation | 1454B: Unique Bid Auction | 1455A: Strange Functions |
-| 1462A: Favorite Sequence | 1462B: Last Year's Substring | 1462C: Unique Number |
-| 1466A: Bovine Dilemma | 1467A: Wizard of Orz | 1469A: Regular Bracket Sequence |
-| 1472A: Cards for Friends | 1472B: Fair Division | 1472C: Long Jumps |
-| 1473A: Replacing Elements | 1473B: String LCM | 1474A: Puzzle From the Future |
-| 1475A: Odd Divisor | 1475B: New Year's Number | 1476A: K-divisible Sum |
-| 1478A: Nezzar and Colorful Balls | 1480A: Yet Another String Game | 1481A: Space Navigation |
-| 1486A: Shifting Stacks | 1487A: Arena | 148A: Insomnia cure |
-| 1490A: Dense Array | 1490B: Balanced Remainders | 1490C: Sum of Cubes |
-| 1497A: Meximization | 149A: Business trip | 1506A: Strange Table |
-| 1509A: Average Height | 1512A: Spy Detected! | 1512B: Almost Rectangle |
-| 1514A: Perfectly Imperfect Array | 1516A: Tit for Tat | 1517A: Sum of 2050 |
-| 1519A: Red and Blue Beans | 1519B: The Cake Is a Lie | 151A: Soft Drinking |
-| 1520A: Do Not Be Distracted! | 1520B: Ordinary Numbers | 1520C: Not Adjacent Matrix |
-| 1520D: Same Differences | 1521A: Spy Syndrome 2 | 1525A: Potion-making |
-| 1526A: Mean Inequality | 1527A: And Then There Were K | 1529A: In Game Theory |
-| 1535A: Fair Playoff | 1535B: Array Reodering | 1537A: Arithmetic Array |
-| 1537B: Bad Boy | 1538A: Stone Game | 1538B: Friends and Gifts |
-| 1541A: Pretty Permutations | 1542A: Odd Set | 1547A: Shortest Path with Obstacle |
-| 1547B: Alphabetical Strings | 1549A: Gregor and the Pawn Game | 1550A: Find The Array |
-| 1551A: Polycarp and Coins | 1551B1: Wonderful Coloring - 1 | 1552A: Subsequence Addition |
-| 1553A: Digits Sum | 1554A: Cherry | 1555A: PizzaForces |
-| 1557A: Ezzat and Two Subsequences | 155A: I_love_%username% | 1560A: Dislike of Threes |
-| 1560B: Who's Opposite? | 1560C: Infinity Table | 1562A: The Great Hero |
-| 1567A: Domino Disaster | 1569A: The Raising Sand | 1579A: Casimir's String Solitaire |
-| 1582A: Luntik and Concerts | 1582B: Luntik and Subsequences | 1582C: Luntik and Subsequences |
-| 1585A: Pretty Permutations | 1585B: Find The Array | 1585C: Wonderful Coloring - 1 |
-| 158A: Next Round | 158B: Taxi | 1593A: Casimir's String Solitaire |
-| 1607A: Dislike of Threes | 1608A: Luntik and Concerts | 1608B: Luntik and Subsequences |
-| 1609A: Domino Disaster | 1609B: Infinity Table | 1609C: The Great Hero |
-| 160A: Luntik and Subsequences | 1610A: Pretty Permutations | 1610B: Find The Array |
-| 1610C: Wonderful Coloring - 1 | 1611A: Next Round | 1612A: Taxi |
-| 1612B: Casimir's String Solitaire | 1612C: Dislike of Threes | 1613A: Luntik and Concerts |
-| 1613B: Luntik and Subsequences | 1613C: Domino Disaster | 1614A: Infinity Table |
-| 1614B: The Great Hero | 1614C: Luntik and Subsequences | 1615A: Pretty Permutations |
-| 1615B: Find The Array | 1615C: Wonderful Coloring - 1 | 1616A: Next Round |
-| 1616B: Taxi | 1616C: Casimir's String Solitaire | 1617A: Dislike of Threes |
-| 1617B: Luntik and Concerts | 1617C: Luntik and Subsequences | 1618A: Domino Disaster |
-| 1618B: Infinity Table | 1618C: The Great Hero | 1618D: Luntik and Subsequences |
-| 1619A: Pretty Permutations | 1619B: Find The Array | 1619C: Wonderful Coloring - 1 |
-| 1620A: Next Round | 1620B: Taxi | 1620C: Casimir's String Solitaire |
-| 1621A: Dislike of Threes | 1621B: Luntik and Concerts | 1622A: Luntik and Subsequences |
-| 1622B: Domino Disaster | 1622C: Infinity Table | 1623A: The Great Hero |
-| 1623B: Luntik and Subsequences | 1623C: Pretty Permutations | 1624A: Find The Array |
-| 1627A: Wonderful Coloring - 1 | 1627B: Next Round | 1669A: Taxi |
-| 1676A: Casimir's String Solitaire | 1692A: Dislike of Threes | 1703A: Luntik and Concerts |
-| 1742A: Luntik and Subsequences | 1763A: Domino Disaster | 189A: Infinity Table |
-| 1902A: The Great Hero | 1902B: Luntik and Subsequences | 1902C: Pretty Permutations |
-| 1902D: Find The Array | 1902E: Wonderful Coloring - 1 | 1902F: Next Round |
-| 1907A: Taxi | 1907B: Casimir's String Solitaire | 1907C: Dislike of Threes |
-| 1915A: Luntik and Concerts | 1915B: Luntik and Subsequences | 1915C: Domino Disaster |
-| 1915D: Infinity Table | 1915E: The Great Hero | 1915F: Luntik and Subsequences |
-| 1916A: Pretty Permutations | 1916B: Find The Array | 1916C: Wonderful Coloring - 1 |
-| 1917A: Next Round | 1917B: Taxi | 1917C: Casimir's String Solitaire |
-| 1917D: Dislike of Threes |1A: Theatre Square | 200B: Drinks |
-| 208A: Dubstep | 214A: System of Equations | 228A: Is your horseshoe on the other hoof? |
-| 230A: Dragons | 230B: T-primes | 231A: Team |
-| 233A: Perfect Permutation | 236A: Boy or Girl | 255A: Greg's Workout |
-| 25A: IQ test | 263A: Beautiful Matrix | 265A: Colorful Stones (Simplified Edition) |
-| 266A: Stones on the Table | 266B: Queue at the School | 268A: Games |
-| 268B: Buttons | 270A: Fancy Fence | 271A: Beautiful Year |
-| 279B: Books | 281A: Word Capitalization | 282A: Bit++ |
-| 313A: Ilya and Bank Account | 313B: Ilya and Queries | 318A: Even Odds |
-| 320A: Magic Numbers | 327A: Flipping Game | 32B: Borze |
-| 330A: Cakeminator | 337A: Puzzles | 339A: Helpful Maths |
-| 339B: Xenia and Ringroad | 344A: Magnets | 349A: Cinema Line |
-| 34B: Sale | 358A: Dima and Continuous Line | 358B: Dima and a Bad X |
-| 361A: Levko and Table | 363A: Soroban | 363B: Fence |
-| 363C: Pashmak and Garden | 368B: Sereja and Suffixes | 369A: Valera and Plates |
-| 369B: Valera and Contest | 379A: New Year Candles | 381A: Sereja and Dima |
-| 405A: Gravity Flip | 41A: Translation | 427A: Police Recruits |
-| 431A: Black Square | 432A: Choosing Teams | 433B: Kuriyama Mirai's Stones |
-| 439A: Devu, the Singer and Churu, the Joker | 43A: Football | 443A: Anton and Letters |
-| 448A: Rewards | 451A: Game With Sticks | 451B: Sort the Array |
-| 455A: Boredom | 456A: Laptops | 459A: Pashmak and Garden |
-| 459B: Pashmak and Flowers | 460A: Vasya and Socks | 466A: Cheap Travel |
-| 466C: Number of Ways | 467A: George and Accommodation | 467B: Fedor and New Game |
-| 469A: I Wanna Be the Guy | 472A: Design Tutorial: Learn from Math | 474A: Keyboard |
-| 474B: Worms | 476A: Dreamoon and Stairs | 476B: Dreamoon and WiFi |
-| 478A: Initial Bet | 478B: Random Teams | 479A: Expression |
-| 479C: Exams | 486A: Calculating Function | 489B: BerSU Ball |
-| 489C: Given Length and Sum of Digits... | 490A: Team Olympiad | 492A: Vanya and Cubes |
-| 492B: Vanya and Lanterns | 499B: Lecture | 4A: Watermelon |
-| 4C: Registration System | 500A: New Year Transportation | 509A: Maximum in Table |
-| 50A: Domino piling | 510A: Fox And Snake | 514A: Chewbaсca and Number |
-| 519B: A and B and Compilation Errors | 520A: Pangram | 520B: Two Buttons |
-| 540A: Combination Lock | 546A: Soldier and Bananas | 550A: Two Substrings |
-| 556A: Case of the Zeros and Ones | 567A: Lineland Mail | 577A: Multiplication Table |
-| 579A: Raising Bacteria | 580A: Kefa and First Steps | 580C: Kefa and Park |
-| 581A: Vasya the Hipster | 584A: Olesya and Rodion | 58A: Chat room |
-| 599A: Patrick and Shopping | 59A: Word | 617A: Elephant |
-| 61A: Ultra-Fast Mathematician | 630A: Again Twenty Five! | 677A: Vanya and Fence |
-| 686A: Free Ice Cream | 688B: Lovely Palindromes | 69A: Young Physicist |
-| 702A: Maximum Increase | 703A: Mishka and Game | 705A: Hulk |
-| 706B: Interesting drink | 707A: Brain's Photos | 711A: Bus to Udayland |
-| 71A: Way Too Long Words | 723A: The New Year: Meeting Friends | 731A: Night at the Museum |
-| 732A: Buy a Shovel | 732B: Cormen — The Best Friend Of a Man | 734A: Anton and Danik |
-| 734B: Anton and Digits | 742A: Arpa’s hard exam and Mehrdad’s naive cheat | 749A: Bachgold Problem |
-| 750A: New Year and Hurry | 758A: Holiday Of Equality | 766B: Mahmoud and a Triangle |
-| 785A: Anton and Polyhedrons | 791A: Bear and Big Brother | 80A: Panoramix's Prediction |
-| 822A: I'm bored with life | 82A: Double Cola | 894A: QAQ |
-| 935A: Fafa and his Company | 959A: Mahmoud and Ehab and the even-odd game | 96A: Football |
-| 977A: Wrong Subtraction | 977B: Two-gram | 978B: File Name |
-| 996A: Hit the Lottery | 9A: Die Roll | CF1511A: Odd Divisor |
-
-## अंत
