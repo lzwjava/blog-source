@@ -2,11 +2,11 @@
 audio: false
 lang: ar
 layout: post
-title: تثبيت Arch Linux
+title: تثبيت أرش لينكس
 translated: true
 ---
 
-Lenovo Xiaoxing 14IAH8 حاسوب محمول.
+Lenovo Xiaoxing 14IAH8 لابتوب.
 
 ```bash
 $ diskutil list
@@ -19,22 +19,35 @@ $ diskutil list
 
 ```bash
 % diskutil unmountDisk /dev/disk6
+```
 
-Failed to unmount disk6: at least one volume could not be unmounted.
-Unmount was dissented by PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores).
-Dissenter parent PPID 1 (/sbin/launchd).
+> فشل فك الارتباط من القرص 6: لم يتم فك الارتباط من واحد من الأقراص.
+> تم رفض فك الارتباط بواسطة PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores).
+> والد PID 1 (/sbin/launchd).
 
+```bash
 % diskutil unmountDisk force /dev/disk6
 ```
 
 ```bash
 sudo dd if=archlinux-2025.02.01-x86_64.iso of=/dev/rdisk6 bs=1m
 
-1179+1 records in
-1179+1 records out
-1236303872 bytes transferred in 46.777995 secs (26429176 bytes/sec)
+1179+1 سجلات في
+1179+1 سجلات خارج
+1236303872 بايت نقلت في 46.777995 ثوان (26429176 بايت/ثانية)
 ```
 
-الوسيط USB معلق بواسطة السياسات الأمنية الحالية.
+الوحدة usb مقفلة من قبل الساسة الأمنية الحالية.
 
-Pressure F2 to enter the BIOS and disable Secure Boot.
+اضغط على F2 للدخول إلى BIOS وتعطيل التحقق من الأمان.
+
+```bash
+ip link
+iwctl
+device list
+station wlan0 scan
+station wlan0 get-networks
+station wlan0 connect SSID
+ping archlinux.org
+timedatectl
+```
