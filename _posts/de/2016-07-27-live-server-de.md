@@ -1,16 +1,16 @@
 ---
 audio: false
-lang: ja
+lang: de
 layout: post
-title: 'ライブ: 知識ライブ配信プラットフォーム'
+title: 'Fun Live: Wissen Live-Streaming-Plattform'
 translated: true
 ---
 
-これは GitHub プロジェクト [https://github.com/lzwjava/live-server](https://github.com/lzwjava/live-server) の README.md です。
+Dies ist die README.md von einem GitHub-Projekt [https://github.com/lzwjava/live-server](https://github.com/lzwjava/live-server).
 
 ---
 
-### Fun Live: 知識ライブ配信プラットフォーム
+### Fun Live: Wissens-Live-Streaming-Plattform
 
 * [live-server](https://github.com/lzwjava/live-server)
 * [live-web](https://github.com/lzwjava/live-web)
@@ -28,29 +28,29 @@ translated: true
 
 ![img14](./img/img4.jpg)
 
-Fun Live は、プログラミングやデザインを含むさまざまな分野でユーザーに魅力的な教育的な経験を提供するために設計された、最先端の知識ライブ配信プラットフォームです。Fun Live を使用すると、ユーザーはスムーズにライブ講義に参加し、料金や報酬を通じて貢献し、追加の便利さを楽しむための再生オプションを楽しむことができます。
+Fun Live ist eine fortschrittliche Wissens-Live-Streaming-Plattform, die entwickelt wurde, um engagierende Bildungserfahrungen für Nutzer aus verschiedenen Disziplinen, einschließlich Programmierung und Design, zu ermöglichen. Mit Fun Live können Nutzer nahtlos an Live-Vorträgen teilnehmen, durch Gebühren oder Belohnungen beitragen und flexible Wiedergabeoptionen genießen.
 
-#### 特徴:
-- **ライブ講義**: リアルタイムで様々なトピックをカバーする豊富な知識講義にアクセスします。
-- **モネタリゼーションオプション**: ユーザーは料金を支払ってライブセッションに参加するか、講師に価値ある洞察を報酬として支払うことができます。
-- **OBSインテグレーション**: 講師はOBSツールを使用してライブストリームを簡単にプッシュし、スムーズな放送を確保できます。
-- **再生機能**: リアルタイムで講義に参加するか、後で再生を楽しむ柔軟性を提供します。
-- **シームレスなWeChat統合**: WeChatプラットフォームとシームレスに統合され、通知機能を備えたユーザーエンゲージメントの向上。
+#### Funktionen:
+- **Live-Vorträge**: Zugang zu vielfältigen Wissensvorträgen in Echtzeit, die eine breite Themenpalette abdecken.
+- **Verdienstmöglichkeiten**: Nutzer können Gebühren für den Besuch von Live-Sitzungen zahlen oder Vortragende für ihre wertvollen Einblicke belohnen.
+- **OBS-Integration**: Vortragende können Live-Streams nahtlos mit dem OBS-Tool weiterleiten, um eine reibungslose Übertragung zu gewährleisten.
+- **Wiedergabefunktionalität**: Nutzen Sie die Flexibilität, an Vorträgen in Echtzeit teilzunehmen oder diese später abzuspielen.
+- **Nahtlose WeChat-Integration**: Integrieren Sie sich nahtlos in die WeChat-Plattform, einschließlich Benachrichtigungsfunktionen für eine verbesserte Nutzerbindung.
 
-#### 使用方法:
-1. リポジトリをクローンします。
-2. 好みの開発環境でプロジェクトを開きます。
-3. 必要に応じて設定をカスタマイズおよび構成します。
-4. アプリケーションをサーバーにデプロイします。
-5. エンガージングな知識ライブ講義を放送し、ユーザーを楽しませます！
+#### Verwendung:
+1. Klonen Sie das Repository.
+2. Öffnen Sie das Projekt in Ihrer bevorzugten Entwicklungsumgebung.
+3. Passen Sie die Einstellungen nach Bedarf an.
+4. Deployen Sie die Anwendung auf Ihren Server.
+5. Beginnen Sie mit dem Streamen von engagierenden Wissensvorträgen und begeistern Sie Ihre Nutzer!
 
-#### 統計:
-- **ホストされた講義**: 約80回の講義がホストされました。
-- **ユーザーベース**: 30,000人以上のユーザーがエンゲージメントを固めました。
-- **ページビュー**: 何百万ものページビューが生成されました。
+#### Statistiken:
+- **Gehostete Vorträge**: Etwa 80 gehostete Vorträge.
+- **Nutzerbasis**: Mehr als 30.000 engagierte Nutzer.
+- **Seitenaufrufe**: Millionen von generierten Seitenaufrufen.
 
-#### ファイル構造:
-```plaintext
+#### Dateistruktur:
+```
 ├── cache
 │   └── index.html
 ├── config
@@ -211,14 +211,14 @@ Fun Live は、プログラミングやデザインを含むさまざまな分�
     └── index.html
 ```
 
-### 貢献者
+### Mitwirkende
 
-| コミット | 作者 |
+| Commits | Author |
 | ------ | ---- |
-| 555 | lzwjava |
-| 28 | Liu-Sheng Xin |
-| 24 | PegasusWang |
-| 24 | wujunze |
-| 18 | liushengxin |
-| 5 | Anrika |
-| 4 | Amast |
+|   555 | lzwjava|
+|    28|  Liu-Sheng Xin|
+|    24|  PegasusWang|
+|    24 | wujunze|
+|    18 | liushengxin|
+|     5|  Anrika|
+|     4  |Amast|
