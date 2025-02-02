@@ -1,0 +1,25 @@
+---
+audio: false
+lang: de
+layout: post
+title: Ein Besuch in einer Telefonfabrik
+translated: true
+---
+
+Dieser Beitrag wurde ursprünglich auf Chinesisch geschrieben und auf Qzone veröffentlicht.
+
+---
+
+Vorwort:
+
+Am 11.-12. Juli 2011 nahm ich an einer sozialen Praxis bei Guangzhou Chuangqi Communication Equipment Co., Ltd. teil. Ich führe dieses Protokoll, um die Erfahrungen zu dokumentieren. Ich bin jedem Mitglied unserer Gruppe dankbar; sie machten die Aktivität interessanter, erfüllender und weniger einsam. Sie heißen: Xiang, Jian, Qing, Yun, Ru, Jun, Le, Hua, Da, Hui, Wen und Neng. Ich möchte auch Herrn Tan, dem Vizepräsidenten und dem Geschäftsführer von Chuangqi, sowie den drei Jungs danken, die mit mir während der Arbeit geplaudert haben.
+
+Hauptteil:
+
+Kaum war ich vom Bus gestiegen, fiel mir sofort das symmetrische blaue Gebäude ins Auge. Die Sonne funkelte auf dem blauen Glas. Um mich herum sah ich Blumen, Bäume und Reihen von Eichen- und Mangobäumen. Im Werkstattraum standen Reihen von Betriebsmaschinen und Arbeiter. Die Menschen hier waren wie die Umgebung. Die Arbeiter, in blauen Uniformen gekleidet, arbeiteten hart an der Frontlinie der Telefonproduktion. Die Führer waren sehr freundlich und begrüßten uns, hier zu praktizieren.
+
+Beim Betreten der Produktionswerkstatt und dem Eintritt in die Produktionslinie als Mitarbeiter stieß ich auf einige Herausforderungen. Die moderne Industrie verlässt sich auf Massenproduktion oder Fließbandoperationen, was das Konzept der Arbeitsteilung verkörpert. Einige Mitarbeiter sind für das Oberflächenmontieren verantwortlich, während andere für die Montage zuständig sind. Innerhalb des Montageprozesses gibt es weiterhin eine Arbeitsteilung, wobei einige eine Komponente montieren und andere eine andere, alles um die Produktionseffizienz zu erhöhen. Ich wurde der Verpackungsabteilung zugeordnet. Anfangs fand ich das Verpacken sehr interessant, erforschte, wie man schneller verpacken kann. Nach kontinuierlicher Verbesserung und Vertrautheit konnte ich die Produkte sogar mit geschlossenen Augen verpacken. Die Führer hätten sich gewundert, wie die Fabrik eine solche flinke "blinde" Person eingestellt hat. Bei diesem Gedanken lächelte ich und meine Gedanken schweiften weiter. Nach einer Weile öffnete ich die Augen und stellte fest, dass die Kisten auf der Montagelinie im Vergleich zur ursprünglichen Dichte spärlicher geworden waren. Wenn diese Veränderung in der Dichte in der Bevölkerung der Küstenstädte Chinas aufgetreten wäre, würde das sehr erfreulich sein. Dies ereignete sich jedoch auf der Montagelinie und beeinträchtigte die Effizienz des Teams. Man kann sehen, dass diese Art der Produktion auf enge Zusammenarbeit und Arbeitsteilung angewiesen ist. Die Effizienz des Teams hängt vom langsamsten Prozess ab. Daher muss jeder Mitarbeiter sich konzentrieren und seine Produktivität maximieren. Dann kann durch Anpassung der Anzahl der für jeden Prozess benötigten Mitarbeiter die Effizienz jedes Prozesses ausgeglichen werden. Nachdem ich dies verstanden hatte, begann ich, die Herausforderung anzunehmen, meine Aufmerksamkeit zu fokussieren, mich auf die Produktion zu konzentrieren und gut mit meinen "Gefährten" zusammenzuarbeiten.
+
+Während eines Gesprächs mit dem Vizepräsidenten von Chuangqi blieben mir einige Dinge besonders im Gedächtnis. Zu diesem Zeitpunkt hatten wir den ganzen Morgen in der Werkstatt gearbeitet und jeder war mehr oder weniger von der mechanischen Arbeit müde. Als ich den Vizepräsidenten nach seiner Karriere fragte, sagte er, dass er acht Jahre in der Werkstatt gearbeitet hatte. Ich war so überrascht, dass ich meinen geplanten Mittagsschlaf vergaß. Dies bestätigt das alte Sprichwort, dass jeder erfolgreiche Mensch eine Geschichte harter Arbeit hat. Während wir über die Mechanik der Arbeit klagen, denken einige Menschen darüber nach, wie sie die mechanische Arbeit verbessern können. Während wir über die Langeweile der Arbeit klagen, ändern einige Menschen ihre Einstellung und finden Freude an ihrer Arbeit. Während wir über alles klagen, denken einige Menschen darüber nach, wie sie die Effizienz steigern, hervorragende Arbeit leisten und die Anerkennung des Chefs gewinnen können. Sie arbeiten fleißig Tag für Tag. Sie sind eine bescheidene und fortschrittliche Gruppe. Sie haben Ideale und sind bereit, alles zu geben, um sie zu erreichen.
+
+Diese Praxis machte mir auch bewusst, dass ich viele Bereiche habe, die ich verbessern muss. Zum Beispiel sollte meine Einstellung zur Arbeit und zum Studium realistischer sein. Ich sollte nicht über meine aktuelle Situation klagen, sondern das Langweilige in Interessantes verwandeln und die Bedeutung von Lernen und Arbeiten verstehen. Auch in Bezug auf Kommunikation muss ich lernen, wie man andere überzeugt, sie dazu bringt, das zu tun, was man möchte, und Dinge klar und prägnant zu beschreiben, um Missverständnisse zu vermeiden und die Effizienz zu steigern. Ich hoffe, dass ich diese Erkenntnisse in mein Leben einbringen kann. Praktische Aktivitäten sind nur dann sinnvoll und wertvoll, wenn sie tatsächlich Ihr Leben verbessern und Ihre Fähigkeiten steigern.

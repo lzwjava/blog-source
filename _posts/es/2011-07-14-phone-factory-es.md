@@ -1,0 +1,25 @@
+---
+audio: false
+lang: es
+layout: post
+title: Una visita a una fábrica de fabricación de teléfonos
+translated: true
+---
+
+Este post fue originalmente escrito en chino y publicado en Qzone.
+
+---
+
+Prefacio:
+
+El 11 y 12 de julio de 2011, participé en una práctica social en Guangzhou Chuangqi Communication Equipment Co., Ltd. Estoy escribiendo este diario para documentar la experiencia. Estoy agradecida a cada miembro de nuestro grupo; ellos hicieron la actividad más interesante, gratificante y menos solitaria. Ellos son: Xiang, Jian, Qing, Yun, Ru, Jun, Le, Hua, Da, Hui, Wen y Neng. También quiero agradecer al gerente Tan, al vicepresidente y al director general de Chuangqi, así como a los tres chicos que charlaron conmigo mientras trabajábamos.
+
+Cuerpo principal:
+
+Tan pronto como me bajé del autobús, el edificio azul simétrico llamó inmediatamente mi atención. El sol brillaba en el vidrio azul. Mirando alrededor, vi flores, árboles y filas de robles y mango. Dentro del taller, había filas de máquinas operativas y trabajadores. Las personas aquí eran como el entorno. Los trabajadores, vestidos con uniformes azules, trabajaban duro en la línea de producción de teléfonos. Los líderes fueron muy amables y nos dieron la bienvenida para practicar aquí.
+
+Al entrar en el taller de producción y unirme a la línea de producción como empleado, enfrenté algunos desafíos. La industria moderna depende de la producción en masa, o operaciones en línea de ensamblaje, que encarna el concepto de división del trabajo. Algunos empleados son responsables de la montaje superficial, mientras que otros son responsables del ensamblaje. Dentro del proceso de ensamblaje, hay una mayor división del trabajo, con algunos ensamblando una pieza y otros ensamblando otra, todo para aumentar la eficiencia de la producción. Me asignaron al departamento de empaque. Al principio, encontré el empaque bastante interesante, investigando cómo empaquetar más rápido. Después de la mejora continua y familiarización, incluso podía empaquetar los productos con los ojos cerrados. Los líderes se habrían sorprendido de cómo la fábrica contrató a una persona tan ágil "ciega". Pensando en esto, sonreí, y mi mente continuó divagando. Después de un rato, abrí los ojos y encontré que las cajas en la línea de ensamblaje se habían vuelto escasas, en comparación con la densidad original. Si este cambio en densidad ocurriera en la población de las ciudades costeras de China, sería bastante gratificante. Sin embargo, esto sucedió en la línea de ensamblaje, afectando la eficiencia del equipo. Se puede ver que este tipo de producción depende de la cooperación estrecha y la división del trabajo. La eficiencia del equipo depende del proceso más lento. Por lo tanto, para maximizar la eficiencia, cada empleado debe concentrarse y maximizar su productividad. Luego, ajustando el número de empleados necesarios para cada proceso, la eficiencia de cada proceso puede equilibrarse. Después de entender esto, comencé a enfrentar el desafío, enfocando mi atención, concentrándome en la producción y cooperando bien con mis "compañeros".
+
+Durante una conversación con el vicepresidente de Chuangqi, algunas cosas resonaron particularmente conmigo. Para ese momento, habíamos estado trabajando en el taller por la mañana y todos estábamos más o menos cansados del trabajo mecánico. Cuando le pregunté sobre su carrera, dijo que había trabajado en el taller durante ocho años. Me sorprendí tanto que olvidé mi siesta planeada. Esto confirma el viejo dicho de que cada persona exitosa tiene una historia de trabajo duro. Mientras nos quejamos de lo mecánico que es el trabajo, algunas personas piensan en cómo mejorar el trabajo mecánico. Mientras nos quejamos de lo aburrido que es el trabajo, algunas personas cambian su actitud y encuentran alegría en su trabajo. Mientras nos quejamos de todo, algunas personas piensan en cómo mejorar la eficiencia, hacer un trabajo excelente y ganarse la aprobación del jefe. Ellos trabajan diligentemente día tras día. Son un grupo práctico y progresista. Tienen ideales y están dispuestos a darlo todo para lograrlos.
+
+Esta práctica también me hizo darme cuenta de que tengo muchas áreas que necesitan mejorar. Por ejemplo, mi actitud hacia el trabajo y el estudio debe ser más práctica. No debería quejarme de mi situación actual, sino convertir lo aburrido en interesante y entender el significado de aprender y trabajar. También, en términos de comunicación, necesito aprender a persuadir a los demás, a hacer que estén dispuestos a hacer lo que les pidas, y a describir las cosas de manera clara y concisa para evitar malentendidos e mejorar la eficiencia. Espero poder aplicar estos beneficios a mi vida. Las actividades prácticas solo tienen sentido y valor cuando realmente mejoran tu vida e incrementan tus habilidades.
