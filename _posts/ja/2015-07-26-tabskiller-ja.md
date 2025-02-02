@@ -12,9 +12,9 @@ translated: true
 
 # TabsKiller
 
-ブラウザが多すぎるタブで混乱しているときに、自動的に最も古いタブを閉じる Chrome プラグインをご紹介します。もはや散らかったブラウザの経験とはお別れです！
+タブが多すぎてブラウザが混雑するときに、自動的に最古のタブを閉じてくれる Chrome プラグインをご紹介します。もう、散らかったブラウザ体験とはさようなら！
 
-神奇な Chrome プラグインです。開いているページが多すぎるときに、自動的に最も古いページを閉じて、ブラウザを清潔に保ちます！
+一个神奇的 Chrome 插件，当打开网页过多的时候，会自动关掉最老的网页，让浏览器保持清爽！
 
 ![xxqq20160114-1 2x](https://cloud.githubusercontent.com/assets/5022872/12328379/25a749c2-bb16-11e5-8400-6e5c67027a61.png)
 
@@ -28,17 +28,13 @@ translated: true
 
 # 特性
 
-1. タブの数が設定した制限を超えると、自動的に最も古いタブを閉じます。
-2. 最大タブ数（x）を好みに合わせてカスタマイズできます。
-3. 特定の URL パターンをロックして、そのパターンに一致するタブが多くても開いたままにすることができます。
-
-1. 開いているページが一定数を超えたときに、自動的に最も古いページを閉じます。
-2. 最大のタブ数を設定できます。
-3. ロックのルールを設定して、そのルールに合致するページを閉じられないようにします。
+1. タブの数が設定された制限を超えた場合、自動的に最古のタブを閉じます。
+2. 最大タブ数（x）を好きなようにカスタマイズできます。
+3. 特定の URL パターンをロックして、そのパターンに合致するタブが開きっ放しであることを保証します。
 
 ## ストーリー
 
-私は Chrome でたくさんのタブを開くことが多いです。だから、Ctrl + W を押してたくさん閉じます。繰り返し。繰り返し。だから、私の問題を解決するために拡張機能を書きたいと考えていました。その後、「Tab Wrangler」拡張機能を見つけました。x 分間アクティブでないタブを閉じます。それを学び、x タブを超えたときに最も古いタブを閉じる拡張機能を作りました。そして、特定の URL パターンに一致するタブをロックしました。とても役立っています。もうタブを気にする必要はありません。タブが多くなりすぎることはありません。私の生活が楽になりました。これをお好きになることを願っています。
+私は Chrome でたくさんのタブを開けます。 Ctrl + W を押して一括で閉じるのを繰り返します。 そして、私が問題を解決するために拡張機能を書くことを決意しました。 そして、 "Tab Wrangler" 拡張機能を見つけました。この拡張機能は、x 分間アクティブでなかったタブを閉じます。 私はそれを学び、x 個のタブが開かれると最古のタブを閉じる拡張機能を作成しました。そして、特定のパターンに一致する URL のタブをロックしました。 これで、私はタブの管理をする必要がなくなりました。タブは多すぎないのです。私の生活が楽になりました。 あなたも喜んでくれることを願っています。
 
 ## デモ
 
@@ -46,16 +42,18 @@ translated: true
 
 ## インストール
 
-Chrome ストアにアクセスしてください https://chrome.google.com/webstore/detail/tabs-killer/hgmdeeoighmhomddlghfjcidkdcpbllf/ 、または手動でインストールします：
+Google Chrome ストアへ [https://chrome.google.com/webstore/detail/tabs-killer/hgmdeeoighmhomddlghfjcidkdcpbllf/](https://chrome.google.com/webstore/detail/tabs-killer/hgmdeeoighmhomddlghfjcidkdcpbllf/) へ移動してください。
+または、手動でインストールします：
 
-まず、`chrome://extensions` に移動し、開発者モードを選択し、アンパッケージ化された拡張機能を読み込みます。完了です。
+まず、`chrome://extensions` に移動し、開発者モードを選択し、解凍した拡張機能をロードします。これで完了です。
 
 ![chrome](https://cloud.githubusercontent.com/assets/5022872/10262586/ddc451b0-6a00-11e5-8b10-da16c9658221.jpg)
 
-詳細については、Chromeの「Get Started」[チュートリアル](https://developer.chrome.com/extensions/getstarted#unpacked)を参照してください。
+詳細については、Chrome のガイド [チュートリアル](https://developer.chrome.com/extensions/getstarted#unpacked) をご覧ください。
 
 中文：
 
-Chrome ストアにアクセスしてください https://chrome.google.com/webstore/detail/tabs-killer/hgmdeeoighmhomddlghfjcidkdcpbllf/、または手動でインストールします：
+Chrome 商店に [https://chrome.google.com/webstore/detail/tabs-killer/hgmdeeoighmhomddlghfjcidkdcpbllf/](https://chrome.google.com/webstore/detail/tabs-killer/hgmdeeoighmhomddlghfjcidkdcpbllf/) へ移動してください。
+または、手動でインストールします：
 
-右側の Download ZIP をクリックしてソースコードをダウンロードし、展開します。次に、`chrome://extensions` を開きます（ブラウザのアドレスバーにコピーして開きます）、`開発者モード` を選択し、`アンパッケージ化された拡張機能を読み込む` をクリックします。これで、次のように表示されます。その後、ファイル選択ダイアログが表示されます。先ほどダウンロードしたソースコードディレクトリを選択します。これで、このプラグインがインストールされました。
+右側の Download ZIP をクリックしてソースコードをダウンロードし、解凍します。次に、ブラウザのアドレスバーに `chrome://extensions` をコピーして貼り付け、開発者モードを選択し、解凍した拡張機序をロードします。これで、このプラグインをインストールしました。
