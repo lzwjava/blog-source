@@ -2,7 +2,7 @@
 audio: false
 lang: fr
 layout: post
-title: Installer Arch Linux
+title: Installation d'Arch Linux
 translated: true
 ---
 
@@ -20,9 +20,9 @@ $ diskutil list
 ```bash
 % diskutil unmountDisk /dev/disk6
 
-Le démontage de disk6 a échoué : au moins un volume n'a pas pu être démonté.
-Le démontage a été refusé par le PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores).
-PID parent de l'opposant 1 (/sbin/launchd).
+Démontage de disk6 échoué : au moins un volume n'a pas pu être démonté.
+Le démontage a été dissout par PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores).
+PID dissident parent PPID 1 (/sbin/launchd).
 
 % diskutil unmountDisk force /dev/disk6
 ```
@@ -30,11 +30,11 @@ PID parent de l'opposant 1 (/sbin/launchd).
 ```bash
 sudo dd if=archlinux-2025.02.01-x86_64.iso of=/dev/rdisk6 bs=1m
 
-1179+1 enregistrements lus
-1179+1 enregistrements écrits
-1236303872 octets transférés en 46.777995 secs (26429176 octets/sec)
+1179+1 records in
+1179+1 records out
+1236303872 bytes transferred in 46.777995 secs (26429176 bytes/sec)
 ```
 
-Le lecteur USB est verrouillé par la politique de sécurité actuelle.
+Le disque USB est verrouillé par la politique de sécurité actuelle.
 
-Appuyez sur F2 pour entrer dans le BIOS et désactiver le Secure Boot.
+Appuyez sur F2 pour entrer dans le BIOS et désactiver le démarrage sécurisé.

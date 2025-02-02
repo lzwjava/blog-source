@@ -6,13 +6,13 @@ title: تثبيت Arch Linux
 translated: true
 ---
 
-Lenovo Xiaoxing 14IAH8 Laptop.
+Lenovo Xiaoxing 14IAH8 الحاسوب المحمول.
 
 ```bash
 $ diskutil list
 ```
 
-> /dev/disk6 (external, physical):
+> /dev/disk6 (الخارجي، البدوي):
 >   #:                       TYPE NAME                    SIZE       IDENTIFIER
 >   0:     FDisk_partition_scheme                        *30.8 GB    disk6
 >   1:             Windows_FAT_32 NO NAME                 30.8 GB    disk6s1
@@ -35,6 +35,6 @@ sudo dd if=archlinux-2025.02.01-x86_64.iso of=/dev/rdisk6 bs=1m
 1236303872 bytes transferred in 46.777995 secs (26429176 bytes/sec)
 ```
 
-الوحدة USB محمية من خلال السياسات الأمنية الحالية.
+القضيب USB محمول بالسياسة الأمنية الحالية.
 
-اضغط على F2 للدخول إلى BIOS وإيقاف Secure Boot.
+اضغط على F2 لتدخل النظام الأساسي واستخدام Secure Boot.
