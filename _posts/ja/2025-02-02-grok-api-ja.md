@@ -2,15 +2,15 @@
 audio: false
 lang: ja
 layout: post
-title: Grok APIのテスト
+title: Grokking APIのテスト
 translated: true
 ---
 
-- 中国発行のVisaカードを使用することができます。
+- 中国発行のビザカードの使用は許可されています。
 
 - [https://console.x.ai](https://console.x.ai)
 
-- `grok-2-latest`モデル: 入力 2 米ドル/100万トークン、出力 10 米ドル/100万トークン。
+- `grok-2-latest` モデル: 入力 2 米ドル / 100万トークン、出力 10 米ドル / 100万トークン。
 
 コード:
 
@@ -24,7 +24,7 @@ load_dotenv()
 
 GROK_API_KEY = os.environ.get("GROK_API_KEY")
 if not GROK_API_KEY:
-    raise ValueError("GROK_API_KEY環境変数が設定されていません")
+    raise ValueError("GROK_API_KEY 環境変数が設定されていません")
 
 url = "https://api.x.ai/v1/chat/completions"
 headers = {
@@ -36,7 +36,7 @@ data = {
     "messages": [
         {
             "role": "user",
-            "content": "AIの仕組みを説明してください"
+            "content": "AIがどのように動作するか説明してください"
         }
     ]
 }
@@ -50,9 +50,9 @@ try:
         if 'message' in first_choice and 'content' in first_choice['message']:
             print(first_choice['message']['content'])
         else:
-            print("意外な応答形式: メッセージまたはコンテンツがありません")
+            print("予期せぬ応答形式: メッセージまたはコンテンツが欠落")
     else:
-        print("応答に選択肢が見つかりません")
+        print("応答に選択肢が含まれていません")
 except requests.exceptions.RequestException as e:
     print(f"APIリクエスト中にエラーが発生しました: {e}")
     if e.response:

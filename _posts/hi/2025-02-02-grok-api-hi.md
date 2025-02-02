@@ -2,15 +2,15 @@
 audio: false
 lang: hi
 layout: post
-title: Grok API Test karna
+title: Grook API Test करना
 translated: true
 ---
 
-- चीन-issued Visa कार्ड का उपयोग करने में कोई समस्या नहीं है।
+- चीन जारी वीसा कार्ड का उपयोग करना ठीक है।
 
 - [https://console.x.ai](https://console.x.ai)
 
-- `grok-2-latest` मॉडल: 1 मीलियन टोकन प्रति 2 USD इनपुट, 1 मीलियन टोकन प्रति 10 USD आउटपुट।
+- `grok-2-latest` मॉडल: प्रती 2 मिलियन टोकन के लिए 2 डॉलर इन्पुट, प्रती 10 मिलियन टोकन के लिए 10 डॉलर आउटपुट।
 
 कोड:
 
@@ -24,7 +24,7 @@ load_dotenv()
 
 GROK_API_KEY = os.environ.get("GROK_API_KEY")
 if not GROK_API_KEY:
-    raise ValueError("GROK_API_KEY environment variable not set")
+    raise ValueError("GROK_API_KEY पर्यावरण विकल्प नहीं सेट है")
 
 url = "https://api.x.ai/v1/chat/completions"
 headers = {
@@ -50,14 +50,14 @@ try:
         if 'message' in first_choice and 'content' in first_choice['message']:
             print(first_choice['message']['content'])
         else:
-            print("Unexpected response format: message or content missing")
+            print("अनपेक्षित उत्तर फ़ॉर्मेट: सन्देश या सामग्री अभाव में")
     else:
-        print("No choices found in the response")
+        print("उत्तर में कोई विकल्प नहीं मिला")
 except requests.exceptions.RequestException as e:
-    print(f"Error during API request: {e}")
+    print(f"एपीआई अनुरोध के दौरान एक त्रुटि: {e}")
     if e.response:
-        print(f"Response status code: {e.response.status_code}")
-        print(f"Response content: {e.response.text}")
+        print(f"उत्तर स्थिति कोड: {e.response.status_code}")
+        print(f"उत्तर सामग्री: {e.response.text}")
 except json.JSONDecodeError as e:
-    print(f"Error decoding JSON response: {e}")
+    print(f"जेएसओएन उत्तर को डिकोड करने में त्रुटि: {e}")
 ```
