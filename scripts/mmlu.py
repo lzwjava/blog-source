@@ -14,7 +14,7 @@ load_dotenv()
 
 # Set up argument parsing
 parser = argparse.ArgumentParser(description="Evaluate MMLU dataset with different backends.")
-parser.add_argument("--type", type=str, default="ollama", choices=["ollama", "llama", "deepseek", "gemini", "mistral"], help="Backend type: ollama, llama, deepseek, gemini or mistral")
+parser.add_argument("--type", type=str, default="ollama", choices=["ollama", "llama", "deepseek", "gemini", "mistral", "grok"], help="Backend type: ollama, llama, deepseek, gemini, mistral or grok")
 parser.add_argument("--model", type=str, default="", help="Model name")
 
 args = parser.parse_args()
@@ -260,6 +260,57 @@ def _call_llama_api(prompt):
     response = requests.post(url, headers=headers, data=json.dumps(data))
     return process_llama_response(response)
 
+def _call_grok_api(prompt):
+    api_key = os.environ.get("GROK_API_KEY")
+    if not api_key:
+        print("Error: GROK_API_KEY environment variable not set.")
+        return None
+
+    url = "https://api.x.ai/v1/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_key}"
+    }
+    data = {
+        "model": "grok-2-latest",
+        "messages": [
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+    }
+    print(f"Input to Grok API: {data}")
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        response.raise_for_status()
+        json_response = response.json()
+        if 'choices' in json_response and json_response['choices']:
+            first_choice = json_response['choices'][0]
+            if 'message' in first_choice and 'content' in first_choice['message']:
+                return process_grok_response(first_choice['message']['content'])
+            else:
+                print("Unexpected response format: message or content missing")
+                return ""
+        else:
+            print("No choices found in the response")
+            return ""
+    except requests.exceptions.RequestException as e:
+        print(f"Error during API request: {e}")
+        if e.response:
+            print(f"Response status code: {e.response.status_code}")
+            print(f"Response content: {e.response.text}")
+        return ""
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON response: {e}")
+        return ""
+
+def process_grok_response(response):
+    output_text = response.strip()
+    predicted_answer = output_text.strip()[0] if len(output_text.strip()) > 0 else ""
+    print(f"Output from API: {output_text}")
+    return predicted_answer
+
 
 def _get_predicted_answer(args, prompt, client):
     predicted_answer = ""
@@ -273,6 +324,8 @@ def _get_predicted_answer(args, prompt, client):
         predicted_answer = process_gemini_response(prompt)
     elif args.type == "mistral":
         predicted_answer = call_mistral_api(prompt, args.model)
+    elif args.type == "grok":
+        predicted_answer = _call_grok_api(prompt)
     else:
         raise ValueError("Invalid backend type")
     return predicted_answer
@@ -292,6 +345,8 @@ def evaluate_model(args, dataset):
             args.model = "deepseek-chat"
         elif args.type == "mistral":
             args.model = "mistral-small-latest"
+        elif args.type == "grok":
+            args.model = "grok-2-latest"
 
     for i, example in tqdm(enumerate(dataset), total=len(dataset), desc="Evaluating"):
         prompt = format_mmlu_prompt(example)
