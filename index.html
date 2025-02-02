@@ -12,7 +12,6 @@ layout: page
     <option value="author-picks|all">Picks</option>
     <option value="date-desc|all" selected>All</option>
     <option value="date-desc|original">Original</option>    
-    <option value="date-desc|random">Random</option>
     <option value="date-desc|en">English</option>
     <option value="date-desc|zh">中文</option>
     <option value="date-desc|ja">日本語</option>
@@ -93,133 +92,53 @@ layout: page
 
       let processedPosts = [];
 
-      // Custom logic for "Date Descending - Random"
-      if (sortOption === 'date-desc' && langFilter === 'random') {
-        // 1. Group posts by base filename (ignoring language suffix)
-        const groups = {};
-
-        posts.forEach(post => {
-          // We only group the posts that match the language filter if needed
-          // but here, let's assume we're just grouping all, ignoring language filter
-          const aElement = post.querySelector('a');
-          if (!aElement) return;
-
-          // Example href: "https://lzwjava.github.io/contact-en"
-          // We only need the last part: "contact-en"
-          const fullHref = aElement.getAttribute('href');
-          if (!fullHref) return;
-
-          const pathPart = fullHref.split('/').pop();
-          // Now pathPart might be "contact-en", "about-zh", etc.
-          // We want to separate "contact" from "en"
-
-          // We'll use a simple regex: ^(.+)-(\w+)$
-          //  - (.+)  = base name (capture everything until the last hyphen)
-          //  - (\w+) = language suffix (en, zh, ja, etc.)
-          const match = pathPart.match(/^(.+?)-(\w+)$/);
-
-          // If there's no match, fallback to the entire pathPart as a single base
-          // or skip grouping if we can't parse it
-          let baseName = pathPart;
-          if (match) {
-            // match[1] = "contact"
-            // match[2] = "en"
-            baseName = match[1];
-          }
-
-          if (!groups[baseName]) {
-            groups[baseName] = [];
-          }
-          groups[baseName].push(post);
-        });
-
-        // 2. Randomly select one post per group
-        const selectedPosts = Object.values(groups).map(group => {
-          return group[Math.floor(Math.random() * group.length)];
-        });
-
-        // 3. Convert each selected post to an object with date info
-        processedPosts = selectedPosts.map(post => {
-          // Extract the date from the DOM
-          const dateElement = post.querySelector('.date');
-          // Example text might be "2025.01.11"
-          const dateStr = dateElement
-            ? dateElement.textContent.trim().replace(/\./g, '-')
-            : null;
-
-          return {
-            element: post,
-            // Convert "2025-01-11" to a Date object
-            date: dateStr ? new Date(dateStr) : null
-          };
-        }).filter(item => item.date); // Exclude items without a valid date
-
-        // 4. Sort by date descending
-        processedPosts.sort((a, b) => b.date - a.date);
-      }
-       else if (sortOption === 'author-picks') {
-          // For "Picks", filter posts with 'data-top' > 0
-          processedPosts = Array.from(posts).filter(post => {
-              const topValue = parseInt(post.dataset.top || 0, 10);
-              return topValue > 0;
-          }).map(post => {
-              return {
-                  element: post,
-                  // we don't need to sort by top, just filter
-              };
-          });
-      }
-      else if (sortOption === 'date-desc' && langFilter === 'original') {
-          processedPosts = Array.from(posts).filter(post => {
-              return post.dataset.translated === 'false';
-          }).map(post => {
-              const dateElement = post.querySelector('.date');
-              const dateStr = dateElement
-                ? dateElement.textContent.trim().replace(/\./g, '-')
-                : null;
-              return {
-                  element: post,
-                  date: dateStr ? new Date(dateStr) : null
-              };
-          }).filter(item => item.date);
-          processedPosts.sort((a, b) => b.date - a.date);
-      }
-      else {
+      if (sortOption === 'author-picks') {
+        // For "Picks", filter posts with 'data-top' > 0
+        processedPosts = Array.from(posts).filter(post => {
+          const topValue = parseInt(post.dataset.top || 0, 10);
+          return topValue > 0;
+        }).map(post => ({ element: post }));
+      } else if (sortOption === 'date-desc' && langFilter === 'original') {
+        processedPosts = Array.from(posts)
+          .filter(post => post.dataset.translated === 'false')
+          .map(post => {
+            const dateElement = post.querySelector('.date');
+            const dateStr = dateElement ? dateElement.textContent.trim().replace(/\./g, '-') : null;
+            return { element: post, date: dateStr ? new Date(dateStr) : null };
+          })
+          .filter(item => item.date)
+          .sort((a, b) => b.date - a.date);
+      } else {
         // All other sort options remain as-is (example logic below).
 
         // Filter posts by language if needed
         const filteredPosts = (langFilter === 'all')
           ? Array.from(posts)
-          : Array.from(posts).filter(post =>
-              post.classList.contains(`lang-${langFilter}`));
+          : Array.from(posts).filter(post => post.classList.contains(`lang-${langFilter}`));
 
         // Convert each post to a sortable object
-        const postArray = filteredPosts.map(post => {
-          const dateElement = post.querySelector('.date');
-          const dateStr = dateElement
-            ? dateElement.textContent.trim().replace(/\./g, '-')
-            : null;
-          const aElement = post.querySelector('a');
-          const href = aElement ? aElement.getAttribute('href') : '';
-          const fileName = href ? href.split('/').pop() : '';
+        processedPosts = filteredPosts
+          .map(post => {
+            const dateElement = post.querySelector('.date');
+            const dateStr = dateElement ? dateElement.textContent.trim().replace(/\./g, '-') : null;
+            const aElement = post.querySelector('a');
+            const href = aElement ? aElement.getAttribute('href') : '';
+            const fileName = href ? href.split('/').pop() : '';
 
-
-          return {
-            element: post,
-            date: dateStr ? new Date(dateStr) : null,
-            fileName: fileName
-          };
-        }).filter(item => item.date);
-
-        // Sort the posts in descending date, then by filename
-        postArray.sort((a, b) => {
+            return {
+              element: post,
+              date: dateStr ? new Date(dateStr) : null,
+              fileName: fileName
+            };
+          })
+          .filter(item => item.date)
+          .sort((a, b) => {
             const dateComparison = b.date - a.date;
             if (dateComparison !== 0) {
-                return dateComparison;
+              return dateComparison;
             }
             return a.fileName.localeCompare(b.fileName);
-        });
-        processedPosts = postArray;
+          });
       }
 
       // Clear existing list
@@ -250,7 +169,6 @@ layout: page
 
     // Event listener for dropdown changes
     sortSelect.addEventListener('change', function () {
-      // updatePosts();
       localStorage.setItem('sortOption', sortSelect.value);
       window.location.href = window.location.pathname + '?sort=' + sortSelect.value;
     });
