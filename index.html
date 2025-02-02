@@ -10,9 +10,9 @@ layout: page
   </span>
   <select id="sort-select">
     <option value="author-picks|all">Picks</option>
-    <option value="date-desc|all" selected>All</option>
+    <option value="date-desc|all">All</option>
     <option value="date-desc|original">Original</option>    
-    <option value="date-desc|en">English</option>
+    <option value="date-desc|en" selected>English</option>
     <option value="date-desc|zh">中文</option>
     <option value="date-desc|ja">日本語</option>
     <option value="date-desc|es">Español</option>
@@ -178,7 +178,7 @@ layout: page
     if (savedSort) {
       sortSelect.value = savedSort;
     } else {
-      sortSelect.value = 'date-desc|original';
+      sortSelect.value = 'date-desc|en';
     }
     updatePosts();
   });
