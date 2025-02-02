@@ -2,11 +2,9 @@
 audio: false
 lang: en
 layout: post
-title: LZAlbum
+title: 'LZAlbum: An iOS Photo Album Implementation'
 translated: false
 ---
-
-
 
 This is the README.md from github project [https://github.com/lzwjava/LZAlbum](https://github.com/lzwjava/LZAlbum).
 
