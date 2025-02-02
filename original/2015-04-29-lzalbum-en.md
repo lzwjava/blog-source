@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: LZAlbum
+title: "LZAlbum: An iOS Photo Album Implementation"
 translated: false
 ---
 
