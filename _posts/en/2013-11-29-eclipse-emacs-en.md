@@ -6,6 +6,10 @@ title: Transforming Eclipse into Emacs
 translated: false
 ---
 
+This post was originally written in Chinese and published on CSDN.
+
+---
+
 As an Emacs user for half a year, I simply cannot imagine how I used to code, moving my hands away from the standard position to click the mouse or press the arrow keys without feeling it was cumbersome and unbearable. Now, when I tell my friends that I've set up Alt+P and Alt+N shortcuts to quickly switch between XML files and the Graphical Layout, their response is just "okay," implying that using the mouse to switch is also fine.
 For me, that's a nightmare; it's just not fast enough! If you're an Emacs user, you understand...
 
