@@ -6,178 +6,179 @@ title: Chemielehrer-Zitate
 translated: true
 ---
 
-Dieser Artikel dient ausschließlich dazu, Herrn Wu zu loben (weil er immer „…di“ sagt, zum Beispiel „gut di“, daher nennen wir ihn scherzhaft „Bruder Di“ - ein Spitzname für unseren geliebten Chemielehrer).
+Dieser Artikel dient ausschließlich dazu, Herrn Wu zu loben (denn er sagt immer „…di“, zum Beispiel „good di“, daher nennen wir den Lehrer scherzhaft „Bruder Di“ – ein Spitzname für unseren geliebten Chemielehrer).
 
 ---
 
-Das ist richtig (liǎo)! (Bruder Dis zahllose zärtliche Bestätigungen an uns!)
+Richtig (liǎo)! (Bruder Dis unzählige liebevolle Bestätigungen an uns!)
 
 Elektronen sind extrem klein. (Eine sehr genaue Beschreibung!)
 
-(Eine weibliche Mitschülerin hatte das Glück, auf die Bühne gerufen zu werden, um eine chemische Gleichung zu schreiben. Sie war ein wenig durcheinander, während sie schrieb, aber nach Bruder Dis Anleitung schrieb sie sie schließlich korrekt.) Dann sagte Bruder Di: „Das ist richtig (liǎo), bitte setzen Sie sich.“ (Zu dieser Zeit sahen wir auf den Boden des Podiums.)
+(Eine Mitschülerin hatte das Glück, auf die Bühne gerufen zu werden, um eine chemische Gleichung zu schreiben. Sie war etwas verwirrt beim Schreiben, aber nach Bruder Dis Anleitung schrieb sie sie schließlich richtig.) Dann sagte Bruder Di: „Richtig (liǎo), bitte setzen Sie sich.“ (Zu diesem Zeitpunkt sahen wir auf den Boden des Podiums.)
 
-Ich habe damals einen Führerschein gemacht, hauptsächlich um Fahrrad zu fahren. (Unglaublich, die Verkehrsgesetze waren damals so umfassend - man brauchte einen Führerschein, um Fahrrad zu fahren!)
+Ich habe damals den Führerschein gemacht, hauptsächlich um Fahrrad zu fahren. (Unerwarteterweise waren die Verkehrsgesetze damals so umfassend – man brauchte eine Genehmigung, um Fahrrad zu fahren!)
 
-Das... was? (Bruder Dis klassischen Satz, um ihm beim Nachdenken zu helfen!)
+Das... was? (Bruder Dis klassischer Ausspruch, um ihm beim Nachdenken zu helfen!)
 
-Ein Schüler machte Notizen, und Bruder Di sagte plötzlich: „Schreib nicht, was schreibst du!“ (In meinem Leben ist das das erste Mal, dass ich einen Lehrer getroffen habe, der sich stark gegen Schülernotizen aussprach! Selten! Rührend!)
+Ein Schüler machte sich Notizen, und plötzlich sagte Bruder Di: „Schreiben Sie nicht, was schreiben Sie da!“ (In meinem Leben bin ich das erste Mal auf einen Lehrer gestoßen, der stark gegen das Notieren von Schülern ist! Selten! Rührend!)
 
-Eines Tages kam Bruder Di früh, und meine Mitschüler und ich schlugen vor, den Unterricht eine Minute oder zwei früher zu beginnen. Unglaublicherweise...
-- Lehrer, lassen Sie uns den Unterricht früher beginnen.
-- Da ihr es stark fordert, dann okay. (orz... verehren)
+Eines Tages kam Bruder Di früh, und meine Mitschüler und ich schlugen vor, eine Minute oder zwei früher mit dem Unterricht zu beginnen. Unerwarteterweise...
 
-Es ist zerquetscht. (Die Mundmuskeln von Bruder Di sprechen das Wort „zerquetscht“ sehr genau aus!)
+- Lehrer, lass uns früher anfangen.
+- Da Sie es sehr anfordern, dann okay. (orz... Anbetung)
 
-(Überprüfung von Multiple-Choice-Fragen) Ist es „bo“ oder C? (In diesen Tagen ist es selten, B als „bo“ auszusprechen. Bruder Di ist einzigartig!)
+Es ist zerquetscht. (Bruder Dis Mundmuskulatur spricht das Wort „zerquetscht“ sehr genau aus!)
 
-(Über die Reihenfolge, in der zwei Substanzen erzeugt werden, machte Bruder Di eine erstaunliche Analogie) Es ist egal, ob das Huhn zuerst oder das Ei zuerst kam, wichtig ist, dass sowohl das Huhn als auch das Ei gegessen werden können. (Bruder Dis Original!)
+(Musterlösungen) Ist es „bo“ oder C? (In dieser Zeit ist es selten, B als „bo“ auszusprechen. Bruder Di ist einzigartig!)
 
-Haier-Computer, ein Schritt an seinem Platz! (Wir können nur über unsere Unwissenheit seufzen!)
+(Über die Reihenfolge, in der zwei Substanzen produziert werden, macht Bruder Di eine unglaubliche Analogie) Es ist egal, ob zuerst das Huhn oder das Ei kam, wichtig ist, dass beide, das Huhn und das Ei, gegessen werden können. (Bruder Dis Original!)
 
-Bruder Di konnte den Zeigestock im Unterricht nicht finden, und er konnte auch den Lineal nicht finden. Er fragte: „Wo ist das Lineal?“
-„Ist ein Stock in Ordnung?“ fragte ein Schüler.
-„Okay, bring ihn hierher.“ (Okay, der Hundeprügel ist mein Tribut!)
+Haier-Computer, ein Schritt in die richtige Richtung! (Wir können nur über unsere Unwissenheit seufzen!)
 
-Der Lehrer schrieb an der Spitze der Tafel, und zu diesem Zeitpunkt sagte er besonders besorgt: „Wer ist heute im Dienst? Wird es Ihre Arbeit beeinträchtigen?“
+Bruder Di konnte den Zeigestock im Unterricht nicht finden, und er konnte auch das Lineal nicht finden. Er fragte: „Wo ist das Lineal?“
+„Ein Stock reicht?“, fragte ein Schüler.
+„Okay, bring ihn her.“ (Okay, der Hundeschlagstock ist mein Tribut!)
+
+Der Lehrer schrieb oben auf die Tafel, und zu dieser Zeit sagte er besonders sacht: „Wer ist heute im Dienst? Wird es Ihre Arbeit beeinträchtigen?“
 
 (Erklärung einer Frage)
 Bruder Di: Die Wertigkeit von Schwefel ist +6.
 Schüler A: Andy Lau?
 (Offensichtlich hat auch Andy Lau eine Wertigkeit!)
 
-(In einer Stunde gab ein Schüler seine Meinung bekannt) Sprechen Sie etwas langsamer, ich habe noch nicht reagiert. (Unglaublicherweise sprach Bruder Di normalerweise sehr schnell, aber seine Reaktion war sehr langsam)
+(In einer Stunde äußerte ein Schüler seine Meinung) Sprechen Sie ein wenig langsamer, ich habe noch nicht reagiert. (Unerwarteterweise hält Bruder Di normalerweise sehr schnell eine Vorlesung, aber seine Reaktion ist sehr langsam)
 
-(Bruder Di rief nacheinander Leute auf, Fragen zu beantworten)
-Bruder Di: Was wählst du?
+(Bruder Di rief Menschen auf, Fragen nacheinander zu beantworten)
+Bruder Di: Was wählen Sie?
 Schüler A: Ich habe es nicht gemacht.
-Bruder Di: Du bleibst dort, nächster.
-Schüler B stand auf und antwortete: Ich weiß nicht, wie man es macht.
-Bruder Di lächelte leicht: Bitte setzen Sie sich. (Wir alle fühlten tiefes Mitgefühl für Schüler A!)
+Bruder Di: Du stehst dort, der Nächste.
+Schüler B stand auf und antwortete: Ich weiß nicht, wie man das macht.
+Bruder Di lächelte leicht: Bitte setzen Sie sich. (Wir fühlten alle tiefes Mitgefühl für Schüler A!)
 
 (Bruder Di benutzte den Projektor, er bewegte verzweifelt das Papier, sah auf den Bildschirm und sagte) Warum bewegt es sich immer? (Schockierend!)
 
-(Ein Schüler beendete die Beantwortung einer Frage) Bruder Di: Falsch... nun, es ist ein wenig richtig. (In der Welt gibt es nicht nur richtig und falsch!)
+(Ein Schüler beantwortete eine Frage) Bruder Di: Falsch... nun, es ist ein bisschen richtig. (Es gibt in der Welt nicht nur richtig und falsch!)
 
-(Über ein Chemieexperiment) Ich pumpte verzweifelt Kohlendioxid in die Lösung, ich pumpte es verzweifelt... (Bruder Dis Leidenschaft war nicht vorbei!)
+(Über ein Chemieexperiment) Ich ließ verzweifelt Kohlendioxid in die Lösung strömen, ich ließ es... (Bruder Dis Leidenschaft war nicht vorbei!)
 
-(Bruder Di will eine Analogie machen) Du gehst in den Supermarkt, du willst eine Flasche eisgekühlten roten Tee kaufen. (In welchen Supermarkt geht Bruder Di, der tatsächlich eisgekühlten roten Tee verkauft!)
+(Bruder Di will ein Gleichnis machen) Sie gehen in den Supermarkt, Sie möchten eine Flasche gekühlten roten Tee kaufen. (In welchen Supermarkt geht Bruder Di, dass er gekühlten roten Tee verkauft!)
 
-Bruder Di kritisierte die Antwort eines Schülers heftig, und später war er ein wenig verlegen, lächelte und sagte: Ist das nicht, um deine Fähigkeit zu kultivieren, Schläge auszuhalten? (Fantastisch!)
+Bruder Di kritisierte die Antwort eines Schülers heftig, und später war er ein wenig verlegen, lächelte und sagte: Ist das nicht, um Ihre Fähigkeit zu ertragen zu kultivieren? (Unglaublich!)
 
-(Bruder Dis berühmtes Sprichwort) Bescheidenheit macht Menschen arrogant, was gibt es da, arrogant zu sein... (Ein Satz, der sich zu überlegen lohnt!)
+(Bruder Dis berühmter Ausspruch) Bescheidenheit lässt Menschen arrogant werden, was gibt es da arrogant zu sein... (Ein Satz, der es wert ist, darüber nachzudenken!)
 
-(Compulsory 1, P88, Frage 11, eine Übungsfrage) Es kam zu einem unabsichtlichen Austritt eines giftigen Gases in einer Chemiefabrik an einem bestimmten Ort. Frage: Warum sollten Menschen in Windrichtung evakuiert werden?
-Bruder Dis Antwort: Um zu vermeiden, dass man von dem giftigen Gas im Wind bedeckt wird. (So lebendig!)
+(Zwangsmaßnahme 1, S. 88, Frage 11, eine Übungsfrage) In einer bestimmten chemischen Fabrik kam es zu einem unabsichtlichen Austritt eines giftigen Gases. Frage: Warum sollten Menschen in Windrichtung evakuiert werden?
+Bruder Dis Antwort: Um zu vermeiden, dass man vom Wind mit giftigem Gas bedeckt wird. (So lebhaft!)
 
-(Über die Stabilität einer Substanz, die sich nicht durch die Umgebung ändert, machte Bruder Di eine kleine Analogie) Der in Guangdong hergestellte „Tiandi Nr. 1“ kann auch in Peking getrunken werden!
+(Über die Stabilität einer Substanz, die sich durch die Umwelt nicht ändert, machte Bruder Di ein kleines Gleichnis) Das „Tiandi No. 1“, das in Guangdong hergestellt wird, kann auch in Peking getrunken werden!
 
-(Machte eine erstaunliche Analogie) Was hat es für einen Sinn, mir deine Größe zu sagen, wenn ich dich nach deinem Alter frage!
+(Machte ein unglaubliches Gleichnis) Was hat es für einen Sinn, mir Ihre Größe zu sagen, wenn ich Sie nach Ihrem Alter frage!
 
-Heute wird der Vortrag offensichtlich nicht beendet, offensichtlich wird er nicht beendet. (Das Wort „offensichtlich“ wird von Bruder Di mit großem Geschick verwendet!)
+Heute wird die Vorlesung nicht zu Ende sein, offensichtlich wird sie nicht zu Ende sein. (Das Wort „offensichtlich“ wird von Bruder Di mit großem Geschick verwendet!)
 
-Erdölmoguln, Telekommunikationsmoguln, Damenbindenmöguln... (Hervorragende Beispiele!)
+Petroleumbarone, Telekommunikationsbarone, Damenbindenbarone... (Hervorragende Beispiele!)
 
-(Über die Eigenschaften einer Substanz) Wie begierig darauf, Elektronen zu gewinnen! (Bruder Di, ein wahrer Meister der Sprache!)
+(Über die Eigenschaften einer Substanz) Wie sehr sie Elektronen gewinnen möchte! (Bruder Di, ein wahrer Meister der Sprache!)
 
-(Über die Unmöglichkeit, dass zwei Substanzen koexistieren) Ist das nicht die „zwei Tiger“-Theorie? Entweder gibt es Tiger A oder es gibt Tiger B, wie können sie gleichzeitig koexistieren! (Bruder Di, der Gründer der „zwei Tiger“-Theorie!)
+(Über zwei Substanzen, die nicht zusammen existieren können) Ist das nicht die „zwei Tiger“-Theorie? Entweder gibt es Tiger A oder Tiger B, wie können sie gleichzeitig koexistieren! (Bruder Di, der Begründer der „zwei Tiger“-Theorie!)
 
-(Bruder Di sagte „zwei Tiger“, wir alle sagten „zwei Tiger“, er sah, dass die Situation nicht gut war, also sagte er) Zwei Tiger, zwei Tiger, es ist egal, was wichtig ist, ist Frage sechs.
+(Bruder Di sagte „zwei Tiger“, wir sagten alle „zwei Tiger“, er sah, dass die Situation nicht gut war, also sagte er) Zwei Tiger, zwei Tiger, es ist egal, was wichtig ist, ist Frage sechs.
 
-(Ein Schüler sagte, dass ein Lappen...) Du kannst, wenn du Zeit hast, zu Hause mit einem Lappen Marmor schneiden. (Aus welchem Material ist dieser Lappen gemacht, so mächtig!)
+(Ein Schüler sagte, dass ein Lumpen...) Du kannst, wenn du Zeit hast, zu Hause einen Lumpen nehmen und Marmor schneiden. (Aus welchem Material besteht dieser Lumpen, so mächtig!)
 
-Okay? Okay (dī)! (Manchmal muss Bruder Di sich selbst fragen und beantworten, um ihm beim Nachdenken zu helfen.)
+Okay? Okay (dī)! (Manchmal muss Bruder Di sich selbst Fragen stellen, um ihm beim Nachdenken zu helfen.)
 
-Wie wäre es mit einer kleinen Spielregel? Wenn du die Gleichung nicht schreiben kannst, musst du für eine kurze Stunde stehen. (Die Spielregeln sind tatsächlich klein!)
+Wie wäre es mit einer kleinen Spielregel? Wenn Sie die Gleichung nicht schreiben können, müssen Sie für eine kurze Stunde stehen. (Die Spielregeln sind tatsächlich klein!)
 
-Nicht kleinlich (cì)... (Bruder Dis Linie, wenn ihm die Ideen ausgehen)
+Machen Sie keine Haarspalterei (cì)... (Bruder Dis Zeile, wenn ihm die Ideen ausgehen)
 
-Schwaches, weiches Filterpapier... (Adjektivmeister Bruder Di!)
+Schwaches, weiches Filterpapier... (Bruder Di, Meister der Adjektive!)
 
-Hast du diesen Kamelien... Film oder so gesehen? (Wenn ich ihn nicht gesehen hätte, hätte ich gedacht, es wäre „Die Liebe des Kamelienbaums!“!) (Bruder Di möchte ein Beispiel geben)
+Haben Sie diesen Kamelien... Film oder so was gesehen? (Wenn ich ihn nicht gesehen hätte, hätte ich gedacht, es wäre „Die Liebe des Kamelienbaums“!) (Bruder Di will ein Beispiel geben)
 
-- Was ich esse, ist eine gedämpfte Brötchen, was kommt heraus?
-- „Furz!“ Mehrere Schüler antworteten dem Lehrer einstimmig, und dann applaudierten alle einstimmig!
+- Was ich esse, ist ein gedämpftes Brötchen, was kommt heraus?
+- „Furz!“ Mehrere Schüler antworteten dem Lehrer gleichzeitig, und dann applaudierten alle im Chor!
 
-Mit einem Aluminiumtopf kochen verursacht Demenz, und ich bin fast in diesem Zustand. (Bruder Di hörte endlich auf, sich zu brüsten!)
+Mit einem Aluminiumtopf zu kochen, führt zu Demenz und ich bin fast in diesem Zustand. (Bruder Di hörte endlich auf zu prahlen!)
 
-Ich werde dich unerwartet überprüfen. (Ein bisschen gruselig)
+Ich werde Sie überraschend überprüfen. (Ein bisschen beängstigend)
 
-Absorbieren von Wärme... sei nicht überrascht. (Wir waren nie überrascht!)
+Wärme absorbieren... seien Sie nicht überrascht. (Wir wurden nie überrascht!)
 
-- Filterpapier hat Löcher, kannst du das akzeptieren?
+- Filterpapier hat Löcher, können Sie das akzeptieren?
 - Ja.
 - Ihr seid nicht einfach, ihr könnt alle verstehen!
-(Bruder Di, es ist nicht einfach, dass ihr „wir können akzeptieren, dass Filterpapier Löcher hat“ akzeptiert!)
+(Bruder Di, es ist nicht einfach, dass ihr „wir können akzeptieren, dass Filterpapier Löcher hat“ akzeptieren könnt!)
 
-(Bruder Di hat halb weißes Haar, Herr Qiu hat ein volles Haupt schwarzes Haar, es ist offensichtlich, wer älter ist, aber Bruder Di sagte...) Ihr seid so glücklich in dieser Ära. Wir hatten in unserer Ära keine Spielzeuge zum Spielen, geschweige denn in Herrn Qius Ära. (Herr Qiu hat etwas zu sagen!)
+(Bruder Di hat zur Hälfte weißes Haar, Herr Qiu hat eine volle Kopfbedeckung aus schwarzem Haar, es ist offensichtlich, wer älter ist, aber Bruder Di sagte...) Ihr seid so glücklich in dieser Ära. Wir hatten in unserer Ära keine Spielzeuge zum Spielen, geschweige denn in Herrn Qius Ära. (Herr Qiu hat etwas zu sagen!)
 
-Wenn du 1g Salz nimmst, ist es Salzlösung, wenn du 2g Salz nimmst, ist es auch Salzlösung. Richtig? Wenn du ein Stück Knochen nimmst, ist es Knochenbrühe; wenn du zwei Stücke Knochen nimmst, ist es immer noch Knochenbrühe! (Fantastische Analogie!)
+Wenn Sie 1g Salz nehmen, ist es Salzlösung, wenn Sie 2g Salz nehmen, ist es auch Salzlösung. Richtig? Wenn Sie ein Stück Knochen nehmen, ist es Knochensuppe; wenn Sie zwei Knochenstücke nehmen, ist es immer noch Knochensuppe! (Unglaubliche Analogie!)
 
-Sauerstoff nutzt die Schwäche aus, es hat darauf gewartet! (Wie lebendig!)
+Sauerstoff nutzt die Schwäche aus, es wartet darauf! (Wie lebhaft!)
 
-Der Bösewicht beschwert sich zuerst, der Bösewicht hat immer einen Grund. (Die Wahrheit, wie von Bruder Di zusammengefasst!)
+Der Schurke reicht zuerst eine Beschwerde ein, der Schurke hat immer einen Grund. (Die Wahrheit, die von Bruder Di zusammengefasst wird!)
 
-Handys können tatsächlich das Internet nutzen? (Als er das sagte, stand sein Mund weit offen!)
+Handys können tatsächlich auf das Internet zugreifen? (Als er das sagte, war sein Mund weit offen!)
 
-Wer ist der majestätischste? Schau mich an und du wirst es wissen. (Schließlich ist Bruder Di 1,8 Meter groß, er hat das Kapital, das zu sagen!)
+Wer ist der majestätischste? Schau mich an und du wirst es wissen. (Immerhin ist Bruder Di 1,8 Meter groß, er hat das Kapital, das zu sagen!)
 
-Frage 4 ist ein bisschen schwierig. (Von da an wurden Sätze mit „ein bisschen“ als Attribut populär!)
+Frage 4 ist ein bisschen schwierig. (Seitdem wurden Sätze mit „ein bisschen“ als Attribut populär!)
 
-(Häufig seufzt er im Unterricht) Schüler, ah, Schüler, ah.
+(Seufzt oft im Unterricht) Schüler, ah, Schüler, ah.
 
 6,0 nur Gramm. (Ist das nicht 6,0gg! Bruder Di, begabt!)
 
-Mach die folgenden Fragen überhaupt nicht! (Ist es falsch, die Fragen im Voraus zu machen?! Was hat Bruder Di vor?)
+Die folgenden Fragen sollten überhaupt nicht gemacht werden! (Ist es falsch, die Fragen im Voraus zu machen?! Was hat Bruder Di vor?)
 
-(Über die Lösung einer Frage) Offensichtlich ist dieser Weg gesperrt, wir können nur einen anderen Weg finden. (Wie Holz hacken!)
+(Über die Lösung einer Frage) Offensichtlich ist dieser Weg blockiert, wir müssen einen anderen Weg finden. (Wie Holz hacken!)
 
-Kupferionen töteten die Hydroxidionen. (Kupferionen sind so schlecht!)
+Kupferionen haben die Hydroxidionen getötet. (Kupferionen sind so böse!)
 
-Du musst die Dinge zuerst richtig machen und dann das Richtige tun. (Bruder Dis Lebenszusammenfassung, die unser tiefes Nachdenken wert ist!)
+Sie müssen zuerst die Dinge richtig machen, und dann die richtigen Dinge machen. (Bruder Dis Lebenszusammenfassung, die tiefes Nachdenken verdient!)
 
-(Ein schockierendes Beispiel. Herr Qiu ist unser geliebter Klassenlehrer) Herr Qiu trank einige Flaschen Bier und rülpste heftig.
+(Ein schockierendes Beispiel. Herr Qiu ist unser geliebter Klassenlehrer) Herr Qiu trank ein paar Flaschen Bier und rülpste heftig.
 
-Unbestritten di. (Bruder Di verwendet Sprichwörter mühelos!)
+Unbestrittene di. (Bruder Di verwendet Redewendungen mit Leichtigkeit!)
 
-(Mit einem Mitschüler im Privaten scherzen) Damals war Bruder Di gutaussehend und wohlbehalten!
+(Witzelte mit meinem Banknachbarn privat) Damals war Bruder Di gutaussehend und wohlbehalten!
 
-Ich sagte zu meinem Mitschüler: Chemie ist das emotionale Medium zwischen dir und Bruder Di. (Chemie wurde sofort zum Kuppler!)
+Ich sagte zu meinem Banknachbarn: Chemie ist das emotionale Medium zwischen dir und Bruder Di. (Chemie wurde sofort zum Kuppler!)
 
 Ein Reduktionsmittel hat reduzierende Eigenschaften, ein starker Mann hat starke Eigenschaften. (Gute Analogie!)
 
 Verwirrt, verwirrt. (Ein tiefer Ton!)
 
-Um CO2 loszuwerden, ist Ca(OH)2 machtlos. (Kalziumhydroxid hat in Bruder Dis Augen Vitalität!)
+Um CO2 zu entfernen, ist Ca(OH)2 machtlos. (Calciumhydroxid hat in Bruder Dis Augen Vitalität!)
 
-Nachdem ein Schüler eine Frage beantwortet hatte, kommentierte Bruder Di: Es ist wie der Kopf eines Esels, der nicht zu dem Maul eines Pferdes passt. (Nicht nur gibt es „ein Kuhkopf passt nicht zu einem Pferdepferd“, sondern auch „ein Eselskopf passt nicht zu einem Pferdepferd“! Es existiert tatsächlich, wenn du mir nicht glaubst, suche es auf Baidu)
+Nachdem ein Schüler eine Frage beantwortet hatte, kommentierte Bruder Di: Es ist wie ein Eselskopf, der nicht zu einem Pferdemund passt. (Nicht nur gibt es „ein Kuhkopf, der nicht zu einem Pferdemund passt“, sondern auch „ein Eselskopf, der nicht zu einem Pferdemund passt“! Es existiert wirklich, wenn du mir nicht glaubst, gehe und suche es auf Baidu)
 
-Bruder Di arbeitete an einer PPT und fand heraus, dass eine Textzeile auf dem Dia fehlte. Er kopierte die fehlende Zeile aus dem vorherigen Dia, fügte sie ein und sagte: Erstaunlich, oder. (Ja, Bruder Di, du bist erstaunlich! Du kennst dich sogar mit Kopieren aus!)
+Bruder Di arbeitete an einer PPT und fand heraus, dass eine Zeile Text vom Dia verschwunden war. Er kopierte die fehlende Zeile Text vom vorherigen Dia, fügte sie ein und sagte: Unglaublich, oder. (Ja, Bruder Di, du bist unglaublich! Du kennst sogar das Kopieren!)
 
-(Bruder Di rief einen Schüler auf) „Du sagst, ich gebe dir eine Chance“ (Machend, dass wir darauf brennen, Fragen zu beantworten!)
+(Bruder Di rief einen Schüler auf) „Du sagst es, ich gebe dir eine Chance“ (Machend uns begierig, Fragen zu beantworten!)
 
-Schüler, ah! (Bruder Di war zu liebenswürdig und machte ein schmerzhaftes Geräusch!)
+Schüler, ah! (Bruder Di war zu liebevoll und machte ein schmerzhaftes Geräusch!)
 
 Rein, wer mag nicht rein? (Bruder Di, gut gemacht! Du hast die Stimme von uns Männern gesprochen!)
 
-Wofür ist CaCO3 gut? Es gibt davon viel auf den Bergen! (Okay, ich werde dieses Gemeinwissen ab jetzt im Gedächtnis behalten!)
+Wofür ist CaCO3 gut? Es gibt viel davon auf den Bergen! (Okay, ich werde dieses Allgemeinwissen von jetzt an erinnern!)
 
-Als Lehrer verkaufe ich Wissen und Kultur. (Lass das Wissen und die Kultur so erscheinen, wie die Instantnudeln, die vor einigen Jahren im Yuyan-Dormitory verkauft wurden!)
+Als Lehrer verkaufe ich Wissen und Kultur. (Können Wissen und Kultur so wie die Instantnudeln, die vor ein paar Jahren in der Yuyan-Unterkunft verkauft wurden, gemacht werden!)
 
-(Ein Schüler antwortete, welche Wertigkeiten Schwefel hat, und als er positiv zwei erwähnte, machte Bruder Di eine große Wette!) Bruder Di sagte: Hat Schwefel eine positive Zwei-Wertigkeit? Wenn du es findest, lade ich dich im Mensa zum Mittagessen ein... kostenloser Suppe. (Wie großzügig Bruder Di ist!)
+(Ein Schüler antwortete, welche Wertigkeiten Schwefel hat, und als er positiv zwei erwähnte, machte Bruder Di eine große Wette!) Bruder Di sagte: Hat Schwefel eine positive Zwei-Wertigkeit? Wenn Sie es finden, lade ich Sie zum Mittagessen in der Cafeteria ein... kostenlose Suppe. (Wie großzügig Bruder Di ist!)
 
 Das Problem ist groß! (Das nennt man Leidenschaft!)
 
-Ist es xǔe weiß oder xǐe weiß, ist es xǔe oder xǐe? (Bruder Dis Haltung zur chinesischen Aussprache ist Perfektion!)
+Ist es xǔe weiß oder xǐe weiß, ist es xǔe oder xǐe? (Bruder Dis Einstellung zur chinesischen Aussprache ist Perfektion!)
 
-(Nach dem Sportunterricht folgte der Chemieunterricht, und Bruder Di wollte eine Analogie machen)
-- Dieser Schüler, du verwendest Papier, um deinen Schweiß abzuwischen.
-Ein anderer Schüler: Lehrer, dann was verwendest du, um dich nach dem Essen abzuwischen?
+(Nach dem Sportunterricht folgte der Chemieunterricht, und Bruder Di war gerade dabei, ein Gleichnis zu machen)
+- Dieser Schüler, du benutzt Papier, um deinen Schweiß abzuwischen.
+Anderer Schüler: Lehrer, dann was verwenden Sie, um nach dem Essen abzuwischen?
 Bruder Di: Ich wische nie. (Mit einem leichten Lächeln)
 
-Soda ist alkalisch, nicht dass die Alkalität sehr rein ist. (Eine großartige Erklärung!)
+Soda ist alkalisch, nicht dass die Alkalität sehr rein ist. (Eine große Erklärung!)
 
-Meine Statur ist sehr majestätisch, sehr stark. (Bruder Di ist tatsächlich manchmal sehr selbstzufrieden.)
+Mein Körperbau ist sehr majestätisch, sehr stark. (Bruder Di ist manchmal sehr selbstzufrieden.)
 
-(Das Öl in der Yuyan-Mensa war immer berühmt, und Bruder Di hat auch eine wunderbare Beschreibung) Heute ist die Suppe in der Mensa eine dünne Winterkürbissuppe, und die Schicht aus Öl oben drauf. (Seufzend mit anhaltender Zuneigung)
+(Das Öl in der Yuyan-Cafeteria war immer berühmt, und auch Bruder Di hat eine wunderbare Beschreibung) Heute ist die Suppe in der Cafeteria eine dünne Winterkürbissuppe, und die Schicht Öl oben drauf. (Seufzend mit bleibender Zuneigung)
 
-(Fortsetzung im nächsten Jahr)
+(Bis nächstes Jahr fortzusetzen)
