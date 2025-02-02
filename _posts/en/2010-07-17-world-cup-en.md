@@ -6,8 +6,6 @@ title: Yesterday's World Cup
 translated: false
 ---
 
-
-
 This post was originally written in Chinese and published on Qzone.
 
 ---
