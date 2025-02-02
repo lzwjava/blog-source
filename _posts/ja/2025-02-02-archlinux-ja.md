@@ -2,18 +2,18 @@
 audio: false
 lang: ja
 layout: post
-title: Arch Linuxのインストール
+title: Arch Linux のインストール
 translated: true
 ---
 
-レノボ 小星 14IAH8 ラップトップ。
+Lenovo Xiaoxing 14IAH8 ノートブック。
 
 ```bash
 $ diskutil list
 ```
 
 > /dev/disk6 (外部、物理):
->   #:                       タイプ 名前                    サイズ      IDENTIFIER
+>   #:                       TYPE NAME                    SIZE       IDENTIFIER
 >   0:     FDisk_partition_scheme                        *30.8 GB    disk6
 >   1:             Windows_FAT_32 NO NAME                 30.8 GB    disk6s1
 
@@ -21,7 +21,9 @@ $ diskutil list
 % diskutil unmountDisk /dev/disk6
 ```
 
-> disk6のアンマウントに失敗: 少なくとも一つのボリュームがアンマウントできませんでした。アンマウントはPID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores)によって拒否されました。ディセンターの親PPID 1 (/sbin/launchd)。
+> disk6 のアンマウントに失敗しました: 少なくとも一つのボリュームをアンマウントできませんでした。
+> アンマウントは PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores) によって拒否されました。
+> 拒否者の親 PPID 1 (/sbin/launchd)。
 
 ```bash
 % diskutil unmountDisk force /dev/disk6
@@ -30,14 +32,14 @@ $ diskutil list
 ```bash
 sudo dd if=archlinux-2025.02.01-x86_64.iso of=/dev/rdisk6 bs=1m
 
-1179+1 records in
-1179+1 records out
-1236303872 bytes transferred in 46.777995 secs (26429176 bytes/sec)
+1179+1 レコード入力
+1179+1 レコード出力
+1236303872 byte 46.777995 秒で転送 (26429176 byte/sec)
 ```
 
-USBドライブは現在のセキュリティポリシーによってロックされています。
+USB ドライブは現在のセキュリティポリシーによってロックされています。
 
-F2を押してBIOSに入り、Secure Bootを無効にしてください。
+F2 を押して BIOS に入り、Secure Boot を無効にしてください。
 
 ```bash
 ip link
@@ -49,3 +51,5 @@ station wlan0 connect SSID
 ping archlinux.org
 timedatectl
 ```
+
+何らかの理由で、Ubuntu をインストールすることにしました。

@@ -21,9 +21,9 @@ $ diskutil list
 % diskutil unmountDisk /dev/disk6
 ```
 
-> Das Abmelden von disk6 ist fehlgeschlagen: mindestens ein Volumen konnte nicht abgekoppelt werden.
-> Die Abmeldung wurde von PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores) abgelehnt.
-> Elternprozess PID 1 (/sbin/launchd).
+> Das Abmelden von disk6 ist fehlgeschlagen: Mindestens ein Volume konnte nicht abgemeldet werden.
+> Das Abmelden wurde von PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores) abgelehnt.
+> Eltern PPID 1 (/sbin/launchd).
 
 ```bash
 % diskutil unmountDisk force /dev/disk6
@@ -37,9 +37,9 @@ sudo dd if=archlinux-2025.02.01-x86_64.iso of=/dev/rdisk6 bs=1m
 1236303872 bytes transferred in 46.777995 secs (26429176 bytes/sec)
 ```
 
-Der USB-Laufwerk ist durch die aktuelle Sicherheitsrichtlinie gesperrt.
+Das USB-Laufwerk ist durch die aktuelle Sicherheitsrichtlinie gesperrt.
 
-Drücken Sie F2, um in das BIOS zu gelangen und Secure Boot zu deaktivieren.
+Drücken Sie F2, um das BIOS zu betreten und Secure Boot zu deaktivieren.
 
 ```bash
 ip link
@@ -51,3 +51,5 @@ station wlan0 connect SSID
 ping archlinux.org
 timedatectl
 ```
+
+Aus irgendeinem Grund entschied ich mich, Ubuntu zu installieren.

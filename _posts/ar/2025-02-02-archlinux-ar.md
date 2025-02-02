@@ -6,7 +6,7 @@ title: تثبيت أرش لينكس
 translated: true
 ---
 
-Lenovo Xiaoxing 14IAH8 لابتوب.
+Lenovo Xiaoxing 14IAH8 لاب توب.
 
 ```bash
 $ diskutil list
@@ -21,9 +21,9 @@ $ diskutil list
 % diskutil unmountDisk /dev/disk6
 ```
 
-> فشل فك الارتباط من القرص 6: لم يتم فك الارتباط من واحد من الأقراص.
-> تم رفض فك الارتباط بواسطة PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores).
-> والد PID 1 (/sbin/launchd).
+> تم إلغاء تثبيت القرص 6: لا يمكن إلغاء تثبيت واحد على الأقل من الأقراص.
+> تم رفض إلغاء التثبيت من قبل PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores).
+> PPID 1 (/sbin/launchd) للآداة.
 
 ```bash
 % diskutil unmountDisk force /dev/disk6
@@ -32,14 +32,14 @@ $ diskutil list
 ```bash
 sudo dd if=archlinux-2025.02.01-x86_64.iso of=/dev/rdisk6 bs=1m
 
-1179+1 سجلات في
-1179+1 سجلات خارج
-1236303872 بايت نقلت في 46.777995 ثوان (26429176 بايت/ثانية)
+1179+1 records in
+1179+1 records out
+1236303872 bytes transferred in 46.777995 secs (26429176 bytes/sec)
 ```
 
-الوحدة usb مقفلة من قبل الساسة الأمنية الحالية.
+يحتجز القرص USB حاليًا من قبل السياسات الأمنية الحالية.
 
-اضغط على F2 للدخول إلى BIOS وتعطيل التحقق من الأمان.
+اضغط على F2 للدخول إلى BIOS وإلغاء Secure Boot.
 
 ```bash
 ip link
@@ -51,3 +51,5 @@ station wlan0 connect SSID
 ping archlinux.org
 timedatectl
 ```
+
+من أجل سبب ما قررت تثبيت Ubuntu بدلاً من ذلك.

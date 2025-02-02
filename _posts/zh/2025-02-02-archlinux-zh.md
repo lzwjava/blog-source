@@ -2,11 +2,11 @@
 audio: false
 lang: zh
 layout: post
-title: 安装 Arch Linux
+title: 安装Arch Linux
 translated: true
 ---
 
-联想小新 14IAH8 笔记本电脑。
+联想小新14IAH8笔记本电脑。
 
 ```bash
 $ diskutil list
@@ -21,9 +21,9 @@ $ diskutil list
 % diskutil unmountDisk /dev/disk6
 ```
 
-> 卸载 disk6 失败：至少一个卷无法卸载。
-> 卸载被 PID 319 (/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores) 拒绝。
-> 拒绝者父进程 PPID 1 (/sbin/launchd)。
+> 卸载disk6失败：至少有一个卷无法卸载。
+> 卸载被PID 319（/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores）拒绝。
+> 拒绝者的父进程PPID 1（/sbin/launchd）。
 
 ```bash
 % diskutil unmountDisk force /dev/disk6
@@ -39,7 +39,7 @@ sudo dd if=archlinux-2025.02.01-x86_64.iso of=/dev/rdisk6 bs=1m
 
 USB驱动器被当前的安全策略锁定。
 
-按 F2 进入 BIOS 并禁用 Secure Boot。
+按F2进入BIOS并禁用安全启动。
 
 ```bash
 ip link
@@ -51,3 +51,5 @@ station wlan0 connect SSID
 ping archlinux.org
 timedatectl
 ```
+
+不知何故，我决定安装Ubuntu。
