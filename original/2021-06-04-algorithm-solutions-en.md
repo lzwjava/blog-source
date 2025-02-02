@@ -10,6 +10,8 @@ This is the README.md from github project [https://github.com/lzwjava/algorithm-
 
 ---
 
+# Algorithm Problem Solutions
+
 Problem solutions of some algorithm problems from online judge platforms.
 
 | platform | problems solved | 
