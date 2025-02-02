@@ -2,24 +2,24 @@
 audio: false
 lang: de
 layout: post
-title: 2025 Feiertagskalender
+title: 2025-Feiertagskalender
 translated: true
 ---
 
-Ich habe für singapurische und hongkonger Unternehmen gearbeitet und konsultierte KI, um den diesjährigen Feiertagskalender zu erstellen. Derzeit arbeite ich an einem Projekt bei einer Bank und warte auf deren offiziellen Feiertagskalender. Es scheint, dass wir dem Hongkonger Kalender folgen werden. Ich habe auch die US-Feiertage aufgrund meines Interesses an den US-Aktienmärkten aufgenommen.
+Nach der Arbeit für singapurische und hongkongische Unternehmen habe ich KI konsultiert, um den diesjährigen Feiertagskalender zu erstellen. Derzeit nehme ich an einem Projekt bei einer Bank teil und warte auf deren offiziellen Feiertagskalender. Es scheint, dass wir den Hong-Kong-Zeitplan befolgen werden. Ich habe auch die US-Feiertage aufgrund meines Interesses an den US-Aktienmärkten aufgenommen.
 
 ---
 
 ## China
 
-Chinesische staatliche Feiertage für 2025:
+Chinesische Feiertage für 2025:
 
-1. **Neujahr (元旦)**
+1. **Neujahrstag (元旦)**
    - Datum: 1. Januar 2025
    - Dauer: 1 Tag
 
 2. **Frühlingsfest (Chinesisches Neujahr) (春节)**
-   - Datum: 29. Januar - 4. Februar 2025
+   - Datum: 29. Januar – 4. Februar 2025
    - Dauer: 7 Tage
 
 3. **Qingming-Fest (清明节)**
@@ -30,11 +30,11 @@ Chinesische staatliche Feiertage für 2025:
    - Datum: 1. Mai 2025
    - Dauer: 1 Tag
 
-5. **Drachenschiff-Fest (端午节)**
+5. **Drachenbootfest (端午节)**
    - Datum: 6. Juni 2025
    - Dauer: 1 Tag
 
-6. **Mittsommer-Fest (中秋节)**
+6. **Mittherbstfest (中秋节)**
    - Datum: 19. September 2025
    - Dauer: 1 Tag
 
@@ -44,13 +44,13 @@ Chinesische staatliche Feiertage für 2025:
 
 ## Hong Kong
 
-Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025, bei der die Lunar New Year Tage kombiniert wurden:
+Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025 mit den Tagen des Lunar New Year kombiniert:
 
-1. **Der erste Tag des Januar**
+1. **Der erste Tag des Januars**
    - Datum: 1. Januar 2025
 
 2. **Lunar New Year**
-   - Datum: 29. Januar - 1. Februar 2025
+   - Datum: 29. Januar – 1. Februar 2025
    - Dauer: 4 Tage
 
 3. **Ching Ming Festival**
@@ -74,13 +74,13 @@ Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025
 9. **Tuen Ng Festival**
    - Datum: 6. Juni 2025
 
-10. **Feier des Hong Kong Special Administrative Region Establishment Day**
+10. **Feiertag zur Gründung der Sonderverwaltungsregion Hongkong**
     - Datum: 1. Juli 2025
 
-11. **Der Tag nach dem chinesischen Mittsommer-Fest**
+11. **Der Tag nach dem chinesischen Mittherbstfest**
     - Datum: 20. September 2025
 
-12. **Chinesisches Mittsommer-Fest**
+12. **Chinesisches Mittherbstfest**
     - Datum: 21. September 2025
 
 13. **Chung Yeung Festival**
@@ -99,7 +99,7 @@ Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025
 
 Hier ist eine saubere Liste der offiziellen Feiertage Singapurs für 2025:
 
-1. **Neujahr**
+1. **Neujahrstag**
    - Datum: 1. Januar 2025
 
 2. **Chinesisches Neujahr**
@@ -134,7 +134,7 @@ Hier ist eine saubere Liste der offiziellen Feiertage Singapurs für 2025:
 
 Hier ist eine saubere Liste der offiziellen Feiertage der USA für 2025:
 
-1. **Neujahr**
+1. **Neujahrstag**
    - Datum: 1. Januar 2025
 
 2. **Martin Luther King Jr. Day**
@@ -146,7 +146,7 @@ Hier ist eine saubere Liste der offiziellen Feiertage der USA für 2025:
 4. **Memorial Day**
    - Datum: 26. Mai 2025
 
-5. **Juneteenth**
+5. **Junteenth**
    - Datum: 19. Juni 2025
 
 6. **Unabhängigkeitstag**
@@ -161,18 +161,8 @@ Hier ist eine saubere Liste der offiziellen Feiertage der USA für 2025:
 9. **Veterans Day**
    - Datum: 11. November 2025
 
-10. **Thanksgiving Day**
+10. **Erntedankfest**
     - Datum: 27. November 2025
 
 11. **Weihnachten**
     - Datum: 25. Dezember 2025.
-
-## Abbildungen
-
-{: .centered }
-![](assets/images/holiday/holiday_schedule_hk.jpg)
-*Quelle: Selbstgemacht*{: .caption }
-
-{: .centered }
-![](assets/images/holiday/holiday_schedule_hk.jpg)
-*Quelle: Selbstgemacht*{: .caption }
