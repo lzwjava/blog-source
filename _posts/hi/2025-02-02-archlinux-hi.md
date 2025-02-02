@@ -2,7 +2,7 @@
 audio: false
 lang: hi
 layout: post
-title: Arch Linux को स्थापित करना
+title: Arch Linux Install Karna
 translated: true
 ---
 
@@ -35,6 +35,6 @@ sudo dd if=archlinux-2025.02.01-x86_64.iso of=/dev/rdisk6 bs=1m
 1236303872 bytes transferred in 46.777995 secs (26429176 bytes/sec)
 ```
 
-USB ड्राइव को वर्तमान सुरक्षा नीति द्वारा लॉक किया गया है।
+USB ड्राइव को वर्तमान सुरक्षा नीति द्वारा ताला लगाया गया है।
 
-F2 दबाएं BIOS में प्रवेश करने और Secure Boot को निष्क्रिय करें।
+F2 दबाएं BIOS में प्रवेश करने के लिए और Secure Boot को अक्षम करें।
