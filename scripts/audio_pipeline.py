@@ -10,6 +10,7 @@ import tempfile
 import time
 from datetime import datetime
 import argparse
+import yaml
 
 # Fixed output directory
 OUTPUT_DIRECTORY = "assets/audios"
@@ -71,14 +72,14 @@ def split_text(text, max_bytes=3000):
 def text_to_speech(text, output_filename, task, language_code="en-US", dry_run=False):
     if dry_run:
         print(f"Dry run: Would generate audio for file: {output_filename}")
-        return
+        return True
     print(f"Generating audio for: {output_filename}")
     try:
         client = texttospeech.TextToSpeechClient()
         text_chunks = split_text(text)
         if not text_chunks:
             print("No text chunks to process.")
-            return
+            return False
 
         audio_segments = []
         for idx, chunk in enumerate(text_chunks):
@@ -137,7 +138,7 @@ def text_to_speech(text, output_filename, task, language_code="en-US", dry_run=F
                     continue  # Move to the next chunk
                 else:
                     print(f"Error on chunk {idx + 1}: {e}")
-                    raise e
+                    return False
 
             with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as tmp_file:
                 tmp_file.write(response.audio_content)
@@ -153,10 +154,13 @@ def text_to_speech(text, output_filename, task, language_code="en-US", dry_run=F
                 combined += segment
             combined.export(output_filename, format="mp3")
             print(f"Audio content written to {output_filename}")
+            return True
         else:
             print("No audio segments to combine.")
+            return False
     except Exception as e:
         print(f"An error occurred while generating audio for {output_filename}: {e}")
+        return False
 
 
 def md_to_text(md_file):
@@ -164,14 +168,21 @@ def md_to_text(md_file):
     try:
         with open(md_file, 'r', encoding='utf-8') as file:
             md_content = file.read()
-        # Remove front matter (--- ... ---)
-        md_content = re.sub(r'---\n.*?\n---', '', md_content, flags=re.DOTALL)
+        # Extract front matter
+        front_matter = {}
+        if md_content.startswith("---"):
+            _, front_matter_str, md_content = md_content.split("---", 2)
+            try:
+                front_matter = yaml.safe_load(front_matter_str)
+            except yaml.YAMLError as e:
+                print(f"Error parsing front matter: {e}")
+        
         html = markdown.markdown(md_content)
         text = unescape(BeautifulSoup(html, "html.parser").get_text())
-        return text
+        return text, front_matter
     except Exception as e:
         print(f"Error reading or parsing {md_file}: {e}")
-        return ""
+        return "", {}
 
 def get_last_n_files(input_dir, n=10):
     """
@@ -229,7 +240,7 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry
         if os.path.exists(output_filename):
             print(f"Skipping {filename}: {output_filename} already exists.")
             continue
-        article_text = md_to_text(md_file_path)
+        article_text, front_matter = md_to_text(md_file_path)
         if not article_text.strip():
             print(f"Skipping {filename}: No content to convert.")
             continue
@@ -258,15 +269,42 @@ def process_markdown_files(task, input_dir, output_dir, n=10, max_files=100, dry
             elif filename.endswith('-en.md'):
                 language_code = "en-US"
                 
-            text_to_speech(
+            success = text_to_speech(
                 text=article_text, 
                 output_filename=output_filename, 
                 task=task, 
                 language_code=language_code, 
                 dry_run=dry_run,
             )
-            files_processed += 1
-            print(f"File {files_processed}/{total_files} processed.\n")
+            if success:
+                files_processed += 1
+                print(f"File {files_processed}/{total_files} processed.\n")
+                if task == 'posts' and 'audio' not in front_matter:
+                    # Update front matter with audio: true
+                    with open(md_file_path, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                    
+                    if content.startswith("---"):
+                        parts = content.split("---", 2)
+                        if len(parts) == 3:
+                            front_matter_str = parts[1]
+                            try:
+                                front_matter = yaml.safe_load(front_matter_str)
+                            except yaml.YAMLError as e:
+                                print(f"Error parsing front matter: {e}")
+                                continue
+                            front_matter['audio'] = True
+                            updated_front_matter_str = yaml.dump(front_matter, sort_keys=False)
+                            updated_content = f"---\n{updated_front_matter_str}---\n{parts[2]}"
+                            with open(md_file_path, 'w', encoding='utf-8') as f:
+                                f.write(updated_content)
+                            print(f"Updated front matter in {filename} with audio: true")
+                        else:
+                            print(f"Unexpected format in {filename}, cannot update front matter")
+                    else:
+                        print(f"No front matter found in {filename}, cannot update front matter")
+            else:
+                print(f"Failed to generate audio for {filename}")
             if task in ['posts', 'notes'] and files_processed >= max_files:
                 print("Processed the maximum allowed files.")
                 break
