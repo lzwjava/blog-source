@@ -47,6 +47,9 @@ def create_post_from_readme(project_dir, target_post):
     # Create a new filename based on the title
     new_filepath = os.path.join(".", "original", target_post)
 
+    if os.path.exists(new_filepath):
+        print(f"Skipping creation of {new_filepath} as it already exists.")
+        return
 
     # Write the new post file
     with open(new_filepath, 'w', encoding='utf-8') as f:

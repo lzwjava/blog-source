@@ -50,6 +50,8 @@ projects = [
     ("leachat-android", "leachat-android-en.md"),
     ("leanchat-ios", "leanchat-ios-en.md"),
     ("live-server", "live-server-en.md"),
+    ("LearnJapanese", "learn-japanese-en.md"),
+    ("TabsKiller", "tabskiller-en.md"),
 ]
 
 def main():
