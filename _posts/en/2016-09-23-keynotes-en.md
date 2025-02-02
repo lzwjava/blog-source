@@ -6,31 +6,29 @@ title: Keynotes
 translated: false
 ---
 
-
-
 This is the README.md from github project [https://github.com/lzwjava/Keynotes](https://github.com/lzwjava/Keynotes).
 
 ---
 
 Keynotes:
 
-* [Git 高级操作和原理](#Git)
+* [Advanced Git Operations and Principles](#Git)
 * [WebSocket](#websocket)
 * [UnitTest](#unittest)
-* [毫无保留的直播技术](#live)
+* [Live Streaming Technology Without Reservation](#live)
 
 
-欢迎交流，有问题请提 [issue](https://github.com/lzwjava/Keynotes/issues/new)，看到后将尽快解答。
+Welcome to discuss, if you have any questions, please raise an [issue](https://github.com/lzwjava/Keynotes/issues/new), and I will answer them as soon as possible.
 
 ## Live
 
-### 毫无保留的直播技术
+### Live Streaming Technology Without Reservation
 
-在 Live 目录下。
+In the Live directory.
 
 
 ## Git
-2016.5.3 斗鱼直播
+2016.5.3 Live on Douyu
 
 ![qq20160503-0 2x](https://cloud.githubusercontent.com/assets/5022872/14990617/f3886dc4-118f-11e6-93e6-094c778fe446.jpg)
 
@@ -43,7 +41,7 @@ Keynotes:
 
 ## WebSocket
 
-2016.4.23 技术交流会分享。
+2016.4.23 Sharing at a technical exchange meeting.
 
 ### 62 pages
 
@@ -68,7 +66,7 @@ Keynotes:
 
 ## UnitTest
 
-2015.12.20 在斗鱼 TV 上直播的Keynote，关于单元测试、自动化、好用工具等。视频: http://reviewcode.cn/video.html?videoId=2
+2015.12.20 Keynote live on Douyu TV, about unit testing, automation, useful tools, etc. Video: http://reviewcode.cn/video.html?videoId=2
 
 ### 40 Pages
 
@@ -84,4 +82,4 @@ Keynotes:
 
 # Credit
 
-感谢彦祖、ufosky、tang3w、sunng87、iOS 程序猿、冉神。感谢 LeanCloud CTO 允许我讲内部测试流程。
+Thanks to Yan Zu, ufosky, tang3w, sunng87, iOS Programmers, and Ran Shen. Thanks to the LeanCloud CTO for allowing me to talk about the internal testing process.
