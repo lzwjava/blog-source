@@ -44,5 +44,5 @@ if __name__ == "__main__":
         print(f"Total Markdown files to process: {total_files_to_process}")
     else:
         for file in files:
-            subprocess.run(["python", "scripts/update_lang.py", "--file", file, "--model", "mistral"], check=True)
+            subprocess.run(["python", "scripts/update_lang.py", "--file", file, "--model", "gemini"], check=True)
         print(f"Total Markdown files to process: {total_files_to_process}")
