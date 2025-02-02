@@ -13,6 +13,8 @@ import copy
 
 load_dotenv()
 
+
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 MODEL_NAME = "deepseek-chat"
@@ -20,6 +22,8 @@ INPUT_DIR = "original"
 MAX_THREADS = 10
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+
 
 def create_translation_prompt(target_language, type="content", special=False):
     if type == "title":
@@ -88,6 +92,50 @@ def call_mistral_api(prompt):
             print(f"Response content: {e.response.text}")
         return None
 
+def call_gemini_api(prompt):
+    api_key = GEMINI_API_KEY
+    if not api_key:
+        print("Error: GEMINI_API_KEY environment variable not set.")
+        return None
+    
+    url = f"{GEMINI_API_URL}?key={api_key}"
+    headers = {'Content-Type': 'application/json'}
+    data = {
+      "contents": [{
+        "parts":[{"text": prompt}]
+        }]
+       }
+
+    try:
+        response = requests.post(url, headers=headers, data=json.dumps(data))
+        response.raise_for_status()  # Raise an exception for bad status codes
+        
+        json_response = response.json()
+        
+        if 'candidates' in json_response and json_response['candidates']:
+            first_candidate = json_response['candidates'][0]
+            if 'content' in first_candidate and 'parts' in first_candidate['content']:
+                first_part = first_candidate['content']['parts'][0]
+                if 'text' in first_part:
+                    return first_part['text']
+                else:
+                    print("No text found in the response")
+                    return None
+            else:
+                print("Unexpected response format: content or parts missing")
+                return None
+        else:
+            print("No candidates found in the response")
+            return None
+
+    except requests.exceptions.RequestException as e:
+        print(f"Error during Gemini API request: {e}")
+        return None
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON response: {e}")
+        return None
+
+
 def translate_text(text, target_language, type="content", special=False, model="deepseek"):
     if not text or not text.strip():
         return ""
@@ -136,6 +184,10 @@ def translate_text(text, target_language, type="content", special=False, model="
     elif model == "mistral":
         prompt = create_translation_prompt(target_language, type, special) + "\n\n" + text
         translated_text = call_mistral_api(prompt)
+        return translated_text
+    elif model == "gemini":
+        prompt = create_translation_prompt(target_language, type, special) + "\n\n" + text
+        translated_text = call_gemini_api(prompt)
         return translated_text
     else:
         print(f"  Error: Invalid model specified: {model}")
@@ -277,8 +329,8 @@ def get_changed_files():
 
 
 def main():
-    if not DEEPSEEK_API_KEY and not MISTRAL_API_KEY:
-        print("Error: DEEPSEEK_API_KEY or MISTRAL_API_KEY is not set in .env file.")
+    if not DEEPSEEK_API_KEY and not MISTRAL_API_KEY and not GEMINI_API_KEY:
+        print("Error: DEEPSEEK_API_KEY, MISTRAL_API_KEY or GEMINI_API_KEY is not set in .env file.")
         return
 
     parser = argparse.ArgumentParser(description="Translate markdown files to a specified language.")

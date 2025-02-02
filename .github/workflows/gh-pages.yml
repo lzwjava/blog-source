@@ -101,7 +101,7 @@ jobs:
             echo "No language files to update."
           else
             for i in $(seq 1 "$TOTAL_POSTS"); do
-              python scripts/update_lang.py --max_files 1 --model mistral
+              python scripts/update_lang.py --max_files 1 --model gemini
               git config user.name "github-actions[bot]"
               git config user.email "github-actions[bot]@users.noreply.github.com"
               git add _posts/**/*.md
@@ -117,6 +117,7 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}          
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Dry Run Pdf Files
         id: dry_run_pdf
