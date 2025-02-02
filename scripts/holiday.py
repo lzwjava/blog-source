@@ -33,7 +33,13 @@ holidays_cn = [
 
 # Calculate total holiday days for Hong Kong
 total_days_hk = sum(holiday["duration"] for holiday in holidays_hk)
-labels_hk = [f"{holiday['name']} ({holiday['date']}, {holiday['duration']} day{'s' if holiday['duration'] > 1 else ''})" for holiday in holidays_hk]
+labels_hk = []
+for holiday in holidays_hk:
+    start_date = datetime.strptime(holiday['date'], '%Y-%m-%d')
+    end_date = start_date + timedelta(days=holiday['duration'] - 1)
+    end_date_str = end_date.strftime('%m-%d')
+    start_date_str = start_date.strftime('%m-%d')
+    labels_hk.append(f"{holiday['name']} ({start_date_str} to {end_date_str})")
 sizes_hk = [holiday["duration"] for holiday in holidays_hk]
 
 
@@ -51,7 +57,13 @@ plt.savefig(os.path.join(os.path.dirname(__file__), 'holiday_schedule_hk.jpg'))
 
 # Calculate total holiday days for China
 total_days_cn = sum(holiday["duration"] for holiday in holidays_cn)
-labels_cn = [f"{holiday['name']} ({holiday['date']}, {holiday['duration']} day{'s' if holiday['duration'] > 1 else ''})" for holiday in holidays_cn]
+labels_cn = []
+for holiday in holidays_cn:
+    start_date = datetime.strptime(holiday['date'], '%Y-%m-%d')
+    end_date = start_date + timedelta(days=holiday['duration'] - 1)
+    end_date_str = end_date.strftime('%m-%d')
+    start_date_str = start_date.strftime('%m-%d')
+    labels_cn.append(f"{holiday['name']} ({start_date_str} to {end_date_str})")
 sizes_cn = [holiday["duration"] for holiday in holidays_cn]
 
 # Create the pie chart for China
