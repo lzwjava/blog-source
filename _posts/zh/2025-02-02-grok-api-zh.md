@@ -2,15 +2,15 @@
 audio: false
 lang: zh
 layout: post
-title: 测试 Grok API
+title: 测试Grok API
 translated: true
 ---
 
-- 使用中国签发的Visa卡是可以的。
+- 可以使用中国签发的Visa卡。
 
 - [https://console.x.ai](https://console.x.ai)
 
-- `grok-2-latest` 模型: 输入 2 USD 每百万 tokens，输出 10 USD 每百万 tokens。
+- `grok-2-latest` 模型: 输入每百万个标记需要2美元，输出每百万个标记需要10美元。
 
 代码：
 
@@ -24,7 +24,7 @@ load_dotenv()
 
 GROK_API_KEY = os.environ.get("GROK_API_KEY")
 if not GROK_API_KEY:
-    raise ValueError("GROK_API_KEY 环境变量未设置")
+    raise ValueError("GROK_API_KEY环境变量未设置")
 
 url = "https://api.x.ai/v1/chat/completions"
 headers = {
@@ -50,14 +50,14 @@ try:
         if 'message' in first_choice and 'content' in first_choice['message']:
             print(first_choice['message']['content'])
         else:
-            print("意外的响应格式：缺少消息或内容")
+            print("意外的响应格式：消息或内容缺失")
     else:
         print("响应中未找到选择")
 except requests.exceptions.RequestException as e:
     print(f"API请求期间出错: {e}")
     if e.response:
-        print(f"响应状态码: {e.response.status_code}")
+        print(f"响应状态代码: {e.response.status_code}")
         print(f"响应内容: {e.response.text}")
 except json.JSONDecodeError as e:
-    print(f"解码JSON响应时出错: {e}")
+    print(f"解码JSON响应期间出错: {e}")
 ```

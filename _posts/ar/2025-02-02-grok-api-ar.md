@@ -2,15 +2,15 @@
 audio: false
 lang: ar
 layout: post
-title: اختبار Grok API
+title: اختبار واجهة برمجة التطبيقات Grok
 translated: true
 ---
 
-- من الممكن استخدام بطاقة فيزا صادر عنها الصين.
+- يمكن استخدام بطاقة الباستا الصادرة من الصين.
 
 - [https://console.x.ai](https://console.x.ai)
 
-- `grok-2-latest` نموذج: مدخل 2 دولار لكل مليون علامات, خروج 10 دولار لكل مليون علامات.
+- نموذج `grok-2-latest`: إدخال 2 دولار أمريكي لكل مليون رمز، إخراج 10 دولار أمريكي لكل مليون رمز.
 
 الرمز:
 
@@ -24,7 +24,7 @@ load_dotenv()
 
 GROK_API_KEY = os.environ.get("GROK_API_KEY")
 if not GROK_API_KEY:
-    raise ValueError("GROK_API_KEY متغير بيئة غير محدد")
+    raise ValueError("GROK_API_KEY environment variable not set")
 
 url = "https://api.x.ai/v1/chat/completions"
 headers = {
@@ -36,7 +36,7 @@ data = {
     "messages": [
         {
             "role": "user",
-            "content": "شرح كيفية عمل الذكاء الاصطناعي"
+            "content": "Explain how AI works"
         }
     ]
 }
@@ -50,14 +50,15 @@ try:
         if 'message' in first_choice and 'content' in first_choice['message']:
             print(first_choice['message']['content'])
         else:
-            print("تنسيق الرد غير متوقع: رسالة أو محتوى مفقود")
+            print("Unexpected response format: message or content missing")
     else:
-        print("لم يتم العثور على خيارات في الرد")
+        print("No choices found in the response")
 except requests.exceptions.RequestException as e:
-    print(f"خطأ أثناء طلب API: {e}")
+    print(f"Error during API request: {e}")
     if e.response:
-        print(f"رمز حالة الرد: {e.response.status_code}")
-        print(f"محتوى الرد: {e.response.text}")
+        print(f"Response status code: {e.response.status_code}")
+        print(f"Response content: {e.response.text}")
 except json.JSONDecodeError as e:
-    print(f"خطأ في تشفير الرد JSON: {e}")
+    print(f"Error decoding JSON response: {e}")
+
 ```

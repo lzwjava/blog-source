@@ -2,7 +2,7 @@
 audio: false
 lang: de
 layout: post
-title: Testen der Grok-API
+title: Testen Sie die Grok API
 translated: true
 ---
 
@@ -10,7 +10,7 @@ translated: true
 
 - [https://console.x.ai](https://console.x.ai)
 
-- `grok-2-latest` Modell: Eingabe 2 USD pro Millionen Tokens, Ausgabe 10 USD pro Millionen Tokens.
+- `grok-2-latest` Modell: Eingabe 2 USD pro Million Tokens, Ausgabe 10 USD pro Million Tokens.
 
 Code:
 
@@ -24,7 +24,7 @@ load_dotenv()
 
 GROK_API_KEY = os.environ.get("GROK_API_KEY")
 if not GROK_API_KEY:
-    raise ValueError("Umgebungsvariable GROK_API_KEY nicht gesetzt")
+    raise ValueError("GROK_API_KEY-Umgebungsvariable nicht gesetzt")
 
 url = "https://api.x.ai/v1/chat/completions"
 headers = {
@@ -36,7 +36,7 @@ data = {
     "messages": [
         {
             "role": "user",
-            "content": "Erklären Sie, wie KI funktioniert"
+            "content": "Erkläre, wie KI funktioniert"
         }
     ]
 }
@@ -56,8 +56,8 @@ try:
 except requests.exceptions.RequestException as e:
     print(f"Fehler bei der API-Anfrage: {e}")
     if e.response:
-        print(f"Statuscode der Antwort: {e.response.status_code}")
-        print(f"Inhalt der Antwort: {e.response.text}")
+        print(f"Antwortstatuscode: {e.response.status_code}")
+        print(f"Antwortinhalt: {e.response.text}")
 except json.JSONDecodeError as e:
     print(f"Fehler beim Dekodieren der JSON-Antwort: {e}")
 ```
