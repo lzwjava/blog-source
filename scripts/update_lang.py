@@ -93,7 +93,7 @@ def translate_text(text, target_language, type="content", special=False, model="
         return ""
     if target_language == 'en':
         print(f"  Skipping translation for English: {text[:50]}...")
-        return text
+        return text.strip()
     print(f"  Translating text: {text[:50]}...")
     
     if model == "deepseek":
@@ -206,7 +206,7 @@ def translate_markdown_file(input_file, output_file, target_language, model="dee
         translated_content = translate_text(content_without_front_matter, target_language, special=special, model=model)
         # print(f"  Translated content: {translated_content}")
         if translated_content:
-            translated_content = translated_front_matter + "\n" + translated_content
+            translated_content = translated_front_matter + "\n\n" + translated_content
         else:
             raise Exception(f"Translation failed for: {input_file}")
         
