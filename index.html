@@ -167,12 +167,6 @@ layout: page
       postList.style.display = 'block';
     }
 
-    // Event listener for dropdown changes
-    sortSelect.addEventListener('change', function () {
-      localStorage.setItem('sortOption', sortSelect.value);
-      window.location.href = window.location.pathname + '?sort=' + sortSelect.value;
-    });
-
     // Restore from localStorage if available
     const savedSort = localStorage.getItem('sortOption');
     if (savedSort) {
@@ -180,6 +174,14 @@ layout: page
     } else {
       sortSelect.value = 'date-desc|original';
     }
-    updatePosts();
+        
+    updatePosts();    
+
+    // Event listener for dropdown changes
+    sortSelect.addEventListener('change', function () {
+      localStorage.setItem('sortOption', sortSelect.value);
+      window.location.href = window.location.pathname + '?sort=' + sortSelect.value;
+    });
+
   });
 </script>
