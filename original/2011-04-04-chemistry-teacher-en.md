@@ -6,6 +6,8 @@ title: Chemistry Teacher's Quotes
 translated: true
 ---
 
+This post was originally written in Chinese and published on Qzone. 
+
 This article is purely to praise Mr. Wu (because he always says "…di", for example, "good di", so we jokingly call the teacher "Brother Di" - a nickname for our dear chemistry teacher).
 
 ---
