@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: en
 layout: post
 title: Api Usage Of Deepseek And Mistral
@@ -62,3 +62,9 @@ There were 340,802 input tokens and 681,605 output tokens.
 Therefore, the total cost is calculated as 340,802 * 0.2 / 1,000,000 + 681,605 * 0.6 / 1,000,000 = 0.07 + 0.41 = 0.48 USD.
 
 The Mistral console reports a total usage cost of 0.43 USD, which approximately matches our calculation.
+
+## Grok
+
+| Model         | Input (USD per million tokens) | Output (USD per million tokens) |
+|---------------|------------------------------|---------------------------------|
+| `grok-2-latest` | 2                            | 10                              |
