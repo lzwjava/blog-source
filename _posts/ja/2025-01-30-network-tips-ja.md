@@ -6,13 +6,13 @@ title: ネットワーク最適化のヒント
 translated: true
 ---
 
-役立つ情報、推奨事項：
+便利、推奨：
 
 - 5G WiFi信号またはイーサネットケーブルの使用を優先してください。
 
-- Speedtestアプリを使用するか、https://www.speedtest.netにアクセスして、定期的に接続速度をテストしてください。
+- Speedtestアプリを使用するか、https://www.speedtest.netにアクセスして定期的に接続速度をテストしてください。
 
-- ネットワーク診断には、traceroute、ping、またはdig/nslookupを使用してください。
+- ネットワーク診断にはtraceroute、ping、またはdig/nslookupを使用してください。
 
 - [プロキシサーバーの設定](./diy-proxy-en)
 
@@ -30,7 +30,7 @@ translated: true
 
 - [Aliyun Elastic IPの管理](./aliyun-elastic-ip-en)
 
-試したもの：
+試した：
 
 - [Shadowsocksプロキシの問題](./shadowsocks-en)
 
@@ -50,8 +50,10 @@ translated: true
 
 - [V2Rayスクリプト](./v2ray-script-en)
 
-- [OpenWRTへのOpenClashとShadowsocksの追加](./openwrt-hack-en)
+- [OpenWRTをOpenClashとShadowsocksで強化する](./openwrt-hack-en)
 
 - [AWS Lightsailインスタンスの管理](./lightsail-en)
 
 - [DigitalOcean予約済みIPの管理](./reserved-ip-en)
+
+- [Hetzner Cloud](./hetzner-en)
