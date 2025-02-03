@@ -55,3 +55,5 @@ Tried:
 - [Managing AWS Lightsail Instances](./lightsail-en)
 
 - [Managing DigitalOcean Reserved IPs](./reserved-ip-en)
+
+- [Hetzner Cloud](./hetzner-en)

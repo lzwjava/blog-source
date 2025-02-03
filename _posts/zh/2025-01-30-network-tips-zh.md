@@ -8,13 +8,13 @@ translated: true
 
 有用建议：
 
-- 最好使用5G WiFi信号或以太网线。
+- 优先使用5G WiFi信号或以太网线。
 
 - 使用Speedtest应用或访问https://www.speedtest.net定期测试您的网络连接。
 
 - 使用traceroute、ping或dig/nslookup进行网络诊断。
 
-- [设置您的代理服务器](./diy-proxy-en)
+- [搭建您的代理服务器](./diy-proxy-en)
 
 - [Mesh路由器](./mesh-router-en)
 
@@ -46,7 +46,7 @@ translated: true
 
 - [代理工具：Squid和Danted](./squid-dante-en)
 
-- [尝试V2Ray：分步指南](./v2ray-en)
+- [尝试V2Ray：循序渐进指南](./v2ray-en)
 
 - [V2Ray脚本](./v2ray-script-en)
 

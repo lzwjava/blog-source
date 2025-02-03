@@ -8,19 +8,19 @@ translated: true
 
 Útil, Recomendado:
 
-- Preferiblemente usar una señal WiFi 5G o un cable Ethernet.
+- Prefiera usar una señal WiFi 5G o un cable Ethernet.
 
-- Usar la aplicación Speedtest o visitar https://www.speedtest.net para probar tu conexión regularmente.
+- Use la aplicación Speedtest o visite https://www.speedtest.net para probar su conexión regularmente.
 
-- Usar traceroute, ping o dig/nslookup para diagnósticos de red.
+- Use traceroute, ping o dig/nslookup para el diagnóstico de red.
 
-- [Configurar tu Servidor Proxy](./diy-proxy-en)
+- [Configurar su Servidor Proxy](./diy-proxy-en)
 
 - [Router Mesh](./mesh-router-en)
 
 - [Tarjetas SIM de Macao](./macao-en)
 
-- [Análisis del Bloqueo de Servidores Proxy](./proxy-ban-en)
+- [Análisis de la Prohibición de Servidores Proxy](./proxy-ban-en)
 
 - [Herramienta de Código Abierto: Auto SS Config](./auto-ss-config-en)
 
@@ -28,15 +28,15 @@ translated: true
 
 - [Soluciones Proxy en China - 2025](./proxy-en)
 
-- [Gestionando IPs Elásticas de Aliyun](./aliyun-elastic-ip-en)
+- [Administrar IPs Elásticas de Aliyun](./aliyun-elastic-ip-en)
 
 Probado:
 
 - [Problemas con el Proxy Shadowsocks](./shadowsocks-en)
 
-- [Proveedores de Nube](./cloud-providers-en)
+- [Proveedores de la Nube](./cloud-providers-en)
 
-- [Algunas Plataformas Globales de Nube](./cloud-platforms-en)
+- [Algunas Plataformas Globales en la Nube](./cloud-platforms-en)
 
 - [Comprobador de Cable de Red](./cable-tester-en)
 
@@ -50,10 +50,10 @@ Probado:
 
 - [Script V2Ray](./v2ray-script-en)
 
-- [Mejorando OpenWRT con OpenClash y Shadowsocks](./openwrt-hack-en)
+- [Mejorar OpenWRT con OpenClash y Shadowsocks](./openwrt-hack-en)
 
-- [Gestionando Instancias AWS Lightsail](./lightsail-en)
+- [Administrar Instancias de AWS Lightsail](./lightsail-en)
 
-- [Gestionando IPs Reservadas de DigitalOcean](./reserved-ip-en)
+- [Administrar IPs Reservadas de DigitalOcean](./reserved-ip-en)
 
 - [Hetzner Cloud](./hetzner-en)
