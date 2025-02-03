@@ -38,11 +38,11 @@ translated: true
 
 - [一些全球云平台](./cloud-platforms-en)
 
-- [网络电缆测试器](./cable-tester-en)
+- [网线测试器](./cable-tester-en)
 
 - [Wi-Fi信号强度](./wifi-en)
 
-- [Lightning转以太网适配器](./lightning-ethernet-en)
+- [闪电转以太网适配器](./lightning-ethernet-en)
 
 - [代理工具：Squid和Danted](./squid-dante-en)
 
@@ -54,4 +54,6 @@ translated: true
 
 - [管理AWS Lightsail实例](./lightsail-en)
 
-- [管理DigitalOcean保留IP](./reserved-ip-en)
+- [管理DigitalOcean预留IP](./reserved-ip-en)
+
+- [Hetzner云](./hetzner-en)
