@@ -9,6 +9,9 @@ from alibabacloud_tea_openapi import models as open_api_models
 from alibabacloud_vpc20160428 import models as vpc_20160428_models
 from alibabacloud_tea_util import models as util_models
 from alibabacloud_tea_util.client import Client as UtilClient
+from alibabacloud_ecs20140526.client import Client as Ecs20140526Client
+from alibabacloud_ecs20140526 import models as ecs_20140526_models
+
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -24,6 +27,15 @@ class Sample:
         )
         config.endpoint = f'vpc.cn-hongkong.aliyuncs.com'
         return Vpc20160428Client(config)
+    
+    @staticmethod
+    def create_ecs_client() -> Ecs20140526Client:
+        config = open_api_models.Config(
+            access_key_id=os.environ['ALIBABA_CLOUD_ACCESS_ID_API_KEY'],
+            access_key_secret=os.environ['ALIBABA_CLOUD_ACCESS_API_KEY']
+        )
+        config.endpoint = f'ecs.cn-hongkong.aliyuncs.com'
+        return Ecs20140526Client(config)
 
     @staticmethod
     def bind_eip(
@@ -37,7 +49,7 @@ class Sample:
             allocation_id=allocation_id,
             instance_id=instance_id
         )
-        runtime = util_models.RuntimeOptions()
+        runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.associate_eip_address_with_options(associate_eip_address_request, runtime)
             logging.info(f"Successfully bound EIP {allocation_id} to instance {instance_id}. Result: {result}")
@@ -46,7 +58,7 @@ class Sample:
             logging.error(f"Error binding EIP {allocation_id} to instance {instance_id}: {error}")
             if hasattr(error, 'message'):
                 logging.error(f"Error message: {error.message}")
-            if hasattr(error, 'data') and error.data.get('Recommend'):
+            if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
                 logging.error(f"Recommend: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return False
@@ -63,7 +75,7 @@ class Sample:
             allocation_id=allocation_id,
             instance_id=instance_id
         )
-        runtime = util_models.RuntimeOptions()
+        runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.unassociate_eip_address_with_options(unassociate_eip_address_request, runtime)
             logging.info(f"Successfully unbound EIP {allocation_id} from instance {instance_id}. Result: {result}")
@@ -72,7 +84,7 @@ class Sample:
             logging.error(f"Error unbinding EIP {allocation_id} from instance {instance_id}: {error}")
             if hasattr(error, 'message'):
                 logging.error(f"Error message: {error.message}")
-            if hasattr(error, 'data') and error.data.get('Recommend'):
+            if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
                 logging.error(f"Recommend: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return False
@@ -85,7 +97,7 @@ class Sample:
         allocate_eip_address_request = vpc_20160428_models.AllocateEipAddressRequest(
             region_id=region_id
         )
-        runtime = util_models.RuntimeOptions()
+        runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.allocate_eip_address_with_options(allocate_eip_address_request, runtime)
             print(result.body)
@@ -96,10 +108,33 @@ class Sample:
             logging.error(f"Error creating EIP: {error}")
             if hasattr(error, 'message'):
                 logging.error(f"Error message: {error.message}")
-            if hasattr(error, 'data') and error.data.get('Recommend'):
+            if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
                 logging.error(f"Recommend: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return None
+    
+    @staticmethod
+    def release_eip(
+        allocation_id: str,
+    ) -> bool:
+        client = Sample.create_client()
+        release_eip_address_request = vpc_20160428_models.ReleaseEipAddressRequest(
+            allocation_id=allocation_id
+        )
+        runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
+        try:
+            result = client.release_eip_address_with_options(release_eip_address_request, runtime)
+            logging.info(f"Successfully released EIP {allocation_id}. Result: {result}")
+            return True
+        except Exception as error:
+            logging.error(f"Error releasing EIP {allocation_id}: {error}")
+            if hasattr(error, 'message'):
+                logging.error(f"Error message: {error.message}")
+            if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
+                logging.error(f"Recommend: {error.data.get('Recommend')}")
+            UtilClient.assert_as_string(str(error))
+            return False
+
 
     @staticmethod
     def main(
@@ -109,7 +144,7 @@ class Sample:
         instance_id = "i-j6c44l4zpphv7u7agdbk"
 
         parser = argparse.ArgumentParser(description='Manage Aliyun Elastic IPs.')
-        parser.add_argument('job', choices=['create', 'bind', 'unbind'], help='The job to perform: create, bind, or unbind.')
+        parser.add_argument('job', choices=['create', 'bind', 'unbind', 'release'], help='The job to perform: create, bind, or unbind.')
         parser.add_argument('--allocation_id', type=str, help='The allocation ID of the EIP.')
         parser.add_argument('--instance_id', type=str, default=instance_id, help='The instance ID to bind/unbind the EIP to.')
 
@@ -137,6 +172,14 @@ class Sample:
                 print(f"EIP unbinding process initiated successfully for EIP {parsed_args.allocation_id} and instance {parsed_args.instance_id}.")
             else:
                 print(f"EIP unbinding process failed for EIP {parsed_args.allocation_id} and instance {parsed_args.instance_id}.")
+        elif parsed_args.job == 'release':
+            if not parsed_args.allocation_id:
+                print("Error: --allocation_id is required for release job.")
+                return
+            if Sample.release_eip(parsed_args.allocation_id):
+                 print(f"EIP release process initiated successfully for EIP {parsed_args.allocation_id}.")
+            else:
+                print(f"EIP release process failed for EIP {parsed_args.allocation_id}.")
 
 
     @staticmethod
