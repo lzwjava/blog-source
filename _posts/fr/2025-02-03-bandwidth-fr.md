@@ -2,11 +2,11 @@
 audio: true
 lang: fr
 layout: post
-title: Enquête sur la limite de bande passante de 200 Mbps
+title: Enquête sur la limite de bande passante de 200 Mbit/s
 translated: true
 ---
 
-J'utilise un serveur Aliyun à Hong Kong avec une IP élastique post-payée, Pay-By-Traffic. Cependant, je rencontre des vitesses inférieures à mes attentes. Ma bande passante actuelle est :
+J'utilise un serveur Aliyun à Hong Kong avec une adresse IP élastique post-payée, Pay-By-Traffic. Cependant, je constate des vitesses inférieures à mes attentes. Ma bande passante actuelle est :
 
 * Téléchargement : 93,82 Mbps
 * Envoi : 56,98 Mbps
