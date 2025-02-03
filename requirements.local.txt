@@ -1,2 +1,3 @@
 aliyunsdkcore
 aliyun-python-sdk-ecs
+alibabacloud_vpc20160428
