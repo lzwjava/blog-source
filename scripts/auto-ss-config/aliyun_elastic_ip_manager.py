@@ -284,3 +284,4 @@ if __name__ == '__main__':
 # python scripts/auto-ss-config/aliyun_elastic_ip_manager.py bind --allocation_id eip-j6c7mhenamvy6zao3haaa
 # python scripts/auto-ss-config/aliyun_elastic_ip_manager.py release --allocation_id "eip-j6c2olvsa7jk9l42i"
 # python scripts/auto-ss-config/aliyun_elastic_ip_manager.py describe
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py all
