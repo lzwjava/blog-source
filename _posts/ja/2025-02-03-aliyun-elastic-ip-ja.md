@@ -2,24 +2,28 @@
 audio: false
 lang: ja
 layout: post
-title: Aliyun弾性IPの管理
+title: Aliyun Elastic IP の管理
 translated: true
 ---
 
-このスクリプトは、Aliyun Elastic IP（EIP）を管理するためのコマンドラインインターフェースを提供します。Aliyun SDK for Pythonを使用して、EIPの作成、バインド、アンバインド、リリースを行うことができます。スクリプトは、実行するジョブとEIPの割り当てIDを引数として受け取ります。
+このスクリプトは、Aliyun Elastic IP（EIP）を管理するためのコマンドラインインターフェースを提供します。Aliyun SDK for Pythonを使用して、EIPの作成、バインド、アンバインド、解放を行うことができます。スクリプトは、実行するジョブとEIPの割り当てIDを引数として受け取ります。
 
 ```bash
 python aliyun_elastic_ip_manager.py unbind --allocation_id eip-j6c2olvsa7jk9l42iaaa
 python aliyun_elastic_ip_manager.py bind --allocation_id eip-j6c7mhenamvy6zao3haaa
 python aliyun_elastic_ip_manager.py release --allocation_id eip-j6c2olvsa7jk9l42aaa
+python aliyun_elastic_ip_manager.py describe
 ```
 
 ```python
+# -*- coding: utf-8 -*-
+# このファイルは自動生成されたものです。編集しないでください。
 import logging
 import os
 import sys
 from typing import List
 import argparse
+import json
 
 from alibabacloud_vpc20160428.client import Client as Vpc20160428Client
 from alibabacloud_tea_openapi import models as open_api_models
@@ -59,14 +63,14 @@ class Sample:
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.associate_eip_address_with_options(associate_eip_address_request, runtime)
-            logging.info(f"Successfully bound EIP {allocation_id} to instance {instance_id}. Result: {result}")
+            logging.info(f"EIP {allocation_id} をインスタンス {instance_id} に正常にバインドしました。結果: {result}")
             return True
         except Exception as error:
-            logging.error(f"Error binding EIP {allocation_id} to instance {instance_id}: {error}")
+            logging.error(f"EIP {allocation_id} をインスタンス {instance_id} にバインドする際にエラーが発生しました: {error}")
             if hasattr(error, 'message'):
-                logging.error(f"Error message: {error.message}")
+                logging.error(f"エラーメッセージ: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
-                logging.error(f"Recommend: {error.data.get('Recommend')}")
+                logging.error(f"推奨事項: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return False
     
@@ -85,14 +89,14 @@ class Sample:
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.unassociate_eip_address_with_options(unassociate_eip_address_request, runtime)
-            logging.info(f"Successfully unbound EIP {allocation_id} from instance {instance_id}. Result: {result}")
+            logging.info(f"EIP {allocation_id} をインスタンス {instance_id} から正常にアンバインドしました。結果: {result}")
             return True
         except Exception as error:
-            logging.error(f"Error unbinding EIP {allocation_id} from instance {instance_id}: {error}")
+            logging.error(f"EIP {allocation_id} をインスタンス {instance_id} からアンバインドする際にエラーが発生しました: {error}")
             if hasattr(error, 'message'):
-                logging.error(f"Error message: {error.message}")
+                logging.error(f"エラーメッセージ: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
-                logging.error(f"Recommend: {error.data.get('Recommend')}")
+                logging.error(f"推奨事項: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return False
 
@@ -109,14 +113,14 @@ class Sample:
             result = client.allocate_eip_address_with_options(allocate_eip_address_request, runtime)
             print(result.body)
             allocation_id = result.body.allocation_id
-            logging.info(f"Successfully created EIP. Allocation ID: {allocation_id}")
+            logging.info(f"EIP を正常に作成しました。割り当てID: {allocation_id}")
             return allocation_id
         except Exception as error:
-            logging.error(f"Error creating EIP: {error}")
+            logging.error(f"EIP の作成中にエラーが発生しました: {error}")
             if hasattr(error, 'message'):
-                logging.error(f"Error message: {error.message}")
+                logging.error(f"エラーメッセージ: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
-                logging.error(f"Recommend: {error.data.get('Recommend')}")
+                logging.error(f"推奨事項: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return None
     
@@ -131,17 +135,38 @@ class Sample:
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.release_eip_address_with_options(release_eip_address_request, runtime)
-            logging.info(f"Successfully released EIP {allocation_id}. Result: {result}")
+            logging.info(f"EIP {allocation_id} を正常に解放しました。結果: {result}")
             return True
         except Exception as error:
-            logging.error(f"Error releasing EIP {allocation_id}: {error}")
+            logging.error(f"EIP {allocation_id} の解放中にエラーが発生しました: {error}")
             if hasattr(error, 'message'):
-                logging.error(f"Error message: {error.message}")
+                logging.error(f"エラーメッセージ: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
-                logging.error(f"Recommend: {error.data.get('Recommend')}")
+                logging.error(f"推奨事項: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return False
 
+    @staticmethod
+    def describe_eip(
+        region_id: str,
+    ) -> None:
+        client = Sample.create_client()
+        describe_eip_addresses_request = vpc_20160428_models.DescribeEipAddressesRequest(
+            region_id=region_id
+        )
+        runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
+        try:
+            result = client.describe_eip_addresses_with_options(describe_eip_addresses_request, runtime)
+            logging.info(f"EIP の情報を正常に取得しました。")
+            print(json.dumps(result.body.to_map(), indent=4))
+        except Exception as error:
+            logging.error(f"EIP の情報の取得中にエラーが発生しました: {error}")
+            if hasattr(error, 'message'):
+                logging.error(f"エラーメッセージ: {error.message}")
+            if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
+                logging.error(f"推奨事項: {error.data.get('Recommend')}")
+            UtilClient.assert_as_string(str(error))
+            
 
     @staticmethod
     def main(
@@ -150,43 +175,45 @@ class Sample:
         region_id = "cn-hongkong"
         instance_id = "i-j6c44l4zpphv7u7agdbk"
 
-        parser = argparse.ArgumentParser(description='Manage Aliyun Elastic IPs.')
-        parser.add_argument('job', choices=['create', 'bind', 'unbind', 'release'], help='The job to perform: create, bind, or unbind.')
-        parser.add_argument('--allocation_id', type=str, help='The allocation ID of the EIP.')
-        parser.add_argument('--instance_id', type=str, default=instance_id, help='The instance ID to bind/unbind the EIP to.')
+        parser = argparse.ArgumentParser(description='Aliyun Elastic IP を管理します。')
+        parser.add_argument('job', choices=['create', 'bind', 'unbind', 'release', 'describe'], help='実行するジョブ: create、bind、unbind。')
+        parser.add_argument('--allocation_id', type=str, help='EIP の割り当てID。')
+        parser.add_argument('--instance_id', type=str, default=instance_id, help='EIP をバインド/アンバインドするインスタンスID。')
 
         parsed_args = parser.parse_args(args)
 
         if parsed_args.job == 'create':
             new_allocation_id = Sample.create_eip(region_id)
             if new_allocation_id:
-                print(f"EIP creation process initiated successfully. Allocation ID: {new_allocation_id}")
+                print(f"EIP の作成プロセスが正常に開始されました。割り当てID: {new_allocation_id}")
             else:
-                print("EIP creation process failed.")
+                print("EIP の作成プロセスが失敗しました。")
         elif parsed_args.job == 'bind':
             if not parsed_args.allocation_id:
-                print("Error: --allocation_id is required for bind job.")
+                print("エラー: bind ジョブには --allocation_id が必要です。")
                 return
             if Sample.bind_eip(region_id, parsed_args.allocation_id, parsed_args.instance_id):
-                print(f"EIP binding process initiated successfully for EIP {parsed_args.allocation_id} and instance {parsed_args.instance_id}.")
+                print(f"EIP {parsed_args.allocation_id} とインスタンス {parsed_args.instance_id} のバインドプロセスが正常に開始されました。")
             else:
-                print(f"EIP binding process failed for EIP {parsed_args.allocation_id} and instance {parsed_args.instance_id}.")
+                print(f"EIP {parsed_args.allocation_id} とインスタンス {parsed_args.instance_id} のバインドプロセスが失敗しました。")
         elif parsed_args.job == 'unbind':
             if not parsed_args.allocation_id:
-                print("Error: --allocation_id is required for unbind job.")
+                print("エラー: unbind ジョブには --allocation_id が必要です。")
                 return
             if Sample.unbind_eip(region_id, parsed_args.allocation_id, parsed_args.instance_id):
-                print(f"EIP unbinding process initiated successfully for EIP {parsed_args.allocation_id} and instance {parsed_args.instance_id}.")
+                print(f"EIP {parsed_args.allocation_id} とインスタンス {parsed_args.instance_id} のアンバインドプロセスが正常に開始されました。")
             else:
-                print(f"EIP unbinding process failed for EIP {parsed_args.allocation_id} and instance {parsed_args.instance_id}.")
+                print(f"EIP {parsed_args.allocation_id} とインスタンス {parsed_args.instance_id} のアンバインドプロセスが失敗しました。")
         elif parsed_args.job == 'release':
             if not parsed_args.allocation_id:
-                print("Error: --allocation_id is required for release job.")
+                print("エラー: release ジョブには --allocation_id が必要です。")
                 return
             if Sample.release_eip(parsed_args.allocation_id):
-                 print(f"EIP release process initiated successfully for EIP {parsed_args.allocation_id}.")
+                 print(f"EIP {parsed_args.allocation_id} の解放プロセスが正常に開始されました。")
             else:
-                print(f"EIP release process failed for EIP {parsed_args.allocation_id}.")
+                print(f"EIP {parsed_args.allocation_id} の解放プロセスが失敗しました。")
+        elif parsed_args.job == 'describe':
+            Sample.describe_eip(region_id)
 
 
     @staticmethod
@@ -211,4 +238,10 @@ class Sample:
 
 if __name__ == '__main__':
     Sample.main(sys.argv[1:])
+
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py unbind --allocation_id eip-j6c2olvsa7jk9l42i1aaa
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py bind --allocation_id eip-j6c7mhenamvy6zao3haaa
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py release --allocation_id "eip-j6c2olvsa7jk9l42i"
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py describe
+
 ```

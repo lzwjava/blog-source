@@ -12,14 +12,18 @@ This script provides a command-line interface to manage Aliyun Elastic IPs (EIPs
 python aliyun_elastic_ip_manager.py unbind --allocation_id eip-j6c2olvsa7jk9l42iaaa
 python aliyun_elastic_ip_manager.py bind --allocation_id eip-j6c7mhenamvy6zao3haaa
 python aliyun_elastic_ip_manager.py release --allocation_id eip-j6c2olvsa7jk9l42aaa
+python aliyun_elastic_ip_manager.py describe
 ```
 
 ```python
+# -*- coding: utf-8 -*-
+# This file is auto-generated, don't edit it. Thanks.
 import logging
 import os
 import sys
 from typing import List
 import argparse
+import json
 
 from alibabacloud_vpc20160428.client import Client as Vpc20160428Client
 from alibabacloud_tea_openapi import models as open_api_models
@@ -142,6 +146,27 @@ class Sample:
             UtilClient.assert_as_string(str(error))
             return False
 
+    @staticmethod
+    def describe_eip(
+        region_id: str,
+    ) -> None:
+        client = Sample.create_client()
+        describe_eip_addresses_request = vpc_20160428_models.DescribeEipAddressesRequest(
+            region_id=region_id
+        )
+        runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
+        try:
+            result = client.describe_eip_addresses_with_options(describe_eip_addresses_request, runtime)
+            logging.info(f"Successfully described EIP.")
+            print(json.dumps(result.body.to_map(), indent=4))
+        except Exception as error:
+            logging.error(f"Error describing EIP: {error}")
+            if hasattr(error, 'message'):
+                logging.error(f"Error message: {error.message}")
+            if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
+                logging.error(f"Recommend: {error.data.get('Recommend')}")
+            UtilClient.assert_as_string(str(error))
+            
 
     @staticmethod
     def main(
@@ -151,7 +176,7 @@ class Sample:
         instance_id = "i-j6c44l4zpphv7u7agdbk"
 
         parser = argparse.ArgumentParser(description='Manage Aliyun Elastic IPs.')
-        parser.add_argument('job', choices=['create', 'bind', 'unbind', 'release'], help='The job to perform: create, bind, or unbind.')
+        parser.add_argument('job', choices=['create', 'bind', 'unbind', 'release', 'describe'], help='The job to perform: create, bind, or unbind.')
         parser.add_argument('--allocation_id', type=str, help='The allocation ID of the EIP.')
         parser.add_argument('--instance_id', type=str, default=instance_id, help='The instance ID to bind/unbind the EIP to.')
 
@@ -187,6 +212,8 @@ class Sample:
                  print(f"EIP release process initiated successfully for EIP {parsed_args.allocation_id}.")
             else:
                 print(f"EIP release process failed for EIP {parsed_args.allocation_id}.")
+        elif parsed_args.job == 'describe':
+            Sample.describe_eip(region_id)
 
 
     @staticmethod
@@ -211,4 +238,10 @@ class Sample:
 
 if __name__ == '__main__':
     Sample.main(sys.argv[1:])
+
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py unbind --allocation_id eip-j6c2olvsa7jk9l42i1aaa
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py bind --allocation_id eip-j6c7mhenamvy6zao3haaa
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py release --allocation_id "eip-j6c2olvsa7jk9l42i"
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py describe
+
 ```

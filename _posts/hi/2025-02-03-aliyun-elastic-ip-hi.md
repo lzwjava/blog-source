@@ -6,20 +6,24 @@ title: Aliyun इलास्टिक IPs का प्रबंधन
 translated: true
 ---
 
-यह स्क्रिप्ट Aliyun Elastic IPs (EIPs) को प्रबंधित करने के लिए एक कमांड-लाइन इंटरफ़ेस प्रदान करता है। यह आपको Python के लिए Aliyun SDK का उपयोग करके EIPs को बनाना, बाँधना, अलग करना और जारी करने की अनुमति देता है। स्क्रिप्ट कार्य करने और EIP के आवंटन ID के लिए तर्क लेता है।
+यह स्क्रिप्ट Aliyun Elastic IPs (EIPs) को प्रबंधित करने के लिए एक कमांड-लाइन इंटरफ़ेस प्रदान करती है। यह आपको Python के लिए Aliyun SDK का उपयोग करके EIPs को बनाना, बाँधना, अनबाइंड करना और जारी करना करने की अनुमति देता है। स्क्रिप्ट कार्य करने और EIP के आवंटन ID के लिए तर्क लेती है।
 
 ```bash
 python aliyun_elastic_ip_manager.py unbind --allocation_id eip-j6c2olvsa7jk9l42iaaa
 python aliyun_elastic_ip_manager.py bind --allocation_id eip-j6c7mhenamvy6zao3haaa
 python aliyun_elastic_ip_manager.py release --allocation_id eip-j6c2olvsa7jk9l42aaa
+python aliyun_elastic_ip_manager.py describe
 ```
 
 ```python
+# -*- coding: utf-8 -*-
+# यह फ़ाइल स्वतः-उत्पन्न है, इसे संपादित न करें। धन्यवाद।
 import logging
 import os
 import sys
 from typing import List
 import argparse
+import json
 
 from alibabacloud_vpc20160428.client import Client as Vpc20160428Client
 from alibabacloud_tea_openapi import models as open_api_models
@@ -59,14 +63,14 @@ class Sample:
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.associate_eip_address_with_options(associate_eip_address_request, runtime)
-            logging.info(f"Successfully bound EIP {allocation_id} to instance {instance_id}. Result: {result}")
+            logging.info(f"EIP {allocation_id} को instance {instance_id} से सफलतापूर्वक बाँध दिया गया। परिणाम: {result}")
             return True
         except Exception as error:
-            logging.error(f"Error binding EIP {allocation_id} to instance {instance_id}: {error}")
+            logging.error(f"EIP {allocation_id} को instance {instance_id} से बाँधने में त्रुटि: {error}")
             if hasattr(error, 'message'):
-                logging.error(f"Error message: {error.message}")
+                logging.error(f"त्रुटि संदेश: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
-                logging.error(f"Recommend: {error.data.get('Recommend')}")
+                logging.error(f"सुझाव: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return False
     
@@ -85,14 +89,14 @@ class Sample:
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.unassociate_eip_address_with_options(unassociate_eip_address_request, runtime)
-            logging.info(f"Successfully unbound EIP {allocation_id} from instance {instance_id}. Result: {result}")
+            logging.info(f"EIP {allocation_id} को instance {instance_id} से सफलतापूर्वक अनबाइंड कर दिया गया। परिणाम: {result}")
             return True
         except Exception as error:
-            logging.error(f"Error unbinding EIP {allocation_id} from instance {instance_id}: {error}")
+            logging.error(f"EIP {allocation_id} को instance {instance_id} से अनबाइंड करने में त्रुटि: {error}")
             if hasattr(error, 'message'):
-                logging.error(f"Error message: {error.message}")
+                logging.error(f"त्रुटि संदेश: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
-                logging.error(f"Recommend: {error.data.get('Recommend')}")
+                logging.error(f"सुझाव: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return False
 
@@ -109,14 +113,14 @@ class Sample:
             result = client.allocate_eip_address_with_options(allocate_eip_address_request, runtime)
             print(result.body)
             allocation_id = result.body.allocation_id
-            logging.info(f"Successfully created EIP. Allocation ID: {allocation_id}")
+            logging.info(f"EIP सफलतापूर्वक बनाया गया। आवंटन ID: {allocation_id}")
             return allocation_id
         except Exception as error:
-            logging.error(f"Error creating EIP: {error}")
+            logging.error(f"EIP बनाने में त्रुटि: {error}")
             if hasattr(error, 'message'):
-                logging.error(f"Error message: {error.message}")
+                logging.error(f"त्रुटि संदेश: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
-                logging.error(f"Recommend: {error.data.get('Recommend')}")
+                logging.error(f"सुझाव: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return None
     
@@ -131,17 +135,38 @@ class Sample:
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.release_eip_address_with_options(release_eip_address_request, runtime)
-            logging.info(f"Successfully released EIP {allocation_id}. Result: {result}")
+            logging.info(f"EIP {allocation_id} सफलतापूर्वक जारी कर दिया गया। परिणाम: {result}")
             return True
         except Exception as error:
-            logging.error(f"Error releasing EIP {allocation_id}: {error}")
+            logging.error(f"EIP {allocation_id} जारी करने में त्रुटि: {error}")
             if hasattr(error, 'message'):
-                logging.error(f"Error message: {error.message}")
+                logging.error(f"त्रुटि संदेश: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
-                logging.error(f"Recommend: {error.data.get('Recommend')}")
+                logging.error(f"सुझाव: {error.data.get('Recommend')}")
             UtilClient.assert_as_string(str(error))
             return False
 
+    @staticmethod
+    def describe_eip(
+        region_id: str,
+    ) -> None:
+        client = Sample.create_client()
+        describe_eip_addresses_request = vpc_20160428_models.DescribeEipAddressesRequest(
+            region_id=region_id
+        )
+        runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
+        try:
+            result = client.describe_eip_addresses_with_options(describe_eip_addresses_request, runtime)
+            logging.info(f"EIP का विवरण सफलतापूर्वक प्राप्त कर लिया गया।")
+            print(json.dumps(result.body.to_map(), indent=4))
+        except Exception as error:
+            logging.error(f"EIP का विवरण प्राप्त करने में त्रुटि: {error}")
+            if hasattr(error, 'message'):
+                logging.error(f"त्रुटि संदेश: {error.message}")
+            if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
+                logging.error(f"सुझाव: {error.data.get('Recommend')}")
+            UtilClient.assert_as_string(str(error))
+            
 
     @staticmethod
     def main(
@@ -150,43 +175,45 @@ class Sample:
         region_id = "cn-hongkong"
         instance_id = "i-j6c44l4zpphv7u7agdbk"
 
-        parser = argparse.ArgumentParser(description='Manage Aliyun Elastic IPs.')
-        parser.add_argument('job', choices=['create', 'bind', 'unbind', 'release'], help='The job to perform: create, bind, or unbind.')
-        parser.add_argument('--allocation_id', type=str, help='The allocation ID of the EIP.')
-        parser.add_argument('--instance_id', type=str, default=instance_id, help='The instance ID to bind/unbind the EIP to.')
+        parser = argparse.ArgumentParser(description='Aliyun Elastic IPs का प्रबंधन करें।')
+        parser.add_argument('job', choices=['create', 'bind', 'unbind', 'release', 'describe'], help='किया जाने वाला कार्य: बनाएँ, बाँधें, या अनबाइंड करें।')
+        parser.add_argument('--allocation_id', type=str, help='EIP का आवंटन ID।')
+        parser.add_argument('--instance_id', type=str, default=instance_id, help='EIP को बाँधने/अनबाइंड करने के लिए instance ID।')
 
         parsed_args = parser.parse_args(args)
 
         if parsed_args.job == 'create':
             new_allocation_id = Sample.create_eip(region_id)
             if new_allocation_id:
-                print(f"EIP creation process initiated successfully. Allocation ID: {new_allocation_id}")
+                print(f"EIP निर्माण प्रक्रिया सफलतापूर्वक शुरू की गई। आवंटन ID: {new_allocation_id}")
             else:
-                print("EIP creation process failed.")
+                print("EIP निर्माण प्रक्रिया विफल रही।")
         elif parsed_args.job == 'bind':
             if not parsed_args.allocation_id:
-                print("Error: --allocation_id is required for bind job.")
+                print("त्रुटि: bind कार्य के लिए --allocation_id आवश्यक है।")
                 return
             if Sample.bind_eip(region_id, parsed_args.allocation_id, parsed_args.instance_id):
-                print(f"EIP binding process initiated successfully for EIP {parsed_args.allocation_id} and instance {parsed_args.instance_id}.")
+                print(f"EIP {parsed_args.allocation_id} और instance {parsed_args.instance_id} के लिए EIP बाँधने की प्रक्रिया सफलतापूर्वक शुरू की गई।")
             else:
-                print(f"EIP binding process failed for EIP {parsed_args.allocation_id} and instance {parsed_args.instance_id}.")
+                print(f"EIP {parsed_args.allocation_id} और instance {parsed_args.instance_id} के लिए EIP बाँधने की प्रक्रिया विफल रही।")
         elif parsed_args.job == 'unbind':
             if not parsed_args.allocation_id:
-                print("Error: --allocation_id is required for unbind job.")
+                print("त्रुटि: unbind कार्य के लिए --allocation_id आवश्यक है।")
                 return
             if Sample.unbind_eip(region_id, parsed_args.allocation_id, parsed_args.instance_id):
-                print(f"EIP unbinding process initiated successfully for EIP {parsed_args.allocation_id} and instance {parsed_args.instance_id}.")
+                print(f"EIP {parsed_args.allocation_id} और instance {parsed_args.instance_id} के लिए EIP अनबाइंड करने की प्रक्रिया सफलतापूर्वक शुरू की गई।")
             else:
-                print(f"EIP unbinding process failed for EIP {parsed_args.allocation_id} and instance {parsed_args.instance_id}.")
+                print(f"EIP {parsed_args.allocation_id} और instance {parsed_args.instance_id} के लिए EIP अनबाइंड करने की प्रक्रिया विफल रही।")
         elif parsed_args.job == 'release':
             if not parsed_args.allocation_id:
-                print("Error: --allocation_id is required for release job.")
+                print("त्रुटि: release कार्य के लिए --allocation_id आवश्यक है।")
                 return
             if Sample.release_eip(parsed_args.allocation_id):
-                 print(f"EIP release process initiated successfully for EIP {parsed_args.allocation_id}.")
+                 print(f"EIP {parsed_args.allocation_id} के लिए EIP जारी करने की प्रक्रिया सफलतापूर्वक शुरू की गई।")
             else:
-                print(f"EIP release process failed for EIP {parsed_args.allocation_id}.")
+                print(f"EIP {parsed_args.allocation_id} के लिए EIP जारी करने की प्रक्रिया विफल रही।")
+        elif parsed_args.job == 'describe':
+            Sample.describe_eip(region_id)
 
 
     @staticmethod
@@ -211,4 +238,10 @@ class Sample:
 
 if __name__ == '__main__':
     Sample.main(sys.argv[1:])
+
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py unbind --allocation_id eip-j6c2olvsa7jk9l42i1aaa
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py bind --allocation_id eip-j6c7mhenamvy6zao3haaa
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py release --allocation_id "eip-j6c2olvsa7jk9l42i"
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py describe
+
 ```

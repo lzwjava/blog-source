@@ -6,20 +6,24 @@ title: 阿里云弹性IP管理
 translated: true
 ---
 
-该脚本提供了一个命令行界面来管理阿里云弹性公网IP (EIP)。它允许您使用阿里云Python SDK 创建、绑定、解绑和释放 EIP。该脚本接受要执行的任务和 EIP 的分配 ID 作为参数。
+该脚本提供了一个命令行界面来管理阿里云弹性公网IP (EIP)。它允许你使用阿里云Python SDK 来创建、绑定、解绑和释放EIP。该脚本接受要执行的任务和EIP的分配ID作为参数。
 
 ```bash
 python aliyun_elastic_ip_manager.py unbind --allocation_id eip-j6c2olvsa7jk9l42iaaa
 python aliyun_elastic_ip_manager.py bind --allocation_id eip-j6c7mhenamvy6zao3haaa
 python aliyun_elastic_ip_manager.py release --allocation_id eip-j6c2olvsa7jk9l42aaa
+python aliyun_elastic_ip_manager.py describe
 ```
 
 ```python
+# -*- coding: utf-8 -*-
+# 此文件是自动生成的，请勿编辑。谢谢。
 import logging
 import os
 import sys
 from typing import List
 import argparse
+import json
 
 from alibabacloud_vpc20160428.client import Client as Vpc20160428Client
 from alibabacloud_tea_openapi import models as open_api_models
@@ -59,10 +63,10 @@ class Sample:
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.associate_eip_address_with_options(associate_eip_address_request, runtime)
-            logging.info(f"成功将 EIP {allocation_id} 绑定到实例 {instance_id}。结果：{result}")
+            logging.info(f"成功将EIP {allocation_id}绑定到实例 {instance_id}。结果：{result}")
             return True
         except Exception as error:
-            logging.error(f"绑定 EIP {allocation_id} 到实例 {instance_id} 时出错：{error}")
+            logging.error(f"绑定EIP {allocation_id}到实例 {instance_id}时出错：{error}")
             if hasattr(error, 'message'):
                 logging.error(f"错误信息：{error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
@@ -85,10 +89,10 @@ class Sample:
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.unassociate_eip_address_with_options(unassociate_eip_address_request, runtime)
-            logging.info(f"成功将 EIP {allocation_id} 从实例 {instance_id} 解绑。结果：{result}")
+            logging.info(f"成功解绑EIP {allocation_id}与实例 {instance_id}。结果：{result}")
             return True
         except Exception as error:
-            logging.error(f"解绑 EIP {allocation_id} 从实例 {instance_id} 时出错：{error}")
+            logging.error(f"解绑EIP {allocation_id}与实例 {instance_id}时出错：{error}")
             if hasattr(error, 'message'):
                 logging.error(f"错误信息：{error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
@@ -109,10 +113,10 @@ class Sample:
             result = client.allocate_eip_address_with_options(allocate_eip_address_request, runtime)
             print(result.body)
             allocation_id = result.body.allocation_id
-            logging.info(f"成功创建 EIP。分配 ID：{allocation_id}")
+            logging.info(f"成功创建EIP。分配ID：{allocation_id}")
             return allocation_id
         except Exception as error:
-            logging.error(f"创建 EIP 时出错：{error}")
+            logging.error(f"创建EIP时出错：{error}")
             if hasattr(error, 'message'):
                 logging.error(f"错误信息：{error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
@@ -131,10 +135,10 @@ class Sample:
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.release_eip_address_with_options(release_eip_address_request, runtime)
-            logging.info(f"成功释放 EIP {allocation_id}。结果：{result}")
+            logging.info(f"成功释放EIP {allocation_id}。结果：{result}")
             return True
         except Exception as error:
-            logging.error(f"释放 EIP {allocation_id} 时出错：{error}")
+            logging.error(f"释放EIP {allocation_id}时出错：{error}")
             if hasattr(error, 'message'):
                 logging.error(f"错误信息：{error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
@@ -142,6 +146,27 @@ class Sample:
             UtilClient.assert_as_string(str(error))
             return False
 
+    @staticmethod
+    def describe_eip(
+        region_id: str,
+    ) -> None:
+        client = Sample.create_client()
+        describe_eip_addresses_request = vpc_20160428_models.DescribeEipAddressesRequest(
+            region_id=region_id
+        )
+        runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
+        try:
+            result = client.describe_eip_addresses_with_options(describe_eip_addresses_request, runtime)
+            logging.info(f"成功描述EIP。")
+            print(json.dumps(result.body.to_map(), indent=4))
+        except Exception as error:
+            logging.error(f"描述EIP时出错：{error}")
+            if hasattr(error, 'message'):
+                logging.error(f"错误信息：{error.message}")
+            if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
+                logging.error(f"建议：{error.data.get('Recommend')}")
+            UtilClient.assert_as_string(str(error))
+            
 
     @staticmethod
     def main(
@@ -151,42 +176,44 @@ class Sample:
         instance_id = "i-j6c44l4zpphv7u7agdbk"
 
         parser = argparse.ArgumentParser(description='管理阿里云弹性公网IP。')
-        parser.add_argument('job', choices=['create', 'bind', 'unbind', 'release'], help='要执行的操作：创建、绑定或解绑。')
-        parser.add_argument('--allocation_id', type=str, help='EIP 的分配 ID。')
-        parser.add_argument('--instance_id', type=str, default=instance_id, help='要绑定/解绑 EIP 的实例 ID。')
+        parser.add_argument('job', choices=['create', 'bind', 'unbind', 'release', 'describe'], help='要执行的任务：创建、绑定或解绑。')
+        parser.add_argument('--allocation_id', type=str, help='EIP的分配ID。')
+        parser.add_argument('--instance_id', type=str, default=instance_id, help='要绑定/解绑EIP的实例ID。')
 
         parsed_args = parser.parse_args(args)
 
         if parsed_args.job == 'create':
             new_allocation_id = Sample.create_eip(region_id)
             if new_allocation_id:
-                print(f"EIP 创建过程已成功启动。分配 ID：{new_allocation_id}")
+                print(f"EIP创建过程已成功启动。分配ID：{new_allocation_id}")
             else:
-                print("EIP 创建过程失败。")
+                print("EIP创建过程失败。")
         elif parsed_args.job == 'bind':
             if not parsed_args.allocation_id:
-                print("错误：bind 操作需要 --allocation_id 参数。")
+                print("错误：bind 任务需要 --allocation_id 参数。")
                 return
             if Sample.bind_eip(region_id, parsed_args.allocation_id, parsed_args.instance_id):
-                print(f"EIP 绑定过程已成功启动，EIP 为 {parsed_args.allocation_id}，实例为 {parsed_args.instance_id}。")
+                print(f"EIP绑定过程已成功启动，EIP：{parsed_args.allocation_id}，实例：{parsed_args.instance_id}。")
             else:
-                print(f"EIP 绑定过程失败，EIP 为 {parsed_args.allocation_id}，实例为 {parsed_args.instance_id}。")
+                print(f"EIP绑定过程失败，EIP：{parsed_args.allocation_id}，实例：{parsed_args.instance_id}。")
         elif parsed_args.job == 'unbind':
             if not parsed_args.allocation_id:
-                print("错误：unbind 操作需要 --allocation_id 参数。")
+                print("错误：unbind 任务需要 --allocation_id 参数。")
                 return
             if Sample.unbind_eip(region_id, parsed_args.allocation_id, parsed_args.instance_id):
-                print(f"EIP 解绑过程已成功启动，EIP 为 {parsed_args.allocation_id}，实例为 {parsed_args.instance_id}。")
+                print(f"EIP解绑过程已成功启动，EIP：{parsed_args.allocation_id}，实例：{parsed_args.instance_id}。")
             else:
-                print(f"EIP 解绑过程失败，EIP 为 {parsed_args.allocation_id}，实例为 {parsed_args.instance_id}。")
+                print(f"EIP解绑过程失败，EIP：{parsed_args.allocation_id}，实例：{parsed_args.instance_id}。")
         elif parsed_args.job == 'release':
             if not parsed_args.allocation_id:
-                print("错误：release 操作需要 --allocation_id 参数。")
+                print("错误：release 任务需要 --allocation_id 参数。")
                 return
             if Sample.release_eip(parsed_args.allocation_id):
-                 print(f"EIP 释放过程已成功启动，EIP 为 {parsed_args.allocation_id}。")
+                 print(f"EIP释放过程已成功启动，EIP：{parsed_args.allocation_id}。")
             else:
-                print(f"EIP 释放过程失败，EIP 为 {parsed_args.allocation_id}。")
+                print(f"EIP释放过程失败，EIP：{parsed_args.allocation_id}。")
+        elif parsed_args.job == 'describe':
+            Sample.describe_eip(region_id)
 
 
     @staticmethod
@@ -211,4 +238,10 @@ class Sample:
 
 if __name__ == '__main__':
     Sample.main(sys.argv[1:])
+
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py unbind --allocation_id eip-j6c2olvsa7jk9l42i1aaa
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py bind --allocation_id eip-j6c7mhenamvy6zao3haaa
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py release --allocation_id "eip-j6c2olvsa7jk9l42i"
+# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py describe
+
 ```
