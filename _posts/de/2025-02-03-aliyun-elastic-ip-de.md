@@ -6,7 +6,7 @@ title: Aliyun Elastic IPs verwalten
 translated: true
 ---
 
-Dieses Skript bietet eine Kommandozeilen-Schnittstelle zur Verwaltung von Aliyun Elastic IPs (EIPs). Es ermöglicht das Erstellen, Binden, Lösen und Freigeben von EIPs mithilfe des Aliyun SDK für Python. Das Skript verwendet Argumente für den auszuführenden Job und die Allocation ID der EIP.
+Dieses Skript bietet eine Kommandozeilen-Schnittstelle zur Verwaltung von Aliyun Elastic IPs (EIPs). Es ermöglicht das Erstellen, Binden, Aufheben der Bindung und Freigeben von EIPs mithilfe des Aliyun SDK für Python. Das Skript verwendet Argumente für den auszuführenden Job und die Allocation ID der EIP.
 
 ```bash
 python aliyun_elastic_ip_manager.py unbind --allocation_id eip-j6c2olvsa7jk9l42iaaa
@@ -89,10 +89,10 @@ class Sample:
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.unassociate_eip_address_with_options(unassociate_eip_address_request, runtime)
-            logging.info(f"EIP {allocation_id} erfolgreich von Instanz {instance_id} gelöst. Ergebnis: {result}")
+            logging.info(f"EIP {allocation_id} erfolgreich von Instanz {instance_id} getrennt. Ergebnis: {result}")
             return True
         except Exception as error:
-            logging.error(f"Fehler beim Lösen von EIP {allocation_id} von Instanz {instance_id}: {error}")
+            logging.error(f"Fehler beim Trennen von EIP {allocation_id} von Instanz {instance_id}: {error}")
             if hasattr(error, 'message'):
                 logging.error(f"Fehlermeldung: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
@@ -189,9 +189,9 @@ class Sample:
         instance_id = "i-j6c44l4zpphv7u7agdbk"
 
         parser = argparse.ArgumentParser(description='Aliyun Elastic IPs verwalten.')
-        parser.add_argument('job', choices=['create', 'bind', 'unbind', 'release', 'describe', 'all'], help='Der auszuführende Job: create, bind, unbind.')
+        parser.add_argument('job', choices=['create', 'bind', 'unbind', 'release', 'describe', 'all'], help='Der auszuführende Job: create, bind oder unbind.')
         parser.add_argument('--allocation_id', type=str, help='Die Allocation ID der EIP.')
-        parser.add_argument('--instance_id', type=str, default=instance_id, help='Die Instanz-ID, an die die EIP gebunden/gelöst werden soll.')
+        parser.add_argument('--instance_id', type=str, default=instance_id, help='Die Instanz-ID, an die die EIP gebunden/getrennt werden soll.')
 
         parsed_args = parser.parse_args(args)
 
@@ -203,7 +203,7 @@ class Sample:
                 print("EIP-Erstellungsprozess fehlgeschlagen.")
         elif parsed_args.job == 'bind':
             if not parsed_args.allocation_id:
-                print("Fehler: --allocation_id wird für den Bind-Job benötigt.")
+                print("Fehler: --allocation_id wird für den bind-Job benötigt.")
                 return
             if Sample.bind_eip(region_id, parsed_args.allocation_id, parsed_args.instance_id):
                 print(f"EIP-Bindungsprozess erfolgreich für EIP {parsed_args.allocation_id} und Instanz {parsed_args.instance_id} initiiert.")
@@ -211,15 +211,15 @@ class Sample:
                 print(f"EIP-Bindungsprozess für EIP {parsed_args.allocation_id} und Instanz {parsed_args.instance_id} fehlgeschlagen.")
         elif parsed_args.job == 'unbind':
             if not parsed_args.allocation_id:
-                print("Fehler: --allocation_id wird für den Unbind-Job benötigt.")
+                print("Fehler: --allocation_id wird für den unbind-Job benötigt.")
                 return
             if Sample.unbind_eip(region_id, parsed_args.allocation_id, parsed_args.instance_id):
-                print(f"EIP-Löseprozess erfolgreich für EIP {parsed_args.allocation_id} und Instanz {parsed_args.instance_id} initiiert.")
+                print(f"EIP-Trennungsprozess erfolgreich für EIP {parsed_args.allocation_id} und Instanz {parsed_args.instance_id} initiiert.")
             else:
-                print(f"EIP-Löseprozess für EIP {parsed_args.allocation_id} und Instanz {parsed_args.instance_id} fehlgeschlagen.")
+                print(f"EIP-Trennungsprozess für EIP {parsed_args.allocation_id} und Instanz {parsed_args.instance_id} fehlgeschlagen.")
         elif parsed_args.job == 'release':
             if not parsed_args.allocation_id:
-                print("Fehler: --allocation_id wird für den Release-Job benötigt.")
+                print("Fehler: --allocation_id wird für den release-Job benötigt.")
                 return
             if Sample.release_eip(parsed_args.allocation_id):
                  print(f"EIP-Freigabeprozess erfolgreich für EIP {parsed_args.allocation_id} initiiert.")
@@ -227,7 +227,7 @@ class Sample:
                 print(f"EIP-Freigabeprozess für EIP {parsed_args.allocation_id} fehlgeschlagen.")
         elif parsed_args.job == 'describe':
             if not parsed_args.instance_id:
-                print("Fehler: --instance_id wird für den Describe-Job benötigt.")
+                print("Fehler: --instance_id wird für den describe-Job benötigt.")
                 return
             allocation_id = Sample.describe_eip(region_id, parsed_args.instance_id)
             if allocation_id:
@@ -243,12 +243,12 @@ class Sample:
                 print("Keine EIP zum Verarbeiten gefunden.")
                 return
             
-            # Aktuelle EIP lösen
+            # Aktuelle EIP trennen
             if current_allocation_id:
                 if Sample.unbind_eip(region_id, current_allocation_id, parsed_args.instance_id):
-                    print(f"EIP {current_allocation_id} erfolgreich von Instanz {parsed_args.instance_id} gelöst.")
+                    print(f"EIP {current_allocation_id} erfolgreich von Instanz {parsed_args.instance_id} getrennt.")
                 else:
-                    print(f"Fehler beim Lösen von EIP {current_allocation_id} von Instanz {parsed_args.instance_id}.")
+                    print(f"EIP {current_allocation_id} konnte nicht von Instanz {parsed_args.instance_id} getrennt werden.")
                     return
             
             # Neue EIP erstellen
@@ -263,7 +263,7 @@ class Sample:
             if Sample.bind_eip(region_id, new_allocation_id, parsed_args.instance_id):
                 print(f"Neue EIP {new_allocation_id} erfolgreich an Instanz {parsed_args.instance_id} gebunden.")
             else:
-                print(f"Fehler beim Binden der neuen EIP {new_allocation_id} an Instanz {parsed_args.instance_id}.")
+                print(f"Neue EIP {new_allocation_id} konnte nicht an Instanz {parsed_args.instance_id} gebunden werden.")
                 return
             
             # Alte EIP freigeben
@@ -271,14 +271,14 @@ class Sample:
                 if Sample.release_eip(current_allocation_id):
                     print(f"Alte EIP {current_allocation_id} erfolgreich freigegeben.")
                 else:
-                    print(f"Fehler beim Freigeben der alten EIP {current_allocation_id}.")
+                    print(f"Alte EIP {current_allocation_id} konnte nicht freigegeben werden.")
             
             # Erneut beschreiben, um den endgültigen Zustand anzuzeigen
             final_allocation_id = Sample.describe_eip(region_id, parsed_args.instance_id)
             if final_allocation_id:
                 print(f"Endgültige Allocation ID: {final_allocation_id}")
             else:
-                print("Keine EIP nach der Verarbeitung gefunden.")
+                print("Nach der Verarbeitung wurde keine EIP gefunden.")
 
 
     @staticmethod

@@ -2,11 +2,11 @@
 audio: true
 lang: es
 layout: post
-title: Gestionando IPs Elásticas de Aliyun
+title: Administración de IPs Elásticas de Aliyun
 translated: true
 ---
 
-Este script proporciona una interfaz de línea de comandos para administrar las IPs elásticas (EIP) de Aliyun. Permite crear, enlazar, desenlazar y liberar EIP utilizando el SDK de Aliyun para Python. El script toma argumentos para la tarea a realizar y el ID de asignación de la EIP.
+Este script proporciona una interfaz de línea de comandos para gestionar las IPs elásticas de Aliyun (EIP). Permite crear, enlazar, desenlazar y liberar EIP usando el SDK de Aliyun para Python. El script toma argumentos para la tarea a realizar y el ID de asignación de la EIP.
 
 ```bash
 python aliyun_elastic_ip_manager.py unbind --allocation_id eip-j6c2olvsa7jk9l42iaaa
@@ -17,7 +17,7 @@ python aliyun_elastic_ip_manager.py describe
 
 ```python
 # -*- coding: utf-8 -*-
-# Este archivo es generado automáticamente, no lo edite. Gracias.
+# Este archivo es generado automáticamente, no lo edites. Gracias.
 import logging
 import os
 import sys
@@ -66,7 +66,7 @@ class Sample:
             logging.info(f"EIP {allocation_id} enlazado correctamente a la instancia {instance_id}. Resultado: {result}")
             return True
         except Exception as error:
-            logging.error(f"Error al enlazar la EIP {allocation_id} a la instancia {instance_id}: {error}")
+            logging.error(f"Error enlazando EIP {allocation_id} a la instancia {instance_id}: {error}")
             if hasattr(error, 'message'):
                 logging.error(f"Mensaje de error: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
@@ -92,7 +92,7 @@ class Sample:
             logging.info(f"EIP {allocation_id} desenlazado correctamente de la instancia {instance_id}. Resultado: {result}")
             return True
         except Exception as error:
-            logging.error(f"Error al desenlazar la EIP {allocation_id} de la instancia {instance_id}: {error}")
+            logging.error(f"Error desenlazando EIP {allocation_id} de la instancia {instance_id}: {error}")
             if hasattr(error, 'message'):
                 logging.error(f"Mensaje de error: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
@@ -116,10 +116,10 @@ class Sample:
             result = client.allocate_eip_address_with_options(allocate_eip_address_request, runtime)
             print(result.body)
             allocation_id = result.body.allocation_id
-            logging.info(f"EIP creada correctamente. ID de asignación: {allocation_id}")
+            logging.info(f"EIP creado correctamente. ID de asignación: {allocation_id}")
             return allocation_id
         except Exception as error:
-            logging.error(f"Error al crear la EIP: {error}")
+            logging.error(f"Error creando EIP: {error}")
             if hasattr(error, 'message'):
                 logging.error(f"Mensaje de error: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
@@ -138,10 +138,10 @@ class Sample:
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.release_eip_address_with_options(release_eip_address_request, runtime)
-            logging.info(f"EIP {allocation_id} liberada correctamente. Resultado: {result}")
+            logging.info(f"EIP {allocation_id} liberado correctamente. Resultado: {result}")
             return True
         except Exception as error:
-            logging.error(f"Error al liberar la EIP {allocation_id}: {error}")
+            logging.error(f"Error liberando EIP {allocation_id}: {error}")
             if hasattr(error, 'message'):
                 logging.error(f"Mensaje de error: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
@@ -161,7 +161,7 @@ class Sample:
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
         try:
             result = client.describe_eip_addresses_with_options(describe_eip_addresses_request, runtime)
-            logging.info(f"EIP descrita correctamente.")
+            logging.info(f"EIP descrito correctamente.")
             print(json.dumps(result.body.to_map(), indent=4))
             if result.body.eip_addresses and hasattr(result.body.eip_addresses, 'eip_address') and result.body.eip_addresses.eip_address:
                 for eip in result.body.eip_addresses.eip_address:
@@ -173,7 +173,7 @@ class Sample:
                 logging.info("No se encontraron direcciones EIP.")
                 return None
         except Exception as error:
-            logging.error(f"Error al describir la EIP: {error}")
+            logging.error(f"Error describiendo EIP: {error}")
             if hasattr(error, 'message'):
                 logging.error(f"Mensaje de error: {error.message}")
             if hasattr(error, 'data') and error.data and error.data.get('Recommend'):
@@ -188,10 +188,10 @@ class Sample:
         region_id = "cn-hongkong"
         instance_id = "i-j6c44l4zpphv7u7agdbk"
 
-        parser = argparse.ArgumentParser(description='Administrar IPs elásticas de Aliyun.')
+        parser = argparse.ArgumentParser(description='Gestionar IPs elásticas de Aliyun.')
         parser.add_argument('job', choices=['create', 'bind', 'unbind', 'release', 'describe', 'all'], help='La tarea a realizar: crear, enlazar o desenlazar.')
         parser.add_argument('--allocation_id', type=str, help='El ID de asignación de la EIP.')
-        parser.add_argument('--instance_id', type=str, default=instance_id, help='El ID de la instancia al que se va a enlazar/desenlazar la EIP.')
+        parser.add_argument('--instance_id', type=str, default=instance_id, help='El ID de instancia al que enlazar/desenlazar la EIP.')
 
         parsed_args = parser.parse_args(args)
 
@@ -206,25 +206,25 @@ class Sample:
                 print("Error: --allocation_id es requerido para la tarea bind.")
                 return
             if Sample.bind_eip(region_id, parsed_args.allocation_id, parsed_args.instance_id):
-                print(f"Proceso de enlace de EIP iniciado correctamente para la EIP {parsed_args.allocation_id} y la instancia {parsed_args.instance_id}.")
+                print(f"Proceso de enlace de EIP iniciado correctamente para EIP {parsed_args.allocation_id} e instancia {parsed_args.instance_id}.")
             else:
-                print(f"Proceso de enlace de EIP fallido para la EIP {parsed_args.allocation_id} y la instancia {parsed_args.instance_id}.")
+                print(f"Proceso de enlace de EIP fallido para EIP {parsed_args.allocation_id} e instancia {parsed_args.instance_id}.")
         elif parsed_args.job == 'unbind':
             if not parsed_args.allocation_id:
                 print("Error: --allocation_id es requerido para la tarea unbind.")
                 return
             if Sample.unbind_eip(region_id, parsed_args.allocation_id, parsed_args.instance_id):
-                print(f"Proceso de desenlace de EIP iniciado correctamente para la EIP {parsed_args.allocation_id} y la instancia {parsed_args.instance_id}.")
+                print(f"Proceso de desenlace de EIP iniciado correctamente para EIP {parsed_args.allocation_id} e instancia {parsed_args.instance_id}.")
             else:
-                print(f"Proceso de desenlace de EIP fallido para la EIP {parsed_args.allocation_id} y la instancia {parsed_args.instance_id}.")
+                print(f"Proceso de desenlace de EIP fallido para EIP {parsed_args.allocation_id} e instancia {parsed_args.instance_id}.")
         elif parsed_args.job == 'release':
             if not parsed_args.allocation_id:
                 print("Error: --allocation_id es requerido para la tarea release.")
                 return
             if Sample.release_eip(parsed_args.allocation_id):
-                 print(f"Proceso de liberación de EIP iniciado correctamente para la EIP {parsed_args.allocation_id}.")
+                 print(f"Proceso de liberación de EIP iniciado correctamente para EIP {parsed_args.allocation_id}.")
             else:
-                print(f"Proceso de liberación de EIP fallido para la EIP {parsed_args.allocation_id}.")
+                print(f"Proceso de liberación de EIP fallido para EIP {parsed_args.allocation_id}.")
         elif parsed_args.job == 'describe':
             if not parsed_args.instance_id:
                 print("Error: --instance_id es requerido para la tarea describe.")
@@ -246,9 +246,9 @@ class Sample:
             # Desenlazar la EIP actual
             if current_allocation_id:
                 if Sample.unbind_eip(region_id, current_allocation_id, parsed_args.instance_id):
-                    print(f"EIP {current_allocation_id} desenlazada correctamente de la instancia {parsed_args.instance_id}.")
+                    print(f"EIP {current_allocation_id} desenlazado correctamente de la instancia {parsed_args.instance_id}.")
                 else:
-                    print(f"Error al desenlazar la EIP {current_allocation_id} de la instancia {parsed_args.instance_id}.")
+                    print(f"Error al desenlazar EIP {current_allocation_id} de la instancia {parsed_args.instance_id}.")
                     return
             
             # Crear una nueva EIP
