@@ -6,7 +6,7 @@ title: Tipps zur Netzwerkoptimierung
 translated: true
 ---
 
-Hilfreich, Empfehlung:
+Nützlich, Empfehlung:
 
 - Verwenden Sie vorzugsweise ein 5G-WLAN-Signal oder ein Ethernet-Kabel.
 
@@ -32,7 +32,7 @@ Hilfreich, Empfehlung:
 
 Ausprobiert:
 
-- [Shadowsocks Proxy Probleme](./shadowsocks-en)
+- [Shadowsocks-Proxy-Probleme](./shadowsocks-en)
 
 - [Cloud-Anbieter](./cloud-providers-en)
 
@@ -48,10 +48,12 @@ Ausprobiert:
 
 - [V2Ray ausprobieren: Eine Schritt-für-Schritt-Anleitung](./v2ray-en)
 
-- [V2Ray Skript](./v2ray-script-en)
+- [V2Ray-Skript](./v2ray-script-en)
 
 - [Verbesserung von OpenWRT mit OpenClash und Shadowsocks](./openwrt-hack-en)
 
-- [Verwalten von AWS Lightsail Instanzen](./lightsail-en)
+- [Verwalten von AWS Lightsail-Instanzen](./lightsail-en)
 
-- [Verwalten von reservierten DigitalOcean IPs](./reserved-ip-en)
+- [Verwalten von reservierten DigitalOcean-IPs](./reserved-ip-en)
+
+- [Hetzner Cloud](./hetzner-en)

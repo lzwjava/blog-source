@@ -2,50 +2,58 @@
 audio: true
 lang: es
 layout: post
-title: Consejos de Optimización de Red
+title: Consejos para la optimización de red
 translated: true
 ---
 
 Útil, Recomendado:
 
-- Preferir usar una señal WiFi 5G o un cable Ethernet.
+- Preferiblemente usar una señal WiFi 5G o un cable Ethernet.
 
-- Utilice la aplicación Speedtest o visite https://www.speedtest.net para probar su conexión regularmente.
+- Usar la aplicación Speedtest o visitar https://www.speedtest.net para probar tu conexión regularmente.
 
-- Utilice traceroute, ping o dig/nslookup para diagnósticos de red.
+- Usar traceroute, ping o dig/nslookup para diagnósticos de red.
 
-- [Configurar su servidor proxy](./diy-proxy-en)
+- [Configurar tu Servidor Proxy](./diy-proxy-en)
 
-- [Router en malla](./mesh-router-en)
-
-- [Proveedores de la nube](./cloud-providers-en)
-
-- [Algunas plataformas de la nube global](./cloud-platforms-en)
+- [Router Mesh](./mesh-router-en)
 
 - [Tarjetas SIM de Macao](./macao-en)
 
-- [Análisis de prohibición del servidor proxy](./proxy-ban-en)
+- [Análisis del Bloqueo de Servidores Proxy](./proxy-ban-en)
 
-- [Problemas de proxy Shadowsocks](./shadowsocks-en)
+- [Herramienta de Código Abierto: Auto SS Config](./auto-ss-config-en)
 
-- [Herramienta de código abierto: Configuración automática de SS](./auto-ss-config-en)
+- [Mostrar la Configuración del Proxy Antes de Ejecutar Comandos](./preexec-en)
 
-- [Mostrar configuración de proxy antes de ejecutar comandos](./preexec-en)
+- [Soluciones Proxy en China - 2025](./proxy-en)
 
-- [Soluciones de proxy en China - 2025](./proxy-en)
+- [Gestionando IPs Elásticas de Aliyun](./aliyun-elastic-ip-en)
 
-Intentado:
+Probado:
 
-- [Tester de cable de red](./cable-tester-en)
+- [Problemas con el Proxy Shadowsocks](./shadowsocks-en)
 
-- [Fuerza de señal Wi-Fi](./wifi-en)
+- [Proveedores de Nube](./cloud-providers-en)
+
+- [Algunas Plataformas Globales de Nube](./cloud-platforms-en)
+
+- [Comprobador de Cable de Red](./cable-tester-en)
+
+- [Fuerza de la Señal Wi-Fi](./wifi-en)
 
 - [Adaptador Lightning a Ethernet](./lightning-ethernet-en)
 
-- [Herramienta de proxy: Squid y Danted](./squid-dante-en)
+- [Herramienta Proxy: Squid y Danted](./squid-dante-en)
 
-- [Intenta V2Ray: una guía paso a paso](./v2ray-en)
+- [Prueba V2Ray: Una Guía Paso a Paso](./v2ray-en)
 
-- [Script de V2Ray](./v2ray-script-en)
+- [Script V2Ray](./v2ray-script-en)
 
-- [Mejorar OpenWRT con OpenClash y Shadowsocks](./openwrt-hack-en)
+- [Mejorando OpenWRT con OpenClash y Shadowsocks](./openwrt-hack-en)
+
+- [Gestionando Instancias AWS Lightsail](./lightsail-en)
+
+- [Gestionando IPs Reservadas de DigitalOcean](./reserved-ip-en)
+
+- [Hetzner Cloud](./hetzner-en)
