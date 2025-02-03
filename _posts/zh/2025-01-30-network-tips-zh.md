@@ -34,11 +34,11 @@ translated: true
 
 - [Shadowsocks代理问题](./shadowsocks-en)
 
-- [云提供商](./cloud-providers-en)
+- [云服务提供商](./cloud-providers-en)
 
 - [一些全球云平台](./cloud-platforms-en)
 
-- [网线测试器](./cable-tester-en)
+- [网络电缆测试器](./cable-tester-en)
 
 - [Wi-Fi信号强度](./wifi-en)
 

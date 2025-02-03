@@ -6,8 +6,6 @@ title: Network Optimization Tips
 translated: false
 ---
 
-
-
 Useful, Recommend:
 
 - Prefer using a 5G WiFi signal or an Ethernet cable.
@@ -20,15 +18,9 @@ Useful, Recommend:
 
 - [Mesh Router](./mesh-router-en)
 
-- [Cloud Providers](./cloud-providers-en)
-
-- [Some Global Cloud Platforms](./cloud-platforms-en)
-
 - [Macau SIM Cards](./macao-en)
 
 - [Analysis of Proxy Server Ban](./proxy-ban-en)
-
-- [Shadowsocks Proxy Issues](./shadowsocks-en)
 
 - [Open Source Tool: Auto SS Config](./auto-ss-config-en)
 
@@ -36,7 +28,15 @@ Useful, Recommend:
 
 - [Proxy Solutions in China - 2025](./proxy-en)
 
+- [Managing Aliyun Elastic IPs](./aliyun-elastic-ip-en)
+
 Tried:
+
+- [Shadowsocks Proxy Issues](./shadowsocks-en)
+
+- [Cloud Providers](./cloud-providers-en)
+
+- [Some Global Cloud Platforms](./cloud-platforms-en)
 
 - [Network Cable Tester](./cable-tester-en)
 
@@ -52,3 +52,6 @@ Tried:
 
 - [Enhancing OpenWRT with OpenClash and Shadowsocks](./openwrt-hack-en)
 
+- [Managing AWS Lightsail Instances](./lightsail-en)
+
+- [Managing DigitalOcean Reserved IPs](./reserved-ip-en)
