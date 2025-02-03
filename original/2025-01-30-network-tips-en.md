@@ -52,3 +52,8 @@ Tried:
 
 - [Enhancing OpenWRT with OpenClash and Shadowsocks](./openwrt-hack-en)
 
+- [Managing AWS Lightsail Instances](./lightsail-en)
+
+- [Managing DigitalOcean Reserved IPs](./reserved-ip-en)
+
+
