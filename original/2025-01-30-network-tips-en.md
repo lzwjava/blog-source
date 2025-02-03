@@ -57,3 +57,5 @@ Tried:
 - [Managing DigitalOcean Reserved IPs](./reserved-ip-en)
 
 - [Hetzner Cloud](./hetzner-en)
+
+- [OpenWrt Reset](./openwrt-reset-en)
