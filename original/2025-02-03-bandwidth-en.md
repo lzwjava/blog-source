@@ -20,4 +20,3 @@ For comparison, using 5G cellular data with China Telecom, I observed:
 
 This suggests the bottleneck is likely related to the cable or home broadband connection.
 
-
