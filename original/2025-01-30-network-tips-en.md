@@ -56,4 +56,4 @@ Tried:
 
 - [Managing DigitalOcean Reserved IPs](./reserved-ip-en)
 
-
+- [Hetzner Cloud](./hetzner-en)
