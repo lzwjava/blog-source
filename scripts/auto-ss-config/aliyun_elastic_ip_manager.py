@@ -26,15 +26,6 @@ class Sample:
         )
         config.endpoint = f'vpc.cn-hongkong.aliyuncs.com'
         return Vpc20160428Client(config)
-    
-    @staticmethod
-    def create_ecs_client() -> Ecs20140526Client:
-        config = open_api_models.Config(
-            access_key_id=os.environ['ALIBABA_CLOUD_ACCESS_ID_API_KEY'],
-            access_key_secret=os.environ['ALIBABA_CLOUD_ACCESS_API_KEY']
-        )
-        config.endpoint = f'ecs.cn-hongkong.aliyuncs.com'
-        return Ecs20140526Client(config)
 
     @staticmethod
     def bind_eip(
