@@ -14,7 +14,7 @@ from langchain.retrievers import ContextualCompressionRetriever
 # init embedding model
 embedding_model_name = 'maidalun1020/bce-embedding-base_v1'
 embedding_model_kwargs = {'device': 'cpu'}
-embedding_encode_kwargs = {'batch_size': 32, 'normalize_embeddings': True, 'show_progress_bar': False}
+embedding_encode_kwargs = {'batch_size': 32, 'normalize_embeddings': True}
 
 embed_model = HuggingFaceEmbeddings(
   model_name=embedding_model_name,
@@ -23,16 +23,17 @@ embed_model = HuggingFaceEmbeddings(
 )
 
 reranker_model_name = "maidalun1020/bce-reranker-base_v1"
-reranker_model = RerankerModel(model_name_or_path=reranker_model_name, device='cpu')
-reranker = BCERerank(model=reranker_model, top_n=5)
+# reranker_model = RerankerModel(model_name_or_path=reranker_model_name)
 
 # init documents
-documents = PyPDFLoader("BCEmbedding/tools/eval_rag/eval_pdfs/Comp_en_llama2.pdf").load()
+documents = PyPDFLoader("assets/pdfs/en/2025-02-04-wifi-speed-en.pdf").load()
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1500, chunk_overlap=200)
 texts = text_splitter.split_documents(documents)
 
 # example 1. retrieval with embedding and reranker
 retriever = FAISS.from_documents(texts, embed_model, distance_strategy=DistanceStrategy.MAX_INNER_PRODUCT).as_retriever(search_type="similarity", search_kwargs={"score_threshold": 0.3, "k": 10})
+
+reranker = BCERerank(model=reranker_model_name)
 
 compression_retriever = ContextualCompressionRetriever(
     base_compressor=reranker, base_retriever=retriever
