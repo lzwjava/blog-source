@@ -1,3 +1,20 @@
+---
+audio: false
+lang: en
+layout: post
+title: Managing Aliyun Elastic IPs
+translated: false
+---
+
+This script provides a command-line interface to manage Aliyun Elastic IPs (EIPs). It allows you to create, bind, unbind, and release EIPs using the Aliyun SDK for Python. The script takes arguments for the job to perform and the allocation ID of the EIP.
+
+```bash
+python aliyun_elastic_ip_manager.py unbind --allocation_id eip-j6c2olvsa7jk9l42iaaa
+python aliyun_elastic_ip_manager.py bind --allocation_id eip-j6c7mhenamvy6zao3haaa
+python aliyun_elastic_ip_manager.py release --allocation_id eip-j6c2olvsa7jk9l42aaa
+```
+
+```python
 import logging
 import os
 import sys
@@ -194,8 +211,5 @@ class Sample:
 
 if __name__ == '__main__':
     Sample.main(sys.argv[1:])
+```
 
-
-# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py unbind --allocation_id eip-j6c2olvsa7jk9l42i12aa
-# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py bind --allocation_id eip-j6c7mhenamvy6zao3h085
-# python scripts/auto-ss-config/aliyun_elastic_ip_manager.py release --allocation_id "eip-j6c2olvsa7jk9l42i12aa"
