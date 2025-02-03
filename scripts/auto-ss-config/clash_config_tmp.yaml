@@ -117,7 +117,6 @@ rules:
   - DOMAIN-SUFFIX,chatgpt.com,AI
   - DOMAIN-SUFFIX,x.ai,AI
   - DOMAIN-SUFFIX,open.ai,AI
-  - DOMAIN-SUFFIX,googleapis.com,AI
   - DOMAIN-SUFFIX,anthropic.com,AI
   - RULE-SET,Global,Proxy
   - RULE-SET,China,DIRECT
