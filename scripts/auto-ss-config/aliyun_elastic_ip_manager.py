@@ -90,7 +90,7 @@ class Sample:
         allocate_eip_address_request = vpc_20160428_models.AllocateEipAddressRequest(
             region_id= region_id,
             instance_charge_type='PostPaid',
-            internet_charge_type='PayByBandwidth',
+            internet_charge_type='PayByTraffic',
             bandwidth='200'
         )
         runtime = util_models.RuntimeOptions(read_timeout=60000, connect_timeout=60000)
@@ -134,6 +134,7 @@ class Sample:
     @staticmethod
     def describe_eip(
         region_id: str,
+        instance_id: str,
     ) -> str | None:
         client = Sample.create_client()
         describe_eip_addresses_request = vpc_20160428_models.DescribeEipAddressesRequest(
@@ -145,12 +146,11 @@ class Sample:
             logging.info(f"Successfully described EIP.")
             print(json.dumps(result.body.to_map(), indent=4))
             if result.body.eip_addresses and hasattr(result.body.eip_addresses, 'eip_address') and result.body.eip_addresses.eip_address:
-                if len(result.body.eip_addresses.eip_address) > 0:
-                    first_allocation_id = result.body.eip_addresses.eip_address[0].allocation_id
-                    return first_allocation_id
-                else:
-                    logging.info("No EIP addresses found.")
-                    return None
+                for eip in result.body.eip_addresses.eip_address:
+                    if eip.instance_id == instance_id:
+                        return eip.allocation_id
+                logging.info(f"No EIP address found for instance {instance_id}")
+                return None
             else:
                 logging.info("No EIP addresses found.")
                 return None
@@ -208,10 +208,17 @@ class Sample:
             else:
                 print(f"EIP release process failed for EIP {parsed_args.allocation_id}.")
         elif parsed_args.job == 'describe':
-            Sample.describe_eip(region_id)
+            if not parsed_args.instance_id:
+                print("Error: --instance_id is required for describe job.")
+                return
+            allocation_id = Sample.describe_eip(region_id, parsed_args.instance_id)
+            if allocation_id:
+                print(f"Allocation ID: {allocation_id}")
+            else:
+                print("No EIP found.")
         elif parsed_args.job == 'all':
             # Describe to get current allocation ID
-            current_allocation_id = Sample.describe_eip(region_id)
+            current_allocation_id = Sample.describe_eip(region_id, parsed_args.instance_id)
             if current_allocation_id:
                 print(f"Current Allocation ID: {current_allocation_id}")
             else:
@@ -249,7 +256,7 @@ class Sample:
                     print(f"Failed to release old EIP {current_allocation_id}.")
             
             # Describe again to show the final state
-            final_allocation_id = Sample.describe_eip(region_id)
+            final_allocation_id = Sample.describe_eip(region_id, parsed_args.instance_id)
             if final_allocation_id:
                 print(f"Final Allocation ID: {final_allocation_id}")
             else:
