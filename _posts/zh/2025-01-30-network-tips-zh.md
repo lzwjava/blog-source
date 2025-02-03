@@ -6,46 +6,52 @@ title: 网络优化技巧
 translated: true
 ---
 
-有用的，推荐：
+有用建议：
 
-- 喜欢使用 5G WiFi 信号或以太网电缆。
+- 最好使用5G WiFi信号或以太网线。
 
-- 使用 Speedtest 应用或访问 https://www.speedtest.net 定期测试您的连接。
+- 使用Speedtest应用或访问https://www.speedtest.net定期测试您的网络连接。
 
-- 使用 traceroute、ping 或 dig/nslookup 进行网络诊断。
+- 使用traceroute、ping或dig/nslookup进行网络诊断。
 
 - [设置您的代理服务器](./diy-proxy-en)
 
-- [网状路由器](./mesh-router-en)
+- [Mesh路由器](./mesh-router-en)
+
+- [澳门SIM卡](./macao-en)
+
+- [代理服务器封禁分析](./proxy-ban-en)
+
+- [开源工具：Auto SS Config](./auto-ss-config-en)
+
+- [运行命令前显示代理设置](./preexec-en)
+
+- [中国代理解决方案 - 2025](./proxy-en)
+
+- [管理阿里云弹性IP](./aliyun-elastic-ip-en)
+
+已尝试：
+
+- [Shadowsocks代理问题](./shadowsocks-en)
 
 - [云提供商](./cloud-providers-en)
 
 - [一些全球云平台](./cloud-platforms-en)
 
-- [澳门 SIM 卡](./macao-en)
+- [网线测试器](./cable-tester-en)
 
-- [代理服务器封禁分析](./proxy-ban-en)
+- [Wi-Fi信号强度](./wifi-en)
 
-- [Shadowsocks 代理问题](./shadowsocks-en)
+- [Lightning转以太网适配器](./lightning-ethernet-en)
 
-- [开源工具：Auto SS 配置](./auto-ss-config-en)
+- [代理工具：Squid和Danted](./squid-dante-en)
 
-- [在运行命令之前显示代理设置](./preexec-en)
+- [尝试V2Ray：分步指南](./v2ray-en)
 
-- [中国的代理解决方案 - 2025](./proxy-en)
+- [V2Ray脚本](./v2ray-script-en)
 
-已尝试：
+- [使用OpenClash和Shadowsocks增强OpenWRT](./openwrt-hack-en)
 
-- [网络电缆测试仪](./cable-tester-en)
+- [管理AWS Lightsail实例](./lightsail-en)
 
-- [Wi-Fi 信号强度](./wifi-en)
-
-- [闪电到以太网适配器](./lightning-ethernet-en)
-
-- [代理工具：Squid 和 Danted](./squid-dante-en)
-
-- [尝试 V2Ray：分步指南](./v2ray-en)
-
-- [V2Ray 脚本](./v2ray-script-en)
-
-- [使用 OpenClash 和 Shadowsocks 增强 OpenWRT](./openwrt-hack-en)
+- [管理DigitalOcean保留IP](./reserved-ip-en)

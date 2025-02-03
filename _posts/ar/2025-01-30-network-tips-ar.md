@@ -2,50 +2,56 @@
 audio: true
 lang: ar
 layout: post
-title: أفضل نصائح لتحسين الشبكات
+title: نصائح لتحسين الشبكات
 translated: true
 ---
 
-مفيد، يُوصى:
+مفيد، موصى به:
 
-- استخدام إشارة WiFi 5G أو كابل Ethernet.
+- يُفضّل استخدام إشارة WiFi 5G أو كابل إيثرنت.
 
-- استخدام تطبيق Speedtest أو زيارة https://www.speedtest.net لاختبار الاتصال بانتظام.
+- استخدم تطبيق Speedtest أو قم بزيارة https://www.speedtest.net لاختبار اتصالك بانتظام.
 
-- استخدام traceroute، ping، أو dig/nslookup لأغراض تشخيص الشبكة.
+- استخدم traceroute أو ping أو dig/nslookup لتشخيص الشبكة.
 
 - [إعداد خادم الوكيل الخاص بك](./diy-proxy-en)
 
-- [مرشح شبكة](./mesh-router-en)
+- [راوتر شبكي](./mesh-router-en)
 
-- [مقدمي السحابة](./cloud-providers-en)
-
-- [بعض منصات السحابة العالمية](./cloud-platforms-en)
-
-- [بطاقات SIM ماكاو](./macao-en)
+- [بطاقات SIM في ماكاو](./macao-en)
 
 - [تحليل حظر خادم الوكيل](./proxy-ban-en)
 
-- [مشاكل الوكيل Shadowsocks](./shadowsocks-en)
-
 - [أداة مفتوحة المصدر: Auto SS Config](./auto-ss-config-en)
 
-- [عرض إعدادات الوكيل قبل تنفيذ الأوامر](./preexec-en)
+- [عرض إعدادات الوكيل قبل تشغيل الأوامر](./preexec-en)
 
 - [حلول الوكيل في الصين - 2025](./proxy-en)
 
-تم الاختبار:
+- [إدارة عناوين IP المرنة من علي بابا](./aliyun-elastic-ip-en)
+
+تم التجربة:
+
+- [مشاكل وكيل Shadowsocks](./shadowsocks-en)
+
+- [مقدمي الخدمات السحابية](./cloud-providers-en)
+
+- [بعض منصات الحوسبة السحابية العالمية](./cloud-platforms-en)
 
 - [اختبار كابل الشبكة](./cable-tester-en)
 
-- [قوة إشارة Wi-Fi](./wifi-en)
+- [قوة إشارة الواي فاي](./wifi-en)
 
-- [متمم لتصفية Ethernet](./lightning-ethernet-en)
+- [محول Lightning إلى إيثرنت](./lightning-ethernet-en)
 
-- [أداة الوكيل: Squid و Danted](./squid-dante-en)
+- [أداة وكيل: Squid و Danted](./squid-dante-en)
 
-- [حاول V2Ray: دليل خطوة بخطوة](./v2ray-en)
+- [جرب V2Ray: دليل خطوة بخطوة](./v2ray-en)
 
-- [script V2Ray](./v2ray-script-en)
+- [برنامج نصي V2Ray](./v2ray-script-en)
 
-- [تطوير OpenWRT مع OpenClash و Shadowsocks](./openwrt-hack-en)
+- [تعزيز OpenWRT مع OpenClash و Shadowsocks](./openwrt-hack-en)
+
+- [إدارة مثيلات AWS Lightsail](./lightsail-en)
+
+- [إدارة عناوين IP المحجوزة من DigitalOcean](./reserved-ip-en)
