@@ -46,7 +46,6 @@ def delete_md(name):
         pdf_file_pattern = os.path.join(pdfs_dir, lang, f"{name}-{lang}.pdf")
         audio_file_pattern = os.path.join(audios_dir, f"{name}-{lang}.mp3")
 
-
         # Find matching files
         for md_file_path in glob.glob(md_file_pattern):
             if os.path.exists(md_file_path):
@@ -54,6 +53,25 @@ def delete_md(name):
                 print(f"Deleted file: {md_file_path}")
             else:
                 print(f"File not found: {md_file_path}")
+        
+        # Check for original files without language code
+        original_md_file_pattern_en = os.path.join(posts_dir, "en", f"{name}-en.md")
+        original_md_file_pattern_zh = os.path.join(posts_dir, "zh", f"{name}-zh.md")
+        
+        for original_md_file_path in glob.glob(original_md_file_pattern_en):
+            if os.path.exists(original_md_file_path):
+                os.remove(original_md_file_path)
+                print(f"Deleted file: {original_md_file_path}")
+            else:
+                print(f"File not found: {original_md_file_path}")
+        for original_md_file_path in glob.glob(original_md_file_pattern_zh):
+            if os.path.exists(original_md_file_path):
+                os.remove(original_md_file_path)
+                print(f"Deleted file: {original_md_file_path}")
+            else:
+                print(f"File not found: {original_md_file_path}")
+
+
         for pdf_file_path in glob.glob(pdf_file_pattern):
             if os.path.exists(pdf_file_path):
                 os.remove(pdf_file_path)
