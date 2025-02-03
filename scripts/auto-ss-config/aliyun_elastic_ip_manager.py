@@ -122,14 +122,13 @@ class Sample:
             else:
                 print("EIP creation process failed.")
         elif parsed_args.job == 'bind':
-            new_allocation_id = Sample.create_eip(region_id)
-            if new_allocation_id:
-                if Sample.bind_eip(region_id, new_allocation_id, parsed_args.instance_id):
-                    print(f"EIP binding process initiated successfully for EIP {new_allocation_id} and instance {parsed_args.instance_id}.")
-                else:
-                    print(f"EIP binding process failed for EIP {new_allocation_id} and instance {parsed_args.instance_id}.")
+            if not parsed_args.allocation_id:
+                print("Error: --allocation_id is required for bind job.")
+                return
+            if Sample.bind_eip(region_id, parsed_args.allocation_id, parsed_args.instance_id):
+                print(f"EIP binding process initiated successfully for EIP {parsed_args.allocation_id} and instance {parsed_args.instance_id}.")
             else:
-                print("EIP creation process failed.")
+                print(f"EIP binding process failed for EIP {parsed_args.allocation_id} and instance {parsed_args.instance_id}.")
         elif parsed_args.job == 'unbind':
             if not parsed_args.allocation_id:
                 print("Error: --allocation_id is required for unbind job.")
