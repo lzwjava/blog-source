@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: en
 layout: post
 title: Improving Wifi Speed
@@ -17,6 +17,8 @@ This resulted in a low download speed, with a Speedtest result of only 10 Mbps.
 An improved setup involved using a wired connection:
 
 modem -> 2m cable -> TP-Link AX3000 (wired bridge mode) -> 4m wireless, a wall -> Laptop
+
+This improved the download speed to up to 90 Mbps.
 
 ## New Modem Performance
 
