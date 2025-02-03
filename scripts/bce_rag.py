@@ -1,5 +1,6 @@
 # We provide the advanced preproc tokenization for reranking.
 from BCEmbedding.tools.langchain import BCERerank
+from BCEmbedding import RerankerModel
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
@@ -12,7 +13,7 @@ from langchain.retrievers import ContextualCompressionRetriever
 
 # init embedding model
 embedding_model_name = 'maidalun1020/bce-embedding-base_v1'
-embedding_model_kwargs = {'device': 'cuda:0'}
+embedding_model_kwargs = {'device': 'cpu'}
 embedding_encode_kwargs = {'batch_size': 32, 'normalize_embeddings': True, 'show_progress_bar': False}
 
 embed_model = HuggingFaceEmbeddings(
@@ -21,8 +22,9 @@ embed_model = HuggingFaceEmbeddings(
   encode_kwargs=embedding_encode_kwargs
 )
 
-reranker_args = {'model': 'maidalun1020/bce-reranker-base_v1', 'top_n': 5, 'device': 'cuda:1'}
-reranker = BCERerank(**reranker_args)
+reranker_model_name = "maidalun1020/bce-reranker-base_v1"
+reranker_model = RerankerModel(model_name_or_path=reranker_model_name, device='cpu')
+reranker = BCERerank(model=reranker_model, top_n=5)
 
 # init documents
 documents = PyPDFLoader("BCEmbedding/tools/eval_rag/eval_pdfs/Comp_en_llama2.pdf").load()
