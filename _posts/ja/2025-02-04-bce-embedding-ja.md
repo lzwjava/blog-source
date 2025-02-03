@@ -20,10 +20,10 @@ from BCEmbedding import EmbeddingModel
 # 文のリスト
 sentences = ['sentence_0', 'sentence_1']
 
-# エンベディングモデルの初期化
+# embeddingモデルの初期化
 model = EmbeddingModel(model_name_or_path="maidalun1020/bce-embedding-base_v1")
 
-# エンベディングの抽出
+# embeddingの抽出
 embeddings = model.encode(sentences)
 ```
 
@@ -51,7 +51,7 @@ pytorch_model.bin:  98%|| 1.09G/1.11G [16:33<00:25, 866kB/s]
 Extract embeddings: 100%| 1/1 [00:00<00:00,  1.21it/s]
 ```
 
-では、rerankerモデルを試してみましょう。
+リランカーモデルを試してみましょう。
 
 
 ```python
@@ -64,13 +64,13 @@ passages = ['passage_0', 'passage_1']
 # 文のペアを作成
 sentence_pairs = [[query, passage] for passage in passages]
 
-# rerankerモデルの初期化
+# リランカーモデルの初期化
 model = RerankerModel(model_name_or_path="maidalun1020/bce-reranker-base_v1")
 
 # 方法0: 文のペアのスコアを計算
 scores = model.compute_score(sentence_pairs)
 
-# 方法1: 文章を再ランキング
+# 方法1: 文章を再ランク付け
 rerank_results = model.rerank(query, passages)
 ```
 

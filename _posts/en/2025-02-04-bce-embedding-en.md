@@ -6,7 +6,7 @@ title: 'BCEmbedding: Bilingual Embedding for RAG'
 translated: false
 ---
 
-[<https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)
+[https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)
 
 ```bash
 git clone git@github.com:netease-youdao/BCEmbedding.git

@@ -6,7 +6,7 @@ title: 'BCEmbedding: द्विभाषीय एम्बेडिंग RAG
 translated: true
 ---
 
-[<https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)
+[https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)
 
 ```bash
 git clone git@github.com:netease-youdao/BCEmbedding.git
@@ -27,7 +27,7 @@ model = EmbeddingModel(model_name_or_path="maidalun1020/bce-embedding-base_v1")
 embeddings = model.encode(sentences)
 ```
 
-नीचे दिए गए लॉग द्वारा प्रदर्शित अनुसार कोड सफलतापूर्वक चलता है।
+नीचे दिए गए लॉग के अनुसार कोड सफलतापूर्वक चलता है।
 
 ```bash
 % python scripts/bce_embedding.py
@@ -51,26 +51,26 @@ pytorch_model.bin:  98%|| 1.09G/1.11G [16:33<00:25, 866kB/s]
 Extract embeddings: 100%| 1/1 [00:00<00:00,  1.21it/s]
 ```
 
-आइए पुनर्क्रमणकर्ता मॉडल को आज़माते हैं।
+आइए रीरेंकर मॉडल को आजमाएँ।
 
 
 ```python
 from BCEmbedding import RerankerModel
 
-# आपका क्वेरी और संबंधित अनुच्छेद
+# आपका क्वेरी और संगत अनुच्छेद
 query = 'input_query'
 passages = ['passage_0', 'passage_1']
 
-# वाक्य जोड़े बनाएँ
+# वाक्य जोड़ों का निर्माण करें
 sentence_pairs = [[query, passage] for passage in passages]
 
-# पुनर्क्रमणकर्ता मॉडल को इनिशियलाइज़ करें
+# रीरेंकर मॉडल को इनिशियलाइज़ करें
 model = RerankerModel(model_name_or_path="maidalun1020/bce-reranker-base_v1")
 
 # विधि 0: वाक्य जोड़ों के स्कोर की गणना करें
 scores = model.compute_score(sentence_pairs)
 
-# विधि 1: अनुच्छेदों को पुनर्क्रमित करें
+# विधि 1: अनुच्छेदों को पुनः क्रमबद्ध करें
 rerank_results = model.rerank(query, passages)
 ```
 

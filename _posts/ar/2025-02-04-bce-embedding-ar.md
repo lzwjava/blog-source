@@ -6,7 +6,7 @@ title: 'BCEmbedding: تضمين ثنائي اللغة لـ RAG'
 translated: true
 ---
 
-[<https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)]
+[https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)
 
 ```bash
 git clone git@github.com:netease-youdao/BCEmbedding.git
@@ -27,7 +27,7 @@ model = EmbeddingModel(model_name_or_path="maidalun1020/bce-embedding-base_v1")
 embeddings = model.encode(sentences)
 ```
 
-يعمل الكود بنجاح، كما هو موضح في سجل الأخطاء أدناه.
+يعمل الكود بنجاح، كما هو موضح في سجلّ الأخطاء أدناه.
 
 ```bash
 % python scripts/bce_embedding.py
@@ -51,7 +51,7 @@ pytorch_model.bin:  98%|| 1.09G/1.11G [16:33<00:25, 866kB/s]
 Extract embeddings: 100%| 1/1 [00:00<00:00,  1.21it/s]
 ```
 
-لنقم بتجربة نموذج إعادة الترتيب.
+لنَجرِّب نموذج إعادة الترتيب.
 
 
 ```python

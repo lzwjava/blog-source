@@ -6,7 +6,7 @@ title: 'BCEmbedding: Bilinguale Einbettung für RAG'
 translated: true
 ---
 
-[<https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)]
+[https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)
 
 ```bash
 git clone git@github.com:netease-youdao/BCEmbedding.git
@@ -51,13 +51,13 @@ pytorch_model.bin:  98%|| 1.09G/1.11G [16:33<00:25, 866kB/s]
 Extract embeddings: 100%| 1/1 [00:00<00:00,  1.21it/s]
 ```
 
-Testen wir das Reranker-Modell.
+Probieren wir das Reranker-Modell.
 
 
 ```python
 from BCEmbedding import RerankerModel
 
-# Ihre Anfrage und entsprechende Passagen
+# Ihre Anfrage und die entsprechenden Passagen
 query = 'input_query'
 passages = ['passage_0', 'passage_1']
 
@@ -67,7 +67,7 @@ sentence_pairs = [[query, passage] for passage in passages]
 # Reranker-Modell initialisieren
 model = RerankerModel(model_name_or_path="maidalun1020/bce-reranker-base_v1")
 
-# Methode 0: Scores von Satzpaaren berechnen
+# Methode 0: Scores der Satzpaare berechnen
 scores = model.compute_score(sentence_pairs)
 
 # Methode 1: Passagen neu ordnen

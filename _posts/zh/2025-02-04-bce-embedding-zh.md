@@ -17,17 +17,17 @@ pip install -v -e .
 ```python
 from BCEmbedding import EmbeddingModel
 
-# 句子列表
+# 语句列表
 sentences = ['sentence_0', 'sentence_1']
 
 # 初始化embedding模型
 model = EmbeddingModel(model_name_or_path="maidalun1020/bce-embedding-base_v1")
 
-# 提取embedding
+# 提取嵌入向量
 embeddings = model.encode(sentences)
 ```
 
-代码运行成功，如下日志所示。
+代码运行成功，日志如下所示：
 
 ```bash
 % python scripts/bce_embedding.py

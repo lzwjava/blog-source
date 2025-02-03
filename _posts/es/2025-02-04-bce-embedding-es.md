@@ -6,7 +6,7 @@ title: 'BCEmbedding: Incrustación Bilingüe para RAG'
 translated: true
 ---
 
-[<https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)
+[https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)
 
 ```bash
 git clone git@github.com:netease-youdao/BCEmbedding.git
@@ -20,10 +20,10 @@ from BCEmbedding import EmbeddingModel
 # lista de oraciones
 sentences = ['sentence_0', 'sentence_1']
 
-# inicializar modelo de embedding
+# inicializar modelo de incrustación
 model = EmbeddingModel(model_name_or_path="maidalun1020/bce-embedding-base_v1")
 
-# extraer embeddings
+# extraer incrustaciones
 embeddings = model.encode(sentences)
 ```
 
@@ -51,7 +51,7 @@ pytorch_model.bin:  98%|| 1.09G/1.11G [16:33<00:25, 866kB/s]
 Extract embeddings: 100%| 1/1 [00:00<00:00,  1.21it/s]
 ```
 
-Probemos el modelo reranker.
+Probemos el modelo de reordenador.
 
 
 ```python
@@ -64,7 +64,7 @@ passages = ['passage_0', 'passage_1']
 # construir pares de oraciones
 sentence_pairs = [[query, passage] for passage in passages]
 
-# inicializar modelo reranker
+# inicializar modelo de reordenador
 model = RerankerModel(model_name_or_path="maidalun1020/bce-reranker-base_v1")
 
 # método 0: calcular puntuaciones de pares de oraciones

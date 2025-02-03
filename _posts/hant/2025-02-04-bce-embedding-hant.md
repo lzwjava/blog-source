@@ -23,11 +23,11 @@ sentences = ['sentence_0', 'sentence_1']
 # 初始化嵌入模型
 model = EmbeddingModel(model_name_or_path="maidalun1020/bce-embedding-base_v1")
 
-# 提取嵌入
+# 提取嵌入向量
 embeddings = model.encode(sentences)
 ```
 
-以下日誌顯示程式碼成功執行。
+程式碼執行成功，如下方日誌所示。
 
 ```bash
 % python scripts/bce_embedding.py
@@ -61,7 +61,7 @@ from BCEmbedding import RerankerModel
 query = 'input_query'
 passages = ['passage_0', 'passage_1']
 
-# 建立句子對
+# 建構句子對
 sentence_pairs = [[query, passage] for passage in passages]
 
 # 初始化排序模型

@@ -6,7 +6,7 @@ title: 'BCEmbedding : Intégration bilingue pour RAG'
 translated: true
 ---
 
-[<https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)]
+[https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)
 
 ```bash
 git clone git@github.com:netease-youdao/BCEmbedding.git
@@ -27,7 +27,7 @@ model = EmbeddingModel(model_name_or_path="maidalun1020/bce-embedding-base_v1")
 embeddings = model.encode(sentences)
 ```
 
-Le code s'exécute avec succès, comme le démontre le log ci-dessous.
+Le code s'exécute correctement, comme le montre le journal ci-dessous.
 
 ```bash
 % python scripts/bce_embedding.py
@@ -67,10 +67,10 @@ sentence_pairs = [[query, passage] for passage in passages]
 # initialisation du modèle de rerang
 model = RerankerModel(model_name_or_path="maidalun1020/bce-reranker-base_v1")
 
-# méthode 0: calcul des scores des paires de phrases
+# méthode 0: calculer les scores des paires de phrases
 scores = model.compute_score(sentence_pairs)
 
-# méthode 1: rerang des passages
+# méthode 1: reranger les passages
 rerank_results = model.rerank(query, passages)
 ```
 
