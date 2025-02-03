@@ -33,7 +33,7 @@ texts = text_splitter.split_documents(documents)
 # example 1. retrieval with embedding and reranker
 retriever = FAISS.from_documents(texts, embed_model, distance_strategy=DistanceStrategy.MAX_INNER_PRODUCT).as_retriever(search_type="similarity", search_kwargs={"score_threshold": 0.3, "k": 10})
 
-reranker = BCERerank(model=reranker_model_name)
+reranker = BCERerank()
 
 compression_retriever = ContextualCompressionRetriever(
     base_compressor=reranker, base_retriever=retriever
