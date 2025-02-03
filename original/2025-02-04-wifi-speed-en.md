@@ -18,6 +18,8 @@ An improved setup involved using a wired connection:
 
 modem -> 2m cable -> TP-Link AX3000 (wired bridge mode) -> 4m wireless, a wall -> Laptop
 
+This improved the download speed to up to 90 Mbps.
+
 ## New Modem Performance
 
 In my own house, the modem is new, and the TP-Link router performs well in wireless bridge mode. The network setup is:
