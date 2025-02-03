@@ -195,3 +195,9 @@ export GEMINI_API_KEY="xxx"
 
 export HERTZNER_API_KEY="xxx"
 
+export GROK_API_KEY="xxx"
+
+export ALIBABA_CLOUD_ACCESS_ID_API_KEY="xxx"
+
+export ALIBABA_CLOUD_ACCESS_API_KEY="xxx"
+

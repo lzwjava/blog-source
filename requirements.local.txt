@@ -2,3 +2,7 @@ aliyunsdkcore
 aliyun-python-sdk-ecs
 alibabacloud_vpc20160428
 alibabacloud_ecs20140526
+langchain
+langchain-community
+langchain-core
+langsmith
