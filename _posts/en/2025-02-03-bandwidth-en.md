@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: Investigating 200Mbps Bandwidth Limit
+title: Bandwidth Limit
 translated: false
 ---
 
