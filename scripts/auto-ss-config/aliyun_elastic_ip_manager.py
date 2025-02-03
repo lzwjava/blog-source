@@ -10,7 +10,6 @@ from alibabacloud_vpc20160428 import models as vpc_20160428_models
 from alibabacloud_tea_util import models as util_models
 from alibabacloud_tea_util.client import Client as UtilClient
 from alibabacloud_ecs20140526.client import Client as Ecs20140526Client
-from alibabacloud_ecs20140526 import models as ecs_20140526_models
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
