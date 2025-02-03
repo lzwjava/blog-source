@@ -6,7 +6,7 @@ title: 'BCEmbedding : Intégration bilingue pour RAG'
 translated: true
 ---
 
-[<https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)
+[<https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)]
 
 ```bash
 git clone git@github.com:netease-youdao/BCEmbedding.git
@@ -27,13 +27,10 @@ model = EmbeddingModel(model_name_or_path="maidalun1020/bce-embedding-base_v1")
 embeddings = model.encode(sentences)
 ```
 
-Le code s'exécute correctement, comme le montre le journal ci-dessous.
+Le code s'exécute avec succès, comme le démontre le log ci-dessous.
 
 ```bash
-lzwjava@Zhiweis-MacBook-Air lzwjava.github.io % python scripts/bce_embedding.py
-🚀 **Paramètres Proxy Détectés:**
-   - HTTP_PROXY: http://127.0.0.1:7890
-   - HTTPS_PROXY: http://127.0.0.1:7890
+% python scripts/bce_embedding.py
 
 /opt/homebrew/lib/python3.13/site-packages/transformers/utils/generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
   _torch_pytree._register_pytree_node(
@@ -49,7 +46,50 @@ Trying to resume download...
 Trying to resume download...
 pytorch_model.bin: 100%|| 1.11G/1.11G [00:10<00:00, 2.06MB/s]
 pytorch_model.bin:  98%|| 1.09G/1.11G [16:33<00:25, 866kB/s]
-02/04/2025 02:07:57 - [INFO] -BCEmbedding.models.EmbeddingModel->>>    Chargement depuis `maidalun1020/bce-embedding-base_v1`.
-02/04/2025 02:07:57 - [INFO] -BCEmbedding.models.EmbeddingModel->>>    Dispositif d'exécution : cpu ;	 nombre de gpu : 0 ;	 utilisation de fp16 : False ;	 type de regroupement d'embedding : cls ;	 code distant de confiance : False
-Extraction des embeddings : 100%| 1/1 [00:00<00:00,  1.21it/s]
+02/04/2025 02:07:57 - [INFO] -BCEmbedding.models.EmbeddingModel->>>    Loading from `maidalun1020/bce-embedding-base_v1`.
+02/04/2025 02:07:57 - [INFO] -BCEmbedding.models.EmbeddingModel->>>    Execute device: cpu;	 gpu num: 0;	 use fp16: False;	 embedding pooling type: cls;	 trust remote code: False
+Extract embeddings: 100%| 1/1 [00:00<00:00,  1.21it/s]
+```
+
+Essayons le modèle de rerang.
+
+
+```python
+from BCEmbedding import RerankerModel
+
+# votre requête et les passages correspondants
+query = 'input_query'
+passages = ['passage_0', 'passage_1']
+
+# construction des paires de phrases
+sentence_pairs = [[query, passage] for passage in passages]
+
+# initialisation du modèle de rerang
+model = RerankerModel(model_name_or_path="maidalun1020/bce-reranker-base_v1")
+
+# méthode 0: calcul des scores des paires de phrases
+scores = model.compute_score(sentence_pairs)
+
+# méthode 1: rerang des passages
+rerank_results = model.rerank(query, passages)
+```
+
+```bash
+% python scripts/bce_reranker.py
+
+/opt/homebrew/lib/python3.13/site-packages/transformers/utils/generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/opt/homebrew/lib/python3.13/site-packages/huggingface_hub/file_download.py:795: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+tokenizer_config.json: 100%| 
+# ...
+/opt/homebrew/lib/python3.13/site-packages/transformers/utils/generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/opt/homebrew/lib/python3.13/site-packages/huggingface_hub/file_download.py:795: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+pytorch_model.bin: 100%|| 1.11G/1.11G [02:11<00:00, 8.47MB/s]
+02/04/2025 02:56:39 - [INFO] -BCEmbedding.models.RerankerModel->>>    Loading from `maidalun1020/bce-reranker-base_v1`.
+02/04/2025 02:56:39 - [INFO] -BCEmbedding.models.RerankerModel->>>    Execute device: cpu;	 gpu num: 0;	 use fp16: False
+Calculate scores: 100%| 1/1 [00:00<00:00,  2.37it/s]
+You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
 ```

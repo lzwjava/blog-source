@@ -20,20 +20,17 @@ from BCEmbedding import EmbeddingModel
 # 文のリスト
 sentences = ['sentence_0', 'sentence_1']
 
-# embeddingモデルの初期化
+# エンベディングモデルの初期化
 model = EmbeddingModel(model_name_or_path="maidalun1020/bce-embedding-base_v1")
 
-# embeddingの抽出
+# エンベディングの抽出
 embeddings = model.encode(sentences)
 ```
 
 以下のログに示すように、コードは正常に実行されました。
 
 ```bash
-lzwjava@Zhiweis-MacBook-Air lzwjava.github.io % python scripts/bce_embedding.py
-🚀 **Proxy Settings Detected:**
-   - HTTP_PROXY: http://127.0.0.1:7890
-   - HTTPS_PROXY: http://127.0.0.1:7890
+% python scripts/bce_embedding.py
 
 /opt/homebrew/lib/python3.13/site-packages/transformers/utils/generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
   _torch_pytree._register_pytree_node(
@@ -52,4 +49,47 @@ pytorch_model.bin:  98%|| 1.09G/1.11G [16:33<00:25, 866kB/s]
 02/04/2025 02:07:57 - [INFO] -BCEmbedding.models.EmbeddingModel->>>    Loading from `maidalun1020/bce-embedding-base_v1`.
 02/04/2025 02:07:57 - [INFO] -BCEmbedding.models.EmbeddingModel->>>    Execute device: cpu;	 gpu num: 0;	 use fp16: False;	 embedding pooling type: cls;	 trust remote code: False
 Extract embeddings: 100%| 1/1 [00:00<00:00,  1.21it/s]
+```
+
+では、rerankerモデルを試してみましょう。
+
+
+```python
+from BCEmbedding import RerankerModel
+
+# クエリと対応する文章
+query = 'input_query'
+passages = ['passage_0', 'passage_1']
+
+# 文のペアを作成
+sentence_pairs = [[query, passage] for passage in passages]
+
+# rerankerモデルの初期化
+model = RerankerModel(model_name_or_path="maidalun1020/bce-reranker-base_v1")
+
+# 方法0: 文のペアのスコアを計算
+scores = model.compute_score(sentence_pairs)
+
+# 方法1: 文章を再ランキング
+rerank_results = model.rerank(query, passages)
+```
+
+```bash
+% python scripts/bce_reranker.py
+
+/opt/homebrew/lib/python3.13/site-packages/transformers/utils/generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/opt/homebrew/lib/python3.13/site-packages/huggingface_hub/file_download.py:795: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+tokenizer_config.json: 100%| 
+# ...
+/opt/homebrew/lib/python3.13/site-packages/transformers/utils/generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/opt/homebrew/lib/python3.13/site-packages/huggingface_hub/file_download.py:795: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+pytorch_model.bin: 100%|| 1.11G/1.11G [02:11<00:00, 8.47MB/s]
+02/04/2025 02:56:39 - [INFO] -BCEmbedding.models.RerankerModel->>>    Loading from `maidalun1020/bce-reranker-base_v1`.
+02/04/2025 02:56:39 - [INFO] -BCEmbedding.models.RerankerModel->>>    Execute device: cpu;	 gpu num: 0;	 use fp16: False
+Calculate scores: 100%| 1/1 [00:00<00:00,  2.37it/s]
+You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
 ```

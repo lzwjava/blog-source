@@ -2,7 +2,7 @@
 audio: true
 lang: hi
 layout: post
-title: 'BCEmbedding: द्विभाषी एम्बेडिंग RAG के लिए'
+title: 'BCEmbedding: द्विभाषीय एम्बेडिंग RAG के लिए'
 translated: true
 ---
 
@@ -20,20 +20,17 @@ from BCEmbedding import EmbeddingModel
 # वाक्यों की सूची
 sentences = ['sentence_0', 'sentence_1']
 
-# एम्बेडिंग मॉडल इनिशियलाइज़ करें
+# एम्बेडिंग मॉडल को इनिशियलाइज़ करें
 model = EmbeddingModel(model_name_or_path="maidalun1020/bce-embedding-base_v1")
 
 # एम्बेडिंग निकालें
 embeddings = model.encode(sentences)
 ```
 
-नीचे दिए गए लॉग के अनुसार कोड सफलतापूर्वक चलता है।
+नीचे दिए गए लॉग द्वारा प्रदर्शित अनुसार कोड सफलतापूर्वक चलता है।
 
 ```bash
-lzwjava@Zhiweis-MacBook-Air lzwjava.github.io % python scripts/bce_embedding.py
-🚀 **Proxy Settings Detected:**
-   - HTTP_PROXY: http://127.0.0.1:7890
-   - HTTPS_PROXY: http://127.0.0.1:7890
+% python scripts/bce_embedding.py
 
 /opt/homebrew/lib/python3.13/site-packages/transformers/utils/generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
   _torch_pytree._register_pytree_node(
@@ -52,4 +49,47 @@ pytorch_model.bin:  98%|| 1.09G/1.11G [16:33<00:25, 866kB/s]
 02/04/2025 02:07:57 - [INFO] -BCEmbedding.models.EmbeddingModel->>>    Loading from `maidalun1020/bce-embedding-base_v1`.
 02/04/2025 02:07:57 - [INFO] -BCEmbedding.models.EmbeddingModel->>>    Execute device: cpu;	 gpu num: 0;	 use fp16: False;	 embedding pooling type: cls;	 trust remote code: False
 Extract embeddings: 100%| 1/1 [00:00<00:00,  1.21it/s]
+```
+
+आइए पुनर्क्रमणकर्ता मॉडल को आज़माते हैं।
+
+
+```python
+from BCEmbedding import RerankerModel
+
+# आपका क्वेरी और संबंधित अनुच्छेद
+query = 'input_query'
+passages = ['passage_0', 'passage_1']
+
+# वाक्य जोड़े बनाएँ
+sentence_pairs = [[query, passage] for passage in passages]
+
+# पुनर्क्रमणकर्ता मॉडल को इनिशियलाइज़ करें
+model = RerankerModel(model_name_or_path="maidalun1020/bce-reranker-base_v1")
+
+# विधि 0: वाक्य जोड़ों के स्कोर की गणना करें
+scores = model.compute_score(sentence_pairs)
+
+# विधि 1: अनुच्छेदों को पुनर्क्रमित करें
+rerank_results = model.rerank(query, passages)
+```
+
+```bash
+% python scripts/bce_reranker.py
+
+/opt/homebrew/lib/python3.13/site-packages/transformers/utils/generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/opt/homebrew/lib/python3.13/site-packages/huggingface_hub/file_download.py:795: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+tokenizer_config.json: 100%| 
+# ...
+/opt/homebrew/lib/python3.13/site-packages/transformers/utils/generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+/opt/homebrew/lib/python3.13/site-packages/huggingface_hub/file_download.py:795: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+pytorch_model.bin: 100%|| 1.11G/1.11G [02:11<00:00, 8.47MB/s]
+02/04/2025 02:56:39 - [INFO] -BCEmbedding.models.RerankerModel->>>    Loading from `maidalun1020/bce-reranker-base_v1`.
+02/04/2025 02:56:39 - [INFO] -BCEmbedding.models.RerankerModel->>>    Execute device: cpu;	 gpu num: 0;	 use fp16: False
+Calculate scores: 100%| 1/1 [00:00<00:00,  2.37it/s]
+You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
 ```
