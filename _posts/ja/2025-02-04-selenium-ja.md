@@ -6,9 +6,9 @@ title: SeleniumによるWebブラウザ自動化
 translated: true
 ---
 
-Seleniumは、ウェブブラウザを自動化するための強力なツールです。これにより、ウェブページへの移動、フォームへの入力、ボタンのクリック、データの抽出など、プログラムでブラウザを制御できます。これは、ウェブスクレイピング、ウェブアプリケーションのテスト、反復的なタスクの自動化など、さまざまなタスクに役立ちます。
+Seleniumは、Webブラウザを自動化する強力なツールです。Webページへの移動、フォームへの入力、ボタンのクリック、データの抽出など、プログラムによってブラウザを制御できます。これは、Webスクレイピング、Webアプリケーションのテスト、反復的なタスクの自動化など、さまざまなタスクに役立ちます。
 
-SeleniumとPythonを使用してCSDNブログをスクレイピングする基本的な例を以下に示します。
+以下は、PythonでSeleniumを使用してCSDNブログをスクレイピングする基本的な例です。
 
 ```python
 from selenium import webdriver
@@ -19,7 +19,8 @@ import time
 
 def scrape_csdn_blog(url):
     """
-    CSDNブログをスクレイピングし、Seleniumを使用してページソースからすべてのリンク（aタグ）を抽出し、「https://blog.csdn.net/lzw_java/article」で始まるリンクをフィルタリングします。
+    Seleniumを使用してCSDNブログをスクレイピングし、ページソースからすべてのリンク（aタグ）を抽出します。
+    "https://blog.csdn.net/lzw_java/article"で始まるリンクをフィルタリングします。
 
     Args:
         url (str): CSDNブログのURL。
@@ -35,10 +36,10 @@ def scrape_csdn_blog(url):
         # Chromeドライバを初期化します
         driver = webdriver.Chrome(options=chrome_options)
 
-        # ウェブページを読み込みます
+        # Webページを読み込みます
         driver.get(url)
 
-        # すべての 'a' タグ要素を見つけます
+        # すべての'a'タグ要素を見つけます
         links = driver.find_elements(By.TAG_NAME, 'a')
 
         if not links:
@@ -57,7 +58,7 @@ def scrape_csdn_blog(url):
                     print("-" * 20)
 
             except Exception as e:
-                print(f"リンクの抽出中にエラーが発生しました: {e}")
+                print(f"リンクの抽出エラー: {e}")
                 continue
 
     except Exception as e:
@@ -68,7 +69,7 @@ def scrape_csdn_blog(url):
             driver.quit()
 
 if __name__ == "__main__":
-    blog_url = "https://blog.csdn.net/lzw_java?type=blog"  # 実際のURLに置き換えます
+    blog_url = "https://blog.csdn.net/lzw_java?type=blog"  # 実際のURLに置き換えてください
     scrape_csdn_blog(blog_url)
 
 ```

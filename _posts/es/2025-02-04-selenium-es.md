@@ -19,7 +19,7 @@ import time
 
 def scrape_csdn_blog(url):
     """
-    Extrae un blog de CSDN y extrae todos los enlaces (etiquetas a) del código fuente de la página usando Selenium,
+    Rascpa un blog de CSDN y extrae todos los enlaces (etiquetas a) del código fuente de la página usando Selenium,
     filtrando los enlaces que comienzan con "https://blog.csdn.net/lzw_java/article".
 
     Args:
@@ -30,7 +30,7 @@ def scrape_csdn_blog(url):
         chrome_options = Options()
         chrome_options.add_argument("--headless")  # Ejecutar Chrome en modo sin cabeza
         chrome_options.add_argument("--disable-gpu")  # Deshabilitar la aceleración de GPU (recomendado para sin cabeza)
-        chrome_options.add_argument("--no-sandbox")  # Omitir el modelo de seguridad del sistema operativo
+        chrome_options.add_argument("--no-sandbox")  # Omitir el modelo de seguridad del SO
         chrome_options.add_argument("--disable-dev-shm-usage")  # Superar problemas de recursos limitados
 
         # Inicializar el controlador de Chrome
@@ -39,7 +39,7 @@ def scrape_csdn_blog(url):
         # Cargar la página web
         driver.get(url)
 
-        # Encontrar todos los elementos de la etiqueta 'a'
+        # Encontrar todos los elementos de etiqueta 'a'
         links = driver.find_elements(By.TAG_NAME, 'a')
 
         if not links:

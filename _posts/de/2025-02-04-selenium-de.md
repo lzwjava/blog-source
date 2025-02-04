@@ -8,7 +8,7 @@ translated: true
 
 Selenium ist ein leistungsstarkes Werkzeug zur Automatisierung von Webbrowsern. Es ermöglicht die programmgesteuerte Steuerung eines Browsers, um Aktionen wie das Navigieren zu Webseiten, das Ausfüllen von Formularen, das Klicken auf Schaltflächen und das Extrahieren von Daten durchzuführen. Dies kann für eine Vielzahl von Aufgaben nützlich sein, darunter Web Scraping, das Testen von Webanwendungen und die Automatisierung sich wiederholender Aufgaben.
 
-Hier ist ein grundlegendes Beispiel für die Verwendung von Selenium mit Python zum Scrapen eines CSDN-Blogs:
+Hier ist ein einfaches Beispiel für die Verwendung von Selenium mit Python zum Scrapen eines CSDN-Blogs:
 
 ```python
 from selenium import webdriver
@@ -19,20 +19,8 @@ import time
 
 def scrape_csdn_blog(url):
     """
-    Scrapt einen
-
-
-```python
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
-import time
-
-def scrape_csdn_blog(url):
-    """
-    Scrapt einen CSDN-Blog und extrahiert alle Links (a-Tags) aus dem Seitenquelltext mithilfe von Selenium.
-    Filtert nach Links, die mit "https://blog.csdn.net/lzw_java/article" beginnen.
+    Scrapt einen CSDN-Blog und extrahiert alle Links (a-Tags) aus dem Seitenquelltext mit Selenium,
+    filtert nach Links, die mit "https://blog.csdn.net/lzw_java/article" beginnen.
 
     Args:
         url (str): Die URL des CSDN-Blogs.
@@ -43,7 +31,7 @@ def scrape_csdn_blog(url):
         chrome_options.add_argument("--headless")  # Chrome im Headless-Modus ausführen
         chrome_options.add_argument("--disable-gpu")  # GPU-Beschleunigung deaktivieren (empfohlen für Headless)
         chrome_options.add_argument("--no-sandbox")  # OS-Sicherheitsmodell umgehen
-        chrome_options.add_argument("--disable-dev-shm-usage")  # Behebung von Problemen mit begrenzten Ressourcen
+        chrome_options.add_argument("--disable-dev-shm-usage")  # Probleme mit begrenzten Ressourcen umgehen
 
         # Chrome-Treiber initialisieren
         driver = webdriver.Chrome(options=chrome_options)
@@ -81,7 +69,7 @@ def scrape_csdn_blog(url):
             driver.quit()
 
 if __name__ == "__main__":
-    blog_url = "https://blog.csdn.net/lzw_java?type=blog"  # Ersetzen Sie dies durch die tatsächliche URL
+    blog_url = "https://blog.csdn.net/lzw_java?type=blog"  # Ersetzen Sie dies mit der tatsächlichen URL
     scrape_csdn_blog(blog_url)
 
 ```

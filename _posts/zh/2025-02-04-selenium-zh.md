@@ -6,7 +6,7 @@ title: Selenium浏览器自动化
 translated: true
 ---
 
-Selenium是一个强大的网页浏览器自动化工具。它允许你以编程方式控制浏览器执行各种操作，例如导航到网页、填写表单、点击按钮和提取数据。这对于各种任务都非常有用，包括网页抓取、测试网页应用程序和自动化重复性任务。
+Selenium是一个强大的网页浏览器自动化工具。它允许你以编程方式控制浏览器执行各种操作，例如导航到网页、填写表单、点击按钮和提取数据。这对于各种任务都很有用，包括网页抓取、测试 web 应用程序和自动化重复性任务。
 
 下面是一个使用Selenium和Python抓取CSDN博客的基本示例：
 
@@ -19,21 +19,21 @@ import time
 
 def scrape_csdn_blog(url):
     """
-    抓取CSDN博客并使用Selenium提取页面源代码中的所有链接（a标签），
+    使用Selenium抓取CSDN博客并提取页面源代码中的所有链接（a标签），
     过滤掉不以"https://blog.csdn.net/lzw_java/article"开头的链接。
 
     Args:
         url (str): CSDN博客的URL。
     """
     try:
-        # 设置Chrome选项为无头模式浏览
+        # 设置Chrome选项以进行无头浏览
         chrome_options = Options()
         chrome_options.add_argument("--headless")  # 以无头模式运行Chrome
-        chrome_options.add_argument("--disable-gpu")  # 禁用GPU加速（推荐用于无头模式）
-        chrome_options.add_argument("--no-sandbox")  #绕过操作系统安全模型
-        chrome_options.add_argument("--disable-dev-shm-usage")  #克服资源受限问题
+        chrome_options.add_argument("--disable-gpu")  # 禁用GPU加速（无头模式推荐）
+        chrome_options.add_argument("--no-sandbox")  # 跳过操作系统安全模型
+        chrome_options.add_argument("--disable-dev-shm-usage")  # 克服资源受限问题
 
-        # 初始化Chrome驱动
+        # 初始化Chrome驱动程序
         driver = webdriver.Chrome(options=chrome_options)
 
         # 加载网页

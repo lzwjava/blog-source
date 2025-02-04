@@ -2,7 +2,7 @@
 audio: false
 lang: ar
 layout: post
-title: أتمتة متصفح الويب باستخدام Selenium
+title: أتمتة متصفح الويب باستخدام سيلينيوم
 translated: true
 ---
 
@@ -19,18 +19,8 @@ import time
 
 def scrape_csdn_blog(url):
     """
-    تقوم باستخراج 
-```python
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
-import time
-
-def scrape_csdn_blog(url):
-    """
-    تقوم باستخراج بيانات مدونة CSDN وتستخرج جميع الروابط (علامات a) من مصدر الصفحة باستخدام Selenium،
-    مع تصفية الروابط التي تبدأ بـ "https://blog.csdn.net/lzw_java/article".
+    تقوم باستخراج جميع الروابط (علامات a) من مصدر الصفحة باستخدام Selenium،
+    وتصفية الروابط التي تبدأ بـ "https://blog.csdn.net/lzw_java/article".
 
     Args:
         url (str): عنوان URL لمدونة CSDN.
@@ -39,7 +29,7 @@ def scrape_csdn_blog(url):
         # إعداد خيارات Chrome للتصفح بدون واجهة رسومية
         chrome_options = Options()
         chrome_options.add_argument("--headless")  # تشغيل Chrome في وضع بدون واجهة رسومية
-        chrome_options.add_argument("--disable-gpu")  # تعطيل تسريع وحدة معالجة الرسومات (يوصى به للوضع بدون واجهة رسومية)
+        chrome_options.add_argument("--disable-gpu")  # تعطيل تسريع وحدة معالجة الرسومات (موصى به للوضع بدون واجهة رسومية)
         chrome_options.add_argument("--no-sandbox")  # تجاوز نموذج أمان نظام التشغيل
         chrome_options.add_argument("--disable-dev-shm-usage")  # التغلب على مشاكل الموارد المحدودة
 
@@ -53,7 +43,7 @@ def scrape_csdn_blog(url):
         links = driver.find_elements(By.TAG_NAME, 'a')
 
         if not links:
-            print("لم يتم العثور على أي روابط في الصفحة.")
+            print("لم يتم العثور على روابط في الصفحة.")
             driver.quit()
             return
 
@@ -79,7 +69,7 @@ def scrape_csdn_blog(url):
             driver.quit()
 
 if __name__ == "__main__":
-    blog_url = "https://blog.csdn.net/lzw_java?type=blog"  # استبدال بعنوان URL الفعلي
+    blog_url = "https://blog.csdn.net/lzw_java?type=blog"  # استبدل بـ URL الفعلي
     scrape_csdn_blog(blog_url)
 
 ```
