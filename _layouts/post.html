@@ -65,9 +65,7 @@ layout: default
     <a href="/" class="button left-button">Back</a>
 
     <!-- Date Button -->
-    {% if page.link %}
-    <a href="#" class="button">{{ 'now' | date: "%Y.%m.%d" }}</a>
-    {% else %}
+    {% if page.path contains '20' %}
     {% assign date_parts = page.path | split: '/' %}
     {% assign date_segment = date_parts[1] %}
 
