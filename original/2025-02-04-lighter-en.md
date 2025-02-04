@@ -11,6 +11,6 @@ During an outdoor cooking event with a friend's family, I encountered an interes
 I also need to purchase butane fuel to refill it before use.
 
 {: .centered }
-![](../original/assets/images/lighter/l1.jpg){: .responsive }
+![](assets/images/lighter/l1.jpg){: .responsive }
 *Source: Walmart*{: .caption }
 
