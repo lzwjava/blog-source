@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{amsmath}
+\usepackage{xeCJK}
+\usepackage{fontspec} 	% 允許設定字體
+\usepackage{xeCJK} 		% 分開設置中英文字型
+\setCJKmainfont{Songti SC} 	% 設定中文字型
+\setCJKsansfont{Songti SC} % Sans-serif font
+\setCJKmonofont{Songti SC} % Monospace font
+\setmainfont{Times New Roman}
+\setromanfont{Times New Roman}
+\setmonofont{Times New Roman}
+\XeTeXlinebreaklocale "zh" 	% 針對中文自動換行
+
+\title{发票}
+\author{lzwjava.github.io}
+\date{}
+
+\begin{document}
+\maketitle
+\begin{center}
+    \includegraphics[width=0.1\textwidth]{/Users/lzwjava/projects/lzwjava.github.io/latex/logo} % Replace with your logo path
+\end{center}
+
+\section*{联系方式}
+\noindent
+黄埔区\\
+广州, 510356\\
+lzwjava@gmail.com
+
+\section*{账单抬头}
+\noindent
+Liu Liu
+
+\section*{详情}
+\noindent
+服务费: 捐赠 - 10 CNY
+
+\section*{总计}
+\noindent
+总计 (CNY): \textbf{10}
+
+\end{document}
