@@ -19,18 +19,6 @@ import time
 
 def scrape_csdn_blog(url):
     """
-    Scrapes a
-
-
-```python
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
-import time
-
-def scrape_csdn_blog(url):
-    """
     Scrapes a CSDN blog and extracts all the links (a tags) from the page source using Selenium,
     filtering for links that start with "https://blog.csdn.net/lzw_java/article".
 
