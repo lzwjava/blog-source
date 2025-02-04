@@ -9,3 +9,4 @@ langsmith
 pypdf
 faiss-cpu
 pyaudio
+selenium
