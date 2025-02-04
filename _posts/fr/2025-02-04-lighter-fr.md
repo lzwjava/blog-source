@@ -2,7 +2,7 @@
 audio: false
 lang: fr
 layout: post
-title: Allume-feu
+title: Allumeur de torche
 translated: true
 ---
 
@@ -11,5 +11,5 @@ Lors d'une cuisson en plein air avec la famille d'un ami, j'ai découvert un out
 J'ai également besoin d'acheter du carburant au butane pour le recharger avant utilisation.
 
 {: .centered }
-![](../original/assets/images/lighter/l1.jpg){: .responsive }
+![](assets/images/lighter/l1.jpg){: .responsive }
 *Source : Walmart*{: .caption }

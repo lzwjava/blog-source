@@ -6,10 +6,10 @@ title: Feuerzeug
 translated: true
 ---
 
-Bei einem Kochabend im Freien mit der Familie eines Freundes stieß ich auf ein interessantes Werkzeug: ein Sturmfeuerzeug. Seine Flamme unterschied sich von herkömmlichen Feuerzeugen und war windfest.
+Bei einem Kochabend im Freien mit der Familie eines Freundes begegnete ich einem interessanten Werkzeug: einem Bunsenbrenner-Feuerzeug. Seine Flamme unterschied sich von herkömmlichen Feuerzeugen und war windbeständig.
 
-Ich muss auch Butangas zum Nachfüllen kaufen, bevor ich es benutze.
+Ich muss auch Butangas zum Nachfüllen vor dem Gebrauch kaufen.
 
 {: .centered }
-![](../original/assets/images/lighter/l1.jpg){: .responsive }
+![](assets/images/lighter/l1.jpg){: .responsive }
 *Quelle: Walmart*{: .caption }

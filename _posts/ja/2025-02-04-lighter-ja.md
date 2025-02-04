@@ -2,13 +2,13 @@
 audio: false
 lang: ja
 layout: post
-title: 火打石
+title: ライター
 translated: true
 ---
 
-友人の家族と行ったアウトドアクッキングで、面白い道具に出会いました。それは、防風性能のあるトーチライターです。普通のライターとは違う炎でした。
+友人の家族とアウトドアクッキングをした際、面白い道具に出会いました。それは、強風にも強い炎を出す、トーチライターです。
 
-使う前に、補充用のブタン燃料も購入する必要があります。
+使用する前に、別途ブタンガスを購入して補充する必要があります。
 
-![](../original/assets/images/lighter/l1.jpg){: .responsive }
-*出典：ウォルマート*{: .caption }
+![](assets/images/lighter/l1.jpg)
+*出典：Walmart*
