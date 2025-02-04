@@ -8,3 +8,4 @@ langchain-core
 langsmith
 pypdf
 faiss-cpu
+pyaudio
