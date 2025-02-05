@@ -12,6 +12,8 @@ I conducted a test to measure the EMF levels at various distances from my TP-LIN
 
 The EMF meter has three modes to test: magnetic field, electric field, and radio frequency. For the WiFi router testing, we used the radio frequency mode.
 
+Moving a mobile phone upward or downward can generate a magnetic field, which an EMF (Electromagnetic Field) meter can detect.
+
 ---
 
 [^1]:
@@ -32,3 +34,8 @@ The EMF meter has three modes to test: magnetic field, electric field, and radio
 ![](assets/images/emf-meter/a1.jpg){: .responsive }
 *In my bedroom, 3 meter away from TP-Link router*{: .caption }
 
+[^2]:
+
+{: .centered }
+![](assets/images/emf-meter/output.gif){: .responsive }
+*Magnetic field*{: .caption }
