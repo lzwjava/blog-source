@@ -1,12 +1,12 @@
 ---
-audio: false
+audio: true
 lang: ja
 layout: post
-title: ffmpegコマンド
+title: FFmpegコマンド
 translated: true
 ---
 
-ffmpegコマンド集
+いくつか使用しているffmpegコマンドを以下に示します。
 
 
 ```bash

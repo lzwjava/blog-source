@@ -1,8 +1,8 @@
 ---
-audio: false
+audio: true
 lang: hi
 layout: post
-title: ffmpeg आदेश
+title: FFmpeg आदेश
 translated: true
 ---
 

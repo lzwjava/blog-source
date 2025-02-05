@@ -1,12 +1,12 @@
 ---
-audio: false
+audio: true
 lang: zh
 layout: post
-title: ffmpeg命令
+title: FFmpeg 命令
 translated: true
 ---
 
-这是一些我常用的ffmpeg命令。
+这里有一些我常用的ffmpeg命令。
 
 
 ```bash

@@ -1,12 +1,12 @@
 ---
-audio: false
+audio: true
 lang: hant
 layout: post
-title: ffmpeg 指令
+title: FFmpeg 指令
 translated: true
 ---
 
-以下是我常用的 ffmpeg 指令：
+以下是我常用的ffmpeg指令：
 
 
 ```bash

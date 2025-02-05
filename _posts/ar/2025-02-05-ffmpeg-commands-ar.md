@@ -1,12 +1,12 @@
 ---
-audio: false
+audio: true
 lang: ar
 layout: post
-title: أوامر ffmpeg
+title: أوامر Ffmpeg
 translated: true
 ---
 
-هنا بعض أوامر ffmpeg التي أستخدمها.
+فيما يلي بعض أوامر ffmpeg التي أستخدمها.
 
 
 ```bash

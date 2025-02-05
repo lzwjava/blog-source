@@ -1,8 +1,8 @@
 ---
-audio: false
+audio: true
 lang: de
 layout: post
-title: ffmpeg-Befehle
+title: FFmpeg-Befehle
 translated: true
 ---
 
