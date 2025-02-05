@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: en
 layout: post
 title: Multi-field EMF Meter
@@ -8,7 +8,13 @@ translated: false
 
 I recently heard rumors that 5G stations might cause harm to humans, which made me curious to investigate further. To do so, I purchased a Multi-field EMF Meter to measure electromagnetic fields. EMF stands for Electromagnetic Field.
 
-I conducted a test to measure the EMF levels at various distances from my TP-LINK AX3000 WiFi router. Below are the results. 
+I conducted a test to measure the EMF levels at various distances from my TP-LINK AX3000 WiFi router. Below are the results. [^1]
+
+The EMF meter has three modes to test: magnetic field, electric field, and radio frequency. For the WiFi router testing, we used the radio frequency mode.
+
+---
+
+[^1]:
 
 {: .centered }
 ![](assets/images/emf-meter/a.jpg){: .responsive }
