@@ -12,7 +12,7 @@ J'ai effectué un test pour mesurer les niveaux d'EMF à différentes distances 
 
 Le multimètre EMF possède trois modes de test : champ magnétique, champ électrique et radiofréquence. Pour les tests du routeur WiFi, nous avons utilisé le mode radiofréquence.
 
-Déplacer un téléphone mobile vers le haut ou vers le bas peut générer un champ magnétique, qu'un multimètre EMF (Champ Électromagnétique) peut détecter.
+Déplacer un téléphone portable vers le haut ou vers le bas peut générer un champ magnétique, qu'un multimètre EMF (Champ Électromagnétique) peut détecter. [^2]
 
 ---
 
@@ -31,7 +31,7 @@ Déplacer un téléphone mobile vers le haut ou vers le bas peut générer un ch
 *À 30 cm du routeur TP-Link*{: .caption }
 
 {: .centered }
-![](assets/images/emf-meter/a1.jpg){: .responsive }
+![](assets/images/emf-meter/a3.jpg){: .responsive }
 *Dans ma chambre, à 3 mètres du routeur TP-Link*{: .caption }
 
 [^2]:
