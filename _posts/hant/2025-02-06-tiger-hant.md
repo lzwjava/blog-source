@@ -2,11 +2,11 @@
 audio: true
 lang: hant
 layout: post
-title: 虎豹交易開放 API 例子
+title: 虎trade 開放 API
 translated: true
 ---
 
-此程式碼片段使用 Tiger Open API 擷取並列印香港交易所部分最大公司股份的即時股價。它初始化客戶端、擷取股價並列印結果。
+這段程式碼片段使用 Tiger Open API 擷取並列印香港交易所上市部分最大公司之最新股價。它初始化用戶端、擷取股價並列印結果。
 
 ```python
 from tigeropen.common.consts import Language, Market, BarPeriod, QuoteRight
