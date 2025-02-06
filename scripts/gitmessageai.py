@@ -174,6 +174,9 @@ Changed files:
     else:
         print(f"Error: Invalid API specified: {api}")
         return
+    
+    if commit_message and "```" in commit_message:
+        commit_message = commit_message.replace("```", "")
 
     # Check if the commit message is empty
     if not commit_message:
