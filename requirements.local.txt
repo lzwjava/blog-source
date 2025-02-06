@@ -10,3 +10,4 @@ pypdf
 faiss-cpu
 pyaudio
 selenium
+tigeropen

@@ -1,0 +1,34 @@
+from tigeropen.common.consts import Language, Market, BarPeriod, QuoteRight
+from tigeropen.tiger_open_config import TigerOpenClientConfig
+from tigeropen.common.util.signature_utils import read_private_key
+from tigeropen.quote.quote_client import QuoteClient
+import os
+
+
+def get_client_config(sandbox=False):
+    client_config = TigerOpenClientConfig(sandbox_debug=sandbox)
+    client_config.private_key = read_private_key(os.environ.get('TIGER_PEM'))
+    client_config.tiger_id = os.environ.get('TIGER_TIGER_ID')
+    client_config.account = os.environ.get('TIGER_ACCOUNT')
+    client_config.language = Language.zh_CN
+    return client_config
+
+
+client_config = get_client_config()
+quote_client = QuoteClient(client_config)
+
+hong_kong_biggest_companies_codes = [
+    '00700',  # Tencent Holdings Ltd.
+    '09988',  # Alibaba Group Holding Ltd.
+    '01299',  # AIA Group Ltd.
+    '00941',  # China Mobile Ltd.
+    '00388',  # Hong Kong Exchanges and Clearing Ltd.
+    '03690',  # Meituan
+    '01398',  # Industrial and Commercial Bank of China Ltd.
+    '02318',  # Ping An Insurance Group Co. of China Ltd.
+    '01810',  # Xiaomi Corporation
+    '03988',  # Bank of China Ltd.
+]
+
+stock_prices = quote_client.get_stock_briefs(hong_kong_biggest_companies_codes)
+print(stock_prices)

@@ -201,3 +201,12 @@ export ALIBABA_CLOUD_ACCESS_ID_API_KEY="xxx"
 
 export ALIBABA_CLOUD_ACCESS_API_KEY="xxx"
 
+export OPENAI_API_KEY="xxx"
+
+export TAVILY_API_KEY="xxx"
+
+export TIGER_TIGER_ID="xxx"
+
+export TIGER_ACCOUNT="xxx"
+
+export TIGER_PEM="xxx"

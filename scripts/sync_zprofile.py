@@ -10,6 +10,7 @@ with open(source_file, 'r') as f_source:
 
 # Replace API keys with "xxx"
 content = re.sub(r'export (\w+_API_KEY)=".*"', r'export \1="xxx"', content)
+content = re.sub(r'export (TIGER_\w+)=".*"', r'export \1="xxx"', content)
 
 
 with open(target_file, 'w') as f_target:
