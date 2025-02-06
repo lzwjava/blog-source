@@ -25,14 +25,3 @@ for server in servers:
     print(f"Server Location: {server.datacenter.location.name}")
     print("----------------------------------")
 
-# If you want to get a specific server by ID
-server_id = '59402674'
-server = client.servers.get_by_id(server_id)
-
-print(f"Specific Server ID: {server.id}")
-print(f"Specific Server Name: {server.name}")
-print(f"Specific Server Status: {server.status}")
-print(f"Specific Server IPv4: {server.public_net.ipv4.ip}")
-print(f"Specific Server IPv6: {server.public_net.ipv6.ip}")
-print(f"Specific Server Type: {server.server_type.name}")
-print(f"Specific Server Location: {server.datacenter.location.name}")
