@@ -16,6 +16,8 @@ Moving a mobile phone upward or downward can generate a magnetic field, which an
 
 My initial experiments suggest that the radio frequency levels in my immediate surroundings are quite low, indicating a safe environment. This is likely due to my living in an apartment complex nestled under a mountain, resulting in poor 4G and 5G signal reception. Further testing in various locations is needed to draw broader conclusions.
 
+A low measurement of electromagnetic fields at one point in time does not guarantee consistently low levels. It's possible that the measurements could be higher on other days.
+
 ---
 
 [^1]:
