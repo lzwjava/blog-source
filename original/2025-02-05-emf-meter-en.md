@@ -14,6 +14,8 @@ The EMF meter has three modes to test: magnetic field, electric field, and radio
 
 Moving a mobile phone upward or downward can generate a magnetic field, which an EMF (Electromagnetic Field) meter can detect. [^2]
 
+My initial experiments suggest that the radio frequency levels in my immediate surroundings are quite low, indicating a safe environment. This is likely due to my living in an apartment complex nestled under a mountain, resulting in poor 4G and 5G signal reception. Further testing in various locations is needed to draw broader conclusions.
+
 ---
 
 [^1]:
