@@ -3,7 +3,7 @@ import ipaddress
 import threading
 import os
 
-MAX_THREADS = 255  # Maximum number of threads to use
+MAX_THREADS = 50  # Maximum number of threads to use
 
 def is_host_up(host):
     """
@@ -20,12 +20,13 @@ def is_host_up(host):
     except subprocess.TimeoutExpired:
         return False
 
-def scan_ip(ip_str):
+def scan_ip(ip_str, up_ips):
     """
     Scans a single IP address and prints its status.
     """
     if is_host_up(ip_str):
         print(f"{ip_str} is up")
+        up_ips.append(ip_str)
     else:
         print(f"{ip_str} is down")
 
@@ -36,11 +37,12 @@ def scan_network(network):
     print(f"Scanning network: {network}")
     threads = []
     semaphore = threading.Semaphore(MAX_THREADS)  # Limit the number of concurrent threads
+    up_ips = []
 
     def scan_ip_with_semaphore(ip_str):
         semaphore.acquire()
         try:
-            scan_ip(ip_str)
+            scan_ip(ip_str, up_ips)
         finally:
             semaphore.release()
 
@@ -52,7 +54,12 @@ def scan_network(network):
 
     for thread in threads:
         thread.join()
+    
+    return up_ips
 
 if __name__ == "__main__":
     network_to_scan = "192.168.1.0/24"  # Change this to your network
-    scan_network(network_to_scan)
+    up_ips = scan_network(network_to_scan)
+    print("\nLive IPs:")
+    for ip in up_ips:
+        print(ip)
