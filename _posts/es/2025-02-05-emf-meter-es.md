@@ -6,13 +6,15 @@ title: Medidor EMF multicampo
 translated: true
 ---
 
-Recientemente escuché rumores de que las estaciones 5G podrían causar daño a los humanos, lo que me dio curiosidad por investigar más a fondo. Para ello, compré un medidor EMF de campo múltiple para medir los campos electromagnéticos. EMF significa Campo Electromagnético.
+Recientemente escuché rumores de que las estaciones 5G podrían causar daño a los humanos, lo que me impulsó a investigar más a fondo. Para ello, compré un medidor EMF multicampo para medir los campos electromagnéticos. EMF significa Campo Electromagnético.
 
 Realicé una prueba para medir los niveles de EMF a varias distancias de mi router WiFi TP-LINK AX3000. A continuación se muestran los resultados. [^1]
 
 El medidor EMF tiene tres modos de prueba: campo magnético, campo eléctrico y radiofrecuencia. Para la prueba del router WiFi, utilizamos el modo de radiofrecuencia.
 
 Mover un teléfono móvil hacia arriba o hacia abajo puede generar un campo magnético, que un medidor EMF (Campo Electromagnético) puede detectar. [^2]
+
+Mis experimentos iniciales sugieren que los niveles de radiofrecuencia en mi entorno inmediato son bastante bajos, lo que indica un entorno seguro. Esto probablemente se deba a que vivo en un complejo de apartamentos ubicado bajo una montaña, lo que resulta en una mala recepción de señal 4G y 5G. Se necesitan más pruebas en varios lugares para sacar conclusiones más amplias.
 
 ---
 
