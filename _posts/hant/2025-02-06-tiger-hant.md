@@ -1,12 +1,12 @@
 ---
-audio: false
+audio: true
 lang: hant
 layout: post
-title: 老虎證券開放 API 範例
+title: 虎豹交易開放 API 例子
 translated: true
 ---
 
-此程式碼片段使用 Tiger Open API 擷取並列印香港交易所部分最大上市公司的即時股價。它初始化客戶端、擷取股價並列印結果。
+此程式碼片段使用 Tiger Open API 擷取並列印香港交易所部分最大公司股份的即時股價。它初始化客戶端、擷取股價並列印結果。
 
 ```python
 from tigeropen.common.consts import Language, Market, BarPeriod, QuoteRight
@@ -14,6 +14,10 @@ from tigeropen.tiger_open_config import TigerOpenClientConfig
 from tigeropen.common.util.signature_utils import read_private_key
 from tigeropen.quote.quote_client import QuoteClient
 import os
+from tigeropen.trade.trade_client import TradeClient
+from tigeropen.common.util.order_utils import market_order
+from tigeropen.common.util.contract_utils import stock_contract
+import sys
 
 
 def get_client_config(sandbox=False):
@@ -25,23 +29,54 @@ def get_client_config(sandbox=False):
     return client_config
 
 
-client_config = get_client_config()
-quote_client = QuoteClient(client_config)
+def get_stocks_briefs():
+    client_config = get_client_config()
+    quote_client = QuoteClient(client_config)
 
-hong_kong_biggest_companies_codes = [
-    '00700',  #騰訊控股有限公司
-    '09988',  #阿里巴巴集團控股有限公司
-    '01299',  #友邦保險有限公司
-    '00941',  #中國移動有限公司
-    '00388',  #香港交易及結算所有限公司
-    '03690',  #美團
-    '01398',  #中國工商銀行股份有限公司
-    '02318',  #中國平安保險(集團)股份有限公司
-    '01810',  #小米集團
-    '03988',  #中國銀行股份有限公司
-]
+    hong_kong_biggest_companies_codes = [
+        '00700',  # Tencent Holdings Ltd.
+        '09988',  # Alibaba Group Holding Ltd.
+        '01299',  # AIA Group Ltd.
+        '00941',  # China Mobile Ltd.
+        '00388',  # Hong Kong Exchanges and Clearing Ltd.
+        '03690',  # Meituan
+        '01398',  # Industrial and Commercial Bank of China Ltd.
+        '02318',  # Ping An Insurance Group Co. of China Ltd.
+        '01810',  # Xiaomi Corporation
+        '03988',  # Bank of China Ltd.
+    ]
 
-stock_prices = quote_client.get_stock_briefs(hong_kong_biggest_companies_codes)
-print(stock_prices)
+    stock_prices = quote_client.get_stock_briefs(hong_kong_biggest_companies_codes)
+    print(stock_prices)
+
+def place_order():
+    client_config = get_client_config()
+    trade_client = TradeClient(client_config)
+    contract = stock_contract(symbol='NVDA', currency='USD')
+    stock_order = market_order(account=client_config.account,
+                                contract = contract,
+                                action = 'BUY',
+                                quantity = 4)
+    trade_client.place_order(stock_order)
+    print(stock_order)
+
+def cancel_order(order_id):
+    client_config = get_client_config()
+    trade_client = TradeClient(client_config)
+    is_cancelled = trade_client.cancel_order(id=order_id)
+    print(f"Order cancellation status: {is_cancelled}")
+
+if __name__ == '__main__':
+
+    job = sys.argv[1]
+
+    if job == "get_stocks_briefs":
+        get_stocks_briefs()
+    elif job == "place_order":
+        place_order()
+    elif job == "cancel_order":
+        order_id = int(sys.argv[2])
+        cancel_order(order_id)
+
 
 ```
