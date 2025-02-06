@@ -16,6 +16,8 @@ Mover un teléfono móvil hacia arriba o hacia abajo puede generar un campo magn
 
 Mis experimentos iniciales sugieren que los niveles de radiofrecuencia en mi entorno inmediato son bastante bajos, lo que indica un entorno seguro. Esto probablemente se deba a que vivo en un complejo de apartamentos ubicado bajo una montaña, lo que resulta en una mala recepción de señal 4G y 5G. Se necesitan más pruebas en varios lugares para sacar conclusiones más amplias.
 
+Una medición baja de campos electromagnéticos en un momento dado no garantiza niveles consistentemente bajos. Es posible que las mediciones sean más altas en otros días.
+
 ---
 
 [^1]:
