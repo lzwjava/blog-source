@@ -109,20 +109,21 @@ rules:
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,100.64.0.0/10,DIRECT
   - IP-CIDR,224.0.0.0/4,DIRECT
-  - DOMAIN-SUFFIX,scholar.google.com,AI
+  - DOMAIN-SUFFIX,quora.com,AI
+  - DOMAIN-SUFFIX,binance.com,AI
+  - DOMAIN-SUFFIX,google.com,AI
+  - DOMAIN-SUFFIX,googleapis.com,AI  
   - DOMAIN-SUFFIX,linkedin.com,Proxy
   - DOMAIN-SUFFIX,deepseek.com,Proxy
+  - DOMAIN-SUFFIX,tiktokv.com,AI
   - DOMAIN-SUFFIX,quora.com,AI
   - DOMAIN-SUFFIX,claude.ai,AI
   - DOMAIN-SUFFIX,chatgpt.com,AI
-  - DOMAIN-SUFFIX,gemini.google.com,AI
   - DOMAIN-SUFFIX,openrouter.ai,AI
   - DOMAIN-SUFFIX,chatboxai.app,AI
-  - DOMAIN-SUFFIX,googleapis.com,AI
   - DOMAIN-SUFFIX,x.ai,AI
   - DOMAIN-SUFFIX,openai.com,AI
   - DOMAIN-SUFFIX,anthropic.com,AI
-  - DOMAIN-SUFFIX,aistudio.google.com,AI
   - RULE-SET,Global,Proxy
   - RULE-SET,China,DIRECT
   - RULE-SET,ChinaIP,DIRECT
