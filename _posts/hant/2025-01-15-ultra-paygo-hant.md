@@ -2,22 +2,26 @@
 audio: false
 lang: hant
 layout: post
-title: Ultra Paygo 美國 SIM 卡
+title: 美國Ultra Paygo SIM 卡
 translated: true
 ---
 
-最近購買了一張Ultra Paygo SIM卡。我的目標是通過沃爾瑪應用購買蘋果禮品卡，這需要一個美國電話號碼進行驗證。這促使我購買了Ultra Paygo SIM。
+我最近購買了一張Ultra Paygo SIM卡。我的目的是想透過Walmart的應用程式購買Apple禮品卡，而這需要一個美國電話號碼作驗證，因此我購買了Ultra Paygo SIM卡。
 
-這項服務由[Ultra Mobile](https://www.ultramobile.com)提供。
+服務供應商為[Ultra Mobile](https://www.ultramobile.com)。
 
-我對Ultra Paygo的體驗與Giffgaff相似。然而，與Giffgaff不同的是，我無法獲得4G數據服務。儘管我的手機顯示了LTE信號，但我無法訪問互聯網。
+我使用Ultra Paygo的經驗與Giffgaff相似。然而，與Giffgaff不同的是，我無法獲得4G數據服務。雖然我的手機顯示LTE訊號，但我無法上網。
 
-因此，這張SIM卡實際上只提供了一個美國電話號碼和短信功能。不幸的是，沃爾瑪應用需要一張由美國銀行發行的Visa卡，而我沒有。因此，我無法通過沃爾瑪購買蘋果禮品卡。
+因此，這張SIM卡實際上只提供美國電話號碼和簡訊功能。不幸的是，Walmart應用程式需要一張美國銀行發行的Visa卡，而我沒有。結果，我無法透過Walmart購買Apple禮品卡。
 
-我記得在2016年和2017年，當我每年訪問美國大約20天時，我使用了T-Mobile的SIM卡。
+我記得在2016年和2017年，我每年到美國旅遊約20天，當時我使用的是T-Mobile SIM卡。
 
 它們的關係如下：
 
-> Ultra Mobile是一家移動虛擬網絡運營商（MVNO），使用T-Mobile的蜂窩網絡。
+> Ultra Mobile是一間行動虛擬網絡營運商(MVNO)，使用T-Mobile的流動網絡。
 
-每月費用為3美元。我不確定是否會長期使用它。
+每月費用為3美元。我不確定我是否會長期使用它。
+
+使用SIM卡一個月後，我需要充值。我嘗試透過Ultra Mobile官方網站進行充值。但是，我遇到登入問題，網站顯示錯誤訊息：「哎呀！發生了一些問題，我們無法自行解決。請嘗試再次登入。」這與我一個月前順利啟用時的狀況形成對比。
+
+因此，我透過最初購買SIM卡的京東商城進行充值，支付39元人民幣獲得5美元的充值額度。
