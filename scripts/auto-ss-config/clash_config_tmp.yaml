@@ -118,6 +118,7 @@ rules:
   - DOMAIN-SUFFIX,gemini.google.com,AI
   - DOMAIN-SUFFIX,openrouter.ai,AI
   - DOMAIN-SUFFIX,chatboxai.app,AI
+  - DOMAIN-SUFFIX,googleapis.com,AI
   - DOMAIN-SUFFIX,x.ai,AI
   - DOMAIN-SUFFIX,openai.com,AI
   - DOMAIN-SUFFIX,anthropic.com,AI
