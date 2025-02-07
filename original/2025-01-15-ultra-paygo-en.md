@@ -21,3 +21,6 @@ Their relationship is as follows:
 
 It costs $3 USD per month. I'm unsure if I will continue using it long-term.
 
+After using the SIM for a month, I needed to recharge it. I attempted to do so through the official Ultra Mobile website. However, I encountered login issues, with the site displaying the error: "Whoops! Something went wrong and we weren't able to fix it ourselves. Please try to log in again." This is in contrast to my initial activation a month prior, which was problem-free.
+
+Consequently, I recharged through the JD.com store where I originally purchased the SIM, paying 39 CNY for a 5 USD credit.
