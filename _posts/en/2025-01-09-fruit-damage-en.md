@@ -19,3 +19,5 @@ Autumn Moon Pears are okay as well. They can be categorized with pears, so they 
 Longan, kiwifruit, and pineapples are also safe. Their surfaces are hard, so they are not easy to break or decay.
 
 As the examples above show, we need to consider both the nature of the fruit itself, its vulnerability to decay, and how easily its peel can break. We should also think about how the delivery drivers handle it. Sometimes, larger fruits are treated poorly, which is counterintuitive. I might be wrong about this, and I should probably try ordering more times to confirm.
+
+Durians are a type of fresh produce. They need to be cooked in a microwave oven or electric oven for 5 to 10 minutes.
