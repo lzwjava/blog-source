@@ -3,7 +3,7 @@ import os
 import re
 
 source_file = os.path.expanduser("~/.zprofile")
-target_file = os.path.join(os.path.dirname(__file__), ".zprofile")
+target_file = os.path.join(os.path.dirname(__file__), "config", ".zprofile")
 
 with open(source_file, 'r') as f_source:
     content = f_source.read()

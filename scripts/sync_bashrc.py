@@ -3,7 +3,9 @@ import os
 import argparse
 
 # Get the directory of the current script
-script_dir = os.path.dirname(os.path.abspath(__file__))
+dir = os.path.dirname(os.path.abspath(__file__))
+
+script_dir = os.path.join(dir, "config")
 
 # Set up argument parser
 parser = argparse.ArgumentParser(description='Sync .bashrc between local and remote')
