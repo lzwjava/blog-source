@@ -21,19 +21,21 @@ def _call_ollama_api(prompt, model):
                 decoded_chunk = chunk.decode('utf-8')
                 # Remove 'data: ' prefix and parse JSON
                 if decoded_chunk.startswith('data: '):
+                    json_string = decoded_chunk[5:]  # Remove 'data: ' prefix
+                    if json_string.strip() == '[DONE]':
+                        break  # End of stream
+
                     try:
-                        json_data = json.loads(decoded_chunk[5:])
-                        if 'choices' in json_data and len(json_data['choices']) > 0 and 'content' in json_data['choices'][0]['delta']:
+                        json_data = json.loads(json_string)
+                        if 'choices' in json_data and len(json_data['choices']) > 0 and 'delta' in json_data['choices'][0] and 'content' in json_data['choices'][0]['delta']:
                             content = json_data['choices'][0]['delta']['content']
                             full_response += content
                             print(content, end='', flush=True)  # Print chunk incrementally
-                        elif 'done' in json_data and json_data['done']:
-                            break #end of stream
                     except json.JSONDecodeError as e:
                         print(f"JSONDecodeError: {e}")
                         print(f"Problematic chunk: {decoded_chunk}")
-                        continue # Skip to the next chunk
-        print() #newline after stream
+                        continue  # Skip to the next chunk
+        print()  # newline after stream
         return full_response
 
     except requests.exceptions.RequestException as e:
@@ -43,7 +45,7 @@ def _call_ollama_api(prompt, model):
 
 if __name__ == '__main__':
     # Example usage:
-    prompt = "What is the capital of France?"
+    prompt = input("Enter your prompt: ")
     model = "deepseek-r1:14b"
 
     response = _call_ollama_api(prompt, model)
