@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: hi
 layout: post
 title: लिनक्स Bashrc कॉन्फ़िगरेशन

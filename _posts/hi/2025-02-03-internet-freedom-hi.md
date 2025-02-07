@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: hi
 layout: post
 title: इंटरनेट स्वतंत्रता की यात्रा

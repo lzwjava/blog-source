@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: fr
 layout: post
 title: Gestion des interfaces réseau
