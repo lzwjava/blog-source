@@ -2,13 +2,13 @@
 audio: false
 lang: ja
 layout: post
-title: ラマ.cppを試してみる
+title: llama.cppを試す
 translated: true
 ---
 
 ## llama.cpp
 
-`llama.cpp` をモデルと一緒に実行しようとすると、以下のようなエラーが発生することがあります：
+`llama.cpp`をモデルと共に実行しようとすると、このようなエラーが発生することがあります。
 
 ```bash
 % ./main -m models/7B/Phi-3-mini-4k-instruct-q4.gguf
@@ -21,17 +21,17 @@ llama_init_from_gpt_params: error: failed to load model 'models/7B/Phi-3-mini-4k
 main: error: unable to load model
 ```
 
-このエラーは、`main` プログラムを実行しているために発生します。`build/bin` にある `llama-cli` または `llama-server` プログラムを実行すると、問題が解決するはずです。
+このエラーは、`main`プログラムを実行していることが原因です。`build/bin`にある`llama-cli`または`llama-server`プログラムを実行すると、問題が解決するはずです。
 
-`main` プログラムは 2023 年 8 月 8 日に作成されたため、現在のビルドではありません。
+`main`プログラムは2023年8月8日に作成されたものであり、現在のビルドではありません。
 
-別の解決策として、Homebrew を使用して `llama.cpp` をインストールする方法があります：
+別の解決策として、Homebrewを使用して`llama.cpp`をインストールすることもできます。
 
 ```bash
 brew install llama.cpp
 ```
 
-これにより、互換性のあるライブラリバージョンを確保できます。
+これにより、互換性のあるバージョンのライブラリがインストールされます。
 
 ## Ollama
 
@@ -46,15 +46,44 @@ mistral:7b             f974a74358d6    4.1 GB    15 hours ago
 ollama remove model
 ```
 
-これは素晴らしいツールです。ただし、Ollamac にはいくつかのバグがあります。例えば、ローカル API からの応答を受信したときに、アプリ内の複数のテキストボックスが更新されます。
+これは非常に便利なツールです。Ollamacにはいくつかのバグがあります。例えば、ローカルAPIからレスポンスを受け取ると、アプリのいくつかのテキストボックスが更新されます。
+
+しかし、Linuxでは、Ollamaはシステムサービスとして実行されます。サービス設定ファイルは次のとおりです。
+
+`/etc/systemd/system/ollama.service`:
+
+```bash
+[Unit]
+Description=Ollama Service
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/ollama serve
+User=ollama
+Group=ollama
+Restart=always
+RestartSec=3
+Environment="PATH=/home/lzw/.local/bin:/home/lzw/bin:/usr/local/cuda-12.2/bin:/home/lzw/.local/share/gem/ruby/3.0.0/bin:/home/lzw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"
+
+[Install]
+WantedBy=default.target
+```
+
+Ollamaサービスを制御するには、次のコマンドを使用します。
+
+```bash
+sudo systemctl stop ollama.service
+sudo systemctl disable ollama.service
+sudo systemctl status ollama.service
+```
 
 ## LLM Farm
 
-これは素晴らしい iOS アプリです。設定には約 20 のモデルがあります。Hugging Face からダウンロードした GGUF モデルを自分でインポートすると、クラッシュすることがあります。
+これは優れたiOSアプリです。設定には約20個のモデルがあります。Hugging FaceからダウンロードしたGGUFモデルを自分でインポートすると、クラッシュすることがあります。
 
-## メリット
+## 利点
 
-これらの LLM モデルを自分でホストすることで、ネットワークアクセスを必要とせずにローカルで実行できます。例えば、ネットワークを混雑させる大きなファイルをダウンロードする際に、ローカルモデルを実行することが有益です。
+これらのLLMモデルを自己ホスティングすることで、ネットワークアクセスなしにローカルで実行できます。例えば、ネットワークを輻輳させるような大きなファイルをダウンロードする場合、ローカルモデルを実行すると有益です。
 
 ## リソース
 

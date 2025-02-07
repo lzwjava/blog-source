@@ -8,7 +8,7 @@ translated: true
 
 ## llama.cpp
 
-Cuando intentes ejecutar `llama.cpp` con un modelo, es posible que encuentres un error como este:
+Al intentar ejecutar `llama.cpp` con un modelo, podrías encontrarte con un error como este:
 
 ```bash
 % ./main -m models/7B/Phi-3-mini-4k-instruct-q4.gguf
@@ -31,35 +31,64 @@ Otra solución es instalar `llama.cpp` usando Homebrew:
 brew install llama.cpp
 ```
 
-Esto asegura que tengas una versión compatible de la biblioteca.
+Esto asegura que tienes una versión compatible de la librería.
 
 ## Ollama
 
 ```bash
 % ollama list
-NAME                   ID              SIZE      MODIFIED
-deepseek-coder:6.7b    ce298d984115    3.8 GB    14 hours ago
-mistral:7b             f974a74358d6    4.1 GB    15 hours ago
+NOMBRE                   ID              TAMAÑO      MODIFICADO
+deepseek-coder:6.7b    ce298d984115    3.8 GB    Hace 14 horas
+mistral:7b             f974a74358d6    4.1 GB    Hace 15 horas
 ```
 
 ```bash
 ollama remove model
 ```
 
-Es una gran herramienta para usar. Hay algunos errores en Ollamac. Por ejemplo, cuando recibe una respuesta de la API local, varios cuadros de texto en la aplicación se actualizan.
+Es una gran herramienta para usar. Hay algunos errores en Ollamac. Por ejemplo, cuando recibe una respuesta de la API local, varias cajas de texto en la aplicación se actualizan.
+
+Sin embargo, en Linux, Ollama se ejecuta como un servicio del sistema. Aquí está el archivo de configuración del servicio:
+
+`/etc/systemd/system/ollama.service`:
+
+```bash
+[Unit]
+Description=Servicio Ollama
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/ollama serve
+User=ollama
+Group=ollama
+Restart=always
+RestartSec=3
+Environment="PATH=/home/lzw/.local/bin:/home/lzw/bin:/usr/local/cuda-12.2/bin:/home/lzw/.local/share/gem/ruby/3.0.0/bin:/home/lzw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"
+
+[Install]
+WantedBy=default.target
+```
+
+Usa los siguientes comandos para controlar el servicio Ollama:
+
+```bash
+sudo systemctl stop ollama.service
+sudo systemctl disable ollama.service
+sudo systemctl status ollama.service
+```
 
 ## LLM Farm
 
-Es una gran aplicación para iOS. En la configuración, hay alrededor de 20 modelos. Al importar un modelo GGUF por nosotros mismos, que se descargan de Hugging Face, puede provocar un bloqueo.
+Es una gran aplicación para iOS. En la configuración, hay alrededor de 20 modelos. Al importar un modelo GGUF por nosotros mismos, que se descargan de Hugging Face, puede provocar un fallo.
 
 ## Beneficios
 
-Autoalojar estos modelos LLM permite ejecutarlos localmente sin necesidad de acceso a la red. Por ejemplo, cuando se descargan archivos grandes que congestionan la red, ejecutar un modelo local puede ser beneficioso.
+El autohospedaje de estos modelos LLM permite ejecutarlos localmente sin necesidad de acceso a la red. Por ejemplo, al descargar archivos grandes que congestionan la red, ejecutar un modelo local puede ser beneficioso.
 
 ## Recursos
 
 *   [Modelos GGML de Hugging Face](https://huggingface.co/ggml-org?sort_models=downloads#models)
-*   [Repositorio de GitHub de llama.cpp](https://github.com/ggerganov/llama.cpp)
-*   [Repositorio de GitHub de ggml](https://github.com/ggerganov/ggml)
+*   [Repositorio GitHub de llama.cpp](https://github.com/ggerganov/llama.cpp)
+*   [Repositorio GitHub de ggml](https://github.com/ggerganov/ggml)
 *   [Ollama](https://ollama.com)
 *   [Ollamac](https://github.com/kevinhermawan/Ollamac)

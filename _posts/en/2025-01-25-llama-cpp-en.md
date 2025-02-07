@@ -6,8 +6,6 @@ title: Trying llama.cpp
 translated: false
 ---
 
-
-
 ## llama.cpp
 
 When attempting to run `llama.cpp` with a model, you might encounter an error like this:
@@ -49,6 +47,35 @@ ollama remove model
 ```
 
 It's a great tool to use. There are some bugs in Ollamac. For example, when it receives a response from the local API, several text boxes in the app update.
+
+However, in Linux, Ollama runs as a system service. Here is the service configuration file:
+
+`/etc/systemd/system/ollama.service`:
+
+```bash
+[Unit]
+Description=Ollama Service
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/ollama serve
+User=ollama
+Group=ollama
+Restart=always
+RestartSec=3
+Environment="PATH=/home/lzw/.local/bin:/home/lzw/bin:/usr/local/cuda-12.2/bin:/home/lzw/.local/share/gem/ruby/3.0.0/bin:/home/lzw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"
+
+[Install]
+WantedBy=default.target
+```
+
+Use the following commands to control the Ollama service:
+
+```bash
+sudo systemctl stop ollama.service
+sudo systemctl disable ollama.service
+sudo systemctl status ollama.service
+```
 
 ## LLM Farm
 
