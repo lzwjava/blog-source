@@ -35,6 +35,14 @@ def inverse_matrix(matrix):
         print("Error: Matrix is not invertible.")
         return None
 
+def qr_decomposition(matrix):
+    try:
+        q, r = np.linalg.qr(matrix)
+        return q, r
+    except np.linalg.LinAlgError:
+        print("Error: QR decomposition failed.")
+        return None, None
+
 if __name__ == '__main__':
     matrix1 = np.array([[1, 2], [3, 4]])
     matrix2 = np.array([[5, 6], [7, 8]])
@@ -83,5 +91,18 @@ if __name__ == '__main__':
     print(eigenvectors)
     
     reconstructed_matrix = eigenvectors @ np.diag(eigenvalues) @ np.linalg.inv(eigenvectors)
-    print("\nmatrix4:")    
+    print("\nReconstructed Matrix:")    
     print(reconstructed_matrix)
+
+    # Example of QR Decomposition
+    print("\n\nExample of QR Decomposition:")
+    matrix4 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+    print("\nMatrix 4:")
+    print(matrix4)
+
+    Q, R = qr_decomposition(matrix4)
+    if Q is not None and R is not None:
+        print("\nQ (Orthogonal Matrix):")
+        print(Q)
+        print("\nR (Upper Triangular Matrix):")
+        print(R)
