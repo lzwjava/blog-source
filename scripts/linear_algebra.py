@@ -10,7 +10,7 @@ def multiply_matrices(matrix1, matrix2):
 
 if __name__ == '__main__':
   matrix1 = np.array([[1, 2], [3, 4]])
-  matrix2 = np.array([[5, 6], [7, 8]])
+  matrix2 = np.array([[5, 6], [7, 8]])  
 
   product = multiply_matrices(matrix1, matrix2)
 
