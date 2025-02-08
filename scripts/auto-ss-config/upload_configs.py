@@ -114,10 +114,6 @@ def generate_ss_urls_file(ss_urls):
     logger.info("Generated ss_urls.txt")
     return output_file_path
 
-def generate_ss_config():
-    output_file_path = _get_file_path('ss.conf')
-    logger.info("Generated ss.conf")
-    return output_file_path
 
 def upload_file(bucket_name, source_file, destination_blob_name):
     if source_file is None:
@@ -151,15 +147,14 @@ def main():
 
     logger.info("Generating ss_urls.txt...")
     ss_urls_file = generate_ss_urls_file(ss_urls)
-    
-    logger.info("Generating ss.conf...")
-    ss_config_file = generate_ss_config()    
 
     logger.info("Uploading config files...")
     yaml_url = upload_file(bucket_name, clash_config_file, 'clash_config.yaml')
     ss_urls_url = upload_file(bucket_name, ss_urls_file, 'ss_urls.txt')
-    ss_config_url = upload_file(bucket_name, ss_config_file, 'ss.conf')
     logger.info("Upload completed")
+        
+    logger.info("SS conf address is below")
+    logger.info("https://raw.githubusercontent.com/lzwjava/lzwjava.github.io/refs/heads/main/scripts/auto-ss-config/ss.conf")    
 
 if __name__ == "__main__":
     main()
