@@ -101,6 +101,12 @@ rule-providers:
     path: ./Rules/ChinaIP.yaml
     url: https://cdn.gitmirror.com/gh/tututo/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml
     interval: 86400
+  AIRule:
+    type: http
+    behavior: classical
+    path: ./Rules/AI.yaml
+    url: https://raw.githubusercontent.com/lzwjava/lzwjava.github.io/refs/heads/main/scripts/auto-ss-config/AI.yaml
+    interval: 86400  
 
 rules:
   - IP-CIDR,192.168.0.0/16,DIRECT
@@ -109,24 +115,10 @@ rules:
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,100.64.0.0/10,DIRECT
   - IP-CIDR,224.0.0.0/4,DIRECT
-  - DOMAIN-SUFFIX,quora.com,AI
-  - DOMAIN-SUFFIX,binance.com,AI
-  - DOMAIN-SUFFIX,scholar.google.com,AI
-  - DOMAIN-SUFFIX,gemini.google.com,AI
-  - DOMAIN-SUFFIX,aistudio.google.com,AI
-  - DOMAIN-SUFFIX,googleapis.com,AI
   - DOMAIN-SUFFIX,linkedin.com,Proxy
   - DOMAIN-SUFFIX,deepseek.com,Proxy
-  - DOMAIN-SUFFIX,tiktokv.com,AI
-  - DOMAIN-SUFFIX,quora.com,AI
-  - DOMAIN-SUFFIX,claude.ai,AI
-  - DOMAIN-SUFFIX,chatgpt.com,AI
-  - DOMAIN-SUFFIX,openrouter.ai,AI
-  - DOMAIN-SUFFIX,chatboxai.app,AI
-  - DOMAIN-SUFFIX,x.ai,AI
-  - DOMAIN-SUFFIX,openai.com,AI
-  - DOMAIN-SUFFIX,anthropic.com,AI
   - DOMAIN-KEYWORD,CN,DIRECT  
+  - RULE-SET,AIRule,AI
   - RULE-SET,Global,Proxy
   - RULE-SET,China,DIRECT
   - RULE-SET,ChinaIP,DIRECT
