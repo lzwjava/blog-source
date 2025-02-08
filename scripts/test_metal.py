@@ -2,8 +2,8 @@ import torch
 import argparse
 import time
 
-parser = argparse.ArgumentParser(description="Test torch with MPS or CPU.")
-parser.add_argument("--device", type=str, default="mps", choices=["mps", "cpu"], help="Device to use (mps or cpu)")
+parser = argparse.ArgumentParser(description="Test torch with MPS, CUDA, or CPU.")
+parser.add_argument("--device", type=str, default="mps", choices=["mps", "cuda", "cpu"], help="Device to use (mps, cuda, or cpu)")
 args = parser.parse_args()
 
 if args.device == "mps":
@@ -13,6 +13,12 @@ if args.device == "mps":
     else:
         print("Metal is not available, using CPU instead")
         device = torch.device("cpu")
+elif args.device == "cuda":
+    if torch.cuda.is_available():
+        print("CUDA is available")
+        device = torch.device("cuda")
+    else:
+        raise Exception("CUDA is not available")
 elif args.device == "cpu":
     device = torch.device("cpu")
     print("Using CPU")

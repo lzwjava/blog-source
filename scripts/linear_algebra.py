@@ -41,6 +41,7 @@ if __name__ == '__main__':
 
     print("Matrix 1:")
     print(matrix1)
+    
     print("\nMatrix 2:")
     print(matrix2)
 
@@ -66,3 +67,21 @@ if __name__ == '__main__':
     inv = inverse_matrix(matrix1)
     if inv is not None:
         print(inv)
+
+    # Example of Eigenvalues and Eigenvectors
+    print("\n\nExample of Eigenvalues and Eigenvectors Calculation:")
+
+    matrix3 = np.array([[9, 10], [11, 12]])
+    print("\nMatrix 3:")
+    print(matrix3)
+
+    eigenvalues, eigenvectors = np.linalg.eig(matrix3)
+    print("\nEigenvalues:")
+    print(eigenvalues)
+    
+    print("\nEigenvectors:")
+    print(eigenvectors)
+    
+    reconstructed_matrix = eigenvectors @ np.diag(eigenvalues) @ np.linalg.inv(eigenvectors)
+    print("\nmatrix4:")    
+    print(reconstructed_matrix)
