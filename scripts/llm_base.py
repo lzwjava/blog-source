@@ -77,12 +77,12 @@ def call_mistral_api(prompt, model="mistral-small-2501", process_response=True):
         response.raise_for_status()
         response_json = response.json()
         print(response_json)
-        if response_json and response_json['choices']:
-            content = response_json['choices'][0]['message']['content']
-            return content
-        else:
-            print(f"Mistral API Error: Invalid response format: {response_json}")
-            return None
+        #if response_json and response_json['choices']:
+        #    content = response_json['choices'][0]['message']['content']
+        #    return content
+        #else:
+        #    print(f"Mistral API Error: Invalid response format: {response_json}")
+        return response_json
     except requests.exceptions.RequestException as e:
         print(f"Mistral API Error: {e}")
         stre = f"{e}"
@@ -99,14 +99,13 @@ def call_ollama_api(prompt, model):
     url = base_url
     data = {
         "messages": [{"role": "user", "content": prompt}],
-        "model": model,
-        "max_tokens": 300
+        "model": model
     }
     print(f"Input to API: {data}")
     try:
         response = requests.post(url, headers=headers, data=json.dumps(data))
         response.raise_for_status()
-        return response
+        return response.json()
     except requests.exceptions.RequestException as e:
         print(f"Ollama API Error: {e}")
         return None
@@ -125,7 +124,7 @@ def call_llama_api(prompt):
     try:
         response = requests.post(url, headers=headers, data=json.dumps(data))
         response.raise_for_status()
-        return response
+        return response.json()
     except requests.exceptions.RequestException as e:
         print(f"Llama API Error: {e}")
         return None
