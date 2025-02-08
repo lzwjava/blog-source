@@ -126,6 +126,7 @@ rules:
   - DOMAIN-SUFFIX,x.ai,AI
   - DOMAIN-SUFFIX,openai.com,AI
   - DOMAIN-SUFFIX,anthropic.com,AI
+  - DOMAIN-KEYWORD,CN,DIRECT  
   - RULE-SET,Global,Proxy
   - RULE-SET,China,DIRECT
   - RULE-SET,ChinaIP,DIRECT
