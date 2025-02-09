@@ -17,3 +17,5 @@ translated: false
 - Focus on my task and leave things where they are. It may seem unorganized to others, but it's convenient for me.
 
 - Using an iPhone 20w charger to charge a Mac M2 is acceptable.
+
+- In winter, wear thick cotton pants instead of thermal underwear. One pair of pants is more convenient than thermal underwear and pants.
