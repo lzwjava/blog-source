@@ -2,27 +2,27 @@
 audio: false
 lang: fr
 layout: post
-title: Calendrier des vacances 2025
+title: Calendrier des jours fériés 2025
 translated: true
 ---
 
-Ayant travaillé pour des entreprises singapouriennes et hongkongaises, j'ai consulté l'IA pour compiler les calendriers de vacances de cette année. Actuellement, je rejoins un projet dans une banque et j'attends leur calendrier officiel de vacances. Il semble que nous suivrons le calendrier de Hong Kong. J'ai également inclus les vacances américaines en raison de mon intérêt pour les marchés boursiers américains.
+Ayant travaillé pour des entreprises singapouriennes et hongkongaises, j'ai consulté l'IA pour compiler les calendriers des jours fériés de cette année. Actuellement, je participe à un projet dans une banque et j'attends leur calendrier officiel des jours fériés. Il semble que nous suivrons le calendrier de Hong Kong. J'ai également inclus les jours fériés américains en raison de mon intérêt pour les marchés boursiers américains.
 
 ---
 
 ## Chine
 
-Journées fériées chinoises pour 2025 :
+Jours fériés chinois pour 2025 :
 
-1. **Jour de l'An (元旦)**
+1. **Nouvel An (元旦)**
    - Date : 1er janvier 2025
    - Durée : 1 jour
 
-2. **Fête du Printemps (Nouvel An chinois) (春节)**
+2. **Festival du Printemps (Nouvel An chinois) (春节)**
    - Date : 29 janvier - 4 février 2025
    - Durée : 7 jours
 
-3. **Fête Qingming (清明节)**
+3. **Festival Qingming (清明节)**
    - Date : 5 avril 2025
    - Durée : 1 jour
 
@@ -30,21 +30,33 @@ Journées fériées chinoises pour 2025 :
    - Date : 1er mai 2025
    - Durée : 1 jour
 
-5. **Fête des Bateaux-Dragons (端午节)**
+5. **Festival des Bateaux-Dragons (端午节)**
    - Date : 6 juin 2025
    - Durée : 1 jour
 
-6. **Fête de la Mi-Automne (中秋节)**
+6. **Festival de la Mi-Automne (中秋节)**
    - Date : 19 septembre 2025
    - Durée : 1 jour
 
-7. **Fête nationale (国庆节)**
-   - Date : 1er - 7 octobre 2025
+7. **Fête Nationale (国庆节)**
+   - Date : 1er-7 octobre 2025
    - Durée : 7 jours
+
+Jours de travail ajustés :
+
+1. **Festival du Printemps (Nouvel An chinois)** :
+   - **Jours de travail ajustés** : le 26 janvier 2025 (dimanche) et le 8 février 2025 (samedi) sont désignés comme jours de travail pour compenser la période de vacances prolongée du 28 janvier au 4 février 2025.
+
+2. **Fête du Travail** :
+   - **Jour de travail ajusté** : le 27 avril 2025 (dimanche) est un jour de travail pour compenser les vacances prolongées de la Fête du Travail du 1er au 5 mai 2025.
+
+3. **Fête Nationale et Festival de la Mi-Automne** :
+   - **Jours de travail ajustés** : les 28 septembre 2025 (dimanche) et 11 octobre 2025 (samedi) sont des jours de travail pour compenser la période de vacances prolongée du 1er au 8 octobre 2025.
+
 
 ## Hong Kong
 
-Voici la liste mise à jour des jours fériés officiels de Hong Kong pour 2025, avec les jours de Nouvel An lunaire combinés :
+Voici la liste mise à jour des jours fériés officiels de Hong Kong pour 2025, avec les jours du Nouvel An lunaire combinés :
 
 1. **Le premier jour de janvier**
    - Date : 1er janvier 2025
@@ -53,40 +65,40 @@ Voici la liste mise à jour des jours fériés officiels de Hong Kong pour 2025,
    - Date : 29 janvier - 1er février 2025
    - Durée : 4 jours
 
-3. **Fête Qingming**
+3. **Festival Ching Ming**
    - Date : 4 avril 2025
 
 4. **Vendredi Saint**
    - Date : 18 avril 2025
 
-5. **Le jour suivant le Vendredi Saint**
+5. **Le lendemain du Vendredi Saint**
    - Date : 19 avril 2025
 
 6. **Lundi de Pâques**
    - Date : 21 avril 2025
 
 7. **Fête du Travail**
-   - Date: 1er mai 2025
+   - Date : 1er mai 2025
 
-8. **Anniversaire de Bouddha**
+8. **Anniversaire du Bouddha**
    - Date : 20 mai 2025
 
-9. **Fête Tung Ng**
+9. **Festival Tuen Ng**
    - Date : 6 juin 2025
 
-10. **Journée de l'établissement de la Région administrative spéciale de Hong Kong**
+10. **Jour de la création de la Région administrative spéciale de Hong Kong**
     - Date : 1er juillet 2025
 
-11. **Le jour suivant la Fête de la Mi-Automne chinoise**
+11. **Le lendemain du Festival chinois de la Mi-Automne**
     - Date : 20 septembre 2025
 
-12. **Fête de la Mi-Automne chinoise**
+12. **Festival chinois de la Mi-Automne**
     - Date : 21 septembre 2025
 
-13. **Fête Chung Yeung**
+13. **Festival Chung Yeung**
     - Date : 5 octobre 2025
 
-14. **Fête nationale chinoise**
+14. **Fête Nationale chinoise**
     - Date : 6 octobre 2025
 
 15. **Noël**
@@ -97,7 +109,7 @@ Voici la liste mise à jour des jours fériés officiels de Hong Kong pour 2025,
 
 ## Singapour
 
-Voici une liste propre des jours fériés officiels de Singapour pour 2025 :
+Voici une liste claire des jours fériés officiels de Singapour pour 2025 :
 
 1. **Nouvel An**
    - Date : 1er janvier 2025
@@ -121,26 +133,26 @@ Voici une liste propre des jours fériés officiels de Singapour pour 2025 :
 7. **Hari Raya Haji**
    - Date : 6 juin 2025
 
-8. **Fête nationale**
+8. **Fête Nationale**
    - Date : 9 août 2025
 
 9. **Deepavali**
    - Date : 20 octobre 2025
 
 10. **Noël**
-    - Date : 25 décembre 2025
+    - Date : 25 décembre 2025.
 
 ## États-Unis
 
-Voici une liste propre des jours fériés officiels des États-Unis pour 2025 :
+Voici une liste claire des jours fériés officiels des États-Unis pour 2025 :
 
 1. **Nouvel An**
    - Date : 1er janvier 2025
 
-2. **Jour de Martin Luther King Jr.**
+2. **Martin Luther King Jr. Day**
    - Date : 20 janvier 2025
 
-3. **Jour de George Washington (Jour des Présidents)**
+3. **Washington's Birthday (Presidents' Day)**
    - Date : 17 février 2025
 
 4. **Memorial Day**
@@ -149,30 +161,31 @@ Voici une liste propre des jours fériés officiels des États-Unis pour 2025 :
 5. **Juneteenth**
    - Date : 19 juin 2025
 
-6. **Fête de l'Indépendance**
+6. **Jour de l'Indépendance**
    - Date : 4 juillet 2025
 
-7. **Jour du Travail**
+7. **Fête du Travail**
    - Date : 1er septembre 2025
 
-8. **Jour de Christophe Colomb**
+8. **Columbus Day**
    - Date : 13 octobre 2025
 
-9. **Jour des anciens combattants**
+9. **Veterans Day**
    - Date : 11 novembre 2025
 
-10. **Jour de Thanksgiving**
+10. **Thanksgiving Day**
     - Date : 27 novembre 2025
 
 11. **Noël**
-    - Date : 25 décembre 2025
+    - Date : 25 décembre 2025.
 
 ## Figures
 
 {: .centered }
 ![](assets/images/holiday/holiday_schedule_cn.jpg)
-*Source : Auto-construite*{: .caption }
+*Source : Fait maison*{: .caption }
+
 
 {: .centered }
 ![](assets/images/holiday/holiday_schedule_hk.jpg)
-*Source : Auto-construite*{: .caption }
+*Source : Fait maison*{: .caption }

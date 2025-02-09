@@ -6,8 +6,6 @@ title: 2025 Holiday Schedule
 translated: false
 ---
 
-
-
 Having worked for Singaporean and Hong Kong companies, I consulted AI to compile this year's holiday schedules. Currently, I'm joining a project at a bank and am awaiting their official holiday calendar. It appears we will be following the Hong Kong schedule. I've also included the USA holidays due to my interest in US stock markets.
 
 ---
@@ -43,6 +41,17 @@ Chinese public holidays for 2025:
 7. **National Day (国庆节)**
    - Date: October 1-7, 2025
    - Duration: 7 days
+
+Adjusted working days:
+
+1. **Spring Festival (Chinese New Year)**:
+   - **Adjusted Working Days**: January 26, 2025 (Sunday) and February 8, 2025 (Saturday) are designated as working days to compensate for the extended holiday period from January 28 to February 4, 2025 .
+
+2. **Labor Day**:
+   - **Adjusted Working Day**: April 27, 2025 (Sunday) is a working day to compensate for the extended Labor Day holiday from May 1 to May 5, 2025 .
+
+3. **National Day and Mid-Autumn Festival**:
+   - **Adjusted Working Days**: September 28, 2025 (Sunday) and October 11, 2025 (Saturday) are working days to compensate for the extended holiday period from October 1 to October 8, 2025 .
 
 
 ## Hong Kong
@@ -180,4 +189,3 @@ Here is a clean list of the USA's official holidays for 2025:
 {: .centered }
 ![](assets/images/holiday/holiday_schedule_hk.jpg)
 *Source: Self-Made*{: .caption }
-

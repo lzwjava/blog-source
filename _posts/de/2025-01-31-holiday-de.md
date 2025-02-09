@@ -2,24 +2,24 @@
 audio: false
 lang: de
 layout: post
-title: 2025-Feiertagskalender
+title: Feiertagskalender 2025
 translated: true
 ---
 
-Nach der Arbeit für singapurische und hongkongische Unternehmen habe ich KI konsultiert, um den diesjährigen Feiertagskalender zu erstellen. Derzeit nehme ich an einem Projekt bei einer Bank teil und warte auf deren offiziellen Feiertagskalender. Es scheint, dass wir den Hong-Kong-Zeitplan befolgen werden. Ich habe auch die US-Feiertage aufgrund meines Interesses an den US-Aktienmärkten aufgenommen.
+Nach meiner Tätigkeit für singapurische und Hongkonger Unternehmen habe ich KI zur Erstellung der diesjährigen Feiertagskalender hinzugezogen. Derzeit arbeite ich an einem Projekt bei einer Bank und warte auf deren offiziellen Feiertagskalender. Es scheint, dass wir dem Hongkonger Kalender folgen werden. Aufgrund meines Interesses an den US-Aktienmärkten habe ich auch die US-amerikanischen Feiertage hinzugefügt.
 
 ---
 
 ## China
 
-Chinesische Feiertage für 2025:
+Chinesische Feiertage 2025:
 
 1. **Neujahrstag (元旦)**
    - Datum: 1. Januar 2025
    - Dauer: 1 Tag
 
 2. **Frühlingsfest (Chinesisches Neujahr) (春节)**
-   - Datum: 29. Januar – 4. Februar 2025
+   - Datum: 29. Januar - 4. Februar 2025
    - Dauer: 7 Tage
 
 3. **Qingming-Fest (清明节)**
@@ -42,18 +42,30 @@ Chinesische Feiertage für 2025:
    - Datum: 1.-7. Oktober 2025
    - Dauer: 7 Tage
 
-## Hong Kong
+Angepasste Arbeitstage:
 
-Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025 mit den Tagen des Lunar New Year kombiniert:
+1. **Frühlingsfest (Chinesisches Neujahr)**:
+   - **Angepasste Arbeitstage**: Der 26. Januar 2025 (Sonntag) und der 8. Februar 2025 (Samstag) sind als Arbeitstage ausgewiesen, um die verlängerten Feiertage vom 28. Januar bis 4. Februar 2025 auszugleichen.
 
-1. **Der erste Tag des Januars**
+2. **Tag der Arbeit**:
+   - **Angepasster Arbeitstag**: Der 27. April 2025 (Sonntag) ist ein Arbeitstag, um die verlängerten Feiertage zum Tag der Arbeit vom 1. bis 5. Mai 2025 auszugleichen.
+
+3. **Nationalfeiertag und Mittherbstfest**:
+   - **Angepasste Arbeitstage**: Der 28. September 2025 (Sonntag) und der 11. Oktober 2025 (Samstag) sind Arbeitstage, um die verlängerten Feiertage vom 1. bis 8. Oktober 2025 auszugleichen.
+
+
+## Hongkong
+
+Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025 mit den zusammengeführten Tagen des Mondneujahrs:
+
+1. **Der erste Januar**
    - Datum: 1. Januar 2025
 
-2. **Lunar New Year**
-   - Datum: 29. Januar – 1. Februar 2025
+2. **Mondneujahr**
+   - Datum: 29. Januar - 1. Februar 2025
    - Dauer: 4 Tage
 
-3. **Ching Ming Festival**
+3. **Qingming-Fest**
    - Datum: 4. April 2025
 
 4. **Karfreitag**
@@ -71,10 +83,10 @@ Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025
 8. **Buddhas Geburtstag**
    - Datum: 20. Mai 2025
 
-9. **Tuen Ng Festival**
+9. **Drachenbootfest**
    - Datum: 6. Juni 2025
 
-10. **Feiertag zur Gründung der Sonderverwaltungsregion Hongkong**
+10. **Tag der Gründung der Sonderverwaltungsregion Hongkong**
     - Datum: 1. Juli 2025
 
 11. **Der Tag nach dem chinesischen Mittherbstfest**
@@ -92,12 +104,12 @@ Hier ist die aktualisierte Liste der offiziellen Feiertage in Hongkong für 2025
 15. **Weihnachten**
     - Datum: 25. Dezember 2025
 
-16. **Der erste Werktag nach Weihnachten**
+16. **Der erste Wochentag nach Weihnachten**
     - Datum: 26. Dezember 2025
 
 ## Singapur
 
-Hier ist eine saubere Liste der offiziellen Feiertage Singapurs für 2025:
+Hier ist eine übersichtliche Liste der offiziellen Feiertage in Singapur für 2025:
 
 1. **Neujahrstag**
    - Datum: 1. Januar 2025
@@ -132,7 +144,7 @@ Hier ist eine saubere Liste der offiziellen Feiertage Singapurs für 2025:
 
 ## USA
 
-Hier ist eine saubere Liste der offiziellen Feiertage der USA für 2025:
+Hier ist eine übersichtliche Liste der offiziellen Feiertage in den USA für 2025:
 
 1. **Neujahrstag**
    - Datum: 1. Januar 2025
@@ -146,7 +158,7 @@ Hier ist eine saubere Liste der offiziellen Feiertage der USA für 2025:
 4. **Memorial Day**
    - Datum: 26. Mai 2025
 
-5. **Junteenth**
+5. **Juneteenth**
    - Datum: 19. Juni 2025
 
 6. **Unabhängigkeitstag**
@@ -158,11 +170,22 @@ Hier ist eine saubere Liste der offiziellen Feiertage der USA für 2025:
 8. **Columbus Day**
    - Datum: 13. Oktober 2025
 
-9. **Veterans Day**
+9. **Veteran's Day**
    - Datum: 11. November 2025
 
-10. **Erntedankfest**
+10. **Thanksgiving**
     - Datum: 27. November 2025
 
 11. **Weihnachten**
     - Datum: 25. Dezember 2025.
+
+## Abbildungen
+
+{: .centered }
+![](assets/images/holiday/holiday_schedule_cn.jpg)
+*Quelle: Eigenerstellung*{: .caption }
+
+
+{: .centered }
+![](assets/images/holiday/holiday_schedule_hk.jpg)
+*Quelle: Eigenerstellung*{: .caption }

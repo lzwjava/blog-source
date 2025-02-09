@@ -2,27 +2,27 @@
 audio: false
 lang: es
 layout: post
-title: Calendario de Vacaciones 2025
+title: Calendario de Festivos 2025
 translated: true
 ---
 
-Habiendo trabajado para empresas de Singapur y Hong Kong, consulté a la IA para compilar los calendarios de vacaciones de este año. Actualmente, me estoy uniendo a un proyecto en un banco y estoy esperando su calendario oficial de vacaciones. Parece que seguiremos el calendario de Hong Kong. También he incluido las vacaciones de EE. UU. debido a mi interés en los mercados de valores estadounidenses.
+Tras haber trabajado para empresas de Singapur y Hong Kong, consulté a la IA para recopilar los calendarios festivos de este año. Actualmente, me he unido a un proyecto en un banco y estoy esperando su calendario de festivos oficial. Parece que seguiremos el calendario de Hong Kong. También he incluido los festivos de EE. UU. debido a mi interés en los mercados bursátiles estadounidenses.
 
 ---
 
 ## China
 
-Feriados públicos chinos para 2025:
+Festivos chinos para 2025:
 
 1. **Año Nuevo (元旦)**
    - Fecha: 1 de enero de 2025
    - Duración: 1 día
 
-2. **Spring Festival (Año Nuevo Chino) (春节)**
+2. **Festival de Primavera (Año Nuevo Chino) (春节)**
    - Fecha: 29 de enero - 4 de febrero de 2025
    - Duración: 7 días
 
-3. **Qingming Festival (清明节)**
+3. **Festival de Qingming (清明节)**
    - Fecha: 5 de abril de 2025
    - Duración: 1 día
 
@@ -30,11 +30,11 @@ Feriados públicos chinos para 2025:
    - Fecha: 1 de mayo de 2025
    - Duración: 1 día
 
-5. **Festival del Bote Dragón (端午节)**
+5. **Festival del Barco Dragón (端午节)**
    - Fecha: 6 de junio de 2025
    - Duración: 1 día
 
-6. **Festival de la Luna (中秋节)**
+6. **Festival del Medio Otoño (中秋节)**
    - Fecha: 19 de septiembre de 2025
    - Duración: 1 día
 
@@ -42,9 +42,21 @@ Feriados públicos chinos para 2025:
    - Fecha: 1-7 de octubre de 2025
    - Duración: 7 días
 
+Días laborables ajustados:
+
+1. **Festival de Primavera (Año Nuevo Chino)**:
+   - **Días laborables ajustados**: El 26 de enero de 2025 (domingo) y el 8 de febrero de 2025 (sábado) son días laborables para compensar el periodo vacacional extendido del 28 de enero al 4 de febrero de 2025.
+
+2. **Día del Trabajo**:
+   - **Día laborable ajustado**: El 27 de abril de 2025 (domingo) es día laborable para compensar el periodo vacacional extendido del Día del Trabajo del 1 al 5 de mayo de 2025.
+
+3. **Día Nacional y Festival del Medio Otoño**:
+   - **Días laborables ajustados**: El 28 de septiembre de 2025 (domingo) y el 11 de octubre de 2025 (sábado) son días laborables para compensar el periodo vacacional extendido del 1 al 8 de octubre de 2025.
+
+
 ## Hong Kong
 
-Aquí está la lista actualizada de feriados oficiales de Hong Kong para 2025 con los días del Año Nuevo Lunar combinados:
+Aquí está la lista actualizada de los festivos oficiales de Hong Kong para 2025 con los días del Año Nuevo Lunar combinados:
 
 1. **El primer día de enero**
    - Fecha: 1 de enero de 2025
@@ -53,7 +65,7 @@ Aquí está la lista actualizada de feriados oficiales de Hong Kong para 2025 co
    - Fecha: 29 de enero - 1 de febrero de 2025
    - Duración: 4 días
 
-3. **Ching Ming Festival**
+3. **Festival Ching Ming**
    - Fecha: 4 de abril de 2025
 
 4. **Viernes Santo**
@@ -71,33 +83,33 @@ Aquí está la lista actualizada de feriados oficiales de Hong Kong para 2025 co
 8. **Cumpleaños de Buda**
    - Fecha: 20 de mayo de 2025
 
-9. **Tuen Ng Festival**
+9. **Festival Tuen Ng**
    - Fecha: 6 de junio de 2025
 
-10. **Día de Establecimiento de la Región Administrativa Especial de Hong Kong**
+10. **Día de la Fundación de la Región Administrativa Especial de Hong Kong**
     - Fecha: 1 de julio de 2025
 
-11. **El día siguiente al Festival de la Luna de China**
+11. **El día siguiente al Festival del Medio Otoño Chino**
     - Fecha: 20 de septiembre de 2025
 
-12. **Festival de la Luna de China**
+12. **Festival del Medio Otoño Chino**
     - Fecha: 21 de septiembre de 2025
 
-13. **Chung Yeung Festival**
+13. **Festival Chung Yeung**
     - Fecha: 5 de octubre de 2025
 
-14. **Día Nacional de China**
+14. **Día Nacional Chino**
     - Fecha: 6 de octubre de 2025
 
-15. **Día de Navidad**
+15. **Navidad**
     - Fecha: 25 de diciembre de 2025
 
-16. **El primer día laborable después del Día de Navidad**
+16. **El primer día laborable después de Navidad**
     - Fecha: 26 de diciembre de 2025
 
 ## Singapur
 
-Aquí está una lista limpia de los feriados oficiales de Singapur para 2025:
+Aquí hay una lista clara de los festivos oficiales de Singapur para 2025:
 
 1. **Año Nuevo**
    - Fecha: 1 de enero de 2025
@@ -115,7 +127,7 @@ Aquí está una lista limpia de los feriados oficiales de Singapur para 2025:
 5. **Día del Trabajo**
    - Fecha: 1 de mayo de 2025
 
-6. **Vesak Day**
+6. **Día de Vesak**
    - Fecha: 20 de mayo de 2025
 
 7. **Hari Raya Haji**
@@ -127,12 +139,12 @@ Aquí está una lista limpia de los feriados oficiales de Singapur para 2025:
 9. **Deepavali**
    - Fecha: 20 de octubre de 2025
 
-10. **Día de Navidad**
+10. **Navidad**
     - Fecha: 25 de diciembre de 2025.
 
 ## EE. UU.
 
-Aquí está una lista limpia de los feriados oficiales de EE. UU. para 2025:
+Aquí hay una lista clara de los festivos oficiales de EE. UU. para 2025:
 
 1. **Año Nuevo**
    - Fecha: 1 de enero de 2025
@@ -140,10 +152,10 @@ Aquí está una lista limpia de los feriados oficiales de EE. UU. para 2025:
 2. **Día de Martin Luther King Jr.**
    - Fecha: 20 de enero de 2025
 
-3. **Día de Washington (Día de los Presidentes)**
+3. **Cumpleaños de Washington (Día de los Presidentes)**
    - Fecha: 17 de febrero de 2025
 
-4. **Día de los Caanimados**
+4. **Día de los Caídos**
    - Fecha: 26 de mayo de 2025
 
 5. **Juneteenth**
@@ -164,15 +176,16 @@ Aquí está una lista limpia de los feriados oficiales de EE. UU. para 2025:
 10. **Día de Acción de Gracias**
     - Fecha: 27 de noviembre de 2025
 
-11. **Día de Navidad**
+11. **Navidad**
     - Fecha: 25 de diciembre de 2025.
 
 ## Figuras
 
 {: .centered }
-![](assets/images/holiday/holiday_schedule_hk.jpg)
-*Fuente: Autoelaborado*{: .caption }
+![](assets/images/holiday/holiday_schedule_cn.jpg)
+*Fuente: Elaboración propia*{: .caption }
+
 
 {: .centered }
 ![](assets/images/holiday/holiday_schedule_hk.jpg)
-*Fuente: Autoelaborado*{: .caption }
+*Fuente: Elaboración propia*{: .caption }
