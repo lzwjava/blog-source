@@ -17,6 +17,7 @@ Chinese public holidays for 2025:
 1. **New Year's Day (元旦)**
    - Date: January 1, 2025
    - Duration: 1 day
+   - Note: Work days adjusted (Jan 26, Feb 8).
 
 2. **Spring Festival (Chinese New Year) (春节)**
    - Date: January 29 - February 4, 2025
@@ -29,6 +30,7 @@ Chinese public holidays for 2025:
 4. **Labor Day (劳动节)**
    - Date: May 1, 2025
    - Duration: 1 day
+   - Note: Work day adjusted (Apr 27).
 
 5. **Dragon Boat Festival (端午节)**
    - Date: June 6, 2025
@@ -41,14 +43,7 @@ Chinese public holidays for 2025:
 7. **National Day (国庆节)**
    - Date: October 1-7, 2025
    - Duration: 7 days
-
-Adjusted working days:
-
-1. **Spring Festival (Chinese New Year)**: Adjusted working days are January 26 and February 8, 2025.
-
-2. **Labor Day**: Adjusted working day is April 27, 2025.
-
-3. **National Day and Mid-Autumn Festival**: Adjusted working days are September 28 and October 11, 2025.
+   - Note: Work days adjusted (Sep 28, Oct 11).
 
 
 ## Hong Kong
