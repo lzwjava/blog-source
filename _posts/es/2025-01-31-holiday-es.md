@@ -6,17 +6,18 @@ title: Calendario de Festivos 2025
 translated: true
 ---
 
-Tras haber trabajado para empresas de Singapur y Hong Kong, consulté a la IA para recopilar los calendarios festivos de este año. Actualmente, me he unido a un proyecto en un banco y estoy esperando su calendario de festivos oficial. Parece que seguiremos el calendario de Hong Kong. También he incluido los festivos de EE. UU. debido a mi interés en los mercados bursátiles estadounidenses.
+Tras haber trabajado para empresas de Singapur y Hong Kong, consulté a la IA para compilar los calendarios festivos de este año. Actualmente, me estoy uniendo a un proyecto en un banco y estoy esperando su calendario festivo oficial. Parece que seguiremos el calendario de Hong Kong. También he incluido los festivos de EE. UU. debido a mi interés en los mercados bursátiles estadounidenses.
 
 ---
 
 ## China
 
-Festivos chinos para 2025:
+Festivos públicos chinos para 2025:
 
 1. **Año Nuevo (元旦)**
    - Fecha: 1 de enero de 2025
    - Duración: 1 día
+   - Nota: Días laborables ajustados (26 de enero, 8 de febrero).
 
 2. **Festival de Primavera (Año Nuevo Chino) (春节)**
    - Fecha: 29 de enero - 4 de febrero de 2025
@@ -29,8 +30,9 @@ Festivos chinos para 2025:
 4. **Día del Trabajo (劳动节)**
    - Fecha: 1 de mayo de 2025
    - Duración: 1 día
+   - Nota: Día laborable ajustado (27 de abril).
 
-5. **Festival del Barco Dragón (端午节)**
+5. **Festival del Bote del Dragón (端午节)**
    - Fecha: 6 de junio de 2025
    - Duración: 1 día
 
@@ -41,17 +43,7 @@ Festivos chinos para 2025:
 7. **Día Nacional (国庆节)**
    - Fecha: 1-7 de octubre de 2025
    - Duración: 7 días
-
-Días laborables ajustados:
-
-1. **Festival de Primavera (Año Nuevo Chino)**:
-   - **Días laborables ajustados**: El 26 de enero de 2025 (domingo) y el 8 de febrero de 2025 (sábado) son días laborables para compensar el periodo vacacional extendido del 28 de enero al 4 de febrero de 2025.
-
-2. **Día del Trabajo**:
-   - **Día laborable ajustado**: El 27 de abril de 2025 (domingo) es día laborable para compensar el periodo vacacional extendido del Día del Trabajo del 1 al 5 de mayo de 2025.
-
-3. **Día Nacional y Festival del Medio Otoño**:
-   - **Días laborables ajustados**: El 28 de septiembre de 2025 (domingo) y el 11 de octubre de 2025 (sábado) son días laborables para compensar el periodo vacacional extendido del 1 al 8 de octubre de 2025.
+   - Nota: Días laborables ajustados (28 de septiembre, 11 de octubre).
 
 
 ## Hong Kong
@@ -101,15 +93,15 @@ Aquí está la lista actualizada de los festivos oficiales de Hong Kong para 202
 14. **Día Nacional Chino**
     - Fecha: 6 de octubre de 2025
 
-15. **Navidad**
+15. **Día de Navidad**
     - Fecha: 25 de diciembre de 2025
 
-16. **El primer día laborable después de Navidad**
+16. **El primer día laborable después del día de Navidad**
     - Fecha: 26 de diciembre de 2025
 
 ## Singapur
 
-Aquí hay una lista clara de los festivos oficiales de Singapur para 2025:
+Aquí hay una lista limpia de los días festivos oficiales de Singapur para 2025:
 
 1. **Año Nuevo**
    - Fecha: 1 de enero de 2025
@@ -139,12 +131,12 @@ Aquí hay una lista clara de los festivos oficiales de Singapur para 2025:
 9. **Deepavali**
    - Fecha: 20 de octubre de 2025
 
-10. **Navidad**
+10. **Día de Navidad**
     - Fecha: 25 de diciembre de 2025.
 
 ## EE. UU.
 
-Aquí hay una lista clara de los festivos oficiales de EE. UU. para 2025:
+Aquí hay una lista limpia de los días festivos oficiales de EE. UU. para 2025:
 
 1. **Año Nuevo**
    - Fecha: 1 de enero de 2025
@@ -176,7 +168,7 @@ Aquí hay una lista clara de los festivos oficiales de EE. UU. para 2025:
 10. **Día de Acción de Gracias**
     - Fecha: 27 de noviembre de 2025
 
-11. **Navidad**
+11. **Día de Navidad**
     - Fecha: 25 de diciembre de 2025.
 
 ## Figuras
