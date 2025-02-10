@@ -21,6 +21,6 @@ def test_memory_speed(size_mb):
     return read_time, write_time
 
 # Test with 100 MB of data
-read_time, write_time = test_memory_speed(100)
+read_time, write_time = test_memory_speed(2000)
 print(f"Read time: {read_time:.6f} seconds")
 print(f"Write time: {write_time:.6f} seconds")
