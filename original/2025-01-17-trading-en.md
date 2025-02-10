@@ -35,4 +35,4 @@ title: Trading
 
 - Regular investing is very interesting. The price of stocks or coins goes up and down. I observe how the market works. Often, people debate or react to news in emotional ways. But I understand a lot about what I invest in. Every time I question its long-term value, I haven't changed much about my strategy.
 
-
+- Regular investing gives you a good feeling when you see the prices of stocks come back. Prices go up and down, and you know time will tell.
