@@ -17,5 +17,4 @@ scripts/weibo_cookies.txt
 assets/epub/lzwjava*.epub
 invoice
 *.o
-*.s
 hello
