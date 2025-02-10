@@ -176,6 +176,8 @@ if [ -f '/Users/lzwjava/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Use
 function checkproxy {
   echo "HTTP_PROXY: $HTTP_PROXY"
   echo "HTTPS_PROXY: $HTTPS_PROXY"
+  echo "ftp_proxy: $ftp_proxy"
+  echo "FTP_PROXY: $FTP_PROXY"
   echo "Git HTTP Proxy:"
   git config --get http.proxy
   echo "Git HTTPS Proxy:"
