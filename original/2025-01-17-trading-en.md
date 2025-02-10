@@ -9,6 +9,8 @@ title: Trading
 
 - Prefer bank transfers over WeChatPay or Alipay, as they are less regulated. If one bank account is not working for transfers to merchants, use another one.
 
+- If we borrow consumer debt from big platforms, we should deposit it directly into the bank card that we will use for P2P trading. The merchants on Binance need to verify the source of the money.
+
 - It’s often preferable to hold the native coin of a network; for example, SOL on the Solana network or ETH on the Ethereum network. These native coins are typically used to pay for transaction fees and are widely accepted across mainstream cryptocurrency exchanges and decentralized exchange (DEX) platforms.
 
 - Avoid using cross-chain bridges due to their high costs. For example, I once paid a \\$100 USD network fee to convert \\$1200 USD worth of SOL to ETH. Instead, transfer your crypto to an exchange that supports the same chain, and then use the spot market to convert.
