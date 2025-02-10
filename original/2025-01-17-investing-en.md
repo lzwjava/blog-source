@@ -1,14 +1,15 @@
 ---
-audio: false
+audio: true
 lang: en
 layout: post
-title: Trading
-translated: false
+title: Investing
 ---
 
 - Use a dedicated bank account for P2P trading when buying cryptocurrency in China. This makes it easier to record videos or take screenshots, allowing merchants to verify the transaction history, as the transaction history is short.
 
 - Prefer bank transfers over WeChatPay or Alipay, as they are less regulated. If one bank account is not working for transfers to merchants, use another one.
+
+- If we borrow consumer debt from big platforms, we should deposit it directly into the bank card that we will use for P2P trading. The merchants on Binance need to verify the source of the money.
 
 - It’s often preferable to hold the native coin of a network; for example, SOL on the Solana network or ETH on the Ethereum network. These native coins are typically used to pay for transaction fees and are widely accepted across mainstream cryptocurrency exchanges and decentralized exchange (DEX) platforms.
 
