@@ -6,8 +6,6 @@ title: Trading
 translated: false
 ---
 
-
-
 - Use a dedicated bank account for P2P trading when buying cryptocurrency in China. This makes it easier to record videos or take screenshots, allowing merchants to verify the transaction history, as the transaction history is short.
 
 - Prefer bank transfers over WeChatPay or Alipay, as they are less regulated. If one bank account is not working for transfers to merchants, use another one.
@@ -38,4 +36,4 @@ translated: false
 
 - Regular investing is very interesting. The price of stocks or coins goes up and down. I observe how the market works. Often, people debate or react to news in emotional ways. But I understand a lot about what I invest in. Every time I question its long-term value, I haven't changed much about my strategy.
 
-
+- Regular investing gives you a good feeling when you see the prices of stocks come back. Prices go up and down, and you know time will tell.
