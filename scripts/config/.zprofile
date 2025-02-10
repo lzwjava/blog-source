@@ -8,6 +8,8 @@ function start_proxy {
     export HTTPS_PROXY="http://$GLOBAL_PROXY"
     export http_proxy="http://$GLOBAL_PROXY"
     export https_proxy="http://$GLOBAL_PROXY"
+    export ftp_proxy="http://$GLOBAL_PROXY"
+    export FTP_PROXY="http://$GLOBAL_PROXY"
     export HTTP_PROXY_REQUEST_FULLURI=false
     export HTTPS_PROXY_REQUEST_FULLURI=false
     export ALL_PROXY=$http_proxy
@@ -28,12 +30,15 @@ function stop_proxy {
 		export HTTP_PROXY=
 		export https_proxy=
     export HTTPS_PROXY=
+    export ftp_proxy=
+    export FTP_PROXY=
     export HTTP_PROXY_REQUEST_FULLURI=true
     export HTTPS_PROXY_REQUEST_FULLURI=true
 		export ALL_PROXY=		
 }
 
 export NO_PROXY="localhost,127.0.0.1,.example.com,::1"
+export no_proxy="localhost,127.0.0.1,.example.com,::1"
 
 
 function start_git_proxy {
