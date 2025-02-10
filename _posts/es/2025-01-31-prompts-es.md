@@ -2,37 +2,67 @@
 audio: true
 lang: es
 layout: post
-title: '"Preguntas útiles"'
+title: Indicaciones Útiles
 translated: true
 ---
+
+Traduce las siguientes publicaciones o palabras al chino, asegurándote de que los nombres (por ejemplo, personas, lugares, marcas o términos específicos) no se traduzcan y permanezcan en su idioma original. Solo traduce el texto circundante al chino.
+
+
+---
+
+Crea una conversación natural y extensa entre dos expertos, A y B, con al menos 50 turnos. Los expertos deben discutir un tema específico en profundidad, con la conversación fluyendo de un lado a otro. Ambos participantes deben hacer preguntas, compartir ideas y explorar los matices del tema. Utiliza habilidades como profundizar en subsecciones, comparar tecnologías, explorar casos de uso, debatir compensaciones y discutir tendencias emergentes. Expande a más de 50 turnos.
+
+Sobre el examen 04730, el examen de autoestudio de China y la tecnología electrónica básica 3.
+
+El formato debe ser el siguiente:
 
 ```json
 [
     {
       "speaker": "A",
-      "line": "Hey, 我听了很多关于某个主题。你能帮我分解一下吗?"
+      "line": "Oye, he estado escuchando mucho sobre algún tema. ¿Puedes explicármelo?"
     },
     {
       "speaker": "B",
-      "line": "当然！我们从基础开始。..."
+      "line": "¡Claro! Empecemos con lo básico..."
     }
 ]
 ```
 
 ---
 
-生成一个包含名字的欢乐农历蛇年图像
+Crea una conversación natural y extensa entre dos expertos, A y B, con al menos 50 turnos. Los expertos deben discutir un tema específico en profundidad, con la conversación fluyendo de un lado a otro. Ambos participantes deben hacer preguntas, compartir ideas y explorar los matices del tema. Utiliza habilidades como profundizar en subsecciones, comparar tecnologías, explorar casos de uso, debatir compensaciones y discutir tendencias emergentes. Expande a más de 50 turnos.
+
+Sobre el contenido del PDF. El formato debe ser el siguiente:
+
+
+A: Oye, he estado escuchando mucho sobre algún tema. ¿Puedes explicármelo?
+
+B: ¡Claro! Empecemos con lo básico.
 
 ---
 
-创建一个480p YouTube视频封面图像，包含以下元素: AI, 鲨鱼, 未来, 生动, 彩色, 日出, 市区, 并在中心放置超大字体DeepSeek R1
+Genera una imagen feliz del Año Nuevo Lunar de la Serpiente con nombres de texto incluidos
 
 ---
 
-创建一个480p YouTube视频封面图像，包含以下元素: 基础电子技术, 未来, 刺激.
+Crea una imagen de portada de video de YouTube de 480p con los siguientes elementos: IA, tiburón, futurista, vívido, colorido, amanecer, ciudad con texto supergrande DeepSeek R1 en el centro
 
 ---
 
-```json
-feat(文件结构): 添加新的文件结构
-```
+Crea una imagen de portada de video de YouTube de 480p con los siguientes elementos: Electrónica básica, futurista, emocionante.
+
+---
+
+Genera un mensaje de confirmación conciso en formato Conventional Commits para los siguientes cambios de código.
+Usa uno de los siguientes tipos: feat, fix, docs, style, refactor, test, chore, perf, ci, build, o revert.
+Si corresponde, incluye un ámbito entre paréntesis para describir la parte del código base afectada.
+El mensaje de confirmación no debe exceder los 70 caracteres. Solo da el mensaje de confirmación, sin notas adicionales al principio ni al final.
+
+Archivos modificados:
+{', '.join(file_changes)}
+
+----
+
+Crea un título de YouTube

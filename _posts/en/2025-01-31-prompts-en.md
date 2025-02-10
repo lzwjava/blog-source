@@ -6,8 +6,6 @@ title: Useful Prompts
 translated: false
 ---
 
-
-
 Translate the following posts or words into Chinese, ensuring that names (e.g., people, places, brands, or specific terms) are not translated and remain in their original form. Only translate the surrounding text into Chinese.
 
 ---
@@ -30,6 +28,17 @@ The format should be as follows:
     }
 ]
 ```
+
+---
+
+Create a natural and extended conversation between two experts, A and B, with at least 50 turns. The experts should discuss a specific topic in depth, with the conversation flowing back and forth. Both participants should ask questions, share insights, and explore the nuances of the subject matter. Use skills such as diving deeper into subsections, comparing technologies, exploring use cases, debating trade-offs, and discussing emerging trends. Expand to 50+ turns.
+
+About the PDF content. The format should be as follows:
+
+
+A: Hey, I’ve been hearing a lot about some topic. Can you break it down for me?
+
+B: Sure! Let’s start with the basics. 
 
 ---
 
