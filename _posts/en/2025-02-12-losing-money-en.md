@@ -19,3 +19,5 @@ This post documents how I and my friends have lost money.
 - Buying a car or expensive things to impress others.
 
 - Frequent trading of stocks or options within a short timeframe.
+
+- Jumping into a new type of job or opportunity without adequate preparation can lead to unemployment.

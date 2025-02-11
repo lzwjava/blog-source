@@ -14,8 +14,10 @@ Dieser Beitrag dokumentiert, wie ich und meine Freunde Geld verloren haben.
 
 - Der Kauf eines Hauses in China um 2022 hätte zu einem Verlust von 1 Million CNY geführt.
 
-- Der Kauf vieler Anzeigen zur Werbung für eine App wird zu einem Verlust von einer halben Million CNY führen.
+- Der Kauf vieler Anzeigen zur Bewerbung einer App wird zu einem Verlust von einer halben Million CNY führen.
 
 - Der Kauf eines Autos oder teurer Dinge, um andere zu beeindrucken.
 
 - Häufiger Handel mit Aktien oder Optionen innerhalb eines kurzen Zeitraums.
+
+- Der Einstieg in eine neue Art von Job oder Gelegenheit ohne ausreichende Vorbereitung kann zu Arbeitslosigkeit führen.
