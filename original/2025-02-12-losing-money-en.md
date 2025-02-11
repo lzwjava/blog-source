@@ -20,3 +20,4 @@ This post documents how I and my friends have lost money.
 
 - Frequent trading of stocks or options within a short timeframe.
 
+- Jumping into a new type of job or opportunity without adequate preparation can lead to unemployment.
