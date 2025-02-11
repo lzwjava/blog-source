@@ -22,6 +22,6 @@ translated: false
 
 - Completed software projects for clients.
 
-- Made a short trade with Trump coins and earned $600.
+- Made a short trade with Trump coins and earned 600 USD dollars.
 
 - Helped friends with software-related tasks and received red envelopes as compensation.
