@@ -208,8 +208,23 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/audios/*.mp3
-          git add _posts/**/*.md
           git diff --cached --quiet || git commit -m "feat(audio): Add generated audio files"
+          git push || {
+            echo "Push failed, attempting pull and merge"
+            git pull --rebase
+            git push
+          }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update audio Flags
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
+        run: |
+          python scripts/audio_flag.py
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _posts/**/*.md
+          git diff --quiet --staged || git commit -m "feat(audio): Update Audio flag"
           git push || {
             echo "Push failed, attempting pull and merge"
             git pull --rebase
