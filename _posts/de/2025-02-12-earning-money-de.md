@@ -16,12 +16,12 @@ translated: true
 
 - Investierte regelmäßig langfristig in Aktien oder Bitcoin.
 
-- Entdeckte eine Kryptowährungs-Wallet mit zig CNY, die im Laufe der Jahre auf hunderte CNY anwuchs.
+- Entdeckte eine Kryptowährungsbörse mit zig CNY darauf, die im Laufe der Jahre auf hunderte CNY anwuchs.
 
-- Half einem Freund bei der Rekrutierung einer Person und erhielt einen kleinen Empfehlungsbonus.
+- Half einem Freund bei der Rekrutierung einer Person und erhielt eine kleine Empfehlungsbonus.
 
-- Führte Softwareprojekte für Kunden aus.
+- Erledigte Softwareprojekte für Kunden.
 
-- Tätigte einen Kurshandel mit Trump-Coins und verdiente 600 $.
+- Tätigte einen Kurshandel mit Trump-Coins und verdiente 600 US-Dollar.
 
-- Half Freunden bei softwarebezogenen Aufgaben und erhielt als Ausgleich rote Umschläge.
+- Half Freunden bei softwarebezogenen Aufgaben und erhielt rote Umschläge als Entschädigung.
