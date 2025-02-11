@@ -17,3 +17,5 @@ This post documents how I and my friends have lost money.
 - Buying a lot of ads to advertise an app will lead to a loss of half a million CNY.
 
 - Buying a car or expensive things to impress others.
+
+- Frequent trading of stocks or options within a short timeframe.
