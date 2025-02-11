@@ -15,3 +15,5 @@ This post documents how I and my friends have lost money.
 - Buying a house in China around 2022 would have led to a loss of 1 million CNY.
 
 - Buying a lot of ads to advertise an app will lead to a loss of half a million CNY.
+
+- Buying a car or expensive things to impress others.
