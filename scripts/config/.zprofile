@@ -212,8 +212,12 @@ export OPENAI_API_KEY="xxx"
 
 export TAVILY_API_KEY="xxx"
 
+export TELEGRAM_BOT_API_KEY="xxx"
+
 export TIGER_TIGER_ID="xxx"
 
 export TIGER_ACCOUNT="xxx"
 
 export TIGER_PEM="xxx"
+
+
