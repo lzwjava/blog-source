@@ -2,7 +2,7 @@
 audio: false
 lang: ja
 layout: post
-title: Developing Spring Boot Projects with Cursor
+title: Cursorを用いたSpring Bootプロジェクト開発
 translated: true
 ---
 
@@ -14,3 +14,5 @@ mvn verify
 mvn install
 mvn spring-boot:run
 ```
+
+コマンドラインを使用してコードをコンパイルおよび実行します。

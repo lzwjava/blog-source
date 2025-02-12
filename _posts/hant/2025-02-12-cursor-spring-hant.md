@@ -2,7 +2,7 @@
 audio: false
 lang: hant
 layout: post
-title: 利用 Cursor 開發 Spring Boot 專案
+title: 以游標開發 Spring Boot 專案
 translated: true
 ---
 
@@ -14,3 +14,5 @@ mvn verify
 mvn install
 mvn spring-boot:run
 ```
+
+使用命令行編譯及運行程式碼。

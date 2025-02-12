@@ -14,3 +14,5 @@ mvn verify
 mvn install
 mvn spring-boot:run
 ```
+
+कमांड लाइन का उपयोग करके कोड को संकलित और चलाएँ।

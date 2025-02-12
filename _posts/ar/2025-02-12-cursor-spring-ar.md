@@ -2,7 +2,7 @@
 audio: false
 lang: ar
 layout: post
-title: Developing Spring Boot Projects with Cursor
+title: تطوير مشاريع Spring Boot باستخدام Cursor
 translated: true
 ---
 
@@ -14,3 +14,5 @@ mvn verify
 mvn install
 mvn spring-boot:run
 ```
+
+استخدم سطر الأوامر لتجميع وتشغيل الكود.

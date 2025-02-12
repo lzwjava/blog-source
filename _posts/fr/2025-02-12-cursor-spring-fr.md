@@ -2,7 +2,7 @@
 audio: false
 lang: fr
 layout: post
-title: Développement de projets Spring Boot avec Cursor
+title: Developing Spring Boot Projects with Cursor
 translated: true
 ---
 

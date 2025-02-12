@@ -14,3 +14,5 @@ mvn verify
 mvn install
 mvn spring-boot:run
 ```
+
+使用命令行编译并运行代码。
