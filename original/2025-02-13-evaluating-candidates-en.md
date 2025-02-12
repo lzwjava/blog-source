@@ -23,3 +23,7 @@ translated: false
 - Analyze the candidate's drive and curiosity.
 
 - Determine whether candidates will stay in the job for years.
+
+- Challenge candidates with difficult questions.
+
+- Peter Thiel's question: "What important truth do very few people agree with you on?"
