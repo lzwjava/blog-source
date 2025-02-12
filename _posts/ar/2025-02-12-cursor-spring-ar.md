@@ -9,10 +9,15 @@ translated: true
 يقع مسار JDK في `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`.
 
 ```bash
-mvn build
-mvn verify
-mvn install
+mvn clean install
 mvn spring-boot:run
+mvn compile
+mvn test
+mvn package
+mvn deploy
+mvn verify
+mvn site
+mvn archetype:generate
 ```
 
 استخدم سطر الأوامر لتجميع وتشغيل الكود.
