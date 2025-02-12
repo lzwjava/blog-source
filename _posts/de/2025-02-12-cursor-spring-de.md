@@ -2,11 +2,11 @@
 audio: false
 lang: de
 layout: post
-title: Spring Boot-Projekte mit Cursor entwickeln
+title: Spring Boot-Projekte mit Cursors entwickeln
 translated: true
 ---
 
-Der JDK-Pfad befindet sich unter `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`.
+Der Pfad zum JDK befindet sich unter `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`.
 
 ```bash
 mvn clean install
@@ -20,4 +20,4 @@ mvn site
 mvn archetype:generate
 ```
 
-Kompiliere und führe die Anwendung über die Befehlszeile aus.
+Kompilieren und starten Sie die Anwendung über die Befehlszeile.

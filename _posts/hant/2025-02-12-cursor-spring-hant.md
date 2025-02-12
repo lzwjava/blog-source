@@ -2,7 +2,7 @@
 audio: false
 lang: hant
 layout: post
-title: 開發 Spring Boot 專案與 Cursor
+title: Spring Boot 專案開發與鼠標
 translated: true
 ---
 
@@ -20,4 +20,4 @@ mvn site
 mvn archetype:generate
 ```
 
-使用命令行編譯和運行應用程序。
+使用命令行編譯及執行應用程式。

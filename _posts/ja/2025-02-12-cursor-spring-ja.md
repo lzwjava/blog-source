@@ -2,17 +2,22 @@
 audio: false
 lang: ja
 layout: post
-title: Cursorを用いたSpring Bootプロジェクト開発
+title: スプリングブートプロジェクトをカーソルで開発する
 translated: true
 ---
 
-JDKのパスは`/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`にあります。
+JDKのパスは`/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home` にあります。
 
 ```bash
-mvn build
-mvn verify
-mvn install
+mvn clean install
 mvn spring-boot:run
+mvn compile
+mvn test
+mvn package
+mvn deploy
+mvn verify
+mvn site
+mvn archetype:generate
 ```
 
-コマンドラインを使用してコードをコンパイルおよび実行します。
+コマンドラインを使用してアプリケーションをコンパイルして実行します。

@@ -2,7 +2,7 @@
 audio: false
 lang: ar
 layout: post
-title: تطوير مشاريع Spring Boot باستخدام Cursor
+title: تطوير مشاريع Spring Boot مع كورس
 translated: true
 ---
 
@@ -20,4 +20,4 @@ mvn site
 mvn archetype:generate
 ```
 
-تجميع وتشغيل التطبيق باستخدام سطر الأوامر.
+تجميع وتشغيل التطبيق باستخدام السطر الأوامر.

@@ -2,7 +2,7 @@
 audio: false
 lang: zh
 layout: post
-title: Spring Boot 项目开发与游标
+title: Spring Boot 项目开发
 translated: true
 ---
 
@@ -20,4 +20,4 @@ mvn site
 mvn archetype:generate
 ```
 
-使用命令行编译和运行应用程序。
+使用命令行编译并运行应用程序。

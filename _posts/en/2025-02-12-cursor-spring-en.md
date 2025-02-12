@@ -20,5 +20,4 @@ mvn site
 mvn archetype:generate
 ```
 
-
-Use the command line to compile and run the code.
+Compile and run the application using the command line.
