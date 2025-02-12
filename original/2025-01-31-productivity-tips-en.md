@@ -24,3 +24,6 @@ translated: false
 
 * No productivity method works automatically - you need to experiment and adapt techniques to find what works best for your specific needs.
 
+* Use urges to do things. Don't force yourself. Always do what you want at the moment. This is fulfilling.
+
+* Use code or other tools to automate tasks, allowing you to focus on the most interesting aspects.
