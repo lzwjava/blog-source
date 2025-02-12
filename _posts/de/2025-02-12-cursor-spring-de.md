@@ -2,17 +2,22 @@
 audio: false
 lang: de
 layout: post
-title: Developing Spring Boot Projects with Cursor
+title: Spring Boot-Projekte mit Cursor entwickeln
 translated: true
 ---
 
 Der JDK-Pfad befindet sich unter `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`.
 
 ```bash
-mvn build
-mvn verify
-mvn install
+mvn clean install
 mvn spring-boot:run
+mvn compile
+mvn test
+mvn package
+mvn deploy
+mvn verify
+mvn site
+mvn archetype:generate
 ```
 
-Kompilieren und führen Sie den Code über die Kommandozeile aus.
+Kompiliere und führe die Anwendung über die Befehlszeile aus.
