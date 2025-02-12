@@ -20,4 +20,4 @@ This post documents instances of financial losses experienced by myself and peop
 
 - Frequent trading of stocks or options within a short timeframe.
 
-- Jumping into a new type of job or opportunity without adequate preparation can lead to unemployment.
+- Insufficient preparation for a new job or opportunity can result in job loss.
