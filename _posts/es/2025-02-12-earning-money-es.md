@@ -2,26 +2,26 @@
 audio: true
 lang: es
 layout: post
-title: Earning Money
+title: Ganando Dinero
 translated: true
 ---
 
-- Trabajé como ingeniero de software para empresas.
+- Trabajó como ingeniero de software para empresas.
 
-- Recibí opciones sobre acciones de una startup y gané una pequeña cantidad de dinero después de que se vendió.
+- Recibió opciones de acciones de una startup y ganó una pequeña cantidad de dinero después de que la startup fuera vendida.
 
-- Creé una startup para una plataforma de transmisión en vivo de conocimiento y obtuve ingresos de las tarifas de asistencia en vivo.
+- Creó una startup para una plataforma de transmisión de conocimientos en vivo y ganó ingresos de las tarifas de asistencia en vivo.
 
-- Desarrollé un script para ayudar con la inscripción en cursos y lo vendí a mis compañeros de escuela.
+- Desarrolló un guion para ayudar con la inscripción a cursos y lo vendió a los compañeros de clase.
 
-- Invertí regularmente en acciones o Bitcoin a largo plazo.
+- Invirtió regularmente en acciones o Bitcoin a largo plazo.
 
-- Descubrí una billetera de criptomonedas con decenas de CNY, que crecieron a cientos de CNY a lo largo de los años.
+- Descubrió una billetera de criptomonedas con decenas de CNY en ella, que creció a cientos de CNY a lo largo de los años.
 
-- Ayudé a un amigo a contratar a alguien y recibí una pequeña bonificación por recomendación.
+- Ayudó a un amigo a reclutar a alguien y recibió una pequeña bonificación por referencia.
 
-- Completé proyectos de software para clientes.
+- Completó proyectos de software para clientes.
 
-- Hice una operación a corto plazo con monedas Trump y gané 600 dólares estadounidenses.
+- Hizo un comercio corto con Trump coins y ganó 600 USD.
 
-- Ayudé a amigos con tareas relacionadas con software y recibí sobres rojos como compensación.
+- Proporcionó asistencia relacionada con el software a amigos y recibió sobres rojos como pago.

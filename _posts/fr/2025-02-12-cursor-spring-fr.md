@@ -6,7 +6,7 @@ title: Développement de projets Spring Boot avec Cursor
 translated: true
 ---
 
-Le chemin JDK se trouve à `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`.
+Le chemin du JDK est situé à `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`.
 
 ```bash
 mvn clean install
@@ -20,4 +20,4 @@ mvn site
 mvn archetype:generate
 ```
 
-Utilisez la ligne de commande pour compiler et exécuter le code.
+Compilez et exécutez l'application en utilisant la ligne de commande.
