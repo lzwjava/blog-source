@@ -239,12 +239,6 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Send Telegram Message
-        run: |
-          python scripts/telegram_bot.py --job send_message
-        env:
-          TELEGRAM_BOT_API_KEY: ${{ secrets.TELEGRAM_BOT_API_KEY }}
-
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
@@ -254,13 +248,12 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4      
+        uses: actions/deploy-pages@v4
+
+      - name: Send Telegram Message
+        run: |
+          python scripts/telegram_bot.py --job send_message
+        env:
+          TELEGRAM_BOT_API_KEY: ${{ secrets.TELEGRAM_BOT_API_KEY }}
