@@ -15,10 +15,10 @@ journalctl -u llama.service
 
 ```bash
 [Unit]
-Description=Script Llama
+Description=Script de Llama
 
 [Service]
-ExecStart=/home/lzw/Projects/llama.cpp/build/bin/llama-server -m /home/lzw/Projects/llama.cpp/models/DeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf --port 8000
+ExecStart=/home/lzw/Projects/llama.cpp/build/bin/llama-server -m /home/lzw/Projects/llama.cpp/models/DeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf --port 8000 -t 10
 WorkingDirectory=/home/lzw/Projects/llama.cpp
 StandardOutput=append:/home/lzw/llama.log
 StandardError=append:/home/lzw/llama.err
