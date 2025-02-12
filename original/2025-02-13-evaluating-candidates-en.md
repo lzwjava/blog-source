@@ -14,7 +14,7 @@ translated: false
 
 - Analyze different aspects of the candidate.
 
-- Look for evidence of trustworthiness, such as years of blog posts or open-source project contributions.
+- Look for evidence of trustworthiness based on their long-term work record, such as years of blog posts or open-source project contributions.
 
 - Gather more information about the candidate.
 
