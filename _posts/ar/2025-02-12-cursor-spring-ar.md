@@ -2,7 +2,7 @@
 audio: false
 lang: ar
 layout: post
-title: تطوير مشاريع Spring Boot مع كورس
+title: تطوير مشاريع Spring Boot باستخدام أدوات الذكاء الاصطناعي
 translated: true
 ---
 
@@ -20,4 +20,4 @@ mvn site
 mvn archetype:generate
 ```
 
-تجميع وتشغيل التطبيق باستخدام السطر الأوامر.
+تأكد من تجميع وتشغيل التطبيق باستخدام السطر الأوامر.

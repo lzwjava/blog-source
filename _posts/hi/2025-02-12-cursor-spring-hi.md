@@ -2,11 +2,11 @@
 audio: false
 lang: hi
 layout: post
-title: Spring Boot Projects में Cursor के साथ विकास
+title: ऐआई टूल्स के साथ स्प्रिंग बूट प्रोजेक्ट्स विकास
 translated: true
 ---
 
-JDK का पथ `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home` पर स्थित है।
+JDK ka paath `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home` par paaya jaata hai.
 
 ```bash
 mvn clean install
@@ -20,4 +20,4 @@ mvn site
 mvn archetype:generate
 ```
 
-कमांड लाइन का उपयोग करके एप्लिकेशन को कॉम्पाइल और चलाएं।
+Application command line ke sath compile aur run karein.

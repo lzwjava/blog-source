@@ -2,7 +2,7 @@
 audio: false
 lang: es
 layout: post
-title: Desarrollando Proyectos Spring Boot con Cursor
+title: Desarrollando Proyectos Spring Boot con Herramientas de IA
 translated: true
 ---
 
@@ -20,4 +20,4 @@ mvn site
 mvn archetype:generate
 ```
 
-Compile y ejecute la aplicación utilizando la línea de comandos.
+Compila y ejecuta la aplicación usando la línea de comandos.

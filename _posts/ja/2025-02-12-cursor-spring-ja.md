@@ -2,11 +2,11 @@
 audio: false
 lang: ja
 layout: post
-title: スプリングブートプロジェクトをカーソルで開発する
+title: スプリングブートプロジェクトのAIツールを使った開発
 translated: true
 ---
 
-JDKのパスは`/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home` にあります。
+JDKのパスは、`/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`にあります。
 
 ```bash
 mvn clean install
@@ -20,4 +20,4 @@ mvn site
 mvn archetype:generate
 ```
 
-コマンドラインを使用してアプリケーションをコンパイルして実行します。
+コマンドラインを使用してアプリケーションをコンパイルし、実行します。

@@ -2,7 +2,7 @@
 audio: false
 lang: zh
 layout: post
-title: Spring Boot 项目开发
+title: 开发Spring Boot项目，使用AI工具
 translated: true
 ---
 
