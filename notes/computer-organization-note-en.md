@@ -334,3 +334,119 @@ A machine instruction, also known as a machine code instruction, is a low-level 
 
 These components work together to define a precise action that the CPU will perform, such as moving data, performing arithmetic operations, or controlling the flow of a program.
 
+---
+
+Yes, you're describing **Register Direct Addressing**, which is another type of addressing mode used in computer architecture. Here's an explanation of this mode:
+
+### Register Direct Addressing (寄存器直接寻址):
+- **Speed:** Very Fast
+- **Explanation:** In register direct addressing, the instruction specifies a register that contains the operand. The operand is directly accessed from the register rather than from memory. This mode is very fast because accessing registers is much quicker than accessing memory. Registers are part of the CPU, so there's no need for a memory access cycle.
+
+- **Example:**
+  ```assembly
+  ADD A, R1
+  ```
+- **Explanation:** In this example, the instruction adds the value in register `R1` to the value in register `A`. The operand is directly available in register `R1`, so the CPU can quickly perform the operation without accessing memory.
+
+Register direct addressing is efficient because it leverages the speed of CPU registers, making it one of the fastest addressing modes. It's commonly used in operations where operands are frequently accessed or modified, such as in loops or arithmetic operations.
+
+---
+
+Sure! Let's go through examples of each addressing mode to illustrate how they work:
+
+1. **Immediate Addressing (立即寻址):**
+   - **Example:**
+     ```assembly
+     MOV A, #5
+     ```
+   - **Explanation:** In this example, the value `5` is directly included in the instruction. The CPU moves the value `5` into register `A` without needing to access memory. This is immediate addressing because the operand (`5`) is immediately available in the instruction.
+
+2. **Direct Addressing (直接寻址):**
+   - **Example:**
+     ```assembly
+     MOV A, [1000]
+     ```
+   - **Explanation:** Here, the instruction tells the CPU to move the value stored at memory address `1000` into register `A`. The operand is located at a specific memory address, so the CPU needs to access memory to retrieve it. This is direct addressing because the address of the operand is directly specified in the instruction.
+
+3. **Indirect Addressing (间接寻址):**
+   - **Example:**
+     ```assembly
+     MOV A, [B]
+     ```
+   - **Explanation:** In this example, register `B` contains an address (say `2000`). The CPU first retrieves the address from register `B`, then accesses memory at address `2000` to get the actual operand value, and finally moves that value into register `A`. This is indirect addressing because the instruction points to a location that contains the address of the operand, adding an extra level of indirection.
+
+These examples illustrate how each addressing mode accesses operands, with immediate addressing being the most direct and fastest, and indirect addressing involving additional steps to retrieve the operand.
+
+---
+
+In the context of computer architecture, addressing modes determine how the operand of an instruction is accessed. Here's an explanation of the three addressing modes you mentioned, ordered from fastest to slowest:
+
+1. **Immediate Addressing (立即寻址):**
+   - **Speed:** Fastest
+   - **Explanation:** In immediate addressing, the operand is part of the instruction itself. This means the data is directly available within the instruction, so no additional memory access is required to fetch the operand. This makes it the fastest mode because the CPU can immediately use the data without any further lookups.
+
+2. **Direct Addressing (直接寻址):**
+   - **Speed:** Fast
+   - **Explanation:** In direct addressing, the instruction contains the address of the operand in memory. The CPU directly accesses this address to fetch the operand. This mode is slower than immediate addressing because it requires an additional memory access to retrieve the operand from the specified address.
+
+3. **Indirect Addressing (间接寻址):**
+   - **Speed:** Slowest
+   - **Explanation:** In indirect addressing, the instruction contains an address that points to another address, which in turn contains the actual operand. This can involve multiple memory accesses: first to get the address of the operand, and then to get the operand itself. This additional level of indirection makes it the slowest among the three modes.
+
+In summary, immediate addressing is the fastest because the operand is directly available, direct addressing is slower because it requires one memory access to fetch the operand, and indirect addressing is the slowest because it may require multiple memory accesses.
+
+---
+
+The passage you provided discusses aspects of a Complex Instruction Set Computing (CISC) architecture, which is a type of computer architecture known for its rich and varied set of instructions. Let's break down the key points and explain them in English:
+
+### CISC Architecture
+
+1. **Basic Processing Component**: CISC is a fundamental design principle for many desktop computer systems. It refers to the way a processor executes instructions.
+
+2. **Core of Microprocessors**: In a CISC architecture, the core functionality of a microprocessor involves executing complex instructions. These instructions are designed to perform multiple operations, such as moving data into registers or performing arithmetic operations like addition.
+
+3. **Instruction Storage**: Instructions are stored in registers, which are small, fast storage locations within the processor. The term "AR register" likely refers to an Address Register, which holds memory addresses for instructions or data.
+
+4. **Multi-Step Execution**: CISC instructions are often composed of multiple steps. Each instruction can perform several operations, making the execution process more complex but potentially more efficient for certain tasks.
+
+5. **Operations**: Typical operations in a CISC processor include moving values into registers and performing arithmetic operations, such as addition. These operations are fundamental to how the processor manipulates data.
+
+In summary, CISC architecture is characterized by its ability to execute complex instructions that perform multiple operations, utilizing registers to store and manipulate data efficiently. This design aims to optimize performance for a wide range of tasks by reducing the number of instructions needed to complete a given operation.
+
+---
+
+Parallel transmission, also known as parallel communication, is a method of conveying multiple data bits simultaneously. In this type of transmission, data is sent in parallel, meaning that multiple bits are transmitted at the same time over separate channels or wires. This is in contrast to serial transmission, where data bits are sent one after the other over a single channel.
+
+### Key Characteristics of Parallel Transmission:
+
+1. **Speed**: Parallel transmission can be faster than serial transmission because multiple bits are sent at once. This can significantly increase data throughput, especially for large amounts of data.
+
+2. **Complexity**: Parallel transmission requires more wires or channels compared to serial transmission. This increases the complexity and cost of the system, especially over long distances.
+
+3. **Synchronization**: Ensuring that all bits arrive at the same time can be challenging. Skew, which is the difference in arrival times of bits, can be an issue in parallel transmission systems.
+
+4. **Use Cases**: Parallel transmission is commonly used in internal computer buses, such as the data bus between the CPU and memory, where short distances and high speeds are crucial.
+
+5. **Error Handling**: Parallel transmission systems often require robust error-checking mechanisms to handle potential issues like crosstalk (interference between signals on adjacent wires).
+
+### Examples of Parallel Transmission:
+
+- **Internal Computer Buses**: Many internal buses in computers, such as the front-side bus or memory bus, use parallel transmission to achieve high data transfer rates.
+- **Printer Ports**: Older printer ports, such as the Centronics interface, used parallel transmission to send data to printers.
+
+Parallel transmission is less commonly used for long-distance communication due to the complexity and cost associated with maintaining multiple channels. Instead, serial transmission is often preferred for such applications, with techniques like multiplexing used to achieve higher data rates.
+
+---
+
+In computer architecture, the term "instruction word length" refers to the size, in bits, of the instructions that a processor can execute. This length is a crucial aspect of a computer's architecture because it determines several key characteristics:
+
+1. **Instruction Set Complexity**: The length of an instruction word influences the complexity and variety of operations that a processor can perform. Longer instruction words can encode more complex operations, while shorter ones may be limited to simpler tasks.
+
+2. **Memory Usage**: The instruction word length affects how much memory is required to store programs. Shorter instructions use less memory, which can be advantageous in systems with limited memory resources.
+
+3. **Processing Speed**: The length of instructions can impact the speed at which a processor can execute them. Shorter instructions may be faster to decode and execute, but they might require more instructions to perform complex tasks.
+
+4. **Compatibility and Portability**: The instruction word length is a fundamental aspect of a processor's design, and programs compiled for one instruction word length may not run on processors with a different length without modification.
+
+Common instruction word lengths include 8-bit, 16-bit, 32-bit, and 64-bit, each with its own advantages and trade-offs in terms of performance, memory usage, and complexity.
+
