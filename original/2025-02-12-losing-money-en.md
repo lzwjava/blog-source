@@ -6,7 +6,7 @@ title: Losing Money
 translated: false
 ---
 
-This post documents how I and my friends have lost money.
+This post documents instances of financial losses experienced by myself and people around me.
 
 - Entering a new industry or starting a business without a long-term plan and buying many ads will result in losses of several million CNY.
 
