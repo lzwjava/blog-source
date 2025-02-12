@@ -6,7 +6,7 @@ title: تطوير مشاريع Spring Boot باستخدام Cursor
 translated: true
 ---
 
-يقع مسار JDK في `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`.
+مسار JDK موجود في `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`.
 
 ```bash
 mvn clean install
@@ -20,4 +20,4 @@ mvn site
 mvn archetype:generate
 ```
 
-استخدم سطر الأوامر لتجميع وتشغيل الكود.
+تجميع وتشغيل التطبيق باستخدام سطر الأوامر.

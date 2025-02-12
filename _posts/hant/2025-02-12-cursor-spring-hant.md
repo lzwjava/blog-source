@@ -2,7 +2,7 @@
 audio: false
 lang: hant
 layout: post
-title: 開發 Spring Boot 項目與 Cursor
+title: 開發 Spring Boot 專案與 Cursor
 translated: true
 ---
 
