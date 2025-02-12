@@ -34,13 +34,13 @@ def get_chat_id(bot_token):
             return chat_id
     return None
 
-def get_latest_commit_message():
-    """Fetches the latest commit message from the Git repository."""
+def get_latest_commit_messages(n=5):
+    """Fetches the latest n commit messages from the Git repository."""
     try:
-        result = subprocess.run(['git', 'log', '-1', '--pretty=%B'], capture_output=True, text=True, check=True)
+        result = subprocess.run(['git', 'log', f'-{n}', '--pretty=%B'], capture_output=True, text=True, check=True)
         return result.stdout.strip()
     except subprocess.CalledProcessError as e:
-        print(f"Error fetching latest commit message: {e}")
+        print(f"Error fetching latest commit messages: {e}")
         return None
 
 def main():
@@ -58,12 +58,12 @@ def main():
 
     elif args.job == 'send_message':
         if TELEGRAM_BOT_API_KEY and TELEGRAM_CHAT_ID:
-            commit_message = get_latest_commit_message()
-            if commit_message:
-                message = f"Blog Updated. Commit message: {commit_message}"
+            commit_messages = get_latest_commit_messages()
+            if commit_messages:
+                message = f"Blog Updated. Commit messages:\n{commit_messages}\nBlog Link: https://lzwjava.github.io"
                 send_telegram_message(TELEGRAM_BOT_API_KEY, TELEGRAM_CHAT_ID, message)
             else:
-                print("Could not retrieve the latest commit message.")
+                print("Could not retrieve the latest commit messages.")
         else:
             print("TELEGRAM_BOT_API_KEY and TELEGRAM_CHAT_ID are not set.")
 
