@@ -2,7 +2,7 @@
 audio: true
 lang: fr
 layout: post
-title: Évaluation des Candidats à l'Entretien
+title: Évaluer les candidats à l'entretien
 translated: true
 ---
 
@@ -10,13 +10,13 @@ translated: true
 
 - Prenez en compte les scores des examens standardisés tels que les examens d'entrée à l'université, le TOEFL, l'IELTS et le SAT.
 
-- Évaluez si une personne qui excelle dans la vingtaine est susceptible d'être prometteuse à l'avenir.
+- Évaluez si une personne qui excelle dans la jeune vingtaine est susceptible d'être prometteuse à l'avenir.
 
 - Analysez différents aspects du candidat.
 
 - Recherchez des preuves de fiabilité basées sur leur long historique de travail, comme des années de publications de blog ou des contributions à des projets open-source.
 
-- Recueillez plus d'informations sur le candidat.
+- Rassemblez plus d'informations sur le candidat.
 
 - Observez leurs réactions et réponses pour voir si elles sont détaillées, soigneuses et concises.
 
@@ -26,4 +26,6 @@ translated: true
 
 - Mettez les candidats au défi avec des questions difficiles.
 
-- La question de Peter Thiel : "Quelle vérité importante peu de gens sont d'accord avec vous ?"
+- Recherchez des preuves de goût chez les candidats, telles que des qualités propres, simples et élégantes dans leur travail ou leur discours.
+
+- Question de Peter Thiel : "Quelle vérité importante peu de gens sont-ils d'accord avec vous ?"

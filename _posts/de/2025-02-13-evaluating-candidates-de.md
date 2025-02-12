@@ -2,28 +2,30 @@
 audio: true
 lang: de
 layout: post
-title: Beurteilung von Bewerbern
+title: Bewertung von Bewerbern
 translated: true
 ---
 
-- Bewerten Sie Kandidaten auf der Grundlage ihrer Englischkenntnisse und technischer Fähigkeiten.
+- Bewerten Sie Kandidaten anhand ihrer Englischkenntnisse und technischen Fähigkeiten.
 
-- Berücksichtigen Sie die Ergebnisse von standardisierten Prüfungen wie Hochschulzulassungsprüfungen, TOEFL, IELTS und SAT.
+- Berücksichtigen Sie die Ergebnisse standardisierter Prüfungen wie College-Zulassungsprüfungen, TOEFL, IELTS und SAT.
 
-- Beurteilen Sie, ob jemand, der in seinen frühen Zwanzigern glänzt, zukünftig vielversprechend ist.
+- Beurteilen Sie, ob jemand, der in seinen frühen Zwanzigern hervorragt, in der Zukunft vielversprechend sein wird.
 
 - Analysieren Sie verschiedene Aspekte des Kandidaten.
 
-- Suchen Sie nach Hinweisen auf Vertrauenswürdigkeit, wie Jahre von Blogbeiträgen oder Beiträgen zu Open-Source-Projekten.
+- Suchen Sie nach Hinweisen auf Vertrauenswürdigkeit anhand ihrer langfristigen Arbeitsbilanz, wie z.B. Jahre von Blogbeiträgen oder Beiträgen zu Open-Source-Projekten.
 
-- Sammeln Sie weitere Informationen über den Kandidaten.
+- Sammeln Sie mehr Informationen über den Kandidaten.
 
-- Beobachten Sie ihre Reaktionen und Antworten, um festzustellen, ob sie detailliert, sorgfältig und prägnant sind.
+- Beobachten Sie ihre Reaktionen und Antworten, um zu sehen, ob sie detailliert, sorgfältig und prägnant sind.
 
 - Analysieren Sie den Antrieb und die Neugier des Kandidaten.
 
 - Bestimmen Sie, ob die Kandidaten jahrelang im Job bleiben werden.
 
-- Stellen Sie Kandidaten vor Herausforderungen mit schwierigen Fragen.
+- Stellen Sie die Kandidaten vor schwierige Fragen.
 
-- Peter Thiels Frage: "Welche wichtige Wahrheit stimmt mit Ihnen sehr wenig Menschen zu?"
+- Suchen Sie nach Hinweisen auf den Geschmack der Kandidaten, wie z.B. saubere, einfache und elegante Qualitäten in ihrer Arbeit oder Rede.
+
+- Peters Thiels Frage: "Welche wichtige Wahrheit stimmen sehr wenige Menschen mit Ihnen überein?"

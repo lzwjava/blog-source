@@ -26,4 +26,6 @@ translated: false
 
 - Challenge candidates with difficult questions.
 
+- Look for evidence of taste in candidates, such as clean, simple, and elegant qualities in their work or speech.
+
 - Peter Thiel's question: "What important truth do very few people agree with you on?"
