@@ -6,8 +6,6 @@ title: Productivity Tips
 translated: false
 ---
 
-
-
 * Focus at work doesn't always happen as you might expect. Surprisingly, noisy or interrupted environments, like when babysitting children, can sometimes boost productivity. Your mood and mental state significantly influence your ability to concentrate, much like how they affect sleep quality.
 
 * The main dilemma of the world is that knowledge and invention are increasing, however, our focus and study are becoming harder. Most days, it's challenging to sit down and read books or watch courses. You can't force yourself to focus, just like you can't force yourself to fall asleep.
@@ -26,3 +24,6 @@ translated: false
 
 * No productivity method works automatically - you need to experiment and adapt techniques to find what works best for your specific needs.
 
+* Use urges to do things. Don't force yourself. Always do what you want at the moment. This is fulfilling.
+
+* Use code or other tools to automate tasks, allowing you to focus on the most interesting aspects.

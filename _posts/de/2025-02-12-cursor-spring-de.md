@@ -14,3 +14,5 @@ mvn verify
 mvn install
 mvn spring-boot:run
 ```
+
+Kompilieren und führen Sie den Code über die Kommandozeile aus.
