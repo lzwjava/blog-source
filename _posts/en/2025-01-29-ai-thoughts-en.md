@@ -6,8 +6,6 @@ title: AI Thoughts
 translated: false
 ---
 
-
-
 - Satya Nadella mentioned Jevons paradox. It is worth to learn.
 
 - Yin Wang: There is no "intelligence" in artificial intelligence, no "neural" in neural network, no "learning" in machine learning, and no "depth" in deep learning. There is no "depth" in deep learning. What really works in this field is called "calculus". So I prefer to call this field "differentiable computing", and the process of building models is called "differentiable programming".
@@ -22,9 +20,16 @@ translated: false
 
 - AI will affect many tools, including indirect ones. People say they won't need Figma to draw prototypes, they will directly go to code. I think Postman will be similar; people will directly use Python or other scripts to call or test APIs.
 
+- One reason we don't use Postman or Figma in the AI era is that their functionalities can't be generated through text. They also lack a command + K shortcut to trigger component replacement.
+
+- User interfaces are becoming a barrier in the AI era. Why upgrade Postman to be AI-powered for testing applications when we can directly use Python's requests library or other programming languages to test code, as the latter will be powered by AI?
+
+- Why upgrade Figma to be AI-powered for UI creation when code-based UI generation, enhanced by AI, offers a more direct and potentially powerful approach?
+
+- LLMs will change text-related applications first, like Google, Search Engines, Text Editors and Writing Tools, Quizlet, Zendesk, DeepL, Medium, WordPress, Trello, Asana, Gmail, GitHub, Goodreads, Duolingo, and Feedly.
+
 - [New Platforms Powered by AI Workflows](./ai-workflow-en)
 
 - [The Next Direction of AI Code Editors](./ai-code-en)
 
 - [How I Live Well in the AI and Blockchain Era](./ai-blockchain-en)
-
