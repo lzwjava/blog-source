@@ -28,6 +28,8 @@ translated: false
 
 - LLMs will change text-related applications first, like Google, Search Engines, Text Editors and Writing Tools, Quizlet, Zendesk, DeepL, Medium, WordPress, Trello, Asana, Gmail, GitHub, Goodreads, Duolingo, and Feedly.
 
+- Instead, LLMs won't significantly impact technologies like Git, Linux, mobile phones, hardware, browsers, operating systems, or voice and video calls, as these primarily rely on code with minimal content.
+
 - [New Platforms Powered by AI Workflows](./ai-workflow-en)
 
 - [The Next Direction of AI Code Editors](./ai-code-en)
