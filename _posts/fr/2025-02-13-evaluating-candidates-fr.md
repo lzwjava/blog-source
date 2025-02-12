@@ -2,7 +2,7 @@
 audio: true
 lang: fr
 layout: post
-title: Évaluer les candidats à l'entretien
+title: Évaluation des Candidats à l'Entretien
 translated: true
 ---
 
@@ -10,19 +10,19 @@ translated: true
 
 - Prenez en compte les scores des examens standardisés tels que les examens d'entrée à l'université, le TOEFL, l'IELTS et le SAT.
 
-- Évaluez si une personne qui excelle dans la jeune vingtaine est susceptible d'être prometteuse pour l'avenir.
+- Évaluez si une personne qui excelle dans la vingtaine est susceptible d'être prometteuse à l'avenir.
 
 - Analysez différents aspects du candidat.
 
-- Recherchez des preuves de fiabilité, telles que des années de publications de blogs ou des contributions à des projets open-source.
+- Recherchez des preuves de fiabilité basées sur leur long historique de travail, comme des années de publications de blog ou des contributions à des projets open-source.
 
-- Récupérez plus d'informations sur le candidat.
+- Recueillez plus d'informations sur le candidat.
 
 - Observez leurs réactions et réponses pour voir si elles sont détaillées, soigneuses et concises.
 
 - Analysez la motivation et la curiosité du candidat.
 
-- Déterminez si les candidats resteront à leur poste pendant des années.
+- Déterminez si les candidats resteront dans le poste pendant des années.
 
 - Mettez les candidats au défi avec des questions difficiles.
 
