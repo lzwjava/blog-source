@@ -2,24 +2,28 @@
 audio: true
 lang: fr
 layout: post
-title: Conseils de productivité
+title: Productivity Tips
 translated: true
 ---
 
-* La concentration au travail ne se produit pas toujours comme vous pourriez vous y attendre. De manière surprenante, des environnements bruyants ou interrompus, comme lorsqu'on garde des enfants, peuvent parfois augmenter la productivité. Votre humeur et votre état mental influencent considérablement votre capacité à vous concentrer, de la même manière qu'ils affectent la qualité de votre sommeil.
+* La concentration au travail ne se produit pas toujours comme on pourrait s'y attendre. Étonnamment, des environnements bruyants ou interrompus, comme lorsque l'on garde des enfants, peuvent parfois stimuler la productivité. Votre humeur et votre état mental influencent considérablement votre capacité de concentration, tout comme ils affectent la qualité de votre sommeil.
 
-* Le dilemme principal du monde est que les connaissances et les inventions augmentent, cependant, notre capacité à nous concentrer et à étudier devient plus difficile. La plupart des jours, il est difficile de s'assoir et de lire des livres ou de regarder des cours. Vous ne pouvez pas vous forcer à vous concentrer, tout comme vous ne pouvez pas vous forcer à vous endormir.
+* Le principal dilemme mondial est que les connaissances et les inventions augmentent, cependant, notre concentration et nos études deviennent plus difficiles. La plupart des jours, il est difficile de s'asseoir et de lire des livres ou de regarder des cours. On ne peut pas se forcer à se concentrer, tout comme on ne peut pas se forcer à s'endormir.
 
-* Pour remédier à cela, j'aime beaucoup marcher et conduire tout en écoutant des conférences ou en regardant des vidéos. Parcourir 10 000 kilomètres et marcher 5 000 pas chaque jour m'a aidé à devenir fluide en anglais et à passer l'examen d'IELTS. Maintenant, j'espère que cela m'aidera aussi à apprendre les mathématiques et l'IA. L'essentiel est d'éviter les distractions des téléphones mobiles et de rester calme. J'encourage les autres à essayer cette méthode et à me donner leurs retours.
+* Pour remédier à cela, j'aime beaucoup marcher et conduire tout en écoutant des conférences ou en regardant des vidéos. Couvrir 10 000 kilomètres et marcher 5 000 pas par jour m'a aidé à devenir fluent en anglais et à réussir l'examen IELTS. Maintenant, j'espère que cela peut aussi m'aider à apprendre les mathématiques et l'IA. La clé est d'éviter les distractions du téléphone portable et de rester calme. J'encourage les autres à essayer cette méthode et à me faire part de leurs commentaires.
 
-* Amusez-vous et travaillez souvent à vos propres projets.
+* Amusez-vous et travaillez souvent sur vos propres projets.
 
-* Expérimentez différentes approches pour trouver ce qui vous vient naturellement. Prêtez attention à ce qui fonctionne réellement en pratique plutôt qu'à ce que vous aimeriez croire. Faites confiance à vos instincts et à vos réponses physiques comme des indicateurs fiables.
+* Expérimentez différentes approches pour trouver ce qui vous vient naturellement. Faites attention à ce qui fonctionne réellement en pratique plutôt qu'à des vœux pieux. Faites confiance à votre instinct et à vos réponses physiques comme indicateurs fiables.
 
-* Les manières dont les gens lisent, écrivent ou codent varient considérablement. Personnellement, je préfère souvent imprimer des papiers pour les lire.
+* Les manières dont les gens lisent, écrivent ou codent varient considérablement. Personnellement, je préfère souvent imprimer des documents pour les lire.
 
-* Moins c'est plus. Les petites équipes concentrées dans les entreprises dépassent souvent les grandes équipes, même lorsque les grandes équipes ont 10x ou 100x plus de personnes, grâce à une meilleure communication et coordination.
+* Moins, c'est plus. Les petites équipes concentrées dans les entreprises surpassent souvent les grandes équipes, même lorsque les grandes équipes ont 10 ou 100 fois plus de personnes, grâce à une meilleure communication et coordination.
 
-* J'ai lu des parties de "The Mythical Man-Month" de Fred Brooks. Ses principes sur la gestion de projet logiciel restent pertinents à long terme.
+* J'ai lu des parties de "Le mythe du mois-homme" de Fred Brooks. Ses principes sur la gestion de projets logiciels restent pertinents à long terme.
 
-* Aucune méthode de productivité ne fonctionne automatiquement - vous devez expérimenter et adapter les techniques pour trouver ce qui convient le mieux à vos besoins spécifiques.
+* Aucune méthode de productivité ne fonctionne automatiquement - vous devez expérimenter et adapter les techniques pour trouver ce qui fonctionne le mieux pour vos besoins spécifiques.
+
+* Utilisez les envies de faire les choses. Ne vous forcez pas. Faites toujours ce que vous voulez sur le moment. C'est épanouissant.
+
+* Utilisez du code ou d'autres outils pour automatiser les tâches, vous permettant ainsi de vous concentrer sur les aspects les plus intéressants.
