@@ -18,7 +18,7 @@ journalctl -u llama.service
 Description=Llama Script
 
 [Service]
-ExecStart=/home/lzw/Projects/llama.cpp/build/bin/llama-server -m /home/lzw/Projects/llama.cpp/models/DeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf --port 8000 -t 10
+ExecStart=/home/lzw/Projects/llama.cpp/build/bin/llama-server -m /home/lzw/Projects/llama.cpp/models/DeepSeek-R1-Distill-Qwen-14B-Q5_K_M.gguf --port 8000  --ctx-size 2048 --batch-size 512 --n-gpu-layers 49 --threads 8 --parallel 1
 WorkingDirectory=/home/lzw/Projects/llama.cpp
 StandardOutput=append:/home/lzw/llama.log
 StandardError=append:/home/lzw/llama.err
