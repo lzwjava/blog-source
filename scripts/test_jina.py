@@ -16,8 +16,10 @@ parser.add_argument("--input", type=str, help="Input for the job", required=True
 args = parser.parse_args()
 
 if args.job == 'url':
-    url = base64.b64decode(args.input).decode('utf-8', errors='ignore')
+    url = f'https://r.jina.ai/{args.input}'
     headers = {'Authorization': f'Bearer {api_key}'}
+    print(f"URL: {url}")
+    print(f"Headers: {headers}")
     response = requests.get(url, headers=headers)
     print(response.text)
 
@@ -29,6 +31,8 @@ elif args.job == 'search':
         'X-Engine': 'direct',
         'X-Retain-Images': 'none'
     }
+    print(f"URL: {url}")
+    print(f"Headers: {headers}")
     response = requests.get(url, headers=headers)
     print(response.text)
 
