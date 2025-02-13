@@ -11,17 +11,17 @@ if not api_key:
     raise ValueError("JINA_API_KEY environment variable not set.")
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--job", type=int, choices=[1, 2], help="Job to execute (1 or 2)", required=True)
+parser.add_argument("--job", type=str, choices=['url', 'search'], help="Job to execute (url or search)", required=True)
 parser.add_argument("--input", type=str, help="Input for the job", required=True)
 args = parser.parse_args()
 
-if args.job == 1:
+if args.job == 'url':
     url = base64.b64decode(args.input).decode('utf-8', errors='ignore')
     headers = {'Authorization': f'Bearer {api_key}'}
     response = requests.get(url, headers=headers)
     print(response.text)
 
-elif args.job == 2:
+elif args.job == 'search':
     question = base64.b64decode(args.input).decode('utf-8', errors='ignore')
     url = f'https://s.jina.ai/{question}'
     headers = {
@@ -33,4 +33,4 @@ elif args.job == 2:
     print(response.text)
 
 else:
-    print("Please specify --job 1 or --job 2")
+    print("Please specify --job url or --job search")
