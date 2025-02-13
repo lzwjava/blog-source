@@ -6,9 +6,9 @@ title: خدمة Systemd
 translated: true
 ---
 
-## إعداد خدمة LLaMA Server
+## إعداد خدمة خادم LLaMA
 
-يشرح هذا القسم كيفية إعداد خدمة systemd لتشغيل خادم LLaMA، الذي يوفر قدرات استدلال LLM المحلية.
+تشرح هذه القسم كيفية إعداد خدمة systemd لتشغيل خادم LLaMA، الذي يوفر قدرات استدلال LLM المحلية.
 
 ```bash
 sudo emacs /etc/systemd/system/llama.service
@@ -35,7 +35,7 @@ WantedBy=default.target
 
 ## إعداد خدمة Open WebUI
 
-يشرح هذا القسم كيفية إعداد خدمة systemd لتشغيل Open WebUI، التي توفر واجهة ويب للتفاعل مع نماذج LLM.
+تشرح هذه القسم كيفية إعداد خدمة systemd لتشغيل Open WebUI، الذي يوفر واجهة ويب لتفاعل مع نماذج LLM.
 
 ```bash
 [Unit]
@@ -61,7 +61,7 @@ sudo systemctl start  openwebui.service
 
 ## إعداد خدمة Clash
 
-يشرح هذا القسم كيفية إعداد خدمة systemd لتشغيل Clash، أداة بروكسي تعتمد على القواعد.
+تشرح هذه القسم كيفية إعداد خدمة systemd لتشغيل Clash، أداة بروكسي مبنية على القواعد.
 
 ```bash
 [Unit]
@@ -86,7 +86,7 @@ sudo emacs /etc/systemd/system/clash.service
 # إعادة تحميل ديمون systemd
 sudo systemctl daemon-reload
 
-# تمكين وبدء الخدمة
+# تمكين و تشغيل الخدمة
 sudo systemctl enable clash.service
 sudo systemctl start clash.service
 sudo systemctl restart clash.service
