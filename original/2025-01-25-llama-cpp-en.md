@@ -32,7 +32,7 @@ brew install llama.cpp
 
 This ensures that you have a compatible version of the library.
 
-## Serve
+## Serving the Model
 
 ```bash
 /home/lzw/Projects/llama.cpp/build/bin/llama-server -m /home/lzw/Projects/llama.cpp/models/DeepSeek-R1-Distill-Qwen-14B-Q5_K_M.gguf --port 8000  --ctx-size 2048 --batch-size 512 --n-gpu-layers 49 --threads 8 --parallel 1
