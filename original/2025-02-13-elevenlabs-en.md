@@ -12,9 +12,11 @@ translated: false
 
 * Audio samples below:
 
-[English](assets/audios/ElevenLabs.mp3)
+* [English](assets/audios/ElevenLabs.mp3)
 
-[Japanese](assets/audios/ElevenLabs_1.mp3)
+* [Japanese](assets/audios/ElevenLabs_1.mp3)
 
-[Spanish](assets/audios/ElevenLabs_2.mp3)
+* [Spanish](assets/audios/ElevenLabs_2.mp3)
+
+
 
