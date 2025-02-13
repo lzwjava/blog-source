@@ -8,7 +8,7 @@ translated: true
 
 ## llama.cpp
 
-运行`llama.cpp`加载模型时，你可能会遇到这样的错误：
+尝试使用模型运行 `llama.cpp` 时，可能会遇到类似以下的错误：
 
 ```bash
 % ./main -m models/7B/Phi-3-mini-4k-instruct-q4.gguf
@@ -21,74 +21,38 @@ llama_init_from_gpt_params: error: failed to load model 'models/7B/Phi-3-mini-4k
 main: error: unable to load model
 ```
 
-这个错误是因为你运行的是`main`程序。运行`build/bin`目录下的`llama-cli`或`llama-server`程序应该可以解决这个问题。
+这个错误是因为你在运行 `main` 程序。运行位于 `build/bin` 下的 `llama-cli` 或 `llama-server` 程序应该可以解决这个问题。
 
-`main`程序创建于2023年8月8日，这意味着它不是当前版本。
+`main` 程序是在 2023 年 8 月 8 日创建的，这意味着它不是当前的构建版本。
 
-另一个解决方案是用Homebrew安装`llama.cpp`：
+另一种解决方案是使用 Homebrew 安装 `llama.cpp`：
 
 ```bash
 brew install llama.cpp
 ```
 
-这可以确保你拥有兼容版本的库。
+这可以确保你有一个兼容的库版本。
 
-## Ollama
-
-```bash
-% ollama list
-NAME                   ID              SIZE      MODIFIED
-deepseek-coder:6.7b    ce298d984115    3.8 GB    14 hours ago
-mistral:7b             f974a74358d6    4.1 GB    15 hours ago
-```
+## 服务模型
 
 ```bash
-ollama remove model
+/home/lzw/Projects/llama.cpp/build/bin/llama-server -m /home/lzw/Projects/llama.cpp/models/DeepSeek-R1-Distill-Qwen-14B-Q5_K_M.gguf --port 8000  --ctx-size 2048 --batch-size 512 --n-gpu-layers 49 --threads 8 --parallel 1
 ```
 
-这是一个非常棒的工具。Ollamac中有一些bug。例如，当它从本地API接收响应时，应用程序中的几个文本框会更新。
-
-然而，在Linux系统中，Ollama运行为系统服务。以下是服务配置文件：
-
-`/etc/systemd/system/ollama.service`:
-
-```bash
-[Unit]
-Description=Ollama Service
-After=network-online.target
-
-[Service]
-ExecStart=/usr/local/bin/ollama serve
-User=ollama
-Group=ollama
-Restart=always
-RestartSec=3
-Environment="PATH=/home/lzw/.local/bin:/home/lzw/bin:/usr/local/cuda-12.2/bin:/home/lzw/.local/share/gem/ruby/3.0.0/bin:/home/lzw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"
-
-[Install]
-WantedBy=default.target
-```
-
-使用以下命令来控制Ollama服务：
-
-```bash
-sudo systemctl stop ollama.service
-sudo systemctl disable ollama.service
-sudo systemctl status ollama.service
-```
+参数 `--ctx-size 2048 --batch-size 512 --n-gpu-layers 49 --threads 8 --parallel 1` 非常重要。它们可以提高速度。
 
 ## LLM Farm
 
-这是一个很棒的iOS应用程序。在设置中，大约有20个模型。当我们自己导入从Hugging Face下载的GGUF模型时，可能会导致崩溃。
+这是一个非常棒的 iOS 应用。在设置中有大约 20 个模型。当我们自己导入从 Hugging Face 下载的 GGUF 模型时，可能会导致崩溃。
 
-## 优势
+## 好处
 
-自托管这些LLM模型允许你在本地运行它们，而无需网络访问。例如，在下载导致网络拥塞的大文件时，运行本地模型非常有用。
+自托管这些 LLM 模型可以让你在本地运行它们，而不需要网络访问。例如，当下载大文件时网络拥堵，运行本地模型会有所帮助。
 
 ## 资源
 
-*   [Hugging Face GGML 模型](https://huggingface.co/ggml-org?sort_models=downloads#models)
-*   [llama.cpp GitHub 仓库](https://github.com/ggerganov/llama.cpp)
-*   [ggml GitHub 仓库](https://github.com/ggerganov/ggml)
+*   [Hugging Face GGML Models](https://huggingface.co/ggml-org?sort_models=downloads#models)
+*   [llama.cpp GitHub Repository](https://github.com/ggerganov/llama.cpp)
+*   [ggml GitHub Repository](https://github.com/ggerganov/ggml)
 *   [Ollama](https://ollama.com)
 *   [Ollamac](https://github.com/kevinhermawan/Ollamac)
