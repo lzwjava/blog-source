@@ -8,33 +8,33 @@ translated: true
 
 基礎概念とアーキテクチャ:
 
-* バックプロパゲーション: ニューラルネットワークを訓練するための基本的なアルゴリズム。
-* 畳み込みニューラルネットワーク: 画像処理における重要なアーキテクチャ。
-* Word2Vec: Tomáš Mikolovによる単語埋め込みに関する論文。
-* Sequence to Sequence Learning with Neural Networks: シーケンスモデリングの基礎となる論文。
-* Attention is All You Need: Transformerアーキテクチャを紹介した画期的な論文。
-* ResNet, "Deep Residual Learning for Image Recognition": より深いネットワークのための残差接続を導入。
+* バックプロパゲーション
+* 畳み込みニューラルネットワーク
+* トマーシュ・ミコロフによるWord2Vec論文
+* ニューラルネットワークによるシーケンスからシーケンスへの学習
+* アテンションはすべてです
+* ResNet, "画像認識のための深い残差学習"
 
 大規模言語モデルと関連技術:
 
-* Chain-of-Thought Prompting Elicits Reasoning in Large Language Models: 推論能力を高めるためのプロンプト技術を探求。
-* Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks: 検索と生成を組み合わせて性能を向上。
-* GPT-4 テクニカルレポート
-* Claude 3 モデルカード
-* LLaMA 3 論文
+* チェーン・オブ・サイト・プロンプティングは大規模言語モデルに推論を引き出す
+* 知識集約的NLPタスクのためのリトリーバル・オーガメンテッド・ジェネレーション
+* GPT-4技術報告書
+* Claude 3モデルカード
+* LLaMA 3論文
 
-特定のモデルとアプリケーション:
+特定のモデルと応用:
 
-* DeepSeek V3 & V2: DeepSeekからの最新モデル。
-* Whisper, Robust Speech Recognition via Large-Scale Weak Supervision: 堅牢な音声認識モデル。
-* Latent Diffusion Models (Stable Diffusion) 論文: 画像生成のための潜在拡散を紹介。
-* DALL-E 3: Scaling Text-to-Image Generation: 強力なテキストから画像への生成モデル。
+* DeepSeek V3 & V2
+* Whisper, 大規模な弱い教師データによる強力な音声認識
+* ラテンディフュージョンモデル（Stable Diffusion）論文
+* DALL-E 3テキストから画像への生成のスケーリング
 
 ベンチマークと評価:
 
-* SWE-Bench: Can Language Models Resolve Real-World GitHub Issues? コード生成能力を評価するためのベンチマーク。
+* SWE-Bench言語モデルはリアルワールドのGitHubの問題を解決できますか？
 
-キュレーションされたリスト:
+カレントリスト:
 
-* NeurIPS Test of Time Papers: 長期的な影響が認められた影響力のある論文のコレクション。
-* Ilya's Top 30 AI Papers: Ilya Sutskeverによるキュレーションされたリスト、[https://aman.ai/primers/ai/top-30-papers/](https://aman.ai/primers/ai/top-30-papers/)で利用可能。
+* NeurIPS Test of Time Papers
+* イリヤのトップ30 AI論文、イリヤ・スツケバーによるカレントリスト、[https://aman.ai/primers/ai/top-30-papers/](https://aman.ai/primers/ai/top-30-papers/)で利用可能。
