@@ -12,3 +12,4 @@ pyaudio
 selenium
 tigeropen
 hcloud
+tavily-python
