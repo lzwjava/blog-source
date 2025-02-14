@@ -2,7 +2,7 @@
 audio: true
 lang: en
 layout: post
-title: Affordable English Conversation Practice with Native Speakers
+title: Affordable English Practice with Native Speakers
 translated: false
 ---
 
