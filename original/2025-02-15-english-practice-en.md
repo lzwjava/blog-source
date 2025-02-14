@@ -12,7 +12,7 @@ The assistant will add your WeChat via your mobile phone number and help you arr
 
 It's cheap, at only 18 CNY per course for about 25 minutes. The teachers are from the Phillipines. By the way, I just learned the word "Phillipinos" from this chat.
 
-I saw this course advertised by X. The price is really cheap, so I wanted to try it. Although my IELTS score was 6 two years ago, I want to achieve 7.5 this year, so I need to practice my English more, especially speaking and writing.
+I discovered this course through a post on X and was drawn to its affordability. Despite achieving an IELTS score of 6 two years prior, my goal is to reach 7.5 this year, necessitating increased English practice, particularly in speaking and writing.
 
 We talked about some IELTS speaking exercises. The English teacher asked me exam questions about topics like travel, photo-taking habits, and traffic jams.
 
