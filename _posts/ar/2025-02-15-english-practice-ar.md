@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: ar
 layout: post
 title: ممارسة المحادثة الإنجليزية الرخيصة مع المتحدثين الأصليين
