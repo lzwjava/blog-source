@@ -6,7 +6,7 @@ title: 嘗試 Netplan
 translated: true
 ---
 
-我嘗試了以下配置來為一台 Ubuntu 機器分配靜態 IP 地址。我在該伺服器上運行 OpenWebUI 和 llama.cpp。
+我嘗試了以下配置來為一台Ubuntu機器分配靜態IP地址。我在該伺服器上運行OpenWebUI和llama.cpp。
 
 ```
 network:
@@ -19,8 +19,8 @@ network:
       gateway4: 192.168.1.1
 ```
 
-在運行 `sudo netplan apply` 後，我無法再通過 `ssh lzw@192.168.1.128` 訪問該機器。
+在運行`sudo netplan apply`後，無法再通過`ssh lzw@192.168.1.128`訪問該機器。
 
-我不得不使用鍵盤和鼠標登錄到機器，刪除文件並恢復設置。
+使用鍵盤和滑鼠登錄到機器，刪除文件並恢復設置。
 
-我注意到 `/etc/resolv.conf` 已經被更改。
+`/etc/resolv.conf`已被更改。

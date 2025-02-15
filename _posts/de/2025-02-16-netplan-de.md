@@ -19,8 +19,8 @@ network:
       gateway4: 192.168.1.1
 ```
 
-Nach dem Ausführen von `sudo netplan apply` konnte ich den Computer nicht mehr über `ssh lzw@192.168.1.128` erreichen.
+Nach dem Ausführen von `sudo netplan apply` konnte der Zugriff auf die Maschine über `ssh lzw@192.168.1.128` nicht mehr erfolgen.
 
-Ich musste eine Tastatur und eine Maus verwenden, um mich bei dem Computer anzumelden, die Dateien zu entfernen und die Einstellungen zurückzusetzen.
+Tastatur und Maus wurden verwendet, um sich bei der Maschine anzumelden, die Dateien zu entfernen und die Einstellungen zurückzusetzen.
 
-Ich bemerkte, dass `/etc/resolv.conf` geändert worden war.
+`/etc/resolv.conf` wurde geändert.
