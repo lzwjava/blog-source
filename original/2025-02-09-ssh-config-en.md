@@ -25,11 +25,15 @@ This `ssh-config` file configures SSH client behavior. Let's break down each par
 
 
 ```bash
-Host * !192.*.*.*
+Host 192.168.1.*
+    UseKeychain yes
+    AddKeysToAgent yes
+    IdentityFile ~/.ssh/id_rsa 
+Host * !192.*.*.* !47.*.*.*
     ProxyCommand corkscrew localhost 7890 %h %p
 Host *
     UseKeychain yes
     AddKeysToAgent yes
-    IdentityFile ~/.ssh/id_rsa
+    IdentityFile ~/.ssh/id_rsa    
 ```
 
