@@ -10,11 +10,11 @@ translated: true
 
 - El determinante de una matriz indica cuánto cambiaría el área si la matriz se aplicara a una forma.
 
-- Los valores propios se definen por la ecuación \(\det(\lambda I - A) = 0\).
+- Los autovalores están definidos por la ecuación \[ \det(\lambda I - A) = 0 \].
 
 - El paquete `linalg` de NumPy se puede usar para estudiar y resolver problemas de álgebra lineal.
 
-- Use transformaciones de álgebra lineal en un espacio n-dimensional para entender las matrices.
+- Use transformaciones de álgebra lineal en el espacio n-dimensional para entender las matrices.
 
 - Una matriz es un grupo de números dispuestos en filas y columnas.
 

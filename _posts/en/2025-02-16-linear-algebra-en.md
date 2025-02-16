@@ -10,7 +10,7 @@ translated: false
 
 - The determinant of a matrix indicates how much the area would change if the matrix were applied to a shape.
 
-- The eigenvalues are defined by the equation \(\det(\lambda I - A) = 0\).
+- The eigenvalues are defined by the equation \[ \det(\lambda I - A) = 0 \].
 
 - NumPy's `linalg` package can be used to study and solve problems in linear algebra.  
 

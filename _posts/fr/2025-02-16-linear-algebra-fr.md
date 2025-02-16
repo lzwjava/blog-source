@@ -10,7 +10,7 @@ translated: true
 
 - Le déterminant d'une matrice indique de combien l'aire changerait si la matrice était appliquée à une forme.
 
-- Les valeurs propres sont définies par l'équation \(\det(\lambda I - A) = 0\).
+- Les valeurs propres sont définies par l'équation \[ \det(\lambda I - A) = 0 \].
 
 - Le package `linalg` de NumPy peut être utilisé pour étudier et résoudre des problèmes en algèbre linéaire.
 

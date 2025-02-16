@@ -8,9 +8,9 @@ translated: true
 
 - Die Singulärwertzerlegung kann für die Bildkompression verwendet werden.
 
-- Der Determinant einer Matrix gibt an, wie sich die Fläche ändern würde, wenn die Matrix auf eine Form angewendet würde.
+- Die Determinante einer Matrix gibt an, wie stark sich die Fläche ändern würde, wenn die Matrix auf eine Form angewendet würde.
 
-- Die Eigenwerte sind durch die Gleichung \(\det(\lambda I - A) = 0\) definiert.
+- Die Eigenwerte sind durch die Gleichung \[ \det(\lambda I - A) = 0 \] definiert.
 
 - Das `linalg`-Paket von NumPy kann verwendet werden, um Probleme der Linearen Algebra zu studieren und zu lösen.
 
