@@ -18,6 +18,6 @@ translated: true
 
 - Eine Matrix ist eine Gruppe von Zahlen, die in Zeilen und Spalten angeordnet sind.
 
-- Die Gleichung \( Ax = B \) hat eine Lösung, wenn \( \text{rank}(A) = \text{rank}(B) \).
+- Die Gleichung \( Ax = B \) hat eine Lösung, wenn \[ \text{rank}(A) = \text{rank}(B) \].
 
 - Der Rang einer Matrix ist die Anzahl der linear unabhängigen Zeilen (oder Spalten) in ihrer **Treppenform**.

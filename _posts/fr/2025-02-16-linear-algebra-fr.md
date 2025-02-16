@@ -14,10 +14,10 @@ translated: true
 
 - Le package `linalg` de NumPy peut être utilisé pour étudier et résoudre des problèmes en algèbre linéaire.
 
-- Utilisez des transformations algébriques linéaires dans un espace à n dimensions pour comprendre les matrices.
+- Utilisez des transformations algébriques linéaires dans un espace n-dimensionnel pour comprendre les matrices.
 
 - Une matrice est un groupe de nombres disposés en lignes et en colonnes.
 
-- L'équation \( Ax = B \) a une solution lorsque \( \text{rank}(A) = \text{rank}(B) \).
+- L'équation \( Ax = B \) a une solution lorsque \[ \text{rang}(A) = \text{rang}(B) \].
 
 - Le rang d'une matrice est le nombre de lignes (ou de colonnes) linéairement indépendantes dans sa **forme échelonnée**.
