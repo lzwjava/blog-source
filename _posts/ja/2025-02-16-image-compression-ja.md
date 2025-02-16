@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: ja
 layout: post
 title: 画像圧縮を用いた線形代数

@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: de
 layout: post
 title: Bildkompression mit Linearer Algebra
