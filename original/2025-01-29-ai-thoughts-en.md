@@ -32,6 +32,16 @@ translated: false
 
 - Technologies with more code are hard to be revolutionized by AI, like OpenOffice, MySQL, Mozilla Firefox, Chromium, VLC Media Player, Qt Framework, LLVM/Clang, and GNOME. If AI could help make these technologies, they wouldn't be replaced. AI should be helping to make better technologies, and to do that, AI will need more computing power to generate the same magnitude of code.
 
+- There are two ways LLMs can bring change: first, by altering the content or data within a platform or software, such as content translation in apps like TikTok; second, by directly replacing certain software or platforms, like Postman or Google Search, including Google Translate.
+
+- There are two ways AI audio tools can bring change: first, by altering the content or data within a platform or software, such as generating audio books for Audiable; second, by directly replacing certain software or platforms, for example, the Sing songs app, as AI can now perform the same tasks humans do, making it easier for people to sing songs as a hobby.
+
+- There are several ways to measure how AI impacts current software or platforms. One way is to measure how much data or content can be generated or improved by AI, either partly or completely. Another way is to measure how much code can be written or improved by AI, either partly or completely. This means we use what AI generates to improve current platforms. Additionally, AI can help invent new software and platforms.
+
+- There are will be three types of products, Generative AI products, the products that use APIs of Generative AI products, other products. 
+
+- One product idea is to use AI to accumulate real-time information, news, or updates from social platforms such as Reddit, GitHub Trending, Twitter Trending, Quora Trending, and Zhihu Trending. Users can use prompts to customize the feed.
+
 - [New Platforms Powered by AI Workflows](./ai-workflow-en)
 
 - [The Next Direction of AI Code Editors](./ai-code-en)
