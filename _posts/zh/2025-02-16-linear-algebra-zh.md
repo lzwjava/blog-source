@@ -18,6 +18,6 @@ translated: true
 
 - 矩阵是按行和列排列的一组数字。
 
-- 方程 \( Ax = B \) 当 \[ \text{rank}(A) = \text{rank}(B) \] 时有解。
+- 方程 \[ Ax = B \] 当 \[ \text{rank}(A) = \text{rank}(B) \] 时有解。
 
 - 矩阵的秩是其 **阶梯形** 中线性无关行（或列）的数量。
