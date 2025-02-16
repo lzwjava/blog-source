@@ -44,6 +44,8 @@ translated: false
 
 - There are five important types of data: text, image, audio, video, and code.
 
+- Other important types of data include numerical, geospatial, biometric, sensor, transactional, metadata, time-series, structured, unstructured, semi-structured, health, environmental, log, network, and behavioral data.
+
 - [New Platforms Powered by AI Workflows](./ai-workflow-en)
 
 - [The Next Direction of AI Code Editors](./ai-code-en)
