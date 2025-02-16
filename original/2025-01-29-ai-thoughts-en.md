@@ -42,7 +42,7 @@ translated: false
 
 - One product idea is to use AI to accumulate real-time information, news, or updates from social platforms such as Reddit, GitHub Trending, Twitter Trending, Quora Trending, and Zhihu Trending. Users can use prompts to customize the feed or even add specific social accounts.
 
-- There are five types of important data: text, image, audio, video, and code.
+- There are five important types of data: text, image, audio, video, and code.
 
 - [New Platforms Powered by AI Workflows](./ai-workflow-en)
 
