@@ -37,7 +37,7 @@ jobs:
       - name: Update Notes Links
         id: update_notes_links
         run: |
-          OUTPUT=$(python scripts/update_notes_link.py)
+          OUTPUT=$(python scripts/generate/update_notes_link.py)
           if [[ "$OUTPUT" == *"Notes files changed, regenerating notes links."* ]]; then
             echo "notes_updated=true" >> "$GITHUB_OUTPUT"
           else
