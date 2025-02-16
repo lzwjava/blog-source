@@ -220,7 +220,7 @@ jobs:
       - name: Update audio Flags
         if: steps.dry_run_audio.outputs.audio_updated == 'true'
         run: |
-          python scripts/audio_flag.py
+          python scripts/audio/audio_flag.py
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _posts/**/*.md
