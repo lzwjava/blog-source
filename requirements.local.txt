@@ -13,3 +13,4 @@ selenium
 tigeropen
 hcloud
 tavily-python
+opencv-python
