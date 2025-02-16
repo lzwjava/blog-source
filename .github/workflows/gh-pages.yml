@@ -91,7 +91,7 @@ jobs:
       - name: Dry Run Pdf Files
         id: dry_run_pdf
         run: |
-          DRY_RUN_PDF_OUTPUT=$(python scripts/update_pdf.py --max_files 1000 --dry_run)
+          DRY_RUN_PDF_OUTPUT=$(python scripts/pdf/update_pdf.py --max_files 1000 --dry_run)
           echo "$DRY_RUN_PDF_OUTPUT" 
 
           if [[ "$DRY_RUN_PDF_OUTPUT" == *'Total Markdown files to process: 0'* ]]; then
@@ -153,7 +153,7 @@ jobs:
       - name: Run Pdf-Pipeline.py
         if: steps.dry_run_pdf.outputs.pdf_updated == 'true'
         run: |
-          python scripts/update_pdf.py --max_files 1000
+          python scripts/pdf/update_pdf.py --max_files 1000
           
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
