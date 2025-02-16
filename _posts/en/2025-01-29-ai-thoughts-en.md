@@ -40,7 +40,7 @@ translated: false
 
 - There are will be three types of products, Generative AI products, the products that use APIs of Generative AI products, other products. 
 
-- One product idea is to use AI to accumulate real-time information, news, or updates from social platforms such as Reddit, GitHub Trending, Twitter Trending, Quora Trending, and Zhihu Trending. Users can use prompts to customize the feed.
+- One product idea is to use AI to accumulate real-time information, news, or updates from social platforms such as Reddit, GitHub Trending, Twitter Trending, Quora Trending, and Zhihu Trending. Users can use prompts to customize the feed or even add specific social accounts.
 
 - [New Platforms Powered by AI Workflows](./ai-workflow-en)
 
