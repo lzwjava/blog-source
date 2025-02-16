@@ -254,6 +254,6 @@ jobs:
 
       - name: Send Telegram Message
         run: |
-          python scripts/telegram_bot.py --job send_message
+          python scripts/release/telegram_bot.py --job send_message
         env:
           TELEGRAM_BOT_API_KEY: ${{ secrets.TELEGRAM_BOT_API_KEY }}
