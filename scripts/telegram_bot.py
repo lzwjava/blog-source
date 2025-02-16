@@ -34,7 +34,7 @@ def get_chat_id(bot_token):
             return chat_id
     return None
 
-def get_latest_commit_messages(n=5):
+def get_latest_commit_messages(n=1):
     """Fetches the latest n commit messages from the Git repository."""
     try:
         result = subprocess.run(['git', 'log', f'-{n}', '--pretty=%B'], capture_output=True, text=True, check=True)
