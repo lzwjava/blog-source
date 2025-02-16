@@ -6,6 +6,7 @@ A = np.array([[2, 1],
 eigenvalues, eigenvectors = np.linalg.eig(A)
 
 print("Eigenvalues:", eigenvalues)
+print("Eigenvectors: ", eigenvectors)
 
 P = eigenvectors / np.linalg.norm(eigenvectors, axis=0)
 
