@@ -234,7 +234,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update Release Hash
-        run: python scripts/update_release.py
+        run: python scripts/release/update_release.py
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
