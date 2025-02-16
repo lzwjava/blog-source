@@ -6,26 +6,29 @@ title: SSH 設定
 translated: true
 ---
 
-這個 `ssh-config` 檔案設定 SSH 客戶端的行為。讓我們逐一分解：
+這個 `ssh-config` 文件配置 SSH 客戶端行為。讓我們逐一分解每個部分：
 
-- `Host * !192.*.*.*`：此區段適用於所有主機，*除了*符合 `192.*.*.*` 模式的那些主機（通常是本地網路地址）。
-    - `ProxyCommand corkscrew localhost 7890 %h %p`：這是關鍵部分。它指示 SSH 使用 `corkscrew` 程式連接到目標主機。
-        - `corkscrew`：一個允許您通過 HTTP 或 HTTPS 代理伺服器建立 SSH 連線的工具。
-        - `localhost 7890`：指定代理伺服器的地址 (`localhost`) 和埠 (`7890`)。這假設您在本地機器上執行一個代理伺服器，監聽 7890 埠（例如，Shadowsocks、SOCKS 代理或其他隧道方案）。
-        - `%h`：一個特殊的 SSH 變數，展開為您嘗試連接的目標主機名稱。
-        - `%p`：另一個特殊的 SSH 變數，展開為目標埠（通常 SSH 為 22）。
-    - 總而言之，此 `Host` 區塊將 SSH 設定為使用 `corkscrew` 代理進行所有連線，*除了*本地網路的連線。
+-   `Host * !192.*.*.*`: 這部分適用於所有主機，*除非*符合 `192.*.*.*` 模式（通常是本地網絡地址）。
+    -   `ProxyCommand corkscrew localhost 7890 %h %p`: 這是關鍵部分。它告訴 SSH 使用 `corkscrew` 程序連接到目標主機。
+        -   `corkscrew`: 一個工具，允許你通過 HTTP 或 HTTPS 代理隧道 SSH 連接。
+        -   `localhost 7890`: 指定代理伺服器的地址 (`localhost`) 和端口 (`7890`)。這假設你在本地機器上運行一個代理伺服器，監聽端口 7890（例如 Shadowsocks、SOCKS 代理或其他隧道解決方案）。
+        -   `%h`: 一個特殊的 SSH 變量，擴展到你試圖連接的目標主機名。
+        -   `%p`: 另一個 SSH 變量，擴展到目標端口（通常是 22 端口用於 SSH）。
+    - 總結來說，這個 `Host` 塊配置 SSH 使用 `corkscrew` 代理進行所有連接，*除非*是到本地網絡。
 
-- `Host *`：此區段適用於*所有*主機。
-    - `UseKeychain yes`：在 macOS 上，這會指示 SSH 從您的 Keychain 儲存和擷取 SSH 金鑰，因此您無需每次都輸入密碼。
-    - `AddKeysToAgent yes`：這會自動將您的 SSH 金鑰新增到 SSH 代理，因此您無需在每次重新啟動後手動新增它們。
-    - `IdentityFile ~/.ssh/id_rsa`：指定您的 SSH 私鑰檔案的路徑。`~/.ssh/id_rsa` 是 RSA 私鑰的預設位置。
+-   `Host *`: 這部分適用於*所有*主機。
+    -   `UseKeychain yes`: 在 macOS 上，這告訴 SSH 從你的 Keychain 存儲和檢索 SSH 密鑰，所以你不需要每次都輸入密碼。
+    -   `AddKeysToAgent yes`: 這自動將你的 SSH 密鑰添加到 SSH 代理，所以你不需要在每次重啟後手動添加它們。
+    -   `IdentityFile ~/.ssh/id_rsa`: 指定你的私有 SSH 密鑰文件的路徑。`~/.ssh/id_rsa` 是 RSA 私有密鑰的默認位置。
 
-**總之，此設定為除本地網路外的所有 SSH 連線設定代理，並為方便起見配置金鑰管理。**
-
+**總的來說，這個配置為所有 SSH 連接設置代理，除非是本地網絡，並配置密鑰管理以方便使用。**
 
 ```bash
-Host * !192.*.*.*
+Host 192.168.1.*
+    UseKeychain yes
+    AddKeysToAgent yes
+    IdentityFile ~/.ssh/id_rsa
+Host * !192.*.*.* !47.*.*.*
     ProxyCommand corkscrew localhost 7890 %h %p
 Host *
     UseKeychain yes

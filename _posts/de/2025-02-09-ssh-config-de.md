@@ -10,7 +10,7 @@ Diese `ssh-config`-Datei konfiguriert das Verhalten des SSH-Clients. Lassen Sie 
 
 -   `Host * !192.*.*.*`: Dieser Abschnitt gilt für alle Hosts *außer* für diejenigen, die dem Muster `192.*.*.*` entsprechen (typischerweise lokale Netzwerkadressen).
     -   `ProxyCommand corkscrew localhost 7890 %h %p`: Dies ist der Schlüsselteil. Er weist SSH an, das Programm `corkscrew` zu verwenden, um eine Verbindung zum Zielhost herzustellen.
-        -   `corkscrew`: Ein Tool, das es ermöglicht, SSH-Verbindungen durch HTTP- oder HTTPS-Proxys zu tunneln.
+        -   `corkscrew`: Ein Werkzeug, das es ermöglicht, SSH-Verbindungen durch HTTP- oder HTTPS-Proxys zu tunneln.
         -   `localhost 7890`: Gibt die Adresse (`localhost`) und den Port (`7890`) des Proxy-Servers an. Dies setzt voraus, dass auf Ihrem lokalen Computer ein Proxy-Server läuft, der auf Port 7890 hört (z.B. Shadowsocks, ein SOCKS-Proxy oder eine andere Tunnellösung).
         -   `%h`: Eine spezielle SSH-Variable, die sich auf den Ziel-Hostnamen erweitert, den Sie zu verbinden versuchen.
         -   `%p`: Eine weitere SSH-Variable, die sich auf den Zielport (normalerweise 22 für SSH) erweitert.
@@ -19,9 +19,9 @@ Diese `ssh-config`-Datei konfiguriert das Verhalten des SSH-Clients. Lassen Sie 
 -   `Host *`: Dieser Abschnitt gilt für *alle* Hosts.
     -   `UseKeychain yes`: Auf macOS weist dies SSH an, SSH-Schlüssel im Keychain zu speichern und abzurufen, sodass Sie Ihr Passwort nicht jedes Mal eingeben müssen.
     -   `AddKeysToAgent yes`: Dies fügt Ihre SSH-Schlüssel automatisch dem SSH-Agenten hinzu, sodass Sie sie nach jedem Neustart nicht manuell hinzufügen müssen.
-    -   `IdentityFile ~/.ssh/id_rsa`: Gibt den Pfad zu Ihrer privaten SSH-Schlüsseldatei an. `~/.ssh/id_rsa` ist der Standardort für den RSA-Private-Key.
+    -   `IdentityFile ~/.ssh/id_rsa`: Gibt den Pfad zu Ihrer privaten SSH-Schlüsseldatei an. `~/.ssh/id_rsa` ist der Standardort für den RSA-Private-Schlüssel.
 
-**Zusammengefasst richtet diese Konfiguration einen Proxy für alle SSH-Verbindungen außer denen im lokalen Netzwerk ein und konfiguriert die Schlüsselverwaltung für den Komfort.**
+**Im Wesentlichen richtet diese Konfiguration einen Proxy für alle SSH-Verbindungen ein, außer für diejenigen im lokalen Netzwerk, und sie konfiguriert die Schlüsselverwaltung für den Komfort.**
 
 ```bash
 Host 192.168.1.*
