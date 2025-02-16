@@ -6,26 +6,29 @@ title: SSH-Konfiguration
 translated: true
 ---
 
-Diese `ssh-config`-Datei konfiguriert das Verhalten des SSH-Clients.  Schauen wir uns jeden Teil genauer an:
+Diese `ssh-config`-Datei konfiguriert das Verhalten des SSH-Clients. Lassen Sie uns jeden Teil aufschlüsseln:
 
-- `Host * !192.*.*.*`: Dieser Abschnitt gilt für alle Hosts *außer* diejenigen, die dem Muster `192.*.*.*` entsprechen (typischerweise lokale Netzwerkadressen).
-    - `ProxyCommand corkscrew localhost 7890 %h %p`: Dies ist der wichtigste Teil. Er weist SSH an, das Programm `corkscrew` zu verwenden, um eine Verbindung zum Zielhost herzustellen.
-        - `corkscrew`: Ein Tool, mit dem Sie SSH-Verbindungen über HTTP- oder HTTPS-Proxies tunneln können.
-        - `localhost 7890`: Gibt die Adresse (`localhost`) und den Port (`7890`) des Proxyservers an. Dies setzt voraus, dass ein Proxyserver auf Ihrem lokalen Rechner läuft, der auf Port 7890 lauscht (z. B. Shadowsocks, ein SOCKS-Proxy oder eine andere Tunneling-Lösung).
-        - `%h`: Eine spezielle SSH-Variable, die in den Zielhostname expandiert, zu dem Sie eine Verbindung herstellen möchten.
-        - `%p`: Eine weitere SSH-Variable, die in den Zielport expandiert (normalerweise 22 für SSH).
-    - Zusammenfassend konfiguriert dieser `Host`-Block SSH so, dass für alle Verbindungen *außer* denjenigen zum lokalen Netzwerk der `corkscrew`-Proxy verwendet wird.
+-   `Host * !192.*.*.*`: Dieser Abschnitt gilt für alle Hosts *außer* für diejenigen, die dem Muster `192.*.*.*` entsprechen (typischerweise lokale Netzwerkadressen).
+    -   `ProxyCommand corkscrew localhost 7890 %h %p`: Dies ist der Schlüsselteil. Er weist SSH an, das Programm `corkscrew` zu verwenden, um eine Verbindung zum Zielhost herzustellen.
+        -   `corkscrew`: Ein Tool, das es ermöglicht, SSH-Verbindungen durch HTTP- oder HTTPS-Proxys zu tunneln.
+        -   `localhost 7890`: Gibt die Adresse (`localhost`) und den Port (`7890`) des Proxy-Servers an. Dies setzt voraus, dass auf Ihrem lokalen Computer ein Proxy-Server läuft, der auf Port 7890 hört (z.B. Shadowsocks, ein SOCKS-Proxy oder eine andere Tunnellösung).
+        -   `%h`: Eine spezielle SSH-Variable, die sich auf den Ziel-Hostnamen erweitert, den Sie zu verbinden versuchen.
+        -   `%p`: Eine weitere SSH-Variable, die sich auf den Zielport (normalerweise 22 für SSH) erweitert.
+    - Zusammengefasst konfiguriert dieser `Host`-Block SSH so, dass er den `corkscrew`-Proxy für alle Verbindungen *außer* für diejenigen zum lokalen Netzwerk verwendet.
 
-- `Host *`: Dieser Abschnitt gilt für *alle* Hosts.
-    - `UseKeychain yes`: Unter macOS weist dies SSH an, SSH-Schlüssel in Ihrem Schlüsselbund zu speichern und abzurufen, sodass Sie nicht jedes Mal Ihr Passwort eingeben müssen.
-    - `AddKeysToAgent yes`: Dies fügt Ihre SSH-Schlüssel automatisch dem SSH-Agent hinzu, sodass Sie sie nach jedem Neustart nicht manuell hinzufügen müssen.
-    - `IdentityFile ~/.ssh/id_rsa`: Gibt den Pfad zu Ihrer privaten SSH-Schlüsseldatei an. `~/.ssh/id_rsa` ist der Standardpfad für den privaten RSA-Schlüssel.
+-   `Host *`: Dieser Abschnitt gilt für *alle* Hosts.
+    -   `UseKeychain yes`: Auf macOS weist dies SSH an, SSH-Schlüssel im Keychain zu speichern und abzurufen, sodass Sie Ihr Passwort nicht jedes Mal eingeben müssen.
+    -   `AddKeysToAgent yes`: Dies fügt Ihre SSH-Schlüssel automatisch dem SSH-Agenten hinzu, sodass Sie sie nach jedem Neustart nicht manuell hinzufügen müssen.
+    -   `IdentityFile ~/.ssh/id_rsa`: Gibt den Pfad zu Ihrer privaten SSH-Schlüsseldatei an. `~/.ssh/id_rsa` ist der Standardort für den RSA-Private-Key.
 
-**Im Wesentlichen konfiguriert diese Einstellung einen Proxy für alle SSH-Verbindungen außer denen im lokalen Netzwerk und konfiguriert die Schlüsselverwaltung für mehr Komfort.**
-
+**Zusammengefasst richtet diese Konfiguration einen Proxy für alle SSH-Verbindungen außer denen im lokalen Netzwerk ein und konfiguriert die Schlüsselverwaltung für den Komfort.**
 
 ```bash
-Host * !192.*.*.*
+Host 192.168.1.*
+    UseKeychain yes
+    AddKeysToAgent yes
+    IdentityFile ~/.ssh/id_rsa
+Host * !192.*.*.* !47.*.*.*
     ProxyCommand corkscrew localhost 7890 %h %p
 Host *
     UseKeychain yes
