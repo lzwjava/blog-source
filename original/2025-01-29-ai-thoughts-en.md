@@ -38,7 +38,7 @@ translated: false
 
 - There are several ways to measure how AI impacts current software or platforms. One way is to measure how much data or content can be generated or improved by AI, either partly or completely. Another way is to measure how much code can be written or improved by AI, either partly or completely. This means we use what AI generates to improve current platforms. Additionally, AI can help invent new software and platforms.
 
-- There are will be three types of products, Generative AI products, the products that use APIs of Generative AI products, other products. 
+- There are three types of products, Generative AI products, the products that use APIs of Generative AI products, other products. 
 
 - One product idea is to use AI to accumulate real-time information, news, or updates from social platforms such as Reddit, GitHub Trending, Twitter Trending, Quora Trending, and Zhihu Trending. Users can use prompts to customize the feed or even add specific social accounts.
 
