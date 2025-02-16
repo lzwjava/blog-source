@@ -2,11 +2,11 @@
 audio: false
 lang: hant
 layout: post
-title: 《笔記本電腦》
+title: 《笔記本》
 translated: true
 ---
 
-這些筆記主要由AI聊天機器人生成。我用它們來總結關鍵點，並將逐步走過它們以增強我的理解。
+這些筆記主要是由AI聊天機器人生成的。我用它們來總結關鍵點，並將逐步走過它們以增強我的理解。
 
 * [主動學習](/notes/active-learning-en)
 * [基本電子學 - 對話](/notes/basic-electronics-conv-en)
@@ -14,13 +14,13 @@ translated: true
 * [ChatGPT幫助我學習日語 - 2](/notes/nihongo2-en)
 * [化學](/notes/chemistry-en)
 * [競爭性編程](/notes/competitive-programming-en)
-* [計算機網絡技術](/notes/network-en)
-* [計算機網絡 - 對話](/notes/computer-networks-conv-en)
-* [計算機組織](/notes/computer-organization-en)
-* [計算機組織 - 對話](/notes/computer-organization-conv-en)
-* [計算機組織 - 考試問題](/notes/computer-organization-exam-en)
-* [計算機組織 - 考試問題 - 1](/notes/computer-organization-exam1-en)
-* [計算機組織 - 筆記](/notes/computer-organization-note-en)
+* [電腦網絡技術](/notes/network-en)
+* [電腦網絡 - 對話](/notes/computer-networks-conv-en)
+* [電腦組織](/notes/computer-organization-en)
+* [電腦組織 - 對話](/notes/computer-organization-conv-en)
+* [電腦組織 - 考試問題](/notes/computer-organization-exam-en)
+* [電腦組織 - 考試問題 - 1](/notes/computer-organization-exam1-en)
+* [電腦組織 - 筆記](/notes/computer-organization-note-en)
 * [DeepSeek V3](/notes/deepseek-v3-en)
 * [DeepSeek V3: 多頭潛在注意力和多標記預測](/notes/deepseek-v3-conv-en)
 * [Deepseek - 對話](/notes/deepseek-conv-en)
@@ -37,6 +37,7 @@ translated: true
 * [法律理論](/notes/law-en)
 * [線性代數](/notes/linear-algebra-en)
 * [線性代數 - 對話](/notes/linear-algebra-conv-en)
+* [線性代數 - 圖像處理](/notes/linear-algebra-image-en)
 * [線性代數筆記](/notes/linear-algebra-note-en)
 * [ML、DL和GPT](/notes/ml-points-en)
 * [毛澤東思想與中國特色社會主義](/notes/maozedong-en)
