@@ -2,17 +2,15 @@
 audio: false
 lang: es
 layout: post
-title: Probador de Cables de Red
+title: Prueba de Cable de Red
 translated: true
 ---
 
-## Probador de Cables de Red
-
-Recientemente compré un probador de cables de red en JD.com. He visto a consultores de redes venir a mi casa o a la oficina de mi empleador para probar la red.
+Recientemente compré un probador de cables de red en JD.com. He visto a consultores de red venir a mi casa o a la oficina de mi empleador para probar la red.
 
 Este dispositivo es muy económico, costando solo unos 10 CNY. Un producto similar en Walmart costaría alrededor de 10 USD.
 
-Para esta publicación, estoy utilizando una imagen de Amazon.com.
+Para este post, estoy utilizando una imagen de Amazon.com.
 
 {: .centered }
 ![](assets/images/cable-tester/c.jpg){: .responsive }
@@ -20,8 +18,8 @@ Para esta publicación, estoy utilizando una imagen de Amazon.com.
 
 {: .centered }
 ![](assets/images/cable-tester/c2.jpg){: .responsive }
-*Fuente: Captura propia*{: .caption }
+*Fuente: Autocapturada*{: .caption }
 
 {: .centered }
 ![](assets/images/cable-tester/c3.jpg){: .responsive }
-*Fuente: Captura propia*{: .caption }
+*Fuente: Autocapturada*{: .caption }

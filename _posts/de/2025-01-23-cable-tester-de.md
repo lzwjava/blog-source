@@ -2,15 +2,13 @@
 audio: false
 lang: de
 layout: post
-title: Netzwerkkabel-Tester
+title: Kabeltester für Netzwerke
 translated: true
 ---
 
-## Netzwerkkabel-Tester
+Ich habe kürzlich einen Netzwerkkabeltester bei JD.com gekauft. Ich habe Netzwerkberater in meinem Haus oder im Büro meines Arbeitgebers gesehen, um das Netzwerk zu testen.
 
-Ich habe kürzlich einen Netzwerkkabel-Tester von JD.com gekauft. Ich habe gesehen, wie Netzwerkberater zu mir nach Hause oder ins Büro meines Arbeitgebers gekommen sind, um das Netzwerk zu testen.
-
-Dieses Gerät ist sehr preiswert und kostet nur etwa 10 CNY. Ein ähnliches Produkt bei Walmart würde etwa 10 USD kosten.
+Dieses Gerät ist sehr günstig und kostet nur etwa 10 CNY. Ein ähnliches Produkt bei Walmart würde etwa 10 USD kosten.
 
 Für diesen Beitrag verwende ich ein Bild von Amazon.com.
 
@@ -20,8 +18,8 @@ Für diesen Beitrag verwende ich ein Bild von Amazon.com.
 
 {: .centered }
 ![](assets/images/cable-tester/c2.jpg){: .responsive }
-*Quelle: Eigenaufnahme*{: .caption }
+*Quelle: Selbst aufgenommen*{: .caption }
 
 {: .centered }
 ![](assets/images/cable-tester/c3.jpg){: .responsive }
-*Quelle: Eigenaufnahme*{: .caption }
+*Quelle: Selbst aufgenommen*{: .caption }

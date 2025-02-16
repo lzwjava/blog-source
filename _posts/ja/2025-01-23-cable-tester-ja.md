@@ -6,22 +6,20 @@ title: ネットワークケーブルテスター
 translated: true
 ---
 
-## ネットワークケーブルテスター
+最近、JD.comでネットワークケーブルテスターを購入しました。家や職場にネットワークコンサルタントが来てネットワークをテストするのを見たことがあります。
 
-最近、JD.comからネットワークケーブルテスターを購入しました。自宅や雇用主のオフィスにネットワークコンサルタントが来て、ネットワークをテストするのを見たことがあります。
-
-この機器は非常に安価で、わずか10 CNYしかかかりません。ウォルマートで同様の製品を購入すると、約10 USDかかります。
+このデバイスは非常に安価で、約10元（人民元）です。ウォルマートで類似の製品は約10米ドルです。
 
 この投稿では、Amazon.comからの画像を使用しています。
 
 {: .centered }
 ![](assets/images/cable-tester/c.jpg){: .responsive }
-*Source: Amazon.com*{: .caption }
+*出典: Amazon.com*{: .caption }
 
 {: .centered }
 ![](assets/images/cable-tester/c2.jpg){: .responsive }
-*Source: Self-captured*{: .caption }
+*出典: 自撮り*{: .caption }
 
 {: .centered }
 ![](assets/images/cable-tester/c3.jpg){: .responsive }
-*Source: Self-captured*{: .caption }
+*出典: 自撮り*{: .caption }
