@@ -8,6 +8,8 @@ translated: false
 
 - **Before gaining access to the code repository**, ask colleagues for the `pom.xml` file and try to download Nexus dependencies.
 
+- Without actual code but with the Nexus libraries, we can actually decompile the JAR or experiment with the libraries. We can do quite a few things. Think outside the box.
+
 - It is preferable to **configure** User Tokens in the Sonatype Nexus Repository in `settings.yaml`.
 
 - Don't wait for ServiceNow requests. Before having access rights, think about what you can do.
