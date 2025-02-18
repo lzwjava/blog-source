@@ -88,25 +88,25 @@ rule-providers:
     behavior: classical
     path: ./Rules/Global.yaml
     url: https://cdn.gitmirror.com/gh/tututo/Profiles@master/Clash/RuleSet/Global.yaml
-    interval: 86400
+    interval: 1440
   China:
     type: http
     behavior: classical
     path: ./Rules/China.yaml
     url: https://cdn.gitmirror.com/gh/tututo/Profiles@master/Clash/RuleSet/China.yaml
-    interval: 86400
+    interval: 1440
   ChinaIP:
     type: http
     behavior: ipcidr
     path: ./Rules/ChinaIP.yaml
     url: https://cdn.gitmirror.com/gh/tututo/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml
-    interval: 86400
+    interval: 1440
   AIRule:
     type: http
     behavior: classical
     path: ./Rules/AI.yaml
     url: https://raw.githubusercontent.com/lzwjava/lzwjava.github.io/refs/heads/main/scripts/auto-ss-config/AI.yaml
-    interval: 86400  
+    interval: 1440  
 
 rules:
   - IP-CIDR,192.168.0.0/16,DIRECT
