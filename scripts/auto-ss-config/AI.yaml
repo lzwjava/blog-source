@@ -14,7 +14,7 @@ payload:
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,grok.com  
   - DOMAIN-SUFFIX,x.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,anthropic.com
-  
