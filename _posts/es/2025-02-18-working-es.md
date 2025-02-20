@@ -12,7 +12,7 @@ translated: true
 
 - Es preferible **configurar** los Tokens de Usuario en el Repositorio Sonatype Nexus en `settings.yaml`.
 
-- No espere las solicitudes de ServiceNow. Antes de tener derechos de acceso, piense en lo que puede hacer.
+- No espere las solicitudes de ServiceNow. Antes de tener derechos de acceso, piense en qué puede hacer.
 
 - Mucho del trabajo se puede hacer antes de empezar a trabajar. Uno puede familiarizarse con casi todo de antemano. Todo tiene código o materiales de código abierto.
 
@@ -37,3 +37,5 @@ translated: true
 - Piensa en lo que podemos lograr si todos hacemos lo mejor posible y tenemos 50 ingenieros así.
 
 - Las bibliotecas que se pueden descargar fácilmente de los repositorios Nexus internos se pueden descargar manualmente y colocarse en el repositorio `.m2`.
+
+- Lea el archivo `pom.xml` para determinar el objetivo de compilación de Maven y la versión de JDK requerida para el proyecto.
