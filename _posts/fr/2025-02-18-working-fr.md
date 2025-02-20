@@ -12,29 +12,29 @@ translated: true
 
 - Il est préférable de **configurer** les jetons utilisateur dans le dépôt Sonatype Nexus Repository dans `settings.yaml`.
 
-- Ne vous attendez pas aux demandes ServiceNow. Avant d'avoir les droits d'accès, pensez à ce que vous pouvez faire.
+- Ne tardez pas à faire des demandes ServiceNow. Avant d'avoir les droits d'accès, pensez à ce que vous pouvez faire.
 
-- Beaucoup du travail peut être fait avant de commencer à travailler. On peut se familiariser avec presque tout à l'avance. Tout a un code ou des matériaux de substitution open-source.
+- Beaucoup de travail peut être fait avant de commencer à travailler. On peut se familiariser avec presque tout à l'avance. Tout a un code ou des matériaux de substitution open-source.
 
-- Un travail implique souvent des paramètres spécifiques, une logique de code légèrement différente et des droits d'accès ou des mots de passe pour faire les choses.
+- Un travail implique souvent des paramètres spécifiques, une logique de code légèrement différente et des droits d'accès ou des mots de passe pour faire avancer les choses.
 
-- **Anticipez** la prochaine phase du projet. Pensez à la manière dont le projet actuel va progresser et à ce que les utilisateurs auront besoin ou s'attendront à.
+- **Anticipez** la prochaine phase du projet. Pensez à la manière dont le projet actuel va progresser et à ce que les utilisateurs vont avoir besoin ou attendre.
 
 - Pensez à toutes les façons possibles de faire le travail, de faire des progrès et de vous préparer autant que possible avant d'obtenir les droits d'accès ou les matériaux que les autres fourniront.
 
-- Ne vous contentez pas; faites les choses et automatisez autant que possible.
+- Ne vous contentez pas de faire les choses; faites-les et automatisez autant que possible.
 
 - Utilisez la bibliothèque Python `requests` pour remplacer Postman.
 
 - Windows et PowerShell sont également des options viables. Les commandes couramment utilisées sont limitées à quelques dizaines. Apprenez-les bien.
 
-- Pensez à la manière dont un ingénieur pourrait travailler sur ce projet pendant 5 ou 10 ans, et pensez à la manière d'atteindre une efficacité similaire rapidement.
+- Pensez à la manière dont un ingénieur pourrait travailler sur ce projet pendant 5 ou 10 ans, et réfléchissez à la manière d'atteindre une efficacité similaire rapidement.
 
 - Utilisez les répertoires de notes et de journaux. Copiez soigneusement les journaux de la console ou des pages frontend pour une analyse détaillée.
 
-- Pensez à la manière de transmettre cette connaissance aux nouveaux membres de l'équipe.
+- Pensez à la manière de transmettre ces connaissances aux nouveaux membres de l'équipe.
 
-- Pensez à ce que nous pouvons accomplir si tout le monde fait de son mieux et que nous avons 50 ingénieurs comme ceux-ci.
+- Pensez à ce que nous pourrions accomplir si tout le monde fait de son mieux et que nous avons 50 ingénieurs comme ceux-ci.
 
 - Les bibliothèques qui peuvent être facilement téléchargées à partir des dépôts Nexus internes peuvent être téléchargées manuellement et placées dans le dépôt `.m2`.
 
@@ -42,6 +42,4 @@ translated: true
 
 - Au lieu de rechercher dans Jira ou Confluence, utilisez directement les identifiants du personnel pour localiser leurs pages et comprendre leur activité.
 
-- Si nous rencontrons un bug, par exemple si `npm run build` a des problèmes dans un pipeline de construction important, nous pouvons l'exécuter séparément pour nous assurer qu'il fonctionne avant d'exécuter l'ensemble du pipeline. Cela rend le cycle de débogage plus rapide et plus petit.
-
-- Même si de grandes entreprises peuvent bloquer les sites de chatbots IA sur les ordinateurs d'entreprise pour des raisons de sécurité des données, nous pouvons toujours utiliser l'IA sur nos ordinateurs personnels pour résoudre les problèmes techniques sans divulguer d'informations internes.
+- Si nous rencontrons un bogue, par exemple si `npm run build` a des problèmes dans un pipeline de construction important, nous pouvons l'exécuter séparément pour nous assurer qu'il fonctionne avant d'exécuter l'ensemble du pipeline. Cela rend le cycle de débogage plus rapide et plus petit.
