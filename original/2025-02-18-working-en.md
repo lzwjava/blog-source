@@ -44,4 +44,3 @@ translated: false
 
 - If we encounter a bug, for example if `npm run build` has problems in a large build pipeline, we can run it separately to ensure it works before running the entire pipeline. This makes the debug cycle faster and smaller.
 
-- Even though large companies may block AI chatbot websites on corporate computers for data security reasons, we can still use AI on our personal computers to troubleshoot technical problems without disclosing internal information.
