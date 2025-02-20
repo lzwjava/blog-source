@@ -2,11 +2,11 @@
 audio: false
 lang: hant
 layout: post
-title: 《笔記本》
+title: 筆記
 translated: true
 ---
 
-這些筆記主要是由AI聊天機器人生成的。我用它們來總結關鍵點，並將逐步走過它們以增強我的理解。
+這些筆記主要是由AI聊天機器人生成的。我用它們來總結關鍵點，並將逐一走過來增進我的理解。
 
 * [主動學習](/notes/active-learning-en)
 * [基本電子學 - 對話](/notes/basic-electronics-conv-en)
@@ -22,7 +22,7 @@ translated: true
 * [電腦組織 - 考試問題 - 1](/notes/computer-organization-exam1-en)
 * [電腦組織 - 筆記](/notes/computer-organization-note-en)
 * [DeepSeek V3](/notes/deepseek-v3-en)
-* [DeepSeek V3: 多頭潛在注意力和多標記預測](/notes/deepseek-v3-conv-en)
+* [DeepSeek V3: 多頭潛在注意力和多令牌預測](/notes/deepseek-v3-conv-en)
 * [Deepseek - 對話](/notes/deepseek-conv-en)
 * [Deepseek R1 - 對話](/notes/deepseek-r1-conv-en)
 * [電子基礎](/notes/electronic-en)
@@ -40,25 +40,26 @@ translated: true
 * [線性代數 - 圖像處理](/notes/linear-algebra-image-en)
 * [線性代數筆記](/notes/linear-algebra-note-en)
 * [ML、DL和GPT](/notes/ml-points-en)
-* [毛澤東思想與中國特色社會主義](/notes/maozedong-en)
+* [毛澤東思想與中國特色](/notes/maozedong-en)
 * [微型計算機 - 對話](/notes/microcomputer-conv-en)
 * [微型計算機及接口技術](/notes/microcomputer-en)
-* [心靈對機器](/notes/mind-machine-en)
+* [心靈與機器](/notes/mind-machine-en)
 * [AI和LLM能力的雜項測試](/notes/miscellaneous-ai-en)
 * [ML - 對話](/notes/ml-conv-en)
 * [NLP任務](/notes/nlp-tasks-en)
 * [NumPy](/notes/numpy-en)
 * [渗透](/notes/penetration-en)
 * [物理學](/notes/physics-en)
+* [PowerShell](/notes/powershell-en)
 * [PyTorch](/notes/torch-en)
 * [macOS系統信息](/notes/system-info-en)
 * [美國憲法](/notes/constitution-en)
-* [全球前100名大學](/notes/universities-en)
+* [全球前100大學](/notes/universities-en)
 * [大學語文](/notes/chinese-en)
 * [iOS工程師面試](/notes/ios-interview-en)
 * [macOS Shell命令](/notes/commands-en)
 * [x64組裝語言](/notes/x64-assembly-conv)
-* [總是](/notes/always-en)
+* [いつも何度でも](/notes/always-en)
 * [大學語文](/notes/chinese-zh)
 * [微型計算機及接口技術](/notes/microcomputer-zh)
 * [思想道德與法治](/notes/moral-zh)
