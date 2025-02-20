@@ -37,3 +37,5 @@ translated: false
 - Think about what we can achieve if everyone does their best and we have 50 such engineers.
 
 - Libraries that can be easily downloaded from internal Nexus repositories can be manually downloaded and placed in the `.m2` repository.
+
+- Read the `pom.xml` file to determine the Maven compile target and the required JDK version for the project.
