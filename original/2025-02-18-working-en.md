@@ -35,3 +35,5 @@ translated: false
 - Think about how to convey this knowledge to newly joined team members.
 
 - Think about what we can achieve if everyone does their best and we have 50 such engineers.
+
+- Libraries that can be easily downloaded from internal Nexus repositories can be manually downloaded and placed in the `.m2` repository.
