@@ -14,7 +14,7 @@ translated: true
 
 - No espere las solicitudes de ServiceNow. Antes de tener derechos de acceso, piense en qué puede hacer.
 
-- Mucho del trabajo se puede hacer antes de empezar a trabajar. Uno puede familiarizarse con casi todo de antemano. Todo tiene código o materiales de código abierto.
+- Mucho del trabajo se puede hacer antes de comenzar a trabajar. Uno puede familiarizarse con casi todo de antemano. Todo tiene código o materiales de sustitutos de código abierto.
 
 - Un trabajo a menudo implica configuraciones específicas, lógica de código ligeramente diferente y derechos de acceso o contraseñas para hacer las cosas.
 
@@ -39,3 +39,7 @@ translated: true
 - Las bibliotecas que se pueden descargar fácilmente de los repositorios Nexus internos se pueden descargar manualmente y colocarse en el repositorio `.m2`.
 
 - Lea el archivo `pom.xml` para determinar el objetivo de compilación de Maven y la versión de JDK requerida para el proyecto.
+
+- En lugar de buscar en Jira o Confluence, use directamente los IDs del personal para localizar sus páginas y entender su actividad.
+
+- Si encontramos un error, por ejemplo, si `npm run build` tiene problemas en una gran pipeline de compilación, podemos ejecutarlo por separado para asegurarnos de que funcione antes de ejecutar toda la pipeline. Esto hace que el ciclo de depuración sea más rápido y más pequeño.

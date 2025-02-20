@@ -39,3 +39,7 @@ translated: false
 - Libraries that can be easily downloaded from internal Nexus repositories can be manually downloaded and placed in the `.m2` repository.
 
 - Read the `pom.xml` file to determine the Maven compile target and the required JDK version for the project.
+
+- Instead of searching Jira or Confluence, directly use staff IDs to locate their pages and understand their activity.
+
+- If we encounter a bug, for example if `npm run build` has problems in a large build pipeline, we can run it separately to ensure it works before running the entire pipeline. This makes the debug cycle faster and smaller.
