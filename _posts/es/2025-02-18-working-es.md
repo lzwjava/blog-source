@@ -14,15 +14,15 @@ translated: true
 
 - No espere las solicitudes de ServiceNow. Antes de tener derechos de acceso, piense en qué puede hacer.
 
-- Mucho del trabajo se puede hacer antes de comenzar a trabajar. Uno puede familiarizarse con casi todo de antemano. Todo tiene código o materiales de sustitutos de código abierto.
+- Mucho del trabajo se puede hacer antes de empezar a trabajar. Uno puede familiarizarse con casi todo de antemano. Todo tiene sustitutos de código o materiales de código abierto.
 
 - Un trabajo a menudo implica configuraciones específicas, lógica de código ligeramente diferente y derechos de acceso o contraseñas para hacer las cosas.
 
-- **Prevea** la siguiente fase del proyecto. Considere cómo progresará el proyecto actual y qué necesitarán o esperarán los usuarios.
+- **Prevea** la siguiente fase del proyecto. Considere cómo avanzará el proyecto actual y qué necesitarán o esperarán los usuarios.
 
-- Piensa en todas las formas posibles de hacer el trabajo, hacer progresos y prepararse lo más posible antes de obtener derechos de acceso o los materiales que otros proporcionarán.
+- Piensa en todas las formas posibles de hacer el trabajo, avanzar y prepararse tanto como sea posible antes de obtener derechos de acceso o los materiales que otros proporcionarán.
 
-- No se conforme; haga las cosas y automatice lo más posible.
+- No se conforme; haga las cosas y automatice tanto como sea posible.
 
 - Use la biblioteca `requests` de Python para reemplazar Postman.
 
@@ -36,10 +36,12 @@ translated: true
 
 - Piensa en lo que podemos lograr si todos hacemos lo mejor posible y tenemos 50 ingenieros así.
 
-- Las bibliotecas que se pueden descargar fácilmente de los repositorios Nexus internos se pueden descargar manualmente y colocarse en el repositorio `.m2`.
+- Las bibliotecas que se pueden descargar fácilmente de los repositorios Nexus internos se pueden descargar manualmente y colocarlas en el repositorio `.m2`.
 
 - Lea el archivo `pom.xml` para determinar el objetivo de compilación de Maven y la versión de JDK requerida para el proyecto.
 
 - En lugar de buscar en Jira o Confluence, use directamente los IDs del personal para localizar sus páginas y entender su actividad.
 
-- Si encontramos un error, por ejemplo, si `npm run build` tiene problemas en una gran pipeline de compilación, podemos ejecutarlo por separado para asegurarnos de que funcione antes de ejecutar toda la pipeline. Esto hace que el ciclo de depuración sea más rápido y más pequeño.
+- Si encontramos un error, por ejemplo, si `npm run build` tiene problemas en una gran pipeline de construcción, podemos ejecutarlo por separado para asegurarnos de que funcione antes de ejecutar toda la pipeline. Esto hace que el ciclo de depuración sea más rápido y más pequeño.
+
+- Aunque las grandes empresas pueden bloquear sitios web de chatbots de IA en computadoras corporativas por razones de seguridad de datos, aún podemos usar IA en nuestras computadoras personales para solucionar problemas técnicos sin divulgar información interna.
