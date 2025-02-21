@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: zh
 layout: post
 title: OpenWrt 入侵小米路由器 4C
