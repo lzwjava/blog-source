@@ -12,7 +12,7 @@ translated: false
 
 - It is preferable to **configure** User Tokens in the Sonatype Nexus Repository in `settings.yaml`.
 
-- Don't wait for ServiceNow requests. Before having access rights, think about what you can do.
+- Don't wait for access request ticket approvals. Before you have access rights, think about what you can do.
 
 - Much of the job can be done before you start working. One can familiarize themselves with almost everything in advance. Everything has open-source substitute code or materials.
 
