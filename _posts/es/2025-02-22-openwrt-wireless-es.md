@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: es
 layout: post
 title: Configurando OpenWRT como un Puente Inalámbrico
