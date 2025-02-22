@@ -18,3 +18,4 @@ translated: false
 
 - Bought Xiaomi Mi Router 4C (https://www.mi.com/global/product/mi-router-4c/).
 
+- In 2025, I bought a second-hand iPod Touch 4. On its iOS system, the voice memo, camera, browser, and calculator still work well, but iTunes, Movies, Maps, and the App Store are unusable.
