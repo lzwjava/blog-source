@@ -2,13 +2,13 @@
 audio: true
 lang: es
 layout: post
-title: Compra Artículos de Segunda Mano Baratos
+title: Comprar Artículos de Segunda Mano Baratos
 translated: true
 ---
 
 - Pague alrededor de 30 CNY para comprar radios, teléfonos móviles, relojes inteligentes, routers, etc., de segunda mano.
 
-- Desmonte las cosas para aprender cómo funcionan.
+- Desmontar cosas para aprender cómo funcionan.
 
 - El conocimiento es precioso.
 
@@ -22,6 +22,8 @@ translated: true
 
 - Las aplicaciones que no necesitan un servidor, como la Cámara y la Grabadora de Voz, serán más estables después de años.
 
-- El proyector carecía de un cable de alimentación, así que compré uno en JD.com. Un cable de alimentación similar en Walmart es el "Cable de alimentación de TV 59 pulgadas para TCL: enchufe de pared AC de 2 clavijas 2 ranuras con cables planos de 8 sufixos con agujeros."
+- El proyector carecía de un cable de alimentación, así que compré uno en JD.com. Un cable de alimentación similar en Walmart es el "Cable de alimentación de TV 59 pulgadas para TCL: enchufe de pared AC de 2 clavijas 2 ranuras con cables de alimentación planos de 8 sufijos con agujeros."
 
-- Compré un Vivo Y51A con Android 5.1.1.
+- Compré un Vivo Y51A que funciona con Android 5.1.1.
+
+- También adquirí un iPod Touch de cuarta generación, que funciona con iOS 6.1.6.
