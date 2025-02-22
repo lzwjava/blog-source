@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: zh
 layout: post
 title: 社会
