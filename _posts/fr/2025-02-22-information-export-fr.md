@@ -6,8 +6,10 @@ title: Exportation d'informations
 translated: true
 ---
 
-- JD.com peut envoyer des données à votre email.
+- JD.com prend en charge l'exportation d'informations vers votre email.
 
-- Le mini-programme WeChat Yueshengshi peut exporter des données d'assurance sociale pour le Guangdong.
+- Le programme Mini WeChat Yueshengshi peut exporter des données d'assurance sociale pour le Guangdong.
 
-- L'application Merchant Bank prend en charge l'exportation des données de transaction.
+- L'application Merchant Bank prend en charge l'exportation de données de transaction.
+
+- WeChat prend en charge l'exportation d'informations.
