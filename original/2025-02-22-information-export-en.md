@@ -6,9 +6,10 @@ title: Information Export
 translated: false
 ---
 
-- JD.com can send data to your email.
+- JD.com supports exporting information to your email.
 
-- The Yueshengshi WeChat Miniprogram can export social insurance data for Guangdong.
+- The Yueshengshi WeChat Mini Program can export social insurance data for Guangdong.
 
 - The Merchant Bank App supports exporting transaction data.
 
+- WeChat supports exporting information.
