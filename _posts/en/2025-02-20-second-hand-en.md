@@ -23,3 +23,5 @@ translated: false
 - The apps that don't need a server, like Camera and Voice Memo, will be more stable after years.
 
 - The projector lacked a power cable, so I bought one from JD.com. A similar power cord from Walmart is the "TV Power Cord 59inch for TCL: 2 Prong AC Wall Plug 2-Slot Two flat 8-suffix power cords with holes."
+
+- I bought a Vivo Y51A running Android 5.1.1.

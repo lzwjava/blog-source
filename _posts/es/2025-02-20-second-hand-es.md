@@ -2,7 +2,7 @@
 audio: true
 lang: es
 layout: post
-title: Comprar Artículos de Segunda Mano Baratos
+title: Compra Artículos de Segunda Mano Baratos
 translated: true
 ---
 
@@ -22,4 +22,6 @@ translated: true
 
 - Las aplicaciones que no necesitan un servidor, como la Cámara y la Grabadora de Voz, serán más estables después de años.
 
-- El proyector carecía de un cable de alimentación, así que compré uno en JD.com. Un cable de alimentación similar de Walmart es el "Cable de alimentación de TV 59 pulgadas para TCL: Enchufe de pared AC de 2 clavijas 2 ranuras con cables de alimentación planos de 8 sufijos con agujeros."
+- El proyector carecía de un cable de alimentación, así que compré uno en JD.com. Un cable de alimentación similar en Walmart es el "Cable de alimentación de TV 59 pulgadas para TCL: enchufe de pared AC de 2 clavijas 2 ranuras con cables planos de 8 sufixos con agujeros."
+
+- Compré un Vivo Y51A con Android 5.1.1.
