@@ -6,14 +6,16 @@ title: Société
 translated: true
 ---
 
-- C'est une société pleine de gens—mes moi de 1 an, 5 ans, 10 ans, 15 ans, 20 ans et 25 ans—qui grandissent, étudient ou travaillent.
+- Les gens naissent, grandissent, mangent, se soulagent, dorment, travaillent, étudient, se reposent, voyagent, pensent, parlent, entendent, touchent, écrivent, lisent, marchent, sautent, jouent à des sports, utilisent des téléphones mobiles, jouent à des jeux, se battent, tuent, guérissent, construisent et détruisent.
 
-- Je suis un homme. Il y a beaucoup de femmes qui ont des passe-temps comme les miens, qui savent les mêmes choses que moi, qui obtiennent des scores similaires ou qui travaillent dans le même secteur que moi.
+- C'est une société pleine de gens—mon moi de 1 an, 5 ans, 10 ans, 15 ans, 20 ans et 25 ans—grandissant, étudiant ou travaillant.
 
-- J'ai 30 ans. Environ la moitié des personnes autour de moi sont plus âgées que moi. Beaucoup d'entre eux en savent plus que moi, gagnent plus que moi ou ont visité plus d'endroits que moi.
+- Je suis un homme. Il y a beaucoup de femmes qui ont des passe-temps comme les miens, savent les mêmes choses que moi, obtiennent des scores similaires ou travaillent dans le même secteur que moi.
 
-- Quand j'avais 10 ans ou 20 ans, la façon dont je regardais les personnes plus âgées est similaire à la façon dont je regarde maintenant les jeunes.
+- J'ai 30 ans. Environ la moitié des gens autour de moi sont plus âgés que moi. Beaucoup d'entre eux en savent plus que moi, gagnent plus que moi ou ont été à plus d'endroits que moi.
 
-- Chacun vit sa propre vie ; certaines choses nous sont communes, tandis que d'autres sont différentes.
+- Quand j'avais 10 ans ou 20 ans, la façon dont je regardais les personnes plus âgées est similaire à la façon dont je regarde maintenant les plus jeunes.
 
-- Les gens parlent différentes langues, vivent dans différents endroits, travaillent sur différentes choses et interagissent avec différentes personnes.
+- Chacun vit sa propre vie; certaines choses sont communes, tandis que d'autres sont différentes.
+
+- Les gens parlent différentes langues, vivent à différents endroits, travaillent sur différentes choses et interagissent avec différentes personnes.
