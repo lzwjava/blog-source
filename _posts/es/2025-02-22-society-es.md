@@ -6,7 +6,7 @@ title: Sociedad
 translated: true
 ---
 
-- Las personas nacen, crecen, comen, se alivian, duermen, trabajan, estudian, descansan, viajan, piensan, hablan, oyen, tocan, escriben, leen, caminan, saltan, juegan deportes, usan teléfonos móviles, juegan juegos, pelean, matan, se recuperan, construyen y destruyen.
+- Las personas nacen, crecen, comen, se alivian, duermen, trabajan, estudian, descansan, viajan, piensan, hablan, oyen, tocan, escriben, leen, caminan, saltan, juegan deportes, usan teléfonos móviles, juegan juegos, pelean, matan, se recuperan, construyen, destruyen y mueren.
 
 - Esta es una sociedad llena de personas—mi yo de 1 año, 5 años, 10 años, 15 años, 20 años y 25 años—creciendo, estudiando o trabajando.
 
