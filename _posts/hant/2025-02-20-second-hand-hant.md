@@ -2,7 +2,7 @@
 audio: true
 lang: hant
 layout: post
-title: 買二手貨
+title: 買便宜二手貨
 translated: true
 ---
 
@@ -12,10 +12,12 @@ translated: true
 
 - 知識是寶貴的。
 
-- 當我這樣做時，獲得一些產品，如無線音箱或小米Wi-Fi設備，這些產品已經推出近10年，但仍然工作良好。這讓我失望，因為我希望它們停止工作，這樣我就可以拆解它們而不覺得浪費東西。
+- 當我這樣做時，在獲得一些產品，如無線音箱或小米Wi-Fi設備後，這些產品已經發布了近10年，但仍然工作良好。這讓我失望，因為我希望它們停止工作，這樣我就可以拆解它們而不覺得浪費東西。
 
-- 購買了無線智能USB音箱E-91/E-3557 - 黑色（類似於這個：https://lcd-phone.com/en/speaker/26815-copy-of-sound-bar-luminous-and-speaker-wired-usb-e-1411-black-6938607789315.html）。
+- 购买了无线智能USB音箱E-91 / E-3557 - 黑色（类似于此：https://lcd-phone.com/en/speaker/26815-copy-of-sound-bar-luminous-and-speaker-wired-usb-e-1411-black-6938607789315.html）。
 
-- 購買了小米Mi路由器4C（https://www.mi.com/global/product/mi-router-4c/）。
+- 购买了小米Mi路由器4C（https://www.mi.com/global/product/mi-router-4c/）。
 
-- 2025年，我購買了一部二手iPod Touch 4。在其iOS系統中，語音備忘錄、相機、瀏覽器和計算器仍然工作良好，但iTunes、電影、地圖和應用商店無法使用。
+- 2025年，我買了一個二手iPod Touch 4。在其iOS系統中，語音備忘錄、相機、瀏覽器和計算器仍然工作良好，但iTunes、電影、地圖和應用商店無法使用。
+
+- 不需要伺服器的應用程序，如相機和語音備忘錄，隨著時間的推移會更加穩定。
