@@ -2,10 +2,12 @@
 audio: false
 lang: de
 layout: post
-title: Hongkong Reise
+title: HongKong und Macao Reise
 translated: true
 ---
 
-- Qunar App, Hotel buchen, Regal Riverside Hotel, Sha Tin, 2 Nächte, 1286 CNY
+- Gebucht Regal Riverside Hotel in Sha Tin für 2 Nächte (1286 CNY) über die Qunar App.
 
-- HSBC Shatin Filiale besucht.
+- Besucht HSBC Shatin Filiale, Causeway Bay, Shek O Beach, Shau Kei Wan, HSBC Tsim Sha Tsui Filiale, Nathan Road in Tsim Sha Tsui und Hong Kong West Kowloon Station.
+
+- Besucht Macau: Ocean Dama Road, Tam Chai Seashore Rest Area, St. Anthony’s Parish, Ruins of St. Paul, Our Lady of Fatima Parish und Macau Fisherman’s Wharf.
