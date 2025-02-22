@@ -18,7 +18,7 @@ translated: false
 
 - Bought Xiaomi Mi Router 4C.
 
-- In 2025, I bought a second-hand iPod Touch 4. On its iOS system, the voice memo, camera, browser, and calculator still work well, but iTunes, Movies, Maps, and the App Store are unusable.
+- In 2025, I also acquired an iPod Touch 4th generation, which operates on iOS 6.1.6. On its iOS system, the voice memo, camera, browser, and calculator still work well, but iTunes, Movies, Maps, and the App Store are unusable.
 
 - The apps that don't need a server, like Camera and Voice Memo, will be more stable after years.
 
@@ -26,5 +26,5 @@ translated: false
 
 - I bought a Vivo Y51A running Android 5.1.1.
 
-- I also acquired an iPod Touch 4th generation, which operates on iOS 6.1.6.
+
 
