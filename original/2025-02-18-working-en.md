@@ -40,7 +40,7 @@ translated: false
 
 - Read the `pom.xml` file to determine the Maven compile target and the required JDK version for the project.
 
-- Instead of searching Jira or Confluence, directly use staff IDs to locate their pages and understand their activity.
+- Instead of searching Jira or Confluence, directly construct a URL to go to the profile and locate pages.
 
 - If we encounter a bug, for example if `npm run build` has problems in a large build pipeline, we can run it separately to ensure it works before running the entire pipeline. This makes the debug cycle faster and smaller.
 
