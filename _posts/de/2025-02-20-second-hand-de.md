@@ -17,3 +17,5 @@ translated: true
 - Kaufte Wireless Smart USB Speaker E-91 / E-3557 - Schwarz (ähnlich wie dies: https://lcd-phone.com/en/speaker/26815-copy-of-sound-bar-luminous-and-speaker-wired-usb-e-1411-black-6938607789315.html).
 
 - Kaufte Xiaomi Mi Router 4C (https://www.mi.com/global/product/mi-router-4c/).
+
+- Im Jahr 2025 kaufte ich einen gebrauchten iPod Touch 4. Auf seinem iOS-System funktionieren die Sprachmemo, Kamera, der Browser und der Taschenrechner immer noch gut, aber iTunes, Filme, Karten und der App Store sind nicht verwendbar.
