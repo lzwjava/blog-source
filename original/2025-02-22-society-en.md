@@ -6,6 +6,8 @@ title: Society
 translated: false  
 ---
 
+- People are born, grow, eat, relieve themselves, sleep, work, study, rest, travel, think, speak, hear, touch, write, read, walk, jump, play sports, use mobile phones, play games, fight, kill, recover, build, and destroy.
+
 - This is a society full of people—my 1-year-old, 5-year-old, 10-year-old, 15-year-old, 20-year-old, and 25-year-old selves—growing, studying, or working.  
 
 - I am male. There are many females who have hobbies like mine, know the same things I do, get similar scores, or work in the same industry as me.  
