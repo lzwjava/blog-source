@@ -21,3 +21,5 @@ translated: false
 - In 2025, I bought a second-hand iPod Touch 4. On its iOS system, the voice memo, camera, browser, and calculator still work well, but iTunes, Movies, Maps, and the App Store are unusable.
 
 - The apps that don't need a server, like Camera and Voice Memo, will be more stable after years.
+
+- The projector lacked a power cable, so I bought one from JD.com. A similar power cord from Walmart is the "TV Power Cord 59inch for TCL: 2 Prong AC Wall Plug 2-Slot Two flat 8-suffix power cords with holes."
