@@ -6,6 +6,10 @@ title: Configuring OpenWRT as a Wireless Bridge
 translated: false
 ---
 
+With the help of Grok, I am still trying to work on the following.
+
+---
+
 To address your query, "is it right?" regarding the steps to configure OpenWRT as a wireless bridge, and to provide the correct ways to achieve this, I’ll evaluate the steps you provided and refine them based on best practices for OpenWRT. Your goal is to set up your OpenWRT router (e.g., Xiaomi Mi Router 4C with OpenWRT 24.10.0) as a wireless bridge—connecting wirelessly to an existing Wi-Fi network as a client and sharing that connection via its own Wi-Fi access point (AP) or Ethernet ports, keeping all devices on the same subnet as the main router.
 
 Your provided steps are mostly accurate but miss a critical adjustment to ensure proper bridging and avoid IP conflicts. Below, I’ll first assess your configuration and then present the correct, complete steps to achieve a wireless bridge in OpenWRT using the simple bridge method (client + AP on the same bridge), which aligns with your intent. I’ll also briefly mention an alternative using `relayd` for cases where the simple method fails, though your setup likely supports the simpler approach.
