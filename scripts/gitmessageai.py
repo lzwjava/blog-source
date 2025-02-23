@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import argparse
 import requests
 import re
+import json
 
 load_dotenv()
 
@@ -99,6 +100,51 @@ def call_deepseek_api(prompt):
         print(e)
         return None
 
+def call_grok_api(prompt):
+    api_key = os.environ.get("GROK_API_KEY")
+    if not api_key:
+        print("Error: GROK_API_KEY environment variable not set.")
+        return None
+
+    url = "https://api.x.ai/v1/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_key}"
+    }
+    data = {
+        "model": "grok-2-latest",
+        "messages": [
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        response.raise_for_status()
+        json_response = response.json()
+        if 'choices' in json_response and json_response['choices']:
+            first_choice = json_response['choices'][0]
+            if 'message' in first_choice and 'content' in first_choice['message']:
+                return first_choice['message']['content']
+            else:
+                print("Unexpected response format: message or content missing")
+                return None
+        else:
+            print("No choices found in the response")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"Error during API request: {e}")
+        if e.response:
+            print(f"Response status code: {e.response.status_code}")
+            print(f"Response content: {e.response.text}")
+        return None
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON response: {e}")
+        return None
+
 def gitmessageai(push=True, only_message=False, api='deepseek', allow_pull_push=False):
     # Stage all changes
     subprocess.run(["git", "add", "-A"], check=True)    
@@ -171,6 +217,11 @@ Changed files:
         if not commit_message:
             print("Error: No response from Mistral API.")
             return
+    elif api == 'grok':
+        commit_message = call_grok_api(prompt)
+        if not commit_message:
+            print("Error: No response from Grok API.")
+            return
     else:
         print(f"Error: Invalid API specified: {api}")
         return
@@ -209,9 +260,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate commit message with AI and commit changes.")
     parser.add_argument('--no-push', dest='push', action='store_false', help='Commit changes locally without pushing.')
     parser.add_argument('--only-message', dest='only_message', action='store_true', help='Only print the AI generated commit message.')
-    parser.add_argument('--api', type=str, default='mistral', choices=['deepseek', 'gemini', 'mistral'], help='API to use for commit message generation (deepseek, gemini, or mistral).')
+    parser.add_argument('--api', type=str, default='mistral', choices=['deepseek', 'gemini', 'mistral', 'grok'], help='API to use for commit message generation (deepseek, gemini, mistral, grok).')
     parser.add_argument('--allow-pull-push', dest='allow_pull_push', action='store_true', help='Allow git pull and push if git push failed.')
 
     args = parser.parse_args()
     gitmessageai(push=args.push, only_message=args.only_message, api=args.api, allow_pull_push=args.allow_pull_push)
-    

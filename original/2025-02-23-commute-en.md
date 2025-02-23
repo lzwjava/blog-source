@@ -8,7 +8,9 @@ translated: false
 
 - I lived 2km from Jinfeng subway station. My office was in the Renfeng building in Tianhe district.
 
-- From home, I would go to Jinfeng terminal, take Line 6 to Tianhe Coach terminal, and then walk 500m to the office.
+- From home, I would go to Jinfeng terminal, take Line 6 to Tianhe Coach terminal, then take Line 3 to Shipaiqiao terminal, and then walk 500m to the office.
+
+- I once went from Jinfeng Terminal, took Line 6 to Tianhe Coach Terminal, transferred to Line 3 to Tiyu Xilu Road Terminal, and then continued on Line 3 to Shipaiqiao Terminal—all because I missed my stop at one of the terminals.
 
 - A Didi car cost around 60 CNY per trip. A Gaode car cost around 40 CNY per trip.
 
