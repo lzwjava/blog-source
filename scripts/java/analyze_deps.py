@@ -47,13 +47,39 @@ def get_specific_imports(file_path):
         print(f"Warning: Could not read {file_path}: {e}")
     return imports
 
+def get_package_group(full_class_name, level):
+    """
+    Get the package group based on the first 'level' parts of the package name.
+
+    Args:
+        full_class_name (str): Fully qualified class name (e.g., "org.springframework.boot.App").
+        level (int): Number of package levels to include (e.g., 1 for "org", 2 for "org.springframework").
+
+    Returns:
+        str: The package group (e.g., "org" or "org.springframework").
+    """
+    package = '.'.join(full_class_name.split('.')[:-1])  # Extract package, excluding class name
+    parts = package.split('.')
+    if len(parts) <= level:
+        return package  # Use full package if it has fewer or equal parts than level
+    else:
+        return '.'.join(parts[:level])  # Use first 'level' parts
+
 if __name__ == '__main__':
-    # Check for command-line argument
-    if len(sys.argv) != 2:
-        print("Usage: python script.py <root_directory>")
+    # Check for command-line arguments: root_directory and level
+    if len(sys.argv) != 3:
+        print("Usage: python script.py <root_directory> <level>")
         sys.exit(1)
 
     root_dir = sys.argv[1]
+    try:
+        level = int(sys.argv[2])
+        if level < 1:
+            raise ValueError
+    except ValueError:
+        print("Error: level must be a positive integer")
+        sys.exit(1)
+
     all_classes = set()
 
     # First pass: Collect all fully qualified class names in the project
@@ -67,10 +93,10 @@ if __name__ == '__main__':
                     full_class_name = f"{package}.{class_name}"
                     all_classes.add(full_class_name)
 
-    # Store dependencies: class -> set of classes it depends on
-    dependencies = defaultdict(set)
+    # Store dependencies between package groups
+    group_dependencies = set()
 
-    # Second pass: Analyze dependencies based on specific imports
+    # Second pass: Analyze dependencies based on package groups
     for root, dirs, files in os.walk(root_dir):
         for file in files:
             if file.endswith('.java'):
@@ -79,16 +105,18 @@ if __name__ == '__main__':
                 if package:
                     class_name = file.replace('.java', '')
                     full_class_name = f"{package}.{class_name}"
+                    importer_group = get_package_group(full_class_name, level)
                     imports = get_specific_imports(file_path)
                     for imp in imports:
                         # Only include dependencies on classes within the project
                         # Exclude self-dependencies
                         if imp in all_classes and imp != full_class_name:
-                            dependencies[full_class_name].add(imp)
+                            imported_group = get_package_group(imp, level)
+                            if imported_group != importer_group:
+                                group_dependencies.add((importer_group, imported_group))
 
     # Output the dependency graph in DOT format
     print('digraph G {')
-    for class_name in sorted(dependencies):
-        for dep in sorted(dependencies[class_name]):
-            print(f'  "{class_name}" -> "{dep}";')
+    for from_group, to_group in sorted(group_dependencies):
+        print(f'  "{from_group}" -> "{to_group}";')
     print('}')
