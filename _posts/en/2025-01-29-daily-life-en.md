@@ -19,3 +19,5 @@ translated: false
 - Using an iPhone 20w charger to charge a Mac M2 is acceptable.
 
 - In winter, wear thick cotton pants instead of thermal underwear. One pair of pants is more convenient than thermal underwear and pants.
+
+- Always buy at least two kinds of things, like shampoo. You can use them in turn depending on your mood and easily compare them. Your hair will probably benefit from such diversity.
