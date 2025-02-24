@@ -43,3 +43,5 @@ translated: false
 - Instead of searching Jira or Confluence, directly construct a URL to go to the profile and locate pages.
 
 - If we encounter a bug, for example if `npm run build` has problems in a large build pipeline, we can run it separately to ensure it works before running the entire pipeline. This makes the debug cycle faster and smaller.
+
+- The problems or similar bugs will recur repeatedly throughout your career, so make sure you keep notes about them. This practice remains useful even in the AI era. Sometimes, large language models provide answers that aren’t entirely accurate and require you to verify them.

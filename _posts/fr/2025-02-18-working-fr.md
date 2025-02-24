@@ -14,11 +14,11 @@ translated: true
 
 - Ne vous attendez pas à l'approbation des tickets de demande d'accès. Avant d'avoir les droits d'accès, pensez à ce que vous pouvez faire.
 
-- Beaucoup du travail peut être fait avant de commencer à travailler. On peut se familiariser avec presque tout à l'avance. Tout a un code ou des matériaux de substitution open-source.
+- Beaucoup de travail peut être fait avant de commencer à travailler. On peut se familiariser avec presque tout à l'avance. Tout a des substituts de code ou des matériaux open-source.
 
-- Un travail implique souvent des paramètres spécifiques, une logique de code légèrement différente et des droits d'accès ou des mots de passe pour faire les choses.
+- Un travail implique souvent des paramètres spécifiques, une logique de code légèrement différente et des droits d'accès ou des mots de passe pour faire avancer les choses.
 
-- Prévoyez la prochaine phase du projet. Pensez à la manière dont le projet actuel progressera et à ce que les utilisateurs auront besoin ou attendront.
+- Anticipez la prochaine phase du projet. Pensez à la manière dont le projet actuel progressera et à ce que les utilisateurs auront besoin ou attendront.
 
 - Pensez à toutes les façons possibles de faire le travail, de faire des progrès et de vous préparer autant que possible avant d'obtenir les droits d'accès ou les matériaux que les autres fourniront.
 
@@ -30,11 +30,11 @@ translated: true
 
 - Pensez à la manière dont un ingénieur pourrait travailler sur ce projet pendant 5 ou 10 ans, et réfléchissez à la manière d'atteindre une efficacité similaire rapidement.
 
-- Utilisez les répertoires de notes et de journaux. Copiez soigneusement les journaux de la console ou des pages frontend pour une analyse détaillée.
+- Utilisez des notes et des répertoires de journaux. Copiez soigneusement les journaux de la console ou des pages frontend pour une analyse détaillée.
 
 - Pensez à la manière de transmettre cette connaissance aux nouveaux membres de l'équipe.
 
-- Pensez à ce que nous pouvons accomplir si tout le monde fait de son mieux et que nous avons 50 ingénieurs de ce type.
+- Pensez à ce que nous pourrions accomplir si tout le monde faisait de son mieux et que nous avions 50 ingénieurs de ce type.
 
 - Les bibliothèques qui peuvent être facilement téléchargées à partir des dépôts Nexus internes peuvent être téléchargées manuellement et placées dans le dépôt `.m2`.
 
@@ -42,4 +42,6 @@ translated: true
 
 - Au lieu de rechercher dans Jira ou Confluence, construisez directement une URL pour accéder au profil et localiser les pages.
 
-- Si nous rencontrons un bug, par exemple si `npm run build` a des problèmes dans un grand pipeline de construction, nous pouvons l'exécuter séparément pour nous assurer qu'il fonctionne avant d'exécuter l'ensemble du pipeline. Cela rend le cycle de débogage plus rapide et plus petit.
+- Si nous rencontrons un bug, par exemple si `npm run build` pose des problèmes dans un pipeline de construction important, nous pouvons l'exécuter séparément pour nous assurer qu'il fonctionne avant d'exécuter l'ensemble du pipeline. Cela rend le cycle de débogage plus rapide et plus petit.
+
+- Les problèmes ou les bugs similaires se reproduiront à plusieurs reprises tout au long de votre carrière, alors assurez-vous de prendre des notes à leur sujet. Cette pratique reste utile même à l'ère de l'IA. Parfois, les grands modèles de langage fournissent des réponses qui ne sont pas entièrement précises et nécessitent que vous les vérifiez.

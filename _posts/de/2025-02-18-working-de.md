@@ -6,9 +6,9 @@ title: Arbeiten
 translated: true
 ---
 
-- Bevor Sie Zugriff auf das Code-Repository erhalten, fragen Sie Kollegen nach der `pom.xml`-Datei und versuchen Sie, Nexus-Abhängigkeiten herunterzuladen.
+- Bevor Sie Zugriff auf das Code-Repository erhalten, fragen Sie Ihre Kollegen nach der `pom.xml`-Datei und versuchen Sie, die Nexus-Abhängigkeiten herunterzuladen.
 
-- Ohne den eigentlichen Code, aber mit den Nexus-Bibliotheken, können wir tatsächlich die JAR dekompilieren oder mit den Bibliotheken experimentieren. Wir können eine Menge tun. Denken Sie außerhalb der Box.
+- Ohne den eigentlichen Code, aber mit den Nexus-Bibliotheken, können wir tatsächlich die JAR-Datei dekompilieren oder mit den Bibliotheken experimentieren. Wir können eine ganze Menge tun. Denken Sie außerhalb der Box.
 
 - Es ist vorzuziehen, Benutzer-Token im Sonatype Nexus Repository in `settings.yaml` zu konfigurieren.
 
@@ -18,7 +18,7 @@ translated: true
 
 - Ein Job umfasst oft spezifische Einstellungen, leicht unterschiedliche Code-Logik und Zugriffsrechte oder Passwörter, um Dinge zu erledigen.
 
-- Sehen Sie die nächste Phase des Projekts voraus. Überlegen Sie, wie das aktuelle Projekt voranschreiten wird und was Benutzer benötigen oder erwarten.
+- Überlegen Sie sich die nächste Phase des Projekts. Überlegen Sie, wie das aktuelle Projekt voranschreiten wird und was die Benutzer benötigen oder erwarten.
 
 - Denken Sie an alle möglichen Wege, um die Arbeit zu erledigen, Fortschritte zu machen und so viel wie möglich vorzubereiten, bevor Sie Zugriffsrechte oder die Materialien erhalten, die andere bereitstellen.
 
@@ -28,9 +28,9 @@ translated: true
 
 - Windows und PowerShell sind ebenfalls gangbare Optionen. Die häufig verwendeten Befehle sind auf einige Dutzend beschränkt. Lernen Sie sie gut.
 
-- Überlegen Sie, wie ein Ingenieur an diesem Projekt für 5 oder 10 Jahre arbeiten könnte, und denken Sie darüber nach, wie man eine ähnliche Effizienz schnell erreichen kann.
+- Überlegen Sie, wie ein Ingenieur an diesem Projekt für 5 oder 10 Jahre arbeiten könnte, und denken Sie darüber nach, wie man ähnliche Effizienz schnell erreichen kann.
 
-- Verwenden Sie Notizen und Log-Verzeichnisse. Kopieren Sie Logs sorgfältig aus der Konsole oder den Frontend-Seiten für eine detaillierte Analyse.
+- Verwenden Sie Notizen und Protokollverzeichnisse. Kopieren Sie Protokolle sorgfältig aus der Konsole oder den Frontend-Seiten für eine detaillierte Analyse.
 
 - Überlegen Sie, wie Sie dieses Wissen an neu hinzugekommene Teammitglieder weitergeben können.
 
@@ -42,4 +42,6 @@ translated: true
 
 - Anstatt Jira oder Confluence zu durchsuchen, konstruieren Sie direkt eine URL, um zum Profil zu gelangen und Seiten zu finden.
 
-- Wenn wir auf ein Problem stoßen, z.B. wenn `npm run build` in einer großen Build-Pipeline Probleme hat, können wir es separat ausführen, um sicherzustellen, dass es funktioniert, bevor wir die gesamte Pipeline ausführen. Dies macht den Debug-Zyklus schneller und kleiner.
+- Wenn wir auf ein Problem stoßen, zum Beispiel wenn `npm run build` in einer großen Build-Pipeline Probleme hat, können wir es separat ausführen, um sicherzustellen, dass es funktioniert, bevor wir die gesamte Pipeline ausführen. Dies macht den Debug-Zyklus schneller und kleiner.
+
+- Die Probleme oder ähnliche Fehler werden im Laufe Ihrer Karriere wiederholt auftreten, also stellen Sie sicher, dass Sie Notizen darüber machen. Diese Praxis bleibt auch im Zeitalter der künstlichen Intelligenz nützlich. Manchmal liefern große Sprachmodelle Antworten, die nicht vollständig korrekt sind und überprüft werden müssen.
