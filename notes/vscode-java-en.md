@@ -104,3 +104,8 @@ After setting `java.home`, you might need to:
 ---
 
 That’s it! You should now have the Java compiler configured in VSCode. If you run into any issues or have more questions—like working with a specific build tool—feel free to let me know, and I’ll be happy to assist further! 😊
+
+---
+
+Set `maven.terminal.userJavaHome` to true. You can check the Java version in the terminal.
+
