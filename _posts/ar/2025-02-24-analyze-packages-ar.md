@@ -2,31 +2,31 @@
 audio: false
 lang: ar
 layout: post
-title: تحليل حزم جافا
+title: تحليل حزم جاڤا
 translated: true
 ---
 
 ### فهم الطلب
-- **عندما يكون `level = 0` أو غير موفر**: استخدم الاسم الكامل للحزمة كما تم استخراجه من إعلانات `import` في Java (مثل `java.util` أو `com.google.common.eventbus`), دون تقصيرها.
+- **عندما يكون `level = 0` أو غير موفر**: استخدم الاسم الكامل للحزمة كما تم استخراجها من بيانات `import` في Java (مثل `java.util` أو `com.google.common.eventbus`) دون تقصيرها.
 - **عندما يكون `level > 0`**: تقصير اسم الحزمة إلى أول `level` أجزاء (مثلًا، بالنسبة لـ `com.google.common.eventbus`، `level = 2` يعطي `com.google`).
-- يجب أن يستمر النص في معالجة ملفات Java، استخراج أسماء الحزم من إعلانات `import`، ومعالجة الحالات الحدودية بشكل مناسب.
+- يجب أن يستمر النص في معالجة ملفات Java، استخراج أسماء الحزم من بيانات `import`، ومعالجة الحالات الحدودية بشكل مناسب.
 
 ### طريقة الحل
 1. **تحليل المعلمات**:
-   - إذا تم تقديم فقط الدليل الجذر (مثلًا `python script.py /path/to/dir`), قم بتعيين `level = 0`، مما يعني استخدام الاسم الكامل للحزمة.
-   - إذا تم تقديم `level` (مثلًا `python script.py /path/to/dir 2`), استخدمه لتقصير اسم الحزمة، مع التأكد من أنه عدد صحيح موجب.
+   - إذا تم تقديم فقط الدليل الجذر (مثلًا `python script.py /path/to/dir`)، قم بتعيين `level = 0`، مما يعني استخدام الاسم الكامل للحزمة.
+   - إذا تم تقديم `level` (مثلًا `python script.py /path/to/dir 2`)، استخدمه لتقصير اسم الحزمة، مع التأكد من أنه عدد صحيح موجب.
    - خروج بالخطأ إذا كانت المعلمات غير صالحة.
 
 2. **استخراج الحزمة**:
-   - استخراج اسم الحزمة من إعلانات `import` (مثلًا `import java.util.ArrayList;` يعطي `java.util`).
-   - استخدام معايير تسمية Java: عادة ما تكون أسماء الحزم بالخط الصغير، بينما تبدأ أسماء الفئات بالحرف الكبير.
+   - استخراج اسم الحزمة من بيانات `import` (مثلًا `import java.util.ArrayList;` يعطي `java.util`).
+   - استخدام معايير تسمية Java: الحزم عادة ما تكون بأحرف صغيرة، بينما تبدأ أسماء الفئات بحرف كبير.
 
 3. **منطق تقصير الحزمة**:
    - إذا كان `level = 0`، أضف الاسم الكامل للحزمة إلى مجموعة النتائج.
-   - إذا كان `level > 0`، قم بفصل اسم الحزمة بالنقاط (`.`) وخذ أول `level` أجزاء.
+   - إذا كان `level > 0`، قم بتقسيم اسم الحزمة بنقاط (`.`) وخذ أول `level` أجزاء.
 
-4. **التسجيل والإخراج**:
-   - إظهار بوضوح ما إذا كان يتم استخدام أسماء الحزم الكاملة أو المقصورة.
+4. **تسجيل وإخراج**:
+   - توضيح ما إذا كان يتم استخدام أسماء الحزم الكاملة أو المقصوصة.
    - قائمة جميع الحزم الفريدة التي تم العثور عليها.
 
 ### التنفيذ
@@ -39,13 +39,7 @@ from collections import Counter
 
 def find_java_files(root_dir):
     """
-    البحث عن جميع ملفات .java في الدليل المحدد وجميع الدلائل الفرعية منه بشكل تكراري.
-
-    Args:
-        root_dir (str): الدليل الجذر لبدء البحث منه.
-
-    Yields:
-        str: المسار الكامل لكل ملف .java.
+    البحث عن جميع ملفات .java في الدليل المحدد وجميع الدلائل الفرعية.
     """
     for dirpath, dirnames, filenames in os.walk(root_dir):
         for filename in filenames:
@@ -54,15 +48,7 @@ def find_java_files(root_dir):
 
 def extract_package(import_statement):
     """
-    استخراج اسم الحزمة من إعلان `import`.
-
-    يستخدم المعيار أن أسماء الحزم بالخط الصغير، بينما تبدأ أسماء الفئات بالحرف الكبير. يدعم استيراد الفئات (*).
-
-    Args:
-        import_statement (str): سطر الإعلان من ملف Java.
-
-    Returns:
-        str: اسم الحزمة، أو سلسلة فارغة إذا لم يتم تحديدها.
+    استخراج اسم الحزمة من بيان `import`.
     """
     parts = import_statement.split()
     if parts[0] == 'import':
@@ -83,7 +69,7 @@ def extract_package(import_statement):
 if __name__ == '__main__':
     # تحليل المعلمات السطرية
     if len(sys.argv) < 2 or len(sys.argv) > 4:
-        print("Usage: python script.py <root_directory> [level] [--count]")
+        print("استخدام: python script.py <root_directory> [level] [--count]")
         sys.exit(1)
 
     root_dir = sys.argv[1]
@@ -96,25 +82,25 @@ if __name__ == '__main__':
         elif sys.argv[2].isdigit():
             level = int(sys.argv[2])
         else:
-            print(f"Invalid argument: {sys.argv[2]}")
+            print(f"معلمة غير صالحة: {sys.argv[2]}")
             sys.exit(1)
     elif len(sys.argv) == 4:
         if sys.argv[3] == "--count" and sys.argv[2].isdigit():
             level = int(sys.argv[2])
             count = True
         else:
-            print(f"Invalid arguments: {sys.argv[2]} {sys.argv[3]}")
+            print(f"معلمات غير صالحة: {sys.argv[2]} {sys.argv[3]}")
             sys.exit(1)
 
     # التحقق من وجود الدليل
     if not os.path.isdir(root_dir):
-        print(f"[ERROR] The specified path is not a directory: {root_dir}")
+        print(f"[خطأ] الدليل المحدد ليس دليلًا: {root_dir}")
         sys.exit(1)
 
     # تسجيل بداية التحليل
-    level_str = "using full package names" if level == 0 else f"at level {level}"
-    count_str = "with appearance counts" if count else ""
-    print(f"[INFO] Starting analysis of directory: {root_dir} {level_str} {count_str}")
+    level_str = "استخدام أسماء الحزم الكاملة" if level == 0 else f"في مستوى {level}"
+    count_str = "مع عدادات الظهور" if count else ""
+    print(f"[معلومات] بدء تحليل الدليل: {root_dir} {level_str} {count_str}")
 
     # تهيئة المتغيرات
     package_counter = Counter()
@@ -141,81 +127,81 @@ if __name__ == '__main__':
                 package_counter[pkg] += 1
             total_files += 1
         except Exception as e:
-            print(f"[ERROR] Could not read file {java_file}: {e}")
+            print(f"[خطأ] لم يتم قراءة الملف {java_file}: {e}")
             error_files += 1
             continue
 
     # طباعة ملخص
-    print(f"[INFO] Total Java files attempted: {total_files + error_files}")
-    print(f"[INFO] Successfully processed: {total_files}")
-    print(f"[INFO] Files with errors: {error_files}")
+    print(f"[معلومات] إجمالي ملفات Java المحاولة: {total_files + error_files}")
+    print(f"[معلومات] تم معالجة: {total_files}")
+    print(f"[معلومات] ملفات مع أخطاء: {error_files}")
     if count:
-        print(f"[INFO] Total unique packages with counts: {len(package_counter)}")
+        print(f"[معلومات] إجمالي الحزم الفريدة مع العدادات: {len(package_counter)}")
     else:
-        print(f"[INFO] Total unique packages: {len(package_counter)}")
+        print(f"[معلومات] إجمالي الحزم الفريدة: {len(package_counter)}")
 
-    # طباعة النتائج بالترتيب المناسب
+    # طباعة النتائج مع الترتيب المناسب
     if package_counter:
         if count:
-            print("[INFO] Analysis complete. Printing unique packages with counts (sorted by count descending):")
-            # ترتيب حسب العدد تنازليًا، ثم حسب اسم الحزمة تصاعديًا
+            print("[معلومات] انتهى التحليل. طباعة الحزم الفريدة مع العدادات (مرتبة حسب العدات تنازليًا):")
+            # ترتيب حسب العدات تنازليًا، ثم حسب اسم الحزمة تصاعديًا
             for pkg, cnt in sorted(package_counter.items(), key=lambda x: (-x[1], x[0])):
                 print(f"{pkg}: {cnt}")
         else:
-            print("[INFO] Analysis complete. Printing unique packages (sorted by name ascending):")
+            print("[معلومات] انتهى التحليل. طباعة الحزم الفريدة (مرتبة حسب الاسم تصاعديًا):")
             # ترتيب حسب اسم الحزمة تصاعديًا
             for pkg in sorted(package_counter):
                 print(pkg)
     else:
-        print("[INFO] No packages found.")
+        print("[معلومات] لم يتم العثور على حزم.")
 ```
 
-### كيفية عمله
-- **تشغيل النص**:
-  - `python script.py /path/to/java/project`: تحليل جميع ملفات `.java` في الدليل واستخدام أسماء الحزم الكاملة (`level = 0`).
-  - `python script.py /path/to/java/project 2`: تقصير أسماء الحزم إلى أول 2 أجزاء (مثلًا، `com.google.common.eventbus` يصبح `com.google`).
+### كيفية عمل النص
+- **تنفذ النص**:
+  - `python script.py /path/to/java/project`: يحلل جميع ملفات `.java` في الدليل ويستخدم أسماء الحزم الكاملة (`level = 0`).
+  - `python script.py /path/to/java/project 2`: يقصير أسماء الحزم إلى أول 2 أجزاء (مثلًا، `com.google.common.eventbus` يصبح `com.google`).
 
 - **مثال على الإخراج**:
-  افترض أنك لديك ملف Java يحتوي على:
+  افترض أن لديك ملف Java يحتوي على:
   ```java
   import java.util.ArrayList;
   import com.google.common.eventbus.EventBus;
   ```
   - **مع `level = 0` (أو بدون مستوى موفر)**:
     ```
-    [INFO] Starting analysis of directory: /path/to/java/project with full package names.
-    [INFO] Entering directory: /path/to/java/project
-    [INFO] Processing file: /path/to/java/project/MyFile.java
-    [INFO] Total Java files attempted: 1
-    [INFO] Successfully processed: 1
-    [INFO] Files with errors: 0
-    [INFO] Total unique full packages: 2
-    [INFO] Analysis complete. Printing unique full packages:
+    [معلومات] بدء تحليل الدليل: /path/to/java/project باستخدام أسماء الحزم الكاملة.
+    [معلومات] دخول الدليل: /path/to/java/project
+    [معلومات] معالجة الملف: /path/to/java/project/MyFile.java
+    [معلومات] إجمالي ملفات Java المحاولة: 1
+    [معلومات] تم معالجة: 1
+    [معلومات] ملفات مع أخطاء: 0
+    [معلومات] إجمالي الحزم الفريدة الكاملة: 2
+    [معلومات] انتهى التحليل. طباعة الحزم الفريدة الكاملة:
     com.google.common.eventbus
     java.util
     ```
   - **مع `level = 2`**:
     ```
-    [INFO] Starting analysis of directory: /path/to/java/project at level: 2
-    [INFO] Entering directory: /path/to/java/project
-    [INFO] Processing file: /path/to/java/project/MyFile.java
-    [INFO] Total Java files attempted: 1
-    [INFO] Successfully processed: 1
-    [INFO] Files with errors: 0
-    [INFO] Total unique packages at level 2: 2
-    [INFO] Analysis complete. Printing unique packages at level 2:
+    [معلومات] بدء تحليل الدليل: /path/to/java/project في مستوى: 2
+    [معلومات] دخول الدليل: /path/to/java/project
+    [معلومات] معالجة الملف: /path/to/java/project/MyFile.java
+    [معلومات] إجمالي ملفات Java المحاولة: 1
+    [معلومات] تم معالجة: 1
+    [معلومات] ملفات مع أخطاء: 0
+    [معلومات] إجمالي الحزم الفريدة في مستوى 2: 2
+    [معلومات] انتهى التحليل. طباعة الحزم الفريدة في مستوى 2:
     com.google
     java.util
     ```
 
 - **الميزات الرئيسية**:
-  - **أسماء الحزم الكاملة**: عندما يكون `level = 0` أو غير موفر، يستخدم الاسم الكامل للحزمة كما تم استخراجها (مثل `java.util`, `com.google.common.eventbus`).
-  - **التقصير**: عندما يكون `level > 0`، يأخذ أول `level` أجزاء.
-  - **معالجة الأخطاء**: التحقق من الدليل الصالحة و `level` غير سالب أو غير عدد صحيح.
+  - **أسماء الحزم الكاملة**: عندما يكون `level = 0` أو غير موفر، يستخدم الاسم الكامل للحزمة كما تم استخراجها (مثلًا `java.util`، `com.google.common.eventbus`).
+  - **تقصير**: عندما يكون `level > 0`، يأخذ أول `level` أجزاء.
+  - **معالجة الأخطاء**: التحقق من الدليل الصالحة و `level` غير سالب.
   - **الفردية**: تخزين الحزم في مجموعة لتجنب التكرار.
 
-### الحالات الحدودية التي تم التعامل معها
-- **عدم وجود مستوى**: الافتراض `level = 0`، واستخدام أسماء الحزم الكاملة.
-- **مستوى غير صالح**: الخروج بالخطأ إذا كان `level` سالبًا أو غير عدد صحيح.
-- **حزم قصيرة**: إذا كانت الحزمة لديها أقل من `level` أجزاء (مثل `java` مع `level = 2`), يستخدم الاسم الكامل للحزمة (`java`).
-- **استيرادات فارغة**: تخطي السطور التي لم يتم استخراج الحزمة منها.
+### الحالات الحدودية المعالجة
+- **العدد المفقود**: الافتراض `level = 0`، باستخدام أسماء الحزم الكاملة.
+- **العدد غير الصالح**: الخروج بالخطأ إذا كان `level` سالبًا أو غير عدد صحيح.
+- **الحزم القصيرة**: إذا كانت الحزمة أقل من `level` أجزاء (مثلًا `java` مع `level = 2`)، يستخدم الاسم الكامل للحزمة (`java`).
+- **الاستيراد الفارغ**: تخطي السطور التي لم يتم استخراج الحزمة منها.

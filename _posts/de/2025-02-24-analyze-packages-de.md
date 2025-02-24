@@ -2,30 +2,30 @@
 audio: false
 lang: de
 layout: post
-title: Analysieren von Java-Paketen
+title: Analyse Java-Pakete
 translated: true
 ---
 
-Basierend auf Ihrer Anfrage möchten Sie ein Skript, bei dem, wenn der `level`-Parameter 0 ist oder nicht angegeben ist, der gesamte Paketname (alle Teile davon) verwendet wird, was `level = 0` als "unendlich" oder "verwende alle Teile" behandelt, anstatt es auf eine bestimmte Anzahl von Teilen zu beschränken (wie nur den ersten Teil, wenn `level = 1`). Unten werde ich erklären, wie dies in einem Python-Skript implementiert werden kann, das Java-Dateien analysiert, um Paketnamen zu extrahieren, und ich werde eine vollständige Lösung bereitstellen, die auf Ihre Anfrage zugeschnitten ist.
+Basierend auf Ihrer Anfrage möchten Sie ein Skript, bei dem, wenn der `level`-Parameter 0 ist oder nicht angegeben wird, der gesamte Paketname (alle Teile davon) verwendet wird, was `level = 0` als "unendlich" oder "alle Teile verwenden" behandelt, anstatt ihn auf eine bestimmte Anzahl von Teilen zu beschränken (wie nur den ersten Teil, wenn `level = 1`). Unten werde ich erklären, wie dies in einem Python-Skript implementiert werden kann, das Java-Dateien analysiert, um Paketnamen zu extrahieren, und ich werde eine vollständige Lösung bereitstellen, die auf Ihre Anfrage zugeschnitten ist.
 
 ### Verständnis der Anforderung
-- **Wenn `level = 0` oder nicht angegeben**: Verwenden Sie den vollständigen Paketnamen, wie er aus Java `import`-Anweisungen extrahiert wird (z. B. `java.util` oder `com.google.common.eventbus`), ohne ihn zu kürzen.
-- **Wenn `level > 0`**: Kürzen Sie den Paketnamen auf die ersten `level` Teile (z. B. für `com.google.common.eventbus`, `level = 2` würde `com.google` ergeben).
+- **Wenn `level = 0` oder nicht angegeben**: Verwenden Sie den vollständigen Paketnamen, wie er aus Java-`import`-Anweisungen extrahiert wird (z. B. `java.util` oder `com.google.common.eventbus`), ohne ihn zu kürzen.
+- **Wenn `level > 0`**: Kürzen Sie den Paketnamen auf die ersten `level`-Teile (z. B. für `com.google.common.eventbus`, `level = 2` würde `com.google` ergeben).
 - Das Skript sollte weiterhin Java-Dateien verarbeiten, Paketnamen aus `import`-Anweisungen extrahieren und Randfälle angemessen behandeln.
 
 ### Lösung
 1. **Argument Parsing**:
-   - Wenn nur das Stammverzeichnis angegeben ist (z. B. `python script.py /pfad/zu/verzeichnis`), setzen Sie `level = 0`, was bedeutet, dass der vollständige Paketname verwendet wird.
-   - Wenn `level` angegeben ist (z. B. `python script.py /pfad/zu/verzeichnis 2`), verwenden Sie es, um den Paketnamen zu kürzen, und stellen Sie sicher, dass es eine nicht-negative ganze Zahl ist.
+   - Wenn nur das Stammverzeichnis angegeben wird (z. B. `python script.py /pfad/zum/verzeichnis`), setzen Sie `level = 0`, was bedeutet, dass der vollständige Paketname verwendet wird.
+   - Wenn `level` angegeben wird (z. B. `python script.py /pfad/zum/verzeichnis 2`), verwenden Sie es, um den Paketnamen zu kürzen, und stellen Sie sicher, dass es eine nicht-negative ganze Zahl ist.
    - Beenden Sie mit einem Fehler, wenn die Argumente ungültig sind.
 
-2. **Paket Extraktion**:
+2. **Paket-Extraktion**:
    - Extrahieren Sie den Paketnamen aus `import`-Anweisungen (z. B. `import java.util.ArrayList;` ergibt `java.util`).
-   - Verwenden Sie Java-Benennungskonventionen: Pakete sind in der Regel Kleinbuchstaben, und Klassennamen beginnen mit Großbuchstaben.
+   - Verwenden Sie Java-Benennungskonventionen: Pakete sind in der Regel Kleinbuchstaben, und Klassenamen beginnen mit Großbuchstaben.
 
-3. **Paketkürzungslogik**:
+3. **Logik zur Paketkürzung**:
    - Wenn `level = 0`, fügen Sie den vollständigen Paketnamen zur Ergebnismenge hinzu.
-   - Wenn `level > 0`, teilen Sie den Paketnamen durch Punkte (`.`) und nehmen Sie die ersten `level` Teile.
+   - Wenn `level > 0`, teilen Sie den Paketnamen durch Punkte (`.`) und nehmen Sie die ersten `level`-Teile.
 
 4. **Protokollierung und Ausgabe**:
    - Geben Sie klar an, ob vollständige Paketnamen oder gekürzte verwendet werden.
@@ -41,7 +41,7 @@ from collections import Counter
 
 def find_java_files(root_dir):
     """
-    Durchsucht rekursiv alle .java-Dateien im angegebenen Verzeichnis und seinen Unterverzeichnissen.
+    Durchsucht rekursiv alle .java-Dateien im angegebenen Verzeichnis und dessen Unterverzeichnissen.
 
     Args:
         root_dir (str): Das Stammverzeichnis, von dem die Suche beginnen soll.
@@ -56,16 +56,16 @@ def find_java_files(root_dir):
 
 def extract_package(import_statement):
     """
-    Extrahiert den Paketnamen aus einer import-Anweisung.
+    Extrahiert den Paketnamen aus einer Importanweisung.
 
-    Verwendet die Konvention, dass Paketnamen Kleinbuchstaben sind, während Klassennamen mit Großbuchstaben beginnen.
+    Verwendet die Konvention, dass Paketnamen Kleinbuchstaben sind, während Klassenamen mit Großbuchstaben beginnen.
     Behandelt Wildcard-Imports (*).
 
     Args:
-        import_statement (str): Die import-Anweisungszeile aus einer Java-Datei.
+        import_statement (str): Die Importanweisungszeile aus einer Java-Datei.
 
     Returns:
-        str: Der Paketname oder eine leere Zeichenkette, wenn nicht bestimmt.
+        str: Der Paketname oder eine leere Zeichenfolge, wenn nicht bestimmt.
     """
     parts = import_statement.split()
     if parts[0] == 'import':
@@ -114,12 +114,12 @@ if __name__ == '__main__':
         print(f"[FEHLER] Der angegebene Pfad ist kein Verzeichnis: {root_dir}")
         sys.exit(1)
 
-    # Protokollieren des Analysebeginns
+    # Protokollieren des Beginns der Analyse
     level_str = "Verwenden vollständiger Paketnamen" if level == 0 else f"auf Ebene {level}"
     count_str = "mit Auftrittszahlen" if count else ""
-    print(f"[INFO] Analyse des Verzeichnisses beginnt: {root_dir} {level_str} {count_str}")
+    print(f"[INFO] Start der Analyse des Verzeichnisses: {root_dir} {level_str} {count_str}")
 
-    # Initialisieren von Variablen
+    # Initialisieren der Variablen
     package_counter = Counter()
     total_files = 0
     error_files = 0
@@ -144,7 +144,7 @@ if __name__ == '__main__':
                 package_counter[pkg] += 1
             total_files += 1
         except Exception as e:
-            print(f"[FEHLER] Datei konnte nicht gelesen werden {java_file}: {e}")
+            print(f"[FEHLER] Datei {java_file} konnte nicht gelesen werden: {e}")
             error_files += 1
             continue
 
@@ -175,8 +175,8 @@ if __name__ == '__main__':
 
 ### Funktionsweise
 - **Ausführen des Skripts**:
-  - `python script.py /pfad/zu/java/projekt`: Analysiert alle `.java`-Dateien im Verzeichnis und verwendet vollständige Paketnamen (`level = 0`).
-  - `python script.py /pfad/zu/java/projekt 2`: Kürzt Paketnamen auf die ersten 2 Teile (z. B. `com.google.common.eventbus` wird `com.google`).
+  - `python script.py /pfad/zum/java/projekt`: Analysiert alle `.java`-Dateien im Verzeichnis und verwendet vollständige Paketnamen (`level = 0`).
+  - `python script.py /pfad/zum/java/projekt 2`: Kürzt Paketnamen auf die ersten 2 Teile (z. B. `com.google.common.eventbus` wird zu `com.google`).
 
 - **Beispielausgabe**:
   Angenommen, Sie haben eine Java-Datei mit:
@@ -186,9 +186,9 @@ if __name__ == '__main__':
   ```
   - **Mit `level = 0` (oder kein Level angegeben)**:
     ```
-    [INFO] Analyse des Verzeichnisses beginnt: /pfad/zu/java/projekt mit vollständigen Paketnamen.
-    [INFO] Betreten des Verzeichnisses: /pfad/zu/java/projekt
-    [INFO] Verarbeiten der Datei: /pfad/zu/java/projekt/MyFile.java
+    [INFO] Start der Analyse des Verzeichnisses: /pfad/zum/java/projekt mit vollständigen Paketnamen.
+    [INFO] Betreten des Verzeichnisses: /pfad/zum/java/projekt
+    [INFO] Verarbeiten der Datei: /pfad/zum/java/projekt/MyFile.java
     [INFO] Gesamtzahl der versuchten Java-Dateien: 1
     [INFO] Erfolgreich verarbeitet: 1
     [INFO] Dateien mit Fehlern: 0
@@ -199,9 +199,9 @@ if __name__ == '__main__':
     ```
   - **Mit `level = 2`**:
     ```
-    [INFO] Analyse des Verzeichnisses beginnt: /pfad/zu/java/projekt auf Ebene: 2
-    [INFO] Betreten des Verzeichnisses: /pfad/zu/java/projekt
-    [INFO] Verarbeiten der Datei: /pfad/zu/java/projekt/MyFile.java
+    [INFO] Start der Analyse des Verzeichnisses: /pfad/zum/java/projekt auf Ebene: 2
+    [INFO] Betreten des Verzeichnisses: /pfad/zum/java/projekt
+    [INFO] Verarbeiten der Datei: /pfad/zum/java/projekt/MyFile.java
     [INFO] Gesamtzahl der versuchten Java-Dateien: 1
     [INFO] Erfolgreich verarbeitet: 1
     [INFO] Dateien mit Fehlern: 0
@@ -211,14 +211,14 @@ if __name__ == '__main__':
     java.util
     ```
 
-- **Wichtige Merkmale**:
-  - **Vollständige Paketnamen**: Wenn `level = 0` oder nicht angegeben, wird der gesamte Paketname verwendet, wie er extrahiert wird (z. B. `java.util`, `com.google.common.eventbus`).
-  - **Kürzung**: Wenn `level > 0`, wird der erste `level` Teile genommen.
+- **Wichtige Funktionen**:
+  - **Vollständige Paketnamen**: Wenn `level = 0` oder nicht angegeben, wird der gesamte Paketname verwendet, wie er extrahiert wurde (z. B. `java.util`, `com.google.common.eventbus`).
+  - **Kürzung**: Wenn `level > 0`, wird der erste `level`-Teil genommen.
   - **Fehlerbehandlung**: Überprüft auf gültiges Verzeichnis und nicht-negative `level`.
-  - **Einzigartigkeit**: Speichert Pakete in einer `set`, um Duplikate zu vermeiden.
+  - **Einzigartigkeit**: Speichert Pakete in einem `set`, um Duplikate zu vermeiden.
 
-### Randfälle
+### Randfälle, die behandelt werden
 - **Fehlendes Level**: Standardmäßig `level = 0`, verwendet vollständige Paketnamen.
 - **Ungültiges Level**: Beendet mit einem Fehler, wenn `level` negativ oder keine ganze Zahl ist.
-- **Kurze Pakete**: Wenn ein Paket weniger Teile als `level` hat (z. B. `java` mit `level = 2`), wird das vollständige Paket (`java`) verwendet.
+- **Kurze Pakete**: Wenn ein Paket weniger Teile hat als `level` (z. B. `java` mit `level = 2`), wird das vollständige Paket (`java`) verwendet.
 - **Leere Imports**: Überspringt Zeilen, aus denen kein Paket extrahiert wird.
