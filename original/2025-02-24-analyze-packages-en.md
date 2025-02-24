@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: Analyzing Java Packages in Project
+title: Analyzing Java Packages
 translated: false
 ---
 

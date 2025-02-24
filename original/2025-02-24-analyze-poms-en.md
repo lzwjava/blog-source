@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: Analyze Maven POMs to Generate Dependency Graph
+title: Analyze Maven POMs
 translated: false
 ---
 
