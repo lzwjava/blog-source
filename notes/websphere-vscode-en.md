@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: Using the WebSphere Liberty server in Visual Studio Code
+title: Using the WebSphere Liberty server in VSCode
 translated: false
 ---
 
