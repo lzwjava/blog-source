@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: Analyzing Java Packages
+title: Analyze Java Packages
 translated: false
 ---
 
