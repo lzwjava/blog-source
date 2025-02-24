@@ -18,6 +18,4 @@ translated: false
 
 - Parking costs around 16 CNY per hour in that area.
 
-- Working in the office provides a great Wi-Fi or Ethernet connection to the internal network. Also, I can meet some colleagues, even if we are not in the same group. And I can order different meals to eat.
-
 - Save energy during your commute to work on something that matters more. Or use your commute as a distraction to focus on something that is less painful.
