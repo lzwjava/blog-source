@@ -6,12 +6,12 @@ title: Analizando Paquetes Java
 translated: true
 ---
 
-Basado en su consulta, desea un script en el que, si el parámetro `level` es 0 o no se proporciona, utilice el nombre completo del paquete (todas sus partes), tratando `level = 0` como "infinito" o "usar todas las partes", en lugar de limitarlo a un número específico de partes (como solo la primera parte cuando `level = 1`). A continuación, explicaré cómo se puede implementar esto en un script de Python que analiza archivos Java para extraer nombres de paquetes, y proporcionaré una solución completa adaptada a su solicitud.
+Basado en su consulta, desea un script en el que, si el parámetro `level` es 0 o no se proporciona, utilice el nombre completo del paquete (todas sus partes), tratando esencialmente `level = 0` como "infinito" o "usar todas las partes", en lugar de limitarlo a un número específico de partes (como solo la primera parte cuando `level = 1`). A continuación, explicaré cómo se puede implementar esto en un script de Python que analiza archivos Java para extraer nombres de paquetes, y proporcionaré una solución completa adaptada a su solicitud.
 
-### Comprensión del Requisito
-- **Cuando `level = 0` o no se proporciona**: Use el nombre completo del paquete extraído de las declaraciones `import` de Java (por ejemplo, `java.util` o `com.google.common.eventbus`), sin truncarlo.
-- **Cuando `level > 0`**: Truncar el nombre del paquete a las primeras `level` partes (por ejemplo, para `com.google.common.eventbus`, `level = 2` daría `com.google`).
-- El script debe seguir procesando archivos Java, extraer nombres de paquetes de las declaraciones `import` y manejar casos límite adecuadamente.
+### Entendiendo el Requisito
+- **Cuando `level = 0` o no se proporciona**: Use el nombre completo del paquete tal como se extrae de las declaraciones `import` de Java (por ejemplo, `java.util` o `com.google.common.eventbus`), sin truncarlo.
+- **Cuando `level > 0`**: Trunque el nombre del paquete a las primeras `level` partes (por ejemplo, para `com.google.common.eventbus`, `level = 2` daría `com.google`).
+- El script debe seguir procesando archivos Java, extraer nombres de paquetes de las declaraciones `import` y manejar los casos límite adecuadamente.
 
 ### Enfoque de la Solución
 1. **Análisis de Argumentos**:
@@ -20,15 +20,15 @@ Basado en su consulta, desea un script en el que, si el parámetro `level` es 0 
    - Salga con un error si los argumentos no son válidos.
 
 2. **Extracción de Paquetes**:
-   - Extraer el nombre del paquete de las declaraciones `import` (por ejemplo, `import java.util.ArrayList;` da `java.util`).
-   - Utilice las convenciones de nomenclatura de Java: los paquetes suelen estar en minúsculas y los nombres de clases comienzan con mayúsculas.
+   - Extraiga el nombre del paquete de las declaraciones `import` (por ejemplo, `import java.util.ArrayList;` da `java.util`).
+   - Use las convenciones de nomenclatura de Java: los nombres de paquetes suelen estar en minúsculas y los nombres de clases comienzan con mayúsculas.
 
 3. **Lógica de Truncamiento de Paquetes**:
    - Si `level = 0`, agregue el nombre completo del paquete al conjunto de resultados.
    - Si `level > 0`, divida el nombre del paquete por puntos (`.`) y tome las primeras `level` partes.
 
 4. **Registro y Salida**:
-   - Indique claramente si se están utilizando nombres completos de paquetes o truncados.
+   - Indique claramente si se están utilizando nombres de paquetes completos o truncados.
    - Liste todos los paquetes únicos encontrados.
 
 ### Implementación
@@ -37,6 +37,7 @@ Aquí está el script completo de Python que cumple con sus requisitos:
 ```python
 import os
 import sys
+from collections import Counter
 
 def find_java_files(root_dir):
     """
@@ -49,7 +50,6 @@ def find_java_files(root_dir):
         str: La ruta completa a cada archivo .java.
     """
     for dirpath, dirnames, filenames in os.walk(root_dir):
-        print(f"[INFO] Entrando en el directorio: {dirpath}")
         for filename in filenames:
             if filename.endswith('.java'):
                 yield os.path.join(dirpath, filename)
@@ -58,7 +58,8 @@ def extract_package(import_statement):
     """
     Extrae el nombre del paquete de una declaración de importación.
 
-    Asume que los nombres de paquetes están en minúsculas y se detiene en nombres de clases (mayúsculas) o comodines (*).
+    Usa la convención de que los nombres de paquetes están en minúsculas, mientras que los nombres de clases
+    comienzan con letras mayúsculas. Maneja importaciones comodín (*).
 
     Args:
         import_statement (str): La línea de declaración de importación de un archivo Java.
@@ -84,21 +85,29 @@ def extract_package(import_statement):
 
 if __name__ == '__main__':
     # Analizar argumentos de la línea de comandos
-    if len(sys.argv) == 2:
-        root_dir = sys.argv[1]
-        level = 0  # No se proporciona nivel, usar nombres completos de paquetes
-    elif len(sys.argv) == 3:
-        root_dir = sys.argv[1]
-        try:
-            level = int(sys.argv[2])
-            if level < 0:
-                raise ValueError
-        except ValueError:
-            print("[ERROR] El nivel debe ser un entero no negativo.")
-            sys.exit(1)
-    else:
-        print("Uso: python script.py <directorio_raíz> [nivel]")
+    if len(sys.argv) < 2 or len(sys.argv) > 4:
+        print("Uso: python script.py <directorio_raíz> [nivel] [--count]")
         sys.exit(1)
+
+    root_dir = sys.argv[1]
+    level = 0
+    count = False
+
+    if len(sys.argv) == 3:
+        if sys.argv[2] == "--count":
+            count = True
+        elif sys.argv[2].isdigit():
+            level = int(sys.argv[2])
+        else:
+            print(f"Argumento no válido: {sys.argv[2]}")
+            sys.exit(1)
+    elif len(sys.argv) == 4:
+        if sys.argv[3] == "--count" and sys.argv[2].isdigit():
+            level = int(sys.argv[2])
+            count = True
+        else:
+            print(f"Argumentos no válidos: {sys.argv[2]} {sys.argv[3]}")
+            sys.exit(1)
 
     # Verificar que el directorio existe
     if not os.path.isdir(root_dir):
@@ -106,34 +115,33 @@ if __name__ == '__main__':
         sys.exit(1)
 
     # Registrar el inicio del análisis
-    if level == 0:
-        print(f"[INFO] Iniciando análisis del directorio: {root_dir} con nombres completos de paquetes.")
-    else:
-        print(f"[INFO] Iniciando análisis del directorio: {root_dir} a nivel: {level}")
+    level_str = "usando nombres de paquetes completos" if level == 0 else f"a nivel {level}"
+    count_str = "con recuentos de apariciones" if count else ""
+    print(f"[INFO] Iniciando análisis del directorio: {root_dir} {level_str} {count_str}")
 
     # Inicializar variables
-    packages = set()
+    package_counter = Counter()
     total_files = 0
     error_files = 0
 
     # Procesar archivos Java
     for java_file in find_java_files(root_dir):
-        print(f"[INFO] Procesando archivo: {java_file}")
         try:
             with open(java_file, 'r', encoding='utf-8') as f:
+                file_packages = set()
                 for line in f:
                     line = line.strip()
                     if line.startswith('import'):
                         package = extract_package(line)
                         if package:
-                            if level == 0:
-                                # Usar el nombre completo del paquete
-                                packages.add(package)
-                            else:
-                                # Truncar a las primeras 'level' partes
+                            if level > 0:
                                 parts = package.split('.')
                                 truncated_package = '.'.join(parts[:level])
-                                packages.add(truncated_package)
+                            else:
+                                truncated_package = package
+                            file_packages.add(truncated_package)
+            for pkg in file_packages:
+                package_counter[pkg] += 1
             total_files += 1
         except Exception as e:
             print(f"[ERROR] No se pudo leer el archivo {java_file}: {e}")
@@ -144,26 +152,30 @@ if __name__ == '__main__':
     print(f"[INFO] Total de archivos Java intentados: {total_files + error_files}")
     print(f"[INFO] Procesados correctamente: {total_files}")
     print(f"[INFO] Archivos con errores: {error_files}")
-    if level == 0:
-        print(f"[INFO] Total de paquetes completos únicos: {len(packages)}")
+    if count:
+        print(f"[INFO] Total de paquetes únicos con recuentos: {len(package_counter)}")
     else:
-        print(f"[INFO] Total de paquetes únicos a nivel {level}: {len(packages)}")
+        print(f"[INFO] Total de paquetes únicos: {len(package_counter)}")
 
-    # Imprimir resultados
-    if packages:
-        if level == 0:
-            print("[INFO] Análisis completo. Imprimiendo paquetes completos únicos:")
+    # Imprimir resultados con ordenación adecuada
+    if package_counter:
+        if count:
+            print("[INFO] Análisis completo. Imprimiendo paquetes únicos con recuentos (ordenados por recuento descendente):")
+            # Ordenar por recuento descendente, luego por nombre de paquete ascendente
+            for pkg, cnt in sorted(package_counter.items(), key=lambda x: (-x[1], x[0])):
+                print(f"{pkg}: {cnt}")
         else:
-            print(f"[INFO] Análisis completo. Imprimiendo paquetes únicos a nivel {level}:")
-        for package in sorted(packages):
-            print(package)
+            print("[INFO] Análisis completo. Imprimiendo paquetes únicos (ordenados por nombre ascendente):")
+            # Ordenar por nombre de paquete ascendente
+            for pkg in sorted(package_counter):
+                print(pkg)
     else:
         print("[INFO] No se encontraron paquetes.")
 ```
 
 ### Cómo Funciona
 - **Ejecutar el Script**:
-  - `python script.py /ruta/a/proyecto/java`: Analiza todos los archivos `.java` en el directorio y usa nombres completos de paquetes (`level = 0`).
+  - `python script.py /ruta/a/proyecto/java`: Analiza todos los archivos `.java` en el directorio y usa nombres de paquetes completos (`level = 0`).
   - `python script.py /ruta/a/proyecto/java 2`: Trunca los nombres de paquetes a las primeras 2 partes (por ejemplo, `com.google.common.eventbus` se convierte en `com.google`).
 
 - **Salida de Ejemplo**:
@@ -174,7 +186,7 @@ if __name__ == '__main__':
   ```
   - **Con `level = 0` (o sin nivel proporcionado)**:
     ```
-    [INFO] Iniciando análisis del directorio: /ruta/a/proyecto/java con nombres completos de paquetes.
+    [INFO] Iniciando análisis del directorio: /ruta/a/proyecto/java usando nombres de paquetes completos.
     [INFO] Entrando en el directorio: /ruta/a/proyecto/java
     [INFO] Procesando archivo: /ruta/a/proyecto/java/MyFile.java
     [INFO] Total de archivos Java intentados: 1
@@ -200,13 +212,15 @@ if __name__ == '__main__':
     ```
 
 - **Características Clave**:
-  - **Nombres Completos de Paquetes**: Cuando `level = 0` o no se pasa, usa el nombre completo del paquete extraído (por ejemplo, `java.util`, `com.google.common.eventbus`).
+  - **Nombres de Paquetes Completos**: Cuando `level = 0` o no se pasa, usa el nombre completo del paquete tal como se extrae (por ejemplo, `java.util`, `com.google.common.eventbus`).
   - **Truncamiento**: Cuando `level > 0`, toma las primeras `level` partes.
-  - **Manejo de Errores**: Verifica la validez del directorio y el nivel no negativo.
+  - **Manejo de Errores**: Verifica la existencia del directorio y un `level` no negativo.
   - **Uniqueness**: Almacena paquetes en un `set` para evitar duplicados.
 
 ### Casos Límite Manejados
-- **Nivel Ausente**: Predetermina `level = 0`, usando nombres completos de paquetes.
-- **Nivel Inválido**: Sale con un error si `level` es negativo o no es un entero.
+- **Nivel Faltante**: Predetermina `level = 0`, usando nombres de paquetes completos.
+- **Nivel No Válido**: Sale con un error si `level` es negativo o no es un entero.
 - **Paquetes Cortos**: Si un paquete tiene menos partes que `level` (por ejemplo, `java` con `level = 2`), usa el paquete completo (`java`).
 - **Importaciones Vacías**: Omite líneas donde no se extrae ningún paquete.
+
+Este script satisface plenamente su requisito: cuando `level = 0` o no se proporciona, usa todas las partes del nombre del paquete, tratándolo efectivamente como "infinito" en términos de partes utilizadas.
