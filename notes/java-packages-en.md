@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Java Common Packages"
+title: "Java Packages"
 audio: false
 ---
 
