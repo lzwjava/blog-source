@@ -6,7 +6,7 @@ title: プロジェクトのJavaパッケージの分析
 translated: true
 ---
 
-ディレクトリを再帰的に分析し、`.java` ファイルで使用されているすべての Java パッケージを検索し、重複を削除し、プロジェクトで使用されているすべての一意のパッケージをリスト表示する Python スクリプトです。このスクリプトは `.java` ファイルにのみ焦点を当て、モジュールを持つプロジェクトを処理するためにすべてのサブディレクトリをトラバースします。
+ここには、ディレクトリを再帰的に分析し、`.java` ファイルで使用されているすべての Java パッケージを見つけ、重複を削除し、プロジェクトで使用されているすべての一意のパッケージをリスト表示する Python スクリプトがあります。このスクリプトは、`.java` ファイルにのみ焦点を当て、モジュールを持つプロジェクトを処理するためにすべてのサブディレクトリをトラバースします。
 
 ### Python スクリプト:
 
@@ -16,15 +16,16 @@ import sys
 
 def find_java_files(root_dir):
     """
-    指定されたディレクトリとそのサブディレクトリ内のすべての .java ファイルを再帰的に検索します。
+    指定されたディレクトリおよびそのサブディレクトリ内のすべての .java ファイルを再帰的に検索します。
 
     引数:
         root_dir (str): 検索を開始するルートディレクトリ。
 
-    返却値:
+    返却:
         str: 各 .java ファイルのフルパス。
     """
     for dirpath, dirnames, filenames in os.walk(root_dir):
+        print(f"[INFO] ディレクトリに入る: {dirpath}")
         for filename in filenames:
             if filename.endswith('.java'):
                 yield os.path.join(dirpath, filename)
@@ -33,70 +34,87 @@ def extract_package(import_statement):
     """
     インポートステートメントからパッケージ名を抽出します。
 
-    パッケージ名は通常小文字で、クラス名は大文字で始まるという規約を使用します。ワイルドカードインポート (*) の場合、パッケージは '*' の前にあります。
+    パッケージ名は小文字、クラス名は大文字で始まるという規約を使用します。ワイルドカードインポート (*) を処理します。
 
     引数:
         import_statement (str): Java ファイルからのインポートステートメント行。
 
-    返却値:
-        str: パッケージ名、または決定できない場合は空の文字列。
+    返却:
+        str: パッケージ名、または決定できない場合は空文字列。
     """
-    # 'import' と 'static' を削除
     parts = import_statement.split()
     if parts[0] == 'import':
         parts = parts[1:]
     if parts[0] == 'static':
         parts = parts[1:]
-
-    # 残りの部分を結合し、末尾の ';' を削除
     import_path = ' '.join(parts).strip(';').strip()
-
-    # インポートパスを '.' で分割
     identifiers = import_path.split('.')
-
-    # 最初の識別子が大文字で始まるか '*' であるインデックスを検索
     for i, ident in enumerate(identifiers):
         if ident == '*' or (ident and ident[0].isupper()):
             package_parts = identifiers[:i]
             break
     else:
         package_parts = []
-
     package = '.'.join(package_parts)
     return package
 
 if __name__ == '__main__':
-    # コマンドライン引数でルートディレクトリを確認
+    # ディレクトリが提供されているか確認
     if len(sys.argv) < 2:
         print("使用法: python script.py <root_directory>")
         sys.exit(1)
 
     root_dir = sys.argv[1]
-    packages = set()
 
-    # ディレクトリとサブディレクトリ内のすべての .java ファイルをトラバース
+    # ディレクトリが存在するか確認
+    if not os.path.isdir(root_dir):
+        print(f"[ERROR] 指定されたパスはディレクトリではありません: {root_dir}")
+        sys.exit(1)
+
+    # 分析の開始をログに記録
+    print(f"[INFO] ディレクトリの分析を開始: {root_dir}")
+
+    # 変数の初期化
+    packages = set()
+    total_files = 0
+    error_files = 0
+
+    # Java ファイルを処理
     for java_file in find_java_files(root_dir):
+        print(f"[INFO] ファイルを処理中: {java_file}")
         try:
             with open(java_file, 'r', encoding='utf-8') as f:
                 for line in f:
                     line = line.strip()
                     if line.startswith('import'):
                         package = extract_package(line)
-                        if package:  # 空でないパッケージ名のみ追加
+                        if package:
                             packages.add(package)
+            total_files += 1
         except Exception as e:
-            print(f"警告: ファイル {java_file} を読み取れませんでした: {e}")
+            print(f"[ERROR] ファイル {java_file} を読み取れません: {e}")
+            error_files += 1
             continue
 
-    # 一意のパッケージのソートされたリストを出力
-    for package in sorted(packages):
-        print(package)
+    # サマリを表示
+    print(f"[INFO] 試行された Java ファイルの合計: {total_files + error_files}")
+    print(f"[INFO] 成功して処理された: {total_files}")
+    print(f"[INFO] エラーが発生したファイル: {error_files}")
+    print(f"[INFO] 見つかった一意のパッケージの合計: {len(packages)}")
+
+    # 結果を表示
+    if packages:
+        print("[INFO] 分析が完了しました。一意のパッケージを表示:")
+        for package in sorted(packages):
+            print(package)
+    else:
+        print("[INFO] パッケージが見つかりませんでした。")
 ```
 
 ### スクリプトの使用方法:
 
-1. スクリプトをファイルに保存します。例: `analyze_java_packages.py`。
-2. コマンドラインからスクリプトを実行し、Java プロジェクトのルートディレクトリのパスを指定します:
+1. スクリプトをファイルに保存します。例えば、`analyze_java_packages.py`。
+2. コマンドラインからスクリプトを実行し、Java プロジェクトのルートディレクトリのパスを提供します:
    ```
    python analyze_java_packages.py /path/to/your/java/project
    ```
@@ -118,29 +136,29 @@ if __name__ == '__main__':
   - Java の命名規約に基づくヒューリスティックを使用します:
     - パッケージ名は通常小文字 (例: `java.util`)。
     - クラス名は通常大文字で始まります (例: `List`, `Collections`)。
-    - ワイルドカードインポートは `*` で終わる。
+    - ワイルドカードインポートは `*` で終わります。
 
 - **重複の削除:**
   - すべてのパッケージ名を `set` に収集して、自動的に重複を削除します。
 
 - **結果の出力:**
-  - `set` をソートされたリストに変換し、各パッケージ名を新しい行に出力します。
+  - `set` をソートされたリストに変換し、各パッケージ名を新しい行に表示します。
 
-### 假定と制限:
+### 仮定と制限:
 
 - **インポートステートメント:**
-  - インポートステートメントは独自の行にあり、コメントや文字列に埋め込まれていないと仮定します。
+  - インポートステートメントがコメントや文字列に埋め込まれていないことを前提としています。
   - 通常のインポートと静的インポート、ワイルドカードインポートを処理します。
 
 - **命名規約:**
-  - パッケージ名は小文字で、クラス名は大文字で始まるという規約に依存します。
-  - 非標準的な命名 (例: 大文字のパッケージ名) は正しく処理できない場合がありますが、これは実践上稀です。
+  - パッケージ名は小文字、クラス名は大文字で始まるという規約に依存します。
+  - 非標準的な命名 (例: 大文字のパッケージ名) を正しく処理できない場合がありますが、これは実践上稀です。
 
 - **ファイルのエンコーディング:**
-  - `.java` ファイルは UTF-8 でエンコードされていると仮定します。必要に応じて `encoding` パラメータを調整してください。
+  - `.java` ファイルが UTF-8 でエンコードされていることを前提としています。必要に応じて `encoding` パラメータを調整してください。
 
-- **エラーハンドリング:**
-  - 読み取れないファイルに対する基本的なエラーハンドリングを含み、警告を表示して続行します。
+- **エラー処理:**
+  - 読み取れないファイルに対する基本的なエラー処理を含み、警告を表示して続行します。
 
 ### 例:
 
@@ -171,6 +189,6 @@ java.util
 
 ### 注意点:
 
-- スクリプトは `import` ステートメントを介してインポートされたパッケージに焦点を当てています。これらはプロジェクトが使用する外部および内部パッケージを表します。
-- `.java` ファイル自体のパッケージ宣言 (例: `package com.mycompany.myapp;`) は含まれません。これらはファイルが属するパッケージを定義し、使用するパッケージではありません。
-- プロジェクトにモジュールがある場合、スクリプトはすべてのサブディレクトリを再帰的に分析して、すべての `.java` ファイルが処理されるようにします。
+- スクリプトは、`import` ステートメントを介してインポートされる外部および内部パッケージに焦点を当てています。
+- `.java` ファイル自身のパッケージ宣言 (例: `package com.mycompany.myapp;`) は含まれません。これらはファイルが属するパッケージを定義するためです。
+- プロジェクトがモジュールを持つ場合、スクリプトはすべてのサブディレクトリを再帰的に分析して、すべての `.java` ファイルが処理されるようにします。
