@@ -2,16 +2,16 @@
 audio: false
 lang: es
 layout: post
-title: Análisis de Paquetes Java en un Proyecto
+title: Analizando Paquetes Java
 translated: true
 ---
 
-Basado en su consulta, desea un script en el que, si el parámetro `level` es 0 o no se proporciona, utilice el nombre completo del paquete (todas sus partes), tratando esencialmente `level = 0` como "infinito" o "usar todas las partes", en lugar de limitarlo a un número específico de partes (como solo la primera parte cuando `level = 1`). A continuación, explicaré cómo se puede implementar esto en un script de Python que analiza archivos Java para extraer nombres de paquetes, y proporcionaré una solución completa adaptada a su solicitud.
+Basado en su consulta, desea un script en el que, si el parámetro `level` es 0 o no se proporciona, utilice el nombre completo del paquete (todas sus partes), tratando `level = 0` como "infinito" o "usar todas las partes", en lugar de limitarlo a un número específico de partes (como solo la primera parte cuando `level = 1`). A continuación, explicaré cómo se puede implementar esto en un script de Python que analiza archivos Java para extraer nombres de paquetes, y proporcionaré una solución completa adaptada a su solicitud.
 
 ### Comprensión del Requisito
-- **Cuando `level = 0` o no se proporciona**: Use el nombre completo del paquete tal como se extrae de las declaraciones `import` de Java (por ejemplo, `java.util` o `com.google.common.eventbus`), sin truncarlo.
-- **Cuando `level > 0`**: Trunque el nombre del paquete a las primeras `level` partes (por ejemplo, para `com.google.common.eventbus`, `level = 2` daría `com.google`).
-- El script debe seguir procesando archivos Java, extraer nombres de paquetes de declaraciones `import` y manejar casos límite adecuadamente.
+- **Cuando `level = 0` o no se proporciona**: Use el nombre completo del paquete extraído de las declaraciones `import` de Java (por ejemplo, `java.util` o `com.google.common.eventbus`), sin truncarlo.
+- **Cuando `level > 0`**: Truncar el nombre del paquete a las primeras `level` partes (por ejemplo, para `com.google.common.eventbus`, `level = 2` daría `com.google`).
+- El script debe seguir procesando archivos Java, extraer nombres de paquetes de las declaraciones `import` y manejar casos límite adecuadamente.
 
 ### Enfoque de la Solución
 1. **Análisis de Argumentos**:
@@ -20,15 +20,15 @@ Basado en su consulta, desea un script en el que, si el parámetro `level` es 0 
    - Salga con un error si los argumentos no son válidos.
 
 2. **Extracción de Paquetes**:
-   - Extraiga el nombre del paquete de las declaraciones `import` (por ejemplo, `import java.util.ArrayList;` da `java.util`).
-   - Use las convenciones de nomenclatura de Java: los paquetes suelen estar en minúsculas y los nombres de clases comienzan con mayúsculas.
+   - Extraer el nombre del paquete de las declaraciones `import` (por ejemplo, `import java.util.ArrayList;` da `java.util`).
+   - Utilice las convenciones de nomenclatura de Java: los paquetes suelen estar en minúsculas y los nombres de clases comienzan con mayúsculas.
 
 3. **Lógica de Truncamiento de Paquetes**:
    - Si `level = 0`, agregue el nombre completo del paquete al conjunto de resultados.
    - Si `level > 0`, divida el nombre del paquete por puntos (`.`) y tome las primeras `level` partes.
 
 4. **Registro y Salida**:
-   - Indique claramente si se están utilizando nombres de paquetes completos o truncados.
+   - Indique claramente si se están utilizando nombres completos de paquetes o truncados.
    - Liste todos los paquetes únicos encontrados.
 
 ### Implementación
@@ -58,7 +58,7 @@ def extract_package(import_statement):
     """
     Extrae el nombre del paquete de una declaración de importación.
 
-    Supone que los nombres de paquetes están en minúsculas y se detiene en nombres de clases (mayúsculas) o comodines (*).
+    Asume que los nombres de paquetes están en minúsculas y se detiene en nombres de clases (mayúsculas) o comodines (*).
 
     Args:
         import_statement (str): La línea de declaración de importación de un archivo Java.
@@ -83,7 +83,7 @@ def extract_package(import_statement):
     return package
 
 if __name__ == '__main__':
-    # Análisis de argumentos de la línea de comandos
+    # Analizar argumentos de la línea de comandos
     if len(sys.argv) == 2:
         root_dir = sys.argv[1]
         level = 0  # No se proporciona nivel, usar nombres completos de paquetes
@@ -200,7 +200,7 @@ if __name__ == '__main__':
     ```
 
 - **Características Clave**:
-  - **Nombres Completos de Paquetes**: Cuando `level = 0` o no se pasa, usa el nombre completo del paquete tal como se extrae (por ejemplo, `java.util`, `com.google.common.eventbus`).
+  - **Nombres Completos de Paquetes**: Cuando `level = 0` o no se pasa, usa el nombre completo del paquete extraído (por ejemplo, `java.util`, `com.google.common.eventbus`).
   - **Truncamiento**: Cuando `level > 0`, toma las primeras `level` partes.
   - **Manejo de Errores**: Verifica la validez del directorio y el nivel no negativo.
   - **Uniqueness**: Almacena paquetes en un `set` para evitar duplicados.
@@ -210,5 +210,3 @@ if __name__ == '__main__':
 - **Nivel Inválido**: Sale con un error si `level` es negativo o no es un entero.
 - **Paquetes Cortos**: Si un paquete tiene menos partes que `level` (por ejemplo, `java` con `level = 2`), usa el paquete completo (`java`).
 - **Importaciones Vacías**: Omite líneas donde no se extrae ningún paquete.
-
-Este script cumple plenamente con su requisito: cuando `level = 0` o no se proporciona, usa todas las partes del nombre del paquete, tratándolo efectivamente como "infinito" en términos de partes utilizadas.
