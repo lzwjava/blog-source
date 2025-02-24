@@ -6,11 +6,11 @@ title: Working
 translated: false
 ---
 
-- **Before gaining access to the code repository**, ask colleagues for the `pom.xml` file and try to download Nexus dependencies.
+- Before gaining access to the code repository, ask colleagues for the `pom.xml` file and try to download Nexus dependencies.
 
 - Without actual code but with the Nexus libraries, we can actually decompile the JAR or experiment with the libraries. We can do quite a few things. Think outside the box.
 
-- It is preferable to **configure** User Tokens in the Sonatype Nexus Repository in `settings.yaml`.
+- It is preferable to configure User Tokens in the Sonatype Nexus Repository in `settings.yaml`.
 
 - Don't wait for access request ticket approvals. Before you have access rights, think about what you can do.
 
@@ -18,7 +18,7 @@ translated: false
 
 - A job often involves specific settings, slightly different code logic, and access rights or passwords to get things done.
 
-- **Foresee** the next phase of the project. Consider how the current project will progress and what users will need or expect.
+- Foresee the next phase of the project. Consider how the current project will progress and what users will need or expect.
 
 - Think of all possible ways to do the job, make progress, and prepare as much as possible before you get access rights or the materials others will provide.
 
