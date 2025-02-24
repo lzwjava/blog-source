@@ -2,32 +2,32 @@
 audio: false
 lang: hant
 layout: post
-title: 《筆記》
+title: 筆記
 translated: true
 ---
 
-這些筆記主要由AI聊天機器人生成。我用它們來總結關鍵點，並將逐步走過它們以增強我的理解。
+這些筆記主要由AI聊天機器人生成。我用它們來總結關鍵點，並將逐一走過它們以增進我的理解。
 
 * [主動學習](/notes/active-learning-en)
 * [Android ROM](/notes/android-rom-en)
-* [基本電子學 - 交談](/notes/basic-electronics-conv-en)
+* [基本電子學 - 會話](/notes/basic-electronics-conv-en)
 * [生物學](/notes/biology-en)
 * [ChatGPT幫助我學習日語 - 2](/notes/nihongo2-en)
 * [化學](/notes/chemistry-en)
 * [競爭性編程](/notes/competitive-programming-en)
-* [計算機網絡技術](/notes/network-en)
-* [計算機網絡 - 交談](/notes/computer-networks-conv-en)
-* [計算機組成原理](/notes/computer-organization-en)
-* [計算機組成原理 - 交談](/notes/computer-organization-conv-en)
-* [計算機組成原理 - 試題](/notes/computer-organization-exam-en)
-* [計算機組成原理 - 試題 - 1](/notes/computer-organization-exam1-en)
-* [計算機組成原理 - 筆記](/notes/computer-organization-note-en)
+* [電腦網絡技術](/notes/network-en)
+* [電腦網絡 - 會話](/notes/computer-networks-conv-en)
+* [電腦組織](/notes/computer-organization-en)
+* [電腦組織 - 會話](/notes/computer-organization-conv-en)
+* [電腦組織 - 考試問題](/notes/computer-organization-exam-en)
+* [電腦組織 - 考試問題 - 1](/notes/computer-organization-exam1-en)
+* [電腦組織 - 筆記](/notes/computer-organization-note-en)
 * [在Visual Studio Code中配置Java編譯器](/notes/vscode-java-en)
 * [Curl](/notes/curl-en)
 * [DeepSeek V3](/notes/deepseek-v3-en)
 * [DeepSeek V3: 多頭潛在注意力和多標記預測](/notes/deepseek-v3-conv-en)
-* [Deepseek - 交談](/notes/deepseek-conv-en)
-* [Deepseek R1 - 交談](/notes/deepseek-r1-conv-en)
+* [Deepseek - 會話](/notes/deepseek-conv-en)
+* [Deepseek R1 - 會話](/notes/deepseek-r1-conv-en)
 * [電子基礎](/notes/electronic-en)
 * [前端工程師面試](/notes/frontend-interview-en)
 * [未來預測](/notes/predictions-en)
@@ -41,16 +41,16 @@ translated: true
 * [領導力](/notes/leadership-en)
 * [法律理論](/notes/law-en)
 * [線性代數](/notes/linear-algebra-en)
-* [線性代數 - 交談](/notes/linear-algebra-conv-en)
+* [線性代數 - 會話](/notes/linear-algebra-conv-en)
 * [線性代數 - 圖像處理](/notes/linear-algebra-image-en)
 * [線性代數筆記](/notes/linear-algebra-note-en)
 * [ML、DL和GPT](/notes/ml-points-en)
 * [毛澤東思想與中國特色](/notes/maozedong-en)
-* [微型計算機 - 交談](/notes/microcomputer-conv-en)
+* [微型計算機 - 會話](/notes/microcomputer-conv-en)
 * [微型計算機及接口技術](/notes/microcomputer-en)
 * [心靈對機器](/notes/mind-machine-en)
 * [AI和LLM能力的雜項測試](/notes/miscellaneous-ai-en)
-* [ML - 交談](/notes/ml-conv-en)
+* [ML - 會話](/notes/ml-conv-en)
 * [NLP任務](/notes/nlp-tasks-en)
 * [Node.js OpenSSL兼容性](/notes/node-openssl-en)
 * [NumPy](/notes/numpy-en)
@@ -63,6 +63,7 @@ translated: true
 * [美國憲法](/notes/constitution-en)
 * [全球前100名大學](/notes/universities-en)
 * [大學語文](/notes/chinese-en)
+* [WebSphere Liberty - Hello World應用](/notes/websphere-app-en)
 * [WebSphere Liberty伺服器命令](/notes/websphere-en)
 * [iOS工程師面試](/notes/ios-interview-en)
 * [macOS Shell命令](/notes/commands-en)
