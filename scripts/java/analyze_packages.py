@@ -12,7 +12,6 @@ def find_java_files(root_dir):
         str: The full path to each .java file.
     """
     for dirpath, dirnames, filenames in os.walk(root_dir):
-        print(f"[INFO] Entering directory: {dirpath}")
         for filename in filenames:
             if filename.endswith('.java'):
                 yield os.path.join(dirpath, filename)
@@ -47,12 +46,19 @@ def extract_package(import_statement):
     return package
 
 if __name__ == '__main__':
-    # Check if a directory is provided
-    if len(sys.argv) < 2:
-        print("Usage: python script.py <root_directory>")
+    # Check if a directory and level are provided
+    if len(sys.argv) < 3:
+        print("Usage: python script.py <root_directory> <level>")
         sys.exit(1)
     
     root_dir = sys.argv[1]
+    try:
+        level = int(sys.argv[2])
+        if level < 1:
+            raise ValueError
+    except ValueError:
+        print("[ERROR] Level must be a positive integer.")
+        sys.exit(1)
     
     # Verify the directory exists
     if not os.path.isdir(root_dir):
@@ -60,7 +66,7 @@ if __name__ == '__main__':
         sys.exit(1)
     
     # Log the start of the analysis
-    print(f"[INFO] Starting analysis of directory: {root_dir}")
+    print(f"[INFO] Starting analysis of directory: {root_dir} at level: {level}")
     
     # Initialize variables
     packages = set()
@@ -69,7 +75,6 @@ if __name__ == '__main__':
     
     # Process Java files
     for java_file in find_java_files(root_dir):
-        print(f"[INFO] Processing file: {java_file}")
         try:
             with open(java_file, 'r', encoding='utf-8') as f:
                 for line in f:
@@ -77,7 +82,10 @@ if __name__ == '__main__':
                     if line.startswith('import'):
                         package = extract_package(line)
                         if package:
-                            packages.add(package)
+                            # Split the package name into parts and truncate to the specified level
+                            parts = package.split('.')
+                            truncated_package = '.'.join(parts[:level])
+                            packages.add(truncated_package)
             total_files += 1
         except Exception as e:
             print(f"[ERROR] Could not read file {java_file}: {e}")
@@ -88,11 +96,11 @@ if __name__ == '__main__':
     print(f"[INFO] Total Java files attempted: {total_files + error_files}")
     print(f"[INFO] Successfully processed: {total_files}")
     print(f"[INFO] Files with errors: {error_files}")
-    print(f"[INFO] Total unique packages found: {len(packages)}")
+    print(f"[INFO] Total unique packages at level {level}: {len(packages)}")
     
     # Print results
     if packages:
-        print("[INFO] Analysis complete. Printing unique packages:")
+        print(f"[INFO] Analysis complete. Printing unique packages at level {level}:")
         for package in sorted(packages):
             print(package)
     else:

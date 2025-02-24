@@ -17,3 +17,13 @@ java.io
 com.fasterxml.jackson
 org.xml.sax
 com.apache.poi
+com.google.common
+com.google.protobuf
+com.google.pubsub
+com.google.auth
+com.ibm.db2
+com.ibm.websphere
+commoj.work
+java.nio
+java.lang
+
