@@ -6,7 +6,7 @@ title: Commute
 translated: false
 ---
 
-- I lived 2km from Jinfeng subway station. My office was in the Renfeng building in Tianhe district.
+- I lived 2km from Jinfeng subway station. The office was in Tianhe district.
 
 - From home, I would go to Jinfeng terminal, take Line 6 to Tianhe Coach terminal, then take Line 3 to Shipaiqiao terminal, and then walk 500m to the office.
 
@@ -17,8 +17,6 @@ translated: false
 - The Night 68 Bus goes directly between home and the office, without needing to transfer to other lines.
 
 - Parking costs around 16 CNY per hour in that area.
-
-- My company had a hybrid working policy, requiring us to work in the office at least three days a week.
 
 - Working in the office provides a great Wi-Fi or Ethernet connection to the internal network. Also, I can meet some colleagues, even if we are not in the same group. And I can order different meals to eat.
 
