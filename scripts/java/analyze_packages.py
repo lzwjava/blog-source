@@ -13,7 +13,6 @@ def find_java_files(root_dir):
         str: The full path to each .java file.
     """
     for dirpath, dirnames, filenames in os.walk(root_dir):
-        print(f"[INFO] Entering directory: {dirpath}")
         for filename in filenames:
             if filename.endswith('.java'):
                 yield os.path.join(dirpath, filename)
@@ -90,7 +89,6 @@ if __name__ == '__main__':
     
     # Process Java files
     for java_file in find_java_files(root_dir):
-        print(f"[INFO] Processing file: {java_file}")
         try:
             with open(java_file, 'r', encoding='utf-8') as f:
                 file_packages = set()
@@ -122,14 +120,16 @@ if __name__ == '__main__':
     else:
         print(f"[INFO] Total unique packages: {len(package_counter)}")
     
-    # Print results
+    # Print results with appropriate sorting
     if package_counter:
         if count:
-            print("[INFO] Analysis complete. Printing unique packages with counts:")
-            for pkg, cnt in sorted(package_counter.items()):
+            print("[INFO] Analysis complete. Printing unique packages with counts (sorted by count descending):")
+            # Sort by count descending, then by package name ascending
+            for pkg, cnt in sorted(package_counter.items(), key=lambda x: (-x[1], x[0])):
                 print(f"{pkg}: {cnt}")
         else:
-            print("[INFO] Analysis complete. Printing unique packages:")
+            print("[INFO] Analysis complete. Printing unique packages (sorted by name ascending):")
+            # Sort by package name ascending
             for pkg in sorted(package_counter):
                 print(pkg)
     else:
