@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: zh
 layout: post
 title: 实现Windows代理检查

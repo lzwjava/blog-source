@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: fr
 layout: post
 title: Mise en œuvre d'un contrôle de proxy sous Windows

@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: es
 layout: post
 title: Implementación de una Verificación de Proxy en Windows
