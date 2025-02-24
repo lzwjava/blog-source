@@ -6,7 +6,7 @@ title: 筆記
 translated: true
 ---
 
-這些筆記主要由AI聊天機器人生成。我用它們來總結關鍵點，並將逐步走過它們以增強我的理解。
+這些筆記主要由AI聊天機器人生成。我用它們來總結關鍵要點，並將逐一走過它們以增進我的理解。
 
 * [主動學習](/notes/active-learning-en)
 * [Android ROM](/notes/android-rom-en)
@@ -22,6 +22,7 @@ translated: true
 * [電腦組織 - 考試問題](/notes/computer-organization-exam-en)
 * [電腦組織 - 考試問題 - 1](/notes/computer-organization-exam1-en)
 * [電腦組織 - 筆記](/notes/computer-organization-note-en)
+* [在Visual Studio Code中配置Java編譯器](/notes/vscode-java-en)
 * [Curl](/notes/curl-en)
 * [DeepSeek V3](/notes/deepseek-v3-en)
 * [DeepSeek V3: 多頭潛在注意力和多標記預測](/notes/deepseek-v3-conv-en)
@@ -34,7 +35,7 @@ translated: true
 * [日語名言](/notes/japanese-quotes-en)
 * [Java後端工程師面試](/notes/java-interview-en)
 * [Java後端工程師面試問題](/notes/java-questions-en)
-* [美國和中國法律體系的關鍵差異](/notes/legal-diff-en)
+* [美國和中國法律體系的主要區別](/notes/legal-diff-en)
 * [領導力](/notes/leadership-en)
 * [法律理論](/notes/law-en)
 * [線性代數](/notes/linear-algebra-en)
@@ -42,14 +43,14 @@ translated: true
 * [線性代數 - 圖像處理](/notes/linear-algebra-image-en)
 * [線性代數筆記](/notes/linear-algebra-note-en)
 * [ML、DL和GPT](/notes/ml-points-en)
-* [毛澤東思想與中國特色](/notes/maozedong-en)
+* [毛澤東思想與中國特色社會主義](/notes/maozedong-en)
 * [微型計算機 - 對話](/notes/microcomputer-conv-en)
 * [微型計算機及接口技術](/notes/microcomputer-en)
-* [心靈對機器](/notes/mind-machine-en)
+* [心靈與機器](/notes/mind-machine-en)
 * [AI和LLM能力的雜項測試](/notes/miscellaneous-ai-en)
 * [ML - 對話](/notes/ml-conv-en)
 * [NLP任務](/notes/nlp-tasks-en)
-* [Node.js OpenSSL 兼容性](/notes/node-openssl-en)
+* [Node.js OpenSSL兼容性](/notes/node-openssl-en)
 * [NumPy](/notes/numpy-en)
 * [渗透](/notes/penetration-en)
 * [物理學](/notes/physics-en)
@@ -60,9 +61,9 @@ translated: true
 * [全球前100名大學](/notes/universities-en)
 * [大學語文](/notes/chinese-en)
 * [iOS工程師面試](/notes/ios-interview-en)
-* [macOS Shell 命令](/notes/commands-en)
+* [macOS Shell命令](/notes/commands-en)
 * [x64組裝語言](/notes/x64-assembly-conv)
-* [いつも何度でも](/notes/always-en)
+* [總是](/notes/always-en)
 * [大學語文](/notes/chinese-zh)
 * [微型計算機及接口技術](/notes/microcomputer-zh)
 * [思想道德與法治](/notes/moral-zh)
