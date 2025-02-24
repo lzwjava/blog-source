@@ -6,15 +6,11 @@ title: تحليل الاعتماديات في جاڤا
 translated: true
 ---
 
-### نص Python الذي يجرى مسح جميع ملفات `.java` في مشروع، ويحلل اعتماداتها بناءً على بيانات الاستيراد، ويخرج مخطط الاعتمادات في صيغة DOT ك"نص الاعتمادات." يركز هذا النص على الاعتمادات الداخلية بين الفئات داخل المشروع، ويوفر تمثيلًا واضحًا يمكن رؤيته باستخدام أدوات مثل Graphviz.
+للتعامل مع استفسارك، سأعدل النص البرمجي المقدم لولادة مخطط التبعية لصفوف Java، حيث يتم تجميع التبعيات حسب مستوى محدد من هرمية الحزم. على سبيل المثال، إذا كان `level=1`، يتم تجميع الحزم في المستوى الأعلى (على سبيل المثال، "org")، وإذا كان `level=2`، يتم تجميعها في المستوى الثاني (على سبيل المثال، "org.springframework"). وهذا يعني أن قبل تحليل التبعيات، نجمع الصفوف في مجموعات بناءً على أول `level` أجزاء من أسماء الحزم، وسينظر المخطط في التبعيات بين هذه المجموعات بدلاً من الصفوف الفردية.
 
-### نظرة عامة على النص
-يجرى النص:
-1. **مسح دليل المشروع** بشكل متكرر لتحديد جميع ملفات `.java`.
-2. **تحليل الاعتمادات** من خلال استخراج بيانات الحزمة والاستيراد من كل ملف `.java`.
-3. **إخراج نص الاعتمادات** في صيغة DOT، يوضح الحواف الموجهة بين الفئات حيث تستورد فئة أخرى داخل المشروع.
+أدناه النص البرمجي المعدل، يليه شرح التغييرات وكيفية تحقيق متطلباتك.
 
-هنا النص الكامل:
+### النص البرمجي المعدل
 
 ```python
 import os
@@ -39,18 +35,18 @@ def get_package(file_path):
                 if match:
                     return match.group(1)
     except Exception as e:
-        print(f"تحذير: لم يمكن قراءة {file_path}: {e}")
+        print(f"تحذير: لم يتم قراءة {file_path}: {e}")
     return None
 
 def get_specific_imports(file_path):
     """
-    استخراج استيرادات الفئة المحددة من ملف .java، مع استبعاد استيرادات البعد.
+    استخراج استيرادات الصفوف المحددة من ملف .java، مع استبعاد استيرادات البعد.
 
     Args:
         file_path (str): مسار الملف .java.
 
     Returns:
-        list: قائمة بأسماء الفئات المستوردة بالكامل.
+        list: قائمة بأسماء الصفوف المستوردة بالكامل.
     """
     imports = []
     try:
@@ -59,23 +55,49 @@ def get_specific_imports(file_path):
                 match = re.search(r'^\s*import\s+([\w.]+);', line)
                 if match:
                     imp = match.group(1)
-                    # استبعاد استيرادات البعد (مثل استيراد java.util.*;)
+                    # استبعاد استيرادات البعد (على سبيل المثال، import java.util.*;)
                     if not imp.endswith('.*'):
                         imports.append(imp)
     except Exception as e:
-        print(f"تحذير: لم يمكن قراءة {file_path}: {e}")
+        print(f"تحذير: لم يتم قراءة {file_path}: {e}")
     return imports
 
+def get_package_group(full_class_name, level):
+    """
+    الحصول على مجموعة الحزم بناءً على أول 'level' أجزاء من اسم الحزمة.
+
+    Args:
+        full_class_name (str): اسم الصف الكامل (على سبيل المثال، "org.springframework.boot.App").
+        level (int): عدد مستويات الحزم التي يجب تضمينها (على سبيل المثال، 1 لـ "org"، 2 لـ "org.springframework").
+
+    Returns:
+        str: مجموعة الحزم (على سبيل المثال، "org" أو "org.springframework").
+    """
+    package = '.'.join(full_class_name.split('.')[:-1])  # استخراج الحزمة، مع استبعاد اسم الصف
+    parts = package.split('.')
+    if len(parts) <= level:
+        return package  # استخدام الحزمة الكاملة إذا كانت لها أجزاء أقل أو مساوية لـ level
+    else:
+        return '.'.join(parts[:level])  # استخدام أول 'level' أجزاء
+
 if __name__ == '__main__':
-    # التحقق من وجود حجة سطر الأوامر
-    if len(sys.argv) != 2:
-        print("استخدام: python script.py <دليل الجذر>")
+    # التحقق من وجود حجج السطر الأوامر: root_directory و level
+    if len(sys.argv) != 3:
+        print("استخدام: python script.py <root_directory> <level>")
         sys.exit(1)
 
     root_dir = sys.argv[1]
+    try:
+        level = int(sys.argv[2])
+        if level < 1:
+            raise ValueError
+    except ValueError:
+        print("خطأ: يجب أن يكون level عدد صحيح موجب")
+        sys.exit(1)
+
     all_classes = set()
 
-    # المرور الأول: جمع جميع أسماء الفئات الكاملة في المشروع
+    # المرور الأول: جمع جميع أسماء الصفوف الكاملة في المشروع
     for root, dirs, files in os.walk(root_dir):
         for file in files:
             if file.endswith('.java'):
@@ -86,10 +108,10 @@ if __name__ == '__main__':
                     full_class_name = f"{package}.{class_name}"
                     all_classes.add(full_class_name)
 
-    # تخزين الاعتمادات: فئة -> مجموعة الفئات التي تعتمد عليها
-    dependencies = defaultdict(set)
+    # تخزين التبعيات بين مجموعات الحزم
+    group_dependencies = set()
 
-    # المرور الثاني: تحليل الاعتمادات بناءً على استيرادات محددة
+    # المرور الثاني: تحليل التبعيات بناءً على مجموعات الحزم
     for root, dirs, files in os.walk(root_dir):
         for file in files:
             if file.endswith('.java'):
@@ -98,86 +120,77 @@ if __name__ == '__main__':
                 if package:
                     class_name = file.replace('.java', '')
                     full_class_name = f"{package}.{class_name}"
+                    importer_group = get_package_group(full_class_name, level)
                     imports = get_specific_imports(file_path)
                     for imp in imports:
-                        # فقط تضمين الاعتمادات على الفئات داخل المشروع
-                        # استبعاد الاعتمادات الذاتية
+                        # فقط تضمين التبعيات على الصفوف داخل المشروع
+                        # استبعاد التبعيات الذاتية
                         if imp in all_classes and imp != full_class_name:
-                            dependencies[full_class_name].add(imp)
+                            imported_group = get_package_group(imp, level)
+                            if imported_group != importer_group:
+                                group_dependencies.add((importer_group, imported_group))
 
-    # إخراج مخطط الاعتمادات في صيغة DOT
+    # إخراج المخطط التبعي في صيغة DOT
     print('digraph G {')
-    for class_name in sorted(dependencies):
-        for dep in sorted(dependencies[class_name]):
-            print(f'  "{class_name}" -> "{dep}";')
+    for from_group, to_group in sorted(group_dependencies):
+        print(f'  "{from_group}" -> "{to_group}";')
     print('}')
 ```
 
-### كيفية عمله
-#### 1. **دخول سطر الأوامر**
-- يتوقع النص حجة واحدة: دليل الجذر لمشروع Java.
-- مثال الاستخدام: `python script.py /path/to/project`
-- إذا لم يتم توفير حجة، فإنه يطبع تعليمات الاستخدام ويخرج.
+### شرح التغييرات
 
-#### 2. **إيجاد ملفات `.java`**
-- يستخدم `os.walk()` لتجوال الدليل المحدد بشكل متكرر وتحديد جميع الملفات التي تنتهي بـ `.java`.
+1. **حجج السطر الأوامر**:
+   - **الأصلية**: `python script.py <root_directory>`
+   - **المعدلة**: `python script.py <root_directory> <level>`
+   - أضيف دعم للحجج الثانية، `level`، التي تحدد مستوى هرمية الحزم. يتحقق النص البرمجي من وجود حججتين بالضبط وتأكد أن `level` عدد صحيح موجب.
 
-#### 3. **استخراج معلومات الفئة**
-- **استخراج الحزمة**: تقوم وظيفة `get_package` بقراءة كل ملف `.java` واستخدام تعبير عادي (`^\s*package\s+([\w.]+);` ) لتحديد بيان الحزمة (مثل `package com.mycompany.myproject;`).
-  - ترجع `None` إذا لم يتم العثور على حزمة أو إذا لم يمكن قراءة الملف.
-- **اسم الفئة**: يتوقع أن اسم الفئة يتطابق مع اسم الملف (مثل `MyClass.java` يحدد `MyClass`).
-- **الاسم الكامل**: يجمع بين الحزمة واسم الفئة (مثل `com.mycompany.myproject.MyClass`).
+2. **دالة جديدة: `get_package_group`**:
+   - أضيفت دالة لحساب مجموعة الحزم لصف بناءً على `level` المحدد.
+   - لاسم الصف الكامل (على سبيل المثال، "org.springframework.boot.App")، يستخرج الحزمة ("org.springframework.boot")، ويقسمها إلى أجزاء ("org", "springframework", "boot")، ويأخذ أول `level` أجزاء:
+     - إذا كان `level=1`: يعيد "org".
+     - إذا كان `level=2`: يعيد "org.springframework".
+     - إذا كانت الحزمة لها أجزاء أقل من `level` (على سبيل المثال، "com.example" مع `level=3`), يعيد الحزمة الكاملة ("com.example").
 
-#### 4. **جمع جميع الفئات**
-- في المرور الأول، يبني مجموعة من جميع أسماء الفئات الكاملة في المشروع لمشاهدة سريعة لاحقًا.
+3. **تجميع التبعيات**:
+   - **الأصلية**: استخدم `defaultdict(set)` لتخزين التبعيات بين الصفوف الفردية.
+   - **المعدلة**: يستخدم `set` (`group_dependencies`) لتخزين الحواف الموجهة بين مجموعات الحزم كزواج `(from_group, to_group)`.
+   - لكل صف:
+     - يحسب مجموعته (`importer_group`) باستخدام `get_package_group`.
+     - لكل استيراد محدد داخل المشروع (`imp in all_classes`) وليس الصف نفسه (`imp != full_class_name`):
+       - يحسب مجموعة الصف المستورد (`imported_group`).
+       - إذا كانت المجموعات مختلفة (`imported_group != importer_group`), يضيف حافة إلى `group_dependencies`.
+   - يضمن `set` الفردية، لذا يؤدي التبعيات المتعددة بين نفس المجموعات إلى حافة واحدة.
 
-#### 5. **تحليل الاعتمادات**
-- **استخراج الاستيرادات**: تقوم وظيفة `get_specific_imports` باستخراج بيانات الاستيراد باستخدام تعبير عادي (`^\s*import\s+([\w.]+);`)، مع استبعاد استيرادات البعد (مثل `import java.util.*;`).
-  - مثال: من `import com.mycompany.myproject.utils.Helper;`، يستخرج `com.mycompany.myproject.utils.Helper`.
-- **خريطة الاعتمادات**: لكل ملف `.java`:
-  - يحصل على اسم الفئة الكامل.
-  - يحدد استيرادات محددة.
-  - إذا كانت فئة مستوردة في مجموعة الفئات للمشروع ولا هي الفئة نفسها، يضيف اعتمادية.
+4. **إخراج DOT**:
+   - **الأصلية**: طباعة الحواف بين الصفوف الفردية (على سبيل المثال، "org.springframework.boot.App" -> "org.apache.commons.IOUtils").
+   - **المعدلة**: طباعة الحواف بين مجموعات الحزم (على سبيل المثال، "org.springframework" -> "org.apache" لـ `level=2`).
+   - الحواف مرتبة للحصول على إخراج مستقر.
 
-#### 6. **إخراج نص الاعتمادات**
-- يخرج مخططًا موجهًا في صيغة DOT:
-  - يبدأ بـ `digraph G {`.
-  - لكل فئة مع اعتمادات، يطبع حواف مثل `"ClassA" -> "ClassB";`.
-  - ينتهي بـ `}`.
-- الفئات و الاعتمادات مرتبتان للحصول على إخراج مستقر.
-- مثال على الإخراج:
-  ```
-  digraph G {
-    "com.mycompany.myproject.ClassA" -> "com.mycompany.myproject.utils.Helper";
-    "com.mycompany.myproject.ClassB" -> "com.mycompany.myproject.ClassA";
-  }
-  ```
+### كيفية تحقيق متطلباتك
 
-### مثال على الاستخدام
-1. احفظ النص باسم `analyze_deps.py`.
-2. قم بتشغيله:
-   ```bash
-   python analyze_deps.py /path/to/java/project
-   ```
-3. اعرض الإخراج إلى ملف:
-   ```bash
-   python analyze_deps.py /path/to/java/project > dependencies.dot
-   ```
-4. قم بالترجمة مع Graphviz:
-   ```bash
-   dot -Tpng dependencies.dot -o dependencies.png
-   ```
-   هذا يخلق صورة PNG تظهر مخطط الاعتمادات.
+- **دعم المستويات**: الآن يقبل النص البرمجي حجة `level` لتجميع الحزم قبل تحليل التبعيات.
+- **المستوى = 1**: تجميع جميع الصفوف حسب الحزمة الأعلى (على سبيل المثال، "org"). على سبيل المثال، "org.springframework.boot.App" و"org.apache.commons.IOUtils" كلاهما في مجموعة "org"، لذا لا تظهر استيرادات بينهما داخل "org" كحواف.
+- **المستوى = 2**: تجميع الصفوف حسب أول الحزمين (على سبيل المثال، "org.springframework"). على سبيل المثال، استيراد من "org.springframework.boot.App" إلى "org.apache.commons.IOUtils" يخلق حافة من "org.springframework" إلى "org.apache".
+- **تجميع الحزم قبل تحليل التبعيات**: يحدد النص البرمجي مجموعة الحزمة لكل صف بناءً على `level` قبل تحليل استيراداته، مما يضمن أن التبعيات بين المجموعات، وليس الصفوف الفردية.
+- **التوافق مع المثال**: لمثال الحافة:
+  - الأصلية: `"org.springframework.boot.web.servlet.server.Session" -> "org.springframework.boot.convert.DurationUnit"`
+  - مع `level=2`: كلاهما في "org.springframework"، لذا لا يضيف حافة (مجموعة واحدة).
+  - مع `level=3`: "org.springframework.boot.web" -> "org.springframework.boot.convert"، يضيف حافة بين هذه المجموعات المختلفة.
 
-### الافتراضات والحدود
-- **فئة عامة واحدة لكل ملف**: يتوقع أن يحتوي كل ملف `.java` على فئة عامة واحدة تحمل اسم الملف، وفقًا لمعيار Java.
-- **اعتمادات استيراد**: يعتبر فقط الاعتمادات التي تشير إليها بيانات الاستيراد المحددة (مثل `import com.example.SomeClass;`)، مع تجاهل استيرادات البعد (`import com.example.*;`) و مراجع الحزمة نفسها (التي لا تتطلب استيرادات).
-- **التفكير الداخلي**: يتبع فقط الاعتمادات بين الفئات داخل المشروع، مع تجاهل المكتبات الخارجية.
-- **تحليل أساسي**: يستخدم تعبيرات عادية للسهولة، والتي قد تفوت حالات حافة (مثل الاستيرادات داخل التعليقات). يمكن أن يكون تحليل Java الكامل أكثر قوة ولكن معقدًا.
+### أمثلة الاستخدام
 
-### التخصيص
-- **صيغة الإخراج**: قم بتعديل بيانات الطباعة لتغيير صيغة نص الاعتمادات (مثل قائمة بسيطة بدلاً من DOT).
-- **معالجة الأخطاء**: تم تحسينها باستخدام كتلة try-except لتخطي الملفات غير القابلة للقراءة بشكل رقيق.
-- **المنطقة**: يمكن توسيعها لتشمل الاعتمادات الخارجية أو الاعتمادات داخل الحزمة مع تحليل أعمق للكود.
+- **الامر**: `python script.py /path/to/project 1`
+  - المجموعات: "org", "com"، إلخ.
+  - قد يتضمن الإخراج: `"org" -> "com"` إذا استورد صف في حزمة "org" صف في حزمة "com".
 
-يوفر هذا النص نقطة بداية عملية لتحليل الاعتمادات، مناسبة لفهم بنية مشروع Java من خلال علاقاته الداخلية بين الفئات.
+- **الامر**: `python script.py /path/to/project 2`
+  - المجموعات: "org.springframework", "org.apache"، إلخ.
+  - قد يتضمن الإخراج: `"org.springframework" -> "org.apache"`.
+
+### الملاحظات
+
+- يظل النص البرمجي على سلوكه الأصلي من تضمين التبعيات داخل المشروع فقط (استيرادات داخل `all_classes`) واستبعاد استيرادات البعد والتبعيات الذاتية.
+- يتم تجاهل الصفوف بدون إعلان حزمة، موافقًا مع النص البرمجي الأصلي.
+- الإخراج هو مخطط موجه في صيغة DOT، يمكن مشاهدته باستخدام أدوات مثل Graphviz.
+
+يجب أن يفي هذا النص البرمجي المعدل بالكامل بطلبك لتجميع التبعيات حسب مستوى هرمية الحزم.

@@ -6,15 +6,11 @@ title: Java 依存関係の分析
 translated: true
 ---
 
-以下は、プロジェクト内のすべての `.java` ファイルをスキャンし、インポートステートメントに基づいて依存関係を分析し、DOT形式の「依存テキスト」として依存関係グラフを出力するPythonスクリプトです。このスクリプトは、プロジェクト内のクラス間の内部依存関係に焦点を当て、Graphvizなどのツールを使用して視覚化できる明確な表現を提供します。
+あなたの質問に応えるために、提供されたPythonスクリプトを修正して、Javaクラスの依存関係グラフを生成するようにしました。依存関係は、指定された「レベル」のパッケージ階層でグループ化されます。例えば、`level=1`の場合、パッケージは最上位レベル（例："org"）でグループ化され、`level=2`の場合は、2番目のレベル（例："org.springframework"）でグループ化されます。これは、依存関係を分析する前に、クラスをパッケージ名の最初の`level`部分に基づいてグループにまとめることを意味し、グラフはこれらのグループ間の依存関係を示すことになります。
 
-### スクリプト概要
-スクリプトは以下の手順で動作します：
-1. **プロジェクトディレクトリをスキャン**し、再帰的にすべての `.java` ファイルを検索します。
-2. **依存関係を分析**し、各 `.java` ファイルからパッケージ宣言とインポートステートメントを抽出します。
-3. **依存テキストを出力**し、プロジェクト内で1つのクラスが他のクラスをインポートする場合に、クラス間の有向エッジを示すDOT形式の依存関係グラフを出力します。
+以下に、修正されたスクリプトとその変更点、およびあなたの要件を満たす方法についての説明を示します。
 
-以下に、完全なスクリプトを示します：
+### 修正されたスクリプト
 
 ```python
 import os
@@ -24,10 +20,10 @@ from collections import defaultdict
 
 def get_package(file_path):
     """
-    .java ファイルからパッケージ名を抽出します。
+    .javaファイルからパッケージ名を抽出します。
 
     引数:
-        file_path (str): .java ファイルへのパス。
+        file_path (str): .javaファイルへのパス。
 
     戻り値:
         str: パッケージ名、または見つからない場合はNone。
@@ -39,15 +35,15 @@ def get_package(file_path):
                 if match:
                     return match.group(1)
     except Exception as e:
-        print(f"警告: {file_path} を読み取れませんでした: {e}")
+        print(f"警告: {file_path}を読み取れませんでした: {e}")
     return None
 
 def get_specific_imports(file_path):
     """
-    .java ファイルから特定のクラスインポートを抽出し、ワイルドカードインポートを除外します。
+    .javaファイルから特定のクラスのインポートを抽出します。ワイルドカードインポートは除外します。
 
     引数:
-        file_path (str): .java ファイルへのパス。
+        file_path (str): .javaファイルへのパス。
 
     戻り値:
         list: 完全修飾されたインポートされたクラス名のリスト。
@@ -63,19 +59,45 @@ def get_specific_imports(file_path):
                     if not imp.endswith('.*'):
                         imports.append(imp)
     except Exception as e:
-        print(f"警告: {file_path} を読み取れませんでした: {e}")
+        print(f"警告: {file_path}を読み取れませんでした: {e}")
     return imports
 
+def get_package_group(full_class_name, level):
+    """
+    パッケージ名の最初の'level'部分に基づいてパッケージグループを取得します。
+
+    引数:
+        full_class_name (str): 完全修飾されたクラス名（例："org.springframework.boot.App"）。
+        level (int): 含めるパッケージレベルの数（例：1は"org"、2は"org.springframework"）。
+
+    戻り値:
+        str: パッケージグループ（例："org"または"org.springframework"）。
+    """
+    package = '.'.join(full_class_name.split('.')[:-1])  # クラス名を除くパッケージを抽出
+    parts = package.split('.')
+    if len(parts) <= level:
+        return package  # パッケージがlevelより少ないまたは等しい部分を持つ場合は、全パッケージを使用
+    else:
+        return '.'.join(parts[:level])  # 最初の'level'部分を使用
+
 if __name__ == '__main__':
-    # コマンドライン引数を確認
-    if len(sys.argv) != 2:
-        print("使用法: python script.py <ルートディレクトリ>")
+    # コマンドライン引数の確認：root_directoryとlevel
+    if len(sys.argv) != 3:
+        print("使用法: python script.py <root_directory> <level>")
         sys.exit(1)
 
     root_dir = sys.argv[1]
+    try:
+        level = int(sys.argv[2])
+        if level < 1:
+            raise ValueError
+    except ValueError:
+        print("エラー: levelは正の整数でなければなりません")
+        sys.exit(1)
+
     all_classes = set()
 
-    # 第一パス: プロジェクト内のすべての完全修飾クラス名を収集
+    # 第一パス：プロジェクト内のすべての完全修飾クラス名を収集
     for root, dirs, files in os.walk(root_dir):
         for file in files:
             if file.endswith('.java'):
@@ -86,10 +108,10 @@ if __name__ == '__main__':
                     full_class_name = f"{package}.{class_name}"
                     all_classes.add(full_class_name)
 
-    # 依存関係を保存: クラス -> そのクラスが依存するクラスのセット
-    dependencies = defaultdict(set)
+    # パッケージグループ間の依存関係を保存
+    group_dependencies = set()
 
-    # 第二パス: 特定のインポートに基づいて依存関係を分析
+    # 第二パス：パッケージグループに基づいて依存関係を分析
     for root, dirs, files in os.walk(root_dir):
         for file in files:
             if file.endswith('.java'):
@@ -98,86 +120,77 @@ if __name__ == '__main__':
                 if package:
                     class_name = file.replace('.java', '')
                     full_class_name = f"{package}.{class_name}"
+                    importer_group = get_package_group(full_class_name, level)
                     imports = get_specific_imports(file_path)
                     for imp in imports:
                         # プロジェクト内のクラスに対する依存関係のみを含める
-                        # 自依存を除外
+                        # 自依存関係を除外
                         if imp in all_classes and imp != full_class_name:
-                            dependencies[full_class_name].add(imp)
+                            imported_group = get_package_group(imp, level)
+                            if imported_group != importer_group:
+                                group_dependencies.add((importer_group, imported_group))
 
     # DOT形式で依存関係グラフを出力
     print('digraph G {')
-    for class_name in sorted(dependencies):
-        for dep in sorted(dependencies[class_name]):
-            print(f'  "{class_name}" -> "{dep}";')
+    for from_group, to_group in sorted(group_dependencies):
+        print(f'  "{from_group}" -> "{to_group}";')
     print('}')
 ```
 
-### 使用方法
-#### 1. **コマンドライン入力**
-- スクリプトは1つの引数を期待します: Javaプロジェクトのルートディレクトリ。
-- 使用例: `python script.py /path/to/project`
-- 引数が提供されない場合、使用方法を表示して終了します。
+### 変更点の説明
 
-#### 2. **`.java` ファイルの検索**
-- `os.walk()` を使用して指定されたディレクトリを再帰的にトラバースし、`.java` で終わるすべてのファイルを特定します。
+1. **コマンドライン引数**:
+   - **元**: `python script.py <root_directory>`
+   - **修正**: `python script.py <root_directory> <level>`
+   - `level`という2つ目の引数をサポートするようにしました。この引数はパッケージ階層レベルを指定します。スクリプトは正確に2つの引数が提供されていることを確認し、`level`が正の整数であることを確認します。
 
-#### 3. **クラス情報の抽出**
-- **パッケージの抽出**: `get_package` 関数は各 `.java` ファイルを読み取り、正規表現 (`^\s*package\s+([\w.]+);`）を使用してパッケージ宣言（例: `package com.mycompany.myproject;`）を検索します。
-  - パッケージが見つからない場合またはファイルが読み取れない場合は `None` を返します。
-- **クラス名**: ファイル名とクラス名が一致していると仮定します（例: `MyClass.java` は `MyClass` を定義）。
-- **完全修飾名**: パッケージとクラス名を組み合わせます（例: `com.mycompany.myproject.MyClass`）。
+2. **新しい関数: `get_package_group`**:
+   - 指定された`level`に基づいてクラスのパッケージグループを計算するための関数を追加しました。
+   - 完全修飾されたクラス名（例："org.springframework.boot.App"）を受け取り、パッケージ（"org.springframework.boot"）を抽出し、部分（"org", "springframework", "boot"）に分割し、最初の`level`部分を取得します：
+     - `level=1`の場合: "org"を返します。
+     - `level=2`の場合: "org.springframework"を返します。
+     - パッケージが`level`より少ない部分を持つ場合（例："com.example"で`level=3`）、全パッケージ（"com.example"）を返します。
 
-#### 4. **すべてのクラスの収集**
-- 第一パスで、プロジェクト内のすべての完全修飾クラス名のセットを構築し、後で迅速に参照できます。
+3. **依存関係のグループ化**:
+   - **元**: `defaultdict(set)`を使用して個々のクラス間の依存関係を保存しました。
+   - **修正**: `set`（`group_dependencies`）を使用して、パッケージグループ間の有向エッジをタプル（`(from_group, to_group)`）として保存します。
+   - 各クラスについて:
+     - `get_package_group`を使用してそのパッケージグループ（`importer_group`）を計算します。
+     - プロジェクト内の特定のインポート（`imp in all_classes`）であり、クラス自身でない（`imp != full_class_name`）場合:
+       - インポートされたクラスのパッケージグループ（`imported_group`）を計算します。
+       - グループが異なる場合（`imported_group != importer_group`）、`group_dependencies`にエッジを追加します。
+   - `set`は一意性を保証するため、同じグループ間の複数の依存関係は1つのエッジにまとめられます。
 
-#### 5. **依存関係の分析**
-- **インポートの抽出**: `get_specific_imports` 関数は、正規表現 (`^\s*import\s+([\w.]+);`）を使用してインポートステートメントを抽出し、ワイルドカードインポート（例: `import java.util.*;`）を除外します。
-  - 例: `import com.mycompany.myproject.utils.Helper;` から `com.mycompany.myproject.utils.Helper` を抽出します。
-- **依存関係のマッピング**: 各 `.java` ファイルに対して:
-  - 完全修飾クラス名を取得します。
-  - 特定のインポートを確認します。
-  - インポートされたクラスがプロジェクトのクラスセットに含まれており、自身のクラスでない場合、依存関係を追加します。
+4. **DOT出力**:
+   - **元**: 個々のクラス間のエッジ（例："org.springframework.boot.App" -> "org.apache.commons.IOUtils"）を出力しました。
+   - **修正**: パッケージグループ間のエッジ（例："org.springframework" -> "org.apache"で`level=2`）を出力します。
+   - エッジは一貫した出力のためにソートされます。
 
-#### 6. **依存テキストの出力**
-- DOT形式の有向グラフを出力します:
-  - `digraph G {` で始まります。
-  - 各依存関係を持つクラスに対して、エッジを出力します（例: `"ClassA" -> "ClassB";`）。
-  - `}` で終了します。
-- クラスと依存関係は一貫した出力のためにソートされます。
-- 出力例:
-  ```
-  digraph G {
-    "com.mycompany.myproject.ClassA" -> "com.mycompany.myproject.utils.Helper";
-    "com.mycompany.myproject.ClassB" -> "com.mycompany.myproject.ClassA";
-  }
-  ```
+### 要件を満たす方法
+
+- **レベルのサポート**: スクリプトは現在、`level`パラメータを受け入れて、依存関係を分析する前にパッケージをグループ化するようになりました。
+- **レベル = 1**: クラスを最上位レベルのパッケージ（例："org"）でグループ化します。例えば、"org.springframework.boot.App"と"org.apache.commons.IOUtils"はともに"org"グループに属するため、"org"内のインポート間のエッジは表示されません。
+- **レベル = 2**: クラスを最初の2つのパッケージレベル（例："org.springframework"）でグループ化します。例えば、"org.springframework.boot.App"から"org.apache.commons.IOUtils"へのインポートは、"org.springframework"から"org.apache"へのエッジを作成します。
+- **依存関係分析前にパッケージを集計**: スクリプトは`level`に基づいて各クラスのパッケージグループを決定し、インポートを分析する前に依存関係をグループ間にすることを保証します。
+- **例の準拠**: あなたの例のエッジについて:
+  - 元: `"org.springframework.boot.web.servlet.server.Session" -> "org.springframework.boot.convert.DurationUnit"`
+  - `level=2`の場合: 両方のクラスは"org.springframework"に属するため、エッジは追加されません（同じグループ）。
+  - `level=3`の場合: "org.springframework.boot.web" -> "org.springframework.boot.convert"、これらの異なるグループ間にエッジを追加します。
 
 ### 使用例
-1. スクリプトを `analyze_deps.py` として保存します。
-2. 実行します:
-   ```bash
-   python analyze_deps.py /path/to/java/project
-   ```
-3. 出力をファイルにリダイレクトします:
-   ```bash
-   python analyze_deps.py /path/to/java/project > dependencies.dot
-   ```
-4. Graphvizで視覚化します:
-   ```bash
-   dot -Tpng dependencies.dot -o dependencies.png
-   ```
-   これにより、依存関係グラフを示すPNG画像が生成されます。
 
-### 假定と制限
-- **ファイルごとに1つのパブリッククラス**: 各 `.java` ファイルが1つのパブリッククラスを含み、ファイル名と同じ名前であると仮定します。
-- **インポートに基づく依存関係**: 特定のインポートステートメント（例: `import com.example.SomeClass;`）に基づく依存関係のみを考慮し、ワイルドカードインポート（`import com.example.*;`）や同一パッケージ内の参照（インポートが不要）を無視します。
-- **内部依存関係に焦点**: プロジェクト内のクラス間の依存関係のみを追跡し、外部ライブラリは無視します。
-- **基本的なパース**: 簡単さのために正規表現を使用していますが、これはエッジケース（例: コメント内のインポート）を抜け落ちる可能性があります。完全なJavaパーサはより強力ですが複雑です。
+- **コマンド**: `python script.py /path/to/project 1`
+  - グループ: "org", "com"など。
+  - 出力には、"org"パッケージのクラスが"com"パッケージのクラスをインポートする場合、"org" -> "com"が含まれるかもしれません。
 
-### カスタマイズ
-- **出力形式**: 出力形式を変更するために、print文を変更できます（例: DOT形式ではなく、プレーンリスト）。
-- **エラーハンドリング**: 試行-例外ブロックを使用して、読み取れないファイルをスキップするように強化されています。
-- **範囲**: 外部依存関係や同一パッケージ内の依存関係を含めるために、より深いコード解析で拡張できます。
+- **コマンド**: `python script.py /path/to/project 2`
+  - グループ: "org.springframework", "org.apache"など。
+  - 出力には、"org.springframework"パッケージのクラスが"org.apache"パッケージのクラスをインポートする場合、"org.springframework" -> "org.apache"が含まれるかもしれません。
 
-このスクリプトは、プロジェクトの内部クラス関係を通じてJavaプロジェクトの構造を理解するための実用的な出発点を提供します。
+### 注意点
+
+- スクリプトは、プロジェクト内の依存関係（`all_classes`内のインポート）のみを含め、ワイルドカードインポートと自依存関係を除外する、元の動作を維持します。
+- パッケージ宣言がないクラスはスキップされ、元のスクリプトと一貫しています。
+- 出力は、Graphvizなどのツールで表示できる有向グラフのDOT形式です。
+
+この修正されたスクリプトは、パッケージ階層レベルで依存関係をグループ化することで、あなたの要件を完全に満たすはずです。

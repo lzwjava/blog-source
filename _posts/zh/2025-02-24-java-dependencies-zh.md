@@ -2,19 +2,15 @@
 audio: true
 lang: zh
 layout: post
-title: 分析 Java 依赖
+title: Java 依赖分析
 translated: true
 ---
 
-以下是一个Python脚本，它扫描项目中的所有`.java`文件，根据导入语句分析它们的依赖关系，并以DOT格式输出依赖图作为“依赖文本”。该脚本专注于项目内部类之间的依赖关系，提供了一种可以使用Graphviz等工具可视化的清晰表示。
+要解决你的问题，我将修改提供的Python脚本，以生成Java类的依赖图，其中依赖项按指定的“级别”分组。例如，如果 `level=1`，则包按顶级（例如，“org”）分组，如果 `level=2`，则按第二级（例如，“org.springframework”）分组。这意味着在分析依赖项之前，我们根据类的包名的前 `level` 部分将类累积到组中，图表将显示这些组之间的依赖关系，而不是单个类。
 
-### 脚本概述
-脚本：
-1. **递归扫描项目目录** 以查找所有`.java`文件。
-2. **分析依赖关系** 通过从每个`.java`文件中提取包声明和导入语句。
-3. **输出依赖文本** 以DOT格式显示项目内部一个类导入另一个类的有向边。
+以下是修改后的脚本，后面是对更改的解释以及它如何满足你的需求。
 
-以下是完整的脚本：
+### 修改后的脚本
 
 ```python
 import os
@@ -30,7 +26,7 @@ def get_package(file_path):
         file_path (str): .java 文件的路径。
 
     返回:
-        str: 包名，如果未找到则返回 None。
+        str: 包名，如果未找到则为 None。
     """
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -39,7 +35,7 @@ def get_package(file_path):
                 if match:
                     return match.group(1)
     except Exception as e:
-        print(f"警告：无法读取 {file_path}: {e}")
+        print(f"警告: 无法读取 {file_path}: {e}")
     return None
 
 def get_specific_imports(file_path):
@@ -63,19 +59,45 @@ def get_specific_imports(file_path):
                     if not imp.endswith('.*'):
                         imports.append(imp)
     except Exception as e:
-        print(f"警告：无法读取 {file_path}: {e}")
+        print(f"警告: 无法读取 {file_path}: {e}")
     return imports
 
+def get_package_group(full_class_name, level):
+    """
+    根据包名的前 'level' 部分获取包组。
+
+    参数:
+        full_class_name (str): 完全限定的类名（例如，“org.springframework.boot.App”）。
+        level (int): 要包含的包级别数（例如，1 表示“org”，2 表示“org.springframework”）。
+
+    返回:
+        str: 包组（例如，“org”或“org.springframework”）。
+    """
+    package = '.'.join(full_class_name.split('.')[:-1])  # 提取包，排除类名
+    parts = package.split('.')
+    if len(parts) <= level:
+        return package  # 如果包的部分数少于或等于 level，则使用完整包
+    else:
+        return '.'.join(parts[:level])  # 使用前 'level' 部分
+
 if __name__ == '__main__':
-    # 检查命令行参数
-    if len(sys.argv) != 2:
-        print("用法: python script.py <root_directory>")
+    # 检查命令行参数：root_directory 和 level
+    if len(sys.argv) != 3:
+        print("用法: python script.py <root_directory> <level>")
         sys.exit(1)
 
     root_dir = sys.argv[1]
+    try:
+        level = int(sys.argv[2])
+        if level < 1:
+            raise ValueError
+    except ValueError:
+        print("错误: level 必须是正整数")
+        sys.exit(1)
+
     all_classes = set()
 
-    # 第一遍：收集项目中所有完全限定的类名
+    # 第一次遍历：收集项目中的所有完全限定的类名
     for root, dirs, files in os.walk(root_dir):
         for file in files:
             if file.endswith('.java'):
@@ -86,10 +108,10 @@ if __name__ == '__main__':
                     full_class_name = f"{package}.{class_name}"
                     all_classes.add(full_class_name)
 
-    # 存储依赖关系：类 -> 它依赖的类集合
-    dependencies = defaultdict(set)
+    # 存储包组之间的依赖关系
+    group_dependencies = set()
 
-    # 第二遍：基于特定导入分析依赖关系
+    # 第二次遍历：根据包组分析依赖关系
     for root, dirs, files in os.walk(root_dir):
         for file in files:
             if file.endswith('.java'):
@@ -98,86 +120,77 @@ if __name__ == '__main__':
                 if package:
                     class_name = file.replace('.java', '')
                     full_class_name = f"{package}.{class_name}"
+                    importer_group = get_package_group(full_class_name, level)
                     imports = get_specific_imports(file_path)
                     for imp in imports:
-                        # 仅包括项目内部类的依赖关系
+                        # 仅包括项目内的依赖关系
                         # 排除自依赖
                         if imp in all_classes and imp != full_class_name:
-                            dependencies[full_class_name].add(imp)
+                            imported_group = get_package_group(imp, level)
+                            if imported_group != importer_group:
+                                group_dependencies.add((importer_group, imported_group))
 
-    # 以DOT格式输出依赖图
+    # 以 DOT 格式输出依赖图
     print('digraph G {')
-    for class_name in sorted(dependencies):
-        for dep in sorted(dependencies[class_name]):
-            print(f'  "{class_name}" -> "{dep}";')
+    for from_group, to_group in sorted(group_dependencies):
+        print(f'  "{from_group}" -> "{to_group}";')
     print('}')
 ```
 
-### 使用方法
-#### 1. **命令行输入**
-- 脚本期望一个参数：Java项目的根目录。
-- 示例用法：`python script.py /path/to/project`
-- 如果没有提供参数，则打印使用说明并退出。
+### 更改说明
 
-#### 2. **查找 `.java` 文件**
-- 使用 `os.walk()` 递归遍历指定目录并识别所有以 `.java` 结尾的文件。
+1. **命令行参数**：
+   - **原始**：`python script.py <root_directory>`
+   - **修改后**：`python script.py <root_directory> <level>`
+   - 添加对第二个参数 `level` 的支持，指定包层次级别。脚本检查是否提供了两个参数，并且 `level` 是正整数。
 
-#### 3. **提取类信息**
-- **包提取**：`get_package` 函数读取每个 `.java` 文件并使用正则表达式（`^\s*package\s+([\w.]+);`）查找包声明（例如，`package com.mycompany.myproject;`）。
-  - 如果未找到包或无法读取文件，则返回 `None`。
-- **类名**：假设类名与文件名匹配（例如，`MyClass.java` 定义 `MyClass`）。
-- **完全限定名**：组合包和类名（例如，`com.mycompany.myproject.MyClass`）。
+2. **新函数：`get_package_group`**：
+   - 添加一个函数，根据指定的 `level` 计算类的包组。
+   - 对于完全限定的类名（例如，“org.springframework.boot.App”），它提取包（“org.springframework.boot”），将其分成部分（“org”，“springframework”，“boot”），并取前 `level` 部分：
+     - 如果 `level=1`：返回“org”。
+     - 如果 `level=2`：返回“org.springframework”。
+     - 如果包的部分数少于 `level`（例如，“com.example” 与 `level=3`），则返回完整包（“com.example”）。
 
-#### 4. **收集所有类**
-- 在第一遍中，构建项目中所有完全限定类名的集合，以便稍后快速查找。
+3. **依赖分组**：
+   - **原始**：使用 `defaultdict(set)` 存储单个类之间的依赖关系。
+   - **修改后**：使用 `set`（`group_dependencies`）存储包组之间的有向边作为元组 `(from_group, to_group)`。
+   - 对于每个类：
+     - 使用 `get_package_group` 计算其包组（`importer_group`）。
+     - 对于每个特定导入（在项目内的导入，`imp in all_classes`）且不是类本身（`imp != full_class_name`）：
+       - 计算导入类的包组（`imported_group`）。
+       - 如果组不同（`imported_group != importer_group`），则将边添加到 `group_dependencies`。
+   - `set` 确保唯一性，因此相同组之间的多个依赖关系将导致单个边。
 
-#### 5. **分析依赖关系**
-- **导入提取**：`get_specific_imports` 函数使用正则表达式（`^\s*import\s+([\w.]+);`）提取导入语句，排除通配符导入（例如，`import java.util.*;`）。
-  - 示例：从 `import com.mycompany.myproject.utils.Helper;` 中提取 `com.mycompany.myproject.utils.Helper`。
-- **依赖映射**：对于每个 `.java` 文件：
-  - 获取其完全限定类名。
-  - 检查其特定导入。
-  - 如果导入的类在项目的类集中且不是该类本身，则添加依赖。
+4. **DOT 输出**：
+   - **原始**：打印单个类之间的边（例如，“org.springframework.boot.App” -> “org.apache.commons.IOUtils”）。
+   - **修改后**：打印包组之间的边（例如，“org.springframework” -> “org.apache” 当 `level=2`）。
+   - 边按字母顺序排序以确保输出一致。
 
-#### 6. **输出依赖文本**
-- 以DOT格式输出有向图：
-  - 以 `digraph G {` 开头。
-  - 对于每个有依赖的类，打印边如 `"ClassA" -> "ClassB";`。
-  - 以 `}` 结尾。
-- 类和依赖关系按字母顺序排序以保持一致的输出。
-- 示例输出：
-  ```
-  digraph G {
-    "com.mycompany.myproject.ClassA" -> "com.mycompany.myproject.utils.Helper";
-    "com.mycompany.myproject.ClassB" -> "com.mycompany.myproject.ClassA";
-  }
-  ```
+### 如何满足你的需求
+
+- **支持级别**：脚本现在接受 `level` 参数，以在分析依赖关系之前按包层次级别分组。
+- **级别 = 1**：按顶级包（例如，“org”）分组所有类。例如，“org.springframework.boot.App”和“org.apache.commons.IOUtils”都属于“org”组，因此“org”组内的导入不会显示为边。
+- **级别 = 2**：按前两个包级别（例如，“org.springframework”）分组类。例如，从“org.springframework.boot.App”到“org.apache.commons.IOUtils”的导入将创建从“org.springframework”到“org.apache”的边。
+- **在依赖分析之前累积包**：脚本根据 `level` 确定每个类的包组，然后分析其导入，确保依赖关系在组之间，而不是单个类之间。
+- **示例符合性**：对于你的示例边：
+  - 原始：`"org.springframework.boot.web.servlet.server.Session" -> "org.springframework.boot.convert.DurationUnit"`
+  - 当 `level=2` 时：两个类都在“org.springframework”组中，因此不会添加边（同一组）。
+  - 当 `level=3` 时：`"org.springframework.boot.web" -> "org.springframework.boot.convert"`，添加这两个不同组之间的边。
 
 ### 使用示例
-1. 将脚本保存为 `analyze_deps.py`。
-2. 运行它：
-   ```bash
-   python analyze_deps.py /path/to/java/project
-   ```
-3. 将输出重定向到文件：
-   ```bash
-   python analyze_deps.py /path/to/java/project > dependencies.dot
-   ```
-4. 使用Graphviz可视化：
-   ```bash
-   dot -Tpng dependencies.dot -o dependencies.png
-   ```
-   这将生成一个显示依赖图的PNG图像。
 
-### 假设和限制
-- **每个文件一个公共类**：假设每个 `.java` 文件包含一个公共类，类名与文件名匹配，符合Java惯例。
-- **基于导入的依赖**：仅考虑特定导入语句（例如，`import com.example.SomeClass;`）表示的依赖关系，忽略通配符导入（`import com.example.*;`）和同包引用（不需要导入）。
-- **内部关注**：仅跟踪项目内部类之间的依赖关系，忽略外部库。
-- **基本解析**：使用正则表达式以简化，可能会遗漏边缘情况（例如，注释中的导入）。完整的Java解析器将更加健壮但复杂。
+- **命令**：`python script.py /path/to/project 1`
+  - 组：`"org"`, `"com"` 等。
+  - 输出可能包括：`"org" -> "com"` 如果“org”包中的类导入“com”包中的类。
 
-### 自定义
-- **输出格式**：修改打印语句以更改依赖文本格式（例如，普通列表而不是DOT）。
-- **错误处理**：使用try-except块增强，以优雅地跳过无法读取的文件。
-- **范围**：可以扩展以包括外部依赖或同包依赖，进行更深入的代码分析。
+- **命令**：`python script.py /path/to/project 2`
+  - 组：`"org.springframework"`, `"org.apache"` 等。
+  - 输出可能包括：`"org.springframework" -> "org.apache"` 如果“org.springframework”包中的类导入“org.apache”包中的类。
 
-该脚本为依赖分析提供了一个实用的起点，适用于通过其内部类关系了解Java项目的结构。
+### 注意事项
+
+- 脚本保留了仅包括项目内依赖关系（在 `all_classes` 内的导入）并排除通配符导入和自依赖的原始行为。
+- 没有包声明的类被跳过，与原始脚本一致。
+- 输出是 DOT 格式的有向图，可以使用 Graphviz 等工具查看。
+
+这个修改后的脚本应该完全满足你按包层次级别分组依赖关系的请求。

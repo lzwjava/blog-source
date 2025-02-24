@@ -6,15 +6,11 @@ title: Analyse Java-Abhängigkeiten
 translated: true
 ---
 
-Hier ist ein Python-Skript, das alle `.java`-Dateien in einem Projekt scannt, deren Abhängigkeiten basierend auf Importanweisungen analysiert und eine Abhängigkeitsgrafik im DOT-Format als "Abhängigkeitstext" ausgibt. Dieses Skript konzentriert sich auf interne Abhängigkeiten zwischen Klassen innerhalb des Projekts und bietet eine klare Darstellung, die mit Tools wie Graphviz visualisiert werden kann.
+Um Ihre Anfrage zu bearbeiten, werde ich das bereitgestellte Python-Skript so ändern, dass es einen Abhängigkeitsgraph für Java-Klassen erstellt, wobei Abhängigkeiten nach einem bestimmten "Level" der Pakethierarchie gruppiert werden. Zum Beispiel, wenn `level=1`, werden Pakete auf der obersten Ebene gruppiert (z.B. "org"), und wenn `level=2`, werden sie auf der zweiten Ebene gruppiert (z.B. "org.springframework"). Dies bedeutet, dass wir vor der Analyse der Abhängigkeiten Klassen in Gruppen basierend auf den ersten `level` Teilen ihrer Paketnamen akkumulieren und der Graph zeigt Abhängigkeiten zwischen diesen Gruppen anstatt zwischen einzelnen Klassen.
 
-### Skriptübersicht
-Das Skript:
-1. **Scannt das Projektverzeichnis** rekursiv, um alle `.java`-Dateien zu finden.
-2. **Analysiert Abhängigkeiten**, indem es Paketdeklarationen und Importanweisungen aus jeder `.java`-Datei extrahiert.
-3. **Gibt einen Abhängigkeitstext** im DOT-Format aus, der gerichtete Kanten zwischen Klassen zeigt, wobei eine Klasse eine andere innerhalb des Projekts importiert.
+Hier ist das modifizierte Skript, gefolgt von einer Erklärung der Änderungen und wie es Ihre Anforderungen erfüllt.
 
-Hier ist das vollständige Skript:
+### Modifiziertes Skript
 
 ```python
 import os
@@ -39,7 +35,7 @@ def get_package(file_path):
                 if match:
                     return match.group(1)
     except Exception as e:
-        print(f"Warnung: {file_path} konnte nicht gelesen werden: {e}")
+        print(f"Warnung: Konnte {file_path} nicht lesen: {e}")
     return None
 
 def get_specific_imports(file_path):
@@ -50,7 +46,7 @@ def get_specific_imports(file_path):
         file_path (str): Pfad zur .java-Datei.
 
     Returns:
-        list: Liste der vollständig qualifizierten importierten Klassennamen.
+        list: Liste der vollständig qualifizierten importierten Klassen.
     """
     imports = []
     try:
@@ -63,19 +59,45 @@ def get_specific_imports(file_path):
                     if not imp.endswith('.*'):
                         imports.append(imp)
     except Exception as e:
-        print(f"Warnung: {file_path} konnte nicht gelesen werden: {e}")
+        print(f"Warnung: Konnte {file_path} nicht lesen: {e}")
     return imports
 
+def get_package_group(full_class_name, level):
+    """
+    Holt die Paketgruppe basierend auf den ersten 'level' Teilen des Paketnamens.
+
+    Args:
+        full_class_name (str): Vollständiger qualifizierter Klassenname (z.B., "org.springframework.boot.App").
+        level (int): Anzahl der Paketebenen, die enthalten sein sollen (z.B., 1 für "org", 2 für "org.springframework").
+
+    Returns:
+        str: Die Paketgruppe (z.B., "org" oder "org.springframework").
+    """
+    package = '.'.join(full_class_name.split('.')[:-1])  # Paket extrahieren, Klassennamen ausschließen
+    parts = package.split('.')
+    if len(parts) <= level:
+        return package  # Vollständiges Paket verwenden, wenn es weniger oder gleich viele Teile wie level hat
+    else:
+        return '.'.join(parts[:level])  # Verwenden Sie die ersten 'level' Teile
+
 if __name__ == '__main__':
-    # Überprüfen auf Befehlszeilenargument
-    if len(sys.argv) != 2:
-        print("Verwendung: python script.py <Stammverzeichnis>")
+    # Überprüfen Sie die Befehlszeilenargumente: root_directory und level
+    if len(sys.argv) != 3:
+        print("Verwendung: python script.py <root_directory> <level>")
         sys.exit(1)
 
     root_dir = sys.argv[1]
+    try:
+        level = int(sys.argv[2])
+        if level < 1:
+            raise ValueError
+    except ValueError:
+        print("Fehler: level muss eine positive ganze Zahl sein")
+        sys.exit(1)
+
     all_classes = set()
 
-    # Erster Durchlauf: Sammeln aller vollständig qualifizierten Klassennamen im Projekt
+    # Erster Durchgang: Sammeln aller vollständig qualifizierten Klassennamen im Projekt
     for root, dirs, files in os.walk(root_dir):
         for file in files:
             if file.endswith('.java'):
@@ -86,10 +108,10 @@ if __name__ == '__main__':
                     full_class_name = f"{package}.{class_name}"
                     all_classes.add(full_class_name)
 
-    # Speichern von Abhängigkeiten: Klasse -> Menge der Klassen, von denen sie abhängt
-    dependencies = defaultdict(set)
+    # Abhängigkeiten zwischen Paketgruppen speichern
+    group_dependencies = set()
 
-    # Zweiter Durchlauf: Analysieren von Abhängigkeiten basierend auf spezifischen Imports
+    # Zweiter Durchgang: Analysieren der Abhängigkeiten basierend auf Paketgruppen
     for root, dirs, files in os.walk(root_dir):
         for file in files:
             if file.endswith('.java'):
@@ -98,86 +120,77 @@ if __name__ == '__main__':
                 if package:
                     class_name = file.replace('.java', '')
                     full_class_name = f"{package}.{class_name}"
+                    importer_group = get_package_group(full_class_name, level)
                     imports = get_specific_imports(file_path)
                     for imp in imports:
-                        # Nur Abhängigkeiten von Klassen innerhalb des Projekts einschließen
+                        # Nur Abhängigkeiten zu Klassen innerhalb des Projekts einschließen
                         # Selbstabhängigkeiten ausschließen
                         if imp in all_classes and imp != full_class_name:
-                            dependencies[full_class_name].add(imp)
+                            imported_group = get_package_group(imp, level)
+                            if imported_group != importer_group:
+                                group_dependencies.add((importer_group, imported_group))
 
-    # Ausgabe des Abhängigkeitsgrafen im DOT-Format
+    # Ausgabe des Abhängigkeitsgraphen im DOT-Format
     print('digraph G {')
-    for class_name in sorted(dependencies):
-        for dep in sorted(dependencies[class_name]):
-            print(f'  "{class_name}" -> "{dep}";')
+    for from_group, to_group in sorted(group_dependencies):
+        print(f'  "{from_group}" -> "{to_group}";')
     print('}')
 ```
 
-### Funktionsweise
-#### 1. **Befehlszeilen-Eingabe**
-- Das Skript erwartet ein einziges Argument: das Stammverzeichnis des Java-Projekts.
-- Beispielverwendung: `python script.py /pfad/zum/projekt`
-- Wenn kein Argument angegeben ist, gibt es Anweisungen zur Verwendung aus und beendet sich.
+### Erklärung der Änderungen
 
-#### 2. **Finden von `.java`-Dateien**
-- Verwendet `os.walk()`, um das angegebene Verzeichnis rekursiv zu durchsuchen und alle Dateien zu identifizieren, die mit `.java` enden.
+1. **Befehlszeilenargumente**:
+   - **Original**: `python script.py <root_directory>`
+   - **Modifiziert**: `python script.py <root_directory> <level>`
+   - Unterstützung für ein zweites Argument, `level`, das die Pakethierarchieebene angibt. Das Skript überprüft, dass genau zwei Argumente bereitgestellt werden und dass `level` eine positive ganze Zahl ist.
 
-#### 3. **Extrahieren von Klasseninformationen**
-- **Paketextraktion**: Die Funktion `get_package` liest jede `.java`-Datei und verwendet einen regulären Ausdruck (`^\s*package\s+([\w.]+);`), um die Paketdeklaration zu finden (z.B., `package com.mycompany.myproject;`).
-  - Gibt `None` zurück, wenn kein Paket gefunden wird oder die Datei nicht gelesen werden kann.
-- **Klassenname**: Geht davon aus, dass der Klassenname mit dem Dateinamen übereinstimmt (z.B., `MyClass.java` definiert `MyClass`).
-- **Vollständig qualifizierter Name**: Kombiniert Paket- und Klassennamen (z.B., `com.mycompany.myproject.MyClass`).
+2. **Neue Funktion: `get_package_group`**:
+   - Eine Funktion hinzugefügt, um die Paketgruppe für eine Klasse basierend auf dem angegebenen `level` zu berechnen.
+   - Für einen vollständig qualifizierten Klassennamen (z.B. "org.springframework.boot.App") extrahiert es das Paket ("org.springframework.boot"), teilt es in Teile ("org", "springframework", "boot") und nimmt die ersten `level` Teile:
+     - Wenn `level=1`: Gibt "org" zurück.
+     - Wenn `level=2`: Gibt "org.springframework" zurück.
+     - Wenn das Paket weniger Teile als `level` hat (z.B. "com.example" mit `level=3`), gibt es das vollständige Paket ("com.example") zurück.
 
-#### 4. **Sammeln aller Klassen**
-- Im ersten Durchlauf wird eine Menge aller vollständig qualifizierten Klassennamen im Projekt erstellt, um sie später schnell nachzuschlagen.
+3. **Abhängigkeitsgruppierung**:
+   - **Original**: Verwendete `defaultdict(set)`, um Abhängigkeiten zwischen einzelnen Klassen zu speichern.
+   - **Modifiziert**: Verwendet ein `set` (`group_dependencies`), um gerichtete Kanten zwischen Paketgruppen als Tupel `(from_group, to_group)` zu speichern.
+   - Für jede Klasse:
+     - Berechnet seine Paketgruppe (`importer_group`) mit `get_package_group`.
+     - Für jeden spezifischen Import, der sich innerhalb des Projekts befindet (`imp in all_classes`) und nicht die Klasse selbst ist (`imp != full_class_name`):
+       - Berechnet die Paketgruppe der importierten Klasse (`imported_group`).
+       - Wenn sich die Gruppen unterscheiden (`imported_group != importer_group`), fügt es eine Kante zu `group_dependencies` hinzu.
+   - Das `set` stellt Eindeutigkeit sicher, sodass mehrere Abhängigkeiten zwischen denselben Gruppen zu einer einzigen Kante führen.
 
-#### 5. **Analysieren von Abhängigkeiten**
-- **Importextraktion**: Die Funktion `get_specific_imports` extrahiert Importanweisungen mit einem regulären Ausdruck (`^\s*import\s+([\w.]+);`), wobei Wildcard-Imports (z.B., `import java.util.*;`) ausgeschlossen werden.
-  - Beispiel: Aus `import com.mycompany.myproject.utils.Helper;` wird `com.mycompany.myproject.utils.Helper` extrahiert.
-- **Abhängigkeitszuordnung**: Für jede `.java`-Datei:
-  - Holt sich den vollständig qualifizierten Klassennamen.
-  - Überprüft die spezifischen Imports.
-  - Wenn eine importierte Klasse im Klassensatz des Projekts ist und nicht die Klasse selbst, wird eine Abhängigkeit hinzugefügt.
+4. **DOT-Ausgabe**:
+   - **Original**: Druckte Kanten zwischen einzelnen Klassen (z.B., "org.springframework.boot.App" -> "org.apache.commons.IOUtils").
+   - **Modifiziert**: Druckt Kanten zwischen Paketgruppen (z.B., "org.springframework" -> "org.apache" für `level=2`).
+   - Kanten werden sortiert, um eine konsistente Ausgabe zu gewährleisten.
 
-#### 6. **Ausgeben des Abhängigkeitstextes**
-- Gibt einen gerichteten Graphen im DOT-Format aus:
-  - Beginnt mit `digraph G {`.
-  - Für jede Klasse mit Abhängigkeiten gibt es Kanten wie `"ClassA" -> "ClassB";` aus.
-  - Endet mit `}`.
-- Klassen und Abhängigkeiten werden für eine konsistente Ausgabe sortiert.
-- Beispielausgabe:
-  ```
-  digraph G {
-    "com.mycompany.myproject.ClassA" -> "com.mycompany.myproject.utils.Helper";
-    "com.mycompany.myproject.ClassB" -> "com.mycompany.myproject.ClassA";
-  }
-  ```
+### Wie es Ihre Anforderungen erfüllt
 
-### Beispielverwendung
-1. Speichern Sie das Skript als `analyze_deps.py`.
-2. Führen Sie es aus:
-   ```bash
-   python analyze_deps.py /pfad/zum/java/projekt
-   ```
-3. Leiten Sie die Ausgabe in eine Datei um:
-   ```bash
-   python analyze_deps.py /pfad/zum/java/projekt > abhaengigkeiten.dot
-   ```
-4. Visualisieren Sie mit Graphviz:
-   ```bash
-   dot -Tpng abhaengigkeiten.dot -o abhaengigkeiten.png
-   ```
-   Dies erzeugt eine PNG-Datei, die den Abhängigkeitsgraphen zeigt.
+- **Unterstützung für Ebenen**: Das Skript akzeptiert jetzt einen `level`-Parameter, um Pakete vor der Analyse der Abhängigkeiten zu gruppieren.
+- **Level = 1**: Gruppiert alle Klassen nach ihrem obersten Paket (z.B. "org"). Zum Beispiel gehören "org.springframework.boot.App" und "org.apache.commons.IOUtils" beide zur "org"-Gruppe, sodass Importe zwischen ihnen innerhalb von "org" nicht als Kanten angezeigt werden.
+- **Level = 2**: Gruppiert Klassen nach den ersten zwei Paketebenen (z.B. "org.springframework"). Zum Beispiel erstellt ein Import von "org.springframework.boot.App" zu "org.apache.commons.IOUtils" eine Kante von "org.springframework" zu "org.apache".
+- **Akkumulieren von Paketen vor der Abhängigkeitsanalyse**: Das Skript bestimmt die Paketgruppe jeder Klasse basierend auf `level` vor der Analyse ihrer Importe, sodass Abhängigkeiten zwischen Gruppen und nicht zwischen einzelnen Klassen bestehen.
+- **Beispielkonformität**: Für Ihre Beispielkante:
+  - Original: `"org.springframework.boot.web.servlet.server.Session" -> "org.springframework.boot.convert.DurationUnit"`
+  - Mit `level=2`: Beide Klassen befinden sich in "org.springframework", sodass keine Kante hinzugefügt wird (gleiche Gruppe).
+  - Mit `level=3`: "org.springframework.boot.web" -> "org.springframework.boot.convert", fügt eine Kante zwischen diesen verschiedenen Gruppen hinzu.
 
-### Annahmen und Einschränkungen
-- **Eine öffentliche Klasse pro Datei**: Geht davon aus, dass jede `.java`-Datei eine öffentliche Klasse enthält, die nach der Datei benannt ist, gemäß Java-Konvention.
-- **Importbasierte Abhängigkeiten**: Berücksichtigt nur Abhängigkeiten, die durch spezifische Importanweisungen angegeben werden (z.B., `import com.example.SomeClass;`), ignoriert Wildcard-Imports (`import com.example.*;`) und Verweise innerhalb desselben Pakets (die keine Imports erfordern).
-- **Interner Fokus**: Verfolgt nur Abhängigkeiten zwischen Klassen innerhalb des Projekts und ignoriert externe Bibliotheken.
-- **Grundlegendes Parsen**: Verwendet reguläre Ausdrücke für Einfachheit, was möglicherweise Randfälle verpasst (z.B. Imports innerhalb von Kommentaren). Ein vollständiger Java-Parser wäre robuster, aber komplexer.
+### Verwendungsbeispiele
 
-### Anpassung
-- **Ausgabeformat**: Ändern Sie die `print`-Anweisungen, um das Abhängigkeitstextformat zu ändern (z.B. eine einfache Liste anstelle von DOT).
-- **Fehlerbehandlung**: Verbessert mit `try-except`-Blöcken, um unlesbare Dateien anmutig zu überspringen.
-- **Umfang**: Könnte erweitert werden, um externe Abhängigkeiten oder Abhängigkeiten innerhalb desselben Pakets mit tieferer Codeanalyse zu enthalten.
+- **Befehl**: `python script.py /pfad/zu/projekt 1`
+  - Gruppen: "org", "com", usw.
+  - Ausgabe könnte enthalten: `"org" -> "com"` wenn eine Klasse in einem "org"-Paket eine Klasse in einem "com"-Paket importiert.
 
-Dieses Skript bietet einen praktischen Ausgangspunkt für die Abhängigkeitsanalyse, geeignet zur Verständnis der Struktur eines Java-Projekts durch seine internen Klassenbeziehungen.
+- **Befehl**: `python script.py /pfad/zu/projekt 2`
+  - Gruppen: "org.springframework", "org.apache", usw.
+  - Ausgabe könnte enthalten: `"org.springframework" -> "org.apache"`.
+
+### Hinweise
+
+- Das Skript behält das ursprüngliche Verhalten bei, nur intraprojektbezogene Abhängigkeiten (Imports innerhalb von `all_classes`) einzuschließen und Wildcard-Imports und Selbstabhängigkeiten auszuschließen.
+- Klassen ohne Paketdeklaration werden übersprungen, was mit dem ursprünglichen Skript übereinstimmt.
+- Die Ausgabe ist ein gerichteter Graph im DOT-Format, der mit Tools wie Graphviz angezeigt werden kann.
+
+Dieses modifizierte Skript sollte Ihre Anfrage vollständig erfüllen, Abhängigkeiten nach Paketebenenhierarchie zu gruppieren.

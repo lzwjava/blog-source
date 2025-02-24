@@ -6,15 +6,11 @@ title: Analyser les dépendances Java
 translated: true
 ---
 
-Voici un script Python qui parcourt tous les fichiers `.java` d'un projet, analyse leurs dépendances en fonction des déclarations d'importation et produit un graphe de dépendances au format DOT sous forme de "texte de dépendance." Ce script se concentre sur les dépendances internes entre les classes au sein du projet, fournissant une représentation claire qui peut être visualisée à l'aide d'outils comme Graphviz.
+Pour répondre à votre demande, je vais modifier le script Python fourni pour générer un graphe de dépendances pour les classes Java, où les dépendances sont regroupées par un niveau spécifié de la hiérarchie des packages. Par exemple, si `level=1`, les packages sont regroupés au niveau supérieur (par exemple, "org"), et si `level=2`, ils sont regroupés au deuxième niveau (par exemple, "org.springframework"). Cela signifie qu'avant d'analyser les dépendances, nous accumulons les classes en groupes en fonction des premières parties de niveau de leurs noms de packages, et le graphe montrera les dépendances entre ces groupes plutôt qu'entre des classes individuelles.
 
-### Vue d'ensemble du script
-Le script :
-1. **Parcourt le répertoire du projet** de manière récursive pour trouver tous les fichiers `.java`.
-2. **Analyse les dépendances** en extrayant les déclarations de package et les déclarations d'importation de chaque fichier `.java`.
-3. **Produit un texte de dépendance** au format DOT, montrant des arêtes dirigées entre les classes où une classe importe une autre au sein du projet.
+Voici le script modifié, suivi d'une explication des modifications et de la manière dont il répond à vos exigences.
 
-Voici le script complet :
+### Script Modifié
 
 ```python
 import os
@@ -24,7 +20,7 @@ from collections import defaultdict
 
 def get_package(file_path):
     """
-    Extrait le nom du package d'un fichier .java.
+    Extraire le nom du package à partir d'un fichier .java.
 
     Args:
         file_path (str): Chemin vers le fichier .java.
@@ -39,12 +35,12 @@ def get_package(file_path):
                 if match:
                     return match.group(1)
     except Exception as e:
-        print(f"Attention : Impossible de lire {file_path} : {e}")
+        print(f"Warning: Could not read {file_path}: {e}")
     return None
 
 def get_specific_imports(file_path):
     """
-    Extrait les importations de classes spécifiques d'un fichier .java, en excluant les importations génériques.
+    Extraire les importations de classes spécifiques à partir d'un fichier .java, en excluant les importations génériques.
 
     Args:
         file_path (str): Chemin vers le fichier .java.
@@ -63,16 +59,42 @@ def get_specific_imports(file_path):
                     if not imp.endswith('.*'):
                         imports.append(imp)
     except Exception as e:
-        print(f"Attention : Impossible de lire {file_path} : {e}")
+        print(f"Warning: Could not read {file_path}: {e}")
     return imports
 
+def get_package_group(full_class_name, level):
+    """
+    Obtenir le groupe de packages en fonction des premières parties de niveau du nom du package.
+
+    Args:
+        full_class_name (str): Nom de classe qualifié (par exemple, "org.springframework.boot.App").
+        level (int): Nombre de niveaux de packages à inclure (par exemple, 1 pour "org", 2 pour "org.springframework").
+
+    Returns:
+        str: Le groupe de packages (par exemple, "org" ou "org.springframework").
+    """
+    package = '.'.join(full_class_name.split('.')[:-1])  # Extraire le package, en excluant le nom de la classe
+    parts = package.split('.')
+    if len(parts) <= level:
+        return package  # Utiliser le package complet s'il a moins ou autant de parties que le niveau
+    else:
+        return '.'.join(parts[:level])  # Utiliser les premières parties de niveau
+
 if __name__ == '__main__':
-    # Vérifier l'argument de la ligne de commande
-    if len(sys.argv) != 2:
-        print("Utilisation : python script.py <répertoire_racine>")
+    # Vérifier les arguments de la ligne de commande : root_directory et level
+    if len(sys.argv) != 3:
+        print("Usage: python script.py <root_directory> <level>")
         sys.exit(1)
 
     root_dir = sys.argv[1]
+    try:
+        level = int(sys.argv[2])
+        if level < 1:
+            raise ValueError
+    except ValueError:
+        print("Error: level must be a positive integer")
+        sys.exit(1)
+
     all_classes = set()
 
     # Première passe : Collecter tous les noms de classes qualifiés dans le projet
@@ -86,10 +108,10 @@ if __name__ == '__main__':
                     full_class_name = f"{package}.{class_name}"
                     all_classes.add(full_class_name)
 
-    # Stocker les dépendances : classe -> ensemble des classes dont elle dépend
-    dependencies = defaultdict(set)
+    # Stocker les dépendances entre les groupes de packages
+    group_dependencies = set()
 
-    # Deuxième passe : Analyser les dépendances en fonction des importations spécifiques
+    # Deuxième passe : Analyser les dépendances en fonction des groupes de packages
     for root, dirs, files in os.walk(root_dir):
         for file in files:
             if file.endswith('.java'):
@@ -98,86 +120,77 @@ if __name__ == '__main__':
                 if package:
                     class_name = file.replace('.java', '')
                     full_class_name = f"{package}.{class_name}"
+                    importer_group = get_package_group(full_class_name, level)
                     imports = get_specific_imports(file_path)
                     for imp in imports:
                         # Inclure uniquement les dépendances sur les classes au sein du projet
                         # Exclure les dépendances sur soi-même
                         if imp in all_classes and imp != full_class_name:
-                            dependencies[full_class_name].add(imp)
+                            imported_group = get_package_group(imp, level)
+                            if imported_group != importer_group:
+                                group_dependencies.add((importer_group, imported_group))
 
-    # Produire le graphe de dépendances au format DOT
+    # Afficher le graphe de dépendances au format DOT
     print('digraph G {')
-    for class_name in sorted(dependencies):
-        for dep in sorted(dependencies[class_name]):
-            print(f'  "{class_name}" -> "{dep}";')
+    for from_group, to_group in sorted(group_dependencies):
+        print(f'  "{from_group}" -> "{to_group}";')
     print('}')
 ```
 
-### Fonctionnement
-#### 1. **Entrée en ligne de commande**
-- Le script attend un seul argument : le répertoire racine du projet Java.
-- Exemple d'utilisation : `python script.py /chemin/vers/projet`
-- Si aucun argument n'est fourni, il affiche les instructions d'utilisation et se termine.
+### Explication des Modifications
 
-#### 2. **Recherche des fichiers `.java`**
-- Utilise `os.walk()` pour parcourir récursivement le répertoire spécifié et identifier tous les fichiers se terminant par `.java`.
+1. **Arguments de la Ligne de Commande**:
+   - **Original**: `python script.py <root_directory>`
+   - **Modifié**: `python script.py <root_directory> <level>`
+   - Ajout du support pour un deuxième argument, `level`, qui spécifie le niveau de la hiérarchie des packages. Le script vérifie que exactement deux arguments sont fournis et que `level` est un entier positif.
 
-#### 3. **Extraction des informations de classe**
-- **Extraction du package** : La fonction `get_package` lit chaque fichier `.java` et utilise une expression régulière (`^\s*package\s+([\w.]+);`) pour trouver la déclaration de package (par exemple, `package com.mycompany.myproject;`).
-  - Retourne `None` si aucun package n'est trouvé ou si le fichier ne peut pas être lu.
-- **Nom de la classe** : Suppose que le nom de la classe correspond au nom du fichier (par exemple, `MyClass.java` définit `MyClass`).
-- **Nom qualifié complet** : Combine le package et le nom de la classe (par exemple, `com.mycompany.myproject.MyClass`).
+2. **Nouvelle Fonction: `get_package_group`**:
+   - Ajout d'une fonction pour calculer le groupe de packages pour une classe en fonction du `level` spécifié.
+   - Pour un nom de classe qualifié (par exemple, "org.springframework.boot.App"), il extrait le package ("org.springframework.boot"), le divise en parties ("org", "springframework", "boot"), et prend les premières parties de `level`:
+     - Si `level=1`: Retourne "org".
+     - Si `level=2`: Retourne "org.springframework".
+     - Si le package a moins de parties que `level` (par exemple, "com.example" avec `level=3`), il retourne le package complet ("com.example").
 
-#### 4. **Collecte de toutes les classes**
-- Lors de la première passe, construit un ensemble de tous les noms de classes qualifiés dans le projet pour une recherche rapide ultérieure.
+3. **Groupement des Dépendances**:
+   - **Original**: Utilisait `defaultdict(set)` pour stocker les dépendances entre les classes individuelles.
+   - **Modifié**: Utilise un `set` (`group_dependencies`) pour stocker les arêtes dirigées entre les groupes de packages sous forme de tuples `(from_group, to_group)`.
+   - Pour chaque classe:
+     - Calcule son groupe de packages (`importer_group`) en utilisant `get_package_group`.
+     - Pour chaque importation spécifique qui est au sein du projet (`imp in all_classes`) et n'est pas la classe elle-même (`imp != full_class_name`):
+       - Calcule le groupe de packages de la classe importée (`imported_group`).
+       - Si les groupes diffèrent (`imported_group != importer_group`), ajoute une arête à `group_dependencies`.
+   - Le `set` assure l'unicité, donc plusieurs dépendances entre les mêmes groupes résultent en une seule arête.
 
-#### 5. **Analyse des dépendances**
-- **Extraction des importations** : La fonction `get_specific_imports` extrait les déclarations d'importation en utilisant une expression régulière (`^\s*import\s+([\w.]+);`), en excluant les importations génériques (par exemple, `import java.util.*;`).
-  - Exemple : À partir de `import com.mycompany.myproject.utils.Helper;`, elle extrait `com.mycompany.myproject.utils.Helper`.
-- **Mappage des dépendances** : Pour chaque fichier `.java` :
-  - Obtient son nom de classe qualifié complet.
-  - Vérifie ses importations spécifiques.
-  - Si une classe importée est dans l'ensemble des classes du projet et n'est pas la classe elle-même, ajoute une dépendance.
+4. **Sortie DOT**:
+   - **Original**: Imprimait les arêtes entre les classes individuelles (par exemple, "org.springframework.boot.App" -> "org.apache.commons.IOUtils").
+   - **Modifié**: Imprime les arêtes entre les groupes de packages (par exemple, "org.springframework" -> "org.apache" pour `level=2`).
+   - Les arêtes sont triées pour une sortie cohérente.
 
-#### 6. **Production du texte de dépendance**
-- Produit un graphe dirigé au format DOT :
-  - Commence par `digraph G {`.
-  - Pour chaque classe avec des dépendances, imprime des arêtes comme `"ClassA" -> "ClassB";`.
-  - Se termine par `}`.
-- Les classes et dépendances sont triées pour une sortie cohérente.
-- Exemple de sortie :
-  ```
-  digraph G {
-    "com.mycompany.myproject.ClassA" -> "com.mycompany.myproject.utils.Helper";
-    "com.mycompany.myproject.ClassB" -> "com.mycompany.myproject.ClassA";
-  }
-  ```
+### Comment Cela Répond à Vos Exigences
 
-### Exemple d'utilisation
-1. Enregistrez le script sous le nom `analyze_deps.py`.
-2. Exécutez-le :
-   ```bash
-   python analyze_deps.py /chemin/vers/projet/java
-   ```
-3. Redirigez la sortie vers un fichier :
-   ```bash
-   python analyze_deps.py /chemin/vers/projet/java > dependances.dot
-   ```
-4. Visualisez avec Graphviz :
-   ```bash
-   dot -Tpng dependances.dot -o dependances.png
-   ```
-   Cela génère une image PNG montrant le graphe de dépendances.
+- **Support pour les Niveaux**: Le script accepte désormais un paramètre `level` pour regrouper les packages avant d'analyser les dépendances.
+- **Niveau = 1**: Regroupe toutes les classes par leur package de niveau supérieur (par exemple, "org"). Par exemple, "org.springframework.boot.App" et "org.apache.commons.IOUtils" appartiennent tous deux au groupe "org", donc les importations entre eux au sein de "org" ne sont pas affichées comme des arêtes.
+- **Niveau = 2**: Regroupe les classes par les deux premiers niveaux de packages (par exemple, "org.springframework"). Par exemple, une importation de "org.springframework.boot.App" vers "org.apache.commons.IOUtils" crée une arête de "org.springframework" vers "org.apache".
+- **Accumuler les Packages Avant l'Analyse des Dépendances**: Le script détermine le groupe de packages de chaque classe en fonction de `level` avant d'analyser ses importations, assurant ainsi que les dépendances sont entre les groupes, et non entre les classes individuelles.
+- **Conformité à l'Exemple**: Pour votre exemple d'arête:
+  - Original: `"org.springframework.boot.web.servlet.server.Session" -> "org.springframework.boot.convert.DurationUnit"`
+  - Avec `level=2`: Les deux classes sont dans "org.springframework", donc aucune arête n'est ajoutée (même groupe).
+  - Avec `level=3`: "org.springframework.boot.web" -> "org.springframework.boot.convert", ajoutant une arête entre ces groupes distincts.
 
-### Hypothèses et limitations
-- **Une classe publique par fichier** : Suppose que chaque fichier `.java` contient une seule classe publique nommée d'après le fichier, selon la convention Java.
-- **Dépendances basées sur les importations** : Ne considère que les dépendances indiquées par les déclarations d'importation spécifiques (par exemple, `import com.example.SomeClass;`), ignorant les importations génériques (`import com.example.*;`) et les références au même package (qui ne nécessitent pas d'importations).
-- **Focus interne** : Ne suit que les dépendances entre les classes au sein du projet, ignorant les bibliothèques externes.
-- **Analyse de base** : Utilise des expressions régulières pour la simplicité, ce qui peut manquer des cas particuliers (par exemple, des importations dans des commentaires). Un analyseur Java complet serait plus robuste mais complexe.
+### Exemples d'Utilisation
 
-### Personnalisation
-- **Format de sortie** : Modifiez les instructions d'impression pour changer le format du texte de dépendance (par exemple, une liste simple au lieu de DOT).
-- **Gestion des erreurs** : Améliorée avec des blocs try-except pour ignorer les fichiers illisibles de manière élégante.
-- **Portée** : Pourrait être étendu pour inclure des dépendances externes ou des dépendances au même package avec une analyse de code plus approfondie.
+- **Commande**: `python script.py /path/to/project 1`
+  - Groupes: "org", "com", etc.
+  - La sortie pourrait inclure: `"org" -> "com"` si une classe dans un package "org" importe une classe dans un package "com".
 
-Ce script fournit un point de départ pratique pour l'analyse des dépendances, adapté pour comprendre la structure d'un projet Java à travers ses relations internes de classes.
+- **Commande**: `python script.py /path/to/project 2`
+  - Groupes: "org.springframework", "org.apache", etc.
+  - La sortie pourrait inclure: `"org.springframework" -> "org.apache"`.
+
+### Notes
+
+- Le script conserve le comportement original d'inclure uniquement les dépendances intra-projet (importations au sein de `all_classes`) et d'exclure les importations génériques et les dépendances sur soi-même.
+- Les classes sans déclaration de package sont ignorées, de manière cohérente avec le script original.
+- La sortie est un graphe dirigé au format DOT, visualisable avec des outils comme Graphviz.
+
+Ce script modifié devrait entièrement satisfaire votre demande de regrouper les dépendances par niveau de hiérarchie des packages.

@@ -6,15 +6,11 @@ title: Analyze Java Dependencies
 translated: false
 ---
 
-Below is a Python script that scans all `.java` files in a project, analyzes their dependencies based on import statements, and outputs a dependency graph in DOT format as a "dependency text." This script focuses on internal dependencies between classes within the project, providing a clear representation that can be visualized using tools like Graphviz.
+To address your query, I'll modify the provided Python script to generate a dependency graph for Java classes, where dependencies are grouped by a specified "level" of the package hierarchy. For example, if `level=1`, packages are grouped at the top level (e.g., "org"), and if `level=2`, they are grouped at the second level (e.g., "org.springframework"). This means that before analyzing dependencies, we accumulate classes into groups based on the first `level` parts of their package names, and the graph will show dependencies between these groups rather than individual classes.
 
-### Script Overview
-The script:
-1. **Scans the project directory** recursively to find all `.java` files.
-2. **Analyzes dependencies** by extracting package declarations and import statements from each `.java` file.
-3. **Outputs a dependency text** in DOT format, showing directed edges between classes where one class imports another within the project.
+Below is the modified script, followed by an explanation of the changes and how it meets your requirements.
 
-Here's the complete script:
+### Modified Script
 
 ```python
 import os
@@ -66,13 +62,39 @@ def get_specific_imports(file_path):
         print(f"Warning: Could not read {file_path}: {e}")
     return imports
 
+def get_package_group(full_class_name, level):
+    """
+    Get the package group based on the first 'level' parts of the package name.
+
+    Args:
+        full_class_name (str): Fully qualified class name (e.g., "org.springframework.boot.App").
+        level (int): Number of package levels to include (e.g., 1 for "org", 2 for "org.springframework").
+
+    Returns:
+        str: The package group (e.g., "org" or "org.springframework").
+    """
+    package = '.'.join(full_class_name.split('.')[:-1])  # Extract package, excluding class name
+    parts = package.split('.')
+    if len(parts) <= level:
+        return package  # Use full package if it has fewer or equal parts than level
+    else:
+        return '.'.join(parts[:level])  # Use first 'level' parts
+
 if __name__ == '__main__':
-    # Check for command-line argument
-    if len(sys.argv) != 2:
-        print("Usage: python script.py <root_directory>")
+    # Check for command-line arguments: root_directory and level
+    if len(sys.argv) != 3:
+        print("Usage: python script.py <root_directory> <level>")
         sys.exit(1)
 
     root_dir = sys.argv[1]
+    try:
+        level = int(sys.argv[2])
+        if level < 1:
+            raise ValueError
+    except ValueError:
+        print("Error: level must be a positive integer")
+        sys.exit(1)
+
     all_classes = set()
 
     # First pass: Collect all fully qualified class names in the project
@@ -86,10 +108,10 @@ if __name__ == '__main__':
                     full_class_name = f"{package}.{class_name}"
                     all_classes.add(full_class_name)
 
-    # Store dependencies: class -> set of classes it depends on
-    dependencies = defaultdict(set)
+    # Store dependencies between package groups
+    group_dependencies = set()
 
-    # Second pass: Analyze dependencies based on specific imports
+    # Second pass: Analyze dependencies based on package groups
     for root, dirs, files in os.walk(root_dir):
         for file in files:
             if file.endswith('.java'):
@@ -98,86 +120,77 @@ if __name__ == '__main__':
                 if package:
                     class_name = file.replace('.java', '')
                     full_class_name = f"{package}.{class_name}"
+                    importer_group = get_package_group(full_class_name, level)
                     imports = get_specific_imports(file_path)
                     for imp in imports:
                         # Only include dependencies on classes within the project
                         # Exclude self-dependencies
                         if imp in all_classes and imp != full_class_name:
-                            dependencies[full_class_name].add(imp)
+                            imported_group = get_package_group(imp, level)
+                            if imported_group != importer_group:
+                                group_dependencies.add((importer_group, imported_group))
 
     # Output the dependency graph in DOT format
     print('digraph G {')
-    for class_name in sorted(dependencies):
-        for dep in sorted(dependencies[class_name]):
-            print(f'  "{class_name}" -> "{dep}";')
+    for from_group, to_group in sorted(group_dependencies):
+        print(f'  "{from_group}" -> "{to_group}";')
     print('}')
 ```
 
-### How It Works
-#### 1. **Command-Line Input**
-- The script expects a single argument: the root directory of the Java project.
-- Example usage: `python script.py /path/to/project`
-- If no argument is provided, it prints usage instructions and exits.
+### Explanation of Changes
 
-#### 2. **Finding `.java` Files**
-- Uses `os.walk()` to recursively traverse the specified directory and identify all files ending with `.java`.
+1. **Command-Line Arguments**:
+   - **Original**: `python script.py <root_directory>`
+   - **Modified**: `python script.py <root_directory> <level>`
+   - Added support for a second argument, `level`, which specifies the package hierarchy level. The script checks that exactly two arguments are provided and that `level` is a positive integer.
 
-#### 3. **Extracting Class Information**
-- **Package Extraction**: The `get_package` function reads each `.java` file and uses a regular expression (`^\s*package\s+([\w.]+);`) to find the package declaration (e.g., `package com.mycompany.myproject;`).
-  - Returns `None` if no package is found or if the file can't be read.
-- **Class Name**: Assumes the class name matches the file name (e.g., `MyClass.java` defines `MyClass`).
-- **Fully Qualified Name**: Combines package and class name (e.g., `com.mycompany.myproject.MyClass`).
+2. **New Function: `get_package_group`**:
+   - Added a function to compute the package group for a class based on the specified `level`.
+   - For a fully qualified class name (e.g., "org.springframework.boot.App"), it extracts the package ("org.springframework.boot"), splits it into parts ("org", "springframework", "boot"), and takes the first `level` parts:
+     - If `level=1`: Returns "org".
+     - If `level=2`: Returns "org.springframework".
+     - If the package has fewer parts than `level` (e.g., "com.example" with `level=3`), it returns the full package ("com.example").
 
-#### 4. **Collecting All Classes**
-- In the first pass, builds a set of all fully qualified class names in the project for quick lookup later.
+3. **Dependency Grouping**:
+   - **Original**: Used `defaultdict(set)` to store dependencies between individual classes.
+   - **Modified**: Uses a `set` (`group_dependencies`) to store directed edges between package groups as tuples `(from_group, to_group)`.
+   - For each class:
+     - Computes its package group (`importer_group`) using `get_package_group`.
+     - For each specific import that is within the project (`imp in all_classes`) and not the class itself (`imp != full_class_name`):
+       - Computes the imported class's package group (`imported_group`).
+       - If the groups differ (`imported_group != importer_group`), adds an edge to `group_dependencies`.
+   - The `set` ensures uniqueness, so multiple dependencies between the same groups result in a single edge.
 
-#### 5. **Analyzing Dependencies**
-- **Import Extraction**: The `get_specific_imports` function extracts import statements using a regex (`^\s*import\s+([\w.]+);`), excluding wildcard imports (e.g., `import java.util.*;`).
-  - Example: From `import com.mycompany.myproject.utils.Helper;`, it extracts `com.mycompany.myproject.utils.Helper`.
-- **Dependency Mapping**: For each `.java` file:
-  - Gets its fully qualified class name.
-  - Checks its specific imports.
-  - If an imported class is in the project’s class set and not the class itself, adds a dependency.
+4. **DOT Output**:
+   - **Original**: Printed edges between individual classes (e.g., "org.springframework.boot.App" -> "org.apache.commons.IOUtils").
+   - **Modified**: Prints edges between package groups (e.g., "org.springframework" -> "org.apache" for `level=2`).
+   - Edges are sorted for consistent output.
 
-#### 6. **Outputting Dependency Text**
-- Outputs a directed graph in DOT format:
-  - Starts with `digraph G {`.
-  - For each class with dependencies, prints edges like `"ClassA" -> "ClassB";`.
-  - Ends with `}`.
-- Classes and dependencies are sorted for consistent output.
-- Example output:
-  ```
-  digraph G {
-    "com.mycompany.myproject.ClassA" -> "com.mycompany.myproject.utils.Helper";
-    "com.mycompany.myproject.ClassB" -> "com.mycompany.myproject.ClassA";
-  }
-  ```
+### How It Meets Your Requirements
 
-### Usage Example
-1. Save the script as `analyze_deps.py`.
-2. Run it:
-   ```bash
-   python analyze_deps.py /path/to/java/project
-   ```
-3. Redirect output to a file:
-   ```bash
-   python analyze_deps.py /path/to/java/project > dependencies.dot
-   ```
-4. Visualize with Graphviz:
-   ```bash
-   dot -Tpng dependencies.dot -o dependencies.png
-   ```
-   This generates a PNG image showing the dependency graph.
+- **Support for Levels**: The script now accepts a `level` parameter to group packages before analyzing dependencies.
+- **Level = 1**: Groups all classes by their top-level package (e.g., "org"). For example, "org.springframework.boot.App" and "org.apache.commons.IOUtils" both belong to the "org" group, so imports between them within "org" are not shown as edges.
+- **Level = 2**: Groups classes by the first two package levels (e.g., "org.springframework"). For example, an import from "org.springframework.boot.App" to "org.apache.commons.IOUtils" creates an edge from "org.springframework" to "org.apache".
+- **Accumulate Packages Before Dependency Analysis**: The script determines each class's package group based on `level` before analyzing its imports, ensuring dependencies are between groups, not individual classes.
+- **Example Compliance**: For your example edge:
+  - Original: `"org.springframework.boot.web.servlet.server.Session" -> "org.springframework.boot.convert.DurationUnit"`
+  - With `level=2`: Both classes are in "org.springframework", so no edge is added (same group).
+  - With `level=3`: "org.springframework.boot.web" -> "org.springframework.boot.convert", adding an edge between these distinct groups.
 
-### Assumptions and Limitations
-- **One Public Class per File**: Assumes each `.java` file contains one public class named after the file, per Java convention.
-- **Import-Based Dependencies**: Only considers dependencies indicated by specific import statements (e.g., `import com.example.SomeClass;`), ignoring wildcard imports (`import com.example.*;`) and same-package references (which don’t require imports).
-- **Internal Focus**: Only tracks dependencies between classes within the project, ignoring external libraries.
-- **Basic Parsing**: Uses regex for simplicity, which may miss edge cases (e.g., imports within comments). A full Java parser would be more robust but complex.
+### Usage Examples
 
-### Customization
-- **Output Format**: Modify the print statements to change the dependency text format (e.g., a plain list instead of DOT).
-- **Error Handling**: Enhanced with try-except blocks to skip unreadable files gracefully.
-- **Scope**: Could be extended to include external dependencies or same-package dependencies with deeper code analysis.
+- **Command**: `python script.py /path/to/project 1`
+  - Groups: "org", "com", etc.
+  - Output might include: `"org" -> "com"` if a class in an "org" package imports a class in a "com" package.
 
-This script provides a practical starting point for dependency analysis, suitable for understanding the structure of a Java project through its internal class relationships.
+- **Command**: `python script.py /path/to/project 2`
+  - Groups: "org.springframework", "org.apache", etc.
+  - Output might include: `"org.springframework" -> "org.apache"`.
+
+### Notes
+
+- The script maintains the original behavior of only including intra-project dependencies (imports within `all_classes`) and excluding wildcard imports and self-dependencies.
+- Classes without a package declaration are skipped, consistent with the original script.
+- The output is a directed graph in DOT format, viewable with tools like Graphviz.
+
+This modified script should fully satisfy your request to group dependencies by package level hierarchy.
