@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: fr
 layout: post
 title: Analyser les POM Maven pour Générer un Graphique de Dépendances
