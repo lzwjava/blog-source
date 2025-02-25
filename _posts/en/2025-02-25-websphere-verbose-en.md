@@ -78,3 +78,7 @@ To achieve verbose logging when using the `server` command:
 This approach ensures you get the detailed logs you need, tailored to your debugging or monitoring requirements.
 
 If you meant something more specific (e.g., command execution verbosity rather than server logs), feel free to clarify! Otherwise, configuring the server’s logging as described is the standard way to enable verbose logging with the `server` command in WLP.
+
+--- 
+
+Note: Be careful with the `logs` directory. It contains logs, such as trace files.
