@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: ps Command and its Options
+title: Command ps and its Options
 translated: false
 ---
 

@@ -6,7 +6,7 @@ title: Comando ps y sus opciones
 translated: true
 ---
 
-Déjame desglosar el comando `ps -ef | grep java` y luego explicar algunas opciones comunes para el comando `ps` para ayudarte a entender cómo funciona y cómo puedes personalizarlo.
+Permíteme desglosar el comando `ps -ef | grep java` y luego explicar algunas opciones comunes para el comando `ps` para ayudarte a entender cómo funciona y cómo puedes personalizarlo.
 
 ### Explicación de `ps -ef | grep java`
 El comando `ps -ef | grep java` se utiliza para listar todos los procesos en ejecución en un sistema tipo Unix y filtrar la salida para mostrar solo aquellos relacionados con Java. Aquí está lo que hace cada parte:
@@ -24,12 +24,12 @@ El comando `ps` es altamente personalizable con diversas opciones para adaptar s
 
 - **`-e`**: Selecciona todos los procesos en ejecución en el sistema, independientemente del usuario. Esto es ideal para obtener una visión completa de lo que está sucediendo.
 - **`-f`**: Muestra un listado en formato completo con detalles adicionales, como el UID, PID, PPID, uso de CPU y la línea de comando completa.
-- **`-u nombre_de_usuario`**: Muestra los procesos propiedad de un usuario específico. Por ejemplo, `ps -u alice` lista todos los procesos ejecutados por el usuario "alice".
+- **`-u username`**: Muestra los procesos propiedad de un usuario específico. Por ejemplo, `ps -u alice` lista todos los procesos ejecutados por el usuario "alice".
 - **`-p pid`**: Muestra información sobre un proceso específico por su ID de proceso (PID). Por ejemplo, `ps -p 5678` muestra detalles para el proceso con PID 5678.
 - **`--forest`**: Muestra los procesos en un formato de árbol, destacando las relaciones padre-hijo entre los procesos, lo cual es útil para entender las jerarquías de procesos.
-- **`-a`**: Selecciona todos los procesos excepto los líderes de sesión y aquellos no vinculados a una terminal.
+- **`-a`**: Selecciona todos los procesos excepto los líderes de sesión y aquellos que no están vinculados a una terminal.
 - **`-l`**: Proporciona un listado en formato largo, incluyendo campos adicionales como la prioridad, el valor nice y el uso de memoria.
-- **`-o formato`**: Te permite personalizar las columnas de salida. Por ejemplo, `ps -o pid,comm` muestra solo el PID y el nombre del comando.
+- **`-o format`**: Te permite personalizar las columnas de salida. Por ejemplo, `ps -o pid,comm` muestra solo el PID y el nombre del comando.
 - **`aux`**: Una combinación popular en estilo BSD que muestra todos los procesos (`a`), con detalles orientados al usuario (`u`) e incluye procesos sin una terminal de control (`x`).
 
 ### Cómo Usar Estas Opciones
