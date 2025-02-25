@@ -19,3 +19,5 @@ translated: false
 - Parking costs around 16 CNY per hour in that area.
 
 - Save energy during your commute to work on something that matters more. Or use your commute as a distraction to focus on something that is less painful.
+
+- Use the Shortcuts app to set a shortcut for when you arrive at the office. The Shortcuts app will open the WeCom app to punch your card.

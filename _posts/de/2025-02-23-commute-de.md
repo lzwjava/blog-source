@@ -6,9 +6,11 @@ title: Pendeln
 translated: true
 ---
 
-- Ich wohnte 2 km von der U-Bahn-Station Jinfeng entfernt. Mein Büro befand sich im Renfeng-Gebäude im Tianhe-Bezirk.
+- Ich wohnte 2 km von der U-Bahn-Station Jinfeng entfernt. Das Büro befand sich im Bezirk Tianhe.
 
-- Von zu Hause aus ging ich zum Jinfeng-Terminal, nahm die Linie 6 zum Tianhe-Busbahnhof und ging dann 500 m zum Büro.
+- Von zu Hause aus ging ich zum Jinfeng-Terminal, nahm die Linie 6 zum Tianhe-Bus-Terminal, dann die Linie 3 zum Shipaiqiao-Terminal und ging dann 500 m zum Büro.
+
+- Einmal fuhr ich vom Jinfeng-Terminal, nahm die Linie 6 zum Tianhe-Bus-Terminal, wechselte zur Linie 3 zur Tiyu Xilu Road Terminal und fuhr dann weiter mit der Linie 3 zum Shipaiqiao-Terminal—alles weil ich an einer der Haltestellen meine Haltestelle verpasst hatte.
 
 - Eine Didi-Fahrt kostete etwa 60 CNY pro Fahrt. Eine Gaode-Fahrt kostete etwa 40 CNY pro Fahrt.
 
@@ -16,8 +18,6 @@ translated: true
 
 - Parken kostet etwa 16 CNY pro Stunde in diesem Bereich.
 
-- Meine Firma hatte eine hybride Arbeitsrichtlinie, die uns verpflichtete, mindestens drei Tage pro Woche im Büro zu arbeiten.
+- Sparen Sie Energie während Ihrer Fahrt zur Arbeit für etwas, das wichtiger ist. Oder nutzen Sie Ihre Fahrt als Ablenkung, um sich auf etwas zu konzentrieren, das weniger schmerzhaft ist.
 
-- Arbeiten im Büro bietet eine großartige Wi-Fi- oder Ethernet-Verbindung zum internen Netzwerk. Außerdem kann ich einige Kollegen treffen, auch wenn wir nicht in derselben Gruppe sind. Und ich kann verschiedene Mahlzeiten bestellen.
-
-- Sparen Sie Energie während Ihrer Fahrt zur Arbeit für etwas Wichtigeres. Oder nutzen Sie Ihre Fahrt als Ablenkung, um sich auf etwas zu konzentrieren, das weniger schmerzhaft ist.
+- Verwenden Sie die Shortcuts-App, um eine Verknüpfung einzurichten, wenn Sie am Büro ankommen. Die Shortcuts-App wird die WeCom-App öffnen, um Ihre Karte zu stempeln.

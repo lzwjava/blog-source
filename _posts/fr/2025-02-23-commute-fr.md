@@ -14,10 +14,10 @@ translated: true
 
 - Une voiture Didi coûtait environ 60 CNY par trajet. Une voiture Gaode coûtait environ 40 CNY par trajet.
 
-- Le bus de nuit 68 va directement de la maison au bureau, sans avoir besoin de changer de ligne.
+- Le bus de nuit 68 va directement entre la maison et le bureau, sans avoir besoin de changer de ligne.
 
 - Le stationnement coûte environ 16 CNY par heure dans cette zone.
 
-- Travailler au bureau offre une excellente connexion Wi-Fi ou Ethernet au réseau interne. De plus, je peux rencontrer certains collègues, même si nous ne sommes pas dans le même groupe. Et je peux commander différents repas à manger.
+- Économisez de l'énergie pendant votre trajet pour aller travailler sur quelque chose de plus important. Ou utilisez votre trajet comme une distraction pour vous concentrer sur quelque chose de moins douloureux.
 
-- Économisez de l'énergie pendant votre trajet pour travailler sur quelque chose qui compte plus. Ou utilisez votre trajet comme distraction pour vous concentrer sur quelque chose qui est moins douloureux.
+- Utilisez l'application Shortcuts pour définir un raccourci lorsque vous arrivez au bureau. L'application Shortcuts ouvrira l'application WeCom pour pointer votre carte.
