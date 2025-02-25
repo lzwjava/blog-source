@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: Understanding the ps Command and its Options
+title: ps Command and its Options
 translated: false
 ---
 
