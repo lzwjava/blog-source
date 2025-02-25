@@ -3,6 +3,7 @@ layout: post
 title: "Java Packages"
 lang: en
 audio: false
+translated: false
 ---
 
 To deeply understand the packages listed in your project, I'll explain each one, group them into meaningful categories, and provide common API usage examples. These packages come from Java standard libraries, Spring Framework, Google Cloud, and other third-party libraries, indicating a complex enterprise application. Let’s break them down systematically.

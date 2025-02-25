@@ -3,6 +3,7 @@ layout: post
 title: "Java Packages - Conversation"
 lang: en
 audio: false
+translated: false
 ---
 
 A: Hey, I've got this Java project with a bunch of packages, and I want to understand them deeply. Can you help me out?
