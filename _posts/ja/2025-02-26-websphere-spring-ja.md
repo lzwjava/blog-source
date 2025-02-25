@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: ja
 layout: post
 title: Spring BootをWebSphere Liberty Profileにデプロイする

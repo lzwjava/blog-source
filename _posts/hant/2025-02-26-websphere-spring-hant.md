@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: hant
 layout: post
 title: 部署 Spring Boot 到 WebSphere Liberty Profile

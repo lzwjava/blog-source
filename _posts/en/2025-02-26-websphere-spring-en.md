@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: en
 layout: post
 title: Deploying Spring Boot to WebSphere Liberty Profile
