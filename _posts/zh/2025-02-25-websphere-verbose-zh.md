@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: zh
 layout: post
 title: 冗长日志记录在WebSphere Liberty服务器

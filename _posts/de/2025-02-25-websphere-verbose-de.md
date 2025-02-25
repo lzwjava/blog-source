@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: de
 layout: post
 title: Verbose Logging im WebSphere Liberty Server
