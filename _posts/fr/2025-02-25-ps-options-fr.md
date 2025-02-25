@@ -5,20 +5,20 @@ layout: post
 title: 'ps Command and its Options
 
 
-  La commande ps et ses options'
+  Commande ps et ses options'
 translated: true
 ---
 
-Me permettez de décomposer la commande `ps -ef | grep java`, puis d'expliquer certaines options courantes pour la commande `ps` afin de vous aider à comprendre son fonctionnement et comment vous pouvez la personnaliser.
+Me laissez décomposer la commande `ps -ef | grep java`, puis expliquer quelques options courantes pour la commande `ps` afin de vous aider à comprendre son fonctionnement et comment vous pouvez la personnaliser.
 
 ### Explication de `ps -ef | grep java`
 La commande `ps -ef | grep java` est utilisée pour lister tous les processus en cours d'exécution sur un système de type Unix et filtrer la sortie pour afficher uniquement ceux liés à Java. Voici ce que fait chaque partie :
 
 - **`ps`** : Il s'agit de la commande d'état des processus, qui affiche des informations sur les processus actifs.
 - **`-e`** : Cette option sélectionne tous les processus, y compris ceux exécutés par d'autres utilisateurs, et non seulement les vôtres.
-- **`-f`** : Cela signifie "listing au format complet", fournissant des informations détaillées telles que l'identifiant utilisateur (UID), l'identifiant de processus (PID), l'identifiant de processus parent (PPID), l'heure de début et la commande en cours d'exécution.
+- **`-f`** : Cela signifie "format complet", fournissant une sortie détaillée telle que l'identifiant utilisateur (UID), l'identifiant de processus (PID), l'identifiant de processus parent (PPID), l'heure de début et la commande en cours d'exécution.
 - **`|`** : Ce symbole de pipe prend la sortie de `ps -ef` et l'envoie à la commande suivante.
-- **`grep java`** : Cela filtre la sortie pour afficher uniquement les lignes contenant le mot "java", facilitant ainsi la recherche des processus liés à Java (comme une application ou un serveur Java).
+- **`grep java`** : Cela filtre la sortie pour afficher uniquement les lignes contenant le mot "java", ce qui facilite l'identification des processus liés à Java (comme une application ou un serveur Java).
 
 Cette commande est particulièrement utile si vous essayez de trouver et de surveiller les processus Java en cours d'exécution sur votre système.
 
@@ -33,10 +33,10 @@ La commande `ps` est hautement personnalisable avec diverses options pour adapte
 - **`-a`** : Sélectionne tous les processus sauf les leaders de session et ceux qui ne sont pas liés à un terminal.
 - **`-l`** : Fournit une liste au format long, incluant des champs supplémentaires comme la priorité, la valeur nice et l'utilisation de la mémoire.
 - **`-o format`** : Vous permet de personnaliser les colonnes de sortie. Par exemple, `ps -o pid,comm` affiche uniquement le PID et le nom de la commande.
-- **`aux`** : Une combinaison populaire au style BSD qui affiche tous les processus (`a`), avec des détails orientés utilisateur (`u`), et inclut les processus sans terminal de contrôle (`x`).
+- **`aux`** : Une combinaison populaire au format BSD qui affiche tous les processus (`a`), avec des détails orientés utilisateur (`u`), et inclut les processus sans terminal de contrôle (`x`).
 
 ### Comment utiliser ces options
-Vous pouvez combiner et associer ces options en fonction de vos besoins. Par exemple :
+Vous pouvez combiner et assortir ces options en fonction de vos besoins. Par exemple :
 - `ps -ef` vous donne une liste détaillée de tous les processus.
 - `ps -u john` affiche ce que l'utilisateur "john" exécute.
 - `ps aux` (notez qu'il n'y a pas de tiret ici, style BSD) est une manière courante de voir tous les processus avec des détails utilisateur.
