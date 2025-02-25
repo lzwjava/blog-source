@@ -2,6 +2,8 @@
 lang: en
 layout: post
 title: "Node.js OpenSSL Compatibility"
+audio: false
+translated: false
 ---
 
 When running `ng build` with **Node.js 22.9.0** and **npm 10.8.3**, you encounter the error:

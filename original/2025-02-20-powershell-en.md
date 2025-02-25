@@ -1,7 +1,9 @@
 ---
 layout: post  
-title: "PowerShell"  
-audio: false  
+title: PowerShell Commands
+lang: en
+audio: false
+translated: false
 ---
 
 For PowerShell scripts, the conventional file extension is `.ps1`. Here's how you would list these commands in a `.ps1` file:
