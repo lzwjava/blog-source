@@ -6,15 +6,15 @@ title: JVM-Optionen im WebSphere Liberty Server
 translated: true
 ---
 
-Um die JVM-Optionen zu überprüfen, die in der Datei `jvm.options` im Serververzeichnis eines WebSphere Liberty Profile (WLP)-Servers festgelegt sind, können Sie den `jinfo`-Befehl verwenden, der vom Java Development Kit (JDK) bereitgestellt wird. Diese Methode ermöglicht es Ihnen, die für einen laufenden Server angewendeten Optionen effizient zu überprüfen. Hier ist eine Schritt-für-Schritt-Anleitung, um dies zu erreichen:
+Um die JVM-Optionen zu überprüfen, die in der Datei `jvm.options` im Serververzeichnis eines WebSphere Liberty Profile (WLP)-Servers festgelegt sind, können Sie den `jinfo`-Befehl verwenden, der vom Java Development Kit (JDK) bereitgestellt wird. Diese Methode ermöglicht es Ihnen, die auf einen laufenden Server angewendeten Optionen effizient zu überprüfen. Hier ist eine Schritt-für-Schritt-Anleitung, um dies zu erreichen:
 
-### Schritte zur Überprüfung der JVM-Optionen
+### Schritte zum Überprüfen der JVM-Optionen
 
 1. **Kontext verstehen**
-   Die Datei `jvm.options` im Serververzeichnis (in der Regel `<WLP_HOME>/usr/servers/<serverName>/jvm.options`) wird verwendet, um JVM-Argumente wie die Heap-Größe (z. B. `-Xmx`), Garbage Collection-Einstellungen (z. B. `-XX:+UseG1GC`) oder Systemeigenschaften (z. B. `-Dmy.property=value`) festzulegen, die angewendet werden, wenn der Liberty-Server startet.
+   Die Datei `jvm.options` im Serververzeichnis (typischerweise `<WLP_HOME>/usr/servers/<serverName>/jvm.options`) wird verwendet, um JVM-Argumente wie Heap-Größe (z. B. `-Xmx`), Garbage Collection-Einstellungen (z. B. `-XX:+UseG1GC`) oder Systemeigenschaften (z. B. `-Dmy.property=value`) festzulegen, die angewendet werden, wenn der Liberty-Server startet.
 
 2. **Server starten**
-   Beginnen Sie damit, Ihren Liberty-Server im Hintergrund mit dem folgenden Befehl zu starten:
+   Beginnen Sie damit, Ihren Liberty-Server im Hintergrund zu starten, indem Sie den folgenden Befehl verwenden:
    ```
    <WLP_HOME>/bin/server start <serverName>
    ```
@@ -28,7 +28,7 @@ Um die JVM-Optionen zu überprüfen, die in der Datei `jvm.options` im Serverver
    Öffnen Sie diese Datei (z. B. mit `cat` auf Unix-ähnlichen Systemen oder einem Texteditor), um die PID zu erhalten, die ein numerischer Wert ist, der den Serverprozess darstellt.
 
 4. **JVM-Flags überprüfen**
-   Verwenden Sie den `jinfo`-Befehl, um die JVM-Flags zu überprüfen, die auf den laufenden Server angewendet wurden. Führen Sie aus:
+   Verwenden Sie den `jinfo`-Befehl, um die auf den laufenden Server angewendeten JVM-Flags zu inspizieren. Führen Sie aus:
    ```
    jinfo -flags <pid>
    ```
@@ -39,7 +39,7 @@ Um die JVM-Optionen zu überprüfen, die in der Datei `jvm.options` im Serverver
    ```
    jinfo -sysprops <pid>
    ```
-   Dies zeigt alle Systemeigenschaften an, die für die JVM festgelegt wurden. Suchen Sie in der Ausgabe nach den spezifischen Eigenschaften, die Sie definiert haben, um sicherzustellen, dass sie korrekt angewendet wurden.
+   Dies zeigt alle für die JVM festgelegten Systemeigenschaften an. Suchen Sie in der Ausgabe nach den spezifischen Eigenschaften, die Sie definiert haben, um sicherzustellen, dass sie korrekt angewendet wurden.
 
 ### Voraussetzungen
 - **JDK installiert**: Der `jinfo`-Befehl ist Teil des JDK, nicht des JRE. Stellen Sie sicher, dass ein JDK installiert ist und dass das `jinfo`-Programm sich im Pfad Ihres Systems befindet.
@@ -57,7 +57,7 @@ Wenn `jinfo` nicht verfügbar ist oder Sie eine andere Vorgehensweise bevorzugen
   3. Suchen Sie die generierte `.zip`-Datei in `<WLP_HOME>/usr/servers/<serverName>/`, entpacken Sie sie und öffnen Sie die Datei `javacore.<timestamp>.txt`.
   4. Suchen Sie nach dem Abschnitt "CMDLINE", um die vollständige Java-Befehlszeile einschließlich der JVM-Flags und den Abschnitt "System Properties" für die Systemeigenschaften zu sehen.
 
-- **Verfolgung des Startskripts** (Unix-ähnliche Systeme):
+- **Verfolgen des Startskripts** (Unix-ähnliche Systeme):
   1. Führen Sie das Server-Skript mit aktivierter Verfolgung aus:
      ```
      sh -x <WLP_HOME>/bin/server start <serverName>
@@ -66,7 +66,15 @@ Wenn `jinfo` nicht verfügbar ist oder Sie eine andere Vorgehensweise bevorzugen
 
 ### Hinweise
 - **Server läuft nicht**: Wenn der Server aufgrund ungültiger Optionen nicht startet, verwenden Sie `server run <serverName>`, um ihn im Vordergrund auszuführen und die Konsolenausgabe auf Fehler zu überprüfen, oder verwenden Sie die Skriptverfolgungsmethode, um den Befehl zu sehen.
-- **Protokolldateien**: Die `console.log`-Datei in `<WLP_HOME>/usr/servers/<serverName>/logs/` kann einige Startinformationen enthalten, listet aber nicht zuverlässig alle JVM-Optionen auf, es sei denn, das ausführliche Protokollieren ist aktiviert (z. B. `-XX:+PrintFlagsFinal`).
+- **Protokolldateien**: Die Datei `console.log` in `<WLP_HOME>/usr/servers/<serverName>/logs/` kann einige Startinformationen enthalten, listet aber nicht zuverlässig alle JVM-Optionen auf, es sei denn, das ausführliche Protokollieren ist aktiviert (z. B. `-XX:+PrintFlagsFinal`).
 
 ### Fazit
-Die `jinfo`-Methode ist die einfachste Möglichkeit, die in `jvm.options` festgelegten JVM-Optionen für einen laufenden Liberty-Server zu überprüfen. Durch die oben genannten Schritte können Sie bestätigen, dass sowohl JVM-Flags als auch Systemeigenschaften wie beabsichtigt angewendet wurden.
+Die `jinfo`-Methode ist die einfachste Möglichkeit, die in `jvm.options` festgelegten JVM-Optionen für einen laufenden Liberty-Server zu überprüfen. Durch die obigen Schritte können Sie bestätigen, dass sowohl JVM-Flags als auch Systemeigenschaften wie beabsichtigt angewendet werden.
+
+---
+
+Der `jinfo`-Befehl meldete, dass er sich nicht an den Prozess anhängen konnte.
+
+Zusätzlich konnte die Datei `javacore.<timestamp>.txt` nach Verwendung des Dump-Befehls nicht gefunden werden.
+
+Die Version des WebSphere Liberty Servers ist 24.0.0.9.

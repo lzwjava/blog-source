@@ -2,11 +2,11 @@
 audio: true
 lang: fr
 layout: post
-title: Options JVM dans WebSphere Liberty Server
+title: Options JVM dans le serveur WebSphere Liberty
 translated: true
 ---
 
-Pour vérifier les options JVM définies dans le fichier `jvm.options` situé dans le répertoire serveur d'un serveur WebSphere Liberty Profile (WLP), vous pouvez utiliser la commande `jinfo` fournie par le Java Development Kit (JDK). Cette méthode vous permet de vérifier les options appliquées à un serveur en cours d'exécution de manière efficace. Voici un guide étape par étape pour accomplir cela :
+Pour vérifier les options JVM définies dans le fichier `jvm.options` situé dans le répertoire serveur d'un serveur WebSphere Liberty Profile (WLP), vous pouvez utiliser la commande `jinfo` fournie par le Java Development Kit (JDK). Cette méthode vous permet de vérifier efficacement les options appliquées à un serveur en cours d'exécution. Voici un guide étape par étape pour y parvenir :
 
 ### Étapes pour vérifier les options JVM
 
@@ -18,7 +18,7 @@ Pour vérifier les options JVM définies dans le fichier `jvm.options` situé da
    ```
    <WLP_HOME>/bin/server start <serverName>
    ```
-   Remplacez `<WLP_HOME>` par le chemin vers votre installation WebSphere Liberty et `<serverName>` par le nom de votre serveur. Cette commande lance le serveur en tant que processus en arrière-plan.
+   Remplacez `<WLP_HOME>` par le chemin d'installation de WebSphere Liberty et `<serverName>` par le nom de votre serveur. Cette commande lance le serveur en tant que processus en arrière-plan.
 
 3. **Localiser l'identifiant de processus (PID)**
    Après avoir démarré le serveur, vous avez besoin de l'identifiant de processus du processus Java en cours d'exécution. Liberty stocke cela de manière pratique dans un fichier `.pid` situé à :
@@ -43,7 +43,7 @@ Pour vérifier les options JVM définies dans le fichier `jvm.options` situé da
 
 ### Prérequis
 - **JDK installé** : La commande `jinfo` fait partie du JDK, pas du JRE. Assurez-vous d'avoir un JDK installé et que l'exécutable `jinfo` est dans le PATH de votre système.
-- **Permissions** : Exécutez `jinfo` avec le même utilisateur qui a démarré le serveur ou avec des privilèges suffisants pour s'attacher au processus.
+- **Permissions** : Exécutez `jinfo` avec le même utilisateur qui a démarré le serveur ou avec des privilèges suffisants pour se connecter au processus.
 
 ### Méthodes alternatives
 Si `jinfo` n'est pas disponible ou si vous préférez une autre approche, voici deux options supplémentaires :
@@ -70,3 +70,11 @@ Si `jinfo` n'est pas disponible ou si vous préférez une autre approche, voici 
 
 ### Conclusion
 La méthode `jinfo` est la manière la plus simple de vérifier les options JVM définies dans `jvm.options` pour un serveur Liberty en cours d'exécution. En suivant les étapes ci-dessus, vous pouvez confirmer que les drapeaux JVM et les propriétés système sont appliqués comme prévu.
+
+---
+
+La commande `jinfo` a signalé qu'elle ne pouvait pas se connecter au processus.
+
+De plus, le fichier `javacore.<timestamp>.txt` n'a pas pu être trouvé après l'utilisation de la commande de dump.
+
+La version du serveur WebSphere Liberty est 24.0.0.9.

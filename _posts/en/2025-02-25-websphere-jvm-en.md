@@ -70,3 +70,11 @@ If `jinfo` is unavailable or you prefer another approach, here are two additiona
 
 ### Conclusion
 The `jinfo` method is the most straightforward way to verify the JVM options set in `jvm.options` for a running Liberty server. By following the steps above, you can confirm both JVM flags and system properties are applied as intended.
+
+---
+
+The `jinfo` command reported that it could not attach to the process.
+
+Additionally, the `javacore.<timestamp>.txt` file could not be found after using the dump command.
+
+The version of WebSphere Liberty Server is 24.0.0.9.

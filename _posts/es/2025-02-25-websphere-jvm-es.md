@@ -11,7 +11,7 @@ Para verificar las opciones de la JVM configuradas en el archivo `jvm.options` u
 ### Pasos para verificar las opciones de la JVM
 
 1. **Entender el contexto**
-   El archivo `jvm.options` en el directorio del servidor (generalmente `<WLP_HOME>/usr/servers/<serverName>/jvm.options`) se utiliza para especificar argumentos de la JVM, como el tamaño del montículo (por ejemplo, `-Xmx`), configuraciones de recolección de basura (por ejemplo, `-XX:+UseG1GC`) o propiedades del sistema (por ejemplo, `-Dmy.property=value`), que se aplican cuando el servidor Liberty se inicia.
+   El archivo `jvm.options` en el directorio del servidor (generalmente `<WLP_HOME>/usr/servers/<serverName>/jvm.options`) se utiliza para especificar argumentos de la JVM, como el tamaño del heap (por ejemplo, `-Xmx`), la configuración de la recolección de basura (por ejemplo, `-XX:+UseG1GC`) o las propiedades del sistema (por ejemplo, `-Dmy.property=value`), que se aplican cuando se inicia el servidor Liberty.
 
 2. **Iniciar el servidor**
    Comienza iniciando tu servidor Liberty en segundo plano usando el siguiente comando:
@@ -39,7 +39,7 @@ Para verificar las opciones de la JVM configuradas en el archivo `jvm.options` u
    ```
    jinfo -sysprops <pid>
    ```
-   Esto muestra todas las propiedades del sistema establecidas para la JVM. Busca en la salida las propiedades específicas que definiste para asegurarte de que se aplicaron correctamente.
+   Esto muestra todas las propiedades del sistema configuradas para la JVM. Busca en la salida las propiedades específicas que definiste para asegurarte de que se aplicaron correctamente.
 
 ### Requisitos previos
 - **JDK instalado**: El comando `jinfo` es parte del JDK, no del JRE. Asegúrate de tener un JDK instalado y que el ejecutable `jinfo` esté en el PATH del sistema.
@@ -54,7 +54,7 @@ Si `jinfo` no está disponible o prefieres otro enfoque, aquí tienes dos opcion
      ```
      <WLP_HOME>/bin/server dump <serverName>
      ```
-  3. Localiza el archivo `.zip` generado en `<WLP_HOME>/usr/servers/<serverName>/`, extraelo y abre el archivo `javacore.<timestamp>.txt`.
+  3. Localiza el archivo `.zip` generado en `<WLP_HOME>/usr/servers/<serverName>/`, extrae y abre el archivo `javacore.<timestamp>.txt`.
   4. Busca la sección "CMDLINE" para ver la línea de comandos completa de Java, incluyendo las banderas de la JVM, y la sección "System Properties" para las propiedades del sistema.
 
 - **Rastrear el script de inicio** (sistemas tipo Unix):
@@ -70,3 +70,11 @@ Si `jinfo` no está disponible o prefieres otro enfoque, aquí tienes dos opcion
 
 ### Conclusión
 El método `jinfo` es la manera más directa de verificar las opciones de la JVM configuradas en `jvm.options` para un servidor Liberty en ejecución. Siguiendo los pasos anteriores, puedes confirmar que tanto las banderas de la JVM como las propiedades del sistema se aplican como se espera.
+
+---
+
+El comando `jinfo` informó que no pudo adjuntarse al proceso.
+
+Además, el archivo `javacore.<timestamp>.txt` no se pudo encontrar después de usar el comando de volcado.
+
+La versión del servidor WebSphere Liberty es 24.0.0.9.
