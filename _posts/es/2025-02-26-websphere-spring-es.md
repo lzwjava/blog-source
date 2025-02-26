@@ -20,7 +20,7 @@ Comienza creando un nuevo proyecto Spring Boot utilizando Spring Initializr (o t
   - Configura lo siguiente:
     - **Proyecto:** Maven
     - **Idioma:** Java
-    - **Versión de Spring Boot:** 2.7.x (o la versión estable más reciente)
+    - **Versión de Spring Boot:** 2.7.x (o la última versión estable)
     - **Grupo:** `com.example`
     - **Artefacto:** `demo`
     - **Dependencias:** Spring Web
@@ -44,7 +44,7 @@ Comienza creando un nuevo proyecto Spring Boot utilizando Spring Initializr (o t
   ```
   Esto crea un punto final REST en la ruta raíz (`/`) que devuelve "Hello World!" como texto plano.
 
-#### 2. Configurar la Aplicación para Despliegue WAR
+#### 2. Configurar la Aplicación para el Despliegue WAR
 Por defecto, Spring Boot empaqueta las aplicaciones como archivos JAR con un servidor incrustado (por ejemplo, Tomcat). Para desplegar en WLP, necesitamos empaquetarlo como un archivo WAR y configurarlo para que funcione con el contenedor Servlet de WLP.
 
 - **Modificar la Clase Principal de la Aplicación:**
@@ -71,9 +71,9 @@ Por defecto, Spring Boot empaqueta las aplicaciones como archivos JAR con un ser
   }
   ```
 
-- **Actualizar `pom.xml` para Empaquetado WAR:**
+- **Actualizar `pom.xml` para el Empaquetado WAR:**
   Abre `pom.xml` y realiza estos cambios:
-  - Establece el empaquetado a WAR agregando esta línea cerca de la parte superior (debajo de `<modelVersion>`):
+  - Establece el empaquetado en WAR agregando esta línea cerca de la parte superior (debajo de `<modelVersion>`):
     ```xml
     <packaging>war</packaging>
     ```
@@ -84,7 +84,7 @@ Por defecto, Spring Boot empaqueta las aplicaciones como archivos JAR con un ser
         <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     ```
-    Agrega esto debajo de ella:
+    Agrega esto debajo:
     ```xml
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -129,7 +129,7 @@ Compila y empaqueta la aplicación en un archivo WAR utilizando Maven.
 Despliega el archivo WAR en WLP utilizando el directorio `dropins`, lo que habilita el despliegue automático.
 
 - **Localizar el Directorio `dropins`:**
-  Encuentra el directorio `dropins` del servidor WLP. Si WLP está instalado en `/opt/ibm/wlp` y tu servidor se llama `myServer`, la ruta es:
+  Encuentra el directorio `dropins` de tu servidor WLP. Si WLP está instalado en `/opt/ibm/wlp` y tu servidor se llama `myServer`, la ruta es:
   ```
   /opt/ibm/wlp/usr/servers/myServer/dropins
   ```
@@ -140,7 +140,7 @@ Despliega el archivo WAR en WLP utilizando el directorio `dropins`, lo que habil
   cp target/myapp.war /opt/ibm/wlp/usr/servers/myServer/dropins/
   ```
 
-- **Iniciar el Servidor (si No Está en Ejecución):**
+- **Iniciar el Servidor (si no está en ejecución):**
   Si WLP no está en ejecución, inícialo:
   ```bash
   /opt/ibm/wlp/bin/server start myServer
@@ -176,7 +176,7 @@ Prueba la aplicación Spring Boot desplegada en un navegador.
 ---
 
 ### Notas
-- **Raíz del Contexto:** La raíz del contexto (`/myapp`) se deriva del nombre del archivo WAR. Ajusta renombrando el archivo WAR según sea necesario.
+- **Raíz del Contexto:** La raíz del contexto (`/myapp`) se deriva del nombre del archivo WAR. Ajusta cambiando el nombre del archivo WAR según sea necesario.
 - **Número de Puerto:** WLP usa `9080` por defecto para HTTP. Si tu servidor usa un puerto diferente, actualiza la URL en consecuencia.
 - **Versión de Java:** Asegúrate de que WLP y tu entorno de construcción usen una versión de Java compatible (por ejemplo, Java 8 o 11 para Spring Boot 2.7.x).
 - **Características de WLP:** La característica `javaee-8.0` incluye soporte para Servlet 4.0, que es compatible con los requisitos de Spring Boot 2.7.x (Servlet 3.1+).

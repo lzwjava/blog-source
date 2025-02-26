@@ -92,7 +92,7 @@ By default, Spring Boot packages applications as JAR files with an embedded serv
         <scope>provided</scope>
     </dependency>
     ```
-  Your `pom.xml` dependencies section should now look something like this:
+  Your `pom.xml` dependencies section should now look something like this:  
   ```xml
   <dependencies>
       <dependency>
