@@ -84,10 +84,6 @@ Este archivo JSON contiene diversas configuraciones de VS Code que personalizan 
       "java.debug.settings.vmArgs": "-ea",
       "mssql.connections": [
             {
-                  "server": "{{poner-nombre-del-servidor-aquí}}",
-                  "database": "{{poner-nombre-de-la-base-de-datos-aquí}}",
-                  "user": "{{poner-nombre-de-usuario-aquí}}",
-                  "password": "{{poner-contraseña-aquí}}"
             }
       ],
       "notebook.cellToolbarLocation": {
