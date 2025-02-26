@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: de
 layout: post
 title: Servlet-Version in WebSphere Liberty Profile
