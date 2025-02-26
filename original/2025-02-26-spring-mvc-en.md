@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: Spring MVC
+title: "Spring MVC: A Step-by-Step Guide"
 translated: false
 ---
 
