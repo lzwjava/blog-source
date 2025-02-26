@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: ja
 layout: post
 title: スプリングAOP（アスペクト指向プログラミング）

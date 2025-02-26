@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: hant
 layout: post
 title: Spring IoC (控制反轉) 容器
