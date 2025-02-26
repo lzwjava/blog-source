@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: es
 layout: post
 title: Problemas de Inicio de Aplicación en WebSphere Liberty Profile
