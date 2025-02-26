@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: fr
 layout: post
 title: Résoudre les problèmes de déploiement dans WebSphere Liberty Profile
