@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: hant
 layout: post
 title: Java 同步執行緒
