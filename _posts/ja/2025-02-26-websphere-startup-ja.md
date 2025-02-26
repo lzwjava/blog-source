@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: ja
 layout: post
 title: WebSphere Liberty Profileのアプリケーション起動問題

@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: ar
 layout: post
 title: مشاكل بدء تشغيل التطبيقات في WebSphere Liberty Profile
