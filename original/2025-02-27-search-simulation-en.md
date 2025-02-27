@@ -43,7 +43,8 @@ public class AStar {
         startNode.f = startNode.h;
         open.add(startNode);
 
-        int[][] dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        // int[][] dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        int[][] dirs = {};
         while (!open.isEmpty()) {
             Node current = open.poll();
             if (current.x == goal[0] && current.y == goal[1]) {
