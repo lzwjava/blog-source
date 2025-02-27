@@ -1,8 +1,9 @@
 ---
 title: BeanDefinitionStoreException in Spring Boot
-date: 2025-02-27
 lang: en
 layout: post
+audio: fasle
+translated: false
 ---
 
 The error shown is a `BeanDefinitionStoreException: Invalid bean definition` from the Spring Framework, indicating that there’s an issue with how a bean is defined in your Spring application context. This typically occurs during the initialization of the application context when Spring tries to load and parse bean definitions but encounters a problem, such as a misconfiguration, missing dependencies, or syntax errors in your configuration files.

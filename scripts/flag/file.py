@@ -46,7 +46,6 @@ def create_note(name):
     # Note front matter (simplified version, adjust as needed)
     note_front_matter = f"""---
 title: {name}
-date: {date_str}
 lang: en
 layout: post
 audio: false
