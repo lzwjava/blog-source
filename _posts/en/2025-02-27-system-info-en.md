@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: en
 layout: post
 title: System Information on macOS

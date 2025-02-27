@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: hi
 layout: post
 title: मैकओएस पर सिस्टम जानकारी
