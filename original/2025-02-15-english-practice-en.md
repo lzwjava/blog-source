@@ -27,3 +27,8 @@ I would like to take more English courses.
 {: .centered }
 ![](assets/images/english-practice/p.jpg){: .responsive }
 *Source: Pinduoduo.com*{: .caption }
+
+---
+
+I bought 10 courses for 180 CNY and tried another merchant on Pinduoduo.com. I prefer to buy and compare products or services on Pinduoduo.
+
