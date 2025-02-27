@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: de
 layout: post
 title: Aktivieren Sie das Wortumbruch nur für bestimmte Dateiendungen

@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: fr
 layout: post
 title: Activer l'enroulement de texte uniquement pour des extensions de fichiers spécifiques

@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: ar
 layout: post
 title: تمكين لفصل الكلمات فقط لمباني ملفات محددة

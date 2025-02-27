@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: en
 layout: post
 title: Enable Word Wrapping Only for Specific File Extensions
