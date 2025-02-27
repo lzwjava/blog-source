@@ -41,3 +41,95 @@ I assume you're asking how to configure Visual Studio Code (VS Code) to enable w
    - Save the `settings.json` file, and VS Code will apply the settings immediately. Open files with different extensions to confirm the behavior.
 
 This approach ensures word wrapping is enabled only for the file types you specify, leaving all others unaffected. Let me know if you need help with specific extensions!
+
+---
+
+If you’re working with `.log` files in Visual Studio Code and want to enable word wrapping specifically for them, you’ll need to ensure VS Code recognizes these files as a distinct language mode. By default, `.log` files might not have a unique language identifier like `[log]`—they’re often treated as plain text (`[plaintext]`). However, you can configure this behavior. Here’s how to handle it:
+
+### Option 1: Use `[plaintext]` If `.log` Files Are Plain Text
+If your `.log` files are being recognized as plain text (check the language mode in the bottom-right corner of VS Code when a `.log` file is open), you can simply use `[plaintext]`:
+
+```json
+{
+    "editor.wordWrap": "off", // Default: no wrapping
+    "[plaintext]": {
+        "editor.wordWrap": "on" // Enable for .txt and .log files (if recognized as plaintext)
+    }
+}
+```
+
+- **Note**: This will apply to all plain text files (e.g., `.txt`, `.log`), not just `.log` files. If that’s too broad, proceed to Option 2.
+
+### Option 2: Associate `.log` Files with a Custom Language Mode
+If you want `[log]` to work as a specific identifier, you need to tell VS Code to associate `.log` files with a "Log" language mode. Here’s how:
+
+1. **Install a Log File Extension (Optional)**:
+   - Install an extension like "Log File Highlighter" from the VS Code Marketplace. This extension often assigns `.log` files a specific language mode (e.g., `log`).
+   - After installing, check the language mode for a `.log` file (bottom-right corner). If it says "Log" or similar, you can use `[log]` directly.
+
+2. **Manually Associate `.log` Files**:
+   - If you don’t want an extension, you can manually associate `.log` with a language mode via `files.associations` in `settings.json`:
+   ```json
+   {
+       "files.associations": {
+           "*.log": "log" // Associates .log with the "log" language mode
+       },
+       "editor.wordWrap": "off", // Default: no wrapping
+       "[log]": {
+           "editor.wordWrap": "on" // Enable for .log files only
+       }
+   }
+   ```
+   - **Caveat**: The `log` language mode must exist (e.g., provided by an extension or VS Code). If it doesn’t, VS Code might fall back to plain text, and `[log]` won’t work as expected without further customization.
+
+3. **Verify the Language Mode**:
+   - Open a `.log` file, click the language mode in the bottom-right corner, and see what it’s set to. If it’s `log` after your changes, `[log]` will work. If it’s still `plaintext`, use `[plaintext]` or adjust the association.
+
+### Option 3: Fine-Tune with File Patterns (Most Precise)**
+For ultimate control, you can use the `"files.associations"` setting to target `.log` files specifically, and then rely on a fallback language mode like `plaintext` only for `.log`:
+
+```json
+{
+    "files.associations": {
+        "*.log": "plaintext" // Force .log files to be treated as plaintext
+    },
+    "editor.wordWrap": "off", // Default: no wrapping
+    "[plaintext]": {
+        "editor.wordWrap": "on" // Enable for .log (and .txt, if desired)
+    }
+}
+```
+
+- **To Exclude `.txt`**: If you want `.log` but not `.txt` to wrap, you’d need a custom extension or a more advanced setup (e.g., a VS Code extension to define a unique `log` mode), as VS Code doesn’t natively distinguish `.log` from `.txt` without additional configuration.
+
+### Testing `[log]` Directly
+If you’re unsure whether `[log]` works out of the box (due to an extension or VS Code’s built-in behavior), try this:
+
+```json
+{
+    "editor.wordWrap": "off",
+    "[log]": {
+        "editor.wordWrap": "on"
+    }
+}
+```
+
+Open a `.log` file and see if wrapping applies. If it doesn’t, the language mode isn’t `log`, and you’ll need to use one of the above options.
+
+### Recommendation
+- **Simplest**: Use `[plaintext]` if you’re okay with `.txt` and `.log` both wrapping.
+- **Specific**: Install a "Log File Highlighter" extension, confirm the mode is `log`, and use `[log]`.
+- Let me know what language mode your `.log` files show, and I can refine the solution further!
+
+---
+
+I tested the configuration below, and it works great.
+
+```json
+   {
+       "editor.wordWrap": "off", // Default: no wrapping
+       "[log]": {
+           "editor.wordWrap": "on" // Enable for .log files only
+       }
+   }
+```
