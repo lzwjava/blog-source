@@ -25,13 +25,36 @@ title: {name}
 translated: false
 ---"""
 
-
     # Create the English markdown file
     with open(en_file_path, 'w', encoding='utf-8') as en_file:
         en_file.write(en_front_matter)
 
-
     print(f"Created file: {en_file_path}")
+
+def create_note(name):
+    # Get today's date
+    today = datetime.date.today()
+    date_str = today.strftime('%Y-%m-%d')
+
+    # Define file paths
+    notes_dir = 'notes'
+    if not os.path.exists(notes_dir):
+        os.makedirs(notes_dir)
+
+    note_file_path = os.path.join(notes_dir, f"{date_str}-{name}-en.md")
+
+    # Note front matter (simplified version, adjust as needed)
+    note_front_matter = f"""---
+title: {name}
+date: {date_str}
+lang: en
+---"""
+
+    # Create the note markdown file
+    with open(note_file_path, 'w', encoding='utf-8') as note_file:
+        note_file.write(note_front_matter)
+
+    print(f"Created note: {note_file_path}")
 
 def delete_md(name):
     posts_dir = '_posts'
@@ -71,7 +94,6 @@ def delete_md(name):
             else:
                 print(f"File not found: {original_md_file_path}")
 
-
         for pdf_file_path in glob.glob(pdf_file_pattern):
             if os.path.exists(pdf_file_path):
                 os.remove(pdf_file_path)
@@ -84,17 +106,18 @@ def delete_md(name):
         else:
             print(f"File not found: {audio_file_pattern}")
 
-
 if __name__ == "__main__":
     # Input name from command line argument
     if len(sys.argv) < 3:
-        print("Usage: python scripts/file.py <create|delete> <name>")
+        print("Usage: python scripts/file.py <create|create-note|delete> <name>")
     else:
         action = sys.argv[1]
         name = sys.argv[2]
         if action == "create":
             create_md(name)
+        elif action == "create-note":
+            create_note(name)
         elif action == "delete":
             delete_md(name)
         else:
-            print("Invalid action. Use 'create' or 'delete'.")
+            print("Invalid action. Use 'create', 'create-note', or 'delete'.")
