@@ -1,7 +1,9 @@
 ---
 layout: post  
 title: "Penetration"  
-audio: true  
+audio: fasle
+lang: en
+translated: false
 ---
 
 Yes, there are other methods and techniques used in ethical hacking or penetration testing to identify vulnerabilities in systems. Here are some additional ways:
