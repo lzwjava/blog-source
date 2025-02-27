@@ -48,6 +48,9 @@ def create_note(name):
 title: {name}
 date: {date_str}
 lang: en
+layout: post
+audio: false
+translated: false
 ---"""
 
     # Create the note markdown file
