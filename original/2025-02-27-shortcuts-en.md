@@ -2,7 +2,7 @@
 audio: false  
 lang: en  
 layout: post  
-title: Shortcuts  
+title: Using Shortcuts  
 translated: false  
 ---
 
