@@ -2,7 +2,7 @@
 audio: false  
 lang: en  
 layout: post  
-title: Using Shortcuts  
+title: Mastering iOS Shortcuts
 translated: false  
 ---
 
