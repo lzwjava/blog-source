@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: hi
 layout: post
 title: Zoom के फीचर्स
