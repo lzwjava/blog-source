@@ -7,7 +7,7 @@ from feedgen.feed import FeedGenerator
 # Configuration
 audio_dir = 'assets/audios/'
 base_url = 'https://lzwjava.github.io/'
-feed_file = 'audio-feed.xml'
+feed_file = 'audio_feed.xml'
 
 # Set up argument parser
 parser = argparse.ArgumentParser(description='Generate RSS feed for audio files.')
