@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 lang: ja
 layout: post
 title: 英語のネイティブスピーカーとの実践的な練習

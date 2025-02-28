@@ -2,7 +2,7 @@
 audio: true
 lang: ar
 layout: post
-title: 'Spring Data Redis'
+title: Spring Data Redis
 translated: true
 ---
 
