@@ -52,7 +52,12 @@ lang_map = {
     'en': 'English',
     'zh': 'Chinese',
     'hant': 'Traditional Chinese',
-    'hi': 'Hindi'
+    'hi': 'Hindi',
+    'ja': 'Japanese',
+    'es': 'Spanish',
+    'fr': 'French',
+    'de': 'German',
+    'ar': 'Arabic'
 }
 
 # Add episodes to feed
