@@ -12,7 +12,7 @@ translated: false
 
 - Good integration with WeChat. In WeChat, you can buy a data plan. If you buy a year-long plan, it’s 29 CNY per month; if you buy a half-year plan, it’s 39 CNY per month; and if you buy a one-month plan, it’s 59 CNY per month. Each month includes 1500 GB of cellular data.  
 
-- Requires KYC: you need to upload front and back photos of your national ID and complete face video detection.  
+- Requires KYC: You need to upload front and back photos of your national ID and complete face video detection. KYC is required for China Mobile and China Telecom. For the China Unicom network, it seems KYC is not required.
 
 - It’s like a portable power bank. I haven’t tried using it to charge my phone.  
 
