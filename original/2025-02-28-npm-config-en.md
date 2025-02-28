@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: Npm Configuration
+title: Npm Configuration Issue
 translated: false
 ---
 
