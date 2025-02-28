@@ -1,4 +1,5 @@
 import os
+import argparse
 from datetime import datetime
 import pytz
 from feedgen.feed import FeedGenerator
@@ -6,10 +7,15 @@ from feedgen.feed import FeedGenerator
 # Configuration
 audio_dir = 'assets/audios/'
 base_url = 'https://lzwjava.github.io/'
-feed_file = 'audio_feed.xml'
+feed_file = 'audio-feed.xml'
 
-# List all MP3 files
-audio_files = [f for f in os.listdir(audio_dir) if f.endswith('.mp3')]
+# Set up argument parser
+parser = argparse.ArgumentParser(description='Generate RSS feed for audio files.')
+parser.add_argument('--lang', type=str, required=True, help='Language code to filter audio files (e.g., en, zh)')
+args = parser.parse_args()
+
+# List all MP3 files in the audio directory matching the specified language
+audio_files = [f for f in os.listdir(audio_dir) if f.endswith('.mp3') and f.split('-')[-1].split('.')[0] == args.lang]
 
 # Parse filenames and collect episodes
 episodes = []
@@ -30,18 +36,18 @@ for audio_file in audio_files:
     episodes.append((pub_date, audio_file))
 
 # Sort episodes by publication date (newest first)
-episodes.sort(reverse=True, key=lambda x: x[0])
+episodes.sort(key=lambda x: x[0], reverse=True)
 
 # Initialize RSS feed
 fg = FeedGenerator()
 fg.id(base_url + 'podcast')
-fg.title('My Audio Podcast')
+fg.title(f'My Audio Podcast - {args.lang.upper()}')
 fg.author({'name': 'Lzwjava', 'email': 'lzwjava@example.com'})
 fg.link(href=base_url, rel='alternate')
-fg.language('en')
-fg.description('A podcast with various audio episodes')
+fg.language(args.lang)
+fg.description(f'A podcast with audio episodes in {args.lang}')
 
-# Language mapping
+# Language mapping for readable titles
 lang_map = {
     'en': 'English',
     'zh': 'Chinese',
@@ -50,7 +56,7 @@ lang_map = {
 }
 
 # Add episodes to feed
-for pub_date, audio_file in episodes:
+for pub_date, audio_file in episodes:  # Episodes are already sorted by pubdate desc
     name, _ = os.path.splitext(audio_file)
     parts = name.split('-')
     
@@ -63,7 +69,7 @@ for pub_date, audio_file in episodes:
         lang = parts[-1]
     
     title = ' '.join(title_parts).replace('-', ' ').title()
-    episode_title = f"{title} ({lang_map.get(lang, lang)})"
+    episode_title = f"{title}"
     
     # Audio URL and size
     audio_url = base_url + audio_dir + audio_file
@@ -76,8 +82,8 @@ for pub_date, audio_file in episodes:
     fe.link(href=audio_url)
     fe.description(f'Episode: {title}')
     fe.enclosure(url=audio_url, length=str(audio_size), type='audio/mpeg')
-    fe.published(pub_date)  # Use published() instead of pubdate()
+    fe.published(pub_date)
 
 # Generate RSS feed
 fg.rss_file(feed_file, pretty=True)
-print(f"RSS feed generated successfully at {feed_file}")
+print(f"RSS feed generated successfully at {feed_file} for language {args.lang}")
