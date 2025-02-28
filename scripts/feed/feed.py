@@ -88,6 +88,9 @@ for pub_date, audio_file in episodes:  # Episodes are already sorted by pubdate 
     fe.description(f'Episode: {title}')
     fe.enclosure(url=audio_url, length=str(audio_size), type='audio/mpeg')
     fe.published(pub_date)
+    
+# Set the output filename based on the language
+feed_file = f'audio-feed-{args.lang}.xml'    
 
 # Generate RSS feed
 fg.rss_file(feed_file, pretty=True)
