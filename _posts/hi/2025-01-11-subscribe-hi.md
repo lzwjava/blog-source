@@ -2,21 +2,24 @@
 audio: false
 lang: hi
 layout: post
-title: सदस्यता लें
+title: सब्सक्राइब
 translated: true
 ---
 
-मेरे नवीनतम ब्लॉग पोस्ट से अपडेट रहने के लिए RSS फ़ीड के माध्यम से सदस्यता लें या X (Twitter) पर मुझे फ़ॉलो करें।  
+मेरे नवीनतम ब्लॉग पोस्ट्स को अपडेट के साथ रखने के लिए RSS फीड, ऑडियो फीड के माध्यम से सब्सक्राइब करें, या X (ट्विटर) पर मुझे फॉलो करें।
 
-- RSS फ़ीड:  
-  इस लिंक का उपयोग करके सदस्यता लें: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml)।  
+- RSS फीड:
+  इस लिंक का उपयोग करके सब्सक्राइब करें: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).
 
-- X (Twitter):  
-  अपडेट्स और अधिक के लिए मुझे [@lzwjava](https://mobile.twitter.com/lzwjava) पर फ़ॉलो करें।  
+- ऑडियो फीड:
+  इस लिंक का उपयोग करके सब्सक्राइब करें: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
 
-इसके अलावा, यहां मेरे कुछ प्लेटफ़ॉर्म अकाउंट्स हैं:
+- X (ट्विटर):
+  अपडेट और अधिक के लिए मुझे [@lzwjava](https://mobile.twitter.com/lzwjava) पर फॉलो करें।
 
-| प्लेटफ़ॉर्म   | लिंक                                        |
+इसके अलावा, यहाँ मेरे प्लेटफॉर्म खातों हैं:
+
+| प्लेटफॉर्म   | लिंक                                        |
 |----------------|-------------------------------------------------|
 | कोड       | [GitHub](https://github.com/lzwjava)            |
 |                | [Codeforces](https://codeforces.com/profile/lzwjava) |
@@ -40,6 +43,6 @@ translated: true
 | वीडियो      | [Douban](https://www.douban.com/people/lzwjava/) |
 |                | [TikTok](https://www.tiktok.com/@jamesleecool)  |
 |                | [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ) |
-| मैसेजिंग  | [Telegram](https://t.me/lzwjava)               |
+| संदेश      | [Telegram](https://t.me/lzwjava)               |
 |                | [WhatsApp](https://wa.me/12345678900)          |
 | अन्य      | [Quora](https://www.quora.com/profile/Lzw-2)    |

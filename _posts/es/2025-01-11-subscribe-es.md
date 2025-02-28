@@ -2,19 +2,22 @@
 audio: false
 lang: es
 layout: post
-title: Suscríbete
+title: Suscribirse
 translated: true
 ---
 
-Mantente actualizado con mis últimas publicaciones en el blog suscribiéndote a través del feed RSS o siguiéndome en X (Twitter).  
+Mantente actualizado con mis últimas publicaciones de blog suscribiéndote a través de RSS, audio feed o siguiéndome en X (Twitter).
 
-- Feed RSS:  
-  Suscríbete usando este enlace: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).  
+- RSS Feed:
+  Suscríbete usando este enlace: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).
 
-- X (Twitter):  
-  Sígueme en [@lzwjava](https://mobile.twitter.com/lzwjava) para actualizaciones y más.  
+- Audio Feed:
+  Suscríbete usando este enlace: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
 
-Además, aquí tienes algunas de mis cuentas en otras plataformas:
+- X (Twitter):
+  Sígueme en [@lzwjava](https://mobile.twitter.com/lzwjava) para actualizaciones y más.
+
+Además, aquí tienes algunas de mis cuentas de plataformas:
 
 | Plataforma   | Enlace                                        |
 |----------------|-------------------------------------------------|

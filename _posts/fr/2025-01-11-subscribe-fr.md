@@ -2,19 +2,22 @@
 audio: false
 lang: fr
 layout: post
-title: Abonnez-vous
+title: S'abonner
 translated: true
 ---
 
-Restez informé de mes derniers articles de blog en vous abonnant via le flux RSS ou en me suivant sur X (Twitter).  
+Restez informé de mes derniers articles de blog en vous abonnant via le flux RSS, le flux audio ou en me suivant sur X (Twitter).
 
-- Flux RSS :  
-  Abonnez-vous en utilisant ce lien : [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).  
+- Flux RSS :
+  Abonnez-vous en utilisant ce lien : [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).
 
-- X (Twitter) :  
-  Suivez-moi sur [@lzwjava](https://mobile.twitter.com/lzwjava) pour des mises à jour et plus encore.  
+- Flux Audio :
+  Abonnez-vous en utilisant ce lien : [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
 
-En outre, voici quelques-uns de mes comptes sur différentes plateformes :
+- X (Twitter) :
+  Suivez-moi à [@lzwjava](https://mobile.twitter.com/lzwjava) pour des mises à jour et plus encore.
+
+En outre, voici quelques-uns de mes comptes de plateforme :
 
 | Plateforme | Lien                                        |
 |----------------|-------------------------------------------------|
@@ -40,6 +43,6 @@ En outre, voici quelques-uns de mes comptes sur différentes plateformes :
 | Vidéo      | [Douban](https://www.douban.com/people/lzwjava/) |
 |                | [TikTok](https://www.tiktok.com/@jamesleecool)  |
 |                | [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ) |
-| Messagerie | [Telegram](https://t.me/lzwjava)               |
+| Messagerie  | [Telegram](https://t.me/lzwjava)               |
 |                | [WhatsApp](https://wa.me/12345678900)          |
 | Autre      | [Quora](https://www.quora.com/profile/Lzw-2)    |

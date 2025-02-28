@@ -2,26 +2,29 @@
 audio: false
 lang: ja
 layout: post
-title: 購読する
+title: 登録する
 translated: true
 ---
 
-私の最新のブログ投稿を購読して最新情報を入手するには、RSSフィードを購読するか、X（Twitter）でフォローしてください。
+最新のブログ記事をRSSフィード、オーディオフィード、またはX（Twitter）でフォローすることで最新情報をチェックしてください。
 
-- RSSフィード:  
-  このリンクを使用して購読できます: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml)。  
+- RSSフィード:
+  このリンクを使用して購読してください: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml)。
 
-- X（Twitter）:  
-  更新情報やその他の情報を入手するために、[@lzwjava](https://mobile.twitter.com/lzwjava) をフォローしてください。  
+- オーディオフィード:
+  このリンクを使用して購読してください: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml)。
 
-また、以下は私のプラットフォームアカウントの一部です:
+- X（Twitter）：
+  更新情報やその他の情報をチェックするために、[@lzwjava](https://mobile.twitter.com/lzwjava)をフォローしてください。
+
+また、以下に私のプラットフォームアカウントがあります：
 
 | プラットフォーム   | リンク                                        |
 |----------------|-------------------------------------------------|
 | コード       | [GitHub](https://github.com/lzwjava)            |
 |                | [Codeforces](https://codeforces.com/profile/lzwjava) |
 |                | [UVa Judge](https://uhunt.onlinejudge.org/id/113519) |
-|                | [ブログ](https://lzwjava.github.io)               |
+|                | [Blog](https://lzwjava.github.io)               |
 |                | [Kaggle](https://www.kaggle.com/lzwjava)        |
 |                | [LeetCode](https://leetcode.com/u/lzwjava/)     |
 |                | [AtCoder](https://atcoder.jp/users/lzwjava)     |
@@ -40,6 +43,6 @@ translated: true
 | ビデオ      | [Douban](https://www.douban.com/people/lzwjava/) |
 |                | [TikTok](https://www.tiktok.com/@jamesleecool)  |
 |                | [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ) |
-| メッセージング  | [Telegram](https://t.me/lzwjava)               |
+| メッセージ  | [Telegram](https://t.me/lzwjava)               |
 |                | [WhatsApp](https://wa.me/12345678900)          |
 | その他      | [Quora](https://www.quora.com/profile/Lzw-2)    |

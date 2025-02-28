@@ -6,22 +6,25 @@ title: اشترك
 translated: true
 ---
 
-ابقَ على اطلاع بأحدث منشوراتي في المدونة عن طريق الاشتراك عبر موجز RSS أو متابعتي على X (تويتر).
+ابق على اطلاع بأحدث منشورات مدونتي من خلال الاشتراك عبر تغذية RSS، تغذية الصوت، أو متابعة على X (تويتر).
 
-- خلاصة RSS:  
+- تغذية RSS:
   اشترك باستخدام هذا الرابط: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).
 
-- X (تويتر):  
-  تابعني على [@lzwjava](https://mobile.twitter.com/lzwjava) للحصول على التحديثات والمزيد.
+- تغذية الصوت:
+  اشترك باستخدام هذا الرابط: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
 
-بالإضافة إلى ذلك، إليك بعض حساباتي على المنصات:
+- X (تويتر):
+  اتبعني على [@lzwjava](https://mobile.twitter.com/lzwjava) للحصول على تحديثات وأكثر.
 
-| المنصة      | الرابط                                        |
+بالإضافة إلى ذلك، voici بعض حساباتي على المنصات:
+
+| المنصة   | الرابط                                        |
 |----------------|-------------------------------------------------|
 | الكود       | [GitHub](https://github.com/lzwjava)            |
 |                | [Codeforces](https://codeforces.com/profile/lzwjava) |
 |                | [UVa Judge](https://uhunt.onlinejudge.org/id/113519) |
-|                | [المدونة](https://lzwjava.github.io)               |
+|                | [Blog](https://lzwjava.github.io)               |
 |                | [Kaggle](https://www.kaggle.com/lzwjava)        |
 |                | [LeetCode](https://leetcode.com/u/lzwjava/)     |
 |                | [AtCoder](https://atcoder.jp/users/lzwjava)     |
@@ -30,7 +33,7 @@ translated: true
 |                | [CodeChef](https://www.codechef.com/users/lzwjava) |
 |                | [CSDN](https://blog.csdn.net/lzw_java)          |
 |                | [StackOverflow](https://stackoverflow.com/users/3044511/lzwjava) |
-| التواصل الاجتماعي | [Weibo](https://weibo.com/zhiweilee)            |
+| الاجتماعي     | [Weibo](https://weibo.com/zhiweilee)            |
 |                | [Twitter](https://twitter.com/lzwjava)          |
 |                | [LinkedIn](https://www.linkedin.com/in/lzwjava) |
 |                | [Facebook](https://www.facebook.com/lzwjava)    |
@@ -40,7 +43,6 @@ translated: true
 | الفيديو      | [Douban](https://www.douban.com/people/lzwjava/) |
 |                | [TikTok](https://www.tiktok.com/@jamesleecool)  |
 |                | [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ) |
-| المراسلة  | [Telegram](https://t.me/lzwjava)               |
+| الرسائل  | [Telegram](https://t.me/lzwjava)               |
 |                | [WhatsApp](https://wa.me/12345678900)          |
 | أخرى      | [Quora](https://www.quora.com/profile/Lzw-2)    |
-

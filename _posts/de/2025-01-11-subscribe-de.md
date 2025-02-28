@@ -6,13 +6,16 @@ title: Abonnieren
 translated: true
 ---
 
-Bleiben Sie auf dem Laufenden mit meinen neuesten Blogbeiträgen, indem Sie den RSS-Feed abonnieren oder mir auf X (Twitter) folgen.
+Bleiben Sie mit meinen neuesten Blogbeiträgen auf dem Laufenden, indem Sie sich über RSS-Feed, Audio-Feed abonnieren oder mir auf X (Twitter) folgen.
 
-- RSS-Feed:  
-  Abonnieren Sie mit diesem Link: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).
+- RSS Feed:
+  Abonnieren Sie diesen Link: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).
 
-- X (Twitter):  
-  Folge mir auf [@lzwjava](https://mobile.twitter.com/lzwjava) für Updates und mehr.
+- Audio Feed:
+  Abonnieren Sie diesen Link: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
+
+- X (Twitter):
+  Folgen Sie mir unter [@lzwjava](https://mobile.twitter.com/lzwjava) für Updates und mehr.
 
 Außerdem finden Sie hier einige meiner Plattformkonten:
 
@@ -43,4 +46,3 @@ Außerdem finden Sie hier einige meiner Plattformkonten:
 | Messaging  | [Telegram](https://t.me/lzwjava)               |
 |                | [WhatsApp](https://wa.me/12345678900)          |
 | Other      | [Quora](https://www.quora.com/profile/Lzw-2)    |
-
