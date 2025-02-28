@@ -46,3 +46,4 @@ translated: false
 
 - The problems or similar bugs will recur repeatedly throughout your career, so make sure you keep notes about them. This practice remains useful even in the AI era. Sometimes, large language models provide answers that aren’t entirely accurate and require you to verify them.
 
+- In some large companies, the progress of AI chatbots or internal AI tools may be slow. We can use our personal computers to learn related technologies with AI tools after work. This makes it less cumbersome to work on corporate computers since we are already familiar with a lot.
