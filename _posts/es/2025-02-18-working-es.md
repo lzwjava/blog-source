@@ -18,19 +18,19 @@ translated: true
 
 - Un trabajo a menudo implica configuraciones específicas, lógica de código ligeramente diferente y derechos de acceso o contraseñas para hacer las cosas.
 
-- Prevea la siguiente fase del proyecto. Considere cómo progresará el proyecto actual y qué necesitarán o esperarán los usuarios.
+- Prevea la siguiente fase del proyecto. Considere cómo avanzará el proyecto actual y qué necesitarán o esperarán los usuarios.
 
 - Piensa en todas las formas posibles de hacer el trabajo, avanzar y prepararte lo más posible antes de obtener derechos de acceso o los materiales que otros proporcionarán.
 
 - No te conformes; haz las cosas y automatiza lo más posible.
 
-- Utilice la biblioteca `requests` de Python para reemplazar Postman.
+- Use la biblioteca `requests` de Python para reemplazar Postman.
 
 - Windows y PowerShell también son opciones viables. Los comandos comúnmente utilizados están limitados a unas pocas docenas. Apréndelos bien.
 
-- Considere cómo un ingeniero podría trabajar en este proyecto durante 5 o 10 años y piense en cómo lograr una eficiencia similar rápidamente.
+- Considere cómo podría trabajar un ingeniero en este proyecto durante 5 o 10 años y piense en cómo lograr una eficiencia similar rápidamente.
 
-- Utilice directorios de notas y registros. Copie cuidadosamente los registros de la consola o las páginas de frontend para un análisis detallado.
+- Use directorios de notas y registros. Copie cuidadosamente los registros de la consola o las páginas de frontend para un análisis detallado.
 
 - Piensa en cómo transmitir este conocimiento a los nuevos miembros del equipo.
 
@@ -45,3 +45,5 @@ translated: true
 - Si encontramos un error, por ejemplo, si `npm run build` tiene problemas en una gran pipeline de construcción, podemos ejecutarlo por separado para asegurarnos de que funcione antes de ejecutar toda la pipeline. Esto hace que el ciclo de depuración sea más rápido y más pequeño.
 
 - Los problemas o errores similares se repetirán una y otra vez a lo largo de su carrera, así que asegúrese de tomar notas sobre ellos. Esta práctica sigue siendo útil incluso en la era del AI. A veces, los grandes modelos de lenguaje proporcionan respuestas que no son completamente precisas y requieren que las verifique.
+
+- En algunas grandes empresas, el progreso de los chatbots de AI o las herramientas de AI internas puede ser lento. Podemos usar nuestras computadoras personales para aprender tecnologías públicas relacionadas con herramientas de AI después del trabajo. Esto hace que sea menos engorroso trabajar en computadoras corporativas, ya que ya estamos familiarizados con muchas cosas.
