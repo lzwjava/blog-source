@@ -221,10 +221,12 @@ jobs:
         if: steps.dry_run_audio.outputs.audio_updated == 'true'
         run: |
           python scripts/audio/audio_flag.py
+          python scripts/feed/feed.py --lang en
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _posts/**/*.md
-          git diff --quiet --staged || git commit -m "feat(audio): Update Audio flag"
+          git add *.xml
+          git diff --quiet --staged || git commit -m "feat(audio): Update Audio flag and update audo feed"
           git push || {
             echo "Push failed, attempting pull and merge"
             git pull --rebase
