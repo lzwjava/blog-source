@@ -2,7 +2,7 @@
 audio: false
 lang: fr
 layout: post
-title: Configuration Npm
+title: Problème de configuration Npm
 translated: true
 ---
 
@@ -26,7 +26,7 @@ Voici comment vous pouvez diagnostiquer et résoudre ce problème :
    ```
    npm config get userconfig
    ```
-   Cela pointe généralement vers `~/.npmrc` (sur les systèmes de type Unix) ou `%USERPROFILE%\.npmrc` (sur Windows). Ouvrez ce fichier dans un éditeur de texte pour voir si le proxy y est explicitement défini. Il pourrait ressembler à :
+   Cela pointe généralement vers `~/.npmrc` (sur les systèmes de type Unix) ou `%USERPROFILE%\.npmrc` (sur Windows). Ouvrez ce fichier dans un éditeur de texte pour voir si le proxy y est explicitement défini. Il pourrait ressembler à ceci :
    ```
    proxy=http://username:password@proxy-server:port
    https-proxy=http://username:password@proxy-server:port
@@ -48,6 +48,6 @@ Voici comment vous pouvez diagnostiquer et résoudre ce problème :
    Ensuite, vérifiez avec `npm config list`.
 
 5. **Contexte de l'erreur**
-   Si l'erreur persiste, pourriez-vous partager le message d'erreur exact que npm renvoie ? Cela aiderait à affiner si c'est un problème de permissions, un problème de syntaxe ou autre chose.
+   Si l'erreur persiste, pourriez-vous partager le message d'erreur exact que npm retourne ? Cela aiderait à affiner si c'est un problème de permissions, un problème de syntaxe ou autre chose.
 
 Faites-moi savoir ce que vous trouvez ou si vous avez besoin d'une assistance supplémentaire !

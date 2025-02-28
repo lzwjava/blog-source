@@ -2,11 +2,11 @@
 audio: false
 lang: es
 layout: post
-title: Configuración de Npm
+title: Problema de Configuración de Npm
 translated: true
 ---
 
-Parece que estás intentando recuperar la configuración del proxy de npm usando `npm config get proxy`, pero estás encontrando un error que indica que la configuración del proxy está protegida o inaccesible de manera estándar. Esto podría suceder debido a cómo npm maneja los datos de configuración sensibles o debido a restricciones en tu entorno.
+Parece que estás intentando recuperar la configuración del proxy de npm usando `npm config get proxy`, pero estás encontrando un error que indica que la configuración del proxy está protegida o es inaccesible de manera estándar. Esto podría suceder debido a cómo npm maneja los datos de configuración sensibles o debido a restricciones en tu entorno.
 
 Aquí tienes cómo puedes solucionar y resolver esto:
 
@@ -33,14 +33,14 @@ Aquí tienes cómo puedes solucionar y resolver esto:
    ```
 
 3. **Protección de Datos Sensibles**
-   Si los ajustes del proxy incluyen información sensible (como un nombre de usuario o contraseña), npm podría restringir el acceso directo para evitar la exposición accidental. Intenta ejecutar el comando con privilegios elevados (si es aplicable) o verifica si tus variables de entorno están anulando los ajustes:
+   Si las configuraciones del proxy incluyen información sensible (como un nombre de usuario o contraseña), npm podría restringir el acceso directo para evitar la exposición accidental. Intenta ejecutar el comando con privilegios elevados (si es aplicable) o verifica si las variables de entorno están anulando las configuraciones:
    ```
    echo $http_proxy  # En sistemas tipo Unix
    echo %HTTP_PROXY%  # En Windows
    ```
 
-4. **Configurar o Actualizar los Ajustes del Proxy**
-   Si estás intentando confirmar el proxy porque no está funcionando, es posible que necesites configurarlo o actualizarlo manualmente. Usa:
+4. **Establecer o Actualizar Configuraciones del Proxy**
+   Si estás intentando confirmar el proxy porque no está funcionando, es posible que necesites establecerlo o actualizarlo manualmente. Usa:
    ```
    npm config set proxy http://username:password@proxy-server:port
    npm config set https-proxy http://username:password@proxy-server:port

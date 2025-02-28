@@ -2,16 +2,16 @@
 audio: false
 lang: zh
 layout: post
-title: Npm 配置
+title: Npm 配置问题
 translated: true
 ---
 
-看起来你试图使用 `npm config get proxy` 从 npm 检索代理配置，但遇到了一个错误，指示代理设置受保护或无法以标准方式访问。这可能是由于 npm 处理敏感配置数据的方式，或者是由于环境中的限制。
+看起来你试图使用 `npm config get proxy` 从 npm 检索代理配置，但遇到了一个错误，指示代理设置受保护或无法以标准方式访问。这可能是由于 npm 处理敏感配置数据的方式，或者由于环境中的限制。
 
 以下是如何排查和解决问题的方法：
 
 1. **手动检查 npm 配置**
-   除了依赖 `npm config get proxy`，你可以检查完整的 npm 配置，看看代理是否设置。运行：
+   而不是仅依赖 `npm config get proxy`，你可以检查完整的 npm 配置，看看代理是否设置。运行：
    ```
    npm config list
    ```
@@ -22,18 +22,18 @@ translated: true
    ```
 
 2. **定位 npm 配置文件**
-   npm 将其配置存储在一个 `.npmrc` 文件中。你可以通过运行以下命令来检查其位置：
+   npm 将其配置存储在一个 `.npmrc` 文件中。你可以通过运行以下命令来检查它的位置：
    ```
    npm config get userconfig
    ```
-   这通常指向 `~/.npmrc`（在类 Unix 系统上）或 `%USERPROFILE%\.npmrc`（在 Windows 上）。在文本编辑器中打开该文件，查看代理是否明确设置在那里。它可能看起来像：
+   这通常指向 `~/.npmrc`（在类 Unix 系统上）或 `%USERPROFILE%\.npmrc`（在 Windows 上）。在文本编辑器中打开该文件，查看代理是否在其中明确设置。它可能看起来像：
    ```
    proxy=http://username:password@proxy-server:port
    https-proxy=http://username:password@proxy-server:port
    ```
 
 3. **敏感数据保护**
-   如果代理设置包含敏感信息（如用户名或密码），npm 可能会限制直接访问以防止意外暴露。尝试使用提升的权限运行命令（如果适用），或者检查环境变量是否覆盖了设置：
+   如果代理设置包含敏感信息（如用户名或密码），npm 可能会限制直接访问以防止意外暴露。尝试以提升权限运行命令（如果适用），或者检查环境变量是否覆盖了设置：
    ```
    echo $http_proxy  # 在类 Unix 系统上
    echo %HTTP_PROXY%  # 在 Windows 上

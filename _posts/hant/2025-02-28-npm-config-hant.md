@@ -2,7 +2,7 @@
 audio: false
 lang: hant
 layout: post
-title: Npm 設定
+title: Npm 設定問題
 translated: true
 ---
 
@@ -48,6 +48,6 @@ translated: true
    然後使用 `npm config list` 驗證。
 
 5. **錯誤上下文**
-   如果錯誤持續存在，你能否分享 npm 返回的確切錯誤信息？這將有助於縮小範圍，確定這是權限問題、語法問題還是其他問題。
+   如果錯誤持續存在，能否分享 npm 返回的確切錯誤消息？這將有助於縮小範圍，確定這是權限問題、語法問題還是其他問題。
 
 讓我知道你發現了什麼，或者如果你需要進一步的幫助！
