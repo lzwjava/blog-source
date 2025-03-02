@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: रसायन विज्ञान शिक्षक की कथन

@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "Fun Live: Knowledge Live Broadcast Platform"
+title: 'Fun Live: Knowledge Live Broadcast Platform'
 translated: false
 ---
 

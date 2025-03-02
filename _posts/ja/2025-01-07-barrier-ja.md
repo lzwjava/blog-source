@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: 身分に関係なく任意のプラットフォームに登録

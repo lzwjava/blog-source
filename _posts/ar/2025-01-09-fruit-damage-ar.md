@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ar
 layout: post
 title: تجنب التلف عند طلب الفاكهة

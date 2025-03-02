@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "DBeaver: a Database Management Tool"
+title: 'DBeaver: a Database Management Tool'
 translated: false
 ---
 

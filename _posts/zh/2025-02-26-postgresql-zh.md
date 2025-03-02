@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: PostgreSQL：数据库管理指南

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: मैं AI और ब्लॉकचेन युग में कैसे अच्छी तरह से जीता हूं

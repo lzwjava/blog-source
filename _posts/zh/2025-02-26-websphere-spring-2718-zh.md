@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: Spring Boot 2.7.18 在 WebSphere Liberty Profile

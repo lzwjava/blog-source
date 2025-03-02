@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: 自然な視力回復の進捗

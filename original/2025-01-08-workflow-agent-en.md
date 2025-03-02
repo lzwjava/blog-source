@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "Workflow is BFS, Agent is DFS"
-lang: en
 audio: true
+generated: false
+lang: en
+layout: post
+title: Workflow is BFS, Agent is DFS
 ---
 
 According to Anthropic [^1]:

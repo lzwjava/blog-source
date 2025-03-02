@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: Spring框架全面指南

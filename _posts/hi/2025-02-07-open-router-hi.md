@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: hi
 layout: post
 title: ओपनराउटर का उपयोग करना

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: 學習小貼士

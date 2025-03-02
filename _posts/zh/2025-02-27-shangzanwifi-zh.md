@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: 便携热点上山WiFi

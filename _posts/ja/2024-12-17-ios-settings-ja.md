@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: iOSの特別な設定

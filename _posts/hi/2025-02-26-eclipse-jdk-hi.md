@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: Eclipse JDK समस्या समाधान

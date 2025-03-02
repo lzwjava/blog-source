@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Utiliser des verres progressifs multifocaux pour inverser la myopie

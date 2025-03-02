@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Réflexion à long terme dans le choix des serveurs cloud

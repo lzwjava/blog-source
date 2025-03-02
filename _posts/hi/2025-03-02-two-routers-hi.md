@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: hi
 layout: post
 title: दो राउटर का उपयोग

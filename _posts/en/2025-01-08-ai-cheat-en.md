@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
 title: Emphasize Judgment Over Worrying About AI Cheating

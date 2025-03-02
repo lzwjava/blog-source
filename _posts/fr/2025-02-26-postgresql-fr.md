@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Guide de gestion de base de données PostgreSQL

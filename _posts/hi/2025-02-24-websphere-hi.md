@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: WebSphere Liberty Server Commands का अनुवाद

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: 如何组装一台电脑

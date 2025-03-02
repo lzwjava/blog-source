@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: 共同創業者を見つけるためのヒント

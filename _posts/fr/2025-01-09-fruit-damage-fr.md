@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Éviter les dégâts lors de la commande de fruits

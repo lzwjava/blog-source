@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: 近視を自然に逆転させる旅

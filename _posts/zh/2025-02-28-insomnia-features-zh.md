@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: 使用 Kong Insomnia GUI 中的功能

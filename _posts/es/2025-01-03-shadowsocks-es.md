@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Problemas con el Proxy de Shadowsocks

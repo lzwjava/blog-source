@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: 'चीन में UK SIM कार्ड: एक Giffgaff अनुभव'

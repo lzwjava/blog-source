@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ar
 layout: post
 title: بدء العمل مع واجهة برمجة تطبيقات تحويل النص إلى كلام من Google

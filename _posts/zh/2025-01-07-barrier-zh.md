@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: zh
 layout: post
 title: 不受身份限制在任何平台上注册

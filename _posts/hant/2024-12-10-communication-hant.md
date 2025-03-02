@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: 最適合我的溝通方式

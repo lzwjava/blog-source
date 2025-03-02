@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: 'DBeaver: una herramienta de gestión de bases de datos'

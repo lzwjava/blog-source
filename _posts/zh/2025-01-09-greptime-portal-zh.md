@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: 圆形图形溢出在 GreptimeDB 门户

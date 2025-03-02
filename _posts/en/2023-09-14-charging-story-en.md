@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
 title: Battling Charging Problems with My Electric Car

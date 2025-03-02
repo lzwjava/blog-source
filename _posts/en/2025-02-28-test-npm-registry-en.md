@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
 title: Testing NPM registry Using Raw HTTP Requests

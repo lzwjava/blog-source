@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: zh
 layout: post
 title: 图像压缩与线性代数

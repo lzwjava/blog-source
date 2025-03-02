@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ar
 layout: post
 title: 在创业公司的一次演讲

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: 高級資料結構與Java

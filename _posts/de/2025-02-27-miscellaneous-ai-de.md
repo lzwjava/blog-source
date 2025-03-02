@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Verschiedene Tests der AI- und LLM-Fähigkeiten

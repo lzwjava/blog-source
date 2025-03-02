@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: 'Turbolist3r : Énumération de Sous-domaines'

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: क्रिप्टोकरेंसी और ब्लॉकचेन

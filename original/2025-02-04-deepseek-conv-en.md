@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Deepseek - Conversation"
 audio: true
+generated: false
+layout: post
+title: Deepseek - Conversation
 ---
 
 A: I’ve been going through the DeepSeek-V3 technical report, and I’m really impressed by the scale of this model. 671 billion parameters, but only 37 billion activated per token? That’s a massive MoE architecture. How does it even work?

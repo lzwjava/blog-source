@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: AIが完全に駆動する新しいQuoraやTikTok

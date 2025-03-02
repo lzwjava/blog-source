@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
 title: Some Global Cloud Platforms

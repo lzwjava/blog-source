@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: es
 layout: post
 title: Administración de IPs Elásticas de Aliyun

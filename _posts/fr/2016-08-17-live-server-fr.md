@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: 'Fun Live : Plateforme de diffusion en direct des connaissances'

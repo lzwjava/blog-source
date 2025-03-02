@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: en
 layout: post
 title: Using Google Maps in China

@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Biology"  
-audio: true  
+audio: true
+generated: false
+layout: post
+title: Biology
 ---
 
 Below is a concise, 100-point summary of key topics, principles, and terms typically covered in a high school (or introductory) biology course. Each point aims to highlight an essential concept relevant to foundational biology studies.

@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "Automated Punch-In with Shortcuts"
+title: Automated Punch-In with Shortcuts
 translated: false
 ---
 

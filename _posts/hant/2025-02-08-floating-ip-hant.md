@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: hant
 layout: post
 title: Hetzner Cloud 的浮動 IP

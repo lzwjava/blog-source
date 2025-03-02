@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: zh
 layout: post
 title: 血压计、听诊器和视力表

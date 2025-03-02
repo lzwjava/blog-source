@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: मैंने उपयोग की गई iOS ऐप्स - तालिका संस्करण

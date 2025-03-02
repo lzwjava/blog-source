@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: en
 layout: post
 title: Implementing a Proxy Check in Windows

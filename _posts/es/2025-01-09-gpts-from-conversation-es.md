@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: ChatGPT Debería Permitir la Creación de GPTs a partir del Historial de Conversaciones

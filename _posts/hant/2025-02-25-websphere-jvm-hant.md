@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: hant
 layout: post
 title: JVM 選項在 WebSphere Liberty Server

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Verwenden von Auth-Tokens mit npm-Registry-URLs

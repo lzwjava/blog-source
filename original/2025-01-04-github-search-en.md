@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: en
 layout: post
 title: The Cases Where We Still Need the GitHub Search Box

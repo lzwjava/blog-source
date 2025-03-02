@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: zh
 layout: post
 title: Google Text-to-Speech API 入门教程

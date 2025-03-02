@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Funktionen in der Kong Insomnia GUI verwenden

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: मशीन लर्निंग, डीप लर्निंग, और जीपीटी

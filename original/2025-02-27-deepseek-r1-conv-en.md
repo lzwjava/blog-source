@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Deepseek R1 - Conversation"
 audio: true
+generated: false
+layout: post
+title: Deepseek R1 - Conversation
 ---
 
 A: Hey, I’ve been hearing a lot about the DeepSeek-R1 models and their reasoning capabilities. Can you break it down for me?

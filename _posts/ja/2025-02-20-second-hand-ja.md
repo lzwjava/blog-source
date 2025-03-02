@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: ja
 layout: post
 title: 安く買う中古品

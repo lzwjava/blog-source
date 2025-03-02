@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: iOS-Apps, die ich verwendet habe - Tabellenversion

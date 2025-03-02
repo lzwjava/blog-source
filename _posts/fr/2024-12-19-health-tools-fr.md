@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Tensiomètre, Stéthoscope et Tableau de Vision

@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
-title: "Node.js OpenSSL Compatibility"
-audio: false
+title: Node.js OpenSSL Compatibility
 translated: false
 ---
 

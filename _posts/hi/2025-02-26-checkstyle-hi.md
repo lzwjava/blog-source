@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: Maven Checkstyle Plugin का अनुवाद

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: Java Servlet 应用程序在 WebSphere Liberty Profile 上

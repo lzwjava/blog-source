@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: मेरी इलेक्ट्रिक कार के चार्जिंग समस्याओं से जूझना

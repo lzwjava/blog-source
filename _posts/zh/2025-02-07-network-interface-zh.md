@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: zh
 layout: post
 title: 网络接口管理

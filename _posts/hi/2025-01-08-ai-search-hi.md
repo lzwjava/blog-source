@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: ChatGPT में खोज का उपयोग करने का एक मामला

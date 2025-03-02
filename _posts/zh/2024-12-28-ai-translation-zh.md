@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: 全新由 AI 翻译驱动的 Quora 或 TikTok

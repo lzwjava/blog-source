@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: S'inscrire sur n'importe quelle plateforme indépendamment de l'identité

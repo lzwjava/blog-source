@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Computer Network Technology"  
-audio: true  
+audio: true
+generated: false
+layout: post
+title: Computer Network Technology
 ---
 
 Below is a list of 100 key points that broadly cover the scope of a “Computer Network Technology” course or self-study outline, touching on fundamental concepts, protocols, and practical applications.

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: कंपनियों को एकीकरण को सुविधाजनक बनाने के लिए AI संदर्भ या एजेंट प्रदान करना

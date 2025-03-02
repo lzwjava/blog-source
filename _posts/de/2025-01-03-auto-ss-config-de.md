@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: 'Open-Source-Tool: Auto SS Config'

@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: hi
 layout: post
 title: OpenWRT को वायरलेस ब्रिज के रूप में कॉन्फ़िगर करना

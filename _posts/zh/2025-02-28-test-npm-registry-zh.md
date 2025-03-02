@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: 测试 NPM 仓库使用原始 HTTP 请求

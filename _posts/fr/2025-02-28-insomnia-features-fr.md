@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Utiliser les fonctionnalités dans l'interface utilisateur de Kong Insomnia

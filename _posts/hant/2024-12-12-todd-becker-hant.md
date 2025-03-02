@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: 近视：一种现代但可逆的疾病 —— 托德·贝克

@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "New Quora or TikTok Fully Powered by AI Translation"
-lang: en
 audio: false
+generated: false
+lang: en
+layout: post
+title: New Quora or TikTok Fully Powered by AI Translation
 ---
 
 * A new TikTok or Quora fully powered by AI translation.

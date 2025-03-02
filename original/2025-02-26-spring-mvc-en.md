@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "Spring MVC"
+title: Spring MVC
 translated: false
 ---
 

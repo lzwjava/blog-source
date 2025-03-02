@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: Java Language Server in Visual Studio Code 
+title: Java Language Server in Visual Studio Code
 translated: false
 ---
 

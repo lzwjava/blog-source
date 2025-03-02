@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: ja
 layout: post
 title: 200Mbps帯域幅制限の調査

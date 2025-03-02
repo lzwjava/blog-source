@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: ja
 layout: post
 title: お金を稼ぐ

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: प्रॉक्सी सर्वर सेट अप करें

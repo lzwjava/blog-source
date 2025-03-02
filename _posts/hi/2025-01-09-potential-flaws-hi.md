@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: फल वितरण निबंध में संभावित खामियाँ

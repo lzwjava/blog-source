@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: Spring Boot Maven Plugin का अनुवाद

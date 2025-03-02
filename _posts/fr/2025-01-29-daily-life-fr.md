@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: fr
 layout: post
 title: Conseils pour la vie quotidienne

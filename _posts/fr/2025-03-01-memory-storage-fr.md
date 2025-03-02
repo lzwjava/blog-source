@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Comprendre les systèmes de mémoire et de stockage clés en informatique

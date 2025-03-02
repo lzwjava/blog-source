@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: ja
 layout: post
 title: 二つのルーターを使用する

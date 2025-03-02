@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Una visita a una fábrica de fabricación de teléfonos

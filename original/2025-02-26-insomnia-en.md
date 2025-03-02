@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "Kong Insomnia: API Development Platform"
+title: 'Kong Insomnia: API Development Platform'
 translated: false
 ---
 

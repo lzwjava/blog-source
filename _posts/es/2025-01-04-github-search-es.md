@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Los casos en los que todavía necesitamos el cuadro de búsqueda de GitHub

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Un cas d'utilisation de la recherche dans ChatGPT

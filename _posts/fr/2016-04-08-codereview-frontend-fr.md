@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Construire une Plateforme de Revue de Code Efficace avec Vue.js

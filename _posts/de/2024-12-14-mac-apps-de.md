@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: '### Mac-Apps, die ich verwendet habe'

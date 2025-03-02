@@ -1,9 +1,10 @@
 ---
-audio: false  
-lang: en  
-layout: post  
-title: Management  
-translated: false  
+audio: false
+generated: false
+lang: en
+layout: post
+title: Management
+translated: false
 ---
 
 - Prefer to promote colleagues who have worked in my group for at least six months rather than hiring senior engineers from outside.

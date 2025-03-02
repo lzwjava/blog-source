@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: कॉंग इन्सोम्निया जीयूआई में फीचर्स का उपयोग करें

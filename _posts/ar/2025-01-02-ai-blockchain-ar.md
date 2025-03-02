@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ar
 layout: post
 title: كيف أعيش بشكل جيد في عصر الذكاء الاصطناعي والبلوكشين

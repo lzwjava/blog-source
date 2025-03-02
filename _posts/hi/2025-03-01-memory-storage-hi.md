@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: समझना मुख्य स्मृति और संग्रहण प्रणाली कंप्यूटिंग में

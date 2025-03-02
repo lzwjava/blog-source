@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: WebSphere Liberty サーバーを VSCode で使用する

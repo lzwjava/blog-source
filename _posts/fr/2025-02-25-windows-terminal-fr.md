@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: fr
 layout: post
 title: Options du terminal Windows

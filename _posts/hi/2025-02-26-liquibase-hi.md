@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: 'Liquibase: डेटाबेस स्कीमा प्रबंधन'

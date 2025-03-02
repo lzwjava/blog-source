@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Application Java Servlet sur WebSphere Liberty Profile

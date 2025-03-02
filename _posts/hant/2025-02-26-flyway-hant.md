@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: 資料庫遷移與 Flyway 在 Spring Boot

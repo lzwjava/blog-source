@@ -1,8 +1,9 @@
 ---
 audio: true
+generated: false
 lang: en
 layout: post
-title: "The Case of the Hairy Tailpipe: A Car Repair Mystery"
+title: 'The Case of the Hairy Tailpipe: A Car Repair Mystery'
 ---
 
 In March 2018, I bought a second-hand Chevrolet Sail 2011. However, I crashed it around June 2018. I sold it to another local person. After several years, I bought it back.

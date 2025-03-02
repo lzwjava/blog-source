@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: How To Learn Anything In a Year
-audio: false
 ---
 
 How to learn anything in a year? Let's take English as an example. I spent one year to achieve IELTS 6 score and be able to use English to work fluently in a global big company. Here is my way.

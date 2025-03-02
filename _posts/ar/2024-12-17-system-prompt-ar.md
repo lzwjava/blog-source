@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ar
 layout: post
 title: استكشاف الأوامر النظامية في Grok و Claude

@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: zh
 layout: post
 title: 使用 OBS、SRS 和 FFmpeg 进行直播设置
-audio: false
 ---
 
 *这篇博文是由 ChatGPT-4o 协助整理的。*

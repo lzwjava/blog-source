@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: लाइब्रेरीज़ का उपयोग करते समय अपग्रेड पर विचार करें

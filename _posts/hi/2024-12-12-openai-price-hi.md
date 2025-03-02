@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: '# ChatGPT Plus को टोकन उपयोग के आधार पर शुल्क क्यों लेना चाहिए'

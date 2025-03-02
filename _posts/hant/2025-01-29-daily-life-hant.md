@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: hant
 layout: post
 title: 每日生活小技巧

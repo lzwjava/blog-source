@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: डिजिटलओशन रिजर्व्ड आईपी प्रबंधित करना

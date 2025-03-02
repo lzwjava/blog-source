@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Reasoning
-audio: false
 ---
 
 * Everything is about reasoning.

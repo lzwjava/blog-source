@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Surveillance des modifications de répertoire avec l'API FSEvents

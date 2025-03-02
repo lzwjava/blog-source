@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Competitive Programming"  
-audio: true  
+audio: true
+generated: false
+layout: post
+title: Competitive Programming
 ---
 
 1. Master at least one language thoroughly, preferably C++ for speed and control.

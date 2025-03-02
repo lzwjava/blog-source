@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: 'ओपन सोर्स टूल: Auto SS Config'

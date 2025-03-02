@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Side Projects
-audio: false
 ---
 
 ## Skybound: The Guangzhou to Lhasa Aerial Odyssey

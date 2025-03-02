@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: NPM registry को Raw HTTP Requests का उपयोग करके परीक्षण

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: 英国SIM卡在中国：Giffgaff使用体验

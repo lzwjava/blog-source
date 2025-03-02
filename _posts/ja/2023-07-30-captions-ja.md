@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: ChatGPTがキャプション作成を手伝ってくれた

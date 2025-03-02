@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: Testing Mistral API 
+title: Testing Mistral API
 translated: false
 ---
 

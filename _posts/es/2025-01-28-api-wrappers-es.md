@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Prefiera usar solicitudes HTTP sin procesar en lugar de wrappers

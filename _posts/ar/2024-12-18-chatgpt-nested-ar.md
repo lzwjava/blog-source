@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ar
 layout: post
 title: عيب ChatGPT مع الكتل البرمجية المتداخلة

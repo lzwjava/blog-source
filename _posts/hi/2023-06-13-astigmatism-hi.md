@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: मायोपिया को उलटने में एस्टिग्मैटिज़्म

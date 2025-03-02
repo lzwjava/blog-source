@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Mensajes de Confirmación de Git Potenciados por IA

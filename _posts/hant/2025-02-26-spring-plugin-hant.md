@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: hant
 layout: post
 title: Spring Boot Maven 插件

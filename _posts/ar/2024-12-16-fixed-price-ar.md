@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ar
 layout: post
 title: الاشتراكات ذات السعر الثابت عفا عليها الزمن

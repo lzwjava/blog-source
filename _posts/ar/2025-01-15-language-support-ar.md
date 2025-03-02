@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ar
 layout: post
 title: 'دعم اللغة: الخطوط وتحويل النص إلى كلام'

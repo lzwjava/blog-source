@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: mathjax2mobi：MathJax HTMLを電子書籍に変換

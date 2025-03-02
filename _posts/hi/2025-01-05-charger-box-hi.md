@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: स्मार्ट यूनिवर्सल चार्जर बॉक्स

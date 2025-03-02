@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: 'Herramienta de Proxy: Squid y Danted'

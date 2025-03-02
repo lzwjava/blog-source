@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: zh
 layout: post
 title: 云计算和大数据入门
-audio: false
 ---
 
 这节课包含以下话题：

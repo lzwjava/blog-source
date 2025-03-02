@@ -1,7 +1,8 @@
 ---
-layout: post  
-title: "Physics"  
-audio: true  
+audio: true
+generated: false
+layout: post
+title: Physics
 ---
 
 Below is a concise, 100-point summary of key ideas and concepts typically covered in high school physics. Each point highlights an essential topic, principle, or term relevant to foundational physics studies.

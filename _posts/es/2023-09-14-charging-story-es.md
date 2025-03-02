@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Lidiando con Problemas de Carga en Mi Coche Eléctrico

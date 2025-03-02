@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: ज़ेन और मशीन लर्निंग की कला

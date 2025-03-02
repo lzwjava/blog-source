@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: ChatGPT को वार्तालाप इतिहास से GPTs बनाने की अनुमति देनी चाहिए

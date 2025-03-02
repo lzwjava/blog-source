@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: 'Restauration Naturelle de la Vision : Le Principe du "Juste Assez Clair"'

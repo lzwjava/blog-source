@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Hablando sobre FP con el problema de códigos de Hamming

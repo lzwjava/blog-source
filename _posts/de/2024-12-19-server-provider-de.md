@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Langfristiges Denken bei der Auswahl von Cloud-Servern

@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: zh
 layout: post
 title: 通过自动化测试和工具提升iOS开发
-audio: false
 ---
 
 *这篇博文是由 ChatGPT-4o 协助整理的。* 

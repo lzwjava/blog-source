@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Les entreprises devraient fournir un contexte ou des agents IA pour faciliter

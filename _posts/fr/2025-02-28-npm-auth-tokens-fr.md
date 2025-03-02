@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Utilisation des jetons d'authentification avec les URL du registre npm

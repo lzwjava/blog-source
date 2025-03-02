@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "Java Packages"
-lang: en
 audio: false
+generated: false
+lang: en
+layout: post
+title: Java Packages
 translated: false
 ---
 

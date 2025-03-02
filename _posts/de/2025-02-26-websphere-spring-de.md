@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: de
 layout: post
 title: Spring Boot auf WebSphere Liberty Profile bereitstellen

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: 使用 Auth Tokens 与 npm Registry URLs

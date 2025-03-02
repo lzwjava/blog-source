@@ -1,9 +1,10 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: How Neural Network Works
 usemathjax: true
-audio: false
 ---
 
 Let's directly discuss the core of neural work. That said, the backpropagation algorithm:

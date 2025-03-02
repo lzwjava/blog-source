@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: चीनी अर्थव्यवस्था के लिए रास्ते पर एक संक्षिप्त चर्चा

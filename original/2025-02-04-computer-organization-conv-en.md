@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Computer Organization - Conversation"
 audio: true
+generated: false
+layout: post
+title: Computer Organization - Conversation
 ---
 
 A: I’ve been revisiting the basics of computer organization, and it’s fascinating how the Von Neumann architecture still underpins most modern systems. But with the rise of specialized architectures like Harvard, do you think Von Neumann’s model is becoming outdated?

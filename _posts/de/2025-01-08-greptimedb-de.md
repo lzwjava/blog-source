@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Unternehmen sollten KI-Kontext oder -Agenten bereitstellen, um die Integration

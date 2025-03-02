@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: 为什么 ChatGPT Plus 应该按Token使用量收费

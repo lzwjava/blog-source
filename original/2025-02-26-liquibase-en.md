@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "Liquibase: Database Scheme Management"
+title: 'Liquibase: Database Scheme Management'
 translated: false
 ---
 

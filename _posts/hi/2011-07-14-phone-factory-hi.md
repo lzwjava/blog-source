@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: फोन निर्माण फैक्ट्री का एक दौरा

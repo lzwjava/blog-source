@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Linear Algebra Note"
 audio: true
+generated: false
+layout: post
+title: Linear Algebra Note
 ---
 
 Let's break it down further with a concrete example to help clarify the concept of the canonical form of a quadratic form.

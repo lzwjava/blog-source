@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Computer Organization"
 audio: true
+generated: false
+layout: post
+title: Computer Organization
 ---
 
 1. Definition: Computer Organization refers to the operational structure and implementation of computer systems, focusing on how hardware components interact to execute instructions.

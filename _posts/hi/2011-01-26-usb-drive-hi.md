@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: USB ड्राइव को पृष्ठभूमि और आइकन के साथ अनुकूलित करें

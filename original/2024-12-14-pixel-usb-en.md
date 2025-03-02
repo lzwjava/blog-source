@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Pixel's USB Options
-audio: false
 ---
 
 <div style="text-align: center;">  

@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Basic Electronics - Conversation"
 audio: true
+generated: false
+layout: post
+title: Basic Electronics - Conversation
 ---
 
 A: Hey, I’ve been hearing a lot about power electronics and its applications. Can you break it down for me?

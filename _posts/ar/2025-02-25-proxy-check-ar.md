@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: ar
 layout: post
 title: تنفيذ فحص الوكيل في ويندوز

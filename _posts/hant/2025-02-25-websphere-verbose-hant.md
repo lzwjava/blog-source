@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: hant
 layout: post
 title: 詳細日誌記錄在 WebSphere Liberty Server

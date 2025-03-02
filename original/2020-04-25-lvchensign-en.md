@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "LvchenSign: Advertising LED Corporate Site"
+title: 'LvchenSign: Advertising LED Corporate Site'
 translated: false
 ---
 

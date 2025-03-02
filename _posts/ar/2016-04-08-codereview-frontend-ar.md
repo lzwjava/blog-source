@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ar
 layout: post
 title: بناء منصة مراجعة الكود الفعالة باستخدام Vue.js

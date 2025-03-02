@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: Nvidia 驅動程式、LLaMA 與 ChatGPT

@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: ChatGPT Helps Me Learn Japanese
-audio: false
 ---
 
 ### Foreword

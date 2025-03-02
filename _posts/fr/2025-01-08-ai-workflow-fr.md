@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Nouvelles plateformes alimentées par des flux de travail IA

@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "Transforming Eclipse into Emacs"
+title: Transforming Eclipse into Emacs
 translated: false
 ---
 

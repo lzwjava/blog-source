@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Servidor de Lenguaje Java en Visual Studio Code

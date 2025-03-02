@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Computer Networks - Conversation"
 audio: true
+generated: false
+layout: post
+title: Computer Networks - Conversation
 ---
 
 A: Let's dive into the basics of computer networks. What do you think is the most transformative aspect of network evolution?

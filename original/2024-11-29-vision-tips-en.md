@@ -1,9 +1,10 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Natural Vision Restoration Tips
 top: 10
-audio: false
 ---
 
 * The reason people worsen their eyesight is that they use glasses with full prescription (which lets them see a blackboard clearly at 5m) to look at phones, computers, or books most of the time. This causes their eyeballs to deform.

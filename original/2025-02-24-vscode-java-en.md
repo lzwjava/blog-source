@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: Configure the Java Compiler in Visual Studio Code 
+title: Configure the Java Compiler in Visual Studio Code
 translated: false
 ---
 

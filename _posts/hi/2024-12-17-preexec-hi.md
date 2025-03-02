@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: प्रॉक्सी सेटिंग्स प्रदर्शित करने के लिए, आप निम्नलिखित कमांड का उपयोग कर सकते

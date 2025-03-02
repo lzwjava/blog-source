@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ar
 layout: post
 title: سيرفر بسيط في الوقت الحقيقي (SRS) لمباشر RTMP

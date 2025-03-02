@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: zh
 layout: post
 title: JVM 选项在 WebSphere Liberty 服务器

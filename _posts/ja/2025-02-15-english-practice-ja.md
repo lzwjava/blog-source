@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: ja
 layout: post
 title: 英語のネイティブスピーカーとの実践的な練習

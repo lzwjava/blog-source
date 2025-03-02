@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Display Proxy Settings Before Running Commands
-audio: false
 ---
 
 <div style="text-align: center;">  

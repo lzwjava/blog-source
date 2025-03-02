@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Microcomputer and Interface Technology"
 audio: true
+generated: false
+layout: post
+title: Microcomputer and Interface Technology
 ---
 
 Here is a list of 100 key points covering various aspects of Microcomputer and Interface Technology based on the self-study outline:

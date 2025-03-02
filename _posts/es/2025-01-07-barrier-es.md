@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Registro en cualquier plataforma independientemente de la identidad

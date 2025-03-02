@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "PostgreSQL: Database Management Guide"
+title: 'PostgreSQL: Database Management Guide'
 translated: false
 ---
 

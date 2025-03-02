@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: 簡單即時伺服器 (SRS) 用於 RTMP 串流

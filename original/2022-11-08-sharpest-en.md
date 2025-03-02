@@ -1,9 +1,10 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: 'Mastering English: On and Off the Job'
 top: 10
-audio: false
 ---
 
 One year ago, regarding my English ability, my reading was good, my listening was not so good, and my writing and speaking were poor. After working in a Singaporean company, four aspects of my English level are proficiency. 

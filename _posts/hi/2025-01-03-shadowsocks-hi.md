@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: Shadowsocks प्रॉक्सी समस्याएँ

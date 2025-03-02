@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "A Visit to a Phone Manufacturing Factory"
+title: A Visit to a Phone Manufacturing Factory
 translated: false
 ---
 

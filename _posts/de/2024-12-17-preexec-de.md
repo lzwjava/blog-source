@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Proxy-Einstellungen anzeigen, bevor Befehle ausgeführt werden

@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Electronic Fundamentals"
 audio: true
+generated: false
+layout: post
+title: Electronic Fundamentals
 ---
 
 ### Basic Electronic Components

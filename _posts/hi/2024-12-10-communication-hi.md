@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: मेरे लिए सर्वश्रेष्ठ संचार विधि

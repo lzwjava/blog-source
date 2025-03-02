@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: ChatGPT रिट्रीवल वेब का एक उपयोग मामला

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Verwende DeepThink oder ChatGPT o1 Viel

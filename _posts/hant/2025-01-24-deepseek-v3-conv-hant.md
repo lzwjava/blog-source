@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: 深度探索V3：多頭潛在注意力與多標記預測

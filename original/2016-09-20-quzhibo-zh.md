@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: zh
 layout: post
 title: 趣直播：首个知识直播平台
-audio: false
 ---
 
 趣直播，我们的产品要发布了。21 岁的我，第二个创业项目发布了。

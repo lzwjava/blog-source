@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Pensamiento a Largo Plazo en la Selección de Servidores en la Nube

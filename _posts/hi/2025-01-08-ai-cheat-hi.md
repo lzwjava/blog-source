@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: AI धोखाधड़ी के बारे में चिंता करने के बजाय निर्णय पर ध्यान केंद्रित करें।

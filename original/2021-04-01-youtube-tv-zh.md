@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: zh
 layout: post
 title: 如何在电视上看 Youtube
-audio: false
 ---
 
 这里假设我们知道如何科学上网，那如何在电视上看Youtube呢。刷路由有点麻烦。这里借助一个应用。

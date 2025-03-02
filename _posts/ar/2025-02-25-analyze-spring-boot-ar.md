@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: ar
 layout: post
 title: تحليل مشاريع Spring Boot

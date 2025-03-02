@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Cómo Vivo Bien en la Era de la IA y el Blockchain

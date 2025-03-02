@@ -1,9 +1,10 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Life Tips
 top: 10
-audio: false
 ---
 
 * Explore the world early, go to different countries, and talk to different people.

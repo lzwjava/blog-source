@@ -1,9 +1,10 @@
 ---
-audio: false  
-lang: en  
-layout: post  
-title: Headphones or Earphones  
-translated: false  
+audio: false
+generated: false
+lang: en
+layout: post
+title: Headphones or Earphones
+translated: false
 ---
 
 - The Jabra Evolve 30 is good to use and has effective Active Noise Cancellation.  

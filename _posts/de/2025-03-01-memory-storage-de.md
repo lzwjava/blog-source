@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Verstehen von Schlüssel-Speicher- und Speichersystemen in der Informatik

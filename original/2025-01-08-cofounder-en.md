@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "Tips for Finding the Cofounder"
-lang: en
 audio: false
+generated: false
+lang: en
+layout: post
+title: Tips for Finding the Cofounder
 ---
 
 - If I were to start my startup again, how would I find my cofounder?

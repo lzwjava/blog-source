@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: À qui confier le projet, à qui revient l'argent ?

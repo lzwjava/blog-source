@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Traducción al español de las publicaciones del blog de Yin Wang

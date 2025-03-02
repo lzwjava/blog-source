@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Computer Organization - Notes"
 audio: false
+generated: false
+layout: post
+title: Computer Organization - Notes
 ---
 
 Semiconductor memory is a type of storage device that uses semiconductor circuits as the storage medium. It is composed of semiconductor integrated circuits known as memory chips. Based on their function, semiconductor memories can be categorized into two main types: Random Access Memory (RAM) and Read-Only Memory (ROM).

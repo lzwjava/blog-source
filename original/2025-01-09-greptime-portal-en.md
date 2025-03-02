@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "Circular Graphic Overflow in GreptimeDB Portal"
+title: Circular Graphic Overflow in GreptimeDB Portal
 translated: false
 ---
 

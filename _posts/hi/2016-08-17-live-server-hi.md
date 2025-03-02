@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: ज्ञान लाइव ब्रॉडकास्ट प्लेटफॉर्म

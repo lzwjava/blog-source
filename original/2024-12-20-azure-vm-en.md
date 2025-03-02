@@ -1,8 +1,9 @@
 ---
+audio: true
+generated: false
 lang: en
 layout: post
 title: Setting Up an Azure Server
-audio: true
 ---
 
 Setting up a server on Microsoft Azure and configuring it to open specific ports is essential for various applications, including hosting services, proxies, and more. This guide will walk you through the process of creating an Azure Virtual Machine (VM) and configuring the firewall to open port 1080.

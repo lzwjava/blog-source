@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Die Fälle, in denen wir die GitHub-Suchleiste noch benötigen

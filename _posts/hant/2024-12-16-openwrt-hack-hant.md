@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: 增強OpenWRT與OpenClash及Shadowsocks的整合

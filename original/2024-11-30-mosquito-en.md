@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Mosquitoes Disappear When Temperature Drops
-audio: false
 ---
 
 In last night, I intened to go to sleep. At the moment I want to close the mosquito net, I found there wasn't any mosquito in my room now. The winter is coming. Today is Nov 30, 2024. I am in Guangzhou, China. The temperature in Guangzhou is between 13-20°C.

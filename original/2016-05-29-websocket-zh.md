@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: zh
 layout: post
 title: 探索 WebSocket
-audio: false
 ---
 
 *这篇博文是由 ChatGPT-4o 协助整理的。*

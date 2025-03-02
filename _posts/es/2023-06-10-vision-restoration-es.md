@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Verificación Experimental del Método de Restauración Natural de la Visión

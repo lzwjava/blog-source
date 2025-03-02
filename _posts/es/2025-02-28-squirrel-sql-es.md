@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Conectando a Bases de Datos con Squirrel SQL

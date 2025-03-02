@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: ja
 layout: post
 title: 特定のファイル拡張子に対してのみワードラッピングを有効にする

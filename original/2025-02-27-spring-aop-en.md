@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: Spring AOP (Aspect-Oriented Programming) 
+title: Spring AOP (Aspect-Oriented Programming)
 translated: false
 ---
 

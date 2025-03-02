@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: 'क्यू लाइव: पहला ज्ञान-आधारित लाइव स्ट्रीमिंग प्लेटफॉर्म'

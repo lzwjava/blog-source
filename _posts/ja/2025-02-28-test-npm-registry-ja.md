@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: NPM レジストリのテストを HTTP リクエストを使用して行う

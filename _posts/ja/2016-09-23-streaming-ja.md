@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: OBS、SRS、およびFFmpegを使用したライブストリーミング設定

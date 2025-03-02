@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: ऑटोमेटेड पंच-इन शॉर्टकट्स के साथ

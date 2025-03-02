@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: WebSphere Liberty - 你好，世界应用程序

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: लाइटनिंग टू इथर्नेट एडाप्टर

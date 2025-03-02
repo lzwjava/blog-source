@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Seguimiento de las Finanzas de Nuestra Casa

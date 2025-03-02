@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Abstraction
-audio: false
 ---
 
 * Everything is about abstraction.

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: なぜ、そしてどのように私は日本語を学ぶのか

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Procesamiento de Imágenes en Android Hecho Fácil

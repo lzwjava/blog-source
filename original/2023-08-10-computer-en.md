@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: How to Build a Computer
-audio: false
 ---
 
 ![cover](assets/images/computer/cover.jpg)

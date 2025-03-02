@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Konfigurieren Sie den Java-Compiler in Visual Studio Code

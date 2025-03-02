@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Pay Attention to Food Freshness
-audio: false
 ---
 
 A recent experience with street food taught me a valuable lesson about the importance of food freshness. While enjoying Xinjiang barbecue from a vendor, I ordered two lamb shashlik skewers and a portion of ham. The next day, I found myself dealing with an unfortunate case of diarrhea.

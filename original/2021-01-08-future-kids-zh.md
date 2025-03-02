@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: zh
 layout: post
 title: 未来的孩子
-audio: false
 ---
 
 05年，Paul Graham 创立YC孵化器。在「招聘已经过时」一文中说道：

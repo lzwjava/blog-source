@@ -1,8 +1,9 @@
 ---
+audio: true
+generated: false
+lang: en
 layout: post
 title: Subscribe
-audio: true
-lang: en
 ---
 
 Stay updated with my latest blog posts by subscribing via RSS feed, audio feed, or following me on X (Twitter).  

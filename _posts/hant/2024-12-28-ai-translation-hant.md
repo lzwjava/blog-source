@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: 全新Quora或TikTok，全面由AI驅動翻譯

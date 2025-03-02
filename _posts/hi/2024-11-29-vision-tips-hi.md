@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: प्राकृतिक दृष्टि सुधार युक्तियाँ

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Estilizando una Plataforma de Revisión de Código con Stylus

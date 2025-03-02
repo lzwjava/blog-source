@@ -1,9 +1,10 @@
 ---
-audio: false  
-lang: en  
-layout: post  
-title: "Portable Hotspot Shangzanwifi"
-translated: false  
+audio: false
+generated: false
+lang: en
+layout: post
+title: Portable Hotspot Shangzanwifi
+translated: false
 ---
 
 - http://shangzanwifi.com, Wi-Fi Portable Hotspot bought from JD.com for around 45 CNY.  

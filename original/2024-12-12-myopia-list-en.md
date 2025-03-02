@@ -1,9 +1,10 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Reversing Myopia
 top: 50
-audio: false
 ---
 
 * [Myopia: A Modern Yet Reversible Disease, M.S. (AHS14)](https://youtu.be/x5Efg42-Qn0?si=ijNdAE_ifYpvh8gF), Todd Becker

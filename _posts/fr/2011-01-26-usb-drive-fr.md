@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Personnalisez votre clé USB avec un fond d'écran et une icône

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: 'Java Servlet Application on WebSphere Liberty Profile का अनुवाद:

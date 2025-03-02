@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
 title: 'mathjax2mobi: Converting MathJax HTML for eBooks'

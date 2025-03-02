@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: Java भाषा सर्वर वीजुअल स्टूडियो कोड में

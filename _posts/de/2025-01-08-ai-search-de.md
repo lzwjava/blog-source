@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Ein Fallbeispiel für die Verwendung der Suche in ChatGPT

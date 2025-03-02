@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Utilisation du serveur WebSphere Liberty dans VSCode

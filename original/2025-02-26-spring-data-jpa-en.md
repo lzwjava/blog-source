@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "Spring Data JPA"
+title: Spring Data JPA
 translated: false
 ---
 

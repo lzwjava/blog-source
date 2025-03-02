@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: 'Yin Wang : La réponse ultime à la vie, l''univers et tout le reste'

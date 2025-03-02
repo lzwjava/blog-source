@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ar
 layout: post
 title: استخدام الميزات في واجهة Kong Insomnia

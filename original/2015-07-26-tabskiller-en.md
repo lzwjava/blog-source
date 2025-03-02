@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "TabsKiller: a Chrome plugin"
+title: 'TabsKiller: a Chrome plugin'
 translated: false
 ---
 

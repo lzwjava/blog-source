@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Mettez l'accent sur le jugement plutôt que sur l'inquiétude concernant la triche

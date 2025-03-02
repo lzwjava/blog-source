@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: ChatGPTは会話履歴からGPTを作成できるようにすべき

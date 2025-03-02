@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Microcomputer - Conversation"
 audio: true
+generated: false
+layout: post
+title: Microcomputer - Conversation
 ---
 
 A: I’ve been revisiting microcomputer fundamentals. Can we start with the CPU’s role in instruction execution?

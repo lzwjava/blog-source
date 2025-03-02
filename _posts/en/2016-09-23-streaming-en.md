@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
 title: Setting Up Live Streaming with OBS, SRS, and FFmpeg

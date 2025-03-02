@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: es
 layout: post
 title: Evaluando a los Candidatos de la Entrevista

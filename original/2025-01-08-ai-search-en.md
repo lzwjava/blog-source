@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "A Case Using Search in ChatGPT"
-lang: en
 audio: false
+generated: false
+lang: en
+layout: post
+title: A Case Using Search in ChatGPT
 ---
 
 **Zhiwei:**  

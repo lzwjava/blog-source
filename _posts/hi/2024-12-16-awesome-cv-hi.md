@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: Awesome-CV का उपयोग करके एक पेशेवर रिज्यूमे बनाना

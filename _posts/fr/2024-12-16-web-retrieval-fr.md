@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Un Cas d'Utilisation pour ChatGPT Retrieval Web

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: 'Natürliche Wiederherstellung der Sehkraft: Das Prinzip des "gerade noch klaren

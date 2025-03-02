@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "The Journey to Pursue Internet Freedom"
+title: The Journey to Pursue Internet Freedom
 translated: false
 ---
 

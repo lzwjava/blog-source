@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Aplicación de Servlets de Java en WebSphere Liberty Profile

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: 近視：現代の、しかし逆転可能な疾患 — Todd Becker

@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Mac Apps I Used
-audio: false
 ---
 
 A:

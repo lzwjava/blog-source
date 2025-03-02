@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Mostrar Configuración del Proxy Antes de Ejecutar Comandos

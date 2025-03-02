@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: AI Tools
-audio: false
 ---
 
 Here are some AI tools I've used, categorized for clarity:

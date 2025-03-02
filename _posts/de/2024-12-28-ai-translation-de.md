@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Neues Quora oder TikTok vollständig durch KI-Übersetzung betrieben

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
 title: 'An Xcode Plugin: Reveal-In-GitHub'

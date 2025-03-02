@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: कृत्रिम सामान्य बुद्धिमत्ता (Artificial General Intelligence) की दुनिया

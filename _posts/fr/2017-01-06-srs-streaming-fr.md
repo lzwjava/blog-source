@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: Serveur Simple en Temps Réel (SRS) pour le Streaming RTMP

@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: hi
 layout: post
 title: OpenWrt Xiaomi Mi Router 4C पर आक्रमण

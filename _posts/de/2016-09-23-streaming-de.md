@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Einrichtung eines Live-Streams mit OBS, SRS und FFmpeg

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: स्टार्टअप कंपनी में एक भाषण

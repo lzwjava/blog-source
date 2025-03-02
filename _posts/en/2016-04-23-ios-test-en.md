@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
 title: Enhancing iOS Development with Automated Testing and Tools

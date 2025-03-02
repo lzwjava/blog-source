@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: '趣直播 : La première plateforme de diffusion en direct de connaissances'

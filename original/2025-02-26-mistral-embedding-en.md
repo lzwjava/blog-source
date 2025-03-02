@@ -1,8 +1,9 @@
 ---
 audio: false
+generated: false
 lang: en
 layout: post
-title: "Mistral AI Embeddings"
+title: Mistral AI Embeddings
 translated: false
 ---
 

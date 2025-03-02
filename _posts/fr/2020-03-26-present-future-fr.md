@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: fr
 layout: post
 title: La situation actuelle et l'avenir de l'économie chinoise

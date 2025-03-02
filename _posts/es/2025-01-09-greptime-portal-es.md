@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Desbordamiento Gráfico Circular en el Portal de GreptimeDB

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Verbesserung von OpenWRT mit OpenClash und Shadowsocks

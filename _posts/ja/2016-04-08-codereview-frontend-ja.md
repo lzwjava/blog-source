@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: ja
 layout: post
 title: Vue.jsを使った効率的なコードレビュープラットフォームの構築

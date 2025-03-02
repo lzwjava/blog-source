@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Monitoreo de Cambios en Directorios con la API FSEvents

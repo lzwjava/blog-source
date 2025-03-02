@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Uso de lentes progresivos multifocales para revertir la miopía

@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Understanding Neural Network
-audio: false
 ---
 
 Zhiwei: 

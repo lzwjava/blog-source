@@ -1,8 +1,9 @@
 ---
-layout: post  
-title: PowerShell Commands
-lang: en
 audio: false
+generated: false
+lang: en
+layout: post
+title: PowerShell Commands
 translated: false
 ---
 

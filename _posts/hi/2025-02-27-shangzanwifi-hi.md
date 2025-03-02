@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: पोर्टेबल हॉटस्पॉट शांगज़ानवाईफाई

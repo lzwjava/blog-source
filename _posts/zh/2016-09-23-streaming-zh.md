@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: 使用 OBS、SRS 和 FFmpeg 进行直播设置

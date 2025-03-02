@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: क्लासइन उपयोग दिशानिर्देश

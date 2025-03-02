@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Usando Tokens de Autenticación con URLs del Registro de npm

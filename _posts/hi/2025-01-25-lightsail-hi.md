@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: AWS Lightsail इंस्टेंसेस का प्रबंधन

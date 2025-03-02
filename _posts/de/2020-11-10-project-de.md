@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: de
 layout: post
 title: Wem soll das Projekt anvertraut werden, und wer soll das Geld verdienen?

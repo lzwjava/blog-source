@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: zh
 layout: post
 title: 使用 WebSphere Liberty 服务器在 VSCode 中

@@ -1,5 +1,6 @@
 ---
 audio: true
+generated: false
 lang: hant
 layout: post
 title: 應用程序啟動問題於WebSphere Liberty Profile

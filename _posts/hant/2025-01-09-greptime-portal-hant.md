@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hant
 layout: post
 title: 圓形圖形溢出於 GreptimeDB 入口

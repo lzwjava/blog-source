@@ -1,8 +1,9 @@
 ---
+audio: false
+generated: false
 lang: en
 layout: post
 title: Enhancing OpenWRT with OpenClash and Shadowsocks
-audio: false
 ---
 
 ### Updating Package Lists

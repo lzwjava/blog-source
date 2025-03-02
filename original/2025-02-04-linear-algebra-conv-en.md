@@ -1,7 +1,8 @@
 ---
-layout: post
-title: "Linear Algebra - Conversation"
 audio: true
+generated: false
+layout: post
+title: Linear Algebra - Conversation
 ---
 
 A: Hey, I’ve been reviewing linear algebra lately, and I wanted to dive deeper into some of the concepts. Can we start with vectors and matrices?

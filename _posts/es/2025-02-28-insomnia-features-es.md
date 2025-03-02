@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: Usar Características en la Interfaz de Usuario de Kong Insomnia

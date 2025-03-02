@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: फलों का ऑर्डर देते समय नुकसान से बचाव

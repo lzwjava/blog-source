@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: hi
 layout: post
 title: AndroidManifest.xml फ़ाइल को समझना

@@ -1,5 +1,6 @@
 ---
 audio: false
+generated: false
 lang: es
 layout: post
 title: 'Miopía: Una Enfermedad Moderna pero Reversible — Todd Becker'
