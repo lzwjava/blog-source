@@ -11,8 +11,8 @@ layout: page
   <select id="sort-select">
     <option value="author-picks|all">Picks</option>
     <option value="date-desc|all">All</option>
-    <option value="date-desc|original" selected>Original</option>    
-    <option value="date-desc|en">English</option>
+    <option value="date-desc|original">Original</option>    
+    <option value="date-desc|en" selected>English</option>
     <option value="date-desc|zh">中文</option>
     <option value="date-desc|ja">日本語</option>
     <option value="date-desc|es">Español</option>
@@ -29,30 +29,34 @@ layout: page
   {% if site.posts.size > 0 %}
   {% for post in site.posts %}
     {% assign translated = post.translated %}
+    {% assign generated = post.generated %}
     {% if translated == nil %}
       {% assign translated = false %}
     {% endif %}
+    {% if generated == nil %}
+      {% assign generated = false %}
+    {% endif %}
     {% if post.path contains '_posts/en/' %}
-      <li class="list-group-item post-item lang-en" data-top="{{ post.top }}" data-translated="{{ translated }}">
+      <li class="list-group-item post-item lang-en" data-top="{{ post.top }}" data-translated="{{ translated }}" data-generated="{{ generated }}">
     {% elsif post.path contains '_posts/zh/' %}
-      <li class="list-group-item post-item lang-zh" data-top="{{ post.top }}" data-translated="{{ translated }}">
+      <li class="list-group-item post-item lang-zh" data-top="{{ post.top }}" data-translated="{{ translated }}" data-generated="{{ generated }}">
     {% elsif post.path contains '_posts/ja/' %}
-      <li class="list-group-item post-item lang-ja" data-top="{{ post.top }}" data-translated="{{ translated }}">
+      <li class="list-group-item post-item lang-ja" data-top="{{ post.top }}" data-translated="{{ translated }}" data-generated="{{ generated }}">
     {% elsif post.path contains '_posts/es/' %}
-      <li class="list-group-item post-item lang-es" data-top="{{ post.top }}" data-translated="{{ translated }}">
+      <li class="list-group-item post-item lang-es" data-top="{{ post.top }}" data-translated="{{ translated }}" data-generated="{{ generated }}">
     {% elsif post.path contains '_posts/hi/' %}
-      <li class="list-group-item post-item lang-hi" data-top="{{ post.top }}" data-translated="{{ translated }}">
+      <li class="list-group-item post-item lang-hi" data-top="{{ post.top }}" data-translated="{{ translated }}" data-generated="{{ generated }}">
     {% elsif post.path contains '_posts/fr/' %}
-      <li class="list-group-item post-item lang-fr" data-top="{{ post.top }}" data-translated="{{ translated }}">
+      <li class="list-group-item post-item lang-fr" data-top="{{ post.top }}" data-translated="{{ translated }}" data-generated="{{ generated }}">
     {% elsif post.path contains '_posts/de/' %}
-      <li class="list-group-item post-item lang-de" data-top="{{ post.top }}" data-translated="{{ translated }}">
+      <li class="list-group-item post-item lang-de" data-top="{{ post.top }}" data-translated="{{ translated }}" data-generated="{{ generated }}">
     {% elsif post.path contains '_posts/ar/' %}
-      <li class="list-group-item post-item lang-ar" data-top="{{ post.top }}" data-translated="{{ translated }}">
+      <li class="list-group-item post-item lang-ar" data-top="{{ post.top }}" data-translated="{{ translated }}" data-generated="{{ generated }}">
     {% elsif post.path contains '_posts/hant/' %}
-      <li class="list-group-item post-item lang-hant" data-top="{{ post.top }}" data-translated="{{ translated }}">
+      <li class="list-group-item post-item lang-hant" data-top="{{ post.top }}" data-translated="{{ translated }}" data-generated="{{ generated }}">
     {% elsif post.path contains '_posts/original/' %}
     {% else %}
-      <li class="list-group-item post-item lang-all" data-top="{{ post.top }}" data-translated="{{ translated }}">
+      <li class="list-group-item post-item lang-all" data-top="{{ post.top }}" data-translated="{{ translated }}" data-generated="{{ generated }}">
     {% endif %}
     {% if post.path contains '_posts/en/' or post.path contains '_posts/zh/' or post.path contains '_posts/ja/' or post.path contains '_posts/es/' or post.path contains '_posts/hi/' or post.path contains '_posts/fr/' or post.path contains '_posts/de/' or post.path contains '_posts/ar/' or post.path contains '_posts/hant/' or post.path contains '_posts/all/' %}
       <a href="{{ post.url }}">
@@ -100,7 +104,7 @@ layout: page
         }).map(post => ({ element: post }));
       } else if (sortOption === 'date-desc' && langFilter === 'original') {
         processedPosts = Array.from(posts)
-          .filter(post => post.dataset.translated === 'false')
+          .filter(post => post.dataset.translated === 'false' && post.dataset.generated === 'false')
           .map(post => {
             const dateElement = post.querySelector('.date');
             const dateStr = dateElement ? dateElement.textContent.trim().replace(/\./g, '-') : null;
@@ -172,7 +176,7 @@ layout: page
     if (savedSort) {
       sortSelect.value = savedSort;
     } else {
-      sortSelect.value = 'date-desc|original';
+      sortSelect.value = 'date-desc|en';
     }
         
     updatePosts();    
