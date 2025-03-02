@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: fr
 layout: post
 title: Automatisation des navigateurs web avec Selenium

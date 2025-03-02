@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: zh
 layout: post
 title: WebSphere Liberty Profile 部署故障排除

@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: hi
 layout: post
 title: Spring Data Redis का उपयोग

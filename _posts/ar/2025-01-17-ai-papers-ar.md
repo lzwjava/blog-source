@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: ar
 layout: post
 title: أوراق بحثية عن الذكاء الاصطناعي

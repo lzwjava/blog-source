@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: fr
 layout: post
 title: 'DeepSeek V3 : Attention Latente Multi-Tête et Prédiction Multi-Token'

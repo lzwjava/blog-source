@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: fr
 layout: post
 title: Une expérience DeepSearch au sein de Grok

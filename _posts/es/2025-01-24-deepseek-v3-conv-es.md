@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: es
 layout: post
 title: 'Búsqueda Profunda V3: Atención Latente Multi-Cabeza y Predicción Multi-Token'

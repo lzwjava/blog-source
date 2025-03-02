@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: fr
 layout: post
 title: Divers Tests des Capacités de l'IA et du LLM

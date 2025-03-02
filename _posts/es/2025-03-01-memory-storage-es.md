@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: es
 layout: post
 title: Comprensión de los Sistemas de Memoria y Almacenamiento Clave en la Computación

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hant
 layout: post
 title: Java 語言伺服器與 Maven 建構

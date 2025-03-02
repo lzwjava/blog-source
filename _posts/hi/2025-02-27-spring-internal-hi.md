@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: स्प्रिंग इन्टर्नल वर्किंग्स

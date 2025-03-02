@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: ja
 layout: post
 title: ディレクトリの変更を監視するFSEvents API

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: JMeter का उपयोग कैसे करें

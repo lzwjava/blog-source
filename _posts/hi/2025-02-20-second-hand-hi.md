@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: hi
 layout: post
 title: सस्ते दुसरे हाथ के सामान खरीदें

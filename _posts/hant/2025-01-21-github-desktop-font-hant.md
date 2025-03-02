@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hant
 layout: post
 title: GitHub Desktop 字体渲染问题

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: Shared Objects in Multiple Threads

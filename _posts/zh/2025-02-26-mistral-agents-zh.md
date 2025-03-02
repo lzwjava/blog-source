@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: zh
 layout: post
 title: Mistral AI 代理

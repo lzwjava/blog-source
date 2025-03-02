@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: fr
 layout: post
 title: Compression d'images par algèbre linéaire

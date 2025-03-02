@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: hi
 layout: post
 title: ब्रू अपग्रेड का लॉग

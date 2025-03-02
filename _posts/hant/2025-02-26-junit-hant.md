@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hant
 layout: post
 title: 'JUnit: Java 程式測試框架'

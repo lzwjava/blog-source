@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: zh
 layout: post
 title: 导航到 Microsoft Teams 中最旧的消息

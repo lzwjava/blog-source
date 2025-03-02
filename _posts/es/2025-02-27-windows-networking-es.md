@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: es
 layout: post
 title: Comandos de Red de Windows

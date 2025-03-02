@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hant
 layout: post
 title: 春天 AOP (面向切面编程)

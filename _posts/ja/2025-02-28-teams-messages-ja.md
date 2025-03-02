@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: ja
 layout: post
 title: 最古のメッセージに移動する方法

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: ja
 layout: post
 title: npm レジストリ URL と認証トークンの使用

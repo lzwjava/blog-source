@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hant
 layout: post
 title: AI及LLM能力的雜項測試

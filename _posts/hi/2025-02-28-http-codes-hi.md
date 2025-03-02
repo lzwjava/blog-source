@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: सामान्य एचटीटीपी प्रतिक्रिया कोड

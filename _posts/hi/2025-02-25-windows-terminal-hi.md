@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: hi
 layout: post
 title: Windows टर्मिनल विकल्प

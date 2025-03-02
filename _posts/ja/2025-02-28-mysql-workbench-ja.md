@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: ja
 layout: post
 title: MySQL Workbenchを使用する

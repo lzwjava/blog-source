@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: zh
 layout: post
 title: Docker 守护进程连接问题

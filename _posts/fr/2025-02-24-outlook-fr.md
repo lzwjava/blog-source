@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: fr
 layout: post
 title: Prévenir Outlook de supprimer les liens de réunion Zoom

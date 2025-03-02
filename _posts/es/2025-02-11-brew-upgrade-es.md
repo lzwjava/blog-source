@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: es
 layout: post
 title: El Registro de la Actualización de Brew

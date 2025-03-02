@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: en
 layout: post
 title: Sorting Algorithms in Java

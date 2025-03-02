@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: zh
 layout: post
 title: 微机与接口技术

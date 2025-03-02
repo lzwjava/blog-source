@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: de
 layout: post
 title: Kabeltester für Netzwerke

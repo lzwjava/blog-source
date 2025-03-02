@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: zh
 layout: post
 title: 分析Java依赖

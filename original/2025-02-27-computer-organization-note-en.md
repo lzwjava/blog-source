@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 layout: post
 title: Computer Organization - Notes
 ---

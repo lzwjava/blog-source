@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: ja
 layout: post
 title: Maven POMの解析による依存関係グラフの生成

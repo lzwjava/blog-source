@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: Auth Tokens के साथ npm Registry URLs का उपयोग

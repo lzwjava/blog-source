@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: fr
 layout: post
 title: Améliorer la vitesse du Wifi

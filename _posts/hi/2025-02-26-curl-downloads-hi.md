@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: कर्ल डाउनलोड्स का ट्रबलशूट

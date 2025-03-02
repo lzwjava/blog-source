@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: ar
 layout: post
 title: إصلاح مشاكل نشر في WebSphere Liberty Profile

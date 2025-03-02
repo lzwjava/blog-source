@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: ja
 layout: post
 title: AIおよびLLM機能の雑多なテスト

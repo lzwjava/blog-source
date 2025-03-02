@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: es
 layout: post
 title: Desarrollando Proyectos Spring Boot con Herramientas de IA

@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: fr
 layout: post
 title: Pratique d'anglais abordable avec des locuteurs natifs

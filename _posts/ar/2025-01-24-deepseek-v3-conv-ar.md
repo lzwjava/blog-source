@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: ar
 layout: post
 title: 'DeepSeek V3: الانتباه المتعدد الرؤوس في المظهر و التنبؤ المتعدد الرموز'

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: डेटाबेस के साथ सिक्वरेल एसक्यूएल के साथ कनेक्टिंग

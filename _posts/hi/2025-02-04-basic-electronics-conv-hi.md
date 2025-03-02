@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: बेसिक इलेक्ट्रॉनिक्स - संवाद

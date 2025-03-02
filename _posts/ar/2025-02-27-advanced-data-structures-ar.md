@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: ar
 layout: post
 title: الهيكلات المتقدمة للبيانات في جاڤا

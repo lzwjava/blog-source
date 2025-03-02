@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: hant
 layout: post
 title: Git大型檔案儲存庫

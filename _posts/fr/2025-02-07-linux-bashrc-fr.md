@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: fr
 layout: post
 title: Configuration du fichier Linux Bashrc

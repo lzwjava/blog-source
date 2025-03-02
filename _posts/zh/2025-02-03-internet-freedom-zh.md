@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: zh
 layout: post
 title: 追求网络自由之旅

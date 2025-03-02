@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: es
 layout: post
 title: Solucionar problemas de implementación en WebSphere Liberty Profile

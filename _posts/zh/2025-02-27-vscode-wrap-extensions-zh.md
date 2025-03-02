@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: zh
 layout: post
 title: 启用特定文件扩展名的自动换行

@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: hant
 layout: post
 title: 買便宜二手貨

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: es
 layout: post
 title: 'Liquibase: Gestión de Esquemas de Base de Datos'

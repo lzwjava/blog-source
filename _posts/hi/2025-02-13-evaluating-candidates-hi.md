@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: hi
 layout: post
 title: इंटरव्यू उम्मीदवारों का मूल्यांकन

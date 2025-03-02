@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: ja
 layout: post
 title: OpenRouterの使用

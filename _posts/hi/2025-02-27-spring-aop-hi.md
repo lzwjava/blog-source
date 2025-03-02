@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: Spring AOP (Aspect-Oriented Programming) का अनुवाद

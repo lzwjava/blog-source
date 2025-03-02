@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 layout: post
 title: Deepseek R1 - Conversation
 ---

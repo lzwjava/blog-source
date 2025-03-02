@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: es
 layout: post
 title: Habilitar el ajuste de texto solo para extensiones de archivo específicas

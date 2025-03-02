@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: DeepThink या ChatGPT का बहुत उपयोग करें।

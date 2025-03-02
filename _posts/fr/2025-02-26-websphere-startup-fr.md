@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: fr
 layout: post
 title: Problèmes de démarrage d'application dans WebSphere Liberty Profile

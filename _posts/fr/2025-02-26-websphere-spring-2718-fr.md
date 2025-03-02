@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: fr
 layout: post
 title: Spring Boot 2.7.18 dans WebSphere Liberty Profile

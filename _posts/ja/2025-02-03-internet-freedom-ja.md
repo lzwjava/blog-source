@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: ja
 layout: post
 title: インターネットの自由を求める旅

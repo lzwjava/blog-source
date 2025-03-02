@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: WebSphere Liberty का उपयोग Eclipse के साथ

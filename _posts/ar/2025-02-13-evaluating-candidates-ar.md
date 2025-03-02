@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: ar
 layout: post
 title: تقييم مرشحين للتوظيف

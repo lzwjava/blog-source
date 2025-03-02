@@ -1,9 +1,25 @@
 import os
 import re
 import yaml
+import datetime
 
 def update_front_matter(file_path):
     try:
+        # Extract date from filename
+        filename = os.path.basename(file_path)
+        date_match = re.match(r'(\d{4}-\d{2}-\d{2})', filename)
+        if not date_match:
+            print(f"Could not extract date from filename: {filename}")
+            return
+        file_date_str = date_match.group(1)
+        file_date = datetime.datetime.strptime(file_date_str, '%Y-%m-%d').date()
+
+        # Check if the file date is within the specified range
+        start_date = datetime.date(2025, 1, 16)
+        today = datetime.date.today()
+        if not (start_date <= file_date <= today):
+            return  # Skip files outside the date range
+
         with open(file_path, 'r', encoding='utf-8') as infile:
             content = infile.read()
 
@@ -15,7 +31,7 @@ def update_front_matter(file_path):
         else:
             front_matter_dict = yaml.safe_load(front_matter) if front_matter else {}
 
-        front_matter_dict['generated'] = False
+        front_matter_dict['generated'] = True
 
         updated_front_matter = "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
         updated_content = updated_front_matter + content[len(front_matter_match.group(0)):] if front_matter_match else updated_front_matter + content

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: ja
 layout: post
 title: Java Servlet アプリケーションの WebSphere Liberty Profile

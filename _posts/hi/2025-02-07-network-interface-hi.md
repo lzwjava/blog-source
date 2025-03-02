@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: hi
 layout: post
 title: नेटवर्क इंटरफ़ेस प्रबंधन

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: ऐआई टूल्स के साथ स्प्रिंग बूट प्रोजेक्ट्स विकास

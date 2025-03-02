@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: en
 layout: post
 title: Homebrew Packages I Install

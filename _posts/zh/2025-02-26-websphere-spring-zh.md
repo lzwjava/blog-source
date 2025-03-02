@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: zh
 layout: post
 title: 部署 Spring Boot 到 WebSphere Liberty Profile

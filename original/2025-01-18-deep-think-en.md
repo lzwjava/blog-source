@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: en
 layout: post
 title: Use DeepThink or ChatGPT o1 A Lot

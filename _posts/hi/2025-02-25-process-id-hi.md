@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: प्रचालित सर्वर का प्रोसेस आईडी (पीआईडी)

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: ar
 layout: post
 title: تحديد ملفات تعريف تطبيقات جاڤا باستخدام VisualVM

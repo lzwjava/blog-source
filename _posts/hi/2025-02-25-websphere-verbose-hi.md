@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: hi
 layout: post
 title: वेरबोज़ लॉगिंग इन वेबस्पीयर लिबर्टी सर्वर

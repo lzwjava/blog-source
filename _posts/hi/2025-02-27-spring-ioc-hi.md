@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: hi
 layout: post
 title: Spring IoC (Inversion of Control) Container का उपयोग

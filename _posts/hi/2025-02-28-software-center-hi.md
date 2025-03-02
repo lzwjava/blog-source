@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: सॉफ्टवेयर सेंटर डाउनलोड समस्याएं

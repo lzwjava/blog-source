@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: de
 layout: post
 title: Aktivieren Sie das Wortumbruch nur für bestimmte Dateierweiterungen

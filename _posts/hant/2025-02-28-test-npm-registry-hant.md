@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hant
 layout: post
 title: 測試 NPM 註冊表使用原始 HTTP 要求

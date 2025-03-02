@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: de
 layout: post
 title: Mit WebSphere Liberty Server in VSCode arbeiten

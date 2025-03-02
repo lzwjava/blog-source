@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hant
 layout: post
 title: 使用 WebSphere Liberty 伺服器在 VSCode

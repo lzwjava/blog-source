@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: उन्नत डेटा स्ट्रक्चर्स इन जावा

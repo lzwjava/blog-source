@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: hi
 layout: post
 title: 'BCEmbedding: द्विभाषीय एम्बेडिंग RAG के लिए'

@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: en
 layout: post
 title: 'BCEmbedding: Bilingual Embedding for RAG'

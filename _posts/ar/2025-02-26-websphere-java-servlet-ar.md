@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: ar
 layout: post
 title: تطبيق خادم Java على WebSphere Liberty Profile

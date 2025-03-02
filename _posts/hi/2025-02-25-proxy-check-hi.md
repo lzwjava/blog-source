@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: false
+generated: true
 lang: hi
 layout: post
 title: प्रॉक्सी चेक का इम्प्लीमेंटेशन विंडोज में

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: es
 layout: post
 title: Pruebas del registro de NPM utilizando solicitudes HTTP en bruto

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: false
+generated: true
 lang: hi
 layout: post
 title: मिस्ट्राल एआई एम्बेडिंग्स
