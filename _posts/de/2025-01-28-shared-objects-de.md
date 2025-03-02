@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: de
 layout: post
 title: Gemeinsame Objekte in Mehreren Threads

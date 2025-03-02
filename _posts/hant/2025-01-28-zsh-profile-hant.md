@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: hant
 layout: post
 title: Zsh 設定檔

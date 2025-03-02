@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: fr
 layout: post
 title: Objets Partagés dans Plusieurs Threads

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: hant
 layout: post
 title: 原始 HTTP 請求及封裝器
