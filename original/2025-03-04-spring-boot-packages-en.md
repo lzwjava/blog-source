@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: Package Analysis of Spring Boot 
+title: Analyzing Packages in Spring Boot
 translated: false
 generated: true
 ---
