@@ -19,3 +19,4 @@ invoice
 *.o
 hello
 weibo_cookies1.txt
+__pycache__
