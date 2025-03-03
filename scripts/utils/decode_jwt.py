@@ -1,32 +1,30 @@
-# decode_jwt.py
 import jwt
 import argparse
-from jwt.exceptions import DecodeError
+import json
+from jwt.exceptions import PyJWTError
 
-def decode_jwt_token(token: str) -> dict:
-    """
-    Decodes a JWT token without verifying the signature.
-
-    Args:
-        token: The JWT token to decode.
-
-    Returns:
-        A dictionary containing the decoded payload, or None if the token is invalid.
-    """
-    try:
-        decoded_payload = jwt.decode(token, options={"verify_signature": False}, algorithms=["HS256"])
-        return decoded_payload
-    except DecodeError:
-        return None
-
-if __name__ == '__main__':
+def main():
+    # Set up command-line argument parsing
     parser = argparse.ArgumentParser(description='Decode a JWT token.')
     parser.add_argument('token', type=str, help='The JWT token to decode')
     args = parser.parse_args()
+    token = args.token
 
-    decoded_token = decode_jwt_token(args.token)
+    # Decode and print the header
+    try:
+        header = jwt.get_unverified_header(token)
+        print("Header:")
+        print(json.dumps(header, indent=4))
+    except PyJWTError as e:
+        print(f"Header decode error: {e}")
 
-    if decoded_token:
-        print(decoded_token)
-    else:
-        print("Invalid token")
+    # Decode and print the payload
+    try:
+        payload = jwt.decode(token, options={"verify_signature": False}, algorithms=["HS256"])
+        print("Payload:")
+        print(json.dumps(payload, indent=4))
+    except PyJWTError as e:
+        print(f"Payload decode error: {e}")
+
+if __name__ == '__main__':
+    main()
