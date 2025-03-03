@@ -3,7 +3,7 @@ audio: false
 generated: true
 lang: de
 layout: post
-title: Springs ApplicationContext zugreifen
+title: Zugreifen auf den Spring-Anwendungs-Kontext
 translated: true
 ---
 
@@ -53,7 +53,7 @@ Die `ApplicationContextAware`-Schnittstelle ermöglicht es einem von Spring verw
    }
    ```
 
-   - Dies funktioniert, weil der `ApplicationContextProvider` beim Start von Spring initialisiert wird und den Kontext statisch verfügbar macht.
+   - Dies funktioniert, weil der `ApplicationContextProvider` beim Start von Spring initialisiert wird, wodurch der Kontext statisch verfügbar wird.
 
 3. **Alternative: Kontext explizit übergeben**:
    Wenn Ihr einfaches Java-Objekt von einem von Spring verwalteten Bean erstellt wird, können Sie den `ApplicationContext` in dieses Bean autowiren und ihn über einen Konstruktor oder Setter an das einfache Objekt übergeben.
@@ -93,7 +93,7 @@ Die `ApplicationContextAware`-Schnittstelle ermöglicht es einem von Spring verw
 Wenn Sie mit einem Kafka-Consumer arbeiten und **Spring Kafka** verwenden, ist der empfohlene Ansatz, den Consumer direkt in das Spring-Ökosystem zu integrieren, anstatt ihn als einfaches Java-Objekt zu behandeln.
 
 #### Verwendung von `@KafkaListener`
-Definieren Sie Ihren Kafka-Consumer als Spring-verwaltetes Bean mit einer `@KafkaListener`-Methode. Dies ermöglicht es Ihnen, den `ApplicationContext` oder andere Beans direkt zu autowiren.
+Definieren Sie Ihren Kafka-Consumer als ein von Spring verwaltetes Bean mit einer `@KafkaListener`-Methode. Dies ermöglicht es Ihnen, den `ApplicationContext` oder andere Beans direkt zu autowiren.
 
 ```java
 import org.springframework.beans.factory.annotation.Autowired;
@@ -122,10 +122,10 @@ public class MyKafkaConsumer {
 - Autowiring eliminiert die Notwendigkeit, den Kontext manuell in den meisten Fällen abzurufen.
 
 #### Manueller Kafka Consumer
-Wenn Sie einen `KafkaConsumer` manuell erstellen müssen (z.B. unter Verwendung der Kafka-Client-Bibliothek direkt), tun Sie dies innerhalb eines von Spring verwalteten Beans und übergeben Sie den `ApplicationContext` an ihn, wie im expliziten Übergabeansatz oben gezeigt.
+Wenn Sie einen `KafkaConsumer` manuell erstellen müssen (z.B. unter Verwendung der Kafka-Client-Bibliothek direkt), tun Sie dies innerhalb eines von Spring verwalteten Beans und übergeben Sie den `ApplicationContext` daran, wie im expliziten Übergabeverfahren oben gezeigt.
 
 ### Empfehlungen
-- **Für Kafka-Consumer**: Verwenden Sie Spring Kafkas `@KafkaListener` in einem Spring-verwalteten Bean, wo immer möglich. Dies nutzt die Integration von Spring mit Kafka und vereinfacht den Zugriff auf den `ApplicationContext` und andere Beans.
-- **Für allgemeine einfache Java-Objekte**: Verwenden Sie entweder den statischen `ApplicationContextProvider`-Ansatz oder übergeben Sie den `ApplicationContext` explizit von einem Spring-verwalteten Bean. Der explizite Übergabeansatz ist vorzuziehen, wenn dies möglich ist, da er statische Zustände vermeidet und die Testbarkeit verbessert.
+- **Für Kafka-Consumer**: Verwenden Sie Spring Kafkas `@KafkaListener` in einem von Spring verwalteten Bean, wo immer möglich. Dies nutzt die Integration von Spring mit Kafka und vereinfacht den Zugriff auf den `ApplicationContext` und andere Beans.
+- **Für allgemeine einfache Java-Objekte**: Verwenden Sie entweder den statischen `ApplicationContextProvider`-Ansatz oder übergeben Sie den `ApplicationContext` explizit von einem von Spring verwalteten Bean. Die explizite Übergabemethode wird bevorzugt, wenn möglich, da sie statischen Zustand vermeidet und die Testbarkeit verbessert.
 
-Durch die Verwendung dieser Methoden können Sie `ApplicationContextAware` effektiv nutzen, um den Spring-Kontext für Ihr einfaches Java-Objekt, einschließlich eines Kafka-Consumers, verfügbar zu machen, abhängig von Ihrer spezifischen Einrichtung.
+Durch die Verwendung dieser Methoden können Sie die `ApplicationContextAware`-Schnittstelle effektiv nutzen, um den Spring-Kontext für Ihr einfaches Java-Objekt, einschließlich eines Kafka-Consumers, verfügbar zu machen, je nach Ihrer spezifischen Konfiguration.

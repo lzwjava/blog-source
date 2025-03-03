@@ -3,7 +3,7 @@ audio: false
 generated: true
 lang: en
 layout: post
-title: Accessing Spring's ApplicationContext
+title: Accessing Spring's Application Context
 translated: false
 ---
 

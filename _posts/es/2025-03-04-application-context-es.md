@@ -3,18 +3,18 @@ audio: false
 generated: true
 lang: es
 layout: post
-title: Accediendo al ApplicationContext de Spring
+title: Accediendo al Contexto de Aplicación de Spring
 translated: true
 ---
 
 Para usar la interfaz `ApplicationContextAware` de Spring para acceder al `ApplicationContext` en un objeto Java plano, como un consumidor de Kafka, necesitas una manera de conectar los beans gestionados por Spring con tu objeto plano. Aquí te explico cómo hacerlo:
 
 ### Enfoque General
-La interfaz `ApplicationContextAware` permite que un bean gestionado por Spring reciba el `ApplicationContext` automáticamente de Spring. Puedes usar esto para hacer que el contexto esté disponible para un objeto Java plano que no está gestionado por Spring (es decir, no es un bean creado por el contenedor de Spring).
+La interfaz `ApplicationContextAware` permite que un bean gestionado por Spring reciba el `ApplicationContext` automáticamente de Spring. Puedes usar esto para hacer que el contexto esté disponible para un objeto Java plano que no es gestionado por Spring (es decir, no es un bean creado por el contenedor de Spring).
 
 #### Pasos para Acceder al ApplicationContext
 1. **Crear una Clase Auxiliar Gestionada por Spring**:
-   Define una clase que implemente `ApplicationContextAware` y que esté gestionada por Spring (por ejemplo, anotada con `@Component`). Esta clase recibirá el `ApplicationContext` cuando la aplicación de Spring comience.
+   Define una clase que implemente `ApplicationContextAware` y que sea gestionada por Spring (por ejemplo, anotada con `@Component`). Esta clase recibirá el `ApplicationContext` cuando la aplicación de Spring comience.
 
    ```java
    import org.springframework.context.ApplicationContext;
@@ -119,7 +119,7 @@ public class MyKafkaConsumer {
 ```
 
 - Spring Kafka gestiona el ciclo de vida del consumidor, incluyendo la creación de hilos y la recolección.
-- La autoinyección elimina la necesidad de obtener el contexto manualmente en la mayoría de los casos.
+- La autoinyección elimina la necesidad de obtener manualmente el contexto en la mayoría de los casos.
 
 #### Consumidor de Kafka Manual
 Si debes crear un `KafkaConsumer` manualmente (por ejemplo, usando la biblioteca de clientes de Kafka directamente), hazlo dentro de un bean gestionado por Spring y pasa el `ApplicationContext` a él, como se muestra en el enfoque de paso explícito anterior.

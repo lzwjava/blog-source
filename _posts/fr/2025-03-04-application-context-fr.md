@@ -3,14 +3,14 @@ audio: false
 generated: true
 lang: fr
 layout: post
-title: Accéder au ApplicationContext de Spring
+title: Accéder au contexte d'application Spring
 translated: true
 ---
 
 Pour utiliser l'interface `ApplicationContextAware` de Spring afin d'accéder au `ApplicationContext` dans un objet Java simple, tel qu'un consommateur Kafka, vous avez besoin d'un moyen de relier les beans gérés par Spring avec votre objet simple. Voici comment vous pouvez le faire :
 
 ### Approche Générale
-L'interface `ApplicationContextAware` permet à un bean géré par Spring de recevoir automatiquement le `ApplicationContext` de Spring. Vous pouvez utiliser cela pour rendre le contexte disponible à un objet Java simple qui n'est pas géré par Spring (c'est-à-dire, pas un bean créé par le conteneur Spring).
+L'interface `ApplicationContextAware` permet à un bean géré par Spring de recevoir le `ApplicationContext` automatiquement depuis Spring. Vous pouvez utiliser cela pour rendre le contexte disponible à un objet Java simple qui n'est pas géré par Spring (c'est-à-dire, pas un bean créé par le conteneur Spring).
 
 #### Étapes pour Accéder au ApplicationContext
 1. **Créer une Classe Helper Gérée par Spring** :
@@ -38,7 +38,7 @@ L'interface `ApplicationContextAware` permet à un bean géré par Spring de rec
 
    - `@Component` assure que Spring gère ce bean.
    - `setApplicationContext` est appelé par Spring pour injecter le `ApplicationContext`.
-   - Une variable `context` statique et un getter permettent l'accès depuis n'importe où.
+   - Une variable statique `context` et un getter permettent l'accès depuis n'importe où.
 
 2. **Accéder au Contexte dans Votre Objet Java Simple** :
    Dans votre objet Java simple (par exemple, un consommateur Kafka créé manuellement), récupérez le `ApplicationContext` en utilisant la classe helper et utilisez-le pour obtenir des beans gérés par Spring.
@@ -118,14 +118,14 @@ public class MyKafkaConsumer {
 }
 ```
 
-- Spring Kafka gère le cycle de vie du consommateur, y compris le threading et le polling.
+- Spring Kafka gère le cycle de vie du consommateur, y compris la gestion des threads et le polling.
 - L'autowiring élimine le besoin de récupérer manuellement le contexte dans la plupart des cas.
 
 #### Consommateur Kafka Manuel
-Si vous devez créer un `KafkaConsumer` manuellement (par exemple, en utilisant directement la bibliothèque client Kafka), faites-le au sein d'un bean géré par Spring et passez le `ApplicationContext` à celui-ci, comme montré dans l'approche de passage explicite ci-dessus.
+Si vous devez créer un `KafkaConsumer` manuellement (par exemple, en utilisant directement la bibliothèque client Kafka), faites-le dans un bean géré par Spring et passez le `ApplicationContext` à celui-ci, comme montré dans l'approche de passage explicite ci-dessus.
 
 ### Recommandations
 - **Pour les Consommateurs Kafka** : Utilisez l'annotation `@KafkaListener` de Spring Kafka dans un bean géré par Spring chaque fois que cela est possible. Cela tire parti de l'intégration de Spring avec Kafka et simplifie l'accès au `ApplicationContext` et à d'autres beans.
-- **Pour les Objets Java Simples Généraux** : Utilisez soit l'approche `ApplicationContextProvider` statique, soit passez le `ApplicationContext` explicitement à partir d'un bean géré par Spring. La méthode de passage explicite est préférée lorsqu'elle est faisable, car elle évite l'état statique et améliore la testabilité.
+- **Pour les Objets Java Simples Généraux** : Utilisez soit l'approche `ApplicationContextProvider` statique, soit passez le `ApplicationContext` explicitement depuis un bean géré par Spring. La méthode de passage explicite est préférée lorsqu'elle est faisable, car elle évite l'état statique et améliore la testabilité.
 
-En suivant ces méthodes, vous pouvez utiliser efficacement `ApplicationContextAware` pour rendre le contexte Spring disponible à votre objet Java simple, y compris un consommateur Kafka, en fonction de votre configuration spécifique.
+En suivant ces méthodes, vous pouvez utiliser efficacement `ApplicationContextAware` pour rendre le contexte Spring disponible pour votre objet Java simple, y compris un consommateur Kafka, en fonction de votre configuration spécifique.
