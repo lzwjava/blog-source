@@ -4,7 +4,7 @@ lang: en
 layout: post
 title: How WebSphere Application Server Works
 translated: false
-generated: false
+generated: true
 ---
 
 Based on the stack trace you provided, you're asking about how `com.ibm.ws` works, particularly its internal mechanisms within IBM WebSphere Application Server (WAS), with a focus on the web container. The stack trace begins with Spring's `ContextLoaderListener` and includes calls to `com.ibm.ws.webcontainer` classes, indicating that you're interested in how WebSphere's web container operates and interacts with components like Spring during web application startup. Below, I'll explain the role of `com.ibm.ws`, focusing on the web container's internal workings, its lifecycle management, and the asynchronous processing evident in the stack trace.
