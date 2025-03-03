@@ -4,7 +4,7 @@ lang: en
 layout: post
 title: SQuirreL SQL Client and DB2 Database
 translated: false
-generated: false
+generated: true
 ---
 
 To use your IBM DB2 JCC JAR (`db2jcc.jar`) in SQuirreL SQL Client and connect to a DB2 database, follow these detailed steps. This process involves configuring the DB2 driver in SQuirreL and setting up a connection alias.
