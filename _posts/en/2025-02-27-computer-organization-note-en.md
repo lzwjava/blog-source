@@ -452,3 +452,48 @@ In computer architecture, the term "instruction word length" refers to the size,
 4. **Compatibility and Portability**: The instruction word length is a fundamental aspect of a processor's design, and programs compiled for one instruction word length may not run on processors with a different length without modification.
 
 Common instruction word lengths include 8-bit, 16-bit, 32-bit, and 64-bit, each with its own advantages and trade-offs in terms of performance, memory usage, and complexity.
+
+---
+
+Indexed addressing is typically used with opcodes (operation codes) that require accessing data in memory at locations determined dynamically, such as array elements or data structures. The specific opcodes that utilize indexed addressing depend on the instruction set architecture (ISA) of the CPU, but generally, they fall into categories like load, store, arithmetic, or logical operations that reference memory operands. Here are some examples based on common ISAs:
+
+1. **Load/Store Operations**:
+   - **LDA** (Load Accumulator) or **LDX** (Load Index Register): In architectures like 6502 or similar, these might use indexed addressing to fetch a value from a memory location calculated with a base address plus an index.
+   - **STA** (Store Accumulator): Stores a value into a memory location determined by indexed addressing.
+   - Example (6502): `LDA $1000,X` loads the accumulator with the value at address `$1000 + X`, where `X` is the index register.
+
+2. **Arithmetic Operations**:
+   - **ADD** or **SUB**: In some ISAs (e.g., x86), opcodes like `ADD [BX + SI]` use indexed addressing to add a value from memory (base address in BX plus index in SI) to a register.
+   - Example (x86): `ADD AX, [BX + DI]` adds the value at the memory address `[BX + DI]` to the AX register.
+
+3. **Logical Operations**:
+   - **AND**, **OR**, **XOR**: These might use indexed addressing to perform bitwise operations on memory operands.
+   - Example (x86): `AND [SI + 4], AX` performs a logical AND between the value at memory address `[SI + 4]` and the AX register.
+
+4. **Branch or Jump Instructions** (less common):
+   - Some ISAs allow indexed addressing for calculating jump targets, like `JMP [TABLE + BX]` in x86, where the jump address is fetched from a lookup table in memory.
+
+### Why Indexed Addressing?
+Opcodes needing indexed addressing are often those that operate on sequential or structured data (e.g., arrays, tables, or records), where the exact memory location isn’t fixed at compile time but depends on runtime values in an index register. This is common in loops or when processing lists.
+
+### Architecture-Specific Notes:
+- **x86**: Instructions like `MOV`, `ADD`, or `CMP` can use indexed addressing with register pairs (e.g., `[BX + SI]` or `[BP + DI]`).
+- **ARM**: Uses a base register plus offset (often scaled), e.g., `LDR R0, [R1, R2]` where R2 acts as an index.
+- **RISC-V**: Load/store instructions like `lw` (load word) or `sw` (store word) can use an offset with a base register, e.g., `lw t0, 4(s0)`.
+
+If you’re asking about a specific architecture (e.g., x86, ARM, 6502), let me know, and I can provide more tailored examples!
+
+---
+
+In an instruction that uses indexed addressing mode, the operand is located in memory. 
+
+To elaborate, indexed addressing is a method where the memory address of the operand is calculated by adding an offset (provided by an index register) to a base address (often specified in the instruction). This allows the CPU to access data dynamically in memory, such as elements in an array, by adjusting the index value during program execution. The ALU may then perform operations on this operand once it’s fetched from memory.
+
+---
+
+The basic function of the ALU (Arithmetic Logic Unit) component inside a CPU is to perform **arithmetic operations** and **logical operations**. 
+
+- **Arithmetic operations** include tasks like addition, subtraction, multiplication, and division, which handle numerical calculations.
+- **Logical operations** involve comparisons and bitwise operations, such as AND, OR, NOT, and XOR, which manipulate binary data and support decision-making processes.
+
+These operations are fundamental to how a CPU processes data and executes instructions.
