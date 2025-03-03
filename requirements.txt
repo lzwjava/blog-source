@@ -19,3 +19,4 @@ ruamel.yaml
 pydo
 matplotlib
 torch
+feedgen
