@@ -24,7 +24,7 @@ lang: en
 layout: post
 title: {name}
 translated: false
-generated: false
+generated: true
 ---"""
 
     # Create the English markdown file
@@ -53,7 +53,7 @@ lang: en
 layout: post
 audio: false
 translated: false
-generated: false
+generated: true
 ---"""
 
     # Create the note markdown file
@@ -82,7 +82,7 @@ lang: en
 layout: post
 title: {name}
 translated: false
-generated: false
+generated: true
 ---"""
 
     # Create the markdown file
