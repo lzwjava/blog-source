@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Mar 2025 11:41:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 11:58:55 +0000</lastBuildDate>
     <item>
       <title>Bifocals</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-10-bifocals-en.mp3</link>
@@ -25,6 +25,22 @@
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Exploring System Prompts in Grok and Claude</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-17-system-prompt-en.mp3</link>
+      <description>Episode: Exploring System Prompts in Grok and Claude</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-17-system-prompt-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-17-system-prompt-en.mp3" length="1040300" type="audio/mpeg"/>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Special Settings in iOS</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-17-ios-settings-en.mp3</link>
+      <description>Episode: Special Settings in iOS</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-17-ios-settings-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-17-ios-settings-en.mp3" length="302060" type="audio/mpeg"/>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Zsh Hooks</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-17-zsh-hooks-en.mp3</link>
       <description>Episode: Zsh Hooks</description>
@@ -33,123 +49,91 @@
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Avoid Death</title>
+      <title>How to Avoid Death</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-17-avoid-death-en.mp3</link>
-      <description>Episode: Avoid Death</description>
+      <description>Episode: How to Avoid Death</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-17-avoid-death-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-17-avoid-death-en.mp3" length="996332" type="audio/mpeg"/>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ios Settings</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-17-ios-settings-en.mp3</link>
-      <description>Episode: Ios Settings</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-17-ios-settings-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-17-ios-settings-en.mp3" length="302060" type="audio/mpeg"/>
-      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>System Prompt</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-17-system-prompt-en.mp3</link>
-      <description>Episode: System Prompt</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-17-system-prompt-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-17-system-prompt-en.mp3" length="1040300" type="audio/mpeg"/>
-      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chatgpt Nested</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-18-chatgpt-nested-en.mp3</link>
-      <description>Episode: Chatgpt Nested</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-18-chatgpt-nested-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-18-chatgpt-nested-en.mp3" length="292364" type="audio/mpeg"/>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Echo</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-18-echo-en.mp3</link>
-      <description>Episode: Echo</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-18-echo-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-18-echo-en.mp3" length="94604" type="audio/mpeg"/>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gcp Speech</title>
+      <title>Getting Started with Google Text-to-Speech API</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-18-gcp-speech-en.mp3</link>
-      <description>Episode: Gcp Speech</description>
+      <description>Episode: Getting Started with Google Text-to-Speech API</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-18-gcp-speech-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-18-gcp-speech-en.mp3" length="1410572" type="audio/mpeg"/>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Redsocks</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-18-redsocks-en.mp3</link>
-      <description>Episode: Redsocks</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-18-redsocks-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-18-redsocks-en.mp3" length="2235116" type="audio/mpeg"/>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Repeatition Benefits</title>
+      <title>The Benefits of Repetition in Programming</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-18-repeatition-benefits-en.mp3</link>
-      <description>Episode: Repeatition Benefits</description>
+      <description>Episode: The Benefits of Repetition in Programming</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-18-repeatition-benefits-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-18-repeatition-benefits-en.mp3" length="549932" type="audio/mpeg"/>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Disk</title>
+      <title>ChatGPT’s Bug with Nested Code Blocks</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-18-chatgpt-nested-en.mp3</link>
+      <description>Episode: ChatGPT’s Bug with Nested Code Blocks</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-18-chatgpt-nested-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-18-chatgpt-nested-en.mp3" length="292364" type="audio/mpeg"/>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why External Hard Drives Should Have Built-In Cables</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-18-disk-en.mp3</link>
-      <description>Episode: Disk</description>
+      <description>Episode: Why External Hard Drives Should Have Built-In Cables</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-18-disk-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-18-disk-en.mp3" length="144140" type="audio/mpeg"/>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Health Tools</title>
+      <title>Redsocks in Action</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-18-redsocks-en.mp3</link>
+      <description>Episode: Redsocks in Action</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-18-redsocks-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-18-redsocks-en.mp3" length="2235116" type="audio/mpeg"/>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Echo Plays Loud Sounds When Connected</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-18-echo-en.mp3</link>
+      <description>Episode: Echo Plays Loud Sounds When Connected</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-18-echo-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-18-echo-en.mp3" length="94604" type="audio/mpeg"/>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blood Pressure Monitor, Stethoscope, and Vision Chart</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-19-health-tools-en.mp3</link>
-      <description>Episode: Health Tools</description>
+      <description>Episode: Blood Pressure Monitor, Stethoscope, and Vision Chart</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-19-health-tools-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-19-health-tools-en.mp3" length="580940" type="audio/mpeg"/>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Server Provider</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-19-server-provider-en.mp3</link>
-      <description>Episode: Server Provider</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-19-server-provider-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-19-server-provider-en.mp3" length="216812" type="audio/mpeg"/>
-      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>V2Ray</title>
+      <title>Try V2Ray: A Step-by-Step Guide</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-19-v2ray-en.mp3</link>
-      <description>Episode: V2Ray</description>
+      <description>Episode: Try V2Ray: A Step-by-Step Guide</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-19-v2ray-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-19-v2ray-en.mp3" length="2107628" type="audio/mpeg"/>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Pin</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-20-pin-en.mp3</link>
-      <description>Episode: Pin</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-20-pin-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-20-pin-en.mp3" length="122924" type="audio/mpeg"/>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <title>Long-Term Thinking in Cloud Server Selection</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-19-server-provider-en.mp3</link>
+      <description>Episode: Long-Term Thinking in Cloud Server Selection</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-19-server-provider-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-19-server-provider-en.mp3" length="216812" type="audio/mpeg"/>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Azure Vm</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-20-azure-vm-en.mp3</link>
-      <description>Episode: Azure Vm</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-20-azure-vm-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-20-azure-vm-en.mp3" length="1156460" type="audio/mpeg"/>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Left Swipe</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-20-left-swipe-en.mp3</link>
-      <description>Episode: Left Swipe</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-20-left-swipe-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-20-left-swipe-en.mp3" length="106412" type="audio/mpeg"/>
+      <title>Setting up a Google Cloud Server</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-20-gcp-compute-en.mp3</link>
+      <description>Episode: Setting up a Google Cloud Server</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-20-gcp-compute-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-20-gcp-compute-en.mp3" length="512012" type="audio/mpeg"/>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -161,65 +145,65 @@
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ufw</title>
+      <title>Left Swipe and Apps</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-20-left-swipe-en.mp3</link>
+      <description>Episode: Left Swipe and Apps</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-20-left-swipe-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-20-left-swipe-en.mp3" length="106412" type="audio/mpeg"/>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Configuring UFW</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-20-ufw-en.mp3</link>
-      <description>Episode: Ufw</description>
+      <description>Episode: Configuring UFW</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-20-ufw-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-20-ufw-en.mp3" length="254924" type="audio/mpeg"/>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Gcp Compute</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-20-gcp-compute-en.mp3</link>
-      <description>Episode: Gcp Compute</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-20-gcp-compute-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-20-gcp-compute-en.mp3" length="512012" type="audio/mpeg"/>
+      <title>The Order of "Pin to Top" Conversations</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-20-pin-en.mp3</link>
+      <description>Episode: The Order of "Pin to Top" Conversations</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-20-pin-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-20-pin-en.mp3" length="122924" type="audio/mpeg"/>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Charging</title>
+      <title>Setting Up an Azure Server</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-20-azure-vm-en.mp3</link>
+      <description>Episode: Setting Up an Azure Server</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-20-azure-vm-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-20-azure-vm-en.mp3" length="1156460" type="audio/mpeg"/>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Rules of Charging</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-21-charging-en.mp3</link>
-      <description>Episode: Charging</description>
+      <description>Episode: The Rules of Charging</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-21-charging-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-21-charging-en.mp3" length="655052" type="audio/mpeg"/>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Flashlight Charging</title>
+      <title>Ingenious Flashlight</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-22-flashlight-charging-en.mp3</link>
-      <description>Episode: Flashlight Charging</description>
+      <description>Episode: Ingenious Flashlight</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-22-flashlight-charging-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-22-flashlight-charging-en.mp3" length="85580" type="audio/mpeg"/>
       <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Confs</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-22-confs-en.mp3</link>
-      <description>Episode: Confs</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-22-confs-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-22-confs-en.mp3" length="97772" type="audio/mpeg"/>
-      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Update</title>
+      <title>Update Guide</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-22-update-en.mp3</link>
-      <description>Episode: Update</description>
+      <description>Episode: Update Guide</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-22-update-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-22-update-en.mp3" length="118124" type="audio/mpeg"/>
       <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Photo Room</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-22-photo-room-en.mp3</link>
-      <description>Episode: Photo Room</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-22-photo-room-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-22-photo-room-en.mp3" length="68972" type="audio/mpeg"/>
-      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Three Phones</title>
+      <title>Use Three Phones</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-22-three-phones-en.mp3</link>
-      <description>Episode: Three Phones</description>
+      <description>Episode: Use Three Phones</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-22-three-phones-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-22-three-phones-en.mp3" length="296204" type="audio/mpeg"/>
       <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
@@ -233,52 +217,84 @@
       <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Android Lag</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-24-android-lag-en.mp3</link>
-      <description>Episode: Android Lag</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-24-android-lag-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-24-android-lag-en.mp3" length="708044" type="audio/mpeg"/>
-      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <title>Photoroom: Background Removal App</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-22-photo-room-en.mp3</link>
+      <description>Episode: Photoroom: Background Removal App</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-22-photo-room-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-22-photo-room-en.mp3" length="68972" type="audio/mpeg"/>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Multifocal</title>
+      <title>Configuration Files</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-22-confs-en.mp3</link>
+      <description>Episode: Configuration Files</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-22-confs-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-22-confs-en.mp3" length="97772" type="audio/mpeg"/>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Multifocal Progressive Lenses to Reverse Myopia</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-24-multifocal-en.mp3</link>
-      <description>Episode: Multifocal</description>
+      <description>Episode: Using Multifocal Progressive Lenses to Reverse Myopia</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-24-multifocal-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-24-multifocal-en.mp3" length="483980" type="audio/mpeg"/>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Track</title>
+      <title>Why Android Devices Lag</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-24-android-lag-en.mp3</link>
+      <description>Episode: Why Android Devices Lag</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-24-android-lag-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-24-android-lag-en.mp3" length="708044" type="audio/mpeg"/>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Track the World</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-26-track-en.mp3</link>
-      <description>Episode: Track</description>
+      <description>Episode: Track the World</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-26-track-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-26-track-en.mp3" length="442604" type="audio/mpeg"/>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Chatgpt Ios</title>
+      <title>Analysis of ChatGPT iOS VPN Detection</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-26-chatgpt-ios-en.mp3</link>
-      <description>Episode: Chatgpt Ios</description>
+      <description>Episode: Analysis of ChatGPT iOS VPN Detection</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-26-chatgpt-ios-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-26-chatgpt-ios-en.mp3" length="156620" type="audio/mpeg"/>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Gloves</title>
+      <title>Finding the Right Winter Gloves</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-27-gloves-en.mp3</link>
-      <description>Episode: Gloves</description>
+      <description>Episode: Finding the Right Winter Gloves</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-27-gloves-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-27-gloves-en.mp3" length="154124" type="audio/mpeg"/>
       <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Markdown</title>
+      <title>Markdown Issues: Kramdown &amp; XeLaTeX</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-27-markdown-en.mp3</link>
-      <description>Episode: Markdown</description>
+      <description>Episode: Markdown Issues: Kramdown &amp; XeLaTeX</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-27-markdown-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-27-markdown-en.mp3" length="663692" type="audio/mpeg"/>
       <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Silence Can Make You Sleepy</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-28-focus-en.mp3</link>
+      <description>Episode: Silence Can Make You Sleepy</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-28-focus-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-28-focus-en.mp3" length="400460" type="audio/mpeg"/>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cross-Device Synchronization</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-28-sync-en.mp3</link>
+      <description>Episode: Cross-Device Synchronization</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-28-sync-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-28-sync-en.mp3" length="389900" type="audio/mpeg"/>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>List</title>
@@ -289,59 +305,35 @@
       <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hdmi</title>
+      <title>Connecting HDMI to Your Graphics Card</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-28-hdmi-en.mp3</link>
-      <description>Episode: Hdmi</description>
+      <description>Episode: Connecting HDMI to Your Graphics Card</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-28-hdmi-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-28-hdmi-en.mp3" length="193004" type="audio/mpeg"/>
       <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Focus</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-28-focus-en.mp3</link>
-      <description>Episode: Focus</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-28-focus-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-28-focus-en.mp3" length="400460" type="audio/mpeg"/>
-      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sync</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-28-sync-en.mp3</link>
-      <description>Episode: Sync</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-28-sync-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-28-sync-en.mp3" length="389900" type="audio/mpeg"/>
-      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Github Readme</title>
+      <title>GitHub Readme Introduction</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-28-github-readme-en.mp3</link>
-      <description>Episode: Github Readme</description>
+      <description>Episode: GitHub Readme Introduction</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-28-github-readme-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-28-github-readme-en.mp3" length="339020" type="audio/mpeg"/>
       <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Diy Proxy</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-29-diy-proxy-en.mp3</link>
-      <description>Episode: Diy Proxy</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-29-diy-proxy-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-29-diy-proxy-en.mp3" length="225644" type="audio/mpeg"/>
-      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Proxy</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-29-proxy-en.mp3</link>
-      <description>Episode: Proxy</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-29-proxy-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-29-proxy-en.mp3" length="345260" type="audio/mpeg"/>
-      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Woman</title>
+      <title>Dressing Like a Woman</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-29-woman-en.mp3</link>
-      <description>Episode: Woman</description>
+      <description>Episode: Dressing Like a Woman</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-29-woman-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-29-woman-en.mp3" length="363980" type="audio/mpeg"/>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proxy Solutions in China - 2025</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-29-proxy-en.mp3</link>
+      <description>Episode: Proxy Solutions in China - 2025</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-29-proxy-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-29-proxy-en.mp3" length="345260" type="audio/mpeg"/>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -353,91 +345,115 @@
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Face</title>
+      <title>Set Up Your Proxy Server</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-29-diy-proxy-en.mp3</link>
+      <description>Episode: Set Up Your Proxy Server</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-29-diy-proxy-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-29-diy-proxy-en.mp3" length="225644" type="audio/mpeg"/>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Social Networks Should Offer Face Detection Filters</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-30-face-en.mp3</link>
-      <description>Episode: Face</description>
+      <description>Episode: Social Networks Should Offer Face Detection Filters</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-30-face-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-30-face-en.mp3" length="234284" type="audio/mpeg"/>
       <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Testing</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-31-testing-en.mp3</link>
-      <description>Episode: Testing</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-31-testing-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-31-testing-en.mp3" length="777068" type="audio/mpeg"/>
-      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Links</title>
-      <link>https://lzwjava.github.io/assets/audios/2024-12-31-links-en.mp3</link>
-      <description>Episode: Links</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-31-links-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-31-links-en.mp3" length="154700" type="audio/mpeg"/>
-      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ai Editor</title>
+      <title>AI Code Editors</title>
       <link>https://lzwjava.github.io/assets/audios/2024-12-31-ai-editor-en.mp3</link>
-      <description>Episode: Ai Editor</description>
+      <description>Episode: AI Code Editors</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-31-ai-editor-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-31-ai-editor-en.mp3" length="264812" type="audio/mpeg"/>
       <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Parking</title>
+      <title>Most Useful Links &amp; Apps for Me</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-31-links-en.mp3</link>
+      <description>Episode: Most Useful Links &amp; Apps for Me</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-31-links-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-31-links-en.mp3" length="154700" type="audio/mpeg"/>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Timing of Testing</title>
+      <link>https://lzwjava.github.io/assets/audios/2024-12-31-testing-en.mp3</link>
+      <description>Episode: The Timing of Testing</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2024-12-31-testing-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2024-12-31-testing-en.mp3" length="777068" type="audio/mpeg"/>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Car Parking Dilemma</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-01-parking-en.mp3</link>
-      <description>Episode: Parking</description>
+      <description>Episode: Car Parking Dilemma</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-01-parking-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-01-parking-en.mp3" length="654380" type="audio/mpeg"/>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Blockchain Crypto</title>
+      <title>Cryptocurrency and Blockchain</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-02-blockchain-crypto-en.mp3</link>
-      <description>Episode: Blockchain Crypto</description>
+      <description>Episode: Cryptocurrency and Blockchain</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-02-blockchain-crypto-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-02-blockchain-crypto-en.mp3" length="1316300" type="audio/mpeg"/>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ai Blockchain</title>
+      <title>How I Live Well in the AI and Blockchain Era</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-02-ai-blockchain-en.mp3</link>
-      <description>Episode: Ai Blockchain</description>
+      <description>Episode: How I Live Well in the AI and Blockchain Era</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-02-ai-blockchain-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-02-ai-blockchain-en.mp3" length="980684" type="audio/mpeg"/>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Batch</title>
+      <title>Batch Job or One by One</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-02-batch-en.mp3</link>
-      <description>Episode: Batch</description>
+      <description>Episode: Batch Job or One by One</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-02-batch-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-02-batch-en.mp3" length="758828" type="audio/mpeg"/>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Magnet</title>
+      <title>Communication</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-03-communicate-en.mp3</link>
+      <description>Episode: Communication</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-03-communicate-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-03-communicate-en.mp3" length="411404" type="audio/mpeg"/>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Personal Status Page</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-03-status-en.mp3</link>
+      <description>Episode: Personal Status Page</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-03-status-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-03-status-en.mp3" length="672620" type="audio/mpeg"/>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Source Tool: Auto SS Config</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-03-auto-ss-config-en.mp3</link>
+      <description>Episode: Open Source Tool: Auto SS Config</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-03-auto-ss-config-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-03-auto-ss-config-en.mp3" length="817484" type="audio/mpeg"/>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Magnets and My 3-Year-Old</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-03-magnet-en.mp3</link>
-      <description>Episode: Magnet</description>
+      <description>Episode: Magnets and My 3-Year-Old</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-03-magnet-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-03-magnet-en.mp3" length="304172" type="audio/mpeg"/>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Programming</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-03-programming-en.mp3</link>
-      <description>Episode: Programming</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-03-programming-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-03-programming-en.mp3" length="851084" type="audio/mpeg"/>
-      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Auto Ss Config</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-03-auto-ss-config-en.mp3</link>
-      <description>Episode: Auto Ss Config</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-03-auto-ss-config-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-03-auto-ss-config-en.mp3" length="817484" type="audio/mpeg"/>
+      <title>Shadowsocks Proxy Issues</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-03-shadowsocks-en.mp3</link>
+      <description>Episode: Shadowsocks Proxy Issues</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-03-shadowsocks-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-03-shadowsocks-en.mp3" length="775628" type="audio/mpeg"/>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -449,28 +465,28 @@
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Shadowsocks</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-03-shadowsocks-en.mp3</link>
-      <description>Episode: Shadowsocks</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-03-shadowsocks-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-03-shadowsocks-en.mp3" length="775628" type="audio/mpeg"/>
+      <title>Programming</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-03-programming-en.mp3</link>
+      <description>Episode: Programming</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-03-programming-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-03-programming-en.mp3" length="851084" type="audio/mpeg"/>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Status</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-03-status-en.mp3</link>
-      <description>Episode: Status</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-03-status-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-03-status-en.mp3" length="672620" type="audio/mpeg"/>
-      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <title>Names in the Translation Output of AI</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-04-naming-en.mp3</link>
+      <description>Episode: Names in the Translation Output of AI</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-04-naming-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-04-naming-en.mp3" length="280460" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Communicate</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-03-communicate-en.mp3</link>
-      <description>Episode: Communicate</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-03-communicate-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-03-communicate-en.mp3" length="411404" type="audio/mpeg"/>
-      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <title>Phone Searching and Music</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-04-phone-music-en.mp3</link>
+      <description>Episode: Phone Searching and Music</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-04-phone-music-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-04-phone-music-en.mp3" length="547340" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Conspiracy</title>
@@ -481,30 +497,6 @@
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Naming</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-04-naming-en.mp3</link>
-      <description>Episode: Naming</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-04-naming-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-04-naming-en.mp3" length="280460" type="audio/mpeg"/>
-      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Phone Music</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-04-phone-music-en.mp3</link>
-      <description>Episode: Phone Music</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-04-phone-music-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-04-phone-music-en.mp3" length="547340" type="audio/mpeg"/>
-      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Research</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-05-research-en.mp3</link>
-      <description>Episode: Research</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-05-research-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-05-research-en.mp3" length="1227212" type="audio/mpeg"/>
-      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Reclining Pillow</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-05-reclining-pillow-en.mp3</link>
       <description>Episode: Reclining Pillow</description>
@@ -513,59 +505,75 @@
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Charger Box</title>
+      <title>Smart Universal Charger Box</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-05-charger-box-en.mp3</link>
-      <description>Episode: Charger Box</description>
+      <description>Episode: Smart Universal Charger Box</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-05-charger-box-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-05-charger-box-en.mp3" length="246764" type="audio/mpeg"/>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Power Bank</title>
+      <title>The Journey of Reversing Myopia Naturally</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-05-research-en.mp3</link>
+      <description>Episode: The Journey of Reversing Myopia Naturally</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-05-research-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-05-research-en.mp3" length="1227212" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Forgetfulness about Charging Power Banks</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-05-power-bank-en.mp3</link>
-      <description>Episode: Power Bank</description>
+      <description>Episode: Forgetfulness about Charging Power Banks</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-05-power-bank-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-05-power-bank-en.mp3" length="576332" type="audio/mpeg"/>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-06-google-en.mp3</link>
-      <description>Episode: Google</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-06-google-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-06-google-en.mp3" length="208652" type="audio/mpeg"/>
-      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introduction</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-06-introduction-en.mp3</link>
-      <description>Episode: Introduction</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-06-introduction-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-06-introduction-en.mp3" length="621740" type="audio/mpeg"/>
-      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Digital Memories</title>
+      <title>My Early Digital Memories</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-06-digital-memories-en.mp3</link>
-      <description>Episode: Digital Memories</description>
+      <description>Episode: My Early Digital Memories</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-06-digital-memories-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-06-digital-memories-en.mp3" length="718892" type="audio/mpeg"/>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Plan 2025</title>
+      <title>Zhiwei's Introduction</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-06-introduction-en.mp3</link>
+      <description>Episode: Zhiwei's Introduction</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-06-introduction-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-06-introduction-en.mp3" length="621740" type="audio/mpeg"/>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Remaining Value of Google Search in My Life</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-06-google-en.mp3</link>
+      <description>Episode: The Remaining Value of Google Search in My Life</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-06-google-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-06-google-en.mp3" length="208652" type="audio/mpeg"/>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Plan for 2025</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-06-plan-2025-en.mp3</link>
-      <description>Episode: Plan 2025</description>
+      <description>Episode: Plan for 2025</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-06-plan-2025-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-06-plan-2025-en.mp3" length="476972" type="audio/mpeg"/>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Psd</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-07-psd-en.mp3</link>
-      <description>Episode: Psd</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-07-psd-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-07-psd-en.mp3" length="226124" type="audio/mpeg"/>
+      <title>Analysis of Proxy Server Ban</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-07-proxy-ban-en.mp3</link>
+      <description>Episode: Analysis of Proxy Server Ban</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-07-proxy-ban-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-07-proxy-ban-en.mp3" length="775724" type="audio/mpeg"/>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deepseek, Mistral and Anthropic</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-07-dma-en.mp3</link>
+      <description>Episode: Deepseek, Mistral and Anthropic</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-07-dma-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-07-dma-en.mp3" length="236684" type="audio/mpeg"/>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -577,67 +585,51 @@
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Dma</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-07-dma-en.mp3</link>
-      <description>Episode: Dma</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-07-dma-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-07-dma-en.mp3" length="236684" type="audio/mpeg"/>
+      <title>PayPal CN, Stripe and Databricks</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-07-psd-en.mp3</link>
+      <description>Episode: PayPal CN, Stripe and Databricks</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-07-psd-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-07-psd-en.mp3" length="226124" type="audio/mpeg"/>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Barrier</title>
+      <title>Registering on Any Platform Regardless of Identity</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-07-barrier-en.mp3</link>
-      <description>Episode: Barrier</description>
+      <description>Episode: Registering on Any Platform Regardless of Identity</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-07-barrier-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-07-barrier-en.mp3" length="426284" type="audio/mpeg"/>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Proxy Ban</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-07-proxy-ban-en.mp3</link>
-      <description>Episode: Proxy Ban</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-07-proxy-ban-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-07-proxy-ban-en.mp3" length="775724" type="audio/mpeg"/>
-      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Prompt Context</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-08-prompt-context-en.mp3</link>
-      <description>Episode: Prompt Context</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-08-prompt-context-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-08-prompt-context-en.mp3" length="463052" type="audio/mpeg"/>
+      <title>Workflow is BFS, Agent is DFS</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-08-workflow-agent-en.mp3</link>
+      <description>Episode: Workflow is BFS, Agent is DFS</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-08-workflow-agent-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-08-workflow-agent-en.mp3" length="478700" type="audio/mpeg"/>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tsp</title>
+      <title>Tableau, Scale, and Power BI</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-08-tsp-en.mp3</link>
-      <description>Episode: Tsp</description>
+      <description>Episode: Tableau, Scale, and Power BI</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-08-tsp-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-08-tsp-en.mp3" length="133580" type="audio/mpeg"/>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Turbolist3R</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-08-turbolist3r-en.mp3</link>
-      <description>Episode: Turbolist3R</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-08-turbolist3r-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-08-turbolist3r-en.mp3" length="2397356" type="audio/mpeg"/>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O1</title>
+      <title>Fixing GitHub Workflow LaTeX Build with ChatGPT o1</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-08-o1-en.mp3</link>
-      <description>Episode: O1</description>
+      <description>Episode: Fixing GitHub Workflow LaTeX Build with ChatGPT o1</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-08-o1-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-08-o1-en.mp3" length="6381548" type="audio/mpeg"/>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Workflow Agent</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-08-workflow-agent-en.mp3</link>
-      <description>Episode: Workflow Agent</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-08-workflow-agent-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-08-workflow-agent-en.mp3" length="478700" type="audio/mpeg"/>
+      <title>Limits and Edge Cases</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-08-limit-edge-en.mp3</link>
+      <description>Episode: Limits and Edge Cases</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-08-limit-edge-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-08-limit-edge-en.mp3" length="302924" type="audio/mpeg"/>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -649,83 +641,331 @@
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Limit Edge</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-08-limit-edge-en.mp3</link>
-      <description>Episode: Limit Edge</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-08-limit-edge-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-08-limit-edge-en.mp3" length="302924" type="audio/mpeg"/>
+      <title>Turbolist3r: Enumerating Subdomains</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-08-turbolist3r-en.mp3</link>
+      <description>Episode: Turbolist3r: Enumerating Subdomains</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-08-turbolist3r-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-08-turbolist3r-en.mp3" length="2397356" type="audio/mpeg"/>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mute</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-09-mute-en.mp3</link>
-      <description>Episode: Mute</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-09-mute-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-09-mute-en.mp3" length="269421" type="audio/mpeg"/>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <title>Fix Prompts or Context Instead of Output of AI</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-08-prompt-context-en.mp3</link>
+      <description>Episode: Fix Prompts or Context Instead of Output of AI</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-08-prompt-context-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-08-prompt-context-en.mp3" length="463052" type="audio/mpeg"/>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Fruit Damage</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-09-fruit-damage-en.mp3</link>
-      <description>Episode: Fruit Damage</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-09-fruit-damage-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-09-fruit-damage-en.mp3" length="363884" type="audio/mpeg"/>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ragflow</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-09-ragflow-en.mp3</link>
-      <description>Episode: Ragflow</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-09-ragflow-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-09-ragflow-en.mp3" length="169100" type="audio/mpeg"/>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lese Me</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-09-lese-me-en.mp3</link>
-      <description>Episode: Lese Me</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-09-lese-me-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-09-lese-me-en.mp3" length="291692" type="audio/mpeg"/>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gpts From Conversation</title>
+      <title>ChatGPT Should Allow Creation of GPTs from Conversation History</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-09-gpts-from-conversation-en.mp3</link>
-      <description>Episode: Gpts From Conversation</description>
+      <description>Episode: ChatGPT Should Allow Creation of GPTs from Conversation History</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-09-gpts-from-conversation-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-09-gpts-from-conversation-en.mp3" length="118220" type="audio/mpeg"/>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Potential Flaws</title>
+      <title>The Isolation of Muting Notifications</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-09-mute-en.mp3</link>
+      <description>Episode: The Isolation of Muting Notifications</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-09-mute-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-09-mute-en.mp3" length="269421" type="audio/mpeg"/>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Avoiding Damage When Ordering Fruits</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-09-fruit-damage-en.mp3</link>
+      <description>Episode: Avoiding Damage When Ordering Fruits</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-09-fruit-damage-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-09-fruit-damage-en.mp3" length="363884" type="audio/mpeg"/>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Potential Flaws in the Fruit Delivery Essay</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-09-potential-flaws-en.mp3</link>
-      <description>Episode: Potential Flaws</description>
+      <description>Episode: Potential Flaws in the Fruit Delivery Essay</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-09-potential-flaws-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-09-potential-flaws-en.mp3" length="1134477" type="audio/mpeg"/>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Daily Life</title>
+      <title>Trying RAGFlow</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-09-ragflow-en.mp3</link>
+      <description>Episode: Trying RAGFlow</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-09-ragflow-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-09-ragflow-en.mp3" length="169100" type="audio/mpeg"/>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Less Use of "I", "Me", or "We"</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-09-lese-me-en.mp3</link>
+      <description>Episode: Less Use of "I", "Me", or "We"</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-09-lese-me-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-09-lese-me-en.mp3" length="291692" type="audio/mpeg"/>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chemistry</title>
+      <link>https://lzwjava.github.io/assets/audios/chemistry-en.mp3</link>
+      <description>Episode: Chemistry</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/chemistry-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/chemistry-en.mp3" length="42380" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer Organization</title>
+      <link>https://lzwjava.github.io/assets/audios/computer-organization-en.mp3</link>
+      <description>Episode: Computer Organization</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/computer-organization-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/computer-organization-en.mp3" length="2862380" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Network</title>
+      <link>https://lzwjava.github.io/assets/audios/network-en.mp3</link>
+      <description>Episode: Network</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/network-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/network-en.mp3" length="2999564" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Physics</title>
+      <link>https://lzwjava.github.io/assets/audios/physics-en.mp3</link>
+      <description>Episode: Physics</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/physics-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/physics-en.mp3" length="2901740" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mind Machine</title>
+      <link>https://lzwjava.github.io/assets/audios/mind-machine-en.mp3</link>
+      <description>Episode: Mind Machine</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/mind-machine-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/mind-machine-en.mp3" length="1109708" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ml Points</title>
+      <link>https://lzwjava.github.io/assets/audios/ml-points-en.mp3</link>
+      <description>Episode: Ml Points</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/ml-points-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/ml-points-en.mp3" length="2810060" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Predictions</title>
+      <link>https://lzwjava.github.io/assets/audios/predictions-en.mp3</link>
+      <description>Episode: Predictions</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/predictions-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/predictions-en.mp3" length="1368812" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linear Algebra</title>
+      <link>https://lzwjava.github.io/assets/audios/linear-algebra-en.mp3</link>
+      <description>Episode: Linear Algebra</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/linear-algebra-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/linear-algebra-en.mp3" length="2351852" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Maozedong</title>
+      <link>https://lzwjava.github.io/assets/audios/maozedong-en.mp3</link>
+      <description>Episode: Maozedong</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/maozedong-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/maozedong-en.mp3" length="2215820" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microcomputer</title>
+      <link>https://lzwjava.github.io/assets/audios/microcomputer-en.mp3</link>
+      <description>Episode: Microcomputer</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/microcomputer-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/microcomputer-en.mp3" length="1333484" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Moral</title>
+      <link>https://lzwjava.github.io/assets/audios/moral-en.mp3</link>
+      <description>Episode: Moral</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/moral-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/moral-en.mp3" length="2389868" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chinese</title>
+      <link>https://lzwjava.github.io/assets/audios/chinese-en.mp3</link>
+      <description>Episode: Chinese</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/chinese-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/chinese-en.mp3" length="3463244" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Electronic</title>
+      <link>https://lzwjava.github.io/assets/audios/electronic-en.mp3</link>
+      <description>Episode: Electronic</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/electronic-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/electronic-en.mp3" length="2884844" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Law</title>
+      <link>https://lzwjava.github.io/assets/audios/law-en.mp3</link>
+      <description>Episode: Law</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/law-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/law-en.mp3" length="3077036" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biology</title>
+      <link>https://lzwjava.github.io/assets/audios/biology-en.mp3</link>
+      <description>Episode: Biology</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/biology-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/biology-en.mp3" length="2861324" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Always</title>
+      <link>https://lzwjava.github.io/assets/audios/always-en.mp3</link>
+      <description>Episode: Always</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/always-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/always-en.mp3" length="1811948" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Competitive Programming</title>
+      <link>https://lzwjava.github.io/assets/audios/competitive-programming-en.mp3</link>
+      <description>Episode: Competitive Programming</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/competitive-programming-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/competitive-programming-en.mp3" length="3239660" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Active Learning</title>
+      <link>https://lzwjava.github.io/assets/audios/active-learning-en.mp3</link>
+      <description>Episode: Active Learning</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/active-learning-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/active-learning-en.mp3" length="464780" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Java Interview</title>
+      <link>https://lzwjava.github.io/assets/audios/java-interview-en.mp3</link>
+      <description>Episode: Java Interview</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/java-interview-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/java-interview-en.mp3" length="4371212" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Leadership</title>
+      <link>https://lzwjava.github.io/assets/audios/leadership-en.mp3</link>
+      <description>Episode: Leadership</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/leadership-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/leadership-en.mp3" length="1869836" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Frontend Interview</title>
+      <link>https://lzwjava.github.io/assets/audios/frontend-interview-en.mp3</link>
+      <description>Episode: Frontend Interview</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/frontend-interview-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/frontend-interview-en.mp3" length="2311820" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ios Interview</title>
+      <link>https://lzwjava.github.io/assets/audios/ios-interview-en.mp3</link>
+      <description>Episode: Ios Interview</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/ios-interview-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/ios-interview-en.mp3" length="2193068" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Java Questions</title>
+      <link>https://lzwjava.github.io/assets/audios/java-questions-en.mp3</link>
+      <description>Episode: Java Questions</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/java-questions-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/java-questions-en.mp3" length="2953196" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Constitution</title>
+      <link>https://lzwjava.github.io/assets/audios/constitution-en.mp3</link>
+      <description>Episode: Constitution</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/constitution-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/constitution-en.mp3" length="961676" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Legal Diff</title>
+      <link>https://lzwjava.github.io/assets/audios/legal-diff-en.mp3</link>
+      <description>Episode: Legal Diff</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/legal-diff-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/legal-diff-en.mp3" length="937676" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Miscellaneous Ai</title>
+      <link>https://lzwjava.github.io/assets/audios/miscellaneous-ai-en.mp3</link>
+      <description>Episode: Miscellaneous Ai</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/miscellaneous-ai-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/miscellaneous-ai-en.mp3" length="1794572" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:53:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deepseek V3</title>
+      <link>https://lzwjava.github.io/assets/audios/deepseek-v3-en.mp3</link>
+      <description>Episode: Deepseek V3</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/deepseek-v3-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/deepseek-v3-en.mp3" length="973868" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:54:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Japanese Quotes</title>
+      <link>https://lzwjava.github.io/assets/audios/japanese-quotes-en.mp3</link>
+      <description>Episode: Japanese Quotes</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/japanese-quotes-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/japanese-quotes-en.mp3" length="722924" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:54:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nlp Tasks</title>
+      <link>https://lzwjava.github.io/assets/audios/nlp-tasks-en.mp3</link>
+      <description>Episode: Nlp Tasks</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/nlp-tasks-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/nlp-tasks-en.mp3" length="1235084" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:54:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Penetration</title>
+      <link>https://lzwjava.github.io/assets/audios/penetration-en.mp3</link>
+      <description>Episode: Penetration</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/penetration-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/penetration-en.mp3" length="1471724" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jan 2025 14:54:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Daily Life Tips</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-29-daily-life-en.mp3</link>
-      <description>Episode: Daily Life</description>
+      <description>Episode: Daily Life Tips</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-29-daily-life-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-29-daily-life-en.mp3" length="152780" type="audio/mpeg"/>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Network Tips</title>
+      <title>Network Optimization Tips</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-30-network-tips-en.mp3</link>
-      <description>Episode: Network Tips</description>
+      <description>Episode: Network Optimization Tips</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-30-network-tips-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-30-network-tips-en.mp3" length="230445" type="audio/mpeg"/>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Prompts</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-31-prompts-en.mp3</link>
-      <description>Episode: Prompts</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-31-prompts-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-31-prompts-en.mp3" length="84045" type="audio/mpeg"/>
+      <title>Reranker</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-31-reranker-en.mp3</link>
+      <description>Episode: Reranker</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-31-reranker-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-31-reranker-en.mp3" length="789453" type="audio/mpeg"/>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -737,28 +977,36 @@
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mistral</title>
+      <title>Useful Prompts</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-01-31-prompts-en.mp3</link>
+      <description>Episode: Useful Prompts</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-31-prompts-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-31-prompts-en.mp3" length="84045" type="audio/mpeg"/>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Testing Mistral API</title>
       <link>https://lzwjava.github.io/assets/audios/2025-01-31-mistral-en.mp3</link>
-      <description>Episode: Mistral</description>
+      <description>Episode: Testing Mistral API</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-31-mistral-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-31-mistral-en.mp3" length="1381005" type="audio/mpeg"/>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reranker</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-01-31-reranker-en.mp3</link>
-      <description>Episode: Reranker</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-01-31-reranker-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-01-31-reranker-en.mp3" length="789453" type="audio/mpeg"/>
-      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Conda</title>
+      <title>The Problems of Conda</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-01-conda-en.mp3</link>
-      <description>Episode: Conda</description>
+      <description>Episode: The Problems of Conda</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-01-conda-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-01-conda-en.mp3" length="4155789" type="audio/mpeg"/>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Installing Arch Linux</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-02-archlinux-en.mp3</link>
+      <description>Episode: Installing Arch Linux</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-02-archlinux-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-02-archlinux-en.mp3" length="513165" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Outdoor Cooking</title>
@@ -769,92 +1017,92 @@
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Archlinux</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-02-archlinux-en.mp3</link>
-      <description>Episode: Archlinux</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-02-archlinux-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-02-archlinux-en.mp3" length="513165" type="audio/mpeg"/>
-      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ubuntu</title>
+      <title>Installing Ubuntu</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-02-ubuntu-en.mp3</link>
-      <description>Episode: Ubuntu</description>
+      <description>Episode: Installing Ubuntu</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-02-ubuntu-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-02-ubuntu-en.mp3" length="221805" type="audio/mpeg"/>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok Api</title>
+      <title>Testing Grok API</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-02-grok-api-en.mp3</link>
-      <description>Episode: Grok Api</description>
+      <description>Episode: Testing Grok API</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-02-grok-api-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-02-grok-api-en.mp3" length="782541" type="audio/mpeg"/>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Gpg</title>
+      <title>Verifying GPG Signatures</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-02-gpg-en.mp3</link>
-      <description>Episode: Gpg</description>
+      <description>Episode: Verifying GPG Signatures</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-02-gpg-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-02-gpg-en.mp3" length="486861" type="audio/mpeg"/>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Aliyun Elastic Ip</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-03-aliyun-elastic-ip-en.mp3</link>
-      <description>Episode: Aliyun Elastic Ip</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-03-aliyun-elastic-ip-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-03-aliyun-elastic-ip-en.mp3" length="4385805" type="audio/mpeg"/>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bandwidth</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-03-bandwidth-en.mp3</link>
-      <description>Episode: Bandwidth</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-03-bandwidth-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-03-bandwidth-en.mp3" length="138861" type="audio/mpeg"/>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Internet Freedom</title>
+      <title>The Journey to Pursue Internet Freedom</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-03-internet-freedom-en.mp3</link>
-      <description>Episode: Internet Freedom</description>
+      <description>Episode: The Journey to Pursue Internet Freedom</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-03-internet-freedom-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-03-internet-freedom-en.mp3" length="1214541" type="audio/mpeg"/>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Bce Embedding</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-04-bce-embedding-en.mp3</link>
-      <description>Episode: Bce Embedding</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-04-bce-embedding-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-04-bce-embedding-en.mp3" length="217581" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <title>Managing Aliyun Elastic IPs</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-03-aliyun-elastic-ip-en.mp3</link>
+      <description>Episode: Managing Aliyun Elastic IPs</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-03-aliyun-elastic-ip-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-03-aliyun-elastic-ip-en.mp3" length="4385805" type="audio/mpeg"/>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Speech Recognition</title>
+      <title>Bandwidth Limit</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-03-bandwidth-en.mp3</link>
+      <description>Episode: Bandwidth Limit</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-03-bandwidth-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-03-bandwidth-en.mp3" length="138861" type="audio/mpeg"/>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Real-time Speech Recognition</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-04-speech-recognition-en.mp3</link>
-      <description>Episode: Speech Recognition</description>
+      <description>Episode: Real-time Speech Recognition</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-04-speech-recognition-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-04-speech-recognition-en.mp3" length="1834989" type="audio/mpeg"/>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Openwrt Reset</title>
+      <title>Improving Wifi Speed</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-04-wifi-speed-en.mp3</link>
+      <description>Episode: Improving Wifi Speed</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-04-wifi-speed-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-04-wifi-speed-en.mp3" length="307053" type="audio/mpeg"/>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BCEmbedding: Bilingual Embedding for RAG</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-04-bce-embedding-en.mp3</link>
+      <description>Episode: BCEmbedding: Bilingual Embedding for RAG</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-04-bce-embedding-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-04-bce-embedding-en.mp3" length="217581" type="audio/mpeg"/>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenWrt Reset</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-04-openwrt-reset-en.mp3</link>
-      <description>Episode: Openwrt Reset</description>
+      <description>Episode: OpenWrt Reset</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-04-openwrt-reset-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-04-openwrt-reset-en.mp3" length="266733" type="audio/mpeg"/>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wifi Speed</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-04-wifi-speed-en.mp3</link>
-      <description>Episode: Wifi Speed</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-04-wifi-speed-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-04-wifi-speed-en.mp3" length="307053" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <title>Multi-field EMF Meter</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-05-emf-meter-en.mp3</link>
+      <description>Episode: Multi-field EMF Meter</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-05-emf-meter-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-05-emf-meter-en.mp3" length="229581" type="audio/mpeg"/>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Ffmpeg Commands</title>
@@ -865,27 +1113,35 @@
       <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Emf Meter</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-05-emf-meter-en.mp3</link>
-      <description>Episode: Emf Meter</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-05-emf-meter-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-05-emf-meter-en.mp3" length="229581" type="audio/mpeg"/>
-      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tiger</title>
+      <title>Tiger Trade Open API</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-06-tiger-en.mp3</link>
-      <description>Episode: Tiger</description>
+      <description>Episode: Tiger Trade Open API</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-06-tiger-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-06-tiger-en.mp3" length="693741" type="audio/mpeg"/>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ipv6</title>
+      <title>Network Interface Management</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-07-network-interface-en.mp3</link>
+      <description>Episode: Network Interface Management</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-07-network-interface-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-07-network-interface-en.mp3" length="284205" type="audio/mpeg"/>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SSH connection using IPv6 address</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-07-ipv6-en.mp3</link>
-      <description>Episode: Ipv6</description>
+      <description>Episode: SSH connection using IPv6 address</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-07-ipv6-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-07-ipv6-en.mp3" length="377325" type="audio/mpeg"/>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LAN IP Scanner</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-07-lan-ip-en.mp3</link>
+      <description>Episode: LAN IP Scanner</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-07-lan-ip-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-07-lan-ip-en.mp3" length="767661" type="audio/mpeg"/>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -897,107 +1153,91 @@
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Open Router</title>
+      <title>Using OpenRouter</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-07-open-router-en.mp3</link>
-      <description>Episode: Open Router</description>
+      <description>Episode: Using OpenRouter</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-07-open-router-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-07-open-router-en.mp3" length="89613" type="audio/mpeg"/>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Network Interface</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-07-network-interface-en.mp3</link>
-      <description>Episode: Network Interface</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-07-network-interface-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-07-network-interface-en.mp3" length="284205" type="audio/mpeg"/>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lan Ip</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-07-lan-ip-en.mp3</link>
-      <description>Episode: Lan Ip</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-07-lan-ip-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-07-lan-ip-en.mp3" length="767661" type="audio/mpeg"/>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Floating Ip</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-08-floating-ip-en.mp3</link>
-      <description>Episode: Floating Ip</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-08-floating-ip-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-08-floating-ip-en.mp3" length="151821" type="audio/mpeg"/>
-      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gift</title>
+      <title>Giving Gifts</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-08-gift-en.mp3</link>
-      <description>Episode: Gift</description>
+      <description>Episode: Giving Gifts</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-08-gift-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-08-gift-en.mp3" length="84813" type="audio/mpeg"/>
       <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Open Webui</title>
+      <title>Floating IPs in Hetzner Cloud</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-08-floating-ip-en.mp3</link>
+      <description>Episode: Floating IPs in Hetzner Cloud</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-08-floating-ip-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-08-floating-ip-en.mp3" length="151821" type="audio/mpeg"/>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open WebUI</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-09-open-webui-en.mp3</link>
-      <description>Episode: Open Webui</description>
+      <description>Episode: Open WebUI</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-09-open-webui-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-09-open-webui-en.mp3" length="68493" type="audio/mpeg"/>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ssh Config</title>
+      <title>SSH Configuration</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-09-ssh-config-en.mp3</link>
-      <description>Episode: Ssh Config</description>
+      <description>Episode: SSH Configuration</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-09-ssh-config-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-09-ssh-config-en.mp3" length="632973" type="audio/mpeg"/>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Verbose</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-10-verbose-en.mp3</link>
-      <description>Episode: Verbose</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-10-verbose-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-10-verbose-en.mp3" length="112941" type="audio/mpeg"/>
-      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bytecode</title>
+      <title>Java Bytecode</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-10-bytecode-en.mp3</link>
-      <description>Episode: Bytecode</description>
+      <description>Episode: Java Bytecode</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-10-bytecode-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-10-bytecode-en.mp3" length="991245" type="audio/mpeg"/>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Piratebay</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-11-piratebay-en.mp3</link>
-      <description>Episode: Piratebay</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-11-piratebay-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-11-piratebay-en.mp3" length="68493" type="audio/mpeg"/>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <title>Verbose Output</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-10-verbose-en.mp3</link>
+      <description>Episode: Verbose Output</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-10-verbose-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-10-verbose-en.mp3" length="112941" type="audio/mpeg"/>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>P2P Proxy</title>
+      <title>Avoid Proxies When Using P2P Networks</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-11-p2p-proxy-en.mp3</link>
-      <description>Episode: P2P Proxy</description>
+      <description>Episode: Avoid Proxies When Using P2P Networks</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-11-p2p-proxy-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-11-p2p-proxy-en.mp3" length="386925" type="audio/mpeg"/>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Brew Upgrade</title>
+      <title>The Log of Brew Upgrade</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-11-brew-upgrade-en.mp3</link>
-      <description>Episode: Brew Upgrade</description>
+      <description>Episode: The Log of Brew Upgrade</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-11-brew-upgrade-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-11-brew-upgrade-en.mp3" length="2096877" type="audio/mpeg"/>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Git Lfs</title>
+      <title>Git Large File Storage</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-11-git-lfs-en.mp3</link>
-      <description>Episode: Git Lfs</description>
+      <description>Episode: Git Large File Storage</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-11-git-lfs-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-11-git-lfs-en.mp3" length="224013" type="audio/mpeg"/>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pirate Bay</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-11-piratebay-en.mp3</link>
+      <description>Episode: Pirate Bay</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-11-piratebay-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-11-piratebay-en.mp3" length="68493" type="audio/mpeg"/>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1017,9 +1257,9 @@
       <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tavily</title>
+      <title>Using Tavily AI Search API</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-13-tavily-en.mp3</link>
-      <description>Episode: Tavily</description>
+      <description>Episode: Using Tavily AI Search API</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-13-tavily-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-13-tavily-en.mp3" length="326733" type="audio/mpeg"/>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
@@ -1033,20 +1273,28 @@
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Evaluating Candidates</title>
+      <title>Evaluating Interview Candidates</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-13-evaluating-candidates-en.mp3</link>
-      <description>Episode: Evaluating Candidates</description>
+      <description>Episode: Evaluating Interview Candidates</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-13-evaluating-candidates-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-13-evaluating-candidates-en.mp3" length="191373" type="audio/mpeg"/>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>English Practice</title>
+      <title>Affordable English Practice with Native Speakers</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-15-english-practice-en.mp3</link>
-      <description>Episode: English Practice</description>
+      <description>Episode: Affordable English Practice with Native Speakers</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-15-english-practice-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-15-english-practice-en.mp3" length="303501" type="audio/mpeg"/>
       <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trying Netplan</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-16-netplan-en.mp3</link>
+      <description>Episode: Trying Netplan</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-16-netplan-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-16-netplan-en.mp3" length="218061" type="audio/mpeg"/>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Linear Algebra</title>
@@ -1057,19 +1305,11 @@
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Image Compression</title>
+      <title>Image Compression using Linear Algebra</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-16-image-compression-en.mp3</link>
-      <description>Episode: Image Compression</description>
+      <description>Episode: Image Compression using Linear Algebra</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-16-image-compression-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-16-image-compression-en.mp3" length="1390701" type="audio/mpeg"/>
-      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Netplan</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-16-netplan-en.mp3</link>
-      <description>Episode: Netplan</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-16-netplan-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-16-netplan-en.mp3" length="218061" type="audio/mpeg"/>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1081,19 +1321,27 @@
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Second Hand</title>
+      <title>Buy Cheap Second-Hand Goods</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-20-second-hand-en.mp3</link>
-      <description>Episode: Second Hand</description>
+      <description>Episode: Buy Cheap Second-Hand Goods</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-20-second-hand-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-20-second-hand-en.mp3" length="50061" type="audio/mpeg"/>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Openwrt Wireless</title>
+      <title>Configuring OpenWRT as a Wireless Bridge</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-22-openwrt-wireless-en.mp3</link>
-      <description>Episode: Openwrt Wireless</description>
+      <description>Episode: Configuring OpenWRT as a Wireless Bridge</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-22-openwrt-wireless-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-22-openwrt-wireless-en.mp3" length="2674893" type="audio/mpeg"/>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenWrt Invasion on Xiaomi Mi Router 4C</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-22-openwrt-invasion-en.mp3</link>
+      <description>Episode: OpenWrt Invasion on Xiaomi Mi Router 4C</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-22-openwrt-invasion-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-22-openwrt-invasion-en.mp3" length="1866477" type="audio/mpeg"/>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1113,14 +1361,6 @@
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Openwrt Invasion</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-22-openwrt-invasion-en.mp3</link>
-      <description>Episode: Openwrt Invasion</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-22-openwrt-invasion-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-22-openwrt-invasion-en.mp3" length="1866477" type="audio/mpeg"/>
-      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Commute</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-23-commute-en.mp3</link>
       <description>Episode: Commute</description>
@@ -1129,28 +1369,12 @@
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Vscode Settings</title>
+      <title>VSCode Settings</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-24-vscode-settings-en.mp3</link>
-      <description>Episode: Vscode Settings</description>
+      <description>Episode: VSCode Settings</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-24-vscode-settings-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-24-vscode-settings-en.mp3" length="2323725" type="audio/mpeg"/>
       <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Proxy Check</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-25-proxy-check-en.mp3</link>
-      <description>Episode: Proxy Check</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-25-proxy-check-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-25-proxy-check-en.mp3" length="3724749" type="audio/mpeg"/>
-      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Websphere Jvm</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-25-websphere-jvm-en.mp3</link>
-      <description>Episode: Websphere Jvm</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-25-websphere-jvm-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-25-websphere-jvm-en.mp3" length="1281357" type="audio/mpeg"/>
-      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Visualize Dependencies</title>
@@ -1161,115 +1385,139 @@
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Websphere Verbose</title>
+      <title>Verbose Logging in WebSphere Liberty Server</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-25-websphere-verbose-en.mp3</link>
-      <description>Episode: Websphere Verbose</description>
+      <description>Episode: Verbose Logging in WebSphere Liberty Server</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-25-websphere-verbose-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-25-websphere-verbose-en.mp3" length="1510317" type="audio/mpeg"/>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Analyze Spring Boot</title>
+      <title>Analyze Spring Boot Projects</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-25-analyze-spring-boot-en.mp3</link>
-      <description>Episode: Analyze Spring Boot</description>
+      <description>Episode: Analyze Spring Boot Projects</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-25-analyze-spring-boot-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-25-analyze-spring-boot-en.mp3" length="2963853" type="audio/mpeg"/>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windows Terminal</title>
+      <title>JVM options in WebShpere Liberty Server</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-25-websphere-jvm-en.mp3</link>
+      <description>Episode: JVM options in WebShpere Liberty Server</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-25-websphere-jvm-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-25-websphere-jvm-en.mp3" length="1281357" type="audio/mpeg"/>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windows Terminal Options</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-25-windows-terminal-en.mp3</link>
-      <description>Episode: Windows Terminal</description>
+      <description>Episode: Windows Terminal Options</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-25-windows-terminal-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-25-windows-terminal-en.mp3" length="442605" type="audio/mpeg"/>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Websphere Startup</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-26-websphere-startup-en.mp3</link>
-      <description>Episode: Websphere Startup</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-26-websphere-startup-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-26-websphere-startup-en.mp3" length="2784717" type="audio/mpeg"/>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <title>Implementing a Proxy Check in Windows</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-25-proxy-check-en.mp3</link>
+      <description>Episode: Implementing a Proxy Check in Windows</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-25-proxy-check-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-25-proxy-check-en.mp3" length="3724749" type="audio/mpeg"/>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Surfire</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-26-surfire-en.mp3</link>
-      <description>Episode: Surfire</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-26-surfire-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-26-surfire-en.mp3" length="2407437" type="audio/mpeg"/>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Websphere Spring</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-26-websphere-spring-en.mp3</link>
-      <description>Episode: Websphere Spring</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-26-websphere-spring-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-26-websphere-spring-en.mp3" length="2707149" type="audio/mpeg"/>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Websphere Deployment</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-26-websphere-deployment-en.mp3</link>
-      <description>Episode: Websphere Deployment</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-26-websphere-deployment-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-26-websphere-deployment-en.mp3" length="2464077" type="audio/mpeg"/>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Websphere Servlet</title>
+      <title>Servlet Version in WebSphere Liberty Profile</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-26-websphere-servlet-en.mp3</link>
-      <description>Episode: Websphere Servlet</description>
+      <description>Episode: Servlet Version in WebSphere Liberty Profile</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-26-websphere-servlet-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-26-websphere-servlet-en.mp3" length="1679277" type="audio/mpeg"/>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Thread Synchronization</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-27-thread-synchronization-en.mp3</link>
-      <description>Episode: Thread Synchronization</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-27-thread-synchronization-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-27-thread-synchronization-en.mp3" length="2647245" type="audio/mpeg"/>
-      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <title>Deploying Spring Boot to WebSphere Liberty Profile</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-26-websphere-spring-en.mp3</link>
+      <description>Episode: Deploying Spring Boot to WebSphere Liberty Profile</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-26-websphere-spring-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-26-websphere-spring-en.mp3" length="2707149" type="audio/mpeg"/>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Vscode Wrap Extensions</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-27-vscode-wrap-extensions-en.mp3</link>
-      <description>Episode: Vscode Wrap Extensions</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-27-vscode-wrap-extensions-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-27-vscode-wrap-extensions-en.mp3" length="541005" type="audio/mpeg"/>
-      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <title>Maven Surefire Plugin</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-26-surfire-en.mp3</link>
+      <description>Episode: Maven Surefire Plugin</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-26-surfire-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-26-surfire-en.mp3" length="2407437" type="audio/mpeg"/>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>String</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-27-string-en.mp3</link>
-      <description>Episode: String</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-27-string-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-27-string-en.mp3" length="1890957" type="audio/mpeg"/>
-      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <title>Application Startup Issues in WebSphere Liberty Profile</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-26-websphere-startup-en.mp3</link>
+      <description>Episode: Application Startup Issues in WebSphere Liberty Profile</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-26-websphere-startup-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-26-websphere-startup-en.mp3" length="2784717" type="audio/mpeg"/>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Spring Schedule</title>
+      <title>Troubleshoot Deployment in WebSphere Liberty Profile</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-26-websphere-deployment-en.mp3</link>
+      <description>Episode: Troubleshoot Deployment in WebSphere Liberty Profile</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-26-websphere-deployment-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-26-websphere-deployment-en.mp3" length="2464077" type="audio/mpeg"/>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scheduling Tasks In Spring</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-27-spring-schedule-en.mp3</link>
-      <description>Episode: Spring Schedule</description>
+      <description>Episode: Scheduling Tasks In Spring</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-27-spring-schedule-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-27-spring-schedule-en.mp3" length="1866189" type="audio/mpeg"/>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windows Networking</title>
+      <title>Thread Synchronization in Java</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-27-thread-synchronization-en.mp3</link>
+      <description>Episode: Thread Synchronization in Java</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-27-thread-synchronization-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-27-thread-synchronization-en.mp3" length="2647245" type="audio/mpeg"/>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enable Word Wrapping Only for Specific File Extensions</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-27-vscode-wrap-extensions-en.mp3</link>
+      <description>Episode: Enable Word Wrapping Only for Specific File Extensions</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-27-vscode-wrap-extensions-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-27-vscode-wrap-extensions-en.mp3" length="541005" type="audio/mpeg"/>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spring IoC (Inversion of Control) Container</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-27-spring-ioc-en.mp3</link>
+      <description>Episode: Spring IoC (Inversion of Control) Container</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-27-spring-ioc-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-27-spring-ioc-en.mp3" length="2420589" type="audio/mpeg"/>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>String Algorithms in Java</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-27-string-en.mp3</link>
+      <description>Episode: String Algorithms in Java</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-27-string-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-27-string-en.mp3" length="1890957" type="audio/mpeg"/>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windows Networking Commands</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-27-windows-networking-en.mp3</link>
-      <description>Episode: Windows Networking</description>
+      <description>Episode: Windows Networking Commands</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-27-windows-networking-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-27-windows-networking-en.mp3" length="1119789" type="audio/mpeg"/>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Spring Ioc</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-27-spring-ioc-en.mp3</link>
-      <description>Episode: Spring Ioc</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-27-spring-ioc-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-27-spring-ioc-en.mp3" length="2420589" type="audio/mpeg"/>
+      <title>System Information on macOS</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-27-system-info-en.mp3</link>
+      <description>Episode: System Information on macOS</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-27-system-info-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-27-system-info-en.mp3" length="727245" type="audio/mpeg"/>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1281,420 +1529,172 @@
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>System Info</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-27-system-info-en.mp3</link>
-      <description>Episode: System Info</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-27-system-info-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-27-system-info-en.mp3" length="727245" type="audio/mpeg"/>
-      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zoom</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-28-zoom-en.mp3</link>
-      <description>Episode: Zoom</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-28-zoom-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-28-zoom-en.mp3" length="2474445" type="audio/mpeg"/>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft Teams</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-28-microsoft-teams-en.mp3</link>
-      <description>Episode: Microsoft Teams</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-28-microsoft-teams-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-28-microsoft-teams-en.mp3" length="3436365" type="audio/mpeg"/>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zoom Analysis</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-28-zoom-analysis-en.mp3</link>
-      <description>Episode: Zoom Analysis</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-28-zoom-analysis-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-28-zoom-analysis-en.mp3" length="2321325" type="audio/mpeg"/>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using Vscode</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-02-28-using-vscode-en.mp3</link>
-      <description>Episode: Using Vscode</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-28-using-vscode-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-28-using-vscode-en.mp3" length="3266541" type="audio/mpeg"/>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Teams Messages</title>
+      <title>Navigating to Oldest Messages in Microsoft Teams</title>
       <link>https://lzwjava.github.io/assets/audios/2025-02-28-teams-messages-en.mp3</link>
-      <description>Episode: Teams Messages</description>
+      <description>Episode: Navigating to Oldest Messages in Microsoft Teams</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-28-teams-messages-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-28-teams-messages-en.mp3" length="2005581" type="audio/mpeg"/>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Insomnia Ssl</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-03-01-insomnia-ssl-en.mp3</link>
-      <description>Episode: Insomnia Ssl</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-01-insomnia-ssl-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-01-insomnia-ssl-en.mp3" length="789933" type="audio/mpeg"/>
-      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <title>Using Microsoft Teams</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-28-microsoft-teams-en.mp3</link>
+      <description>Episode: Using Microsoft Teams</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-28-microsoft-teams-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-28-microsoft-teams-en.mp3" length="3436365" type="audio/mpeg"/>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Use Kuberenetes</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-03-01-use-kuberenetes-en.mp3</link>
-      <description>Episode: Use Kuberenetes</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-01-use-kuberenetes-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-01-use-kuberenetes-en.mp3" length="1217517" type="audio/mpeg"/>
-      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <title>Zoom's Functionalities</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-28-zoom-analysis-en.mp3</link>
+      <description>Episode: Zoom's Functionalities</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-28-zoom-analysis-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-28-zoom-analysis-en.mp3" length="2321325" type="audio/mpeg"/>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Websites</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-03-01-websites-en.mp3</link>
-      <description>Episode: Websites</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-01-websites-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-01-websites-en.mp3" length="248781" type="audio/mpeg"/>
-      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <title>Using VS Code</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-28-using-vscode-en.mp3</link>
+      <description>Episode: Using VS Code</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-28-using-vscode-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-28-using-vscode-en.mp3" length="3266541" type="audio/mpeg"/>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Memory Storage</title>
+      <title>Using Zoom</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-02-28-zoom-en.mp3</link>
+      <description>Episode: Using Zoom</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-02-28-zoom-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-02-28-zoom-en.mp3" length="2474445" type="audio/mpeg"/>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding Key Memory and Storage Systems in Computing</title>
       <link>https://lzwjava.github.io/assets/audios/2025-03-01-memory-storage-en.mp3</link>
-      <description>Episode: Memory Storage</description>
+      <description>Episode: Understanding Key Memory and Storage Systems in Computing</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-01-memory-storage-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-01-memory-storage-en.mp3" length="2485773" type="audio/mpeg"/>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Router</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-03-02-router-en.mp3</link>
-      <description>Episode: Router</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-02-router-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-02-router-en.mp3" length="1212621" type="audio/mpeg"/>
-      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <title>How to Use Kubernetes</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-03-01-use-kuberenetes-en.mp3</link>
+      <description>Episode: How to Use Kubernetes</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-01-use-kuberenetes-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-01-use-kuberenetes-en.mp3" length="1217517" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Two Routers</title>
+      <title>SSL Certificate Validation in Insomnia</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-03-01-insomnia-ssl-en.mp3</link>
+      <description>Episode: SSL Certificate Validation in Insomnia</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-01-insomnia-ssl-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-01-insomnia-ssl-en.mp3" length="789933" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Useful Websites</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-03-01-websites-en.mp3</link>
+      <description>Episode: Useful Websites</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-01-websites-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-01-websites-en.mp3" length="248781" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Two Routers</title>
       <link>https://lzwjava.github.io/assets/audios/2025-03-02-two-routers-en.mp3</link>
-      <description>Episode: Two Routers</description>
+      <description>Episode: Using Two Routers</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-02-two-routers-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-02-two-routers-en.mp3" length="1735341" type="audio/mpeg"/>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Squirrel Db2</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-03-03-squirrel-db2-en.mp3</link>
-      <description>Episode: Squirrel Db2</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-03-squirrel-db2-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-03-squirrel-db2-en.mp3" length="1431693" type="audio/mpeg"/>
-      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <title>Configuring a Router</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-03-02-router-en.mp3</link>
+      <description>Episode: Configuring a Router</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-02-router-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-02-router-en.mp3" length="1212621" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Websphere Works</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-03-03-websphere-works-en.mp3</link>
-      <description>Episode: Websphere Works</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-03-websphere-works-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-03-websphere-works-en.mp3" length="2153613" type="audio/mpeg"/>
-      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Openshift</title>
+      <title>OpenShift Guide</title>
       <link>https://lzwjava.github.io/assets/audios/2025-03-03-openshift-en.mp3</link>
-      <description>Episode: Openshift</description>
+      <description>Episode: OpenShift Guide</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-03-openshift-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-03-openshift-en.mp3" length="2086029" type="audio/mpeg"/>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Spring Runner</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-03-04-spring-runner-en.mp3</link>
-      <description>Episode: Spring Runner</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-04-spring-runner-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-04-spring-runner-en.mp3" length="1849101" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <title>How WebSphere Application Server Works</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-03-03-websphere-works-en.mp3</link>
+      <description>Episode: How WebSphere Application Server Works</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-03-websphere-works-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-03-websphere-works-en.mp3" length="2153613" type="audio/mpeg"/>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Jenkinsfile</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-03-04-jenkinsfile-en.mp3</link>
-      <description>Episode: Jenkinsfile</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-04-jenkinsfile-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-04-jenkinsfile-en.mp3" length="1058829" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <title>SQuirreL SQL Client and DB2 Database</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-03-03-squirrel-db2-en.mp3</link>
+      <description>Episode: SQuirreL SQL Client and DB2 Database</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-03-squirrel-db2-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-03-squirrel-db2-en.mp3" length="1431693" type="audio/mpeg"/>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Webpack</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-03-04-webpack-en.mp3</link>
-      <description>Episode: Webpack</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-04-webpack-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-04-webpack-en.mp3" length="2593389" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Websphere Ear</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-03-04-websphere-ear-en.mp3</link>
-      <description>Episode: Websphere Ear</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-04-websphere-ear-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-04-websphere-ear-en.mp3" length="3050349" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Retrieve Key</title>
-      <link>https://lzwjava.github.io/assets/audios/2025-03-04-retrieve-key-en.mp3</link>
-      <description>Episode: Retrieve Key</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-04-retrieve-key-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-04-retrieve-key-en.mp3" length="2015469" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wechat Js Sdk</title>
+      <title>WeChat JS SDK</title>
       <link>https://lzwjava.github.io/assets/audios/2025-03-04-wechat-js-sdk-en.mp3</link>
-      <description>Episode: Wechat Js Sdk</description>
+      <description>Episode: WeChat JS SDK</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-04-wechat-js-sdk-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-04-wechat-js-sdk-en.mp3" length="2957997" type="audio/mpeg"/>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Swagger</title>
+      <title>Writing a Jenkinsfile</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-03-04-jenkinsfile-en.mp3</link>
+      <description>Episode: Writing a Jenkinsfile</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-04-jenkinsfile-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-04-jenkinsfile-en.mp3" length="1058829" type="audio/mpeg"/>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Swagger Annotations</title>
       <link>https://lzwjava.github.io/assets/audios/2025-03-04-swagger-en.mp3</link>
-      <description>Episode: Swagger</description>
+      <description>Episode: Swagger Annotations</description>
       <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-04-swagger-en.mp3</guid>
       <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-04-swagger-en.mp3" length="2738541" type="audio/mpeg"/>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Active Learning</title>
-      <link>https://lzwjava.github.io/assets/audios/active-learning-en.mp3</link>
-      <description>Episode: Active Learning</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/active-learning-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/active-learning-en.mp3" length="464780" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
+      <title>Using SpringRunner in Java Tests</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-03-04-spring-runner-en.mp3</link>
+      <description>Episode: Using SpringRunner in Java Tests</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-04-spring-runner-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-04-spring-runner-en.mp3" length="1849101" type="audio/mpeg"/>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Always</title>
-      <link>https://lzwjava.github.io/assets/audios/always-en.mp3</link>
-      <description>Episode: Always</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/always-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/always-en.mp3" length="1811948" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
+      <title>Using Webpack as Module Bundler</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-03-04-webpack-en.mp3</link>
+      <description>Episode: Using Webpack as Module Bundler</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-04-webpack-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-04-webpack-en.mp3" length="2593389" type="audio/mpeg"/>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Chemistry</title>
-      <link>https://lzwjava.github.io/assets/audios/chemistry-en.mp3</link>
-      <description>Episode: Chemistry</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/chemistry-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/chemistry-en.mp3" length="42380" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
+      <title>Retrieve a Key from a Namespace in an Execution Context</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-03-04-retrieve-key-en.mp3</link>
+      <description>Episode: Retrieve a Key from a Namespace in an Execution Context</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-04-retrieve-key-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-04-retrieve-key-en.mp3" length="2015469" type="audio/mpeg"/>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Biology</title>
-      <link>https://lzwjava.github.io/assets/audios/biology-en.mp3</link>
-      <description>Episode: Biology</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/biology-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/biology-en.mp3" length="2861324" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chinese</title>
-      <link>https://lzwjava.github.io/assets/audios/chinese-en.mp3</link>
-      <description>Episode: Chinese</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/chinese-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/chinese-en.mp3" length="3463244" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Competitive Programming</title>
-      <link>https://lzwjava.github.io/assets/audios/competitive-programming-en.mp3</link>
-      <description>Episode: Competitive Programming</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/competitive-programming-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/competitive-programming-en.mp3" length="3239660" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Computer Organization</title>
-      <link>https://lzwjava.github.io/assets/audios/computer-organization-en.mp3</link>
-      <description>Episode: Computer Organization</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/computer-organization-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/computer-organization-en.mp3" length="2862380" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Constitution</title>
-      <link>https://lzwjava.github.io/assets/audios/constitution-en.mp3</link>
-      <description>Episode: Constitution</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/constitution-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/constitution-en.mp3" length="961676" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Deepseek V3</title>
-      <link>https://lzwjava.github.io/assets/audios/deepseek-v3-en.mp3</link>
-      <description>Episode: Deepseek V3</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/deepseek-v3-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/deepseek-v3-en.mp3" length="973868" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Electronic</title>
-      <link>https://lzwjava.github.io/assets/audios/electronic-en.mp3</link>
-      <description>Episode: Electronic</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/electronic-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/electronic-en.mp3" length="2884844" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Frontend Interview</title>
-      <link>https://lzwjava.github.io/assets/audios/frontend-interview-en.mp3</link>
-      <description>Episode: Frontend Interview</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/frontend-interview-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/frontend-interview-en.mp3" length="2311820" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ios Interview</title>
-      <link>https://lzwjava.github.io/assets/audios/ios-interview-en.mp3</link>
-      <description>Episode: Ios Interview</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/ios-interview-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/ios-interview-en.mp3" length="2193068" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Japanese Quotes</title>
-      <link>https://lzwjava.github.io/assets/audios/japanese-quotes-en.mp3</link>
-      <description>Episode: Japanese Quotes</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/japanese-quotes-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/japanese-quotes-en.mp3" length="722924" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Java Interview</title>
-      <link>https://lzwjava.github.io/assets/audios/java-interview-en.mp3</link>
-      <description>Episode: Java Interview</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/java-interview-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/java-interview-en.mp3" length="4371212" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Java Questions</title>
-      <link>https://lzwjava.github.io/assets/audios/java-questions-en.mp3</link>
-      <description>Episode: Java Questions</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/java-questions-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/java-questions-en.mp3" length="2953196" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Law</title>
-      <link>https://lzwjava.github.io/assets/audios/law-en.mp3</link>
-      <description>Episode: Law</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/law-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/law-en.mp3" length="3077036" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Leadership</title>
-      <link>https://lzwjava.github.io/assets/audios/leadership-en.mp3</link>
-      <description>Episode: Leadership</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/leadership-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/leadership-en.mp3" length="1869836" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Legal Diff</title>
-      <link>https://lzwjava.github.io/assets/audios/legal-diff-en.mp3</link>
-      <description>Episode: Legal Diff</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/legal-diff-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/legal-diff-en.mp3" length="937676" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linear Algebra</title>
-      <link>https://lzwjava.github.io/assets/audios/linear-algebra-en.mp3</link>
-      <description>Episode: Linear Algebra</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/linear-algebra-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/linear-algebra-en.mp3" length="2351852" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Maozedong</title>
-      <link>https://lzwjava.github.io/assets/audios/maozedong-en.mp3</link>
-      <description>Episode: Maozedong</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/maozedong-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/maozedong-en.mp3" length="2215820" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microcomputer</title>
-      <link>https://lzwjava.github.io/assets/audios/microcomputer-en.mp3</link>
-      <description>Episode: Microcomputer</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/microcomputer-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/microcomputer-en.mp3" length="1333484" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mind Machine</title>
-      <link>https://lzwjava.github.io/assets/audios/mind-machine-en.mp3</link>
-      <description>Episode: Mind Machine</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/mind-machine-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/mind-machine-en.mp3" length="1109708" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Miscellaneous Ai</title>
-      <link>https://lzwjava.github.io/assets/audios/miscellaneous-ai-en.mp3</link>
-      <description>Episode: Miscellaneous Ai</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/miscellaneous-ai-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/miscellaneous-ai-en.mp3" length="1794572" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ml Points</title>
-      <link>https://lzwjava.github.io/assets/audios/ml-points-en.mp3</link>
-      <description>Episode: Ml Points</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/ml-points-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/ml-points-en.mp3" length="2810060" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Moral</title>
-      <link>https://lzwjava.github.io/assets/audios/moral-en.mp3</link>
-      <description>Episode: Moral</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/moral-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/moral-en.mp3" length="2389868" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Network</title>
-      <link>https://lzwjava.github.io/assets/audios/network-en.mp3</link>
-      <description>Episode: Network</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/network-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/network-en.mp3" length="2999564" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nlp Tasks</title>
-      <link>https://lzwjava.github.io/assets/audios/nlp-tasks-en.mp3</link>
-      <description>Episode: Nlp Tasks</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/nlp-tasks-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/nlp-tasks-en.mp3" length="1235084" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Penetration</title>
-      <link>https://lzwjava.github.io/assets/audios/penetration-en.mp3</link>
-      <description>Episode: Penetration</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/penetration-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/penetration-en.mp3" length="1471724" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Physics</title>
-      <link>https://lzwjava.github.io/assets/audios/physics-en.mp3</link>
-      <description>Episode: Physics</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/physics-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/physics-en.mp3" length="2901740" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Predictions</title>
-      <link>https://lzwjava.github.io/assets/audios/predictions-en.mp3</link>
-      <description>Episode: Predictions</description>
-      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/predictions-en.mp3</guid>
-      <enclosure url="https://lzwjava.github.io/assets/audios/predictions-en.mp3" length="1368812" type="audio/mpeg"/>
-      <pubDate>Tue, 04 Mar 2025 11:38:49 +0000</pubDate>
+      <title>EAR Deployment in WebSphere Liberty Profile</title>
+      <link>https://lzwjava.github.io/assets/audios/2025-03-04-websphere-ear-en.mp3</link>
+      <description>Episode: EAR Deployment in WebSphere Liberty Profile</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/audios/2025-03-04-websphere-ear-en.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/audios/2025-03-04-websphere-ear-en.mp3" length="3050349" type="audio/mpeg"/>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
