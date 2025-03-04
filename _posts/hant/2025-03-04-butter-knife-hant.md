@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: true
-lang: en
+lang: hant
 layout: post
 title: 'ButterKnife: a View binding Library'
 translated: false
