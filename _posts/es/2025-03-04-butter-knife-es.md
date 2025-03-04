@@ -1,9 +1,11 @@
+---
 audio: false
+generated: true
 lang: en
 layout: post
-title: ButterKnife: a View binding Library
+title: 'ButterKnife: a View binding Library'
 translated: false
-generated: true
+---
 
 Butter Knife es una popular biblioteca de enlace de vistas para Android que simplifica el proceso de enlazar elementos de la interfaz de usuario a campos en tu código. Sin embargo, ten en cuenta que Butter Knife ahora está obsoleto y el desarrollo moderno de Android recomienda usar View Binding (introducido en Android Jetpack) en su lugar. Aún así, si necesitas usar Butter Knife 6.1.0 (una versión más antigua lanzada alrededor de 2015) con un archivo `.jar` en un proyecto de Android, aquí te mostramos cómo hacerlo en Android Studio a partir del 3 de marzo de 2025.
 

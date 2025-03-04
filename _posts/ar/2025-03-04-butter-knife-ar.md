@@ -1,9 +1,11 @@
+---
 audio: false
+generated: true
 lang: en
 layout: post
-title: ButterKnife: a View binding Library
+title: 'ButterKnife: a View binding Library'
 translated: false
-generated: true
+---
 
 Butter Knife هو مكتبة شائعة لتربط العناصر الوظيفية في Android التي تسهل عملية ربط عناصر الواجهة المستخدمية مع الحقول في كودك. ومع ذلك، يرجى ملاحظة أن Butter Knife الآن قد تم إهماله، ويوصي تطوير Android الحديث باستخدام ربط الرؤية (مقدمة في Android Jetpack) بدلاً من ذلك. ومع ذلك، إذا كنت تحتاج إلى استخدام Butter Knife 6.1.0 (إصدار قديم صدر حوالي 2015) مع ملف `.jar` في مشروع Android، إليك كيفية القيام بذلك في Android Studio اعتبارًا من 3 مارس 2025.
 
