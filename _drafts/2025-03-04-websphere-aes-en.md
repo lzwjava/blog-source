@@ -177,3 +177,121 @@ This URL, combined with the username and decoded password, enables Squirrel SQL 
 - **JAR Compatibility**: Ensure the Oracle JDBC driver JAR version matches your database version for compatibility.
 
 By following these steps, you can successfully configure Squirrel SQL to connect to the Oracle database using the properties defined in the WebSphere Liberty Profile’s `server.xml`.
+
+---
+
+Since the `securityUtility` command in WebSphere Liberty does not provide a decode option for AES-encrypted passwords (e.g., those prefixed with `{aes}` in the `server.xml` file), you need to use a programmatic approach to decrypt them. The recommended method involves leveraging the `com.ibm.websphere.crypto.PasswordUtil` class, which is part of the Liberty runtime and can decode such passwords. Below are two practical solutions to achieve this:
+
+### Option 1: Use a Temporary Web Application (Recommended)
+Deploying a simple web application to your Liberty server allows you to run the decoding logic within the server environment, ensuring access to the correct encryption key (default or custom, as defined in `server.xml`).
+
+#### Steps:
+1. **Create a JSP File**  
+   Create a file named `decode.jsp` with the following content:
+   ```jsp
+   <%@ page import="com.ibm.websphere.crypto.PasswordUtil" %>
+   <%
+       String encoded = request.getParameter("encoded");
+       if (encoded != null) {
+           try {
+               String decoded = PasswordUtil.decode(encoded);
+               out.println("Decoded password: " + decoded);
+           } catch (Exception e) {
+               out.println("Error decoding password: " + e.getMessage());
+           }
+       }
+   %>
+   ```
+
+2. **Deploy the JSP**  
+   - Place `decode.jsp` in a web application directory, such as `wlp/usr/servers/yourServer/apps/myApp.war/WEB-INF/`.
+   - If needed, create a basic WAR file with this JSP and deploy it using the Liberty admin console or by dropping it into the `dropins` directory.
+
+3. **Access the JSP**  
+   - Start your Liberty server (`server start yourServer`).
+   - Open a browser and navigate to:  
+     `http://localhost:9080/myApp/decode.jsp?encoded={aes}your_encrypted_password`  
+     Replace `{aes}your_encrypted_password` with the actual encrypted password from `server.xml`.
+
+4. **Retrieve the Decoded Password**  
+   The page will display the decrypted password, which you can then use (e.g., in Squirrel SQL to connect to a database).
+
+5. **Secure the Application**  
+   After obtaining the password, remove or restrict access to the JSP to prevent unauthorized use.
+
+#### Why This Works:
+Running within the Liberty server ensures that `PasswordUtil.decode()` uses the same encryption key (default or custom, specified via `wlp.password.encryption.key` in `server.xml`) that was used to encode the password.
+
+---
+
+### Option 2: Use a Standalone Java Program
+If deploying a web application isn’t feasible, you can write a standalone Java program and run it with the Liberty runtime libraries in the classpath. This approach is trickier because it requires manual handling of the encryption key, especially if a custom key was used.
+
+#### Sample Code:
+```java
+import com.ibm.websphere.crypto.PasswordUtil;
+
+public class PasswordDecoder {
+    public static void main(String[] args) {
+        if (args.length < 1 || args.length > 2) {
+            System.out.println("Usage: java PasswordDecoder <encoded_password> [crypto_key]");
+            return;
+        }
+        String encoded = args[0];
+        String cryptoKey = args.length == 2 ? args[1] : null;
+        try {
+            String decoded;
+            if (cryptoKey != null) {
+                decoded = PasswordUtil.decode(encoded, cryptoKey);
+            } else {
+                decoded = PasswordUtil.decode(encoded);
+            }
+            System.out.println("Decoded password: " + decoded);
+        } catch (Exception e) {
+            System.err.println("Error decoding password: " + e.getMessage());
+        }
+    }
+}
+```
+
+#### Steps:
+1. **Compile the Program**  
+   - Save the code as `PasswordDecoder.java`.
+   - Compile it using Liberty’s jars:  
+     ```bash
+     javac -cp /path/to/wlp/lib/* PasswordDecoder.java
+     ```
+     Replace `/path/to/wlp` with your Liberty installation directory (e.g., `/opt/ibm/wlp`).
+
+2. **Run the Program**  
+   - If the password was encrypted with the default key:  
+     ```bash
+     java -cp /path/to/wlp/lib/*:. PasswordDecoder "{aes}your_encrypted_password"
+     ```
+   - If a custom key was used (e.g., defined in `server.xml` as `<variable name="wlp.password.encryption.key" value="yourKey"/>`):  
+     ```bash
+     java -cp /path/to/wlp/lib/*:. PasswordDecoder "{aes}your_encrypted_password" "yourKey"
+     ```
+
+3. **Handle the Output**  
+   The program will print the decoded password or an error if the key is incorrect.
+
+#### Notes:
+- The Liberty jars (e.g., in `wlp/lib`) contain `com.ibm.websphere.crypto.PasswordUtil` and its dependencies.
+- If a custom key was used and you don’t provide it, decoding will fail. Check `server.xml` or included configuration files for the key.
+
+---
+
+### Key Considerations
+- **Default vs. Custom Key**:  
+  - If no `wlp.password.encryption.key` is specified in `server.xml`, the default key is used, and `PasswordUtil.decode(encoded)` should work without additional parameters.
+  - If a custom key is defined, you must supply it explicitly when decoding outside the server (Option 2) or rely on the server context (Option 1).
+
+- **Security**:  
+  Handle the decoded password carefully, as it will be in plain text. Avoid logging it or exposing it unnecessarily.
+
+- **Preference**:  
+  Option 1 (web application) is generally more reliable because it runs within the Liberty environment, automatically handling the key and dependencies.
+
+By following either approach, you can successfully decode the AES-encrypted password from `server.xml` despite the lack of a decode option in `securityUtility`.
+
