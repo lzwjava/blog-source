@@ -527,3 +527,9 @@ In the program memory, this instruction might be represented as a single binary 
 
 In immediate addressing, the operand is directly written into the instruction itself and stored in the program memory along with the opcode. This addressing mode is typically used to assign initial values to general-purpose registers or memory locations.
 
+---
+
+In a RISC (Reduced Instruction Set Computing) instruction system, the length of instructions is typically consistent. RISC is a type of computer instruction set architecture (ISA) designed with the philosophy of simplifying the instruction set to make instruction execution more efficient. In RISC architectures, the goal is to reduce both the number and complexity of instructions, often resulting in instructions of a uniform length. This uniformity enhances the speed and efficiency of instruction execution.
+
+Compared to CISC (Complex Instruction Set Computing) architectures, which feature a larger number of more complex instructions with varying lengths, RISC architectures rely on fewer, simpler instructions and generally adopt a fixed-length instruction format. This design allows the processor to decode and execute instructions more quickly, improving the overall performance of the computer.
+
