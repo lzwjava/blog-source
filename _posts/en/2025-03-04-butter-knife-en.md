@@ -3,7 +3,7 @@ audio: false
 generated: true
 lang: en
 layout: post
-title: 'ButterKnife: a View binding Library'
+title: Using ButterKnife for View binding
 translated: false
 ---
 
