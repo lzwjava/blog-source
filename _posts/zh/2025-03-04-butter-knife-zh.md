@@ -1,9 +1,11 @@
+---
 audio: false
-lang: en
+lang: zh
 layout: post
 title: ButterKnife: a View binding Library
 translated: false
 generated: true
+---
 
 Butter Knife 是一个流行的 Android 视图绑定库，简化了将 UI 元素绑定到代码中的字段的过程。然而，请注意，Butter Knife 现在已被弃用，现代 Android 开发建议使用 Android Jetpack 中引入的 View Binding 代替。尽管如此，如果你需要在 Android 项目中使用 Butter Knife 6.1.0（一个在 2015 年左右发布的旧版本）和一个 `.jar` 文件，这里是你在 2025 年 3 月 3 日的 Android Studio 中可以做到的方法。
 
