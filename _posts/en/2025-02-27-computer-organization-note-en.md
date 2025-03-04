@@ -497,3 +497,40 @@ The basic function of the ALU (Arithmetic Logic Unit) component inside a CPU is 
 - **Logical operations** involve comparisons and bitwise operations, such as AND, OR, NOT, and XOR, which manipulate binary data and support decision-making processes.
 
 These operations are fundamental to how a CPU processes data and executes instructions.
+
+---
+
+Let’s consider an example of immediate addressing in the context of a simple assembly language instruction.
+
+### Example:
+Suppose we’re using a hypothetical assembly language for a processor. The instruction might look like this:
+
+```
+MOV R1, #50
+```
+
+- **Explanation:**
+  - `MOV` is the opcode (operation code) that stands for "move" or "load."
+  - `R1` is the destination register (a general-purpose register).
+  - `#50` is the immediate operand, where the `#` symbol indicates that the value `50` is an immediate value (a constant) embedded directly in the instruction.
+  
+When this instruction is executed:
+1. The processor fetches the instruction from program memory.
+2. It decodes the opcode `MOV` and recognizes that it’s using immediate addressing because of the `#`.
+3. The value `50` is directly loaded into register `R1` without needing to fetch it from another memory location.
+
+### How It’s Stored:
+In the program memory, this instruction might be represented as a single binary word, for example:
+- Opcode (`MOV`): 4 bits, e.g., `0010`
+- Destination register (`R1`): 4 bits, e.g., `0001`
+- Immediate value (`50`): 8 bits, e.g., `00110010
+
+---
+
+In immediate addressing, the operand is directly written into the instruction itself and stored in the program memory along with the opcode. This addressing mode is typically used to assign initial values to general-purpose registers or memory locations.
+
+---
+
+In a RISC (Reduced Instruction Set Computing) instruction system, the length of instructions is typically consistent. RISC is a type of computer instruction set architecture (ISA) designed with the philosophy of simplifying the instruction set to make instruction execution more efficient. In RISC architectures, the goal is to reduce both the number and complexity of instructions, often resulting in instructions of a uniform length. This uniformity enhances the speed and efficiency of instruction execution.
+
+Compared to CISC (Complex Instruction Set Computing) architectures, which feature a larger number of more complex instructions with varying lengths, RISC architectures rely on fewer, simpler instructions and generally adopt a fixed-length instruction format. This design allows the processor to decode and execute instructions more quickly, improving the overall performance of the computer.
