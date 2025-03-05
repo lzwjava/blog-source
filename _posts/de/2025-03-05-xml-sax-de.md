@@ -1,5 +1,5 @@
 ---
-audio: false
+audio: true
 generated: true
 lang: de
 layout: post
