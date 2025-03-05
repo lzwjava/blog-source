@@ -7,27 +7,27 @@ title: HTTP セッションの Java サーブレット
 translated: true
 ---
 
-あなたの質問について、`javax.servlet`パッケージ内の`HttpSession`の動作方法、セッション値の設定方法、および取得方法について説明します。質問内の「HTTPSession」はタイポと仮定し、「HttpSession」が正しいクラス名であると考えています。
+あなたの質問に対する回答として、`HttpSession`の`javax.servlet`パッケージの動作方法、セッション値の設定方法、および取得方法について説明します。質問中の「HTTPSession」はタイポであると仮定し、「HttpSession」が正しいクラス名であると考えています。
 
 ---
 
 ### **HttpSessionの動作方法**
 
-`HttpSession`は、`javax.servlet.http`パッケージ内のインターフェースで、Javaウェブアプリケーションにおける状態管理を可能にします。HTTPは本来無状態であり、クライアント（例えばブラウザ）からサーバーへの各リクエストは独立しており、以前のやり取りの記憶がないため、この制限を克服し、ユーザー固有のデータを複数のリクエスト間で追跡するために、`HttpSession`はセッションを維持するメカニズムを提供します。
+`HttpSession`は、`javax.servlet.http`パッケージにあるインターフェースで、JavaのWebアプリケーションにおける状態管理を可能にします。HTTPは本来無状態であり、クライアント（例えばブラウザ）からサーバーへの各リクエストは独立しており、過去のやり取りを記憶していません。この制限を克服し、ユーザー固有のデータを複数のリクエスト間で追跡するために、`HttpSession`は「セッション」を維持するメカニズムを提供します。
 
 以下のように動作します：
 
-1. **セッションの作成**：ユーザーがウェブアプリケーションのサーブレットに初めてアクセスすると、サーブレットコンテナ（例えばTomcat）は新しい`HttpSession`オブジェクトを作成します。このセッションには一意の識別子である**セッションID**が割り当てられます。
+1. **セッションの作成**：ユーザーが初めてWebアプリケーションのサーブレットにアクセスすると、サーブレットコンテナ（例えばTomcat）が新しい`HttpSession`オブジェクトを作成します。このセッションには一意の識別子である**セッションID**が割り当てられます。
 
-2. **セッションIDの伝送**：セッションIDは、通常`JSESSIONID`という名前のクッキーとしてクライアントのブラウザに送信されます。その後のリクエストでは、ブラウザがこのセッションIDを含めることで、サーバーがリクエストを既存のセッションと関連付けることができます。
+2. **セッションIDの送信**：セッションIDは、通常`JSESSIONID`という名前のクッキーとしてクライアントのブラウザに送信されます。その後のリクエストでは、ブラウザがこのセッションIDを含めることで、サーバーがリクエストを既存のセッションと関連付けることができます。
 
-3. **フォールバックメカニズム**：クッキーがブラウザで無効になっている場合、サーブレットコンテナは**URLの書き換え**をフォールバックとして使用できます。この場合、セッションIDはURLに追加されます（例えば、`http://example.com/page;jsessionid=abc123`）。ただし、これはアプリケーションコードで明示的なサポートが必要です。
+3. **フォールバックメカニズム**：クッキーがブラウザで無効になっている場合、`URLの書き換え`をフォールバックとしてサーブレットコンテナが使用できます。この場合、セッションIDはURLに追加されます（例えば、`http://example.com/page;jsessionid=abc123`）。ただし、これはアプリケーションコードで明示的なサポートが必要です。
 
-4. **サーバー側の保存**：実際のセッションデータ（属性）はサーバー側に保存され、クライアントはセッションIDのみを保持します。これにより、セッションはクッキーよりもセキュリティが高く、敏感な情報を保存するのに適しています。データは通常サーバーメモリに保持されますが、高度な設定ではディスクやデータベースに永続化することもできます。
+4. **サーバー側の保存**：実際のセッションデータ（属性）はサーバー側に保存され、クライアントはセッションIDのみを保持します。これにより、セッションはクッキーよりもセキュアに敏感な情報を保存することができます。データは通常サーバーメモリに保持されますが、高度な設定ではディスクまたはデータベースに永続化することもできます。
 
-5. **セッションのライフサイクル**：セッションにはタイムアウト期間があります（デフォルトで30分、`web.xml`またはプログラムで設定可能）。ユーザーがこの期間を超えて非アクティブな場合、セッションは期限切れとなり、そのデータは破棄されます。また、ログアウト時などに手動でセッションを終了することもできます。
+5. **セッションのライフサイクル**：セッションにはタイムアウト期間があります（デフォルトで30分、`web.xml`またはプログラムで設定可能）。ユーザーがこの期間を超えて非アクティブな場合、セッションは期限切れとなり、そのデータは破棄されます。また、ログアウトなどで手動でセッションを終了することもできます。
 
-このメカニズムにより、サーバーはログイン状態やショッピングカートの内容など、ユーザー固有の情報を複数のリクエスト間で「記憶」することができます。
+このメカニズムにより、サーバーは複数のリクエスト間でユーザー固有の情報（例えばログイン状態やショッピングカートの内容）を「記憶」することができます。
 
 ---
 
@@ -35,7 +35,7 @@ translated: true
 
 `HttpSession`にデータを保存するには、`setAttribute`メソッドを使用します。このメソッドは、キー（`String`）と値（任意のJavaオブジェクト）を関連付けます。以下のように行います：
 
-1. **HttpSessionオブジェクトの取得**：サーブレット内で、`HttpServletRequest`オブジェクトから`request.getSession()`を使用して`HttpSession`を取得します。このメソッドは、セッションが存在しない場合は新しいセッションを作成し、存在する場合は既存のセッションを返します。
+1. **HttpSessionオブジェクトの取得**：サーブレットで、`HttpServletRequest`オブジェクトから`request.getSession()`を使用して`HttpSession`を取得します。このメソッドは既存のセッションが存在しない場合に新しいセッションを作成し、存在する場合は既存のセッションを返します。
 
 2. **属性の設定**：`HttpSession`オブジェクトに対して`setAttribute(key, value)`を呼び出します。
 
@@ -48,7 +48,7 @@ import java.io.*;
 public class SetSessionServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
-        // セッションを取得（存在しない場合は新規作成）
+        // セッションを取得（存在しない場合は新しく作成）
         HttpSession session = request.getSession();
 
         // セッション属性を設定
@@ -64,19 +64,19 @@ public class SetSessionServlet extends HttpServlet {
 
 このコードでは：
 - `request.getSession()`はセッションが利用可能であることを確認します。
-- `session.setAttribute("username", "Alice")`は、キー`"username"`の下に文字列`"Alice"`を保存します。
+- `session.setAttribute("username", "Alice")`はキー`"username"`の下に文字列`"Alice"`を保存します。
 
 ---
 
 ### **セッション値の取得方法**
 
-セッションから値を取得するには、`getAttribute`メソッドを使用します。これは`Object`を返すため、適切な型にキャストする必要があります。以下がその手順です：
+セッションから値を取得するには、`getAttribute`メソッドを使用します。このメソッドは`Object`を返すため、適切な型にキャストする必要があります。以下がその手順です：
 
 1. **HttpSessionオブジェクトの取得**：`request.getSession()`または`request.getSession(false)`を使用します（後者はセッションが存在しない場合に`null`を返し、新しいセッションを作成しません）。
 
 2. **属性の取得**：`getAttribute(key)`を呼び出し、結果をキャストします。
 
-以下は例です：
+以下はその例です：
 
 ```java
 import javax.servlet.http.*;
@@ -114,11 +114,12 @@ public class GetSessionServlet extends HttpServlet {
 
 ---
 
-### **実践例**
+### **実用例**
 
-セッション値の設定と取得をリクエスト間で示す組み合わせ例です：
+リクエスト間でセッション値を設定および取得する組み合わせ例を以下に示します：
 
 1. **SetSessionServlet.java**（例えば、ログイン用）：
+
 ```java
 import javax.servlet.http.*;
 import java.io.*;
@@ -137,6 +138,7 @@ public class SetSessionServlet extends HttpServlet {
 ```
 
 2. **GetSessionServlet.java**（例えば、保護されたページ用）：
+
 ```java
 import javax.servlet.http.*;
 import java.io.*;
@@ -166,14 +168,15 @@ public class GetSessionServlet extends HttpServlet {
 ### **追加の注意点**
 
 - **セッションのタイムアウト**：`session.setMaxInactiveInterval(seconds)`（例えば、`session.setMaxInactiveInterval(1800)`は30分）または`web.xml`で設定します：
+
   ```xml
   <session-config>
-      <session-timeout>30</session-timeout> <!-- 分単位 -->
+      <session-timeout>30</session-timeout> <!-- 分 -->
   </session-config>
   ```
 - **セッションの終了**：`session.invalidate()`（例えば、ログアウト時）。
-- **セキュリティ**：セッションIDを盗聴から保護するためにHTTPSを使用し、暗号化せずに非常に敏感なデータを保存しないようにします。
-- **型キャスト**：`getAttribute`の結果は常にキャストします。これは`Object`を返すためです。
+- **セキュリティ**：セッションIDをインターセプトから保護するためにHTTPSを使用します。暗号化せずに非常に敏感なデータを保存しないようにします。
+- **型キャスト**：`getAttribute`の結果は常にキャストします。`Object`を返すためです。
 
 ---
 
@@ -183,4 +186,4 @@ public class GetSessionServlet extends HttpServlet {
 - **値の設定**：`session.setAttribute("key", value)`。
 - **値の取得**：`String value = (String) session.getAttribute("key")`。
 
-これで、`javax.servlet`内の`HttpSession`についての理解が深まったと思います。さらに詳しい説明が必要であればお知らせください！
+これで、`javax.servlet`の`HttpSession`についての理解が深まるでしょう。さらに詳しい説明が必要な場合はお知らせください！
