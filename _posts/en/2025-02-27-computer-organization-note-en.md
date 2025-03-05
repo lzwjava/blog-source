@@ -565,6 +565,7 @@ In the context of computer architecture, particularly with CPUs like MIPS, **int
 - **Example:** A division by zero exception occurs when a program attempts to divide a number by zero, causing the CPU to invoke an exception handler.
 
 ### **Key Differences**
+
 | Feature            | Interrupts                  | Exceptions                  |
 |---------------------|-----------------------------|-----------------------------|
 | **Timing**          | Asynchronous                | Synchronous                 |
@@ -579,3 +580,25 @@ In MIPS architecture:
 - Interrupts might be handled via the exception vector (a predefined memory location), where the CPU jumps to service routines based on the interrupt type.
 
 Both mechanisms are critical for managing errors and coordinating hardware-software interactions, ensuring the system remains responsive and robust. Let me know if you'd like examples or deeper technical details!
+
+---
+
+The statement "The control memory that stores microprograms is included in the controller" refers to a key concept in computer architecture, particularly in the design of a CPU's control unit. Let me explain this in English:
+
+### Explanation:
+In a computer system, the **controller** (or control unit) is a component of the CPU responsible for directing the operation of the processor. It generates control signals to execute instructions by coordinating the activities of the arithmetic logic unit (ALU), registers, and memory. One way to implement the control unit is through a **microprogrammed approach**, where the control signals are derived from a set of low-level instructions called **microinstructions**. These microinstructions are stored in a special memory within the controller known as **control memory**.
+
+- **Control Memory:** This is a read-only memory (ROM) or similar storage that contains the microprograms. A microprogram is a sequence of microinstructions that define the step-by-step operations required to execute a machine-level instruction (e.g., `add $s1, $s2, $s3` in MIPS).
+- **Microprogramming:** Instead of hardwiring the control logic, the controller fetches microinstructions from the control memory based on the current machine instruction and executes them. This approach provides flexibility, as microprograms can be modified or updated to support new instructions or architectures.
+- **Location:** The control memory is embedded within the controller, making it an integral part of the control unit's operation.
+
+### How It Works:
+1. When the CPU fetches a machine instruction (e.g., from main memory), the controller decodes it.
+2. Based on the decoded instruction, the controller accesses the corresponding microprogram in the control memory.
+3. The microprogram is executed step-by-step, generating the necessary control signals to perform operations like data transfer, arithmetic, or branching.
+4. Once the microprogram completes, the controller moves to the next machine instruction.
+
+### Relevance to MIPS or General CPUs:
+In the context of a processor like MIPS, while MIPS is typically a hardwired or RISC (Reduced Instruction Set Computer) architecture, the concept of microprogramming applies to more complex CISC (Complex Instruction Set Computer) designs (e.g., x86). However, the principle remains: the controller relies on stored microcode (in control memory) to execute instructions efficiently.
+
+This statement highlights the structural design where the controller houses the control memory, enabling the microprogrammed control of the CPU's operations. Let me know if you'd like further details or examples!

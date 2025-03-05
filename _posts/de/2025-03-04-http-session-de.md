@@ -23,17 +23,17 @@ Hier ist, wie es funktioniert:
 
 3. **Fallback-Mechanismus**: Wenn Cookies im Browser deaktiviert sind, kann der Servlet-Container **URL-Umschreibung** als Fallback verwenden. In diesem Fall wird die Sitzungs-ID an URLs angehängt (z. B. `http://example.com/page;jsessionid=abc123`), was jedoch eine explizite Unterstützung im Anwendungscode erfordert.
 
-4. **Serverseitige Speicherung**: Die tatsächlichen Sitzungsdaten (Attribute) werden auf dem Server gespeichert, nicht auf dem Client. Der Client hält nur die Sitzungs-ID, was Sitzungen sicherer macht als Cookies für die Speicherung sensibler Informationen. Die Daten werden normalerweise im Speicher des Servers gehalten, können aber in fortgeschrittenen Konfigurationen auf Festplatte oder in einer Datenbank persistiert werden.
+4. **Serverseitige Speicherung**: Die tatsächlichen Sitzungsdaten (Attribute) werden auf dem Server gespeichert, nicht auf dem Client. Der Client hält nur die Sitzungs-ID, was Sitzungen sicherer macht als Cookies für die Speicherung sensibler Informationen. Die Daten werden normalerweise im Speicher des Servers gehalten, können aber in erweiterten Konfigurationen auf die Festplatte oder eine Datenbank persistiert werden.
 
 5. **Sitzungslebensdauer**: Sitzungen haben eine Timeout-Periode (z. B. 30 Minuten standardmäßig, konfigurierbar über `web.xml` oder programmgesteuert). Wenn der Benutzer länger als diese Zeit inaktiv ist, läuft die Sitzung ab und ihre Daten werden verworfen. Sie können eine Sitzung auch manuell beenden, z. B. beim Abmelden.
 
-Dieser Mechanismus ermöglicht es dem Server, benutzerbezogene Informationen wie den Anmeldestatus oder den Inhalt eines Warenkorbs über mehrere Anfragen hinweg "zu erinnern".
+Dieser Mechanismus ermöglicht es dem Server, benutzerbezogene Informationen wie den Anmeldezustand oder den Inhalt eines Einkaufswagens über mehrere Anfragen hinweg "zu erinnern".
 
 ---
 
-### **Wie man einen Sitzungswert setzt**
+### **Wie man einen Sessionswert setzt**
 
-Um Daten in einer `HttpSession` zu speichern, verwenden Sie die Methode `setAttribute`. Diese Methode ordnet einen Schlüssel (ein `String`) einem Wert (einem beliebigen Java-Objekt) zu. Hier ist, wie es geht:
+Um Daten in einer `HttpSession` zu speichern, verwenden Sie die Methode `setAttribute`. Diese Methode ordnet einen Schlüssel (ein `String`) einem Wert (einem beliebigen Java-Objekt) zu. Hier ist, wie man es macht:
 
 1. **Erhalten Sie das HttpSession-Objekt**: In einem Servlet erhalten Sie die `HttpSession` aus dem `HttpServletRequest`-Objekt mit `request.getSession()`. Diese Methode erstellt eine neue Sitzung, wenn keine existiert, oder gibt die bestehende Sitzung zurück.
 
@@ -68,7 +68,7 @@ In diesem Code:
 
 ---
 
-### **Wie man einen Sitzungswert abruft**
+### **Wie man einen Sessionswert abruft**
 
 Um einen Wert aus der Sitzung abzurufen, verwenden Sie die Methode `getAttribute`. Da sie ein `Object` zurückgibt, müssen Sie es in den entsprechenden Typ umwandeln. Hier ist der Prozess:
 
@@ -109,8 +109,8 @@ public class GetSessionServlet extends HttpServlet {
 
 In diesem Code:
 - `request.getSession(false)` ruft die bestehende Sitzung ab oder gibt `null` zurück.
-- `session.getAttribute("username")` holt den Wert, der in `String` umgewandelt wird.
-- Null-Überprüfungen verhindern Fehler, wenn die Sitzung oder das Attribut nicht existiert.
+- `session.getAttribute("username")` holt den Wert und wandelt ihn in `String` um.
+- Null-Überprüfungen verhindern Fehler, falls die Sitzung oder das Attribut nicht existiert.
 
 ---
 
@@ -161,7 +161,7 @@ public class GetSessionServlet extends HttpServlet {
 }
 ```
 
-Wenn ein Client auf `SetSessionServlet` zugreift, speichert die Sitzung `"Bob"`. Später, wenn `GetSessionServlet` aufgerufen wird, wird es abgerufen und angezeigt, da die Sitzung über Anfragen hinweg besteht.
+Wenn ein Client auf `SetSessionServlet` zugreift, speichert die Sitzung `"Bob"`. Später greift der Zugriff auf `GetSessionServlet` darauf zu und zeigt es an, da die Sitzung über Anfragen hinweg besteht.
 
 ---
 
@@ -174,15 +174,15 @@ Wenn ein Client auf `SetSessionServlet` zugreift, speichert die Sitzung `"Bob"`.
       <session-timeout>30</session-timeout> <!-- in Minuten -->
   </session-config>
   ```
-- **Beenden einer Sitzung**: Verwenden Sie `session.invalidate()` (z. B. zum Abmelden).
+- **Beenden einer Sitzung**: Verwenden Sie `session.invalidate()` (z. B. für die Abmeldung).
 - **Sicherheit**: Verwenden Sie HTTPS, um die Sitzungs-ID vor Abfangen zu schützen. Vermeiden Sie das Speichern hochsensibler Daten ohne Verschlüsselung.
-- **Typumwandlung**: Wandeln Sie immer `getAttribute`-Ergebnisse um, da es `Object` zurückgibt.
+- **Typumwandlung**: Wandeln Sie immer die Ergebnisse von `getAttribute` um, da es `Object` zurückgibt.
 
 ---
 
 ### **Zusammenfassung**
 
-- **Wie es funktioniert**: `HttpSession` hält den Benutzerzustand mit einer Sitzungs-ID (über Cookies oder URL-Umschreibung) aufrecht und speichert Daten auf dem Server.
+- **Wie es funktioniert**: `HttpSession` hält den Benutzerzustand mit einer Sitzungs-ID (über Cookies oder URL-Umschreibung) und speichert Daten auf dem Server.
 - **Setzen eines Werts**: `session.setAttribute("key", value)`.
 - **Abrufen eines Werts**: `String value = (String) session.getAttribute("key")`.
 
