@@ -563,6 +563,7 @@ In the context of computer architecture, particularly with CPUs like MIPS, **int
 - **Example:** A division by zero exception occurs when a program attempts to divide a number by zero, causing the CPU to invoke an exception handler.
 
 ### **Key Differences**
+
 | Feature            | Interrupts                  | Exceptions                  |
 |---------------------|-----------------------------|-----------------------------|
 | **Timing**          | Asynchronous                | Synchronous                 |

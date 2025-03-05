@@ -119,6 +119,7 @@ In this code:
 Here’s a combined example showing setting and getting a session value across requests:
 
 1. **SetSessionServlet.java** (e.g., for login):
+
 ```java
 import javax.servlet.http.*;
 import java.io.*;
@@ -137,6 +138,7 @@ public class SetSessionServlet extends HttpServlet {
 ```
 
 2. **GetSessionServlet.java** (e.g., for a protected page):
+
 ```java
 import javax.servlet.http.*;
 import java.io.*;
@@ -166,6 +168,7 @@ When a client accesses `SetSessionServlet`, the session stores `"Bob"`. Later, a
 ### **Additional Notes**
 
 - **Session Timeout**: Set via `session.setMaxInactiveInterval(seconds)` (e.g., `session.setMaxInactiveInterval(1800)` for 30 minutes) or in `web.xml`:
+
   ```xml
   <session-config>
       <session-timeout>30</session-timeout> <!-- in minutes -->
