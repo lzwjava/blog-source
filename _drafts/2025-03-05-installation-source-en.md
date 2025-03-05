@@ -2,7 +2,7 @@
 audio: false
 lang: en
 layout: post
-title: Installation Source of NPM Packages
+title: Installation Source of npm Packages
 translated: false
 generated: true
 ---
