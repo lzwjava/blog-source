@@ -179,3 +179,63 @@ If permissions are confirmed and the problem persists, focus on Squirrel SQL Cli
 
 ### Final Notes
 By following these steps, you should identify whether the issue is due to permissions, tool configuration, or an unexpected database state. Start with the simple tests (`SYSIBM.SYSDUMMY1`) and escalate to your administrator if needed. Once resolved, `SELECT * FROM SYSCAT.TABLES` should display the expected list of tables.
+
+---
+
+When you run `SELECT * FROM SYSCAT.TABLES` in Squirrel SQL Client and only see system tables, it’s likely because the results include both system and user tables, but the system tables are more prominent or the user tables are not being filtered correctly. The `SYSCAT.TABLES` system catalog view in IBM DB2 contains metadata about all tables in the database, including both system tables (typically in schemas like `SYSIBM`, `SYSCAT`, `SYSSTAT`, and `SYSTOOLS`) and user-defined tables (in user-created schemas). To display only the user’s tables, you need to filter out the system tables by modifying your query.
+
+### Solution
+To show only user-defined tables, run the following SQL query:
+
+```sql
+SELECT * FROM SYSCAT.TABLES 
+WHERE TABSCHEMA NOT IN ('SYSIBM', 'SYSCAT', 'SYSSTAT', 'SYSTOOLS')
+```
+
+This query excludes the main system schemas and will display only tables from user-defined schemas.
+
+#### Explanation
+- **`SYSCAT.TABLES`**: This view lists all tables in the database, including their schema names, table names, and other metadata.
+- **`TABSCHEMA`**: This column indicates the schema of each table. System tables are typically stored in schemas such as `SYSIBM`, `SYSCAT`, `SYSSTAT`, and `SYSTOOLS`, while user tables reside in schemas created by users.
+- **Filtering System Schemas**: The `WHERE TABSCHEMA NOT IN ('SYSIBM', 'SYSCAT', 'SYSSTAT', 'SYSTOOLS')` condition removes rows corresponding to system tables, leaving only user-defined tables in the results.
+
+If your database has additional system schemas beyond these four, you can expand the list in the `NOT IN` clause. Alternatively, you could use a broader filter like `WHERE TABSCHEMA NOT LIKE 'SYS%'`, which excludes any schema starting with `SYS`. However, this might be less precise if some user schemas also begin with `SYS`, so the `NOT IN` approach is generally safer.
+
+### Additional Steps to Verify and Troubleshoot
+If the above query doesn’t show the user tables you expect, here are some steps to investigate further:
+
+1. **List All Schemas**  
+   To see all schemas (both system and user-defined) that contain tables, run:
+   ```sql
+   SELECT DISTINCT TABSCHEMA FROM SYSCAT.TABLES
+   ```
+   This will return a list of unique schema names. Check if your user schemas (e.g., `ADB` or others) appear alongside the system schemas like `SYSIBM` or `SYSCAT`.
+
+2. **Check a Specific Schema**  
+   If you know the schema where your user tables should be (e.g., `ADB`), run:
+   ```sql
+   SELECT * FROM SYSCAT.TABLES WHERE TABSCHEMA = 'ADB'
+   ```
+   This will show all tables in that specific schema. If no rows are returned, either the schema doesn’t exist, or it contains no tables.
+
+3. **Check Squirrel SQL Client Settings**  
+   Sometimes the issue isn’t with the query but with how Squirrel SQL Client displays the results:
+   - **Row Limit**: Go to the SQL menu and check the "Limit Rows" setting. If it’s set to a low number (e.g., 100), and system tables dominate the top of the result set, user tables might not appear. Increase the limit or disable it.
+   - **Sorting**: Sort the results by `TABSCHEMA` or `TABNAME` (e.g., `SELECT * FROM SYSCAT.TABLES ORDER BY TABSCHEMA`) to make user schemas easier to spot.
+
+4. **Confirm User Tables Exist**  
+   To count the number of user tables, run:
+   ```sql
+   SELECT COUNT(*) FROM SYSCAT.TABLES WHERE TABSCHEMA NOT IN ('SYSIBM', 'SYSCAT', 'SYSSTAT', 'SYSTOOLS')
+   ```
+   If this returns a number greater than zero, user tables exist, and the issue is with how the results are being viewed.
+
+### Why You’re Seeing Only System Tables
+Without a filter, `SELECT * FROM SYSCAT.TABLES` returns all tables, but system tables (e.g., in `SYSIBM` or `SYSCAT`) often outnumber user tables or appear first in the result set, especially if no sorting is applied. By explicitly excluding system schemas, as shown in the solution, you’ll isolate the user tables.
+
+If you still don’t see user tables after applying the filter, it’s possible that:
+- No user tables exist in the database.
+- You’re connected to the wrong database (verify with `SELECT CURRENT SERVER FROM SYSIBM.SYSDUMMY1`).
+- There’s an issue with your permissions or the database configuration, though `SYSCAT.TABLES` typically shows all tables regardless of select privileges on the tables themselves.
+
+Try the filtered query first, and use the troubleshooting steps if needed to confirm the presence of user tables.
