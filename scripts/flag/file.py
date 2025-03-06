@@ -113,23 +113,6 @@ def delete_md(name):
             else:
                 print(f"File not found: {md_file_path}")
         
-        # Check for original files in en and zh directories
-        original_md_file_pattern_en = os.path.join(posts_dir, "en", f"{name}-en.md")
-        original_md_file_pattern_zh = os.path.join(posts_dir, "zh", f"{name}-zh.md")
-        
-        for original_md_file_path in glob.glob(original_md_file_pattern_en):
-            if os.path.exists(original_md_file_path):
-                os.remove(original_md_file_path)
-                print(f"Deleted file: {original_md_file_path}")
-            else:
-                print(f"File not found: {original_md_file_path}")
-        for original_md_file_path in glob.glob(original_md_file_pattern_zh):
-            if os.path.exists(original_md_file_path):
-                os.remove(original_md_file_path)
-                print(f"Deleted file: {original_md_file_path}")
-            else:
-                print(f"File not found: {original_md_file_path}")
-
         # Delete associated PDF files
         for pdf_file_path in glob.glob(pdf_file_pattern):
             if os.path.exists(pdf_file_path):
