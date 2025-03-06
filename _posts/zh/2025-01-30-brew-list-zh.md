@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: zh
 layout: post
 title: 家庭自酿软件包

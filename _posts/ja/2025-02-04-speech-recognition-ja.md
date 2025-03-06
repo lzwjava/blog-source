@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: ja
 layout: post
 title: リアルタイム音声認識

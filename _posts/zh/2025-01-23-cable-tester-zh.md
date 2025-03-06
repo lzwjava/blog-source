@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: zh
 layout: post
 title: 网络电缆测试仪

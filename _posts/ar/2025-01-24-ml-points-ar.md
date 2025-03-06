@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: ar
 layout: post
 title: الذكاء الاصطناعي، التعلم العميق، وGPT

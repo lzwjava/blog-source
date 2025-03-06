@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: hant
 layout: post
 title: 自家釀造軟件包

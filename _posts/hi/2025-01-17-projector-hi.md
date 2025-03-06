@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: hi
 layout: post
 title: प्रोजेक्टर सेटअप

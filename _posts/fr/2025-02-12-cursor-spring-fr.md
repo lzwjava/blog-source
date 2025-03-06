@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: fr
 layout: post
 title: Développer des projets Spring Boot avec des outils d'IA

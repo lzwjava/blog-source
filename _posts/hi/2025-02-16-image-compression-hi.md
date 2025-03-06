@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: hi
 layout: post
 title: इमेज कम्प्रेशन लिनियर एल्जेब्रा का उपयोग करके

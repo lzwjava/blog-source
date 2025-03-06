@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: hant
 layout: post
 title: 使用OpenRouter

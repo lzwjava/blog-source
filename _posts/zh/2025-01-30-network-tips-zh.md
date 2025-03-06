@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: zh
 layout: post
 title: 网络优化技巧

@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: fr
 layout: post
 title: Le chemin vers la liberté d'internet

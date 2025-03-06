@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: en
 layout: post
 title: 'Proxy Tool: Squid and Danted'

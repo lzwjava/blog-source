@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: zh
 layout: post
 title: 代理工具：Squid 与 Danted

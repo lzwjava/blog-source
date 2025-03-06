@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: ja
 layout: post
 title: マルチフィールド電磁界測定器

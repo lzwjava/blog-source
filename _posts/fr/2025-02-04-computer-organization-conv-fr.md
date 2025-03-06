@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: fr
 layout: post
 title: Organisation des ordinateurs - Conversation

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: zh
 layout: post
 title: 深度探索V3：多头潜在注意力和多标记预测

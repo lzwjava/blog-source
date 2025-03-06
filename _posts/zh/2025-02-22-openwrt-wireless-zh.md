@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: zh
 layout: post
 title: 配置 OpenWRT 作为无线桥接

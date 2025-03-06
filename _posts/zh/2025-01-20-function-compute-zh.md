@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: zh
 layout: post
 title: 阿里云函数计算

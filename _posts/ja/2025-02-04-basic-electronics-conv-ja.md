@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: ja
 layout: post
 title: 基本電子工学 - 会話

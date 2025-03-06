@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: hant
 layout: post
 title: BCEmbedding：雙語嵌入式知識檢索

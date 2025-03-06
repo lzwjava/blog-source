@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: hi
 layout: post
 title: माइक्रोकंप्यूटर और इंटरफेस टेक्नोलॉजी

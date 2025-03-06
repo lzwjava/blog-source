@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: en
 layout: post
 title: Developing Spring Boot Projects with AI Tools

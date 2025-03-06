@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: es
 layout: post
 title: Escalar contenido PDF para impresión

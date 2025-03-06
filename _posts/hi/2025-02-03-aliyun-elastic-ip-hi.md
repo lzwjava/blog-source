@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: hi
 layout: post
 title: Aliyun इलास्टिक IPs का प्रबंधन

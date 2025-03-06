@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: hi
 layout: post
 title: कंप्यूटर नेटवर्क - संवाद

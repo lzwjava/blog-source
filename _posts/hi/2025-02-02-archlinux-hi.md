@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: hi
 layout: post
 title: Arch Linux स्थापित करना

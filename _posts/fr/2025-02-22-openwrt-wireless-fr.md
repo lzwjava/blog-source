@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: fr
 layout: post
 title: Configurer OpenWRT en tant que pont sans fil

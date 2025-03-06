@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: ar
 layout: post
 title: تنظيف عناصر بدء التشغيل في macOS

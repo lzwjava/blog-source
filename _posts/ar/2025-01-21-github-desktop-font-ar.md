@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: ar
 layout: post
 title: مشاكل عرض الخطوط في GitHub Desktop

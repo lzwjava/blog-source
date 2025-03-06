@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: ja
 layout: post
 title: 会話音声生成

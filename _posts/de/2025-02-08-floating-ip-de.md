@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: de
 layout: post
 title: Floating IPs in der Hetzner Cloud

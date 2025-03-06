@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: de
 layout: post
 title: Der Weg zur Internetfreiheit

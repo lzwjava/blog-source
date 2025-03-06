@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true
+generated: false
 lang: ja
 layout: post
 title: 線形代数 - 会話

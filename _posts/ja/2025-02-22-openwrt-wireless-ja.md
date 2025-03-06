@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: ja
 layout: post
 title: OpenWRTを無線ブリッジとして設定する

@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 layout: post
 title: ML, DL, and GPT
 ---

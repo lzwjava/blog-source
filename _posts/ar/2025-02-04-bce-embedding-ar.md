@@ -1,6 +1,6 @@
 ---
 audio: true
-generated: true
+generated: false
 lang: ar
 layout: post
 title: 'BCEmbedding: تضمين ثنائي اللغة لـ RAG'
