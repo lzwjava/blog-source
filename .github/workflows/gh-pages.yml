@@ -235,6 +235,21 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Run Conversation Pipeline
+        run: |
+          python scripts/audio/conversation_pipeline.py
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/conversations/*.mp3
+          git diff --cached --quiet || git commit -m "feat(audio): Add generated conversation audio files"
+          git push || {
+            echo "Push failed, attempting pull and merge"
+            git pull --rebase
+            git push
+          }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Update Release Hash
         run: python scripts/release/update_release.py
 
