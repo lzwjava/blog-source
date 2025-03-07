@@ -3,74 +3,219 @@ audio: true
 generated: false
 lang: fr
 layout: post
-title: Invitations utiles
+title: Promptes Utiles
 translated: true
 ---
-
-Traduisez les publications ou les mots suivants en chinois, en veillant à ce que les noms (par exemple, les personnes, les lieux, les marques ou les termes spécifiques) ne soient pas traduits et restent dans leur langue originale. Ne traduisez que le texte environnant en chinois.
-
-
----
-
-
-Créez une conversation naturelle et approfondie entre deux experts, A et B, avec au moins 50 tours de parole. Les experts doivent discuter d'un sujet spécifique en profondeur, la conversation allant et venant. Les deux participants doivent poser des questions, partager des idées et explorer les nuances du sujet. Utilisez des compétences telles que l'approfondissement des sous-sections, la comparaison des technologies, l'exploration des cas d'utilisation, le débat sur les compromis et la discussion des tendances émergentes. Développez à plus de 50 tours de parole.
-
-À propos de l'examen 04730, de l'examen d'auto-apprentissage chinois et de la technologie électronique de base 3.
-
-Le format doit être le suivant :
 
 ```json
 [
     {
       "speaker": "A",
-      "line": "Salut, j'ai beaucoup entendu parler d'un sujet. Peux-tu me l'expliquer ?"
+      "line": "你好，我最近听到很多关于04730考试的事情。你能帮我解释一下吗？"
     },
     {
       "speaker": "B",
-      "line": "Bien sûr ! Commençons par les bases..."
+      "line": "当然可以！我们从基础开始。04730考试是中国的自学考试之一，主要涵盖了基本电子技术3。"
+    },
+    {
+      "speaker": "A",
+      "line": "听起来很复杂。基本电子技术3包括哪些内容？"
+    },
+    {
+      "speaker": "B",
+      "line": "基本电子技术3涵盖了电子元件、电路设计和测试等内容。"
+    },
+    {
+      "speaker": "A",
+      "line": "电子元件有哪些常见的类型？"
+    },
+    {
+      "speaker": "B",
+      "line": "常见的电子元件包括电阻、电容、二极管和晶体管等。"
+    },
+    {
+      "speaker": "A",
+      "line": "这些元件在电路设计中有什么作用？"
+    },
+    {
+      "speaker": "B",
+      "line": "电阻用于限制电流，电容用于储存电荷，二极管用于单向导电，晶体管用于放大和开关。"
+    },
+    {
+      "speaker": "A",
+      "line": "电路测试有哪些常见的方法？"
+    },
+    {
+      "speaker": "B",
+      "line": "常见的电路测试方法包括使用万用表测量电压和电流，使用示波器观察信号波形等。"
+    },
+    {
+      "speaker": "A",
+      "line": "这些测试方法有什么优缺点？"
+    },
+    {
+      "speaker": "B",
+      "line": "万用表便携且易用，但精度有限；示波器精度高，但操作复杂。"
+    },
+    {
+      "speaker": "A",
+      "line": "在实际应用中，这些元件和测试方法有哪些用途？"
+    },
+    {
+      "speaker": "B",
+      "line": "在实际应用中，这些元件和测试方法广泛应用于电子设备的设计和维护。"
+    },
+    {
+      "speaker": "A",
+      "line": "你能举个具体的例子吗？"
+    },
+    {
+      "speaker": "B",
+      "line": "比如，在设计一个简单的放大电路时，我们可以使用晶体管作为放大器，电阻和电容用于调节电路参数，万用表用于测量电压和电流。"
+    },
+    {
+      "speaker": "A",
+      "line": "听起来很有趣。那04730考试的难度如何？"
+    },
+    {
+      "speaker": "B",
+      "line": "04730考试的难度适中，主要考察基础知识和实践能力。"
+    },
+    {
+      "speaker": "A",
+      "line": "考试的准备工作有哪些？"
+    },
+    {
+      "speaker": "B",
+      "line": "准备工作包括学习教材、做练习题和进行实验。"
+    },
+    {
+      "speaker": "A",
+      "line": "教材有哪些推荐？"
+    },
+    {
+      "speaker": "B",
+      "line": "推荐的教材包括《基本电子技术3》和相关的练习册。"
+    },
+    {
+      "speaker": "A",
+      "line": "练习题和实验有什么作用？"
+    },
+    {
+      "speaker": "B",
+      "line": "练习题帮助巩固知识，实验则让你亲身体验电子技术的应用。"
+    },
+    {
+      "speaker": "A",
+      "line": "实验的设备和材料需要哪些？"
+    },
+    {
+      "speaker": "B",
+      "line": "常见的实验设备包括电源、万用表、示波器和各种电子元件。"
+    },
+    {
+      "speaker": "A",
+      "line": "这些设备的使用有什么注意事项？"
+    },
+    {
+      "speaker": "B",
+      "line": "使用这些设备时要注意安全，避免电击和短路。"
+    },
+    {
+      "speaker": "A",
+      "line": "在考试中，电路设计和测试的比重如何？"
+    },
+    {
+      "speaker": "B",
+      "line": "电路设计和测试在考试中占有重要地位，通常会有实验环节。"
+    },
+    {
+      "speaker": "A",
+      "line": "实验环节的评分标准是什么？"
+    },
+    {
+      "speaker": "B",
+      "line": "实验环节的评分标准包括电路设计的合理性、测试方法的准确性和实验报告的完整性。"
+    },
+    {
+      "speaker": "A",
+      "line": "电路设计的合理性如何评判？"
+    },
+    {
+      "speaker": "B",
+      "line": "电路设计的合理性可以通过电路的功能实现、元件选择和电路布局来评判。"
+    },
+    {
+      "speaker": "A",
+      "line": "测试方法的准确性如何评判？"
+    },
+    {
+      "speaker": "B",
+      "line": "测试方法的准确性可以通过测量结果的准确性和测试步骤的合理性来评判。"
+    },
+    {
+      "speaker": "A",
+      "line": "实验报告的完整性如何评判？"
+    },
+    {
+      "speaker": "B",
+      "line": "实验报告的完整性可以通过实验步骤的详细描述、数据的准确记录和结论的合理性来评判。"
+    },
+    {
+      "speaker": "A",
+      "line": "在准备考试时，有哪些常见的错误需要避免？"
+    },
+    {
+      "speaker": "B",
+      "line": "常见的错误包括忽略基础知识、实验操作不当和实验报告不完整。"
+    },
+    {
+      "speaker": "A",
+      "line": "如何避免这些错误？"
+    },
+    {
+      "speaker": "B",
+      "line": "可以通过系统学习教材、多做练习题和认真进行实验来避免这些错误。"
+    },
+    {
+      "speaker": "A",
+      "line": "在考试中，如何应对紧张情绪？"
+    },
+    {
+      "speaker": "B",
+      "line": "可以通过深呼吸、适当休息和保持冷静来应对紧张情绪。"
+    },
+    {
+      "speaker": "A",
+      "line": "考试后，如何复习和总结？"
+    },
+    {
+      "speaker": "B",
+      "line": "可以通过回顾考试内容、分析错误和总结经验来复习和总结。"
+    },
+    {
+      "speaker": "A",
+      "line": "04730考试的未来发展趋势是什么？"
+    },
+    {
+      "speaker": "B",
+      "line": "04730考试的未来发展趋势可能会更加注重实践能力和创新思维。"
+    },
+    {
+      "speaker": "A",
+      "line": "你觉得04730考试对未来的职业发展有什么帮助？"
+    },
+    {
+      "speaker": "B",
+      "line": "04730考试对未来的职业发展有很大帮助，特别是在电子技术领域。"
+    },
+    {
+      "speaker": "A",
+      "line": "谢谢你的解释，我对04730考试有了更深入的了解。"
+    },
+    {
+      "speaker": "B",
+      "line": "不客气，如果还有问题，随时问我。"
     }
 ]
 ```
-
----
-
-
-Créez une conversation naturelle et approfondie entre deux experts, A et B, avec au moins 50 tours de parole. Les experts doivent discuter d'un sujet spécifique en profondeur, la conversation allant et venant. Les deux participants doivent poser des questions, partager des idées et explorer les nuances du sujet. Utilisez des compétences telles que l'approfondissement des sous-sections, la comparaison des technologies, l'exploration des cas d'utilisation, le débat sur les compromis et la discussion des tendances émergentes. Développez à plus de 50 tours de parole.
-
-À propos du contenu PDF. Le format doit être le suivant :
-
-
-A : Salut, j'ai beaucoup entendu parler d'un sujet. Peux-tu me l'expliquer ?
-
-B : Bien sûr ! Commençons par les bases.
-
----
-
-
-Générer une image joyeuse du Nouvel An du Serpent Lunaire avec les noms de texte inclus
-
----
-
-
-Créer une image de couverture vidéo YouTube 480p avec les éléments suivants : IA, requin, futuriste, vif, coloré, lever de soleil, ville avec le texte super grand DeepSeek R1 au centre
-
----
-
-
-Créer une image de couverture vidéo YouTube 480p avec les éléments suivants : Electronique de base, futuriste, excitant.
-
----
-
-
-Générer un message d'engagement concis au format Conventional Commits pour les modifications de code suivantes.
-Utilisez l'un des types suivants : feat, fix, docs, style, refactor, test, chore, perf, ci, build ou revert.
-Le cas échéant, incluez une portée entre parenthèses pour décrire la partie du codebase affectée.
-Le message d'engagement ne doit pas dépasser 70 caractères. Donnez simplement le message d'engagement, sans aucune note de début ou de fin.
-
-Fichiers modifiés :
-{', '.join(file_changes)}
-
-----
-
-Créer un titre Youtube
-----

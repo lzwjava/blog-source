@@ -3,18 +3,11 @@ audio: true
 generated: false
 lang: es
 layout: post
-title: Indicaciones Útiles
+title: Prompts útiles
 translated: true
 ---
 
-Traduce las siguientes publicaciones o palabras al chino, asegurándote de que los nombres (por ejemplo, personas, lugares, marcas o términos específicos) no se traduzcan y permanezcan en su idioma original. Solo traduce el texto circundante al chino.
-
-
----
-
-Crea una conversación natural y extensa entre dos expertos, A y B, con al menos 50 turnos. Los expertos deben discutir un tema específico en profundidad, con la conversación fluyendo de un lado a otro. Ambos participantes deben hacer preguntas, compartir ideas y explorar los matices del tema. Utiliza habilidades como profundizar en subsecciones, comparar tecnologías, explorar casos de uso, debatir compensaciones y discutir tendencias emergentes. Expande a más de 50 turnos.
-
-Sobre el examen 04730, el examen de autoestudio de China y la tecnología electrónica básica 3.
+Crea una conversación natural y extendida entre dos expertos, A y B, con al menos 50 turnos. Los expertos deben discutir un tema específico en profundidad, con la conversación fluyendo de ida y vuelta. Ambos participantes deben hacer preguntas, compartir conocimientos y explorar las sutilezas del tema. Utiliza habilidades como profundizar en subsecciones, comparar tecnologías, explorar casos de uso, debatir compromisos y discutir tendencias emergentes. Amplía a 50+ turnos.
 
 El formato debe ser el siguiente:
 
@@ -22,48 +15,46 @@ El formato debe ser el siguiente:
 [
     {
       "speaker": "A",
-      "line": "Oye, he estado escuchando mucho sobre algún tema. ¿Puedes explicármelo?"
+      "line": "Hola, he estado escuchando mucho sobre algún tema. ¿Puedes desglosarlo para mí?"
     },
     {
       "speaker": "B",
-      "line": "¡Claro! Empecemos con lo básico..."
+      "line": "¡Claro! Empecemos con los conceptos básicos. ..."
     }
 ]
 ```
 
+Sobre el examen 04730, el examen de autoestudio de China y la tecnología básica de electrónica 3.
+
 ---
 
-Crea una conversación natural y extensa entre dos expertos, A y B, con al menos 50 turnos. Los expertos deben discutir un tema específico en profundidad, con la conversación fluyendo de un lado a otro. Ambos participantes deben hacer preguntas, compartir ideas y explorar los matices del tema. Utiliza habilidades como profundizar en subsecciones, comparar tecnologías, explorar casos de uso, debatir compensaciones y discutir tendencias emergentes. Expande a más de 50 turnos.
+Crea una conversación natural y extendida entre dos expertos, A y B, con al menos 50 turnos. Los expertos deben discutir un tema específico en profundidad, con la conversación fluyendo de ida y vuelta. Ambos participantes deben hacer preguntas, compartir conocimientos y explorar las sutilezas del tema. Utiliza habilidades como profundizar en subsecciones, comparar tecnologías, explorar casos de uso, debatir compromisos y discutir tendencias emergentes. Amplía a 50+ turnos.
 
 Sobre el contenido del PDF. El formato debe ser el siguiente:
 
+A: Hola, he estado escuchando mucho sobre algún tema. ¿Puedes desglosarlo para mí?
 
-A: Oye, he estado escuchando mucho sobre algún tema. ¿Puedes explicármelo?
-
-B: ¡Claro! Empecemos con lo básico.
-
----
-
-Genera una imagen feliz del Año Nuevo Lunar de la Serpiente con nombres de texto incluidos
+B: ¡Claro! Empecemos con los conceptos básicos.
 
 ---
 
-Crea una imagen de portada de video de YouTube de 480p con los siguientes elementos: IA, tiburón, futurista, vívido, colorido, amanecer, ciudad con texto supergrande DeepSeek R1 en el centro
+Genera una imagen feliz del Año Nuevo de la Serpiente Lunar con nombres de texto incluidos.
 
 ---
 
-Crea una imagen de portada de video de YouTube de 480p con los siguientes elementos: Electrónica básica, futurista, emocionante.
+Crea una imagen de portada de video de YouTube de 480p con los siguientes elementos: AI, tiburón, futurista, vibrante, colorido, amanecer, ciudad con texto supergrande DeepSeek R1 en el centro.
 
 ---
 
-Genera un mensaje de confirmación conciso en formato Conventional Commits para los siguientes cambios de código.
-Usa uno de los siguientes tipos: feat, fix, docs, style, refactor, test, chore, perf, ci, build, o revert.
-Si corresponde, incluye un ámbito entre paréntesis para describir la parte del código base afectada.
-El mensaje de confirmación no debe exceder los 70 caracteres. Solo da el mensaje de confirmación, sin notas adicionales al principio ni al final.
+Crea una imagen de portada de video de YouTube de 480p con los siguientes elementos: Electrónica Básica, futurista, emocionante.
 
-Archivos modificados:
+---
+
+Genera un mensaje de confirmación conciso en formato Conventional Commits para los siguientes cambios de código. Usa uno de los siguientes tipos: feat, fix, docs, style, refactor, test, chore, perf, ci, build, o revert. Si es aplicable, incluye un alcance en paréntesis para describir la parte del código afectada. El mensaje de confirmación no debe exceder los 70 caracteres. Solo proporciona el mensaje de confirmación, sin notas iniciales ni finales.
+
+Archivos cambiados:
 {', '.join(file_changes)}
 
 ----
 
-Crea un título de YouTube
+Crea un título de YouTube.

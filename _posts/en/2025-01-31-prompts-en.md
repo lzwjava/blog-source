@@ -13,7 +13,6 @@ Translate the following posts or words into Chinese, ensuring that names (e.g., 
 
 Create a natural and extended conversation between two experts, A and B, with at least 50 turns. The experts should discuss a specific topic in depth, with the conversation flowing back and forth. Both participants should ask questions, share insights, and explore the nuances of the subject matter. Use skills such as diving deeper into subsections, comparing technologies, exploring use cases, debating trade-offs, and discussing emerging trends. Expand to 50+ turns.
 
-About the 04730 exam, self-study China exam, and basic electronics technology 3.
 
 The format should be as follows:
 
@@ -29,6 +28,8 @@ The format should be as follows:
     }
 ]
 ```
+
+About the 04730 exam, self-study China exam, and basic electronics technology 3.
 
 ---
 
