@@ -263,6 +263,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Clean Up Credentials
+        run: |
+          rm -f ./gha-creds-*.json            
+
       - name: Update Release Hash
         run: python scripts/release/update_release.py
 
