@@ -239,3 +239,4 @@ If you still don’t see user tables after applying the filter, it’s possible 
 - There’s an issue with your permissions or the database configuration, though `SYSCAT.TABLES` typically shows all tables regardless of select privileges on the tables themselves.
 
 Try the filtered query first, and use the troubleshooting steps if needed to confirm the presence of user tables.
+
