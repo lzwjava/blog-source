@@ -196,11 +196,7 @@ jobs:
       - name: Run Audio Pipeline
         if: steps.dry_run_audio.outputs.audio_updated == 'true'
         run: |
-          python scripts/audio/audio_pipeline.py --task posts --n 2 --max_files 20
-
-      - name: Clean Up Credentials
-        run: |
-          rm -f ./gha-creds-*.json               
+          python scripts/audio/audio_pipeline.py --task posts --n 2 --max_files 20          
 
       - name: Commit generated audio files
         if: steps.dry_run_audio.outputs.audio_updated == 'true'
