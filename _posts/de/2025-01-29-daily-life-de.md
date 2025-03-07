@@ -3,20 +3,24 @@ audio: true
 generated: false
 lang: de
 layout: post
-title: Tipps für den Alltag
+title: Alltagstipps
 translated: true
 ---
 
-- Im Winter brauche ich keine Hausschuhe; Socken reichen mir aus.
+- Ich muss im Winter keine Hausschuhe tragen; Socken sind in Ordnung.
 
-- Müllarten trennen und auf die Temperatur achten. Küchenabfälle, Essensreste oder benutztes Toilettenpapier muss ich wahrscheinlich oft entsorgen. Flaschen oder Lieferkartons kann ich hingegen reinigen und etwas lagern. Im Sommer muss ich den Müll häufiger entsorgen.
+- Trenne verschiedene Arten von Müll und beachte die Temperatur. Für Küchenabfälle, Essensreste oder benutzte Toilettenpapier muss ich sie wahrscheinlich häufig entsorgen. Bei Flaschen oder Lieferboxen können Sie sie jedoch möglicherweise reinigen und eine Weile aufbewahren. Im Sommer muss ich den Müll häufiger entsorgen.
 
-- Kleidung gegen den Trend zu kaufen ist günstiger. Ein halbes Jahr zu warten, bis ich sie trage, ist kein Problem.
+- Kaufen Sie Kleidung gegen den Trend, das ist billiger. Es macht nichts, wenn Sie sie erst nach einem halben Jahr tragen.
 
-- 10 Minuten im Trockner machen Kleidung bequemer.
+- Das Trocknen für 10 Minuten kann Kleidung bequemer machen.
 
-- Ich konzentriere mich auf meine Aufgabe und lasse die Dinge liegen, wo sie sind. Es mag für andere unorganisiert aussehen, aber für mich ist es praktisch.
+- Konzentrieren Sie sich auf Ihre Aufgabe und lassen Sie die Dinge, wo sie sind. Es mag für andere unorganisiert erscheinen, aber es ist für mich bequem.
 
-- Ein iPhone 20W Ladegerät zum Laden eines Mac M2 ist akzeptabel.
+- Die Verwendung eines iPhone 20w-Ladegeräts zum Laden eines Mac M2 ist akzeptabel.
 
-- Im Winter trage ich dicke Baumwollhosen statt Thermo-Unterwäsche. Eine Hose ist bequemer als Thermo-Unterwäsche und Hose.
+- Im Winter tragen Sie dicke Baumwollhosen anstelle von Thermounterwäsche. Eine Hose ist bequemer als Thermounterwäsche und Hose.
+
+- Kaufen Sie immer mindestens zwei Arten von Dingen, wie Shampoo. Sie können sie abwechselnd je nach Laune verwenden und leicht vergleichen. Ihr Haar wird wahrscheinlich von einer solchen Vielfalt profitieren.
+
+- Trinken Sie LIPTON Tees und Aufgüsse, grünen Tee, Oolong-Tee usw.
