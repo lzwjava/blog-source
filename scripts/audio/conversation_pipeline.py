@@ -11,8 +11,11 @@ import argparse
 OUTPUT_DIRECTORY = "assets/conversations"
 INPUT_DIRECTORY = "scripts/conversation"
 
-def text_to_speech(text, output_filename, voice_name=None):
+def text_to_speech(text, output_filename, voice_name=None, dry_run=False):
     print(f"Generating audio for: {output_filename}")
+    if dry_run:
+        print(f"Dry run: Skipping audio generation for {output_filename}")
+        return True
     try:
         client = texttospeech.TextToSpeechClient()
         synthesis_input = texttospeech.SynthesisInput(text=text)
@@ -42,7 +45,7 @@ def text_to_speech(text, output_filename, voice_name=None):
         print(f"An error occurred while generating audio for {output_filename}: {e}")
         return False
 
-def process_conversation(filename, seed=None):
+def process_conversation(filename, seed=None, dry_run=False):
     if seed is None:
         seed = int(time.time())
     random.seed(seed)
@@ -51,14 +54,14 @@ def process_conversation(filename, seed=None):
 
     if os.path.exists(output_filename):
         print(f"Audio file already exists: {output_filename}")
-        return
+        return False  # Indicate that processing was skipped
 
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             conversation = json.load(f)
     except Exception as e:
         print(f"Error loading conversation file {filename}: {e}")
-        return
+        return False # Indicate that processing failed
 
     temp_files = []
     
@@ -82,17 +85,21 @@ def process_conversation(filename, seed=None):
         elif speaker == "B":
             voice_name = voice_name_B
         
-        if not text_to_speech(line, temp_file, voice_name=voice_name):
+        if not text_to_speech(line, temp_file, voice_name=voice_name, dry_run=dry_run):
             print(f"Failed to generate audio for line {idx+1} of {filename}")
             # Clean up temp files
             for temp_file_to_remove in temp_files:
                 if os.path.exists(temp_file_to_remove):
                     os.remove(temp_file_to_remove)
-            return
+            return False # Indicate that processing failed
 
     if not temp_files:
         print(f"No audio generated for {filename}")
-        return
+        return False # Indicate that processing failed
+
+    if dry_run:
+        print(f"Dry run: Skipping concatenation for {filename}")
+        return True #Indicate that processing was skipped, but successfully
 
     # Concatenate using ffmpeg
     concat_file = os.path.join(OUTPUT_DIRECTORY, "concat.txt")
@@ -107,21 +114,32 @@ def process_conversation(filename, seed=None):
             capture_output=True
         )
         print(f"Successfully concatenated audio to {output_filename}")
+        success = True
     except subprocess.CalledProcessError as e:
         print(f"Error concatenating audio: {e.stderr.decode()}")
+        success = False
     finally:
         os.remove(concat_file)
         for temp_file in temp_files:
             os.remove(temp_file)
 
+    return success
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process conversation JSON files to generate audio.")
     parser.add_argument("--seed", type=int, help="Random seed for voice selection.")
+    parser.add_argument("--dry_run", action="store_true", help="Perform a dry run without generating audio.")
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
 
+    num_conversations = 0
+    total_conversations = 0
     for filename in os.listdir(INPUT_DIRECTORY):
         if filename.endswith(".json"):
-            process_conversation(filename, args.seed)
+            total_conversations += 1
+            if process_conversation(filename, args.seed, args.dry_run):
+                num_conversations += 1
+                
+    print(f"Processing complete! {num_conversations}/{total_conversations} conversations generated/attempted.")

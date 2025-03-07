@@ -187,8 +187,22 @@ jobs:
             echo "audio_updated=false" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Dry run Conversation Pipeline
+        id: dry_run_conversation
+        run: |
+          DRY_RUN_CONVERSATION_OUTPUT=$(python scripts/audio/conversation_pipeline.py --dry_run)
+          echo "$DRY_RUN_CONVERSATION_OUTPUT"
+          CONVERSATIONS_PROCESSED=$(echo "$DRY_RUN_CONVERSATION_OUTPUT" | grep "Processing complete!" | awk '{print $3}' | cut -d'/' -f1)
+          TOTAL_CONVERSATIONS=$(echo "$DRY_RUN_CONVERSATION_OUTPUT" | grep "Processing complete!" | awk '{print $3}' | cut -d'/' -f2)
+
+          if [[ "$CONVERSATIONS_PROCESSED" -gt 0 ]]; then
+            echo "conversation_updated=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "conversation_updated=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Install FFmpeg
-        if: steps.dry_run_audio.outputs.audio_updated == 'true'
+        if: steps.dry_run_audio.outputs.audio_updated == 'true' || steps.dry_run_conversation.outputs.conversation_updated == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
@@ -232,6 +246,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run Conversation Pipeline
+        if: steps.dry_run_conversation.outputs.conversation_updated == 'true'
         run: |
           python scripts/audio/conversation_pipeline.py
           python scripts/feed/conversation_feed.py
