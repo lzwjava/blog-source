@@ -15,8 +15,11 @@ translated: true
 - 音频源：
   使用此链接订阅：[https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml)。
 
+- 对话源：
+  使用此链接订阅：[https://lzwjava.github.io/conversation_feed.xml](https://lzwjava.github.io/conversation_feed.xml)。
+
 - X（Twitter）：
-  在[@lzwjava](https://mobile.twitter.com/lzwjava) 关注我以获取更新和更多信息。
+  在[@lzwjava](https://mobile.twitter.com/lzwjava)关注我获取更新和更多信息。
 
 此外，这里是我的一些平台账号：
 

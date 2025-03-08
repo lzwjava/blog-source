@@ -10,15 +10,18 @@ translated: true
 最新のブログ記事をRSSフィード、オーディオフィード、またはX（Twitter）でフォローすることで最新情報をチェックしてください。
 
 - RSSフィード:
-  このリンクを使用して購読してください: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml)。
+  このリンクを使用して購読: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).
 
 - オーディオフィード:
-  このリンクを使用して購読してください: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml)。
+  このリンクを使用して購読: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
 
-- X（Twitter）：
-  更新情報やその他の情報をチェックするために、[@lzwjava](https://mobile.twitter.com/lzwjava)をフォローしてください。
+- コンバーセーションフィード:
+  このリンクを使用して購読: [https://lzwjava.github.io/conversation_feed.xml](https://lzwjava.github.io/conversation_feed.xml).
 
-また、以下に私のプラットフォームアカウントがあります：
+- X（Twitter）:
+  更新情報やその他の情報をチェックするには、[@lzwjava](https://mobile.twitter.com/lzwjava)をフォローしてください。
+
+その他、以下に私のプラットフォームアカウントがあります：
 
 | プラットフォーム   | リンク                                        |
 |----------------|-------------------------------------------------|
@@ -44,6 +47,6 @@ translated: true
 | ビデオ      | [Douban](https://www.douban.com/people/lzwjava/) |
 |                | [TikTok](https://www.tiktok.com/@jamesleecool)  |
 |                | [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ) |
-| メッセージ  | [Telegram](https://t.me/lzwjava)               |
+| メッセージング  | [Telegram](https://t.me/lzwjava)               |
 |                | [WhatsApp](https://wa.me/12345678900)          |
 | その他      | [Quora](https://www.quora.com/profile/Lzw-2)    |

@@ -7,13 +7,16 @@ title: اشترك
 translated: true
 ---
 
-ابق على اطلاع بأحدث منشورات مدونتي من خلال الاشتراك عبر تغذية RSS، تغذية الصوت، أو متابعة على X (تويتر).
+ابق على اطلاع بأحدث منشورات مدونتي من خلال الاشتراك عبر تغذية RSS، تغذية الصوت، أو متابعة لي على X (تويتر).
 
 - تغذية RSS:
   اشترك باستخدام هذا الرابط: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).
 
 - تغذية الصوت:
   اشترك باستخدام هذا الرابط: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
+
+- تغذية المحادثة:
+  اشترك باستخدام هذا الرابط: [https://lzwjava.github.io/conversation_feed.xml](https://lzwjava.github.io/conversation_feed.xml).
 
 - X (تويتر):
   اتبعني على [@lzwjava](https://mobile.twitter.com/lzwjava) للحصول على تحديثات وأكثر.
@@ -25,7 +28,7 @@ translated: true
 | الكود       | [GitHub](https://github.com/lzwjava)            |
 |                | [Codeforces](https://codeforces.com/profile/lzwjava) |
 |                | [UVa Judge](https://uhunt.onlinejudge.org/id/113519) |
-|                | [Blog](https://lzwjava.github.io)               |
+|                | [المدونة](https://lzwjava.github.io)               |
 |                | [Kaggle](https://www.kaggle.com/lzwjava)        |
 |                | [LeetCode](https://leetcode.com/u/lzwjava/)     |
 |                | [AtCoder](https://atcoder.jp/users/lzwjava)     |

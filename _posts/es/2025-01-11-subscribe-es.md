@@ -15,6 +15,9 @@ Mantente actualizado con mis últimas publicaciones de blog suscribiéndote a tr
 - Audio Feed:
   Suscríbete usando este enlace: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
 
+- Conversation Feed:
+  Suscríbete usando este enlace: [https://lzwjava.github.io/conversation_feed.xml](https://lzwjava.github.io/conversation_feed.xml).
+
 - X (Twitter):
   Sígueme en [@lzwjava](https://mobile.twitter.com/lzwjava) para actualizaciones y más.
 

@@ -15,6 +15,9 @@ Bleiben Sie mit meinen neuesten Blogbeiträgen auf dem Laufenden, indem Sie sich
 - Audio Feed:
   Abonnieren Sie diesen Link: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
 
+- Conversation Feed:
+  Abonnieren Sie diesen Link: [https://lzwjava.github.io/conversation_feed.xml](https://lzwjava.github.io/conversation_feed.xml).
+
 - X (Twitter):
   Folgen Sie mir unter [@lzwjava](https://mobile.twitter.com/lzwjava) für Updates und mehr.
 

@@ -7,7 +7,7 @@ title: 訂閱
 translated: true
 ---
 
-保持最新的博客文章更新，請通過RSS訂閱、音頻訂閱或關注我在X（Twitter）上的帳戶。
+保持最新的博客文章更新，請通過RSS訂閱、音頻訂閱或關注我在X（Twitter）上的動態。
 
 - RSS訂閱：
   使用此鏈接訂閱：[https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml)。
@@ -15,8 +15,11 @@ translated: true
 - 音頻訂閱：
   使用此鏈接訂閱：[https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml)。
 
+- 對話訂閱：
+  使用此鏈接訂閱：[https://lzwjava.github.io/conversation_feed.xml](https://lzwjava.github.io/conversation_feed.xml)。
+
 - X（Twitter）：
-  關注我 [@lzwjava](https://mobile.twitter.com/lzwjava) 以獲取更新和更多資訊。
+  關注我 [@lzwjava](https://mobile.twitter.com/lzwjava) 獲取更新和更多內容。
 
 此外，這裡是我的一些平台帳戶：
 

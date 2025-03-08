@@ -15,8 +15,11 @@ Restez informé de mes derniers articles de blog en vous abonnant via le flux RS
 - Flux Audio :
   Abonnez-vous en utilisant ce lien : [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
 
+- Flux de Conversation :
+  Abonnez-vous en utilisant ce lien : [https://lzwjava.github.io/conversation_feed.xml](https://lzwjava.github.io/conversation_feed.xml).
+
 - X (Twitter) :
-  Suivez-moi à [@lzwjava](https://mobile.twitter.com/lzwjava) pour des mises à jour et plus encore.
+  Suivez-moi à [@lzwjava](https://mobile.twitter.com/lzwjava) pour les mises à jour et plus encore.
 
 En outre, voici quelques-uns de mes comptes de plateforme :
 
@@ -46,4 +49,4 @@ En outre, voici quelques-uns de mes comptes de plateforme :
 |                | [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ) |
 | Messagerie  | [Telegram](https://t.me/lzwjava)               |
 |                | [WhatsApp](https://wa.me/12345678900)          |
-| Autre      | [Quora](https://www.quora.com/profile/Lzw-2)    |
+| Autres      | [Quora](https://www.quora.com/profile/Lzw-2)    |

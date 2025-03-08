@@ -7,13 +7,16 @@ title: सब्सक्राइब
 translated: true
 ---
 
-मेरे नवीनतम ब्लॉग पोस्ट्स को अपडेट के साथ रखने के लिए RSS फीड, ऑडियो फीड के माध्यम से सब्सक्राइब करें, या X (ट्विटर) पर मुझे फॉलो करें।
+मेरे नवीनतम ब्लॉग पोस्ट्स के लिए RSS फीड, ऑडियो फीड के माध्यम से साइन अप करें, या X (ट्विटर) पर मुझे फॉलो करें।
 
 - RSS फीड:
-  इस लिंक का उपयोग करके सब्सक्राइब करें: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).
+  इस लिंक का उपयोग करके साइन अप करें: [https://lzwjava.github.io/feed.xml](https://lzwjava.github.io/feed.xml).
 
 - ऑडियो फीड:
-  इस लिंक का उपयोग करके सब्सक्राइब करें: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
+  इस लिंक का उपयोग करके साइन अप करें: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
+
+- संवाद फीड:
+  इस लिंक का उपयोग करके साइन अप करें: [https://lzwjava.github.io/conversation_feed.xml](https://lzwjava.github.io/conversation_feed.xml).
 
 - X (ट्विटर):
   अपडेट और अधिक के लिए मुझे [@lzwjava](https://mobile.twitter.com/lzwjava) पर फॉलो करें।
@@ -34,7 +37,7 @@ translated: true
 |                | [CodeChef](https://www.codechef.com/users/lzwjava) |
 |                | [CSDN](https://blog.csdn.net/lzw_java)          |
 |                | [StackOverflow](https://stackoverflow.com/users/3044511/lzwjava) |
-| सोशल     | [Weibo](https://weibo.com/zhiweilee)            |
+| सामाजिक     | [Weibo](https://weibo.com/zhiweilee)            |
 |                | [Twitter](https://twitter.com/lzwjava)          |
 |                | [LinkedIn](https://www.linkedin.com/in/lzwjava) |
 |                | [Facebook](https://www.facebook.com/lzwjava)    |
@@ -44,6 +47,6 @@ translated: true
 | वीडियो      | [Douban](https://www.douban.com/people/lzwjava/) |
 |                | [TikTok](https://www.tiktok.com/@jamesleecool)  |
 |                | [Youtube](https://www.youtube.com/channel/UC-jqwnFwWOS4ydgTsQR-9ZQ) |
-| संदेश      | [Telegram](https://t.me/lzwjava)               |
+| संदेशवाहक  | [Telegram](https://t.me/lzwjava)               |
 |                | [WhatsApp](https://wa.me/12345678900)          |
 | अन्य      | [Quora](https://www.quora.com/profile/Lzw-2)    |
