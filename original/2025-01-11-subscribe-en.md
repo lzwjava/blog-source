@@ -14,6 +14,9 @@ Stay updated with my latest blog posts by subscribing via RSS feed, audio feed, 
 - Audio Feed:  
   Subscribe using this link: [https://lzwjava.github.io/audio_feed.xml](https://lzwjava.github.io/audio_feed.xml).
 
+- Conversation Feed:  
+  Subscribe using this link: [https://lzwjava.github.io/conversation_feed.xml](https://lzwjava.github.io/conversation_feed.xml).
+
 - X (Twitter):  
   Follow me at [@lzwjava](https://mobile.twitter.com/lzwjava) for updates and more.  
 
