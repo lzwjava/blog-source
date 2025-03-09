@@ -143,7 +143,9 @@ def main():
     bucket_name = config['bucket_name']
     ss_urls = config['ss_urls']
 
-    if len(ss_urls) != 2:
+    if len(ss_urls) == 1:
+        ss_urls.append(ss_urls[0])
+    elif len(ss_urls) != 2:
         raise ValueError("app_config.yaml must contain exactly 2 SS URLs")
     
     logger.info("Generating Clash config...")
