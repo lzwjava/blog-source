@@ -1,5 +1,5 @@
 ---
-title: hongkong-servers
+title: Cloud Providers Offering Servers in Hong Kong
 lang: en
 layout: post
 audio: false
