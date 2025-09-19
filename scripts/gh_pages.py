@@ -14,7 +14,7 @@ from glob import glob
 from pathlib import Path
 from typing import Sequence
 
-from scripts.build import DEFAULT_DESTINATION
+from build import DEFAULT_DESTINATION
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_SENTINEL = "Updated original/2025-01-11-notes-en.md"
