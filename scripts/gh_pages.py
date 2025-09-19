@@ -14,6 +14,8 @@ from glob import glob
 from pathlib import Path
 from typing import Sequence
 
+from scripts.build import DEFAULT_DESTINATION
+
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_SENTINEL = "Updated original/2025-01-11-notes-en.md"
 
@@ -187,7 +189,19 @@ def update_release_hash() -> None:
 
 def build_site() -> None:
     """Build the Jekyll site locally."""
-    run_command(["bundle", "exec", "jekyll", "build"])
+    destination = DEFAULT_DESTINATION
+    if destination.exists():
+        shutil.rmtree(destination)
+    run_command(
+        [
+            "bundle",
+            "exec",
+            "jekyll",
+            "build",
+            "--destination",
+            str(destination),
+        ]
+    )
 
 
 def send_telegram_message() -> None:
