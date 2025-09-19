@@ -7,6 +7,7 @@ import argparse
 import subprocess
 import sys
 from pathlib import Path
+import shutil
 
 DEFAULT_DESTINATION = Path.home() / "projects" / "lzwjava.github.io" / "_site"
 
@@ -24,7 +25,11 @@ def parse_args(argv: list[str]) -> tuple[str, list[str]]:
     return args.destination, extra_args
 
 
-def run_jekyll(destination: str, extra_args: list[str]) -> int:
+def run_jekyll(destination: str, extra_args: list[str]) -> int:    
+    dest_path = Path(destination)
+    if dest_path.exists():
+        shutil.rmtree(dest_path)
+            
     command = [
         "jekyll",
         "build",
