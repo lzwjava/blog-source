@@ -12,7 +12,7 @@ from pathlib import Path
 def main():
     """Main sync function."""
     # Define source and target directories
-    source_dir = Path.home() / "projects" / "lzwjava.github.io"
+    source_dir = Path.home() / "projects" / "blog-source"
     target_dir = Path.home() / "projects" / "pyscripts"
     
     if not source_dir.exists():
