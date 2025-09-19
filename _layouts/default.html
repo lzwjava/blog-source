@@ -7,11 +7,15 @@
   <link rel="manifest" href="/favicon/site.webmanifest">
 
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}"
-    href="{{ site.url }}{{ site.baseurl }}/feed.xml" />
+    href="{{ site.url }}{{ site.baseurl }}/feeds/feed.xml" />
 
   <title>{{ page.title }}</title>
 
-  {% if site.google_analytics %}
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' 
+          data-cf-beacon='{"token": "70fc8c466cc1445098b3fc6f209c22c2"}'>
+  </script>
+
+  <!-- {% if site.google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -19,7 +23,7 @@
     gtag('js', new Date());
     gtag('config', '{{ site.google_analytics }}');
   </script>
-  {% endif %}
+  {% endif %} -->
   <meta charset="UTF-8">
 
   {% seo %}
@@ -27,15 +31,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Facebook Meta Tags -->
+  <!-- <meta property="og:url" content="https://lzwjava.github.io"> -->
+  <meta property="og:type" content="website">
+  <!-- <meta property="og:title" content="Zhiwei Li's Blog">
+  <meta property="og:description" content="A personal blog featuring programming insights and projects."> -->
+  {% assign og_images = "og1.jpg,og2.jpg,og3.jpg,og4.jpg,og5.jpg,og6.jpg,og7.jpg,og8.jpg,og9.jpg,og10.jpg,og11.jpg,og12.jpg,og13.jpg,og14.jpg" | split: "," %}
+  {% assign random_og = og_images | sample %}
+  <meta property="og:image" content="https://lzwjava.github.io/assets/images/og/{{ random_og }}">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lzwjava">
+  <meta property="twitter:domain" content="lzwjava.github.io">
+  <!-- <meta property="twitter:url" content="https://lzwjava.github.io"> -->
+  <!-- <meta name="twitter:title" content="Zhiwei Li's Blog">
+  <meta name="twitter:description" content="A personal blog featuring programming insights and projects."> -->
+  <meta name="twitter:image" content="https://lzwjava.github.io/assets/images/og/{{ random_og }}">
+
+
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
   <!-- for mathjax support -->
   <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
           tex2jax: {
-            inlineMath: [ ['$','$'], ["\\(","\\)"]],
-            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            inlineMath: [ ['\\(','\\)'], ['$', '$']],
+            displayMath: [ ['$$','$$'], ['\\[','\\]']],
             processEscapes: false
+          },
+          "HTML-CSS": { linebreaks: { automatic: true } },
+          "CommonHTML": {
+            linebreaks: { automatic: true }
           },
           TeX: { equationNumbers: { autoNumber: "AMS" } }
         });
@@ -43,40 +71,10 @@
 
   <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-  </script>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      var lastShown = localStorage.getItem("donatePopup");
-      var now = new Date().getTime();
-      var duration = 100 * 60 * 1000; // 10 minutes in milliseconds
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
-      function showPopup() {
-        if (confirm("Donate to support the author?\n捐赠支持作者？")) {
-          window.location.href = "/pages/donate-en";
-        }
-        localStorage.setItem("donatePopup", now);
-      }
-
-      var timeout = 50 * 60 * 1000;
-
-      if (document.title !== "Donate") {
-        if (!lastShown) {
-          setTimeout(function () {
-            showPopup();
-          }, timeout);
-        } else if ((now - lastShown) > duration) {
-          setTimeout(function () {
-            if (Math.random() <= 0.3) {
-              showPopup();
-            }
-          }, timeout);
-        }
-      }
-    });
-  </script>
-
-
+  <!-- <script src="{{ '/assets/js/donatePopup.js?v=' | append: site.github.build_revision | relative_url }}" defer></script> -->
 </head>
 
 <body>

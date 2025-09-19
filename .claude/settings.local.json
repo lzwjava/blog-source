@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "WebSearch",
+      "Bash(mkdir:*)",
+      "Bash(python:*)",
+      "Bash(chmod:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "/etc/systemd/system"
+    ]
+  },
+  "enableAllProjectMcpServers": false
+}

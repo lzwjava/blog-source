@@ -2,134 +2,34 @@
 layout: page
 ---
 
-<div class="sort-container">
-
-  <span id="post-number" class="post-number">{{ site.posts.size }} posts</span>
-
-  <select id="sort-select">
-    <option value="author-picks|all">Author's Picks</option>
-    <option value="date-desc|all" selected>Date Descending - All</option>
-    <option value="date-desc|en">Date Descending - English</option>
-    <option value="date-desc|zh">日期降序 - 中文</option>
-    <option value="date-asc|all">Date Ascending - All</option>
-    <option value="date-asc|en">Date Ascending - English</option>
-    <option value="date-asc|zh">日期升序 - 中文</option>
-    <option value="random|all">Random Order - All</option>
-    <option value="random|en">Random Order - English</option>
-    <option value="random|zh">随机顺序 - 中文</option>
-  </select>
-
-</div>
+{% include sort.html %}
 
 <ul class="post-list">
   {% if site.posts.size > 0 %}
   {% for post in site.posts %}
-  <li class="list-group-item post-item lang-{{ post.lang }}" data-top="{{ post.top }}">
+  {% assign translated = post.translated %}
+  {% assign generated = post.generated %}
+  {% if translated == nil %}
+  {% assign translated = false %}
+  {% endif %}
+  {% if generated == nil %}
+  {% assign generated = false %}
+  {% endif %}
+  {% if post.path contains '_posts/en/' %}
+  <li class="list-group-item post-item lang-en" data-top="{{ post.top }}" data-translated="{{ translated }}"
+    data-generated="{{ generated }}">
     <a href="{{ post.url }}">
       <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
+      <span class="type"> {% if post.image %}image{% else %}text{% endif %}</span>
       <span class="title">{{ post.title }}</span>
     </a>
   </li>
-  {% endfor %}
+  {% endif %}{% endfor %}
   {% else %}
-  <li class="list-group-item post-item">No posts available. Please refresh the page to load the posts. There is a known
-    bug that we are working to fix.</li>
+  <li class="list-group-item post-item">No posts available. </li>
   {% endif %}
 </ul>
 
-<footer class="site-footer">
-  <span class="site-footer-credits">Copyright©2010－{{ site.time | date: "%Y" }}</span>
-</footer>
+{% include footer.html %}
 
-<script>
-  window.addEventListener('load', function () {
-    const sortSelect = document.getElementById('sort-select');
-    const postNumber = document.getElementById('post-number');
-
-    function updatePosts() {
-      const selectedValue = sortSelect.value;
-      const [sortOption, langFilter] = selectedValue.split('|');
-
-      // Select all posts
-      const posts = document.querySelectorAll('.post-list li.post-item');
-
-      // Filter posts by language
-      const filteredPosts = langFilter === 'all' ?
-        Array.from(posts) :
-        Array.from(posts).filter(post => post.classList.contains(`lang-${langFilter}`));
-
-      // Create postArray
-      const postArray = filteredPosts.map(post => {
-        const dateStr = post.querySelector('.date').textContent.replace(/\./g, '-');
-        return {
-          element: post,
-          date: new Date(dateStr),
-          title: post.querySelector('.title').textContent.toLowerCase(),
-          top: parseInt(post.getAttribute('data-top'), 10)
-        };
-      });
-
-      // Sort posts
-      const sortedPosts = sortPosts(postArray, sortOption);
-
-      // Clear the postList
-      const postList = document.querySelector('.post-list');
-      postList.innerHTML = '';
-
-      // Append sorted posts
-      if (sortedPosts.length > 0) {
-        sortedPosts.forEach(post => postList.appendChild(post.element));
-      } else {
-        const noPostsMessage = document.createElement('li');
-        noPostsMessage.className = 'list-group-item post-item';
-        noPostsMessage.textContent = 'No posts available. Please refresh the page to load the posts. There is a known bug that I am lazy to fix.';
-        postList.appendChild(noPostsMessage);
-      }
-
-      // Update post number
-      postNumber.textContent = `${sortedPosts.length} posts`;
-    }
-
-    function sortPosts(posts, sortOption) {
-      switch (sortOption) {
-        case 'date-desc':
-          return posts.sort((a, b) => b.date - a.date);
-        case 'date-asc':
-          return posts.sort((a, b) => a.date - b.date);
-        case 'random':
-          return shuffle(posts);
-        case 'author-picks':
-          return posts.filter(post => !isNaN(post.top)).sort((a, b) => b.date - a.date);
-        default:
-          return posts.sort((a, b) => b.date - a.date);
-      }
-    }
-
-    function shuffle(array) {
-      let currentIndex = array.length, randomIndex;
-      while (currentIndex != 0) {
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
-        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
-      }
-      return array;
-    }
-
-    // Event listener for select change
-    sortSelect.addEventListener('change', function () {
-      updatePosts();
-      localStorage.setItem('sortOption', sortSelect.value);
-    });
-
-    // Restore selection from localStorage
-    window.addEventListener('load', function () {
-      const savedSort = localStorage.getItem('sortOption');
-      if (savedSort) {
-        sortSelect.value = savedSort;
-      } else {
-        sortSelect.value = 'date-desc|all';
-      }
-      updatePosts();
-    });
-  });
-</script>
+<script src="/assets/js/index.js"></script>

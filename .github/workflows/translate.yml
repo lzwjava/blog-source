@@ -1,0 +1,37 @@
+name: Translate Posts
+
+on:
+  workflow_dispatch:
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements/requirements.txt
+
+      - name: Translate posts
+        run: |
+          TOTAL_POSTS=$(ls original/*.md | wc -l)
+          for i in $(seq 0 10 "$TOTAL_POSTS"); do
+            python scripts/translate_lang.py --n 50 --lang hant
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add _posts/hant/*
+            git diff --cached --quiet || git commit -m "Add translated posts (hant)"
+            git push
+          done
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

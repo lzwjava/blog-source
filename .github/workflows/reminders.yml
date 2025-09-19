@@ -1,0 +1,154 @@
+name: Reminders
+
+on:
+  schedule:
+    # Runs every 2 hours from 12 PM to 8 PM (Beijing time, UTC+8) from Wednesday to Friday.
+    - cron: '0 4,6,8,10,12 * * 3-5'
+    # Runs on the 27th of every month at 12 PM (Beijing time, UTC+8).
+    - cron: '0 4 27 * *'
+    # Runs on the 30th of every month at 2 PM (Beijing time, UTC+8).
+    - cron: '0 6 30 * *'
+    # Runs every day at 1 AM Beijing time (5 PM UTC the previous day).
+    - cron: '0 17 * * *'
+    # Runs every day at 11 AM Beijing time (3 AM UTC).
+    - cron: '0 3 * * *'
+    # Reminds to go to parents' house next day: 9 PM Beijing Time (1 PM UTC) on Tue, Wed, Thu.
+    - cron: '0 13 * * 2-4'
+    # Reminds to go to own house next day: 9 PM Beijing Time (1 PM UTC) on Sun, Mon, Fri, Sat.
+    - cron: '0 13 * * 0,1,5,6'
+    # Reminds to buy fresh produce direct from the source in JD.com: 9 PM Beijing Time (1 PM UTC) on Wednesday.
+    - cron: '0 13 * * 3'
+    # Reminds to buy quick delivery food from JD.com: 9 PM Beijing Time (1 PM UTC) on Friday.
+    - cron: '0 13 * * 5'
+    # Reminds about associate degree exam in March, April, September, and October every Monday at 1 PM Beijing Time (5 AM UTC).
+    - cron: '0 5 * 3,4,9,10 1'
+    # Reminds about associate degree exam preparation 1pm Monday UTC
+    - cron: '0 13 * * 1'      
+    # Reminds to submit clarity timesheet every Friday at 5 PM Taipei time (9 AM UTC).
+    - cron: '0 9 * * 5'
+    # Reminds to submit vendor timesheet on the 25th of every month at 12 AM Taipei time (4 PM UTC previous day).
+    - cron: '0 16 25 * *'
+    # Reminds to ask family to support mortgage payment on the 16th of every month at 9 PM Taipei time (1 PM UTC).
+    - cron: '0 13 16 * *'
+    # Reminds to watch TV with partner every Friday, Saturday at 10 PM Taipei time (2 PM UTC).
+    - cron: '0 14 * * 5,6'
+    # Reminds to remove parking permit sticker at 2 AM Beijing time (6 PM UTC) on Wed, Thu, Fri.
+    - cron: '0 18 * * 3,4,5'
+    # Reminds to play basketball: 7 PM Beijing Time (11 AM UTC) on Fri, Sat, Sun.
+    - cron: '0 11 * * 5,6,0'      
+    # Reminds to charge car in parent's house: 11 PM Beijing Time (3 PM UTC) on Wed, Thu.
+    - cron: '0 15 * * 3,4'    
+  workflow_dispatch:  # Allows manual triggering
+  push:
+    branches: ["main"]
+    paths:
+      - 'scripts/bot/reminders_bot.py'
+      - '.github/workflows/reminders.yml'
+
+concurrency:
+  group: 'reminders'
+  cancel-in-progress: false
+
+jobs:
+  send-reminders:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    env:
+      TELEGRAM_BOT2_API_KEY: ${{ secrets.TELEGRAM_BOT2_API_KEY }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 5
+
+      - name: Set up Python 3.13.2
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13.2"
+  
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements/requirements.simple.txt
+
+      # - name: Run Telegram script for daily punch card reminders
+      #   run: python scripts/bot/reminders_bot.py --job send_message --message "Punch card in WeCom"
+      #   if: github.event.schedule == '0 4,6,8,10,12 * * 3-5'
+
+      - name: Run Telegram script for monthly mortgage reminder
+        run: python scripts/bot/reminders_bot.py --job send_message --message "Prepare house mortgage deduction"
+        if: github.event.schedule == '0 4 27 * *'
+
+      - name: Run Telegram script for monthly salary check reminder
+        run: python scripts/bot/reminders_bot.py --job send_message --message "Check salary"
+        if: github.event.schedule == '0 6 30 * *'
+
+      - name: Run Telegram script for sleep reminder
+        run: python scripts/bot/reminders_bot.py --job send_message --message "Time to sleep!"
+        if: github.event.schedule == '0 17 * * *'
+
+      - name: Run Telegram script for wake up reminder
+        run: python scripts/bot/reminders_bot.py --job send_message --message "Time to wake up!"
+        if: github.event.schedule == '0 3 * * *'
+
+      # - name: Run Telegram script for parents' house reminder
+      #   run: python scripts/bot/reminders_bot.py --job send_message --message "Go to house of parents tomorrow!"
+      #   if: github.event.schedule == '0 13 * * 2-4'
+
+      # - name: Run Telegram script for own house reminder
+      #   run: python scripts/bot/reminders_bot.py --job send_message --message "Go to your house tomorrow!"
+      #   if: github.event.schedule == '0 13 * * 0,1,5,6'
+
+      # - name: Run Telegram script for JD.com fresh produce reminder
+      #   run: python scripts/bot/reminders_bot.py --job send_message --message "Buy fresh produce direct from the source in JD.com!"
+      #   if: github.event.schedule == '0 13 * * 3'
+
+      # - name: Run Telegram script for JD.com quick delivery food reminder
+      #   run: python scripts/bot/reminders_bot.py --job send_message --message "Buy quick delivery food from JD.com!"
+      #   if: github.event.schedule == '0 13 * * 5'
+
+      - name: Run Telegram script for associate degree exam reminder
+        run: python scripts/bot/reminders_bot.py --job send_message --message "Register associate degree exam"
+        if: github.event.schedule == '0 5 * 3,4,9,10 1'
+
+      - name: Run Telegram script for clarity timesheet reminder
+        run: python scripts/bot/reminders_bot.py --job send_message --message "Submit clarity timesheet"
+        if: github.event.schedule == '0 9 * * 5'
+
+      - name: Run Telegram script for vendor timesheet reminder
+        run: python scripts/bot/reminders_bot.py --job send_message --message "Submit vendor timesheet"
+        if: github.event.schedule == '0 16 25 * *'
+
+      # - name: Run Telegram script for family mortgage support reminder
+      #   run: python scripts/bot/reminders_bot.py --job send_message --message "Ask family to support mortgage payment"
+      #   if: github.event.schedule == '0 13 16 * *'
+
+      - name: Run Telegram script for watch TV with partner reminder
+        run: python scripts/bot/reminders_bot.py --job send_message --message "Time to watch movies with your partner!"
+        if: github.event.schedule == '0 14 * * 5,6'
+
+      # - name: Run Telegram script for car window paper stick reminder
+      #   run: python scripts/bot/reminders_bot.py --job send_message --message "Remove parking permit sticker from car window"
+      #   if: github.event.schedule == '0 18 * * 3,4,5'
+
+      - name: Run Telegram script for play basketball reminder
+        run: python scripts/bot/reminders_bot.py --job send_message --message "Time to play basketball!"
+        if: github.event.schedule == '0 11 * * 5,6,0'
+
+      - name: Run Telegram script for associate exam preparation
+        run: python scripts/bot/reminders_bot.py --job send_message --message "Time to prepare associate degree exam!"
+        if: github.event.schedule == '0 13 * * 1'
+
+      # - name: Run Telegram script for charge car in parent's house reminder
+      #   run: python scripts/bot/reminders_bot.py --job send_message --message "Charge car in parent's house!"
+      #   if: github.event.schedule == '0 15 * * 3,4'
+
+      - name: Run Telegram script for test message
+        run: python scripts/bot/reminders_bot.py --job send_message --message "This is a test message from GitHub Actions."
+        if: github.event_name == 'workflow_dispatch'
+
+      - name: Run Telegram script for push to main branch
+        run: python scripts/bot/reminders_bot.py --job send_message --message "Code changes about reminders pushed to main branch."
+        if: github.event_name == 'push'

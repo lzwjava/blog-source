@@ -1,0 +1,47 @@
+---
+audio: false
+generated: false
+image: false
+lang: es
+layout: post
+title: '趣直播: La primera plataforma de transmisión en vivo de conocimiento'
+translated: true
+---
+
+趣直播, nuestro producto está a punto de lanzarse. A los 21 años, mi segundo proyecto de emprendimiento se lanza.
+
+趣直播，一个 plataforma de transmisiones en vivo de pago con enfoque en el conocimiento. En sus inicios, contaba con tres secciones: compartir experiencias, programación y diseño. En el futuro, se espera convertirlo en una plataforma de transmisiones en vivo de pago que abarque la compartición de conocimientos en diversas industrias. El objetivo es permitir que más personas puedan ganarse la vida vendiendo conocimiento, esforzándose aún más por crear contenido de alta calidad para obtener ingresos superiores a los de un trabajo convencional, y al mismo tiempo, permitir que los usuarios accedan a contenido de mayor calidad mediante pagos reducidos.
+
+Mi conexión con las transmisiones en vivo comenzó en marzo de este año, cuando recibí una invitación de Gu Cheng para transmitir tecnología en Douyu. La sensación de tener un promedio de 800 personas viendo cada sesión fue realmente increíble. Dominar algunas técnicas poco conocidas y luego compartirlas con todos es una experiencia muy gratificante.
+
+En Quzhibo, necesitas pagar de 1 a 100 yuanes para participar en una transmisión en vivo esta noche o mañana. Cuando la transmisión comience, recibirás un mensaje de texto. En la sala de transmisión, el anfitrión compartirá sus conocimientos o experiencias, y los espectadores pueden interactuar con él mediante texto o voz.
+
+Actualmente, estamos adoptando un modelo de inscripción paga, donde los precios de las entradas varían desde 1 yuan hasta 100 yuan. En esencia, los oradores y el contenido son clave. Si el orador tiene un perfil sólido y el contenido es atractivo, incluso las entradas más caras atraerán a muchas personas. Si el orador es común y el contenido no tiene nada novedoso o interesante, incluso si es gratuito, no atraerá a mucha gente. Sin embargo, el precio de la entrada aún influye en la decisión. Si es caro, el umbral también es más alto; aunque el orador y el contenido sean excelentes, al sopesarlo, uno puede darse cuenta de que el precio es demasiado alto y decidir no participar. Si es barato, entonces es más probable que uno esté dispuesto a probarlo. Esto plantea una pregunta interesante: ¿cuál es el precio adecuado para una transmisión en vivo? Desde el punto de vista de los costos fijos, el ancho de banda de Alibaba Cloud es de 0.8 yuanes por GB. Un usuario que vea durante una hora consumirá alrededor de 2 GB de datos, lo que equivale a 1.6 yuanes. Además, hay otros gastos como los costos del servidor. Lo importante es que estos ingresos pueden ser un buen incentivo para los oradores. Hoy en día, la gente vive bajo mucha presión y siente que si no está ganando dinero, está perdiendo el tiempo. Compartir de forma gratuita y altruista una vez está bien, pero si se hace con frecuencia, se considera una pérdida de tiempo. Para los expertos en tecnología y diseño, es mejor hacer trabajos freelance o investigar temas de interés personal.
+
+¿Cómo se distribuyen los ingresos de la transmisión en vivo entre la plataforma y el ponente? Básicamente, hay dos situaciones. Si nuestra plataforma se encarga de la promoción, entonces los ingresos se dividen aproximadamente a partes iguales entre la plataforma y el ponente. Si el ponente tiene muchos seguidores y es él quien promociona, la mayor parte de los ingresos va al ponente, actualmente establecido en un 90%. En este caso, la plataforma Quzhibo proporciona una herramienta de transmisión en vivo de pago.
+
+¿Por qué no adoptar un modelo de propinas? Si las plataformas de transmisión en vivo móviles y las plataformas de espectáculos en vivo adoptaran nuestro modelo de prepago, probablemente no habría muchas personas viendo. Cuando regalas obsequios a un anfitrión una y otra vez, gastando miles y miles, y luego pides el WeChat del anfitrión, invitándolo a salir, y el anfitrión te rechaza una y otra vez, eventualmente te alejas de él o ella. Es como entrar en un bar, ver a una chica hermosa, pedirle la bebida más cara, y si al final no quiere irse contigo, simplemente te alejas de ella. Esto refleja esa realidad.
+
+Y nosotros estamos reflejando las actividades y conferencias de la vida real. Muchas de estas conferencias requieren un pago para inscribirse. La gente paga para obtener una entrada, para ver a las personas que quieren ver y escuchar el contenido que desean. La transmisión en vivo nos brinda esta oportunidad, permitiendo que más personas vean a quienes quieren ver y escuchen lo que desean, mientras que el costo de la entrada se reduce significativamente.
+
+En el futuro, incluso esperamos crear un "Taobao" en el ámbito del conocimiento. Los anfitriones de transmisiones en vivo son como los dueños de tiendas en Taobao. Estas personas no se ganan la vida vendiendo productos, sino vendiendo conocimiento. Investigan los conocimientos más avanzados en su industria desde casa y luego los presentan al público de la mejor manera posible. La ventaja de esto sobre un trabajo tradicional es que si te esfuerzas el doble este mes, tus ingresos aumentarán inmediatamente al doble. En la industria tecnológica que conozco, al menos una parte de las personas puede lograr esto. Una transmisión en vivo con 500 personas, cada una pagando 10 yuanes, puede generar un ingreso de 500 * 10 * 0.9 = 4500 yuanes para el anfitrión. Esto es mucho mejor que trabajar un día entero. Con solo ofrecer 10 transmisiones en vivo al mes, se pueden alcanzar ingresos de 45000 yuanes. **Este es un panorama muy prometedor.** Para mantener a tantas personas viendo sus transmisiones, el anfitrión probablemente tendrá que invertir mucho esfuerzo en el contenido. Por lo tanto, que el anfitrión obtenga mayores ingresos al trabajar más duro está en línea con los principios fundamentales de la sociedad. Además, con solo gastar 100 yuanes al mes, las personas pueden obtener este conocimiento de manera casi presencial.
+
+De esta manera, estoy emocionado y ansioso por intentarlo. Me esforzaré por gestionar bien esta plataforma de transmisión en vivo y, al mismo tiempo, convertirme en un streamer de este tipo.
+
+Al principio, mi plan era buscar a mis amigos cercanos para que hicieran transmisiones en vivo, y luego atraer a más personas a través de los ingresos generados por estos streamers. Mis amigos aceptaron, pero obviamente lo hicieron por nuestra amistad. Me preocupaba que, con el tiempo, nadie más se uniera y que el proyecto no pudiera sostenerse. Ahora, ya no me preocupa tanto. Siempre y cuando haga bien esta plataforma de transmisión en vivo, permitiendo que los streamers puedan ganarse la vida con su conocimiento, proporcionar contenido de alta calidad a la sociedad y esforzarse más para ganar más dinero, podré atraer a cada vez más personas a transmitir. Es como Jack Ma, quien al hacer bien la plataforma de Taobao, permitió que los comerciantes individuales ganaran dinero, lo que a su vez atrajo a más personas a abrir tiendas en Taobao.
+
+Las ventajas de las plataformas de transmisión en vivo son similares a las de Taobao en el sentido de que puedo hacer que el número de espectadores sea muy grande, al igual que aumentar las ventas de productos. Esto significa que, siempre y cuando el anfitrión ofrezca contenido excepcional y lo promocione de manera efectiva, puede ganar mucho dinero en una sola noche, mientras que los usuarios obtienen contenido de alta calidad. Además, en comparación con Taobao, no hay necesidad de almacenamiento ni de envío de productos. Es más conveniente y tiene un mayor potencial de crecimiento.
+
+Actualmente, Quzhibo ha lanzado una versión para WeChat y próximamente estará disponible la versión para iOS. Las versiones para escritorio y Android también están en proceso de desarrollo. ¡Mantente atento!
+
+En la presentación en vivo de esta noche, hablaré sobre nuestro producto, también compartiré mi historia de emprendimiento, mis experiencias y mis impresiones sobre Silicon Valley. ¡Todos están invitados a participar! Además, si tienes alguna sugerencia sobre el producto o deseas hacer amistad conmigo, puedes agregarme en WeChat: lzwjava.
+
+Este año cumplo 21 años. Empecé a programar desde la secundaria, dejé la universidad en mi segundo año para trabajar, y para el tercer año ya ganaba 25,000 al mes. He alcanzado un nivel en Android, iOS, backend y frontend que me permite ganar entre 20,000 y 30,000. Después de emprender durante medio año y fracasar, ahora estoy listo para comenzar de nuevo. A lo largo de todos estos años, me he esforzado al máximo con la esperanza de ganar más dinero, retribuir a mi familia y vivir una vida cómoda. Ahora, espero crear una plataforma **que permita a miles de personas como yo enfrentarse directamente al mercado, esforzarse más para ganar más dinero, crear más valor social y, al mismo tiempo, vivir una vida más cómoda.
+
+¡Gracias a todos!
+
+Si no estás en WeChat, por favor copia el siguiente enlace y ábrelo en WeChat:
+
+http://m.quzhiboapp.com?liveId=7
+
+Por favor, haz clic en el siguiente enlace para unirte a la transmisión en vivo~

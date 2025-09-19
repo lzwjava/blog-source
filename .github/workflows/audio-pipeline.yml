@@ -1,0 +1,45 @@
+on:
+  workflow_dispatch:
+name: Audio Pipeline
+jobs:
+  audio_pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Authenticate with GCP
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+      - name: Dry run Audio Pipeline
+        id: dry_run_audio
+        run: |
+          DRY_RUN_OUTPUT=$(python audio-pipeline.py --task posts --n 10 --dry_run)
+          FILES_TO_PROCESS=$(echo "$DRY_RUN_OUTPUT" | grep "Total Markdown files to process" | awk '{print $8}')
+
+          if [[ "$FILES_TO_PROCESS" -gt 0 ]]; then
+            echo "audio_updated=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "audio_updated=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Install FFmpeg
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Run Audio Pipeline
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
+        run: |
+          python audio-pipeline.py --task posts --n 10
+
+      - name: Commit generated audio files
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "Add generated audio files"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

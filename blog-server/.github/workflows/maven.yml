@@ -1,0 +1,61 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment: prod
+
+    steps:
+    # Checkout the repository
+    - uses: actions/checkout@v4
+
+    # Set up JDK 21
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
+        cache-dependency-path: pom.xml
+
+    # Install vnstat
+    - name: Install vnstat
+      run: sudo apt-get update && sudo apt-get install -y vnstat
+
+    # Optionally provision a Hetzner Cloud server (uncomment if needed)
+    # - name: Provision Hetzner Cloud Server
+    #   uses: TimDaub/hetzner-cloud-deploy-server-action@v2
+    #   with:
+    #     server-name: "gh-actions-server"
+    #     server-image: "ubuntu-20.04"
+    #     server-type: "cx11"
+    #     server-location: "nbg1"
+    #     ssh-key-name: "my-ssh-key" # Name of SSH key in Hetzner Cloud Console
+    #     hcloud-token: ${{ secrets.HCLOUD_TOKEN }}
+    #     delete-server: false # Keep server after workflow
+    #   env:
+    #     SERVER_IP: ${{ env.SERVER_IPV4 }} # Output from action if provisioning
+
+    # Set up SSH agent
+    - name: Set up SSH
+      uses: webfactory/ssh-agent@v0.4.1
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    # Add server to known hosts
+    - name: Add server to known hosts
+      run: |
+        mkdir -p ~/.ssh
+        ssh-keyscan -H ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
+
+    # Build with Maven
+    - name: Build with Maven
+      run: mvn -B --no-transfer-progress integration-test --file pom.xml
+

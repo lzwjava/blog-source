@@ -1,0 +1,127 @@
+name: Deploy Jekyll
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - 'original/**'
+      - '_posts/**'
+      - '_layouts/**'
+      - '_includes/**'
+      - '_sass/**'
+      - '_config.yml'
+      - '_drafts/**'
+      - '_plugins/**'
+      - 'requirements/**'
+      - 'scripts/translation/**'
+      - 'scripts/llm/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'gh-pages'
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      TELEGRAM_BOT_API_KEY: ${{ secrets.TELEGRAM_BOT_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 5
+
+      - name: Set up Python 3.13.2
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13.2"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements/requirements.txt
+
+      - name: Update Notes Links
+        id: update_notes_links
+        run: |
+          OUTPUT=$(python scripts/generate/update_notes_link.py)
+          if [[ "$OUTPUT" == *"Updated original/2025-01-11-notes-en.md"* ]]; then
+            echo "notes_updated=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "notes_updated=false" >> "$GITHUB_OUTPUT"
+          fi
+      
+      - name: Commit Notes Link Changes
+        if: steps.update_notes_links.outputs.notes_updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add original/2025-01-11-notes-en.md
+          git add _posts/en/*.md
+          git diff --cached --quiet || git commit -m "chore(notes): Update notes links"
+          git push || {
+            echo "Push failed, attempting pull and merge"
+            git pull --rebase
+            git push
+          }
+
+      - name: Update Language Files
+        id: updated_lang_files
+        run: |
+          DRY_RUN_LANG_OUTPUT=$(python scripts/translation/update_lang.py --commits 1000 --dry_run)
+          echo "$DRY_RUN_LANG_OUTPUT"
+          TOTAL_POSTS=$(echo "$DRY_RUN_LANG_OUTPUT" | grep "Total Markdown files to process:" | awk '{print $NF}')
+          echo "Total posts to process: $TOTAL_POSTS"
+
+          if [[ "$TOTAL_POSTS" -eq 0 ]]; then
+            echo "No language files to update."
+          else
+            for i in $(seq 1 "$((2 + TOTAL_POSTS / 9 + (TOTAL_POSTS % 9 != 0)))"); do
+              python scripts/translation/update_lang.py --max_files 9 --model gemini-flash --commits 1000
+              git config user.name "github-actions[bot]"
+              git config user.email "github-actions[bot]@users.noreply.github.com"
+              git add _posts/**/*.md
+              git diff --cached --quiet || git commit -m "chore(lang): Update language files"
+              git push || {
+                echo "Push failed, attempting pull and merge"
+                git pull --rebase
+                git push
+              }
+            done
+          fi
+
+      - name: Run Unit Tests
+        run: python -m unittest discover -s tests/workflow
+
+      - name: Update Release Hash
+        run: python scripts/release/update_release.py
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Send Telegram Message
+        run: |
+          python scripts/bot/telegram_bot.py --job send_message

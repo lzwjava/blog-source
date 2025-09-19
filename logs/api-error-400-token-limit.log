@@ -1,0 +1,4 @@
+  ⎿ API Error: 400 {"error":{"message":"Error from provider: {\"error\":{\"message\":\"This endpoint's maximum context length is 131072 tokens. However, you
+    requested about 183858 tokens (151712 of text input, 10813 of tool input, 21333 in the output). Please reduce the length of either one, or use the
+    \\\"middle-out\\\" transform to compress your prompt
+    automatically.\",\"code\":400,\"metadata\":{\"provider_name\":null}}}","type":"api_error","code":"provider_response_error"}}

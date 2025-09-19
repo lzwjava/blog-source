@@ -1,0 +1,104 @@
+ % catalina run
+Using CATALINA_BASE:   /opt/homebrew/Cellar/tomcat/11.0.9/libexec
+Using CATALINA_HOME:   /opt/homebrew/Cellar/tomcat/11.0.9/libexec
+Using CATALINA_TMPDIR: /opt/homebrew/Cellar/tomcat/11.0.9/libexec/temp
+Using JRE_HOME:        /opt/homebrew/opt/openjdk
+Using CLASSPATH:       /opt/homebrew/Cellar/tomcat/11.0.9/libexec/bin/bootstrap.jar:/opt/homebrew/Cellar/tomcat/11.0.9/libexec/bin/tomcat-juli.jar
+Using CATALINA_OPTS:
+05-Sep-2025 06:38:42.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+05-Sep-2025 06:38:42.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+05-Sep-2025 06:38:42.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+05-Sep-2025 06:38:42.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Sep-2025 06:38:42.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.6.1
+05-Sep-2025 06:38:42.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Sep-2025 06:38:42.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home
+05-Sep-2025 06:38:42.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           24.0.1
+05-Sep-2025 06:38:42.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+05-Sep-2025 06:38:42.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/homebrew/Cellar/tomcat/11.0.9/libexec
+05-Sep-2025 06:38:42.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/homebrew/Cellar/tomcat/11.0.9/libexec
+05-Sep-2025 06:38:42.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/homebrew/Cellar/tomcat/11.0.9/libexec/conf/logging.properties
+05-Sep-2025 06:38:42.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2025 06:38:42.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Sep-2025 06:38:42.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Sep-2025 06:38:42.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2025 06:38:42.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Sep-2025 06:38:42.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2025 06:38:42.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2025 06:38:42.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2025 06:38:42.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2025 06:38:42.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+05-Sep-2025 06:38:42.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/homebrew/Cellar/tomcat/11.0.9/libexec
+05-Sep-2025 06:38:42.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat/11.0.9/libexec
+05-Sep-2025 06:38:42.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/homebrew/Cellar/tomcat/11.0.9/libexec/temp
+05-Sep-2025 06:38:42.496 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/lzwjava/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Sep-2025 06:38:42.624 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Sep-2025 06:38:42.634 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [257] milliseconds
+05-Sep-2025 06:38:42.652 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2025 06:38:42.652 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+05-Sep-2025 06:38:42.656 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/docs]
+05-Sep-2025 06:38:42.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/docs] has finished in [115] ms
+05-Sep-2025 06:38:42.771 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/manager]
+05-Sep-2025 06:38:42.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/manager] has finished in [14] ms
+05-Sep-2025 06:38:42.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/examples]
+05-Sep-2025 06:38:42.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/examples] has finished in [95] ms
+05-Sep-2025 06:38:42.882 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/ROOT]
+05-Sep-2025 06:38:42.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/ROOT] has finished in [9] ms
+05-Sep-2025 06:38:42.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/host-manager]
+05-Sep-2025 06:38:42.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/host-manager] has finished in [8] ms
+05-Sep-2025 06:38:42.901 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Sep-2025 06:38:42.905 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [270] milliseconds
+^C05-Sep-2025 06:38:54.608 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+^C05-Sep-2025 06:38:55.618 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2025 06:38:55.635 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+^C^C^C05-Sep-2025 06:38:56.241 WARNING [Thread-1] org.apache.tomcat.util.net.Acceptor.stopMillis The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+05-Sep-2025 06:38:56.248 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+lzwjava@Zhiweis-MacBook-Air-1255 lzwjava.github.io %
+lzwjava@Zhiweis-MacBook-Air-1255 lzwjava.github.io % catalina run
+Using CATALINA_BASE:   /opt/homebrew/Cellar/tomcat/11.0.9/libexec
+Using CATALINA_HOME:   /opt/homebrew/Cellar/tomcat/11.0.9/libexec
+Using CATALINA_TMPDIR: /opt/homebrew/Cellar/tomcat/11.0.9/libexec/temp
+Using JRE_HOME:        /opt/homebrew/opt/openjdk
+Using CLASSPATH:       /opt/homebrew/Cellar/tomcat/11.0.9/libexec/bin/bootstrap.jar:/opt/homebrew/Cellar/tomcat/11.0.9/libexec/bin/tomcat-juli.jar
+Using CATALINA_OPTS:
+05-Sep-2025 06:39:33.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+05-Sep-2025 06:39:33.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+05-Sep-2025 06:39:33.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+05-Sep-2025 06:39:33.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Sep-2025 06:39:33.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.6.1
+05-Sep-2025 06:39:33.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Sep-2025 06:39:33.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home
+05-Sep-2025 06:39:33.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           24.0.1
+05-Sep-2025 06:39:33.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+05-Sep-2025 06:39:33.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/homebrew/Cellar/tomcat/11.0.9/libexec
+05-Sep-2025 06:39:33.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/homebrew/Cellar/tomcat/11.0.9/libexec
+05-Sep-2025 06:39:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/homebrew/Cellar/tomcat/11.0.9/libexec/conf/logging.properties
+05-Sep-2025 06:39:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2025 06:39:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Sep-2025 06:39:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Sep-2025 06:39:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2025 06:39:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Sep-2025 06:39:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2025 06:39:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2025 06:39:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2025 06:39:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2025 06:39:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+05-Sep-2025 06:39:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/homebrew/Cellar/tomcat/11.0.9/libexec
+05-Sep-2025 06:39:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat/11.0.9/libexec
+05-Sep-2025 06:39:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/homebrew/Cellar/tomcat/11.0.9/libexec/temp
+05-Sep-2025 06:39:33.957 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/lzwjava/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Sep-2025 06:39:34.076 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Sep-2025 06:39:34.086 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [224] milliseconds
+05-Sep-2025 06:39:34.102 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2025 06:39:34.103 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+05-Sep-2025 06:39:34.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/docs]
+05-Sep-2025 06:39:34.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/docs] has finished in [114] ms
+05-Sep-2025 06:39:34.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/manager]
+05-Sep-2025 06:39:34.234 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/manager] has finished in [14] ms
+05-Sep-2025 06:39:34.234 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/examples]
+05-Sep-2025 06:39:34.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/examples] has finished in [87] ms
+05-Sep-2025 06:39:34.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/ROOT]
+05-Sep-2025 06:39:34.329 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/ROOT] has finished in [8] ms
+05-Sep-2025 06:39:34.329 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/host-manager]
+05-Sep-2025 06:39:34.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/homebrew/Cellar/tomcat/11.0.9/libexec/webapps/host-manager] has finished in [7] ms
+05-Sep-2025 06:39:34.338 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Sep-2025 06:39:34.342 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [255] milliseconds

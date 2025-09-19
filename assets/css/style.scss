@@ -1,10 +1,18 @@
+---
 --- 
---- 
+
 
 @import "jekyll-theme-cayman";
 
-@import "cayman-blog";
+@import 'variables';
+@import 'buttons';
+@import 'layout';
+@import 'typography';
+@import 'components';
+@import 'dark-mode';
+@import 'media-queries';
 
 @import "syntax";
 
 @import "syntax-dark";
+@import "text-helper";

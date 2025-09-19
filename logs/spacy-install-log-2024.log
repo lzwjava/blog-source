@@ -1,0 +1,11 @@
+Downloading marisa_trie-1.3.0-cp313-cp313-macosx_11_0_arm64.whl (155 kB)
+Downloading rich-14.1.0-py3-none-any.whl (243 kB)
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Using cached shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Installing collected packages: cymem, wasabi, spacy-loggers, spacy-legacy, smart-open, shellingham, numpy, murmurhash, mdurl, marisa-trie, cloudpathlib, catalogue, srsly, preshed, markdown-it-py, language-data, blis, rich, langcodes, confection, typer, thinc, weasel, spacy
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.26.4
+    Uninstalling numpy-1.26.4:
+      Successfully uninstalled numpy-1.26.4
+Successfully installed blis-1.3.0 catalogue-2.0.10 cloudpathlib-0.21.1 confection-0.1.5 cymem-2.0.11 langcodes-3.5.0 language-data-1.3.0 marisa-trie-1.3.0 markdown-it-py-4.0.0 mdurl-0.1.2 murmurhash-1.0.13 numpy-2.3.2 preshed-3.0.10 rich-14.1.0 shellingham-1.5.4 smart-open-7.3.0.post1 spacy-3.8.7 spacy-legacy-3.0.12 spacy-loggers-1.0.5 srsly-2.5.1 thinc-8.3.6 typer-0.16.1 wasabi-1.1.3 weasel-0.4.1

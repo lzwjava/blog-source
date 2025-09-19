@@ -1,0 +1,91 @@
+% 配置页面边距
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% 高亮颜色
+\colorlet{awesome}{awesome-red}
+
+% 设置章节高亮
+\setbool{acvSectionColorHighlight}{true}
+
+\usepackage{fontspec} 	% 允许设置字体
+\usepackage{xeCJK} 		% 分开设置中英文字型
+\usepackage{ifthen} % For conditional logic
+
+% ====================
+% FONT CONFIGURATION
+% ====================
+% Define a flag to switch between different font sets
+% Set to 'macos' for macOS, 'linux' for Linux, 'windows' for Windows
+\newcommand{\fontsystem}{macos}
+
+% Font definitions for different systems
+\ifthenelse{\equal{\fontsystem}{macos}}{
+    % macOS fonts
+    \newcommand{\cjkmainfont}{PingFang SC}
+    \newcommand{\cjksansfont}{PingFang SC}
+    \newcommand{\cjkmonofont}{PingFang SC}
+    \newcommand{\englishfont}{Times New Roman}
+}{
+    \ifthenelse{\equal{\fontsystem}{linux}}{
+        % Linux fonts (common alternatives)
+        \newcommand{\cjkmainfont}{DejaVu Sans}
+        \newcommand{\cjksansfont}{DejaVu Sans}
+        \newcommand{\cjkmonofont}{DejaVu Sans Mono}        
+        \newcommand{\englishfont}{Liberation Serif}
+    }{
+        % Windows fonts (or fallback)
+        \newcommand{\cjkmainfont}{Microsoft YaHei}
+        \newcommand{\cjksansfont}{Microsoft YaHei}
+        \newcommand{\cjkmonofont}{Microsoft YaHei}
+        \newcommand{\englishfont}{Times New Roman}
+    }
+}
+
+
+\XeTeXlinebreaklocale "zh" 	% 针对中文自动换行
+
+\linespread{1.4}\selectfont 	% 行距
+%-------------------------------------------------------------------------------
+%	个人信息
+%-------------------------------------------------------------------------------
+\photo[circle,noedge,right]{./latex/profile}
+\name{李智维}{}
+\position{全栈工程师{\enskip\cdotp\enskip}后端工程师}
+\address{中国广州黄埔}
+
+\mobile{(+86) 132-6163-0925}
+\email{lzwjava@gmail.com}
+\homepage{lzwjava.github.io}
+\github{lzwjava}
+\linkedin{lzwjava}
+
+\quote{``自由真理"}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% 页眉
+\makecvheader[C]
+
+% 页脚
+\makecvfooter{\today}{李智维~~~·~~~简历}{\thepage}
+
+%-------------------------------------------------------------------------------
+%	简历内容
+%-------------------------------------------------------------------------------
+\input{summary.tex}
+\input{experience.tex}
+\input{education.tex}
+\input{corporateprojects.tex}
+\input{personalprojects.tex}
+\input{blogposts.tex}
+\input{papers.tex}
+\input{books.tex}
+\input{skills.tex}
+\input{tools.tex}
+\input{knowledge.tex}
+\input{certificates.tex}
+\input{links.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}

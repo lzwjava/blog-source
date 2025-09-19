@@ -1,0 +1,102 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+\documentclass[11pt, a4paper]{../awesome-cv}
+
+% 配置页面边距
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% 高亮颜色
+\colorlet{awesome}{awesome-red}
+
+% 设置章节高亮
+\setbool{acvSectionColorHighlight}{true}
+
+% 启用中文支持
+\usepackage{fontspec} 	% 允许设置字体
+\usepackage{xeCJK} 		% 分开设置中英文字型
+\setCJKmainfont{PingFang SC} 	% 设置中文字型
+\setCJKsansfont{PingFang SC} % Sans-serif 字体
+\setCJKmonofont{PingFang SC} % 等宽字体
+\setmainfont{Times New Roman}
+\setromanfont{Times New Roman}
+\setmonofont{Times New Roman}
+\XeTeXlinebreaklocale "zh" 	% 针对中文自动换行
+
+\linespread{1.2}\selectfont 	
+
+%-------------------------------------------------------------------------------
+%	个人信息
+%-------------------------------------------------------------------------------
+\photo[circle,noedge,right]{./awesome-cv/profile}
+\name{李智维}{}
+\position{全栈工程师{\enskip\cdotp\enskip}后端工程师}
+\address{中国广州}
+
+\mobile{(+86) 132-6163-0925}
+\email{lzwjava@gmail.com}
+\homepage{https://lzwjava.github.io}
+\github{lzwjava}
+\linkedin{lzwjava}
+
+\quote{``自由与真理"}
+
+%-------------------------------------------------------------------------------
+%	信件信息
+%-------------------------------------------------------------------------------
+\recipient
+  {招聘团队}
+  {贵公司名称\\贵公司地址}
+\letterdate{\today}
+\lettertitle{全栈工程师职位申请}
+\letteropening{尊敬的招聘经理,}
+\letterclosing{此致,}
+\letterenclosure[附]{简历}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% 页眉
+\makecvheader[C]
+
+% 页脚
+\makecvfooter{\today}{李智维~~~·~~~求职信}{}
+
+% 打印标题
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	信件内容
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{关于我}
+我是李智维，一名技术精湛且充满激情的全栈工程师，拥有丰富的后端开发、云计算和软件工程经验。在过去9.5年中，我参与了金融科技、电子商务和教育等多个行业的项目。我的专长在于使用Java、Spring和MySQL等技术设计和实现可扩展、可靠且高效的解决方案，同时对Vue和React等前端框架也有深入的了解。
+
+\lettersection{为什么选择贵公司？}
+贵公司对创新和卓越的承诺与我的个人和职业价值观高度契合。能够参与那些产生深远影响的项目，与我解决复杂挑战、创造尖端解决方案的目标完美契合。我对贵公司利用现代技术推动业务增长的关注尤为印象深刻，我渴望将我的技能带到贵公司充满活力的团队中。
+
+\lettersection{为什么选择我？}
+我拥有7年多的企业工作经验和2.5年的自由职业经历，具备独特的技术专长和创业精神。我曾在多个项目中从概念到部署全程参与，优化后端系统，并实施CI/CD管道以实现无缝集成。此外，我在AWS、Azure和阿里云上调试云环境的经验丰富，能够很好地应对贵公司的技术挑战。
+
+\lettersection{主要成就}
+\begin{itemize}
+  \item 主导开发了一个知识直播平台，吸引了30,000名用户并举办了80多场讲座，使用了PHP、MySQL和Redis。
+  \item 为HSBC PayMe的自动充值功能做出了贡献，确保了资金转移的顺畅和系统在云迁移期间的可靠性。
+  \item 使用Claude的API、Flask和React开发了一个全面的AI故事机器人，集成了Prometheus和ELK堆栈等现代监控和日志管理工具。
+  \item 撰写了技术博客并参与了编程竞赛，通过在线解决了1,000多个算法问题，提升了问题解决能力。
+\end{itemize}
+
+\lettersection{下一步}
+我对能够为贵公司的成功做出贡献感到非常兴奋。我期待有机会讨论我的技能和经验如何与贵公司的需求相匹配。请查收附上的简历。期待您的回复。
+
+\end{cvletter}
+
+% 打印结尾
+\makeletterclosing
+
+\end{document}

@@ -1,0 +1,13 @@
+[INFO]
+[INFO] <<< jetty:9.4.54.v20240208:run (default-cli) < test-compile @ playground-server <<<
+[INFO]
+[INFO]
+[INFO] --- jetty:9.4.54.v20240208:run (default-cli) @ playground-server ---
+[INFO] Logging initialized @3520ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO] Skipping playground-server : packaging type [jar] is unsupported
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.862 s
+[INFO] Finished at: 2025-09-05T06:46:54+08:00
+[INFO] ------------------------------------------------------------------------

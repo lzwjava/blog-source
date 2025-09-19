@@ -1,0 +1,134 @@
+  Stored in directory: /home/lzwjava/.cache/pip/wheels/4f/bd/ed/9afa297451fb1689b9da4bad08f2efe55acffb65c33eb19d69
+  DEPRECATION: Building 'xformers' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file to the source tree of 'xformers'. Discussion can be found at https://github.com/pypa/pip/issues/6334
+  Building wheel for xformers (setup.py) ... done
+  Created wheel for xformers: filename=xformers-0.0.29.post2-cp313-cp313-linux_x86_64.whl size=10073089 sha256=2be1ce7bcf3f51c0ab50425dcf83a1afecb9f82171b51406043be738d93c7888
+  Stored in directory: /home/lzwjava/.cache/pip/wheels/ff/66/14/945f3573b8d0660ed4130a560a4c151c9e13b78f973963d498
+  DEPRECATION: Building 'sentencepiece' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file to the source tree of 'sentencepiece'. Discussion can be found at https://github.com/pypa/pip/issues/6334
+  Building wheel for sentencepiece (setup.py) ... error
+  error: subprocess-exited-with-error
+  
+  × python setup.py bdist_wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [111 lines of output]
+      /home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'test_suite'
+        warnings.warn(msg)
+      /home/lzwjava/.local/lib/python3.13/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+      
+              ********************************************************************************
+              Please consider removing the following classifiers in favor of a SPDX license expression:
+      
+              License :: OSI Approved :: Apache Software License
+      
+              See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+              ********************************************************************************
+      
+      !!
+        self._finalize_license_expression()
+      running bdist_wheel
+      running build
+      running build_py
+      creating build/lib.linux-x86_64-cpython-313/sentencepiece
+      copying src/sentencepiece/__init__.py -> build/lib.linux-x86_64-cpython-313/sentencepiece
+      copying src/sentencepiece/_version.py -> build/lib.linux-x86_64-cpython-313/sentencepiece
+      copying src/sentencepiece/sentencepiece_model_pb2.py -> build/lib.linux-x86_64-cpython-313/sentencepiece
+      copying src/sentencepiece/sentencepiece_pb2.py -> build/lib.linux-x86_64-cpython-313/sentencepiece
+      running build_ext
+      Package sentencepiece was not found in the pkg-config search path.
+      Perhaps you should add the directory containing `sentencepiece.pc'
+      to the PKG_CONFIG_PATH environment variable
+      Package 'sentencepiece', required by 'virtual:world', not found
+      ./build_bundled.sh: 21: cmake: not found
+      ./build_bundled.sh: 22: cmake: not found
+      Traceback (most recent call last):
+        File "<string>", line 2, in <module>
+          exec(compile('''
+          ~~~~^^^^^^^^^^^^
+          # This is <pip-setuptools-caller> -- a caller that pip uses to run setup.py
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          ...<32 lines>...
+          exec(compile(setup_py_code, filename, "exec"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          ''' % ('/tmp/pip-install-khpjy8ne/sentencepiece_46b5477d29454c79aae7846d91a9d053/setup.py',), "<pip-setuptools-caller>", "exec"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "<pip-setuptools-caller>", line 35, in <module>
+        File "/tmp/pip-install-khpjy8ne/sentencepiece_46b5477d29454c79aae7846d91a9d053/setup.py", line 169, in <module>
+          setup(
+          ~~~~~^
+              name='sentencepiece',
+              ^^^^^^^^^^^^^^^^^^^^^
+          ...<29 lines>...
+              test_suite='sentencepiece_test.suite',
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          )
+          ^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/__init__.py", line 115, in setup
+          return distutils.core.setup(**attrs)
+                 ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/core.py", line 186, in setup
+          return run_commands(dist)
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+          dist.run_commands()
+          ~~~~~~~~~~~~~~~~~^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+          self.run_command(cmd)
+          ~~~~~~~~~~~~~~~~^^^^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/dist.py", line 1102, in run_command
+          super().run_command(command)
+          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+          cmd_obj.run()
+          ~~~~~~~~~~~^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/command/bdist_wheel.py", line 370, in run
+          self.run_command("build")
+          ~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/cmd.py", line 357, in run_command
+          self.distribution.run_command(command)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/dist.py", line 1102, in run_command
+          super().run_command(command)
+          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+          cmd_obj.run()
+          ~~~~~~~~~~~^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/command/build.py", line 135, in run
+          self.run_command(cmd_name)
+          ~~~~~~~~~~~~~~~~^^^^^^^^^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/cmd.py", line 357, in run_command
+          self.distribution.run_command(command)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/dist.py", line 1102, in run_command
+          super().run_command(command)
+          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+          cmd_obj.run()
+          ~~~~~~~~~~~^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/command/build_ext.py", line 96, in run
+          _build_ext.run(self)
+          ~~~~~~~~~~~~~~^^^^^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/command/build_ext.py", line 368, in run
+          self.build_extensions()
+          ~~~~~~~~~~~~~~~~~~~~~^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/command/build_ext.py", line 484, in build_extensions
+          self._build_extensions_serial()
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+        File "/home/lzwjava/.local/lib/python3.13/site-packages/setuptools/_distutils/command/build_ext.py", line 510, in _build_extensions_serial
+          self.build_extension(ext)
+          ~~~~~~~~~~~~~~~~~~~~^^^^^
+        File "/tmp/pip-install-khpjy8ne/sentencepiece_46b5477d29454c79aae7846d91a9d053/setup.py", line 87, in build_extension
+          subprocess.check_call(['./build_bundled.sh', __version__])
+          ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/lib/python3.13/subprocess.py", line 419, in check_call
+          raise CalledProcessError(retcode, cmd)
+      subprocess.CalledProcessError: Command '['./build_bundled.sh', '0.2.0']' returned non-zero exit status 127.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for sentencepiece
+  Running setup.py clean for sentencepiece
+Successfully built outlines_core xformers
+Failed to build sentencepiece
+error: failed-wheel-build-for-install
+
+× Failed to build installable wheels for some pyproject.toml based projects
+╰─> sentencepiece

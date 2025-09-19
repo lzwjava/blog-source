@@ -1,0 +1,45 @@
+Traceback (most recent call last):
+  File "/Users/lzwjava/projects/lzwjava.github.io/scripts/imagen/imagen.py", line 10, in <module>
+    response = client.models.generate_images(
+        model="imagen-4.0-generate-preview-06-06",
+    ...<7 lines>...
+        )
+    )
+  File "/opt/homebrew/lib/python3.13/site-packages/google/genai/models.py", line 6077, in generate_images
+    api_response = self._generate_images(
+        model=model,
+        prompt=prompt,
+        config=config,
+    )
+  File "/opt/homebrew/lib/python3.13/site-packages/google/genai/models.py", line 5014, in _generate_images
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "/opt/homebrew/lib/python3.13/site-packages/google/genai/_api_client.py", line 1177, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "/opt/homebrew/lib/python3.13/site-packages/google/genai/_api_client.py", line 997, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.13/site-packages/tenacity/__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/opt/homebrew/lib/python3.13/site-packages/tenacity/__init__.py", line 376, in iter
+    result = action(retry_state)
+  File "/opt/homebrew/lib/python3.13/site-packages/tenacity/__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/lib/python3.13/site-packages/tenacity/__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/homebrew/lib/python3.13/site-packages/tenacity/__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+  File "/opt/homebrew/lib/python3.13/site-packages/google/genai/_api_client.py", line 974, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.13/site-packages/google/genai/errors.py", line 105, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Only block_low_and_above is supported for safetySetting.', 'status': 'INVALID_ARGUMENT'}}

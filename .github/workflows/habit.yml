@@ -1,0 +1,64 @@
+name: Habit
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+
+  workflow_dispatch:
+    # Allow manual trigger for testing
+    inputs:
+      message:
+        description: 'Custom message for testing (optional)'
+        required: false
+        default: 'Test message from GitHub Actions.'
+      job:
+        description: 'Job to run (optional)'
+        required: false
+        default: 'send_message'
+
+  push:
+    branches: ["main"]
+    paths:
+      - 'scripts/bot/habit_bot.py'
+      - '.github/workflows/habit_reminder.yml'
+
+concurrency:
+  group: 'habit_reminder'
+  cancel-in-progress: false
+
+jobs:
+  habit_reminder_job:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    env:
+      TELEGRAM_HABIT_BOT_API_KEY: ${{ secrets.TELEGRAM_HABIT_BOT_API_KEY }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}      
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 5
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements/requirements.txt
+
+      - name: Run habit reminder script (Scheduled)
+        run: python scripts/bot/habit_bot.py --job send_reminder
+        if: github.event_name == 'schedule'
+
+      - name: Run habit reminder script (Manual Trigger)
+        run: python scripts/bot/habit_bot.py --job ${{ github.event.inputs.job }} --message "${{ github.event.inputs.message }}"
+        if: github.event_name == 'workflow_dispatch'
+
+      - name: Notify on push to main branch
+        run: python scripts/bot/habit_bot.py --job send_message --message "Code changes for habit bot pushed to main branch."
+        if: github.event_name == 'push'

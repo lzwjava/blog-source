@@ -1,0 +1,21 @@
+{
+  "content": "Experience unparalleled sound quality with our wireless noise-cancelling headphones. Dive into a world where only your music matters, with advanced noise-cancelling technology that blocks out distractions. Enjoy the freedom of wireless connectivity, offering seamless audio play and total comfort. These headphones are not just an accessory, they're a lifestyle upgrade. Tune out the world and tune into your personal sound oasis.",
+  "metadata": {
+    "usage": {
+      "completion_tokens": 76,
+      "prompt_tokens": 24,
+      "total_tokens": 100,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    },
+    "model": "openai/gpt-4"
+  }
+}

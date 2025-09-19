@@ -1,0 +1,30 @@
+      -- Install configuration: ""
+      -- Installing: /tmp/pip-install-gb9dnlw9/sentencepiece_1f7e6a67a7c849748a99459c2f977204/build/root/lib/pkgconfig/sentencepiece.pc
+      -- Installing: /tmp/pip-install-gb9dnlw9/sentencepiece_1f7e6a67a7c849748a99459c2f977204/build/root/lib/libsentencepiece.a
+      -- Installing: /tmp/pip-install-gb9dnlw9/sentencepiece_1f7e6a67a7c849748a99459c2f977204/build/root/lib/libsentencepiece_train.a
+      -- Installing: /tmp/pip-install-gb9dnlw9/sentencepiece_1f7e6a67a7c849748a99459c2f977204/build/root/bin/spm_encode
+      -- Installing: /tmp/pip-install-gb9dnlw9/sentencepiece_1f7e6a67a7c849748a99459c2f977204/build/root/bin/spm_decode
+      -- Installing: /tmp/pip-install-gb9dnlw9/sentencepiece_1f7e6a67a7c849748a99459c2f977204/build/root/bin/spm_normalize
+      -- Installing: /tmp/pip-install-gb9dnlw9/sentencepiece_1f7e6a67a7c849748a99459c2f977204/build/root/bin/spm_train
+      -- Installing: /tmp/pip-install-gb9dnlw9/sentencepiece_1f7e6a67a7c849748a99459c2f977204/build/root/bin/spm_export_vocab
+      -- Installing: /tmp/pip-install-gb9dnlw9/sentencepiece_1f7e6a67a7c849748a99459c2f977204/build/root/include/sentencepiece_trainer.h
+      -- Installing: /tmp/pip-install-gb9dnlw9/sentencepiece_1f7e6a67a7c849748a99459c2f977204/build/root/include/sentencepiece_processor.h
+      ## cflags=-std=c++17 -I./build/root/include -Wl,-strip-all
+      ## libs=./build/root/lib/libsentencepiece.a ./build/root/lib/libsentencepiece_train.a -Wl,-strip-all -Wl,-Bsymbolic
+      building 'sentencepiece._sentencepiece' extension
+      creating build/temp.linux-x86_64-cpython-313/src/sentencepiece
+      x86_64-linux-gnu-g++ -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O2 -Wall -g -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -g -fwrapv -O2 -fPIC -I/usr/include/python3.13 -c src/sentencepiece/sentencepiece_wrap.cxx -o build/temp.linux-x86_64-cpython-313/src/sentencepiece/sentencepiece_wrap.o -std=c++17 -I./build/root/include -Wl,-strip-all
+      src/sentencepiece/sentencepiece_wrap.cxx:168:11: fatal error: Python.h: No such file or directory
+        168 | # include <Python.h>
+            |           ^~~~~~~~~~
+      compilation terminated.
+      error: command '/usr/bin/x86_64-linux-gnu-g++' failed with exit code 1
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for sentencepiece
+Failed to build sentencepiece
+error: failed-wheel-build-for-install
+
+× Failed to build installable wheels for some pyproject.toml based projects
+╰─> sentencepiece

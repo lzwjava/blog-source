@@ -1,0 +1,72 @@
+/* Buttons */
+.btn {
+    width: 8rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.25rem;
+
+    .button {
+        padding: $button-padding;
+        text-decoration: none;
+        border-radius: 0.25rem;
+        text-align: center;
+
+        &.left-button {
+            align-self: flex-start;
+        }
+
+        &.right-button {
+            align-self: flex-end;
+        }
+    }
+
+    .model {
+        flex: 1;
+        text-align: center;
+        margin: 0;
+        align-self: center;
+        opacity: 0.9;
+    }
+}
+
+.audio-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 0.5rem;
+
+    p {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+.icon-button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    line-height: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        display: block;
+    }
+}

@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>My Conversation Podcast</title>
+    <link>https://lzwjava.github.io/</link>
+    <description>A podcast with conversation audio files.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 May 2025 15:18:57 +0000</lastBuildDate>
+    <item>
+      <title>Digital Electronics</title>
+      <link>https://lzwjava.github.io/assets/conversations/digital-electronics.mp3</link>
+      <description>Conversation: Digital Electronics</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/digital-electronics.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/digital-electronics.mp3" length="2749389" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Java Packages</title>
+      <link>https://lzwjava.github.io/assets/conversations/java-packages.mp3</link>
+      <description>Conversation: Java Packages</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/java-packages.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/java-packages.mp3" length="1879916" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer Networks</title>
+      <link>https://lzwjava.github.io/assets/conversations/computer-networks.mp3</link>
+      <description>Conversation: Computer Networks</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/computer-networks.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/computer-networks.mp3" length="4192076" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer Networks Note</title>
+      <link>https://lzwjava.github.io/assets/conversations/computer-networks-note.mp3</link>
+      <description>Conversation: Computer Networks Note</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/computer-networks-note.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/computer-networks-note.mp3" length="3353517" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deepseek R1</title>
+      <link>https://lzwjava.github.io/assets/conversations/deepseek-r1.mp3</link>
+      <description>Conversation: Deepseek R1</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/deepseek-r1.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/deepseek-r1.mp3" length="3662636" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer Organization Note</title>
+      <link>https://lzwjava.github.io/assets/conversations/computer-organization-note.mp3</link>
+      <description>Conversation: Computer Organization Note</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/computer-organization-note.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/computer-organization-note.mp3" length="2047725" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linear Algebra Quiz</title>
+      <link>https://lzwjava.github.io/assets/conversations/linear-algebra-quiz.mp3</link>
+      <description>Conversation: Linear Algebra Quiz</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/linear-algebra-quiz.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/linear-algebra-quiz.mp3" length="7664013" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer Organization</title>
+      <link>https://lzwjava.github.io/assets/conversations/computer-organization.mp3</link>
+      <description>Conversation: Computer Organization</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/computer-organization.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/computer-organization.mp3" length="8023532" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ml</title>
+      <link>https://lzwjava.github.io/assets/conversations/ml.mp3</link>
+      <description>Conversation: Ml</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/ml.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/ml.mp3" length="1087916" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linear Algebra Plus</title>
+      <link>https://lzwjava.github.io/assets/conversations/linear-algebra-plus.mp3</link>
+      <description>Conversation: Linear Algebra Plus</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/linear-algebra-plus.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/linear-algebra-plus.mp3" length="5990925" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Basic Electronics</title>
+      <link>https://lzwjava.github.io/assets/conversations/basic-electronics.mp3</link>
+      <description>Conversation: Basic Electronics</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/basic-electronics.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/basic-electronics.mp3" length="5125292" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microcomputer Note</title>
+      <link>https://lzwjava.github.io/assets/conversations/microcomputer-note.mp3</link>
+      <description>Conversation: Microcomputer Note</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/microcomputer-note.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/microcomputer-note.mp3" length="3503373" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Electronics Note</title>
+      <link>https://lzwjava.github.io/assets/conversations/electronics-note.mp3</link>
+      <description>Conversation: Electronics Note</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/electronics-note.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/electronics-note.mp3" length="8067981" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:18:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linear Algebra</title>
+      <link>https://lzwjava.github.io/assets/conversations/linear-algebra.mp3</link>
+      <description>Conversation: Linear Algebra</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/linear-algebra.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/linear-algebra.mp3" length="5263628" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deepseek</title>
+      <link>https://lzwjava.github.io/assets/conversations/deepseek.mp3</link>
+      <description>Conversation: Deepseek</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/deepseek.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/deepseek.mp3" length="5469356" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Basic Electronics Note</title>
+      <link>https://lzwjava.github.io/assets/conversations/basic-electronics-note.mp3</link>
+      <description>Conversation: Basic Electronics Note</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/basic-electronics-note.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/basic-electronics-note.mp3" length="3702381" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microcomputer Dive</title>
+      <link>https://lzwjava.github.io/assets/conversations/microcomputer-dive.mp3</link>
+      <description>Conversation: Microcomputer Dive</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/microcomputer-dive.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/microcomputer-dive.mp3" length="1934541" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microcomputer</title>
+      <link>https://lzwjava.github.io/assets/conversations/microcomputer.mp3</link>
+      <description>Conversation: Microcomputer</description>
+      <guid isPermaLink="false">https://lzwjava.github.io/assets/conversations/microcomputer.mp3</guid>
+      <enclosure url="https://lzwjava.github.io/assets/conversations/microcomputer.mp3" length="3949964" type="audio/mpeg"/>
+      <pubDate>Tue, 13 May 2025 15:04:23 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+name: Punch Card Reminders
+
+on:
+# on:
+#   schedule:
+#     # Run every 30 minutes (0 and 30 minutes past the hour) from 4-7 AM and 10 AM-1 PM UTC, Wed-Fri
+#     # 4-7 AM UTC = 12 PM-3 PM SGT, 10 AM-1 PM UTC = 6 PM-9 PM SGT
+#     - cron: '0,30 4-7,10-13 * * 3-5'
+
+  workflow_dispatch:
+    inputs:
+      job_name:
+        description: 'Job to run (punch_reminder, send_message)'
+        required: true
+        default: 'punch_reminder'
+      message:
+        description: 'Custom message for send_message job (optional)'
+        required: false
+        default: 'This is a manual trigger test message. Use "punch_in" or "punch_out" to record your punches.'
+      punch_in_start:
+        description: 'Punch in start hour (HH, optional, default 12)'
+        required: false
+        default: '12'
+      punch_in_end:
+        description: 'Punch in end hour (HH, optional, default 15)'
+        required: false
+        default: '15'
+      punch_out_start:
+        description: 'Punch out start hour (HH, optional, default 18)'
+        required: false
+        default: '18'
+      punch_out_end:
+        description: 'Punch out end hour (HH, optional, default 21)'
+        required: false
+        default: '21'
+
+  push:
+    branches: ["main"]
+    paths:
+      - 'scripts/bot/punch_bot.py'
+      - '.github/workflows/punch.yml'
+
+concurrency:
+  group: 'punch'
+  cancel-in-progress: false
+
+jobs:
+  punch_reminder_job:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    env:
+      TELEGRAM_PUNCH_BOT_API_KEY: ${{ secrets.TELEGRAM_PUNCH_BOT_API_KEY }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 5
+
+    - name: Set up Python 3.13.2
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.13.2"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements/requirements.simple.txt
+
+    - name: Run punch reminder script (Scheduled)
+      run: python scripts/bot/punch_bot.py --job punch_reminder
+      if: github.event_name == 'schedule'
+
+    - name: Run punch reminder script (Manual Trigger)
+      run: python scripts/bot/punch_bot.py --job punch_reminder --punch_in_start "${{ github.event.inputs.punch_in_start }}" --punch_in_end "${{ github.event.inputs.punch_in_end }}" --punch_out_start "${{ github.event.inputs.punch_out_start }}" --punch_out_end "${{ github.event.inputs.punch_out_end }}"
+      if: github.event_name == 'workflow_dispatch' && github.event.inputs.job_name == 'punch_reminder'
+
+    - name: Run Telegram script for custom message (Manual Trigger)
+      run: python scripts/bot/punch_bot.py --job send_message --message "${{ github.event.inputs.message }}"
+      if: github.event_name == 'workflow_dispatch' && github.event.inputs.job_name == 'send_message'
+
+    - name: Notify on push to main branch
+      run: python scripts/bot/punch_bot.py --job send_message --message "Code changes for punch bot pushed to main branch."
+      if: github.event_name == 'push'

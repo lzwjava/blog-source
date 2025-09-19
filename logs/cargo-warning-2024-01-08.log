@@ -1,0 +1,23 @@
+warning: the cargo feature `edition2024` has been stabilized in the 1.85 release and is no longer necessary to be listed in the manifest
+  See https://doc.rust-lang.org/cargo/reference/manifest.html#the-edition-field for more information about using this feature.
+   Compiling example v0.1.0 (/Users/lzwjava/projects/lzwjava.github.io/rust)
+    Building [=======================> ] 118/119: example(bin)
+warning: unused import: `StatusCode`
+ --> src/main.rs:1:23
+  |
+1 | use reqwest::{Client, StatusCode};
+  |                       ^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+error[E0728]: `await` is only allowed inside `async` functions and blocks
+  --> src/main.rs:81:62
+   |
+80 | pub fn main() {
+   | ------------- this is not `async`
+81 |     let response = call_mistral_api("Hello", "mistral-tiny").await;
+   |                                                              ^^^^^ only allowed inside `async` functions and blocks
+
+For more information about this error, try `rustc --explain E0728`.
+warning: `example` (bin "example") generated 1 warning
+error: could not compile `example` (bin "example") due to 1 previous error; 1 warning emitted

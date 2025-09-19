@@ -1,0 +1,30 @@
+@media screen and (max-width: 48em) {
+    .page-header .btn {
+        width: 100%;
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: row;
+    }
+
+    .btn {
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .project-name {
+        font-size: 1.0rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .row {
+        padding: 0 12rem;
+    }
+}

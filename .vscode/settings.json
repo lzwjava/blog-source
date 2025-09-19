@@ -1,0 +1,14 @@
+{
+  "rust-analyzer.linkedProjects": [
+    "rust/Cargo.toml"
+  ],
+  "search.exclude": {
+    "**/_posts": true,
+    "**/assets/pdfs": true,
+    "**/_site": true
+  },
+  "search.useIgnoreFiles": false,
+  "chatgpt.openOnStartup": true,
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "interactive"
+}

@@ -1,0 +1,16 @@
+markdown
+beautifulsoup4
+pydub
+openai
+python-dotenv
+PyYAML
+requests
+gitpython
+python-frontmatter
+datasets
+mistralai
+ruamel.yaml
+pydo
+supabase
+cffi
+langid

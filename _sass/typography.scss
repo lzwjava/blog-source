@@ -1,0 +1,105 @@
+/* Body */
+body {
+    line-height: 1.4;
+    background-color: $main-bg-color;
+
+    font-family: Menlo, Monaco, "Helvetica Neue", Helvetica, "PingFangSC-Regular", "Microsoft YaHei", SimSun, serif; 
+
+    @include small {
+        // font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+        font-family: Menlo, "Helvetica Neue", Helvetica, "PingFangSC-Regular", SimSun, serif;
+        // font-family: "Newsreader", serif;
+    }
+
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 0;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 60rem;
+    margin: 0 auto !important;
+
+    h6,
+    blockquote {
+        color: $section-headings-color;
+    }
+
+    hr {
+        background-color: #eff0f1;
+    }
+
+    a {
+        color: $light-section-link-color;
+    }
+}
+
+.highlight {
+    background-color: $main-bg-color;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+    color: $light-section-link-color;
+}
+
+/* Date and Title */
+.date {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #555;
+
+    @include small {
+        display: inline-block;
+        font-size: 0.8rem;
+    }
+}
+
+.type {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #555;
+    width: 2.5rem;
+
+    @include small {
+        display: inline-block;
+        font-size: 0.8rem;
+    }
+}
+
+.title {
+    margin-bottom: 0 !important;
+    font-size: 1.0rem;
+    display: inline-block;
+
+    @include small {
+        display: block;
+        font-size: 1.0rem;
+    }
+}
+
+/* Circular Image */
+.circular-image {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+    }
+}
+
+// ul,
+// ol {
+//     padding-inline-start: 20px;
+// }

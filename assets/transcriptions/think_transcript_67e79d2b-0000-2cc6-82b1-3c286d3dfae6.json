@@ -1,0 +1,720 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "transcript": "Here's To The Crazy Ones The Misfits the Rebels the troublemakers the round pegs in the square holes the ones who see things differently they're not fond of rules and they have no respect for the status quo",
+                    "confidence": 0.95684826,
+                    "words": [
+                        {
+                            "startOffset": "1s",
+                            "endOffset": "4.200s",
+                            "word": "Here's",
+                            "confidence": 0.8265989
+                        },
+                        {
+                            "startOffset": "4.200s",
+                            "endOffset": "4.400s",
+                            "word": "To",
+                            "confidence": 0.9994259
+                        },
+                        {
+                            "startOffset": "4.400s",
+                            "endOffset": "4.400s",
+                            "word": "The",
+                            "confidence": 0.9994259
+                        },
+                        {
+                            "startOffset": "4.400s",
+                            "endOffset": "4.900s",
+                            "word": "Crazy",
+                            "confidence": 0.9975712
+                        },
+                        {
+                            "startOffset": "4.900s",
+                            "endOffset": "5.100s",
+                            "word": "Ones",
+                            "confidence": 0.9904002
+                        },
+                        {
+                            "startOffset": "5.100s",
+                            "endOffset": "6.700s",
+                            "word": "The",
+                            "confidence": 0.9994307
+                        },
+                        {
+                            "startOffset": "6.700s",
+                            "endOffset": "7.200s",
+                            "word": "Misfits",
+                            "confidence": 0.9352707
+                        },
+                        {
+                            "startOffset": "7.200s",
+                            "endOffset": "8.400s",
+                            "word": "the",
+                            "confidence": 0.99881697
+                        },
+                        {
+                            "startOffset": "8.400s",
+                            "endOffset": "8.800s",
+                            "word": "Rebels",
+                            "confidence": 0.9900544
+                        },
+                        {
+                            "startOffset": "8.800s",
+                            "endOffset": "10.300s",
+                            "word": "the",
+                            "confidence": 0.99904335
+                        },
+                        {
+                            "startOffset": "10.300s",
+                            "endOffset": "10.700s",
+                            "word": "troublemakers",
+                            "confidence": 0.8105923
+                        },
+                        {
+                            "startOffset": "10.700s",
+                            "endOffset": "12.300s",
+                            "word": "the",
+                            "confidence": 0.9990018
+                        },
+                        {
+                            "startOffset": "12.300s",
+                            "endOffset": "12.700s",
+                            "word": "round",
+                            "confidence": 0.9216535
+                        },
+                        {
+                            "startOffset": "12.700s",
+                            "endOffset": "13.200s",
+                            "word": "pegs",
+                            "confidence": 0.9622123
+                        },
+                        {
+                            "startOffset": "13.200s",
+                            "endOffset": "13.200s",
+                            "word": "in",
+                            "confidence": 0.25686455
+                        },
+                        {
+                            "startOffset": "13.200s",
+                            "endOffset": "13.300s",
+                            "word": "the",
+                            "confidence": 0.9970734
+                        },
+                        {
+                            "startOffset": "13.300s",
+                            "endOffset": "13.700s",
+                            "word": "square",
+                            "confidence": 0.9814874
+                        },
+                        {
+                            "startOffset": "13.700s",
+                            "endOffset": "14.100s",
+                            "word": "holes",
+                            "confidence": 0.97125596
+                        },
+                        {
+                            "startOffset": "14.100s",
+                            "endOffset": "15.900s",
+                            "word": "the",
+                            "confidence": 0.99880636
+                        },
+                        {
+                            "startOffset": "15.900s",
+                            "endOffset": "16.400s",
+                            "word": "ones",
+                            "confidence": 0.99215823
+                        },
+                        {
+                            "startOffset": "16.400s",
+                            "endOffset": "16.500s",
+                            "word": "who",
+                            "confidence": 0.9917322
+                        },
+                        {
+                            "startOffset": "16.500s",
+                            "endOffset": "16.900s",
+                            "word": "see",
+                            "confidence": 0.98389345
+                        },
+                        {
+                            "startOffset": "16.900s",
+                            "endOffset": "17.300s",
+                            "word": "things",
+                            "confidence": 0.99473774
+                        },
+                        {
+                            "startOffset": "17.300s",
+                            "endOffset": "17.700s",
+                            "word": "differently",
+                            "confidence": 0.9889964
+                        },
+                        {
+                            "startOffset": "17.700s",
+                            "endOffset": "19.200s",
+                            "word": "they're",
+                            "confidence": 0.9137467
+                        },
+                        {
+                            "startOffset": "19.200s",
+                            "endOffset": "19.300s",
+                            "word": "not",
+                            "confidence": 0.99726534
+                        },
+                        {
+                            "startOffset": "19.300s",
+                            "endOffset": "19.700s",
+                            "word": "fond",
+                            "confidence": 0.98852974
+                        },
+                        {
+                            "startOffset": "19.700s",
+                            "endOffset": "19.900s",
+                            "word": "of",
+                            "confidence": 0.97282416
+                        },
+                        {
+                            "startOffset": "19.900s",
+                            "endOffset": "20.100s",
+                            "word": "rules",
+                            "confidence": 0.98936254
+                        },
+                        {
+                            "startOffset": "20.100s",
+                            "endOffset": "20.500s",
+                            "word": "and",
+                            "confidence": 0.9966665
+                        },
+                        {
+                            "startOffset": "20.500s",
+                            "endOffset": "20.700s",
+                            "word": "they",
+                            "confidence": 0.9983006
+                        },
+                        {
+                            "startOffset": "20.700s",
+                            "endOffset": "20.900s",
+                            "word": "have",
+                            "confidence": 0.9980139
+                        },
+                        {
+                            "startOffset": "20.900s",
+                            "endOffset": "21.200s",
+                            "word": "no",
+                            "confidence": 0.9993838
+                        },
+                        {
+                            "startOffset": "21.200s",
+                            "endOffset": "21.700s",
+                            "word": "respect",
+                            "confidence": 0.99780095
+                        },
+                        {
+                            "startOffset": "21.700s",
+                            "endOffset": "21.900s",
+                            "word": "for",
+                            "confidence": 0.9990211
+                        },
+                        {
+                            "startOffset": "21.900s",
+                            "endOffset": "22.200s",
+                            "word": "the",
+                            "confidence": 0.9980344
+                        },
+                        {
+                            "startOffset": "22.200s",
+                            "endOffset": "22.400s",
+                            "word": "status",
+                            "confidence": 0.98311806
+                        },
+                        {
+                            "startOffset": "22.400s",
+                            "endOffset": "22.900s",
+                            "word": "quo",
+                            "confidence": 0.9416633
+                        }
+                    ]
+                }
+            ],
+            "resultEndOffset": "23.780s",
+            "languageCode": "en-us"
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " you can quote them disagree with them",
+                    "confidence": 0.99477464,
+                    "words": [
+                        {
+                            "startOffset": "24.700s",
+                            "endOffset": "24.800s",
+                            "word": "you",
+                            "confidence": 0.9947631
+                        },
+                        {
+                            "startOffset": "24.800s",
+                            "endOffset": "24.900s",
+                            "word": "can",
+                            "confidence": 0.9988989
+                        },
+                        {
+                            "startOffset": "24.900s",
+                            "endOffset": "25.200s",
+                            "word": "quote",
+                            "confidence": 0.9892224
+                        },
+                        {
+                            "startOffset": "25.200s",
+                            "endOffset": "25.500s",
+                            "word": "them",
+                            "confidence": 0.99429536
+                        },
+                        {
+                            "startOffset": "25.500s",
+                            "endOffset": "26.300s",
+                            "word": "disagree",
+                            "confidence": 0.9958764
+                        },
+                        {
+                            "startOffset": "26.300s",
+                            "endOffset": "26.500s",
+                            "word": "with",
+                            "confidence": 0.99711204
+                        },
+                        {
+                            "startOffset": "26.500s",
+                            "endOffset": "26.700s",
+                            "word": "them",
+                            "confidence": 0.9932541
+                        }
+                    ]
+                }
+            ],
+            "resultEndOffset": "27.450s",
+            "languageCode": "en-us"
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " glorify or vilify them",
+                    "confidence": 0.9693383,
+                    "words": [
+                        {
+                            "startOffset": "27.600s",
+                            "endOffset": "28.200s",
+                            "word": "glorify",
+                            "confidence": 0.97063875
+                        },
+                        {
+                            "startOffset": "28.200s",
+                            "endOffset": "28.400s",
+                            "word": "or",
+                            "confidence": 0.9692522
+                        },
+                        {
+                            "startOffset": "28.400s",
+                            "endOffset": "28.900s",
+                            "word": "vilify",
+                            "confidence": 0.98128927
+                        },
+                        {
+                            "startOffset": "28.900s",
+                            "endOffset": "29.100s",
+                            "word": "them",
+                            "confidence": 0.9561729
+                        }
+                    ]
+                }
+            ],
+            "resultEndOffset": "29.830s",
+            "languageCode": "en-us"
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " about the only thing you can't do is ignore them",
+                    "confidence": 0.9827321,
+                    "words": [
+                        {
+                            "startOffset": "30.600s",
+                            "endOffset": "30.800s",
+                            "word": "about",
+                            "confidence": 0.94015414
+                        },
+                        {
+                            "startOffset": "30.800s",
+                            "endOffset": "30.900s",
+                            "word": "the",
+                            "confidence": 0.9873207
+                        },
+                        {
+                            "startOffset": "30.900s",
+                            "endOffset": "31.200s",
+                            "word": "only",
+                            "confidence": 0.9966026
+                        },
+                        {
+                            "startOffset": "31.200s",
+                            "endOffset": "31.300s",
+                            "word": "thing",
+                            "confidence": 0.987531
+                        },
+                        {
+                            "startOffset": "31.300s",
+                            "endOffset": "31.500s",
+                            "word": "you",
+                            "confidence": 0.9967844
+                        },
+                        {
+                            "startOffset": "31.500s",
+                            "endOffset": "31.900s",
+                            "word": "can't",
+                            "confidence": 0.96623033
+                        },
+                        {
+                            "startOffset": "31.900s",
+                            "endOffset": "32.200s",
+                            "word": "do",
+                            "confidence": 0.994728
+                        },
+                        {
+                            "startOffset": "32.200s",
+                            "endOffset": "32.600s",
+                            "word": "is",
+                            "confidence": 0.9939341
+                        },
+                        {
+                            "startOffset": "32.600s",
+                            "endOffset": "33s",
+                            "word": "ignore",
+                            "confidence": 0.9918704
+                        },
+                        {
+                            "startOffset": "33s",
+                            "endOffset": "33.200s",
+                            "word": "them",
+                            "confidence": 0.9721654
+                        }
+                    ]
+                }
+            ],
+            "resultEndOffset": "33.960s",
+            "languageCode": "en-us"
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " because they change things they push the human race forward",
+                    "confidence": 0.945545,
+                    "words": [
+                        {
+                            "startOffset": "34.200s",
+                            "endOffset": "34.400s",
+                            "word": "because",
+                            "confidence": 0.7927562
+                        },
+                        {
+                            "startOffset": "34.400s",
+                            "endOffset": "34.700s",
+                            "word": "they",
+                            "confidence": 0.99531806
+                        },
+                        {
+                            "startOffset": "34.700s",
+                            "endOffset": "35.200s",
+                            "word": "change",
+                            "confidence": 0.96088934
+                        },
+                        {
+                            "startOffset": "35.200s",
+                            "endOffset": "35.500s",
+                            "word": "things",
+                            "confidence": 0.9752634
+                        },
+                        {
+                            "startOffset": "35.500s",
+                            "endOffset": "36.800s",
+                            "word": "they",
+                            "confidence": 0.9112146
+                        },
+                        {
+                            "startOffset": "36.800s",
+                            "endOffset": "36.900s",
+                            "word": "push",
+                            "confidence": 0.973559
+                        },
+                        {
+                            "startOffset": "36.900s",
+                            "endOffset": "37s",
+                            "word": "the",
+                            "confidence": 0.9918542
+                        },
+                        {
+                            "startOffset": "37s",
+                            "endOffset": "37.500s",
+                            "word": "human",
+                            "confidence": 0.9719248
+                        },
+                        {
+                            "startOffset": "37.500s",
+                            "endOffset": "37.800s",
+                            "word": "race",
+                            "confidence": 0.92214304
+                        },
+                        {
+                            "startOffset": "37.800s",
+                            "endOffset": "38.300s",
+                            "word": "forward",
+                            "confidence": 0.9605274
+                        }
+                    ]
+                }
+            ],
+            "resultEndOffset": "39.140s",
+            "languageCode": "en-us"
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " while some may see them as The Crazy Ones",
+                    "confidence": 0.923737,
+                    "words": [
+                        {
+                            "startOffset": "40.300s",
+                            "endOffset": "40.700s",
+                            "word": "while",
+                            "confidence": 0.73551685
+                        },
+                        {
+                            "startOffset": "40.700s",
+                            "endOffset": "41s",
+                            "word": "some",
+                            "confidence": 0.88940525
+                        },
+                        {
+                            "startOffset": "41s",
+                            "endOffset": "41.200s",
+                            "word": "may",
+                            "confidence": 0.976477
+                        },
+                        {
+                            "startOffset": "41.200s",
+                            "endOffset": "41.300s",
+                            "word": "see",
+                            "confidence": 0.9698855
+                        },
+                        {
+                            "startOffset": "41.300s",
+                            "endOffset": "41.500s",
+                            "word": "them",
+                            "confidence": 0.988496
+                        },
+                        {
+                            "startOffset": "41.500s",
+                            "endOffset": "41.600s",
+                            "word": "as",
+                            "confidence": 0.9737368
+                        },
+                        {
+                            "startOffset": "41.600s",
+                            "endOffset": "41.800s",
+                            "word": "The",
+                            "confidence": 0.95425147
+                        },
+                        {
+                            "startOffset": "41.800s",
+                            "endOffset": "42.100s",
+                            "word": "Crazy",
+                            "confidence": 0.8741227
+                        },
+                        {
+                            "startOffset": "42.100s",
+                            "endOffset": "42.400s",
+                            "word": "Ones",
+                            "confidence": 0.9517419
+                        }
+                    ]
+                }
+            ],
+            "resultEndOffset": "43.310s",
+            "languageCode": "en-us"
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " we see genius",
+                    "confidence": 0.7362256,
+                    "words": [
+                        {
+                            "startOffset": "44.300s",
+                            "endOffset": "44.400s",
+                            "word": "we",
+                            "confidence": 0.8563356
+                        },
+                        {
+                            "startOffset": "44.400s",
+                            "endOffset": "45s",
+                            "word": "see",
+                            "confidence": 0.6235608
+                        },
+                        {
+                            "startOffset": "45s",
+                            "endOffset": "45.400s",
+                            "word": "genius",
+                            "confidence": 0.7287804
+                        }
+                    ]
+                }
+            ],
+            "resultEndOffset": "46.610s",
+            "languageCode": "en-us"
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " because the people who are crazy enough to think they can change the world",
+                    "confidence": 0.9868993,
+                    "words": [
+                        {
+                            "startOffset": "47.400s",
+                            "endOffset": "47.700s",
+                            "word": "because",
+                            "confidence": 0.94817084
+                        },
+                        {
+                            "startOffset": "47.700s",
+                            "endOffset": "47.800s",
+                            "word": "the",
+                            "confidence": 0.99208766
+                        },
+                        {
+                            "startOffset": "47.800s",
+                            "endOffset": "48.200s",
+                            "word": "people",
+                            "confidence": 0.9964054
+                        },
+                        {
+                            "startOffset": "48.200s",
+                            "endOffset": "48.300s",
+                            "word": "who",
+                            "confidence": 0.99570525
+                        },
+                        {
+                            "startOffset": "48.300s",
+                            "endOffset": "48.400s",
+                            "word": "are",
+                            "confidence": 0.9629282
+                        },
+                        {
+                            "startOffset": "48.400s",
+                            "endOffset": "48.800s",
+                            "word": "crazy",
+                            "confidence": 0.97058964
+                        },
+                        {
+                            "startOffset": "48.800s",
+                            "endOffset": "49.100s",
+                            "word": "enough",
+                            "confidence": 0.9975946
+                        },
+                        {
+                            "startOffset": "49.100s",
+                            "endOffset": "49.200s",
+                            "word": "to",
+                            "confidence": 0.996743
+                        },
+                        {
+                            "startOffset": "49.200s",
+                            "endOffset": "49.400s",
+                            "word": "think",
+                            "confidence": 0.99278945
+                        },
+                        {
+                            "startOffset": "49.400s",
+                            "endOffset": "49.500s",
+                            "word": "they",
+                            "confidence": 0.99160194
+                        },
+                        {
+                            "startOffset": "49.500s",
+                            "endOffset": "49.700s",
+                            "word": "can",
+                            "confidence": 0.9952807
+                        },
+                        {
+                            "startOffset": "49.700s",
+                            "endOffset": "50s",
+                            "word": "change",
+                            "confidence": 0.993579
+                        },
+                        {
+                            "startOffset": "50s",
+                            "endOffset": "50.100s",
+                            "word": "the",
+                            "confidence": 0.9971625
+                        },
+                        {
+                            "startOffset": "50.100s",
+                            "endOffset": "50.400s",
+                            "word": "world",
+                            "confidence": 0.98595256
+                        }
+                    ]
+                }
+            ],
+            "resultEndOffset": "51.150s",
+            "languageCode": "en-us"
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " are the ones who do",
+                    "confidence": 0.9028667,
+                    "words": [
+                        {
+                            "startOffset": "51.800s",
+                            "endOffset": "52.700s",
+                            "word": "are",
+                            "confidence": 0.7918632
+                        },
+                        {
+                            "startOffset": "52.700s",
+                            "endOffset": "52.800s",
+                            "word": "the",
+                            "confidence": 0.9425758
+                        },
+                        {
+                            "startOffset": "52.800s",
+                            "endOffset": "53.100s",
+                            "word": "ones",
+                            "confidence": 0.96486
+                        },
+                        {
+                            "startOffset": "53.100s",
+                            "endOffset": "53.800s",
+                            "word": "who",
+                            "confidence": 0.9623938
+                        },
+                        {
+                            "startOffset": "53.800s",
+                            "endOffset": "54s",
+                            "word": "do",
+                            "confidence": 0.85264105
+                        }
+                    ]
+                }
+            ],
+            "resultEndOffset": "54.810s",
+            "languageCode": "en-us"
+        },
+        {
+            "resultEndOffset": "57.490s",
+            "languageCode": "en-us"
+        },
+        {
+            "resultEndOffset": "60.420s",
+            "languageCode": "en-us"
+        }
+    ]
+}

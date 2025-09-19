@@ -1,0 +1,282 @@
+name: Deploy Jekyll Backup
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'gh-pages'
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      TELEGRAM_BOT_API_KEY: ${{ secrets.TELEGRAM_BOT_API_KEY }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 5
+
+      - name: Setup Python 3.10.x
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10.x"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements/requirements.txt
+
+      - name: Update Notes Links
+        id: update_notes_links
+        run: |
+          OUTPUT=$(python scripts/generate/update_notes_link.py)
+          if [[ "$OUTPUT" == *"Updated original/2025-01-11-notes-en.md"* ]]; then
+            echo "notes_updated=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "notes_updated=false" >> "$GITHUB_OUTPUT"
+          fi
+      
+      - name: Commit Notes Link Changes
+        if: steps.update_notes_links.outputs.notes_updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add original/2025-01-11-notes-en.md
+          git add _posts/en/*.md
+          git diff --cached --quiet || git commit -m "chore(notes): Update notes links"
+          git push || {
+            echo "Push failed, attempting pull and merge"
+            git pull --rebase
+            git push
+          }
+
+      - name: Update Language Files
+        id: updated_lang_files
+        run: |
+          DRY_RUN_LANG_OUTPUT=$(python scripts/translation/update_lang.py --dry_run)
+          TOTAL_POSTS=$(echo "$DRY_RUN_LANG_OUTPUT" | grep "Total Markdown files to process:" | awk '{print $NF}')
+          echo "Total posts to process: $TOTAL_POSTS"
+
+          if [[ "$TOTAL_POSTS" -eq 0 ]]; then
+            echo "No language files to update."
+          else
+            for i in $(seq 1 "$((2 + TOTAL_POSTS / 9 + (TOTAL_POSTS % 9 != 0)))"); do
+              python scripts/translation/update_lang.py --max_files 9 --model deepseek
+              git config user.name "github-actions[bot]"
+              git config user.email "github-actions[bot]@users.noreply.github.com"
+              git add _posts/**/*.md
+              git diff --cached --quiet || git commit -m "chore(lang): Update language files"
+              git push || {
+                echo "Push failed, attempting pull and merge"
+                git pull --rebase
+                git push
+              }
+            done
+          fi
+
+      - name: Dry Run Pdf Files
+        id: dry_run_pdf
+        run: |
+          DRY_RUN_PDF_OUTPUT=$(python scripts/pdf/update_pdf.py --max_files 1000 --dry_run)
+          echo "$DRY_RUN_PDF_OUTPUT" 
+
+          if [[ "$DRY_RUN_PDF_OUTPUT" == *'Total Markdown files to process: 0'* ]]; then
+            echo "pdf_updated=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "pdf_updated=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install Microsoft Core Fonts
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        run: |
+          sudo apt-get install -y ttf-mscorefonts-installer
+          fc-cache -fv
+
+      - name: Install Noto Fonts
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        run: |
+          sudo apt-get install -y fonts-noto
+
+      - name: Install Noto CJK
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        run: |
+          sudo apt-get install -y fonts-noto-cjk
+
+      - name: Install DejaVu Fonts
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        run: |
+          sudo apt-get install -y fonts-dejavu
+
+      - name: List Installed Fonts
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        run: fc-list
+
+      - name: Setup TeX Live
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        uses: teatimeguest/setup-texlive-action@v3
+        with:
+          packages: |
+            xeCJK
+            etoolbox
+            adjustbox
+            roboto
+            sourcesanspro
+            fontawesome5
+            tcolorbox
+            setspace
+            unicode-math
+            fancyvrb
+            olyglossia
+            polyglossia
+            bidi
+            booktabs
+            footnote
+
+      - name: Install Pandoc
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'      
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Run Pdf-Pipeline.py
+        if: steps.dry_run_pdf.outputs.pdf_updated == 'true'
+        run: |
+          python scripts/pdf/update_pdf.py --max_files 1000
+          
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/pdfs/**/*.pdf
+          git diff --cached --quiet || git commit -m "chore(pdf): Update PDF files"
+          
+          git push || {
+            echo "Push failed, attempting pull and merge"
+            git pull --rebase
+            git push
+          }
+
+      - name: Authenticate with GCP
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Dry run Audio Pipeline
+        id: dry_run_audio
+        run: |
+          DRY_RUN_OUTPUT=$(python scripts/audio/audio_pipeline.py --task posts --n 2 --dry_run)
+          echo "$DRY_RUN_OUTPUT"
+          FILES_PROCESSED=$(echo "$DRY_RUN_OUTPUT" | grep "Processing complete!" | awk '{print $3}' | cut -d'/' -f1)
+          TOTAL_FILES=$(echo "$DRY_RUN_OUTPUT" | grep "Processing complete!" | awk '{print $3}' | cut -d'/' -f2)
+
+          if [[ "$FILES_PROCESSED" -gt 0 ]]; then
+            echo "audio_updated=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "audio_updated=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Dry run Conversation Pipeline
+        id: dry_run_conversation
+        run: |
+          DRY_RUN_CONVERSATION_OUTPUT=$(python scripts/audio/conversation_pipeline.py --dry_run)
+          echo "$DRY_RUN_CONVERSATION_OUTPUT"
+          CONVERSATIONS_PROCESSED=$(echo "$DRY_RUN_CONVERSATION_OUTPUT" | grep "Processing complete!" | awk '{print $3}' | cut -d'/' -f1)
+          TOTAL_CONVERSATIONS=$(echo "$DRY_RUN_CONVERSATION_OUTPUT" | grep "Processing complete!" | awk '{print $3}' | cut -d'/' -f2)
+
+          if [[ "$CONVERSATIONS_PROCESSED" -gt 0 ]]; then
+            echo "conversation_updated=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "conversation_updated=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install FFmpeg
+        if: steps.dry_run_audio.outputs.audio_updated == 'true' || steps.dry_run_conversation.outputs.conversation_updated == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Run Audio Pipeline
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
+        run: |
+          python scripts/audio/audio_pipeline.py --task posts --n 2 --max_files 20          
+
+      - name: Commit generated audio files
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/audios/*.mp3
+          git diff --cached --quiet || git commit -m "feat(audio): Add generated audio files"
+          git push || {
+            echo "Push failed, attempting pull and merge"
+            git pull --rebase
+            git push
+          }
+
+      - name: Update audio Flags
+        if: steps.dry_run_audio.outputs.audio_updated == 'true'
+        run: |
+          python scripts/audio/audio_flag.py
+          python scripts/feed/feed.py --lang en
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _posts/**/*.md
+          git add *.xml
+          git diff --quiet --staged || git commit -m "feat(audio): Update Audio flag and update audo feed"
+          git push || {
+            echo "Push failed, attempting pull and merge"
+            git pull --rebase
+            git push
+          }
+
+      - name: Run Conversation Pipeline
+        if: steps.dry_run_conversation.outputs.conversation_updated == 'true'
+        run: |
+          python scripts/audio/conversation_pipeline.py
+          python scripts/feed/conversation_feed.py
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/conversations/*.mp3
+          git add *.xml          
+          git diff --cached --quiet || git commit -m "feat(audio): Add generated conversation audio files"
+          git push || {
+            echo "Push failed, attempting pull and merge"
+            git pull --rebase
+            git push
+          }
+
+      - name: Clean Up Credentials
+        run: |
+          rm -f ./gha-creds-*.json            
+
+      - name: Update Release Hash
+        run: python scripts/release/update_release.py
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Send Telegram Message
+        run: |
+          python scripts/bot/telegram_bot.py --job send_message

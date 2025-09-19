@@ -34,15 +34,39 @@ plugins:
   - jekyll-seo-tag
 
 exclude:
-  - sync_*
   - Gemfile
   - Gemfile.lock
   - README.md
+  - wandb
+  - scripts
+  - pelican
+  - test
+  - clash.log
+  - c
+  - cpp
+  - rust
+  - logs
+  - invoice
+  - Makefile
+  - Dockerfile
+  - requirements
+  - text_test
+  - tmp
+  - blog-server
+  - latex
+  - excluded_notes
 
 markdown: kramdown
 
 kramdown:
+  math_engine: mathjax
   input: GFM
   syntax_highlighter: rouge
 
 ssl_certificate: false
+
+timezone: Asia/Shanghai
+
+starting_year: 1995
+
+release: d066caeb0dc5d8db37a100ae5e796787dc913c87

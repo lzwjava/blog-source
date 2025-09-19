@@ -1,0 +1,112 @@
+import requests
+import os
+
+# Get the API key from environment variable or replace with your key
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+
+if not OPENROUTER_API_KEY:
+    raise Exception("OPENROUTER_API_KEY environment variable is not set or is empty")
+
+
+MODEL_MAPPING = {
+    "claude-opus": "anthropic/claude-opus-4",
+    "claude-sonnet": "anthropic/claude-sonnet-4",
+    "gemini-flash": "google/gemini-2.5-flash",
+    "gemini-pro": "google/gemini-2.5-pro",
+    "kimi-k2": "moonshotai/kimi-k2",
+    "deepseek-v3": "deepseek/deepseek-chat-v3-0324",
+    "deepseek-v3.1":"deepseek/deepseek-chat-v3.1",
+    "mistral-medium": "mistralai/mistral-medium-3.1",
+    "mistral-large": "mistralai/mistral-large",
+    "qwen-coder":"qwen/qwen3-coder",
+    "gpt-oss": "openai/gpt-oss-120b",
+    "gpt-5": "openai/gpt-5",
+    "gpt-5-mini": "openai/gpt-5-mini",
+    "o1-mini": "openai/o1-mini",
+    "grok-3": "x-ai/grok-3",
+    "grok-code": "x-ai/grok-code-fast-1"
+}
+
+DEFAULT_TOKENS = {
+    "claude-opus": 8192,
+    "claude-sonnet": 8192,
+    "gemini-flash": 8192,
+    "gemini-pro": 8192,
+    "kimi-k2": 32768,
+    "deepseek-v3": 32768,
+    "deepseek-v3.1": 32768,
+    "mistral-medium": 32768,
+    "mistral-large": 8192,
+    "qwen-coder": 32768,
+    "gpt-oss": 8192,
+    "gpt-5": 8192,
+    "gpt-5-mini": 8192,
+    "grok-3": 61072,
+    "o1-mini":  61072,
+    "grok-code": 62144
+}
+
+
+def call_openrouter_api_with_messages(messages, model="mistral-medium", max_tokens=None, debug=False):
+    url = "https://openrouter.ai/api/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json",
+    }
+
+    # Check if the model exists in the mapping
+    if model not in MODEL_MAPPING:
+        raise Exception(f"Model '{model}' not found in MODEL_MAPPING")
+
+    # Use provided max_tokens or default for this model
+    if max_tokens is None:
+        max_tokens = DEFAULT_TOKENS.get(model, 4096)
+
+    data = {"model": MODEL_MAPPING[model], "messages": messages, "max_tokens": max_tokens}
+    
+    if debug:
+        print(f"Request URL: {url}")
+        print(f"Request Data: {data}")
+    
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        if debug:
+            print(f"Response Status Code: {response.status_code}")
+            print(f"Response Text: {response.text}")
+        
+        if response.status_code == 200:
+            return response.json()["choices"][0]["message"]["content"]
+        else:
+            raise Exception(f"Error: {response.status_code} - {response.text}")
+    except Exception as e:
+        raise Exception(f"An error occurred: {str(e)}")
+
+
+def call_openrouter_api(prompt, model="deepseek-v3.1", max_tokens=None, debug=False):
+    messages = [{"role": "user", "content": prompt}]
+    return call_openrouter_api_with_messages(messages, model, max_tokens, debug)
+
+
+if __name__ == "__main__":
+    import sys
+    import subprocess
+
+    # Read from stdin if piped, else try macOS clipboard via pbpaste, else use default prompt
+    if not sys.stdin.isatty():
+        content = sys.stdin.read()
+    else:
+        try:
+            content = subprocess.check_output(["pbpaste"], text=True)
+        except Exception:
+            content = "Hello, 9.11 or 9.9, which one is bigger? "
+
+    if not content or not content.strip():
+        content = "Hello, 9.11 or 9.9, which one is bigger? "
+
+    model = os.getenv("OPENROUTER_MODEL", "mistral-medium")
+
+    try:
+        result = call_openrouter_api(content, model, debug=True)
+        print(result)
+    except Exception as e:
+        print(f"Error: {e}")
