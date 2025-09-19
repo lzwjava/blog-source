@@ -10,6 +10,7 @@ import shlex
 import shutil
 import subprocess
 import sys
+import webbrowser
 from glob import glob
 from pathlib import Path
 from typing import Sequence
@@ -18,6 +19,7 @@ from build import DEFAULT_DESTINATION
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_SENTINEL = "Updated original/2025-01-11-notes-en.md"
+DESTINATION_REPO_URL = "https://github.com/lzwjava/lzwjava.github.io"
 
 if sys.platform == "darwin":
     python_path = Path("/opt/homebrew/bin/python3")
@@ -28,14 +30,18 @@ else:
 
 
 def run_command(
-    command: Sequence[str], *, capture_output: bool = False, check: bool = True
+    command: Sequence[str],
+    *,
+    capture_output: bool = False,
+    check: bool = True,
+    cwd: Path | None = None,
 ) -> subprocess.CompletedProcess[str]:
-    """Run a command from the repository root and stream the output."""
+    """Run a command and stream the output from the requested directory."""
     cmd_display = " ".join(shlex.quote(str(part)) for part in command)
     print(f"$ {cmd_display}")
     result = subprocess.run(
         list(command),
-        cwd=ROOT,
+        cwd=cwd or ROOT,
         check=check,
         text=True,
         capture_output=capture_output,
@@ -209,6 +215,36 @@ def send_telegram_message() -> None:
     run_command([PYTHON, "scripts/bot/telegram_bot.py", "--job", "send_message"])
 
 
+def push_destination_repo() -> None:
+    """Run the deployment push steps inside the destination repository."""
+    destination_root = DEFAULT_DESTINATION.parent
+    if not destination_root.exists():
+        print(f"Destination repository not found at {destination_root}; skipping push.")
+        return
+
+    print(f"Pushing destination repository at {destination_root}.")
+    run_command(["git", "push"], cwd=destination_root)
+
+    git_push_script = destination_root / "git_push.py"
+    if not git_push_script.exists():
+        print("No git_push.py script found; skipping additional push automation.")
+        return
+
+    run_command([PYTHON, str(git_push_script)], cwd=destination_root)
+
+
+def open_destination_repo_in_browser() -> None:
+    """Open the GitHub repository for the destination site in the default browser."""
+    opened = webbrowser.open(DESTINATION_REPO_URL)
+    if opened:
+        print(f"Opened {DESTINATION_REPO_URL} in the default browser.")
+    else:
+        print(
+            f"Unable to automatically open {DESTINATION_REPO_URL}; please open it manually.",
+            file=sys.stderr,
+        )
+
+
 def parse_args() -> argparse.Namespace:
     """Collect CLI options for the local pipeline."""
     parser = argparse.ArgumentParser(
@@ -278,6 +314,12 @@ def main() -> None:
         send_telegram_message()
     else:
         print("Skipping Telegram notification.")
+
+    if args.push:
+        push_destination_repo()
+        open_destination_repo_in_browser()
+    else:
+        print("Skipping destination repository push; use --push to enable it.")
 
 
 if __name__ == "__main__":
