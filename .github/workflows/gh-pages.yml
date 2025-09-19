@@ -121,7 +121,7 @@ jobs:
           repository: lzwjava/lzwjava.github.io
           token: ${{ secrets.WORKFLOW_ACCESS_TOKEN }}
           path: destination
-          fetch-depth: 0
+          fetch-depth: 5
 
       - name: Sync built site to destination repo
         run: |
