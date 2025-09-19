@@ -78,25 +78,26 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: lzwjava/lzwjava.github.io   # <-- your DESTINATION_REPO_URL target
-          token: ${{ secrets.DEPLOY_TOKEN }}      # <-- PAT with "repo" scope
+          token: ${{ secrets.WORKFLOW_ACCESS_TOKEN }}      # <-- PAT with "repo" scope
           path: destination
           fetch-depth: 0
 
       - name: Sync built site to destination repo
         run: |
-          rsync -av --delete _site/ destination/
+          mkdir -p destination/_site
+          rsync -av --delete _site/ destination/_site/
           cd destination
           # Optional: ensure Pages doesn’t process Jekyll again
-          touch .nojekyll
+          touch _site/.nojekyll
 
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
-            git commit -m "deploy: ${GITHUB_SHA}"
+            git commit --amend --no-edit
             # adjust branch if your destination uses something else (e.g., gh-pages)
-            git push origin HEAD:main
+            git push --force-with-lease origin HEAD:main
           else
             echo "No changes to deploy."
           fi
@@ -110,9 +111,10 @@ jobs:
 
 ### What you need to set up
 
-* **PAT for the destination push**: create a classic Personal Access Token with `repo` scope on your GitHub account (or use a fine-grained token that grants write access to the destination repo). Save it in the source repo settings as `DEPLOY_TOKEN` (i.e., `Settings → Secrets and variables → Actions → New repository secret`).
+* **PAT for the destination push**: create a classic Personal Access Token with `repo` scope on your GitHub account (or use a fine-grained token that grants write access to the destination repo). Save it in the source repo settings as `WORKFLOW_ACCESS_TOKEN` (i.e., `Settings → Secrets and variables → Actions → New repository secret`).
 * **Branch and repo names**: in the `Check out destination repo` step, set `repository:` to the external repo (it can be public or private). In the push command, set the branch you want to deploy to (often `main` or `gh-pages`).
 * **GitHub Pages settings** (if you’re serving from the destination repo): in that repo’s **Settings → Pages**, choose the correct **Branch** (e.g., `main` / root), and keep `CNAME`/custom domain as you like.
+* **History expectations**: the deploy step amends the latest commit and uses `--force-with-lease`; make sure this branch is dedicated to deploy artifacts so rewriting history is acceptable.
 
 ### Notes about your Python script
 

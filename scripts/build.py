@@ -9,7 +9,8 @@ import sys
 from pathlib import Path
 import shutil
 
-DEFAULT_DESTINATION = Path.home() / "projects" / "lzwjava.github.io" / "_site"
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_DESTINATION = ROOT / "destination" / "_site"
 
 
 def parse_args(argv: list[str]) -> tuple[str, list[str]]:
@@ -25,11 +26,12 @@ def parse_args(argv: list[str]) -> tuple[str, list[str]]:
     return args.destination, extra_args
 
 
-def run_jekyll(destination: str, extra_args: list[str]) -> int:    
+def run_jekyll(destination: str, extra_args: list[str]) -> int:
     dest_path = Path(destination)
+    dest_path.parent.mkdir(parents=True, exist_ok=True)
     if dest_path.exists():
         shutil.rmtree(dest_path)
-            
+
     command = [
         "jekyll",
         "build",

@@ -115,12 +115,33 @@ jobs:
           source: ./
           destination: ./_site
 
-      - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Check out destination repo
+        uses: actions/checkout@v4
+        with:
+          repository: lzwjava/lzwjava.github.io
+          token: ${{ secrets.WORKFLOW_ACCESS_TOKEN }}
+          path: destination
+          fetch-depth: 0
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Sync built site to destination repo
+        run: |
+          mkdir -p destination/_site
+          rsync -av --delete _site/ destination/_site/
+          cd destination
+          # Optional: ensure Pages doesn’t process Jekyll again
+          touch _site/.nojekyll
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit --amend --no-edit
+            # Adjust target branch if the destination uses a different default (e.g., gh-pages)
+            git push --force-with-lease origin HEAD:main
+          else
+            echo "No changes to deploy."
+          fi
 
       - name: Send Telegram Message
         run: |

@@ -189,6 +189,7 @@ def update_release_hash() -> None:
 def build_site() -> None:
     """Build the Jekyll site locally."""
     destination = DEFAULT_DESTINATION
+    destination.parent.mkdir(parents=True, exist_ok=True)
     if destination.exists():
         shutil.rmtree(destination)
     run_command(
