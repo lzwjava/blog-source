@@ -60,6 +60,7 @@ exclude:
   - latex
   - excluded_notes
   - gcm-diagnose.log
+  - AGENTS.md
 
 markdown: kramdown
 
