@@ -50,6 +50,10 @@ exclude:
   - Makefile
   - Dockerfile
   - requirements
+  - original
+  - feeds
+  - backup
+  - prompt_md
   - text_test
   - tmp
   - blog-server

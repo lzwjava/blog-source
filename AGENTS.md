@@ -1,38 +1,25 @@
 # Repository Guidelines
 
+Contributors should read this guide before touching the repository. It highlights how the Jekyll site, automation scripts, and tests fit together so you can ship changes confidently and keep the tooling working.
+
 ## Project Structure & Module Organization
-- Site: Jekyll sources in `_posts/<lang>/`, `_layouts/`, `_includes/`, `_sass/`, `_plugins/`, `assets/`, and language homepages like `index-zh.html`.
-- Automation: Python tools in `scripts/` (e.g., `scripts/audio/`, `scripts/pdf/`, `scripts/translation/`).
-- Tests: Python tests in `tests/` (plus `tests/llm/` for pytest-based LLM tests).
-- Content sources: `original/` and `notes/` hold draft/long-form material.
-- Documents: LaTeX resumes in `latex/` with Makefile targets.
+Jekyll sources live under `_posts/<lang>/`, `_layouts/`, `_includes/`, `_sass/`, `_plugins/`, and `assets/`. Language landing pages such as `index-zh.html` sit in the project root. Python automation is grouped in `scripts/` with domain folders like `scripts/audio/`, `scripts/pdf/`, and `scripts/translation/`. Draft content resides in `original/` and `notes/`, while LaTeX resumes and their Makefile targets live in `latex/`. Tests are under `tests/` with LLM-specific pytest suites in `tests/llm/`.
 
 ## Build, Test, and Development Commands
-- Jekyll dev: `bundle install` then `bundle exec jekyll serve --draft --incremental`
-- Jekyll build: `bundle exec jekyll build`
-- Audio pipeline: `python scripts/audio/audio_pipeline.py --task posts --n 10`
-- PDF pipeline: `python scripts/pdf/pdf_pipeline.py --task posts --n 10`
-- LaTeX resumes: `make easy-resume` (or `make latex && make copy`)
-- Unittest suite: `python -m unittest discover -s tests -p 'test_*.py'`
-- LLM tests (pytest): `python -m pytest tests/llm -v -m "not slow and not network"`
+- `bundle install` then `bundle exec jekyll serve --draft --incremental`: install Ruby gems and run a live preview.
+- `bundle exec jekyll build`: produce the static site output.
+- `python scripts/audio/audio_pipeline.py --task posts --n 10`: refresh a batch of audio assets.
+- `python scripts/pdf/pdf_pipeline.py --task posts --n 10`: regenerate PDFs for recent posts.
+- `make easy-resume`: compile the primary LaTeX resume (alternate: `make latex && make copy`).
 
 ## Coding Style & Naming Conventions
-- Python: 4-space indent, type hints encouraged. Format with Black: `black .`; lint with Ruff: `ruff .`
-- Posts: dated filenames inside language folders (e.g., `_posts/en/2025-02-02-archlinux-en.md`).
-- Tests: files start with `test_*.py`; classes `Test*`, functions `test_*`.
-- Scripts: group by domain under `scripts/<area>/` (e.g., `scripts/audio/azure_speech.py`).
+Use 4-space indentation for Python and prefer type hints. Run `black .` for formatting and `ruff .` for linting before opening a PR. Post files follow the `YYYY-MM-DD-slug.md` pattern under the correct language folder. Tests and fixtures use `test_*.py`, `Test*` classes, and `test_*` functions.
 
 ## Testing Guidelines
-- Prefer fast unit tests under `tests/`. Use `unittest` style by default.
-- LLM-specific tests under `tests/llm/` use pytest markers: `unit`, `integration`, `slow`, `network`.
-- Integration tests require API keys via environment variables and are skipped if missing.
+Default to the Python `unittest` suite via `python -m unittest discover -s tests -p 'test_*.py'`. Pytest-based LLM checks sit in `tests/llm/` and can be run with `python -m pytest tests/llm -v -m "not slow and not network"`. Integration tests depend on API keys via environment variables; document any new requirements in the PR.
 
 ## Commit & Pull Request Guidelines
-- Conventional Commits: `feat(scope): …`, `fix(scope): …`, `docs: …`, `refactor: …`, `chore: …`
-  - Example: `feat(i18n): add multilingual support for post counts`
-- PRs: include clear description, linked issues, and screenshots for UI/CSS changes. Ensure `black`, `ruff`, and tests pass locally.
+Follow Conventional Commits (`feat(scope):`, `fix(scope):`, `docs:`, etc.) to match the existing history. PRs should describe the change, link related issues, and include screenshots or GIFs for UI or CSS updates. Confirm `black`, `ruff`, and the relevant tests pass locally before requesting review.
 
 ## Security & Configuration Tips
-- Keep secrets in env vars (e.g., GCP/Azure TTS keys). Never commit keys or tokens.
-- Local config: Jekyll settings in `_config.yml`; Ruby gems in `Gemfile`; Python deps in `requirements/`.
-- If Docker is preferred: `docker build -t blog .` then run with your preferred command to serve/build.
+Never commit secrets; use environment variables for API tokens such as Azure or GCP credentials. Core configuration lives in `_config.yml`, while Ruby gems are tracked in `Gemfile` and Python dependencies in `requirements/`. For containerized workflows, build with `docker build -t blog .` and invoke your preferred serve or build command inside the container.
