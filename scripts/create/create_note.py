@@ -49,7 +49,7 @@ def open_note_in_browser(note_path: Optional[str]) -> None:
         print(f"[warn] Unable to compute relative path for {abs_note_path}: {exc}")
         return
 
-    github_url = "https://github.com/lzwjava/lzwjava.github.io/blob/main/" + rel_path.replace(os.sep, "/")
+    github_url = "https://github.com/lzwjava/blog-source/blob/main/" + rel_path.replace(os.sep, "/")
 
     if sys.platform.startswith("darwin"):
         command = ["open", github_url]
