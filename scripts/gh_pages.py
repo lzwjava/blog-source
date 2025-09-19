@@ -7,6 +7,7 @@ import argparse
 import os
 import re
 import shlex
+import shutil
 import subprocess
 import sys
 from glob import glob
@@ -15,6 +16,13 @@ from typing import Sequence
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_SENTINEL = "Updated original/2025-01-11-notes-en.md"
+
+if sys.platform == "darwin":
+    python_path = Path("/opt/homebrew/bin/python3")
+    PYTHON = str(python_path if python_path.exists() else Path(sys.executable))
+else:
+    discovered = shutil.which("python") or shutil.which("python3")
+    PYTHON = discovered or sys.executable
 
 
 def run_command(
@@ -49,7 +57,7 @@ def ensure_git_identity() -> None:
 def update_notes_links() -> bool:
     """Update cross-language note links and report whether changes were made."""
     result = run_command(
-        ["python", "scripts/generate/update_notes_link.py"],
+        [PYTHON, "scripts/generate/update_notes_link.py"],
         capture_output=True,
     )
     output = result.stdout or ""
@@ -125,7 +133,7 @@ def parse_total_posts(output: str) -> int | None:
 def update_language_files(auto_commit: bool, push: bool) -> None:
     """Run the translation updater with batching logic from CI."""
     dry_run = run_command(
-        ["python", "scripts/translation/update_lang.py", "--commits", "1000", "--dry_run"],
+        [PYTHON, "scripts/translation/update_lang.py", "--commits", "1000", "--dry_run"],
         capture_output=True,
     )
     total_posts = parse_total_posts(dry_run.stdout or "")
@@ -146,7 +154,7 @@ def update_language_files(auto_commit: bool, push: bool) -> None:
         print(f"Running language update batch {batch}/{batches}.")
         run_command(
             [
-                "python",
+                PYTHON,
                 "scripts/translation/update_lang.py",
                 "--max_files",
                 "9",
@@ -169,12 +177,12 @@ def update_language_files(auto_commit: bool, push: bool) -> None:
 
 def run_unit_tests() -> None:
     """Execute the workflow-specific unit tests."""
-    run_command(["python", "-m", "unittest", "discover", "-s", "tests/workflow"])
+    run_command([PYTHON, "-m", "unittest", "discover", "-s", "tests/workflow"])
 
 
 def update_release_hash() -> None:
     """Update the release hash metadata."""
-    run_command(["python", "scripts/release/update_release.py"])
+    run_command([PYTHON, "scripts/release/update_release.py"])
 
 
 def build_site() -> None:
@@ -184,7 +192,7 @@ def build_site() -> None:
 
 def send_telegram_message() -> None:
     """Trigger the Telegram notification job."""
-    run_command(["python", "scripts/bot/telegram_bot.py", "--job", "send_message"])
+    run_command([PYTHON, "scripts/bot/telegram_bot.py", "--job", "send_message"])
 
 
 def parse_args() -> argparse.Namespace:
