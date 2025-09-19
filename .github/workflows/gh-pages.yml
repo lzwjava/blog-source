@@ -117,7 +117,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: lzwjava/lzwjava.github.io
-          token: ${{ secrets.WORKFLOW_ACCESS_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           path: destination
           fetch-depth: 5
 
