@@ -39,23 +39,14 @@
   <meta property="og:description" content="A personal blog featuring programming insights and projects."> -->
   {% assign og_images = "og1.jpg,og2.jpg,og3.jpg,og4.jpg,og5.jpg,og6.jpg,og7.jpg,og8.jpg,og9.jpg,og10.jpg,og11.jpg,og12.jpg,og13.jpg,og14.jpg" | split: "," %}
   {% assign seed_source = page.path | default: page.url | default: page.title | default: "seed" %}
-  {% assign normalized_seed = seed_source | downcase %}
-  {% assign seed_characters = normalized_seed | split: "" %}
-  {% assign alphabet = "0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,-,_,/,." | split: "," %}
+  {% assign segments = seed_source | downcase | split: "/" %}
   {% assign seed_value = 0 %}
-  {% for character in seed_characters %}
-    {% assign position_weight = forloop.index %}
-    {% for symbol in alphabet %}
-      {% if character == symbol %}
-        {% assign symbol_value = forloop.index0 | plus: 1 %}
-        {% assign weighted_value = symbol_value | times: position_weight %}
-        {% assign seed_value = seed_value | plus: weighted_value %}
-      {% endif %}
-    {% endfor %}
+  {% for segment in segments %}
+    {% assign cleaned = segment | replace: "-", "" | replace: "_", "" | replace: ".", "" %}
+    {% assign seed_value = seed_value | plus: cleaned | size %}
   {% endfor %}
-  {% assign seeded_value = seed_value | plus: 2025 %}
   {% assign og_count = og_images | size %}
-  {% assign image_index = seeded_value | modulo: og_count %}
+  {% assign image_index = seed_value | plus: 2025 | modulo: og_count %}
   {% assign random_og = og_images[image_index] %}
   <meta property="og:image" content="https://lzwjava.github.io/assets/images/og/{{ random_og }}">
 
