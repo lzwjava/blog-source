@@ -106,9 +106,6 @@ jobs:
       - name: Update Release Hash
         run: python scripts/release/update_release.py
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
