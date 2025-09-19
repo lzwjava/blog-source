@@ -15,7 +15,7 @@ on:
       - 'requirements/**'
       - 'scripts/translation/**'
       - 'scripts/llm/**'
-      - '.github/gh-pages.yml'
+      - '.github/workflows/gh-pages.yml'
   workflow_dispatch:
 
 permissions:
