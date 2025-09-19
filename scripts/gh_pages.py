@@ -115,11 +115,8 @@ def push_with_rebase() -> None:
         run_command(["git", "push"])
 
 
-def commit_notes_link_changes(auto_commit: bool, push: bool) -> None:
-    """Stage and optionally commit note link changes."""
-    if not auto_commit:
-        print("Auto commit disabled; skipping notes link commit.")
-        return
+def commit_notes_link_changes(push: bool) -> None:
+    """Stage and commit note link changes."""
     ensure_git_identity()
     stage_paths([
         "original/2025-01-11-notes-en.md",
@@ -138,7 +135,7 @@ def parse_total_posts(output: str) -> int | None:
     return int(match.group(1)) if match else None
 
 
-def update_language_files(auto_commit: bool, push: bool) -> None:
+def update_language_files(push: bool) -> None:
     """Run the translation updater with batching logic from CI."""
     dry_run = run_command(
         [PYTHON, "scripts/translation/update_lang.py", "--commits", "1000", "--dry_run"],
@@ -155,8 +152,7 @@ def update_language_files(auto_commit: bool, push: bool) -> None:
     batches = 2 + total_posts // 9 + (1 if total_posts % 9 else 0)
     print(f"Processing language files in {batches} batch(es).")
 
-    if auto_commit:
-        ensure_git_identity()
+    ensure_git_identity()
 
     for batch in range(1, batches + 1):
         print(f"Running language update batch {batch}/{batches}.")
@@ -172,9 +168,6 @@ def update_language_files(auto_commit: bool, push: bool) -> None:
                 "1000",
             ]
         )
-        if not auto_commit:
-            print("Auto commit disabled; review language updates manually.")
-            continue
         stage_paths(["_posts/**/*.md"])
         if not commit_changes("chore(lang): Update language files"):
             print("No staged language file changes; nothing to commit.")
@@ -251,14 +244,9 @@ def parse_args() -> argparse.Namespace:
         description="Run the GitHub Pages workflow locally.",
     )
     parser.add_argument(
-        "--auto-commit",
-        action="store_true",
-        help="Allow the script to create commits like the CI workflow.",
-    )
-    parser.add_argument(
         "--push",
         action="store_true",
-        help="Push commits to the remote when auto-commit is enabled.",
+        help="Push commits to the remote after local automation completes.",
     )
     parser.add_argument(
         "--skip-tests",
@@ -280,10 +268,7 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Send the Telegram notification at the end of the pipeline.",
     )
-    args = parser.parse_args()
-    if args.push and not args.auto_commit:
-        parser.error("--push requires --auto-commit")
-    return args
+    return parser.parse_args()
 
 
 def main() -> None:
@@ -291,9 +276,9 @@ def main() -> None:
 
     notes_updated = update_notes_links()
     if notes_updated:
-        commit_notes_link_changes(args.auto_commit, args.push)
+        commit_notes_link_changes(args.push)
 
-    update_language_files(args.auto_commit, args.push)
+    update_language_files(args.push)
 
     if args.skip_tests:
         print("Skipping unit tests as requested.")
