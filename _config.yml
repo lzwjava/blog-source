@@ -59,6 +59,7 @@ exclude:
   - blog-server
   - latex
   - excluded_notes
+  - gcm-diagnose.log
 
 markdown: kramdown
 
