@@ -1,6 +1,6 @@
 # lzwjava.github.io
 
-[![Deploy Jekyll](https://github.com/lzwjava/lzwjava.github.io/actions/workflows/gh-pages.yml/badge.svg?branch=main)](https://github.com/lzwjava/lzwjava.github.io/actions/workflows/gh-pages.yml)  [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lzwjava/lzwjava.github.io)  
+[![Deploy Jekyll](https://github.com/lzwjava/blog-source/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/lzwjava/blog-source/actions/workflows/gh-pages.yml)[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lzwjava/lzwjava.github.io)  
 
 Welcome to my personal blog! Here, I share my thoughts, experiences, and knowledge on various topics.
 
