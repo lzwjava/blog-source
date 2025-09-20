@@ -2,7 +2,7 @@
 
 [![Deploy Jekyll](https://github.com/lzwjava/blog-source/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/lzwjava/blog-source/actions/workflows/gh-pages.yml)[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lzwjava/lzwjava.github.io)  
 
-Thoughts, code, and notes from my journey to pursue freedom and truth.
+Thoughts, essays, and code from my journey to pursue freedom and truth.
 
 ## Statistics
 
