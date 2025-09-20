@@ -54,14 +54,6 @@ def run_command(
     return result
 
 
-def ensure_git_identity() -> None:
-    """Configure git user identity to mirror the CI workflow."""
-    run_command(["git", "config", "user.name", "github-actions[bot]"])
-    run_command(
-        ["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"]
-    )
-
-
 def update_notes_links() -> bool:
     """Update cross-language note links and report whether changes were made."""
     result = run_command(
@@ -117,7 +109,6 @@ def push_with_rebase() -> None:
 
 def commit_notes_link_changes(push: bool) -> None:
     """Stage and commit note link changes."""
-    ensure_git_identity()
     stage_paths([
         "original/2025-01-11-notes-en.md",
         "_posts/en/*.md",
