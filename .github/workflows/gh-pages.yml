@@ -134,9 +134,9 @@ jobs:
 
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
-            git commit --amend --no-edit
+            git commit -m "update"
             # Adjust target branch if the destination uses a different default (e.g., gh-pages)
-            git push --force-with-lease origin HEAD:main
+            git push origin HEAD:main
           else
             echo "No changes to deploy."
           fi
