@@ -24,7 +24,8 @@ MODEL_MAPPING = {
     "gpt-5-mini": "openai/gpt-5-mini",
     "o1-mini": "openai/o1-mini",
     "grok-3": "x-ai/grok-3",
-    "grok-code": "x-ai/grok-code-fast-1"
+    "grok-code": "x-ai/grok-code-fast-1",
+    "grok-4-fast": "x-ai/grok-4-fast:free"
 }
 
 DEFAULT_TOKENS = {
@@ -43,7 +44,8 @@ DEFAULT_TOKENS = {
     "gpt-5-mini": 8192,
     "grok-3": 61072,
     "o1-mini":  61072,
-    "grok-code": 62144
+    "grok-code": 62144,
+    "grok-4-fast": 61072
 }
 
 
