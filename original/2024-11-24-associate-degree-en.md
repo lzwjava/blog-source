@@ -71,6 +71,17 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 * Did not give enough time to prepare
 * Just walked through videos of the subjects pretending to understand.
 
+## Reasons for Selected Failed Courses
+
+### Computer Networks
+- Insufficient practice with exam-style questions
+- Lack of foundational knowledge in computer network theory
+
+### Linear Algebra
+- Inadequate familiarity with matrix operations and rules
+- Overestimated understanding of the subject
+- Lack of hands-on practice; relied solely on video lectures
+
 ## Exam preparation
 * Sleep well, maintain a good routine for sleep
 * Morning and afternoon exams may be in different locations, check the right locations
