@@ -120,7 +120,7 @@ def run_translate(text, target, kind, model, front_matter, orig_lang, need_en, s
     # Use language-specific model mapping, ignore the model parameter
     actual_model = LANGUAGE_MODEL_MAP.get(target, "mistral-medium")
     prompt = build_prompt_template(target, kind, front_matter) + "\n\n" + text
-    translated = clean_response(call_openrouter_api(prompt, "gemini-flash", max_tokens=200000))
+    translated = clean_response(call_openrouter_api(prompt, "gemini-flash", max_tokens=400000))
     check_commentary(translated)
     if kind == "title":
         check_title_strict(translated, target)
