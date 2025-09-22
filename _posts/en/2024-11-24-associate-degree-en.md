@@ -8,6 +8,10 @@ title: 'Associate Degree: Progress and Reflection'
 translated: false
 ---
 
+Updated in September 2025.
+
+---
+
 Below is my assoiciate progress. 
 
 Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Present
@@ -21,6 +25,8 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 
 | Course Code | Course Name | Exam Date | Pass Method | Score | Credits | Status |  
 |------------|-------------|-----------|-------------|--------|---------|---------|
+| 00040 | Introduction to Law | 202504 | Exam | 60 | 3 | Valid |
+| 02318 | Computer Organization and Architecture | 202504 | Exam | 66 | 4 | Valid |
 | 02323 | Operating Systems Fundamentals | 202304 | Exam | 67 | 4 | Valid |
 | 02316 | Computer Application Technology | 202410 | Exam | 73 | 2 | Valid |
 | 02142 | Introduction to Data Structures | 202210 | Exam | 75 | 4 | Valid |
@@ -28,6 +34,7 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 | 00342 | Advanced Programming Language (I) | 202210 | Exam | 75 | 3 | Valid |
 | 00022 | Advanced Mathematics (Engineering) | 202404 | Exam | 77 | 7 | Valid |
 | 00012 | English (I) | 202210 | Exam | 80 | 7 | Valid |
+
 
 ## 2024.04
 
@@ -46,6 +53,15 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 | Database and Applications | 68 |
 | Linear Algebra | 47 |
 | Computer Application Technology | 73 |
+
+## 2025.04
+
+| Subject | Score |   
+|---------|--------|
+| Introduction to Law | 60 |
+| Computer Networks | 44 |
+| Linear Algebra | 54 |
+| Computer Organization Principles  | 66 |
 
 ## Reasons for passing courses
 * Already had good understanding before the exam, like Introduction to Data Structures and English
