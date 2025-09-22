@@ -65,6 +65,8 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 ## Reasons for passing courses
 * Already had good understanding before the exam, like Introduction to Data Structures and English
 * Prepared well enough in the past year, like Advanced Mathematics and Database Applications
+* For **Introduction to Law**, I answered almost all questions—even if some answers were improvised.
+* For **Computer Organization Principles**, I had prior background knowledge and practiced past exam questions multiple times.
 
 ## Reasons for failed courses
 * Thought that I had already prepared well, but actually hadn't. The exercises I did for the failed subjects were apparently fewer than for the passed courses. 
