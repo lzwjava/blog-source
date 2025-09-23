@@ -14,7 +14,7 @@ def check_ack():
         print("  Windows: scoop install ack")
         sys.exit(1)
 
-def search_posts(query, ignore_case=False):
+def search_posts(query, ignore_case=False, dirs=None):
     """Search posts using ack."""
     try:
         check_ack()
@@ -37,7 +37,10 @@ def search_posts(query, ignore_case=False):
         cmd.append(query)
         
         # Specify directories to search
-        cmd.extend(['_posts/en', 'original', 'notes'])
+        if dirs:
+            cmd.extend(dirs)
+        else:
+            cmd.extend(['_posts/en', 'original', 'notes'])
         
         # Execute search with environment variable to force color output
         env = os.environ.copy()
@@ -100,8 +103,10 @@ def search_posts(query, ignore_case=False):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Search posts in the repository")
     parser.add_argument("query", help="Search pattern to look for")
-    parser.add_argument("-i", "--ignore-case", action="store_true", 
+    parser.add_argument("-i", "--ignore-case", action="store_true",
                       help="Case insensitive search")
-    
+    parser.add_argument("--dir", nargs="*", choices=["notes", "original", "_posts/en"],
+                      default=[], help="Directories to search in (default: all)")
+
     args = parser.parse_args()
-    search_posts(args.query, args.ignore_case)
+    search_posts(args.query, args.ignore_case, args.dir)
