@@ -148,10 +148,16 @@ if __name__ == "__main__":
         required=True,
         help="Input path for the Voice Memo file.",
     )
+    parser.add_argument(
+        "--output",
+        type=str,
+        default="assets/transcriptions",
+        help="Output directory for transcriptions.",
+    )
 
     args = parser.parse_args()
 
     process_audio_file(
         input_file=args.input_file,
-        output_dir=OUTPUT_DIRECTORY,
+        output_dir=args.output,
     )
