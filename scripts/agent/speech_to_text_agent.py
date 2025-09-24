@@ -31,6 +31,13 @@ def run_batch_recognize(audio_gcs_uri, output_gcs_folder, language_code="en-US")
     # Pick the correct oneof for decoding_config
     # - OGG/Opus requires explicit decoding.
     # - m4a/aac and most others can rely on auto detect.
+
+    # Set model based on language code
+    if "cmn-CN" in language_code:
+        model = None  # Use default model for Chinese
+    else:
+        model = "long"
+
     if file_extension == "ogg":
         decoding = cloud_speech.ExplicitDecodingConfig(
             encoding=cloud_speech.ExplicitDecodingConfig.AudioEncoding.OGG_OPUS,
@@ -45,9 +52,10 @@ def run_batch_recognize(audio_gcs_uri, output_gcs_folder, language_code="en-US")
                 enable_word_confidence=True,
                 enable_word_time_offsets=True,
             ),
-            model="long",
             language_codes=[language_code],
         )
+        if model:
+            config.model = model
     else:
         config = cloud_speech.RecognitionConfig(
             auto_decoding_config=cloud_speech.AutoDetectDecodingConfig(),
@@ -55,9 +63,10 @@ def run_batch_recognize(audio_gcs_uri, output_gcs_folder, language_code="en-US")
                 enable_word_confidence=True,
                 enable_word_time_offsets=True,
             ),
-            model="long",
             language_codes=[language_code],
         )
+        if model:
+            config.model = model
 
     output_config = cloud_speech.RecognitionOutputConfig(
         gcs_output_config=cloud_speech.GcsOutputConfig(uri=output_gcs_folder),
