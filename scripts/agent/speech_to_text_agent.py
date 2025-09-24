@@ -34,7 +34,7 @@ def run_batch_recognize(audio_gcs_uri, output_gcs_folder, language_code="en-US")
 
     # Set model based on language code
     if "cmn-CN" in language_code:
-        model = None  # Use default model for Chinese
+        model = "latest_short"
     else:
         model = "long"
 
@@ -54,8 +54,7 @@ def run_batch_recognize(audio_gcs_uri, output_gcs_folder, language_code="en-US")
             ),
             language_codes=[language_code],
         )
-        if model:
-            config.model = model
+        config.model = model
     else:
         config = cloud_speech.RecognitionConfig(
             auto_decoding_config=cloud_speech.AutoDetectDecodingConfig(),
@@ -65,8 +64,7 @@ def run_batch_recognize(audio_gcs_uri, output_gcs_folder, language_code="en-US")
             ),
             language_codes=[language_code],
         )
-        if model:
-            config.model = model
+        config.model = model
 
     output_config = cloud_speech.RecognitionOutputConfig(
         gcs_output_config=cloud_speech.GcsOutputConfig(uri=output_gcs_folder),
