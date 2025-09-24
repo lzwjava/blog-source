@@ -34,7 +34,7 @@ def run_batch_recognize(audio_gcs_uri, output_gcs_folder, language_code="en-US")
 
     # Set model based on language code
     if "cmn-CN" in language_code:
-        model = "latest_short"
+        model = "long"
     else:
         model = "long"
 
@@ -104,7 +104,7 @@ def process_audio_file(input_file, output_dir):
         # Determine language based on filename suffix
         # Tip: v2 expects BCP-47; "cmn-CN" generally works, but you can also try "cmn-Hans-CN".
         if filename.endswith("-zh.m4a") or filename.endswith("-zh.ogg"):
-            language_code = "cmn-CN"
+            language_code = "cmn-Hans-CN"
         else:
             language_code = "en-US"
 
