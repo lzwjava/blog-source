@@ -31,7 +31,7 @@ MODEL_MAPPING = {
 DEFAULT_TOKENS = {
     "claude-opus": 8192,
     "claude-sonnet": 8192,
-    "gemini-flash": 32768,
+    "gemini-flash": 400000,
     "gemini-pro": 8192,
     "kimi-k2": 32768,
     "deepseek-v3": 32768,
