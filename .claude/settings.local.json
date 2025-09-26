@@ -5,7 +5,8 @@
       "WebSearch",
       "Bash(mkdir:*)",
       "Bash(python:*)",
-      "Bash(chmod:*)"
+      "Bash(chmod:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": [],
