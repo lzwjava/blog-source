@@ -155,7 +155,7 @@ And he says things like learning cello, painting, various studies—he's the bes
 
 **B:** Yeah.  
 
-**A:** Back when I was hustling startups in Beijing, I added lots of big shots on WeChat: the co-founder of SenseTime, the co-founder of Megvii—I even visited some of their companies and knew them personally. In my early 20s, I ran a 30,000-member programmer community, with annual income of 3 million, leading a team doing small software projects. But later, because of housing prices, the real estate bubble, and free speech issues, I decided to give up domestic resources and focus on going abroad.  
+**A:** Back when I was hustling startups in Beijing, I added lots of big shots on WeChat: the co-founder of SenseTime, the co-founder of Megvii, the cofounder of quantum bit—I even visited some of their companies and knew them personally. In my early 20s, I ran a 30,000-member programmer community, with annual income of 3 million, leading a team doing small software projects. But later, because of housing prices, the real estate bubble, and free speech issues, I decided to give up domestic resources and focus on going abroad.  
 
 With autonomous driving—Yin Wang pointed out problems years ago, like cars misidentifying water reflections in the rain, or Tesla’s 2016 white truck crash, or even Xiaomi’s recent incidents. He even wrote blog posts educating Musk about such issues 8–10 years ago. Yin Wang questions everything.  
 
