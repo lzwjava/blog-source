@@ -8,6 +8,11 @@ title: An Interview on Building AI Frameworks, Life Choices, and Rethinking Lear
 translated: false
 ---
 
+{: .centered }
+![](assets/images/shawn/shawn1.jpg){: .responsive }
+*Source: chatgpt.com*{: .caption }
+
+
 A: Zhiwei Li, Software Engineer working at the intersection of AI and finance.
 
 B: Shawn Shao, Software Engineer working on AI frameworks, agents, and MCP at an international bank.
