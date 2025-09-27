@@ -4,6 +4,7 @@ import os
 import sys
 import subprocess
 import argparse
+import re
 from pathlib import Path
 
 def get_latest_notes(notes_dir, count=10):
@@ -25,6 +26,27 @@ def get_note_url(note_filename):
     """Generate the URL for a note based on its filename"""
     base_name = note_filename.stem
     return f"https://lzwjava.github.io/notes/{base_name}"
+
+def get_note_title(note_path):
+    """Extract title from the frontmatter of a markdown file"""
+    try:
+        with open(note_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        # Look for frontmatter between --- delimiters
+        frontmatter_match = re.search(r'^---\n(.*?)\n---', content, re.DOTALL)
+        if frontmatter_match:
+            frontmatter = frontmatter_match.group(1)
+            # Look for title field
+            title_match = re.search(r'^title:\s*(.+)$', frontmatter, re.MULTILINE)
+            if title_match:
+                return title_match.group(1).strip()
+
+        # Fallback to filename without extension if no title found
+        return note_path.stem
+    except Exception as e:
+        print(f"Warning: Could not read title from {note_path.name}: {e}")
+        return note_path.stem
 
 def open_browser(url):
     """Open URL in default browser"""
@@ -59,7 +81,8 @@ def main():
     # Display the list of notes numbered 0-9
     print("Recent notes:")
     for i, note in enumerate(latest_notes):
-        print(f"{i}: {note.name}")
+        title = get_note_title(note)
+        print(f"{i}: {title}")
 
     # Get user input for selection
     while True:
