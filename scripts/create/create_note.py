@@ -129,5 +129,8 @@ if __name__ == "__main__":
 
     # Call gpa function unless only creating the note was requested
     if not args.only_create:
-        gpa()
-        open_note_in_browser(created_path)
+        try:
+            gpa()
+            open_note_in_browser(created_path)
+        except Exception as e:
+            print(f"[warn] gpa failed: {e}, not opening browser")
