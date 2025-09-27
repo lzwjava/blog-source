@@ -40,33 +40,45 @@ def open_browser(url):
 
 def main():
     parser = argparse.ArgumentParser(description='Open latest note in browser')
-    parser.add_argument('position', nargs='?', type=int, default=1, 
-                       help='Position of note to open (1=latest, 2=second latest, etc)')
-    parser.add_argument('--notes-dir', default='./notes', 
+    parser.add_argument('--notes-dir', default='./notes',
                        help='Path to notes directory (default: ./notes)')
-    
+
     args = parser.parse_args()
-    
+
     notes_dir = Path(args.notes_dir).resolve()
     if not notes_dir.is_absolute():
         notes_dir = Path(__file__).parent / args.notes_dir
-    
-    latest_notes = get_latest_notes(notes_dir, args.position + 5)
-    
+
+    # Get latest 10 notes
+    latest_notes = get_latest_notes(notes_dir, 10)
+
     if not latest_notes:
         print("No notes found")
         return
-    
-    if args.position > len(latest_notes):
-        print(f"Only {len(latest_notes)} notes available")
-        return
-    
-    selected_note = latest_notes[args.position - 1]
+
+    # Display the list of notes numbered 0-9
+    print("Recent notes:")
+    for i, note in enumerate(latest_notes):
+        print(f"{i}: {note.name}")
+
+    # Get user input for selection
+    while True:
+        try:
+            selection = input("Select a note (0-9): ").strip()
+            selection_idx = int(selection)
+            if 0 <= selection_idx < len(latest_notes):
+                break
+            else:
+                print(f"Please enter a number between 0 and {len(latest_notes) - 1}")
+        except ValueError:
+            print("Please enter a valid number")
+
+    selected_note = latest_notes[selection_idx]
     note_url = get_note_url(selected_note)
-    
+
     print(f"Opening: {selected_note.name}")
     print(f"URL: {note_url}")
-    
+
     open_browser(note_url)
 
 if __name__ == "__main__":
