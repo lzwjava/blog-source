@@ -36,11 +36,11 @@
     }
   ],
   "Router": {
-    "default": "openrouter,deepseek/deepseek-chat-v3.1",
-    "background": "openrouter,deepseek/deepseek-chat-v3.1",
-    "think": "openrouter,deepseek/deepseek-chat-v3.1",
-    "longContext": "openrouter,deepseek/deepseek-chat-v3.1",
+    "default": "openrouter,x-ai/grok-code-fast-1",
+    "background": "openrouter,x-ai/grok-code-fast-1",
+    "think": "openrouter,x-ai/grok-code-fast-1",
+    "longContext": "openrouter,x-ai/grok-code-fast-1",
     "longContextThreshold": 30000,
-    "webSearch": "openrouter,deepseek/deepseek-chat-v3.1"
+    "webSearch": "openrouter,x-ai/grok-code-fast-1"
   }
 }
