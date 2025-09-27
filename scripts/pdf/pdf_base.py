@@ -93,7 +93,7 @@ def text_to_pdf_from_markdown(
         "-V",
         f"geometry:{GEOMETRY}",
         "-V",
-        "classoption=16pt",
+        f"classoption={pt}pt",
         "-V",
         "CJKoptions=Scale=1.1",
         "-V",
