@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: An Interview on Building AI Frameworks, Life Choices, and Rethinking Learning
+title: An Interview on Building AI Frameworks and Life Choices
 translated: false
 ---
 
