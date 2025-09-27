@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: "An Interview on the Journey from U.S. PhD Applications to AI Industry Jobs"
+title: "An Interview on U.S. PhD Applications and AI Industry Jobs"
 translated: false
 ---
 
@@ -17,7 +17,7 @@ A: Zhiwei Li, Software Engineer working at the intersection of AI and finance.
 
 B: Haifeng Jin, Software Engineer working on AI Infra.
 
-The following conversations have been corrected for grammar and lightly refined by AI.
+The following conversations were transcribed using the Google Cloud Transcription v2 API, then refined and organized with the help of AI tools. The original conversations were in English.
 
 ---
 
