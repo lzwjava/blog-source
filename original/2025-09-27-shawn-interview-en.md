@@ -64,11 +64,7 @@ Now with AI, it's very convenient, and many people are faking it in this area, I
 
 **A:** But you've been in Xi'an all along; university was in Jiangsu, you've been in Xi'an for about a dozen years now, and most of your family and friends are there. Family and friends. So some people definitely say come to Guangzhou, Beijing, the north, Shanghai, Guangzhou—why not go?
 
-**B:** It's multifaceted, because the more roles you have on you, the less you can just consider your own things as one person. For example, as a father, it affects you; as a husband, you definitely consider what your wife wants, her feelings. Like I remember at the time I had a good opportunity to go to Guangzhou, someone said if you come to Guangzhou, he could give me GCB4.
-
-**A:** When you came, it was GCB6?
-
-**B:** Last year I was still GCB5 Low. Then last year someone asked to give me GCB4, which is equivalent to directly skipping two levels for you. Everyone encounters temptations and faces many choices. But if you have choices, actually many choices you weigh with various factors. For example, considering your wife's length. Then I think I'd reject the invite now; it's not a simple choice. Only if I directly find it extremely good, I'd definitely go. Because many people's decisions actually have many factors combined together.
+**B:** It's multifaceted, because the more roles you have on you, the less you can just consider your own things as one person. For example, as a father, it affects you; as a husband, you definitely consider what your wife wants, her feelings. Everyone encounters temptations and faces many choices. But if you have choices, actually many choices you weigh with various factors. For example, considering your wife's length. Then I think I'd reject the invite now; it's not a simple choice. Only if I directly find it extremely good, I'd definitely go. Because many people's decisions actually have many factors combined together.
 
 **A:** Salaries in Guangzhou are about 10% higher than in Xi'an.
 
