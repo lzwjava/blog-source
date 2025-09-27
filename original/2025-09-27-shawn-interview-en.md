@@ -1,12 +1,54 @@
 ---
 audio: false
-lang: en
-layout: post
-title: shawn-interview
-translated: false
 generated: false
 image: false
+lang: en
+layout: post
+title: An Interview on Building AI Frameworks, Life Choices, and Rethinking Learning
+translated: false
 ---
+
+A: Zhiwei Li, Software Engineer working at the intersection of AI and finance.
+
+B: Shawn Shao, a Software Engineer working on AI frameworks, agents, and MCP at an international bank.
+
+The following conversations were transcribed using the Google Cloud Transcription v2 API, then refined and organized with the help of AI tools.
+
+
+### Table of Contents
+
+1. [Recording, Archiving, and Views on AI Media](#recording-archiving-and-views-on-ai-media)
+   - Archive conversations for future reflection
+   - Video and image AI have more potential
+   - People prefer video over text consumption
+   - Personal example of monetizing content creation
+
+2. [Career Beginnings, Certifications, and Early Struggles](#career-beginnings-certifications-and-early-struggles)
+   - Interest drives continuous learning and curiosity
+   - Pursued rare GCP certifications hands-on
+   - Certifications helped secure international bank role
+   - Overcame academic challenges through self-learning
+
+3. [Work Experience, Family, and Career Choices](#work-experience-family-and-career-choices)
+   - Promoted multiple levels at international bank
+   - Career decisions consider family and roles
+   - Prefers stability over geographical mobility
+   - Values new knowledge impacting daily perspective
+
+4. [AIPlayer, Agents, and Value Creation](#aiplayer-agents-and-value-creation)
+   - Building company-level intelligent agent platform
+   - Focus on solving real business problems
+   - Creating value through practical AI applications
+   - Not pursuing fan traffic or monetization
+   - Bosses value problem-solving over external fame
+
+5. [Critical Thinking, Yin Wang’s Influence, and Worldview](#critical-thinking-yin-wangs-influence-and-worldview)
+   - Adopted critical worldview from Yin Wang
+   - Questions established scientific narratives
+   - Believes major historical events are fabricated
+   - Learning should be joyful and process-oriented
+   - Time management reshaped by AI efficiency
+
 
 ### Recording, Archiving, and Views on AI Media
 
@@ -140,5 +182,4 @@ For a career, if AI suits you, go for it. If not, just treat it as entertainment
 
 **A:** Nothing, goodbye.  
 
-**B:** Bye.  
-
+**B:** Bye.
