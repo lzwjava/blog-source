@@ -19,6 +19,7 @@ def text_to_pdf_from_markdown(
     dry_run=False,
     extra_pandoc_args=None,
     *,
+    pt: int = 16,
     title_page: bool = False,
     toc: bool = False,
     toc_depth: int = 2,
