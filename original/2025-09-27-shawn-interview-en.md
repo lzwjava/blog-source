@@ -97,7 +97,7 @@ Now with AI, it's very convenient, and many people are faking it in this area, I
 
 ### Work Experience, Family, and Career Choices
 
-**A:** At an international bank, you got promoted for several levels, three levels, right? Before that, you started as Senior Engineer, just like that Daniel earlier. Then the question came; I feel like around 2014-2015, you did a lot of risk control work.
+**A:** At an international bank, you got promoted for several levels, three levels, right? Before that, you started as Senior Engineer. Then the question came; I feel like around 2014-2015, you did a lot of risk control work.
 
 **B:** Before, I was doing these risk controls, writing some fixed rules to check things—simple, right? Because that's all there is to it; our big data stuff still has technical depth, can optimize networks for risk control.
 
