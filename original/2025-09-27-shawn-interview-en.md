@@ -10,7 +10,7 @@ translated: false
 
 A: Zhiwei Li, Software Engineer working at the intersection of AI and finance.
 
-B: Shawn Shao, a Software Engineer working on AI frameworks, agents, and MCP at an international bank.
+B: Shawn Shao, a Software Engineer working on Copilot frameworks, agents, and MCP at an international bank.
 
 The following conversations were transcribed using the Google Cloud Transcription v2 API, then refined and organized with the help of AI tools.
 
