@@ -12,6 +12,7 @@ on:
       - '_config.yml'
       - '_drafts/**'
       - '_plugins/**'
+      - 'notes'
       - 'requirements/**'
       - 'scripts/translation/**'
       - 'scripts/llm/**'
