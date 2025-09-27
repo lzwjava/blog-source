@@ -26,11 +26,11 @@ Generally speaking, videos are more like TikTok or Douyin; people are increasing
 
 **A:** What I'm thinking is, you've definitely experienced some painful moments, like taking the college entrance exam at 18; this decade must have had some tough times. But you've steadily made it to where you are now, with strong beliefs. At your age, many people are still doing outsourcing work. 
 
-Besides your AIPlayer, we could use MCP to integrate the company's Jira and Confluence interfaces. It doesn't seem that impressive, but there are many tutorials, and many people are doing it. Then you implemented this at a large international bank, and the information you brought is really useful to everyone. Catching this wave is important. If you went to do a very Java-based microservices framework for the company, it might not be as popular.
+Besides your AIPlayer, we could use MCP to integrate the company's Jira and Confluence interfaces. It doesn't seem that impressive, but there are many tutorials, and many people are doing it. Then you implemented this at an international bank, and the information you brought is really useful to everyone. Catching this wave is important. If you went to do a very Java-based microservices framework for the company, it might not be as popular.
 
 **B:** So what's the question?
 
-**A:** The question is, have you experienced some tough moments? Like from Chinasoft to a unicorn Yeahmobi, then to a large international bank. These past five or six years, you've been working very hard too. When you joined Chinasoft, you led a team of thirty people, especially right after graduating from Jiangsu University of Science and Technology. We're not from 985 schools; especially in the first five years of your career, you must have worked much harder than before. For example, back when we graduated, we might have gone to Guangzhou to play for a few hours. Now, however, we really cherish the time we have to talk here in the hotel. I feel like why are you more diligent now than before?
+**A:** The question is, have you experienced some tough moments? Like from Chinasoft to a unicorn Yeahmobi, then to an international bank. These past five or six years, you've been working very hard too. When you joined Chinasoft, you led a team of thirty people, especially right after graduating from Jiangsu University of Science and Technology. We're not from 985 schools; especially in the first five years of your career, you must have worked much harder than before. For example, back when we graduated, we might have gone to Guangzhou to play for a few hours. Now, however, we really cherish the time we have to talk here in the hotel. I feel like why are you more diligent now than before?
 
 **B:** First of all, interest is the best teacher. Whether you agree or not, I think interest is the best teacher. The root of interest is that you want to know what new things are, and seeing new knowledge gives you an impulse to learn about it. So no matter which company I'm in, I'm full of curiosity. 
 
@@ -46,11 +46,11 @@ For example, the unicorn Yeahmobi in Xi'an. The company really encouraged everyo
 
 **B:** Yeah, at that time I didn't even have any practice questions; I just followed the official documents and did one experiment after another. I did it seriously without copying from online materials. There were no real questions or question banks back then; I had no idea about those rote-memorization problems. So I really ran through the GCP products hands-on. I closed myself off with the official docs, reading them carefully one by one. 
 
-Now with AI, it's very convenient, and many people are faking it in this area, I know. Even when the company was recruiting for a large international bank Xi'an. When they saw I had three GCP certifications at once, the interviewer was stunned. Because GCP was just starting to push then, not many people had taken it; it was rare. I had three at once, so the interviewer definitely suspected if they were real, but when grilling me on details, I answered well, so they kept me. Later I joined a large international bank.
+Now with AI, it's very convenient, and many people are faking it in this area, I know. Even when the company was recruiting for an international bank Xi'an. When they saw I had three GCP certifications at once, the interviewer was stunned. Because GCP was just starting to push then, not many people had taken it; it was rare. I had three at once, so the interviewer definitely suspected if they were real, but when grilling me on details, I answered well, so they kept me. Later I joined an international bank.
 
 ### Work Experience, Family, and Career Choices
 
-**A:** At a large international bank, you got promoted for several levels, three levels, right? Before that, you started as Senior Engineer, just like that Daniel earlier. Then the question came; I feel like around 2014-2015, you did a lot of risk control work.
+**A:** At an international bank, you got promoted for several levels, three levels, right? Before that, you started as Senior Engineer, just like that Daniel earlier. Then the question came; I feel like around 2014-2015, you did a lot of risk control work.
 
 **B:** Before, I was doing these risk controls, writing some fixed rules to check things—simple, right? Because that's all there is to it; our big data stuff still has technical depth, can optimize networks for risk control.
 
@@ -78,11 +78,11 @@ Now with AI, it's very convenient, and many people are faking it in this area, I
 
 ### AIPlayer, Agents, and Value Creation
 
-**A:** I feel like you're not very snobbish, not that utilitarian type who keeps comparing everything, thinking what's the point of going to a big city. And you're serving so many people, but it feels like you give the same answers and support to everyone—just help where you can. What about the future? In the next few years, where do you plan to focus? I heard you're working on some agents stuff, and that MCP, and I saw those company things of yours. In the future, do you want to stay at a large international bank? And for the next two or three years, and long-term like ten years, what direction do you plan to take?
+**A:** I feel like you're not very snobbish, not that utilitarian type who keeps comparing everything, thinking what's the point of going to a big city. And you're serving so many people, but it feels like you give the same answers and support to everyone—just help where you can. What about the future? In the next few years, where do you plan to focus? I heard you're working on some agents stuff, and that MCP, and I saw those company things of yours. In the future, do you want to stay at an international bank? And for the next two or three years, and long-term like ten years, what direction do you plan to take?
 
 **B:** What I'm doing now is just stuff I'm interested in. I just do it as it comes, like building a company-level intelligent agent platform. In the future, if other colleagues at the company want to use intelligent agents, they can start from our platform. But agents are all vertical and customer-facing, and solving a lot of problems takes a long time, like 20 minutes. Actually, in this, I think a lot of people are falling into a trap these days—it's really hard for everyone. Like with this AI, it's fundamentally a tool. You only create business value if you truly help users create value. For example, if I say I have a super flashy AI now, it might still not sell to anyone. But if my AI can help you write emails every day or grab English emails, then it can. That's a scenario where it solves a problem for you, and that's what generates more value.
 
-For me, I don't need everything to be universal. I'm inside a large international bank. Actually, the core is combining business knowledge with finance. So I think if you're my business user and you solve problems using my platform, then I've created value. Our product is for the business.
+For me, I don't need everything to be universal. I'm inside an international bank. Actually, the core is combining business knowledge with finance. So I think if you're my business user and you solve problems using my platform, then I've created value. Our product is for the business.
 
 **A:** This thing of yours is easy to promote to DBS Bank or various other banks, because their needs are same from ours. A lot of stuff is already being used with your tools and frameworks. How many people use AIPlayer to solve problems? 
 
@@ -108,7 +108,7 @@ And he says things like learning cello, painting, various studies—he's the bes
 
 **B:** Yeah yeah, impressive. Yeah yeah.  
 
-**A:** What I want to say is, I question these things. I think few ordinary people dare to question everything the way Yin Wang does. He says the Turing Award isn’t a big deal—that computers were invented collectively by many people. Just like at a large international bank—others might idolize you today, but having walked the path yourself, you realize it’s nothing special. Um. Like Turing is just like Andrew Yao or Lou Tiancheng from Pony AI. Yeah. Yin Wang said long ago that AI hadn’t really progressed in the image field: because of lack of large-scale data and the fake nature of the top-5 accuracy test.  
+**A:** What I want to say is, I question these things. I think few ordinary people dare to question everything the way Yin Wang does. He says the Turing Award isn’t a big deal—that computers were invented collectively by many people. Just like at an international bank—others might idolize you today, but having walked the path yourself, you realize it’s nothing special. Um. Like Turing is just like Andrew Yao or Lou Tiancheng from Pony AI. Yeah. Yin Wang said long ago that AI hadn’t really progressed in the image field: because of lack of large-scale data and the fake nature of the top-5 accuracy test.  
 
 **B:** Yeah.  
 
@@ -132,7 +132,7 @@ Historically, I really admire people like Galileo and Newton, but I think Einste
 
 **A:** Uh, yeah, because nothing feels that impressive anymore. One day, if I work hard, I can be like him too. Right. All those big shots—Andrew Yao, Lou Tiancheng—they’re not that impressive either, because Yin Wang breaks everything down. He’s got three PhDs, now at F5 (was at Intel as staff engineer before), super successful at 40, making probably millions in Japan. So this process? I’ve really learned a lot.  
 
-Doubting everything is hard—like starting AIPlayer, or challenging myself to be number one at a large international bank. You don’t expect visible progress in the first few years.  
+Doubting everything is hard—like starting AIPlayer, or challenging myself to be number one at an international bank. You don’t expect visible progress in the first few years.  
 
 **B:** Don’t chase huge goals. Do what you like, take each step seriously. Where’s your real interest? Are you willing to stick with it? Like AI—others might stay up gaming all night, but you keep grinding. You should enjoy the process; success doesn’t matter—you’ve already won by engaging. Our time and knowledge are limited; we can’t dive into everything. But if you’re interested, exploration itself is joyful—it makes you feel like a kid again. Human thinking itself is meaningful happiness.  
 
