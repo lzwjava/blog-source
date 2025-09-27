@@ -46,7 +46,7 @@ For example, the unicorn Yeahmobi in Xi'an. The company really encouraged everyo
 
 **B:** Yeah, at that time I didn't even have any practice questions; I just followed the official documents and did one experiment after another. I did it seriously without copying from online materials. There were no real questions or question banks back then; I had no idea about those rote-memorization problems. So I really ran through the GCP products hands-on. I closed myself off with the official docs, reading them carefully one by one. 
 
-Now with AI, it's very convenient, and many people are faking it in this area, I know. Even when the company was recruiting for an international bank Xi'an. When they saw I had three GCP certifications at once, the interviewer was stunned. Because GCP was just starting to push then, not many people had taken it; it was rare. I had three at once, so the interviewer definitely suspected if they were real, but when grilling me on details, I answered well, so they kept me. Later I joined an international bank.
+Now with AI, it's very convenient, and many people are faking it in this area, I know. Even when the company was recruiting for Xi'an office of an international bank. When they saw I had three GCP certifications at once, the interviewer was stunned. Because GCP was just starting to push then, not many people had taken it; it was rare. I had three at once, so the interviewer definitely suspected if they were real, but when grilling me on details, I answered well, so they kept me. Later I joined an international bank.
 
 ### Work Experience, Family, and Career Choices
 
