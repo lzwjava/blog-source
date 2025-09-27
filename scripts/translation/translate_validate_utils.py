@@ -49,7 +49,7 @@ def check_title_strict(title, target_lang):
     # Check if title contains any forbidden characters
     for char in chars_to_remove:
         if char in title:
-            raise RuntimeError(f"Title contains forbidden character: {char}")
+            raise RuntimeError(f"Title contains forbidden character: {char} title: {title}")
     
     return title.strip()
 
