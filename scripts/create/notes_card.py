@@ -63,27 +63,49 @@ def open_browser(url):
     except Exception as e:
         print(f"Failed to open browser: {e}")
 
-def generate_background_image(titles=None):
-    """Generate a dark tech-themed background image for the notes card"""
-    # Create prompt based on note titles if available
-    if titles and len(titles) > 0:
-        # Join titles with comma and create tech-focused prompt
-        titles_combined = ", ".join(titles)
-        base_prompt = f"""Create a dark, moody, sophisticated technology and AI programming themed background inspired by: {titles_combined}.
-        The background should showcase futuristic computer interfaces, glowing code patterns, digital particles,
-        circuit board motifs, binary code visualization, and advanced technology elements."""
+def generate_background_image(titles=None, theme='tech'):
+    """Generate a background image for the notes card based on theme"""
+    # Create prompt based on theme and note titles
+    if theme == 'tech':
+        if titles and len(titles) > 0:
+            # Join titles with comma and create tech-focused prompt
+            titles_combined = ", ".join(titles)
+            base_prompt = f"""Create a dark, moody, sophisticated technology and AI programming themed background inspired by: {titles_combined}.
+            The background should showcase futuristic computer interfaces, glowing code patterns, digital particles,
+            circuit board motifs, binary code visualization, and advanced technology elements."""
+        else:
+            # Fallback prompt if no titles available
+            base_prompt = """Create a dark, moody, sophisticated technology and AI programming themed background.
+            Show futuristic computer interfaces, glowing code patterns, digital particles,
+            circuit board motifs, binary code visualization, and advanced technology elements."""
+    elif theme == 'nature':
+        if titles and len(titles) > 0:
+            # Join titles with comma and create nature-focused prompt
+            titles_combined = ", ".join(titles)
+            base_prompt = f"""Create a serene, beautiful nature-themed background inspired by: {titles_combined}.
+            The background should showcase natural landscapes with wood, rivers, mountains, forests,
+            lakes, waterfalls, and organic nature elements in peaceful harmony."""
+        else:
+            # Fallback prompt if no titles available
+            base_prompt = """Create a serene, beautiful nature-themed background.
+            Show natural landscapes with wood, rivers, mountains, forests, lakes, waterfalls,
+            and organic nature elements in peaceful harmony."""
     else:
-        # Fallback prompt if no titles available
-        base_prompt = """Create a dark, moody, sophisticated technology and AI programming themed background.
-        Show futuristic computer interfaces, glowing code patterns, digital particles,
-        circuit board motifs, binary code visualization, and advanced technology elements."""
+        raise ValueError(f"Unsupported theme: {theme}")
 
-    # Complete the prompt ensuring no text and dark theme
-    background_prompt = f"""{base_prompt}
+    # Complete the prompt with theme-specific final requirements
+    if theme == 'tech':
+        background_prompt = f"""{base_prompt}
         Use a dark color palette with deep blacks, grays, dark blues, and occasional purple or green tech accents.
         No text or letters of any kind. Pure abstract technology visualization.
         Dark moody atmosphere perfect for technology content.
         Do not include any white or near-white pixels/elements in the image."""
+    elif theme == 'nature':
+        background_prompt = f"""{base_prompt}
+        Use natural, earthy color palettes with greens, blues, browns, and natural tones.
+        No text or letters of any kind. Pure natural landscape visualization.
+        Serene and peaceful atmosphere perfect for nature content.
+        Include realistic natural lighting and atmospheric effects."""
 
 
     # Generate timestamp for unique filename
@@ -108,6 +130,8 @@ def main():
                        help='Number of latest notes to include (default: 5)')
     parser.add_argument('-invite', metavar='NAME',
                        help='Name for invitation message (generates: "NAME invite you to read my latest ai notes")')
+    parser.add_argument('--theme', choices=['tech', 'nature'], default='tech',
+                       help='Theme for background image generation (default: tech)')
 
     args = parser.parse_args()
 
@@ -131,7 +155,7 @@ def main():
         invitation = f"{args.invite}, invites you to read my latest AI notes"
 
     # Generate background image first
-    background_image_path = generate_background_image(titles)
+    background_image_path = generate_background_image(titles, args.theme)
 
     # Generate share card with timestamped filename
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
