@@ -25,7 +25,8 @@ MODEL_MAPPING = {
     "o1-mini": "openai/o1-mini",
     "grok-3": "x-ai/grok-3",
     "grok-code": "x-ai/grok-code-fast-1",
-    "grok-4-fast": "x-ai/grok-4-fast:free"
+    "grok-4-fast": "x-ai/grok-4-fast:free",
+    "perplexity-sonar": "perplexity/sonar-deep-research",
 }
 
 DEFAULT_TOKENS = {
@@ -45,7 +46,8 @@ DEFAULT_TOKENS = {
     "grok-3": 61072,
     "o1-mini":  61072,
     "grok-code": 62144,
-    "grok-4-fast": 61072
+    "grok-4-fast": 61072,
+    "perplexity-sonar": 8192,
 }
 
 
@@ -65,17 +67,17 @@ def call_openrouter_api_with_messages(messages, model="mistral-medium", max_toke
         max_tokens = DEFAULT_TOKENS.get(model, 4096)
 
     data = {"model": MODEL_MAPPING[model], "messages": messages, "max_tokens": max_tokens}
-    
+
     if debug:
         print(f"Request URL: {url}")
         print(f"Request Data: {data}")
-    
+
     try:
         response = requests.post(url, headers=headers, json=data)
         if debug:
             print(f"Response Status Code: {response.status_code}")
             print(f"Response Text: {response.text}")
-        
+
         if response.status_code == 200:
             return response.json()["choices"][0]["message"]["content"]
         else:
