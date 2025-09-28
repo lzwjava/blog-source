@@ -45,9 +45,10 @@ def copy_to_clipboard(text):
 def get_source_options():
     """Get the list of available source options."""
     return [
-        "self",
+        "self-screenshot",
+        "self-captured",
         "walmart",
-        "pinduoduo", 
+        "pinduoduo",
         "amazon",
         "chatgpt"
     ]
@@ -56,7 +57,8 @@ def get_source_options():
 def get_source_mapping():
     """Get the mapping from simplified names to full names."""
     return {
-        "self": "Self-screenshot",
+        "self-screenshot": "Self-screenshot",
+        "self-captured": "Self-captured",
         "walmart": "walmart.com",
         "pinduoduo": "pinduoduo.com",
         "amazon": "amazon.com",
