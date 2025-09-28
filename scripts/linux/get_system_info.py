@@ -161,7 +161,7 @@ def get_gpu_info():
                 gpu_info.append(f"NVIDIA {name}: {total_mb} MB total, {used_mb} MB used, {free_mb} MB free")
     
     # Try AMD GPUs
-    amd_cmd = run_command("lspci -v | grep -i 'vga.*amd\|vga.*ati\|3d.*amd\|3d.*ati' | head -5")
+    amd_cmd = run_command(r"lspci -v | grep -i 'vga.*amd\|vga.*ati\|3d.*amd\|3d.*ati' | head -5")
     if amd_cmd:
         gpu_info.append(f"AMD GPU detected: {amd_cmd}")
     
