@@ -11,7 +11,7 @@ def generate_share_card(titles, output_path):
 
     # Image dimensions - iPhone 14 Pro Max aspect ratio (2.16:1)
     WIDTH = 1080
-    HEIGHT = 2340
+    HEIGHT = 1600
 
     # Create new image with white background
     img = Image.new('RGB', (WIDTH, HEIGHT), color='white')
@@ -19,8 +19,8 @@ def generate_share_card(titles, output_path):
 
     try:
         # Try to use a nice font, fallback to default
-        font_title = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 48)
-        font_notes = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 28)
+        font_title = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 72)
+        font_notes = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 36)
     except:
         # Fallback to default font
         font_title = ImageFont.load_default()
