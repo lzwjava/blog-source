@@ -37,15 +37,24 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
     WIDTH = 1080
     HEIGHT = 1600
 
-    # Create background image
+    # Split layout: Top half for generated image, bottom half for solid color background
+    HALF_HEIGHT = HEIGHT // 2
+
+    # Create split background image
     if background_image_path and os.path.exists(background_image_path):
         # Load background image and center crop to match aspect ratio
         bg_img = Image.open(background_image_path)
-        bg_img = center_crop_to_fit(bg_img, WIDTH, HEIGHT)
-        img = bg_img.convert('RGB')
+        img = Image.new('RGBA', (WIDTH, HEIGHT), color=(64, 0, 64, 255))  # Deep purple background
+
+        # Crop AI image for top half
+        bg_img = center_crop_to_fit(bg_img, WIDTH, HALF_HEIGHT)
+        bg_img = bg_img.convert('RGBA')
+
+        # Paste AI image on top half
+        img.paste(bg_img, (0, 0))
     else:
-        # Create new image with white background
-        img = Image.new('RGB', (WIDTH, HEIGHT), color='white')
+        # Create image with solid purple background if no background image
+        img = Image.new('RGBA', (WIDTH, HEIGHT), color=(64, 0, 64, 255))  # Deep purple
 
     draw = ImageDraw.Draw(img)
 
@@ -60,6 +69,7 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
         font_invitation = ImageFont.load_default()
         font_notes = ImageFont.load_default()
 
+    # All text content is now in the bottom half (bottom area starts at HALF_HEIGHT)
     # Title
     if invitation:
         title = invitation
@@ -67,13 +77,32 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
     else:
         title = "Latest Notes"
         title_font = font_title
-    draw.text((20, 20), title, fill='white', font=title_font)
+
+    base_y_offset = HALF_HEIGHT + 20  # Start text in bottom half
+    draw.text((20, base_y_offset), title, fill='white', font=title_font)
 
     # List notes - adjust offset based on title height
-    title_bbox = draw.textbbox((20, 20), title, font=title_font)
+    title_bbox = draw.textbbox((20, base_y_offset), title, font=title_font)
     y_offset = title_bbox[3] + 40  # Add some padding after title
     for title in titles:
-        draw.text((20, y_offset), f"• {title}", fill='white', font=font_notes)
+        # Calculate text dimensions
+        text = f"• {title}"
+        text_bbox = draw.textbbox((0, 0), text, font=font_notes)
+        text_width = text_bbox[2] - text_bbox[0]
+        text_height = text_bbox[3] - text_bbox[1]
+
+        # Create semi-transparent gray background rectangle
+        padding = 8
+        rect_x1 = 20 - padding
+        rect_y1 = y_offset - padding
+        rect_x2 = 20 + text_width + padding
+        rect_y2 = y_offset + text_height + padding
+
+        # Draw gray semi-transparent background
+        draw.rectangle([rect_x1, rect_y1, rect_x2, rect_y2],
+                      fill=(128, 128, 128, 180))  # Semi-transparent gray
+
+        draw.text((20, y_offset), text, fill='white', font=font_notes)
         y_offset += 50
 
     # Generate QR code
@@ -84,13 +113,13 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
     # Create QR code image
     qr_img = qr.make_image(fill='black', back_color='white')
 
-    # Resize QR code and place on right side - larger for mobile viewing
+    # Resize QR code and place in bottom half - centered
     qr_size = 300
     qr_img = qr_img.resize((qr_size, qr_size))
 
-    # Paste QR code on the image - centered at bottom
+    # Paste QR code on the image - centered in bottom half
     qr_x = (WIDTH - qr_size) // 2
-    qr_y = HEIGHT - qr_size - 100
+    qr_y = HALF_HEIGHT + (HALF_HEIGHT - qr_size) // 2  # Center in bottom half
     img.paste(qr_img, (qr_x, qr_y))
 
     # Add QR code label
@@ -99,6 +128,12 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
     label_x = (WIDTH - draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[2]) // 2
     draw.text((label_x, label_y), "Scan for more notes", fill='white', font=font_notes)
 
-    # Save the image
-    img.save(output_path)
+    # Save the image - convert back to RGB for compatibility
+    if img.mode == 'RGBA':
+        # Create a new RGB image
+        rgb_img = Image.new('RGB', img.size, 'white')
+        rgb_img.paste(img, mask=img.split()[-1])  # Use alpha channel as mask
+        rgb_img.save(output_path)
+    else:
+        img.save(output_path)
     return output_path
