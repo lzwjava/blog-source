@@ -20,21 +20,25 @@ def generate_share_card(titles, output_path, invitation=None):
     try:
         # Try to use a nice font, fallback to default
         font_title = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 72)
+        font_invitation = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 48)
         font_notes = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 36)
     except:
         # Fallback to default font
         font_title = ImageFont.load_default()
+        font_invitation = ImageFont.load_default()
         font_notes = ImageFont.load_default()
 
     # Title
     if invitation:
         title = invitation
+        title_font = font_invitation
     else:
         title = "Latest Notes"
-    draw.text((20, 20), title, fill='black', font=font_title)
+        title_font = font_title
+    draw.text((20, 20), title, fill='black', font=title_font)
 
     # List notes - adjust offset based on title height
-    title_bbox = draw.textbbox((20, 20), title, font=font_title)
+    title_bbox = draw.textbbox((20, 20), title, font=title_font)
     y_offset = title_bbox[3] + 40  # Add some padding after title
     for title in titles:
         draw.text((20, y_offset), f"• {title}", fill='black', font=font_notes)

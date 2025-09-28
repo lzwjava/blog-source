@@ -90,7 +90,7 @@ def main():
     # Generate invitation text if provided
     invitation = None
     if args.invite:
-        invitation = f"{args.invite} invite you to read my latest ai notes"
+        invitation = f"{args.invite}, invites you to read my latest AI notes"
 
     # Generate share card with timestamped filename
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
