@@ -38,3 +38,4 @@ pyobjc-framework-UserNotifications
 ruff
 langdetect
 serpapi
+tiktoken
