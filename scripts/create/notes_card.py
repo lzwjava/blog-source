@@ -6,6 +6,7 @@ import subprocess
 import argparse
 import re
 from pathlib import Path
+from datetime import datetime
 from notes_card_utils import generate_share_card
 
 def get_latest_notes(notes_dir, count=10):
@@ -67,6 +68,8 @@ def main():
                        help='Path to notes directory (default: ./notes)')
     parser.add_argument('-n', type=int, default=5,
                        help='Number of latest notes to include (default: 5)')
+    parser.add_argument('--invite', metavar='NAME',
+                       help='Name for invitation message (generates: "NAME invite you to read my latest ai notes")')
 
     args = parser.parse_args()
 
@@ -84,11 +87,19 @@ def main():
     # Extract titles
     titles = [get_note_title(note) for note in latest_notes]
 
-    # Generate share card
-    output_path = "tmp/share_card.png"
-    card_path = generate_share_card(titles, output_path)
+    # Generate invitation text if provided
+    invitation = None
+    if args.invite:
+        invitation = f"{args.invite} invite you to read my latest ai notes"
+
+    # Generate share card with timestamped filename
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    output_path = f"tmp/share_card_{timestamp}.png"
+    card_path = generate_share_card(titles, output_path, invitation)
 
     print(f"Share card generated: {card_path}")
+    if invitation:
+        print(f"Invitation: {invitation}")
     print("Titles included:")
     for title in titles:
         print(f"• {title}")

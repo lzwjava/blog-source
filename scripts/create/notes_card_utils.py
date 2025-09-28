@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 import qrcode
 import os
 
-def generate_share_card(titles, output_path):
+def generate_share_card(titles, output_path, invitation=None):
     """Generate a share card image with note titles and QR code"""
     # Ensure output directory exists
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -27,11 +27,15 @@ def generate_share_card(titles, output_path):
         font_notes = ImageFont.load_default()
 
     # Title
-    title = "Latest Notes"
+    if invitation:
+        title = invitation
+    else:
+        title = "Latest Notes"
     draw.text((20, 20), title, fill='black', font=font_title)
 
-    # List notes
-    y_offset = 120
+    # List notes - adjust offset based on title height
+    title_bbox = draw.textbbox((20, 20), title, font=font_title)
+    y_offset = title_bbox[3] + 40  # Add some padding after title
     for title in titles:
         draw.text((20, y_offset), f"• {title}", fill='black', font=font_notes)
         y_offset += 50
