@@ -53,7 +53,7 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
         # Try to use a nice font, fallback to default
         font_title = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 72)
         font_invitation = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 48)
-        font_notes = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 36)
+        font_notes = ImageFont.truetype("/System/Library/Fonts/Arial Bold.ttf", 36)
     except:
         # Fallback to default font
         font_title = ImageFont.load_default()
