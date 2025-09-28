@@ -39,3 +39,4 @@ ruff
 langdetect
 serpapi
 tiktoken
+qrcode
