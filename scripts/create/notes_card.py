@@ -68,7 +68,7 @@ def main():
                        help='Path to notes directory (default: ./notes)')
     parser.add_argument('-n', type=int, default=5,
                        help='Number of latest notes to include (default: 5)')
-    parser.add_argument('--invite', metavar='NAME',
+    parser.add_argument('-invite', metavar='NAME',
                        help='Name for invitation message (generates: "NAME invite you to read my latest ai notes")')
 
     args = parser.parse_args()
