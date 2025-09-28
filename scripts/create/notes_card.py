@@ -82,7 +82,8 @@ def generate_background_image(titles=None):
     background_prompt = f"""{base_prompt}
         Use a dark color palette with deep blacks, grays, dark blues, and occasional purple or green tech accents.
         No text or letters of any kind. Pure abstract technology visualization.
-        Dark moody atmosphere perfect for technology content."""
+        Dark moody atmosphere perfect for technology content.
+        Do not include any white or near-white pixels/elements in the image."""
 
 
     # Generate timestamp for unique filename
