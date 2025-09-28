@@ -28,6 +28,9 @@ I began to learn more about hydrogen peroxide with AI chatbots. It's a useful ch
 ![](/assets/images/hydrogen/h1.jpg){: .responsive }  
 *Source: Self-captured*{: .caption }
 
+{: .centered }
+![](assets/images/hydrogen/hydrogen1.jpg){: .responsive }
+*Source: Self-captured*{: .caption }
 
 For readers, you can refer to the Substack articles by Yin Wang below to learn more.
 
