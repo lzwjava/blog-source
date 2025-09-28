@@ -84,7 +84,7 @@ def generate_image_with_imagen(prompt, output_path):
             model="imagen-4.0-generate-preview-06-06",
             prompt=prompt,
             config=GenerateImagesConfig(
-                aspect_ratio = "9:16",  # Vertical ratio to match share card (1080x1600)
+                aspect_ratio = "1:1",  # Square ratio for better center cropping flexibility
                 image_size="1K",
                 output_compression_quality=90,
                 output_mime_type="image/jpeg",
