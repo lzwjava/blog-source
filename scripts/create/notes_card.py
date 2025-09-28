@@ -8,6 +8,9 @@ import re
 from pathlib import Path
 from datetime import datetime
 from notes_card_utils import generate_share_card
+from google import genai
+from google.genai.types import GenerateImagesConfig
+import os
 
 def get_latest_notes(notes_dir, count=10):
     """Get the latest modified notes sorted by modification time"""
@@ -62,6 +65,64 @@ def open_browser(url):
     except Exception as e:
         print(f"Failed to open browser: {e}")
 
+def generate_image_with_imagen(prompt, output_path):
+    """Generate image using Imagen model."""
+    print(f"Generating image with Imagen model...")
+    print(f"Output path: {output_path}")
+
+    try:
+        print("Setting up Vertex AI client...")
+        # Set up Vertex AI client
+        client = genai.Client(
+            vertexai=True,
+            project=os.getenv('GOOGLE_CLOUD_PROJECT'),
+            location=os.getenv('GOOGLE_CLOUD_LOCATION')
+        )
+
+        print("Calling Imagen API with model: imagen-4.0-generate-preview-06-06")
+        image = client.models.generate_images(
+            model="imagen-4.0-generate-preview-06-06",
+            prompt=prompt,
+            config=GenerateImagesConfig(
+                aspect_ratio = "16:9",
+                image_size="1K",
+                output_compression_quality=90,
+                output_mime_type="image/jpeg",
+                number_of_images=1,
+                safety_filter_level="BLOCK_LOW_AND_ABOVE",
+                person_generation="ALLOW_ADULT",
+            ),
+        )
+
+        print("Saving generated image...")
+        image.generated_images[0].image.save(output_path)
+        print(f"✓ Successfully created image at {output_path} using {len(image.generated_images[0].image.image_bytes)} bytes")
+        return True
+
+    except Exception as e:
+        print(f"Error generating image: {e}", file=sys.stderr)
+        return False
+
+
+def generate_background_image():
+    """Generate a colorful background image for the notes card"""
+    # Create a vibrant, abstract background prompt
+    background_prompt = "Create a vibrant and colorful abstract digital art background with flowing geometric patterns, bright gradients in purple, blue, and gold tones, with swirling energy and digital particle effects, perfect for a tech/AI themed card"
+
+    # Generate timestamp for unique filename
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    background_path = f"tmp/background_{timestamp}.jpg"
+
+    print("Generating vibrant background image...")
+    success = generate_image_with_imagen(background_prompt, background_path)
+
+    if success:
+        print(f"✓ Successfully generated background image: {background_path}")
+        return background_path
+    else:
+        print("❌ Failed to generate background image, using default white background")
+        return None
+
 def main():
     parser = argparse.ArgumentParser(description='Generate share card for latest notes')
     parser.add_argument('--notes-dir', default='./notes',
@@ -92,10 +153,13 @@ def main():
     if args.invite:
         invitation = f"{args.invite}, invites you to read my latest AI notes"
 
+    # Generate background image first
+    background_image_path = generate_background_image()
+
     # Generate share card with timestamped filename
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
     output_path = f"tmp/share_card_{timestamp}.png"
-    card_path = generate_share_card(titles, output_path, invitation)
+    card_path = generate_share_card(titles, output_path, invitation, background_image_path)
 
     print(f"Share card generated: {card_path}")
     if invitation:

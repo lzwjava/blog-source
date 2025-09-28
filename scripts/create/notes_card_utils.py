@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 import qrcode
 import os
 
-def generate_share_card(titles, output_path, invitation=None):
+def generate_share_card(titles, output_path, invitation=None, background_image_path=None):
     """Generate a share card image with note titles and QR code"""
     # Ensure output directory exists
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -13,8 +13,16 @@ def generate_share_card(titles, output_path, invitation=None):
     WIDTH = 1080
     HEIGHT = 1600
 
-    # Create new image with white background
-    img = Image.new('RGB', (WIDTH, HEIGHT), color='white')
+    # Create background image
+    if background_image_path and os.path.exists(background_image_path):
+        # Load background image and resize to fit
+        bg_img = Image.open(background_image_path)
+        bg_img = bg_img.resize((WIDTH, HEIGHT))
+        img = bg_img.convert('RGB')
+    else:
+        # Create new image with white background
+        img = Image.new('RGB', (WIDTH, HEIGHT), color='white')
+
     draw = ImageDraw.Draw(img)
 
     try:
