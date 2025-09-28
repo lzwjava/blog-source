@@ -43,13 +43,13 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
     else:
         title = "Latest Notes"
         title_font = font_title
-    draw.text((20, 20), title, fill='black', font=title_font)
+    draw.text((20, 20), title, fill='white', font=title_font)
 
     # List notes - adjust offset based on title height
     title_bbox = draw.textbbox((20, 20), title, font=title_font)
     y_offset = title_bbox[3] + 40  # Add some padding after title
     for title in titles:
-        draw.text((20, y_offset), f"• {title}", fill='black', font=font_notes)
+        draw.text((20, y_offset), f"• {title}", fill='white', font=font_notes)
         y_offset += 50
 
     # Generate QR code
@@ -73,7 +73,7 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
     label_height = draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[3]
     label_y = qr_y - 40
     label_x = (WIDTH - draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[2]) // 2
-    draw.text((label_x, label_y), "Scan for more notes", fill='black', font=font_notes)
+    draw.text((label_x, label_y), "Scan for more notes", fill='white', font=font_notes)
 
     # Save the image
     img.save(output_path)

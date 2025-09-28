@@ -104,16 +104,33 @@ def generate_image_with_imagen(prompt, output_path):
         return False
 
 
-def generate_background_image():
-    """Generate a colorful background image for the notes card"""
-    # Create a vibrant, abstract background prompt
-    background_prompt = "Create a vibrant and colorful abstract digital art background with flowing geometric patterns, bright gradients in purple, blue, and gold tones, with swirling energy and digital particle effects, perfect for a tech/AI themed card"
+def generate_background_image(titles=None):
+    """Generate a dark tech-themed background image for the notes card"""
+    # Create prompt based on note titles if available
+    if titles and len(titles) > 0:
+        # Join titles with comma and create tech-focused prompt
+        titles_combined = ", ".join(titles)
+        base_prompt = f"""Create a dark, moody, sophisticated technology and AI programming themed background inspired by: {titles_combined}.
+        The background should showcase futuristic computer interfaces, glowing code patterns, digital particles,
+        circuit board motifs, binary code visualization, and advanced technology elements."""
+    else:
+        # Fallback prompt if no titles available
+        base_prompt = """Create a dark, moody, sophisticated technology and AI programming themed background.
+        Show futuristic computer interfaces, glowing code patterns, digital particles,
+        circuit board motifs, binary code visualization, and advanced technology elements."""
+
+    # Complete the prompt ensuring no text and dark theme
+    background_prompt = f"""{base_prompt}
+        Use a dark color palette with deep blacks, grays, dark blues, and occasional purple or green tech accents.
+        No text or letters of any kind. Pure abstract technology visualization.
+        Dark moody atmosphere perfect for technology content."""
+
 
     # Generate timestamp for unique filename
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     background_path = f"tmp/background_{timestamp}.jpg"
 
-    print("Generating vibrant background image...")
+    print("Generating dark tech-themed background image...")
     success = generate_image_with_imagen(background_prompt, background_path)
 
     if success:
@@ -154,7 +171,7 @@ def main():
         invitation = f"{args.invite}, invites you to read my latest AI notes"
 
     # Generate background image first
-    background_image_path = generate_background_image()
+    background_image_path = generate_background_image(titles)
 
     # Generate share card with timestamped filename
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
