@@ -87,23 +87,7 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
     title_bbox = draw.textbbox((20, base_y_offset), title, font=title_font)
     y_offset = title_bbox[3] + 40  # Add some padding after title
     for title in titles:
-        # Calculate text dimensions
         text = f"• {title}"
-        text_bbox = draw.textbbox((0, 0), text, font=font_notes)
-        text_width = text_bbox[2] - text_bbox[0]
-        text_height = text_bbox[3] - text_bbox[1]
-
-        # Create semi-transparent gray background rectangle
-        padding = 8
-        rect_x1 = 20 - padding
-        rect_y1 = y_offset - padding
-        rect_x2 = 20 + text_width + padding
-        rect_y2 = y_offset + text_height + padding
-
-        # Draw gray semi-transparent background
-        draw.rectangle([rect_x1, rect_y1, rect_x2, rect_y2],
-                      fill=(128, 128, 128, 180))  # Semi-transparent gray
-
         draw.text((20, y_offset), text, fill='white', font=font_notes)
         y_offset += 50
 
@@ -115,20 +99,19 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
     # Create QR code image
     qr_img = qr.make_image(fill='black', back_color='white')
 
-    # Make QR code smaller and place in bottom right corner
+    # Make QR code smaller and place in center
     qr_size = 200  # Smaller size
     qr_img = qr_img.resize((qr_size, qr_size))
 
-    # Paste QR code on the image - bottom right corner
-    qr_x = WIDTH - qr_size - 30  # 30px margin from right edge
-    qr_y = HEIGHT - qr_size - 30  # 30px margin from bottom edge
+    # Paste QR code on the image - positioned near bottom edge with 20px margin
+    qr_x = (WIDTH - qr_size) // 2
+    qr_y = HEIGHT - qr_size - 20  # Position 20px above bottom edge
     img.paste(qr_img, (qr_x, qr_y))
 
-    # Add QR code label - position above the QR code on the left
+    # Add QR code label - centered above QR code
     label_height = draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[3]
     label_y = qr_y - 40
-    label_width = draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[2]
-    label_x = qr_x + (qr_size - label_width) // 2  # Center above QR code
+    label_x = (WIDTH - draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[2]) // 2
     draw.text((label_x, label_y), "Scan for more notes", fill='white', font=font_notes)
 
     # Save the image - convert back to RGB for compatibility
