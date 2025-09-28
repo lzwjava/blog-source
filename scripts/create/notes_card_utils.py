@@ -4,6 +4,30 @@ from PIL import Image, ImageDraw, ImageFont
 import qrcode
 import os
 
+def center_crop_to_fit(img, target_width, target_height):
+    """Center crop an image to fit target dimensions while preserving aspect ratio"""
+    img_width, img_height = img.size
+    target_ratio = target_width / target_height
+    img_ratio = img_width / img_height
+
+    if img_ratio > target_ratio:
+        # Image is wider than target ratio, crop width
+        new_width = int(img_height * target_ratio)
+        offset = (img_width - new_width) // 2
+        cropped_img = img.crop((offset, 0, offset + new_width, img_height))
+    elif img_ratio < target_ratio:
+        # Image is taller than target ratio, crop height
+        new_height = int(img_width / target_ratio)
+        offset = (img_height - new_height) // 2
+        cropped_img = img.crop((0, offset, img_width, offset + new_height))
+    else:
+        # Same aspect ratio, no cropping needed
+        cropped_img = img
+
+    # Resize to exact target dimensions
+    resized_img = cropped_img.resize((target_width, target_height), Image.Resampling.LANCZOS)
+    return resized_img
+
 def generate_share_card(titles, output_path, invitation=None, background_image_path=None):
     """Generate a share card image with note titles and QR code"""
     # Ensure output directory exists
@@ -15,9 +39,9 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
 
     # Create background image
     if background_image_path and os.path.exists(background_image_path):
-        # Load background image and resize to fit
+        # Load background image and center crop to match aspect ratio
         bg_img = Image.open(background_image_path)
-        bg_img = bg_img.resize((WIDTH, HEIGHT))
+        bg_img = center_crop_to_fit(bg_img, WIDTH, HEIGHT)
         img = bg_img.convert('RGB')
     else:
         # Create new image with white background
