@@ -6,8 +6,7 @@ import subprocess
 import argparse
 import re
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
-import qrcode
+from notes_card_utils import generate_share_card
 
 def get_latest_notes(notes_dir, count=10):
     """Get the latest modified notes sorted by modification time"""
@@ -50,60 +49,6 @@ def get_note_title(note_path):
         print(f"Warning: Could not read title from {note_path.name}: {e}")
         return note_path.stem
 
-def generate_share_card(notes, output_path):
-    """Generate a share card image with note titles and QR code"""
-    # Image dimensions
-    WIDTH = 800
-    HEIGHT = 600
-
-    # Create new image with white background
-    img = Image.new('RGB', (WIDTH, HEIGHT), color='white')
-    draw = ImageDraw.Draw(img)
-
-    try:
-        # Try to use a nice font, fallback to default
-        font_title = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 24)
-        font_notes = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", 16)
-    except:
-        # Fallback to default font
-        font_title = ImageFont.load_default()
-        font_notes = ImageFont.load_default()
-
-    # Title
-    title = "Latest Notes"
-    draw.text((20, 20), title, fill='black', font=font_title)
-
-    # List notes
-    y_offset = 80
-    for i, note in enumerate(notes[:8]):  # Limit to 8 notes for space
-        title = get_note_title(note)
-        draw.text((20, y_offset), f"• {title}", fill='black', font=font_notes)
-        y_offset += 30
-
-    # Generate QR code
-    qr = qrcode.QRCode(version=1, box_size=10, border=5)
-    qr.add_data("https://lzwjava.github.io/notes-en")
-    qr.make(fit=True)
-
-    # Create QR code image
-    qr_img = qr.make_image(fill='black', back_color='white')
-
-    # Resize QR code and place on right side
-    qr_size = 150
-    qr_img = qr_img.resize((qr_size, qr_size))
-
-    # Paste QR code on the image
-    qr_x = WIDTH - qr_size - 20
-    qr_y = HEIGHT - qr_size - 20
-    img.paste(qr_img, (qr_x, qr_y))
-
-    # Add QR code label
-    draw.text((qr_x, qr_y - 25), "Scan for more notes", fill='black', font=font_notes)
-
-    # Save the image
-    img.save(output_path)
-    return output_path
-
 def open_browser(url):
     """Open URL in default browser"""
     try:
@@ -136,14 +81,16 @@ def main():
         print("No notes found")
         return
 
+    # Extract titles
+    titles = [get_note_title(note) for note in latest_notes]
+
     # Generate share card
-    output_path = "share_card.png"
-    card_path = generate_share_card(latest_notes, output_path)
+    output_path = "tmp/share_card.png"
+    card_path = generate_share_card(titles, output_path)
 
     print(f"Share card generated: {card_path}")
     print("Titles included:")
-    for i, note in enumerate(latest_notes):
-        title = get_note_title(note)
+    for title in titles:
         print(f"• {title}")
     print(f"QR code links to: https://lzwjava.github.io/notes-en")
 
