@@ -37,24 +37,26 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
     WIDTH = 1080
     HEIGHT = 1600
 
-    # Split layout: Top half for generated image, bottom half for solid color background
-    HALF_HEIGHT = HEIGHT // 2
-
-    # Create split background image
+    # Create full-area background image
     if background_image_path and os.path.exists(background_image_path):
         # Load background image and center crop to match aspect ratio
         bg_img = Image.open(background_image_path)
-        img = Image.new('RGBA', (WIDTH, HEIGHT), color=(64, 0, 64, 255))  # Deep purple background
-
-        # Crop AI image for top half
-        bg_img = center_crop_to_fit(bg_img, WIDTH, HALF_HEIGHT)
-        bg_img = bg_img.convert('RGBA')
-
-        # Paste AI image on top half
-        img.paste(bg_img, (0, 0))
+        bg_img = center_crop_to_fit(bg_img, WIDTH, HEIGHT)
+        img = bg_img.convert('RGBA')
     else:
-        # Create image with solid purple background if no background image
-        img = Image.new('RGBA', (WIDTH, HEIGHT), color=(64, 0, 64, 255))  # Deep purple
+        # Create new image with white background if no background image
+        img = Image.new('RGBA', (WIDTH, HEIGHT), color='white')
+
+    # Add semi-transparent blur effect to bottom area for better text readability
+    HALF_HEIGHT = HEIGHT // 2
+    blur_overlay = Image.new('RGBA', (WIDTH, HEIGHT), (0, 0, 0, 0))  # Transparent overlay
+    draw_overlay = ImageDraw.Draw(blur_overlay)
+
+    # Create a semi-transparent dark rectangle over the bottom half
+    draw_overlay.rectangle([0, HALF_HEIGHT, WIDTH, HEIGHT], fill=(0, 0, 0, 120))  # Semi-transparent black
+
+    # Composite the blur overlay onto the background
+    img = Image.alpha_composite(img, blur_overlay)
 
     draw = ImageDraw.Draw(img)
 
@@ -113,19 +115,20 @@ def generate_share_card(titles, output_path, invitation=None, background_image_p
     # Create QR code image
     qr_img = qr.make_image(fill='black', back_color='white')
 
-    # Resize QR code and place in bottom half - centered
-    qr_size = 300
+    # Make QR code smaller and place in bottom right corner
+    qr_size = 200  # Smaller size
     qr_img = qr_img.resize((qr_size, qr_size))
 
-    # Paste QR code on the image - centered in bottom half
-    qr_x = (WIDTH - qr_size) // 2
-    qr_y = HALF_HEIGHT + (HALF_HEIGHT - qr_size) // 2  # Center in bottom half
+    # Paste QR code on the image - bottom right corner
+    qr_x = WIDTH - qr_size - 30  # 30px margin from right edge
+    qr_y = HEIGHT - qr_size - 30  # 30px margin from bottom edge
     img.paste(qr_img, (qr_x, qr_y))
 
-    # Add QR code label
+    # Add QR code label - position above the QR code on the left
     label_height = draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[3]
     label_y = qr_y - 40
-    label_x = (WIDTH - draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[2]) // 2
+    label_width = draw.textbbox((0, 0), "Scan for more notes", font=font_notes)[2]
+    label_x = qr_x + (qr_size - label_width) // 2  # Center above QR code
     draw.text((label_x, label_y), "Scan for more notes", fill='white', font=font_notes)
 
     # Save the image - convert back to RGB for compatibility
