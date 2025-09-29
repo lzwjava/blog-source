@@ -1,0 +1,227 @@
+---
+title: Top Python Package Downloads Listed
+lang: en
+layout: post
+audio: false
+translated: false
+generated: true
+image: false
+model: x-ai/grok-code-fast-1
+---
+
+The top 200 most downloaded Python packages on PyPI, based on recent download statistics and popularity rankings, are listed below in approximate order of downloads. Each includes a one-line description. Note that PyPI download counts can vary over time and are influenced by transitive dependencies; this list draws from comprehensive sources like PyPI stats, GitHub best-of lists (e.g., best-of-python), and curated library rankings.[1][2][3][3][4]
+
+- **pip**: The standard package manager for installing Python libraries from PyPI.
+- **setuptools**: Library for easily building and distributing Python packages.
+- **wheel**: Built-package format for Python distributions for faster installations.
+- **requests**: Simple, elegant HTTP library for making requests.
+- **urllib3**: HTTP client library with thread-safe connection pooling.
+- **certifi**: Collection of root certificates for SSL verification.
+- **chardet**: Universal character encoding detector.
+- **idna**: Support for Internationalized Domain Names (IDNA).
+- **six**: Python 2 and 3 compatibility utilities.
+- **cryptography**: Cryptographic recipes and primitives.
+- **cffi**: Foreign Function Interface for calling C code.
+- **pycparser**: C parser and AST generator written in Python.
+- **packaging**: Core utilities for Python packages.
+- **pyparsing**: Library for creating and executing simple grammars.
+- **typing_extensions**: Extensions to the standard 'typing' module.
+- **PyYAML**: YAML parser and emitter for Python.
+- **numpy**: Fundamental package for array computing with Python.
+- **scipy**: Library for scientific and technical computing.
+- **pandas**: Data analysis and manipulation library.
+- **matplotlib**: Plotting library for creating static, interactive visualizations.
+- **scikit-learn**: Machine learning library for Python.
+- **Pillow**: The friendly PIL fork for image processing.
+- **h5py**: HDF5 file format interface.
+- **openpyxl**: Python library for reading/writing Excel files.
+- **xlrd**: Library for reading data from Excel files.
+- **xlwt**: Library for writing data to Excel files.
+- **Jinja2**: Template engine for Python.
+- **MarkupSafe**: Safely escape text for safe use in HTML and XML.
+- **Flask**: Lightweight WSGI web application framework.
+- **Werkzeug**: WSGI utility library for Python.
+- **itsdangerous**: Various helpers for securely passing data.
+- **Click**: Command Line Interface Creation Kit.
+- **Django**: High-level Python web framework.
+- **Pytz**: World timezone definitions.
+- **python-dateutil**: Extensions to the standard Python datetime module.
+- **tzlocal**: Tzinfo object for local timezone.
+- **SQLAlchemy**: SQL toolkit and Object-Relational Mapping for Python.
+- **psycopg2**: PostgreSQL adapter for Python.
+- **pymysql**: Pure Python MySQL client.
+- **PyMySQL**: MySQL client written in pure Python (duplicate; see pymysql).
+- **psutil**: Cross-platform process and system utilities.
+- **chardet2**: Another character detection library (variant).
+- **lxml**: Powerful and Pythonic XML processing library.
+- **etree**: ElementTree XML API for Python (part of standard library).
+- **beautifulsoup4**: Library for pulling data out of HTML and XML files.
+- **html5lib**: HTML parser based on the WHATWG specification.
+- **webencodings**: Character encoding aliases for legacy web content.
+- **soupsieve**: CSS selector support for Beautiful Soup.
+- **nose**: Test discovery and running for unittest-style tests.
+- **coverage**: Code coverage measurement for Python.
+- **pytest**: Framework for writing and running tests.
+- **mock**: Library for mocking in Python tests.
+- **pluggy**: Environment variable parsing for Python.
+- **toml**: TOML parser for Python.
+- **ruamel.yaml**: YAML parser/emitter with round-trip capabilities.
+- **pathlib2**: Older backport of pathlib for Python < 3.4.
+- **scandir**: Better directory iteration functionality.
+- **future**: Clean single-source support for Python 3 and 2.
+- **enum34**: Backport of Python 3.4 Enum.
+- **functools32**: Backport of Python 3.4 functools.lru_cache.
+- **appdirs**: Platform-specific system directory locations.
+- **filelock**: Platform-independent file locking.
+- **distlib**: Distribution utilities for Python packages.
+- **checkerboard**: Cross-platform system information library (possibly deprecated).
+- **tensorflow**: Open-source machine learning platform.
+- **tensorflow-estimator**: TensorFlow estimator APIs.
+- **tensorboard**: Visualization toolkit for TensorFlow.
+- **keras**: High-level neural networks API.
+- **protobuf**: Protocol Buffers serialization for structured data.
+- **tensorflow-hub**: Reusable machine learning modules.
+- **absl-py**: Abseil Python Common Libraries.
+- **grpcio**: gRPC library for Python.
+- **markdown**: Markdown parser for Python.
+- **werkzeug**: Comprehensive WSGI utility library.
+- **flask-cors**: CORS support for Flask applications.
+- **gevent**: Coroutine-based networking library.
+- **greenlet**: Light-weight in-process concurrent programming.
+- **eventlet**: Concurrent networking library for Python.
+- **dnspython**: DNS toolkit for Python.
+- **paramiko**: SSHv2 protocol library for Python.
+- **pynacl**: Python binding to libsodium for encryption.
+- **bcrypt**: Modern password hashing for software.
+- **fabric**: Tool for streamlining the use of SSH.
+- **invoke**: Pythonic task execution for local system automation.
+- **ansible**: Automation tool for configuration management.
+- **botocore**: Core functionality of boto3, the AWS SDK for Python.
+- **boto3**: AWS SDK for Python.
+- **s3transfer**: Advanced utility for efficient Amazon S3 multipart uploads.
+- **urllib3**: Already listed, but core for boto.
+- **bz2file**: Read and write bzip2-compressed files.
+- **azure-storage-blob**: Microsoft Azure Storage Blob client library.
+- **azure-common**: Microsoft Azure common library.
+- **azure-core**: Microsoft Azure core library for Python clients.
+- **msrest**: Microsoft REST API client library.
+- **httplib2**: Comprehensive HTTP client library.
+- **oauth2client**: OAuth 2.0 client library for Python.
+- **google-api-core**: Google API client core library.
+- **google-auth**: Google authentication library.
+- **google-api-python-client**: Google APIs Client Library for Python.
+- **google-cloud-core**: Google Cloud API client core library.
+- **gspread**: Google Sheets API v4 for Python.
+- **oauthlib**: OAuth request signing for Python.
+- **requests-oauthlib**: OAuth library support for Requests.
+- **tweepy**: Twitter API client for Python.
+- **slackclient**: Slack API client for Python.
+- **redis**: Python client for Redis.
+- **celery**: Distributed task queue library.
+- **kombu**: Messaging library for Python.
+- **django-celery-results**: Django-savvy result backends for Celery.
+- **pytest-django**: Django plugin for pytest.
+- **django-extensions**: Extensions for Django.
+- **djangorestframework**: Web APIs for Django.
+- **django-filter**: REST framework integration for filtering.
+- **django-cors-headers**: Django CORS headers middleware.
+- **sentry-sdk**: SDK for Sentry application monitoring.
+- **IPython**: Interactive computing in Python.
+- **jupyter-core**: Core Jupyter functionality.
+- **jupyter-client**: Jupyter kernels for Python.
+- **ipykernel**: IPython kernel for Jupyter.
+- **nbformat**: Jupyter notebook format.
+- **nbconvert**: Convert Jupyter notebooks to other formats.
+- **notebook**: Web application for creating and sharing Jupyter notebooks.
+- **widgetsnbextension**: IPython widget extension for Jupyter.
+- **ipywidgets**: Interactive widgets for Jupyter notebooks.
+- **jupyter-console**: Jupyter terminal console.
+- **qtconsole**: Jupyter Qt console.
+- **rise**: Reveal.js - Jupyter/IPython Slideshow Extension.
+- **plotly**: Data visualization library for interactive plots.
+- **dash**: Framework for building web applications with Python.
+- **jellyfish**: Approximate and phonetic string matching.
+- **fuzzywuzzy**: Fuzzy string matching in Python.
+- **python-levenshtein**: Fast implementations of Levenshtein distance.
+- **nltk**: Natural language processing toolkit.
+- **gensim**: Topic modeling and document similarity library.
+- **spacy**: Industrial-strength natural language processing.
+- **transformers**: State-of-the-art natural language processing.
+- **torch**: PyTorch deep learning framework.
+- **torchvision**: Datasets, transforms, and models for vision tasks.
+- **torchaudio**: Audio support for PyTorch.
+- **sympy**: Computer algebra system written in Python.
+- **sympy3** : Variant or extension of sympy (possibly deprecated).
+- **autograd**: Efficient GPU memory management for PyTorch.
+- **numba**: JIT compiler for Python functions.
+- **cython**: C extensions for Python.
+- **joblib**: Lightweight pipelining with Python functions.
+- **dask**: Flexible library for parallel computing.
+- **zipp**: Backport of pathlib's Path for zip files.
+- **jaraco.classes**: Base classes for Python.
+- **jaraco.collections**: Collection utilities for Python.
+- **jaraco.text**: Text processing utilities.
+- **jaraco.itertools**: Iterator utilities.
+- **tempora**: Objects and routines pertaining to date and time.
+- **backports.functools_lru_cache**: Backport of functools.lru_cache.
+- **backports.weakref**: Backport of weakref enhancements.
+- **more-itertools**: More routines for operating on iterables.
+- **attrs**: Python classes without boilerplate.
+- **platformdirs**: Platform-specific system directory locations.
+- **colorama**: Cross-platform colored terminal text.
+- **tqdm**: Smart progress bars for loops and iterables.
+- **path**: OS-Specific path manipulation.
+- **path.py**: Path manipulation library (older version).
+- **python-slugify**: Returns unicode slugs for strings.
+- **unidecode**: ASCII transliterations of Unicode text.
+- **cldr**: CLDR utilities for Python.
+- **babel**: Internationalization utilities.
+- **pytzdata**: Timezone data for timezone library.
+- **bottle**: Fast, simple web framework for small applications.
+- **cherrypy**: Minimalist web framework for Python.
+- **tornado**: Web framework and asynchronous networking library.
+- **aiohttp**: Asynchronous HTTP client/server for asyncio.
+- **asyncpg**: Fast PostgreSQL driver for async Python.
+- **httpx**: Async HTTP client for Python.
+- **uvicorn**: Lightning-fast ASGI server for Python.
+- **fastapi**: Modern, fast web framework for APIs.
+- **starlette**: Lightweight ASGI framework/toolkit for Python.
+- **gunicorn**: WSGI HTTP Server for UNIX.
+- **pyramid**: Web framework for Python.
+- **pyramid-credential**: Credential checking for Pyramid.
+- **pyramid-oauth**: OAuth support for Pyramid.
+- **alembic**: Database migration tool for SQLAlchemy.
+- **mako**: Fast template library for Python.
+- **redis-py-client**: Duplicate of redis (see above).
+- **pika**: RabbitMQ client library.
+- **amqp**: AMQP library for Python.
+- **msgpack**: MessagePack serialization for Python.
+- **pickle5**: Backport of the pickle protocol 5.
+- **cloudpickle**: Extended pickling support for Python.
+- **dill**: Serialize all of Python.
+- **multiprocess**: Better multiprocessing and multithreading.
+- **pexpect**: Control interactive programs from Python.
+- **ptyprocess**: Run interactive processes attached to a pseudo-terminal.
+- **subprocess32**: Backport of subprocess from Python 3.2.
+- **threadpoolctl**: Python helpers to limit time in thread-only compute.
+- **opencv-python**: Open-source computer vision library.
+- **scikit-image**: Image processing in Python.
+- **imgaug**: Image augmentation for machine learning.
+- **albumentations**: Fast image augmentation library.
+- **pycocotools**: COCO dataset utilities for Python.
+- **seaborn**: Statistical data visualization based on matplotlib.
+- **altair**: Declarative statistical visualization library.
+- **bokeh**: Interactive visualization library for modern web browsers.
+- **folium**: Python wrapper for Leaflet.js for interactive maps.
+- **geopy**: Geocoding web services for Python.
+- **pyproj**: Python interface to PROJ (cartographic projections).
+- **shapely**: Geometry library for Python.
+- **fiona**: OGR's neat and nimble API for Python programmers.
+- **descartes**: Descartes for plotting geometry data.
+- **cartopy**: Cartographic projections and derived products.
+
+Citations:
+[1] https://catswhocode.com/development/python-modules-list/
+[2] https://www.wscubetech.com/resources/python/libraries
+[3] https://github.com/lukasmasuch/best-of-python
+[4] https://www.stxnext.com/blog/most-popular-python-scientific-libraries
