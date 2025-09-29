@@ -12,9 +12,9 @@ import glob
 def generate_random_date() -> str:
     """Generate a random date within the past year"""
     end_date = datetime.now()
-    start_date = end_date - timedelta(days=365)
+    start_date = end_date - timedelta(days=180)
 
-    random_days = random.randint(0, 365)
+    random_days = random.randint(0, 180)
     random_date = start_date + timedelta(days=random_days)
 
     return random_date.strftime('%Y-%m-%d')
