@@ -10,12 +10,13 @@ if not OPENROUTER_API_KEY:
 
 MODEL_MAPPING = {
     "claude-opus": "anthropic/claude-opus-4",
-    "claude-sonnet": "anthropic/claude-sonnet-4",
+    "claude-sonnet": "anthropic/claude-4.5-sonnet",
     "gemini-flash": "google/gemini-2.5-flash",
     "gemini-pro": "google/gemini-2.5-pro",
     "kimi-k2": "moonshotai/kimi-k2",
     "deepseek-v3": "deepseek/deepseek-chat-v3-0324",
     "deepseek-v3.1":"deepseek/deepseek-chat-v3.1",
+    "deepseek-v3.2": "deepseek/deepseek-v3.2-exp",
     "mistral-medium": "mistralai/mistral-medium-3.1",
     "mistral-large": "mistralai/mistral-large",
     "qwen-coder":"qwen/qwen3-coder",
@@ -37,6 +38,7 @@ DEFAULT_TOKENS = {
     "kimi-k2": 32768,
     "deepseek-v3": 32768,
     "deepseek-v3.1": 32768,
+    "deepseek-v3.2": 32768,
     "mistral-medium": 32768,
     "mistral-large": 8192,
     "qwen-coder": 32768,
