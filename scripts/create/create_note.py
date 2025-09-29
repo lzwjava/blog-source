@@ -103,12 +103,15 @@ def parse_args():
 
 def generate_random_date():
     """Generate a random date within the last 180 days"""
+    # Seed the random number generator with current timestamp for better randomness
+    random.seed()
+
     end_date = datetime.now()
     start_date = end_date - timedelta(days=180)
-    
+
     random_days = random.randint(0, 180)
     random_date = start_date + timedelta(days=random_days)
-    
+
     return random_date.strftime('%Y-%m-%d')
 
 if __name__ == "__main__":
