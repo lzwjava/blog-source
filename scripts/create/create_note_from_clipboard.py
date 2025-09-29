@@ -46,7 +46,7 @@ def create_note_from_content(content, custom_title=None, directory="notes", date
             raise ValueError("Short title contains underscore. Please try again with a different title.")
 
     # Create file path
-    file_path = create_filename(short_title, directory)
+    file_path = create_filename(short_title, directory, date)
 
     # Format front matter with date
     front_matter = format_front_matter(full_title, note_model_key, date)
