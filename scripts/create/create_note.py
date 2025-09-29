@@ -24,10 +24,10 @@ def git_pull_rebase() -> None:
             ["git", "rev-parse", "--show-toplevel"], text=True
         ).strip()
         print(f"[info] Running 'git pull --rebase' in {toplevel}...")
-        # Do not raise on non-zero; we only warn to avoid blocking note creation
-        subprocess.run(["git", "-C", toplevel, "pull", "--rebase"], check=False)
+        subprocess.run(["git", "-C", toplevel, "pull", "--rebase"], check=True)
     except Exception as e:
-        print(f"[warn] Skipping git pull --rebase: {e}")
+        print(f"[error] git pull --rebase failed: {e}")
+        raise
 
 
 def _repo_root() -> str:
