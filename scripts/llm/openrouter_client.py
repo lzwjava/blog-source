@@ -88,7 +88,7 @@ def call_openrouter_api_with_messages(messages, model="mistral-medium", max_toke
         raise Exception(f"An error occurred: {str(e)}")
 
 
-def call_openrouter_api(prompt, model="deepseek-v3.1", max_tokens=None, debug=False):
+def call_openrouter_api(prompt, model="deepseek-v3.2", max_tokens=None, debug=False):
     messages = [{"role": "user", "content": prompt}]
     return call_openrouter_api_with_messages(messages, model, max_tokens, debug)
 
