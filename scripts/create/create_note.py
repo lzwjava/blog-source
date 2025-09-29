@@ -104,7 +104,7 @@ def parse_args():
 def generate_random_date():
     """Generate a random date within the last 180 days"""
     # Seed the random number generator with current timestamp for better randomness
-    random.seed()
+    random.seed(datetime.now().timestamp())
 
     end_date = datetime.now()
     start_date = end_date - timedelta(days=180)
@@ -120,6 +120,7 @@ if __name__ == "__main__":
 
     args = parse_args()
     random_date = generate_random_date() if args.random else None
+    print(f"[debug] random_date: {random_date}")  # Debug output
 
     created_path = create_note(date=random_date, note_model_key=args.model)
 
