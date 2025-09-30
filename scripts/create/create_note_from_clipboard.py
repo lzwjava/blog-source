@@ -70,8 +70,12 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="Create a note from clipboard content.")
+    parser.add_argument("--content", help="Content to create note from (if not provided, uses clipboard)")
     parser.add_argument("--note-model", required=True, help="Model key to annotate in frontmatter (must match scripts.llm.openrouter_client.MODEL_MAPPING)")
     parser.add_argument("--date", help="Override date (YYYY-MM-DD)")
     args = parser.parse_args()
 
-    create_note(date=args.date, note_model_key=args.note_model)
+    if args.content:
+        create_note_from_content(args.content, date=args.date, note_model_key=args.note_model)
+    else:
+        create_note(date=args.date, note_model_key=args.note_model)
