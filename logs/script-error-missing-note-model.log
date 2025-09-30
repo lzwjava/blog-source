@@ -1,0 +1,62 @@
+2025-10-01T04:29:55.671+08:00 INFO  main trace- org.lzwjava.Application                  :
+                Starting Application using Java 24.0.1 with PID 97233 (/Users/lzwjava/projects/blog-server/target/classes started by lzwjava in /Users/lzwjava/projects/blog-server)
+2025-10-01T04:29:55.673+08:00 INFO  main trace- org.lzwjava.Application                  :
+                No active profile set, falling back to 1 default profile: "default"
+2025-10-01T04:29:56.076+08:00 INFO  main trace- o.s.b.w.embedded.tomcat.TomcatWebServer  :
+                Tomcat initialized with port 8080 (http)
+2025-10-01T04:29:56.080+08:00 INFO  main trace- o.a.coyote.http11.Http11NioProtocol      :
+                Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-01T04:29:56.081+08:00 INFO  main trace- o.apache.catalina.core.StandardService   :
+                Starting service [Tomcat]
+2025-10-01T04:29:56.081+08:00 INFO  main trace- o.apache.catalina.core.StandardEngine    :
+                Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-10-01T04:29:56.097+08:00 INFO  main trace- o.a.c.c.C.[Tomcat].[localhost].[/]       :
+                Initializing Spring embedded WebApplicationContext
+2025-10-01T04:29:56.097+08:00 INFO  main trace- w.s.c.ServletWebServerApplicationContext :
+                Root WebApplicationContext: initialization completed in 408 ms
+2025-10-01T04:29:56.164+08:00 INFO  main trace- o.s.b.a.w.s.WelcomePageHandlerMapping    :
+                Adding welcome page: class path resource [static/index.html]
+2025-10-01T04:29:56.269+08:00 INFO  main trace- o.s.b.a.e.web.EndpointLinksResolver      :
+                Exposing 1 endpoint beneath base path '/actuator'
+2025-10-01T04:29:56.292+08:00 INFO  main trace- o.a.coyote.http11.Http11NioProtocol      :
+                Starting ProtocolHandler ["http-nio-8080"]
+2025-10-01T04:29:56.299+08:00 INFO  main trace- o.s.b.w.embedded.tomcat.TomcatWebServer  :
+                Tomcat started on port 8080 (http) with context path '/'
+2025-10-01T04:29:56.306+08:00 INFO  main trace- org.lzwjava.Application                  :
+                Started Application in 0.781 seconds (process running for 0.949)
+2025-10-01T04:31:39.603+08:00 INFO  http-nio-8080-exec-1 trace- o.a.c.c.C.[Tomcat].[localhost].[/]       :
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-01T04:31:39.603+08:00 INFO  http-nio-8080-exec-1 trace- o.s.web.servlet.DispatcherServlet        :
+                Initializing Servlet 'dispatcherServlet'
+2025-10-01T04:31:39.603+08:00 DEBUG http-nio-8080-exec-1 trace- o.s.web.servlet.DispatcherServlet        :
+                Detected StandardServletMultipartResolver
+2025-10-01T04:31:39.603+08:00 DEBUG http-nio-8080-exec-1 trace- o.s.web.servlet.DispatcherServlet        :
+                Detected AcceptHeaderLocaleResolver
+2025-10-01T04:31:39.603+08:00 DEBUG http-nio-8080-exec-1 trace- o.s.web.servlet.DispatcherServlet        :
+                Detected FixedThemeResolver
+2025-10-01T04:31:39.604+08:00 DEBUG http-nio-8080-exec-1 trace- o.s.web.servlet.DispatcherServlet        :
+                Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6ab0738b
+2025-10-01T04:31:39.604+08:00 DEBUG http-nio-8080-exec-1 trace- o.s.web.servlet.DispatcherServlet        :
+                Detected org.springframework.web.servlet.support.SessionFlashMapManager@7f5a7edf
+2025-10-01T04:31:39.604+08:00 DEBUG http-nio-8080-exec-1 trace- o.s.web.servlet.DispatcherServlet        :
+                enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-10-01T04:31:39.604+08:00 INFO  http-nio-8080-exec-1 trace- o.s.web.servlet.DispatcherServlet        :
+                Completed initialization in 1 ms
+2025-10-01T04:31:39.612+08:00 DEBUG http-nio-8080-exec-1 trace-VOTBj6 o.s.web.servlet.DispatcherServlet        :
+                POST "/create-note", parameters={}
+2025-10-01T04:31:39.639+08:00 INFO  http-nio-8080-exec-1 trace-VOTBj6 org.lzwjava.NoteController               :
+                Executing create_note_from_clipboard script with model: gpt-4o
+2025-10-01T04:31:39.747+08:00 ERROR http-nio-8080-exec-1 trace-VOTBj6 org.lzwjava.NoteController               :
+                Script error: usage: create_note_from_clipboard.py [-h] --note-model NOTE_MODEL
+2025-10-01T04:31:39.747+08:00 ERROR http-nio-8080-exec-1 trace-VOTBj6 org.lzwjava.NoteController               :
+                Script error:                                      [--date DATE]
+2025-10-01T04:31:39.747+08:00 ERROR http-nio-8080-exec-1 trace-VOTBj6 org.lzwjava.NoteController               :
+                Script error: create_note_from_clipboard.py: error: the following arguments are required: --note-model
+2025-10-01T04:31:39.747+08:00 ERROR http-nio-8080-exec-1 trace-VOTBj6 org.lzwjava.NoteController               :
+                create_note_from_clipboard script failed with exit code: 2
+2025-10-01T04:31:39.751+08:00 DEBUG http-nio-8080-exec-1 trace-VOTBj6 o.s.w.s.m.m.a.HttpEntityMethodProcessor  :
+                Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-10-01T04:31:39.751+08:00 DEBUG http-nio-8080-exec-1 trace-VOTBj6 o.s.w.s.m.m.a.HttpEntityMethodProcessor  :
+                Writing ["Failed to create note: usage: create_note_from_clipboard.py [-h] --note-model NOTE_MODEL<EOL>            (truncated)..."]
+2025-10-01T04:31:39.753+08:00 DEBUG http-nio-8080-exec-1 trace-VOTBj6 o.s.web.servlet.DispatcherServlet        :
+                Completed 500 INTERNAL_SERVER_ERROR
