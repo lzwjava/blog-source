@@ -36,12 +36,6 @@ def clean_grok_tags(content):
 
 def get_clipboard_content():
     content = pyperclip.paste()
-    if len(content.strip()) < 100:
-        print("Clipboard content is less than 100 characters. Aborting.")
-        sys.exit(1)
-    if not content.strip():
-        print("Clipboard is empty. Nothing to create.")
-        sys.exit(1)
     return content
 
 

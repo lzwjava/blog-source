@@ -15,7 +15,11 @@ from create_note_utils import (
 def create_note_from_content(content, custom_title=None, directory="notes", date=None, note_model_key: str | None = None):
     """Create a note from provided content instead of clipboard"""
     if not content or not content.strip():
-        raise ValueError("Content is empty or invalid")
+        print("Content is empty or invalid. Aborting.")
+        sys.exit(1)
+    if len(content.strip()) < 100:
+        print("Content is less than 100 characters. Aborting.")
+        sys.exit(1)
     if not note_model_key:
         raise ValueError("--note-model is required (no default). Choose a key from openrouter_client.MODEL_MAPPING.")
     
