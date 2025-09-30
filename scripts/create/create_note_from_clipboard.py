@@ -1,5 +1,6 @@
 import re
 from datetime import datetime
+import sys
 from create_note_utils import (
     get_clipboard_content,
     clean_grok_tags,
