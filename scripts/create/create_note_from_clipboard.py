@@ -76,6 +76,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.content:
-        create_note_from_content(args.content, date=args.date, note_model_key=args.note_model)
+        file_path = create_note_from_content(args.content, date=args.date, note_model_key=args.note_model)
+        print(file_path)
     else:
-        create_note(date=args.date, note_model_key=args.note_model)
+        file_path = create_note(date=args.date, note_model_key=args.note_model)
+        print(file_path)
