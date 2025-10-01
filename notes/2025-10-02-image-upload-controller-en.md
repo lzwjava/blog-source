@@ -42,8 +42,8 @@ This is a Java Spring Boot controller (`FileController`) designed to handle file
    - **OSS Upload**:
      - Initializes an `OSSClient` with:
        - **Endpoint**: `https://oss-cn-qingdao.aliyuncs.com` (Qingdao region in China).
-       - **Access Key ID**: `"LTAIuXm7MaYTJJlb"` (hardcoded—note: In production, this should be loaded securely from environment variables or a config file to avoid exposing credentials).
-       - **Secret Access Key**: `"GP8FRFHOX1OFKlzfJ7Xe16t6uxdpX5"` (also hardcoded—same security note).
+       - **Access Key ID**: `"LTAIuXm7..` (hardcoded—note: In production, this should be loaded securely from environment variables or a config file to avoid exposing credentials).
+       - **Secret Access Key**: `"GP8FRF..."` (also hardcoded—same security note).
        - **Bucket**: Empty string (`""`)—this is likely a placeholder and must be set to a valid OSS bucket name (e.g., `"my-bucket"`).
      - Generates a unique object key: A random 6-character alphanumeric string + the file extension (e.g., `a3bS9k.jpg`).
      - Calls `ossClient.putObject()` with a `PutObjectRequest` pointing to the bucket, key, and local file. This uploads the file to OSS.
