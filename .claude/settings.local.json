@@ -9,7 +9,10 @@
       "Bash(cat:*)",
       "Bash(pip install:*)",
       "Bash(ps:*)",
-      "Bash(./scripts/macos/list_portable_disks.sh)"
+      "Bash(./scripts/macos/list_portable_disks.sh)",
+      "Bash(diskutil info:*)",
+      "Bash(diskutil list:*)",
+      "Bash(mount:*)"
     ],
     "deny": [],
     "ask": [],

@@ -34,6 +34,13 @@ def get_disk_info(disk_id):
             elif key == "Total Size":
                 # Extract the size part before the parenthesis
                 info['total_size'] = value.split('(')[0].strip()
+            elif key == "Disk Size":
+                # For disks without file system
+                info['disk_size'] = value.split('(')[0].strip()
+            elif key == "Volume Free Space":
+                # Extract just the readable part (e.g., "1.5 TB" from "1.5 TB (...Bytes...) (%)")
+                parts = value.split('(')
+                info['available_space'] = parts[0].strip() if parts else value.strip()
 
     return info
 
@@ -43,7 +50,7 @@ def main():
     print()
 
     # Get list of external disks
-    external_disks_cmd = "diskutil list | grep -B 3 -A 1 external | grep '^/dev/disk' | cut -d' ' -f1"
+    external_disks_cmd = "diskutil list | grep external | grep '^/dev/disk' | cut -d' ' -f1"
     external_disks_output = run_command(external_disks_cmd)
 
     if not external_disks_output:
@@ -63,25 +70,43 @@ def main():
     # Process each external disk
     for disk_id in external_disks_output.strip().split('\n'):
         disk_id = disk_id.strip()
-        if disk_id:
+        if not disk_id:
+            continue
+
+        # Check the whole disk and its primary partition (most common for USB drives)
+        devices_to_check = [disk_id, f"{disk_id}s1"]
+
+        # Process each device (whole disk and partitions)
+        for device in devices_to_check:
             portable_count += 1
 
-            # Get detailed info about this disk
-            disk_info = get_disk_info(disk_id)
+            # Get detailed info about this device
+            device_id = device.replace('/dev/', '')
+            disk_info = get_disk_info(device)
             if disk_info:
-                output_lines.append(f"📀 Device: {disk_id}")
+                if device == disk_id:
+                    output_lines.append(f"📀 Device: {device_id}")
+                else:
+                    output_lines.append(f"📁 Volume: {device_id}")
 
                 volume_name = disk_info.get('volume_name')
                 if volume_name and volume_name != "Not applicable (no file system)":
                     output_lines.append(f"   Name: {volume_name}")
 
                 total_size = disk_info.get('total_size')
+                disk_size = disk_info.get('disk_size')
                 if total_size:
-                    output_lines.append(f"   Size: {total_size}")
+                    output_lines.append(f"   Total: {total_size}")
+                elif disk_size:
+                    output_lines.append(f"   Total: {disk_size}")
 
                 mount_point = disk_info.get('mount_point')
                 if mount_point and mount_point != "Not applicable (no file system)":
                     output_lines.append(f"   Mounted at: {mount_point}")
+
+                available_space = disk_info.get('available_space')
+                if available_space:
+                    output_lines.append(f"   Available: {available_space}")
 
                 output_lines.append("")  # Empty line for spacing
 
