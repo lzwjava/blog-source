@@ -8,7 +8,8 @@
       "Bash(chmod:*)",
       "Bash(cat:*)",
       "Bash(pip install:*)",
-      "Bash(ps:*)"
+      "Bash(ps:*)",
+      "Bash(./scripts/macos/list_portable_disks.sh)"
     ],
     "deny": [],
     "ask": [],
