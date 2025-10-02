@@ -26,7 +26,7 @@ MODEL_MAPPING = {
     "o1-mini": "openai/o1-mini",
     "grok-3": "x-ai/grok-3",
     "grok-code": "x-ai/grok-code-fast-1",
-    "grok-4-fast": "x-ai/grok-4-fast:free",
+    "grok-4-fast": "x-ai/grok-4-fast",
     "perplexity-sonar": "perplexity/sonar-deep-research",
 }
 
