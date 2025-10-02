@@ -186,7 +186,7 @@ def get_cuda_info():
     
     # Check NVIDIA driver
     driver_version = run_command("nvidia-smi --query-gpu=driver_version --format=csv,noheader,nounits")
-    if driver_version and "failed" not kiin driver_version.lower():
+    if driver_version and "failed" not in driver_version.lower():
         cuda_versions.append(f"NVIDIA Driver: {driver_version}")
     
     # Check CUDA runtime version
