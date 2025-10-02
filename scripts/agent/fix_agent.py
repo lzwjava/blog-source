@@ -71,7 +71,7 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        default="deepseek-v3",
+        default="deepseek-v3.2",
         choices=list(MODEL_MAPPING.keys()),
         help="Model to use for OpenRouter API (e.g., claude-opus, gemini-pro).",
     )

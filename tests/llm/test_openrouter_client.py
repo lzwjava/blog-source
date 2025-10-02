@@ -212,12 +212,12 @@ This function takes a name parameter and returns a greeting."""
         }
         mock_post.return_value = mock_response
         
-        result = call_openrouter_api(special_prompt, "deepseek-v3")
+        result = call_openrouter_api(special_prompt, "deepseek-v3.2")
         self.assertEqual(result, "Émojis and special characters explained...")
 
     def test_model_mapping_completeness(self):
         expected_models = [
-            "claude-opus", "claude-sonnet", "gemini-flash", "deepseek-v3",
+            "claude-opus", "claude-sonnet", "gemini-flash", "deepseek-v3.2",
             "gemini-pro", "kimi-k2", "mistral-medium", "qwen-coder", 
             "gpt-oss", "gpt-5"
         ]

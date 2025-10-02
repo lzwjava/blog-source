@@ -47,7 +47,7 @@ def get_original_file_for_post(post_file):
     return None
 
 
-def fix_table_issues(issues, target_languages=None, dry_run=False, model="deepseek-v3"):
+def fix_table_issues(issues, target_languages=None, dry_run=False, model="deepseek-v3.2"):
     """Fix markdown table issues by retranslating affected files."""
     if not issues:
         print("No table formatting issues to fix.")
@@ -150,7 +150,7 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        default="deepseek-v3",
+        default="deepseek-v3.2",
         help="Model to use for translation (e.g., deepseek-v3, mistral-medium, gemini-flash).",
     )
     
