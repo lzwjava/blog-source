@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: 'Meta-Thinking Framework: Reasoning, Categorization, and Abstraction'
+title: Meta-Thinking Framework
 translated: false
 ---
 
