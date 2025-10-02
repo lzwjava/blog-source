@@ -13,6 +13,27 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".
 from scripts.llm.openrouter_client import MODEL_MAPPING
 from scripts.content.fix_mathjax import fix_mathjax_in_file
 
+def check_uncommitted_changes() -> None:
+    """Check if there are any uncommitted changes in the repository.
+
+    Raises an exception if uncommitted changes are found to prevent conflicts.
+    """
+    try:
+        toplevel = subprocess.check_output(
+            ["git", "rev-parse", "--show-toplevel"], text=True
+        ).strip()
+        result = subprocess.run(
+            ["git", "-C", toplevel, "status", "--porcelain"],
+            capture_output=True, text=True, check=True
+        )
+        if result.stdout.strip():
+            print("[error] Uncommitted changes detected. Please commit or stash your changes before running this script.")
+            raise RuntimeError("Uncommitted changes found")
+    except subprocess.CalledProcessError as e:
+        print(f"[error] Failed to check git status: {e}")
+        raise
+
+
 def git_pull_rebase() -> None:
     """Run 'git pull --rebase' at the repository root.
 
@@ -115,6 +136,9 @@ def generate_random_date():
     return random_date.strftime('%Y-%m-%d')
 
 if __name__ == "__main__":
+    # Check for uncommitted changes before proceeding
+    check_uncommitted_changes()
+
     # Ensure we are up to date to avoid conflicts across machines
     git_pull_rebase()
 
