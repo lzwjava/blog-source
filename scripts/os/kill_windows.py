@@ -24,6 +24,40 @@ def find_process_on_port(port):
 
     return None, None
 
+def find_processes_by_pattern(pattern):
+    """Find all process IDs matching the specified pattern on Windows."""
+    processes = []
+    try:
+        # Use tasklist to find processes by name
+        result = subprocess.run(['tasklist', '/FI', f'IMAGENAME eq {pattern}', '/FO', 'CSV'],
+                               capture_output=True, text=True)
+        if result.returncode == 0:
+            lines = result.stdout.strip().split('\n')
+            for line in lines[1:]:  # Skip header
+                parts = line.replace('"', '').split(',')
+                if len(parts) >= 2:
+                    image_name = parts[0]
+                    pid = parts[1]
+                    if image_name.lower().startswith(pattern.lower()) or pattern.lower() in image_name.lower():
+                        processes.append((pid, f"{image_name} ({pid})"))
+
+        # Also try with wildcard pattern
+        if not processes:
+            result2 = subprocess.run(['tasklist', '/FI', f'IMAGENAME eq {pattern}*', '/FO', 'CSV'],
+                                    capture_output=True, text=True)
+            if result2.returncode == 0:
+                lines = result2.stdout.strip().split('\n')
+                for line in lines[1:]:  # Skip header
+                    parts = line.replace('"', '').split(',')
+                    if len(parts) >= 2:
+                        image_name = parts[0]
+                        pid = parts[1]
+                        processes.append((pid, f"{image_name} ({pid})"))
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        pass
+
+    return processes
+
 def get_process_details(pid):
     """Get detailed information about a process on Windows."""
     try:

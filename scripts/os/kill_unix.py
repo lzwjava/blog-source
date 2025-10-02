@@ -19,6 +19,26 @@ def find_process_on_port(port):
 
     return None, None
 
+def find_processes_by_pattern(pattern):
+    """Find all process IDs matching the specified pattern on Unix systems (macOS/Linux)."""
+    processes = []
+    try:
+        # Use ps aux and grep to find processes containing the pattern
+        result = subprocess.run(['ps', 'aux'], capture_output=True, text=True)
+        if result.returncode == 0:
+            lines = result.stdout.strip().split('\n')
+            for line in lines[1:]:  # Skip header
+                if pattern.lower() in line.lower():
+                    parts = line.split()
+                    if len(parts) >= 11:  # ps aux format: USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND
+                        pid = parts[1]
+                        command = ' '.join(parts[10:])
+                        processes.append((pid, f"{command} ({pid})"))
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        pass
+
+    return processes
+
 def extract_java_app_info(command):
     """Extract application information from Java command line."""
     if not command or 'java' not in command.lower():
