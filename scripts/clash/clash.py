@@ -11,7 +11,6 @@ import urllib.parse
 
 # Assuming speed.py is in the same directory or accessible in PYTHONPATH
 from speed import get_top_proxies
-import threading
 
 # --- Configuration ---
 CLASH_CONTROLLER_HOST = "127.0.0.1"
@@ -128,11 +127,6 @@ def main():
         default=os.getenv("CLASH_EXECUTABLE"),
         help="Path to the Clash executable. Defaults to CLASH_EXECUTABLE environment variable if set.",
     )
-    parser.add_argument(
-        "--hk",
-        action="store_true",
-        help="Include HK proxies in selection (not just SG/TW)",
-    )
     args = parser.parse_args()
 
     ITERATIONS = args.iterations
@@ -232,36 +226,21 @@ def main():
         # Step 4: Test proxy speeds and select the best one
         best_proxy_name = None
         try:
+            # Only select SG and TW proxies
+            name_filter = ["SG", "TW"]
+            filter_desc = "SG/TW"
+
             logging.info("Testing proxy speeds to find the best one...")
-            top_proxies = get_top_proxies(num_results=20)  # Get top 5 proxies
+            top_proxies = get_top_proxies(num_results=20, name_filter=name_filter)  # Get top 20 proxies matching filter
             if top_proxies:
-                # Check for SG or TW in proxy names
-                # Check for SG or TW in proxy names (or HK if --hk is set)
-                for proxy in top_proxies:
-                    proxy_name = proxy["name"]
-                    if args.hk:
-                        if any(x in proxy_name for x in ["HK", "SG", "TW"]):
-                            best_proxy_name = proxy_name
-                            logging.info(
-                                f"Selected proxy '{best_proxy_name}' (contains HK/SG/TW) with latency {proxy['latency']}ms"
-                            )
-                            break
-                    else:
-                        if any(x in proxy_name for x in ["SG", "TW"]):
-                            best_proxy_name = proxy_name
-                            logging.info(
-                                f"Selected proxy '{best_proxy_name}' (contains SG/TW) with latency {proxy['latency']}ms"
-                            )
-                            break
-                        # If no SG or TW proxy is found, use the first one
-                        if not best_proxy_name:
-                            best_proxy_name = top_proxies[0]["name"]
-                            logging.info(
-                                f"No SG or TW proxy found. Selected first proxy '{best_proxy_name}' with latency {top_proxies[0]['latency']}ms"
-                            )
+                # All top_proxies already match the filter, take the fastest one
+                best_proxy_name = top_proxies[0]["name"]
+                logging.info(
+                    f"Selected proxy '{best_proxy_name}' (contains {filter_desc}) with latency {top_proxies[0]['latency']}ms"
+                )
             else:
                 logging.warning(
-                    "No successful proxy tests. Cannot select a best proxy for this iteration."
+                    f"No successful proxy tests for {filter_desc} proxies. Cannot select a best proxy for this iteration."
                 )
         except Exception as e:
             logging.error(f"Error during proxy speed testing: {e}")

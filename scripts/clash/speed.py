@@ -104,9 +104,14 @@ def test_proxy_latency(proxy_name):
         return proxy_name, None
 
 
-def get_top_proxies(num_results=5):
+def get_top_proxies(num_results=5, name_filter=None):
     """
     Tests Clash proxy speeds concurrently and returns the top N fastest individual proxies.
+
+    Args:
+        num_results (int): Number of top proxies to return (default: 5)
+        name_filter (list): List of strings to filter proxy names. Only proxies containing
+                           any of these strings in their name will be tested.
 
     Returns:
         list: A list of dictionaries, each containing 'name' and 'latency' for the top proxies.
@@ -126,6 +131,18 @@ def get_top_proxies(num_results=5):
             "No testable proxies found or an error occurred during proxy name retrieval."
         )
         return []
+
+    # Filter proxies by name if name_filter is provided
+    if name_filter:
+        filtered_names = [name for name in proxy_names_to_test if any(keyword in name for keyword in name_filter)]
+        logging.info(f"Filtering for proxies containing: {name_filter}")
+        logging.info(f"Before filtering: {len(proxy_names_to_test)} proxies, after filtering: {len(filtered_names)} proxies")
+        proxy_names_to_test = filtered_names
+        if not proxy_names_to_test:
+            logging.warning(
+                f"No proxies found matching the filter criteria: {name_filter}"
+            )
+            return []
 
     logging.info(f"Found {len(proxy_names_to_test)} individual proxies to test.")
 
