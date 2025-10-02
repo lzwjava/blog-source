@@ -12,7 +12,9 @@
       "Bash(./scripts/macos/list_portable_disks.sh)",
       "Bash(diskutil info:*)",
       "Bash(diskutil list:*)",
-      "Bash(mount:*)"
+      "Bash(mount:*)",
+      "Read(//home/lzw/bin/**)",
+      "Bash(./sync_gitmessageai.py:*)"
     ],
     "deny": [],
     "ask": [],

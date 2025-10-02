@@ -13,9 +13,25 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 MODEL_MAPPING = {
+    "claude-opus": "anthropic/claude-opus-4",
+    "claude-sonnet": "anthropic/claude-4.5-sonnet",
     "gemini-flash": "google/gemini-2.5-flash",
-    "deepseek-v3": "deepseek/deepseek-chat-v3-0324:free",
-    "kimi-k2": "moonshotai/kimi-k2:free"
+    "gemini-pro": "google/gemini-2.5-pro",
+    "kimi-k2": "moonshotai/kimi-k2",
+    "deepseek-v3": "deepseek/deepseek-chat-v3-0324",
+    "deepseek-v3.1":"deepseek/deepseek-chat-v3.1",
+    "deepseek-v3.2": "deepseek/deepseek-v3.2-exp",
+    "mistral-medium": "mistralai/mistral-medium-3.1",
+    "mistral-large": "mistralai/mistral-large",
+    "qwen-coder":"qwen/qwen3-coder",
+    "gpt-oss": "openai/gpt-oss-120b",
+    "gpt-5": "openai/gpt-5",
+    "gpt-5-mini": "openai/gpt-5-mini",
+    "o1-mini": "openai/o1-mini",
+    "grok-3": "x-ai/grok-3",
+    "grok-code": "x-ai/grok-code-fast-1",
+    "grok-4-fast": "x-ai/grok-4-fast:free",
+    "perplexity-sonar": "perplexity/sonar-deep-research",
 }
 
 
