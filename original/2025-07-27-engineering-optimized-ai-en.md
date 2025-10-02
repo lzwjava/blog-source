@@ -91,11 +91,9 @@ There are a lot of new technologies in the market; who knows what will last or w
 
 They also have security data concerns. Typically, they want to partner with big brands whose data policies are strict and monitored by the public. This explains why Microsoft has become a top partner among Fortune 500 companies. Other companies use their Teams, Microsoft Office 365, Azure, and Copilot.
 
-However, what if big companies do not provide their employees with LLM APIs to use? We need to think about how to work as manual AI agents.
-
 That means we will use a lot of tools to work, similar to tool use or function calling in those APIs. We will do our own prompt engineering or context engineering.
 
-Instead of using Claude Code or Manus to do a complex task, we may perform tasks ourselves with a plain AI chatbot.
+Instead of using Claude Code or Manus to do a complex task, we may perform tasks ourselves with a plain AI chatbot and its APIs.
 
 AspectJ is good because it uses AOP programming to intercept methods. Filters in Spring are also good for capturing the logs of HTTP requests. The logger in Log4j is good for redirecting specific logs to a file. IntelliJ IDEA is good because it has a function to export objects as text.
 
@@ -104,8 +102,6 @@ SQL clients are good because they can easily export CSV or Excel files of rows. 
 They all help you provide better context for AI chatbots. And AI chatbots can also help a lot of Python scripts to perform tasks.
 
 To be an effective AI agent, you need to use many effective tools to help you do tasks, whether simple or complex.
-
-Without APIs for LLM/AI chatbots, you need to copy text into the chatbots. It is a little more tedious than directly calling the AI, but the good news is that you can select context or prompts more carefully.
 
 So you do not need to ask AI chatbots many times like those automatic AI agents. You can carefully select the tools that you will use.
 
