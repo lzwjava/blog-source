@@ -4,9 +4,37 @@ generated: false
 image: false
 lang: en
 layout: post
-title: Trying Netplan
+title: Netplan, Systemd, SSH, Conda Cleanup
 translated: false
 ---
+
+### Table of Contents
+
+1. [Trying Netplan](#trying-netplan)
+   - Static IP configuration caused SSH loss
+   - Required physical access to revert
+   - Modified system's DNS resolver file
+
+2. [Systemd Service](#systemd-service)
+   - Configure service for local LLM inference
+   - Set up web interface for LLM models
+   - Establish rule-based proxy tool service
+   - Use systemctl commands for service management
+
+3. [SSH Configuration](#ssh-configuration)
+   - Proxy external connections through corkscrew
+   - Exclude local network from proxy
+   - Manage SSH keys via keychain and agent
+   - Specify default private key location
+
+4. [Delete Conda in Linux](#delete-conda-in-linux)
+   - Remove entire conda installation directory
+   - Delete conda initialization code from bashrc
+   - Update PATH environment variable
+   - Eliminate conda binaries from system path
+
+
+## Trying Netplan
 
 I tried the configuration below to assign a static IP address to an Ubuntu machine. I run OpenWebUI and llama.cpp on that server.
 
