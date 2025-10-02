@@ -4,8 +4,35 @@ generated: false
 image: false
 lang: en
 layout: post
-title: 'Baby Game: Follow the Hand'
+title: Baby Games, Health AI, Basketball Moves
 ---
+
+### Table of Contents
+
+1. [Baby Game: Follow the Hand](#baby-game-follow-the-hand)
+   - Simple game to interact with baby
+   - Move head following your hand
+   - Maintain eye contact and smile
+   - Use gentle movements and soft voices
+   - Play when baby is happy and alert
+
+2. [Predict Next Body States](#predict-next-body-states)
+   - Accumulate body state data over time
+   - Train AI to predict future health
+   - Understand causes of health outcomes
+   - Enable informed decisions for longevity
+   - Take preventive health measures
+
+3. [An Unconventional Basketball Move](#an-unconventional-basketball-move)
+   - Innovative variation of bounce pass
+   - Ball ricochets high over defender
+   - Catches defenders off guard
+   - Slower and riskier than direct pass
+   - Effective as a surprise element
+
+---
+
+## Baby Game: Follow the Hand
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
   <!-- Background -->
