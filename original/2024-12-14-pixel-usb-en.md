@@ -4,8 +4,30 @@ generated: false
 image: true
 lang: en
 layout: post
-title: Pixel's USB Options
+title: Pixel USB, iOS Developer Tools, Swipe Typing
 ---
+
+### Table of Contents
+
+1. [Pixel's USB Options](#pixels-usb-options)
+   - Use Pixel as a webcam
+   - Enable Developer Mode in settings
+   - Activate USB Debugging for connection
+   - Verify connection with ADB command
+
+2. [Developer Mode of iOS and ideviceinstaller](#developer-mode-of-ios-and-ideviceinstaller)
+   - View installed apps via Xcode
+   - Use Xcode for screenshots and logs
+   - List apps with xcrun command
+   - Install and use ideviceinstaller tool
+
+3. [Quick Swipe Typing](#quick-swipe-typing)
+   - Input words by swiping over letters
+   - Discovered feature by accident
+   - Line appears during fast touch
+
+
+## Pixel's USB Options
 
 <div style="text-align: center;">  
     <img class="responsive" src="/assets/images/pixel/pixel.jpg" alt="Pixel" width="50%" />  
