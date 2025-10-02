@@ -11,6 +11,7 @@ from create_note_utils import (
     clean_content,
     write_note,
 )
+from check_duplicate_notes import check_duplicate_notes
 
 
 def create_note_from_content(content, custom_title=None, directory="notes", date=None, note_model_key: str | None = None):
@@ -65,6 +66,10 @@ def create_note_from_content(content, custom_title=None, directory="notes", date
 
 
 def create_note(date=None, note_model_key: str | None = None):
+    # Check for duplicate notes first
+    if check_duplicate_notes():
+        raise ValueError("Duplicate note found. Aborting note creation.")
+
     # Get and validate clipboard content
     content = get_clipboard_content()
     # Return the created file path so callers can post-process the file.
