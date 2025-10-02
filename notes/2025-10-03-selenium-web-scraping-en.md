@@ -11,7 +11,7 @@ model: x-ai/grok-4-fast
 
 ### Explanation of Selenium API Usage in the Provided Code
 
-This Python script uses the **Selenium WebDriver** library to automate a web browser (specifically Chrome) for interacting with a website (likely a data/trade portal at `https://xxdata.com/index.aspx`). The goal appears to be web scraping: logging in, searching for trade/order data (using a HS code like '844900001000'), navigating through paginated results, clicking on details, extracting structured data from HTML tables, and storing it in a SQLite database (`data.db`).
+This Python script uses the **Selenium WebDriver** library to automate a web browser (specifically Chrome) for interacting with a website (likely a data/trade portal at `https://xxdata.com/index.aspx`). The goal appears to be web scraping: logging in, searching for trade/order data (using a HS code like '8449'), navigating through paginated results, clicking on details, extracting structured data from HTML tables, and storing it in a SQLite database (`data.db`).
 
 Selenium is used here for **browser automation**, allowing the script to mimic human interactions like typing, clicking, scrolling, and waiting for page loads—something that's hard or impossible with simple HTTP requests (e.g., due to JavaScript-heavy pages, iframes, or dynamic content). It handles dynamic web elements, sessions, and multi-window/iframe switching, which are common in modern web apps.
 
@@ -98,7 +98,7 @@ I'll break it down **section by section**, highlighting key Selenium APIs, their
    Search process:
    ```python
    input_search = browser.find_element_by_id('_easyui_textbox_input7')  # Uses ID locator.
-   input_search.send_keys('844900001000')
+   input_search.send_keys('8449')
    time.sleep(10)
    enter = browser.find_element_by_css_selector('a#btnOk > div.enter-bt')
    enter.click()
