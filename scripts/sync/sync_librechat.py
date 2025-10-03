@@ -114,10 +114,12 @@ def sync_librechat(librechat_dir: str | None = None) -> None:
     )
     env_src = os.path.join(lc_dir, ".env")
     yaml_src = os.path.join(lc_dir, "librechat.yaml")
+    docker_compose_src = os.path.join(lc_dir, "docker-compose.override.yml")
 
     target_dir = ensure_target_dir()
     env_dst = os.path.join(target_dir, "librechat.env")
     yaml_dst = os.path.join(target_dir, "librechat.yaml")
+    docker_compose_dst = os.path.join(target_dir, "docker-compose.override.yml")
 
     found_any = False
 
@@ -144,6 +146,18 @@ def sync_librechat(librechat_dir: str | None = None) -> None:
     else:
         print(f"Warning: librechat.yaml not found at {yaml_src}")
 
+    if os.path.exists(docker_compose_src):
+        print(f"Reading: {docker_compose_src}")
+        # Copy docker-compose.override.yml verbatim; do NOT sanitize.
+        with open(docker_compose_src, "r", encoding="utf-8") as f:
+            docker_raw = f.read()
+        with open(docker_compose_dst, "w", encoding="utf-8") as f:
+            f.write(docker_raw)
+        print(f"Wrote docker-compose.override.yml to {docker_compose_dst}")
+        found_any = True
+    else:
+        print(f"Warning: docker-compose.override.yml not found at {docker_compose_src}")
+
     if not found_any:
         print("Nothing to sync. Provide LIBRECHAT_DIR or ensure default path exists.")
 
@@ -159,9 +173,11 @@ def reverse_sync_librechat(librechat_dir: str | None = None) -> None:
     src_dir = ensure_target_dir()
     env_src = os.path.join(src_dir, "librechat.env")
     yaml_src = os.path.join(src_dir, "librechat.yaml")
+    docker_compose_src = os.path.join(src_dir, "docker-compose.override.yml")
 
     env_dst = os.path.join(lc_dir, ".env")
     yaml_dst = os.path.join(lc_dir, "librechat.yaml")
+    docker_compose_dst = os.path.join(lc_dir, "docker-compose.override.yml")
 
     wrote_any = False
 
@@ -215,6 +231,20 @@ def reverse_sync_librechat(librechat_dir: str | None = None) -> None:
             print(f"Permission denied writing {yaml_dst}. Run with appropriate permissions.")
     else:
         print(f"Warning: sanitized yaml not found at {yaml_src}")
+
+    if os.path.exists(docker_compose_src):
+        print(f"Reading: {docker_compose_src}")
+        with open(docker_compose_src, "r", encoding="utf-8") as f:
+            data = f.read()
+        try:
+            with open(docker_compose_dst, "w", encoding="utf-8") as f:
+                f.write(data)
+            print(f"Wrote docker-compose.override.yml to {docker_compose_dst}")
+            wrote_any = True
+        except PermissionError:
+            print(f"Permission denied writing {docker_compose_dst}. Run with appropriate permissions.")
+    else:
+        print(f"Warning: docker-compose.override.yml not found at {docker_compose_src}")
 
     if not wrote_any:
         print("Nothing written. Ensure sanitized files exist in scripts/config.")
