@@ -20,6 +20,7 @@ MODEL_MAPPING = {
     "gpt-5": "openai/gpt-5",
     "grok-code": "x-ai/grok-code-fast-1",
     "grok-4-fast": "x-ai/grok-4-fast",
+    "glm-4.6": "z-ai/glm-4.6",
     "perplexity-sonar": "perplexity/sonar-deep-research",
 }
 
@@ -35,6 +36,7 @@ DEFAULT_TOKENS = {
     "gpt-5": 8192,
     "grok-code": 62144,
     "grok-4-fast": 61072,
+    "glm-4.6": 32768,
     "perplexity-sonar": 8192,
 }
 
