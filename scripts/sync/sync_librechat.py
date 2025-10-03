@@ -46,6 +46,9 @@ def ensure_target_dir() -> str:
 
 def is_sensitive_env_key(key: str) -> bool:
     upper_key = key.upper()
+    # Special case: Treat JWT secrets as non-sensitive
+    if upper_key in ("JWT_SECRET", "JWT_REFRESH_SECRET"):
+        return False
     if upper_key.endswith("_KEY") or upper_key.endswith("-KEY"):
         return True
     return any(part in upper_key for part in SENSITIVE_ENV_SUBSTRINGS)
