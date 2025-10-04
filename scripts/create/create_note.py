@@ -75,7 +75,7 @@ def open_note_in_browser(note_path: Optional[str]) -> None:
     if sys.platform.startswith("darwin"):
         command = ["open", github_url]
     elif sys.platform.startswith("linux"):
-        command = ["xdg-open", github_url]
+        command = ["env", "NO_AT_BRIDGE=1", "xdg-open", github_url]
     else:
         try:
             import webbrowser
@@ -86,10 +86,8 @@ def open_note_in_browser(note_path: Optional[str]) -> None:
             print(f"[warn] Unable to launch browser for {github_url}: {exc}")
         return
 
-    env = os.environ.copy()
-    env["NO_AT_BRIDGE"] = "1"
     try:
-        subprocess.run(command, check=False, env=env)
+        subprocess.run(command, check=False)
     except FileNotFoundError:
         print(f"[warn] Launch command not found when opening {github_url}")
     except Exception as exc:  # pragma: no cover - defensive fallback
