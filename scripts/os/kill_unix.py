@@ -106,7 +106,8 @@ def get_process_details(pid):
 def kill_process(pid):
     """Kill the process with the specified PID on Unix systems (macOS/Linux)."""
     try:
-        subprocess.run(['kill', pid], check=True)
-        return True
-    except subprocess.CalledProcessError:
+        result = subprocess.run(['kill', '-9', pid], capture_output=True, text=True, check=False)
+        output = result.stdout + result.stderr
+        return 'Killed' in output
+    except (subprocess.CalledProcessError, FileNotFoundError):
         return False
