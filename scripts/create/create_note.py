@@ -86,8 +86,10 @@ def open_note_in_browser(note_path: Optional[str]) -> None:
             print(f"[warn] Unable to launch browser for {github_url}: {exc}")
         return
 
+    env = os.environ.copy()
+    env["NO_AT_BRIDGE"] = "1"
     try:
-        subprocess.run(command, check=False)
+        subprocess.run(command, check=False, env=env)
     except FileNotFoundError:
         print(f"[warn] Launch command not found when opening {github_url}")
     except Exception as exc:  # pragma: no cover - defensive fallback
