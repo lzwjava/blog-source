@@ -108,6 +108,15 @@ def kill_process(pid):
     try:
         result = subprocess.run(['kill', '-9', pid], capture_output=True, text=True, check=False)
         output = result.stdout + result.stderr
-        return 'Killed' in output
-    except (subprocess.CalledProcessError, FileNotFoundError):
+        if 'Killed' in output:
+            return True
+        else:
+            print(f"Failed to kill process {pid}")
+            if result.stdout:
+                print(f"stdout: {result.stdout.strip()}")
+            if result.stderr:
+                print(f"stderr: {result.stderr.strip()}")
+            return False
+    except (subprocess.CalledProcessError, FileNotFoundError) as e:
+        print(f"Failed to kill process {pid}: {e}")
         return False
