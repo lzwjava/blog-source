@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: de
 layout: post
-title: Wie ich mit Probelinsen meine ideale Brillenstärke finde
+title: Mit Testgläsern meine ideale Brillenkorrektur finden
 translated: true
 ---
 
@@ -16,14 +16,14 @@ translated: true
 ![](assets/images/eyeglasses/eyeglasses2.JPG){: .responsive }
 *Quelle: Selbst-Screenshot*{: .caption }
 
-* Ein Desktop-Computer ist normalerweise weiter von unseren Augen entfernt als ein Laptop.
+* Ein Desktop-Computer befindet sich normalerweise weiter von unseren Augen entfernt als ein Laptop.
 
-* Um den Desktop-Bildschirm nur knapp klar zu sehen, benötigen wir oft maßgefertigte Brillen.
+* Um den Desktop-Bildschirm gerade noch klar zu sehen, benötigen wir oft maßgefertigte Brillen.
 
-* Für meine Testgläser verwende ich **-3.75 / -1.75** als Basis-Kurzsichtigkeitskorrektur, **-0.25 / -0.25** und **-0.50 / -0.50** als inkrementelle oder dekrementelle Gläser und **-1.00 / -1.00** für Astigmatismus.
+* Für meine Testgläser verwende ich **-3.75 / -1.75** als Basis-Myopiekorrektur, **-0.25 / -0.25** und **-0.50 / -0.50** als inkrementelle oder dekrementelle Gläser und **-1.00 / -1.00** für Astigmatismus.
 
-* Der Testrahmen hat drei Schlitze. Eine gängige Methode ist es, das Basis-Myopieglas in einen Schlitz zu legen, ein inkrementelles oder dekrementelles Glas in einen anderen, und den letzten Schlitz für das Astigmatismusglas zu reservieren. Man kann nicht gleichzeitig -0.25 und -5.00 Gläser kombinieren, da ein Schlitz für die Astigmatismuskorrektur vorgesehen ist.
+* Die Testfassung hat drei Schlitze. Eine gängige Methode, sie zu verwenden, besteht darin, das Basis-Myopieglas in einen Schlitz, ein inkrementelles oder dekrementelles Glas in einen anderen zu legen und den letzten Schlitz für das Astigmatismglas zu reservieren. Man kann -0.25 und -0.50 Gläser nicht gleichzeitig kombinieren, da ein Schlitz für die Astigmatismuskorrektur übrig bleibt.
 
-* Eine Testbrille kostet rund **48 CNY**, und Testgläser kosten etwa **28 CNY** auf Pinduoduo in China.
+* Testbrillen kosten auf Pinduoduo in China etwa **48 CNY**, und Testgläser etwa **28 CNY**.
 
-* Ich bedauere, sie nicht früher gekauft und mich damit beschäftigt zu haben. Es ist so einfach. Hätte ich es früher gelernt, hätte ich es vermeiden können, in den letzten drei Jahren fünfmal für Rezepte ins Geschäft zu gehen, und ich hätte bequemere Brillen für den täglichen Gebrauch gehabt.
+* Ich bereue, sie nicht früher gekauft und gelernt zu haben. Es ist so einfach. Hätte ich es früher gelernt, hätte ich die fünf Besuche im Geschäft für Rezepte in den letzten drei Jahren vermeiden können, und ich hätte bequemere Brillen für den täglichen Gebrauch gehabt.
