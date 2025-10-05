@@ -4,9 +4,28 @@ generated: false
 image: false
 lang: en
 layout: post
-title: How to Change a Habit
+title: Habit Change, Specificity, Willingness
 translated: false
 ---
+
+### Table of Contents
+
+1. [How to Change a Habit](#how-to-change-a-habit)
+   - Brain holds many habit-associated memories
+   - Changing established habits is very difficult
+   - Learning correctly from the start is crucial
+   - Significant future benefits justify the change
+   - Willingness is the biggest obstacle to change
+
+2. [Be Specific](#be-specific)
+   - Apply specificity to everything and every matter
+   - Specific communication prevents conflict escalation
+   - Address specific groups with specific messages
+   - Handle corporate tasks and messages specifically
+   - Handle personal struggles silently and independently
+
+
+## How to Change a Habit
 
 It is very hard to change a habit. Your brain holds so many memories associated with it. When you want to change it, it can be incredibly difficult.
 

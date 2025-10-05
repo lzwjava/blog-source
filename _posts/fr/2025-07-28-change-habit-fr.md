@@ -4,56 +4,75 @@ generated: false
 image: false
 lang: fr
 layout: post
-title: Comment changer une habitude
+title: Changement d'habitudes, spécificité, volonté
 translated: true
 ---
 
-Il est très difficile de changer une habitude. Votre cerveau conserve tellement de souvenirs qui y sont associés. Lorsque vous voulez la changer, cela peut être incroyablement difficile.
+### Table des matières
 
-Dans mon immeuble, lorsque la société de construction ne nous a pas fourni notre place de parking, j'ai utilisé la place publique au sous-sol -1. Après un an, j'ai enfin pu utiliser notre place désignée au sous-sol -2.
+1. [Comment changer une habitude](#comment-changer-une-habitude)
+   - Le cerveau contient de nombreux souvenirs associés aux habitudes
+   - Changer des habitudes établies est très difficile
+   - Apprendre correctement dès le début est crucial
+   - Des avantages futurs significatifs justifient le changement
+   - La volonté est le plus grand obstacle au changement
 
-Imaginez donc combien de fois je suis allé au sous-sol -1, me suis dirigé vers le parking et ai constaté que ma voiture n'était pas là.
+2. [Soyez spécifique](#soyez-specifique)
+   - Appliquer la spécificité à tout et à chaque sujet
+   - Une communication spécifique prévient l'escalade des conflits
+   - Adresser des groupes spécifiques avec des messages spécifiques
+   - Gérer les tâches et messages d'entreprise de manière spécifique
+   - Gérer les difficultés personnelles en silence et de manière indépendante
 
-J'avais développé une habitude. Ma mémoire musculaire me dit d'aller au premier sous-sol quand j'entre dans l'ascenseur pour quitter la maison.
 
-C'est similaire avec la terminologie. Par exemple, je dis toujours "voiture à essence" quand je devrais dire "voiture à carburant" pour les décrire. Il faut apprendre les termes corrects dès le début ; c'est la vérité. Il est très difficile de changer ensuite.
+## Comment changer une habitude
 
-Si vous croyez en quelque chose et le suivez pendant des années, puis découvrez que vous aviez tort, cela peut être très douloureux.
+Il est très difficile de changer une habitude. Votre cerveau contient tellement de souvenirs qui y sont associés. Lorsque vous voulez la changer, cela peut être incroyablement difficile.
 
-Un autre exemple est l'apprentissage des langues. Il est difficile d'apprendre l'anglais dans la vingtaine ou la trentaine. Car pour tout ce qui est dans votre mémoire, le premier mot qui vous vient à l'esprit est dans votre langue maternelle.
+Dans mon immeuble, lorsque la société de construction ne nous a pas fourni notre place de parking, j'utilisais la place de parking publique au sous-sol 1. Après un an, j'ai finalement pu utiliser notre place de parking désignée au sous-sol 2.
 
-Apprendre quelque chose de complètement nouveau est relativement facile, car vous avez un esprit de débutant. Cependant, essayer de changer une vieille habitude et d'améliorer votre comportement existant est bien plus difficile.
+Alors, imaginez combien de fois je suis allé au sous-sol 1, me suis dirigé vers le parking, et j'ai constaté que ma voiture n'était pas là.
 
-Si vous me demandiez d'améliorer mon écriture en chinois, je dirais que c'est presque impossible et très douloureux. Mais si vous me demandiez d'apprendre à écrire 500 mots en japonais, je serais heureux de le faire.
+J'avais développé une habitude. Ma mémoire musculaire me dit d'aller au premier étage lorsque j'entre dans l'ascenseur pour quitter la maison.
 
-Cela signifie que pour quelque chose d'important et critique, il vaut mieux commencer tôt et le faire correctement dès le début. À l'avenir, ce sera beaucoup plus douloureux de corriger.
+C'est similaire avec la terminologie. Par exemple, je dis toujours "oil car" quand je devrais dire "gasoline car" pour les décrire. Il faut apprendre les bons termes dès le début; c'est la vérité. Il est très difficile de changer plus tard.
 
-C'est similaire pour la santé. Si nous fumons, cela peut sembler acceptable au début. Mais si nous découvrons après 10 ans que fumer est mauvais pour la santé, il devient très difficile d'arrêter.
+S'il y a quelque chose en quoi vous croyez et que vous suivez pendant des années, et que vous découvrez ensuite que vous vous êtes trompé, cela peut être très douloureux.
 
-Plus tard, j'ai changé le titre de cet essai de "Difficile de changer une habitude" à "Comment changer une habitude". Après quelques jours de stationnement au sous-sol -2, je me suis finalement adapté à cette nouvelle habitude. À l'avenir, me garer au sous-sol -2 me fera gagner du temps, car les places au sous-sol -1 peuvent être instables et ma place change souvent.
+Un autre exemple est l'apprentissage des langues. Il est difficile d'apprendre l'anglais à 20 ou 30 ans. Parce que pour tout ce qui est dans votre mémoire, le premier mot qui apparaît dans votre esprit est dans votre langue maternelle.
 
-Mais au sous-sol -2, j'ai une place qui m'appartient. Donc j'ai une place fixe, et elle est proche de la porte, ce qui me permet d'atteindre l'ascenseur rapidement.
+Apprendre quelque chose de complètement nouveau est relativement facile car vous avez un esprit de débutant. Cependant, essayer de changer une vieille habitude et d'améliorer votre comportement existant est beaucoup plus difficile.
 
-Cela signifie que si les bénéfices futurs sont importants, nous devrions changer nos habitudes. Cela peut être gênant au début, mais cela devient plus facile sur le long terme.
+Si vous me demandiez d'améliorer mon écriture chinoise, je dirais que c'est presque impossible et très douloureux. Mais si vous me demandiez d'apprendre à écrire 500 mots japonais, je serais heureux d'apprendre et de le faire.
 
-On peut réellement changer ses habitudes. Si l'on pense que c'est assez important et que c'est ce que nous devons faire, alors nous devons changer nos habitudes, puis nous nous adaptons vite. Le gros obstacle est la volonté. Si l'on ne veut pas changer l'habitude, on n'essaie jamais de s'adapter ou de changer, donc on ne peut jamais l'apprendre. Si l'on ne veut pas apprendre un nouveau mot, dans sa langue maternelle ou une seconde langue, on ne le connaîtra pas plus tard.
+Cela signifie que pour quelque chose d'important et de critique, il est préférable de commencer tôt et de le faire de la bonne manière dès le début. À l'avenir, il sera beaucoup plus douloureux de corriger.
+
+C'est similaire à la santé. Si nous fumons, cela peut sembler bien au début. Mais si nous découvrons après 10 ans que fumer est malsain, il devient très difficile d'arrêter.
+
+Plus tard, j'ai changé le titre de cet essai de "Difficile de changer une habitude" à "Comment changer une habitude". Après quelques jours de stationnement au sous-sol 2, je me suis en fait adapté à cette nouvelle habitude. À l'avenir, le stationnement au sous-sol 2 me fera gagner du temps, car les places de parking au sous-sol 1 peuvent être instables et ma position de stationnement change fréquemment.
+
+Mais au sous-sol 2, j'ai une place de parking qui m'appartient. J'ai donc une place de parking fixe, et elle est proche de la porte, ce qui m'aide à atteindre rapidement l'ascenseur.
+
+Cela signifie que si les avantages futurs sont significatifs, nous devrions changer nos habitudes. Cela peut être pénible au début, mais cela devient plus facile à long terme.
+
+On peut réellement changer ses habitudes. Si on pense que c'est suffisamment important et que c'est la chose que nous devons faire, alors nous devons changer nos habitudes, ensuite nous nous adaptons rapidement. Le grand obstacle est la volonté. Si l'on ne veut pas changer l'habitude, on n'essaie jamais de s'adapter ou de changer, donc on ne peut jamais apprendre l'habitude. Si l'on ne veut pas apprendre un nouveau mot, dans sa langue maternelle ou sa deuxième langue, on ne le saura pas plus tard dans la vie.
 
 ---
 
-## Soyez précis
+## Soyez spécifique
 
-*2025.07.10*
+*10.07.2025*
 
-- Soyez précis en tout et en toutes choses.
+- Soyez spécifique en tout et pour tout.
 
-- La communication et l'interaction doivent être précises, surtout dans les interactions profondes comme la persuasion et la résolution de conflits. Il n'est pas nécessaire d'augmenter le mécontentement, la frustration ou la colère.
+- La communication et l'interaction doivent être spécifiques, surtout dans les interactions profondes telles que la persuasion et la résolution de conflits. Il n'est pas nécessaire d'amplifier le malheur, la frustration ou la colère.
 
-- Il est pratique de partager des publications en ligne. Cela semble très pratique, mais n'oubliez pas d'être précis. N'oubliez pas de vous adresser à des groupes spécifiques de manière spécifique.
+- Il est pratique de partager des publications en ligne. Cela semble très pratique, mais n'oubliez pas d'être spécifique. N'oubliez pas de vous adresser spécifiquement à des groupes spécifiques.
 
-- Il y a des tonnes d'applications dans le monde ; d'une manière ou d'une autre, elles catégorisent les informations et rendent le monde plus spécifique et organisé.
+- Il existe des tonnes d'applications dans le monde; d'une manière ou d'une autre, elles catégorisent l'information et rendent le monde plus spécifique et organisé.
 
-- Quand j'étais jeune, j'étais un peu paresseux pour communiquer ou gérer les choses, alors je postais beaucoup sur WeChat. Pendant un temps, j'étais au plus bas et je partageais fréquemment. C'est ce que je regrette d'avoir fait.
+- Quand j'étais jeune, j'étais un peu paresseux pour communiquer ou gérer les choses, alors je postais beaucoup sur WeChat. Pendant une période, j'étais au plus bas et je partageais fréquemment. C'est ce que je regrette d'avoir fait.
 
-- Gérez votre mécontentement ou vos difficultés en silence. Peu de gens viendront vous sauver. Tout le monde est occupé par sa vie, tout comme vous.
+- Gérer votre malheur ou vos difficultés en silence. Peu de gens viendront vous sauver. Tout le monde est occupé avec sa vie, tout comme vous.
 
-- Dans le monde professionnel, il vaut mieux traiter les choses de manière spécifique. Chaque message, demande, communication ou tâche doit être traité spécifiquement. Cela fonctionne bien, même si cela demande plus d'efforts.
+- Dans le monde de l'entreprise, il est préférable de traiter les choses spécifiquement. Chaque message, demande, communication ou tâche doit être traité spécifiquement. Cela fonctionne bien, bien que cela demande plus d'efforts.
