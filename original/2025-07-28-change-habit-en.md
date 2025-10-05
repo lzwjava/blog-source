@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: Habit Change, Muscle Memory, Mistakes
+title: Habit Change, Specificity, Willingness
 translated: false
 ---
 
