@@ -14,7 +14,8 @@
       "Bash(diskutil list:*)",
       "Bash(mount:*)",
       "Read(//home/lzw/bin/**)",
-      "Bash(./sync_gitmessageai.py:*)"
+      "Bash(./sync_gitmessageai.py:*)",
+      "Bash(xelatex:*)"
     ],
     "deny": [],
     "ask": [],
