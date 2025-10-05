@@ -20,9 +20,9 @@ translated: false
 
 * To see the desktop screen barely clearly, we often need customized eyeglasses.
 
-* For my trial lenses, I use **-3.75 / -1.75** as the base myopia correction, **-0.25 / -0.25** and **-5.00 / -5.00** as incremental or decremental lenses, and **-1.00 / -1.00** for astigmatism.
+* For my trial lenses, I use **-3.75 / -1.75** as the base myopia correction, **-0.25 / -0.25** and **-0.50 / -0.50** as incremental or decremental lenses, and **-1.00 / -1.00** for astigmatism.
 
-* There are three slots in the trial frame: one for the base myopia lens, one for an incremental or decremental lens, and one reserved for the astigmatism lens. You can’t combine **-0.25** and **-5.00** at the same time, since one slot must remain for astigmatism correction.
+* The trial frame has three slots. One common way to use them is to place the base myopia lens in one slot, an incremental or decremental lens in another, and reserve the last slot for the astigmatism lens. You can’t combine -0.25 and -5.00 lenses at the same time, since one slot is left for astigmatism correction.
 
 * Trial glasses cost around **48 CNY**, and trial lenses cost about **28 CNY** on Pinduoduo in China.
 
