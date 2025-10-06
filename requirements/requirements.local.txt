@@ -40,3 +40,4 @@ langdetect
 serpapi
 tiktoken
 qrcode
+fabric
