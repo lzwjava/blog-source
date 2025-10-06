@@ -63,7 +63,10 @@ audio-pipeline:
 pdf-pipeline:
 	python pdf-pipeline.py --task posts --n 10
 
-pipelines: audio-pipeline pdf-pipeline
+# New cv-pipeline target
+cv-pipeline: cvs copy-cv
+
+pipelines: audio-pipeline pdf-pipeline cv-pipeline
 
 introductions: introduction-en.pdf introduction-zh.pdf
 
