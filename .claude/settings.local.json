@@ -15,7 +15,8 @@
       "Bash(mount:*)",
       "Read(//home/lzw/bin/**)",
       "Bash(./sync_gitmessageai.py:*)",
-      "Bash(xelatex:*)"
+      "Bash(xelatex:*)",
+      "Bash(nmcli -f all device wifi list)"
     ],
     "deny": [],
     "ask": [],

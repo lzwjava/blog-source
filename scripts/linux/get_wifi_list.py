@@ -41,7 +41,7 @@ def scan_wifi_with_nmcli():
     try:
         # Rescan and list networks
         run_command("nmcli device wifi rescan", "")
-        result = run_command("nmcli -f SSID,BSSID,MODE,CHAN,RATE,SIGNAL,SECURITY device wifi list")
+        result = run_command("nmcli -f SSID,BSSID,MODE,CHAN,FREQ,RATE,BANDWIDTH,SIGNAL,BARS,SECURITY,WPA-FLAGS,RSN-FLAGS,ACTIVE,IN-USE device wifi list")
         if result and "SSID" in result:
             return result
     except:
@@ -87,28 +87,43 @@ def parse_nmcli_output(output):
     lines = output.strip().split('\n')
     if len(lines) < 2:
         return []
-    
-    header = lines[0].lower()
+
     networks = []
-    
+
     for line in lines[1:]:
         if not line.strip():
             continue
-        
-        # Split by multiple spaces and clean up
-        parts = [part.strip() for part in line.split() if part.strip()]
-        if len(parts) >= 6:
+
+        # More robust parsing to handle multi-word field values
+        # Fields: SSID BSSID MODE CHAN FREQ RATE BANDWIDTH SIGNAL BARS SECURITY WPA-FLAGS RSN-FLAGS ACTIVE IN-USE
+
+        # Use regex to split on multiple spaces while preserving quotes and handling special characters
+        import re
+        # Split on 2 or more spaces to separate fields
+        parts = re.split(r'\s{2,}', line.strip())
+
+        try:
             network = {
-                'ssid': parts[0],
+                'ssid': parts[0] if len(parts) > 0 else 'N/A',
                 'bssid': parts[1] if len(parts) > 1 else 'N/A',
                 'mode': parts[2] if len(parts) > 2 else 'N/A',
                 'channel': parts[3] if len(parts) > 3 else 'N/A',
-                'rate': parts[4] if len(parts) > 4 else 'N/A',
-                'signal': parts[5] if len(parts) > 5 else 'N/A',
-                'security': ' '.join(parts[6:]) if len(parts) > 6 else 'N/A'
+                'frequency': parts[4] if len(parts) > 4 else 'N/A',
+                'rate': parts[5] if len(parts) > 5 else 'N/A',
+                'bandwidth': parts[6] if len(parts) > 6 else 'N/A',
+                'signal': parts[7] if len(parts) > 7 else 'N/A',
+                'bars': parts[8] if len(parts) > 8 else 'N/A',
+                'security': parts[9] if len(parts) > 9 else 'N/A',
+                'wpa_flags': parts[10] if len(parts) > 10 else 'N/A',
+                'rsn_flags': parts[11] if len(parts) > 11 else 'N/A',
+                'active': parts[12] if len(parts) > 12 else 'N/A',
+                'in_use': parts[13] if len(parts) > 13 else 'N/A'
             }
             networks.append(network)
-    
+        except IndexError:
+            # If parsing fails, skip this network
+            continue
+
     return networks
 
 def get_wifi_list():
@@ -123,10 +138,15 @@ def get_wifi_list():
             for net in networks:
                 wifi_info.append(
                     f"SSID: {net['ssid']}, BSSID: {net['bssid']}, "
-                    f"Mode: {net['mode']}, Channel: {net['channel']}, "
-                    f"Rate: {net['rate']}, Signal: {net['signal']}%, "
-                    f"Security: {net['security']}"
+                    f"Mode: {net['mode']}, Channel: {net['channel']}, Frequency: {net['frequency']}, "
+                    f"Rate: {net['rate']}, Bandwidth: {net['bandwidth']}, Signal: {net['signal']}%, "
+                    f"Bars: {net['bars']}, Security: {net['security']}, Active: {net['active']}, In-Use: {net['in_use']}"
                 )
+                # Add additional flag information if available
+                if net['wpa_flags'] and net['wpa_flags'] != 'N/A':
+                    wifi_info.append(f"  WPA-Flags: {net['wpa_flags']}")
+                if net['rsn_flags'] and net['rsn_flags'] != 'N/A':
+                    wifi_info.append(f"  RSN-Flags: {net['rsn_flags']}")
     
     # Fallback to iw command if nmcli fails
     if not wifi_info:

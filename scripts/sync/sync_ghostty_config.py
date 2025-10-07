@@ -14,6 +14,9 @@ else:
     source_file = os.path.expanduser("~/.config/ghostty/config")
     target_file = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "config", "ghostty_config"))
 
+# Ensure target directory exists
+os.makedirs(os.path.dirname(target_file), exist_ok=True)
+
 # Copy the file
 shutil.copy2(source_file, target_file)
 
