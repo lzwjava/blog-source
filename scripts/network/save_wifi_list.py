@@ -12,41 +12,35 @@ from get_wifi_list import get_wifi_list
 TMP_DIR = 'tmp'
 os.makedirs(TMP_DIR, exist_ok=True)
 
-def parse_wifi_list(wifi_output):
+def prepare_networks_for_save(networks):
     """
-    Parse the output from get_wifi_list to extract SSIDs and BSSIDs.
-    Returns a list of dicts with 'ssid', 'bssid', 'full_line'.
-    Assumes format like 'SSID: name, BSSID: mac_address'
+    Prepare the networks list for saving, normalizing BSSID format and adding full_line.
     """
-    networks = []
-    lines = wifi_output.split('\n')
-    i = 0
-    while i < len(lines):
-        line = lines[i]
-        if line.startswith('SSID: '):
-            parts = [p.strip() for p in line.split(',')]
-            ssid = None
-            bssid = None
-            for part in parts:
-                if part.startswith('SSID: '):
-                    ssid = part.split('SSID: ', 1)[1]
-                elif part.startswith('BSSID: '):
-                    bssid = part.split('BSSID: ', 1)[1].replace(':', '_')
-            if ssid:
-                full_line = line
-                # Handle potential sub-lines
-                i += 1
-                while i < len(lines) and lines[i].strip().startswith('  '):
-                    full_line += '\n' + lines[i]
-                    i += 1
-                networks.append({
-                    'ssid': ssid,
-                    'bssid': bssid,
-                    'full_line': full_line
-                })
-            continue
-        i += 1
-    return networks
+    prepared = []
+    for net in networks:
+        # Normalize BSSID (replace : with _ if it's a MAC address format)
+        bssid = net.get('bssid', 'N/A')
+        if ':' in bssid:
+            normalized_bssid = bssid.replace(':', '_')
+        else:
+            normalized_bssid = bssid
+
+        # Create a copy with normalized bssid
+        network_data = net.copy()
+        network_data['bssid'] = normalized_bssid
+
+        # Create full_line for compatibility
+        full_line = (f"SSID: {net.get('ssid', 'N/A')}, BSSID: {net.get('bssid', 'N/A')}, "
+                    f"Mode: {net.get('mode', 'N/A')}, Channel: {net.get('channel', 'N/A')}, "
+                    f"Frequency: {net.get('frequency', 'N/A')}, Rate: {net.get('rate', 'N/A')}, "
+                    f"Bandwidth: {net.get('bandwidth', 'N/A')}, Signal: {net.get('signal', '0')}%, "
+                    f"Bars: {net.get('bars', 'N/A')}, Security: {net.get('security', 'N/A')}, "
+                    f"Active: {net.get('active', 'N/A')}, In-Use: {net.get('in_use', 'N/A')}")
+
+        network_data['full_line'] = full_line
+        prepared.append(network_data)
+
+    return prepared
 
 def main():
     print("=== Save WiFi List ===")
@@ -54,23 +48,23 @@ def main():
 
     # Get WiFi list
     print("Scanning for available WiFi networks...")
-    wifi_output = get_wifi_list()
-    if wifi_output.startswith("No WiFi"):
-        print(f"No WiFi networks found: {wifi_output}")
+    networks = get_wifi_list()
+    if not networks:
+        print("No WiFi networks found.")
         return
 
-    # Parse
-    networks = parse_wifi_list(wifi_output)
-    if not networks:
+    # Prepare for saving
+    prepared_networks = prepare_networks_for_save(networks)
+    if not prepared_networks:
         print("No networks found.")
         return
 
     # Save to JSON
     filename = os.path.join(TMP_DIR, "wifi_list.json")
     with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(networks, f, ensure_ascii=False, indent=2)
+        json.dump(prepared_networks, f, ensure_ascii=False, indent=2)
     print(f"WiFi list saved to: {filename}")
-    print(f"Found {len(networks)} networks.")
+    print(f"Found {len(prepared_networks)} networks.")
 
 if __name__ == "__main__":
     main()

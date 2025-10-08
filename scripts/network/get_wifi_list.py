@@ -180,15 +180,22 @@ def main():
     
     # Scan available networks
     print("Scanning for available WiFi networks...")
-    wifi_list = get_wifi_list()
-    
+    networks = get_wifi_list()
+
     print("Available WiFi Networks:")
-    if wifi_list.startswith("No WiFi"):
-        print(f"  {wifi_list}")
+    if not networks:
+        print("  No WiFi networks found or scanning method available")
     else:
-        # Indent multi-line output
-        for line in wifi_list.split('\n'):
-            print(f"  {line}")
+        for net in networks:
+            print(f"  SSID: {net['ssid']}, BSSID: {net['bssid']}, "
+                  f"Mode: {net['mode']}, Channel: {net['channel']}, Frequency: {net['frequency']}, "
+                  f"Rate: {net['rate']}, Bandwidth: {net['bandwidth']}, Signal: {net['signal']}%, "
+                  f"Bars: {net['bars']}, Security: {net['security']}, Active: {net['active']}, In-Use: {net['in_use']}")
+            # Add additional flag information if available
+            if net.get('wpa_flags') and net['wpa_flags'] != 'N/A':
+                print(f"    WPA-Flags: {net['wpa_flags']}")
+            if net.get('rsn_flags') and net['rsn_flags'] != 'N/A':
+                print(f"    RSN-Flags: {net['rsn_flags']}")
     print()
 
 if __name__ == "__main__":
