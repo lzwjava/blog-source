@@ -9,6 +9,7 @@ import os
 import sys
 import argparse
 import json
+import re
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 from scripts.llm.openrouter_client import call_openrouter_api
 
@@ -33,24 +34,45 @@ def generate_password_suggestions(ssid, num_suggestions=10, model="deepseek-v3.2
     """
     Use OpenRouter LLM to generate suggested passwords for the given SSID.
     """
-    prompt = f"Suggest {num_suggestions} possible passwords for a WiFi network named '{ssid}'. Make them plausible based on common patterns, the name, or defaults. Use only English letters, numbers, and symbols. No Chinese characters. List them numbered, one per line, no explanations."
+    prompt = f"""Suggest {num_suggestions} possible passwords for a WiFi network named '{ssid}'. Make them plausible based on common patterns, the name, or defaults. Use only English letters, numbers, and symbols. No Chinese characters.
+
+Output only a valid JSON array of strings, like: ["password1", "password2", ...]"""
     try:
         response = call_openrouter_api(prompt, model=model)
-        # Clean up response to extract just the list
+        # Try to parse as JSON
+        cleaned_response = re.sub(r'```json\s*|\s*```', '', response.strip(), flags=re.IGNORECASE)
+        passwords = json.loads(cleaned_response)
+        if isinstance(passwords, list):
+            # Filter to ensure no Chinese characters (simple check) and limit to num_suggestions
+            passwords = [
+                pwd for pwd in passwords[:num_suggestions]
+                if isinstance(pwd, str) and not any(0x4E00 <= ord(c) <= 0x9FFF for c in pwd)
+            ]
+            return passwords[:num_suggestions]
+        else:
+            raise ValueError("Response is not a list")
+    except (json.JSONDecodeError, ValueError, Exception) as e:
+        print(f"Error generating or parsing passwords: {e}")
+        # Fallback: try old parsing method
         lines = [line.strip() for line in response.split('\n') if line.strip() and line[0].isdigit()]
-        passwords = [line.split('.', 1)[1].strip() if '.' in line else line for line in lines[:num_suggestions]]
-        # Filter out any passwords that might still contain Chinese characters (simple check)
-        passwords = [pwd for pwd in passwords if not any(0x4E00 <= ord(c) <= 0x9FFF for c in pwd)]
-        return passwords[:num_suggestions]
-    except Exception as e:
-        print(f"Error generating passwords: {e}")
+        fallback_passwords = [
+            line.split('.', 1)[1].strip() if '.' in line else line
+            for line in lines[:num_suggestions]
+        ]
+        fallback_passwords = [
+            pwd for pwd in fallback_passwords
+            if not any(0x4E00 <= ord(c) <= 0x9FFF for c in pwd)
+        ]
+        if fallback_passwords:
+            return fallback_passwords[:num_suggestions]
         return []
 
 def save_passwords_to_file(bssid, passwords):
     """
     Save the list of passwords to a file in @tmp dir using BSSID.
     """
-    filename = os.path.join(TMP_DIR, f"{bssid}_passwords.txt")
+    safe_bssid = bssid.replace(':', '_')
+    filename = os.path.join(TMP_DIR, f"{safe_bssid}_passwords.txt")
     with open(filename, 'w') as f:
         for pwd in passwords:
             f.write(f"{pwd}\n")
