@@ -8,7 +8,7 @@ import os
 import subprocess
 import sys
 
-TMP_DIR = '@tmp'
+TMP_DIR = 'tmp'
 
 def attempt_connect(ssid, password):
     """
