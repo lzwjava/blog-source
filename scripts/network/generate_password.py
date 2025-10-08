@@ -30,13 +30,13 @@ def load_wifi_list():
     with open(filename, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def generate_password_suggestions(ssid, num_suggestions=10, model="deepseek-v3.2"):
+def generate_passwords(ssid, num_suggestions=10, model="deepseek-v3.2"):
     """
     Use OpenRouter LLM to generate suggested passwords for the given SSID.
     """
-    prompt = f"""Suggest {num_suggestions} possible passwords for a WiFi network named '{ssid}'. Make them plausible based on common patterns, the name, or defaults. Use only English letters, numbers, and symbols. No Chinese characters.
+    prompt = f"""You are generating WiFi passwords for a network in Guangzhou, China. Consider local preferences: Chinese people often like the number 8 (lucky), so include passwords with many 8's like 88888888 or 12345678. Also use number sequences like 123456, 1-6, or 8-8 patterns. Include some alphabetic sequences like abcdef or qwerty. Mix in general common passwords like password, admin, 1234567890, not just based on the SSID name '{ssid}'. Make them diverse and plausible for Chinese WiFi defaults. Use only English letters, numbers, and symbols. No Chinese characters. Aim for 8-12 characters.
 
-Output only a valid JSON array of strings, like: ["password1", "password2", ...]"""
+Output only a valid JSON array of {num_suggestions} unique strings, like: ["password1", "password2", ...]"""
     try:
         response = call_openrouter_api(prompt, model=model)
         # Try to parse as JSON
@@ -114,7 +114,7 @@ def main():
 
     # Generate passwords
     print(f"\nGenerating {args.n} password suggestions for '{ssid}'...")
-    passwords = generate_password_suggestions(ssid, num_suggestions=args.n)
+    passwords = generate_passwords(ssid, num_suggestions=args.n)
 
     if passwords:
         print("Suggested passwords:")
