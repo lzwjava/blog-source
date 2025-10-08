@@ -14,20 +14,12 @@ os.makedirs(TMP_DIR, exist_ok=True)
 
 def prepare_networks_for_save(networks):
     """
-    Prepare the networks list for saving, normalizing BSSID format and adding full_line.
+    Prepare the networks list for saving, ensuring BSSID format and adding full_line.
     """
     prepared = []
     for net in networks:
-        # Normalize BSSID (replace : with _ if it's a MAC address format)
-        bssid = net.get('bssid', 'N/A')
-        if ':' in bssid:
-            normalized_bssid = bssid.replace(':', '_')
-        else:
-            normalized_bssid = bssid
-
-        # Create a copy with normalized bssid
+        # Create a copy
         network_data = net.copy()
-        network_data['bssid'] = normalized_bssid
 
         # Create full_line for compatibility
         full_line = (f"SSID: {net.get('ssid', 'N/A')}, BSSID: {net.get('bssid', 'N/A')}, "
