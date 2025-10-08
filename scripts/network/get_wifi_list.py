@@ -127,47 +127,28 @@ def parse_nmcli_output(output):
     return networks
 
 def get_wifi_list():
-    """Get comprehensive WiFi network information."""
-    wifi_info = []
-    
+    """Get comprehensive WiFi network information as parsed dictionaries."""
     # Try nmcli first (most modern and user-friendly)
     nmcli_result = scan_wifi_with_nmcli()
     if nmcli_result:
         networks = parse_nmcli_output(nmcli_result)
         if networks:
-            for net in networks:
-                wifi_info.append(
-                    f"SSID: {net['ssid']}, BSSID: {net['bssid']}, "
-                    f"Mode: {net['mode']}, Channel: {net['channel']}, Frequency: {net['frequency']}, "
-                    f"Rate: {net['rate']}, Bandwidth: {net['bandwidth']}, Signal: {net['signal']}%, "
-                    f"Bars: {net['bars']}, Security: {net['security']}, Active: {net['active']}, In-Use: {net['in_use']}"
-                )
-                # Add additional flag information if available
-                if net['wpa_flags'] and net['wpa_flags'] != 'N/A':
-                    wifi_info.append(f"  WPA-Flags: {net['wpa_flags']}")
-                if net['rsn_flags'] and net['rsn_flags'] != 'N/A':
-                    wifi_info.append(f"  RSN-Flags: {net['rsn_flags']}")
-    
-    # Fallback to iw command if nmcli fails
-    if not wifi_info:
-        iw_result = scan_wifi_with_iw()
-        if iw_result:
-            wifi_info.append(f"Raw IW scan output:\n{iw_result}")
-    
-    # Final fallback to iwlist
-    if not wifi_info:
-        iwlist_result = scan_wifi_with_iwlist()
-        if iwlist_result:
-            wifi_info.append(f"Raw IWLIST scan output:\n{iwlist_result}")
-    
-    interfaces = get_wifi_interfaces()
-    if interfaces:
-        wifi_info.append(f"Detected WiFi interfaces: {', '.join(interfaces)}")
-    
-    if not wifi_info:
-        return "No WiFi scanning method available or no networks found"
-    
-    return '\n'.join(wifi_info)
+            return networks
+
+    # Fallback to iw command if nmcli fails - currently not parsed
+    iw_result = scan_wifi_with_iw()
+    if iw_result:
+        # For now, return empty list for iw (could be enhanced to parse later)
+        return []
+
+    # Final fallback to iwlist - currently not parsed
+    iwlist_result = scan_wifi_with_iwlist()
+    if iwlist_result:
+        # For now, return empty list for iwlist (could be enhanced to parse later)
+        return []
+
+    # No WiFi available
+    return []
 
 def check_current_connection():
     """Check current WiFi connection status."""
