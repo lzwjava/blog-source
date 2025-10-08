@@ -8,33 +8,42 @@ This script requires online access for LLM. Use a separate offline script to att
 import os
 import sys
 from get_wifi_list import get_wifi_list
-from openrouter_client import call_openrouter_api
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+from scripts.llm.openrouter_client import call_openrouter_api
 
 # Ensure @tmp directory exists
-TMP_DIR = '@tmp'
+TMP_DIR = 'tmp'
 os.makedirs(TMP_DIR, exist_ok=True)
 
 def parse_wifi_list(wifi_output):
     """
-    Parse the output from get_wifi_list to extract SSIDs and details.
-    Returns a list of dicts with 'index', 'ssid', 'full_line'.
+    Parse the output from get_wifi_list to extract SSIDs and BSSIDs.
+    Returns a list of dicts with 'index', 'ssid', 'bssid', 'full_line'.
+    Assumes format like 'SSID: name, BSSID: mac_address'
     """
     networks = []
     lines = wifi_output.split('\n')
-    current_ssid = None
     for i, line in enumerate(lines):
         if line.startswith('SSID: '):
-            # Extract SSID from the line
-            ssid_part = line.split('SSID: ')[1].split(',')[0].strip()
-            current_ssid = ssid_part
-            networks.append({
-                'index': len(networks) + 1,
-                'ssid': current_ssid,
-                'full_line': line
-            })
-        elif current_ssid and line.strip().startswith('  '):
-            # Append additional info to the last network if it's a sub-line
-            networks[-1]['full_line'] += '\n' + line
+            parts = [p.strip() for p in line.split(',')]
+            ssid = None
+            bssid = None
+            for part in parts:
+                if part.startswith('SSID: '):
+                    ssid = part.split('SSID: ', 1)[1]
+                elif part.startswith('BSSID: '):
+                    bssid = part.split('BSSID: ', 1)[1].replace(':', '_')
+            if ssid:
+                networks.append({
+                    'index': len(networks) + 1,
+                    'ssid': ssid,
+                    'bssid': bssid,
+                    'full_line': line
+                })
+            # Handle potential sub-lines if needed
+            while i + 1 < len(lines) and lines[i + 1].strip().startswith('  '):
+                networks[-1]['full_line'] += '\n' + lines[i + 1]
+                i += 1
     return networks
 
 def generate_password_suggestions(ssid, num_suggestions=10, model="deepseek-v3.2"):
@@ -52,11 +61,11 @@ def generate_password_suggestions(ssid, num_suggestions=10, model="deepseek-v3.2
         print(f"Error generating passwords: {e}")
         return []
 
-def save_passwords_to_file(ssid, passwords):
+def save_passwords_to_file(bssid, passwords):
     """
-    Save the list of passwords to a file in @tmp dir.
+    Save the list of passwords to a file in @tmp dir using BSSID.
     """
-    filename = os.path.join(TMP_DIR, f"{ssid.replace(' ', '_')}_passwords.txt")
+    filename = os.path.join(TMP_DIR, f"{bssid}_passwords.txt")
     with open(filename, 'w') as f:
         for pwd in passwords:
             f.write(f"{pwd}\n")
@@ -90,7 +99,8 @@ def main():
         if 1 <= choice <= len(networks):
             selected = networks[choice - 1]
             ssid = selected['ssid']
-            print(f"\nSelected: {ssid}")
+            bssid = selected['bssid']
+            print(f"\nSelected: {ssid} (BSSID: {bssid})")
         else:
             print("Invalid choice.")
             sys.exit(1)
@@ -99,15 +109,15 @@ def main():
         sys.exit(1)
 
     # Generate passwords
-    print(f"\nGenerating {10} password suggestions for '{ssid}'...")
+    print(f"\nGenerating 10 password suggestions for '{ssid}'...")
     passwords = generate_password_suggestions(ssid)
 
     if passwords:
         print("Suggested passwords:")
         for i, pwd in enumerate(passwords, 1):
             print(f"{i}. {pwd}")
-        # Save to file
-        save_passwords_to_file(ssid, passwords)
+        # Save to file using BSSID
+        save_passwords_to_file(bssid, passwords)
     else:
         print("Failed to generate passwords.")
 
