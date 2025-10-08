@@ -7,6 +7,7 @@ This script requires online access for LLM. Use a separate offline script to att
 
 import os
 import sys
+import argparse
 from get_wifi_list import get_wifi_list
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 from scripts.llm.openrouter_client import call_openrouter_api
@@ -50,13 +51,15 @@ def generate_password_suggestions(ssid, num_suggestions=10, model="deepseek-v3.2
     """
     Use OpenRouter LLM to generate suggested passwords for the given SSID.
     """
-    prompt = f"Suggest {num_suggestions} possible passwords for a WiFi network named '{ssid}'. Make them plausible based on common patterns, the name, or defaults. List them numbered, one per line, no explanations."
+    prompt = f"Suggest {num_suggestions} possible passwords for a WiFi network named '{ssid}'. Make them plausible based on common patterns, the name, or defaults. Use only English letters, numbers, and symbols. No Chinese characters. List them numbered, one per line, no explanations."
     try:
         response = call_openrouter_api(prompt, model=model)
         # Clean up response to extract just the list
         lines = [line.strip() for line in response.split('\n') if line.strip() and line[0].isdigit()]
         passwords = [line.split('.', 1)[1].strip() if '.' in line else line for line in lines[:num_suggestions]]
-        return passwords
+        # Filter out any passwords that might still contain Chinese characters (simple check)
+        passwords = [pwd for pwd in passwords if all(0x4E00 <= ord(c) <= 0x9FFF for c in pwd) == False]
+        return passwords[:num_suggestions]
     except Exception as e:
         print(f"Error generating passwords: {e}")
         return []
@@ -73,6 +76,10 @@ def save_passwords_to_file(bssid, passwords):
     return filename
 
 def main():
+    parser = argparse.ArgumentParser(description="WiFi Password Generator")
+    parser.add_argument("-n", type=int, default=10, help="Number of password suggestions to generate (default: 10)")
+    args = parser.parse_args()
+
     print("=== WiFi Password Generator ===")
     print()
 
@@ -109,8 +116,8 @@ def main():
         sys.exit(1)
 
     # Generate passwords
-    print(f"\nGenerating 10 password suggestions for '{ssid}'...")
-    passwords = generate_password_suggestions(ssid)
+    print(f"\nGenerating {args.n} password suggestions for '{ssid}'...")
+    passwords = generate_password_suggestions(ssid, num_suggestions=args.n)
 
     if passwords:
         print("Suggested passwords:")
