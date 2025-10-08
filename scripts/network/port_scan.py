@@ -67,7 +67,9 @@ if __name__ == "__main__":
     parser.add_argument("host", help="The IP address or hostname to scan")
     parser.add_argument(
         "port_range",
-        help="The port range to scan (e.g., 1-1024)"
+        nargs="?",
+        default="1-10000",
+        help="The port range to scan (e.g., 1-1024, default: 1-10000)"
     )
     args = parser.parse_args()
 
@@ -82,8 +84,7 @@ if __name__ == "__main__":
 
     open_ports = scan_ports(args.host, start_port, end_port)
 
-    print("
-Open ports:")
+    print("\nOpen ports:")
     if open_ports:
         for port in sorted(open_ports):
             print(port)
