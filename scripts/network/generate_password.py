@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
 WiFi Password Generator Script
-Scans WiFi networks, lets user select one, generates suggested passwords using LLM, and saves to @tmp dir.
+Loads WiFi list from tmp/wifi_list.json, lets user select one, generates suggested passwords using LLM, and saves to @tmp dir.
 This script requires online access for LLM. Use a separate offline script to attempt connections with saved passwords.
 """
 
 import os
 import sys
 import argparse
-from get_wifi_list import get_wifi_list
+import json
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 from scripts.llm.openrouter_client import call_openrouter_api
 
@@ -16,36 +16,18 @@ from scripts.llm.openrouter_client import call_openrouter_api
 TMP_DIR = 'tmp'
 os.makedirs(TMP_DIR, exist_ok=True)
 
-def parse_wifi_list(wifi_output):
+def load_wifi_list():
     """
-    Parse the output from get_wifi_list to extract SSIDs and BSSIDs.
-    Returns a list of dicts with 'index', 'ssid', 'bssid', 'full_line'.
-    Assumes format like 'SSID: name, BSSID: mac_address'
+    Load the WiFi list from tmp/wifi_list.json.
+    Returns a list of dicts with 'ssid', 'bssid', 'full_line'.
     """
-    networks = []
-    lines = wifi_output.split('\n')
-    for i, line in enumerate(lines):
-        if line.startswith('SSID: '):
-            parts = [p.strip() for p in line.split(',')]
-            ssid = None
-            bssid = None
-            for part in parts:
-                if part.startswith('SSID: '):
-                    ssid = part.split('SSID: ', 1)[1]
-                elif part.startswith('BSSID: '):
-                    bssid = part.split('BSSID: ', 1)[1].replace(':', '_')
-            if ssid:
-                networks.append({
-                    'index': len(networks) + 1,
-                    'ssid': ssid,
-                    'bssid': bssid,
-                    'full_line': line
-                })
-            # Handle potential sub-lines if needed
-            while i + 1 < len(lines) and lines[i + 1].strip().startswith('  '):
-                networks[-1]['full_line'] += '\n' + lines[i + 1]
-                i += 1
-    return networks
+    filename = os.path.join(TMP_DIR, "wifi_list.json")
+    if not os.path.exists(filename):
+        print(f"WiFi list not found: {filename}")
+        print("Run save_wifi_list.py first.")
+        sys.exit(1)
+    with open(filename, 'r', encoding='utf-8') as f:
+        return json.load(f)
 
 def generate_password_suggestions(ssid, num_suggestions=10, model="deepseek-v3.2"):
     """
@@ -58,7 +40,7 @@ def generate_password_suggestions(ssid, num_suggestions=10, model="deepseek-v3.2
         lines = [line.strip() for line in response.split('\n') if line.strip() and line[0].isdigit()]
         passwords = [line.split('.', 1)[1].strip() if '.' in line else line for line in lines[:num_suggestions]]
         # Filter out any passwords that might still contain Chinese characters (simple check)
-        passwords = [pwd for pwd in passwords if all(0x4E00 <= ord(c) <= 0x9FFF for c in pwd) == False]
+        passwords = [pwd for pwd in passwords if not any(0x4E00 <= ord(c) <= 0x9FFF for c in pwd)]
         return passwords[:num_suggestions]
     except Exception as e:
         print(f"Error generating passwords: {e}")
@@ -83,22 +65,15 @@ def main():
     print("=== WiFi Password Generator ===")
     print()
 
-    # Get WiFi list
-    print("Scanning for available WiFi networks...")
-    wifi_output = get_wifi_list()
-    print("Available WiFi Networks:")
-    if wifi_output.startswith("No WiFi"):
-        print(f"  {wifi_output}")
-        sys.exit(1)
-
-    # Parse and display numbered list
-    networks = parse_wifi_list(wifi_output)
+    # Load WiFi list
+    networks = load_wifi_list()
     if not networks:
-        print("No networks found.")
+        print("No networks loaded.")
         sys.exit(1)
 
-    for net in networks:
-        print(f"{net['index']}. {net['full_line']}")
+    print("Available WiFi Networks:")
+    for i, net in enumerate(networks, 1):
+        print(f"{i}. {net['full_line']}")
 
     # User input
     try:
