@@ -74,7 +74,7 @@ def generate_copilot_message():
     
     try:
         print(f"Calling OpenRouter API with model: {selected_model}")
-        message = call_openrouter_api(prompt, model=selected_model)
+        message = call_openrouter_api(prompt)
         if message:
             return message.strip()[:300]
     except Exception as e:
