@@ -5,5 +5,6 @@
 
 # Add the generated notes file
 git add original/2025-01-11-notes-en.md
+git add _posts/en/2025-01-11-notes-en.md
 
 echo "Pre-commit hook completed. Notes links have been generated."
