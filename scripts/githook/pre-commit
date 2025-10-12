@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Run the notes link generator
-/usr/bin/python scripts/generate/generate_notes_link.py
+/usr/bin/python scripts/generate/update_notes_link.py
 
 # Add the generated notes file
 git add original/2025-01-11-notes-en.md
