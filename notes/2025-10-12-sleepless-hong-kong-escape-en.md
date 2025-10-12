@@ -11,7 +11,7 @@ model: x-ai/grok-4-fast
 
 ### Refined Story: A Sleepless Weekend Escape to Hong Kong
 
-Last weekend in October 2025, I set off for a spontaneous trip to Hong Kong, arriving in the early hours after a restless journey. I woke up in Shenzhen around noon on Friday, skipped any real rest, and headed straight to Huanggang Port. Crossing the border felt like a blur—I arrived in HK around 3 or 4 a.m., bleary-eyed and underprepared for the night ahead.
+Last weekend in October 2025, I set off for a spontaneous trip to Hong Kong, arriving in the early hours after a restless journey. I woke up in Guangzhou around noon on Friday, when at evening after logging off work and headed straight to Huanggang Port. Crossing the border felt like a blur—I arrived in HK around 3 or 4 a.m., bleary-eyed and underprepared for the night ahead.
 
 I'd heard hotel prices in Hong Kong could skyrocket, especially after the inflated rates in 2023, but a quick check showed budget options ranging from HK$250 to HK$400 per night—far more affordable than expected. Still, I didn't book anything, figuring I could wing it. The weather didn't help: a light drizzle made the streets slick and uninviting as I wandered toward a nearby park. There, I tried to crash on a bench, but the damp air and occasional passersby kept me tossing.
 
