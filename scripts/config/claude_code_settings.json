@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Edit(*)",
+      "Write(*)",
+      "MultiEdit(*)"
+    ],
+    "ask": []
+  }
+}
