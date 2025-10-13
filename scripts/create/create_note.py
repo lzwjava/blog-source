@@ -111,9 +111,9 @@ def parse_args():
         help="Use a random date within last 180 days",
     )
     parser.add_argument(
-        "--math",
+        "--without-math",
         action="store_true",
-        help="Fix MathJax delimiters in the created file before git add",
+        help="Skip fixing MathJax delimiters in the created file before git add",
     )
     parser.add_argument(
         "--only-create",
@@ -148,8 +148,8 @@ if __name__ == "__main__":
 
     created_path = create_note(date=random_date, note_model_key=args.model)
 
-    # Optionally fix MathJax before invoking GPT-assisted git add/commit
-    if args.math and created_path and os.path.exists(created_path):
+    # Fix MathJax before invoking GPT-assisted git add/commit (unless --without-math is specified)
+    if not args.without_math and created_path and os.path.exists(created_path):
         try:
             fix_mathjax_in_file(created_path)
         except Exception as e:
