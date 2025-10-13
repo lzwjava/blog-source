@@ -136,13 +136,14 @@ def generate_random_date():
     return random_date.strftime('%Y-%m-%d')
 
 if __name__ == "__main__":
-    # Check for uncommitted changes before proceeding
-    check_uncommitted_changes()
-
-    # Ensure we are up to date to avoid conflicts across machines
-    git_pull_rebase()
-
     args = parse_args()
+
+    if args.push:
+        # Check for uncommitted changes before proceeding
+        check_uncommitted_changes()
+
+        # Ensure we are up to date to avoid conflicts across machines
+        git_pull_rebase()
     random_date = generate_random_date() if args.random else None
     print(f"[debug] random_date: {random_date}")  # Debug output
 
