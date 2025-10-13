@@ -116,9 +116,9 @@ def parse_args():
         help="Fix MathJax delimiters in the created file before git add",
     )
     parser.add_argument(
-        "--push",
+        "--only-create",
         action="store_true",
-        help="Push the note; call gpa to submit and open in browser",
+        help="Only create the note; skip calling gpa to submit",
     )
     return parser.parse_args()
 
@@ -136,14 +136,13 @@ def generate_random_date():
     return random_date.strftime('%Y-%m-%d')
 
 if __name__ == "__main__":
+    # Check for uncommitted changes before proceeding
+    check_uncommitted_changes()
+
+    # Ensure we are up to date to avoid conflicts across machines
+    git_pull_rebase()
+
     args = parse_args()
-
-    if args.push:
-        # Check for uncommitted changes before proceeding
-        check_uncommitted_changes()
-
-        # Ensure we are up to date to avoid conflicts across machines
-        git_pull_rebase()
     random_date = generate_random_date() if args.random else None
     print(f"[debug] random_date: {random_date}")  # Debug output
 
@@ -156,8 +155,8 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"[warn] MathJax fix failed for {created_path}: {e}")
 
-    # Only call gpa function if --push flag is used
-    if args.push:
+    # Call gpa function unless only creating the note was requested
+    if not args.only_create:
         try:
             gpa()
             open_note_in_browser(created_path)
