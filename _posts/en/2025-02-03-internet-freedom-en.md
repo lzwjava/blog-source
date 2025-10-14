@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: en
 layout: post
 title: The Journey to Pursue Internet Freedom

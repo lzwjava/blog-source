@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: es
 layout: post
 title: Una entrevista sobre la creación de marcos de IA y elecciones de vida

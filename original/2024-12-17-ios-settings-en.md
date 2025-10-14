@@ -4,7 +4,7 @@ generated: false
 image: true
 lang: en
 layout: post
-title: 'Complete iOS Power User Guide'
+title: Complete iOS Power User Guide
 ---
 
 ### Table of Contents

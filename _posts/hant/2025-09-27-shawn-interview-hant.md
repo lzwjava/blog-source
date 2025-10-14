@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: hant
 layout: post
 title: 有關建構人工智能框架和人生抉擇的訪談

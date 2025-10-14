@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: fr
 layout: post
 title: Un Entretien sur les demandes de doctorat aux États-Unis et les emplois dans

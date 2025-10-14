@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: hant
 layout: post
 title: 女兒的英文動畫之旅

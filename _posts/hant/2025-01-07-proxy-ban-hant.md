@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: hant
 layout: post
 title: 防火牆、代理API、VPN偵測

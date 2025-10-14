@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: ar
 layout: post
 title: مقابلة حول طلبات الدكتوراه في الولايات المتحدة ووظائف صناعة الذكاء الاصطناعي

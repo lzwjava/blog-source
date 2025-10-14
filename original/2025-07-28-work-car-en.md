@@ -1,11 +1,11 @@
 ---
 audio: false
+generated: false
+image: true
 lang: en
 layout: post
 title: Working in an EV Car
 translated: false
-generated: false
-image: false
 ---
 
 ## Working in an EV Car

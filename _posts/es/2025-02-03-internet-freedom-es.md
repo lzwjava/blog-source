@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: es
 layout: post
 title: El viaje en busca de la libertad en Internet

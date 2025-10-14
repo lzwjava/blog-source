@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: hant
 layout: post
 title: 美國博士申請與人工智能行業職位訪談

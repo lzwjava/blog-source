@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: true
-image: false
+image: true
 lang: hi
 layout: post
 title: आइओएस शॉर्टकट्स को मास्टर करना

@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: true
+image: false
 lang: hi
 layout: post
 title: कॉणटेक्ट

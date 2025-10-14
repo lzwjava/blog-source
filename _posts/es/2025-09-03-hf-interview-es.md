@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: es
 layout: post
 title: Una entrevista sobre las solicitudes de doctorado en EE. UU. y los trabajos

@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: hi
 layout: post
 title: मेरे आदर्श चश्मे के नुस्खे को खोजने के लिए ट्रायल लेंस का उपयोग करना

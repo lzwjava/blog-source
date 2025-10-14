@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: zh
 layout: post
 title: 使用试戴镜片寻找我的理想眼镜处方

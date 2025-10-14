@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: de
 layout: post
 title: Ein Interview über US-Doktorandenbewerbungen und KI-Industriejobs

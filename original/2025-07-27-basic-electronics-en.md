@@ -1,11 +1,11 @@
 ---
 audio: false
+generated: false
+image: false
 lang: en
 layout: post
 title: Basic Electronics I Know
 translated: false
-generated: false
-image: false
 ---
 
 I know some basic electronics. The formula `V=IR` means that voltage equals current multiplied by resistance.

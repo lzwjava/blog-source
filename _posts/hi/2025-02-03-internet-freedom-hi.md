@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: hi
 layout: post
 title: इंटरनेट स्वतंत्रता की खोज का सफर

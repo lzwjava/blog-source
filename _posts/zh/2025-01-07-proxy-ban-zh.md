@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: zh
 layout: post
 title: 防火墙、代理API与VPN检测

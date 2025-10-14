@@ -1,10 +1,10 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: en
 layout: post
-title: "An Interview on U.S. PhD Applications and AI Industry Jobs"
+title: An Interview on U.S. PhD Applications and AI Industry Jobs
 translated: false
 ---
 

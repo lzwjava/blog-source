@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: fr
 layout: post
 title: Travail dans une voiture électrique

@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: ar
 layout: post
 title: استخدام العدسات التجريبية لإيجاد مقاس نظارتي المثالي

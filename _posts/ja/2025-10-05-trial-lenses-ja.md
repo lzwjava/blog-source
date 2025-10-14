@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: ja
 layout: post
 title: 試用レンズを使って理想のメガネの度数を見つける

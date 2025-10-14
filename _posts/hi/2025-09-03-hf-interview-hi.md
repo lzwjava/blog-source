@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: hi
 layout: post
 title: अमेरिकी पीएचडी आवेदनों और एआई उद्योग की नौकरियों पर एक साक्षात्कार

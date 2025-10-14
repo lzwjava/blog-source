@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: es
 layout: post
 title: Uso de lentes de prueba para encontrar mi prescripción ideal de anteojos

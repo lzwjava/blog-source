@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: "Yin Wang: On So-Called Success"
+title: 'Yin Wang: On So-Called Success'
 top: 20
 ---
 

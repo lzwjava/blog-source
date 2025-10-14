@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: true
-image: false
+image: true
 lang: de
 layout: post
 title: Meistere iOS-Kürzel

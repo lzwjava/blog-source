@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: hant
 layout: post
 title: 嘗試鏡片以找出我的理想眼鏡處方

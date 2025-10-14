@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: en
 layout: post
 title: Using Trial Lenses to Find My Ideal Eyeglass Prescription

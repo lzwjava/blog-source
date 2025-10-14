@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: fr
 layout: post
 title: Un entretien sur la création de frameworks d'IA et les choix de vie

@@ -1,6 +1,6 @@
 ---
 audio: false
-generated: true  # Updated since this is a translation
+generated: true
 image: true
 lang: en
 layout: post

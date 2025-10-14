@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: true
-image: false
+image: true
 lang: hant
 layout: post
 title: 掌握 iOS 速捷指令

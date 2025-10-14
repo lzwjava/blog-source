@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: hi
 layout: post
 title: मेरी बेटी का एनिमेशन सफर

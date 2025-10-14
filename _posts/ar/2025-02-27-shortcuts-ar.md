@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: true
-image: false
+image: true
 lang: ar
 layout: post
 title: استخدام تقنيات iOS بشكل متقدم

@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: fr
 layout: post
 title: Voyage en Animation de Ma Fille

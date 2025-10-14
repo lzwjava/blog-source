@@ -1,11 +1,11 @@
 ---
 audio: false
+generated: false
+image: false
 lang: en
 layout: post
 title: Optimizing Software Engineering for AI
 translated: false
-generated: false
-image: false
 ---
 
 ### Table of Contents

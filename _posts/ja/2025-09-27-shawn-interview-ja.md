@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: ja
 layout: post
 title: AIフレームワークの構築と人生の選択に関するインタビュー

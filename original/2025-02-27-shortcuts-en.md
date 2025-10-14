@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: true
-image: false
+image: true
 lang: en
 layout: post
 title: Mastering iOS Shortcuts

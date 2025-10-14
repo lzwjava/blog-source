@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: hi
 layout: post
 title: जीएफडब्ल्यू, प्रॉक्सी एपीआई, वीपीएन डिटेक्शन

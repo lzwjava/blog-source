@@ -1,11 +1,11 @@
 ---
 audio: false
+generated: false
+image: false
 lang: en
 layout: post
 title: The True Reason Behind Growth
 translated: false
-generated: false
-image: false
 ---
 
 Around 2017, when I was doing my startup, after getting investment, I hired 9 employees but had to let them go after two months. It became one of my most difficult lessons: not having a long-term plan, wanting to impress others, and trying too quickly to develop my management skills. The good news is that by working with part-time engineers on 50 small software projects, we earned half a million and returned it to the investor when shutting down the company.

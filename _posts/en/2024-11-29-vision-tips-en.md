@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: en
 layout: post
 prompt: Do not translate specific human name items such as Yin, Yin Wang, Zhiwei,

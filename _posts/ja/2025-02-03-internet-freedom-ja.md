@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: ja
 layout: post
 title: インターネットの自由を追求する旅路

@@ -1,11 +1,11 @@
 ---
 audio: false
+generated: false
+image: false
 lang: en
 layout: post
 title: My Daughter’s Journey with Phones
 translated: false
-generated: false
-image: false
 ---
 
 The essay below is based on a true story and has been refined by AI. Although it is only partly written originally, it reflects real experiences.

@@ -4,9 +4,9 @@ generated: false
 image: false
 lang: en
 layout: post
-title: 'Complete Life Philosophy'
 prompt: Do not translate specific items such as project names, company names, or school
   names, human names if you are not sure.
+title: Complete Life Philosophy
 top: 10
 ---
 

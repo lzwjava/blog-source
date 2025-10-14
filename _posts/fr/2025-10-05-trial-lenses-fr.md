@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: fr
 layout: post
 title: Utiliser des lentilles d'essai pour trouver ma prescription de lunettes idéale

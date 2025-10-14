@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: zh
 layout: post
 title: 女儿的英文动画之旅

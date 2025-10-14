@@ -1,7 +1,7 @@
 ---
 audio: true
 generated: false
-image: false
+image: true
 lang: en
 layout: post
 title: GFW, Proxy APIs, VPN Detection

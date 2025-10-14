@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: 'Smart Charging Solutions'
+title: Smart Charging Solutions
 ---
 
 ### Table of Contents

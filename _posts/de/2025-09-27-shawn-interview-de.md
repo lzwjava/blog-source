@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: false
-image: false
+image: true
 lang: de
 layout: post
 title: Ein Interview über den Aufbau von KI-Frameworks und Lebensentscheidungen

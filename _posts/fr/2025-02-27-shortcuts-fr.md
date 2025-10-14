@@ -1,7 +1,7 @@
 ---
 audio: false
 generated: true
-image: false
+image: true
 lang: fr
 layout: post
 title: Maîtriser les raccourcis iOS
