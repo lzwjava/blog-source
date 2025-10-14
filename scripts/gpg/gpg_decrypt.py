@@ -11,7 +11,9 @@ input_file = sys.argv[1]
 output_file = sys.argv[2] if len(sys.argv) > 2 else None
 
 # Use gpg to decrypt
-cmd = ['gpg', '--decrypt', '--output', output_file] if output_file else ['gpg', '--decrypt']
+cmd = ['gpg', '--decrypt']
+if output_file:
+    cmd.extend(['--output', output_file])
 cmd.append(input_file)
 
 result = subprocess.run(cmd, capture_output=True, text=True)

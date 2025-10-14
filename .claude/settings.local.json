@@ -16,7 +16,8 @@
       "Read(//home/lzw/bin/**)",
       "Bash(./sync_gitmessageai.py:*)",
       "Bash(xelatex:*)",
-      "Bash(nmcli -f all device wifi list)"
+      "Bash(nmcli -f all device wifi list)",
+      "Bash(git add scripts/gpg/gpg_decrypt.py)"
     ],
     "deny": [],
     "ask": [],
