@@ -7,7 +7,6 @@ translated: false
 generated: true
 ---
 
----
 ## The Destructive Power of Constant Correction
 
 The statement, "the fastest way to destroy a person is constantly correcting them, even over the small things," highlights how **excessive and relentless criticism, even for minor issues, can severely damage an individual's self-esteem, confidence, and overall well-being.** It's a powerful observation about the impact of seemingly small actions when they're consistently applied.
