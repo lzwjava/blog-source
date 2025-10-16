@@ -11,28 +11,40 @@ translated: false
 ### Table of Contents
 
 1. [Proxy Solutions in China](#proxy-solutions-in-china)
-   - Macao SIM Card Solutions (Best Option)
-   - Proxy Server Recommendations
-   - App Configuration and Setup
-   - Payment and Regional Settings
+   - Use Macao SIM card for direct access
+   - Recommend affordable proxy server providers
+   - Configure apps with global routing rules
+   - Avoid self-hosted proxy server setups
+   - Switch App Store region with proxy
 
 2. [The Journey to Pursue Internet Freedom](#the-journey-to-pursue-internet-freedom)
-   - Timeline of Proxy Methods (2010-2025)
-   - Comparing Internet Freedom vs Myopia Solutions
-   - Current Setup and Performance
-   - Recovery Methods and Lessons Learned
+   - Timeline of proxy method evolution
+   - Compare GFW fighting to myopia reversal
+   - Current setup uses multiple proxy servers
+   - Automated proxy selection based on speed
+   - Regret not learning provider techniques earlier
 
 3. [Macau SIM Cards](#macau-sim-cards)
-   - China Telecom Easy+ SIM Card Details
-   - Blue Macau SIM Card Options
-   - Pricing and Data Plans
-   - Device Compatibility
+   - China Telecom Easy+ SIM card details
+   - Blue Macau SIM card pay-as-you-go
+   - Various daily fee and data plans
+   - Requires compatible 4G supported device
+   - No contract or termination fees
 
 4. [Shadowsocks Proxy Issues](#shadowsocks-proxy-issues)
-   - Network-Specific Connectivity Problems
-   - 5G vs 4G Performance Differences
-   - Troubleshooting Steps and Solutions
-   - ISP and Carrier Policy Impact
+   - Network-specific connectivity problems occur
+   - 5G versus 4G performance differences
+   - Carrier policies may block proxy traffic
+   - Server location affects latency
+   - Troubleshoot with different servers
+
+5. [Registering on Any Platform Regardless of Identity](#registering-on-any-platform-regardless-of-identity)
+   - Use multiple email accounts for registration
+   - Rent phone numbers through online services
+   - Switch Apple Store region with proxy
+   - Payment restrictions with Chinese Visa cards
+   - Chinese identity documents help sometimes
+
 
 ## Proxy Solutions in China
 
@@ -80,7 +92,9 @@ From June 2025, I started using a Python script on my laptop to automatically se
 
 Additionally, on iOS, I switched back to using a Macao SIM card, costing 150 CNY per month for 20GB of data. I also purchased an extra 5GB of data three times for 20 MOP each, totaling around 200 CNY for 35GB of data on my mobile phone.
 
-It has been working great for the past 2 months. I hope I can continue using this method to surf the Internet until I leave China to work abroad.
+Starting from mid-October 2025, I stopped using my Macau SIM card plan because I've been using around 35 GB a month in recent months. It would cost cellular data to use Chinese apps, which account for about one-third of my data usage—mostly in WeChat.
+
+I began using the iOS Shadowsocks app again with proxy servers from https://zhs.cloud. And I started learning some knowledge about CN2 cables.
 
 
 #### The Difference Compared to Reversing Myopia
