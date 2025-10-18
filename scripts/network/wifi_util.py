@@ -83,3 +83,40 @@ def scan_wifi_with_iwlist():
             continue
     
     return '\n\n'.join(nets) if nets else None
+
+def main():
+    """Main function to demonstrate WiFi utility functions."""
+    print("WiFi Utility Functions")
+    print("=" * 40)
+    
+    # Get WiFi interfaces
+    interfaces = get_wifi_interfaces()
+    print(f"Available WiFi interfaces: {interfaces}")
+    print()
+    
+    # Try scanning with different methods
+    print("Scanning with nmcli...")
+    nmcli_result = scan_wifi_with_nmcli()
+    if nmcli_result:
+        print(nmcli_result)
+    else:
+        print("nmcli scan failed")
+    print()
+    
+    print("Scanning with iw...")
+    iw_result = scan_wifi_with_iw()
+    if iw_result:
+        print(iw_result[:1000] + "..." if len(iw_result) > 1000 else iw_result)
+    else:
+        print("iw scan failed")
+    print()
+    
+    print("Scanning with iwlist...")
+    iwlist_result = scan_wifi_with_iwlist()
+    if iwlist_result:
+        print(iwlist_result[:1000] + "..." if len(iwlist_result) > 1000 else iwlist_result)
+    else:
+        print("iwlist scan failed")
+
+if __name__ == "__main__":
+    main()

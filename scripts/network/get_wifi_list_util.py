@@ -10,9 +10,10 @@ import os
 import time
 from datetime import datetime
 
-from scripts.network.wifi_util import scan_wifi_with_iw, scan_wifi_with_iwlist
-
-
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from wifi_util import scan_wifi_with_iw, scan_wifi_with_iwlist
 
 
 def parse_nmcli_output(output):
