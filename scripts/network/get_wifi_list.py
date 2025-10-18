@@ -55,11 +55,12 @@ def main():
             continue
             
         # Test connection with password 88888888
-        if test_wifi_connection(net['ssid']):
+        success, error = test_wifi_connection(net['ssid'])
+        if success:
             print(f"  ✓ SUCCESS! Password 88888888 works for {net['ssid']}")
             successful_connections.append(net)
         else:
-            print(f"  ✗ Failed - password incorrect or connection error")
+            print(f"  ✗ Failed - {error}")
         
         # Small delay between tests
         time.sleep(1)

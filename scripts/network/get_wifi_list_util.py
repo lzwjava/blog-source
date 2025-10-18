@@ -101,11 +101,11 @@ def check_current_connection():
     
     return None
 
-def test_wifi_connection(ssid, password="88888888", timeout=10):
-    """Test WiFi connection with given password."""
+def test_wifi_connection(ssid, password="88888888", timeout=30):
+    """Test WiFi connection with given password. Returns tuple(success: bool, error: str)."""
     interface = get_wifi_interfaces()
     if not interface:
-        return False
+        return False, "No WiFi interface available"
     interface = interface[0]  # Use first available interface
     
     try:
@@ -119,11 +119,41 @@ def test_wifi_connection(ssid, password="88888888", timeout=10):
             # Test connectivity by pinging google
             ping_test = subprocess.run("ping -c 1 -W 3 8.8.8.8", shell=True, capture_output=True, text=True)
             if ping_test.returncode == 0:
-                return True
+                return True, None
+            else:
+                return False, f"Connected but no internet: {ping_test.stderr.strip() or 'Ping failed'}"
+        else:
+            # Extract meaningful error from nmcli output
+            error_msg = result.stderr.strip() if result.stderr else result.stdout.strip()
+            if not error_msg:
+                error_msg = "Unknown nmcli error"
+            
+            # Common error patterns
+            if "No device with" in error_msg:
+                error_msg = f"WiFi interface '{interface}' not found"
+            elif "Secrets were required" in error_msg:
+                error_msg = "Wrong password or authentication failed"
+            elif "Connection activation failed" in error_msg:
+                error_msg = f"Connection failed: {error_msg}"
+            elif "already exists" in error_msg:
+                error_msg = "Connection already exists, trying to remove first"
+                # Try to remove existing connection and retry
+                subprocess.run(f"nmcli connection delete '{ssid}'", shell=True, capture_output=True, timeout=5)
+                time.sleep(1)
+                retry_result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=timeout)
+                if retry_result.returncode == 0:
+                    time.sleep(2)
+                    ping_test = subprocess.run("ping -c 1 -W 3 8.8.8.8", shell=True, capture_output=True, text=True)
+                    if ping_test.returncode == 0:
+                        return True, None
+                error_msg = f"Failed even after removing old connection: {retry_result.stderr.strip() if retry_result.stderr else retry_result.stdout.strip()}"
+            
+            return False, f"nmcli error: {error_msg}"
         
-        return False
-    except (subprocess.SubprocessError, subprocess.TimeoutExpired):
-        return False
+    except subprocess.TimeoutExpired:
+        return False, f"Connection timeout after {timeout} seconds"
+    except subprocess.SubprocessError as e:
+        return False, f"Command execution error: {str(e)}"
     finally:
         # Always disconnect after test
         try:
