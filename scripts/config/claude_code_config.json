@@ -24,7 +24,7 @@
         "openai/gpt-5-mini",
         "x-ai/grok-3-mini",
         "x-ai/grok-4",
-        "z-ai/glm-4.5",
+        "z-ai/glm-4.6",
         "x-ai/grok-code-fast-1",
         "x-ai/grok-4-fast:free"
       ],
@@ -36,11 +36,11 @@
     }
   ],
   "Router": {
-    "default": "openrouter,x-ai/grok-code-fast-1",
-    "background": "openrouter,x-ai/grok-code-fast-1",
-    "think": "openrouter,x-ai/grok-code-fast-1",
-    "longContext": "openrouter,x-ai/grok-code-fast-1",
+    "default": "openrouter,z-ai/glm-4.6",
+    "background": "openrouter,z-ai/glm-4.6",
+    "think": "openrouter,z-ai/glm-4.6",
+    "longContext": "openrouter,z-ai/glm-4.6",
     "longContextThreshold": 30000,
-    "webSearch": "openrouter,x-ai/grok-code-fast-1"
+    "webSearch": "openrouter,z-ai/glm-4.6"
   }
 }
