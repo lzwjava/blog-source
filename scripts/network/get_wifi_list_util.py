@@ -110,7 +110,7 @@ def test_wifi_connection(ssid, password="88888888", timeout=30):
     
     try:
         # Try to connect using nmcli
-        cmd = f"nmcli dev wifi connect '{ssid}' password '{password}' iface {interface}"
+        cmd = f"nmcli dev wifi connect '{ssid}' password '{password}' ifname {interface}"
         result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=timeout)
         
         if result.returncode == 0:
