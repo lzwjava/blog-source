@@ -13,7 +13,7 @@ from datetime import datetime
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from wifi_util import scan_wifi_with_iw, scan_wifi_with_iwlist
+from wifi_util import scan_wifi_with_iw, scan_wifi_with_iwlist, scan_wifi_with_nmcli, get_wifi_interfaces, run_command
 
 
 def parse_nmcli_output(output):

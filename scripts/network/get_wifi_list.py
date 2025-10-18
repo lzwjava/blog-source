@@ -4,15 +4,14 @@ WiFi Scanner Script for Linux Systems
 Scans and displays available WiFi networks with signal strength, security information, and other details.
 """
 
+import os
 import sys
 import time
+
+# Add the parent directory to the Python path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
 from scripts.network.get_wifi_list_util import (
-    run_command,
-    get_wifi_interfaces,
-    scan_wifi_with_nmcli,
-    scan_wifi_with_iw,
-    scan_wifi_with_iwlist,
-    parse_nmcli_output,
     get_wifi_list,
     check_current_connection,
     test_wifi_connection,
