@@ -1,26 +1,36 @@
 name: Habit
 
+# Temporarily disabled
+# on:
+#   schedule:
+#     - cron: '0 * * * *'
+#
+#   workflow_dispatch:
+#     # Allow manual trigger for testing
+#     inputs:
+#       message:
+#         description: 'Custom message for testing (optional)'
+#         required: false
+#         default: 'Test message from GitHub Actions.'
+#       job:
+#         description: 'Job to run (optional)'
+#         required: false
+#         default: 'send_message'
+#
+#   push:
+#     branches: ["main"]
+#     paths:
+#       - 'scripts/bot/habit_bot.py'
+#       - '.github/workflows/habit_reminder.yml'
+
 on:
-  schedule:
-    - cron: '0 * * * *'
-
   workflow_dispatch:
-    # Allow manual trigger for testing
+    # Allow manual trigger for re-enabling
     inputs:
-      message:
-        description: 'Custom message for testing (optional)'
+      enable:
+        description: 'Re-enable the workflow'
         required: false
-        default: 'Test message from GitHub Actions.'
-      job:
-        description: 'Job to run (optional)'
-        required: false
-        default: 'send_message'
-
-  push:
-    branches: ["main"]
-    paths:
-      - 'scripts/bot/habit_bot.py'
-      - '.github/workflows/habit_reminder.yml'
+        default: 'false'
 
 concurrency:
   group: 'habit_reminder'
