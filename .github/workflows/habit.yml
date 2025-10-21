@@ -1,7 +1,7 @@
 name: Habit
 
 # Temporarily disabled
-# on:
+on:
 #   schedule:
 #     - cron: '0 * * * *'
 #
@@ -17,20 +17,12 @@ name: Habit
 #         required: false
 #         default: 'send_message'
 #
-#   push:
-#     branches: ["main"]
-#     paths:
-#       - 'scripts/bot/habit_bot.py'
-#       - '.github/workflows/habit_reminder.yml'
+  push:
+    branches: ["main"]
+    paths:
+      - 'scripts/bot/habit_bot.py'
+      - '.github/workflows/habit_reminder.yml'
 
-on:
-  workflow_dispatch:
-    # Allow manual trigger for re-enabling
-    inputs:
-      enable:
-        description: 'Re-enable the workflow'
-        required: false
-        default: 'false'
 
 concurrency:
   group: 'habit_reminder'
