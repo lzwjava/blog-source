@@ -39,3 +39,4 @@ c/*
 !c/*.c
 !c/*.py
 interviews
+wget-log
