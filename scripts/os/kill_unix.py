@@ -83,17 +83,49 @@ def get_process_details(pid):
 def kill_process(pid):
     """Kill the process with the specified PID on Unix systems (macOS/Linux)."""
     try:
+        # First check if process exists
+        check_result = subprocess.run(['ps', '-p', pid], capture_output=True, text=True)
+        if check_result.returncode != 0:
+            print(f"Process {pid} does not exist or has already terminated")
+            return True  # Consider it successful if process is already gone
+
+        # Try to kill the process
         result = subprocess.run(['kill', '-9', pid], capture_output=True, text=True, check=False)
-        output = result.stdout + result.stderr
-        if 'Killed' in output:
+
+        # Check if kill was successful by verifying process is gone
+        verify_result = subprocess.run(['ps', '-p', pid], capture_output=True, text=True)
+        if verify_result.returncode != 0:
+            print(f"Successfully killed process {pid}")
             return True
         else:
-            print(f"Failed to kill process {pid}")
+            print(f"Failed to kill process {pid} - process still running")
+            print(f"Kill command exit code: {result.returncode}")
             if result.stdout:
-                print(f"stdout: {result.stdout.strip()}")
+                print(f"Kill stdout: {result.stdout.strip()}")
             if result.stderr:
-                print(f"stderr: {result.stderr.strip()}")
+                print(f"Kill stderr: {result.stderr.strip()}")
+
+            # Check if it's a system process or requires higher privileges
+            try:
+                # Get process owner
+                owner_result = subprocess.run(['ps', '-p', pid, '-o', 'user='], capture_output=True, text=True)
+                if owner_result.returncode == 0:
+                    owner = owner_result.stdout.strip()
+                    current_user = subprocess.run(['whoami'], capture_output=True, text=True).stdout.strip()
+                    if owner != current_user:
+                        print(f"Process {pid} is owned by '{owner}', you are '{current_user}' - may need sudo")
+                    else:
+                        print(f"Process {pid} is owned by you but may be a protected system process")
+            except:
+                pass
+
             return False
+
     except (subprocess.CalledProcessError, FileNotFoundError) as e:
         print(f"Failed to kill process {pid}: {e}")
+        print("This may be due to:")
+        print("  - Process already terminated")
+        print("  - Insufficient permissions (try with sudo)")
+        print("  - Process is a critical system process")
+        print("  - kill command not found")
         return False
