@@ -1,5 +1,5 @@
 ---
-title: "Contracting at HSBC: Key Challenges"
+title: "Contracting: Key Challenges"
 lang: en
 layout: post
 audio: false
