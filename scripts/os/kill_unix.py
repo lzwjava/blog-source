@@ -39,28 +39,6 @@ def find_processes_by_pattern(pattern):
 
     return processes
 
-def extract_java_app_info(command):
-    """Extract application information from Java command line."""
-    if not command or 'java' not in command.lower():
-        return None
-
-    parts = command.split()
-
-    # Look for common Spring Boot patterns
-    for i, part in enumerate(parts):
-        if part.endswith('.jar'):
-            return f"JAR: {part}"
-        elif part == '-cp' and i + 1 < len(parts):
-            return f"Classpath with main class: {parts[i+1] if i+2 < len(parts) else 'Unknown'}"
-        elif not part.startswith('-') and '.class' in part:
-            return f"Class: {part}"
-
-    # Check for Spring Boot specific indicators
-    if 'springframework' in command or 'spring-boot' in command:
-        return "Spring Boot Application"
-
-    # Generic Java app
-    return "Java Application"
 
 def get_process_details(pid):
     """Get detailed information about a process on Unix systems (macOS/Linux)."""
@@ -83,20 +61,19 @@ def get_process_details(pid):
                     # Parse the ps output carefully
                     # Format: PID PPID STARTED ELAPSED COMMAND
                     # Where STARTED can have multiple spaces: "Mon Sep 29 23:40:03 2025"
-                    match = re.match(r'(\d+)\s+(\d+)\s+(.*?)\s+(\d+-\d+:\d+:\d+)\s+(.+)', data_line)
+                    # ELAPSED can be formats: dd-hh:mm:ss, hh:mm:ss, mm:ss
+                    match = re.match(r'(\d+)\s+(\d+)\s+(.*?)\s+([0-9-]+:[0-9:]+)\s+(.+)', data_line)
                     if match:
                         pid_val, ppid_val, lstart_val, etime_val, command_val = match.groups()
-                        # Check if it's Java and try to extract jar/class name
-                        app_info = extract_java_app_info(command_val)
 
                         return {
-                            'name': 'java' if 'java' in command_val.lower() else command_val.split()[0],
+                            'name': command_val.split()[0],
                             'pid': pid_val,
                             'ppid': ppid_val,
                             'started': lstart_val,
                             'elapsed': etime_val,
                             'command': command_val,
-                            'app_info': app_info
+                            'app_info': None
                         }
     except (subprocess.CalledProcessError, FileNotFoundError, IndexError):
         pass
@@ -106,17 +83,49 @@ def get_process_details(pid):
 def kill_process(pid):
     """Kill the process with the specified PID on Unix systems (macOS/Linux)."""
     try:
+        # First check if process exists
+        check_result = subprocess.run(['ps', '-p', pid], capture_output=True, text=True)
+        if check_result.returncode != 0:
+            print(f"Process {pid} does not exist or has already terminated")
+            return True  # Consider it successful if process is already gone
+
+        # Try to kill the process
         result = subprocess.run(['kill', '-9', pid], capture_output=True, text=True, check=False)
-        output = result.stdout + result.stderr
-        if 'Killed' in output:
+
+        # Check if kill was successful by verifying process is gone
+        verify_result = subprocess.run(['ps', '-p', pid], capture_output=True, text=True)
+        if verify_result.returncode != 0:
+            print(f"Successfully killed process {pid}")
             return True
         else:
-            print(f"Failed to kill process {pid}")
+            print(f"Failed to kill process {pid} - process still running")
+            print(f"Kill command exit code: {result.returncode}")
             if result.stdout:
-                print(f"stdout: {result.stdout.strip()}")
+                print(f"Kill stdout: {result.stdout.strip()}")
             if result.stderr:
-                print(f"stderr: {result.stderr.strip()}")
+                print(f"Kill stderr: {result.stderr.strip()}")
+
+            # Check if it's a system process or requires higher privileges
+            try:
+                # Get process owner
+                owner_result = subprocess.run(['ps', '-p', pid, '-o', 'user='], capture_output=True, text=True)
+                if owner_result.returncode == 0:
+                    owner = owner_result.stdout.strip()
+                    current_user = subprocess.run(['whoami'], capture_output=True, text=True).stdout.strip()
+                    if owner != current_user:
+                        print(f"Process {pid} is owned by '{owner}', you are '{current_user}' - may need sudo")
+                    else:
+                        print(f"Process {pid} is owned by you but may be a protected system process")
+            except:
+                pass
+
             return False
+
     except (subprocess.CalledProcessError, FileNotFoundError) as e:
         print(f"Failed to kill process {pid}: {e}")
+        print("This may be due to:")
+        print("  - Process already terminated")
+        print("  - Insufficient permissions (try with sudo)")
+        print("  - Process is a critical system process")
+        print("  - kill command not found")
         return False
