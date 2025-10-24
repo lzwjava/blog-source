@@ -34,6 +34,9 @@ SENSITIVE_YAML_KEYS: Tuple[str, ...] = (
 # Recover mapping: sanitized key -> environment variable to populate on reverse
 ENV_RECOVERY_MAP = {
     "OPENROUTER_KEY": "OPENROUTER_API_KEY",
+    "SERPER_API_KEY": "SERPER_API_KEY",
+    "FIRECRAWL_API_KEY": "FIRECRAWL_API_KEY",
+    "JINA_API_KEY": "JINA_API_KEY",
 }
 
 

@@ -17,7 +17,8 @@
       "Bash(./sync_gitmessageai.py:*)",
       "Bash(xelatex:*)",
       "Bash(nmcli -f all device wifi list)",
-      "Bash(git add scripts/gpg/gpg_decrypt.py)"
+      "Bash(git add scripts/gpg/gpg_decrypt.py)",
+      "Read(//Users/lzwjava/projects/LibreChat/**)"
     ],
     "deny": [],
     "ask": [],
