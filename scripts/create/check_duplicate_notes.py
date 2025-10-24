@@ -102,7 +102,7 @@ def check_duplicate_notes() -> bool:
 
     # Sort by modification time (latest first) and take latest 200
     note_files.sort(key=lambda f: f.stat().st_mtime, reverse=True)
-    latest_notes = note_files[:1000]
+    latest_notes = note_files[:-1]
 
     print(f"[info] Checking against latest {len(latest_notes)} notes...")
 
