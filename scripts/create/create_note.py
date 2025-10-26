@@ -116,9 +116,9 @@ def parse_args():
         help="Skip fixing MathJax delimiters in the created file before git add",
     )
     parser.add_argument(
-        "--only-create",
+        "--open",
         action="store_true",
-        help="Only create the note; skip calling gpa to submit",
+        help="Open the note in browser after creating",
     )
     return parser.parse_args()
 
@@ -155,10 +155,13 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"[warn] MathJax fix failed for {created_path}: {e}")
 
-    # Call gpa function unless only creating the note was requested
-    if not args.only_create:
+    # Call gpa function and open browser if --open flag is specified
+    if args.open:
         try:
             gpa()
             open_note_in_browser(created_path)
         except Exception as e:
             print(f"[warn] gpa failed: {e}, not opening browser")
+    else:
+        # Only create the note, skip gpa and browser opening
+        print(f"[info] Note created at {created_path}")
