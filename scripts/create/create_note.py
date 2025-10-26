@@ -154,11 +154,12 @@ if __name__ == "__main__":
             fix_mathjax_in_file(created_path)
         except Exception as e:
             print(f"[warn] MathJax fix failed for {created_path}: {e}")
+            
+    gpa()
 
     # Call gpa function and open browser if --open flag is specified
     if args.open:
-        try:
-            gpa()
+        try:            
             open_note_in_browser(created_path)
         except Exception as e:
             print(f"[warn] gpa failed: {e}, not opening browser")
