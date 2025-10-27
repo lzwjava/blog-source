@@ -21,6 +21,7 @@ MODEL_MAPPING = {
     "grok-code": "x-ai/grok-code-fast-1",
     "grok-4-fast": "x-ai/grok-4-fast",
     "glm-4.6": "z-ai/glm-4.6",
+    "minimax-m2": "minimax/minimax-m2:free"
 }
 
 DEFAULT_TOKENS = {
@@ -36,6 +37,7 @@ DEFAULT_TOKENS = {
     "grok-code": 62144,
     "grok-4-fast": 61072,
     "glm-4.6": 32768,
+    "mimimax-m2": 32768
 }
 
 
