@@ -54,18 +54,18 @@ def _are_notes_quick_similar(content1, content2):
     if abs(len1 - len2) / max(len1, len2) > 0.05:
         return False
 
-    # Fast content check - first 200 chars
-    first200_1 = content1[:200]
-    first200_2 = content2[:200]
+    # Fast content check - first 500 chars
+    first500_1 = content1[:500]
+    first500_2 = content2[:500]
 
-    # Exact match for first 100 chars, 90% match for 200 chars
-    if len(first200_1) >= 100 and len(first200_2) >= 100:
-        if first200_1[:100] != first200_2[:100]:
+    # Exact match for first 250 chars, 90% match for 500 chars
+    if len(first500_1) >= 250 and len(first500_2) >= 250:
+        if first500_1[:250] != first500_2[:250]:
             return False
 
-        # 90% similarity for 200 chars
-        matches = sum(c1 == c2 for c1, c2 in zip(first200_1[:200], first200_2[:200]))
-        return matches >= 180  # 90% of 200
+        # 90% similarity for 500 chars
+        matches = sum(c1 == c2 for c1, c2 in zip(first500_1[:500], first500_2[:500]))
+        return matches >= 450  # 90% of 500
 
     return content1.strip() == content2.strip()
 
