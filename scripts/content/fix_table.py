@@ -38,33 +38,24 @@ def process_tables_in_file(filepath, fix_tables=False):
             for cb in code_block_data:
                 temp_text = temp_text.replace(cb["content"], "CODE_BLOCK_PLACEHOLDER")
 
-            # Pattern to match tables that don't have a blank line before them
-            # This matches when a table directly follows text (but not a blank line)
-            # We need to handle various heading styles and text
-            def add_blank_line_before_table(match):
-                before_text = match.group(1)
-                table = match.group(2)
-                return before_text + "\n\n" + table
-
-            # Pattern: capture text before table, then the table itself
-            # Tables start with | and must be preceded by non-newline text
-            pattern = r"([^\n])\n(\|.*?\|\n(?:\|.*\|\n)*)"
+            # Pattern to match headings (## or ###) followed by tables without blank line
+            # This matches when a table directly follows a heading (but not a blank line)
+            pattern = r"(^#{2,3}\s+.*?\n)(\|.*?\|\n(?:\|.*\|\n)*)"
 
             def replacer(match):
-                before_text = match.group(1)
+                heading = match.group(1)
                 table = match.group(2)
 
-                # Check if there's already a blank line or if it's already correctly formatted
-                if before_text.endswith('\n\n'):
+                # Check if there's already a blank line between heading and table
+                if heading.endswith('\n\n'):
                     return match.group(0)  # Already has blank line
 
                 # Only add blank line if fix_tables is True
                 if fix_tables:
-                    # Ensure we don't add extra blank lines
-                    return before_text + "\n\n" + table
+                    return heading.rstrip() + "\n\n" + table
                 return match.group(0)
 
-            temp_text = re.sub(pattern, replacer, temp_text, flags=re.MULTILINE | re.DOTALL)
+            temp_text = re.sub(pattern, replacer, temp_text, flags=re.MULTILINE)
 
             for cb in code_block_data:
                 temp_text = temp_text.replace("CODE_BLOCK_PLACEHOLDER", cb["content"])

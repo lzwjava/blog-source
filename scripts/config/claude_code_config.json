@@ -33,11 +33,11 @@
     }
   ],
   "Router": {
-    "default": "openrouter,minimax/minimax-m2:free",
-    "background": "openrouter,minimax/minimax-m2:free",
-    "think": "openrouter,minimax/minimax-m2:free",
-    "longContext": "openrouter,minimax/minimax-m2:free",
+    "default": "openrouter,x-ai/grok-code-fast-1",
+    "background": "openrouter,x-ai/grok-code-fast-1",
+    "think": "openrouter,x-ai/grok-code-fast-1",
+    "longContext": "openrouter,x-ai/grok-code-fast-1",
     "longContextThreshold": 30000,
-    "webSearch": "openrouter,minimax/minimax-m2:free"
+    "webSearch": "openrouter,x-ai/grok-code-fast-1"
   }
 }
