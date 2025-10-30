@@ -263,6 +263,7 @@ public class Main {
 ---
 
 ### Comparison
+
 | Feature            | `synchronized`       | `Lock` (ReentrantLock) | `Semaphore`         |
 |--------------------|----------------------|------------------------|---------------------|
 | Ease of Use        | High                | Medium                | Low                |

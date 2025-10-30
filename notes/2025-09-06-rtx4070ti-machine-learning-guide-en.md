@@ -82,6 +82,7 @@ Great question, Zhiwei! With an **NVIDIA RTX 4070 Ti** (which has 12GB of VRAM),
 ---
 
 ## **3. What Else Can You Do?**
+
 | Task                | Example Models/Tools                          | Notes                                  |
 |---------------------|-----------------------------------------------|----------------------------------------|
 | **Text Generation** | Llama, Mistral, Phi, Gemma                    | Use 4-bit quantization for 13B+ models.|

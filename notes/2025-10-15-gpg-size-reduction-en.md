@@ -19,6 +19,7 @@ The GPG-encrypted file (`The.Matrix.1999.720p.BrRip.264.YIFY.mp4.gpg`) is only s
 - **No strong size reduction without tweaks**: GPG isn't designed for aggressive compression like ZIP or 7z. If the data can't compress well, the output stays roughly the same size.
 
 ### Quick Comparison of Sizes
+
 | File | Size (bytes) | Size (MB, approx.) | Difference |
 |------|--------------|--------------------|------------|
 | Original MP4 | 737,870,817 | 703.7 | - |

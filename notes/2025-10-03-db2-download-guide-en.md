@@ -20,6 +20,7 @@ It looks like you're looking at the download options for IBM Db2 Community Editi
   - For **standard Linux (e.g., Ubuntu, Red Hat on x86-64 hardware)**: Select **Linux (x64)**.
 
 ### Download Options Breakdown
+
 | Operating System       | Architecture | Size | Best For | Download Link |
 |------------------------|--------------|------|----------|---------------|
 | **Microsoft Windows (x64)** | x64 (Intel/AMD 64-bit) | 1.4 GB | Windows PCs/servers | [Download from ibm.com/db2](https://www.ibm.com/products/db2-database) (sign in or register for access) |

@@ -70,6 +70,7 @@ AI will permeate every industry. Invest in:
 ---
 
 ### **Sample Portfolio (Aggressive Growth Focus)**
+
 | **Asset Class**       | **Allocation** | **Examples**                          |
 |------------------------|----------------|---------------------------------------|
 | U.S. Growth Stocks     | 40%            | NVIDIA, Microsoft, Amazon, AMD        |

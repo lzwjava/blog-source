@@ -48,6 +48,7 @@ CFWA wins for simplicity, especially for Cloudflare users.
 GA is better for broad marketing ecosystems.
 
 ### Pros and Cons Summary
+
 | Aspect              | Google Analytics Pros | Google Analytics Cons | Cloudflare Web Analytics Pros | Cloudflare Web Analytics Cons |
 |---------------------|-----------------------|-----------------------|-------------------------------|-------------------------------|
 | **Features**       | Highly advanced and customizable | Steep learning curve for advanced use | Simple and essential metrics | Lacks depth in user tracking |

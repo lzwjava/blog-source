@@ -136,7 +136,8 @@ main:
 - `.text` section contains executable instructions.  
 - `syscall` is used to interact with the operating system.  
 
-### **5.4 Key Assembly Instructions**  
+### **5.4 Key Assembly Instructions**
+
 | Instruction | Meaning | Example |
 |------------|---------|---------|
 | `add` | Add two registers | `add $t1, $t2, $t3` |
@@ -146,7 +147,8 @@ main:
 | `beq` | Branch if equal | `beq $t1, $t2, label` |
 | `j` | Jump to address | `j label` |
 
-### **5.5 Assembly vs High-Level Languages**  
+### **5.5 Assembly vs High-Level Languages**
+
 | Feature | Assembly | High-Level Language (C, Python) |
 |---------|---------|------------------------------|
 | **Speed** | Faster | Slower (more overhead) |

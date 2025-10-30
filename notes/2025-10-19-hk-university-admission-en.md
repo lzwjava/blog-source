@@ -29,6 +29,7 @@ Apply directly to each university (no central system like JUPAS). Main round: No
 4. **Visa**: Student visa upon offer; post-grad IANG for work stay.
 
 ### Comparison to Joshua Wong's Path
+
 | Aspect                  | Joshua Wong (Local, 2014)          | Your Self-Study Path (Non-Local)                  |
 |-------------------------|------------------------------------|--------------------------------------------------|
 | **Entry Level**        | Year 1 (fresh high school)        | Year 1 or senior year (post-secondary credits)   |

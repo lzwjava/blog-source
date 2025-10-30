@@ -72,6 +72,7 @@ Let’s dive into the differences between **Spring Boot** and **Spring** (often 
   Add `spring-boot-starter-web` to your `pom.xml`, and you’re done—run it with an embedded server.
 
 ### Summary Table
+
 | Aspect              | Spring Framework            | Spring Boot                 |
 |---------------------|-----------------------------|-----------------------------|
 | **Purpose**         | Core framework for Java     | Simplified Spring usage     |

@@ -20,6 +20,7 @@ Yes, a mainland Chinese citizen can enroll in a Hong Kong public university to p
 - **No Major Restrictions**: Despite the 2020 National Security Law and political tensions, admissions for mainland students remain open and competitive, with no blanket bans. Universities emphasize merit-based selection and do not use intermediaries in mainland China for recruitment.
 
 ### Comparison to Joshua Wong's Enrollment
+
 | Aspect              | Joshua Wong (Local HK Resident) | Mainland Chinese Student (Non-Local) |
 |---------------------|---------------------------------|--------------------------------------|
 | **Application Route** | JUPAS via HKDSE                | Gaokao scheme or non-JUPAS (international quals) |

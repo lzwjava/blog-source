@@ -96,6 +96,7 @@ Docker and Kubernetes are complementary technologies in the container ecosystem,
 ---
 
 ### Key Differences
+
 | Aspect                | Docker                              | Kubernetes                          |
 |-----------------------|-------------------------------------|-------------------------------------|
 | **Purpose**           | Container creation and runtime      | Container orchestration             |

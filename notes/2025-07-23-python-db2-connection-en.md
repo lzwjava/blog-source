@@ -88,6 +88,7 @@ conn.close()
 - **Transactions**: `conn.commit()` or `conn.rollback()`; autocommit is off by default.
 
 ### Key Differences and When to Use Which
+
 | Feature              | ibm_db                          | ibm_db_dbi                      |
 |----------------------|---------------------------------|---------------------------------|
 | Compliance           | Non-DB-API (low-level)          | DB-API 2.0 compliant           |

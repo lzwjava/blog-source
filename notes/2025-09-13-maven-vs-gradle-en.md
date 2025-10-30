@@ -55,6 +55,7 @@ Choosing between **Maven** and **Gradle** depends on your project needs, team ex
 - Teams comfortable with scripting languages and seeking performance optimizations.
 
 ### **Key Differences**
+
 | Feature                | Maven                              | Gradle                              |
 |------------------------|------------------------------------|-------------------------------------|
 | **Configuration**      | XML (`pom.xml`)                   | Groovy/Kotlin DSL (`build.gradle`) |

@@ -21,6 +21,7 @@ This code is part of an **iOS chat application** (likely using **LeanCloud's IM 
 ---
 
 ## **2. Key Properties**
+
 | Property | Type | Purpose |
 |----------|------|---------|
 | `clientStatusView` | `LZStatusView` | Shows connection status (e.g., offline/online) at the top of the table. |
@@ -79,6 +80,7 @@ This code is part of an **iOS chat application** (likely using **LeanCloud's IM 
 ---
 
 ## **6. Notable Methods**
+
 | Method | Purpose |
 |--------|---------|
 | `refresh:` | Fetches and updates conversations. |

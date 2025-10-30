@@ -36,6 +36,7 @@ LibreChat provides **two main ways to search**:
 ---
 
 ### **2. How Search Differs from Forking**
+
 | Feature               | **Search**                          | **Forking**                          |
 |-----------------------|-------------------------------------|--------------------------------------|
 | **Purpose**           | Find past messages/conversations.   | Create alternate paths from a point.|
@@ -82,6 +83,7 @@ LibreChat provides **two main ways to search**:
 
 ---
 ### **5. Comparison with ChatGPT’s Search**
+
 | Feature               | LibreChat                          | ChatGPT (Web)                     |
 |-----------------------|------------------------------------|-----------------------------------|
 | **Scope**             | All conversations + messages.      | Only current chat history.        |

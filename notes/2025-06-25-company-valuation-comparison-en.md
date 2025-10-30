@@ -46,6 +46,7 @@ Below is a comparison of the valuations of the five companies (Tencent, HSBC, Al
    - **Source**: Tech Funding News, taptwicedigital.com.[](https://techfundingnews.com/anthropic-raises-3-5b-at-61-5b-valuation-can-it-outspace-openai-in-the-ai-race/)[](https://taptwicedigital.com/stats/anthropic)
 
 ### Comparative Analysis
+
 | **Company**   | **Valuation (USD)** | **Employees** | **Type**         | **Valuation/Employee (USD)** |
 |---------------|---------------------|---------------|------------------|------------------------------|
 | Tencent       | $416 billion        | 110,558       | Big Tech         | ~$3.76 million               |

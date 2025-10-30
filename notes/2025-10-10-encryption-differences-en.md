@@ -24,6 +24,7 @@ Non-symmetric algorithms, commonly called asymmetric cryptography or public-key 
 - **Cons**: Slower and more resource-intensive than symmetric methods.
 
 ### Key Differences
+
 | Aspect              | Symmetric                          | Asymmetric (Non-Symmetric)          |
 |---------------------|------------------------------------|-------------------------------------|
 | **Key Usage**      | One key for encrypt/decrypt       | Public key for encrypt, private for decrypt |

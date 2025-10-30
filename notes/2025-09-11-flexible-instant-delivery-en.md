@@ -75,6 +75,7 @@ If you need help with large purchases (e.g., water, furniture):
 
 ---
 ### **Summary Table**
+
 | **Request**               | **Instant Delivery (Meituan/Ele.me)** | **E-Commerce (JD/Pinduoduo)** |
 |---------------------------|---------------------------------------|--------------------------------|
 | Carry heavy items upstairs | ✅ Yes (with tip)                     | ❌ No                          |

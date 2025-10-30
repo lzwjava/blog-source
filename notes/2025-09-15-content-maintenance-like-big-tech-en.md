@@ -97,6 +97,7 @@ Your observation is spot-on! The challenge of **merging, deleting, or simplifyin
 ---
 
 ### **Tools to Help**
+
 | Task               | Tool/Plugin                          | Big Tech Equivalent          |
 |--------------------|--------------------------------------|------------------------------|
 | Content Audit      | Google Analytics, Screaming Frog     | Log analysis (Splunk)        |

@@ -56,6 +56,7 @@ Let’s compare **Laravel** and **Spring Boot**, two popular frameworks used for
 - **Spring Boot**: Typically deployed as a JAR file with an embedded server (e.g., Tomcat), making it portable. Better suited for containerized environments like Docker or Kubernetes.
 
 ### Summary Table
+
 | Aspect            | Laravel (PHP)             | Spring Boot (Java)         |
 |-------------------|---------------------------|----------------------------|
 | **Language**      | PHP                      | Java                      |

@@ -88,6 +88,7 @@ Virtual memory is a **technique that allows the system to use disk space as an e
 - **Page Fault:** Occurs when data is not in RAM and must be loaded from disk (slow process).  
 
 ### **5.4 Virtual Memory vs Physical Memory**
+
 | Feature | Virtual Memory | Physical Memory (RAM) |
 |---------|---------------|----------------------|
 | Location | Hard disk (swap file) | RAM (main memory) |
@@ -126,6 +127,7 @@ To ensure high-speed memory operations, the system uses:
 - **Multi-Level Caching:** Uses L1, L2, and L3 caches to minimize delays.  
 
 ### **7.2 Trade-offs in Memory Hierarchy**
+
 | Factor | Cache Memory | RAM | Virtual Memory |
 |--------|-------------|-----|---------------|
 | Speed | Fastest | Moderate | Slow |

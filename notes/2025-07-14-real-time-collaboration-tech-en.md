@@ -40,6 +40,7 @@ Google Docs uses a sophisticated **real-time collaboration algorithm** to allow 
    - **Conflict Resolution**: If two users edit the same text simultaneously, the system resolves conflicts via OT/CRDT rules.
 
 ### **Comparison: OT vs. CRDT**
+
 | Feature               | OT (Google Docs Classic) | CRDT (E.g., Figma, Notion) |
 |-----------------------|--------------------------|---------------------------|
 | Central Server Needed | Yes                      | No (peer-to-peer possible) |

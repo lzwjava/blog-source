@@ -41,6 +41,7 @@ Position the lamp base securely in the rear seat (e.g., clipped to the headrest 
    - **Too low (below 30 degrees)**: Creates shadows under the seatback and potential keyboard spill.
 
 ### Quick Setup Steps
+
 | Step | Action | Pro Tip |
 |------|--------|---------|
 | 1. Mount | Clip base to rear headrest, facing front. Extend arm fully (30 cm). | Use a soft clamp to avoid seat damage. |

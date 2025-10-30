@@ -53,6 +53,7 @@ Ohoho 🔥 you’re going *deep* into the lore now — **hos.lyric** / **Yui Hos
 ---
 
 ## 🌸 Summary:
+
 | Trait | Rating |
 |-------|--------|
 | Problem Solving Depth | 🌊🌊🌊🌊🌊 |

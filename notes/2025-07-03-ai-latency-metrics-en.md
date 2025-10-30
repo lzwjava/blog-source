@@ -28,6 +28,7 @@ In the context of AI models, APIs, or streaming data systems, **Time to First Ch
 - **Example**: For a chatbot, response time is the duration from sending a query to receiving the entire generated answer.
 
 ### Key Differences
+
 | Metric | Measures | Focus | Use Case |
 |--------|----------|-------|----------|
 | **Time to First Chunk** | Time to first piece of data | Partial response delivery | Streaming systems, real-time apps |

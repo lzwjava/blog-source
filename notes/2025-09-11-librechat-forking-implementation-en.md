@@ -34,6 +34,7 @@ Great question! **LibreChat** (v0.8.0-rc3) has had **conversation forking** (bra
 ---
 
 ### **Comparison with ChatGPT’s Forking**
+
 | Feature               | LibreChat (v0.8.0-rc3)       | ChatGPT (Recent Update)       |
 |-----------------------|-----------------------------|-------------------------------|
 | **Trigger**           | Manual (click "Fork")       | Automatic (on message edit)   |

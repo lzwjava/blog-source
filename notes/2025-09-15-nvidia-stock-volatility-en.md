@@ -18,6 +18,7 @@ As of September 14, 2025, NVIDIA's stock (NVDA) is experiencing some volatility 
 - **Price Targets:** Machine learning models and analysts suggest NVDA could reach **$183–$185** by the end of September 2025, with some bullish forecasts targeting **$200** by year-endLong-Term Growth:** NVIDIA is positioned to capitalize on the expanding AI and semiconductor markets, with the industry expected to grow significantly through 2030.
 
 ### Recent Trading Data
+
 | Date          | Close Price |
 |---------------|-------------|
 | Sep 12, 2025  | $177.82     |

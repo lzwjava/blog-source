@@ -21,6 +21,7 @@ The H10G-13AC (also stylized as H10g-13ac) is a **Converged Enterprise Gateway**
 - **IPv6 Certification**: Approved under the IPv6 Ready Logo Program (Logo ID: 02-C-002504) in October 2022, ensuring compatibility with IPv6 core protocols. It supports advanced IPv6 features like multicast routing, echo requests, and router advertisement DNS.
 
 ### Hardware Specifications
+
 | Interface/Component | Details |
 |---------------------|---------|
 | **USB Ports** | 2x USB (for external storage or peripherals) |

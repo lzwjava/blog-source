@@ -32,6 +32,7 @@ model: mistralai/mistral-medium-3.1
 
 ---
 ### **Accountability vs. Blame**
+
 | **Accountability** | **Blame** |
 |---------------------|-----------|
 | Focuses on *solutions* ("How can we fix this?") | Focuses on *fault* ("Who messed up?") |

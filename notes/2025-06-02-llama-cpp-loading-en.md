@@ -66,6 +66,7 @@ If redownloading fails:
    ```
 
 ### Common Fixes Summary:
+
 | Issue | Solution |
 |-------|----------|
 | **Corrupted download** | Redownload model |

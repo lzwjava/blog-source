@@ -36,6 +36,7 @@ Yes! **LibreChat** is an excellent choice for engineers and power users who want
    - Use **open-source models** (e.g., Llama 3, Mistral) for free or at lower costs.
 
 ### **Comparison with ChatGPT Plus**
+
 | Feature               | LibreChat (Self-Hosted) | ChatGPT Plus (Official) |
 |-----------------------|------------------------|-------------------------|
 | **Model Choice**      | Any (OpenAI, Claude, etc.) | Limited to OpenAI models |

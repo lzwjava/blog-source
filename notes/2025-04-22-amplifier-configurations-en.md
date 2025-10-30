@@ -19,6 +19,7 @@ Here’s a comprehensive explanation of the **three basic amplifier configuratio
 - **Common terminal**: Emitter is common to both input and output.
 
 ### 🔍 Key Characteristics
+
 | Property                | Description                       |
 |-------------------------|------------------------------------|
 | **Voltage Gain**        | High                               |
@@ -51,6 +52,7 @@ Here’s a comprehensive explanation of the **three basic amplifier configuratio
 - **Common terminal**: Collector is common.
 
 ### 🔍 Key Characteristics
+
 | Property                | Description                           |
 |-------------------------|----------------------------------------|
 | **Voltage Gain**        | Approximately 1 (unity gain)           |
@@ -84,6 +86,7 @@ Here’s a comprehensive explanation of the **three basic amplifier configuratio
 - **Common terminal**: Base is common.
 
 ### 🔍 Key Characteristics
+
 | Property                | Description                             |
 |-------------------------|------------------------------------------|
 | **Voltage Gain**        | High                                     |

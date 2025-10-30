@@ -74,6 +74,7 @@ Here’s how weather impacts your daily life in Guangzhou and how you can **adap
 ---
 
 ### **Best Weather Apps for Guangzhou (Accurate & Localized)**
+
 | App Name (中文) | Key Feature | Best For |
 |----------------|------------|----------|
 | **彩云天气** | Minute-level rain forecast | Sudden rain alerts |

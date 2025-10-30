@@ -70,6 +70,7 @@ The U.S. presents a stark contrast due to:
 
 ---
 ### **4. Why the China-U.S. Divide?**
+
 | Factor               | China                          | U.S.                          |
 |----------------------|--------------------------------|-------------------------------|
 | **Mobility Culture** | Hukou ties, local networks     | "Go where the work is" ethos  |

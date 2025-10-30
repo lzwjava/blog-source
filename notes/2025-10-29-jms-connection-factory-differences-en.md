@@ -12,6 +12,7 @@ model: x-ai/grok-4-fast
 In IBM WebSphere Application Server (WAS), both connection factories and queue connection factories are JMS (Java Message Service) resources used to establish connections to a JMS provider for messaging. However, they differ in scope, API compatibility, and usage based on JMS domain models (point-to-point vs. publish/subscribe). Here's a breakdown:
 
 ### Key Differences
+
 | Aspect                  | Connection Factory                                                                 | Queue Connection Factory                                                                 |
 |-------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | **Primary Purpose**    | Creates JMS connections to destinations for **both** point-to-point (queues) and publish/subscribe (topics) messaging. Supports the unified "classic" API introduced in JMS 1.1. | Creates JMS connections **exclusively** for point-to-point messaging with queues. Based on the legacy domain-specific API from JMS 1.0. |

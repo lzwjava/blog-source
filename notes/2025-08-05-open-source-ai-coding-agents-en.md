@@ -92,6 +92,7 @@ Here are the most notable open-source AI coding agents that can serve as alterna
 - **Community Sentiment**: Less discussed in community posts but noted for its potential in extensible, agentic workflows.[](https://www.prompt.security/blog/ai-coding-assistants-make-a-cli-comeback)
 
 ### Comparison Summary
+
 | Feature/Tool        | Aider                     | OpenCode                  | Gemini CLI                | Qwen CLI                 | Qodo CLI                 | Claude Code (Proprietary) | Cline (Open-Source)       |
 |---------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|---------------------------|
 | **Open-Source**     | Yes                       | Yes                       | Yes                       | Yes                      | Yes                      | No                        | Yes                       |

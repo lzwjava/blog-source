@@ -38,6 +38,7 @@ Several websites can help you detect your monitor's refresh rate:
 - If it appears smoother, it's running at **120Hz or higher**.  
 
 ### **Key Differences Between 60Hz and 120Hz**
+
 | Feature        | 60Hz Monitor | 120Hz Monitor |
 |---------------|-------------|--------------|
 | Motion Smoothness | Slight blur in fast motion | Much smoother motion |

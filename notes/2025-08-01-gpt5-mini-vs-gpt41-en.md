@@ -36,6 +36,7 @@ GPT-5-mini and GPT-4.1 are models in the OpenAI lineup, with GPT-5-mini being a 
 - **Trade-offs Example**: For cost-effective writing, GPT-5-mini is recommended as "smarter and cheaper," but GPT-4.1 wins in instant feedback scenarios. **Azure offers variants (GPT-5-nano, GPT-4.1-mini) for tailored deployments.** [3][7]
 
 ### Summary Table
+
 | Feature              | GPT-5-Mini                          | GPT-4.1                             |
 |----------------------|-------------------------------------|-------------------------------------|
 | **Model Type**      | Reasoning                           | Non-reasoning, fast response       |

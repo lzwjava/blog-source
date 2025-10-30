@@ -38,6 +38,7 @@ generated: true
   - **File Format**: `.deb` files.
 
 ### **Key Differences**
+
 | Feature                | Snap                              | Apt                              |
 |------------------------|-----------------------------------|----------------------------------|
 | **Package Type**       | Containerized, self-contained     | System-integrated, shared dependencies |
