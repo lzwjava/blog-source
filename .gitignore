@@ -40,3 +40,4 @@ c/*
 !c/*.py
 interviews
 wget-log*
+.bundle
