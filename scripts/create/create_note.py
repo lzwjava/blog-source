@@ -12,6 +12,7 @@ from create_note_from_clipboard import create_note
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 from scripts.llm.openrouter_client import MODEL_MAPPING
 from scripts.content.fix_mathjax import fix_mathjax_in_file
+from scripts.content.fix_table import process_tables_in_file
 
 def check_uncommitted_changes() -> None:
     """Check if there are any uncommitted changes in the repository.
