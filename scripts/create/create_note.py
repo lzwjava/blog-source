@@ -153,6 +153,7 @@ if __name__ == "__main__":
     if not args.without_math and created_path and os.path.exists(created_path):
         try:
             fix_mathjax_in_file(created_path)
+            process_tables_in_file(created_path, fix_tables=True)
         except Exception as e:
             print(f"[warn] MathJax fix failed for {created_path}: {e}")
             
