@@ -104,3 +104,4 @@ In 2026, the 610201 program will be substituted with the 510201 program. I need 
 | 13833 | Switching and Routing Technology |
 | 13167 | Web Design and Production |
 | 14567 | Mobile Application Development Technology |
+| 13793 | Fundamentals of Computer Programming |
