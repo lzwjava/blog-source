@@ -88,3 +88,19 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 * Sleep well, maintain a good routine for sleep
 * Morning and afternoon exams may be in different locations, check the right locations
 * Register for the exam on time
+
+---
+
+## 2026 Program Change and Required Courses
+
+In 2026, the 610201 program will be substituted with the 510201 program. I need to prepare for the following courses:
+
+| Course Code | Course Name |
+|-------------|-------------|
+| 15040 | Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
+| 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
+| 02141 | Computer Network Technology |
+| 08553 | Introduction to Programming—Java |
+| 13833 | Switching and Routing Technology |
+| 13167 | Web Design and Production |
+| 14567 | Mobile Application Development Technology |
