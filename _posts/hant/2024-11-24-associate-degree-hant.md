@@ -4,87 +4,112 @@ generated: false
 image: false
 lang: hant
 layout: post
-title: 副學士學位：進展與反思
+title: 副學士學位：進程與反思
 translated: true
 ---
 
-更新於2025年9月。
+2025 年 9 月更新。
 
 ---
 
-以下為我的自考進度。
+以下是我的副學士進度。
 
-廣東外語外貿大學，計算機應用，專科學歷，2022.10 - 至今
+廣東外語外貿大學，Computer Application，副學士學位，2022.10 - 至今
 
-- 全國高等教育自學考試。至今已通過9門課程：操作系統概論、數據結構導論、高級語言程序設計（一）、英語（一）、高等數學、數據庫及其應用、計算機應用技術、法學概論與計算機組成原理。
-- 目前正準備7門課程，包括計算機網絡、電子技術基礎（三）、微型計算機及接口技術、毛澤東思想與中國特色社會主義理論體系概論、思想道德修養與法律基礎、大學語文和線性代數。
+- 全國高等教育自學考試。截至目前已通過 9 門課程：Operating Systems Fundamentals、Introduction to Data Structures、Advanced Language Programming (I)、English (I)、Advanced Mathematics、Database and Applications、Computer Application Technology、Introduction to Law 以及 Computer Organization and Architecture。
+- 目前正在準備 7 門課程，如 Computer Networks、Basic Electronic Technology (III)、Microcomputer and Interface Technology、Mao Zedong Thought and Theory of Socialism with Chinese Characteristics、Ideological and Moral Cultivation and Rule of Law、College Chinese 和 Linear Algebra。
 
-我對自己的進度不滿意。進展緩慢。原因是我主要用了一年時間準備到現在。
+我對我的進度不滿意。它太慢了。原因是直到現在，我主要為它準備了一年。
 
-## 已通過科目
+## 已通過課程
 
-| 科目代碼 | 科目名稱 | 考試日期 | 通過方式 | 分數 | 學分 | 狀態 |  
+| 課程代碼 | 課程名稱 | 考試日期 | 通過方式 | 分數 | 學分 | 狀態 |
 |------------|-------------|-----------|-------------|--------|---------|---------|
-| 00040 | 法學概論 | 202504 | 考試 | 60 | 3 | 有效 |
-| 02318 | 計算機組成原理 | 202504 | 考試 | 66 | 4 | 有效 |
-| 02323 | 操作系統概論 | 202304 | 考試 | 67 | 4 | 有效 |
-| 02316 | 計算機應用技術 | 202410 | 考試 | 73 | 2 | 有效 |
-| 02142 | 數據結構導論 | 202210 | 考試 | 75 | 4 | 有效 |
-| 02120 | 數據庫及其應用 | 202410 | 考試 | 68 | 3 | 有效 |
-| 00342 | 高級語言程序設計（一） | 202210 | 考試 | 75 | 3 | 有效 |
-| 00022 | 高等數學（工專） | 202404 | 考試 | 77 | 7 | 有效 |
-| 00012 | 英語（一） | 202210 | 考試 | 80 | 7 | 有效 |
+| 00040 | Introduction to Law | 202504 | 考試 | 60 | 3 | 有效 |
+| 02318 | Computer Organization and Architecture | 202504 | 考試 | 66 | 4 | 有效 |
+| 02323 | Operating Systems Fundamentals | 202304 | 考試 | 67 | 4 | 有效 |
+| 02316 | Computer Application Technology | 202410 | 考試 | 73 | 2 | 有效 |
+| 02142 | Introduction to Data Structures | 202210 | 考試 | 75 | 4 | 有效 |
+| 02120 | Database and Its Applications | 202410 | 考試 | 68 | 3 | 有效 |
+| 00342 | Advanced Programming Language (I) | 202210 | 考試 | 75 | 3 | 有效 |
+| 00022 | Advanced Mathematics (Engineering) | 202404 | 考試 | 77 | 7 | 有效 |
+| 00012 | English (I) | 202210 | 考試 | 80 | 7 | 有效 |
 
 ## 2024.04
 
-| 科目 | 分數 |    
+| 科目 | 分數 |
 |---------|--------|
-| 高等數學（工專） | 77 |
-| 數據庫及其應用 | 41 |
-| 計算機網絡技術 | 21 |
-| 計算機組成原理 | 38 |
+| Advanced Mathematics (Engineering) | 77 |
+| Database and Its Applications | 41 |
+| Computer Network Technology | 21 |
+| Computer Organization Principles | 38 |
 
 ## 2024.10
 
-| 科目 | 分數 |   
+| 科目 | 分數 |
 |---------|--------|
-| 法學概論 | 35 |
-| 數據庫及其應用 | 68 |
-| 線性代數 | 47 |
-| 計算機應用技術 | 73 |
+| Introduction to Law | 35 |
+| Database and Applications | 68 |
+| Linear Algebra | 47 |
+| Computer Application Technology | 73 |
 
 ## 2025.04
 
-| 科目 | 分數 |   
+| 科目 | 分數 |
 |---------|--------|
-| 法學概論 | 60 |
-| 計算機網絡 | 44 |
-| 線性代數 | 54 |
-| 計算機組成原理 | 66 |
+| Introduction to Law | 60 |
+| Computer Networks | 44 |
+| Linear Algebra | 54 |
+| Computer Organization Principles | 66 |
 
-## 通過科目原因
-* 考前已有較好理解，如數據結構導論和英語
-* 過去一年準備充分，如高等數學和數據庫應用
-* 對於**法學概論**，幾乎回答了所有題目——即使部分答案是即興發揮。
-* 對於**計算機組成原理**，有先前背景知識並多次練習過往試題。
+## 通過課程的原因
+* 考試前已具備良好理解，例如 Introduction to Data Structures 和 English。
+* 過去一年準備充分，例如 Advanced Mathematics 和 Database Applications。
+* 對於 **Introduction to Law**，我幾乎回答了所有問題 — 即使有些答案是即興發揮。
+* 對於 **Computer Organization Principles**，我具備先前的背景知識，並多次練習過往試題。
 
-## 未通過科目原因
-* 自以為準備充足，實則不然。未通過科目的練習量明顯少於通過科目。
-* 投入準備時間不足
-* 僅走馬看花地觀看教學影片，假裝理解。
+## 未通過課程的原因
+* 以為自己已準備充分，但實際上並沒有。未通過科目的練習量明顯少於已通過的課程。
+* 沒有給予足夠時間準備
+* 只是走馬看花地看了科目的影片，假裝明白。
 
-## 特定未通過科目原因
+## 部分未通過課程的原因
 
-### 計算機網絡
-- 缺乏考試題型的實戰練習
-- 計算機網絡理論基礎知識不足
+### Computer Networks
+- 練習考試形式題目不足
+- 缺乏電腦網絡理論的基礎知識
 
-### 線性代數
-- 對矩陣運算及規則熟悉度不足
-- 高估自身對科目的理解程度
-- 缺乏動手練習，僅依賴影片教學
+### Linear Algebra
+- 對矩陣運算和規則不熟悉
+- 高估了對該科目的理解
+- 缺乏實際動手練習；只依賴影片教學
 
 ## 考試準備
-* 睡眠充足，保持良好作息規律
-* 上午與下午考場可能不同，務必確認正確地點
-* 準時完成考試報名
+* 睡得好，保持良好的睡眠作息
+* 上午和下午的考試可能在不同地點，請檢查正確地點
+* 按時註冊考試
+
+---
+
+## 2026 年課程變更及必修課程
+
+2026 年，610201 課程將由 510201 課程取代。我需要準備以下課程：
+
+### 可替換課程
+
+| 課程代碼 | 課程名稱 |
+|-------------|------------------------------|
+| 13793 | Fundamentals of Computer Programming |
+| 13833 | Switching and Routing Technology |
+
+### 新課程
+
+| 課程代碼 | 課程名稱 |
+|-------------|-----------------------------------------------------------------------------|
+| 15040 | Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
+| 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
+| 02141 | Computer Network Technology |
+| 08553 | Introduction to Programming—Java |
+| 13167 | Web Design and Production |
+| 14567 | Mobile Application Development Technology |
+| 04729 | College Chinese |

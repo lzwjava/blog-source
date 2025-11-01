@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: ja
 layout: post
-title: 準副学士号：進歩と振り返り
+title: 準学士号：進歩と考察
 translated: true
 ---
 
@@ -12,79 +12,104 @@ translated: true
 
 ---
 
-以下は私の準学士課程の進捗状況です。
+以下は私の準学士号取得の進捗状況です。
 
-広東外語外貿大学、コンピュータ応用、準学士、2022.10 - 現在
+広東外語外貿大学、Computer Application、準学士号、2022年10月～現在
 
-- 全国高等教育自学考試。現在までに9科目合格：オペレーティングシステム入門、データ構造入門、高級言語プログラミング（I）、英語（I）、高等数学、データベースと応用、コンピュータ応用技術、法学入門、コンピュータ組織とアーキテクチャ。
-- 現在、コンピュータネットワーク、基礎電子技術（III）、マイクロコンピュータとインターフェース技術、毛沢東思想と中国特色社会主義理論、思想道徳修養と法治、大学語文、線形代数など7科目の準備中。
+- 全国高等教育自学試験。現在までに9科目に合格：Introduction to Operating Systems、Introduction to Data Structures、Advanced Language Programming (I)、English (I)、Advanced Mathematics、Database and Applications、Computer Application Technology、Introduction to Law、Computer Organization and Architecture。
+- 現在、Computer Networks、Basic Electronic Technology (III)、Microcomputer and Interface Technology、Mao Zedong Thought and Theory of Socialism with Chinese Characteristics、Ideological and Moral Cultivation and Rule of Law、College Chinese、Linear Algebraなどの7科目の準備中。
 
-進捗に不満です。遅いです。理由は、主に1年間の準備期間しかなかったからです。
+進捗が遅いことに不満を感じています。主な理由は、現在まで1年間かけて準備をしてきたからです。
 
 ## 合格科目
 
-| 科目コード | 科目名 | 試験日 | 合格方法 | 得点 | 単位 | 状態 |
+| 科目コード | 科目名 | 試験日 | 合格方法 | 点数 | 単位 | 状況 |
 |------------|-------------|-----------|-------------|--------|---------|---------|
-| 00040 | 法学入門 | 202504 | 試験 | 60 | 3 | 有効 |
-| 02318 | コンピュータ組織とアーキテクチャ | 202504 | 試験 | 66 | 4 | 有効 |
-| 02323 | オペレーティングシステム基礎 | 202304 | 試験 | 67 | 4 | 有効 |
-| 02316 | コンピュータ応用技術 | 202410 | 試験 | 73 | 2 | 有効 |
-| 02142 | データ構造入門 | 202210 | 試験 | 75 | 4 | 有効 |
-| 02120 | データベースとその応用 | 202410 | 試験 | 68 | 3 | 有効 |
-| 00342 | 高級プログラミング言語（I） | 202210 | 試験 | 75 | 3 | 有効 |
-| 00022 | 高等数学（工学） | 202404 | 試験 | 77 | 7 | 有効 |
-| 00012 | 英語（I） | 202210 | 試験 | 80 | 7 | 有効 |
+| 00040 | Introduction to Law | 202504 | 試験 | 60 | 3 | 有効 |
+| 02318 | Computer Organization and Architecture | 202504 | 試験 | 66 | 4 | 有効 |
+| 02323 | Operating Systems Fundamentals | 202304 | 試験 | 67 | 4 | 有効 |
+| 02316 | Computer Application Technology | 202410 | 試験 | 73 | 2 | 有効 |
+| 02142 | Introduction to Data Structures | 202210 | 試験 | 75 | 4 | 有効 |
+| 02120 | Database and Its Applications | 202410 | 試験 | 68 | 3 | 有効 |
+| 00342 | Advanced Programming Language (I) | 202210 | 試験 | 75 | 3 | 有効 |
+| 00022 | Advanced Mathematics (Engineering) | 202404 | 試験 | 77 | 7 | 有効 |
+| 00012 | English (I) | 202210 | 試験 | 80 | 7 | 有効 |
 
 ## 2024.04
 
-| 科目 | 得点 |
+| 科目 | 点数 |
 |---------|--------|
-| 高等数学（工学） | 77 |
-| データベースとその応用 | 41 |
-| コンピュータネットワーク技術 | 21 |
-| コンピュータ組織原理 | 38 |
+| Advanced Mathematics (Engineering) | 77 |
+| Database and Its Applications | 41 |
+| Computer Network Technology | 21 |
+| Computer Organization Principles | 38 |
 
 ## 2024.10
 
-| 科目 | 得点 |
+| 科目 | 点数 |
 |---------|--------|
-| 法学入門 | 35 |
-| データベースと応用 | 68 |
-| 線形代数 | 47 |
-| コンピュータ応用技術 | 73 |
+| Introduction to Law | 35 |
+| Database and Applications | 68 |
+| Linear Algebra | 47 |
+| Computer Application Technology | 73 |
 
 ## 2025.04
 
-| 科目 | 得点 |
+| 科目 | 点数 |
 |---------|--------|
-| 法学入門 | 60 |
-| コンピュータネットワーク | 44 |
-| 線形代数 | 54 |
-| コンピュータ組織原理 | 66 |
+| Introduction to Law | 60 |
+| Computer Networks | 44 |
+| Linear Algebra | 54 |
+| Computer Organization Principles | 66 |
 
-## 合格した理由
-* 試験前に既に理解していた科目（例：データ構造入門、英語）
-* 過去1年間しっかり準備した科目（例：高等数学、データベース応用）
-* **法学入門**では、ほとんどの質問に回答し、一部即興で答えた。
-* **コンピュータ組織原理**では、事前知識があり、過去問を繰り返し練習した。
+## 合格理由
+* 試験前にすでに理解が十分であった科目、例: Introduction to Data Structures、English
+* 過去1年間で十分な準備ができた科目、例: Advanced Mathematics、Database Applications
+* **Introduction to Law** は、いくつかの回答は即興だったものの、ほぼすべての質問に回答できました。
+* **Computer Organization Principles** は、以前からの基礎知識があり、過去問を何度も練習しました。
 
-## 不合格の理由
-* 準備が十分だと思っていたが、実際には不十分だった。不合格科目の演習量は合格科目より明らかに少なかった。
-* 準備時間が不足していた。
-* 動画を流し見して理解したふりをしていた。
+## 不合格理由
+* 十分に準備したと思っていたが、実際には不足していた。不合格科目の演習量は、合格科目よりも明らかに少なかった。
+* 準備に十分な時間を割かなかった
+* 科目のビデオを流し見するだけで、理解しているふりをしていた。
 
-## 特定の不合格科目の理由
+## 不合格科目の選定理由
 
-### コンピュータネットワーク
-- 試験形式の問題練習が不足
-- コンピュータネットワーク理論の基礎知識不足
+### Computer Networks
+- 試験形式の練習不足
+- コンピューターネットワーク理論の基礎知識不足
 
-### 線形代数
-- 行列演算とルールに不慣れ
-- 理解を過大評価していた
-- 実践練習不足、動画講義のみに依存
+### Linear Algebra
+- 行列演算や規則への不慣れ
+- 科目への理解を過大評価していた
+- 実践練習不足；ビデオ講義のみに頼っていた
 
 ## 試験準備
-* よく眠り、睡眠の良いルーティンを維持する
-* 午前と午後の試験会場が異なる場合があるため、正しい場所を確認する
-* 試験に間に合うように登録する
+* 十分な睡眠を取り、規則正しい睡眠習慣を維持する
+* 午前と午後の試験では会場が異なる場合があるため、正しい場所を確認する
+* 期限内に試験登録をする
+
+---
+
+## 2026年プログラム変更と必須科目
+
+2026年には、610201プログラムが510201プログラムに置き換わります。以下の科目を準備する必要があります。
+
+### 置換可能な科目
+
+| 科目コード | 科目名 |
+|-------------|------------------------------|
+| 13793 | Fundamentals of Computer Programming |
+| 13833 | Switching and Routing Technology |
+
+### 新しい科目
+
+| 科目コード | 科目名 |
+|-------------|-----------------------------------------------------------------------------|
+| 15040 | Overview of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era |
+| 15041 | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics |
+| 02141 | Computer Network Technology |
+| 08553 | Introduction to Programming—Java |
+| 13167 | Web Design and Production |
+| 14567 | Mobile Application Development Technology |
+| 04729 | College Chinese |
