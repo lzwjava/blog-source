@@ -57,8 +57,18 @@ def set_proxy(interface, proxy_host, proxy_port):
             ],
             check=True,
         )
+        subprocess.run(
+            [
+                "networksetup",
+                "-setsocksfirewallproxy",
+                interface,
+                proxy_host,
+                str(proxy_port + 1),  # SOCKS proxy port is typically 7891 (7890 + 1)
+            ],
+            check=True,
+        )
         print(
-            f"Successfully set HTTP and HTTPS proxies to {proxy_host}:{proxy_port} for {interface}"
+            f"Successfully set HTTP, HTTPS, and SOCKS proxies to {proxy_host}:{proxy_port} and {proxy_host}:{proxy_port + 1} for {interface}"
         )
     except subprocess.CalledProcessError as e:
         print(f"Error setting proxy for {interface}: {e}")
@@ -72,7 +82,10 @@ def unset_proxy(interface):
         subprocess.run(
             ["networksetup", "-setsecurewebproxystate", interface, "off"], check=True
         )
-        print(f"Successfully unset HTTP and HTTPS proxies for {interface}")
+        subprocess.run(
+            ["networksetup", "-setsocksfirewallproxystate", interface, "off"], check=True
+        )
+        print(f"Successfully unset HTTP, HTTPS, and SOCKS proxies for {interface}")
     except subprocess.CalledProcessError as e:
         print(f"Error unsetting proxy for {interface}: {e}")
 
