@@ -8,7 +8,7 @@ title: 'Associate Degree: Progress and Reflection'
 translated: false
 ---
 
-Updated in September 2025.
+Updated in November 2025.
 
 ---
 

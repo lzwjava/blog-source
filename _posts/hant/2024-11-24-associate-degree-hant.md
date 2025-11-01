@@ -4,22 +4,22 @@ generated: false
 image: false
 lang: hant
 layout: post
-title: 副學士學位：進程與反思
+title: 副學士：進展與反思
 translated: true
 ---
 
-2025 年 9 月更新。
+2025 年 11 月更新。
 
 ---
 
 以下是我的副學士進度。
 
-廣東外語外貿大學，Computer Application，副學士學位，2022.10 - 至今
+廣東外語外貿大學，Computer Application，副學士學位，2022.10 — 至今
 
-- 全國高等教育自學考試。截至目前已通過 9 門課程：Operating Systems Fundamentals、Introduction to Data Structures、Advanced Language Programming (I)、English (I)、Advanced Mathematics、Database and Applications、Computer Application Technology、Introduction to Law 以及 Computer Organization and Architecture。
-- 目前正在準備 7 門課程，如 Computer Networks、Basic Electronic Technology (III)、Microcomputer and Interface Technology、Mao Zedong Thought and Theory of Socialism with Chinese Characteristics、Ideological and Moral Cultivation and Rule of Law、College Chinese 和 Linear Algebra。
+- 全國高等教育自學考試。截至目前已通過 9 門課程：Operating Systems Fundamentals、Data Structures Fundamentals、Advanced Language Programming (I)、English (I)、Advanced Mathematics、Database and Applications、Computer Application Technology、Introduction to Law 及 Computer Organization and Architecture。
+- 目前正準備 7 門課程，例如 Computer Networks、Basic Electronic Technology (III)、Microcomputer and Interface Technology、Mao Zedong Thought and Theory of Socialism with Chinese Characteristics、Ideological and Moral Cultivation and Rule of Law、College Chinese 及 Linear Algebra。
 
-我對我的進度不滿意。它太慢了。原因是直到現在，我主要為它準備了一年。
+我對自己的進度感到不滿。太慢了。原因是我主要只準備了一年。
 
 ## 已通過課程
 
@@ -63,35 +63,35 @@ translated: true
 | Computer Organization Principles | 66 |
 
 ## 通過課程的原因
-* 考試前已具備良好理解，例如 Introduction to Data Structures 和 English。
-* 過去一年準備充分，例如 Advanced Mathematics 和 Database Applications。
-* 對於 **Introduction to Law**，我幾乎回答了所有問題 — 即使有些答案是即興發揮。
-* 對於 **Computer Organization Principles**，我具備先前的背景知識，並多次練習過往試題。
+* 考試前已經有良好的理解，例如 Introduction to Data Structures 和 English
+* 在過去一年準備充分，例如 Advanced Mathematics 和 Database Applications
+* 對於 **Introduction to Law**，我幾乎回答了所有問題——即使有些答案是即興的。
+* 對於 **Computer Organization Principles**，我之前有背景知識並多次練習過去的試題。
 
 ## 未通過課程的原因
-* 以為自己已準備充分，但實際上並沒有。未通過科目的練習量明顯少於已通過的課程。
+* 以為自己已準備充分，但實際上沒有。失敗科目的練習量明顯少於通過科目。
 * 沒有給予足夠時間準備
-* 只是走馬看花地看了科目的影片，假裝明白。
+* 只是瀏覽了科目的影片，假裝理解。
 
-## 部分未通過課程的原因
+## 部分失敗課程的原因
 
 ### Computer Networks
-- 練習考試形式題目不足
+- 練習考試形式的問題不足
 - 缺乏電腦網絡理論的基礎知識
 
 ### Linear Algebra
 - 對矩陣運算和規則不熟悉
-- 高估了對該科目的理解
-- 缺乏實際動手練習；只依賴影片教學
+- 高估了對課題的理解
+- 缺乏實踐，只依賴影片教學
 
 ## 考試準備
-* 睡得好，保持良好的睡眠作息
+* 睡好，保持良好的睡眠習慣
 * 上午和下午的考試可能在不同地點，請檢查正確地點
-* 按時註冊考試
+* 按時報名考試
 
 ---
 
-## 2026 年課程變更及必修課程
+## 2026 年科目變更及必修課
 
 2026 年，610201 課程將由 510201 課程取代。我需要準備以下課程：
 
