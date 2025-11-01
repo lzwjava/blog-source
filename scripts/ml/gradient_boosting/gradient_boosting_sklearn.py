@@ -39,7 +39,7 @@ plt.show()
 # Optional: Plot learning curve (loss vs. iterations)
 test_score = np.zeros((gbm.n_estimators,), dtype=np.float64)
 for i, y_pred in enumerate(gbm.staged_predict(X_test)):
-    test_score[i] = gbm.loss_(y_test, y_pred)
+    test_score[i] = mean_squared_error(y_test, y_pred)
 plt.figure(figsize=(8, 5))
 plt.title("Deviance (Loss) vs. Number of Boosting Iterations")
 plt.plot(test_score, label="Test Deviance")
