@@ -7,7 +7,7 @@ layout: post
 title: 'Associate Degree: Progress and Reflection'
 ---
 
-Updated in September 2025.
+Updated in November 2025.
 
 ---
 
