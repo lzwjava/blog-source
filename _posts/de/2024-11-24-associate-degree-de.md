@@ -8,100 +8,108 @@ title: 'Associate Degree: Fortschritt und Reflexion'
 translated: true
 ---
 
-Stand: September 2025 aktualisiert.
+Aktualisiert im September 2025.
 
 ---
 
-Nachfolgend mein Fortschritt im Rahmen meines **Associate Degree**.
+Unten ist mein Fortschritt als Associate Degree Student.
 
-**Guangdong University of Foreign Studies**, Computer Application (Angewandte Informatik), Associate Degree, **2022.10 – Gegenwart**
+Guangdong University of Foreign Studies, Computer Application, Associate Degree, 2022.10 - Heute
 
-- **Staatliche Hochschul-Selbststudienprüfung (National Higher Education Self-study Examination)**. Bisher 9 Kurse bestanden:
-  * Betriebssysteme (Introduction to Operating Systems)
-  * Datenstrukturen (Introduction to Data Structures)
-  * Höhere Programmierung (I) (Advanced Language Programming (I))
-  * Englisch (I) (English (I))
-  * Höhere Mathematik (Advanced Mathematics)
-  * Datenbanken und Anwendungen (Database and Applications)
-  * Computeranwendungstechnik (Computer Application Technology)
-  * Rechtsgrundlagen (Introduction to Law)
-  * Rechnerorganisation und -architektur (Computer Organization and Architecture)
+- Nationale Selbststudienprüfung für Hochschulbildung. Bis heute 9 Kurse bestanden: Einführung in Betriebssysteme, Einführung in Datenstrukturen, Fortgeschrittene Sprachprogrammierung (I), Englisch (I), Höhere Mathematik, Datenbanken und Anwendungen, Computeranwendungstechnik, Einführung in das Recht und Computerorganisation und -architektur.
+- Derzeit bereite ich mich auf 7 Kurse vor, darunter Computernetzwerke, Grundlegende Elektroniktechnologie (III), Mikrocomputer- und Schnittstellentechnologie, Mao Zedong Denken und Theorie des Sozialismus mit chinesischen Merkmalen, Ideologische und moralische Bildung und Rechtsstaatlichkeit, Hochschulchinesisch und Lineare Algebra.
 
-- Aktuell bereite ich mich auf 7 weitere Kurse vor, darunter:
-  * Computernetzwerke (Computer Networks)
-  * Grundlagen der Elektronik (III) (Basic Electronic Technology (III))
-  * Mikrocomputer und Schnittstellentechnik (Microcomputer and Interface Technology)
-  * Mao-Zedong-Denken und Theorie des Sozialismus mit chinesischen Merkmalen (Mao Zedong Thought and Theory of Socialism with Chinese Characteristics)
-  * Ideologische und moralische Erziehung sowie Rechtsstaatlichkeit (Ideological and Moral Cultivation and Rule of Law)
-  * Hochschul-Chinesisch (College Chinese)
-  * Lineare Algebra (Linear Algebra)
-
-Ich bin unzufrieden mit meinem Fortschritt. Er ist zu langsam. Der Hauptgrund ist, dass ich mich erst seit etwa einem Jahr systematisch vorbereite.
+Ich bin unzufrieden mit meinem Fortschritt. Er ist langsam. Der Grund ist, dass ich mich hauptsächlich seit einem Jahr darauf vorbereite.
 
 ## Bestandene Kurse
 
-| Kurscode | Kursname | Prüfungsdatum | Prüfungsform | Punkte | Credits | Status |
-|----------|----------|--------------|--------------|--------|---------|--------|
-| 00040    | Rechtsgrundlagen (Introduction to Law) | 202504 | Prüfung | 60     | 3       | Gültig |
-| 02318    | Rechnerorganisation und -architektur (Computer Organization and Architecture) | 202504 | Prüfung | 66     | 4       | Gültig |
-| 02323    | Betriebssystem-Grundlagen (Operating Systems Fundamentals) | 202304 | Prüfung | 67     | 4       | Gültig |
-| 02316    | Computeranwendungstechnik (Computer Application Technology) | 202410 | Prüfung | 73     | 2       | Gültig |
-| 02142    | Datenstrukturen (Introduction to Data Structures) | 202210 | Prüfung | 75     | 4       | Gültig |
-| 02120    | Datenbanken und Anwendungen (Database and Its Applications) | 202410 | Prüfung | 68     | 3       | Gültig |
-| 00342    | Höhere Programmierung (I) (Advanced Programming Language (I)) | 202210 | Prüfung | 75     | 3       | Gültig |
-| 00022    | Höhere Mathematik (Ingenieurwesen) (Advanced Mathematics (Engineering)) | 202404 | Prüfung | 77     | 7       | Gültig |
-| 00012    | Englisch (I) (English (I)) | 202210 | Prüfung | 80     | 7       | Gültig |
+| Kurs-Code | Kursname | Prüfungsdatum | Bestehensmethode | Punktzahl | Credits | Status |
+|------------|-------------|-----------|-------------|--------|---------|---------|
+| 00040 | Einführung in das Recht | 202504 | Prüfung | 60 | 3 | Gültig |
+| 02318 | Computerorganisation und -architektur | 202504 | Prüfung | 66 | 4 | Gültig |
+| 02323 | Grundlagen der Betriebssysteme | 202304 | Prüfung | 67 | 4 | Gültig |
+| 02316 | Computeranwendungstechnik | 202410 | Prüfung | 73 | 2 | Gültig |
+| 02142 | Einführung in Datenstrukturen | 202210 | Prüfung | 75 | 4 | Gültig |
+| 02120 | Datenbanken und deren Anwendungen | 202410 | Prüfung | 68 | 3 | Gültig |
+| 00342 | Fortgeschrittene Programmiersprache (I) | 202210 | Prüfung | 75 | 3 | Gültig |
+| 00022 | Höhere Mathematik (Ingenieurwesen) | 202404 | Prüfung | 77 | 7 | Gültig |
+| 00012 | Englisch (I) | 202210 | Prüfung | 80 | 7 | Gültig |
 
 ## 2024.04
 
-| Fach | Punkte |
-|------|--------|
-| Höhere Mathematik (Ingenieurwesen) (Advanced Mathematics (Engineering)) | 77     |
-| Datenbanken und Anwendungen (Database and Its Applications) | 41      |
-| Computernetzwerk-Technologie (Computer Network Technology) | 21      |
-| Prinzipien der Rechnerorganisation (Computer Organization Principles) | 38      |
+| Fach | Punktzahl |
+|---------|--------|
+| Höhere Mathematik (Ingenieurwesen) | 77 |
+| Datenbanken und deren Anwendungen | 41 |
+| Computernetzwerktechnologie | 21 |
+| Prinzipien der Computerorganisation | 38 |
 
 ## 2024.10
 
-| Fach | Punkte |
-|------|--------|
-| Rechtsgrundlagen (Introduction to Law) | 35      |
-| Datenbanken und Anwendungen (Database and Applications) | 68      |
-| Lineare Algebra (Linear Algebra) | 47      |
-| Computeranwendungstechnik (Computer Application Technology) | 73      |
+| Fach | Punktzahl |
+|---------|--------|
+| Einführung in das Recht | 35 |
+| Datenbanken und Anwendungen | 68 |
+| Lineare Algebra | 47 |
+| Computeranwendungstechnik | 73 |
 
 ## 2025.04
 
-| Fach | Punkte |
-|------|--------|
-| Rechtsgrundlagen (Introduction to Law) | 60      |
-| Computernetzwerke (Computer Networks) | 44      |
-| Lineare Algebra (Linear Algebra) | 54      |
-| Prinzipien der Rechnerorganisation (Computer Organization Principles) | 66      |
+| Fach | Punktzahl |
+|---------|--------|
+| Einführung in das Recht | 60 |
+| Computernetzwerke | 44 |
+| Lineare Algebra | 54 |
+| Prinzipien der Computerorganisation | 66 |
 
-## Gründe für bestandene Kurse
-* Vorwissen vorhanden (z. B. Datenstrukturen, Englisch)
-* Ausreichende Vorbereitung im letzten Jahr (z. B. Höhere Mathematik, Datenbankanwendungen)
-* Bei **Rechtsgrundlagen**: Fast alle Fragen beantwortet – auch wenn einige Antworten improvisiert waren.
-* Bei **Rechnerorganisation**: Vorkenntnisse und mehrfaches Üben alter Prüfungsfragen.
+## Gründe für das Bestehen von Kursen
+* Bereits vor der Prüfung ein gutes Verständnis gehabt, wie bei Einführung in Datenstrukturen und Englisch
+* Im vergangenen Jahr gut genug vorbereitet, wie bei Höherer Mathematik und Datenbankanwendungen
+* Für **Einführung in das Recht** habe ich fast alle Fragen beantwortet – auch wenn einige Antworten improvisiert waren.
+* Für **Prinzipien der Computerorganisation** hatte ich Vorkenntnisse und habe frühere Prüfungsfragen mehrfach geübt.
 
-## Gründe für nicht bestandene Kurse
-* Dachte, ich wäre gut vorbereitet – war ich aber nicht. Die Übungsmenge für durchgefallene Fächer war offenbar geringer als bei bestandenen.
-* Zu wenig Zeit in die Vorbereitung investiert.
-* Nur oberflächlich Videos angeschaut und vorgetäuscht, den Stoff zu verstehen.
+## Gründe für das Nichtbestehen von Kursen
+* Gedacht, dass ich bereits gut vorbereitet war, obwohl dies nicht der Fall war. Die Übungen, die ich für die nicht bestandenen Fächer gemacht habe, waren offenbar weniger als für die bestandenen Kurse.
+* Nicht genug Zeit zur Vorbereitung eingeplant
+* Videos zu den Fächern durchgegangen und vorgegeben, sie zu verstehen.
 
-## Gründe für ausgewählte durchgefallene Kurse
+## Gründe für ausgewählte nicht bestandene Kurse
 
 ### Computernetzwerke
-- Zu wenig Übung mit prüfungsrelevanten Fragen
-- Fehlende Grundlagen in der Netzwerktheorie
+- Unzureichende Übung mit prüfungsähnlichen Fragen
+- Mangelndes Grundwissen in der Computernetzwerktheorie
 
 ### Lineare Algebra
 - Unzureichende Vertrautheit mit Matrixoperationen und -regeln
-- Überschätzung des eigenen Verständnisses
-- Keine praktische Anwendung; rein auf Videovorlesungen verlassen
+- Überschätzung des Verständnisses des Faches
+- Mangelnde praktische Übung; ausschließlich auf Videovorlesungen verlassen
 
 ## Prüfungsvorbereitung
-* Ausreichend schlafen, regelmäßigen Schlafrhythmus beibehalten
-* Vormittags- und Nachmittagsprüfungen können an verschiedenen Orten stattfinden – Standorte vorher prüfen
-* Rechtzeitig zur Prüfung anmelden
+* Gut schlafen, eine gute Schlafroutine beibehalten
+* Morgen- und Nachmittagsprüfungen können an verschiedenen Orten stattfinden, die richtigen Orte überprüfen
+* Pünktliche Prüfungsanmeldung
+
+---
+
+## 2026 Programmänderung und erforderliche Kurse
+
+Im Jahr 2026 wird das Programm 610201 durch das Programm 510201 ersetzt. Ich muss mich auf die folgenden Kurse vorbereiten:
+
+### Ersetzbare Kurse
+
+| Kurs-Code | Kursname |
+|-------------|------------------------------|
+| 13793 | Grundlagen der Computerprogrammierung |
+| 13833 | Switching und Routing Technology |
+
+### Neue Kurse
+
+| Kurs-Code | Kursname |
+|-------------|-----------------------------------------------------------------------------|
+| 15040 | Überblick über Xi Jinpings Gedanken zum Sozialismus mit chinesischen Merkmalen für eine neue Ära |
+| 15041 | Einführung in Mao Zedongs Gedanken und das theoretische System des Sozialismus mit chinesischen Merkmalen |
+| 02141 | Computernetzwerktechnologie |
+| 08553 | Einführung in die Programmierung – Java |
+| 13167 | Webdesign und -produktion |
+| 14567 | Technologie zur Entwicklung mobiler Anwendungen |
+| 04729 | Hochschulchinesisch |
