@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: KQV, Transformers and GPT
+title: Neural Networks, Transformers and GPT
 translated: false
 ---
 
