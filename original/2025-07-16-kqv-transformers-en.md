@@ -4,7 +4,7 @@ generated: false
 image: false
 lang: en
 layout: post
-title: Neural Networks, Transformers and GPT
+title: Neural Network, Transformer and GPT
 translated: false
 ---
 
