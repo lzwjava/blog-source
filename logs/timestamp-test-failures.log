@@ -1,0 +1,56 @@
+test timestamp::tests::test_hash ... ok
+test timestamp::tests::test_timestamp_sub ... ok
+test timestamp::tests::test_timestamp_antisymmetry ... ok
+test timestamp::tests::test_timestamp_transitivity ... ok
+test timestamp_millis::tests::test_align_by_bucket ... ok
+test timestamp_millis::tests::test_timestamp ... ok
+test timestamp::tests::test_timestamp_bound_format ... ok
+test timestamp_millis::tests::test_align_to_ceil ... ok
+test timezone::tests::test_from_tz_string ... ok
+test timestamp::tests::test_to_timezone_aware_string ... ok
+test timezone::tests::test_local_minus_utc ... ok
+test timezone::tests::test_timezone_to_string ... ok
+test timestamp::tests::test_to_local_string ... FAILED
+test timestamp::tests::test_serialize_to_json_value ... FAILED
+test timestamp::tests::test_to_iso8601_string ... FAILED
+test ttl::test::test_db_ttl_table_ttl ... ok
+test util::tests::test_current_time_millis ... ok
+test ttl::test::test_serde ... ok
+test util::tests::test_div_ceil ... ok
+test util::tests::test_format_nanoseconds_human_readable ... ok
+test timestamp::tests::test_timestamp_reflexivity ... ok
+test timestamp::tests::test_strong_connectivity ... ok
+
+failures:
+
+---- timestamp::tests::test_to_local_string stdout ----
+
+thread 'timestamp::tests::test_to_local_string' (656046) panicked at src/common/time/src/timestamp.rs:1207:9:
+assertion `left == right` failed
+  left: "1970-01-01 08:00:00.000000001"
+ right: "1970-01-01 10:00:00.000000001"
+
+---- timestamp::tests::test_serialize_to_json_value stdout ----
+
+thread 'timestamp::tests::test_serialize_to_json_value' (656032) panicked at src/common/time/src/timestamp.rs:941:9:
+assertion `left == right` failed
+  left: "1970-01-01 08:00:01+0800"
+ right: "1970-01-01 10:00:01+1000"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- timestamp::tests::test_to_iso8601_string stdout ----
+
+thread 'timestamp::tests::test_to_iso8601_string' (656045) panicked at src/common/time/src/timestamp.rs:919:9:
+assertion `left == right` failed
+  left: "2020-09-08 21:42:29.042+0800"
+ right: "2020-09-08 23:42:29.042+1000"
+
+
+failures:
+    timestamp::tests::test_serialize_to_json_value
+    timestamp::tests::test_to_iso8601_string
+    timestamp::tests::test_to_local_string
+
+test result: FAILED. 81 passed; 3 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+error: test failed, to rerun pass `-p common-time --lib`
