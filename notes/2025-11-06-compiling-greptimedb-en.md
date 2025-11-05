@@ -1,0 +1,39 @@
+---
+title: Compiling GreptimeDB with Cargo
+lang: en
+layout: post
+audio: false
+translated: false
+generated: true
+image: false
+model: x-ai/grok-4-fast
+---
+
+lzw@to:~/projects/greptimedb$ cargo run 
+   Compiling cache v0.18.0 (/home/lzw/projects/greptimedb/src/cache)
+   Compiling flow v0.18.0 (/home/lzw/projects/greptimedb/src/flow)
+   Compiling frontend v0.18.0 (/home/lzw/projects/greptimedb/src/frontend)
+   Compiling cli v0.18.0 (/home/lzw/projects/greptimedb/src/cli)
+   Compiling standalone v0.18.0 (/home/lzw/projects/greptimedb/src/standalone)
+   Compiling plugins v0.18.0 (/home/lzw/projects/greptimedb/src/plugins)
+   Compiling cmd v0.18.0 (/home/lzw/projects/greptimedb/src/cmd)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 7.12s
+warning: the following packages contain code that will be rejected by a future version of Rust: num-bigint-dig v0.8.4
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+     Running `target/debug/greptime`
+Usage: greptime [OPTIONS] <COMMAND>
+
+Commands:
+  datanode    Start datanode service
+  flownode    Start flownode service
+  frontend    Start frontend service
+  metasrv     Start metasrv service
+  standalone  Run greptimedb as a standalone service
+  cli         Execute the cli tools for greptimedb
+  help        Print this message or the help of the given subcommand(s)
+
+Options:
+      --log-dir <LOG_DIR>      
+      --log-level <LOG_LEVEL>  
+  -h, --help                   Print help
+  -V, --version                Print version
