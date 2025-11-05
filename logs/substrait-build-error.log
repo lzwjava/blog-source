@@ -1,0 +1,27 @@
+   Compiling tokio-postgres-rustls v0.12.0
+   Compiling sqlx-mysql v0.8.6
+   Compiling sqlx-postgres v0.8.6
+   Compiling prost v0.12.6
+   Compiling toml v0.8.23
+error: failed to run custom build command for `substrait v0.58.0`
+
+Caused by:
+  process didn't exit successfully: `/home/lzw/projects/greptimedb/target/debug/build/substrait-fbb1cf608a335257/build-script-build` (exit status: 1)
+  --- stdout
+  cargo:rerun-if-env-changed=FORCE_REBUILD
+  cargo:rerun-if-changed=substrait
+  cargo:rerun-if-changed=substrait/text/simple_extensions_schema.yaml
+  cargo:rerun-if-changed=substrait/proto/substrait/extensions/extensions.proto
+  cargo:rerun-if-changed=substrait/proto/substrait/extended_expression.proto
+  cargo:rerun-if-changed=substrait/proto/substrait/type_expressions.proto
+  cargo:rerun-if-changed=substrait/proto/substrait/parameterized_types.proto
+  cargo:rerun-if-changed=substrait/proto/substrait/capabilities.proto
+  cargo:rerun-if-changed=substrait/proto/substrait/function.proto
+  cargo:rerun-if-changed=substrait/proto/substrait/algebra.proto
+  cargo:rerun-if-changed=substrait/proto/substrait/plan.proto
+  cargo:rerun-if-changed=substrait/proto/substrait/type.proto
+
+  --- stderr
+  Error: Custom { kind: Other, error: "protoc failed: substrait/algebra.proto: This file contains proto3 optional fields, but --experimental_allow_proto3_optional was not set.\n" }
+warning: build failed, waiting for other jobs to finish...
+make: *** [Makefile:81: build] Error 101
