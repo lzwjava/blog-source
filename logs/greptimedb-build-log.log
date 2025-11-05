@@ -1,0 +1,1009 @@
+lzw@to:~/projects/greptimedb$ make
+cargo  build --locked --bin greptime
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling quote v1.0.41
+   Compiling serde v1.0.219
+   Compiling cfg-if v1.0.1
+   Compiling libc v0.2.177
+   Compiling memchr v2.7.5
+   Compiling autocfg v1.5.0
+   Compiling equivalent v1.0.2
+   Compiling hashbrown v0.16.0
+   Compiling once_cell v1.21.3
+   Compiling version_check v0.9.5
+   Compiling itoa v1.0.15
+   Compiling libm v0.2.15
+   Compiling shlex v1.3.0
+   Compiling zerocopy v0.8.26
+   Compiling pin-project-lite v0.2.16
+   Compiling regex-syntax v0.8.7
+   Compiling futures-core v0.3.31
+   Compiling ryu v1.0.20
+   Compiling log v0.4.27
+   Compiling futures-io v0.3.31
+   Compiling fnv v1.0.7
+   Compiling futures-sink v0.3.31
+   Compiling simd-adler32 v0.3.7
+   Compiling fixedbitset v0.4.2
+   Compiling adler2 v2.0.1
+   Compiling getrandom v0.3.3
+   Compiling object v0.36.7
+   Compiling rustc-demangle v0.1.25
+   Compiling slab v0.4.10
+   Compiling gimli v0.31.1
+   Compiling scopeguard v1.2.0
+   Compiling pin-utils v0.1.0
+   Compiling subtle v2.6.1
+   Compiling parking_lot_core v0.9.11
+   Compiling heck v0.5.0
+   Compiling futures-task v0.3.31
+   Compiling typenum v1.18.0
+   Compiling miniz_oxide v0.8.9
+   Compiling serde_json v1.0.140
+   Compiling futures-channel v0.3.31
+   Compiling byteorder v1.5.0
+   Compiling rustversion v1.0.21
+   Compiling pkg-config v0.3.32
+   Compiling base64 v0.22.1
+   Compiling iana-time-zone v0.1.63
+   Compiling thiserror v2.0.17
+   Compiling allocator-api2 v0.2.21
+   Compiling tracing-core v0.1.34
+   Compiling num-traits v0.2.19
+   Compiling lock_api v0.4.13
+   Compiling percent-encoding v2.3.2
+   Compiling const-oid v0.9.6
+   Compiling spin v0.9.8
+   Compiling crunchy v0.2.4
+   Compiling anyhow v1.0.98
+   Compiling generic-array v0.14.7
+   Compiling stable_deref_trait v1.2.0
+   Compiling tiny-keccak v2.0.2
+   Compiling fastrand v2.3.0
+   Compiling ahash v0.8.12
+   Compiling crc32fast v1.4.2
+   Compiling bytes v1.10.1
+   Compiling aho-corasick v1.1.3
+   Compiling zstd-safe v7.2.4
+   Compiling indexmap v2.11.4
+   Compiling vcpkg v0.2.15
+   Compiling siphasher v1.0.1
+   Compiling lazy_static v1.5.0
+   Compiling writeable v0.6.1
+   Compiling litemap v0.8.0
+   Compiling zlib-rs v0.5.1
+   Compiling form_urlencoded v1.2.2
+   Compiling rustix v1.0.7
+   Compiling semver v1.0.26
+   Compiling linux-raw-sys v0.9.4
+   Compiling icu_properties_data v2.0.1
+   Compiling cpufeatures v0.2.17
+   Compiling fixedbitset v0.5.7
+   Compiling crossbeam-utils v0.8.21
+   Compiling icu_normalizer_data v2.0.0
+   Compiling utf8_iter v1.0.4
+   Compiling phf_shared v0.11.3
+   Compiling syn v2.0.106
+   Compiling alloc-no-stdlib v2.0.4
+   Compiling static_assertions v1.1.0
+   Compiling untrusted v0.9.0
+   Compiling prettyplease v0.2.35
+   Compiling powerfmt v0.2.0
+   Compiling paste v1.0.15
+   Compiling alloc-stdlib v0.2.2
+   Compiling time-core v0.1.4
+   Compiling phf v0.11.3
+   Compiling num-conv v0.1.0
+   Compiling unicode-width v0.2.1
+   Compiling atomic-waker v1.1.2
+   Compiling hex v0.4.3
+   Compiling same-file v1.0.6
+   Compiling multimap v0.10.1
+   Compiling lexical-util v1.0.6
+   Compiling foldhash v0.1.5
+   Compiling tower-service v0.3.3
+   Compiling humantime v2.2.0
+   Compiling httparse v1.10.1
+   Compiling httpdate v1.0.3
+   Compiling petgraph v0.6.5
+   Compiling petgraph v0.7.1
+   Compiling walkdir v2.5.0
+   Compiling try-lock v0.2.5
+   Compiling rustls v0.23.28
+   Compiling twox-hash v2.1.1
+   Compiling strum v0.26.3
+   Compiling mime v0.3.17
+   Compiling tower-layer v0.3.3
+   Compiling thiserror v1.0.69
+   Compiling simdutf8 v0.1.5
+   Compiling hashbrown v0.15.4
+   Compiling want v0.3.1
+   Compiling csv-core v0.1.12
+   Compiling snap v1.1.1
+   Compiling lz4_flex v0.11.5
+   Compiling winnow v0.7.11
+   Compiling sync_wrapper v1.0.2
+   Compiling ipnet v2.11.0
+   Compiling unicode-xid v0.2.6
+   Compiling brotli-decompressor v5.0.0
+   Compiling integer-encoding v3.0.4
+   Compiling openssl-probe v0.1.6
+   Compiling arrayvec v0.7.6
+   Compiling heck v0.4.1
+   Compiling seq-macro v0.3.6
+   Compiling deranged v0.4.0
+   Compiling brotli-decompressor v4.0.3
+   Compiling num_threads v0.1.7
+   Compiling jobserver v0.1.33
+   Compiling getrandom v0.2.16
+   Compiling lexical-write-integer v1.0.5
+   Compiling lexical-parse-integer v1.0.5
+   Compiling mio v1.0.4
+   Compiling socket2 v0.6.0
+   Compiling matchit v0.8.4
+   Compiling encoding_rs v0.8.35
+   Compiling rand_core v0.6.4
+   Compiling futures-util v0.3.31
+   Compiling lexical-parse-float v1.0.5
+   Compiling const-random-macro v0.1.16
+   Compiling multer v3.1.0
+   Compiling cc v1.2.27
+   Compiling thread-id v4.2.2
+   Compiling signal-hook-registry v1.4.5
+   Compiling lexical-write-float v1.0.5
+   Compiling socket2 v0.5.10
+   Compiling time-macros v0.2.22
+   Compiling rand_core v0.9.3
+   Compiling regex-automata v0.4.13
+   Compiling const-random v0.1.18
+   Compiling tinyvec_macros v0.1.1
+   Compiling glob v0.3.2
+   Compiling tinyvec v1.9.0
+   Compiling http v1.3.1
+   Compiling num-integer v0.1.46
+   Compiling num-complex v0.4.6
+   Compiling half v2.6.0
+   Compiling atoi v2.0.0
+   Compiling lexical-core v1.0.5
+   Compiling hdrhistogram v7.5.4
+   Compiling ordered-float v2.10.1
+   Compiling brotli v7.0.0
+   Compiling brotli v8.0.1
+   Compiling addr2line v0.24.2
+   Compiling time v0.3.41
+   Compiling strsim v0.11.1
+   Compiling datafusion-doc v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling num-bigint v0.4.6
+   Compiling ppv-lite86 v0.2.21
+   Compiling num-iter v0.1.45
+   Compiling chrono v0.4.42
+   Compiling unicode-bidi v0.3.18
+   Compiling thrift v0.17.0
+   Compiling unicode-properties v0.1.3
+   Compiling safe-proc-macro2 v1.0.95
+   Compiling hashbrown v0.14.5
+   Compiling const_format_proc_macros v0.2.34
+   Compiling unicode-segmentation v1.12.0
+   Compiling crossbeam-channel v0.5.15
+   Compiling tz-rs v0.7.0
+   Compiling petgraph v0.8.3
+   Compiling unicase v2.8.1
+   Compiling http-body v1.0.1
+   Compiling rand_chacha v0.9.0
+   Compiling rand_chacha v0.3.1
+   Compiling rand v0.9.1
+   Compiling unicode-normalization v0.1.24
+   Compiling rand v0.8.5
+   Compiling tzdb_data v0.2.2
+   Compiling http-body-util v0.1.3
+   Compiling mime_guess v2.0.5
+   Compiling rustix v0.38.44
+   Compiling is_debug v1.1.0
+   Compiling minimal-lexical v0.2.1
+   Compiling stringprep v0.1.5
+   Compiling num-rational v0.4.2
+   Compiling safe-quote v1.0.40
+   Compiling backtrace v0.3.75
+   Compiling const_format v0.2.34
+   Compiling axum-core v0.5.2
+   Compiling syn v1.0.109
+   Compiling linux-raw-sys v0.4.15
+   Compiling zstd-sys v2.0.15+zstd.1.5.7
+   Compiling libz-sys v1.1.22
+   Compiling ring v0.17.14
+   Compiling psm v0.1.26
+   Compiling bzip2-sys v0.1.13+1.0.8
+   Compiling stacker v0.1.21
+   Compiling lzma-sys v0.1.20
+   Compiling libz-rs-sys v0.5.1
+   Compiling safe-regex-compiler v0.3.0
+   Compiling num v0.4.3
+   Compiling phf_generator v0.11.3
+   Compiling protobuf v2.28.0
+   Compiling blake3 v1.8.2
+   Compiling base64ct v1.8.0
+   Compiling iri-string v0.7.8
+   Compiling phf_codegen v0.11.3
+   Compiling strum v0.25.0
+   Compiling http-range-header v0.4.2
+   Compiling regex v1.12.2
+   Compiling flate2 v1.1.4
+   Compiling arrayref v0.3.9
+   Compiling procfs v0.16.0
+   Compiling radium v0.7.0
+   Compiling constant_time_eq v0.3.1
+   Compiling prometheus v0.13.4
+   Compiling pem-rfc7468 v0.7.0
+   Compiling regex-syntax v0.6.29
+   Compiling tap v1.0.1
+   Compiling fallible-iterator v0.2.0
+   Compiling parking v2.2.1
+   Compiling overload v0.1.1
+   Compiling funty v2.0.0
+   Compiling tracing-log v0.2.0
+   Compiling wyz v0.5.1
+   Compiling nu-ansi-term v0.46.0
+   Compiling sharded-slab v0.1.7
+   Compiling parse-zoneinfo v0.3.1
+   Compiling thread_local v1.1.9
+   Compiling safe-regex-macro v0.3.0
+   Compiling ident_case v1.0.1
+   Compiling array-init v2.1.0
+   Compiling anymap2 v0.13.0
+   Compiling libbz2-rs-sys v0.2.1
+   Compiling nom v7.1.3
+   Compiling bigdecimal v0.4.8
+   Compiling anstyle v1.0.11
+   Compiling opentelemetry-semantic-conventions v0.30.0
+   Compiling utf8parse v0.2.2
+   Compiling crossbeam-epoch v0.9.18
+   Compiling safe-regex v0.3.0
+   Compiling bitvec v1.0.1
+   Compiling shadow-rs v1.2.1
+   Compiling anstyle-parse v0.2.7
+   Compiling rust_decimal v1.38.0
+   Compiling chrono-tz-build v0.4.1
+   Compiling build-data v0.2.3
+   Compiling is_terminal_polyfill v1.70.1
+   Compiling anstyle-query v1.1.3
+   Compiling colorchoice v1.0.4
+   Compiling concurrent-queue v2.5.0
+   Compiling anstream v0.6.19
+   Compiling clap_lex v0.7.5
+   Compiling home v0.5.11
+   Compiling bytemuck v1.23.1
+   Compiling event-listener v5.4.0
+   Compiling num-bigint-dig v0.8.4
+   Compiling bzip2 v0.6.0
+   Compiling core2 v0.4.0
+   Compiling clap_builder v4.5.40
+   Compiling synstructure v0.13.2
+   Compiling darling_core v0.20.11
+   Compiling relative-path v1.9.3
+   Compiling futures-timer v3.0.3
+   Compiling num_cpus v1.17.0
+   Compiling fast-float v0.2.0
+   Compiling event-listener-strategy v0.5.4
+   Compiling pem v3.0.5
+   Compiling chrono-tz v0.10.3
+   Compiling lz4-sys v1.11.1+lz4-1.10.0
+   Compiling bzip2 v0.5.2
+   Compiling arc-swap v1.7.1
+   Compiling proc-macro-error-attr2 v2.0.0
+   Compiling async-lock v3.4.0
+   Compiling dlv-list v0.5.2
+   Compiling zeroize v1.8.1
+   Compiling portable-atomic v1.11.1
+   Compiling trim-in-place v0.1.7
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.6
+   Compiling ordered-multimap v0.7.3
+   Compiling moka v0.12.10
+   Compiling include_dir_macros v0.7.4
+   Compiling tagptr v0.2.0
+   Compiling proc-macro-error2 v2.0.1
+   Compiling digest v0.10.7
+   Compiling integer-encoding v4.0.2
+   Compiling vec1 v1.12.1
+   Compiling tzdb v0.7.2
+   Compiling winnow v0.5.40
+   Compiling rust-ini v0.21.1
+   Compiling zstd-safe v5.0.2+zstd.1.5.2
+   Compiling md5 v0.7.0
+   Compiling bitflags v1.3.2
+   Compiling include_dir v0.7.4
+   Compiling crc-catalog v2.4.0
+   Compiling sha2 v0.10.9
+   Compiling rustls-pki-types v1.12.0
+   Compiling fallible-streaming-iterator v0.1.9
+   Compiling crc v3.3.0
+   Compiling bzip2 v0.4.4
+   Compiling hashlink v0.10.0
+   Compiling common-catalog v0.18.0 (/home/lzw/projects/greptimedb/src/common/catalog)
+   Compiling der v0.7.10
+   Compiling vergen v8.3.2
+   Compiling serde_derive_internals v0.29.1
+   Compiling dyn-clone v1.0.19
+   Compiling schemars v0.8.22
+   Compiling dotenvy v0.15.7
+   Compiling hmac v0.12.1
+   Compiling crossbeam-deque v0.8.6
+   Compiling webpki-roots v1.0.1
+   Compiling regex-automata v0.1.10
+   Compiling filetime v0.2.25
+   Compiling webpki-roots v0.26.11
+   Compiling crossbeam-queue v0.3.12
+   Compiling rayon-core v1.12.1
+   Compiling whoami v1.6.0
+   Compiling hkdf v0.12.4
+   Compiling signature v2.2.0
+   Compiling md-5 v0.10.6
+   Compiling sha1 v0.10.6
+   Compiling inotify-sys v0.1.5
+   Compiling nom v8.0.0
+   Compiling typeid v1.0.3
+   Compiling notify-types v2.0.0
+   Compiling lrpar v0.13.10
+   Compiling unsafe-libyaml v0.2.11
+   Compiling cactus v1.0.7
+   Compiling lrlex v0.13.10
+   Compiling inventory v0.3.20
+   Compiling getopts v0.2.23
+   Compiling heapless v0.8.0
+   Compiling base64 v0.21.7
+   Compiling approx v0.5.1
+   Compiling regress v0.10.3
+   Compiling hash32 v0.3.1
+   Compiling serde_derive v1.0.219
+   Compiling zeroize_derive v1.4.2
+   Compiling tokio-macros v2.6.0
+   Compiling tracing-attributes v0.1.28
+   Compiling futures-macro v0.3.31
+   Compiling thiserror-impl v2.0.17
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.0
+   Compiling zerovec-derive v0.11.1
+   Compiling displaydoc v0.2.5
+   Compiling async-trait v0.1.89
+   Compiling strum_macros v0.26.4
+   Compiling thiserror-impl v1.0.69
+   Compiling recursive-proc-macro-impl v0.1.1
+   Compiling sqlparser_derive v0.3.0 (https://github.com/GreptimeTeam/sqlparser-rs.git?rev=4b519a5caa95472cc3988f5556813a583dd35af1#4b519a5c)
+   Compiling tokio v1.48.0
+   Compiling pin-project-internal v1.1.10
+   Compiling snafu-derive v0.8.6
+   Compiling strum_macros v0.25.3
+   Compiling recursive v0.1.1
+   Compiling strum_macros v0.27.1
+   Compiling datafusion-macros v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling matchers v0.1.0
+   Compiling rustls-native-certs v0.8.1
+   Compiling clap_derive v4.5.40
+   Compiling darling_macro v0.20.11
+   Compiling enum_dispatch v0.3.13
+   Compiling rustls-pemfile v2.2.0
+   Compiling spki v0.7.3
+   Compiling schemars_derive v0.8.22
+   Compiling zerofrom v0.1.6
+   Compiling block-padding v0.3.3
+   Compiling rustls-native-certs v0.7.3
+   Compiling pkcs8 v0.10.2
+   Compiling yoke v0.8.0
+   Compiling inout v0.1.4
+   Compiling darling v0.20.11
+   Compiling lzokay-native v0.1.0
+   Compiling tracing v0.1.41
+   Compiling serde_with_macros v3.1.0
+   Compiling cipher v0.4.4
+   Compiling derive_builder_core v0.20.2
+   Compiling pin-project v1.1.10
+   Compiling zerovec v0.11.2
+   Compiling zerotrie v0.2.2
+   Compiling opentelemetry v0.30.0
+   Compiling blake2 v0.10.6
+   Compiling salsa20 v0.10.2
+   Compiling aes v0.8.4
+   Compiling pbkdf2 v0.12.2
+   Compiling cbc v0.1.2
+   Compiling scrypt v0.11.0
+   Compiling pkcs1 v0.7.5
+   Compiling async-stream-impl v0.3.6
+   Compiling iso8601 v0.6.3
+   Compiling derive_more-impl v1.0.0
+   Compiling async-recursion v1.1.1
+   Compiling typetag-impl v0.2.20
+   Compiling comfy-table v7.1.2
+   Compiling regress v0.9.1
+   Compiling safe_arch v0.7.4
+   Compiling unescaper v0.1.6
+   Compiling derive_builder_macro v0.20.2
+   Compiling pkcs5 v0.7.1
+   Compiling async-stream v0.3.6
+   Compiling matrixmultiply v0.3.10
+   Compiling cgmath v0.18.0
+   Compiling ucd-trie v0.1.7
+   Compiling approx v0.4.0
+   Compiling rawpointer v0.2.1
+   Compiling snafu v0.8.6
+   Compiling i_tree v0.8.3
+   Compiling i_key_sort v0.2.0
+   Compiling pest v2.8.1
+   Compiling robust v1.2.0
+   Compiling derive_builder v0.20.2
+   Compiling nalgebra-macros v0.2.2
+   Compiling float_extras v0.1.6
+   Compiling geographiclib-rs v0.2.5
+   Compiling tinystr v0.8.1
+   Compiling potential_utf v0.1.2
+   Compiling h3o-bit v0.1.1
+   Compiling float_eq v1.0.1
+   Compiling wide v0.7.33
+   Compiling float_next_after v1.0.0
+   Compiling memoffset v0.7.1
+   Compiling icu_locale_core v2.0.0
+   Compiling icu_collections v2.0.0
+   Compiling ahash v0.7.8
+   Compiling common-plugins v0.18.0 (/home/lzw/projects/greptimedb/src/common/plugins)
+   Compiling rustc-hash v2.1.1
+   Compiling sqlparser_derive v0.1.1
+   Compiling clang-sys v1.8.1
+   Compiling memmap2 v0.9.5
+   Compiling clap v4.5.40
+   Compiling nohash v0.2.0
+   Compiling rgb v0.8.50
+   Compiling num-format v0.4.4
+   Compiling keccak v0.1.5
+   Compiling rle-decode-fast v1.0.3
+   Compiling doc-comment v0.3.3
+   Compiling str_stack v0.1.0
+   Compiling strum v0.27.1
+   Compiling linked-hash-map v0.5.6
+   Compiling bit-vec v0.8.0
+   Compiling nix v0.26.4
+   Compiling term v1.0.2
+   Compiling hashbrown v0.12.3
+   Compiling onig_sys v69.9.1
+   Compiling libloading v0.8.8
+   Compiling precomputed-hash v0.1.1
+   Compiling yaml-rust v0.4.5
+   Compiling new_debug_unreachable v1.0.6
+   Compiling cfg_aliases v0.2.1
+   Compiling toml_write v0.1.2
+   Compiling bit-set v0.8.0
+   Compiling frunk_core v0.4.4
+   Compiling dlv-list v0.3.0
+   Compiling bindgen v0.72.0
+   Compiling termcolor v1.4.1
+   Compiling nix v0.30.1
+   Compiling ascii-canvas v4.0.0
+   Compiling sha3 v0.10.8
+   Compiling snafu-derive v0.7.5
+   Compiling futures-executor v0.3.31
+   Compiling icu_provider v2.0.0
+   Compiling futures v0.3.31
+   Compiling derive_more v1.0.0
+   Compiling aead v0.5.2
+   Compiling universal-hash v0.5.1
+   Compiling tikv-jemalloc-sys v0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7
+   Compiling autotools v0.2.7
+   Compiling ordered-multimap v0.4.3
+   Compiling lalrpop-util v0.22.2
+   Compiling ena v0.14.3
+   Compiling env_filter v0.1.3
+   Compiling base64 v0.13.1
+   Compiling ciborium-io v0.2.2
+   Compiling icu_properties v2.0.1
+   Compiling opaque-debug v0.3.1
+   Compiling dary_heap v0.3.7
+   Compiling cpp_demangle v0.4.4
+   Compiling adler32 v1.2.0
+   Compiling simba v0.9.0
+   Compiling ref-cast v1.0.24
+   Compiling protobuf-src v1.1.0+21.5
+   Compiling rust-ini v0.18.0
+   Compiling pest_meta v2.8.1
+   Compiling env_logger v0.11.8
+   Compiling poly1305 v0.8.0
+   Compiling ciborium-ll v0.2.2
+   Compiling libflate_lz77 v2.1.0
+   Compiling dbl v0.3.2
+   Compiling equator-macro v0.4.2
+   Compiling ref-cast-impl v1.0.24
+   Compiling darling_core v0.21.1
+   Compiling findshlibs v0.10.2
+   Compiling cmake v0.1.54
+   Compiling grok v2.1.0
+   Compiling subprocess v0.2.9
+   Compiling phf_shared v0.12.1
+   Compiling ownedbytes v0.9.0
+   Compiling symbolic-demangle v12.15.5
+   Compiling psl-types v2.0.11
+   Compiling pathdiff v0.2.3
+   Compiling woothee v0.13.0
+   Compiling parking_lot_core v0.8.6
+   Compiling libflate v2.1.0
+   Compiling phf_generator v0.12.1
+   Compiling cmac v0.7.2
+   Compiling chacha20 v0.9.1
+   Compiling ctr v0.9.2
+   Compiling domain-macros v0.11.0
+   Compiling pest_generator v2.8.1
+   Compiling rustls-webpki v0.103.3
+   Compiling equator v0.4.2
+   Compiling async-channel v2.3.1
+   Compiling futures-lite v2.6.0
+   Compiling is-terminal v0.4.16
+   Compiling cexpr v0.6.0
+   Compiling piper v0.2.4
+   Compiling frunk_proc_macro_helpers v0.1.4
+   Compiling tokio-util v0.7.16
+   Compiling tokio-stream v0.1.17
+   Compiling bitpacking v0.9.2
+   Compiling vte v0.14.1
+   Compiling quick-xml v0.26.0
+   Compiling instant v0.1.13
+   Compiling frunk_derives v0.4.4
+   Compiling frunk_proc_macros v0.1.4
+   Compiling outref v0.5.2
+   Compiling h2 v0.4.11
+   Compiling tower v0.5.2
+   Compiling snafu v0.7.5
+   Compiling vsimd v0.8.0
+   Compiling litrs v0.4.1
+   Compiling utf8-ranges v1.0.5
+   Compiling async-task v4.7.1
+   Compiling include-flate-codegen v0.2.0
+   Compiling tantivy-fst v0.5.0
+   Compiling tantivy-bitpacker v0.8.0
+   Compiling strip-ansi-escapes v0.2.1
+   Compiling pest_derive v2.8.1
+   Compiling inferno v0.11.21
+   Compiling blocking v1.6.1
+   Compiling aligned-vec v0.6.4
+   Compiling base64-simd v0.8.0
+   Compiling chacha20poly1305 v0.10.1
+   Compiling aes-siv v0.7.0
+   Compiling phf_codegen v0.12.1
+   Compiling document-features v0.2.11
+   Compiling psl v2.1.123
+   Compiling crypto_secretbox v0.1.1
+   Compiling codespan-reporting v0.12.0
+   Compiling fancy-regex v0.14.0
+   Compiling ofb v0.6.1
+   Compiling cfb-mode v0.8.2
+   Compiling sha-1 v0.10.1
+   Compiling lazy-regex-proc_macros v3.4.1
+   Compiling rand_distr v0.4.3
+   Compiling convert_case v0.8.0
+   Compiling convert_case v0.7.1
+   Compiling charset v0.1.5
+   Compiling dns-lookup v2.0.4
+   Compiling btoi v0.4.3
+   Compiling float-cmp v0.10.0
+   Compiling hostname v0.4.1
+   Compiling base62 v2.2.1
+   Compiling base16 v0.2.1
+   Compiling roxmltree v0.20.0
+   Compiling indoc v2.0.6
+   Compiling parse-size v1.1.0
+   Compiling peeking_take_while v1.0.0
+   Compiling mockall_derive v0.13.1
+   Compiling cidr v0.3.1
+   Compiling seahash v4.1.0
+   Compiling utf8-width v0.1.7
+   Compiling predicates-core v1.0.9
+   Compiling murmurhash32 v0.3.1
+   Compiling regex-lite v0.1.6
+   Compiling saturating v0.1.0
+   Compiling quoted_printable v0.5.1
+   Compiling phf v0.12.1
+   Compiling dyn-fmt v0.4.3
+   Compiling include-flate v0.3.0
+   Compiling jieba-macros v0.8.0
+   Compiling async-fs v2.1.2
+   Compiling sealed v0.5.0
+   Compiling derive-new v0.7.0
+   Compiling either v1.15.0
+   Compiling smallvec v1.15.1
+   Compiling bitflags v2.9.1
+   Compiling itertools v0.14.0
+   Compiling toml_datetime v0.6.11
+   Compiling icu_normalizer v2.0.0
+   Compiling uuid v1.18.1
+   Compiling csv v1.3.1
+   Compiling serde_spanned v0.6.9
+   Compiling rustc_version v0.4.1
+   Compiling arrow-buffer v56.2.0
+   Compiling toml_edit v0.22.27
+   Compiling serde_urlencoded v0.7.1
+   Compiling parking_lot v0.12.4
+   Compiling sqlparser v0.58.0 (https://github.com/GreptimeTeam/sqlparser-rs.git?rev=4b519a5caa95472cc3988f5556813a583dd35af1#4b519a5c)
+   Compiling idna_adapter v1.2.1
+   Compiling flatbuffers v25.2.10
+   Compiling idna v1.1.0
+   Compiling serde_path_to_error v0.1.17
+   Compiling dashmap v6.1.0
+   Compiling url v2.5.7
+   Compiling axum v0.8.4
+   Compiling procfs-core v0.16.0
+   Compiling postgres-protocol v0.6.8
+   Compiling arrow-schema v56.2.0
+   Compiling tracing-serde v0.2.0
+   Compiling humantime-serde v1.1.1
+   Compiling tempfile v3.23.0
+   Compiling tracing-subscriber v0.3.19
+   Compiling postgres-types v0.2.9
+   Compiling rstest_macros v0.25.0
+   Compiling ordered-float v4.6.0
+   Compiling prost-derive v0.13.5
+   Compiling crc32c v0.6.8
+   Compiling quick-xml v0.37.5
+   Compiling rsasl v2.2.0
+   Compiling serde_with v3.1.0
+   Compiling toml v0.8.23
+   Compiling proc-macro-crate v3.3.0
+   Compiling arrow-data v56.2.0
+   Compiling xz2 v0.1.7
+   Compiling cargo-manifest v0.19.1
+   Compiling hyper v1.6.0
+   Compiling jsonb v0.4.3 (https://github.com/databendlabs/jsonb.git?rev=8c8d2fc294a39f3ff08909d60f718639cfba3875#8c8d2fc2)
+   Compiling clocksource v0.8.1
+   Compiling tracing-appender v0.2.3
+   Compiling rsa v0.9.8
+   Compiling simple_asn1 v0.6.3
+   Compiling prost v0.13.5
+   Compiling ratelimit v0.10.0
+   Compiling jsonwebtoken v9.3.1
+   Compiling num_enum_derive v0.7.4
+   Compiling itertools v0.10.5
+   Compiling itertools v0.13.0
+   Compiling prost-types v0.13.5
+   Compiling hyper-util v0.1.17
+   Compiling toml_edit v0.19.15
+   Compiling vob v3.0.5
+   Compiling futures-intrusive v0.5.0
+   Compiling packedvec v1.2.5
+   Compiling num_enum v0.7.4
+   Compiling sparsevec v0.2.2
+   Compiling bcder v0.7.5
+   Compiling rayon v1.10.0
+   Compiling aquamarine v0.6.0
+   Compiling inotify v0.11.0
+   Compiling bincode v1.3.3
+   Compiling serde_tokenstream v0.2.2
+   Compiling serde_yaml v0.9.34+deprecated
+   Compiling prost-build v0.13.5
+   Compiling notify v8.0.0
+   Compiling cfgrammar v0.13.10
+   Compiling erased-serde v0.4.6
+   Compiling x509-certificate v0.23.1
+   Compiling common-session v0.18.0 (/home/lzw/projects/greptimedb/src/common/session)
+   Compiling pbjson-build v0.7.0
+   Compiling hyper-timeout v0.5.2
+   Compiling proc-macro-crate v1.3.1
+   Compiling typify-impl v0.4.2
+   Compiling typify-impl v0.1.0
+   Compiling rstar v0.12.2
+   Compiling i_float v1.6.0
+   Compiling tonic v0.13.1
+   Compiling common-version v0.18.0 (/home/lzw/projects/greptimedb/src/common/version)
+   Compiling typetag v0.2.20
+   Compiling itertools v0.11.0
+   Compiling tokio-rustls v0.26.2
+   Compiling object_store v0.12.4
+   Compiling tonic-build v0.13.1
+   Compiling datafusion-common-runtime v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling backon v1.5.1
+   Compiling deadpool-runtime v0.1.4
+   Compiling deadpool v0.12.2
+   Compiling lrtable v0.13.10
+   Compiling arrow-array v56.2.0
+   Compiling zstd v0.13.3
+   Compiling zstd v0.11.2+zstd.1.5.2
+   Compiling num_enum_derive v0.5.11
+   Compiling tokio-postgres v0.7.13
+   Compiling async-compression v0.4.19
+   Compiling async-compression v0.3.15
+   Compiling geo-types v0.7.16
+   Compiling pbjson-types v0.7.0
+   Compiling i_shape v1.6.0
+   Compiling greptime-proto v0.1.0 (https://github.com/GreptimeTeam/greptime-proto.git?rev=14b9dc40bdc8288742b0cefc7bb024303b7429ef#14b9dc40)
+   Compiling etcd-client v0.15.0 (https://github.com/GreptimeTeam/etcd-client?rev=f62df834f0cffda355eba96691fe1a9a332b75a7#f62df834)
+   Compiling rstest v0.25.0
+   Compiling pbjson v0.7.0
+   Compiling opentelemetry_sdk v0.30.0
+   Compiling sqlx-core v0.8.6
+   Compiling earcutr v0.4.3
+   Compiling i_overlay v1.9.4
+   Compiling spade v2.14.0
+   Compiling bigdecimal v0.3.1
+   Compiling hyperloglogplus v0.4.1
+   Compiling wkt v0.11.1
+   Compiling geohash v0.13.1
+   Compiling num_enum v0.5.11
+   Compiling s2 v0.0.12
+   Compiling nalgebra v0.33.2
+   Compiling h3o v0.6.4
+   Compiling flexbuffers v25.2.10
+   Compiling uddsketch v0.1.0 (https://github.com/GreptimeTeam/timescaledb-toolkit.git?rev=84828fe8fb494a6a61412a3da96517fc80f7bb20#84828fe8)
+   Compiling meter-core v0.1.0 (https://github.com/GreptimeTeam/greptime-meter.git?rev=5618e779cf2bb4755b499c630fba4c35e91898cb#5618e779)
+   Compiling itertools v0.12.1
+   Compiling regex-filtered v0.2.0
+   Compiling lz4 v1.28.1
+   Compiling promql-parser v0.6.0
+   Compiling meter-macros v0.1.0 (https://github.com/GreptimeTeam/greptime-meter.git?rev=5618e779cf2bb4755b499c630fba4c35e91898cb#5618e779)
+   Compiling string_cache v0.8.9
+   Compiling tower-http v0.6.6
+   Compiling rskafka v0.6.0 (https://github.com/WenyXu/rskafka.git?rev=7b0f31ed39db049b4ee2e5f1e95b5a30be9baf76#7b0f31ed)
+   Compiling lalrpop v0.22.2
+   Compiling num_enum_derive v0.6.1
+   Compiling geo v0.29.3
+   Compiling ua-parser v0.2.1
+   Compiling otlp-model v0.1.0 (https://github.com/GreptimeTeam/otel-arrow?rev=2d64b7c0fa95642028a8205b36fe9ea0b023ec59#2d64b7c0)
+   Compiling debugid v0.8.0
+   Compiling json5 v0.4.1
+   Compiling deadpool-postgres v0.14.1
+   Compiling arrow-select v56.2.0
+   Compiling arrow-row v56.2.0
+   Compiling arrow-arith v56.2.0
+   Compiling tokio-postgres-rustls v0.12.0
+   Compiling prost-derive v0.12.6
+   Compiling ron v0.7.1
+   Compiling toml v0.5.11
+   Compiling sqlx-postgres v0.8.6
+   Compiling sqlx-mysql v0.8.6
+   Compiling config v0.13.4
+   Compiling tracing-opentelemetry v0.31.0
+   Compiling prost v0.12.6
+   Compiling arrow-cast v56.2.0
+   Compiling arrow-ipc v56.2.0
+   Compiling arrow-ord v56.2.0
+   Compiling arrow-string v56.2.0
+   Compiling prost-types v0.12.6
+   Compiling typify-macro v0.1.0
+   Compiling symbolic-common v12.15.5
+   Compiling onig v6.5.1
+   Compiling typify-macro v0.4.2
+   Compiling num_enum v0.6.1
+   Compiling sysinfo v0.33.1
+   Compiling inferno v0.12.2
+   Compiling tantivy-common v0.9.0
+   Compiling octseq v0.5.2
+   Compiling prost-build v0.12.6
+   Compiling typify v0.1.0
+   Compiling darling_macro v0.21.1
+   Compiling substrait v0.37.3
+   Compiling ciborium v0.2.2
+   Compiling domain v0.11.0
+   Compiling arrow-json v56.2.0
+   Compiling arrow-csv v56.2.0
+   Compiling parquet v56.2.0
+   Compiling typify v0.4.2
+   Compiling common-macro v0.18.0 (/home/lzw/projects/greptimedb/src/common/macro)
+   Compiling substrait v0.58.0
+   Compiling pprof_util v0.8.0
+   Compiling darling v0.21.1
+   Compiling community-id v0.2.3
+   Compiling arrow v56.2.0
+   Compiling orc-rust v0.6.3
+   Compiling pprof v0.14.0
+   Compiling hyper-rustls v0.27.7
+   Compiling otel-arrow-rust v0.1.0 (https://github.com/GreptimeTeam/otel-arrow?rev=2d64b7c0fa95642028a8205b36fe9ea0b023ec59#2d64b7c0)
+   Compiling loki-proto v0.1.0 (https://github.com/GreptimeTeam/loki-proto.git?rev=3b7cd33234358b18ece977bf689dc6fb760f29ab#3b7cd332)
+   Compiling prost-reflect v0.14.7
+   Compiling mysql-common-derive v0.31.2
+   Compiling headers-core v0.3.0
+   Compiling syslog_loose v0.21.0
+   Compiling reqwest v0.12.21
+   Compiling publicsuffix v2.3.0
+   Compiling sqlx-macros-core v0.8.6
+   Compiling influxdb-line-protocol v2.0.0
+   Compiling neli-proc-macros v0.1.4
+   Compiling frunk v0.4.4
+   Compiling protobuf-codegen v2.28.0
+   Compiling halfbrown v0.3.0
+   Compiling parking_lot v0.11.2
+   Compiling headers v0.4.1
+   Compiling servers v0.18.0 (/home/lzw/projects/greptimedb/src/servers)
+   Compiling mappings v0.7.1
+   Compiling bon-macros v3.6.5
+   Compiling value-trait v0.11.0
+   Compiling tantivy-sstable v0.5.0
+   Compiling tantivy-stacker v0.5.0
+   Compiling otlp-derive v0.1.0 (https://github.com/GreptimeTeam/otel-arrow?rev=2d64b7c0fa95642028a8205b36fe9ea0b023ec59#2d64b7c0)
+   Compiling x509-certificate v0.25.0
+   Compiling jsonpath-rust v0.7.5
+   Compiling lazy-regex v3.4.1
+   Compiling cedarwood v0.4.6
+   Compiling tantivy-tokenizer-api v0.5.0
+   Compiling fxhash v0.2.1
+   Compiling fst v0.4.7
+   Compiling mysql_common v0.32.4
+   Compiling neli v0.6.5
+   Compiling auto_ops v0.3.0
+   Compiling urlencoding v2.1.3
+   Compiling md5 v0.8.0
+   Compiling downcast-rs v2.0.1
+   Compiling replace_with v0.1.8
+   Compiling termtree v0.5.1
+   Compiling fastdivide v0.4.2
+   Compiling match_cfg v0.1.0
+   Compiling openmetrics-parser v0.4.4
+   Compiling tantivy-columnar v0.5.0
+   Compiling hostname v0.3.1
+   Compiling predicates-tree v1.0.12
+   Compiling jieba-rs v0.8.0
+   Compiling simd-json v0.15.1
+   Compiling object-pool v0.5.4
+   Compiling fs4 v0.8.4
+   Compiling tantivy-query-grammar v0.24.0
+   Compiling influxdb_line_protocol v0.1.0 (https://github.com/evenyag/influxdb_iox?branch=feat%2Fline-protocol#10ef0d0b)
+   Compiling async-walkdir v2.1.0
+   Compiling opentelemetry-http v0.30.0
+   Compiling reqsign v0.16.5
+   Compiling pgwire v0.34.2
+   Compiling sketches-ddsketch v0.3.0
+   Compiling rust-stemmers v1.2.0
+   Compiling predicates v3.1.3
+   Compiling prometheus-static-metric v0.5.1
+   Compiling sqlx-macros v0.8.6
+   Compiling local-ip-address v0.6.5
+   Compiling auto_impl v1.3.0
+   Compiling axum-macros v0.5.0
+   Compiling axum-extra v0.10.1
+   Compiling opendal v0.54.0
+   Compiling num-derive v0.4.2
+   Compiling serde_repr v0.1.20
+   Compiling crossbeam v0.8.4
+   Compiling fail v0.5.1
+   Compiling lru v0.12.5
+   Compiling fs2 v0.4.3
+   Compiling measure_time v0.9.0
+   Compiling if_chain v1.0.2
+   Compiling quoted-string v0.6.1
+   Compiling census v0.4.2
+   Compiling htmlescape v0.3.1
+   Compiling fragile v2.0.1
+   Compiling levenshtein_automata v0.2.1
+   Compiling oneshot v0.1.11
+   Compiling sqlx v0.8.6
+   Compiling downcast v0.11.0
+   Compiling asynchronous-codec v0.7.0
+   Compiling memcomparable v0.2.0 (https://github.com/v0y4g3r/memcomparable.git?rev=a07122dc03556bbd88ad66234cbea7efd3b23efb#a07122dc)
+   Compiling fastbloom v0.8.0
+   Compiling roaring v0.10.12
+   Compiling delta-encoding v0.4.8
+   Compiling event-listener v2.5.3
+   Compiling variadics v0.0.9
+   Compiling slotmap v1.0.7
+   Compiling dotenv v0.15.0
+   Compiling async-channel v1.9.0
+   Compiling raft-engine v0.4.2
+   Compiling lattices_macro v0.5.9
+   Compiling mur3 v0.1.0
+   Compiling cc-traits v2.0.0
+   Compiling vrl v0.25.0
+   Compiling pusherator v0.0.12
+   Compiling variadics_macro v0.6.0
+   Compiling bon v3.6.5
+   Compiling http v0.2.12
+   Compiling web-time v1.1.0
+   Compiling tantivy v0.24.2
+   Compiling rustc-hash v1.1.0
+   Compiling enum-as-inner v0.6.1
+   Compiling get-size2 v0.1.4
+   Compiling os_info v3.12.0
+   Compiling similar v2.7.0
+   Compiling console v0.15.11
+   Compiling colored v2.2.0
+   Compiling opensrv-mysql v0.8.0 (https://github.com/datafuselabs/opensrv?rev=a1fb4da215c8693c7e4f62be249a01b7fec52997#a1fb4da2)
+   Compiling tantivy-jieba v0.16.0
+   Compiling human-panic v2.0.2
+   Compiling lattices v0.6.1
+   Compiling mockall v0.13.1
+   Compiling similar-asserts v1.7.0
+   Compiling common-error v0.18.0 (/home/lzw/projects/greptimedb/src/common/error)
+   Compiling opentelemetry-proto v0.30.0
+   Compiling arrow-flight v56.2.0
+   Compiling tonic-reflection v0.13.1
+   Compiling common-base v0.18.0 (/home/lzw/projects/greptimedb/src/common/base)
+   Compiling common-time v0.18.0 (/home/lzw/projects/greptimedb/src/common/time)
+   Compiling common-decimal v0.18.0 (/home/lzw/projects/greptimedb/src/common/decimal)
+   Compiling common-pprof v0.18.0 (/home/lzw/projects/greptimedb/src/common/pprof)
+   Compiling h2 v0.3.26
+   Compiling dfir_rs v0.13.0
+   Compiling opentelemetry-otlp v0.30.0
+   Compiling common-telemetry v0.18.0 (/home/lzw/projects/greptimedb/src/common/telemetry)
+   Compiling common-runtime v0.18.0 (/home/lzw/projects/greptimedb/src/common/runtime)
+   Compiling common-wal v0.18.0 (/home/lzw/projects/greptimedb/src/common/wal)
+   Compiling common-workload v0.18.0 (/home/lzw/projects/greptimedb/src/common/workload)
+   Compiling common-stat v0.18.0 (/home/lzw/projects/greptimedb/src/common/stat)
+   Compiling common-greptimedb-telemetry v0.18.0 (/home/lzw/projects/greptimedb/src/common/greptimedb-telemetry)
+   Compiling object-store v0.18.0 (/home/lzw/projects/greptimedb/src/object-store)
+   Compiling object_store_opendal v0.54.0
+   Compiling datafusion-common v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling common-config v0.18.0 (/home/lzw/projects/greptimedb/src/common/config)
+   Compiling protobuf-build v0.15.1
+   Compiling log-store v0.18.0 (/home/lzw/projects/greptimedb/src/log-store)
+   Compiling datafusion-expr-common v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datatypes v0.18.0 (/home/lzw/projects/greptimedb/src/datatypes)
+   Compiling datafusion-physical-expr-common v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-functions-window-common v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-functions-aggregate-common v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-expr v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling tikv-jemalloc-ctl v0.6.0
+   Compiling tikv-jemallocator v0.6.0
+   Compiling common-mem-prof v0.18.0 (/home/lzw/projects/greptimedb/src/common/mem-prof)
+   Compiling api v0.18.0 (/home/lzw/projects/greptimedb/src/api)
+   Compiling datafusion-physical-expr v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-execution v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-sql v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-functions v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling common-sql v0.18.0 (/home/lzw/projects/greptimedb/src/common/sql)
+   Compiling datafusion-physical-plan v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-functions-aggregate v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-functions-window v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-optimizer v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-physical-expr-adapter v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-functions-nested v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-session v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-datasource v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-pruning v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-catalog v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-datasource-json v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-datasource-csv v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-physical-optimizer v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-datasource-parquet v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-catalog-listing v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion-functions-table v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling datafusion v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling common-recordbatch v0.18.0 (/home/lzw/projects/greptimedb/src/common/recordbatch)
+   Compiling datafusion-orc v0.5.0
+   Compiling datafusion-pg-catalog v0.12.1
+   Compiling datafusion-substrait v50.1.0 (https://github.com/GreptimeTeam/datafusion.git?rev=fd4b2abcf3c3e43e94951bda452c9fd35243aab0#fd4b2abc)
+   Compiling common-grpc v0.18.0 (/home/lzw/projects/greptimedb/src/common/grpc)
+   Compiling promql v0.18.0 (/home/lzw/projects/greptimedb/src/promql)
+   Compiling store-api v0.18.0 (/home/lzw/projects/greptimedb/src/store-api)
+   Compiling common-options v0.18.0 (/home/lzw/projects/greptimedb/src/common/options)
+   Compiling common-datasource v0.18.0 (/home/lzw/projects/greptimedb/src/common/datasource)
+   Compiling common-query v0.18.0 (/home/lzw/projects/greptimedb/src/common/query)
+   Compiling common-event-recorder v0.18.0 (/home/lzw/projects/greptimedb/src/common/event-recorder)
+   Compiling common-procedure v0.18.0 (/home/lzw/projects/greptimedb/src/common/procedure)
+   Compiling table v0.18.0 (/home/lzw/projects/greptimedb/src/table)
+   Compiling mito-codec v0.18.0 (/home/lzw/projects/greptimedb/src/mito-codec)
+   Compiling common-procedure-test v0.18.0 (/home/lzw/projects/greptimedb/src/common/procedure-test)
+   Compiling sql v0.18.0 (/home/lzw/projects/greptimedb/src/sql)
+   Compiling common-grpc-expr v0.18.0 (/home/lzw/projects/greptimedb/src/common/grpc-expr)
+   Compiling log-query v0.18.0 (/home/lzw/projects/greptimedb/src/log-query)
+   Compiling file-engine v0.18.0 (/home/lzw/projects/greptimedb/src/file-engine)
+   Compiling auth v0.18.0 (/home/lzw/projects/greptimedb/src/auth)
+   Compiling session v0.18.0 (/home/lzw/projects/greptimedb/src/session)
+   Compiling common-meta v0.18.0 (/home/lzw/projects/greptimedb/src/common/meta)
+   Compiling meta-client v0.18.0 (/home/lzw/projects/greptimedb/src/meta-client)
+   Compiling partition v0.18.0 (/home/lzw/projects/greptimedb/src/partition)
+   Compiling common-frontend v0.18.0 (/home/lzw/projects/greptimedb/src/common/frontend)
+   Compiling catalog v0.18.0 (/home/lzw/projects/greptimedb/src/catalog)
+   Compiling common-function v0.18.0 (/home/lzw/projects/greptimedb/src/common/function)
+   Compiling cache v0.18.0 (/home/lzw/projects/greptimedb/src/cache)
+   Compiling substrait v0.18.0 (/home/lzw/projects/greptimedb/src/common/substrait)
+   Compiling query v0.18.0 (/home/lzw/projects/greptimedb/src/query)
+   Compiling client v0.18.0 (/home/lzw/projects/greptimedb/src/client)
+   Compiling operator v0.18.0 (/home/lzw/projects/greptimedb/src/operator)
+   Compiling common-test-util v0.18.0 (/home/lzw/projects/greptimedb/src/common/test-util)
+   Compiling puffin v0.18.0 (/home/lzw/projects/greptimedb/src/puffin)
+   Compiling index v0.18.0 (/home/lzw/projects/greptimedb/src/index)
+   Compiling mito2 v0.18.0 (/home/lzw/projects/greptimedb/src/mito2)
+   Compiling pipeline v0.18.0 (/home/lzw/projects/greptimedb/src/pipeline)
+   Compiling metric-engine v0.18.0 (/home/lzw/projects/greptimedb/src/metric-engine)
+   Compiling meta-srv v0.18.0 (/home/lzw/projects/greptimedb/src/meta-srv)
+   Compiling flow v0.18.0 (/home/lzw/projects/greptimedb/src/flow)
+   Compiling datanode v0.18.0 (/home/lzw/projects/greptimedb/src/datanode)
+   Compiling cli v0.18.0 (/home/lzw/projects/greptimedb/src/cli)
+   Compiling frontend v0.18.0 (/home/lzw/projects/greptimedb/src/frontend)
+   Compiling standalone v0.18.0 (/home/lzw/projects/greptimedb/src/standalone)
+   Compiling plugins v0.18.0 (/home/lzw/projects/greptimedb/src/plugins)
+   Compiling cmd v0.18.0 (/home/lzw/projects/greptimedb/src/cmd)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4m 44s
+warning: the following packages contain code that will be rejected by a future version of Rust: num-bigint-dig v0.8.4
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
