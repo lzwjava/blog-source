@@ -1,14 +1,3 @@
----
-title: Compiling GreptimeDB with Cargo
-lang: en
-layout: post
-audio: false
-translated: false
-generated: true
-image: false
-model: x-ai/grok-4-fast
----
-
 lzw@to:~/projects/greptimedb$ cargo run 
    Compiling cache v0.18.0 (/home/lzw/projects/greptimedb/src/cache)
    Compiling flow v0.18.0 (/home/lzw/projects/greptimedb/src/flow)
@@ -37,3 +26,4 @@ Options:
       --log-level <LOG_LEVEL>  
   -h, --help                   Print help
   -V, --version                Print version
+lzw@to:~/projects/greptimedb$ 
