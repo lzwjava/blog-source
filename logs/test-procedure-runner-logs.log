@@ -1,0 +1,578 @@
+test procedure::tests::test_status ... ok
+test local::tests::test_manager_context ... ok
+test procedure::tests::test_procedure_id_serialization ... ok
+test rwlock::tests::test_naive ... ok
+test rwlock::tests::test_clean_keys ... ok
+2025-11-05T18:50:43.115495Z  INFO common_telemetry::logging: logs dir = /tmp/__unittest_logs
+2025-11-05T18:50:43.117037Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117040Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117039Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117042Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117039Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117039Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117041Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117049Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117049Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117056Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117055Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117058Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117061Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117064Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117066Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117083Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Executing { persist: true, clean_poisons: false }, need_persist: true
+2025-11-05T18:50:43.117082Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117091Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117085Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Executing { persist: false, clean_poisons: false }, need_persist: false
+2025-11-05T18:50:43.117085Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+2025-11-05T18:50:43.117091Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117093Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117085Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: false, clean_poisons: false err=0: Failed to execute procedure due to external error, clean poisons: false
+2025-11-05T18:50:43.117086Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: false, clean_poisons: false err=0: Failed to execute procedure due to external error, clean poisons: false
+2025-11-05T18:50:43.117091Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: false, clean_poisons: false err=0: Failed to execute procedure due to external error, clean poisons: false
+2025-11-05T18:50:43.117097Z  INFO common_procedure::local::runner: Runner ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 starts
+2025-11-05T18:50:43.117097Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117103Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Executing { persist: true, clean_poisons: false }, need_persist: true
+2025-11-05T18:50:43.117099Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117107Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Executing { persist: true, clean_poisons: false }, need_persist: true
+2025-11-05T18:50:43.117105Z DEBUG common_procedure::local::runner::tests: Acquiring write lock, id: 1
+2025-11-05T18:50:43.117106Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117106Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117097Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117111Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117111Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117121Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117125Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.117119Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117125Z  INFO common_procedure::local::runner: Runner ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 starts
+2025-11-05T18:50:43.117126Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117128Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Executing { persist: true, clean_poisons: false }, need_persist: true
+2025-11-05T18:50:43.117130Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Executing { persist: true, clean_poisons: false }, need_persist: true
+2025-11-05T18:50:43.117130Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117134Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Executing { persist: true, clean_poisons: false }, need_persist: true
+2025-11-05T18:50:43.117133Z DEBUG common_procedure::local::runner::tests: Acquired write lock, id: 1
+2025-11-05T18:50:43.117130Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117124Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+2025-11-05T18:50:43.117140Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117136Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+2025-11-05T18:50:43.117142Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Executing { persist: true, clean_poisons: false }, need_persist: true
+2025-11-05T18:50:43.117144Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Suspended { subprocedures: [ProcedureAdapter-ac1c6f11-ce56-4f44-afad-ca00b9a488fd], persist: true }, need_persist: true
+2025-11-05T18:50:43.117150Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Suspended { subprocedures: [], persist: false }, need_persist: false
+2025-11-05T18:50:43.117161Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Suspended { subprocedures: [ProcedureAdapter-6191c6fa-877c-4c89-91b3-4b512422e505, ProcedureAdapter-8de24201-1a89-4923-8d46-2f3559773869], persist: true }, need_persist: true
+2025-11-05T18:50:43.117165Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 1 times after 1 millis
+2025-11-05T18:50:43.117168Z DEBUG common_procedure::local::runner::tests: Acquiring write lock, id: 2
+2025-11-05T18:50:43.117173Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 1 times after 1 millis
+2025-11-05T18:50:43.117165Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+2025-11-05T18:50:43.117178Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 is waiting for subprocedures
+2025-11-05T18:50:43.117217Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 1 times after 1 millis
+test local::tests::test_register_loader ... ok
+test local::tests::test_procedure_manager_stopped ... ok
+2025-11-05T18:50:43.117389Z  INFO common_runtime::global: Creating runtime with runtime_name: global, thread_name: global-worker, work_threads: 8.
+test local::runner::tests::test_on_suspend_empty ... ok
+2025-11-05T18:50:43.117556Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117581Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.117584Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.117622Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+test store::tests::test_parse_invalid_key ... ok
+test local::runner::tests::test_running_is_stopped_on_error ... ok
+2025-11-05T18:50:43.118184Z  INFO common_runtime::global: Creating runtime with runtime_name: compact, thread_name: compact-worker, work_threads: 4.
+test store::tests::test_procedure_message ... ok
+2025-11-05T18:50:43.118437Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+test store::tests::test_parsed_key ... ok
+2025-11-05T18:50:43.118666Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.118995Z  INFO common_runtime::global: Creating runtime with runtime_name: heartbeat, thread_name: hb-worker, work_threads: 2.
+2025-11-05T18:50:43.119135Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+2025-11-05T18:50:43.119316Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+2025-11-05T18:50:43.119359Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+2025-11-05T18:50:43.119431Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 2 times after 2 millis
+2025-11-05T18:50:43.119410Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+2025-11-05T18:50:43.119544Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 2 times after 2 millis
+2025-11-05T18:50:43.119650Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 2 times after 2 millis
+2025-11-05T18:50:43.119809Z DEBUG common_runtime::repeated_task: Repeated task ProcedureManager-remove-outdated-meta-task started with interval: 600s
+2025-11-05T18:50:43.119811Z DEBUG common_runtime::repeated_task: Repeated task ProcedureManager-remove-outdated-meta-task started with interval: 600s
+2025-11-05T18:50:43.119895Z  INFO common_procedure::local: LocalManager is start.
+2025-11-05T18:50:43.119919Z  INFO common_procedure::local: LocalManager start to recover
+2025-11-05T18:50:43.119908Z  INFO common_procedure::local: LocalManager is start.
+2025-11-05T18:50:43.119957Z  INFO common_procedure::local: LocalManager start to recover
+2025-11-05T18:50:43.120346Z  INFO common_procedure::local: LocalManager finish recovery, cost: 0ms
+2025-11-05T18:50:43.120492Z  INFO common_procedure::local: LocalManager finish recovery, cost: 0ms
+2025-11-05T18:50:43.120786Z DEBUG common_runtime::repeated_task: Repeated task ProcedureManager-remove-outdated-meta-task stopped
+2025-11-05T18:50:43.120875Z  INFO common_procedure::local: LocalManager is stopped.
+2025-11-05T18:50:43.120850Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-fb8b5fc3-6cb1-45e3-99dc-09edd80d3224 starts
+2025-11-05T18:50:43.120856Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner MockProcedure-e3171cfb-66f9-4af4-9b9f-3a1435f0b5f7 starts
+2025-11-05T18:50:43.120867Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-2ea4ac49-9e8a-49ff-832e-77a04968f6fb starts
+2025-11-05T18:50:43.120907Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-134770c7-f956-4c42-9e23-92e1176ed2da starts
+2025-11-05T18:50:43.120967Z DEBUG LocalManager::submit_root_procedure: common_procedure::local::runner: Execute procedure ProcedureToLoad-fb8b5fc3-6cb1-45e3-99dc-09edd80d3224 once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.120981Z DEBUG common_runtime::repeated_task: Repeated task ProcedureManager-remove-outdated-meta-task started with interval: 600s
+2025-11-05T18:50:43.120975Z ERROR LocalManager::submit_root_procedure: common_procedure::local::runner: Failed to execute procedure MockProcedure-e3171cfb-66f9-4af4-9b9f-3a1435f0b5f7, retry: false, clean_poisons: false err=0: Failed to execute procedure due to external error, clean poisons: false
+2025-11-05T18:50:43.121029Z  INFO common_procedure::local: LocalManager is start.
+2025-11-05T18:50:43.121069Z  INFO common_procedure::local: LocalManager start to recover
+2025-11-05T18:50:43.121078Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure MockProcedure-e3171cfb-66f9-4af4-9b9f-3a1435f0b5f7 retry for the 1 times after 500 millis
+2025-11-05T18:50:43.121057Z DEBUG LocalManager::submit_root_procedure: common_procedure::local::runner: Execute procedure ProcedureToLoad-2ea4ac49-9e8a-49ff-832e-77a04968f6fb once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.121114Z DEBUG LocalManager::submit_root_procedure: common_procedure::local::runner: Execute procedure ProcedureToLoad-134770c7-f956-4c42-9e23-92e1176ed2da once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.121341Z  INFO common_procedure::local: LocalManager finish recovery, cost: 0ms
+2025-11-05T18:50:43.121572Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-2aa5ff28-7a5a-412b-af95-f9a57d097e52 starts
+2025-11-05T18:50:43.121641Z DEBUG LocalManager::submit_root_procedure: common_procedure::local::runner: Execute procedure ProcedureToLoad-2aa5ff28-7a5a-412b-af95-f9a57d097e52 once, status: Done { output: None }, need_persist: false
+test local::tests::test_procedure_manager_restart ... ok
+test store::util::tests::test_empty_upstream ... ok
+test store::util::tests::test_key_set_keys ... ok
+2025-11-05T18:50:43.122575Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+test store::util::tests::test_merge_multiple_values ... ok
+2025-11-05T18:50:43.122611Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 3 times after 4 millis
+2025-11-05T18:50:43.122704Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 done
+2025-11-05T18:50:43.122717Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 done
+2025-11-05T18:50:43.122738Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+test store::util::tests::test_multiple_values_stream_err ... ok
+2025-11-05T18:50:43.122798Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 3 times after 4 millis
+2025-11-05T18:50:43.122799Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+2025-11-05T18:50:43.122822Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 3 times after 4 millis
+2025-11-05T18:50:43.123098Z  INFO common_procedure::store: The procedure state store path is: data/procedure/
+test local::runner::tests::test_execute_once_normal_skip_persist ... 2025-11-05T18:50:43.123152Z DEBUG common_runtime::repeated_task: Repeated task ProcedureManager-remove-outdated-meta-task started with interval: 600s
+ok
+2025-11-05T18:50:43.123184Z  INFO common_procedure::local: LocalManager is start.
+test local::runner::tests::test_execute_on_retry_later_error ... ok
+2025-11-05T18:50:43.123208Z  INFO common_procedure::local: LocalManager start to recover
+2025-11-05T18:50:43.123361Z  INFO common_procedure::local: LocalManager finish recovery, cost: 0ms
+2025-11-05T18:50:43.123449Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner MockProcedure-93752d92-b372-49c2-815a-c51c3052212b starts
+2025-11-05T18:50:43.123483Z ERROR LocalManager::submit_root_procedure: common_procedure::local::runner: Failed to execute procedure MockProcedure-93752d92-b372-49c2-815a-c51c3052212b, retry: true, clean_poisons: false err=0: Procedure exec failed
+2025-11-05T18:50:43.123537Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure MockProcedure-93752d92-b372-49c2-815a-c51c3052212b retry for the 1 times after 611 millis
+2025-11-05T18:50:43.123542Z DEBUG common_procedure::watcher: retrying, source: Procedure exec failed
+2025-11-05T18:50:43.127033Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 submit subprocedure ProcedureAdapter-ac1c6f11-ce56-4f44-afad-ca00b9a488fd
+2025-11-05T18:50:43.127032Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 submit subprocedure ProcedureAdapter-6191c6fa-877c-4c89-91b3-4b512422e505
+2025-11-05T18:50:43.127022Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure ProcedureToLoad-2ea4ac49-9e8a-49ff-832e-77a04968f6fb done
+2025-11-05T18:50:43.127021Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure ProcedureToLoad-2aa5ff28-7a5a-412b-af95-f9a57d097e52 done
+2025-11-05T18:50:43.127041Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: false, clean_poisons: true err=0: Failed to execute procedure due to external error, clean poisons: true
+2025-11-05T18:50:43.127028Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure ProcedureToLoad-134770c7-f956-4c42-9e23-92e1176ed2da done
+2025-11-05T18:50:43.127049Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Executing { persist: true, clean_poisons: true }, need_persist: true
+2025-11-05T18:50:43.127034Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure ProcedureToLoad-fb8b5fc3-6cb1-45e3-99dc-09edd80d3224 done
+2025-11-05T18:50:43.127048Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Poisoned { keys: PoisonKeys([PoisonKey("table/1024")]), error: 0: Failed to execute procedure due to external error, clean poisons: false }, need_persist: false
+2025-11-05T18:50:43.127062Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: true err=0: Procedure exec failed
+2025-11-05T18:50:43.127062Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: false, clean_poisons: false err=0: Failed to execute procedure due to external error, clean poisons: false
+2025-11-05T18:50:43.127099Z ERROR common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 is poisoned, keys: PoisonKeys([PoisonKey("table/1024")]) err=0: Failed to execute procedure due to external error, clean poisons: false
+2025-11-05T18:50:43.127118Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 is waiting for subprocedures
+2025-11-05T18:50:43.127127Z DEBUG common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 cleaned poisons
+2025-11-05T18:50:43.127143Z DEBUG common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 cleaned poisons
+2025-11-05T18:50:43.127110Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 submit subprocedure ProcedureAdapter-8de24201-1a89-4923-8d46-2f3559773869
+2025-11-05T18:50:43.127157Z DEBUG common_runtime::repeated_task: Repeated task ProcedureManager-remove-outdated-meta-task started with interval: 1ms
+2025-11-05T18:50:43.127165Z  INFO common_procedure::local::runner: Runner ProcedureAdapter-6191c6fa-877c-4c89-91b3-4b512422e505 starts
+2025-11-05T18:50:43.127184Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 1 times after 1 millis
+2025-11-05T18:50:43.127193Z  INFO common_procedure::local: LocalManager is start.
+2025-11-05T18:50:43.127198Z  INFO common_procedure::local::runner: Runner ProcedureAdapter-ac1c6f11-ce56-4f44-afad-ca00b9a488fd starts
+2025-11-05T18:50:43.127203Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.127217Z  INFO common_procedure::local: LocalManager start to recover
+2025-11-05T18:50:43.127228Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Executing { persist: true, clean_poisons: false }, need_persist: true
+2025-11-05T18:50:43.127226Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 is waiting for subprocedures
+2025-11-05T18:50:43.127231Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-ac1c6f11-ce56-4f44-afad-ca00b9a488fd, retry: false, clean_poisons: false err=0: Failed to execute procedure due to external error, clean poisons: false
+2025-11-05T18:50:43.127282Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-ac1c6f11-ce56-4f44-afad-ca00b9a488fd retry for the 1 times after 1000 millis
+2025-11-05T18:50:43.127279Z  INFO common_procedure::local::runner: Runner ProcedureAdapter-8de24201-1a89-4923-8d46-2f3559773869 starts
+2025-11-05T18:50:43.127407Z DEBUG LocalManager::submit_root_procedure: common_procedure::store: Delete keys for procedure 134770c7-f956-4c42-9e23-92e1176ed2da, step_keys: [], finish_keys: []
+2025-11-05T18:50:43.127546Z DEBUG LocalManager::submit_root_procedure: common_procedure::store: Delete keys for procedure fb8b5fc3-6cb1-45e3-99dc-09edd80d3224, step_keys: [], finish_keys: []
+2025-11-05T18:50:43.127608Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-134770c7-f956-4c42-9e23-92e1176ed2da exits
+test local::tests::test_submit_procedure ... ok
+2025-11-05T18:50:43.127723Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+2025-11-05T18:50:43.127791Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-fb8b5fc3-6cb1-45e3-99dc-09edd80d3224 exits
+2025-11-05T18:50:43.127931Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+2025-11-05T18:50:43.127943Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: false err=0: Procedure exec failed
+test local::tests::test_too_many_running_procedures ... ok
+test local::runner::tests::test_execute_error_with_clean_poisons ... ok
+2025-11-05T18:50:43.128034Z DEBUG LocalManager::submit_root_procedure: common_procedure::store: Delete keys for procedure 2ea4ac49-9e8a-49ff-832e-77a04968f6fb, step_keys: [], finish_keys: ["data/procedure/2ea4ac49-9e8a-49ff-832e-77a04968f6fb/0000000000.commit"]
+test local::runner::tests::test_execute_on_error ... ok
+test local::runner::tests::test_execute_poisoned ... ok
+2025-11-05T18:50:43.128061Z DEBUG LocalManager::submit_root_procedure: common_procedure::store: Delete keys for procedure 2aa5ff28-7a5a-412b-af95-f9a57d097e52, step_keys: [], finish_keys: ["data/procedure/2aa5ff28-7a5a-412b-af95-f9a57d097e52/0000000000.commit"]
+test local::runner::tests::test_execute_with_rollback_on_error ... ok
+test local::runner::tests::test_running_is_stopped ... ok
+2025-11-05T18:50:43.128250Z  INFO common_procedure::local: LocalManager try to clean finished procedures, num: 1
+test store::tests::test_store_procedure ... ok
+2025-11-05T18:50:43.128632Z DEBUG common_procedure::store: Delete keys for procedure 2ea4ac49-9e8a-49ff-832e-77a04968f6fb, step_keys: [], finish_keys: []
+2025-11-05T18:50:43.128926Z  INFO common_procedure::local: LocalManager finish recovery, cost: 1ms
+2025-11-05T18:50:43.128958Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-2ea4ac49-9e8a-49ff-832e-77a04968f6fb exits
+2025-11-05T18:50:43.129062Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-2aa5ff28-7a5a-412b-af95-f9a57d097e52 exits
+2025-11-05T18:50:43.129412Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: true err=0: Procedure exec failed
+2025-11-05T18:50:43.129570Z DEBUG common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 cleaned poisons
+2025-11-05T18:50:43.129660Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 2 times after 2 millis
+2025-11-05T18:50:43.130289Z DEBUG common_procedure::local::runner::tests: Dropping write lock, id: 1
+2025-11-05T18:50:43.130352Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.130421Z DEBUG common_procedure::local::runner::tests: Acquired write lock, id: 2
+2025-11-05T18:50:43.132883Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: true err=0: Procedure exec failed
+2025-11-05T18:50:43.132981Z DEBUG common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 cleaned poisons
+2025-11-05T18:50:43.133041Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 3 times after 5 millis
+test store::tests::test_commit_procedure ... ok
+2025-11-05T18:50:43.136297Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 done
+2025-11-05T18:50:43.136313Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 1 times after 1 millis
+2025-11-05T18:50:43.136321Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 1 times after 1 millis
+test local::runner::tests::test_execute_exceed_max_retry_later ... ok
+test local::runner::tests::test_execute_once_normal ... ok
+test local::runner::tests::test_execute_with_clean_poisons ... ok
+2025-11-05T18:50:43.137668Z DEBUG common_procedure::store: Delete keys for procedure cba99634-1c5b-4642-938d-7944954d7561, step_keys: ["data/procedure/cba99634-1c5b-4642-938d-7944954d7561/0000000001.step", "data/procedure/cba99634-1c5b-4642-938d-7944954d7561/0000000000.step"], finish_keys: []
+test local::runner::tests::test_execute_failed_after_set_poison ... ok
+test store::tests::test_rollback_procedure ... ok
+2025-11-05T18:50:43.138521Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 2 times after 2 millis
+test store::tests::test_delete_procedure ... ok
+test local::runner::tests::test_rollback_after_retry_fail ... ok
+2025-11-05T18:50:43.139311Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: true, clean_poisons: true err=0: Procedure exec failed
+2025-11-05T18:50:43.139467Z DEBUG common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 cleaned poisons
+2025-11-05T18:50:43.141686Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 3 times after 4 millis
+2025-11-05T18:50:43.141672Z DEBUG common_procedure::store: Delete keys for procedure 45c7efa5-276e-4634-b7e0-83047e3453b1, step_keys: ["data/procedure/45c7efa5-276e-4634-b7e0-83047e3453b1/0000000001.step", "data/procedure/45c7efa5-276e-4634-b7e0-83047e3453b1/0000000000.step"], finish_keys: ["data/procedure/45c7efa5-276e-4634-b7e0-83047e3453b1/0000000002.commit"]
+test store::tests::test_delete_committed_procedure ... ok
+2025-11-05T18:50:43.144636Z DEBUG common_procedure::local::runner::tests: Dropping write lock, id: 2
+2025-11-05T18:50:43.144780Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.144782Z  INFO common_procedure::local: LocalManager start to recover
+test local::runner::tests::test_execute_exceed_max_retry_after_set_poison ... ok
+2025-11-05T18:50:43.148926Z  INFO common_procedure::local: Recover root procedure ProcedureToRecover-8947f3c5-9dc2-4ea2-a9ba-6f2e80592c66, step: 2
+test local::runner::tests::test_execute_with_dynamic_lock ... ok
+test local::runner::tests::test_rollback_exceed_max_retry_later ... ok
+2025-11-05T18:50:43.149219Z  INFO common_procedure::local: LocalManager finish recovery, cost: 4ms
+test store::state_store::tests::test_object_state_store_delete ... ok
+2025-11-05T18:50:43.149447Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToRecover-8947f3c5-9dc2-4ea2-a9ba-6f2e80592c66 starts
+2025-11-05T18:50:43.149626Z DEBUG LocalManager::submit_root_procedure: common_procedure::local::runner: Execute procedure ProcedureToRecover-8947f3c5-9dc2-4ea2-a9ba-6f2e80592c66 once, status: Done { output: None }, need_persist: false
+test local::tests::test_procedure_recover ... ok
+test store::state_store::tests::test_object_state_store ... ok
+2025-11-05T18:50:43.157195Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure ProcedureToRecover-8947f3c5-9dc2-4ea2-a9ba-6f2e80592c66 done
+2025-11-05T18:50:43.158009Z DEBUG LocalManager::submit_root_procedure: common_procedure::store: Delete keys for procedure 8947f3c5-9dc2-4ea2-a9ba-6f2e80592c66, step_keys: [], finish_keys: ["data/procedure/8947f3c5-9dc2-4ea2-a9ba-6f2e80592c66/0000000002.commit"]
+2025-11-05T18:50:43.158584Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToRecover-8947f3c5-9dc2-4ea2-a9ba-6f2e80592c66 exits
+2025-11-05T18:50:43.160763Z  INFO common_procedure::local: LocalManager start to recover
+2025-11-05T18:50:43.162729Z  INFO common_procedure::local: Recover root procedure ProcedureToLoad-642029f5-1e05-488c-a681-bbd6649086c3, step: 2
+2025-11-05T18:50:43.162871Z  INFO common_procedure::local: LocalManager finish recovery, cost: 2ms
+2025-11-05T18:50:43.163009Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-642029f5-1e05-488c-a681-bbd6649086c3 starts
+2025-11-05T18:50:43.163147Z DEBUG LocalManager::submit_root_procedure: common_procedure::local::runner: Execute procedure ProcedureToLoad-642029f5-1e05-488c-a681-bbd6649086c3 once, status: Done { output: None }, need_persist: false
+test local::tests::test_recover ... ok
+2025-11-05T18:50:43.168222Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure ProcedureToLoad-642029f5-1e05-488c-a681-bbd6649086c3 done
+2025-11-05T18:50:43.169090Z DEBUG LocalManager::submit_root_procedure: common_procedure::store: Delete keys for procedure 642029f5-1e05-488c-a681-bbd6649086c3, step_keys: [], finish_keys: ["data/procedure/642029f5-1e05-488c-a681-bbd6649086c3/0000000002.commit"]
+2025-11-05T18:50:43.169817Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-642029f5-1e05-488c-a681-bbd6649086c3 exits
+test store::tests::test_load_messages ... ok
+2025-11-05T18:50:43.327786Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-8de24201-1a89-4923-8d46-2f3559773869 once, status: Executing { persist: true, clean_poisons: false }, need_persist: true
+2025-11-05T18:50:43.327916Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-6191c6fa-877c-4c89-91b3-4b512422e505 once, status: Executing { persist: true, clean_poisons: false }, need_persist: true
+2025-11-05T18:50:43.336653Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-8de24201-1a89-4923-8d46-2f3559773869 once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.336754Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-6191c6fa-877c-4c89-91b3-4b512422e505 once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.341782Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-6191c6fa-877c-4c89-91b3-4b512422e505 done
+2025-11-05T18:50:43.341965Z  INFO common_procedure::local::runner: Runner ProcedureAdapter-6191c6fa-877c-4c89-91b3-4b512422e505 exits
+2025-11-05T18:50:43.342001Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-8de24201-1a89-4923-8d46-2f3559773869 done
+2025-11-05T18:50:43.342179Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 is waked up
+2025-11-05T18:50:43.342270Z  INFO common_procedure::local::runner: Runner ProcedureAdapter-8de24201-1a89-4923-8d46-2f3559773869 exits
+2025-11-05T18:50:43.342386Z DEBUG common_procedure::local::runner: Execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.347243Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 done
+2025-11-05T18:50:43.349321Z DEBUG common_procedure::store: Delete keys for procedure 9f805a1f-05f7-490c-9f91-bd56e3cc54c1, step_keys: ["data/procedure/9f805a1f-05f7-490c-9f91-bd56e3cc54c1/0000000000.step"], finish_keys: ["data/procedure/9f805a1f-05f7-490c-9f91-bd56e3cc54c1/0000000001.commit"]
+2025-11-05T18:50:43.351106Z DEBUG common_procedure::store: Delete keys for procedure 6191c6fa-877c-4c89-91b3-4b512422e505, step_keys: ["data/procedure/6191c6fa-877c-4c89-91b3-4b512422e505/0000000000.step"], finish_keys: ["data/procedure/6191c6fa-877c-4c89-91b3-4b512422e505/0000000001.commit"]
+2025-11-05T18:50:43.352297Z DEBUG common_procedure::store: Delete keys for procedure 8de24201-1a89-4923-8d46-2f3559773869, step_keys: ["data/procedure/8de24201-1a89-4923-8d46-2f3559773869/0000000000.step"], finish_keys: ["data/procedure/8de24201-1a89-4923-8d46-2f3559773869/0000000001.commit"]
+2025-11-05T18:50:43.352759Z  INFO common_procedure::local::runner: Runner ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 exits
+test local::runner::tests::test_on_suspend_by_subprocedures ... ok
+2025-11-05T18:50:43.431148Z DEBUG common_runtime::repeated_task: Repeated task ProcedureManager-remove-outdated-meta-task stopped
+2025-11-05T18:50:43.431246Z  INFO common_procedure::local: LocalManager is stopped.
+2025-11-05T18:50:43.431503Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-1e92f3a5-4e67-430d-a9cf-8c6d3b88ca90 starts
+2025-11-05T18:50:43.431648Z DEBUG LocalManager::submit_root_procedure: common_procedure::local::runner: Execute procedure ProcedureToLoad-1e92f3a5-4e67-430d-a9cf-8c6d3b88ca90 once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.437361Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure ProcedureToLoad-1e92f3a5-4e67-430d-a9cf-8c6d3b88ca90 done
+2025-11-05T18:50:43.439013Z DEBUG LocalManager::submit_root_procedure: common_procedure::store: Delete keys for procedure 1e92f3a5-4e67-430d-a9cf-8c6d3b88ca90, step_keys: [], finish_keys: ["data/procedure/1e92f3a5-4e67-430d-a9cf-8c6d3b88ca90/0000000000.commit"]
+2025-11-05T18:50:43.441177Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-1e92f3a5-4e67-430d-a9cf-8c6d3b88ca90 exits
+2025-11-05T18:50:43.628844Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure MockProcedure-e3171cfb-66f9-4af4-9b9f-3a1435f0b5f7 retry for the 2 times after 1000 millis
+2025-11-05T18:50:43.736163Z DEBUG LocalManager::submit_root_procedure: common_procedure::local::runner: Execute procedure MockProcedure-93752d92-b372-49c2-815a-c51c3052212b once, status: Done { output: Some(Any { .. }) }, need_persist: false
+2025-11-05T18:50:43.738774Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-2615755e-1465-4d2a-bbc9-62ec5feeb85c starts
+2025-11-05T18:50:43.738898Z DEBUG LocalManager::submit_root_procedure: common_procedure::local::runner: Execute procedure ProcedureToLoad-2615755e-1465-4d2a-bbc9-62ec5feeb85c once, status: Done { output: None }, need_persist: false
+2025-11-05T18:50:43.743310Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure MockProcedure-93752d92-b372-49c2-815a-c51c3052212b done
+2025-11-05T18:50:43.744752Z ERROR LocalManager::submit_root_procedure: common_procedure::local::runner: Runner MockProcedure-93752d92-b372-49c2-815a-c51c3052212b failed to delete procedure 93752d92-b372-49c2-815a-c51c3052212b err=0: Failed to list state, path: 'data/procedure/93752d92-b372-49c2-815a-c51c3052212b/0000000000.commit', at src/common/procedure/src/store/state_store.rs:182:26
+1: NotFound (permanent) at read, context: { service: fs, path: data/procedure/93752d92-b372-49c2-815a-c51c3052212b/0000000000.commit, range: 0- } => entity not found, source: No such file or directory (os error 2)
+test watcher::tests::test_success_after_retry ... ok
+2025-11-05T18:50:43.744994Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner MockProcedure-93752d92-b372-49c2-815a-c51c3052212b exits
+2025-11-05T18:50:43.747097Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure ProcedureToLoad-2615755e-1465-4d2a-bbc9-62ec5feeb85c done
+2025-11-05T18:50:43.747487Z DEBUG common_runtime::repeated_task: Repeated task ProcedureManager-remove-outdated-meta-task started with interval: 1ms
+2025-11-05T18:50:43.747575Z  INFO common_procedure::local: LocalManager is start.
+2025-11-05T18:50:43.747594Z  INFO common_procedure::local: LocalManager start to recover
+2025-11-05T18:50:43.748633Z DEBUG LocalManager::submit_root_procedure: common_procedure::store: Delete keys for procedure 2615755e-1465-4d2a-bbc9-62ec5feeb85c, step_keys: [], finish_keys: ["data/procedure/2615755e-1465-4d2a-bbc9-62ec5feeb85c/0000000000.commit"]
+2025-11-05T18:50:43.749143Z  INFO common_procedure::local: LocalManager try to clean finished procedures, num: 1
+2025-11-05T18:50:43.749554Z DEBUG common_procedure::store: Delete keys for procedure 2615755e-1465-4d2a-bbc9-62ec5feeb85c, step_keys: [], finish_keys: []
+2025-11-05T18:50:43.749806Z  INFO common_procedure::local: LocalManager finish recovery, cost: 2ms
+2025-11-05T18:50:43.749869Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner ProcedureToLoad-2615755e-1465-4d2a-bbc9-62ec5feeb85c exits
+test local::tests::test_remove_outdated_meta_task ... ok
+2025-11-05T18:50:44.135852Z  INFO common_procedure::local::runner: Runner ProcedureAdapter-ac1c6f11-ce56-4f44-afad-ca00b9a488fd exits
+2025-11-05T18:50:44.135888Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 is waked up
+2025-11-05T18:50:44.136006Z ERROR common_procedure::local::runner: Failed to execute procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1, retry: false, clean_poisons: false err=0: Failed to execute procedure due to external error, clean poisons: false
+1: subprocedure failed
+2025-11-05T18:50:44.136131Z  INFO common_procedure::local::runner: Procedure ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 retry for the 1 times after 1000 millis
+2025-11-05T18:50:44.630385Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner MockProcedure-aebe4fd5-3fbc-4786-9ef3-3f41de07b4d1 starts
+2025-11-05T18:50:44.631856Z DEBUG LocalManager::submit_root_procedure: common_procedure::store: Delete keys for procedure e3171cfb-66f9-4af4-9b9f-3a1435f0b5f7, step_keys: [], finish_keys: ["data/procedure/e3171cfb-66f9-4af4-9b9f-3a1435f0b5f7/0000000000.rollback"]
+2025-11-05T18:50:44.632693Z ERROR LocalManager::submit_root_procedure: common_procedure::local::runner: Procedure aebe4fd5-3fbc-4786-9ef3-3f41de07b4d1 exits unexpectedly
+2025-11-05T18:50:44.633258Z ERROR LocalManager::submit_root_procedure: common_procedure::local::runner: Runner MockProcedure-e3171cfb-66f9-4af4-9b9f-3a1435f0b5f7 failed to delete procedure e3171cfb-66f9-4af4-9b9f-3a1435f0b5f7 err=0: Failed to delete data/procedure/e3171cfb-66f9-4af4-9b9f-3a1435f0b5f7/
+1: NotFound (permanent) at delete => entity not found
+
+Context:
+   service: fs
+   deleted: 0
+
+Source:
+   No such file or directory (os error 2)
+
+2025-11-05T18:50:44.633446Z  INFO LocalManager::submit_root_procedure: common_procedure::local::runner: Runner MockProcedure-e3171cfb-66f9-4af4-9b9f-3a1435f0b5f7 exits
+test local::tests::test_state_changed_on_err ... ok
+2025-11-05T18:50:45.147280Z DEBUG common_procedure::store: Delete keys for procedure 9f805a1f-05f7-490c-9f91-bd56e3cc54c1, step_keys: ["data/procedure/9f805a1f-05f7-490c-9f91-bd56e3cc54c1/0000000000.step"], finish_keys: ["data/procedure/9f805a1f-05f7-490c-9f91-bd56e3cc54c1/0000000001.rollback"]
+2025-11-05T18:50:45.149434Z DEBUG common_procedure::store: Delete keys for procedure ac1c6f11-ce56-4f44-afad-ca00b9a488fd, step_keys: [], finish_keys: ["data/procedure/ac1c6f11-ce56-4f44-afad-ca00b9a488fd/0000000000.rollback"]
+2025-11-05T18:50:45.149958Z  INFO common_procedure::local::runner: Runner ProcedureAdapter-9f805a1f-05f7-490c-9f91-bd56e3cc54c1 exits
+test local::runner::tests::test_child_error ... ok
+
+test result: ok. 54 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.08s
+
+     Running unittests src/lib.rs (target/debug/deps/common_procedure_test-f2132f8ede03e4b0)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/common_query-7f6acd2e54364b2f)
+
+running 5 tests
+test logical_plan::expr::tests::test_timestamp_to_literal ... ok
+test columnar_value::tests::test_scalar_columnar_value ... ok
+test columnar_value::tests::test_vector_columnar_value ... ok
+test logical_plan::tests::test_rename_logical_plan_columns ... ok
+test stream::test::test_simple_table_scan ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.05s
+
+     Running unittests src/lib.rs (target/debug/deps/common_recordbatch-0d6509415e6df4a1)
+
+running 19 tests
+test filter::test::unsupported_filter_op ... ok
+test filter::test::supported_filter_op ... ok
+test tests::test_recordbatches_try_from_columns ... ok
+test recordbatch::tests::test_record_batch ... ok
+test recordbatch::tests::test_serialize_recordbatch ... ok
+test util::tests::test_collect ... ok
+test tests::test_simple_recordbatch_stream ... ok
+test adapter::test::test_async_recordbatch_stream_adaptor ... ok
+test cursor::tests::test_cursor ... ok
+test recordbatch::tests::test_record_batch_slice ... ok
+test filter::test::run_on_scalar ... ok
+test recordbatch::tests::test_merge_record_batch ... ok
+test filter::test::run_on_array ... ok
+test adapter::test::test_convert_map_to_json_binary ... ok
+test filter::test::batch_filter_test ... ok
+test filter::test::test_complex_filter_expression ... ok
+test tests::test_recordbatches_try_new ... ok
+test filter::test::test_regex_match_dictionary_array ... ok
+test filter::test::test_maybe_build_regex ... ok
+
+test result: ok. 19 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+     Running unittests src/lib.rs (target/debug/deps/common_runtime-52b0b1ad98fa1258)
+
+running 12 tests
+test runtime::tests::test_spawn_join ... ok
+test global::tests::test_spawn_compact_from_blocking ... ok
+test runtime::tests::spawn_from_blocking ... ok
+test global::tests::test_spawn_block_on ... ok
+test global::tests::test_spawn_global_from_blocking ... ok
+test global::tests::test_spawn_hb_from_blocking ... ok
+2025-11-05T18:50:45.335718Z  INFO common_telemetry::logging: logs dir = /tmp/__unittest_logs
+2025-11-05T18:50:45.335806Z DEBUG common_runtime::repeated_task: Repeated task test started with interval: 100ms
+2025-11-05T18:50:45.335834Z DEBUG common_runtime::repeated_task: Repeated task test started with interval: 100ms
+test runtime::tests::block_on_async ... ok
+test runtime_throttleable::tests::test_throttleable_runtime_spawn_complex ... ok
+test runtime::tests::test_metric ... ok
+test runtime_throttleable::tests::test_throttleable_runtime_spawn_simple ... ok
+2025-11-05T18:50:45.887019Z DEBUG common_runtime::repeated_task: Repeated task test stopped
+test repeated_task::tests::test_repeated_task ... ok
+2025-11-05T18:50:45.887366Z DEBUG common_runtime::repeated_task: Repeated task test stopped
+test repeated_task::tests::test_repeated_task_prior_exec ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.59s
+
+     Running unittests src/bin.rs (target/debug/deps/common_runtime_bin-1c083a01453b2812)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/common_session-f5465d5d19ce12dc)
+
+running 1 test
+test tests::test_read_preference ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/common_sql-dabe95b60a237467)
+
+running 13 tests
+test convert::test::test_sql_number_to_value_timestamp_different_units ... ok
+test convert::test::test_timestamp_range_validation ... ok
+test convert::test::test_sql_number_to_value_timestamp_strict_typing ... ok
+test convert::test::test_parse_placeholder_value ... ok
+test convert::test::test_auto_string_to_numeric ... ok
+test convert::test::test_sql_number_to_value ... ok
+test convert::test::test_string_to_value_auto_numeric ... ok
+test convert::test::test_parse_json_to_jsonb ... ok
+test default_constraint::test::test_parse_column_default_constraint ... ok
+test default_constraint::test::test_incorrect_default_value_issue_3479 ... ok
+test convert::test::test_parse_timestamp_literal ... ok
+test convert::test::test_parse_date_literal ... ok
+test convert::test::test_sql_value_to_value ... ok
+
+test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running unittests src/lib.rs (target/debug/deps/common_stat-ead2e7f16ad24c42)
+
+running 4 tests
+test cgroups::tests::test_get_cgroup_v2_cpu_limit ... ok
+test cgroups::tests::test_read_value_from_file ... ok
+test resource::tests::test_get_total_cpu_cores ... ok
+test resource::tests::test_get_total_memory_readable ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/common_telemetry-632f1f37d07cb4d7)
+
+running 19 tests
+test logging::tests::test_otlp_export_protocol_deserialization_valid_values ... ok
+test logging::tests::test_logging_options_deserialization_empty_log_format ... ok
+test logging::tests::test_logging_options_deserialization_valid_log_format ... ok
+test logging::tests::test_slow_query_options_deserialization_default ... ok
+test logging::tests::test_slow_query_options_deserialization_empty_record_type ... ok
+test logging::tests::test_slow_query_options_deserialization_missing_record_type ... ok
+test logging::tests::test_slow_query_options_deserialization_valid_record_type ... ok
+test logging::tests::test_logging_options_deserialization_missing_log_format ... ok
+test tracing_sampler::test::test_rule ... ok
+test macros::tests::test_log_no_target ... ok
+test macros::tests::test_log_ref_scope_args ... ok
+test macros::tests::test_log_args ... ok
+test logging::tests::test_logging_options_deserialization_default ... ok
+test metric::test::test_convert_label ... ok
+test metric::test::test_write_request_encoder ... ok
+test metric::test::test_metric_filter ... ok
+test metric::test::test_write_request_summary ... ok
+test metric::test::test_write_request_histogram ... ok
+2025-11-05T18:50:45.950062Z  INFO common_telemetry::logging: logs dir = /tmp/__unittest_logs
+2025-11-05T18:50:45.950111Z ERROR my_target: hello world
+2025-11-05T18:50:45.950132Z ERROR my_target: hello world err=MockError { code: Unknown, source: None }
+2025-11-05T18:50:45.950155Z ERROR my_target: hello world err=Unknown
+2025-11-05T18:50:45.950177Z ERROR my_target: hello world err=MockError { code: Unknown, source: None }
+2025-11-05T18:50:45.950198Z ERROR common_telemetry::macros::tests: hello world err=MockError { code: Unknown, source: None }
+2025-11-05T18:50:45.950220Z ERROR common_telemetry::macros::tests: hello world err=Unknown
+2025-11-05T18:50:45.950241Z ERROR common_telemetry::macros::tests: hello world
+2025-11-05T18:50:45.950259Z ERROR common_telemetry::macros::tests: Error with source hello world err=MockError { code: Unknown, source: Some(MockError { code: Unknown, source: None }) }
+test macros::tests::test_log_error ... ok
+
+test result: ok. 19 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running unittests src/lib.rs (target/debug/deps/common_test_util-5f671d5da611d5ca)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/common_time-89a4380b4b7abdff)
+
+running 84 tests
+test date::tests::test_from ... ok
+test duration::tests::test_cmp_duration ... ok
+test duration::tests::test_convert_i64 ... ok
+test duration::tests::test_convert_with_std_duration ... ok
+test duration::tests::test_duration ... ok
+test interval::tests::test_convert_interval_format ... ok
+test interval::tests::test_from_arrow_interval_unit ... ok
+test interval::tests::test_from_month_day_nano ... ok
+test date::tests::test_add_sub_interval ... ok
+test interval::tests::test_from_date_time ... ok
+test date::tests::test_to_secs ... ok
+test duration::tests::test_hash ... ok
+test interval::tests::test_from_year_month ... ok
+test interval::tests::test_interval_i128_convert ... ok
+test interval::tests::test_interval_i64_convert ... ok
+test interval::tests::test_to_iso8601_string ... ok
+test interval::tests::test_to_postgres_string ... ok
+test duration::tests::test_duration_to_string ... ok
+test date::tests::test_print_date2 ... ok
+test date::tests::test_min_max ... ok
+test duration::tests::test_serialize_to_json_value ... ok
+test date::tests::test_as_formatted_string ... ok
+test date::tests::test_date_parse ... ok
+test interval::tests::test_to_sql_standard_string ... ok
+test range::tests::test_from_timestamp_range ... ok
+test range::tests::test_from_timestamp_tuple ... ok
+test range::tests::test_intersect ... ok
+test range::tests::test_new_inclusive ... ok
+test range::tests::test_new_range ... ok
+test range::tests::test_range_and ... ok
+test range::tests::test_range_contains ... ok
+test range::tests::test_range_or ... ok
+test range::tests::test_range_with_diff_unit ... ok
+test range::tests::test_timestamp_range_new_inclusive ... ok
+test time::tests::test_cmp_time ... ok
+test time::tests::test_from_i64 ... ok
+test range::tests::test_serialize_timestamp_range ... ok
+test time::tests::test_hash ... ok
+test timestamp::tests::test_antisymmetry ... ok
+test timestamp::tests::test_cmp_timestamp ... ok
+test timestamp::tests::test_convert_timestamp ... ok
+test timestamp::tests::test_convert_to_ceil ... ok
+test timestamp::tests::test_as_formatted_string ... ok
+test time::tests::test_serialize_to_json_value ... ok
+test timestamp::tests::test_debug_timestamp ... ok
+test timestamp::tests::test_from_arrow_time_unit ... ok
+test timestamp::tests::test_from_i64 ... ok
+test timestamp::tests::test_from_naive_date_time ... ok
+test timestamp::tests::test_min_nanos_roundtrip ... ok
+test time::tests::test_time ... ok
+test timestamp::tests::test_from_str ... ok
+test time::tests::test_to_iso8601_string ... ok
+test timestamp::tests::test_split ... ok
+test timestamp::tests::test_split_overflow ... ok
+test time::tests::test_to_timezone_aware_string ... ok
+test timestamp::tests::test_add_sub_interval ... ok
+test timestamp::tests::test_parse_in_timezone ... ok
+test timestamp::tests::test_parse_timestamp_range ... ok
+test timestamp::tests::test_subtract_timestamp ... ok
+test timestamp::tests::test_time_unit ... ok
+test timestamp::tests::test_timestamp ... ok
+test timestamp::tests::test_timestamp_add ... ok
+test timestamp::tests::test_hash ... ok
+test timestamp::tests::test_timestamp_sub ... ok
+test timestamp::tests::test_timestamp_antisymmetry ... ok
+test timestamp::tests::test_timestamp_transitivity ... ok
+test timestamp_millis::tests::test_align_by_bucket ... ok
+test timestamp_millis::tests::test_timestamp ... ok
+test timestamp::tests::test_timestamp_bound_format ... ok
+test timestamp_millis::tests::test_align_to_ceil ... ok
+test timezone::tests::test_from_tz_string ... ok
+test timestamp::tests::test_to_timezone_aware_string ... ok
+test timezone::tests::test_local_minus_utc ... ok
+test timezone::tests::test_timezone_to_string ... ok
+test timestamp::tests::test_to_local_string ... FAILED
+test timestamp::tests::test_serialize_to_json_value ... FAILED
+test timestamp::tests::test_to_iso8601_string ... FAILED
+test ttl::test::test_db_ttl_table_ttl ... ok
+test util::tests::test_current_time_millis ... ok
+test ttl::test::test_serde ... ok
+test util::tests::test_div_ceil ... ok
+test util::tests::test_format_nanoseconds_human_readable ... ok
+test timestamp::tests::test_timestamp_reflexivity ... ok
+test timestamp::tests::test_strong_connectivity ... ok
+
+failures:
+
+---- timestamp::tests::test_to_local_string stdout ----
+
+thread 'timestamp::tests::test_to_local_string' (656046) panicked at src/common/time/src/timestamp.rs:1207:9:
+assertion `left == right` failed
+  left: "1970-01-01 08:00:00.000000001"
+ right: "1970-01-01 10:00:00.000000001"
+
+---- timestamp::tests::test_serialize_to_json_value stdout ----
+
+thread 'timestamp::tests::test_serialize_to_json_value' (656032) panicked at src/common/time/src/timestamp.rs:941:9:
+assertion `left == right` failed
+  left: "1970-01-01 08:00:01+0800"
+ right: "1970-01-01 10:00:01+1000"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- timestamp::tests::test_to_iso8601_string stdout ----
+
+thread 'timestamp::tests::test_to_iso8601_string' (656045) panicked at src/common/time/src/timestamp.rs:919:9:
+assertion `left == right` failed
+  left: "2020-09-08 21:42:29.042+0800"
+ right: "2020-09-08 23:42:29.042+1000"
+
+
+failures:
+    timestamp::tests::test_serialize_to_json_value
+    timestamp::tests::test_to_iso8601_string
+    timestamp::tests::test_to_local_string
+
+test result: FAILED. 81 passed; 3 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+error: test failed, to rerun pass `-p common-time --lib`
