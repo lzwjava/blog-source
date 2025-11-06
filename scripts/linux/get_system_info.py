@@ -250,6 +250,26 @@ def main():
     print("System Details:")
     print(f"  Platform: {platform.platform()}")
     print(f"  Processor: {platform.processor() or 'Unknown'}")
+
+    # Hardware information
+    memory_info = get_memory_info()
+    print(f"  Memory: {memory_info}")
+
+    disk_info = get_disk_info()
+    print(f"  Disk: {disk_info}")
+    print()
+
+    # GPU and CUDA information
+    print("Graphics and Compute:")
+    gpu_info = get_gpu_info()
+    gpu_lines = gpu_info.split('\n')
+    for line in gpu_lines:
+        print(f"  {line}")
+
+    cuda_info = get_cuda_info()
+    cuda_lines = cuda_info.split('\n')
+    for line in cuda_lines:
+        print(f"  {line}")
     print()
 
 if __name__ == "__main__":
