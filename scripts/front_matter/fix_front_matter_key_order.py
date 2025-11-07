@@ -1,5 +1,6 @@
-import re
 import os
+import argparse
+import frontmatter
 
 def scan_markdown_files_for_front_matter_key_order():
     """Scan all markdown files for front matter where keys are not in alphabetical order."""
@@ -30,7 +31,7 @@ def scan_markdown_files_for_front_matter_key_order():
                     if not content.startswith('---\n'):
                         continue
 
-                    # Find the front matter block
+                    # Find the first front matter block only (between first --- and first closing ---)
                     front_matter_match = re.search(r'^---\n(.*?)\n---', content, re.MULTILINE | re.DOTALL)
                     if not front_matter_match:
                         continue
@@ -109,7 +110,7 @@ def fix_front_matter_key_order_for_file(file_path, actual_keys, key_lines, front
         print(f"Error fixing {file_path}: {e}")
         return False
 
-def fix_front_matter_key_order():
+def fix_front_matter_key_order(max_files=None):
     """Fix front matter key order issues in all markdown files."""
     print("Scanning markdown files for front matter key order issues...")
     issues = scan_markdown_files_for_front_matter_key_order()
@@ -118,12 +119,23 @@ def fix_front_matter_key_order():
         print("No front matter key order issues found.")
         return
 
-    print(f"Found {len(issues)} files with front matter key order issues.")
+    # Limit the number of files if specified
+    if max_files:
+        issues = issues[:max_files]
+        print(f"Found {len(issues)} files with front matter key order issues (limited to {max_files}).")
+    else:
+        print(f"Found {len(issues)} files with front matter key order issues.")
 
     fixed_count = 0
     for issue in issues:
         print(f"Fixing {issue['file_path']}...")
-        if fix_front_matter_key_order_for_file(**issue):
+        success = fix_front_matter_key_order_for_file(
+            issue['file_path'],
+            issue['post'],
+            issue['actual_keys'],
+            issue['sorted_keys']
+        )
+        if success:
             fixed_count += 1
         else:
             print(f"Failed to fix {issue['file_path']}")
@@ -131,4 +143,8 @@ def fix_front_matter_key_order():
     print(f"Successfully fixed {fixed_count} out of {len(issues)} files.")
 
 if __name__ == '__main__':
-    fix_front_matter_key_order()
+    parser = argparse.ArgumentParser(description='Fix front matter key order in markdown files.')
+    parser.add_argument('-n', '--number', type=int, help='Limit the number of files to process')
+    args = parser.parse_args()
+
+    fix_front_matter_key_order(max_files=args.number)
