@@ -1,10 +1,10 @@
 ---
-title: Ubuntu Suspend Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Ubuntu Suspend Guide
 translated: false
-generated: true
 ---
 
 In Ubuntu, you can put your system to sleep or hibernate using several methods:

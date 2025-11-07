@@ -1,10 +1,10 @@
 ---
-title: "LLMs Confirm My CFA Insights"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: LLMs Confirm My CFA Insights
 translated: false
-generated: true
 ---
 
 https://weibo.com/6347862377/5183994120372979
@@ -50,4 +50,3 @@ I must thank ChatGPT for clearly articulating the facts I saw, saving me from re
 Now, I’m sharing a conversation I had with ChatGPT about CFA, hoping it will help researchers in this field:
 
 https://chatgpt.com/share/6864e9a1-66c8-8002-b9f5-55e845fde7ae
-
