@@ -1,4 +1,4 @@
-name: Translate Posts
+name: Translate Recent Notes
 
 on:
   workflow_dispatch:
