@@ -3,6 +3,10 @@ name: Translate Posts
 on:
   workflow_dispatch:
 
+concurrency:
+  group: 'notes'
+  cancel-in-progress: true
+
 jobs:
   translate:
     runs-on: ubuntu-latest
