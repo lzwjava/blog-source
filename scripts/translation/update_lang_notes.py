@@ -200,7 +200,7 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        default="deepseek-v3.1",
+        default="deepseek-v3.2",
         help="Model to use for translation (e.g., deepseek-v3.1, mistral-medium, gemini-flash).",
     )
     parser.add_argument(
