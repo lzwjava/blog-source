@@ -9,7 +9,16 @@ def scan_markdown_files_for_front_matter_key_order(verbose=False):
     directories_with_files = set()
 
     # Define directories to scan
+    # Languages from update_lang_notes.py
+    languages = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
+
+    # Base directories
     directories_to_scan = ['_posts', 'original', 'notes', '_notes']
+
+    # Add language-specific subdirectories
+    for lang in languages:
+        directories_to_scan.append(f"_posts/{lang}")
+        directories_to_scan.append(f"_notes/{lang}")
 
     if verbose:
         print(f"Scanning directories: {', '.join(directories_to_scan)}")
@@ -23,18 +32,19 @@ def scan_markdown_files_for_front_matter_key_order(verbose=False):
         if verbose:
             print(f"Scanning directory: {directory}")
 
-        # Walk through all subdirectories (recursive)
-        for root, dirs, files in os.walk(directory):
-            # Track directories that contain markdown files
-            md_files_in_dir = [f for f in files if f.endswith('.md')]
-            if md_files_in_dir and root != directory:
-                directories_with_files.add(root)
+        # Scan files directly in this directory (non-recursive)
+        try:
+            files = os.listdir(directory)
+        except PermissionError as e:
+            if verbose:
+                print(f"Permission denied accessing {directory}: {e}")
+            continue
 
-            for filename in files:
+        for filename in files:
                 if not filename.endswith('.md'):
                     continue
 
-                file_path = os.path.join(root, filename)
+                file_path = os.path.join(directory, filename)
                 total_files_scanned += 1
 
                 if verbose and total_files_scanned % 100 == 0:
