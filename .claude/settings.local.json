@@ -18,7 +18,8 @@
       "Bash(xelatex:*)",
       "Bash(nmcli -f all device wifi list)",
       "Bash(git add scripts/gpg/gpg_decrypt.py)",
-      "Read(//Users/lzwjava/projects/LibreChat/**)"
+      "Read(//Users/lzwjava/projects/LibreChat/**)",
+      "Bash(jekyll build:*)"
     ],
     "deny": [],
     "ask": [],
