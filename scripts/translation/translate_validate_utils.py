@@ -18,11 +18,11 @@ def check_commentary(translated):
     ]
     low = translated.lower()
     for ind in indicators:
-        if ind in low:
+        if low.startswith(ind):
             raise RuntimeError("Model included commentary")
-    
+
     # Check for markdown code blocks
-    if "```markdown" in translated.lower():
+    if low.startswith("```markdown"):
         raise RuntimeError("Model included markdown code blocks")
 
 def check_title_strict(title, target_lang):

@@ -214,11 +214,10 @@ def main():
                     break
             if orig_lang:
                 for lang in languages:
-                    if lang != orig_lang:  # Don't translate to the same language
-                        target_filename = get_output_filename(filename, lang)
-                        target_file = os.path.join(f"_notes/{lang}", target_filename)
-                        if not os.path.exists(target_file):
-                            changed_files.add((input_file, lang))
+                    target_filename = get_output_filename(filename, lang)
+                    target_file = os.path.join(f"_notes/{lang}", target_filename)
+                    if not os.path.exists(target_file):
+                        changed_files.add((input_file, lang))
         total_files_to_process = len(changed_files)
     else:
         changed_files = get_changed_files()
