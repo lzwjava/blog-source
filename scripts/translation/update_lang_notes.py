@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import concurrent.futures
 import frontmatter
 from markdown_translate_client import translate_markdown_file
+import shutil
 
 load_dotenv()
 
