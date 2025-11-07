@@ -16,8 +16,11 @@ concurrency:
 jobs:
   translate:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
+    environment: github-pages
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      TELEGRAM_BOT_API_KEY: ${{ secrets.TELEGRAM_BOT_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -35,8 +38,6 @@ jobs:
       - name: Translate posts
         run: |
           python scripts/translation/update_lang_notes.py --n ${{ inputs.n }}
-        env:        
-          OPENROUTER_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
       - name: Commit and push translated notes   
         run: |
@@ -45,5 +46,4 @@ jobs:
           git add _notes/**/**
           git diff --cached --quiet || git commit -m "Add translated posts (hant)"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     
+
