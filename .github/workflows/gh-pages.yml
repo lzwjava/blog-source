@@ -3,22 +3,7 @@ name: Deploy Jekyll
 on:
   schedule:
     - cron: '0 */2 * * *'
-  workflow_dispatch:  
-  push:
-    branches: ["main"]
-    paths:
-      # - 'original/**'
-      # - '_posts/**'
-      - '_layouts/**'
-      - '_includes/**'
-      - '_sass/**'
-      - '_config.yml'
-      # - '_drafts/**'
-      - '_plugins/**'
-      - 'requirements/**'
-      - 'scripts/translation/**'
-      - 'scripts/llm/**'
-      - '.github/workflows/gh-pages.yml'
+  workflow_dispatch:
 
 permissions:
   contents: write
