@@ -66,4 +66,5 @@ def update_notes_link():
 
 
 if __name__ == "__main__":
-    update_notes_link()
+    exit()
+    # update_notes_link()
