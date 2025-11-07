@@ -39,30 +39,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements/requirements.txt
 
-      - name: Update Notes Links
-        id: update_notes_links
-        run: |
-          OUTPUT=$(python scripts/generate/update_notes_link.py)
-          if [[ "$OUTPUT" == *"Updated original/2025-01-11-notes-en.md"* ]]; then
-            echo "notes_updated=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "notes_updated=false" >> "$GITHUB_OUTPUT"
-          fi
-      
-      - name: Commit Notes Link Changes
-        if: steps.update_notes_links.outputs.notes_updated == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add original/2025-01-11-notes-en.md
-          git add _posts/en/*.md
-          git diff --cached --quiet || git commit -m "chore(notes): Update notes links"
-          git push || {
-            echo "Push failed, attempting pull and merge"
-            git pull --rebase
-            git push
-          }
-
       - name: Update Language Files
         id: updated_lang_files
         run: |
