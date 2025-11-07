@@ -266,7 +266,7 @@ def main():
         futures = []
         for filename, lang in changed_files:
             input_file = filename
-            output_dir = f"_posts/{lang}"
+            output_dir = f"_notes/{lang}"
             os.makedirs(output_dir, exist_ok=True)
             output_filename = get_output_filename(os.path.basename(filename), lang)
             output_file = os.path.join(output_dir, output_filename)
