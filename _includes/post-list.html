@@ -1,6 +1,8 @@
 <ul class="post-list">
-  {% if site.posts.size > 0 %}
-  {% for post in site.posts %}
+  {% assign type = include.type | default: "posts" %}
+  {% assign collection = site[type] %}
+  {% if collection.size > 0 %}
+  {% for post in collection %}
   {% assign translated = post.translated %}
   {% assign generated = post.generated %}
   {% if translated == nil %}
@@ -9,8 +11,8 @@
   {% if generated == nil %}
   {% assign generated = false %}
   {% endif %}
-  {% if post.path contains '_posts/{{ include.lang }}/' %}
-  <li class="list-group-item post-item lang-{{ include.lang }}" data-top="{{ post.top }}" data-translated="{{ translated }}"
+  {% if post.path contains '_{{ type }}/{{ include.lang }}/' %}
+  <li class="list-group-item post-item lang-{{ include.lang }} type-{{ type }}" data-top="{{ post.top }}" data-translated="{{ translated }}"
     data-generated="{{ generated }}">
     <a href="{{ post.url }}">
       <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
@@ -20,6 +22,6 @@
   </li>
   {% endif %}{% endfor %}
   {% else %}
-  <li class="list-group-item post-item">No posts available. </li>
+  <li class="list-group-item post-item">No {{ type }} available. </li>
   {% endif %}
 </ul>
