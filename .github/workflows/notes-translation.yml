@@ -2,8 +2,8 @@ name: Transate notes
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 1 * * 1'  # 09:00 Monday CST (UTC+8)
+  # schedule:
+  #   - cron: '0 1 * * 1'  # 09:00 Monday CST (UTC+8)
 
 jobs:
   translate:
