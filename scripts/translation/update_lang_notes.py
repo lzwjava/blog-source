@@ -111,61 +111,18 @@ def get_changed_files(commits=10):
             continue
 
         try:
-            with open(input_file, "r", encoding="utf-8") as infile:
-                content = infile.read()
-            if not content.lstrip().startswith("---"):
-                raise Exception(f"No front matter found in markdown file: {input_file}")
-            front_matter_dict, content_without_front_matter = frontmatter.parse(content)
-            front_matter_dict = front_matter_dict or {}
-            original_title = front_matter_dict.get("title", "")
-            print(
-                f"  Original language (from filename): {orig_lang}, Title: {original_title}"
-            )
-
-            output_dir = f"_notes/{orig_lang}"
-            output_filename = filename
-            output_file = os.path.join(output_dir, output_filename)
-            print(f"  Checking original output file: {output_file}")
-
-            needs_retranslate_all = True  # Default to True if file doesn't exist
-            if os.path.exists(output_file):
-                with open(output_file, "r", encoding="utf-8") as translated_infile:
-                    translated_content = translated_infile.read()
-                (
-                    translated_front_matter_dict,
-                    translated_content_without_front_matter,
-                ) = frontmatter.parse(translated_content)
-                translated_front_matter_dict = translated_front_matter_dict or {}
-                translated_title = translated_front_matter_dict.get("title", "")
-                print(f"  Translated title: {translated_title}")
-                if (
-                    translated_title == original_title
-                    and translated_content_without_front_matter.strip()
-                    == content_without_front_matter.strip()
-                ):
-                    needs_retranslate_all = False
-                else:
-                    print(
-                        f"  File {input_file} needs update due to content change in original lang {orig_lang}"
-                    )
-            else:
-                print(f"  Original output file does not exist: {output_file}")
-
-            if needs_retranslate_all:
-                # Add all target language files for retranslation
-                for target_lang in languages:
+            # Since notes content is read-only and fixed, we don't need to compare content
+            # Just check if translated files exist and add missing ones
+            for target_lang in languages:
+                target_dir = f"_posts/{target_lang}"
+                target_filename = get_output_filename(filename, target_lang)
+                target_file = os.path.join(target_dir, target_filename)
+                if not os.path.exists(target_file):
                     changed_files.add((input_file, target_lang))
-                    print(f"  Added {input_file} for {target_lang} translation due to changes")
-            else:
-                # Only add missing translations
-                for target_lang in languages:
-                    target_dir = f"_posts/{target_lang}"
-                    target_filename = get_output_filename(filename, target_lang)
-                    target_file = os.path.join(target_dir, target_filename)
-                    if not os.path.exists(target_file):
-                        changed_files.add((input_file, target_lang))
-                        print(f"  Added {input_file} for {target_lang} - missing translation")
-                        
+                    print(f"  Added {input_file} for {target_lang} - missing translation")
+                else:
+                    print(f"  Translation already exists for {input_file} in {target_lang}")
+
         except Exception as e:
             print(f"Error processing file {input_file}: {e}")
             
