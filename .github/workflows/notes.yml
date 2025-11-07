@@ -35,8 +35,8 @@ jobs:
         run: |
           python scripts/translation/update_lang_notes.py --n ${{ inputs.n }}
         env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENROUTER_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
       - name: Commit and push translated posts
         run: |
