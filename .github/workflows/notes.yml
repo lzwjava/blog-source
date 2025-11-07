@@ -34,11 +34,12 @@ jobs:
       - name: Translate posts
         run: |
           python scripts/translation/update_lang_notes.py --n ${{ inputs.n }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:        
           OPENROUTER_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
-      - name: Commit and push translated posts
+      - name: Commit and push translated notes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
