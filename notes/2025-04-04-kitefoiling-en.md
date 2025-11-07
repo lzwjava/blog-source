@@ -1,10 +1,10 @@
 ---
-title: How to Kitefoil
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: How to Kitefoil
 translated: false
-generated: true
 ---
 
 Since you asked about "how to do kitefoiling" after mentioning Max Maeder, a kitefoiling champion, I’ll provide a detailed beginner’s guide to learning this sport. Kitefoiling (also called kiteboard foiling or wing foiling in some contexts) combines kiteboarding and hydrofoiling, where you ride a board equipped with a hydrofoil wing that lifts it above the water, controlled by an inflatable kite. It’s fast, technical, and thrilling—Max Maeder’s dominance at age 18 shows its potential for mastery with practice. Here’s how to get started.

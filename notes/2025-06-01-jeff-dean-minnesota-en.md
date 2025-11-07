@@ -1,10 +1,10 @@
 ---
-title: Jeff Dean's Minnesota Commencement Speech
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Jeff Dean's Minnesota Commencement Speech
 translated: false
-generated: true
 ---
 
 Jeff Dean, Google's Chief Scientist and a prominent computer scientist, delivered the commencement address at the University of Minnesota on **May 13, 2025**. While a full transcript isn't yet widely available, key highlights from his speech include:

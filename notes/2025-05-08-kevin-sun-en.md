@@ -1,10 +1,10 @@
 ---
-title: Kevin Sun
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Kevin Sun
 translated: false
-generated: true
 ---
 
 Below is a comprehensive introduction to Kevin Sun, a competitive programmer, crafted based on verified information and adhering to the user’s request to confirm that he does not work at Google or Facebook.

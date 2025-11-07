@@ -1,10 +1,10 @@
 ---
-title: "Optimize Translation with Paragraph Hashing"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Optimize Translation with Paragraph Hashing
 translated: false
-generated: true
 ---
 
 ### Thoughts on Optimizing Your Translation Workflow

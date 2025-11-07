@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Linear Algebra Quiz - Conversation"
 audio: true
+layout: post
+title: Linear Algebra Quiz - Conversation
 ---
 
 A: Hey B, I've been putting together some basic Linear Algebra quizzes for someone just starting out. I wanted to run a few of the question types by you to see if they seem appropriate and cover the fundamental concepts well.
@@ -223,4 +223,3 @@ B: Exactly. You could even have a conceptual question comparing the storage requ
 A: These discussions have been so valuable, B. I feel like I have a much clearer roadmap for expanding these Linear Algebra quizzes to cover more advanced and contemporary topics. Thanks again for sharing your expertise!
 
 B: You're very welcome, A! It's been a stimulating conversation. Linear Algebra is a constantly evolving field, and keeping the curriculum and assessments up-to-date with its advancements and applications is essential. Good luck with developing these new quizzes!
-

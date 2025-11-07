@@ -1,13 +1,13 @@
 ---
-title: API Test Uniqueness and Idempotency Strategy
-date: 2025-09-10
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-10
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: API Test Uniqueness and Idempotency Strategy
+translated: false
 ---
 
 Great question. Let’s zoom out, then get practical about “uniqueness” in API/integration tests.

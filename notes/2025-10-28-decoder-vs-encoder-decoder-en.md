@@ -1,12 +1,12 @@
 ---
-title: Decoder-Only vs Encoder-Decoder Transformers
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Decoder-Only vs Encoder-Decoder Transformers
+translated: false
 ---
 
 ### Key Differences Between Decoder-Only and Encoder-Decoder Transformers

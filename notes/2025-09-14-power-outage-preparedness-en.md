@@ -1,12 +1,12 @@
 ---
-title: Power Outage Preparedness Lessons and Improvements
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Power Outage Preparedness Lessons and Improvements
+translated: false
 ---
 
 Your experience highlights several valuable lessons for handling future power outages, especially in hot weather. Here’s a structured breakdown of insights and actionable improvements:

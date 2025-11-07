@@ -1,12 +1,12 @@
 ---
-title: The Psychology of Envy
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: The Psychology of Envy
+translated: false
 ---
 
 ### Why Do People So Easily Become Envious?

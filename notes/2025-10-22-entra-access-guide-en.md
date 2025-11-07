@@ -1,12 +1,12 @@
 ---
-title: Microsoft Entra ID Access Management Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Microsoft Entra ID Access Management Guide
+translated: false
 ---
 
 Microsoft Entra ID is a cloud-based identity and access management service that helps secure access to resources like applications, data, and devices. It supports authentication (e.g., sign-in methods, MFA), authorization (e.g., role-based access), and integration with Azure services. To get started, you'll need an Azure subscription and appropriate permissions (e.g., Global Administrator role).

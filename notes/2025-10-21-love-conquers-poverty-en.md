@@ -1,12 +1,12 @@
 ---
-title: Love Endures Despite Poverty
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Love Endures Despite Poverty
+translated: false
 ---
 
 No, that's an oversimplification—and honestly, a harmful stereotype. The idea that poor families lack love (or money, obviously) ignores how resilient human bonds can be, even under crushing pressure. Sure, financial hardship piles on stress that can fray relationships, making arguments more frequent or emotional availability scarcer. Studies show poverty often amps up parental stress, leading to shorter fuses or less quality time with kids, which might *feel* like less love in the moment. But it doesn't erase affection; it just tests it harder. In fact, many low-income families report deeper emotional ties precisely *because* they've weathered storms together—think shared sacrifices, like a parent skipping meals so the kids eat, or siblings banding tight against the world.

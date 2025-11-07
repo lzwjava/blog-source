@@ -1,10 +1,10 @@
 ---
-title: "Book Summary: Steve Jobs by Walter Isaacson"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Book Summary: Steve Jobs by Walter Isaacson'
 translated: false
-generated: true
 ---
 
 Sure! Here's a **comprehensive summary** of *Steve Jobs* by Walter Isaacson — a detailed biography of one of the most iconic figures in modern technology and design. The book is based on more than 40 interviews with Jobs over two years, as well as interviews with over a hundred family members, friends, adversaries, competitors, and colleagues.

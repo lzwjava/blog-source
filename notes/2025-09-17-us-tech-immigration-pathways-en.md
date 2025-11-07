@@ -1,12 +1,12 @@
 ---
-title: US Immigration Pathways for Tech Professionals
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: US Immigration Pathways for Tech Professionals
+translated: false
 ---
 
 ### Quick Assessment of Your Profile for U.S. Entry/Immigration

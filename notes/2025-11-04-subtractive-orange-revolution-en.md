@@ -1,12 +1,12 @@
 ---
-title: Subtractive Orange Revolution
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Subtractive Orange Revolution
+translated: false
 ---
 
 ### The Story of Chu Shijian's "Subtractive" Orange Revolution: Spacing Trees for Sunlight and Survival

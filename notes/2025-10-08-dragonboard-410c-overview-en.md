@@ -1,12 +1,12 @@
 ---
-title: DragonBoard 410c Compact Computer Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: DragonBoard 410c Compact Computer Overview
+translated: false
 ---
 
 The Snapdragon 410 board typically refers to the DragonBoard 410c, a compact single-board computer (SBC) developed by Qualcomm as a reference platform for IoT, embedded systems, and prototyping. Released around 2015, it's part of the 96Boards ecosystem and measures about the size of a credit card. Key specs include:

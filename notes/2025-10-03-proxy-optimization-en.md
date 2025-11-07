@@ -1,12 +1,12 @@
 ---
-title: Optimizing Clash Proxy Selection Performance
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Optimizing Clash Proxy Selection Performance
+translated: false
 ---
 
 ### Summary of Optimization: Clash Proxy Selection Scripts

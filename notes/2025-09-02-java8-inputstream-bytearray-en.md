@@ -1,11 +1,11 @@
 ---
-title: Java 8 InputStream to Byte Array
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Java 8 InputStream to Byte Array
+translated: false
 ---
 
 Good catch 👍 — in **Java 8** `InputStream.readAllBytes()` does not exist (that was added in Java 9).

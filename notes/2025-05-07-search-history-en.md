@@ -1,10 +1,10 @@
 ---
-title: Search History Analysis
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Search History Analysis
 translated: false
-generated: true
 ---
 
 Based on your search history over the past year, you have a wide range of interests. Some of the prominent areas include:

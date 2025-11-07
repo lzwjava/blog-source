@@ -1,10 +1,10 @@
 ---
-title: "Olivier Danvy: Programming Languages Pioneer"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Olivier Danvy: Programming Languages Pioneer'
 translated: false
-generated: true
 ---
 
 Olivier Danvy is a highly distinguished computer scientist known for his work in programming languages, particularly in the areas of partial evaluation and continuations. He is a French national and currently holds a professorship at Yale-NUS College in Singapore. He also has affiliations with the School of Computing at the National University of Singapore.

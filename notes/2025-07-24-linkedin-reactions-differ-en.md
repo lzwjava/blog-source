@@ -1,10 +1,10 @@
 ---
-title: LinkedIn's Reactions to Job Changes
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: LinkedIn's Reactions to Job Changes
 translated: false
-generated: true
 ---
 
 Yes, this is a common observation on LinkedIn and in professional networking circles. When someone announces joining a big company (especially in a senior role like tech lead or manager), their post often gets flooded with likes, comments, and congratulations. It's celebratory, visible, and aligns with the platform's vibe of success and upward mobility. In contrast, posts about leaving a company—whether voluntarily or due to layoffs—tend to receive far fewer engagements. People might view, but they hesitate to interact publicly. This disparity can indeed highlight how many corporate relationships feel superficial or transactional, though it's not always the case. Let me break it down.

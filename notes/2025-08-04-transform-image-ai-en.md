@@ -1,11 +1,11 @@
 ---
-title: "Transform Image with AI Prompt"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Transform Image with AI Prompt
+translated: false
 ---
 
 As of August 2025, OpenAI's DALL-E models, particularly the newer "GPT Image" models (like `gpt-image-1`), have evolved to support more sophisticated image manipulation, including "image-to-image" transformations. While DALL-E 2 had a specific "variations" endpoint for this, the newer models integrate this functionality through a combination of image inputs and detailed text prompts.

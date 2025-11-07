@@ -1,10 +1,10 @@
 ---
-title: Linear Transformations - Gemini
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Linear Transformations - Gemini
 translated: false
-generated: true
 ---
 
 Okay, let's dive into a detailed tutorial on linear transformations, covering the definition, examples, matrix representation, kernel, image, and properties like injectivity and surjectivity. This is a fundamental topic in linear algebra.

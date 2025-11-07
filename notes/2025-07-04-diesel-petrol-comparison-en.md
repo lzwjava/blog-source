@@ -1,12 +1,12 @@
 ---
-title: Diesel vs. Petrol Car Comparison
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Diesel vs. Petrol Car Comparison
+translated: false
 ---
 
 Sure! Here’s a clear comparison between **diesel** and **petrol (gasoline)** cars:

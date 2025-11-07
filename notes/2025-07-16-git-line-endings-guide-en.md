@@ -1,11 +1,11 @@
 ---
-title: Git Line Ending Control Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Git Line Ending Control Guide
+translated: false
 ---
 
 `git config core.autocrlf` controls how Git handles line endings when you check files out of the repository and when you commit them back in. It matters because Windows uses **CRLF** (`\r\n`) for line endings, while Linux and macOS use **LF** (`\n`). Without handling, files may flip between formats depending on who edits them, leading to “dirty” diffs and unnecessary changes.

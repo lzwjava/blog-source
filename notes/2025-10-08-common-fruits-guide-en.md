@@ -1,12 +1,12 @@
 ---
-title: Guide to Common Fruits
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Guide to Common Fruits
+translated: false
 ---
 
 Fruits are a cornerstone of a healthy diet, offering essential vitamins, minerals, fiber, and antioxidants that support overall well-being. Incorporating them daily can help lower blood pressure, reduce risks of heart disease, stroke, certain cancers, eye and digestive issues, and even aid in blood sugar control and weight management. They add natural sweetness, variety, and hydration to meals without excess calories.

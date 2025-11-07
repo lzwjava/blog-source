@@ -1,10 +1,10 @@
 ---
-title: Trade in Chaoshan Region
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Trade in Chaoshan Region
 translated: false
-generated: true
 ---
 
 Between 1840 and 1940, the Chaoshan region, with Shantou as its key port after 1860, experienced significant shifts in its trading activities due to the opening of treaty ports and increasing global interactions. Here's a breakdown of the trading, import, and export landscape:

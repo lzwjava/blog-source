@@ -1,10 +1,10 @@
 ---
-title: "AshbyHQ: Streamlining Modern Recruitment"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'AshbyHQ: Streamlining Modern Recruitment'
 translated: false
-generated: true
 ---
 
 AshbyHQ, founded in 2018 by Benjamin Encz and Abhik Pramanik, is a San Francisco-based software company specializing in all-in-one recruiting software designed to empower hiring excellence for high-growth startups and enterprises. With a team of 51-200 employees, Ashby provides a comprehensive platform that streamlines the entire recruitment process, from sourcing to offer, with advanced analytics and automation. Trusted by over 500 companies, including Opendoor, Reddit, Notion, Deel, and Modern Treasury, Ashby is backed by venture capital from firms like F-Prime Capital and Y Combinator. The company focuses on delivering a fast, efficient, and scalable hiring process, integrating tools for applicant tracking (ATS), analytics, scheduling, and customer relationship management (CRM).

@@ -1,12 +1,12 @@
 ---
-title: Musk's Decade of Resilience and Reinvention
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Musk's Decade of Resilience and Reinvention
+translated: false
 ---
 
 Elon Musk has shared stories about his early years transitioning from South Africa to North America, framing that roughly 10-year grind as a pivotal period for overcoming deep-seated feelings of inferiority, sensitivity to criticism, and outsider status. In a 2022 interview on the Lex Fridman Podcast (and echoed in various X posts and talks since), he described arriving in Canada at age 17 in 1989 with minimal resources—just a backpack and about $2,000—after a rough childhood marked by bullying, family dysfunction, and self-doubt in Pretoria.

@@ -1,10 +1,10 @@
 ---
-title: Preventing Sauce Burning
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Preventing Sauce Burning
 translated: false
-generated: true
 ---
 
 Sauces are prone to burning in an air fryer because of the appliance's **intense, direct heat** and **rapid air circulation**, which can quickly dry out or caramelize sugars and fats in the sauce. Here’s why this happens and how to prevent it:

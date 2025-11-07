@@ -1,12 +1,12 @@
 ---
-title: The 48 Laws of Power Summary
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: The 48 Laws of Power Summary
+translated: false
 ---
 
 ### The 48 Laws of Power by Robert Greene

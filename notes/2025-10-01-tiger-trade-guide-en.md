@@ -1,12 +1,12 @@
 ---
-title: Tiger Trade App Buy Sell Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Tiger Trade App Buy Sell Guide
+translated: false
 ---
 
 ### How to Show Buy/Sell in Tiger Trade Global Mobile App

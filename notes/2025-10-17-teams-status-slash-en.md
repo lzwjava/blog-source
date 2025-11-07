@@ -1,12 +1,12 @@
 ---
-title: Set Microsoft Teams Status via Slash Commands
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Set Microsoft Teams Status via Slash Commands
+translated: false
 ---
 
 ### Using Slash Commands to Set Status in Microsoft Teams

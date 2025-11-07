@@ -1,10 +1,10 @@
 ---
-title: "Fix Missing Japanese Font Glyphs"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fix Missing Japanese Font Glyphs
 translated: false
-generated: true
 ---
 
 The errors you're encountering indicate that the font `FandolSong` (both Regular and Bold variants) used in your LaTeX document does not contain the necessary glyphs for certain Japanese characters, such as `ー` (U+30FC, Katakana-Hiragana Prolonged Sound Mark), `専` (U+5C02), `証` (U+8A3C), and `発` (U+767A). This is causing XeLaTeX to report "Missing character" errors when compiling your document, likely `resume-ja.tex` or a related file in `latex/ja/resume-ja/`.

@@ -1,11 +1,11 @@
 ---
-title: WhatsApp Tick Marks Explained Simply
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: WhatsApp Tick Marks Explained Simply
+translated: false
 ---
 
 Yes, you’ve got it mostly right — WhatsApp’s tick marks work like this:

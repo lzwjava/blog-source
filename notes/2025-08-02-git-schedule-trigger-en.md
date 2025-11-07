@@ -1,11 +1,11 @@
 ---
-title: GitHub Actions Schedule Misalignment
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: GitHub Actions Schedule Misalignment
+translated: false
 ---
 
 This is a Git-style (e.g. GitHub Actions) scheduled trigger. Let’s break it down:

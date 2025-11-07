@@ -1,12 +1,12 @@
 ---
-title: Adjugate Definition and Cofactor Relation
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Adjugate Definition and Cofactor Relation
+translated: false
 ---
 
 ### Clarifying the Definition of the Adjugate (and Its Relation to Cofactors)

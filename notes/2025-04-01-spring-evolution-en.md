@@ -1,10 +1,10 @@
 ---
-title: Spring Framework Evolution
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Spring Framework Evolution
 translated: false
-generated: true
 ---
 
 Spring Framework and Spring Boot have evolved significantly since their inception. Here’s a historical overview of their evolution, major updates, and how they have shaped modern Java development.

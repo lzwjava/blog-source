@@ -1,12 +1,12 @@
 ---
-title: SQL Server vs. MySQL 2025 Comparison
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: SQL Server vs. MySQL 2025 Comparison
+translated: false
 ---
 
 ### SQL Server vs. MySQL: A 2025 Comparison

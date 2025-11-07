@@ -1,10 +1,10 @@
 ---
-title: "PingCAP and Cloudflare Praise Go"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: PingCAP and Cloudflare Praise Go
 translated: false
-generated: true
 ---
 
 Neither PingCAP nor Cloudflare has expressed "regret" about using Go. In fact, both companies have publicly praised Go for its strengths and continue to use it extensively in their core products. However, they are also pragmatic about language choices and use other languages where they are a better fit for specific problems.

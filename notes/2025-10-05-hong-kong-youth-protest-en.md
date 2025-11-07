@@ -1,12 +1,12 @@
 ---
-title: Hong Kong Youth Protest Criticism
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hong Kong Youth Protest Criticism
+translated: false
 ---
 
 Yes, there has been notable criticism in Hong Kong from pro-establishment voices, parents, and some media outlets toward Joshua Wong and other student activists for prioritizing protests over education and personal development. This sentiment often frames young protesters as "waste youth" (廢青, or unmotivated slackers) who are wasting their time on politics instead of focusing on studies, career preparation, or practical skills like STEM fields. However, it's worth noting that this criticism comes mainly from one side of Hong Kong's deep political divide—pro-Beijing or conservative groups—while pro-democracy supporters view Wong as a courageous leader who sacrificed his youth for greater freedoms.

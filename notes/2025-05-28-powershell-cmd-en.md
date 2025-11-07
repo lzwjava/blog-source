@@ -1,10 +1,10 @@
 ---
-title: PowerShell vs Command Prompt
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: PowerShell vs Command Prompt
 translated: false
-generated: true
 ---
 
 PowerShell and Command Prompt (cmd.exe) are both command-line interfaces used in Windows environments, but they have distinct differences in terms of functionality, scripting capabilities, and overall power. Here's a comparison:

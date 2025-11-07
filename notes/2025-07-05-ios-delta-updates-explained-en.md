@@ -1,10 +1,10 @@
 ---
-title: "iOS Delta Updates Explained"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: iOS Delta Updates Explained
 translated: false
-generated: true
 ---
 
 You're correct that iOS app updates don't always require downloading the full app package. Since iOS 6, Apple has supported **delta updates** for apps, meaning only the changed files (patches) are downloaded rather than the entire app, significantly reducing download sizes in many cases. This is especially true for apps where only small portions, like code or specific assets, have changed. However, the actual size of an update depends on what’s changed, and sometimes updates can still be large if major assets or codebases are modified.[](https://apple.stackexchange.com/questions/375631/does-ios-download-only-changes-or-whole-app-when-updating-an-app)[](https://stackoverflow.com/questions/8052210/ios-application-updating-is-it-possible-to-do-partial-update-of-app)

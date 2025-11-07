@@ -1,10 +1,10 @@
 ---
-title: "Ubuntu's Mouse Battery Management"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Ubuntu's Mouse Battery Management
 translated: false
-generated: true
 ---
 
 Ubuntu has several built-in features that help manage mouse power and provide low battery notifications:

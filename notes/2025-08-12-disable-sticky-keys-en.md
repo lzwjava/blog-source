@@ -1,12 +1,12 @@
 ---
-title: Disable Sticky Keys on Windows
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Disable Sticky Keys on Windows
+translated: false
 ---
 
 ### Using the Settings App (Windows 10 & 11)

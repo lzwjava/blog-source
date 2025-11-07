@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Authentication and Authorization in Java
 translated: false
-generated: true
 ---
 
 To use the `javax.security.auth` package in Java, you need to understand that it is part of the Java Authentication and Authorization Service (JAAS) framework. This package provides classes and interfaces for authenticating users (verifying who they are) and authorizing them (determining what they can do). Below is a step-by-step guide to using `javax.security.auth` for a basic authentication scenario, such as authenticating a user with a username and password.

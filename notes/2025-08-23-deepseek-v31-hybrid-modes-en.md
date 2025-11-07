@@ -1,11 +1,11 @@
 ---
-title: DeepSeek V3.1 Hybrid Modes Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: DeepSeek V3.1 Hybrid Modes Explained
+translated: false
 ---
 
 Here’s how the **DeepSeek V3.1 API** handles its new hybrid inference architecture (“Think” vs “Non‑Think” modes):

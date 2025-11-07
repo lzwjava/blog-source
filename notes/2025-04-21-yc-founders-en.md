@@ -1,10 +1,10 @@
 ---
-title: 50 Notable Founders from Y Combinator 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 50 Notable Founders from Y Combinator
 translated: false
-generated: true
 ---
 
 Below is a list of 50 notable founders from Y Combinator (YC) startups, focusing on those who have driven significant impact through their companies, building on the context of your previous questions about YC successes and founders. The list includes founders from well-known unicorns, high-valuation startups, and other influential ventures across various YC batches, emphasizing their contributions and the startups they built. Where relevant, I’ve included details about their startups’ valuations, industries, or achievements based on available data. The list is concise to meet the request for brevity while covering a broad range of founders and sectors.

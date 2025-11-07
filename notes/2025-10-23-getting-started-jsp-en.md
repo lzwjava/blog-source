@@ -1,12 +1,12 @@
 ---
-title: Getting Started with JSP
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Getting Started with JSP
+translated: false
 ---
 
 JavaServer Pages (JSP) is a server-side technology used to create dynamic web content in Java applications. It allows you to embed Java code directly into HTML pages, making it easier to generate dynamic responses based on user input or data. JSP is part of the Jakarta EE (formerly Java EE) platform and works well with servlets in web applications.

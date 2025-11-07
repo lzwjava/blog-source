@@ -1,11 +1,11 @@
 ---
-title: VPN on iPhone, Not on Hotspot
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: VPN on iPhone, Not on Hotspot
+translated: false
 ---
 
 Yes, it's generally okay to use your iPhone 14 Pro Max on 5G cellular data with a VPN app like Shadowrocket enabled while sharing a personal hotspot to your Mac laptop. There's typically no inherent conflict in this setup, as iOS is designed to handle both features simultaneously without disabling one or the other.

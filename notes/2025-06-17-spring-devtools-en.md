@@ -1,10 +1,10 @@
 ---
-title: Spring Boot DevTools for Auto-Restart
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Spring Boot DevTools for Auto-Restart
 translated: false
-generated: true
 ---
 
 When you run a Spring Boot application using `mvn spring-boot:run`, file watchers and auto-restart or hot-reload capabilities are not enabled by default. However, you can enable them by adding the `spring-boot-devtools` dependency to your project. This module provides features like automatic restarts and LiveReload for faster development.

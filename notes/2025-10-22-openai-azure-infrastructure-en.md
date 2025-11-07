@@ -1,12 +1,12 @@
 ---
-title: OpenAI Infrastructure and Azure Reliance
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: OpenAI Infrastructure and Azure Reliance
+translated: false
 ---
 
 ### OpenAI's Tech Stack Overview

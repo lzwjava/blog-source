@@ -1,10 +1,10 @@
 ---
-title: Triggering GitHub Actions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Triggering GitHub Actions
 translated: false
-generated: true
 ---
 
 Yes, a GitHub Action can trigger another GitHub Action, though not directly. GitHub Actions workflows are typically triggered by specific events like pushes, pull requests, or schedules, but there are several indirect methods to make one workflow trigger another. Below are the primary ways this can be achieved:

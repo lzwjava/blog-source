@@ -1,10 +1,10 @@
 ---
-title: Top 30 Chinese Songs
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Top 30 Chinese Songs
 translated: false
-generated: true
 ---
 
 Here's the list of 30 Chinese songs, translated into English, while keeping the title in Chinese:

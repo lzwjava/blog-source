@@ -1,10 +1,10 @@
 ---
-title: "Understanding PTSD Symptoms and Treatment"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Understanding PTSD Symptoms and Treatment
 translated: false
-generated: true
 ---
 
 Post-traumatic stress disorder (PTSD) is a mental health condition that can develop after a person experiences or witnesses a terrifying, stressful, or distressing event. While it's normal to have upsetting thoughts and feelings after a traumatic event, most people recover naturally within a few weeks. However, for some, these feelings persist and become severe enough to interfere with daily life, leading to a PTSD diagnosis.

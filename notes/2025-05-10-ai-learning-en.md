@@ -1,10 +1,10 @@
 ---
-title: AI-Powered Personalized Learning
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AI-Powered Personalized Learning
 translated: false
-generated: true
 ---
 
 If every student were taught by AI in the future, the education system would undergo a radical transformation, leveraging advanced AI technologies, infrastructure, and new pedagogical frameworks. Here's how this could unfold, considering logistics, technology, and societal implications:

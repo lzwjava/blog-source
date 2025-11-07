@@ -1,10 +1,10 @@
 ---
-title: "Microcomputer and Interface Technology: Labs and Practical Sessions"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Microcomputer and Interface Technology: Labs and Practical Sessions'
 translated: false
-generated: true
 ---
 
 Here's a comprehensive guide on the **Labs and Practical Sessions** section for the **Microcomputer and Interface Technology** course, focusing on the basic and comprehensive labs mentioned in your outline:

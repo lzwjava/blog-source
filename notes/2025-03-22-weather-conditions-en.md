@@ -1,10 +1,10 @@
 ---
-title: Complete Weather Conditions in iOS Shortcuts
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Complete Weather Conditions in iOS Shortcuts
 translated: false
-generated: true
 ---
 
 Here's a comprehensive breakdown of all weather condition value ranges available in iOS Shortcuts:

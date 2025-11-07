@@ -1,12 +1,12 @@
 ---
-title: Mainland Driving Licenses in Hong Kong
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Mainland Driving Licenses in Hong Kong
+translated: false
 ---
 
 Mainland driving licenses cannot be used directly in Hong Kong. According to Hong Kong's legal regulations, driving licenses held by mainland residents from China are not recognized as valid driving documents in Hong Kong. If you want to drive in Hong Kong, you must hold a valid Hong Kong driving license or an International Driving Permit (IDP), and comply with Hong Kong's driving regulations.

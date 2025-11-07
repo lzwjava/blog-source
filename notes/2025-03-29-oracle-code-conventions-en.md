@@ -1,10 +1,10 @@
 ---
-title: Oracle's Code Conventions for the Java Programming Language
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Oracle's Code Conventions for the Java Programming Language
 translated: false
-generated: true
 ---
 
 ## 1. File Organization

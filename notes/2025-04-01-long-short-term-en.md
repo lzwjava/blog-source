@@ -1,10 +1,10 @@
 ---
-title: Long Short-Term Memory Networks
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Long Short-Term Memory Networks
 translated: false
-generated: true
 ---
 
 Long Short-Term Memory (LSTM) networks are a type of recurrent neural network architecture specifically designed to address the vanishing gradient problem and enable the learning of long-term dependencies in sequential data. They achieve this through a more sophisticated internal structure called an **LSTM cell**.

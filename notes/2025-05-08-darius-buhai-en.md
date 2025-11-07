@@ -1,10 +1,10 @@
 ---
-title: Rareș Darius Buhai
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rareș Darius Buhai
 translated: false
-generated: true
 ---
 
 Rareș Darius Buhai is a highly accomplished Romanian computer scientist, competitive programmer, and researcher, widely recognized for his extraordinary achievements in international programming competitions and his contributions to theoretical computer science and machine learning. Born in Bistrița, Romania, Buhai rose to prominence through his exceptional performance at the International Olympiad in Informatics (IOI), where he secured four consecutive gold medals from 2012 to 2015, a feat that placed him second in the IOI Hall of Fame, surpassed only by Belarusian programmer Gennady Korotkevich. His competitive programming career, combined with his academic pursuits at prestigious institutions like MIT and ETH Zurich, has established him as a leading figure in the global programming and research communities.

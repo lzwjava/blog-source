@@ -1,12 +1,12 @@
 ---
-title: MongoDB's Flexibility for LibreChat
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: MongoDB's Flexibility for LibreChat
+translated: false
 ---
 
 LibreChat, an open-source AI chatbot interface, defaults to MongoDB as its database primarily due to the flexibility of NoSQL databases like MongoDB. Unlike relational databases such as MySQL or PostgreSQL, which enforce fixed schemas and structured tables, MongoDB uses a document-based model that doesn't require predefined schemas. This makes it easier to handle evolving data structures—especially in a rapidly changing AI ecosystem where new models, conversation formats, and features are frequently added without needing extensive database migrations.

@@ -1,10 +1,10 @@
 ---
-title: Determinants
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Determinants
 translated: false
-generated: true
 ---
 
 Got it! Here's the tutorial with only display math (block equations).  

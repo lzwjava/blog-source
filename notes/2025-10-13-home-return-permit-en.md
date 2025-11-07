@@ -1,12 +1,12 @@
 ---
-title: Home Return Permit for Hong Kong
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Home Return Permit for Hong Kong
+translated: false
 ---
 
 ### What is the Home Return Permit?

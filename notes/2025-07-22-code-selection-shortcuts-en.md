@@ -1,10 +1,10 @@
 ---
-title: "Quick Code Selection & AI Editing"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Quick Code Selection & AI Editing
 translated: false
-generated: true
 ---
 
 Below is an overview of how to quickly select a function or method using shortcuts in **Visual Studio Code (VS Code)**, **Cursor**, and **IntelliJ IDEA**, followed by leveraging their AI features to fix or edit the selected code.

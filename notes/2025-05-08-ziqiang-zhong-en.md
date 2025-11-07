@@ -1,10 +1,10 @@
 ---
-title: Ziqian Zhong
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Ziqian Zhong
 translated: false
-generated: true
 ---
 
 Ziqian Zhong is a highly accomplished competitive programmer, academic, and researcher with a distinguished track record in international programming competitions and significant contributions to computer science. Known for his problem-solving prowess and analytical skills, Zhong has made a name for himself in the competitive programming community while pursuing advanced studies in computer science and artificial intelligence. Below is a comprehensive introduction to Ziqian Zhong, focusing on his competitive programming achievements, academic background, and broader contributions.

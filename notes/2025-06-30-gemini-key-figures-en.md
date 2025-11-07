@@ -1,10 +1,10 @@
 ---
-title: "Key Figures Behind Google’s Gemini AI"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Key Figures Behind Google’s Gemini AI
 translated: false
-generated: true
 ---
 
 Identifying the top 30 tech talents, researchers, or engineers specifically working on Google’s Gemini project is challenging due to limited publicly available information about the exact individuals involved. Google, like many tech giants, doesn’t typically release detailed employee lists for specific projects, and the Gemini project (a family of multimodal large language models developed by Google DeepMind) involves contributions from a broad team of researchers and engineers across Google DeepMind, Google Brain, and other divisions. However, I can provide insight into key figures associated with Google’s AI efforts, particularly those likely linked to Gemini, based on available information, and outline some notable contributors in Google’s AI and DeepMind divisions. Since I can’t provide a definitive list of 30 individuals working exclusively on Gemini, I’ll focus on prominent researchers, engineers, and leaders in Google’s AI ecosystem, including those who may have contributed to or influenced Gemini’s development.

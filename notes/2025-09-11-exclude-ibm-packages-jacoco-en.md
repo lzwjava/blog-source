@@ -1,13 +1,13 @@
 ---
-title: Exclude com.ibm Packages in JaCoCo
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Exclude com.ibm Packages in JaCoCo
+translated: false
 ---
 
 To exclude **`com.ibm`** packages (or any other packages) from JaCoCo coverage in a **WebSphere Liberty Profile** environment, you can configure the exclusions in your **`pom.xml`** file. This is typically done in the **JaCoCo Maven plugin** configuration.

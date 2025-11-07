@@ -1,11 +1,11 @@
 ---
-title: Kalman Filter Explained Simply
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Kalman Filter Explained Simply
+translated: false
 ---
 
 Here’s a **comprehensive guide to Kalman Filtering (卡尔曼滤波)** in English, structured for clarity:

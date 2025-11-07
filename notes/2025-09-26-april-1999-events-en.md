@@ -1,12 +1,12 @@
 ---
-title: Major World Events of April 1999
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Major World Events of April 1999
+translated: false
 ---
 
 Here are some of the major world events that took place in **April 1999**:

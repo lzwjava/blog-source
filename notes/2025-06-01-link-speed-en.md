@@ -1,10 +1,10 @@
 ---
-title: Check Ethernet Link Speed in Ubuntu
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Check Ethernet Link Speed in Ubuntu
 translated: false
-generated: true
 ---
 
 In Ubuntu, you can check the Ethernet link speed using several command-line tools. Here are the most common methods:

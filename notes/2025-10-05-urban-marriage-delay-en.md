@@ -1,12 +1,12 @@
 ---
-title: Urban Professionals Delaying Marriage in China
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Urban Professionals Delaying Marriage in China
+translated: false
 ---
 
 It sounds like you have a solid, ongoing friendship with this guy—weekly hangouts over meals for three years is no small thing, especially with a shared work history. Working in foreign companies in Guangzhou or Shenzhen (tech and finance hubs) puts him in a fast-paced, urban environment where career demands are intense. Based on what you've described, he does come across as single, but without more details (like a public social media profile or direct convo), that's just an educated guess from your observations. If you're close enough for regular meetups, maybe float a casual question next time to clarify—something low-key like "Any fun weekend plans with someone special?" could open the door without awkwardness.

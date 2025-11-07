@@ -1,10 +1,10 @@
 ---
-title: Linear Algebra Questions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Linear Algebra Questions
 translated: false
-generated: true
 ---
 
 Okay, I will translate and answer the questions from the image.

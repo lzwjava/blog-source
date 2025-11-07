@@ -1,10 +1,10 @@
 ---
-title: "Install VLC Media Player on Ubuntu"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Install VLC Media Player on Ubuntu
 translated: false
-generated: true
 ---
 
 To install VLC media player on your Ubuntu system, you can use either the terminal (command line) or the Ubuntu Software Center (graphical interface). Below are detailed instructions for both methods.
@@ -174,4 +174,3 @@ If the issue still isn’t resolved, try these extra steps:
 ---
 
 By following these steps, you should be able to fix the missing decoder errors and play your MKV files in VLC successfully. Start with Step 1, as it’s the most straightforward and likely solution.
-

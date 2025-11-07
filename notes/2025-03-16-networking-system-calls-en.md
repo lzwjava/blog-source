@@ -1,10 +1,10 @@
 ---
-title: Networking System Calls
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Networking System Calls
 translated: false
-generated: true
 ---
 
 In operating systems like Linux/Unix, the lowest-level system calls for networking, particularly for establishing a TCP connection, come from the Berkeley Sockets API (often just called "sockets"). These system calls interact directly with the kernel's networking stack. The most fundamental ones for TCP connections are:

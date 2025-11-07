@@ -1,10 +1,10 @@
 ---
-title: "Quiz: Fundamentals of Electronic Technology (III)"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Quiz: Fundamentals of Electronic Technology (III)'
 translated: false
-generated: true
 ---
 
 **Part I: Analog Electronics**
@@ -119,4 +119,3 @@ This quiz covers key concepts from both analog and digital sections of the outli
 [^19]: https://instrumentationtools.com/analog-electronics-objective-questions-set-5/
 
 [^20]: https://quizgecko.com/learn/digital-electronics-principles-and-applications-quiz-vzdvxh
-

@@ -1,12 +1,12 @@
 ---
-title: Multi-Laptop Benefits for Focus
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Multi-Laptop Benefits for Focus
+translated: false
 ---
 
 Exactly — that’s one of the underrated benefits of going **multi-laptop** instead of just piling everything into one machine.

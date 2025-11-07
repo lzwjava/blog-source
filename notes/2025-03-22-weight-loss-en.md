@@ -1,10 +1,10 @@
 ---
-title: A Comprehensive Strategy for Healthy and Sustainable Weight Loss
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: A Comprehensive Strategy for Healthy and Sustainable Weight Loss
 translated: false
-generated: true
 ---
 
 **1\. Introduction: Your Personalized Guide to Healthy Weight Loss**

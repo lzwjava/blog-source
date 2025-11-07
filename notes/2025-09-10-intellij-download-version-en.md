@@ -1,13 +1,13 @@
 ---
-title: Choose Correct IntelliJ IDEA Download Version
-date: 2025-09-10
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-10
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Choose Correct IntelliJ IDEA Download Version
+translated: false
 ---
 
 From your `uname -a` output:

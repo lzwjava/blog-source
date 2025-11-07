@@ -1,10 +1,10 @@
 ---
-title: Introduction to Law - Chapters 2
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Introduction to Law - Chapters 2
 translated: false
-generated: true
 ---
 
 Okay, let's create a tutorial outline based on the chapters you've provided. This will be a high-level overview of each area, highlighting key concepts relevant to studying law, particularly within the context of the Chinese legal system where specified.

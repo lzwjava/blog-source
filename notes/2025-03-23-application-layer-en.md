@@ -1,10 +1,10 @@
 ---
-title: Application Layer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Application Layer
 translated: false
-generated: true
 ---
 
 Below is a detailed tutorial designed to help you learn the "Application Layer" chapter of a Computer Networks Technology course. This tutorial covers the key concepts you’ve outlined—common protocols (HTTP, FTP, SMTP, DNS, SNMP), client-server and peer-to-peer models, network services (email, web browsing, file transfer), and an introduction to network security basics (encryption, authentication). The structure is beginner-friendly, with explanations, examples, and practical insights to ensure a thorough understanding.

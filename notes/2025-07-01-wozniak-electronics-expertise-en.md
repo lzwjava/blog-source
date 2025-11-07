@@ -1,10 +1,10 @@
 ---
-title: Wozniak's Expertise in Early Electronics
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Wozniak's Expertise in Early Electronics
 translated: false
-generated: true
 ---
 
 Steve Wozniak (co-founder of Apple Inc.) is exceptionally knowledgeable in areas that overlap with the **early parts of this textbook**, particularly in **analog and digital electronics**, **microprocessor systems**, and **practical circuit design**. Here's how his strengths and limitations likely map onto the **Fundamentals of Electronic Technology (III)** syllabus:

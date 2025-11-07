@@ -1,13 +1,13 @@
 ---
-title: Understanding Maven Lifecycles and JaCoCo
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Understanding Maven Lifecycles and JaCoCo
+translated: false
 ---
 
 Good question — this comes down to Maven’s *lifecycle phases* and how plugins bind to them.

@@ -1,12 +1,12 @@
 ---
-title: Resolving Ghostty GLIBC Version Conflict
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Resolving Ghostty GLIBC Version Conflict
+translated: false
 ---
 
 The issue you're running into isn't just about conflicting installations—it's primarily that both the Snap and the `.deb` you downloaded were built against GLIBC 2.38 (from Ubuntu 24.04), but your system is on Ubuntu 22.04 (based on the GLIBC 2.35 version in your `libc-bin` package). This causes the "version `GLIBC_2.38' not found" error when trying to run the binary. Having both installs active can also lead to path conflicts (e.g., which `ghostty` binary gets executed), so yes, you should remove them first to clean things up.

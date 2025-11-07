@@ -1,8 +1,8 @@
 ---
-title: BeanDefinitionStoreException
+audio: false
 lang: en
 layout: post
-audio: false
+title: BeanDefinitionStoreException
 translated: false
 ---
 

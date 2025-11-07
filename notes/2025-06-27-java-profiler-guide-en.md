@@ -1,10 +1,10 @@
 ---
-title: "Mastering YourKit Java Profiler: A Complete Guide"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Mastering YourKit Java Profiler: A Complete Guide'
 translated: false
-generated: true
 ---
 
 # Comprehensive Guide to YourKit Java Profiler

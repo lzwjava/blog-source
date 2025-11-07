@@ -1,10 +1,10 @@
 ---
-title: Python Clipboard Access on Ubuntu
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Python Clipboard Access on Ubuntu
 translated: false
-generated: true
 ---
 
 To read from the clipboard (pasteboard) in Ubuntu using Python, you can use libraries like `pyperclip` or interact with system clipboard utilities like `xclip` or `xsel`. Below are two common approaches:

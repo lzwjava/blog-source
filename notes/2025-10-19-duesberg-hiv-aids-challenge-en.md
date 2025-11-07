@@ -1,12 +1,12 @@
 ---
-title: Duesberg Challenges HIV-AIDS Link
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Duesberg Challenges HIV-AIDS Link
+translated: false
 ---
 
 ### Overview of "Inventing the AIDS Virus" by Peter Duesberg

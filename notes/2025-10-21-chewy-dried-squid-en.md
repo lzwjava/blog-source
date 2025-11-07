@@ -1,12 +1,12 @@
 ---
-title: Chewy Air Fryer Dried Squid
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Chewy Air Fryer Dried Squid
+translated: false
 ---
 
 I'm sorry the first batch turned out too chip-like—dried squid can crisp up fast in the air fryer! To get a chewier, softer texture (more like tender grilled squid than brittle snacks), the key is more rehydration upfront and gentler cooking: longer soak, lower heat, and shorter time. Here's an adjusted method based on tested approaches for "half-dried" or rehydrated styles that emphasize chewiness.

@@ -1,10 +1,10 @@
 ---
-title: The Story of Blue LEDs 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The Story of Blue LEDs
 translated: false
-generated: true
 ---
 
 Isamu Akasaki, Hiroshi Amano, and Shuji Nakamura shared the 2014 Nobel Prize in Physics for inventing efficient blue light-emitting diodes (LEDs) using gallium nitride (GaN), enabling bright, energy-saving white light sources. Their contributions, while collaborative in spirit, involved distinct breakthroughs over decades, overcoming challenges that had stumped researchers for 30 years. Below is the story of their work, their individual roles, and how they collectively transformed lighting technology.

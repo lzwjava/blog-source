@@ -1,12 +1,12 @@
 ---
-title: "Solvexia: No-Code Finance Automation Platform"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Solvexia: No-Code Finance Automation Platform'
+translated: false
 ---
 
 Solvexia is a Software-as-a-Service (SaaS) platform specializing in no-code automation, data management, and analytics, primarily designed for finance teams and organizations in the financial services sector. Founded as SolveXia Pty Ltd in Australia (headquartered in Bondi Junction, NSW), it enables users to automate complex processes without requiring programming expertise, helping to streamline operations, reduce manual effort, and improve accuracy.

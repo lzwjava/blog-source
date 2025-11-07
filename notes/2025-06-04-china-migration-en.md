@@ -1,10 +1,10 @@
 ---
-title: China's Millionaire Migration Trends 2024
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: China's Millionaire Migration Trends 2024
 translated: false
-generated: true
 ---
 
 The Henley Private Wealth Migration Report 2024, published by Henley & Partners, indicates that China is experiencing the highest net outflow of millionaires globally, with a projected net exit of 15,200 high-net-worth individuals (HNWIs) in 2024, compared to 13,800 in 2023. This makes China the top country for millionaire emigration, followed by the UK with a net outflow of 9,500 millionaires. The report highlights that this significant outflow from China is driven by factors such as slowing economic growth, geopolitical tensions, and the pursuit of better lifestyle, safety, and access to premium health and education services abroad. Popular destinations for these migrating millionaires include the UAE, the USA, Singapore, Canada, and Australia.[](https://www.finews.com/news/english-news/63157-henley-partners-hnwi-wealth-migration-china-uae-swiss)[](https://www.henleyglobal.com/newsroom/press-releases/henley-private-wealth-migration-report-2024)[](https://www.prnewswire.com/ae/news-releases/millionaires-on-the-move-where-are-the-worlds-wealthy-migrating-to-and-from-in-2024-302172211.html)
@@ -32,4 +32,3 @@ The Henley Private Wealth Migration Report 2024 highlights that the UK is projec
 Posts on X reflect similar sentiments, with users citing high taxes and the end of the non-dom status as key drivers, predicting further outflows if tax policies tighten under the Labour government. However, these posts are not conclusive evidence and reflect public sentiment rather than verified data.[](https://x.com/XMaximist/status/1926608415364722995)[](https://x.com/grok/status/1927721314196062587)[](https://x.com/grok/status/1928456494963700153)
 
 In summary, the UK’s millionaire exodus in 2024 is driven by unfavorable tax changes, Brexit-related economic challenges, declining lifestyle appeal, and the availability of more attractive destinations, as outlined in the Henley report and echoed in public discussions.
-

@@ -1,12 +1,12 @@
 ---
-title: Basic Router Direct Routing Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Basic Router Direct Routing Explained
+translated: false
 ---
 
 Yes, you're on the right track with that simplified view of routing—it's a great way to think about the basics! Let me break it down step by step to confirm and expand on it.

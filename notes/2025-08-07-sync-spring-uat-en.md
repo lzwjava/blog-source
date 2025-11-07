@@ -1,11 +1,11 @@
 ---
-title: "Sync Spring UAT Branches & Code"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Sync Spring UAT Branches & Code
+translated: false
 ---
 
 Here’s a collection of best practices and patterns you can mix-and-match to keep your three UAT branches in sync, keep your history clean, and handle country-specific code in a Spring app—plus a bit on where AI can help.

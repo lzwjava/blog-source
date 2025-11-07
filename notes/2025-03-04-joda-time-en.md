@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Date and Time Operations in Java
 translated: false
-generated: true
 ---
 
 ### Key Points

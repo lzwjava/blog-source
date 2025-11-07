@@ -1,10 +1,10 @@
 ---
-title: Spring Boot vs Laravel
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Spring Boot vs Laravel
 translated: false
-generated: true
 ---
 
 Let’s compare **Laravel** and **Spring Boot**, two popular frameworks used for web development, by breaking down their key aspects. I'll focus on their purpose, language, features, performance, learning curve, and use cases to give you a clear picture.

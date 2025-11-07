@@ -1,10 +1,10 @@
 ---
-title: Prestigious Awards
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Prestigious Awards
 translated: false
-generated: true
 ---
 
 The most prestigious awards, like the Nobel Prize and Turing Award, recognize exceptional contributions across various fields. Here’s a concise list of some of the top globally recognized awards, comparable in stature:
@@ -32,4 +32,3 @@ The most prestigious awards vary by field, but here are some widely recognized a
 - **General Achievement**: MacArthur Fellowship ("Genius Grant"), Rhodes Scholarship.
 
 Each carries immense global respect, often defining careers. Context matters—e.g., a Fields Medal outshines a Nobel for mathematicians. If you have a specific field in mind, I can narrow it down further.
-

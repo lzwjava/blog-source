@@ -1,10 +1,10 @@
 ---
-title: Mekong River
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Mekong River
 translated: false
-generated: true
 ---
 
 The Mekong River, one of the world’s great rivers, is a lifeline for millions of people across six countries in Southeast Asia. Stretching approximately 4,900 kilometers (3,045 miles), it ranks as the 12th longest river globally and the 7th longest in Asia. Originating in the Tibetan Plateau, it flows through China, Myanmar, Laos, Thailand, Cambodia, and Vietnam before emptying into the South China Sea. The river’s vast basin, covering about 795,000 square kilometers, supports diverse ecosystems, economies, and cultures, making it a critical artery for the region.

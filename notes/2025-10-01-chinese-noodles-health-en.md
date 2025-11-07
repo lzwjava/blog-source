@@ -1,12 +1,12 @@
 ---
-title: "Chinese Noodles: Health and TCM Insights"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: 'Chinese Noodles: Health and TCM Insights'
+translated: false
 ---
 
 ### Understanding the Dishes

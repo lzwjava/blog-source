@@ -1,12 +1,12 @@
 ---
-title: CodeIgniter Front Controller Bootstrap Process
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: CodeIgniter Front Controller Bootstrap Process
+translated: false
 ---
 
 The PHP code you've provided is the main entry point (typically `index.php`) for a web application built using CodeIgniter, an open-source PHP framework. This script acts as a "front controller" that bootstraps (initializes) the framework, handles incoming HTTP requests, and routes them to the appropriate parts of your application. It doesn't directly render web pages—its job is to set everything up so that the rest of the framework (and your code) can do its work.

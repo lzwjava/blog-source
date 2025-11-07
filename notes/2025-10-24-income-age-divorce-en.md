@@ -1,12 +1,12 @@
 ---
-title: Income and Age Affect Divorce Rates
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Income and Age Affect Divorce Rates
+translated: false
 ---
 
 ### Divorce Rates by Income and Age: Key Insights

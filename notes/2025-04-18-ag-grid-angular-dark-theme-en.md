@@ -1,12 +1,12 @@
 ---
-title: AG Grid Angular Dark Theme Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: AG Grid Angular Dark Theme Guide
+translated: false
 ---
 
 Got it — you’re asking about **Alpine Dark Theme** in **AG Grid** when using it in an **Angular application**.

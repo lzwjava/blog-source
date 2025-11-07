@@ -1,12 +1,12 @@
 ---
-title: MSVC Build Tools Uses and Alternatives
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-4.5-sonnet
+title: MSVC Build Tools Uses and Alternatives
+translated: false
 ---
 
 The MSVC Build Tools are indeed massive! Here's what they're actually used for:

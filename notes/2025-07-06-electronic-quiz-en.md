@@ -1,10 +1,10 @@
 ---
-title: Electronic Technology Quiz Questions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Electronic Technology Quiz Questions
 translated: false
-generated: true
 ---
 
 Here are 30 single-option multiple-choice quiz questions based on the provided outline of *Fundamentals of Electronic Technology (III)*:

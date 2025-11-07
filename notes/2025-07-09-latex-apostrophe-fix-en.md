@@ -1,10 +1,10 @@
 ---
-title: Fixing LaTeX Apostrophe Rendering
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fixing LaTeX Apostrophe Rendering
 translated: false
-generated: true
 ---
 
 The issue you're experiencing with the apostrophe in "HSBC's" is likely related to how LaTeX handles certain quote/apostrophe characters in PDF output. Here are several ways to improve the rendering:

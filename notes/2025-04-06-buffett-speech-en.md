@@ -1,10 +1,10 @@
 ---
-title: Buffett Speech
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Buffett Speech
 translated: false
-generated: true
 ---
 
 In his 1998 speech at the University of Florida School of Business, Warren Buffett delivered a comprehensive and insightful lecture covering a wide range of topics, from investment philosophy and business principles to personal qualities essential for success. Here's a more detailed summary:

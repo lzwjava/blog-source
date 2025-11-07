@@ -1,10 +1,10 @@
 ---
-title: Fixing LaTeX URL and Process Issues
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fixing LaTeX URL and Process Issues
 translated: false
-generated: true
 ---
 
 It looks like you are encountering an issue with `latex` or `xelatex`, specifically related to undefined characters while formatting URLs. This type of error usually occurs when there’s an issue with a package or font configuration in your LaTeX setup. You also mentioned you're trying to stop the process but have been unable to do so with `Ctrl + C` or `Ctrl + D`. Here’s how you can address both issues:

@@ -1,10 +1,10 @@
 ---
-title: Network Layer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Network Layer
 translated: false
-generated: true
 ---
 
 Okay, let's dive into a detailed tutorial on the Network Layer, specifically tailored for the Computer Networks Technology course within the Chinese Self-Study Exam (自考) system. This chapter is crucial for understanding how data travels across networks.

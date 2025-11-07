@@ -1,12 +1,12 @@
 ---
-title: Muon Optimizer Introduction and Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Muon Optimizer Introduction and Overview
+translated: false
 ---
 
 ### Comprehensive Introduction to the Muon Optimizer

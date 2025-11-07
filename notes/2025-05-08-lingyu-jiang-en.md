@@ -1,10 +1,10 @@
 ---
-title: Jiang Lingyu
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Jiang Lingyu
 translated: false
-generated: true
 ---
 
 Jiang Lingyu (Chinese: 蒋凌宇; pinyin: Jiǎng Língyǔ), born in 2003 in Chongqing, China, is widely recognized as one of the world’s top competitive programmers, known online by the handle "jiangly." Starting his competitive programming journey at age 11 in 2014, he has risen to prominence through exceptional performances in major international contests, earning accolades such as a silver medal at Google Code Jam 2022 and a bronze medal at Meta Hacker Cup 2021. Currently a student at Peking University’s School of Electronics Engineering and Computer Science, Jiang has achieved a rare Codeforces rating above 4000, making him one of only two programmers, alongside Gennady Korotkevich ("tourist"), to reach the prestigious "Legendary Grandmaster" tier named after Korotkevich.

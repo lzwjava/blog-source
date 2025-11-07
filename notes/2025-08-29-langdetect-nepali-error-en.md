@@ -1,11 +1,11 @@
 ---
-title: Langdetect Mistook Text as Nepali
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Langdetect Mistook Text as Nepali
+translated: false
 ---
 
 Ah, I see — thanks for clarifying.

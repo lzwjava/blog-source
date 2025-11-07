@@ -1,10 +1,10 @@
 ---
-title: Nikola Tesla
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Nikola Tesla
 translated: false
-generated: true
 ---
 
 **1. Early Life and Background**

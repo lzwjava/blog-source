@@ -1,12 +1,12 @@
 ---
-title: Red Hat Enterprise Linux Default Text Editor
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Red Hat Enterprise Linux Default Text Editor
+translated: false
 ---
 
 ### Default Text Editor in Red Hat Enterprise Linux

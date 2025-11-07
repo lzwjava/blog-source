@@ -1,11 +1,11 @@
 ---
-title: Upgrade Claude Code Quickly Now
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Upgrade Claude Code Quickly Now
+translated: false
 ---
 
 If you’re looking to **upgrade Claude Code**, the command-line coding agent from Anthropic, here’s how you can do it—and get the latest capabilities like learning modes and custom subagents working smoothly.

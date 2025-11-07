@@ -1,12 +1,12 @@
 ---
-title: Avoiding Docker Daemon Proxy Loops
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Avoiding Docker Daemon Proxy Loops
+translated: false
 ---
 
 ### Why `"no-proxy": "localhost,127.0.0.1,.local"` is Crucial in Docker's `daemon.json`

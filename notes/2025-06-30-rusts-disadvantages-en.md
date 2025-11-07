@@ -1,10 +1,10 @@
 ---
-title: "Rust's Strengths and Challenges"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rust's Strengths and Challenges
 translated: false
-generated: true
 ---
 
 Rust is a highly regarded programming language, especially for systems programming where performance and memory safety are paramount. However, like any language, it comes with its own set of disadvantages and areas of complaint from engineers and companies:

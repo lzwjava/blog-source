@@ -1,13 +1,13 @@
 ---
-title: Sonoma Sky Alpha Overview and Features
-date: 2025-09-14
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-14
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Sonoma Sky Alpha Overview and Features
+translated: false
 ---
 
 Here’s what I found out about **Sonoma Sky Alpha (openrouter/sonoma-sky-alpha)** — what it is, its features, what’s known and unknown. If you want, I can compare it to other models too.

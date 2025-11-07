@@ -1,10 +1,10 @@
 ---
-title: "Electronic Technology Self-Study Quiz"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Electronic Technology Self-Study Quiz
 translated: false
-generated: true
 ---
 
 Below is a sample quiz designed for a self-study exam based on the provided outline for *Fundamentals of Electronic Technology (III)*, edited by Wen Xidong and published by Economic Science Press. The quiz covers key concepts from analog electronics, digital electronics, and practical applications, tailored to test foundational understanding suitable for a self-study exam in China. The questions are a mix of multiple-choice, short-answer, and problem-solving formats to reflect typical exam styles.

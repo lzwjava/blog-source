@@ -1,10 +1,10 @@
 ---
-title: Java VPN Proxy Client with Netty
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Java VPN Proxy Client with Netty
 translated: false
-generated: true
 ---
 
 To build a Clash VPN proxy client in Java using Netty or Spring Boot, we need a robust framework to handle networking, YAML configuration parsing, and proxy protocols like SOCKS, HTTP, and Shadowsocks. Netty is ideal for high-performance networking, while Spring Boot can simplify configuration and dependency management. Below, I’ll outline the core logic, main libraries, and provide a sample implementation focusing on Netty for the networking layer, as it’s better suited for low-level proxy operations. The client will support popular Clash YAML configurations (e.g., for proxies, rules, and DNS).

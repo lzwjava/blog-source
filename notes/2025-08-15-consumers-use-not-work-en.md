@@ -1,11 +1,11 @@
 ---
-title: "Consumers Focus on Use, Not Work"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Consumers Focus on Use, Not Work
+translated: false
 ---
 
 What you’re describing is actually a very common human pattern, not just about HSBC or banking.

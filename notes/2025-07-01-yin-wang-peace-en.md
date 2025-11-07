@@ -1,10 +1,10 @@
 ---
-title: "Yin Wang's Peaceful, Brave Authenticity"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Yin Wang's Peaceful, Brave Authenticity
 translated: false
-generated: true
 ---
 
 ### Key Points

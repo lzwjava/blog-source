@@ -1,10 +1,10 @@
 ---
-title: "A Comprehensive Analysis of 'Sapiens: A Brief History of Humankind'"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'A Comprehensive Analysis of ''Sapiens: A Brief History of Humankind'''
 translated: false
-generated: true
 ---
 
 **1\. Introduction: Charting the Ascent of *Homo sapiens***  

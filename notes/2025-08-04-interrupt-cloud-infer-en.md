@@ -1,11 +1,11 @@
 ---
-title: "Interrupts Don't Cancel Cloud Inference"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Interrupts Don't Cancel Cloud Inference
+translated: false
 ---
 
 When you interrupt (e.g. with Ctrl-C) your Python script while it’s waiting on the `generate_images()` call, here’s roughly what happens:

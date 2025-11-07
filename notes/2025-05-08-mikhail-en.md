@@ -1,10 +1,10 @@
 ---
-title: Mikhail Ipatov
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Mikhail Ipatov
 translated: false
-generated: true
 ---
 
 Mikhail Ipatov, known online as **LHiC**, is a highly accomplished competitive programmer from Russia, recognized for his exceptional skills in algorithmic problem-solving and his significant contributions to the global competitive programming community. Born in 1998, Ipatov has established himself as one of the top talents in the field, with a strong academic background and a series of notable achievements in prestigious international programming competitions. His affiliation with **Moscow State University (MSU)** has been a cornerstone of his competitive career, where he has honed his skills and competed at the highest levels. Below is a comprehensive introduction to Mikhail Ipatov’s background, achievements, and impact in competitive programming.

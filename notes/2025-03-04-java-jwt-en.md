@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Java JWT Library
 translated: false
-generated: true
 ---
 
 To use the `com.nimbusds.jwt` library in Java to extract information such as the expiration date, issued date, and other claims from a JSON Web Token (JWT), follow the steps outlined below. This solution assumes you are working with a signed JWT, which is the most common type, and focuses on providing a clear, practical approach to achieve your goal.

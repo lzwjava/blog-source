@@ -1,10 +1,10 @@
 ---
-title: Generative Adversarial Networks (GANs)
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Generative Adversarial Networks (GANs)
 translated: false
-generated: true
 ---
 
 **Definition**:  

@@ -1,12 +1,12 @@
 ---
-title: IBM WebSphere Request Routing Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-4.5-sonnet
+title: IBM WebSphere Request Routing Explained
+translated: false
 ---
 
 Let me explain how IBM WebSphere Application Server (WAS) handles incoming requests and routing:

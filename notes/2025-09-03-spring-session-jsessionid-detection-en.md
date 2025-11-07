@@ -1,11 +1,11 @@
 ---
-title: Spring Session, JSESSIONID, and Server Detection
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Spring Session, JSESSIONID, and Server Detection
+translated: false
 ---
 
 Let’s break this into two parts: how **Spring Session/JSESSIONID** works, and how to tell whether Spring is running on **Tomcat or Netty**.

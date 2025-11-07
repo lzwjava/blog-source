@@ -1,12 +1,12 @@
 ---
-title: Using requests.Session for Persistent HTTP Sessions
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Using requests.Session for Persistent HTTP Sessions
+translated: false
 ---
 
 ### How requests.Session Works

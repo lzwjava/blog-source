@@ -1,10 +1,10 @@
 ---
-title: XML Schema Data Types
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: XML Schema Data Types
 translated: false
-generated: true
 ---
 
 XML Schema defines a rich set of built-in data types that can be used to specify the kind of data allowed in elements and attributes. These data types ensure that the XML content adheres to the intended format and constraints.

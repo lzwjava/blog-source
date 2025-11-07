@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Writing a Jenkinsfile
 translated: false
-generated: true
 ---
 
 To write a Jenkinsfile that incorporates a shared library, a string parameter, a try-catch block, a node block, and an if statement, you can use the following approach. Jenkinsfiles are written in Groovy and can define a pipeline to automate build, test, and deployment processes. Below is a complete example of a scripted Jenkinsfile that meets these requirements.

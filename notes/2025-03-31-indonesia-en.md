@@ -1,10 +1,10 @@
 ---
-title: Indonesia
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Indonesia
 translated: false
-generated: true
 ---
 
 Indonesia, officially the Republic of Indonesia, is a transcontinental country situated in Southeast Asia and Oceania, lying between the Indian and Pacific Oceans. It holds the title of the world's largest archipelagic state, comprising over 17,000 islands, including major ones like Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea.

@@ -1,11 +1,11 @@
 ---
-title: LLM Tokens Simply Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: LLM Tokens Simply Explained
+translated: false
 ---
 
 Great question — tokens in LLM APIs can be a bit confusing at first. Let me break it down clearly.

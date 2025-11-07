@@ -1,12 +1,12 @@
 ---
-title: GitHub Personal Access Token Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: GitHub Personal Access Token Guide
+translated: false
 ---
 
 A GitHub **Personal Access Token (PAT)** is like a password you generate yourself for secure access to GitHub’s APIs and resources. It’s widely used because it’s more flexible and safer than typing your GitHub password everywhere.

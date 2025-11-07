@@ -1,12 +1,12 @@
 ---
-title: NanoGPT Architecture and Token Processing
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: NanoGPT Architecture and Token Processing
+translated: false
 ---
 
 Yes, you're on the right track with understanding the **NanoGPT** architecture (as implemented in Andrej Karpathy's popular repository), but let's clarify and structure it properly — especially the relationship between **sequence length (512 tokens)**, **heads**, **embeddings**, and the **transformer blocks**.

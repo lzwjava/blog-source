@@ -1,10 +1,10 @@
 ---
-title: "Hainan EV Road Trip Guide"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Hainan EV Road Trip Guide
 translated: false
-generated: true
 ---
 
 ### Trip Overview

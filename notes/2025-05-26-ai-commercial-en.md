@@ -1,10 +1,10 @@
 ---
-title: Preference for Commercial AI Chatbots
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Preference for Commercial AI Chatbots
 translated: false
-generated: true
 ---
 
 Yes, you're largely correct. People tend to use commercial AI chatbots from companies like OpenAI, xAI, Anthropic, etc., over open-source alternatives for several reasons, despite the availability of open-source options like Ollama or LLaMA.cpp. Here’s a concise breakdown:

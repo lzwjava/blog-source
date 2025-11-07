@@ -1,10 +1,10 @@
 ---
-title: Famous Sailing Accidents
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Famous Sailing Accidents
 translated: false
-generated: true
 ---
 
 It seems like you’re asking about famous sailing accidents. Based on your previous questions about sailing and the context of falling overboard or handling accidents, I’ll assume you mean notable incidents in sailing history rather than general maritime disasters (like the Titanic). Below, I’ll highlight some well-known sailing accidents, focusing on recreational or competitive sailing rather than large commercial ships, and explain their significance.

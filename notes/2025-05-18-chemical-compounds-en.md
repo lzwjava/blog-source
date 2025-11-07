@@ -1,10 +1,10 @@
 ---
-title: Chemical Compounds
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Chemical Compounds
 translated: false
-generated: true
 ---
 
 Here’s a list of common chemical compounds found in households, kitchens, or everyday products, similar to sodium bicarbonate and citric acid:

@@ -1,10 +1,10 @@
 ---
-title: Nizhny Novgorod
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Nizhny Novgorod
 translated: false
-generated: true
 ---
 
 Nizhny Novgorod is a major city in Russia, situated at the confluence of the Volga and Oka rivers. It serves as the administrative center of the Nizhny Novgorod Oblast and the Volga Federal District. Located in central European Russia, approximately 400 km east of Moscow, it holds a significant geographical position at the intersection of major transport corridors.

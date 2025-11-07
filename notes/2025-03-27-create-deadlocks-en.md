@@ -1,10 +1,10 @@
 ---
-title: Deadlock Creations
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Deadlock Creations
 translated: false
-generated: true
 ---
 
 ```java

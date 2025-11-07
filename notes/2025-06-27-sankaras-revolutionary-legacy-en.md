@@ -1,10 +1,10 @@
 ---
-title: "Revolutionary Leader: Thomas Sankara's Legacy of Liberation"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Revolutionary Leader: Thomas Sankara''s Legacy of Liberation'
 translated: false
-generated: true
 ---
 
 Thomas Isidore Noël Sankara (December 21, 1949 – October 15, 1987) was a Burkinabé revolutionary, military officer, and politician who served as the president of Burkina Faso from 1983 to 1987. Often referred to as "Africa’s Che Guevara," Sankara is celebrated for his charismatic leadership, anti-imperialist stance, and transformative policies aimed at social justice, economic self-reliance, and dismantling colonial legacies. His brief but impactful leadership made him an enduring symbol of African liberation and grassroots empowerment, though his radical reforms also sparked controversy and led to his assassination at age 37. Below is a comprehensive introduction to his life, ideology, achievements, and legacy.

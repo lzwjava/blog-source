@@ -1,10 +1,10 @@
 ---
-title: Fedor Romashov
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fedor Romashov
 translated: false
-generated: true
 ---
 
 Fedor Romashov, known by his online handle "Ormlis," is a highly accomplished competitive programmer from Russia, recognized as one of the top talents in the global competitive programming community. Born around 2005 in Barnaul, Russia, Romashov has achieved remarkable success in international and national programming competitions, earning accolades for his problem-solving skills, algorithmic expertise, and consistent performance in high-stakes contests. Currently a student at the Higher School of Economics (HSE) in Moscow, he is pursuing a Bachelor’s degree in Applied Mathematics and Information Science, a program that aligns closely with his competitive programming pursuits. As of early 2025, Romashov holds the prestigious rank of Legendary Grandmaster on Codeforces, with a maximum rating of 3410, placing him among the elite in the competitive programming world.[](https://codeforces.com/profile/Ormlis)[](https://en.gofuture.games/players/fedor-romashov-ormlis)[](https://mirror.codeforces.com/profile/Ormlis)

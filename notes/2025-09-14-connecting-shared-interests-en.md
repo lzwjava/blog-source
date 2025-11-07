@@ -1,12 +1,12 @@
 ---
-title: Connecting Through Shared Interests Online
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Connecting Through Shared Interests Online
+translated: false
 ---
 
 It sounds like you had a great experience connecting with like-minded people by sharing Yin Wang’s blog in a WeChat engineering group! You’re absolutely right—joining communities (online or offline) where people share similar interests is one of the best ways to meet kindred spirits. Here’s why your approach works so well:

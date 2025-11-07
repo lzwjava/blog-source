@@ -1,10 +1,10 @@
 ---
-title: Decision Tree
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Decision Tree
 translated: false
-generated: true
 ---
 
 A **decision tree** is a predictive modeling tool used in machine learning and data analysis to make decisions based on input data. It represents decisions and their possible consequences, including chance event outcomes, in a tree-like structure. Decision trees are widely used for tasks like classification (e.g., predicting whether a customer will buy a product) and regression (e.g., predicting house prices). They are intuitive, easy to interpret, and effective for both simple and complex datasets.

@@ -1,10 +1,10 @@
 ---
-title: Count Files in a Directory
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Count Files in a Directory
 translated: false
-generated: true
 ---
 
 To count the number of files in a directory, you can use various methods depending on your operating system and tools. Here are the most common approaches:

@@ -1,10 +1,10 @@
 ---
-title: Injective Functions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Injective Functions
 translated: false
-generated: true
 ---
 
 In mathematics, the term "injective" refers to a function or mapping between two sets where distinct elements of the first set map to distinct elements of the second set. In other words, no two different elements in the domain (the first set) are mapped to the same element in the codomain (the second set).

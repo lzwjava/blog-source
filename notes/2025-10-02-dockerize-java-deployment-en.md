@@ -1,12 +1,12 @@
 ---
-title: Dockerizing Your Java Deployment
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Dockerizing Your Java Deployment
+translated: false
 ---
 
 Absolutely, your thinking is spot on! Migrating from a direct JAR deployment (like in your current Fabric-based setup) to a Dockerized approach is a solid strategy for making future server migrations smoother and more reliable. Let me break this down briefly and confirm why it makes sense, plus offer some guidance on getting started.

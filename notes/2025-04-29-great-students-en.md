@@ -1,10 +1,10 @@
 ---
-title: Great Students
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Great Students
 translated: false
-generated: true
 ---
 
 Great students, as described, are driven by a fascination with the learning process itself, prioritizing curiosity, exploration, and growth over merely achieving high grades or outcomes. Here are some examples of individuals who exemplify the traits of great students, based on their demonstrated passion for learning and discovery:
@@ -58,4 +58,3 @@ Here are additional examples of great students who embody a fascination with the
 These great students demonstrate a shared love for the journey of discovery, whether through solitary study, hands-on experimentation, or immersive observation. Their focus on the process—asking questions, embracing setbacks, and digging deeper—set them apart. If you’d like more examples, perhaps from specific fields or modern contexts, or want me to analyze any of these further, let me know!
 
 ---
-

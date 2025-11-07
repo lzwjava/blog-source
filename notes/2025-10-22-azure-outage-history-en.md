@@ -1,12 +1,12 @@
 ---
-title: Major Azure Outages Throughout History
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Major Azure Outages Throughout History
+translated: false
 ---
 
 Microsoft Azure, launched in 2010, has experienced several significant outages over the years, often due to configuration errors, hardware failures, or external events like weather. Below is a chronological summary of the most notable ones, focusing on those with widespread impact across regions or services. This list draws from official reports, historical analyses, and incident reviews, highlighting dates, causes, affected areas, and durations where available.

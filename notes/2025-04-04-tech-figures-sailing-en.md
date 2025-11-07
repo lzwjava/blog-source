@@ -1,10 +1,10 @@
 ---
-title: Notable Tech Figures Who Enjoy Sailing
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Notable Tech Figures Who Enjoy Sailing
 translated: false
-generated: true
 ---
 
 It seems like you're asking about tech professionals who enjoy sailing (帆船, which means "sailboat" in Japanese) as a hobby. Since I don’t have real-time access to personal data about individuals and their hobbies, I’ll provide some examples of notable tech figures who are known to have an interest in sailing, based on publicly available information up to my last update. I’ll also explain how sailing aligns with the interests of many tech professionals.

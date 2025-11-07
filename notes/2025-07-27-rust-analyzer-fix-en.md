@@ -1,11 +1,11 @@
 ---
-title: Rust Analyzer Workspace Issue
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Rust Analyzer Workspace Issue
+translated: false
 ---
 
 The error messages you're seeing indicate that rust-analyzer (the Rust language server) is unable to detect a valid Rust workspace in the specified directory `/Users/lzwjava/projects/lzwjava.github.io`. This typically happens because the folder lacks a `Cargo.toml` file (or other Rust project markers) at the root, or rust-analyzer isn't configured to look in the right place. Rust-analyzer expects to find at least one Rust project in the opened workspace; if it doesn't, it fails to load.

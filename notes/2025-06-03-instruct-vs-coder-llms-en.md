@@ -1,11 +1,11 @@
 ---
-title: Instruct vs Coder LLMs Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Instruct vs Coder LLMs Explained
+translated: false
 ---
 
 Sure—here’s a clearer, more reader‑friendly comparison (without using tables) between **Instruct** models and **Coder** (or code‑specialized) models in the LLM world:

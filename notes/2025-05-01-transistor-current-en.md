@@ -1,10 +1,10 @@
 ---
-title: Understanding Transistor Current Amplification
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Understanding Transistor Current Amplification
 translated: false
-generated: true
 ---
 
 This tutorial focuses on the bipolar junction transistor (BJT), specifically the NPN type, and how it amplifies electrical current.

@@ -1,10 +1,10 @@
 ---
-title: "Harper's Foundational Contributions to Type Theory"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Harper's Foundational Contributions to Type Theory
 translated: false
-generated: true
 ---
 
 Robert Harper is a highly distinguished computer scientist and a Professor of Computer Science at Carnegie Mellon University (CMU), where he has been a faculty member since 1988. He is widely recognized for his profound and foundational contributions to the field of programming languages, particularly in the areas of type theory, logical frameworks, and functional programming.

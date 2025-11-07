@@ -1,10 +1,10 @@
 ---
-title: "Essential Editor Shortcuts Guide"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Essential Editor Shortcuts Guide
 translated: false
-generated: true
 ---
 
 | # | Command Palette Name | Description | Default Shortcut (Windows/Linux) |

@@ -1,11 +1,11 @@
 ---
-title: Lightweight Local LLM Web Client Options
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Lightweight Local LLM Web Client Options
+translated: false
 ---
 
 If you're looking for lightweight, open-source web clients to run LLMs locally—with fewer dependencies than Open WebUI—here are some strong alternatives:

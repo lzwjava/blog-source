@@ -1,10 +1,10 @@
 ---
-title: "Car Essentials for Safe Road Trips"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Car Essentials for Safe Road Trips
 translated: false
-generated: true
 ---
 
 ### Essentials for the Drive and Car Maintenance

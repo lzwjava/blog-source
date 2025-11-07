@@ -1,12 +1,12 @@
 ---
-title: Contracting Downsides at Big Tech
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Contracting Downsides at Big Tech
+translated: false
 ---
 
 ### Common Downsides of Working as a Contractor for Big Tech or Banks

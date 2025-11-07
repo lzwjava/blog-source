@@ -1,10 +1,10 @@
 ---
-title: "Rust Tools for Productive Engineers"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rust Tools for Productive Engineers
 translated: false
-generated: true
 ---
 
 Based on your profile as a Chinese software engineer with extensive experience in full-stack development, mobile engineering, and machine learning/big data, along with a focus on productivity, here’s a curated list of Rust open-source projects that can directly enhance your work or personal life. These tools are selected to align with your technical expertise, professional needs, and productivity goals, focusing on practical utility rather than contribution.

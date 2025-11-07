@@ -1,10 +1,10 @@
 ---
-title: Notable Angel Investors and Their Successes
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Notable Angel Investors and Their Successes
 translated: false
-generated: true
 ---
 
 When discussing prominent angel investors, several names often come up due to their significant contributions and successful investments in various startups. Here are a few notable angel investors:

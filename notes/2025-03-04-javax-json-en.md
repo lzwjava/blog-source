@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Javax Json Processing
 translated: false
-generated: true
 ---
 
 I'll explain how to use the `javax.json` package, which is part of the Java API for JSON Processing (JSON-P) to work with JSON data in Java. Here's a comprehensive guide:

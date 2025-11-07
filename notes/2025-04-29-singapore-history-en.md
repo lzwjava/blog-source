@@ -1,10 +1,10 @@
 ---
-title: Singapore's History
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Singapore's History
 translated: false
-generated: true
 ---
 
 Singapore, a small island city-state in Southeast Asia, has a rich and multifaceted history that spans centuries. From its origins as a modest fishing village to its transformation into a global financial hub, Singapore’s story is one of resilience, strategic adaptation, and remarkable growth. This comprehensive introduction traces Singapore’s historical journey through its key phases: pre-colonial beginnings, colonial rule, Japanese occupation, post-war struggles, independence, and modern development.

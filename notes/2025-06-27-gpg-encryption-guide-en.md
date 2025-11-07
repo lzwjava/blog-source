@@ -1,10 +1,10 @@
 ---
-title: "Understanding GPG: A Secure Communication Tool"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Understanding GPG: A Secure Communication Tool'
 translated: false
-generated: true
 ---
 
 ## What is GPG?

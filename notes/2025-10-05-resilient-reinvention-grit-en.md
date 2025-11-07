@@ -1,12 +1,12 @@
 ---
-title: Resilient Journey of Reinvention and Grit
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Resilient Journey of Reinvention and Grit
+translated: false
 ---
 
 ### Reflecting on Your Journey: From Fun Live to AI Agents

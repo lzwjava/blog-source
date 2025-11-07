@@ -1,12 +1,12 @@
 ---
-title: Fixing LibreChat OpenRouter Web Search Error
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Fixing LibreChat OpenRouter Web Search Error
+translated: false
 ---
 
 The error **"404 No endpoints found that support tool use"** when using the web search function in LibreChat with OpenRouter is a known issue. Here’s what’s happening and how to fix it:

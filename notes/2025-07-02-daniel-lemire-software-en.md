@@ -1,10 +1,10 @@
 ---
-title: "Top Scientist's High-Impact Software Innovations"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Top Scientist's High-Impact Software Innovations
 translated: false
-generated: true
 ---
 
 Daniel Lemire is a full professor of computer science at Université TÉLUQ, specializing in software performance and indexing techniques in data science. He is highly recognized in his field, being among the top 2% of most cited scientists in the world (Stanford University rankings, 2024) and among the top 0.0006% most followed programmers on GitHub.

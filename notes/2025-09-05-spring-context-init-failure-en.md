@@ -1,11 +1,11 @@
 ---
-title: Spring Servlet Context Initialization Failure
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Spring Servlet Context Initialization Failure
+translated: false
 ---
 
 [WARNING] org.aspectj.runtime.reflect.StringMaker scanned from multiple locations: jar:file:///Users/lzwjava/.m2/repository/org/aspectj/aspectjrt/1.9.24/aspectjrt-1.9.24.jar!/org/aspectj/runtime/reflect/StringMaker.class, jar:file:///Users/lzwjava/.m2/repository/org/aspectj/aspectjweaver/1.9.24/aspectjweaver-1.9.24.jar!/org/aspectj/runtime/reflect/StringMaker.class

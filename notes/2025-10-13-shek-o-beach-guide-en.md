@@ -1,12 +1,12 @@
 ---
-title: Shek O Beach Hong Kong Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Shek O Beach Hong Kong Guide
+translated: false
 ---
 
 Shek O Beach is a popular, family-friendly public beach on the southeastern tip of Hong Kong Island in the Southern District. It's renowned for its long stretch of soft white sand, clear shallow waters with good quality (consistently rated "Good" for swimming), and gentle waves, making it ideal for relaxation, swimming, sunbathing, and barbecues. Nestled between lush green hills and facing Island Bay, it offers a laid-back vibe that's favored by locals, expat families (especially French communities), and weekend crowds seeking an escape from the city bustle.

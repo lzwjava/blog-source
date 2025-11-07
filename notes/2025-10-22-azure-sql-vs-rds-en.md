@@ -1,12 +1,12 @@
 ---
-title: Azure SQL Database vs AWS RDS
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Azure SQL Database vs AWS RDS
+translated: false
 ---
 
 ### Overview

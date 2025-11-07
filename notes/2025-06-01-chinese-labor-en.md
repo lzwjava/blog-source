@@ -1,10 +1,10 @@
 ---
-title: Chinese Labor Culture Inquiry
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Chinese Labor Culture Inquiry
 translated: false
-generated: true
 ---
 
 I should clarify some assumptions in your question, as it contains generalizations that don't accurately reflect the reality of China's diverse population and economy.

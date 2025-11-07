@@ -1,11 +1,11 @@
 ---
-title: Enable Edition 2024 in Rust
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Enable Edition 2024 in Rust
+translated: false
 ---
 
 The error occurs because your Rust project is trying to use the `edition2024` feature, which is not stabilized in your current Cargo version (1.75.0). To resolve this, you need to opt into the unstable `edition2024` feature explicitly.

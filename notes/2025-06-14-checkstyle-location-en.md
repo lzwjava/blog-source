@@ -1,10 +1,10 @@
 ---
-title: Checkstyle Config Location
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Checkstyle Config Location
 translated: false
-generated: true
 ---
 
 To fix the issues you're encountering with the `maven-checkstyle-plugin` when running `mvn clean checkstyle:check`, where it can't find the `checks.xml` file and fails to initialize the `SuppressWithNearbyTextFilter` module, follow these steps. The problems stem from the file location and an incompatible Checkstyle version. Here's a complete solution:

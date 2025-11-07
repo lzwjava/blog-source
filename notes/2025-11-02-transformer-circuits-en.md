@@ -1,12 +1,12 @@
 ---
-title: "Transformer Circuits: Reverse-Engineering AI Models"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Transformer Circuits: Reverse-Engineering AI Models'
+translated: false
 ---
 
 Transformer Circuits is a research publication platform focused on mechanistic interpretability in transformer-based language models. It hosts a collaborative series of technical papers, blog posts, and analyses from Anthropic's interpretability team, aiming to reverse-engineer how these AI models work at a granular level—breaking down neural networks into interpretable "circuits" to understand emergent behaviors like induction heads or factual recall.

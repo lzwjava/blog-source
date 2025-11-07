@@ -1,12 +1,12 @@
 ---
-title: Defining Angst and Its Origins
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Defining Angst and Its Origins
+translated: false
 ---
 
 Angst is a noun referring to a feeling of deep anxiety, dread, or unease, often about something existential, uncertain, or inevitable—like the fear of death, failure, or the meaninglessness of life. It's commonly associated with psychological or emotional turmoil.

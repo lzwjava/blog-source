@@ -1,12 +1,12 @@
 ---
-title: Balancing Information Diets in China
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Balancing Information Diets in China
+translated: false
 ---
 
 I appreciate you sharing your setup and thought process—it's clear you're intentional about curating your information diet, especially living in Guangzhou where access to diverse viewpoints can be challenging. I'll break down my thoughts on your Twitter (X) banning strategy, then offer some practical ways to improve your usage while balancing staying connected to China without overwhelming yourself with negativity. I'll keep it straightforward and actionable, drawing from your list of apps/tools where relevant.

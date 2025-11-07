@@ -1,10 +1,10 @@
 ---
-title: IntelliJ IDEA and WebSphere Liberty Debugging
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: IntelliJ IDEA and WebSphere Liberty Debugging
 translated: false
-generated: true
 ---
 
 Yes, IntelliJ IDEA can debug applications running on WebSphere Liberty Server. Here’s how and what options are available:

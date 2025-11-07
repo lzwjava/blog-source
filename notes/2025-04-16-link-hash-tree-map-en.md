@@ -1,10 +1,10 @@
 ---
-title: LinkedHashMap vs TreeMap
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: LinkedHashMap vs TreeMap
 translated: false
-generated: true
 ---
 
 Great question! Both `LinkedHashMap` and `TreeMap` are implementations of the `Map` interface in Java, but they have **different ordering strategies** and use **different underlying data structures**.

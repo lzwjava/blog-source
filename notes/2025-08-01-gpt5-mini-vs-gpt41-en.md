@@ -1,12 +1,12 @@
 ---
-title: GPT-5-mini vs GPT-4.1 Comparison
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: GPT-5-mini vs GPT-4.1 Comparison
+translated: false
 ---
 
 ### Overview

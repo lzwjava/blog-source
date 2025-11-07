@@ -1,11 +1,11 @@
 ---
-title: GitHub Actions Job Growth
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: GitHub Actions Job Growth
+translated: false
 ---
 
 Based on the most recent available data from GitHub's Octoverse reports, the number of workflow jobs run in GitHub Actions has grown significantly over the years, driven by increasing developer adoption and automation needs.

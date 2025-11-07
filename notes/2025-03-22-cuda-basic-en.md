@@ -1,10 +1,10 @@
 ---
-title: Basic CUDA Example
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Basic CUDA Example
 translated: false
-generated: true
 ---
 
 Here's a basic CUDA example that demonstrates low-level GPU programming using CUDA C. This example performs a simple vector addition on the GPU using the most fundamental CUDA constructs:

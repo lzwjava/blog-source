@@ -1,10 +1,10 @@
 ---
-title: Linear Independence Proof
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Linear Independence Proof
 translated: false
-generated: true
 ---
 
 ### Translation:

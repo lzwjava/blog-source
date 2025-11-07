@@ -1,10 +1,10 @@
 ---
-title: Semiconductor Figures
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Semiconductor Figures
 translated: false
-generated: true
 ---
 
 **Dirk Meyer**, **Fred Weber**, and **Mike Clark** are notable figures in the semiconductor industry, particularly for their roles at **AMD** during the development of key microprocessor architectures. Below is a detailed overview of who they are and their contributions, focusing on their roles as chief architects for the **K7 (Athlon)** and **Zen** architectures, as referenced in the context of Jim Keller’s work.

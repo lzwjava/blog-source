@@ -1,10 +1,10 @@
 ---
-title: Oracle Database - User Account
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Oracle Database - User Account
 translated: false
-generated: true
 ---
 
 The `ORA-28000: The account is locked` error occurs when attempting to connect to an Oracle database (e.g., via a thin JDBC driver) and the user account you’re trying to use has been locked. This typically happens due to too many failed login attempts, manual locking by an administrator, or an account expiration policy. To resolve this, you need to unlock the account, and if necessary, reset the password or check the account status. Below are the steps to fix this issue when connecting to an Oracle database.

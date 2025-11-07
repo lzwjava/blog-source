@@ -1,12 +1,12 @@
 ---
-title: IBM DB2 Index Structure Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: IBM DB2 Index Structure Explained
+translated: false
 ---
 
 ### How IBM DB2 Indexes Work

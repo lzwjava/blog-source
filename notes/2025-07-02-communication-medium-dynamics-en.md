@@ -1,10 +1,10 @@
 ---
-title: "Onsite vs. Digital Communication Dynamics"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Onsite vs. Digital Communication Dynamics
 translated: false
-generated: true
 ---
 
 The differences between human onsite one-to-one communication and using WhatsApp or WeChat to chat come down to the medium, context, and dynamics of interaction. Here’s a breakdown:

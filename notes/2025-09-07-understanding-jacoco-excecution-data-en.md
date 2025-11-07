@@ -1,12 +1,12 @@
 ---
-title: Understanding JaCoCo Execution Data Files
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Understanding JaCoCo Execution Data Files
+translated: false
 ---
 
 Here’s a practical, everything-you-need rundown.

@@ -1,11 +1,11 @@
 ---
-title: Java Code Coverage Tool Alternatives
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Java Code Coverage Tool Alternatives
+translated: false
 ---
 
 Besides **JaCoCo**, there are several other code coverage tools and plugins you can consider in the Java ecosystem, depending on your build system and integration needs:

@@ -1,10 +1,10 @@
 ---
-title: "GitHub Actions: CI/CD Evolution"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'GitHub Actions: CI/CD Evolution'
 translated: false
-generated: true
 ---
 
 GitHub Actions is a powerful **continuous integration and continuous delivery (CI/CD) platform** directly integrated into GitHub. It allows developers to automate various stages of their software development workflow, from building and testing code to deploying applications.

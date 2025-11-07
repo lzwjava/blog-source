@@ -1,10 +1,10 @@
 ---
-title: Thomas Young
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Thomas Young
 translated: false
-generated: true
 ---
 
 Thomas Young (1773–1829) was an English polymath whose extraordinary contributions spanned physics, medicine, linguistics, and Egyptology, earning him the moniker "The Last Man Who Knew Everything." Born on June 13, 1773, in Milverton, Somerset, into a Quaker family, Young displayed prodigious intellect from an early age, reading fluently by age two and mastering multiple languages, including Latin, Greek, French, and Italian, by his teens. His insatiable curiosity and rigorous self-education laid the foundation for a career that profoundly shaped modern science and humanities.

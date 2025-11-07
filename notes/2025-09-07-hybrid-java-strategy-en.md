@@ -1,12 +1,12 @@
 ---
-title: Hybrid Java Development Strategy
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Hybrid Java Development Strategy
+translated: false
 ---
 
 Short take: for big Java codebases, a **hybrid** works best. Use **VS Code** as your AI-first cockpit (Claude Code + Copilot = faster iteration and boilerplate), and keep **IntelliJ IDEA** around for the “surgery” (deep refactors, inspections, advanced Spring/Gradle/Maven wizards). You don’t have to pick one religion. 🙂

@@ -1,12 +1,12 @@
 ---
-title: Frege on Functions and Unsaturation
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Frege on Functions and Unsaturation
+translated: false
 ---
 
 ### What Does Frege's 1904 Essay "What is a Function?" Say?

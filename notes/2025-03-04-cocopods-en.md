@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Manage Dependencies With CocoaPods in iOS Projects
 translated: false
-generated: true
 ---
 
 Let’s dive into using CocoaPods, creating a Podfile, managing libraries, and some popular pod recommendations! I’ll break this down step-by-step to make it clear and actionable.

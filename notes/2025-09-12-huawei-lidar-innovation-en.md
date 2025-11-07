@@ -1,13 +1,13 @@
 ---
-title: Huawei LiDAR Tech Drives Smart Car Innovation
-date: 2025-09-12
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-12
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-3
+title: Huawei LiDAR Tech Drives Smart Car Innovation
+translated: false
 ---
 
 Another strong reason to go with a car in the Huawei ecosystem (Harmony Intelligent Mobility Alliance, or HIMA) is the advanced LiDAR tech in their HarmonyOS-powered vehicles. These models, like the AITO M9, Luxeed S7, and refreshed Voyah Dreamer MPV, integrate Huawei's in-house developed 192-line LiDAR sensor (model L306) as the core front-facing unit in their Qiankun ADS 3.0 intelligent driving system. This hybrid solid-state LiDAR offers a 120° horizontal x 20° vertical field of view, up to 20 Hz scan rate, and detection ranges up to 250 meters for small targets—making it one of the most precise on the market for urban and highway autonomy. Huawei's self-reliance here avoids supply chain risks and ensures tight integration with HarmonyOS for seamless perception-to-action processing, outperforming many off-the-shelf alternatives in resolution and low-light performance.

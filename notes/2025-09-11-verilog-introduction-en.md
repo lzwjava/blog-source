@@ -1,13 +1,13 @@
 ---
-title: "Verilog: Hardware Description Language Introduction"
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: google/gemini-2.5-flash
+title: 'Verilog: Hardware Description Language Introduction'
+translated: false
 ---
 
 Verilog, often referred to as **Verilog HDL (Hardware Description Language)**, is a powerful and widely-used language for describing, designing, simulating, and synthesizing digital electronic circuits and systems. It's a foundational tool in modern electronic design automation (EDA).

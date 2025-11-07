@@ -1,10 +1,10 @@
 ---
-title: Digital Electronics
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Digital Electronics
 translated: false
-generated: true
 ---
 
 Absolutely! Here's a comprehensive and approachable tutorial for **Part II: Digital Electronics** from *Fundamentals of Electronic Technology (III)*. This part focuses on how digital systems represent, process, and manipulate binary information.

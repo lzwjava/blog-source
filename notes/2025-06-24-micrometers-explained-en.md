@@ -1,10 +1,10 @@
 ---
-title: "Guide to Micrometers: Tools and Observability"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Guide to Micrometers: Tools and Observability'
 translated: false
-generated: true
 ---
 
 This comprehensive guide covers two distinct topics: **Micrometers (the measuring tool)** and **Micrometer (the observability facade for Java applications, particularly Spring Boot), focusing on tracing solutions.**

@@ -1,10 +1,10 @@
 ---
-title: "Building and Testing a JK Flip-Flop"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Building and Testing a JK Flip-Flop
 translated: false
-generated: true
 ---
 
 In a previous video, we explored the JK flip-flop and its operation, noting its similarity to the SR flip-flop but with the added feedback mechanism. This feedback allows the output to toggle when both inputs are high on a rising clock edge, rather than entering an undefined state. In this video, I aim to build and observe its practical functionality.

@@ -1,12 +1,12 @@
 ---
-title: "Youmi Kimura: Spirited Away Vocalist"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-3
+title: 'Youmi Kimura: Spirited Away Vocalist'
+translated: false
 ---
 
 ### Early Life and Education

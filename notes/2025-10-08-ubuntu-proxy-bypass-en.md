@@ -1,12 +1,12 @@
 ---
-title: Ubuntu Proxy Bypass Hosts Configuration
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Ubuntu Proxy Bypass Hosts Configuration
+translated: false
 ---
 
 ### Setting Multiple Hosts in Ubuntu's Manual Proxy Settings

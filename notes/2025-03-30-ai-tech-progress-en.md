@@ -1,10 +1,10 @@
 ---
-title: AI Technology Progress sinch the Release of ChatGPT
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AI Technology Progress sinch the Release of ChatGPT
 translated: false
-generated: true
 ---
 
 Since the release of ChatGPT on November 30, 2022, there has been an explosion of progress in AI technology. Here's a breakdown of some key advancements, including the examples you mentioned:

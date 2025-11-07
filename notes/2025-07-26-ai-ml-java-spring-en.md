@@ -1,10 +1,10 @@
 ---
-title: AI and ML Enhance Java Spring Apps
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AI and ML Enhance Java Spring Apps
 translated: false
-generated: true
 ---
 
 ### How AI and ML Can Enhance Traditional Java Spring Database-Driven, Data-Intensive Applications

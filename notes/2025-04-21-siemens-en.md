@@ -1,10 +1,10 @@
 ---
-title: Ernst Werner Siemens
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Ernst Werner Siemens
 translated: false
-generated: true
 ---
 
 Ernst Werner Siemens (1816–1892), later known as Werner von Siemens after being ennobled in 1888, was a German inventor and industrialist who founded Siemens & Halske (now Siemens AG) in 1847. Born in Lenthe, near Hanover, in the Kingdom of Hanover, he was the fourth of fourteen children in a financially strained family. His father, Christian Ferdinand Siemens, was a tenant farmer, and unable to afford university education for Werner, who joined the Prussian army at 17 to access engineering training at the Artillery and Engineering School in Berlin (1835–1838).[](https://en.wikipedia.org/wiki/Werner_von_Siemens)[](https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/siemens-werner-von)

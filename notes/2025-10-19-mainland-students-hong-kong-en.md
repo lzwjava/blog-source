@@ -1,12 +1,12 @@
 ---
-title: Mainland Chinese Students in Hong Kong Universities
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Mainland Chinese Students in Hong Kong Universities
+translated: false
 ---
 
 Yes, a mainland Chinese citizen can enroll in a Hong Kong public university to pursue and obtain an undergraduate degree, much like Joshua Wong did at the University of Hong Kong (HKU) in 2014. However, there are key differences in eligibility, application routes, and status compared to local Hong Kong residents like Wong, who applied via the local Joint University Programmes Admissions System (JUPAS) using Hong Kong Diploma of Secondary Education (HKDSE) results.

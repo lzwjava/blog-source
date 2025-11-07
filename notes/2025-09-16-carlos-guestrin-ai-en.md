@@ -1,12 +1,12 @@
 ---
-title: "Carlos Guestrin: AI Innovator and Entrepreneur"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: 'Carlos Guestrin: AI Innovator and Entrepreneur'
+translated: false
 ---
 
 ### Biography

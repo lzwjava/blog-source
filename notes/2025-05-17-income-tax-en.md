@@ -1,10 +1,10 @@
 ---
-title: Understanding China's Individual Income Tax Withholding
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Understanding China's Individual Income Tax Withholding
 translated: false
-generated: true
 ---
 
 Okay, here is a refined explanation of the cumulative withholding and prepayment method for China's individual income tax for 2025, designed for better clarity and understanding.

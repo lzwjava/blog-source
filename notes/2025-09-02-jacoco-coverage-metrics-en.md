@@ -1,11 +1,11 @@
 ---
-title: JaCoCo Coverage Metrics Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: JaCoCo Coverage Metrics Explained
+translated: false
 ---
 
 Yes — **JaCoCo provides multiple levels of coverage metrics**, including the ones you mentioned:

@@ -1,10 +1,10 @@
 ---
-title: "Google Analytics vs. Cloudflare Analytics"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Google Analytics vs. Cloudflare Analytics
 translated: false
-generated: true
 ---
 
 ## Comparison of Google Analytics and Cloudflare Web Analytics

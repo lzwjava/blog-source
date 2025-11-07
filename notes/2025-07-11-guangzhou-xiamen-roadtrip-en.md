@@ -1,10 +1,10 @@
 ---
-title: "5-Day Fujian Coastal Road Trip"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 5-Day Fujian Coastal Road Trip
 translated: false
-generated: true
 ---
 
 ### Trip Overview

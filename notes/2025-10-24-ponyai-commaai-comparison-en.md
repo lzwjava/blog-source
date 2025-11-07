@@ -1,12 +1,12 @@
 ---
-title: Pony.ai and comma.ai Autonomous Driving Comparison
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Pony.ai and comma.ai Autonomous Driving Comparison
+translated: false
 ---
 
 ### Overview

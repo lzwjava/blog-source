@@ -1,11 +1,11 @@
 ---
-title: "How to Find or Create Java Agent JAR"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: How to Find or Create Java Agent JAR
+translated: false
 ---
 
 The `/path/to/java-agent.jar` in your code is just a placeholder — there’s no official, universal "Java Agent" JAR you can download that contains `com.example.Agent`.

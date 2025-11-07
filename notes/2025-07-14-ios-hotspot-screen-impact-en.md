@@ -1,10 +1,10 @@
 ---
-title: "iOS Hotspot and Screen State Issues"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: iOS Hotspot and Screen State Issues
 translated: false
-generated: true
 ---
 
 ### Impact of Screen On/Off on iOS Personal Hotspot

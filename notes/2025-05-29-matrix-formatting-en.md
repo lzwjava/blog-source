@@ -1,10 +1,10 @@
 ---
-title: Fixing Matrix Formatting in Jekyll Blog
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fixing Matrix Formatting in Jekyll Blog
 translated: false
-generated: true
 ---
 
 The issue you're facing is related to how Markdown (kramdown) processes the content before MathJax renders it. The double backslashes (`\\`) in your matrix are being interpreted by Markdown before MathJax gets to them, which breaks the matrix formatting.

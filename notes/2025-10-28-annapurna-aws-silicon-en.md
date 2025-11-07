@@ -1,12 +1,12 @@
 ---
-title: "Annapurna Labs: AWS Custom Silicon"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Annapurna Labs: AWS Custom Silicon'
+translated: false
 ---
 
 ### What is Annapurna Labs?

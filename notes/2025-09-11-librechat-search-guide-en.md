@@ -1,13 +1,13 @@
 ---
-title: LibreChat Search Functionality Guide
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: LibreChat Search Functionality Guide
+translated: false
 ---
 
 Here’s how **search functionality** works in **LibreChat v0.8.0-rc3** (including conversation search and how it differs from forking):

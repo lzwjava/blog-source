@@ -1,10 +1,10 @@
 ---
-title: Information, Data Size, and Platform Success
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Information, Data Size, and Platform Success
 translated: false
-generated: true
 ---
 
 ## Introduction

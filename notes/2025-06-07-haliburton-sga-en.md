@@ -1,10 +1,10 @@
 ---
-title: Tyrese Haliburton vs Shai Gilgeous-Alexander 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Tyrese Haliburton vs Shai Gilgeous-Alexander
 translated: false
-generated: true
 ---
 
 Tyrese Haliburton and Shai Gilgeous-Alexander are two of the NBA's most dynamic young guards, both leading their respective teams to significant success. While both are elite talents, their playing styles and statistical contributions differ significantly.

@@ -1,10 +1,10 @@
 ---
-title: CompletableFuture in Java
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: CompletableFuture in Java
 translated: false
-generated: true
 ---
 
 In a Java Spring Boot project, there’s no direct equivalent to JavaScript’s `Promise.all`, which waits for multiple promises to complete and provides their results. However, you can achieve similar functionality—running multiple tasks concurrently in a for loop and using their results after all threads complete—using `CompletableFuture` from the `java.util.concurrent` package, specifically with the `CompletableFuture.allOf` method. This approach is well-suited for a Spring Boot project, especially when combined with Spring’s asynchronous programming features. Below, I’ll explain how to do this step-by-step, including a complete example.

@@ -1,12 +1,12 @@
 ---
-title: Bitcoin Hash Calculation and Mining
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Bitcoin Hash Calculation and Mining
+translated: false
 ---
 
 ### How Bitcoin Calculates Hashes

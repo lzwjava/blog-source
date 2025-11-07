@@ -1,12 +1,12 @@
 ---
-title: Getting Started with Kusto Query Language
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Getting Started with Kusto Query Language
+translated: false
 ---
 
 ### Getting Started with KQL (Kusto Query Language) in Azure

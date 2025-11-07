@@ -1,10 +1,10 @@
 ---
-title: Microsoft’s Bounce-back
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Microsoft’s Bounce-back
 translated: false
-generated: true
 ---
 
 Microsoft’s bounce-back over the years can be attributed to several strategic decisions and shifts that helped it regain and even surpass its previous heights:

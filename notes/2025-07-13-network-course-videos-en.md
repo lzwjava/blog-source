@@ -1,10 +1,10 @@
 ---
-title: "Top YouTube Networking Course Videos"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Top YouTube Networking Course Videos
 translated: false
-generated: true
 ---
 
 Here are some YouTube video recommendations based on the "Computer Networks Technology (02141)" course outline:

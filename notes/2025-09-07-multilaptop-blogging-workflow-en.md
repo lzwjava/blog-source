@@ -1,12 +1,12 @@
 ---
-title: Optimizing Multilaptop Workflow for Blogging
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Optimizing Multilaptop Workflow for Blogging
+translated: false
 ---
 
 Great question — with three laptops, you can actually separate tasks in a way that plays to their strengths and reduces context-switching. Since your blog project has many moving parts (Jekyll, AI workflows, LaTeX, TTS, automation), here’s a practical split:

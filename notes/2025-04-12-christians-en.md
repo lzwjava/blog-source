@@ -1,10 +1,10 @@
 ---
-title: Christian Values
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Christian Values
 translated: false
-generated: true
 ---
 
 Christian values stem from the teachings of Jesus Christ and the Bible, emphasizing principles that guide moral and spiritual life. Core values include:

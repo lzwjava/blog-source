@@ -1,10 +1,10 @@
 ---
-title: Macao Card Plans
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Macao Card Plans
 translated: false
-generated: true
 ---
 
 LLet's recalculate the cost for **20GB per month**, considering that extra data now costs **20 MOP per 5GB** instead of 5 MOP per 5GB.  
@@ -170,4 +170,4 @@ For **25GB per month**, **Plan B (3 MOP/day, 10GB Free)** is the cheapest at **1
 
 **Final Recommendation:**  
 - If you **use 10GB or more per month**, **Plan B (3 MOP/day, 10GB Free)** is almost always the best value. 🎯  
-- If you **use less than 10GB**, **Plan A (2 MOP/day, 4GB Free)** saves you money. 💰  
+- If you **use less than 10GB**, **Plan A (2 MOP/day, 4GB Free)** saves you money. 💰

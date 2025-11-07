@@ -1,12 +1,12 @@
 ---
-title: US B-2 Tourist Visa Stay Duration
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: US B-2 Tourist Visa Stay Duration
+translated: false
 ---
 
 As a Chinese citizen holding a valid B-2 tourist visa, you can typically stay in the United States for **up to 6 months (180 days)** per entry. However, the exact duration is not fixed by the visa itself—it's determined by the U.S. Customs and Border Protection (CBP) officer at your port of entry (e.g., airport) when you arrive. They will stamp your passport or issue a Form I-94 electronic record specifying your authorized stay, which is usually 6 months but could be shorter based on your travel plans, itinerary, and interview.

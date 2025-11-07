@@ -1,12 +1,12 @@
 ---
-title: South China Normal University Primary School
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: South China Normal University Primary School
+translated: false
 ---
 
 ### Overview of Huashi Fuxiao (South China Normal University Affiliated Primary School)

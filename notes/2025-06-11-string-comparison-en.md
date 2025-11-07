@@ -1,10 +1,10 @@
 ---
-title: Efficient String Comparison
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Efficient String Comparison
 translated: false
-generated: true
 ---
 
 To improve your workflow for comparing tab-separated strings in Beyond Compare, especially when only minor differences like spaces cause issues, consider these approaches:

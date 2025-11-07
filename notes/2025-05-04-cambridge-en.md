@@ -1,10 +1,10 @@
 ---
-title: Cambridge
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Cambridge
 translated: false
-generated: true
 ---
 
 Cambridge, a historic city in eastern England, is renowned for its prestigious university, rich scientific legacy, and cultural heritage. Located about 50 miles northeast of London in Cambridgeshire, it sits along the River Cam, which winds through its picturesque landscapes and iconic college grounds. With a population of around 125,000, Cambridge blends the charm of a small city with global significance, driven by its academic excellence, scientific contributions, and vibrant history. Below is a comprehensive introduction to Cambridge, covering its historical roots, scientific importance, cultural and academic prominence, and modern-day appeal.

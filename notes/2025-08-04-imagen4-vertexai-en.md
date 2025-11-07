@@ -1,11 +1,11 @@
 ---
-title: "Vertex AI's Imagen 4 Models"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Vertex AI's Imagen 4 Models
+translated: false
 ---
 
 Based on the code snippet you provided, you are using the `genai.Client` to interact with a model for image generation on Vertex AI. The model you've specified is `"imagen-4.0-generate-preview-06-06"`.

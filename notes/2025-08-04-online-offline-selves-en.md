@@ -1,11 +1,11 @@
 ---
-title: "Online and Offline Selves Connected"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Online and Offline Selves Connected
+translated: false
 ---
 
 Online and offline selves are rarely disconnected; instead, they form a spectrum of how we present identity, preferences and values. To dive deeper into the parallels you’ve noticed, we can draw on ideas from social psychology, identity theory and signaling. Here’s one way to frame it:

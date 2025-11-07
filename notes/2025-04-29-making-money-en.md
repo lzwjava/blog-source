@@ -1,10 +1,10 @@
 ---
-title: Making Money is Often Hard
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Making Money is Often Hard
 translated: false
-generated: true
 ---
 
 It can feel that way sometimes, can't it? Earning money is often challenging for several reasons:

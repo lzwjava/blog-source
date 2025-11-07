@@ -1,12 +1,12 @@
 ---
-title: Huawei X65 Expansion Dock Cable
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Huawei X65 Expansion Dock Cable
+translated: false
 ---
 
 The **"Huawei Smart Screen X65 Expansion Dock Signal Composite Cable (X-PORT Interface) 4K Dual-Angle High-Definition Video Transmission"** is an accessory designed for **Huawei Smart Screen X65** (and compatible with the **V75 model**).

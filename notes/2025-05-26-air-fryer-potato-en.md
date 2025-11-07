@@ -1,10 +1,10 @@
 ---
-title: Air Fryer Potato Cooking Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Air Fryer Potato Cooking Guide
 translated: false
-generated: true
 ---
 
 To cook potatoes in an air fryer, follow these steps for crispy, delicious results:

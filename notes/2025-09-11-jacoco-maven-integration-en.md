@@ -1,13 +1,13 @@
 ---
-title: Understanding JaCoCo and Maven Integration
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Understanding JaCoCo and Maven Integration
+translated: false
 ---
 
 Got it—here’s how the JaCoCo pieces in **your exact POM** work together, step-by-step, and why.

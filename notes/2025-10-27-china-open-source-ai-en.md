@@ -1,12 +1,12 @@
 ---
-title: China Leads Open-Source AI Race
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: China Leads Open-Source AI Race
+translated: false
 ---
 
 Yeah, it's definitely happening—Chinese companies like Alibaba (with Qwen3) and DeepSeek have been dropping open-source frontier models that straight-up outperform Meta's Llama 3.1 on key benchmarks for reasoning, language tasks, and efficiency. For instance, DeepSeek-V3 and Qwen models are topping global rankings on platforms like Hugging Face, sometimes with way less compute power thanks to clever optimizations like Mixture-of-Experts architectures. By mid-2025, China was holding like four of the top five spots in open-weight LLMs.

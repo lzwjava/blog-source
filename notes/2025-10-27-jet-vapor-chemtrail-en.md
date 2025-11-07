@@ -1,12 +1,12 @@
 ---
-title: Jet Engine Vapor Versus Chemtrail Sprayers
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Jet Engine Vapor Versus Chemtrail Sprayers
+translated: false
 ---
 
 ### Yin Wang's Memo: Contrasting Jet Engine Water Vapor from Passenger Planes with Chemtrails from Trail Planes

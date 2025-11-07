@@ -1,12 +1,12 @@
 ---
-title: "Guangzhou Travel Guide: Top Attractions"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Guangzhou Travel Guide: Top Attractions'
+translated: false
 ---
 
 ### Top Spots to Visit in Guangzhou: A Guide to Culture, History, Food, Economy, Creativity, and Innovation

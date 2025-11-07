@@ -1,12 +1,12 @@
 ---
-title: Installing Oracle 12c on Ubuntu
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Installing Oracle 12c on Ubuntu
+translated: false
 ---
 
 ### Installing Oracle Database 12c Release 1 (12.1.0.2 with patch 12.1.2?) from Tarball on Ubuntu 22.04 x86_64

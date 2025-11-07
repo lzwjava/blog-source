@@ -1,10 +1,10 @@
 ---
-title: Top 20 Japanese Songs
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Top 20 Japanese Songs
 translated: false
-generated: true
 ---
 
 Compiling a definitive list of the top 20 Japanese songs of all time is challenging due to the diversity of genres, eras, and metrics like YouTube streams, Billboard Japan charts, karaoke (KTV) popularity, and historical impact. The provided search results offer some insights but are incomplete for a comprehensive ranking. I’ll use a combination of historical significance, global and domestic popularity, YouTube views, Billboard Japan data, and karaoke trends, while ensuring each song’s original Japanese name is included. Where data is limited, I’ll draw on general knowledge of Japanese music’s cultural impact and cross-reference with reliable sources. The list prioritizes songs with lasting influence, chart performance, and widespread recognition, spanning traditional, enka, J-pop, anime, and modern hits.

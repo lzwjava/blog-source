@@ -1,10 +1,10 @@
 ---
-title: "MathJax Issue Troubleshooting"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: MathJax Issue Troubleshooting
 translated: false
-generated: true
 ---
 
 It seems that your MathJax configuration is not working as expected. Let's identify and fix the issue based on your provided code.

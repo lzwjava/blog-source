@@ -1,10 +1,10 @@
 ---
-title: Install qBittorrent on Ubuntu
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Install qBittorrent on Ubuntu
 translated: false
-generated: true
 ---
 
 Installing qBittorrent on Ubuntu is straightforward. Here are the steps:

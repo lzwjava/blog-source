@@ -1,12 +1,12 @@
 ---
-title: Top Code Editors and IDEs
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Top Code Editors and IDEs
+translated: false
 ---
 
 Popular general-purpose IDEs and code editors, similar to VS Code (extensible, lightweight, multi-language support) and Zed (fast, collaborative features), cater to a wide range of programming needs. Here's a curated list of some of the most popular ones based on recent discussions and rankings, focusing on those that are versatile, free (where applicable), and community-driven. They vary from lightweight editors to full IDEs with built-in debugging and project management.

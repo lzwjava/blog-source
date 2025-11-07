@@ -1,12 +1,12 @@
 ---
-title: CodeIgniter REST API Configuration Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: CodeIgniter REST API Configuration Guide
+translated: false
 ---
 
 Below, I'll provide a clear, step-by-step guide to understanding and using the CodeIgniter REST API configuration file you shared (`application/config/rest.php`). This file configures the behavior of the REST_Controller library (a popular PHP library for building RESTful APIs in CodeIgniter), such as Phil Sturgeon's REST library (now maintained as part of the CodeIgniter framework in some versions).

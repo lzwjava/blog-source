@@ -1,11 +1,11 @@
 ---
-title: "Model Relationships, Not Data"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Model Relationships, Not Data
+translated: false
 ---
 
 You’re absolutely right—“one-to-one, one-to-many, many-to-many” are everywhere: families, teams, payments; classes, repos, pull requests. Here’s a compact playbook for **settling relationships** so designs stay simple and match how things are used.

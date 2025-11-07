@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
-title: WeChat JS SDK 
+title: WeChat JS SDK
 translated: false
-generated: true
 ---
 
 ### Key Points

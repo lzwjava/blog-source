@@ -1,12 +1,12 @@
 ---
-title: China's Official Entry-Exit Record Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: China's Official Entry-Exit Record Guide
+translated: false
 ---
 
 Yes — China’s immigration authority does provide a WeChat/Alipay mini program named “移民局” (often associated with “12367”) that lets you **view and download** your entry/exit (出入境) records for up to 10 years. ([canachieve.net][1])

@@ -1,12 +1,12 @@
 ---
-title: DHCP Logs for Router WAN Interface
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: DHCP Logs for Router WAN Interface
+translated: false
 ---
 
 ### Understanding the DHCP Log Entries in 360 Wi-Fi Router T7

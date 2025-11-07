@@ -1,10 +1,10 @@
 ---
-title: Mikhail Gustokashin
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Mikhail Gustokashin
 translated: false
-generated: true
 ---
 
 Mikhail Gustokashin is a prominent figure in the field of computer science education and competitive programming, particularly known for his work at the National Research University Higher School of Economics (HSE University) in Moscow, Russia. As the Director of the Centre of Student Competitions at HSE University's Faculty of Computer Science, Gustokashin has made significant contributions to fostering algorithmic and programming talent among students and schoolchildren. His expertise lies in preparing individuals for high-level programming competitions, such as the International Collegiate Programming Contest (ICPC) and various Russian Olympiads in informatics. Below is a comprehensive introduction to his background, career, and achievements based on available information.

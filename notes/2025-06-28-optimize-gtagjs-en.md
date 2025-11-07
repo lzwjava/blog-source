@@ -1,10 +1,10 @@
 ---
-title: "Optimizing gtag.js Performance on Jekyll GitHub Pages"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Optimizing gtag.js Performance on Jekyll GitHub Pages
 translated: false
-generated: true
 ---
 
 Using `gtag.js` on a GitHub Pages site built with Jekyll presents some unique constraints, as GitHub Pages has limited server-side control and no direct access to caching headers or server-side scripting. However, you can still optimize the fetch speed of `https://www.googletagmanager.com/gtag/js?id=UA-66656236-1` using client-side techniques and Jekyll-specific configurations. Below are targeted strategies to improve its performance in this context:

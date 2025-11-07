@@ -1,10 +1,10 @@
 ---
-title: Angular Errors
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Angular Errors
 translated: false
-generated: true
 ---
 
 When working with Angular, developers often encounter specific exceptions and errors. Below is a categorized list of common issues, their causes, and solutions:

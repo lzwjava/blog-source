@@ -1,11 +1,11 @@
 ---
-title: Fix OGG Opus Decoding Errors Easily
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fix OGG Opus Decoding Errors Easily
+translated: false
 ---
 
 Short answer: don’t set `audio_channel_count` (or `sample_rate_hertz`) in `ExplicitDecodingConfig` for your OGG/Opus. That’s what’s tripping v2 with:

@@ -1,10 +1,10 @@
 ---
-title: Gordon Moore 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Gordon Moore
 translated: false
-generated: true
 ---
 
 Gordon Earle Moore (January 3, 1929 – March 24, 2023) was an American physicist, chemist, engineer, and visionary entrepreneur whose contributions to the semiconductor industry and the founding of Intel Corporation fundamentally shaped the modern computing era. Best known for formulating **Moore's Law**, which predicted the exponential growth of computing power, Moore's work as a scientist and business leader left an enduring legacy in technology, innovation, and philanthropy. Below is a comprehensive introduction to his life, achievements, and impact.

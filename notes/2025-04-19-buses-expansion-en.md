@@ -1,10 +1,10 @@
 ---
-title: "Part 5: Buses and Expansion"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Part 5: Buses and Expansion'
 translated: false
-generated: true
 ---
 
 ### 1. System Bus Standards
@@ -142,4 +142,3 @@ This tutorial outlines the fundamental concepts and practical aspects of system 
 [^18]: https://ftdichip.com/wp-content/uploads/2021/08/AN_255_USB-to-I2C-Example-using-the-FT232H-and-FT201X-devices.pdf
 
 [^19]: https://www.youtube.com/watch?v=IyGwvGzrqp8
-

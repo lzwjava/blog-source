@@ -1,10 +1,10 @@
 ---
-title: Popular Programming Languages
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Popular Programming Languages
 translated: false
-generated: true
 ---
 
 The ranking of popular programming languages can vary depending on different metrics (e.g., job demand, number of developers, repositories, etc.), but based on current trends from sources like Stack Overflow, GitHub, and TIOBE index, here are some of the most popular programming languages:

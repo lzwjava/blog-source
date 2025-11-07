@@ -1,12 +1,12 @@
 ---
-title: Checking APT Proxy Configuration and Usage
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Checking APT Proxy Configuration and Usage
+translated: false
 ---
 
 ### Checking if APT is Using a Proxy

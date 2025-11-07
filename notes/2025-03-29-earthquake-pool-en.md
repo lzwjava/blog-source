@@ -1,10 +1,10 @@
 ---
-title: Earthquake and Swimming Pool
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Earthquake and Swimming Pool
 translated: false
-generated: true
 ---
 
 A swimming pool on the top floor of a building could, in theory, act as a shock absorber during an earthquake, but its effectiveness would depend on various factors.

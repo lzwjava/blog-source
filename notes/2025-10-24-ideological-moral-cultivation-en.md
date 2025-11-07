@@ -1,12 +1,12 @@
 ---
-title: Ideological Moral Cultivation Legal Basis Outline
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Ideological Moral Cultivation Legal Basis Outline
+translated: false
 ---
 
 Here’s an **outline** for the course **Ideological and Moral Cultivation and Rule of Law** (also called “Ideological & Moral Cultivation & Legal Basis”), tailored for your National Self-Study Exam (15042) preparation. I’ll keep it in a textual outline (not a table) to fit your preference.

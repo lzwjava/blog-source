@@ -1,12 +1,12 @@
 ---
-title: Calling DB2 Stored Procedures with Parameters
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Calling DB2 Stored Procedures with Parameters
+translated: false
 ---
 
 ### Assumptions and Context

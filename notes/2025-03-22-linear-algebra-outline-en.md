@@ -1,10 +1,10 @@
 ---
-title: Course Outline for Linear Algebra 02198
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Course Outline for Linear Algebra 02198
 translated: false
-generated: true
 ---
 
 ### Key Points

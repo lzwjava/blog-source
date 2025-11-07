@@ -1,12 +1,12 @@
 ---
-title: NumPy LSTM Implementation from Scratch
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: NumPy LSTM Implementation from Scratch
+translated: false
 ---
 
 This is a basic implementation of a Long Short-Term Memory (LSTM) network using only NumPy, inspired by the concepts in Christopher Olah's blog post on Understanding LSTM Networks. It includes the core gates (forget, input, candidate cell, and output) and focuses on the forward pass. The class handles a single time step via `forward()` and an entire sequence via `forward_sequence()`.

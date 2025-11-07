@@ -1,10 +1,10 @@
 ---
-title: Deep Learning, Machine Learning, and GPT Progress (2010-2025)
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Deep Learning, Machine Learning, and GPT Progress (2010-2025)
 translated: false
-generated: true
 ---
 
 Here's a detailed timeline of the major breakthroughs in deep learning, machine learning, and GPT from 2010 to my knowledge cutoff in October 2024:

@@ -1,10 +1,10 @@
 ---
-title: Google One 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Google One
 translated: false
-generated: true
 ---
 
 When your Google One membership expires, Google will not immediately delete your files. Here's what typically happens:

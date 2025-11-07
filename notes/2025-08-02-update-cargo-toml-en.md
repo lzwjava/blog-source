@@ -1,11 +1,11 @@
 ---
-title: Compile Example with Cargo
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Compile Example with Cargo
+translated: false
 ---
 
 To get your example compiling, you need to:

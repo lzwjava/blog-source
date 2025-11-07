@@ -1,11 +1,11 @@
 ---
-title: Logging Proxy Requests in Express
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Logging Proxy Requests in Express
+translated: false
 ---
 
 If you’re using [`http-proxy-middleware`](https://github.com/chimurai/http-proxy-middleware) in an Express app, you can hook into its `onProxyReq` and `onProxyRes` events to log request parameters and body.

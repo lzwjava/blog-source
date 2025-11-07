@@ -1,12 +1,12 @@
 ---
-title: Secret Superstar Joyful Devotional Dance
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-3
+title: Secret Superstar Joyful Devotional Dance
+translated: false
 ---
 
 ### Lyrics of "Nachdi Phira"

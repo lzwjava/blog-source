@@ -1,11 +1,11 @@
 ---
-title: Unittest vs Pytest Key Differences
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Unittest vs Pytest Key Differences
+translated: false
 ---
 
 Here’s a crisp, no-table comparison focused on what actually changes in your day-to-day testing.

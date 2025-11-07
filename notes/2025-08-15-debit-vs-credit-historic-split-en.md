@@ -1,11 +1,11 @@
 ---
-title: "Debit vs. Credit: Historic Split in Payment Industry"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: 'Debit vs. Credit: Historic Split in Payment Industry'
+translated: false
 ---
 
 I get what you mean — “debit” and “credit” are really functional features (how the money is settled and whose money it is), but banks have historically turned them into rigid **product categories**, which then shaped regulation, marketing, and customer perception.

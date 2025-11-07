@@ -1,10 +1,10 @@
 ---
-title: C Program to Decode a TCP Packet
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: C Program to Decode a TCP Packet
 translated: false
-generated: true
 ---
 
 Decoding a TCP packet in C involves capturing raw network data (typically using raw sockets or a packet capture mechanism) and then parsing the headers step-by-step: the Ethernet header (if present), the IP header, and finally the TCP header. Since TCP runs over IP, you’ll need to extract the IP header first to locate the TCP segment within the packet. For simplicity, I’ll assume we’re working with IPv4 and a raw socket capturing IP packets (no Ethernet layer).

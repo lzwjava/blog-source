@@ -1,10 +1,10 @@
 ---
-title: Philippines
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Philippines
 translated: false
-generated: true
 ---
 
 ## Geographic Identity
@@ -53,4 +53,3 @@ The **Bangko Sentral ng Pilipinas (BSP)** and **Securities and Exchange Commissi
 
 ## Conclusion
 The Philippines is a dynamic country with a rich cultural history, a developing economy, and significant advancements in technology and AI. While challenges such as regulatory clarity and infrastructure gaps persist, the nation continues to embrace digital transformation and global economic integration.
-

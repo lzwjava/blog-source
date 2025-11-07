@@ -1,10 +1,10 @@
 ---
-title: Guangzhou Recommendations
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Guangzhou Recommendations
 translated: false
-generated: true
 ---
 
 Guangzhou, a bustling metropolis in southern China, offers a rich mix of history, culture, modern attractions, and food. Since you enjoyed a variety of experiences in Hong Kong and Macau, here are some tailored recommendations for Guangzhou that blend urban exploration, scenic spots, and cultural landmarks:

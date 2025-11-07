@@ -1,12 +1,12 @@
 ---
-title: Hiding iOS Timer Distractions Workaround
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Hiding iOS Timer Distractions Workaround
+translated: false
 ---
 
 I totally get the frustration—iOS timers are super convenient for quick reminders, but that persistent countdown in the Dynamic Island (or status bar on older devices) can feel intrusive when you're trying to focus on other things. It's a design choice by Apple to keep the timer front-and-center, but unfortunately, there's no built-in setting to hide or minimize it while it's running. Here's how you can work around it and stick to something less distracting like the Clock app:

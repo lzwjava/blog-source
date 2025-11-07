@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Computer Networks Note - Conversation"
 audio: true
+layout: post
+title: Computer Networks Note - Conversation
 ---
 
 A: Hey, I’ve been hearing a lot about the Transport Layer in networking. Can you break it down for me?
@@ -207,4 +207,3 @@ B: Exactly. Even in virtual networks, understanding how MAC learning, flooding, 
 A: Well, this has been a great discussion. Data Link Layer is way more complex and important than most give it credit for.
 
 B: Absolutely. It’s the unsung hero of the OSI model—doing the dirty work of local delivery while staying invisible most of the time.
-

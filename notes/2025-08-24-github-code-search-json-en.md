@@ -1,11 +1,11 @@
 ---
-title: GitHub Code Search Tips JSON
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: GitHub Code Search Tips JSON
+translated: false
 ---
 
 You can write a GitHub code search query like this:

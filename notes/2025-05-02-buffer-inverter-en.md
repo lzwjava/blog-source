@@ -1,10 +1,10 @@
 ---
-title: Buffer and Inverter Circuits
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Buffer and Inverter Circuits
 translated: false
-generated: true
 ---
 
 Here is a tutorial on buffer and inverter circuits based on the provided YouTube video:

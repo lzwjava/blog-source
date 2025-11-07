@@ -1,12 +1,12 @@
 ---
-title: A Progressive Distributed Systems Roadmap
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: A Progressive Distributed Systems Roadmap
+translated: false
 ---
 
 Excellent — that’s a big, deep topic. Let’s build a **progressive roadmap** for you to master *Distributed Systems*, covering the fundamentals (mesh networks, replication, partitioning, consensus, etc.) up to practical implementation and research-level understanding.

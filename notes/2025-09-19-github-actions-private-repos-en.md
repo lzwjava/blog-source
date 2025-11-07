@@ -1,12 +1,12 @@
 ---
-title: GitHub Actions for Private Repositories Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: GitHub Actions for Private Repositories Guide
+translated: false
 ---
 
 Yes, private repositories can use GitHub Actions as well. However, there are some differences when compared to public repositories:

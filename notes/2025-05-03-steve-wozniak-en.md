@@ -1,10 +1,10 @@
 ---
-title: Steve Wozniak
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Steve Wozniak
 translated: false
-generated: true
 ---
 
 Steve Wozniak, affectionately known as "Woz," is a pioneering American electronics engineer, computer programmer, philanthropist, and inventor. He is best known as the co-founder of Apple Inc., alongside Steve Jobs and Ronald Wayne. While Jobs was the visionary and marketing force, Wozniak was the technical mastermind, single-handedly designing and building the early computers that launched the personal computer revolution.

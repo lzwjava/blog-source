@@ -1,11 +1,11 @@
 ---
-title: Progressive Lens Trial Frame Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Progressive Lens Trial Frame Guide
+translated: false
 ---
 
 “渐进试戴架” in English is usually called a **progressive lens trial frame** or **progressive trial frame set**.

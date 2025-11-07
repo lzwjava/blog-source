@@ -1,12 +1,12 @@
 ---
-title: MIT Professor Advances AI Safety
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: MIT Professor Advances AI Safety
+translated: false
 ---
 
 Aleksander Mądry is a prominent computer scientist and professor at MIT, where he holds the Cadence Design Systems Professorship in the Electrical Engineering and Computer Science (EECS) department. He is also a member of the Computer Science and Artificial Intelligence Laboratory (CSAIL) and serves as the Director of the MIT Center for Deployable Machine Learning. Mądry earned his Ph.D. from MIT in 2011, followed by postdoctoral work at Microsoft Research New England and a faculty position at EPFL before returning to MIT in 2015.

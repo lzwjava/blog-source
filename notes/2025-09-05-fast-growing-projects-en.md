@@ -1,11 +1,11 @@
 ---
-title: Fast-Growing Open-Source Projects Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fast-Growing Open-Source Projects Overview
+translated: false
 ---
 
 Here are some standout **open‑source projects** that have grown rapidly over the **past two years**—not just in overall popularity, but in real momentum measured by metrics like GitHub stars, forks, watchers, and active contributors:

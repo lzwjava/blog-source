@@ -1,10 +1,10 @@
 ---
-title: History of DBS Bank
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: History of DBS Bank
 translated: false
-generated: true
 ---
 
 DBS Bank Ltd, formerly known as **The Development Bank of Singapore Limited**, is a leading financial institution in Asia, headquartered in **Singapore**. It was established in **1968** by the **Government of Singapore** to take over the industrial financing activities from the Economic Development Board (EDB). Over the years, DBS has transformed from a development-focused bank into one of the region’s largest and most innovative financial institutions.  

@@ -1,10 +1,10 @@
 ---
-title: Przemysław Dębiak
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Przemysław Dębiak
 translated: false
-generated: true
 ---
 
 Przemysław Dębiak, widely known by his handle "Psyho," is a Polish computer scientist, competitive programmer, and puzzle-solving champion renowned for his exceptional achievements in international programming competitions and his expertise in algorithms, artificial intelligence, and data science. Born on July 28, 1983, in Gdynia, Poland, Dębiak has established himself as one of the most accomplished figures in the global competitive programming community, with a track record that includes multiple victories in prestigious tournaments like the TopCoder Open (TCO) and Imagine Cup. His intellectual prowess extends beyond coding to puzzle-solving, where he has represented Poland at the World Puzzle Championship and World Sudoku Championship, earning multiple national titles. A member of Mensa, Dębiak combines technical brilliance with a passion for problem-solving, game design, and advancing AI research, notably contributing to groundbreaking projects like OpenAI Five. Below is a comprehensive introduction to his career, achievements, and contributions.

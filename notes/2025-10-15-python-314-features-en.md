@@ -1,12 +1,12 @@
 ---
-title: Python 3.14 Major New Features
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Python 3.14 Major New Features
+translated: false
 ---
 
 ### Major New Features in Python 3.14

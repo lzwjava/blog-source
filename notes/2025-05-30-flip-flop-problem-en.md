@@ -1,10 +1,10 @@
 ---
-title: JK Flip-Flop Experiment and State Table
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: JK Flip-Flop Experiment and State Table
 translated: false
-generated: true
 ---
 
 The image contains a description in Chinese about a JK flip-flop, a type of flip-flop circuit used in digital electronics, followed by a state transition table.

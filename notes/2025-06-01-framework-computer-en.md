@@ -1,10 +1,10 @@
 ---
-title: Framework Computer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Framework Computer
 translated: false
-generated: true
 ---
 
 Framework Computer has garnered significant praise for its innovative approach to laptops, particularly for its focus on repairability, upgradeability, and modularity. Here’s a balanced look at why it’s considered great by many, along with some caveats, based on available information:

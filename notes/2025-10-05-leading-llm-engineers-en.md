@@ -1,12 +1,12 @@
 ---
-title: Leading LLM Engineers and Researchers
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Leading LLM Engineers and Researchers
+translated: false
 ---
 
 ### Top 10 AI Experts/Engineers in the LLM Era

@@ -1,11 +1,11 @@
 ---
-title: Markdown to Slides Made Easy
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Markdown to Slides Made Easy
+translated: false
 ---
 
 Marp CLI lets you turn Markdown files into slides (HTML, PDF, PPTX). It’s especially useful if you want to write presentations in plain Markdown with minimal formatting effort.

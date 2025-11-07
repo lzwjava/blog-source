@@ -1,12 +1,12 @@
 ---
-title: FM Radio Broadcast Band Frequencies
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: FM Radio Broadcast Band Frequencies
+translated: false
 ---
 
 Yes, exactly! 1 megahertz (MHz) equals \\(1 \times 10^6\\) hertz (Hz), or 1,000,000 cycles per second. 

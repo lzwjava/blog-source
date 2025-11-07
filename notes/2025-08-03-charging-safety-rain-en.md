@@ -1,11 +1,11 @@
 ---
-title: "Charging in Heavy Rain: Safety Tips"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: 'Charging in Heavy Rain: Safety Tips'
+translated: false
 ---
 
 **Is it safe to charge during heavy rain?**

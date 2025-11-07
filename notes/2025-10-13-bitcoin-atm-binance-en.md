@@ -1,12 +1,12 @@
 ---
-title: Bitcoin ATM to Binance Transfer Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Bitcoin ATM to Binance Transfer Guide
+translated: false
 ---
 
 ### Understanding Your Query

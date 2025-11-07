@@ -1,10 +1,10 @@
 ---
-title: Main Cities in India
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Main Cities in India
 translated: false
-generated: true
 ---
 
 India, officially the Republic of India, is a vibrant and diverse nation in South Asia, known for its rich history, cultural heritage, and rapid modernization. As the world’s largest democracy and second-most populous country (with over 1.4 billion people as of 2025), India is a land of contrasts, blending ancient traditions with cutting-edge innovation. Below is a comprehensive introduction to India, covering its geography, history, culture, economy, politics, and major cities, with an emphasis on its urban centers as requested.

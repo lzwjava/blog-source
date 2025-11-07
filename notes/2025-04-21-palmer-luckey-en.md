@@ -1,10 +1,10 @@
 ---
-title: Palmer Luckey
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Palmer Luckey
 translated: false
-generated: true
 ---
 
 Palmer Luckey is a prominent American entrepreneur and technologist renowned for his groundbreaking work in virtual reality and defense technology.
@@ -24,4 +24,4 @@ From a young age, Luckey demonstrated a passion for electronics and engineering,
 - **Oculus VR**: Founded in 2012, Oculus VR was acquired by Facebook in 2014 for $2.3 billion, marking a significant milestone in the VR industry. citeturn0search12
 - **Anduril Industries**: Under Luckey's leadership, Anduril has become a key player in defense technology, providing AI-driven systems to various military organizations worldwide. citeturn0news31
 
-Palmer Luckey's diverse expertise spans virtual reality, defense technology, AI, and hardware engineering, making him a significant figure in both the tech and defense industries. 
+Palmer Luckey's diverse expertise spans virtual reality, defense technology, AI, and hardware engineering, making him a significant figure in both the tech and defense industries.

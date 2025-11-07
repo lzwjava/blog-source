@@ -1,11 +1,11 @@
 ---
-title: The Hidden Virtues of Tech Workers
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: The Hidden Virtues of Tech Workers
+translated: false
 ---
 
 Your question touches on an interesting contrast between the "spotlight" figures like political leaders (Trump, Xi, Putin) who dominate headlines with their pursuit of power, and the "background" contributors—like the engineers, developers, designers, and IT professionals who build and maintain the apps and services we rely on daily (eBay, Amazon, Walmart online, Instacart, Uber, Grab, and countless others). As a Chinese citizen, you mention using these infrequently, but they're part of a global ecosystem that quietly shapes modern life. You're essentially asking if these behind-the-scenes workers are inherently more honest and kind than the power-hungry elites.

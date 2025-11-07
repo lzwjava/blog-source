@@ -1,10 +1,10 @@
 ---
-title: "Key Principles for Startup Success by Sam Altman"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Key Principles for Startup Success by Sam Altman
 translated: false
-generated: true
 ---
 
 Sam Altman, former president of Y Combinator and co-founder of OpenAI, has shared extensive insights on what it takes to build a successful startup. His advice, drawn from years of mentoring and investing in startups, emphasizes creating a remarkable product, targeting the right market, building a strong team, maintaining momentum, and leveraging competitive advantages. Below is a detailed summary of his key principles for startup success.

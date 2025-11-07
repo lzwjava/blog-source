@@ -1,11 +1,11 @@
 ---
-title: Fix DeepSeek Claude Code Schema Mismatch
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fix DeepSeek Claude Code Schema Mismatch
+translated: false
 ---
 
 Short answer: schema mismatch.

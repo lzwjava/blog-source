@@ -1,10 +1,10 @@
 ---
-title: GPU Memory Management for Large Models
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: GPU Memory Management for Large Models
 translated: false
-generated: true
 ---
 
 Running a 64GB GGUF file on a local desktop with a 12GB NVIDIA GPU is challenging but potentially feasible with careful memory management, quantization, and layer offloading. However, there are no specific "executor batch" tools designed exclusively for precise GPU memory control in this context. Instead, you can leverage existing frameworks like `llama.cpp` or `Oobabooga's Text-Generation-WebUI` with quantization and offloading techniques to manage GPU memory. Below, I’ll outline the feasibility, challenges, and steps to attempt this.

@@ -1,12 +1,12 @@
 ---
-title: Clipboard to Git Note Saver
-date: 2025-09-06
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-06
 generated: true
 image: false
+lang: en
+layout: post
+title: Clipboard to Git Note Saver
+translated: false
 ---
 
 Absolutely—this is very doable with Python + `pyperclip`. Below is a small daemon-style script that polls the clipboard, and whenever it sees **new** text longer than 500 chars, it writes a Markdown note into a Git repo and commits it (optionally pushes if configured).

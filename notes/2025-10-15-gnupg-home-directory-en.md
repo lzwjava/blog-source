@@ -1,12 +1,12 @@
 ---
-title: GnuPG Home Directory Contents Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: GnuPG Home Directory Contents Explained
+translated: false
 ---
 
 These files and directories are part of your GnuPG (GPG) home directory (`~/.gnupg/`), which stores cryptographic keys and related data for encryption, signing, and authentication. GPG is a tool for secure communication and data protection. Here's a breakdown of each one based on standard GnuPG 2.1+ behavior:

@@ -1,12 +1,12 @@
 ---
-title: Hacking Your Mind for Productivity
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hacking Your Mind for Productivity
+translated: false
 ---
 
 ### Liu Weipeng's Blog on Psychology

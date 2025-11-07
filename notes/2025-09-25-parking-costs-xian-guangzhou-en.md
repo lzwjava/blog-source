@@ -1,12 +1,12 @@
 ---
-title: "Parking Cost Differences: Xi'an vs. Guangzhou"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: 'Parking Cost Differences: Xi''an vs. Guangzhou'
+translated: false
 ---
 
 ### Why Parking in Xi'an is Generally Less Expensive Than in Guangzhou

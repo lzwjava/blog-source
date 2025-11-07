@@ -1,10 +1,10 @@
 ---
-title: "Grant PostgreSQL Database Access"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Grant PostgreSQL Database Access
 translated: false
-generated: true
 ---
 
 To grant a user access to a database in PostgreSQL, you need to follow these steps. I'll guide you through the process using SQL commands in the psql command-line interface.

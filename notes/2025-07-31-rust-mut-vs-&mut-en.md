@@ -1,11 +1,11 @@
 ---
-title: Rust's `mut` and `&mut` Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Rust's `mut` and `&mut` Explained
+translated: false
 ---
 
 In Rust, the keywords `mut` and `&mut` serve related but distinct purposes, and they're not directly equivalent to Java's deep/shallow copy concepts or C's pointers—though there are some analogies we can draw for clarity. I'll break this down step by step, explain the differences, and address your questions about value passing vs. reference passing, mutability, and how changes affect the original data. I'll use examples based on your provided code to illustrate.

@@ -1,10 +1,10 @@
 ---
-title: "Softening Your Essay for Better Communication"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Softening Your Essay for Better Communication
 translated: false
-generated: true
 ---
 
 ### Suggestions for Improving the Essay

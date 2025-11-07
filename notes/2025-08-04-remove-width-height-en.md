@@ -1,11 +1,11 @@
 ---
-title: "Remove `width` and `height`"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Remove `width` and `height`
+translated: false
 ---
 
 The error you're seeing:

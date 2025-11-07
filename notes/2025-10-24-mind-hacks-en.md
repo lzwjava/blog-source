@@ -1,12 +1,12 @@
 ---
-title: Mind Hacks for Your Brain
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Mind Hacks for Your Brain
+translated: false
 ---
 
 ### Overview of *Mind Hacks: Tips and Tools for Using Your Brain*

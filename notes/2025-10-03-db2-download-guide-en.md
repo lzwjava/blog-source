@@ -1,12 +1,12 @@
 ---
-title: Db2 Download Guide By System
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Db2 Download Guide By System
+translated: false
 ---
 
 It looks like you're looking at the download options for IBM Db2 Community Edition (version 12.1.2). The best choice depends entirely on your operating system (OS) and hardware architecture. Here's a quick guide to help you decide:

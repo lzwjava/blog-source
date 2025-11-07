@@ -1,10 +1,10 @@
 ---
-title: Zhiwei Yun
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Zhiwei Yun
 translated: false
-generated: true
 ---
 
 Zhiwei Yun (Chinese: 恽之玮; pinyin: Yùn Zhīwěi), born in September 1982 in Changzhou, China, is a distinguished Chinese-American mathematician and professor at the Massachusetts Institute of Technology (MIT). Renowned for his groundbreaking contributions to number theory, algebraic geometry, and representation theory, Yun’s work primarily focuses on the Langlands program, a vast and influential framework aiming to unify disparate areas of mathematics, such as number theory and geometry. His research has earned him international acclaim, numerous prestigious awards, and a reputation as one of the leading mathematicians of his generation. Below is a comprehensive introduction to Yun’s life, education, career, mathematical contributions, and accolades, written with clarity for a broad audience while including technical details for those familiar with mathematics.

@@ -1,12 +1,12 @@
 ---
-title: DeepSeek Sparse Attention Technical Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: deepseek/deepseek-v3.2-exp
+title: DeepSeek Sparse Attention Technical Overview
+translated: false
 ---
 
 Let me search for more specific information about DeepSeek Sparse Attention (DSA) to provide a comprehensive explanation.

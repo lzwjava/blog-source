@@ -1,12 +1,12 @@
 ---
-title: GPUs and CUDA Capabilities Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: GPUs and CUDA Capabilities Explained
+translated: false
 ---
 
 ### What Can GPUs and CUDA Do?

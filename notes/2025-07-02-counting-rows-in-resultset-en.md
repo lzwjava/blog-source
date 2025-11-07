@@ -1,10 +1,10 @@
 ---
-title: Counting Rows in Scrollable ResultSet
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Counting Rows in Scrollable ResultSet
 translated: false
-generated: true
 ---
 
 In Java, when you are working with a `ResultSet` (e.g., through `Statement.executeQuery()`), counting the rows can be tricky if the `fetchSize` is set to `0` (which means that the JDBC driver will fetch rows as needed). Moreover, using a scrollable result set (using `ResultSet.TYPE_SCROLL_INSENSITIVE` or `ResultSet.TYPE_SCROLL_SENSITIVE`) allows you to navigate through the result set but requires more memory as the rows are loaded into the memory.

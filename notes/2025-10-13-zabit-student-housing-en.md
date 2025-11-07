@@ -1,12 +1,12 @@
 ---
-title: ZABIT Student Housing in Hong Kong
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: ZABIT Student Housing in Hong Kong
+translated: false
 ---
 
 ### Ziroom and ZABIT in Hong Kong

@@ -1,12 +1,12 @@
 ---
-title: Optimizing Docker Memory for LibreChat
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Optimizing Docker Memory for LibreChat
+translated: false
 ---
 
 ### Understanding Docker's Memory Usage with LibreChat

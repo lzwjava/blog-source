@@ -1,10 +1,10 @@
 ---
-title: Softmax Function in Deep Learning
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Softmax Function in Deep Learning
 translated: false
-generated: true
 ---
 
 ### What is Softmax?

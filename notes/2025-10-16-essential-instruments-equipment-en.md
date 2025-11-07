@@ -1,12 +1,12 @@
 ---
-title: Essential Music Instruments and Equipment
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Essential Music Instruments and Equipment
+translated: false
 ---
 
 ### Major Music Equipment: Popular Instruments and Essentials

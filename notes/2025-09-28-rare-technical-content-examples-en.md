@@ -1,12 +1,12 @@
 ---
-title: Rare High-Value Technical Content Examples
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-sonnet-4
+title: Rare High-Value Technical Content Examples
+translated: false
 ---
 
 Here are more examples of that valuable-but-rare content:

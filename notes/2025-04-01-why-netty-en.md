@@ -1,10 +1,10 @@
 ---
-title: Why Choose Netty
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Why Choose Netty
 translated: false
-generated: true
 ---
 
 Netty is a powerful, open-source, asynchronous event-driven network application framework for Java. It’s widely used to build high-performance, scalable, and maintainable networked applications. Let me break down what you can use Netty for and how it’s applied:

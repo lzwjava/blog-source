@@ -1,10 +1,10 @@
 ---
-title: "Removing Custom Models in GitHub Copilot"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Removing Custom Models in GitHub Copilot
 translated: false
-generated: true
 ---
 
 To remove a model in the GitHub Copilot extension for Visual Studio Code (VS Code), note that built-in models (like the default GitHub Copilot model) cannot be removed, as they are part of the extension. However, if you're referring to a custom model you've added via a third-party provider (e.g., Anthropic, OpenAI, Google Gemini, or others) using your own API key, you can effectively remove it by deleting the associated API key and provider details. This feature is in preview and may not be available for Copilot Business or Enterprise users yet.

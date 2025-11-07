@@ -1,12 +1,12 @@
 ---
-title: Azure CLI Quick Start Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Azure CLI Quick Start Guide
+translated: false
 ---
 
 Azure CLI (Command-Line Interface) is a cross-platform toolset for managing Azure resources from the command line. It's ideal for automating tasks, scripting deployments, and interacting with Azure services without needing the web portal. It supports Bash, PowerShell, and Command Prompt on Windows, macOS, and Linux.

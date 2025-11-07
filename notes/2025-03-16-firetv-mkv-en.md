@@ -1,10 +1,10 @@
 ---
-title: Playing MKV Files on Fire TV Stick
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Playing MKV Files on Fire TV Stick
 translated: false
-generated: true
 ---
 
 No, the Fire TV Stick does not have the Infuse app. Infuse is a media player primarily designed for Apple devices such as iPhone, iPad, Apple TV, Mac, and Vision, and there is no official version available for Fire TV Stick or Android TV devices. However, you can still play MKV files from another laptop on your Fire TV Stick using alternative apps and methods. Here are some options:

@@ -1,12 +1,12 @@
 ---
-title: Alibaba Cloud CTO Jingren Zhou
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Alibaba Cloud CTO Jingren Zhou
+translated: false
 ---
 
 ## Jingren Zhou

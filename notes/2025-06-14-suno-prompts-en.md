@@ -1,10 +1,10 @@
 ---
-title: Suno Prompts
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Suno Prompts
 translated: false
-generated: true
 ---
 
 The description you've provided outlines the steps involved in an instruction cycle in a basic computer architecture, specifically within a micro-programmed control unit. Let’s break down the details step by step:
@@ -425,4 +425,3 @@ ER模型，将实体与关系描绘，
 在Web与系统中，数据永不停航。  
 未来的路上，数据引领我们，  
 在这片数字天地里，梦想将得以成真。
-

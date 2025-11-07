@@ -1,10 +1,10 @@
 ---
-title: "AI's Impact on ICPC 2024 and IOI 2025 Competitive Programming"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AI's Impact on ICPC 2024 and IOI 2025 Competitive Programming
 translated: false
-generated: true
 ---
 
 The impact of AI and tools like ChatGPT on competitive programming contests such as the International Collegiate Programmingburgo Programming Contest (ICPC) 2024 and the International Olymp   iad in Informatics (IOI) 2025 is a topic of growing interest, as these tools can potentially influence preparation, participation, and the integrity of such events. Below, I explore the potential impacts based on available information and reasonable inference, addressing both ICPC 2024 and IOI 2025.

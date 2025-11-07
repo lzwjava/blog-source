@@ -1,12 +1,12 @@
 ---
-title: TiDB versus CockroachDB Comparison
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: TiDB versus CockroachDB Comparison
+translated: false
 ---
 
 ### TiDB vs. CockroachDB: A Quick Comparison

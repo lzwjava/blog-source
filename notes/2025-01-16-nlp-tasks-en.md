@@ -1,7 +1,7 @@
 ---
-layout: post  
-title: "NLP Tasks"  
-audio: true  
+audio: true
+layout: post
+title: NLP Tasks
 ---
 
 Basic NLP (Natural Language Processing) tasks are foundational for understanding, processing, and generating human language. Here are some core tasks in NLP:

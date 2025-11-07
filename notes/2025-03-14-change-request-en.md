@@ -1,10 +1,10 @@
 ---
-title: How to Use Change Request
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: How to Use Change Request
 translated: false
-generated: true
 ---
 
 To add a group to a Change Request in ServiceNow, you need to assign a group to the **Assignment group** field within the Change Request form. Below is a detailed, step-by-step guide to help you through the process.

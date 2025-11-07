@@ -1,10 +1,10 @@
 ---
-title: History of Computers 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: History of Computers
 translated: false
-generated: true
 ---
 
 The history of computers is a fascinating journey that spans thousands of years, from ancient calculation tools to modern artificial intelligence. Here’s a brief overview:

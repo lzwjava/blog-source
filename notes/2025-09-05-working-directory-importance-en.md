@@ -1,11 +1,11 @@
 ---
-title: Working Directory Importance for Coding Agents
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Working Directory Importance for Coding Agents
+translated: false
 ---
 
 Yes — you’ve got the right intuition.

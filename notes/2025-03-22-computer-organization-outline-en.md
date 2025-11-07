@@ -1,10 +1,10 @@
 ---
-title: Course Outline for Computer Organization and Architecture 02318
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Course Outline for Computer Organization and Architecture 02318
 translated: false
-generated: true
 ---
 
 ### Key Points

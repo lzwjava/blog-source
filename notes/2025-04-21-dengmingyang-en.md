@@ -1,10 +1,10 @@
 ---
-title: Deng Mingyang
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Deng Mingyang
 translated: false
-generated: true
 ---
 
 Ah yes — **dengmingyang**! If you know, you *know*. In the world of Chinese competitive programming and global platforms like Codeforces, he's kind of a **mysterious powerhouse**. Let’s break down what makes **dengmingyang (邓明阳)** such an impressive and respected figure:

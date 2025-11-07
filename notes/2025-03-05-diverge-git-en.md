@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Diverged Git Branches
 translated: false
-generated: true
 ---
 
 When your local `main` branch and the remote `origin/main` branch have diverged in Git—with 74 and 70 different commits respectively—it means they share a common ancestor but have since developed unique commits. Your goal is to make your local `main` branch match `origin/main` by resetting your local branch to the common ancestor (the "parent of both") and then using `git pull` to bring in the remote changes, effectively discarding your local diverging commits in favor of the remote ones. Below are the steps to achieve this.

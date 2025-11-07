@@ -1,12 +1,12 @@
 ---
-title: Linux Firewall Setup Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Linux Firewall Setup Guide
+translated: false
 ---
 
 Good question — setting up a firewall in Linux (like **Red Hat** or **Ubuntu**) mainly involves using either **`firewalld`** or **`ufw`**, depending on your system. Below is a clear guide for both families, so you can choose the right one.

@@ -1,10 +1,10 @@
 ---
-title: Lost Connections
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Lost Connections
 translated: false
-generated: true
 ---
 
 *Lost Connections: Uncovering the Real Causes of Depression – and the Unexpected Solutions* by Johann Hari, published in 2018, is a thought-provoking, deeply researched exploration of depression and anxiety, challenging conventional narratives about their causes and treatments. Part memoir, part investigative journalism, and part scientific inquiry, the book weaves Hari’s personal experiences with depression alongside extensive interviews with researchers, psychologists, and individuals worldwide to propose a radical rethinking of mental health. Hari argues that depression is not primarily a biological defect or a "chemical imbalance" in the brain, as often claimed, but rather a response to profound social, psychological, and environmental disconnections in modern life. Through this lens, he offers a hopeful framework for addressing mental health by fostering meaningful reconnection.

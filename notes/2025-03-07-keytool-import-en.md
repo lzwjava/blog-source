@@ -1,10 +1,10 @@
 ---
-title: Importing Certificates with Keytool
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Importing Certificates with Keytool
 translated: false
-generated: true
 ---
 
 To address your query about using the `keytool -importcert` command to import a certificate into the `jre/lib/security/cacerts` file and encountering a "password verification failed" error with a `java.security.UnrecoverableException`, let’s break this down step-by-step to understand the issue, how to fix it, and what the possible password might be.

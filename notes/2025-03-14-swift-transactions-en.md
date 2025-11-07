@@ -1,10 +1,10 @@
 ---
-title: How SWIFT Transactions Work
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: How SWIFT Transactions Work
 translated: false
-generated: true
 ---
 
 ### How Do SWIFT Transactions Work Across Multiple Banks?

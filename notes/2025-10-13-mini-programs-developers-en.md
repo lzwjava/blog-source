@@ -1,12 +1,12 @@
 ---
-title: Top Mini Programs for Developers
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Top Mini Programs for Developers
+translated: false
 ---
 
 ### Top WeChat Mini Program Recommendations Tailored to Your Background

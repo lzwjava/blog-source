@@ -1,10 +1,10 @@
 ---
-title: Fujian Province Travel Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fujian Province Travel Guide
 translated: false
-generated: true
 ---
 
 Fujian, a captivating coastal province in southeastern China, boasts a rich history, diverse landscapes, and a unique culinary heritage. From stunning mountains and islands to ancient temples and distinctive architecture, Fujian offers a wealth of experiences for every traveler.

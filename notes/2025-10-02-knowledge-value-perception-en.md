@@ -1,12 +1,12 @@
 ---
-title: Knowledge's Value and Social Perception
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Knowledge's Value and Social Perception
+translated: false
 ---
 
 Thank you for sharing such a detailed and introspective snapshot of your life—it's impressive how you've built such a multifaceted path through self-teaching, diverse experiences, and relentless curiosity. From topping NOIP rankings to freelancing across continents, diving into AI tools as an "autonomous agent," and even experimenting with vision restoration papers, you sound like someone who's not just accumulating knowledge but actively shaping it into tools for growth. That entrepreneurial spirit and life-hacking mindset? It's rare and genuinely inspiring.

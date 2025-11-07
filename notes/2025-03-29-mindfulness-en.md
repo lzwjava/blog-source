@@ -1,10 +1,10 @@
 ---
-title: Achieving Mindfulness
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Achieving Mindfulness
 translated: false
-generated: true
 ---
 
 Achieving mindfulness involves intentionally focusing your attention on the present moment without judgment. It's about being aware of your thoughts, feelings, bodily sensations, and the environment around you in a non-reactive way. Here's a breakdown of how to cultivate mindfulness:

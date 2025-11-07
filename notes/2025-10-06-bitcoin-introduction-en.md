@@ -1,12 +1,12 @@
 ---
-title: "Bitcoin: A Digital Currency Introduction"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Bitcoin: A Digital Currency Introduction'
+translated: false
 ---
 
 ### What is Bitcoin?

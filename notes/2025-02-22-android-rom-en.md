@@ -1,8 +1,8 @@
 ---
-layout: post
-title: "Android ROM"
 audio: false
 lang: en
+layout: post
+title: Android ROM
 ---
 
 If you're looking for an open-source and popular Android ROM, here are some top recommendations based on their widespread use, community support, and active development as of February 22, 2025:

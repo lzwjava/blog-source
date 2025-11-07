@@ -1,10 +1,10 @@
 ---
-title: Ajay V. Bhatt
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Ajay V. Bhatt
 translated: false
-generated: true
 ---
 
 Ajay V. Bhatt is an Indian-American computer architect and technologist, widely recognized as the co-inventor of the Universal Serial Bus (USB), a technology that revolutionized device connectivity and became a global standard for data transfer and power delivery. Born on September 6, 1957, in Vadodara, Gujarat, India, Bhatt’s innovative contributions extend beyond USB to include technologies like Accelerated Graphics Port (AGP), PCI Express, Platform Power Management architecture, and various chipset advancements. With over 38 years of experience in the computer industry, Bhatt has established himself as a thought leader in platform and silicon-level architecture, holding 132 U.S. and international patents, with several more pending. His work has not only transformed the tech landscape but also earned him prestigious accolades, including the Padma Shri, India’s fourth-highest civilian honor, in 2025.

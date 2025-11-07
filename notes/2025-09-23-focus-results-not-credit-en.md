@@ -1,12 +1,12 @@
 ---
-title: Focus on Results, Not Credit Assignment
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Focus on Results, Not Credit Assignment
+translated: false
 ---
 
 Sure, I'd be happy to expand on that idea. The philosophy you're describing—prioritizing "getting things done" over assigning blame or credits—is a cornerstone of effective team dynamics, especially in fast-paced work environments like companies, projects, or any group effort. Let me break it down step by step:

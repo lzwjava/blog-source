@@ -1,12 +1,12 @@
 ---
-title: MiniMax-M2 Enhances Reasoning with Interleaved Thinking
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: MiniMax-M2 Enhances Reasoning with Interleaved Thinking
+translated: false
 ---
 
 ### Interleaved Thinking in MiniMax-M2

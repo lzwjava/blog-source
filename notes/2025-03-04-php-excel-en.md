@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
-title: PHPExcel Library 
+title: PHPExcel Library
 translated: false
-generated: true
 ---
 
 ### Key Points

@@ -1,10 +1,10 @@
 ---
-title: "Privacy-Focused Web Analytics Guide"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Privacy-Focused Web Analytics Guide
 translated: false
-generated: true
 ---
 
 Cloudflare Web Analytics is a privacy-focused, free tool designed to help website owners track and understand site performance and visitor behavior without compromising user privacy. Below is a comprehensive guide to setting up and using Cloudflare Web Analytics, based on the latest available information.

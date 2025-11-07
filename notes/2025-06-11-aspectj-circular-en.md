@@ -1,10 +1,10 @@
 ---
-title: Resolving Circular Dependencies with AspectJ
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Resolving Circular Dependencies with AspectJ
 translated: false
-generated: true
 ---
 
 Circular dependencies in your scenario arise because `BlogConfig`, `BlogCore`, and `BlogWeb` reference each other, creating a dependency loop. Additionally, the AspectJ `LoggingAspect` in `BlogCore` (or potentially `BlogWeb`) may exacerbate the issue if it’s applied to methods across modules, including `BlogConfig`, which depends on `BlogCore`. Let’s break it down and provide a solution to resolve the circular dependency while keeping the AspectJ functionality intact.

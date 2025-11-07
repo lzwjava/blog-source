@@ -1,10 +1,10 @@
 ---
-title: Backend Books
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Backend Books
 translated: false
-generated: true
 ---
 
 Okay, here are some of the best books for Java, Spring Boot, Backend development, and Cloud Computing, catering to different levels of experience:

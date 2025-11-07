@@ -1,12 +1,12 @@
 ---
-title: Standard Chartered Modern Slavery Statement Summary
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Standard Chartered Modern Slavery Statement Summary
+translated: false
 ---
 
 Standard Chartered Bank's Modern Slavery Statement is an annual disclosure required under the UK Modern Slavery Act 2015. It details the bank's policies, due diligence processes, risk assessments, and actions to identify and mitigate modern slavery risks across its operations, supply chains, and business relationships. The statement emphasizes a zero-tolerance approach to slavery and human trafficking, including training for employees, supplier audits, and integration into governance frameworks.

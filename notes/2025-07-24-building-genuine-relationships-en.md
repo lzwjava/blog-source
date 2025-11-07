@@ -1,10 +1,10 @@
 ---
-title: Building Genuine Tech Relationships
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Building Genuine Tech Relationships
 translated: false
-generated: true
 ---
 
 Building genuine professional relationships in the corporate world—especially in tech, where interactions can feel superficial—requires consistent effort, authenticity, and a focus on mutual value rather than just networking for gain. It's not about collecting connections on LinkedIn; it's about fostering trust and support that lasts beyond job changes or layoffs. Yes, ideas like starting a blog or sending occasional DMs can help, but they're most effective when part of a broader strategy. Below, I'll break it down with practical tips, drawing from common advice in this area.

@@ -1,12 +1,12 @@
 ---
-title: Introducing the Ghostty Terminal Emulator
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Introducing the Ghostty Terminal Emulator
+translated: false
 ---
 
 Ghostty is a modern terminal emulator designed to deliver exceptional performance, a wealth of features, and seamless integration with native desktop environments. Unlike many terminals that prioritize either speed or features at the expense of the other, Ghostty aims to excel in all areas: it's blazingly fast, packed with advanced capabilities, and feels like a first-class citizen on your operating system. Built with GPU acceleration and platform-native UI components, it redefines what a terminal can be for developers, system administrators, and power users who spend hours in the command line.

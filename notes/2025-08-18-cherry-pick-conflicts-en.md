@@ -1,11 +1,11 @@
 ---
-title: Cherry Pick Conflicts and Solutions
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Cherry Pick Conflicts and Solutions
+translated: false
 ---
 
 Git **cherry-pick** is a command that lets you take a commit from one branch and apply it onto another branch, without merging the whole branch history.

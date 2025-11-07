@@ -1,10 +1,10 @@
 ---
-title: CSV Sorter Script
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: CSV Sorter Script
 translated: false
-generated: true
 ---
 
 I'll create a Python script that uses argparse to parse a CSV file path, sorts a single line of comma-separated values alphabetically, and outputs the result to a file named "name_sorted.csv".

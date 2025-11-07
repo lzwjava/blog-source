@@ -1,12 +1,12 @@
 ---
-title: Semiconductor Doping in BJT Transistors
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Semiconductor Doping in BJT Transistors
+translated: false
 ---
 
 In the context of semiconductors like those used in a BJT (Bipolar Junction Transistor), **doping** refers to the process of intentionally adding small, controlled amounts of impurity atoms (called dopants) to a pure semiconductor material, such as silicon or germanium. This alters the material's electrical conductivity by introducing extra charge carriers (electrons or holes).

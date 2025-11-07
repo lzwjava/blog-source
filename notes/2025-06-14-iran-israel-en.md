@@ -1,10 +1,10 @@
 ---
-title: Iran-Israel Conflict Escalation
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Iran-Israel Conflict Escalation
 translated: false
-generated: true
 ---
 
 The conflict between Iran and Israel, as of June 14, 2025, is rooted in a mix of historical, ideological, and geopolitical factors that have fueled tensions for decades, escalating recently into direct confrontations. Here’s a breakdown of why they are fighting now, based on available information and critical analysis:

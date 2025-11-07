@@ -1,10 +1,10 @@
 ---
-title: Using Claude for Programming Tasks
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Using Claude for Programming Tasks
 translated: false
-generated: true
 ---
 
 ### How to Use Claude for Programming Tasks (via OpenRouter)

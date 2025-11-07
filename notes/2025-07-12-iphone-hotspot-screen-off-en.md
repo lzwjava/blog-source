@@ -1,10 +1,10 @@
 ---
-title: "iPhone Hotspot Behavior When Screen Off"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: iPhone Hotspot Behavior When Screen Off
 translated: false
-generated: true
 ---
 
 ### iPhone Personal Hotspot Behavior When Screen is Turned Off

@@ -1,12 +1,12 @@
 ---
-title: Lemon and Taro Cooking Ideas
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Lemon and Taro Cooking Ideas
+translated: false
 ---
 
 Yes, lemon can be used in cooking with taro, though it’s not a common pairing. Lemon’s bright, acidic flavor can complement taro’s starchy, nutty profile in specific dishes. Here are a few ideas and considerations:

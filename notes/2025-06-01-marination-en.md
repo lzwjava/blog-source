@@ -1,10 +1,10 @@
 ---
-title: Marination and Air Frying Tips
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Marination and Air Frying Tips
 translated: false
-generated: true
 ---
 
 Letting the sauce stay on marinated food for a few minutes before air fryer cooking can be useful, but it depends on the recipe and desired outcome. Here’s a quick breakdown:

@@ -1,11 +1,11 @@
 ---
-title: "GreptimeDB: Unified Time-Series Database"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: 'GreptimeDB: Unified Time-Series Database'
+translated: false
 ---
 
 ### Overview of GreptimeDB

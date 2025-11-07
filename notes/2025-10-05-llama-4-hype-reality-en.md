@@ -1,12 +1,12 @@
 ---
-title: Llama 4s Hype Meets Development Reality
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Llama 4s Hype Meets Development Reality
+translated: false
 ---
 
 ### Understanding the Llama 4 Trajectory and Zuckerberg's Comments

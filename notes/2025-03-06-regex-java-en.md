@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Regular Expressions in Java
 translated: false
-generated: true
 ---
 
 # How to Use `java.util.regex` in Java

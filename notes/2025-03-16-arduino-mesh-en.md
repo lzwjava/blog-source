@@ -1,10 +1,10 @@
 ---
-title: Verifying Mesh Analysis with Arduino
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Verifying Mesh Analysis with Arduino
 translated: false
-generated: true
 ---
 
 Verifying Mesh Analysis with an Arduino involves constructing a circuit with multiple loops, applying Mesh Analysis theoretically to predict currents, and then using the Arduino to measure voltages across resistors to calculate actual currents for comparison. Mesh Analysis is a method in circuit theory where you assign loop currents to each independent loop and use Kirchhoff’s Voltage Law (KVL) to set up equations. The Arduino will help you measure the real-world behavior to confirm your calculations.

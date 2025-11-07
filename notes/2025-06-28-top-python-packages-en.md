@@ -1,10 +1,10 @@
 ---
-title: "Top 30 Trending Python Packages (2020–2025)"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Top 30 Trending Python Packages (2020–2025)
 translated: false
-generated: true
 ---
 
 Here’s a curated list of 30 trending Python packages from your provided list, based on popularity and relevance from 2020–2025, with a one-line introduction for each:

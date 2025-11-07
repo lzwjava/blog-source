@@ -1,12 +1,12 @@
 ---
-title: Wi-Fi 7 Overview and Key Features
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Wi-Fi 7 Overview and Key Features
+translated: false
 ---
 
 ### Overview of Wi-Fi 7

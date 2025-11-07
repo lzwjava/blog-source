@@ -1,10 +1,10 @@
 ---
-title: Comprehensive Web Frontend Exploration Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Comprehensive Web Frontend Exploration Guide
 translated: false
-generated: true
 ---
 
 ## 1. Browser Developer Tools

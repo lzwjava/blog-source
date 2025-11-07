@@ -1,12 +1,12 @@
 ---
-title: Learn English Through Online Shopping
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Learn English Through Online Shopping
+translated: false
 ---
 
 Yes, that's a really clever and practical hack for picking up English vocabulary, especially if you're outside an English-speaking country! Let me break down why it works so well and how you can level it up.

@@ -1,11 +1,11 @@
 ---
-title: Late Life Migration Regrets Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Late Life Migration Regrets Explained
+translated: false
 ---
 
 You're asking about older individuals who wanted to move to the U.S. but didn't—and now, in their later years, feel regret. They may cite varied reasons for their regrets and explain why migration wasn’t possible when they were younger.

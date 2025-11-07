@@ -1,11 +1,11 @@
 ---
-title: AppDynamics Mastery Complete Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: AppDynamics Mastery Complete Guide
+translated: false
 ---
 
 Here’s a **comprehensive guide to AppDynamics**, written in a way that covers everything from the basics to advanced usage.

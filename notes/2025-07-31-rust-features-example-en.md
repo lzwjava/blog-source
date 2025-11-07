@@ -1,11 +1,11 @@
 ---
-title: Rust Key Features Example
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Rust Key Features Example
+translated: false
 ---
 
 Here's a simple Rust code example that demonstrates several key features, including borrowing, mutability, ownership, structs, enums, pattern matching, and more. I'll keep it concise yet illustrative, with comments explaining each feature.

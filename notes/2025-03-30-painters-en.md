@@ -1,10 +1,10 @@
 ---
-title: Notable Painters
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Notable Painters
 translated: false
-generated: true
 ---
 
 It's impossible to definitively say who the "best" painter in history is because art appreciation is subjective. What one person considers the pinnacle of artistic achievement, another might find less appealing.

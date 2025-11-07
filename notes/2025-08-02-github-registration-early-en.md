@@ -1,11 +1,11 @@
 ---
-title: Early GitHub User Status
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Early GitHub User Status
+translated: false
 ---
 
 Thank you for providing the exact registration date of July 16, 2013, for your GitHub account (https://github.com/lzwjava). I'll recalculate your early adoption status, assess whether you're in the top 1% of users by registration time, estimate the total number of GitHub users now, and determine your position when sorted by registration time, using this precise date and available GitHub growth data. Since exact user counts for specific dates in 2013 are not publicly available, I'll interpolate based on known milestones and trends.

@@ -1,10 +1,10 @@
 ---
-title: "Engineering Talent vs. Product Success"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Engineering Talent vs. Product Success
 translated: false
-generated: true
 ---
 
 Your observation touches on a critical tension in the tech and finance industries: the balance between **hiring engineering talent** and **delivering successful products**. Here’s a breakdown of why this happens and how to understand it:

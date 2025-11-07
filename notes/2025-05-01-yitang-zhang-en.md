@@ -1,10 +1,10 @@
 ---
-title: Yitang Zhang
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Yitang Zhang
 translated: false
-generated: true
 ---
 
 Yitang Zhang is a remarkable figure in modern mathematics, known for his groundbreaking work in number theory and perseverance in the face of adversity. His story offers powerful lessons about resilience, passion for knowledge, and the pursuit of excellence. Here's an overview of his journey and what we can learn from him:

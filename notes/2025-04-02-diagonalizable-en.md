@@ -1,10 +1,10 @@
 ---
-title: Diagonalizable
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Diagonalizable
 translated: false
-generated: true
 ---
 
 To determine which option is necessary for a matrix to be diagonalizable, I'll examine each statement.

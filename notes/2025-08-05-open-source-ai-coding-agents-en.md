@@ -1,11 +1,11 @@
 ---
-title: "Open-Source AI Coding Agents"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Open-Source AI Coding Agents
+translated: false
 ---
 
 Yes, there are several open-source AI coding agents that can compete with proprietary tools like Claude Code and Cline in terms of functionality, flexibility, and performance for terminal-based or agentic coding workflows. These tools are designed to assist developers with tasks such as code generation, file editing, running commands, and integrating with various large language models (LLMs). Below, I’ll highlight the top open-source alternatives, compare their capabilities to Claude Code and Cline, and provide guidance on their strengths and limitations, drawing on relevant information from recent web sources and X posts where applicable.[](https://research.aimultiple.com/agentic-cli/)[](https://cline.bot/)[](https://apidog.com/blog/opencode/)

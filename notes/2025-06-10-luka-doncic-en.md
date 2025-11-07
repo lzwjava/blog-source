@@ -1,10 +1,10 @@
 ---
-title: Luka Dončić
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Luka Dončić
 translated: false
-generated: true
 ---
 
 Luka Dončić is currently one of the NBA's elite players, performing at an All-NBA level despite a challenging 2024-25 season marked by a midseason trade from the Dallas Mavericks to the Los Angeles Lakers and injury setbacks. Here’s a detailed breakdown of his current standing based on available data:

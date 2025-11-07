@@ -1,10 +1,10 @@
 ---
-title: "Sugar's Harmful Health Effects"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Sugar's Harmful Health Effects
 translated: false
-generated: true
 ---
 
 Excessive sugar consumption can have numerous detrimental effects on your health, contributing to a range of chronic diseases and overall well-being issues. Here's a breakdown of why sugar is considered bad for health:

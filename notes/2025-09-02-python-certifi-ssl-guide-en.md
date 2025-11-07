@@ -1,11 +1,11 @@
 ---
-title: Python Certifi SSL Certificate Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Python Certifi SSL Certificate Guide
+translated: false
 ---
 
 The **`certifi`** package on PyPI is a small library that provides **Mozilla’s trusted root certificates** in a bundle. It’s commonly used by Python libraries like `requests`, `urllib3`, or any HTTPS client that needs to validate SSL/TLS certificates.

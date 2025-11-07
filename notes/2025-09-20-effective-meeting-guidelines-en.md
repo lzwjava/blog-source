@@ -1,12 +1,12 @@
 ---
-title: Effective Online and Agile Meeting Guidelines
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Effective Online and Agile Meeting Guidelines
+translated: false
 ---
 
 Got it—you’d like a practical guide on how to run effective meetings (Zoom/Teams), especially when they involve more than 3 people, as well as how to structure daily standups and sprint meetings in an Agile context. Here’s a structured breakdown:  

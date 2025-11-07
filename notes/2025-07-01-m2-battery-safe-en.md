@@ -1,10 +1,10 @@
 ---
-title: "M2 MacBook Air Safe Plugged In"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: M2 MacBook Air Safe Plugged In
 translated: false
-generated: true
 ---
 
 Yes, you can absolutely continue to leave your MacBook Air M2 plugged in, even after it's fully charged, without harming the battery. Here's why, and how the M2's battery technology differs from your 2014 MacBook Pro:

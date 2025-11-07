@@ -1,10 +1,10 @@
 ---
-title: Git Credential Manager
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Git Credential Manager
 translated: false
-generated: true
 ---
 
 You're using **Git Credential Manager (GCM) version 2.6.1** on **macOS**, and you've encountered an issue where `git config --global credential.helper manager-core` throws an error:  

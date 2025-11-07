@@ -1,12 +1,12 @@
 ---
-title: Multipath TCP Protocol Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: moonshotai/kimi-k2-thinking
+title: Multipath TCP Protocol Overview
+translated: false
 ---
 
 MPTCP is a transport-layer protocol extension that fundamentally changes how network connections operate by enabling a single logical connection to simultaneously use multiple physical paths. Here’s a detailed breakdown:

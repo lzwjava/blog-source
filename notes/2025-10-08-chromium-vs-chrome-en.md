@@ -1,12 +1,12 @@
 ---
-title: Chromium versus Chrome Differences Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Chromium versus Chrome Differences Explained
+translated: false
 ---
 
 That’s a great question — and it’s an important distinction, especially if you do web or cross-platform development.

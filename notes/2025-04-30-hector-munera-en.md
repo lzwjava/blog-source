@@ -1,10 +1,11 @@
 ---
-title: "Hector A. Munera: A Physicist Exploring the Foundations of Relativity and Gravitation"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Hector A. Munera: A Physicist Exploring the Foundations of Relativity and
+  Gravitation'
 translated: false
-generated: true
 ---
 
 Hector A. Munera is a scientific investigator with a distinguished background in physics and nuclear engineering. Holding a PhD from the University of California at Berkeley, he has been associated with institutions such as the National University of Colombia and the International Center for Physics (CIF) in Bogotá.

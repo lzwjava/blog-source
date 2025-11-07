@@ -1,10 +1,10 @@
 ---
-title: "Introduction to the Raspberry Pi Pico: A Versatile Microcontroller"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Introduction to the Raspberry Pi Pico: A Versatile Microcontroller'
 translated: false
-generated: true
 ---
 
 The **Raspberry Pi Pico** is a versatile, low-cost microcontroller board developed by the Raspberry Pi Foundation, designed for embedded systems, prototyping, and DIY electronics projects. Unlike the Raspberry Pi single-board computers (SBCs) like the Raspberry Pi 4, the Pico is a microcontroller, meaning it’s optimized for controlling hardware, running lightweight programs, and interfacing with sensors, motors, and other components. Launched in January 2021, it marked the Foundation’s entry into the microcontroller market, offering an affordable yet powerful platform for hobbyists, educators, and professionals.

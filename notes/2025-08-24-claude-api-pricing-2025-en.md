@@ -1,11 +1,11 @@
 ---
-title: Claude API Pricing Breakdown 2025
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Claude API Pricing Breakdown 2025
+translated: false
 ---
 
 Here’s a clearer breakdown of the API usage pricing for each of the Anthropic Claude models you listed—no tables, just straightforward, easy-to-read prose:

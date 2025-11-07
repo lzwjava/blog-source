@@ -1,12 +1,12 @@
 ---
-title: Single JVM Integration Coverage Strategy
-date: 2025-09-08
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-08
 generated: true
 image: false
+lang: en
+layout: post
+title: Single JVM Integration Coverage Strategy
+translated: false
 ---
 
 You don’t need to run Jetty twice or create a separate JaCoCo `.exec` per module. One agent on the single JVM that serves your WAR can record coverage for **all classes that JVM loads**—including `PlaygroundUtils`—into **one shared exec file**. Then every module can generate its own report by pointing at that same exec. For a big reactor (10+ modules), this scales cleanly.

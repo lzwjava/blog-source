@@ -1,10 +1,10 @@
 ---
-title: Young Successful Tech Entrepreneurs
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Young Successful Tech Entrepreneurs
 translated: false
-generated: true
 ---
 
 Below is a list of young, successful tech entrepreneurs who have made significant impacts in the industry, similar to Cornelius Palm, Alexandr Wang, and George Hotz. These individuals are under 30 (or were when they achieved notable success) and have founded or significantly contributed to innovative tech companies. I’ve included their key achievements, ages (approximate or at the time of notable success), and companies, drawing on relevant information from the web and general knowledge of the tech landscape as of April 20, 2025.

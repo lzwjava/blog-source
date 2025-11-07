@@ -1,10 +1,10 @@
 ---
-title: Verbose Output Examples
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Verbose Output Examples
 translated: false
-generated: true
 ---
 
 Here are additional examples of enabling verbose output across various tools and systems, expanding on the theme of providing more detailed feedback or logging:

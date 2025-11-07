@@ -1,10 +1,10 @@
 ---
-title: "Diode: Key to DC Power Supplies"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Diode: Key to DC Power Supplies'
 translated: false
-generated: true
 ---
 
 The semiconductor device primarily used for rectification in DC power supplies is the **Diode**.

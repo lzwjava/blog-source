@@ -1,12 +1,12 @@
 ---
-title: Union-Find Algorithm Introduction
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Union-Find Algorithm Introduction
+translated: false
 ---
 
 ### Introduction to the Union-Find (Disjoint Set Union) Algorithm

@@ -1,11 +1,11 @@
 ---
-title: Secure LLM API Validation Layers
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Secure LLM API Validation Layers
+translated: false
 ---
 
 When you build or use an **LLM API**, you generally want safeguards to ensure the responses are safe, valid, and useful. Here are the main ways to add checks:

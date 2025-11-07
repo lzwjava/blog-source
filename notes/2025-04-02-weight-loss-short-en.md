@@ -1,10 +1,10 @@
 ---
-title: Losing Weight
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Losing Weight
 translated: false
-generated: true
 ---
 
 To lose weight effectively and sustainably, focus on making long-term healthy eating habits rather than following fad diets. Here's a breakdown of what you should eat:

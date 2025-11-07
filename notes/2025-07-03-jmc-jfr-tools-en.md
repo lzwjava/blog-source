@@ -1,10 +1,10 @@
 ---
-title: "JDK Mission Control: Advanced Java Profiling"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'JDK Mission Control: Advanced Java Profiling'
 translated: false
-generated: true
 ---
 
 JDK Mission Control (JMC) is an open-source suite of advanced tools designed for managing, monitoring, profiling, and troubleshooting Java applications running on the Java Virtual Machine (JVM). It's particularly renowned for its ability to collect detailed runtime information with very low performance overhead, making it suitable for use in production environments.

@@ -1,10 +1,10 @@
 ---
-title: Jerry Sanders
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Jerry Sanders
 translated: false
-generated: true
 ---
 
 Walter Jeremiah "Jerry" Sanders III (born September 12, 1936) is an American businessman, engineer, and visionary leader who played a pivotal role in shaping the semiconductor industry and Silicon Valley’s culture. As the co-founder and long-time CEO of Advanced Micro Devices (AMD) from 1969 to 2002, Sanders transformed AMD from a small startup into a global powerhouse, establishing it as the primary competitor to Intel in the microprocessor market. Known for his flamboyant personality, innovative leadership, and commitment to fairness, Sanders is widely regarded as one of Silicon Valley’s founding architects, leaving a lasting legacy through his contributions to technology, employee-centric business practices, and industry advocacy.

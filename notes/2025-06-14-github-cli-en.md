@@ -1,10 +1,10 @@
 ---
-title: Install GitHub CLI
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Install GitHub CLI
 translated: false
-generated: true
 ---
 
 To install the GitHub CLI (`gh`) on Ubuntu and use it to trigger GitHub Actions workflows with the `gh workflow run` command, follow these steps:

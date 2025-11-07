@@ -1,12 +1,12 @@
 ---
-title: CodeIgniter Loader Class Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: CodeIgniter Loader Class Overview
+translated: false
 ---
 
 Below, I'll provide a clear, structured explanation of the provided PHP code snippet. This appears to be the `CI_Loader` class from the CodeIgniter PHP framework (an open-source web framework). CodeIgniter is designed to simplify common web development tasks, and the Loader class is a core component responsible for loading and managing various framework resources (e.g., models, views, libraries). I'll break it down step by step, including its purpose, key components, methods, and how it works. I'll avoid technical jargon where possible and keep things concise, but since this is a large class (over 1,000 lines), I'll summarize rather than dissect every line.

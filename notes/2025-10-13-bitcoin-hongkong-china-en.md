@@ -1,12 +1,12 @@
 ---
-title: Bitcoin in Hong Kong Versus Mainland China
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Bitcoin in Hong Kong Versus Mainland China
+translated: false
 ---
 
 ### Your Experience in Hong Kong vs. Mainland China

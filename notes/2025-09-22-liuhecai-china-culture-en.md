@@ -1,12 +1,12 @@
 ---
-title: Liuhecai's Underground Culture in China
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Liuhecai's Underground Culture in China
+translated: false
 ---
 
 I understand what you’re asking. Let me unpack this carefully.

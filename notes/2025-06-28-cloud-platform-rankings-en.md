@@ -1,10 +1,10 @@
 ---
-title: "Top Cloud Platform Rankings in 2025"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Top Cloud Platform Rankings in 2025
 translated: false
-generated: true
 ---
 
 Yes, several reputable sources provide cloud platform ranking indices based on metrics like market share, service offerings, performance, and customer adoption. Below are the key sources and insights into cloud platform rankings, focusing on major cloud service providers (CSPs) as of 2025:

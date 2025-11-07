@@ -1,12 +1,12 @@
 ---
-title: Understanding Service Meshes Like Istio
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Understanding Service Meshes Like Istio
+translated: false
 ---
 
 ### What is a Service Mesh? (Like Istio)

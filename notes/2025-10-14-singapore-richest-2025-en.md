@@ -1,12 +1,12 @@
 ---
-title: Singapore's Richest 2025 Forbes Ranking
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Singapore's Richest 2025 Forbes Ranking
+translated: false
 ---
 
 ### Singapore's 50 Richest 2025

@@ -1,12 +1,12 @@
 ---
-title: Hardware Parallelism Accelerates Array Indexing
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hardware Parallelism Accelerates Array Indexing
+translated: false
 ---
 
 ### Why is Indexing Faster Than Binary Search?

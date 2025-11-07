@@ -1,12 +1,12 @@
 ---
-title: Eastern Guangzhou Waterfront Work Havens
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Eastern Guangzhou Waterfront Work Havens
+translated: false
 ---
 
 ### Recreating Those Serene Road Trip Vibes in Eastern Guangzhou

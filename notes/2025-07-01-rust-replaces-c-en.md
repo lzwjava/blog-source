@@ -1,10 +1,10 @@
 ---
-title: "Rust as a C Replacement"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rust as a C Replacement
 translated: false
-generated: true
 ---
 
 Rust aims to be a modern replacement for C in many areas, and it generally succeeds in offering similar capabilities while prioritizing memory safety and concurrency. So, **yes, typically, what a C program can do, a Rust program can also do.**

@@ -1,12 +1,12 @@
 ---
-title: Yin Wang's Idealist Nihilism
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Yin Wang's Idealist Nihilism
+translated: false
 ---
 
 Yin Wang is a computer scientist and software engineer (who has worked at companies like Google, Intel, and Microsoft) known for his blog at yinwang.org, where he discusses programming, philosophy, and critiques of modern technology and society. His worldview is eclectic but draws heavily from idealism, computationalism (the idea that the universe or mind is fundamentally computational/nature), and influences from Chinese philosophy (e.g., Taoism) and Buddhism. He often rejects materialism (in the philosophical sense of prioritizing physical reality over ideas), consumerism, and hedonistic pursuits, instead emphasizing "spirit," inner fulfillment, and sometimes the illusory nature of material existence—a view that has led some observers to characterize his philosophy as nihilistic.

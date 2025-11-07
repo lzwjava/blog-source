@@ -1,10 +1,10 @@
 ---
-title: Google Java Style Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Google Java Style Guide
 translated: false
-generated: true
 ---
 
 ## 1. Source File Basics

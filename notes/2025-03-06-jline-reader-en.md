@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Reading Console Input in Java
 translated: false
-generated: true
 ---
 
 To use the `org.jline.reader` package in Java, which is part of the JLine library for handling console input with advanced features like line editing, history, and completion, follow these steps. This guide provides a complete and practical approach to get you started.

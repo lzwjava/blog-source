@@ -1,12 +1,12 @@
 ---
-title: Checking Apple TV Power Status
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Checking Apple TV Power Status
+translated: false
 ---
 
 Here’s how to check if your Apple TV is powered on, especially when the indicator light is not obvious:

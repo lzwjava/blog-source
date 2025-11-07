@@ -1,12 +1,12 @@
 ---
-title: xdotool X11 Debugging Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-sonnet-4
+title: xdotool X11 Debugging Guide
+translated: false
 ---
 
 The error you're seeing indicates that `xdotool` is having trouble getting the active window information from your X server. Here are several ways to diagnose and get more detailed error information:

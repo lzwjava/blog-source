@@ -1,11 +1,11 @@
 ---
-title: JMX Remote Agent Port Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: JMX Remote Agent Port Guide
+translated: false
 ---
 
 The **JMX remote agent** is part of the Java Management Extensions (JMX) technology. It allows administrators or monitoring tools to connect to a running Java application from outside the JVM process, typically over TCP/IP. This is commonly used for monitoring, diagnostics, and management of Java applications in production.

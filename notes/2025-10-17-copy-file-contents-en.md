@@ -1,12 +1,12 @@
 ---
-title: Copy File Contents in Vi
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Copy File Contents in Vi
+translated: false
 ---
 
 ## Copying (or Moving) All Content from One File to a New File in Vi

@@ -1,12 +1,12 @@
 ---
-title: Debugging nmcli Syntax Gotchas
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Debugging nmcli Syntax Gotchas
+translated: false
 ---
 
 Yes, you're spot on—programming (especially when dealing with shell commands, subprocesses, or tools like `nmcli`) is absolutely full of these kinds of nitpicky syntax gotchas. They're not "errors" in the sense of a broken system or unfixable bug; they're just version-specific quirks or undocumented preferences in command-line interfaces that trip everyone up at some point. Tools evolve, docs lag, and one letter off (like `iface` vs. `ifname`) can halt everything. It's frustrating but super common, and the fix is usually straightforward once you spot it.

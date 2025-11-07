@@ -1,12 +1,12 @@
 ---
-title: Tiger Trade App K-Line Indicators Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Tiger Trade App K-Line Indicators Guide
+translated: false
 ---
 
 In the Tiger Trade Global mobile app (latest version 9.4.0.2 as of September 2025), the K-line (candlestick) chart on stock pages displays price data, but does not have built-in trade markers or buy/sell indicators for executed orders (unlike the desktop version, where you can enable order displays via Chart Settings > Trading). However, you can add customizable technical indicators to the K-line chart that analyze price trends and generate buy/sell signals, such as moving averages, RSI (Relative Strength Index), MACD, or Bollinger Bands. These can visually represent bullish/bearish signals on the chart (e.g., crossovers indicating buy/sell points).

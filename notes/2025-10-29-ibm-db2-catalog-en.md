@@ -1,12 +1,12 @@
 ---
-title: IBM Db2 System Catalog Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: IBM Db2 System Catalog Overview
+translated: false
 ---
 
 ### Introduction to IBM Db2 System Tables

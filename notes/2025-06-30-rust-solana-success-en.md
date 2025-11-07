@@ -1,10 +1,10 @@
 ---
-title: "Rust Powers Solana's Speed"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rust Powers Solana's Speed
 translated: false
-generated: true
 ---
 
 Yes, **Rust's performance is a significant contributor to Solana's success.**

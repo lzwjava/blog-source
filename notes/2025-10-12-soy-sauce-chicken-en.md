@@ -1,12 +1,12 @@
 ---
-title: Shenzhen's Top Soy Sauce Chicken
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Shenzhen's Top Soy Sauce Chicken
+translated: false
 ---
 
 Yes, 金戈戈香港豉油鸡 (Jin Ge Ge Hong Kong Soy Sauce Chicken) is widely considered one of the best spots in Shenzhen for this classic Cantonese dish. It's a soy sauce chicken (豉油鸡) that's braised to perfection—tender, juicy, and infused with a rich, savory sauce that has that authentic Hong Kong street-food vibe without being overly sweet or oily. Many locals and visitors rave about it as a "must-eat" for its spot-on flavor, high value (per person around 50-80 RMB for a satisfying meal), and how the chicken absorbs the sauce from skin to bone.

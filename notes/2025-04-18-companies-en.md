@@ -1,10 +1,10 @@
 ---
-title: Company Categories
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Company Categories
 translated: false
-generated: true
 ---
 
 | Icon | Category            | Value   |

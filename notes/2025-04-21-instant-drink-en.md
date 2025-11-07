@@ -1,10 +1,10 @@
 ---
-title: Instant Drink
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Instant Drink
 translated: false
-generated: true
 ---
 
 If you're looking for something quick and easy to prepare, here are some popular **instant drinks** you can consider, depending on your taste and purpose (e.g., energy, relaxation, nutrition):

@@ -1,10 +1,10 @@
 ---
-title: Linear Algebra Plus Note
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Linear Algebra Plus Note
 translated: false
-generated: true
 ---
 
 In linear algebra, two square matrices \\( A \\) and \\( B \\) are said to be similar if there exists an invertible matrix \\( P \\) such that:
@@ -164,4 +164,3 @@ c) The matrix must have enough linearly independent eigenvectors.
 This is exactly the necessary and sufficient condition for diagonalizability. Specifically, an n×n matrix is diagonalizable if and only if it has n linearly independent eigenvectors, forming a basis for the vector space.
 
 Therefore, option c) is the correct answer: a matrix is diagonalizable if and only if it has enough linearly independent eigenvectors.
-

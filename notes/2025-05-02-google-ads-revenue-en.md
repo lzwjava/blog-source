@@ -1,10 +1,10 @@
 ---
-title: Google's Ad Revenue
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Google's Ad Revenue
 translated: false
-generated: true
 ---
 
 While the rise of Artificial Intelligence is significantly transforming the digital landscape, Google's advertising revenue has not experienced a drop; in fact, it has shown continued growth. In the first quarter of 2025, Alphabet, Google's parent company, reported an 8.5% year-over-year increase in advertising revenue, a performance that exceeded analyst expectations.

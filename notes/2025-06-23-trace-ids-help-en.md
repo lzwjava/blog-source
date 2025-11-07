@@ -1,10 +1,10 @@
 ---
-title: Benefits of Trace IDs in Monolithic Spring Applications
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Benefits of Trace IDs in Monolithic Spring Applications
 translated: false
-generated: true
 ---
 
 Even for a single monolithic Spring application, using trace IDs can be highly beneficial, although not strictly essential in the same way they are for distributed microservice architectures.

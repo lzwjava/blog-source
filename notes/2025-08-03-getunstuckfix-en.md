@@ -1,11 +1,11 @@
 ---
-title: Fixed Official Imagen Python Snippet
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fixed Official Imagen Python Snippet
+translated: false
 ---
 
 You've basically implemented the correct logic, but the **get‑unstuck** instructions are slightly off. Here's a cleaned‑up version adapted from the official example in the docs:

@@ -1,12 +1,12 @@
 ---
-title: Fixing Blocked Google Fonts Request
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Fixing Blocked Google Fonts Request
+translated: false
 ---
 
 That request is your page trying to load a webfont stylesheet from Google Fonts:

@@ -1,10 +1,10 @@
 ---
-title: "Raspberry Pi 5: Powerful and Versatile"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Raspberry Pi 5: Powerful and Versatile'
 translated: false
-generated: true
 ---
 
 The Raspberry Pi 5, released in October 2023 by the Raspberry Pi Foundation, is the latest iteration of the popular single-board computer series, designed to deliver high performance, versatility, and affordability for hobbyists, educators, and professionals. Building on the success of its predecessors, the Raspberry Pi 5 introduces significant upgrades in processing power, connectivity, and features, making it suitable for a wide range of applications, from educational projects to industrial automation and advanced computing tasks. Below is a comprehensive introduction to the Raspberry Pi 5, covering its history, specifications, features, setup, applications, and more.

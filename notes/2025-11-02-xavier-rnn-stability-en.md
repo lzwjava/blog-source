@@ -1,12 +1,12 @@
 ---
-title: Xavier Initialization for RNN Stability
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Xavier Initialization for RNN Stability
+translated: false
 ---
 
 ### Why Xavier Initialization in RNNs?

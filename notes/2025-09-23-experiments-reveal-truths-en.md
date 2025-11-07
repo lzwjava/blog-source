@@ -1,12 +1,12 @@
 ---
-title: Experimentation Illuminates Abstract Truths
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Experimentation Illuminates Abstract Truths
+translated: false
 ---
 
 ### The Lesson from Your Myopia Reversal Journey: Clarity Comes from Hands-On Experimentation

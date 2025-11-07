@@ -1,12 +1,12 @@
 ---
-title: Payment Connect Transaction Limit Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Payment Connect Transaction Limit Explained
+translated: false
 ---
 
 **Payment Connect single transaction maximum limit is 10,000 RMB.**

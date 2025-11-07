@@ -1,10 +1,10 @@
 ---
-title: Python Bots for Personal Use
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Python Bots for Personal Use
 translated: false
-generated: true
 ---
 
 Creating a bot can be a fun and practical way to automate tasks, aggregate information, or interact with users. Based on the two Telegram bots you've shared (one for scraping and sending news summaries and another for sending reminders or fetching chat IDs), here are some ideas for other bots you could develop, tailored to different use cases and interests. Each idea includes a brief description, potential features, and a simple code structure to get you started. I'll assume you're comfortable with Python, `requests`, and the Telegram Bot API, as shown in your examples.

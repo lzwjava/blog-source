@@ -1,12 +1,12 @@
 ---
-title: MapReduce Versus Database Concepts
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: MapReduce Versus Database Concepts
+translated: false
 ---
 
 Let’s compare **MapReduce** and a **Database** conceptually — not in a table, but through a clear narrative that’s easy to follow.

@@ -1,12 +1,12 @@
 ---
-title: Checking Refrigerated Potatoes for Safety
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Checking Refrigerated Potatoes for Safety
+translated: false
 ---
 
 Potatoes stored in a refrigerator at 6°C for two months can generally still be safe to eat, provided they show no signs of spoilage. Here’s a breakdown of your query regarding "Tudou" (potatoes) from Shandong, stored in Guangzhou, China, and cooked in an air fryer:

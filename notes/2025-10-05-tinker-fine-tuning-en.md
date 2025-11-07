@@ -1,12 +1,12 @@
 ---
-title: Tinker API Simplifies Model Fine Tuning
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Tinker API Simplifies Model Fine Tuning
+translated: false
 ---
 
 Tinker is a new flexible API launched by Thinking Machines AI for fine-tuning language models. It's designed to let researchers, developers, and "hackers" experiment with open-weight models (both large ones like Qwen-235B-A22B and smaller ones) while giving them full control over algorithms and data. The service handles the heavy lifting of distributed training—like scheduling, resource allocation, and failure recovery—on their internal clusters, using techniques like LoRA to make it efficient and cost-effective.

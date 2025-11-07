@@ -1,11 +1,11 @@
 ---
-title: Connect to GitHub with SSH
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Connect to GitHub with SSH
+translated: false
 ---
 
 To connect to GitHub using SSH, follow these steps based on the provided GitHub documentation. This guide assumes you’re starting from scratch and includes checking for existing keys, generating a new key, adding it to GitHub, and testing the connection.

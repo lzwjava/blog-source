@@ -1,10 +1,10 @@
 ---
-title: "Billionaires' Mixed Emotions on Wealth"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Billionaires' Mixed Emotions on Wealth
 translated: false
-generated: true
 ---
 
 Billionaires and wealthy individuals who achieve financial freedom often describe a complex mix of emotions at the moment of success and in the years that follow. Based on insights from interviews, posts on X, and web sources, here’s a concise overview:

@@ -1,10 +1,10 @@
 ---
-title: 25 Most-Cited Papers
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 25 Most-Cited Papers
 translated: false
-generated: true
 ---
 
 Below is a concise introduction to each of the listed papers, summarizing their key contributions and significance in their respective fields. The introductions aim to provide a brief overview while capturing the essence of each work.
@@ -146,4 +146,3 @@ The Nature analysis, based on citation data from five databases (Web of Science,
 To obtain the complete list of the 25 most-cited papers, you can refer to the original Nature article published on April 15, 2025, titled “Exclusive: the most-cited papers of the twenty-first century” (DOI: 10.1038/d41586-025-01125-9). The Supplementary Information accompanying the article contains the detailed list. Alternatively, checking databases like Google Scholar or Web of Science for highly cited AI papers from 2000 onward can provide further insights.[](https://www.nature.com/articles/d41586-025-01125-9)[](https://www.evolio.org/addedcontext/addedContext_topCited/)
 
 If you’d like me to search for additional details about the two unnamed University of Toronto papers or to generate a chart visualizing citation trends for the known papers, please let me know!
-

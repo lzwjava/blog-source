@@ -1,12 +1,12 @@
 ---
-title: Hong Kong's Unseen Political Struggles
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hong Kong's Unseen Political Struggles
+translated: false
 ---
 
 It's understandable to feel frustrated when looking at Hong Kong's undeniable material progress—sky-high GDP per capita, world-class infrastructure, affordable street food and MTR rides, and a tech ecosystem buzzing with apps and open-source innovation that outpaces many places from decades ago. Life there is objectively better in tangible ways than in the 1980s or '90s for most people. But calling Joshua Wong or the broader pro-democracy movement "mad," "picky," or just chasing "too much freedom" misses the deeper context. Let me break it down based on what the protests were really about, without picking sides.

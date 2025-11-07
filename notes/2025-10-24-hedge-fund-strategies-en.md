@@ -1,12 +1,12 @@
 ---
-title: Major Hedge Fund Strategies Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Major Hedge Fund Strategies Overview
+translated: false
 ---
 
 ### Overview of Hedge Fund Strategies

@@ -1,12 +1,12 @@
 ---
-title: Model Shape Fixes and Improvements
-date: 2025-09-06
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-06
 generated: true
 image: false
+lang: en
+layout: post
+title: Model Shape Fixes and Improvements
+translated: false
 ---
 
 Here’s what your script is doing, piece by piece, plus a couple of important fixes you’ll likely want to make.

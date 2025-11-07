@@ -1,10 +1,10 @@
 ---
-title: "Sutskever's Clear, Impactful Communication"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Sutskever's Clear, Impactful Communication
 translated: false
-generated: true
 ---
 
 Ilya Sutskever’s communication style, as observed through his public statements, posts on X, and the messaging of Safe Superintelligence Inc. (SSI), is characterized by clarity, brevity, and a focus on impactful, mission-driven ideas. Below, I analyze his communication style comprehensively, drawing from available evidence, including the SSI website and his X posts, while grounding the analysis in patterns and context.

@@ -1,11 +1,11 @@
 ---
-title: "vLLM: High-Performance LLM Serving"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: 'vLLM: High-Performance LLM Serving'
+translated: false
 ---
 
 vLLM is a high-performance library for large language model (LLM) inference and serving. Below is an explanation of the key features you mentioned, broken down for clarity:

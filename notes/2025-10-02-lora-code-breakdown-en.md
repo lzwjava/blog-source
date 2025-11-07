@@ -1,12 +1,12 @@
 ---
-title: LoRA Code Breakdown and Explanation
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: LoRA Code Breakdown and Explanation
+translated: false
 ---
 
 I'll break down the LoRA demo code into key pieces, explaining each part in detail before moving to the next. This will help illustrate how LoRA works in a clear, step-by-step manner. The code is based on the previous example, using PyTorch to implement LoRA for a simple linear layer.

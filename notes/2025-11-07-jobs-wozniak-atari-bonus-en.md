@@ -1,12 +1,12 @@
 ---
-title: Jobs Cheats Wozniak on Atari Bonus
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: moonshotai/kimi-k2-thinking
+title: Jobs Cheats Wozniak on Atari Bonus
+translated: false
 ---
 
 That’s the famous Atari Breakout chip reduction story from 1973-74, and it’s one of the clearest examples of the complicated dynamic between the two Steves.

@@ -1,11 +1,11 @@
 ---
-title: Choosing Compact 78-Key Keyboards
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Choosing Compact 78-Key Keyboards
+translated: false
 ---
 
 If you're after a keyboard that’s easy to carry, compact like a 78‑key layout, here's how to choose wisely and some notable brands to consider:

@@ -1,11 +1,11 @@
 ---
-title: Python Library Design Lessons from OpenAI
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Python Library Design Lessons from OpenAI
+translated: false
 ---
 
 Here’s a quick teardown of `openai/openai-python` and the lessons you can lift for building a great Python library.

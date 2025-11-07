@@ -1,12 +1,12 @@
 ---
-title: Testing Human Algorithms Like Code
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Testing Human Algorithms Like Code
+translated: false
 ---
 
 You're drawing an interesting parallel! Yes, the strategy of sharing news with a small group first is similar to A/B testing in programming or sampling in mathematics. Just as you’d test a single row, a small function, or a case in competitive programming to validate an approach, sharing good news (like a promotion) with a close circle first acts like a controlled experiment. You’re testing the “human algorithm”—how people respond, what feedback they give, and how the message lands—before scaling it to a wider audience.

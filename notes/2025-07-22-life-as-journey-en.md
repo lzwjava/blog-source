@@ -1,10 +1,10 @@
 ---
-title: "Life is a shared journey of growth."
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Life is a shared journey of growth.
 translated: false
-generated: true
 ---
 
 The idea that "we are all on a journey" is a metaphor for life, reflecting the shared human experience of growth, change, and pursuit of meaning. Here’s how to understand it:

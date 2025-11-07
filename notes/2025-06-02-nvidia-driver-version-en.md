@@ -1,10 +1,10 @@
 ---
-title: NVIDIA Driver Version 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: NVIDIA Driver Version
 translated: false
-generated: true
 ---
 
 Based on the information available, let's analyze your NVIDIA driver version 535.247.01 and CUDA version 12.2.

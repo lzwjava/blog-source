@@ -1,11 +1,11 @@
 ---
-title: Texas A&M University Essential Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Texas A&M University Essential Guide
+translated: false
 ---
 
 Here’s a comprehensive introduction to **Texas A\&M University (TAMU):**

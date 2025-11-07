@@ -1,10 +1,10 @@
 ---
-title: Removing Outline VPN Client Ubuntu
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Removing Outline VPN Client Ubuntu
 translated: false
-generated: true
 ---
 
 It seems like `apt` can't find a package named `outline-client`. This typically means one of two things:

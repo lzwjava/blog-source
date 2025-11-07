@@ -1,13 +1,13 @@
 ---
-title: Szymon Sidor's Key Research Contributions
-date: 2025-09-10
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-10
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Szymon Sidor's Key Research Contributions
+translated: false
 ---
 
 Here’s a more comprehensive and technically detailed look at **Szymon Sidor’s** key research contributions, emphasizing their depth without using wide tables:

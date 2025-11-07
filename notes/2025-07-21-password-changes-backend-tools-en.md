@@ -1,12 +1,12 @@
 ---
-title: Password Changes Impact Backend Tools
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Password Changes Impact Backend Tools
+translated: false
 ---
 
 ### Password Changes with Microsoft Teams

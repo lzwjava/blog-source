@@ -1,10 +1,10 @@
 ---
-title: "UC Berkeley's Historic Journey"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: UC Berkeley's Historic Journey
 translated: false
-generated: true
 ---
 
 I'll search for the most current information about UC Berkeley's history to provide you with a comprehensive overview.Let me get more detailed information about UC Berkeley's founding and key historical developments.# A Comprehensive History of the University of California, Berkeley

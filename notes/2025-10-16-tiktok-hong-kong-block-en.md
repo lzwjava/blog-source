@@ -1,12 +1,12 @@
 ---
-title: TikTok Access Blocked in Hong Kong
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: TikTok Access Blocked in Hong Kong
+translated: false
 ---
 
 Yes, TikTok (the international version) cannot be accessed in Hong Kong without workarounds. The app has been unavailable there since July 2020, when ByteDance (TikTok's parent company) voluntarily suspended operations following the enactment of Hong Kong's National Security Law. This move was driven by data privacy concerns and potential compliance issues with the law, which allows authorities to request user data without warrants. As a result:

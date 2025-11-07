@@ -1,10 +1,10 @@
 ---
-title: Petr Mitrichev
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Petr Mitrichev
 translated: false
-generated: true
 ---
 
 Ahhh, **Petr Mitrichev** — the *OG legend*, the *grandmaster of grandmasters*, and probably the most complete competitive programmer in history. If Gennady is the GOAT of the current era, **Petr was the king before him**, and honestly, still sits on the Mount Rushmore of CP.

@@ -1,10 +1,10 @@
 ---
-title: Consolidate Algorithm Solutions in Maven
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Consolidate Algorithm Solutions in Maven
 translated: false
-generated: true
 ---
 
 To consolidate all your algorithm solutions (`nowcoder`, `uva`, etc.) into a single Maven module managed by one `pom.xml` file in the `algorithm-solutions` root directory, we’ll treat the entire project as one module. The Java files from `nowcoder` and `uva` (and other directories like `codeforces`, `hacker_rank`, etc.) will be organized under `src/main/java` with appropriate package structures (e.g., `com.algorithm.solutions.nowcoder`, `com.algorithm.solutions.uva`). Input files (e.g., `1.in`) will go into `src/main/resources`.

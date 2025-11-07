@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Using Chokidar for File Watching
 translated: false
-generated: true
 ---
 
 Chokidar is a Node.js library primarily designed for file watching on the server side, so using it directly in the frontend (i.e., in a browser environment) isn’t its typical use case. The browser doesn’t have direct access to the filesystem like Node.js does, which is why Chokidar is more suited for backend or build-time environments. However, if you’re working on a project where you’re using a bundler like Webpack, Vite, or Parcel in a development setup, or if you’re building an Electron app (which combines Node.js with a frontend), you could leverage Chokidar indirectly. Let me clarify how you might approach this based on context.

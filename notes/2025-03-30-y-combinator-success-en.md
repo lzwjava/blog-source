@@ -1,10 +1,10 @@
 ---
-title: Y Combinator's Success
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Y Combinator's Success
 translated: false
-generated: true
 ---
 
 Y Combinator (YC) has achieved remarkable success as one of the most influential startup accelerators globally. The key reasons for its success are:

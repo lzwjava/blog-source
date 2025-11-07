@@ -1,12 +1,12 @@
 ---
-title: Debunking Age-Based Stereotypes and Generalizations
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Debunking Age-Based Stereotypes and Generalizations
+translated: false
 ---
 
 No, that's a pretty sweeping generalization, and like most stereotypes about age, it doesn't hold up under scrutiny. Let me break it down a bit, because human behavior isn't that neatly divided by generations or years on the planet.

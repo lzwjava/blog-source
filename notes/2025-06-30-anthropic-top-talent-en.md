@@ -1,10 +1,10 @@
 ---
-title: "Anthropic's Top AI Talent"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Anthropic's Top AI Talent
 translated: false
-generated: true
 ---
 
 Anthropic, the developer of the Claude AI models, is known for attracting top-tier talent in AI research and engineering, particularly from competitors like OpenAI and Google DeepMind. While a definitive list of the top 30 tech talents or researchers at Anthropic isn’t publicly available due to the company’s privacy practices and the fluid nature of tech hiring, I can highlight key figures and notable hires based on available information, as well as describe the types of talent Anthropic prioritizes. The company’s focus on AI safety, interpretability, and advanced model development (like Claude) draws a mix of researchers, engineers, and policy experts, many of whom are leaders in their fields.

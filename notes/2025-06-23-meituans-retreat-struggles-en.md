@@ -1,10 +1,10 @@
 ---
-title: "Meituan's Struggles and Retreat in Community Group Buying"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Meituan's Struggles and Retreat in Community Group Buying
 translated: false
-generated: true
 ---
 
 Meituan's scaling back of its community group buying business, Meituan Select (now rebranded as Meituan Youxuan), and Duoduo Maicai's (from Pinduoduo) leadership in the sector can be attributed to several factors:

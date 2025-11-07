@@ -1,11 +1,11 @@
 ---
-title: AI Model Cost and Performance Comparison
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: AI Model Cost and Performance Comparison
+translated: false
 ---
 
 When comparing the pricing of Gemini 2.5 Flash and Claude Sonnet 4, both models offer distinct advantages tailored to different use cases.

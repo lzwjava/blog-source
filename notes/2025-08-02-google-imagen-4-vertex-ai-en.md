@@ -1,11 +1,11 @@
 ---
-title: Google Imagen 4 Preview Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Google Imagen 4 Preview Guide
+translated: false
 ---
 
 To use Google Imagen 4 Preview 0606, you need to access it through Google’s Vertex AI platform, as it’s a Generative AI Preview offering designed for text-to-image generation. Below is a step-by-step guide based on available information:

@@ -1,10 +1,10 @@
 ---
-title: GitHub Actions Cron Scheduling
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: GitHub Actions Cron Scheduling
 translated: false
-generated: true
 ---
 
 Yes, a GitHub workflow can be configured to execute once every day using a cron schedule in GitHub Actions.

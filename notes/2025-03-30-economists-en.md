@@ -1,10 +1,10 @@
 ---
-title: Most Impactful Economists
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Most Impactful Economists
 translated: false
-generated: true
 ---
 
 Here are some of the most impactful and insightful economists and business thinkers:

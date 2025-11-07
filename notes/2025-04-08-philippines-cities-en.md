@@ -1,10 +1,10 @@
 ---
-title: The Main Cities in the Philippines
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The Main Cities in the Philippines
 translated: false
-generated: true
 ---
 
 The main cities in the Philippines include:

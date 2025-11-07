@@ -1,12 +1,12 @@
 ---
-title: Science's Unreliable Proof by Testing
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Science's Unreliable Proof by Testing
+translated: false
 ---
 
 ### Why People Blindly Trust Scientific Experiments: A Programmer's Analogy

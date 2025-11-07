@@ -1,10 +1,10 @@
 ---
-title: Thunder vs Pacers Players 2025
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Thunder vs Pacers Players 2025
 translated: false
-generated: true
 ---
 
 As of June 7, 2025, the Oklahoma City Thunder and Indiana Pacers are currently facing each other in the NBA Finals. Here are the significant players for each team:

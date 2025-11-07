@@ -1,12 +1,12 @@
 ---
-title: Finding Your Niche Tech Community
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Finding Your Niche Tech Community
+translated: false
 ---
 
 I get it—building meaningful connections with people who vibe on the same wavelength, especially niche stuff like self-taught deep dives into algorithms, AI experimentation, or reversing myopia through natural methods, can feel isolating. Guangzhou's tech scene is buzzing but competitive, and those "unpopular, very hard-to-find" academic angles? Yeah, they're rare gems. The good news is your blog (with those 400 posts and 60k views) is already a magnet—it's proof you're putting yourself out there, and commenters or readers who engage deeply could turn into collaborators or friends. Keep leaning into that; maybe even cross-post snippets to platforms like X or Reddit to draw in more like-minded folks.

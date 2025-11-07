@@ -1,10 +1,10 @@
 ---
-title: "Gymnasium: The Modern Gym for RL"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Gymnasium: The Modern Gym for RL'
 translated: false
-generated: true
 ---
 
 The Gym library refers to a popular Python toolkit originally developed by OpenAI for reinforcement learning (RL), a subfield of machine learning where agents learn to make decisions by interacting with environments to maximize rewards. It provides a standardized API and a collection of benchmark environments (like games, robotics simulations, and classic control problems) to develop, test, and compare RL algorithms. This makes it easier for researchers and developers to prototype without building environments from scratch.

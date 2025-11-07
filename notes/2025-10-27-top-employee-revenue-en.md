@@ -1,12 +1,12 @@
 ---
-title: Top Market Cap Companies Employee Revenue
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Top Market Cap Companies Employee Revenue
+translated: false
 ---
 
 ### Revenue per Employee Comparison: The Other 7 Top 10 Market Cap Companies

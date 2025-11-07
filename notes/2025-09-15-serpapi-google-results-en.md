@@ -1,12 +1,12 @@
 ---
-title: SerpAPI Google Search Query Results
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: SerpAPI Google Search Query Results
+translated: false
 ---
 
 This output shows the results of running a Python script (`test_serpai.py`) that performs a Google search for the query **"Coffee"** using the **SerpAPI** (a search engine API service). Here's a breakdown of what's happening:

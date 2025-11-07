@@ -1,10 +1,10 @@
 ---
-title: Why People Love Linux
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Why People Love Linux
 translated: false
-generated: true
 ---
 
 People love Linux and Ubuntu for a variety of reasons, and your preference for terminal and text-based operations is one of them. Here are some common reasons why users might prefer Linux distributions like Ubuntu:

@@ -1,10 +1,10 @@
 ---
-title: Luckin Coffee
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Luckin Coffee
 translated: false
-generated: true
 ---
 
 Luckin Coffee’s comeback can be attributed to a few key factors:

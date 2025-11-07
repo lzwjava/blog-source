@@ -1,12 +1,12 @@
 ---
-title: D Flip Flop Basics and Comparisons
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: D Flip Flop Basics and Comparisons
+translated: false
 ---
 
 Answer: D flip-flop

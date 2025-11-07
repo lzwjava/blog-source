@@ -1,12 +1,12 @@
 ---
-title: RMSProp and Similar Optimizers Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: RMSProp and Similar Optimizers Explained
+translated: false
 ---
 
 ### What is RMSProp?

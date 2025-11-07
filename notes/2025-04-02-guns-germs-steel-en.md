@@ -1,10 +1,10 @@
 ---
-title: Guns, Germs, and Steel
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Guns, Germs, and Steel
 translated: false
-generated: true
 ---
 
 *Guns, Germs, and Steel: The Fates of Human Societies* is a Pulitzer Prize-winning book by Jared Diamond published in 1997. The book presents a comprehensive explanation for why human societies developed differently on different continents over the past 13,000 years.

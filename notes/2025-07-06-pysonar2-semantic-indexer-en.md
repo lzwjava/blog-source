@@ -1,10 +1,10 @@
 ---
-title: "PySonar2: Semantic Python Indexer"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'PySonar2: Semantic Python Indexer'
 translated: false
-generated: true
 ---
 
 PySonar2 is a semantic indexer for Python, developed by yinwang0, that utilizes interprocedural type inference to analyze large Python codebases. It is designed for batch processing, making it suitable for creating indexes for code browsers and search engines rather than real-time Integrated Development Environments (IDEs). Its primary focus is on accuracy through type inference, which aims to describe how code is actually used.

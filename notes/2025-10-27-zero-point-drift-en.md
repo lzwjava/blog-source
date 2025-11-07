@@ -1,12 +1,12 @@
 ---
-title: Zero-Point Drift in Electronics
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Zero-Point Drift in Electronics
+translated: false
 ---
 
 ### Zero-Point Drift: Definition and Explanation

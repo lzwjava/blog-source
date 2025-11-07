@@ -1,12 +1,12 @@
 ---
-title: Quick Air Fryer and Oven Dinners
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Quick Air Fryer and Oven Dinners
+translated: false
 ---
 
 ### Easy and Frequent Air Fryer or Electric Oven Recipes for Night Meals

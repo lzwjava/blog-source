@@ -1,10 +1,10 @@
 ---
-title: "TiDB's Challenges and 2025 Alternatives"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: TiDB's Challenges and 2025 Alternatives
 translated: false
-generated: true
 ---
 
 I'll search for recent information about TiDB's current status and alternatives people are using in 2025.Let me search for more specific information about TiDB's technical challenges and limitations.TiDB's design challenges stem from attempting to implement Google Spanner and F1's concepts without the specialized hardware that makes them practical. Here are the key issues:

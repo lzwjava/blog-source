@@ -1,12 +1,12 @@
 ---
-title: Using Amazon RDS for MySQL
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Using Amazon RDS for MySQL
+translated: false
 ---
 
 Amazon RDS (Relational Database Service) for MySQL is a managed database service that makes it easy to set up, operate, and scale MySQL databases in the cloud. It handles routine tasks like backups, patching, and scaling, so you can focus on your application. This guide walks you through the basics: creating a MySQL DB instance, connecting to it, and performing simple operations. We'll use the AWS Management Console for simplicity.

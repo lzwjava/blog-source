@@ -1,10 +1,10 @@
 ---
-title: "Xvfb: Headless X11 Display Server"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Xvfb: Headless X11 Display Server'
 translated: false
-generated: true
 ---
 
 ### What is Xvfb?

@@ -1,10 +1,10 @@
 ---
-title: "Sam Altman's 15-Hour Fasting Routine"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Sam Altman's 15-Hour Fasting Routine
 translated: false
-generated: true
 ---
 
 Sam Altman, the CEO of OpenAI, has publicly shared his practice of **intermittent fasting**.

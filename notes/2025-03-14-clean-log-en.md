@@ -1,12 +1,11 @@
 ---
-title: Clean Log Messages
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Clean Log Messages
 translated: false
-generated: true
 ---
-
 
 ```python
 import sys
@@ -218,5 +217,3 @@ Here's a breakdown of the code:
 - It calls the `clean_log` function with the parsed arguments.
 
 **In summary, the script provides a flexible way to clean log files by removing duplicate lines based on a configurable similarity threshold and number of lines to compare. It supports reading from stdin, writing to stdout, and overwriting the input file.**
-
-

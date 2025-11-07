@@ -1,10 +1,10 @@
 ---
-title: "Integrating YourKit Profiler with WebSphere Liberty on Windows"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Integrating YourKit Profiler with WebSphere Liberty on Windows
 translated: false
-generated: true
 ---
 
 Using YourKit Java Profiler with WebSphere Liberty Server on Windows involves integrating the YourKit agent into the WebSphere Liberty JVM and configuring it for profiling. Below are the steps to set this up, based on available information and best practices for YourKit and WebSphere Liberty integration:

@@ -1,12 +1,12 @@
 ---
-title: IT Coverage for Modular Spring Apps
-date: 2025-09-08
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-08
 generated: true
 image: false
+lang: en
+layout: post
+title: IT Coverage for Modular Spring Apps
+translated: false
 ---
 
 ### Overall Assessment of Your Setup

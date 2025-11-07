@@ -1,10 +1,10 @@
 ---
-title: Stable Diffusion Proxy Issue
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Stable Diffusion Proxy Issue
 translated: false
-generated: true
 ---
 
 Based on the error and your environment, here's how to fix the "Unknown scheme for proxy URL" issue:

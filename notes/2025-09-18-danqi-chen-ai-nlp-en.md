@@ -1,12 +1,12 @@
 ---
-title: Danqi Chen's AI and NLP Contributions
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Danqi Chen's AI and NLP Contributions
+translated: false
 ---
 
 Danqi Chen has made significant contributions to the field of artificial intelligence, particularly in natural language processing (NLP) and machine learning. Here are some of her key contributions:

@@ -1,12 +1,12 @@
 ---
-title: Rotary Encoders Measure Rotation
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Rotary Encoders Measure Rotation
+translated: false
 ---
 
 ### What is a Rotary Encoder?

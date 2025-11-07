@@ -1,10 +1,10 @@
 ---
-title: Console App
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Console App
 translated: false
-generated: true
 ---
 
 To troubleshoot the "Failed to open input stream in demuxing stream" error in Infuse, a Mac app, and view more detailed logs, you can use tools available on your Mac. Since the query mentions "iOS or Xcode tool" but specifies Infuse as a Mac app, it’s likely you want to use Xcode or related macOS tools to inspect logs for the Mac version of Infuse. Below are step-by-step instructions to help you access these logs.

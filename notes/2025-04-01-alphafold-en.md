@@ -1,10 +1,10 @@
 ---
-title: How AlphaFold Works
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: How AlphaFold Works
 translated: false
-generated: true
 ---
 
 Let’s dive into how **AlphaFold**, developed by DeepMind, works—a groundbreaking AI system that predicts protein structures with remarkable accuracy. I’ll break it down into its core concepts, the problem it solves, its architecture, and the steps it takes to go from a protein’s amino acid sequence to a 3D structure. This will be comprehensive but digestible, with enough detail to satisfy curiosity without drowning in jargon.

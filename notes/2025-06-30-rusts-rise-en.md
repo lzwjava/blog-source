@@ -1,10 +1,10 @@
 ---
-title: Rust's Safe and Fast Evolution
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rust's Safe and Fast Evolution
 translated: false
-generated: true
 ---
 
 Rust is a modern systems programming language that has gained significant popularity for its focus on safety, performance, and concurrency. Its history is an interesting journey of innovation and community-driven development, largely initiated and fostered by Mozilla.

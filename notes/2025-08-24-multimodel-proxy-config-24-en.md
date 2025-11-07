@@ -1,11 +1,11 @@
 ---
-title: Updated Multi-Model Proxy Config Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Updated Multi-Model Proxy Config Guide
+translated: false
 ---
 
 Here you go—drop this in as your updated config:

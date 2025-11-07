@@ -1,13 +1,13 @@
 ---
-title: GitHub Pages Requires Public Repositories
-date: 2025-09-13
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-13
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: GitHub Pages Requires Public Repositories
+translated: false
 ---
 
 Right — if you make your GitHub Pages repository private, you lose the free GitHub Pages hosting.

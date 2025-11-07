@@ -1,12 +1,12 @@
 ---
-title: Simplifying Boolean Algebra with Karnaugh Maps
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Simplifying Boolean Algebra with Karnaugh Maps
+translated: false
 ---
 
 ### What Are Karnaugh Maps?

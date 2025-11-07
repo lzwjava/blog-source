@@ -1,10 +1,10 @@
 ---
-title: DC Power Supplies
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: DC Power Supplies
 translated: false
-generated: true
 ---
 
 This tutorial provides a detailed exploration of **DC power supplies**, focusing on **rectifier and filter circuits** (half-wave and full-wave rectifiers) and the differences between **linear and switching regulators**. It includes theoretical explanations, practical examples, circuit designs, and real-world applications to ensure a thorough understanding for beginners and intermediate learners.
@@ -321,4 +321,3 @@ Vin ----> Switch (MOSFET) ----> Inductor ----> Vout
 DC power supplies are essential for powering electronic devices, and understanding their components—rectifiers, filters, and regulators—is key to designing reliable systems. **Half-wave rectifiers** are simple but inefficient, while **full-wave rectifiers** offer better performance. **Linear regulators** are ideal for low-noise applications but waste energy, whereas **switching regulators** provide high efficiency for modern, power-hungry devices. By combining these elements thoughtfully, you can create robust power supplies tailored to specific needs.
 
 For hands-on learning, try building the example circuits using a breadboard or simulation software like LTspice. Experiment with different capacitor values or regulator types to observe their impact on performance.
-

@@ -1,13 +1,13 @@
 ---
-title: Sourcegraph Code Search Guide
-date: 2025-09-12
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-12
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Sourcegraph Code Search Guide
+translated: false
 ---
 
 Sourcegraph is a powerful code search and navigation tool that allows developers to search across multiple repositories, understand code dependencies, and navigate large codebases efficiently. This guide covers **search syntax, best practices, and language-specific searches (Java & Python)**.

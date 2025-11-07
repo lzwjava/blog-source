@@ -1,13 +1,13 @@
 ---
-title: Preventing Repository Forks on GitHub
-date: 2025-09-09
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-09
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Preventing Repository Forks on GitHub
+translated: false
 ---
 
 On GitHub, **you can’t stop people from forking a public repository**. Forking is a core feature of GitHub for open collaboration. If your repo is public, anyone can make a fork.

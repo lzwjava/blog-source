@@ -1,10 +1,10 @@
 ---
-title: The United States of America 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The United States of America
 translated: false
-generated: true
 ---
 
 The United States of America (USA) is a federal republic located in North America, consisting of 50 states, a federal district (Washington, D.C.), five major territories, and various minor islands. Known for its global influence, diverse culture, and significant economic and political power, the U.S. is a nation shaped by its history, geography, and people. Below is a comprehensive introduction to the United States, covering its history, geography, government, economy, culture, and more.

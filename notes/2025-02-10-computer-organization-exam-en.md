@@ -1,8 +1,8 @@
 ---
-layout: post
-title: "Computer Organization - Exam Questions"
-lang: en
 audio: false
+lang: en
+layout: post
+title: Computer Organization - Exam Questions
 ---
 
 ## April 2022 National Higher Education Self-Study Examination

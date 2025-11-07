@@ -1,10 +1,10 @@
 ---
-title: Computer Networks - Quiz
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Computer Networks - Quiz
 translated: false
-generated: true
 ---
 
 Here’s a structured quiz for **Computer Networks Technology (02141)**, organized by topic and question type (true/false, multiple-choice, short answer, and practical). Answers are intentionally omitted for self-assessment or instructor use.  

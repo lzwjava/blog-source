@@ -1,11 +1,11 @@
 ---
-title: Black Python Code Formatter Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Black Python Code Formatter Guide
+translated: false
 ---
 
 The `black` package on PyPI is a **Python code formatter**. It automatically reformats your Python code to follow consistent style rules (PEP 8-compatible, but with its own strict opinions). Here’s how to use it:

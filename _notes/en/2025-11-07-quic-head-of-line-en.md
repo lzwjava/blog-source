@@ -1,12 +1,12 @@
 ---
-title: QUIC Solves Head-of-Line Blocking
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: moonshotai/kimi-k2-thinking
+title: QUIC Solves Head-of-Line Blocking
+translated: false
 ---
 
 Here’s an introduction to that dialogue, providing context and explaining the technical concepts:

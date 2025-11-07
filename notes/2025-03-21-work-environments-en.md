@@ -1,10 +1,10 @@
 ---
-title: Work Environments
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Work Environments
 translated: false
-generated: true
 ---
 
 Creating the right environment can make a huge difference in how well you focus, especially given your preference for active, dynamic tasks. Since you thrive when typing, chatting, or jumping between materials, the setup should support that energy while minimizing distractions. Here’s a breakdown of options—bedroom, office, and beyond—tailored to your habits:

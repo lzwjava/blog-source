@@ -1,11 +1,11 @@
 ---
-title: Calculating Model Response Wait Time
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Calculating Model Response Wait Time
+translated: false
 ---
 
 We can work it out step by step.

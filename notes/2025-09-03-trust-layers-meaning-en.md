@@ -1,11 +1,11 @@
 ---
-title: The Layers and Meaning of Trust
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: The Layers and Meaning of Trust
+translated: false
 ---
 
 Trust is one of those words we all use, but it has layers. At its core, trust is the belief that another person will act in a way that is **reliable, safe, and aligned with your well-being**, even when you are vulnerable.

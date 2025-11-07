@@ -1,12 +1,12 @@
 ---
-title: Guangdong Government Services Platform Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Guangdong Government Services Platform Overview
+translated: false
 ---
 
 The Guangdong Public Service Platform (commonly known as the Guangdong Government Services Network or "广东政务服务网") is an official online and offline integrated system for provincial administrative services, including those accessible to Guangzhou citizens. It supports "one-stop" handling of government matters across Guangdong's cities, with many services available via app (like "Yue Sheng Shi" mini-program), website, self-service kiosks, and mobile terminals. For Guangzhou residents, it's a key hub for everyday administrative tasks, and it integrates with self-service machines (e.g., at exit-entry service halls) for checking application receipts, status updates, or results—like for HK/Macau travel endorsements.

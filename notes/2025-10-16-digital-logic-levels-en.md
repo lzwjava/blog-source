@@ -1,12 +1,12 @@
 ---
-title: Digital Circuit Logic Levels Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Digital Circuit Logic Levels Explained
+translated: false
 ---
 
 Yes, that's a solid analogy! In digital circuits like the SR flip-flop, "high" (logic 1) and "low" (logic 0) refer to voltage levels on the wires or signals. 

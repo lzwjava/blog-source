@@ -1,10 +1,10 @@
 ---
-title: Cost of Living in Philippines
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Cost of Living in Philippines
 translated: false
-generated: true
 ---
 
 As of 2022, the revenue of the City of Manila, the capital of the Philippines, was **₱ 19,692 million**. Using an approximate exchange rate of 1 USD ≈ 55 PHP (as of March 31, 2025), this is roughly equivalent to **$358 million USD**.

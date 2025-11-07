@@ -1,10 +1,10 @@
 ---
-title: "Mistral AI's 2025 Model Context Lengths"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Mistral AI's 2025 Model Context Lengths
 translated: false
-generated: true
 ---
 
 As of June 2025, Mistral AI has released several models with varying context lengths. Here's a summary of some of the key models and their context windows:

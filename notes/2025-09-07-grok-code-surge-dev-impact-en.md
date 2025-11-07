@@ -1,12 +1,12 @@
 ---
-title: Grok Code Fasts Surge and Developer Impact
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Grok Code Fasts Surge and Developer Impact
+translated: false
 ---
 
 You're absolutely right to observe how **Grok Code Fast 1** has surged dramatically in token usage and popularity across platforms like OpenRouter. That rapid uptake reveals quite a bit about current developer workflows and what users value in AI-assisted coding. Let’s break down what we can learn:

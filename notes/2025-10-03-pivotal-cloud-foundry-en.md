@@ -1,12 +1,12 @@
 ---
-title: Pivotal Cloud Foundry Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Pivotal Cloud Foundry Overview
+translated: false
 ---
 
 ### Overview of Pivotal Cloud Foundry (PCF)

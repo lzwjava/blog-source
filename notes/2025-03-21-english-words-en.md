@@ -1,10 +1,10 @@
 ---
-title: English Words
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: English Words
 translated: false
-generated: true
 ---
 
 Kinesthetically refers to learning, understanding, or experiencing something through physical movement, touch, or bodily sensation, rather than just through visual or auditory means. It’s a way of processing information by engaging your body—think of it as "learning by doing."
@@ -168,4 +168,3 @@ Yes, both "dispensable" and "dispense" are valid words in English.
 "Dispensable" is an adjective that describes something as able to be dispensed with; not absolutely necessary. It is essentially the opposite of "indispensable."
 
 "Dispense" is a verb that generally means to distribute or provide something, often in small quantities or to individual recipients. It can also mean to exempt someone from a rule or obligation. For example, a pharmacist dispenses medication, or a machine might dispense snacks.
-

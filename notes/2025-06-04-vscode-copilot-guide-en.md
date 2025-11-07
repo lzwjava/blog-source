@@ -1,10 +1,10 @@
 ---
-title: Using GitHub Copilot in Visual Studio Code
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Using GitHub Copilot in Visual Studio Code
 translated: false
-generated: true
 ---
 
 GitHub Copilot is an AI-powered coding assistant developed by GitHub and OpenAI, designed to enhance developer productivity in Visual Studio Code (VS Code). It provides context-aware code completions, natural language chat, and advanced editing capabilities. This guide walks you through setting up Copilot, exploring its features, and optimizing your workflow with tips and best practices.

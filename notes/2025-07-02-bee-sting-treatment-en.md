@@ -1,10 +1,10 @@
 ---
-title: "Bee Sting Treatment and Medication Guide"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Bee Sting Treatment and Medication Guide
 translated: false
-generated: true
 ---
 
 ### Suitable Medications and Treatments:

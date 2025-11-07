@@ -1,10 +1,11 @@
 ---
-title: "Examining the Claims of Myopia Reversal: A Comparison of Alternative Theories and Medical Evidence"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Examining the Claims of Myopia Reversal: A Comparison of Alternative Theories
+  and Medical Evidence'
 translated: false
-generated: true
 ---
 
 **1. Introduction** 

@@ -1,10 +1,10 @@
 ---
-title: "iPhone vs. Tmall Genie: Sound Showdown"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'iPhone vs. Tmall Genie: Sound Showdown'
 translated: false
-generated: true
 ---
 
 Here’s a quick way to think it through, plus a few practical tweaks you can try tonight:

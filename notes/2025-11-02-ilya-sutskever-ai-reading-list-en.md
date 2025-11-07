@@ -1,12 +1,12 @@
 ---
-title: Ilya Sutskever's AI Reading List
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Ilya Sutskever's AI Reading List
+translated: false
 ---
 
 Ilya Sutskever, co-founder of OpenAI, shared a recommended reading list of about 30 key papers, blog posts, courses, and resources on deep learning and AI with John Carmack around 2020. He reportedly said that mastering them would cover "90% of what matters today" in the field. While the full original list of 30 isn't publicly complete (some items may have been lost due to email deletions), a widely circulated version includes 27 foundational items spanning convolutional networks, recurrent networks, transformers, information theory, and more. Below is that curated list, grouped by category for clarity. Each entry includes the title, authors, year, and type.

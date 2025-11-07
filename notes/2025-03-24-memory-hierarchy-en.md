@@ -1,10 +1,10 @@
 ---
-title: Memory Hierarchy
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Memory Hierarchy
 translated: false
-generated: true
 ---
 
 Here’s a detailed tutorial on **Memory Hierarchy**, which is part of **Computer Organization and Architecture (02318)**.

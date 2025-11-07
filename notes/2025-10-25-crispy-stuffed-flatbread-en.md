@@ -1,12 +1,12 @@
 ---
-title: Easy Crispy Stuffed Chinese Flatbread
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Easy Crispy Stuffed Chinese Flatbread
+translated: false
 ---
 
 ### Easy Chinese Stuffed Dough: Guo Kui (Crispy Stuffed Flatbread)

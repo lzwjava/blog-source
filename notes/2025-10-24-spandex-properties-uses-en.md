@@ -1,12 +1,12 @@
 ---
-title: Spandex Fiber Properties and Uses
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Spandex Fiber Properties and Uses
+translated: false
 ---
 
 You’re referring to **“氨纶” (ān lún)** in Chinese — sometimes people also pronounce or write it informally as “安纶”.

@@ -1,11 +1,11 @@
 ---
-title: Fixing APT GPG Signature Error
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fixing APT GPG Signature Error
+translated: false
 ---
 
 The error you’re seeing means APT refuses to update from the ShiftKey repo because it can’t verify its GPG signature. You have two simple ways to fix this:

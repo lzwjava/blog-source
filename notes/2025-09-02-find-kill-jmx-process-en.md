@@ -1,11 +1,11 @@
 ---
-title: Find and Kill JMX Port Process
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Find and Kill JMX Port Process
+translated: false
 ---
 
 Got it — you want to check which Java program on Windows has opened a **JMX remote agent** on port `9091`, and then kill it if necessary. Here’s how you can do it step by step:

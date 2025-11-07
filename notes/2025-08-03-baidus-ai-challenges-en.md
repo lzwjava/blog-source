@@ -1,11 +1,11 @@
 ---
-title: Baidu's AI Struggles Despite Early Lead
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Baidu's AI Struggles Despite Early Lead
+translated: false
 ---
 
 ### Baidu's Early Deep Learning Efforts and Current Challenges

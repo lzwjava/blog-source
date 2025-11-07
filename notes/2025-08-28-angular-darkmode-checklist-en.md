@@ -1,11 +1,11 @@
 ---
-title: Angular Dark Mode Element Checklist
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Angular Dark Mode Element Checklist
+translated: false
 ---
 
 When you implement a dark mode in an Angular frontend, you’ll usually start with `body`, `select`, and `option`, but there are quite a few other common HTML elements you’ll want to restyle so the theme feels consistent. Here’s a practical checklist:

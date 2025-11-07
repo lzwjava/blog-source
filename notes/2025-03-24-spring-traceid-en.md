@@ -1,10 +1,10 @@
 ---
-title: Spring Boot Log4j Request Tracing
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Spring Boot Log4j Request Tracing
 translated: false
-generated: true
 ---
 
 In a Java Spring Boot application using Log4j without a built-in trace ID design, tracking a specific log entry back to a frontend-initiated request can indeed be challenging. You're correct that `%t` (thread name) in Log4j can help identify logs tied to a specific thread, but as you noted, this becomes less reliable when requests span multiple threads (e.g., due to async processing, thread pools, or downstream calls). Using a time range to search logs is a workaround, but it’s imprecise and cumbersome, especially in high-traffic systems. Let’s explore some practical advice to improve this situation without overhauling your entire setup.

@@ -1,11 +1,11 @@
 ---
-title: Cucumber BDD Guide for Java Devs
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Cucumber BDD Guide for Java Devs
+translated: false
 ---
 
 Here’s a practical, end-to-end introduction to **Cucumber**—what it is, why teams use it, and how to get productive with it in Java (plus quick notes for JS/Python users).

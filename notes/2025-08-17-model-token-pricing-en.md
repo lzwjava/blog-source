@@ -1,11 +1,11 @@
 ---
-title: OpenRouter Model Token Pricing Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: OpenRouter Model Token Pricing Guide
+translated: false
 ---
 
 Here’s what those exact OpenRouter models currently cost per **1M tokens** (input → output). I’m pulling straight from each model’s page:

@@ -1,11 +1,11 @@
 ---
-title: OpenRouter AI Model Marketplace Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: OpenRouter AI Model Marketplace Guide
+translated: false
 ---
 
 [![openrouter.ai/docs/quick...](https://images.openai.com/thumbnails/url/73N_UHicu1mUUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw4qywvzScyOrMwwcwuKCrbMMwgMiTdz9yopSywt9A0MKtbNDy52cgoLL7LIzfAzSXF0z890qvTODTdXKwYA1aEpdw)](https://openrouter.ai/docs/quickstart)

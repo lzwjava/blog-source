@@ -1,10 +1,10 @@
 ---
-title: Chemistry Words in Breaking Bad
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Chemistry Words in Breaking Bad
 translated: false
-generated: true
 ---
 
 "Breaking Bad" is a TV series that revolves around chemistry, particularly in the context of methamphetamine production, so several chemistry-related terms pop up frequently. Based on the show's themes and dialogue, here are some of the most common chemistry words and concepts that appear often:

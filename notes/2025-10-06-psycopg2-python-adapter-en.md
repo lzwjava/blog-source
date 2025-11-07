@@ -1,12 +1,12 @@
 ---
-title: Psycopg2 PostgreSQL Adapter for Python
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Psycopg2 PostgreSQL Adapter for Python
+translated: false
 ---
 
 **Psycopg2** is a popular open-source PostgreSQL database adapter (also known as a driver) for the Python programming language. It allows Python applications to connect to PostgreSQL databases, execute SQL queries, and handle data efficiently. Key features include:

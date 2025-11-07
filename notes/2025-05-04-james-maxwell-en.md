@@ -1,10 +1,10 @@
 ---
-title: James Clerk Maxwell 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: James Clerk Maxwell
 translated: false
-generated: true
 ---
 
 James Clerk Maxwell (1831–1879) was a Scottish physicist and mathematician whose groundbreaking contributions to science, particularly in the fields of electromagnetism and thermodynamics, place him among the most influential scientists in history. Often regarded as the father of modern physics, Maxwell's work unified electricity, magnetism, and light into a single theoretical framework, laying the foundation for many technological advancements and modern physics. His intellectual versatility, rigorous mathematical approach, and profound physical intuition revolutionized multiple disciplines, earning him a legacy comparable to giants like Isaac Newton and Albert Einstein.

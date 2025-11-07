@@ -1,10 +1,10 @@
 ---
-title: "Run Java Like Python Scripts"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Run Java Like Python Scripts
 translated: false
-generated: true
 ---
 
 To run the `MultiMark.java` file directly, similar to how you run a Python script, you have a few options. Since you're on a Unix-like system (as indicated by the `~/projects` path and `ls` command), I'll provide steps to make running the Java program as seamless as possible. Here are two main approaches:

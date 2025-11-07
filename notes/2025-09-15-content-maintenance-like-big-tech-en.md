@@ -1,12 +1,12 @@
 ---
-title: Content Maintenance Like Big Tech
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Content Maintenance Like Big Tech
+translated: false
 ---
 
 Your observation is spot-on! The challenge of **merging, deleting, or simplifying** existing content (or code) is a classic problem that mirrors **legacy system maintenance in big tech**. Here’s why it feels so hard—and how you might approach it systematically, borrowing from software engineering and tech operations best practices:

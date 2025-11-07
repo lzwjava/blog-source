@@ -1,12 +1,12 @@
 ---
-title: Simple PyTorch RNN Example
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Simple PyTorch RNN Example
+translated: false
 ---
 
 ### Simple RNN Example in PyTorch

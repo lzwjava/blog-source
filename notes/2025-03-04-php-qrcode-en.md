@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: PHP Tool for Generating QR Codes
 translated: false
-generated: true
 ---
 
 ### Key Points

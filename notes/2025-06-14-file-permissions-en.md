@@ -1,10 +1,10 @@
 ---
-title: File Permissions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: File Permissions
 translated: false
-generated: true
 ---
 
 The `crw-rw----` in the output of `ls -alrt /dev/ttyUSB0` represents the **file type and permissions** for the device file `/dev/ttyUSB0`. Here's a breakdown:

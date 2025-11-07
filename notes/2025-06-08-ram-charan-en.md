@@ -1,12 +1,11 @@
 ---
-title: Ram Charan
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Ram Charan
 translated: false
-generated: true
 ---
-
 
 ### **Introduction to Ram Charan**  
 Ram Charan is a world-renowned business consultant, speaker, and author, recognized for his expertise in corporate strategy, leadership, and execution. With a career spanning over five decades, he has advised top CEOs and boards of Fortune 500 companies, including GE, Bank of America, and Toyota. His practical, no-nonsense approach to solving complex business problems has made him one of the most influential management thinkers in the world.

@@ -1,10 +1,10 @@
 ---
-title: "Hey Jude, Make It Better"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Hey Jude, Make It Better
 translated: false
-generated: true
 ---
 
 Hey Jude, don't make it bad

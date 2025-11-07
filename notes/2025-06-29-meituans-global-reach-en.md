@@ -1,10 +1,10 @@
 ---
-title: "Meituan Expands Globally with KeeTa"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Meituan Expands Globally with KeeTa
 translated: false
-generated: true
 ---
 
 Meituan, a leading Chinese tech company, has ventured into international markets with its food delivery platform KeeTa, starting in Hong Kong and expanding to Saudi Arabia, with plans for the UAE, Qatar, Kuwait, and Brazil. Below is an analysis of the advantages and disadvantages of Meituan operating internationally as a Chinese team, with a focus on KeeTa, and whether a non-diverse team can perform effectively in international markets.

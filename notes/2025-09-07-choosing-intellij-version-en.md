@@ -1,12 +1,12 @@
 ---
-title: Choosing the Correct IntelliJ Version
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Choosing the Correct IntelliJ Version
+translated: false
 ---
 
 From your `uname -a` output:

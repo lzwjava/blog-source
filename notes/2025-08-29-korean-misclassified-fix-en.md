@@ -1,11 +1,11 @@
 ---
-title: Korean Misclassified as Chinese Validator Fix
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Korean Misclassified as Chinese Validator Fix
+translated: false
 ---
 
 Got it — in this debug output:

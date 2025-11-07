@@ -1,10 +1,10 @@
 ---
-title: Capacitors
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Capacitors
 translated: false
-generated: true
 ---
 
 Alright, let's dive into a **comprehensive** but still **easy-to-follow** analysis of **how capacitors work**:

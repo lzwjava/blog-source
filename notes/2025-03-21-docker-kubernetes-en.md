@@ -1,10 +1,10 @@
 ---
-title: Docker vs Kubernetes
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Docker vs Kubernetes
 translated: false
-generated: true
 ---
 
 Docker and Kubernetes are complementary technologies in the container ecosystem, but they serve different purposes. Let’s break down their differences and how they relate.

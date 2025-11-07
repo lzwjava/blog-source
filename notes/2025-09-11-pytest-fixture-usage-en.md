@@ -1,13 +1,13 @@
 ---
-title: Understanding Pytest Fixture Usage
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Understanding Pytest Fixture Usage
+translated: false
 ---
 
 ## What is `@pytest.fixture`?

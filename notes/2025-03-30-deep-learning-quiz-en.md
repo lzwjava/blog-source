@@ -1,10 +1,10 @@
 ---
-title: Deep Learning Quiz
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Deep Learning Quiz
 translated: false
-generated: true
 ---
 
 Here’s a quiz based on the content you provided:

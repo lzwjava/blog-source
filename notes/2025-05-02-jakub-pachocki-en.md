@@ -1,10 +1,10 @@
 ---
-title: Jakub Pachocki
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Jakub Pachocki
 translated: false
-generated: true
 ---
 
 Jakub Pachocki is a distinguished computer scientist, artificial intelligence (AI) researcher, and former competitive programmer, widely recognized as the Chief Scientist at OpenAI, a leading AI research organization. Born in 1991 in Gdańsk, Poland, Pachocki has emerged as a pivotal figure in advancing AI technologies, notably for his role in overseeing the development of GPT-4 and other groundbreaking models. Praised by OpenAI CEO Sam Altman as "easily one of the greatest minds of our generation," Pachocki combines a robust academic background, competitive programming accolades, and extensive research leadership to drive innovation in deep learning and AI.[](https://en.wikipedia.org/wiki/Jakub_Pachocki)[](https://x.com/czardam/status/1840453269853712607)

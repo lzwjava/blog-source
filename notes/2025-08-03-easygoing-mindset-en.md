@@ -1,11 +1,11 @@
 ---
-title: Stop Being Overly Critical
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Stop Being Overly Critical
+translated: false
 ---
 
 To avoid over-criticizing and adopt a more easygoing approach, focus on shifting your mindset and habits. Here are practical steps:

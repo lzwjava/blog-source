@@ -1,11 +1,11 @@
 ---
-title: OpenRouter Token Usage Growth Drivers
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: OpenRouter Token Usage Growth Drivers
+translated: false
 ---
 
 The rankings page on OpenRouter (https://openrouter.ai/rankings) provides insights into token usage across various AI models, providers, and applications, reflecting real-world adoption and usage trends. It showcases which models and apps are driving the most token consumption, offering a glimpse into the AI economy's dynamics. However, the specifics of *how tokens grow* in OpenRouter—interpreted as how token usage scales or increases—are not directly detailed on the rankings page but can be inferred from OpenRouter’s documentation and usage patterns.

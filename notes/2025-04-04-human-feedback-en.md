@@ -1,10 +1,10 @@
 ---
-title: Human Feedback Reinforcement Learning (RLHF) Explained
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Human Feedback Reinforcement Learning (RLHF) Explained
 translated: false
-generated: true
 ---
 
 **Reinforcement Learning from Human Feedback (RLHF)** is a machine learning technique used to fine-tune AI models, particularly large language models (LLMs), to better align with human preferences and instructions. Instead of relying solely on predefined reward functions, RLHF incorporates direct feedback from humans to guide the learning process.

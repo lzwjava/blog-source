@@ -1,10 +1,10 @@
 ---
-title: Laundry Pods
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Laundry Pods
 translated: false
-generated: true
 ---
 
 Laundry pods offer several advantages:

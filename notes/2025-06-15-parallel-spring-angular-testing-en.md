@@ -1,11 +1,11 @@
 ---
-title: Parallel Spring Angular Browser Testing
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Parallel Spring Angular Browser Testing
+translated: false
 ---
 
 Got it—you want a practical way to test your Spring (Java) + Angular site in **Edge and Chrome in parallel**, mainly **manually** (with some light automation where it helps). Here’s a field-tested workflow that avoids wide tables.

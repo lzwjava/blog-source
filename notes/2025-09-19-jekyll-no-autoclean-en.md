@@ -1,12 +1,12 @@
 ---
-title: Jekyll Build Lacks Auto-Clean Feature
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Jekyll Build Lacks Auto-Clean Feature
+translated: false
 ---
 
 Jekyll itself doesn’t have a `--replace` or `--refresh` flag. Each `jekyll build` run will write (or overwrite) the generated files into the `--destination` folder you specify, but it **doesn’t automatically remove old files** that no longer exist in your source. That means stale files can remain.

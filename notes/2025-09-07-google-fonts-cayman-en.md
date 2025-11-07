@@ -1,12 +1,12 @@
 ---
-title: Google Fonts Import in Cayman Theme
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Google Fonts Import in Cayman Theme
+translated: false
 ---
 
 Yes — that’s very likely the reason.

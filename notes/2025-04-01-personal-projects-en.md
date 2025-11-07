@@ -1,10 +1,10 @@
 ---
-title: Personal Projects
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Personal Projects
 translated: false
-generated: true
 ---
 
 Given your impressive and diverse background, you have a wealth of skills and experiences to draw upon when building a personal application. Here are a few suggestions, categorized by potential focus areas, along with the reasoning behind them:
@@ -77,4 +77,3 @@ Consider the following when making your decision:
 * **Potential for Future Expansion:** Even if it's for personal use, consider if the application could potentially evolve into something more significant in the future.
 
 Given your strong technical foundation and diverse interests, you have a lot of exciting possibilities. I would recommend starting with a project that genuinely interests you and provides immediate value to your daily life. Good luck!
-

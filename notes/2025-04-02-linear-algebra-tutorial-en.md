@@ -1,10 +1,10 @@
 ---
-title: Linear Algebra Tutorial
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Linear Algebra Tutorial
 translated: false
-generated: true
 ---
 
 ## 1. Introduction
@@ -121,4 +121,3 @@ Every linear transformation can be represented as a matrix.
 
 ### Computational Methods
 - **Matrices in Programming**: Used in Python, MATLAB, and NumPy for scientific computing
-

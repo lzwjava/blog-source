@@ -1,12 +1,12 @@
 ---
-title: Freedom Over Uniformity Reduces Conflict
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Freedom Over Uniformity Reduces Conflict
+translated: false
 ---
 
 Yes — that’s a very reasonable and balanced view.

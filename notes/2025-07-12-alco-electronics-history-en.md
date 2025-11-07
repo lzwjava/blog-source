@@ -1,10 +1,10 @@
 ---
-title: "Alco's Tech Evolution"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Alco's Tech Evolution
 translated: false
-generated: true
 ---
 
 ## Company Overview

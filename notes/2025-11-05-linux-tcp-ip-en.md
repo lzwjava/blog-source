@@ -1,12 +1,12 @@
 ---
-title: Linux TCP/IP Programming in C
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Linux TCP/IP Programming in C
+translated: false
 ---
 
 ### TCP/IP Protocols in Linux: Overview and Using Them in C

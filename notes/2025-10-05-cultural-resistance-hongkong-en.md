@@ -1,12 +1,12 @@
 ---
-title: Hong Kong's Resistance to Cultural Imposition
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hong Kong's Resistance to Cultural Imposition
+translated: false
 ---
 
 ### Language and Curriculum Conflicts in Hong Kong: Parallels to India's North-South Divide

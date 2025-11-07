@@ -1,10 +1,10 @@
 ---
-title: Preventing Spoilage of Fresh Enoki and Shiitake Mushrooms
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Preventing Spoilage of Fresh Enoki and Shiitake Mushrooms
 translated: false
-generated: true
 ---
 
 In Guangzhou’s hot June weather (typically 28–33°C with high humidity), fresh mushrooms like enoki and shiitake are prone to spoilage due to their high water content and sensitivity to heat. If they were shipped from another province via JD.com and left at room temperature for three days, it’s likely they spoiled due to improper storage. Below are strategies to avoid this, alternatives to these mushrooms, and preservation tips.

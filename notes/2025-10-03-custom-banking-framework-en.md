@@ -1,12 +1,12 @@
 ---
-title: Custom Banking Framework on Spring Boot
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Custom Banking Framework on Spring Boot
+translated: false
 ---
 
 ### Benefits of Building a Custom Framework on Top of Spring Boot for Microservices in a Large Banking Project

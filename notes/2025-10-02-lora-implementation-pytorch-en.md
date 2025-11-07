@@ -1,12 +1,12 @@
 ---
-title: LoRA Implementation Example with PyTorch
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: LoRA Implementation Example with PyTorch
+translated: false
 ---
 
 Below is a Python code example demonstrating how to implement LoRA (Low-Rank Adaptation) using PyTorch for fine-tuning a simple neural network. This example focuses on adapting a pre-trained linear layer with LoRA, keeping the original weights frozen and introducing low-rank update matrices. The code includes a basic setup with a toy dataset and a minimal training loop to illustrate the concept.

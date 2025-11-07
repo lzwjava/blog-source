@@ -1,12 +1,12 @@
 ---
-title: Fermi Teaches Independent Thinking
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Fermi Teaches Independent Thinking
+translated: false
 ---
 
 ### The Story of Enrico Fermi and Tsung-Dao Lee: A Lesson in Independent Thinking with a Custom Slide Rule

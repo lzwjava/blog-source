@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Python Guide
 translated: false
-generated: true
 ---
 
 Here is a concise Python guide covering string operations, math, text processing, I/O, file handling, networking, collections, and multithreading. Each section includes a brief overview and practical examples to help you get started or refresh your knowledge.

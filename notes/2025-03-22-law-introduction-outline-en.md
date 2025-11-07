@@ -1,10 +1,10 @@
 ---
-title: Course 00040 Introduction to Law 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Course 00040 Introduction to Law
 translated: false
-generated: true
 ---
 
 ### Key Points

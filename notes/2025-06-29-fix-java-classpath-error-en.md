@@ -1,10 +1,10 @@
 ---
-title: "Fix Java Classpath Error"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fix Java Classpath Error
 translated: false
-generated: true
 ---
 
 The error you encountered (`Could not find or load main class scripts.benchmark.MultiMark`) occurs because you tried to run the Java program from the project root directory (`~/projects/lzwjava.github.io`) using the fully qualified class name (`scripts.benchmark.MultiMark`), but the Java runtime expects the class to be run from the directory where the package structure starts, or you need to specify the classpath correctly. When you changed to the `scripts/benchmark` directory and ran `java MultiMark`, it worked because the class was in the correct directory relative to the command.

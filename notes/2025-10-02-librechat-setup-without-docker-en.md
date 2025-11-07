@@ -1,12 +1,12 @@
 ---
-title: LibreChat Setup Without Docker Compose
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: LibreChat Setup Without Docker Compose
+translated: false
 ---
 
 Yes, you can set up LibreChat without Docker Compose by using individual `docker run` commands or even a non-Docker method (manual installation with Node.js, Yarn, MongoDB, and MeiliSearch). This avoids downloading the `docker-compose` binary itself (which is small, ~20-30MB, but I assume you're referring to the overall image pulls totaling ~70MB+ for LibreChat's services). However, the core Docker images (e.g., for the app, MongoDB, MeiliSearch) are still around 500MB-1GB total when pulled—Docker Compose is just an orchestration tool on top of Docker, not the main bandwidth user. Pulling images over slow 4G/5G will still be the bottleneck, but you can mitigate it.

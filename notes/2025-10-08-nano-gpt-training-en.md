@@ -1,12 +1,12 @@
 ---
-title: Training Custom Datasets with nanoGPT
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Training Custom Datasets with nanoGPT
+translated: false
 ---
 
 ### Preparing and Training a Custom Text Dataset with nanoGPT

@@ -1,12 +1,12 @@
 ---
-title: GPS Positioning Principle Explained Simply
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: GPS Positioning Principle Explained Simply
+translated: false
 ---
 
 ### Today's Second Science Popularization Task: A Video Explaining the GPS Positioning System Principle

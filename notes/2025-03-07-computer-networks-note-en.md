@@ -1,10 +1,10 @@
 ---
-title: Computer Networks - Note
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Computer Networks - Note
 translated: false
-generated: true
 ---
 
 Let me break this down and explain it in English:
@@ -554,4 +554,3 @@ In a half-duplex system:
 - **Applications**: Half-duplex is common in scenarios where hardware costs need to be minimized or where simultaneous two-way communication isn’t required, such as in some wireless systems or legacy network setups.
 
 If you’d like a deeper dive into examples, protocols (e.g., CSMA/CD in Ethernet), or comparisons with full-duplex, let me know!
-

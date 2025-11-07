@@ -1,11 +1,11 @@
 ---
-title: GitHub Copilot API Bridge
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: GitHub Copilot API Bridge
+translated: false
 ---
 
 You’ve landed on **ericc-ch/copilot-api**, a GitHub project that transforms **GitHub Copilot** into a local API server compatible with **OpenAI** and **Anthropic** (e.g., Claude) APIs.

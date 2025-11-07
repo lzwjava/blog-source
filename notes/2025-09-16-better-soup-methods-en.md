@@ -1,12 +1,12 @@
 ---
-title: Better Methods for Noodle Soup Preparation
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Better Methods for Noodle Soup Preparation
+translated: false
 ---
 
 Short answer: It works, but it’s not the best for noodles.

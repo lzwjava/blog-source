@@ -1,11 +1,11 @@
 ---
-title: TypeScript Local Setup Guide Steps
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: TypeScript Local Setup Guide Steps
+translated: false
 ---
 
 To run TypeScript locally, you’ll usually use **npm** and the TypeScript compiler (`tsc`). Here’s a step-by-step guide:

@@ -1,10 +1,10 @@
 ---
-title: Deep Thinking Reasoner Models
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Deep Thinking Reasoner Models
 translated: false
-generated: true
 ---
 
 ### Key Points

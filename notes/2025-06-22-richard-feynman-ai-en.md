@@ -1,10 +1,10 @@
 ---
-title: Richard Feynman's Lecture on Artificial Intelligence
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Richard Feynman's Lecture on Artificial Intelligence
 translated: false
-generated: true
 ---
 
 September 26, 1985
@@ -110,4 +110,3 @@ In summary, machines won’t think like humans due to their design for efficienc
 ---
 
 *Note: The lecture was interrupted by time constraints for a slideshow, as indicated in the original text.*
-

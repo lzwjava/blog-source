@@ -1,10 +1,10 @@
 ---
-title: Universities in Philippines
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Universities in Philippines
 translated: false
-generated: true
 ---
 
 The Philippines has a diverse and extensive higher education landscape with numerous universities offering a wide range of programs. Here are some of the notable universities in the Philippines:

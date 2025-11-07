@@ -1,12 +1,12 @@
 ---
-title: Git Fetch and Prune Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Git Fetch and Prune Overview
+translated: false
 ---
 
 ### What is `git fetch`?

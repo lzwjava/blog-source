@@ -1,12 +1,12 @@
 ---
-title: Third US Trip for Deeper Immersion
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Third US Trip for Deeper Immersion
+translated: false
 ---
 
 ### One-Month USA Travel Plan: Tailored for Your Third Visit

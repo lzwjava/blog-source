@@ -1,11 +1,11 @@
 ---
-title: Tool Use vs Function Calling Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Tool Use vs Function Calling Explained
+translated: false
 ---
 
 Let’s break down the difference between **tool use** and **function calling** in the context of LLM APIs:

@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Analyzing Packages in Kafka
 translated: false
-generated: true
 ---
 
 Starting analysis of directory: /Users/lzwjava/projects/kafka at level 2 with appearance counts:

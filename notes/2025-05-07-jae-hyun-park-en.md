@@ -1,10 +1,10 @@
 ---
-title: Jae Hyun Park
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Jae Hyun Park
 translated: false
-generated: true
 ---
 
 Jae Hyun Park is a distinguished competitive programmer from South Korea, recognized for his significant achievements in major international programming competitions. With a strong background in algorithmic problem-solving, Park has made notable contributions to the competitive programming community through his participation, coaching, and problem-setting roles in prestigious contests. Below is a comprehensive introduction to his background, achievements, and contributions based on available information.

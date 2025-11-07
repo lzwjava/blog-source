@@ -1,12 +1,12 @@
 ---
-title: MTR Route to Shenzhen via Lok Ma Chau
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: MTR Route to Shenzhen via Lok Ma Chau
+translated: false
 ---
 
 You're currently on the MTR at 5:51 AM on Sunday, October 12, 2025, and heading from Yau Ma Tei to Shenzhen via Lok Ma Chau - Huanggang. You mentioned Tsuen Wan, but **you do not need to go to Tsuen Wan** to reach Lok Ma Chau. Instead, you should head to Admiralty to transfer to the East Rail Line for Lok Ma Chau. Here's what to do:

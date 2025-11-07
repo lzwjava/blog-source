@@ -1,10 +1,10 @@
 ---
-title: Recurrent Neural Network
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Recurrent Neural Network
 translated: false
-generated: true
 ---
 
 Let's break down Recurrent Neural Networks (RNNs):

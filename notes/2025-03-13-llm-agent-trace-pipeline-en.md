@@ -1,11 +1,11 @@
 ---
-title: End-to-End Trace to LLM Agent Pipeline
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: End-to-End Trace to LLM Agent Pipeline
+translated: false
 ---
 
 You’re on a solid track: AOP (AspectJ), servlet filters, and Log4j2 each shine at different layers. Here’s a compact, end-to-end way to use them together—first to **harvest execution traces and HTTP I/O** (so you can auto-mint Python tests), then to **feed rich context to an LLM “agent” endpoint in Spring**.

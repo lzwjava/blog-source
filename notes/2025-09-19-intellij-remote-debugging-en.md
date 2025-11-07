@@ -1,12 +1,12 @@
 ---
-title: IntelliJ Remote Debugging Setup Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: IntelliJ Remote Debugging Setup Guide
+translated: false
 ---
 
 Short answer: yes—if you keep the build and the running JVM in sync, IntelliJ remote debug will attach cleanly. Here’s a solid, low-drama way to do it across Liberty locally and Cloud Foundry.

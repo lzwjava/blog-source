@@ -1,12 +1,12 @@
 ---
-title: Resolving Flutter Clean Hang on macOS
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Resolving Flutter Clean Hang on macOS
+translated: false
 ---
 
 Ah, I see what you mean 👍  

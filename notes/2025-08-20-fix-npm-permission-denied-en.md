@@ -1,11 +1,11 @@
 ---
-title: Fix npm Permission Denied Error
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fix npm Permission Denied Error
+translated: false
 ---
 
 The error you're encountering, `EACCES: permission denied`, means your current user does **not have write permissions** to the `/usr/local/lib/node_modules` directory. This is a common issue when installing global npm packages on Linux or macOS.

@@ -1,11 +1,11 @@
 ---
-title: Liberty Log Rotation Configuration Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Liberty Log Rotation Configuration Guide
+translated: false
 ---
 
 Here’s the short version, then examples you can paste into `server.xml`.

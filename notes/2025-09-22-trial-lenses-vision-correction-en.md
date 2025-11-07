@@ -1,12 +1,12 @@
 ---
-title: Trial Lenses for Vision Correction
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Trial Lenses for Vision Correction
+translated: false
 ---
 
 ### English Term for "验光插片"

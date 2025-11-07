@@ -1,11 +1,11 @@
 ---
-title: Python Difflib Sequence Comparison Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Python Difflib Sequence Comparison Guide
+translated: false
 ---
 
 In Python, the **`difflib`** module provides tools for comparing sequences—strings, lists, or any iterable. It’s often used for tasks like detecting differences between texts (like `diff` in Unix) or building auto-completion and similarity tools.

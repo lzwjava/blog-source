@@ -1,10 +1,10 @@
 ---
-title: Europe Travel Cost
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Europe Travel Cost
 translated: false
-generated: true
 ---
 
 Traveling from Guangzhou, China, to Europe for 10 days on a minimal budget requires careful planning, focusing on affordable transportation, accommodation, food, and activities. Here’s a step-by-step guide to help you achieve this:

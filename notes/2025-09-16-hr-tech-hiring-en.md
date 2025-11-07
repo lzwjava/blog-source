@@ -1,12 +1,12 @@
 ---
-title: HR Functions and Tech Hiring Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: HR Functions and Tech Hiring Overview
+translated: false
 ---
 
 Great question. “HR” is a big umbrella. Recruiting is just one part of it, and how hard it is to hire (say 22 full‑stack engineers in a year) depends a lot on the market, seniority, tech stack, salary, and employer brand.

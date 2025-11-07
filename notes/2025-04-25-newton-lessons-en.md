@@ -1,10 +1,10 @@
 ---
-title: Learn From Isaac Newton
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Learn From Isaac Newton
 translated: false
-generated: true
 ---
 
 Isaac Newton was one of the most influential scientists in history, and we can learn a great deal from his life and work. Here are some key takeaways:

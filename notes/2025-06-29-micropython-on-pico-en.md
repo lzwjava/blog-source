@@ -1,10 +1,10 @@
 ---
-title: "Upload MicroPython to Pico"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Upload MicroPython to Pico
 translated: false
-generated: true
 ---
 
 After flashing MicroPython onto your Raspberry Pi Pico (using the `.uf2` file as described), you can upload and run a simple MicroPython program using a tool like Thonny IDE, which is beginner-friendly and widely used for MicroPython development. Below are the steps to set up MicroPython and upload a simple program to your Pico.

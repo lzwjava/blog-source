@@ -1,11 +1,11 @@
 ---
-title: JFIF Is Just JPEG Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: JFIF Is Just JPEG Explained
+translated: false
 ---
 
 JFIF stands for **JPEG File Interchange Format**.

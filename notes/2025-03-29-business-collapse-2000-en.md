@@ -1,10 +1,10 @@
 ---
-title: Business Collapse Between 1995 and 2010
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Business Collapse Between 1995 and 2010
 translated: false
-generated: true
 ---
 
 Between 1995 and 2010, there were several major business collapses that made headlines due to their scale, impact on industries, and long-lasting consequences. Here are some of the most notable:

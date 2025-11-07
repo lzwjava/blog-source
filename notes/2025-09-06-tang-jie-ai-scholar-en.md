@@ -1,12 +1,12 @@
 ---
-title: "Tang Jie: AI Scholar and Z.ai Co-Founder"
-date: 2025-09-06
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-06
 generated: true
 image: false
+lang: en
+layout: post
+title: 'Tang Jie: AI Scholar and Z.ai Co-Founder'
+translated: false
 ---
 
 Here’s a photo of **Tang Jie (唐杰)** — the co-founder of Z.ai (formerly Zhipu AI) and a professor at Tsinghua University.

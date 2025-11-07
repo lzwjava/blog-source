@@ -1,10 +1,10 @@
 ---
-title: Tamil Phrases and Meanings
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Tamil Phrases and Meanings
 translated: false
-generated: true
 ---
 
 Here are 20 common Tamil phrases along with their meanings:

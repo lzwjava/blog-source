@@ -1,10 +1,10 @@
 ---
-title: Using GitHub Copilot in Visual Studio Code
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Using GitHub Copilot in Visual Studio Code
 translated: false
-generated: true
 ---
 
 To use GitHub Copilot in Visual Studio Code (VSCode), follow these steps:

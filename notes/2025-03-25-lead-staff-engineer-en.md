@@ -1,10 +1,10 @@
 ---
-title: Becoming a Lead Software Engineer or Staff Software Engineer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Becoming a Lead Software Engineer or Staff Software Engineer
 translated: false
-generated: true
 ---
 
 Becoming a Lead Software Engineer or Staff Software Engineer is a natural stepping stone toward roles like Principal Software Engineer. These positions sit between Senior Engineer and Principal, focusing on technical leadership, broader impact, and complex problem-solving, often with less managerial responsibility than a traditional manager role. Here’s how to get there:

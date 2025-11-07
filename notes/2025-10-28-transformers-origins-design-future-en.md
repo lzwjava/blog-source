@@ -1,12 +1,12 @@
 ---
-title: "Transformers: Origins, Design, and Future"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Transformers: Origins, Design, and Future'
+translated: false
 ---
 
 ### Summary of "How I Learned to Stop Worrying and Love the Transformer" by Ashish Vaswani

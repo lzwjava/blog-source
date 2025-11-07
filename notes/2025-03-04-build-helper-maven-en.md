@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Build Helper Maven Plugin
 translated: false
-generated: true
 ---
 
 The `builder-helper-maven-plugin`, now known as the **Build Helper Maven Plugin**, is a versatile tool designed to assist with various tasks in the Maven build lifecycle. Originally hosted under Codehaus, it is now maintained by MojoHaus, though its Maven coordinates still use the `org.codehaus.mojo` group ID. This plugin provides a set of goals to help with operations such as adding extra source directories, attaching additional artifacts, parsing version information, and more. Below, I’ll guide you through how to use this plugin in your Maven project.

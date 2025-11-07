@@ -1,12 +1,12 @@
 ---
-title: Installing MetaMask on Android
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Installing MetaMask on Android
+translated: false
 ---
 
 ### How to Install MetaMask on Android

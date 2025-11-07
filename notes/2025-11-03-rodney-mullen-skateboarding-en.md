@@ -1,12 +1,12 @@
 ---
-title: Rodney Mullen Skateboarding Legend
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Rodney Mullen Skateboarding Legend
+translated: false
 ---
 
 Rodney Mullen is an American professional skateboarder widely regarded as the "Godfather of Street Skating" for pioneering dozens of foundational tricks that revolutionized the sport. Born on August 17, 1966, in Gainesville, Florida, he began skating at age 10 and quickly rose to prominence in freestyle competitions.

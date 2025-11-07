@@ -1,11 +1,11 @@
 ---
-title: Upgrade Open WebUI Safely Now
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Upgrade Open WebUI Safely Now
+translated: false
 ---
 
 Got you. Here are the safe, no-nonsense ways to upgrade Open WebUI.

@@ -1,10 +1,10 @@
 ---
-title: Influential Programmers
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Influential Programmers
 translated: false
-generated: true
 ---
 
 It's difficult to definitively name the "best" programmers or computer scientists as it's subjective and depends on the criteria used for evaluation. Both fields have produced numerous individuals who have made groundbreaking contributions. However, we can highlight some highly influential figures in each area.

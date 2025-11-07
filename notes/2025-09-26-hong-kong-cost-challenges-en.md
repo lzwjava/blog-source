@@ -1,12 +1,12 @@
 ---
-title: Hong Kongs High Cost Challenges
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Hong Kongs High Cost Challenges
+translated: false
 ---
 
 Hong Kong is famous for its high cost of living—rent, dining, and even daily essentials can feel steep compared to many other cities. The fast pace, crowded spaces, and intense work culture can also add to the stress, so it’s not surprising that people sometimes vent their frustrations. The city’s mix of extreme wealth and high expenses can make life challenging, especially for those not in the top income brackets.

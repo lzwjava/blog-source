@@ -1,12 +1,12 @@
 ---
-title: Diagnosing Java Hangs with jstack
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Diagnosing Java Hangs with jstack
+translated: false
 ---
 
 ### Using jstack to Diagnose Java Application Hangs or Stucks

@@ -1,10 +1,10 @@
 ---
-title: How Properties Work in Spring Boot
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: How Properties Work in Spring Boot
 translated: false
-generated: true
 ---
 
 Let’s explore how properties work in Spring Boot, including how to use YAML or `.properties` files, how to override them with command-line arguments like `-D`, the various ways to initialize properties, and how to test them effectively.

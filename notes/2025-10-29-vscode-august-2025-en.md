@@ -1,12 +1,12 @@
 ---
-title: Visual Studio Code August 2025 Update
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Visual Studio Code August 2025 Update
+translated: false
 ---
 
 ### Visual Studio Code 1.104 (August 2025)

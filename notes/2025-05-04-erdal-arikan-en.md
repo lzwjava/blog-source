@@ -1,10 +1,10 @@
 ---
-title: Erdal Arıkan
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Erdal Arıkan
 translated: false
-generated: true
 ---
 
 Erdal Arıkan is a Turkish electrical engineer and professor whose groundbreaking work in information theory, particularly the invention of polar codes, has had a transformative impact on digital communications, notably as a cornerstone of 5G technology. Born in 1958 in Ankara, Turkey, Arıkan’s career spans decades of academic rigor, innovative research, and global recognition for solving long-standing challenges in channel coding. His development of polar codes, introduced in 2008, provided the first practical method to achieve the Shannon limit—the theoretical maximum rate for error-free data transmission over noisy channels—revolutionizing error-correcting codes and enabling high-speed, reliable wireless communication. Below is a comprehensive introduction to Arıkan’s life, education, contributions, and legacy.

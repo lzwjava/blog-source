@@ -1,10 +1,10 @@
 ---
-title: powders
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: powders
 translated: false
-generated: true
 ---
 
 Besides coffee powder, there are several other powders that can be brewed:

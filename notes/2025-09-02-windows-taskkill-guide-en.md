@@ -1,11 +1,11 @@
 ---
-title: Windows Taskkill Command Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Windows Taskkill Command Guide
+translated: false
 ---
 
 In Windows, `taskkill` is a built-in command-line tool you can use to stop (kill) processes by their **process ID (PID)** or **image name (executable name)**.

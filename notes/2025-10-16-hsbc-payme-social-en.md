@@ -1,12 +1,12 @@
 ---
-title: HSBC PayMe for Social Payments
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: HSBC PayMe for Social Payments
+translated: false
 ---
 
 ### HSBC and PayMe in Hong Kong

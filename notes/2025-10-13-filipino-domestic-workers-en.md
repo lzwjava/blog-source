@@ -1,12 +1,12 @@
 ---
-title: Filipino Domestic Workers in Hong Kong
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Filipino Domestic Workers in Hong Kong
+translated: false
 ---
 
 ### Why Filipinos Often Migrate to Hong Kong and Singapore as Domestic Workers

@@ -1,12 +1,12 @@
 ---
-title: Top Guangzhou Hospital Rankings 2025
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Top Guangzhou Hospital Rankings 2025
+translated: false
 ---
 
 ### Top Hospital in Guangzhou

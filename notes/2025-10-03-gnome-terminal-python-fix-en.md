@@ -1,12 +1,12 @@
 ---
-title: Fixing GNOME Terminal Python Import Error
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Fixing GNOME Terminal Python Import Error
+translated: false
 ---
 
 ### Issue Diagnosis

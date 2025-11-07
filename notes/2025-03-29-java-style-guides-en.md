@@ -1,10 +1,10 @@
 ---
-title:  Comparative Analysis of Java Style Guides
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Comparative Analysis of Java Style Guides
 translated: false
-generated: true
 ---
 
 ## Top Java Style Guides

@@ -1,10 +1,10 @@
 ---
-title: The Computer History Museum 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The Computer History Museum
 translated: false
-generated: true
 ---
 
 The Computer History Museum in Silicon Valley offers a comprehensive look at the evolution of computing and its profound impact on humanity. Here's what its history and exhibits generally show:

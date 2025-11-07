@@ -1,12 +1,12 @@
 ---
-title: Vienna Hotels WiFi Login Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Vienna Hotels WiFi Login Guide
+translated: false
 ---
 
 The WiFi at Vienna Hotels (part of the Jinjiang International group) uses a standard captive portal system for guest authentication, common in Chinese hotels. The gateway IP (172.16.16.1) is the internal router address, and accessing it (or any non-HTTPS site) redirects you to the login page at portal.jinjianghotels.com.cn. Here's how the SMS-based login typically works—it's straightforward and secure for basic browsing, though some users worry about data privacy (it's hotel-managed, so use a VPN if paranoid).

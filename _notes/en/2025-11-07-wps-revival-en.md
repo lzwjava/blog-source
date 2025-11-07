@@ -1,12 +1,12 @@
 ---
-title: "WPS: From Near-Death to Mobile Success"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-4.5-sonnet
+title: 'WPS: From Near-Death to Mobile Success'
+translated: false
 ---
 
 I'll search for information about the history of WPS and its journey from the 1990s to its current success.Let me search for more information about WPS's mobile success and recent developments.Great! Now I have comprehensive information about the WPS story. Let me provide you with a detailed narrative of this fascinating journey.

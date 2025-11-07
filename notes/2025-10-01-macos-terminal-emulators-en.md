@@ -1,12 +1,12 @@
 ---
-title: Top macOS Terminal Emulator Alternatives
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Top macOS Terminal Emulator Alternatives
+translated: false
 ---
 
 Popular terminal emulators for macOS besides iTerm2 and Ghostty include several open-source and proprietary options that cater to different needs, such as performance, features, and customization. These are based on recent recommendations and rankings, focusing on macOS-compatible applications.

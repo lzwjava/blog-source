@@ -1,12 +1,12 @@
 ---
-title: LLMs, Code Reasoning, and Tool Use
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: LLMs, Code Reasoning, and Tool Use
+translated: false
 ---
 
 Great question! You're essentially asking how something like **Anthropic's Claude (and similar LLMs)** internally handles:  

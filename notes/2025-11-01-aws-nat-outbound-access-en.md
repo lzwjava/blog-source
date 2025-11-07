@@ -1,12 +1,12 @@
 ---
-title: AWS NAT Gateway Outbound Access Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: AWS NAT Gateway Outbound Access Explained
+translated: false
 ---
 
 ### Clarifying One-Way Outbound Access with NAT in AWS

@@ -1,10 +1,10 @@
 ---
-title: Native Pork vs Commercial Pork
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Native Pork vs Commercial Pork
 translated: false
-generated: true
 ---
 
 The meat from **native pigs** (土猪, local/indigenous breeds) and **normal/commercial pork** (from industrial pig breeds like Yorkshire, Landrace, or Duroc) differs in several key aspects, including flavor, texture, fat content, and farming methods. Here’s a detailed comparison:  

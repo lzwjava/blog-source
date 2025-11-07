@@ -1,13 +1,13 @@
 ---
-title: Managing Windows Ports and Processes
-date: 2025-09-09
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-09
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Managing Windows Ports and Processes
+translated: false
 ---
 
 On Windows, you can check which ports are being listened to — and by which process (PID) — using `netstat`, and then manage or kill those processes with `taskkill`. This is often needed when debugging backend projects like Java Spring Boot apps, Redis, or MySQL. Here’s how:

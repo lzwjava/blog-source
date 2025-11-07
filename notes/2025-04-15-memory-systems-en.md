@@ -1,10 +1,10 @@
 ---
-title: Memory Systems Tutorial
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Memory Systems Tutorial
 translated: false
-generated: true
 ---
 
 This tutorial covers the key concepts of memory systems, focusing on memory classification, RAM/ROM principles, and address decoding techniques. Let's break this down into comprehensive sections.

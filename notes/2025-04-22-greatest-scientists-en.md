@@ -1,10 +1,10 @@
 ---
-title: Greatest Scientists
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Greatest Scientists
 translated: false
-generated: true
 ---
 
 It's impossible to definitively say who the "greatest" scientists of all time are, as different people value different contributions and fields of study. However, some scientists consistently appear on lists of the most influential and impactful figures in history due to their groundbreaking discoveries and the profound way they changed our understanding of the world.

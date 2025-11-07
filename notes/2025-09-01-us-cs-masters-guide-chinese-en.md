@@ -1,11 +1,11 @@
 ---
-title: US CS Masters Guide for Chinese
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: US CS Masters Guide for Chinese
+translated: false
 ---
 
 Great question. Let me break this down in a way that connects your draft post with the broader picture of how U.S. CS master’s admissions work — especially for Chinese applicants.

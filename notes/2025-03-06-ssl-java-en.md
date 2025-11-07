@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Secure Connections in Java
 translated: false
-generated: true
 ---
 
 To use the `javax.net.ssl` package in Java, you need to leverage its classes to establish secure communication over the network using SSL (Secure Sockets Layer) or TLS (Transport Layer Security) protocols. This package is essential for creating secure connections, such as those used in HTTPS communication. Below, I’ll explain how to use it for both client-side and server-side applications, including basic examples and key considerations.

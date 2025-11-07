@@ -1,12 +1,12 @@
 ---
-title: China's Manufacturing and Construction Dominance
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: China's Manufacturing and Construction Dominance
+translated: false
 ---
 
 Yes, China's economy remains heavily reliant on manufacturing and construction, which together form a significant portion of its GDP. These sectors fall under the broader "secondary industry" category, which accounted for about 36.5% of GDP in 2024—more than double the share in many developed economies like the United States (around 18%). Manufacturing alone contributed roughly 25% of GDP, underscoring China's role as the world's largest manufacturer.

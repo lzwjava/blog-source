@@ -1,10 +1,10 @@
 ---
-title: "Chez Scheme Factorial Program"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Chez Scheme Factorial Program
 translated: false
-generated: true
 ---
 
 Here's a simple Chez Scheme program that calculates the factorial of a number. Save it as `factorial.scm`:

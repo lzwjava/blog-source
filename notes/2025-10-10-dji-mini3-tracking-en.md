@@ -1,12 +1,12 @@
 ---
-title: DJI Mini 3 Tracking Limitations and Workarounds
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: DJI Mini 3 Tracking Limitations and Workarounds
+translated: false
 ---
 
 The DJI Mini 3 (the base model) does not have built-in features like ActiveTrack (visual object following) or Follow Me mode (GPS-based tracking) to automatically chase or hover above a moving car for photos or video. This is a key limitation compared to higher-end DJI drones. However, the DJI Mini 3 Pro does support ActiveTrack, which uses the drone's camera to visually track and follow subjects like cars, people, or vehicles from behind, above, or in other positions—allowing you to capture dynamic shots while the drone maintains a set distance and height.

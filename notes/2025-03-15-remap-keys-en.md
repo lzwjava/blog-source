@@ -1,10 +1,10 @@
 ---
-title: "Remapping Keys in Ubuntu 24.04"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Remapping Keys in Ubuntu 24.04
 translated: false
-generated: true
 ---
 
 ### Key Points

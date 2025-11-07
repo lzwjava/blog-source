@@ -1,10 +1,10 @@
 ---
-title: "Top Free Alternatives to YourKit Java Profiler"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Top Free Alternatives to YourKit Java Profiler
 translated: false
-generated: true
 ---
 
 Yes, there are free Java profilers that offer functionality similar to YourKit Java Profiler, though they may vary in features, ease of use, and depth of analysis. Below are some of the best free alternatives to YourKit Java Profiler, based on their capabilities for CPU, memory, and thread profiling, as well as their suitability for both development and production environments:

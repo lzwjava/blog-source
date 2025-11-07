@@ -1,10 +1,10 @@
 ---
-title: "Zig Quick Sort Implementation"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Zig Quick Sort Implementation
 translated: false
-generated: true
 ---
 
 Here's the equivalent Quick Sort implementation in Zig.

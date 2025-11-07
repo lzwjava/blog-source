@@ -1,10 +1,10 @@
 ---
-title: Examples of Late-Blooming Success
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Examples of Late-Blooming Success
 translated: false
-generated: true
 ---
 
 Success in science, engineering, STEM fields, or business is not limited by age. Many individuals have made significant contributions or achieved notable success in their late 50s or 60s. Below are examples of such people, including Yitang Zhang, as you mentioned, spanning various fields.

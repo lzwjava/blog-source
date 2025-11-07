@@ -1,12 +1,12 @@
 ---
-title: Vietnam Visa Guide for Chinese Citizens
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Vietnam Visa Guide for Chinese Citizens
+translated: false
 ---
 
 As a Chinese passport holder, here’s how you can travel to Vietnam — what visa you need, how to apply, and what to watch out for:

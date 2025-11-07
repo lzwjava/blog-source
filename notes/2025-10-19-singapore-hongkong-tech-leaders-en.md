@@ -1,12 +1,12 @@
 ---
-title: Singaporean and Hong Kong Tech Leaders
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Singaporean and Hong Kong Tech Leaders
+translated: false
 ---
 
 ### Singaporeans in Silicon Valley Tech

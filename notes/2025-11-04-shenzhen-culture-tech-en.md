@@ -1,12 +1,12 @@
 ---
-title: Shenzhen's Top Cultural and Tech Spots
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Shenzhen's Top Cultural and Tech Spots
+translated: false
 ---
 
 ### Top Spots to Visit in Shenzhen: A Guide to Culture, History, Food, Economy, Creativity, and Innovation

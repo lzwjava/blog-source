@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Parsing Command-line Arguments in Java
 translated: false
-generated: true
 ---
 
 To use `net.sourceforge.argparse4j`, a Java library for parsing command-line arguments inspired by Python's `argparse`, follow these steps:

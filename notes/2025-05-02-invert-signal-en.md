@@ -1,10 +1,10 @@
 ---
-title: Invert a Signal
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Invert a Signal
 translated: false
-generated: true
 ---
 
 Here is a comprehensive tutorial based on the video:

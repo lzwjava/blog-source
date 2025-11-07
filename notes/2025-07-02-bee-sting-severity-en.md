@@ -1,10 +1,10 @@
 ---
-title: "Bee Stings: When to Worry"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Bee Stings: When to Worry'
 translated: false
-generated: true
 ---
 
 A bee sting is usually not dangerous for most people, but the severity depends on several factors. Here's a quick breakdown:

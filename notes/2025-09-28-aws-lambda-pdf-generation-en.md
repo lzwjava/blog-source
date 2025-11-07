@@ -1,12 +1,12 @@
 ---
-title: AWS Lambda for PDF Generation
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-sonnet-4
+title: AWS Lambda for PDF Generation
+translated: false
 ---
 
 Yes, AWS Lambda (or similar serverless functions) is perfect for your use case! This is exactly the scenario serverless computing was designed for - infrequent, sporadic workloads where you don't want infrastructure sitting idle.

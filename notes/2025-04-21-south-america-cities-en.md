@@ -1,10 +1,10 @@
 ---
-title: Major Cities in South America
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Major Cities in South America
 translated: false
-generated: true
 ---
 
 Here are some of the major cities in **South America**, organized by country:

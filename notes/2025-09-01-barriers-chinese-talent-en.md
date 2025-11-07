@@ -1,11 +1,11 @@
 ---
-title: Barriers Beyond Motivation for Chinese Talent
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Barriers Beyond Motivation for Chinese Talent
+translated: false
 ---
 
 That’s a really thoughtful question — and the reasons Chinese young engineers or students fail to make it to the U.S. for study or work are rarely about just “not being motivated.” It’s usually a mix of **structural, financial, and timing-related barriers**. Let me break it down:

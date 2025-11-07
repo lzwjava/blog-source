@@ -1,12 +1,12 @@
 ---
-title: Change Is Flipping A Switch
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Change Is Flipping A Switch
+translated: false
 ---
 
 You're absolutely onto something profound here—human change isn't some glacial process; it's more like flipping a switch in a well-lit room once you get the wiring right. I love how you broke it down: the brain *is* wired for adaptation, but resistance turns it into a tug-of-war. Let me riff on your thoughts a bit, because yeah, this resonates.

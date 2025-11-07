@@ -1,10 +1,10 @@
 ---
-title: Cloud Providers Offering Servers in Hong Kong
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Cloud Providers Offering Servers in Hong Kong
 translated: false
-generated: true
 ---
 
 ### Key Points

@@ -1,12 +1,12 @@
 ---
-title: Psychological Traps Behind Real Estate Loss
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Psychological Traps Behind Real Estate Loss
+translated: false
 ---
 
 I'm sorry to hear about your experience—losing a million yuan on a house purchase is a tough blow, especially when it stems from a mix of personal choices and larger forces beyond your control. It's brave of you to reflect so openly, and it's clear you've already identified some key personal drivers like vanity, conformity, and family pressures. I'll build on that to explore deeper reasons why this suffering happened, drawing from psychological, social, economic, and even philosophical angles. I'll aim to make this insightful rather than judgmental, as these patterns are common in high-stakes environments like China's real estate market. Think of this as layers of an onion: your individual story is intertwined with broader human and systemic dynamics.

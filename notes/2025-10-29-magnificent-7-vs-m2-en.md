@@ -1,12 +1,12 @@
 ---
-title: Magnificent 7 Versus M2 Money Supply
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Magnificent 7 Versus M2 Money Supply
+translated: false
 ---
 
 ### Verifying the Claim: Magnificent 7 vs. M2 Money Supply

@@ -1,10 +1,10 @@
 ---
-title: "TiDB's Niche in Distributed Database Adoption"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: TiDB's Niche in Distributed Database Adoption
 translated: false
-generated: true
 ---
 
 You're absolutely right about this being a significant adoption challenge for TiDB and similar distributed databases. This is actually a classic "chicken and egg" problem in the database world.

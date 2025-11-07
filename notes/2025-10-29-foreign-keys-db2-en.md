@@ -1,12 +1,12 @@
 ---
-title: Creating Foreign Keys in Db2
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Creating Foreign Keys in Db2
+translated: false
 ---
 
 ### Creating Foreign Keys in IBM Db2

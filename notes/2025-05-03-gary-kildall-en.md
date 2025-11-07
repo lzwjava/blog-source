@@ -1,10 +1,10 @@
 ---
-title: Gary Kildall
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Gary Kildall
 translated: false
-generated: true
 ---
 
 Gary Kildall (May 19, 1942 – July 11, 1994) was an American computer scientist, software engineer, and entrepreneur whose contributions were pivotal in the early development of personal computing. Best known for creating the CP/M operating system and founding Digital Research, Inc., Kildall played a foundational role in shaping the software industry, though his legacy is often overshadowed by figures like Bill Gates and Steve Jobs. His work laid critical groundwork for the personal computer revolution, influencing operating systems, software development, and the standardization of microcomputer technology.

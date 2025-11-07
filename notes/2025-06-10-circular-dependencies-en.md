@@ -1,10 +1,10 @@
 ---
-title: Circular Dependencies in Spring
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Circular Dependencies in Spring
 translated: false
-generated: true
 ---
 
 Circular dependencies in Spring or Spring Boot occur when two or more beans depend on each other, either directly or indirectly, during initialization. This creates a cycle where Spring's dependency injection mechanism cannot resolve the dependencies because each bean requires the other to be fully initialized first. This issue typically arises during bean creation in the Spring Application Context, leading to a `BeanCurrentlyInCreationException`.

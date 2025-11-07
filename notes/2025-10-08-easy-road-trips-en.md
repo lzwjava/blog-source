@@ -1,12 +1,12 @@
 ---
-title: Top Easy Road Trip Destinations
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Top Easy Road Trip Destinations
+translated: false
 ---
 
 ### Easy Destinations for Your Next Road Trip Adventure

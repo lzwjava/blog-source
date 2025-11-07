@@ -1,11 +1,11 @@
 ---
-title: Scheme CPS Transform Code Breakdown
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Scheme CPS Transform Code Breakdown
+translated: false
 ---
 
 Here’s the code extracted from your screenshot, reformatted for clarity:

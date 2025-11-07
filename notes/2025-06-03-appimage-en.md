@@ -1,10 +1,10 @@
 ---
-title: Installing AppImage on Ubuntu
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Installing AppImage on Ubuntu
 translated: false
-generated: true
 ---
 
 To install and run an AppImage file on Ubuntu, follow these steps:

@@ -1,13 +1,13 @@
 ---
-title: GitHub Copilot Authentication Flow
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: GitHub Copilot Authentication Flow
+translated: false
 ---
 
 Good question — GitHub Copilot’s authentication flow is basically a standard **OAuth2 device code grant**, but with some GitHub-specific tokens layered on top for the Copilot service itself. Let me break it down step by step:

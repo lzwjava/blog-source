@@ -1,10 +1,10 @@
 ---
-title: Y Combinator Startups
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Y Combinator Startups
 translated: false
-generated: true
 ---
 
 Y Combinator (YC) has produced numerous high-impact startups that have reshaped industries. Below are some of the most notable successes based on valuation, market influence, and innovation, building on the context of your previous question about YC’s biggest success:

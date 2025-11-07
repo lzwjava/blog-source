@@ -1,12 +1,12 @@
 ---
-title: Kimi Linear Hybrid Attention Architecture
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Kimi Linear Hybrid Attention Architecture
+translated: false
 ---
 
 ### What is Kimi Linear?

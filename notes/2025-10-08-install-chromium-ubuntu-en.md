@@ -1,12 +1,12 @@
 ---
-title: Installing Chromium on Ubuntu 24.04
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Installing Chromium on Ubuntu 24.04
+translated: false
 ---
 
 To install **Chromium** on **Ubuntu 24.04**, you have a few good options — depending on whether you want the **official Snap version**, the **APT (Debian package)** version, or a **manual download**. Here’s a clean guide for each:

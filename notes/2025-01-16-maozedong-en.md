@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Mao Zedong Thought and Chinese Characteristics"
 audio: true
+layout: post
+title: Mao Zedong Thought and Chinese Characteristics
 ---
 
 ### I. Introduction to Mao Zedong Thought and Chinese Characteristics
@@ -65,4 +65,3 @@ audio: true
 48. China’s Military Modernization: The importance of military development in safeguarding national sovereignty and achieving the rejuvenation of the nation.
 49. Socialism and Human Rights: Understanding the relationship between human rights and socialist principles in China, focusing on economic and social rights over civil liberties.
 50. China’s Reform in the New Era: The ongoing reforms under Xi Jinping’s leadership, including market-oriented policies and greater integration with the global economy while maintaining socialist governance.
-

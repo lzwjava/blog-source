@@ -1,10 +1,10 @@
 ---
-title: "Understanding AI Latency Metrics"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Understanding AI Latency Metrics
 translated: false
-generated: true
 ---
 
 In the context of AI models, APIs, or streaming data systems, **Time to First Chunk**, **Time to First Token**, and **Response Time** are metrics used to measure performance and latency. Here's a clear explanation of each:

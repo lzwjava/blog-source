@@ -1,11 +1,11 @@
 ---
-title: Python Packages Installed
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Python Packages Installed
+translated: false
 ---
 
 These are all Python packages (wheels) being installed—here’s a very brief rundown of each:

@@ -1,12 +1,12 @@
 ---
-title: HP ZBook Studio G10 Camera Shutter Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: HP ZBook Studio G10 Camera Shutter Guide
+translated: false
 ---
 
 Just to make sure I understand your context correctly: You're asking about the **HP ZBook Studio G10** and how its **camera shutter button** affects Zoom (or video conferencing apps) when pressed, especially with the **Fn + Shutter** key combination.  

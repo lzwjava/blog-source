@@ -1,12 +1,12 @@
 ---
-title: Sublime Text in 2025
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Sublime Text in 2025
+translated: false
 ---
 
 ### Why Use Sublime Text in 2025? Comparison with VS Code and Zed

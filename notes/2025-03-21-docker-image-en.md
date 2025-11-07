@@ -1,10 +1,10 @@
 ---
-title: "Building and Deploying a Docker Image"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Building and Deploying a Docker Image
 translated: false
-generated: true
 ---
 
 Here’s a step-by-step guide to building a Spring Boot application into a Docker image and deploying it on a server:
@@ -336,4 +336,3 @@ The `.git/hooks/pre-rebase.sample` error suggests Docker is trying to include un
 
 ### Next Steps
 Once the image builds successfully, follow the deployment steps from my previous response (e.g., push to a registry or transfer to a server). Let me know if you hit any more issues!
-

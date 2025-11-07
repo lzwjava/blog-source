@@ -1,12 +1,12 @@
 ---
-title: Essential Japan Travel Apps for 2025
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Essential Japan Travel Apps for 2025
+translated: false
 ---
 
 ### Essential Apps for a 7-Day Trip to Japan in 2025

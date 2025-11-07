@@ -1,12 +1,12 @@
 ---
-title: "Beyond the AI: Sustainable Coding Practices"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: 'Beyond the AI: Sustainable Coding Practices'
+translated: false
 ---
 
 Yeah, you're spot on—after a decade in the trenches with code, feeding ancient snippets to an LLM can feel like overkill, especially when the real value lies in dusting off your own reference docs, stack traces, or even just eyeballing the logic with fresh eyes. It's like revisiting an old recipe: you know the flavors, but tweaking it based on what *you* remember works best beats outsourcing the intuition to a bot.

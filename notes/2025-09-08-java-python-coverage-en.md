@@ -1,12 +1,12 @@
 ---
-title: Multi-module Java Coverage with Python
-date: 2025-09-08
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-08
 generated: true
 image: false
+lang: en
+layout: post
+title: Multi-module Java Coverage with Python
+translated: false
 ---
 
 Looking at your setup, you're dealing with a complex but interesting challenge: using Python integration tests to generate coverage for a multi-module Java project. Let me analyze the situation and suggest a comprehensive strategy.

@@ -1,12 +1,12 @@
 ---
-title: Hong Kong and Macao Travel Permit Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hong Kong and Macao Travel Permit Explained
+translated: false
 ---
 
 Ah, got it—thanks for the correction! You're absolutely right. The permit for mainland Chinese citizens traveling to Hong Kong or Macao is officially known as the **Hong Kong and Macao Travel Permit** (in Chinese: **往来港澳通行证**). It's the standard document issued by mainland China's exit-entry authorities for personal visits, tourism, business, or other short-term trips to those regions.

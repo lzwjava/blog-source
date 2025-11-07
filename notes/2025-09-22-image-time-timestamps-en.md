@@ -1,12 +1,12 @@
 ---
-title: Determining Image Time From Conflicting Timestamps
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Determining Image Time From Conflicting Timestamps
+translated: false
 ---
 
 You're asking how to figure out "what time" an image (e.g., a screenshot that a teammate uploaded to Confluence) really represents, given all the timestamps and potential differences in timezones. Let me break down the situation:

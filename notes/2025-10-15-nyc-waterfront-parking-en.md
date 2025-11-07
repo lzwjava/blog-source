@@ -1,12 +1,12 @@
 ---
-title: NYC Waterfront Parking for Serenity
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: NYC Waterfront Parking for Serenity
+translated: false
 ---
 
 ### Adapting Your Serene Car Workspace to New York City

@@ -1,12 +1,12 @@
 ---
-title: Competitive Programming Advanced Achievement Roadmap
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Competitive Programming Advanced Achievement Roadmap
+translated: false
 ---
 
 This roadmap is designed for motivated learners with basic programming knowledge (e.g., loops, conditionals, functions) aiming to reach Codeforces Expert rating (2000+) or secure a gold medal at ACM ICPC regionals (typically top 10-20% of teams). Codeforces 2000+ means consistently solving Div. 2 C/D/E or Div. 1 A/B problems under time pressure. For ICPC, focus on team synergy, but individual mastery is key—regionals involve 3-hour contests with 8-12 problems per team.

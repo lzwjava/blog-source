@@ -1,11 +1,11 @@
 ---
-title: ASCII Hex UTF-8 Explained Simply
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: ASCII Hex UTF-8 Explained Simply
+translated: false
 ---
 
 Let’s break them down clearly:

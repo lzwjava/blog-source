@@ -1,12 +1,12 @@
 ---
-title: Italian Road Trip Highlights and Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Italian Road Trip Highlights and Guide
+translated: false
 ---
 
 ### Two-Week Road Trip Itinerary in Italy: Highlights and Planning Guide

@@ -1,10 +1,10 @@
 ---
-title: Rust Programming Language
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rust Programming Language
 translated: false
-generated: true
 ---
 
 Okay, here's a comprehensive guide to the Rust programming language, covering its core concepts, syntax, and advanced features. Rust is a systems programming language focused on safety, speed, and concurrency.
@@ -559,6 +559,4 @@ Rust's safety guarantees are enforced by the compiler. However, there are situat
 * **The Rust Blog:** Official announcements and updates ([https://blog.rust-lang.org/](https://blog.rust-lang.org/)).
 * **Reddit (r/rust), Discord, and other community platforms.**
 
-This guide provides a solid foundation for learning Rust. The best way to become proficient is to practice writing Rust code, explore the ecosystem, and engage with the community. Good luck on your Rust journey!    
-
-    
+This guide provides a solid foundation for learning Rust. The best way to become proficient is to practice writing Rust code, explore the ecosystem, and engage with the community. Good luck on your Rust journey!

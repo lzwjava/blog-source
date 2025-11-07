@@ -1,10 +1,10 @@
 ---
-title: Linux Development Tools for Programmer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Linux Development Tools for Programmer
 translated: false
-generated: true
 ---
 
 Yes, GitHub Desktop is available for Linux! You can install it from the official releases page or through package managers like Snap.

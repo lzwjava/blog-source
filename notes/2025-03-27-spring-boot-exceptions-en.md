@@ -1,10 +1,10 @@
 ---
-title: Spring Boot Exceptions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Spring Boot Exceptions
 translated: false
-generated: true
 ---
 
 When working with Spring Boot or the broader Spring Framework, developers frequently encounter exceptions due to configuration issues, runtime errors, or improper use of APIs. Below is a list of common exceptions you might face, along with their typical causes and potential resolutions. These exceptions are grouped by category for clarity.

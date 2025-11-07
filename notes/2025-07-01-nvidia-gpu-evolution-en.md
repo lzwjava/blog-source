@@ -1,10 +1,10 @@
 ---
-title: NVIDIA's AI and GPU Revolution
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: NVIDIA's AI and GPU Revolution
 translated: false
-generated: true
 ---
 
 NVIDIA has revolutionized computing over the past decade, transforming from primarily a graphics card company for gaming into a powerhouse in accelerated computing, especially for artificial intelligence (AI) and high-performance computing (HPC).

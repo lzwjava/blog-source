@@ -1,11 +1,11 @@
 ---
-title: Lightweight Alternatives to spaCy Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Lightweight Alternatives to spaCy Guide
+translated: false
 ---
 
 Got it — you’re looking for alternatives to **spaCy** that are lightweight and especially useful for tasks like **language detection** (since you’re using `langdetect` and a custom simple detector).

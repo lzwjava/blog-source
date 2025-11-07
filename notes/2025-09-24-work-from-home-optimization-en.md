@@ -1,12 +1,12 @@
 ---
-title: Optimizing Your Work From Home Space
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Optimizing Your Work From Home Space
+translated: false
 ---
 
 It sounds like you're adapting your living space to better suit your work-from-home lifestyle, which is a smart move—especially if you're into coding or any kind of focused laptop-based work. Let me break down my thoughts on your choice to spend most of your time in the living room, based on what you've described.

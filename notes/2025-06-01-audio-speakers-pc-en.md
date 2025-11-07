@@ -1,10 +1,10 @@
 ---
-title: Connecting Audio Speakers to PC
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Connecting Audio Speakers to PC
 translated: false
-generated: true
 ---
 
 To connect audio speakers to your computer using the motherboard's RCA (or "RS out") output, follow these steps. Note that the MSI MAG B760M Mortar WiFi motherboard typically doesn't have RCA outputs directly, as most modern motherboards use 3.5mm audio jacks or HDMI for audio output. However, I’ll assume you’re referring to the motherboard’s audio output (likely a 3.5mm jack labeled for rear speakers or line-out) or an RCA adapter/converter.

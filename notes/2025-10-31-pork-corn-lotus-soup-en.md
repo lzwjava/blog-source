@@ -1,12 +1,12 @@
 ---
-title: Pork Bone Corn Lotus Root Soup
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Pork Bone Corn Lotus Root Soup
+translated: false
 ---
 
 ### Pork Bone, Corn, and Lotus Root Soup

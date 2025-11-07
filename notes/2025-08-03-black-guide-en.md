@@ -1,11 +1,11 @@
 ---
-title: "Black: Python Code Formatter Guide"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: 'Black: Python Code Formatter Guide'
+translated: false
 ---
 
 Black is an opinionated, uncompromising Python code formatter developed by the Python Software Foundation (PSF). It automatically reformats Python code to conform to a consistent style, primarily based on a strict subset of PEP 8, while emphasizing readability, consistency, and minimal diffs in version control. By using Black, developers agree to relinquish control over minor formatting details in exchange for speed, determinism, and reduced debates over style during code reviews. Black ensures that formatted ("blackened") code looks uniform across projects, saving time and mental energy for more critical aspects of development. It supports Python 3.8 and later, with the latest stable release being version 25.1.0 (released on January 29, 2025), which introduces the 2025 stable style with enhancements like normalized Unicode escape casing and improved handling of trailing commas.

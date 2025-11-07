@@ -1,10 +1,10 @@
 ---
-title: Setting Up BeyondCompare with Git Difftool
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Setting Up BeyondCompare with Git Difftool
 translated: false
-generated: true
 ---
 
 To set up Beyond Compare as the `git difftool`, follow these steps. These instructions assume you have Beyond Compare installed and Git configured on your system.

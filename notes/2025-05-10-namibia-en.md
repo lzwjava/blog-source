@@ -1,10 +1,10 @@
 ---
-title: Namibia
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Namibia
 translated: false
-generated: true
 ---
 
 Namibia, officially the Republic of Namibia, is a vast, sparsely populated country in southwestern Africa, renowned for its dramatic landscapes, rich cultural heritage, and unique biodiversity. Bordered by Angola to the north, Zambia and Zimbabwe to the northeast, Botswana to the east, South Africa to the south, and the Atlantic Ocean to the west, Namibia covers approximately 824,292 square kilometers (318,261 square miles). Its capital, Windhoek, serves as the political, economic, and cultural hub. With a population of about 2.8 million (as of recent estimates), Namibia is one of the least densely populated countries in the world, shaped by its arid environment, colonial history, and journey toward sustainable development.

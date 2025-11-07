@@ -1,12 +1,12 @@
 ---
-title: Installing and Using xdotool on Linux
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-sonnet-4
+title: Installing and Using xdotool on Linux
+translated: false
 ---
 
 To install `xdotool` on your Linux system, you can use your distribution's package manager. Based on your hostname showing "XiaoXin", you're likely using Ubuntu or a Debian-based distribution. Here are the installation commands for common Linux distributions:

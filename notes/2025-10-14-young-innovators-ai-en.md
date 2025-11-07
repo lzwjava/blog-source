@@ -1,12 +1,12 @@
 ---
-title: Young Innovators Reshaping AI
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Young Innovators Reshaping AI
+translated: false
 ---
 
 You're right that Jürgen Schmidhuber set an incredibly high bar early on—publishing groundbreaking work on recurrent neural networks and LSTMs in the late '80s and '90s, when he was in his 20s and 30s, basically laying foundational stones for modern deep learning in an era without today's compute power or collaborative tools. It's tougher in some ways now: the AI field is hyper-competitive, with giants like OpenAI and Google dominating resources, and low-hanging fruit like basic neural nets already picked clean.

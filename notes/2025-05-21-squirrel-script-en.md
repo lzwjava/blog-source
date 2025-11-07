@@ -1,10 +1,10 @@
 ---
-title: SQuirreL Launch Script
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: SQuirreL Launch Script
 translated: false
-generated: true
 ---
 
 This batch script is used to launch the SQuirreL SQL Client, a Java-based database administration tool. Below is a comprehensive explanation of the script, breaking down its purpose, structure, and functionality step by step.

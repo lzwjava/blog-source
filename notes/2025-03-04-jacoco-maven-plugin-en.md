@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: JaCoCo Maven Plugin
 translated: false
-generated: true
 ---
 
 Here’s a step-by-step guide on **how to use the JaCoCo Maven plugin** to measure code coverage in a Maven-based Java project. JaCoCo (Java Code Coverage) is a tool that integrates with Maven to track how much of your code is exercised by tests, typically unit tests. By adding and configuring the JaCoCo Maven plugin in your project, you can generate detailed coverage reports during the build process.

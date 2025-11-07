@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Object Serialization in Java
 translated: false
-generated: true
 ---
 
 I assume you meant "java.io.Serializable" - a key interface in Java used for object serialization. Here's a practical guide on how to use it:

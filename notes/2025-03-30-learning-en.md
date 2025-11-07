@@ -1,10 +1,10 @@
 ---
-title: Learning
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Learning
 translated: false
-generated: true
 ---
 
 Learning is a personal and dynamic process, and there are many approaches depending on what you're trying to achieve. However, a general framework can help guide effective learning:

@@ -1,11 +1,11 @@
 ---
-title: Google Gen AI Image Config
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Google Gen AI Image Config
+translated: false
 ---
 
 Here’s a quick overview: the `image_size` parameter isn’t supported in the Google Gen AI (Gemini/Imagen) Python SDK. Instead, you select among model variants (which each have implicit default resolutions), control the **aspect ratio**, and—if you need higher pixel counts—apply an **upscale**. You can also tweak **compression** and **output format**, plus the usual “number of images,” “negative prompt,” “safety” and “person” settings.

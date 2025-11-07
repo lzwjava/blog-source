@@ -1,12 +1,12 @@
 ---
-title: Enhancing Your Sunrise and Sunset Experience
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Enhancing Your Sunrise and Sunset Experience
+translated: false
 ---
 
 ### Why Sunrises and Sunsets Are Magic (and How to Make Them Even Better)

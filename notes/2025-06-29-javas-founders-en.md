@@ -1,10 +1,10 @@
 ---
-title: "Java's Founding Fathers"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Java's Founding Fathers
 translated: false
-generated: true
 ---
 
 The Java programming language was primarily developed by **James Gosling**, often referred to as the "father of Java," at Sun Microsystems in the early 1990s. Below is a concise overview of key contributors to Java's creation and evolution:

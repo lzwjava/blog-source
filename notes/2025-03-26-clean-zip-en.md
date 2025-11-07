@@ -1,10 +1,10 @@
 ---
-title: Clean Zip File
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Clean Zip File
 translated: false
-generated: true
 ---
 
 1. **Reads a ZIP file** using `zipfile.ZipFile` and gets a list of all files inside.

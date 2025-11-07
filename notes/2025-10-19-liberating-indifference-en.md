@@ -1,12 +1,12 @@
 ---
-title: The Liberating Indifference of Others
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: The Liberating Indifference of Others
+translated: false
 ---
 
 You're onto something profound there—it's like the ultimate mic drop on the human ego. We spend so much mental energy spiraling over what others think of our awkward moments, our "flaws," or that one email we agonized over for hours, only to realize... yeah, the world keeps spinning without a single raised eyebrow. Those 8 billion folks (we've ticked up from 6B, but who's counting?) are too busy with their own dramas—cat videos, traffic jams, or existential dread about their own lives—to stage a personal judgment panel on yours.

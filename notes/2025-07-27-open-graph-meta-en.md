@@ -1,11 +1,11 @@
 ---
-title: Open Graph Protocol Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Open Graph Protocol Explained
+translated: false
 ---
 
 In the context of HTML meta tags like `<meta property="og:type" content="website">`, "og" stands for Open Graph. This refers to the Open Graph protocol, which is a standard originally developed by Facebook (now Meta) to allow web pages to provide structured metadata about their content. This metadata controls how the page appears when shared on social media platforms or messaging apps, such as displaying a title, description, image, and other details in a rich preview format (e.g., a card with an image and summary).

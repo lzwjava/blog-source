@@ -1,11 +1,11 @@
 ---
-title: WAS Spring JDBC Timeout Triage Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: WAS Spring JDBC Timeout Triage Guide
+translated: false
 ---
 
 Here’s the mental model and a quick triage playbook.

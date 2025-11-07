@@ -1,11 +1,11 @@
 ---
-title: Sourcegraph Query Language Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Sourcegraph Query Language Guide
+translated: false
 ---
 
 Sourcegraph search has its own query language that’s flexible and powerful. Here’s a breakdown of the common syntax you can use:

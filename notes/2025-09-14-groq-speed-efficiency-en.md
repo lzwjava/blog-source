@@ -1,13 +1,13 @@
 ---
-title: GROQ Speed and Efficiency Explained
-date: 2025-09-14
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-14
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-oss-120b
+title: GROQ Speed and Efficiency Explained
+translated: false
 ---
 
 ### TL;DR  

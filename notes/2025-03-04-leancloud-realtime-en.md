@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
-title: LeanCloud JavaScript Realtime SDK 
+title: LeanCloud JavaScript Realtime SDK
 translated: false
-generated: true
 ---
 
 ### Key Points

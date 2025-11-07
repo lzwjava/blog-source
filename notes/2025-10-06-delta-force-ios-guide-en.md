@@ -1,12 +1,12 @@
 ---
-title: Delta Force Mobile iOS Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Delta Force Mobile iOS Guide
+translated: false
 ---
 
 ### How to Play Delta Force on iOS

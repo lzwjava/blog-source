@@ -1,10 +1,10 @@
 ---
-title: "Rust Output Location Options"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rust Output Location Options
 translated: false
-generated: true
 ---
 
 You're asking a great question that touches on how Rust projects are typically structured and built\!

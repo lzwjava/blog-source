@@ -1,10 +1,10 @@
 ---
-title: Michael Faraday
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Michael Faraday
 translated: false
-generated: true
 ---
 
 Michael Faraday (1791–1867) was a British scientist whose groundbreaking work in electromagnetism and electrochemistry laid the foundation for many modern technologies and scientific principles. Born into a modest family in Newington Butts, Surrey, England, Faraday's lack of formal education did not hinder his intellectual curiosity or scientific achievements. His discoveries, driven by relentless experimentation and a deep commitment to understanding nature, made him one of the most influential figures in the history of science. Below is a comprehensive introduction to his life, work, and legacy.

@@ -1,10 +1,10 @@
 ---
-title: Installing Arduino IDE on Ubuntu
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Installing Arduino IDE on Ubuntu
 translated: false
-generated: true
 ---
 
 To install the Arduino IDE on Ubuntu Linux, follow these steps:

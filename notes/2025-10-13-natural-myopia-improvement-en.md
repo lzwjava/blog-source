@@ -1,12 +1,12 @@
 ---
-title: Jake Steiner's Natural Myopia Improvement Method
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Jake Steiner's Natural Myopia Improvement Method
+translated: false
 ---
 
 Jake Steiner (not “Jack”) is the founder of **Endmyopia**, an online community and educational project that promotes the idea that **most cases of myopia (nearsightedness)** can be improved or even reversed naturally — **without surgery or full-time glasses**.

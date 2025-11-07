@@ -1,12 +1,12 @@
 ---
-title: Fix Docker OverlayFS Corruption on macOS
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: google/gemini-2.5-flash
+title: Fix Docker OverlayFS Corruption on macOS
+translated: false
 ---
 
 The error you're seeing, `driver "overlay2" failed to remove root filesystem: readdirnames /var/lib/docker/overlay2/.../merged: readdirent merged: bad message`, indicates a deep corruption within Docker's storage mechanism (OverlayFS) that is often caused by an interrupted operation or a host machine filesystem issue.

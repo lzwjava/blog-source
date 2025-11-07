@@ -1,10 +1,10 @@
 ---
-title: Scheme Programming Tutorial
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Scheme Programming Tutorial
 translated: false
-generated: true
 ---
 
 Scheme is a minimalist dialect of Lisp known for its simplicity and elegance. This tutorial will cover the basics to get you started.

@@ -1,10 +1,10 @@
 ---
-title: VS Code VSIX Download
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: VS Code VSIX Download
 translated: false
-generated: true
 ---
 
 To manually download a `.vsix` file for a Visual Studio Code (VS Code) extension, you can use the Visual Studio Marketplace, which hosts all official extensions. The `.vsix` file is the packaged format for VS Code extensions, and while the Marketplace doesn’t always provide a direct download button, you can construct the download URL or use alternative methods. Here’s how to do it step-by-step:

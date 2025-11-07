@@ -1,12 +1,12 @@
 ---
-title: Enable Intel GPU Support for PyTorch
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-4.5-sonnet
+title: Enable Intel GPU Support for PyTorch
+translated: false
 ---
 
 Good progress! PyTorch and IPEX are now working together. However, your system doesn't have Intel GPU support enabled. Let me help you understand what's happening and how to fix it:

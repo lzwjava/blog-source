@@ -1,11 +1,11 @@
 ---
-title: Dongguan Family Fun Chinese Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Dongguan Family Fun Chinese Guide
+translated: false
 ---
 
 Got it — here’s the same list but annotated with the **Chinese names** so you can recognize them easily when visiting Dongguan with your family:

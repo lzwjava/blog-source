@@ -1,12 +1,12 @@
 ---
-title: Hong Kong Driving License Application Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hong Kong Driving License Application Guide
+translated: false
 ---
 
 As a Guangzhou citizen with a valid C1/C2 mainland driving license, you can indeed apply for a full Hong Kong driving license through the official "direct issue" process without needing to take a driving test. This is because mainland licenses are treated as overseas qualifications under Hong Kong's Road Traffic Regulations, and your C1/C2 class aligns with Hong Kong's private car (class 1) entitlement. However, the process has strict requirements and must be handled directly with the Hong Kong Transport Department—no third-party store in Shenzhen can legitimately process or issue it for you.

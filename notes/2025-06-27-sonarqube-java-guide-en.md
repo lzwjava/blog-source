@@ -1,10 +1,10 @@
 ---
-title: "Mastering SonarQube for Java and Spring Projects"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Mastering SonarQube for Java and Spring Projects
 translated: false
-generated: true
 ---
 
 # Comprehensive Guide to Using SonarQube with Java and Spring Projects

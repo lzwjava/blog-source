@@ -1,13 +1,13 @@
 ---
-title: Characteristic Polynomial in Linear Algebra
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Characteristic Polynomial in Linear Algebra
+translated: false
 ---
 
 ### **Comprehensive Introduction to the Characteristic Polynomial in Linear Algebra**

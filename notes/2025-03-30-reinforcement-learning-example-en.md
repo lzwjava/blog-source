@@ -1,10 +1,10 @@
 ---
-title: Reinforcement Learning Example
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Reinforcement Learning Example
 translated: false
-generated: true
 ---
 
 Below, I’ll provide a few simple conceptual examples of Reinforcement Learning (RL) followed by a basic Python code example using a simple scenario. RL involves an agent learning to maximize a reward by interacting with an environment, so the examples and code will reflect that.

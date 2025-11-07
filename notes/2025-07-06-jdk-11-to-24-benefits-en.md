@@ -1,10 +1,10 @@
 ---
-title: "JDK 24 Upgrade Benefits Explained"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: JDK 24 Upgrade Benefits Explained
 translated: false
-generated: true
 ---
 
 Upgrading from JDK 11 to JDK 24 offers significant benefits across various aspects, including performance, new features, and security. Here's a breakdown:

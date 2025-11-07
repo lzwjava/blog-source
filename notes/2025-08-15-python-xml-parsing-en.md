@@ -1,12 +1,12 @@
 ---
-title: Python XML Parsing with xml.etree
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Python XML Parsing with xml.etree
+translated: false
 ---
 
 ### Overview of xml.etree in Python

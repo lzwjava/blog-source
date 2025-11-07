@@ -1,11 +1,11 @@
 ---
-title: Growth Without Overthinking the Process
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Growth Without Overthinking the Process
+translated: false
 ---
 
 Change and improvement are powerful drivers of growth, but they can indeed have a downside. Constantly seeking to optimize or learn more can lead to overthinking, indecision, and turning simple matters into complex ones. Here's my take:

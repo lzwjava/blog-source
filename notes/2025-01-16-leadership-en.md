@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Leadership"
 audio: true
+layout: post
+title: Leadership
 ---
 
 ### General Management

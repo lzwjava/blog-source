@@ -1,10 +1,10 @@
 ---
-title: "Financial Projects: Open Source Alternatives"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Financial Projects: Open Source Alternatives'
 translated: false
-generated: true
 ---
 
 Here’s a detailed response to your query about famous open source projects in the financial sector, including those similar to Avaloq or ledger-related projects.

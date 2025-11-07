@@ -1,12 +1,12 @@
 ---
-title: PayMe's Mainland China Market Barriers
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: PayMe's Mainland China Market Barriers
+translated: false
 ---
 
 ### Understanding Brand and Information Barriers for PayMe in Mainland China

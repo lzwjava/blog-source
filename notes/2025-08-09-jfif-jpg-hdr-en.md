@@ -1,11 +1,11 @@
 ---
-title: "JFIF: JPEG with Header"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: 'JFIF: JPEG with Header'
+translated: false
 ---
 
 JFIF stands for **JPEG File Interchange Format** — it’s essentially a way of packaging JPEG-compressed image data so that different software and devices can exchange it reliably.

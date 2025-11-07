@@ -1,12 +1,12 @@
 ---
-title: Hong Kong's Young Professionals Struggle With Housing
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hong Kong's Young Professionals Struggle With Housing
+translated: false
 ---
 
 Yes, even young high-earning professionals in Hong Kong—like financial analysts and IT engineers pulling in HK$600,000 to HK$1 million annually—have faced significant struggles with housing affordability over the last two decades (2005–2025). This is largely due to sky-high property prices relative to incomes, substantial downpayment requirements (often 20–50% depending on loan-to-value ratios), and mortgage payments that can eat up 40–60% of monthly take-home pay during peak rate periods. While recent price drops (about 28% from 2021 highs) and slight rate easing have helped a bit, the overall burden remains crushing for many in their 20s and 30s, pushing them toward tiny "nano-flats," subdivided units, or delayed homeownership altogether.

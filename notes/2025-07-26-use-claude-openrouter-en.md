@@ -1,10 +1,10 @@
 ---
-title: Accessing Claude via OpenRouter
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Accessing Claude via OpenRouter
 translated: false
-generated: true
 ---
 
 ### How to Use Claude Models with OpenRouter (As a Chinese User Without Anthropic API Access)

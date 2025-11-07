@@ -1,11 +1,11 @@
 ---
-title: F-1 Visa 214(b) Refusal Explained Clearly
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: F-1 Visa 214(b) Refusal Explained Clearly
+translated: false
 ---
 
 Here’s a comprehensive introduction to **F-1 visa refusals under section 214(b)**:

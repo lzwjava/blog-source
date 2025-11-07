@@ -1,12 +1,12 @@
 ---
-title: GPG and Bitcoin Cryptographic Connections
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: GPG and Bitcoin Cryptographic Connections
+translated: false
 ---
 
 ### Relationship Between GPG and Bitcoin

@@ -1,12 +1,12 @@
 ---
-title: Hong Kong House Price Trends Since 1975
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hong Kong House Price Trends Since 1975
+translated: false
 ---
 
 ### Overview of Hong Kong House Prices Over the Last 50 Years (1975–2025)

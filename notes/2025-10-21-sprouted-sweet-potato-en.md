@@ -1,12 +1,12 @@
 ---
-title: Air Fryer Sprouted Sweet Potato Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Air Fryer Sprouted Sweet Potato Guide
+translated: false
 ---
 
 Yes, you can absolutely cook and eat your Shandong Yanshu 25 honey sweet potato in an air fryer after removing the sprouted root section from the bottom. Sprouting is a natural response to storage conditions (like warmth and humidity in a home corner), and it doesn't make the tuber unsafe or toxic—unlike with regular white potatoes. Just inspect it first: if the flesh is still firm, moist, and free of mold, soft spots, or green discoloration (which could indicate higher solanine levels), it's good to go. The sprouts and roots themselves are edible but often tough and bitter, so trimming them off is best.

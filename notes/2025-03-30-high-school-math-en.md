@@ -1,10 +1,10 @@
 ---
-title: High School Math
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: High School Math
 translated: false
-generated: true
 ---
 
 Okay, here is a list of high school math topics, aiming for a concise overview of key ideas and concepts:

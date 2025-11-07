@@ -1,10 +1,10 @@
 ---
-title: "Create a Model Context Protocol"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Create a Model Context Protocol
 translated: false
-generated: true
 ---
 
 To build a **model context protocol** for your Jekyll blog with 500 original posts, enabling others to reference and use your content effectively, you need a structured approach to provide context, metadata, and access guidelines. A model context protocol essentially defines how your content can be accessed, understood, and utilized by others (e.g., developers, AI systems, or researchers). Below is a step-by-step guide tailored to your Jekyll blog:

@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Parsing Command-line Options in Java
 translated: false
-generated: true
 ---
 
 JOptSimple is a Java library designed to simplify the parsing of command-line options in your applications. It allows you to define and process options such as flags (e.g., `-v` for verbose mode) and options with arguments (e.g., `--file input.txt`) in a flexible and intuitive way. Below is a step-by-step guide on how to use JOptSimple effectively.

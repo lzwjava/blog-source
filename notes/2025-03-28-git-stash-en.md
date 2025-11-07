@@ -1,10 +1,10 @@
 ---
-title: Git Stash
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Git Stash
 translated: false
-generated: true
 ---
 
 Here's how to effectively use `git stash` and switch branches/tags frequently with uncommitted changes:

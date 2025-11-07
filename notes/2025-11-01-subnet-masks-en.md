@@ -1,12 +1,12 @@
 ---
-title: Understanding Subnet Masks
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Understanding Subnet Masks
+translated: false
 ---
 
 ### What is a Subnet Mask?

@@ -1,10 +1,10 @@
 ---
-title: Bank Ledger
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Bank Ledger
 translated: false
-generated: true
 ---
 
 A bank ledger is essentially the detailed record of all financial transactions that affect the bank’s accounts. It works as the backbone of the bank’s accounting system, ensuring that every movement of money—whether it’s a deposit, withdrawal, loan disbursement, or fee—is accurately recorded and balanced.

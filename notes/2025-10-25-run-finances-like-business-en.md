@@ -1,12 +1,12 @@
 ---
-title: Run Your Finances Like a Business
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Run Your Finances Like a Business
+translated: false
 ---
 
 ### Applying Business Discipline to Personal Finance: Lessons in Cost Control and Budgeting

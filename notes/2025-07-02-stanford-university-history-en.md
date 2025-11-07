@@ -1,10 +1,10 @@
 ---
-title: Stanford's Journey from Founding to Tech Hub
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Stanford's Journey from Founding to Tech Hub
 translated: false
-generated: true
 ---
 
 Here's a **comprehensive introduction to the history of Stanford University**, covering its origins, growth, major milestones, and impact:

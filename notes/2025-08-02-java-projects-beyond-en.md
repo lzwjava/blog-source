@@ -1,11 +1,11 @@
 ---
-title: Java's Versatile Projects Beyond Agents
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Java's Versatile Projects Beyond Agents
+translated: false
 ---
 
 Java's versatility extends far beyond Java agents, powering a wide range of innovative and practical projects. The PySonar2 project you mentioned is a great example of Java’s capability to build sophisticated tools, in this case, a semantic indexer for Python with interprocedural type inference. Below, I’ll highlight other interesting and useful Java-based projects that may not be mainstream but showcase Java’s strengths in various domains. These projects span tools, frameworks, games, and more, emphasizing Java’s portability, robustness, and ecosystem.

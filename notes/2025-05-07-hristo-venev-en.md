@@ -1,10 +1,10 @@
 ---
-title: Hristo Venev
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Hristo Venev
 translated: false
-generated: true
 ---
 
 Hristo Venev is a distinguished Bulgarian competitive programmer, widely recognized for his exceptional achievements in international programming competitions and his contributions to computer science research. Born in Bulgaria, Venev has established himself as one of the most accomplished competitors in the history of the International Olympiad in Informatics (IOI), earning a place in the Competitive Programming Hall of Fame. His competitive programming career, academic pursuits, and professional endeavors highlight a remarkable blend of talent, dedication, and intellectual curiosity.

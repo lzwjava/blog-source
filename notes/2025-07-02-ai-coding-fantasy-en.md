@@ -1,10 +1,10 @@
 ---
-title: "AI Can't Replace Programming Skills"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AI Can't Replace Programming Skills
 translated: false
-generated: true
 ---
 
 https://weibo.com/6347862377/5183583601819943

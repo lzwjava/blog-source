@@ -1,10 +1,10 @@
 ---
-title: Isaac Newton’s Work
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Isaac Newton’s Work
 translated: false
-generated: true
 ---
 
 Sir Isaac Newton (1643–1727) was a towering figure in the history of science, whose work laid the foundations for classical mechanics, optics, and mathematics, while also contributing significantly to astronomy and philosophy. His ideas revolutionized the scientific understanding of the physical world and shaped the development of modern science. Below is a comprehensive explanation of Newton’s major works and ideas, organized by key areas of his contributions.

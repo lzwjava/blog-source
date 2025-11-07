@@ -1,10 +1,10 @@
 ---
-title: Microcomputer and Interface Technology - Quiz
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Microcomputer and Interface Technology - Quiz
 translated: false
-generated: true
 ---
 
 Here is a quiz based on the "Microcomputer and Interface Technology" course outline you provided:
@@ -162,4 +162,3 @@ Let me know if you want explanations or answers for these questions!
 [^7]: https://www.cs.vassar.edu/courses/cs325/top
 
 [^8]: https://books.google.com/books/about/Microcomputer_Interfacing.html?id=SsAjAAAAMAAJ
-

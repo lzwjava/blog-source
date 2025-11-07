@@ -1,12 +1,12 @@
 ---
-title: Combinational Logic Circuits Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Combinational Logic Circuits Guide
+translated: false
 ---
 
 This guide covers the key concepts from the chapter on Combinational Logic Circuits in *Fundamentals of Electronic Technology (III)*. Combinational logic circuits are digital systems where the output depends only on the current inputs, with no memory elements (unlike sequential circuits). We'll break it down into the specified sections: analysis and design, common modules, and hazards with elimination methods. The focus is on practical understanding, with examples and step-by-step explanations.

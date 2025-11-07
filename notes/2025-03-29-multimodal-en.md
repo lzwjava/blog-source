@@ -1,10 +1,10 @@
 ---
-title: Multimodal LLMs
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Multimodal LLMs
 translated: false
-generated: true
 ---
 
 Let’s break this down step by step to explain how multimodal implementation works in large language models (LLMs) and address your questions about images and text being converted to vectors.

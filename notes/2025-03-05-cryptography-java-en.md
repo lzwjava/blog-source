@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Cryptography In Java
 translated: false
-generated: true
 ---
 
 The `javax.crypto` package in Java provides a set of classes and methods for performing cryptographic operations such as encryption, decryption, key generation, and message authentication. Below is a comprehensive guide on how to use `javax.crypto`, including explanations and practical examples for common use cases like symmetric encryption, asymmetric encryption, and message authentication.

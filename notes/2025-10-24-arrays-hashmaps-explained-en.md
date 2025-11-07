@@ -1,12 +1,12 @@
 ---
-title: Arrays as HashMaps Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Arrays as HashMaps Explained
+translated: false
 ---
 
 Yes, you're absolutely right! Let me break it down clearly to confirm and expand on your thinking.

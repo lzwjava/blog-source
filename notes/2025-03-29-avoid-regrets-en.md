@@ -1,10 +1,10 @@
 ---
-title: Avoiding Regrets
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Avoiding Regrets
 translated: false
-generated: true
 ---
 
 As you think about avoiding regrets in old age, there are several approaches that can help:

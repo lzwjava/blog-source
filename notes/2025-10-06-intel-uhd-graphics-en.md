@@ -1,12 +1,12 @@
 ---
-title: Intel UHD Graphics Capabilities and Limitations
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Intel UHD Graphics Capabilities and Limitations
+translated: false
 ---
 
 Your GPU is an integrated Intel UHD Graphics solution based on the 12th-generation Alder Lake-P architecture (commonly found in laptops like the Lenovo XiaoXin Pro 14 or IdeaPad Slim series). It's the GT1 variant with 48 execution units (EUs), a base clock around 300 MHz, and a max dynamic frequency of 1.2 GHz. This is a capable entry-level integrated GPU for mobile use, focused on efficiency rather than high performance—think everyday laptop tasks rather than heavy workstation loads.

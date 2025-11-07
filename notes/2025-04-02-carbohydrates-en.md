@@ -1,10 +1,10 @@
 ---
-title: Carbohydrates
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Carbohydrates
 translated: false
-generated: true
 ---
 
 Carbohydrates, often called carbs, are one of the three main **macronutrients** that your body needs to function properly (the other two are proteins and fats). They are the body's primary source of energy.

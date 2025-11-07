@@ -1,10 +1,10 @@
 ---
-title: "PowerShell: Run Commands in Current Terminal"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'PowerShell: Run Commands in Current Terminal'
 translated: false
-generated: true
 ---
 
 To run commands like `mvn` or WebSphere server commands directly in the current PowerShell terminal without opening a new command prompt, you can use the call operator (`&`) or directly invoke the command. This approach ensures the command executes within the existing PowerShell session, keeping output and errors in the same terminal.

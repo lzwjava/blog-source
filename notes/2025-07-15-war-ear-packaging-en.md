@@ -1,11 +1,11 @@
 ---
-title: WAR vs EAR Packaging Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: WAR vs EAR Packaging Guide
+translated: false
 ---
 
 Here’s a practical, no-table comparison of Maven **WAR** vs **EAR** packaging and how you’d use each in real projects.

@@ -1,12 +1,12 @@
 ---
-title: Filter Projects with Head and Heart
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Filter Projects with Head and Heart
+translated: false
 ---
 
 ### Acknowledging Your Experience

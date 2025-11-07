@@ -1,11 +1,11 @@
 ---
-title: Fix ZBook Brightness Not Working
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fix ZBook Brightness Not Working
+translated: false
 ---
 
 On an **HP ZBook workstation**, screen brightness can usually be adjusted in several ways, but sometimes it doesn’t work due to driver, hardware, or setting conflicts. Here’s a structured guide:

@@ -1,11 +1,11 @@
 ---
-title: Git Rebase Squash Order Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Git Rebase Squash Order Explained
+translated: false
 ---
 
 When you run `git rebase -i` (interactive rebase) to squash commits, Git follows a very specific order and logic:

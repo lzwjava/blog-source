@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Microcomputer Dive - Conversation"
 audio: true
+layout: post
+title: Microcomputer Dive - Conversation
 ---
 
 A: I’ve been revisiting microcomputer architecture lately. Can we start by comparing von Neumann and Harvard architectures?
@@ -87,4 +87,3 @@ B: Ambiq’s Apollo4 hits ~6µA/MHz! But leakage dominates below 28nm. Energy ha
 A: Yes—solar + supercaps for a weather station. But MPPT algorithms need tuning. Final question: will quantum co-processors ever integrate with micros?
 
 B: Decades away for anything practical. But cryo-CMOS interfaces are being researched! For now, I’m more excited about photonic interconnects in microservers. Thanks for the deep dive!
-

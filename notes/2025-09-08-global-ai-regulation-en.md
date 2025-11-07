@@ -1,13 +1,13 @@
 ---
-title: Global AI Regulation's Citizen Impact
-date: 2025-09-08
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-08
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-3
+title: Global AI Regulation's Citizen Impact
+translated: false
 ---
 
 ### Major Differences in AI Regulation Between the EU, USA, and China, with Focus on Impacts for Citizens

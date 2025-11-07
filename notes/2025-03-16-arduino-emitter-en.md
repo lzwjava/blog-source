@@ -1,10 +1,10 @@
 ---
-title: Building a Common-Emitter Amplifier using an Arduino
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Building a Common-Emitter Amplifier using an Arduino
 translated: false
-generated: true
 ---
 
 Building a Common-Emitter (CE) Amplifier using an Arduino is an interesting project, but it’s worth clarifying the roles: the Arduino itself won’t act as the amplifier (it’s a digital microcontroller), but it can serve as a signal source or measurement tool for a CE amplifier circuit built with a bipolar junction transistor (BJT). A CE amplifier is a classic analog circuit that uses an NPN or PNP transistor to amplify a small input signal, offering moderate voltage gain and current gain.

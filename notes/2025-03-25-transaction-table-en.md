@@ -1,10 +1,10 @@
 ---
-title: Transaction Table
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Transaction Table
 translated: false
-generated: true
 ---
 
 A **transaction table** in a banking system typically stores details of all financial transactions processed by the bank. This table is essential for tracking customer transactions, reconciling accounts, and ensuring regulatory compliance.  

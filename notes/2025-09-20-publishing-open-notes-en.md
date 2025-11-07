@@ -1,12 +1,12 @@
 ---
-title: Publishing Open Source Learning Notes Safely
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Publishing Open Source Learning Notes Safely
+translated: false
 ---
 
 Yes, in general it’s perfectly fine—but with some important nuances you’ll want to keep in mind:

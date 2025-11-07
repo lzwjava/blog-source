@@ -1,12 +1,12 @@
 ---
-title: Native App Trade-offs and Comparisons
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Native App Trade-offs and Comparisons
+translated: false
 ---
 
 ### Confirmation on Native App Trade-offs

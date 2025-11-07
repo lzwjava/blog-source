@@ -1,12 +1,12 @@
 ---
-title: Polar Representation of Electric Current
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Polar Representation of Electric Current
+translated: false
 ---
 
 The polar representation of an electric current is typically used when dealing with alternating current (AC) in electrical engineering, where currents are often represented as phasors in the complex plane. Here's an explanation in English:

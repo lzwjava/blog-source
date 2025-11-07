@@ -1,12 +1,12 @@
 ---
-title: Computer Application Technology Practical Exam Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Computer Application Technology Practical Exam Overview
+translated: false
 ---
 
 ### Understanding the Exam

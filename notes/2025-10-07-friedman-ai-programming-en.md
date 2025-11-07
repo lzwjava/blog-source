@@ -1,12 +1,12 @@
 ---
-title: Friedman's AI-Ready Programming Legacy
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Friedman's AI-Ready Programming Legacy
+translated: false
 ---
 
 Daniel P. Friedman's work—spanning functional programming paradigms, Scheme's evolution, and relational/logic tools like miniKanren—feels tailor-made for the AI explosion ahead, where raw neural power meets the need for reliable, explainable, and scalable systems. As we barrel into a decade dominated by agentic AI, neuro-symbolic hybrids, and code-generating models, his emphasis on clean abstractions, verifiable reasoning, and "little" essences will pull his ideas from niche academia into mainstream tooling. Here's why it'll surge in popularity:

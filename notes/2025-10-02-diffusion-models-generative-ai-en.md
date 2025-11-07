@@ -1,12 +1,12 @@
 ---
-title: Understanding Diffusion Models for Generative AI
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Understanding Diffusion Models for Generative AI
+translated: false
 ---
 
 A **diffusion model** is a type of generative AI model that creates new data (like images or videos) by gradually refining random noise into a structured output. Here’s how it works in simple terms:

@@ -1,12 +1,12 @@
 ---
-title: Top Cloud Providers for CN2 GIA
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Top Cloud Providers for CN2 GIA
+translated: false
 ---
 
 ### Cloud Providers with Strong CN2 GIA Connectivity for China to Overseas

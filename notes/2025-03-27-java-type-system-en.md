@@ -1,10 +1,10 @@
 ---
-title: Type System of Java
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Type System of Java
 translated: false
-generated: true
 ---
 
 Okay, let's dive into the type system of Java! This tutorial will cover the fundamental concepts to get you started.

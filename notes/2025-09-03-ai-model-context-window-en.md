@@ -1,11 +1,11 @@
 ---
-title: AI Model Context Window Capacities
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: AI Model Context Window Capacities
+translated: false
 ---
 
 Here are the **current maximum token capacities (context window sizes)** for the models you've listed, based on recent documentation and announcements:

@@ -1,10 +1,10 @@
 ---
-title: Flip-Flops (FFs)
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Flip-Flops (FFs)
 translated: false
-generated: true
 ---
 
 Flip-flops (FFs) are fundamental building blocks in digital electronics, serving as basic memory elements in sequential logic circuits. Unlike combinational logic circuits, where outputs depend solely on current inputs, sequential circuits rely on both current inputs and past states, making flip-flops essential for storing and manipulating state information. A flip-flop is a bistable device, meaning it can maintain one of two stable states (0 or 1) until triggered to change by an external signal, typically a clock. Flip-flops are widely used in registers, counters, memory units, and state machines due to their ability to store a single bit of data and synchronize operations in digital systems.

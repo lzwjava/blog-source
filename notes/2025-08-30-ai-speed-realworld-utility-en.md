@@ -1,11 +1,11 @@
 ---
-title: AI Speed Meets Real-World Utility
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: AI Speed Meets Real-World Utility
+translated: false
 ---
 
 Here are the **key points** from the paper:

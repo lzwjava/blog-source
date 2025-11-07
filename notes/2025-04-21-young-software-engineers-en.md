@@ -1,10 +1,10 @@
 ---
-title: Young Software Engineers and Scientists
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Young Software Engineers and Scientists
 translated: false
-generated: true
 ---
 
 Below is a list of young (under 30 or achieved significant success before 30) software engineers, computer scientists, and related professionals who have made impactful contributions in the software area, akin to the innovative spirit of Cornelius Palm, Alexandr Wang, and George Hotz. These individuals are recognized for their work in software development, AI, systems programming, or related fields, often pushing boundaries in open-source projects, startups, or research. The selection draws on web sources like Forbes’ 30 Under 30, GitHub contributor profiles, and other tech-related reports, ensuring relevance as of April 20, 2025.

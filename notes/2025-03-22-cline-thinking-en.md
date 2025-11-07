@@ -1,10 +1,10 @@
 ---
-title: Cline Thinking - Debugging a Hetzner Cloud Server Snapshot Script
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Cline Thinking - Debugging a Hetzner Cloud Server Snapshot Script
 translated: false
-generated: true
 ---
 
 $0.8984

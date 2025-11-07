@@ -1,10 +1,10 @@
 ---
-title: Pass Custom JVM Parameters in Liberty Tools Plugin
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Pass Custom JVM Parameters in Liberty Tools Plugin
 translated: false
-generated: true
 ---
 
 You can pass custom JVM parameters—like `-Dversion=5.1`—by adding them to your Liberty dev mode launch configuration in VS Code. Typically, you do this by editing (or creating) the `.vscode/launch.json` file in your project and including the parameter under a property like `"vmArgs"` (or `"args"` if your configuration expects Maven goal arguments).

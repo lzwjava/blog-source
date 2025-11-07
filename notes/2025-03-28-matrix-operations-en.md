@@ -1,10 +1,10 @@
 ---
-title: Matrices and Operations
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Matrices and Operations
 translated: false
-generated: true
 ---
 
 Sure! Here’s a detailed tutorial on **Matrices and Operations**, covering notation, types, and operations such as addition, subtraction, scalar multiplication, matrix multiplication, transpose, and inverse.

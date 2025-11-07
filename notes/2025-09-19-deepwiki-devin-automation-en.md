@@ -1,12 +1,12 @@
 ---
-title: "DeepWiki in Devin: Automated Repo Documentation"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: 'DeepWiki in Devin: Automated Repo Documentation'
+translated: false
 ---
 
 Here’s a breakdown of how **DeepWiki** works in **Devin**, based on available documentation. If you want, I can also walk through an example to make it clearer.

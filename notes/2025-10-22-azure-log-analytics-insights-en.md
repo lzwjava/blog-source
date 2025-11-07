@@ -1,12 +1,12 @@
 ---
-title: Azure Log Analytics vs. Azure Insights
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Azure Log Analytics vs. Azure Insights
+translated: false
 ---
 
 Good question — they’re **closely related**, but **not the same**. Let’s unpack it clearly.

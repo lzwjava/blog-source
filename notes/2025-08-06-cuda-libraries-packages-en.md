@@ -1,11 +1,11 @@
 ---
-title: CUDA Libraries & Packages
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: CUDA Libraries & Packages
+translated: false
 ---
 
 Here’s a quick rundown of each package you’re installing:

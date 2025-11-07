@@ -1,12 +1,12 @@
 ---
-title: HSBC Global Entrepreneurial Wealth Report 2025
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: HSBC Global Entrepreneurial Wealth Report 2025
+translated: false
 ---
 
 The HSBC Global Entrepreneurial Wealth Report 2025, based on a survey of 2,939 entrepreneurs across 15 markets conducted in April-May 2025, reveals a highly optimistic entrepreneurial community navigating global uncertainties like tariffs and AI advancements. Entrepreneurs are internationally minded, tech-focused, and adapting to evolving globalization through regionalization and bilateral deals. Below is a structured summary of the main findings.

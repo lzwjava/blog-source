@@ -1,10 +1,10 @@
 ---
-title: Sodium Bicarbonate
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Sodium Bicarbonate
 translated: false
-generated: true
 ---
 
 **Sodium bicarbonate**, commonly known as **baking soda**, is a versatile chemical compound with the formula **NaHCO₃**. It appears as a white, crystalline powder with a slightly salty, alkaline taste. This compound is a salt composed of sodium ions (Na⁺) and bicarbonate ions (HCO₃⁻). Sodium bicarbonate is naturally occurring in mineral form as **nahcolite**, but it is most commonly produced synthetically for commercial and industrial use. Its wide range of applications spans household, medical, industrial, and scientific domains due to its buffering, neutralizing, and mild abrasive properties.

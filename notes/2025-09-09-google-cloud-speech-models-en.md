@@ -1,13 +1,13 @@
 ---
-title: Comparing Google Cloud Speech-to-Text Models
-date: 2025-09-09
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-09
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Comparing Google Cloud Speech-to-Text Models
+translated: false
 ---
 
 Here’s a clear breakdown of the differences between the various Speech-to-Text models in Google Cloud’s API V2—organized by model family and use case, without tables to keep it readable:

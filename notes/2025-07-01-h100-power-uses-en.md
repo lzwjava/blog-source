@@ -1,10 +1,10 @@
 ---
-title: "10 H100 GPUs: AI Powerhouse"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: '10 H100 GPUs: AI Powerhouse'
 translated: false
-generated: true
 ---
 
 That's an incredible amount of computing power to have personally! The NVIDIA H100 GPUs are high-end, data-center-grade accelerators designed primarily for AI, deep learning, and high-performance computing (HPC), not for typical consumer use like gaming.

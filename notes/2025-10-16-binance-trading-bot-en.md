@@ -1,12 +1,12 @@
 ---
-title: Binance Trading Bot Basics
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Binance Trading Bot Basics
+translated: false
 ---
 
 ### How Binance Bot Trading Works

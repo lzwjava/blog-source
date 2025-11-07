@@ -1,10 +1,10 @@
 ---
-title: Checkstyle Configuration
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Checkstyle Configuration
 translated: false
-generated: true
 ---
 
 This is a Checkstyle configuration file written in XML, designed to enforce coding standards and best practices for Java code based on Sun's coding conventions, the Java Language Specification, Javadoc guidelines, and some additional best practices. Checkstyle is a static code analysis tool that checks Java source code for adherence to a set of defined rules. Below, I’ll explain the structure and key components of this configuration file.

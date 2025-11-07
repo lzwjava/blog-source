@@ -1,10 +1,10 @@
 ---
-title: Bath Strategies For Kids
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Bath Strategies For Kids
 translated: false
-generated: true
 ---
 
 A 4-year-old resisting a bath at 10pm is likely tired, overstimulated, or just asserting independence. Here’s how to handle it:

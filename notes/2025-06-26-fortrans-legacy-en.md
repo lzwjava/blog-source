@@ -1,10 +1,10 @@
 ---
-title: "Fortran: The Legacy of Scientific Computing"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Fortran: The Legacy of Scientific Computing'
 translated: false
-generated: true
 ---
 
 Fortran, short for **Formula Translation**, is one of the oldest high-level programming languages, designed for numerical and scientific computing. First developed in the 1950s by IBM, it remains widely used in fields like engineering, physics, and high-performance computing due to its efficiency in handling complex mathematical computations. Below is a comprehensive introduction to Fortran, covering its history, features, applications, versions, and modern relevance.

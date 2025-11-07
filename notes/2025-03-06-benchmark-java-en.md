@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Benchmarking in Java
 translated: false
-generated: true
 ---
 
 The Java Microbenchmark Harness (JMH) is a powerful tool for building, running, and analyzing microbenchmarks in Java. It allows developers to measure the performance of their code in a controlled and repeatable way. Below is a comprehensive guide on how to use JMH effectively.

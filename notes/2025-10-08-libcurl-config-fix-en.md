@@ -1,12 +1,12 @@
 ---
-title: Fixing libcurl Configuration Error
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Fixing libcurl Configuration Error
+translated: false
 ---
 
 This error means the `configure` script is trying to find **libcurl** (a library for HTTP/HTTPS requests), but it cannot locate `curl-config` — a helper binary that tells where libcurl is installed.

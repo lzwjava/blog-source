@@ -1,10 +1,10 @@
 ---
-title: "Rust's Rise in Big Tech"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rust's Rise in Big Tech
 translated: false
-generated: true
 ---
 
 Rust is gaining significant traction in big tech due to its strong focus on memory safety, performance, and concurrency. Many major tech companies are adopting Rust for various critical projects. Here's a breakdown of some prominent examples:

@@ -1,12 +1,12 @@
 ---
-title: Square Root Decomposition for Range Queries
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Square Root Decomposition for Range Queries
+translated: false
 ---
 
 ### Square Root Decomposition

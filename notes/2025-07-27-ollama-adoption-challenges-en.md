@@ -1,11 +1,11 @@
 ---
-title: "Local AI Tools: Barriers to Adoption"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: 'Local AI Tools: Barriers to Adoption'
+translated: false
 ---
 
 ### Why Not Many People Use Ollama for Running Local AI Models (and Interfaces Like Open-WebUI for Chatting)

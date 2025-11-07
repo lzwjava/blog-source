@@ -1,12 +1,12 @@
 ---
-title: Allen Zhang and WeChats Success
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Allen Zhang and WeChats Success
+translated: false
 ---
 
 ### Allen Zhang (Zhang Xiaolong) and WeChat's Success

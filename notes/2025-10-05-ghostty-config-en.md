@@ -1,12 +1,12 @@
 ---
-title: Ghostty Shell Configuration Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Ghostty Shell Configuration Guide
+translated: false
 ---
 
 ### Ghostty and .bashrc on Ubuntu

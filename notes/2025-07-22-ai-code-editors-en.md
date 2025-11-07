@@ -1,10 +1,10 @@
 ---
-title: AI-Powered Code Editing Tools
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AI-Powered Code Editing Tools
 translated: false
-generated: true
 ---
 
 ### Visual Studio Code (VS Code) with GitHub Copilot

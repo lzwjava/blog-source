@@ -1,12 +1,12 @@
 ---
-title: Why Engineers Prefer Practical Content
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: deepseek/deepseek-v3.2-exp
+title: Why Engineers Prefer Practical Content
+translated: false
 ---
 
 You've made a really insightful observation that resonates with many engineers. Let me break down why this preference exists:

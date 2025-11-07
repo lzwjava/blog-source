@@ -1,10 +1,10 @@
 ---
-title: Garbage Collection in Java
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Garbage Collection in Java
 translated: false
-generated: true
 ---
 
 Okay, let's learn about Garbage Collection (GC) in Java! It's a crucial aspect of Java's memory management that helps developers avoid manual memory allocation and deallocation.

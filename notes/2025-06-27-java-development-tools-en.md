@@ -1,10 +1,10 @@
 ---
-title: "Essential Tools for Java and Spring Development"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Essential Tools for Java and Spring Development
 translated: false
-generated: true
 ---
 
 When developing Java and Spring projects, several tools beyond YourKit Java Profiler, IntelliJ IDEA, and JMeter can enhance productivity, code quality, and performance. Here are some notable ones:

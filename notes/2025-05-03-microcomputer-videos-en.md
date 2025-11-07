@@ -1,10 +1,10 @@
 ---
-title: Videos about Microcomputer and Interface Technology
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Videos about Microcomputer and Interface Technology
 translated: false
-generated: true
 ---
 
 Here are some YouTube video recommendations based on the "Microcomputer and Interface Technology" course outline you provided:

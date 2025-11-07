@@ -1,10 +1,10 @@
 ---
-title: "Spotless vs. Checkstyle in Java"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Spotless vs. Checkstyle in Java
 translated: false
-generated: true
 ---
 
 You can use the **Spotless Maven Plugin** and the **Checkstyle Maven Plugin** together in a Java project, as they serve complementary purposes. However, whether you *need* both depends on your project's requirements. Below, I’ll explain how they can work together, their differences, and when you might choose one over the other.

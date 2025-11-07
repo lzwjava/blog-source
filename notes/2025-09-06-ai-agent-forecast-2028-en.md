@@ -1,12 +1,12 @@
 ---
-title: AI Agent Industry Forecast 2025-2028
-date: 2025-09-06
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-06
 generated: true
 image: false
+lang: en
+layout: post
+title: AI Agent Industry Forecast 2025-2028
+translated: false
 ---
 
 Here’s what the latest insight suggests about the AI/agent industry over the **next three years (2025–2028)**. I'll focus on market growth, enterprise adoption, vertical expansion, physical agents like humanoid robots, governance and regulation, and economic impacts—without overwhelming you with a wide or hard-to-read layout.

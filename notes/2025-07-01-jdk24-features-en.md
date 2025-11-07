@@ -1,10 +1,10 @@
 ---
-title: "JDK 24: Key Features and Updates"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'JDK 24: Key Features and Updates'
 translated: false
-generated: true
 ---
 
 ### Introduction to JDK 24

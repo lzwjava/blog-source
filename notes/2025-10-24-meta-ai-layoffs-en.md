@@ -1,12 +1,12 @@
 ---
-title: Meta AI Unit Layoffs Amid Reorganization
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Meta AI Unit Layoffs Amid Reorganization
+translated: false
 ---
 
 ### Overview of Meta's Recent Layoffs

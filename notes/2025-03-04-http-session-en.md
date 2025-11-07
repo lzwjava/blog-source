@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: HTTP Sessions in Java Servlets
 translated: false
-generated: true
 ---
 
 Let me address your query about how `HttpSession` in the `javax.servlet` package works, how to set a session value, and how to retrieve it. I’ll assume "HTTPSession" in your question is a typo and that you meant `HttpSession`, as that’s the correct class name in the `javax.servlet` package.

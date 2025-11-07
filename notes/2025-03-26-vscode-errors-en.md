@@ -1,10 +1,10 @@
 ---
-title: Hide Errors (Red Lines) in VSCode for Your Project
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Hide Errors (Red Lines) in VSCode for Your Project
 translated: false
-generated: true
 ---
 
 I apologize for the confusion. It seems my previous approach didn’t correctly address your request to disable error indicators (red lines) in Visual Studio Code (VSCode) for a Java Spring project using Gradle, specifically for "cannot find symbol" errors. Let me provide a corrected and complete solution to hide those error indicators effectively.

@@ -1,10 +1,10 @@
 ---
-title: Review of Number Systems and Codes
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Review of Number Systems and Codes
 translated: false
-generated: true
 ---
 
 This is a concise and accurate overview of fundamental number systems used in computing and digital electronics. Let me expand on each system with some additional context:

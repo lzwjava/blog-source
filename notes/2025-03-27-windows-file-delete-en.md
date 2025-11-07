@@ -1,10 +1,10 @@
 ---
-title: Windows File Deletion
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Windows File Deletion
 translated: false
-generated: true
 ---
 
 You're encountering a common issue in Windows where a file cannot be deleted because it's currently being used by a process. The error message "some device use or busy" clearly indicates this.

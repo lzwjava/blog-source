@@ -1,12 +1,12 @@
 ---
-title: Optimal Car Lamp Positioning Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Optimal Car Lamp Positioning Guide
+translated: false
 ---
 
 ### Understanding the Setup

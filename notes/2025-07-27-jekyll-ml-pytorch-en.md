@@ -1,11 +1,11 @@
 ---
-title: Enhancing Jekyll Blog with PyTorch
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Enhancing Jekyll Blog with PyTorch
+translated: false
 ---
 
 ### Improving Your Jekyll Blog with ML/AI Using PyTorch

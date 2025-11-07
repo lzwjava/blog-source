@@ -1,12 +1,12 @@
 ---
-title: Fixing Dry Vietnamese Noodle Soup
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Fixing Dry Vietnamese Noodle Soup
+translated: false
 ---
 
 It sounds like you're trying to recreate a Vietnamese noodle soup (I'm guessing Bún Riêu based on the tomato-heavy broth and soupy style—let me know if that's off!), but it ended up too dry after absorbing all the water. That's common if the noodles soak up the liquid without enough ongoing broth or if it simmers too long. Next time, try cooking the noodles separately, then adding them to a richer, ongoing simmered broth right before serving to keep it saucy. Don't let it sit post-cook.

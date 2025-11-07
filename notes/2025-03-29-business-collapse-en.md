@@ -1,10 +1,10 @@
 ---
-title: Business Collapose
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Business Collapose
 translated: false
-generated: true
 ---
 
 Over the last decade, there have been several high-profile business failures and bankruptcies that shook industries. Some of the most notable include:

@@ -1,12 +1,12 @@
 ---
-title: DeepSeek's Sparse Attention Efficiency Breakthrough
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-4.5-sonnet
+title: DeepSeek's Sparse Attention Efficiency Breakthrough
+translated: false
 ---
 
 DeepSeek's Native Sparse Attention (NSA) represents a breakthrough in efficient long-context modeling for large language models. Unlike traditional full attention mechanisms that have quadratic computational complexity, NSA intelligently reduces computational costs while maintaining or even exceeding model performance through a sophisticated hierarchical sparse attention strategy.[1][2]

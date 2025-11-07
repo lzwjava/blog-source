@@ -1,12 +1,12 @@
 ---
-title: GraalVM Native Image Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: GraalVM Native Image Overview
+translated: false
 ---
 
 ### What is Native Image in GraalVM?

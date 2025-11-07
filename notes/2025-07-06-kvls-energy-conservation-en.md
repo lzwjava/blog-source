@@ -1,10 +1,10 @@
 ---
-title: "Energy Conservation in Circuit Loops"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Energy Conservation in Circuit Loops
 translated: false
-generated: true
 ---
 
 Kirchhoff's Voltage Law (KVL) is a fundamental principle in electrical circuit analysis. It's often called Kirchhoff's Second Law or the Loop Rule.

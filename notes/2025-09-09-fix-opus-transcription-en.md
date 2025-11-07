@@ -1,13 +1,13 @@
 ---
-title: Fixing OGG_OPUS Audio Transcription Errors
-date: 2025-09-09
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-09
 generated: true
 image: false
+lang: en
+layout: post
 model: google/gemini-2.5-flash
+title: Fixing OGG_OPUS Audio Transcription Errors
+translated: false
 ---
 
 To fix the error "Audio data does not appear to be in a supported encoding" when transcribing an OGG\_OPUS file, you can try converting the audio file to a more widely supported format like **WAV** or **FLAC**. This issue often occurs when the transcription service's backend struggles to decode the specific OGG\_OPUS container and its compressed data, even if it's a theoretically supported format.

@@ -1,10 +1,10 @@
 ---
-title: India’s Rivers
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: India’s Rivers
 translated: false
-generated: true
 ---
 
 India’s rivers are lifelines of its civilization, economy, ecology, and culture, shaping the subcontinent for millennia. With a vast network of rivers, India hosts some of the world’s most significant and sacred waterways, fed by the monsoons, Himalayan glaciers, and coastal watersheds. These rivers support agriculture, provide water for millions, sustain biodiversity, and hold deep spiritual significance. Below is a comprehensive introduction to India’s rivers, covering their origins, classifications, roles, and challenges.

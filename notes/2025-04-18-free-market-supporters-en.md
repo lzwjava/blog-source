@@ -1,10 +1,10 @@
 ---
-title: Free Market Supporters
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Free Market Supporters
 translated: false
-generated: true
 ---
 
 Free market supporters advocate for minimal government intervention in economic activities, emphasizing individual liberty, private property, and voluntary exchange. They include:

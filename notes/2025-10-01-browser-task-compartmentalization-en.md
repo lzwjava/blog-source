@@ -1,12 +1,12 @@
 ---
-title: Optimizing Browsers for Task Compartmentalization
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Optimizing Browsers for Task Compartmentalization
+translated: false
 ---
 
 ### Optimizing Web Browsing with Multiple Browsers or Profiles

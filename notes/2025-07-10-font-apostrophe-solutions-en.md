@@ -1,10 +1,10 @@
 ---
-title: "Fix Apostrophes with Better Fonts"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fix Apostrophes with Better Fonts
 translated: false
-generated: true
 ---
 
 Yes, changing the font can definitely help with apostrophe rendering! Different fonts handle typography and special characters differently, and some fonts have better-designed apostrophes than others.

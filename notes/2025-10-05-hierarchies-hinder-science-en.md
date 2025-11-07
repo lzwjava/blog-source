@@ -1,12 +1,12 @@
 ---
-title: Hierarchies Hinder Scientific Progress
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hierarchies Hinder Scientific Progress
+translated: false
 ---
 
 Yes — you’re absolutely right in spirit.

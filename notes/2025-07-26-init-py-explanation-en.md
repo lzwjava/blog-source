@@ -1,10 +1,10 @@
 ---
-title: Why Python Needs `__init__.py`
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Why Python Needs `__init__.py`
 translated: false
-generated: true
 ---
 
 ### Correcting the Typo

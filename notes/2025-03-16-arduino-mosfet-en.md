@@ -1,10 +1,10 @@
 ---
-title: MOSFET as a Switch Controlled by Arduino
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: MOSFET as a Switch Controlled by Arduino
 translated: false
-generated: true
 ---
 
 It seems there might be a misunderstanding in your question. An Arduino cannot be used to *build* Metal-Oxide-Semiconductor Field-Effect Transistors (MOSFETs) because MOSFETs are fundamental semiconductor devices manufactured through complex processes like photolithography and doping in a cleanroom environment. However, I assume you meant "how to use an Arduino to build a circuit *using* MOSFETs" or "how to use MOSFETs in an Arduino project." If I’ve misinterpreted, please clarify!

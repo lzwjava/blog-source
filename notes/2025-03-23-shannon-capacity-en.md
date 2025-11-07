@@ -1,10 +1,10 @@
 ---
-title: Shannon's Capacity Formula
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Shannon's Capacity Formula
 translated: false
-generated: true
 ---
 
 Shannon's capacity formula is actually written as:

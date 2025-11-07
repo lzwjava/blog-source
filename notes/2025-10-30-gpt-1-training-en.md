@@ -1,12 +1,12 @@
 ---
-title: GPT-1 Architecture and Training Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: GPT-1 Architecture and Training Overview
+translated: false
 ---
 
 ### Overview of GPT-1 Architecture

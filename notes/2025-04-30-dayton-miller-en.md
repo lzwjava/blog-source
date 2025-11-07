@@ -1,10 +1,10 @@
 ---
-title: Dayton Clarence Miller
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Dayton Clarence Miller
 translated: false
-generated: true
 ---
 
 **Dayton Clarence Miller (1866-1941) was a distinguished American physicist, astronomer, and acoustician.** He was also an accomplished amateur flutist and a notable collector of flutes. Miller spent the majority of his career as a professor at the Case School of Applied Science (now part of Case Western Reserve University) in Cleveland, Ohio, where he also served as the head of the physics department.

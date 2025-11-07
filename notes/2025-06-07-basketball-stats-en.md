@@ -1,10 +1,10 @@
 ---
-title: Basketball Stats Explained
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Basketball Stats Explained
 translated: false
-generated: true
 ---
 
 Basketball statistics provide a numerical way to evaluate a player's or team's performance. Here's a breakdown of common terms you'll encounter:

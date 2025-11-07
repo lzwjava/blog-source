@@ -1,10 +1,10 @@
 ---
-title: Nokia Failure
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Nokia Failure
 translated: false
-generated: true
 ---
 
 Nokia's failure in the smartphone market after dominating the mobile phone industry for years can be attributed to several key factors:

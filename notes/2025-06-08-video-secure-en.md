@@ -1,10 +1,10 @@
 ---
-title: Secure Video Sharing
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Secure Video Sharing
 translated: false
-generated: true
 ---
 
 To share videos securely without worrying about unauthorized downloading or copying, you can use a combination of technical measures and access controls. Here are some effective strategies:

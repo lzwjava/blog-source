@@ -1,12 +1,12 @@
 ---
-title: "Mong Kok: Hong Kong's Bustling District"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Mong Kok: Hong Kong''s Bustling District'
+translated: false
 ---
 
 ### What is Mong Kok?

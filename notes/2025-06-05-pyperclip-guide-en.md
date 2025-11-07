@@ -1,12 +1,12 @@
 ---
-title: "Pyperclip: Python Clipboard Management Guide"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: 'Pyperclip: Python Clipboard Management Guide'
+translated: false
 ---
 
 ### What is Pyperclip?

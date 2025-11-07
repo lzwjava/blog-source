@@ -1,12 +1,12 @@
 ---
-title: Jakarta EE Platform Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Jakarta EE Platform Overview
+translated: false
 ---
 
 Jakarta EE is an open-source platform for developing enterprise-level Java applications. It provides a set of specifications, APIs, and tools that extend the core Java SE (Standard Edition) to handle complex tasks like web services, distributed computing, cloud-native deployments, and scalable server-side applications.

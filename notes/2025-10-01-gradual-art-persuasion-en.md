@@ -1,12 +1,12 @@
 ---
-title: The Gradual Art of Persuasion
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: The Gradual Art of Persuasion
+translated: false
 ---
 
 ### Psychology of Opinion Change Over Time

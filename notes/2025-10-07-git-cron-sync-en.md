@@ -1,12 +1,12 @@
 ---
-title: Automated Git Sync via Cron
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Automated Git Sync via Cron
+translated: false
 ---
 
 To automatically sync updates from one laptop's Git pushes to another laptop's clone of the same repo (without manual `git pull`), you can't rely on Git alone for real-time "automatic" updates across machines—Git is pull-based by design. However, you can set up a scheduled task on the second laptop to periodically fetch and merge changes from the remote (GitHub in your case). This is the simplest, reliable way for a personal setup like yours.

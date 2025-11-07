@@ -1,11 +1,11 @@
 ---
-title: Hindi Greetings Beyond Namaste
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Hindi Greetings Beyond Namaste
+translated: false
 ---
 
 In Hindi, **"Namaste" (नमस्ते)** is the most common greeting. It literally means *"I bow to you"* and is used both for hello and goodbye.

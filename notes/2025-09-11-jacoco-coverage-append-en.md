@@ -1,13 +1,13 @@
 ---
-title: JaCoCo Coverage File and Append Mode
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: JaCoCo Coverage File and Append Mode
+translated: false
 ---
 
 That’s a subtle but important detail in how JaCoCo works.

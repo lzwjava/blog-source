@@ -1,12 +1,12 @@
 ---
-title: Upgrading Claude Code to Latest Version
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Upgrading Claude Code to Latest Version
+translated: false
 ---
 
 To upgrade Claude Code from v2.0.0 to the latest version, use one of the following methods based on your installation type (all versions support auto-updates by default, which apply the next time you start the tool; you can disable them by setting `DISABLE_AUTOUPDATER=1`):

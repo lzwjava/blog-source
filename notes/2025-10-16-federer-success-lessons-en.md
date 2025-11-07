@@ -1,12 +1,12 @@
 ---
-title: Federer's Three Lessons for Success
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Federer's Three Lessons for Success
+translated: false
 ---
 
 I suspect "Feidele" is a playful or misspelled reference to Roger Federer, the Swiss tennis legend with 20 Grand Slam titles and a career that's defined effortless brilliance. If that's not who you meant, feel free to clarify! Based on Federer's own reflections—especially in his 2024 Dartmouth commencement speech—his success boiled down to three core lessons that blend mindset, grind, and perspective. Here's a breakdown:

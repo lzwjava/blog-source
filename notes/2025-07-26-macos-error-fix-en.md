@@ -1,10 +1,10 @@
 ---
-title: Fixing macOS File Permission Errors
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fixing macOS File Permission Errors
 translated: false
-generated: true
 ---
 
 ### Understanding the Error

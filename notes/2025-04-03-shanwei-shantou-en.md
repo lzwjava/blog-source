@@ -1,10 +1,10 @@
 ---
-title: Shanwei, Shantou, and Chaozhou
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Shanwei, Shantou, and Chaozhou
 translated: false
-generated: true
 ---
 
 **Comprehensive Travel Guide: Shanwei, Shantou, and Chaozhou**
@@ -72,4 +72,3 @@ generated: true
 - **Cultural Etiquette:** When visiting temples, dress modestly and show respect to local customs.
 
 This guide provides a comprehensive overview of what to see and eat in Shanwei, Shantou, and Chaozhou. Enjoy your trip!
-

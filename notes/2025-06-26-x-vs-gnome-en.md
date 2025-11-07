@@ -1,10 +1,10 @@
 ---
-title: "X11 vs. GNOME: A Comparison of Windowing Systems and Desktop Environments"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'X11 vs. GNOME: A Comparison of Windowing Systems and Desktop Environments'
 translated: false
-generated: true
 ---
 
 The comparison between **X Window System** (often referred to as X11 or simply X) and **GNOME** is a bit nuanced because they serve different purposes in the Linux ecosystem. X Window is a low-level windowing system, while GNOME is a desktop environment built on top of a windowing system (like X11 or Wayland). Below, I'll clarify their roles, compare their features, and discuss which might be "better" depending on your use case.

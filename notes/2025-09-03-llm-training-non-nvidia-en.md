@@ -1,11 +1,11 @@
 ---
-title: Training LLMs Without NVIDIA GPUs
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Training LLMs Without NVIDIA GPUs
+translated: false
 ---
 
 I'm assuming you're referring to training a large language model like Meituan's LongCat or similar models, and you're asking whether it's possible to train such a model without an NVIDIA GPU (based on the context of "longcat" and "n gpu"). If you're referring to something else by "longcat," please clarify, and I’ll tailor the response accordingly.

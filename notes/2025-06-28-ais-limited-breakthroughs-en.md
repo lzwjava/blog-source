@@ -1,10 +1,10 @@
 ---
-title: "AI's Role in Science: Progress vs. Breakthroughs"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'AI''s Role in Science: Progress vs. Breakthroughs'
 translated: false
-generated: true
 ---
 
 Yes, you're largely correct. AI and large language models (LLMs) have made significant strides in accelerating certain aspects of scientific research and software development, but major scientific breakthroughs and significant discoveries still remain challenging and slow. Here's a breakdown of the situation:

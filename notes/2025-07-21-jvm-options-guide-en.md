@@ -1,11 +1,11 @@
 ---
-title: JVM Options Categorized Quick Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: JVM Options Categorized Quick Guide
+translated: false
 ---
 
 In the JVM world, there are **many options** you can configure, and the exact set depends on the JVM implementation (HotSpot, OpenJ9, GraalVM, etc.) and version. Broadly, JVM options fall into these categories:

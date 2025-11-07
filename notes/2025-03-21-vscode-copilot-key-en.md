@@ -1,10 +1,10 @@
 ---
-title: Visual Studio Code (VSCode) Copilot plugin 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Visual Studio Code (VSCode) Copilot plugin
 translated: false
-generated: true
 ---
 
 No, the Visual Studio Code (VSCode) Copilot plugin cannot use a custom API key, such as your Gemini key. GitHub Copilot, developed by GitHub (owned by Microsoft), is an AI-powered code completion tool tightly integrated with GitHub’s infrastructure and specific AI models, originally based on OpenAI’s Codex. It relies on authentication through a GitHub account and a Copilot subscription, and it does not offer a built-in option to configure it with custom API keys from other providers, like Google’s Gemini.

@@ -1,12 +1,12 @@
 ---
-title: ESP32-CAM Compact Development Board Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: ESP32-CAM Compact Development Board Overview
+translated: false
 ---
 
 ### What is the ESP32-CAM?

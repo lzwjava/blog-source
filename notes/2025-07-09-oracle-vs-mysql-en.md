@@ -1,10 +1,10 @@
 ---
-title: "Oracle vs MySQL: Key Comparisons"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Oracle vs MySQL: Key Comparisons'
 translated: false
-generated: true
 ---
 
 I'll provide a comprehensive comparison between Oracle and MySQL across key dimensions:

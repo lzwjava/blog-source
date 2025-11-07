@@ -1,12 +1,12 @@
 ---
-title: TikToken Tokenization Guide and Examples
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-sonnet-4
+title: TikToken Tokenization Guide and Examples
+translated: false
 ---
 
 This code demonstrates how to use the **TikToken** library, which is OpenAI's tokenizer for counting and processing tokens in text that will be sent to language models like GPT-3.5, GPT-4, etc.

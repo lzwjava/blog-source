@@ -1,11 +1,11 @@
 ---
-title: Evaluating Space and Ocean Ideas
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Evaluating Space and Ocean Ideas
+translated: false
 ---
 
 ### Evaluating the Ideas in the Post

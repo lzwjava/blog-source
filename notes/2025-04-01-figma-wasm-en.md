@@ -1,10 +1,10 @@
 ---
-title: FFigma Leverages WebAssembly 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: FFigma Leverages WebAssembly
 translated: false
-generated: true
 ---
 
 Figma leverages WebAssembly (Wasm) to supercharge its performance, making it a standout example of how this technology can transform web-based applications. At its core, Figma is a collaborative design tool that runs primarily in the browser, and it uses WebAssembly to execute critical, performance-intensive tasks at near-native speeds. Here’s how it works:

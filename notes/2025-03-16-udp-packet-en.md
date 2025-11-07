@@ -1,10 +1,10 @@
 ---
-title: C Program to Decode a UDP Packet
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: C Program to Decode a UDP Packet
 translated: false
-generated: true
 ---
 
 Here's an example of how to decode a UDP packet in C. This code demonstrates receiving a UDP packet and extracting its key components:

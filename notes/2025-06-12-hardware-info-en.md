@@ -1,10 +1,10 @@
 ---
-title: Ubuntu Linux Hardware Info
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Ubuntu Linux Hardware Info
 translated: false
-generated: true
 ---
 
 To get comprehensive information about your laptop's hardware (RAM, CPU, etc.) on an Ubuntu Linux system, you can use a combination of terminal commands and tools. Below is a step-by-step guide to retrieve detailed system information:

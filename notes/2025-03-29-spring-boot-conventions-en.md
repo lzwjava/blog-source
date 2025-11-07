@@ -1,10 +1,10 @@
 ---
-title: Spring Boot Java Coding Conventions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Spring Boot Java Coding Conventions
 translated: false
-generated: true
 ---
 
 ## 1. Core Principles

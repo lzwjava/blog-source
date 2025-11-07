@@ -1,12 +1,12 @@
 ---
-title: Monitor Subprocess Output With Timeout
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Monitor Subprocess Output With Timeout
+translated: false
 ---
 
 ```python

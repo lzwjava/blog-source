@@ -1,10 +1,10 @@
 ---
-title: Codeforces 2108F
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Codeforces 2108F
 translated: false
-generated: true
 ---
 
 Let’s dive into why the provided Java code solves the "Fallen Towers" problem. The problem involves an array of \\( n \\) towers, each with a height \\( a_i \geq 0 \\). You can knock down the tower at position \\( i \\), which increases the heights of the next \\( a_i \\) towers by 1 (or fewer if there aren’t enough towers left), then sets \\( a_i \\) to 0. The goal is to knock down all \\( n \\) towers exactly once in any order, ensuring the final array is non-decreasing (i.e., for any \\( i < j \\), the height at position \\( i \\) is at most the height at position \\( j \\)). The output is the maximum MEX of the final array, where the MEX is the smallest non-negative integer not present in the array.

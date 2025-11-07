@@ -1,10 +1,10 @@
 ---
-title: "The Pirate Bay Educational Resources"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The Pirate Bay Educational Resources
 translated: false
-generated: true
 ---
 
 ### Key Points

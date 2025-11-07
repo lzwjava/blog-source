@@ -1,10 +1,10 @@
 ---
-title: Stanislav Fort
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Stanislav Fort
 translated: false
-generated: true
 ---
 
 **Stanislav Fort** is a Czech theoretical physicist and machine learning researcher known for his contributions to the understanding of neural networks, optimization in high-dimensional spaces, and the intersection between physics and deep learning. He has worked on topics such as the geometry of loss landscapes in neural networks, generalization in overparameterized models, and the application of tools from statistical physics to understand learning dynamics.

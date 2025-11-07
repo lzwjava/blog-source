@@ -1,10 +1,10 @@
 ---
-title: Yin Wang
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Yin Wang
 translated: false
-generated: true
 ---
 
 ### Key Points
@@ -189,4 +189,3 @@ This analysis is based on the provided user summary and assumed online research,
 - [The Rise of 'Worse is Better' Blog Post](https://www.yinwang.org/blog-cn/2015/04/11/worse-is-better)
 - [Critique of TypeScript Blog Post](https://www.yinwang.org/blog-cn/2022/06/09/typescript)
 - [Why I Don’t Like React Blog Post](https://www.yinwang.org/blog-cn/2023/03/12/react)
-

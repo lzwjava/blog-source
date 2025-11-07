@@ -1,10 +1,10 @@
 ---
-title: "Two Paths to Success and Emotion"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Two Paths to Success and Emotion
 translated: false
-generated: true
 ---
 
 It sounds like you're describing two contrasting approaches to learning and success, and the different emotional outcomes that result from each. Let's break down how to understand or comprehend these dynamics.

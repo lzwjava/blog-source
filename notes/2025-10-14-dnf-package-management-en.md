@@ -1,12 +1,12 @@
 ---
-title: DNF Package Management in RHEL
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: DNF Package Management in RHEL
+translated: false
 ---
 
 ### Introduction to DNF in Red Hat Enterprise Linux

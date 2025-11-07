@@ -1,10 +1,10 @@
 ---
-title: Quine-McCluskey Method in Electronics
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Quine-McCluskey Method in Electronics
 translated: false
-generated: true
 ---
 
 The **Quine-McCluskey** method is a systematic algorithm used in **digital electronics** to simplify **Boolean algebra expressions**, particularly for minimizing **logic functions** in the design of digital circuits. It is an alternative to the Karnaugh map (K-map) and is especially useful for functions with many variables where K-maps become impractical.

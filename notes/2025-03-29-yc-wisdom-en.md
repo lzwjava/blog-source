@@ -1,10 +1,10 @@
 ---
-title: Wisdom of Y Combinator 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Wisdom of Y Combinator
 translated: false
-generated: true
 ---
 
 Y Combinator (YC) has developed a wealth of startup wisdom through working with thousands of early-stage companies. Here are the key principles from their philosophy:

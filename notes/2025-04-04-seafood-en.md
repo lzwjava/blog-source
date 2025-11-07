@@ -1,10 +1,10 @@
 ---
-title: Common Seafood
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Common Seafood
 translated: false
-generated: true
 ---
 
 Absolutely! 🐟🦐 Let’s dive into a little English lesson about **common seafood**—great for both vocabulary and conversation.

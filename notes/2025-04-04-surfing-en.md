@@ -1,10 +1,10 @@
 ---
-title: How to Surf
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: How to Surf
 translated: false
-generated: true
 ---
 
 It seems like you might be asking about "how to surf" in the context of water sports, possibly intending "kitefoiling" or "kite surfing" since your previous question was about Max Maeder, a kitefoiling champion. However, based on the word "surf" alone, I’ll assume you mean traditional surfing (riding waves on a surfboard). If you intended kitefoiling or windsurfing instead, please clarify, and I’ll adjust the response!

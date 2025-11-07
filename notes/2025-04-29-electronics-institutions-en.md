@@ -1,10 +1,10 @@
 ---
-title: Leading Institutions in Electronics
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Leading Institutions in Electronics
 translated: false
-generated: true
 ---
 
 The history of electronics has been profoundly shaped by key institutions that drove research, development, and commercialization of groundbreaking technologies. Below is a revised overview of the history of electronics, highlighting major institutions that played pivotal roles, while retaining the structure and key milestones from the original narrative.

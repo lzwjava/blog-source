@@ -1,12 +1,12 @@
 ---
-title: Banking and Investment Systems Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Banking and Investment Systems Overview
+translated: false
 ---
 
 ### Typical Financial Projects/Systems in Banking

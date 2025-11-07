@@ -1,12 +1,12 @@
 ---
-title: Computer Application Technology Associate Degree Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Computer Application Technology Associate Degree Overview
+translated: false
 ---
 
 ### 510201 Professional Overview

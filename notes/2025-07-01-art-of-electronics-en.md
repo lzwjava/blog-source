@@ -1,10 +1,10 @@
 ---
-title: "Electronics Legends and Their Masterpiece"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Electronics Legends and Their Masterpiece
 translated: false
-generated: true
 ---
 
 Paul Horowitz and Winfield Hill are two highly respected figures in the field of electronics, best known as the co-authors of the seminal textbook, **"The Art of Electronics."** This book has achieved legendary status among students, hobbyists, and professionals alike, widely regarded as one of the most comprehensive and practical guides to electronic circuit design.

@@ -1,12 +1,12 @@
 ---
-title: Yuandong Tian AI Research Scientist
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Yuandong Tian AI Research Scientist
+translated: false
 ---
 
 ## Yuandong Tian

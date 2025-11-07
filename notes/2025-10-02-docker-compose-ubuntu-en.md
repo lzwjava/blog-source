@@ -1,12 +1,12 @@
 ---
-title: Docker Compose Installation for Ubuntu
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Docker Compose Installation for Ubuntu
+translated: false
 ---
 
 Based on your system information, you're running **Ubuntu 24.04.2 LTS** on an **x86_64** architecture. To download the appropriate **Docker Compose** binary for your system from the provided GitHub release (v2.39.4), you should select the binary compatible with Linux on x86_64.

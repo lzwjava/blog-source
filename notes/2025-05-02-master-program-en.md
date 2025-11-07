@@ -1,10 +1,10 @@
 ---
-title: Master's Programs
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Master's Programs
 translated: false
-generated: true
 ---
 
 Okay, let's break down your profile and assess your chances for Master's programs in Singapore, the UK, the USA, and Australia.

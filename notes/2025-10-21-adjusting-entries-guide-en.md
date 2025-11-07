@@ -1,12 +1,12 @@
 ---
-title: A Simple Guide to Adjusting Entries
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: A Simple Guide to Adjusting Entries
+translated: false
 ---
 
 ### How to Make Adjusting Entries: A Simple Step-by-Step Guide

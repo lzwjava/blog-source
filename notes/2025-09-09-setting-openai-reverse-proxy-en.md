@@ -1,13 +1,13 @@
 ---
-title: Setting OPENAI_REVERSE_PROXY in LibreChat
-date: 2025-09-09
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-09
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Setting OPENAI_REVERSE_PROXY in LibreChat
+translated: false
 ---
 
 Got it 👍 You’re editing LibreChat’s `.env`.

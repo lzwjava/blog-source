@@ -1,10 +1,10 @@
 ---
-title: EU (Schengen) Travel Visa
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: EU (Schengen) Travel Visa
 translated: false
-generated: true
 ---
 
 Here’s a step-by-step guide tailored for a Chinese citizen in Guangzhou applying for an EU (Schengen) travel visa:

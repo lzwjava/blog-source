@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Filter Configuration in Java Servlets
 translated: false
-generated: true
 ---
 
 ### How Does `javax.servlet.FilterConfig` Work?

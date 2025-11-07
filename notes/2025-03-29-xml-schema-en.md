@@ -1,10 +1,10 @@
 ---
-title: XML Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: XML Guide
 translated: false
-generated: true
 ---
 
 Okay, let's dive into a comprehensive guide about XML (Extensible Markup Language), covering its specifications, how the `<sequence>` element works, and the meaning of `minOccurs` and `maxOccurs`.

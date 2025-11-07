@@ -1,12 +1,12 @@
 ---
-title: Broken EV Charging Port Flap
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Broken EV Charging Port Flap
+translated: false
 ---
 
 It sounds like the rubber flap (or "dust lip/cover") on your Neta EV's charging port has broken, which is sealing off the fast-charging access and forcing you to use the slower AC option. That's a common issue with EV ports—it's the small hinged cover that flips open to expose the pins/connectors. Good call grabbing a replacement on Pinduoduo; those are often cheap and OEM-compatible for Chinese brands like Neta (Hozon).

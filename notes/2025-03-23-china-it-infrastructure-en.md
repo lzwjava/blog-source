@@ -1,10 +1,10 @@
 ---
-title: China's IT Infrastructure Challenges and Global Ambitions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: China's IT Infrastructure Challenges and Global Ambitions
 translated: false
-generated: true
 ---
 
 China's absence of globally dominant IT infrastructure companies like MySQL, MongoDB, or Cloudflare can be attributed to a combination of historical, economic, regulatory, and cultural factors. Here’s a structured analysis:

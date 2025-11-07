@@ -1,10 +1,10 @@
 ---
-title: JetBrains Annotations for Code Quality
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: JetBrains Annotations for Code Quality
 translated: false
-generated: true
 ---
 
 The `<dependency>` you provided specifies the `org.jetbrains:annotations` library in a Maven project. Here's what it's about:

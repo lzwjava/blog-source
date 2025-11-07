@@ -1,12 +1,12 @@
 ---
-title: "Spandex: A Comprehensive Introduction"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: 'Spandex: A Comprehensive Introduction'
+translated: false
 ---
 
 Here’s a **comprehensive introduction to Spandex (also known as Elastane or Lycra)** — explaining its origin, properties, production, applications, and care.

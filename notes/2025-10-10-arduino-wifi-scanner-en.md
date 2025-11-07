@@ -1,12 +1,12 @@
 ---
-title: Arduino WiFi Scanner Drone Payload
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Arduino WiFi Scanner Drone Payload
+translated: false
 ---
 
 ### Feasibility Overview

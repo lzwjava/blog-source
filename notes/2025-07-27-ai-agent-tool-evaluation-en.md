@@ -1,10 +1,10 @@
 ---
-title: Best AI Software Agents 2025
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Best AI Software Agents 2025
 translated: false
-generated: true
 ---
 
 ### Evaluating the Best AI Software Agent Tool

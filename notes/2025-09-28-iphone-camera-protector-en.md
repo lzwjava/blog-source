@@ -1,12 +1,12 @@
 ---
-title: iPhone Camera Protector Solution
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-sonnet-4
+title: iPhone Camera Protector Solution
+translated: false
 ---
 
 It sounds like you've been working through a camera protection setup for your iPhone 14 Pro Max! Let me make sure I understand your situation correctly:

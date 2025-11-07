@@ -1,11 +1,11 @@
 ---
-title: Python Script for Logging Chatbot Interactions
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Python Script for Logging Chatbot Interactions
+translated: false
 ---
 
 ### Clever Python Script for Logging Chatbot Interactions

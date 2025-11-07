@@ -1,12 +1,12 @@
 ---
-title: "SuperCLUE: Chinese LLM Benchmark"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'SuperCLUE: Chinese LLM Benchmark'
+translated: false
 ---
 
 SuperCLUE is a comprehensive benchmark suite designed to evaluate Chinese large language models (LLMs). It builds on the original CLUE (Chinese Language Understanding Evaluation) benchmark, expanding it to assess advanced capabilities in LLMs rather than just smaller models. Developed by the CLUEbenchmark team—a collaborative effort involving researchers from institutions like Tsinghua University and companies in the Chinese AI ecosystem—SuperCLUE was first introduced in 2023 to address gaps in evaluating Chinese LLMs against international standards.

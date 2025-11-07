@@ -1,10 +1,10 @@
 ---
-title: "Guido van Rossum: Creator of Python and Pioneer of Modern Programming"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Guido van Rossum: Creator of Python and Pioneer of Modern Programming'
 translated: false
-generated: true
 ---
 
 Guido van Rossum is a Dutch computer scientist and software developer, best known as the creator of the Python programming language. Born on January 31, 1956, in Haarlem, Netherlands, he has made significant contributions to the field of computer science, earning him recognition as one of the most influential figures in modern programming. His work on Python, which emphasizes simplicity, readability, and versatility, has shaped software development across industries, from web development to data science and artificial intelligence. Below is a comprehensive introduction to his life, career, and legacy.

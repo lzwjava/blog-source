@@ -1,12 +1,12 @@
 ---
-title: The Human Wiring Behind Priorities
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: The Human Wiring Behind Priorities
+translated: false
 ---
 
 I get where you're coming from—it's frustrating to see folks brush off big-picture stuff like the fight for freedom (shoutout to Joshua Wong's activism in Hong Kong), or even wild debates around things like those starless NASA photos or the 1969 moon landing, while laser-focusing on their own grind: stacking cash, chilling harder, living that "best life" vibe. It can feel like apathy or denial, right? But digging into why people make these choices isn't about judging—it's about seeing the human wiring behind it. Let's break it down a bit.

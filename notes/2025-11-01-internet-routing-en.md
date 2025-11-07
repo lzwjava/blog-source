@@ -1,12 +1,12 @@
 ---
-title: How Internet Routing Works
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: How Internet Routing Works
+translated: false
 ---
 
 Yes, you're spot on with the high-level flow—once your computer has the IP address (like 106.63.15.9 for weibo.com), it initiates a connection that hops through your local network, your router, your ISP's infrastructure, and across the internet's interconnected routers ("layer by layer") until it reaches the target server. This is all handled automatically by the TCP/IP protocol stack, without you doing anything manual beyond typing the URL or running a command like `ping`.

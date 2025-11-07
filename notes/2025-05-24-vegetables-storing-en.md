@@ -1,10 +1,10 @@
 ---
-title: Storing Vegetables
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Storing Vegetables
 translated: false
-generated: true
 ---
 
 For storing vegetables like potatoes, peppers, onions, bitter melons, and ginger in the refrigerator's fresh food compartment, the ideal temperature range is **2°C to 8°C**. Here's a breakdown tailored to these vegetables:

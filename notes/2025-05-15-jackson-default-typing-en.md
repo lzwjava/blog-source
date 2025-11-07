@@ -1,11 +1,11 @@
 ---
-title: Jackson Default Typing Explained and Disabled
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Jackson Default Typing Explained and Disabled
+translated: false
 ---
 
 In Jackson (the `com.fasterxml.jackson.databind` library), **default typing** is a feature of `ObjectMapper` that automatically includes type metadata (like `@class` or `@type`) in serialized JSON so that objects can be deserialized back into their original polymorphic types.

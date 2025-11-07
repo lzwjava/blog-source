@@ -1,11 +1,11 @@
 ---
-title: Top C Open Source Projects
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Top C Open Source Projects
+translated: false
 ---
 
 Below is a curated list of 30 notable open-source projects primarily written in the C programming language, based on their popularity, impact, and relevance in the open-source community. These projects span various domains like operating systems, databases, networking, and multimedia, reflecting C's strength in system-level programming, performance-critical applications, and embedded systems. Popularity metrics like GitHub stars, community activity, and historical significance were considered, drawing from sources like GitHub, Reddit, and other developer communities.[](https://www.reddit.com/r/C_Programming/comments/14kmraa/top_c_open_source_projects_and_contributors/)[](https://github.com/topics/c-projects)[](https://en.cppreference.com/w/c/links/libs)

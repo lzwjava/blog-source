@@ -1,12 +1,12 @@
 ---
-title: Truncating JSON Objects Efficiently
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Truncating JSON Objects Efficiently
+translated: false
 ---
 
 To truncate the first `n` keys from a JSON object (whether it's an array or a map), you can use the following approach. This is particularly useful when dealing with large JSON responses that need to be truncated due to context limits, such as when using an LLM (Language Model) to generate test cases.

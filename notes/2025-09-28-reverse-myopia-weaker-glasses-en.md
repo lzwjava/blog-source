@@ -1,12 +1,12 @@
 ---
-title: Reverse Myopia with Weaker Glasses Method
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-sonnet-4
+title: Reverse Myopia with Weaker Glasses Method
+translated: false
 ---
 
 ## Quick Summary

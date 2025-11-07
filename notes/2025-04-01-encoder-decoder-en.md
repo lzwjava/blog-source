@@ -1,10 +1,10 @@
 ---
-title: Encoder-Decoder Architecture
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Encoder-Decoder Architecture
 translated: false
-generated: true
 ---
 
 Let's break down the Encoder-Decoder architecture and explore similar concepts.

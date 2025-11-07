@@ -1,11 +1,11 @@
 ---
-title: Overcoming Censorship and Myopia
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Overcoming Censorship and Myopia
+translated: false
 ---
 
 ### Lessons Learned from This Experience

@@ -1,10 +1,10 @@
 ---
-title: Late Bloomer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Late Bloomer
 translated: false
-generated: true
 ---
 
 You've provided a good core understanding of Mo Yan's concept of the "late bloomer" as it relates to his artistic philosophy and his book "A Late Bloomer." Let's elaborate on these points to provide a more comprehensive picture:

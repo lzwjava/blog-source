@@ -1,10 +1,10 @@
 ---
-title: Tech Hubs in India
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Tech Hubs in India
 translated: false
-generated: true
 ---
 
 To compare software engineer salaries and the tech ecosystems of Bengaluru, Mumbai/Delhi, Chennai, Pune, and Hyderabad, I’ll break down the salary ranges, key differences in their tech ecosystems, major companies, and factors influencing their differences. All salary figures are in Indian Rupees (INR) per annum (LPA) and reflect approximate averages for 2025 based on recent data. I’ll focus on beginner (0–2 years), mid-level (5 years), and senior (10 years) software engineer roles, as well as the unique characteristics of each city’s tech hub.

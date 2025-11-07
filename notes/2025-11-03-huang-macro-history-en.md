@@ -1,12 +1,12 @@
 ---
-title: Historian Ray Huang and Macro History
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Historian Ray Huang and Macro History
+translated: false
 ---
 
 ### Who is Ray Huang (黄仁宇)?

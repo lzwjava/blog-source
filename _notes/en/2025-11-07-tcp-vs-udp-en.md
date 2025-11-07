@@ -1,12 +1,12 @@
 ---
-title: TCP vs UDP Protocol Differences
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-4.5-sonnet
+title: TCP vs UDP Protocol Differences
+translated: false
 ---
 
 Yes, you've got it exactly right! Let me clarify the key differences:

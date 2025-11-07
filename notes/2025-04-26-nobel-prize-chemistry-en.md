@@ -1,10 +1,10 @@
 ---
-title: The Nobel Prize in Chemistry
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The Nobel Prize in Chemistry
 translated: false
-generated: true
 ---
 
 The Nobel Prize in Chemistry, awarded annually by the Royal Swedish Academy of Sciences, recognizes transformative contributions to chemical science, often with profound impacts on technology, medicine, and our understanding of nature. Since 1901, it has been awarded 116 times to 194 individuals, with Frederick Sanger as the only double laureate (1958, 1980). Below is a review of major breakthroughs from recent Nobel Chemistry awards (2020–2024), followed by a selection of landmark historical breakthroughs to provide context. Each entry highlights the discovery, its significance, and its impact, keeping the response concise yet comprehensive. I’ll also note trends and limitations, as with the Physics review.

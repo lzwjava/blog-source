@@ -1,10 +1,10 @@
 ---
-title: "Maven Checkstyle: Continue Scanning"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Maven Checkstyle: Continue Scanning'
 translated: false
-generated: true
 ---
 
 To make `mvn checkstyle:check` continue scanning all modules without failing early on violations, you need to configure the Checkstyle Maven plugin to disable the `failOnViolation` option. By default, `failOnViolation` is set to `true`, causing the build to stop as soon as violations are found. Setting it to `false` allows the scan to complete across all modules, reporting all violations without halting the build.

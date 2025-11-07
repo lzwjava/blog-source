@@ -1,11 +1,11 @@
 ---
-title: Python Blog Automation Blueprint
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Python Blog Automation Blueprint
+translated: false
 ---
 
 Based on analyzing your extensive `scripts/` directory, here are the major ideas for improving your blog with Python scripts:

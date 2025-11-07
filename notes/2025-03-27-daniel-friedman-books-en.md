@@ -1,10 +1,10 @@
 ---
-title: Daniel P. Friedman's Essential Books
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Daniel P. Friedman's Essential Books
 translated: false
-generated: true
 ---
 
 Daniel P. Friedman is a legend in programming languages and functional programming, known for his quirky, thought-provoking, and deeply insightful books. Many of his works use Scheme or Lisp to explore core CS concepts like recursion, interpreters, and language design. If you enjoyed books like *SICP* (Structure and Interpretation of Computer Programs) or *Types and Programming Languages*, you'll love his style. Here are his best-known works:

@@ -1,11 +1,11 @@
 ---
-title: OpenRouter vs Direct API Cost
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: OpenRouter vs Direct API Cost
+translated: false
 ---
 
 Yes, using OpenRouter APIs to access the same models is generally more costly than using the official APIs directly from providers like DeepSeek, Mistral, Google (for Gemini), or xAI (for Grok). OpenRouter claims to pass through the underlying provider's pricing without adding a markup on the inference costs themselves, but they charge additional fees that increase the overall expense:

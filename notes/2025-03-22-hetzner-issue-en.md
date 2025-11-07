@@ -1,10 +1,10 @@
 ---
-title: Hetzner API Issue
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Hetzner API Issue
 translated: false
-generated: true
 ---
 
 Let’s analyze the error you're encountering and explain what’s happening with your code:

@@ -1,12 +1,12 @@
 ---
-title: Resolving 413 Request Too Large Errors
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-oss-120b
+title: Resolving 413 Request Too Large Errors
+translated: false
 ---
 
 ## What the error means  

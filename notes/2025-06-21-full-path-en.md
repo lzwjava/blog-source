@@ -1,10 +1,10 @@
 ---
-title: Getting File's Full Path in Ubuntu
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Getting File's Full Path in Ubuntu
 translated: false
-generated: true
 ---
 
 In Ubuntu, you can get the full path of a file using the `realpath` or `readlink -f` command. For your example with `geckodriver`, you can run:

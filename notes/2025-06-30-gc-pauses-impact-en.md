@@ -1,10 +1,10 @@
 ---
-title: "Go GC Pauses: Cloudflare vs TiDB"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Go GC Pauses: Cloudflare vs TiDB'
 translated: false
-generated: true
 ---
 
 Yes, Go's garbage collector (GC) pauses can impact both Cloudflare's services and TiDB database, as both leverage Go heavily in their architecture. However, the nature and impact of these pauses, and how they are mitigated, differ.

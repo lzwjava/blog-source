@@ -1,10 +1,10 @@
 ---
-title: "Google Docs' Real-Time Collaboration Tech"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Google Docs' Real-Time Collaboration Tech
 translated: false
-generated: true
 ---
 
 Google Docs uses a sophisticated **real-time collaboration algorithm** to allow multiple users to edit a document simultaneously. The core technology behind this is based on **Operational Transformation (OT)** and later evolved to incorporate **Conflict-Free Replicated Data Types (CRDTs)** in some systems. Here’s a breakdown of the key components:

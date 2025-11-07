@@ -1,10 +1,10 @@
 ---
-title: Hyper-connected World
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Hyper-connected World
 translated: false
-generated: true
 ---
 
 A hyper-connected world where businesses and people rely heavily on apps, cloud infrastructure, digital systems, and AI would bring transformative changes, with both opportunities and challenges. Here's a breakdown of likely outcomes:

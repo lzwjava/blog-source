@@ -1,10 +1,10 @@
 ---
-title: MIT Computer Science Curriculum
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: MIT Computer Science Curriculum
 translated: false
-generated: true
 ---
 
 The Massachusetts Institute of Technology (MIT) offers a Bachelor of Science in Computer Science and Engineering (Course 6-3) through its Department of Electrical Engineering and Computer Science (EECS). Based on the official MIT Course Catalog and curriculum details for the 6-3 program, I can confirm that the specific courses you listed—**Introduction to Law**, **Ideological and Moral Cultivation and Rule of Law**, **College Chinese**, and **Mao Zedong Thought and Theory of Socialism with Chinese Characteristics**—are **not** part of the standard curriculum for MIT’s Computer Science Bachelor’s program.

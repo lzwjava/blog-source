@@ -1,10 +1,10 @@
 ---
-title: "Zig's Growing Tech Influence"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Zig's Growing Tech Influence
 translated: false
-generated: true
 ---
 
 Zig is definitely making inroads in both big tech and the startup scene, though its adoption patterns differ from more established languages like Python, Java, or even Rust.

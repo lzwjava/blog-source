@@ -1,12 +1,12 @@
 ---
-title: Alex Krizhevsky's Shift to Venture Capital
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Alex Krizhevsky's Shift to Venture Capital
+translated: false
 ---
 
 Alex Krizhevsky, best known for co-authoring the groundbreaking 2012 AlexNet paper that kickstarted the modern deep learning era, has largely stepped back from hands-on research in recent years to pursue a lower-profile career in venture capital and personal interests.

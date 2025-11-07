@@ -1,12 +1,11 @@
 ---
-title: Comparison of GPT-4o and GPT-4.1
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Comparison of GPT-4o and GPT-4.1
 translated: false
-generated: true
 ---
-
 
 ### **Executive Summary**
 

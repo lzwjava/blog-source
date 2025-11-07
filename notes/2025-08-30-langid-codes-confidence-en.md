@@ -1,11 +1,11 @@
 ---
-title: Langid Language Codes and Confidence
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Langid Language Codes and Confidence
+translated: false
 ---
 
 In `langid`, the `classify(text)` function returns a tuple `(lang, confidence)` where:

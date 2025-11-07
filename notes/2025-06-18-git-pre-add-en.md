@@ -1,10 +1,10 @@
 ---
-title: Creating Git pre-add Hook Alternatives
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Creating Git pre-add Hook Alternatives
 translated: false
-generated: true
 ---
 
 Git doesn't have a built-in `pre-add` hook, but there are several ways you can achieve similar functionality. Here are some approaches:

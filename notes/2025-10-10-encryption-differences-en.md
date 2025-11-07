@@ -1,12 +1,12 @@
 ---
-title: Symmetric and Asymmetric Encryption Differences
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Symmetric and Asymmetric Encryption Differences
+translated: false
 ---
 
 ### Symmetric Algorithms

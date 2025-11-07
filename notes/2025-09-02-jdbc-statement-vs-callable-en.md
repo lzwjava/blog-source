@@ -1,11 +1,11 @@
 ---
-title: Statement vs CallableStatement in JDBC
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Statement vs CallableStatement in JDBC
+translated: false
 ---
 
 In Java’s JDBC (and other frameworks that build on it, like Hibernate or Spring), the concepts of **`Statement`** and **`CallableStatement`** are both interfaces used to send SQL commands to the database, but they serve different purposes.

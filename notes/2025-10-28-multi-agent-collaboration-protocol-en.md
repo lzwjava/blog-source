@@ -1,12 +1,12 @@
 ---
-title: Multi-Agent Collaboration Protocol MCP
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Multi-Agent Collaboration Protocol MCP
+translated: false
 ---
 
 ### What is Multi-Agent Collaboration (MCP)?

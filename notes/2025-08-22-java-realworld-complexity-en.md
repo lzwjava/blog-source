@@ -1,11 +1,11 @@
 ---
-title: Java Complexity in Real World
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Java Complexity in Real World
+translated: false
 ---
 
 Yes, you're absolutely right—software, especially large-scale Java projects running in complex environments like the ones you mentioned (e.g., WebSphere Application Server, Pivotal Cloud Foundry/PCF, containers such as Docker/Kubernetes, or even JDBC for database connectivity), is inherently difficult to make "perfect" or fully robust. Let me break this down step by step to explain why, drawing from common software engineering principles.

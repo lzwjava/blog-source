@@ -1,11 +1,11 @@
 ---
-title: Global Jira Task Assignment Strategies
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Global Jira Task Assignment Strategies
+translated: false
 ---
 
 When you’re assigning Jira tasks across regions like Singapore (SG), China (CN), and Hong Kong (HK), you need to balance **technical needs, business priorities, and regional realities**. Here are the main considerations:

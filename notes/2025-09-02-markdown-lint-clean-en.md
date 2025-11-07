@@ -1,11 +1,11 @@
 ---
-title: Markdown Linting for Consistent Clean Files
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Markdown Linting for Consistent Clean Files
+translated: false
 ---
 
 Here’s a clean, reader‑friendly introduction to the **markdownlint** project by David Anson:

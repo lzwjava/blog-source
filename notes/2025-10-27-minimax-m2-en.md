@@ -1,12 +1,12 @@
 ---
-title: MiniMax M2 Open-Source AI Model
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: MiniMax M2 Open-Source AI Model
+translated: false
 ---
 
 ### What is MiniMax M2?

@@ -1,10 +1,10 @@
 ---
-title: Global Music Exploration
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Global Music Exploration
 translated: false
-generated: true
 ---
 
 You're a true language enthusiast! Building on your interest in English, Japanese, Spanish, and Chinese music, let's dive into some other languages with a list of 50 hot, popular, and impactful songs. This list will be a combined effort across various languages, showcasing global musical diversity and cultural significance, pulling from streaming data, historical impact, and KTV popularity where available.

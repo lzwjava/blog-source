@@ -1,10 +1,10 @@
 ---
-title: Tire Size and Car Handling Issues
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Tire Size and Car Handling Issues
 translated: false
-generated: true
 ---
 
 The difference between the tire sizes **195/55R16** (the new tire) and **185/55R16** (the original tire specified in your car's manual) lies primarily in the width and overall dimensions of the tire. Here's a breakdown of the differences and how they might relate to the issue you described (feeling the wheel or tire hitting something when turning right):

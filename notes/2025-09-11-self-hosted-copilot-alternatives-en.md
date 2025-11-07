@@ -1,13 +1,13 @@
 ---
-title: Self Hosted Local Copilot Alternatives
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Self Hosted Local Copilot Alternatives
+translated: false
 ---
 
 You're asking for open-source tools to self-host a “Copilot-like” experience locally—tools you can run yourself (with your own token or model), perhaps integrated into VS Code or other IDEs. No tables, just clean, clear explanations. Here are the best-known options:

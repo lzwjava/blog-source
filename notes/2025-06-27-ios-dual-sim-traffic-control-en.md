@@ -1,10 +1,10 @@
 ---
-title: "Managing Dual SIM Traffic Routing on iOS with GFW Considerations"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Managing Dual SIM Traffic Routing on iOS with GFW Considerations
 translated: false
-generated: true
 ---
 
 iOS provides APIs that allow you to manage and separate network traffic for different cellular data plans when using Dual SIM functionality, but there are limitations, and direct control over routing specific traffic to specific SIMs based on the Great Firewall of China (GFW) restrictions is not natively supported at a granular level. However, with a combination of iOS APIs, manual configuration, and potentially third-party tools, you can achieve some level of separation for handling traffic differently for a Macao SIM and a China Telecom SIM. Below, I’ll outline the relevant APIs, configurations, and considerations, including how to address GFW-related challenges.

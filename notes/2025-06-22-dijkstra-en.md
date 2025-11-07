@@ -1,10 +1,10 @@
 ---
-title: Edsger Wybe Dijkstra
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Edsger Wybe Dijkstra
 translated: false
-generated: true
 ---
 
 Edsger Wybe Dijkstra (1930–2002) was a Dutch computer scientist, mathematician, and theoretical computer science pioneer whose foundational contributions shaped modern computing. Renowned for his rigorous approach to programming, Dijkstra emphasized mathematical precision, structured programming, and formal methods, profoundly influencing software development, algorithm design, and computer science education. His work laid critical groundwork for operating systems, distributed computing, and programming methodologies, earning him the 1972 ACM Turing Award, often considered the Nobel Prize of computing.

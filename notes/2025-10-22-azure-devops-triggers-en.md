@@ -1,12 +1,12 @@
 ---
-title: Configuring Azure DevOps Branch Triggers
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Configuring Azure DevOps Branch Triggers
+translated: false
 ---
 
 Azure DevOps Pipelines allow you to configure which branches trigger builds and deployments. This is primarily done through **CI triggers** (for builds on code pushes) and **PR triggers** (for pull requests). The configuration differs slightly between YAML pipelines (recommended for version control) and classic pipelines. Below, I'll focus on YAML first, as it's the modern approach, then cover classic briefly. All examples assume a Git repository.

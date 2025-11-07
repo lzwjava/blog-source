@@ -1,12 +1,12 @@
 ---
-title: Top Hong Kong Universities 2025 Rankings
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Top Hong Kong Universities 2025 Rankings
+translated: false
 ---
 
 ### Top Universities in Hong Kong (2025 Rankings)

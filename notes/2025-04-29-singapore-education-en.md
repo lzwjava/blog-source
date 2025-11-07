@@ -1,10 +1,10 @@
 ---
-title: Singapore Educational Institutions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Singapore Educational Institutions
 translated: false
-generated: true
 ---
 
 ## Universities

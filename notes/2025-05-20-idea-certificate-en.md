@@ -1,10 +1,10 @@
 ---
-title: Handling Non-Trusted Certificates in IntelliJ IDEA
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Handling Non-Trusted Certificates in IntelliJ IDEA
 translated: false
-generated: true
 ---
 
 The "Untrusted Server's Certificate" dialog in IntelliJ IDEA often appears when the IDE encounters SSL certificates that aren't trusted by its keystore, such as self-signed or custom corporate certificates. Since you've already imported your corporation's keystore into `/lib/cacerts` but still see the prompt, the issue might stem from IntelliJ not using that keystore or additional certificates causing the dialog. Here's how to address it and potentially stop the prompts:

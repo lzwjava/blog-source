@@ -1,10 +1,10 @@
 ---
-title: Heart Disease
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Heart Disease
 translated: false
-generated: true
 ---
 
 Heart disease refers to a range of conditions that affect the heart. The most common types include:

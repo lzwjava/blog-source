@@ -1,10 +1,10 @@
 ---
-title: "Upgrade Maven Dependencies and Plugins"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Upgrade Maven Dependencies and Plugins
 translated: false
-generated: true
 ---
 
 Here's a list of the versions in your `pom.xml` that can be upgraded, along with their latest available versions as of July 5, 2025:

@@ -1,10 +1,10 @@
 ---
-title: Why Chatgpt Stands Out
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Why Chatgpt Stands Out
 translated: false
-generated: true
 ---
 
 ChatGPT stands out among AI chatbots due to several key advantages:

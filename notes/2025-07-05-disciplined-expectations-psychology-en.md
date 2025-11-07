@@ -1,10 +1,10 @@
 ---
-title: "Discipline's Unseen Psychological Roots"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Discipline's Unseen Psychological Roots
 translated: false
-generated: true
 ---
 
 ---

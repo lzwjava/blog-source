@@ -1,10 +1,10 @@
 ---
-title: Configuring qBittorrent for Seeding and Automatic File Management
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Configuring qBittorrent for Seeding and Automatic File Management
 translated: false
-generated: true
 ---
 
 It seems like you want to configure qBittorrent to continue seeding your torrents while automatically moving completed `.mkv` files to `/var/www/movies` for serving on a server. Below, I’ll guide you through the steps to achieve this, assuming you’re using qBittorrent on a system where `/var/www/movies` is a valid directory (e.g., a Linux server with a web server like Apache or Nginx). Here's how you can set it up:

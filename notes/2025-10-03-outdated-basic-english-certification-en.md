@@ -1,12 +1,12 @@
 ---
-title: Outdated Basic English Certification Explanation
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Outdated Basic English Certification Explanation
+translated: false
 ---
 
 Here’s a concise translation and explanation of your statement for an English-speaking audience:

@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Property File Selection in Spring Boot
 translated: false
-generated: true
 ---
 
 In a Spring Boot Maven project, you have two properties files, `appProperties.properties` and `appProperties-hk.properties`, located under `src/main/resources`. To control which properties file is used, particularly to specify the use of the `-hk` properties, you can leverage Spring Boot's configuration mechanisms. Here's how you can do it:

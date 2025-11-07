@@ -1,10 +1,10 @@
 ---
-title: Why McDonald's Drive-Thru Isn't Popular in China
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Why McDonald's Drive-Thru Isn't Popular in China
 translated: false
-generated: true
 ---
 
 The reasons why McDonald's Drive-Thru is not popular in China can be analyzed from multiple perspectives, including culture, consumer habits, urban environment, and economic factors. Here are the main reasons:

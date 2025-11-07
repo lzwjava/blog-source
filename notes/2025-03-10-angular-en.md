@@ -1,10 +1,10 @@
 ---
-title: A Good Angular Frontend Development Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: A Good Angular Frontend Development Guide
 translated: false
-generated: true
 ---
 
 Angular is a powerful framework for building dynamic, single-page applications (SPAs). This guide walks you through the essentials of Angular frontend development, from setup to best practices. Whether you're a beginner or looking to brush up on your skills, you'll find practical tips and key concepts to help you create scalable, maintainable apps.

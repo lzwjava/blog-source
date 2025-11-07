@@ -1,10 +1,10 @@
 ---
-title: Platforms for Hosting Code
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Platforms for Hosting Code
 translated: false
-generated: true
 ---
 
 Besides GitHub, other famous platforms for hosting code include:

@@ -1,12 +1,12 @@
 ---
-title: Shadowrocket Configuration File Analysis
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Shadowrocket Configuration File Analysis
+translated: false
 ---
 
 This appears to be a configuration file for Shadowrocket, a rule-based proxy app for iOS (similar to tools like Surge or Quantumult). It's structured as a text-based config file that defines how the app routes traffic, handles DNS, applies rules, and performs rewrites or MITM (man-in-the-middle) interception. The file is dated "2025-10-02 20:25:43," which could be a timestamp or placeholder.

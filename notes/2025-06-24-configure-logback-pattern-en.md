@@ -1,10 +1,10 @@
 ---
-title: Configuring Logback for Custom Log Format
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Configuring Logback for Custom Log Format
 translated: false
-generated: true
 ---
 
 To achieve the log format you provided, you'll need to configure your `logback.xml` file. The key is to use a `PatternLayout` within your appender and set the `pattern` property correctly.

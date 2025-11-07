@@ -1,12 +1,12 @@
 ---
-title: Temperature-Induced Amplifier Zero-Point Drift
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Temperature-Induced Amplifier Zero-Point Drift
+translated: false
 ---
 
 **C. Temperature effects on transistor parameters**

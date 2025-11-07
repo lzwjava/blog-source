@@ -1,12 +1,12 @@
 ---
-title: Navigating China's Digital Firewall Strategically
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Navigating China's Digital Firewall Strategically
+translated: false
 ---
 
 ### Reflecting on Your Journey: Lessons in Wise Choices for Internet Freedom in China

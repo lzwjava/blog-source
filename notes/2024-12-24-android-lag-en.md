@@ -1,10 +1,10 @@
 ---
 audio: true
+generated: true
 image: false
 lang: en
 layout: post
 title: Why Android Devices Lag
-generated: true
 ---
 
 *This post was written with the assistance of ChatGPT.*

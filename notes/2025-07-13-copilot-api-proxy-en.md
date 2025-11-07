@@ -1,12 +1,12 @@
 ---
-title: Copilot API Proxy Server
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Copilot API Proxy Server
+translated: false
 ---
 
 The GitHub repository `ericc-ch/copilot-api` is an open-source TypeScript project that offers a reverse-engineered proxy server to access GitHub Copilot's AI functionality as an OpenAI- and Anthropic-compatible API. It enables integration with tools like Claude Code, allowing users to leverage Copilot's code generation and completion features through a standardized API format. As of the latest data, it has over 1,200 stars and 203 forks on GitHub.[1][2][3]

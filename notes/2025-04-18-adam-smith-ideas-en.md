@@ -1,10 +1,10 @@
 ---
-title: Adam Smith's Ideas
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Adam Smith's Ideas
 translated: false
-generated: true
 ---
 
 Adam Smith is renowned for his contributions to economics, particularly through his seminal work, "The Wealth of Nations." Here are some of the main ideas associated with Adam Smith:

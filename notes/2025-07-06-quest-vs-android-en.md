@@ -1,10 +1,10 @@
 ---
-title: "Android vs. Quest App Development Differences"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Android vs. Quest App Development Differences
 translated: false
-generated: true
 ---
 
 Building an Android app for a traditional smartphone or tablet and building an app for Meta Quest (which runs Meta Horizon OS, a specialized version of Android) are fundamentally different due to the nature of the platforms and the user experience they aim to deliver. While both share an Android foundation, the "spatial" aspect of Quest changes everything.

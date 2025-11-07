@@ -1,12 +1,12 @@
 ---
-title: Tencent's Hunyuan AI Model Family
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Tencent's Hunyuan AI Model Family
+translated: false
 ---
 
 ### Introduction to Tencent's Hunyuan AI Family

@@ -1,11 +1,11 @@
 ---
-title: Git Diff-Tree Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Git Diff-Tree Guide
+translated: false
 ---
 
 Here’s a practical, end-to-end guide to `git diff-tree`—what it is, when to use it, and the options you’ll actually reach for in real work. I’ll avoid big tables and stick to focused explanations with copy-pasteable examples.

@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Construct a JDBC URL
 translated: false
-generated: true
 ---
 
 To construct a JDBC URL for connecting to a DB2 database based on the `properties.db2.jcc` element in the `server.xml` file of a WebSphere Liberty Profile, you need to use the values provided for certain key attributes, such as `databaseName`, `serverName`, and `portNumber`. Here’s how to do it:

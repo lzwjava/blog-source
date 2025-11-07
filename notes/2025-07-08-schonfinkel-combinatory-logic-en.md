@@ -1,10 +1,10 @@
 ---
-title: "Moses Schönfinkel: Combinatory Logic Pioneer"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Moses Schönfinkel: Combinatory Logic Pioneer'
 translated: false
-generated: true
 ---
 
 Moses Schönfinkel (1888–1942) was a Russian logician and mathematician primarily known for his invention of combinatory logic. Born in Ekaterinoslav (now Dnipro, Ukraine), he studied mathematics at Novorossiysk University of Odessa under Samuil Osipovich Shatunovskii.

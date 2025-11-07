@@ -1,10 +1,10 @@
 ---
-title: "Nomura's Shanghai Office Shows Progress"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Nomura's Shanghai Office Shows Progress
 translated: false
-generated: true
 ---
 
 Nomura Holdings' Shanghai office has been facing significant challenges, though there are some recent signs of improvement. Here's the current situation:

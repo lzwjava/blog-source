@@ -1,12 +1,12 @@
 ---
-title: Clash Proxy Successors and Linux Support
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Clash Proxy Successors and Linux Support
+translated: false
 ---
 
 Clash, a rule-based proxy tool similar to Shadowsocks, had its original repository deleted by the author in 2023 due to regulatory pressures in China. The community has continued development through forks and successors like Clash.Meta (now officially called Mihomo), which is widely regarded as the most reliable and actively maintained replacement. It supports Linux binaries, including for Ubuntu, and includes features like DNS over HTTPS (DoH), tunneling, and rule-based routing.

@@ -1,12 +1,12 @@
 ---
-title: Maximum Transmission Unit Explained Briefly
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Maximum Transmission Unit Explained Briefly
+translated: false
 ---
 
 ### What is MTU in Networking?

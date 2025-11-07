@@ -1,10 +1,10 @@
 ---
-title: Git Push with Git Credential Manager
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Git Push with Git Credential Manager
 translated: false
-generated: true
 ---
 
 Absolutely! Here's a blog post based on your successful Git push, explaining the steps and highlighting the use of Git Credential Manager (GCM) and proxy settings:

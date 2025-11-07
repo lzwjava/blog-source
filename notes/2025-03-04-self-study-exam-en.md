@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: National Higher Education Self-study Examination
 translated: false
-generated: true
 ---
 
 To address your request to change the name to something like "National Higher Education Self-study Examination," I will refer to the exam as the **National Higher Education Self-study Examination** throughout this response. Below is a complete and clear guide tailored to this naming convention, assuming you are asking about this exam in the context of registration or general information (since no additional context was provided in the query). I’ll focus on the exam as it is administered in Guangdong, China, as an example, but the naming change applies universally.

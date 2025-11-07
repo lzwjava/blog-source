@@ -1,12 +1,12 @@
 ---
-title: Automating Data Validation with LLMs
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Automating Data Validation with LLMs
+translated: false
 ---
 
 Yes, you **can use large language models (LLMs) to automate data validation**, especially for rule-based checks like ensuring journal lines are balanced. LLMs are not traditionally used for this purpose, but their natural language understanding and code generation capabilities make them a powerful tool for **generating, interpreting, and even executing validation rules**.

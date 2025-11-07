@@ -1,11 +1,11 @@
 ---
-title: Spring Request Context Implementation Options
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Spring Request Context Implementation Options
+translated: false
 ---
 
 Great use-case for a tiny “request context” in Spring. You’ve got a few clean options—pick one based on your stack:

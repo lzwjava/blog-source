@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Enhancing VUE.js Development
 translated: false
-generated: true
 ---
 
 ### Key Points

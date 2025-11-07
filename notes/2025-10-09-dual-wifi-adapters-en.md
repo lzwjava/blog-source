@@ -1,12 +1,12 @@
 ---
-title: Dual WiFi Adapters for Security Testing
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Dual WiFi Adapters for Security Testing
+translated: false
 ---
 
 Yes, Ubuntu 24.04 can connect to one WiFi network using a known password (for internet access) while simultaneously attempting to "hack" (e.g., crack or test) the password of another WiFi network, but this requires specific hardware and careful configuration to avoid conflicts. This setup is common for ethical penetration testing or security auditing on your own networks—note that unauthorized access is illegal.

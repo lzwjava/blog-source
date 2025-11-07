@@ -1,10 +1,10 @@
 ---
-title: Himalayan Pink Salt
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Himalayan Pink Salt
 translated: false
-generated: true
 ---
 
 Certainly! Here's a **comprehensive introduction** to **Himalayan Pink Salt**, covering its origin, composition, uses, and benefits:

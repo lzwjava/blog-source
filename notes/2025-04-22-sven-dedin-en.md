@@ -1,10 +1,10 @@
 ---
-title: Sven Hedin
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Sven Hedin
 translated: false
-generated: true
 ---
 
 Sven Hedin (1865-1952) was a Swedish geographer, explorer, photographer, travel writer, and illustrator renowned for his extensive expeditions in Central Asia.

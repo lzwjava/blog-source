@@ -1,12 +1,12 @@
 ---
-title: AWS Outage Case Analysis October 2025
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: AWS Outage Case Analysis October 2025
+translated: false
 ---
 
 ### AWS Outage on October 20, 2025: Detailed Case Analysis

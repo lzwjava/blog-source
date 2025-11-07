@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Swagger Annotations
 translated: false
-generated: true
 ---
 
 To use the `swagger-annotations` package in your Java project, particularly for documenting a REST API built with Spring Boot, follow these steps. This guide assumes you are using Swagger 2.0, which is commonly integrated with the `springfox` library. The `swagger-annotations` package provides annotations to add metadata to your API endpoints, enabling automatic generation of API documentation.

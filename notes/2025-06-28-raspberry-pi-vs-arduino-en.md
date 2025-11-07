@@ -1,10 +1,10 @@
 ---
-title: "Raspberry Pi vs. Arduino for Washing Machine Monitoring with Telegram Alerts"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Raspberry Pi vs. Arduino for Washing Machine Monitoring with Telegram Alerts
 translated: false
-generated: true
 ---
 
 Using a Raspberry Pi instead of an Arduino (like the ESP32-CAM) for detecting when your Maytag MHW8630HW washing machine stops and sending a Telegram notification is a viable alternative, offering more processing power and flexibility at the cost of increased complexity and power consumption. Below, I’ll compare the Raspberry Pi approach with the Arduino solution, outline other microcontroller options, and provide a detailed guide for implementing the system with a Raspberry Pi. I’ll also discuss alternative approaches (e.g., other hardware or sensors) to ensure a comprehensive response.

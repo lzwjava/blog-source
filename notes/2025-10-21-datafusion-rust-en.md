@@ -1,12 +1,12 @@
 ---
-title: Apache DataFusion Built in Rust
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Apache DataFusion Built in Rust
+translated: false
 ---
 
 Apache DataFusion, an extensible query engine for analytical applications, was developed in Rust to leverage the language's strengths in building high-performance, reliable data processing systems. It originated as an open-source project by Andy Grove in 2018 as a prototype for Rust-based distributed data tools, later donated to the Apache Arrow ecosystem and graduating to a top-level Apache project in 2024. The choice of Rust aligns with DataFusion's goals of speed, extensibility, and ease of integration, particularly when paired with Apache Arrow's columnar in-memory format.

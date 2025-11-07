@@ -1,12 +1,12 @@
 ---
-title: Multisim Circuit Design and Simulation Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Multisim Circuit Design and Simulation Guide
+translated: false
 ---
 
 Great choice! Let’s dive into **Multisim** 👇  

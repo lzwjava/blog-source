@@ -1,10 +1,10 @@
 ---
-title: Religions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Religions
 translated: false
-generated: true
 ---
 
 The main religions in the world, based on global adherence, are:

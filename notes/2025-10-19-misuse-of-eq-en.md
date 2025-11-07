@@ -1,12 +1,12 @@
 ---
-title: The Misuse of Emotional Intelligence
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: The Misuse of Emotional Intelligence
+translated: false
 ---
 
 I don't know when the term "emotional intelligence" (EQ) came about, but I remember it was already a thing back in middle school. One day, either my mother or a teacher said to me: "You have a high IQ, but you need to pay attention to your EQ too. Look at that classmate of yours—such high EQ, gets along with everyone."

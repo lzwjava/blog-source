@@ -1,10 +1,10 @@
 ---
-title: YouTube Volume Control Shortcuts
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: YouTube Volume Control Shortcuts
 translated: false
-generated: true
 ---
 
 The primary keyboard shortcuts for adjusting the volume on YouTube are the **Up Arrow** and **Down Arrow** keys.

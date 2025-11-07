@@ -1,10 +1,10 @@
 ---
-title: Stanley Mazor
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Stanley Mazor
 translated: false
-generated: true
 ---
 
 Stanley Mazor is an American electrical engineer and a pivotal figure in the development of the first commercial single-chip microprocessor, the Intel 4004. His contributions were fundamental in shaping the architecture and instruction set of this revolutionary invention, which laid the groundwork for the digital age.

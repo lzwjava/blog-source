@@ -1,12 +1,12 @@
 ---
-title: How to Safely Remove an Ethernet Cable
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: How to Safely Remove an Ethernet Cable
+translated: false
 ---
 
 In the image, you are holding what appears to be an **RJ45 connector (also known as an Ethernet plug or crystal head)**. The small tabs on either side are designed to lock the connector in place when it is inserted into an Ethernet port or device.

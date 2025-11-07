@@ -1,10 +1,10 @@
 ---
-title: "Rust in Maven for Performance"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rust in Maven for Performance
 translated: false
-generated: true
 ---
 
 Yes, you absolutely can use Rust to write problem solutions and integrate them into a Maven workflow\! This is a fantastic way to leverage Rust's performance and memory safety within a Java-centric project, especially for computationally intensive algorithm problems.

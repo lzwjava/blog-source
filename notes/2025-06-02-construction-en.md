@@ -1,10 +1,10 @@
 ---
-title: The Reasons that Constructions Last Long
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The Reasons that Constructions Last Long
 translated: false
-generated: true
 ---
 
 Buildings like Baiyun Lou and Luxun Guzhu in Guangzhou can last for 100 years or more due to a combination of factors related to their design, construction materials, maintenance, and environmental conditions. Here are some key reasons:

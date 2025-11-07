@@ -1,12 +1,12 @@
 ---
-title: Compute Drives AI's Future
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Compute Drives AI's Future
+translated: false
 ---
 
 In Stanford CS25 (a course on Transformer architectures), Hyung Won Chung, a Research Scientist at OpenAI, gave a guest lecture titled "Shaping the Future of AI" (part of the V4 series). He discusses the importance of identifying the "dominant driving force" behind major changes in any field to predict its future trajectory effectively.

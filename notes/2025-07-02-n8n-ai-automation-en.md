@@ -1,10 +1,10 @@
 ---
-title: "n8n: AI-Powered Workflow Automation"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'n8n: AI-Powered Workflow Automation'
 translated: false
-generated: true
 ---
 
 n8n is an open-source, fair-code workflow automation platform designed to streamline processes by connecting apps, APIs, and services with minimal coding. Pronounced "n-eight-n" (short for "nodemation"), it combines the flexibility of code with the simplicity of a no-code, drag-and-drop visual interface, making it ideal for technical and non-technical users alike. With over 400 integrations and 900+ pre-built templates, n8n enables users to automate repetitive tasks, synchronize data, and create complex workflows tailored to specific needs.

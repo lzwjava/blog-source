@@ -1,10 +1,10 @@
 ---
-title: "Two Creams for Bee Sting Relief"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Two Creams for Bee Sting Relief
 translated: false
-generated: true
 ---
 
 When dealing with a bee sting, two different creams can be helpful, each with a distinct purpose:

@@ -1,10 +1,10 @@
 ---
-title: Modular Code Improves Readability
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Modular Code Improves Readability
 translated: false
-generated: true
 ---
 
 Yes, splitting 100 lines of code into several functions improves readability and understanding. Function names act like labels, describing what each chunk of code does, which makes the logic easier to follow. It also organizes the code into logical categories, reducing complexity and making maintenance or debugging simpler. For example, instead of a long script, functions like `calculateTotal`, `fetchData`, or `renderOutput` clearly indicate their purpose.

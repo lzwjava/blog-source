@@ -1,12 +1,12 @@
 ---
-title: ISS Star Visibility Misconception Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: ISS Star Visibility Misconception Explained
+translated: false
 ---
 
 ### Translation and Summary of the Chinese Text

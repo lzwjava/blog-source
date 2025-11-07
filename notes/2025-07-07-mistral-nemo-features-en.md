@@ -1,10 +1,10 @@
 ---
-title: "Mistral NeMo: Powerful 12B-Parameter LLM"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Mistral NeMo: Powerful 12B-Parameter LLM'
 translated: false
-generated: true
 ---
 
 **Mistral NeMo** is a powerful 12-billion-parameter large language model (LLM) developed by **Mistral AI in collaboration with NVIDIA**. It's designed to deliver state-of-the-art natural language processing capabilities, particularly excelling in reasoning, world knowledge, and coding accuracy within its size category.

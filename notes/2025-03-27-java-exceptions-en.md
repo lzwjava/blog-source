@@ -1,10 +1,10 @@
 ---
-title: Java Exceptions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Java Exceptions
 translated: false
-generated: true
 ---
 
 Here's an extensive list of Java exceptions, categorized into **Checked Exceptions, Unchecked Exceptions (Runtime), and Errors**.

@@ -1,12 +1,12 @@
 ---
-title: "PGVector: Vector Embeddings in PostgreSQL"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: 'PGVector: Vector Embeddings in PostgreSQL'
+translated: false
 ---
 
 PGVector is a **PostgreSQL extension** that adds support for storing and querying *vector embeddings* (arrays of numbers, often 128–4096 dimensions) inside a Postgres database.

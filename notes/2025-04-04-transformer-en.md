@@ -1,10 +1,10 @@
 ---
-title: Transformer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Transformer
 translated: false
-generated: true
 ---
 
 The **Transformer** is a revolutionary neural network architecture that has become the foundation of most modern Large Language Models (LLMs). It was introduced in the seminal 2017 paper "Attention Is All You Need" by Vaswani et al. and has since fundamentally changed the field of Natural Language Processing (NLP).

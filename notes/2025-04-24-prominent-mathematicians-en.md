@@ -1,10 +1,10 @@
 ---
-title: Prominent Mathematicians
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Prominent Mathematicians
 translated: false
-generated: true
 ---
 
 The contributions of mathematicians have shaped the foundations of science, technology, and philosophy, making it challenging to rank the "top" definitively. However, based on their impact, innovation, and lasting influence across various mathematical fields, here is a list of 30 of the most prominent mathematicians in history, presented in approximate chronological order to reflect the evolution of mathematical thought. This selection draws from their groundbreaking discoveries, the breadth of their work, and their influence on subsequent generations, while acknowledging that such lists are inherently subjective due to the diverse nature of mathematical contributions.

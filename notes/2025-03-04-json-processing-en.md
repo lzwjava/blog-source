@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: JSON Processing in Java
 translated: false
-generated: true
 ---
 
 To use the `com.fasterxml.jackson` package in a Java project for JSON processing, you can leverage the Jackson library, which is widely used for converting Java objects to JSON and vice versa. Below is a step-by-step guide to get you started, assuming you’re working with a Maven-based project. This guide focuses on the `jackson-databind` module, which provides high-level functionality for JSON databinding.

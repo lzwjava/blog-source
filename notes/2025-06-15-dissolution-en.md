@@ -1,10 +1,10 @@
 ---
-title: Egg Tart Sugar Dissolution
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Egg Tart Sugar Dissolution
 translated: false
-generated: true
 ---
 
 When making an egg tart or any custard-based mixture, the process of dissolving sugar can sometimes take longer than expected due to several factors. Here are a few reasons why the sugar might not be dissolving completely after 20 minutes:

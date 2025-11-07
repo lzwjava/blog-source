@@ -1,10 +1,10 @@
 ---
-title: AspectJ with Java and Spring Boot
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AspectJ with Java and Spring Boot
 translated: false
-generated: true
 ---
 
 ## Table of Contents

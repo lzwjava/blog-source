@@ -1,10 +1,10 @@
 ---
-title: Selenium Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Selenium Guide
 translated: false
-generated: true
 ---
 
 I'll provide a comprehensive guide to Selenium, a popular tool for automating web browsers. This guide will cover Selenium's components, setup, basic usage, advanced features, and best practices, including code examples in Python. I'll wrap the code and key sections in the required artifact tags.

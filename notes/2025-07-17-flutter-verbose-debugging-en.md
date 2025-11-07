@@ -1,12 +1,12 @@
 ---
-title: Flutter Verbose Mode Debugging Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Flutter Verbose Mode Debugging Guide
+translated: false
 ---
 
 Ahh got it 👍 — Yes, Flutter has a **verbose mode** which prints *everything* it’s doing under the hood so you can see where it hangs.

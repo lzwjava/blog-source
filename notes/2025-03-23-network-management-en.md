@@ -1,10 +1,10 @@
 ---
-title: Network Performance and Management Tutorial  
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Network Performance and Management Tutorial
 translated: false
-generated: true
 ---
 
 **Tailored for Chinese Self-Study Exam (自考) in Computer Networks Technology**

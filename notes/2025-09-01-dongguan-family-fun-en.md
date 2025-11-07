@@ -1,11 +1,11 @@
 ---
-title: Dongguan Family Fun Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Dongguan Family Fun Guide
+translated: false
 ---
 
 [![Top 10 Attrctions of Dongguan Guangdong - Attractions of China](https://tse4.mm.bing.net/th/id/OIP.CiRBIjIlGrL5lbI3fLHz-gHaFh?r=0\&pid=Api)](https://www.attractionsofchina.com/top-10-attrctions-of-dongguan-guangdong.html)

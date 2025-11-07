@@ -1,12 +1,12 @@
 ---
-title: NanoChat Compact Full Stack LLM
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: NanoChat Compact Full Stack LLM
+translated: false
 ---
 
 ### What is NanoChat?

@@ -1,10 +1,10 @@
 ---
-title: Traceroute Output
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Traceroute Output
 translated: false
-generated: true
 ---
 
 Let’s break down the traceroute output you provided step-by-step to explain what’s happening as packets travel from your device to the destination IP `5.223.56.128`. This will give you insight into the network path, latency, and potential issues.

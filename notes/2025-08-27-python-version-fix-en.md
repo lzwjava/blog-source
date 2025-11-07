@@ -1,11 +1,11 @@
 ---
-title: Fix Python Version Mismatch Issue
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fix Python Version Mismatch Issue
+translated: false
 ---
 
 Got it — you’re running into a **Python version mismatch** issue.

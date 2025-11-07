@@ -1,10 +1,10 @@
 ---
-title: "MicroPython: Python for Microcontrollers"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'MicroPython: Python for Microcontrollers'
 translated: false
-generated: true
 ---
 
 MicroPython is a lean and efficient implementation of the Python 3 programming language optimized for microcontrollers, embedded systems, and resource-constrained environments. It brings the simplicity and versatility of Python to hardware programming, enabling developers to write code for small devices with limited memory and processing power. Below is a comprehensive introduction to MicroPython, covering its origins, features, applications, and more.

@@ -1,10 +1,10 @@
 ---
-title: Dynamic Region-Specific Beans
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Dynamic Region-Specific Beans
 translated: false
-generated: true
 ---
 
 ### Understanding the Requirement

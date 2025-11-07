@@ -1,12 +1,12 @@
 ---
-title: IBM WebSphere Service Integration Bus
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: IBM WebSphere Service Integration Bus
+translated: false
 ---
 
 ### Service Integration Bus in IBM WebSphere Application Server

@@ -1,12 +1,12 @@
 ---
-title: DeepSeek Founder Wenfeng Liang
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: DeepSeek Founder Wenfeng Liang
+translated: false
 ---
 
 ### Wenfeng Liang: The Founder of DeepSeek

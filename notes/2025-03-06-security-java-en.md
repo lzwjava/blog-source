@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Security Features in Java
 translated: false
-generated: true
 ---
 
 The `java.security` package in Java provides classes and interfaces for implementing security features in your applications. It is part of the Java Standard Library and includes tools for cryptographic operations, key management, secure random number generation, digital signatures, and access control. Since the package is broad, this answer will give you an overview of its purpose and demonstrate how to use it with a practical example.

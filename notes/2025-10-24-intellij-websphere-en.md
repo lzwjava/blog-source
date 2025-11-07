@@ -1,12 +1,12 @@
 ---
-title: IntelliJ IDEA for WebSphere Development
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: IntelliJ IDEA for WebSphere Development
+translated: false
 ---
 
 ### Using IntelliJ IDEA for IBM WebSphere Application Server (WAS) Development

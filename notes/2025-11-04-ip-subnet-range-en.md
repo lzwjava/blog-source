@@ -1,12 +1,12 @@
 ---
-title: IP Address Subnet Range Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: IP Address Subnet Range Explained
+translated: false
 ---
 
 Yes, that's correct. The IP address `192.168.1.35/24` belongs to the subnet `192.168.1.0/24`, which spans the full range of 256 addresses: from `192.168.1.0` (network address) to `192.168.1.255` (broadcast address).

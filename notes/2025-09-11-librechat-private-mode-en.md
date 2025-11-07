@@ -1,13 +1,13 @@
 ---
-title: LibreChat Private Chat Mode Explanation
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: LibreChat Private Chat Mode Explanation
+translated: false
 ---
 
 Ah, that makes sense! If you’re using **Private Chat** mode in LibreChat, then the “empty sidebar” behavior is expected, not an error.  

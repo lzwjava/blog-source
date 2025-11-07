@@ -1,12 +1,12 @@
 ---
-title: "HIV Causes AIDS: Established Scientific Fact"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'HIV Causes AIDS: Established Scientific Fact'
+translated: false
 ---
 
 ### The HIV-AIDS Causal Link: Well-Established Science

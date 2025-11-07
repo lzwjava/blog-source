@@ -1,10 +1,10 @@
 ---
-title: "Bob Pease: Analog Engineering Legend"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Bob Pease: Analog Engineering Legend'
 translated: false
-generated: true
 ---
 
 ### **Comprehensive Introduction to Bob Pease**

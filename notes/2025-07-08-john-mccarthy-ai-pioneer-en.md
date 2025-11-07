@@ -1,10 +1,10 @@
 ---
-title: "John McCarthy: AI's Founding Father"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'John McCarthy: AI''s Founding Father'
 translated: false
-generated: true
 ---
 
 John McCarthy was a highly influential American computer scientist and cognitive scientist, widely regarded as one of the founding fathers of artificial intelligence (AI). Born in Boston in 1927, he showed an early aptitude for mathematics, teaching himself college-level math as a teenager. He earned his bachelor's degree from the California Institute of Technology in 1948 and a Ph.D. in mathematics from Princeton University in 1951.

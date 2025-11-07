@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Font Awesome Package in NPM
 translated: false
-generated: true
 ---
 
 ### Key Points

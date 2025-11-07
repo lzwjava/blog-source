@@ -1,10 +1,10 @@
 ---
-title: "Upgrade Guice to Fix Unsafe Warning"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Upgrade Guice to Fix Unsafe Warning
 translated: false
-generated: true
 ---
 
 The warning you're seeing:

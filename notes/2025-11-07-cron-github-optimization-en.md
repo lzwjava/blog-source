@@ -1,12 +1,12 @@
 ---
-title: Optimizing Cron and GitHub Workflow Efficiency
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Optimizing Cron and GitHub Workflow Efficiency
+translated: false
 ---
 
 That's a solid optimization! Switching your cron schedule to `'0 */2 * * *'` (every 2 hours) strikes a nice balance between keeping things fresh—especially for accumulating those AI-generated notes without letting them balloon to 3000+ per year—and staying well under GitHub's 2000-minute monthly limit for free accounts. Commenting out paths like `original/**` and `_posts/**` (while keeping the core ones like `_layouts/**`, `_includes/**`, etc.) ensures the workflow only triggers on meaningful changes, reducing unnecessary runs.

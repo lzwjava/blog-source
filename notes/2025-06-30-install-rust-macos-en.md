@@ -1,10 +1,10 @@
 ---
-title: "Install Rust on macOS with rustup"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Install Rust on macOS with rustup
 translated: false
-generated: true
 ---
 
 ## Installing Rust using rustup

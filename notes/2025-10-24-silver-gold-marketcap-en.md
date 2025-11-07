@@ -1,12 +1,12 @@
 ---
-title: Silver's Market Cap Versus Gold
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Silver's Market Cap Versus Gold
+translated: false
 ---
 
 The market capitalization (or total investable value) of silver is currently around $2.7 trillion, while gold's stands at about $28.9 trillion. These figures represent the estimated value of all above-ground stocks of each metal (i.e., everything mined historically that's still accessible in some form, multiplied by current spot prices). Here's a breakdown of why there's such a massive gap, despite silver being far more abundant in raw tonnage.

@@ -1,10 +1,10 @@
 ---
-title: Quantum Computing
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Quantum Computing
 translated: false
-generated: true
 ---
 
 Quantum computing is not fake; it is a real and actively researched field of computer science and physics. However, it is still in its early stages, and there are misconceptions and exaggerated claims that can make it seem mysterious or overhyped. Here's a clear breakdown:

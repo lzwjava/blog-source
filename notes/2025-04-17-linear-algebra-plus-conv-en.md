@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Linear Algebra Plus - Conversation"
 audio: true
+layout: post
+title: Linear Algebra Plus - Conversation
 ---
 
 A: Hey, I’ve been revisiting quadratic forms lately, especially the process of transforming them into canonical form. Can you break down how you approach it with that example, Q(x, y) = 2x² + 4xy + 3y²?
@@ -183,4 +183,3 @@ B: Totally! Rotation matrices are orthogonal, preserve length. Projections use s
 A: Maybe vector spaces deeper—bases, spans. This was awesome—3×3’s no joke! Again soon?
 
 B: Anytime! Let’s hit spans and bases—maybe tie it to rank and nullity. You’re crushing this!
-

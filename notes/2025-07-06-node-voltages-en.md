@@ -1,10 +1,10 @@
 ---
-title: "Nodal Analysis Solves Node Voltages"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Nodal Analysis Solves Node Voltages
 translated: false
-generated: true
 ---
 
 The primary unknown variable solved for in nodal analysis is **Node voltages**.

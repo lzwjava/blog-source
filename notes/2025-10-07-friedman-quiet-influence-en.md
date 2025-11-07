@@ -1,12 +1,12 @@
 ---
-title: Daniel Friedman's Quiet Profound Influence
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Daniel Friedman's Quiet Profound Influence
+translated: false
 ---
 
 Daniel P. Friedman, the esteemed professor emeritus of computer science at Indiana University, has indeed built a legendary reputation in programming languages and functional programming—think pioneering lazy evaluation (which influenced Haskell), hygienic macros in Scheme, and the iconic "Little" book series that has shaped generations of programmers. Yet, as you noted, his online presence is strikingly minimal: a sparse LinkedIn for sharing updates like his recent *The Little Learner* (a Socratic dive into machine learning essentials), a Google Scholar profile tracking citations, and his books as the core of his output. That Jianshu article captures it well—Friedman comes across as almost invisibly humble, prioritizing depth over dazzle.

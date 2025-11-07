@@ -1,12 +1,12 @@
 ---
-title: Top Chinese LLMs in September 2025
-date: 2025-09-06
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-06
 generated: true
 image: false
+lang: en
+layout: post
+title: Top Chinese LLMs in September 2025
+translated: false
 ---
 
 Here’s an updated view of the **top LLMs in China as of September 2025**, based on the latest reports and benchmarks. No table comparisons—just a clean, narrative run-through to keep it easy to read:

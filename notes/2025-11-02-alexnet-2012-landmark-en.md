@@ -1,12 +1,12 @@
 ---
-title: "AlexNet: A 2012 Landmark Paper"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'AlexNet: A 2012 Landmark Paper'
+translated: false
 ---
 
 ### Introduction to AlexNet: The 2012 Landmark Paper

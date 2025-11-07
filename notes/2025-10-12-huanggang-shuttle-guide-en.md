@@ -1,12 +1,12 @@
 ---
-title: Huanggang Shuttle Bus Guide and Fares
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Huanggang Shuttle Bus Guide and Fares
+translated: false
 ---
 
 Yes, the Huanggang Shuttle Bus (皇巴, or Lok Ma Chau-Huanggang Shuttle Bus) is a relatively cheap transport option after clearing customs at the Huanggang Port in Hong Kong, especially for newly arrived travelers heading quickly to the city center or San Tin Public Transport Interchange. Here's a detailed breakdown:

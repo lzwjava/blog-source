@@ -1,13 +1,13 @@
 ---
-title: Cross Product Geometric Intuition Explained
-date: 2025-09-12
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-12
 generated: true
 image: false
+lang: en
+layout: post
 model: google/gemini-2.5-flash
+title: Cross Product Geometric Intuition Explained
+translated: false
 ---
 
 This 3Blue1Brown video, "Essence of linear algebra: The Cross Product," provides a deep dive into the geometric intuition behind the 2D and 3D cross products, linking them powerfully to the concept of the determinant.

@@ -1,10 +1,10 @@
 ---
-title: Summertime Sadness
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Summertime Sadness
 translated: false
-generated: true
 ---
 
 ## Lyrics

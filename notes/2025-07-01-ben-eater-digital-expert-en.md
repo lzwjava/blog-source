@@ -1,10 +1,10 @@
 ---
-title: Ben Eater's Digital Electronics Mastery
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Ben Eater's Digital Electronics Mastery
 translated: false
-generated: true
 ---
 
 Ben Eater is **exceptionally knowledgeable** in many of the foundational topics covered in *Fundamentals of Electronic Technology (III)*, especially in **digital electronics and microcomputer systems**. Here's a breakdown of how his expertise maps to the textbook content:

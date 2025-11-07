@@ -1,10 +1,10 @@
 ---
-title: Webpack ResolverFactory Issue
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Webpack ResolverFactory Issue
 translated: false
-generated: true
 ---
 
 It looks like you're running into an issue with Webpack when executing `npm run build`. The error message mentions "webpack ResolverFactory" and "can not find module './ResolverFactory'", which suggests there's a problem with how Webpack is trying to locate or use its internal `ResolverFactory` module. This is unusual because `ResolverFactory` is a core part of Webpack, not something you'd typically import as a relative module like `./ResolverFactory`. Let's break down what's likely going wrong and how to fix it.

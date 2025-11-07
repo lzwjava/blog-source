@@ -1,12 +1,12 @@
 ---
-title: Why Ceiling Lamps Distract You
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Why Ceiling Lamps Distract You
+translated: false
 ---
 
 Yes, it's completely normal and very much a part of human nature to get distracted by something like a ceiling lamp (or light bulb) right in your line of sight when you're lying in bed trying to focus on your laptop. Our brains are wired to prioritize visual input—especially bright, contrasting, or prominent things in our peripheral or central vision—because evolutionarily, that helped us spot threats, food, or changes in the environment. A static but glaring lamp can act like a low-level "alert" signal, pulling your attention away even if it's not moving. This happens more when you're in a relaxed position like lying down, where your gaze naturally drifts upward, and it can vary day to day based on fatigue, stress, or how immersed you are in the task (explaining why you sometimes forget about it and sometimes can't).

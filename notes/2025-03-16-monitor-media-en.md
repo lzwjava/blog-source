@@ -1,10 +1,10 @@
 ---
-title: Monitor Media Playback on Ubuntu via VLC
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Monitor Media Playback on Ubuntu via VLC
 translated: false
-generated: true
 ---
 
 To watch movies on your monitor using your second laptop (running Ubuntu with an Nginx server) without much hassle, here’s the best approach based on what you already have. You want to avoid buying extra devices like a Fire TV Stick or Apple TV, and while a long HDMI cable works, you’d prefer not to keep interacting with the laptop to select and play videos. Let’s set up a solution that’s simple and convenient using your existing setup.

@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Using iVersion in iOS
 translated: false
-generated: true
 ---
 
 To use the `iVersion` pod in your iOS project, you need to follow these steps:

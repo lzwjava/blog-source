@@ -1,11 +1,11 @@
 ---
-title: Network Services in macOS and Linux
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Network Services in macOS and Linux
+translated: false
 ---
 
 ### Network Services and Related Terms in macOS and Linux

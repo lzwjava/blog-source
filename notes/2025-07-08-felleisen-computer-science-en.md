@@ -1,10 +1,10 @@
 ---
-title: "Felleisen's Impact on Programming Languages"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Felleisen's Impact on Programming Languages
 translated: false
-generated: true
 ---
 
 Matthias Felleisen is a German-American computer science professor and author, recognized for his significant contributions to the field of programming languages and computer science education.

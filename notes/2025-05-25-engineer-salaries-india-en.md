@@ -1,10 +1,10 @@
 ---
-title: Software Engineer Salaries in India
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Software Engineer Salaries in India
 translated: false
-generated: true
 ---
 
 Software engineer salaries in India’s major tech hubs like Hyderabad and Pune vary significantly based on experience, company type, and specific roles. Below is a breakdown for beginner (0–2 years), mid-level (5 years), and senior (10 years) software engineers, focusing on these cities, based on recent data. Salaries are in Indian Rupees (INR) per annum, and ranges account for variations across companies (e.g., MNCs, startups, product-based vs. service-based firms) and specializations (e.g., AI, full stack, cloud computing). Note that these are approximate averages and can vary based on skills, company reputation, and negotiation.

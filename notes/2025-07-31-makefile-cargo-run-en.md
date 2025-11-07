@@ -1,11 +1,11 @@
 ---
-title: Cargo Run Redundancy
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Cargo Run Redundancy
+translated: false
 ---
 
 You’re absolutely correct! In your `Makefile` example:

@@ -1,12 +1,12 @@
 ---
-title: Set Teams Status via PowerShell
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Set Teams Status via PowerShell
+translated: false
 ---
 
 No, Microsoft Teams does not have an official standalone command-line utility (like a simple `teams --status offline` executable) for setting your presence status. The built-in slash commands (e.g., `/away` or `/offline`) only work within the Teams app interface, not from a terminal.

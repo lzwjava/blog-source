@@ -1,10 +1,10 @@
 ---
-title: "TDengine vs. GreptimeDB: Time Series Rivals"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'TDengine vs. GreptimeDB: Time Series Rivals'
 translated: false
-generated: true
 ---
 
 Yes, TDengine and GreptimeDB are definitely competitors in the time series database space. Both are positioned as high-performance, open-source time series databases with similar target use cases.

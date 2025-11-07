@@ -1,10 +1,10 @@
 ---
-title: Spring Boot vs Play Framework
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Spring Boot vs Play Framework
 translated: false
-generated: true
 ---
 
 Spring Boot and Play Framework are both popular tools for building web applications, but they cater to slightly different needs and preferences. Whether Spring Boot is "better" than Play Framework depends on your project requirements, team expertise, and goals. Let’s break it down based on their strengths and tradeoffs:

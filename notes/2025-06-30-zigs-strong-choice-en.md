@@ -1,10 +1,10 @@
 ---
-title: "Zig's Rise in Systems Programming"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Zig's Rise in Systems Programming
 translated: false
-generated: true
 ---
 
 Zig is gaining traction for its focus on performance, memory safety, and C interoperability, making it a strong choice for low-level systems programming. While it's still a relatively young language compared to giants like C++ or Rust, several notable open-source projects are leveraging Zig:

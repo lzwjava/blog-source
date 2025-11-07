@@ -1,10 +1,10 @@
 ---
-title: Distributed Training with Ray on Mixed Hardware
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Distributed Training with Ray on Mixed Hardware
 translated: false
-generated: true
 ---
 
 Yes, you can use Python for distributed training of machine learning models across your MacBook Air M2 (which uses Apple Silicon with the MPS backend for GPU acceleration) and your Intel i9 desktop with an NVIDIA 4070Ti (which supports CUDA). However, this setup is heterogeneous (different architectures, OSes, and accelerators), so it's not as straightforward as a homogeneous cluster (e.g., all NVIDIA GPUs). Native distributed training in frameworks like PyTorch won't work seamlessly out of the box due to incompatible backends—PyTorch on your Mac uses MPS (Metal Performance Shaders), while on the desktop it uses CUDA, and communication libraries like NCCL (required for efficient GPU-to-GPU sync) are NVIDIA-only and unavailable on Apple Silicon.

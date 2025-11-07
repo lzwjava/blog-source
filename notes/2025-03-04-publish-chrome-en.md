@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Publishing a Chrome Extension
 translated: false
-generated: true
 ---
 
 Publishing a Chrome plugin (extension) to the Chrome Web Store is a straightforward process if you follow the necessary steps carefully. Below is a complete, step-by-step guide to help you get your extension live on the Chrome Web Store.

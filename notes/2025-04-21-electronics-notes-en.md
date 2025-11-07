@@ -1,10 +1,10 @@
 ---
-title: Electronics Notes
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Electronics Notes
 translated: false
-generated: true
 ---
 
 A rectifier is an electrical device that converts alternating current (AC), which periodically reverses direction, to direct current (DC), which flows in only one direction. This process is known as rectification. Rectifiers are crucial components in many electronic devices and systems, including power supplies, battery chargers, and radio detectors.
@@ -248,4 +248,3 @@ Thus, F = A'·B + A·B'.
 - They can be simplified using techniques like Karnaugh maps or Boolean algebra to reduce the number of gates needed.
 
 In summary, a sum-of-products expression represents a Boolean function as an OR of minterms, making it a key concept for designing and analyzing logic circuits.
-

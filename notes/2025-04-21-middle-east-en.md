@@ -1,10 +1,10 @@
 ---
-title: Major Cities in Middle East
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Major Cities in Middle East
 translated: false
-generated: true
 ---
 
 "Middle East Asia" is not a standard or clearly defined geographical term. The region is typically referred to as the **Middle East** or **Western Asia**. This area encompasses a diverse set of countries with significant historical, cultural, and economic importance.

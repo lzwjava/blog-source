@@ -1,12 +1,12 @@
 ---
-title: "MPay: Macau's Digital Payment Wallet"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'MPay: Macau''s Digital Payment Wallet'
+translated: false
 ---
 
 **MPay** is a mobile payment app and electronic wallet developed by Macau Pass SA, serving as Macau's first multi-functional third-party e-wallet. It supports linking multiple bank accounts and credit cards (including UnionPay cards from Macau and Hong Kong) for seamless online and offline transactions.

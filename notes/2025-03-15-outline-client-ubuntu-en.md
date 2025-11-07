@@ -1,10 +1,10 @@
 ---
-title: Install Outline Client on Ubuntu 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Install Outline Client on Ubuntu
 translated: false
-generated: true
 ---
 
 Yes, you can install the Outline Client on Ubuntu, as it is a Debian-based Linux distribution, and the Outline Client is provided as a Debian package, which is compatible with Ubuntu. There are two methods to install it: the recommended method using the repository and an alternative method by downloading the Debian package directly. Below, I’ll explain how to do it using the recommended repository method, which is preferable because it integrates with Ubuntu’s package manager, making updates easier to manage.

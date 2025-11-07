@@ -1,12 +1,12 @@
 ---
-title: Hong Kong Octopus Card Uses
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hong Kong Octopus Card Uses
+translated: false
 ---
 
 ### Uses of the Octopus Card in Hong Kong

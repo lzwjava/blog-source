@@ -1,10 +1,10 @@
 ---
-title: "Huawei's Pangu Team's Dark Secrets"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Huawei's Pangu Team's Dark Secrets
 translated: false
-generated: true
 ---
 
 https://github.com/HW-whistleblower/True-Story-of-Pangu

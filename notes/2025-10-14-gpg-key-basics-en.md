@@ -1,12 +1,12 @@
 ---
-title: GPG Key Management Basics
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: GPG Key Management Basics
+translated: false
 ---
 
 ## Introduction to GPG Key Management

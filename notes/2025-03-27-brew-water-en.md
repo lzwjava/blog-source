@@ -1,10 +1,10 @@
 ---
-title: Hot Brews
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Hot Brews
 translated: false
-generated: true
 ---
 
 If you're looking for things you can **brew with hot water**, like coffee powder, here are some great options:  

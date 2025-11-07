@@ -1,12 +1,12 @@
 ---
-title: "Bali: Island of the Gods"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: 'Bali: Island of the Gods'
+translated: false
 ---
 
 ### Introduction to Bali Island, Indonesia

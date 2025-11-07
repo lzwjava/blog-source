@@ -1,11 +1,11 @@
 ---
-title: Log Git Verbosely
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Log Git Verbosely
+translated: false
 ---
 
 To enable verbose logging in Git, you can use specific flags or environment variables depending on the command and the level of detail you need. Here are the main approaches:

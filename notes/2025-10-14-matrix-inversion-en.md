@@ -1,12 +1,12 @@
 ---
-title: Inverting a 3x3 Matrix
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Inverting a 3x3 Matrix
+translated: false
 ---
 
 Yes, you're on the right track! You're describing the standard method for finding the inverse of a 3×3 matrix \\( A \\) (often denoted \\( A^{-1} \\)) using the **cofactor matrix** (or more precisely, the **adjugate matrix**, which is the transpose of the cofactor matrix). The "divider 1/value * matrix" part refers to scaling by \\( 1/\det(A) \\), where \\( \det(A) \\) is the determinant of \\( A \\). And "rorate" might mean "transpose" (rotating rows to columns)—that's a key step too.

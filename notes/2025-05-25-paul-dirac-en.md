@@ -1,10 +1,10 @@
 ---
-title: Paul Dirac
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Paul Dirac
 translated: false
-generated: true
 ---
 
 Paul Adrien Maurice Dirac (1902–1984) was a British theoretical physicist whose profound contributions to quantum mechanics and quantum field theory earned him a place among the most influential scientists of the 20th century. Known for his mathematical rigor, intellectual intensity, and reserved personality, Dirac's work reshaped modern physics, blending abstract mathematics with physical insight to predict phenomena that were later experimentally confirmed. His most notable achievements include the development of the Dirac equation, which describes the behavior of fermions like electrons and predicted the existence of antimatter, and his foundational contributions to quantum electrodynamics. Dirac shared the 1933 Nobel Prize in Physics with Erwin Schrödinger "for the discovery of new productive forms of atomic theory."

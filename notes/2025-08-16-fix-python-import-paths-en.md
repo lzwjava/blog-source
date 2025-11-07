@@ -1,11 +1,11 @@
 ---
-title: Fix Python Module Import Paths
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fix Python Module Import Paths
+translated: false
 ---
 
 The short answer: you need `sys` here so you can modify the Python module search path (`sys.path`) before doing the `from scripts.create.delete import delete_md`.

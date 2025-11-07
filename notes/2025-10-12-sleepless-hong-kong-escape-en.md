@@ -1,12 +1,12 @@
 ---
-title: Sleepless Hong Kong Weekend Escape
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Sleepless Hong Kong Weekend Escape
+translated: false
 ---
 
 ### Refined Story: A Sleepless Weekend Escape to Hong Kong

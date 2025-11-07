@@ -1,12 +1,12 @@
 ---
-title: Enable PowerToys Startup in Windows
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Enable PowerToys Startup in Windows
+translated: false
 ---
 
 To enable PowerToys to automatically run at startup in Windows 11, follow these steps within the PowerToys app itself (this is the simplest and most direct method):

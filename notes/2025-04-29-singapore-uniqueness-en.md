@@ -1,10 +1,10 @@
 ---
-title:  Singapore's Uniqueness
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Singapore's Uniqueness
 translated: false
-generated: true
 ---
 
 Singapore stands out globally for several distinctive characteristics:

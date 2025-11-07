@@ -1,12 +1,12 @@
 ---
-title: Yunnan Crossing-the-Bridge Noodles
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Yunnan Crossing-the-Bridge Noodles
+translated: false
 ---
 
 ### What is Guoqiao Mixian?

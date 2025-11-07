@@ -1,10 +1,10 @@
 ---
-title: The Inner Game of Tennis
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The Inner Game of Tennis
 translated: false
-generated: true
 ---
 
 **The Inner Game of Tennis** by W. Timothy Gallwey, first published in 1974, is a seminal work in sports psychology that transcends tennis to offer profound insights into personal development, performance, and self-mastery. Often regarded as a classic,播

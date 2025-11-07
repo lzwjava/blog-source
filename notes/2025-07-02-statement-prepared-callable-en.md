@@ -1,10 +1,10 @@
 ---
-title: "Java SQL Statement Types Compared"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Java SQL Statement Types Compared
 translated: false
-generated: true
 ---
 
 In Java's `java.sql` package, `Statement`, `PreparedStatement`, and `CallableStatement` are interfaces used to execute SQL queries, but they serve different purposes and have distinct characteristics. Here's a concise comparison:

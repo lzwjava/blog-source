@@ -1,12 +1,12 @@
 ---
-title: Sound Reactive LED Circuit Build
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Sound Reactive LED Circuit Build
+translated: false
 ---
 
 ### Simple Music Reactive LED Circuit on Breadboard

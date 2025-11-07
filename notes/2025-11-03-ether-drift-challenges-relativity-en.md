@@ -1,12 +1,12 @@
 ---
-title: Modern Ether-Drift Experiment Challenges Relativity
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Modern Ether-Drift Experiment Challenges Relativity
+translated: false
 ---
 
 ### Summary of the Recommendation and Claims

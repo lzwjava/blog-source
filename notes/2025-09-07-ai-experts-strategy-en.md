@@ -1,12 +1,12 @@
 ---
-title: "AI Experts' Strategy: Low Hanging Fruit"
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: 'AI Experts'' Strategy: Low Hanging Fruit'
+translated: false
 ---
 
 "Low hanging fruit" is a metaphor (not "low hanging food") that refers to **easily achievable opportunities, goals, or solutions that require minimal effort compared to the potential reward.** Think of fruit on a tree: the low-hanging fruit is easiest to pick without ladders or special tools.

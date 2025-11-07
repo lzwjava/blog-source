@@ -1,10 +1,10 @@
 ---
-title: "Oracle's Top Competitors by Sector"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Oracle's Top Competitors by Sector
 translated: false
-generated: true
 ---
 
 Oracle's major competitors vary by product area, but here are the key ones:

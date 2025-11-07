@@ -1,8 +1,8 @@
 ---
-title: steve-jobs
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: steve-jobs
 translated: false
-generated: true
 ---

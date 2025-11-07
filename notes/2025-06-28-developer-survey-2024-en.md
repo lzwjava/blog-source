@@ -1,10 +1,10 @@
 ---
-title: "2024 Developer Survey Key Trends"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 2024 Developer Survey Key Trends
 translated: false
-generated: true
 ---
 
 The **Stack Overflow Annual Developer Survey 2024** provides insights into the latest trends in the developer community, including programming languages, tools, work environments, and developer preferences. Here’s a summary of the key findings:

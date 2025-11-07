@@ -1,10 +1,10 @@
 ---
-title: "Choosing the Right Automation Tool"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Choosing the Right Automation Tool
 translated: false
-generated: true
 ---
 
 When automating tasks, building software, or managing workflows, you often encounter three primary tools: Makefiles, Python scripts, and Bash scripts. Each has its strengths and weaknesses, making them suitable for different scenarios.

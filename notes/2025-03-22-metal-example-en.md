@@ -1,10 +1,10 @@
 ---
-title: Metal Vector Addition Example
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Metal Vector Addition Example
 translated: false
-generated: true
 ---
 
 If you're using macOS and want to program the GPU using Metal (Apple's low-level graphics and compute API), you can achieve similar functionality to the CUDA example I provided earlier. Metal is designed to give you direct access to the GPU on Apple devices, including Macs, and it supports both graphics and compute operations. Below is a basic Metal example that performs vector addition (similar to the CUDA example) using low-level Metal constructs in C++.

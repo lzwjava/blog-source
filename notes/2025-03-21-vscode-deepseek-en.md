@@ -1,10 +1,10 @@
 ---
-title: Comprehensive Analysis of VSCode Plugins Supporting DeepSeek API Keys
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Comprehensive Analysis of VSCode Plugins Supporting DeepSeek API Keys
 translated: false
-generated: true
 ---
 
 ### Key Points

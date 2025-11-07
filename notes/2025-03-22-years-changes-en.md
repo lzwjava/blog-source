@@ -1,10 +1,10 @@
 ---
-title: Changes Between 2010 and 2025
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Changes Between 2010 and 2025
 translated: false
-generated: true
 ---
 
 Between 2010 and 2025, several transformative changes have reshaped both the world and technology. Here are some of the key areas where major shifts have occurred:

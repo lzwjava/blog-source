@@ -1,10 +1,10 @@
 ---
-title: Fix llama.cpp Model Loading Error
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fix llama.cpp Model Loading Error
 translated: false
-generated: true
 ---
 
 Based on the error `gguf_init_from_file_impl: failed to read key-value pairs`, your model file is either **corrupted**, **incomplete**, or **incompatible** with your llama.cpp version. Here's how to fix it:

@@ -1,10 +1,10 @@
 ---
-title: Writing Windows Batch Files
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Writing Windows Batch Files
 translated: false
-generated: true
 ---
 
 A Windows batch file (.bat or .cmd) is a script file containing a series of commands executed by the Windows Command Prompt (cmd.exe). Batch files automate repetitive tasks, manage system operations, or execute programs. Below is a comprehensive introduction to writing Windows batch files, covering their purpose, syntax, common commands, and best practices.

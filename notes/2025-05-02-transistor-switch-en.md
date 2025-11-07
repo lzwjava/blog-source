@@ -1,10 +1,10 @@
 ---
-title: Transistors as Switches
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Transistors as Switches
 translated: false
-generated: true
 ---
 
 Okay, here is the tutorial on how a transistor acts as a current-controlled switch, with the timestamps removed:

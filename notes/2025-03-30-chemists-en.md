@@ -1,10 +1,10 @@
 ---
-title: Impactful Chemists
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Impactful Chemists
 translated: false
-generated: true
 ---
 
 Here is a list of **impactful chemists** who have made significant contributions to the field of chemistry:

@@ -1,12 +1,12 @@
 ---
-title: GradScaler for Mixed-Precision Training
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: GradScaler for Mixed-Precision Training
+translated: false
 ---
 
 `torch.cuda.amp.GradScaler` is a PyTorch utility class designed to **automatically scale gradients** during mixed-precision training using **Automatic Mixed Precision (AMP)**. It helps prevent underflow in gradients when using `float16` (half-precision) tensors, which can otherwise become too small to be represented accurately.

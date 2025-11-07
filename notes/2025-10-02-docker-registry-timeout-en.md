@@ -1,12 +1,12 @@
 ---
-title: Docker Registry Connection Timeout Error
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Docker Registry Connection Timeout Error
+translated: false
 ---
 
 The output you provided appears to be from a Docker command, likely `docker-compose` or `docker pull`, showing the status of pulling or running container images. The key issue here is the error:

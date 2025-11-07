@@ -1,13 +1,13 @@
 ---
-title: Skipping Angular Build in Maven
-date: 2025-09-10
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-10
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Skipping Angular Build in Maven
+translated: false
 ---
 
 Short answer: yes—you can skip the Angular/npm build, but not with a built-in flag like `--skip-web`. Use one of these approaches.

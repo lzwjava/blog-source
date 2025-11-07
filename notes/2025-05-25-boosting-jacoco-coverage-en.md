@@ -1,12 +1,12 @@
 ---
-title: Boosting JaCoCo Coverage in Java Spring
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: deepseek/deepseek-v3.2-exp
+title: Boosting JaCoCo Coverage in Java Spring
+translated: false
 ---
 
 Here's a comprehensive strategy to increase JaCoCo coverage in your large Java Spring project with 30+ APIs:

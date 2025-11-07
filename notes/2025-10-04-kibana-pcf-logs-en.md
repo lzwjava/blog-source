@@ -1,12 +1,12 @@
 ---
-title: Kibana Setup for PCF Logs
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Kibana Setup for PCF Logs
+translated: false
 ---
 
 It looks like "kabana" is likely a reference to **Kibana**, the open-source data visualization dashboard for Elasticsearch. In the context of **Pivotal Cloud Foundry (PCF)** (now rebranded as VMware Tanzu Application Service), Kibana is commonly used for searching, visualizing, and analyzing logs through the platform's logging system (Loggregator). PCF doesn't natively run Kibana standalone but integrates it via the **Log Search** tile/service, which stores logs in Elasticsearch and exposes Kibana for querying.

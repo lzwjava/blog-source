@@ -1,10 +1,10 @@
 ---
-title: Flash Pico with UF2 File
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Flash Pico with UF2 File
 translated: false
-generated: true
 ---
 
 To flash the `RPI_PICO-20250415-v1.25.0.uf2` file to your Raspberry Pi Pico, which is mounted at `/media/lzw/RPI-RP2`, use the following command:

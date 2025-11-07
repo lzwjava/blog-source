@@ -1,10 +1,10 @@
 ---
-title: Boolean Algebra and Logic Gates
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Boolean Algebra and Logic Gates
 translated: false
-generated: true
 ---
 
 Boolean algebra forms the mathematical foundation of digital logic design, creating the bridge between abstract logical operations and physical electronic implementations. Let's explore this critical topic in depth:

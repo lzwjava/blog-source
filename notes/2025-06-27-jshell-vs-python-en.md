@@ -1,10 +1,10 @@
 ---
-title: "JShell vs. Python REPL: A Convenience Comparison"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'JShell vs. Python REPL: A Convenience Comparison'
 translated: false
-generated: true
 ---
 
 Whether JShell is less convenient than Python's REPL (e.g., Python's interactive shell) depends on the use case, user familiarity, and the specific features you value in an interactive programming environment. Both tools serve similar purposes—interactive coding and prototyping—but they cater to different languages and ecosystems, which leads to some differences. Let’s compare them briefly to address your question:

@@ -1,10 +1,10 @@
 ---
-title: Ledger Software Systems
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Ledger Software Systems
 translated: false
-generated: true
 ---
 
 Top banks employ a variety of sophisticated ledger software systems to manage their financial transactions and operations. Some of the prominent systems include:

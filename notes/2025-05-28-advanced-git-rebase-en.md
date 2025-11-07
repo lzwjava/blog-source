@@ -1,10 +1,10 @@
 ---
-title: "Advanced Git: Rebase, Merge, Conflict Resolution, Squash"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Advanced Git: Rebase, Merge, Conflict Resolution, Squash'
 translated: false
-generated: true
 ---
 
 This guide covers advanced usage of `git rebase` and `git merge`, resolving conflicts, using `ours` and `theirs` strategies, and squashing commits. I'll provide concise explanations and practical examples for each topic, focusing on advanced workflows that assume familiarity with basic Git commands.

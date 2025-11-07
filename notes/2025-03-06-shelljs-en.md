@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Using ShellJS to Execute Shell Commands
 translated: false
-generated: true
 ---
 
 ShellJS is a JavaScript library that provides Unix shell commands (like `cp`, `mkdir`, `exec`, etc.) for use in Node.js projects. It simplifies writing cross-platform scripts by allowing you to execute familiar shell commands directly in JavaScript. However, when it comes to frontend development—typically referring to code that runs in the browser—ShellJS is not directly applicable because it relies on Node.js APIs unavailable in the browser environment. Below, I’ll explain why this is the case and how you can still use ShellJS effectively in the context of frontend development workflows.

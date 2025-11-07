@@ -1,10 +1,10 @@
 ---
-title: The Decline of the British Empire
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The Decline of the British Empire
 translated: false
-generated: true
 ---
 
 The decline of the British Empire was caused by a combination of economic, political, military, and social factors. Here are some of the main reasons:  

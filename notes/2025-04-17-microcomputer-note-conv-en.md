@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Microcomputer Note - Conversation"
 audio: true
+layout: post
+title: Microcomputer Note - Conversation
 ---
 
 A: Hey, I’ve been hearing a lot about microcomputer and interface technology lately. Can you break it down for me?
@@ -127,4 +127,3 @@ B: That’s right. The trade-off between control and convenience is always there
 A: I can see that. It’s like having the best tool for the job depending on the situation. I really appreciate all this insight. You’ve made a complex topic a lot more understandable.
 
 B: I’m glad I could help! It’s always a pleasure to discuss these topics in depth. Let me know if you ever want to dive into anything else!
-

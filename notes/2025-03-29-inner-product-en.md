@@ -1,10 +1,10 @@
 ---
-title: Inner Product Spaces
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Inner Product Spaces
 translated: false
-generated: true
 ---
 
 Certainly! Let's dive into the key concepts and topics related to "Inner Product Spaces" in linear algebra. These concepts are fundamental to understanding vector spaces and their geometric properties.

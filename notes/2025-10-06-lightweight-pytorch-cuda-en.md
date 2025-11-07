@@ -1,12 +1,12 @@
 ---
-title: Lightweight PyTorch and CUDA Learning Resources
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Lightweight PyTorch and CUDA Learning Resources
+translated: false
 ---
 
 If tinygrad feels overwhelming with its code volume, there are several lighter, more focused alternatives for diving into PyTorch-style frameworks or CUDA-based projects. These emphasize educational simplicity, often with just a few hundred lines of code, to help you grok the internals like autograd, tensors, or GPU kernels without the full framework bloat. I'll break them down by focus area.

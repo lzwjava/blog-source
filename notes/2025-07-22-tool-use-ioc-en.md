@@ -1,10 +1,10 @@
 ---
-title: "AI Tool Use Explained"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AI Tool Use Explained
 translated: false
-generated: true
 ---
 
 Yes, you're spot on with your understanding of tool use and function calls in AI chatbot APIs like Mistral's (or similar ones from OpenAI, Anthropic, etc.). Let me break it down step by step to confirm and clarify, as it indeed involves inversion of control (IoC) in a way that shifts the decision-making from your code to the AI model.

@@ -1,11 +1,11 @@
 ---
-title: JaCoCo for Python API Tests Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: JaCoCo for Python API Tests Guide
+translated: false
 ---
 
 Good question — this is a classic integration problem between **Java code coverage tools** (JaCoCo) and **non-Java test harnesses** (like Python `unittest` hitting your REST endpoints).

@@ -1,11 +1,11 @@
 ---
-title: DeepSeek V3.1 Strengths and Tradeoffs
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: DeepSeek V3.1 Strengths and Tradeoffs
+translated: false
 ---
 
 You asked how good DeepSeek V3.1 is—here’s what’s publicly known so far (as of **August 21–23, 2025**):

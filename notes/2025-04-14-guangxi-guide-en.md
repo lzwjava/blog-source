@@ -1,10 +1,10 @@
 ---
-title: Guangxi Travel Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Guangxi Travel Guide
 translated: false
-generated: true
 ---
 
 Guangxi Province, located in southern China, offers a stunning mix of dramatic limestone karst landscapes, ethnic diversity, and ancient traditions. Here's a comprehensive guide to help you explore this beautiful region.

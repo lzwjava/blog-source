@@ -1,11 +1,11 @@
 ---
-title: Claude Sonnet Runtime Metrics Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Claude Sonnet Runtime Metrics Explained
+translated: false
 ---
 
 What you’re seeing are **runtime metrics** from the inference of `anthropic/claude-sonnet-4` through Google Vertex AI. Let me break it down:

@@ -1,11 +1,11 @@
 ---
-title: Early GitHub Users of 2008
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Early GitHub Users of 2008
+translated: false
 ---
 
 Identifying the earliest GitHub users is tricky since GitHub doesn’t publicly share exact registration dates for most accounts, and "fame" can be subjective—based on contributions, followers, or impact. However, based on available information, here’s a look at some notable early GitHub users from around 2008, when GitHub launched, with a focus on users like TJ Holowaychuk, who were active and influential in those early days.

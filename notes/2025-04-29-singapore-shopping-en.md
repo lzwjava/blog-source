@@ -1,10 +1,10 @@
 ---
-title: Singapore Shopping and Dining Recommendations
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Singapore Shopping and Dining Recommendations
 translated: false
-generated: true
 ---
 
 ## Popular Shopping Malls

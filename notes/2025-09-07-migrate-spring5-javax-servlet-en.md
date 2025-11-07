@@ -1,12 +1,12 @@
 ---
-title: Migrating Spring 5 WAR to javax.servlet
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Migrating Spring 5 WAR to javax.servlet
+translated: false
 ---
 
 You’re almost there. Because this project is Spring 5 (javax.\* era) and a WAR, the cleanest way is: **use `javax.servlet-api` 4.x**, add a minimal `web.xml`, a Java config, and a tiny controller.

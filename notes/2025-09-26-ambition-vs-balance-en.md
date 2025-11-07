@@ -1,12 +1,12 @@
 ---
-title: Grinding vs Equanimity
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Grinding vs Equanimity
+translated: false
 ---
 
 This is a fascinating and common dilemma, pitting the ambitious, high-pressure path against the more balanced, "normal" life. It asks about the long-term impact of relentless "grinding" versus maintaining a harmonious mindset (萍常心, *píngcháng xīn*).

@@ -1,10 +1,10 @@
 ---
-title: "ITMO University's Unmatched Dominance in ACM ICPC"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: ITMO University's Unmatched Dominance in ACM ICPC
 translated: false
-generated: true
 ---
 
 ITMO University (Saint Petersburg University of IT, Mechanics, and Optics) has an exceptional record in the ACM International Collegiate Programming Contest (ICPC), holding the distinction of being the most successful university in the competition’s history. Below is a summary of their performance based on available information:

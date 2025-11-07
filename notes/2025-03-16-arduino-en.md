@@ -1,10 +1,10 @@
 ---
-title: Getting Started with Arduino
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Getting Started with Arduino
 translated: false
-generated: true
 ---
 
 It seems like there might be a slight mix-up in your question. Did you mean "how to play *with* an Arduino" rather than "how to play Arduino"? I’ll assume you’re asking about how to get started with Arduino, a popular microcontroller platform used for building electronics projects. If I got this wrong, feel free to clarify!

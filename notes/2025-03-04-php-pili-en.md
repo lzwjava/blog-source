@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Pili Streaming Cloud Library for PHP
 translated: false
-generated: true
 ---
 
 ### Key Points

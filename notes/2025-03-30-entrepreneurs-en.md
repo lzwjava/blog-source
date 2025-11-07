@@ -1,10 +1,10 @@
 ---
-title: Impactful Entrepreneurs
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Impactful Entrepreneurs
 translated: false
-generated: true
 ---
 
 Here is a list of **impactful entrepreneurs** who have made significant contributions to business, technology, and global industries:

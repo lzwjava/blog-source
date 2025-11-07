@@ -1,10 +1,10 @@
 ---
-title: Maxwell’s Equations
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Maxwell’s Equations
 translated: false
-generated: true
 ---
 
 Maxwell’s equations are a set of four mathematical equations formulated by James Clerk Maxwell in the 1860s that describe the behavior of electric and magnetic fields. These equations unified the previously separate fields of electricity and magnetism into a single theory of electromagnetism, fundamentally shaping our understanding of the physical world. They not only explained existing observations but also predicted phenomena like electromagnetic waves, which later became the foundation for technologies such as wireless communication, radio, and modern electronics. Below is a comprehensive explanation of Maxwell’s equations, their significance, historical context, mathematical formulation, physical implications, and their role in enabling technologies like alternating current (AC) and digital systems.

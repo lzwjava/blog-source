@@ -1,10 +1,10 @@
 ---
-title: Kazakhstan
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Kazakhstan
 translated: false
-generated: true
 ---
 
 Kazakhstan, officially known as the Republic of Kazakhstan, is a transcontinental country located primarily in Central Asia, with a small portion extending into Eastern Europe. Spanning over 2.7 million square kilometers, it is the ninth-largest country in the world by land area and the largest landlocked nation. Its vast size, strategic location, and rich history make it a significant player in global geopolitics, economics, and culture. Below is a detailed overview of Kazakhstan, covering its geography, history, culture, economy, politics, and contemporary significance.

@@ -1,10 +1,10 @@
 ---
-title: Leapmotor's Success
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Leapmotor's Success
 translated: false
-generated: true
 ---
 
 Leapmotor's success in China's electric vehicle (EV) market stems from several key factors that align with the country's competitive EV landscape and consumer demands:

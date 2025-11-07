@@ -1,12 +1,12 @@
 ---
-title: Early Computer Timekeeping Before Unix
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Early Computer Timekeeping Before Unix
+translated: false
 ---
 
 Yeah, you're spot on—long before Unix timestamps in the 1970s, we had these hulking early machines like ENIAC (I think you meant that instead of ANNIC; it was the Electronic Numerical Integrator and Computer from 1945), the Altair 8800 (the 1975 kit that kicked off the PC revolution, where Bill Gates and Paul Allen hacked together that famous BASIC interpreter over teletype), and John von Neumann's foundational ideas (like his 1945 EDVAC report that birthed the stored-program concept influencing everything after).

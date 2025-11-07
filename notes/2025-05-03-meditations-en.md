@@ -1,10 +1,10 @@
 ---
-title: Meditations
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Meditations
 translated: false
-generated: true
 ---
 
 *Marcus Aurelius’ Meditations* is one of the most enduring and influential works of Stoic philosophy, offering profound insights into ethics, self-discipline, and the human condition. Written in the 2nd century CE by the Roman Emperor Marcus Aurelius (121–180 CE), the text is a collection of personal reflections, aphorisms, and philosophical musings composed in Greek during his military campaigns and periods of introspection. Unlike many philosophical works intended for public dissemination, *Meditations* was a private journal, written for Marcus himself as a means of self-improvement and moral guidance. Its raw, unpolished style and timeless wisdom have made it a cornerstone of Western thought, resonating with readers across centuries.

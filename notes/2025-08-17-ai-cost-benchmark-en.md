@@ -1,12 +1,12 @@
 ---
-title: A Standardized Cost Benchmark for AI Models
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: A Standardized Cost Benchmark for AI Models
+translated: false
 ---
 
 Got it — let me unpack what you wrote and translate the idea into English, then analyze the issue.

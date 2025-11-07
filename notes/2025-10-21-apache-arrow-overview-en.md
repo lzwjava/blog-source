@@ -1,12 +1,12 @@
 ---
-title: Apache Arrow Data Framework Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Apache Arrow Data Framework Overview
+translated: false
 ---
 
 Apache Arrow is an open-source, language-agnostic software framework developed under the Apache Software Foundation. It provides a standardized columnar memory format for flat and nested data, designed to enable efficient in-memory analytics and fast data interchange across different programming languages and systems (such as Python, Java, R, C++, and more).

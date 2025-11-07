@@ -1,12 +1,12 @@
 ---
-title: Diagram Tools Beyond Graphviz and NetworkX
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Diagram Tools Beyond Graphviz and NetworkX
+translated: false
 ---
 
 Great options beyond Graphviz and NetworkX, grouped by how you like to work.

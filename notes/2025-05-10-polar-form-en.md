@@ -1,10 +1,10 @@
 ---
-title: Polar Coordinate System
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Polar Coordinate System
 translated: false
-generated: true
 ---
 
 The polar coordinate system is a two-dimensional coordinate system in which each point on a plane is determined by a distance from a reference point and an angle from a reference direction. This is in contrast to the Cartesian coordinate system, which uses x and y coordinates to define a point.

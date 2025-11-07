@@ -1,10 +1,10 @@
 ---
-title: "Maven Shade Plugin: Create Uber-JARs"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Maven Shade Plugin: Create Uber-JARs'
 translated: false
-generated: true
 ---
 
 The `maven-shade-plugin` is a Maven plugin used to create an "uber-JAR" (a single, self-contained JAR file) by combining a project’s compiled code with its dependencies. It’s commonly used in Java projects to package an application and all its required libraries into one executable JAR file, simplifying distribution and deployment.

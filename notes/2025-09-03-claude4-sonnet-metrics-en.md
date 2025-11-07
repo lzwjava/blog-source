@@ -1,11 +1,11 @@
 ---
-title: Claude 4 Sonnet Completion Metrics Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Claude 4 Sonnet Completion Metrics Explained
+translated: false
 ---
 
 Short version: it ended normally.

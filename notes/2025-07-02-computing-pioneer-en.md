@@ -1,10 +1,10 @@
 ---
-title: "Holocaust Survivor to Tech Pioneer"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Holocaust Survivor to Tech Pioneer
 translated: false
-generated: true
 ---
 
 Jack Tramiel (born **Idek Trzmiel**, December 13, 1928 – April 8, 2012) was a **Polish-American businessman** and **pioneering computer industry executive**, best known for founding **Commodore International** and later running **Atari Corporation**. His personal history—from a Holocaust survivor to one of the leading figures in the personal computing revolution—makes his story both inspiring and emblematic of 20th-century technological transformation.

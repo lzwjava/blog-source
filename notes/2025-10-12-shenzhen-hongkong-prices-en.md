@@ -1,12 +1,12 @@
 ---
-title: Shenzhen and Hong Kong Price Dynamics
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Shenzhen and Hong Kong Price Dynamics
+translated: false
 ---
 
 ### Understanding Price Perceptions: Shenzhen vs. Hong Kong

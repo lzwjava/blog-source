@@ -1,12 +1,12 @@
 ---
-title: Recent AI Developments in September 2025
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Recent AI Developments in September 2025
+translated: false
 ---
 
 Here are some of the most recent developments in AI as of mid-September 2025:

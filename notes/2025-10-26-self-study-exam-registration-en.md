@@ -1,12 +1,12 @@
 ---
-title: GDUFS Self-Study Exam Practical Registration
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: GDUFS Self-Study Exam Practical Registration
+translated: false
 ---
 
 ### Information on 610201 and 11325 in Guangdong University of Foreign Studies Self-Study Exam

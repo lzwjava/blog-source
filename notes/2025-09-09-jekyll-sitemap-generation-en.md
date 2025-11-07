@@ -1,13 +1,13 @@
 ---
-title: Generating Sitemap Files for Jekyll
-date: 2025-09-09
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-09
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Generating Sitemap Files for Jekyll
+translated: false
 ---
 
 A **sitemap.xml** is an XML file that tells search engines like Google and Bing about the pages on your website. It helps crawlers discover and index your site’s structure more efficiently. For a Jekyll blog, this means search engines can find all your posts, pages, and translations (like your `index-zh.html`, `index-fr.html`, etc.) even if they’re not linked everywhere.

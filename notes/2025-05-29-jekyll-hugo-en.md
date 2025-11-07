@@ -1,10 +1,10 @@
 ---
-title: Jekyll vs Hugo
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Jekyll vs Hugo
 translated: false
-generated: true
 ---
 
 Jekyll and Hugo are both popular static site generators, but they cater to slightly different needs and preferences. Here's a concise comparison based on their key aspects:

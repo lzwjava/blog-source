@@ -1,12 +1,12 @@
 ---
-title: VMware Tanzu Application Service Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: VMware Tanzu Application Service Overview
+translated: false
 ---
 
 ## Introduction to VMware Tanzu Application Service for VMs (TAS for VMs)

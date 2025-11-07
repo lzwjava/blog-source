@@ -1,10 +1,10 @@
 ---
-title: Mastering Spring Cloud Sleuth in Spring Boot
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Mastering Spring Cloud Sleuth in Spring Boot
 translated: false
-generated: true
 ---
 
 Spring Cloud Sleuth is a powerful tool for adding distributed tracing capabilities to Spring applications. While it's particularly useful in microservice architectures to track requests across multiple services, it also provides significant benefits for single (monolith) applications by enhancing log correlation and debugging.

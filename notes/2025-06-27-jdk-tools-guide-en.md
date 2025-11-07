@@ -1,10 +1,10 @@
 ---
-title: "OpenJDK 21 Tools Overview"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: OpenJDK 21 Tools Overview
 translated: false
-generated: true
 ---
 
 The directory `/usr/lib/jvm/java-21-openjdk-amd64/bin/` contains tools provided by the OpenJDK 21 Java Development Kit (JDK). These tools are used for various tasks related to Java development, debugging, monitoring, and packaging. Below is a concise explanation of each tool and its common usage. For detailed usage, you can run `tool_name --help` or `man tool_name` in the terminal for most of these tools.

@@ -1,10 +1,10 @@
 ---
-title: Exponential Formulas
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Exponential Formulas
 translated: false
-generated: true
 ---
 
 In science, several formulas describe transient or exponential growth/decay processes similar to the RL circuit current equation, where the behavior starts at a specific value (often zero) at \\( t = 0 \\) and approaches a steady-state value (like \\( V_0 \\) or \\( I_0 \\)) as time progresses, often involving the exponential term \\( e \\). Below is a list of such formulas from various domains of physics and engineering, each exhibiting similar exponential behavior.

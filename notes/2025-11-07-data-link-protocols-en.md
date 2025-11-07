@@ -1,12 +1,12 @@
 ---
-title: Data Link Layer Protocols Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: moonshotai/kimi-k2-thinking
+title: Data Link Layer Protocols Explained
+translated: false
 ---
 
 This statement correctly identifies the key data link layer protocols and their primary use cases. Let me break it down:

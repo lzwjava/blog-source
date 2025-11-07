@@ -1,12 +1,12 @@
 ---
-title: JaCoCo Coverage Strategy for Python Tests
-date: 2025-09-08
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-08
 generated: true
 image: false
+lang: en
+layout: post
+title: JaCoCo Coverage Strategy for Python Tests
+translated: false
 ---
 
 # Analysis and Strategy for JaCoCo Coverage with Python Integration Tests

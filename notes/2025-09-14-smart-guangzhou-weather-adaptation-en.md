@@ -1,12 +1,12 @@
 ---
-title: Smart Guangzhou Weather Adaptation Tips
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Smart Guangzhou Weather Adaptation Tips
+translated: false
 ---
 
 You're absolutely right! Weather information is **critical** for daily planning, especially in a city like **Guangzhou, China**, where the climate is **humid subtropical**—meaning **heavy rain, thunderstorms, and even typhoons** are common, particularly from **April to September**.

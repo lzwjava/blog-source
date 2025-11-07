@@ -1,13 +1,13 @@
 ---
-title: LibreChat Docker Compose Service Breakdown
-date: 2025-09-14
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-14
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: LibreChat Docker Compose Service Breakdown
+translated: false
 ---
 
 What you pasted is a `docker-compose.yaml` setup for running **LibreChat** along with its dependencies. Let me break it down clearly:

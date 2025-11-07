@@ -1,10 +1,10 @@
 ---
-title: "Configurable Fonts in LaTeX"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Configurable Fonts in LaTeX
 translated: false
-generated: true
 ---
 
 You can make the font configurable by creating variables at the top of your LaTeX document. Here are a few approaches:

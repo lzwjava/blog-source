@@ -1,10 +1,10 @@
 ---
-title: Autoregressive Model Generation
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Autoregressive Model Generation
 translated: false
-generated: true
 ---
 
 In the context of models like GPT (Generative Pre-trained Transformer), the term "autoregressive" refers to the method by which the model generates output sequences. Specifically, it means that the model generates each item in a sequence one at a time, using its previous outputs as additional input context for generating the next item.

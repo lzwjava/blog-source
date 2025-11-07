@@ -1,10 +1,10 @@
 ---
-title: Starbucks' Success
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Starbucks' Success
 translated: false
-generated: true
 ---
 
 Starbucks' success can be attributed to several key factors:

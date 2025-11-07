@@ -1,9 +1,9 @@
 ---
-title: Detailed Analysis of Outdoor Sports in Guangzhou
-layout: post
 audio: false
-translated: false
 generated: true
+layout: post
+title: Detailed Analysis of Outdoor Sports in Guangzhou
+translated: false
 ---
 
 ### Key Points

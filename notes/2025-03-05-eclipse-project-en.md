@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Project Files Created By Eclipse IDE
 translated: false
-generated: true
 ---
 
 ### Why Are There .project Files, and What Are `filteredResources`, `filter`, and `matcher` For?

@@ -1,11 +1,11 @@
 ---
-title: Balancing Cost and AI Model Performance
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Balancing Cost and AI Model Performance
+translated: false
 ---
 
 To optimize the cost-effectiveness and advanced capabilities of the model configuration, you should consider balancing model performance with pricing. Here's a potential configuration based on your requirements:

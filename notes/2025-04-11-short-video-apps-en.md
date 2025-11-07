@@ -1,10 +1,10 @@
 ---
-title: Short Video Apps
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Short Video Apps
 translated: false
-generated: true
 ---
 
 Here are some of the **most popular short-video apps** as of 2024:  

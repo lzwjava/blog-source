@@ -1,10 +1,10 @@
 ---
-title: "Hong Kong's 20th Century Wage Growth"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Hong Kong's 20th Century Wage Growth
 translated: false
-generated: true
 ---
 
 ### Historical Salaries in Hong Kong (20th Century)

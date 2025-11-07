@@ -1,10 +1,10 @@
 ---
-title: Understanding Full ACID Compliance in Databases
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Understanding Full ACID Compliance in Databases
 translated: false
-generated: true
 ---
 
 ACID compliance represents one of the fundamental frameworks for ensuring database reliability and data integrity, particularly in transaction processing systems. Let's explore what ACID means in depth and why it matters.

@@ -1,13 +1,13 @@
 ---
-title: Introduction to Python Code Examples
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: google/gemini-2.5-flash
+title: Introduction to Python Code Examples
+translated: false
 ---
 
 Okay, "some Python code" can mean a lot of things! Python is incredibly versatile. I'll give you a few common examples, from very basic to slightly more involved, covering different concepts.

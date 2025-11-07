@@ -1,12 +1,12 @@
 ---
-title: Solvexia's Key Competitors
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Solvexia's Key Competitors
+translated: false
 ---
 
 ### Key Competitors to Solvexia

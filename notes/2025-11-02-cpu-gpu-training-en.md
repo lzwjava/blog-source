@@ -1,12 +1,12 @@
 ---
-title: CPU vs GPU Training Performance
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: CPU vs GPU Training Performance
+translated: false
 ---
 
 The low MFU (0.01%) during NanoGPT training on your laptop stems from the `--device=cpu` flag in your command, which forces the entire workload onto the CPU rather than leveraging any GPU acceleration. Here's a breakdown of why this happens and how it compares to your 4070 Ti setup:

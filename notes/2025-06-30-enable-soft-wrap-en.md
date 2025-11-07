@@ -1,10 +1,10 @@
 ---
-title: Enable Soft Wrap in Zed
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Enable Soft Wrap in Zed
 translated: false
-generated: true
 ---
 
 Zed, like many modern text editors, uses the concept of "soft wrap" to wrap lines. This means that lines will appear wrapped in the editor, but no actual newline characters are inserted into your file.

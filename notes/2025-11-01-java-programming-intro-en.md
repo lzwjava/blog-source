@@ -1,12 +1,12 @@
 ---
-title: Introduction to Java Programming Course
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Introduction to Java Programming Course
+translated: false
 ---
 
 This outline is based on the standard syllabus for the National Higher Education Self-study Examination in China, specifically tailored for introductory Java programming. It covers the core concepts, structure, and assessment focus for the course in Guangdong province. The course emphasizes foundational programming skills using Java, including syntax, object-oriented principles, and basic application development.

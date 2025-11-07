@@ -1,10 +1,10 @@
 ---
-title: Top 30 Most Visited Websites
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Top 30 Most Visited Websites
 translated: false
-generated: true
 ---
 
 While the concept of a definitive "top 30" websites can be subjective and fluctuate based on various metrics like traffic, user engagement, and regional popularity, here’s a list compiled from various sources, reflecting the most widely visited and influential websites globally as of late May 2025.

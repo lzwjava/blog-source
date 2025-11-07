@@ -1,12 +1,12 @@
 ---
-title: Mutual Funds Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Mutual Funds Explained
+translated: false
 ---
 
 A mutual fund is an investment vehicle that pools money from many investors to buy a diversified portfolio of stocks, bonds, money market instruments, or other securities. It's essentially a "group investment" managed by professional fund managers who aim to generate returns based on the fund's objectives (like growth, income, or a mix).

@@ -1,10 +1,10 @@
 ---
-title: Linear Transformations
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Linear Transformations
 translated: false
-generated: true
 ---
 
 **Definition, Examples, Matrix Representation, Kernel, Image, Properties (Injectivity, Surjectivity)**  

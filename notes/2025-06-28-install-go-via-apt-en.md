@@ -1,10 +1,10 @@
 ---
-title: Install Go via APT on Debian
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Install Go via APT on Debian
 translated: false
-generated: true
 ---
 
 To install Go using `apt` on a Debian-based Linux system (e.g., Ubuntu), follow these steps. Note that `apt` may install an older version of Go (e.g., 1.18 on Ubuntu 22.04), so you should verify if it meets your project's requirements (check the `go.mod` file in `~/Projects/clash-core` for the required Go version).

@@ -1,10 +1,10 @@
 ---
-title: Instruction System – A Comprehensive Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Instruction System – A Comprehensive Guide
 translated: false
-generated: true
 ---
 
 ## **1. Introduction to the Instruction System**  

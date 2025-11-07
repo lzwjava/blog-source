@@ -1,10 +1,10 @@
 ---
-title: "Rust's Memory Management Breakthroughs"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rust's Memory Management Breakthroughs
 translated: false
-generated: true
 ---
 
 Your critique of Rust's memory management touches on valid pain points but overlooks its **fundamental breakthroughs**. Let's dissect this objectively:

@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Using EventBus in Android
 translated: false
-generated: true
 ---
 
 I'll explain how to use EventBus in Android, a popular publish/subscribe event bus library that simplifies communication between components like Activities, Fragments, and background threads.

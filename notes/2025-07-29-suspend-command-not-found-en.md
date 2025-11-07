@@ -1,11 +1,11 @@
 ---
-title: Resolve Suspend Command Error
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Resolve Suspend Command Error
+translated: false
 ---
 
 The error `sudo: suspend: command not found` indicates that the `suspend` command is not available on your system or not installed. The `suspend` command is typically used to put a Linux system into a suspended (sleep) state, but it may not be present by default or may have a different name depending on your distribution.

@@ -1,11 +1,11 @@
 ---
-title: Fixing Fn + F5 in VSCode on Mac
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fixing Fn + F5 in VSCode on Mac
+translated: false
 ---
 
 If pressing **Fn + F5** on your Mac in Visual Studio Code (VSCode) has no effect when trying to launch the **Extension Development Host**, it’s likely due to how the `Fn` key and function keys are configured on your Mac, a conflict in VSCode keybindings, or a misconfiguration in your extension development setup. Below, I’ll explain why this might be happening and how to fix it.

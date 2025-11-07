@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting Unresponsive Yale Electronic Lock
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Troubleshooting Unresponsive Yale Electronic Lock
+translated: false
 ---
 
 ### What to Do If Yale Electronic Lock Has No Response After Changing Batteries

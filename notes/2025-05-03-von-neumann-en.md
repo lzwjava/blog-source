@@ -1,10 +1,10 @@
 ---
-title: John von Neumann
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: John von Neumann
 translated: false
-generated: true
 ---
 
 John von Neumann (1903-1957) was a Hungarian-American mathematician, physicist, computer scientist, and economist who is widely regarded as one of the most brilliant and influential scientists of the 20th century. His work spanned an astonishing range of disciplines, leaving an indelible mark on foundational mathematics, quantum mechanics, game theory, and the architecture of modern computers.

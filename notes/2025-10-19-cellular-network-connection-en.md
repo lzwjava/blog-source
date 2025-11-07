@@ -1,12 +1,12 @@
 ---
-title: How Cellular Networks Connect Devices
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: How Cellular Networks Connect Devices
+translated: false
 ---
 
 ### How 4G and 5G Networks Work

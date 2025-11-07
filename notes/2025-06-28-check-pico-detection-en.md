@@ -1,10 +1,10 @@
 ---
-title: "Checking Raspberry Pi Pico Detection on Ubuntu"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Checking Raspberry Pi Pico Detection on Ubuntu
 translated: false
-generated: true
 ---
 
 To check if your Raspberry Pi Pico is detected by Ubuntu after plugging it in, follow these steps:

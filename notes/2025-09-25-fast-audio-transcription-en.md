@@ -1,12 +1,12 @@
 ---
-title: Speeding Up Long Audio Transcription Processing
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Speeding Up Long Audio Transcription Processing
+translated: false
 ---
 
 ### Why Is Processing So Long for 30-Min or 1-Hour Audio?

@@ -1,11 +1,11 @@
 ---
-title: Nginx Config on macOS Homebrew
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Nginx Config on macOS Homebrew
+translated: false
 ---
 
 For Nginx installed via Homebrew on macOS (as indicated by the binary path `/opt/homebrew/bin/nginx`), the main configuration file is typically located at:

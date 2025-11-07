@@ -1,10 +1,10 @@
 ---
-title: Greg Brockman
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Greg Brockman
 translated: false
-generated: true
 ---
 
 Greg Brockman, born November 29, 1987, in Thompson, North Dakota, is an American entrepreneur, investor, and software engineer renowned for his pivotal role in advancing artificial intelligence (AI) as a co-founder and president of OpenAI. A self-taught machine learning practitioner, Brockman’s career blends technical expertise, entrepreneurial vision, and a commitment to democratizing AI for societal benefit. His journey from a small-town upbringing to a leading figure in AI reflects a blend of academic excellence, strategic career moves, and a passion for technology’s potential to transform humanity.

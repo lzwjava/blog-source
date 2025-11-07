@@ -1,12 +1,12 @@
 ---
-title: Fixing Firefox APT Repository Error
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Fixing Firefox APT Repository Error
+translated: false
 ---
 
 The error you're seeing is specific to the Mozilla Firefox APT repository (`https://packages.mozilla.org/apt`), where the fetch for the `binary-all/Packages` index file fails with a 400 Bad Request. This is a known intermittent issue reported by other Ubuntu/Debian users, often tied to proxy configurations (your local proxy at `127.0.0.1:7890` suggests something like Clash, V2Ray, or a similar tool is in play, which can mangle HTTPS requests for APT). The good news is that APT ignores the failure and uses cached/old indexes, so system updates aren't blocked—but it can prevent getting the latest Firefox deb packages.

@@ -1,10 +1,10 @@
 ---
-title: Design Routes in Angular
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Design Routes in Angular
 translated: false
-generated: true
 ---
 
 Okay, let's break down how to design routes in Angular for easy refreshing, sub-routes, and handling query parameters.

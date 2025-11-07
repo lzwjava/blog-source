@@ -1,10 +1,10 @@
 ---
-title: Implementing Multi-threaded Validation with CompletableFuture
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Implementing Multi-threaded Validation with CompletableFuture
 translated: false
-generated: true
 ---
 
 If we use `CompletableFuture` in a Spring Boot application for multi-threaded validation, it provides a modern, flexible way to handle asynchronous tasks. Below, I’ll explain how to implement it, highlight its advantages and challenges, and provide a complete solution tailored to validating multiple rules concurrently.

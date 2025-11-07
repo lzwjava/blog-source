@@ -1,12 +1,12 @@
 ---
-title: Cross-Border Students of Hong Kong
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Cross-Border Students of Hong Kong
+translated: false
 ---
 
 ### Who Are "Kuaijing Sheng" (Cross-Border Students)?

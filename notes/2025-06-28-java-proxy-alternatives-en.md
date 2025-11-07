@@ -1,10 +1,10 @@
 ---
-title: "Java Alternatives to Clash-core"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Java Alternatives to Clash-core
 translated: false
-generated: true
 ---
 
 Finding a Java library that directly matches the functionality of **Clash-core**, a rule-based proxy/tunneling library written in Go, is challenging because Clash-core is highly specialized for creating flexible, rule-based VPN/proxy tunnels with support for protocols like Shadowsocks, V2Ray, and Trojan. It operates at the network and application layer, offering features like DNS resolution, TUN mode, and advanced routing rules. No Java library perfectly replicates this exact combination of features, but there are Java-based libraries and tools that provide similar or overlapping functionality for VPN, proxy, or tunneling purposes. Below, I outline some relevant Java libraries and alternatives, and explain their relation to Clash-core.

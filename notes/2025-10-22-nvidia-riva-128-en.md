@@ -1,12 +1,12 @@
 ---
-title: NVIDIA RIVA 128 Graphics Accelerator Introduction
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: NVIDIA RIVA 128 Graphics Accelerator Introduction
+translated: false
 ---
 
 The **RIVA 128** (also known as **NV3**) was **NVIDIA’s first major 3D graphics accelerator**, released in **August 1997**. It marked NVIDIA’s breakthrough into the consumer graphics market, helping establish its reputation before the GeForce era.

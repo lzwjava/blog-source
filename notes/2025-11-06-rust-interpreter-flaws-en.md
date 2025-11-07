@@ -1,12 +1,12 @@
 ---
-title: Rust Interpreter Pain and Design Flaws
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Rust Interpreter Pain and Design Flaws
+translated: false
 ---
 
 ### English Translation and Explanation

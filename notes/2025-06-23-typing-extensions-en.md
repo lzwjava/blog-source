@@ -1,10 +1,10 @@
 ---
-title: Fixing typing-extensions Package Issue
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fixing typing-extensions Package Issue
 translated: false
-generated: true
 ---
 
 ### How to Fix the "Cannot uninstall typing-extensions None" Error

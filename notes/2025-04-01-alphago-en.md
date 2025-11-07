@@ -1,10 +1,10 @@
 ---
-title: AlphaGo
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AlphaGo
 translated: false
-generated: true
 ---
 
 AlphaGo, developed by DeepMind, is an AI system designed to play **Go**, a complex board game. Go is much more intricate than chess, with a vast number of possible moves and a deep emphasis on intuition and strategy. AlphaGo's success in defeating world champions, like **Lee Sedol** in 2016, marked a major breakthrough in AI. Here's a breakdown of how AlphaGo works and its improvements over time:

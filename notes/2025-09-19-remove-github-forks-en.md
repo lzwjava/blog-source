@@ -1,12 +1,12 @@
 ---
-title: Removing Unwanted GitHub Forks
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Removing Unwanted GitHub Forks
+translated: false
 ---
 
 Got you. Short version: you can’t directly delete someone else’s fork. But you can (a) ask them, (b) purge sensitive stuff and lock future leaks, and (c) use GitHub’s official routes (DMCA or Support) when justified. Here’s a clean, no-tables plan that works well for personal blogs.

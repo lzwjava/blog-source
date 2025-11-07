@@ -1,12 +1,12 @@
 ---
-title: Investing Deeply in Fewer Meaningful Friendships
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-sonnet-4
+title: Investing Deeply in Fewer Meaningful Friendships
+translated: false
 ---
 
 There's definitely wisdom in that approach. Deep, meaningful friendships where you can be truly authentic and vulnerable with each other often provide more fulfillment than having a large circle of acquaintances. When you have those few people you can really open up to - share your struggles, celebrate your wins, explore ideas together - it creates a kind of mutual growth that's hard to replicate in surface-level relationships.

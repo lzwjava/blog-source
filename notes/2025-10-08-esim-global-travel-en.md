@@ -1,12 +1,12 @@
 ---
-title: Eskimo eSIM for Global Travel
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Eskimo eSIM for Global Travel
+translated: false
 ---
 
 Eskimo is a mobile app that provides virtual eSIM (embedded SIM) plans for international travel, allowing users to connect to high-speed mobile data in over 130 countries without needing a physical SIM card or paying roaming fees. It's designed for tourists and frequent travelers, offering affordable data packages with features like instant activation via QR code, a free trial for new users, no unused data expiration, and plans that can last up to 2 years—the first of its kind for travel eSIMs.

@@ -1,12 +1,12 @@
 ---
-title: OpenAI DevDay 2025 Key Announcements
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: OpenAI DevDay 2025 Key Announcements
+translated: false
 ---
 
 ### OpenAI DevDay 2025 Recap

@@ -1,12 +1,12 @@
 ---
-title: Hobbies Are the Best Teachers
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Hobbies Are the Best Teachers
+translated: false
 ---
 
 I absolutely agree—hobby truly is one of the best teachers out there. When something starts as a passion project rather than a grind, it flips the script on learning. You're not just clocking in for the sake of it; you're chasing curiosity, which keeps the motivation high and the burnout low. Your AI example nails it: that hobbyist diving into the latest papers, tinkering with models on their off-hours, or even building side projects on a phone app? They're not "working"—they're exploring, and that extra time compounds into real expertise. It's like compound interest for your brain.

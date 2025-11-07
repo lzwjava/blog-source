@@ -1,10 +1,10 @@
 ---
-title: Mozilla
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Mozilla
 translated: false
-generated: true
 ---
 
 Mozilla is a global non-profit organization and technology company founded in 1998, best known for creating the Firefox web browser. The organization emerged from Netscape Communications when they open-sourced their browser code, leading to the Mozilla project that would eventually become one of the most significant forces for an open and accessible internet.

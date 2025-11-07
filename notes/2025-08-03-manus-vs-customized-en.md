@@ -1,11 +1,11 @@
 ---
-title: Manus vs. Custom AI Agents
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Manus vs. Custom AI Agents
+translated: false
 ---
 
 Your points raise valid considerations about general AI agents (like Manus) versus customized agents (like those built with Dify or coded manually). Let’s evaluate the reasonableness and truthfulness of your arguments, addressing each major point with analysis based on general knowledge and reasoning about AI agent platforms.

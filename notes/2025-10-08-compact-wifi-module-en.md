@@ -1,12 +1,12 @@
 ---
-title: Compact WiFi Module for IoT
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Compact WiFi Module for IoT
+translated: false
 ---
 
 The ESP-01S is a compact WiFi module based on the ESP8266 microcontroller chip from Espressif Systems. It's an upgraded version of the original ESP-01, designed primarily for IoT (Internet of Things) applications where you need to add wireless connectivity to other microcontrollers like Arduino or Raspberry Pi.

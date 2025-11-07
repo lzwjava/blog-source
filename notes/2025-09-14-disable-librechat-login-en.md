@@ -1,13 +1,13 @@
 ---
-title: Disable LibreChat Login Authentication
-date: 2025-09-14
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-14
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Disable LibreChat Login Authentication
+translated: false
 ---
 
 To make **LibreChat** work without requiring frequent logins (or disable login entirely), you can adjust the authentication settings. Here are the steps to resolve the issue:

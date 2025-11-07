@@ -1,10 +1,10 @@
 ---
-title: International Olympiad Stars
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: International Olympiad Stars
 translated: false
-generated: true
 ---
 
 Identifying the "biggest stars" in the International Olympiads—International Olympiad in Informatics (IOI), International Mathematical Olympiad (IMO), International Physics Olympiad (IPhO), and International Chemistry Olympiad (IChO)—over recent decades involves looking at participants who have achieved exceptional results, such as multiple gold medals, perfect or near-perfect scores, or notable contributions to their fields later in life. Below, I highlight standout performers based on available data, focusing on their achievements in these competitions and, where relevant, their broader impact. The information is drawn from web sources, including Wikipedia and Olympiad websites, and reflects results up to my knowledge cutoff in October 2023, with some extrapolation for recent trends.

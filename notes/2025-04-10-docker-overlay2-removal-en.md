@@ -1,12 +1,12 @@
 ---
-title: Resolving Docker Overlay2 Removal Errors
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Resolving Docker Overlay2 Removal Errors
+translated: false
 ---
 
 That error means Docker failed to remove the container’s overlay2 filesystem — the kernel/VM returned a low-level I/O error (`readdirent merged: bad message`). On macOS this usually happens when the Docker VM or overlay storage is in a bad state. Below are safe, ordered steps (from least destructive → more aggressive) you can try to recover.

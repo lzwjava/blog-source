@@ -1,12 +1,12 @@
 ---
-title: GPG ASCII Armor Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: GPG ASCII Armor Explained
+translated: false
 ---
 
 In GPG (GNU Privacy Guard), "armor" refers to ASCII armor, a format that encodes binary OpenPGP data (like encrypted files, signatures, or keys) into a human-readable, text-based representation. This is useful for transmitting data over text-only channels, such as email, without corruption—similar to how uuencode or base64 works, but with added headers (e.g., "-----BEGIN PGP MESSAGE-----") and checksums for integrity.

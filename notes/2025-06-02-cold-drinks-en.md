@@ -1,10 +1,10 @@
 ---
-title: Cold Beverages and Stomach Discomfort
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Cold Beverages and Stomach Discomfort
 translated: false
-generated: true
 ---
 
 Drinking too much cold water or beverages can sometimes cause discomfort, as you're experiencing. Here’s a quick breakdown:

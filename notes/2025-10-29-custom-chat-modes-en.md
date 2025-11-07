@@ -1,12 +1,12 @@
 ---
-title: Custom Chat Modes for GitHub Copilot
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Custom Chat Modes for GitHub Copilot
+translated: false
 ---
 
 ### What is chatmode.md?

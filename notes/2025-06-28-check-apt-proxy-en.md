@@ -1,10 +1,10 @@
 ---
-title: "Check APT Proxy Settings in Ubuntu"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Check APT Proxy Settings in Ubuntu
 translated: false
-generated: true
 ---
 
 To check if `apt` is using a proxy in Ubuntu, follow these steps:

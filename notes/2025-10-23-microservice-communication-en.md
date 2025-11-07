@@ -1,12 +1,12 @@
 ---
-title: "Microservice Communication: Synchronous vs Event-Driven"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Microservice Communication: Synchronous vs Event-Driven'
+translated: false
 ---
 
 ### Synchronous vs. Event-Driven Communication in Microservices

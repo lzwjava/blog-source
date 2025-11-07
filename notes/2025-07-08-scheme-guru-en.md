@@ -1,10 +1,10 @@
 ---
-title: "Guy Steele: Pioneer of Programming Languages"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Guy Steele: Pioneer of Programming Languages'
 translated: false
-generated: true
 ---
 
 Guy Lewis Steele Jr. (born October 2, 1954), often known as "The Great Quux," is a highly influential American computer scientist who has significantly shaped the landscape of programming languages. He is particularly renowned for his role in the design and documentation of several prominent languages and technical standards, including C, Common Lisp, Java, and, notably, Scheme.

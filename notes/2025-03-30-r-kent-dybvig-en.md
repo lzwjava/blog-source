@@ -1,10 +1,10 @@
 ---
-title: R. Kent Dybvig's Work
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: R. Kent Dybvig's Work
 translated: false
-generated: true
 ---
 
 R. Kent Dybvig's work is deeply rooted in the realm of **programming languages**, particularly the **Scheme dialect of Lisp**. His contributions are significant and have had a lasting impact on the field, especially in the areas of compiler design, language implementation, and the pedagogical use of Scheme. Here's a detailed introduction to his key areas of work:

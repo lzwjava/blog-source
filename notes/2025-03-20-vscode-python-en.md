@@ -1,10 +1,10 @@
 ---
-title: Configuring VSCode for Python Debugging
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Configuring VSCode for Python Debugging
 translated: false
-generated: true
 ---
 
 To resolve the issue where Visual Studio Code (VSCode) complains about "no module named `ibm_db_dbi`" when debugging a Python script, even though the module imports successfully when running `python test_db.py` directly from the command line with Python 3.11.8, follow these steps. This discrepancy typically arises due to differences in the Python environment or configuration between the command line and VSCode's debugger. Here’s how to fix it:

@@ -1,12 +1,12 @@
 ---
-title: Basic Romanian Phrases and Information
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-sonnet-4
+title: Basic Romanian Phrases and Information
+translated: false
 ---
 
 Here are some Romanian language examples:

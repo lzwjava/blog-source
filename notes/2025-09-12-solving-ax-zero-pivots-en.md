@@ -1,13 +1,13 @@
 ---
-title: Solving Ax Equals Zero Pivot Variables
-date: 2025-09-12
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-12
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Solving Ax Equals Zero Pivot Variables
+translated: false
 ---
 
 This video is **Lecture 7** from **MIT's *18.06 Linear Algebra* course (Spring 2005)**, taught by **Professor Gilbert Strang**. The topic is:

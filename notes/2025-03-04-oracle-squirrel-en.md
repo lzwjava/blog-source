@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Add the Oracle JDBC Driver to Squirrel SQL Client
 translated: false
-generated: true
 ---
 
 To add the Oracle JDBC driver to Squirrel SQL Client, follow these detailed steps. This process involves configuring the driver and setting up a connection alias for your Oracle database.

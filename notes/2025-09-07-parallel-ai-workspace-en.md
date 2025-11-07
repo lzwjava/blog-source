@@ -1,12 +1,12 @@
 ---
-title: Building a Parallel AI Workspace
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Building a Parallel AI Workspace
+translated: false
 ---
 
 Great — let me outline a practical way you could build a **parallel AI workspace** for yourself. I’ll go from simplest to most advanced, so you can pick what fits your style and resources.

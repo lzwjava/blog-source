@@ -1,10 +1,10 @@
 ---
-title: "Raspberry Pi Pico LED Button Setup"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Raspberry Pi Pico LED Button Setup
 translated: false
-generated: true
 ---
 
 To set up a Raspberry Pi Pico to run the provided MicroPython code, which controls an LED based on a button press, follow these steps:

@@ -1,10 +1,10 @@
 ---
-title: "Jordan Peterson: Psychologist and Public Intellectual"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Jordan Peterson: Psychologist and Public Intellectual'
 translated: false
-generated: true
 ---
 
 Jordan B. Peterson is a Canadian clinical psychologist, author, and public intellectual who has risen to international prominence for his views on a wide range of topics, including psychology, religion, mythology, philosophy, and socio-political issues.

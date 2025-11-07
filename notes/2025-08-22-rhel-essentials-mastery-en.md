@@ -1,11 +1,11 @@
 ---
-title: Mastering Red Hat Enterprise Linux Essentials
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Mastering Red Hat Enterprise Linux Essentials
+translated: false
 ---
 
 ## Introduction to Red Hat Linux

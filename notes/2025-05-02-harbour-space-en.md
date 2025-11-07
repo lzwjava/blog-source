@@ -1,10 +1,10 @@
 ---
-title: Harbour.Space
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Harbour.Space
 translated: false
-generated: true
 ---
 
 Harbour.Space is an innovative private educational institution with campuses in Barcelona, Spain, and Bangkok, Thailand. It focuses on technology, entrepreneurship, and design, offering Foundation, Bachelor's, and Master's degree programs, as well as short courses.

@@ -1,12 +1,12 @@
 ---
-title: Ladies Market History and Origins
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Ladies Market History and Origins
+translated: false
 ---
 
 Here’s a summary of what I found on the history of the **Ladies’ Market (Tung Choi Street, 通菜街), Mong Kok** — approx when it started, how it evolved. If you want, I can dig deeper with archival maps or government documents.

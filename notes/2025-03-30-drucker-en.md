@@ -1,10 +1,10 @@
 ---
-title: Peter Drucker
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Peter Drucker
 translated: false
-generated: true
 ---
 
 Peter Drucker is widely regarded as the father of modern management theory. His works and theories cover a wide range of topics, including management, innovation, strategy, and leadership. Some of his key ideas include:

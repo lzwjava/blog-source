@@ -1,10 +1,10 @@
 ---
-title: Sugar in Coco-Cola
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Sugar in Coco-Cola
 translated: false
-generated: true
 ---
 
 That's a significant amount of sugar for a 355 ml (approximately 12 US fluid ounces) can.

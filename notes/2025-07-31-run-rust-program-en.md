@@ -1,11 +1,11 @@
 ---
-title: Running Rust Program from Directory
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Running Rust Program from Directory
+translated: false
 ---
 
 To run a simple Rust program from the directory structure you provided, it looks like you're working in a Rust project (`lzwjava.github.io/rust`) with a `src` folder containing `main.rs` and `simple.rs`. Here's how you can run a simple Rust program, assuming you want to execute the code in `main.rs` or `simple.rs`.

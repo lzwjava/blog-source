@@ -1,11 +1,11 @@
 ---
-title: "HSBC Hong Kong's UnionPay Debit Card"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: HSBC Hong Kong's UnionPay Debit Card
+translated: false
 ---
 
 Yes — HSBC Hong Kong does issue **physical UnionPay debit cards**, and they work much like other bank-issued debit cards but with the **UnionPay network** instead of Visa or Mastercard.

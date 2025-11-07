@@ -1,11 +1,11 @@
 ---
 audio: false
+generated: true
 image: false
 lang: en
 layout: post
 title: Java Bytecode
 translated: false
-generated: true
 ---
 
 ```bash

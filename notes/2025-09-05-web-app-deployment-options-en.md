@@ -1,11 +1,11 @@
 ---
-title: Web Application Deployment Options Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Web Application Deployment Options Explained
+translated: false
 ---
 
 Got it — let me explain those options clearly for you.

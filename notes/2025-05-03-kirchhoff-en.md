@@ -1,10 +1,10 @@
 ---
-title: Gustav Robert Kirchhoff
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Gustav Robert Kirchhoff
 translated: false
-generated: true
 ---
 
 Gustav Robert Kirchhoff (1824–1887) was a German physicist whose groundbreaking contributions to electrical circuits, spectroscopy, and thermodynamics profoundly shaped modern physics. Born on March 12, 1824, in Königsberg, Prussia (now Kaliningrad, Russia), Kirchhoff displayed exceptional intellectual ability from a young age. His work laid foundational principles still taught in physics and engineering, and his discoveries in spectroscopy revolutionized astronomy and chemistry. Below is a comprehensive introduction to his life, work, and legacy.

@@ -1,12 +1,12 @@
 ---
-title: Tianqi Chen and XGBoost Development
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/o1-mini
+title: Tianqi Chen and XGBoost Development
+translated: false
 ---
 
 Tianqi Chen is a prominent computer scientist and researcher best known for developing **XGBoost**, a highly efficient and scalable implementation of gradient boosting algorithms widely used in machine learning and data science.

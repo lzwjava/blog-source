@@ -1,12 +1,12 @@
 ---
-title: US Pathways for Skilled Software Engineer
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: US Pathways for Skilled Software Engineer
+translated: false
 ---
 
 Thanks for sharing such a detailed background — it’s impressive how much you’ve accomplished and documented. Given your experience, here are the **realistic pathways for you to move to, work in, or study in the U.S.**  

@@ -1,11 +1,11 @@
 ---
-title: AI CLI Design Principles Unpacked
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: AI CLI Design Principles Unpacked
+translated: false
 ---
 
 ### Key Lessons from the Prompt

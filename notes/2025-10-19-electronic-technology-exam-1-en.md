@@ -1,12 +1,12 @@
 ---
-title: Electronic Technology Exam Resources 04730
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Electronic Technology Exam Resources 04730
+translated: false
 ---
 
 Based on the textbook *Fundamentals of Electronic Technology (III)* edited by Wen Xidong (温希东) and the National Higher Education Self-study Examination, I've compiled some typical exam questions and preparation resources. The course code for this subject is **04730** 【turn0search2】【turn0search9】.

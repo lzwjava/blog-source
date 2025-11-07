@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Using SpringRunner in Java Tests
 translated: false
-generated: true
 ---
 
 To use `SpringRunner` with JUnit's `@RunWith` runner in Java tests, follow these steps. Note that I assume "SpringRuner" in your query is a typo and you mean `SpringRunner`. Here's a complete guide:

@@ -1,11 +1,11 @@
 ---
-title: Excluding Files in IntelliJ IDEA
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Excluding Files in IntelliJ IDEA
+translated: false
 ---
 
 In IntelliJ IDEA, you can exclude files or directories so they don’t appear in search, indexing, code completion, or builds. There are several ways to do it depending on your purpose:

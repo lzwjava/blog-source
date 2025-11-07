@@ -1,12 +1,12 @@
 ---
-title: Multiple Laptops for Coding, One Browser for Chat
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Multiple Laptops for Coding, One Browser for Chat
+translated: false
 ---
 
 Yes, you’ve got the right intuition.

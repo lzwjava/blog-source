@@ -1,12 +1,12 @@
 ---
-title: Using GPG with Custom Homedir
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Using GPG with Custom Homedir
+translated: false
 ---
 
 ### Using GPG's `--homedir` Option

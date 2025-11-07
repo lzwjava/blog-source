@@ -1,10 +1,10 @@
 ---
-title: SQLTransactionRollbackException in Spring
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: SQLTransactionRollbackException in Spring
 translated: false
-generated: true
 ---
 
 To address your query about catching the `SqlTransactionRollbackException` that occurs after `DataSourceUtils.java` fetches a JDBC connection from a `DataSource` and to provide a detailed analysis of the associated database lock, let’s break this down systematically.

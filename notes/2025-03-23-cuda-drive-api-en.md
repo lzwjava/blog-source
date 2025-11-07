@@ -1,10 +1,10 @@
 ---
-title: CUDA Driver API
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: CUDA Driver API
 translated: false
-generated: true
 ---
 
 The `<cuda.h>` header is part of the **CUDA Driver API**, a lower-level API compared to the higher-level CUDA Runtime API (e.g., `cudaMalloc`, `cudaMemcpy`). The Driver API provides finer control over GPU resources (e.g., contexts, modules, streams) and is often used in advanced scenarios like multi-GPU programming, dynamic kernel loading, or low-level optimizations.

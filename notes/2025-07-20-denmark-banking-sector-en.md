@@ -1,10 +1,10 @@
 ---
-title: Denmark's Leading Banks and Institutions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Denmark's Leading Banks and Institutions
 translated: false
-generated: true
 ---
 
 ### Banks in Denmark

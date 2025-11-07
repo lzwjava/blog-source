@@ -1,12 +1,12 @@
 ---
-title: Advanced Kusto Query Language Examples
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Advanced Kusto Query Language Examples
+translated: false
 ---
 
 Kusto Query Language (KQL) is a powerful tool for querying large datasets in Azure services like Azure Data Explorer and Azure Monitor. Below are several complex examples that combine multiple operators, functions, and advanced features such as time-series analysis, anomaly detection, pivoting, and user-defined functions. These are drawn from real-world scenarios like analyzing storm events or sales data. Each includes the query and a brief explanation.

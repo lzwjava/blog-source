@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting LibreChat Web Search
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Troubleshooting LibreChat Web Search
+translated: false
 ---
 
 Let’s troubleshoot this carefully — when **web search doesn’t work in LibreChat** even after adding **Firecrawl**, **SerpApi**, and **Jina API** keys, the issue is almost always one of these: configuration mistakes, missing backend enable flags, or UI misinterpretation.

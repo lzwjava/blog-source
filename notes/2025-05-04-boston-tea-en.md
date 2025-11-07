@@ -1,10 +1,10 @@
 ---
-title: Boston Tea Party
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Boston Tea Party
 translated: false
-generated: true
 ---
 
 The **Boston Tea Party** was a political protest that took place on **December 16, 1773**, at Griffin’s Wharf in Boston, Massachusetts. It was a pivotal event leading up to the American Revolution. Here’s a concise overview based on historical accounts:

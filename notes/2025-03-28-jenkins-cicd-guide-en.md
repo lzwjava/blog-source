@@ -1,11 +1,11 @@
 ---
-title: Practical Jenkins CI CD Guide Now
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Practical Jenkins CI CD Guide Now
+translated: false
 ---
 
 Awesome—let’s build you a **clean, end-to-end Jenkins guide** you can use at work right away. I’ll keep it scannable, no wide tables.

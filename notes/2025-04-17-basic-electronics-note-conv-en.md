@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Basic Electronics Note - Conversation"
 audio: true
+layout: post
+title: Basic Electronics Note - Conversation
 ---
 
 A: Hey, I’ve been hearing a lot about analog electronics lately. Can you break down the basics for me?
@@ -151,4 +151,3 @@ B: The best approach is to stay curious and hands-on. Keep experimenting with ne
 A: Thanks for all the insights! I feel like I have a much better understanding of both analog and digital electronics now. This was really helpful.
 
 B: Glad I could help! It’s a fascinating field, and there’s always something new to learn. Keep exploring and experimenting!
-

@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: GitHub's Markdown Styling
 translated: false
-generated: true
 ---
 
 ### Key Points

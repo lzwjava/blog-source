@@ -1,10 +1,10 @@
 ---
-title: "AI Tool Use in APIs Explained"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AI Tool Use in APIs Explained
 translated: false
-generated: true
 ---
 
 ### What is Tool Use in AI APIs?

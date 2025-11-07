@@ -1,11 +1,11 @@
 ---
-title: Configuring Copilot for Custom Models
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Configuring Copilot for Custom Models
+translated: false
 ---
 
 When you select "managed models" in GitHub Copilot and still see GPT-4.1 as the default, or can't use Grok or Kimi models from OpenRouter as expected, there are a few potential reasons and steps to address this. Here's a breakdown of the issue and how to configure Copilot to use Grok or Kimi models via OpenRouter:

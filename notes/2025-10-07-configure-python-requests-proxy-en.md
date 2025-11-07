@@ -1,12 +1,12 @@
 ---
-title: Configure Python Requests Proxy via .env
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Configure Python Requests Proxy via .env
+translated: false
 ---
 
 ### Using a `.env` File to Set HTTP/HTTPS Proxies for Python Requests

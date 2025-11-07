@@ -1,12 +1,12 @@
 ---
-title: Web Design and Production Course Outline
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Web Design and Production Course Outline
+translated: false
 ---
 
 This course is part of the National Higher Education Self-Study Examination (自学考试) in Guangdong Province, China. It is a professional foundation course for the Digital Media Art Design (Associate) major, emphasizing practical skills in HTML5 and CSS3 for web page creation and layout. The course is highly practical, focusing on building complete, aesthetically pleasing web pages.

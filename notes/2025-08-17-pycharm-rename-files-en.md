@@ -1,11 +1,11 @@
 ---
-title: PyCharm Rename Files Safely and Smartly
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: PyCharm Rename Files Safely and Smartly
+translated: false
 ---
 
 Yes — if you use **PyCharm’s refactoring feature** (right-click the file → Refactor → Rename, or press `Shift+F6` on the file name), it will not just rename the file on disk but also update **all references and import statements** that point to it, as long as they are resolvable inside the project.

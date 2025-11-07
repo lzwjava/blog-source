@@ -1,12 +1,12 @@
 ---
-title: Scott Wu on AI, Devin, and Windsurf Acquisition
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Scott Wu on AI, Devin, and Windsurf Acquisition
+translated: false
 ---
 
 Here’s what **Scott Wu**, CEO of **Cognition**, discussed with **John Collison** (co-founder of Stripe) in their recent conversation—published **August 27, 2025** on the *Cheeky Pint* podcast, hosted by Collison:

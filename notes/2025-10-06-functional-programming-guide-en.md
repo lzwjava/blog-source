@@ -1,12 +1,12 @@
 ---
-title: Java Functional Programming Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Java Functional Programming Guide
+translated: false
 ---
 
 Java has embraced functional programming principles since Java 8, introducing lambdas, streams, and other features that make code more concise, readable, and declarative. This guide covers the fundamentals to advanced concepts, assuming familiarity with core Java. We'll use Java 8+ syntax, as that's when these features debuted. Examples are in Java code blocks for easy copying.

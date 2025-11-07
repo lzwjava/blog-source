@@ -1,12 +1,12 @@
 ---
-title: Arch Linux ISO Verification GPG Key
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Arch Linux ISO Verification GPG Key
+translated: false
 ---
 
 You have this GPG key (the one belonging to Pierre Schmitz, with fingerprint `3E80CA1A8B89F69CBA57D98A76A5EF9054449A5C`) in your keyring because it's the official signing key used by Arch Linux developers to cryptographically sign their ISO images. This ensures the download is authentic and hasn't been tampered with.

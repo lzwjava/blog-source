@@ -1,10 +1,10 @@
 ---
-title: China Infrastructure
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: China Infrastructure
 translated: false
-generated: true
 ---
 
 China has a rich history of infrastructure that rivals the Golden Gate Bridge in terms of engineering ambition, cultural significance, and historical impact. While the Golden Gate, completed in 1937, is a modern icon of steel suspension design, China’s infrastructure spans millennia—featuring ancient bridges, roads, and buildings alongside cutting-edge modern projects. Here are some examples that carry a comparable legacy or historical weight:

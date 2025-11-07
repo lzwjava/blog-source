@@ -1,12 +1,12 @@
 ---
-title: Mainland Migration Stabilizes Hong Kong Population
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Mainland Migration Stabilizes Hong Kong Population
+translated: false
 ---
 
 ### Migration from Mainland China to Hong Kong: Recent Years (2020–2024)

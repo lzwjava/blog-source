@@ -1,10 +1,10 @@
 ---
-title: "GreptimeDB's Strengths and Challenges"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: GreptimeDB's Strengths and Challenges
 translated: false
-generated: true
 ---
 
 Let me search for more specific technical issues and limitations with GreptimeDB.GreptimeDB is in a much better position than TiDB, but it does have some potential challenges:

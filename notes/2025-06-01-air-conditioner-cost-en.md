@@ -1,10 +1,10 @@
 ---
-title: Air Conditioner Cost in Guangzhou
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Air Conditioner Cost in Guangzhou
 translated: false
-generated: true
 ---
 
 To calculate the cost of running a typical air conditioner for one hour in Guangzhou, we need to consider the air conditioner's power consumption, the local electricity rate, and its energy efficiency. Here's the breakdown:

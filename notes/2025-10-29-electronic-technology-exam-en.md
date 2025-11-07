@@ -1,12 +1,12 @@
 ---
-title: Electronic Technology Fundamentals Exam Questions
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Electronic Technology Fundamentals Exam Questions
+translated: false
 ---
 
 ### Sample Exam Questions: Fundamentals of Electronic Technology (III)  

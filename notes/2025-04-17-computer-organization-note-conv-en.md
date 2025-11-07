@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Computer Organization Note - Conversation"
 audio: true
+layout: post
+title: Computer Organization Note - Conversation
 ---
 
 A: Hey, I’ve been hearing a lot about semiconductor memory lately. Can you break it down for me?
@@ -119,4 +119,3 @@ B: Graphene, carbon nanotubes—materials with better conductivity and scalabili
 A: This has been eye-opening. Any final thoughts on why semiconductor memory matters so much?
 
 B: It’s the backbone of computing—speed, size, and efficiency dictate what devices can do. From phones to supercomputers, it’s what keeps the digital world spinning.
-

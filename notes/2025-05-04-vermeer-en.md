@@ -1,10 +1,10 @@
 ---
-title: Johannes Vermeer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Johannes Vermeer
 translated: false
-generated: true
 ---
 
 Johannes Vermeer (1632–1675) was a Dutch Baroque painter, celebrated for his masterful use of light, color, and composition in creating intimate, serene scenes of domestic life. Born in Delft, Netherlands, Vermeer lived during the Dutch Golden Age, a period of extraordinary cultural and economic prosperity. Despite his modest output—only about 34 to 36 paintings are confidently attributed to him—Vermeer is now regarded as one of the greatest artists in Western art history, though he remained relatively obscure during his lifetime.

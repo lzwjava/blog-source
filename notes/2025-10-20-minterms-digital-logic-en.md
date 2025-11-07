@@ -1,12 +1,12 @@
 ---
-title: Minterms in Digital Logic Design
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Minterms in Digital Logic Design
+translated: false
 ---
 
 ### What is a Minterm in Digital Circuits?

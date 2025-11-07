@@ -1,12 +1,12 @@
 ---
-title: Fixing GPG Signature Verification Errors
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Fixing GPG Signature Verification Errors
+translated: false
 ---
 
 ### Understanding the Error

@@ -1,10 +1,10 @@
 ---
-title: "Richard Feynman on AI: 2025 Perspective"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Richard Feynman on AI: 2025 Perspective'
 translated: false
-generated: true
 ---
 
 Richard Feynman's 1985 lecture on artificial intelligence (AI) offers a mix of prescient insights and points that, with the benefit of 2025 hindsight, appear limited or outdated. Below, I evaluate his key arguments in light of AI developments as of June 22, 2025, identifying what he got right, what holds true, and where he was mistaken or overly cautious, while grounding the analysis in his original text.

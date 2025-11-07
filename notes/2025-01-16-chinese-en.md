@@ -1,7 +1,7 @@
 ---
-layout: post  
-title: "University Chinese"  
-audio: true  
+audio: true
+layout: post
+title: University Chinese
 ---
 
 ### I. Overview of Exam Content
@@ -121,4 +121,3 @@ audio: true
 98. **Gender Perspectives in Literature**: Analyzing gender roles and the influence of feminist thought in literary works.
 99. **Literature and Psychology**: How psychological theories and human behavior are represented in literature.
 100. **Ethical Functions of Literature**: The moral lessons conveyed by literature through character behavior and narrative outcomes.
-

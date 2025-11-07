@@ -1,10 +1,10 @@
 ---
-title: Computer Networks Figures
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Computer Networks Figures
 translated: false
-generated: true
 ---
 
 The field of computer networks has been shaped by numerous influential academics and researchers. Here are some highly influential figures who have made significant contributions to the areas covered in your course content:

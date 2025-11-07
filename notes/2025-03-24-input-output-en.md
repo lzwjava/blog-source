@@ -1,10 +1,10 @@
 ---
-title: Interconnection and Input/Output Organization
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Interconnection and Input/Output Organization
 translated: false
-generated: true
 ---
 
 Below is a detailed tutorial on “Interconnection and Input/Output Organization” that breaks down the core concepts, structures, and protocols essential for understanding how different computer components interact. This chapter is critical for appreciating how data flows within a computer system and how various peripherals communicate with the CPU and memory.

@@ -1,10 +1,10 @@
 ---
-title: Hitachi
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Hitachi
 translated: false
-generated: true
 ---
 
 Hitachi, Ltd. is a global Japanese conglomerate headquartered in Tokyo, Japan, renowned for its diverse portfolio spanning technology, manufacturing, and services. Founded in 1910 by Namihei Odaira in Hitachi, Ibaraki Prefecture, the company began as a small electrical repair shop for a copper mining company. Over the past century, Hitachi has evolved into a multinational powerhouse, operating in sectors such as information technology (IT), energy, automotive systems, infrastructure, and social innovation. Its mission, "Contribute to society through the development of superior, original technology and products," reflects its commitment to addressing global challenges through innovation.

@@ -1,10 +1,10 @@
 ---
-title: Viva La Vida
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Viva La Vida
 translated: false
-generated: true
 ---
 
 Here are the complete lyrics to *Viva La Vida* by Coldplay, as sourced from reliable online references:

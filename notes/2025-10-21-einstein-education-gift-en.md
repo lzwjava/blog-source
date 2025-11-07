@@ -1,12 +1,12 @@
 ---
-title: Einstein on Education as a Gift
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Einstein on Education as a Gift
+translated: false
 ---
 
 Yes, that quote is indeed attributed to Albert Einstein. The original English version from his 1952 interview (later reprinted in his book *Ideas and Opinions*) reads:

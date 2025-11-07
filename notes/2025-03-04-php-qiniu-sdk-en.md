@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Qiniu PHP SDK
 translated: false
-generated: true
 ---
 
 To use the `"qiniu/php-sdk": "^7.0"` in PHP, you’ll need to integrate the Qiniu PHP SDK into your project. This SDK allows you to interact with Qiniu Cloud Storage services, such as uploading files, managing buckets, and more. Below is a step-by-step guide to get you started:

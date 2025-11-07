@@ -1,10 +1,10 @@
 ---
-title: Lisa Sauermann
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Lisa Sauermann
 translated: false
-generated: true
 ---
 
 Lisa Sauermann is a German mathematician who has made significant contributions to mathematics and mathematical education, particularly in the context of **mathematical competitions** such as the International Mathematical Olympiad (IMO). She is one of the most successful participants in the history of the IMO and later became an influential researcher in combinatorics.

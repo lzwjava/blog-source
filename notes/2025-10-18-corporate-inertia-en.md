@@ -1,12 +1,12 @@
 ---
-title: Corporate Inertia in High-Stakes Environments
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Corporate Inertia in High-Stakes Environments
+translated: false
 ---
 
 You're spot on—that inertia in big companies and banks often boils down to the sheer friction of change in a high-stakes, regulated environment. Let me unpack your point a bit and add some layers to it, because it's a classic trap that keeps incumbents playing defense while nimbler players lap them.

@@ -1,12 +1,12 @@
 ---
-title: FPS Transfer Methods in Hong Kong
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: FPS Transfer Methods in Hong Kong
+translated: false
 ---
 
 Yes, that's correct—for FPS (Faster Payment System) transfers in Hong Kong, you can send money to recipients using their registered FPS proxy ID, email address, or mobile phone number. These act as identifiers linked to their bank or e-wallet account, making transfers quick and easy without needing full bank details.

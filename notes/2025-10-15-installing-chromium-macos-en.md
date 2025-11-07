@@ -1,12 +1,12 @@
 ---
-title: Installing Chromium on macOS
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Installing Chromium on macOS
+translated: false
 ---
 
 Yes, macOS can absolutely install Chromium as an alternative to Google Chrome. Chromium is the open-source foundation that Chrome is built on, so it's very similar in functionality but lacks some proprietary Google features like automatic updates and certain codecs.

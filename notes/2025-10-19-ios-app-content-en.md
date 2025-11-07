@@ -1,12 +1,12 @@
 ---
-title: iOS App Content Structure with NSArray
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: iOS App Content Structure with NSArray
+translated: false
 ---
 
 ### Structuring Analog Electronics Content in an iOS App Using NSArray and NSString

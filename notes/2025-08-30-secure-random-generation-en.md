@@ -1,12 +1,12 @@
 ---
-title: Secure Random Generation with Python Secrets
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Secure Random Generation with Python Secrets
+translated: false
 ---
 
 ### Introduction to the `secrets` Module

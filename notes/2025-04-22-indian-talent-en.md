@@ -1,10 +1,10 @@
 ---
-title: Indian Talents
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Indian Talents
 translated: false
-generated: true
 ---
 
 While pinpointing every Indian or person of Indian descent with a computer-related PhD from MIT, Stanford, or an Ivy League institution would require access to extensive alumni databases, which is not feasible, I can certainly highlight some highly influential figures in computer science who fit this description or have strong connections to these universities.

@@ -1,12 +1,12 @@
 ---
-title: DeepSeek Sparse Attention Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-4.5-sonnet
+title: DeepSeek Sparse Attention Explained
+translated: false
 ---
 
 Now I have comprehensive information about DeepSeek Sparse Attention (DSA) in DeepSeek-V3.2-Exp. Let me provide a detailed explanation.

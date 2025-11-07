@@ -1,11 +1,11 @@
 ---
-title: Trump’s Ban on Chinese STEM Students
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Trump’s Ban on Chinese STEM Students
+translated: false
 ---
 
 Here’s a **comprehensive introduction to Proclamation 10043**, with historical background, key details, and impacts.

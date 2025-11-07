@@ -1,11 +1,11 @@
 ---
-title: Standard Chartered H1 2025 Growth and Workforce
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Standard Chartered H1 2025 Growth and Workforce
+translated: false
 ---
 
 Here’s what I found regarding Standard Chartered’s performance and workforce as of the first half of 2025:

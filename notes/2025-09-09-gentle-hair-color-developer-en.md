@@ -1,13 +1,13 @@
 ---
-title: Gentle Developer for Hair Coloring
-date: 2025-09-09
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-09
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Gentle Developer for Hair Coloring
+translated: false
 ---
 
 In hairdressing, *“oxidant color 3%”* usually refers to a **developer/oxidizing lotion** with a hydrogen peroxide concentration of **3% (10 volume)**.

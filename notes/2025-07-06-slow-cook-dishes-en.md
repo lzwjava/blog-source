@@ -1,10 +1,10 @@
 ---
-title: "Mastering Slow-Cooked Delights"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Mastering Slow-Cooked Delights
 translated: false
-generated: true
 ---
 
 Patient cooking, that's a wonderful skill to cultivate! It often leads to incredibly flavorful and tender results. Besides porridge, which is a classic, there are many dishes that benefit from long cooking times. Here's a selection, categorized for easier Browse, along with why they take time:

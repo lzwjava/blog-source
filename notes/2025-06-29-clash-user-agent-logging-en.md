@@ -1,10 +1,10 @@
 ---
-title: "Log User-Agent in Clash Proxy"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Log User-Agent in Clash Proxy
 translated: false
-generated: true
 ---
 
 It seems you're referring to **Clash**, a rule-based proxy utility, and want to configure it to print or log the **User-Agent** of its HTTP requests. Based on available information, Clash (or its core, often referred to as `clash-core`) doesn't have a built-in feature to directly print the User-Agent of outgoing requests in a straightforward way. However, you can achieve this by leveraging Clash's configuration options, external tools, or debugging methods. Below is a step-by-step guide to help you log or inspect the User-Agent of requests made through Clash.

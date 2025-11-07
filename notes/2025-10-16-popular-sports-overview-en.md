@@ -1,12 +1,12 @@
 ---
-title: World's Most Popular Sports Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: World's Most Popular Sports Overview
+translated: false
 ---
 
 ### Major Sports Overview

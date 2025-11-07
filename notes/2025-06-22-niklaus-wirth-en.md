@@ -1,10 +1,10 @@
 ---
-title: Niklaus Wirth 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Niklaus Wirth
 translated: false
-generated: true
 ---
 
 Niklaus Emil Wirth (February 15, 1934 – January 1, 2024) was a Swiss computer scientist renowned for his foundational contributions to programming languages, software engineering, and computer science education. Widely regarded as one of the most influential figures in the field, Wirth’s work emphasized simplicity, clarity, and efficiency in software design. His development of several programming languages, most notably Pascal, and his advocacy for structured programming have left a lasting impact on the discipline. Below is a comprehensive introduction to his life, career, and legacy.

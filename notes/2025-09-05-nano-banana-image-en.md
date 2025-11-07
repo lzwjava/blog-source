@@ -1,11 +1,11 @@
 ---
-title: Nano Banana Advanced Image Editing Model
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Nano Banana Advanced Image Editing Model
+translated: false
 ---
 
 Nano Banana is the name for a new image editing and generation model from Google DeepMind, which has been integrated into the Gemini app and other Google services. It's designed to excel in image editing tasks, with a particular focus on maintaining consistency and likeness across multiple edits.

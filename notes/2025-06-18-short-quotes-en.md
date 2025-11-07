@@ -1,10 +1,10 @@
 ---
-title: Short Quotes
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Short Quotes
 translated: false
-generated: true
 ---
 
 Here are 30 short quotes, diverse in theme and source, each concise and impactful:

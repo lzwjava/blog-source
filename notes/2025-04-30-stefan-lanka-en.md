@@ -1,10 +1,10 @@
 ---
-title: "Stefan Lanka: A Figurehead of Germ Theory Denial"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Stefan Lanka: A Figurehead of Germ Theory Denial'
 translated: false
-generated: true
 ---
 
 Stefan Lanka is a German former virologist who has gained notoriety for his controversial views challenging fundamental tenets of modern medicine, particularly the existence of viruses and the efficacy of vaccines. He is a prominent figure in the "germ theory denial" movement.

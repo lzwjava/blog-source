@@ -1,12 +1,12 @@
 ---
-title: Air Fryer Taro Root Recipe
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Air Fryer Taro Root Recipe
+translated: false
 ---
 
 My apologies for the mix-up! You're referring to **芋头** (yùtóu in Mandarin), which is **taro root**, a starchy, small, round tuber similar in size and shape to a small potato, often used in Chinese and other Asian cuisines. Taro has a nutty, mildly sweet flavor and a creamy texture when cooked. Here's how to cook taro (yùtóu) in an air fryer to get a crispy exterior and tender interior, perfect as a snack or side dish. This recipe serves 2–4 and takes about 20–25 minutes.

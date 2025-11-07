@@ -1,12 +1,12 @@
 ---
-title: Golden Week Holiday Arrangements in China
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Golden Week Holiday Arrangements in China
+translated: false
 ---
 
 Great question! Let me break it down for you clearly:

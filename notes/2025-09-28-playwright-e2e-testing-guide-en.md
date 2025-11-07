@@ -1,12 +1,12 @@
 ---
-title: Playwright End-to-End Testing Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-sonnet-4
+title: Playwright End-to-End Testing Guide
+translated: false
 ---
 
 ## What is Playwright?

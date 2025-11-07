@@ -1,10 +1,10 @@
 ---
-title: China
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: China
 translated: false
-generated: true
 ---
 
 **Official Name**: People's Republic of China (PRC)  

@@ -1,12 +1,12 @@
 ---
-title: NetworkX Graph Creation and Analysis Examples
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: NetworkX Graph Creation and Analysis Examples
+translated: false
 ---
 
 NetworkX is a powerful Python library for creating, analyzing, and visualizing complex networks. Here are several examples demonstrating its capabilities:

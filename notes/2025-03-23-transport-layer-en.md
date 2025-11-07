@@ -1,10 +1,10 @@
 ---
-title: Transport Layer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Transport Layer
 translated: false
-generated: true
 ---
 
 Below is a detailed tutorial to help you learn the **Transport Layer** chapter in a course like *Computer Networks Technology (02141)* under the Chinese Higher Education Self-Study Examination (自考) system. This tutorial focuses on the Transport Layer’s functions (end-to-end communication, reliability, congestion control), protocols (TCP and UDP), port numbers and multiplexing, and flow and error control mechanisms. It’s designed to be comprehensive, beginner-friendly, and aligned with the technical depth expected in such a course.

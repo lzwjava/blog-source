@@ -1,10 +1,10 @@
 ---
-title: Fixing TeX Live tlmgr User Mode
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fixing TeX Live tlmgr User Mode
 translated: false
-generated: true
 ---
 
 The error indicates that `tlmgr` user mode is not initialized on your Debian/Ubuntu system. This is a common issue with TeX Live installations from Ubuntu repositories. Here's how to fix it:

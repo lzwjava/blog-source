@@ -1,12 +1,12 @@
 ---
-title: Quick Sort Versus Merge Sort
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Quick Sort Versus Merge Sort
+translated: false
 ---
 
 ### Why Quick Sort Feels Tricky (and Merge Sort Doesn't)

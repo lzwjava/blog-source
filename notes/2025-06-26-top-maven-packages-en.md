@@ -1,10 +1,11 @@
 ---
-title: "Top 100 Maven Java Packages of 2025: Challenges in Ranking by Downloads and Impact"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Top 100 Maven Java Packages of 2025: Challenges in Ranking by Downloads and
+  Impact'
 translated: false
-generated: true
 ---
 
 Compiling a precise list of the top 100 Maven Java packages for 2025, ranked by downloads and impact, is challenging due to the lack of comprehensive, up-to-date public data on Maven Central's download statistics and usage metrics. Maven Central does not natively provide detailed public download counts or impact metrics (e.g., dependent projects or usage in open-source repositories), and while some tools like Nexus Repository Manager offer limited statistics, they are often restricted to specific artifacts or lack granular, real-time data. Additionally, impact is a subjective metric, often inferred from factors like the number of dependent projects, GitHub stars, or community adoption, which further complicates ranking.[](https://stackoverflow.com/questions/57960511/maven-artifact-how-to-obtain-all-statistics-not-only-download-on-maven-centra)[](https://www.reddit.com/r/java/comments/3u9sf0/why_no_public_stats_on_maven/)

@@ -1,11 +1,11 @@
 ---
-title: JD.com Launches AI-Powered E-commerce Tool
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: JD.com Launches AI-Powered E-commerce Tool
+translated: false
 ---
 
 JD.com recently launched its proprietary AI-powered e-commerce tool, Jingdiandian (京点点), which is designed to revolutionize how merchants create and manage product content. Here’s what makes it stand out:

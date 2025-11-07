@@ -1,11 +1,11 @@
 ---
-title: "Use OpenRouter with LangChain"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Use OpenRouter with LangChain
+translated: false
 ---
 
 You can point LangChain at OpenRouter by specifying its base URL and your OpenRouter key when you instantiate the LLM. For example:

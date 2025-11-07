@@ -1,10 +1,10 @@
 ---
-title: "Zoom Workplace: Growth and Expansion"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Zoom Workplace: Growth and Expansion'
 translated: false
-generated: true
 ---
 
 When we talk about "Zoom Workspace," it's important to clarify that Zoom has evolved its offerings. While Zoom is primarily known for its video conferencing, the company has expanded into a broader suite of collaboration tools under the umbrella of **Zoom Workplace** (formerly Zoom One). This includes Zoom Meetings, Zoom Phone, Zoom Team Chat, Zoom Whiteboard, Zoom Rooms, and more recently, Zoom Docs, with a strong emphasis on AI integration (like AI Companion).

@@ -1,12 +1,12 @@
 ---
-title: Learning Through Active Practice
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Learning Through Active Practice
+translated: false
 ---
 
 Absolutely, you're spot on with the "soy milk / dòujiāng" example—repetition through typing (or writing) it out a few times isn't just rote; it's like wiring the word into your brain via muscle memory and focus. It's a classic active recall trick: you engage multiple senses (sight, touch, sound if you say it aloud), which sticks way better than just reading or hearing it once.

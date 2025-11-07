@@ -1,10 +1,10 @@
 ---
-title: AI and Competitive Programming
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AI and Competitive Programming
 translated: false
-generated: true
 ---
 
 While AI is rapidly advancing in its ability to solve competitive programming problems, platforms like LeetCode and Codeforces still offer significant value for individuals looking to improve their coding skills and advance their careers. Here's a breakdown of why they remain useful:

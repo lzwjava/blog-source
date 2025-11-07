@@ -1,11 +1,11 @@
 ---
-title: Post Pandemic U.S. CS Masters Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Post Pandemic U.S. CS Masters Guide
+translated: false
 ---
 
 https://mp.weixin.qq.com/s/9FeX8D-q2xy_4eYztTMj3A

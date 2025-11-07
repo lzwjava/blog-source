@@ -1,12 +1,12 @@
 ---
-title: China Telecom CN1 Network Analysis
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: China Telecom CN1 Network Analysis
+translated: false
 ---
 
 Based on the traceroute you shared from a Meiyijia convenience store WiFi in Guangzhou, this appears to be using China Telecom's standard ChinaNet backbone (often referred to as CN1), not the premium CN2 network. Here's a quick breakdown of why:

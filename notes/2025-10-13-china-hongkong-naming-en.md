@@ -1,12 +1,12 @@
 ---
-title: Naming Places in China and Hong Kong
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Naming Places in China and Hong Kong
+translated: false
 ---
 
 ### Current Practices in Naming Places in Mainland China vs. Hong Kong

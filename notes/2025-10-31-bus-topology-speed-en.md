@@ -1,12 +1,12 @@
 ---
-title: Bus Topology Speed Limitations Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Bus Topology Speed Limitations Explained
+translated: false
 ---
 
 ### Bus Topology Limitations

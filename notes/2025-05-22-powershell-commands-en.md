@@ -1,10 +1,10 @@
 ---
-title: PowerShell Commands Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: PowerShell Commands Guide
 translated: false
-generated: true
 ---
 
 ## Introduction to PowerShell

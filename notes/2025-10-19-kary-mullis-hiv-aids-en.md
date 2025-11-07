@@ -1,12 +1,12 @@
 ---
-title: Kary Mullis on HIV and AIDS
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Kary Mullis on HIV and AIDS
+translated: false
 ---
 
 Kary Mullis, the Nobel Prize-winning inventor of the polymerase chain reaction (PCR) technique, was a vocal skeptic of the mainstream scientific consensus that HIV directly causes AIDS. He argued that there was no conclusive proof linking HIV to the disease and viewed AIDS not as a single condition caused by one virus, but as a syndrome resulting from multiple factors, including exposure to a broad range of retroviruses (the family that includes HIV).

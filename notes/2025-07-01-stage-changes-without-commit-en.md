@@ -1,10 +1,10 @@
 ---
-title: "Stage Changes in Pre-Commit Hook"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Stage Changes in Pre-Commit Hook
 translated: false
-generated: true
 ---
 
 To integrate the changes from the `update_notes_link.py` script into the current commit (instead of creating a separate commit) during a pre-commit hook, you’ll need to modify the hook to stage the updated files without committing them separately. This way, the changes from the Python script will be included in the user’s commit. Below, I’ll provide a revised pre-commit hook script that achieves this.

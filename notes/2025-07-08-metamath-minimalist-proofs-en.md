@@ -1,10 +1,10 @@
 ---
-title: "Norman Megill and Metamath's Rigorous Proofs"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Norman Megill and Metamath's Rigorous Proofs
 translated: false
-generated: true
 ---
 
 Dr. Norman Dwight Megill (1950-2021) was a highly influential figure in the field of formal mathematics and automated proof verification, best known as the primary author and driving force behind the **Metamath** project. His work centered on creating a uniquely simple yet powerful system for expressing and rigorously verifying mathematical proofs by computer.

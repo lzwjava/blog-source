@@ -1,10 +1,10 @@
 ---
-title: Using Cline in VSCode
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Using Cline in VSCode
 translated: false
-generated: true
 ---
 
 ### Key Points

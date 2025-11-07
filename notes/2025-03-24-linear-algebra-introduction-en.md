@@ -1,10 +1,10 @@
 ---
-title: "Linear Algebra - Introduction to Scalars, Vectors, and Matrices"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Linear Algebra - Introduction to Scalars, Vectors, and Matrices
 translated: false
-generated: true
 ---
 
 ## **1. Introduction**  

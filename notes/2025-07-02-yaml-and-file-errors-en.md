@@ -1,10 +1,10 @@
 ---
-title: Fixing Jekyll YAML and File Errors
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fixing Jekyll YAML and File Errors
 translated: false
-generated: true
 ---
 
 The output you've provided shows two types of errors:

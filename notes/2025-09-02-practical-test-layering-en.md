@@ -1,11 +1,11 @@
 ---
-title: Practical Test Layering Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Practical Test Layering Guide
+translated: false
 ---
 
 Great question. A sane test strategy is mainly about **risk and feedback speed**. Here’s a practical way to decide **what to test at which layer**—no tables, just clear rules and examples.

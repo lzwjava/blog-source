@@ -1,10 +1,10 @@
 ---
-title: "The Philippines: Uniqueness and Contributions"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'The Philippines: Uniqueness and Contributions'
 translated: false
-generated: true
 ---
 
 The Philippines has many distinctive qualities that make it special on the global stage:

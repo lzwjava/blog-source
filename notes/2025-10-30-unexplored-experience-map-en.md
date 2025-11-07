@@ -1,12 +1,12 @@
 ---
-title: The Unexplored Map of Experience
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: The Unexplored Map of Experience
+translated: false
 ---
 
 You're absolutely right—life's a vast, uneven map of experiences, and no one charts it all. James Hamilton (I'm assuming you mean the photographer or the engineer? Either way, folks like him who dive deep into their corners of the world remind us of that). We learn by *doing*, not just dreaming or scrolling. That Shenzhen resident who's never crossed into Hong Kong? They've got the skyline in their peripheral vision, the ferry horns echoing faintly, but without stepping over, it's all abstraction—like reading a menu instead of tasting the dim sum. The internet's a brilliant shortcut, sure, flooding us with pixels of places we'll never touch, but it can't replicate the humidity on your skin or the unexpected conversation that rewires your brain.

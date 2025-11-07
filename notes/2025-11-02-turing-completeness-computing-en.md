@@ -1,12 +1,12 @@
 ---
-title: Understanding Turing-Completeness in Computing
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Understanding Turing-Completeness in Computing
+translated: false
 ---
 
 ### What Does "Turing-Complete" Mean?

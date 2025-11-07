@@ -1,10 +1,10 @@
 ---
-title: Jack Kilby
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Jack Kilby
 translated: false
-generated: true
 ---
 
 Jack St. Clair Kilby (November 8, 1923 – June 20, 2005) was an American electrical engineer and Nobel laureate whose groundbreaking invention of the integrated circuit (IC) in 1958 revolutionized electronics, laying the foundation for modern computing, telecommunications, and consumer electronics. His work fundamentally transformed the world by enabling the miniaturization of electronic devices, making them faster, more efficient, and more affordable. Kilby’s contributions extended beyond the IC, encompassing innovations in semiconductor technology and applications that shaped industries and everyday life.

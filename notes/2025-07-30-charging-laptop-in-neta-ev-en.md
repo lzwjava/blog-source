@@ -1,11 +1,11 @@
 ---
-title: Charging Lenovo Laptop in Neta EV
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Charging Lenovo Laptop in Neta EV
+translated: false
 ---
 
 ### Understanding the Issue with Charging Your Lenovo Laptop in a Neta EV

@@ -1,12 +1,12 @@
 ---
-title: GPG Core Concepts and Operations
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: GPG Core Concepts and Operations
+translated: false
 ---
 
 Yes, that's a solid high-level way to think about GPG (GnuPG)—it primarily revolves around two core areas:

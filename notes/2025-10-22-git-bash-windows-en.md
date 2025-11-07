@@ -1,12 +1,12 @@
 ---
-title: Git Bash for Windows Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Git Bash for Windows Explained
+translated: false
 ---
 
 ### How Git Bash Works

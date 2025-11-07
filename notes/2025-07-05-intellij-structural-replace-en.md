@@ -1,10 +1,10 @@
 ---
-title: "Mastering IntelliJ's Structural Replace"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Mastering IntelliJ's Structural Replace
 translated: false
-generated: true
 ---
 
 Sure, let's break down IntelliJ IDEA's Structural Replace feature.

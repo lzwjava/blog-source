@@ -1,10 +1,10 @@
 ---
-title:  Field-Programmable Gate Array 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Field-Programmable Gate Array
 translated: false
-generated: true
 ---
 
 A Field-Programmable Gate Array (FPGA) is a versatile semiconductor device that can be configured by a designer after manufacturing. Unlike Application-Specific Integrated Circuits (ASICs) which are custom-designed for a specific purpose and cannot be changed after fabrication, FPGAs offer the flexibility to implement virtually any digital circuit or system. This reconfigurability makes them incredibly powerful for a wide range of applications.

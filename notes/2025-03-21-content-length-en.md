@@ -1,10 +1,10 @@
 ---
-title: HTTP Content-Length Header
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: HTTP Content-Length Header
 translated: false
-generated: true
 ---
 
 The unit of the **Content-Length** header in the HTTP protocol is **bytes**. 

@@ -1,10 +1,10 @@
 ---
-title: Hidden Champions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Hidden Champions
 translated: false
-generated: true
 ---
 
 Okay, here are some other companies and startups that could be considered "hidden champions" in today's world, keeping in mind the broader interpretation of the term:

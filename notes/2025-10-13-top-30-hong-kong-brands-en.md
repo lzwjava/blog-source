@@ -1,12 +1,12 @@
 ---
-title: Top 30 Strongest Hong Kong Brands
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Top 30 Strongest Hong Kong Brands
+translated: false
 ---
 
 ### Top 30 Strongest Brands in Hong Kong (Kantar BrandZ 2024)

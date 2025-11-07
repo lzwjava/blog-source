@@ -1,10 +1,10 @@
 ---
-title: Reid Barton
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Reid Barton
 translated: false
-generated: true
 ---
 
 Reid Barton is a highly accomplished mathematician and competitive problem-solver, known for his exceptional performance in mathematics competitions, including being a four-time **International Mathematical Olympiad (IMO)** gold medalist (the first person to achieve this), a **Putnam Fellow** four times (a record), and a participant in the **ACM International Collegiate Programming Contest (ICPC)**. His achievements offer valuable lessons not only in mathematics but also in learning strategies, discipline, and intellectual growth.

@@ -1,8 +1,8 @@
 ---
-title: BeanDefinitionStoreException in Spring Boot
+audio: fasle
 lang: en
 layout: post
-audio: fasle
+title: BeanDefinitionStoreException in Spring Boot
 translated: false
 ---
 

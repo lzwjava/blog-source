@@ -1,11 +1,11 @@
 ---
-title: Top JDBC Drivers by Database 2024
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Top JDBC Drivers by Database 2024
+translated: false
 ---
 
 The popularity of JDBC drivers depends on the database system in use, as each database typically has its own specific driver. Based on current usage trends, community adoption, and compatibility, here are some of the most popular JDBC drivers for widely used databases:

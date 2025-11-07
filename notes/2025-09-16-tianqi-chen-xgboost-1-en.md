@@ -1,12 +1,12 @@
 ---
-title: "Tianqi Chen: XGBoost Creator and AI Researcher"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: 'Tianqi Chen: XGBoost Creator and AI Researcher'
+translated: false
 ---
 
 Tianqi Chen (陈天奇) is a prominent computer scientist and machine learning researcher best known for his contributions to **XGBoost (Extreme Gradient Boosting)**, one of the most widely used machine learning algorithms in data science and Kaggle competitions. Here’s an overview of his journey and work:

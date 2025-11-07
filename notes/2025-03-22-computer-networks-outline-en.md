@@ -1,10 +1,10 @@
 ---
-title: "Course Outline: Computer Networks Technology (02141)"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Course Outline: Computer Networks Technology (02141)'
 translated: false
-generated: true
 ---
 
 The course **Computer Networks Technology** (likely coded as 02141 or similar in the Chinese Self-Study Exam system) is a technical subject commonly offered in computer science or related majors under the Higher Education Self-Study Examination (自考) in China, including Guangdong Province. While I don’t have direct access to the exact 2025 Guangdong syllabus for course code 02141, I can provide a general outline based on standard content for such a course in the self-study exam framework, informed by typical computer networking curricula and the structure of similar courses in China’s self-study system.

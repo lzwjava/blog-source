@@ -1,11 +1,11 @@
 ---
-title: Fixing Pyperclip Installation Error
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fixing Pyperclip Installation Error
+translated: false
 ---
 
 The error occurs during the installation of the `pyperclip` package, specifically when building its wheel, due to an issue in the `setuptools` package related to the `install_layout` attribute. This is likely caused by an incompatibility between the version of `setuptools` and the Python environment or a deprecated option in the `pyperclip` setup process. Here's how to fix it:

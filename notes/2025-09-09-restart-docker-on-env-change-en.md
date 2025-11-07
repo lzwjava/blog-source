@@ -1,13 +1,13 @@
 ---
-title: Restart Docker Containers After Env Change
-date: 2025-09-09
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-09
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Restart Docker Containers After Env Change
+translated: false
 ---
 
 When you change `.env`, Docker won’t automatically reload those environment variables. You need to restart the containers so they pick up the new values. For your LibreChat setup, you can do it like this:

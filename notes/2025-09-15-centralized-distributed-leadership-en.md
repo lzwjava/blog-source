@@ -1,12 +1,12 @@
 ---
-title: Centralized versus Distributed Software Development Leadership
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Centralized versus Distributed Software Development Leadership
+translated: false
 ---
 
 Your observation touches on a classic tension in large-scale open-source (and proprietary) software development: **centralized vision versus distributed collaboration**.

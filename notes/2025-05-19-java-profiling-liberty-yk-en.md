@@ -1,11 +1,11 @@
 ---
-title: Profiling Liberty With YourKit Java Profiler
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Profiling Liberty With YourKit Java Profiler
+translated: false
 ---
 
 WebSphere Liberty can be integrated with YourKit Java Profiler quite smoothly, since Liberty is just another JVM-based runtime. Here’s how it typically works:

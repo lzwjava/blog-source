@@ -1,12 +1,12 @@
 ---
-title: Optimizing LLM Performance with Caching
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Optimizing LLM Performance with Caching
+translated: false
 ---
 
 Great, let’s dive deeper. You’re basically describing a **prompt/result caching optimization** problem in large language model (LLM) systems. Let’s break it down step by step:

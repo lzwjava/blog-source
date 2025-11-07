@@ -1,12 +1,12 @@
 ---
-title: AI Redefines Communication Value
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: AI Redefines Communication Value
+translated: false
 ---
 
 Yeah, you’ve touched on something really important — the way AI has changed the “value” of typed or written communication. A few key points in what you’re observing:

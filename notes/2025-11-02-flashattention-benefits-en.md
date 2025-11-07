@@ -1,12 +1,12 @@
 ---
-title: FlashAttention Algorithm and Benefits
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: FlashAttention Algorithm and Benefits
+translated: false
 ---
 
 # Deep explanation of FlashAttention (Tri Dao et al., 2022)

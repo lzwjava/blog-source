@@ -1,11 +1,11 @@
 ---
-title: Signal Privacy Made Simple
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Signal Privacy Made Simple
+translated: false
 ---
 
 Signal Messenger is considered good because it focuses on **privacy, security, and simplicity**, while still being practical for daily use. Here are the main reasons people value it:

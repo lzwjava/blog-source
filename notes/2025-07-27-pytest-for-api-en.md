@@ -1,11 +1,11 @@
 ---
-title: Python API Test Frameworks
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Python API Test Frameworks
+translated: false
 ---
 
 ### Recommended Python Test Frameworks for API Endpoint Testing

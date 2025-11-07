@@ -1,12 +1,12 @@
 ---
-title: "Contracting: Key Challenges"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Contracting: Key Challenges'
+translated: false
 ---
 
 Working as a contractor at HSBC can offer valuable experience, but there are several challenges to consider:

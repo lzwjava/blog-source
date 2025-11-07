@@ -1,12 +1,12 @@
 ---
-title: Yan Junjie's Exceptional Research Impact
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Yan Junjie's Exceptional Research Impact
+translated: false
 ---
 
 ### Yan Junjie's Research Ability

@@ -1,10 +1,10 @@
 ---
-title: Hong Kong and Macau Recommendations
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Hong Kong and Macau Recommendations
 translated: false
-generated: true
 ---
 
 Based on the places you’ve visited in Hong Kong and Macau, it seems you enjoy a mix of urban exploration, scenic spots, and cultural landmarks. Here are some additional recommendations for both destinations that might complement your experiences:

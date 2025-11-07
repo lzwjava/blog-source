@@ -1,12 +1,12 @@
 ---
-title: Backend Engineering Roadmap for Scalable Systems
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Backend Engineering Roadmap for Scalable Systems
+translated: false
 ---
 
 Perfect — you want a **complete backend engineering roadmap** that builds solid foundations while progressing toward modern, scalable systems (like those used at large companies such as HSBC or Alibaba).

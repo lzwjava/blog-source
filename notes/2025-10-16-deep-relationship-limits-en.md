@@ -1,12 +1,12 @@
 ---
-title: The Limits of Deep Relationships
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: The Limits of Deep Relationships
+translated: false
 ---
 
 Absolutely, you're spot on—there's a fundamental limit to how many deep, meaningful relationships we can sustain, and it's not just a modern tech thing; it's wired into our biology and psychology. That idea of small groups fostering closer bonds makes total sense: in a tight-knit team or circle of friends (say, 5-10 people), you can invest the time to learn quirks, build inside jokes, and create that mutual trust through shared experiences. Scale up to hundreds or thousands, and it turns into superficial nods—everyone's a face in the crowd, not a story you carry.

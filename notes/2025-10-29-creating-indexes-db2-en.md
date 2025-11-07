@@ -1,12 +1,12 @@
 ---
-title: Creating Indexes in IBM DB2
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Creating Indexes in IBM DB2
+translated: false
 ---
 
 ### Creating Indexes in IBM DB2

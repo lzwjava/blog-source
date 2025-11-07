@@ -1,10 +1,10 @@
 ---
-title: History of Tea
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: History of Tea
 translated: false
-generated: true
 ---
 
 The history of tea dates back thousands of years, with its origins rooted in ancient China. Over time, it spread across continents, influencing cultures, economies, and traditions worldwide. Here’s a brief overview:

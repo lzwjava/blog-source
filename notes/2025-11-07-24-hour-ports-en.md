@@ -1,12 +1,12 @@
 ---
-title: Macau's 24-Hour Entry Ports
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Macau's 24-Hour Entry Ports
+translated: false
 ---
 
 Yes, Macau has several ports of entry that support 24-hour transit (customs clearance), primarily for cross-border travel with mainland China (such as Zhuhai) or Hong Kong. These ports typically use a "cooperative inspection, one-time clearance" model, with high efficiency and an average clearance time of about 30 seconds. Below is a brief overview of the main ports (based on the latest available data as of November 2025; always refer to official announcements for real-time details):

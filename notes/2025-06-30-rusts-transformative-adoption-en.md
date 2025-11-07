@@ -1,10 +1,10 @@
 ---
-title: "Rust's Impact on Cloudflare"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rust's Impact on Cloudflare
 translated: false
-generated: true
 ---
 
 Cloudflare's adoption of Rust has been transformative, driven by its unique blend of performance, safety, and scalability. Here’s a detailed breakdown of why Cloudflare chose Rust and the tangible results it has delivered:

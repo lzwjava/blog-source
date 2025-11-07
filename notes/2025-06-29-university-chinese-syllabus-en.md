@@ -1,10 +1,10 @@
 ---
-title: "University Chinese 2018 Syllabus Summary"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: University Chinese 2018 Syllabus Summary
 translated: false
-generated: true
 ---
 
 Below is the English translation of the provided outline and article list for the designated textbook *University Chinese (2018 Edition)* (edited by Xu Zhongyu and Tao Xingchuan, Peking University Press, ISBN: 9787301299456) for the self-study examination course **04729 University Chinese**. The translation summarizes the syllabus framework and article directory based on available online information, maintaining the structure and key details of the original response. Candidates should verify the exact article list with the textbook or local education examination authority, as content may vary by region or edition. If you have the textbook or need specific details about a unit, I can provide further clarification.

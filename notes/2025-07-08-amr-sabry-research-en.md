@@ -1,10 +1,10 @@
 ---
-title: "Amr Sabry: Programming Language Pioneer"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Amr Sabry: Programming Language Pioneer'
 translated: false
-generated: true
 ---
 
 Amr Sabry is a prominent academic in the field of Computer Science, currently a Professor at Indiana University's Luddy School of Informatics, Computing, and Engineering. He is a member of several research groups at Indiana University, including the Programming Language Group, the Foundations of Computing Group, the Program in Pure and Applied Logic, and the IU Quantum Science and Engineering Center (QSEc).

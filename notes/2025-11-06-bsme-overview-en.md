@@ -1,12 +1,12 @@
 ---
-title: Standard Chartered BSME Department Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Standard Chartered BSME Department Overview
+translated: false
 ---
 
 The Business Support, Management & Efficiency (BSME) department at Standard Chartered Bank is a function within the bank's Group Operations division. It focuses on driving operational excellence, process optimization, and cost efficiencies across the organization's global business lines. Key responsibilities include:

@@ -1,12 +1,12 @@
 ---
-title: Monic Polynomials Simplify Root Finding
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Monic Polynomials Simplify Root Finding
+translated: false
 ---
 
 A **monic polynomial** (or monic variable in the context of polynomials) is a polynomial where the leading coefficient—the coefficient of the highest power of the variable—is equal to 1. Here’s a practical use case:

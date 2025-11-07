@@ -1,10 +1,10 @@
 ---
-title: Burning a Bootloader
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Burning a Bootloader
 translated: false
-generated: true
 ---
 
 Burning a bootloader onto an Arduino Uno R3 is necessary if the microcontroller (ATmega328P) is blank, corrupted, or needs to be replaced. This process programs the chip with the firmware required to communicate with the Arduino IDE and run sketches. Below is a step-by-step guide to burn the bootloader using common methods.

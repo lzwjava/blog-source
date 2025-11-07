@@ -1,12 +1,12 @@
 ---
-title: Control-M Job Workflow and Dependencies Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Control-M Job Workflow and Dependencies Explained
+translated: false
 ---
 
 Great question! Let’s break it down step by step.

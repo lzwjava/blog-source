@@ -1,10 +1,10 @@
 ---
-title: Fixing Wi-Fi Drops on Ubuntu
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fixing Wi-Fi Drops on Ubuntu
 translated: false
-generated: true
 ---
 
 Wi-Fi disconnections on Ubuntu while wired connections remain stable can be caused by several factors. Here’s a step-by-step guide to diagnose and fix the issue:

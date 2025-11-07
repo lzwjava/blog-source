@@ -1,12 +1,12 @@
 ---
-title: Vi Editor Basics for Red Hat Linux
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Vi Editor Basics for Red Hat Linux
+translated: false
 ---
 
 Vi is a powerful, keyboard-driven text editor that's standard on Linux systems, including Red Hat Enterprise Linux (RHEL). It's lightweight and efficient for editing configuration files, scripts, and more. In Red Hat, the `vi` command typically points to `vim` (Vi IMproved), which adds features like syntax highlighting. This guide covers the basics for beginners.

@@ -1,10 +1,10 @@
 ---
-title: Common Chinese Words
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Common Chinese Words
 translated: false
-generated: true
 ---
 
 Blocking Chinese posts on X based on specific words requires careful consideration, as many common Chinese words are used in various contexts and could lead to over-filtering. Below is a list of 20 commonly used Chinese words, including 的, which are frequently found in Chinese text due to their grammatical, connective, or everyday usage. These words are general and not specific to any topic, making them prevalent in posts on X or other platforms:

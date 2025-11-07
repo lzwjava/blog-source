@@ -1,10 +1,10 @@
 ---
-title: "AI Growth and Innovations in 2025"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AI Growth and Innovations in 2025
 translated: false
-generated: true
 ---
 
 ### Key Points

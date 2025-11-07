@@ -1,11 +1,11 @@
 ---
-title: Ripgrep vs Ack Key Differences
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Ripgrep vs Ack Key Differences
+translated: false
 ---
 
 Here’s a structured comparison of **ripgrep (rg)** and **ack**, without using a table format so it’s easier to read:

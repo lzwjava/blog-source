@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Digital Electronics - Conversation"
 audio: true
+layout: post
+title: Digital Electronics - Conversation
 ---
 
 A: Hey B, I've been revisiting combinational logic design lately, specifically thinking about implementing some complex functions. Where do you usually start with a problem like that?
@@ -107,4 +107,3 @@ B: Anytime, A! Always happy to discuss digital logic.
 A: Perhaps next time we can delve into the intricacies of sequential logic design?
 
 B: Sounds like a plan! I'm looking forward to it.
-

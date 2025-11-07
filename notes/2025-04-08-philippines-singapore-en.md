@@ -1,10 +1,10 @@
 ---
-title: Philippines vs Singapore
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Philippines vs Singapore
 translated: false
-generated: true
 ---
 
 Ah! Got it — you're asking **why the Philippines is not a high-income country like Singapore**, or **why salaries in the Philippines are not as high as those in Singapore**. Thanks for the clarification.

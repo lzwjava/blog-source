@@ -1,10 +1,10 @@
 ---
-title: How Dishwashers Work
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: How Dishwashers Work
 translated: false
-generated: true
 ---
 
 ## Basic Operation Principles

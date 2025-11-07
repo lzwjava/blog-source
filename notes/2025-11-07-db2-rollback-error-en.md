@@ -1,12 +1,12 @@
 ---
-title: DB2 Transaction Rollback and Error Detection
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: moonshotai/kimi-k2-thinking
+title: DB2 Transaction Rollback and Error Detection
+translated: false
 ---
 
 ## When DB2 Performs Rollback Due to System Errors

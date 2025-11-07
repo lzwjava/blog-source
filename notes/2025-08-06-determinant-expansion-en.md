@@ -1,11 +1,11 @@
 ---
-title: "Determinant: Expansion via Linearity and Alternation"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: 'Determinant: Expansion via Linearity and Alternation'
+translated: false
 ---
 
 When you learn that the determinant is a function that is

@@ -1,10 +1,10 @@
 ---
-title: Erythritol
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Erythritol
 translated: false
-generated: true
 ---
 
 Here's a breakdown of what erythritol is:

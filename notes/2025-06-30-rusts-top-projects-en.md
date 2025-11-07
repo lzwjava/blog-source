@@ -1,10 +1,10 @@
 ---
-title: "Top Rust Open-Source Projects"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Top Rust Open-Source Projects
 translated: false
-generated: true
 ---
 
 Rust has gained significant popularity for its focus on performance, safety, and concurrency, leading to a vibrant open-source ecosystem. Here are some of the most famous and impactful Rust open-source projects across various domains:

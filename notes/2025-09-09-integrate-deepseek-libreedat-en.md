@@ -1,13 +1,13 @@
 ---
-title: Integrate DeepSeek with LibreChat Guide
-date: 2025-09-09
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-09
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Integrate DeepSeek with LibreChat Guide
+translated: false
 ---
 
 Here’s the fastest way to get **DeepSeek working in LibreChat**. I’ll show two options—use the **official DeepSeek API** (recommended), or go through **OpenRouter**.

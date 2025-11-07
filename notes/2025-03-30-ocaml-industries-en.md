@@ -1,10 +1,10 @@
 ---
-title: OCaml Usage in Industries
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: OCaml Usage in Industries
 translated: false
-generated: true
 ---
 
 OCaml is widely used in industries where performance, correctness, and expressiveness are critical. Though it's not as mainstream as languages like Java or Python, many notable companies rely on OCaml for its strengths in functional programming, type safety, and concurrency handling.

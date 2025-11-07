@@ -1,10 +1,10 @@
 ---
-title: SSH Key Setup for GitHub Actions JAR Deployment
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: SSH Key Setup for GitHub Actions JAR Deployment
 translated: false
-generated: true
 ---
 
 To generate an SSH key for GitHub Actions to deploy a JAR file, follow these steps:

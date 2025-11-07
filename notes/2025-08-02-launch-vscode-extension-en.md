@@ -1,11 +1,11 @@
 ---
-title: Launch Extension Host in VSCode
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Launch Extension Host in VSCode
+translated: false
 ---
 
 To press **F5** in Visual Studio Code (VSCode) to launch the **Extension Development Host** for developing a VSCode extension, follow these steps:

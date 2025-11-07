@@ -1,11 +1,11 @@
 ---
-title: Install Python 3.11 and pip3.11
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Install Python 3.11 and pip3.11
+translated: false
 ---
 
 It looks like you have multiple Python and pip versions installed on your Ubuntu system, and you want to install **Python 3.11** and its corresponding **pip (pip3.11)**. Here’s how you can do it:

@@ -1,12 +1,12 @@
 ---
-title: Jackson Default Typing Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Jackson Default Typing Explained
+translated: false
 ---
 
 ### What is Default Typing in Jackson's ObjectMapper?

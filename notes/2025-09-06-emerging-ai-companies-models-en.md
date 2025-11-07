@@ -1,12 +1,12 @@
 ---
-title: Emerging AI Companies and Their Models
-date: 2025-09-06
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-06
 generated: true
 image: false
+lang: en
+layout: post
+title: Emerging AI Companies and Their Models
+translated: false
 ---
 
 [![DeepSeek-AI Just Released DeepSeek-V3: A Strong Mixture-of-Experts (MoE ...](https://tse3.mm.bing.net/th/id/OIP.TyW7YaYzKOTP07CWQN67UgHaGE?pid=Api)](https://www.marktechpost.com/2024/12/26/deepseek-ai-just-released-deepseek-v3-a-strong-mixture-of-experts-moe-language-model-with-671b-total-parameters-with-37b-activated-for-each-token/?utm_source=chatgpt.com)

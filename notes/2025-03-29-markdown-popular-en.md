@@ -1,10 +1,10 @@
 ---
-title: Why Markdown Becomes Popular
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Why Markdown Becomes Popular
 translated: false
-generated: true
 ---
 
 Markdown has become popular due to a confluence of factors that address common needs and frustrations in content creation and formatting. Here are some key reasons for its popularity:

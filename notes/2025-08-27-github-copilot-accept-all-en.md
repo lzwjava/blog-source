@@ -1,12 +1,12 @@
 ---
-title: GitHub Copilot Lacks Accept All Option
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: GitHub Copilot Lacks Accept All Option
+translated: false
 ---
 
 Got it. You're using **GitHub Copilot in VS Code**, and you're asking if there's a way to **accept all edits/suggestions at once**, similar to `Accept All Changes` in an editor like Word.

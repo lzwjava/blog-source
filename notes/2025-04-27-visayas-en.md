@@ -1,10 +1,10 @@
 ---
-title: Visayas
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Visayas
 translated: false
-generated: true
 ---
 
 Of course! Here's a friendly introduction to some notable cities in the **Visayas** region of the **Philippines**:

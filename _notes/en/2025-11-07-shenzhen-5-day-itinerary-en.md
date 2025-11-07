@@ -1,12 +1,12 @@
 ---
-title: Shenzhen Five-Day Travel Itinerary
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Shenzhen Five-Day Travel Itinerary
+translated: false
 ---
 
 ### Planning a 5-Day Trip to Shenzhen, Guangdong

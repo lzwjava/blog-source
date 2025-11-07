@@ -1,10 +1,10 @@
 ---
-title: "Benefits of Living Alone Young"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Benefits of Living Alone Young
 translated: false
-generated: true
 ---
 
 Living alone in your 20s or 30s offers several advantages:

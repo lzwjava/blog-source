@@ -1,12 +1,12 @@
 ---
-title: Investing in Bonds and Mutual Funds
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Investing in Bonds and Mutual Funds
+translated: false
 ---
 
 ### What is a Bond?

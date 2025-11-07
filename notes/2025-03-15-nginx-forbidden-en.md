@@ -1,10 +1,10 @@
 ---
-title: "Fixing Nginx 403 Forbidden Error"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fixing Nginx 403 Forbidden Error
 translated: false
-generated: true
 ---
 
 To fix the "403 Forbidden" error you're encountering with your Nginx configuration, you need to address two primary issues: an incorrect use of the `root` directive in your `location` block and potential file system permission problems. Below is a step-by-step guide to resolve the issue based on your provided configuration:
@@ -421,4 +421,3 @@ Tell me:
 - Output of `ls -l /var/www/movies/`?
 
 With that, I can pinpoint the exact issue and get your directory listing working!
-

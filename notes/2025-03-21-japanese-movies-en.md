@@ -1,10 +1,10 @@
 ---
-title: Popular Japanese Anime Movies
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Popular Japanese Anime Movies
 translated: false
-generated: true
 ---
 
 I don’t have direct access to current data from The Pirate Bay or similar platforms to tell you exactly what’s trending there as of March 21, 2025. However, I can give you a solid rundown of Japanese movies, cartoons (anime), and videos that are generally popular and likely to be found on torrent sites like The Pirate Bay, based on their widespread appeal and historical popularity among fans. These are the kinds of titles that tend to circulate widely in online communities.

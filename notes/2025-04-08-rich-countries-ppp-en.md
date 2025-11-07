@@ -1,10 +1,10 @@
 ---
-title: Rich Countries by PPP
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rich Countries by PPP
 translated: false
-generated: true
 ---
 
 When measuring wealth by GDP per capita adjusted for Purchasing Power Parity (PPP), the list changes somewhat. PPP accounts for differences in the cost of living between countries, giving a better indication of comparative living standards. Here are some of the world's richest countries by GDP per capita (PPP):

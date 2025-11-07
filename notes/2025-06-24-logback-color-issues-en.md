@@ -1,10 +1,10 @@
 ---
-title: "Why Logback Output Might Lack Color in Gnome Terminal"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Why Logback Output Might Lack Color in Gnome Terminal
 translated: false
-generated: true
 ---
 
 You're asking a great question that gets into how terminals, logging libraries, and operating systems interact with colored output\!

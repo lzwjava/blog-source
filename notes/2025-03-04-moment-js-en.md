@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Using Moment.js in JavaScript
 translated: false
-generated: true
 ---
 
 I'll show you how to use the `moment` and `moment-timezone` libraries in JavaScript. These are popular libraries for handling dates and times.
@@ -81,4 +81,3 @@ momentTimezone.tz.guess(); // Guess user's timezone
 Notes:
 1. These versions (^2.14.1 and ^0.5.7) are quite old (from around 2016). Consider using the latest versions unless you have specific compatibility requirements.
 2. Moment.js is now considered a legacy project in maintenance mode. For new projects, you might want to consider alternatives like `date-fns` or `luxon`.
-

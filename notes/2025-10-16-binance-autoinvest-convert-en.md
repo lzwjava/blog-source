@@ -1,12 +1,12 @@
 ---
-title: Binance Auto-Invest Moves to Convert Tab
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Binance Auto-Invest Moves to Convert Tab
+translated: false
 ---
 
 Yes, that's correct. In early 2025, Binance migrated its Auto-Invest feature (part of the Earn section for regular recurring investments) to a new "Recurring" option under the Convert tab in the app. This update aims to streamline automated crypto investments with zero fees and better integration. Existing Auto-Invest plans were transitioned over, and users can continue or set up new recurring buys there. Later in September 2025, they also announced the phase-out of certain index-linked Auto-Invest plans, directing users to the Convert Recurring Portfolio plans instead.

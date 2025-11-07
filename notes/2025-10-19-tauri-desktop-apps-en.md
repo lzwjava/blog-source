@@ -1,12 +1,12 @@
 ---
-title: Tauri Framework for Desktop Applications
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Tauri Framework for Desktop Applications
+translated: false
 ---
 
 ### What is Tauri in Rust?

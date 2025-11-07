@@ -1,10 +1,10 @@
 ---
-title: "Avaloq's Strong Oracle Technology Partnership"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Avaloq's Strong Oracle Technology Partnership
 translated: false
-generated: true
 ---
 
 Yes, Avaloq does have a significant relationship with Oracle technology. Based on the search results, here are the key connections:

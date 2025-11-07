@@ -1,10 +1,10 @@
 ---
-title: Reading Frontend Code Built with Angular
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Reading Frontend Code Built with Angular
 translated: false
-generated: true
 ---
 
 Reading frontend code built with Angular requires understanding its specific architecture and concepts. Here's a guide on how to approach it:

@@ -1,10 +1,10 @@
 ---
-title: Typical Advice and Patterns in Benjamin Qi’s C++ Files
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Typical Advice and Patterns in Benjamin Qi’s C++ Files
 translated: false
-generated: true
 ---
 
 Benjamin Qi, known as "Benq" in competitive programming circles, is a top-rated programmer on platforms like Codeforces and a prominent figure in the USACO community. His advice and coding practices, particularly in C++, are well-regarded for their efficiency and clarity in the context of competitive programming. While specific comments in his C++ files may vary depending on the problem, his general approach and the reminders he includes in his code (often as comments) reflect best practices for competitive programming. Below is an overview of the typical advice and patterns in his C++ files, including the kinds of comments he might use to remind himself of key considerations, based on his contributions, resources, and community insights.

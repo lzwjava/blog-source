@@ -1,10 +1,10 @@
 ---
-title: Future Retail
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Future Retail
 translated: false
-generated: true
 ---
 
 The shift from traditional retail to e-commerce is certainly changing the commercial landscape, but it's not a simple replacement scenario. Here's how this evolution might play out:

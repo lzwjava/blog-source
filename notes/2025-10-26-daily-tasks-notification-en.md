@@ -1,12 +1,12 @@
 ---
-title: Daily Google Tasks Notification Setup
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Daily Google Tasks Notification Setup
+translated: false
 ---
 
 ### Setting Up a Daily Recurring Notification in Google Tasks

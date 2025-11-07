@@ -1,12 +1,12 @@
 ---
-title: Spotless in Multi-Module Maven Projects
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Spotless in Multi-Module Maven Projects
+translated: false
 ---
 
 ### Spotless in Multi-Module Maven Projects

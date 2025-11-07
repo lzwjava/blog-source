@@ -1,10 +1,10 @@
 ---
-title: Cities in Russia
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Cities in Russia
 translated: false
-generated: true
 ---
 
 Russia is a vast country with numerous cities, but several stand out as the main urban centers due to their large populations, economic significance, cultural importance, and political roles.

@@ -1,10 +1,10 @@
 ---
-title: Parse Mozilla Bookmark File
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Parse Mozilla Bookmark File
 translated: false
-generated: true
 ---
 
 The file you're looking at is a **Firefox bookmark backup** in the `.jsonlz4` format. This means it's a **JSON file compressed using the LZ4 compression algorithm**, and it contains your Firefox bookmarks.

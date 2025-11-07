@@ -1,10 +1,10 @@
 ---
-title: Murphy's Law
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Murphy's Law
 translated: false
-generated: true
 ---
 
 **Definition:**

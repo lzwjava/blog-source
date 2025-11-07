@@ -1,10 +1,10 @@
 ---
-title: Mohamed M. Atalla
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Mohamed M. Atalla
 translated: false
-generated: true
 ---
 
 Mohamed M. Atalla (1924–2009) was an Egyptian-American engineer, inventor, and physicist whose groundbreaking contributions in semiconductor technology and cryptography laid foundational stones for the modern electronics and digital security industries. Often referred to as the "father of the MOSFET" and a pioneer in information security, Atalla’s work at Bell Labs and other institutions revolutionized integrated circuit design, computer hardware, and secure communication systems. His innovations, particularly the invention of the MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) and contributions to PIN diode technology and password-based security systems, remain integral to today’s digital world.

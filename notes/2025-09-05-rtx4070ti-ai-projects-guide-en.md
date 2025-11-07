@@ -1,11 +1,11 @@
 ---
-title: RTX 4070 Ti Practical AI Projects Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: RTX 4070 Ti Practical AI Projects Guide
+translated: false
 ---
 
 A 4070 Ti is plenty to learn—and to ship real things. You’ve got \~12 GB VRAM (16 GB if it’s the Ti Super). That means: run most 7–8B LLMs locally (quantized), fine-tune with LoRA/QLoRA, train solid CV models, do diffusion LoRA, audio ASR, and a lot of classic ML.

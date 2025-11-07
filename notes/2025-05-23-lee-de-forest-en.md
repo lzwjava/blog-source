@@ -1,10 +1,10 @@
 ---
-title: Lee De Forest
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Lee De Forest
 translated: false
-generated: true
 ---
 
 Lee De Forest (1873-1961) was a highly significant American inventor and electrical engineer who boldly proclaimed himself the "Father of Radio." While this self-given title might be debated, his contributions to the nascent field of radio and the subsequent development of electronics are undeniable and profoundly impactful. He was also a pioneer in the development of sound-on-film technology that paved the way for "talking pictures."

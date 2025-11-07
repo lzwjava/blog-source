@@ -1,12 +1,12 @@
 ---
-title: Connect Concepts to Your Life
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Connect Concepts to Your Life
+translated: false
 ---
 
 ### Why This Trick Works (and Why It's a Game-Changer)

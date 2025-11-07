@@ -1,10 +1,10 @@
 ---
-title: The History of Java 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The History of Java
 translated: false
-generated: true
 ---
 
 The history of Java is rich and multifaceted, evolving significantly since its inception. Here's a reflection on its journey and how developers used it at different times:

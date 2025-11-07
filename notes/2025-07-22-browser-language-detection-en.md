@@ -1,10 +1,10 @@
 ---
-title: "Detect User Language Preference"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Detect User Language Preference
 translated: false
-generated: true
 ---
 
 ### Detecting User's Country or Language Preference

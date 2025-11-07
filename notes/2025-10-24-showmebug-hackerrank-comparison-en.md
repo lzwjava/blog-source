@@ -1,12 +1,12 @@
 ---
-title: ShowMeBug vs. HackerRank Platform Comparison
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: ShowMeBug vs. HackerRank Platform Comparison
+translated: false
 ---
 
 ### Comparison of ShowMeBug and HackerRank as Online Interview Platforms

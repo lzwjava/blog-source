@@ -1,11 +1,11 @@
 ---
-title: Maven Surefire Plugin Unit Testing Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Maven Surefire Plugin Unit Testing Guide
+translated: false
 ---
 
 The **Maven Surefire Plugin** is the plugin that runs your unit tests during the **test** phase of a Maven build lifecycle. It’s one of the most commonly used Maven plugins because nearly every project needs automated testing integrated into its build.

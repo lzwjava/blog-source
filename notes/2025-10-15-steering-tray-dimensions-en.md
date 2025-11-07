@@ -1,12 +1,12 @@
 ---
-title: Optimizing Steering Wheel Tray Dimensions
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Optimizing Steering Wheel Tray Dimensions
+translated: false
 ---
 
 Ah, got it—sorry for the mix-up on dimensions. If the 35 cm is the width (across your lap/steering wheel span) and that's feeling too wide (maybe overhanging awkwardly or clashing with your arm position after sliding the seat back), that makes sense for a snugger fit in your setup. Standard trays often hover around 38-42 cm wide, so 35 cm is actually on the narrower side for many, but if your body's wider and the seat's pushed back, it could still protrude in a way that bugs you during use.

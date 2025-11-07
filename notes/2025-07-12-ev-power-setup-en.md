@@ -1,10 +1,10 @@
 ---
-title: "Powering Devices with Your EV"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Powering Devices with Your EV
 translated: false
-generated: true
 ---
 
 ### Understanding Your EV Setup

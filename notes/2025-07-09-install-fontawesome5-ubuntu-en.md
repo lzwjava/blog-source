@@ -1,10 +1,10 @@
 ---
-title: "Install FontAwesome5 in LaTeX on Ubuntu"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Install FontAwesome5 in LaTeX on Ubuntu
 translated: false
-generated: true
 ---
 
 To install FontAwesome5 for LaTeX on Ubuntu, you have several options:

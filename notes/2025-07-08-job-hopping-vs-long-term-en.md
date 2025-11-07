@@ -1,10 +1,10 @@
 ---
-title: "Job Hopping vs. Long-Term Employment"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Job Hopping vs. Long-Term Employment
 translated: false
-generated: true
 ---
 
 Both career strategies – changing jobs once every 3 years in big tech/bank companies ("job hopping") or working for many years in one big tech/bank company ("long-term employment") – have distinct advantages and disadvantages. The "better" strategy ultimately depends on individual career goals, risk tolerance, and the specific industry and economic climate.

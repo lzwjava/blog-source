@@ -1,10 +1,10 @@
 ---
-title: Balanced Diet
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Balanced Diet
 translated: false
-generated: true
 ---
 
 Okay, here are the suggestions for what a Chinese person can eat daily to limit rice intake, with the Chinese words removed:

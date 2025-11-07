@@ -1,10 +1,10 @@
 ---
-title: "Electronics Legends and Their Impact"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Electronics Legends and Their Impact
 translated: false
-generated: true
 ---
 
 In human history, several individuals have shown **exceptional mastery** over the domains covered in *Fundamentals of Electronic Technology (III)* — namely analog electronics, digital electronics, and practical system design. Here’s a categorized breakdown of the most knowledgeable and impactful figures in each area, across academia, industry, and engineering practice:

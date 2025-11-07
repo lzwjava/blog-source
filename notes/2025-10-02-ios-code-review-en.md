@@ -1,12 +1,12 @@
 ---
-title: iOS Code Review Concerns and Recommendations
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: deepseek/deepseek-v3.2-exp
+title: iOS Code Review Concerns and Recommendations
+translated: false
 ---
 
 From an iOS engineer's perspective, here's a detailed code review with technical concerns and recommendations:

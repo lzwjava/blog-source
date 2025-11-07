@@ -1,11 +1,11 @@
 ---
-title: SPOCO Reduces Annotation for Segmentation
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: SPOCO Reduces Annotation for Segmentation
+translated: false
 ---
 
 Here’s a clearer breakdown of what this paper is about:

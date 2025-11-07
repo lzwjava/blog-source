@@ -1,11 +1,11 @@
 ---
-title: Java EE Container Managed Task Scheduler
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Java EE Container Managed Task Scheduler
+translated: false
 ---
 
 A **ManagedScheduledExecutorService** is a Java EE (Jakarta EE) resource provided by the application server (for example WebSphere, WebLogic, WildFly) that allows you to schedule tasks to run in the future or periodically, similar to `ScheduledExecutorService` in standard Java SE, but with **container-managed benefits**:

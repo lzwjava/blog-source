@@ -1,11 +1,11 @@
 ---
-title: Cross Border Payment Connect Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Cross Border Payment Connect Guide
+translated: false
 ---
 
 Here’s a comprehensive guide on how Payment Connect links Hong Kong’s Faster Payment System (FPS) and mainland China’s Internet Banking Payment System (IBPS), and how you can use it for transfers between HSBC Hong Kong and China Merchant Bank (CMB):

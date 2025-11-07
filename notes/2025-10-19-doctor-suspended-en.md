@@ -1,12 +1,12 @@
 ---
-title: Doctor Suspended for Anti-Vaccine Views
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Doctor Suspended for Anti-Vaccine Views
+translated: false
 ---
 
 Dr. Emanuel E. García (often referred to as Manny García) is a New Zealand-based psychiatrist and physician of Sephardic heritage. He worked as a consultant psychiatrist for Hutt Valley District Health Board but was temporarily suspended in late 2021 by the Medical Council of New Zealand amid investigations into his public anti-vaccination views on COVID-19. He is the founder of NZDSOS (New Zealand Doctors Speaking Out with Science), a group advocating for medical freedom, informed consent, and open debate on public health issues during the pandemic. García has been vocal in criticizing what he sees as overreach in COVID policies, emphasizing principles like "do no harm" and individual rights.

@@ -1,10 +1,10 @@
 ---
-title: Python Methods
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Python Methods
 translated: false
-generated: true
 ---
 
 Let me break down this Python one-liner step-by-step:

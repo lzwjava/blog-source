@@ -1,10 +1,10 @@
 ---
-title: "Denmark's Leading Mortgage and Banking Group"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Denmark's Leading Mortgage and Banking Group
 translated: false
-generated: true
 ---
 
 Nykredit is a major Danish financial services group, primarily known as one of the country's leading mortgage lenders (realkreditinstitut). Founded in 1985 through a merger of older credit associations, it operates as a member-owned entity (foreningsejet) and provides a wide range of services, including:

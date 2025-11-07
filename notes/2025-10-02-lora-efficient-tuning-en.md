@@ -1,12 +1,12 @@
 ---
-title: LoRA for Efficient LLM Fine-Tuning
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: LoRA for Efficient LLM Fine-Tuning
+translated: false
 ---
 
 ### Summary of LoRA Blog Post from Thinking Machines

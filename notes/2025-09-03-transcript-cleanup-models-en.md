@@ -1,11 +1,11 @@
 ---
-title: Best Models for Transcript Cleanup Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Best Models for Transcript Cleanup Guide
+translated: false
 ---
 
 Great use case. For **long-form transcript cleanup with strict formatting and “no extra chatter”**, here’s what works best right now on OpenRouter, by scenario.

@@ -1,10 +1,10 @@
 ---
-title: Paul Graham's Net Worth Estimates
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Paul Graham's Net Worth Estimates
 translated: false
-generated: true
 ---
 
 Paul Graham’s net worth is difficult to pinpoint precisely due to his private lifestyle and the complex nature of his investments, primarily through Y Combinator (YC), the startup accelerator he co-founded. Estimates from various sources range widely, reflecting the speculative nature of valuing his wealth, which is largely tied to equity in YC and its portfolio companies.

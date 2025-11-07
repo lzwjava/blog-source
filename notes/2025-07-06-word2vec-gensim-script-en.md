@@ -1,10 +1,10 @@
 ---
-title: Word2Vec Script with Gensim
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Word2Vec Script with Gensim
 translated: false
-generated: true
 ---
 
 To provide you with a Python script for Word2Vec, I need to make a couple of assumptions about what you're looking for, as "a script about Word2Vec" can be quite broad. I'll provide two common scenarios:

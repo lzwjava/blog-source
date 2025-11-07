@@ -1,12 +1,12 @@
 ---
-title: Hong Kong MTR Bilingual Station Information
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hong Kong MTR Bilingual Station Information
+translated: false
 ---
 
 Hong Kong’s subway system, known as the MTR (Mass Transit Railway), has station names and addresses that generally translate well into English, as the system is designed to be bilingual (Chinese and English) to accommodate both locals and international visitors. Here’s a breakdown based on available information:

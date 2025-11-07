@@ -1,12 +1,12 @@
 ---
-title: JMS Activation Specification in WebSphere
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: JMS Activation Specification in WebSphere
+translated: false
 ---
 
 ### Activation Specification in JMS for IBM WebSphere Application Server (WAS)

@@ -1,10 +1,10 @@
 ---
-title: Quantum Mechanics
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Quantum Mechanics
 translated: false
-generated: true
 ---
 
 Quantum mechanics isn't nonsense, but it can feel that way because it defies our everyday intuition. It's a well-tested framework describing how particles like electrons and photons behave at tiny scales. Experiments, like the double-slit experiment, show particles can act like waves, exist in multiple states simultaneously (superposition), and influence each other instantly over distances (entanglement). These are weird, but they've been confirmed repeatedly since the 1920s.

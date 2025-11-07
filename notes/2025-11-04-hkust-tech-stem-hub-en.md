@@ -1,12 +1,12 @@
 ---
-title: "HKUST Library: Top Tech and STEM Hub"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'HKUST Library: Top Tech and STEM Hub'
+translated: false
 ---
 
 ### Top Library in Hong Kong for Tech, IT, AI, and STEM

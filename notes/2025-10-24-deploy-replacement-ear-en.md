@@ -1,12 +1,12 @@
 ---
-title: Deploying Replacement EAR in WebSphere
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Deploying Replacement EAR in WebSphere
+translated: false
 ---
 
 ### Deploying a New EAR File to Replace an Existing One in IBM WebSphere Application Server (WAS)

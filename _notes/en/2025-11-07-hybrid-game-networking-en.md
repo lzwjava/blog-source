@@ -1,12 +1,12 @@
 ---
-title: Hybrid Networking for Game Development
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: moonshotai/kimi-k2-thinking
+title: Hybrid Networking for Game Development
+translated: false
 ---
 
 You're right—Person B's explanation is spot-on.

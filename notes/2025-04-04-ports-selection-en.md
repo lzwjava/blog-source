@@ -1,10 +1,10 @@
 ---
-title: Ports Selection
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Ports Selection
 translated: false
-generated: true
 ---
 
 You're right, Shenzhen and Guangzhou are geographically close and are both major ports in the Pearl River Delta. When a customer or business needs to choose between these two ports, they will consider several key factors:

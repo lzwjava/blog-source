@@ -1,10 +1,10 @@
 ---
-title: Configure Proxy for Gradle in VSCode
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Configure Proxy for Gradle in VSCode
 translated: false
-generated: true
 ---
 
 To configure a proxy for Gradle in Visual Studio Code (VSCode) so it can download dependencies through a proxy, you need to set up the proxy settings in Gradle's configuration. Gradle uses a properties file to manage such settings, and VSCode relies on Gradle's build system for Gradle projects. Here's how you can do it:

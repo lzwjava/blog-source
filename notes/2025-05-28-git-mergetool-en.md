@@ -1,10 +1,10 @@
 ---
-title: Configuring TortoiseGit as Git Mergetool
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Configuring TortoiseGit as Git Mergetool
 translated: false
-generated: true
 ---
 
 To configure TortoiseGit as the merge tool for Git, you need to set up TortoiseGitMerge (the merge tool included with TortoiseGit) in your Git configuration. Below are the steps to achieve this:

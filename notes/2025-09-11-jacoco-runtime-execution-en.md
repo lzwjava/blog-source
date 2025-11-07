@@ -1,13 +1,13 @@
 ---
-title: JaCoCo Runtime Execution File Behavior
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: JaCoCo Runtime Execution File Behavior
+translated: false
 ---
 
 When you run **WebSphere Liberty Profile** with the **JaCoCo agent** in `exec` mode, the JaCoCo agent does **not modify** the original `.exec` file during runtime. Here’s what happens:

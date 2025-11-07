@@ -1,12 +1,12 @@
 ---
-title: Eyeglass Lens Index Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Eyeglass Lens Index Guide
+translated: false
 ---
 
 ### Understanding Refractive Indices in Eyeglass Lenses: 1.56, 1.60, and 1.67

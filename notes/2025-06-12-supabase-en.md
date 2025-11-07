@@ -1,10 +1,10 @@
 ---
-title: Punch Card Reminders with Supabase
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Punch Card Reminders with Supabase
 translated: false
-generated: true
 ---
 
 I'll help you modify the existing GitHub Actions workflow and Python script to implement punch card reminders from Wednesday to Friday, with reminders every 5 minutes during 12 PM to 3 PM (punch in) and 6 PM to 9 PM (punch out) SGT, stopping when a "punch" message is received via Telegram. We'll use Supabase to track punch states to prevent redundant reminders.

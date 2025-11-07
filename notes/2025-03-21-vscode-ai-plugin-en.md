@@ -1,10 +1,10 @@
 ---
-title: "Best AI Plugins for VS Code (2025)"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Best AI Plugins for VS Code (2025)
 translated: false
-generated: true
 ---
 
 As of March 20, 2025, determining the "best" AI plugin for Visual Studio Code (VS Code) depends on your specific needs, such as code completion, debugging, test generation, or chat-based assistance. Based on the latest trends and available information, here are some of the top AI-powered VS Code extensions widely regarded for their capabilities, along with their key features:

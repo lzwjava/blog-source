@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Using BrowserSync
 translated: false
-generated: true
 ---
 
 BrowserSync is a fantastic tool for streamlining front-end development by synchronizing browser actions, auto-reloading files, and providing a local development server. Here’s a step-by-step guide on how to use BrowserSync in your front-end workflow:

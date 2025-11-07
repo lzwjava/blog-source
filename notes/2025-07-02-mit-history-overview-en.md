@@ -1,10 +1,10 @@
 ---
-title: "MIT's Legacy of Innovation and Impact"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: MIT's Legacy of Innovation and Impact
 translated: false
-generated: true
 ---
 
 The **Massachusetts Institute of Technology (MIT)** is one of the world’s most prestigious research universities, renowned for its cutting-edge work in science, engineering, and technology. Its history reflects a deep intertwining of innovation, industrialization, and national service. Here's a **comprehensive overview of MIT’s history**:

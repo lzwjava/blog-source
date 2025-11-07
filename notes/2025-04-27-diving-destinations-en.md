@@ -1,10 +1,10 @@
 ---
-title: Diving Destinations
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Diving Destinations
 translated: false
-generated: true
 ---
 
 The best diving destinations offer vibrant marine life, clear waters, and unique underwater features. Based on global diving hotspots, here are some dream places for scuba diving:

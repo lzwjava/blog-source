@@ -1,12 +1,12 @@
 ---
-title: Simplifying Classification Error Rates
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Simplifying Classification Error Rates
+translated: false
 ---
 
 You’re right that sometimes mathematical formulas can feel abstract or hard to follow, especially when a more intuitive or code-like explanation could make the concepts clearer. Let’s break down the content in the image into simpler terms and a more code-like format.

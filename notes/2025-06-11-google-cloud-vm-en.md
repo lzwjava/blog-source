@@ -1,10 +1,10 @@
 ---
-title: Cheapest Simple Google Cloud VM
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Cheapest Simple Google Cloud VM
 translated: false
-generated: true
 ---
 
 When looking for a cost-effective virtual machine (VM) on Google Cloud, there are a few options and considerations to keep in mind to meet your budget of around $5 per month. Here are some steps and tips to help you find the cheapest VM option:

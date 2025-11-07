@@ -1,12 +1,12 @@
 ---
-title: Laravel vs CodeIgniter Framework Comparison
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Laravel vs CodeIgniter Framework Comparison
+translated: false
 ---
 
 Below is a comprehensive comparison of **Laravel** and **CodeIgniter**, two popular PHP web frameworks. Both are open-source and follow the Model-View-Controller (MVC) architectural pattern, making them suitable for building web applications. However, they differ significantly in philosophy, features, maturity, and target audience. Laravel is a modern, full-featured framework that's highly opinionated, while CodeIgniter is lightweight, flexible, and beginner-friendly.

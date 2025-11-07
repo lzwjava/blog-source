@@ -1,11 +1,11 @@
 ---
-title: Python LangChain Patterns
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Python LangChain Patterns
+translated: false
 ---
 
 Here are a few concise, illustrative Python snippets showing common LangChain patterns. You can mix and match these pieces to build more complex workflows.

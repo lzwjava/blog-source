@@ -1,11 +1,11 @@
 ---
-title: "Use 'BLOCK_LOW_AND_ABOVE' Only"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Use 'BLOCK_LOW_AND_ABOVE' Only
+translated: false
 ---
 
 You're seeing this error:

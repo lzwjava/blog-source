@@ -1,10 +1,10 @@
 ---
-title: Liberty Tools Extension in Visual Studio Code
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Liberty Tools Extension in Visual Studio Code
 translated: false
-generated: true
 ---
 
 Below is an overview of how you can use the Liberty Tools extension in Visual Studio Code to work with a WebSphere Liberty server:

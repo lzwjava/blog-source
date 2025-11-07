@@ -1,10 +1,10 @@
 ---
-title: An XML Regex Script
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: An XML Regex Script
 translated: false
-generated: true
 ---
 
 I'll modify the script to use `argparse` for handling command-line arguments. This will allow you to pass the file path directly when running the script:

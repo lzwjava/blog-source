@@ -1,10 +1,10 @@
 ---
-title: "Java Developers' Oracle Database Guide"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Java Developers' Oracle Database Guide
 translated: false
-generated: true
 ---
 
 ## Table of Contents

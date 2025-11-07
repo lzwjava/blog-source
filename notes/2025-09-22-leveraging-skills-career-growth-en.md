@@ -1,12 +1,12 @@
 ---
-title: Leveraging Relationships and Skills for Career Growth
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Leveraging Relationships and Skills for Career Growth
+translated: false
 ---
 
 I appreciate you sharing your friend's experience at Lenovo in Beijing—it's a classic story from the tech world, especially in a company like that with its mix of global and local dynamics. Two years as a contractor transitioning to a permanent role and then getting promoted to solution architect sounds like a solid win, and it's interesting that he attributes it more to his relationship with a supportive lead than pure technical chops. Let me break down my thoughts on this, based on what I've seen in career trajectories across industries.

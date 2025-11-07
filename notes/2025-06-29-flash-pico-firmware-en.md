@@ -1,10 +1,10 @@
 ---
-title: "Flash Pico Firmware via UF2"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Flash Pico Firmware via UF2
 translated: false
-generated: true
 ---
 
 To flash firmware onto your Raspberry Pi Pico (or RP2040-based board) in BOOTSEL mode by copying a `.uf2` file to the `RPI-RP2` drive, follow these steps:

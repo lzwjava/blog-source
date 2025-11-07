@@ -1,12 +1,12 @@
 ---
-title: Philippines Main Airport is NAIA
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Philippines Main Airport is NAIA
+translated: false
 ---
 
 The major airport in the Philippines is **Ninoy Aquino International Airport (NAIA)**, located in Manila. It's the country's primary international gateway, handling the majority of domestic and international flights, with over 40 million passengers annually before recent expansions.

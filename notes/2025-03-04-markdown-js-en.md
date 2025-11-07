@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: JavaScript library for Markdown
 translated: false
-generated: true
 ---
 
 It seems like you're asking about how to use the `marked` library, version `^0.3.6`, which is a JavaScript library for parsing Markdown text and converting it to HTML. Since you're referencing a specific version with the `^0.3.6` notation (likely from a `package.json` file in a Node.js project), I'll guide you through using this older version of `marked`. Note that version `0.3.6` is quite old (released around 2016), and the library has evolved significantly since then. However, I'll stick to what works for that version.
@@ -146,4 +146,3 @@ console.log(html);
 - **Sanitization**: If you’re rendering user input, set `sanitize: true` to strip out raw HTML for security (e.g., `<script>` tags). However, this is basic in `0.3.6` and not as robust as modern alternatives.
 - **Limitations**: This version lacks features added in later releases (e.g., async parsing, custom tokenizers), so if you need more, consider upgrading to a newer version like `5.x`.
 - **Debugging**: If it’s not working, ensure the library is loaded correctly and check the Markdown syntax.
-

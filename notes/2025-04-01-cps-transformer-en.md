@@ -1,10 +1,10 @@
 ---
-title: CPS Transformer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: CPS Transformer
 translated: false
-generated: true
 ---
 
 ```scheme

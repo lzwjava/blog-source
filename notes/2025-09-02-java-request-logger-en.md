@@ -1,11 +1,11 @@
 ---
-title: Java Request Wrapper for Logging
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Java Request Wrapper for Logging
+translated: false
 ---
 
 In Java web applications, you typically use a **`HttpServletRequestWrapper`** when you want to decorate or modify the behavior of the standard `HttpServletRequest` without touching the servlet container’s implementation.

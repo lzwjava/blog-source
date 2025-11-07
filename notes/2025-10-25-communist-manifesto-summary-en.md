@@ -1,12 +1,12 @@
 ---
-title: The Communist Manifesto Summary
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: The Communist Manifesto Summary
+translated: false
 ---
 
 ### Summary of *The Communist Manifesto* (1848) by Karl Marx and Friedrich Engels

@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Linear Algebra - Image Processing"
 audio: true
+layout: post
+title: Linear Algebra - Image Processing
 ---
 
 Linear algebra is a fundamental tool in image processing and computer vision. Here are some ways linear algebra is applied to images:

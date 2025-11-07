@@ -1,10 +1,10 @@
 ---
-title: YouTube Channels
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: YouTube Channels
 translated: false
-generated: true
 ---
 
 Here are some YouTube channels similar to 3blue1brown and Ben Eater, covering areas like math, electronics, computer science, programming, Java, software, AI, ML, and DL:

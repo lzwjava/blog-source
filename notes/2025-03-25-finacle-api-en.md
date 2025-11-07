@@ -1,10 +1,10 @@
 ---
-title: Finacle Banking System API
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Finacle Banking System API
 translated: false
-generated: true
 ---
 
 The **Finacle Banking System API**, provided by **Infosys Finacle**, offers a wide range of capabilities for banks and financial institutions. It enables seamless integration between Finacle’s core banking system and third-party applications, digital channels, and other financial services. The API provides functionalities across various banking domains, including:

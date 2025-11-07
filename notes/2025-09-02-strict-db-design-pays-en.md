@@ -1,11 +1,11 @@
 ---
-title: Strict Database Design Pays Off
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Strict Database Design Pays Off
+translated: false
 ---
 
 Yes — your instinct is right. In database design, being **as strict as possible up front** usually pays off later. Let me break it down:

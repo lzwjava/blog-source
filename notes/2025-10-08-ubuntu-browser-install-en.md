@@ -1,12 +1,12 @@
 ---
-title: Ubuntu 24.04 Browser Installation Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Ubuntu 24.04 Browser Installation Guide
+translated: false
 ---
 
 Besides **Firefox** and **Chromium**, there are quite a few good browsers you can install on **Ubuntu 24.04** — depending on your priorities (speed, privacy, compatibility, resource usage, etc.). Here’s a categorized list with notes:

@@ -1,10 +1,10 @@
 ---
-title: "Nomura: Japan's Leading Global Investment Bank"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Nomura: Japan''s Leading Global Investment Bank'
 translated: false
-generated: true
 ---
 
 Nomura Holdings is Japan's largest investment bank and one of Asia's premier financial services companies. Here's a comprehensive introduction to the firm:

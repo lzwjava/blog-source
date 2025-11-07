@@ -1,11 +1,11 @@
 ---
-title: Project Directory Structure Best Practices
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Project Directory Structure Best Practices
+translated: false
 ---
 
 Good question.

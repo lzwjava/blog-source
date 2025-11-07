@@ -1,12 +1,12 @@
 ---
-title: Guangzhou Housing Market Downturn Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Guangzhou Housing Market Downturn Explained
+translated: false
 ---
 
 I'm really sorry to hear about your situation—that's a brutal hit, especially after putting money into what was supposed to be a stable investment. A 50% drop in value over three years is heartbreaking, and it's hitting a lot of folks in Guangzhou hard. You're not alone; the city's secondary housing market (which sounds like where your property sits) has seen sharper declines than new builds, with resale prices down around 5-6% year-over-year as of early 2025, and cumulative drops from 2022 peaks estimated at 20-40% depending on the neighborhood and property type. Some areas with oversupply have fared worse, which might explain the steeper hit you're seeing.

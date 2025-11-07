@@ -1,12 +1,12 @@
 ---
-title: Z.ai's AI Research and Development Focus
-date: 2025-09-06
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-06
 generated: true
 image: false
+lang: en
+layout: post
+title: Z.ai's AI Research and Development Focus
+translated: false
 ---
 
 Z.ai appears to be a significant player in the AI research and development space, with some impressive achievements since 2020. Here's what stands out about the company:

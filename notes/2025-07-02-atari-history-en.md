@@ -1,10 +1,10 @@
 ---
-title: "Atari's Rise, Fall, and Legacy"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Atari's Rise, Fall, and Legacy
 translated: false
-generated: true
 ---
 
 **Atari Corporation** was a pioneering American video game company and one of the earliest major players in the home video game industry. Originally founded as **Atari, Inc.** in **1972** by **Nolan Bushnell** and **Ted Dabney**, Atari was instrumental in the development and popularization of arcade and home gaming. Over the years, Atari has had a tumultuous history, marked by rapid innovation, financial difficulties, and significant acquisitions, ultimately leading to its evolution into various forms and its lasting impact on gaming culture.

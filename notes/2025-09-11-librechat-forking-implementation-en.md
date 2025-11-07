@@ -1,13 +1,13 @@
 ---
-title: LibreChat Conversation Forking Implementation Details
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: LibreChat Conversation Forking Implementation Details
+translated: false
 ---
 
 Great question! **LibreChat** (v0.8.0-rc3) has had **conversation forking** (branching) for a while, and it works differently from OpenAI's recent implementation. Here's how it functions in LibreChat and how it compares to ChatGPT's approach:

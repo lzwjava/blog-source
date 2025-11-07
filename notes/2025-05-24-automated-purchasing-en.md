@@ -1,10 +1,10 @@
 ---
-title: Automated Purchasing
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Automated Purchasing
 translated: false
-generated: true
 ---
 
 Neither JD.com nor Pinduoduo.com publicly offer APIs specifically designed for automating purchases, such as setting up a cron job to buy items like tissue monthly. Below is a detailed breakdown based on available information:

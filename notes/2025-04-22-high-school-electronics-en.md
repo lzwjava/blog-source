@@ -1,10 +1,10 @@
 ---
-title: High School Electronics
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: High School Electronics
 translated: false
-generated: true
 ---
 
 Here's a comprehensive review of high school physics concepts related to electronics and electricity:

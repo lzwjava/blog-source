@@ -1,12 +1,12 @@
 ---
-title: Safari Localhost Authentication Fix
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Safari Localhost Authentication Fix
+translated: false
 ---
 
 This issue arises because Safari on macOS enforces stricter security policies than Chrome for localhost URLs. Specifically, Safari requires a secure HTTPS context to allow persistent cookies and authentication sessions, preventiing potential logout loops or re-authentication on each visit for apps like LibreChat running over HTTP. Chrome is more permissive with HTTP on localhost, which is why authentication persists there but not in Safari.[1][2][3]

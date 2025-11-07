@@ -1,11 +1,11 @@
 ---
-title: Disable Cache in Claude Code
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Disable Cache in Claude Code
+translated: false
 ---
 
 In **Claude Code**, that snippet

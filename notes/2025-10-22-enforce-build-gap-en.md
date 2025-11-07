@@ -1,12 +1,12 @@
 ---
-title: Enforce 30-Minute Build Gap
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Enforce 30-Minute Build Gap
+translated: false
 ---
 
 ### Modify the Workflow to Enforce a 30-Minute Gap Between Builds

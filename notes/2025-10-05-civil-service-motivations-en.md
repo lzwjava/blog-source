@@ -1,12 +1,12 @@
 ---
-title: Civil Service Motivations and Consequences
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Civil Service Motivations and Consequences
+translated: false
 ---
 
 ### Refined Question

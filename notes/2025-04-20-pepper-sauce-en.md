@@ -1,10 +1,10 @@
 ---
-title: Pepper Sauce
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Pepper Sauce
 translated: false
-generated: true
 ---
 
 While it's not entirely accurate to say that pepper sauce *never* gets moldy, it is quite resistant to mold growth due to a few key factors:

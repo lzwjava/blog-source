@@ -1,10 +1,10 @@
 ---
-title: Modea Sea Freight
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Modea Sea Freight
 translated: false
-generated: true
 ---
 
 Today, in 2025, trade from Shantou and the broader Chaoshan region to Southeast Asia is significantly faster and more efficient due to advancements in transportation technology and infrastructure. Here's a breakdown of the typical timeframes:

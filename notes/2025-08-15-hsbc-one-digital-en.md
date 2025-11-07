@@ -1,11 +1,11 @@
 ---
-title: "HSBC One: Digital, All-In-One Account"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: 'HSBC One: Digital, All-In-One Account'
+translated: false
 ---
 
 Here's a clearer breakdown of your questions regarding HSBC One and its UnionPay debit card in the Hong Kong context:

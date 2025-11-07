@@ -1,13 +1,13 @@
 ---
-title: Hybrid LibreChat Configuration Strategy
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: google/gemini-2.5-pro
+title: Hybrid LibreChat Configuration Strategy
+translated: false
 ---
 
 That's an excellent question, and your thinking is spot on. You've essentially landed on a "hybrid" approach, which is arguably the most powerful and flexible way to configure LibreChat.

@@ -1,12 +1,12 @@
 ---
-title: Optimize Code by Pruning Waste
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Optimize Code by Pruning Waste
+translated: false
 ---
 
 Spot on—let's build on that proxy log as our launchpad. It's a goldmine for the "optimization mindset": the script doesn't grind through 53 proxies like a brute-force hammer; it laser-focuses on the goal (fastest SG/TW for AI tools like ChatGPT, dodging HK bans) by filtering to 14 first, batch-testing latencies, and sorting to crown the 294ms champ. That's not just efficiency—it's ruthless pruning: cut what doesn't serve the endgame, reorder ops (filter > test > select), and question every step ("Do I need to test that CN-only dud? Nope.").

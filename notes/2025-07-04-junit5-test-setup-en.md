@@ -1,10 +1,10 @@
 ---
-title: JUnit 5 File-Based Testing Setup
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: JUnit 5 File-Based Testing Setup
 translated: false
-generated: true
 ---
 
 Here's a simplified setup using **only JUnit 5** (without Mockito) for testing your algorithm solutions with input files (`1.in`):

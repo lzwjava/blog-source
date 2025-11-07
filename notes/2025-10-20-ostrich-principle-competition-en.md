@@ -1,12 +1,12 @@
 ---
-title: The Ostrich Principle for Competitive Dominance
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: The Ostrich Principle for Competitive Dominance
+translated: false
 ---
 
 The Tuoniao Principle (鸵鸟原理, or "Ostrich Principle") is a business philosophy popularized by Wang Xing, the founder and CEO of Meituan, China's leading food delivery and lifestyle services platform. Wang has referenced it multiple times in internal speeches and writings to emphasize the need for **absolute superiority** in competition—meaning incremental improvements aren't enough to stand out or dominate; you must be dramatically better to be truly recognized as superior.

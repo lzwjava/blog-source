@@ -1,12 +1,12 @@
 ---
-title: Fixing Docker OverlayFS Removal Error
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: google/gemini-2.5-flash
+title: Fixing Docker OverlayFS Removal Error
+translated: false
 ---
 
 The error you're seeing, specifically the line:

@@ -1,10 +1,10 @@
 ---
-title: Analog Electronics
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Analog Electronics
 translated: false
-generated: true
 ---
 
 Awesome! Here's a comprehensive tutorial on **Part I: Analog Electronics** from *Fundamentals of Electronic Technology (III)*. I’ll break it down section by section with explanations, diagrams (where helpful), and real-world relevance.

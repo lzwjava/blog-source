@@ -1,11 +1,11 @@
 ---
-title: PyWin32 Window Control Essentials
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: PyWin32 Window Control Essentials
+translated: false
 ---
 
 Here’s a guide to working with **PyWin32 windows**—focusing on their properties, activation, and bottom area handling.

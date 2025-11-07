@@ -1,10 +1,10 @@
 ---
-title: "Harper's Impact on Programming Languages"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Harper's Impact on Programming Languages
 translated: false
-generated: true
 ---
 
 Robert Harper is a highly respected computer scientist and Professor of Computer Science at Carnegie Mellon University, where he has been on faculty since 1988. He earned his Bachelor's degree in Mathematics from the California Institute of Technology in 1980 and his Ph.D. in Computer Science from Cornell University in 1985, where his academic advisor was Robert Lee Constable. Prior to his position at Carnegie Mellon, he was a research fellow at the University of Edinburgh.

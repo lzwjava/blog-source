@@ -1,12 +1,12 @@
 ---
-title: JMS Connection Factory Differences
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: JMS Connection Factory Differences
+translated: false
 ---
 
 In IBM WebSphere Application Server (WAS), both connection factories and queue connection factories are JMS (Java Message Service) resources used to establish connections to a JMS provider for messaging. However, they differ in scope, API compatibility, and usage based on JMS domain models (point-to-point vs. publish/subscribe). Here's a breakdown:

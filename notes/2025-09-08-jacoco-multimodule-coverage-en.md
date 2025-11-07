@@ -1,12 +1,12 @@
 ---
-title: JaCoCo Multi-Module Coverage Reporting Strategy
-date: 2025-09-08
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-08
 generated: true
 image: false
+lang: en
+layout: post
+title: JaCoCo Multi-Module Coverage Reporting Strategy
+translated: false
 ---
 
 Of course. Your analysis is spot on, especially regarding the complexities of JaCoCo with external integration tests. Running the build twice is definitely not ideal.

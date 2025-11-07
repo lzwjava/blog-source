@@ -1,10 +1,10 @@
 ---
-title: Git Branch Visualization Tools
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Git Branch Visualization Tools
 translated: false
-generated: true
 ---
 
 To visualize multiple branches in a Git repository on Windows, you can use TortoiseGit or other tools to display a graph of selected branches. TortoiseGit’s Revision Graph is powerful but can be overwhelming when showing all branches. Below are steps to view a graph of several specific branches using TortoiseGit, along with alternative tools for more flexibility.

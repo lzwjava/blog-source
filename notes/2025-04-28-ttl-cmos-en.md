@@ -1,10 +1,10 @@
 ---
-title: TTL and CMOS Integrated Circuits
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: TTL and CMOS Integrated Circuits
 translated: false
-generated: true
 ---
 
 ## TTL (Transistor-Transistor Logic)
@@ -91,4 +91,3 @@ CMOS works using complementary pairs of MOSFETs (Metal-Oxide-Semiconductor Field
    - Very high input impedance
 
 The fundamental difference between TTL and CMOS is that TTL uses current-controlled bipolar transistors, while CMOS uses voltage-controlled field-effect transistors, resulting in CMOS's significantly lower power consumption but traditionally slower switching speeds (though modern CMOS has overcome this limitation).
-

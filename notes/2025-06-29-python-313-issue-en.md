@@ -1,10 +1,10 @@
 ---
-title: "CuPy Error with Python 3.13"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: CuPy Error with Python 3.13
 translated: false
-generated: true
 ---
 
 ### Problem Description

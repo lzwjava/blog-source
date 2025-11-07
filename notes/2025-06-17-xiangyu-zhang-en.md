@@ -1,10 +1,10 @@
 ---
-title: Xiangyu Zhang
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Xiangyu Zhang
 translated: false
-generated: true
 ---
 
 Based on the information from posts on X and other web sources, Xiangyu Zhang, co-author of the ResNet paper (with 380,000 citations), shared insightful perspectives on the future of AI in a recent Mandarin-language podcast interview. Below is a summary of the known key points from the interview, combined with reasonable inferences based on his expertise, to expand on what he likely discussed:

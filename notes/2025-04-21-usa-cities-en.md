@@ -1,10 +1,10 @@
 ---
-title: Major Cities in the USA
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Major Cities in the USA
 translated: false
-generated: true
 ---
 
 Here are some of the major cities in the USA, categorized by population size, economic influence, and cultural significance:

@@ -1,10 +1,10 @@
 ---
-title: "Redefine Paragraph Style for Medium Weight"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Redefine Paragraph Style for Medium Weight
 translated: false
-generated: true
 ---
 
 To change the whole `cvparagraph` environment to use `\mdseries` instead of `\bodyfontlight`, you need to redefine the `\paragraphstyle` command. Add this to your preamble after loading the awesome-cv class:

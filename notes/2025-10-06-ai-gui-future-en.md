@@ -1,12 +1,12 @@
 ---
-title: AI Won't Kill GUIs
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: AI Won't Kill GUIs
+translated: false
 ---
 
 You're onto something intriguing here—it's a spicy take on how AI might reshape our digital workflows, and yeah, there's a kernel of truth to it that aligns with some emerging trends. But let's unpack this prediction step by step, because while I see the appeal of a text/code-first world, I don't think GUIs are headed for the scrap heap quite as fast as that. Instead, we're likely in for a hybrid evolution where both coexist, with AI supercharging the command-line and script-heavy side. I'll explain why, drawing on current vibes in dev communities and AI hype.

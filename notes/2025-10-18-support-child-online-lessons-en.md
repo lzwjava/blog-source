@@ -1,12 +1,12 @@
 ---
-title: Supporting Your Childs Online English Lessons
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Supporting Your Childs Online English Lessons
+translated: false
 ---
 
 ### Supporting Your 4-Year-Old's Online English Lessons

@@ -1,10 +1,10 @@
 ---
-title: Riku Kawasaki
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Riku Kawasaki
 translated: false
-generated: true
 ---
 
 Riku Kawasaki, known by his online handle **maroonrk**, is a highly accomplished competitive programmer from Japan, widely recognized for his exceptional achievements in the global competitive programming community. Born around 2001, Kawasaki has established himself as one of the top competitive programmers in the world, consistently ranking among the elite on platforms like Codeforces, AtCoder, and CodeChef. His journey in competitive programming, which began in 2016, showcases a remarkable ascent to the pinnacle of the field in just a few years, driven by his talent, dedication, and strategic approach to problem-solving. Beyond his competitive success, Kawasaki is also a significant contributor to the programming community as a problem setter, contest coordinator, and researcher.

@@ -1,10 +1,10 @@
 ---
-title: Queshi Bridge 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Queshi Bridge
 translated: false
-generated: true
 ---
 
 The Queshi Bridge in Shantou, China, has a story rooted in the city’s development as a key port and its evolving infrastructure needs. Spanning the Rongjiang River, the bridge connects downtown Shantou to the Queshi area, historically significant for its foreign presence after Shantou became a treaty port in 1860 following the Treaty of Tientsin. While the bridge itself doesn’t have a singular dramatic origin tale, its history reflects Shantou’s growth and the practical demands of linking its urban core with outlying regions like Queshi, once home to American and British consulates.

@@ -1,11 +1,11 @@
 ---
-title: Cost-Effective Translation Choices
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Cost-Effective Translation Choices
+translated: false
 ---
 
 Based on the user's request for cost-effective and high-quality translation models, here's a breakdown of the choices, considering the provided code's use of "deepseek" and "mistral":

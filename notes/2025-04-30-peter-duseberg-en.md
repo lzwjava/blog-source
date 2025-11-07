@@ -1,10 +1,10 @@
 ---
-title: "Peter Duesberg: Molecular Biologist and Prominent AIDS Denialist"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Peter Duesberg: Molecular Biologist and Prominent AIDS Denialist'
 translated: false
-generated: true
 ---
 
 Peter H. Duesberg is a German-American molecular biologist and a professor of molecular and cell biology at the University of California, Berkeley. Early in his career, Duesberg was a highly respected scientist known for his groundbreaking research on retroviruses and the identification of the first cancer gene, work that earned him election to the National Academy of Sciences in 1986.

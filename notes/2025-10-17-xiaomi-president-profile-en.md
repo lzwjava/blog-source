@@ -1,12 +1,12 @@
 ---
-title: Xiaomi President Lu Weibing Profile
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Xiaomi President Lu Weibing Profile
+translated: false
 ---
 
 ### Who is Lu Weibing?

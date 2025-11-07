@@ -1,10 +1,10 @@
 ---
-title: "Prolog: Logic-Based Declarative Programming"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Prolog: Logic-Based Declarative Programming'
 translated: false
-generated: true
 ---
 
 Prolog, short for "Programming in Logic," is a **declarative programming language** that stands in stark contrast to imperative languages like Python, Java, or C++. Instead of telling the computer *how* to solve a problem step-by-step, you describe *what* the problem is, and Prolog uses its built-in inference engine to find solutions.

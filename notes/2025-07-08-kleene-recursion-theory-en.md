@@ -1,10 +1,10 @@
 ---
-title: "Kleene's Foundations of Computability"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Kleene's Foundations of Computability
 translated: false
-generated: true
 ---
 
 Stephen Cole Kleene (1909–1994) was a prominent American mathematician and logician whose groundbreaking work significantly shaped the fields of mathematical logic and theoretical computer science. He is widely recognized as one of the founders of **recursion theory**, a branch of mathematical logic that studies computable functions and the solvability of mathematical problems.

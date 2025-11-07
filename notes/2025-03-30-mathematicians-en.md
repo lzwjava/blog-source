@@ -1,10 +1,10 @@
 ---
-title: Impactful Mathematicians
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Impactful Mathematicians
 translated: false
-generated: true
 ---
 
 Here is a list of **impactful mathematicians** who have made significant contributions to the field of mathematics:

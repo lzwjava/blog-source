@@ -1,12 +1,12 @@
 ---
-title: Internet Protocol Comprehensive Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Internet Protocol Comprehensive Guide
+translated: false
 ---
 
 The Internet Protocol (IP) is the backbone of the internet, serving as the primary mechanism for routing and addressing data across interconnected networks. It operates at the network layer (Layer 3) of the OSI model, enabling devices worldwide to communicate by breaking data into packets and directing them to their destinations. This guide provides an in-depth exploration of IP, building on its core principles while covering its history, versions, mechanics, and practical considerations. Whether you're a student, network engineer, or curious enthusiast, this will equip you with a solid understanding.

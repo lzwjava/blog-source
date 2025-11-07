@@ -1,10 +1,10 @@
 ---
-title: Becoming a Principal Software Engineer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Becoming a Principal Software Engineer
 translated: false
-generated: true
 ---
 
 Becoming a Principal Software Engineer (PSE) is a significant career milestone that requires a mix of technical expertise, leadership skills, and strategic thinking. A PSE is typically a senior-level role where you’re not just writing code but also shaping technical direction, mentoring teams, and solving complex problems at scale. Here’s a roadmap to get there:

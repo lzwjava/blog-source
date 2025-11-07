@@ -1,10 +1,10 @@
 ---
-title: Java SQL for Database Connectivity
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Java SQL for Database Connectivity
 translated: false
-generated: true
 ---
 
 The `java.sql` package is a **core part of Java's JDBC API (Java Database Connectivity)**, enabling Java applications to interact with relational databases like MySQL, PostgreSQL, Oracle, SQL Server, and others. It provides the interfaces and classes required to **connect to a database, execute SQL queries, and retrieve results**.

@@ -1,10 +1,10 @@
 ---
-title: Pip Install While Ignoring Failures
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Pip Install While Ignoring Failures
 translated: false
-generated: true
 ---
 
 Apologies for the confusion; the `--skip-existing` flag is not a valid option in `pip`. To continue installing packages from a requirements file despite failures, you can use the `--no-dependencies` flag to avoid dependency conflicts or handle errors manually. However, the best approach to skip failed packages and continue installing others is to use a loop in a shell script. Here's a one-liner command to attempt installing each package from `requirements.top.txt` individually, ignoring failures:

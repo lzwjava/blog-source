@@ -1,10 +1,10 @@
 ---
-title: Query Engine
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Query Engine
 translated: false
-generated: true
 ---
 
 A query engine is a component of a database management system (DBMS) that interprets and executes database queries (typically written in SQL or a similar language). Its main function is to process the queries and return the appropriate results. Here’s a breakdown of how it works:

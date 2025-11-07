@@ -1,12 +1,12 @@
 ---
-title: Fixing PyTorch and IPEX Compatibility Issues
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-4.5-sonnet
+title: Fixing PyTorch and IPEX Compatibility Issues
+translated: false
 ---
 
 You're encountering two issues here:

@@ -1,10 +1,10 @@
 ---
-title: Spring Boot Source Code Exploration Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Spring Boot Source Code Exploration Guide
 translated: false
-generated: true
 ---
 
 Reading the source code of a large project built with Maven, Spring Boot, and Java, especially one with multiple modules and web configurations, can feel overwhelming at first. However, with a structured approach, you can quickly navigate and understand the codebase. Below is a step-by-step guide to help you efficiently read and comprehend such a project.

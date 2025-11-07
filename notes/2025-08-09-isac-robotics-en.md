@@ -1,11 +1,11 @@
 ---
-title: NVIDIA's Isaac Robotics Platform
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: NVIDIA's Isaac Robotics Platform
+translated: false
 ---
 
 I’m assuming you’re asking about NVIDIA’s Isaac platform, likely in the context of recent news or developments, given your query "Isaac NVIDIA" and the provided search context. Since you mentioned "yes," it seems you might be confirming or following up on a previous question, but without more details, I’ll focus on giving you a concise overview of NVIDIA’s Isaac platform and relevant updates, incorporating the real-time financial data and web results where applicable.

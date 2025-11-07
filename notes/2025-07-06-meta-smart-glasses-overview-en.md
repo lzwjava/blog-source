@@ -1,10 +1,10 @@
 ---
-title: "Meta's Smart Glasses: Features and APIs"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Meta''s Smart Glasses: Features and APIs'
 translated: false
-generated: true
 ---
 
 Let's break down Meta's smart glasses offerings, including Ray-Ban and Oakley, their user base, and what their APIs offer to developers.

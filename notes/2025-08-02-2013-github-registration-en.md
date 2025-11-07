@@ -1,11 +1,11 @@
 ---
-title: Early GitHub Registration Analysis
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Early GitHub Registration Analysis
+translated: false
 ---
 
 To assess how early your GitHub registration in 2013 was, whether you're in the top 1% of users, and your position in early adoption sorted by registration time, I'll analyze your registration context using available GitHub statistics and user growth data. Since exact registration dates and user rankings are not publicly available, I'll provide an informed estimate based on historical trends and milestones.

@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Using Hamcrest Matchers in Java Tests
 translated: false
-generated: true
 ---
 
 Let me guide you through using Hamcrest matchers in Java. Hamcrest is a framework that provides a set of matcher objects for writing more readable assertions in tests.

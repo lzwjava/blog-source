@@ -1,10 +1,10 @@
 ---
-title: "AI-Powered Coding Assistant Guide"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AI-Powered Coding Assistant Guide
 translated: false
-generated: true
 ---
 
 Claude Code is an AI-powered coding assistant developed by Anthropic, designed to integrate seamlessly into your terminal and enhance software development workflows through natural language commands. Below is a comprehensive guide to using Claude Code effectively, covering setup, key features, best practices, limitations, and practical examples. This guide is tailored for developers of all levels, from beginners to experienced engineers, and draws on insights from various sources to provide a clear and actionable overview.

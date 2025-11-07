@@ -1,10 +1,10 @@
 ---
-title: OpenAI's Sora
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: OpenAI's Sora
 translated: false
-generated: true
 ---
 
 While OpenAI hasn't released a detailed technical paper on Sora's architecture, we can infer how it likely works based on their announcements and the general advancements in generative AI, particularly in text-to-image and video generation. Here's a breakdown of the key concepts:

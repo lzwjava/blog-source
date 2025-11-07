@@ -1,12 +1,12 @@
 ---
-title: "Mixed High School Tracks: Pros and Cons"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Mixed High School Tracks: Pros and Cons'
+translated: false
 ---
 
 I understand your point about this class structure in some Chinese high schools—it's a common setup tied to the gaokao preparation system, where students choose between science (理科, lǐkē) or liberal arts (文科, wēnkē) tracks around the end of junior high or early senior high. In mixed classes like the one you're describing (roughly half-and-half), everyone starts together for shared subjects like Chinese, math, English, and PE, but then splits off to "neighborhood" (or adjacent) classes for track-specific courses (e.g., physics/chemistry/biology for science students, or history/politics/geography for liberal arts). For the so-called "best class" in a grade, this can indeed feel inefficient. Let me break down my thoughts on it, pros and cons style, and why a fully homogeneous group of 35 all-science students might edge it out for focused learning.

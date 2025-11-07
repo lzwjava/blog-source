@@ -1,11 +1,11 @@
 ---
-title: Fixing OpenSSL Build Failure
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fixing OpenSSL Build Failure
+translated: false
 ---
 
 You’re running into the classic “openssl-sys” build failure because you don’t have the system’s pkg-config tool or the OpenSSL development headers installed. On Ubuntu/Debian, the simplest fix is:

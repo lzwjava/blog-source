@@ -1,10 +1,10 @@
 ---
-title: Fabrice Bellard
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fabrice Bellard
 translated: false
-generated: true
 ---
 
 Fabrice Bellard (born in 1972) is a highly accomplished French computer programmer and mathematician. He is renowned for his significant contributions to open-source software and for several remarkable achievements in computer science and mathematics.

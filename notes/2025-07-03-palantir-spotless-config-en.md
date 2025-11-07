@@ -1,10 +1,10 @@
 ---
-title: "Configure Palantir Java Format with Spotless"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Configure Palantir Java Format with Spotless
 translated: false
-generated: true
 ---
 
 To configure the **Palantir Java Format** with the **Spotless Maven Plugin** in a `pom.xml` file, you need to set up the plugin to use `palantirJavaFormat` and specify formatting options such as tabspace, indentation, import order, and other settings. Below is a detailed guide on how to configure these settings and the available options based on the Spotless plugin and Palantir Java Format.

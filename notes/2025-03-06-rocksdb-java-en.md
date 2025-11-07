@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Java API for RocksDB
 translated: false
-generated: true
 ---
 
 To use the `org.rocksdb` library, which is the Java API for RocksDB—a high-performance embedded database for key-value data—you'll need to follow these steps. RocksDB is optimized for fast storage and retrieval, making it ideal for applications requiring quick access to data by known keys. Below is a comprehensive guide to get you started:

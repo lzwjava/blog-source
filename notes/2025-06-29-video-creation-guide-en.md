@@ -1,10 +1,10 @@
 ---
-title: "Create Educational Videos with Python"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Create Educational Videos with Python
 translated: false
-generated: true
 ---
 
 To create educational short videos with a black background and captions synchronized with audio generated from text using the DeepSeek API and Google Cloud Text-to-Speech API, you can use Python to orchestrate the process. Below is a step-by-step guide and a Python script that accomplishes this. The script will:

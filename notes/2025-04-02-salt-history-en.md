@@ -1,10 +1,10 @@
 ---
-title: The History of Salt
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The History of Salt
 translated: false
-generated: true
 ---
 
 The history of salt is rich and intertwined with human civilization, influencing trade, economics, and even cultural practices. Here's a comprehensive overview:

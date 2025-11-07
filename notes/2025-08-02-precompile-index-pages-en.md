@@ -1,11 +1,11 @@
 ---
-title: Precompile Language-Specific Index Pages
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Precompile Language-Specific Index Pages
+translated: false
 ---
 
 Yes, you can precompile separate index pages for different languages (e.g., `index-zh.html`, `index-en.html`) to improve performance and user experience, especially if your site has a large number of posts or if you want to reduce client-side JavaScript processing. This approach would involve generating static HTML files for each language during the build process, rather than relying on JavaScript to filter and sort posts dynamically on the client side.

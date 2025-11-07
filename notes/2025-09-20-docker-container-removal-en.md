@@ -1,12 +1,12 @@
 ---
-title: Resolving Docker Container Removal Issues
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Resolving Docker Container Removal Issues
+translated: false
 ---
 
 Nice — thanks, that output confirms the container is stuck in **Removal In Progress** and `docker rm -f` fails with the same overlay2 error. Below I’ll give a careful, ordered recovery plan specifically for **macOS using Docker Desktop** (your prompt shows Docker Desktop proxy messages). I’ll mark destructive steps clearly and give exact commands you can copy/paste. Follow them in order until the issue is resolved.

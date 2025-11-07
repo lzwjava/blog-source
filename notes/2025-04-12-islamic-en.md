@@ -1,10 +1,10 @@
 ---
-title: Islamic Values
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Islamic Values
 translated: false
-generated: true
 ---
 
 Islamic values are derived from the Quran, the Sunnah (teachings and practices of Prophet Muhammad), and Islamic tradition. They guide a Muslim’s spiritual, moral, and social life. Core values include:

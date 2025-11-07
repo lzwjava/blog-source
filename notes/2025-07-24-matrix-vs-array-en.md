@@ -1,10 +1,10 @@
 ---
-title: Matrices vs Multi-D Arrays
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Matrices vs Multi-D Arrays
 translated: false
-generated: true
 ---
 
 Here’s a quick mental model that usually helps programmers keep the two straight.

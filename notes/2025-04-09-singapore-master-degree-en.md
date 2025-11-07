@@ -1,10 +1,10 @@
 ---
-title: Applying for a Master's Degree in Singapore (NUS/NTU)
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Applying for a Master's Degree in Singapore (NUS/NTU)
 translated: false
-generated: true
 ---
 
 #### 1. **Research Programs and Universities**
@@ -129,4 +129,3 @@ After graduation, your student pass will expire. To work legally in Singapore, y
 * **Work Pass Exemption for Students:** While holding a student pass, there are limited conditions under which you can work part-time during term or full-time during vacation. However, once you graduate, you will need a valid work pass to continue working.
 
 **In summary, obtaining a Master's degree in Computer Science from NUS or NTU significantly enhances your prospects of finding employment in Singapore. By securing a job offer that meets the criteria for an Employment Pass or other relevant work passes, you can transition from being a student to a working professional in Singapore.** It's essential to start your job search early, understand the work visa application process, and ensure you meet all the necessary requirements.
-

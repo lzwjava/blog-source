@@ -1,12 +1,12 @@
 ---
-title: Quick Steamed Foods for Busy Guangzhou Schedules
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Quick Steamed Foods for Busy Guangzhou Schedules
+translated: false
 ---
 
 Based on your busy schedule in Guangzhou and preference for easy-to-prepare steamed foods like buns (baozi) or dumplings (jiaozi), JD.com is a great platform for frozen or pre-made options that just need hot water steaming—no fancy equipment required (a basic steamer basket or even a pot with a rack works). You can search for these under categories like "速冻食品" (frozen foods) or "饺子/包子" (dumplings/buns). Delivery is fast in Guangzhou, often same-day or next-day.

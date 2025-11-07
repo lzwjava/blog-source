@@ -1,12 +1,12 @@
 ---
-title: Discord's Rise As Communication Hub
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Discord's Rise As Communication Hub
+translated: false
 ---
 
 ### A Brief History of Discord

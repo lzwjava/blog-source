@@ -1,11 +1,11 @@
 ---
-title: Muon Optimizer with Orthogonalization for PyTorch
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Muon Optimizer with Orthogonalization for PyTorch
+translated: false
 ---
 
 Got it—here’s a clean PyTorch reference implementation you can drop into a project. It includes:

@@ -1,12 +1,12 @@
 ---
-title: Azure Virtual Machines Support Linux
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Azure Virtual Machines Support Linux
+translated: false
 ---
 
 Yes, Azure Virtual Machines (VMs) fully support running Linux operating systems. You can deploy a wide range of popular distributions directly from the Azure Marketplace or upload your own custom Linux images.

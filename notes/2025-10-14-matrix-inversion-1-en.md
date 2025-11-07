@@ -1,12 +1,12 @@
 ---
-title: Inverting a 3x3 Matrix
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Inverting a 3x3 Matrix
+translated: false
 ---
 
 Sure — let’s unpack that clearly and intuitively, without any table formatting so it’s easy to read line by line.  

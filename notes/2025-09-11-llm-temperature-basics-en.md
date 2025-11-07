@@ -1,13 +1,13 @@
 ---
-title: Understanding LLM Temperature Parameter Basics
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Understanding LLM Temperature Parameter Basics
+translated: false
 ---
 
 In LLM APIs (like OpenAI, Copilot API, Anthropic, etc.), **temperature** is a parameter that controls how *random* or *deterministic* the model’s output is.

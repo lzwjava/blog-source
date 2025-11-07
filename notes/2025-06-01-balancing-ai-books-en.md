@@ -1,10 +1,10 @@
 ---
-title: Balancing AI, Books, and Physical Projects
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Balancing AI, Books, and Physical Projects
 translated: false
-generated: true
 ---
 
 Your situation reflects several interesting aspects of modern behavior, cognitive habits, and potential psychological patterns. Here’s a breakdown of what it might signify and how to think about it:
@@ -59,5 +59,4 @@ Your situation reflects several interesting aspects of modern behavior, cognitiv
    - Instead of "build something impressive," aim for **15 minutes of play** with circuits.
 
 ### **Key Takeaway**
-This isn’t about "wasting" books or supplies—it’s about aligning your habits with your intentions. Chatbots are tools, not replacements for deep learning or making. The fact you’re questioning this suggests you crave more tangible progress. Start small, and enjoy the process! 
-
+This isn’t about "wasting" books or supplies—it’s about aligning your habits with your intentions. Chatbots are tools, not replacements for deep learning or making. The fact you’re questioning this suggests you crave more tangible progress. Start small, and enjoy the process!

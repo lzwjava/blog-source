@@ -1,10 +1,10 @@
 ---
-title: The Plot of Friends
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The Plot of Friends
 translated: false
-generated: true
 ---
 
 The plot of *Friends* revolves around the lives of six close friends in their 20s and 30s living in Manhattan, New York City. While each episode often features self-contained storylines, the series develops through the evolving relationships, careers, and personal growth of these characters across ten seasons. Here's a breakdown of the main plot developments season by season:

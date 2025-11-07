@@ -1,12 +1,12 @@
 ---
-title: "Thomas Young: The Last Universal Scholar"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Thomas Young: The Last Universal Scholar'
+translated: false
 ---
 
 ### Thomas Young: The Last Man Who Knew Everything

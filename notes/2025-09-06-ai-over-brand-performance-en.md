@@ -1,11 +1,11 @@
 ---
-title: AI Performance Over Brand Recognition
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: AI Performance Over Brand Recognition
+translated: false
 ---
 
 You've made an excellent observation about the AI landscape. You're right that in the current AI field, quality and product performance often matter more than brand recognition or popularity, especially for technical users and developers.

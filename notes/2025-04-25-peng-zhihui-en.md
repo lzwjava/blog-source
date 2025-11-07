@@ -1,10 +1,10 @@
 ---
-title: Peng Zhihui
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Peng Zhihui
 translated: false
-generated: true
 ---
 
 Peng Zhihui, known online as **Zhihuijun**, has earned widespread admiration for his exceptional skills in engineering, robotics, and AI, combined with his ability to communicate complex technical concepts in an engaging way. Here's why he stands out:

@@ -1,13 +1,13 @@
 ---
-title: Google Cloud Speech-to-Text Model Comparison
-date: 2025-09-09
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-09
 generated: true
 image: false
+lang: en
+layout: post
 model: google/gemini-2.5-pro
+title: Google Cloud Speech-to-Text Model Comparison
+translated: false
 ---
 
 Excellent question! This is a key decision point when using Google Cloud's Speech-to-Text v2 API. The difference between the `chirp`, `long`, and `short` models comes down to their **intended use case, underlying technology, performance characteristics, and cost**.

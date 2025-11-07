@@ -1,10 +1,10 @@
 ---
-title: How a CPU Processes Intructions
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: How a CPU Processes Intructions
 translated: false
-generated: true
 ---
 
 This image appears to be a page from a textbook or lecture notes on computer architecture, specifically focusing on the design of a CPU (Central Processing Unit) with a focus on the Memory Address Register (MAR) and its related operations. Here's a detailed explanation of the content:

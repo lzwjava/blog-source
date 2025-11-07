@@ -1,10 +1,10 @@
 ---
-title: Video Recommendations about Microcomputer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Video Recommendations about Microcomputer
 translated: false
-generated: true
 ---
 
 Here are some recommended YouTube videos and playlists covering the topics in the "Microcomputer and Interface Technology" course outline:

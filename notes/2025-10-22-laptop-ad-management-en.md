@@ -1,12 +1,12 @@
 ---
-title: Managing Laptop Access with Active Directory
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Managing Laptop Access with Active Directory
+translated: false
 ---
 
 ### What is Active Directory (AD) in Windows?

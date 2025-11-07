@@ -1,12 +1,12 @@
 ---
-title: Python Datetime Module Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: Python Datetime Module Overview
+translated: false
 ---
 
 ### Overview of Python's datetime Module

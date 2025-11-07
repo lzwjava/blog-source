@@ -1,13 +1,13 @@
 ---
-title: Huawei ADS 4.0 Autonomous Driving System Overview
-date: 2025-09-12
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-12
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-3
+title: Huawei ADS 4.0 Autonomous Driving System Overview
+translated: false
 ---
 
 ### Huawei ADS 4.0: Overview

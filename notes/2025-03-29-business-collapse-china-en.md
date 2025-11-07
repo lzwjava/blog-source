@@ -1,8 +1,8 @@
 ---
-title: business-collapse-china
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: business-collapse-china
 translated: false
-generated: true
 ---

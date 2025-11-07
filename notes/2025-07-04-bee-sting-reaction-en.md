@@ -1,10 +1,10 @@
 ---
-title: "Recognizing Severe Bee Sting Reactions"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Recognizing Severe Bee Sting Reactions
 translated: false
-generated: true
 ---
 
 A bee sting can cause localized swelling, redness, and discomfort, but if you're noticing red, swollen areas (possibly hives or welts) two days after the sting, it could indicate an allergic reaction or a secondary issue like infection. The "liquid" you mention might be fluid from swelling (edema) or, in rare cases, pus if an infection has developed. Here’s a breakdown to help you decide what to do:

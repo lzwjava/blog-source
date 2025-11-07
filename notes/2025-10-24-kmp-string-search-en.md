@@ -1,12 +1,12 @@
 ---
-title: KMP Algorithm Efficient String Search
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: KMP Algorithm Efficient String Search
+translated: false
 ---
 
 ### Understanding the Knuth-Morris-Pratt (KMP) Algorithm

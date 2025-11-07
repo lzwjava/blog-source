@@ -1,12 +1,12 @@
 ---
-title: Huangpu Junxiao Primary School Guangzhou Introduction
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Huangpu Junxiao Primary School Guangzhou Introduction
+translated: false
 ---
 
 Here’s the English version of the introduction to **Huangpu Junxiao Primary School (Guangzhou):**

@@ -1,10 +1,10 @@
 ---
-title: Rain Jiang 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rain Jiang
 translated: false
-generated: true
 ---
 
 Rain Jiang is a highly accomplished competitive programmer from the United States, recognized for their exceptional performance in the International Olympiad in Informatics (IOI), one of the most prestigious global competitions for high school students in computer science. Jiang has consistently demonstrated remarkable skill in algorithmic problem-solving, earning multiple medals and top rankings over several years of participation. Their achievements highlight not only technical prowess but also dedication to the field of competitive programming, making them a standout figure in the community.

@@ -1,10 +1,10 @@
 ---
-title: Maillard Reaction
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Maillard Reaction
 translated: false
-generated: true
 ---
 
 The Maillard reaction is a fundamental chemical process in cooking that significantly enhances the flavor, aroma, and appearance of food. Named after French chemist Louis-Camille Maillard, who first described it in the early 20th century, this non-enzymatic browning reaction occurs when amino acids (the building blocks of proteins) and reducing sugars (like glucose or fructose) are heated together, typically at temperatures above 280°F (140°C). The result is a complex cascade of chemical interactions that produces a wide range of new compounds, giving foods their characteristic browned color, rich flavors, and enticing aromas.

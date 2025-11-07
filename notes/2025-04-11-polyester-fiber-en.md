@@ -1,10 +1,10 @@
 ---
-title: Polyester Fiber
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Polyester Fiber
 translated: false
-generated: true
 ---
 
 Polyester fiber is widely used in clothing for several reasons:

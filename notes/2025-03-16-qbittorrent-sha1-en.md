@@ -1,10 +1,10 @@
 ---
-title: "qBittorrent File Verification: SHA-1 Hashing"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'qBittorrent File Verification: SHA-1 Hashing'
 translated: false
-generated: true
 ---
 
 When you move file locations in qBittorrent and it checks the files again before seeding, it’s ensuring that the files in the new location are the same as the ones it was originally working with. This verification is critical in torrenting to prevent sharing incorrect or corrupted data. Here’s how the process works and what algorithm it uses:

@@ -1,12 +1,12 @@
 ---
-title: Apple 35W Adapter Charges iPhone 14 Pro Max
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Apple 35W Adapter Charges iPhone 14 Pro Max
+translated: false
 ---
 
 Yes, the Apple 35W Dual USB-C Port Compact Power Adapter (designed for the MacBook Air M2) can charge an iPhone 14 Pro Max using one of its two USB-C ports. 

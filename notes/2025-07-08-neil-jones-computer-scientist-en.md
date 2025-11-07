@@ -1,10 +1,10 @@
 ---
-title: "Neil D. Jones: Computer Science Pioneer"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Neil D. Jones: Computer Science Pioneer'
 translated: false
-generated: true
 ---
 
 Neil Deaton Jones (1941-2023) was an American computer scientist, widely recognized as a Professor Emeritus in computer science at the University of Copenhagen. His extensive work significantly impacted both programming languages and the theory of computation.

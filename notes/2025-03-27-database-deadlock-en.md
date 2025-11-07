@@ -1,10 +1,10 @@
 ---
-title: Database Deadlock
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Database Deadlock
 translated: false
-generated: true
 ---
 
 A **database deadlock** occurs when two or more transactions are waiting for each other to release locks on resources, creating a circular dependency that prevents any of them from proceeding. The database management system (DBMS) typically detects this situation and resolves it by rolling back one of the transactions. Below is a detailed example of a deadlock scenario:

@@ -1,12 +1,12 @@
 ---
-title: Making Travel Memories Sharper
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Making Travel Memories Sharper
+translated: false
 ---
 
 Absolutely, spot on—nothing beats those crystal-clear memories that stick with you long after the suitcase is unpacked. A weekend in Hong Kong (with its neon chaos, harbor views, and dim sum bliss) is the kind of whirlwind that deserves to live in your mind, not just your camera roll. Relying on 200 iPhone pics can feel like homework, not a highlight reel.

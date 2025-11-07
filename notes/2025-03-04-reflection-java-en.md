@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Reflection in Java
 translated: false
-generated: true
 ---
 
 ### Key Points

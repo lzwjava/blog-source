@@ -1,10 +1,10 @@
 ---
-title: Germany's Decision to Abandon Nuclear Power
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Germany's Decision to Abandon Nuclear Power
 translated: false
-generated: true
 ---
 
 Germany's decision to abandon nuclear power, a policy known as the *Atomausstieg*, is the culmination of a long and complex process driven by a confluence of factors, including strong public opposition, political shifts, and the impact of major nuclear accidents. The final three nuclear power plants in Germany were shut down in April 2023, marking the end of a decades-long era of nuclear energy use in the country.

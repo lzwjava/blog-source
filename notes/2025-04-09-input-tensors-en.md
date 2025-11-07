@@ -1,10 +1,10 @@
 ---
-title: Dimension Mismatch in Tensors
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Dimension Mismatch in Tensors
 translated: false
-generated: true
 ---
 
 It looks like you've encountered an error while training a reward model as part of a Reinforcement Learning from Human Feedback (RLHF) setup using PyTorch and the Transformers library. The error message indicates a dimension mismatch in the `MarginRankingLoss` function, which expects all input tensors (`input1`, `input2`, and `target`) to have the same size. Let’s break this down and fix it.
@@ -280,4 +280,3 @@ The `IndexError` is eliminated, and your reward model training should now run sm
 To fix the `IndexError: Dimension specified as 0 but tensor has no dimensions` on line 44 of `rl.py`, replace `.squeeze()` with `.squeeze(-1)` when computing `preferred_reward` and `less_preferred_reward`. This ensures they remain 1D tensors with shape `[1]` (or `[batch_size]` for larger batches), allowing `preferred_reward.size(0)` to correctly retrieve the batch size for creating the `labels` tensor.
 
 Apply this change in your reward model training loop as shown above, and the error will be resolved.
-

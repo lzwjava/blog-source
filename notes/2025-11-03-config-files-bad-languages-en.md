@@ -1,12 +1,12 @@
 ---
-title: Config Files Evolve Into Bad Languages
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Config Files Evolve Into Bad Languages
+translated: false
 ---
 
 ### Explaining "The Logic Indestructibility Law" and Why Config Files Become Bad Programming Languages

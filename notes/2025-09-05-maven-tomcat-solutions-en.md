@@ -1,11 +1,11 @@
 ---
-title: Solutions for Maven Tomcat Plugin Issues
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Solutions for Maven Tomcat Plugin Issues
+translated: false
 ---
 
 You got the key clue right in your own log:

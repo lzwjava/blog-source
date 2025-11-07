@@ -1,10 +1,10 @@
 ---
-title: Agricultural Bank of China 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Agricultural Bank of China
 translated: false
-generated: true
 ---
 
 The profitability of the Agricultural Bank of China (ABC), one of China's "Big Four" state-owned commercial banks, stems from a combination of factors, including its significant role in mortgage lending and interest earnings, but also broader operational and market dynamics. Below, I outline the key reasons for ABC's profitability, with a focus on mortgage interest earnings and other contributing factors:

@@ -1,10 +1,10 @@
 ---
-title: Top Cities for Programmers
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Top Cities for Programmers
 translated: false
-generated: true
 ---
 
 Based on my research, here's a list of cities that are consistently recognized as having a high concentration of programmers and software developers. It's challenging to get a precise, definitive ranking of the top 30, but this list combines information from various reports and general knowledge of tech hubs around the world:

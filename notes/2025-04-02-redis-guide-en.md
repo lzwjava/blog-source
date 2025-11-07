@@ -1,10 +1,10 @@
 ---
-title: Redis Guide
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Redis Guide
 translated: false
-generated: true
 ---
 
 Here’s a comprehensive guide to Redis, an open-source, in-memory data structure store widely used as a database, cache, and message broker. This guide will cover its fundamentals, features, use cases, installation, basic operations, and advanced concepts.

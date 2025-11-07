@@ -1,11 +1,11 @@
 ---
-title: Model Stopped Naturally Not Context Limit
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Model Stopped Naturally Not Context Limit
+translated: false
 ---
 
 Good question — the **context length** (1M tokens) and the **finish reason: stop** are two different things.

@@ -1,12 +1,12 @@
 ---
-title: Logic Gate Symbols and Shapes
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Logic Gate Symbols and Shapes
+translated: false
 ---
 
 ### Logic Gate Symbols in Digital Circuits

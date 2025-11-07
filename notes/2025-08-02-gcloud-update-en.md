@@ -1,11 +1,11 @@
 ---
-title: Google Cloud CLI Update
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Google Cloud CLI Update
+translated: false
 ---
 
 % gcloud components update

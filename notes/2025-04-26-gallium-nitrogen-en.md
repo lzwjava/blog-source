@@ -1,10 +1,10 @@
 ---
-title: Gallium Nitride
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Gallium Nitride
 translated: false
-generated: true
 ---
 
 **What is Gallium Nitride?**

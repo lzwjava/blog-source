@@ -1,12 +1,12 @@
 ---
-title: CMake Usage and Explanation on Windows
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: CMake Usage and Explanation on Windows
+translated: false
 ---
 
 Great question! Let’s walk through what **CMake** is, how to use it—particularly on **Windows**, and what commands like `cmake --build` actually mean.

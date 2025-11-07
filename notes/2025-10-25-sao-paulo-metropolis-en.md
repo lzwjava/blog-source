@@ -1,12 +1,12 @@
 ---
-title: "São Paulo: A Global Metropolis"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'São Paulo: A Global Metropolis'
+translated: false
 ---
 
 São Paulo, often simply called "Sampa" by locals, is the beating heart of Brazil and one of the world's most dynamic metropolises. As the capital of São Paulo state, it stands as the largest city in the Southern Hemisphere and the most populous in the Americas, with approximately 11.9 million residents in the city proper as of 2024 and over 21.5 million in the greater metropolitan area. This sprawling urban giant is an alpha global city, wielding immense influence in finance, commerce, arts, and innovation. Nicknamed the "Concrete Jungle" (Selva de Pedra) for its towering skyline and relentless energy, São Paulo embodies Brazil's multicultural spirit while grappling with challenges like inequality and traffic congestion. Founded in 1554 by Jesuit missionaries on the feast day of Saint Paul, the city has evolved from a modest colonial outpost into Latin America's economic powerhouse, contributing around 10% of Brazil's GDP.

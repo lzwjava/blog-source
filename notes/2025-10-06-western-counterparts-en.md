@@ -1,12 +1,12 @@
 ---
-title: Western Counterparts to Fang Zhouzi
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Western Counterparts to Fang Zhouzi
+translated: false
 ---
 
 Yes, there are plenty of people in the West—particularly in the US and UK—who share similarities with Fang Shimin (Fang Zhouzi): individuals with scientific or academic backgrounds who act as vocal skeptics, debunkers of pseudoscience, fraud, and quackery, often through writing, blogging, or public advocacy. They tend to focus on exposing flaws in mainstream claims, alternative medicine scams, or academic misconduct, much like Fang's work in China. However, the Western context often involves less personal risk (no arrests for blogging), and their "obsessions" with nature or personal hobbies vary—few match Fang's daily wildflower ritual exactly, but some channel similar energies into mindfulness, art, or environmentalism.

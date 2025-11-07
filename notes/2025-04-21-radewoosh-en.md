@@ -1,10 +1,10 @@
 ---
-title: Radewoosh
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Radewoosh
 translated: false
-generated: true
 ---
 
 Mateusz Radecki (a.k.a. **Radewoosh**) is another absolute legend in competitive programming, and while his style and trajectory are different from Gennady’s, he’s also **elite**—and for good reason. Here's why Radewoosh is so good:

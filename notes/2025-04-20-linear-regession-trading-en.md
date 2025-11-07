@@ -1,10 +1,10 @@
 ---
-title: Using Linear Regession to Trade
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Using Linear Regession to Trade
 translated: false
-generated: true
 ---
 
 Great question! You're combining two tasks here:
@@ -99,4 +99,3 @@ Your scatter plot will show the closing price over days, and the regression line
 ---
 
 If you want, I can help you write a complete example integrating TigerOpen data fetching with your numpy linear regression code! Just ask.
-

@@ -1,10 +1,10 @@
 ---
-title: The Speed of Light
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: The Speed of Light
 translated: false
-generated: true
 ---
 
 The speed of light, denoted by $c$, is a fundamental constant in the universe, but it's crucial to understand the context in which it is considered constant.

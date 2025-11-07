@@ -1,10 +1,10 @@
 ---
-title: Virus Mania
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Virus Mania
 translated: false
-generated: true
 ---
 
 "Virus Mania: How the Medical Industry Continually Invents Epidemics, Making Billion-Dollar Profits At Our Expense" is a book authored by Torsten Engelbrecht, Dr. Claus Köhnlein, Dr. Samantha Bailey, and Dr. Stefano Scoglio.

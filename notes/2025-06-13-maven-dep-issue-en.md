@@ -1,10 +1,10 @@
 ---
-title: Maven Dependency Issue
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Maven Dependency Issue
 translated: false
-generated: true
 ---
 
 ### Problem Overview

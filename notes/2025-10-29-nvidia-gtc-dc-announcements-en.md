@@ -1,12 +1,12 @@
 ---
-title: NVIDIA GTC Washington D.C. Announcements
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: NVIDIA GTC Washington D.C. Announcements
+translated: false
 ---
 
 ### NVIDIA Announcements on October 29, 2025

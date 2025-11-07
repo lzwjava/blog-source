@@ -1,10 +1,10 @@
 ---
-title: Copying Files with Directory Structure
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Copying Files with Directory Structure
 translated: false
-generated: true
 ---
 
 Given your `find` command output, you want to copy all the `.log` files to `/Users/lzwjava/projects/logs` while preserving their directory structure. For example, a file like `./CoreSimulator/FC275C39-59CC-4483-A64E-5D459D7A1D57/system.log` should end up as `/Users/lzwjava/projects/logs/CoreSimulator/FC275C39-59CC-4483-A64E-5D459D7A1D57/system.log`. I’ll show you how to achieve this using `find` combined with `cp` or `rsync`, ensuring the directory hierarchy is maintained.

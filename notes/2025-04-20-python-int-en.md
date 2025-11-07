@@ -1,10 +1,10 @@
 ---
-title: Python Integer 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Python Integer
 translated: false
-generated: true
 ---
 
 In Python, the `int` type has **no fixed range** or size limit. Unlike languages like C or Java, where integers are constrained by specific bit sizes (e.g., 32-bit or 64-bit), Python's `int` is arbitrary-precision, meaning it can grow as large as available memory allows. This applies to both Python 2 (since Python 2.2, where `long` and `int` were unified) and Python 3.

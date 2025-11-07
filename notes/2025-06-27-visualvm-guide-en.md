@@ -1,10 +1,10 @@
 ---
-title: "Comprehensive Guide to VisualVM: Java Profiling and Monitoring"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Comprehensive Guide to VisualVM: Java Profiling and Monitoring'
 translated: false
-generated: true
 ---
 
 # Comprehensive Guide to VisualVM

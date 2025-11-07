@@ -1,12 +1,12 @@
 ---
-title: AI for Non-Coherent Video Frames
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: AI for Non-Coherent Video Frames
+translated: false
 ---
 
 Yes, the industry is actively developing and using AI models to generate non-coherent video frames—such as those used in educational, PPT-style, or instructional videos—where frame-to-frame continuity is not required. Here’s a summary of the current approaches:

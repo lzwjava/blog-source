@@ -1,12 +1,12 @@
 ---
-title: Transformer Layer Count Impact on Performance
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Transformer Layer Count Impact on Performance
+translated: false
 ---
 
 In NanoGPT, the number of transformer blocks (controlled by the `n_layer` parameter) determines the depth of the model, which directly impacts its capacity to learn hierarchical representations in language data. The standard configurations use 6 layers for the lightweight Shakespeare character-level example (to fit on a single GPU in minutes) and 12 layers to reproduce the GPT-2 124M model (on multi-GPU setups over days). Reducing this to 4 or 1 layer creates a shallower model that's faster to train and uses less memory, but it trades off performance—typically resulting in higher validation loss, underfitting, and lower-quality text generation.

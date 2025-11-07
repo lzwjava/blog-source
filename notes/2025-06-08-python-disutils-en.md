@@ -1,10 +1,10 @@
 ---
-title: Fix Python distutils ModuleNotFoundError
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fix Python distutils ModuleNotFoundError
 translated: false
-generated: true
 ---
 
 The error occurs because the `distutils` module, part of Python's standard library, is missing in your environment. This is common in minimal Python installations. Here's how to fix it:

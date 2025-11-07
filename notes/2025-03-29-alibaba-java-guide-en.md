@@ -1,10 +1,10 @@
 ---
-title: Alibaba Java Coding Guidelines
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Alibaba Java Coding Guidelines
 translated: false
-generated: true
 ---
 
 ## Overview

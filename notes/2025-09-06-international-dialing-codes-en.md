@@ -1,12 +1,12 @@
 ---
-title: International Dialing Codes and Phone Formats
-date: 2025-09-06
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-06
 generated: true
 image: false
+lang: en
+layout: post
+title: International Dialing Codes and Phone Formats
+translated: false
 ---
 
 Here’s a clear overview of **major countries’ international dialing codes** and how their **phone number structures** usually work:

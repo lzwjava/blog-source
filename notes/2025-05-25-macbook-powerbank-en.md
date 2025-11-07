@@ -1,10 +1,10 @@
 ---
-title: Charging MacBook Air with Power Bank
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Charging MacBook Air with Power Bank
 translated: false
-generated: true
 ---
 
 Yes, you can use a 5000mAh Type-C power bank to charge a MacBook Air 2022 (M2, 13.6-inch), but there are significant limitations to consider:

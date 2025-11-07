@@ -1,12 +1,12 @@
 ---
-title: xdotool Command Line Automation Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-sonnet-4
+title: xdotool Command Line Automation Guide
+translated: false
 ---
 
 ## What is xdotool?

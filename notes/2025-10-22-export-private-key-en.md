@@ -1,12 +1,12 @@
 ---
-title: Exporting a GPG Private Key
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Exporting a GPG Private Key
+translated: false
 ---
 
 ### Exporting a GPG Private Key from the Server

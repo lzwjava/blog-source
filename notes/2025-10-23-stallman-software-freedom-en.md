@@ -1,12 +1,12 @@
 ---
-title: Richard Stallman Fights For Software Freedom
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Richard Stallman Fights For Software Freedom
+translated: false
 ---
 
 ### Richard Stallman: The Open Source Fighter

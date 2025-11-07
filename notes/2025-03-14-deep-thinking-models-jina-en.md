@@ -1,10 +1,10 @@
 ---
-title: Deep Thinking Models
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Deep Thinking Models
 translated: false
-generated: true
 ---
 
 This information is based on query from https://search.jina.ai.

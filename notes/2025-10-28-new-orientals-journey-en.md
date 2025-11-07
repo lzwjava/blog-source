@@ -1,12 +1,12 @@
 ---
-title: New Orientals Startup Journey and Conflicts
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: New Orientals Startup Journey and Conflicts
+translated: false
 ---
 
 ### New Oriental's Startup Story

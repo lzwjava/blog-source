@@ -1,12 +1,12 @@
 ---
-title: Building a Basic MCP Weather Server
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Building a Basic MCP Weather Server
+translated: false
 ---
 
 ### What is the Model Context Protocol (MCP)?

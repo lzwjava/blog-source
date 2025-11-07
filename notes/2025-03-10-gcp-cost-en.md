@@ -1,10 +1,10 @@
 ---
-title: GCP Cost Estimation for VPN in Taipei
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: GCP Cost Estimation for VPN in Taipei
 translated: false
-generated: true
 ---
 
 To estimate the cost of using a Taipei server as a VPN with Google Cloud, considering you live in Guangzhou and expect 50 GB of network data per month using an E2 micro instance, we need to break down the costs into several components: the virtual machine (VM) instance, network egress traffic, and the persistent disk storage. Here’s a detailed calculation based on Google Cloud’s pricing for the asia-east1 region (Taipei), where your server will be hosted.

@@ -1,12 +1,12 @@
 ---
-title: Testing Generalization with Unseen Elements
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Testing Generalization with Unseen Elements
+translated: false
 ---
 
 In Ilya Sutskever's NeurIPS 2024 Test of Time Award talk on his 2014 "Sequence to Sequence Learning with Neural Networks" paper (and related early work like his PhD thesis on RNN language modeling), he reflected on early efforts to build generalizing neural language models. A key challenge was ensuring models didn't just memorize training data but could handle novel inputs—i.e., avoiding overfitting.

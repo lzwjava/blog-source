@@ -1,10 +1,10 @@
 ---
-title: Markdown Rendering with MathJax or KaTeX
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Markdown Rendering with MathJax or KaTeX
 translated: false
-generated: true
 ---
 
 To combine LaTeX math rendering with **Markdown** rendering on a webpage, you would typically use a JavaScript library (like **MathJax** or **KaTeX**) alongside a Markdown parser that can process standard Markdown syntax. The goal is to allow users to write math formulas in LaTeX within Markdown and have them rendered properly on the page.

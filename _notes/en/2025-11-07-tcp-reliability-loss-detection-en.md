@@ -1,12 +1,12 @@
 ---
-title: TCP Reliability and Loss Detection
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: moonshotai/kimi-k2-thinking
+title: TCP Reliability and Loss Detection
+translated: false
 ---
 
 Let me break down this TCP reliability conversation into clear concepts:

@@ -1,12 +1,12 @@
 ---
-title: Dana Xu's Cross-Cultural Reflections
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Dana Xu's Cross-Cultural Reflections
+translated: false
 ---
 
 The blog at http://danaxu.blogspot.com/ is a personal journal by Dana N. Xu, blending English and Chinese entries. It focuses on introspective reflections on daily life, cultural observations (especially while living in France), philosophy drawn from ancient Chinese texts, artistic inspirations like painting, family warmth, and simple joys in nature and food. Themes often emphasize personal growth, embracing change, the beauty of simplicity, and finding motivation in small moments—such as seasonal tree trimming in Paris or the metaphorical "challenge" of trying durian fruit.

@@ -1,11 +1,11 @@
 ---
-title: Node.js Upgrade Guide for Ubuntu
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Node.js Upgrade Guide for Ubuntu
+translated: false
 ---
 
 Upgrading Node.js on Ubuntu can be done in several ways. The most reliable and recommended methods are using **`nvm` (Node Version Manager)** or the **NodeSource repository**. Below are step-by-step instructions for both methods.

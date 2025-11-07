@@ -1,12 +1,12 @@
 ---
-title: Neta Auto Magic Carpet Cabin Explained
-date: 2025-09-07
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-07
 generated: true
 image: false
+lang: en
+layout: post
+title: Neta Auto Magic Carpet Cabin Explained
+translated: false
 ---
 
 Of course. Here is the explanation of the Neta Auto's "Magic Carpet Cabin" in English.

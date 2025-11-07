@@ -1,11 +1,11 @@
 ---
-title: Fixing Private Function Error
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fixing Private Function Error
+translated: false
 ---
 
 The error `E0603: function run_simple is private` indicates that the `run_simple` function in `simple.rs` is private (lacking the `pub` keyword), so it cannot be accessed from `main.rs`. In Rust, functions are private by default and need to be explicitly made public with `pub` to be accessible outside their module.

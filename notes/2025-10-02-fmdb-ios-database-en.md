@@ -1,12 +1,12 @@
 ---
-title: FMDB for iOS Database Operations
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: deepseek/deepseek-v3.2-exp
+title: FMDB for iOS Database Operations
+translated: false
 ---
 
 FMDB is an Objective-C wrapper around SQLite that makes database operations easier and more intuitive for iOS and macOS developers.

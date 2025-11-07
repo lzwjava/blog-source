@@ -1,10 +1,10 @@
 ---
-title: 20-day USA Adventure
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 20-day USA Adventure
 translated: false
-generated: true
 ---
 
 Okay, let's plan an exciting 20-day USA adventure! To give you the best plan, I'll assume you're interested in seeing a mix of iconic landmarks, diverse landscapes, and vibrant cities. This itinerary will cover both coasts and some highlights in between.

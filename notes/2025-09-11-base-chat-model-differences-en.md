@@ -1,13 +1,13 @@
 ---
-title: Base vs Chat Model Differences
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Base vs Chat Model Differences
+translated: false
 ---
 
 Great question! Let’s break it down:

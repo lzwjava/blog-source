@@ -1,12 +1,12 @@
 ---
-title: XRP Has Lowest Transaction Fees
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: XRP Has Lowest Transaction Fees
+translated: false
 ---
 
 To determine which cryptocurrency among Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), and Litecoin (LTC) has the lowest fees for transactions initiated from a Localcoin ATM in Hong Kong, we need to consider **blockchain transaction fees** (not ATM fees, which are 5-8% for all coins at Localcoin ATMs). Fees vary based on network congestion, transaction complexity, and market conditions, but below are typical values as of 2025, based on current blockchain data.

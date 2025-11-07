@@ -1,10 +1,10 @@
 ---
-title: SR Latch and Flip-Flop Modifications by Ben Eater
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: SR Latch and Flip-Flop Modifications by Ben Eater
 translated: false
-generated: true
 ---
 
 Below is a coherent and organized version of the provided text, preserving the original content as much as possible while improving clarity, structure, and flow. The text has been edited for grammatical accuracy, logical progression, and readability without altering the technical details or core explanations.

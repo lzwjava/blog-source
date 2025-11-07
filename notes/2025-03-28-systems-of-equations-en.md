@@ -1,10 +1,10 @@
 ---
-title: Systems of Equations and Gaussian Elimination
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Systems of Equations and Gaussian Elimination
 translated: false
-generated: true
 ---
 
 This tutorial provides a detailed guide on **systems of equations**, their representation, solutions, and the **Gaussian elimination** method used to solve them.  

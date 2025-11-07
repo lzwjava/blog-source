@@ -1,12 +1,12 @@
 ---
-title: Git-Friendly Database Version Control
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Git-Friendly Database Version Control
+translated: false
 ---
 
 ### Choosing Between JSON (or CSV) and SQLite for Git-Friendly Version Control

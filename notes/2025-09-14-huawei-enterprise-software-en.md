@@ -1,13 +1,13 @@
 ---
-title: Huawei Develops Self-Reliant Enterprise Software Suite
-date: 2025-09-14
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-14
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Huawei Develops Self-Reliant Enterprise Software Suite
+translated: false
 ---
 
 Huawei has developed its own **enterprise productivity suite** and **internal communication tools** to reduce reliance on foreign software (like Microsoft Outlook, Teams, or DingTalk) due to geopolitical restrictions (e.g., U.S. sanctions) and data security concerns. Below is an overview of Huawei’s key systems based on **publicly available information**:

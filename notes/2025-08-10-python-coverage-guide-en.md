@@ -1,11 +1,11 @@
 ---
-title: Python Coverage Guide Essentials
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Python Coverage Guide Essentials
+translated: false
 ---
 
 Here’s a practical, dev-focused intro to the **coverage** (coverage.py) package—what it measures, how to use it well, and the knobs you’ll actually care about.

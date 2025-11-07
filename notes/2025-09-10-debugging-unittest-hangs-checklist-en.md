@@ -1,13 +1,13 @@
 ---
-title: Debugging Unittest Hangs Checklist
-date: 2025-09-10
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-10
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Debugging Unittest Hangs Checklist
+translated: false
 ---
 
 Hangs in `unittest` are usually from deadlocks (threads/async), stuck I/O, subprocess/multiprocessing issues, or a test waiting on a network call. Here’s a tight checklist to *see where it’s stuck* and *unstick it*—works on Python 3.9–3.11.

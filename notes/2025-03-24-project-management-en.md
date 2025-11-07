@@ -1,10 +1,10 @@
 ---
-title: Software Project Management
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Software Project Management
 translated: false
-generated: true
 ---
 
 That's a great set of topics for learning about software project management! Let's break down what we can learn from each and how to avoid project failures.

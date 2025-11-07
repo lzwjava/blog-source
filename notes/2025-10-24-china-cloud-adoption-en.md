@@ -1,12 +1,12 @@
 ---
-title: China's Cloud Adoption Gap Narrows
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: China's Cloud Adoption Gap Narrows
+translated: false
 ---
 
 ### Understanding the Statistic: Cloud Adoption in China vs. the US

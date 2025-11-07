@@ -1,13 +1,13 @@
 ---
-title: Java Spring Monorepo AI Agents Guide
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Java Spring Monorepo AI Agents Guide
+translated: false
 ---
 
 Awesome question. Here are practical, high-leverage AI agents you can tailor for a Java/Spring monorepo (multi-module, Maven/Jetty/Liberty, JaCoCo, etc.). I’ll focus on concrete triggers, what they produce, and how to wire them up—no tables.

@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Publishing Your Android App
 translated: false
-generated: true
 ---
 
 Here’s a detailed guide to address your questions about uploading an Android app to the Xiaomi Store, uploading to Google Play, and obfuscating Java code.

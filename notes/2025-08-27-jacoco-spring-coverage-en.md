@@ -1,11 +1,11 @@
 ---
-title: JaCoCo Multi-Module Spring Coverage Setup
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: JaCoCo Multi-Module Spring Coverage Setup
+translated: false
 ---
 
 Great—JaCoCo works well for a multi-module Spring project. You’ll want:

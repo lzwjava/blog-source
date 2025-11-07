@@ -1,10 +1,10 @@
 ---
-title: Tu Youyou's Public Recognition
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Tu Youyou's Public Recognition
 translated: false
-generated: true
 ---
 
 Tu Youyou's initial public recognition in the Western world, rather than in China, stems from a combination of historical, cultural, and systemic factors:

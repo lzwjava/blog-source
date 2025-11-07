@@ -1,10 +1,10 @@
 ---
-title: "Constant Correction Destroys Confidence"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Constant Correction Destroys Confidence
 translated: false
-generated: true
 ---
 
 ## The Destructive Power of Constant Correction

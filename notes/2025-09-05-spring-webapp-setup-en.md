@@ -1,11 +1,11 @@
 ---
-title: Spring Web Application Setup Without Boot
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Spring Web Application Setup Without Boot
+translated: false
 ---
 
 Got it. Since you’re using **Java 8** with **Spring 5.2.2** (no Spring Boot here, just core Spring + web), you’ll need to set up a minimal application manually. Below is a simple example showing how to build a web app with one controller.

@@ -1,12 +1,12 @@
 ---
-title: Traceroute Not Installed By Default
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Traceroute Not Installed By Default
+translated: false
 ---
 
 Traceroute is definitely available on Linux—it's a standard network diagnostic tool that traces the route packets take to a destination. However, it's often **not installed by default** in many modern distributions (like Ubuntu, Fedora, or Debian minimal installs) to keep base systems lightweight. That's why it's not showing up in your tab completion for "trac".

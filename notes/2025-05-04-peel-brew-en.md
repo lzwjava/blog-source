@@ -1,10 +1,10 @@
 ---
-title: Dried Tangerine Peel
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Dried Tangerine Peel
 translated: false
-generated: true
 ---
 
 Brewing dried tangerine peel (陈皮) can be done with either hot or cold water, depending on your preference and the desired flavor. Here's a quick guide for both methods:

@@ -1,10 +1,10 @@
 ---
-title: History of Ocean Trading, Navigation, and Shipping
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: History of Ocean Trading, Navigation, and Shipping
 translated: false
-generated: true
 ---
 
 The history of ocean trading, navigation, and shipping is a long and intertwined saga, fundamental to the development of human civilization and globalization. From rudimentary rafts to colossal container ships, and from celestial navigation to sophisticated GPS systems, our relationship with the seas has constantly evolved.

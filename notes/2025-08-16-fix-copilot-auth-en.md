@@ -1,11 +1,11 @@
 ---
-title: Fix Copilot Chat Auth Error
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fix Copilot Chat Auth Error
+translated: false
 ---
 
 That error usually means **GitHub Copilot Chat** couldn’t find a valid authentication token, so it can’t talk to the Copilot service.

@@ -1,12 +1,12 @@
 ---
-title: NVIDIA's Volatile Decade of Growth
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: NVIDIA's Volatile Decade of Growth
+translated: false
 ---
 
 ### NVIDIA's Performance from 2000 to 2010

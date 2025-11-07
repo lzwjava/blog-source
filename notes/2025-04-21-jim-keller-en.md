@@ -1,10 +1,10 @@
 ---
-title: Jim Keller
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Jim Keller
 translated: false
-generated: true
 ---
 
 Jim Keller, often referred to as James B. Keller, is a renowned microprocessor engineer with a career spanning over four decades, known for his significant contributions to the semiconductor industry. His expertise is primarily in **microprocessor architecture**, **chip design**, and **system-on-chip (SoC) development**, with a focus on high-performance computing, low-power mobile processors, and AI hardware. Below is a detailed overview of what Jim Keller knows, based on his extensive professional experience:

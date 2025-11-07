@@ -1,10 +1,10 @@
 ---
-title: Updating Claude Code CLI
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Updating Claude Code CLI
 translated: false
-generated: true
 ---
 
 Hi! It looks like you're dealing with the Claude Code CLI tool from Anthropic. Based on the output you pasted, it seems like it already attempted an auto-update to version 1.0.61, but if that's not working or you need to manually update, here's how:

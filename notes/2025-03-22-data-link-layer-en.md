@@ -1,10 +1,10 @@
 ---
-title: Data Link Layer
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Data Link Layer
 translated: false
-generated: true
 ---
 
 Here's a detailed tutorial to help you learn the **Data Link Layer** chapter in the **Computer Networks Technology** course (02141 in the Chinese Self-Study Exam system).  

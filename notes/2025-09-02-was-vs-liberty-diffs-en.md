@@ -1,11 +1,11 @@
 ---
-title: WAS vs Liberty Key Differences Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: WAS vs Liberty Key Differences Explained
+translated: false
 ---
 
 Here’s a clear comparison between **WebSphere Application Server (WAS)** and **WebSphere Liberty Profile (WLP)**, focusing on their purpose, architecture, and practical usage:

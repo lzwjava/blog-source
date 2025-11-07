@@ -1,12 +1,12 @@
 ---
-title: Lei Jun and Chen Nian's Enduring Partnership
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Lei Jun and Chen Nian's Enduring Partnership
+translated: false
 ---
 
 Here’s the story of Lei Jun and Chen Nian in English:

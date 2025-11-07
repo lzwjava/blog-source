@@ -1,10 +1,10 @@
 ---
-title: Alternative GPU Clouds for AI in 2025
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Alternative GPU Clouds for AI in 2025
 translated: false
-generated: true
 ---
 
 ### Other GPU Cloud Providers for AI/LLM Training in 2025

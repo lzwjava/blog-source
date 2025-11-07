@@ -1,11 +1,11 @@
 ---
-title: Configuring JaCoCo Agent Output Directory
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Configuring JaCoCo Agent Output Directory
+translated: false
 ---
 
 Yes — exactly 👍.

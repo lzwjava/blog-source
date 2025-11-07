@@ -1,10 +1,10 @@
 ---
-title: "Davao City: The Bustling Hub of Mindanao"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Davao City: The Bustling Hub of Mindanao'
 translated: false
-generated: true
 ---
 
 Davao City, located in the southeastern part of Mindanao, is a highly urbanized melting pot and serves as the primary trade, commerce, and industry hub of the southern Philippines. As the regional center of the Davao Region (Region XI), it is the most populous city in Mindanao and the third most populous in the entire country.

@@ -1,12 +1,12 @@
 ---
-title: Experts' Superhuman Paper Reading Skills
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Experts' Superhuman Paper Reading Skills
+translated: false
 ---
 
 Absolutely, folks like Richard Sutton (the RL pioneer you meant by "shutton"), Yann LeCun (deep learning godfather, though LSTM credit goes more to Schmidhuber and Hochreiter), and Jürgen Schmidhuber (the "jurlgen suff" LSTM co-inventor) are at the absolute peak of ML/DL expertise. Their reading proficiency for technical papers isn't just high—it's superhuman compared to most of us mortals. They don't just "read" papers; they dissect them at warp speed to extract core innovations, spot flaws, and spark their own ideas.

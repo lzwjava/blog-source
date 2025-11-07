@@ -1,12 +1,12 @@
 ---
-title: DeepSeek Token Pricing Details Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: DeepSeek Token Pricing Details Explained
+translated: false
 ---
 
 To directly address your observation: DeepSeek v3.2 did announce a significant price drop—up to 50% or more in some cases—but the actual cost reduction users experience can vary due to several factors:

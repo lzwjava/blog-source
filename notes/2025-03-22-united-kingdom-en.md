@@ -1,10 +1,10 @@
 ---
-title: United Kingdom
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: United Kingdom
 translated: false
-generated: true
 ---
 
 It seems like your first question might be a typo: “What country does Ireland is?” was asked previously, and now “What country does UK is?” I’ll assume you mean “What country is the UK?” or are asking about the United Kingdom’s profile, similar to your Ireland query. I’ll proceed with a detailed response about the United Kingdom (UK), covering all requested aspects.

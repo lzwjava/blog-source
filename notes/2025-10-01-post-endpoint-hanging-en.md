@@ -1,12 +1,12 @@
 ---
-title: POST Endpoint Hanging Investigation
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-code-fast-1
+title: POST Endpoint Hanging Investigation
+translated: false
 ---
 
 The Spring Boot application is running and responding to GET requests (like `/actuator/health`), but the POST request to `/create-note` (via Python script, curl, or otherwise) is hanging indefinitely. This suggests the issue lies in the server-side handling of the POST endpoint, not the network or basic connectivity. Below, I'll outline likely causes, debugging steps, and fixes based on common Spring Boot troubleshooting.[1][2][3][4][5][6]

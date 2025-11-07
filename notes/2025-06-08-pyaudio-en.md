@@ -1,10 +1,10 @@
 ---
-title: PortAudio and pyaudio
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: PortAudio and pyaudio
 translated: false
-generated: true
 ---
 
 The error occurs because **pyaudio** requires the PortAudio development headers to compile, which are missing on your system. Here's how to fix it:

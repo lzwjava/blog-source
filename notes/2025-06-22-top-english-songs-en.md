@@ -1,10 +1,10 @@
 ---
-title: Top 50 English Songs Ever
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Top 50 English Songs Ever
 translated: false
-generated: true
 ---
 
 Compiling a definitive "Top 50 English Songs Ever" is a monumental task, as "best" is subjective and dependent on ever-evolving metrics. However, by considering YouTube views, Billboard chart performance (historical and recent), immense historical impact, and widespread KTV (karaoke) popularity, we can create a comprehensive and diverse list.

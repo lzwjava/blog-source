@@ -1,11 +1,11 @@
 ---
-title: Java Servlet API Guide Essentials
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Java Servlet API Guide Essentials
+translated: false
 ---
 
 Here’s a practical, end-to-end guide to the Java **Servlet** API in the classic **`javax.servlet.*`** namespace (Servlet 2.x–4.x era). I’ll also note what changed after the move to **`jakarta.servlet.*`** so you’re future-proof.

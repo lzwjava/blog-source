@@ -1,10 +1,10 @@
 ---
-title: Paul Graham's Life Challenges 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Paul Graham's Life Challenges
 translated: false
-generated: true
 ---
 
 Paul Graham, the co-founder of Y Combinator, essayist, and programmer, has faced various challenges throughout his life, though he tends not to dwell on personal struggles in his public writings. Based on available information, here are some difficulties he has encountered, inferred from his essays, interviews, and biographical details:

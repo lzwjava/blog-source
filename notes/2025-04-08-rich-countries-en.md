@@ -1,10 +1,10 @@
 ---
-title: Rich Countries
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Rich Countries
 translated: false
-generated: true
 ---
 
 Here are some of the world's richest countries based on GDP per capita:

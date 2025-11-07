@@ -1,12 +1,12 @@
 ---
-title: Guangzhou Tie Yi and Peizheng Comparisons
-date: 2025-09-06
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-06
 generated: true
 image: false
+lang: en
+layout: post
+title: Guangzhou Tie Yi and Peizheng Comparisons
+translated: false
 ---
 
 Here’s the English version of the overview on **Guangzhou Tie Yi High School (铁一中)** and **Guangzhou Peizheng Middle School (培正中学):**

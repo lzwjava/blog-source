@@ -1,10 +1,10 @@
 ---
-title: Fixing Pillow HEIC Support Error
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fixing Pillow HEIC Support Error
 translated: false
-generated: true
 ---
 
 The error `cannot identify image file` indicates that Pillow is unable to read the HEIC files, likely due to one of the following reasons:

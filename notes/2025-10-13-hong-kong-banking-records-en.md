@@ -1,12 +1,12 @@
 ---
-title: Hong Kong Travel Records for Banking
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Hong Kong Travel Records for Banking
+translated: false
 ---
 
 I couldn’t find any credible source that confirms you can use a **WeChat mini program** to directly export your *border / entry-exit / travel records* for the purpose of a bank account opening in Hong Kong.

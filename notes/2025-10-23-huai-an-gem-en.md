@@ -1,12 +1,12 @@
 ---
-title: "Huai'an: A Hidden Jiangsu Gem"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Huai''an: A Hidden Jiangsu Gem'
+translated: false
 ---
 
 ### Why Huai'an in Jiangsu is Worth the Hype (Especially on WeChat Videos)

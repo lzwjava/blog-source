@@ -1,10 +1,10 @@
 ---
-title: "Beyond Weather and GitHub: Cool APIs"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Beyond Weather and GitHub: Cool APIs'
 translated: false
-generated: true
 ---
 
 You're looking for interesting public open APIs beyond just weather and GitHub! That's a great question, as there are tons of fascinating and useful APIs out there that can power all sorts of applications.

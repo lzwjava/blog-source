@@ -1,10 +1,10 @@
 ---
-title: "Improve Audio Quality in yt-dlp"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Improve Audio Quality in yt-dlp
 translated: false
-generated: true
 ---
 
 To address your concern about the audio quality not being as good as you'd like when downloading YouTube videos using your script with `yt-dlp`, I'll guide you on how to modify the script to ensure it always downloads the **best possible audio quality**, regardless of the chosen video resolution (720p or 480p). Let’s break this down step-by-step and provide a clear solution.

@@ -1,12 +1,12 @@
 ---
-title: Characteristic Polynomial Definition and Properties
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Characteristic Polynomial Definition and Properties
+translated: false
 ---
 
 In linear algebra, the **characteristic polynomial** of a square matrix \\( A \\) (of size \\( n \times n \\)) is a polynomial that encodes information about the matrix's eigenvalues. It is defined as:

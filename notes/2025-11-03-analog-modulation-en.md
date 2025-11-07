@@ -1,12 +1,12 @@
 ---
-title: "Analog Modulation Techniques: AM, FM, PM"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'Analog Modulation Techniques: AM, FM, PM'
+translated: false
 ---
 
 ### Modulation Techniques: AM, FM, and PM

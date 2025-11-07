@@ -1,10 +1,10 @@
 ---
-title: Font Awesome Issue
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Font Awesome Issue
 translated: false
-generated: true
 ---
 
 The "can't resolve .../fonts/fontawesome-webfont.woff2" error typically occurs when the Font Awesome CSS file references a font file (like `fontawesome-webfont.woff2`) that cannot be found in the specified path. This issue often arises in projects using npm, Webpack, or other module bundlers. Below are steps to resolve this error:

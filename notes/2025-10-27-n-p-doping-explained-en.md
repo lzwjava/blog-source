@@ -1,12 +1,12 @@
 ---
-title: N-Type and P-Type Doping Explained
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: N-Type and P-Type Doping Explained
+translated: false
 ---
 
 ### N-Type vs. P-Type Doping: The Two Sides of Semiconductor Magic

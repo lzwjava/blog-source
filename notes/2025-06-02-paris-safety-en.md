@@ -1,10 +1,10 @@
 ---
-title: "Paris Safety: Crime and Travel"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: 'Paris Safety: Crime and Travel'
 translated: false
-generated: true
 ---
 
 While some might perceive Paris as a bit chaotic due to its bustling nature as a major global city, it's important to have an accurate understanding of the safety situation. Here's a breakdown:

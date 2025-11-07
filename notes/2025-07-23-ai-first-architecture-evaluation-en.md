@@ -1,10 +1,10 @@
 ---
-title: "AI-First Architecture for Modern Development"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: AI-First Architecture for Modern Development
 translated: false
-generated: true
 ---
 
 This post was written with the help of Grok, but the ideas are original.

@@ -1,10 +1,10 @@
 ---
-title: Bell Labs
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Bell Labs
 translated: false
-generated: true
 ---
 
 Bell Laboratories, commonly known as Bell Labs, is a storied research organization with a profound legacy in technological innovation, particularly in telecommunications, computing, and fundamental science. Founded in 1925 as a joint venture between American Telephone & Telegraph (AT&T) and Western Electric, Bell Labs became a powerhouse of scientific discovery and engineering breakthroughs, shaping the modern technological landscape. Below is a comprehensive introduction to Bell Labs, covering its history, key contributions, organizational evolution, and enduring impact.

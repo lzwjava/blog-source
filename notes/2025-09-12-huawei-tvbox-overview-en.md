@@ -1,13 +1,13 @@
 ---
-title: Huawei TV Box International Version Overview
-date: 2025-09-12
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-12
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Huawei TV Box International Version Overview
+translated: false
 ---
 
 Yes, **Huawei does offer some international (foreign) versions of its TV boxes**, but availability depends on the region and model. Here’s what you need to know:

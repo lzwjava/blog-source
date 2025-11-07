@@ -1,11 +1,11 @@
 ---
-title: Trial Frame Slots Explained Simply
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Trial Frame Slots Explained Simply
+translated: false
 ---
 
 Good question — this is about the **trial frame design** itself, not the PD numbers.

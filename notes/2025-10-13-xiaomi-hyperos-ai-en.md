@@ -1,12 +1,12 @@
 ---
-title: Xiaomi HyperOS AI Capabilities Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Xiaomi HyperOS AI Capabilities Overview
+translated: false
 ---
 
 By “Xiaomi pengpai AI” I think you mean the AI features built into **Xiaomi’s “Pengpai OS / 澎湃 OS / HyperOS” + Xiaomi’s AI assistant integration**. (Pengpai = 澎湃, often used in Chinese for “Surge / Surge-powered / Core / AI”). “Pengpai AI” is not a very standard English term, so I interpret it as the AI capabilities tied to Xiaomi’s recent OS/firmware.

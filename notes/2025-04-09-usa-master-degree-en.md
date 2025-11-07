@@ -1,10 +1,10 @@
 ---
-title: Applying for a Master's in Computer Science or Machine Learning in the USA
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Applying for a Master's in Computer Science or Machine Learning in the USA
 translated: false
-generated: true
 ---
 
 #### 1. **Research Programs and Universities**

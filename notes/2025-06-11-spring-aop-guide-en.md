@@ -1,10 +1,10 @@
 ---
-title: Guide to Spring AOP
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Guide to Spring AOP
 translated: false
-generated: true
 ---
 
 ## 1. Introduction to Spring AOP

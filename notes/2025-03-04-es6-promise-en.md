@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: ES6-style Promises
 translated: false
-generated: true
 ---
 
 ### Key Points

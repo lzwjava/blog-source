@@ -1,10 +1,10 @@
 ---
-title: "Fix psycopg2 by installing PostgreSQL"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fix psycopg2 by installing PostgreSQL
 translated: false
-generated: true
 ---
 
 The error you're encountering indicates that the `psycopg2` package requires the PostgreSQL `pg_config` executable to build from source, but it’s not found on your system. This means you need to install PostgreSQL on your macOS system to provide the necessary dependencies. Below are the steps to install PostgreSQL on macOS and resolve the issue.

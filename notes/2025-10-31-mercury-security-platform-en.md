@@ -1,12 +1,12 @@
 ---
-title: Mercury Security System Management Platform
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Mercury Security System Management Platform
+translated: false
 ---
 
 ### Introduction to Mercury Security System (水星安防系统)

@@ -1,10 +1,10 @@
 ---
-title: Computer Organization and Architecture - Quiz
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Computer Organization and Architecture - Quiz
 translated: false
-generated: true
 ---
 
 Here’s a quiz based on the course outline for "Computer Organization and Architecture 02318":

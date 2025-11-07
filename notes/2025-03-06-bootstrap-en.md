@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
-title: Using Bootstrap for Building Responsive Websites 
+title: Using Bootstrap for Building Responsive Websites
 translated: false
-generated: true
 ---
 
 To use Bootstrap in frontend development, follow these steps to effectively integrate and leverage this popular framework for building responsive and styled websites:

@@ -1,12 +1,12 @@
 ---
-title: PeopleSoft History and Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: PeopleSoft History and Overview
+translated: false
 ---
 
 ### Comprehensive Introduction to PeopleSoft

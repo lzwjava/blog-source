@@ -1,11 +1,11 @@
 ---
-title: Western Views of China
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Western Views of China
+translated: false
 ---
 
 ### Understanding Negative Views of China in the West

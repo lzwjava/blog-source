@@ -1,10 +1,10 @@
 ---
-title: "Fixing 'Unsupported OpenJDK' Error in VisualVM"
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fixing 'Unsupported OpenJDK' Error in VisualVM
 translated: false
-generated: true
 ---
 
 The error "Version of OpenJDK is not supported. Please use the default-jdk" when running VisualVM indicates that the Java Development Kit (JDK) version being used is not compatible with VisualVM. This issue is common when VisualVM cannot find a supported JDK or when the installed JDK is not properly configured. Below are steps to resolve this issue, based on the context of your setup (YourKit Java Profiler 2025.3 and VisualVM on what appears to be a Linux system).

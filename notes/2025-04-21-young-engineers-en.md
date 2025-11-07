@@ -1,10 +1,10 @@
 ---
-title: Young Engineers and Scientists in Tech
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Young Engineers and Scientists in Tech
 translated: false
-generated: true
 ---
 
 Below is a list of young (under 30 or achieved significant success before 30) engineers and scientists who have made notable contributions in tech, similar to the innovative spirit of Cornelius Palm, Alexandr Wang, and George Hotz. These individuals are recognized for groundbreaking work in engineering, scientific research, or technical innovation, often blending technical expertise with real-world impact. The selection draws on web sources like Forbes’ 30 Under 30 lists and other relevant profiles, focusing on recent achievements as of April 20, 2025.[](https://news.mit.edu/2016/forbes-30-under-30-lists-0107)[](https://www.forbes.com/sites/sarahhedgecock/2015/01/05/30-under-30-young-scientists-who-are-changing-the-world/)[](https://www.jagranjosh.com/general-knowledge/list-of-top-people-under-age-of-30-1704694608-1)

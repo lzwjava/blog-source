@@ -1,11 +1,11 @@
 ---
-title: Fix Rust Project Setup
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fix Rust Project Setup
+translated: false
 ---
 
 It looks like you're trying to set up and run a simple Rust project based on the provided `Cargo.toml` snippet and the file structure (a `rust` subdirectory containing `example.rs`). However, there are a few issues preventing this from working out of the box:

@@ -1,13 +1,13 @@
 ---
-title: Discriminating Reading is Your Critical Edge
-date: 2025-09-10
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-10
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Discriminating Reading is Your Critical Edge
+translated: false
 ---
 
 Absolutely. In an age where generating text/code is cheap, *discriminating reading* is the edge. Here’s a compact playbook you can use across code, papers, docs, and AI outputs—no tables, just a workflow.

@@ -1,12 +1,12 @@
 ---
-title: Corporate Rewards and Valued Loyalty Systems
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Corporate Rewards and Valued Loyalty Systems
+translated: false
 ---
 
 ### Rewards and Loyalty in Big Tech and Fortune 500 Companies

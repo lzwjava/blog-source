@@ -1,13 +1,13 @@
 ---
-title: Key Parameters in LLM APIs
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Key Parameters in LLM APIs
+translated: false
 ---
 
 Absolutely—no tables, just clear and neat explanations. Here's a streamlined breakdown of the key parameters available when working with LLM APIs (like OpenAI’s or Copilot-like systems):

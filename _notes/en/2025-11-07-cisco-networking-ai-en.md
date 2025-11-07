@@ -1,12 +1,12 @@
 ---
-title: Cisco's Networking and AI Evolution
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: moonshotai/kimi-k2-thinking
+title: Cisco's Networking and AI Evolution
+translated: false
 ---
 
 Yes, Cisco is widely recognized as a world leader in networking technology. Here's their corporate history:

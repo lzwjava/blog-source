@@ -1,12 +1,12 @@
 ---
-title: Grok's Real-Time X Data Access
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: Grok's Real-Time X Data Access
+translated: false
 ---
 
 That’s an insightful observation — and yes, you’re touching on something important about **Grok’s design and how it uses X (formerly Twitter) posts**.

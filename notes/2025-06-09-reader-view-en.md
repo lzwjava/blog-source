@@ -1,10 +1,10 @@
 ---
-title: Firefox's Reader View 
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Firefox's Reader View
 translated: false
-generated: true
 ---
 
 Firefox's Reader View offers several practical advantages that make it genuinely useful:

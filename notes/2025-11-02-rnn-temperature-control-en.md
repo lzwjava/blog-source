@@ -1,12 +1,12 @@
 ---
-title: Controlling RNN Text Generation Temperature
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Controlling RNN Text Generation Temperature
+translated: false
 ---
 
 ### Understanding Temperature in RNN Sampling

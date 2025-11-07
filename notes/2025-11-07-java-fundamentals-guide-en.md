@@ -1,12 +1,12 @@
 ---
-title: Java Programming Fundamentals Study Guide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: anthropic/claude-4.5-sonnet
+title: Java Programming Fundamentals Study Guide
+translated: false
 ---
 
 ## National Higher Education Self-study Examination

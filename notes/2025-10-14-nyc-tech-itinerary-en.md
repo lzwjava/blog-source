@@ -1,12 +1,12 @@
 ---
-title: NYC Tech Enthusiast Itinerary
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: NYC Tech Enthusiast Itinerary
+translated: false
 ---
 
 As a self-taught full-stack dev with a hacker mindset, open-source chops, and a knack for AI tools and life hacks, NYC's "Silicon Alley" vibe will feel like home—think buzzing startup scenes, AI hubs, and gadget meccas amid the chaos. With your background in mobile/full-stack/ML and love for experimentation (like your myopia research), focus on innovation districts, meetups for devs, and spots to tinker with tech. October 2025 is prime: crisp fall air, fewer crowds post-summer, and a slate of events like the Brooklyn Tech Expo (Oct 7, AI-focused) or BioFuture (Oct 13-15, biotech/ML crossover). Check Gary's Guide or Meetup for last-minute RSVPs—your English skills will shine in networking. Stick to the subway (get an OMNY card for contactless taps), and use apps like Citymapper for routes. Budget extra for event tickets ($50-200) and a co-working day pass ($30-50). Here's a 5-day tweak to the classic itinerary, starting Oct 14 (post-BioFuture), blending icons with tech twists.

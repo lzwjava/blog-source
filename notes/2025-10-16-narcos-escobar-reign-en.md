@@ -1,12 +1,12 @@
 ---
-title: Narcos Chronicles Pablo Escobar's Reign
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Narcos Chronicles Pablo Escobar's Reign
+translated: false
 ---
 
 ### The Series: Narcos

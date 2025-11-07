@@ -1,10 +1,10 @@
 ---
-title: Marinating Chicken Wings
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Marinating Chicken Wings
 translated: false
-generated: true
 ---
 
 To marinate chicken wings for maximum flavor, follow these steps:

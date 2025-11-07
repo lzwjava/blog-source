@@ -1,12 +1,12 @@
 ---
-title: Maven Multi-Module Dependency Resolution
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Maven Multi-Module Dependency Resolution
+translated: false
 ---
 
 Yes, that's correct—in a Maven multi-module project, when one module (e.g., an EAR module) depends on another (e.g., a WAR module), Maven resolves the dependency from the local `.m2/repository` by default, not directly from the other module's `target/` directory. This is because Maven treats inter-module dependencies as standard artifact references (like external libs), so the dependent artifact must be installed (or at least packaged and discoverable via the build reactor).

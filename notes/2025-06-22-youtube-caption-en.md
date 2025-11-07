@@ -1,10 +1,10 @@
 ---
-title: YouTube Video Caption Extraction Methods
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: YouTube Video Caption Extraction Methods
 translated: false
-generated: true
 ---
 
 To get all captions of a YouTube video, follow these steps, depending on your needs and whether you want a manual or automated approach. Note that captions must be available for the video (either auto-generated or uploaded by the creator).

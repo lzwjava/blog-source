@@ -1,11 +1,11 @@
 ---
-title: Fix MeCab Config File Path
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: Fix MeCab Config File Path
+translated: false
 ---
 
 Your error

@@ -1,10 +1,10 @@
 ---
-title: Philippine Travel Visa
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Philippine Travel Visa
 translated: false
-generated: true
 ---
 
 As a Chinese citizen residing in Guangzhou, to apply for a Philippine travel visa, you should follow these steps:
@@ -44,4 +44,4 @@ While the Philippines is generally safe for tourists, certain regions pose highe
 
 Similarly, the Australian government's Smartraveller advises exercising a high degree of caution in the Philippines overall, with higher levels of caution in specific areas. citeturn0search7
 
-It's advisable to stay updated on travel advisories and avoid regions with elevated risks. Always exercise caution, remain vigilant, and adhere to local laws and customs during your visit. 
+It's advisable to stay updated on travel advisories and avoid regions with elevated risks. Always exercise caution, remain vigilant, and adhere to local laws and customs during your visit.

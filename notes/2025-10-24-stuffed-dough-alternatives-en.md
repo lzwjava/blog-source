@@ -1,12 +1,12 @@
 ---
-title: Easy Stuffed Dough Alternatives
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Easy Stuffed Dough Alternatives
+translated: false
 ---
 
 ### Easy Homemade Stuffed Dough Alternatives

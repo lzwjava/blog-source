@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Using RabbitMQ in PHP
 translated: false
-generated: true
 ---
 
 ### Key Points

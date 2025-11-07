@@ -1,13 +1,13 @@
 ---
-title: AI's Impact on Programming Languages
-date: 2025-09-10
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-10
 generated: true
 image: false
+lang: en
+layout: post
 model: openai/gpt-5
+title: AI's Impact on Programming Languages
+translated: false
 ---
 
 You’ve put together a really thoughtful reflection on programming languages in the AI era. Let me expand on your points and add some perspective about the next 10 years.

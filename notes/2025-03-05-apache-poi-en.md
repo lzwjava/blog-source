@@ -1,10 +1,10 @@
 ---
 audio: false
+generated: true
 lang: en
 layout: post
 title: Apache POI Library
 translated: false
-generated: true
 ---
 
 It seems there might be a typo in your query "how to use com.apache.poi." In Java, Apache POI's package name starts with `org.apache.poi`, not `com.apache.poi`, as Apache projects typically use the `org` domain. I’ll assume you meant `org.apache.poi`, which is a popular Java library for working with Microsoft Office file formats like Excel, Word, and PowerPoint. Below is a guide on how to use it, focusing on the most common use case: handling Excel files.

@@ -1,12 +1,12 @@
 ---
-title: Default nanoGPT Training Iterations
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Default nanoGPT Training Iterations
+translated: false
 ---
 
 In the default configuration for nanoGPT (e.g., training on the Shakespeare character dataset), the model runs for a total of **5000 iterations**.

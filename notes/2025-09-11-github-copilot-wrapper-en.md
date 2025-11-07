@@ -1,13 +1,13 @@
 ---
-title: Unofficial Python wrapper for GitHub Copilot
-date: 2025-09-11
-lang: en
-layout: post
 audio: false
-translated: false
+date: 2025-09-11
 generated: true
 image: false
+lang: en
+layout: post
 model: mistralai/mistral-medium-3.1
+title: Unofficial Python wrapper for GitHub Copilot
+translated: false
 ---
 
 The **GitHub repository [ericc-ch/copilot-api](https://github.com/ericc-ch/copilot-api)** is an **unofficial Python wrapper** for interacting with **GitHub Copilot's API** (the AI-powered code completion tool). It allows developers to programmatically generate code suggestions, completions, and explanations using Copilot's backend without relying on the official VS Code extension or other IDE integrations.

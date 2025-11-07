@@ -1,10 +1,10 @@
 ---
-title: Python vs Java
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Python vs Java
 translated: false
-generated: true
 ---
 
 You're spot on with several points about Python and Java, and I'll clarify why Python's popularity ties to its interpreter nature and ease of use, while Java excels in large-scale projects.

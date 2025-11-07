@@ -1,10 +1,10 @@
 ---
-title: Temenos Transact
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Temenos Transact
 translated: false
-generated: true
 ---
 
 **Temenos Transact** (formerly known as **T24 Transact**) is a **core banking system** provided by **Temenos**, designed to support retail, corporate, Islamic, and private banking operations. It is a modern, cloud-native, and API-driven banking solution that helps financial institutions automate processes, enhance customer experience, and drive innovation.  

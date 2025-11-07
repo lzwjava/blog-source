@@ -1,12 +1,12 @@
 ---
-title: Docker Registry Connection Timeout Troubleshooting
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast:free
+title: Docker Registry Connection Timeout Troubleshooting
+translated: false
 ---
 
 The error you're encountering, `Error response from daemon: Get "https://registry-1.docker.io/v2/": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)`, indicates that the Docker client failed to connect to the Docker Hub registry due to a timeout. This could be caused by network issues, authentication problems, or configuration errors. Since you're attempting a web-based login, let's troubleshoot and resolve the issue step-by-step.

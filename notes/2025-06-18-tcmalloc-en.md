@@ -1,10 +1,10 @@
 ---
-title: Fix the TCMalloc Error
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Fix the TCMalloc Error
 translated: false
-generated: true
 ---
 
 The error "Cannot locate TCMalloc. Do you have tcmalloc or google-perftool installed on your system? (improves CPU memory usage)" indicates that the TCMalloc library, part of Google's gperftools, is not installed or not properly configured on your Linux system. TCMalloc is a memory allocator that can improve performance and reduce memory usage, particularly in applications like Stable Diffusion. Here's how to fix this issue:

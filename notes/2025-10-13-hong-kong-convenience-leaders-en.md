@@ -1,12 +1,12 @@
 ---
-title: Hong Kong Convenience Store Market Leaders
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: Hong Kong Convenience Store Market Leaders
+translated: false
 ---
 
 In Hong Kong, the major convenience store chains are **7-Eleven**, **Circle K**, and **759 Store** (also known as 759 Arkon). These dominate the market, with 7-Eleven leading by a wide margin (over 900 outlets as of recent data), followed by Circle K (around 400-500 stores) and 759 Store (about 200-300 locations focused on discounted imported snacks and groceries). Smaller players like OK Convenience Store exist but aren't as widespread.

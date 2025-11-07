@@ -1,10 +1,10 @@
 ---
-title: Kirchhoff's Laws with Arduino
+audio: false
+generated: true
 lang: en
 layout: post
-audio: false
+title: Kirchhoff's Laws with Arduino
 translated: false
-generated: true
 ---
 
 Using an Arduino to verify Kirchhoff’s Laws—specifically Kirchhoff’s Current Law (KCL) and Kirchhoff’s Voltage Law (KVL)—is a great way to blend electronics theory with hands-on experimentation. KCL states that the total current entering a junction equals the total current leaving it, while KVL states that the sum of voltage drops around a closed loop equals the supplied voltage. Here’s how you can design simple circuits and use an Arduino to measure currents and voltages to confirm these laws.
