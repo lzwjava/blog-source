@@ -5,20 +5,6 @@
   {% for post in collection %}
   {% assign translated = post.translated %}
   {% assign generated = post.generated %}
-  <!-- DEBUG START -->
-  <div style="background: #f0f0f0; padding: 10px; margin: 5px; border: 1px solid #ccc; font-family: monospace; font-size: 12px;">
-    <strong>Post Debug Info:</strong><br>
-    Path: {{ post.path }}<br>
-    Title: {{ post.title }}<br>
-    Translated: {{ translated }}<br>
-    Generated: {{ generated }}<br>
-    Top: {{ post.top | default: false }}<br>
-    Type: {{ include.type }}<br>
-    Lang: {{ include.lang }}<br>
-    Path contains check: {{ post.path }} contains '_./{type}/' = {{ post.path contains '_./{type}/' }}<br>
-    JSON: <pre>{{ post | jsonify }}</pre>
-  </div>
-  <!-- DEBUG END -->
   {% if translated == nil %}
   {% assign translated = false %}
   {% endif %}
