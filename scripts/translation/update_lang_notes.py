@@ -21,6 +21,28 @@ def get_output_filename(filename, target_lang):
     raise Exception(f"Unexpected filename format: {filename}")
 
 
+def get_recent_files(n):
+    """Get the n most recent files by modification time."""
+    try:
+        files = []
+        for filename in os.listdir(INPUT_DIR):
+            if filename.endswith(".md"):
+                filepath = os.path.join(INPUT_DIR, filename)
+                mtime = os.path.getmtime(filepath)
+                files.append((filepath, mtime))
+
+        # Sort by modification time, newest first
+        files.sort(key=lambda x: x[1], reverse=True)
+
+        # Return just the file paths
+        recent_files = [f[0] for f in files[:n]] if n else [f[0] for f in files]
+        print(f"Found {len(recent_files)} recent files: {recent_files}")
+        return recent_files
+    except Exception as e:
+        print(f"Error getting recent files: {e}")
+        return []
+
+
 def get_changed_files(commits=10):
     changed_files = set()
     languages = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
@@ -182,10 +204,10 @@ def main():
         help="Model to use for translation (e.g., deepseek-v3.1, mistral-medium, gemini-flash).",
     )
     parser.add_argument(
-        "--commits",
+        "--n",
         type=int,
-        default=10,
-        help="Number of recent commits to check for changes (default: 10).",
+        default=None,
+        help="Number of most recent files to process by modification time.",
     )
     args = parser.parse_args()
     target_language = args.lang
@@ -193,18 +215,41 @@ def main():
     input_file = args.file
     max_files = args.max_files
     model = args.model
-    commits = args.commits
+    n = args.n
 
     if target_language == "all":
         languages = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
     else:
         languages = [target_language]
 
+    # Create _notes directory and language subdirectories
+    os.makedirs("_notes", exist_ok=True)
+    for lang in languages:
+        os.makedirs(f"_notes/{lang}", exist_ok=True)
+
     if input_file:
-        changed_files = {(input_file, lang) for lang in languages}
+        changed_files = {(input_file, lang) for lang in languages if not os.path.exists(os.path.join(f"_notes/{lang}", get_output_filename(os.path.basename(input_file), lang)))}
+        total_files_to_process = len(changed_files)
+    elif n is not None:
+        recent_files = get_recent_files(n)
+        changed_files = set()
+        for input_file in recent_files:
+            orig_lang = None
+            filename = os.path.basename(input_file)
+            for possible in ["en", "zh", "ja"]:
+                if filename.endswith(f"-{possible}.md"):
+                    orig_lang = possible
+                    break
+            if orig_lang:
+                for lang in languages:
+                    if lang != orig_lang:  # Don't translate to the same language
+                        target_filename = get_output_filename(filename, lang)
+                        target_file = os.path.join(f"_notes/{lang}", target_filename)
+                        if not os.path.exists(target_file):
+                            changed_files.add((input_file, lang))
         total_files_to_process = len(changed_files)
     else:
-        changed_files = get_changed_files(commits)
+        changed_files = get_changed_files()
         if max_files and len(changed_files) > max_files:
             changed_files = set(list(changed_files)[:max_files])
         total_files_to_process = len(changed_files)
