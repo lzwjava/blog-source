@@ -1,10 +1,10 @@
 #!/usr/bin/env sh
 
 # Run the notes link generator
-/usr/bin/python scripts/generate/update_notes_link.py
+# /usr/bin/python scripts/generate/update_notes_link.py
 
 # Add the generated notes file
-git add original/2025-01-11-notes-en.md
-git add _posts/en/2025-01-11-notes-en.md
+# git add original/2025-01-11-notes-en.md
+# git add _posts/en/2025-01-11-notes-en.md
 
-echo "Pre-commit hook completed. Notes links have been generated."
+echo "Pre-commit hook completed"
