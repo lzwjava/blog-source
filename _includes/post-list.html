@@ -1,7 +1,7 @@
 <ul class="post-list">
   {% assign type = include.type | default: "posts" %}
   {% assign collection = site[type] %}
-  {% if collection.size > 0 %}
+  {% if collection.size > 0 %}  
   {% for post in collection %}
   {% assign translated = post.translated %}
   {% assign generated = post.generated %}
