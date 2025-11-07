@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 工作
 translated: true
+type: post
 ---
 
 - 在获取代码仓库权限前，先向同事索要`pom.xml`文件，尝试下载Nexus依赖库。

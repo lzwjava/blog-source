@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 200Mbps帯域幅制限の調査
 translated: true
+type: post
 ---
 
 香港のアリババクラウドサーバーで、従量制のトラフィック課金方式の弾性IPを使用しています。しかし、予想より速度が遅いです。現在の帯域幅は以下のとおりです。

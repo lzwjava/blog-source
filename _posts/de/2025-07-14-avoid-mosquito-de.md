@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Können wir verhindern, dass Mücken ins Auto gelangen?
 translated: true
+type: post
 ---
 
 Manchmal, wenn ich Instantnudeln im Auto esse, gibt es Gerüche im Auto. Ich habe eine elektrische Lampe, die sie erschreckt, aber das dauert eine Weile, bis sie angelockt werden, um vom Strom erschreckt zu werden.

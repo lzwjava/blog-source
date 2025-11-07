@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: الجزئيات الخطيّة
 translated: true
+type: post
 ---
 
 - تن್ಯضجyasazyu Azmalet Decomposüt÷on Hijet Illu Talúnuid At_container Toomå MCF‚

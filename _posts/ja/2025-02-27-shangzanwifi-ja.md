@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ポータブルホットスポット 尚山Wi-Fi
 translated: true
+type: post
 ---
 
 - http://shangzanwifi.com、JD.comで約45元で購入したWi-Fiポータブルホットスポット。

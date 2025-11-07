@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: macOS Befehl Steuerung
 translated: true
+type: post
 ---
 
 ## WiFi

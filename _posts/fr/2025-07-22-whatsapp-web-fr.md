@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Utiliser WhatsApp Web
 translated: true
+type: post
 ---
 
 Je suis heureux d'utiliser WhatsApp Web aujourd'hui. Cela m'a offert une toute nouvelle expérience. J'ai d'abord enregistré l'application WhatsApp en 2019 lorsque j'avais besoin de communiquer avec un client logiciel de Glassdoor. J'ai gagné 450 euros pour ce projet.

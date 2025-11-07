@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 優化段落式標記語言的翻譯成本
 translated: true
+type: post
 ---
 
 我的 Jekyll 部落格使用 Markdown 撰寫段落。撰寫英文後，我會使用 DeepSeek 或 Mistral 等 AI 工具翻譯成另外八種語言。儘管它們已經相當便宜，但仍有改進空間。

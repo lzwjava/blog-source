@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 饮品中的卡路里
 translated: true
+type: post
 ---
 
 我常常觉得很多饮料太甜了，无糖的虽然健康，但感觉又太极端。

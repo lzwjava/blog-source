@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Calendrier des vacances 2025
 translated: true
+type: post
 ---
 
 Ayant travaillé pour des entreprises singapouriennes et hongkongaises, j'ai consulté l'IA pour compiler les calendriers de vacances de cette année. Actuellement, je rejoins un projet dans une banque et j'attends leur calendrier officiel de vacances. Il semble que nous suivrons le calendrier de Hong Kong. J'ai également inclus les vacances des États-Unis en raison de mon intérêt pour les marchés boursiers américains.

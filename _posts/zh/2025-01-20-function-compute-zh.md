@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 阿里云函数计算
 translated: true
+type: post
 ---
 
 我正在使用阿里云的函数计算（Function Compute）来生成看似正常的流量，这有助于掩盖我的代理服务器在GFW（中国国家防火墙）下的活动。我在代理服务器旁边部署了一个带宽服务器，而这个函数计算函数每分钟都会向带宽API发起请求。这样就形成了正常流量和代理流量的混合。

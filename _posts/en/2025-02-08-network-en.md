@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Cloud IPs, Network Interface and WiFi Optimization
 translated: false
+type: post
 ---
 
 ### Table of Contents

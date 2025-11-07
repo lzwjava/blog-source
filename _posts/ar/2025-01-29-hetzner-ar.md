@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: عموم السحابة في هتزنر
 translated: true
+type: post
 ---
 
 أنا محتاج جداً للتجربة هذه المنصة السحابية الحديثة.

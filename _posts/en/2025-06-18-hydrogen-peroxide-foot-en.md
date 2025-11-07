@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Can Hydrogen Peroxide Cure Athlete's Foot
 translated: false
+type: post
 ---
 
 When I was in middle school, I had athlete's foot. Sometimes parts of my foot were white, and the skin would peel off, leaving some dead skin. It seemed my foot had been sweating for a long time. When I came back home, my parents would help me wash my foot. It shocked them.

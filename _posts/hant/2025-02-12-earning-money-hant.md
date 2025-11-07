@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 賺錢
 translated: true
+type: post
 ---
 
 - 在公司擔任軟體工程師工作。

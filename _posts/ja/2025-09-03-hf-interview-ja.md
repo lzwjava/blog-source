@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: アメリカの博士課程出願とAI業界の仕事に関するインタビュー
 translated: true
+type: post
 ---
 
 {: .centered }

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 优化 AI 软件工程
 translated: true
+type: post
 ---
 
 ### 目录

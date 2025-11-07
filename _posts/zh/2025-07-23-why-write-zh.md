@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 我们为何在人工智能时代写作
 translated: true
+type: post
 ---
 
 在人工智能时代，我们仍然需要写作的最重要原因是它有助于我们更好地思考。虽然利用AI来拓展观点或思路很容易，但AI无法代替你进行思考。

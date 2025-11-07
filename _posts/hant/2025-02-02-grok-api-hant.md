@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 測試 Grok API
 translated: true
+type: post
 ---
 
 - 可以使用中國發出的Visa卡。

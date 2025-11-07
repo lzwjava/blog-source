@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 功率
 translated: true
+type: post
 ---
 
 卧室里，距离我左后方约60厘米处，5.5瓦的灯泡亮度太高，不适合舒适阅读。

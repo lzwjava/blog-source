@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 掌握 iOS 快捷指令
 translated: true
+type: post
 ---
 
 ### 快捷指令技巧

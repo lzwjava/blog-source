@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Useful Prompts
 translated: false
+type: post
 ---
 
 Translate the following posts or words into Chinese, ensuring that names (e.g., people, places, brands, or specific terms) are not translated and remain in their original form. Only translate the surrounding text into Chinese.

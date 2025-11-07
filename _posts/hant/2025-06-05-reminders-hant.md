@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 透過Telegram簡化提醒事項
 translated: true
+type: post
 ---
 
 在這個項目中，我建立了一個自動提醒系統，利用GitHub Actions和Telegram機器人來追蹤我的每日及每月任務。通過設定cron排程，我配置了工作相關任務的提醒，例如在企業微信打卡、提交工時表、查核薪資，以及個人任務如探訪家人、在京東購物，甚至與伴侶一起看電視。該系統使用Python腳本通過Telegram的Bot API發送訊息，並將環境變數安全地儲存在GitHub Secrets中。這樣的設置確保我不會錯過任何重要期限或個人承諾，將科技與日常生活完美結合，以達到最高效率。

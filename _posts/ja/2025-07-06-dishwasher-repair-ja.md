@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 食洗機の修理
 translated: true
+type: post
 ---
 
 最近、私は自宅の食洗機を実家から同じ市内の自宅に移動させました。食洗機はMidea 13 Q7というモデルです。2019年の夏に北京で働いていた時に購入しました。2020年初頭にはDeppon配送を利用して広州に運びました。

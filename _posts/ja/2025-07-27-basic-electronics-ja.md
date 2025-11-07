@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 基本的な電子工学
 translated: true
+type: post
 ---
 
 電子工学の基礎を知っています。公式 `V=IR` は、電圧は電流に抵抗をかけたものに等しいという意味です。

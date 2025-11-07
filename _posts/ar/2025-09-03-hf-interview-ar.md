@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: مقابلة حول طلبات الدكتوراه في الولايات المتحدة ووظائف صناعة الذكاء الاصطناعي
 translated: true
+type: post
 ---
 
 {: .centered }

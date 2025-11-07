@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: コマンド
 translated: true
+type: post
 ---
 
 ```bash

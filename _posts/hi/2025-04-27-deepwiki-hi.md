@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: गहरीविकी परीक्षण
 translated: true
+type: post
 ---
 
 DeepWiki का प्रयास करें: [https://deepwiki.com/lzwjava/lzwjava.github.io](https://deepwiki.com/lzwjava/lzwjava.github.io).

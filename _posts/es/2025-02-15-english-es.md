@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Guía completa para aprender inglés
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

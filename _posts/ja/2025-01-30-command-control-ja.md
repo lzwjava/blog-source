@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: macOS コマンド コントロール
 translated: true
+type: post
 ---
 
 ## WiFi

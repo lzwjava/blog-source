@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 安裝Ubuntu
 translated: true
+type: post
 ---
 
 ## 安裝

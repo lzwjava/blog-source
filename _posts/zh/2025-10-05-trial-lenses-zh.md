@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 使用试戴镜片寻找我的理想眼镜处方
 translated: true
+type: post
 ---
 
 {: .centered }

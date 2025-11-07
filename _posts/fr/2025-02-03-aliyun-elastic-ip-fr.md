@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Gestion des adresses IP élastiques Aliyun
 translated: true
+type: post
 ---
 
 Ce script fournit une interface en ligne de commande pour gérer les adresses IP élastiques (EIP) Aliyun. Il vous permet de créer, lier, délier et libérer des EIP à l'aide du SDK Aliyun pour Python. Le script prend en argument la tâche à effectuer et l'ID d'allocation de l'EIP.

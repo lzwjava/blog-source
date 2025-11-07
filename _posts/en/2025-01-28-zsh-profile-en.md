@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Zsh Profile
 translated: false
+type: post
 ---
 
 

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Laufwerkspeicherplatz bereinigen
 translated: true
+type: post
 ---
 
 ## Einstellungen

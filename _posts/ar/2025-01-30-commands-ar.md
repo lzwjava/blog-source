@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: الأوامر
 translated: true
+type: post
 ---
 
 ```markdown

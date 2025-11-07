@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Voyage en Animation de Ma Fille
 translated: true
+type: post
 ---
 
 {: .centered }

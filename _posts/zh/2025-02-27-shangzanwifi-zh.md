@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 便携热点尚赞WiFi
 translated: true
+type: post
 ---
 
 - http://shangzanwifi.com，从京东购买约45元的Wi-Fi便携热点。

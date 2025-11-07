@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: न्यूज़ आर्टिकल्स अपडेट ट्रिगर
 translated: true
+type: post
 ---
 
 नीचे दिए गए बटन पर क्लिक करके [NYTimes CN लेखों](./notes/2025-03-14-nytimes-en) को अपडेट करें।

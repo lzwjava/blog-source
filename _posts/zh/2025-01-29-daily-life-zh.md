@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 每日生活小贴士
 translated: true
+type: post
 ---
 
 - 冬天不需要穿拖鞋，穿袜子就可以了。

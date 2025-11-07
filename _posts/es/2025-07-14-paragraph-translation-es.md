@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Optimización de costos de traducción con Markdown basado en párrafos
 translated: true
+type: post
 ---
 
 Mi blog de Jekyll usa Markdown para escribir párrafos. Después de escribir en inglés, uso herramientas de IA como DeepSeek o Mistral para traducir a otros ocho idiomas. Aunque ya son económicas, aún hay margen de mejora.

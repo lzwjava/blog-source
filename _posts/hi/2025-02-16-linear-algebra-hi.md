@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: रैखिक बीजगणित
 translated: true
+type: post
 ---
 
 - **Singular Value Decomposition** का उपयोग इमेज कंप्रेशन के लिए किया जा सकता है।

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Configuración de Projector
 translated: true
+type: post
 ---
 
 A finales de agosto de 2024, después de mudarme de nuevo con mis padres, me encontré en una habitación más pequeña. Echando de menos el entretenimiento que mi proyector me proporcionaba, decidí trasladarlo desde mi residencia anterior.

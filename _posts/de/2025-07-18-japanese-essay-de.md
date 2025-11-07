@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Erste japanische Aufsatz
 translated: true
+type: post
 ---
 
 Es freut mich sehr, dass ich meinen ersten japanischen Aufsatz schreiben konnte. Der größte Teil dieses Aufsatzes wurde von einer KI erstellt, aber es handelt sich nicht um eine Übersetzung aus dem Englischen. Stattdessen habe ich jeden Satz einzeln auf Japanisch verfasst und dabei in VS Code den Befehl `command+k` verwendet, um mit Gemini 2.5 Flash Korrekturen vorzunehmen.

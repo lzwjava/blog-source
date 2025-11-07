@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 桂圓汁
 translated: true
+type: post
 ---
 
 我嘗試榴蓮汁的實驗是一場災難。讓我把它記錄在這裡。

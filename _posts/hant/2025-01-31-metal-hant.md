@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 蘋果金屬性能
 translated: true
+type: post
 ---
 
 以下是使用 PyTorch 測試 Metal（GPU）性能的腳本。

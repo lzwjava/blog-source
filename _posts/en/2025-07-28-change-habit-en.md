@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Habit Change, Specificity, Willingness
 translated: false
+type: post
 ---
 
 ### Table of Contents

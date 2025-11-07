@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: التجربة المصرفية في سنغافورة وهونغ كونغ
 translated: true
+type: post
 ---
 
 تم التحديث في سبتمبر 2025.

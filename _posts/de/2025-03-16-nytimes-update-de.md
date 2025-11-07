@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: NYTimes Nachrichten (CN) Artikelaktualisierung Auslöser
 translated: true
+type: post
 ---
 
 Klicken Sie auf die Schaltfläche unten, um die [NYTimes CN Artikel](./nytimes-en) zu aktualisieren.

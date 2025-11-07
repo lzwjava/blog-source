@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Rohe Http-Anfragen und Wrapper
 translated: true
+type: post
 ---
 
 ```python

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Function Compute on Alibaba Cloud
 translated: false
+type: post
 ---
 
 

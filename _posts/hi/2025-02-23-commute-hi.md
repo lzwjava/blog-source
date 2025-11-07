@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: यात्रा
 translated: true
+type: post
 ---
 
 - मैं जिनफेंग मेट्रो स्टेशन से 2 किमी दूर रहता था। ऑफिस तियानहे जिले में था।

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Composants de Commande de macOS
 translated: true
+type: post
 ---
 
 ## WiFi

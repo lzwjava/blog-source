@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 微調模型
 translated: true
+type: post
 ---
 
 ```python

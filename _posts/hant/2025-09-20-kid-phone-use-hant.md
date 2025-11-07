@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 女兒的手機旅程
 translated: true
+type: post
 ---
 
 以下文章基於真實故事，並經過人工智能潤飾。雖然部分內容為原創撰寫，但反映了真實經歷。

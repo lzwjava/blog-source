@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 信息出口
 translated: true
+type: post
 ---
 
 - JD.com 支持将信息导出到您的电子邮件。

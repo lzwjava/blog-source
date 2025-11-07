@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: बड़ी कंपनियों पर
 translated: true
+type: post
 ---
 
 ### विषय-सूची

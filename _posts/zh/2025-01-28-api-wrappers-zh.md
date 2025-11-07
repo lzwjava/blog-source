@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 原生 HTTP 请求与包装器
 translated: true
+type: post
 ---
 
 ```python

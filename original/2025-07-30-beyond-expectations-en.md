@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Exceeding Expectations and Avoiding Validation
 translated: false
+type: post
 ---
 
 ### Table of Contents

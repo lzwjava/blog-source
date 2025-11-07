@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Wir können nicht weniger Gutes ertragen
 translated: true
+type: post
 ---
 
 - Wenn man das neueste iPhone erlebt hat, fällt es schwer, ein älteres Modell zu nutzen.

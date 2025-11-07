@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: الركوب
 translated: true
+type: post
 ---
 
 - كنت أعيش على بعد 2 كم من محطة مترو جينفينغ. كان المكتب في منطقة تيانه.

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Expérience Bancaire à Singapour et à Hong Kong
 translated: true
+type: post
 ---
 
 Mis à jour en septembre 2025.

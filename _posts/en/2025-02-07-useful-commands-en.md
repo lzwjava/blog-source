@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Useful Commands
 translated: false
+type: post
 ---
 
 Here are some useful commands I frequently use in development and system administration.

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: पैसा कमाना और गंवाना
 translated: true
+type: post
 ---
 
 ## पैसा कमाना

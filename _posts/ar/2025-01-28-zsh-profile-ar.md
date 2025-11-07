@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: ملف تعريف Zsh
 translated: true
+type: post
 ---
 
 ```markdown

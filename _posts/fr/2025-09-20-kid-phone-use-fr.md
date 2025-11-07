@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Le Voyage de Ma Fille avec les Téléphones
 translated: true
+type: post
 ---
 
 ---

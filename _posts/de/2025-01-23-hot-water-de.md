@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Heißes Wasser
 translated: true
+type: post
 ---
 
 - Heißes Wasser kann leicht Papier entfernen, das an einem Fenster klebt.

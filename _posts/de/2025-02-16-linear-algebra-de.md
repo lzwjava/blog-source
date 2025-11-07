@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Lineare Algebra
 translated: true
+type: post
 ---
 
 - Die Singuläre Wertzerlegung kann zur Bildkompression verwendet werden.

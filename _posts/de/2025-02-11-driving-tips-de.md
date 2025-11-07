@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Fahren
 translated: true
+type: post
 ---
 
 - Reifen zweimal im Jahr aufpumpen.

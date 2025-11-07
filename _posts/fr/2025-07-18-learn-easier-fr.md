@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Comment apprendre plus facilement
 translated: true
+type: post
 ---
 
 Quand j'ai écrit cet essai en avril 2023, [Pourquoi et comment j'apprends le japonais](https://lzwjava.github.io/japanese-en), j'ai réalisé que je n'avais pas beaucoup progressé. Deux ans se sont écoulés. J'ai écouté pendant plus de 300 heures, en moyenne une demi-heure par jour. Le rythme peut m'être devenu plus familier, mais je ne reconnais toujours pas beaucoup de mots.

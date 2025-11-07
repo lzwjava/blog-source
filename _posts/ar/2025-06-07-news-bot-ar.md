@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: روبوت تلخيص الأخبار الآلي
 translated: true
+type: post
 ---
 
 يعرض هذا المنشور بوتًا للأخبار يعتمد على لغة Python يقوم بجمع وتلخيص أهم القصص من Hacker News وGitHub Trending وNYTimes (الصينية) باستخدام واجهة Mistral API. يرسل تقارير يومية موجزة عبر Telegram، مع سير عمل GitHub Actions لتنفيذ آلي. مثالي للبقاء على اطلاع بأخبار التكنولوجيا والعالم بسهولة.

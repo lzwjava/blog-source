@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Driving
 translated: true
+type: post
 ---
 
 - 年に2回タイヤの空気圧をチェックしましょう。

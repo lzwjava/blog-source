@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Günstig Gebrauchtwaren Kaufen
 translated: true
+type: post
 ---
 
 - Zahlen Sie etwa 30 CNY, um gebrauchte Radios, Mobiltelefone, Smartwatches, Router usw. zu kaufen.

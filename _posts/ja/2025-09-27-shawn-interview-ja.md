@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: AIフレームワークの構築と人生の選択に関するインタビュー
 translated: true
+type: post
 ---
 
 {: .centered }

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Cómo escalar un equipo
 translated: true
+type: post
 ---
 
 - Piensa a largo plazo. ¿Tienes suficiente presupuesto? ¿Cuánto tiempo puede sobrevivir tu equipo? ¿Qué pasa si no hay ganancias después de escalar el equipo?

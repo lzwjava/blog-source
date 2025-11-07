@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 工程师推荐博客文章
 translated: true
+type: post
 ---
 
 以下建议由AI根据过去一年的博客文章生成，专为一位拥有十年经验的后端工程师量身定制。请每半年运行一次脚本来更新此文件，以便根据新发布的文章刷新内容。

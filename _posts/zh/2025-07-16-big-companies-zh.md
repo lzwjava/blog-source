@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 论大企业
 translated: true
+type: post
 ---
 
 ### 目录  

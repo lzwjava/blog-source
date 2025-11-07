@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 管理阿里雲彈性IP
 translated: true
+type: post
 ---
 
 本腳本提供一個命令列介面來管理阿里雲彈性公網 IP (EIP)。它允許您使用阿里雲 Python SDK 來建立、綁定、解綁和釋放 EIP。腳本接收要執行的作業和 EIP 的分配 ID 作為參數。

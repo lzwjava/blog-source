@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 自動化您的打卡台與Telegram位置機器人
 translated: true
+type: post
 ---
 
 日打卡系統不需要再是個負擔，我確實這樣認為。這就是為什麼我建立了個人 Telegram bot，使用位置跟蹤自動通知辦公室到達時間，並提醒重要的檢查。本文探討了如何組合Python與GitHub Actions建立無接觸、自動化的系統，基於位置保持我們獲取最新信息。

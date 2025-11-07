@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Netplan、Systemd、SSH、Condaクリーンアップ
 translated: true
+type: post
 ---
 
 ### 目次

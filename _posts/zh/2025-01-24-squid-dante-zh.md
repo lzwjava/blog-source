@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 代理工具：Squid 与 Danted
 translated: true
+type: post
 ---
 
 ## Danted

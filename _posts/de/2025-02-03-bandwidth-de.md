@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Untersuchung der 200-MBit/s-Bandbreitenbeschränkung
 translated: true
+type: post
 ---
 
 Ich nutze einen Aliyun Server in Hongkong mit einer nachträglich bezahlten, verbrauchsabhängigen elastischen IP.  Allerdings erlebe ich Geschwindigkeiten, die unter meinen Erwartungen liegen. Meine aktuelle Bandbreite beträgt:

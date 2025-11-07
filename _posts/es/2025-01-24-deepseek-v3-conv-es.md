@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Una conversación generada por IA sobre DeepSeek V3
 translated: true
+type: post
 ---
 
 Aquí se explora DeepSeek v3, haciendo referencia al video "Multi-Head Latent Attention and Multi-token Prediction in Deepseek v3" [https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO](https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO). Se utilizó Google Cloud Speech-to-Text para transcribir el video, junto con algo de código para organizar la transcripción.

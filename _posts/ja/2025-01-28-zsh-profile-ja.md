@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Zsh プロファイル
 translated: true
+type: post
 ---
 
 ```bash

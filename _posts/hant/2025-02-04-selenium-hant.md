@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 以 Selenium 進行網頁瀏覽器自動化
 translated: true
+type: post
 ---
 
 Selenium 是一個強大的網頁瀏覽器自動化工具。它允許您以程式方式控制瀏覽器執行操作，例如導航到網頁、填寫表格、點擊按鈕和提取數據。這對於各種任務都很有用，包括網頁抓取、測試網頁應用程式和自動化重複性任務。

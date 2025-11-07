@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 构建人工智能框架与人生选择的访谈
 translated: true
+type: post
 ---
 
 {: .centered }

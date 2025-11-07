@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: كسب المال
 translated: true
+type: post
 ---
 
 - عملت كمبرمج برامج لمؤسسات.

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 有用なプロンプト
 translated: true
+type: post
 ---
 
 ```json

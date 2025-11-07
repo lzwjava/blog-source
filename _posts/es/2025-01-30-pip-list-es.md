@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Paquetes de Pip Que Instalo
 translated: true
+type: post
 ---
 
 pip list:

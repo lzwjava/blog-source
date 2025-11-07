@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Alltagstipps
 translated: true
+type: post
 ---
 
 - Ich muss im Winter keine Hausschuhe tragen; Socken sind in Ordnung.

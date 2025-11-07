@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Una entrevista sobre la creación de marcos de IA y elecciones de vida
 translated: true
+type: post
 ---
 
 {: .centered }

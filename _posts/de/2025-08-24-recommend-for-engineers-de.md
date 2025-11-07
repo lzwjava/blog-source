@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Empfohlene Blogbeiträge für Ingenieure
 translated: true
+type: post
 ---
 
 Diese Empfehlungen werden von KI basierend auf Blogposts des letzten Jahres generiert und sind auf einen 10-jährigen Backend-Ingenieur zugeschnitten. Aktualisieren Sie diese Datei, indem Sie das Skript alle sechs Monate ausführen, um neue Beiträge zu berücksichtigen.

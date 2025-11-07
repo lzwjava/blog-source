@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: مطالع مفيدة
 translated: true
+type: post
 ---
 
 ```json

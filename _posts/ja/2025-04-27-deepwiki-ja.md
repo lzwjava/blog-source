@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ディープウィキトライアル
 translated: true
+type: post
 ---
 
 DeepWikiを試してみてください: [https://deepwiki.com/lzwjava/lzwjava.github.io](https://deepwiki.com/lzwjava/lzwjava.github.io)。

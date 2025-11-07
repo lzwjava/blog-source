@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 原始 HTTP 請求及封裝器
 translated: true
+type: post
 ---
 
 ```python

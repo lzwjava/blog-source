@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 裝載 Arch Linux
 translated: true
+type: post
 ---
 
 Lenovo 小星 14IAH8 筆記型電腦。

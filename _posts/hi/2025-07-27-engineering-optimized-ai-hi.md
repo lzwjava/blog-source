@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: सॉफ्टवेयर इंजीनियरिंग को AI के लिए अनुकूलित करना
 translated: true
+type: post
 ---
 
 ### सामग्री सूची

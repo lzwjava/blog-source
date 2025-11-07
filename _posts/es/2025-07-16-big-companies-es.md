@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Las grandes empresas
 translated: true
+type: post
 ---
 
 ### Sobre Grandes Empresas

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: एआई वर्कफ्लोज, कोड एडिटर्स, और प्लेटफॉर्म डिसरप्शन
 translated: true
+type: post
 ---
 
 ### विषय-सूची

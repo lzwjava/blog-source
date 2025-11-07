@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Instalando Arch Linux
 translated: true
+type: post
 ---
 
 Lenovo Xiaoxing 14IAH8 portátil.

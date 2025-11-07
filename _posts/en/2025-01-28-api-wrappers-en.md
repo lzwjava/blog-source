@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Raw Http Requests And Wrappers
 translated: false
+type: post
 ---
 
 

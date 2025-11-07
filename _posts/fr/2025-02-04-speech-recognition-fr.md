@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Reconnaissance vocale en temps réel
 translated: true
+type: post
 ---
 
 Ce code Python implémente une reconnaissance vocale en temps réel utilisant l'API Google Cloud Speech-to-Text et la bibliothèque PyAudio. Il capture l'audio depuis le microphone, le transmet en continu à l'API Speech-to-Text et affiche le texte transcrit. La classe `MicrophoneStream` gère l'entrée audio, et la fonction `main` configure le client de reconnaissance vocale et traite le flux audio.

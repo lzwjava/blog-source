@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: رحلة ابنتي مع الهواتف
 translated: true
+type: post
 ---
 
 ---

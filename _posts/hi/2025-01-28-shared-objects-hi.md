@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: Shared Objects in Multiple Threads
 translated: true
+type: post
 ---
 
 ## Lesson

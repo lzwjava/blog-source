@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Commandes utiles
 translated: true
+type: post
 ---
 
 Voici quelques commandes utiles que j'utilise fréquemment en développement et en administration système.

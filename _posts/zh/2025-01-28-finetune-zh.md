@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 微调模型
 translated: true
+type: post
 ---
 
 ```python

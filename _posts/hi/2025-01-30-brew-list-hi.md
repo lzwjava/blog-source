@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: घर-से बना पैकेज जो मैं इंस्टॉल करता हूँ
 translated: true
+type: post
 ---
 
 #### Formulae

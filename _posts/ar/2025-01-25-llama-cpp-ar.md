@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تجربة llama.cpp
 translated: true
+type: post
 ---
 
 ## llama.cpp

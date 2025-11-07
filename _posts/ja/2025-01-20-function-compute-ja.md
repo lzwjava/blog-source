@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Alibaba CloudのFunction Compute
 translated: true
+type: post
 ---
 
 私はAlibaba CloudのFunction Computeを使用して、通常のトラフィックのように見えるトラフィックを生成しています。これにより、プロキシサーバーの活動をGFWから隠蔽するのに役立っています。プロキシと一緒に帯域幅サーバーをデプロイし、このFunction Compute関数は毎分帯域幅APIにリクエストを送信します。これにより、通常のトラフィックとプロキシトラフィックが混在します。

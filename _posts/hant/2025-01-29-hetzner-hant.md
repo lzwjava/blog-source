@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Hetzner Cloud 雲端服務
 translated: true
+type: post
 ---
 
 我最近很興奮地嘗試這個雲端平台。

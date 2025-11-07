@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Homebrew Packages I Install
 translated: false
+type: post
 ---
 
 

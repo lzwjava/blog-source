@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 清理磁盘空间
 translated: true
+type: post
 ---
 
 ## 设置

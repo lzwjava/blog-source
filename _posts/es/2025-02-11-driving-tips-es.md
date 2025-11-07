@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Conducir
 translated: true
+type: post
 ---
 
 - Infle las llantas dos veces al año.

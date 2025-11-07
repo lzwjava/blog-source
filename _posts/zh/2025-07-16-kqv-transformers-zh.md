@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 神经网络、Transformer 和 GPT
 translated: true
+type: post
 ---
 
 ### 目录

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: نقل Google Cloud
 translated: true
+type: post
 ---
 
 لقد قمت مؤخرًا بتجربة واجهة برمجة التطبيقات (API) الخاصة بتحويل الكلام إلى نص من Google Cloud. فيما يلي دالة Python استخدمتها لإجراء عملية النسخ.

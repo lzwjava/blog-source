@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 实用命令
 translated: true
+type: post
 ---
 
 这里有一些我在开发和系统管理中经常使用的有用命令。

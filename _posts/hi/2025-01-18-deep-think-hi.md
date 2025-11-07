@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: DeepThink या ChatGPT का बहुत उपयोग करें।
 translated: true
+type: post
 ---
 
 OpenAI का o1 5 दिसंबर, 2024 को जारी किया गया था। DeepSeek-V3 26 दिसंबर, 2024 को जारी किया गया था।

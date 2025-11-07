@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Font Rendering Issues in GitHub Desktop
 translated: false
+type: post
 ---
 
 

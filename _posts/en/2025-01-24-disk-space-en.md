@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Clean Up Disk Space
 translated: false
+type: post
 ---
 
 

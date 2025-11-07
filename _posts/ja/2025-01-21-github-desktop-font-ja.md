@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: GitHub Desktop のフォントレンダリング問題
 translated: true
+type: post
 ---
 
 GitHub Desktop バージョン 3.4.13 (arm64) では、特定の言語においてテキスト差分パネルのフォントレンダリングに問題が発生しています。問題が確認されている言語は以下の通りです：

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Ein Interview über den Aufbau von KI-Frameworks und Lebensentscheidungen
 translated: true
+type: post
 ---
 
 {: .centered }

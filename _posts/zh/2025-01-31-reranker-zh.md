@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 排序器
 translated: true
+type: post
 ---
 
 [bge-reranker](https://huggingface.co/BAAI/bge-reranker-v2-m3)

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: बेडरूम
 translated: true
+type: post
 ---
 
 ## सामने के दरवाज़े से दृश्य

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Cambio de hábitos, especificidad, voluntad
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

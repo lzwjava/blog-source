@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Managing AWS Lightsail Instances
 translated: false
+type: post
 ---
 
 

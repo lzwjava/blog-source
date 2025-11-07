@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: On Big Companies
 translated: false
+type: post
 ---
 
 ### Table of Contents

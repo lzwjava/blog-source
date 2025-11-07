@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 命令
 translated: true
+type: post
 ---
 
 ```markdown

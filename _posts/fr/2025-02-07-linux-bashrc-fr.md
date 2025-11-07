@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Configuration du fichier Linux Bashrc
 translated: true
+type: post
 ---
 
 Ce fichier `bashrc` configure l'environnement du shell Bash sous Linux. Il personnalise l'invite de commande, définit des alias, gère les paramètres proxy et s'intègre à des outils comme Git. Voici une description des configurations clés :

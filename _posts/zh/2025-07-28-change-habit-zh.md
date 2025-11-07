@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 习惯改变、特异性、意愿
 translated: true
+type: post
 ---
 
 ### 目录

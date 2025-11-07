@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: 'أداة الوكيل: Squid و Danted'
 translated: true
+type: post
 ---
 
 ## Danted

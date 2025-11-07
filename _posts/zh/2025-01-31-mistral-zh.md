@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 测试 Mistral API
 translated: true
+type: post
 ---
 
 这是对 Mistral API 的一个快速测试。我在测试中使用了 `mistral-small-2501` 模型。下面的代码展示了如何调用 API 并获取响应。

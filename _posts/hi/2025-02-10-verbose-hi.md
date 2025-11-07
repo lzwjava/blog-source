@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: विस्तृत आउटपुट
 translated: true
+type: post
 ---
 
 - Homebrew में verbose output को enable करने के liye, `export HOMEBREW_CURL_VERBOSE=1` ko `brew upgrade --verbose` ke saath use karein.

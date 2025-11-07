@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Invitando a colegas globales a aplicaciones chinas
 translated: true
+type: post
 ---
 
 Cuando comencé a trabajar como contratista para un banco singapurense, empecé a usar LinkedIn y a publicar algunos blogs allí. También comencé a usar WhatsApp y YouTube con más frecuencia.

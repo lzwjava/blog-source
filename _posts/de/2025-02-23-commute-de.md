@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Pendeln
 translated: true
+type: post
 ---
 
 - Ich wohnte 2 km von der U-Bahn-Station Jinfeng entfernt. Das Büro befand sich im Bezirk Tianhe.

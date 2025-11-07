@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: मैकओएस कमांड कंट्रोल
 translated: true
+type: post
 ---
 
 ## WiFi

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Hetzner 云
 translated: true
+type: post
 ---
 
 我最近非常期待试用这个云平台。

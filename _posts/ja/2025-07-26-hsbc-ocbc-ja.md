@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: シンガポールと香港の銀行体験
 translated: true
+type: post
 ---
 
 2025年9月更新。

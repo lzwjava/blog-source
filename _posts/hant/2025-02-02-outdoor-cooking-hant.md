@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 露天烹飪
 translated: true
+type: post
 ---
 
 - 使用石頭、落葉、樹枝和樹枝建造一個爐子。

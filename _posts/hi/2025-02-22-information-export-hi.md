@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: जानकारी निर्यात
 translated: true
+type: post
 ---
 
 - JD.com आपकी ईमेल पर जानकारी निर्यात करने का समर्थन करता है।

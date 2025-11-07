@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 管理 AWS Lightsail 實例
 translated: true
+type: post
 ---
 
 以下是一個授予管理 Lightsail 實例所需權限的策略：

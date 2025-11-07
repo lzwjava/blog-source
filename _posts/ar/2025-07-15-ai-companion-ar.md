@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: محادثة مع رفيق الذكاء الاصطناعي
 translated: true
+type: post
 ---
 
 أضفت مؤخرًا نقطة إلى ملخص سيرتي الذاتية:

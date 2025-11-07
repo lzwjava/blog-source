@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Voyage en voiture vers le Guangdong du Nord
 translated: true
+type: post
 ---
 
 Faites un road trip avec 3 jours de congés annuels de Zengcheng, Guangzhou à Fogang, puis à Yingde, suivi du centre-ville de Shaoguan, puis à Ruyuan dans Shaoguan, puis à Lechang, puis retour à Shaoguan, puis à Fogang, et enfin à Zengcheng. Départ le soir du 12 juillet et retour le soir du 16 juillet.

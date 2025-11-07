@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Vatiaje
 translated: true
+type: post
 ---
 
 La bombilla de 5.5 vatios es demasiado brillante para una lectura cómoda en mi habitación cuando está colocada aproximadamente a 60 centímetros detrás de mí, en el lado izquierdo.

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: iOSショートカットのマスター
 translated: true
+type: post
 ---
 
 ### ショートカットのヒント

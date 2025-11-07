@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: NYTimes News (CN) Articles Update Trigger
 translated: false
+type: post
 ---
 
 Click the button below to update the [NYTimes CN articles](./notes/2025-03-14-nytimes-en).

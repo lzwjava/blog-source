@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 与AI伴侣对话
 translated: true
+type: post
 ---
 
 我最近在简历摘要中添加了一条内容：

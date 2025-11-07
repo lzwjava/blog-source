@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Mistral APIのテスト
 translated: true
+type: post
 ---
 
 この投稿は、Mistral APIの簡単なテストです。このテストには、`mistral-small-2501`モデルを使用しています。以下のコードには、APIを呼び出し、応答を取得する方法が示されています。

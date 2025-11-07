@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Conseils d'optimisation de réseau
 translated: true
+type: post
 ---
 
 Utile, Recommandé :

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Tipps zur Netzwerkoptimierung
 translated: true
+type: post
 ---
 
 Nützlich, Empfehlung:

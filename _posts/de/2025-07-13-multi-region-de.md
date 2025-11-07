@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Mehrregionale Softwareentwicklung
 translated: true
+type: post
 ---
 
 Für internationale Unternehmen gibt es oft Projekte, die Menschen aus mehreren Regionen wie Singapur, Hongkong, UK, USA und China bedienen.

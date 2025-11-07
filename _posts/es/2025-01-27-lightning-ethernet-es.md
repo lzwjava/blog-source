@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Adaptador de Rayo a Ethernet
 translated: true
+type: post
 ---
 
 Recientemente probé un nuevo producto que nunca había usado antes. Me costó aproximadamente 44 CNY en JD.com. Productos similares cuestan alrededor de 15 USD en Walmart.com.

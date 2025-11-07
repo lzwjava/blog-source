@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Consejos para la Vida Diaria
 translated: true
+type: post
 ---
 
 - No necesito usar pantuflas en invierno; usar calcetines está bien.

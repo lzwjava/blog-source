@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Administración de IPs Elásticas de Aliyun
 translated: true
+type: post
 ---
 
 Este script proporciona una interfaz de línea de comandos para gestionar las IPs elásticas de Aliyun (EIP). Permite crear, enlazar, desenlazar y liberar EIP usando el SDK de Aliyun para Python. El script toma argumentos para la tarea a realizar y el ID de asignación de la EIP.

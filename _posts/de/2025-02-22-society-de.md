@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Gesellschaft
 translated: true
+type: post
 ---
 
 - Menschen werden geboren, wachsen, essen, entleeren sich, schlafen, arbeiten, studieren, ruhen, reisen, denken, sprechen, hören, berühren, schreiben, lesen, gehen, springen, Sport treiben, benutzen Handys, spielen Spiele, kämpfen, töten, erholen sich, bauen und zerstören.

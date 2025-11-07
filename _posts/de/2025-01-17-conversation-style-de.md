@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Konversations-Audio-Generierung
 translated: true
+type: post
 ---
 
 Inspiriert von einem YouTube-Video, das eine Diskussion über DeepSeek-V3 zeigte, habe ich mit KI-generierten Gesprächen experimentiert. Mein Ziel ist es, realistische Audio-Dialoge mit Google Text-to-Speech und ffmpeg für die Audio-Generierung und -Verkettung zu erstellen. Der folgende Code skizziert meinen aktuellen Ansatz, um ein natürliches Hin-und-Her-Gespräch zu simulieren.

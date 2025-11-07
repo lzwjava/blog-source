@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Projektor-Einrichtung
 translated: true
+type: post
 ---
 
 Ende August 2024, nachdem ich wieder bei meinen Eltern eingezogen war, fand ich mich in einem kleineren Zimmer wieder. Da ich die Unterhaltung, die mein Beamer bot, vermisste, beschloss ich, ihn von meiner vorherigen Wohnung zu holen.

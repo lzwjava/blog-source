@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: طهي في الهواء الطلق
 translated: true
+type: post
 ---
 
 -استخدم الصخور والأوراق والأغصان والعصي لبناء الفرن.

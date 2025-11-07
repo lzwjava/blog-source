@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Algèbre linéaire
 translated: true
+type: post
 ---
 
 - La **Singular Value Decomposition** (SVD) peut être utilisée pour la compression d'images.

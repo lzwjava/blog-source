@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Actualización del disparador de artículos de NYTimes News (CN)
 translated: true
+type: post
 ---
 
 Haga clic en el botón a continuación para actualizar los artículos de [NYTimes CN](./notes/2025-03-14-nytimes-en).

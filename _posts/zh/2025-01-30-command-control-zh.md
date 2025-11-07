@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: macOS 命令与控制
 translated: true
+type: post
 ---
 
 ## WiFi

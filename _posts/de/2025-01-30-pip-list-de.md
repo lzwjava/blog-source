@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: '"Pip-Pakete, die ich installiere"'
 translated: true
+type: post
 ---
 
 pip list:

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Invasión de OpenWrt en Xiaomi Mi Router 4C
 translated: true
+type: post
 ---
 
 Este es mi tercer intento de instalar OpenWrt. La primera vez fue en 2019, cuando utilicé un puerto UART para conectar. La segunda vez, en 2023, utilicé un método remoto similar al descrito aquí.

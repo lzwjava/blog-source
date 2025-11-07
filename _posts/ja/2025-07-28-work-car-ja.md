@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: EV車で働く
 translated: true
+type: post
 ---
 
 最近、私は再びEVで働くことを試しました。以前は車内で携帯デスクを使っていましたが、まだ不便でした。私はメインシートではなく、後部座席で使う必要がありました。

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Arbeiten
 translated: true
+type: post
 ---
 
 

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: OpenWrt Invasion on Xiaomi Mi Router 4C
 translated: true
+type: post
 ---
 
 هذا هو محاولتي الثالثة لتثبيت OpenWrt. المرة الأولى كانت في عام 2019، عندما استخدمت منفذ UART للاتصال. المرة الثانية كانت في عام 2023، عندما استخدمت طريقة بعيدة مشابهة لتلك الوصفها هنا.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Clean Up Startup Items in macOS
 translated: false
+type: post
 ---
 
 

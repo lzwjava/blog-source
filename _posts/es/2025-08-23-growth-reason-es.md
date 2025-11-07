@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: La Verdadera Razón del Crecimiento
 translated: true
+type: post
 ---
 
 Alrededor de 2017, cuando estaba emprendiendo, después de obtener inversión, contraté a 9 empleados pero tuve que despedirlos después de dos meses. Se convirtió en una de mis lecciones más difíciles: no tener un plan a largo plazo, querer impresionar a los demás e intentar desarrollar mis habilidades de gestión demasiado rápido. La buena noticia es que, al trabajar con ingenieros a tiempo parcial en 50 pequeños proyectos de software, ganamos medio millón y se lo devolvimos al inversor al cerrar la empresa.

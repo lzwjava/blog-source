@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: مشاكل عرض الخطوط في GitHub Desktop
 translated: true
+type: post
 ---
 
 إصدار GitHub Desktop 3.4.13 (arm64) يعاني من مشاكل في عرض الخطوط في لوحة عرض الاختلافات النصية للغات معينة. اللغات المتأثرة تشمل:

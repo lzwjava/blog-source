@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ワット数
 translated: true
+type: post
 ---
 
 私の寝室では、5.5ワットの電球が左側の後ろ約60センチメートルの位置にあると、読書には明るすぎます。

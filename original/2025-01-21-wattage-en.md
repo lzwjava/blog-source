@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Wattage
+type: post
 ---
 
 The 5.5-watt bulb is too bright for comfortable reading in my bedroom when positioned approximately 60 centimeters behind me on the left side.

@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Model Training
+type: post
 ---
 
 * Ensure the code, environment, and data are correct before starting actual training.

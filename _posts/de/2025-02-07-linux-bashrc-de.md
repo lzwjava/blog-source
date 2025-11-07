@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Linux Bashrc-Konfiguration
 translated: true
+type: post
 ---
 
 Diese `bashrc`-Datei konfiguriert die Bash-Shell-Umgebung in Linux. Sie passt die Eingabeaufforderung an, richtet Aliase ein, verwaltet Proxy-Einstellungen und integriert sich mit Tools wie Git. Im Folgenden finden Sie eine Aufschlüsselung der wichtigsten Konfigurationen:

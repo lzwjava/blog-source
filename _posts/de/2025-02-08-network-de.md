@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Schwebende IPs und Verwaltung von Netzwerkschnittstellen
 translated: true
+type: post
 ---
 
 ### Inhaltsverzeichnis

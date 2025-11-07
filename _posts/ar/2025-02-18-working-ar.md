@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: العمل
 translated: true
+type: post
 ---
 
 - قبل الحصول على حق الوصول إلى مستودع الأكواد، اطلب من الزملاء ملف `pom.xml` وحاول تحميل تبعيات Nexus.

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: SeleniumによるWebブラウザ自動化
 translated: true
+type: post
 ---
 
 Seleniumは、Webブラウザを自動化する強力なツールです。Webページへの移動、フォームへの入力、ボタンのクリック、データの抽出など、プログラムによってブラウザを制御できます。これは、Webスクレイピング、Webアプリケーションのテスト、反復的なタスクの自動化など、さまざまなタスクに役立ちます。

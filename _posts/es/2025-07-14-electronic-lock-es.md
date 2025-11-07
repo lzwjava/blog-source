@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Romper una contraseña en un candado electrónico
 translated: true
+type: post
 ---
 
 {: .centered }

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 期待を超え、承認を避ける
 translated: true
+type: post
 ---
 
 ```markdown

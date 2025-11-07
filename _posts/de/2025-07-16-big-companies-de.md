@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Große Unternehmen
 translated: true
+type: post
 ---
 
 ### Über große Unternehmen

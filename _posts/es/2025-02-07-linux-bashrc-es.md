@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Configuración de Linux Bashrc
 translated: true
+type: post
 ---
 
 Este archivo `bashrc` configura el entorno del shell Bash en Linux. Personaliza el indicador, configura alias, gestiona la configuración de proxy e integra herramientas como Git. A continuación, se muestra un desglose de las configuraciones clave:

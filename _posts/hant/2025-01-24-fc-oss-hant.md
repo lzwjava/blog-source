@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 函數計算與 OSS 整合
 translated: true
+type: post
 ---
 
 此程式碼示範如何整合阿里雲函數計算與 OSS (對象儲存服務)。它從指定的網址下載檔案，並將其上傳到 OSS 存儲桶。

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 大量使用DeepThink或ChatGPT o1
 translated: true
+type: post
 ---
 
 OpenAI的o1于2024年12月5日发布，而DeepSeek-V3则是在同年12月26日面世。

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 大企業について
 translated: true
+type: post
 ---
 
 ### 目次

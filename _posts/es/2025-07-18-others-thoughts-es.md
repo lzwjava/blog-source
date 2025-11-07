@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Pensamientos de otros
 translated: true
+type: post
 ---
 
 Cuando era joven, rara vez pensaba mucho en los demás. Normalmente pensaba en mí mismo, lo que significa que no consideraba mucho cómo vivían los demás, qué pensaban de mí, sus propósitos, estados mentales, luchas, caracteres, etc.

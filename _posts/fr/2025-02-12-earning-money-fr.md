@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Gagner de l'argent
 translated: true
+type: post
 ---
 
 - A travaillé comme ingénieur logiciel pour des entreprises.

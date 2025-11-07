@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 尝试 llama.cpp
 translated: true
+type: post
 ---
 
 ## llama.cpp

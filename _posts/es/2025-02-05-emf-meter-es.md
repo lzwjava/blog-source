@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Medidor EMF multicampo
 translated: true
+type: post
 ---
 
 Recientemente escuché rumores de que las estaciones 5G podrían causar daño a los humanos, lo que me impulsó a investigar más a fondo. Para ello, compré un medidor EMF multicampo para medir los campos electromagnéticos. EMF significa Campo Electromagnético.

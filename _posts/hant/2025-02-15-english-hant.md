@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 英語學習完全指南
 translated: true
+type: post
 ---
 
 ### 目錄

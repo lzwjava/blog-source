@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: डीपसीक वी3 के बारे में एक एआई-जनित वार्तालाप
 translated: true
+type: post
 ---
 
 यहां DeepSeek v3 का अध्ययन किया गया है, जिसमें "Deepseek v3 में मल्टी-हेड लेटेंट अटेंशन और मल्टी-टोकन प्रेडिक्शन" वीडियो [https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO](https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO) का संदर्भ दिया गया है। वीडियो का ट्रांसक्रिप्शन करने के लिए Google Cloud Speech-to-Text का उपयोग किया गया, साथ ही ट्रांसक्रिप्ट को व्यवस्थित करने के लिए कुछ कोड भी लिखा गया।

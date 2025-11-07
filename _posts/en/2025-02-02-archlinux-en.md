@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Installing Arch Linux
 translated: false
+type: post
 ---
 
 

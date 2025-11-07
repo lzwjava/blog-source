@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Network Cable Tester
+type: post
 ---
 
 I recently purchased a network cable tester from JD.com. I have seen network consultants come to my home or my employer's office to test the network.

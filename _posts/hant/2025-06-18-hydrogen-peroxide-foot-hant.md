@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 過氧化氫可以治療香港腳嗎
 translated: true
+type: post
 ---
 
 When I was in middle school, I had athlete's foot. Sometimes parts of my foot were white, and the skin would peel off, leaving some dead skin. It seemed my foot had been sweating for a long time. When I came back home, my parents would help me wash my foot. It shocked them.

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: リアルタイム音声認識
 translated: true
+type: post
 ---
 
 このPythonコードは、Google Cloud Speech-to-Text APIとPyAudioライブラリを使用してリアルタイムの音声認識を実装します。マイクからオーディオをキャプチャし、Speech-to-Text APIにストリーミングして、転写されたテキストを出力します。`MicrophoneStream`クラスはオーディオ入力処理を行い、`main`関数は音声認識クライアントを設定し、オーディオストリームを処理します。

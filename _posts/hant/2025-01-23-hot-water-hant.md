@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 熱水
 translated: true
+type: post
 ---
 
 - 熱水可輕易去除粘在窗戶上的紙張。

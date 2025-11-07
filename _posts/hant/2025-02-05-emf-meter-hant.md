@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 多功能電磁場計
 translated: true
+type: post
 ---
 
 我最近聽到謠言說5G基站可能會對人體造成傷害，這引起我的好奇，促使我進一步調查。為此，我購買了一台多場式電磁場儀來測量電磁場。EMF代表電磁場。

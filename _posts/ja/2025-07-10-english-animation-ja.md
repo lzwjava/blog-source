@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 娘のアニメーション旅路
 translated: true
+type: post
 ---
 
 {: .centered }

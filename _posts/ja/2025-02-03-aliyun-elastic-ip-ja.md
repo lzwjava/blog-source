@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Aliyun Elastic IP の管理
 translated: true
+type: post
 ---
 
 このスクリプトは、Aliyun Elastic IP（EIP）を管理するためのコマンドラインインターフェースを提供します。Aliyun SDK for Pythonを使用して、EIPの作成、バインド、アンバインド、解放を行うことができます。スクリプトは、実行するジョブとEIPの割り当てIDを引数として受け取ります。

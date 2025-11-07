@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: NYTimes新闻（CN）文章更新触发器
 translated: true
+type: post
 ---
 
 点击下方按钮以更新 [NYTimes CN 文章](./notes/2025-03-14-nytimes-en)。

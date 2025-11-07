@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Promptes utiles
 translated: true
+type: post
 ---
 
 ```json

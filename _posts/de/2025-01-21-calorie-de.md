@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Kalorien in Getränken
 translated: true
+type: post
 ---
 
 Ich finde viele Getränke oft zu süß. Zwar sind zuckerfreie Alternativen gesünder, aber sie können sich zu einschränkend anfühlen.

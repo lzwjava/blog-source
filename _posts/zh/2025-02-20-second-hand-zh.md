@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 买便宜二手货
 translated: true
+type: post
 ---
 
 - 支付大约 30 元人民币购买二手收音机、手机、智能手表、路由器等。

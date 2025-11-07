@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: استخدم DeepThink أو ChatGPT كثيرًا
 translated: true
+type: post
 ---
 
 تم إصدار OpenAI o1 في 5 ديسمبر 2024. بينما تم إصدار DeepSeek-V3 في 26 ديسمبر 2024.

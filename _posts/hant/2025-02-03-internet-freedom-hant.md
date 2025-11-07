@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 追尋網絡自由之旅
 translated: true
+type: post
 ---
 
 ### 目錄

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Trajet
 translated: true
+type: post
 ---
 
 - J'ai vécu à 2 km de la station de métro Jinfeng. Le bureau était dans le district de Tianhe.

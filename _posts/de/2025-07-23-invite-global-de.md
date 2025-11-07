@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Einladung von globalen Kollegen zu chinesischen Apps
 translated: true
+type: post
 ---
 
 Als ich als Vertragsarbeiter für eine singapurische Bank zu arbeiten begann, fing ich an, LinkedIn zu nutzen und dort einige Blogs zu veröffentlichen. Ich begann auch, WhatsApp und YouTube häufiger zu nutzen.

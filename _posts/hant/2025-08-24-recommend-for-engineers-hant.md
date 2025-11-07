@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 工程師推薦博客文章
 translated: true
+type: post
 ---
 
 以下推薦內容由AI根據過去一年的博客文章生成，專為一位擁有10年經驗的後端工程師量身定制。每半年運行一次腳本以更新此文件，確保內容基於最新的文章。

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Mit einer Auto-Lüftung Haare trocknen
 translated: true
+type: post
 ---
 
 Als ich kürzlich reiste, vergaß ich, meine Haare vor dem Verlassen des Hotels an einem Tag zu trocknen. Es war ein regnerischer Tag, und selbst nach einigen Stunden waren meine Haare noch nass. Ich fühlte mich unwohl.

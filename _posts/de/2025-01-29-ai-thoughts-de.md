@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: KI-Workflows, Code-Editoren und Plattformdisruption
 translated: true
+type: post
 ---
 
 ### Inhaltsverzeichnis

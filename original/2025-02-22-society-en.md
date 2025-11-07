@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Society
 translated: false
+type: post
 ---
 
 - People are born, grow, eat, relieve themselves, sleep, work, study, rest, travel, think, speak, hear, touch, write, read, walk, jump, play sports, use mobile phones, play games, fight, kill, recover, build, destroy and die.

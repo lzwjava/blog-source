@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Maîtriser les raccourcis iOS
 translated: true
+type: post
 ---
 
 ### Astuces de raccourcis

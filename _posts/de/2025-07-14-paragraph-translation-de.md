@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Kostenoptimierung für Übersetzungen mit Absatz-basiertem Markdown
 translated: true
+type: post
 ---
 
 Mein Jekyll-Blog verwendet Markdown, um Absätze zu schreiben. Nach dem Schreiben auf Englisch verwende ich KI-Tools wie DeepSeek oder Mistral, um in acht weitere Sprachen zu übersetzen. Obwohl sie bereits günstig sind, gibt es noch Verbesserungspotenzial.

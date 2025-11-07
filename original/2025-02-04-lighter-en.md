@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Torch Lighter
 translated: false
+type: post
 ---
 
 During an outdoor cooking event with a friend's family, I encountered an interesting tool: a torch lighter. Its flame differed from traditional lighters, exhibiting wind resistance.

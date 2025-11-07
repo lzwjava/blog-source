@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Sociedad
 translated: true
+type: post
 ---
 
 - Las personas nacen, crecen, comen, se alivian, duermen, trabajan, estudian, descansan, viajan, piensan, hablan, oyen, tocan, escriben, leen, caminan, saltan, juegan deportes, usan teléfonos móviles, juegan juegos, pelean, matan, se recuperan, construyen, destruyen y mueren.

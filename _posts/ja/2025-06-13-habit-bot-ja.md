@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 習慣ボットをMistralで構築する
 translated: true
+type: post
 ---
 
 このブログ記事では、PythonとGitHub Actionsを使用して自動リマインダーを送信するHabit Botの作成について探求します。このボットはTelegram APIをメッセージングに活用し、Mistral AIと統合して文脈に即したプロンプトを生成します。GitHub Actionsでタスクをスケジュールすることで、タイムリーな通知を通じて一貫した習慣を促進します。環境設定からスクリプト作成、デプロイまで、習慣トラッキングシステムを自動化するための実践的なガイドを提供します。

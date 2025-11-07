@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Automated Draft for Blog Management with VSCode Restart
 translated: false
+type: post
 ---
 
 The script you've provided is designed to automate the process of publishing draft blog posts in a structured manner. It is particularly useful for bloggers or content creators who manage their posts as drafts before they are ready to be published. Here's an extended introduction to give more context about the script:

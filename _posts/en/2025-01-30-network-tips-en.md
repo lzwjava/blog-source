@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Network Optimization Tips
 translated: false
+type: post
 ---
 
 Useful, Recommend:

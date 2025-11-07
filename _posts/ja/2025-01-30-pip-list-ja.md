@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: パッケージをインストール
 translated: true
+type: post
 ---
 
 pipリスト：

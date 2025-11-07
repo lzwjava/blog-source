@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: أوامر مفيدة
 translated: true
+type: post
 ---
 
 إليك بعض الأوامر المفيدة التي أستخدمها بشكل متكرر في التطوير وإدارة النظام.

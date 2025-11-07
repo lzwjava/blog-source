@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Los Hongos Enoki Son Fáciles de Deteriorar
 translated: true
+type: post
 ---
 
 Los hongos enoki se deterioran fácilmente. Los compré en JD.com. Tardan de 3 a 4 días en llegar a mi casa. Usan un paquete de hielo para mantenerlos fríos, pero el hielo se derrite fácilmente en uno o dos días.

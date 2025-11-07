@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 日本語を学ぶためのコツ
 translated: true
+type: post
 ---
 
 - あなたに響く日本の歌を見つけて、言語習得を助けましょう。

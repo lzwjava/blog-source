@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: كائنات مشتركة في أعمدة متعددة
 translated: true
+type: post
 ---
 
 ## درس

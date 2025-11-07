@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Nettoyer les éléments de démarrage dans macOS
 translated: true
+type: post
 ---
 
 Pour gérer les applications et les processus qui se lancent automatiquement lorsque vous vous connectez à macOS (y compris macOS 15.2 et versions ultérieures), vous pouvez ajuster vos éléments de démarrage. Voici comment procéder :

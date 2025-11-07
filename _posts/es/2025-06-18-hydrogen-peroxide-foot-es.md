@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: ¿Puede el peróxido de hidrógeno curar el pie de atleta?
 translated: true
+type: post
 ---
 
 Cuando estaba en la escuela secundaria, tenía pie de atleta. A veces, partes de mi pie estaban blancas y la piel se desprendía, dejando algo de piel muerta. Parecía que mi pie había estado sudando durante mucho tiempo. Cuando regresaba a casa, mis padres me ayudaban a lavarme el pie. Les impactó.

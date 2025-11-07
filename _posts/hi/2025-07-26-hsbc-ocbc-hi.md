@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: सिंगापुरी और हांगकांग बैंकिंग अनुभव
 translated: true
+type: post
 ---
 
 सितंबर 2025 में अपडेट किया गया।

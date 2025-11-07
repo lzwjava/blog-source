@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Ingeniero malo
 translated: true
+type: post
 ---
 
 - Se comunica solo a través de capturas de pantalla, usando frases como *"¿por qué no está bien?"* o *"tiene pregunta"*—inglés extremadamente básico.

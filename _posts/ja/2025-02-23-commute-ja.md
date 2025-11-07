@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 通勤
 translated: true
+type: post
 ---
 
 - 私は金峰地下鉄駅から2km離れたところに住んでいました。オフィスは天河区にありました。

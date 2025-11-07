@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Zsh 設定檔
 translated: true
+type: post
 ---
 
 此 zsh 設定檔旨在提升命令列體驗，重點放在代理配置、Git 整合和實用別名。以下各節詳細說明其功能：

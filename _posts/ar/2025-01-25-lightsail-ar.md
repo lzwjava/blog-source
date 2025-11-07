@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: إدارة مثيلات AWS Lightsail
 translated: true
+type: post
 ---
 
 فيما يلي سياسة تمنح الأذونات اللازمة لإدارة مثيلات Lightsail:

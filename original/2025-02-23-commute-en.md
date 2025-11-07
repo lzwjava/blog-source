@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Commute
 translated: false
+type: post
 ---
 
 - I lived 2km from Jinfeng subway station. The office was in Tianhe district.

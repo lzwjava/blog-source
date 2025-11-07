@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: グローバルな同僚を中国のアプリに招待する
 translated: true
+type: post
 ---
 
 シンガポールの銀行で契約社員として働き始めた時、LinkedInを使い始め、ブログを投稿するようになりました。また、WhatsAppやYouTubeをより頻繁に利用するようにもなりました。

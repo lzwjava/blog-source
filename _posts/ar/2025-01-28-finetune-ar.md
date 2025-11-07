@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تدقيق نموذج
 translated: true
+type: post
 ---
 
 ```python

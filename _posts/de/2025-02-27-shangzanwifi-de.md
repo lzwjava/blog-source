@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Tragbarer Hotspot Shangzanwifi
 translated: true
+type: post
 ---
 
 - http://shangzanwifi.com, ein tragbarer Wi-Fi-Hotspot, gekauft bei JD.com für etwa 45 CNY.

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: AI向けソフトウェアエンジニアリングの最適化
 translated: true
+type: post
 ---
 
 ### 目次

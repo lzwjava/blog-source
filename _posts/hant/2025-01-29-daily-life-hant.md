@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 每日生活小技巧
 translated: true
+type: post
 ---
 
 - 我不需要在冬天穿拖鞋；穿袜子就可以了。

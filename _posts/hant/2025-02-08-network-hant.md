@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 雲端 IP、網絡介面與 WiFi 優化
 translated: true
+type: post
 ---
 
 ### 目錄

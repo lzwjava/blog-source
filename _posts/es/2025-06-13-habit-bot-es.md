@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Construyendo un Bot de Hábitos con Mistral
 translated: true
+type: post
 ---
 
 En esta publicación de blog, exploramos la creación de un Bot de Hábitos diseñado para enviar recordatorios automatizados utilizando Python y GitHub Actions. Este bot aprovecha la API de Telegram para mensajería y se integra con Mistral AI para generar mensajes contextualmente relevantes. Al programar tareas con GitHub Actions, el bot fomenta hábitos consistentes a través de notificaciones oportunas. Repasaremos la configuración, desde la configuración del entorno hasta la escritura de scripts y la implementación, proporcionando una guía práctica para automatizar tu sistema de seguimiento de hábitos.

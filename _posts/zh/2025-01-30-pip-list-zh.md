@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 我安装的 Pip 包
 translated: true
+type: post
 ---
 
 pip list:

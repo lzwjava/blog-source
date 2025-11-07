@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Automatisation des navigateurs web avec Selenium
 translated: true
+type: post
 ---
 
 Selenium est un outil puissant pour automatiser les navigateurs web. Il vous permet de contrôler par programmation un navigateur pour effectuer des actions telles que la navigation vers des pages web, le remplissage de formulaires, le clic sur des boutons et l'extraction de données. Cela peut être utile pour diverses tâches, notamment le web scraping, les tests d'applications web et l'automatisation de tâches répétitives.

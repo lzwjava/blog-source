@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Paquets Homebrew que j'installe
 translated: true
+type: post
 ---
 
 %% brew list

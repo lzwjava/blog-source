@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Comandos Útiles
 translated: true
+type: post
 ---
 
 Aquí hay algunos comandos útiles que uso frecuentemente en desarrollo y administración de sistemas.

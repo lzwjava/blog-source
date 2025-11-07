@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 洗碗機維修
 translated: true
+type: post
 ---
 
 最近，我將洗碗機從父母家搬到了同城的自己家中。這台洗碗機是美的13 Q7型號，2019年夏天我在北京工作時購買的。2020年初，我通過德邦物流將它運到了廣州。

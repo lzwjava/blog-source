@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: お湯
 translated: true
+type: post
 ---
 
 - 熱湯は窓に貼り付いた紙を簡単に取り除くことができます。

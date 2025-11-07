@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Der wahre Grund für Wachstum
 translated: true
+type: post
 ---
 
 Um 2017, als ich mein Startup betrieb, stellte ich nach einer Investition 9 Mitarbeiter ein, musste sie aber nach zwei Monaten wieder entlassen. Das wurde zu einer meiner schwierigsten Lektionen: keinen langfristigen Plan zu haben, andere beeindrucken zu wollen und zu schnell versucht zu haben, meine Managementfähigkeiten zu entwickeln. Die gute Nachricht ist, dass wir durch die Zusammenarbeit mit Teilzeit-Ingenieuren an 50 kleinen Softwareprojekten eine halbe Million verdienten und sie dem Investor zurückgaben, als wir das Unternehmen schlossen.

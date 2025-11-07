@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 实用提示
 translated: true
+type: post
 ---
 
 ```json

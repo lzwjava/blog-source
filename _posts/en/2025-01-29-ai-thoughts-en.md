@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: AI Workflows, Code Editors, and Platform Disruption
 translated: false
+type: post
 ---
 
 ### Table of Contents

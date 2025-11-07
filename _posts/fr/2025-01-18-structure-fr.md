@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Structure de Support à Trois Angles
 translated: true
+type: post
 ---
 
 

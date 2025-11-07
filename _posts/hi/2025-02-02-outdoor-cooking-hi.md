@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: बाहरी रसोई
 translated: true
+type: post
 ---
 
 - पथरों, पत्तियों, डंडों और टहनियों का उपयोग करके एक फर्नेस बनाएं।

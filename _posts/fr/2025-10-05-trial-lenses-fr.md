@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Utiliser des lentilles d'essai pour trouver ma prescription de lunettes idéale
 translated: true
+type: post
 ---
 
 {: .centered }

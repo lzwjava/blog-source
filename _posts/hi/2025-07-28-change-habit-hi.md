@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: आदत में बदलाव, विशिष्टता, इच्छा
 translated: true
+type: post
 ---
 
 ### विषय-सूची

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Desarrollando Proyectos Spring Boot con Herramientas de IA
 translated: true
+type: post
 ---
 
 La ruta del JDK se encuentra en `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`.

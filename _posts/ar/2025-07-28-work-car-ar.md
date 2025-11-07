@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: عمل في سيارة كهربائية
 translated: true
+type: post
 ---
 
 ## العمل في سيارة كهربائية

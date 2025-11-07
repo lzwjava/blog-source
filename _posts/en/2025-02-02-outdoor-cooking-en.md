@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Outdoor Cooking
 translated: false
+type: post
 ---
 
 

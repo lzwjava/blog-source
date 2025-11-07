@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 安く買う中古品
 translated: true
+type: post
 ---
 
 - 約30元を支払って、古物のラジオ、携帯電話、スマートウォッチ、ルーターなどを購入します。

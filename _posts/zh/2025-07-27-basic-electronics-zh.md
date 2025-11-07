@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 基础电子学我懂
 translated: true
+type: post
 ---
 
 我知道一些基本的电子学知识。公式 `V=IR` 表示电压等于电流乘以电阻。

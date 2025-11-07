@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Configuration du Projecteur
 translated: true
+type: post
 ---
 
 Fin août 2024, après être retourné vivre chez mes parents, je me suis retrouvé dans une chambre plus petite. Manquant le divertissement que mon projecteur offrait, j'ai décidé de le déplacer depuis mon ancien logement.

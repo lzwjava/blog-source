@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Gestión de Instancias de AWS Lightsail
 translated: true
+type: post
 ---
 
 A continuación se presenta una política que otorga los permisos necesarios para gestionar instancias de Lightsail:

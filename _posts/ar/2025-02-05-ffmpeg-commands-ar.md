@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: أوامر Ffmpeg
 translated: true
+type: post
 ---
 
 فيما يلي بعض أوامر ffmpeg التي أستخدمها.

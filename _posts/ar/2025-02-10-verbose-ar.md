@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: توضيح
 translated: true
+type: post
 ---
 
 - لتفعيل الإخراج التفصيلي في Homebrew، استخدم `export HOMEBREW_CURL_VERBOSE=1` مع `brew upgrade --verbose`.

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Acheter des articles d'occasion à bas prix
 translated: true
+type: post
 ---
 
 - Pay around 30 CNY to buy second-hand radios, mobile phones, smart watches, routers, etc.

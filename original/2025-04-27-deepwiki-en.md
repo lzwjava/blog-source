@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: DeepWiki Trial
 translated: false
+type: post
 ---
 
 Try the DeepWiki: [https://deepwiki.com/lzwjava/lzwjava.github.io](https://deepwiki.com/lzwjava/lzwjava.github.io).

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 農業
 translated: true
+type: post
 ---
 
 過去を変えることはできませんが、過去をより深く振り返り、そこからより多くの利益を得て、より良い未来を築くことは確かにできるでしょう。

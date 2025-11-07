@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Comandos Ffmpeg
 translated: true
+type: post
 ---
 
 Aquí hay algunos comandos de ffmpeg que uso.

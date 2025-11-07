@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 農業
 translated: true
+type: post
 ---
 
 我們無法改變過去，但我們肯定可以嘗試更多地反思過去，從中獲益，並擁有更美好的未來。

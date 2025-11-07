@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Eine KI-generierte Unterhaltung über DeepSeek V3
 translated: true
+type: post
 ---
 
 Hier wird DeepSeek v3 untersucht, wobei auf das Video „Multi-Head Latent Attention and Multi-token Prediction in Deepseek v3“ verwiesen wird [https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO](https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO). Google Cloud Speech-to-Text wurde verwendet, um das Video zu transkribieren, zusammen mit etwas Code, der beim Organisieren des Transkripts hilft.

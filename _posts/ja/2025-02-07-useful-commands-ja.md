@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 便利なコマンド
 translated: true
+type: post
 ---
 
 開発とシステム管理で頻繁に使用する便利なコマンドをいくつか紹介します。

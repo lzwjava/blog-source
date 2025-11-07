@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 悪いエンジニア
 translated: true
+type: post
 ---
 
 - スクリーンショットのみでコミュニケーションを取り、 *"なぜOKではないのか？"* や *"質問がある"* など、非常に基本的な英語のフレーズを使う。

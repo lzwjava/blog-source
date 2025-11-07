@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 深維基試用
 translated: true
+type: post
 ---
 
 試試 DeepWiki：[https://deepwiki.com/lzwjava/lzwjava.github.io](https://deepwiki.com/lzwjava/lzwjava.github.io)。

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Digital World Reflection
 translated: false
+type: post
 ---
 
 - As of 2025, I am more aware of our world becoming increasingly digitalized. I go to the office 3 days a week and work online with colleagues who are also online. Even when I'm on the street or at the basketball court, I see many people around me, but somehow I can't really see them. My world has become just my mobile phone and laptop. I see what's displayed there and customize social networks to block certain words or languages.

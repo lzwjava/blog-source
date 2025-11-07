@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: उपयोगी प्रॉम्प्ट्स
 translated: true
+type: post
 ---
 
 ```json

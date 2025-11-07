@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Casser un mot de passe sur un verrou électronique
 translated: true
+type: post
 ---
 
 {: .centered }

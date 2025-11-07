@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Peut-on empêcher les moustiques d'entrer dans la voiture ?
 translated: true
+type: post
 ---
 
 Parfois, quand je mange des nouilles instantanées dans la voiture, il y a des odeurs à l'intérieur de la voiture. J'ai une lampe électrique qui les électrocute, mais cela prend un peu de temps pour les attirer et les électrocuter.

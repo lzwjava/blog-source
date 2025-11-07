@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تطوير مشاريع Spring Boot باستخدام أدوات الذكاء الاصطناعي
 translated: true
+type: post
 ---
 
 مسار JDK موجود في `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`.

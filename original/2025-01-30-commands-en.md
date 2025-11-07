@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Commands
 translated: false
+type: post
 ---
 
 Using `compgen -c | grep -v '_'` lists all available commands and excludes those containing underscores.

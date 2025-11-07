@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 深度维基试用
 translated: true
+type: post
 ---
 
 尝试 DeepWiki: [https://deepwiki.com/lzwjava/lzwjava.github.io](https://deepwiki.com/lzwjava/lzwjava.github.io)。

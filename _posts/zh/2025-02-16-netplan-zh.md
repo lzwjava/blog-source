@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Netplan、Systemd、SSH、Conda清理
 translated: true
+type: post
 ---
 
 ### 目录

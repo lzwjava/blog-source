@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 學習日語的技巧
 translated: true
+type: post
 ---
 
 - 發現能引起共鳴的日語歌曲，有助於語言學習。

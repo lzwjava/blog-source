@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 用車內通風口吹乾頭髮
 translated: true
+type: post
 ---
 
 當我最近旅行時，有一天離開酒店前忘記吹乾頭髮。那天下雨，即使過了幾個小時，頭髮還是濕的，我感到不舒服。

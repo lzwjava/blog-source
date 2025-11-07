@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Web Browser Automation with Selenium
 translated: false
+type: post
 ---
 
 Selenium is a powerful tool for automating web browsers. It allows you to programmatically control a browser to perform actions such as navigating to web pages, filling out forms, clicking buttons, and extracting data. This can be useful for a variety of tasks, including web scraping, testing web applications, and automating repetitive tasks.

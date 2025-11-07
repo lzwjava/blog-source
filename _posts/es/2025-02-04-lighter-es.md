@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Encendedor de antorchas
 translated: true
+type: post
 ---
 
 Durante un evento de cocina al aire libre con la familia de un amigo, encontré una herramienta interesante: un encendedor de antorcha. Su llama difería de los encendedores tradicionales, mostrando resistencia al viento.

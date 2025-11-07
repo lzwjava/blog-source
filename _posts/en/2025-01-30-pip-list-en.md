@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Pip Packages I Install
 translated: false
+type: post
 ---
 
 

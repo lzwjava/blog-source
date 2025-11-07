@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 實用指令
 translated: true
+type: post
 ---
 
 以下是一些我在開發和系統管理中經常使用的有用命令。

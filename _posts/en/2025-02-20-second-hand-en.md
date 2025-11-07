@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Buy Cheap Second-Hand Goods
 translated: false
+type: post
 ---
 
 - Pay around 30 CNY to buy second-hand radios, mobile phones, smart watches, routers, etc.

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 会話音声生成
 translated: true
+type: post
 ---
 
 DeepSeek-V3についての議論を特集したYouTube動画に触発され、AIが生成する会話の実験を行っています。私の目標は、Google Text-to-Speechとffmpegを使用して、リアルな音声対話を作成することです。以下のコードは、自然なやり取りをシミュレートするための現在のアプローチを示しています。

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 通勤
 translated: true
+type: post
 ---
 
 - 我住在金峰地铁站2公里处。办公室在天河区。

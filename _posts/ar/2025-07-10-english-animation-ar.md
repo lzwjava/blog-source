@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: رحلة الرسوم المتحركة لابنتي
 translated: true
+type: post
 ---
 
 {: .centered }

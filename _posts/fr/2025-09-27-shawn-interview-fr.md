@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Un entretien sur la création de frameworks d'IA et les choix de vie
 translated: true
+type: post
 ---
 
 {: .centered }

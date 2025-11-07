@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Flujos de trabajo de IA, editores de código y disrupción de plataformas
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

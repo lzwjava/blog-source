@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Spracherkennung in Echtzeit
 translated: true
+type: post
 ---
 
 Dieser Python-Code implementiert eine Echtzeit-Spracherkennung mit der Google Cloud Speech-to-Text API und der PyAudio-Bibliothek. Er nimmt Audio von einem Mikrofon auf, streamt es an die Speech-to-Text API und gibt den transkribierten Text aus. Die Klasse `MicrophoneStream` verarbeitet die Audioeingabe, und die Funktion `main` richtet den Spracherkennungs-Client ein und verarbeitet den Audiostream.

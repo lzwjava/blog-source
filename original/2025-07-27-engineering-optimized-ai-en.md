@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Optimizing Software Engineering for AI
 translated: false
+type: post
 ---
 
 ### Table of Contents

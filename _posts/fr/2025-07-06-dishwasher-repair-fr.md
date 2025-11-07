@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Réparation de Lave-vaisselle
 translated: true
+type: post
 ---
 
 Récemment, j'ai déménagé mon lave-vaisselle de chez mes parents à mon domicile dans la même ville. Le lave-vaisselle est un Midea 13 Q7. Je l'ai acheté durant l'été 2019 alors que je travaillais à Pékin. Au début de l'année 2020, j'ai utilisé le service de livraison Deppon pour le faire transporter à Guangzhou.

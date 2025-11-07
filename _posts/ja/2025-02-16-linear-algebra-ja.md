@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 型代数学
 translated: true
+type: post
 ---
 
 - 固有値分解は、イメージ圧縮に使用できます。

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Eau Chaude
 translated: true
+type: post
 ---
 
 - L'eau chaude peut facilement enlever le papier collé à une fenêtre.

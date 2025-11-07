@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Wattage
 translated: false
+type: post
 ---
 
 

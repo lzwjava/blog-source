@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: الجوارب النومية وعادات النوم والاستحمام الصيفي
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

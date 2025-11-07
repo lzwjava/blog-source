@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Nutze WhatsApp Web
 translated: true
+type: post
 ---
 
 Ich freue mich, heute WhatsApp Web zu nutzen. Es bietet ein völlig neues Erlebnis. Ich habe mich erstmals 2019 für die WhatsApp-App registriert, als ich mit einem Software-Kunden von Glassdoor kommunizieren musste. Für dieses Projekt habe ich 450 Euro verdient.

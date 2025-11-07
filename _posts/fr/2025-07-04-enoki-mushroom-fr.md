@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Les champignons Enoki sont faciles à détériorer
 translated: true
+type: post
 ---
 
 Les champignons Enoki se détériorent facilement. Je les ai achetés sur JD.com. Il faut 3 ou 4 jours pour qu'ils soient livrés chez moi. Ils utilisent un bloc réfrigérant pour les garder au frais, mais celui-ci peut facilement fondre en un ou deux jours.

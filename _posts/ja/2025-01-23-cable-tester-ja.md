@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ネットワークケーブルテスター
 translated: true
+type: post
 ---
 
 最近、JD.comでネットワークケーブルテスターを購入しました。家や職場にネットワークコンサルタントが来てネットワークをテストするのを見たことがあります。

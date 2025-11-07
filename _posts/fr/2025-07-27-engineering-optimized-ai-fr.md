@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Optimiser l'ingénierie logicielle pour l'IA
 translated: true
+type: post
 ---
 
 ### Table des matières

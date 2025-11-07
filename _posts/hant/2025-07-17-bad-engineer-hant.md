@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 壞工程師
 translated: true
+type: post
 ---
 
 - 僅透過截圖溝通，使用如 *"why not ok?"* 或 *"has question"* 等極簡英文。

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تجربة ديبويكي
 translated: true
+type: post
 ---
 
 جرب DeepWiki: [https://deepwiki.com/lzwjava/lzwjava.github.io](https://deepwiki.com/lzwjava/lzwjava.github.io).

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Dépasser les attentes et éviter la validation
 translated: true
+type: post
 ---
 
 ### Table des Matières

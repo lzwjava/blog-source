@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 工作
 translated: true
+type: post
 ---
 
 - 在獲得代碼庫存取權限前，先向同事索取`pom.xml`文件，並嘗試下載Nexus依賴庫。

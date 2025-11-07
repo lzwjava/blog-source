@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: इंटरनेट स्वतंत्रता की खोज में एक यात्रा
 translated: true
+type: post
 ---
 
 ### विषय-सूची

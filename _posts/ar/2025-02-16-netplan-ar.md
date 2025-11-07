@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: Netplan، Systemd، SSH، تنظيف Conda
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

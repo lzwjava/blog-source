@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Uso de lentes de prueba para encontrar mi prescripción ideal de anteojos
 translated: true
+type: post
 ---
 
 {: .centered }

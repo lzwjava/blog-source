@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 順位付け
 translated: true
+type: post
 ---
 
 [bge-reranker](https://huggingface.co/BAAI/bge-reranker-v2-m3)

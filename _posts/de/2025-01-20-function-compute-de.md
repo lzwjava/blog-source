@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Function Compute auf Alibaba Cloud
 translated: true
+type: post
 ---
 
 Ich verwende Alibaba Cloud's Function Compute, um normal aussehenden Traffic zu generieren, was dabei hilft, die Aktivität meines Proxy-Servers vor der GFW zu verschleiern. Ich habe einen Bandbreiten-Server neben meinem Proxy bereitgestellt, und diese Function Compute-Funktion sendet jede Minute eine Anfrage an die Bandbreiten-API. Dadurch entsteht eine Mischung aus normalem und Proxy-Traffic.

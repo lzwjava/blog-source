@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Usa DeepThink o ChatGPT o1 Mucho
 translated: true
+type: post
 ---
 
 El o1 de OpenAI fue lanzado el 5 de diciembre de 2024. DeepSeek-V3 fue lanzado el 26 de diciembre de 2024.

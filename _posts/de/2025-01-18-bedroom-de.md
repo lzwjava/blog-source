@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Schlafzimmer
 translated: true
+type: post
 ---
 
 ## Blick von der Haustür

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: '"Commandes"'
 translated: true
+type: post
 ---
 
 Voici la traduction en français du texte Markdown :

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Calorías en las Bebidas
 translated: true
+type: post
 ---
 
 A menudo encuentro que muchas bebidas son demasiado dulces. Aunque las opciones sin azúcar son más saludables, pueden resultar demasiado restrictivas.

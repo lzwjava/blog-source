@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Conduite
 translated: true
+type: post
 ---
 
 - Gonflez les pneus deux fois par an.

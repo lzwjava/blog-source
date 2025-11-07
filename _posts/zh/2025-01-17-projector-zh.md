@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 投影仪设置
 translated: true
+type: post
 ---
 
 2024年8月底，搬回父母家后，我住进了一间较小的房间。由于怀念投影仪带来的娱乐体验，我决定将它从之前的住所搬过来。

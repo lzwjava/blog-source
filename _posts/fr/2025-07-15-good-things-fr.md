@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: On Ne Peut Pas Supporter Moins de Bonnes Choses
 translated: true
+type: post
 ---
 
 - Une fois que nous avons expérimenté le dernier iPhone, il est difficile de revenir à un modèle de quelques années en arrière.

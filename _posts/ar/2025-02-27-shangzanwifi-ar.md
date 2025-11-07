@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: شاحنة واي فاي المحمولة شانغزان
 translated: true
+type: post
 ---
 
 - http://shangzanwifi.com، جهاز Wi-Fi المحمول لربط الإنترنت اشتريته من JD.com بحوالي 45 يوان صيني.

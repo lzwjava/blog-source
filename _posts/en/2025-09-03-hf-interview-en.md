@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: An Interview on U.S. PhD Applications and AI Industry Jobs
 translated: false
+type: post
 ---
 
 {: .centered }

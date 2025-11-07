@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Entraînement du Modèle
 translated: true
+type: post
 ---
 
 * Assurez-vous que le code, l'environnement et les données sont corrects avant de commencer l'entraînement réel.

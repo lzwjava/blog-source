@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Lightning to Ethernet Adapter
+type: post
 ---
 
 ### Table of Contents

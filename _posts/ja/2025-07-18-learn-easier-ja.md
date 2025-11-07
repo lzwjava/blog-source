@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 簡単に学ぶ方法
 translated: true
+type: post
 ---
 
 2023年4月にこのエッセイを書いたとき、[Why and How I Learn Japanese](https://lzwjava.github.io/japanese-en) というタイトルで、私はあまり進歩していないことに気づきました。2年が経ちました。私は300時間以上聞き、1日平均30分を費やしました。リズムは私にとってより馴染み深くなったかもしれませんが、私はまだ多くの単語を認識できません。

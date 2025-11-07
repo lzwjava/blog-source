@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: NYTimes أخبار (CN) تحديث مقالات تحفيز
 translated: true
+type: post
 ---
 
 انقر على الزر أدناه لتحديث مقالات [NYTimes CN](./notes/2025-03-14-nytimes-en).

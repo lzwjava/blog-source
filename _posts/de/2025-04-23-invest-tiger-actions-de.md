@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Wöchentliche Aktieninvestitionen mit TigerOpen API
 translated: true
+type: post
 ---
 
 Ich habe ein Python-Skript und einen GitHub Actions Workflow entwickelt, um meine wöchentliche Investitionsstrategie zu automatisieren, indem ich jeden Mittwoch um 22:35 Uhr China Standard Time (CST) eine NVIDIA-Aktie kaufe. Ich habe Mittwoch gewählt, weil es im Jahr 2025 an diesem Tag keine Feiertage gibt, was eine konsistente Ausführung gewährleistet.

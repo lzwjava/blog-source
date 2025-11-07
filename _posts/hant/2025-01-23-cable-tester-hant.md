@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 網絡電纜測試儀
 translated: true
+type: post
 ---
 
 我最近在京東購買了一個網絡電纜測試器。我曾經見過網絡顧問來到我家或我雇主的辦公室測試網絡。

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Umfassender Leitfaden zum Englischlernen
 translated: true
+type: post
 ---
 
 ### Inhaltsverzeichnis

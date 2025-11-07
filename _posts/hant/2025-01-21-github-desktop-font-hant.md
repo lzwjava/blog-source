@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: GitHub Desktop 字体渲染问题
 translated: true
+type: post
 ---
 
 GitHub Desktop 版本 3.4.13 (arm64) 在文字差異面板中對特定語言的字體渲染出現問題。受影響的語言包括：

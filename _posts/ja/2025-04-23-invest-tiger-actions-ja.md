@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 週次株式投資 TigerOpen API
 translated: true
+type: post
 ---
 
 私は、毎週水曜日の22時35分（中国標準時、CST）にNVIDIA株を1株購入する投資戦略を自動化するためのPythonスクリプトとGitHub Actionsワークフローを開発しました。2025年には水曜日に祝日がないため、一貫した実行を確保するために水曜日に設定しました。

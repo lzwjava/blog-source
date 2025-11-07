@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Road Trip to Northern Guangdong
 translated: false
+type: post
 ---
 
 Take a road trip with 3 days of annual leave from Zengcheng, Guangzhou to Fogang, then to Yingde, followed by Shaoguan city center, then to Ruyuan in Shaoguan, then to Lechang, then back to Shaoguan, then to Fogang, and finally to Zengcheng. Start on the evening of July 12th and return by the evening of July 16th.

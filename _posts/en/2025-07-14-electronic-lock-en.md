@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Cracking a Password on an Electronic Lock
 translated: false
+type: post
 ---
 
 {: .centered }  

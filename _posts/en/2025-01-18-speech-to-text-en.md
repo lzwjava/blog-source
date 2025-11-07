@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Google Cloud Transcription
 translated: false
+type: post
 ---
 
 

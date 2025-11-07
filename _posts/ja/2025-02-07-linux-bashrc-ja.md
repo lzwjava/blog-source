@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Linux Bashrc 設定
 translated: true
+type: post
 ---
 
 この`bashrc`ファイルは、LinuxにおけるBashシェルの環境を設定します。プロンプトのカスタマイズ、エイリアスの設定、プロキシ設定の管理、Gitなどのツールとの統合を行います。以下に主要な設定の内訳を示します。

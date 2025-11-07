@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Objetos Compartidos en Múltiples Hilos
 translated: true
+type: post
 ---
 
 ## Lección

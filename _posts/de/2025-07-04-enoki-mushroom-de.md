@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Enoki-Pilze sind leicht verderblich
 translated: true
+type: post
 ---
 
 Enoki-Pilze sind leicht verderblich. Ich habe sie bei JD.com gekauft. Die Lieferung zu mir nach Hause dauert 3 oder 4 Tage. Sie verwenden ein Kühlpack, um sie kalt zu halten, aber das Kühlpack kann innerhalb von ein oder zwei Tagen leicht schmelzen.

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Optimiser les rappels via Telegram
 translated: true
+type: post
 ---
 
 Dans ce projet, j'ai mis en place un système de rappels automatisé utilisant GitHub Actions et un bot Telegram pour suivre mes tâches quotidiennes et mensuelles. En exploitant des planifications cron, j'ai configuré des rappels pour des tâches professionnelles comme pointer sur WeCom, soumettre des feuilles de temps et vérifier les salaires, ainsi que des tâches personnelles comme rendre visite à ma famille, faire des achats sur JD.com, ou même regarder la télévision avec ma partenaire. Le système utilise un script Python pour envoyer des messages via l'API Bot de Telegram, avec des variables d'environnement stockées de manière sécurisée dans GitHub Secrets. Cette configuration garantit que je ne manque jamais des échéances critiques ou des engagements personnels, combinant ainsi technologie et vie quotidienne pour une efficacité maximale.

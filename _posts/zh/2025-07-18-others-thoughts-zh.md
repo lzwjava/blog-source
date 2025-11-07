@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 他人的想法
 translated: true
+type: post
 ---
 
 年轻时，我常不太考虑他人。我通常只想着自己，也就是说，我并不太关心别人如何生活，他们如何看待我，他们的目的、心理状态、困境、性格等。

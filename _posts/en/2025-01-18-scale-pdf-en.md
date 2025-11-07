@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Scale PDF Content for Printing
 translated: false
+type: post
 ---
 
 

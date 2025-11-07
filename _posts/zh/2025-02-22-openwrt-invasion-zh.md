@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: OpenWrt 入侵小米路由器 4C
 translated: true
+type: post
 ---
 
 这是我第三次尝试安装 OpenWrt。第一次是在 2019 年，当时我使用 UART 端口连接。第二次是在 2023 年，我使用了类似于这里描述的远程方法。

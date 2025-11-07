@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 完整AI工具生態系統
 translated: true
+type: post
 ---
 
 ### 目錄

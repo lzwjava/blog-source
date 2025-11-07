@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Bedroom
+type: post
 ---
 
 ## View From The Front Door

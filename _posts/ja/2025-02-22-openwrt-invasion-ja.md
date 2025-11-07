@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: OpenWrt Xiaomi Mi Router 4C 侵入
 translated: true
+type: post
 ---
 
 これは、OpenWrtのインストールを3回目の試みです。最初の試みは2019年にUARTポートを使用して行いました。2回目は2023年に、ここで説明されているのと似たリモート方法を使用しました。

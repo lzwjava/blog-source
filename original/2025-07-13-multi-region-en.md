@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: On Multi-Region Software Development
 translated: false
+type: post
 ---
 
 For international companies, there are often projects that serve multiple regions' people, like Singapore, Hong Kong, UK, USA, and China.

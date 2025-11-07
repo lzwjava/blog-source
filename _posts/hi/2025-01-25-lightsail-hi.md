@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: AWS Lightsail इंस्टेंसेस का प्रबंधन
 translated: true
+type: post
 ---
 
 नीचे एक पॉलिसी दी गई है जो Lightsail इंस्टेंस को प्रबंधित करने के लिए आवश्यक अनुमतियाँ प्रदान करती है:

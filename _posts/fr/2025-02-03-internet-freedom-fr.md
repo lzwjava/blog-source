@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Le Voyage pour Poursuivre la Liberté d'Internet
 translated: true
+type: post
 ---
 
 ### Table des matières

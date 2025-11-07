@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 我們可以阻止蚊子進入汽車嗎？
 translated: true
+type: post
 ---
 
 有時候，當我在車上吃方便麵時，車內會有異味。我有一個電燈可以電死牠們，但需要一些時間引誘牠們被電死。

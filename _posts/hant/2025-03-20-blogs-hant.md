@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 部落格
 translated: true
+type: post
 ---
 
 - [paulgraham.com](https://www.paulgraham.com)

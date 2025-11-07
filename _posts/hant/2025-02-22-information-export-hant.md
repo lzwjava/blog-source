@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 資訊出口
 translated: true
+type: post
 ---
 
 - JD.com 支持將資訊匯出到您的電子郵件。

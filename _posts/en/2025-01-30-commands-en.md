@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Commands
 translated: false
+type: post
 ---
 
 

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: नेटवर्क अनुकूलन युक्तियाँ
 translated: true
+type: post
 ---
 
 उपयोगी, अनुशंसाएँ:

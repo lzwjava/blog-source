@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Three Angle Stick Stand Structure
+type: post
 ---
 
 I've been thinking about structural stability recently, particularly after noticing how the height of my projector stand impacts its balance. When the stand is extended, the heavy projector becomes much more susceptible to tipping. Even a slight 10 cm increase in height, if the projector isn't perfectly level, dramatically increases the force on the base, making the entire setup prone to falling.

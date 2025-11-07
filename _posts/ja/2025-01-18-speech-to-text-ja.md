@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Google Cloud Transcription
 translated: true
+type: post
 ---
 
 最近、Google CloudのSpeech-to-Text APIを試してみました。以下は、その文字起こしを行うために使用したPython関数です。

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 一段关于深度求索V3的AI生成对话
 translated: true
+type: post
 ---
 
 本文深入探讨了DeepSeek v3，并参考了视频《Deepseek v3中的多头潜在注意力与多令牌预测》[https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO](https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO)。视频内容通过Google Cloud语音转文字服务转录，并辅以代码整理文稿。

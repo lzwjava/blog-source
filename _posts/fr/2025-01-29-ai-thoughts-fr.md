@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Flux de travail IA, éditeurs de code et perturbation des plateformes
 translated: true
+type: post
 ---
 
 ### Table des matières

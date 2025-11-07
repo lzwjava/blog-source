@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 私はインストールするHomebrewパッケージ
 translated: true
+type: post
 ---
 
 % brew list

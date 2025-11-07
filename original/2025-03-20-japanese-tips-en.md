@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Tips for Learning Japanese
 translated: false
+type: post
 ---
 
 - Discover Japanese songs that resonate with you and can aid in language acquisition.

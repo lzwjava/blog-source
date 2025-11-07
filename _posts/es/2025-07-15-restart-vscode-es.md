@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Gestión automatizada de borradores de blogs con reinicio de VSCode
 translated: true
+type: post
 ---
 
 El script que has proporcionado está diseñado para automatizar el proceso de publicación de borradores de entradas de blog de manera estructurada. Es especialmente útil para blogueros o creadores de contenido que gestionan sus entradas como borradores antes de que estén listas para ser publicadas. Aquí tienes una introducción extendida para dar más contexto sobre el script:

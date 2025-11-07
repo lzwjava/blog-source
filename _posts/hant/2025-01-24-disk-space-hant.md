@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 清理磁碟空間
 translated: true
+type: post
 ---
 
 ## 設定

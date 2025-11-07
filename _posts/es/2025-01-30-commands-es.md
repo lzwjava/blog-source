@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: '"Comandos"'
 translated: true
+type: post
 ---
 
 ```bash

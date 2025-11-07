@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Linux Bashrc 配置
 translated: true
+type: post
 ---
 
 这个`.bashrc`文件配置Linux中的Bash shell环境。它自定义提示符、设置别名、管理代理设置，并与Git等工具集成。以下是关键配置的细分：

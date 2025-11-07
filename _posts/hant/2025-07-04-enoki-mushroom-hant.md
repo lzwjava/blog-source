@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 金針菇易變質
 translated: true
+type: post
 ---
 
 金針菇容易變質。我從京東購買，需要三、四天才能送到我家。他們用冰袋來保冷，但冰袋很容易在一兩天內融化。

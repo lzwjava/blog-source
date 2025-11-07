@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Meistere iOS-Kürzel
 translated: true
+type: post
 ---
 
 ### Shortcuts-Tipps

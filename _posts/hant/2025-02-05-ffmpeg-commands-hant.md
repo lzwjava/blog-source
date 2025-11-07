@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: FFmpeg 指令
 translated: true
+type: post
 ---
 
 以下是我常用的ffmpeg指令：

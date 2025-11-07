@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 多スレッドでの共有オブジェクト
 translated: true
+type: post
 ---
 
 ## レッスン

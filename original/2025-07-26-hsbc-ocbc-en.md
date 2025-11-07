@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Singaporean and Hong Kong Banking Experience
 translated: false
+type: post
 ---
 
 Updated in September 2025.

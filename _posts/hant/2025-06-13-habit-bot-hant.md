@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 用Mistral打造習慣養成機器人
 translated: true
+type: post
 ---
 
 在這篇網誌文章中，我們探討如何利用Python和GitHub Actions創建一個習慣提醒機器人。這個機器人透過Telegram API發送自動化提醒訊息，並整合Mistral AI生成情境相關的提示。透過GitHub Actions排程任務，機器人能定時發送通知，鼓勵持續養成習慣。我們將逐步介紹從環境設定、腳本編寫到部署的完整流程，為自動化習慣追蹤系統提供實用指南。

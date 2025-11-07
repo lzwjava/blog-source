@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: BCEmbedding：双语嵌入式检索增强生成
 translated: true
+type: post
 ---
 
 [https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Travail dans une voiture électrique
 translated: true
+type: post
 ---
 
 Récemment, j'ai essayé de travailler dans ma voiture électrique à nouveau. J'avais déjà utilisé un bureau portable dans la voiture, mais c'était encore inconfortable. J'avais besoin de l'utiliser à l'arrière plutôt que sur le siège principal.

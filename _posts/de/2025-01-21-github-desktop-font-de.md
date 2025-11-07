@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Schriftdarstellungsprobleme in GitHub Desktop
 translated: true
+type: post
 ---
 
 GitHub Desktop Version 3.4.13 (arm64) zeigt Probleme bei der Schriftdarstellung im Text-Diff-Panel für bestimmte Sprachen. Die betroffenen Sprachen umfassen:

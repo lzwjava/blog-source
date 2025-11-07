@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 海盜灣
 translated: true
+type: post
 ---
 
 [https://thepiratebay.org](https://thepiratebay.org)

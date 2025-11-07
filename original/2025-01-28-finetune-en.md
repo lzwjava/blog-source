@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Finetune A Model
 translated: false
+type: post
 ---
 
 ```python

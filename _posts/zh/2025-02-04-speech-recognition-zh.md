@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 实时语音识别
 translated: true
+type: post
 ---
 
 这段Python代码使用Google Cloud Speech-to-Text API和PyAudio库实现实时语音识别。它从麦克风捕获音频，将其流式传输到Speech-to-Text API，并打印转录文本。`MicrophoneStream`类处理音频输入，`main`函数设置语音识别客户端并处理音频流。

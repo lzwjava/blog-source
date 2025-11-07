@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Articles de Blog Recommandés pour les Ingénieurs
 translated: true
+type: post
 ---
 
 Ces recommandations sont générées par une IA à partir d'articles de blog de l'année dernière, adaptées pour un ingénieur backend avec 10 ans d'expérience. Mettez à jour ce fichier en exécutant le script tous les six mois pour actualiser en fonction des nouveaux articles.

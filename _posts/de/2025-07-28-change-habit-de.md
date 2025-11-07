@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Gewohnheitsänderung, Spezifität, Bereitschaft
 translated: true
+type: post
 ---
 
 ### Inhaltsverzeichnis

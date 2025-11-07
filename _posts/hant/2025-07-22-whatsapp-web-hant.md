@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 使用 WhatsApp 網頁版
 translated: true
+type: post
 ---
 
 我高興能夠今天使用 WhatsApp Web。它提供了完全新的體驗。我最初是在 2019 年註冊 WhatsApp 應用程式，當時我需要與 Glassdoor 的軟體客戶聯繫。那個專案讓我賺了 450 欧元。

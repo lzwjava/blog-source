@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 邀請全球同事使用中國應用程式
 translated: true
+type: post
 ---
 
 當我開始為新加坡銀行擔任合約工時，我開始使用LinkedIn並在那裡發布一些部落格。我也開始更頻繁地使用WhatsApp和YouTube。

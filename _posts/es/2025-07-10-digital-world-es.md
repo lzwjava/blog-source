@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Reflexión del Mundo Digital
 translated: true
+type: post
 ---
 
 - A partir de 2025, soy más consciente de que nuestro mundo se está digitalizando cada vez más. Voy a la oficina 3 días a la semana y trabajo en línea con colegas que también están en línea. Incluso cuando estoy en la calle o en la cancha de baloncesto, veo a muchas personas a mi alrededor, pero de alguna manera no las veo realmente. Mi mundo se ha reducido a mi teléfono móvil y mi computadora portátil. Veo lo que se muestra allí y personalizo las redes sociales para bloquear ciertas palabras o idiomas.

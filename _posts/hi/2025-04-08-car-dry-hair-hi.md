@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: कार वेंट और हाथ धोना
 translated: true
+type: post
 ---
 
 ### कार के वेंट का उपयोग बाल सुखाने के लिए

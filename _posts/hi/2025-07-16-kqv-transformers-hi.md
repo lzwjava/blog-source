@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: तंत्रिका नेटवर्क, ट्रांसफार्मर और जीपीटी
 translated: true
+type: post
 ---
 
 ### विषय-सूची

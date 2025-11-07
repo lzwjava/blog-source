@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: نصائح لتعلم اللغة اليابانية
 translated: true
+type: post
 ---
 
 - اكتشف أغاني يابانية تتناغم معك وتساعدك في تعلم اللغة.

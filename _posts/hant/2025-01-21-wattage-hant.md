@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 瓦特數
 translated: true
+type: post
 ---
 
 在我卧室里，当5.5瓦的灯泡位于我左后方约60厘米处时，其亮度对于舒适的阅读来说过于刺眼。

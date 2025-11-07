@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: Grook API Test करना
 translated: true
+type: post
 ---
 
 - चीन जारी वीसा कार्ड का उपयोग करना ठीक है।

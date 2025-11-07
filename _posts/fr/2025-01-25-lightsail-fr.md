@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Gestion des instances AWS Lightsail
 translated: true
+type: post
 ---
 
 Voici une politique qui accorde les permissions nécessaires pour gérer les instances Lightsail :

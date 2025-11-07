@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 英语学习完全指南
 translated: true
+type: post
 ---
 
 ### 目录

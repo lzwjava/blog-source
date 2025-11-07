@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Reranker
 translated: false
+type: post
 ---
 
 

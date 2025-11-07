@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Usando WhatsApp Web
 translated: true
+type: post
 ---
 
 Estoy feliz de usar WhatsApp Web hoy. Me brindó una experiencia completamente nueva. Me registré por primera vez en la aplicación de WhatsApp en 2019 cuando necesitaba comunicarme con un cliente de software de Glassdoor. Gané 450 euros por ese proyecto.

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Réseau neuronal, Transformer et GPT
 translated: true
+type: post
 ---
 
 ### Table des matières

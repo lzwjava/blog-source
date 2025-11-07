@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Escalar contenido PDF para impresión
 translated: true
+type: post
 ---
 
 Necesito imprimir documentos y he notado que el espacio en blanco alrededor del contenido suele ser demasiado grande, lo que desperdicia papel y hace que el texto parezca más pequeño de lo que debería. Este script ayuda a escalar automáticamente el contenido del PDF para que se ajuste mejor a la página, detectando el área del contenido y escalándola para llenar la página, respetando un pequeño margen.

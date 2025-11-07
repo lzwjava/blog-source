@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 阿里云弹性IP管理
 translated: true
+type: post
 ---
 
 该脚本提供了一个命令行界面来管理阿里云弹性公网IP (EIP)。它允许你使用阿里云Python SDK创建、绑定、解绑和释放EIP。脚本接受要执行的任务和EIP的分配ID作为参数。

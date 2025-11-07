@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Commutar
 translated: true
+type: post
 ---
 
 - Viví a 2 km de la estación de metro Jinfeng. La oficina estaba en el distrito de Tianhe.

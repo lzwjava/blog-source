@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: BCEmbedding：RAGのためのバイリンガル埋め込み
 translated: true
+type: post
 ---
 
 [https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)

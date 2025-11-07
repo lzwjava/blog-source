@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 谷歌云转录
 translated: true
+type: post
 ---
 
 我最近尝试了Google Cloud的语音转文字API。以下是我用来执行转录的Python函数。

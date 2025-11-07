@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 線性代數
 translated: true
+type: post
 ---
 
 - odd-value autonomeous-independent-plur Stellenield-值可以用于 units一聋 Codex puede用于 图像压缩。

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: L'eau oxygénée peut-elle guérir le pied d'athlète
 translated: true
+type: post
 ---
 
 Quand j'étais au collège, j'avais le pied d'athlète. Parfois, des parties de mon pied devenaient blanches, et la peau se décollait, laissant de la peau morte. Il semblait que mon pied avait transpiré pendant longtemps. Quand je rentrais à la maison, mes parents m'aidaient à laver mon pied. Cela les choquait.

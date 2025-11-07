@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Netplan, Systemd, SSH, Limpieza de Conda
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ライター
 translated: true
+type: post
 ---
 
 友人の家族とアウトドアクッキングをした際、面白い道具に出会いました。それは、強風にも強い炎を出す、トーチライターです。

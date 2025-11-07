@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 通勤
 translated: true
+type: post
 ---
 
 - 我住在金鳳地鐵站2公里遠。辦公室在天河區。

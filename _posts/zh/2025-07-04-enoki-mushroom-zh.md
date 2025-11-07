@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 金针菇易变质
 translated: true
+type: post
 ---
 
 金针菇容易变质。我在京东买的，送到家要三四天。他们用冰袋保鲜，但冰袋一两天内很容易融化。

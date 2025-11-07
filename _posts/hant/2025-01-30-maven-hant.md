@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 我安裝的 Maven Repositories
 translated: true
+type: post
 ---
 
 - antlr

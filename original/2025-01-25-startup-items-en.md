@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Clean Up Startup Items in macOS
+type: post
 ---
 
 To manage applications and processes that launch automatically when you log in to macOS (including macOS 15.2 and later), you can adjust your startup items. Here's how:

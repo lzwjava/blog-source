@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Mise à l'échelle du contenu PDF pour l'impression
 translated: true
+type: post
 ---
 
 J'ai besoin d'imprimer des documents, et j'ai remarqué que l'espace blanc autour du contenu est souvent trop grand, ce qui gaspille du papier et rend le texte plus petit qu'il ne devrait l'être. Ce script aide à redimensionner automatiquement le contenu du PDF pour mieux l'adapter à la page en détectant la zone de contenu et en la redimensionnant pour remplir la page, tout en respectant une petite marge.

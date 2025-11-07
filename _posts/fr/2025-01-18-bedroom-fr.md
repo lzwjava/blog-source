@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Chambre
 translated: true
+type: post
 ---
 
 ## Vue depuis la porte d'entrée

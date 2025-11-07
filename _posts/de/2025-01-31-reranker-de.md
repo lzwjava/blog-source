@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Rerankers
 translated: true
+type: post
 ---
 
 [bge-reranker](https://huggingface.co/BAAI/bge-reranker-v2-m3)

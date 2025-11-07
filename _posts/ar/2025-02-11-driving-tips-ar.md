@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: القيادة
 translated: true
+type: post
 ---
 
 - نفخ إطارات السيارة مرتين في السنة.

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Grokking APIのテスト
 translated: true
+type: post
 ---
 
 - 中国発行のビザカードの使用は許可されています。

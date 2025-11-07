@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Arch Linux installieren
 translated: true
+type: post
 ---
 
 Lenovo Xiaoxing 14IAH8 Laptop.

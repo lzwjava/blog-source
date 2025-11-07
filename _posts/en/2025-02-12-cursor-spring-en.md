@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Developing Spring Boot Projects with AI Tools
 translated: false
+type: post
 ---
 
 The JDK path is located at `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`.

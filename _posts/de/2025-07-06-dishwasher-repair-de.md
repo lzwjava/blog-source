@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Reparatur der Spülmaschine
 translated: true
+type: post
 ---
 
 Kürzlich habe ich meine Geschirrspülmaschine vom Haus meiner Eltern in mein eigenes Zuhause in derselben Stadt umgezogen. Die Spülmaschine ist eine Midea 13 Q7. Ich habe sie im Sommer 2019 gekauft, während ich in Peking arbeitete. Anfang 2020 ließ ich sie mit Deppon Express nach Guangzhou transportieren.

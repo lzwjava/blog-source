@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: NYTimesニュース（CN）記事更新トリガー
 translated: true
+type: post
 ---
 
 以下のボタンをクリックして、[NYTimes CN記事](./notes/2025-03-14-nytimes-en)を更新します。

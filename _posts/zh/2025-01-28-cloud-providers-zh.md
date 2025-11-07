@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 云服务提供商
 translated: true
+type: post
 ---
 
 使用过的：

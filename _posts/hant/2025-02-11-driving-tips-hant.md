@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 駕駛
 translated: true
+type: post
 ---
 
 - 年輪胎氣壓檢查兩次。

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Google 雲端語音轉文字
 translated: true
+type: post
 ---
 
 我最近試用了Google Cloud的語音轉文字API。以下是我用來執行轉錄的Python函數。

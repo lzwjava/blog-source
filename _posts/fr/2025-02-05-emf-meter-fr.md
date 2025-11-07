@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Multimètre de champs électromagnétiques
 translated: true
+type: post
 ---
 
 J'ai récemment entendu des rumeurs selon lesquelles les antennes 5G pourraient être nocives pour les humains, ce qui m'a poussé à enquêter plus avant. Pour ce faire, j'ai acheté un multimètre EMF pour mesurer les champs électromagnétiques. EMF signifie Champ Électromagnétique.

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Ventilación del Auto y Lavado de Manos
 translated: true
+type: post
 ---
 
 ### Usar la Ventilación del Coche para Secar el Cabello

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Pirate Bay
 translated: true
+type: post
 ---
 
 - [https://thepiratebay.org](https://thepiratebay.org)

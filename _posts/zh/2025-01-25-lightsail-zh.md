@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 管理 AWS Lightsail 实例
 translated: true
+type: post
 ---
 
 以下是一个授予管理Lightsail实例所需权限的策略：

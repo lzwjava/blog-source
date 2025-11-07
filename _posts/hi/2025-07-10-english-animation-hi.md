@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: मेरी बेटी का एनिमेशन सफर
 translated: true
+type: post
 ---
 
 {: .centered }

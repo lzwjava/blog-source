@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Requêtes Http Brutes et Enveloppeurs
 translated: true
+type: post
 ---
 
 ```python

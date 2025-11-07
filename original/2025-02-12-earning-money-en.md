@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Earning and Losing Money
 translated: false
+type: post
 ---
 
 ## Earning Money

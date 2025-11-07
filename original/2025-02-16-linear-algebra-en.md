@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Linear Algebra
 translated: false
+type: post
 ---
 
 - Singular Value Decomposition can be used for image compression.

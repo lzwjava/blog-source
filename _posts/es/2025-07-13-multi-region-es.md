@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Desarrollo de Software Multi-Región
 translated: true
+type: post
 ---
 
 Para empresas internacionales, a menudo hay proyectos que sirven a personas de múltiples regiones, como Singapur, Hong Kong, Reino Unido, EE. UU. y China.

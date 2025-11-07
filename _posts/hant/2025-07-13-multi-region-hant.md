@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 多地區軟件開發
 translated: true
+type: post
 ---
 
 國際公司常常會有服務多個地區人民的項目，例如新加坡、香港、英國、美國和中國。

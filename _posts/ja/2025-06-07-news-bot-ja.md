@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 自動ニュース要約ボット
 translated: true
+type: post
 ---
 
 この投稿では、Hacker News、GitHub Trending、NYTimes（中国語版）からトップニュースをスクレイピングし、Mistral APIを使用して要約するPythonベースのニュースボットを紹介します。Telegramを介して簡潔な日次レポートを送信し、自動実行のためにGitHub Actionsワークフローを利用しています。技術や世界のニュースを手軽に把握するのに最適です。

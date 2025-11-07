@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 助眠襪、睡眠習慣、夏日沐浴
 translated: true
+type: post
 ---
 
 ### 目錄

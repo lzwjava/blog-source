@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Three Angle Stick Stand Structure
 translated: false
+type: post
 ---
 
 

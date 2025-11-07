@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 旅行
 translated: true
+type: post
 ---
 
 - 更喜歡使用應用程式的線上服務來訂購酒店或計程車。訂單可以被追蹤、反映或自動化。

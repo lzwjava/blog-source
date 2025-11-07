@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ディスクスペースのクリーンアップ
 translated: true
+type: post
 ---
 
 ## 設定

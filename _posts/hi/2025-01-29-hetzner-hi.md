@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: हेट्ज़नर क्लाउड
 translated: true
+type: post
 ---
 
 मैं इस बार इस cloud platform को प्रयोग करने के लिए बहुत उत्सुक हूँ।

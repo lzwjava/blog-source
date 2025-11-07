@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 自家釀造軟件包
 translated: true
+type: post
 ---
 
 % brew list

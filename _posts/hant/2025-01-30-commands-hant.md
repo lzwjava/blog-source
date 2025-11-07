@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 命令
 translated: true
+type: post
 ---
 
 使用 `compgen -c | grep -v '_'` 列出所有可用命令，並排除包含底線的命令。

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: 'BCEmbedding: द्विभाषीय एम्बेडिंग RAG के लिए'
 translated: true
+type: post
 ---
 
 [https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)

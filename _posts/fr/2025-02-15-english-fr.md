@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Guide complet pour apprendre l'anglais
 translated: true
+type: post
 ---
 
 ### Table des Matières

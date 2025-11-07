@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Optimisation des IP Cloud, des Interfaces Réseau et du WiFi
 translated: true
+type: post
 ---
 
 ### Table des matières

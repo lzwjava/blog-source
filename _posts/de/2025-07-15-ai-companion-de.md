@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Mit KI-Begleiter sprechen
 translated: true
+type: post
 ---
 
 Ich habe kürzlich einen Punkt in die Zusammenfassung meines Lebenslaufs aufgenommen:

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Calcetines para Dormir, Hábitos de Sueño, Baños de Verano
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

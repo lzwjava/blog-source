@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 如何擴展一個團隊
 translated: true
+type: post
 ---
 
 - 好好思考長遠。你的預算夠嗎？你的團隊能撐多久？如果擴張團隊後沒有收益，該怎麼辦？

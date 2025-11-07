@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: आइओएस शॉर्टकट्स को मास्टर करना
 translated: true
+type: post
 ---
 
 ### शॉर्टकट्स टिप्स

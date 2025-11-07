@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Nettoyer l’espace disque
 translated: true
+type: post
 ---
 
 ## Réglages

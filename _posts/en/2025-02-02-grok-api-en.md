@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Testing Grok API
 translated: false
+type: post
 ---
 
 

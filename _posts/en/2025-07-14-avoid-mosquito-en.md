@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Can We Prevent Mosquitoes from Entering the Car
 translated: false
+type: post
 ---
 
 Sometimes, when I eat instant noodles in the car, there are smells inside the car. I have an electric lamp that shocks them, but that takes some time to lure them to be shocked by electricity.

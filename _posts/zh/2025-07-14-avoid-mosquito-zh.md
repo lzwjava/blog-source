@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 防止蚊子进入汽车
 translated: true
+type: post
 ---
 
 有时候，当我在车里吃方便面时，车里会有异味。我有一个电灯可以电死它们，但需要一些时间引诱它们被电死。

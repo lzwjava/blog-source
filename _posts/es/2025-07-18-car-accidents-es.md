@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Accidentes de Auto en Mi Vida
 translated: true
+type: post
 ---
 
 He tenido algunos accidentes de coche en mi vida. El más grave ocurrió en abril de 2018, justo un mes después de obtener mi licencia de conducir. Viajaba a Xilinhot, en Mongolia Interior. Iba conduciendo a unos 100 km/h con mi esposa. Después de salir de la autopista en una cabina de peaje, que no tenía una curva y era recta, pensé que todavía estaba en la autopista. Así que no reduje la velocidad en absoluto. De repente, apareció un cruce.

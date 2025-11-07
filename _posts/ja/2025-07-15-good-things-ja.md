@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: もっと良いものを我慢できない
 translated: true
+type: post
 ---
 
 - 最新のiPhoneを体験すると、数年前のiPhoneには戻れなくなる。

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: منحفظة الحزم التي أقوم بفحصها
 translated: true
+type: post
 ---
 
 % brew list

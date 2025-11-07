@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Testing Mistral API
 translated: false
+type: post
 ---
 
 

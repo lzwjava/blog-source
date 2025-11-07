@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: مرتشبات macOS التحكم
 translated: true
+type: post
 ---
 
 ## WiFi

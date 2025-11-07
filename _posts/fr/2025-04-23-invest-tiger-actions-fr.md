@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Investissements hebdomadaires en actions avec l'API TigerOpen
 translated: true
+type: post
 ---
 
 J'ai développé un script Python et un workflow GitHub Actions pour automatiser ma stratégie d'investissement hebdomadaire, achetant une action NVIDIA chaque mercredi à 22h35 en heure normale de Chine (CST). J'ai choisi les mercredis car, en 2025, il n'y a pas de jours fériés ce jour-là, assurant une exécution cohérente.

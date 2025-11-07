@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 康達的問題
 translated: true
+type: post
 ---
 
 ## 問題

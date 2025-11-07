@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 虎trade 開放 API
 translated: true
+type: post
 ---
 
 這段程式碼片段使用 Tiger Open API 擷取並列印香港交易所上市部分最大公司之最新股價。它初始化用戶端、擷取股價並列印結果。

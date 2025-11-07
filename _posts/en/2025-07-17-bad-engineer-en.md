@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Bad Engineer
 translated: false
+type: post
 ---
 
 - Communicates only through screenshots, using phrases like *"why not ok?"* or *"has question"*—extremely basic English.  

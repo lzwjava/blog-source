@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Hot Water
+type: post
 ---
 
 - Hot water can easily remove paper stuck to a window.

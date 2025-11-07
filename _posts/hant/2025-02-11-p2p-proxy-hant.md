@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 使用P2P網絡時避免使用代理伺服器
 translated: true
+type: post
 ---
 
 我注意到使用代理伺服器連接qBittorrent時，下載速度往往會明顯變慢。雖然點對點 (P2P) 網絡，例如種子下載中使用的網絡，相比傳統的客戶端-伺服器模式具有固有的速度優勢，但引入代理伺服器可能會抵消這些優勢。

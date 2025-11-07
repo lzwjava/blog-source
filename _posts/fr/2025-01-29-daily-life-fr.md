@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Conseils de la vie quotidienne
 translated: true
+type: post
 ---
 
 - Je n'ai pas besoin de porter des pantoufles en hiver ; porter des chaussettes suffit.

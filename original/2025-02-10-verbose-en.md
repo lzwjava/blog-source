@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Verbose Output
 translated: false
+type: post
 ---
 
 - To enable verbose output in Homebrew, use `export HOMEBREW_CURL_VERBOSE=1` in conjunction with `brew upgrade --verbose`.

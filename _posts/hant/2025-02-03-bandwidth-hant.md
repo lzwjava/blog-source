@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 探討2億兆赫頻寬限制
 translated: true
+type: post
 ---
 
 我正在使用香港的阿里雲伺服器，採用後付、按流量收費的彈性 IP。但是，我的速度比預期慢。我目前的頻寬是：

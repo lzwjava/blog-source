@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Farming
+type: post
 ---
 
 We couldn't change the past, but we surely could try to reflect more on the past to gain more benefits from it and have a better future.

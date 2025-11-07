@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Liberar espacio en disco
 translated: true
+type: post
 ---
 
 ## Configuración

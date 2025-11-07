@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Proveedores de la Nube
 translated: true
+type: post
 ---
 
 Útilizados:

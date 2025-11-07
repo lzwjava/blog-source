@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 'Outil de Proxy : Squid et Danted'
 translated: true
+type: post
 ---
 
 ## Danted

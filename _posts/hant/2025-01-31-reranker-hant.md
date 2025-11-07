@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 重排器
 translated: true
+type: post
 ---
 
 [bge-reranker](https://huggingface.co/BAAI/bge-reranker-v2-m3)

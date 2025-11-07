@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: HTTP リクエストとラッパー
 translated: true
+type: post
 ---
 
 ```python

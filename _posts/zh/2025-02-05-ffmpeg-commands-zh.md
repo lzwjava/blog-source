@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: FFmpeg 命令
 translated: true
+type: post
 ---
 
 这里有一些我常用的ffmpeg命令。

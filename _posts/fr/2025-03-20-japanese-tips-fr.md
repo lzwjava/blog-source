@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Conseils pour apprendre le japonais
 translated: true
+type: post
 ---
 
 - Découvrez des chansons japonaises qui résonnent avec vous et qui peuvent aider à l'acquisition de la langue.

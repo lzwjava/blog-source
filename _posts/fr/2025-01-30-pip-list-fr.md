@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Les Paquets Pip que j'installe
 translated: true
+type: post
 ---
 
 Liste pip :

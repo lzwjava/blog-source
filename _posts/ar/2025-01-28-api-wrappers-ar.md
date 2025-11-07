@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: العدوان HTTP المباشر والألبت المستديرة
 translated: true
+type: post
 ---
 
 ```python

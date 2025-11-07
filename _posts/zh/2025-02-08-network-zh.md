@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 云 IP、网络接口与 WiFi 优化
 translated: true
+type: post
 ---
 
 ### 目录

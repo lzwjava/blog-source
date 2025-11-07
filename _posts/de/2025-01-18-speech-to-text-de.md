@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Google Cloud Transcription
 translated: true
+type: post
 ---
 
 Ich habe kürzlich mit der Speech-to-Text API von Google Cloud experimentiert. Im Folgenden finden Sie eine Python-Funktion, die ich zur Transkription verwendet habe.

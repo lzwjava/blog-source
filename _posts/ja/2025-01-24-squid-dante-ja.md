@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 'プロキシツール: SquidとDanted'
 translated: true
+type: post
 ---
 
 ## Danted

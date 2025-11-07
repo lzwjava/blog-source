@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Calories in Beverages
 translated: false
+type: post
 ---
 
 

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 網絡優化貼士
 translated: true
+type: post
 ---
 
 有用建議：

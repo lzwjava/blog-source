@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Multi-field EMF Meter
 translated: false
+type: post
 ---
 
 I recently heard rumors that 5G stations might cause harm to humans, which made me curious to investigate further. To do so, I purchased a Multi-field EMF Meter to measure electromagnetic fields. EMF stands for Electromagnetic Field.

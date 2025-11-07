@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 卧室
 translated: true
+type: post
 ---
 
 ## 前门视角

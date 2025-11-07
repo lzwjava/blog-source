@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Objets Partagés dans Plusieurs Threads
 translated: true
+type: post
 ---
 
 ## Leçon

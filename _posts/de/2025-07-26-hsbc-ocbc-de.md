@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Singapurische und Hongkonger Bankerfahrung
 translated: true
+type: post
 ---
 
 ---

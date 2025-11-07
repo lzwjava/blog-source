@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: モデルを微調整
 translated: true
+type: post
 ---
 
 ```python

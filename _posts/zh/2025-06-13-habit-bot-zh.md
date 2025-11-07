@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 用Mistral打造习惯养成机器人
 translated: true
+type: post
 ---
 
 在这篇博客中，我们将探讨如何利用Python和GitHub Actions创建一个习惯养成机器人，用于发送自动化提醒。该机器人通过Telegram API实现消息推送，并集成Mistral AI生成情境相关的提示内容。借助GitHub Actions的任务调度功能，机器人能通过定时通知帮助用户培养持之以恒的习惯。我们将从环境配置开始，逐步介绍脚本编写到部署的全过程，为您提供一套自动化习惯追踪系统的实用指南。

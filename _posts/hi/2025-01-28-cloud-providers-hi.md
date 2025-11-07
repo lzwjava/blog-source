@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: क्लाउड प्रोवाइडर्स
 translated: true
+type: post
 ---
 
 प्रयुक्त:

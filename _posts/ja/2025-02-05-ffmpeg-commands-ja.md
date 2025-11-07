@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: FFmpegコマンド
 translated: true
+type: post
 ---
 
 いくつか使用しているffmpegコマンドを以下に示します。

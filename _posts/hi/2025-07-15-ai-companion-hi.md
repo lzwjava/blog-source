@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: AI के साथ बातचीत
 translated: true
+type: post
 ---
 
 मैंने हाल ही में अपने रिज़्यूमे के सारांश में एक बिंदु जोड़ा है:

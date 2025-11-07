@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 多功能电磁场计
 translated: true
+type: post
 ---
 
 我最近听到一些关于5G基站可能对人体有害的传闻，这引起了我的好奇心，于是我决定进一步调查。为此，我购买了一个多场次电磁场计来测量电磁场。电磁场英文缩写为EMF。

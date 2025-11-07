@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Puissance (en watts)
 translated: true
+type: post
 ---
 
 L'ampoule de 5,5 watts est trop lumineuse pour une lecture confortable dans ma chambre lorsqu'elle est positionnée à environ 60 centimètres derrière moi, sur le côté gauche.

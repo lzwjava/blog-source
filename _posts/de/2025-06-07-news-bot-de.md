@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Automatisierter Nachrichtenzusammenfassungs-Bot
 translated: true
+type: post
 ---
 
 Dieser Beitrag präsentiert einen Python-basierten News-Bot, der Top-Stories von Hacker News, GitHub Trending und NYTimes (Chinesisch) mithilfe der Mistral-API extrahiert und zusammenfasst. Er sendet täglich kompakte Berichte über Telegram, unterstützt durch einen GitHub Actions-Workflow für die automatisierte Ausführung. Ideal, um mühelos über Tech- und globale Nachrichten auf dem Laufenden zu bleiben.

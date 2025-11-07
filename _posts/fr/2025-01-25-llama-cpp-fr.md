@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Essayer llama.cpp
 translated: true
+type: post
 ---
 
 ## llama.cpp

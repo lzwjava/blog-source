@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 英語学習の完全ガイド
 translated: true
+type: post
 ---
 
 ```markdown

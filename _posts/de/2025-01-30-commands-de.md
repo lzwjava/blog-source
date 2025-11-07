@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Befehle
 translated: true
+type: post
 ---
 
 ```bash

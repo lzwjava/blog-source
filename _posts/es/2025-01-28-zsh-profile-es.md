@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Perfil de Zsh
 translated: true
+type: post
 ---
 
 Este perfil zsh tiene como objetivo mejorar la experiencia en la línea de comandos, con un enfoque en configuraciones de proxy, integración con Git y útiles alias. Las siguientes secciones detallan sus características:

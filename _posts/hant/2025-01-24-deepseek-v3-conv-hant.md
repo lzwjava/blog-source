@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 一篇關於DeepSeek V3的AI生成對話
 translated: true
+type: post
 ---
 
 DeepSeek v3 在此探討，參考影片《Multi-Head Latent Attention and Multi-token Prediction in Deepseek v3》[https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO](https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO)。我們使用了 Google Cloud Speech-to-Text 來轉錄影片內容，並搭配一些程式碼來整理字幕。

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Électronique de base que je connais
 translated: true
+type: post
 ---
 
 Je connais les bases de l'électronique. La formule `V=IR` signifie que la tension est égale au courant multiplié par la résistance.

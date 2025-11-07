@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Prueba de Cable de Red
 translated: true
+type: post
 ---
 
 Recientemente compré un probador de cables de red en JD.com. He visto a consultores de red venir a mi casa o a la oficina de mi empleador para probar la red.

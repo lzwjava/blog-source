@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 电动汽车工作
 translated: true
+type: post
 ---
 
 ## 在电动汽车中工作

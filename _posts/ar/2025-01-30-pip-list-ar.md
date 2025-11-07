@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: باكيجات بايب التي أقوم بتثبيتها
 translated: true
+type: post
 ---
 
 pip list:

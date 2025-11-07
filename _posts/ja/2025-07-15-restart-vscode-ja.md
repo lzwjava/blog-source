@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ブログ管理のためのVSCode再起動による自動ドラフト
 translated: true
+type: post
 ---
 
 以下は提供されたMarkdownテキストの日本語訳です：

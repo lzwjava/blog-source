@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 日常生活のヒント
 translated: true
+type: post
 ---
 
 - 冬にはスリッパを履かなくても大丈夫です。靴下を履くだけで十分です。

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Hetzner Cloud
 translated: true
+type: post
 ---
 
 Estoy muy emocionado de probar esta plataforma en la nube recientemente.

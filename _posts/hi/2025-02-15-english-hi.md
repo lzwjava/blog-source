@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: अंग्रेजी सीखने का पूर्ण मार्गदर्शन
 translated: true
+type: post
 ---
 
 ### विषय-सूची

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Wattzahl
 translated: true
+type: post
 ---
 
 Die 5,5-Watt-Glühbirne ist zu hell, um in meinem Schlafzimmer bequem lesen zu können, wenn sie etwa 60 Zentimeter hinter mir auf der linken Seite positioniert ist.

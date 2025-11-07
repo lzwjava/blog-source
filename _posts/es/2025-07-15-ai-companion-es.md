@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Hablando con el compañero de IA
 translated: true
+type: post
 ---
 
 Recientemente agregué un punto al resumen de mi currículum:

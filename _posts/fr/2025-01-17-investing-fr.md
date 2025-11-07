@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Investissement
 translated: true
+type: post
 ---
 
 - Utilisez un compte bancaire dédié pour le trading P2P lors de l'achat de cryptomonnaies en Chine. Cela facilite l'enregistrement de vidéos ou la prise de captures d'écran, permettant aux commerçants de vérifier l'historique des transactions, car l'historique des transactions est court.

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Investieren
 translated: true
+type: post
 ---
 
 - Verwende ein dediziertes Bankkonto für P2P-Handel beim Kauf von Kryptowährung in China. Dies erleichtert das Aufzeichnen von Videos oder das Erstellen von Screenshots, sodass Händler den Transaktionsverlauf überprüfen können, da dieser oft kurz ist.

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 每周股票投资与TigerOpen API
 translated: true
+type: post
 ---
 
 我开发了一段 Python 脚本和一个 GitHub Actions 工作流，用于自动化我的每周投资策略，每周三晚上 10:35 中国标准时间（CST）购买一只 NVIDIA 股票。我选择周三是因为 2025 年没有任何假期，确保一致执行。

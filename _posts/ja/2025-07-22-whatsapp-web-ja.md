@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: WhatsApp Webを使用する
 translated: true
+type: post
 ---
 
 私は今日、WhatsApp Webを使うことができて嬉しいです。それは完全に新しい体験を提供してくれました。私は2019年に、Glassdoorのソフトウェアクライアントと連絡を取る必要があったときに、初めてWhatsAppアプリに登録しました。そのプロジェクトで私は450ユーロを稼ぎました。

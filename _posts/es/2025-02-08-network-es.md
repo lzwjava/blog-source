@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: IP en la Nube, Interfaz de Red y Optimización de WiFi
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

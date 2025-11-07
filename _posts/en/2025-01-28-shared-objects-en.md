@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Shared Objects in Multiple Threads
 translated: false
+type: post
 ---
 
 

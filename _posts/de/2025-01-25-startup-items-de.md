@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Startup-Elemente in macOS bereinigen
 translated: true
+type: post
 ---
 
 Um Anwendungen und Prozesse zu verwalten, die automatisch gestartet werden, wenn Sie sich bei macOS (einschließlich macOS 15.2 und neuer) anmelden, können Sie Ihre Startelemente anpassen. Hier ist wie:

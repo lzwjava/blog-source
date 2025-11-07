@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: AIと話す
 translated: true
+type: post
 ---
 
 最近、履歴書の要約に以下のポイントを追加しました：

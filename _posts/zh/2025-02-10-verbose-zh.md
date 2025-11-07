@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 冗长输出
 translated: true
+type: post
 ---
 
 - 要在 Homebrew 中启用详细输出，请使用 `export HOMEBREW_CURL_VERBOSE=1` 结合 `brew upgrade --verbose`。

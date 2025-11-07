@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: AI Papers का अनुवाद
 translated: true
+type: post
 ---
 
 आधारभूत अवधारणाएँ और आर्किटेक्चर:

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: एआई फ़्रेमवर्क और जीवन विकल्पों के निर्माण पर एक साक्षात्कार
 translated: true
+type: post
 ---
 
 {: .centered }

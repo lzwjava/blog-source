@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 寝室
 translated: true
+type: post
 ---
 
 ## 玄関からの眺め

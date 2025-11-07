@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Zsh Profile
+type: post
 ---
 
 This zsh profile aims to improve the command-line experience, with a focus on proxy configurations, Git integration, and handy aliases. The following sections detail its features:

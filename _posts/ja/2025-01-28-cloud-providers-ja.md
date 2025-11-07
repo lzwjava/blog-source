@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: クラウドプロバイダー
 translated: true
+type: post
 ---
 
 使用済み:

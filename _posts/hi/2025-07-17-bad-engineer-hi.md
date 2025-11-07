@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: बुरा इंजीनियर
 translated: true
+type: post
 ---
 
 - केवल स्क्रीनशॉट्स के माध्यम से संचार करता है, जैसे *"why not ok?"* या *"has question"* जैसे वाक्यांशों का उपयोग करता है—बहुत बुनियादी अंग्रेजी।

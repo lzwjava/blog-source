@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Cocina al aire libre
 translated: true
+type: post
 ---
 
 - Utiliza rocas, hojas, ramas y palitos para construir un horno.

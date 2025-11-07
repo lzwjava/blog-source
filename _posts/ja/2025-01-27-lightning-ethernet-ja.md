@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 雷光へのイーサネットアダプター
 translated: true
+type: post
 ---
 
 最近、使ったことのない新しい製品を試しました。JD.comで44元で購入しました。類似の製品はWalmart.comで15米ドルほどです。

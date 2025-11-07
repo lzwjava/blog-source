@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 人工智能论文
 translated: true
+type: post
 ---
 
 基础概念与架构：

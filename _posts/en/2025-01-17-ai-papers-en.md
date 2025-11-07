@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: AI Papers
 translated: false
+type: post
 ---
 
 Foundational Concepts & Architectures:

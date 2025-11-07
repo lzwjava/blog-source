@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Limpiar Elementos de Inicio en macOS
 translated: true
+type: post
 ---
 
 Para gestionar las aplicaciones y procesos que se inician automáticamente cuando inicias sesión en macOS (incluyendo macOS 15.2 y versiones posteriores), puedes ajustar tus elementos de inicio. Aquí te explicamos cómo hacerlo:

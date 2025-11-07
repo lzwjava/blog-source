@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 電子錠のパスワードを解読する
 translated: true
+type: post
 ---
 
 {: .centered }

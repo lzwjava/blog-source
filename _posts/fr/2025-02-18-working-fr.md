@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Travailler
 translated: true
+type: post
 ---
 
 - Avant d'obtenir l'accès au dépôt de code, demandez à vos collègues le fichier `pom.xml` et essayez de télécharger les dépendances Nexus.

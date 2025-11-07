@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 雲服務提供商
 translated: true
+type: post
 ---
 
 使用過的：

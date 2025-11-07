@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Tester l'API de Grok
 translated: true
+type: post
 ---
 
 - Il est ok d'utiliser une carte Visa émise par la Chine.

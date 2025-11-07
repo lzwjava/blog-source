@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Projector Setup
+type: post
 ---
 
 In late August 2024, after moving back in with my parents, I found myself in a smaller room. Missing the entertainment my projector provided, I decided to relocate it from my previous residence.

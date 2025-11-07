@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Der Weg zur Verfolgung der Internetfreiheit
 translated: true
+type: post
 ---
 
 ### Inhaltsverzeichnis

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 清理 macOS 的启动项
 translated: true
+type: post
 ---
 
 要管理在登入 macOS（包括 macOS 15.2 及更新版本）時自動啟動的應用程式和進程，您可以調整您的啟動項目。以下是具體步驟：

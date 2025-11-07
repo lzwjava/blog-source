@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 冗長輸出
 translated: true
+type: post
 ---
 
 - 要在 Homebrew 中啟用詳細輸出，請使用 `export HOMEBREW_CURL_VERBOSE=1` 結合 `brew upgrade --verbose`。

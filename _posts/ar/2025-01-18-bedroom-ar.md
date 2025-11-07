@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: غرفة النوم
 translated: true
+type: post
 ---
 
 ## منظر من الباب الأمامي

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Linux Bashrc 設定
 translated: true
+type: post
 ---
 
 ```bash

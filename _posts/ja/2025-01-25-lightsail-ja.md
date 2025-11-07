@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: AWS Lightsailインスタンスの管理
 translated: true
+type: post
 ---
 
 以下は、Lightsailインスタンスを管理するために必要な権限を付与するポリシーです：

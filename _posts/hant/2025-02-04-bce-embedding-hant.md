@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: BCEmbedding：雙語嵌入式知識檢索
 translated: true
+type: post
 ---
 
 [https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)

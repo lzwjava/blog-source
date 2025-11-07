@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 破解电子锁的密码
 translated: true
+type: post
 ---
 
 {: .centered }

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: MacOS 系統命令
 translated: true
+type: post
 ---
 
 ## WiFi

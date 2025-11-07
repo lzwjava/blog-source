@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: नेटप्लान, सिस्टमडी, एसएसएच, कोंडा क्लीनअप
 translated: true
+type: post
 ---
 
 ### विषय-सूची

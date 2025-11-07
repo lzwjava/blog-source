@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 优化基于段落的Markdown的翻译成本
 translated: true
+type: post
 ---
 
 我的 Jekyll 博客使用 Markdown 编写段落。在用英文写作后，我使用 DeepSeek 或 Mistral 等 AI 工具将其翻译成其他八种语言。虽然它们已经很便宜，但仍有改进空间。

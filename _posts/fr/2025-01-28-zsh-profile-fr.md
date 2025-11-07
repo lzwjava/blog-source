@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Profil Zsh
 translated: true
+type: post
 ---
 
 Ce profil zsh vise à améliorer l'expérience en ligne de commande, avec un accent sur les configurations de proxy, l'intégration de Git et des alias pratiques. Les sections suivantes détaillent ses fonctionnalités :

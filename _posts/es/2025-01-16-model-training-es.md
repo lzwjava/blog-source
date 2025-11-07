@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Entrenamiento del Modelo
 translated: true
+type: post
 ---
 
 * Asegúrate de que el código, el entorno y los datos sean correctos antes de comenzar el entrenamiento real.

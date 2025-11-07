@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Die Reise meiner Tochter mit Handys
 translated: true
+type: post
 ---
 
 ---

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: अमेरिकी पीएचडी आवेदनों और एआई उद्योग की नौकरियों पर एक साक्षात्कार
 translated: true
+type: post
 ---
 
 {: .centered }

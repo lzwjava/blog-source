@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: मॉडल को फाइनट्यून करें
 translated: true
+type: post
 ---
 
 ```python

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Changement d'habitudes, spécificité, volonté
 translated: true
+type: post
 ---
 
 ### Table des matières

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Outdoor Cooking
 translated: false
+type: post
 ---
 
 - Use rocks, leaves, branches, and twigs to build a furnace.

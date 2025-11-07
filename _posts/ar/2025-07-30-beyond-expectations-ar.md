@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تجاوز التوقعات وتجنب التحقق
 translated: true
+type: post
 ---
 
 ```markdown

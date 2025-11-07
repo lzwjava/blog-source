@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 神經網路、Transformer 與 GPT
 translated: true
+type: post
 ---
 
 ### 目錄

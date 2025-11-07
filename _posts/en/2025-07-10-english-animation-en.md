@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: English Animation Journey of My Daughter
 translated: false
+type: post
 ---
 
 {: .centered }

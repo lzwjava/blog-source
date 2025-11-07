@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Neural Network, Transformer and GPT
 translated: false
+type: post
 ---
 
 ### Table of Contents

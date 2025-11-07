@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 我們為什麼在AI時代寫作
 translated: true
+type: post
 ---
 
 在人工智能時代，我們仍然需要寫作的最重要原因是它有助於我們更好地思考。雖然利用AI來擴展想法或思維很容易，但AI無法代你思考。

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'Proxy Tool: Squid and Danted'
 translated: false
+type: post
 ---
 
 

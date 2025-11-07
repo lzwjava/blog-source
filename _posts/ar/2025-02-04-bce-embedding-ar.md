@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: 'BCEmbedding: تضمين ثنائي اللغة لـ RAG'
 translated: true
+type: post
 ---
 
 [https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)

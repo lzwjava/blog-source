@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Geld verdienen und verlieren
 translated: true
+type: post
 ---
 
 ## Geld verdienen

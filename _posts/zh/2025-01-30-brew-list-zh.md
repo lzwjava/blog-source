@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 家庭自酿软件包
 translated: true
+type: post
 ---
 
 % brew list

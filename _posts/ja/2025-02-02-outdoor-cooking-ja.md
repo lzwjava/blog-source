@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: アウトドアクッキング
 translated: true
+type: post
 ---
 
 - 石、葉っぱ、枝、小枝を使って炉を作ります。

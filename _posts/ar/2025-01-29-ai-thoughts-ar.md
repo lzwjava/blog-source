@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: سير عمل الذكاء الاصطناعي ومحررات الأكواد وتعطيل المنصات
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

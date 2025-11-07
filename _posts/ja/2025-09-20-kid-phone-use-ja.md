@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 娘のスマホとの付き合い方
 translated: true
+type: post
 ---
 
 以下のエッセイは実話を基にしており、AIによって洗練されています。一部のみがオリジナルの文章ですが、実際の経験を反映しています。

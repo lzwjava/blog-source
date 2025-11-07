@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Wie ein Team skalieren
 translated: true
+type: post
 ---
 
 - Denken Sie langfristig nach. Haben Sie genug Budget? Wie lange kann Ihr Team überleben? Was, wenn es nach der Erweiterung des Teams keine Gewinne gibt?

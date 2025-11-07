@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 習慣改變、明確性、意願
 translated: true
+type: post
 ---
 
 ### 目錄

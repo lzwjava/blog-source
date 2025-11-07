@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: الرحلة نحو حرية الإنترنت
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

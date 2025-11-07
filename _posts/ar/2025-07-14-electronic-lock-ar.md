@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: كسر كلمة مرور في قفل إلكتروني
 translated: true
+type: post
 ---
 
 {: .centered }

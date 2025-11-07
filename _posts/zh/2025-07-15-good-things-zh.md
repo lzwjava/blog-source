@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 我们禁不住更少的好事
 translated: true
+type: post
 ---
 
 - 一旦体验过最新的iPhone，就很难再用回几年前的旧款。

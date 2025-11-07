@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 我們無法承受更少的美好事物
 translated: true
+type: post
 ---
 
 - 一旦我們體驗過最新的iPhone，就很難再用回幾年前的iPhone。

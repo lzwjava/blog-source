@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: نصائح لتحسين الشبكات
 translated: true
+type: post
 ---
 
 مفيد، موصى به:

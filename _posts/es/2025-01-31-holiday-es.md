@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Calendario de Festivos 2025
 translated: true
+type: post
 ---
 
 Tras haber trabajado para empresas de Singapur y Hong Kong, consulté a la IA para compilar los calendarios festivos de este año. Actualmente, me estoy uniendo a un proyecto en un banco y estoy esperando su calendario festivo oficial. Parece que seguiremos el calendario de Hong Kong. También he incluido los festivos de EE. UU. debido a mi interés en los mercados bursátiles estadounidenses.

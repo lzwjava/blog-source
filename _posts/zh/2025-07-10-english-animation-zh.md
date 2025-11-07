@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 女儿的英文动画之旅
 translated: true
+type: post
 ---
 
 {: .centered }

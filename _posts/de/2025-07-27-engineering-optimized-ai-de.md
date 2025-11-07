@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Optimierung der Softwareentwicklung für KI
 translated: true
+type: post
 ---
 
 ### Inhaltsverzeichnis

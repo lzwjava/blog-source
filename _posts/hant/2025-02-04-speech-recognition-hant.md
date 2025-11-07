@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 即時語音辨識
 translated: true
+type: post
 ---
 
 這段 Python 程式碼使用 Google Cloud 語音轉文字 API 和 PyAudio 函式庫實作即時語音辨識。它從麥克風擷取音訊，將其串流傳送至語音轉文字 API，並列印轉錄的文字。`MicrophoneStream` 類別處理音訊輸入，而 `main` 函式設定語音辨識用戶端並處理音訊串流。

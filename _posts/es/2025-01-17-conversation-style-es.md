@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Generación de Audio para Conversaciones
 translated: true
+type: post
 ---
 
 Inspirado por un video de YouTube que presentaba una discusión sobre DeepSeek-V3, he estado experimentando con conversaciones generadas por IA. Mi objetivo es crear diálogos de audio realistas utilizando Google Text-to-Speech y ffmpeg para la generación y concatenación de audio. El siguiente código describe mi enfoque actual para simular una conversación natural de ida y vuelta.

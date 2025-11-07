@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Ethernet-Adapter mit Blitzanschluss
 translated: true
+type: post
 ---
 
 Ich habe kürzlich ein neues Produkt ausprobiert, das ich noch nie zuvor verwendet hatte. Es kostete mich etwa 44 CNY auf JD.com. Ähnliche Produkte kosten etwa 15 USD auf Walmart.com.

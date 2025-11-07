@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Experiencia Bancaria en Singapur y Hong Kong
 translated: true
+type: post
 ---
 
 Actualizado en septiembre de 2025.

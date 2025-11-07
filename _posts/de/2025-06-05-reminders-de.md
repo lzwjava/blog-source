@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Streamline-Erinnerungen via Telegram
 translated: true
+type: post
 ---
 
 In diesem Projekt habe ich ein automatisiertes Erinnerungssystem mit GitHub Actions und einem Telegram-Bot eingerichtet, um meine täglichen und monatlichen Aufgaben im Blick zu behalten. Mithilfe von Cron-Zeitplänen habe ich Erinnerungen für arbeitsbezogene Aufgaben wie das Einchecken in WeCom, das Einreichen von Stundenzetteln und das Überprüfen von Gehältern konfiguriert, sowie für persönliche Aufgaben wie den Besuch bei der Familie, Einkäufe auf JD.com und sogar das gemeinsame Fernsehen mit meinem Partner. Das System verwendet ein Python-Skript, um Nachrichten über die Telegram-Bot-API zu senden, wobei Umgebungsvariablen sicher in GitHub Secrets gespeichert sind. Dieser Aufbau stellt sicher, dass ich keine wichtigen Fristen oder persönlichen Verpflichtungen verpasse und verbindet Technologie mit dem Alltag für maximale Effizienz.

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 臥室
 translated: true
+type: post
 ---
 
 ## 前門視角

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Kabeltester für Netzwerke
 translated: true
+type: post
 ---
 
 Ich habe kürzlich einen Netzwerkkabeltester bei JD.com gekauft. Ich habe Netzwerkberater in meinem Haus oder im Büro meines Arbeitgebers gesehen, um das Netzwerk zu testen.

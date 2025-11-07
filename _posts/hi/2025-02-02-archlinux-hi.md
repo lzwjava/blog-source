@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: Arch Linux स्थापित करना
 translated: true
+type: post
 ---
 
 Lenovo Xiaoxing 14IAH8 लैपटॉप।

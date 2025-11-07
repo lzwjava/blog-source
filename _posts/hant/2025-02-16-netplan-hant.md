@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Netplan、Systemd、SSH、Conda 清理
 translated: true
+type: post
 ---
 
 ### 目錄

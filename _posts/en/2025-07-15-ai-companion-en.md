@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Talking to AI Companion
 translated: false
+type: post
 ---
 
 I recently added a point to the summary of my resume:

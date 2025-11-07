@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: DeepWiki Testlauf
 translated: true
+type: post
 ---
 
 Versuche DeepWiki: [https://deepwiki.com/lzwjava/lzwjava.github.io](https://deepwiki.com/lzwjava/lzwjava.github.io).

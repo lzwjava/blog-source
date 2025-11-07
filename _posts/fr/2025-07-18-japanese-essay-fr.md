@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Premier essai en japonais
 translated: true
+type: post
 ---
 
 J'ai pu écrire mon premier essai en japonais, et je suis très heureux. La majeure partie de cet essai a été écrite par une IA, mais ce n'est pas une traduction de ce que j'ai écrit en anglais. Au lieu de cela, j'ai écrit chaque phrase en japonais en utilisant la commande `command+k` dans VS Code avec le correcteur de texte Gemini 2.5 Flash.

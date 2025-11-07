@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 嘗試鏡片以找出我的理想眼鏡處方
 translated: true
+type: post
 ---
 
 {: .centered }

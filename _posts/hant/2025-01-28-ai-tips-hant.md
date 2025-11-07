@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: AI 工具技巧
 translated: true
+type: post
 ---
 
 * 將範例代碼複製到 Cursor，並使用註解提供上下文。

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: DeepThink や ChatGPT をたくさん使おう
 translated: true
+type: post
 ---
 
 OpenAIのo1は2024年12月5日にリリースされました。DeepSeek-V3は2024年12月26日にリリースされました。

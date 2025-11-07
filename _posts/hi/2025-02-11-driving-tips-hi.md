@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: ड्राइविंग
 translated: true
+type: post
 ---
 
 - साल में दो बार टायरों में हवा भरें।

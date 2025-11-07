@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Thoughts of Others
 translated: false
+type: post
 ---
 
 When I was young, I often didn't think much about others. I usually thought about myself, meaning I didn't consider much about how other people lived, what they thought of me, their purposes, mental states, struggles, characters, etc.

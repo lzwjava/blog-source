@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Fournisseurs de Cloud
 translated: true
+type: post
 ---
 
 Utilisé:

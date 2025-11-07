@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: Google Cloud ट्रांसक्रिप्शन
 translated: true
+type: post
 ---
 
 मैंने हाल ही में Google Cloud के Speech-to-Text API के साथ प्रयोग किया। निम्नलिखित एक Python फ़ंक्शन है जिसका उपयोग मैंने ट्रांसक्रिप्शन करने के लिए किया।

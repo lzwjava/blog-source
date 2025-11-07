@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 働く
 translated: true
+type: post
 ---
 
 - コードリポジトリにアクセスする前に、同僚に`pom.xml`ファイルを求め、Nexusの依存関係をダウンロードしてみる。

@@ -10,6 +10,7 @@ title: 'For the input "Recommended Blog Posts for Engineers" to be translated in
 
   Publicaciones de Blog Recomendadas para Ingenieros'
 translated: true
+type: post
 ---
 
 Estas recomendaciones han sido generadas por IA basadas en publicaciones de blog del último año, adaptadas para un ingeniero de backend con 10 años de experiencia. Actualiza este archivo ejecutando el script cada seis meses para refrescar el contenido con nuevas publicaciones.

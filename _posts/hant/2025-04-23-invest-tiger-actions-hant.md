@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 每週股票投資與TigerOpen API
 translated: true
+type: post
 ---
 
 我開發了一個 Python 腳本和一個 GitHub Actions 工作流程來自動化我的每週投資策略，每週三晚上十時三十五分中國標準時間 (CST) 購買一隻 NVIDIA 股票。我選擇週三是因為在 2025 年，該日沒有假期，確保一致執行。

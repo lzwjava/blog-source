@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Using Trial Lenses to Find My Ideal Eyeglass Prescription
 translated: false
+type: post
 ---
 
 {: .centered }

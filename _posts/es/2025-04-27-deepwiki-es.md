@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Prueba de DeepWiki
 translated: true
+type: post
 ---
 
 Prueba DeepWiki: [https://deepwiki.com/lzwjava/lzwjava.github.io](https://deepwiki.com/lzwjava/lzwjava.github.io).

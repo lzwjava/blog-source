@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 驾驶
 translated: true
+type: post
 ---
 
 - 一年给轮胎充气两次。

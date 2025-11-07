@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Testen Sie die Grok API
 translated: true
+type: post
 ---
 
 - Es ist in Ordnung, eine von China ausgestellte Visa-Karte zu verwenden.

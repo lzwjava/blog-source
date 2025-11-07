@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Multifeld-EMF-Messgerät
 translated: true
+type: post
 ---
 
 Ich habe kürzlich Gerüchte gehört, dass 5G-Stationen Menschen schaden könnten, was mich zu weiteren Untersuchungen veranlasst hat. Dazu habe ich ein Multi-Feld-EMF-Messgerät gekauft, um elektromagnetische Felder zu messen. EMF steht für elektromagnetisches Feld.

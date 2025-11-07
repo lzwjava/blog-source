@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: El viaje de mi hija con los teléfonos
 translated: true
+type: post
 ---
 
 ---

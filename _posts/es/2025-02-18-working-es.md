@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Trabajando
 translated: true
+type: post
 ---
 
 - Antes de obtener acceso al repositorio de código, pide a tus colegas el archivo `pom.xml` e intenta descargar las dependencias de Nexus.

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Essai DeepWiki
 translated: true
+type: post
 ---
 
 Essayez DeepWiki : [https://deepwiki.com/lzwjava/lzwjava.github.io](https://deepwiki.com/lzwjava/lzwjava.github.io).

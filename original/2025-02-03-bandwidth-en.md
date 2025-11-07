@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Bandwidth Limit
 translated: false
+type: post
 ---
 
 I'm using an Aliyun server in Hong Kong with a post-paid, Pay-By-Traffic elastic IP. However, I'm experiencing speeds below what I expect. My current bandwidth is:

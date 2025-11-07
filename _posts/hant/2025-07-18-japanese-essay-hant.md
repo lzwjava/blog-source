@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 初次寫日文
 translated: true
+type: post
 ---
 
 初次嘗試用日文寫作文，感到非常開心。呢篇作文大部份係AI寫嘅，但係唔係我先用英文寫再翻譯成日文。係咁，我係用Gemini 2.5 Flash修正指令，一句句用日文寫，再用VS Code嘅`command+k`功能修改。

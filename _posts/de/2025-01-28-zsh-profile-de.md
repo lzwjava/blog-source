@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Zsh-Profil
 translated: true
+type: post
 ---
 
 Dieses Zsh-Profil zielt darauf ab, das Kommandozeilen-Erlebnis zu verbessern, mit einem Fokus auf Proxy-Konfigurationen, Git-Integration und praktischen Aliassen. Die folgenden Abschnitte beschreiben seine Funktionen:

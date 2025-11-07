@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Dormitorio
 translated: true
+type: post
 ---
 
 ## Vista desde la puerta principal

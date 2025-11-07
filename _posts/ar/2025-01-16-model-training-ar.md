@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تدريب النموذج
 translated: true
+type: post
 ---
 
 * تأكد من صحة الكود والبيئة والبيانات قبل بدء التدريب الفعلي.

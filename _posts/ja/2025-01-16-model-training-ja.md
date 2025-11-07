@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: モデルトレーニング
 translated: true
+type: post
 ---
 
 * 実際のトレーニングを開始する前に、コード、環境、データが正しいことを確認してください。

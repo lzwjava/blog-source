@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 自动新闻摘要机器人
 translated: true
+type: post
 ---
 
 这篇帖子展示了一个基于Python的新闻机器人，它利用Mistral API抓取并汇总来自Hacker News、GitHub Trending和《纽约时报》（中文版）的热门新闻，通过Telegram发送简洁的每日简报，并通过GitHub Actions工作流实现自动化执行。是轻松跟进科技和全球新闻的理想工具。以下是每日新闻摘要的示例。

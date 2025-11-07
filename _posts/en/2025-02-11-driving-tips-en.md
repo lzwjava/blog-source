@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Driving
 translated: false
+type: post
 ---
 
 - Inflate tires twice a year.

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Un incidente de picadura de abeja y recuperación
 translated: true
+type: post
 ---
 
 Fui picado por una abeja el 1 de julio de 2025. Después de dos semanas, alrededor del 15 de julio de 2025, mi dedo se había recuperado significativamente. Los momentos más dolorosos probablemente fueron el 2 y el 3 de julio, los dos días siguientes al picadura.

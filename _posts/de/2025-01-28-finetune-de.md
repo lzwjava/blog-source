@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Ein Modell Feintunen
 translated: true
+type: post
 ---
 
 ```python

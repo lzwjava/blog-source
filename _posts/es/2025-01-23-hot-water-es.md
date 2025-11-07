@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Agua Caliente
 translated: true
+type: post
 ---
 
 - El agua caliente puede eliminar fácilmente el papel pegado a una ventana.

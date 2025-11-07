@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Shared Objects in Multiple Threads
+type: post
 ---
 
 ## Lesson

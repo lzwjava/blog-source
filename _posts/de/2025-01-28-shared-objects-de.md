@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Gemeinsame Objekte in Mehreren Threads
 translated: true
+type: post
 ---
 
 ## Lektion

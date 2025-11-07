@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Model Training
 translated: false
+type: post
 ---
 
 

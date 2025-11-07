@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Landwirtschaft
 translated: true
+type: post
 ---
 
 Wir konnten die Vergangenheit nicht ändern, aber wir können sicherlich versuchen, mehr über die Vergangenheit nachzudenken, um mehr Nutzen daraus zu ziehen und eine bessere Zukunft zu haben.

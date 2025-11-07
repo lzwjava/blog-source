@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 农耕
 translated: true
+type: post
 ---
 
 我们无法改变过去，但肯定可以尝试更多地反思过去，从中汲取更多益处，以拥有更美好的未来。

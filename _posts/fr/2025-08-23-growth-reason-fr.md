@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: La Véritable Raison derrière la Croissance
 translated: true
+type: post
 ---
 
 Vers 2017, alors que je créais ma startup, après avoir obtenu un investissement, j'ai embauché 9 employés mais j'ai dû les licencier au bout de deux mois. Cela est devenu l'une de mes leçons les plus difficiles : ne pas avoir de plan à long terme, vouloir impressionner les autres et essayer trop rapidement de développer mes compétences en gestion. La bonne nouvelle, c'est qu'en travaillant avec des ingénieurs à temps partiel sur 50 petits projets logiciels, nous avons gagné un demi-million et l'avons rendu à l'investisseur lors de la fermeture de l'entreprise.

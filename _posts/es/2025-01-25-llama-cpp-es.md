@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Intentando llama.cpp
 translated: true
+type: post
 ---
 
 ## llama.cpp

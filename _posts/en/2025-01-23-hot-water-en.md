@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Hot Water
 translated: false
+type: post
 ---
 
 

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: अच्छी चीज़ों को और कम नहीं सहा जा सकता
 translated: true
+type: post
 ---
 
 - एक बार जब हम नवीनतम iPhone का अनुभव कर लेते हैं, तो कुछ साल पुराने iPhone का उपयोग करना मुश्किल हो जाता है।

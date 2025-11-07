@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Passwort eines elektronischen Schlosses knacken
 translated: true
+type: post
 ---
 
 {: .centered }

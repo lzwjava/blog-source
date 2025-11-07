@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 如何更輕鬆地學習
 translated: true
+type: post
 ---
 
 當我於2023年4月寫下這篇文章《[為什麼和如何學習日語](https://lzwjava.github.io/japanese-en)》時，我意識到自己進步不大。兩年過去了。我已聽了超過300小時，平均每天半小時。節奏可能對我來說更熟悉了，但我仍然認不出許多單詞。

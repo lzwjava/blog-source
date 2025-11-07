@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 冗長な出力
 translated: true
+type: post
 ---
 
 - Homebrewで詳細な出力を有効にするには、`export HOMEBREW_CURL_VERBOSE=1`を`brew upgrade --verbose`と一緒に使用します。

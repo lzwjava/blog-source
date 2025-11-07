@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Grundlagen der Elektronik, die ich kenne
 translated: true
+type: post
 ---
 
 Ich kenne einige Grundlagen der Elektronik. Die Formel `V=IR` bedeutet, dass Spannung gleich Strom multipliziert mit Widerstand ist.

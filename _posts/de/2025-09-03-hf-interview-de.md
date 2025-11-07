@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Ein Interview über US-Doktorandenbewerbungen und KI-Industriejobs
 translated: true
+type: post
 ---
 
 {: .centered }

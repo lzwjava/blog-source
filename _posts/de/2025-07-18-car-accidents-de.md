@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Autounfälle in meinem Leben
 translated: true
+type: post
 ---
 
 In meinem Leben gab es einige Autounfälle. Der schwerste davon ereignete sich im April 2018, nur einen Monat nachdem ich meinen Führerschein erhalten hatte. Ich war auf dem Weg nach Xilinhot in der Inneren Mongolei. Ich fuhr mit meiner Frau etwa 100 km/h. Nachdem ich die Autobahn an einer Mautstelle verlassen hatte, die keine Kurve hatte und gerade verlief, dachte ich, ich sei immer noch auf der Autobahn. Also verlangsamte ich überhaupt nicht. Plötzlich gab es eine Kreuzung.

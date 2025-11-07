@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Cuisson en plein air
 translated: true
+type: post
 ---
 
 - Utilisez des rochers, des feuilles, des branches et des brindilles pour construire un four.

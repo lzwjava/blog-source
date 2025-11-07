@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Git大型檔案儲存庫
 translated: true
+type: post
 ---
 
 Git 大型檔案儲存庫 (Git LFS) 用於管理 Git 中的大型檔案。

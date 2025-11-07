@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: スプリングブートプロジェクトのAIツールを使った開発
 translated: true
+type: post
 ---
 
 JDKのパスは、`/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`にあります。

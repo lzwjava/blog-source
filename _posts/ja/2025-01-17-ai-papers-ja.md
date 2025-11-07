@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: AI論文
 translated: true
+type: post
 ---
 
 基礎概念とアーキテクチャ:

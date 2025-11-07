@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 車の換気口で髪を乾かす
 translated: true
+type: post
 ---
 
 最近旅行中、ホテルを出る前に髪を乾かすのを忘れてしまいました。雨の日で、数時間経っても髪はまだ濡れていました。とても不快でした。

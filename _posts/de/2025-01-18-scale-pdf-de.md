@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Skalieren von PDF-Inhalten für den Druck
 translated: true
+type: post
 ---
 
 Ich muss Dokumente drucken, und mir ist aufgefallen, dass der Weißraum um den Inhalt oft zu groß ist, was Papier verschwendet und den Text kleiner erscheinen lässt, als er sein sollte. Dieses Skript hilft dabei, den PDF-Inhalt automatisch so zu skalieren, dass er besser auf die Seite passt, indem es den Inhaltsbereich erkennt und ihn vergrößert, um die Seite zu füllen, während ein kleiner Rand eingehalten wird.

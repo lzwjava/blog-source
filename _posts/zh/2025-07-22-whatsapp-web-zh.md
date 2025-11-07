@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 使用 WhatsApp Web
 translated: true
+type: post
 ---
 
 我今天很高兴使用WhatsApp Web。它提供了全新的体验。我最初是在2019年注册WhatsApp应用程序的，当时我需要与Glassdoor的一个软件客户沟通。那次项目我赚了450欧元。

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Mauvais Ingénieur
 translated: true
+type: post
 ---
 
 - Communique uniquement par des captures d'écran, utilisant des phrases comme *"pourquoi pas ok ?"* ou *"a une question"*—anglais extrêmement basique.

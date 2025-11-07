@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Transcripción en Google Cloud
 translated: true
+type: post
 ---
 
 Recientemente experimenté con la API de Speech-to-Text de Google Cloud. A continuación, presento una función en Python que utilicé para realizar la transcripción.

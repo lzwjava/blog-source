@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 情報の輸出
 translated: true
+type: post
 ---
 
 - JD.comは、メールに情報をエクスポートすることをサポートしています。

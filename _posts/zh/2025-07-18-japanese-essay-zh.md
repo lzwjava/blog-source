@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 初次写日语作文
 translated: true
+type: post
 ---
 
 初次写作文感到非常开心。虽然这篇文章大部分是由AI完成的，但它并非我用英文写作后再翻译成日语的结果。而是，我在写日语文章时，通过在VS Code中使用`command+k`并运行Gemini 2.5 Flash的修正命令来完成的。

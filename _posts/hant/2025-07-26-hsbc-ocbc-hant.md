@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 星港銀行服務體驗
 translated: true
+type: post
 ---
 
 更新於 2025 年 9 月。

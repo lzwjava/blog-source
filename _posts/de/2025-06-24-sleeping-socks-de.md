@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Schlafstrümpfe, Schlafgewohnheiten, Sommerbaden
 translated: true
+type: post
 ---
 
 ### Inhaltsverzeichnis

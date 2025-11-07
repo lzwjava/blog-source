@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 投影機設置
 translated: true
+type: post
 ---
 
 2024年8月底，搬回父母家後，我住進了一個較小的房間。懷念投影機帶來的娛樂，我決定將它從之前的住所搬來。

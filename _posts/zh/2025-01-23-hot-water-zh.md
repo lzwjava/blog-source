@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 热水
 translated: true
+type: post
 ---
 
 - 热水可以轻松去除粘在窗户上的纸。

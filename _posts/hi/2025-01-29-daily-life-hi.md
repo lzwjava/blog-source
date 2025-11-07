@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: दैनिक जीवन की टिप्स
 translated: true
+type: post
 ---
 
 - मुझे गर्मियों में चप्पल पहनने की जरूरत नहीं है; मोजे पहनना ठीक है।

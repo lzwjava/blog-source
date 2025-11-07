@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Modelltraining
 translated: true
+type: post
 ---
 
 * Stellen Sie sicher, dass der Code, die Umgebung und die Daten korrekt sind, bevor das eigentliche Training beginnt.

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Affiner un Modèle
 translated: true
+type: post
 ---
 
 ```python

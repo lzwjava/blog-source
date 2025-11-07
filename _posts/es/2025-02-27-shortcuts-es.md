@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Dominar los atajos de iOS
 translated: true
+type: post
 ---
 
 ### Consejos para Atajos

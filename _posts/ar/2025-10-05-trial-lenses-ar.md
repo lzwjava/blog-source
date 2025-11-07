@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: استخدام العدسات التجريبية لإيجاد مقاس نظارتي المثالي
 translated: true
+type: post
 ---
 
 {: .centered }

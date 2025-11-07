@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 嘗試 llama.cpp
 translated: true
+type: post
 ---
 
 ## llama.cpp

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Electrónica Básica que Conozco
 translated: true
+type: post
 ---
 
 Sé algo de electrónica básica. La fórmula `V=IR` significa que el voltaje es igual a la corriente multiplicada por la resistencia.

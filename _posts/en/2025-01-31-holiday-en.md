@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 2025 Holiday Schedule
 translated: false
+type: post
 ---
 
 Having worked for Singaporean and Hong Kong companies, I consulted AI to compile this year's holiday schedules. Currently, I'm joining a project at a bank and am awaiting their official holiday calendar. It appears we will be following the Hong Kong schedule. I've also included the USA holidays due to my interest in US stock markets.

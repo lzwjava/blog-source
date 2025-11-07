@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 他人的想法
 translated: true
+type: post
 ---
 
 當我年輕時，我經常不太會想到別人。我通常只想到自己，也就是說，我並不太會考慮別人如何生活、他們如何看待我、他們的目的、心理狀態、掙扎、性格等。

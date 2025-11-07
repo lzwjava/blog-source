@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 坏工程师
 translated: true
+type: post
 ---
 
 - 仅通过截图交流，使用诸如“why not ok?”或“has question”等极其基础的英文短语。

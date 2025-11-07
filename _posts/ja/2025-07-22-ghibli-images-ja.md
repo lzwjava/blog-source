@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ジブリ風のイメージ
 translated: true
+type: post
 ---
 
 ジブリ風の画像を2枚しか生成できなかったので、利用制限を増やすためにChatGPT Plusの1ヶ月サブスクを再購入しました。家族や友人たちのために画像を生成し、彼らは喜んでくれています。

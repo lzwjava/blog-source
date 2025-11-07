@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Selenium浏览器自动化
 translated: true
+type: post
 ---
 
 Selenium是一个强大的网页浏览器自动化工具。它允许你以编程方式控制浏览器执行各种操作，例如导航到网页、填写表单、点击按钮和提取数据。这对于各种任务都很有用，包括网页抓取、测试 web 应用程序和自动化重复性任务。

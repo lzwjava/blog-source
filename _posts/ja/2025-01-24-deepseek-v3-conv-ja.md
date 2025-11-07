@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 深層探索V3についてのAI生成会話
 translated: true
+type: post
 ---
 
 DeepSeek v3について探求します。参考にしたのは「Multi-Head Latent Attention and Multi-token Prediction in Deepseek v3」という動画です [https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO](https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO)。Google Cloud Speech-to-Textを使って動画を文字起こしし、いくつかのコードを使ってトランスクリプトを整理しました。

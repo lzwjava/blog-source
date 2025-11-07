@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Erwartungen übertreffen und Validierung vermeiden
 translated: true
+type: post
 ---
 
 ```markdown

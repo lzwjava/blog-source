@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 如何締造美好事物
 translated: true
+type: post
 ---
 
 - 唔需要好多程式檔案，只需令一行程式碼完美。

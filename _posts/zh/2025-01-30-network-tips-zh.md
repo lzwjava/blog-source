@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 网络优化技巧
 translated: true
+type: post
 ---
 
 有用建议：

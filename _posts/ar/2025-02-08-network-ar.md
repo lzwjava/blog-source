@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: العناوين العائمة وإدارة واجهة الشبكة
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: La Bahía Pirata
 translated: true
+type: post
 ---
 
 - [https://thepiratebay.org](https://thepiratebay.org)

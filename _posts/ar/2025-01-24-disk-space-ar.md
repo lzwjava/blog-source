@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تنظيف مساحة القرص
 translated: true
+type: post
 ---
 
 ## الإعدادات

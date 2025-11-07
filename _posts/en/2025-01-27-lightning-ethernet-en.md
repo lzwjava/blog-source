@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Lightning to Ethernet Adapter
 translated: false
+type: post
 ---
 
 ### Table of Contents

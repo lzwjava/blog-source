@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 超越期望與避免驗證
 translated: true
+type: post
 ---
 
 ### 目錄

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Ajustar un Modelo
 translated: true
+type: post
 ---
 
 ```python

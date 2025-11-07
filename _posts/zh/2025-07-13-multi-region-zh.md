@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 多区域软件开发
 translated: true
+type: post
 ---
 
 对于国际公司来说，通常会有服务于多个地区用户的项目，比如新加坡、香港、英国、美国和中国。

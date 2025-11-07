@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: خليج القراصنة
 translated: true
+type: post
 ---
 
 [https://thepiratebay.org](https://thepiratebay.org)

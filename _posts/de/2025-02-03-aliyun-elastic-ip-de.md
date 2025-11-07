@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Aliyun Elastic IPs verwalten
 translated: true
+type: post
 ---
 
 Dieses Skript bietet eine Kommandozeilen-Schnittstelle zur Verwaltung von Aliyun Elastic IPs (EIPs). Es ermöglicht das Erstellen, Binden, Aufheben der Bindung und Freigeben von EIPs mithilfe des Aliyun SDK für Python. Das Skript verwendet Argumente für den auszuführenden Job und die Allocation ID der EIP.

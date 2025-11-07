@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تثبيت أرش لينكس
 translated: true
+type: post
 ---
 
 Lenovo Xiaoxing 14IAH8 لاب توب.

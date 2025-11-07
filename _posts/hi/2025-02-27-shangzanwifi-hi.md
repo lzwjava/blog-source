@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: पोर्टेबल हॉटस्पॉट शंघज़ानवाईफाई
 translated: true
+type: post
 ---
 
 - http://shangzanwifi.com, JD.com से लगभग 45 CNY में खरीदा गया Wi-Fi पोर्टेबल हॉटस्पॉट।

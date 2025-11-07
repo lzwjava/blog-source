@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 安装Arch Linux
 translated: true
+type: post
 ---
 
 联想小新14IAH8笔记本电脑。

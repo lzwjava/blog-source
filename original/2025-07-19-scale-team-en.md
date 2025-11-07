@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: How to Build and Scale a High-Performance Team
 translated: false
+type: post
 ---
 
 ### Table of Contents

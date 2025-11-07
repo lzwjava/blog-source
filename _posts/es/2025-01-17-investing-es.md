@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Inversión
 translated: true
+type: post
 ---
 
 - Usa una cuenta bancaria dedicada para el comercio P2P al comprar criptomonedas en China. Esto facilita grabar videos o tomar capturas de pantalla, permitiendo que los comerciantes verifiquen el historial de transacciones, ya que este suele ser breve.

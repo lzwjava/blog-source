@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 2025 Feiertagskalender
 translated: true
+type: post
 ---
 
 Nach der Arbeit für singapurische und hongkongische Unternehmen habe ich KI konsultiert, um den diesjährigen Feiertagskalender zu erstellen. Derzeit arbeite ich an einem Projekt bei einer Bank und warte auf deren offiziellen Feiertagskalender. Es scheint, dass wir dem Hongkonger Kalender folgen werden. Ich habe auch die US-Feiertage aufgrund meines Interesses an den US-Aktienmärkten aufgenommen.

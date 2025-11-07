@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Nützliche Hinweise
 translated: true
+type: post
 ---
 
 ```json

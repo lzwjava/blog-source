@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: गर्म पानी
 translated: true
+type: post
 ---
 
 - गर्म पानी आसानी से खिड़की पर चिपके हुए कागज को हटा सकता है।

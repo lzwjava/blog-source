@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Développement logiciel multi-régions
 translated: true
+type: post
 ---
 
 Pour les entreprises internationales, il existe souvent des projets qui servent les populations de plusieurs régions, comme Singapour, Hong Kong, le Royaume-Uni, les États-Unis et la Chine.

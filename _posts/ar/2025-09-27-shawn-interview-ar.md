@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: مقابلة حول بناء أطر الذكاء الاصطناعي وخيارات الحياة
 translated: true
+type: post
 ---
 
 {: .centered }

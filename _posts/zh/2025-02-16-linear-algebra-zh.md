@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 线性代数
 translated: true
+type: post
 ---
 
 - 奇异值分解可用于图像压缩。

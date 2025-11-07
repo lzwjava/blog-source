@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: llama.cppを試す
 translated: true
+type: post
 ---
 
 ## llama.cpp

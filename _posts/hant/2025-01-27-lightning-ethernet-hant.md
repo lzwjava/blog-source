@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 雷電轉以太網轉接器
 translated: true
+type: post
 ---
 
 我最近試用了一款從未使用過的新產品。它在京東買的花了我約44人民幣。類似的產品在Walmart.com上賣約15美元。

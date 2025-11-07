@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Compra Artículos de Segunda Mano Baratos
 translated: true
+type: post
 ---
 
 - Pague alrededor de 30 CNY para comprar radios, teléfonos móviles, relojes inteligentes, routers, etc., de segunda mano.

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: La Baie des Pirates
 translated: true
+type: post
 ---
 
 [https://thepiratebay.org](https://thepiratebay.org)

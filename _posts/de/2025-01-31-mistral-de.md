@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Testen der Mistral API
 translated: true
+type: post
 ---
 
 Dieser Beitrag ist ein schneller Test der Mistral-API. Ich verwende das `mistral-small-2501`-Modell für diesen Test. Der untenstehende Code zeigt, wie man die API aufruft und eine Antwort erhält.

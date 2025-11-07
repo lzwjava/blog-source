@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 優化人工智能之軟件工程
 translated: true
+type: post
 ---
 
 ### 目錄

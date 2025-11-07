@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Warum wir im KI-Zeitalter schreiben
 translated: true
+type: post
 ---
 
 Der wichtigste Grund, warum wir im Zeitalter der KI noch immer schreiben müssen, ist, dass es uns hilft, besser zu denken. Es ist leicht, KI zu nutzen, um Ideen oder Gedanken zu erweitern, aber KI kann dir nicht beim Denken helfen.

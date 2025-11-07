@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Arbeiten in einem Elektroauto
 translated: true
+type: post
 ---
 
 Kürzlich habe ich wieder in meinem EV gearbeitet. Zuvor hatte ich einen tragbaren Schreibtisch im Auto verwendet, aber es war immer noch unpraktisch. Ich musste ihn auf dem Rücksitz statt auf dem Hauptsitz verwenden.

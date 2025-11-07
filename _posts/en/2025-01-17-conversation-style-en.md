@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Conversation Audio Generation
 translated: false
+type: post
 ---
 
 

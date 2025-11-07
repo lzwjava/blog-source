@@ -7,6 +7,7 @@ layout: post
 title: 我最有用的網站和應用程式
 top: 10
 translated: true
+type: post
 ---
 
 *2025年8月更新*

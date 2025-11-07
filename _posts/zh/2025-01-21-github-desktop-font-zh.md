@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: GitHub Desktop 中的字体渲染问题
 translated: true
+type: post
 ---
 
 GitHub Desktop 版本 3.4.13 (arm64) 在文本差异面板中针对特定语言存在字体渲染问题。受影响的语言包括：

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 使用AI建構SQL查詢
 translated: true
+type: post
 ---
 
 **資料庫架構 (PostgreSQL):**

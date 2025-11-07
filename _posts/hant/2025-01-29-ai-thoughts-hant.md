@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: AI工作流程、代碼編輯器與平台顛覆
 translated: true
+type: post
 ---
 
 ### 目錄  

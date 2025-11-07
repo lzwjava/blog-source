@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 代理工具：Squid 與 Danted
 translated: true
+type: post
 ---
 
 ## Danted

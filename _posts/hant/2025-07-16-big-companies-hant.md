@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 大公司
 translated: true
+type: post
 ---
 
 ### 大公司的現象

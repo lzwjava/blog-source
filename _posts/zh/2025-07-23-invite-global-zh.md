@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 邀请全球同事使用中国应用
 translated: true
+type: post
 ---
 
 当我开始为新加坡银行担任合同工时，我开始使用LinkedIn并在那里发布了一些博客。我也开始更频繁地使用WhatsApp和YouTube。

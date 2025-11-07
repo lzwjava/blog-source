@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: الشبكة العصبية، المحول، وGPT
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

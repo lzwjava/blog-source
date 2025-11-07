@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 模型訓練
 translated: true
+type: post
 ---
 
 * 在開始實際訓練之前，確保代碼、環境和數據都是正確的。

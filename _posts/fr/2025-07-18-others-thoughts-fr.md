@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Pensées des autres
 translated: true
+type: post
 ---
 
 Quand j'étais jeune, je ne pensais pas beaucoup aux autres. Je pensais surtout à moi-même, ce qui signifie que je ne me souciais pas beaucoup de la façon dont les autres vivaient, de ce qu'ils pensaient de moi, de leurs objectifs, de leur état mental, de leurs luttes, de leur caractère, etc.

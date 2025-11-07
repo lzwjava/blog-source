@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 基礎電子學我懂
 translated: true
+type: post
 ---
 
 我知道一些基本的電子學。公式 `V=IR` 表示電壓等於電流乘以電阻。

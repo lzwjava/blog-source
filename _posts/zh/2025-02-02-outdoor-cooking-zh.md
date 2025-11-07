@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 户外烹饪
 translated: true
+type: post
 ---
 
 - 使用石头、树叶、树枝和树枝搭建炉子。

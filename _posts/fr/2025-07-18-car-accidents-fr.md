@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Les Accidents de Voiture dans Ma Vie
 translated: true
+type: post
 ---
 
 Il y a eu quelques accidents de voiture dans ma vie. Le plus grave s'est produit en avril 2018, juste un mois après l'obtention de mon permis de conduire. Je me rendais à Xilinhot, en Mongolie Intérieure. Je conduisais à environ 100 km/h avec ma femme. Après avoir quitté l'autoroute à un péage, qui n'avait pas de virage et était droit, j'ai cru que j'étais toujours sur l'autoroute. Je n'ai donc pas ralenti du tout. Soudain, il y a eu un carrefour.

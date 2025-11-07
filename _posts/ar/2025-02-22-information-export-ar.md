@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تصدير المعلومات
 translated: true
+type: post
 ---
 
 - JD.com يدعم تصدير المعلومات إلى بريدك الإلكتروني.

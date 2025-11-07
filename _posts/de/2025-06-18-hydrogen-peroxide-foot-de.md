@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Kann Wasserstoffperoxid Fußpilz heilen
 translated: true
+type: post
 ---
 
 Als ich in der Mittelschule war, hatte ich Fußpilz. Manchmal waren Teile meines Fußes weiß, und die Haut löste sich ab, wodurch tote Haut zurückblieb. Es schien, als hätte mein Fuß lange geschwitzt. Wenn ich nach Hause kam, halfen meine Eltern mir, meinen Fuß zu waschen. Sie waren schockiert.

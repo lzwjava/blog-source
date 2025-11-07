@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Dreieckiger Stabständeraufbau
 translated: true
+type: post
 ---
 
 Ich habe in letzter Zeit über die strukturelle Stabilität nachgedacht, insbesondere nachdem ich bemerkt habe, wie die Höhe meines Projektorständers dessen Gleichgewicht beeinflusst. Wenn der Ständer ausgefahren ist, wird der schwere Projektor viel anfälliger für das Umkippen. Selbst eine leichte Erhöhung von 10 cm, wenn der Projektor nicht perfekt waagerecht ist, erhöht die Kraft auf die Basis dramatisch, was die gesamte Aufstellung anfällig für das Umfallen macht.

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Reconocimiento de voz en tiempo real
 translated: true
+type: post
 ---
 
 Este código Python implementa el reconocimiento de voz en tiempo real utilizando la API de Google Cloud Speech-to-Text y la biblioteca PyAudio. Captura audio del micrófono, lo transmite a la API de Speech-to-Text e imprime el texto transcrito. La clase `MicrophoneStream` maneja la entrada de audio, y la función `main` configura el cliente de reconocimiento de voz y procesa la transmisión de audio.

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Gedanken anderer
 translated: true
+type: post
 ---
 
 Als ich jung war, dachte ich oft nicht viel über andere nach. Ich dachte meistens an mich selbst, was bedeutet, dass ich nicht viel darüber nachdachte, wie andere lebten, was sie von mir dachten, ihre Ziele, ihren geistigen Zustand, ihre Kämpfe, ihre Charaktere usw.

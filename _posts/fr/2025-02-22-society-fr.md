@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Société
 translated: true
+type: post
 ---
 
 - Les gens naissent, grandissent, mangent, se soulagent, dorment, travaillent, étudient, se reposent, voyagent, pensent, parlent, entendent, touchent, écrivent, lisent, marchent, sautent, jouent à des sports, utilisent des téléphones mobiles, jouent à des jeux, se battent, tuent, guérissent, construisent, détruisent et meurent.

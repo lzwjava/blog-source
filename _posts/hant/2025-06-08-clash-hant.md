@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 自動化Clash代理管理
 translated: true
+type: post
 ---
 
 本貼文詳細介紹了一個Python腳本`clash.py`，旨在**自動化管理您的Clash代理配置**。它涵蓋了從**定期下載更新的代理配置**和**重啟Clash服務**，到**智能選擇並切換至指定組內最快的可用代理**等所有功能。配合`clash.py`使用的`speed.py`模組，則負責**對各個Clash代理進行並行延遲測試**，確保您的連接始終通過最佳服務器路由。

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Zsh 配置文件
 translated: true
+type: post
 ---
 
 这个zsh配置文件旨在提高命令行体验，重点放在代理配置、Git集成和方便的别名上。以下各节详细介绍其功能：

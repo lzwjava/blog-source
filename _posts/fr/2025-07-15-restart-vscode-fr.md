@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Gestion automatisée des brouillons de blog avec redémarrage de VSCode
 translated: true
+type: post
 ---
 
 Le script que vous avez fourni est conçu pour automatiser le processus de publication de brouillons d'articles de blog de manière structurée. Il est particulièrement utile pour les blogueurs ou les créateurs de contenu qui gèrent leurs articles sous forme de brouillons avant qu'ils ne soient prêts à être publiés. Voici une introduction étendue pour donner plus de contexte sur le script :

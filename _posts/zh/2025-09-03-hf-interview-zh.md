@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 美国博士申请与AI行业就业访谈
 translated: true
+type: post
 ---
 
 {: .centered }

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: नींद की मोज़े, नींद की आदतें, गर्मियों में स्नान
 translated: true
+type: post
 ---
 
 ### विषय-सूची

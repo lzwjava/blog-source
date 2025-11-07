@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 探究200Mbps带宽限制
 translated: true
+type: post
 ---
 
 我正在使用香港的阿里云服务器，使用了后付费、按流量计费的弹性IP。但是，我的速度低于预期。我目前的带宽是：

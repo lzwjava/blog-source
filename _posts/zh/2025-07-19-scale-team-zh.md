@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 如何扩大团队
 translated: true
+type: post
 ---
 
 - 从长远角度考虑。你的预算够吗？你的团队能坚持多久？如果扩大团队后没有收益，该怎么办？

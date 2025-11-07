@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: في الشركات الكبيرة
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

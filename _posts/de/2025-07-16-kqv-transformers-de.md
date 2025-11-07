@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Neuronales Netzwerk, Transformer und GPT
 translated: true
+type: post
 ---
 
 ### Inhaltsverzeichnis

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Hetzner Cloud
 translated: false
+type: post
 ---
 
 

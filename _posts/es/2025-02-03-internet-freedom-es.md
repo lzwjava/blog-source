@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: El viaje para buscar la libertad en internet
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

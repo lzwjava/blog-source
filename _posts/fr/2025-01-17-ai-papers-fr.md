@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Papiers d'IA
 translated: true
+type: post
 ---
 
 Concepts Fondamentaux & Architectures :

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: AIワークフロー、コードエディター、プラットフォームの破壊
 translated: true
+type: post
 ---
 
 ### 目次

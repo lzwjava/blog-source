@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: A Bee Sting Incident and Recovery
 translated: false
+type: post
 ---
 
 I was stung by a bee on July 1, 2025. After two weeks, around July 15, 2025, my finger had recovered significantly. The most painful moments were probably July 2 and July 3, the two days following the sting.

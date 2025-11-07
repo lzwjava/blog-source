@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 我經常安裝的Pip套件
 translated: true
+type: post
 ---
 
 pip 列表：

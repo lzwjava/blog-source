@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 超越期望与避免验证
 translated: true
+type: post
 ---
 
 ### 目录

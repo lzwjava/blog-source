@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 雷电到以太网转接器
 translated: true
+type: post
 ---
 
 我最近试用了一款之前从未使用过的新产品，它在京东上花了我大约 44 元人民币。类似的产品在沃尔玛网站上大约是 15 美元。

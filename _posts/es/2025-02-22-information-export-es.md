@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Exportación de Información
 translated: true
+type: post
 ---
 
 - JD.com puede enviar datos a tu correo electrónico.

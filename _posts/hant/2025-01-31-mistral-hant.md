@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 測試 Mistral API
 translated: true
+type: post
 ---
 
 這篇文章是快速測試 Mistral API 的。我使用 `mistral-small-2501` 模型進行這次測試。下面的程式碼顯示如何呼叫 API 並獲取回應。

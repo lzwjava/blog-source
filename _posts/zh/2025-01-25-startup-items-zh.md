@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 清理 macOS 的启动项
 translated: true
+type: post
 ---
 
 要管理在登录 macOS（包括 macOS 15.2 及更高版本）时自动启动的应用程序和进程，您可以调整启动项。以下是具体步骤：

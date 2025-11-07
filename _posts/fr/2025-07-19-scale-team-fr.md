@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Comment scaler une équipe
 translated: true
+type: post
 ---
 
 - Pensez à long terme. Avez-vous suffisamment de budget ? Combien de temps votre équipe peut-elle survivre ? Que se passera-t-il s'il n'y a pas de gain après l'expansion de l'équipe ?

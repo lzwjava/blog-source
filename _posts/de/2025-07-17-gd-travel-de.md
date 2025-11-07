@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Nordfahrt nach Nordguangdong
 translated: true
+type: post
 ---
 
 Machen Sie eine Roadtrip mit 3 Tagen Urlaub von Zengcheng, Guangzhou, nach Fogang, dann nach Yingde, gefolgt von Shaoguan Stadtzentrum, dann nach Ruyuan in Shaoguan, dann nach Lechang, dann zurück nach Shaoguan, dann nach Fogang und schließlich zurück nach Zengcheng. Starten Sie am Abend des 12. Juli und kehren Sie am Abend des 16. Juli zurück.

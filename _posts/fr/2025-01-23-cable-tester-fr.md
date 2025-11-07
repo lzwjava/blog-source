@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Testeur de câble réseau
 translated: true
+type: post
 ---
 
 J'ai récemment acheté un testeur de câble réseau sur JD.com. J'ai vu des consultants réseau venir chez moi ou au bureau de mon employeur pour tester le réseau.

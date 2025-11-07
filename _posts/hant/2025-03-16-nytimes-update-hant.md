@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 《紐約時報新聞（中文）文章更新觸發》
 translated: true
+type: post
 ---
 
 點擊下方按鈕以更新 [NYTimes CN 文章](./notes/2025-03-14-nytimes-en)。

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 飲み物のカロリー
 translated: true
+type: post
 ---
 
 私はよく飲み物が甘すぎると感じることがあります。無糖の選択肢は健康的ですが、制限が厳しすぎることもあります。

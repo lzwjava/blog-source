@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Installer Arch Linux
 translated: true
+type: post
 ---
 
 Lenovo Xiaoxing 14IAH8 Ordinateur portable.

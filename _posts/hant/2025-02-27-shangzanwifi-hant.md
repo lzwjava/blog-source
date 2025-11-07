@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 便攜式熱點尚善網
 translated: true
+type: post
 ---
 
 - http://shangzanwifi.com，從京東購買約45元人民幣的Wi-Fi便攜熱點。

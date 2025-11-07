@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: المزودون للخدمات السحابية
 translated: true
+type: post
 ---
 
 استخدمت:

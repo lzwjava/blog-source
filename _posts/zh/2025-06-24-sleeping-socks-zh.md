@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 助眠袜、睡眠习惯与夏日沐浴
 translated: true
+type: post
 ---
 
 ### 目录

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Trabajando en un coche eléctrico
 translated: true
+type: post
 ---
 
 ## Trabajando en un Coche Eléctrico

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: لا نتحمل أشياء أقل جودة
 translated: true
+type: post
 ---
 
 - بعد تجربة أحدث آيفون، يصبح من الصعب استخدام آيفون من سنوات سابقة.

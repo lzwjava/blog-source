@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Ganando Dinero
 translated: true
+type: post
 ---
 
 - Trabajé como ingeniero de software para empresas.

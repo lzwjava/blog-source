@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: अपेक्षाओं से परे
 translated: true
+type: post
 ---
 
 वादा निभाना अच्छा है, लेकिन अपेक्षाओं से आगे जाना बेहतर है।

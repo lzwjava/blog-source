@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Nützliche Befehle
 translated: true
+type: post
 ---
 
 Hier sind einige nützliche Befehle, die ich häufig in der Entwicklung und Systemverwaltung verwende.

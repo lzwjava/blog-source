@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Mit Testgläsern meine ideale Brillenkorrektur finden
 translated: true
+type: post
 ---
 
 {: .centered }

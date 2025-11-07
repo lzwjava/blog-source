@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Investing
+type: post
 ---
 
 - Use a dedicated bank account for P2P trading when buying cryptocurrency in China. This makes it easier to record videos or take screenshots, allowing merchants to verify the transaction history, as the transaction history is short.

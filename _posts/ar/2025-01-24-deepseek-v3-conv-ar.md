@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: محادثة منشأة بالذكاء الاصطناعي حول DeepSeek V3
 translated: true
+type: post
 ---
 
 يتناول النص هنا استكشاف نموذج DeepSeek v3، مع الإشارة إلى الفيديو "Multi-Head Latent Attention and Multi-token Prediction in Deepseek v3" [https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO](https://youtu.be/jL49fLOJYNg?si=4uE2kfe-BlKC1ngO). تم استخدام خدمة تحويل الكلام إلى نص من Google لنسخ الفيديو، بالإضافة إلى بعض الأكواد المساعدة لتنظيم النص.

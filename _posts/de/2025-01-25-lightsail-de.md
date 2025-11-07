@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Verwalten von AWS Lightsail-Instanzen
 translated: true
+type: post
 ---
 
 Unten finden Sie eine Richtlinie, die die notwendigen Berechtigungen für die Verwaltung von Lightsail-Instanzen gewährt:

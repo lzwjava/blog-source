@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Sortie Verbose
 translated: true
+type: post
 ---
 
 - Pour activer la sortie verbale dans Homebrew, utilisez `export HOMEBREW_CURL_VERBOSE=1` en conjunction avec `brew upgrade --verbose`.

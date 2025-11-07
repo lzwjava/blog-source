@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Viaje por el norte de Guangdong
 translated: true
+type: post
 ---
 
 Realiza un viaje por carretera con 3 días de vacaciones anuales desde Zengcheng, Guangzhou, hasta Fogang, luego a Yingde, seguido por el centro de Shaoguan, luego a Ruyuan en Shaoguan, luego a Lechang, luego de regreso a Shaoguan, luego a Fogang y finalmente a Zengcheng. Comienza la noche del 12 de julio y regresa la noche del 16 de julio.

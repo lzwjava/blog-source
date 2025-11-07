@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Cloud Providers
 translated: false
+type: post
 ---
 
 

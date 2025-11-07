@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: اختبار واجهة برمجة التطبيقات Grok
 translated: true
+type: post
 ---
 
 - يمكن استخدام بطاقة الباستا الصادرة من الصين.

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ヘッツネルクラウド
 translated: true
+type: post
 ---
 
 最近、このクラウドプラットフォームに対して非常に興奮しています。

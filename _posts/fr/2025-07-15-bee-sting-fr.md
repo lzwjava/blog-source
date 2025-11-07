@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Un incident de piqûre d'abeille et la récupération
 translated: true
+type: post
 ---
 
 J'ai été piqué par une abeille le 1er juillet 2025. Après deux semaines, vers le 15 juillet 2025, mon doigt s'était considérablement rétabli. Les moments les plus douloureux étaient probablement le 2 juillet et le 3 juillet, les deux jours qui ont suivi la piqûre.

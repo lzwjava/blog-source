@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: Mistral API ko Test Karna
 translated: true
+type: post
 ---
 
 यह पोस्ट Mistral API के तेज़ टेस्ट का एक नमूना है। मैं इस टेस्ट के लिए `mistral-small-2501` मॉडल का उपयोग कर रहा हूँ। नीचे दी गई कोड दिखाती है कि API को कैसे कॉल किया जाए और जवाब प्राप्त किया जाए।

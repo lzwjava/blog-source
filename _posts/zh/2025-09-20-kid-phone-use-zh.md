@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 女儿与手机的成长历程
 translated: true
+type: post
 ---
 
 以下短文基于真实故事并经 AI 润色。尽管只有部分内容为原创，但反映了真实经历。

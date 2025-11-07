@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Daily Life Tips
 translated: false
+type: post
 ---
 
 - I do not need to wear slippers in the winter; wearing socks is fine.

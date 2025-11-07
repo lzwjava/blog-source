@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Paquetes de Homebrew que Instalo
 translated: true
+type: post
 ---
 
 % brew list

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 投資
 translated: true
+type: post
 ---
 
 - 在中國購買加密貨幣時，為P2P交易使用專用的銀行賬戶。這樣更容易錄製視頻或截屏，方便商家核實交易記錄，因為交易記錄較短。

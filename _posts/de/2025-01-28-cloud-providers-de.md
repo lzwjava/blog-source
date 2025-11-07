@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Cloud-Anbieter
 translated: true
+type: post
 ---
 
 **Verwendet:**

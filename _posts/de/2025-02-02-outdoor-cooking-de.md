@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Draußenkochen
 translated: true
+type: post
 ---
 
 - Verwenden Sie Steine, Blätter, Zweige und Äste, um einen Ofen zu bauen.

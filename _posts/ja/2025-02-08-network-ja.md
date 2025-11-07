@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: クラウドIP、ネットワークインターフェースおよびWiFi最適化
 translated: true
+type: post
 ---
 
 ```markdown

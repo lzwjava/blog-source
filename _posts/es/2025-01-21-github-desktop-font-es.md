@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Problemas de Renderizado de Fuentes en GitHub Desktop
 translated: true
+type: post
 ---
 
 La versión 3.4.13 (arm64) de GitHub Desktop presenta problemas de renderizado de fuentes en el panel de diferencias de texto para idiomas específicos. Los idiomas problemáticos incluyen:

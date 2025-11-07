@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Wie man leichter lernt
 translated: true
+type: post
 ---
 
 Als ich diesen Aufsatz im April 2023 schrieb, [Warum und Wie ich Japanisch Lerne](https://lzwjava.github.io/japanese-en), wurde mir klar, dass ich kaum Fortschritte gemacht hatte. Zwei Jahre sind vergangen. Ich habe mehr als 300 Stunden zugehört, durchschnittlich eine halbe Stunde pro Tag. Der Rhythmus mag mir vertrauter geworden sein, aber ich kann immer noch viele Wörter nicht erkennen.

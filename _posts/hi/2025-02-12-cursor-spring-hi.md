@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: ऐआई टूल्स के साथ स्प्रिंग बूट प्रोजेक्ट्स विकास
 translated: true
+type: post
 ---
 
 JDK ka paath `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home` par paaya jaata hai.

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: क्लाउड आईपी, नेटवर्क इंटरफेस और वाईफाई अनुकूलन
 translated: true
+type: post
 ---
 
 ### विषय-सूची

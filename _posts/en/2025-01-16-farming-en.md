@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Farming
 translated: false
+type: post
 ---
 
 

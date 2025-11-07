@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Automatisierter Entwurf für Blogverwaltung mit VSCode-Neustart
 translated: true
+type: post
 ---
 
 Das von Ihnen bereitgestellte Skript ist darauf ausgelegt, den Prozess des Veröffentlichens von Blog-Entwürfen auf strukturierte Weise zu automatisieren. Es ist besonders nützlich für Blogger oder Content-Creator, die ihre Beiträge als Entwürfe verwalten, bevor sie veröffentlicht werden. Hier ist eine erweiterte Einführung, um mehr Kontext über das Skript zu geben:

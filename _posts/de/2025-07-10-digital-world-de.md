@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Digitale Welt Reflexion
 translated: true
+type: post
 ---
 
 - Ab 2025 bin ich mir mehr bewusst, wie unsere Welt zunehmend digitalisiert wird. Ich gehe dreimal pro Woche ins Büro und arbeite online mit Kollegen, die ebenfalls online sind. Selbst wenn ich auf der Straße oder auf dem Basketballplatz bin, sehe ich viele Menschen um mich herum, aber irgendwie kann ich sie nicht wirklich sehen. Meine Welt besteht nur noch aus meinem Handy und meinem Laptop. Ich sehe, was dort angezeigt wird, und passe soziale Netzwerke an, um bestimmte Wörter oder Sprachen zu blockieren.

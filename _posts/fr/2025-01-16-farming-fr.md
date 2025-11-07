@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Agriculture
 translated: true
+type: post
 ---
 
 Nous ne pouvions pas changer le passé, mais nous pouvions certainement essayer de réfléchir davantage au passé pour en tirer plus de bénéfices et avoir un avenir meilleur.

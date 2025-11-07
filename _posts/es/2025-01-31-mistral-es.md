@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Prueba de la API de Mistral
 translated: true
+type: post
 ---
 
 Esta publicación es una prueba rápida de la API de Mistral. Estoy utilizando el modelo `mistral-small-2501` para esta prueba. El código a continuación muestra cómo llamar a la API y obtener una respuesta.

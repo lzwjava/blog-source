@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Ventilation de voiture et lavage des mains
 translated: true
+type: post
 ---
 
 ### Utiliser une Bouche d'Aération de Voiture pour Sécher les Cheveux

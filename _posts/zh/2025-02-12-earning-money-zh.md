@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 赚钱
 translated: true
+type: post
 ---
 
 - 在公司担任软件工程师。

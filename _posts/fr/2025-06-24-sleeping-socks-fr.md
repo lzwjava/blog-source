@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Chaussettes de sommeil
 translated: true
+type: post
 ---
 
 ## Chaussettes pour dormir

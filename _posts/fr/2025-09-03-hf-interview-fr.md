@@ -7,6 +7,7 @@ layout: post
 title: Un Entretien sur les demandes de doctorat aux États-Unis et les emplois dans
   l'industrie de l'IA
 translated: true
+type: post
 ---
 
 {: .centered }

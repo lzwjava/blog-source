@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 自動新聞摘要機器人
 translated: true
+type: post
 ---
 
 這篇貼文展示了一個基於Python的新聞機器人，它利用Mistral API從Hacker News、GitHub Trending和《紐約時報》（中文版）抓取並摘要頂尖新聞。該機器人透過Telegram發送簡潔的每日報告，並使用GitHub Actions工作流程實現自動化執行。這是一個輕鬆掌握科技與全球新聞的理想工具。以下是每日新聞摘要的範例。

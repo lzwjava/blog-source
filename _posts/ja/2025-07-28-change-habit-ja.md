@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 習慣の変化、具体性、意欲
 translated: true
+type: post
 ---
 
 ### 目次

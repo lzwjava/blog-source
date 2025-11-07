@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Exportation d'informations
 translated: true
+type: post
 ---
 
 - JD.com prend en charge l'exportation d'informations vers votre email.

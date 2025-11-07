@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Working in an EV Car
 translated: false
+type: post
 ---
 
 ## Working in an EV Car

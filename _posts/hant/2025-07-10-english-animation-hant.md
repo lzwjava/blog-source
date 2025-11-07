@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 女兒的英文動畫之旅
 translated: true
+type: post
 ---
 
 {: .centered }

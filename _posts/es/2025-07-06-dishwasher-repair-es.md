@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Reparación de Lavavajillas
 translated: true
+type: post
 ---
 
 Recientemente, trasladé mi lavavajillas desde la casa de mis padres a mi hogar en la misma ciudad. El lavavajillas es un Midea 13 Q7. Lo compré en el verano de 2019 mientras trabajaba en Beijing. A principios de 2020, utilicé el servicio de mensajería Deppon para enviarlo a Guangzhou.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Information Export
 translated: false
+type: post
 ---
 
 - JD.com supports exporting information to your email.

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 汽车通风和洗手
 translated: true
+type: post
 ---
 
 ### 使用汽车通风口吹干头发

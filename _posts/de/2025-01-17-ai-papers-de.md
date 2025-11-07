@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: KI-Papiere
 translated: true
+type: post
 ---
 
 Grundlegende Konzepte & Architekturen:

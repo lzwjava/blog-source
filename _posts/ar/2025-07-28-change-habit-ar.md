@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تغيير العادة، التحديد، الإرادة
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Salida Verbosa
 translated: true
+type: post
 ---
 
 - Para habilitar la salida detallada en Homebrew, use `export HOMEBREW_CURL_VERBOSE=1` en conjunto con `brew upgrade --verbose`.

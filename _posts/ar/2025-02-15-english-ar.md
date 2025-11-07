@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: الدليل الكامل لتعلم اللغة الإنجليزية
 translated: true
+type: post
 ---
 
 ---

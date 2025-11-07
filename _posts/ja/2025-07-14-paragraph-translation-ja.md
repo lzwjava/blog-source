@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: パラグラフベースのマークダウンを使用した翻訳コストの最適化
 translated: true
+type: post
 ---
 
 私のJekyllブログは、段落を書くためにMarkdownを使用しています。英語で書いた後、DeepSeekやMistralのようなAIツールを使って8つの他の言語に翻訳します。それらはすでに安価ですが、改善の余地があります。

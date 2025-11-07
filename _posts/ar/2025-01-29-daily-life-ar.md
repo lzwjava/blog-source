@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: أفكار الحياة اليومية
 translated: true
+type: post
 ---
 
 - لا تحتاج إلى ارتداء النعال في الشتاء؛ ارتداء الجوارب كافي.

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Développer des projets Spring Boot avec des outils d'IA
 translated: true
+type: post
 ---
 
 Le chemin du JDK se trouve à `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`.

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Die animierte Reise meiner Tochter
 translated: true
+type: post
 ---
 
 {: .centered }

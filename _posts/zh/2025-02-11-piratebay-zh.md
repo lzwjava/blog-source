@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 海盗湾
 translated: true
+type: post
 ---
 
 [https://thepiratebay.org](https://thepiratebay.org)

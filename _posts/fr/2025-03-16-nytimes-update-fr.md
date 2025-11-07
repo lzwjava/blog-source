@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Mises à jour des articles NYTimes News (CN) déclencheurs
 translated: true
+type: post
 ---
 
 Cliquez sur le bouton ci-dessous pour mettre à jour les articles [NYTimes CN](./notes/2025-03-14-nytimes-en).

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Managing Aliyun Elastic IPs
 translated: false
+type: post
 ---
 
 This script provides a command-line interface to manage Aliyun Elastic IPs (EIPs). It allows you to create, bind, unbind, and release EIPs using the Aliyun SDK for Python. The script takes arguments for the job to perform and the allocation ID of the EIP.

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Investigando el límite de ancho de banda de 200M
 translated: true
+type: post
 ---
 
 Estoy usando un servidor de Aliyun en Hong Kong con una IP elástica de pago por tráfico, pospago. Sin embargo, estoy experimentando velocidades inferiores a las que espero. Mi ancho de banda actual es:

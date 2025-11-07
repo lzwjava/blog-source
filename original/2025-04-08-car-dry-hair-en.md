@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Car Vent and Washing Hands
 translated: false
+type: post
 ---
 
 ### Using a Car Vent to Dry Hair

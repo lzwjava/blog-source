@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 追寻因特网自由之路
 translated: true
+type: post
 ---
 
 ### 目录

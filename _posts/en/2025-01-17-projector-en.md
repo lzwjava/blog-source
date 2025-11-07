@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Projector Setup
 translated: false
+type: post
 ---
 
 

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Ein Bienenstich und die Genesung
 translated: true
+type: post
 ---
 
 Ich wurde am 1. Juli 2025 von einer Biene gestochen. Nach zwei Wochen, etwa am 15. Juli 2025, hatte sich mein Finger deutlich erholt. Die schmerzhaftesten Momente waren wahrscheinlich der 2. und 3. Juli, die beiden Tage nach dem Stich.

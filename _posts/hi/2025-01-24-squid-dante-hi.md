@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: 'प्रॉक्सी टूल: Squid और Danted'
 translated: true
+type: post
 ---
 
 ## Danted

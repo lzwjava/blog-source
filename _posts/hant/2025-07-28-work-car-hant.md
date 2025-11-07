@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 電動車工作
 translated: true
+type: post
 ---
 
 最近，我再次嘗試在我的電動車內工作。我之前曾使用過一個可攜式書桌，但仍然不太方便。我需要在後座而不是主座上使用它。

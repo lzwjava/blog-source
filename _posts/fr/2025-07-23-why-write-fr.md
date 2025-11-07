@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Pourquoi nous écrivons à l'ère de l'IA
 translated: true
+type: post
 ---
 
 La raison la plus importante pour laquelle nous devons encore écrire à l'ère de l'IA est que cela nous aide à mieux réfléchir. Il est facile d'utiliser l'IA pour développer des idées ou des pensées, mais l'IA ne peut pas vous aider à penser.

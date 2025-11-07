@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 人工智慧論文
 translated: true
+type: post
 ---
 
 基礎概念與架構：

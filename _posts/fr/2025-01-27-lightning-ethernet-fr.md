@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Adaptateur Lightning vers Ethernet
 translated: true
+type: post
 ---
 
 J'ai récemment essayé un nouveau produit que je n'avais jamais utilisé auparavant. Il m'a coûté environ 44 CNY sur JD.com. Des produits similaires coûtent environ 15 USD sur Walmart.com.

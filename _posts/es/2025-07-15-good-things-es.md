@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: No Podemos Soportar Menos Cosas Buenas
 translated: true
+type: post
 ---
 
 - Una vez que hemos experimentado el último iPhone, es difícil volver a usar uno de hace unos años.

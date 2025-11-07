@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Optimiza Recordatorios a través de Telegram
 translated: true
+type: post
 ---
 
 En este proyecto, configuré un sistema de recordatorios automatizado utilizando GitHub Actions y un bot de Telegram para mantener mis tareas diarias y mensuales bajo control. Mediante el uso de horarios cron, configuré recordatorios para tareas laborales como fichar en WeCom, enviar hojas de horas y revisar salarios, así como tareas personales como visitar a la familia, comprar en JD.com e incluso ver la televisión con mi pareja. El sistema utiliza un script en Python para enviar mensajes a través de la API de bots de Telegram, con variables de entorno almacenadas de forma segura en GitHub Secrets. Esta configuración garantiza que nunca pierda plazos críticos ni compromisos personales, combinando tecnología con la vida cotidiana para una máxima eficiencia.

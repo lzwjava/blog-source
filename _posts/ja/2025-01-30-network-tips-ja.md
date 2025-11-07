@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ネットワーク最適化のヒント
 translated: true
+type: post
 ---
 
 便利、推奨：

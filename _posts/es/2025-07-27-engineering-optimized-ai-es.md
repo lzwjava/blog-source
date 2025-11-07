@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Optimización de la Ingeniería de Software para la IA
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

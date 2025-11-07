@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: ¿Podemos evitar que los mosquitos entren en el coche?
 translated: true
+type: post
 ---
 
 A veces, cuando como fideos instantáneos en el auto, hay olores dentro del auto. Tengo una lámpara eléctrica que los electrocuta, pero eso toma algún tiempo para atraerlos y que los choque la electricidad.

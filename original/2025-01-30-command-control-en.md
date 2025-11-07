@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: macOS Command Control
 translated: false
+type: post
 ---
 
 ## WiFi

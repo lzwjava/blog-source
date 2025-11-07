@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 掌握 iOS 速捷指令
 translated: true
+type: post
 ---
 
 ### 簡化操作技巧

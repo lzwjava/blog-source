@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Working
 translated: false
+type: post
 ---
 
 - Before gaining access to the code repository, ask colleagues for the `pom.xml` file and try to download Nexus dependencies.

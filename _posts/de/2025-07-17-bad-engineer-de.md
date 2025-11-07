@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Schlechter Ingenieur
 translated: true
+type: post
 ---
 
 - Kommuniziert nur über Screenshots, mit Sätzen wie *"warum nicht ok?"* oder *"hat Frage"* – extrem einfaches Englisch.

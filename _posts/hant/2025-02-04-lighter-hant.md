@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 火炬手
 translated: true
+type: post
 ---
 
 在一次與朋友家人戶外烹飪活動中，我遇到了一個有趣的工具：噴槍打火機。它的火焰與傳統打火機不同，具有抗風性。

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: お金を稼ぐ
 translated: true
+type: post
 ---
 
 - ソフトウェアエンジニアとして会社で働きました。

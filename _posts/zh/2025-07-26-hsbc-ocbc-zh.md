@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 新加坡与香港银行服务体验
 translated: true
+type: post
 ---
 
 更新于 2025年9月。

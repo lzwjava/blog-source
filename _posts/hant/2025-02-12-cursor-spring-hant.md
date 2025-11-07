@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 開發 Spring Boot 專案與 AI 工具
 translated: true
+type: post
 ---
 
 JDK 路徑位於 `/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home`。

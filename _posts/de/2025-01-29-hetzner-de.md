@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Hetzner Cloud
 translated: true
+type: post
 ---
 
 Ich bin sehr aufgeregt, diese Cloud-Plattform auszuprobieren, die kürzlich gestartet wurde.

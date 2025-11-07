@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Prueba de la API de Grok
 translated: true
+type: post
 ---
 
 - Está bien usar una tarjeta de Visa emitida por China.

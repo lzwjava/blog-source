@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 投资
 translated: true
+type: post
 ---
 
 - 在中国购买加密货币时，建议使用专用银行账户进行P2P交易。这样便于录制视频或截图供商家验证交易记录，因为交易历史较短。

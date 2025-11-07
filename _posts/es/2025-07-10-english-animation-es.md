@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: El Viaje de la Animación de Mi Hija
 translated: true
+type: post
 ---
 
 {: .centered }

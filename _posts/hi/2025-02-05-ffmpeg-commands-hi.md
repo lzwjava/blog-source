@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: FFmpeg आदेश
 translated: true
+type: post
 ---
 
 यहाँ कुछ ffmpeg कमांड हैं जिनका मैं उपयोग करता हूँ।

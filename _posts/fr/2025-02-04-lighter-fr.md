@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Allumeur de torche
 translated: true
+type: post
 ---
 
 Lors d'une cuisson en plein air avec la famille d'un ami, j'ai découvert un outil intéressant : un briquet torche. Sa flamme différait des briquets traditionnels, présentant une résistance au vent.

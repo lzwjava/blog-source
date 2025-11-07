@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: FFmpeg-Befehle
 translated: true
+type: post
 ---
 
 Hier sind einige ffmpeg-Befehle, die ich verwende.

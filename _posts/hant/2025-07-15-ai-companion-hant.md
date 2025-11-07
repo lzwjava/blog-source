@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 對話AI伴侶
 translated: true
+type: post
 ---
 
 我最近在履歷摘要中加入了一個新點：

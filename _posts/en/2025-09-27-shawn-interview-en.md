@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: An Interview on Building AI Frameworks and Life Choices
 translated: false
+type: post
 ---
 
 {: .centered }

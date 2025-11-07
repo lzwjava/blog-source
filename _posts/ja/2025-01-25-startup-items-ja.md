@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: macOSのスタートアップ項目を整理する
 translated: true
+type: post
 ---
 
 macOS（macOS 15.2以降を含む）にログインした際に自動的に起動するアプリケーションやプロセスを管理するには、スタートアップ項目を調整することができます。以下にその方法を紹介します。

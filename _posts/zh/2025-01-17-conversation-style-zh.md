@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 对话音频生成
 translated: true
+type: post
 ---
 
 受到一段关于DeepSeek-V3讨论的YouTube视频启发，我一直在尝试AI生成的对话。我的目标是使用Google文本转语音（Text-to-Speech）和ffmpeg来生成和拼接音频对话，以创造出逼真的音频对话。以下代码概述了我目前模拟自然来回对话的方法。

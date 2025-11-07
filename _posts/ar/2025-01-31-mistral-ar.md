@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: إختبار API مستريل
 translated: true
+type: post
 ---
 
 هذا المنشور هو اختبار سريع لAPI Mistral. أنا أستخدم نموذج `mistral-small-2501` لهذا الاختبار. الكود أدناه يوضح كيفية استدعاء API وحصول على إجابة.

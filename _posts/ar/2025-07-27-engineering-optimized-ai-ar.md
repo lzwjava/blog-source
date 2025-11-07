@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تحسين هندسة البرمجيات للذكاء الاصطناعي
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

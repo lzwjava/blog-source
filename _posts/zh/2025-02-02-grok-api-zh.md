@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 测试Grok API
 translated: true
+type: post
 ---
 
 - 可以使用中国签发的Visa卡。

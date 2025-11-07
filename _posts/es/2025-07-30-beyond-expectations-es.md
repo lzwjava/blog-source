@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Superar Expectativas y Evitar la Validación
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

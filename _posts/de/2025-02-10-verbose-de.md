@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Wortreicher Ausgabe
 translated: true
+type: post
 ---
 
 - Um detaillierte Ausgabe in Homebrew zu aktivieren, verwenden Sie `export HOMEBREW_CURL_VERBOSE=1` in Kombination mit `brew upgrade --verbose`.

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Papers de IA
 translated: true
+type: post
 ---
 
 Conceptos Fundamentales y Arquitecturas:

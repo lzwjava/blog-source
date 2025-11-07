@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 睡眠用ソックス、睡眠習慣、夏の入浴法
 translated: true
+type: post
 ---
 
 ### 目次

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: استخدام تقنيات iOS بشكل متقدم
 translated: true
+type: post
 ---
 
 ### نصائح الإختصارات

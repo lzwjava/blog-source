@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Mastering iOS Shortcuts
 translated: false
+type: post
 ---
 
 ### Shortcuts Tips

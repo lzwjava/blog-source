@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 開源路由器入侵小米路由器 4C
 translated: true
+type: post
 ---
 
 這是我第三次嘗試安裝 OpenWrt。第一次是在 2019 年，當時我使用 UART 端口連接。第二次是在 2023 年，我使用了一種與這裡描述相似的遠程方法。

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Calories dans les Boissons
 translated: true
+type: post
 ---
 
 Je trouve souvent que de nombreuses boissons sont trop sucrées. Bien que les options sans sucre soient plus saines, elles peuvent sembler trop restrictives.

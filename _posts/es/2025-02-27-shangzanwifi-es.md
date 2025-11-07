@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Punto de acceso portátil Shangzanwifi
 translated: true
+type: post
 ---
 
 - http://shangzanwifi.com, punto de acceso Wi-Fi portátil comprado en JD.com por alrededor de 45 CNY.

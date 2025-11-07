@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Control de Comandos de macOS
 translated: true
+type: post
 ---
 
 ## WiFi

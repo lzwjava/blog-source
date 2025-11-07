@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Inviter les collègues du monde entier à utiliser les applications chinoises
 translated: true
+type: post
 ---
 
 Lorsque j'ai commencé à travailler comme contractuel pour une banque singapourienne, j'ai commencé à utiliser LinkedIn et à y publier quelques blogs. J'ai également commencé à utiliser WhatsApp et YouTube plus fréquemment.

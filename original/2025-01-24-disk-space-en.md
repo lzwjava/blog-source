@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Clean Up Disk Space
+type: post
 ---
 
 ## Settings

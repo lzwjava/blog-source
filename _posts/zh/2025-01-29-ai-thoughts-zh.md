@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 人工智能工作流、代码编辑器与平台颠覆
 translated: true
+type: post
 ---
 
 ### 目录  

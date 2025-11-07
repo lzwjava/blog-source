@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Sleeping Socks, Sleep Habits, Summer Bathing
 translated: false
+type: post
 ---
 
 ### Table of Contents

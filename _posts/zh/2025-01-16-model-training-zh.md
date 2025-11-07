@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 模型训练
 translated: true
+type: post
 ---
 
 * 在开始实际训练之前，确保代码、环境和数据都是正确的。

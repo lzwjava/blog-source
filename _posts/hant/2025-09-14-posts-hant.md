@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 博客文章
 translated: true
+type: post
 ---
 
 這個網站上的博客文章。

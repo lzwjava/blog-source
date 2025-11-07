@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Trying llama.cpp and Ollama
+type: post
 ---
 
 ## llama.cpp

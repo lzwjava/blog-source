@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Arch Linuxのインストール
 translated: true
+type: post
 ---
 
 Lenovo Xiaoxing 14IAH8 ノートパソコン。

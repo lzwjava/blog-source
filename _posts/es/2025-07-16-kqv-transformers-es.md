@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Red Neuronal, Transformer y GPT
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

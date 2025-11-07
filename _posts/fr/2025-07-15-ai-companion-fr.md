@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Discuter avec un compagnon IA
 translated: true
+type: post
 ---
 
 J'ai récemment ajouté un point au résumé de mon CV :

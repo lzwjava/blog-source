@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 有關建構人工智能框架和人生抉擇的訪談
 translated: true
+type: post
 ---
 
 {: .centered }

@@ -7,6 +7,7 @@ layout: post
 title: Una entrevista sobre las solicitudes de doctorado en EE. UU. y los trabajos
   en la industria de la IA
 translated: true
+type: post
 ---
 
 {: .centered }

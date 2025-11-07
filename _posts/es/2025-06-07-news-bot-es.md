@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Bot Automatizado de Resumen de Noticias
 translated: true
+type: post
 ---
 
 Esta publicación presenta un bot de noticias basado en Python que recopila y resume las principales historias de Hacker News, GitHub Trending y NYTimes (en chino) utilizando la API de Mistral. Envía informes diarios concisos a través de Telegram, con un flujo de trabajo de GitHub Actions para su ejecución automatizada. Ideal para mantenerse al día con noticias tecnológicas y globales sin esfuerzo.

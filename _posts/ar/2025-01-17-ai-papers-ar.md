@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: أوراق بحثية عن الذكاء الاصطناعي
 translated: true
+type: post
 ---
 
 المفاهيم والأسس المعمارية:

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ニューラルネットワーク、トランスフォーマー、GPT
 translated: true
+type: post
 ---
 
 ### 目次

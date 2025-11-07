@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: インターネットの自由を追求する旅
 translated: true
+type: post
 ---
 
 ### 目次

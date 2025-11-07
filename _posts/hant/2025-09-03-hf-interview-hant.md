@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 美國博士申請與人工智能行業職位訪談
 translated: true
+type: post
 ---
 
 {: .centered }

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Réflection du monde numérique
 translated: true
+type: post
 ---
 
 - À partir de 2025, je suis plus conscient de notre monde de plus en plus numérisé. Je vais au bureau 3 jours par semaine et je travaille en ligne avec des collègues qui sont également en ligne. Même quand je suis dans la rue ou sur le terrain de basket, je vois beaucoup de gens autour de moi, mais d'une certaine manière, je ne les vois pas vraiment. Mon monde est devenu juste mon téléphone portable et mon ordinateur portable. Je vois ce qui y est affiché et je personnalise les réseaux sociaux pour bloquer certains mots ou langues.

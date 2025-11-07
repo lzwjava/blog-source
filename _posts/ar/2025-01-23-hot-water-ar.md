@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: ماء ساخن
 translated: true
+type: post
 ---
 
 - الماء الساخن يمكن أن يزيل الورق العالق على النافذة بسهولة.

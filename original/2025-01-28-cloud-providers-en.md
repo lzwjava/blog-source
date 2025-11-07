@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Cloud Providers
+type: post
 ---
 
 Used:
