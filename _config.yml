@@ -62,6 +62,11 @@ exclude:
   - gcm-diagnose.log
   - AGENTS.md
 
+collections:
+  notes:
+    output: true
+    permalink: /notes/:path/
+
 markdown: kramdown
 
 kramdown:
