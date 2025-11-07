@@ -4,31 +4,7 @@ layout: page
 
 {% include sort.html %}
 
-<ul class="post-list">
-  {% if site.posts.size > 0 %}
-  {% for post in site.posts %}
-  {% assign translated = post.translated %}
-  {% assign generated = post.generated %}
-  {% if translated == nil %}
-  {% assign translated = false %}
-  {% endif %}
-  {% if generated == nil %}
-  {% assign generated = false %}
-  {% endif %}
-  {% if post.path contains '_posts/es/' %}
-  <li class="list-group-item post-item lang-es" data-top="{{ post.top }}" data-translated="{{ translated }}"
-    data-generated="{{ generated }}">
-    <a href="{{ post.url }}">
-      <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
-      <span class="type"> {% if post.image %}image{% else %}text{% endif %}</span>
-      <span class="title">{{ post.title }}</span>
-    </a>
-  </li>
-  {% endif %}{% endfor %}
-  {% else %}
-  <li class="list-group-item post-item">No posts available. </li>
-  {% endif %}
-</ul>
+{% include post-list.html lang='es' %}
 
 {% include footer.html %}
 
