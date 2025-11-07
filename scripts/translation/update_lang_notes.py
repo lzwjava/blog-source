@@ -21,6 +21,17 @@ def get_output_filename(filename, target_lang):
     raise Exception(f"Unexpected filename format: {filename}")
 
 
+def copy_original_file(source_file, dest_file):
+    """Copy original file for source language translations."""
+    try:
+        shutil.copy2(source_file, dest_file)
+        print(f"Successfully copied {source_file} to {dest_file}")
+        return True
+    except Exception as e:
+        print(f"Error copying {source_file} to {dest_file}: {e}")
+        raise e
+
+
 def get_recent_files(n):
     """Get the n most recent files by modification time."""
     try:
@@ -184,6 +195,10 @@ def main():
     for lang in languages:
         os.makedirs(f"_notes/{lang}", exist_ok=True)
 
+    # Create source language directories (_notes/en, _notes/zh, _notes/ja)
+    for orig_lang in ["en", "zh", "ja"]:
+        os.makedirs(f"_notes/{orig_lang}", exist_ok=True)
+
     if input_file:
         changed_files = {(input_file, lang) for lang in languages if not os.path.exists(os.path.join(f"_notes/{lang}", get_output_filename(os.path.basename(input_file), lang)))}
         total_files_to_process = len(changed_files)
@@ -227,10 +242,25 @@ def main():
             os.makedirs(output_dir, exist_ok=True)
             output_filename = get_output_filename(os.path.basename(filename), lang)
             output_file = os.path.join(output_dir, output_filename)
-            print(f"Submitting translation job for {filename} to {lang}...")
-            future = executor.submit(
-                translate_markdown_file, input_file, output_file, lang, model
-            )
+
+            # Get the original language from the filename
+            orig_lang = None
+            filename_base = os.path.basename(filename)
+            for possible in ["en", "zh", "ja"]:
+                if filename_base.endswith(f"-{possible}.md"):
+                    orig_lang = possible
+                    break
+
+            if orig_lang == lang:
+                # If target language is same as source language, copy the file
+                print(f"Copying original file {filename} to {output_file}...")
+                future = executor.submit(copy_original_file, input_file, output_file)
+            else:
+                # Otherwise, translate it
+                print(f"Submitting translation job for {filename} to {lang}...")
+                future = executor.submit(
+                    translate_markdown_file, input_file, output_file, lang, model
+                )
             futures.append(future)
         for future in concurrent.futures.as_completed(futures):
             try:
