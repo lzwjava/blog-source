@@ -33,7 +33,7 @@ def extract_name_from_path_or_name(input_str):
 
 def delete_md(name_or_path, include_original=False):
     """Delete Markdown files and associated assets for the given name or path across languages.
-    Also deletes from notes directory and _posts/en translations.
+    Also deletes from notes directory and all _posts translations for all languages.
 
     Args:
         name_or_path: Either a file path or a simple name
@@ -59,18 +59,18 @@ def delete_md(name_or_path, include_original=False):
             else:
                 print(f"Note file not found: {note_file_path}")
 
-    # Delete _posts/en translations specifically
-    lang = "en"
-    # Construct the file name pattern for _posts/en
-    md_file_pattern = os.path.join(posts_dir, lang, f"{name}-{lang}.md")
+    # Delete _posts translations for all languages
+    for lang in langs:
+        # Construct the file name pattern for _posts/{lang}
+        md_file_pattern = os.path.join(posts_dir, lang, f"{name}-{lang}.md")
 
-    # Find and delete matching _posts/en Markdown files
-    for md_file_path in glob.glob(md_file_pattern):
-        if os.path.exists(md_file_path):
-            os.remove(md_file_path)
-            print(f"Deleted file: {md_file_path}")
-        else:
-            print(f"File not found: {md_file_path}")
+        # Find and delete matching _posts/{lang} Markdown files
+        for md_file_path in glob.glob(md_file_pattern):
+            if os.path.exists(md_file_path):
+                os.remove(md_file_path)
+                print(f"Deleted file: {md_file_path}")
+            else:
+                print(f"File not found: {md_file_path}")
 
     # Delete original file if include_original is True
     if include_original:
