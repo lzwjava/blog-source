@@ -2,7 +2,10 @@ import os
 import argparse
 import frontmatter
 import re
-from tests.workflow.test_front_matter import scan_markdown_files_for_front_matter_key_order, scan_markdown_files_for_front_matter_issues
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
+from tests.workflow.test_front_matter import scan_markdown_files_for_front_matter_key_order
 
 # Wrapper to maintain existing interface
 def scan_markdown_files_for_front_matter_key_order_wrapper(verbose=False):
