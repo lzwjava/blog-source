@@ -38,11 +38,11 @@ jobs:
         run: |
           python scripts/translation/update_lang_notes.py --n ${{ inputs.n }}
 
-      - name: Commit and push translated notes   
+      - name: Commit and push translated notes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _notes/**/**
+          git add _posts/**/**
           git diff --cached --quiet || git commit -m "docs(notes) Add translated notes"
           git push
 
