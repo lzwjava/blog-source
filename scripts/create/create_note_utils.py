@@ -83,14 +83,15 @@ def format_front_matter(full_title, note_model_key: str, date=None):
         raise ValueError(f"Unknown model key '{note_model_key}'. Valid keys: {', '.join(sorted(MODEL_MAPPING.keys()))}")
     model_full = MODEL_MAPPING[note_model_key]
     return f"""---
-title: {full_title}
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: {model_full}
+title: {full_title}
+translated: false
+type: note
 ---"""
 
 
