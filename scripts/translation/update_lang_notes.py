@@ -104,17 +104,13 @@ def main():
     else:
         languages = [target_language]
 
-    # Create _notes directory and language subdirectories
-    os.makedirs("_notes", exist_ok=True)
+    # Create _posts directory and language subdirectories (consistent with update_lang.py)
+    os.makedirs("_posts", exist_ok=True)
     for lang in languages:
-        os.makedirs(f"_notes/{lang}", exist_ok=True)
-
-    # Create source language directories (_notes/en, _notes/zh, _notes/ja)
-    for orig_lang in ["en", "zh", "ja"]:
-        os.makedirs(f"_notes/{orig_lang}", exist_ok=True)
+        os.makedirs(f"_posts/{lang}", exist_ok=True)
 
     if input_file:
-        changed_files = {(input_file, lang) for lang in languages if not os.path.exists(os.path.join(f"_notes/{lang}", get_output_filename(os.path.basename(input_file), lang)))}
+        changed_files = {(input_file, lang) for lang in languages if not os.path.exists(os.path.join(f"_posts/{lang}", get_output_filename(os.path.basename(input_file), lang)))}
         total_files_to_process = len(changed_files)
     elif n is not None:
         recent_files = get_recent_files(n)
@@ -129,7 +125,7 @@ def main():
             if orig_lang:
                 for lang in languages:
                     target_filename = get_output_filename(filename, lang)
-                    target_file = os.path.join(f"_notes/{lang}", target_filename)
+                    target_file = os.path.join(f"_posts/{lang}", target_filename)
                     if not os.path.exists(target_file):
                         changed_files.add((input_file, lang))
         total_files_to_process = len(changed_files)
@@ -149,7 +145,7 @@ def main():
         futures = []
         for filename, lang in changed_files:
             input_file = filename
-            output_dir = f"_notes/{lang}"
+            output_dir = f"_posts/{lang}"
             os.makedirs(output_dir, exist_ok=True)
             output_filename = get_output_filename(os.path.basename(filename), lang)
             output_file = os.path.join(output_dir, output_filename)
