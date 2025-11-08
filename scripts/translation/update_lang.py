@@ -269,7 +269,7 @@ def main():
                 if orig_lang:
                     for lang in languages:
                         target_filename = get_output_filename(filename, lang)
-                        target_file = os.path.join(f"_notes/{lang}", target_filename) if is_notes else os.path.join(f"_posts/{lang}", target_filename)
+                        target_file = os.path.join(f"_posts/{lang}", target_filename)  # Always check _posts
                         if not os.path.exists(target_file):
                             changed_files.add((input_file, lang))
             total_files_to_process = len(changed_files)
@@ -295,7 +295,7 @@ def main():
         futures = []
         for filename, lang in changed_files:
             input_file = filename
-            output_dir = f"_notes/{lang}" if is_notes else f"_posts/{lang}"
+            output_dir = f"_posts/{lang}"  # Always use _posts for output
             os.makedirs(output_dir, exist_ok=True)
             output_filename = get_output_filename(os.path.basename(filename), lang)
             output_file = os.path.join(output_dir, output_filename)
