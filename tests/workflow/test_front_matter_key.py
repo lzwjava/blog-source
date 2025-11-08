@@ -1,6 +1,7 @@
 import unittest
 import re
 import os
+import frontmatter
 
 def scan_markdown_files_for_front_matter_key_order():
     """Scan all markdown files for front matter where keys are not in alphabetical order."""
@@ -21,40 +22,26 @@ def scan_markdown_files_for_front_matter_key_order():
 
                 file_path = os.path.join(root, filename)
                 try:
-                    with open(file_path, 'r', encoding='utf-8') as f:
-                        lines = f.readlines()
-
-                    # Only check first 50 lines for front matter
-                    content = ''.join(lines[:50])
-
-                    # Check if file starts with front matter
-                    if not content.startswith('---\n'):
+                    # Use frontmatter library for proper YAML parsing
+                    post = frontmatter.load(file_path)
+                    if not post.metadata:
                         continue
-
-                    # Find the front matter block
-                    front_matter_match = re.search(r'^---\n(.*?)\n---', content, re.MULTILINE | re.DOTALL)
-                    if not front_matter_match:
-                        continue
-
-                    front_matter_content = front_matter_match.group(1)
-
-                    # Extract key lines (lines that contain colons, ignoring comments)
-                    key_lines = []
-                    for line in front_matter_content.split('\n'):
-                        line = line.strip()
-                        if ':' in line and not line.startswith('#'):
-                            # Extract key (everything before the first colon)
-                            key = line.split(':', 1)[0].strip()
-                            key_lines.append((key, line))
 
                     # Check if keys are in alphabetical order
-                    sorted_keys = sorted([key for key, _ in key_lines])
-                    actual_keys = [key for key, _ in key_lines]
+                    actual_keys = list(post.metadata.keys())
+                    sorted_keys = sorted(actual_keys)
 
                     if actual_keys != sorted_keys:
                         # Find line number of the front matter start
-                        front_matter_start = content.find('---\n') + 4  # After opening ---
-                        line_number = content[:front_matter_start].count('\n') + 1
+                        with open(file_path, 'r', encoding='utf-8') as f:
+                            lines = f.readlines()
+
+                        # Count lines until first front matter key
+                        line_number = 1
+                        for line in lines[:50]:
+                            if line.strip().startswith('---'):
+                                break
+                            line_number += 1
 
                         # Find first out-of-order key
                         first_out_of_order_index = None
@@ -71,8 +58,8 @@ def scan_markdown_files_for_front_matter_key_order():
                             'first_misplaced_key': actual_keys[first_out_of_order_index] if first_out_of_order_index is not None else None
                         })
 
-                except (UnicodeDecodeError, IOError) as e:
-                    # Skip files that can't be read
+                except (UnicodeDecodeError, IOError, Exception) as e:
+                    # Skip files that can't be read or parsed
                     continue
 
     return issues

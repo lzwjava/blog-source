@@ -1,11 +1,11 @@
 ---
-title: "Bitter Lesson" Drives Transformer Evolution
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
+title: '"Bitter Lesson" Drives Transformer Evolution'
+translated: false
 ---
 
 In his talk at the Stanford CS25 event, Hyung Won Chung provides a detailed historical and predictive analysis of **Transformer architectures**, arguing that understanding the driving forces behind their evolution is key to anticipating the future of AI. The core of his argument is centered on "The Bitter Lesson" of AI development, which he illustrates through the evolution of Transformer models.
