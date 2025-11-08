@@ -3,7 +3,7 @@ import re
 import frontmatter
 import datetime
 import argparse
-from .type_flag_util import update_front_matter
+from type_flag_util import update_front_matter
 
 def main():
     parser = argparse.ArgumentParser(description='Update front matter in blog notes files')
