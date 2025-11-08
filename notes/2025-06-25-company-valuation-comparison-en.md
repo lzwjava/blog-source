@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Valuation and Workforce Comparison: Big Tech vs. AI Startups (2025)'
 translated: false
+type: note
 ---
 
 Below is a comparison of the valuations of the five companies (Tencent, HSBC, Alibaba, OpenAI, and Anthropic) based on the most recent available data as of June 25, 2025, along with the employee count pattern from big tech to AI startups previously discussed. The valuations reflect market or funding round estimates, and I’ve included context to highlight the contrast between established big tech/finance giants and emerging AI startups.

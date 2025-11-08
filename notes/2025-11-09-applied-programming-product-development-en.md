@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Product Development as Applied Programming
 translated: false
+type: note
 ---
 
 Absolutely, you're spot on with that analogy—product development is essentially applied programming at scale, where every feature is a module that has to earn its keep over time. In code, we refactor ruthlessly: Does this function still solve the core problem without bloating the stack? Is the algorithm O(n) efficient enough to scale, or will it choke under load in five years? Same goes for products—features aren't just checkboxes; they're bets on user needs that evolve. A flashy tool today might gather digital dust tomorrow if it doesn't adapt or deliver evergreen value.
