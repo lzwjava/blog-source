@@ -23,7 +23,7 @@
         "z-ai/glm-4.6",
         "x-ai/grok-code-fast-1",
         "x-ai/grok-4-fast",
-        "minimax/minimax-m2:free"
+        "minimax/minimax-m2"
       ],
       "transformer": {
         "use": [
@@ -33,11 +33,11 @@
     }
   ],
   "Router": {
-    "default": "openrouter,x-ai/grok-code-fast-1",
-    "background": "openrouter,x-ai/grok-code-fast-1",
-    "think": "openrouter,x-ai/grok-code-fast-1",
-    "longContext": "openrouter,x-ai/grok-code-fast-1",
+    "default": "openrouter,minimax/minimax-m2",
+    "background": "openrouter,minimax/minimax-m2",
+    "think": "openrouter,minimax/minimax-m2",
+    "longContext": "openrouter,minimax/minimax-m2",
     "longContextThreshold": 30000,
-    "webSearch": "openrouter,x-ai/grok-code-fast-1"
+    "webSearch": "openrouter,minimax/minimax-m2"
   }
 }
