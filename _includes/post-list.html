@@ -1,7 +1,7 @@
 <ul class="post-list">
   {% assign type = include.type | default: "posts" %}
-  {% assign collection = site[type] %}
-  {% assign lang_path = '_' | append: type | append: '/' | append: include.lang | append: '/' %}
+  {% assign collection = site.posts %}
+  {% assign lang_path = '_' | append: 'posts' | append: '/' | append: include.lang | append: '/' %}
 
   {% if collection.size > 0 %}
   {% for post in collection %}
@@ -14,15 +14,17 @@
   {% assign generated = false %}
   {% endif %}
   {% if post.path contains lang_path %}
+  {% capture post_type %}{% if post.type == "note" %}notes{% else %}posts{% endif %}{% endcapture %}
+  {% if type == post_type %}
   <li class="list-group-item post-item lang-{{ include.lang }} type-{{ type }}" data-top="{{ post.top }}" data-translated="{{ translated }}"
-    data-generated="{{ generated }}">
+    data-generated="{{ generated }}" data-type="{{ post.type }}">
     <a href="{{ post.url }}">
       <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
       <span class="type"> {% if post.image %}image{% else %}text{% endif %}</span>
       <span class="title">{{ post.title }}</span>
     </a>
   </li>
-  {% endif %}{% endfor %}
+  {% endif %}{% endif %}{% endfor %}
   {% else %}
   <li class="list-group-item post-item">No {{ type }} available. </li>
   {% endif %}

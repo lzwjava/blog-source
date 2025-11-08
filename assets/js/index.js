@@ -34,6 +34,7 @@ window.addEventListener('load', function () {
     // Count and display posts
     const posts = document.querySelectorAll('.post-list li.post-item');
     const translatedCount = Array.from(posts).filter(post => post.dataset.translated === 'true').length;
+    const notesFiltered = Array.from(posts).filter(post => post.dataset.type === 'note').length;
     const displayLang = localStorage.getItem('selectedLanguage') || currentLang;
     const translatedText = translations[displayLang] || translations['en'];
     postNumber.innerHTML = `${posts.length} (${translatedCount} ${translatedText} by <a href="https://mistral.ai">AI</a>)`;
