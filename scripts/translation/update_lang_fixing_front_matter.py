@@ -12,39 +12,11 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
 from tests.workflow.test_front_matter import scan_markdown_files_for_front_matter_issues
 from markdown_translate_client import translate_markdown_file
+from update_lang_utils import get_original_file_for_post
 
 load_dotenv()
 
 MAX_THREADS = 10
-
-
-def get_original_file_for_post(post_file):
-    """Find the original file for a given post file."""
-    # Extract base name and language from post file
-    # e.g., _posts/zh/2024-11-29-vision-tips-zh.md -> 2024-11-29-vision-tips, zh
-    base_name = os.path.basename(post_file)
-    if not base_name.endswith('.md'):
-        return None
-    
-    # Remove .md extension
-    base_name = base_name[:-3]
-    
-    # Extract language suffix
-    lang_match = re.search(r'-([a-z]{2}|hant)$', base_name)
-    if not lang_match:
-        return None
-    
-    lang = lang_match.group(1)
-    base_without_lang = base_name[:-len(lang)-1]  # Remove -lang suffix
-    
-    # Look for original file in preferred order
-    preferred_orig_langs = ['en', 'zh', 'ja']
-    for orig_lang in preferred_orig_langs:
-        original_file = os.path.join('original', f"{base_without_lang}-{orig_lang}.md")
-        if os.path.exists(original_file):
-            return original_file, lang
-    
-    return None
 
 
 def fix_front_matter_issues(issues, target_languages=None, dry_run=False, model="deepseek-v3.2"):
@@ -68,21 +40,36 @@ def fix_front_matter_issues(issues, target_languages=None, dry_run=False, model=
         print(f"\nProcessing {post_file} with {len(file_issues)} front matter issues:")
         for issue in file_issues:
             print(f"  Line {issue['line']}: Front matter closing --- immediately followed by {issue['following_char']}")
-        
+
         # Find the original file
         original_info = get_original_file_for_post(post_file)
         if not original_info:
             print(f"  Warning: Could not find original file for {post_file}")
             continue
-        
+
         original_file, current_lang = original_info
         print(f"  Original file: {original_file}")
         print(f"  Current language: {current_lang}")
-        
+
+        # Determine content type (post or note) by checking the original file's frontmatter
+        try:
+            with open(original_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+            first_marker = content.find('---')
+            second_marker = content.find('---', first_marker + 3)
+            if first_marker != -1 and second_marker != -1:
+                frontmatter = content[first_marker:second_marker + 3]
+                content_type = 'note' if 'type: note' in frontmatter else 'post'
+            else:
+                content_type = 'post'  # Default to post if no frontmatter found
+        except (UnicodeDecodeError, IOError) as e:
+            print(f"  Warning: Could not read frontmatter from {original_file}: {e}")
+            content_type = 'post'  # Default to post on error
+
         # Add retranslation job
         if not target_languages or current_lang in target_languages:
-            translation_jobs.append((original_file, current_lang))
-            print(f"  Added retranslation job: {original_file} -> {current_lang}")
+            translation_jobs.append((original_file, current_lang, content_type))
+            print(f"  Added retranslation job: {original_file} -> {content_type}/{current_lang}")
     
     if not translation_jobs:
         print("No translation jobs to execute.")
@@ -90,8 +77,8 @@ def fix_front_matter_issues(issues, target_languages=None, dry_run=False, model=
     
     if dry_run:
         print(f"\nDry run mode: Would retranslate {len(translation_jobs)} files:")
-        for original_file, lang in translation_jobs:
-            print(f"  {original_file} -> {lang}")
+        for original_file, lang, content_type in translation_jobs:
+            print(f"  {original_file} -> {content_type}/{lang}")
         return
     
     print(f"\nStarting retranslation of {len(translation_jobs)} files...")
@@ -99,11 +86,14 @@ def fix_front_matter_issues(issues, target_languages=None, dry_run=False, model=
     # Execute translation jobs
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         futures = []
-        for original_file, lang in translation_jobs:
-            # Determine output file
-            output_dir = f"_posts/{lang}"
+        for original_file, lang, content_type in translation_jobs:
+            # Determine output directory based on content type
+            if content_type == 'note':
+                output_dir = f"_notes/{lang}"
+            else:
+                output_dir = f"_posts/{lang}"
             os.makedirs(output_dir, exist_ok=True)
-            
+
             base_name = os.path.basename(original_file)
             # Replace original language suffix with target language
             for orig_suffix in ['-en.md', '-zh.md', '-ja.md']:
@@ -113,9 +103,9 @@ def fix_front_matter_issues(issues, target_languages=None, dry_run=False, model=
             else:
                 print(f"Warning: Unexpected filename format: {base_name}")
                 continue
-            
+
             output_file = os.path.join(output_dir, output_filename)
-            
+
             print(f"Submitting translation job: {original_file} -> {output_file}")
             future = executor.submit(
                 translate_markdown_file, original_file, output_file, lang, model
