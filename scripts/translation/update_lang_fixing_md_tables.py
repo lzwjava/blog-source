@@ -12,6 +12,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
 from tests.workflow.test_md_tables import scan_markdown_files_for_table_issues
 from markdown_translate_client import translate_markdown_file
+from update_lang_utils import get_original_file_for_post
 
 load_dotenv()
 
