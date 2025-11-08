@@ -55,14 +55,21 @@ def get_original_file_for_post(post_file):
 
     # Look for original file based on post type
     if post_type == 'note':
-        # For notes, look in _notes directory
+        # For notes, look in _notes directory first (organized by lang subdirectories)
         notes_dir = '_notes'
         if os.path.exists(notes_dir):
             for orig_lang in ['en', 'zh', 'ja']:
                 original_file = os.path.join(notes_dir, orig_lang, f"{base_without_lang}-{orig_lang}.md")
                 if os.path.exists(original_file):
                     return original_file, lang
-        # Fallback to original directory if not found in _notes
+        # Also check the notes directory (flat structure)
+        notes_dir_flat = 'notes'
+        if os.path.exists(notes_dir_flat):
+            for orig_lang in ['en', 'zh', 'ja']:
+                original_file = os.path.join(notes_dir_flat, f"{base_without_lang}-{orig_lang}.md")
+                if os.path.exists(original_file):
+                    return original_file, lang
+        # Fallback to original directory if not found in _notes or notes
         for orig_lang in ['en', 'zh', 'ja']:
             original_file = os.path.join('original', f"{base_without_lang}-{orig_lang}.md")
             if os.path.exists(original_file):

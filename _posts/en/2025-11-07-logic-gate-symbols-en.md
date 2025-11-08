@@ -42,6 +42,7 @@ In digital electronics, logic gates are the building blocks of circuits that per
 If this doesn't match what you saw (e.g., share a description of the diagram), feel free to clarify! For visual examples, search "logic gate symbols" online.
 
 #### Quick Comparison Table
+
 | Gate Type | Shape Description | Inputs | Output Logic | Example Use |
 |-----------|-------------------|--------|--------------|-------------|
 | **AND**  | D-shaped (straight left, curved right) | 2+ | 1 only if all inputs=1 | Decision-making (e.g., both switches on) |
