@@ -5,7 +5,7 @@ import datetime
 import argparse
 
 
-def update_front_matter(file_path):
+def update_front_matter(file_path, post_type="post"):
     try:
         # Extract date from filename
         filename = os.path.basename(file_path)
@@ -19,7 +19,7 @@ def update_front_matter(file_path):
         post = frontmatter.load(file_path)
 
         # Update the type field
-        post.metadata["type"] = "post"
+        post.metadata["type"] = post_type
 
         # Write the updated post back to file
         frontmatter.dump(post, file_path)
@@ -33,6 +33,7 @@ def update_front_matter(file_path):
 def main():
     parser = argparse.ArgumentParser(description='Update front matter in blog post files')
     parser.add_argument('-n', type=int, help='Maximum number of files to update')
+    parser.add_argument('--type', default='post', help='Type value to set in front matter (default: post)')
     args = parser.parse_args()
 
     original_dir = "original"
