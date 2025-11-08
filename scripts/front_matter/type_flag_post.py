@@ -1,6 +1,6 @@
 import os
 import re
-import yaml
+import frontmatter
 import datetime
 
 
@@ -14,30 +14,15 @@ def update_front_matter(file_path):
             return
         file_date_str = date_match.group(1)
 
-        with open(file_path, "r", encoding="utf-8") as infile:
-            content = infile.read()
+        # Load the post using frontmatter library
+        post = frontmatter.load(file_path)
 
-        front_matter_match = re.match(r"---\n(.*?)\n---", content, re.DOTALL)
-        front_matter = front_matter_match.group(1) if front_matter_match else None
+        # Update the type field
+        post.metadata["type"] = "post"
 
-        if not front_matter:
-            front_matter_dict = {}
-        else:
-            front_matter_dict = yaml.safe_load(front_matter) if front_matter else {}
+        # Write the updated post back to file
+        frontmatter.dump(post, file_path)
 
-        front_matter_dict["type"] = "post"
-
-        updated_front_matter = (
-            "---\n" + yaml.dump(front_matter_dict, allow_unicode=True) + "---"
-        )
-        updated_content = (
-            updated_front_matter + content[len(front_matter_match.group(0)) :]
-            if front_matter_match
-            else updated_front_matter + content
-        )
-
-        with open(file_path, "w", encoding="utf-8") as outfile:
-            outfile.write(updated_content)
         print(f"Updated front matter in {file_path}")
 
     except Exception as e:
