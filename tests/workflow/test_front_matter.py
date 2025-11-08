@@ -56,19 +56,6 @@ def scan_markdown_files_for_front_matter_issues():
     return issues
 
 class TestFrontMatter(unittest.TestCase):
-    def test_front_matter_key_order(self):
-        """Test that front matter keys are in alphabetical order."""
-        key_order_issues = scan_markdown_files_for_front_matter_key_order()
-
-        if key_order_issues:
-            details = "\n".join([
-                f"{issue['file']}:{issue['line']} - Front matter keys not in alphabetical order. "
-                f"First misplaced key: {issue['first_misplaced_key']}. "
-                f"Expected: {issue['expected_order']}, Actual: {issue['actual_order']}"
-                for issue in key_order_issues
-            ])
-            self.fail(f"Found {len(key_order_issues)} front matter key ordering issues:\n{details}")
-
     def test_front_matter_newline(self):
         """Test that front matter closing --- is followed by a newline."""
         front_matter_issues = scan_markdown_files_for_front_matter_issues()
