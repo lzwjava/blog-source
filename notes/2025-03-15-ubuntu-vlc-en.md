@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Install VLC Media Player on Ubuntu
 translated: false
+type: note
 ---
 
 To install VLC media player on your Ubuntu system, you can use either the terminal (command line) or the Ubuntu Software Center (graphical interface). Below are detailed instructions for both methods.

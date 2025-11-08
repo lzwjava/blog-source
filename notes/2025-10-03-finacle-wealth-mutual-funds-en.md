@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Finacle Wealth Management for Mutual Funds
 translated: false
+type: note
 ---
 
 ### Finacle's Solutions for Mutual Fund Subscriptions and Redemptions

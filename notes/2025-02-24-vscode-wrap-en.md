@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: VSCode Wrap Lines
 translated: false
+type: note
 ---
 
 To make VSCode wrap lines so you can easily see when lines are too long, you can configure the word wrap settings to wrap lines at a specific column. Here's how to do it:

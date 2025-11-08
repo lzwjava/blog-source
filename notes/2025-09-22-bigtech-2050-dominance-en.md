@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Big Tech's 2050 Dominance and Disruption
 translated: false
+type: note
 ---
 
 ### The Big Tech Landscape in 2050: Dominance, Disruption, and Evolution

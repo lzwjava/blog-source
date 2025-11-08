@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Mobile Office Setup by Water
 translated: false
+type: note
 ---
 
 ### Utilizing Your Car Setup by the Water Pool

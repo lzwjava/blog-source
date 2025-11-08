@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rust's Relationship with C
 translated: false
+type: note
 ---
 
 No, Rust is not "built on C" in the sense that it compiles to C or requires C as a foundational layer for its own operations. Rust is a separate, modern systems programming language.

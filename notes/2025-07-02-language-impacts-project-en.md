@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Language Choice Shapes Project Success
 translated: false
+type: note
 ---
 
 Yes, you're absolutely right. The choice of programming language impacts a lot of factors that shape the development process and the success of a project. Let’s break down the key points you mentioned:

@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: MSVC ビルドツールの用途と代替手段
 translated: true
+type: note
 ---
 
 MSVC Build Toolsは確かに巨大です！以下が実際の使用用途です：

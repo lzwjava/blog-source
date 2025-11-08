@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ant Bank in Alipay HK Guide
 translated: false
+type: note
 ---
 
 ### What is Ant Bank in Alipay HK?

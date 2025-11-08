@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rich Sutton's Bitter Lesson
 translated: false
+type: note
 ---
 
 Rich Sutton's "bitter lesson" is a thought-provoking observation about the history of Artificial Intelligence research. In essence, it states that **AI researchers who try to build in human-like knowledge and handcrafted features into their systems eventually hit a wall and are surpassed by approaches that rely more on general-purpose learning algorithms given enough computation.**

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Java Performance Tuning: Optimizing Java 8, 11, and Beyond'
 translated: false
+type: note
 ---
 
 *Java Performance: In-Depth Advice for Tuning and Programming Java 8, 11, and Beyond* by Scott Oaks is a comprehensive guide to optimizing Java applications for performance. It focuses on practical techniques for tuning and programming in Java 8, Java 11, and later versions, addressing both core Java and enterprise-level applications. Below is a summary of the key topics covered in the book:

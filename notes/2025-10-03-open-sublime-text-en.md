@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Opening Sublime Text from CLI
 translated: false
+type: note
 ---
 
 ### Opening Sublime Text from the Command Line (CLI)

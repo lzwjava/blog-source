@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The Kernel of a Linear Transformation
 translated: false
+type: note
 ---
 
 The **kernel** of a linear transformation is the set of all input vectors that the transformation maps to the zero vector.

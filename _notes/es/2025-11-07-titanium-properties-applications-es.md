@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Propiedades y aplicaciones del titanio
 translated: true
+type: note
 ---
 
 **Titanio** (símbolo: **Ti**, número atómico: 22) es un elemento metálico fuerte, ligero y resistente a la corrosión.

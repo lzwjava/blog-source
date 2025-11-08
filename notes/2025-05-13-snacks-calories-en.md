@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Snacks and Calories
 translated: false
+type: note
 ---
 
 To compare sugar and snacks in terms of calorie content, we need to clarify what "snacks" means, as snacks vary widely in composition. Since you referenced sugar providing 4 calories per gram (with 5 grams yielding 20 calories), I’ll assume you’re asking whether typical snacks contain more calories than pure sugar, either per gram or in a typical serving. I’ll provide a comprehensive comparison by examining the caloric density of sugar, the composition of common snacks, and practical examples, while addressing serving sizes and nutritional context.

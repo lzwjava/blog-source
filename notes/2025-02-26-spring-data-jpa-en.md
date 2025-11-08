@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring Data JPA
 translated: false
+type: note
 ---
 
 Using a repository as a data source in a Spring Boot project typically involves integrating Spring Data JPA (Java Persistence API) to manage database interactions. Here's a step-by-step guide on how to set this up:

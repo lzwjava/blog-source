@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Aktivieren der Intel-GPU-Unterstützung für PyTorch
 translated: true
+type: note
 ---
 
 Guter Fortschritt! PyTorch und IPEX arbeiten jetzt zusammen. Allerdings ist die Intel GPU-Unterstützung auf Ihrem System nicht aktiviert. Lassen Sie mich erklären, was passiert und wie Sie das Problem beheben können:

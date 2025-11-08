@@ -8,6 +8,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Understanding Pytest Fixture Usage
 translated: false
+type: note
 ---
 
 ## What is `@pytest.fixture`?

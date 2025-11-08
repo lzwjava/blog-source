@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Python Libraries for Workflow Diagrams
 translated: false
+type: note
 ---
 
 If you're looking for Python libraries that make it easy to draw workflows or flow graphs—think tools like **maniod** that simplify diagramming—here's a selection of excellent options worth exploring:

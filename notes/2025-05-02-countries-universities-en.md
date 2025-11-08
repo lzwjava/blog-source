@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Universities in Some Countries
 translated: false
+type: note
 ---
 
 Based on international assessments and global rankings, several countries are recognized for their strong education systems. Complementing this, here are some of the top universities frequently cited within these countries:

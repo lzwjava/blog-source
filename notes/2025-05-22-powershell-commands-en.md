@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: PowerShell Commands Guide
 translated: false
+type: note
 ---
 
 ## Introduction to PowerShell

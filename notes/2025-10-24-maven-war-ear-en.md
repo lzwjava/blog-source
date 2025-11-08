@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Maven WAR and EAR Module Setup
 translated: false
+type: note
 ---
 
 ### Maven Multi-Module Project Setup for WAR to EAR

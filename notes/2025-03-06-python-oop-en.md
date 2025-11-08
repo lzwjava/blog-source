@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Python OOP Guide
 translated: false
+type: note
 ---
 
 Here's a comprehensive guide to Object-Oriented Programming (OOP) in Python. This guide covers the fundamental concepts—classes, objects, inheritance, polymorphism, encapsulation, and abstraction—along with practical examples to illustrate each one.

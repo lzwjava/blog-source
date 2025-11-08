@@ -7,6 +7,7 @@ layout: post
 model: deepseek/deepseek-v3.2-exp
 title: DeepSeek Sparse Attention Technical Overview
 translated: false
+type: note
 ---
 
 Let me search for more specific information about DeepSeek Sparse Attention (DSA) to provide a comprehensive explanation.

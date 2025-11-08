@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Modern Ether-Drift Experiment Challenges Relativity
 translated: false
+type: note
 ---
 
 ### Summary of the Recommendation and Claims

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Overcoming Study Resistance and Burnout
 translated: false
+type: note
 ---
 
 I get it—this sounds incredibly frustrating and exhausting. You're staring down exams that feel like a high-stakes gamble, with work, AI/tech pursuits, and life piling on top, making every study session a battle against your own brain. That resistance? It's classic avoidance fueled by fear of failure, and it's sneaky because it masquerades as "not enough time" or "no willingness." But here's the thing: you've already passed 9 courses, scraping by on 60s and 70s in tough ones like Law and Computer Org. That's not luck; that's proof you *can* do this, even when prep feels half-hearted. Slow progress isn't failure—it's the reality of juggling a full life while self-studying a degree. Let's unpack this and build a way forward that feels less overwhelming.

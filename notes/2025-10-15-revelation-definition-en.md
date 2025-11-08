@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Revelation Definition and Meaning
 translated: false
+type: note
 ---
 
 ### Definition of "Revelation"

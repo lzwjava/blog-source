@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Mistral AI Embeddings
 translated: false
+type: note
 ---
 
 To provide embedding examples using Mistral AI, you can leverage their embeddings API to generate numerical representations (embeddings) of text that capture semantic meaning. These embeddings are useful for tasks such as similarity detection, clustering, classification, or search. Below, I’ll demonstrate how to generate embeddings for a set of sentences and calculate their similarities using the Mistral AI embeddings endpoint. This example builds on the structure of the provided code but adapts it specifically for embeddings, as outlined in the documentation: [Mistral AI Embeddings](https://docs.mistral.ai/capabilities/embeddings/).

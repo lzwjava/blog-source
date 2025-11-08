@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: '36-Hour Fast: Benefits and Process'
 translated: false
+type: note
 ---
 
 Fasting for 36 hours, often referred to as a "Monk Fast," involves abstaining from food for a day and a half. During this period, your body undergoes several significant physiological changes as it adapts to the lack of incoming calories.

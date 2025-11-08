@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: An Infuse Issue
 translated: false
+type: note
 ---
 
 The "Failed to open input stream in demuxing stream" error in Infuse typically indicates that the app cannot properly access or process the video file you're trying to stream. Since you're streaming `.mkv` files from your Nginx server (e.g., `http://192.168.1.27/movies/yourfile.mkv`) and it works with VLC but not Infuse, the issue might stem from network issues, file compatibility, or Infuse-specific quirks. Here’s how to troubleshoot and fix it:

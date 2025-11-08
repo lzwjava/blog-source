@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Semiconductor Impurities and Doping
 translated: false
+type: note
 ---
 
 ### What Are Impurities in Semiconductors?

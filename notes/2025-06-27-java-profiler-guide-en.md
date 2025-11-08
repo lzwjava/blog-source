@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Mastering YourKit Java Profiler: A Complete Guide'
 translated: false
+type: note
 ---
 
 # Comprehensive Guide to YourKit Java Profiler

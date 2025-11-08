@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Liberty Log Rotation Configuration Guide
 translated: false
+type: note
 ---
 
 Here’s the short version, then examples you can paste into `server.xml`.

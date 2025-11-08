@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Troubleshooting Empty `traceId` and `spanId` in Logs
 translated: false
+type: note
 ---
 
 The `traceId` and `spanId` are empty in your log lines `[blog-server,,]` likely due to one of the following reasons:

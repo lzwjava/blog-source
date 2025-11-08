@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Battery Charge Estimation Fix
 translated: false
+type: note
 ---
 
 The error `Cannot estimate time to full charge (sysfs files not found)` indicates that the script couldn't find the expected battery information files in `/sys/class/power_supply/BAT0/`. This can happen if:

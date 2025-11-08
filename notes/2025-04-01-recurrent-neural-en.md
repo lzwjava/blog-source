@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Recurrent Neural Network
 translated: false
+type: note
 ---
 
 Let's break down Recurrent Neural Networks (RNNs):

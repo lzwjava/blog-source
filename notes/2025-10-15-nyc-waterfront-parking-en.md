@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: NYC Waterfront Parking for Serenity
 translated: false
+type: note
 ---
 
 ### Adapting Your Serene Car Workspace to New York City

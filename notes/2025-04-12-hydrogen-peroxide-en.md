@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Hydrogen Peroxide
 translated: false
+type: note
 ---
 
 Hydrogen peroxide (H₂O₂) is a colorless liquid chemical compound with a slightly pungent odor. It is a common household chemical and has various industrial and medicinal uses.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: خطة رحلة خمسة أيام في شينزين
 translated: true
+type: note
 ---
 
 ### التخطيط لرحلة لمدة 5 أيام إلى شينزين، قوانغدونغ

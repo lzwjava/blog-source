@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Maximizing Personal Growth in Guangdong's Ecosystem
 translated: false
+type: note
 ---
 
 ### Maximizing Your Experience in China: Leveraging Your Strengths in Guangdong

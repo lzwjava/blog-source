@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: India's North-South Language Divide
 translated: false
+type: note
 ---
 
 ### Linguistic Diversity in India: Hindi in the North and Tamil in the South

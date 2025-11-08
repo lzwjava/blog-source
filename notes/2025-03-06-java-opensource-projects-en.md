@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Famous Java Open-source Projects
 translated: false
+type: note
 ---
 
 ### Key Points

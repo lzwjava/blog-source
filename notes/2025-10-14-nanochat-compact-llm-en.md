@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: NanoChat Compact Full Stack LLM
 translated: false
+type: note
 ---
 
 ### What is NanoChat?

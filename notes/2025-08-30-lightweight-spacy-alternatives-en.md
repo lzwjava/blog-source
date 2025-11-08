@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Lightweight Alternatives to spaCy Guide
 translated: false
+type: note
 ---
 
 Got it — you’re looking for alternatives to **spaCy** that are lightweight and especially useful for tasks like **language detection** (since you’re using `langdetect` and a custom simple detector).

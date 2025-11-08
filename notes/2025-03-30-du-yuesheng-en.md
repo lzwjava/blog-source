@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Du Yuesheng's Wisdom
 translated: false
+type: note
 ---
 
 Du Yuesheng (杜月笙), also known as the "King of Shanghai," was one of the most influential figures in early 20th-century China. He was a prominent businessman, gangster, and leader of the Green Gang, a powerful criminal organization in Shanghai. While Du was involved in illicit activities, he was also known for his sharp business acumen, strategic thinking, and certain philosophical insights. His wisdom often blended a pragmatic view of power, survival, and wealth with more traditional Chinese values.

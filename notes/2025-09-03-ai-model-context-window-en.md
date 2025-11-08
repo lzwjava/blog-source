@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: AI Model Context Window Capacities
 translated: false
+type: note
 ---
 
 Here are the **current maximum token capacities (context window sizes)** for the models you've listed, based on recent documentation and announcements:

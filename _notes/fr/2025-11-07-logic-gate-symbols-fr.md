@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Symboles et formes des portes logiques
 translated: true
+type: note
 ---
 
 ### Symboles des portes logiques dans les circuits numériques

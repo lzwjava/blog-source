@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 珠海五日游攻略
 translated: true
+type: note
 ---
 
 ### 规划广东珠海五日游

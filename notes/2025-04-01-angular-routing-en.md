@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Design Routes in Angular
 translated: false
+type: note
 ---
 
 Okay, let's break down how to design routes in Angular for easy refreshing, sub-routes, and handling query parameters.

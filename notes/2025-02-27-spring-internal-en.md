@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring Internal Workings
 translated: false
+type: note
 ---
 
 Let’s dive about Spring and its internal workings. Spring is a robust framework for building Java applications, and I’ll address each part of your query step-by-step with clear explanations.
@@ -114,4 +115,3 @@ You configure the server via `application.properties` (e.g., setting the port wi
 - **Features**: Offers DI, AOP, web support, and more.
 - **Bean Lookup**: Container finds and provides beans from configurations.
 - **Servers**: Spring Boot embeds Tomcat or Netty with simple dependency changes.
-

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'iPhone vs. Tmall Genie: Sound Showdown'
 translated: false
+type: note
 ---
 
 Here’s a quick way to think it through, plus a few practical tweaks you can try tonight:

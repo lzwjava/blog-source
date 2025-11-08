@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AI Tech Stack Layers Explained
 translated: false
+type: note
 ---
 
 The AI era can indeed be viewed as analogous to past tech disruptions like the backend/web server era (e.g., Apache, Nginx powering dynamic websites) or the mobile era (where apps were frontends to cloud-backed services). Just as those eras focused on infrastructure, development platforms, and user-facing apps, the AI landscape revolves around building blocks: foundational models as the "backend" (e.g., LLMs like GPT-4), interfaces like ChatGPT or Sora as "frontends," with platforms (e.g., AWS SageMaker, Azure AI, Google Vertex AI) providing orchestration for deployment, training, and inference. Python dominates as the programming language due to libraries like TensorFlow and PyTorch, while specialized data handling (vector embeddings for similarity search, multimodal processing for text/image/video/audio) differentiates AI from traditional cloud computing.[1][2]

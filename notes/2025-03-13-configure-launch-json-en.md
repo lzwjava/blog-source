@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Configuring launch.json for Spring Boot in VSCode
 translated: false
+type: note
 ---
 
 To configure the `launch.json` file for a Maven Spring Boot project in Visual Studio Code (VSCode), you need to set up a launch configuration that allows VSCode to run and debug your application using its Java extensions. Below is a step-by-step guide to help you achieve this.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Gennady Korotkevich
 translated: false
+type: note
 ---
 
 Gennady Korotkevich (also known as "tourist" in competitive programming circles) is considered one of the greatest competitive programmers of all time, and his exceptional skill is the result of a unique combination of several factors:

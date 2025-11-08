@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Configuring Liberty HTTP Timeouts and Keep-Alive
 translated: false
+type: note
 ---
 
 ### Configuring Keep-Alive Settings

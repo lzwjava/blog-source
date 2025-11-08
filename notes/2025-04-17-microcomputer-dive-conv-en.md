@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: Microcomputer Dive - Conversation
+type: note
 ---
 
 A: I’ve been revisiting microcomputer architecture lately. Can we start by comparing von Neumann and Harvard architectures?

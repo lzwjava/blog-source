@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cooking Rice Noodles
 translated: false
+type: note
 ---
 
 Cooking rice noodles is straightforward, but the method depends on the type (fresh, dried, thin, or wide) and the dish you're preparing. Here’s a concise guide for cooking dried rice noodles, which are the most common:

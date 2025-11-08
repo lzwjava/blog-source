@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Zen Buddhism
 translated: false
+type: note
 ---
 
 Zen Buddhism offers profound wisdom that revolves around simplicity, mindfulness, and the pursuit of enlightenment through direct experience. Here are some of the key teachings and concepts that reflect Zen wisdom:

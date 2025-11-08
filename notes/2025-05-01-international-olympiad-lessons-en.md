@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Lessons from International Olympiads
 translated: false
+type: note
 ---
 
 From the achievements and trajectories of standout participants in international Olympiads like the **International Mathematical Olympiad (IMO)**, **International Olympiad in Informatics (IOI)**, **International Physics Olympiad (IPhO)**, and **International Chemistry Olympiad (IChO)**, there are several key lessons we can learn:

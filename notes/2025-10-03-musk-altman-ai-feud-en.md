@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Musk and Altman's AI Feud
 translated: false
+type: note
 ---
 
 ### The Elon Musk and Sam Altman Relationship: From Co-Founders to Full-Blown Feud

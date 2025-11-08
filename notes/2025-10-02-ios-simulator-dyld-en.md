@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Managing iOS Simulator dyld Cache
 translated: false
+type: note
 ---
 
 ### What You're Referring To

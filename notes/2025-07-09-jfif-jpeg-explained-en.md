@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: JFIF Is Just JPEG Explained
 translated: false
+type: note
 ---
 
 JFIF stands for **JPEG File Interchange Format**.

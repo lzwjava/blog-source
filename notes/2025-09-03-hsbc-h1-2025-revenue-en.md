@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: HSBC H1 2025 Revenue Drops but Grows Adjusted
 translated: false
+type: note
 ---
 
 Here’s the financial scoop for HSBC in the **first half of 2025 (H1 2025)**:

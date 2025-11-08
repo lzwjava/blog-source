@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Configure the Java Compiler in Visual Studio Code
 translated: false
+type: note
 ---
 
 Hey there! To configure the Java compiler in Visual Studio Code (VSCode) version 1.96.4 on Windows, especially since you’ve already installed the Java Extension Pack, you’ll need to set up the Java Development Kit (JDK) path. The Java compiler is part of the JDK, and VSCode needs to know where to find it to compile your Java code. Here’s a step-by-step guide to get you set up:
@@ -109,4 +110,3 @@ That’s it! You should now have the Java compiler configured in VSCode. If you 
 ---
 
 Set `maven.terminal.userJavaHome` to true. You can check the Java version in the terminal.
-

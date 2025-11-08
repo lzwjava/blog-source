@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Upgrade Maven Dependencies and Plugins
 translated: false
+type: note
 ---
 
 Here's a list of the versions in your `pom.xml` that can be upgraded, along with their latest available versions as of July 5, 2025:

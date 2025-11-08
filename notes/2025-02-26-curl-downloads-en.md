@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Troubleshoot curl Downloads
 translated: false
+type: note
 ---
 
 When you try to download an Eclipse ZIP file from eclipse.org using `curl -O`, you might encounter an issue where it downloads an HTML file instead of the desired ZIP file, accompanied by a "301 Moved Permanently" error. This happens because the URL you’re using is redirecting to another location, and `curl` isn’t automatically following that redirect to the actual file. Here’s how to fix it:

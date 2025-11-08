@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: UK Equality Act 2010 Overview
 translated: false
+type: note
 ---
 
 ### Overview

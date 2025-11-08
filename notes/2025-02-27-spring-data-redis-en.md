@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring Data Redis
 translated: false
+type: note
 ---
 
 Spring Data Redis is a fantastic tool for integrating Redis—a high-performance, in-memory data store—into your Spring application. It simplifies working with Redis by providing a familiar repository-style interface and abstractions over low-level Redis operations. Let’s walk through how to set it up and use it step-by-step.

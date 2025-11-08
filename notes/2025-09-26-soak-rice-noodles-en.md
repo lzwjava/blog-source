@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Why Soak Rice Noodles
 translated: false
+type: note
 ---
 
 Here’s why rice noodles (or rice vermicelli) need to be soaked before cooking:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: World's Most Popular Sports Overview
 translated: false
+type: note
 ---
 
 ### Major Sports Overview

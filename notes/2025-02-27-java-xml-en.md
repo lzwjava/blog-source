@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using XML in Java
 translated: false
+type: note
 ---
 
 Using XML in Java can be done in several ways depending on what you want to achieve—parsing, creating, or manipulating XML data. Here’s a concise guide to get you started with some common approaches:

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: LLM Tokens Simply Explained
 translated: false
+type: note
 ---
 
 Great question — tokens in LLM APIs can be a bit confusing at first. Let me break it down clearly.

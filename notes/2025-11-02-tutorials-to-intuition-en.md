@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Bridging the Gap from Tutorials to Intuition
 translated: false
+type: note
 ---
 
 ### Acknowledging Your Progress

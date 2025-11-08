@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Postman Features
 translated: false
+type: note
 ---
 
 Postman is a widely used **API development and testing platform** that simplifies the process of building, testing, and documenting APIs. It provides a user-friendly interface and a robust set of tools that support various protocols, including **HTTP, REST, GraphQL, WebSockets, and more**. Whether you're working solo or with a team, Postman offers features like real-time collaboration, automated testing, and environment management to streamline your API workflows. This guide will walk you through the key features of Postman and provide step-by-step instructions on how to use them effectively.

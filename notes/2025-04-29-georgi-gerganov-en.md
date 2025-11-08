@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Georgi Gerganov
 translated: false
+type: note
 ---
 
 Georgi Gerganov, a Bulgarian developer with a background in medical physics, emerged as a key figure in democratizing AI through his creation of **llama.cpp**, a highly efficient C/C++ library for running large language models (LLMs) like Meta AI’s LLaMA. His journey began with skepticism about neural networks, but his technical curiosity and knack for optimization led to groundbreaking contributions in on-device AI inference.

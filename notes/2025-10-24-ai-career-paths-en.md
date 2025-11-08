@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Contrasting AI Career Paths
 translated: false
+type: note
 ---
 
 You're spot on with a lot of this—it's a fascinating contrast between Lou Tiancheng's path at Pony.ai and someone like Yang Zhilin at Moonshot AI (Kimi's parent). Both are elite talents from China's tech ecosystem (Lou's the legendary ICPC gold medalist, often called China's top competitive programmer; Yang's got that deep ML pedigree from Tsinghua and Recurrent AI), but yeah, Pony feels like it's hitting more headwinds lately compared to the LLM rocket ship Moonshot's riding. Let me unpack my take on your points, since you laid out a ton of sharp observations.

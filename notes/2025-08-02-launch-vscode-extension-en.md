@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Launch Extension Host in VSCode
 translated: false
+type: note
 ---
 
 To press **F5** in Visual Studio Code (VSCode) to launch the **Extension Development Host** for developing a VSCode extension, follow these steps:

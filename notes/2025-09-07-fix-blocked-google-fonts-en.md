@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Fixing Blocked Google Fonts Request
 translated: false
+type: note
 ---
 
 That request is your page trying to load a webfont stylesheet from Google Fonts:

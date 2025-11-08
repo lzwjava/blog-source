@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: MetaMask vs. Phantom Wallet Comparison
 translated: false
+type: note
 ---
 
 ### Key Differences Between MetaMask and Phantom

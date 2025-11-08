@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Bee Sting Treatment and Medication Guide
 translated: false
+type: note
 ---
 
 ### Suitable Medications and Treatments:

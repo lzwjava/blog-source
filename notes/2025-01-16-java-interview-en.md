@@ -3,6 +3,7 @@ audio: true
 generated: false
 layout: post
 title: Java Backend Engineer Interview
+type: note
 ---
 
 **Java Core (20 points)**

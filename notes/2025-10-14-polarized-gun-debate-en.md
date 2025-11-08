@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The Polarized US Gun Debate
 translated: false
+type: note
 ---
 
 ### The Roots of the U.S. Gun Control Debate

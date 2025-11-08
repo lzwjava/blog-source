@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GDUFS Computer Application Practical Exam
 translated: false
+type: note
 ---
 
 ### Information on Major 610201 (Computer Application Technology) and Course 11325

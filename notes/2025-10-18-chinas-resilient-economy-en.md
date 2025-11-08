@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: China's Resilient Economic Performance 2020-2025
 translated: false
+type: note
 ---
 
 ### China's Economic Performance in Recent Years (2020–2025)

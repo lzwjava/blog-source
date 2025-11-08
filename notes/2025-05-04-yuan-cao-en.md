@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Yuan Cao
 translated: false
+type: note
 ---
 
 Yuan Cao is a distinguished researcher and academic known for his groundbreaking work in the field of electrical engineering and physics. He is currently an Assistant Professor of Electrical Engineering and Computer Science at the University of California, Berkeley, a position he will officially start in July 2024.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Training Custom Datasets with nanoGPT
 translated: false
+type: note
 ---
 
 ### Preparing and Training a Custom Text Dataset with nanoGPT

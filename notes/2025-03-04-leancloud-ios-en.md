@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: LeanCloud iOS SDK
 translated: false
+type: note
 ---
 
 To use the `pod 'AVOSCloud', '3.1.6.2'` in an iOS project, you're referring to integrating the AVOSCloud SDK (likely LeanCloud's SDK for cloud services) via CocoaPods, a dependency manager for iOS projects. Here's a step-by-step guide to set it up:

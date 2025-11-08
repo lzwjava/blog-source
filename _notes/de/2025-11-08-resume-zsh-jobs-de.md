@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fortgesetzte Angehaltene Jobs in zsh
 translated: true
+type: note
 ---
 
 Um einen angehaltenen Job (wie Ihren `bundle exec jekyll serve --incremental` Befehl, der wahrscheinlich mit Strg+Z pausiert wurde) in zsh innerhalb von Ghostty fortzusetzen, befolgen Sie diese Schritte in derselben Terminal-Sitzung:

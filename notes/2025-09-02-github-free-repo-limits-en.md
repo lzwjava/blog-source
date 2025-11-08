@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: GitHub Free Private Repos Collaborator Limits
 translated: false
+type: note
 ---
 
 A free GitHub user can create **unlimited private repositories**, but there’s a restriction on **collaborators**.

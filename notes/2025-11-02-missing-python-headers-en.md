@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Missing Python Development Headers
 translated: false
+type: note
 ---
 
 ### Understanding the Error

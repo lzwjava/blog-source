@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: VScode Remote Debugging
 translated: false
+type: note
 ---
 
 To perform remote debugging in Visual Studio Code (VSCode) for a WebSphere Liberty Server running in debug mode, you can use VSCode's built-in Java debugging features. Below are the detailed steps to set this up without installing any WebSphere Liberty-specific plugins, assuming you have the standard **Java Extension Pack** (which includes the **Debugger for Java**) already installed.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: JaCoCo for Liberty JVM Coverage
 translated: false
+type: note
 ---
 
 You can do it—attach JaCoCo to the **Liberty JVM** that runs your EAR. The key is: JaCoCo must sit inside the same JVM as Liberty, not in your Python runner.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring MVC
 translated: false
+type: note
 ---
 
 To use **Spring MVC** without **Spring Boot**, you need to manually configure the Spring framework, as Spring Boot typically automates much of the setup. Below is a step-by-step guide to create a simple Spring MVC web application using XML-based configuration. This example will set up a basic application with a single controller that displays a "Welcome" message on a JSP page.

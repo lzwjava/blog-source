@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Softening Your Essay for Better Communication
 translated: false
+type: note
 ---
 
 ### Suggestions for Improving the Essay

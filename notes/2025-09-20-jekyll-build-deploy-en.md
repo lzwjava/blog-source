@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Automated Jekyll Build and Deploy Workflow
 translated: false
+type: note
 ---
 
 You can do this entirely in GitHub Actions: build the site on the runner, then check out the destination repo into a subfolder and push the contents of `_site/` there.

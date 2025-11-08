@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Pascal Fades
 translated: false
+type: note
 ---
 
 Pascal was once a popular language, especially in academic settings, due to its simplicity and structured programming approach. However, it has faded from mainstream use for several reasons:

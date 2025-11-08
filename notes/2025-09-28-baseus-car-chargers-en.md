@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Baseus Car Chargers Overview
 translated: false
+type: note
 ---
 
 I'd be happy to help you learn about the Beseus car charger! Let me search for current information about this specific model.Let me search more specifically for the Beseus brand car charger:Based on my search, I believe you're referring to **Baseus** (not "Beseus") car chargers. Baseus is a well-known brand that makes high-quality car charging accessories. Here's an introduction to their car chargers with the features you mentioned:

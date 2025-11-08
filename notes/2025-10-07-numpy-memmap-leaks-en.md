@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fixing NumPy memmap Memory Leaks
 translated: false
+type: note
 ---
 
 ### What the Stack Overflow Post Says

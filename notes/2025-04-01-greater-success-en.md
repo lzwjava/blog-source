@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Achieving Greater Success
 translated: false
+type: note
 ---
 
 Achieving greater success involves a combination of continuous learning, strategic planning, and effective execution. Here are some suggestions tailored to your background and experiences:

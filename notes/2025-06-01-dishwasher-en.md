@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: How Dishwashers Work
 translated: false
+type: note
 ---
 
 ## Basic Operation Principles

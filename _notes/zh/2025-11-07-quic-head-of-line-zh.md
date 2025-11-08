@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: QUIC解决队头阻塞问题
 translated: true
+type: note
 ---
 
 ---

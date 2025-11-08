@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Phil Fisher: Growth Investing Pioneer'
 translated: false
+type: note
 ---
 
 ### Phil Fisher: The Father of Growth Investing and Warren Buffett's Mentor

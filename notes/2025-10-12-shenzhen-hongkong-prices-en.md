@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Shenzhen and Hong Kong Price Dynamics
 translated: false
+type: note
 ---
 
 ### Understanding Price Perceptions: Shenzhen vs. Hong Kong

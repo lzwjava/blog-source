@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AI's Generative Intelligence Distinction
 translated: false
+type: note
 ---
 
 ### Key Differences Between LLM/AI and Other Disruptive Technologies

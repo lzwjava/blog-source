@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Learing and Education in AI Era
 translated: false
+type: note
 ---
 
 While it's true that some aspects of learning and evaluation might seem unchanged despite the rise of AI, it's inaccurate to say that things won't change much in the learning landscape. AI is already making and will continue to make significant impacts on how we learn, assess knowledge, and even conduct interviews. Let's break down your points:

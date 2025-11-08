@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cooking Crispy Potatoes in an Air Fryer
 translated: false
+type: note
 ---
 
 Yes, you can absolutely cook potatoes in an air fryer to make them crispy, whether you want them lightly crispy, moderately crispy, or very crispy! The air fryer’s hot air circulation is perfect for achieving that crispy texture without deep frying. Here’s a quick guide to get the desired crispiness using an air fryer like the Midea MF-KZE5004 (5L capacity):

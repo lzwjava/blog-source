@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Tech Movies and Series
 translated: false
+type: note
 ---
 
 ### Key Points

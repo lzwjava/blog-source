@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: New York Public Library Location and History
 translated: false
+type: note
 ---
 
 ### Location of the New York Public Library

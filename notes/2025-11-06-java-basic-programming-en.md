@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Java Basic Programming Guide
 translated: false
+type: note
 ---
 
 Here’s a focused guide for **Part II: Basic Programming** of *08553 Introduction to Programming—Java*, tailored for the **National Higher Education Self-study Examination (自考)**. This section trains you to write small, correct Java programs and understand how Java handles data and expressions.

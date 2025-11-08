@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: National Inventors Hall of Fame
 translated: false
+type: note
 ---
 
 The National Inventors Hall of Fame honors individuals who have conceived, patented, and advanced great inventions that have made a significant contribution to the welfare of the American public and have the potential of stimulating future endeavors.

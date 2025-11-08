@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Starbucks Loses Ground in China
 translated: false
+type: note
 ---
 
 Starbucks has been losing ground in China's coffee market to local rivals like Luckin Coffee, Cotti Coffee, and Manner, with its market share dropping from 34% in 2019 to just 14% by 2024. This shift reflects a combination of aggressive local competition, evolving consumer habits, and broader economic challenges. Luckin, in particular, has surged ahead, surpassing Starbucks in store count (over 24,000 vs. Starbucks' roughly 7,700 as of early 2025) and revenue in China starting in 2023. Below are the key reasons behind Starbucks' struggles.

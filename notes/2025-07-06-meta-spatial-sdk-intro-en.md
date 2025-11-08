@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Meta Spatial SDK: Android to XR'
 translated: false
+type: note
 ---
 
 The **Meta Spatial SDK** is a game-changer for developers looking to build immersive applications for Meta's VR/MR headsets, specifically those running **Meta Horizon OS** (like the Meta Quest series). Its core purpose is to bridge the gap between traditional Android mobile app development and the unique capabilities of spatial computing.

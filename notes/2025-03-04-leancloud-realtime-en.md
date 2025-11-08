@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: LeanCloud JavaScript Realtime SDK
 translated: false
+type: note
 ---
 
 ### Key Points

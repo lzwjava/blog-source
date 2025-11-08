@@ -1,8 +1,9 @@
 ---
-audio: true  
-lang: en  
-layout: post  
+audio: true
+lang: en
+layout: post
 title: The Constitution of the United States
+type: note
 ---
 
 The Constitution of the United States is the foundational legal document that establishes the framework for the federal government and outlines the fundamental rights and freedoms of American citizens. It was adopted on September 17, 1787, and has been amended 27 times since its original ratification. Here are some key aspects of the U.S. Constitution:
@@ -62,4 +63,3 @@ The Constitution has been amended 27 times. The first ten amendments, known as t
 - Twenty-Sixth Amendment (1971): Lowering the voting age to 18.
 
 The Constitution is a living document that continues to be interpreted and applied in various legal and political contexts. If you have specific questions or need more detailed information on a particular aspect, feel free to ask!
-

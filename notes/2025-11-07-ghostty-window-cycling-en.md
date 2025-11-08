@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ghostty Window Cycling Shortcuts
 translated: false
+type: note
 ---
 
 Yeah, I totally get it—Cmd + ` (tilde/backtick) for cycling through windows in Ghostty feels snappy and intuitive, especially if you're treating them like lightweight, independent sessions instead of cramming everything into tabs. It's got that nice cyclic flow without the mental overhead of tab bar clutter. The default Cmd + Shift + [ / ] for tab navigation (or pane focus with Cmd + [ / ]) does feel clunky on Mac, since you're juggling Shift on top of Cmd, and those brackets aren't the most thumb-friendly without stretching.

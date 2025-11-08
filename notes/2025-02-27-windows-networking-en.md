@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Windows Networking Commands
 translated: false
+type: note
 ---
 
 Let’s dive into some useful Windows networking commands you can run in the Command Prompt (CMD) to troubleshoot, gather info, or manage your network. I’ll explain a few popular ones like `getmac`, and throw in some others that might come in handy. You don’t need to be a tech wizard—these are pretty straightforward once you get the hang of them.

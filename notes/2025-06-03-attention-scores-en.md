@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Stabilizing Attention Scores in Transformers
 translated: false
+type: note
 ---
 
 Dividing by the square root of the key dimension, \\(\sqrt{d_k}\\), in the scaled dot-product attention mechanism (as in the formula \\(\text{Scaled Scores} = \frac{Q K^T}{\sqrt{d_k}}\\)) is a deliberate choice to stabilize gradients and prevent large values, particularly in the context of transformers. Here's why \\(\sqrt{d_k}\\) is used instead of just \\(d_k\\):

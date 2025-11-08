@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Comparison of API and Selenium Testing
 translated: false
+type: note
 ---
 
 Below is a complete, structured comparison of the two testing strategies you described for a Java project with 40 APIs: 

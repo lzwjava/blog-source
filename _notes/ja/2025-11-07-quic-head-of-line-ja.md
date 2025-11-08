@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: QUICによるヘッドオブラインブロッキングの解決
 translated: true
+type: note
 ---
 
 ---

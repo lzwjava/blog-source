@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Guangzhou Hospital Rankings 2025
 translated: false
+type: note
 ---
 
 ### Top Hospital in Guangzhou

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Disable Claude Code Edit Confirmation Popup
 translated: false
+type: note
 ---
 
 To disable the edit confirmation popup in Claude Code (so it just applies edits directly to files like `sync_githook.py` without asking), you need to configure the permissions in your `settings.json` file. This is the "Claude Code JSON" you're referring to—it's Claude Code's main settings file for user-level configs.

@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: تطور الشبكات والذكاء الاصطناعي في سيسكو
 translated: true
+type: note
 ---
 
 نعم، تُعترف سيسكو على نطاق واسع كرائدة عالمية في تقنية الشبكات. إليكم تاريخها المؤسسي:

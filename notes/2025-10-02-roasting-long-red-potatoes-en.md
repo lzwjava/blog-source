@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Roasting Long Red Potatoes Guide
 translated: false
+type: note
 ---
 
 ### Understanding Your Clarification

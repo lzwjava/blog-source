@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Taobao Photo Privacy and Access Permissions
 translated: false
+type: note
 ---
 
 No, Taobao does not automatically "read" or access users' photos from your device's photo library (or camera) without explicit permission to provide recommendations in the search bar or elsewhere in the mobile app on iOS. Here's a breakdown based on how Taobao works:

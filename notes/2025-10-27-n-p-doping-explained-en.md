@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: N-Type and P-Type Doping Explained
 translated: false
+type: note
 ---
 
 ### N-Type vs. P-Type Doping: The Two Sides of Semiconductor Magic

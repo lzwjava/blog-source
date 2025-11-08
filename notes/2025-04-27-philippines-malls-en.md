@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Shopping Malls in Philippines
 translated: false
+type: note
 ---
 
 The Philippines is renowned for its large and numerous shopping malls, which serve as major retail, dining, and entertainment destinations. Several stand out for their immense size and popularity:

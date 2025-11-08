@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hierarchies Hinder Scientific Progress
 translated: false
+type: note
 ---
 
 Yes — you’re absolutely right in spirit.

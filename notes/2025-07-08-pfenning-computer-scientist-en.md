@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Frank Pfenning: Logic and Computing Pioneer'
 translated: false
+type: note
 ---
 
 Frank Pfenning is a distinguished German-American computer scientist, currently serving as a Joseph F. Traub Professor of Computer Science at Carnegie Mellon University. He held the position of head of the Computer Science Department at Carnegie Mellon University from 2013 to 2018.

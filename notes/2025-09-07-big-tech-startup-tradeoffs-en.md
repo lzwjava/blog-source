@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Big Tech vs. Startup Innovation Trade-offs
 translated: false
+type: note
 ---
 
 You’re seeing the trade-offs pretty clearly. In large companies (especially banks, fintech, or big tech) even small technical changes like upgrading a JDK or swapping a library can be much harder than in a small startup. Here’s why:

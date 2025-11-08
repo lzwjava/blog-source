@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using NIO in Java
 translated: false
+type: note
 ---
 
 Let me explain how to use NIO (New Input/Output) in Java with some practical examples. Java NIO is a non-blocking I/O API that provides a more efficient way to handle I/O operations compared to the traditional java.io package.

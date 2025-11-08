@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The Human Body and Its Parts
 translated: false
+type: note
 ---
 
 ### What is the Human Body?

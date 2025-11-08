@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fixing Go Command Not Found on macOS
 translated: false
+type: note
 ---
 
 The error message `/bin/sh: go: command not found` indicates that the Go programming language is not installed on your macOS system, or it's not properly configured in your PATH. The `make` command is trying to run a Go build process, which requires the Go compiler (`go`). Below are the steps to install Go on macOS and resolve this issue.

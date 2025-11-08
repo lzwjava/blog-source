@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Determinants
 translated: false
+type: note
 ---
 
 Got it! Here's the tutorial with only display math (block equations).  

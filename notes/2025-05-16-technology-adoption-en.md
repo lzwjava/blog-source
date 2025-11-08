@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The Speed of Technology Adoption
 translated: false
+type: note
 ---
 
 The accelerating pace of technology adoption since the 1960s is a phenomenon driven by a confluence of factors: global connectivity, compounding technological advancements, economic incentives, cultural shifts, and infrastructure development. Each major technological wave—transistors, personal computers, the internet, mobile phones, and now artificial intelligence—has built upon the foundations of its predecessors, resulting in progressively faster adoption rates. Below, I’ll break down the timeline, the drivers of this acceleration, and the evidence supporting this trend, providing a comprehensive explanation as requested.

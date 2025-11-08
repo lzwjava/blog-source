@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Electrical Filament
 translated: false
+type: note
 ---
 
 An electrical filament is a thin wire or thread, typically made of a high-resistance material like tungsten, that glows when an electric current passes through it, producing light and heat. It’s most commonly associated with incandescent light bulbs, where the filament is heated to a high temperature, causing it to emit visible light. The filament is usually coiled to increase its surface area and efficiency, and it’s enclosed in a glass bulb filled with an inert gas (like argon) or a vacuum to prevent oxidation and prolong its life.

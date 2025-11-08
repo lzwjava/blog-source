@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Your Future: Growth, Tech, and Opportunities'
 translated: false
+type: note
 ---
 
 It's interesting to consider how your unique background and experiences might shape your future! While I can't predict exact events, I can offer some educated estimations based on the information you've provided.

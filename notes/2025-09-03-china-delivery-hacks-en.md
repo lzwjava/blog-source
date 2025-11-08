@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: China Delivery Notes Hacks With Tips
 translated: false
+type: note
 ---
 
 In China, it’s fairly common to add little requests in the delivery notes (配送备注), especially if you give a small tip (like 5 RMB). Here are some practical things you could ask a delivery person to do:

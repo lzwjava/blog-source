@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Reasons and Examples of Banned Books
 translated: false
+type: note
 ---
 
 It's difficult to provide an exhaustive, universally applicable list of "banned" books because book banning is a complex and often localized issue. What's banned in one school district, library, or country may be freely available elsewhere.

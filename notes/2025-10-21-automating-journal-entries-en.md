@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Automating Journal Entries for Financial Close
 translated: false
+type: note
 ---
 
 ### Introduction to Journal Entries in Financial Processes

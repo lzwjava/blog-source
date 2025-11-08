@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'HSBC One: Digital, All-In-One Account'
 translated: false
+type: note
 ---
 
 Here's a clearer breakdown of your questions regarding HSBC One and its UnionPay debit card in the Hong Kong context:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: WebSphere Application Server Core Components
 translated: false
+type: note
 ---
 
 ### Key Concepts in IBM WebSphere Application Server (WAS)

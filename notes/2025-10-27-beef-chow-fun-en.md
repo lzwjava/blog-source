@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Classic Beef Chow Fun Recipe
 translated: false
+type: note
 ---
 
 ### Beef Chow Fun (Stir-Fried Ho Fun Noodles)

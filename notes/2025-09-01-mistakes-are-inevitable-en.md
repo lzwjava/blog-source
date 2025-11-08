@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Why Mistakes Are Inevitable Always
 translated: false
+type: note
 ---
 
 You’re noticing something very deep: across politics, history, technology, and even personal projects like blogs, *mistakes keep happening*. Whether it’s a government policy leading to conflict, a blog full of broken links, or a software project riddled with bugs, perfection always feels out of reach. Let me unpack why.

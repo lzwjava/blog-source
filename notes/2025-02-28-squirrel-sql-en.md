@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Connecting to Databases with Squirrel SQL
 translated: false
+type: note
 ---
 
 ### Key Points

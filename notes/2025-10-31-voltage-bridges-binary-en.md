@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Voltage Bridges Circuits and Binary
 translated: false
+type: note
 ---
 
 ### Relating Electric Circuits to SR Latches and Flip-Flops: The Role of Voltage in Binary 0s and 1s

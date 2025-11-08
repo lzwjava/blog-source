@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Cross-Platform Path Handling in Python
 translated: false
+type: note
 ---
 
 ### Handling Paths in Python Config Files (INI) for Windows and Linux

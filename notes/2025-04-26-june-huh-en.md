@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: June Huh’s Story
 translated: false
+type: note
 ---
 
 June Huh’s story is one of resilience, unconventional paths, and the power of curiosity. Born in 1983 in California to academic parents (his father a statistics professor, his mother a Russian language professor), Huh moved to South Korea at age two. His early years were marked by academic struggles; poor math test scores in elementary school convinced him he lacked mathematical talent, and he found traditional schooling stifling. Bored and disengaged, he dropped out of high school to pursue poetry, a decision that reflected his preference for self-directed exploration over rigid structures.[](https://en.wikipedia.org/wiki/June_Huh)[](https://www.quantamagazine.org/june-huh-high-school-dropout-wins-the-fields-medal-20220705/)

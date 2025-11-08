@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Installing OpenJDK 8 on macOS
 translated: false
+type: note
 ---
 
 Here’s how you can install **OpenJDK 8** (Java SE 8) on macOS in **2025**, with methods covering Homebrew, SDKMAN, manual installers, and MacPorts. No tables—just clear, easy flows:

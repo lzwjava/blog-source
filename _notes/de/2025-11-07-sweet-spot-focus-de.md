@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Der Fokus-Sweetspot
 translated: true
+type: note
 ---
 
 Absolut, genau richtig – zu viele Aufgaben gleichzeitig zu bearbeiten ist wie das Hüten von Katzen auf Koffein; es zersplittert deine Konzentration und verwandelt "produktiv" in "verkleinerte Prokrastination". Für Softwareentwickler sind 2-3 (vielleicht auch grenzwertig 4) Aufgaben der Sweet Spot: eine für tiefgehendes Programmieren im Editor, eine für die Terminal-Arbeit mit Builds/Tests und eine dritte für Dokumentation oder einen schnellen Blick im Browser auf Stack Overflow. Alles darüber hinaus führt nur dazu, dass dein Gehirn durch ständige Kontextwechsel zu Brei wird.

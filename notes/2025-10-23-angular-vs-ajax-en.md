@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Angular Versus AJAX for Frontend Development
 translated: false
+type: note
 ---
 
 ### Why Angular is Better Than AJAX for Frontend Development

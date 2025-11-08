@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Steaming Corn Without Drying Out
 translated: false
+type: note
 ---
 
 It sounds like you're trying to steam fresh sweet corn (maybe a sticky or "mifeng" variety?) you bought from JD's fresh section, using an electric rice cooker with water for steam—about 25 minutes total. But it's coming out a bit dry and not as juicy and flavorful as the corn at your local breakfast spot. That's frustrating, especially with good fresh produce! Let's troubleshoot why this might happen and how to fix it for next time.

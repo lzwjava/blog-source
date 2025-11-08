@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Filter Configuration in Java Servlets
 translated: false
+type: note
 ---
 
 ### How Does `javax.servlet.FilterConfig` Work?

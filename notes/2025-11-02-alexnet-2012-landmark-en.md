@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'AlexNet: A 2012 Landmark Paper'
 translated: false
+type: note
 ---
 
 ### Introduction to AlexNet: The 2012 Landmark Paper

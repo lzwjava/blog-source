@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Fiabilité du TCP et détection des pertes
 translated: true
+type: note
 ---
 
 Permettez-moi de décomposer cette conversation sur la fiabilité de TCP en concepts clairs :

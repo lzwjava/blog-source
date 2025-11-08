@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Analyze Java Dependencies
 translated: false
+type: note
 ---
 
 To address your query, I'll modify the provided Python script to generate a dependency graph for Java classes, where dependencies are grouped by a specified "level" of the package hierarchy. For example, if `level=1`, packages are grouped at the top level (e.g., "org"), and if `level=2`, they are grouped at the second level (e.g., "org.springframework"). This means that before analyzing dependencies, we accumulate classes into groups based on the first `level` parts of their package names, and the graph will show dependencies between these groups rather than individual classes.

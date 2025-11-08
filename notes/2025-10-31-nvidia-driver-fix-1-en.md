@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fixing NVIDIA Driver Loading Issues
 translated: false
+type: note
 ---
 
 ### Understanding the Error

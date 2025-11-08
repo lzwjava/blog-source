@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 啟用 Java SSL TLS 除錯
 translated: true
+type: note
 ---
 
 ### 在 Java 中啟用 SSL/TLS 除錯功能

@@ -8,6 +8,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Python Copilot Proxy Server Implementation
 translated: false
+type: note
 ---
 
 This Python script is a **local proxy server** that interacts with **GitHub Copilot** to generate code completions. It mimics the behavior of the official GitHub Copilot plugin (e.g., for Neovim) by handling authentication and forwarding requests to Copilot's API.

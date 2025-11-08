@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Trial Lenses for Vision Correction
 translated: false
+type: note
 ---
 
 ### English Term for "验光插片"

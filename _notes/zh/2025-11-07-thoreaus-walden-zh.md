@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 梭罗的瓦尔登湖林中生活
 translated: true
+type: note
 ---
 
 ### 亨利·戴维·梭罗《瓦尔登湖》导读

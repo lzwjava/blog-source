@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Diode: Key to DC Power Supplies'
 translated: false
+type: note
 ---
 
 The semiconductor device primarily used for rectification in DC power supplies is the **Diode**.

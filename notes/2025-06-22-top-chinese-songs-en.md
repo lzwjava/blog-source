@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top 30 Chinese Songs
 translated: false
+type: note
 ---
 
 Here's the list of 30 Chinese songs, translated into English, while keeping the title in Chinese:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Sunset and Sunrise Sky Colors Explained
 translated: false
+type: note
 ---
 
 ### Why the Sky Turns Colorful (Orange, Red, Pink, etc.) at Sunrise and Sunset

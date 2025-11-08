@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Getting Started with AWS Lambda
 translated: false
+type: note
 ---
 
 ### Getting Started with AWS Lambda

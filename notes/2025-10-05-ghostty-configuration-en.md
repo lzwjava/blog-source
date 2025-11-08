@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding Ghostty's Configuration File
 translated: false
+type: note
 ---
 
 ### How the Ghostty Config File Works

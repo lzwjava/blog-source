@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: GreptimeDB's Top Time Series Competitors
 translated: false
+type: note
 ---
 
 Based on the search results, GreptimeDB's major competitors in the time series database space include:

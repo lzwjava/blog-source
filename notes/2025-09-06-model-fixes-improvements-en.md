@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Model Shape Fixes and Improvements
 translated: false
+type: note
 ---
 
 Here’s what your script is doing, piece by piece, plus a couple of important fixes you’ll likely want to make.

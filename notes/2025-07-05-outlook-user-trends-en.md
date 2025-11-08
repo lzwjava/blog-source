@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Outlook's Dominance in Professional Email
 translated: false
+type: note
 ---
 
 Microsoft Outlook remains one of the most widely used email and personal information management applications globally, largely due to its deep integration with the Microsoft 365 ecosystem and its strong features geared towards professionals.

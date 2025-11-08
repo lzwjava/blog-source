@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Ben Eater
 translated: false
+type: note
 ---
 
 Ben Eater is an American YouTuber, software developer, and educator known for his engaging and in-depth technical content. He gained popularity through his YouTube channel, [Ben Eater](https://www.youtube.com/c/8bitguy1), where he originally focused on retro computing, hardware hacking, and explaining complex computer science concepts in an accessible way.

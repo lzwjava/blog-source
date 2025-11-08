@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: 'DeepWiki in Devin: Automated Repo Documentation'
 translated: false
+type: note
 ---
 
 Here’s a breakdown of how **DeepWiki** works in **Devin**, based on available documentation. If you want, I can also walk through an example to make it clearer.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Azure DevOps Pipelines
 translated: false
+type: note
 ---
 
 Let's break this down into two parts: **using Azure DevOps Pipelines** and **writing YAML for pipelines**. I'll provide a clear, practical explanation for both.

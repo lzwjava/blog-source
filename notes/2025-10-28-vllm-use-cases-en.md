@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: vLLM Use Cases and Applications
 translated: false
+type: note
 ---
 
 ### Typical Use Cases for vLLM

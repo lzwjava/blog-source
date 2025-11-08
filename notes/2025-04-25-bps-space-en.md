@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: BPS.Space
 translated: false
+type: note
 ---
 
 **BPS.Space**, run by Joe Barnard, is celebrated for its groundbreaking work in advanced model rocketry, particularly for achieving feats like propulsive landings with solid-fuel rockets—a challenge even for professional aerospace companies. Here’s why BPS.Space stands out, drawing parallels to the qualities seen in innovators like Peng Zhihui (Zhihuijun):

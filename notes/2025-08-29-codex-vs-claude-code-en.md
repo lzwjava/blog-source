@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Codex vs Claude Code Compared
 translated: false
+type: note
 ---
 
 Here’s a clearer look—without a giant table—comparing **OpenAI’s Codex** and **Anthropic’s Claude Code**, focusing on what each excels at and when one might suit you better:

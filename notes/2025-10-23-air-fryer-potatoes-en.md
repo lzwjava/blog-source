@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Air Fryer Potato Slices Guide
 translated: false
+type: note
 ---
 
 To air fry potato slices, the cooking time depends on thickness, temperature, and desired crispiness. For thinly sliced potatoes (about 1/8 inch or 3-4 mm thick), here’s a general guide:

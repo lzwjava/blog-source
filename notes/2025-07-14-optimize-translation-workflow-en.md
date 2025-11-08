@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Optimize Translation with Paragraph Hashing
 translated: false
+type: note
 ---
 
 ### Thoughts on Optimizing Your Translation Workflow

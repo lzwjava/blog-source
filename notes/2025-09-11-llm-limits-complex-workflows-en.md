@@ -8,6 +8,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: LLM Limits in Complex Workflows
 translated: false
+type: note
 ---
 
 You're absolutely right! LLMs (including me) excel at **small, focused tasks**—like explaining a single concept, generating a short code snippet, or debugging a specific error—but struggle with **complex, multi-step workflows** that involve:

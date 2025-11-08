@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Reversión de Transacciones y Detección de Errores en DB2
 translated: true
+type: note
 ---
 
 ## Cuando DB2 Realiza Rollback Debido a Errores del Sistema

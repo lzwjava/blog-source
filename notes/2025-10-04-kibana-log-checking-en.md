@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Kibana Log Checking Guide
 translated: false
+type: note
 ---
 
 Kibana is an open-source data visualization and exploration tool developed by Elastic. It's a key component of the **ELK Stack** (Elasticsearch, Logstash, Kibana), which is widely used for centralized logging, monitoring, and analytics. Kibana provides a web-based interface to interact with data stored in Elasticsearch, allowing you to search, visualize, and analyze logs in real-time. It's particularly powerful for checking logs from applications, servers, or cloud services.

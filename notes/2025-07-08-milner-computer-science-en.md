@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Milner's Pioneering Contributions to Computing
 translated: false
+type: note
 ---
 
 Robin Milner (1934-2010) was an influential English computer scientist, best known for his foundational contributions to programming languages, automatic theorem provers, and concurrency theory. He was awarded the prestigious A.M. Turing Award in 1991, often referred to as the "Nobel Prize of Computing," for these "three distinct and complete achievements."

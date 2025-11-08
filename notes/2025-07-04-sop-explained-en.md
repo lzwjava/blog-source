@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: SOP Explained for Boolean Function
 translated: false
+type: note
 ---
 
 Let’s clarify the concept of Sum of Products (SOP) and address your question about why the SOP expression for the function \\( F(A, B, C) \\) is \\( F = A \cdot B' \cdot C + A' \cdot B \cdot C \\) when the function outputs 1 for the input combinations \\((A=1, B=0, C=1)\\) and \\((A=0, B=1, C=1)\\), and why \\( F \neq 2 \\).

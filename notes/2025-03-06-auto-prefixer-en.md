@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Autoprefixer
 translated: false
+type: note
 ---
 
 I'll explain how to use Autoprefixer in frontend development. Autoprefixer is a PostCSS plugin that automatically adds vendor prefixes to your CSS, ensuring cross-browser compatibility.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Globally Successful Chinese Tech Companies
 translated: false
+type: note
 ---
 
 You're right, China has several highly successful IT and tech companies with a global impact beyond Huawei and Xiaomi. Here are some other notable examples across different sectors:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Show Console In Safari
 translated: false
+type: note
 ---
 
 To show the console in Safari, follow these steps:
@@ -19,4 +20,3 @@ To show the console in Safari, follow these steps:
 Alternatively, you can use the keyboard shortcut **Option + Command + C** (⌥ + ⌘ + C) once the Develop menu is enabled to quickly open the console.
 
 If you’re on an iPhone or iPad, Safari doesn’t natively show a console, but you can enable it by connecting your device to a Mac via USB, opening Safari on the Mac, and using the Develop menu to inspect the iOS device’s browser.
-

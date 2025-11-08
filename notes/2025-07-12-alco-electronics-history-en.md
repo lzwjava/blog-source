@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Alco's Tech Evolution
 translated: false
+type: note
 ---
 
 ## Company Overview

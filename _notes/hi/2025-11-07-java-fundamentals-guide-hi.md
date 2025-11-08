@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: जावा प्रोग्रामिंग फंडामेंटल्स स्टडी गाइड
 translated: true
+type: note
 ---
 
 ## राष्ट्रीय उच्च शिक्षा स्व-अध्ययन परीक्षा

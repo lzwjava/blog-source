@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Lyrics of 雪の華 (Yuki No Hana)
 translated: false
+type: note
 ---
 
 Here are the lyrics and a detailed explanation of "雪の華" (Yuki No Hana) by Mika Nakashima. I'll provide the Japanese lyrics, their pronunciation in Romaji, and break down each line with meanings to help you understand the song's beauty and emotion.

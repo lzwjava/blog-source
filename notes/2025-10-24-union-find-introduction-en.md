@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Union-Find Algorithm Introduction
 translated: false
+type: note
 ---
 
 ### Introduction to the Union-Find (Disjoint Set Union) Algorithm

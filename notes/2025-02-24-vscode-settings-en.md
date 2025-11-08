@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: VSCode Settings
 translated: false
+type: note
 ---
 
 This JSON file contains various VS Code settings that customize the editor's behavior and appearance. Here's a brief overview of what each setting does:

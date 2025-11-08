@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: MacOS Python Window Capture Methods
 translated: false
+type: note
 ---
 
 Good question 👍 — `pygetwindow` is a lightweight wrapper, but there are several other Python libraries you can use on macOS to get the active window geometry for screenshots:

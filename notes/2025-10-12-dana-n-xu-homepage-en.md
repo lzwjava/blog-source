@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Dana N. Xu Personal Homepage
 translated: false
+type: note
 ---
 
 This is the personal homepage of Dana N. Xu, a junior Research Scientist (Chargé de Recherche) in the Gallium research team at INRIA Paris - Rocquencourt, a French national research institute focused on computer science.

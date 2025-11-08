@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: SSL Certificate Validation in Insomnia
 translated: false
+type: note
 ---
 
 To fix the "SSL peer certificate or SSH remote key was not OK" error in Insomnia, this error typically occurs when Insomnia cannot verify the SSL certificate of the server you're trying to connect to. Below are step-by-step solutions to resolve this issue:

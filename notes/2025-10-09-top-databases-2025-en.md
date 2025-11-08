@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Databases in 2025
 translated: false
+type: note
 ---
 
 ### Major Databases in the Market (2025)

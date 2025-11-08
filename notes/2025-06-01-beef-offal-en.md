@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cooking Beef Offal
 translated: false
+type: note
 ---
 
 Cooking beef offal in an air fryer can be a quicker way to achieve a crispy exterior, but the specific method will depend on the type of offal you're using. Here's a general guide and some considerations:

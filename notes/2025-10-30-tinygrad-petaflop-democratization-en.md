@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Tinygrads Petaflop Democratization Mission
 translated: false
+type: note
 ---
 
 ### Understanding Tinygrad's Mission

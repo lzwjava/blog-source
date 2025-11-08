@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Automate Log Collection in Spring Boot
 translated: false
+type: note
 ---
 
 You're absolutely right! Manually copying and pasting logs is tedious and error-prone. Let me show you how to set up automated log collection in Spring Boot projects using Logback.Now let me show you how to configure this in your Spring Boot application properties:Here's also a Java configuration approach if you prefer programmatic setup:Here are the key benefits of this automated setup:

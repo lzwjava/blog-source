@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Deep Learning Pioneers Before Hinton
 translated: false
+type: note
 ---
 
 ### Alexey Ivakhnenko's Work

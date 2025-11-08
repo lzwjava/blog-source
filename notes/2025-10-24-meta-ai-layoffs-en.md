@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Meta AI Unit Layoffs Amid Reorganization
 translated: false
+type: note
 ---
 
 ### Overview of Meta's Recent Layoffs

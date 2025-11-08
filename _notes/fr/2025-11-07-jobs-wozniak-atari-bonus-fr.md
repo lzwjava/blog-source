@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Jobs Escroque Wozniak Sur La Prime Atari
 translated: true
+type: note
 ---
 
 C’est la fameuse histoire de la réduction des puces pour l’Atari Breakout en 1973-74, et c’est l’un des exemples les plus clairs de la dynamique complexe entre les deux Steves.

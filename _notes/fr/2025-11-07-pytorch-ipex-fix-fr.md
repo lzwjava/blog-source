@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Résolution des Problèmes de Compatibilité entre PyTorch et IPEX
 translated: true
+type: note
 ---
 
 Vous rencontrez deux problèmes ici :

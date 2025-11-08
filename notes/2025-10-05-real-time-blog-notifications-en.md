@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Real-Time Blog Visit Telegram Notifications
 translated: false
+type: note
 ---
 
 Yes, you can set up a system to analyze Cloudflare logs or traffic in near real-time and send Telegram notifications for each blog visit, but it's not straightforward with standard analytics logs alone. Cloudflare's analytics are mostly aggregate (e.g., daily/weekly summaries), and even their Logpush feature (which exports logs) batches data every 1-5 minutes, making it unsuitable for instant per-visit alerts. Instant Logs offers real-time streaming but requires a Business or Enterprise plan and would need custom processing (e.g., via WebSocket and a script) to trigger Telegram messages— that's overkill for most users.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: ヘンリー・デイヴィッド・ソロー：生涯と遺産
 translated: true
+type: note
 ---
 
 ### ヘンリー・デイヴィッド・ソロー：生涯と遺産への包括的入門

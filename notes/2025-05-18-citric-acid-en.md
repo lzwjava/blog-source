@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Citric Acid
 translated: false
+type: note
 ---
 
 Citric acid is a naturally occurring organic acid widely recognized for its versatility in food, industrial, pharmaceutical, and household applications. Chemically classified as a tricarboxylic acid, it plays a significant role in biological and industrial processes due to its unique properties, such as acidity, chelating ability, and solubility. This introduction provides a detailed overview of citric acid, covering its chemical structure, natural occurrence, production methods, applications, safety, and environmental impact.

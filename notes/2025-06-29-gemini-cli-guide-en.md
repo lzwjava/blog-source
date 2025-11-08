@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Install and Use Gemini CLI
 translated: false
+type: note
 ---
 
 Below is a concise guide to installing, setting up, and using the **Google Gemini CLI**, an open-source AI agent that integrates Gemini’s capabilities into your terminal for coding, task automation, and more. This guide is based on the latest available information as of June 29, 2025.[](https://github.com/google-gemini/gemini-cli)[](https://dev.to/auden/google-gemini-cli-tutorial-how-to-install-and-use-it-with-images-4phb)[](https://gemini-cli.click/)

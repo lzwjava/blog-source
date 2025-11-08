@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using JSBadgeView in iOS
 translated: false
+type: note
 ---
 
 It looks like you're referring to integrating the `JSBadgeView` pod (version 1.4.1) into an iOS project using CocoaPods, a popular dependency manager for Swift and Objective-C projects. I'll walk you through the steps to use this pod in your project.

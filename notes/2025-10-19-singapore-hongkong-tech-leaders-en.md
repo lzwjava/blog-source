@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Singaporean and Hong Kong Tech Leaders
 translated: false
+type: note
 ---
 
 ### Singaporeans in Silicon Valley Tech

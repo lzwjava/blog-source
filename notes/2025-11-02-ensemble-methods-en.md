@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ensemble Methods for Robust Predictions
 translated: false
+type: note
 ---
 
 In machine learning, an **ensemble** refers to a method that combines the predictions or outputs from multiple individual models (often called "weak learners," like simple decision trees) to produce a more accurate and robust final prediction than any single model could achieve on its own. The idea is to leverage the "wisdom of the crowd" among models—reducing errors, overfitting, and variance by averaging or weighting their strengths while mitigating weaknesses.

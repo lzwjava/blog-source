@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Understanding JaCoCo and Maven Integration
 translated: false
+type: note
 ---
 
 Got it—here’s how the JaCoCo pieces in **your exact POM** work together, step-by-step, and why.

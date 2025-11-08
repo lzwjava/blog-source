@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Secure Random Generation with Python Secrets
 translated: false
+type: note
 ---
 
 ### Introduction to the `secrets` Module

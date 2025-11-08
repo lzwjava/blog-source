@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: La Vie dans les Bois de Thoreau à Walden
 translated: true
+type: note
 ---
 
 ### Introduction à *Walden* de Henry David Thoreau

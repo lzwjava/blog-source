@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 珠海5日間の旅行ガイド
 translated: true
+type: note
 ---
 
 ### 広東省珠海への5日間の旅の計画

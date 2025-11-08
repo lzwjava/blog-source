@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong Top Talent Pass Scheme
 translated: false
+type: note
 ---
 
 ### Hong Kong's Top Talent Pass Scheme (TTPS) – "Gaocai" Program

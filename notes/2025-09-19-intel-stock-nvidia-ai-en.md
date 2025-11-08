@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Intel Stock Soars on Nvidia Deal and AI Optimism
 translated: false
+type: note
 ---
 
 Intel stock jumped a lot recently — there are a few key reasons why, many tied to its new deal and changing positioning in the AI / chip ecosystem. Here’s a breakdown:

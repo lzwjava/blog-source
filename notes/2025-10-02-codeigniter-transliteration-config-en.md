@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: CodeIgniter Transliteration Configuration Guide
 translated: false
+type: note
 ---
 
 ### Purpose in CodeIgniter

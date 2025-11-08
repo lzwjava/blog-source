@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Linear Algebra Exam Quick Reference
 translated: false
+type: note
 ---
 
 Quick reference for key concepts and formulas. Focus on matrices, determinants, linear systems, vector spaces, transformations, eigenvalues, and quadratic forms—core topics from past exams. Review definitions, properties, and computations.

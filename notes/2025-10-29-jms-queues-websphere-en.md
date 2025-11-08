@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: JMS Queues in WebSphere Application Server
 translated: false
+type: note
 ---
 
 ### Java Message Service (JMS) Overview

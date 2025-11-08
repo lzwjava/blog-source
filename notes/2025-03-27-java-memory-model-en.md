@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Memory Model
 translated: false
+type: note
 ---
 
 Let's delve into the Java Memory Model (JMM)! This is a fundamental concept for understanding how multithreaded Java programs behave, especially when dealing with shared data.

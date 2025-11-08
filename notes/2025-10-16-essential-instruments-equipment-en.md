@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Essential Music Instruments and Equipment
 translated: false
+type: note
 ---
 
 ### Major Music Equipment: Popular Instruments and Essentials

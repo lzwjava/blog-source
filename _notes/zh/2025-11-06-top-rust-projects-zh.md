@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 顶尖Rust开源项目
 translated: true
+type: note
 ---
 
 ### 主要使用 Rust 语言编写的顶级开源项目

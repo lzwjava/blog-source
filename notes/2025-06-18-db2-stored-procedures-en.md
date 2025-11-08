@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Calling DB2 Stored Procedures with Parameters
 translated: false
+type: note
 ---
 
 ### Assumptions and Context

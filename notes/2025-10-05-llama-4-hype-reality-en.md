@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Llama 4s Hype Meets Development Reality
 translated: false
+type: note
 ---
 
 ### Understanding the Llama 4 Trajectory and Zuckerberg's Comments

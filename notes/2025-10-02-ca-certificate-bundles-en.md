@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Understanding CA Certificate Bundles
 translated: false
+type: note
 ---
 
 ### What is cacert.pem?

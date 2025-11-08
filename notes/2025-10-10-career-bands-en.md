@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Career Band System
 translated: false
+type: note
 ---
 
 ### HSBC Global Career Band (GCB) System Overview

@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: موثوقية TCP وكشف الفقد
 translated: true
+type: note
 ---
 
 دعني أشرح محادثة موثوقية بروتوكول TCP من خلال مفاهيم واضحة:

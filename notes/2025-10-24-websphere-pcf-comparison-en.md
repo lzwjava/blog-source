@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: WebSphere vs. Pivotal Cloud Foundry Comparison
 translated: false
+type: note
 ---
 
 ### Overview

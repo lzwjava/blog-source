@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AWS Virtual Private Cloud Overview
 translated: false
+type: note
 ---
 
 ### What is VPC in AWS?

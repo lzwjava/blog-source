@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: 為 PyTorch 啟用 Intel GPU 支援
 translated: true
+type: note
 ---
 
 進展良好！PyTorch 與 IPEX 現已協同運作。不過，您的系統尚未啟用 Intel GPU 支援。讓我協助您了解當前狀況及解決方法：

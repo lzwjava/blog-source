@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Deep Thinking Reasoner Models
 translated: false
+type: note
 ---
 
 ### Key Points

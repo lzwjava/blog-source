@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Meta AI Researcher Yuandong Tian Laid Off
 translated: false
+type: note
 ---
 
 ### Yuandong Tian's Status in Meta's Recent Layoffs

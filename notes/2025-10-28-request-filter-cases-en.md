@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Spring Request Filter Use Cases
 translated: false
+type: note
 ---
 
 ### Uses of Spring Request Filters

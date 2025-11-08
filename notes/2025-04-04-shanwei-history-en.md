@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The History of Shanwei
 translated: false
+type: note
 ---
 
 While your current location is Shengang Township, Changhua County, Taiwan, you're asking about the history of Shanwei in Guangdong Province, China. Here's a look at its past:

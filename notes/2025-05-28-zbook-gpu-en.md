@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: GPU Functionality and APIs in HP ZBook Studio
 translated: false
+type: note
 ---
 
 The HP ZBook Studio 16 G11 is a high-performance mobile workstation designed for professional use, particularly in fields requiring robust graphical capabilities. Here's how you can utilize its GPU functionality and the APIs it provides:

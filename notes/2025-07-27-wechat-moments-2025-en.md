@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'WeChat Moments: Not Silenced, But Quieter'
 translated: false
+type: note
 ---
 
 Based on recent data and trends as of July 2025, there isn't strong evidence to suggest that WeChat Moments is experiencing a widespread "silencing" or significant decline in overall usage, postings, or views. WeChat as a platform continues to show user growth, with monthly active users (MAUs) reaching around 1.3 billion globally, up about 2% year-over-year. However, there are some nuances indicating subtle shifts in user behavior:

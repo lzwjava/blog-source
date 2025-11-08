@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Dépannage de la Serrure Électronique Yale Sans Réponse
 translated: true
+type: note
 ---
 
 ### Que faire si la serrure électronique Yale ne répond pas après le changement des piles

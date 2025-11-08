@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Installing Docker on Ubuntu Guide
 translated: false
+type: note
 ---
 
 Based on your Ubuntu system output, you have several options to install Docker. Here's the recommended approach:

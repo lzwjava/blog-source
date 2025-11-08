@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Arrays as HashMaps Explained
 translated: false
+type: note
 ---
 
 Yes, you're absolutely right! Let me break it down clearly to confirm and expand on your thinking.

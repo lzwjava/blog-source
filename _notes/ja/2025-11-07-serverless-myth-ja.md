@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: サーバーレス神話のP2P通信
 translated: true
+type: note
 ---
 
 素晴らしい質問です！**ピアツーピア（P2P）の原則**と現代の通信アプリを正しく関連付けていますが、決定的な違いがあります：**PPP（Point-to-Point Protocol）** は直接のシリアル/モデム接続のための**データリンク層（レイヤー2）** で動作するのに対し、RustDeskやweb3チャットなどのアプリケーションは、異なるP2P技術を使用して**アプリケーション層（レイヤー7）** で動作します。

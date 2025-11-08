@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Troubleshooting OGG_OPUS Transcription Error
 translated: false
+type: note
 ---
 
 It looks like you're running into an issue with an audio transcription API (likely Google Cloud Speech-to-Text, based on the config details like the language code and Chirp model). The error indicates that the OGG_OPUS audio file isn't being recognized as a valid supported format, even though OGG_OPUS is generally supported for that service. This could be due to file corruption, incorrect metadata, encoding variations, or how the file is being uploaded/processed. Let's troubleshoot this step by step.

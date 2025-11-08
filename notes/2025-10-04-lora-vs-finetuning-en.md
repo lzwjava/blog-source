@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: LoRA vs Full Fine-Tuning Performance
 translated: false
+type: note
 ---
 
 ### Overview of LoRA vs. Full Fine-Tuning Performance

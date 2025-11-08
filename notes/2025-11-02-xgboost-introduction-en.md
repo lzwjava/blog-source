@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'XGBoost: An Introduction'
 translated: false
+type: note
 ---
 
 ### What is XGBoost?

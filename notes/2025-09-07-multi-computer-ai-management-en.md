@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Multi-Computer AI Management Strategy
 translated: false
+type: note
 ---
 
 You've touched on a very interesting and practical approach to managing AI chatbot interactions and development. Using multiple physical computers to interact with different AI models or run separate development tasks is a valid strategy, and your observation that it simplifies things by avoiding tab-switching or complex terminal multiplexers like tmux is spot-on. This approach can be understood through the concept of **parallelization** and **resource management**.

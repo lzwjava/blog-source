@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: ترتيب المنشورات والملاحظات
 translated: true
+type: note
 ---
 
 ### `_includes/sort.html` المُعدَّل

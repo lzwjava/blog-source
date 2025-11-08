@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: Microcomputer Note - Conversation
+type: note
 ---
 
 A: Hey, I’ve been hearing a lot about microcomputer and interface technology lately. Can you break it down for me?

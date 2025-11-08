@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: An XML Regex Script
 translated: false
+type: note
 ---
 
 I'll modify the script to use `argparse` for handling command-line arguments. This will allow you to pass the file path directly when running the script:

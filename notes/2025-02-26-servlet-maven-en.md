@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Servlet Application with Maven
 translated: false
+type: note
 ---
 
 Here’s a complete guide to creating and deploying a simple Java Servlet application on WebSphere Liberty Profile (WLP) using Maven for building the project and the Liberty Maven plugin for deployment. This example creates a basic Servlet that returns "Hello World!" when accessed, builds it into a WAR file with Maven, and deploys it to WLP. We’ll assume you’ve already set up WLP with the `servlet-4.0` feature enabled, as this provides the necessary Servlet support.

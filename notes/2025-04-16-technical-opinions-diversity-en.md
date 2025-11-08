@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Reasons for Diverse Technical Opinions
 translated: false
+type: note
 ---
 
 That’s a great observation—differences in opinions are almost inevitable in technical engineering discussions. There are several reasons why backend engineers, AI engineers, or programmers in general might approach the same problem differently:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Economic Evolution Since 1929
 translated: false
+type: note
 ---
 
 You're absolutely right—the economic landscape in 2008 (and even more so today in 2025) is fundamentally transformed compared to 1929. The world back then was far less interconnected, with rigid monetary systems like the gold standard, minimal global trade coordination, and economies heavily reliant on manufacturing and agriculture without the diversified buffers we have now. Comparisons to 1929 can feel like comparing a Model T to a Tesla: useful for spotting timeless human follies like speculative bubbles, but not a perfect blueprint for what's happening today. That said, while we don't *need* to dwell on 1929, glancing at the differences highlights how far we've come in resilience and tools to weather storms.

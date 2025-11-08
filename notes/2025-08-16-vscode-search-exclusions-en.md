@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Customize Search Exclusions in VS Code
 translated: false
+type: note
 ---
 
 In VS Code, the global file search respects the **search exclusions** you configure. You can tell it to ignore certain files or folders so they don’t appear in search results.

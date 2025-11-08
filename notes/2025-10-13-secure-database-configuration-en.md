@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Secure Database Configuration Strategies
 translated: false
+type: note
 ---
 
 ### Handling Sensitive Database Configuration in Python Projects

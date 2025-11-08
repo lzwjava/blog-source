@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Major Cities in Africa
 translated: false
+type: note
 ---
 
 Africa is a vast and diverse continent with numerous major cities that serve as significant hubs for population, economy, culture, and politics. Here's an overview of some of the major cities in Africa, considering different aspects:

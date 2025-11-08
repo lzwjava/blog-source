@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Buffer and Inverter Circuits
 translated: false
+type: note
 ---
 
 Here is a tutorial on buffer and inverter circuits based on the provided YouTube video:

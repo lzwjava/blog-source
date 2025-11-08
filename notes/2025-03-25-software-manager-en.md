@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Becoming a Software Manager
 translated: false
+type: note
 ---
 
 Becoming a software manager requires a mix of technical expertise, leadership skills, and business acumen. Here’s a roadmap to help you transition into this role:

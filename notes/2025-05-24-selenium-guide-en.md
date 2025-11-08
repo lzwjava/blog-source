@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Selenium Guide
 translated: false
+type: note
 ---
 
 I'll provide a comprehensive guide to Selenium, a popular tool for automating web browsers. This guide will cover Selenium's components, setup, basic usage, advanced features, and best practices, including code examples in Python. I'll wrap the code and key sections in the required artifact tags.

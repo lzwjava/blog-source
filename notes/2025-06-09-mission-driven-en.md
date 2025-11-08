@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Mission-driven Organizations
 translated: false
+type: note
 ---
 
 Several organizations share Mozilla's mission-driven approach to technology, privacy advocacy, and open-source development. Here are the most notable examples:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Simplicity Wins in Wealth
 translated: false
+type: note
 ---
 
 Rachel Smith welcomes J.L. Collins to the stage, who is met with applause.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: AI Can't Replace Programming Skills
 translated: false
+type: note
 ---
 
 https://weibo.com/6347862377/5183583601819943

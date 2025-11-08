@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Understanding Semiconductors
 translated: false
+type: note
 ---
 
 This tutorial explains the basics of how semiconductors function, focusing on silicon and the creation of a diode.

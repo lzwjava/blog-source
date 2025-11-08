@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Fixing GNOME Terminal Launch Issues
 translated: false
+type: note
 ---
 
 ### Troubleshooting GNOME Terminal Not Opening in Ubuntu 22.04

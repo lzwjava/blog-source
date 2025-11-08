@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Monte Carlo Tree Search
 translated: false
+type: note
 ---
 
 Let’s dive into a comprehensive guide on **Monte Carlo Tree Search (MCTS)**, a powerful algorithm widely used in decision-making problems, especially in games and artificial intelligence. I’ll break it down step-by-step, covering its origins, core concepts, mechanics, implementation, strengths, weaknesses, and applications—everything you need to grasp it thoroughly.

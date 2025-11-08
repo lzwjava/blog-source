@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Workplace Tech Philosophies by Company Culture
 translated: false
+type: note
 ---
 
 This is a really interesting observation. Different companies adopt different **workplace infrastructure philosophies**, and the variations you noticed often come from a mix of **culture, size, regulation, and technology strategy**. Let’s break it down.

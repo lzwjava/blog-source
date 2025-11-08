@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Network Architecture and Models
 translated: false
+type: note
 ---
 
 Below is a detailed tutorial to help you learn the chapter on **Network Architecture and Models**, focusing on the **OSI Reference Model**, the **TCP/IP Protocol Suite**, their comparison, and the functions and responsibilities of layered architectures. This is tailored to a technical course like *Computer Networks Technology (02141)* in the Chinese Higher Education Self-Study Examination (自考) system. The tutorial is structured to be comprehensive, beginner-friendly, and aligned with the technical depth expected in such a course.

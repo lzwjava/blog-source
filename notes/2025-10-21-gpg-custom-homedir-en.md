@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Using GPG with Custom Homedir
 translated: false
+type: note
 ---
 
 ### Using GPG's `--homedir` Option

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Science's Unreliable Proof by Testing
 translated: false
+type: note
 ---
 
 ### Why People Blindly Trust Scientific Experiments: A Programmer's Analogy

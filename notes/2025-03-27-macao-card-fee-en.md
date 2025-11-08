@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Macao Card Plans
 translated: false
+type: note
 ---
 
 LLet's recalculate the cost for **20GB per month**, considering that extra data now costs **20 MOP per 5GB** instead of 5 MOP per 5GB.  

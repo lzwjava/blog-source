@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Guangzhou Travel Guide: Top Attractions'
 translated: false
+type: note
 ---
 
 ### Top Spots to Visit in Guangzhou: A Guide to Culture, History, Food, Economy, Creativity, and Innovation

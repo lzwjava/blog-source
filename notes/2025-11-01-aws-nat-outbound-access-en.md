@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AWS NAT Gateway Outbound Access Explained
 translated: false
+type: note
 ---
 
 ### Clarifying One-Way Outbound Access with NAT in AWS

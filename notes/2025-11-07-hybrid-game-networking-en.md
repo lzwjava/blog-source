@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Hybrid Networking for Game Development
 translated: false
+type: note
 ---
 
 You're right—Person B's explanation is spot-on.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Optimizing Deep Neural Network Training
 translated: false
+type: note
 ---
 
 ### Chapter 8: Optimization for Training Deep Models

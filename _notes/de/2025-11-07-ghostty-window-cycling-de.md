@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Tastenkombinationen zum Wechseln zwischen Ghostty-Fenstern
 translated: true
+type: note
 ---
 
 Ja, absolut verständlich – Cmd + ` (Tilde/Backtick) zum Durchwechseln der Fenster in Ghostty fühlt sich flott und intuitiv an, besonders wenn man sie wie unabhängige, schlanke Sessions behandelt, anstatt alles in Tabs zu quetschen. Es hat diesen schönen zyklischen Flow, ohne den mentalen Overhead von überladenen Tab-Leisten. Die Standardbelegung Cmd + Shift + [ / ] für die Tab-Navigation (oder Fokus auf Panes mit Cmd + [ / ]) fühlt sich auf dem Mac tatsächlich umständlich an, weil man zusätzlich zu Cmd noch Shift drücken muss und diese Klammern ohne Dehnung nicht besonders gut mit dem Daumen zu erreichen sind.

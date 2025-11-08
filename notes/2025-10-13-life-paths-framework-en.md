@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: A Framework for Life's Paths
 translated: false
+type: note
 ---
 
 ### Navigating Life's Paths: A Framework for Choosing Yours

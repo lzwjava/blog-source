@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Aperçu du protocole TCP multipath
 translated: true
+type: note
 ---
 
 Le MPTCP est une extension du protocole de couche transport qui modifie fondamentalement le fonctionnement des connexions réseau en permettant à une connexion logique unique d'utiliser simultanément plusieurs chemins physiques. Voici une analyse détaillée :

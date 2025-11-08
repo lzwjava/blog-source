@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 建立 Ubuntu 使用者帳戶
 translated: true
+type: note
 ---
 
 ### 在 Ubuntu Linux 中建立新使用者

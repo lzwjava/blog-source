@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring Actuator
 translated: false
+type: note
 ---
 
 Spring Actuator is a powerful feature in Spring Boot that provides production-ready tools for monitoring and managing your application. Here's a step-by-step guide on how to use it:

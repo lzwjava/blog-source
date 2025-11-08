@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Deadlock in Spring Boot
 translated: false
+type: note
 ---
 
 Let’s dive into solving a deadlock issue in a Spring Boot project when multiple requests hit a bean’s method concurrently. Deadlocks occur when two or more threads block each other indefinitely, often due to competing for shared resources like database locks, synchronized blocks, or thread-safe data structures. Since you’ve mentioned a bean’s method handling many requests, I’ll assume this is a singleton-scoped bean (Spring’s default scope) and explore common causes and solutions.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding Model FLOPs Utilization (MFU)
 translated: false
+type: note
 ---
 
 In the context of nanoGPT (a minimal implementation for training GPT models), **mfu** stands for **Model FLOPs Utilization**. It's a key efficiency metric during training that measures how effectively the hardware (e.g., GPU) is being utilized, expressed as a percentage of the theoretical peak floating-point operations per second (FLOPs) achievable on that device.

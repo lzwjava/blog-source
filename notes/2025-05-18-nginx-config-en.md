@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Nginx Configuration
 translated: false
+type: note
 ---
 
 Using `server_name 0.0.0.0` in your Nginx configuration is not the correct approach, as `server_name` is meant to match domain names or hostnames, not IP addresses. Additionally, `0.0.0.0` is a special address that means "listen on all interfaces," which is handled by the `listen` directive, not `server_name`. Since the IP address of your laptop (the server) changes dynamically, you need a solution that accommodates this. Below are steps to fix your Nginx configuration and handle the dynamic IP issue effectively.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ideological Moral Cultivation Legal Education
 translated: false
+type: note
 ---
 
 ### Overview

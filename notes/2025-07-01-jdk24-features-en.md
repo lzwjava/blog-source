@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'JDK 24: Key Features and Updates'
 translated: false
+type: note
 ---
 
 ### Introduction to JDK 24

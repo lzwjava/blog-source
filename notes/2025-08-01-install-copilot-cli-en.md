@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Install GitHub Copilot CLI Extension
 translated: false
+type: note
 ---
 
 The command `gh extension install github/gh-copilot` installs the GitHub Copilot extension for the GitHub CLI, enabling Copilot features like command-line suggestions and explanations. For enterprise users, whether this command applies depends on specific conditions:

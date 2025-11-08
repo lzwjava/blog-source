@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Quadratic Form
 translated: false
+type: note
 ---
 
 In linear algebra, a **quadratic form** is a function $Q: \mathbb{R}^n \rightarrow \mathbb{R}$ that can be expressed as:

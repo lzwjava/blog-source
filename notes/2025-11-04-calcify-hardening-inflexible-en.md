@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Calcify: Hardening and Becoming Inflexible'
 translated: false
+type: note
 ---
 
 **Calcify** is a verb that primarily means to become hard or rigid by the deposition of calcium salts, often in biological contexts like tissues or bones hardening over time. It can also refer to making something inflexible or unchangeable in a metaphorical sense.

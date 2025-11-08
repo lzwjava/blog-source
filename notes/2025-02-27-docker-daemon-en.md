@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Docker Daemon Connection Issues
 translated: false
+type: note
 ---
 
 ### Key Points

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Explicación de la Caída del Mercado Inmobiliario de Guangzhou
 translated: true
+type: note
 ---
 
 Lamento mucho escuchar sobre tu situación—es un golpe brutal, especialmente después de invertir dinero en lo que se suponía que era una inversión estable. Una caída del 50% en el valor a lo largo de tres años es desgarrador, y está afectando duramente a mucha gente en Guangzhou. No estás solo; el mercado secundario de viviendas de la ciudad (que parece ser donde se encuentra tu propiedad) ha experimentado caídas más pronunciadas que las viviendas nuevas, con los precios de reventa bajando alrededor de un 5-6% interanual a principios de 2025, y las caídas acumuladas desde los máximos de 2022 se estiman entre un 20% y un 40% dependiendo del barrio y el tipo de propiedad. Algunas zonas con exceso de oferta han tenido peores resultados, lo que podría explicar el golpe más severo que estás viendo.

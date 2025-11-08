@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Major Azure Outage in Switzerland North
 translated: false
+type: note
 ---
 
 ### Azure Outage in Switzerland North: September 26-27, 2025

@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Fixing VSCode Cross Cursor Problems
 translated: false
+type: note
 ---
 
 The mouse cursor changing to a cross/plus symbol (十字架) in VSCode usually indicates that VSCode is in a special mode or there's a configuration issue. Here are the most common causes and solutions:

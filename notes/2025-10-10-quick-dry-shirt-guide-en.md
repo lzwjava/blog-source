@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Quick-Dry Shirt Terminology Guide
 translated: false
+type: note
 ---
 
 ### Quick-Dry Shirts: English Terms for "Sugan" (速干衫)

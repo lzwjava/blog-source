@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Error Building pycrypto
 translated: false
+type: note
 ---
 
 The error occurs because the `pycrypto` package requires the Python header file `longintrepr.h`, which is part of Python's development headers. This file is missing in your Python 3.13 environment. Here's how to resolve it:

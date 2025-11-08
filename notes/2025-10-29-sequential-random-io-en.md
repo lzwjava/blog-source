@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Sequential vs. Random I/O Performance
 translated: false
+type: note
 ---
 
 ### Understanding Disk I/O Patterns and Performance

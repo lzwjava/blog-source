@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: تراجع معاملات DB2 وكشف الأخطاء
 translated: true
+type: note
 ---
 
 ## عندما يقوم DB2 بتراجع بسبب أخطاء النظام

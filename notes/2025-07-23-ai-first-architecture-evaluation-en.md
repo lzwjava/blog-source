@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: AI-First Architecture for Modern Development
 translated: false
+type: note
 ---
 
 This post was written with the help of Grok, but the ideas are original.

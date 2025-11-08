@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cooking Bitter Melon
 translated: false
+type: note
 ---
 
 Cooking **Momordica charantia** (bitter melon) in an air fryer at **180°C (356°F) for 16 minutes** likely resulted in overcooking and burning due to a combination of factors. Here's why and how to adjust:

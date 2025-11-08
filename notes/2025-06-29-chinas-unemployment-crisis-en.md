@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: China's Unemployment Crisis in 2025
 translated: false
+type: note
 ---
 
 China’s unemployment challenges in 2025, contrasted with lower unemployment a decade ago in 2015, stem from a combination of structural, economic, and social factors that have intensified in recent years. Below, I’ll break down the key reasons for rising unemployment, the proliferation of gig economy jobs like delivery and ride-hailing, and the perception of an economic collapse, while comparing the situation to 2015. I’ll also address why these gig jobs haven’t fully absorbed the unemployed and why the economy feels strained.

@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Fixing Forked Jetty Stop Issues
 translated: false
+type: note
 ---
 
 You actually did most things right—the hang is almost always because the **stop goal can’t reach the forked Jetty** (wrong stopHost/port/key scope) or because **`run-forked` keeps Maven attached** unexpectedly. Two solid fixes below; pick one.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Sugar and Calories
 translated: false
+type: note
 ---
 
 To provide a comprehensive explanation of why 5 grams of sugar provides approximately 20 calories, based on the fact that sugar contains about 4 calories per gram, let’s break it down step-by-step, covering the nutritional science, types of sugar, caloric calculations, and practical context.

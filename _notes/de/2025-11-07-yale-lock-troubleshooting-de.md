@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fehlerbehebung bei nicht reagierendem Yale-Elektronikschloss
 translated: true
+type: note
 ---
 
 ### Was tun, wenn das Yale Elektronikschloss nach dem Batteriewechsel keine Reaktion zeigt?

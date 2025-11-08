@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Start Kitefoiling in South China
 translated: false
+type: note
 ---
 
 Since you’re in Guangzhou and interested in getting started with kitefoiling (based on your previous question), I’ll tailor this guide to your location in South China. Kitefoiling requires wind, water, gear, and training, and while Guangzhou itself isn’t a prime kitefoiling spot due to its inland urban setting, South China offers nearby options. I’ll walk you through how to begin, leveraging regional resources and conditions as of April 4, 2025.

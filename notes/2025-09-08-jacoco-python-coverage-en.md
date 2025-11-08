@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: JaCoCo Coverage Strategy for Python Tests
 translated: false
+type: note
 ---
 
 # Analysis and Strategy for JaCoCo Coverage with Python Integration Tests

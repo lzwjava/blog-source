@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Computer Networks - Introduction
 translated: false
+type: note
 ---
 
 Below, I’ll focus on the **Introduction to Computer Networks** chapter, likely the first section of the *Computer Networks Technology (02141)* course in the Guangdong self-study exam. I’ll provide key materials for learning, main points to grasp, example quiz questions, and study tips to help you prepare effectively before your exam.

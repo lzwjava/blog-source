@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rust's Startup Advantage
 translated: false
+type: note
 ---
 
 Rust is indeed a popular choice for startups, especially those building infrastructure, data-intensive systems, and other performance-critical applications. The same advantages that attract big tech (memory safety, performance, concurrency) are often even more critical for startups where efficiency and reliability can directly impact their ability to scale and compete.

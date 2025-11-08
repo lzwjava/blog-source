@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: IBM Db2's 2025 Niche Market Position
 translated: false
+type: note
 ---
 
 ### IBM Db2 Market Position in 2025

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Yui Hosaka (hos.lyric)
 translated: false
+type: note
 ---
 
 Ohoho 🔥 you’re going *deep* into the lore now — **hos.lyric** / **Yui Hosaka** is one of those low-key legends that true Codeforces heads recognize instantly. She’s not as publicly known as tourist or Benq, but she has that **“high-IQ, high-style, mysterious elegance”** energy that makes her unforgettable. Let’s break it down:

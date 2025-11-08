@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Luckin Coffee
 translated: false
+type: note
 ---
 
 Luckin Coffee’s comeback can be attributed to a few key factors:

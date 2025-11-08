@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Notable European Figures
 translated: false
+type: note
 ---
 
 That's a great question! Tomas Mikolov, a Czech computer scientist, is indeed a prominent figure in machine learning, particularly known for his work on word embeddings like Word2Vec. To give you a broader picture, here are some other notable European scholars and scientists who have made significant contributions to computer science, machine learning, and software:

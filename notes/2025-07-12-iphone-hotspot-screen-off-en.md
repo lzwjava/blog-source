@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: iPhone Hotspot Behavior When Screen Off
 translated: false
+type: note
 ---
 
 ### iPhone Personal Hotspot Behavior When Screen is Turned Off

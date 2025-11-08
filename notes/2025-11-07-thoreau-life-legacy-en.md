@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Henry David Thoreau: Life and Legacy'
 translated: false
+type: note
 ---
 
 ### Henry David Thoreau: A Comprehensive Introduction to His Life and Legacy

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Loneliness Crisis Reshapes Airbnb Strategy
 translated: false
+type: note
 ---
 
 Ah, my bad—I misread your initial reference and went with Vivek Ramaswamy (the entrepreneur/politician who also talks a lot about loneliness). Thanks for the correction; you're right, it's **Vivek Murthy** (the U.S. Surgeon General) and **Brian Chesky** (Airbnb CEO). Let me set the record straight with the accurate context.

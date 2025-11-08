@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: लॉक एक सार्वभौमिक सिंक्रोनाइज़ेशन अवधारणा
 translated: true
+type: note
 ---
 
 ### लॉक्स सिंक्रोनाइज़ेशन के रूप में: एक सार्वभौमिक अवधारणा

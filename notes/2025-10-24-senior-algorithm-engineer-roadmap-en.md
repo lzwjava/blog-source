@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Roadmap to Senior Algorithm Engineer
 translated: false
+type: note
 ---
 
 Becoming a senior algorithm engineer requires not just mastering core data structures and algorithms (DSA) but also developing the ability to apply them in real-world scenarios, optimize for scale, discuss trade-offs, and recognize patterns under pressure. This roadmap assumes you have basic programming knowledge (e.g., in Python or Java) and some exposure to DSA. If not, start with introductory resources like "Introduction to Algorithms" by Cormen et al. (CLRS).

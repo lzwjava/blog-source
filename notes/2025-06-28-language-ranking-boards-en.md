@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top Programming Language Rankings
 translated: false
+type: note
 ---
 
 You can find programming language ranking boards on several reputable websites that track language popularity based on various metrics like search engine hits, developer surveys, and job listings. Here are some of the most reliable sources:

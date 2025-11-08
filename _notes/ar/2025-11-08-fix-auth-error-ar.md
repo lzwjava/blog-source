@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: إصلاح خطأ مصادقة واجهة برمجة تطبيقات الترجمة
 translated: true
+type: note
 ---
 
 ### تحليل سير العمل وسبب الخطأ

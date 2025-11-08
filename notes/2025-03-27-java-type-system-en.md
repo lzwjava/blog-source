@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Type System of Java
 translated: false
+type: note
 ---
 
 Okay, let's dive into the type system of Java! This tutorial will cover the fundamental concepts to get you started.

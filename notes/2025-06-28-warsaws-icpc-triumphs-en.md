@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: University of Warsaw's Dominance in ACM ICPC
 translated: false
+type: note
 ---
 
 The University of Warsaw has an outstanding record in the ACM International Collegiate Programming Contest (ICPC), consistently ranking among the world's top universities in this prestigious competition. Here’s a summary of their performance based on available information:

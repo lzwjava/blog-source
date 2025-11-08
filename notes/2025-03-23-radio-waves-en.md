@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: How Do Radio Waves Work
 translated: false
+type: note
 ---
 
 Let’s break this down step-by-step to explain how radio waves and electromagnetic waves work, and how electricity and magnetism tie into transmitting signals.

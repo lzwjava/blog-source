@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Piotr Sankowski
 translated: false
+type: note
 ---
 
 Piotr Sankowski is a Polish computer scientist. He is a habilitated doctor of mathematical sciences and an associate professor at the Institute of Computer Science, Faculty of Mathematics, Informatics and Mechanics, University of Warsaw. His research interests focus on the practical application of algorithms across various fields, including economic applications, learning data structures, and parallel algorithms for data science.

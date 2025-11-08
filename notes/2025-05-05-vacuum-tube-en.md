@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Vacuum Tube
 translated: false
+type: note
 ---
 
 A **vacuum tube**, also known as a thermionic valve, is an electronic device that controls the flow of electric current through a vacuum in a sealed glass or metal container. Invented in the late 19th century and refined in the early 20th century, vacuum tubes were foundational to the development of modern electronics, enabling amplification, switching, and signal processing in early radios, televisions, computers, and telecommunications systems. Though largely replaced by transistors and solid-state technology by the late 20th century, vacuum tubes remain relevant in niche applications like high-fidelity audio, guitar amplifiers, and certain high-power radio frequency (RF) systems.

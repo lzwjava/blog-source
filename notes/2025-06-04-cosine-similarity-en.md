@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cosine Similarity
 translated: false
+type: note
 ---
 
 Cosine similarity is a widely used metric in machine learning to measure the similarity between two vectors in a high-dimensional space. It’s particularly popular in fields like natural language processing (NLP), information retrieval, and recommendation systems due to its ability to capture the orientation (or angle) between vectors, rather than their magnitude. This makes it robust for comparing objects like text documents, user preferences, or embeddings, where the direction of the vector matters more than its length.

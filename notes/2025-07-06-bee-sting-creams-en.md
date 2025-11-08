@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Two Creams for Bee Sting Relief
 translated: false
+type: note
 ---
 
 When dealing with a bee sting, two different creams can be helpful, each with a distinct purpose:

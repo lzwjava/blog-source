@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: OGG vs M4A Audio Format Comparison
 translated: false
+type: note
 ---
 
 ### Differences Between OGG and M4A Audio Encoding

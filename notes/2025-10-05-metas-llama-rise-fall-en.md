@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Meta's Llama Rise and Fall
 translated: false
+type: note
 ---
 
 ### Meta's Llama Journey: From 2023 Breakthrough to 2025 Struggles

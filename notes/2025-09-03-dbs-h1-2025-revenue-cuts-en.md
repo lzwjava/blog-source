@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: DBS H1 2025 Record Revenue Workforce Cuts
 translated: false
+type: note
 ---
 
 Here’s what I found for DBS Bank (specifically its parent DBS Group Holdings) for the first half of 2025:

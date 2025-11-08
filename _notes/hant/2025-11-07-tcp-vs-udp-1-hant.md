@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: TCP 與 UDP 連線差異
 translated: true
+type: note
 ---
 
 你的直覺是對的！讓我來釐清關鍵差異：

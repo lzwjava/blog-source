@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: How to Use Kubernetes
 translated: false
+type: note
 ---
 
 Kubernetes (often abbreviated as K8s) is an open-source platform for automating the deployment, scaling, and operation of containerized applications. Below is a step-by-step guide on how to use Kubernetes effectively.

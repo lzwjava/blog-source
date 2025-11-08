@@ -8,6 +8,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Groq's Transparent and User-Friendly Pricing
 translated: false
+type: note
 ---
 
 Yes, you're absolutely right! Groq's pricing and service tier structure is well-designed and user-friendly, especially when compared to many other LLM/API providers. Here’s why their approach stands out:

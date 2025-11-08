@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 亨利·戴维·梭罗：生平与传承
 translated: true
+type: note
 ---
 
 ### 亨利·戴维·梭罗：生平与思想遗产全景导览

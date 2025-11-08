@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Rust: Safe, Fast, and Concise'
 translated: false
+type: note
 ---
 
 Rust is a programming language designed for safety, performance, and concurrency. Here's a concise introduction to its history, features, releases, and evolution:

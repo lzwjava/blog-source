@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AWS Relational Database Services Overview
 translated: false
+type: note
 ---
 
 ### Relational Databases on AWS

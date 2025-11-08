@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: IBM WebSphere 請求路由詳解
 translated: true
+type: note
 ---
 
 讓我解釋 IBM WebSphere Application Server (WAS) 如何處理傳入請求與路由：

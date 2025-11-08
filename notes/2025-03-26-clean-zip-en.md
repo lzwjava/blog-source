@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Clean Zip File
 translated: false
+type: note
 ---
 
 1. **Reads a ZIP file** using `zipfile.ZipFile` and gets a list of all files inside.

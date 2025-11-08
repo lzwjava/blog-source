@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Behebung von Authentifizierungsfehlern der Übersetzungs-API
 translated: true
+type: note
 ---
 
 ### Analyse des Workflows und der Fehlerursache

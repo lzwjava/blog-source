@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top 20 Busiest Container Ports
 translated: false
+type: note
 ---
 
 As of **April 2025**, here's a general overview of global port rankings and the top 20 ports, primarily based on container throughput (TEUs - Twenty-foot Equivalent Units), which is a common metric for measuring port activity:

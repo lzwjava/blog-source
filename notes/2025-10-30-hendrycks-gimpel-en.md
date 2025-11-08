@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AI Researchers Hendrycks and Gimpel
 translated: false
+type: note
 ---
 
 Dan Hendrycks is an American machine learning researcher born around 1994–1995. He earned his PhD from UC Berkeley, advised by Dawn Song and Jacob Steinhardt, and is best known for his work on AI safety and robustness. In 2022, he cofounded and became executive director of the Center for AI Safety (CAIS), a San Francisco-based nonprofit focused on mitigating risks from advanced AI systems. He was named one of TIME's 100 Most Influential People in AI in 2023 and currently works at xAI.

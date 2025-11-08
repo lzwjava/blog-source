@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Activating China Telecom Easy+ Data Plans
 translated: false
+type: note
 ---
 
 ### Activating Daily Data Plans on China Telecom Easy+ Prepaid Card (Macau)

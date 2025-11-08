@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Maximizing High-Performance PC Utilization
 translated: false
+type: note
 ---
 
 Your PC is a high-performance machine with an Intel Core i9-13900KF, NVIDIA GeForce RTX 4070, 64GB DDR5 RAM, and ample storage, making it ideal for a variety of tasks beyond casual use. Since it’s idle 80% of the time, you can maximize its potential by repurposing it for computationally intensive or always-on tasks. Here are several options to consider, including setting up a server and other productive uses, tailored to your hardware’s capabilities:

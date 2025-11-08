@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: IBM DB2 Sequence Usage Guide
 translated: false
+type: note
 ---
 
 ### IBM DB2 Sequence Usage with NEXT VALUE FOR

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Summertime Sadness
 translated: false
+type: note
 ---
 
 ## Lyrics

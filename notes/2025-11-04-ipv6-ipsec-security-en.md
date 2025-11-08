@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: IPv6 Security with Integrated IPsec
 translated: false
+type: note
 ---
 
 ### Improved Security in IPv6: IPsec Integration

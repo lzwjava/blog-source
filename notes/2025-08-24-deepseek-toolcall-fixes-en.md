@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fix DeepSeek Tool Call Conflicts
 translated: false
+type: note
 ---
 
 You’re hitting a **tool-call validation error**. DeepSeek (OpenAI-style) is being used in a Claude Code flow that expects Anthropic-style tool messages. Two safe fixes:

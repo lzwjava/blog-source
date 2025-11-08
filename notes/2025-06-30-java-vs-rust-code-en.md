@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Dominates Rust in Global Code
 translated: false
+type: note
 ---
 
 Estimating the amount of code written in Java versus Rust globally is challenging due to the lack of precise, comprehensive data on all codebases. However, we can make an informed estimate based on available metrics, such as language popularity, ecosystem maturity, and usage in various domains, while critically examining the data.

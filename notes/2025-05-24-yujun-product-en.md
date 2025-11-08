@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Yu Jun’s Product Methodology
 translated: false
+type: note
 ---
 
 俞军 (Yu Jun) is a legendary figure in the Chinese internet industry, widely regarded as one of the most influential product managers in China. He is best known for his work at Baidu, where he was the company’s first product manager and later served as Vice President of Product, and for his contributions to Didi Chuxing as a senior product executive. His book, *Yu Jun’s Product Methodology* (*俞军产品方法论*), published in 2019, encapsulates his philosophy and approach to product management, blending insights from economics, psychology, and practical experience. Below, I address your questions about his product ideas, theory, and personal story based on available information, including web sources and posts on X.[](https://book.douban.com/subject/34907971/)[](https://deepinbook.com/yu-jun-product-methodology/yu-jun-product-methodology.html)[](https://blog.devtang.com/2020/02/03/pm-work-from-yujun/)

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using httpmine
 translated: false
+type: note
 ---
 
 I assume you meant "httpmime.jar" rather than "httpmine.jar," as "httpmime" is a well-known library from Apache HttpComponents used for handling MIME multipart entities in HTTP requests (e.g., file uploads). If I got this wrong, please clarify! Here's how to use the `httpmime.jar` in a Java project:

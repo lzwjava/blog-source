@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Apache Bench Web Server Testing Guide
 translated: false
+type: note
 ---
 
 ### What is Apache Bench (ab)?

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 投稿とノートの並べ替え
 translated: true
+type: note
 ---
 
 ### 修正された `_includes/sort.html`

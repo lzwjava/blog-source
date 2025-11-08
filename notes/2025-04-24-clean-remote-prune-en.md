@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Clean Remote Branches With Prune
 translated: false
+type: note
 ---
 
 `git fetch --prune` is a way to keep your local references to remote branches clean and up-to-date.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Why Git Operations Fail on Chinese Mobile Networks
 translated: false
+type: note
 ---
 
 This is a common issue when using certain mobile networks in China, especially with services like Git that rely on specific ports and protocols. Here's a breakdown of why it happens and how to fix it:

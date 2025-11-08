@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Cooking Math: Heat, Time, and Efficiency'
 translated: false
+type: note
 ---
 
 Cooking involves several mathematical concepts and formulas that can help optimize recipes, portion sizes, and cooking processes. Below, I’ll introduce some key mathematical formulas and principles relevant to cooking, inspired by the provided cooking context. These formulas will focus on practical applications like scaling recipes, calculating cooking times, and managing heat transfer, while keeping the explanations concise and relatable to the cooking scenarios you mentioned (e.g., stir-frying, grilling, and soup-making).

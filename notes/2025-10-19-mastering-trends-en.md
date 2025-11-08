@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Mastering Trends for Career and Investing
 translated: false
+type: note
 ---
 
 ### Why It's Tough and Why It Matters

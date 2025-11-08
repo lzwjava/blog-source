@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Startups Outperform Through Merit and Equity
 translated: false
+type: note
 ---
 
 ### Understanding the Question

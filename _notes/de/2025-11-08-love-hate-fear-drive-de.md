@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Liebe Hass Furcht Antrieb Menschliches Handeln
 translated: true
+type: note
 ---
 
 ### Das Ur-Trio: Liebe, Hass und Angst als Wurzeln menschlichen Handelns

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Palmer Luckey
 translated: false
+type: note
 ---
 
 Palmer Luckey is a prominent American entrepreneur and technologist renowned for his groundbreaking work in virtual reality and defense technology.

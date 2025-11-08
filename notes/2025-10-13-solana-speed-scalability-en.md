@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Solana's Speed and Scalability Advantages
 translated: false
+type: note
 ---
 
 ### Why Solana Blockchain Stands Out

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 意大利特色不止于美食
 translated: true
+type: note
 ---
 
 ### 意大利的标志性特色：深度探索

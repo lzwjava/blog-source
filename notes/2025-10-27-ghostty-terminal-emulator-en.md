@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Ghostty: Fast Cross-Platform Terminal Emulator'
 translated: false
+type: note
 ---
 
 Ghostty is a cross-platform terminal emulator designed for speed, features, and native integration on macOS and Linux (with Windows support in progress). It's built primarily in **Zig**, a modern systems programming language focused on safety, performance, and simplicity—not Rust, as you asked.

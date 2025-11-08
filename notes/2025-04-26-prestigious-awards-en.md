@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Prestigious Awards
 translated: false
+type: note
 ---
 
 The most prestigious awards, like the Nobel Prize and Turing Award, recognize exceptional contributions across various fields. Here’s a concise list of some of the top globally recognized awards, comparable in stature:

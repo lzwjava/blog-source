@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Mercury MCAP1200GP Enterprise Wireless Access Point
 translated: false
+type: note
 ---
 
 The Mercury MCAP1200GP is a ceiling-mounted wireless Access Point (AP) router designed for enterprise-grade WiFi coverage in medium-sized spaces like hotels, offices, restaurants, or small businesses. It's an AC1200 dual-band model that supports seamless roaming and is powered via PoE (Power over Ethernet), making it ideal for easy installation without separate power outlets. It can function in "fat" (standalone) or "thin" (controller-managed) modes for flexible deployment.

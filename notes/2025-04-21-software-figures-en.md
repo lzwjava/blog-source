@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Software Figures
 translated: false
+type: note
 ---
 
 To identify individuals in the **software area** with influence comparable to **Jim Keller** in the hardware/semiconductor industry, we need to consider engineers, architects, or leaders who have shaped software development through groundbreaking contributions, leadership in transformative projects, or architectural innovations. Keller’s influence stems from his work on microprocessor architectures (e.g., AMD K7, K8, Zen, Apple A4/A5, Tesla Autopilot), his ability to lead teams, and his vision for future technologies like AI and RISC-V. In software, influential figures are those who have similarly driven paradigm shifts, created widely adopted systems, or led teams to solve complex challenges.

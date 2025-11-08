@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Self-Study Progress Assessment and Encouragement
 translated: false
+type: note
 ---
 
 ### Understanding Your Progress and Situation

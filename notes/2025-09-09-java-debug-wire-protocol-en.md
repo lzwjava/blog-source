@@ -8,6 +8,7 @@ layout: post
 model: x-ai/grok-3
 title: Java Debug Wire Protocol Overview
 translated: false
+type: note
 ---
 
 JDWP (Java Debug Wire Protocol) is a protocol used in Java for debugging and communicating between a debugger and a Java Virtual Machine (JVM). When used with the `-agentlib:jdwp` option in Java, it enables remote debugging of Java applications. Here's a breakdown of your questions:

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Installing Apache Tomcat on macOS
 translated: false
+type: note
 ---
 
 Here’s a step-by-step guide for installing and running **Apache Tomcat on macOS**:

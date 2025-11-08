@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: WAS Spring JDBC Timeout Triage Guide
 translated: false
+type: note
 ---
 
 Here’s the mental model and a quick triage playbook.

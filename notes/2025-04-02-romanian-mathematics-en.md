@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The Romanian Master of Mathematics
 translated: false
+type: note
 ---
 
 The Romanian Master of Mathematics (RMM) is a prestigious international mathematics competition for high school students. It is known for its very challenging problems that often require deep insight and creative problem-solving skills.

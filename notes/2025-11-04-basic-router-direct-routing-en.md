@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Basic Router Direct Routing Explained
 translated: false
+type: note
 ---
 
 Yes, you're on the right track with that simplified view of routing—it's a great way to think about the basics! Let me break it down step by step to confirm and expand on it.

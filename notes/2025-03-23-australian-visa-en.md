@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Australian Travel Visa
 translated: false
+type: note
 ---
 
 To obtain an Australian travel visa as a Chinese citizen in Guangzhou, here's what you'll need to do:

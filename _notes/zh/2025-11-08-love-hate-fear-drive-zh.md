@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 爱恨恐惧驱动人类行为
 translated: true
+type: note
 ---
 
 ### 原始三重奏：爱、恨、惧作为人类行为的根源

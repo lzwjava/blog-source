@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Quantitative Trading
 translated: false
+type: note
 ---
 
 Transitioning from a full-stack development background with 10 years of experience to quantitative trading is an exciting move! Your programming skills in Java, Spring, and app development provide a solid foundation, but quantitative trading requires a blend of finance, mathematics, statistics, and advanced programming tailored to algorithmic strategies. Since you're new to this domain and aspire to reach the level of firms like D.E. Shaw, Bridgewater, or legendary investors like George Soros and Ray Dalio, I'll outline a roadmap to get you started and progressively build expertise.

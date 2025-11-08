@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPG Encryption Recipient Explanation
 translated: false
+type: note
 ---
 
 ### Understanding the GPG Command and the "Recipient" Prompt

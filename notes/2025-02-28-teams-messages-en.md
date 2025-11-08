@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Navigating to Oldest Messages in Microsoft Teams
 translated: false
+type: note
 ---
 
 ### Key Points

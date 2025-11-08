@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Comparación de TiDB frente a CockroachDB
 translated: true
+type: note
 ---
 
 ### TiDB vs. CockroachDB: Una Comparación Rápida

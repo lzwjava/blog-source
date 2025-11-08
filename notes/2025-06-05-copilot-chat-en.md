@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Copilot Chat: IDEA vs VSCode Context'
 translated: false
+type: note
 ---
 
 GitHub Copilot Chat is an AI-powered assistant integrated into both JetBrains IDEA and Visual Studio Code (VS Code), designed to help developers with coding tasks through natural language interactions, code suggestions, and context-aware assistance. While the core functionality of Copilot Chat is similar across both IDEs, there are differences in implementation, context handling, and feature availability due to the distinct architectures and ecosystems of JetBrains IDEA and VS Code. Below is a comprehensive explanation of the differences, with a focus on how recent files are handled as context and other key distinctions.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Présentation de la Plateforme d'Automatisation des Flux de Travail N8N
 translated: true
+type: note
 ---
 
 n8n (prononcé "n-eight-n") est une plateforme open source d'automatisation de workflows conçue pour les équipes techniques et les développeurs. Elle vous permet de connecter différentes applications, services et API pour automatiser les tâches répétitives, les flux de données et les processus complexes sans dépendre massivement du code personnalisé — bien qu'elle prenne en charge le code lorsque cela est nécessaire. Considérez-la comme une alternative auto-hébergée à des outils comme Zapier ou Make, mais avec plus de flexibilité, incluant la capacité à créer des agents IA multi-étapes, à intégrer n'importe quel grand modèle de langage (LLM), et à exécuter le tout sur votre propre infrastructure pour une meilleure confidentialité et un meilleur contrôle des données.

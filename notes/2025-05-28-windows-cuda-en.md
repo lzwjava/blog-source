@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using CUDA in Windows
 translated: false
+type: note
 ---
 
 To use NVIDIA CUDA on your HP ZBook Studio 16 G11, you'll need to follow these steps. CUDA allows developers to accelerate applications by harnessing the power of the GPU for parallel processing. Here's how you can get started:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Reading AWS CloudWatch Logs
 translated: false
+type: note
 ---
 
 ### Introduction to Reading Logs in AWS CloudWatch

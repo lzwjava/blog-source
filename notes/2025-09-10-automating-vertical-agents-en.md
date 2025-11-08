@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Automating Vertical Agents with Validation
 translated: false
+type: note
 ---
 
 Short answer: you’re **mostly right**. The scalable way is to build **vertical, coded agents** that call LLM APIs, plus strong **automatic validation**. You still want a “human-on-exception” loop, not “human-never,” because reality includes API hiccups, drift, and edge cases. But on well-scoped tasks with good checks, you can run **fully automated**.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Node Option Impacts VS Code
 translated: false
+type: note
 ---
 
 ### 1. **Quick Clarification on the Updated Query**

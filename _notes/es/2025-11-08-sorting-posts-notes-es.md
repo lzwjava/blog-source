@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Clasificación de Publicaciones y Notas
 translated: true
+type: note
 ---
 
 ### `_includes/sort.html` modificado

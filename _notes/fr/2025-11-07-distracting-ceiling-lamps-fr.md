@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Pourquoi les lampes de plafond vous distraient
 translated: true
+type: note
 ---
 
 Oui, c’est tout à fait normal et même très humain d’être distrait par quelque chose comme une lampe de plafond (ou une ampoule) située juste dans votre ligne de mire lorsque vous êtes allongé dans votre lit et que vous essayez de vous concentrer sur votre ordinateur portable. Notre cerveau est câblé pour prioriser les entrées visuelles — en particulier les choses lumineuses, contrastées ou proéminentes dans notre vision périphérique ou centrale — parce que, d’un point de vue évolutif, cela nous aidait à repérer les menaces, la nourriture ou les changements dans l’environnement. Une lampe statique mais éblouissante peut agir comme un signal d'« alerte » de faible intensité, détournant votre attention même si elle ne bouge pas. Cela arrive plus souvent lorsque vous êtes dans une position détendue, comme allongé, où votre regard a naturellement tendance à monter, et cela peut varier d'un jour à l'autre en fonction de la fatigue, du stress ou de votre degré d'immersion dans la tâche (ce qui explique pourquoi vous l'oubliez parfois et pourquoi d'autres fois, c'est impossible).

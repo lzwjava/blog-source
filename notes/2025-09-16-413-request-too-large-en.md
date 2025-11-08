@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-oss-120b
 title: Resolving 413 Request Too Large Errors
 translated: false
+type: note
 ---
 
 ## What the error means  

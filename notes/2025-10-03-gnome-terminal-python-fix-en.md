@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Fixing GNOME Terminal Python Import Error
 translated: false
+type: note
 ---
 
 ### Issue Diagnosis

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: South Asian Countries
 translated: false
+type: note
 ---
 
 It appears you're interested in a comparative overview of South Asian countries across several key indicators. South Asia typically includes India, Pakistan, Bangladesh, Nepal, Sri Lanka, Bhutan, and sometimes Afghanistan and Maldives. Here's a comparison based on the available information:

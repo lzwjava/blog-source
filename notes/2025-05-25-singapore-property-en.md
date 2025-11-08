@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Property Purchase in Singapore
 translated: false
+type: note
 ---
 
 In Singapore, the ability of immigrant workers or IT workers to buy a house and their perceptions of housing costs depend on their specific circumstances, including their income levels, residency status, and the type of property they are seeking. Below, I address the two groups separately based on available information and general trends, focusing on whether they purchase homes and if they find them expensive, while incorporating relevant insights from the provided context.

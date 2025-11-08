@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using FastJson
 translated: false
+type: note
 ---
 
 FastJSON is a high-performance JSON processing library for Java, developed by Alibaba. It’s widely used for parsing JSON strings into Java objects, serializing Java objects into JSON, and handling JSON data efficiently. Below is a guide on how to use FastJSON based on its core features.

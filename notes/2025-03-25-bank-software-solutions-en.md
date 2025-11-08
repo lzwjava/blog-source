@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Software Solutions Used in Banking
 translated: false
+type: note
 ---
 
 A typical bank uses a wide range of software systems to manage different aspects of its operations. Here are the key categories and examples of software solutions commonly used in banking:

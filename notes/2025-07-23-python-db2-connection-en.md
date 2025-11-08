@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Connecting Python to IBM DB2
 translated: false
+type: note
 ---
 
 ### Overview

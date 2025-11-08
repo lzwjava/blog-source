@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Transistors as Switches
 translated: false
+type: note
 ---
 
 Okay, here is the tutorial on how a transistor acts as a current-controlled switch, with the timestamps removed:

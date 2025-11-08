@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Streaming MKV Files from Nginx with VLC
 translated: false
+type: note
 ---
 
 Since you have an Nginx server serving `.mkv` files (e.g., at `http://192.168.1.27/movies/`), and you want to view them from a Mac without downloading the entire file, you’re looking to **stream** the videos. Nginx can serve files in a way that supports HTTP range requests (which it does by default), allowing media players to stream rather than download fully. Here’s how to do it, along with suitable tools for macOS.

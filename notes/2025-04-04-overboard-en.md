@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Falling Overboard
 translated: false
+type: note
 ---
 
 It seems like you’re asking about what happens when someone falls overboard during sailing and how sailors (or "sporters") handle this situation or other accidents. I’ll assume you mean a recreational or competitive sailor rather than a professional mariner, and I’ll break this down into clear steps and considerations based on standard sailing practices.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: इटैलियन विशेषताएँ जो भोजन से परे हैं
 translated: true
+type: note
 ---
 
 ### इटली की प्रतिष्ठित विशेषताएँ: एक गहन नज़र

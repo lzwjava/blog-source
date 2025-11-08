@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Optimizing LLM Caching Through Prompt Structure
 translated: false
+type: note
 ---
 
 Got it! Let me translate and explain your ideas clearly in English:

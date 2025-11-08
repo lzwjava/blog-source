@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Cryptographic Algorithms in GnuPG
 translated: false
+type: note
 ---
 
 ### Supported Algorithms in Cryptographic Software (e.g., GnuPG)

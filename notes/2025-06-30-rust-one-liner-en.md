@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rust One-Liner with Shell Chaining
 translated: false
+type: note
 ---
 
 You're hitting on a common desire for experienced developers coming from languages like Python, Ruby, or JavaScript, where you often have a single command to execute a script directly. Rust, being a compiled language, has a slightly different workflow by default.

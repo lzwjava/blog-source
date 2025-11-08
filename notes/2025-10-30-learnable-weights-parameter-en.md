@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: PyTorch Parameter for Learnable Weights
 translated: false
+type: note
 ---
 
 `torch.nn.Parameter` is a subclass of `torch.Tensor` in PyTorch, designed specifically for representing learnable parameters in neural network modules. Its main purpose is to automatically register tensors as module parameters when they're assigned as attributes to a `torch.nn.Module`, making them accessible via methods like `module.parameters()` or `module.named_parameters()`. This helps distinguish trainable weights (e.g., for layers) from regular tensors, preventing temporary computations (like cached states in RNNs) from being mistakenly treated as parameters.

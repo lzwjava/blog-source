@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Working with OpenAI Chat Completions Models
 translated: false
+type: note
 ---
 
 You’ve linked to the Microsoft Learn article **“Work with chat completions models”** (published on **September 1, 2025**). Here’s a clear and concise summary of its core points:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Optimizing Docker Memory for LibreChat
 translated: false
+type: note
 ---
 
 ### Understanding Docker's Memory Usage with LibreChat

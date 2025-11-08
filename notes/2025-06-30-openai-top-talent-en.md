@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: OpenAI's Top AI Innovators
 translated: false
+type: note
 ---
 
 OpenAI has attracted some of the brightest minds in AI research and development, with key individuals contributing to groundbreaking projects in natural language processing (NLP), computer vision, reinforcement learning, and more. Below is an overview of notable talent at OpenAI and their specific contributions, based on available information. Note that the AI talent landscape is dynamic, with some individuals having recently left OpenAI, as mentioned in recent posts on X.

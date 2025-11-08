@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'AI vs. Websites: Key Differences'
 translated: false
+type: note
 ---
 
 Yes, your points are reasonable and highlight important nuances about the role of AI in processing and presenting information compared to traditional websites and interactive platforms. Let’s break them down:

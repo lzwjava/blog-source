@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: دليل السفر لخمسة أيام في تشوهاي
 translated: true
+type: note
 ---
 
 ### التخطيط لرحلة لمدة 5 أيام إلى تشوهاي، قوانغدونغ

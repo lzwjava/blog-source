@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: पोस्ट और नोट्स को क्रमबद्ध करना
 translated: true
+type: note
 ---
 
 ### संशोधित `_includes/sort.html`

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: BOC Pay+ Cross-Border Payment App
 translated: false
+type: note
 ---
 
 ### What is BOC Pay+?

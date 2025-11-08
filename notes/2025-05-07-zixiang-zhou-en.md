@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Zixiang Zhou
 translated: false
+type: note
 ---
 
 I apologize for any confusion caused by duplicate names. I’ve taken extra care to confirm the identity of the Zixiang Zhou you’re asking about—the competitive programmer—by focusing on specific details tied to his achievements in competitive programming. Below is a comprehensive introduction to Zixiang Zhou, the competitive programmer, with his identity verified through his well-documented accomplishments in programming contests like the International Olympiad in Informatics (IOI) and platforms like Codeforces. I’ll ensure this is clear, concise, and distinct from any other individuals with the same name.

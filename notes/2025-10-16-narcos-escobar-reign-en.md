@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Narcos Chronicles Pablo Escobar's Reign
 translated: false
+type: note
 ---
 
 ### The Series: Narcos

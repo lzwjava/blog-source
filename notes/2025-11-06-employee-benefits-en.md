@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Comprehensive Employee Benefits and Perks
 translated: false
+type: note
 ---
 
 ### Overview

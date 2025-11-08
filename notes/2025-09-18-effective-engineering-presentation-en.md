@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Presenting Engineering Outcomes Effectively
 translated: false
+type: note
 ---
 
 ### Understanding Engineering Outcomes

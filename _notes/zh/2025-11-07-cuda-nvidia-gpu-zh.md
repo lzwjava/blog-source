@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: CUDA需要英伟达GPU
 translated: true
+type: note
 ---
 
 你的联想小新无法使用CUDA的原因很简单：**CUDA是英伟达的专有技术，仅支持英伟达GPU**。

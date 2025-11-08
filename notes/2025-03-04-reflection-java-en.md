@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Reflection in Java
 translated: false
+type: note
 ---
 
 ### Key Points

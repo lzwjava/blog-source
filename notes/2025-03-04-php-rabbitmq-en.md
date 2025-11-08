@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using RabbitMQ in PHP
 translated: false
+type: note
 ---
 
 ### Key Points

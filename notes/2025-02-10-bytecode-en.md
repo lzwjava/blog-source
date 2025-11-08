@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Java Bytecode
 translated: false
+type: note
 ---
 
 ```bash

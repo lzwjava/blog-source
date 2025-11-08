@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'Muon: Structure-Aware Matrix Optimizer'
 translated: false
+type: note
 ---
 
 “Muon” in Kimi refers to an advanced optimizer—specifically a **structure-aware, matrix-orthogonalizing optimizer** used in training the Kimi K2 language model.

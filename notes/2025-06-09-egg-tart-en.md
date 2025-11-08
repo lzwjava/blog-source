@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Air Fryer Egg Tart Guide
 translated: false
+type: note
 ---
 
 #### **Ingredients:**  

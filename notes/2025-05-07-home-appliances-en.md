@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Home Appliances
 translated: false
+type: note
 ---
 
 - **Refrigerator**: Keeps food fresh by maintaining a cool temperature, with separate compartments for freezing and refrigeration.

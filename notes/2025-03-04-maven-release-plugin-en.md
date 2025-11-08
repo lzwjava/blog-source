@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Maven Release Plugin
 translated: false
+type: note
 ---
 
 Here's a comprehensive guide on how to use the **Maven Release Plugin** to manage and automate the release process for your Maven project.

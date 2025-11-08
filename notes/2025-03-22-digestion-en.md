@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Digestion Mode
 translated: false
+type: note
 ---
 
 After you eat, your body kicks into digestion mode, a process that uses energy and generates heat. This is known as postprandial thermogenesis. In simpler terms, when you digest food, your metabolism ramps up to break it down, which can raise your body temperature. Additionally, if your meal is spicy or particularly rich, it can trigger what’s sometimes called "gustatory sweating," where the heat and capsaicin (from spicy foods) stimulate nerve responses that cause sweating. 

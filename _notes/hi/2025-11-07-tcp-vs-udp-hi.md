@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: टीसीपी बनाम यूडीपी प्रोटोकॉल अंतर
 translated: true
+type: note
 ---
 
 हाँ, आपने बिल्कुल सही समझा है! मुख्य अंतर स्पष्ट करता हूँ:

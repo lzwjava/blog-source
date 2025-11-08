@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: US Immigration Pathways for Tech Professionals
 translated: false
+type: note
 ---
 
 ### Quick Assessment of Your Profile for U.S. Entry/Immigration

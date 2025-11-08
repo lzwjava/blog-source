@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Transferring Media to External Disk
 translated: false
+type: note
 ---
 
 ### Moving Photos and Videos to a Portable Disk on macOS

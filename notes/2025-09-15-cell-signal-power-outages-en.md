@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: How Building Power Outages Affect Cell Signal
 translated: false
+type: note
 ---
 
 Yes, it's very likely that your building has a **distributed antenna system (DAS)** or a **4G/5G signal booster (repeater)** installed to provide cellular coverage in underground areas like the parking lot (floors -1, -2, etc.).

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The History of MOSFET
 translated: false
+type: note
 ---
 
 The invention of the MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a pivotal chapter in the history of electronics, marking a turning point that enabled the modern era of integrated circuits, microprocessors, and compact, power-efficient devices. The story of its creation involves a blend of theoretical groundwork, experimental breakthroughs, and the ingenuity of two key figures at Bell Laboratories: Mohamed M. Atalla and Dawon Kahng. Below is a comprehensive account of how the MOSFET came to be, the inventors behind it, and the context that shaped their achievement.

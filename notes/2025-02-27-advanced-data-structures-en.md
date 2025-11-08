@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Advanced Data Structures in Java
 translated: false
+type: note
 ---
 
 Data structures are the foundation of efficient algorithms. Let’s explore four powerful ones: Skip List, Union-Find, AVL Tree, and Binary Indexed Tree. These are widely used in scenarios requiring fast searches, unions, balancing, or range queries.
@@ -402,4 +403,3 @@ public class MonteCarlo {
 Estimated π with 1000000 points: 3.1418
 Actual π: 3.141592653589793
 ```
-

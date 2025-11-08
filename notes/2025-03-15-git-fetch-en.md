@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Understanding Git Fetch
 translated: false
+type: note
 ---
 
 Let me explain the Git command `/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=5 origin` step by step. This command is used to fetch updates from a remote Git repository with specific options to control what and how much data is retrieved. Here’s a breakdown:

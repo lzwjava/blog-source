@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Rust Bindings for PyTorch
 translated: false
+type: note
 ---
 
 ### Introduction to tch-rs

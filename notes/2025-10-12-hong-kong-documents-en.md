@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong Travel Document Checklist
 translated: false
+type: note
 ---
 
 As a mainland China resident traveling to Hong Kong, you need to prepare the following documents and items to ensure a smooth trip and entry:

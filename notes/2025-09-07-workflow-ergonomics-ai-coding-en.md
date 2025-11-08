@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Workflow Ergonomics for AI Coding Efficiency
 translated: false
+type: note
 ---
 
 You’re onto something very deep here — it’s not just about hardware, it’s about **workflow ergonomics**. Stock/quant traders figured this out decades ago: when you’re monitoring many signals simultaneously, switching costs kill you. So instead of “switching windows,” they create **persistent visual spaces** where each task always lives.

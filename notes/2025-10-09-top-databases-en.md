@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Databases in the Market
 translated: false
+type: note
 ---
 
 ### Top 30 Databases in the Market (July 2025)

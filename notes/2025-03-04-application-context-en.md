@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Accessing Spring's Application Context
 translated: false
+type: note
 ---
 
 To use Spring's `ApplicationContextAware` interface to access the `ApplicationContext` in a plain Java object, such as a Kafka consumer, you need a way to bridge the Spring-managed beans with your plain object. Here's how you can do it:

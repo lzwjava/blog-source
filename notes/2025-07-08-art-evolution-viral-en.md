@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: From Precision to Viral Emotion
 translated: false
+type: note
 ---
 
 It sounds like you're looking for a structured summary of the talk, highlighting the key points and the evolution of the speaker's art. Here's a more cohesive organization of the talk:

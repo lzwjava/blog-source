@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Symmetric and Asymmetric Encryption Differences
 translated: false
+type: note
 ---
 
 ### Symmetric Algorithms

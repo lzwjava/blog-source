@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Path to Hong Kong University Admission
 translated: false
+type: note
 ---
 
 Yes, as a mainland Chinese citizen pursuing an Associate Degree in Computer Application through self-study at Guangdong University of Foreign Studies (GDUFS), you can apply to enroll in a Hong Kong public university for a full undergraduate bachelor's degree via the non-JUPAS route. This is similar in outcome to Joshua Wong's enrollment (a full degree program), but your path differs as a non-local applicant with post-secondary qualifications rather than a local high school leaver. GDUFS is a recognized institution in China, and its self-study programs (often via the National Higher Education Self-Study Examination, or Zikao) lead to valid associate degrees that qualify as post-secondary credentials for HK admissions.

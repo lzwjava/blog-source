@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Z.ai's AI Research and Development Focus
 translated: false
+type: note
 ---
 
 Z.ai appears to be a significant player in the AI research and development space, with some impressive achievements since 2020. Here's what stands out about the company:

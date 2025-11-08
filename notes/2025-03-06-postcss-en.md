@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using PostCSS for Transforming CSS
 translated: false
+type: note
 ---
 
 I'll explain how to use PostCSS in a frontend project. PostCSS is a tool for transforming CSS with JavaScript plugins, offering features like autoprefixing, minification, and future CSS syntax support. Here's a step-by-step guide:

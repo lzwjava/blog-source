@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 'Titanium: Properties and Applications'
 translated: false
+type: note
 ---
 
 **Titanium** (symbol: **Ti**, atomic number: 22) is a strong, lightweight, corrosion-resistant metallic element.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPG Compression Shrinks Text Files
 translated: false
+type: note
 ---
 
 ### Why the Encrypted SRT File is Half the Size

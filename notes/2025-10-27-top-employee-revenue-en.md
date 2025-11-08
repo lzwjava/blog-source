@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Market Cap Companies Employee Revenue
 translated: false
+type: note
 ---
 
 ### Revenue per Employee Comparison: The Other 7 Top 10 Market Cap Companies

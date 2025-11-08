@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: ComputerRL Framework for Desktop Automation Agents
 translated: false
+type: note
 ---
 
 The “ComputerRL” paper is a recent research work titled *“ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents”*. ([arXiv][1])

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Macs vs Windows Costs for Big Banks
 translated: false
+type: note
 ---
 
 Here’s a clearer breakdown—no tables, just straightforward insights—on what it might cost for a large financial institution like HSBC or DBS to switch engineers from high-end Windows laptops to Macs.

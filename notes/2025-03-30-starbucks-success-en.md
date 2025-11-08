@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Starbucks' Success
 translated: false
+type: note
 ---
 
 Starbucks' success can be attributed to several key factors:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hyundai Motor Group Executive Chairman
 translated: false
+type: note
 ---
 
 ### Jeong Eui-sun: Executive Chairman of Hyundai Motor Group

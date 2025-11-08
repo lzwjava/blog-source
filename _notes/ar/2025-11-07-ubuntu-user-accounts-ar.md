@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: إنشاء حسابات مستخدم أوبونتو
 translated: true
+type: note
 ---
 
 ### إنشاء مستخدم جديد في Ubuntu Linux

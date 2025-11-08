@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Optimizing GFW Bypass and Latency
 translated: false
+type: note
 ---
 
 Thanks for sharing your setup and experiences—sounds like a thoughtful evolution from your initial proxy script and VPN combo to the Macau SIM approach for direct cellular access. It's great to hear it's been working well for the past couple of months, especially with the Python script automating proxy selection (prioritizing Singapore for AI tools) and sticking with zhs.cloud for the VPN on your laptop. The SIM data bundle (Macau card at 150 CNY/mo for 20GB plus extras) seems like a solid mobile workaround for bypassing GFW restrictions without constant app overhead.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Configuring JaCoCo Agent Output Directory
 translated: false
+type: note
 ---
 
 Yes — exactly 👍.

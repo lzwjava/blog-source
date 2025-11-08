@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: تمكين دعم وحدة معالجة الرسوميات من إنتل لبايتورش
 translated: true
+type: note
 ---
 
 تقدم جيد! PyTorch و IPEX يعملان الآن معًا. ومع ذلك، نظامك لا يدعم معالج الرسوميات (GPU) من إنتل. دعني أساعدك في فهم ما يحدث وكيفية إصلاحه:

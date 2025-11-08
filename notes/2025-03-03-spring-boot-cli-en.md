@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: How to Use Spring Boot CLI
 translated: false
+type: note
 ---
 
 Spring Boot CLI (Command Line Interface) is a powerful tool that allows you to quickly develop, test, and prototype Spring Boot applications directly from the command line. It’s especially useful for running Groovy scripts without setting up a full project structure, generating new projects, or experimenting with Spring Boot features. Below is a complete guide on how to install and use Spring Boot CLI effectively.

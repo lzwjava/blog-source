@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Leo Breiman
 translated: false
+type: note
 ---
 
 Leo Breiman (1928–2005) was an American statistician and a pioneer in the field of machine learning. He is best known for developing key statistical and machine learning techniques, including:

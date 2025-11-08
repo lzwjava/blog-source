@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Oracle's Top Competitors by Sector
 translated: false
+type: note
 ---
 
 Oracle's major competitors vary by product area, but here are the key ones:

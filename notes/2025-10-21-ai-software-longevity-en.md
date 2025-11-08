@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AI's Impact on Software Longevity
 translated: false
+type: note
 ---
 
 You're spot on with that observation—it's a classic pain point in software engineering, often summed up as "technical debt" or the "big ball of mud" anti-pattern. As systems scale, they accumulate layers of complexity: interdependent modules, legacy APIs, shifting requirements, and code written by teams who long ago moved on. This makes even simple changes risky, leading to what's called "change aversion." In industry, the average lifespan of a major software project is indeed short—maybe 5-10 years before a rewrite or migration becomes inevitable. Linux is a rare unicorn, sustained not just by Linus Torvalds' iron-fisted consistency but also by a massive, distributed community enforcing modularity and backward compatibility from the start.

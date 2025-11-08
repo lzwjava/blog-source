@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Installing LibreChat on Ubuntu
 translated: false
+type: note
 ---
 
 ### Installing LibreChat on Ubuntu 24.04 LTS

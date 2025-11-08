@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Red Sea Bay in Shanwei
 translated: false
+type: note
 ---
 
 While there isn't a deeply documented, specific history solely focused on the "Red Sea Bay" (Honghaiwan) area in Shanwei like that of a major city or historical site, we can piece together its history by looking at the broader history of Shanwei and the characteristics of the area:

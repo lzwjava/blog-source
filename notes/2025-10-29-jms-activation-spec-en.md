@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: JMS Activation Specification in WebSphere
 translated: false
+type: note
 ---
 
 ### Activation Specification in JMS for IBM WebSphere Application Server (WAS)

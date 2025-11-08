@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPG Encryption Barely Reduces File Size
 translated: false
+type: note
 ---
 
 The GPG-encrypted file (`The.Matrix.1999.720p.BrRip.264.YIFY.mp4.gpg`) is only slightly smaller than the original (about 1.6 MB less, or ~0.2% reduction), which is normal and not what most people expect from encryption. Here's why it's not much smaller—and definitely not "small" like a zipped archive:

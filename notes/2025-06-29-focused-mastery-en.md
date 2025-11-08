@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Mastering Focus in a Distracted World
 translated: false
+type: note
 ---
 
 *Deep Work* by Cal Newport argues that deep, focused work is essential for mastering complex tasks and producing high-value results in a distracted world. Here's a concise summary of its key points:

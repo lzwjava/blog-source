@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Apple Live Translation Performance Review
 translated: false
+type: note
 ---
 
 iOS's real-time offline translation feature, primarily through the new Live Translation tool powered by Apple Intelligence (introduced in iOS 18 and expanded in later updates like iOS 19), is generally solid for supported languages and scenarios. It handles in-person conversations via AirPods (Pro 2/3 or 4 with ANC) or system apps like Messages, FaceTime, and Phone, translating speech on-device without needing internet once language packs are downloaded. Launch support includes English, French, German, Portuguese, and Spanish, with more languages rolling out.

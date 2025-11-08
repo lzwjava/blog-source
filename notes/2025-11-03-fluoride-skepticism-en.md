@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Skepticism Toward Fluoride Toothpaste
 translated: false
+type: note
 ---
 
 ### Summary of Yin Wang's Article on Fluoride Toothpaste

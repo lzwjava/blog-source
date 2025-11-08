@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Latex Rendering in Hugo
 translated: false
+type: note
 ---
 
 The issue you’re describing arises in **Jekyll** when using **Kramdown** with **MathJax** as the math engine. Kramdown, when configured with `math_engine: mathjax`, interprets parentheses `( )` in Markdown content as LaTeX delimiters for inline math (e.g., `\( \)`), which can break normal text containing parentheses. This is because MathJax is set up to parse `\( \)` or `$ $` for inline math, as shown in your configuration.

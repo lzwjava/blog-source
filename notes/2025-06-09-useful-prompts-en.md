@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top 50 Java Backend Engineering Prompts
 translated: false
+type: note
 ---
 
 Here’s a clean, easy-to-copy list of 50 useful prompts for your role as a **Backend Engineer**:

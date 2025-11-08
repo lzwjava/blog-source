@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: अनुवाद एपीआई प्रमाणीकरण त्रुटि ठीक करें
 translated: true
+type: note
 ---
 
 ### वर्कफ़्लो और त्रुटि के कारण का विश्लेषण

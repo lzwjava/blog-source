@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding nanoGPT Sample Output
 translated: false
+type: note
 ---
 
 ### Understanding the Output from nanoGPT's `sample.py`

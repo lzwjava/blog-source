@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Macau Entry Ports Guide
 translated: false
+type: note
 ---
 
 Going to Macau, the main ports you can choose include the following, depending on where you depart from and the transportation method:

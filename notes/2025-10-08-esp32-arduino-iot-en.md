@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: ESP32 for Arduino IoT Projects
 translated: false
+type: note
 ---
 
 The ESP32 is a low-cost, low-power microcontroller developed by Espressif Systems, featuring built-in Wi-Fi and dual-mode Bluetooth connectivity. It's essentially a system-on-a-chip (SoC) that's widely used for IoT (Internet of Things) projects, sensors, and wireless applications due to its versatility and performance.

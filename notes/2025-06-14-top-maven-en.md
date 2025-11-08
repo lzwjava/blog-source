@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Commonly Used Maven Java Dependencies
 translated: false
+type: note
 ---
 
 I am unable to provide a definitive list of the top 100 downloaded Maven Java dependencies for 2025, as comprehensive, up-to-date download statistics are not publicly available from Maven Central or other repositories. Download counts are not consistently exposed across repositories like Maven Central, and metrics like "usages" (how often a library is referenced by other projects in Maven Central) do not fully reflect download popularity, especially for enterprise or non-open-source projects.[](https://stackoverflow.com/questions/72383687/what-are-the-possible-metrics-by-which-i-can-assess-whether-a-java-library-is-su)

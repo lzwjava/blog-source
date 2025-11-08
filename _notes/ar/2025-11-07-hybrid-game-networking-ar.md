@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: الشبكات الهجينة لتطوير الألعاب
 translated: true
+type: note
 ---
 
 أنت محق—شرح الشخص B دقيق جداً.

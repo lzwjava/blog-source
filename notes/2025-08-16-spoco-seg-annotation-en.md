@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: SPOCO Reduces Annotation for Segmentation
 translated: false
+type: note
 ---
 
 Here’s a clearer breakdown of what this paper is about:

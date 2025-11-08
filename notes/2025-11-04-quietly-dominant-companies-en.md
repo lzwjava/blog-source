@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Quietly Dominant Companies
 translated: false
+type: note
 ---
 
 ### Low-Profile but High-Performing Companies

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Common Japanese Sentences
 translated: false
+type: note
 ---
 
 Below is a detailed, word-by-word breakdown of 30 common Japanese sentences used in daily life. Each sentence is analyzed by separating every individual word (or particle) and explaining its meaning and role in the sentence. This analysis will help you understand the structure and components of each phrase thoroughly. The original Japanese characters are included for reference.

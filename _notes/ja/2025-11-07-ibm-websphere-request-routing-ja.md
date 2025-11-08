@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: IBM WebSphere リクエストルーティングの解説
 translated: true
+type: note
 ---
 
 IBM WebSphere Application Server (WAS) が受信リクエストとルーティングをどのように処理するか説明します：

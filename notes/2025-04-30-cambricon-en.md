@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cambricon Technologies
 translated: false
+type: note
 ---
 
 Cambricon Technologies, a leading Chinese semiconductor and AI chip designer, has demonstrated significant technical achievements while navigating complex geopolitical dynamics. Here's a structured analysis of its behavior and strategic positioning:

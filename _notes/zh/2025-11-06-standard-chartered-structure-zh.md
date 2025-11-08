@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 渣打银行的组织架构
 translated: true
+type: note
 ---
 
 ### 渣打银行主要部门架构

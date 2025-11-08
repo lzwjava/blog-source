@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Why Does Pineapple Need to Be Soaked in Salt Water
 translated: false
+type: note
 ---
 
 Pineapple is often soaked in salt water to make it more enjoyable to eat, and the primary reason for this practice is to address the effects of an enzyme it contains called **bromelain**. Here’s a clear explanation of why this step is beneficial:

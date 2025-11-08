@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fundamentals of Electricity by Joe Gryniuk
 translated: false
+type: note
 ---
 
 The course taught by instructor Joe Gryniuk at Lake Washington Technical College in Kirkland, Washington, is about the **Fundamentals of Electricity**. It covers the essential principles and concepts needed to understand how electricity works, particularly focusing on the core properties that drive the entire electrical and electronics industry: **voltage, current, resistance, and power**. These four properties are described as the "big four," fundamental to making any electrical or electronic device function, from cell phones to car computers and satellite TV[^1].

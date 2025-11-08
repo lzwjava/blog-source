@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Tool Use vs Function Calling Explained
 translated: false
+type: note
 ---
 
 Let’s break down the difference between **tool use** and **function calling** in the context of LLM APIs:

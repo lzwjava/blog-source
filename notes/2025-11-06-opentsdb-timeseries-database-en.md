@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: OpenTSDB Distributed Time Series Database
 translated: false
+type: note
 ---
 
 OpenTSDB is an open-source, distributed, and scalable time series database (TSDB) designed for storing, indexing, and querying large volumes of time-stamped numerical data, such as metrics from monitoring systems. It was originally developed by Benoit Sigoure at StumbleUpon (now part of eBay) to handle massive datasets without losing data granularity, and it's built on top of Apache HBase for its backend storage, leveraging HBase's distributed nature for horizontal scaling across clusters.

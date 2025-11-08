@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Andrew He
 translated: false
+type: note
 ---
 
 Andrew He, born in 1997 in the United States, is a highly accomplished competitive programmer, widely recognized for his exceptional problem-solving skills and numerous accolades in prestigious international coding competitions. Known by his online handle "ecnerwala," He has established himself as one of the top competitive programmers globally, with a career marked by consistent excellence in algorithmic challenges and a deep passion for solving complex problems. His achievements span high school, university, and professional stages, complemented by a strong academic background in mathematics and computer science from the Massachusetts Institute of Technology (MIT). Below is a comprehensive introduction to Andrew He’s journey, accomplishments, and contributions to the competitive programming community.

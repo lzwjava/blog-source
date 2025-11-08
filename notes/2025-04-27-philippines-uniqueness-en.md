@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'The Philippines: Uniqueness and Contributions'
 translated: false
+type: note
 ---
 
 The Philippines has many distinctive qualities that make it special on the global stage:

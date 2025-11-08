@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Squashing Git Commits by Author
 translated: false
+type: note
 ---
 
 ### Understanding the Goal

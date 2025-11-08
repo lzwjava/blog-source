@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Zhang Yujie
 translated: false
+type: note
 ---
 
 There appears to be some confusion in the available information regarding Zhang Yujie and their role with ATL (Amperex Technology Limited) and CATL (Contemporary Amperex Technology Co., Limited). Based on the provided sources, Zhang Yujie is referenced as the honorary chairman of CATL, who passed away in February 2022, and was a significant figure in the early development of CATL. However, there is conflicting information, as some sources primarily highlight Robin Zeng Yuqun as the founder, chairman, and CEO of CATL, with no clear indication that Zhang Yujie held the position of chairman in an executive capacity. Below, I aim to provide a comprehensive introduction to Zhang Yujie, focusing on their role with ATL and CATL, while addressing the limited and ambiguous information available.

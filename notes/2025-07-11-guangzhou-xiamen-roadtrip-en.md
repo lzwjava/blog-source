@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 5-Day Fujian Coastal Road Trip
 translated: false
+type: note
 ---
 
 ### Trip Overview

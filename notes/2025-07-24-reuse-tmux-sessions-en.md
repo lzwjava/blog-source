@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Reusing Existing tmux Sessions
 translated: false
+type: note
 ---
 
 To reuse existing tmux sessions (like session `1` or `8` in your case) instead of creating new ones, you can attach to an existing session when starting tmux. Here’s how you can do it:

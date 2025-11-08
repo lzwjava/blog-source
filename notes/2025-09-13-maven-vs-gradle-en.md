@@ -8,6 +8,7 @@ layout: post
 model: x-ai/grok-3
 title: Maven vs Gradle Build Tool Comparison
 translated: false
+type: note
 ---
 
 Choosing between **Maven** and **Gradle** depends on your project needs, team expertise, and preferences. Both are widely used build automation tools for Java projects, but they differ in design, flexibility, and performance. Below is a concise comparison to help you decide which is better for your use case:

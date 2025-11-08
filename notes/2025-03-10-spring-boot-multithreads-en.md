@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring Boot Multithreading
 translated: false
+type: note
 ---
 
 In a Spring Boot project, the concepts of "executors" and "threads" typically relate to how the application handles concurrent tasks and manages its workload, especially in scenarios involving asynchronous processing, task scheduling, or handling multiple requests. Let’s break this down step-by-step:

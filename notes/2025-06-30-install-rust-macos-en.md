@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Install Rust on macOS with rustup
 translated: false
+type: note
 ---
 
 ## Installing Rust using rustup

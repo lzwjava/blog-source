@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 钛：特性与应用
 translated: true
+type: note
 ---
 
 **钛**（符号：**Ti**，原子序数：22）是一种坚固、轻质、耐腐蚀的金属元素。

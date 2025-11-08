@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Exporting GPG Secret Keys Securely
 translated: false
+type: note
 ---
 
 ### Exporting Secret Keys with GPG in Armored Format

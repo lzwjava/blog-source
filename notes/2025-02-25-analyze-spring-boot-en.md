@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Analyze Spring Boot Projects
 translated: false
+type: note
 ---
 
 To analyze a Spring Boot project (which may consist of multiple modules) and extract all APIs defined with `@GetMapping` or `@PostMapping` annotations, we need to traverse the project directory, identify controller classes, extract the API paths, and print them in a specified format. Below is a complete Python script that accomplishes this task, inspired by the structure of the provided code but tailored to the new requirements. The output will list each controller with its associated GET and POST paths in the format "XXController: get path post path".

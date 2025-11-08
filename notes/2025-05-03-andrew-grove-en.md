@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Andrew S. Grove
 translated: false
+type: note
 ---
 
 Andrew S. Grove (1936–2016) was a Hungarian-American engineer, businessman, and author, widely regarded as one of the most influential figures in the technology industry. As the former president, CEO, and chairman of Intel Corporation, Grove played a pivotal role in transforming Intel into a global leader in semiconductor manufacturing and microprocessors, shaping the modern computing era. His leadership, strategic vision, and management philosophies left a lasting legacy in Silicon Valley and beyond.

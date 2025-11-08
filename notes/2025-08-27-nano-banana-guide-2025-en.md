@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Google Nano Banana Guide 2025
 translated: false
+type: note
 ---
 
 Here’s a **comprehensive guide** to Google’s **Nano Banana**—the cutting-edge AI image editing tool now integrated into Gemini:

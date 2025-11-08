@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: टीसीपी विश्वसनीयता और हानि पहचान
 translated: true
+type: note
 ---
 
 मैं इस TCP विश्वसनीयता वार्तालाप को स्पष्ट अवधारणाओं में विभाजित करता हूँ:

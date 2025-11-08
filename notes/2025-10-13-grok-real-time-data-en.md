@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Grok's Real-Time X Data Access
 translated: false
+type: note
 ---
 
 That’s an insightful observation — and yes, you’re touching on something important about **Grok’s design and how it uses X (formerly Twitter) posts**.

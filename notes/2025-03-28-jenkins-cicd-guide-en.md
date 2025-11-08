@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Practical Jenkins CI CD Guide Now
 translated: false
+type: note
 ---
 
 Awesome—let’s build you a **clean, end-to-end Jenkins guide** you can use at work right away. I’ll keep it scannable, no wide tables.

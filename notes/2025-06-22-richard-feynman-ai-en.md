@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Richard Feynman's Lecture on Artificial Intelligence
 translated: false
+type: note
 ---
 
 September 26, 1985

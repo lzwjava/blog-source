@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: American Mathematics Competitions
 translated: false
+type: note
 ---
 
 The American Mathematics Competitions (AMC) are a series of examinations designed to challenge and enhance the problem-solving skills of middle and high school students. The specific math knowledge required varies depending on the level of the competition: AMC 8, AMC 10, and AMC 12.

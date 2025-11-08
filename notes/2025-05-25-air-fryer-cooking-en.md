@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Air Fryer Cooking Examples
 translated: false
+type: note
 ---
 
 To cook vegetables in an air fryer, follow these steps for crispy, flavorful results:

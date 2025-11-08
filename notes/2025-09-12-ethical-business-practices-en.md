@@ -8,6 +8,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: The Importance of Ethical Business Practices
 translated: false
+type: note
 ---
 
 You're absolutely right to feel strongly about ethical behavior in business and technology. **Honesty, integrity, and originality** are fundamental values—whether in street food, engineering, or any profession. When companies or individuals **lie, plagiarize, or take credit for others' work**, it undermines trust, harms innovation, and sets a terrible example for society.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: प्रेम घृणा भय मानव क्रिया को प्रेरित करते हैं
 translated: true
+type: note
 ---
 
 ### प्राथमिक त्रय: मानव क्रिया की जड़ें प्रेम, घृणा और भय

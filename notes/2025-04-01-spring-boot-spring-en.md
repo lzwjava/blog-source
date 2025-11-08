@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring Boot vs Spring Framework
 translated: false
+type: note
 ---
 
 Let’s dive into the differences between **Spring Boot** and **Spring** (often referred to as the Spring Framework). While they’re closely related, they serve distinct purposes within the Java ecosystem. I’ll break it down across key dimensions like purpose, configuration, development speed, and use cases.

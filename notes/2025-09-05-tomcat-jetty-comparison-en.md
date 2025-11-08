@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Tomcat and Jetty Comparison
 translated: false
+type: note
 ---
 
 Tomcat and Jetty are both popular **Java-based web servers and servlet containers**, but they serve slightly different purposes and have different strengths. Here’s a breakdown in a narrative style for easier reading:

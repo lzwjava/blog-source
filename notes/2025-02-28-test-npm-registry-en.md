@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Testing NPM registry Using Raw HTTP Requests
 translated: false
+type: note
 ---
 
 To test your NPM registry using raw HTTP requests with tools like `curl` or Insomnia, you can verify its functionality by checking connectivity, authentication, and the ability to serve package data—all without relying on the NPM client. Since your registry requires a username and password, you'll need to handle authentication manually in your requests. Below is a complete guide to test your registry using raw HTTP requests, assuming it’s an NPM-compatible registry (e.g., Verdaccio, Nexus, or a custom implementation) that supports token-based or basic authentication.

@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Basic Romanian Phrases and Information
 translated: false
+type: note
 ---
 
 Here are some Romanian language examples:

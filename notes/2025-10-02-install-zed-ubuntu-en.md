@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Install Zed on Ubuntu 24.04
 translated: false
+type: note
 ---
 
 For Ubuntu 24.04 LTS, the most straightforward and official installation method for Zed (the high-performance code editor) is via their provided shell script, which works natively on most Linux distributions including Debian-based ones like Ubuntu. It handles dependencies automatically and ensures you get the latest stable release.

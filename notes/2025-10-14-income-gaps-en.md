@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong and Mainland China Income Gaps
 translated: false
+type: note
 ---
 
 ### Understanding Income Gaps: Hong Kong vs. Mainland China

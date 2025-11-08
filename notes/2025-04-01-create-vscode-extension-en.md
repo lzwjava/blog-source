@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Creating a VSCode Extension
 translated: false
+type: note
 ---
 
 Creating a Visual Studio Code (VSCode) extension can be a rewarding way to enhance your development workflow or contribute to the community. Here's a comprehensive guide to help you get started with writing a VSCode plugin:

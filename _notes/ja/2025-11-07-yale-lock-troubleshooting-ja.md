@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 応答しないイエール電子ロックのトラブルシューティング
 translated: true
+type: note
 ---
 
 ### 電池交換後イエール電子ロックが反応しない場合の対処法

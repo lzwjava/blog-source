@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Post Pandemic U.S. CS Masters Guide
 translated: false
+type: note
 ---
 
 https://mp.weixin.qq.com/s/9FeX8D-q2xy_4eYztTMj3A

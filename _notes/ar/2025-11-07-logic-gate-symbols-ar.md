@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: رموز وأشكال البوابات المنطقية
 translated: true
+type: note
 ---
 
 ### رموز البوابات المنطقية في الدوائر الرقمية

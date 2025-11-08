@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Self-taught AI Researchers
 translated: false
+type: note
 ---
 
 Yes, there are several notable AI researchers and scientists who, like Christopher Olah, are largely self-taught or have pursued non-traditional paths outside academia. Below are some examples of individuals who have made significant contributions to AI without relying heavily on formal academic credentials:

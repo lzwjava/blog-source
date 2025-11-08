@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Language Features
 translated: false
+type: note
 ---
 
 Below is a detailed and expanded explanation of the **most used Java language features**, designed to provide you with a deep understanding of each concept. I’ll explain what each feature is, why it’s significant, how it’s applied in real-world programming, and include practical examples to illustrate its use. This response builds on the foundational ideas and adds more depth with additional context, nuances, and applications.

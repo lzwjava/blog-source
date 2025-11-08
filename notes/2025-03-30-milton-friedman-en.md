@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Milton Friedman's Ideas
 translated: false
+type: note
 ---
 
 Milton Friedman was a prominent economist and a leading figure in the Chicago School of Economics. His ideas have had a significant impact on economic thought and policy. Here are some of the main points and theories associated with his work:

@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: xdotool Command Line Automation Guide
 translated: false
+type: note
 ---
 
 ## What is xdotool?

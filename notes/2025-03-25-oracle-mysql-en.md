@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: General Differences Between Oracle DB and MySQL
 translated: false
+type: note
 ---
 
 Oracle Database and MySQL are both powerful relational database management systems (RDBMS), but they differ significantly in architecture, features, and use cases. Below, I’ll outline their general differences and then dive into how they compare in terms of schema design and database design.

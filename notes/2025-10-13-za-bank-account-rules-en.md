@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: ZA Bank Account Rules for Travellers
 translated: false
+type: note
 ---
 
 Here’s what I found about **ZA Bank** (Hong Kong virtual bank) opening account rules, especially re: non-HKID holders / travellers, plus how that compares to if you have HKID or are a traveller with travel permit.

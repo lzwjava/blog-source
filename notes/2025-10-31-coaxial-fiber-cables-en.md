@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Coaxial and Fiber Optic Cables
 translated: false
+type: note
 ---
 
 ### What is Coax?

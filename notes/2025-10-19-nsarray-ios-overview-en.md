@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: NSArray Overview for iOS Development
 translated: false
+type: note
 ---
 
 ### What is NSArray?

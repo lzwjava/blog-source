@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Japanese Learning Timeline
 translated: false
+type: note
 ---
 
 Below is a realistic, evidence‑based estimate for **how many hours / months you’ll probably need to reach each major Japanese milestone**, taking into account:

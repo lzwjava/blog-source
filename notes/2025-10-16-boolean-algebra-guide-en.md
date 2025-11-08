@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Boolean Algebra and Logic Gates Guide
 translated: false
+type: note
 ---
 
 This guide covers the fundamentals of Boolean algebra and the basic logic gates (AND, OR, NOT), followed by an introduction to combinational logic. It's designed for beginners, with examples and truth tables to illustrate concepts. Boolean algebra is the foundation of digital electronics and computer logic, dealing with binary values (true/false or 1/0).

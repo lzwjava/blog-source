@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Futamura's Pioneering Contributions to Partial Evaluation
 translated: false
+type: note
 ---
 
 Yoshihiko Futamura is a distinguished computer scientist widely recognized for his groundbreaking contributions to programming methodology, particularly in the field of **partial evaluation**. He is credited with inventing the **Futamura Projections**, which provide a theoretical framework for understanding and applying partial evaluation to program transformation, including the automatic generation of compilers.

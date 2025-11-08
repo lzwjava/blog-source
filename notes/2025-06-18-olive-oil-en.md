@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Olive Oil vs. Seed Oil: Health Debate'
 translated: false
+type: note
 ---
 
 The debate over olive oil versus seed oils (like canola, soybean, or sunflower oil) hinges on several factors: nutritional content, health impacts, and culinary use. Here's a breakdown based on available evidence:

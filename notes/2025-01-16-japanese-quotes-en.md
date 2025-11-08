@@ -4,6 +4,7 @@ generated: false
 lang: en
 layout: post
 title: Japanese Quotes
+type: note
 ---
 
 Japanese culture is rich with proverbs and sayings that reflect on life, love, nature, and wisdom. Here are some beautiful Japanese quotes that encapsulate these themes:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Clean Log Messages
 translated: false
+type: note
 ---
 
 ```python

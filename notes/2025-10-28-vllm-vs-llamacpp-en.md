@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: vLLM vs llama.cpp Comparison
 translated: false
+type: note
 ---
 
 ### Overview

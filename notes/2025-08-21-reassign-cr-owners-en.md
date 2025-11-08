@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: How to Reassign Change Request Owners
 translated: false
+type: note
 ---
 
 Changing the owner of a **Change Request (CR)** depends on the tool or workflow system you are using (for example, ServiceNow, Jira, HP ALM, or a custom ITSM tool). But the general process is usually similar across platforms:

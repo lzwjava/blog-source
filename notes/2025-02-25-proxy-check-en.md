@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Implementing a Proxy Check in Windows
 translated: false
+type: note
 ---
 
 To implement a proxy check in Windows using Git-Bash and PowerShell, you need to set up mechanisms in each shell to detect when network-related commands are executed and display proxy settings if they are configured. Below are the steps and code for both Git-Bash and PowerShell. The "terminal" mentioned likely refers to Windows Terminal hosting these shells, so we'll focus on Git-Bash and PowerShell implementations.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Singapore Travel Visa
 translated: false
+type: note
 ---
 
 To apply for a Singapore travel visa as a Chinese citizen in Guangzhou, follow these organized steps:

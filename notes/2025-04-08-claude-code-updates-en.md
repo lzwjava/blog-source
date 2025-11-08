@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Claude Code Major Updates
 translated: false
+type: note
 ---
 
 ### Major Updates in Claude Code

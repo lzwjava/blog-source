@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Reminiscences of a Stock Operator
 translated: false
+type: note
 ---
 
 I'll search for information about this Chinese stock investing memoir to give you a proper introduction.**《股票大作手回忆录》(Reminiscences of a Stock Operator)** is a legendary investment classic that chronicles the life and trading career of Jesse Livermore, one of the most famous speculators in Wall Street history.

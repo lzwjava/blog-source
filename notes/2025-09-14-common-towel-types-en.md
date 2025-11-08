@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Common Towel Types and Definitions
 translated: false
+type: note
 ---
 
 The word **"maojin" (毛巾)** in English is typically translated as **"towel"**—not "carpet."

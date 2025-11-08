@@ -8,6 +8,7 @@ layout: post
 model: x-ai/grok-3
 title: Huawei ADS 4.0 Autonomous Driving System Overview
 translated: false
+type: note
 ---
 
 ### Huawei ADS 4.0: Overview

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Serper and SerpApi Service Comparison
 translated: false
+type: note
 ---
 
 Good questions. I did some digging into the two services you mentioned: **Serper** (via serper.dev) and **SerpApi** (via serpapi.com). Here’s a breakdown of how they compare, and my assessment of whether SerpApi is “a crook”.

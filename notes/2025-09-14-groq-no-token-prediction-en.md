@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-oss-120b
 title: GROQ Does Not Predict Tokens
 translated: false
+type: note
 ---
 
 ## Short answer  

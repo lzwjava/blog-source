@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: ImageNet Classification Advances in 2025
 translated: false
+type: note
 ---
 
 The State-of-the-Art (SOTA) on ImageNet (specifically the ImageNet-1K validation set for image classification) has continued to advance steadily since the dramatic improvements post-2012. As of November 2025, the leading models achieve top-1 accuracies around 91%, corresponding to a top-1 error rate of ~9%. Top-5 accuracies are even higher, typically exceeding 99%, for a top-5 error rate below 1%.

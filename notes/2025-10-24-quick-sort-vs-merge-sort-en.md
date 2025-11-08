@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Quick Sort Versus Merge Sort
 translated: false
+type: note
 ---
 
 ### Why Quick Sort Feels Tricky (and Merge Sort Doesn't)

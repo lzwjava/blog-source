@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Protocolos de la Capa de Enlace de Datos Explicados
 translated: true
+type: note
 ---
 
 Esta declaración identifica correctamente los protocolos clave de la capa de enlace de datos y sus casos de uso principales. Permíteme desglosarlo:

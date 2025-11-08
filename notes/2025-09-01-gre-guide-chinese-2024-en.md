@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: GRE Guide for Chinese Students 2024
 translated: false
+type: note
 ---
 
 The GRE (Graduate Record Examination) is a standardized test used mainly for admissions into U.S. and some international graduate schools, especially for master’s and PhD programs. It’s widely required for Computer Science, Engineering, Business, and other fields.

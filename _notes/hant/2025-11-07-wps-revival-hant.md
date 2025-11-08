@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: WPS：從瀕臨滅絕到流動平台的成功
 translated: true
+type: note
 ---
 
 ## WPS 的史詩旅程：從瀕臨消亡到華麗重生

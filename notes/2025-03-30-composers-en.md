@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Incredible Composers
 translated: false
+type: note
 ---
 
 There are many incredible composers across various genres and time periods, but here are some of the most renowned, widely regarded as among the best in classical music, film scores, and contemporary music:

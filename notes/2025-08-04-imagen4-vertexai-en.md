@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Vertex AI's Imagen 4 Models
 translated: false
+type: note
 ---
 
 Based on the code snippet you provided, you are using the `genai.Client` to interact with a model for image generation on Vertex AI. The model you've specified is `"imagen-4.0-generate-preview-06-06"`.

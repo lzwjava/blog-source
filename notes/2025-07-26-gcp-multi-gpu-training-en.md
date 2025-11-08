@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Training ML Models on GCP with NVIDIA GPUs
 translated: false
+type: note
 ---
 
 Google Cloud Platform (GCP) provides robust options for training machine learning models using NVIDIA GPUs through services like Vertex AI (for managed training jobs) and Compute Engine (for custom virtual machines). However, NVIDIA RTX 4090 GPUs are not available on GCP. The RTX 4090 is a consumer-grade GPU primarily for desktops and gaming, not designed for cloud data centers. Instead, GCP offers enterprise-grade NVIDIA GPUs such as A100, H100, L4, and others, which are optimized for AI workloads and often outperform the RTX 4090 in training scenarios due to higher memory bandwidth and tensor core efficiency.

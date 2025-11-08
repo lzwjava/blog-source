@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Gemini Code Assist
 translated: false
+type: note
 ---
 
 To use **Gemini Code Assist**, an AI-powered coding assistant developed by Google, you can integrate it into your development environment, such as Visual Studio Code (VSCode), to enhance your coding experience. Gemini Code Assist helps with code completion, code generation, explanations, debugging, and more. Below is a step-by-step guide on how to set it up and use it in VSCode.

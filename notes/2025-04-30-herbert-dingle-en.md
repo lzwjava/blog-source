@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Herbert Dingle: A Physicist at Odds with Relativity and the Scientific Establishment'
 translated: false
+type: note
 ---
 
 Herbert Dingle (1890-1978) was a distinguished English physicist and philosopher of science, known for his work in spectroscopy, his presidency of the Royal Astronomical Society, and his later, highly public, opposition to Albert Einstein's special theory of relativity. A staunch advocate for empiricism and a critic of what he saw as excessive mathematical abstraction in physics, Dingle's controversial stance on relativity and his subsequent experiences with the scientific community were documented in his book, *Science at the Crossroads*.

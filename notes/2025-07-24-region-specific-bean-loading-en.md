@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Dynamic Region-Specific Beans
 translated: false
+type: note
 ---
 
 ### Understanding the Requirement

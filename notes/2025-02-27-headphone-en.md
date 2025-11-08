@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Headphones or Earphones
 translated: false
+type: note
 ---
 
 - The Jabra Evolve 30 is good to use and has effective Active Noise Cancellation.  
@@ -13,5 +14,4 @@ translated: false
 
 - The Redmi Buds 3 offers good noise cancellation.  
 
-- Huawei FreeBuds SE 2  
-
+- Huawei FreeBuds SE 2

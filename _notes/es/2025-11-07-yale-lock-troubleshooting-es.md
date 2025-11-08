@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Solución de Problemas de la Cerradura Electrónica Yale Sin Respuesta
 translated: true
+type: note
 ---
 
 ### Qué hacer si la cerradura electrónica Yale no responde después de cambiar las pilas

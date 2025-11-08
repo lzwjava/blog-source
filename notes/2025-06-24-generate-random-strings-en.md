@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Generating Random Strings with Apache Commons Lang
 translated: false
+type: note
 ---
 
 `RandomStringUtils` is a highly useful class from the Apache Commons Lang library that provides various static methods for generating random strings. This includes generating strings with specific lengths, containing only letters, only numbers, alphanumeric characters, or even from a custom set of characters.

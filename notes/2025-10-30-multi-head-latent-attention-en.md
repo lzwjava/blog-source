@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Multi-head Latent Attention Efficiency Explained
 translated: false
+type: note
 ---
 
 ### Multi-head Latent Attention (MLA)

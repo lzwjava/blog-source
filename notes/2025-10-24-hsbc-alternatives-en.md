@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Banks Similar to HSBC
 translated: false
+type: note
 ---
 
 ### Banks Most Similar to HSBC

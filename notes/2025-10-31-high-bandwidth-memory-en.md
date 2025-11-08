@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: High Bandwidth Memory Explained
 translated: false
+type: note
 ---
 
 ### What is HBM Memory?

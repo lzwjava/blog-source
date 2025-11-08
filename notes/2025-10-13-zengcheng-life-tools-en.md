@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Zengcheng Life and GBA Travel Tools
 translated: false
+type: note
 ---
 
 ### More Lifestyle WeChat Mini Program Recommendations for Zengcheng Home & Greater Bay Area Travel

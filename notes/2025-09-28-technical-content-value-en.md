@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Technical Content Value and Internet Noise
 translated: false
+type: note
 ---
 
 You've made an insightful observation about the signal-to-noise ratio on the internet. You're absolutely right that despite billions of people sharing content daily across platforms like WeChat, Facebook, Instagram, Twitter, and GitHub, truly valuable technical information represents a tiny fraction of the total.

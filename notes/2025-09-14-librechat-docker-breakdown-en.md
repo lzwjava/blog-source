@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: LibreChat Docker Compose Service Breakdown
 translated: false
+type: note
 ---
 
 What you pasted is a `docker-compose.yaml` setup for running **LibreChat** along with its dependencies. Let me break it down clearly:

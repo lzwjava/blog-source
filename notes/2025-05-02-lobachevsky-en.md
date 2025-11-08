@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Lobachevsky State University
 translated: false
+type: note
 ---
 
 Lobachevsky State University of Nizhny Novgorod (UNN), officially known as National Research Lobachevsky State University of Nizhny Novgorod, is a prominent public research university located in the historic city of Nizhny Novgorod, Russia. Founded on January 31, 1916, it holds the distinction of being the first institution of higher education in the city and one of the earliest state universities in Soviet Russia. The university was named in honor of the eminent Russian mathematician Nikolai Lobachevsky, a native of Nizhny Novgorod, in 1956.

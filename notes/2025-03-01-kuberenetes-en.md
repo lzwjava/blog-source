@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Kuberenetes
 translated: false
+type: note
 ---
 
 ### Key Points

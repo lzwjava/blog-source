@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Using Python's -m Flag for Modules
 translated: false
+type: note
 ---
 
 Yes, `-m` means **run a module as a script**. Let’s break this down with your examples:

@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Better Methods for Noodle Soup Preparation
 translated: false
+type: note
 ---
 
 Short answer: It works, but it’s not the best for noodles.

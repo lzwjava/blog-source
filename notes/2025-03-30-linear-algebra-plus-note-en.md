@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Linear Algebra Plus Note
 translated: false
+type: note
 ---
 
 In linear algebra, two square matrices \\( A \\) and \\( B \\) are said to be similar if there exists an invertible matrix \\( P \\) such that:

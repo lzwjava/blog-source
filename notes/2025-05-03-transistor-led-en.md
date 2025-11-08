@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: LED Circuit with a Transistor
 translated: false
+type: note
 ---
 
 Here is a tutorial based on the YouTube video you provided, explaining how to use a transistor to control an LED circuit.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: MiniMax M2 Open-Source AI Model
 translated: false
+type: note
 ---
 
 ### What is MiniMax M2?

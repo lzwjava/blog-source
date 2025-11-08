@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Enrico Fermi: Architect of Nuclear Age'
 translated: false
+type: note
 ---
 
 ### Enrico Fermi: The Physicist

@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: LibreChat Private Chat Mode Explanation
 translated: false
+type: note
 ---
 
 Ah, that makes sense! If you’re using **Private Chat** mode in LibreChat, then the “empty sidebar” behavior is expected, not an error.  

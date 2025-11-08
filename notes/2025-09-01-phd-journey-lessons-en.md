@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: PhD Journey Insights and Lessons Shared
 translated: false
+type: note
 ---
 
 Here’s a structured set of **possible interview questions** you could ask your schoolmate, tailored to his background and what you want to learn:

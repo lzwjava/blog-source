@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: View of Delft
 translated: false
+type: note
 ---
 
 "View of Delft" by Johannes Vermeer, painted around 1660-1661, is celebrated as one of the most iconic cityscapes in Western art. Here's a breakdown of its key aspects:

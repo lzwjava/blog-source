@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Arduino Issue
 translated: false
+type: note
 ---
 
 The error messages you’re seeing indicate that the Arduino IDE (via `avrdude`) is unable to communicate with your Arduino board to upload the sketch. The `stk500_recv(): programmer is not responding` and `stk500_getsync(): not in sync: resp=0x00` errors typically point to a communication issue between your computer and the Arduino. Since you’re using `/dev/ttyUSB0` (as shown in your earlier query), this suggests a USB-to-serial connection, likely an Arduino Uno or a compatible board with a separate USB-to-serial chip (e.g., CH340, FT232R).

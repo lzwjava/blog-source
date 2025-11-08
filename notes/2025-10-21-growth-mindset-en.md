@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Developing a Growth Mindset
 translated: false
+type: note
 ---
 
 ### What Is a Growth Mindset?

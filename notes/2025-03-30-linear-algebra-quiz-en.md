@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Linear Algebra Quiz
 translated: false
+type: note
 ---
 
 Here are quizzes based on the Linear Algebra topics you provided, formatted section by section without answers:  

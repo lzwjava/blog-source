@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Combinational Logic Devices Overview
 translated: false
+type: note
 ---
 
 ### Overview

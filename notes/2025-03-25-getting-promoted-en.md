@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Getting Promoted
 translated: false
+type: note
 ---
 
 Getting promoted as a software engineer involves a combination of strong technical skills, effective communication, leadership qualities, and a proactive approach to your career development. Here's a breakdown of key strategies:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using KaTeX in Jekyll
 translated: false
+type: note
 ---
 
 To use KaTeX instead of MathJax in Jekyll with your current setup, you'll need to replace the MathJax scripts with KaTeX and adjust your Jekyll configuration. KaTeX is faster and lighter than MathJax, but it requires a different approach since it doesn't support all of MathJax's features (e.g., automatic equation numbering is more manual). Below is a step-by-step guide to switch to KaTeX in your Jekyll site:

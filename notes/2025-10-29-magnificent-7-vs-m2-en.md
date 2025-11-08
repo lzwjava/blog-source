@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Magnificent 7 Versus M2 Money Supply
 translated: false
+type: note
 ---
 
 ### Verifying the Claim: Magnificent 7 vs. M2 Money Supply

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Default Text Editors in RHEL Minimal
 translated: false
+type: note
 ---
 
 In Red Hat Enterprise Linux (RHEL), particularly in a minimal installation (the default for servers and lightweight setups), the only text editor available out of the box is **vi**, provided by the `vim-minimal` package. This gives you a basic, compatible implementation of the classic `vi` command for editing files in the terminal.

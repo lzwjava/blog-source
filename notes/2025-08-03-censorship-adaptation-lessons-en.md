@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Overcoming Censorship and Myopia
 translated: false
+type: note
 ---
 
 ### Lessons Learned from This Experience

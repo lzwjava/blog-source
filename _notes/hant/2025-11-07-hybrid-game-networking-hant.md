@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 遊戲開發的混合式網絡架構
 translated: true
+type: note
 ---
 
 你說得對——B 的解釋完全正確。

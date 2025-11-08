@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: MongoDB Docker Container Recovery Guide
 translated: false
+type: note
 ---
 
 Thanks — the `docker inspect` output confirms the container is **Dead** and that your MongoDB data directory is a host bind-mount:

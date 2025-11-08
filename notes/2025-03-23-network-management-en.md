@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Network Performance and Management Tutorial
 translated: false
+type: note
 ---
 
 **Tailored for Chinese Self-Study Exam (自考) in Computer Networks Technology**

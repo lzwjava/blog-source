@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: JSP Decline and Spring Boot Rise
 translated: false
+type: note
 ---
 
 JavaServer Pages (JSP) was once a staple for building dynamic web applications in Java, allowing developers to embed Java code directly into HTML. However, over the years, its usage has significantly declined, especially in new projects. Spring Boot, a framework built on the Spring ecosystem, has become the go-to choice for Java web development. It's important to note that JSP and Spring Boot aren't direct competitors—JSP is a view technology (for rendering pages), while Spring Boot is a full framework for creating web apps, APIs, and microservices. The shift often means replacing traditional JSP/Servlet stacks with Spring Boot paired with modern templating engines or frontend frameworks.

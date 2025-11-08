@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GraalVM Native Image Overview
 translated: false
+type: note
 ---
 
 ### What is Native Image in GraalVM?

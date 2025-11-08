@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Benjamin Franklin
 translated: false
+type: note
 ---
 
 Benjamin Franklin (January 17, 1706 – April 17, 1790) was a polymath and one of the most influential Founding Fathers of the United States. His contributions spanned science, politics, diplomacy, literature, and invention, leaving a lasting legacy on American society and beyond. Known for his wit, pragmatism, and insatiable curiosity, Franklin embodied the Enlightenment ideals of reason, inquiry, and civic responsibility. Below is a comprehensive introduction to his life, achievements, and impact.

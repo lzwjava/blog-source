@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Gram-Schmidt Process
 translated: false
+type: note
 ---
 
 The **Gram-Schmidt process** is a method in linear algebra used to convert a set of linearly independent vectors into an orthonormal set of vectors that span the same subspace. This is particularly useful in various applications such as QR decomposition, solving least squares problems, and simplifying computations in vector spaces.

@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: TCP vs. UDP Protokollunterschiede
 translated: true
+type: note
 ---
 
 Ja, du hast es genau richtig verstanden! Lassen Sie mich die wichtigsten Unterschiede verdeutlichen:

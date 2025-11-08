@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Capacitors
 translated: false
+type: note
 ---
 
 Alright, let's dive into a **comprehensive** but still **easy-to-follow** analysis of **how capacitors work**:

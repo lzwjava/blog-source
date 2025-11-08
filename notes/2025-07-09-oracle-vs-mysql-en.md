@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Oracle vs MySQL: Key Comparisons'
 translated: false
+type: note
 ---
 
 I'll provide a comprehensive comparison between Oracle and MySQL across key dimensions:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The Nobel Prize in Physics
 translated: false
+type: note
 ---
 
 The Nobel Prize in Physics, awarded annually by the Royal Swedish Academy of Sciences, recognizes groundbreaking contributions to the field. Since 1901, it has been awarded 118 times to 226 individuals, with John Bardeen being the only laureate to win twice (1956 and 1972). Below is an overview of major breakthroughs from recent Nobel Physics awards, focusing on significant advancements, with some historical context for perspective. I’ll keep it concise yet comprehensive, highlighting key discoveries and their impact.[](https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/)[](https://en.wikipedia.org/wiki/List_of_Nobel_laureates_in_Physics)

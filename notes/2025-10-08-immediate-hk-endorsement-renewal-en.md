@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Immediate Hong Kong Endorsement Renewal
 translated: false
+type: note
 ---
 
 Yes, you can absolutely apply for another 1-year single-entry endorsement right away after using the previous one—there's no required waiting period or interval between applications, even if it's just a few months later (like your example of next month, then 3 months after). As long as your Home Return Permit is still valid, you can head to a self-service machine in Guangzhou (or an exit-entry office) and get the new endorsement issued on the spot, typically in minutes.

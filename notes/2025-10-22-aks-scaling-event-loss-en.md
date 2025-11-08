@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Preventing Event Loss During AKS Scaling
 translated: false
+type: note
 ---
 
 ### Likely Cause of Event Loss

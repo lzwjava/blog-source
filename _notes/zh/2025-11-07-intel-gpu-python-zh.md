@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: 英特尔GPU的Python计算
 translated: true
+type: note
 ---
 
 以下是如何设置和使用 Intel oneAPI 与 Python 进行 GPU 计算：

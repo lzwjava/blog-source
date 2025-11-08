@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong Power Bank Rentals
 translated: false
+type: note
 ---
 
 ### Power Bank Rental Options in Hong Kong

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Ram Charan
 translated: false
+type: note
 ---
 
 ### **Introduction to Ram Charan**  

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Review of Number Systems and Codes
 translated: false
+type: note
 ---
 
 This is a concise and accurate overview of fundamental number systems used in computing and digital electronics. Let me expand on each system with some additional context:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 数据链路与网络层分离
 translated: true
+type: note
 ---
 
 ### 为什么数据链路层和网络层要分开？

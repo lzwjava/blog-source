@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Road Trip Things
 translated: false
+type: note
 ---
 
 Okay, here is a list of things you should bring for your road trip to Shantou during the Qingming Festival in April in China, considering you'll have your laptop and phone:

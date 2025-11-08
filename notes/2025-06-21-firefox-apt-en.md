@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Installing Firefox via APT on Ubuntu
 translated: false
+type: note
 ---
 
 This guide details how to install Firefox from the Mozilla APT repository on Ubuntu, replacing the default Snap package.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The Dunning-Kruger Effect Explained
 translated: false
+type: note
 ---
 
 ### The Dunning-Kruger Effect: A Key Culprit

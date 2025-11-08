@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Denmark's Leading Banks and Institutions
 translated: false
+type: note
 ---
 
 ### Banks in Denmark

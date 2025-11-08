@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Building a Parallel AI Workspace
 translated: false
+type: note
 ---
 
 Great — let me outline a practical way you could build a **parallel AI workspace** for yourself. I’ll go from simplest to most advanced, so you can pick what fits your style and resources.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Optimized China VPS Network Overview
 translated: false
+type: note
 ---
 
 ### CN2 GIA/CTGNet VPS Overview

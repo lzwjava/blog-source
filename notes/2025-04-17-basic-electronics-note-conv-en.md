@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: Basic Electronics Note - Conversation
+type: note
 ---
 
 A: Hey, I’ve been hearing a lot about analog electronics lately. Can you break down the basics for me?

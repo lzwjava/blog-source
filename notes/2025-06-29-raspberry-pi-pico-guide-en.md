@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Best YouTube Courses for Pico
 translated: false
+type: note
 ---
 
 To master Raspberry Pi Pico development, focusing on YouTube courses that offer hands-on projects, MicroPython or C/C++ programming, and practical applications like IoT, robotics, and sensor integration is key. Below are recommended YouTube courses and channels based on their relevance, quality, and alignment with Raspberry Pi Pico development. These recommendations draw from the provided web and X post context, emphasizing beginner-friendly to advanced content that covers MicroPython, hardware interfacing, and project-based learning.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Connecting iPad to HDMI Monitor
 translated: false
+type: note
 ---
 
 To connect your iPad to a monitor using HDMI and use it to watch movies (e.g., streaming from your Ubuntu laptop’s Nginx server with an app like Infuse), you’ll need the right adapter and a straightforward setup. iPads don’t have a native HDMI port, but Apple provides official adapters, and there are third-party options too. Here’s how to do it step-by-step, tailored to your goal of watching movies hassle-free on your monitor.

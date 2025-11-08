@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Using the Subl Command Line Tool
 translated: false
+type: note
 ---
 
 ### Using the `subl` Command in Sublime Text

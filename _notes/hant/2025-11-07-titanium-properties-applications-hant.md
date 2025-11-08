@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 鈦金屬：特性與應用
 translated: true
+type: note
 ---
 
 **鈦**（符號：**Ti**，原子序數：22）是一種堅固、輕量且耐腐蝕的金屬元素。

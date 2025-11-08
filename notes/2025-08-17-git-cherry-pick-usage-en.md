@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Git Cherry-Pick Overview and Usage
 translated: false
+type: note
 ---
 
 ### What is Git Cherry-Pick?

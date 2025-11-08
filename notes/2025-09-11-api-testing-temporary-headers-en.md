@@ -8,6 +8,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: API Testing with Temporary Headers
 translated: false
+type: note
 ---
 
 For testing API endpoints that require temporary headers (like financial headers) in a Python test suite for a Java project, both `unittest` and `pytest` are viable options, but `pytest` offers some advantages for this scenario.

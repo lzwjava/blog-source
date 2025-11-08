@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Comprendre la couche de liaison de données
 translated: true
+type: note
 ---
 
 ### Comprendre la couche liaison de données : un aperçu rapide

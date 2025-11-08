@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Scale with Discipline, Not Desperation
 translated: false
+type: note
 ---
 
 ### Lessons from Big Tech/Banks vs. Startups: Building Discipline and Sustainability

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Windows 11 October 2024 Update Details
 translated: false
+type: note
 ---
 
 ### Latest Windows 11 Update

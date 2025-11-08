@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Jim Williams: Analog Design Legend'
 translated: false
+type: note
 ---
 
 Jim Williams (1948–2011) was a legendary analog circuit designer, widely regarded as one of the most brilliant and creative minds in analog electronics. His work deeply influenced generations of engineers, and his legacy lives on through his technical writings, designs, and unique approach to engineering education.

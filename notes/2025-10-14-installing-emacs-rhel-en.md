@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Installing Emacs on RHEL
 translated: false
+type: note
 ---
 
 ### Installing Emacs on Red Hat Enterprise Linux

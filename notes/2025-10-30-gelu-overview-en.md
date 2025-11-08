@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GELU Activation Function Overview
 translated: false
+type: note
 ---
 
 ### What is GELU?

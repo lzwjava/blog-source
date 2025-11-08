@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Bus Topology Speed Limitations Explained
 translated: false
+type: note
 ---
 
 ### Bus Topology Limitations

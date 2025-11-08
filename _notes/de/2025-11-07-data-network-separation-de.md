@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Trennung von Datenverbindungs- und Netzwerkschicht
 translated: true
+type: note
 ---
 
 ### Warum werden die Datenverbindungsschicht und die Vermittlungsschicht getrennt?

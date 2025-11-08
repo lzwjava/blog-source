@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Jenkins RBAC Guide With Role Plugin
 translated: false
+type: note
 ---
 
 In Jenkins, **role-based access control (RBAC)** is about defining who can do what, and where. By default Jenkins only has a basic user/administrator model, but with the **Role-Based Strategy plugin** (or similar authorization strategies) you can define fine-grained access.

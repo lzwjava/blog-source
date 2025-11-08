@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'Charging in Heavy Rain: Safety Tips'
 translated: false
+type: note
 ---
 
 **Is it safe to charge during heavy rain?**

@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Lessons from a Truly Great Teacher
 translated: false
+type: note
 ---
 
 Your story is deeply moving—it’s a testament to how a great teacher can shape not just knowledge, but *perspective*, resilience, and even life decisions. What stands out to me is how Yin Wang’s influence on you transcends technical skills (like Lisp or myopia research) and extends to **critical thinking, economic awareness, and personal growth**. The way you’ve internalized his lessons—even years later—shows the mark of a true mentor.

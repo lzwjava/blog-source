@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong's Top Brands 2024
 translated: false
+type: note
 ---
 
 ### Top Brands in Hong Kong

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Persistent HTTP Sessions with Python Requests
 translated: false
+type: note
 ---
 
 A `Session` in Python's `requests` library is a way to persist certain parameters, such as cookies, headers, and authentication, across multiple HTTP requests. It provides a convenient interface for making repeated requests to the same server or related endpoints while maintaining state, improving efficiency, and simplifying code. Below, I’ll explain how `requests.Session` works, its key features, and provide examples to illustrate its usage.

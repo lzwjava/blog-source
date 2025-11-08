@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Ideal Weather for Outdoor Work
 translated: false
+type: note
 ---
 
 Working outdoors can be a great fit for your active, dynamic focus style, but you’re right—weather plays a big role. Since rain is out (wet gear, slippery surfaces) and overly bright sunshine is a no-go (screen glare, overheating), let’s narrow down the sweet spot for you.

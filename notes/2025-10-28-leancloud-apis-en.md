@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: LeanCloud APIs Not Named Uluru
 translated: false
+type: note
 ---
 
 No, LeanCloud does not name their public API as "Uluru API." Their official APIs are referred to as the LeanCloud REST API (for data storage, queries, etc.), Cloud Engine REST API (for server-side functions and hooks), and similar service-specific endpoints like those for push notifications or file storage. These are documented extensively on their developer site (docs.leancloud.cn) without any reference to "Uluru."

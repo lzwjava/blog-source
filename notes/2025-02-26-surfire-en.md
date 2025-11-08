@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Maven Surefire Plugin
 translated: false
+type: note
 ---
 
 Below is an explanation of the **Maven Surefire Plugin**, which is a key component in Maven-based projects for running unit tests during the build process. This explanation covers its purpose, configuration, usage, and customization options.

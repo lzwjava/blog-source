@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: El Mito de la Comunicación P2P Sin Servidor
 translated: true
+type: note
 ---
 
 ¡Excelente pregunta! Estás conectando los puntos correctos entre los **principios peer-to-peer (P2P)** y las aplicaciones de comunicación modernas, pero hay una distinción crucial: el **PPP (Point-to-Point Protocol)** opera en la **capa de enlace de datos (Capa 2)** para conexiones directas por serie/módem, mientras que aplicaciones como RustDesk o chats web3 funcionan en la **capa de aplicación (Capa 7)** usando diferentes técnicas P2P.

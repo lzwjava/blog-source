@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: KWG Group Holdings Real Estate Overview
 translated: false
+type: note
 ---
 
 合景泰富地产, also known as KWG Group Holdings, is a prominent real estate company based in Guangzhou, Guangdong. The company has a significant presence in the real estate sector, with a focus on property development and management. As of 2023, KWG Group Holdings has expanded its footprint to over 40 core cities across China, developing more than 400 high-quality benchmark projects. Notable projects include developments in key areas such as Guangzhou's Pearl River New City CBD, Guangzhou's Pazhou CBD, Guangzhou Financial City CBD, Shanghai CBD, and Chengdu High-tech Zone CBDue202turn0search3.

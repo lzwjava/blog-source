@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Arduino Uno Variants
 translated: false
+type: note
 ---
 
 The Arduino Uno, Uno R3, and Uno Mini are variations of the popular Arduino microcontroller board, each with specific differences in design, features, and use cases. Below is a concise comparison based on their key differences:

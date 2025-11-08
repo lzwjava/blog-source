@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Singapore's Smart Nation Initiative Overview
 translated: false
+type: note
 ---
 
 ### Overview of Singapore's Smart Nation Initiative

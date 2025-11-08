@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Shantou Port
 translated: false
+type: note
 ---
 
 While it's challenging to give a single definitive "size" for a port that encompasses all aspects (like total land area, water area, or all its facilities), we can understand the current scale of Shantou Port through various indicators:

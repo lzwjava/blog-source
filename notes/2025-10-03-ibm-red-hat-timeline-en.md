@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: IBM Acquires Red Hat Timeline
 translated: false
+type: note
 ---
 
 ### Acquisition Timeline and Process

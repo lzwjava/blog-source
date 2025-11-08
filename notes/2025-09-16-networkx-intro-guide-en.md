@@ -7,6 +7,7 @@ layout: post
 model: openai/o1-mini
 title: NetworkX Python Graph Library Introduction
 translated: false
+type: note
 ---
 
 NetworkX is a powerful Python library for the creation, manipulation, and study of complex networks (graphs). It provides tools to work with both undirected and directed graphs, handle weighted edges, and perform a variety of network analyses.

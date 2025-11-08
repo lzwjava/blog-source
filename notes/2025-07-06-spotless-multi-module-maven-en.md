@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Spotless in Multi-Module Maven Projects
 translated: false
+type: note
 ---
 
 ### Spotless in Multi-Module Maven Projects

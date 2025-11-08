@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Baseus 67W Charger Works with MacBook Air M2
 translated: false
+type: note
 ---
 
 Yes, the MacBook Air M2 can accept a 67W GaN Lite charger from Baseus, and it should work effectively for charging, including fast charging. Here’s a detailed breakdown:

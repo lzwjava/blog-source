@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Standard Chartered Contractor Downsides
 translated: false
+type: note
 ---
 
 ### Downsides of Working as a Contractor for Standard Chartered Bank

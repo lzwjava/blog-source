@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Command ps and its Options
 translated: false
+type: note
 ---
 
 Let me break down the command `ps -ef | grep java` and then explain some common options for the `ps` command to help you understand how it works and how you can customize it.

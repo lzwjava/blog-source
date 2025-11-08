@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Zed: Fast Collaborative AI Code Editor'
 translated: false
+type: note
 ---
 
 ### What is Zed Editor?

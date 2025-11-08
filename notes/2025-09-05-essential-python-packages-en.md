@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Essential Python Packages Overview
 translated: false
+type: note
 ---
 
 | Rank | Package | One-Line Explanation |

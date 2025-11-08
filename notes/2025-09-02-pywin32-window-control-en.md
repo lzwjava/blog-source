@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: PyWin32 Window Control Essentials
 translated: false
+type: note
 ---
 
 Here’s a guide to working with **PyWin32 windows**—focusing on their properties, activation, and bottom area handling.

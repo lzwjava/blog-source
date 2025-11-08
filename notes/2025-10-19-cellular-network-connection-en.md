@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: How Cellular Networks Connect Devices
 translated: false
+type: note
 ---
 
 ### How 4G and 5G Networks Work

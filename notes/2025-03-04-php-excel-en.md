@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: PHPExcel Library
 translated: false
+type: note
 ---
 
 ### Key Points

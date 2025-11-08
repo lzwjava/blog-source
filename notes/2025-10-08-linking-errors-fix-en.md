@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fixing Multiple Definition Linking Errors
 translated: false
+type: note
 ---
 
 This is a **multiple definition linking error** — a classic C mistake when **global variables are defined in a header file (`variables.h`)** instead of just being *declared* there.

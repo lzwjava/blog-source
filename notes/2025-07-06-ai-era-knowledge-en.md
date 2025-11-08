@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: AI Era Knowledge Dynamics
 translated: false
+type: note
 ---
 
 No, that's not quite right—it's an oversimplification of how knowledge and information access work in the AI era. Let me break this down clearly, based on how rapidly evolving tech and knowledge actually function today.

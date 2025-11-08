@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Jiangxi Travel Guide
 translated: false
+type: note
 ---
 
 Jiangxi, a province in southeastern China, offers a rich blend of natural beauty, historical sites, and cultural experiences. Here are some highlights and tips for traveling to Jiangxi:

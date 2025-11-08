@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Network Services in macOS and Linux
 translated: false
+type: note
 ---
 
 ### Network Services and Related Terms in macOS and Linux

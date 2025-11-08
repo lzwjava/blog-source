@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Scala’s Collection Library in Java
 translated: false
+type: note
 ---
 
 To use the `scala.collection` package in Java, you can leverage the interoperability between Scala and Java since both languages compile to JVM bytecode. This allows Java code to call Scala classes, including those in the `scala.collection` package, provided the Scala library is accessible to your Java project. Below is a step-by-step guide to achieve this, complete with explanations and examples.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Jakarta: A Vibrant Megacity Introduction'
 translated: false
+type: note
 ---
 
 Jakarta, the vibrant capital of Indonesia, is a sprawling metropolis that pulses with energy, diversity, and contrasts. Officially known as the Special Capital Region of Jakarta (DKI Jakarta), it's the country's political, economic, and cultural heart, situated on the northwestern coast of Java—the world's most populous island. As Southeast Asia's largest urban area, Jakarta blends ancient trading port roots with futuristic skyscrapers, bustling street markets, and world-class malls. However, it's also grappling with challenges like flooding, traffic congestion, and rapid urbanization. With a city population of about 10.7 million (as of mid-2024) and a metropolitan area exceeding 32 million, it's one of the planet's megacities, second only to Tokyo in urban scale.

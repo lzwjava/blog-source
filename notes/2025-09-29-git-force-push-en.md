@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Git Force Push via Branch Deletion
 translated: false
+type: note
 ---
 
 ```python

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Maximize Home Value and Comfort
 translated: false
+type: note
 ---
 
 Maximizing the value of your 120 m² suburban house involves a combination of enhancing its functionality, comfort, and appeal for personal use while ensuring it remains a valuable asset. As a software engineer with 10 years of experience and electronics knowledge, you have unique skills to implement smart, cost-effective solutions. Below, I’ll outline strategies to make your home comfortable, efficient, and valuable, tailored to your background.

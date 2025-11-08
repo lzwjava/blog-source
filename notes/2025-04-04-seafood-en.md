@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Common Seafood
 translated: false
+type: note
 ---
 
 Absolutely! 🐟🦐 Let’s dive into a little English lesson about **common seafood**—great for both vocabulary and conversation.

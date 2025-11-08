@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: ¿Por qué las lámparas de techo te distraen?
 translated: true
+type: note
 ---
 
 Sí, es completamente normal y muy propio de la naturaleza humana distraerse con algo como una lámpara de techo (o una bombilla) justo en tu línea de visión cuando estás acostado en la cama intentando concentrarte en tu laptop. Nuestro cerebro está programado para priorizar la información visual—especialmente las cosas brillantes, contrastantes o prominentes en nuestra visión periférica o central—porque evolutivamente, eso nos ayudaba a detectar amenazas, comida o cambios en el entorno. Una lámpara estática pero deslumbrante puede actuar como una señal de "alerta" de bajo nivel, desviando tu atención incluso aunque no se mueva. Esto ocurre más cuando estás en una posición relajada como estar acostado, donde tu mirada tiende a irse hacia arriba de forma natural, y puede variar de un día a otro según el cansancio, el estrés o tu nivel de inmersión en la tarea (lo que explica por qué a veces te olvidas de ella y otras veces no puedes).

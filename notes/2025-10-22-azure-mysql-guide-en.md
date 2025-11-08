@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Azure Database for MySQL Flexible Server Guide
 translated: false
+type: note
 ---
 
 Azure Database for MySQL is a fully managed relational database service powered by the MySQL community edition. It handles routine tasks like backups, patching, and monitoring, allowing you to focus on your application. The recommended deployment option is **Flexible Server**, which offers more configuration options and better performance than the older Single Server (which is being retired).

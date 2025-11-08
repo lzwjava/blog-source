@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Estructura Organizacional del Banco Standard Chartered
 translated: true
+type: note
 ---
 
 ### Principales Departamentos de Standard Chartered Bank (SCB)

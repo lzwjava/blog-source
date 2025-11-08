@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Monitoring Router Network Traffic
 translated: false
+type: note
 ---
 
 ### Monitoring HTTP Requests and TCP Connections on 360 Wi-Fi 6 Router T7

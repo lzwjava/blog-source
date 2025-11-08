@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Italy''s History: A Nuanced View'
 translated: false
+type: note
 ---
 
 ### Is the Statement True?

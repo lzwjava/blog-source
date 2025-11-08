@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Maximizing Leave Days with Chinese Holidays
 translated: false
+type: note
 ---
 
 ### Maximizing Your 5 Annual Leave Days with Chinese Public Holidays

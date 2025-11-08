@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Reversing Modern Myopia Naturally
 translated: false
+type: note
 ---
 
 ### Summary of the Article: "Myopia: A Modern Yet Reversible Disease"

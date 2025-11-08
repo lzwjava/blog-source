@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Change VS Code Cursor to Line
 translated: false
+type: note
 ---
 
 ### Fixing the Block (Rectangle) Cursor in VS Code

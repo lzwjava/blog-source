@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rust Output Location Options
 translated: false
+type: note
 ---
 
 You're asking a great question that touches on how Rust projects are typically structured and built\!

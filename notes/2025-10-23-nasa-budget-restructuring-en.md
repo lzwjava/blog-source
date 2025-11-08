@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: NASA Faces Budget Cuts and Restructuring
 translated: false
+type: note
 ---
 
 ### The Claim: Is the Trump Administration Planning to Eliminate NASA?

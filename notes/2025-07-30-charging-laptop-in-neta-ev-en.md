@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Charging Lenovo Laptop in Neta EV
 translated: false
+type: note
 ---
 
 ### Understanding the Issue with Charging Your Lenovo Laptop in a Neta EV

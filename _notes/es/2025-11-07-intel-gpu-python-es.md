@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Computación con GPU de Intel en Python
 translated: true
+type: note
 ---
 
 Aquí te mostramos cómo configurar y usar Intel oneAPI con Python para computación GPU:

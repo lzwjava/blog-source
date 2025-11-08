@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Greatest Writers
 translated: false
+type: note
 ---
 
 That's a big and fascinating question! "Greatest writers" can mean different things depending on language, era, genre, or personal taste—but here’s a list of some widely regarded literary giants across cultures and time periods:

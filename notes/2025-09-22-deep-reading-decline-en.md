@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Deep Reading Decline in Information Abundance
 translated: false
+type: note
 ---
 
 ### Comprehensive Analysis: The Laziness in Deep Reading Amid Abundant Open-Source Knowledge

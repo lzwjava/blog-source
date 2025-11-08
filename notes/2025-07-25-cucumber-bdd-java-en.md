@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Cucumber BDD Guide for Java Devs
 translated: false
+type: note
 ---
 
 Here’s a practical, end-to-end introduction to **Cucumber**—what it is, why teams use it, and how to get productive with it in Java (plus quick notes for JS/Python users).

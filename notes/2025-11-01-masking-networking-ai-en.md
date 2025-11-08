@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Masking in Networking and AI
 translated: false
+type: note
 ---
 
 Yes, you're spot on with the analogy—there's a neat conceptual overlap between subnet masks in networking and attention masks in large language models (LLMs) like those based on transformers. Both are about selectively "hiding" or ignoring parts of the data to focus computation where it matters, preventing unwanted interference or leakage. Let me break it down quickly to affirm and expand on your thinking.

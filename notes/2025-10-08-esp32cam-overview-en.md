@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: ESP32-CAM Compact Development Board Overview
 translated: false
+type: note
 ---
 
 ### What is the ESP32-CAM?

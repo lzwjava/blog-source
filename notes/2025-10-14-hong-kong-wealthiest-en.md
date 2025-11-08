@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong's Wealthiest Business Leaders
 translated: false
+type: note
 ---
 
 ### Top 35 Wealthiest Individuals/Families in Hong Kong with HK-Rooted Businesses (2025)

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Thomas Young: The Last Universal Scholar'
 translated: false
+type: note
 ---
 
 ### Thomas Young: The Last Man Who Knew Everything

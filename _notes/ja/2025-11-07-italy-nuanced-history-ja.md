@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: イタリア史の微妙な解釈
 translated: true
+type: note
 ---
 
 ### この記述は真実か？

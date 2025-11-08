@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: DBS Tech India, Hyderabad
 translated: false
+type: note
 ---
 
 DBS Tech India, located in Hyderabad, Telangana, serves as the global technology hub for DBS Bank, a leading financial services group in Asia. Initially established as DBS Asia Hub 2 in 2016, it was rebranded to DBS Tech India in 2022 to reflect its transformation into a world-class engineering organization focused on driving digital innovation and delivering cutting-edge banking solutions. The hub plays a pivotal role in DBS Bank’s strategic technology initiatives, aiming to revolutionize banking through advanced technology and software-enabled platforms, enabling customers to "Live more, Bank less."[](https://www.dbs.com/dbstechindia/decode.html)[](https://www.thehindubusinessline.com/info-tech/dbs-asia-hub-2-becomes-dbs-tech/article65686356.ece)

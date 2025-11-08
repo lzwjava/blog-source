@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Reveal In GitHub Xcode Plugin
 translated: false
+type: note
 ---
 
 ### What is Reveal-In-GitHub?

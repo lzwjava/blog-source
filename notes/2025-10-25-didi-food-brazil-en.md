@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Didi Expands Food Delivery in Brazil
 translated: false
+type: note
 ---
 
 Didi (operating primarily through its 99 brand in Brazil) is in a strong growth phase as of late 2025, with significant expansions in both ride-hailing and food delivery services. The company acquired 99 in 2018, and while ride-hailing remains a core offering available nationwide, much of the recent buzz centers on the relaunch and rapid scaling of its 99Food delivery platform.

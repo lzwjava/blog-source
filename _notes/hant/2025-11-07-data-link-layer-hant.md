@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 理解數據鏈路層
 translated: true
+type: note
 ---
 
 ### 理解數據鏈路層：快速入門

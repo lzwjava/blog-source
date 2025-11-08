@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Air Fryer Potato Cooking Tips
 translated: false
+type: note
 ---
 
 ### What This Lesson Shows

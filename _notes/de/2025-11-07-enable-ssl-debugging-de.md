@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Aktivieren des Java-SSL-TLS-Debugging
 translated: true
+type: note
 ---
 
 ### Aktivierung der SSL/TLS-Debug-Funktion in Java

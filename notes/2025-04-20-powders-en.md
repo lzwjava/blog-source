@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: powders
 translated: false
+type: note
 ---
 
 Besides coffee powder, there are several other powders that can be brewed:

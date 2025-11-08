@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Zig Quick Sort Implementation
 translated: false
+type: note
 ---
 
 Here's the equivalent Quick Sort implementation in Zig.

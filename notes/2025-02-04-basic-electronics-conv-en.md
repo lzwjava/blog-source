@@ -3,6 +3,7 @@ audio: true
 generated: false
 layout: post
 title: Basic Electronics - Conversation
+type: note
 ---
 
 A: Hey, I’ve been hearing a lot about power electronics and its applications. Can you break it down for me?
@@ -148,4 +149,3 @@ B: Safety and protection are crucial in electronic circuits. Common techniques i
 A: Yes, I think I have a good understanding now. Thanks for walking me through these concepts! I feel more prepared for my exam. Is there anything else I should focus on?
 
 B: You're welcome! It's great to hear that you feel more prepared.
-

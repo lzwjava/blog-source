@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Basketball Stats Explained
 translated: false
+type: note
 ---
 
 Basketball statistics provide a numerical way to evaluate a player's or team's performance. Here's a breakdown of common terms you'll encounter:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: A DeepSearch Experiment within Grok
 translated: false
+type: note
 ---
 
 ### Key Points

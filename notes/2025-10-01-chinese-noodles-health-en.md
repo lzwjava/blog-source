@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: 'Chinese Noodles: Health and TCM Insights'
 translated: false
+type: note
 ---
 
 ### Understanding the Dishes

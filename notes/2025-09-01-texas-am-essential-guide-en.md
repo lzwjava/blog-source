@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Texas A&M University Essential Guide
 translated: false
+type: note
 ---
 
 Here’s a comprehensive introduction to **Texas A\&M University (TAMU):**

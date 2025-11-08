@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Study Map for Machine Learning, Deep Learning, and GPT
 translated: false
+type: note
 ---
 
 Below is a comprehensive study map for **Machine Learning (ML)**, **Deep Learning (DL)**, and **Generative Pre-trained Transformers (GPT)**, designed to guide learners from beginner to advanced levels. This map organizes key concepts, tools, and milestones, building on the provided timeline of breakthroughs from 2010 to 2024. It includes structured learning paths, resources, and practical applications, ensuring a thorough understanding of these fields.

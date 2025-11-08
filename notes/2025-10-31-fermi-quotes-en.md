@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Enrico Fermis Notable Quotes
 translated: false
+type: note
 ---
 
 Enrico Fermi, the Nobel Prize-winning physicist known for his work on nuclear reactions and quantum theory, left behind several insightful and witty quotes. Here are some of his most notable ones:

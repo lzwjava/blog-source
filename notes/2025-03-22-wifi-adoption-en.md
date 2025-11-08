@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Wi-Fi Adoption Worldwide: Recent Decades'
 translated: false
+type: note
 ---
 
 Wi-Fi technology has seen remarkable global adoption over the past few decades, transforming how we connect to the internet. Here's an overview of this evolution:

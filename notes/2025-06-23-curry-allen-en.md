@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Ray Allen vs Ray Allen
 translated: false
+type: note
 ---
 
 Ray Allen is widely regarded as the better shooter compared to Stephen Curry when evaluating their careers holistically, though the debate is close and depends on specific criteria.

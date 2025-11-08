@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: El Paralelismo del Hardware Acelera la Indexación de Arreglos
 translated: true
+type: note
 ---
 
 ### ¿Por qué la indexación es más rápida que la búsqueda binaria?

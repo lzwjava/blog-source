@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: أفضل مشاريع رست مفتوحة المصدر
 translated: true
+type: note
 ---
 
 ### أفضل المشاريع مفتوحة المصدر المكتوبة أساسًا بلغة Rust

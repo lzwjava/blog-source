@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding Money Transfers and Remittances
 translated: false
+type: note
 ---
 
 ### Definition of Remittance

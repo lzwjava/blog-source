@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using ServiceNow
 translated: false
+type: note
 ---
 
 ### Key Points

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: B-Trees for Efficient Database Indexing
 translated: false
+type: note
 ---
 
 ### What is a B-Tree?

@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: Computer Networks Note - Conversation
+type: note
 ---
 
 A: Hey, I’ve been hearing a lot about the Transport Layer in networking. Can you break it down for me?

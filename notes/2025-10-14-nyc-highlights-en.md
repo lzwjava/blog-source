@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Exploring New York City's Highlights
 translated: false
+type: note
 ---
 
 New York City, often called "The Big Apple," is the most populous city in the United States, with over 8.3 million residents across five boroughs: Manhattan, Brooklyn, Queens, the Bronx, and Staten Island. It's a global hub for finance, media, art, fashion, entertainment, and cuisine, famously known for its skyline of towering skyscrapers, diverse neighborhoods, and iconic landmarks like the Statue of Liberty and Times Square. Founded by Dutch settlers in 1624 as New Amsterdam, it evolved into a melting pot of cultures, drawing immigrants from around the world and shaping American history—from the Revolutionary War to the Civil Rights Movement. Today, NYC pulses with energy 24/7, offering world-class museums, Broadway shows, street food from every corner of the globe, and endless urban adventures. Whether you're a first-time visitor or a repeat explorer, its mix of grit and glamour makes it endlessly fascinating.

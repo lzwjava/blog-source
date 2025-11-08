@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Transistors
 translated: false
+type: note
 ---
 
 Transistors are fundamental components in modern electronics, acting as switches or amplifiers in circuits. They control the flow of electrical current and are the building blocks of integrated circuits, microprocessors, and virtually all digital devices. Below is a comprehensive analysis of how transistors work, covering their principles, types, operation, and applications.

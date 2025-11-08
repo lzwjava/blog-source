@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Mathematics Majors
 translated: false
+type: note
 ---
 
 Mathematics majors at universities like MIT and Stanford typically cover a range of core and advanced topics. Here are some of the main courses and requirements:

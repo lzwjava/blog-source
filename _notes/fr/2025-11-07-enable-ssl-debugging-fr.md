@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Débogage SSL TLS de Java
 translated: true
+type: note
 ---
 
 ### Activation du débogage SSL/TLS en Java

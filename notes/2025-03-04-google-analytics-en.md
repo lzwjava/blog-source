@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Google Analytics
 translated: false
+type: note
 ---
 
 To use Google Analytics, integrate it into your frontend project, and check the data using both the app and website, follow these steps. This guide assumes your frontend project is either a website or a mobile app and uses **Google Analytics 4 (GA4)**, the current standard as of 2023, since Universal Analytics is no longer supported for new data collection.

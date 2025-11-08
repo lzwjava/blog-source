@@ -4,6 +4,7 @@ generated: true
 lang: en
 layout: post
 title: Maven Dependency Plugin
+type: note
 ---
 
 The **Maven Dependency Plugin** is a powerful tool in Maven, a widely-used build automation tool for Java projects, that helps you manage and manipulate project dependencies. Dependencies in a Maven project are external libraries or modules declared in the `pom.xml` file, which Maven downloads from repositories and makes available during compilation, runtime, or testing. The Dependency Plugin extends this functionality by providing various goals (tasks) to analyze, copy, list, or otherwise handle these dependencies. Here's how you can use it effectively:

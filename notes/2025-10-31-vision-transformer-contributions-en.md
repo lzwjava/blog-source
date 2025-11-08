@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Vision Transformer Authors and Contributions
 translated: false
+type: note
 ---
 
 ### Introduction to the Authors of "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"

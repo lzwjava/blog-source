@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cross-Platform Tools for Ubuntu/Linux
 translated: false
+type: note
 ---
 
 It's great you're looking for cross-platform tools, especially with Ubuntu/Linux in mind! The beauty of many modern applications is their ability to run seamlessly across Windows, macOS, and various Linux distributions. Beyond Firefox and VS Code, here are some excellent cross-platform tools and apps categorized by their function:

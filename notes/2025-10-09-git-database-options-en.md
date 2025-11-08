@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Git-Friendly Small Database Options
 translated: false
+type: note
 ---
 
 ### Exploring MongoDB, Redis, and Other Options for Your Git-Friendly Small DB

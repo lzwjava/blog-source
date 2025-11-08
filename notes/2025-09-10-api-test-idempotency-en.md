@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: API Test Uniqueness and Idempotency Strategy
 translated: false
+type: note
 ---
 
 Great question. Let’s zoom out, then get practical about “uniqueness” in API/integration tests.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Bipolar Junction Transistors
 translated: false
+type: note
 ---
 
 Bipolar Junction Transistors (BJTs) are fundamental semiconductor devices used in amplification, switching, and signal processing. They are three-terminal devices with a structure that enables current control and amplification, making them essential in analog and digital electronics. Let’s dive deeply into their structure, operation, modes, and characteristic curves, as requested, while keeping the explanation comprehensive yet accessible.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: トップRustオープンソースプロジェクト
 translated: true
+type: note
 ---
 
 ### Rustで書かれた主要なオープンソースプロジェクトトップ10

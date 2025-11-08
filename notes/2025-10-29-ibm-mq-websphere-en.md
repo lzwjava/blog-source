@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Configuring IBM MQ in WebSphere
 translated: false
+type: note
 ---
 
 ### Configuring Message Queues in IBM WebSphere Application Server (Using IBM MQ as the Provider)

@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Understanding JaCoCo Execution Data Files
 translated: false
+type: note
 ---
 
 Here’s a practical, everything-you-need rundown.

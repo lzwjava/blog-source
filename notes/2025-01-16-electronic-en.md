@@ -3,6 +3,7 @@ audio: true
 generated: false
 layout: post
 title: Electronic Fundamentals
+type: note
 ---
 
 ### Basic Electronic Components
@@ -258,4 +259,3 @@ title: Electronic Fundamentals
 99. Industrial Sensors: Industrial sensors are used to measure physical parameters such as temperature, pressure, flow, and level in industrial automation applications.
 
 100. Motor Control: Motor control systems are used to regulate the speed, direction, and operation of motors, including DC motors, AC motors, and stepper motors. These systems are crucial in automation and robotics.
-

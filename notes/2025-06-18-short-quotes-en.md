@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Short Quotes
 translated: false
+type: note
 ---
 
 Here are 30 short quotes, diverse in theme and source, each concise and impactful:

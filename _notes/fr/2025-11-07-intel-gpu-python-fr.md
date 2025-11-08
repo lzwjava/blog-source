@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Calcul GPU Intel avec Python
 translated: true
+type: note
 ---
 
 Voici comment configurer et utiliser Intel oneAPI avec Python pour le calcul GPU :

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top Database Ranking Sources
 translated: false
+type: note
 ---
 
 For database ranking indices, here are the most reliable sources that track the popularity of database management systems (DBMS) based on various metrics like search volume, community engagement, and job market demand:

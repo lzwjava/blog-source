@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Moment.js in JavaScript
 translated: false
+type: note
 ---
 
 I'll show you how to use the `moment` and `moment-timezone` libraries in JavaScript. These are popular libraries for handling dates and times.

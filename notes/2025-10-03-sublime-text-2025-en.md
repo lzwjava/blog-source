@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Sublime Text in 2025
 translated: false
+type: note
 ---
 
 ### Why Use Sublime Text in 2025? Comparison with VS Code and Zed

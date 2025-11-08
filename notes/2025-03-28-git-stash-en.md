@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Git Stash
 translated: false
+type: note
 ---
 
 Here's how to effectively use `git stash` and switch branches/tags frequently with uncommitted changes:

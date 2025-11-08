@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Stoicism
 translated: false
+type: note
 ---
 
 Stoicism is an ancient Greek and Roman philosophy founded in Athens by Zeno of Citium in the early 3rd century BCE. It teaches that the path to a virtuous and fulfilling life is based on practicing self-control, reason, and emotional resilience. 

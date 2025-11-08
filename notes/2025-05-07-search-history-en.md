@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Search History Analysis
 translated: false
+type: note
 ---
 
 Based on your search history over the past year, you have a wide range of interests. Some of the prominent areas include:

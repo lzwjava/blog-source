@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Eastern Guangzhou's Natural Escapes
 translated: false
+type: note
 ---
 
 ### Cozy Spots in Huangpu & Zengcheng: Small Parks, Tourism Gems, and Mountains

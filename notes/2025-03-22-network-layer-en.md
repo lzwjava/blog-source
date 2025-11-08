@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Network Layer
 translated: false
+type: note
 ---
 
 Okay, let's dive into a detailed tutorial on the Network Layer, specifically tailored for the Computer Networks Technology course within the Chinese Self-Study Exam (自考) system. This chapter is crucial for understanding how data travels across networks.

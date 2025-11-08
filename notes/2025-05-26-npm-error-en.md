@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Resolving npm ENOTEMPTY Error
 translated: false
+type: note
 ---
 
 The `ENOTEMPTY` error in npm occurs when it tries to rename a directory (in this case, `/opt/homebrew/lib/node_modules/@anthropic-ai/claude-code` to `/opt/homebrew/lib/node_modules/@anthropic-ai/.claude-code-2DTsDk1V`), but the destination directory is not empty. This typically happens during package installation or updates when npm cannot overwrite or move directories due to existing files.

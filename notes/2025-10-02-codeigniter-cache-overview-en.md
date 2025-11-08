@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: CodeIgniter Cache System Overview
 translated: false
+type: note
 ---
 
 ### Overview of CodeIgniter's Cache Library

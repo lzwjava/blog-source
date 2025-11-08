@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Why Python Needs `__init__.py`
 translated: false
+type: note
 ---
 
 ### Correcting the Typo

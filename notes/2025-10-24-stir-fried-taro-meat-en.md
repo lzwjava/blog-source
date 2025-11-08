@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Stir Fried Taro with Meat
 translated: false
+type: note
 ---
 
 I assume you’re asking how to cook taro with stir-fry oil and meat (possibly a typo for "meat"). Here’s a simple, clear recipe for stir-fried taro with meat, a common dish in many Asian cuisines. I’ll use pork as the meat, but you can substitute with chicken, beef, or skip it for a vegetarian version. The recipe will be concise yet comprehensive, focusing on key steps and tips.

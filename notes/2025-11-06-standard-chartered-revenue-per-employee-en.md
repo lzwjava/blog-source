@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Standard Chartered Revenue Per Employee
 translated: false
+type: note
 ---
 
 Standard Chartered Bank's revenue per employee is a key productivity metric, calculated as total annual income divided by average or year-end headcount. Based on the latest available data from their 2024 annual report (released in early 2025):

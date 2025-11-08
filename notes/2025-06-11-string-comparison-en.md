@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Efficient String Comparison
 translated: false
+type: note
 ---
 
 To improve your workflow for comparing tab-separated strings in Beyond Compare, especially when only minor differences like spaces cause issues, consider these approaches:

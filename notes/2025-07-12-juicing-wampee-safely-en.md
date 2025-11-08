@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Juicing Wampee: Remove Seeds for Safety'
 translated: false
+type: note
 ---
 
 Yes, it's generally okay to juice wampee fruit (also known as yellow skin fruit or Clausena lansium) using a juicer (榨汁机), but there are some important considerations regarding the seeds to ensure safety and quality:

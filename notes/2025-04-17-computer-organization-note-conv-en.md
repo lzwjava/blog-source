@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: Computer Organization Note - Conversation
+type: note
 ---
 
 A: Hey, I’ve been hearing a lot about semiconductor memory lately. Can you break it down for me?

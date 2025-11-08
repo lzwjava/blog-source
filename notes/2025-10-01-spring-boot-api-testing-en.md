@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Spring Boot API Testing Approaches
 translated: false
+type: note
 ---
 
 ### Comparison of Testing Approaches for Spring Boot APIs

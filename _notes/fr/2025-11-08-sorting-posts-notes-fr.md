@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Tri des publications et des notes
 translated: true
+type: note
 ---
 
 ### `_includes/sort.html` modifié

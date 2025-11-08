@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Organisationsstruktur der Standard Chartered Bank
 translated: true
+type: note
 ---
 
 ### Hauptabteilungen der Standard Chartered Bank (SCB)

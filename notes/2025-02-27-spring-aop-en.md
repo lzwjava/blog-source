@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring AOP (Aspect-Oriented Programming)
 translated: false
+type: note
 ---
 
 Spring AOP (Aspect-Oriented Programming) is a powerful feature in the Spring Framework that allows you to modularize cross-cutting concerns like logging, security, or transaction management. I'll walk you through the basics of using Spring AOP APIs with a practical approach.

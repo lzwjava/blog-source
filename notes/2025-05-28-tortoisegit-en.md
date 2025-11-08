@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: TortoiseGit
 translated: false
+type: note
 ---
 
 TortoiseGit is a Windows shell extension that provides a user-friendly interface for Git, the popular version control system. It integrates directly into Windows Explorer, allowing you to perform Git operations via context menus. This guide covers installing, configuring, and using TortoiseGit on Windows, along with common tasks and best practices.

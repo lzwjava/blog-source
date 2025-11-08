@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The Top 30 Spanish Songs
 translated: false
+type: note
 ---
 
 Compiling a definitive "Top 30 Spanish Songs Ever" is a monumental task, as "best" is subjective and dependent on various factors. However, by considering YouTube views, YouTube Music streams, Billboard chart success (especially Hot Latin Songs and Hot 100 crossover), historical impact, and KTV popularity, we can create a comprehensive and diverse list.

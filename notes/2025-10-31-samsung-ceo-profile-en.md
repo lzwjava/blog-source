@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Samsung CEO Jun Young-hyun Profile
 translated: false
+type: note
 ---
 
 ### Introduction

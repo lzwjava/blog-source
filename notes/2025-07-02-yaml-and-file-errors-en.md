@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fixing Jekyll YAML and File Errors
 translated: false
+type: note
 ---
 
 The output you've provided shows two types of errors:

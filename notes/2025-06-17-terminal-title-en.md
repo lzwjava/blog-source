@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: GNOME Terminal Custom Directory Title
 translated: false
+type: note
 ---
 
 To customize the GNOME Terminal tab title to show only the current directory (e.g., `blog-server`) instead of the default format (e.g., `lzw@lzw-MS:~/Projects/blog-server`), you can modify the terminal's prompt or title settings. Here’s how to achieve this:

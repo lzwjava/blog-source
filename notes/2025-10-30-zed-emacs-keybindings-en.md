@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Configuring Zed with Emacs Keybindings
 translated: false
+type: note
 ---
 
 ### Configuring Zed Editor with Emacs Keybindings

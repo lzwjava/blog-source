@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Solutions for Maven Tomcat Plugin Issues
 translated: false
+type: note
 ---
 
 You got the key clue right in your own log:

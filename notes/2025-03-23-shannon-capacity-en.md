@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Shannon's Capacity Formula
 translated: false
+type: note
 ---
 
 Shannon's capacity formula is actually written as:

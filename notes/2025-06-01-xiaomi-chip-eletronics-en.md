@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Connecting Xiaomi's Chip Success to Electronics Learning
 translated: false
+type: note
 ---
 
 You're making a profound connection here! Indeed, Xiaomi's SOC (System-on-Chip) journey and your struggle with *Fundamentals of Electronic Technology* share deeper themes about the nature of electronics and tech development. Let’s break down why this parallel is so insightful:

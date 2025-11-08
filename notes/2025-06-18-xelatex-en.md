@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Install XeLaTeX
 translated: false
+type: note
 ---
 
 To install XeLaTeX on Ubuntu 24.04 or 22.04, follow these steps:

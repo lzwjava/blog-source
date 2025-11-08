@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Building Accurate and Secure NL-to-SQL Systems
 translated: false
+type: note
 ---
 
 ### Key Focus Areas When Building an NL-to-SQL System

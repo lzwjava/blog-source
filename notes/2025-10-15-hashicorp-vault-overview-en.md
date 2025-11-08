@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: HashiCorp Vault Overview
 translated: false
+type: note
 ---
 
 ### What is HashiCorp Vault?

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Adjugate Definition and Cofactor Relation
 translated: false
+type: note
 ---
 
 ### Clarifying the Definition of the Adjugate (and Its Relation to Cofactors)

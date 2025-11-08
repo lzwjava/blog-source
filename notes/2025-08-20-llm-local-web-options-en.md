@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Lightweight Local LLM Web Client Options
 translated: false
+type: note
 ---
 
 If you're looking for lightweight, open-source web clients to run LLMs locally—with fewer dependencies than Open WebUI—here are some strong alternatives:

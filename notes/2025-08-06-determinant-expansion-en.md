@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'Determinant: Expansion via Linearity and Alternation'
 translated: false
+type: note
 ---
 
 When you learn that the determinant is a function that is

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: View JAR Source in IntelliJ IDEA
 translated: false
+type: note
 ---
 
 In IntelliJ IDEA, you can easily view the source code of a JAR file. There are a few approaches depending on whether the JAR contains source files or just compiled `.class` files:

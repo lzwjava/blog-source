@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Unix Heritage of macOS and Linux
 translated: false
+type: note
 ---
 
 ### Common Origins of macOS and Linux

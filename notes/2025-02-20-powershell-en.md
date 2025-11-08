@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: PowerShell Commands
 translated: false
+type: note
 ---
 
 For PowerShell scripts, the conventional file extension is `.ps1`. Here's how you would list these commands in a `.ps1` file:

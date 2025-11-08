@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Self-Study Success Stories and Strategies
 translated: false
+type: note
 ---
 
 ### Self-Study Success Stories: Fuel for Your Journey

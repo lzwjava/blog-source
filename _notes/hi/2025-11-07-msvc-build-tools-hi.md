@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: एमएसवीसी बिल्ड टूल्स के उपयोग और विकल्प
 translated: true
+type: note
 ---
 
 MSVC बिल्ड टूल्स वास्तव में बहुत बड़े हैं! यहाँ बताया गया है कि वास्तव में इनका उपयोग किस लिए किया जाता है:

@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Guide d'Étude des Fondamentaux de la Programmation Java
 translated: true
+type: note
 ---
 
 ## Examen national d'enseignement supérieur en auto-formation

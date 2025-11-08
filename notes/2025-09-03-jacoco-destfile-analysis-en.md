@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: JaCoCo Destfile Usage and Analysis
 translated: false
+type: note
 ---
 
 Good question — let’s break down how JaCoCo’s `destfile` works when you run a Java or Spring Boot application.

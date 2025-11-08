@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Enable Word Wrapping Only for Specific File Extensions
 translated: false
+type: note
 ---
 
 I assume you're asking how to configure Visual Studio Code (VS Code) to enable word wrapping only for specific file extensions. Here's how you can achieve that:
@@ -134,4 +135,3 @@ I tested the configuration below, and it works great.
        }
    }
 ```
-

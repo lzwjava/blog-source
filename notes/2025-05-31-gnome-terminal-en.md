@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: GNOME Terminal vs iTerm2
 translated: false
+type: note
 ---
 
 Ubuntu's default terminal, **GNOME Terminal**, is a solid and widely used terminal emulator. It's generally considered **good** for most users, offering a good balance of features and usability. However, whether it's "better" than **iTerm2** depends largely on your specific needs and operating system, as **iTerm2 is a macOS-only application**.

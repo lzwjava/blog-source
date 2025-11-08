@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Tesla's Universe Energy Frequency Vibration
 translated: false
+type: note
 ---
 
 Nikola Tesla is often attributed with the quote: "If you want to find the secrets of the universe, think in terms of energy, frequency, and vibration."

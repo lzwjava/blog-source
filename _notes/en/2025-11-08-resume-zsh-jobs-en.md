@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Resuming Suspended Jobs in zsh
 translated: false
+type: note
 ---
 
 To resume a suspended job (like your `bundle exec jekyll serve --incremental` command, which was likely paused with Ctrl+Z) in zsh within Ghostty, follow these steps in the same terminal session:

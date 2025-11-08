@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Muon Optimizer Introduction and Overview
 translated: false
+type: note
 ---
 
 ### Comprehensive Introduction to the Muon Optimizer

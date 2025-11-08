@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Suppressing Warning in VSCode
 translated: false
+type: note
 ---
 
 To disable or suppress the "ResponseEntity cannot be resolved to a type" warning in Visual Studio Code (VSCode) for a Java project, this typically indicates that the `ResponseEntity` class (from Spring Framework) is not recognized, likely due to a missing dependency or configuration issue. Here are steps to address it:

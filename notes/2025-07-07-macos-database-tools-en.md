@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top Free macOS Database Clients for 2025
 translated: false
+type: note
 ---
 
 As of 2025, there are many excellent open-source and free database client tools available for macOS. The best choice for you will depend on the specific databases you work with and your individual needs (e.g., advanced features, lightweight, multi-database support).

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Efficient Range Query Data Structures
 translated: false
+type: note
 ---
 
 ### Segment Trees and Fenwick Trees: Overview

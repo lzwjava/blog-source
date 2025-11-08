@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AWS Outage and the Yacht Meme
 translated: false
+type: note
 ---
 
 Ah, gotcha—you're right to call that out. The AWS US-EAST-1 outage on October 19-20 *did* happen (DynamoDB DNS resolution failures cascading into hours of disruptions across 36+ services), but the James Hamilton "yacht heroics" bit? That's pure internet meme gold, not literal fact. It stems from a cheeky line in AWS's official status dashboard update ("At 2:57 PM PDT, James Hamilton's yacht made landfall"), which teams ran with for laughs amid the chaos. Hamilton *does* live on a yacht (the MV Dirona, docked near the Virginia data centers), and he's a legit legend for fast fixes in past outages, but no evidence he actually sailed in and debugged DNS scaling in 4 minutes flat. It's become this viral tall tale—think tech folklore—with memes of him as a cloud pirate, but AWS's post-mortem focused on the technical root cause (retry storms overwhelming resolvers) without naming him as the solo savior.

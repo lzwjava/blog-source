@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Major Foreign Companies in China
 translated: false
+type: note
 ---
 
 ### Biggest Foreign Companies Operating in China

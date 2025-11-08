@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: उबुन्टू उपयोक्ता खाते बनाना
 translated: true
+type: note
 ---
 
 ### Ubuntu Linux में एक नया उपयोगकर्ता बनाना

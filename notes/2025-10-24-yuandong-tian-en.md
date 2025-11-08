@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Yuandong Tian AI Research Scientist
 translated: false
+type: note
 ---
 
 ## Yuandong Tian

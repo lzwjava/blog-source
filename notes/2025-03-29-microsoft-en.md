@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Microsoft’s Bounce-back
 translated: false
+type: note
 ---
 
 Microsoft’s bounce-back over the years can be attributed to several strategic decisions and shifts that helped it regain and even surpass its previous heights:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: 'Carlos Guestrin: AI Innovator and Entrepreneur'
 translated: false
+type: note
 ---
 
 ### Biography

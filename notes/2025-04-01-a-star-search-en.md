@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: A* (A-star) Search Algorithm
 translated: false
+type: note
 ---
 
 The **A* (A-star) search algorithm** is a popular pathfinding and graph traversal algorithm used in computer science and artificial intelligence. It is widely used for finding the shortest path from a starting point (or node) to a target (or goal) in a graph, while efficiently exploring possible paths.

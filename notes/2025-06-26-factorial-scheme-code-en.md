@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Chez Scheme Factorial Program
 translated: false
+type: note
 ---
 
 Here's a simple Chez Scheme program that calculates the factorial of a number. Save it as `factorial.scm`:

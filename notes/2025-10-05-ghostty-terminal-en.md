@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ghostty Cross-Platform Terminal Emulator
 translated: false
+type: note
 ---
 
 Yes, Ghostty is designed as a cross-platform terminal emulator, which is indeed one of its key selling points—it's built to run consistently on multiple operating systems with high performance via GPU acceleration and native UI integration. However, as of October 2025, its full support is currently limited to macOS and Linux, with Windows still in the planning stages but not yet released. 

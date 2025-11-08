@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Road Trip Svgs
 translated: false
+type: note
 ---
 
 I'll create some SVG illustrations to represent your Guangzhou to Shantou road trip itinerary for the Qingming Festival holiday.

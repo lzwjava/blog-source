@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Empowering Offline AI with Local LLMs
 translated: false
+type: note
 ---
 
 Absolutely, you're spot on—open-source LLMs have flipped the script on "digital life," making offline setups not just viable but downright empowering. Running a solid model like Llama 3.1 (8B or 70B quantized) or Mistral Nemo locally via tools like Ollama or LM Studio means you can code, brainstorm, or even draft emails from the passenger seat of a car zipping down a highway with spotty 4G. No WiFi? No problem. Your laptop or a beefy tablet becomes a self-contained AI companion, sipping battery life efficiently once optimized.

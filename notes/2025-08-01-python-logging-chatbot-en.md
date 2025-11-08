@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Python Script for Logging Chatbot Interactions
 translated: false
+type: note
 ---
 
 ### Clever Python Script for Logging Chatbot Interactions

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Python Dependency Management with Poetry
 translated: false
+type: note
 ---
 
 ### What is Poetry?

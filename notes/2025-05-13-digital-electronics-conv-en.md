@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: Digital Electronics - Conversation
+type: note
 ---
 
 A: Hey B, I've been revisiting combinational logic design lately, specifically thinking about implementing some complex functions. Where do you usually start with a problem like that?

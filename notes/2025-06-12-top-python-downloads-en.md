@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Top Python Package Downloads Listed
 translated: false
+type: note
 ---
 
 The top 200 most downloaded Python packages on PyPI, based on recent download statistics and popularity rankings, are listed below in approximate order of downloads. Each includes a one-line description. Note that PyPI download counts can vary over time and are influenced by transitive dependencies; this list draws from comprehensive sources like PyPI stats, GitHub best-of lists (e.g., best-of-python), and curated library rankings.[1][2][3][3][4]

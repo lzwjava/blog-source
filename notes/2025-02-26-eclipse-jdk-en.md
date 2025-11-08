@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Resolving Eclipse JDK Issues
 translated: false
+type: note
 ---
 
 When you start Eclipse 4.6.3 by clicking `eclipse.exe` and encounter the error "Java was started but returned exit code" with a reference to `Oracle\Java\javapath\javaw.exe`, it means Eclipse is attempting to use a Java Virtual Machine (JVM) that is either incompatible or misconfigured. The path `Oracle\Java\javapath\javaw.exe` indicates that Eclipse is defaulting to a JVM defined in your system's PATH environment variable, which may not be suitable for Eclipse 4.6.3. To resolve this, you need to specify the correct Java home for Eclipse by configuring it to use a compatible JVM. Here’s how to do it:

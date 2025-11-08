@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Speeding Up Jekyll Builds: Exploring Multithreading Approaches'
 translated: false
+type: note
 ---
 
 Jekyll's build process is single-threaded by default, which can be slow for large sites. While there’s no built-in configuration option in Jekyll to enable multithreaded builds, you can explore some approaches to achieve parallelism. Below, I outline the possibilities, challenges, and practical steps based on available information and technical considerations.

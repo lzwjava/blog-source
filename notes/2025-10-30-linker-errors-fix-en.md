@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fixing C Linker Multiple Definition Errors
 translated: false
+type: note
 ---
 
 ### Build Issues and Fixes for DirB

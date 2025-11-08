@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Travel Guide to Hunan Province
 translated: false
+type: note
 ---
 
 Absolutely! Here's a detailed **travel guide to Hunan Province (湖南省)**—a culturally rich and naturally stunning province in south-central China. It’s the birthplace of Mao Zedong, home to spicy cuisine, and packed with misty mountains, ancient towns, and modern cities.

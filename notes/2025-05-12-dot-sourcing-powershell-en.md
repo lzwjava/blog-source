@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Dot Sourcing PowerShell Scripts
 translated: false
+type: note
 ---
 
 ### Dot Sourcing PowerShell Functions in .ps1 Files

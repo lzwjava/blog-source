@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: SASL Authentication in Java
 translated: false
+type: note
 ---
 
 To use the `javax.security.sasl` package in Java, you need to leverage its classes and interfaces to implement Simple Authentication and Security Layer (SASL) mechanisms for authentication and, optionally, data security in client-server applications. The primary classes involved are `Sasl`, `SaslClient`, and `SaslServer`. Below is a comprehensive guide on how to use this package, including steps and example code for both client and server implementations.

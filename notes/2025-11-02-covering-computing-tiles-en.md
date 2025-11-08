@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Tiles for Covering and Computing
 translated: false
+type: note
 ---
 
 ### Noun

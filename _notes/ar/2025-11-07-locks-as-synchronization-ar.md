@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: الأقفال كمفهوم عالمي للمزامنة
 translated: true
+type: note
 ---
 
 ### الأقفال كأداة للتزامن: مفهوم عالمي

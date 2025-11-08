@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Learning
 translated: false
+type: note
 ---
 
 Learning is a personal and dynamic process, and there are many approaches depending on what you're trying to achieve. However, a general framework can help guide effective learning:

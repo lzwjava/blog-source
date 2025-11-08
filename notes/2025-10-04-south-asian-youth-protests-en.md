@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: South Asian Youth Protests Challenge Elites
 translated: false
+type: note
 ---
 
 ### Sri Lanka

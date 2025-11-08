@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: GitHub Pages Requires Public Repositories
 translated: false
+type: note
 ---
 
 Right — if you make your GitHub Pages repository private, you lose the free GitHub Pages hosting.

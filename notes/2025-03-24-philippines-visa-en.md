@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Philippine Travel Visa
 translated: false
+type: note
 ---
 
 As a Chinese citizen residing in Guangzhou, to apply for a Philippine travel visa, you should follow these steps:

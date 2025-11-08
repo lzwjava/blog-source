@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GitHub Actions Usage Limits Overview
 translated: false
+type: note
 ---
 
 ### GitHub Actions Usage Limits

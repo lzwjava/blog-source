@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Why Sigmoid Is Avoided in LLMs
 translated: false
+type: note
 ---
 
 ### Why Sigmoid Isn't Used in GPT/LLM Models

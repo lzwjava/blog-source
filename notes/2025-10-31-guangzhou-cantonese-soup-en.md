@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Guangzhous Classic Cantonese Soup Recipes
 translated: false
+type: note
 ---
 
 ### Similar Cantonese Soups to Try in Guangzhou

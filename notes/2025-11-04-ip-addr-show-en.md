@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding ip addr show enp4s0 Output
 translated: false
+type: note
 ---
 
 ### Breaking Down Your `ip addr show enp4s0` Output

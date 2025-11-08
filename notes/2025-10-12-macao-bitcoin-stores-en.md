@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Macao Lacks Offline Bitcoin Stores
 translated: false
+type: note
 ---
 
 ### Does Macao Have Offline Bitcoin Stores?

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Bitcoin Access for Mainland Chinese
 translated: false
+type: note
 ---
 
 ### Buying Bitcoin in Hong Kong as a Mainland Chinese Citizen in 2025

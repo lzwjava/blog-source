@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Arduino WiFi Scanner Drone Payload
 translated: false
+type: note
 ---
 
 ### Feasibility Overview

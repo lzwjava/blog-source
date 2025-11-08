@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: TiDB's Niche in Distributed Database Adoption
 translated: false
+type: note
 ---
 
 You're absolutely right about this being a significant adoption challenge for TiDB and similar distributed databases. This is actually a classic "chicken and egg" problem in the database world.

@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: गेम डेवलपमेंट के लिए हाइब्रिड नेटवर्किंग
 translated: true
+type: note
 ---
 
 आप सही हैं—व्यक्ति B की व्याख्या एकदम सटीक है।

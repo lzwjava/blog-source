@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Xiaomi President Lu Weibing Profile
 translated: false
+type: note
 ---
 
 ### Who is Lu Weibing?

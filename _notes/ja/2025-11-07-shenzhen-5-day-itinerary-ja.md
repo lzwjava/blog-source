@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 深圳5日間の旅行プラン
 translated: true
+type: note
 ---
 
 ### 広東省深圳で過ごす5日間の旅の計画

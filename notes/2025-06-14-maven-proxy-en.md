@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Maven Proxy Settings
 translated: false
+type: note
 ---
 
 Based on the output of your `checkproxy` command, your HTTP and HTTPS proxies are both set to `http://127.0.0.1:7890`. Below is the updated Maven `settings.xml` configuration snippet to configure Maven to use these proxy settings.

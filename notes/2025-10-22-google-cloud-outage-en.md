@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Major Google Cloud Platform Outage
 translated: false
+type: note
 ---
 
 ### Overview

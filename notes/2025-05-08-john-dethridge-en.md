@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: John Dethridge
 translated: false
+type: note
 ---
 
 John Dethridge is a highly accomplished Australian competitive programmer, mathematician, and software engineer, renowned for his exceptional achievements in programming competitions, notably winning the 2002 TopCoder Invitational. Born in Melbourne, Australia, Dethridge emerged as a standout figure in the early 2000s competitive programming scene, leveraging his problem-solving prowess and coding expertise to compete against the world’s top programmers. His contributions extend beyond competitions, encompassing academic research in mathematics and a professional career in software engineering, including a long tenure at Google.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Date and Time Operations in Java
 translated: false
+type: note
 ---
 
 ### Key Points

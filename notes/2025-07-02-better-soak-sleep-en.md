@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Recovery Tips After Bee Sting
 translated: false
+type: note
 ---
 
 It's good to hear you feel much better after 4 hours! Since it's now 1:57 AM +08 on Wednesday, July 2, 2025, and you're planning to sleep, here’s my take on your plan:

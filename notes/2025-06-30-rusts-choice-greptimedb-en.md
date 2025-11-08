@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: GreptimeDB Chooses Rust for Performance
 translated: false
+type: note
 ---
 
 GreptimeDB chose Rust as its primary implementation language for several compelling reasons, as highlighted across its documentation and technical blogs. Here’s a breakdown of the key motivations:

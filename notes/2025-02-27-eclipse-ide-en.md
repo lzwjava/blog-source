@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Eclipse
 translated: false
+type: note
 ---
 
 ### Key Points

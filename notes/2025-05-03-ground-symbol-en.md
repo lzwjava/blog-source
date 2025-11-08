@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Ground Symbol
 translated: false
+type: note
 ---
 
 Great question! In electronics, the **ground symbol** in a schematic doesn't always mean that the circuit is physically connected to Earth (like a grounding rod in soil). Instead, it represents a **reference point** in the circuit — a common return path for electric current. Let's break this down:

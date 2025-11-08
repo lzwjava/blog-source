@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Use Features in the Kong Insomnia GUI
 translated: false
+type: note
 ---
 
 Kong Insomnia provides a robust graphical user interface (GUI) to simplify API development. Below is a detailed guide on how to use **params**, **body**, **auth**, **cookies**, **certificates**, **settings**, and **proxy** within the Insomnia GUI.

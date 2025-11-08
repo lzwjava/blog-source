@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rust Powers Solana's Speed
 translated: false
+type: note
 ---
 
 Yes, **Rust's performance is a significant contributor to Solana's success.**

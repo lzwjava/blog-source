@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Annapurna Labs Founders and AWS Acquisition
 translated: false
+type: note
 ---
 
 ### Founders of Annapurna Labs

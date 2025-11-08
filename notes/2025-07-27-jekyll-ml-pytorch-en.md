@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Enhancing Jekyll Blog with PyTorch
 translated: false
+type: note
 ---
 
 ### Improving Your Jekyll Blog with ML/AI Using PyTorch

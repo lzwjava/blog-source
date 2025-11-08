@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fixing GPG Homedir Paths on Windows
 translated: false
+type: note
 ---
 
 Yes, you're correct. In Git Bash on Windows (which runs on an MSYS2/Cygwin-like environment), using backslashes (`\`) in the `--homedir` path for `gpg` causes the shell to misinterpret the argument due to how escapes and path conversions work. This mangles the path (e.g., `C:\Users\me\.gnupg` might resolve to something invalid like `C:Usersme.gnupg` or get further garbled during auto-conversion to Windows format), making the directory unresolvable. As a result, GPG can't locate the key files, leading to a "no secret key" error (or similar, like "No such file or directory" for `pubring.kbx`).

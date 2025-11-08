@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: डेटा लिंक परत को समझना
 translated: true
+type: note
 ---
 
 ### डेटा लिंक लेयर को समझना: एक संक्षिप्त जानकारी

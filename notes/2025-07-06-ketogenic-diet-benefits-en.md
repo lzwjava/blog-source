@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Keto Diet: Benefits and Risks'
 translated: false
+type: note
 ---
 
 生酮饮食 (shēngtóng yǐnshí), also known as the **ketogenic diet** or **keto diet**, is a very low-carbohydrate, high-fat, and adequate-protein diet.

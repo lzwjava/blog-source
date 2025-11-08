@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Installing YourKit Java Profiler on Ubuntu
 translated: false
+type: note
 ---
 
 To install YourKit Java Profiler on Ubuntu, follow these steps based on the information available from the YourKit website:

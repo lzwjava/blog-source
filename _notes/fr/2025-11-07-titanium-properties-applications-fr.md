@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Propriétés et applications du titane
 translated: true
+type: note
 ---
 
 **Titane** (symbole : **Ti**, numéro atomique : 22) est un élément métallique résistant, léger et résistant à la corrosion.

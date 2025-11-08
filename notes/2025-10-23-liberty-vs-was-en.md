@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: WebSphere Liberty vs Traditional WAS Comparison
 translated: false
+type: note
 ---
 
 ### Comparison: IBM WebSphere Application Server (Traditional WAS) vs. WebSphere Liberty Profile (WLP)

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Singapore's Richest 2025 Forbes Ranking
 translated: false
+type: note
 ---
 
 ### Singapore's 50 Richest 2025

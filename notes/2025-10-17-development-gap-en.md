@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong and Mainland China's Development Gap
 translated: false
+type: note
 ---
 
 Yes, your observation captures a stark contrast in development between Hong Kong and mainland China during the 1980s and 1990s, rooted in their vastly different political and economic paths. Hong Kong, as a British colony until 1997, was a bustling entrepôt with open markets, attracting global trade and investment, while mainland China was still emerging from decades of isolation under communist rule, with rural areas lagging far behind urban centers. Let me break it down with some context.

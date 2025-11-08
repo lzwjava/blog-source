@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Custom Chat Modes for GitHub Copilot
 translated: false
+type: note
 ---
 
 ### What is chatmode.md?

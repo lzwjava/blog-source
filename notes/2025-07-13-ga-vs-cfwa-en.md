@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Google Analytics vs. Cloudflare Analytics
 translated: false
+type: note
 ---
 
 ## Comparison of Google Analytics and Cloudflare Web Analytics

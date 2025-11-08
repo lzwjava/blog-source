@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: '2025 LLM Comparison: Claude, Gemini, GPT'
 translated: false
+type: note
 ---
 
 You're asking for a comparison of some of the leading large language models (LLMs) as of mid-2025: Claude 4 Sonnet (Anthropic), Gemini 2.5 Flash (Google), and GPT-4.1 (OpenAI). It's important to note that the AI landscape evolves incredibly quickly, and new versions or updates can shift these rankings.

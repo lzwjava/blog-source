@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Runtimes in Visual Studio Code
 translated: false
+type: note
 ---
 
 To use `java.configuration.runtimes` in Visual Studio Code (VS Code) settings, you need to configure it in your `settings.json` file. This setting allows you to specify multiple Java Development Kit (JDK) versions that VS Code can use for your Java projects. It’s especially useful when working with different projects that require specific Java versions. Here’s a step-by-step guide to set it up:

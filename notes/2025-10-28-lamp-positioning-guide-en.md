@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Optimal Car Lamp Positioning Guide
 translated: false
+type: note
 ---
 
 ### Understanding the Setup

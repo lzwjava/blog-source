@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Computer Organization and Architecture - Quiz
 translated: false
+type: note
 ---
 
 Here’s a quiz based on the course outline for "Computer Organization and Architecture 02318":

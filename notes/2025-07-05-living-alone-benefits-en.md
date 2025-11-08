@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Benefits of Living Alone Young
 translated: false
+type: note
 ---
 
 Living alone in your 20s or 30s offers several advantages:

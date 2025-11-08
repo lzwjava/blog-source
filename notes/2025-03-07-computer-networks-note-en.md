@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Computer Networks - Note
 translated: false
+type: note
 ---
 
 Let me break this down and explain it in English:

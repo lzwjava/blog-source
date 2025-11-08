@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Karpathy's nanoGPT and nanochat Explained
 translated: false
+type: note
 ---
 
 ### Overview

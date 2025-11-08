@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Git Hooks Guide Pre Commit Pre Push
 translated: false
+type: note
 ---
 
 ### Git Hooks Overview

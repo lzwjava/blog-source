@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: 'Nachdi Phiran: Song Analysis and Significance'
 translated: false
+type: note
 ---
 
 I'll search for information about "Nachdi Phiran" to provide you with a proper analysis of this Indian song.Let me get more detailed information about the song's themes and cultural significance.Based on the search results, here's a comprehensive analysis of "Nachdi Phiran" (also spelled "Nachdi Phira"):

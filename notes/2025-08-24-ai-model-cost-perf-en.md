@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: AI Model Cost and Performance Guide
 translated: false
+type: note
 ---
 
 Here’s a clearer breakdown of the **benchmark scores** and **API pricing** for each model—Claude 4 Opus (also noted as Claude Opus 4), GPT‑5 (standard/full), GPT‑5 Mini, GPT‑5 Nano, plus o3 (OpenAI), and Claude 4 Sonnet—without using tables, to keep things neat and readable.

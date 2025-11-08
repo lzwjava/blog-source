@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Verifying GPG Digital Signatures
 translated: false
+type: note
 ---
 
 ### Verifying Signatures in GPG

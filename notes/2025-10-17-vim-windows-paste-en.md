@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Pasting in Vim on Windows
 translated: false
+type: note
 ---
 
 ## Pasting in Vim within Git Bash on Windows

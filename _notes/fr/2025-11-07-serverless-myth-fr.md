@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Le Mythe de l'Informatique Sans Serveur de la Communication Pair à Pair
 translated: true
+type: note
 ---
 
 Excellente question ! Vous faites le bon lien entre les **principes pair-à-pair (P2P)** et les applications de communication modernes, mais il y a une distinction cruciale : le **PPP (Point-to-Point Protocol)** fonctionne au **niveau de la liaison de données (Couche 2)** pour les connexions série/modem directes, tandis que les applications comme RustDesk ou les chats web3 fonctionnent au **niveau applicatif (Couche 7)** en utilisant des techniques P2P différentes.

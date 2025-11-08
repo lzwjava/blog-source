@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top Attractions in Singapore
 translated: false
+type: note
 ---
 
 Of course! Singapore is compact but packed with fantastic tourism spots. Here’s a list across different styles (sightseeing, shopping, nature, culture):

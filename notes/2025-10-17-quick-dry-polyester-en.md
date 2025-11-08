@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Polyester Fiber for Quick-Dry Clothes
 translated: false
+type: note
 ---
 
 ### What is Juzhixianwei (聚酯纤维) / Xianwei?

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: NeurIPS Test of Time Award
 translated: false
+type: note
 ---
 
 The NeurIPS (Neural Information Processing Systems) Test of Time Award recognizes papers published at NeurIPS (formerly NIPS) that have had a significant and lasting impact on the field. For the NeurIPS 2024 Test of Time Award, two influential papers from the 2014 conference were honored:

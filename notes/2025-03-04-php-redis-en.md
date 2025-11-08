@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Redis client for PHP
 translated: false
+type: note
 ---
 
 To use the `"predis/predis": "1.1"` library in PHP, you're referring to a Redis client for PHP that can be installed via Composer. Here's a step-by-step guide to set it up and use it in your PHP project:

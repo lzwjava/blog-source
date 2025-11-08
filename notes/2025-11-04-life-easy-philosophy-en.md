@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Life Is Easy Philosophy
 translated: false
+type: note
 ---
 
 ### Jon Jandai: Biography and the "Life is Easy" Philosophy

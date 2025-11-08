@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Java Programming Fundamentals Study Guide
 translated: false
+type: note
 ---
 
 ## National Higher Education Self-study Examination

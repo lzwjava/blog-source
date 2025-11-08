@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Dimension Mismatch in Tensors
 translated: false
+type: note
 ---
 
 It looks like you've encountered an error while training a reward model as part of a Reinforcement Learning from Human Feedback (RLHF) setup using PyTorch and the Transformers library. The error message indicates a dimension mismatch in the `MarginRankingLoss` function, which expects all input tensors (`input1`, `input2`, and `target`) to have the same size. Let’s break this down and fix it.

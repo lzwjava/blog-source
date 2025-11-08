@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Yang Bin's Computer Vision Research
 translated: false
+type: note
 ---
 
 ### Yang Bin (Bin Yang)

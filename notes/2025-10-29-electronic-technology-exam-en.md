@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Electronic Technology Fundamentals Exam Questions
 translated: false
+type: note
 ---
 
 ### Sample Exam Questions: Fundamentals of Electronic Technology (III)  

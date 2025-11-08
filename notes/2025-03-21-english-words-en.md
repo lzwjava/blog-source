@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: English Words
 translated: false
+type: note
 ---
 
 Kinesthetically refers to learning, understanding, or experiencing something through physical movement, touch, or bodily sensation, rather than just through visual or auditory means. It’s a way of processing information by engaging your body—think of it as "learning by doing."

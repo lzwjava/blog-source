@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Italian Specialties Beyond Food
 translated: false
+type: note
 ---
 
 ### Italy's Iconic Specialties: A Deeper Dive

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The Art of Seduction Overview
 translated: false
+type: note
 ---
 
 ### Overview of *The Art of Seduction* by Robert Greene

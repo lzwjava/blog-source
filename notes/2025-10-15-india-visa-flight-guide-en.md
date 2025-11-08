@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: India Visa and Flight Guide
 translated: false
+type: note
 ---
 
 ### Visa Requirements

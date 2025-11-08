@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: China's Tech Startup Collapse Explained
 translated: false
+type: note
 ---
 
 ### Key Reasons for High Startup Failure Rates in China's Tech Sector (Internet, Software, SaaS, B2B/B2C) in Recent Years

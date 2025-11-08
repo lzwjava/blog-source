@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Kong Insomnia: API Development Platform'
 translated: false
+type: note
 ---
 
 ### What is Kong Insomnia?

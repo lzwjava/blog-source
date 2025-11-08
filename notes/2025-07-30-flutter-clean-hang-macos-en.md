@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Resolving Flutter Clean Hang on macOS
 translated: false
+type: note
 ---
 
 Ah, I see what you mean 👍  

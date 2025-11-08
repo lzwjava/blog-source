@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Lark Struggles Against Microsoft Teams
 translated: false
+type: note
 ---
 
 Lark by ByteDance faces significant challenges in competing with Microsoft Teams primarily due to Microsoft's entrenched position, expansive ecosystem, and strong market dominance. Here's a breakdown of the key factors:

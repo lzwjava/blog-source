@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: MuonClip Optimizer for Kimi K2
 translated: false
+type: note
 ---
 
 ### Overview of Muon Optimizer

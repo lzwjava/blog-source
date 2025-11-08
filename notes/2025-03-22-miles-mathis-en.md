@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Main Conspiracy Theories Miles Mathis Promotes
 translated: false
+type: note
 ---
 
 Miles W. Mathis is known for his unconventional and controversial writings, spanning physics, history, and conspiracy theories. His work often challenges mainstream science and historical narratives, making him a niche but polarizing figure. Below are some of the main conspiracy theories and ideas he promotes:

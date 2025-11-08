@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: فهم آلية النافذة المنزلقة في بروتوكول التحكم بالنقل
 translated: true
+type: note
 ---
 
 سؤال رائع! دعني أوضح آلية النافذة المنزلقة في TCP بطريقة سهلة الفهم.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Introduction to Law - Chapters
 translated: false
+type: note
 ---
 
 Here’s a detailed breakdown of the chapters you mentioned for the **"00040 Introduction to Law"** course, which is likely part of the self-study exam in Guangdong. I'll provide an overview of each chapter, including key concepts and possible areas you might encounter in the exam. The focus is on foundational legal topics, the Chinese legal system, and other core concepts of law.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The History of Microcomputer
 translated: false
+type: note
 ---
 
 The course **Microcomputer and Interface Technology**, as outlined, focuses on the architecture, programming, and interfacing of microcomputer systems, with a particular emphasis on the Intel 8086/8088 microprocessors and related interface technologies (e.g., 8255, 8253, 8251 chips). To provide a comprehensive history, I’ll trace the origins and evolution of the key technologies covered in the course, identify the key figures and companies behind their development, and explore the stories behind their creation. This includes the microcomputer itself, the 8086/8088 microprocessors, assembly language programming, memory systems, I/O interface technologies, and bus standards.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Galileo Galilei
 translated: false
+type: note
 ---
 
 Galileo Galilei (1564–1642) was an Italian astronomer, physicist, mathematician, and philosopher whose revolutionary contributions to science and his fearless advocacy for heliocentrism transformed our understanding of the universe. Often called the "father of modern science," Galileo’s work laid the foundations for the scientific method, classical mechanics, and observational astronomy. His life, marked by intellectual brilliance and conflict with the Catholic Church, embodies the transition from medieval to modern scientific thought during the Renaissance.

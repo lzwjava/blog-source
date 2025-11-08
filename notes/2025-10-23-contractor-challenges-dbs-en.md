@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Contractor Challenges at DBS Bank
 translated: false
+type: note
 ---
 
 ### Common Drawbacks of Working as a Contractor at DBS Bank

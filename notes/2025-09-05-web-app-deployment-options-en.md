@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Web Application Deployment Options Explained
 translated: false
+type: note
 ---
 
 Got it — let me explain those options clearly for you.

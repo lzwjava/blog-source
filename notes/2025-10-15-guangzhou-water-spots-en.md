@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Guangzhou's Serene Water Work Spots
 translated: false
+type: note
 ---
 
 ### Expanding Your Serene Work Spots: Small Water Pools Across Guangzhou

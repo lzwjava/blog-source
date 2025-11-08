@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Alternative GPU Clouds for AI in 2025
 translated: false
+type: note
 ---
 
 ### Other GPU Cloud Providers for AI/LLM Training in 2025

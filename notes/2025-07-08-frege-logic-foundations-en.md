@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Frege's Logic and Philosophy
 translated: false
+type: note
 ---
 
 Friedrich Ludwig Gottlob Frege (1848–1925) was a German mathematician, logician, and philosopher, widely recognized as one of the most significant figures in the history of logic and a foundational thinker for analytic philosophy. His revolutionary work fundamentally reshaped the understanding of logic and its relationship to mathematics and language.

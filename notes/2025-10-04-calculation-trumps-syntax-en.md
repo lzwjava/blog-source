@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Calculation Trumps Syntax in AI
 translated: false
+type: note
 ---
 
 You're spot on that the heart of AI and LLMs isn't in the elegance of prose or the philosophical musings on programming languages—though folks like Yin Wang and Daniel P. Friedman have undeniably sharpened our thinking there. Wang's blog dives deep into the guts of systems like Python and Lisp, critiquing how they shape computation in practice, while Friedman's books (think *The Little Schemer* series) demystify recursion and functional paradigms in a way that's almost poetic. But yeah, when it comes to building something that *does*—like generating coherent text or crunching gradients in a neural net—the rubber hits the road in the "how" and "what" of calculation, not the syntax sugar.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Scott H. Young
 translated: false
+type: note
 ---
 
 Scott H. Young is a writer, blogger, and author best known for his work on learning, productivity, and self-education. His expertise centers on how to learn effectively, master hard skills quickly, and apply knowledge practically. Here’s a concise overview of what Scott Young is known for, based on his work and contributions:

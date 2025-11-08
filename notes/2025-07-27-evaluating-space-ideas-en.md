@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Evaluating Space and Ocean Ideas
 translated: false
+type: note
 ---
 
 ### Evaluating the Ideas in the Post

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Convert Repository to Maven Multi-Module
 translated: false
+type: note
 ---
 
 To convert your `algorithm-solutions` repository into a multi-module Java project managed by Maven, you'll need a parent `pom.xml` in the root directory and individual `pom.xml` files for each submodule (`nowcoder` and `uva`). The parent `pom.xml` will define common configurations and manage the submodules, while each submodule's `pom.xml` will handle its specific settings.

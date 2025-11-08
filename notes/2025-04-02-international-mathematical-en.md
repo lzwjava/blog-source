@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The International Mathematical Olympiad
 translated: false
+type: note
 ---
 
 The International Mathematical Olympiad (IMO) is the most prestigious international mathematics competition for high school students. Unlike some other competitions, the IMO does **not** have a strict, official syllabus. However, the problems come from various areas of pre-college mathematics. According to the official IMO website and resources, the content generally falls within the following broad areas:

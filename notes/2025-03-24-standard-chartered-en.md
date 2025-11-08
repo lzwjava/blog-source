@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: History of Standard Chartered Bank
 translated: false
+type: note
 ---
 
 **Standard Chartered Bank (SCB)** is a **British multinational bank** headquartered in **London, UK**, with a strong presence in **Asia, Africa, and the Middle East**. It was formed in **1969** through the merger of two historic banks:  

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Jackson Polymorphic Deserialization Overview
 translated: false
+type: note
 ---
 
 ### Overview of Jackson Polymorphic Deserialization

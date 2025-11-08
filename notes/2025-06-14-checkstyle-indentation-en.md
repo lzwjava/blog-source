@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Indentation Detecting in Checkstyle
 translated: false
+type: note
 ---
 
 I understand you're wondering why Checkstyle isn't detecting the missing indentation before the `System.out.println` statement in your `logAfter` method. Let's break this down step by step to identify the issue and fix it.

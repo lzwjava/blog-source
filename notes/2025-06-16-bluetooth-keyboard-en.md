@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fix Bluetooth Keyboard Connection Issues
 translated: false
+type: note
 ---
 
 Based on the `bluetoothctl` output showing `[DEL] Device` when attempting to connect, here's a precise solution:

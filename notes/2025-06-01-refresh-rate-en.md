@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Monitor Refresh Rate
 translated: false
+type: note
 ---
 
 To determine if your monitor is running at 60Hz or a higher refresh rate (like 120Hz), you can use a few different methods, including watching specific test videos or using online tools. Here's how:

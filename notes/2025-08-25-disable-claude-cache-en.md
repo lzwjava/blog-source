@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Disable Cache in Claude Code
 translated: false
+type: note
 ---
 
 In **Claude Code**, that snippet

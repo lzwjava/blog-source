@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Applying for a Master's Degree in Singapore (NUS/NTU)
 translated: false
+type: note
 ---
 
 #### 1. **Research Programs and Universities**

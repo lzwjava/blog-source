@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Sound-Based Detection for Maytag Washing Machine
 translated: false
+type: note
 ---
 
 Using sound to detect when your Maytag MHW8630HW washing machine stops is a viable alternative to the camera-based approach. By placing a sound sensor close to the washing machine, you can monitor the noise generated during operation (e.g., motor hum, water flow, or drum rotation) and detect when it stops, indicating the end of the wash cycle. Below, I’ll explain how to adapt the previous project to use a sound sensor instead of a camera, focusing on the hardware, algorithm, and code changes while keeping the Telegram notification system.

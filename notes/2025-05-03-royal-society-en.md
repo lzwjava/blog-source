@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The Royal Society of London
 translated: false
+type: note
 ---
 
 The Royal Society of London, formally known as **The Royal Society of London for Improving Natural Knowledge**, is one of the oldest and most prestigious scientific institutions in the world. Founded in 1660, it has played a pivotal role in advancing scientific discovery, fostering collaboration, and promoting the dissemination of knowledge across disciplines. Below is a comprehensive introduction to the Royal Society, its history, mission, activities, and its fellows.

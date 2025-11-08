@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Growing a Language by Guy Steele
 translated: false
+type: note
 ---
 
 ### Overview

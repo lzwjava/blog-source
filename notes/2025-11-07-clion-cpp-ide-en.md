@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'CLion: A Top C++ IDE'
 translated: false
+type: note
 ---
 
 ### Is CLion Good?

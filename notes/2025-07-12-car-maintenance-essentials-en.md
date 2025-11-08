@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Car Essentials for Safe Road Trips
 translated: false
+type: note
 ---
 
 ### Essentials for the Drive and Car Maintenance

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Exploring Avaloq's Trading API Details
 translated: false
+type: note
 ---
 
 I'll search for specific technical information about Avaloq's trading functionality, pre-trade checks, and XML SOAP API usage.Let me search for more specific information about Avaloq's XML SOAP API and trading implementation details.Based on my search results, I can provide you with information about implementing stock trading orders in Avaloq, though specific technical documentation appears limited in public sources. Here's what I found:

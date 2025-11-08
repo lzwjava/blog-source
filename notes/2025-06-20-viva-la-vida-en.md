@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Viva La Vida
 translated: false
+type: note
 ---
 
 Here are the complete lyrics to *Viva La Vida* by Coldplay, as sourced from reliable online references:

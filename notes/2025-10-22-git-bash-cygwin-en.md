@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Git Bash vs Cygwin Comparison
 translated: false
+type: note
 ---
 
 ### Overview

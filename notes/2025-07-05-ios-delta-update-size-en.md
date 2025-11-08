@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Estimating iOS Delta Update Sizes
 translated: false
+type: note
 ---
 
 Unfortunately, there’s no direct, user-facing way to check the exact delta update size for iOS apps before downloading them, as Apple doesn’t publicly expose this information in a detailed manner. The App Store only shows the full app size in its description, not the size of incremental (delta) updates, which vary based on what’s changed (e.g., code, assets). However, there are a few approaches to estimate or monitor delta update sizes, and I’ll outline them below, including checking for relevant websites or tools.

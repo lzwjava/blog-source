@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: يتطلب كيودا معالج رسوميات من إنفيديا
 translated: true
+type: note
 ---
 
 سبب عدم إمكانية استخدام وحدة معالجة الرسومات في جهاز Lenovo XiaoXin الخاص بك مع CUDA واضح: **CUDA هي تقنية احتكارية من NVIDIA تعمل فقط مع وحدات معالجة الرسومات من NVIDIA**.

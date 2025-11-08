@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The History of Chaozhou
 translated: false
+type: note
 ---
 
 The history of Chaozhou (潮州), a city located in the eastern part of Guangdong Province, China, is rich and stretches back over 1600 years. Here's a look at its key historical periods and significance:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: WebSphere Development with Eclipse
 translated: false
+type: note
 ---
 
 ### Developing with IBM WebSphere Application Server (WAS) in Eclipse

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Living with Parents: Pros and Cons'
 translated: false
+type: note
 ---
 
 Living with parents in your 20s or 30s can have several disadvantages:

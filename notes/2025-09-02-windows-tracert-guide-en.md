@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Windows Tracert Network Path Diagnostic Guide
 translated: false
+type: note
 ---
 
 On Windows, **`tracert`** (short for *trace route*) is a diagnostic command-line tool used to trace the path that packets take from your computer to a destination host (like a website or IP address). It’s mainly used to identify where delays or connection problems occur in a network route.

@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Optimizing Your Many-Models Code Router
 translated: false
+type: note
 ---
 
 Short answer: yes—your “many-models router” can absolutely underperform compared to a tightly-integrated stack like Codex (OpenAI’s code assistant) that’s tuned end-to-end on one family of models plus deep IDE context. Here’s why and how to fix it fast.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: WAR vs EAR Packaging Guide
 translated: false
+type: note
 ---
 
 Here’s a practical, no-table comparison of Maven **WAR** vs **EAR** packaging and how you’d use each in real projects.

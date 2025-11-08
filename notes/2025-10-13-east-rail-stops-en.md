@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: East Rail Line Stations and Stops
 translated: false
+type: note
 ---
 
 ### East Rail Line Stops (Admiralty to Lo Wu)

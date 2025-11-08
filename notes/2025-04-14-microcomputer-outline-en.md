@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Microcomputer and Interface Technology - Outline
 translated: false
+type: note
 ---
 
 Here is an English version of the **"Microcomputer and Interface Technology"** course outline, likely based on the syllabus by **Professor Yang Quansheng** (note: actual content may vary depending on the institution's curriculum):

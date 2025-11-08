@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Deep Learning Quiz
 translated: false
+type: note
 ---
 
 Here’s a quiz based on the content you provided:

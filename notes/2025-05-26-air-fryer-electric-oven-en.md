@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Air Fryer vs Electric Oven
 translated: false
+type: note
 ---
 
 The differences between an **air fryer** and an **electric oven** lie in their design, cooking principles, and effects. Below, I’ll break it down based on the principles, cooking outcomes, and specific features you mentioned, like meat sticks, heating tubes, and air circulation.

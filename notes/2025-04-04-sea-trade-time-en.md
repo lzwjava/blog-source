@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Sea Transport
 translated: false
+type: note
 ---
 
 The time it took for trade involving Shantou and the Chaoshan region between 1840 and 1940 to be completed varied significantly depending on several factors:

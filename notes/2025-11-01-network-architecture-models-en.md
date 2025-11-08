@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Network Architecture and Models Study
 translated: false
+type: note
 ---
 
 This chapter lays the foundation for understanding how computer networks are structured and how data is transmitted across them. In the context of the *Computer Networks Technology* course (自考 code 02141 or similar), it emphasizes theoretical models like OSI and TCP/IP, which are core to exam questions on layering, protocols, and data flow. Focus on memorizing layer names, functions, and mappings between models. Expect multiple-choice, short-answer, or diagram-based questions testing comparisons and responsibilities.

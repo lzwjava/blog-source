@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Invert a Signal
 translated: false
+type: note
 ---
 
 Here is a comprehensive tutorial based on the video:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Interactive Git Rebase from Root
 translated: false
+type: note
 ---
 
 ### Breaking Down `git rebase -i --root`

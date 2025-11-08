@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-oss-120b
 title: GROQ Speed and Efficiency Explained
 translated: false
+type: note
 ---
 
 ### TL;DR  

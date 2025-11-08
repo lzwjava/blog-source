@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Golden Week Holiday Arrangements in China
 translated: false
+type: note
 ---
 
 Great question! Let me break it down for you clearly:

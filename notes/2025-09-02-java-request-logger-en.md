@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Java Request Wrapper for Logging
 translated: false
+type: note
 ---
 
 In Java web applications, you typically use a **`HttpServletRequestWrapper`** when you want to decorate or modify the behavior of the standard `HttpServletRequest` without touching the servlet container’s implementation.

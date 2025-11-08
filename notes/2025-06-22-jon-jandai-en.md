@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Jon Jandai's Life Philosophy Explained
 translated: false
+type: note
 ---
 
 Jon Jandai's "Life is Easy" talk fundamentally challenges the modern perception of success, happiness, and necessity, arguing that we *choose* to make life complicated and hard. His main points revolve around returning to simplicity, self-reliance, and reconnecting with basic human needs and nature.

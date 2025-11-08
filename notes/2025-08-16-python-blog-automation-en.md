@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Python Blog Automation Blueprint
 translated: false
+type: note
 ---
 
 Based on analyzing your extensive `scripts/` directory, here are the major ideas for improving your blog with Python scripts:

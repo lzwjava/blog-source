@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: TCP可靠性与丢包检测
 translated: true
+type: note
 ---
 
 让我来解析这次关于TCP可靠性的讨论，将其分解为几个清晰的概念：

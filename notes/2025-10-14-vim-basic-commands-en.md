@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Vim Basic Commands Tutorial
 translated: false
+type: note
 ---
 
 Vim (short for Vi IMproved) is a powerful, modal text editor that's the default on many Linux systems like Red Hat. It's keyboard-driven and efficient once you learn the basics. Vim has three main modes: **Normal** (for navigation and commands, default), **Insert** (for typing text), and **Visual** (for selecting text). Press `Esc` to return to Normal mode from anywhere.

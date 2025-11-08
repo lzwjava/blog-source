@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Python tarfile Module Usage Guide
 translated: false
+type: note
 ---
 
 ### Importing the tarfile Module

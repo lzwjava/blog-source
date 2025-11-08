@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Huawei's Pangu Team's Dark Secrets
 translated: false
+type: note
 ---
 
 https://github.com/HW-whistleblower/True-Story-of-Pangu

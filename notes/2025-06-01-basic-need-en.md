@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Human Choice: Beyond Basic Needs'
 translated: false
+type: note
 ---
 
 The phrase "吃喝拉撒睡" (eat, drink, poop, pee, sleep) captures the basic biological necessities of human life. Beyond these, it’s absolutely possible for someone to choose to do nothing else in a day, assuming their basic needs are met and they have no immediate obligations. People can opt for minimal activity—lounging, daydreaming, or just existing—especially if they’re in a position where survival doesn’t demand more effort (e.g., food and shelter are secured). 

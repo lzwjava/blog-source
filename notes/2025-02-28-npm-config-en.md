@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Npm Configuration Issue
 translated: false
+type: note
 ---
 
 It seems like you're trying to retrieve the proxy configuration from npm using `npm config get proxy`, but you're encountering an error indicating that the proxy setting is protected or inaccessible in a standard way. This could happen due to how npm handles sensitive configuration data or due to restrictions in your environment.

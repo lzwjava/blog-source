@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Project Directory Structure Best Practices
 translated: false
+type: note
 ---
 
 Good question.

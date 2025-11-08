@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: Linear Algebra Quiz - Conversation
+type: note
 ---
 
 A: Hey B, I've been putting together some basic Linear Algebra quizzes for someone just starting out. I wanted to run a few of the question types by you to see if they seem appropriate and cover the fundamental concepts well.

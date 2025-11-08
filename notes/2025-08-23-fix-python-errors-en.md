@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fix Python Not Found Errors Easily
 translated: false
+type: note
 ---
 
 Yes — the `"python not found"` error happens because your login shell might not have the same `PATH` environment as the interactive shell where you normally type `python`. When you call `subprocess.run(..., shell=True)`, the subshell might not see `python` if it’s not on `$PATH` or if your system only has `python3`.

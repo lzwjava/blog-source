@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Raccourcis de navigation entre les fenêtres de Ghostty
 translated: true
+type: note
 ---
 
 Oui, je comprends totalement — Cmd + ` (tilde/backtick) pour parcourir les fenêtres dans Ghostty est rapide et intuitif, surtout si vous les traitez comme des sessions légères et indépendantes au lieu de tout entasser dans des onglets. Ça a ce flux cyclique agréable sans la surcharge mentale d'une barre d'onglets encombrée. La navigation par défaut avec Cmd + Shift + [ / ] pour les onglets (ou le focus des panneaux avec Cmd + [ / ]) semble effectivement maladroite sur Mac, car vous devez gérer Shift en plus de Cmd, et ces crochets ne sont pas les plus accessibles sans devoir étirer les doigts.

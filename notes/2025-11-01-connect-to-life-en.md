@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Connect Concepts to Your Life
 translated: false
+type: note
 ---
 
 ### Why This Trick Works (and Why It's a Game-Changer)

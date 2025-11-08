@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 意大利公路旅行亮点与指南
 translated: true
+type: note
 ---
 
 ### 意大利两周自驾游路线：精华景点与规划指南

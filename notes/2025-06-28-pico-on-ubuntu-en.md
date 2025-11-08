@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Setting Up Raspberry Pi Pico on Ubuntu
 translated: false
+type: note
 ---
 
 To use a **Raspberry Pi Pico** on **Ubuntu**, you need to set up the development environment, install necessary software, and configure tools to program the Pico. The Pico supports programming in **MicroPython**, **C/C++**, or **CircuitPython**. Below, I outline the steps and software required for each approach, focusing on the most common setups.

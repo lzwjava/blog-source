@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Cisco AnyConnect Network Access Manager Overview
 translated: false
+type: note
 ---
 
 Cisco AnyConnect Secure Mobility Client is a suite of software modules that provide secure VPN access, network security, and policy-based endpoint features. One of the optional modules in this suite is **Cisco Network Access Manager (NAM).**

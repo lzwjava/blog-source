@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cline Extension Issue in Visual Studio Code
 translated: false
+type: note
 ---
 
 It seems you're encountering issues with the Cline extension in Visual Studio Code (VSCode) where it fails to detect newly created files and doesn't recognize `@mention` functionality. Based on the context of Cline as an AI-powered coding assistant, here’s how you can troubleshoot and potentially resolve these problems:

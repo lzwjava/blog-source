@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Saturated Fats, Sugars, and Salt
 translated: false
+type: note
 ---
 
 You're asking for a more detailed explanation of the advice to moderate the consumption of foods high in saturated fats, sugars, and salt. This is a cornerstone of many dietary guidelines, including those influenced by the European Food Safety Authority's (EFSA) scientific opinions, due to the well-established links between high intakes of these components and increased risks of various non-communicable diseases (NCDs).

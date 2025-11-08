@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Git Diff-Tree Guide
 translated: false
+type: note
 ---
 
 Here’s a practical, end-to-end guide to `git diff-tree`—what it is, when to use it, and the options you’ll actually reach for in real work. I’ll avoid big tables and stick to focused explanations with copy-pasteable examples.

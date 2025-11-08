@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Yan Junjie's Exceptional Research Impact
 translated: false
+type: note
 ---
 
 ### Yan Junjie's Research Ability

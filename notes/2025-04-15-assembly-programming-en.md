@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Assembly Language Programming
 translated: false
+type: note
 ---
 
 Below is a comprehensive tutorial for **Part 2: Assembly Language Programming**, covering the topics outlined: *8086 Instruction Set (Data Transfer, Arithmetic, Logic, and Control Flow Instructions), Assembly Language Programming (Sequential, Branch, and Loop Structures), and Interrupt Service Routines*. This tutorial is designed to be thorough, accessible, and practical, building on the fundamentals of microcomputers (e.g., 8086/8088 architecture). It assumes basic knowledge of CPU registers and memory addressing.

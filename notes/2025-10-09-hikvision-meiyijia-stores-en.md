@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hikvision Products in Meiyijia Stores
 translated: false
+type: note
 ---
 
 ### What is Haikang Vision (Hikvision)?

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Simulating Flip-Flops in Python
 translated: false
+type: note
 ---
 
 Let’s create a simple Python program to simulate the behavior of the different types of flip-flops (RS, D, JK, and T) described earlier. Since flip-flops are hardware components, we’ll model their logic in Python classes to mimic their behavior, including inputs, outputs, and state changes. The program will allow us to input values for the flip-flop controls (like S, R, D, J, K, T, and Clock) and show the output (Q) based on their rules. We’ll keep it simple and text-based, suitable for a beginner to understand, with a command-line interface to test each flip-flop.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Claude for Programming Tasks
 translated: false
+type: note
 ---
 
 ### How to Use Claude for Programming Tasks (via OpenRouter)

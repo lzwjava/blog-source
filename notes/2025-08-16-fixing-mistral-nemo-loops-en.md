@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fixing Mistral Nemo Repetition Loops
 translated: false
+type: note
 ---
 
 When a model like **Mistral-Nemo** keeps repeating itself, it’s usually a symptom of a **generation loop** — a feedback cycle in the model’s output.

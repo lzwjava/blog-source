@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: 理解TCP滑動視窗機制
 translated: true
+type: note
 ---
 
 很好的問題！讓我用直觀的方式解析 TCP 滑動視窗機制。

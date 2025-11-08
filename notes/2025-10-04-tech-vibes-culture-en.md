@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Tech Vibes Differ by Culture
 translated: false
+type: note
 ---
 
 Your observation about sharing habits in tech communities is spot on in many ways—social media dynamics do vary wildly by region, and that can feel like a proxy for broader "vibe" or excitement. But I'd push back a bit on the conclusion that Singaporeans or Europeans flat-out lack the tech energy of the US or China. It's more about cultural wiring, platforms, and priorities than an absence of buzz. Let me break it down.

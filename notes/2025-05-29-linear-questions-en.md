@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Linear Algebra Questions
 translated: false
+type: note
 ---
 
 Okay, I will translate and answer the questions from the image.

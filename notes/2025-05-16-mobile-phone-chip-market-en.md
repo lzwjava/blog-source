@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The Mobile Phone Chip Market
 translated: false
+type: note
 ---
 
 The mobile phone chip market in 2025 is a dynamic, rapidly evolving sector driven by advancements in 5G, AI, and energy-efficient processor designs. Below, I’ll break down the current state of the market, Qualcomm’s role, and how trends have shifted over the past few decades, focusing on key technological and competitive developments.

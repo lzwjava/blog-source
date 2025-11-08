@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Alphabet Hits $186.66B in H1 2025
 translated: false
+type: note
 ---
 
 Here’s the revenue for Alphabet (Google’s parent company) in the **first half of 2025**:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Buddhist Values
 translated: false
+type: note
 ---
 
 Buddhist values stem from the teachings of Siddhartha Gautama (the Buddha) and focus on achieving spiritual awakening and living ethically. The main values include:

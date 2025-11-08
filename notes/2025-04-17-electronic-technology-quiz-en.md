@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Quiz: Fundamentals of Electronic Technology (III)'
 translated: false
+type: note
 ---
 
 **Part I: Analog Electronics**

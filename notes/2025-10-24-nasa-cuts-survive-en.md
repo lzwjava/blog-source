@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: NASA Not Facing Elimination Despite Cuts
 translated: false
+type: note
 ---
 
 ### The Claim: Is the Trump Administration Planning to Eliminate NASA?

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Core Essentials of LLM Applications
 translated: false
+type: note
 ---
 
 Yes, you’re thinking about it in the right direction. For most real-world applications built on LLMs (or any agent framework), the *essential information* comes down to a few fixed pieces. Everything else can usually be generated or scaffolded dynamically. Let me break it down:

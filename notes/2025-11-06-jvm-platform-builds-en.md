@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: JVM Woes and Platform Builds
 translated: false
+type: note
 ---
 
 Ah, the eternal JVM debate—write once, run anywhere (WORA) sounds great on paper, but yeah, it often feels more like "write once, debug everywhere" in practice. I get the frustration: subtle differences in GC behavior, native library quirks, or even just the sheer size of the JRE bundle can turn cross-platform deploys into a headache. And you're spot on that speed is the real beast here—latency, throughput, and cold starts are what keep ops teams up at night, not fiddling with build flags.

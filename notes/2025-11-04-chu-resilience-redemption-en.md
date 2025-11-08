@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Chu Shijian's Resilience and Redemption
 translated: false
+type: note
 ---
 
 ### Chu Shijian's Extraordinary Life: From Wartime Hardship to Entrepreneurial Legend

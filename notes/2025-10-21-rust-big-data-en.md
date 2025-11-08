@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Rusts Potential for Big Data
 translated: false
+type: note
 ---
 
 ### Rust is for Big Data (#rust2018)

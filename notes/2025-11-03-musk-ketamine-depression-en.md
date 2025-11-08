@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Musk on Ketamine and Depression Management
 translated: false
+type: note
 ---
 
 Elon Musk has openly discussed his experiences with negative thoughts, internal struggles, and what he describes as a "negative chemical state in the brain" (essentially, episodes of depression not tied to external events). In a 2024 interview (clip shared widely on X in October 2025), he explained his approach to emerging from these states:

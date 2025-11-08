@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: DataFusion and AI Synergy
 translated: false
+type: note
 ---
 
 ### Understanding Apache DataFusion and the AI Question

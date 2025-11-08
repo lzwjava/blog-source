@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Monitoring Directory Changes with the FSEvents API
 translated: false
+type: note
 ---
 
 I was using a Jekyll blog, and when I ran `bundle exec jekyll serve --incremental`, the terminal displayed `fsevent_watch`. Consequently, I inquired about it with an AI.

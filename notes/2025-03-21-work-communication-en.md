@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Effective Work Communication for Software Engineers in Banks
 translated: false
+type: note
 ---
 
 As a software engineer working as a contractor in a bank, effective communication is key to your success, especially in a professional and often structured environment like a financial institution. Below are some practical suggestions to help you navigate communication, based on common workplace dynamics and best practices:

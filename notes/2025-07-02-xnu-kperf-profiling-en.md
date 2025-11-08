@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: XNU Kernel Performance Counter Profiling
 translated: false
+type: note
 ---
 
 The C code you provided is a demonstration of using **XNU's `kperf` and `kpc` (Kernel Performance Counters) facilities** on macOS and iOS, designed for **profiling system and application performance at a low level**.

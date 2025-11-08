@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Scheme CPS Transform Code Breakdown
 translated: false
+type: note
 ---
 
 Here’s the code extracted from your screenshot, reformatted for clarity:

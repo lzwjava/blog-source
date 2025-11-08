@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: ハードウェア並列処理による配列インデックスアクセルの高速化
 translated: true
+type: note
 ---
 
 ### インデックス操作が二分探索より速い理由

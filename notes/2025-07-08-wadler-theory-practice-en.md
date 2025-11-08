@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Philip Wadler: Bridging Theory and Practice'
 translated: false
+type: note
 ---
 
 Philip Wadler is a highly distinguished computer scientist, renowned for his significant contributions to programming language design and type theory. He currently serves as a Professor of Theoretical Computer Science at the University of Edinburgh and a Senior Research Fellow at IOHK.

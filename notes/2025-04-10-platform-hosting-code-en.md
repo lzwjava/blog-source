@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Platforms for Hosting Code
 translated: false
+type: note
 ---
 
 Besides GitHub, other famous platforms for hosting code include:

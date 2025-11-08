@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Most Impactful Economists
 translated: false
+type: note
 ---
 
 Here are some of the most impactful and insightful economists and business thinkers:

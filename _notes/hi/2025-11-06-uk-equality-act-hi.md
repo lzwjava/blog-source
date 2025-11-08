@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: यूके समानता अधिनियम 2010 का अवलोकन
 translated: true
+type: note
 ---
 
 ### अवलोकन

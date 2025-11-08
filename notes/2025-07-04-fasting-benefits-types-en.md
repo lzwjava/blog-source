@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Fasting: Reasons, Types, and Benefits'
 translated: false
+type: note
 ---
 
 Fasting means voluntarily abstaining from food, drink, or both for a specific period. It’s practiced for various reasons, including:

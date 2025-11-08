@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Logic Gate Symbols and Shapes
 translated: false
+type: note
 ---
 
 ### Logic Gate Symbols in Digital Circuits

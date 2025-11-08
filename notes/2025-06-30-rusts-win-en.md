@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Discord's Rust Performance Boost
 translated: false
+type: note
 ---
 
 Discord's adoption of Rust was driven by performance bottlenecks in their Go-based "Read States" service, which tracks user message reads across channels. The switch to Rust delivered significant latency improvements, eliminated garbage collection spikes, and showcased Rust's strengths in memory management and concurrency. Here's a detailed breakdown:

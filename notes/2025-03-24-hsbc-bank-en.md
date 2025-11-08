@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: History of HSBC Bank
 translated: false
+type: note
 ---
 
 HSBC (Hongkong and Shanghai Banking Corporation) is one of the world's largest banking and financial services organizations. Its history spans over 150 years, originating from a simple idea: a local bank serving international needs. Here's a detailed look at its history:

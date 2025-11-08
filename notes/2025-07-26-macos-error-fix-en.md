@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fixing macOS File Permission Errors
 translated: false
+type: note
 ---
 
 ### Understanding the Error

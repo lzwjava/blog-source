@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Shanwei, Shantou, and Chaozhou
 translated: false
+type: note
 ---
 
 **Comprehensive Travel Guide: Shanwei, Shantou, and Chaozhou**

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Pili Streaming Cloud Library for PHP
 translated: false
+type: note
 ---
 
 ### Key Points

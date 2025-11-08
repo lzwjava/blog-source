@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: D Flip Flop Basics and Comparisons
 translated: false
+type: note
 ---
 
 Answer: D flip-flop

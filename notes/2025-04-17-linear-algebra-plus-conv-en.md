@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: Linear Algebra Plus - Conversation
+type: note
 ---
 
 A: Hey, I’ve been revisiting quadratic forms lately, especially the process of transforming them into canonical form. Can you break down how you approach it with that example, Q(x, y) = 2x² + 4xy + 3y²?

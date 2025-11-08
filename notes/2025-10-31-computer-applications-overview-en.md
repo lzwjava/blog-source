@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Computer Application Technology Associate Degree Overview
 translated: false
+type: note
 ---
 
 ### 510201 Professional Overview

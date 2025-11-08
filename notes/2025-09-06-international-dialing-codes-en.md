@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: International Dialing Codes and Phone Formats
 translated: false
+type: note
 ---
 
 Here’s a clear overview of **major countries’ international dialing codes** and how their **phone number structures** usually work:

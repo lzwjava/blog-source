@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Warm Climate Potato Storage Guide
 translated: false
+type: note
 ---
 
 It looks like you're providing context on the storage conditions—specifically, temperatures in Guangzhou during September, ranging from about 25°C to 35°C (77°F to 95°F). This is warm by potato storage standards, and it might be affecting your sweet potatoes' sprouting. Let me address how this ties into the edibility question from before.

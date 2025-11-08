@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Alibaba Java Coding Guidelines
 translated: false
+type: note
 ---
 
 ## Overview

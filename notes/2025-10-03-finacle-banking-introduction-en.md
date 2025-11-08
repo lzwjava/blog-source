@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Introduction to Infosys Finacle Banking
 translated: false
+type: note
 ---
 
 ### Comprehensive Introduction to Finacle by Infosys

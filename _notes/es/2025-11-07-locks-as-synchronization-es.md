@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Cerraduras como concepto universal de sincronización
 translated: true
+type: note
 ---
 
 ### Los Locks como Sincronización: Un Concepto Universal

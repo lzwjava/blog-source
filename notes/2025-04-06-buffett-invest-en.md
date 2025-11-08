@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: How to Follow Warren Buffett’s Investment Strategy
 translated: false
+type: note
 ---
 
 Warren Buffett’s investment strategy is rooted in value investing, a philosophy he learned from Benjamin Graham. It focuses on buying high-quality companies at a discount to their intrinsic value and holding them for the long term. While Buffett often invests in large-cap stocks like Berkshire Hathaway (which trades at a high price per share), you can still adapt his principles with a smaller budget like $10,000 or $20,000. Here’s how you can apply his strategy step-by-step:

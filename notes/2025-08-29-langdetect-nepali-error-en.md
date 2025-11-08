@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Langdetect Mistook Text as Nepali
 translated: false
+type: note
 ---
 
 Ah, I see — thanks for clarifying.

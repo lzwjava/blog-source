@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Yin Wangs Critique of Chinese Success
 translated: false
+type: note
 ---
 
 ### Is Yin Wang's View "True"?

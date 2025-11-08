@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: IBM WebSphere Request Routing Explained
 translated: false
+type: note
 ---
 
 Let me explain how IBM WebSphere Application Server (WAS) handles incoming requests and routing:

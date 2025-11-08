@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: RFC 4122 UUID Specification Overview
 translated: false
+type: note
 ---
 
 RFC 4122 is a technical specification published by the Internet Engineering Task Force (IETF) in July 2005. It defines a Uniform Resource Name (URN) namespace for Universally Unique Identifiers (UUIDs), which are also known as Globally Unique Identifiers (GUIDs). 

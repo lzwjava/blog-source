@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Upgrade to OpenJDK 21 on macOS
 translated: false
+type: note
 ---
 
 Since you currently have OpenJDK 17 installed via Homebrew on your macOS system, here’s a concise guide to install OpenJDK 21, which is the latest Long Term Support (LTS) release as of your current date, July 1, 2025. You can install OpenJDK 21 alongside OpenJDK 17 and switch between them as needed. The simplest method is using Homebrew, but I’ll also provide a manual installation option.

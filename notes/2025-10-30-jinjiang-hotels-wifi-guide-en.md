@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Jinjiang Hotels WiFi Portal Guide
 translated: false
+type: note
 ---
 
 The Jinjiang Hotels WiFi portal (https://portal.jinjianghotels.com.cn/) is a captive portal designed for on-site access only—it's not fully publicly crawlable outside the hotel network, which is why direct browsing often returns empty or error pages. Based on user reports and guides, here's a breakdown of its typical "route" structure (meaning the main URL paths/endpoints) and how to access them. This is common for Vienna Hotels (a Jinjiang brand) and similar chains in China.

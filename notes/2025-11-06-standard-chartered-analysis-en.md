@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Standard Chartered Bank Overview and Analysis
 translated: false
+type: note
 ---
 
 ### Breaking Down the Standard Chartered Description

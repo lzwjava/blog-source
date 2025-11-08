@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Richard Feynman
 translated: false
+type: note
 ---
 
 This video discusses the legacy of Richard Feynman, highlighting both his positive contributions and some criticisms. Here are some key points about the video:

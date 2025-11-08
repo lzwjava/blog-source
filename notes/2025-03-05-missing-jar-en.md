@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Missing JAR Files In WebSphere Liberty
 translated: false
+type: note
 ---
 
 In WebSphere Liberty, you’ve noticed warnings in the `console.log` file that look like this: *"the manifest class path: grpc-protobuf.jar cannot be found in jar file ..ear/war or its parent"*. These warnings indicate that the server cannot locate the `grpc-protobuf.jar` file, which is referenced in the manifest class path of an EAR or WAR file in your application. Below, I’ll address your questions: whether these warnings matter, whether they will impact the running of your application, and how to remove them.

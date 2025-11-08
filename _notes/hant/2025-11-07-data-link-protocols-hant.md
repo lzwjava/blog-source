@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 數據鏈路層協議詳解
 translated: true
+type: note
 ---
 
 這段陳述正確指出了關鍵的資料鏈路層協定及其主要應用場景。讓我逐一分析：

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Ken Griffin: Citadel Founder and Billionaire'
 translated: false
+type: note
 ---
 
 ### Ken Griffin: A Brief Introduction

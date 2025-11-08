@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Hidden Champions
 translated: false
+type: note
 ---
 
 Okay, here are some other companies and startups that could be considered "hidden champions" in today's world, keeping in mind the broader interpretation of the term:

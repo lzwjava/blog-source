@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Installing Jekyll on Ubuntu
 translated: false
+type: note
 ---
 
 ### Setting Up and Running Jekyll on Ubuntu

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The Psychology of Money Summary
 translated: false
+type: note
 ---
 
 ### Overview

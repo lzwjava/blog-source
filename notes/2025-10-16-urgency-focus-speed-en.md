@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Urgency Boosts Focus and Speed
 translated: false
+type: note
 ---
 
 ### Why Urgency Boosts Your Focus and Reading Speed

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Quitting Coffee and Caffeine Addiction
 translated: false
+type: note
 ---
 
 ### Quitting Coffee for Good: A Personal Reflection

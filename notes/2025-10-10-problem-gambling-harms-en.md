@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The Harms of Problem Gambling
 translated: false
+type: note
 ---
 
 ### Financial Risks

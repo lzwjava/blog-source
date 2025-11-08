@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Course Outline for Computer Organization and Architecture 02318
 translated: false
+type: note
 ---
 
 ### Key Points

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Firefox's Reader View
 translated: false
+type: note
 ---
 
 Firefox's Reader View offers several practical advantages that make it genuinely useful:

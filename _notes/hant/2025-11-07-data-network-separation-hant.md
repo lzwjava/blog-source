@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 數據鏈路與網絡層分離
 translated: true
+type: note
 ---
 
 ### 為什麼要區分數據鏈路層和網絡層？

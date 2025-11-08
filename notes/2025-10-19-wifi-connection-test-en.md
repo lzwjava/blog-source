@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Automated WiFi Connection Testing Script
 translated: false
+type: note
 ---
 
 import subprocess

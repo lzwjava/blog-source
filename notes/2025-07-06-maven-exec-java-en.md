@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Run Java Classes with Maven Exec
 translated: false
+type: note
 ---
 
 The `exec:java` goal of the Maven Exec Plugin is a powerful way to run a Java class with a `main` method directly from your Maven build. It executes the specified Java class **within the same JVM** as your Maven build, using the project's dependencies as the classpath.

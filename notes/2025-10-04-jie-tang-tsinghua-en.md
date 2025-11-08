@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Jie Tang: Tsinghua AI Pioneer'
 translated: false
+type: note
 ---
 
 ### Comprehensive Introduction to Jie Tang: Tsinghua's AI Trailblazer

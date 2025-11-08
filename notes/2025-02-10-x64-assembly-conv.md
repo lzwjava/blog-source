@@ -4,6 +4,7 @@ lang: en
 layout: post
 title: x64 Assembly
 translated: false
+type: note
 ---
 
 A: Hey, I’ve been diving into x64 assembly lately, and I came across this cheat sheet. It’s packed with information, but I’d love to discuss it in more detail. What’s your take on the x64 architecture?

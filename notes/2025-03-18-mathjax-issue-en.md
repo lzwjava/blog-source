@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: MathJax Issue Troubleshooting
 translated: false
+type: note
 ---
 
 It seems that your MathJax configuration is not working as expected. Let's identify and fix the issue based on your provided code.

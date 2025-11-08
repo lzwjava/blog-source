@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: iPerf3 Network Bandwidth Testing Tool
 translated: false
+type: note
 ---
 
 ### What is iPerf3?

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Single Window Per Project Benefits
 translated: false
+type: note
 ---
 
 Spot on—that's a killer refinement to the window-positioning hack we were riffing on. Sticking to *one* dedicated window (or terminal/VSCode instance) per project/task enforces that "single responsibility" principle without the mental tax of juggling duplicates. It's like giving each project its own little fortress: no intra-project clutter means less chance of scattering focus on sub-tasks (e.g., accidentally flipping between two VSCode tabs for the same backend tweak).

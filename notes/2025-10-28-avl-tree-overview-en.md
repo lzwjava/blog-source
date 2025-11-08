@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AVL Tree Overview
 translated: false
+type: note
 ---
 
 ### What is an AVL Tree?

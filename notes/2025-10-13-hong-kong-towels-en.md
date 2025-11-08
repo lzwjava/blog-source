@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong's Handy Disposable Towels
 translated: false
+type: note
 ---
 
 Yeah, you're spot on about those disposable face towels (or "one-time towels") in Hong Kong—they're super handy, versatile, and yeah, dirt cheap at around 4 HKD each in convenience stores like 7-Eleven or Circle K. You can grab a pack of 2 for about 8 HKD, perfect for quick needs without the hassle of washing.

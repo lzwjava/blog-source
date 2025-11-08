@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Grok-4-Fast Efficient Multimodal AI Model
 translated: false
+type: note
 ---
 
 ### Overview

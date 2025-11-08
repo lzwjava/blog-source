@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Ciscos Netzwerk- und KI-Evolution
 translated: true
+type: note
 ---
 
 Ja, Cisco ist weithin als weltweiter Marktführer in der Netzwerktechnologie anerkannt. Hier ist die Unternehmensgeschichte:

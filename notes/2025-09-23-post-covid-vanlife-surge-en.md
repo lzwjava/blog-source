@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Post-COVID Van Life Surge in USA
 translated: false
+type: note
 ---
 
 ### Rise of Van Life in the USA Post-COVID

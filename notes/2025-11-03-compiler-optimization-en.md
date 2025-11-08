@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Compiler Optimization for Skilled Programmers
 translated: false
+type: note
 ---
 
 ### Compiler Optimization

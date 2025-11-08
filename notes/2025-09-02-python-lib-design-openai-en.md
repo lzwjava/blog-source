@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Python Library Design Lessons from OpenAI
 translated: false
+type: note
 ---
 
 Here’s a quick teardown of `openai/openai-python` and the lessons you can lift for building a great Python library.

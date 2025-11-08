@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Audio File Uploads
 translated: false
+type: note
 ---
 
 ### Key Points

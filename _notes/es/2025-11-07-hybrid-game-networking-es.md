@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Red Híbrida para el Desarrollo de Videojuegos
 translated: true
+type: note
 ---
 
 Tienes razón, la explicación de la Persona B es acertada.

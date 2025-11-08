@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Enable Windows Clipboard History
 translated: false
+type: note
 ---
 
 ### Enabling Clipboard History in Windows

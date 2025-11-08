@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Mercury Security System Management Platform
 translated: false
+type: note
 ---
 
 ### Introduction to Mercury Security System (水星安防系统)

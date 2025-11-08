@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Notable Competitive Programmers
 translated: false
+type: note
 ---
 
 Competitive programming has produced many exceptional programmers who are known for their problem-solving abilities, speed, and accuracy. Here’s a list of some of the most notable competitive programmers who have left a significant mark on the community:

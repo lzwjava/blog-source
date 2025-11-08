@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Maven Checkstyle Plugin
 translated: false
+type: note
 ---
 
 ## What is the Maven Checkstyle Plugin?

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Pioneers in Electronics
 translated: false
+type: note
 ---
 
 As I mentioned before, directly giving you specific names of individuals who are "very good" at all those areas is challenging due to privacy concerns and the fact that "very good" is subjective. Expertise also often lies within specific sub-areas.

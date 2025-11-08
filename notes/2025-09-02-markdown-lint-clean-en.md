@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Markdown Linting for Consistent Clean Files
 translated: false
+type: note
 ---
 
 Here’s a clean, reader‑friendly introduction to the **markdownlint** project by David Anson:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: محاذاة عناصر النماذج المتراصة باستخدام Flexbox
 translated: true
+type: note
 ---
 
 ```css

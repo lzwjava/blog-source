@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Fix Flutter Xcode Code Signing Failure
 translated: false
+type: note
 ---
 
 You're hitting the common Flutter / Xcode code-signing failure: Xcode/`security` found no valid signing identities, so `flutter run` can't sign the app for a physical device. Below I’ll give a clear, ordered set of fixes and troubleshooting commands — pick the path you want (run in Simulator right now, or set up signing to run on a real device). I won’t ask for more info — I’ll assume you want to fix this now.

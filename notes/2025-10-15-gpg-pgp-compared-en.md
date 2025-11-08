@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPG and PGP Encryption Compared
 translated: false
+type: note
 ---
 
 ### GPG vs. PGP: A Comparison

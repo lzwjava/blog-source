@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-oss-120b
 title: GROQ Speed Explained Without Neural Networks
 translated: false
+type: note
 ---
 
 ## Short answer  

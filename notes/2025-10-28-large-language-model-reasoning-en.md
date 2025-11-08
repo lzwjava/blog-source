@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Large Language Model Reasoning Techniques
 translated: false
+type: note
 ---
 
 ### Overview

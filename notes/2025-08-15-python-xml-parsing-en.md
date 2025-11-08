@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Python XML Parsing with xml.etree
 translated: false
+type: note
 ---
 
 ### Overview of xml.etree in Python

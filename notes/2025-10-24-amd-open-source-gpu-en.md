@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AMD Leads in Open Source GPU Support
 translated: false
+type: note
 ---
 
 ### AMD vs. NVIDIA: Open Source Commitment

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Multi-Region Development Best Practices
 translated: false
+type: note
 ---
 
 Multi-region software development involves building applications that serve users across different geographic areas, such as countries or continents, while handling variations in regulations, languages, user behaviors, and infrastructure. The goal is to minimize duplication, reduce maintenance costs, and ensure scalability. This guide draws from industry best practices, emphasizing a unified codebase with configurable differences, as opposed to siloed apps or branches that lead to long-term pain points like high synchronization efforts and testing overhead.

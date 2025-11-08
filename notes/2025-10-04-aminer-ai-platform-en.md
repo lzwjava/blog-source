@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'AMiner: AI-Powered Academic Search Platform'
 translated: false
+type: note
 ---
 
 ### Introduction to AMiner (https://www.aminer.cn)

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Password Changes Impact Backend Tools
 translated: false
+type: note
 ---
 
 ### Password Changes with Microsoft Teams

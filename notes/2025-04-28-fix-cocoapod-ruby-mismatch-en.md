@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Fixing CocoaPod Ruby Mismatch on macOS
 translated: false
+type: note
 ---
 
 I see what's happening: your system Ruby and gems setup is a bit mixed, and so the `pod deintegrate` command can’t find CocoaPods. Let’s walk through it:

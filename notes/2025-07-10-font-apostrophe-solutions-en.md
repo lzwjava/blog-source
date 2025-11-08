@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fix Apostrophes with Better Fonts
 translated: false
+type: note
 ---
 
 Yes, changing the font can definitely help with apostrophe rendering! Different fonts handle typography and special characters differently, and some fonts have better-designed apostrophes than others.

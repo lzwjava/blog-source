@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 乔布斯在雅达利奖金上欺骗了沃兹尼亚克
 translated: true
+type: note
 ---
 
 这就是1973-74年著名的雅达利《打砖块》游戏芯片精简事件，它清晰地展现了两位史蒂夫之间复杂的相处模式。

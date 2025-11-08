@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top International Banks in China
 translated: false
+type: note
 ---
 
 In China, several international banks have established offices or branches to serve both local and global markets. Some of the key international banks operating in China include:

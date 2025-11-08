@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: フレックスボックスで積み重ねたフォーム要素を中央揃え
 translated: true
+type: note
 ---
 
 ```css

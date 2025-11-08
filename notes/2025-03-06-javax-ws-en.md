@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java API for RESTful Web Services
 translated: false
+type: note
 ---
 
 To use `javax.ws.rs`, the Java API for RESTful web services (commonly referred to as JAX-RS), you need to follow a series of steps to set up your project, define RESTful resources, configure your application, and deploy it. JAX-RS allows you to create web services that adhere to the REST architectural style, using annotations to define endpoints and handle HTTP requests. Below is a comprehensive guide to get you started:

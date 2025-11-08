@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Common Clothing Fibers and Fabrics
 translated: false
+type: note
 ---
 
 ### Common Fibers and Fabrics Used in Clothing

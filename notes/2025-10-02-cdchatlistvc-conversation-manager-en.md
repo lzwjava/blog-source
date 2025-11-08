@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: CDChatListVC Conversation Manager Breakdown
 translated: false
+type: note
 ---
 
 This code is part of an **iOS chat application** (likely using **LeanCloud's IM SDK**), specifically the `CDChatListVC` class, which manages the list of conversations (chat threads) in the app. Here’s a breakdown of its key components and functionality:

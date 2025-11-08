@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Azure Application Insights Setup Guide
 translated: false
+type: note
 ---
 
 ## What is Azure Application Insights?

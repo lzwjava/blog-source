@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Cyclic Redundancy Check Error Detection
 translated: false
+type: note
 ---
 
 ### What is CRC?

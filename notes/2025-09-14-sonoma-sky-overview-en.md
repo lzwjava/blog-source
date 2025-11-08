@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Sonoma Sky Alpha Overview and Features
 translated: false
+type: note
 ---
 
 Here’s what I found out about **Sonoma Sky Alpha (openrouter/sonoma-sky-alpha)** — what it is, its features, what’s known and unknown. If you want, I can compare it to other models too.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Commodore's Rise and Fall in Computing
 translated: false
+type: note
 ---
 
 Commodore International was a pivotal player in the early personal computer industry, known for its innovative and affordable computing solutions that brought technology into homes and businesses worldwide. Founded in 1954 by Jack Tramiel, a Holocaust survivor and Polish immigrant, the company began as a typewriter repair business in the Bronx, New York, before evolving into a major electronics and computer manufacturer. Its journey from humble beginnings to a household name in computing reflects both entrepreneurial grit and technological foresight, though its later years were marked by challenges that led to its eventual decline.

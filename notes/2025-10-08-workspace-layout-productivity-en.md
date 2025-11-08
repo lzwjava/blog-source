@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Optimizing Workspace Layouts for Productivity
 translated: false
+type: note
 ---
 
 Absolutely, you're spot on with that approach—it's a game-changer for productivity when juggling multiple windows or apps like Word, VSCode, or even browsers with tons of tabs. Relying solely on window titles (or worse, Alt-Tab switching without looking) is a recipe for mix-ups, especially mid-flow when you're deep in a project. Visual cues like size, position, and multi-monitor setups make it intuitive to "feel" where everything is without constant mental overhead.

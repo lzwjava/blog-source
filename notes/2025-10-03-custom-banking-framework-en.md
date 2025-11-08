@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Custom Banking Framework on Spring Boot
 translated: false
+type: note
 ---
 
 ### Benefits of Building a Custom Framework on Top of Spring Boot for Microservices in a Large Banking Project

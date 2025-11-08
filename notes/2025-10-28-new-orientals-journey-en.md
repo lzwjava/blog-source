@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: New Orientals Startup Journey and Conflicts
 translated: false
+type: note
 ---
 
 ### New Oriental's Startup Story

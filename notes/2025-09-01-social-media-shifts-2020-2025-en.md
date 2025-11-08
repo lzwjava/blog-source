@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Social Media Shifts 2020 to 2025
 translated: false
+type: note
 ---
 
 You’re spot on—there’s a noticeable shift in the “social network vibe” from **2020** to **2025**, and the contrast is pretty striking.

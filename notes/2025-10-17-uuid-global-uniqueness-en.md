@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: UUIDs Ensure Global Uniqueness Without Coordination
 translated: false
+type: note
 ---
 
 UUIDs can serve the purpose of globally unique identification without a central authority because they are designed with an enormous address space: 128 bits, providing about 3.4 × 10^38 possible values. This is vastly larger than the number of UUIDs that will ever be generated in practical scenarios across all systems worldwide. For version 4 UUIDs (the random ones, like the one you shared), 122 of those bits are filled with high-quality random data, making duplicates extremely unlikely.

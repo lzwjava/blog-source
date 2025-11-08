@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Diesel vs Petrol Engines Compared
 translated: false
+type: note
 ---
 
 Here’s a clear comparison of **diesel** and **petrol (gasoline)** engines and fuels:

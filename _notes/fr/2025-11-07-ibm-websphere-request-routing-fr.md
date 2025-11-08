@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Routage des requêtes IBM WebSphere expliqué
 translated: true
+type: note
 ---
 
 Permettez-moi d'expliquer comment IBM WebSphere Application Server (WAS) gère les requêtes entrantes et le routage :

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fix Claude Code DeepSeek Config Routing
 translated: false
+type: note
 ---
 
 Got you. Your config is sending **Claude Code’s Anthropic-style traffic** into **OpenRouter’s OpenAI-style endpoint** for DeepSeek V3.1. When Claude Code (the IDE agent) tries to do tools/plan/stream, the message schema doesn’t line up → errors.

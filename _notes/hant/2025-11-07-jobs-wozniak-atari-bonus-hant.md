@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 喬布斯在雅達利獎金上欺騙沃茲尼亞克
 translated: true
+type: note
 ---
 
 這就是1973-74年間著名的Atari《Breakout》遊戲晶片精簡事件，它清晰地展現了兩位史蒂夫之間複雜的互動關係。

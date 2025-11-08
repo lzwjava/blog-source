@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Solvexia's Key Competitors
 translated: false
+type: note
 ---
 
 ### Key Competitors to Solvexia

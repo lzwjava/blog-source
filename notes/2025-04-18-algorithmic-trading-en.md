@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Algorithmic Trading
 translated: false
+type: note
 ---
 
 There are actually a lot of people doing algorithmic and AI-based trading, but there are several reasons why it's not as widely accessible or successful as it might initially seem:

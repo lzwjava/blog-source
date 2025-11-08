@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: William Shockley
 translated: false
+type: note
 ---
 
 William Bradford Shockley (1910-1989) was a brilliant American physicist and engineer whose groundbreaking work on semiconductors earned him a Nobel Prize and a central place in the history of the information age. However, his later life was marked by deeply controversial views that cast a long shadow over his scientific legacy.

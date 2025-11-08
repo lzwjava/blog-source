@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Reprise des travaux suspendus dans zsh
 translated: true
+type: note
 ---
 
 Pour reprendre un travail suspendu (comme votre commande `bundle exec jekyll serve --incremental`, qui a probablement été mise en pause avec Ctrl+Z) dans zsh au sein de Ghostty, suivez ces étapes dans la même session de terminal :

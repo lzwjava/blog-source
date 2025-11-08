@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Java OSS Image Upload Controller
 translated: false
+type: note
 ---
 
 ### How the Code Works

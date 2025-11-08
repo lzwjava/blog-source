@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: GitHub Actions Concurrency Settings
 translated: false
+type: note
 ---
 
 Your current GitHub Actions workflow configuration already has `cancel-in-progress: false`, which means it *should not* cancel in-progress jobs for the `gh-pages` concurrency group. If jobs are still being canceled, there might be another issue or misconfiguration causing this behavior. Below are steps to verify and fix the issue:

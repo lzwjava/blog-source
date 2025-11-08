@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Xvfb: Headless X11 Display Server'
 translated: false
+type: note
 ---
 
 ### What is Xvfb?

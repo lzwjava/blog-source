@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 邏輯閘符號與形狀
 translated: true
+type: note
 ---
 
 ### 數位電路中的邏輯閘符號

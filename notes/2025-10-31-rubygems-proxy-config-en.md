@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Configuring RubyGems Proxy Settings
 translated: false
+type: note
 ---
 
 To ensure that `gem` (RubyGems) is using your proxy (e.g., at `http://127.0.0.1:7890`) during installation, follow these steps. Based on the verbose output you shared, it *already appears to be using the proxy*—the "Connecting to 127.0.0.1:7890... connected" line is a strong indicator from the underlying HTTP client (likely `net/http` or `curl`-like behavior in verbose mode).

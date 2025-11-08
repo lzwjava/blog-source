@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Understanding Maven Lifecycles and JaCoCo
 translated: false
+type: note
 ---
 
 Good question — this comes down to Maven’s *lifecycle phases* and how plugins bind to them.

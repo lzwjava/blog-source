@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Twilio CEO Khozema Shipchandler Profile
 translated: false
+type: note
 ---
 
 Khozema Shipchandler is the 51-year-old Chief Executive Officer (CEO) of Twilio Inc., a leading cloud communications platform valued at approximately $16 billion, known for its APIs that enable businesses to integrate SMS, voice, email, and other messaging services into their applications.[1][2][3][4]

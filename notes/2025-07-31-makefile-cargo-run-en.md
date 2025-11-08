@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Cargo Run Redundancy
 translated: false
+type: note
 ---
 
 You’re absolutely correct! In your `Makefile` example:

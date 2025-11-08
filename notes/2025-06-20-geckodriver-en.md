@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Selenium GeckoDriver Ubuntu Installation
 translated: false
+type: note
 ---
 
 To install the Selenium Firefox driver (geckodriver) on Ubuntu, follow these steps:

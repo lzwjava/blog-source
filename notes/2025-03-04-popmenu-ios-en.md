@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using PopMenu in iOS
 translated: false
+type: note
 ---
 
 To use `pod 'PopMenu', '2.4'` in your iOS project, you’re integrating the PopMenu library (version 2.4) via CocoaPods, a popular dependency manager for iOS. This library provides a pop-up animation menu inspired by apps like Sina Weibo or NetEase. Below are the steps to set it up and use it in your project:

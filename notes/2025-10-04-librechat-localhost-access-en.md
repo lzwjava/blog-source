@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Troubleshooting LibreChat Localhost Access
 translated: false
+type: note
 ---
 
 ### Troubleshooting LibreChat Access on localhost:3080

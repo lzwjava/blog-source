@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Binary Search in Finance Data Projects
 translated: false
+type: note
 ---
 
 Binary search is an efficient algorithm for finding an item from a **sorted list** of items by repeatedly dividing the search interval in half. In the context of your finance project with a focus on data, databases, Angular frontend, and SQL queries, binary search can be applied in specific scenarios where you need to search through sorted data. Below, I’ll explain how and where you can use binary search in your project, tailored to your tech stack and finance domain.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Visual Studio Code August 2025 Update
 translated: false
+type: note
 ---
 
 ### Visual Studio Code 1.104 (August 2025)

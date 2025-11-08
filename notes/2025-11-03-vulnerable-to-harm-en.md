@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Vulnerable and Prone to Harm
 translated: false
+type: note
 ---
 
 ### Definition

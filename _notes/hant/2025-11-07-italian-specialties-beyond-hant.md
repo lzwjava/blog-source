@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 意大利美食以外的特產
 translated: true
+type: note
 ---
 
 ### 意大利標誌性特產：深度探索

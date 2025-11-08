@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Analyze Java Packages
 translated: false
+type: note
 ---
 
 Based on your query, you want a script where, if the `level` parameter is 0 or not provided, it uses the entire package name (all parts of it), essentially treating `level = 0` as "infinite" or "use all parts," instead of limiting it to a specific number of parts (like only the first part when `level = 1`). Below, I’ll explain how this can be implemented in a Python script that analyzes Java files to extract package names, and I’ll provide a complete solution tailored to your request.

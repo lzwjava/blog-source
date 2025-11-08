@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Debunking Viruses A Critical Examination
 translated: false
+type: note
 ---
 
 ### Summary of "The Virus Misconception, Part 1"

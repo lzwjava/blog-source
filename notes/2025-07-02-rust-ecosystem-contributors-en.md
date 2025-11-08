@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rust's Top Contributors and Founders
 translated: false
+type: note
 ---
 
 The Rust ecosystem is vibrant and growing, with many individuals and organizations contributing significantly. Here's a breakdown of top contributors, programmers, influential projects, and founders:

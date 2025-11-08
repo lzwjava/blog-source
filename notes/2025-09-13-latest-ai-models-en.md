@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Latest AI Models and Their Applications
 translated: false
+type: note
 ---
 
 Here’s a summary of what we *do* know (as of mid-September 2025) about GPT-5, Gemini 2.5 Pro, GPT-5 mini, and how they are being used, including in Copilot / premium models:

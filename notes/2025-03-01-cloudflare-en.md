@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Getting Started with Cloudflare
 translated: false
+type: note
 ---
 
 Cloudflare is a popular service that offers a range of tools to enhance your website’s performance, security, and reliability. Whether you’re running a small blog or a large e-commerce site, Cloudflare’s features—like DNS management, content delivery network (CDN), and security protections—can make a significant difference. In this blog post, we’ll walk through three key tasks: configuring DNS, managing A records, and banning IP regions. These are essential for getting the most out of Cloudflare, and they’re easier to set up than you might think!
@@ -102,4 +103,3 @@ Cloudflare is a powerful tool that can enhance your website’s speed, security,
 - **IP Region Blocking**: Use this feature sparingly to avoid blocking legitimate users.
 
 Cloudflare offers many more features, like SSL/TLS encryption, caching, and advanced security tools. Once you’re comfortable with the basics, explore these options to get even more out of the platform.
-

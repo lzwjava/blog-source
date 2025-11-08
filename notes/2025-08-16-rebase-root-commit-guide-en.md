@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Rebase Root Commit Essentials Guide
 translated: false
+type: note
 ---
 
 `git rebase --root` is a special form of rebase that lets you rewrite the **very first commit** of your repository. Normally, `git rebase` needs a parent commit to rebase onto, but the `--root` option treats the root commit (the first commit with no parent) as if it were being rebased too.

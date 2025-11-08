@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: ELG Stack Setup and Installation Guide
 translated: false
+type: note
 ---
 
 ### Overview of ELG Stack (Elasticsearch, Logstash, Grafana)

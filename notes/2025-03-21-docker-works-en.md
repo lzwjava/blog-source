@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: How Docker Works
 translated: false
+type: note
 ---
 
 Let’s dive into how Docker works, focusing on its use of Linux’s filesystem and how it isolates applications from each other.

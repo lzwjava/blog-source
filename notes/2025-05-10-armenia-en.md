@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Armenia
 translated: false
+type: note
 ---
 
 Armenia, officially the Republic of Armenia, is a landlocked country in the South Caucasus region of Eurasia, known for its rich history, vibrant culture, and stunning landscapes. Located at the crossroads of Europe and Asia, Armenia has been a cradle of civilization for millennia, with a unique identity shaped by its ancient heritage, Christian faith, and resilience through centuries of challenges. Below is a comprehensive introduction to Armenia, covering its history, geography, culture, politics, economy, and more.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Kalman Filters for Clean Blog Data
 translated: false
+type: note
 ---
 
 Nice repo! For a Jekyll-style blog like this, a Kalman filter is perfect for turning noisy time-series into clean visuals or interactive demos. Here are practical ways to use it—and a drop-in pipeline you can paste into your repo.

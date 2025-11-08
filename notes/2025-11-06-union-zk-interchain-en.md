@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Union ZK Interchain Infrastructure Protocol
 translated: false
+type: note
 ---
 
 ### Overview

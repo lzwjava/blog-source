@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Morita Therapy Principles for Anxiety
 translated: false
+type: note
 ---
 
 ### Core Principles of Morita Therapy

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Reading Resistor Color Codes
 translated: false
+type: note
 ---
 
 ### Understanding Resistor Color Codes

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: E-Commerce Disrupts Physical Retail
 translated: false
+type: note
 ---
 
 You're spot on that the internet has fundamentally disrupted traditional retail models, especially in hyper-dense places like Hong Kong where physical proximity and sheer volume of shops used to be a huge draw. The rise of e-commerce platforms has democratized access to massive product selections without needing to cram into crowded streets or malls. Let's break this down based on your points, with some context on how this plays out in HK versus mainland megacities like Guangzhou (GZ), Beijing, and Shanghai.

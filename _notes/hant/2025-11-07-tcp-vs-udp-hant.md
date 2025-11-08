@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: TCP 與 UDP 通訊協定差異
 translated: true
+type: note
 ---
 
 是的，你完全理解正確！讓我釐清關鍵差異：

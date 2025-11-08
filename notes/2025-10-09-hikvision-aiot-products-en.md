@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hikvision Security and AIoT Products
 translated: false
+type: note
 ---
 
 ### Hikvision's Major Products

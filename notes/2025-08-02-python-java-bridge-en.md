@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Connecting Python to Java Agent
 translated: false
+type: note
 ---
 
 Yes, it is possible to connect Python code to a Java agent, but it requires specific tools, libraries, or frameworks to enable communication between Python and Java. Since Python and Java are distinct programming languages with different runtime environments (Python runs on CPython or similar interpreters, while Java runs on the JVM), they cannot directly interact without a bridge. Below, I’ll explain how this can be achieved and clarify the context of a "Java agent" in this scenario.

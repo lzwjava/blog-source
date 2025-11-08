@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Losing Weight
 translated: false
+type: note
 ---
 
 To lose weight effectively and sustainably, focus on making long-term healthy eating habits rather than following fad diets. Here's a breakdown of what you should eat:

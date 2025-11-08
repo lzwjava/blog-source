@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: L'Évolution des Réseaux et de l'IA chez Cisco
 translated: true
+type: note
 ---
 
 Oui, Cisco est largement reconnu comme un leader mondial dans le domaine des technologies de réseau. Voici son historique d'entreprise :

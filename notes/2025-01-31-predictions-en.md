@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: Future Predictions
+type: note
 ---
 
 Below are 50 speculative, but plausibly grounded, predictions about the future across various fields, including technology, society, environment, and more. These are not guarantees but rather informed guesses based on current trends, emerging research, and historical precedent.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Telegraf: Agente de Recopilación de Métricas de Código Abierto'
 translated: true
+type: note
 ---
 
 Telegraf es un agente de código abierto y basado en plugins desarrollado por InfluxData para recopilar, procesar, agregar y escribir métricas, logs y otros datos de telemetría desde varias fuentes. Es ligero, se ejecuta como un único binario y admite más de 300 plugins de entrada (por ejemplo, para estadísticas del sistema, bases de datos como MySQL/PostgreSQL, servicios en la nube como AWS y aplicaciones como Apache Kafka) y más de 50 plugins de salida (por ejemplo, a InfluxDB, Prometheus, Kafka o Elasticsearch).

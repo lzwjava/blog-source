@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Leftover Rice Is Best for Fried Rice
 translated: false
+type: note
 ---
 
 For stir-frying rice with meat or vegetables (like making fried rice), **leftover rice from your last meal is the best choice**. Here's why, along with some quick tips:

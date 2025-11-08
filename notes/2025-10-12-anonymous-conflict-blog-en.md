@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Blogging Anonymously About Personal Conflicts
 translated: false
+type: note
 ---
 
 ### Understanding Your Question

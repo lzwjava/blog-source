@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Leaving Toxicity to Cultivate Growth
 translated: false
+type: note
 ---
 
 Building on that idea, extending the thought means recognizing that leaving a toxic environment isn't just an exit—it's the start of intentionally curating a life that nourishes your growth. Think of it like pruning a plant: removing the damaged parts allows the healthy roots to flourish without competition from decay. In practical terms, this could involve setting boundaries before you fully leave, such as limiting interactions with toxic individuals or documenting any harmful behaviors (especially if it's a workplace or school setting where HR or authorities might need to be involved). For instance, if ridicule stems from a past mistake, reframing it personally as a lesson learned—rather than letting others define it—can be empowering. Journaling or affirmations might help shift that internal narrative early on.

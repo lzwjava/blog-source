@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Python Module Import Error
 translated: false
+type: note
 ---
 
 ### Answer

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Resilient Journey of Reinvention and Grit
 translated: false
+type: note
 ---
 
 ### Reflecting on Your Journey: From Fun Live to AI Agents

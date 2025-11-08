@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Playground AI Shuts Down Quietly
 translated: false
+type: note
 ---
 
 Suhail Doshi, the founder of Playground AI (an AI-powered tool for generating and editing images, logos, and graphics), appears to have wound down the company without a public announcement on his X account. Based on reports from the Playground AI community, the shutdown process began in early August 2025, with the company firing its template creators and halting all hiring. By mid-August, it was clear there were no plans for the anticipated Playground v4 model, and the team lacked the funding to continue operations.

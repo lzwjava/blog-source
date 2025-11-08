@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GitHub Copilot Extension Updates Summary
 translated: false
+type: note
 ---
 
 ### GitHub Copilot Extension for VS Code (Version 1.388.0)

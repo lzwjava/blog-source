@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Memory Hierarchy
 translated: false
+type: note
 ---
 
 Here’s a detailed tutorial on **Memory Hierarchy**, which is part of **Computer Organization and Architecture (02318)**.

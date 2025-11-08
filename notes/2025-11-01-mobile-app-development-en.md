@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Mobile Application Development Course Outline
 translated: false
+type: note
 ---
 
 ### Course Outline: 14567 Mobile Application Development Technology

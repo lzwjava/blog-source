@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cursor and VS Code
 translated: false
+type: note
 ---
 
 Yes, it is legal for Cursor to fork Visual Studio Code (VS Code) and build a business around it, provided they adhere to the terms of the MIT license under which VS Code's source code is released. The MIT license is highly permissive, allowing anyone to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software, as long as the original copyright notice and permission notice are included in all copies or substantial portions of the software.[](https://code.visualstudio.com/license)[](https://opensource.stackexchange.com/questions/4288/is-microsoft-vs-code-really-open-source)[](https://law.stackexchange.com/questions/74044/how-to-abide-by-software-license-when-forking-source-code)

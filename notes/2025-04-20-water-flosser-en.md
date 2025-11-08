@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Water Flossers
 translated: false
+type: note
 ---
 
 Yes, an oral irrigator (like a water flosser) can be useful for improving oral hygiene. It uses a stream of water to remove food particles, plaque, and bacteria from between teeth and along the gumline, areas that brushing and traditional flossing might miss. Studies, like those reviewed in the *Journal of Clinical Dentistry* (2013), show water flossers can reduce plaque and gingivitis, often as effectively as or better than string floss, especially for people with braces, implants, or dexterity issues.

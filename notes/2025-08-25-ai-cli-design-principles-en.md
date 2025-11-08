@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: AI CLI Design Principles Unpacked
 translated: false
+type: note
 ---
 
 ### Key Lessons from the Prompt

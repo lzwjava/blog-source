@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: Leadership
+type: note
 ---
 
 ### General Management

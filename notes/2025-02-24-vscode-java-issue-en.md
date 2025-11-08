@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Language Server and Maven Build
 translated: false
+type: note
 ---
 
 It sounds like you're facing two related issues in Visual Studio Code (VSCode): a complaint about needing at least Java 21, and problems with VSCode not recognizing some object definitions in your Java code, even though your Maven build compiles successfully. Let’s resolve this step by step.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: PowerShell vs Python
 translated: false
+type: note
 ---
 
 Whether PowerShell is better than Python script depends on the context and specific use case. Both PowerShell and Python are powerful scripting languages, but they have different strengths and are suited to different types of tasks. Here's a comparison to help understand their differences and when you might prefer one over the other:

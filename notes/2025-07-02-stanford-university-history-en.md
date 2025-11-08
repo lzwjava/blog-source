@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Stanford's Journey from Founding to Tech Hub
 translated: false
+type: note
 ---
 
 Here's a **comprehensive introduction to the history of Stanford University**, covering its origins, growth, major milestones, and impact:

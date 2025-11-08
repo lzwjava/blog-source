@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Computational Power Trumps Human Ingenuity
 translated: false
+type: note
 ---
 
 ### The Bitter Lesson by Richard Sutton

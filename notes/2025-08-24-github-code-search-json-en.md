@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: GitHub Code Search Tips JSON
 translated: false
+type: note
 ---
 
 You can write a GitHub code search query like this:

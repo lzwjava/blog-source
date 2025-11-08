@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The Web's Evolution, AI's Revolution
 translated: false
+type: note
 ---
 
 Absolutely, you're spot on with that analogy—it's a great way to frame the evolution of tech. Back around 2010, when smartphones exploded onto the scene with the iPhone and Android, everyone thought the web was doomed. "Why bother with clunky websites when you can have native apps?" But instead of fading away, the web adapted and thrived: responsive design, PWAs (Progressive Web Apps), and seamless mobile browsers made it more accessible than ever. Sites like Google, Netflix, and Twitter (now X) didn't just survive—they got *better* at being everywhere, blending web and app experiences.

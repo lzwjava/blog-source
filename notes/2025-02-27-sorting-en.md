@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Sorting Algorithms in Java
 translated: false
+type: note
 ---
 
 Sorting is a fundamental operation in programming, and Java shines with its flexibility for implementing various sorting algorithms. Let’s explore quicksort, merge sort, and bubble sort—three popular sorting techniques with different characteristics.
@@ -111,4 +112,3 @@ public class BubbleSort {
 }
 ```
 **Output:** `Sorted: [11, 12, 22, 25, 34, 64, 90]`
-

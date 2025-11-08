@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Equal Opportunity Employer Explained
 translated: false
+type: note
 ---
 
 An **equal opportunity employer (EOE)** is a business or organization that commits to hiring, promoting, and treating employees without discrimination based on protected characteristics. These typically include race, color, religion, sex (including gender identity and sexual orientation), national origin, age (usually 40+), disability, genetic information, and sometimes other factors like veteran status or pregnancy.

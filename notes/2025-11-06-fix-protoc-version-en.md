@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fix Substrait Build Protoc Version Error
 translated: false
+type: note
 ---
 
 ### Understanding the Error

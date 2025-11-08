@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Updating Claude Code CLI
 translated: false
+type: note
 ---
 
 Hi! It looks like you're dealing with the Claude Code CLI tool from Anthropic. Based on the output you pasted, it seems like it already attempted an auto-update to version 1.0.61, but if that's not working or you need to manually update, here's how:

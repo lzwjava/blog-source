@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Scheduling Tasks In Spring
 translated: false
+type: note
 ---
 
 Scheduling tasks in Spring is a common requirement for automating repetitive jobs, such as sending emails, generating reports, or performing system maintenance. Spring provides a powerful and easy-to-use task scheduling feature through its `@Scheduled` annotation and the Spring Task Scheduler. Below, I’ll walk you through the steps to set it up and explain the key concepts.
@@ -167,4 +168,3 @@ This allows multiple tasks to run in parallel.
 ### 8. **Testing Your Scheduled Tasks**
 - Run your application and check the console logs to verify the tasks are executing as expected.
 - Use shorter intervals (e.g., every 2 seconds) during testing to see results quickly.
-

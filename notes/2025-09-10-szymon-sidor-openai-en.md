@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: 'Szymon Sidor: OpenAI''s Influential Research Scientist'
 translated: false
+type: note
 ---
 
 [![Radio Weekend FM, Chojniczanin Szymon Sidor pracuje w OpenAI i ...](https://tse3.mm.bing.net/th/id/OIP.DPtWqDr92GUVv7wS35QeVwHaEK?r=0\&pid=Api)](https://weekendfm.pl/?chojniczanin-szymon-sidor-pracuje-w-openai-i-wspotworzy-chatgpt-odkryem-ze-moja-pasja-jest-sztuczna-inteligencja-rozmowa=&n=113392&utm_source=chatgpt.com)

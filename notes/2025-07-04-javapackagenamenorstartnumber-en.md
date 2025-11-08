@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Package Names Cannot Start with Numbers
 translated: false
+type: note
 ---
 
 In Java, a package name **cannot start with a number**. According to the Java Naming Conventions and the Java Language Specification:

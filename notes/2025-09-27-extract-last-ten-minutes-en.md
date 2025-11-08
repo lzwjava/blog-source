@@ -7,6 +7,7 @@ layout: post
 model: google/gemini-2.5-flash
 title: Extracting last ten audio minutes
 translated: false
+type: note
 ---
 
 To get the last 10 minutes of the audio file `lobby-zh.ogg`, you need to use the following information:

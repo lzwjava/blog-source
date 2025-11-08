@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Paramiko SSH and SFTP Guide
 translated: false
+type: note
 ---
 
 ### Installation

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Streaming MKV Files on iPad with VLC Mobile and Other Apps
 translated: false
+type: note
 ---
 
 To stream your `.mkv` files from your Nginx server (e.g., `http://192.168.1.27/movies/`) on your iPad without downloading them entirely, you’ll need an app that supports HTTP streaming and `.mkv` playback. iPadOS doesn’t natively handle `.mkv` files well in Safari or the Files app, so a third-party media player is the way to go. Here’s how to achieve that "magic" on your iPad:

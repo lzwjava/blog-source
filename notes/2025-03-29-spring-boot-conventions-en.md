@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring Boot Java Coding Conventions
 translated: false
+type: note
 ---
 
 ## 1. Core Principles

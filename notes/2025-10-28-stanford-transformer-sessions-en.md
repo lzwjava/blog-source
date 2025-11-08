@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Stanford CS25 Transformer Sessions
 translated: false
+type: note
 ---
 
 ### Stanford CS25: Transformers United – Recommended Sessions

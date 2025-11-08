@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Project Files Created By Eclipse IDE
 translated: false
+type: note
 ---
 
 ### Why Are There .project Files, and What Are `filteredResources`, `filter`, and `matcher` For?

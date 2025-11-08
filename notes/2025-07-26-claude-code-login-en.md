@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Claude Code Login Methods
 translated: false
+type: note
 ---
 
 Yes, that's correct. Claude Code, Anthropic's terminal-based coding tool, offers two primary login methods:

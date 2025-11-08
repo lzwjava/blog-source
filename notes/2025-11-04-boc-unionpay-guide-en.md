@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: BOC HK UnionPay Card Guide
 translated: false
+type: note
 ---
 
 Your BOC HK (Bank of China Hong Kong) physical debit card, which is UnionPay-branded, is a dual-currency card (typically linked to HKD and RMB accounts) designed for secure transactions via the UnionPay network. Since you've already activated overseas withdrawals through the BOCHK app (which lifts the default zero daily limit for security), it's ready for international use. Here's a breakdown of what you can use it for, based on official details:

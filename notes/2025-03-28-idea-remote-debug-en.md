@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: IntelliJ IDEA's Built-in Remote Debugging
 translated: false
+type: note
 ---
 
 To connect IntelliJ IDEA to the debug port of a WebSphere Liberty Server that you've started with `server debug default`, without using the WebSphere Liberty plugin, you can leverage IntelliJ IDEA's built-in remote debugging feature. This approach works because WebSphere Liberty, when started in debug mode, exposes a debug port (typically 7777 by default) that any JVM debugger, including IntelliJ IDEA, can attach to. Below are the detailed steps to achieve this:

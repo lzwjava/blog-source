@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Major Predicted Societal Changes in the Next 20 Years
 translated: false
+type: note
 ---
 
 Over the next two decades, society is expected to undergo rapid and profound transformations driven by technological, demographic, economic, and cultural forces. Below are the key areas where significant change is anticipated, based on recent expert predictions and trend analyses.

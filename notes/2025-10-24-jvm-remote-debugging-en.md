@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: JVM Remote Debugging Options Explained
 translated: false
+type: note
 ---
 
 ### JVM Debugging Options: JDWP, Suspend, Socket, and Port 7777

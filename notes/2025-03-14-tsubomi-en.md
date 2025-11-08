@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Lyrics of 蕾(つぼみ) by Kobukuro
 translated: false
+type: note
 ---
 
 Below are the complete Japanese lyrics of the song "蕾(つぼみ)" (Tsubomi) by Kobukuro, followed by a detailed breakdown of each line. For every line, I provide the Japanese text, its pronunciation in Romaji, and an explanation of each word's meaning and pronunciation. This fulfills your request for the lyrics in Japanese with a word-by-word explanation and pronunciation.

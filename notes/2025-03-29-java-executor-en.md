@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Understanding ExecutorService and ThreadPoolExecutor
 translated: false
+type: note
 ---
 
 Setting parameters for an `ExecutorService` in Java involves configuring its thread pool to optimize performance based on your system’s resources (like an 8-core CPU) and the nature of your tasks (e.g., CPU-bound or I/O-bound). Below, I’ll explain how to configure an `ExecutorService` for an 8-core CPU, focusing on common implementations like `ThreadPoolExecutor`, and provide practical examples tailored to your use case.

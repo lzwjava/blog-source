@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Installation Source of npm Packages
 translated: false
+type: note
 ---
 
 To change the installation source of the `@ngx-formly/bootstrap` package from a local `.tgz` file to the npm registry, follow these steps:

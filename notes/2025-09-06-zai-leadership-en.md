@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Z.ai Founders and Executive Leadership
 translated: false
+type: note
 ---
 
 You’re absolutely right—Z.ai (formerly Zhipu AI) has made remarkable strides in AI across multiple modalities, and your breakdown captures it beautifully.

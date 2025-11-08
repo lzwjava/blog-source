@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fix MeCab Config File Path
 translated: false
+type: note
 ---
 
 Your error

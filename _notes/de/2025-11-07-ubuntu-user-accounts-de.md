@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Erstellen von Ubuntu-Benutzerkonten
 translated: true
+type: note
 ---
 
 ### Erstellen eines neuen Benutzers in Ubuntu Linux

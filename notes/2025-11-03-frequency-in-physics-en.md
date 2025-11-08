@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding Frequency in Physics
 translated: false
+type: note
 ---
 
 ### Frequency in Physics and Waves

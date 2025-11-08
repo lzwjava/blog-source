@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Lianhuashan Park North Gate Parking Guide
 translated: false
+type: note
 ---
 
 ### Parking at Lianhuashan Park (North Gate), Shenzhen

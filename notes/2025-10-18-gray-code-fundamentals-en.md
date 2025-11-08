@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Gray Code Fundamentals and Applications
 translated: false
+type: note
 ---
 
 ### What is Gray Code?

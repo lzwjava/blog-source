@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Symphony Lyrics
 translated: false
+type: note
 ---
 
 Here’s a complete response to your query about the song "Symphony" by Clean Bandit featuring Zara Larsson. I’ll provide the full lyrics and a brief explanation of what the song is about.

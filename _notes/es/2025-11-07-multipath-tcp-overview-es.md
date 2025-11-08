@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Descripción General del Protocolo TCP Multipath
 translated: true
+type: note
 ---
 
 MPTCP es una extensión del protocolo de capa de transporte que cambia fundamentalmente cómo operan las conexiones de red al permitir que una única conexión lógica utilice simultáneamente múltiples rutas físicas. Aquí hay un desglose detallado:

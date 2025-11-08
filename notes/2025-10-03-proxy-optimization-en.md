@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Optimizing Clash Proxy Selection Performance
 translated: false
+type: note
 ---
 
 ### Summary of Optimization: Clash Proxy Selection Scripts

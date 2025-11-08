@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Staging Files with Git Patterns
 translated: false
+type: note
 ---
 
 ### Staging Files with Patterns in Git

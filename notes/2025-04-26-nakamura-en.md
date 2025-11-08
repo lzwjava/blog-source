@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The Story of Shuji Nakamura
 translated: false
+type: note
 ---
 
 Shuji Nakamura was born on May 22, 1954, in Ikata, a small fishing village on Japan’s Shikoku Island. Growing up in a modest environment, he developed a curiosity for science and technology, tinkering with electronics and exploring the natural world. His early life was shaped by a strong work ethic and a desire to push boundaries, traits that would define his groundbreaking career.

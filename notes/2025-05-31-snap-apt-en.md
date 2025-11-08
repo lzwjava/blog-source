@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Snap vs Apt
 translated: false
+type: note
 ---
 
 **Snap** and **Apt** are both package management systems used in Linux, particularly on Ubuntu and Debian-based distributions, but they serve different purposes and have distinct characteristics. Here's a concise comparison:

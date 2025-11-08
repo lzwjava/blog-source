@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Verbose Output Examples
 translated: false
+type: note
 ---
 
 Here are additional examples of enabling verbose output across various tools and systems, expanding on the theme of providing more detailed feedback or logging:

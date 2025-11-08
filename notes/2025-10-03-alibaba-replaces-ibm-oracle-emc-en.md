@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Alibaba Replaces IBM Oracle EMC
 translated: false
+type: note
 ---
 
 ### Alibaba's "Remove IOE" Initiative

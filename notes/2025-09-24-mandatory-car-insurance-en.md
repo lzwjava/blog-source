@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Mandatory Car Insurance in Urban China
 translated: false
+type: note
 ---
 
 Yes, buying car insurance is essential in China—specifically, third-party liability insurance (which covers damages or injuries you cause to others) is **mandatory** under Chinese law. You can't legally drive without at least the minimum coverage, and skipping it could lead to fines, license suspension, or worse if you're in an accident. Your father's advice makes a lot of sense, especially in big cities like Beijing, Shanghai, or Guangzhou, where luxury cars (e.g., Mercedes, BMWs, or even supercars) are common, and repair/replacement costs can easily exceed 1 million RMB. Let me break this down to help you decide on the 1M, 2M, or 3M levels for property damage coverage (the bodily injury parts are usually fixed at higher minimums).

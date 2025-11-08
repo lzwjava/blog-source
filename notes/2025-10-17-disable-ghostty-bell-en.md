@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Disabling Ghostty's Bell Notification
 translated: false
+type: note
 ---
 
 ### What is Ghostty's "Notification Tab"?

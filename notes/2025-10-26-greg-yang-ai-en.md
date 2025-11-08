@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Greg Yang: AI Theorist and Innovator'
 translated: false
+type: note
 ---
 
 ### Greg Yang: A Top-Tier AI Theorist and xAI Co-Founder

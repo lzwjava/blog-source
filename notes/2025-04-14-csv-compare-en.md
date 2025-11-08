@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Comparing Two Single-row CSV
 translated: false
+type: note
 ---
 
 Below is a Python script that compares two single-row CSV files containing strings (e.g., "P0001") and identifies:

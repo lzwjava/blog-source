@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: BERT Revolutionizes Natural Language Processing
 translated: false
+type: note
 ---
 
 ### What is BERT?

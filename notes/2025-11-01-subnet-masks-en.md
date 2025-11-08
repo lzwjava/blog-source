@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding Subnet Masks
 translated: false
+type: note
 ---
 
 ### What is a Subnet Mask?

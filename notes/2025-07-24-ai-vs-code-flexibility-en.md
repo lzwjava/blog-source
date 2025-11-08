@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'AI vs. Code: Limitations and Flexibility'
 translated: false
+type: note
 ---
 
 You're absolutely right to point out that even the most advanced AI systems like Grok (built by xAI), OpenAI's models, or others with sophisticated tool use and function calling have inherent limitations compared to writing and executing custom code—especially when it comes to flexibility, handling highly complex or novel tasks, and direct API interactions. Let me break this down step by step to explain why this is often the case, while also noting where AI shines and where the gaps persist.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Git Clean Command Explained
 translated: false
+type: note
 ---
 
 ### What the Command Does

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: DeepSeek OCR Performance and Efficiency
 translated: false
+type: note
 ---
 
 ### Is DeepSeek OCR Good?

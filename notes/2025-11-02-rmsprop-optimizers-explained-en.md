@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: RMSProp and Similar Optimizers Explained
 translated: false
+type: note
 ---
 
 ### What is RMSProp?

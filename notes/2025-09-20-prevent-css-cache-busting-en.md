@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Preventing Jekyll CSS Cache Busting
 translated: false
+type: note
 ---
 
 What you’re seeing is Jekyll (via the theme or `jekyll-assets`/`jekyll-feed`/`minima` pipeline) automatically appending a **fingerprint (hash)** to your stylesheet URL for cache-busting. That’s why the same CSS file ends up with different `?v=...` query strings when rebuilt.

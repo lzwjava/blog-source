@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: SQL Server vs. MySQL 2025 Comparison
 translated: false
+type: note
 ---
 
 ### SQL Server vs. MySQL: A 2025 Comparison

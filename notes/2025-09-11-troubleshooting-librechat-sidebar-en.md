@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Troubleshooting Empty LibreChat Sidebar
 translated: false
+type: note
 ---
 
 A few common reasons the sidebar history in LibreChat can appear empty intermittently, even though chatting/models/providers work:

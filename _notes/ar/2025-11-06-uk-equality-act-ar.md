@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: نظرة عامة على قانون المساواة البريطاني لعام 2010
 translated: true
+type: note
 ---
 
 ### نظرة عامة

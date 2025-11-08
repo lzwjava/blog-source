@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 食を超えたイタリアの特産品
 translated: true
+type: note
 ---
 
 ### イタリアの代表的特産品：深い探求

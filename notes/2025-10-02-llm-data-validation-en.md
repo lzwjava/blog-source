@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Using LLMs for Data Validation
 translated: false
+type: note
 ---
 
 Ah, I understand now! You want to **use a large language model (LLM) directly as a validation engine**—not just to generate code, but to **interpret rules, check data, and return validation results** in real time, all within the model itself.

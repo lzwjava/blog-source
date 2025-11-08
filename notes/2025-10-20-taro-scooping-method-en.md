@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Easy Cooked Taro Scooping Method
 translated: false
+type: note
 ---
 
 ### Scooping Cooked Taro (Yùtóu) from the Skin

@@ -7,6 +7,7 @@ layout: post
 model: deepseek/deepseek-v3.2-exp
 title: iOS Chat Controller Architecture Analysis
 translated: false
+type: note
 ---
 
 Looking at this iOS chat view controller code from an engineer's perspective, let me break down the key components and architecture. This is a comprehensive chat interface implementation that was quite advanced for its time.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: VSCode for Raspberry Pi Pico MicroPython
 translated: false
+type: note
 ---
 
 Yes, you can use Visual Studio Code (VSCode) to write, upload, and run MicroPython programs on your Raspberry Pi Pico, similar to how you would with Thonny. VSCode is a powerful editor, and with the right extensions and tools, it can handle MicroPython development effectively. Below is a step-by-step guide to set up VSCode for uploading a simple MicroPython program to your Pico, assuming MicroPython is already flashed (as you’ve done with the `.uf2` file).

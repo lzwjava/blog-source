@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Teams Message Forwarding Feature Launched
 translated: false
+type: note
 ---
 
 The message forwarding function in Microsoft Teams, which allows users to forward messages in chats (including 1:1, group, and meeting chats), was first introduced for targeted release customers in late November 2023. It became generally available to all users in early 2024, with rollout starting in mid-January for standard release on desktop, web, and mobile platforms.

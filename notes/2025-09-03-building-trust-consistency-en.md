@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Building Trust Takes Time and Consistency
 translated: false
+type: note
 ---
 
 Yes, even if two people share a lot online and learn from each other, trust still takes time to develop. Trust isn’t just about the amount of information exchanged — it’s about how that information is handled and whether actions consistently align with words.

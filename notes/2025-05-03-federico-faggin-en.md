@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Federico Faggin
 translated: false
+type: note
 ---
 
 Federico Faggin is a visionary Italian-American physicist, electrical engineer, and entrepreneur who played a pivotal role in the development of the microprocessor and profoundly shaped the landscape of modern computing. He is best known for leading the design and implementation of the world's first commercial single-chip microprocessor, the Intel 4004.

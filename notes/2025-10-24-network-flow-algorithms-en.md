@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Network Flow Algorithms Explained
 translated: false
+type: note
 ---
 
 ### Understanding Network Flow Algorithms

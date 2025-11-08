@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Reverse Myopia with Weaker Glasses Method
 translated: false
+type: note
 ---
 
 ## Quick Summary

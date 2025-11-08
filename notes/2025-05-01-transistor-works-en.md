@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: How a Transistor Works
 translated: false
+type: note
 ---
 
 Here is a more comprehensive tutorial based on the video about how a bipolar junction transistor (BJT) works, specifically focusing on an NPN transistor:

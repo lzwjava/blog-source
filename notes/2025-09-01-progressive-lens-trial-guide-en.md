@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Progressive Lens Trial Frame Guide
 translated: false
+type: note
 ---
 
 “渐进试戴架” in English is usually called a **progressive lens trial frame** or **progressive trial frame set**.

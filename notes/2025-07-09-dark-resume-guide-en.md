@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Create Dark Resume with LaTeX
 translated: false
+type: note
 ---
 
 To support building a `resume-en-dark.pdf` using your `awesome-cv-dark.cls`, you'll need to:

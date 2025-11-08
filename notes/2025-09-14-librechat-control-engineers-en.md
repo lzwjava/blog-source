@@ -8,6 +8,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: LibreChat for Control-Focused Engineers
 translated: false
+type: note
 ---
 
 Yes! **LibreChat** is an excellent choice for engineers and power users who want full control over their AI chatbot experience. Here’s why it stands out for customization and flexibility:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Joseph Fourier
 translated: false
+type: note
 ---
 
 Jean-Baptiste Joseph Fourier (1768–1830) was a French mathematician and physicist whose groundbreaking work in heat transfer, mathematical analysis, and harmonic theory left a profound impact on science and engineering. Best known for developing the Fourier series and the Fourier transform, his contributions revolutionized the understanding of periodic phenomena, signal processing, and partial differential equations. Below is a comprehensive introduction to his life, work, and legacy.

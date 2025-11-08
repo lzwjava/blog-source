@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Xi'an Parking Fees Overview
 translated: false
+type: note
 ---
 
 ### Parking Fees in Xi'an, China

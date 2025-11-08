@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: RedNote's U.S. Surge and Decline
 translated: false
+type: note
 ---
 
 You're right to be discerning! While there was a significant surge in American users on RedNote (Xiaohongshu) around January and February 2025 due to the looming TikTok ban, available data suggests that the intense level of engagement from that initial peak may have somewhat subsided.

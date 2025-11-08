@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: QUIC résout le blocage en tête de ligne
 translated: true
+type: note
 ---
 
 Voici une introduction à ce dialogue, fournissant le contexte et expliquant les concepts techniques :

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rust Programming Language
 translated: false
+type: note
 ---
 
 Okay, here's a comprehensive guide to the Rust programming language, covering its core concepts, syntax, and advanced features. Rust is a systems programming language focused on safety, speed, and concurrency.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Chez Scheme's GC Pause Analysis
 translated: false
+type: note
 ---
 
 Chez Scheme, like most garbage-collected systems, can experience garbage collection (GC) pauses, but the extent and impact depend on its garbage collection strategy and how the system is configured. Here's a detailed look at whether Chez Scheme has a significant GC pause problem, based on its design and available information:

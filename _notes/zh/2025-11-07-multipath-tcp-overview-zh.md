@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 多路径TCP协议概述
 translated: true
+type: note
 ---
 
 MPTCP 是一种传输层协议扩展，它通过使单个逻辑连接能够同时使用多个物理路径，从根本上改变了网络连接的运作方式。以下是详细解析：

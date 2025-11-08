@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: How SWIFT Transactions Work
 translated: false
+type: note
 ---
 
 ### How Do SWIFT Transactions Work Across Multiple Banks?

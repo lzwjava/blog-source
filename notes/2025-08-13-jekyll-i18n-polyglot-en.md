@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'Jekyll i18n: Polyglot Plugin & Folder Method'
 translated: false
+type: note
 ---
 
 You’ve got three good paths for i18n in a Jekyll blog, from “batteries-included” to “bare-bones.” Here’s how each works and how to set it up.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Upgrade Open WebUI Safely Now
 translated: false
+type: note
 ---
 
 Got you. Here are the safe, no-nonsense ways to upgrade Open WebUI.

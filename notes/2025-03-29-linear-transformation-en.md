@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Linear Transformations
 translated: false
+type: note
 ---
 
 **Definition, Examples, Matrix Representation, Kernel, Image, Properties (Injectivity, Surjectivity)**  

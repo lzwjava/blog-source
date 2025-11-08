@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: X Mass Unfollow Chrome Extension
 translated: false
+type: note
 ---
 
 Yes, there are tools available that can help you unsubscribe (or mass unfollow) accounts on Twitter/X in batches, though X itself does not offer a built-in feature for this. Since "unsubscribe batchly" likely refers to unfollowing multiple accounts at once, here are some options based on available tools:

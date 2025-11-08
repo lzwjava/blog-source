@@ -4,6 +4,7 @@ generated: true
 layout: post
 title: Detailed Analysis of Outdoor Sports in Guangzhou
 translated: false
+type: note
 ---
 
 ### Key Points

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 使用Flexbox居中堆叠表单元素
 translated: true
+type: note
 ---
 
 ```css

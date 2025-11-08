@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 亨利大衛梭羅：生平與傳承
 translated: true
+type: note
 ---
 
 ### 亨利·大衛·梭羅：生平與思想傳承綜覽

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: فهم طبقة ربط البيانات
 translated: true
+type: note
 ---
 
 ### فهم طبقة ربط البيانات: نظرة سريعة

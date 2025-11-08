@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Henry David Thoreau: Leben und Vermächtnis'
 translated: true
+type: note
 ---
 
 ### Henry David Thoreau: Eine umfassende Einführung in sein Leben und Vermächtnis

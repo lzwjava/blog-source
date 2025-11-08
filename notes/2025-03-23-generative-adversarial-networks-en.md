@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Generative Adversarial Networks (GANs)
 translated: false
+type: note
 ---
 
 **Definition**:  

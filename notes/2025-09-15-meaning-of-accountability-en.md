@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: The Meaning of Accountability
 translated: false
+type: note
 ---
 
 **Accountability** means taking **responsibility for your actions, decisions, and their outcomes**—whether they’re successes or failures. It involves:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Mistral AI Agents
 translated: false
+type: note
 ---
 
 Mistral AI Agents are autonomous systems powered by large language models (LLMs) designed to execute complex tasks based on high-level instructions. Leveraging advanced natural language processing, these agents can understand and carry out specific goals, making them suitable for a wide range of applications such as customer support, data analysis, workflow automation, and coding assistance. They can plan, utilize tools, take actions, and even collaborate to achieve specific objectives, offering a new level of automation and intelligence.

@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Annulation de transaction DB2 et détection d'erreur
 translated: true
+type: note
 ---
 
 ## Quand DB2 effectue un rollback en raison d'erreurs système

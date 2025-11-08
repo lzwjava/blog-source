@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Java Messaging Systems Overview
 translated: false
+type: note
 ---
 
 ### What Are Messaging Systems in Java?

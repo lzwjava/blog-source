@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Upgrading Legacy Codebase to Newer JDK
 translated: false
+type: note
 ---
 
 Upgrading a large codebase (tens of thousands of lines) from JDK 8 and Spring 5.2.2 to a newer JDK like 11, 17, or 21 requires careful planning to minimize disruptions, especially given the use of IBM DB2 JCC drivers, heavy reliance on Spring, and deployment to WebSphere Liberty. Below, I'll outline key considerations, including compatibility, potential breaking changes, migration steps, and recommendations. Since you mentioned you can upgrade Spring as well, I'll cover scenarios where that might be necessary or beneficial.

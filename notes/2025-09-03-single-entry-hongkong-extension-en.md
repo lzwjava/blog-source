@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Single-Entry Endorsement Extension for Hong Kong
 translated: false
+type: note
 ---
 
 You're asking whether, as a Chinese citizen living in Guangzhou’s Huangpu District, you can go to the exit‑entry administration office to extend a **single‑entry endorsement** on your *Two‑Way Permit* ("Exit‑Entry Permit for Travelling to and from Hong Kong and Macao") and then use a machine to help you activate it so you can travel to Hong Kong for seven days. Let’s clear this up step by step:

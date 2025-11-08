@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Allen Zhang and WeChats Success
 translated: false
+type: note
 ---
 
 ### Allen Zhang (Zhang Xiaolong) and WeChat's Success

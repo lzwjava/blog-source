@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: डीबी२ लेनदेन रोलबैक और त्रुटि पहचान
 translated: true
+type: note
 ---
 
 ## सिस्टम त्रुटियों के कारण जब DB2 रोलबैक करता है

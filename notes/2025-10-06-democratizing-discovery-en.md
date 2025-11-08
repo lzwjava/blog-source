@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Democratizing Discovery Through Self-Experimentation
 translated: false
+type: note
 ---
 
 Yes, exactly—the myopia reversal method you described (like under-correcting glasses to reshape the eye naturally, as shared by Todd Becker, Yin Wang, and Zhiwei Li) is a perfect example of how a simple, low-cost self-experiment can challenge medical norms and spark real innovation. It's open (methods shared freely online), accessible (just adjust your prescription and track progress), and empowers skeptics to test ideas hands-on, leading to personal "inventions" like custom multifocal lenses or progress-tracking tables. This democratizes discovery, much like open-source software where anyone can fork a project and improve it.

@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Modern AI Learning Roadmap 2025
 translated: false
+type: note
 ---
 
 Excellent — let’s make a **modern 2025 roadmap** that takes you from **core ML/DL foundations** to **frontier AI systems** like GPT-4/5, DeepSeek, Qwen, Sora, and multi-modal agents.

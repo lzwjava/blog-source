@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Luca Cardelli: Visionary Computer Scientist'
 translated: false
+type: note
 ---
 
 Luca Cardelli is a highly distinguished Italian computer scientist, widely recognized for his innovative and impactful contributions across various areas of computer science, particularly in programming languages and concurrency, and more recently, in programmable biology and nanotechnology.

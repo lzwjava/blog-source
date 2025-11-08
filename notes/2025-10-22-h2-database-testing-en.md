@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Testing with H2 Database in Spring Boot
 translated: false
+type: note
 ---
 
 ### Using H2 Database in JUnit Tests with Spring Boot

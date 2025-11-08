@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Adding Executable Scripts to Pip Packages
 translated: false
+type: note
 ---
 
 ### Creating Executable Scripts in a Python Pip Package

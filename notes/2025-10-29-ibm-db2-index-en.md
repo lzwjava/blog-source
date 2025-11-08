@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: IBM DB2 Index Structure Explained
 translated: false
+type: note
 ---
 
 ### How IBM DB2 Indexes Work

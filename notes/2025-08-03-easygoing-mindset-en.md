@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Stop Being Overly Critical
 translated: false
+type: note
 ---
 
 To avoid over-criticizing and adopt a more easygoing approach, focus on shifting your mindset and habits. Here are practical steps:

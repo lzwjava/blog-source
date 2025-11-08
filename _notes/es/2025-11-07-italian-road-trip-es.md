@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Aspectos Destacados y Guía de Viaje por Carretera en Italia
 translated: true
+type: note
 ---
 
 ### Itinerario de Viaje por Carretera de Dos Semanas en Italia: Destacados y Guía de Planificación

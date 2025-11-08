@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: LSTMs Were Just Rotated ResNets
 translated: false
+type: note
 ---
 
 In his NeurIPS 2024 Test of Time award talk on the 2014 "Sequence to Sequence Learning with Neural Networks" paper, Ilya Sutskever reflected on key insights and missteps from that era. One major point he addressed under "what we got wrong" was the overcomplication and eventual limitations of LSTMs (Long Short-Term Memory networks), which powered early sequence modeling breakthroughs like machine translation.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Operational Amplifiers
 translated: false
+type: note
 ---
 
 Below is a comprehensive tutorial on **Operational Amplifiers (Op-Amps) and Their Applications**, covering the specified topics: op-amp characteristics and parameters (virtual short, virtual open), typical op-amp circuits (inverting/non-inverting amplifiers, integrators/differentiators), and nonlinear applications (comparators, waveform generators). This tutorial is designed to be thorough, beginner-friendly, and technically accurate, with practical examples and explanations.

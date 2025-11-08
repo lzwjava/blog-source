@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'Local AI Tools: Barriers to Adoption'
 translated: false
+type: note
 ---
 
 ### Why Not Many People Use Ollama for Running Local AI Models (and Interfaces Like Open-WebUI for Chatting)

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'A Comprehensive Analysis of ''Sapiens: A Brief History of Humankind'''
 translated: false
+type: note
 ---
 
 **1\. Introduction: Charting the Ascent of *Homo sapiens***  

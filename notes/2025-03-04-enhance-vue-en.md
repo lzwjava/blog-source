@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Enhancing VUE.js Development
 translated: false
+type: note
 ---
 
 ### Key Points

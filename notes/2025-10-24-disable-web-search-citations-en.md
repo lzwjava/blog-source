@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Disabling LibreChat Web Search Citations
 translated: false
+type: note
 ---
 
 ## Disabling Citations in LibreChat Web Search Mode

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Sound Reactive LED Circuit Build
 translated: false
+type: note
 ---
 
 ### Simple Music Reactive LED Circuit on Breadboard

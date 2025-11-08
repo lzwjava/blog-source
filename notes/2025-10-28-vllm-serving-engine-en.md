@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'vLLM: Efficient LLM Serving Engine'
 translated: false
+type: note
 ---
 
 ### Invention of vLLM

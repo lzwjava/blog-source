@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Configuring Single-Class Imports in IntelliJ IDEA
 translated: false
+type: note
 ---
 
 IntelliJ IDEA provides settings to control how it handles imports, including preventing the use of wildcards. Here's how you can configure it to always use single-class imports:

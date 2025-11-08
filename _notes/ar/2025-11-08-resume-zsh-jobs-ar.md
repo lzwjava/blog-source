@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: استئناف الوظائف المعلقة في zsh
 translated: true
+type: note
 ---
 
 لاستئناف وظيفة متوقفة (مثل أمر `bundle exec jekyll serve --incremental` الخاص بك، والذي تم إيقافه مؤقتًا على الأرجح باستخدام Ctrl+Z) في zsh داخل Ghostty، اتبع هذه الخطوات في نفس جلسة الطرفية:

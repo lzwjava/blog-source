@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Vegetable and Fruit Juices
 translated: false
+type: note
 ---
 
 It's generally **okay** to drink vegetable-fruit juice, including tomato juice, as part of a balanced diet. **NFC (Not From Concentrate)** juice is simply a type of processing that retains more of the original flavor and nutrients compared to juice made from concentrate.

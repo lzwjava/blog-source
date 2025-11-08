@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Opening Bank of China HK Account Guide
 translated: false
+type: note
 ---
 
 ### Opening a Bank of China (Hong Kong) Account as a Mainland Chinese Citizen

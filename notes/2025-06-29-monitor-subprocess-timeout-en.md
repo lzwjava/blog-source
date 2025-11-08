@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Monitor Subprocess Output With Timeout
 translated: false
+type: note
 ---
 
 ```python

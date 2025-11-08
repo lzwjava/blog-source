@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Integrating Liquibase with Spring Boot
 translated: false
+type: note
 ---
 
 ## Integrating Liquibase with Spring Boot

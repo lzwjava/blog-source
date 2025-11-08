@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: ASCII Hex UTF-8 Explained Simply
 translated: false
+type: note
 ---
 
 Let’s break them down clearly:

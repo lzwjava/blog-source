@@ -4,6 +4,7 @@ generated: false
 lang: en
 layout: post
 title: Understanding Neural Network
+type: note
 ---
 
 Zhiwei: 

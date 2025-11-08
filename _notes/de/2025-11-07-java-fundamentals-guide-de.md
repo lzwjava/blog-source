@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Java-Programmiergrundlagen Studienführer
 translated: true
+type: note
 ---
 
 ## National Higher Education Self-study Examination

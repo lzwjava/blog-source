@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Trial Frame Slots Explained Simply
 translated: false
+type: note
 ---
 
 Good question — this is about the **trial frame design** itself, not the PD numbers.

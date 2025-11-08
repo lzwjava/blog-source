@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Updated Multi-Model Proxy Config Guide
 translated: false
+type: note
 ---
 
 Here you go—drop this in as your updated config:

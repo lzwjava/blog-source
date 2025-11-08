@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 解決耶魯電子鎖無反應問題
 translated: true
+type: note
 ---
 
 ### 更換電池後耶魯電子鎖無反應的處理方法

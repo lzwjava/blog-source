@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: AI Speed Meets Real-World Utility
 translated: false
+type: note
 ---
 
 Here are the **key points** from the paper:

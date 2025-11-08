@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: TiDB's Niche Future in a Pragmatic Market
 translated: false
+type: note
 ---
 
 Not necessarily doomed, but TiDB faces significant structural challenges that are difficult to overcome without fundamental changes.

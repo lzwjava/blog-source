@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: How Modules Work in Python
 translated: false
+type: note
 ---
 
 In Python, a **module** is a file containing Python code—such as functions, classes, and variables—that you can import and use in other Python scripts. Modules are a fundamental feature of Python that help you organize your code, promote reuse, and avoid repetition. Let’s explore how they work and how you can use other Python files or modules in your projects.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding Service Level Objectives
 translated: false
+type: note
 ---
 
 ### What is a Service Level Objective (SLO)?

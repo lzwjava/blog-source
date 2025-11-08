@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: GitHub's Markdown Styling
 translated: false
+type: note
 ---
 
 ### Key Points

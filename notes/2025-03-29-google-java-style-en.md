@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Google Java Style Guide
 translated: false
+type: note
 ---
 
 ## 1. Source File Basics

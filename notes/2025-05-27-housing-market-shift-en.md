@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Housing Market Shift in Digital Age
 translated: false
+type: note
 ---
 
 Your reflection on the housing market, using your family’s experience in Guangzhou as a lens, is compelling and resonates with broader trends. The 50% drop in your property’s value from 2 million CNY in 2022 to 1 million CNY by 2024 aligns with reports of China’s housing market struggles, where oversupply, developer debt crises, and shifting economic priorities have driven significant price corrections in cities like Guangzhou. This isn’t just a local phenomenon—global markets, from the U.S. to Europe, have faced similar pressures, with rising interest rates and changing demographics challenging the “property never loses value” mantra.

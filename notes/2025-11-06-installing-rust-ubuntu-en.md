@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Installing Rust on Ubuntu
 translated: false
+type: note
 ---
 
 ### Installing Rust on Ubuntu 22.04 LTS

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Configuring Docker Daemon Proxy Settings
 translated: false
+type: note
 ---
 
 ### Configuring Docker Daemon for Proxy Settings

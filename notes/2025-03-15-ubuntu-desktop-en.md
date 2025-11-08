@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Installing a Desktop Environment on Ubuntu
 translated: false
+type: note
 ---
 
 It sounds like your Ubuntu system might not have a graphical user interface (GUI) installed, which would explain why you don’t see a file browser (often called a file manager in Linux) or any kind of “finder.” This could happen if you installed a server version of Ubuntu, chose a minimal installation, or if there’s an issue preventing the GUI from loading. Don’t worry—we can fix this by installing a GUI like GNOME (Ubuntu’s default desktop environment) or another option if you prefer. Here’s how to do it step-by-step.

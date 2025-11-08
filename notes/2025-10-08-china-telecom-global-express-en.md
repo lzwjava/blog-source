@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: China Telecoms Premium Global Express Lane
 translated: false
+type: note
 ---
 
 ### What is CN2 in the Context of China's Network Export to Global/Overseas Connections?

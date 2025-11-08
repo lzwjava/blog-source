@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: हार्डवेयर समानांतरता सरणी अनुक्रमण को गति देती है
 translated: true
+type: note
 ---
 
 ### इंडेक्सिंग बाइनरी सर्च से तेज़ क्यों है?

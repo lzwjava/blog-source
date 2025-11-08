@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Tobias Nipkow: Logic and Proof Pioneer'
 translated: false
+type: note
 ---
 
 Tobias Nipkow (born 1958) is a prominent German computer scientist, widely recognized for his significant contributions to the field of logic in computer science, particularly in the areas of interactive and automatic theorem proving.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring Data REST Module
 translated: false
+type: note
 ---
 
 To use **spring-data-rest-core**, you can leverage the Spring Data REST module to expose your Spring Data repositories as RESTful endpoints in your application. Below is a complete, step-by-step guide to get you started:

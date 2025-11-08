@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Beaches in Philippine
 translated: false
+type: note
 ---
 
 The Philippines is *famous* for having some of the most beautiful beaches in the world! 🏝️ Here are some of the truly great ones:

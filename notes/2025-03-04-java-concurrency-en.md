@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Concurrency
 translated: false
+type: note
 ---
 
 ### Key Points

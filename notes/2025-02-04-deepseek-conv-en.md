@@ -3,6 +3,7 @@ audio: true
 generated: false
 layout: post
 title: Deepseek - Conversation
+type: note
 ---
 
 A: I’ve been going through the DeepSeek-V3 technical report, and I’m really impressed by the scale of this model. 671 billion parameters, but only 37 billion activated per token? That’s a massive MoE architecture. How does it even work?
@@ -184,4 +185,3 @@ B: They’re looking at several areas, like refining the architecture to support
 A: Sounds like they’re not slowing down anytime soon. Thanks for walking me through all of this—DeepSeek-V3 is definitely a game-changer in the open-source LLM space.
 
 B: Absolutely! It’s exciting to see how far open-source models have come. DeepSeek-V3 is pushing the boundaries, and I can’t wait to see what they do next.
-

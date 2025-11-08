@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: CASCADE in Programming Explained
 translated: false
+type: note
 ---
 
 ### CASCADE in Programming

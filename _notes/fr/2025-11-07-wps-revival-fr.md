@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: 'WPS : du bord de l''échec au succès mobile'
 translated: true
+type: note
 ---
 
 ## L'épopée de WPS : De la quasi-disparition à la renaissance

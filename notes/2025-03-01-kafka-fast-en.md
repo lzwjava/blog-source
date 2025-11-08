@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Why is Kafka Fast
 translated: false
+type: note
 ---
 
 ### Key Points

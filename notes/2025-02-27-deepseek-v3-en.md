@@ -4,6 +4,7 @@ generated: true
 lang: en
 layout: post
 title: DeepSeek V3
+type: note
 ---
 
 ### Overview and Key Highlights
@@ -106,4 +107,3 @@ title: DeepSeek V3
 ---
 
 This document provides a comprehensive summary of DeepSeek-V3, encapsulating its architecture, training methodologies, benchmark performance, and future prospects. Let me know if you need further elaboration on specific sections or additional points!
-

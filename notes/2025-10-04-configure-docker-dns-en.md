@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Configure Docker Daemon DNS Servers
 translated: false
+type: note
 ---
 
 To configure DNS servers for the Docker daemon (which will be used by containers unless overridden at the container level), you can edit the `/etc/docker/daemon.json` file. This file allows you to customize Docker's runtime behavior.

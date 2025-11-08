@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: SenseTime AI Models Lag Rivals
 translated: false
+type: note
 ---
 
 ### Understanding SenseTime's DayDayNew and Riri Xin Models

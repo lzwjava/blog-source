@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Postmortem Analysis for Team Improvement
 translated: false
+type: note
 ---
 
 A post-mortem (often just called a "postmortem") is a structured review process that teams or organizations use to analyze what happened after a project, event, or incident ends—whether it was a success, failure, or something in between. The term comes from the literal meaning in medicine (an autopsy after death), but in business, teams, or project management, it's a metaphorical "autopsy" of your work to learn and improve. It's not about rehashing drama but extracting lessons to do better next time.

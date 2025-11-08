@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Chronic Anger Harms Brain and Body
 translated: false
+type: note
 ---
 
 Prolonged or chronic anger can have significant negative impacts on a person's brain and overall health, both psychologically and physiologically. While it doesn't typically cause "brain broken" in the sense of a physical break, it can lead to detrimental changes and impaired functioning.

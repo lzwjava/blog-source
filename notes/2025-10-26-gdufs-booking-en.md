@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Booking GDUFS Computer Practical Exam
 translated: false
+type: note
 ---
 
 ### How to Book the Computer-Based Practical Exam for Self-Taught Higher Education Examination (STHEE) Course 610201 (Computer Application Technology) at Guangdong University of Foreign Studies (GDUFS)

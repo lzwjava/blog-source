@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Flyway Database Migration Guide
 translated: false
+type: note
 ---
 
 ### Introduction to Flyway

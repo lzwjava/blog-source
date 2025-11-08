@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hot Deployment in WebSphere WAS
 translated: false
+type: note
 ---
 
 ### Understanding Hot Deployment and Hotswap in WebSphere Application Server (WAS)

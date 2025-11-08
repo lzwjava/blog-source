@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using FXForms in iOS
 translated: false
+type: note
 ---
 
 It looks like you're referring to integrating the `FXForms` library into an iOS project using CocoaPods, a popular dependency manager for Swift and Objective-C projects. Here's a step-by-step guide to help you use `pod 'FXForms', '1.2.13'` in your project:

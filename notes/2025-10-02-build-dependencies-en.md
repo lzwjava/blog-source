@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Development Dependencies and Build Tools
 translated: false
+type: note
 ---
 
 ### DevDependencies

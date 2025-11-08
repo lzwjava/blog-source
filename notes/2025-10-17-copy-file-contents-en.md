@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Copy File Contents in Vi
 translated: false
+type: note
 ---
 
 ## Copying (or Moving) All Content from One File to a New File in Vi

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Create a PostgreSQL Database
 translated: false
+type: note
 ---
 
 You're already in the PostgreSQL interactive terminal (`psql`) as the `postgres` user, which is great! To create a database in PostgreSQL, you can use the `CREATE DATABASE` command. Here's a step-by-step guide:

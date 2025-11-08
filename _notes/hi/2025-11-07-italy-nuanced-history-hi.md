@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'इटली का इतिहास: एक बारीक नज़रिया'
 translated: true
+type: note
 ---
 
 ### क्या कथन सत्य है?

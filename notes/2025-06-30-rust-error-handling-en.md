@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rust's Error Handling Without Exceptions
 translated: false
+type: note
 ---
 
 Rust does **not** have exceptions in the traditional sense, like Java or C\#. Instead, it handles errors primarily through **return values**, similar to Go's `if err != nil` pattern, but with a more robust and type-safe approach.

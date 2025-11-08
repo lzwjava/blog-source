@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Investing Trends
 translated: false
+type: note
 ---
 
 Investing over a **10-year horizon** requires balancing **long-term growth opportunities**, **risk management**, and **diversification**. Here’s a strategic breakdown of where to focus (stocks, crypto, AI, and beyond), along with actionable insights:

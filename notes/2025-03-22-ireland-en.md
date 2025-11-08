@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Ireland
 translated: false
+type: note
 ---
 
 ### Key Points

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Python Cryptography Guide
 translated: false
+type: note
 ---
 
 ### Introduction to the Cryptography Package

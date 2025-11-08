@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: WebP to JPG Conversion in Ubuntu
 translated: false
+type: note
 ---
 
 You have several excellent options for converting WebP to JPG in Ubuntu, both from the command line and with GUI tools.

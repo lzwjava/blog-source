@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Optimizing API Router Model Configurations
 translated: false
+type: note
 ---
 
 The configuration you've shared appears to be a routing setup for directing different types of tasks or queries to specific language models via an API router (possibly OpenRouter). Here's how you can optimize each field for best performance and cost-efficiency:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Le parallélisme matériel accélère l'indexation des tableaux
 translated: true
+type: note
 ---
 
 ### Pourquoi l'indexation est-elle plus rapide que la recherche dichotomique ?

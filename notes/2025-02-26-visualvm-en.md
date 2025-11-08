@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Profiling Java Applications with VisualVM
 translated: false
+type: note
 ---
 
 Here’s a clear and concise guide on **how to use VisualVM** to monitor and profile Java applications. VisualVM is a free, powerful tool included with the JDK that helps you analyze performance, memory usage, and thread activity in your Java applications.

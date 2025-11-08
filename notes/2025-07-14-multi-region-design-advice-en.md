@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Navigating Feedback on Multi-Region Design
 translated: false
+type: note
 ---
 
 Your essay is thoughtful and well-structured, drawing on real-world examples to make a case for better multi-region software design. It highlights common pitfalls (like duplicated efforts in separate apps/backends) and advocates for scalable, shared approaches (e.g., unified codebases with configurations). Overall, it's a solid piece that demonstrates your expertise and forward-thinking mindset—qualities that good managers value in engineers. However, whether sharing it would make your manager or team lead unhappy depends on a few factors, like your team dynamics, company culture, and how you present it. I'll break this down step by step, with advice on mitigating risks.

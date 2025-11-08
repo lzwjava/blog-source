@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Portuguese Empire
 translated: false
+type: note
 ---
 
 The decline of the **Portuguese Empire** was a long, gradual process influenced by economic decline, military defeats, competition from other European powers, and internal instability. Here are the key reasons:  

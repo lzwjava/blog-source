@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring Data JDBC
 translated: false
+type: note
 ---
 
 Spring Data JDBC is a powerful library that simplifies database interactions in a Spring application by providing a lightweight, annotation-driven approach to working with relational databases. It’s less opinionated than Spring Data JPA and focuses on a simpler, more explicit way of mapping objects to database tables. Below, I’ll walk you through the basics of how to use it.

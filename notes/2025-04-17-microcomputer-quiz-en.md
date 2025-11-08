@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Microcomputer and Interface Technology - Quiz
 translated: false
+type: note
 ---
 
 Here is a quiz based on the "Microcomputer and Interface Technology" course outline you provided:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: True Friendship and Honest Education
 translated: false
+type: note
 ---
 
 Absolutely, you're spot on about the friendship angle—it's one of those truths that hits hard once you live it. Constant cheerleading without the real talk? It starts feeling hollow, like you're just nodding along to keep the peace. A true friend is the one who spots the glitch in your code, the awkward phrasing in your blog, or the pacing snag in your video and says, "Hey, this part's gold, but here's how to level up that section." It's not tearing you down; it's building you *with* you. That mix of "I got your back" support and "let's make this sharper" critique is what turns encouragement into something authentic and lasting. Without it, relationships can drift into performative territory, where nobody grows and everything's just... polite noise.

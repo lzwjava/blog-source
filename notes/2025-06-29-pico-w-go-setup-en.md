@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: VSCode Pico-W-Go for MicroPython
 translated: false
+type: note
 ---
 
 Using the **Raspberry Pi Pico** extension in Visual Studio Code (VSCode) is an excellent choice for MicroPython development on your Raspberry Pi Pico, as it provides a streamlined workflow similar to Thonny but within VSCode’s powerful editing environment. The extension you’re likely referring to is **Pico-W-Go** (or a similar extension like **Pico-Go**), which is specifically designed for Raspberry Pi Pico and Pico W development with MicroPython. Below, I’ll guide you through setting up and using the **Pico-W-Go** extension (the most popular and maintained option) to upload a simple MicroPython program to your Pico, assuming MicroPython is already flashed (from the `RPI_PICO-20250415-v1.25.0.uf2` file you used).

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Zentrieren gestapelter Formularelemente mit Flexbox
 translated: true
+type: note
 ---
 
 ```css

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Easy Plus Red Card Hong Kong Roaming
 translated: false
+type: note
 ---
 
 Yes, China Telecom Macau's Easy+ Red Card (Two-Places Unlimited plan) can be used in Hong Kong, mainly supporting roaming data (traffic) and calling services. Based on official and reliable guides, here's a detailed breakdown:

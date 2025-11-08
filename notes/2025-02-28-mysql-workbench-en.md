@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using MySQL Workbench
 translated: false
+type: note
 ---
 
 ### Key Points

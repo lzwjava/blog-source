@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Yin Wang's Scientific Skepticism Memo
 translated: false
+type: note
 ---
 
 ### Translation and Explanation of Yin Wang's Substack Post

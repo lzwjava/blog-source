@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: TinyGrad Lightweight ML Library
 translated: false
+type: note
 ---
 
 ### Introduction to TinyGrad

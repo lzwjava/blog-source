@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Greg Morrisett: Academic Leader in Tech'
 translated: false
+type: note
 ---
 
 Greg Morrisett is a distinguished computer science scholar and academic leader, currently serving as the Jack and Rilla Neafsey Dean and Vice Provost of Cornell Tech in New York City since June 2019. Cornell Tech is a campus of Cornell University focused on graduate education that integrates technology, business, law, and design to achieve economic and societal impact.

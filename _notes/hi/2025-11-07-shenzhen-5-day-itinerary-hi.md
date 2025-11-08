@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: शेन्ज़ेन पाँच दिवसीय यात्रा कार्यक्रम
 translated: true
+type: note
 ---
 
 ### शेनझेन, गुआंगडोंग में 5-दिवसीय यात्रा की योजना

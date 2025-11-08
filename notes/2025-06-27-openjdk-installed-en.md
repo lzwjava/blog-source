@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Locating Your OpenJDK 21.0.7 Installation on Ubuntu 22.04
 translated: false
+type: note
 ---
 
 The `java --version` command you ran shows that you have OpenJDK 21.0.7 installed on your system, specifically the version packaged for Ubuntu 22.04. This output confirms that the Java Development Kit (JDK) is installed and accessible from your command line.

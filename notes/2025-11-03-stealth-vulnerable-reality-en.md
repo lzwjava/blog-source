@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Stealth Technology's Vulnerable Reality
 translated: false
+type: note
 ---
 
 Pierre Sprey, a veteran aerospace engineer and co-designer of the F-16 fighter jet, has indeed made statements very close to the quote you shared. In a 2012 interview with CBC's *The Fifth Estate*, he said: "The first thing to know about stealth is, it's a scam. It simply does not work. Radars that were built in 1942 could detect every stealth airplane in the world today." He's been vocal about this criticism for years, often arguing that stealth technology is overhyped and vulnerable, especially to low-frequency radar systems.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fix Rust Project Setup
 translated: false
+type: note
 ---
 
 It looks like you're trying to set up and run a simple Rust project based on the provided `Cargo.toml` snippet and the file structure (a `rust` subdirectory containing `example.rs`). However, there are a few issues preventing this from working out of the box:

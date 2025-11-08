@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Model Context Protocol
 translated: false
+type: note
 ---
 
 The **Model Context Protocol** is a framework or set of guidelines used to manage and share contextual information across different components or layers of a system, particularly in machine learning (ML) and artificial intelligence (AI) applications. It ensures that models, services, and processes have access to relevant contextual data while maintaining consistency, security, and efficiency.

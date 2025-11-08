@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fix DeepSeek Claude Code Schema Mismatch
 translated: false
+type: note
 ---
 
 Short answer: schema mismatch.

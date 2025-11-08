@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Subspace
 translated: false
+type: note
 ---
 
 To determine which of the given sets is a subspace of $\mathbb{R}^2$, we need to check if they satisfy the three conditions for a subspace:

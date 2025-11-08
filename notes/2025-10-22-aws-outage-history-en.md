@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Major AWS Outages Throughout History
 translated: false
+type: note
 ---
 
 ### Major Outages in AWS History

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Missing libpq-fe.h for psycopg2
 translated: false
+type: note
 ---
 
 When trying to install the Python package `psycopg2`, you encountered an error indicating that the wheel could not be built successfully. The key part of the error message is:

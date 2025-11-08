@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Highly Regarded Computer Science Books
 translated: false
+type: note
 ---
 
 Here’s a curated list of 30 highly regarded computer science books spanning systems, programming, algorithms, networking, theory, and more, all comparable in depth and quality to *Computer Systems: A Programmer’s Perspective*:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Making Soy Milk
 translated: false
+type: note
 ---
 
 I’m assuming you’re asking about making **soybean milk** or a **bean-based paste** (like red bean paste) using a Joyoung soy milk maker, as this is one of its primary functions. Since you mentioned "bean" without specifying, I’ll focus on making **soy milk** with soybeans, as it’s the most common use, and briefly cover **red bean paste** as an alternative. If you meant a different type of bean or preparation, please clarify, and I’ll tailor the response!

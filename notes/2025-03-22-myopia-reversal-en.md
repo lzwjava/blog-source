@@ -6,6 +6,7 @@ layout: post
 title: 'Examining the Claims of Myopia Reversal: A Comparison of Alternative Theories
   and Medical Evidence'
 translated: false
+type: note
 ---
 
 **1. Introduction** 

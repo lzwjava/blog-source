@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Tomasz Czajka
 translated: false
+type: note
 ---
 
 Tomasz Czajka is a highly acclaimed Polish programmer known for his exceptional achievements in international programming competitions and his subsequent impactful career in the technology industry. His journey is marked by significant victories on global stages and contributions to prominent tech companies, making him an inspirational figure in the world of computer science.

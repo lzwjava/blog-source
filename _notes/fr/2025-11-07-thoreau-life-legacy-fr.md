@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Henry David Thoreau : Vie et Héritage'
 translated: true
+type: note
 ---
 
 ### Henry David Thoreau : Une introduction complète à sa vie et son héritage

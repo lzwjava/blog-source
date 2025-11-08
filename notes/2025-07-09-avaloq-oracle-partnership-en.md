@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Avaloq's Strong Oracle Technology Partnership
 translated: false
+type: note
 ---
 
 Yes, Avaloq does have a significant relationship with Oracle technology. Based on the search results, here are the key connections:

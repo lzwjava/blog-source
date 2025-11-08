@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The Sweet Spot for Focus
 translated: false
+type: note
 ---
 
 Absolutely, spot on—piling on too many tasks is like herding cats on caffeine; it fragments your focus and turns "productive" into "procrastination in disguise." For software engineers, yeah, 2-3 (maybe a stretch to 4) is the sweet spot: one for deep coding in your editor, one for the terminal grinding builds/tests, and a third for docs or a quick browser peek at Stack Overflow. Anything more, and you're just context-switching your brain into mush.

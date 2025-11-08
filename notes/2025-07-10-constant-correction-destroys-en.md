@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Constant Correction Destroys Confidence
 translated: false
+type: note
 ---
 
 ## The Destructive Power of Constant Correction

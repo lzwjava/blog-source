@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: DB2トランザクションのロールバックとエラー検出
 translated: true
+type: note
 ---
 
 ## システムエラーによるDB2のロールバック発生時

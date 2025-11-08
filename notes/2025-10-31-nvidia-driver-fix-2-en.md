@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fixing NVIDIA Driver Package Conflict
 translated: false
+type: note
 ---
 
 This looks like a classic package conflict during an NVIDIA driver update on Ubuntu (likely 22.04 based on the package versions). The `nvidia-kernel-common-535` package is trying to overwrite a firmware file (`gsp_ga10x.bin`) that's already owned by `nvidia-firmware-535`, causing dpkg to bail out. This is a known issue with NVIDIA 535-series drivers from Ubuntu repos.

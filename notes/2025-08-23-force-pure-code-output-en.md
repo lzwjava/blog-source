@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Force Pure Code Output Methods
 translated: false
+type: note
 ---
 
 Got it—you want Claude Code (and your “router” workflows that call it) to output **code only**, with **no inline comments/docstrings/explanations**. Here are three reliable ways to enforce that, from softest to strongest. No tables—just straight steps.

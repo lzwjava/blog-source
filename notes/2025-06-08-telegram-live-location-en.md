@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Live Location in Telegram
 translated: false
+type: note
 ---
 
 You're observing a common pattern with Telegram's live location updates, and based on the `edit_date` timestamps, it certainly looks like live location updates can be received very frequently, potentially even every second or at very short intervals.

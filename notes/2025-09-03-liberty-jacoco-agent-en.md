@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Comparing Liberty Agent and JaCoCo Agent
 translated: false
+type: note
 ---
 
 In WebSphere Liberty (WLP), the `ws-javaagent.jar` is IBM’s own Java instrumentation agent. It’s used mainly for runtime monitoring, diagnostics, and integration with tools like Application Performance Management (APM), Health Center, or Liberty’s own monitoring capabilities. When you enable it, Liberty can collect profiling, garbage collection, thread, and other JVM-level metrics automatically.

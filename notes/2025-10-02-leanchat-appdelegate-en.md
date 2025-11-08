@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: LeanChatSwift AppDelegate Code Explanation
 translated: false
+type: note
 ---
 
 This Swift file is the **AppDelegate** for an iOS app called **LeanChatSwift**, which appears to be a chat application built using **LeanCloud** (a BaaS—Backend as a Service—platform, similar to Firebase).

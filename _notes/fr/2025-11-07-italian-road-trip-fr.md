@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Itinéraire et Incontournables d'un Road Trip en Italie
 translated: true
+type: note
 ---
 
 ### Itinéraire de road trip de deux semaines en Italie : Points forts et guide de planification

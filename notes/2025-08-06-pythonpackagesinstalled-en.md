@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Python Packages Installed
 translated: false
+type: note
 ---
 
 These are all Python packages (wheels) being installed—here’s a very brief rundown of each:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 意大利自駕遊精華與指南
 translated: true
+type: note
 ---
 
 ### 意大利兩週自駕遊行程：精華景點與規劃指南

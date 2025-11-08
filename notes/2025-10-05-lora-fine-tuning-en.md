@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: LoRA Fine-Tuning Guide and Projects
 translated: false
+type: note
 ---
 
 ### Understanding LoRA from the Blog

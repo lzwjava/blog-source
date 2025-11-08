@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Copilot Context Window Workarounds
 translated: false
+type: note
 ---
 
 You're hitting on a crucial point about working with AI models in IDEs like Copilot: context window limitations. While 4096 tokens might seem small for a large codebase or complex problem, there are indeed workarounds and important considerations.

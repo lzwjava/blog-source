@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: BOC HK Credit Cards for Mainland Applicants
 translated: false
+type: note
 ---
 
 ### Eligibility for Mainland Chinese Citizens Applying for BOC HK Credit Cards

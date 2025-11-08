@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Höhepunkte und Leitfaden für eine Italien-Rundreise
 translated: true
+type: note
 ---
 
 ### Zwei-Wochen-Roadtrip durch Italien: Highlights und Planungsleitfaden

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: IBM WebSphere Service Integration Bus
 translated: false
+type: note
 ---
 
 ### Service Integration Bus in IBM WebSphere Application Server

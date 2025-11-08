@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Control-M Job Workflow and Dependencies Explained
 translated: false
+type: note
 ---
 
 Great question! Let’s break it down step by step.

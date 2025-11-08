@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'John Reynolds: Pioneer of Programming Languages'
 translated: false
+type: note
 ---
 
 John Charles Reynolds (1935-2013) was a highly influential American computer scientist, renowned for his fundamental contributions to the theory of programming languages.

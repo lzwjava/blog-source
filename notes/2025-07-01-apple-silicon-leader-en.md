@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Apple's Silicon Architect
 translated: false
+type: note
 ---
 
 **Johny Srouji** is a key figure in the tech industry, particularly known for his pivotal role in **Apple Inc.** as the **Senior Vice President of Hardware Technologies**. Born in **Haifa, Israel**, to a Lebanese Maronite Christian family, Srouji holds a **Bachelor’s and Master’s degree in Computer Science** from the **Technion – Israel Institute of Technology**, one of the top technical universities in the world.

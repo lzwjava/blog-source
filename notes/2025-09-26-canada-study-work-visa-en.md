@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Canada Study and Work Visa Requirements
 translated: false
+type: note
 ---
 
 To **study** or **work** in **Canada**, you typically need the following types of visas or permits:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Chinese Labor Culture Inquiry
 translated: false
+type: note
 ---
 
 I should clarify some assumptions in your question, as it contains generalizations that don't accurately reflect the reality of China's diverse population and economy.

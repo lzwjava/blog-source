@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Zig: A Better C Alternative'
 translated: false
+type: note
 ---
 
 Zig is a fascinating relatively new systems programming language that aims to be a "better C." It's gaining a lot of attention for its unique features and philosophy.

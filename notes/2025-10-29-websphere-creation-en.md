@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Correct WebSphere Application Server Creation
 translated: false
+type: note
 ---
 
 No, the command `nodeName -name serverName admin create applciation server` (noting the typo in "applciation") is not correct for creating an application server in IBM WebSphere Application Server (WAS) using wsadmin scripting.

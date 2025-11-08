@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Understanding Your Payslip
 translated: false
+type: note
 ---
 
 Payslips are essential documents that detail your earnings, deductions, and the amount you take home each month. This guide explains a typical payslip using clear English terms and hypothetical examples, ensuring it’s easy to follow for an English-speaking audience. Whether you’re an employee or an employer, this breakdown will help you understand payslip components with confidence. Let’s dive into the main sections using a generic example for "Employee Name."
@@ -89,4 +90,3 @@ Understanding English terms on payslips—or using them—helps in diverse workp
 
 ### Conclusion
 Your payslip is more than numbers; it’s a record of your financial relationship with your employer. By grasping key English terms like “gross salary,” “variable pay,” and “net salary,” you take charge of your finances. If your payslip isn’t in English, use this guide to interpret it or ask HR for a translated version. Have questions? Contact your payroll team—open communication ensures payroll clarity.
-

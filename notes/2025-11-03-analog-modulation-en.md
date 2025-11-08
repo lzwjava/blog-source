@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Analog Modulation Techniques: AM, FM, PM'
 translated: false
+type: note
 ---
 
 ### Modulation Techniques: AM, FM, and PM

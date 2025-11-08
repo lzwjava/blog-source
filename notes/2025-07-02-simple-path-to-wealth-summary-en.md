@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Simplify Investing for Financial Freedom
 translated: false
+type: note
 ---
 
 In a discussion with Rachel Smith, J.L. Collins, author of "The Simple Path to Wealth," outlined his philosophy on financial independence and investing. He defines wealth as **security and freedom**, achievable when **4% of your assets cover annual expenses** (the 4% rule).

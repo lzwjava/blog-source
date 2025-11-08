@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Event-Driven Architecture Challenges with Kafka
 translated: false
+type: note
 ---
 
 ### Disadvantages of Event-Driven Architectures with Kafka

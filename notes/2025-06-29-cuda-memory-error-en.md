@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fixing Thrust CUDA Memory Allocation Errors
 translated: false
+type: note
 ---
 
 The error `thrust::system::detail::bad_alloc` with `cudaErrorUnknown: unknown error` and the subsequent `Aborted (core dumped)` indicates a runtime issue with your CUDA program, likely related to memory allocation or GPU compatibility when using Thrust for sorting. This error typically arises when the CUDA runtime encounters a problem, such as insufficient GPU memory, an incompatible GPU, or a misconfigured CUDA environment. Below, I’ll outline steps to diagnose and fix the issue based on the provided code and error.

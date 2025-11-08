@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Apache DataFusion Comet Accelerates Spark
 translated: false
+type: note
 ---
 
 ### Apache DataFusion Comet

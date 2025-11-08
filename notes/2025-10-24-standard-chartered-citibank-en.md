@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Standard Chartered versus Citibank Comparison
 translated: false
+type: note
 ---
 
 ### Overview

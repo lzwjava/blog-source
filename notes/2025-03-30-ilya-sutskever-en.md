@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Ilya Sutskever
 translated: false
+type: note
 ---
 
 Ilya Sutskever, co-founder of OpenAI, recently discussed the end of the pre-training era in AI, highlighting several key points:

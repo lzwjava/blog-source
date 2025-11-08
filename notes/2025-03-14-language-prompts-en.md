@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Language Learning Prompts
 translated: false
+type: note
 ---
 
 Here are some often-used prompts for learning languages, specifically tailored to studying Japanese through song lyrics like "未来へ" (Mirai e) by Kiroro. These prompts focus on key aspects of language learning—vocabulary, pronunciation, grammar, and cultural context—making the process engaging and comprehensive. Below, I’ll also provide the lyrics for "未来へ - Mirai e" in Japanese, along with a detailed explanation of each word and its pronunciation as requested. Additional prompts will follow for broader applicability.

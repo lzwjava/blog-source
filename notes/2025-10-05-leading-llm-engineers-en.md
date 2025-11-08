@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Leading LLM Engineers and Researchers
 translated: false
+type: note
 ---
 
 ### Top 10 AI Experts/Engineers in the LLM Era

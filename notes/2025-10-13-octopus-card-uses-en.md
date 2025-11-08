@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong Octopus Card Uses
 translated: false
+type: note
 ---
 
 ### Uses of the Octopus Card in Hong Kong

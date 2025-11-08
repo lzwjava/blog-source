@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: University Chinese Self-Study Guide
 translated: false
+type: note
 ---
 
 Below is the English translation of the provided outline for the self-study examination course **04729 University Chinese** based on the 2018 syllabus, summarized from available online information. The translation maintains the structure and key details of the original response, covering the course nature, objectives, content, textbook, exam format, and study tips. For the full syllabus PDF, candidates should visit the official website of the relevant education examination authority or self-study exam platforms.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: JMS in WebSphere Application Server
 translated: false
+type: note
 ---
 
 ### How JMS Works in IBM WebSphere Application Server (WAS)

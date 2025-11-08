@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'vLLM: Fast LLM Inference Guide'
 translated: false
+type: note
 ---
 
 vLLM is an open-source library designed for fast and memory-efficient inference and serving of large language models (LLMs). Developed initially at the Sky Computing Lab at UC Berkeley, it has grown into a community-driven project with contributions from academia and industry. vLLM addresses key challenges in LLM deployment, such as high latency, memory fragmentation, and low throughput, making it ideal for production environments. It supports seamless integration with Hugging Face models and provides an OpenAI-compatible API for easy adoption.

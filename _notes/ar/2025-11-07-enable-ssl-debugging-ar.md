@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: تمكين تصحيح أخطاء بروتوكول أمان النقل لـ Java
 translated: true
+type: note
 ---
 
 ### تمكين تصحيح SSL/TLS في Java

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Enterprise Database Market Thrives in 2025
 translated: false
+type: note
 ---
 
 The enterprise database market in 2025 is experiencing robust growth and significant transformation. Here's the current landscape:

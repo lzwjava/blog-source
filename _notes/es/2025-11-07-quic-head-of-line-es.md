@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: QUIC Resuelve el Bloqueo de Cabecera de Línea
 translated: true
+type: note
 ---
 
 ### El Problema: Bloqueo de Línea de Cabecera en Comunicaciones en Tiempo Real

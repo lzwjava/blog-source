@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Analyzing Log4j Logs
 translated: false
+type: note
 ---
 
 Yes, there are tools available to help you read and search logs from a Log4j and Spring project running on a WebSphere Liberty server, especially with features like timestamps, thread numbers, logging levels, and messages, and the ability to search by thread or time. Below are two effective options that meet your requirements:

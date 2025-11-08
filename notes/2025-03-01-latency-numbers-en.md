@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Latency Numbers
 translated: false
+type: note
 ---
 
 ### Key Points

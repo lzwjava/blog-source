@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Db2 Community Edition Overview
 translated: false
+type: note
 ---
 
 ### Function of Db2 Community Edition

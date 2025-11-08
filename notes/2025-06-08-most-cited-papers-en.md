@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 25 Most-Cited Papers
 translated: false
+type: note
 ---
 
 Below is a concise introduction to each of the listed papers, summarizing their key contributions and significance in their respective fields. The introductions aim to provide a brief overview while capturing the essence of each work.

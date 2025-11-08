@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Homemade Firearm Legal and Safety Guide
 translated: false
+type: note
 ---
 
 ### Important Warnings Before Proceeding

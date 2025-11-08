@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Tourism Spots in Philippines
 translated: false
+type: note
 ---
 
 The Philippines, an archipelago of over 7,000 islands, is a treasure trove of stunning landscapes, rich history, and vibrant culture, offering a diverse range of tourism spots that cater to various interests.

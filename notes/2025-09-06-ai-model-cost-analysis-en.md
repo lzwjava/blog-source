@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: AI Model Cost-Performance Analysis and Recommendations
 translated: false
+type: note
 ---
 
 1. Analyze the cost-effectiveness of each model by comparing their performance metrics, such as accuracy, speed, and scalability, against their pricing structures to identify the most cost-efficient options.

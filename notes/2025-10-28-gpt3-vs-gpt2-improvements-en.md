@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPT-3 vs GPT-2 Key Improvements
 translated: false
+type: note
 ---
 
 ### Overview

@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Publishing Open Source Learning Notes Safely
 translated: false
+type: note
 ---
 
 Yes, in general it’s perfectly fine—but with some important nuances you’ll want to keep in mind:

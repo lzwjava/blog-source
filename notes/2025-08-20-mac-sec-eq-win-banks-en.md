@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Mac Security Equals Windows Banks
 translated: false
+type: note
 ---
 
 That’s a good question — large banks like **HSBC** or **DBS** run with extremely tight endpoint security, and traditionally most of those setups have been designed around Windows. But Macs can be controlled just as tightly; the tooling is a bit different, though the goals (VPN, internet access controls, privilege management, monitoring, compliance) are the same. Let me break it down for you.

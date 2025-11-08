@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Python LangChain Patterns
 translated: false
+type: note
 ---
 
 Here are a few concise, illustrative Python snippets showing common LangChain patterns. You can mix and match these pieces to build more complex workflows.

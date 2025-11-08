@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: MSI MAG B760M Mortar WiFi Overview
 translated: false
+type: note
 ---
 
 ### Introduction to MSI MAG B760M Mortar WiFi Gaming Motherboard

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AWS VP and Silicon Innovator Nafea Bshara
 translated: false
+type: note
 ---
 
 ### Nafea Bshara: AWS VP and Silicon Innovator

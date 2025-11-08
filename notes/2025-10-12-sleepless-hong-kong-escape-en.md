@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Sleepless Hong Kong Weekend Escape
 translated: false
+type: note
 ---
 
 ### Refined Story: A Sleepless Weekend Escape to Hong Kong

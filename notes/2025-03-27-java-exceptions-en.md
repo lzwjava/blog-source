@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Exceptions
 translated: false
+type: note
 ---
 
 Here's an extensive list of Java exceptions, categorized into **Checked Exceptions, Unchecked Exceptions (Runtime), and Errors**.

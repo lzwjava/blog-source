@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Older Founders Excel in Tech Startups
 translated: false
+type: note
 ---
 
 Yes, absolutely! The idea that successful tech and app startups are solely the domain of young, college-dropout founders is largely a myth. In fact, research suggests that **older founders (in their 40s, 50s, and even beyond) actually have a higher probability of success, including lasting long, exiting well, and achieving good profit and revenue.**

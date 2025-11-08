@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Tamil Phrase: He is Good'
 translated: false
+type: note
 ---
 
 The phrase **"Nala erukan"** is from Tamil, a Dravidian language spoken primarily in Tamil Nadu, India, and parts of Sri Lanka. Breaking it down:

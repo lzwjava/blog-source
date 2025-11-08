@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Instantiation Exception
 translated: false
+type: note
 ---
 
 To fix the `java.lang.InstantiationException` occurring in `LazyDynaBean.java` at line 844 with the error message "Error instantiating property of type," follow these steps. This exception typically arises when the Apache Commons BeanUtils library's `LazyDynaBean` attempts to create an instance of a property’s type but fails because the type cannot be instantiated—most likely because it is an abstract class, an interface, or lacks a public no-argument constructor.

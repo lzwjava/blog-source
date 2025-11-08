@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: China's AI Tigers Evolve
 translated: false
+type: note
 ---
 
 ### China's First-Wave AI Startups: From the "Tigers" to Today's Leaders

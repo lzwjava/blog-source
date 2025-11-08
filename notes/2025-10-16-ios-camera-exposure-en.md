@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Mastering iOS Camera Exposure Controls
 translated: false
+type: note
 ---
 
 ### Advanced Usage of iOS Camera Apps: Exposure, Lightness, and More

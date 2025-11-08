@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Google Cloud Java Client
 translated: false
+type: note
 ---
 
 ### Key Points

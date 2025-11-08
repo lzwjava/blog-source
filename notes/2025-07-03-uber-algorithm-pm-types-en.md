@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Uber's Five Product Manager Types
 translated: false
+type: note
 ---
 
 You're correct, and I appreciate the clarification. At Uber, **Algorithm Product Manager** (sometimes referred to as AI Product Manager or Marketplace PM with a focus on algorithms) is indeed a distinct type of product management role, particularly given Uber’s heavy reliance on machine learning (ML) and algorithmic systems. Below, I’ll revise the list to include Algorithm PM as one of the five types, replacing the previously mentioned Data Product Manager, and provide details on this role based on available information.

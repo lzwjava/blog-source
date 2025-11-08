@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Python Diagram-as-Code Tool Alternatives
 translated: false
+type: note
 ---
 
 Here are Python-friendly options (beyond Graphviz and NetworkX) that make generating software design/architecture diagrams straightforward. I grouped them by use case and included quick notes and tiny examples.

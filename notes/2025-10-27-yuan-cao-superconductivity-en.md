@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Yuan Cao Graphene Superconductivity Pioneer
 translated: false
+type: note
 ---
 
 ### Yuan Cao

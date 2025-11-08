@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Bridges Built in the 1930s or Close Proximity
 translated: false
+type: note
 ---
 
 The Golden Gate Bridge in San Francisco was completed in 1937, a standout project of the 1930s. Several other notable bridges were built during that decade or within a few years on either side, reflecting a global surge in ambitious infrastructure projects—often spurred by economic recovery efforts, technological advances, or urban growth. Here’s a look at bridges from roughly that era, spanning the late 1920s to early 1940s:

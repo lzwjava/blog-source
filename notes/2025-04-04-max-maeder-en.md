@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Max Maeder
 translated: false
+type: note
 ---
 
 It seems like you’re asking about Max Maeder, and given your previous questions about sailing, I’ll assume you want information about his involvement in the sport. Max Maeder is a prominent Singaporean kitefoiler, and I’ll provide a detailed overview of his background, achievements, and significance in sailing based on what’s publicly known as of April 4, 2025.

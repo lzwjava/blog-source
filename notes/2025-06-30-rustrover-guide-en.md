@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Mastering RustRover: JetBrains'' Rust IDE'
 translated: false
+type: note
 ---
 
 Below is a comprehensive guide to RustRover, JetBrains' dedicated Integrated Development Environment (IDE) for Rust programming. This guide covers its features, setup, workflows, and tips for maximizing productivity, tailored for both new and experienced Rust developers.

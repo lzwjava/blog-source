@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPG Encryption Time for Large Files
 translated: false
+type: note
 ---
 
 The file you're encrypting appears to be a YIFY release of *The Matrix* (1999) in 720p, which is typically around 700 MB in size.

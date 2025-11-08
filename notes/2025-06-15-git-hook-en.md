@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Maven Compile Before Git Commit
 translated: false
+type: note
 ---
 
 Yes, you can run `mvn compile` in a local Git repository before executing `git commit`. Here's a concise explanation and steps:

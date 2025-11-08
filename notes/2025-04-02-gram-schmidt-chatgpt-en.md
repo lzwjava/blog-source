@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Gram-Schmidt Process
 translated: false
+type: note
 ---
 
 The **Gram-Schmidt process** is a method for orthonormalizing a set of linearly independent vectors in an inner product space (typically \\(\mathbb{R}^n\\) or \\(\mathbb{C}^n\\)). It converts a given basis into an **orthonormal basis**, where the vectors are mutually orthogonal and have unit length.

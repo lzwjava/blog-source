@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: IBM Db2 System Catalog Overview
 translated: false
+type: note
 ---
 
 ### Introduction to IBM Db2 System Tables

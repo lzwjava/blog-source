@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Computer Networks - Quiz
 translated: false
+type: note
 ---
 
 Here’s a structured quiz for **Computer Networks Technology (02141)**, organized by topic and question type (true/false, multiple-choice, short answer, and practical). Answers are intentionally omitted for self-assessment or instructor use.  

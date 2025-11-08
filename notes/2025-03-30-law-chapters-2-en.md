@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Introduction to Law - Chapters 2
 translated: false
+type: note
 ---
 
 Okay, let's create a tutorial outline based on the chapters you've provided. This will be a high-level overview of each area, highlighting key concepts relevant to studying law, particularly within the context of the Chinese legal system where specified.

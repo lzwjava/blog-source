@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Software Project Management
 translated: false
+type: note
 ---
 
 That's a great set of topics for learning about software project management! Let's break down what we can learn from each and how to avoid project failures.

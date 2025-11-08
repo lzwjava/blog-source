@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top 3 GPU Cloud Providers for 2025
 translated: false
+type: note
 ---
 
 ### Top 3 GPU Cloud Providers for LLM Training Besides AWS, Azure, and GCP

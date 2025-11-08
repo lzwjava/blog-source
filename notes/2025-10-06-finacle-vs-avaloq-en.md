@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Finacle vs Avaloq Banking Platforms
 translated: false
+type: note
 ---
 
 ### Overview

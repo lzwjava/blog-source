@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Premium Industrial MLC MicroSD Card
 translated: false
+type: note
 ---
 
 ### Understanding the Described TF Card Product

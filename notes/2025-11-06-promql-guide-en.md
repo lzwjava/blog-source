@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: PromQL Query Language Guide
 translated: false
+type: note
 ---
 
 PromQL (Prometheus Query Language) is a functional query language used to select and aggregate time series data in real time from Prometheus. It supports instant queries (evaluated at a single point in time) and range queries (evaluated at multiple steps over a time range). PromQL expressions can return one of four data types: **instant vector**, **range vector**, **scalar**, or **string**.

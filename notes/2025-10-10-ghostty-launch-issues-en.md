@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ghostty Installation and Launch Issues
 translated: false
+type: note
 ---
 
 ### Issue Diagnosis

@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: チタン：特性と応用
 translated: true
+type: note
 ---
 
 **チタン**（記号: **Ti**、原子番号: 22）は、強く、軽量で、耐食性のある金属元素です。

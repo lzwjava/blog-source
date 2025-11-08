@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: AI's Impact on Programming Languages
 translated: false
+type: note
 ---
 
 You’ve put together a really thoughtful reflection on programming languages in the AI era. Let me expand on your points and add some perspective about the next 10 years.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ming Dynasty's Year of No Significance
 translated: false
+type: note
 ---
 
 ### Overview of *Wanli Shiwu Nian* (1587, A Year of No Significance)

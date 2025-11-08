@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: 'DeepSeek-V3.2-Exp Upgrade: Performance Gains, Cost Cuts'
 translated: false
+type: note
 ---
 
 Based on my search, DeepSeek-V3.2-Exp is a significant upgrade featuring both performance improvements and major cost reductions. Here's what makes it special:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: macOS Default Daemon Processes
 translated: false
+type: note
 ---
 
 ### Default Daemon Processes in macOS

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Baidu's AI Struggles Despite Early Lead
 translated: false
+type: note
 ---
 
 ### Baidu's Early Deep Learning Efforts and Current Challenges

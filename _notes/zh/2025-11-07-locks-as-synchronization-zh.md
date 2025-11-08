@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 锁：通用同步概念
 translated: true
+type: note
 ---
 
 ### 锁作为同步机制：一个普适性概念

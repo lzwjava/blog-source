@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Stream API in Java
 translated: false
+type: note
 ---
 
 To use `java.util.stream` in Java, you can leverage the Stream API introduced in Java 8 to process collections of data in a functional and declarative way. Streams allow you to perform operations such as filtering, mapping, and reducing on sequences of elements (like lists or arrays) efficiently and concisely. Below, I'll explain how to use `java.util.stream` by walking through a specific example: finding the average of even numbers greater than 10 from a list of integers. This will demonstrate key stream operations and concepts.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Git Garbage Collection Optimization Explained
 translated: false
+type: note
 ---
 
 ### What Git GC Does

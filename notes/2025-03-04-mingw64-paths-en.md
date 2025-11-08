@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Handling Paths in MINGW64 on Windows
 translated: false
+type: note
 ---
 
 MINGW64, part of the MSYS2 project, provides a Unix-like environment on Windows, allowing you to use bash shell commands and Unix-style tools. A key aspect of working in this environment is handling file paths, especially since Windows and Unix systems use different conventions. Below, I'll explain how to manage paths in MINGW64, provide examples (including cases with spaces), and clarify when to use the absolute path of a command.

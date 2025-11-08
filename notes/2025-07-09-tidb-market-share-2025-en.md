@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: TiDB's Niche but Growing Market Presence
 translated: false
+type: note
 ---
 
 TiDB's market share as of 2025 is definitely not negligible, though it's still a niche player in the broader database market. Here's what the data shows:

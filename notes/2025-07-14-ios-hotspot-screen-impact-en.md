@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: iOS Hotspot and Screen State Issues
 translated: false
+type: note
 ---
 
 ### Impact of Screen On/Off on iOS Personal Hotspot

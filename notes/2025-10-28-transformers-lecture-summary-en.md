@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Introduction to Transformers Lecture Summary
 translated: false
+type: note
 ---
 
 ### Summary of Andrej Karpathy's "Introduction to Transformers" Lecture

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Influential Living Philosophers Today
 translated: false
+type: note
 ---
 
 ### Great Modern Living Philosophers

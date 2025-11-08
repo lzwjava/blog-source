@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Self-Reliance Techniques for Managing Depression
 translated: false
+type: note
 ---
 
 ### Self-Reliance Techniques for Managing Depression

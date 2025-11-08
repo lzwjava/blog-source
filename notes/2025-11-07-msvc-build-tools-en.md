@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: MSVC Build Tools Uses and Alternatives
 translated: false
+type: note
 ---
 
 The MSVC Build Tools are indeed massive! Here's what they're actually used for:

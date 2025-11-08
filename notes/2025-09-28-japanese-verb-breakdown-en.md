@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Japanese Verb Grammatical Structure Breakdown
 translated: false
+type: note
 ---
 
 Let me break down **呼んでいる (yondeiru)** character by character and explain the grammatical structure:

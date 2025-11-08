@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: الحوسبة باستخدام وحدات معالجة الرسوميات من إنتل وبايثون
 translated: true
+type: note
 ---
 
 إليك كيفية إعداد واستخدام Intel oneAPI مع Python للحوسبة باستخدام وحدة معالجة الرسوميات:

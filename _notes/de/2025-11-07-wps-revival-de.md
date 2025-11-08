@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: 'WPS: Vom Scheitern zum mobilen Erfolg'
 translated: true
+type: note
 ---
 
 ## Die epische Reise von WPS: Vom Beinahe-Untergang zur Wiederbelebung

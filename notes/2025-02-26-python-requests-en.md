@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Python Requests Library
 translated: false
+type: note
 ---
 
 To fully replace Postman with the Python `requests` library, you can perform all common HTTP operations such as sending different types of requests, handling headers, working with JSON data, uploading files, using proxies, and asserting responses. Below, I’ll walk you through examples for each of these functionalities step-by-step, ensuring you have a complete and practical guide.

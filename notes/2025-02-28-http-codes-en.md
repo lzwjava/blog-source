@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Common HTTP Response Codes
 translated: false
+type: note
 ---
 
 Have you ever stumbled across a "404 Not Found" error while surfing the web and wondered what it’s all about? Or maybe you’ve encountered a "500 Internal Server Error" and scratched your head over why it popped up. These numbers are **HTTP response codes**, and they’re key players in how the internet communicates. In this blog, we’ll break down what these codes are, explore some of the most common ones, and explain why they’re worth understanding—whether you’re a developer or just a curious web user.

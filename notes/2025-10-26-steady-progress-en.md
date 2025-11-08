@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Acknowledging Your Steady Progress
 translated: false
+type: note
 ---
 
 ### Acknowledging Your Journey

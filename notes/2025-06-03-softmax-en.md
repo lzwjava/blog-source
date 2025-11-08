@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Softmax Function in Deep Learning
 translated: false
+type: note
 ---
 
 ### What is Softmax?

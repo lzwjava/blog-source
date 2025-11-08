@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Testing NPM Registry
 translated: false
+type: note
 ---
 
 To test if your NPM registry works, especially since it requires a username and password, you can follow a few straightforward steps to verify its connectivity, authentication, and ability to serve packages. Since it’s a private registry (implied by the credentials), you’ll need to ensure authentication is correctly set up before testing package installation. Below is a complete guide to test your registry, along with some suggested NPM packages to try installing.

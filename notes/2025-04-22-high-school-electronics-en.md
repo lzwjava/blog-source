@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: High School Electronics
 translated: false
+type: note
 ---
 
 Here's a comprehensive review of high school physics concepts related to electronics and electricity:

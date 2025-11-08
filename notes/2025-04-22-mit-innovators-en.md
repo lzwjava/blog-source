@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Young Innovators
 translated: false
+type: note
 ---
 
 The MIT Technology Review's "35 Innovators Under 35" list recognizes outstanding young individuals who are making significant contributions to various fields, including computer science and machine learning. These individuals are not necessarily MIT alumni, but their work is considered groundbreaking and impactful.

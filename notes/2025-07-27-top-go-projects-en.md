@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Top Go Projects by Stars
 translated: false
+type: note
 ---
 
 Here is a list of the top 50 open source projects written in Go, ranked by the number of stars on GitHub. This ranking provides a good indicator of popularity and community interest.

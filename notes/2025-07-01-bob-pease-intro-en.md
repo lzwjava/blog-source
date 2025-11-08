@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Bob Pease: Analog Engineering Legend'
 translated: false
+type: note
 ---
 
 ### **Comprehensive Introduction to Bob Pease**

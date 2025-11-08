@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: LLMs Confirm My CFA Insights
 translated: false
+type: note
 ---
 
 https://weibo.com/6347862377/5183994120372979

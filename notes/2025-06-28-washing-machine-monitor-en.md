@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Smart Washing Machine Monitor with Arduino and Telegram Alerts
 translated: false
+type: note
 ---
 
 To create a system that detects when your Maytag MHW8630HW washing machine stops (using its panel light as an indicator) and notifies you via a Telegram bot to hang up your clothes, you can use an Arduino with a camera module to monitor the machine’s status. Below is a detailed guide on the tech stack, hardware setup, algorithm, and implementation steps.

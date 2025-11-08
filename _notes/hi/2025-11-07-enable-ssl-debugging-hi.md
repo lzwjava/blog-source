@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: जावा एसएसएल टीएलएस डिबगिंग सक्षम करें
 translated: true
+type: note
 ---
 
 ### Java में SSL/TLS डिबगिंग सक्षम करना

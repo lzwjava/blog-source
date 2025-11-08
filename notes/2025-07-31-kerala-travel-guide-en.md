@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: India's Top Travel Destinations
 translated: false
+type: note
 ---
 
 Below is a comprehensive travel guide for the requested destinations in India: Goa, Andaman and Nicobar Islands, Kerala, Leh Ladakh, Aksai Chin, and Andharban. Each section covers an overview, best time to visit, how to get there, top attractions, and practical tips. Note that travel conditions can change, so check current advisories, visas, and weather before planning.

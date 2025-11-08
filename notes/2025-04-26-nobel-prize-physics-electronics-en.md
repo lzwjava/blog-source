@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Nobel Prize in Physics Awards Related to Electronics
 translated: false
+type: note
 ---
 
 The Nobel Prize in Physics has recognized several breakthroughs that directly advanced electronics, from foundational discoveries in quantum mechanics to the development of key electronic components. Below is a list of Nobel Physics awards specifically related to electronics, focusing on discoveries and inventions that enabled or significantly impacted electronic devices, circuits, and technologies. Each entry includes the year, laureates, breakthrough, and its relevance to electronics. I’ve kept it concise and focused on direct contributions to the field.

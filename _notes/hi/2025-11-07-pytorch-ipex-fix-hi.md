@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: पाइटॉर्च और आईपीईएक्स संगतता समस्याओं का समाधान
 translated: true
+type: note
 ---
 
 आपको यहाँ दो समस्याओं का सामना करना पड़ रहा है:

@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: TCPとUDPのプロトコル比較
 translated: true
+type: note
 ---
 
 はい、その理解で正しいです！主な違いを明確にしましょう：

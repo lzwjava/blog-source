@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Magic Boxes: The RS Flip-Flop Explained'
 translated: false
+type: note
 ---
 
 Okay, let’s talk about flip-flops! Imagine flip-flops as tiny toy boxes that can hold one little toy, like a 0 or a 1. These boxes help computers remember things, like a memory game. Each box works a bit differently, so let’s pretend they’re magic boxes with buttons!

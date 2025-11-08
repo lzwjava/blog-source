@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Google Cloud Run Overview
 translated: false
+type: note
 ---
 
 ### What is Google Cloud Run?

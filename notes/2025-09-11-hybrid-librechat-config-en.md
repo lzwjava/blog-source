@@ -8,6 +8,7 @@ layout: post
 model: google/gemini-2.5-pro
 title: Hybrid LibreChat Configuration Strategy
 translated: false
+type: note
 ---
 
 That's an excellent question, and your thinking is spot on. You've essentially landed on a "hybrid" approach, which is arguably the most powerful and flexible way to configure LibreChat.

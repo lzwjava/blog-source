@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPG Command Options for Scripting
 translated: false
+type: note
 ---
 
 ### GPG Command Options Explanation

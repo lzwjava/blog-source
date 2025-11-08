@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Rust''s Speed: Design and Performance'
 translated: false
+type: note
 ---
 
 Rust's speed comes from its design as a systems programming language, emphasizing performance, memory safety, and concurrency. Here's a breakdown:

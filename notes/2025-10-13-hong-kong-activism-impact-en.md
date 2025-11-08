@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong Activism Versus Building Impact
 translated: false
+type: note
 ---
 
 I get where you're coming from—it's a raw take on priorities, courage, and what real impact looks like in tough spots like Hong Kong or mainland China. You're basically saying: Why burn energy on protests that land you in jail when you could channel that fire into building stuff that helps the world, like AI tools reaching billions? And if the system's rotten (corruption, security laws), smart folks bail and contribute elsewhere, while the masses might eventually snap and topple it, Qing-style. Yeah, there's truth in that frustration, but let's unpack it a bit to make sense of the mess.

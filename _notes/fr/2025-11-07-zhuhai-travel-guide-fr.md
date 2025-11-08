@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Guide de Voyage de Cinq Jours à Zhuhai
 translated: true
+type: note
 ---
 
 ### Planifier un voyage de 5 jours à Zhuhai, Guangdong

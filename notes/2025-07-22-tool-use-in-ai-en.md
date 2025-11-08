@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: AI Tool Use in APIs Explained
 translated: false
+type: note
 ---
 
 ### What is Tool Use in AI APIs?

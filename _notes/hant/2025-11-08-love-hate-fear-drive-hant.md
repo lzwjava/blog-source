@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 愛恨恐懼驅動人類行為
 translated: true
+type: note
 ---
 
 ### 原始三重奏：愛、恨與恐懼作為人類行動的根源

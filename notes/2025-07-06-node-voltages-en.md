@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Nodal Analysis Solves Node Voltages
 translated: false
+type: note
 ---
 
 The primary unknown variable solved for in nodal analysis is **Node voltages**.

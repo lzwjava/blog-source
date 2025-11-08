@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The Pirate Bay Educational Resources
 translated: false
+type: note
 ---
 
 ### Key Points

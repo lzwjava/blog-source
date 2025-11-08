@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Singapore
 translated: false
+type: note
 ---
 
 Below is an in-depth report on Singapore that covers its geographic identity, economic structure, language proficiency, history, and its advancements in technology, IT, AI, as well as its regulatory stance on cryptocurrencies.

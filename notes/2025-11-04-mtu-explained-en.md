@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Maximum Transmission Unit Explained Briefly
 translated: false
+type: note
 ---
 
 ### What is MTU in Networking?

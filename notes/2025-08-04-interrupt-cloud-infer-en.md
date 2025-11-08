@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Interrupts Don't Cancel Cloud Inference
 translated: false
+type: note
 ---
 
 When you interrupt (e.g. with Ctrl-C) your Python script while it’s waiting on the `generate_images()` call, here’s roughly what happens:

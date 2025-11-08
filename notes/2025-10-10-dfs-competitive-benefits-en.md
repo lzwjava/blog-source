@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: DFS Benefits in Competitive Programming
 translated: false
+type: note
 ---
 
 ### Why Use DFS in Competitive Programming?

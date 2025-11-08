@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Philippines
 translated: false
+type: note
 ---
 
 ## Geographic Identity

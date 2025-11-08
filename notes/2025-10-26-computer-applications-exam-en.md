@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Computer Application Technology Practical Exam Overview
 translated: false
+type: note
 ---
 
 ### Understanding the Exam

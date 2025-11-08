@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 恢复zsh中被暂停的任务
 translated: true
+type: note
 ---
 
 要在 Ghostty 的 zsh 中恢复被暂停的任务（比如你用 Ctrl+Z 暂停的 `bundle exec jekyll serve --incremental` 命令），请在同一终端会话中按以下步骤操作：

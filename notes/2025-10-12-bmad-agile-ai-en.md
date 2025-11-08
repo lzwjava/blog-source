@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'BMAD Core: Agile AI Development Foundation'
 translated: false
+type: note
 ---
 
 BMAD Core is the foundational component of the BMAD Method (Breakthrough Method for Agile AI-Driven Development), an open-source framework designed to streamline AI-assisted software development (and extendable to other domains like creative writing or business strategy) by orchestrating specialized AI agents in an agile workflow.

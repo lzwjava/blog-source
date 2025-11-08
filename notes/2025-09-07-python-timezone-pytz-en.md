@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Python Timezone Handling with pytz
 translated: false
+type: note
 ---
 
 ### Installing pytz

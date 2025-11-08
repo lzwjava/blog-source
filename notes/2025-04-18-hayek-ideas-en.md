@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Friedrich Hayek's Ideas
 translated: false
+type: note
 ---
 
 Friedrich Hayek was an influential 20th-century economist and philosopher whose main ideas include:

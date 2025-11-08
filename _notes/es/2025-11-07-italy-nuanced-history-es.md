@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Historia de Italia: Una Perspectiva Matizada'
 translated: true
+type: note
 ---
 
 ### ¿Es cierta la afirmación?

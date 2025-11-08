@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 多路徑傳輸控制協議概述
 translated: true
+type: note
 ---
 
 MPTCP 是一種傳輸層協議擴展，它從根本上改變了網絡連接的運作方式，使單一邏輯連接能夠同時使用多個物理路徑。以下是詳細解析：

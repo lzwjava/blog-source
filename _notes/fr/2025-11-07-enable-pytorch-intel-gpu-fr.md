@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Activer la prise en charge du GPU Intel pour PyTorch
 translated: true
+type: note
 ---
 
 Bonne progression ! PyTorch et IPEX fonctionnent maintenant ensemble. Cependant, votre système n'a pas le support GPU Intel activé. Laissez-moi vous aider à comprendre ce qui se passe et comment le résoudre :

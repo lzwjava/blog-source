@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: اختلافات الاتصال بين بروتوكول TCP و UDP
 translated: true
+type: note
 ---
 
 لديك الحدس الصحيح! دعني أوضح الفروق الرئيسية:

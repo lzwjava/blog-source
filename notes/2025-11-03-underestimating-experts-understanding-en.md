@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Underestimating Experts and Deeper Understanding
 translated: false
+type: note
 ---
 
 ### Context of the Post

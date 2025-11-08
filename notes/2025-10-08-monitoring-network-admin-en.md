@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Monitoring Network Activity with Admin Rights
 translated: false
+type: note
 ---
 
 ### Monitoring HTTP Requests and TCP Connections with Admin Rights

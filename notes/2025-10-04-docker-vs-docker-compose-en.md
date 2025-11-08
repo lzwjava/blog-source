@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Docker versus Docker Compose Differences
 translated: false
+type: note
 ---
 
 ### Docker vs. Docker Compose: Key Differences

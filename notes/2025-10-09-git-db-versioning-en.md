@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Git-Friendly Database Version Control
 translated: false
+type: note
 ---
 
 ### Choosing Between JSON (or CSV) and SQLite for Git-Friendly Version Control

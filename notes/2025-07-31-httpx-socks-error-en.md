@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Proxy Scheme Not Supported
 translated: false
+type: note
 ---
 
 The error indicates that the `httpx` library, used by the `openai` client in your `gitmessageai.py` script, is attempting to configure a proxy with the URL `socks://127.0.0.1:7891/`, but the scheme `socks` is not supported or recognized, resulting in a `ValueError: Unknown scheme for proxy URL`. This suggests that a proxy configuration is being picked up from your environment or code, and it’s using an unsupported SOCKS proxy scheme.

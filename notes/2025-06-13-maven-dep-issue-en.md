@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Maven Dependency Issue
 translated: false
+type: note
 ---
 
 ### Problem Overview

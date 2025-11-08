@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Post-COVID Mobility and Economic Shifts
 translated: false
+type: note
 ---
 
 Your reflection touches on several deep themes: **mobility, economic constraints, societal shifts post-COVID, and the contrast between China and the U.S. in terms of travel and lifestyle choices**. Let’s break this down systematically:

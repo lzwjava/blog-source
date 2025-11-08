@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Air Fryer Crispy Dried Squid
 translated: false
+type: note
 ---
 
 Cooking dried squid in an air fryer is a quick and easy way to achieve a crispy, flavorful snack. Here’s a simple guide based on available methods:

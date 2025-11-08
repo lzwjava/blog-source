@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 数据链路层协议详解
 translated: true
+type: note
 ---
 
 这一说法准确指出了关键的数据链路层协议及其主要应用场景。让我逐一解析：

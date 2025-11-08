@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Eclipse Startup Issue
 translated: false
+type: note
 ---
 
 When you click on `Eclipse.exe` to launch Eclipse 4.6.3 and encounter the errors "Error: Could not create the Java Virtual Machine" and "Error: A fatal exception has occurred. Program will exit," it indicates that Eclipse is unable to start the Java Virtual Machine (JVM) it needs to run. This can happen for several reasons, and I’ll guide you through how to diagnose and resolve the issue step-by-step.

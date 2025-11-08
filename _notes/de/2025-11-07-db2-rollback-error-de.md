@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: DB2-Transaktionsrollback und Fehlererkennung
 translated: true
+type: note
 ---
 
 ## Wenn DB2 aufgrund von Systemfehlern einen Rollback durchführt

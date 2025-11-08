@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Haifa: Israel''s Coastal City'
 translated: false
+type: note
 ---
 
 ### Introduction to Haifa

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Git Bash for Windows Explained
 translated: false
+type: note
 ---
 
 ### How Git Bash Works

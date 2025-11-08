@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 硬件并行加速数组索引
 translated: true
+type: note
 ---
 
 ### 为什么索引比二分查找更快？

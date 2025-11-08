@@ -1,8 +1,9 @@
 ---
-audio: true  
-lang: en  
-layout: post  
+audio: true
+lang: en
+layout: post
 title: Key Differences Between the Legal Systems of the United States and China
+type: note
 ---
 
 The legal systems of the United States and China differ significantly in various aspects, reflecting their distinct historical, cultural, and political contexts. Here are the main differences:

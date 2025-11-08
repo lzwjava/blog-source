@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPS Positioning Principle Explained Simply
 translated: false
+type: note
 ---
 
 ### Today's Second Science Popularization Task: A Video Explaining the GPS Positioning System Principle

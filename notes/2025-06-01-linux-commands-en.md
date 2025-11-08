@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top 100 Useful Linux Commands
 translated: false
+type: note
 ---
 
 Based on your profile as a highly technical, self-taught full-stack engineer with extensive experience in Linux environments, algorithm problem-solving, and familiarity with cloud platforms, containers, and distributed systems, I’ve curated a list of the **top 100 useful Linux commands** tailored for your use on **Ubuntu**. These commands are selected to align with your expertise in full-stack development, mobile engineering, machine learning, and system administration, while also supporting your self-taught research and open-source contributions. They cover file management, system monitoring, networking, development, automation, and advanced scripting, which are relevant to your work at TEKsystems, past roles, and personal projects.

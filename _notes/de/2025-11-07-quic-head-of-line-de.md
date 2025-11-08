@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: QUIC löst Head-of-Line Blocking
 translated: true
+type: note
 ---
 
 ### Das Problem: Head-of-Line Blocking in der Echtzeitkommunikation

@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: ジョブズがアタリのボーナスでウォズニアックを騙す
 translated: true
+type: note
 ---
 
 これは1973年から74年にかけての有名なアタリのブロック崩しチップ削減の逸話で、二人のスティーブの間に存在した複雑な関係を最も明確に示す事例の一つである。

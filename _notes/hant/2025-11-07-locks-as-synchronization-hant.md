@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 鎖作為通用同步概念
 translated: true
+type: note
 ---
 
 ### 鎖作為同步機制：一個普世概念

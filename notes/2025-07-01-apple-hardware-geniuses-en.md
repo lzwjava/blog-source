@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Apple's Hidden Hardware Geniuses
 translated: false
+type: note
 ---
 
 Great question. In Apple's history, **a few figures besides Steve Wozniak** had strong expertise in electronics and digital systems — people who understood the kinds of topics covered in **"Fundamentals of Electronic Technology (III)"** at a **deep engineering level**. These individuals were crucial in building Apple’s hardware foundation, especially during the **Apple I/II, Macintosh, iPod, and early iPhone** eras.

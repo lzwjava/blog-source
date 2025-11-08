@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fix Python Version Mismatch Issue
 translated: false
+type: note
 ---
 
 Got it — you’re running into a **Python version mismatch** issue.

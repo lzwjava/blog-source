@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Chinese Street Food Ingredients Overview
 translated: false
+type: note
 ---
 
 ### Typical Ingredients in Chinese Street Food

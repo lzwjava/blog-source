@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong and Macau Major Airports
 translated: false
+type: note
 ---
 
 ### Major Airports in Hong Kong and Macau

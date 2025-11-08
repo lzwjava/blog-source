@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The Socratic Method's Superiority
 translated: false
+type: note
 ---
 
 ### Socrates' Victory

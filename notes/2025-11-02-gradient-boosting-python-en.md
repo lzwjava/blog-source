@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Basic Gradient Boosting Example in Python
 translated: false
+type: note
 ---
 
 ### Simple Gradient Boosting Example in Python

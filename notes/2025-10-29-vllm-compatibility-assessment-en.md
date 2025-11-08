@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: vLLM System Compatibility Assessment
 translated: false
+type: note
 ---
 
 ### Compatibility Assessment for vLLM on This System

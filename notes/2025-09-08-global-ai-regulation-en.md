@@ -8,6 +8,7 @@ layout: post
 model: x-ai/grok-3
 title: Global AI Regulation's Citizen Impact
 translated: false
+type: note
 ---
 
 ### Major Differences in AI Regulation Between the EU, USA, and China, with Focus on Impacts for Citizens

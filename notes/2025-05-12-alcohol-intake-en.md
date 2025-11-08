@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Alcohol Intake Calculation
 translated: false
+type: note
 ---
 
 Will drinking a 330ml beer with 5% alcohol content lead to a DUI in China? I weigh 95 kg.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Fixing Broken Python GI Bindings
 translated: false
+type: note
 ---
 
 ### Updated Diagnosis

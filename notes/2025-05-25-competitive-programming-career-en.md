@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Competitive Programming: Diverse Career Paths'
 translated: false
+type: note
 ---
 
 The decision to continue or move away from competitive programming after winning prestigious contests like the IOI (International Olympiad in Informatics) or ACM ICPC (International Collegiate Programming Contest) gold medals varies based on individual motivations, goals, and circumstances. Let’s explore the differences in motivation between those who move on to other pursuits and those, like Gennady Korotkevich ("Tourist") or Petr Mitrichev, who continue competing for decades.

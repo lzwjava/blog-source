@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: New Taiwan Dollar
 translated: false
+type: note
 ---
 
 The New Taiwan Dollar (TWD), also known as the Taiwanese Dollar, is the official currency of Taiwan, formally known as the Republic of China (ROC). Introduced in 1949, it replaced the Old Taiwan Dollar to combat hyperinflation following World War II. Issued by the Central Bank of the Republic of China, the TWD is abbreviated with the symbol "NT$" or simply "$" in Taiwan, occasionally with "TW$" to distinguish it from other dollar-based currencies.

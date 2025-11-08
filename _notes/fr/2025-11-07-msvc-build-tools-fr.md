@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: 'Outils de construction MSVC : utilisations et alternatives'
 translated: true
+type: note
 ---
 
 Les outils de compilation MSVC sont effectivement très volumineux ! Voici à quoi ils servent réellement :

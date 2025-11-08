@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Simple PyTorch RNN Example
 translated: false
+type: note
 ---
 
 ### Simple RNN Example in PyTorch

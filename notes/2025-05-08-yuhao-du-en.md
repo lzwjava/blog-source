@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Yuhao Du
 translated: false
+type: note
 ---
 
 Yuhao Du is a highly accomplished competitive programmer from China, recognized for his exceptional problem-solving skills and contributions to the global competitive programming community. Known for his prowess in algorithmic contests, Du has made a significant mark in prestigious competitions such as the International Olympiad in Informatics (IOI), Codeforces, Topcoder, and various regional and international programming contests. His achievements, dedication, and problem-setting contributions have solidified his reputation as one of the top competitive programmers of his era.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Hong Kong FPS Users Explained Simply
 translated: false
+type: note
 ---
 
 Great observation! The discrepancy arises because the **17 million FPS users in Hong Kong** include both **individuals and businesses**, and many people have **multiple FPS-linked accounts** (such as personal accounts, joint accounts, or accounts with different banks or e-wallets).

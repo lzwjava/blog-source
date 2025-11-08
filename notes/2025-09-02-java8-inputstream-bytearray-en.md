@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Java 8 InputStream to Byte Array
 translated: false
+type: note
 ---
 
 Good catch 👍 — in **Java 8** `InputStream.readAllBytes()` does not exist (that was added in Java 9).

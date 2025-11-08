@@ -8,6 +8,7 @@ layout: post
 model: x-ai/grok-3
 title: Air Fryer Hansan Korean BBQ Beef Guide
 translated: false
+type: note
 ---
 
 To cook Hansan Korean BBQ beef (purchased from JD.com) in an air fryer, it typically takes **8-12 minutes at 180°C** (preheated), flipping halfway for even cooking. This is based on the product being pre-marinated, thinly sliced, and vacuum-sealed (usually 400g per pack, frozen). The exact time depends on the air fryer model, beef thickness, and desired doneness (e.g., medium or well-done). If frozen, thaw to room temperature first for best results.

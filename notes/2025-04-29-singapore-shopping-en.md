@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Singapore Shopping and Dining Recommendations
 translated: false
+type: note
 ---
 
 ## Popular Shopping Malls

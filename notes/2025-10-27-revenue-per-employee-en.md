@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Companies by Revenue Per Employee
 translated: false
+type: note
 ---
 
 ### Expanded List: Top 50 Companies by Revenue Per Employee (RPE)

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Tiancheng Lou
 translated: false
+type: note
 ---
 
 Tiancheng Lou (Chinese: 楼天城; pinyin: Lóu Tiānchéng), born in 1986 in Jinan, Shandong, China, is a renowned Chinese competitive programmer, researcher, and entrepreneur, widely recognized for his exceptional achievements in competitive programming and his contributions to autonomous vehicle technology as the co-founder and Chief Technology Officer (CTO) of Pony.ai. Known by his online handle "ACRush," Lou has earned a reputation as one of China's most successful competitive programmers, with a remarkable record in international competitions and significant influence in both academia and industry.

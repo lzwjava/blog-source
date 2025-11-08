@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: マルチパスTCPプロトコル概要
 translated: true
+type: note
 ---
 
 MPTCPは、単一の論理接続が複数の物理パスを同時に使用できるようにすることで、ネットワーク接続の動作方法を根本的に変えるトランスポート層プロトコル拡張です。以下に詳細を説明します：

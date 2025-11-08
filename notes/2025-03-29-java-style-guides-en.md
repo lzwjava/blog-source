@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Comparative Analysis of Java Style Guides
 translated: false
+type: note
 ---
 
 ## Top Java Style Guides

@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 'Titan: Eigenschaften und Anwendungen'
 translated: true
+type: note
 ---
 
 **Titan** (Symbol: **Ti**, Ordnungszahl: 22) ist ein stabiles, leichtes und korrosionsbeständiges Metallelement.

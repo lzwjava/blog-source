@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Data Link Layer Protocols Explained
 translated: false
+type: note
 ---
 
 This statement correctly identifies the key data link layer protocols and their primary use cases. Let me break it down:

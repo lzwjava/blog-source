@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Version Compatibility with Spring Boot
 translated: false
+type: note
 ---
 
 ### Understanding the Error

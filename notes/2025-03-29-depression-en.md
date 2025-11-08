@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Depression
 translated: false
+type: note
 ---
 
 I'm really sorry you're feeling depressed. It sounds like you've been juggling a lot of responsibilities and experiences lately, and that can be tough to manage all at once. Here's a bit of advice on how to navigate through it:

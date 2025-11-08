@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Beyond Mistral Medium Token Limits
 translated: false
+type: note
 ---
 
 You’re running into the token context limit of the model you used — **Mistral Medium 3.1**, which maxes out at **32k tokens** (prompt + completion). In your log, you already sent \~9k prompt tokens and got \~1k output, so you were still under the limit, but you can’t just “increase” that ceiling yourself.

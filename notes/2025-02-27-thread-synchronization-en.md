@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Thread Synchronization in Java
 translated: false
+type: note
 ---
 
 Let’s dive into thread synchronization in Java! When multiple threads access shared resources (like variables, collections, or files), you need to prevent race conditions—where threads interfere with each other, leading to unpredictable results. Java provides several tools for this: `synchronized`, `Lock`, and `Semaphore`. I’ll explain each, show examples, and compare them so you can pick the right one for your needs.
@@ -279,4 +280,3 @@ public class Main {
 - **`synchronized`**: Quick, simple mutual exclusion (e.g., protecting a single variable).
 - **`Lock`**: Need try-locks, timeouts, or interruptibility (e.g., complex workflows).
 - **`Semaphore`**: Limiting concurrent access to a resource (e.g., connection pools, rate limiting).
-

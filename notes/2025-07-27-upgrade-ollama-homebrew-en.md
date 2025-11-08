@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Upgrade Ollama with Homebrew
 translated: false
+type: note
 ---
 
 To upgrade Ollama to the latest version (currently v0.10.0 as of July 2025) using Homebrew on macOS, follow these steps:

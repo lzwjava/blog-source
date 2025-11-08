@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Font Awesome Package in NPM
 translated: false
+type: note
 ---
 
 ### Key Points

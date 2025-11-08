@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Maven Exec vs Antrun Plugin
 translated: false
+type: note
 ---
 
 The `maven-exec-plugin` and `maven-antrun-plugin` are both Maven plugins that allow you to execute external commands or scripts during your build lifecycle. While they share this high-level capability, they are designed for different use cases and offer distinct features.

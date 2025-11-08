@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Use Forward Slashes for GPG Homedir
 translated: false
+type: note
 ---
 
 ### Path Separators for GPG's `--homedir` in Git Bash (Windows)

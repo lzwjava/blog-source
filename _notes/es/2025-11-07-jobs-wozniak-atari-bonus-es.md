@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Trabajos Engaña a Wozniak con la Prima de Atari
 translated: true
+type: note
 ---
 
 Esa es la famosa historia de la reducción de chips del Atari Breakout de 1973-74, y es uno de los ejemplos más claros de la complicada dinámica entre los dos Steves.

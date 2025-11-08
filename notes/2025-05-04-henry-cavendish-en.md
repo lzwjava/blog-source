@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Henry Cavendish
 translated: false
+type: note
 ---
 
 **Henry Cavendish (1731–1810)** was an eminent British scientist whose groundbreaking contributions to physics and chemistry profoundly shaped modern science. Born on October 10, 1731, in Nice, France, to a prominent aristocratic family, Cavendish was a reclusive yet brilliant figure whose meticulous experiments laid foundational principles in multiple scientific disciplines. His work, characterized by extraordinary precision, included the discovery of hydrogen, the determination of the Earth's density, and significant advancements in understanding electricity and gases. Despite his immense contributions, Cavendish's shy and solitary nature meant he published sparingly, and much of his work gained recognition only posthumously.

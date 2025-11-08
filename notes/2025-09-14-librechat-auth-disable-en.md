@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Disabling LibreChat Authentication Workarounds
 translated: false
+type: note
 ---
 
 Short answer: you can’t completely turn off authentication in LibreChat, but you can stop the “keep asking me to log in” problem and make it feel close to “no-login.” Here’s what actually works (and why):

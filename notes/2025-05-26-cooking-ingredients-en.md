@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cooking Ingredients
 translated: false
+type: note
 ---
 
 Common air fryer ingredients include a variety of meats, vegetables, and starches that cook well with the appliance’s hot air circulation. Here’s a breakdown based on popular use and what works effectively:

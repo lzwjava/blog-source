@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: CUDAはNVIDIA GPUを必要とします
 translated: true
+type: note
 ---
 
 あなたのLenovo XiaoXinのGPUがCUDAで使用できない理由は単純明快です：**CUDAはNVIDIAの独自技術であり、NVIDIA GPUでのみ動作します**。

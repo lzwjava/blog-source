@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: How Bitcoin Works
 translated: false
+type: note
 ---
 
 Technically, Bitcoin works through a combination of cryptography, a peer-to-peer network, and a consensus mechanism called Proof-of-Work (PoW). Here's a breakdown of the key components and processes:

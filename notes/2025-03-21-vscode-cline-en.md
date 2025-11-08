@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Cline in VSCode
 translated: false
+type: note
 ---
 
 ### Key Points

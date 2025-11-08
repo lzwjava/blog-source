@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: A Comparative Analysis of AI Chatbot Capabilities and Limitations
 translated: false
+type: note
 ---
 
 **1\. Introduction**  

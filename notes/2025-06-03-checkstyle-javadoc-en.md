@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Disable Javadoc Checks in Checkstyle
 translated: false
+type: note
 ---
 
 To configure Checkstyle to ignore all Javadoc-related checks and treat them as non-violations, you need to modify your Checkstyle configuration file (typically `checkstyle.xml`) to either disable or suppress Javadoc-related modules. Here’s how you can do it:

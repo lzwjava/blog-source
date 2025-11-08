@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: Active Learning
+type: note
 ---
 
 Active learning is a more engaging and effective way to absorb and retain information compared to passive reading. Here are some **active learning strategies** you can use to enhance your learning experience:

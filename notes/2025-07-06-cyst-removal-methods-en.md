@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Safe Cyst Removal Procedures Explained
 translated: false
+type: note
 ---
 
 When a doctor or nurse ruptures (or more accurately, *drains* or *excises*) a cyst, they follow specific medical procedures to ensure safety, minimize pain, and reduce the risk of complications like infection or recurrence. The exact method depends on the type, size, and location of the cyst, as well as whether it's infected.

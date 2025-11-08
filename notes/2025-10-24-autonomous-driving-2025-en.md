@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Autonomous Driving Companies 2025
 translated: false
+type: note
 ---
 
 ### Top Autonomous Driving Company Worldwide in 2025

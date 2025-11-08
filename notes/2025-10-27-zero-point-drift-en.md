@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Zero-Point Drift in Electronics
 translated: false
+type: note
 ---
 
 ### Zero-Point Drift: Definition and Explanation

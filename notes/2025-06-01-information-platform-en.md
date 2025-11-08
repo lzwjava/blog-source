@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Information, Data Size, and Platform Success
 translated: false
+type: note
 ---
 
 ## Introduction

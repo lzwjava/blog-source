@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: DNS Explained Simply
 translated: false
+type: note
 ---
 
 ### What Does DNS Mean?

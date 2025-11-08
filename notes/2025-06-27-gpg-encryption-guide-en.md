@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Understanding GPG: A Secure Communication Tool'
 translated: false
+type: note
 ---
 
 ## What is GPG?

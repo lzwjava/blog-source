@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Alphabet Report
 translated: false
+type: note
 ---
 
 Based on current market expectations and historical data, Google's parent company, Alphabet (GOOGL, GOOG), is anticipated to release its next quarterly earnings report for the second quarter of 2025 around **Tuesday, July 22, 2025**.

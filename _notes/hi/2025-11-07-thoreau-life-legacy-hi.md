@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'हेनरी डेविड थोरो: जीवन और विरासत'
 translated: true
+type: note
 ---
 
 ### हेनरी डेविड थोरो: उनके जीवन और विरासत की एक व्यापक परिचय

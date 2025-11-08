@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Memcached In-Memory Caching System Overview
 translated: false
+type: note
 ---
 
 ### What is Memcached?

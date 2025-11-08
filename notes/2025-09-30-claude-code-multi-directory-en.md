@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Claude Code Multi-Directory Support
 translated: false
+type: note
 ---
 
 Claude Code, Anthropic's AI-powered coding assistant, operates primarily within its initialized working directory for security and focus, but it now fully supports cross-project functionality through a multi-directory feature introduced in recent updates (e.g., version 1.0.18 and later). This allows a single session to access and work with files across multiple unrelated projects or directories outside the original one, enabling tasks like referencing shared configurations, integrating frontend/backend code, or handling monorepo setups without context switching.[1][2][3]

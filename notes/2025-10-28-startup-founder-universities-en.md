@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Universities for Startup Founders
 translated: false
+type: note
 ---
 
 ### Top 10 Universities for Tech Entrepreneurship (PitchBook 2025 Rankings)

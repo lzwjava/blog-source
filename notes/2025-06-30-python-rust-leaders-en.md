@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Python Leads, Rust Rises
 translated: false
+type: note
 ---
 
 As of June 2025, Python certainly remains a top performer and continues its strong trending trajectory. However, Rust has undeniably emerged as a significant player, particularly in performance-critical and memory-safe applications.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: XML Configuration Files For Beans
 translated: false
+type: note
 ---
 
 To address your query about how beans XML works, including bean properties with props and keys, what class uses these XML files, and how they are loaded, let’s break it down clearly and systematically. This explanation assumes a context like Spring, where "beans XML" is a common term for configuring beans.

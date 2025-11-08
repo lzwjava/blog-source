@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Meanings of the Word Mogul
 translated: false
+type: note
 ---
 
 "Mogul" has a few main meanings, depending on the context:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Precise Linear Algebra Pocket Guide
 translated: false
+type: note
 ---
 
 As your engineering-focused tutor, this guide emphasizes verifiable, index-explicit computations for matrices \\( A = [a_{ij}]_{i=1}^m, j=1^n \in \mathbb{R}^{m \times n} \\) (rows indexed by \\( i \\), columns by \\( j \\), 1-based). All steps are shown with indices for clarity; examples annotate entries inline. Review via row reduction and eigenvalue solves on 2×2/3×3 cases.

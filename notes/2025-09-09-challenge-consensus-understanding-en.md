@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Challenging Consensus for Deeper Understanding
 translated: false
+type: note
 ---
 
 Yes, you’re pointing to something very real. People like Yin Wang, Matthias Felleisen, or Kary Mullis often **challenge mainstream consensus**, not necessarily because they want to be contrarians, but because they’ve thought deeply, worked through the assumptions, and found gaps or contradictions.

@@ -3,6 +3,7 @@ audio: true
 generated: false
 layout: post
 title: Microcomputer - Conversation
+type: note
 ---
 
 A: I’ve been revisiting microcomputer fundamentals. Can we start with the CPU’s role in instruction execution?
@@ -188,4 +189,3 @@ B: TrustZone partitions the CPU into secure and non-secure worlds, isolating sen
 A: RISC-V will expand into hyperscale data centers and space-grade hardware. Open-source verification tools will mature. Closing thoughts?
 
 B: The convergence of specialized silicon, open standards, and quantum leaps will redefine microcomputers. The key is balancing innovation with robustness.
-

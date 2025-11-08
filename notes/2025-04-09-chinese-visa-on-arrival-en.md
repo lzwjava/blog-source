@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Visa-Free Countries for Chinese Citizens
 translated: false
+type: note
 ---
 
 As of April 9, 2025, Chinese citizens have visa-free access or visa-on-arrival options to a number of countries and territories. Based on the latest available data, here’s a breakdown of where Chinese passport holders can travel without needing a visa in advance or can obtain one upon arrival. This list reflects agreements, unilateral policies, and regional arrangements in place as of early 2025, though policies can change, so it’s always wise to verify with official sources before traveling.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Air Fryer
 translated: false
+type: note
 ---
 
 An air fryer works by circulating hot air at high speed to cook food, producing a crispy exterior similar to deep frying but with minimal oil. Here's how it operates:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Exporting a GPG Private Key
 translated: false
+type: note
 ---
 
 ### Exporting a GPG Private Key from the Server

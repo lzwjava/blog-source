@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Configuring Logback for Custom Log Format
 translated: false
+type: note
 ---
 
 To achieve the log format you provided, you'll need to configure your `logback.xml` file. The key is to use a `PatternLayout` within your appender and set the `pattern` property correctly.

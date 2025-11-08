@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Spandex Fiber Properties and Uses
 translated: false
+type: note
 ---
 
 You’re referring to **“氨纶” (ān lún)** in Chinese — sometimes people also pronounce or write it informally as “安纶”.

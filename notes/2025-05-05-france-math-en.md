@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: France and Math
 translated: false
+type: note
 ---
 
 The idea that the French are "so good at math" stems from a mix of historical, cultural, and educational factors, though it’s partly a stereotype. France has a strong mathematical tradition, producing giants like Descartes, Fermat, Pascal, Laplace, Poincaré, and more recently, Fields Medalists like Laurent Schwartz and Cédric Villani. This legacy creates a self-reinforcing cycle of pride and focus on math.

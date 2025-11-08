@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Bitcoin ATM to Binance Transfer Guide
 translated: false
+type: note
 ---
 
 ### Understanding Your Query

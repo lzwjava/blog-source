@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Install DirB Without Source Changes
 translated: false
+type: note
 ---
 
 ### Alternatives to Modifying DirB Source Code

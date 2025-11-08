@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Smart Switch Benefits and Uses
 translated: false
+type: note
 ---
 
 Smart switches, like the Xiaomi ones you're referring to, are versatile devices that add convenience and control to various everyday situations. You can use them in different settings and scenarios to enhance your comfort, improve energy efficiency, and integrate with other smart home devices. Here are a few practical cases:

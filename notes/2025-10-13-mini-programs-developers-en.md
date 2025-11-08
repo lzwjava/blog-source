@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Mini Programs for Developers
 translated: false
+type: note
 ---
 
 ### Top WeChat Mini Program Recommendations Tailored to Your Background

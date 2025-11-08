@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 帖子與筆記排序
 translated: true
+type: note
 ---
 
 ### 修改後的 `_includes/sort.html`

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Eigenvalues and Vectors
 translated: false
+type: note
 ---
 
 Certainly! Let's break down the key concepts and topics related to "Eigenvalues and Vectors" in linear algebra, which are fundamental to understanding many applications in mathematics, physics, engineering, and computer science.

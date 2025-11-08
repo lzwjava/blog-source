@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: IBM WebSphere SIBus Overview
 translated: false
+type: note
 ---
 
 ### What is SIBus in IBM WebSphere Application Server?

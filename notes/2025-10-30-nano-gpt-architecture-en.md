@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: NanoGPT Model Architecture Summary
 translated: false
+type: note
 ---
 
 ### NanoGPT Model Architecture Overview

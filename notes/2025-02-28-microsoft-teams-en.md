@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Microsoft Teams
 translated: false
+type: note
 ---
 
 ### Key Points

@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Filter Projects with Head and Heart
 translated: false
+type: note
 ---
 
 ### Acknowledging Your Experience

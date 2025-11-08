@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Regular Expressions in Java
 translated: false
+type: note
 ---
 
 # How to Use `java.util.regex` in Java

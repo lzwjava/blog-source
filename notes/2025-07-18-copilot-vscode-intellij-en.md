@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Copilot in VS Code vs IntelliJ
 translated: false
+type: note
 ---
 
 Here’s a more readable comparison (no bulky tables, promise) of **GitHub Copilot plugin in Visual Studio Code** versus in **IntelliJ IDEA**:

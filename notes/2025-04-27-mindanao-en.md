@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cities in Mindanao
 translated: false
+type: note
 ---
 
 Mindanao, the second-largest island in the Philippines, is a vibrant region known for its rich cultural diversity, natural beauty, and economic significance. It is home to several key cities that serve as commercial, cultural, and administrative hubs. Below are introductions to some prominent cities in Mindanao, highlighting their unique characteristics and contributions:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Global Travel
 translated: false
+type: note
 ---
 
 Here's a comprehensive 3-month global travel plan, excluding China, with a focus on diverse experiences, visa logistics, and budget considerations. Adjust based on your nationality and travel style.

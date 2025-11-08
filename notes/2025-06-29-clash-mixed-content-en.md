@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fix Clash VPN Mixed Content Errors
 translated: false
+type: note
 ---
 
 The error messages you're encountering indicate a **mixed content** issue with the Clash VPN application, specifically when the page at `https://clash.razord.top/` tries to load resources from an insecure `http://127.0.0.1:9090/` endpoint (e.g., `http://127.0.0.1:9090/version`). Modern browsers block such requests because they violate security policies by attempting to load insecure HTTP content on a secure HTTPS page. Additionally, there are CORS (Cross-Origin Resource Sharing) errors due to access control restrictions. Below is a step-by-step guide to resolve this issue.

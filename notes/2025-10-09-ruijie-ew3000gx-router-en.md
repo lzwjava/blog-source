@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ruijie EW3000GX Wi-Fi 6 Router
 translated: false
+type: note
 ---
 
 The Ruijie EW3000GX (full model: RG-EW3000GX) is a high-performance Wi-Fi 6 router from Ruijie Networks, sold under their consumer-friendly Reyee brand. It's designed for home use, delivering dual-band wireless speeds up to 3000 Mbps (AX3000 class: 574 Mbps on 2.4 GHz + 2402 Mbps on 5 GHz). Key features include:

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Top 30 Open Source C++ Projects
 translated: false
+type: note
 ---
 
 Below is a curated list of 30 notable open-source projects that are primarily written in C++, based on their popularity, impact, and activity as of my last update. These projects span various domains like game development, databases, machine learning, multimedia, and more. Popularity is gauged by factors like GitHub stars, community activity, and real-world usage, though exact star counts or rankings may vary over time. I’ve prioritized projects with significant C++ codebases, though some may include other languages for specific components. If you need exact metrics (e.g., star counts), I can search for real-time data upon request.

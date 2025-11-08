@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Laundry Pods
 translated: false
+type: note
 ---
 
 Laundry pods offer several advantages:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: NotebookLM
 translated: false
+type: note
 ---
 
 NotebookLM is an experimental AI-first notebook developed by Google designed to help users process, understand, and generate new insights from their own documents and notes. Unlike general-purpose AI chatbots, NotebookLM "grounds" its responses in the specific sources you provide, acting as a personalized AI expert on your uploaded materials.

@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Fixing Maven Platform Encoding Warnings
 translated: false
+type: note
 ---
 
 That Maven warning means your project build process depends on the **default platform encoding** (e.g., GBK on a Chinese Windows system). If other developers or CI servers use a different encoding (like UTF-8 on Linux), text resources (Java source, properties, XML, etc.) may be misread or miscompiled.

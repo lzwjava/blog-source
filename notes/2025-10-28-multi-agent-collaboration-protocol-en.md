@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Multi-Agent Collaboration Protocol MCP
 translated: false
+type: note
 ---
 
 ### What is Multi-Agent Collaboration (MCP)?

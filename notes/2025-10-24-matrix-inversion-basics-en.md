@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Matrix Inversion Basic Principle
 translated: false
+type: note
 ---
 
 ### Basic Principle of Matrix Inversion

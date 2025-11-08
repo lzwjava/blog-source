@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 中断されたzshジョブの再開
 translated: true
+type: note
 ---
 
 zsh 内で Ghostty を使用して、中断されたジョブ（例: `bundle exec jekyll serve --incremental` コマンド。おそらく Ctrl+Z で一時停止されたもの）を再開するには、同じターミナルセッションで以下の手順に従ってください。

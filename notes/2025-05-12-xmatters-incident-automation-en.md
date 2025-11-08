@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: xMatters Automates Incident Response Workflows
 translated: false
+type: note
 ---
 
 [![xMatters Software Reviews, Demo & Pricing - 2024](https://tse4.mm.bing.net/th/id/OIP.BzLsx-IP4kgN46B5daSPIQHaFR?r=0\&pid=Api)](https://www.softwareadvice.com/za/it-management/xmatters-profile/)

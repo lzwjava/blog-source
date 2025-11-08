@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Conditional Generation in Machine Learning
 translated: false
+type: note
 ---
 
 ### What is Conditional Generation?

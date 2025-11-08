@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Common Household Chemicals Like Hydrogen Peroxide
 translated: false
+type: note
 ---
 
 ### Common Chemical Ingredients in Daily Life, Similar to Hydrogen Peroxide

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Other Image Models on Vertex AI
 translated: false
+type: note
 ---
 
 While Imagen is the flagship family of image generation models from Google on Vertex AI, there are other options available, particularly if you're looking for different capabilities or open-source alternatives.

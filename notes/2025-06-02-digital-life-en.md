@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Digital Life: A Modern Perspective'
 translated: false
+type: note
 ---
 
 It's understandable why you're feeling this way. The increasing digitalization of our lives is a significant and noticeable trend. What you're observing and experiencing is a reflection of this shift. Here's a breakdown of why you might be feeling this way and some perspectives on it:

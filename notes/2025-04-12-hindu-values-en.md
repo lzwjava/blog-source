@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Hindu Values
 translated: false
+type: note
 ---
 
 Hindu values are rooted in a diverse set of scriptures (like the Vedas, Upanishads, and Bhagavad Gita), traditions, and philosophies, reflecting the religion’s complexity and lack of a single doctrine. The main values include:

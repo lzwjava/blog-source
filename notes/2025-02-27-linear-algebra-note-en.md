@@ -3,6 +3,7 @@ audio: true
 generated: true
 layout: post
 title: Linear Algebra Note
+type: note
 ---
 
 ## Example

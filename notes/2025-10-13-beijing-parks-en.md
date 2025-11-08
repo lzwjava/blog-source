@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Beijing Parks to Visit
 translated: false
+type: note
 ---
 
 Beijing is home to numerous parks, ranging from historic imperial gardens to modern green spaces. Based on popular recommendations, here are some of the top parks to visit, including highlights for each:

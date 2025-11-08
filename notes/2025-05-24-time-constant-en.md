@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Capacitor Charging Time Constant
 translated: false
+type: note
 ---
 
 The term \\( RC \\) is called the **time constant** in the context of the capacitor voltage equation \\( V(t) = V_0 (1 - e^{-t/RC}) \\) because it governs the rate at which the capacitor charges (or discharges) in an RC circuit. Here's why:

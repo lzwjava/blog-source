@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Camera Exposure and Missing Stars
 translated: false
+type: note
 ---
 
 ### What is Exposure in a Camera?

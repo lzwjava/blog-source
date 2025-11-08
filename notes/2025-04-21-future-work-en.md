@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Future Work
 translated: false
+type: note
 ---
 
 In the next 10 years, the way people work will likely be a blend of **remote and hybrid models**. While the pandemic accelerated the shift to remote work, the benefits of in-person collaboration and social interaction are still valued. Many companies are adopting hybrid models, allowing employees to split their time between working from home and the office. This offers flexibility while maintaining opportunities for teamwork and company culture. Some companies, particularly in tech, may lean more heavily towards remote work, while others might require more in-office presence depending on the nature of the work.

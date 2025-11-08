@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Red Hat Enterprise Linux Default Text Editor
 translated: false
+type: note
 ---
 
 ### Default Text Editor in Red Hat Enterprise Linux

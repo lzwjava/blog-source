@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: DeepSeek Sparse Attention Explained
 translated: false
+type: note
 ---
 
 Now I have comprehensive information about DeepSeek Sparse Attention (DSA) in DeepSeek-V3.2-Exp. Let me provide a detailed explanation.

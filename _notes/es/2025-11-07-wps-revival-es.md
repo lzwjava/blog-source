@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: 'WPS: De Casi Morir a un Éxito Móvil'
 translated: true
+type: note
 ---
 
 ## La épica travesía de WPS: De casi desaparecer a su resurgimiento

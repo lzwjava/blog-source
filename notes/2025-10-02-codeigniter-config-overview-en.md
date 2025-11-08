@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: CodeIgniter Configuration File Overview
 translated: false
+type: note
 ---
 
 ### What This File Is

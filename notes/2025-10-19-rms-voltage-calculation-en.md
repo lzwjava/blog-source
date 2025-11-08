@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding RMS Voltage Calculation
 translated: false
+type: note
 ---
 
 ### Explanation

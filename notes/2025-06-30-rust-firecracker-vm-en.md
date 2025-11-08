@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rust Powers Firecracker's Secure Virtualization
 translated: false
+type: note
 ---
 
 Amazon's Firecracker MicroVM leverages Rust's unique features to achieve a secure, performant, and minimalist virtualization solution, primarily for serverless and container workloads. Below is a detailed analysis of how Rust is utilized in Firecracker and the outcomes of this design choice:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Richard Stallman Fights For Software Freedom
 translated: false
+type: note
 ---
 
 ### Richard Stallman: The Open Source Fighter

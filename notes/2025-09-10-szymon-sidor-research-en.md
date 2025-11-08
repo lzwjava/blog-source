@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Szymon Sidor's Key Research Contributions
 translated: false
+type: note
 ---
 
 Here’s a more comprehensive and technically detailed look at **Szymon Sidor’s** key research contributions, emphasizing their depth without using wide tables:

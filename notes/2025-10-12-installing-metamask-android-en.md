@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Installing MetaMask on Android
 translated: false
+type: note
 ---
 
 ### How to Install MetaMask on Android

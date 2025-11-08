@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Image Compression using Linear Algebra
 translated: false
+type: note
 ---
 
 Image compression is a fundamental task in digital image processing, aiming to reduce the storage size of images while maintaining their visual quality. One powerful method for achieving this is through the use of linear algebra, particularly the Singular Value Decomposition (SVD). This technique allows us to represent an image matrix in a more compact form, effectively discarding less important information while retaining the essential features.

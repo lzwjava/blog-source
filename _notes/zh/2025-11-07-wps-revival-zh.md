@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: WPS：从濒临消亡到移动端逆袭
 translated: true
+type: note
 ---
 
 ## WPS的史诗之旅：从濒临消亡到复兴重生

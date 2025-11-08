@@ -8,6 +8,7 @@ layout: post
 model: google/gemini-2.5-flash
 title: Introduction to Python Code Examples
 translated: false
+type: note
 ---
 
 Okay, "some Python code" can mean a lot of things! Python is incredibly versatile. I'll give you a few common examples, from very basic to slightly more involved, covering different concepts.

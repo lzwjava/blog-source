@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Things You Can't Buy With Money
 translated: false
+type: note
 ---
 
 While money can purchase many material goods and services, there are profound aspects of life that remain beyond its reach. These intangibles are often the most meaningful and enduring, rooted in human experience, relationships, and personal growth. Below is a comprehensive exploration of things you cannot buy with money, with explanations for each:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Understanding the Physical Layer
 translated: false
+type: note
 ---
 
 Below is a detailed tutorial to help you learn the "Physical Layer" chapter of a Computer Networks Technology course (likely part of the Chinese Higher Education Self-Study Examination system). This tutorial is structured to guide you through the key concepts—transmission media, signal encoding techniques, data transmission basics, and hardware components—while providing explanations, examples, and study tips. Let’s dive in!

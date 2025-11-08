@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 耶鲁电子锁无响应故障排查
 translated: true
+type: note
 ---
 
 ### 耶鲁电子锁更换电池后无反应怎么办

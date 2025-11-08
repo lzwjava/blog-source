@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Analog Electronics Circuit Analysis Fundamentals
 translated: false
+type: note
 ---
 
 This guide provides a structured overview of the key concepts in analog electronics circuit analysis. It focuses on building a strong foundation for understanding how electrical circuits behave under steady-state and dynamic conditions. We'll cover basic laws, analysis techniques, and transient responses. Examples are included for clarity, and all explanations assume DC circuits unless noted otherwise.

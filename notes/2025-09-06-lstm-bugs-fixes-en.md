@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: LSTM Implementation Bugs and Fixes
 translated: false
+type: note
 ---
 
 Got it—here’s a clear, end-to-end walkthrough of what this LSTM-from-scratch script is doing, plus the subtle bugs that will break training and how to fix them. I’ll keep it linear and easy to scan (no wide tables).

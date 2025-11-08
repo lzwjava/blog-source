@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Nomura's Century of Financial Growth
 translated: false
+type: note
 ---
 
 Nomura Holdings is Japan's largest investment bank and brokerage group with a rich history spanning nearly a century. Here's a comprehensive overview of its development:

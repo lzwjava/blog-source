@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: IBM WebSphere wsadmin Tool Overview
 translated: false
+type: note
 ---
 
 ### Overview of wsadmin in IBM WebSphere Application Server (WAS)

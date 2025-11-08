@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top 100 Python Pip Packages by Downloads (2025 Approximation)
 translated: false
+type: note
 ---
 
 As of 2025, a definitive list of the top 100 Python pip packages by download count is not directly available in a single reliable source, due to the dynamic nature of PyPI (Python Package Index) and the lack of real-time access to comprehensive download statistics in my data. However, I can provide an informed approximation based on recent trends, historical data from sources like the "Top PyPI Packages" repository, and insights from posts found on X and web analyses up to June 2025.[](https://hugovk.github.io/top-pypi-packages/)[](https://github.com/hugovk/top-pypi-packages)

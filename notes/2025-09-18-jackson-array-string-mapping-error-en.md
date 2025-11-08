@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Jackson Array to String Mapping Error
 translated: false
+type: note
 ---
 
 ### Issue Overview

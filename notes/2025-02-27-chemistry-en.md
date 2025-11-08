@@ -3,6 +3,7 @@ audio: true
 generated: true
 layout: post
 title: Chemistry
+type: note
 ---
 
 Below is a concise, 100-point summary of key ideas and concepts typically covered in middle school chemistry. Each point aims to highlight an essential topic, principle, or term relevant to foundational chemistry studies.

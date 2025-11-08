@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Protokolle der Sicherungsschicht erklärt
 translated: true
+type: note
 ---
 
 Diese Aussage identifiziert korrekt die wichtigsten Data-Link-Layer-Protokolle und ihre primären Anwendungsfälle. Lassen Sie mich das aufschlüsseln:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Publishing an iOS App to the App Store
 translated: false
+type: note
 ---
 
 To use the Apple Developer Program to upload an iOS app, whether for personal or corporate use, you need to enroll in the program, prepare and package your app, upload it, and manage updates. Below is a step-by-step guide addressing all aspects of your query, including the Dun & Bradstreet (D-U-N-S) number requirement for corporate use, packaging the app, uploading the archive, and updating apps via Apple’s site.

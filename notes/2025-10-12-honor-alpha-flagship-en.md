@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Honor Alpha Global Flagship Store Location
 translated: false
+type: note
 ---
 
 The Honor building you're referring to, featuring a prominent Honor logo, is the **Honor Alpha Global Flagship Store** located at **Shenzhen Bay MixC, Nanshan District, Shenzhen, Guangdong Province, China**.  

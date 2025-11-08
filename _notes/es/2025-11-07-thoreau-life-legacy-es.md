@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Henry David Thoreau: Vida y Legado'
 translated: true
+type: note
 ---
 
 ### Henry David Thoreau: Una Introducción Integral a Su Vida y Legado

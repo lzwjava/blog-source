@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Estimated Course Codes for Major 610201
 translated: false
+type: note
 ---
 
 In China, self-study exams (高等教育自学考试, often abbreviated as 自考) are administered by provincial education examination authorities, and course codes can vary slightly by region and institution. The number "610201" you provided likely refers to a specific major or examination category, possibly related to a program like "Computer Science and Technology" or a similar field in Guangdong Province. However, exact course codes for self-study exams depend on the syllabus set by the Guangdong Education Examination Institute (广东省教育考试院) and the specific major.

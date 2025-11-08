@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Free Up Disk Space Cleaning Xcode Junk
 translated: false
+type: note
 ---
 
 Good question 👍 Xcode (and iOS Simulator) can accumulate a *lot* of junk over time—build cache, derived data, simulator devices, device support files, logs, etc. Cleaning them up frees gigabytes. Here’s a structured approach:

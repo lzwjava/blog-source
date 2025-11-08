@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Father of Silicon Valley's Innovation
 translated: false
+type: note
 ---
 
 Frederick Emmons Terman (1900-1982) was a highly influential American professor and academic administrator, widely recognized as one of the "fathers of Silicon Valley." He spent the majority of his distinguished career at Stanford University, where his vision and leadership profoundly shaped the institution and the surrounding region.

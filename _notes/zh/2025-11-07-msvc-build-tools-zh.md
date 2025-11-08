@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: MSVC构建工具的用途与替代方案
 translated: true
+type: note
 ---
 
 MSVC 构建工具确实非常庞大！以下是它们的主要用途：

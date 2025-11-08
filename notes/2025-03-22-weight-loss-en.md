@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: A Comprehensive Strategy for Healthy and Sustainable Weight Loss
 translated: false
+type: note
 ---
 
 **1\. Introduction: Your Personalized Guide to Healthy Weight Loss**

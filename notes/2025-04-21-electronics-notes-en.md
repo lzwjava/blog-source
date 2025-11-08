@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Electronics Notes
 translated: false
+type: note
 ---
 
 A rectifier is an electrical device that converts alternating current (AC), which periodically reverses direction, to direct current (DC), which flows in only one direction. This process is known as rectification. Rectifiers are crucial components in many electronic devices and systems, including power supplies, battery chargers, and radio detectors.

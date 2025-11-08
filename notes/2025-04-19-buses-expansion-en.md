@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Part 5: Buses and Expansion'
 translated: false
+type: note
 ---
 
 ### 1. System Bus Standards

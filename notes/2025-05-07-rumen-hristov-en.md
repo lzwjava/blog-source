@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rumen Hristov
 translated: false
+type: note
 ---
 
 Rumen Hristov is a distinguished Bulgarian computer scientist, entrepreneur, and innovator, recognized for his significant contributions to technology and healthcare. Born in Shumen, Bulgaria, Hristov displayed an early aptitude for problem-solving, engaging with logarithms by age ten and honing his programming skills at Shumen’s Mathematical Gymnasium and the “A&B” Programming School under Biserka Yovcheva’s mentorship. His ambition to pursue world-class education led him to the Massachusetts Institute of Technology (MIT), where he earned a Master’s degree in Computer Science, solidifying his expertise at one of the globe’s premier institutions.

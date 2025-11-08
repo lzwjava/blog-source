@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Capture Log
 translated: false
+type: note
 ---
 
 In GNOME Terminal, the "Select All" option (usually accessed via `Edit > Select All` or `Ctrl+Shift+A`) only selects the text currently visible on the screen. To select **all text** in the terminal, including content in the scrollback buffer (beyond what's visible), you can use one of these methods:

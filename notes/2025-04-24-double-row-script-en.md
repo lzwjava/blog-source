@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Python Script to Double Row
 translated: false
+type: note
 ---
 
 Here's the updated Python script modified to work with .xlsx files instead of .xls files. It uses `openpyxl` for handling .xlsx files, keeps the same functionality of repeating values in the third row based on the provided parameter, and saves the output to a new .xlsx file with "_plus.xlsx" appended to the original filename. The artifact_id is reused since this is an update to the previous artifact.

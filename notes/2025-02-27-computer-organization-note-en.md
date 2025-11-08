@@ -3,6 +3,7 @@ audio: false
 generated: true
 layout: post
 title: Computer Organization - Notes
+type: note
 ---
 
 Semiconductor memory is a type of storage device that uses semiconductor circuits as the storage medium. It is composed of semiconductor integrated circuits known as memory chips. Based on their function, semiconductor memories can be categorized into two main types: Random Access Memory (RAM) and Read-Only Memory (ROM).
@@ -731,4 +732,3 @@ For the number \\( 6.5 \\) in binary:
 - Significand: \\( 101 \\) (implicit leading 1, followed by the fractional part)
 
 Thus, the significand (or fraction) is crucial for representing the precision of floating-point numbers in the IEEE 754 format
-

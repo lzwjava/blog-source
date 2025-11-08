@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Guangdong University of Education Admission Scores
 translated: false
+type: note
 ---
 
 **Guangdong University of Education** (广东第二师范学院) is generally considered a **second-tier undergraduate university (二本, "Er Ben")** in Guangdong Province.

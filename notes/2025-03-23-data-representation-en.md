@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Data Representation and Operation
 translated: false
+type: note
 ---
 
 Below is a comprehensive tutorial that breaks down the key topics in the “Data Representation and Operation” chapter. This tutorial covers binary, hexadecimal, and floating-point number systems, Boolean algebra, and arithmetic operations. It’s designed to build your understanding step by step with clear explanations and examples.

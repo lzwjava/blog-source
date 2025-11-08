@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: LeanCloud Realtime iOS SDK
 translated: false
+type: note
 ---
 
 To use the `pod 'AVOSCloudIM', '3.1.6.2'` in your iOS project with CocoaPods, follow these steps. This assumes you have CocoaPods installed and are familiar with basic iOS development using Xcode.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Cities Age Slowly, Tech Evolves Fast
 translated: false
+type: note
 ---
 
 ### Understanding the "Aging" of Cities Like Hong Kong vs. the Rapid Evolution of Tech

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Determinant of Matrix
 translated: false
+type: note
 ---
 
 If the **determinant of matrix \\( A \\) is zero**, the system **may** have infinitely many solutions because it indicates that the matrix is **singular** (non-invertible), meaning its rows or columns are linearly dependent. Let's explore why this leads to infinite solutions.

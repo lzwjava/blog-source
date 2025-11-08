@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Git Pull and Push with Shallow Clones
 translated: false
+type: note
 ---
 
 Yes, you can still use `git pull` or `git push` after cloning a repository with a limited history using `--depth=20`. However, there are some important considerations to keep in mind:

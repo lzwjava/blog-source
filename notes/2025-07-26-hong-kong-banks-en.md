@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: International Banks in Hong Kong
 translated: false
+type: note
 ---
 
 ### Major International Banks in Hong Kong

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Applying for a Master's in Computer Science or Machine Learning in the UK
 translated: false
+type: note
 ---
 
 #### 1. **Research Programs and Universities**

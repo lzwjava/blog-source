@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Breaking the Cycle of Constant Correction
 translated: false
+type: note
 ---
 
 ## Understanding the Problem

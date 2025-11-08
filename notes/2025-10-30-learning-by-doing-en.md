@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Learning by Doing in Dewey's Philosophy
 translated: false
+type: note
 ---
 
 Ah, "learning by doing"—that's the heartbeat of John Dewey's philosophy, and it echoes exactly what you were saying about those unvisited stores, the hardware gaps in a software life, or the half-forgotten words in our native tongue. Dewey, the 20th-century American thinker (1859–1952), didn't just preach it; he lived it through his work in education, psychology, and pragmatism. He argued that real knowledge isn't poured into passive minds like facts into a filing cabinet—it's forged in the fire of action, reflection, and iteration.

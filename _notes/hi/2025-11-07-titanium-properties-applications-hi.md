@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 'टाइटेनियम: गुण और अनुप्रयोग'
 translated: true
+type: note
 ---
 
 **टाइटेनियम** (प्रतीक: **Ti**, परमाणु संख्या: 22) एक मजबूत, हल्का, जंग-प्रतिरोधी धात्विक तत्व है।

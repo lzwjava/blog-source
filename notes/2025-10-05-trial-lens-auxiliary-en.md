@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Trial Lens Set Auxiliary Lenses
 translated: false
+type: note
 ---
 
 In the context of trial lenses and trial frames used in optometry for eye examinations, PH and BL are abbreviations for specific auxiliary lenses included in a trial lens set. These lenses are inserted into the trial frame to perform various vision tests.

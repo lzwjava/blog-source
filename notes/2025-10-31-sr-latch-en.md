@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding the SR Latch
 translated: false
+type: note
 ---
 
 ### What is an SR Latch?

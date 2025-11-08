@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: مقارنة تيد بي مقابل كوكروتش دي بي
 translated: true
+type: note
 ---
 
 ### TiDB مقابل CockroachDB: مقارنة سريعة

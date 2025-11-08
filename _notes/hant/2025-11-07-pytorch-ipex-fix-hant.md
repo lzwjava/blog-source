@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: 修復 PyTorch 與 IPEX 相容性問題
 translated: true
+type: note
 ---
 
 你遇到兩個問題：

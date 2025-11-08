@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Git Rebase Drop Removes Commits
 translated: false
+type: note
 ---
 
 Yes — exactly.

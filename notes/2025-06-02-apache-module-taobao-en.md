@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Debugging Taobao's Login System about Apache Module
 translated: false
+type: note
 ---
 
 The story you shared describes a fascinating incident involving a complex, intermittent issue with user login information mismatches on Taobao’s platform around 2009, resolved by an engineer named Duolong (多隆) through a custom Apache HTTP Server module. Below, I’ll break down how such a module might work, why it could capture detailed information to diagnose the issue, and evaluate the plausibility of the story based on technical and contextual analysis.

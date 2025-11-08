@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Advanced Git Commands
 translated: false
+type: note
 ---
 
 Git is like a Swiss Army knife for developers—versatile, powerful, and occasionally confusing if you don’t know which tool to pull out. Today, we’re diving into some of Git’s niftiest features and workflows: cherry-picking changes, merging with style, rebasing for a cleaner history, deleting those pesky large files you accidentally committed, and undoing a commit when you realize you’ve gone off the rails. Let’s break it down.
@@ -87,4 +88,3 @@ I’ve saved myself with `git reset --soft` more times than I can count—perfec
 Git’s flexibility is what makes it so powerful, but it’s easy to get tangled up if you don’t know your options. Cherry-pick for surgical precision, tweak merges to fit your workflow, rebase for a polished history, and don’t panic when you need to erase a mistake—whether it’s a huge file or a hasty commit. Practice these on a test repo if you’re nervous, and soon they’ll feel like second nature.
 
 What’s your favorite Git trick? Let me know—I’m always up for learning something new!
-

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding Dijkstra's Shortest Path Algorithm
 translated: false
+type: note
 ---
 
 ### Understanding Dijkstra's Shortest Path Algorithm

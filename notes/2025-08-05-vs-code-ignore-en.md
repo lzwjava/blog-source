@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Exclude Ignored Files in VS Code
 translated: false
+type: note
 ---
 
 You can make “Go to File” (Quick Open, Ctrl + P) include files that live in your `.gitignore` by tweaking three settings in your `settings.json`:

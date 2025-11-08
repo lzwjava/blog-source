@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Hetzner API Issue
 translated: false
+type: note
 ---
 
 Let’s analyze the error you're encountering and explain what’s happening with your code:

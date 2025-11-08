@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Java编程基础学习指南
 translated: true
+type: note
 ---
 
 ## 全国高等教育自学考试

@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Übersicht des Multipath TCP-Protokolls
 translated: true
+type: note
 ---
 
 MPTCP ist eine Erweiterung des Transportprotokolls, die die Funktionsweise von Netzwerkverbindungen grundlegend verändert, indem sie einem einzelnen logischen Verbindung ermöglicht, mehrere physische Pfade gleichzeitig zu nutzen. Hier eine detaillierte Aufschlüsselung:

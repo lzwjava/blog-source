@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Rust's Rapid Rise in Programming
 translated: false
+type: note
 ---
 
 Yes, the claim holds up based on current trends in programming language adoption and development. Rust, which achieved its first stable release in 2015 (much later than C in 1972, C++ in 1985, and Java in 1995), is indeed gaining ground rapidly compared to these established languages. This acceleration is driven by technological advancements (including performance and safety features), AI integration, and a vibrant open-source community. While Rust hasn't fully "caught up" in terms of sheer user base or legacy ecosystem size, its growth trajectory suggests it could close the gap in specific domains like systems programming, cloud infrastructure, and AI/ML within the next few years. Below, I'll break this down.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Jürgen Schmidhuber: Modern AI Pioneer'
 translated: false
+type: note
 ---
 
 ### Who Is Jürgen Schmidhuber?

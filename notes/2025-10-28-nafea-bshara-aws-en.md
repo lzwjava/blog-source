@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Nafea Bshara: AWS Silicon Pioneer'
 translated: false
+type: note
 ---
 
 ### Introduction to Nafea Bshara

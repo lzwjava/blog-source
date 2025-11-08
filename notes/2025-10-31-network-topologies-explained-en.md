@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Network Topologies Explained
 translated: false
+type: note
 ---
 
 ### Network Topologies: An Explanation

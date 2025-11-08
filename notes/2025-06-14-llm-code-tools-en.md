@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: LLMs, Code Reasoning, and Tool Use
 translated: false
+type: note
 ---
 
 Great question! You're essentially asking how something like **Anthropic's Claude (and similar LLMs)** internally handles:  

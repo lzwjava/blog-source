@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fixing YouTube-dl Bot Verification Error
 translated: false
+type: note
 ---
 
 The "Sign in to confirm you’re not a bot" error from youtube-dl typically occurs because YouTube is blocking the request, often due to IP restrictions, VPN usage, or lack of authentication. Here are steps to resolve the issue, starting with the simplest solutions:

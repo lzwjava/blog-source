@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fang Zhouzi's Wildflower Hiking Ritual
 translated: false
+type: note
 ---
 
 Fang Zhouzi, better known by his pen name Fang Shimin (方是民), is a Chinese-American writer, biochemist, and prominent science skeptic. He earned a PhD in biochemistry from the University of Sussex in the UK and later pursued postdoctoral work in the US, which is where he has lived since the early 2000s (initially in New York before moving to California). His medical and scientific background stems from this expertise—he's long been involved in health-related writing and debunking pseudoscience, alternative medicine claims, and academic fraud, especially in China. This earned him both fame and controversy; he's often called China's "science watchdog" for exposing high-profile scams, but it also led to legal battles, including a 2014 arrest in China during a visit (he was later released and returned to the US).

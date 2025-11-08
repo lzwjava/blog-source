@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: CuPy Error with Python 3.13
 translated: false
+type: note
 ---
 
 ### Problem Description

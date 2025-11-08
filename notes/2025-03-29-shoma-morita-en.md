@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Wisdom of Shoma Morita
 translated: false
+type: note
 ---
 
 Shoma Morita was a Japanese psychiatrist and the creator of **Morita Therapy**, which focuses on acceptance and mindfulness rather than trying to control or eliminate emotions. His approach draws heavily on Zen Buddhism and integrates ideas around human suffering, personal growth, and the nature of life itself.

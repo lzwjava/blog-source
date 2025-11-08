@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Top AI Image Models 2025
 translated: false
+type: note
 ---
 
 I’d be happy to provide an overview of the current rankings of AI image generation models based on available information. Since you’ve asked about “AI ranking of image models,” I’ll focus on recent evaluations from reputable sources, such as leaderboards and expert reviews, that rank text-to-image models based on performance metrics like image quality, prompt adherence, text rendering, and speed. Below is a summary of the top models as of 2025, based on community votes, expert testing, and leaderboard data.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Jasmine Core Testing Framework Overview
 translated: false
+type: note
 ---
 
 ### Jasmine-Core

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Frege on Functions and Unsaturation
 translated: false
+type: note
 ---
 
 ### What Does Frege's 1904 Essay "What is a Function?" Say?

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Kill Process on Port with Psutil
 translated: false
+type: note
 ---
 
 ### Using psutil to Detect and Kill a Process on a Specific Port (Windows)

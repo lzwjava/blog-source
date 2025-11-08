@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: HIV and AIDS Basics
 translated: false
+type: note
 ---
 
 ### What is HIV?

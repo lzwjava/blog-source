@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Instruction System – A Comprehensive Guide
 translated: false
+type: note
 ---
 
 ## **1. Introduction to the Instruction System**  

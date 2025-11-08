@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Books about Banking Software Systems
 translated: false
+type: note
 ---
 
 If you want to learn about banking software systems, these books can help you build a solid foundation:

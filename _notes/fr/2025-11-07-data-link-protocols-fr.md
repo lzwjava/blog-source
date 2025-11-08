@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Protocoles de la couche liaison de données expliqués
 translated: true
+type: note
 ---
 
 Cette déclaration identifie correctement les principaux protocoles de la couche liaison de données et leurs cas d'utilisation principaux. Permettez-moi de détailler :

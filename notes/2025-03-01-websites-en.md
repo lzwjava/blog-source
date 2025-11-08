@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Useful Websites
 translated: false
+type: note
 ---
 
 Here is a curated list of useful websites for various purposes:
@@ -24,4 +25,3 @@ Here is a curated list of useful websites for various purposes:
 - **Web Security and Performance**: [Cloudflare](https://www.cloudflare.com) - Offers a range of services to enhance website security and performance.
 
 - **Domain Registration**: [Namecheap](https://www.namecheap.com) - A platform for purchasing and managing domain names.
-

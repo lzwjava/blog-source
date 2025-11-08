@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Reading the Source Code of Large Projects
 translated: false
+type: note
 ---
 
 Reading the source code of large projects like Spring Boot or large backend systems can be daunting initially, but with a systematic approach, you can gain valuable insights. Here's a breakdown of how to tackle this:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Business Collapse in Technology Sector
 translated: false
+type: note
 ---
 
 The technology, IT, and computing sectors have seen some massive business collapses due to a variety of reasons including innovation failure, market shifts, poor management, and competition. Here are some of the biggest business collapses in these industries:

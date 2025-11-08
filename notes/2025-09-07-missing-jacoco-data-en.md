@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Resolving Missing JaCoCo Execution Data File
 translated: false
+type: note
 ---
 
 To generate the JaCoCo execution data file, often referred to as a **'.exec' file**, you need to run your tests with the JaCoCo agent attached. The log message "Skipping JaCoCo execution due to missing execution data file" indicates that the `report` goal was executed without the `prepare-agent` goal having been successfully run first.

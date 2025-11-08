@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: GPG Key Management Basics
 translated: false
+type: note
 ---
 
 ## Introduction to GPG Key Management

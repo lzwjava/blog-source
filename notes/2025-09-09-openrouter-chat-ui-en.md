@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: OpenRouter-Compatible Chat UI Options
 translated: false
+type: note
 ---
 
 You’re looking for an **open-source, Python-friendly chat UI**, similar to OpenWeb-UI—but specifically compatible with **OpenRouter** (so you can bring your own API keys) and ideally able to run locally.

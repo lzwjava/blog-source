@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Guangzhou Street Drink Guide
 translated: false
+type: note
 ---
 
 ### Typical Street Drinks in Guangzhou

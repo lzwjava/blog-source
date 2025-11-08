@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 思科網絡與人工智能演進
 translated: true
+type: note
 ---
 
 是的，思科被廣泛公認為網絡技術領域的全球領導者。以下是該公司的企業發展歷程：

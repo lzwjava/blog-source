@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Globalization's Uneven Division of Labor
 translated: false
+type: note
 ---
 
 ### Breaking Down the Phrase

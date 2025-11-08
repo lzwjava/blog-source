@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Electric Ovens
 translated: false
+type: note
 ---
 
 An electric oven is a kitchen appliance powered by electricity, designed to cook, bake, roast, broil, or reheat food by generating controlled heat. Unlike gas ovens, electric ovens use heating elements—typically coiled metal wires or plates located at the top and bottom of the oven cavity—that convert electrical energy into heat. These ovens are popular for their ease of use, precise temperature control, and even heat distribution, making them suitable for a wide range of cooking tasks, from baking cakes to roasting meats.

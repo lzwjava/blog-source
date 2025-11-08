@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Sequential Logic Circuits
 translated: false
+type: note
 ---
 
 Sequential logic circuits are fundamental components in digital electronics that maintain state information, unlike combinational circuits. Let's explore their key types and applications in detail.

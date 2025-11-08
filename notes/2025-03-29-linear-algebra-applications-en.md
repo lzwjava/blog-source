@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Applications of Linear Algebra
 translated: false
+type: note
 ---
 
 I'd be happy to help you create a tutorial chapter on "Applications" for a Linear Algebra course. Based on the information you've provided, this would be chapter 9 and should cover real-world problems like network flows and data fitting, as well as computational methods involving matrices in programming.

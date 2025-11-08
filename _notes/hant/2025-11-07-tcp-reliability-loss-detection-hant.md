@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: TCP可靠性與丟失檢測
 translated: true
+type: note
 ---
 
 讓我來解析這個TCP可靠性對話的清晰概念：

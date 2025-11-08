@@ -4,6 +4,7 @@ generated: false
 lang: en
 layout: post
 title: Java Backend Engineer Interview Questions
+type: note
 ---
 
 ### Java Core
@@ -243,4 +244,3 @@ title: Java Backend Engineer Interview Questions
 9. Explain the importance of monitoring and alerting in performance management. Answer: Monitoring tracks application health and performance, while alerting ensures timely responses to issues, preventing downtime.
 
 10. What are common signs of performance bottlenecks in Java applications? Answer: Signs include high CPU usage, memory leaks, slow response times, and increased garbage collection activity.
-

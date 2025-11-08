@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: AI Model Context Window Comparison 2025
 translated: false
+type: note
 ---
 
 Here’s a clearer take—without a table—on context window sizes of the models you listed:

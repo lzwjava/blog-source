@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Diagonalizable
 translated: false
+type: note
 ---
 
 To determine which option is necessary for a matrix to be diagonalizable, I'll examine each statement.

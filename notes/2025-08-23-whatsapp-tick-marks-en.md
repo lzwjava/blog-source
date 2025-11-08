@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: WhatsApp Tick Marks Explained Simply
 translated: false
+type: note
 ---
 
 Yes, you’ve got it mostly right — WhatsApp’s tick marks work like this:

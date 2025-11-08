@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: ResNets Revolutionize Deep Network Training
 translated: false
+type: note
 ---
 
 ### Why Do We Use ResNet?

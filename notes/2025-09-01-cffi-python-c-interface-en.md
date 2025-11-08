@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: CFFI Python C Interface Guide
 translated: false
+type: note
 ---
 
 ### What is CFFI?

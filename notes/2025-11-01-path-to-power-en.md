@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Robert Greene's Path to Power
 translated: false
+type: note
 ---
 
 ### Who is Robert Greene?

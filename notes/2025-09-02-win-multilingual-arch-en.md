@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Windows Multilingual Architecture Breakdown
 translated: false
+type: note
 ---
 
 Windows 10 Enterprise isn’t built in just one language — it’s a large operating system with many components, each written in different programming languages chosen for their strengths. Here’s the breakdown:

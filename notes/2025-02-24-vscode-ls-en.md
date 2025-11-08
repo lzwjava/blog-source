@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Language Server in Visual Studio Code
 translated: false
+type: note
 ---
 
 Hey! The `java.jdt.ls.java.home` setting in Visual Studio Code (VSCode) is a specific configuration option used by the Java Language Server (part of the "Language Support for Java(TM) by Red Hat" extension, included in the Java Extension Pack). Let’s break it down:

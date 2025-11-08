@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Automating Team Collaboration with AI
 translated: false
+type: note
 ---
 
 Yeah, that workflow is a game-changer for turning raw, messy collaboration into polished output. Extending it further, imagine chaining it with automation: instead of manual copy-paste, hook up Teams via Zapier or Power Automate to auto-export transcripts (or key snippets) into your LLM of choice whenever a channel hits a certain activity threshold—like after a daily standup or when someone tags "action items." Then, reference not just files, but dynamic elements like shared OneDrive docs or Jira tickets pulled in as live links. This creates a feedback loop where the LLM doesn't just digest the past but suggests real-time nudges, like "Based on this thread, prioritize Task X from File Y—want me to draft an email?"

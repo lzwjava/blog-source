@@ -3,6 +3,7 @@ audio: true
 generated: false
 layout: post
 title: iOS Engineer Interview
+type: note
 ---
 
 ### SwiftUI
@@ -196,4 +197,3 @@ title: iOS Engineer Interview
 
 60. How do you handle deadlines and pressure in a project?
     - Prioritize tasks, communicate effectively, and manage time efficiently.
-

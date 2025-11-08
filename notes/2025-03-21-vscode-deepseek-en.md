@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Comprehensive Analysis of VSCode Plugins Supporting DeepSeek API Keys
 translated: false
+type: note
 ---
 
 ### Key Points

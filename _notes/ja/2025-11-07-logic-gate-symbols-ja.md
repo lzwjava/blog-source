@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 論理ゲート記号と形状
 translated: true
+type: note
 ---
 
 ### デジタル回路における論理ゲート記号

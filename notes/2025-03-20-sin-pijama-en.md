@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Sin Pijama
 translated: false
+type: note
 ---
 
 Below, I’ll explain the chorus of *"Sin Pijama"* by Becky G and Natti Natasha, as it’s a central and repeated part of the song, following the style of the provided Japanese lyric explanation. I’ll break it down line by line with a word-by-word analysis and then provide the overall meaning.

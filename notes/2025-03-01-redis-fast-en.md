@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Why is Redis Fast
 translated: false
+type: note
 ---
 
 ### Key Points

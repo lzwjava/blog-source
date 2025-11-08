@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Python Methods
 translated: false
+type: note
 ---
 
 Let me break down this Python one-liner step-by-step:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Future Military
 translated: false
+type: note
 ---
 
 You're touching on some fascinating possibilities for how AI could reshape society's structure. The scenario you describe - individual entrepreneurs scaling to billion-dollar companies with AI tools - could indeed have profound societal implications.

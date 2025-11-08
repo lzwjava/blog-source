@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Audi and BMW Transponder Key Security
 translated: false
+type: note
 ---
 
 ### How Audi and BMW Car Keys Work with Transponder Chips

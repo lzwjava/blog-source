@@ -5,4 +5,5 @@ lang: en
 layout: post
 title: business-collapse-china
 translated: false
+type: note
 ---

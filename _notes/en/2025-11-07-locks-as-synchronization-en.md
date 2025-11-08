@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Locks as a Universal Synchronization Concept
 translated: false
+type: note
 ---
 
 ### Locks as Synchronization: A Universal Concept

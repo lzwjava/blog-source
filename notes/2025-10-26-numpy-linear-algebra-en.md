@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: NumPy Linear Algebra Pocket Guide
 translated: false
+type: note
 ---
 
 As your engineering-focused tutor, this guide builds on the prior index-explicit formulations by integrating practical NumPy demonstrations via `import numpy as np` and `np.linalg`. All math remains verifiable with indices (e.g., \\( A = [a_{ij}]_{i=1}^2, j=1^2 \\)); code uses explicit arrays for clarity. Outputs are from verified executions (e.g., for \\( A = \begin{pmatrix} a_{11}=1 & a_{12}=2 \\ a_{21}=3 & a_{22}=4 \end{pmatrix} \\), \\( B = \begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix} \\)). Use these for quick computations in exam prep—focus on interpreting outputs against formulas.

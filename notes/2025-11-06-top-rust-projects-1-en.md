@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Rust Open Source Projects
 translated: false
+type: note
 ---
 
 ### Top 50 Open Source Projects Primarily Written in Rust

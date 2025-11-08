@@ -8,6 +8,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Learning from Everyday Mistakes
 translated: false
+type: note
 ---
 
 Your experience is a great example of how small, everyday mistakes can teach us valuable lessons—not just about carelessness, but about **habits, systems, and human nature**. Here’s how to break it down and learn from it:

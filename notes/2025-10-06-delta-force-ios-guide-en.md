@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Delta Force Mobile iOS Guide
 translated: false
+type: note
 ---
 
 ### How to Play Delta Force on iOS

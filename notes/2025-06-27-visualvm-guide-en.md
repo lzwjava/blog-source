@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Comprehensive Guide to VisualVM: Java Profiling and Monitoring'
 translated: false
+type: note
 ---
 
 # Comprehensive Guide to VisualVM

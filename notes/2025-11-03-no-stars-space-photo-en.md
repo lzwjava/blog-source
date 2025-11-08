@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Debunking the No-Stars Space Photo Claim
 translated: false
+type: note
 ---
 
 ### Translation and Summary of the Chinese Text

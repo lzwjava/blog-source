@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: टीसीपी की स्लाइडिंग विंडो प्रणाली को समझना
 translated: true
+type: note
 ---
 
 बढ़िया सवाल! मैं TCP की स्लाइडिंग विंडो मैकेनिज्म को एक सहज तरीके से समझाता हूँ।

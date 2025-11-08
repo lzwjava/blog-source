@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Bipolar Junction Transistor Current Gain
 translated: false
+type: note
 ---
 
 ### Basics of Bipolar Junction Transistors (BJTs)

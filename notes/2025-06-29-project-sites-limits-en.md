@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: GitHub Pages Project Site URL Rules
 translated: false
+type: note
 ---
 
 With GitHub Pages, you can create **Project Sites** under your personal account in addition to your User Site (`username.github.io`). However, the format of the URL for Project Sites is limited to specific patterns, and not all subdomain or subpath configurations are natively supported. Let’s address your question about whether you can use `username.github.io/project1` or `project1.username.github.io` for Project Sites.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Nikola Tesla
 translated: false
+type: note
 ---
 
 **1. Early Life and Background**

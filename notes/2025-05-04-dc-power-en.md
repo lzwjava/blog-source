@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: DC Power Supplies
 translated: false
+type: note
 ---
 
 This tutorial provides a detailed exploration of **DC power supplies**, focusing on **rectifier and filter circuits** (half-wave and full-wave rectifiers) and the differences between **linear and switching regulators**. It includes theoretical explanations, practical examples, circuit designs, and real-world applications to ensure a thorough understanding for beginners and intermediate learners.

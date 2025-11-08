@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Ant vs Maven Key Differences
 translated: false
+type: note
 ---
 
 Here’s a **comprehensive comparison between Apache Ant and Apache Maven**. I’ll break it down into multiple aspects so it’s easier to follow without wide tables.

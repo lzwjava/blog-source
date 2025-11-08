@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Integrating Git Bash with Windows Terminal
 translated: false
+type: note
 ---
 
 Yes, Git Bash can run in a console window (it uses its own MinTTY terminal by default) and integrates seamlessly with Windows Terminal. You just need to add a custom profile for it in Windows Terminal's settings—point it to the `bash.exe` executable in your Git installation (usually `C:\Program Files\Git\bin\bash.exe`). Once added, you can launch it in a new tab or pane like any other shell.

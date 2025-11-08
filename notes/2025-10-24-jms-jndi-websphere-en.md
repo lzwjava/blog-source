@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: JMS and JNDI APIs for WebSphere
 translated: false
+type: note
 ---
 
 ### Required Packages and APIs for JMS in Java

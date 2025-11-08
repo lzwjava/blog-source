@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Courses about Microcomputer and Interface Technology
 translated: false
+type: note
 ---
 
 Based on your interest in the "Microcomputer and Interface Technology" course outline, which covers microcomputer fundamentals, 8086/8088 architecture, assembly language programming, and interface chips like 8255, 8253, and 8251, I’ve curated a list of YouTube channels and courses that align with these topics. These resources focus on microcomputer systems, interfacing technologies, and assembly language programming, particularly for the 8086/8088 and related interface chips. Since your prior conversations indicate a strong interest in computer organization, assembly language, and microprocessors (e.g., 8086 registers, interrupts, and MIPS instructions), these recommendations are tailored to deepen your understanding of the course content.

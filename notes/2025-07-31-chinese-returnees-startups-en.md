@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Chinese Returnees Start Startups
 translated: false
+type: note
 ---
 
 ### Understanding Why Successful and Wealthy Individuals Start New Startups, Especially Chinese Returnees

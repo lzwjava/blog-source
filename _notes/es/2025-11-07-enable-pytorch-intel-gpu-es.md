@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Habilitar la compatibilidad con GPU Intel para PyTorch
 translated: true
+type: note
 ---
 
 ¡Buen progreso! PyTorch e IPEX ahora funcionan juntos. Sin embargo, tu sistema no tiene habilitado el soporte para GPU Intel. Permíteme ayudarte a entender qué está pasando y cómo solucionarlo:

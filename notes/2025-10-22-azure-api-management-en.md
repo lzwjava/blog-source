@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Creating Azure API Management Instance
 translated: false
+type: note
 ---
 
 ### Creating an API Gateway in Azure Using API Management

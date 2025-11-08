@@ -3,6 +3,7 @@ audio: true
 generated: false
 layout: post
 title: Computer Networks - Conversation
+type: note
 ---
 
 A: Let's dive into the basics of computer networks. What do you think is the most transformative aspect of network evolution?
@@ -224,4 +225,3 @@ B: Roles will evolve into more strategic positions, focusing on orchestration an
 A: By learning programming and automation tools, and understanding business needs more deeply. It's an exciting time for network technology, isn't it?
 
 B: Absolutely, the field is continuously expanding, with endless opportunities for innovation and improvement.
-

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Singapore vs Hong Kong
 translated: false
+type: note
 ---
 
 Singapore and Hong Kong are both global financial hubs in Asia, known for their economic prowess, strategic locations, and vibrant urban environments. Below is a concise comparison across key aspects:

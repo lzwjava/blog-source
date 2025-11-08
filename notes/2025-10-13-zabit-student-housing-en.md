@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: ZABIT Student Housing in Hong Kong
 translated: false
+type: note
 ---
 
 ### Ziroom and ZABIT in Hong Kong

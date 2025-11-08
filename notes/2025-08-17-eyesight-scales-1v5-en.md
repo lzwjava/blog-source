@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Eyesight Scales 1.0 vs 5.0 Explained
 translated: false
+type: note
 ---
 
 Ah, I see — you’re now asking about **“1.0 eyesight” or “5.0 eyesight”**, which is different from the **diopter (度数 D)** measure we just discussed. Let’s clear up the two systems:

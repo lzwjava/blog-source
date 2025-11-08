@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Singapore's Uniqueness
 translated: false
+type: note
 ---
 
 Singapore stands out globally for several distinctive characteristics:

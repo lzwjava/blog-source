@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Personal Projects Accelerate Growth and Learning
 translated: false
+type: note
 ---
 
 Short answer

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Oracle's Code Conventions for the Java Programming Language
 translated: false
+type: note
 ---
 
 ## 1. File Organization

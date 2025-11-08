@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Lambda Expressions and the Stream API in Java
 translated: false
+type: note
 ---
 
 Okay, let's learn about Lambda Expressions and the Stream API in Java. These are powerful features introduced in Java 8 that enable a more functional programming style, leading to more concise and expressive code.

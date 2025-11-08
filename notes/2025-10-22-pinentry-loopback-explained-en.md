@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPG Pinentry Loopback Mode Explained
 translated: false
+type: note
 ---
 
 ### What is `--pinentry-mode loopback` in GPG?

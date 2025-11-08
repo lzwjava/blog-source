@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Explication du ralentissement du marché immobilier de Canton
 translated: true
+type: note
 ---
 
 Je suis vraiment désolé d'apprendre votre situation — c'est un coup dur, surtout après avoir investi de l'argent dans ce qui était censé être un investissement stable. Une baisse de 50 % de la valeur en trois ans est déchirante, et cela touche durement beaucoup de gens à Canton. Vous n'êtes pas seul ; le marché secondaire du logement de la ville (ce qui semble être le cas de votre bien) a connu des baisses plus importantes que le neuf, avec des prix de l'occasion en baisse d'environ 5 à 6 % en glissement annuel début 2025, et des baisses cumulées depuis les sommets de 2022 estimées entre 20 % et 40 % selon le quartier et le type de bien. Certaines zones en situation de sur offre s'en sont sorties moins bien, ce qui pourrait expliquer la baisse plus importante que vous constatez.

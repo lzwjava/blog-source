@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Claude Sonnet Runtime Metrics Explained
 translated: false
+type: note
 ---
 
 What you’re seeing are **runtime metrics** from the inference of `anthropic/claude-sonnet-4` through Google Vertex AI. Let me break it down:

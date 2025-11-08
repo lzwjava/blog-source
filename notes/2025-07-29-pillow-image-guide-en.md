@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: PIL Pillow Image Processing Guide
 translated: false
+type: note
 ---
 
 ### What is PIL/Pillow?

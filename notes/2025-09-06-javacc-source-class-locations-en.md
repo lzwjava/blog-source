@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: JavaCC Source and Class Locations
 translated: false
+type: note
 ---
 
 ### JavaCC Overview

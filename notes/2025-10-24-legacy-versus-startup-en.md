@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Legacy Systems Versus Startup Paths
 translated: false
+type: note
 ---
 
 ### Thinking About Career Choices in Software: Legacy vs. Startup Paths

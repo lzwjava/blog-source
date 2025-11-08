@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Secure Video Sharing
 translated: false
+type: note
 ---
 
 To share videos securely without worrying about unauthorized downloading or copying, you can use a combination of technical measures and access controls. Here are some effective strategies:

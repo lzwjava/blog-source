@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: AI Researchers
 translated: false
+type: note
 ---
 
 Finding a researcher who is an expert in all the areas you mentioned—large language models (LLMs), computer vision, multimodal learning, and generative text, image, and video—is challenging, as these are highly specialized fields. However, there are notable researchers who have made significant contributions across several of these domains, particularly in multimodal learning, which bridges LLMs, computer vision, and generative models. Below, I highlight a few prominent researchers known for their work in these overlapping areas, based on their contributions to the field:

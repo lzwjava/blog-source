@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The history of Shantou
 translated: false
+type: note
 ---
 
 The history of Shantou (汕头), also known historically as Swatow, is a fascinating story of a small fishing village transforming into a significant port city and a hub for trade and emigration. Here's a breakdown of its history:

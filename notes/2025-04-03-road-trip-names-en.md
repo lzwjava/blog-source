@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Road Trip Names
 translated: false
+type: note
 ---
 
 Absolutely! Here are the Chinese location and scene names from the itinerary, along with some additional options, to help you navigate and enjoy your trip:

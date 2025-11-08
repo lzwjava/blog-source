@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Bipolar Junction Transistor Basics
 translated: false
+type: note
 ---
 
 ### What is a Bipolar Junction Transistor (BJT)?

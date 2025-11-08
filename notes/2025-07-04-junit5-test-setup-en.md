@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: JUnit 5 File-Based Testing Setup
 translated: false
+type: note
 ---
 
 Here's a simplified setup using **only JUnit 5** (without Mockito) for testing your algorithm solutions with input files (`1.in`):

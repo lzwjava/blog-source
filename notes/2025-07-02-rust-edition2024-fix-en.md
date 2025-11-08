@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fix Rust Edition 2024 Error
 translated: false
+type: note
 ---
 
 The error message `feature edition2024 is required` indicates that your project is configured to use the `edition2024` of Rust, but your current Cargo version (1.84.1) does not yet support it in a stable release. Edition 2024 is still considered an unstable/nightly feature.

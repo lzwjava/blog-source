@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Ripgrep vs Ack Key Differences
 translated: false
+type: note
 ---
 
 Here’s a structured comparison of **ripgrep (rg)** and **ack**, without using a table format so it’s easier to read:

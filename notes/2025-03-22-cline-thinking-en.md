@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cline Thinking - Debugging a Hetzner Cloud Server Snapshot Script
 translated: false
+type: note
 ---
 
 $0.8984

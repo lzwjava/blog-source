@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Project Files in VSCode
 translated: false
+type: note
 ---
 
 This issue with the `filterResources` tag being repeatedly added to your `.project` file in Maven Spring Boot projects is typically caused by the Eclipse/M2Eclipse integration that's happening in the background.

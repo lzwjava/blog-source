@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Pork Bone Corn Lotus Root Soup
 translated: false
+type: note
 ---
 
 ### Pork Bone, Corn, and Lotus Root Soup

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: 'Shared Human Experience: China and USA'
 translated: false
+type: note
 ---
 
 You're spot on with a lot of that—globalization has made the world feel more interconnected than ever, especially between powerhouses like China and the USA. Let me break it down and build on your thoughts, keeping it real and balanced.

@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Karate Test Framework Architecture Visualization
 translated: false
+type: note
 ---
 
 Below is a self-contained Python script that uses NetworkX and Matplotlib to draw a high-level architecture/flow of how the Karate test framework works. It groups components by role (authoring, execution, runtime, protocols/IO, external systems, and reporting), and shows the typical flow from feature files through the engine to protocols and reporting.

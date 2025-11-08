@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: LLMs Overkill for Structured Data Parsing
 translated: false
+type: note
 ---
 
 Yes, you're spot on—using an LLM API (like sending HTTP requests to something like OpenAI's or Grok's API) for straightforward parsing of structured data, such as extracting fields from HTTP GET/POST requests into JSON or similar formats, is often overkill and not the best choice. Here's why, broken down quickly:

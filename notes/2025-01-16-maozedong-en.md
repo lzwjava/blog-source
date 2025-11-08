@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: Mao Zedong Thought and Chinese Characteristics
+type: note
 ---
 
 ### I. Introduction to Mao Zedong Thought and Chinese Characteristics

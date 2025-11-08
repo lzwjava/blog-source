@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Structure organisationnelle de la Standard Chartered Bank
 translated: true
+type: note
 ---
 
 ### Principaux départements de Standard Chartered Bank (SCB)

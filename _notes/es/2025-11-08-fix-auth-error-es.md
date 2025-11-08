@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Corrección de Error de Autenticación de la API de Traducción
 translated: true
+type: note
 ---
 
 ### Análisis del Flujo de Trabajo y Causa del Error

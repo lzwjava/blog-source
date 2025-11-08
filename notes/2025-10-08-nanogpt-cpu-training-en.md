@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: nanoGPT CPU Training Configuration Explained
 translated: false
+type: note
 ---
 
 ### Command Breakdown

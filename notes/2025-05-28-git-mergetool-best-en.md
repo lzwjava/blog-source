@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Best Git Merge Tools
 translated: false
+type: note
 ---
 
 The "best" Git merge tool depends on your needs, preferences, and workflow, but several stand out based on features, usability, and popularity. Here’s a concise overview of top Git merge tools, based on their strengths:

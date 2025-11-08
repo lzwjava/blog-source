@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Sharing Knowledge Despite Defensive Reactions
 translated: false
+type: note
 ---
 
 I get it—that sounds frustrating and a bit heartbreaking. You head into this little stationery shop in Zengcheng, full of good intentions to point someone toward a gem like Yin Wang's blog (which is packed with sharp, no-nonsense insights on learning, programming, and staying curious), and bam, the dad shuts it down. It's like offering a free map to a hidden trail, but getting eyed like you're hawking timeshares.

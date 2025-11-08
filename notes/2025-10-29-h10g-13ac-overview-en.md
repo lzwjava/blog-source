@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: H10G-13AC Converged Enterprise Gateway Overview
 translated: false
+type: note
 ---
 
 ### Overview

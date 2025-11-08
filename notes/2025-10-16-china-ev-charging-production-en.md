@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: China's EV Charging Station Production
 translated: false
+type: note
 ---
 
 ### EV Charging Stations in China: Overview and Internals

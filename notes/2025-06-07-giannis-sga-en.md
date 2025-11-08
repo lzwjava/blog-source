@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Shai Gilgeous-Alexander (SGA) vs Giannis Antetokounmpo
 translated: false
+type: note
 ---
 
 Comparing Shai Gilgeous-Alexander (SGA) and Giannis Antetokounmpo is a fascinating study of two different, yet incredibly impactful, approaches to modern NBA superstardom. While both are MVP-caliber players, their playstyles, physical profiles, and career trajectories thus far present distinct contrasts.

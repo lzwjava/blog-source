@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Building and Deploying a Docker Image
 translated: false
+type: note
 ---
 
 Here’s a step-by-step guide to building a Spring Boot application into a Docker image and deploying it on a server:

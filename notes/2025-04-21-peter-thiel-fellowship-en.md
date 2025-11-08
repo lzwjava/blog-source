@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Peter Thiel Fellows
 translated: false
+type: note
 ---
 
 The Peter Thiel Fellowship has fostered a remarkable group of young innovators and entrepreneurs. Here are some of the most famous individuals who have been Thiel Fellows:

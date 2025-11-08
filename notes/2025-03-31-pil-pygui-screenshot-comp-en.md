@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: PIL vs PyAutoGUI Screenshot Comparison
 translated: false
+type: note
 ---
 
 Both **PIL’s `ImageGrab`** and **PyAutoGUI’s screenshot tools** let you capture the screen, but they differ in usage, features, and cross-platform support.

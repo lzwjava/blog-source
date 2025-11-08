@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Korean Misclassified as Chinese Validator Fix
 translated: false
+type: note
 ---
 
 Got it — in this debug output:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Sprouted Potato Safety and Edibility
 translated: false
+type: note
 ---
 
 ### Edibility of Sprouted Potatoes After Prolonged Storage

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Guangzhou's Classic Congee Varieties
 translated: false
+type: note
 ---
 
 ### Typical Congee (Porridge) in Guangzhou

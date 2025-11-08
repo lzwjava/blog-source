@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Road Trip From Guangzhou to Shantou
 translated: false
+type: note
 ---
 
 Alright, let's adjust the itinerary to include Shanwei and Chaozhou, keeping in mind your EV's range and charging needs. This makes for a more comprehensive trip through the Chaoshan region, known for its beautiful coastline and rich culture.

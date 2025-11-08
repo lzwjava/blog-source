@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: UK's Busiest Airports Overview
 translated: false
+type: note
 ---
 
 ### Major Airports in the UK

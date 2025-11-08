@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Japanese macOS Apps and Tools
 translated: false
+type: note
 ---
 
 You're asking whether there are any well-known software or apps for macOS that are **exclusively Japanese** or at least **famous Japanese-origin open software**. Here's a clear, easy-to-read list of some notable ones—no tables, just plain bullet points:

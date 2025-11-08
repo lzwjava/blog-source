@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Hong Kong's 20th Century Wage Growth
 translated: false
+type: note
 ---
 
 ### Historical Salaries in Hong Kong (20th Century)

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding Turing-Completeness in Computing
 translated: false
+type: note
 ---
 
 ### What Does "Turing-Complete" Mean?

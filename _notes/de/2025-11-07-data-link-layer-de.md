@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Grundlagen der Sicherungsschicht
 translated: true
+type: note
 ---
 
 ### Die Datenverbindungsschicht verstehen: Ein kurzer Einblick

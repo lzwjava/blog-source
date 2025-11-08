@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: iPhone Camera Protector Solution
 translated: false
+type: note
 ---
 
 It sounds like you've been working through a camera protection setup for your iPhone 14 Pro Max! Let me make sure I understand your situation correctly:

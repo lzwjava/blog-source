@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPT-2 Release and Open Source History
 translated: false
+type: note
 ---
 
 ### GPT-2 Paper

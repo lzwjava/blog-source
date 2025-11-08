@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Essential Editor Shortcuts Guide
 translated: false
+type: note
 ---
 
 | # | Command Palette Name | Description | Default Shortcut (Windows/Linux) |

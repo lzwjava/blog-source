@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Wang Shijian No Backbone AI Prompts
 translated: false
+type: note
 ---
 
 ### Wang Shijian "No Backbone" Popular Song AI Prompt Generation (English Version)

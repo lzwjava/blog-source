@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Enable Java SSL TLS Debugging
 translated: false
+type: note
 ---
 
 ### Enabling SSL/TLS Debugging in Java

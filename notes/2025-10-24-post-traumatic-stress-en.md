@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding Post-Traumatic Stress Disorder
 translated: false
+type: note
 ---
 
 Post-Traumatic Stress Disorder (PTSD) is a mental health condition that can develop after experiencing or witnessing a traumatic event, such as combat, sexual assault, natural disasters, accidents, or violence. It involves persistent psychological distress that interferes with daily life, often lasting for months or years if untreated. PTSD affects people of all ages and backgrounds, with symptoms typically emerging within three months of the trauma but sometimes delayed.

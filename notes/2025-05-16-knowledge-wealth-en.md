@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Turn knowledge to Wealth
 translated: false
+type: note
 ---
 
 Turning knowledge into wealth and self-sufficiency involves leveraging your skills, creativity, and resourcefulness to create value, reduce dependency on external systems, and potentially generate income. Here’s a practical guide to using knowledge to create wealth, produce for yourself, and transform knowledge into power:

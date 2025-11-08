@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Streaming Movies on Local Network
 translated: false
+type: note
 ---
 
 To access movies downloaded on your laptop using qBittorrent from your iPad while both devices are on the same local area network (LAN), you have several options. You specifically asked about using NAS software or setting up an Nginx media server, so I’ll address those and provide a recommended approach based on ease of use and functionality.

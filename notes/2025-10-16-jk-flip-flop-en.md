@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: JK Flip-Flop Improves on SR
 translated: false
+type: note
 ---
 
 ### Understanding the JK Flip-Flop: Building on the SR Flip-Flop

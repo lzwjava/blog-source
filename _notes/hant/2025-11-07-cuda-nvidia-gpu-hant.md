@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: CUDA需要NVIDIA圖形處理器
 translated: true
+type: note
 ---
 
 你的聯想小新無法使用CUDA的原因很簡單：**CUDA是NVIDIA的專有技術，僅適用於NVIDIA GPU**。

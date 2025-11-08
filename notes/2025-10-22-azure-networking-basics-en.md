@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Azure Virtual Networking Basics
 translated: false
+type: note
 ---
 
 ### Azure Virtual Networking Basics

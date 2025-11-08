@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Optimal Model Selection for Cost and Performance
 translated: false
+type: note
 ---
 
 Looking at your Claude Code configuration, you want to optimize for both cost and performance. Here are some recommendations for choosing "cheap and powerful" models in your router setup:

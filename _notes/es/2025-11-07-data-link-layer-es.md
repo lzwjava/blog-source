@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Comprensión de la capa de enlace de datos
 translated: true
+type: note
 ---
 
 ### Comprendiendo la Capa de Enlace de Datos: Una Inmersión Rápida

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Calculating Model Response Wait Time
 translated: false
+type: note
 ---
 
 We can work it out step by step.

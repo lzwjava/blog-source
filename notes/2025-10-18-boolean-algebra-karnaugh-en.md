@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Simplifying Boolean Algebra with Karnaugh Maps
 translated: false
+type: note
 ---
 
 ### What Are Karnaugh Maps?

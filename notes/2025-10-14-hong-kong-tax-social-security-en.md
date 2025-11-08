@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong Tax and Social Security Overview
 translated: false
+type: note
 ---
 
 ### Taxes in Hong Kong

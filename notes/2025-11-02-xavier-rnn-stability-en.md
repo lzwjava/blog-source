@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Xavier Initialization for RNN Stability
 translated: false
+type: note
 ---
 
 ### Why Xavier Initialization in RNNs?

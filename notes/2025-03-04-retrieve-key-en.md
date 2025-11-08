@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Retrieve a Key from a Namespace in an Execution Context
 translated: false
+type: note
 ---
 
 To use an execution context to get a key from a namespace, the approach depends on the specific framework or system you are working with, as "execution context" and "namespace" can have different meanings depending on the context. Since you haven’t specified a particular framework, I’ll provide a general guideline that you can adapt to your situation, along with a concrete example assuming a common scenario like a Java-based application (e.g., Spring). If this doesn’t match your setup, feel free to clarify further!

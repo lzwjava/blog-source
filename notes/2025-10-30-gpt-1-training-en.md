@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPT-1 Architecture and Training Overview
 translated: false
+type: note
 ---
 
 ### Overview of GPT-1 Architecture

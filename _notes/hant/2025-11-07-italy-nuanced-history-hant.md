@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 意大利歷史：一個細緻入微的視角
 translated: true
+type: note
 ---
 
 ### 這個說法是否屬實？

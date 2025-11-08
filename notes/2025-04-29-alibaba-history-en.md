@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: History of Alibaba Group
 translated: false
+type: note
 ---
 
 Alibaba Group, founded in 1999 by Jack Ma and a group of 17 co-founders in Hangzhou, China, has grown from a modest B2B marketplace into one of the world’s largest e-commerce and technology conglomerates. Below is a comprehensive history of Alibaba, tracing its origins, growth, key milestones, challenges, and evolution up to April 2025.

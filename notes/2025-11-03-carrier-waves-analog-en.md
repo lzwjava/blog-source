@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Carrier Waves in Analog Modulation
 translated: false
+type: note
 ---
 
 ### What is a "Carrier" in Modulation Techniques?

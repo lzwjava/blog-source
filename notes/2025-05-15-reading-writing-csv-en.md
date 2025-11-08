@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Reading and Writing CSV Files
 translated: false
+type: note
 ---
 
 ### Introduction to Python's `csv` Module

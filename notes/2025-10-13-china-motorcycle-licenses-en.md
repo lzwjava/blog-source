@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: China Motorcycle License Categories Explained
 translated: false
+type: note
 ---
 
 In mainland China, neither the C1 nor C2 driver's license category is for motorcycles. Both are designated for light motor vehicles (cars):

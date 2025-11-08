@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Android Support Library
 translated: false
+type: note
 ---
 
 The Android Support Library version `support-v4:19.1.0` is an older version of the Android Support Library (specifically the v4 compatibility library), which provides backward-compatible APIs for Android devices running API levels lower than the latest ones at the time of its release (circa 2014). This library allows you to use features introduced in newer Android versions on older devices, such as Fragments, Loaders, and other utilities.

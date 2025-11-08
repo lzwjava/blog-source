@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: CodeIgniter Migrations Database Schema Management
 translated: false
+type: note
 ---
 
 ### What Are CodeIgniter Migrations?

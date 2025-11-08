@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: IT Coverage for Modular Spring Apps
 translated: false
+type: note
 ---
 
 ### Overall Assessment of Your Setup

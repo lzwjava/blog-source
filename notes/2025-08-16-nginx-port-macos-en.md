@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Change Nginx Port on macOS Guide
 translated: false
+type: note
 ---
 
 You want Nginx on macOS to listen on a **different port** than its default (80 for HTTP, 443 for HTTPS). Here's a clear step-by-step guide:

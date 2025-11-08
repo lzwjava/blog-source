@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: WeChat JS SDK
 translated: false
+type: note
 ---
 
 ### Key Points

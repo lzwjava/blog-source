@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: OpenAI Infrastructure and Azure Reliance
 translated: false
+type: note
 ---
 
 ### OpenAI's Tech Stack Overview

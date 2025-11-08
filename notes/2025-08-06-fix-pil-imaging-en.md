@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fix PIL Imaging Backend Error
 translated: false
+type: note
 ---
 
 This error means your PIL installation is either missing its binary backend (`_imaging`) or you’re accidentally using the old “PIL” package instead of the modern “Pillow.” Here’s how to fix it:

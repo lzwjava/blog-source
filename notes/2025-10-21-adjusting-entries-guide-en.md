@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: A Simple Guide to Adjusting Entries
 translated: false
+type: note
 ---
 
 ### How to Make Adjusting Entries: A Simple Step-by-Step Guide

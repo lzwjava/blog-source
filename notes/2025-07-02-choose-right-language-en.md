@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Choosing the Right Programming Language
 translated: false
+type: note
 ---
 
 Choosing the right programming language for a project depends on several factors, including the project's requirements, your team's expertise, performance needs, ecosystem support, and long-term maintainability. Here’s a step-by-step guide to help you decide:

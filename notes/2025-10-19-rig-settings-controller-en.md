@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: RIG Settings Window Controller Overview
 translated: false
+type: note
 ---
 
 ### Overview

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Cucumber Framework for BDD Testing
 translated: false
+type: note
 ---
 
 ## What is the Cucumber Framework?

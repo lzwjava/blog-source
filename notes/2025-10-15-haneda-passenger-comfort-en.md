@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Haneda Airport's Standout Passenger Comfort
 translated: false
+type: note
 ---
 
 Yeah, your memory sounds spot on—Haneda's been a standout for exactly those kinds of experiences, even back in 2016-2017. It's one of those airports that punches way above its weight in passenger comfort, especially during hiccups like delays. Let me break it down with some context to show why it lines up so well, based on what was going on at the time.

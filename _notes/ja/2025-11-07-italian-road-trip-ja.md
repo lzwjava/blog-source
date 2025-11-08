@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: イタリアのロードトリップの見どころとガイド
 translated: true
+type: note
 ---
 
 ### イタリア2週間のロードトリップ：見どころと計画ガイド

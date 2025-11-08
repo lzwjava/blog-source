@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding Electromagnetic Wave Oscillation
 translated: false
+type: note
 ---
 
 ### Understanding Oscillations in Electromagnetic Waves

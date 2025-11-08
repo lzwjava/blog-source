@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: HTTP Headers
 translated: false
+type: note
 ---
 
 Have you ever wondered how your web browser knows what to do with the data it receives from a website? Or how websites can remember your login information? The answer lies in something called **HTTP headers**. These are like the unsung heroes of the internet, working behind the scenes to make sure everything runs smoothly. In this blog, we’ll demystify HTTP headers and explore why they’re so important.

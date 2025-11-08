@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'East Rail Line: A Historical Overview'
 translated: false
+type: note
 ---
 
 ### Historical Development of the East Rail Line: Chronological Overview

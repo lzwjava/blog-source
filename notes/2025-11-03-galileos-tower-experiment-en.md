@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Galileos Leaning Tower Experiment
 translated: false
+type: note
 ---
 
 ### Galileo's Leaning Tower of Pisa Experiment

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Air Fryer Taiwanese Street Corn
 translated: false
+type: note
 ---
 
 ### Taiwanese Street Corn in the Air Fryer (Yùmǐ - Chinese Corn Style)

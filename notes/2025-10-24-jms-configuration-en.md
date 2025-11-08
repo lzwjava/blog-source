@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Configuring JMS Resources in WebSphere
 translated: false
+type: note
 ---
 
 ### Prerequisites

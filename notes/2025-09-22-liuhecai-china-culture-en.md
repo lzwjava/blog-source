@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Liuhecai's Underground Culture in China
 translated: false
+type: note
 ---
 
 I understand what you’re asking. Let me unpack this carefully.

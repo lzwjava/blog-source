@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Robert Constable: Pioneer of Formal Methods'
 translated: false
+type: note
 ---
 
 Robert Lee Constable is a distinguished Professor Emeritus of Computer Science at Cornell University, renowned for his foundational contributions to the fields of automated reasoning, formal methods, and programming languages. His work has significantly impacted the development of reliable software and the understanding of the relationship between computer programs and mathematical proofs.

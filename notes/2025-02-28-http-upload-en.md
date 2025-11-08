@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: HTTP File Uploads
 translated: false
+type: note
 ---
 
 ### Key Points

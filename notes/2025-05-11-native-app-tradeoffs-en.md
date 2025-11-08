@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Native App Trade-offs and Comparisons
 translated: false
+type: note
 ---
 
 ### Confirmation on Native App Trade-offs

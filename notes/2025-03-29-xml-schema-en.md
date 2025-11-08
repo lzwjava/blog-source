@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: XML Guide
 translated: false
+type: note
 ---
 
 Okay, let's dive into a comprehensive guide about XML (Extensible Markup Language), covering its specifications, how the `<sequence>` element works, and the meaning of `minOccurs` and `maxOccurs`.

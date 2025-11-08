@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: TEKsystems
 translated: false
+type: note
 ---
 
 TEKsystems is a global leader in full-stack technology services and IT talent solutions, dedicated to accelerating business transformation by addressing complex technology, business, and talent challenges. Founded in 1983 and headquartered in Hanover, Maryland, TEKsystems operates as a flagship company of Allegis Group, a $14.5 billion enterprise focused on human capital management. With over 100 offices across North America, Europe, and Asia, the company employs more than 26,000 professionals and serves over 6,000 clients, including 80% of the Fortune 500, delivering innovative solutions that drive growth and adaptability in a rapidly evolving technological landscape.[](https://www.linkedin.com/company/teksystems)[](https://pitchbook.com/profiles/company/95550-22)[](https://www.teksystems.com/en/wwa)

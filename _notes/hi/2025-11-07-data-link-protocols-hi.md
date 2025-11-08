@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: डेटा लिंक लेयर प्रोटोकॉल्स की व्याख्या
 translated: true
+type: note
 ---
 
 यह कथन डेटा लिंक लेयर प्रोटोकॉल और उनके प्राथमिक उपयोग के मामलों को सही ढंग से पहचानता है। मैं इसे समझाता हूँ:

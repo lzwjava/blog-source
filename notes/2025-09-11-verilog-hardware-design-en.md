@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Verilog for Hardware Design and Verification
 translated: false
+type: note
 ---
 
 Got it — here’s a comprehensive introduction to **Verilog**, one of the two most widely used HDLs (Hardware Description Languages), especially in the context of programmable logic devices like **FPGAs** and **ASICs**.  

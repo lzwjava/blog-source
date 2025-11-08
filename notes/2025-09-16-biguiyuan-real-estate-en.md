@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Biguiyuan Real Estate Development in China
 translated: false
+type: note
 ---
 
 Biguiyuan Real Estate is a prominent real estate development company in China, known for its extensive portfolio of residential and commercial projects. The company operates primarily in major cities such as Guangzhou and Wuhan, focusing on developing high-quality residential areas, office buildings, hotels, and restaurants. Biguiyuan has established a strong presence in the Chinese real estate market, contributing significantly to urban development and infrastructure in the regions it operates.

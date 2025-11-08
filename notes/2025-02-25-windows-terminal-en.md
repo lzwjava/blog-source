@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Windows Terminal Options
 translated: false
+type: note
 ---
 
 Besides PowerShell, Git Bash, and the standard Windows Command Prompt (often referred to as "terminal"), Windows users have several other options for bash or shell environments. Here are some notable alternatives:

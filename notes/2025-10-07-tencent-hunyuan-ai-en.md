@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Tencent's Hunyuan AI Model Family
 translated: false
+type: note
 ---
 
 ### Introduction to Tencent's Hunyuan AI Family

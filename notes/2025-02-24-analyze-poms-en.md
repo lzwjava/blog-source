@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Analyze Maven POMs
 translated: false
+type: note
 ---
 
 To address your query, I'll provide a solution for generating a dependency graph in DOT format by recursively finding all `pom.xml` files in a directory and analyzing their dependencies, without assuming a fixed Maven multi-module project structure like the one in the example (`project/module1/pom.xml`, etc.). The script will focus on collecting all `pom.xml` files first, then analyzing them to determine module dependencies and output the graph.

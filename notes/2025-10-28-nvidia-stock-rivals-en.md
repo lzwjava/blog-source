@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: NVIDIA Stock Outlook and Rivals
 translated: false
+type: note
 ---
 
 ### NVIDIA Stock Price Overview (as of October 28, 2025)

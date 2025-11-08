@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Dongguan Family Fun Chinese Guide
 translated: false
+type: note
 ---
 
 Got it — here’s the same list but annotated with the **Chinese names** so you can recognize them easily when visiting Dongguan with your family:

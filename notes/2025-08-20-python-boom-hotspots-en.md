@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Python Boom Investment Hotspots
 translated: false
+type: note
 ---
 
 If Python usage grew **5× more popular** than today, that shift would ripple across multiple industries and create investment opportunities in several layers of the ecosystem. Here’s a structured breakdown:

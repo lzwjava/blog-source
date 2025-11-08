@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Sortieren von Beiträgen und Notizen
 translated: true
+type: note
 ---
 
 ### Modifiziertes `_includes/sort.html`

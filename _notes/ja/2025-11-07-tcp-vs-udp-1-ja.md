@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: TCPとUDPの接続の違い
 translated: true
+type: note
 ---
 
 あなたの直感は正しいです！主な違いを明確にしましょう：

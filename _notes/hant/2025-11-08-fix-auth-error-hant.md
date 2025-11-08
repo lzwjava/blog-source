@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 修復翻譯 API 認證錯誤
 translated: true
+type: note
 ---
 
 ### 工作流程與錯誤原因分析

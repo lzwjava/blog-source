@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Cost-Effective Translation Choices
 translated: false
+type: note
 ---
 
 Based on the user's request for cost-effective and high-quality translation models, here's a breakdown of the choices, considering the provided code's use of "deepseek" and "mistral":

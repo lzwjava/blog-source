@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: TCP Reliability and Loss Detection
 translated: false
+type: note
 ---
 
 Let me break down this TCP reliability conversation into clear concepts:

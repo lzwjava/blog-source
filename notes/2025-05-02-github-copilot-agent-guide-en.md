@@ -7,6 +7,7 @@ layout: post
 model: deepseek/deepseek-v3.2-exp
 title: GitHub Copilot Agent Mode Guide
 translated: false
+type: note
 ---
 
 Of course. Here is a comprehensive guide to GitHub Copilot's Agent Mode, covering what it is, how it works, its usage, and best practices.

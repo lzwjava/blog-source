@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Alibaba Cloud CTO Jingren Zhou
 translated: false
+type: note
 ---
 
 ## Jingren Zhou

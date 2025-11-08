@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Enrutamiento de Solicitudes de IBM WebSphere Explicado
 translated: true
+type: note
 ---
 
 Permíteme explicar cómo IBM WebSphere Application Server (WAS) maneja las solicitudes entrantes y el enrutamiento:

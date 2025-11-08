@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: AspectJ with Java and Spring Boot
 translated: false
+type: note
 ---
 
 ## Table of Contents

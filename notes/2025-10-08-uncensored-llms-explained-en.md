@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Uncensored Large Language Models Explained
 translated: false
+type: note
 ---
 
 ### What Are Uncensored LLM Models?

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Thailand
 translated: false
+type: note
 ---
 
 Thailand, officially the Kingdom of Thailand, is a Southeast Asian country bordered by Myanmar and Laos to the north, Laos and Cambodia to the east, the Gulf of Thailand and Malaysia to the south, and the Andaman Sea and Myanmar to the west. It is the 50th-largest country by total area and the 21st-most populous country in the world.

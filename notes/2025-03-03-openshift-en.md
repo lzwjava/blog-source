@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: OpenShift Guide
 translated: false
+type: note
 ---
 
 OpenShift is a powerful platform that simplifies the process of building, deploying, and managing applications in a cloud environment. Developed by Red Hat, it leverages the capabilities of Kubernetes, the leading open-source container orchestration system, to provide a robust and scalable solution for developers and organizations alike. Whether you’re a developer looking to streamline your workflow or an enterprise seeking a reliable cloud platform, OpenShift offers the tools and features to meet your needs.

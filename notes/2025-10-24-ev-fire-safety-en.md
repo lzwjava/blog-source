@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: EV Fire Risks and Safety Facts
 translated: false
+type: note
 ---
 
 ### How Prone Are Electric Vehicles (EVs) to Catching Fire?

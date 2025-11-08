@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Detailed Analysis of AI Platforms for API Key Integration and Pricing Models
 translated: false
+type: note
 ---
 
 ### Key Points

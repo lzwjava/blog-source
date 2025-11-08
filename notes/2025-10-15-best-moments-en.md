@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Life's Best Moments
 translated: false
+type: note
 ---
 
 ### Typical Best Moments in Life

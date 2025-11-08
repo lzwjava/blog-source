@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Technion's Notable Alumni
 translated: false
+type: note
 ---
 
 Technion has produced influential figures across science, technology, business, arts, and politics. Below is a curated selection of 25 prominent alumni, organized by category, highlighting their fields and key contributions (based on data up to 2025).

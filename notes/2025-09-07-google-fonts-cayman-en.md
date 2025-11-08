@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Google Fonts Import in Cayman Theme
 translated: false
+type: note
 ---
 
 Yes — that’s very likely the reason.

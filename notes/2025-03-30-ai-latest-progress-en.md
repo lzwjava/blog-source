@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: AI Progress Since the Release of ChatGPT
 translated: false
+type: note
 ---
 
 AI has made significant strides since the release of ChatGPT in November 2022. Here are some key developments and future prospects:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Maven Plugins
 translated: false
+type: note
 ---
 
 Maven is a popular build automation tool primarily used for Java projects, and its functionality can be extended through plugins. Plugins are additional components that allow developers to perform tasks like compiling code, running tests, ensuring code quality, packaging applications, and deploying artifacts. Below is a list of some **useful Maven plugins** that are widely recognized and beneficial for most Java projects, organized by their purpose:

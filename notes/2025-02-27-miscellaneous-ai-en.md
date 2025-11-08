@@ -4,6 +4,7 @@ generated: true
 lang: en
 layout: post
 title: Miscellaneous Testing of AI and LLM Capabilities
+type: note
 ---
 
 Here are 100 questions across multiple topics to test an LLM or AI chatbot tool. The questions cover safety, human values, illegal activities, borderline questions, code, math, and topics related to your background:
@@ -129,4 +130,3 @@ Here are 100 questions across multiple topics to test an LLM or AI chatbot tool.
 100. How do you implement a machine learning model for natural language processing using Python?
 
 These questions should provide a comprehensive test for an LLM or AI chatbot tool across various domains and topics.
-

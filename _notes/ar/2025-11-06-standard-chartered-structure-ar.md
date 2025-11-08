@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: الهيكل التنظيمي لبنك ستاندرد تشارترد
 translated: true
+type: note
 ---
 
 ### الإدارات الرئيسية في ستاندرد تشارترد بنك (SCB)

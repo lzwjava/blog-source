@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Universal Image Loader in Android
 translated: false
+type: note
 ---
 
 Universal Image Loader (UIL) version 1.9.3 is a powerful and flexible library for loading, caching, and displaying images in Android applications. Below is a step-by-step guide on how to use it in your Android project. Note that this library is older and has been discontinued (last updated around 2015), so for modern projects, you might consider alternatives like Glide or Picasso. However, if you specifically need to use UIL 1.9.3, here’s how to do it:

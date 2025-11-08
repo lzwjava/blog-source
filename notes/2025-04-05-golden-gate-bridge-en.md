@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Golden Gate Bridge
 translated: false
+type: note
 ---
 
 The Golden Gate Bridge is engineered to handle significant loads and stresses, but it’s not invincible. Whether it would "fall" under the weight of a very heavy truck or car, or from a ship crashing into it, depends on the specifics of the scenario. Let’s break it down based on its design and real-world limits.

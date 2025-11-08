@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Meilleurs projets open source en Rust
 translated: true
+type: note
 ---
 
 ### Principaux projets open source principalement écrits en Rust

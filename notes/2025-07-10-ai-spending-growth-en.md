@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: AI Growth and Innovations in 2025
 translated: false
+type: note
 ---
 
 ### Key Points

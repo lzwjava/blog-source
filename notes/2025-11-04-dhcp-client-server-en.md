@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: DHCP Client and Server Roles
 translated: false
+type: note
 ---
 
 No, that's a common mix-up, but DHCP doesn't need to "run" the same thing on both the client and router—it's a client-server protocol with distinct roles for each side. Let me break it down simply.

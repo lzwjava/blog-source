@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using AI to Improve Products in Financial Projects
 translated: false
+type: note
 ---
 
 Based on your experience working on the Finance Transformation Platform, where you're handling backend systems for financial data processing, workflows, and integrations with tools like Java, Spring Boot, and Db2, AI can indeed play a transformative role. Your idea of using AI to "search financial headers" aligns well with natural language processing (NLP) applications, like converting user queries into SQL for efficient data retrieval. This can democratize access to complex financial datasets, allowing non-technical stakeholders (e.g., finance teams) to query things like ledger entries, transaction headers, or approval statuses without writing code. Your example of generating SQL from natural language is a perfect starting point—let's break it down and expand on broader applications.

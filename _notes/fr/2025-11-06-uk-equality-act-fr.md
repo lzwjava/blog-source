@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Aperçu de la loi britannique sur l'égalité de 2010
 translated: true
+type: note
 ---
 
 ### Aperçu

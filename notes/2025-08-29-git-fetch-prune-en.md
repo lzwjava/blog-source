@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Git Fetch and Prune Overview
 translated: false
+type: note
 ---
 
 ### What is `git fetch`?

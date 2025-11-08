@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Causes of Amplifier Zero-Point Drift
 translated: false
+type: note
 ---
 
 ### Understanding the Sentence: "While factors like power supply variations or component mismatches contribute"

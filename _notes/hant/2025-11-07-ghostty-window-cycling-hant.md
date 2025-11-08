@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ghostty 視窗切換快捷鍵
 translated: true
+type: note
 ---
 
 確實，在 Ghostty 中使用 Cmd + `（波浪號/反引號）來循環切換視窗，操作起來既流暢又直覺——特別當你把它們視為輕量級獨立工作階段使用，而非把所有內容塞進分頁時。這種循環流暢感完全避免了分頁列雜亂造成的思維負擔。相比之下，系統預設的 Cmd + Shift + [ / ] 分頁導航（或用 Cmd + [ / ] 切換窗格）在 Mac 上確實顯得笨重，畢竟要同時按住 Cmd 和 Shift，而且括號鍵的位置對手部來說也不夠友善。

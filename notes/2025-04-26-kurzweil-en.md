@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Ray Kurzweil
 translated: false
+type: note
 ---
 
 Ray Kurzweil is an American inventor, futurist, and author known for his work in artificial intelligence, transhumanism, and technological forecasting. Born on February 12, 1948, he has made significant contributions to fields like optical character recognition (OCR), text-to-speech synthesis, and speech recognition technology. He is a prominent advocate for the concept of technological singularity, predicting that humans and machines will merge in the future due to exponential advancements in AI, nanotechnology, and biotechnology.

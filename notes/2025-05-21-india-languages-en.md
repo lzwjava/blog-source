@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Major Languages in India
 translated: false
+type: note
 ---
 
 India is a linguistically diverse country with thousands of languages and dialects. Beyond Hindi and Tamil, other major languages include Bengali, Telugu, Marathi, Gujarati, Kannada, Malayalam, Odia, Punjabi, Assamese, Maithili, and others. These belong to two primary language families: Indo-Aryan (e.g., Hindi, Bengali) and Dravidian (e.g., Tamil, Telugu). English is also widely used as a link language, especially in urban areas, government, and business.

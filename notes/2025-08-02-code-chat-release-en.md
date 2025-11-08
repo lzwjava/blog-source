@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Copilot Chat Command in VS Code
 translated: false
+type: note
 ---
 
 The ability to use the `code chat "hi"` command to open the GitHub Copilot chat window in Visual Studio Code (VS Code) is tied to the broader integration of GitHub Copilot Chat and its associated features, such as the Chat view and related commands. Based on available information, here’s the analysis:

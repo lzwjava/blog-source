@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: DNF Package Management in RHEL
 translated: false
+type: note
 ---
 
 ### Introduction to DNF in Red Hat Enterprise Linux

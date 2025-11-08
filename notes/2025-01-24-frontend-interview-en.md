@@ -3,6 +3,7 @@ audio: true
 generated: false
 layout: post
 title: Frontend Engineer Interview
+type: note
 ---
 
 Starting with HTML:

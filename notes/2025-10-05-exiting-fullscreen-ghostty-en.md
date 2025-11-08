@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Exiting Full-Screen in Ghostty
 translated: false
+type: note
 ---
 
 To exit full-screen mode in Ghostty terminal on Ubuntu, press **Ctrl + Enter**. This is the default keybinding to toggle full-screen on and off.

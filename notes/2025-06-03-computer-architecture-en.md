@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Determine Computer Architecture Type
 translated: false
+type: note
 ---
 
 To determine if your current computer is running a 64-bit x86 (x64) or ARM64 architecture, follow these instructions based on your operating system:

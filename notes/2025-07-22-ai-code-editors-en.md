@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: AI-Powered Code Editing Tools
 translated: false
+type: note
 ---
 
 ### Visual Studio Code (VS Code) with GitHub Copilot

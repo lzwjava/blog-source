@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: ロックによる普遍的な同期概念
 translated: true
+type: note
 ---
 
 ### ロックによる同期処理：普遍的な概念

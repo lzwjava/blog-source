@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Third US Trip for Deeper Immersion
 translated: false
+type: note
 ---
 
 ### One-Month USA Travel Plan: Tailored for Your Third Visit

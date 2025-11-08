@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: DeepSeek's 128K Token Models in 2025
 translated: false
+type: note
 ---
 
 As of June 2025, DeepSeek has a range of models with impressive context lengths, often leveraging their Mixture-of-Experts (MoE) architecture for efficiency. Here's a breakdown:

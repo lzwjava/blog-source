@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Getting Started with JShell: A Quick Guide'
 translated: false
+type: note
 ---
 
 JShell is an interactive REPL (Read-Eval-Print Loop) tool included with the Java Development Kit (JDK) starting from JDK 9. It allows you to execute Java code snippets interactively without needing to write a full program. Below is a concise guide on how to use JShell:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: WiFi Password Generator Script
 translated: false
+type: note
 ---
 
 ```python

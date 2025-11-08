@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: The Log of Brew Upgrade
 translated: false
+type: note
 ---
 
 ```bash

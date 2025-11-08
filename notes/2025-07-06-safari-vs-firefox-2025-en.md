@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Safari vs. Firefox: 2025 Browser Showdown'
 translated: false
+type: note
 ---
 
 Safari and Firefox are two of the most prominent web browsers, each with distinct strengths and target audiences. Here's a comparison based on information available in 2025:

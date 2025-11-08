@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GraalVM Installation and Usage Guide
 translated: false
+type: note
 ---
 
 ## What is GraalVM?

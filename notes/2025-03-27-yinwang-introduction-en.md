@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Yin Wang
 translated: false
+type: note
 ---
 
 ### Key Points

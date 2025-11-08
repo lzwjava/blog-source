@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Raspberry Pi Pico in BOOTSEL Mode
 translated: false
+type: note
 ---
 
 The device listed as `Bus 001 Device 009: ID 2e8a:0003 Raspberry Pi RP2 Boot` is a Raspberry Pi Pico (or a similar RP2040-based board) in BOOTSEL mode. Here's a breakdown:

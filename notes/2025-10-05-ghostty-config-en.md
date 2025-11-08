@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ghostty Shell Configuration Guide
 translated: false
+type: note
 ---
 
 ### Ghostty and .bashrc on Ubuntu

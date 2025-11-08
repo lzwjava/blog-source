@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Testing JDBC Data Sources in WebSphere
 translated: false
+type: note
 ---
 
 ### Testing JDBC Data Sources in IBM WebSphere Application Server (WAS) Administrative Console

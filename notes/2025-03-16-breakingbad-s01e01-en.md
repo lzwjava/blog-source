@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Breaking Bad: Pilot Episode'
 translated: false
+type: note
 ---
 
 Here’s an extended summary of **Breaking Bad Season 1, Episode 1**, capturing the full story with rich detail while keeping it engaging and true to the episode’s events:

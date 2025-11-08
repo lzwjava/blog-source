@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Peter Scholze
 translated: false
+type: note
 ---
 
 **Peter Scholze** is a German mathematician and one of the most influential figures in modern mathematics, particularly in the fields of **arithmetic geometry** and **number theory**. He was awarded the **Fields Medal** in 2018 — often considered the highest honor in mathematics — at the remarkably young age of 30.

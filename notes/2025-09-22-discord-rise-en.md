@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Discord's Rise As Communication Hub
 translated: false
+type: note
 ---
 
 ### A Brief History of Discord

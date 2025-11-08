@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Historian Ray Huang and Macro History
 translated: false
+type: note
 ---
 
 ### Who is Ray Huang (黄仁宇)?

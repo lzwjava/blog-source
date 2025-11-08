@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fix CUDA Compilation Error with nvcc
 translated: false
+type: note
 ---
 
 The error indicates that the CUDA toolkit is not installed or properly configured, as the compiler cannot find `cuda.h`. Additionally, your code is a CUDA source file (`.cu`) but you're trying to compile it with `gcc`, which is not suitable for CUDA code. You need to use `nvcc`, the NVIDIA CUDA compiler. Here's how to fix the issue:

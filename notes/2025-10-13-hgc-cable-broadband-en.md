@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: HGC Cable Broadband Overview
 translated: false
+type: note
 ---
 
 ### What is HK HGC Cable?

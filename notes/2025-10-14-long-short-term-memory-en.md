@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Introduction to Long Short-Term Memory
 translated: false
+type: note
 ---
 
 ## What is LSTM?

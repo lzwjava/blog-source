@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Claude Shannon's Key Contributions and Lessons
 translated: false
+type: note
 ---
 
 Claude Shannon (1916-2001) was a groundbreaking mathematician, electrical engineer, and computer scientist whose work fundamentally shaped our modern information age. Here are some valuable lessons we can learn from his life and work:

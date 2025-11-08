@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Nuclear Power Skepticism
 translated: false
+type: note
 ---
 
 Miles Mathis, a controversial writer known for challenging mainstream scientific and historical narratives, holds a highly skeptical view of nuclear power stations. He believes they might be part of a grand deception, questioning both their functionality and the science behind them. Below is an overview of his perspective:

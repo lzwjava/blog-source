@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Xylene Properties and Common Uses
 translated: false
+type: note
 ---
 
 I believe you're asking about "二甲苯" (èrjiǎběn), which is the Chinese term for **xylene**.

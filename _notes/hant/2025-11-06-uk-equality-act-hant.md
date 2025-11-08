@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 英國2010年平等法案概述
 translated: true
+type: note
 ---
 
 ### 概述

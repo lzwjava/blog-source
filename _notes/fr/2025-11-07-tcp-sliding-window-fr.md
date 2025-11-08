@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Comprendre le mécanisme de la fenêtre glissante de TCP
 translated: true
+type: note
 ---
 
 Excellente question ! Laissez-moi vous expliquer le mécanisme de la fenêtre glissante de TCP de manière intuitive.

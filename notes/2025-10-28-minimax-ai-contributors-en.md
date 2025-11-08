@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: MiniMax AI Research Team Contributors
 translated: false
+type: note
 ---
 
 ### Key Contributors from MiniMax AI Research Team

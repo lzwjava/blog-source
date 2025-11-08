@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: PythonによるIntel GPUコンピューティング
 translated: true
+type: note
 ---
 
 PythonでGPUコンピューティングを行うためのIntel oneAPIのセットアップと使用方法：

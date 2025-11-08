@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Linear Algebra Tutorial
 translated: false
+type: note
 ---
 
 ## 1. Introduction

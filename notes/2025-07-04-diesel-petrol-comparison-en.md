@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Diesel vs. Petrol Car Comparison
 translated: false
+type: note
 ---
 
 Sure! Here’s a clear comparison between **diesel** and **petrol (gasoline)** cars:

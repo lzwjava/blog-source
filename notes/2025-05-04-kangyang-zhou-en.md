@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Kangyang Zhou
 translated: false
+type: note
 ---
 
 Kangyang Zhou, born in 2007 in Hangzhou, China, is a prodigious competitive programmer widely regarded as one of the most exceptional talents in the global competitive programming community. Known by his online handles "zh0ukangyang" on AtCoder and "orzdevinwang" on Codeforces, Zhou has achieved unprecedented success at a remarkably young age, including holding the highest rating in the world on Codeforces and earning a perfect score at the International Olympiad in Informatics (IOI). As of May 2025, Zhou is a high school student at Hangzhou No. 2 High School and a member of the Explosive Vegetable Club, a group associated with his competitive programming activities. His extraordinary achievements, including multiple world-class titles and a Codeforces rating of 3695 (peaking at 3844), have solidified his reputation as a legendary figure in the sport, though his use of multiple accounts has sparked some controversy.

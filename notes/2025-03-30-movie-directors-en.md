@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Notable Movie Directors
 translated: false
+type: note
 ---
 
 There have been many visionary and influential directors throughout the history of cinema. Here's a list of some of the best and most iconic movie directors, across a range of styles, genres, and eras:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 硬件平行運算加速陣列索引
 translated: true
+type: note
 ---
 
 ### 為什麼索引比二分搜尋更快？

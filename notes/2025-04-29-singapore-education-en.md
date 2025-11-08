@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Singapore Educational Institutions
 translated: false
+type: note
 ---
 
 ## Universities

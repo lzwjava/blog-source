@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Neural Networks and Deep Learning Overview
 translated: false
+type: note
 ---
 
 ### Overview

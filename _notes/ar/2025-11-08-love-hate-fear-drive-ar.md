@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: الحب والكراهية والخوف يدفعون الفعل البشري
 translated: true
+type: note
 ---
 
 ### الثالوث البدائي: الحب والكراهية والخوف كجذور الفعل البشري

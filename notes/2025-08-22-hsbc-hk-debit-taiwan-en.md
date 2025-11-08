@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: HSBC HK Debit Card Guide for Taiwan
 translated: false
+type: note
 ---
 
 Here’s a comprehensive guide to using your **HSBC Mastercard Debit Card** issued by **HSBC Hong Kong**, tailored for a Chinese citizen. I’ll cover how to use it correctly, its main features, and tips for wise usage—especially for someone based in Taiwan but holding a card from Hong Kong.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Automated Punch-In with Shortcuts
 translated: false
+type: note
 ---
 
 Use the Shortcuts app to create a shortcut that triggers when you arrive at the office. This shortcut will automatically open the WeCom app, enabling you to punch in.

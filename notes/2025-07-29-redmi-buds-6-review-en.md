@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'Redmi Buds 6: Budget ANC Earbuds'
 translated: false
+type: note
 ---
 
 The **Redmi Buds 6** are budget-friendly wireless earbuds that offer a compelling mix of features, including active noise cancellation (ANC), solid sound quality, and long battery life for their price point (around $28–$40 depending on the region). Below is a detailed breakdown of their performance, focusing on noise cancellation and overall quality, based on available reviews and information.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Robert Noyce
 translated: false
+type: note
 ---
 
 Robert Noyce (1927–1990) was an American physicist, inventor, and entrepreneur, widely regarded as one of the most influential figures in the development of the modern electronics industry. Known as the "Mayor of Silicon Valley," Noyce co-invented the integrated circuit (microchip), a breakthrough that revolutionized computing and laid the foundation for the digital age. His contributions as a scientist, business leader, and visionary helped transform Silicon Valley into the global hub of technological innovation.

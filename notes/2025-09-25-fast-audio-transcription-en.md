@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Speeding Up Long Audio Transcription Processing
 translated: false
+type: note
 ---
 
 ### Why Is Processing So Long for 30-Min or 1-Hour Audio?

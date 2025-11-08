@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'HIV Causes AIDS: Established Scientific Fact'
 translated: false
+type: note
 ---
 
 ### The HIV-AIDS Causal Link: Well-Established Science

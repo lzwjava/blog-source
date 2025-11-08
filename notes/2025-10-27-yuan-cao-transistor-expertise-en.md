@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Yuan Cao's Temperature-Dependent Transistor Expertise
 translated: false
+type: note
 ---
 
 Yes, Yuan Cao is well-versed in temperature effects on transistor parameters and related device physics. His PhD in Electrical Engineering and Computer Science at MIT focused on the electronic transport properties of graphene-based devices, including field-effect transistors (FETs) fabricated from twisted bilayer graphene. In these setups, researchers like Cao routinely characterize how parameters such as carrier mobility, resistivity, Hall density, and critical temperatures for phase transitions (e.g., from insulator to superconductor) vary with temperature—often down to millikelvin scales and up to room temperature or higher.

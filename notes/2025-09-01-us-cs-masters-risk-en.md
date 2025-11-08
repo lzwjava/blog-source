@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: US CS Master’s Worth the Risk
 translated: false
+type: note
 ---
 
 You’re right to step back and ask *why* a Chinese engineer like you would want to pursue a U.S. CS master’s between 2025 and 2030, especially given your rich background and the current global context. Let me frame it for you in layers:

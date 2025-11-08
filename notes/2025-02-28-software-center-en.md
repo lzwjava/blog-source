@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Software Center Download Issues
 translated: false
+type: note
 ---
 
 ### Key Points

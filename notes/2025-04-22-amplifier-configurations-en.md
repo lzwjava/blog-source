@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Amplifier Configurations
 translated: false
+type: note
 ---
 
 Here’s a comprehensive explanation of the **three basic amplifier configurations**—**Common Emitter (CE)**, **Common Collector (CC)** (also known as **Emitter Follower**), and **Common Base (CB)**—focusing on their structure, signal characteristics, advantages, disadvantages, and typical applications.

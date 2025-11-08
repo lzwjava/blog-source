@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: VMware Tanzu Application Service Overview
 translated: false
+type: note
 ---
 
 ## Introduction to VMware Tanzu Application Service for VMs (TAS for VMs)

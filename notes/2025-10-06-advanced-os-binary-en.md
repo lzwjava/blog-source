@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Advanced OS and Binary Engineering Roadmap
 translated: false
+type: note
 ---
 
 ### Tailored Roadmap for Learning Operating Systems and Low-Level Binary Work

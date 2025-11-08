@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Gallium Nitride
 translated: false
+type: note
 ---
 
 **What is Gallium Nitride?**

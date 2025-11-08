@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: NYTimes News (CN) Articles
 translated: false
+type: note
 ---
 
 ## Who Wins at the Xi-Trump Summit? China's Use of Chips to Gain Key Concessions

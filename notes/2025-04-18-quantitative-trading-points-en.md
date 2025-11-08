@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Comprehensive Guide to Algorithmic, AI, and Quantitative Trading
 translated: false
+type: note
 ---
 
 Below is a detailed list of 100 comprehensive points covering algorithmic trading, AI trading, and quantitative trading. These points address their definitions, methodologies, tools, strategies, benefits, challenges, and future trends.

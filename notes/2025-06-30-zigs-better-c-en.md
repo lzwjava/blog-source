@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Zig: A Better C Alternative'
 translated: false
+type: note
 ---
 
 Zig is a modern, general-purpose, statically typed, and compiled system programming language designed for robustness, optimality, and maintainability. It aims to be a "better C," offering low-level control and high performance while addressing many of C's long-standing pain points.

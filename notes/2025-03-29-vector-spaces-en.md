@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Tutorial on Vector Spaces in Linear Algebra
 translated: false
+type: note
 ---
 
 This tutorial covers key concepts related to **vector spaces**, including **subspaces, basis, dimension, and linear independence**. These topics are fundamental in linear algebra and are essential for understanding more advanced concepts.

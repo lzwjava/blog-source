@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'والدن ثورو: الحياة في الغابة'
 translated: true
+type: note
 ---
 
 ### مقدمة عن *والدن* لهنري ديفيد ثورو

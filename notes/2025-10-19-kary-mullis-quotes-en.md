@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Kary Mullis Notable Quotes
 translated: false
+type: note
 ---
 
 ### Top Quotes by Kary Mullis

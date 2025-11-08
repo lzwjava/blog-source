@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Séparation de la couche liaison de données et de la couche réseau
 translated: true
+type: note
 ---
 
 ### Pourquoi séparer la couche liaison de données et la couche réseau ?

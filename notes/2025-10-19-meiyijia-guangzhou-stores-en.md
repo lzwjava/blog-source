@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Meiyijia Guangzhou Store Count
 translated: false
+type: note
 ---
 
 **Approximately 2,817 Meiyijia convenience stores in Guangzhou as of July 2025.**

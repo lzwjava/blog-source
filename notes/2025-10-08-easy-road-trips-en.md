@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Easy Road Trip Destinations
 translated: false
+type: note
 ---
 
 ### Easy Destinations for Your Next Road Trip Adventure

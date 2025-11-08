@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Overcoming Sunk Cost for Innovation
 translated: false
+type: note
 ---
 
 Absolutely, let's dive deeper into this concept. I'll break it down step by step for clarity: starting with the psychological trap (sunk cost fallacy), how it blocks innovation, why ditching it feels hard but pays off in the long run, and real-world examples like Yin Wang's approach or switching platforms like Weibo/WordPress to Substack. This isn't just business jargon—it's a mindset shift that can unlock creativity and efficiency in personal projects, careers, or even hobbies.

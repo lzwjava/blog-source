@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Checkstyle Rules Explained Briefly
 translated: false
+type: note
 ---
 
 Below, I’ll explain each rule from the Checkstyle configuration file you provided, along with a small example of code that would **violate** the rule and a brief description of why it’s flagged. The rules are grouped by category as in your description, and I’ll keep the explanations concise while ensuring clarity. Each example assumes the rule is active with default settings unless specified otherwise. For rules with configurable properties (e.g., max line length), I’ll use typical defaults (e.g., 80 characters for LineLength) unless otherwise noted.

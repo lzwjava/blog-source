@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Social Meta Tags for SSI
 translated: false
+type: note
 ---
 
 The code you provided consists of **Open Graph (OG)** and **Twitter Card** meta tags, which are used to control how content is displayed when shared on social media platforms like Facebook, Twitter (now X), and others that support these protocols. These tags are part of the HTML `<head>` section of a website and provide metadata about the page to enhance its presentation in social media feeds.

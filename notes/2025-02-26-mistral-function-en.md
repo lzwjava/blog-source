@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Mistral Function Calling
 translated: false
+type: note
 ---
 
 ```python

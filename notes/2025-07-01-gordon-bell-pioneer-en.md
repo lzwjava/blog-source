@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Gordon Bell: Minicomputer Pioneer'
 translated: false
+type: note
 ---
 
 **Gordon Bell** is a pioneering American computer engineer and researcher, best known for his foundational contributions to computer architecture, particularly in the development of minicomputers and his work at Digital Equipment Corporation (DEC). Here's an overview of his career and contributions:

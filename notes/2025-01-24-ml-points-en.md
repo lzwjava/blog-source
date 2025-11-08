@@ -3,6 +3,7 @@ audio: true
 generated: false
 layout: post
 title: ML, DL, and GPT
+type: note
 ---
 
 1. Machine Learning (ML) is a field of computer science that enables systems to learn from data and improve their performance without explicit programming.

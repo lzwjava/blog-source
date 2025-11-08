@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: La Vida en los Bosques de Thoreau
 translated: true
+type: note
 ---
 
 ### Introducción a *Walden* de Henry David Thoreau

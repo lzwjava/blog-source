@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: SLOs-Serve vs vLLM Feature Comparison
 translated: false
+type: note
 ---
 
 ### Comparison: SLOs-Serve vs. vLLM

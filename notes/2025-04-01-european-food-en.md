@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: European Food Safety Authority
 translated: false
+type: note
 ---
 
 The European Food Safety Authority (EFSA) serves as an impartial source of scientific advice to risk managers regarding the food chain. It aims to protect European consumers from food-related risks, from farm to fork, by providing the scientific basis for laws and regulations. While EFSA doesn't issue mandatory guidelines in the same way national authorities do, its main suggestions and work revolve around the following key areas:

@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: A Standardized Cost Benchmark for AI Models
 translated: false
+type: note
 ---
 
 Got it — let me unpack what you wrote and translate the idea into English, then analyze the issue.

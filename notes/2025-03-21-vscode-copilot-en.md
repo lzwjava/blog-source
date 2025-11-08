@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Getting Started with GitHub Copilot in VS Code
 translated: false
+type: note
 ---
 
 Using GitHub Copilot in Visual Studio Code (VS Code) is straightforward once you set it up. Below is a step-by-step guide to get you started as of March 20, 2025:

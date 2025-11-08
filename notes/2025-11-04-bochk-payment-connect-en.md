@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: BOCHK Payment Connect for Mainland Citizens
 translated: false
+type: note
 ---
 
 Yes, Bank of China Hong Kong (BOCHK) allows Mainland Chinese citizens (non-HK residents) who hold a personal BOCHK account to use the Payment Connect scheme for transferring HKD funds to Mainland China accounts. This is part of the northbound remittance feature, enabling real-time, low-cost transfers via the BOCHK app, internet banking, or FPS (up to HKD 10,000 daily limit per the scheme's rules, with annual forex quotas applying for Mainland recipients).

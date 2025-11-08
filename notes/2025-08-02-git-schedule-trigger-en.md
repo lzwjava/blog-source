@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: GitHub Actions Schedule Misalignment
 translated: false
+type: note
 ---
 
 This is a Git-style (e.g. GitHub Actions) scheduled trigger. Let’s break it down:

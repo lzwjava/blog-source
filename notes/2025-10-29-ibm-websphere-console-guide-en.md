@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: IBM WebSphere Administrative Console Navigation Guide
 translated: false
+type: note
 ---
 
 ### IBM WebSphere Application Server (WAS) Administrative Console: Left Navigation Pane

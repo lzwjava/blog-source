@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Faster Payment System Integration Guidelines
 translated: false
+type: note
 ---
 
 The Faster Payment System (FPS) in Hong Kong, operated by Hong Kong Interbank Clearing Limited (HKICL) under the oversight of the Hong Kong Monetary Authority (HKMA), does not provide a publicly available SDK for banks to integrate. Integration is handled through direct connectivity to the FPS infrastructure, with technical specifications shared privately with participating banks (known as Settlement Participants) during the onboarding process. These specs guide banks in enhancing their systems for access, but there are no off-the-shelf SDKs or developer kits mentioned in official documentation.

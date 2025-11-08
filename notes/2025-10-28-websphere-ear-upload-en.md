@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fixing WebSphere Large EAR Upload Errors
 translated: false
+type: note
 ---
 
 ### Understanding the Issue

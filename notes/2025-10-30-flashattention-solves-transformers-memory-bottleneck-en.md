@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: FlashAttention Solves Transformers Memory Bottleneck
 translated: false
+type: note
 ---
 
 ### Background: The Challenges of Standard Attention in Transformers

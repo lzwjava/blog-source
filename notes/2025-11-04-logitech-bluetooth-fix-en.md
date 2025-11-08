@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fixing Logitech Bluetooth Pairing Issues
 translated: false
+type: note
 ---
 
 ### Troubleshooting the AuthenticationCanceled Error

@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: iOS Dart VM Debug Crash Fix
 translated: false
+type: note
 ---
 
 You’re hitting a known iOS / Dart VM interaction: the Dart VM in **debug (JIT) mode** needs to make memory pages executable at runtime, and recent iOS releases have tightened policies so `mprotect(..., PROT_EXEC)` fails with `13 (Permission denied)`. That causes the Dart VM to abort while finalizing code and produces the crash you pasted (SIGABRT). This is not a Flutter app bug in your code — it’s a platform (iOS / system policy) + VM mode mismatch. ([GitHub][1])

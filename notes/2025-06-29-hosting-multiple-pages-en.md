@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Host Multiple GitHub Pages with Organizations
 translated: false
+type: note
 ---
 
 Yes, creating a GitHub organization is a viable way to host additional GitHub Pages sites with unique `*.github.io` subdomains, as each organization can have its own `organization.github.io` site, separate from your personal `username.github.io` site. Here's how you can do it and what you need to know:

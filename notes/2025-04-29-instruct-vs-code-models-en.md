@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Instruct vs Code Models Compared
 translated: false
+type: note
 ---
 
 Sure—here’s a clearer, more reader‑friendly comparison (without using tables) between **Instruct** models and **Coder** (or code‑specialized) models in the LLM world:

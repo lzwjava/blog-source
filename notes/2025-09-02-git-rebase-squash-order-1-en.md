@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Git Rebase Squash Order Explained
 translated: false
+type: note
 ---
 
 When you run `git rebase -i` (interactive rebase) to squash commits, Git follows a very specific order and logic:

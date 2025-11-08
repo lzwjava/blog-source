@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AWS Virtual Networking Fundamentals
 translated: false
+type: note
 ---
 
 ### AWS Virtual Networking Basics

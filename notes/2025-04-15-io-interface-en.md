@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: I/O and Interface Technology
 translated: false
+type: note
 ---
 
 Great! Here's a **comprehensive tutorial** for **Part 4: I/O and Interface Technology**, based on your course outline. This tutorial is structured to explain concepts clearly, provide practical examples, and show how components like 8255A, 8253/8254, and 8251A work together in a microcomputer system.

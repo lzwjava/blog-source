@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong's Top 20 Wealthiest People
 translated: false
+type: note
 ---
 
 ### Top 20 Wealthiest People in Hong Kong (2025)

@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Base vs Chat Model Differences
 translated: false
+type: note
 ---
 
 Great question! Let’s break it down:

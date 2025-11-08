@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: MongoDB Comprehensive Guide
 translated: false
+type: note
 ---
 
 MongoDB is a popular open-source NoSQL document database designed for modern application development. It stores data in flexible, JSON-like documents called BSON (Binary JSON), making it ideal for handling unstructured or semi-structured data. Unlike traditional relational databases, MongoDB uses a schema-less approach, allowing collections (groups of documents) to have varying structures. It's highly scalable, supports horizontal scaling via sharding, and provides high availability through replication. MongoDB can be deployed on-premises, in the cloud via MongoDB Atlas (a managed service), or in hybrid environments. This guide covers everything from basics to advanced topics, with examples using the MongoDB Shell (mongosh).

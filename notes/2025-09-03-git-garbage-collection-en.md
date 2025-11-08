@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Git Garbage Collection Explained
 translated: false
+type: note
 ---
 
 `git gc` stands for **Git garbage collection**. It’s a housekeeping command that cleans up and optimizes your local repository.

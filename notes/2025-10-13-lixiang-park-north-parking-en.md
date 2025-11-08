@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Lixiang Park North Gate Parking Guide
 translated: false
+type: note
 ---
 
 ### Parking at Lixiang Park (North Gate), Shenzhen

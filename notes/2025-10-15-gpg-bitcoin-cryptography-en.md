@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPG and Bitcoin Cryptographic Connections
 translated: false
+type: note
 ---
 
 ### Relationship Between GPG and Bitcoin

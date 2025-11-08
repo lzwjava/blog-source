@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Java SSL TLS デバッグの有効化
 translated: true
+type: note
 ---
 
 ### JavaでのSSL/TLSデバッグの有効化

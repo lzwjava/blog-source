@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Karate Framework Workflow Visualization with Python
 translated: false
+type: note
 ---
 
 This Python script uses the `networkx` and `matplotlib` libraries to **create and visualize a directed graph** representing the workflow of the **Karate Framework**, a popular API testing tool. Here’s a step-by-step explanation of how it works:

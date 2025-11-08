@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: DeepSeek R1
 translated: false
+type: note
 ---
 
 DeepSeek R1 employs a novel approach to reinforcement learning (RL) that significantly emphasizes **reasoning capabilities** in large language models (LLMs). Their technique differs from traditional Reinforcement Learning from Human Feedback (RLHF) in several key aspects.

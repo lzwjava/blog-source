@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: IBM MQ WebSphere Application Server Configuration
 translated: false
+type: note
 ---
 
 ### Prerequisites

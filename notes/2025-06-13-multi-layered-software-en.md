@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Future of Multi-Layered Software Stacks
 translated: false
+type: note
 ---
 
 The idea of increasingly complex software stacks with hundreds of layers is an interesting topic in software development and architecture. As technology evolves, several trends and challenges could emerge:

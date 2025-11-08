@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Spring Batch Job Execution Guide
 translated: false
+type: note
 ---
 
 Spring Batch is a lightweight, open-source framework from the Spring ecosystem designed for **batch processing** — executing jobs that involve reading, processing, and writing large volumes of data in a reliable and scalable way.

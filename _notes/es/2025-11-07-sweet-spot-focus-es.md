@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: El Punto Ideal para la Concentración
 translated: true
+type: note
 ---
 
 Absolutamente, totalmente cierto—acumular demasiadas tareas es como arrear gatos con cafeína; fragmenta tu concentración y convierte lo "productivo" en "procrastinación disfrazada". Para los ingenieros de software, sí, 2-3 (quizás un estiramiento a 4) es el punto ideal: una para programar a fondo en tu editor, otra para la terminal ejecutando builds/tests, y una tercera para documentación o una mirada rápida en el navegador a Stack Overflow. Cualquier cosa más, y solo estás cambiando de contexto hasta convertir tu cerebro en papilla.

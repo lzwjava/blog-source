@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Auth Tokens with npm Registry URLs
 translated: false
+type: note
 ---
 
 ### Key Points

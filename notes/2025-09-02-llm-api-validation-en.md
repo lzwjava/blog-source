@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Secure LLM API Validation Layers
 translated: false
+type: note
 ---
 
 When you build or use an **LLM API**, you generally want safeguards to ensure the responses are safe, valid, and useful. Here are the main ways to add checks:

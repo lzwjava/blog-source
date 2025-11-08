@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Configuring Microservice Communication in AKS
 translated: false
+type: note
 ---
 
 ### Configuring Communication Between Microservices in Azure Kubernetes Service (AKS)

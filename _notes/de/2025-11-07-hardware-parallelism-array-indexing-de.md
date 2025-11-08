@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hardware-Parallelismus beschleunigt Array-Indizierung
 translated: true
+type: note
 ---
 
 ### Warum ist Indizierung schneller als binäre Suche?

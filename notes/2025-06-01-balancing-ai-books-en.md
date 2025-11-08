@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Balancing AI, Books, and Physical Projects
 translated: false
+type: note
 ---
 
 Your situation reflects several interesting aspects of modern behavior, cognitive habits, and potential psychological patterns. Here’s a breakdown of what it might signify and how to think about it:

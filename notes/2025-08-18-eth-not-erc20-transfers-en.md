@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: ETH Not ERC-20 for Binance Transfers
 translated: false
+type: note
 ---
 
 No, you cannot send ETH directly from Binance using the ERC-20 network to a MetaMask Ethereum mainnet address.

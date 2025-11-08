@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Tony Hoare's Computing Breakthroughs
 translated: false
+type: note
 ---
 
 Sir Charles Antony Richard Hoare, widely known as C.A.R. Hoare or Tony Hoare, is a highly influential British computer scientist whose groundbreaking contributions have profoundly shaped the fields of programming languages, algorithms, operating systems, formal verification, and concurrent computing. He is a recipient of the prestigious Turing Award (1980), often considered the "Nobel Prize of computing," for his fundamental work.

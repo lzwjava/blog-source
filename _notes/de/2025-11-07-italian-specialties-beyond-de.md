@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Italienische Spezialitäten jenseits des Essens
 translated: true
+type: note
 ---
 
 ### Italiens ikonische Spezialitäten: Ein tieferer Einblick

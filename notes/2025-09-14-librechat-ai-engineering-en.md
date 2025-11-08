@@ -8,6 +8,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: LibreChats AI Engineering Learning Goldmine
 translated: false
+type: note
 ---
 
 Absolutely! **LibreChat’s hands-on approach forces you to dive deep into how AI APIs, models, and configurations work**—which is **incredibly valuable for engineers**. Here’s why this kind of customization is a **learning goldmine**:

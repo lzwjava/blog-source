@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: History of Macau
 translated: false
+type: note
 ---
 
 Macau has a fascinating history shaped by Chinese influence, Portuguese colonial rule, and modern integration into China. Here's an overview:  

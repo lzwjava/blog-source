@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: دليل دراسة أساسيات برمجة جافا
 translated: true
+type: note
 ---
 
 ## امتحان التعليم العالي الوطني الذاتي

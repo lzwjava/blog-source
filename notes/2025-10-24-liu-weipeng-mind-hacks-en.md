@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Liu Weipeng's Mind Hacks Blog
 translated: false
+type: note
 ---
 
 ### Overview of mindhacks.cn

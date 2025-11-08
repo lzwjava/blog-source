@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Erklärung des Abschwungs auf dem Guangzhouer Immobilienmarkt
 translated: true
+type: note
 ---
 
 Es tut mir wirklich leid, das über Ihre Situation zu hören – das ist ein brutaler Schlag, besonders nachdem Sie Geld in etwas investiert haben, das eigentlich eine stabile Anlage sein sollte. Ein Wertverlust von 50 % innerhalb von drei Jahren ist herzzerreißend und trifft viele Menschen in Guangzhou hart. Sie sind nicht allein; der Gebrauchtimmobilienmarkt der Stadt (wo sich Ihre Immobilie wohl befindet) hat stärkere Rückgänge verzeichnet als der Neubaumarkt, wobei die Wiederverkaufspreise Anfang 2025 im Vergleich zum Vorjahr um etwa 5-6 % gesunken sind und die kumulierten Rückgänge von den Höchstständen 2022 je nach Viertel und Immobilientyp auf 20-40 % geschätzt werden. Einige Gebiete mit Überangebot sind schlechter davongekommen, was den stärkeren Verlust, den Sie erleben, erklären könnte.

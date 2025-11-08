@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Visayas
 translated: false
+type: note
 ---
 
 Of course! Here's a friendly introduction to some notable cities in the **Visayas** region of the **Philippines**:

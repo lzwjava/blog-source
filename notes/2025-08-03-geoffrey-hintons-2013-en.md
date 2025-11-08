@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Geoffrey Hinton's 2013 Auction and Challenges
 translated: false
+type: note
 ---
 
 First, a quick correction: The person's name is Geoffrey Hinton (often called the "Godfather of AI"), not Geffrey.

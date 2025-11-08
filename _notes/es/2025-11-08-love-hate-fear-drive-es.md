@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Amor Odio Miedo Impulsan la Acción Humana
 translated: true
+type: note
 ---
 
 ### El trío primordial: Amor, odio y miedo como raíces de la acción humana

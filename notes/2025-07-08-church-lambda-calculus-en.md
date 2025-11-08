@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Alonzo Church: Foundations of Computation'
 translated: false
+type: note
 ---
 
 Alonzo Church (1903–1995) was a highly influential American computer scientist, mathematician, logician, and philosopher. He is recognized as a pivotal figure in the development of mathematical logic and the foundational principles of theoretical computer science.

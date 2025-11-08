@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Activation Functions in Neural Networks
 translated: false
+type: note
 ---
 
 The **sigmoid**, **ReLU**, and **Leaky ReLU** are all activation functions used in neural networks. Each of them has unique characteristics and is suited for different tasks depending on the type of problem being solved. Here's a breakdown of the differences:

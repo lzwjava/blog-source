@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: École Polytechnique
 translated: false
+type: note
 ---
 
 École Polytechnique, founded in 1794 in France, has produced many notable scientists, mathematicians, and engineers. Below is a list of some of the most famous individuals associated with the institution, particularly in the fields of science, mathematics, and programming, along with their contributions:

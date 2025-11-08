@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Huawei Smart Screen Connectivity Expansion Dock
 translated: false
+type: note
 ---
 
 **Huawei Smart Screen Expansion Dock (华为智慧屏拓展坞)** is an accessory designed by Huawei to enhance the functionality of its **Huawei Smart Screen** (智慧屏) series, which are essentially smart TVs or displays with built-in HarmonyOS and smart features.

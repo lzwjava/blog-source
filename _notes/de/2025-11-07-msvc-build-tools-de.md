@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: 'MSVC Build Tools: Verwendungszwecke und Alternativen'
 translated: true
+type: note
 ---
 
 Die MSVC Build Tools sind in der Tat riesig! Hier ist, wofür sie tatsächlich verwendet werden:

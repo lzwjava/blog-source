@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Art Imitating Wizards and Muggles
 translated: false
+type: note
 ---
 
 ### Explanation in English

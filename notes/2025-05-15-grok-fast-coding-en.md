@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Grok's Fast Coding Explained
 translated: false
+type: note
 ---
 
 ### Interpreting Your Question

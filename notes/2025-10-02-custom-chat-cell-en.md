@@ -7,6 +7,7 @@ layout: post
 model: deepseek/deepseek-v3.2-exp
 title: Custom Chat Conversation Table Cell
 translated: false
+type: note
 ---
 
 This is an Objective-C implementation of a custom table view cell for displaying conversation items in a chat application (like iMessage or WhatsApp). Let me break down the key components:

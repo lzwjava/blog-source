@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Complete Weather Conditions in iOS Shortcuts
 translated: false
+type: note
 ---
 
 Here's a comprehensive breakdown of all weather condition value ranges available in iOS Shortcuts:

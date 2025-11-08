@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Charlie Munger
 translated: false
+type: note
 ---
 
 Charlie Munger, the vice chairman of Berkshire Hathaway and a long-time partner of Warren Buffett, is widely respected for his sharp intellect, pragmatic philosophy, and deep insights into investing and life in general. His thoughts often revolve around the importance of mental models, rational thinking, and understanding the psychological biases that influence decision-making.

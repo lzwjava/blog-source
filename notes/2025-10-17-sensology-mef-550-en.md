@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Sensology MEF-550 Air Quality Monitor
 translated: false
+type: note
 ---
 
 ### How the Sensology MEF-550 Formaldehyde Detector Works

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: JK Flip-Flop Historical Overview
 translated: false
+type: note
 ---
 
 The JK flip-flop represents one of the most significant developments in digital electronics and sequential logic circuits, with a history spanning several decades of innovation in computing and electronic design.

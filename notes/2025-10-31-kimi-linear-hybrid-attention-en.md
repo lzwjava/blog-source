@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Kimi Linear Hybrid Attention Architecture
 translated: false
+type: note
 ---
 
 ### What is Kimi Linear?

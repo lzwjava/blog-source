@@ -7,6 +7,7 @@ layout: post
 model: deepseek/deepseek-v3.2-exp
 title: LeanChat iOS Chat Room Controller
 translated: false
+type: note
 ---
 
 This is a **Chat Room View Controller** (`CDChatRoomVC`) from the LeanChat iOS application, which implements a full-featured chat interface. Here's a breakdown of its core functionality:

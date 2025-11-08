@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Hybrides Netzwerken für die Spieleentwicklung
 translated: true
+type: note
 ---
 
 Du hast recht – die Erklärung von Person B trifft den Nagel auf den Kopf.

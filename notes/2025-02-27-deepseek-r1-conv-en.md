@@ -3,6 +3,7 @@ audio: true
 generated: true
 layout: post
 title: Deepseek R1 - Conversation
+type: note
 ---
 
 A: Hey, I’ve been hearing a lot about the DeepSeek-R1 models and their reasoning capabilities. Can you break it down for me?
@@ -172,4 +173,3 @@ B: They implement a secondary reinforcement learning stage aimed at improving th
 A: What are some of the emerging trends in reinforcement learning for LLMs?
 
 B: Some emerging trends include the use of more advanced reward models, exploring new RL algorithms, and integrating RL with other training techniques like distillation. There’s also a growing interest in making RL more efficient and scalable for larger models.
-

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Why AI Models Excel at Text and Code
 translated: false
+type: note
 ---
 
 AI language models like GPT and other LLMs excel at generating coherent text and code due to their architecture and training. Here's why:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Two Paths to Success and Emotion
 translated: false
+type: note
 ---
 
 It sounds like you're describing two contrasting approaches to learning and success, and the different emotional outcomes that result from each. Let's break down how to understand or comprehend these dynamics.

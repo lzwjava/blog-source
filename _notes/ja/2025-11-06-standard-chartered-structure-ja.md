@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: スタンダードチャータード銀行の組織構造
 translated: true
+type: note
 ---
 
 ### スタンダード・チャータード銀行（SCB）の主要部門

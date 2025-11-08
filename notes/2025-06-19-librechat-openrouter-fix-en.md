@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Fixing LibreChat OpenRouter Model Error
 translated: false
+type: note
 ---
 
 This error occurs when using **LibreChat** with **OpenRouter** as the backend, and the selected model (`gpt-5-chat` or similar) is not available or not properly routed. Here’s a breakdown of the issue and how to resolve it:

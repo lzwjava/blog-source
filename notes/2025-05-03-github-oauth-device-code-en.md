@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: GitHub OAuth Device Code Flow
 translated: false
+type: note
 ---
 
 ### Overview

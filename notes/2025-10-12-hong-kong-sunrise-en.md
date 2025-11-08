@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong Sunrise Viewing Locations
 translated: false
+type: note
 ---
 
 ### Best Places to Watch the Sunrise in Hong Kong

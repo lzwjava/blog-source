@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Master's Programs
 translated: false
+type: note
 ---
 
 Okay, let's break down your profile and assess your chances for Master's programs in Singapore, the UK, the USA, and Australia.

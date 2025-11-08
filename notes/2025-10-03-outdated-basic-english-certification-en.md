@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Outdated Basic English Certification Explanation
 translated: false
+type: note
 ---
 
 Here’s a concise translation and explanation of your statement for an English-speaking audience:

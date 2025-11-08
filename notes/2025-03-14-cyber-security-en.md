@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cyber Security in the Company
 translated: false
+type: note
 ---
 
 To ensure cyber security in a company, a comprehensive approach is needed that addresses the specific concerns you mentioned—such as phishing emails, recipient verification, information classification, and screen locking—while also incorporating additional best practices. Below is a structured guide organized into three key areas: **People**, **Process**, and **Technology**.

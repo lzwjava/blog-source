@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Java Programming Exam Study Guide
 translated: false
+type: note
 ---
 
 Here’s a practical, exam-oriented guide for the **first part of “08553 Introduction to Programming—Java”**, based on the *National Higher Education Self-study Examination in China* syllabus. It focuses on concepts, examples, and key points that beginners must master.

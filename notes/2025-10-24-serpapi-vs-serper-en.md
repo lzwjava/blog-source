@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: SerpApi More Popular Than Serper
 translated: false
+type: note
 ---
 
 Good question — yes, there is evidence that SerpApi (serpapi.com) is **more popular / more established** than Serper (serper.dev), though “popularity” can mean different things. Here’s a breakdown of what the data shows, and some caveats.

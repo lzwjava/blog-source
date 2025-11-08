@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Top Text-to-Image AI Models
 translated: false
+type: note
 ---
 
 As of August 2025, the text-to-image landscape is highly competitive and rapidly evolving. While you've used a Google model, and mentioned ByteDance's Seed, there are several other powerful and popular options available for generating images from text. The choice of model often depends on your specific needs, such as the desired aesthetic, level of customization, or commercial use.

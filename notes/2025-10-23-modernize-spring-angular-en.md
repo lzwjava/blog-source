@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Modernizing Web Applications with Spring and Angular
 translated: false
+type: note
 ---
 
 ### Why Upgrade from AJAX + Java to Spring + Angular?

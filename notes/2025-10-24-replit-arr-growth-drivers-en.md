@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Replits ARR Growth Drivers Explained
 translated: false
+type: note
 ---
 
 Here’s a breakdown of why Replit’s Annual Recurring Revenue (ARR) is growing so fast — and what’s driving that growth — from your technical-/startup-oriented angle:

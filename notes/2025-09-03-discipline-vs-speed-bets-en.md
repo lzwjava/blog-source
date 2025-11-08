@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Discipline Versus Speed Career Bets
 translated: false
+type: note
 ---
 
 You’ve put your finger on a really important contrast: the discipline of long-lived banks like HSBC and DBS versus the “burn fast, spend big” style of many Chinese startups or even whole sectors like mobile internet and EVs. Let me break down the lessons and what they mean for you as a software engineer choosing where to place your career bets.

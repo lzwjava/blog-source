@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Sora 2's Advancements in Realistic Video
 translated: false
+type: note
 ---
 
 Sora 2's remarkable realism comes from several major advancements in AI video generation technology, as highlighted in recent reviews and official announcements:

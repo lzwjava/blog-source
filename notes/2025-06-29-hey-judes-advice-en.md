@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Hey Jude, Make It Better
 translated: false
+type: note
 ---
 
 Hey Jude, don't make it bad

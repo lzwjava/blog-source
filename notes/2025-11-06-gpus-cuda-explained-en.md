@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPUs and CUDA Capabilities Explained
 translated: false
+type: note
 ---
 
 ### What Can GPUs and CUDA Do?

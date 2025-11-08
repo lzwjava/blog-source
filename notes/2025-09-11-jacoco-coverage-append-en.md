@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: JaCoCo Coverage File and Append Mode
 translated: false
+type: note
 ---
 
 That’s a subtle but important detail in how JaCoCo works.

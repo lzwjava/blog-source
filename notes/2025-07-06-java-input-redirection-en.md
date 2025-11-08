@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Redirecting Input in Maven Java Programs
 translated: false
+type: note
 ---
 
 Redirecting input for `exec:java` programs can be a bit tricky because `exec:java` runs the Java process within the *same JVM* as Maven. This means you can't use standard shell redirection operators (`<`, `>`) in the same way you would for a separate process.

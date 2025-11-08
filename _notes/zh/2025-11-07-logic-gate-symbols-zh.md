@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 逻辑门符号与形状
 translated: true
+type: note
 ---
 
 ### 数字电路中的逻辑门符号

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPG Encryption Options Explained
 translated: false
+type: note
 ---
 
 ### GPG Options Explanation

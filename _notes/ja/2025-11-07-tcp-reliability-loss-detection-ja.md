@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: TCPの信頼性と損失検出
 translated: true
+type: note
 ---
 
 このTCPの信頼性に関する議論を明確な概念に分解してみましょう：

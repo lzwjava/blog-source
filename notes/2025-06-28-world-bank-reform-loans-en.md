@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: World Bank Economic Reform Loans Explained
 translated: false
+type: note
 ---
 
 A **Structural Adjustment Loan (SAL)** is a type of financing provided mainly by international financial institutions like the **World Bank** to countries that are facing severe balance-of-payments problems or economic crises. It’s less about traditional commercial banking and more about **development and policy lending**.

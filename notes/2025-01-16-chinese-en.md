@@ -2,6 +2,7 @@
 audio: true
 layout: post
 title: University Chinese
+type: note
 ---
 
 ### I. Overview of Exam Content

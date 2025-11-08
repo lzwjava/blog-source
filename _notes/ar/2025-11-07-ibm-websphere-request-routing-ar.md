@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: توجيه طلبات آي بي إم ويب سبير مُوضَّح
 translated: true
+type: note
 ---
 
 دعوني أوضح كيف يتعامل خادم تطبيقات ويب IBM (WAS) مع الطلبات الواردة والتوجيه:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Lee and Yang's Parity Dispute
 translated: false
+type: note
 ---
 
 T.D. Lee and C.N. Yang shared the 1957 Nobel Prize in Physics for their theoretical work proposing that parity (mirror symmetry) is not conserved in weak interactions, a discovery confirmed experimentally soon after. Their collaboration was intense and productive, but it later soured into a public feud over relative contributions, particularly after Yang's 1983 book *Selected Papers 1945–1980 with Commentary*, where he described the origins of the parity idea in a way that emphasized his own role as the primary driver, implying he did the "lion's share" of the intellectual heavy lifting.

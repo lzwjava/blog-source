@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: डेटा लिंक और नेटवर्क लेयर पृथक्करण
 translated: true
+type: note
 ---
 
 ### डेटा लिंक लेयर और नेटवर्क लेयर को अलग क्यों किया जाता है?

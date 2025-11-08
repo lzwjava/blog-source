@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The Annapurna Mountain Range Overview
 translated: false
+type: note
 ---
 
 ### Introduction to the Annapurna Mountain Range

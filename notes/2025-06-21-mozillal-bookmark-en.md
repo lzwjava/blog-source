@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Parse Mozilla Bookmark File
 translated: false
+type: note
 ---
 
 The file you're looking at is a **Firefox bookmark backup** in the `.jsonlz4` format. This means it's a **JSON file compressed using the LZ4 compression algorithm**, and it contains your Firefox bookmarks.

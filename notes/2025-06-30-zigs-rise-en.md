@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Zig's Growing Tech Influence
 translated: false
+type: note
 ---
 
 Zig is definitely making inroads in both big tech and the startup scene, though its adoption patterns differ from more established languages like Python, Java, or even Rust.

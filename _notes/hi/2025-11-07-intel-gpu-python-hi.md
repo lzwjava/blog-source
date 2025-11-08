@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: पायथन के साथ इंटेल जीपीयू कंप्यूटिंग
 translated: true
+type: note
 ---
 
 यहाँ बताया गया है कि GPU कंप्यूटिंग के लिए Python के साथ Intel oneAPI को कैसे सेट अप और उपयोग किया जाए:

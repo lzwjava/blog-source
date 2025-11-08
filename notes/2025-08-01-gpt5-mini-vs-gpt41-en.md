@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: GPT-5-mini vs GPT-4.1 Comparison
 translated: false
+type: note
 ---
 
 ### Overview

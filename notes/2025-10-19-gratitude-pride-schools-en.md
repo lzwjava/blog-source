@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Gratitude and Pride in Chinese Schools
 translated: false
+type: note
 ---
 
 ### Understanding Gratitude, Effort, and Pride in Chinese Education

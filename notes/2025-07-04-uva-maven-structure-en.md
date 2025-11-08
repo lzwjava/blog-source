@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Maven Structure for UVA Problems
 translated: false
+type: note
 ---
 
 Thanks for sharing the specific directory structure for your `uva/106` subdirectory. It seems your project has a more granular structure where each UVA problem (e.g., `106`) is a separate directory with its own `src` folder containing a `Main.java` file and possibly input files like `1.in`. This suggests that each problem might be treated as a separate subproject or module. To accommodate this in a Maven multi-module setup, we can either:

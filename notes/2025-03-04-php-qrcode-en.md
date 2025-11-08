@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: PHP Tool for Generating QR Codes
 translated: false
+type: note
 ---
 
 ### Key Points

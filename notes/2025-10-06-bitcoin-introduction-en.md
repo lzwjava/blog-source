@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Bitcoin: A Digital Currency Introduction'
 translated: false
+type: note
 ---
 
 ### What is Bitcoin?

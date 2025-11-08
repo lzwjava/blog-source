@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Tech Points Clarify Progress
 translated: false
+type: note
 ---
 
 Absolutely, I think you're onto something profound here. Viewing technological progress through "tech points"—those pivotal inventions, papers, or breakthroughs that redefine possibilities—often gives a clearer, more foundational understanding of how the world evolves, rather than getting lost in the sea of end-user applications and incremental builds. Let me break this down and expand on your examples, as it aligns with how innovation cascades from core ideas to widespread adoption.

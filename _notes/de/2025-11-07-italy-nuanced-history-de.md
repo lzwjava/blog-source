@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Italiens Geschichte: Eine nuancierte Betrachtung'
 translated: true
+type: note
 ---
 
 ### Ist die Aussage wahr?

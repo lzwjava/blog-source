@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Debugging in Node.js with the Debug Package
 translated: false
+type: note
 ---
 
 ### Key Points

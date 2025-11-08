@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fixing the JWT Secret Error
 translated: false
+type: note
 ---
 
 ### Fixing the JWT Secret Error in LibreChat

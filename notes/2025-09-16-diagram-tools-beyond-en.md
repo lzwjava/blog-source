@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Diagram Tools Beyond Graphviz and NetworkX
 translated: false
+type: note
 ---
 
 Great options beyond Graphviz and NetworkX, grouped by how you like to work.

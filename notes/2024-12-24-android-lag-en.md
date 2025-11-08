@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Why Android Devices Lag
+type: note
 ---
 
 *This post was written with the assistance of ChatGPT.*

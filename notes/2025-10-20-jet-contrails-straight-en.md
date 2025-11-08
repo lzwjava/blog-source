@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Why Jet Contrails Are Straight
 translated: false
+type: note
 ---
 
 ### Explanation in English

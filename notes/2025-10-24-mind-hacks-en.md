@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Mind Hacks for Your Brain
 translated: false
+type: note
 ---
 
 ### Overview of *Mind Hacks: Tips and Tools for Using Your Brain*

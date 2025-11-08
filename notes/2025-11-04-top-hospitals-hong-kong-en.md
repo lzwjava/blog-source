@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Hospitals in Hong Kong
 translated: false
+type: note
 ---
 
 ### Top Hospitals in Hong Kong

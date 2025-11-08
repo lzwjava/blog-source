@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Shenzhen 24-Hour Customs Clearance Ports
 translated: false
+type: note
 ---
 
 ### Shenzhen 24-Hour Customs Clearance Ports

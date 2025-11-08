@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Ren Suxi: Actress and Emotive Singer'
 translated: false
+type: note
 ---
 
 Ren Suxi (任素汐) is a talented Chinese actress and singer, best known for her roles in films and dramas like *Mr. Donkey* and *The Bad Kids*, but she also shines in music, often singing heartfelt theme songs for her projects. She's got a raw, emotive voice that's great at capturing vulnerability and longing—think folk-pop with a storytelling vibe. Overall, yeah, she's really good; critics and fans praise her for blending acting depth with musical sincerity, and her tracks tend to rack up millions of streams because they hit hard emotionally.

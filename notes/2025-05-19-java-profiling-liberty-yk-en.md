@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Profiling Liberty With YourKit Java Profiler
 translated: false
+type: note
 ---
 
 WebSphere Liberty can be integrated with YourKit Java Profiler quite smoothly, since Liberty is just another JVM-based runtime. Here’s how it typically works:

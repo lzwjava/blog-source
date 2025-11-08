@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: TTL and CMOS Integrated Circuits
 translated: false
+type: note
 ---
 
 ## TTL (Transistor-Transistor Logic)

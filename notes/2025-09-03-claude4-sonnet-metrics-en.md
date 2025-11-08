@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Claude 4 Sonnet Completion Metrics Explained
 translated: false
+type: note
 ---
 
 Short version: it ended normally.

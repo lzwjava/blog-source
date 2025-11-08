@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Avoiding Regrets
 translated: false
+type: note
 ---
 
 As you think about avoiding regrets in old age, there are several approaches that can help:

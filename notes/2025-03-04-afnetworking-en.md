@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using AFNetworking in iOS
 translated: false
+type: note
 ---
 
 It looks like you're referring to integrating the AFNetworking library version 2.5.4 into an iOS project using CocoaPods, a popular dependency manager for Swift and Objective-C projects. Here's a step-by-step guide on how to use `pod 'AFNetworking', '2.5.4'` in your project:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: PayMe's Mainland China Market Barriers
 translated: false
+type: note
 ---
 
 ### Understanding Brand and Information Barriers for PayMe in Mainland China

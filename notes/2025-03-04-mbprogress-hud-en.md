@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using MBProgressHUD in iOS
 translated: false
+type: note
 ---
 
 It looks like you're asking about how to use the `MBProgressHUD` library in an iOS project, specifically version `0.9.1`, via a Podfile in CocoaPods. Let me guide you through the process step-by-step.

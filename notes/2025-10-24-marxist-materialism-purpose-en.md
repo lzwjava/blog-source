@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Marxist Materialism on Lifes Purpose
 translated: false
+type: note
 ---
 
 ### Understanding Marxist Materialism's View on Life's Purpose

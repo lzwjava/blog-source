@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Product vs. Service Business Models
 translated: false
+type: note
 ---
 
 Your observation touches on a fundamental difference between **product-driven companies** (like NVIDIA, OpenAI, Anthropic) and **service-driven companies** (like Infosys, Accenture, ThoughtWorks). The key distinction lies in their business models, scalability, value creation, and long-term impact. Here’s how to understand this:

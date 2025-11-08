@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Solution to Fix DBeaver Not Loading Schemas
 translated: false
+type: note
 ---
 
 If you're able to view schemas in an IBM DB2 database using Squirrel SQL on Windows but DBeaver gets stuck at "loading item 0%," the issue likely stems from how DBeaver retrieves metadata compared to Squirrel SQL. Below is a step-by-step guide to troubleshoot and resolve this problem:

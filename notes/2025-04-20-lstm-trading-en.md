@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Combining Historical Data with LSTM
 translated: false
+type: note
 ---
 
 Combining historical stock data from the TigerOpen API with an LSTM model for analysis is feasible and a common approach in financial time series prediction. The second script retrieves historical stock data (e.g., OHLCV bars), which can be used to construct a dataset for training an LSTM model similar to the one in the first script. Below, I outline how you can integrate these two, address potential challenges, and provide a high-level approach to analyze stock data using an LSTM.

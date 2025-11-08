@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: QUIC 解決隊頭阻塞問題
 translated: true
+type: note
 ---
 
 以下是該對話的介紹，提供背景並解釋相關技術概念：

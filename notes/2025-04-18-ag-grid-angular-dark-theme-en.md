@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: AG Grid Angular Dark Theme Guide
 translated: false
+type: note
 ---
 
 Got it — you’re asking about **Alpine Dark Theme** in **AG Grid** when using it in an **Angular application**.

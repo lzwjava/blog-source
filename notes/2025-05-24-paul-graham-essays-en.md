@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Paul Graham’s Essays
 translated: false
+type: note
 ---
 
 Paul Graham is a programmer, venture capitalist, and essayist whose writings have significantly influenced the tech industry, startups, and intellectual discourse. As a co-founder of Y Combinator (YC), a startup accelerator that has funded companies like Airbnb, Dropbox, and Reddit, Graham has shaped modern entrepreneurship. His essays, published on his website (paulgraham.com) since the early 2000s, are widely read for their clarity, insight, and unconventional takes on startups, technology, creativity, and society. Below is a comprehensive introduction to his essays and the core ideas that define his work.

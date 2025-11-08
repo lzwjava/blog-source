@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: GitHub Copilot Modes Compared
 translated: false
+type: note
 ---
 
 ### Overview

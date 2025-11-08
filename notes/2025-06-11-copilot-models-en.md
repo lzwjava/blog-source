@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Comparison of GPT-4o and GPT-4.1
 translated: false
+type: note
 ---
 
 ### **Executive Summary**

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Use 'BLOCK_LOW_AND_ABOVE' Only
 translated: false
+type: note
 ---
 
 You're seeing this error:

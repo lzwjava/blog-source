@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: 游戏开发中的混合网络架构
 translated: true
+type: note
 ---
 
 你说得对——B的解释非常准确。

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Deep Thinking Models
 translated: false
+type: note
 ---
 
 This information is based on query from https://search.jina.ai.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: JaCoCo Multi-Module Spring Coverage Setup
 translated: false
+type: note
 ---
 
 Great—JaCoCo works well for a multi-module Spring project. You’ll want:

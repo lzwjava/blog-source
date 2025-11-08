@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Copilot Enterprise Model Options Overview
 translated: false
+type: note
 ---
 
 You're asking about which model could be used for **Copilot Enterprise**, specifically whether it's GPT-4.1, GPT-4o, or something else. Here's what’s current and relevant as of **September 2025**:

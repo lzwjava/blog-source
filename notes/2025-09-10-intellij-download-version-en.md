@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Choose Correct IntelliJ IDEA Download Version
 translated: false
+type: note
 ---
 
 From your `uname -a` output:

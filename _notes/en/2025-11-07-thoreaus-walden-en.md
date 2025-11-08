@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Thoreaus Walden Life in the Woods
 translated: false
+type: note
 ---
 
 ### Introduction to *Walden* by Henry David Thoreau

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 修复翻译API认证错误
 translated: true
+type: note
 ---
 
 ### 工作流程与错误原因分析

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Database Blocking
 translated: false
+type: note
 ---
 
 I assume you're asking for examples of database blocking in the context of database management systems (DBMS). Blocking occurs when one transaction in a database prevents another transaction from proceeding because they are trying to access or modify the same data concurrently. This is typically managed using locks to ensure data consistency and integrity. Below are some examples of database blocking scenarios:

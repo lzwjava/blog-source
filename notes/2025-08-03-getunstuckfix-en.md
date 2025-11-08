@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fixed Official Imagen Python Snippet
 translated: false
+type: note
 ---
 
 You've basically implemented the correct logic, but the **get‑unstuck** instructions are slightly off. Here's a cleaned‑up version adapted from the official example in the docs:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: A Multi-threaded Case
 translated: false
+type: note
 ---
 
 To handle multi-threaded validation in a Java Spring Boot project with 10 rules, where some rules may access the database and you want to cancel the others as soon as one fails to avoid wasting time, you can use Java’s concurrency utilities in combination with Spring’s features. Here’s a complete and efficient solution:

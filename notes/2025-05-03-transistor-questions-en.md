@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Questions about Transistor
 translated: false
+type: note
 ---
 
 In a bipolar junction transistor (BJT), the behavior of currents and voltages between the base-emitter (BE) and collector-emitter (CE) junctions is governed by the transistor's physics and its operational design. Let’s break down your questions systematically:

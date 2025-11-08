@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: P2P通訊的無伺服器迷思
 translated: true
+type: note
 ---
 
 很好的問題！你將**點對點（P2P）原則**與現代通訊應用程式聯繫起來是正確的，但有一個關鍵區別：**點對點協定（PPP）** 在**資料鏈結層（第2層）** 運行，用於直接的序列/數據機連接，而像 RustDesk 或 web3 聊天這樣的應用程式則在**應用層（第7層）** 使用不同的 P2P 技術運行。

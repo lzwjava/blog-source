@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Preventing Outlook from Deleting Zoom Meeting Links
 translated: false
+type: note
 ---
 
 To prevent Outlook from deleting the Zoom meeting link after you reply to a meeting invitation, you need to adjust a specific setting in Outlook's options. By default, Outlook is configured to automatically delete meeting request emails from your inbox after you respond to them (e.g., accept, decline, or tentatively respond). Since the Zoom meeting link is included in the original meeting request email, deleting the email removes easy access to the link. Follow the steps below to change this setting and keep the meeting request email (and the Zoom link) in your inbox.
@@ -37,4 +38,4 @@ Once you've made this adjustment, Outlook will no longer automatically delete me
 
 ### **Important Notes**
 - **Scope of the Setting**: This setting applies to all meeting requests, not just those for Zoom meetings. It will affect how Outlook handles any meeting invitations you receive, such as those for Microsoft Teams or other platforms.
-- **Outlook Web Access (OWA)**: If you are using Outlook Web Access (OWA) instead of the desktop application, the setting might be located differently. 
+- **Outlook Web Access (OWA)**: If you are using Outlook Web Access (OWA) instead of the desktop application, the setting might be located differently.

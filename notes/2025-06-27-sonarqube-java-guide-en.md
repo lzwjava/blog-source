@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Mastering SonarQube for Java and Spring Projects
 translated: false
+type: note
 ---
 
 # Comprehensive Guide to Using SonarQube with Java and Spring Projects

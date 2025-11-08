@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Linear Regession to Trade
 translated: false
+type: note
 ---
 
 Great question! You're combining two tasks here:

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: CUDA Libraries & Packages
 translated: false
+type: note
 ---
 
 Here’s a quick rundown of each package you’re installing:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: تخصصات إيطالية تتجاوز المأكولات
 translated: true
+type: note
 ---
 
 ### التخصصات الأيقونية لإيطاليا: نظرة أعمق

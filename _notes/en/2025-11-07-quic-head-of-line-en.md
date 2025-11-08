@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: QUIC Solves Head-of-Line Blocking
 translated: false
+type: note
 ---
 
 Here’s an introduction to that dialogue, providing context and explaining the technical concepts:

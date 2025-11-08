@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Stable Diffusion Proxy Issue
 translated: false
+type: note
 ---
 
 Based on the error and your environment, here's how to fix the "Unknown scheme for proxy URL" issue:

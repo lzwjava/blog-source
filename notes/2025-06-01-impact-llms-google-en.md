@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Impact of LLMs on Google's Ad Revenue
 translated: false
+type: note
 ---
 
 Alphabet Inc. (Google's parent company) reported strong financial performance in its Q1 2025 earnings, with total revenue of $80.5 billion (excluding partner revenue sharing), a 15% increase year-over-year, driven primarily by its advertising segments. Below, I address the specific metrics and trends related to your query about large language models (LLMs) impacting text-related applications, Google’s usage, ad revenue growth, and changes in human behavior over the last three years, based on available data and sentiment from X posts.

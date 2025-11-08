@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Efficient LLM Inference with vLLM
 translated: false
+type: note
 ---
 
 ### vLLM: Efficient LLM Inference and Serving

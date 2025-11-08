@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Powerful Tools Under Strict Security Policies
 translated: false
+type: note
 ---
 
 For big companies that ban many AI tool websites due to security reasons, there are still several alternatives to tools like Sourcegraph and GitHub that prioritize data privacy, security, and compliance. These options can help you perform tasks like code search, AI-powered code completion, and general development while adhering to strict security policies. Below are some viable alternatives categorized by their primary use case:

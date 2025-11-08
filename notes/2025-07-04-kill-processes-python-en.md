@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Killing Processes with Python
 translated: false
+type: note
 ---
 
 ### Using Python to Kill Processes on Windows

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Linux Kernel Modularity Explained
 translated: false
+type: note
 ---
 
 ### Understanding Modularity in Linux

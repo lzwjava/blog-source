@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: الفرق بين بروتوكولي TCP و UDP
 translated: true
+type: note
 ---
 
 نعم، لقد فهمت الأمر بشكل صحيح تمامًا! دعني أوضح الفروق الرئيسية:

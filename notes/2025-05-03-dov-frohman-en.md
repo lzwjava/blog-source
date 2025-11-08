@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Dov Frohman
 translated: false
+type: note
 ---
 
 Dov Frohman (born March 28, 1939, in Amsterdam, Netherlands) is an Israeli electrical engineer, inventor, business executive, and a pivotal figure in the global semiconductor industry. Renowned for inventing the erasable programmable read-only memory (EPROM) and founding Intel Israel, Frohman’s contributions have significantly shaped modern computing and Israel’s high-tech economy. His life, marked by resilience, innovation, and leadership, reflects a blend of technical brilliance and a commitment to fostering technological advancement in challenging environments. He is also the co-author of the influential book *Leadership the Hard Way* (2008), which distills his unconventional leadership philosophy.

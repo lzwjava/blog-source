@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: NetworkX and Matplotlib Graph Tutorial
 translated: false
+type: note
 ---
 
 ### Installing the Libraries

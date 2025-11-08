@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 愛と憎しみと恐怖が人間の行動を駆り立てる
 translated: true
+type: note
 ---
 
 ### 原初の三要素：人間行動の根源としての愛、憎しみ、恐怖

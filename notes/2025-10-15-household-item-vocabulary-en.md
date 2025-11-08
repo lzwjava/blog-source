@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Essential English Household Item Vocabulary
 translated: false
+type: note
 ---
 
 ### Common Everyday Items in English

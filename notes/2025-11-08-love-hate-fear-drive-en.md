@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Love Hate Fear Drive Human Action
 translated: false
+type: note
 ---
 
 ### The Primal Trio: Love, Hate, and Fear as the Roots of Human Action

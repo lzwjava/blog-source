@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: RTX 4070 Ti Machine Learning Guide
 translated: false
+type: note
 ---
 
 Great question, Zhiwei! With an **NVIDIA RTX 4070 Ti** (which has 12GB of VRAM), you have a powerful GPU that can handle a wide range of machine learning and deep learning tasks—especially for learning, experimentation, and even some production-level projects. Here’s a practical guide to what you can do, what models you can run, and how to make the most of your hardware for ML/DL:

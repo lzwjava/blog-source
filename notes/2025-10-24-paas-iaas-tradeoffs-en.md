@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: PaaS vs IaaS Trade-Offs
 translated: false
+type: note
 ---
 
 You're spot on with your observations about the trade-offs between low-code/PaaS platforms (like Parse or Firebase, which lean into BaaS—Backend as a Service) and the broader IaaS-heavy ecosystems of AWS, GCP, and Azure. These differences in abstraction levels, control, and scope directly explain the popularity gap. I'll break it down step by step, building on your points about limited APIs, client-side bloat, and customization hurdles, while drawing in some broader context on why the "big three" dominate.

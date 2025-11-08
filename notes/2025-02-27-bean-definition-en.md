@@ -4,6 +4,7 @@ lang: en
 layout: post
 title: BeanDefinitionStoreException
 translated: false
+type: note
 ---
 
 Based on the error you provided, your Java application running on IBM WebSphere with OSGi support is encountering a `BeanDefinitionStoreException` during the initialization of the Spring Framework application context. This exception indicates an "Invalid bean definition," which typically stems from a misconfiguration in your Spring setup. Below is a comprehensive guide to troubleshoot and fix the issue.

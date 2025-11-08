@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Understanding Fully Qualified Domain Names
 translated: false
+type: note
 ---
 
 ### What is an FQDN?

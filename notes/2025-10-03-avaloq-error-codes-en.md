@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Avaloq Error Codes Overview
 translated: false
+type: note
 ---
 
 ### Avaloq Error Codes and Responses

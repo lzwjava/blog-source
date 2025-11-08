@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Does Traceroute Use a Proxy?
 translated: false
+type: note
 ---
 
 Traceroute itself does not inherently use a proxy. Let me explain how traceroute works and where proxies might come into play:

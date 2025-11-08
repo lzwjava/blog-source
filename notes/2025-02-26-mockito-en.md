@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Mockito in Java Tests
 translated: false
+type: note
 ---
 
 To use Mockito in Java tests, follow these steps to create mock objects, stub methods, and verify interactions:

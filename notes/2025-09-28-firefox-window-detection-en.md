@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Firefox Window Detection Tools for Linux
 translated: false
+type: note
 ---
 
 Besides `xdotool`, there are several alternative tools and methods to get information about the active Firefox window on Linux:

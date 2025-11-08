@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Max Planck
 translated: false
+type: note
 ---
 
 Max Planck (1858–1947) was a German theoretical physicist whose groundbreaking work laid the foundation for quantum theory, fundamentally reshaping modern physics. Born on April 23, 1858, in Kiel, Germany, Planck came from an academic family, with his father a law professor. His contributions to science, particularly his introduction of the quantum concept, earned him the Nobel Prize in Physics in 1918 and established him as one of the most influential scientists of the 20th century.

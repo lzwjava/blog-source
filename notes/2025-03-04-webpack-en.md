@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Webpack as Module Bundler
 translated: false
+type: note
 ---
 
 ### Key Points

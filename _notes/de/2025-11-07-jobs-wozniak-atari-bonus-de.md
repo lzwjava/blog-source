@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Jobs betrügt Wozniak um Atari-Prämie
 translated: true
+type: note
 ---
 
 Das ist die berühmte Geschichte von der Chip-Reduzierung bei Atari Breakout aus den Jahren 1973-74, und sie ist eines der deutlichsten Beispiele für die komplizierte Dynamik zwischen den beiden Steves.

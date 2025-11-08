@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Combating Screen Fatigue Effectively
 translated: false
+type: note
 ---
 
 I totally get it—staring at a screen when your brain feels foggy can feel like trying to force sleep; it just backfires and leaves you more drained. The good news is this is super common (it's often called "screen fatigue" or digital eye strain), and there are gentle ways to ease back into focus without pushing too hard. The key is listening to your body, building in recovery, and mixing up your approach. Here are some practical suggestions to try:

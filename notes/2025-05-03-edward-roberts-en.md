@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: H. Edward Roberts
 translated: false
+type: note
 ---
 
 Henry Edward Roberts (1941-2010) was an American engineer and entrepreneur widely regarded as the "father of the personal computer." He is best known as the creator of the MITS Altair 8800, the machine that ignited the personal computer revolution in the mid-1970s.

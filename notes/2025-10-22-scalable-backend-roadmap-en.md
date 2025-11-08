@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Backend Engineering Roadmap for Scalable Systems
 translated: false
+type: note
 ---
 
 Perfect — you want a **complete backend engineering roadmap** that builds solid foundations while progressing toward modern, scalable systems (like those used at large companies such as HSBC or Alibaba).

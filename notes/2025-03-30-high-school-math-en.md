@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: High School Math
 translated: false
+type: note
 ---
 
 Okay, here is a list of high school math topics, aiming for a concise overview of key ideas and concepts:

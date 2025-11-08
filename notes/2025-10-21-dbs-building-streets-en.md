@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: DBS Building Location and Nearby Streets
 translated: false
+type: note
 ---
 
 The DBS Building, officially part of the Marina Bay Financial Centre (MBFC) Tower 3 at 12 Marina Boulevard, Singapore 018982, is located in the heart of the Marina Bay financial district. This area is a modern reclaimed land zone with a mix of boulevards, expressways, and secondary roads connecting to the Central Business District.

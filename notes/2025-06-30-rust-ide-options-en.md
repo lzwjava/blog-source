@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Best IDEs for Rust Development
 translated: false
+type: note
 ---
 
 Choosing the best Integrated Development Environment (IDE) for writing Rust often depends on your specific needs, such as ease of use, integration with tools, and personal preference. Here are some popular options:

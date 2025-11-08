@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Token and Positional Embeddings Explained
 translated: false
+type: note
 ---
 
 ### Explanation of `wte` and `wpe` in the GPT Model

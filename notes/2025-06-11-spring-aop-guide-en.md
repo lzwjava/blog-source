@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Guide to Spring AOP
 translated: false
+type: note
 ---
 
 ## 1. Introduction to Spring AOP

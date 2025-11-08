@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Character Encoding and Decoding in Java
 translated: false
+type: note
 ---
 
 The `java.nio.charset` package in Java provides tools for handling character encoding and decoding, which is essential when working with text data in different formats or across various systems. Below is a comprehensive guide on how to use this package effectively.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Discipline's Unseen Psychological Roots
 translated: false
+type: note
 ---
 
 ---

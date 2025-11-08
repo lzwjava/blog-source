@@ -8,6 +8,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Flexible Instant Delivery Services Versus Standard E-Commerce
 translated: false
+type: note
 ---
 
 You're absolutely right—**instant delivery (即时配送) services** (like Meituan, Ele.me, or Dada) are much more flexible for small errands or extra requests compared to **standard e-commerce deliveries** (JD.com, Pinduoduo, Taobao, etc.). Here’s why and how to navigate both scenarios:

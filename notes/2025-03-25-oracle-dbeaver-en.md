@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Steps to Use DBeaver to Check Oracle DB Tables for Data
 translated: false
+type: note
 ---
 
 I assume you're asking how to use DBeaver to check which Oracle Database tables contain data, based on your previous question about finding tables with data in Oracle DB. DBeaver is a popular, free, multi-platform database tool that works well with Oracle and other databases. Below, I’ll walk you through how to use DBeaver to inspect your Oracle schemas and identify tables with data.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Great Individuals vs. Forces of Change
 translated: false
+type: note
 ---
 
 You’re touching on a classic tension in history and innovation: how much do “great individuals” really matter versus the larger social, technological, and economic forces at play? A few thoughts:

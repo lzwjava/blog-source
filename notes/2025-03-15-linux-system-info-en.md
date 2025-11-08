@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Linux System Information
 translated: false
+type: note
 ---
 
 In Ubuntu, you can retrieve system information such as whether the system is 32-bit or 64-bit, the operating system version, the amount of RAM, and the disk size using the following commands. Below is a step-by-step guide:

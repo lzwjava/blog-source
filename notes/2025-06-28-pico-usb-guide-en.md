@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: USB Cable Guide for Raspberry Pi Pico on Ubuntu
 translated: false
+type: note
 ---
 
 For your **Raspberry Pi Pico (with headers)** from the **Raspberry Pi Foundation** (assuming "duistou" is a typo or a reseller brand), you need the right USB cable to set it up with Ubuntu. Here's what you need:

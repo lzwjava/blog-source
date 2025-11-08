@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Amour Haine Peur Animent l'Action Humaine
 translated: true
+type: note
 ---
 
 ### Le trio primal : l'amour, la haine et la peur comme racines de l'action humaine

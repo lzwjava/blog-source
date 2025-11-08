@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Git Credential Manager Diagnose
 translated: false
+type: note
 ---
 
 The output of `git credential-manager diagnose` now clearly indicates a **networking failure**, in addition to the TLS certificate verification warning. Let's break down the error and how to fix it:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Searching Algorithms in Java
 translated: false
+type: note
 ---
 
 Searching is about finding data efficiently. Let’s explore binary search and linear search.

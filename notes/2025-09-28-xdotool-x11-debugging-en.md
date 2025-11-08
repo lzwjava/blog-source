@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: xdotool X11 Debugging Guide
 translated: false
+type: note
 ---
 
 The error you're seeing indicates that `xdotool` is having trouble getting the active window information from your X server. Here are several ways to diagnose and get more detailed error information:

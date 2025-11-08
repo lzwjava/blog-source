@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Simple RNN Implementation from Scratch
 translated: false
+type: note
 ---
 
 ### Simple RNN Example in NumPy (From Scratch)

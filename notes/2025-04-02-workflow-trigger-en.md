@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Trigger Your GitHub Workflow
 translated: false
+type: note
 ---
 
 You're right, directly embedding a GitHub token in your frontend code is a security risk. Anyone viewing your page's source code could potentially access and misuse your token.

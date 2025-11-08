@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'PostgreSQL: Database Management Guide'
 translated: false
+type: note
 ---
 
 Here's a step-by-step guide to using PostgreSQL, a powerful open-source relational database management system:

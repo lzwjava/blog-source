@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Active Firefox Window Identification Script
 translated: false
+type: note
 ---
 
 #!/usr/bin/env python3

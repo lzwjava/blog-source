@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'GreptimeDB: Unified Time-Series Database'
 translated: false
+type: note
 ---
 
 ### Overview of GreptimeDB

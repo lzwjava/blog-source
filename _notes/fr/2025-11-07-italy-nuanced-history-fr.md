@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Histoire de l''Italie : Une Perspective Nuancée'
 translated: true
+type: note
 ---
 
 ### L'affirmation est-elle vraie ?

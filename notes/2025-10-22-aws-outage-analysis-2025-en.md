@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AWS Outage Case Analysis October 2025
 translated: false
+type: note
 ---
 
 ### AWS Outage on October 20, 2025: Detailed Case Analysis

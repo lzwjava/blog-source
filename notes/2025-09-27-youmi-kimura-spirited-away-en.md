@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-3
 title: 'Youmi Kimura: Spirited Away Vocalist'
 translated: false
+type: note
 ---
 
 ### Early Life and Education

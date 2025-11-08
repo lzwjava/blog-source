@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'HKUST Library: Top Tech and STEM Hub'
 translated: false
+type: note
 ---
 
 ### Top Library in Hong Kong for Tech, IT, AI, and STEM

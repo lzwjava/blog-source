@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Detect User Language Preference
 translated: false
+type: note
 ---
 
 ### Detecting User's Country or Language Preference

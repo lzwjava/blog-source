@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Proton Enables Windows Games on Linux
 translated: false
+type: note
 ---
 
 ### What is Proton?

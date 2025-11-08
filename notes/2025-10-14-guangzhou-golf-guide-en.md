@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Golfing in Guangzhou Guide
 translated: false
+type: note
 ---
 
 ### Playing Golf in Guangzhou

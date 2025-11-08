@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: How to Use JMeter
 translated: false
+type: note
 ---
 
 JMeter is an open-source software tool designed for load testing and measuring the performance of web applications, though it can also test other types of systems like databases and FTP servers. Below is a clear, step-by-step guide to help you get started with using JMeter for performance testing, focusing primarily on web applications.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: iOS Frameworks
 translated: false
+type: note
 ---
 
 Besides UIKit, there are many other essential frameworks provided by the iOS system that developers commonly use to build applications. These frameworks handle various aspects beyond just the user interface elements. Here are some of the most common ones:

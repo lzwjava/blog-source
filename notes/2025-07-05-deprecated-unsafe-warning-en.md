@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Upgrade Guice to Fix Unsafe Warning
 translated: false
+type: note
 ---
 
 The warning you're seeing:

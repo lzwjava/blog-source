@@ -7,6 +7,7 @@ layout: post
 model: google/gemini-2.5-flash
 title: Fixing Docker OverlayFS Removal Error
 translated: false
+type: note
 ---
 
 The error you're seeing, specifically the line:

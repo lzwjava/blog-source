@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: zsh में निलंबित नौकरियों को फिर से शुरू करना
 translated: true
+type: note
 ---
 
 zsh के अंदर Ghostty में एक suspended job (जैसे आपका `bundle exec jekyll serve --incremental` command, जिसे संभवतः Ctrl+Z से रोका गया था) को resume करने के लिए, उसी terminal session में इन steps का पालन करें:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: पाँच दिवसीय झुहाई यात्रा गाइड
 translated: true
+type: note
 ---
 
 ### गुआंगडोंग के झुहाई में 5-दिवसीय यात्रा की योजना

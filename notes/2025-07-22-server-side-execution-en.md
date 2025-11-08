@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Optimizing AI Tool Calls with Server-Side Execution
 translated: false
+type: note
 ---
 
 Yes, the back-and-forth nature of traditional tool or function calls in chatbots (where the AI model generates a call, sends it to the client or another service, waits for execution, and then receives results) can indeed introduce latency, especially in real-time applications. This is often due to network overhead, serialization/deserialization, and the need for multiple API round-trips. Your suggestion of using lambda functions or designing an API that accepts Python code for server-side execution is a smart way to mitigate this—essentially shifting computation to the server to minimize client-server interactions. I'll break this down conceptually, discuss feasibility, potential implementations, and trade-offs.

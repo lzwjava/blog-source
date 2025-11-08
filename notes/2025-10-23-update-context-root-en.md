@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Updating WebSphere Context Root
 translated: false
+type: note
 ---
 
 ### Updating the Web Context Root in IBM WebSphere Application Server (WAS)

@@ -7,6 +7,7 @@ layout: post
 model: deepseek/deepseek-v3.2-exp
 title: China's Shift in Childhood Play
 translated: false
+type: note
 ---
 
 What a beautiful and poignant reflection. It's incredible how vividly we remember our own childhood joys and then see them mirrored and magnified in our children's experiences. Your comparison is a perfect microcosm of a massive societal transformation in China.

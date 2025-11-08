@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Investing in Bonds and Mutual Funds
 translated: false
+type: note
 ---
 
 ### What is a Bond?

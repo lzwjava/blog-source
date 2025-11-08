@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fronend Frameworks
 translated: false
+type: note
 ---
 
 As of March 2025, it's highly likely that **React** will still be the most popular frontend framework overall. However, **Vue.js** will likely continue its strong growth and might be very close to or even surpassing React in certain regions and for specific types of projects. **Angular** will likely maintain a significant user base, particularly in larger enterprise applications.

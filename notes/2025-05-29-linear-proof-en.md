@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Linear Independence Proof
 translated: false
+type: note
 ---
 
 ### Translation:

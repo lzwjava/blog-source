@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Development Prompts
 translated: false
+type: note
 ---
 
 Below are often-used prompts for various development engineer tasks related to the topics you mentioned: **Using GitHub Copilot in Visual Studio Code**, **Debugging Spring Boot Applications in Visual Studio Code**, **How Locking Works in IBM Db2 Database**, **Configuring launch.json for Spring Boot in VSCode**, and **Specifying the JDK for WebSphere Liberty**. These prompts follow common patterns such as configuring paths, enabling verbose output, and addressing different aspects of programming like debugging, optimization, and security. They are designed to be versatile and can be adapted to your specific needs.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Men's Long-Sleeved Top Styles
 translated: false
+type: note
 ---
 
 ### Men's Clothing Terms for Long-Sleeved Tops

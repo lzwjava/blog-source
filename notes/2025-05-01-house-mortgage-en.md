@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: House Mortgage
 translated: false
+type: note
 ---
 
 Thank you for providing the specific details for your May 2025 payment. This confirms that you are indeed using the **Equal Principal Payment** method and that the interest rate currently applied is 3.65% per annum.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Major Hedge Fund Strategies Overview
 translated: false
+type: note
 ---
 
 ### Overview of Hedge Fund Strategies

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Common Emitter Amplifier Analysis
 translated: false
+type: note
 ---
 
 ### Collector Current \\( I_C \\)

@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Huawei Smart Screen Dock Side Buttons
 translated: false
+type: note
 ---
 
 The **"side buttons"** you’re referring to on the **Huawei Smart Screen Expansion Dock (华为智慧屏拓展坞)** are likely the **physical buttons** located on the sides of the dock. Here’s what you need to know:

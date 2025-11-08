@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The History of Electronics
 translated: false
+type: note
 ---
 
 The history of electronics and electricity is a fascinating journey through centuries of scientific inquiry, experimentation, and innovation. This response traces the development of key concepts in electricity and electronics, focusing on the discoveries of Coulomb's Law, Ohm's Law, Kirchhoff's Laws, and the evolution of analog and digital electronics. It integrates the high school physics concepts and the outline of *Fundamentals of Electronic Technology (III)* provided, weaving together the historical context, key figures, and stories behind these milestones.

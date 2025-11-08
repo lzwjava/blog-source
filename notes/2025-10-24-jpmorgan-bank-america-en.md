@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: JPMorgan and Bank of America Comparison
 translated: false
+type: note
 ---
 
 ### Overview

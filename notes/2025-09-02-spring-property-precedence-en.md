@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Spring Property Precedence Rules Explained
 translated: false
+type: note
 ---
 
 In Spring, when you have **duplicate property keys** across your configuration sources (e.g., `application.properties`, `application.yml`, environment variables, command-line arguments, etc.), the **last one with the highest precedence wins**.

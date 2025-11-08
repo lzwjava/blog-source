@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: シスコのネットワーキングとAIの進化
 translated: true
+type: note
 ---
 
 はい、シスコはネットワーキング技術における世界的リーダーとして広く認識されています。以下は同社の企業史です：

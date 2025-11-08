@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Marxist Outlook on Life and Values
 translated: false
+type: note
 ---
 
 ### Study Guide: Chapter 2 - Outlook on Life and Values

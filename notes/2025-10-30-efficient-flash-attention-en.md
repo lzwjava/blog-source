@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Efficient Flash Attention in PyTorch
 translated: false
+type: note
 ---
 
 ### Efficient Attention with Flash Attention CUDA Kernels in PyTorch

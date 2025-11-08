@@ -1,12 +1,13 @@
 ---
-title: "n8n: Open-Source Workflow Automation Platform"
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: 'n8n: Open-Source Workflow Automation Platform'
+translated: false
+type: note
 ---
 
 ### What is n8n.io?

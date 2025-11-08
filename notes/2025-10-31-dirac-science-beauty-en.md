@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Dirac on Science Mathematics and Beauty
 translated: false
+type: note
 ---
 
 ### Famous Quotes by Paul Dirac

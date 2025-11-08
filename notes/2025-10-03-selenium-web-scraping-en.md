@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Selenium Web Scraping Code Explanation
 translated: false
+type: note
 ---
 
 ### Explanation of Selenium API Usage in the Provided Code

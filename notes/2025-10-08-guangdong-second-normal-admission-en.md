@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Guangdong Second Normal College Admission Scores
 translated: false
+type: note
 ---
 
 **Guangdong Second Normal College**'s Admission Batches and Score Lines in Guangdong Province are as follows:

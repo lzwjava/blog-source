@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Shenzhen Five-Day Travel Itinerary
 translated: false
+type: note
 ---
 
 ### Planning a 5-Day Trip to Shenzhen, Guangdong

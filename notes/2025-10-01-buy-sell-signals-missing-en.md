@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Buy Sell Signals Missing on Yearly Charts
 translated: false
+type: note
 ---
 
 ### Issue with Buy/Sell Signals on K-Line Chart in Tiger Trade Global Mobile App

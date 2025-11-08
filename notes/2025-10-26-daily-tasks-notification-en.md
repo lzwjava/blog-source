@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Daily Google Tasks Notification Setup
 translated: false
+type: note
 ---
 
 ### Setting Up a Daily Recurring Notification in Google Tasks

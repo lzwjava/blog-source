@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Suno Prompts
 translated: false
+type: note
 ---
 
 The description you've provided outlines the steps involved in an instruction cycle in a basic computer architecture, specifically within a micro-programmed control unit. Let’s break down the details step by step:

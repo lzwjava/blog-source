@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Comprendiendo el mecanismo de ventana deslizante de TCP
 translated: true
+type: note
 ---
 
 ¡Excelente pregunta! Permíteme desglosar el mecanismo de ventana deslizante de TCP de manera intuitiva.

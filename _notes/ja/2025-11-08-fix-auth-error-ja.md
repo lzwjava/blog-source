@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 翻訳API認証エラー修正
 translated: true
+type: note
 ---
 
 ### ワークフローとエラー原因の分析

@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Key Parameters in LLM APIs
 translated: false
+type: note
 ---
 
 Absolutely—no tables, just clear and neat explanations. Here's a streamlined breakdown of the key parameters available when working with LLM APIs (like OpenAI’s or Copilot-like systems):

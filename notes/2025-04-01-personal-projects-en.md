@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Personal Projects
 translated: false
+type: note
 ---
 
 Given your impressive and diverse background, you have a wealth of skills and experiences to draw upon when building a personal application. Here are a few suggestions, categorized by potential focus areas, along with the reasoning behind them:

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Kalman Filter Explained Simply
 translated: false
+type: note
 ---
 
 Here’s a **comprehensive guide to Kalman Filtering (卡尔曼滤波)** in English, structured for clarity:

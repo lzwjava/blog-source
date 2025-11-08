@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: AWS Trainium AI Accelerator Chips
 translated: false
+type: note
 ---
 
 ### What is AWS Trainium?

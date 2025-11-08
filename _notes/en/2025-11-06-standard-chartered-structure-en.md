@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Standard Chartered Bank's Organizational Structure
 translated: false
+type: note
 ---
 
 ### Major Departments in Standard Chartered Bank (SCB)

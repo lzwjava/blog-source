@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Principales Proyectos Open Source en Rust
 translated: true
+type: note
 ---
 
 ### Los Principales Proyectos Open Source Escritos Principalmente en Rust

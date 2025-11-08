@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Python Video Editing with AI Chatbots
 translated: false
+type: note
 ---
 
 Yes, it’s possible to use Python scripts with AI chatbot assistance to edit videos, bypassing traditional tools like CapCut. Python offers powerful libraries like MoviePy, OpenCV, and FFmpeg-Python for video editing tasks such as cutting, concatenating, adding effects, or overlaying text and images. AI chatbots can help generate, debug, or optimize these scripts based on your needs.

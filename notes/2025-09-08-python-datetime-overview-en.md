@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Python Datetime Module Overview
 translated: false
+type: note
 ---
 
 ### Overview of Python's datetime Module

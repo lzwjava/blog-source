@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: GPG Packet Structure Breakdown
 translated: false
+type: note
 ---
 
 ### Explanation of GPG Packet Structure

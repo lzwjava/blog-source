@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring IoC (Inversion of Control) Container
 translated: false
+type: note
 ---
 
 Let me break down how to use the Spring IoC (Inversion of Control) Container in a clear and practical way. The Spring IoC Container is the core of the Spring Framework, responsible for managing the lifecycle and configuration of application objects (called beans). It "inverts" the control by handling object creation and dependency injection for you, rather than you manually creating and wiring them.

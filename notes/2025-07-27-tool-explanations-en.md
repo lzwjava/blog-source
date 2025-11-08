@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Tool Descriptions Alphabetically
 translated: false
+type: note
 ---
 
 Here is a short explanation for each tool/package in the list (based on common usage, primarily in development, system administration, and media processing contexts). I've organized them alphabetically for clarity, with brief descriptions of their primary purpose.

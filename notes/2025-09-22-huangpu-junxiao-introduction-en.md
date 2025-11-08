@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Huangpu Junxiao Primary School Guangzhou Introduction
 translated: false
+type: note
 ---
 
 Here’s the English version of the introduction to **Huangpu Junxiao Primary School (Guangzhou):**

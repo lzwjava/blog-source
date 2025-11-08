@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring HTTP Clients
 translated: false
+type: note
 ---
 
 To answer the query "how to use FeignClient, or Spring RestClient, or Spring WebClient," I'll explain how each of these Spring tools can be used to make HTTP requests, focusing on their setup and basic usage. These are all part of the Spring ecosystem for interacting with RESTful services, but they serve different purposes depending on your application's needs. Below, I’ll provide a clear, step-by-step guide for each, along with simple examples.

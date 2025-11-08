@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: vLLM Adoption by AI Providers
 translated: false
+type: note
 ---
 
 ### Usage of vLLM by AI Providers

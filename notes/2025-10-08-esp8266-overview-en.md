@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The ESP8266 Wi-Fi Microcontroller Overview
 translated: false
+type: note
 ---
 
 The ESP8266 is a low-cost, highly integrated Wi-Fi system-on-a-chip (SoC) microcontroller developed by Espressif Systems. Released around 2014, it's designed primarily for Internet of Things (IoT) applications, mobile devices, and wearables, offering built-in TCP/IP networking capabilities in a compact, low-power package. At its core, it's a programmable microcontroller (based on a Tensilica Xtensa LX106 processor running at up to 160 MHz) with onboard Wi-Fi, making it a self-contained solution that doesn't require a separate host processor for basic networking tasks.

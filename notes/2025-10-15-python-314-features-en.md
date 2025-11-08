@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Python 3.14 Major New Features
 translated: false
+type: note
 ---
 
 ### Major New Features in Python 3.14

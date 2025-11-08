@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Distributed Task Frameworks 2025
 translated: false
+type: note
 ---
 
 ### Popular Frameworks for Distributed Tasks in 2025

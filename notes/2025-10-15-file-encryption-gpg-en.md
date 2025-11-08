@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Encrypting Files with GPG
 translated: false
+type: note
 ---
 
 ### Encrypting a File with Your GPG Key

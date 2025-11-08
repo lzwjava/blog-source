@@ -3,6 +3,7 @@ audio: true
 generated: false
 layout: post
 title: Computer Network Technology
+type: note
 ---
 
 Below is a list of 100 key points that broadly cover the scope of a “Computer Network Technology” course or self-study outline, touching on fundamental concepts, protocols, and practical applications.
@@ -210,4 +211,3 @@ Below is a list of 100 key points that broadly cover the scope of a “Computer 
 100. Continuous Learning: Networking is ever-evolving, requiring ongoing study of new protocols and best practices.
 
 These 100 points summarize the essential topics in computer networks, spanning foundational theory, protocols, hardware, addressing, security, and modern trends. They should help guide your review and study for exams or practical understanding of computer networking.
-

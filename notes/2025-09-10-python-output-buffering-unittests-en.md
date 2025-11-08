@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Resolving Python Output Buffering in Unittests
 translated: false
+type: note
 ---
 
 Yep — that delay is almost always **output buffering**, and Git-Bash/mintty on Windows can make it more noticeable. You don’t need a queue unless you’re doing multi-process logging; first make stdout/stderr unbuffered and avoid unittest’s own buffering.

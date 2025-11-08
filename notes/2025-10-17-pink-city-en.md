@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Jaipur: The Pink City'
 translated: false
+type: note
 ---
 
 ### Introduction to Jaipur, India

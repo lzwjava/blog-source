@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Air Fryer Mushrooms Recipe
 translated: false
+type: note
 ---
 
 Cooking mushrooms in an air fryer is quick and easy, resulting in a crispy, flavorful dish. Here’s a simple guide to prepare mushrooms using an air fryer, optimized for delicious results:

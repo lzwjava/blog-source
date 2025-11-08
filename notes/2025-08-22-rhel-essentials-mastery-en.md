@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Mastering Red Hat Enterprise Linux Essentials
 translated: false
+type: note
 ---
 
 ## Introduction to Red Hat Linux

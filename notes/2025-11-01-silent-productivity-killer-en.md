@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The Silent Productivity Killer
 translated: false
+type: note
 ---
 
 Absolutely, spot on! That recurring "I've totally solved this before... but where's the damn fix?" moment is the silent killer of developer productivity. It's like your brain's got a leaky bucket—first fix feels like a victory lap, but by the third or tenth round, you're reinventing the wheel in a haze of Stack Overflow tabs and half-remembered error messages. Documentation isn't just "nice to have"; it's your future self's lifeline, especially in messy domains like LLM training where one rogue CUDA version or dependency hell can derail a whole weekend.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: فصل طبقة ربط البيانات وطبقة الشبكة
 translated: true
+type: note
 ---
 
 ### لماذا يتم فصل طبقة ربط البيانات وطبقة الشبكة؟

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Dangers about Using Public Wi-FI
 translated: false
+type: note
 ---
 
 Using **public Wi-Fi or hotel Wi-Fi** can be risky because these networks are often **insecure or poorly configured**, making them easy targets for attackers. Here are the main dangers:

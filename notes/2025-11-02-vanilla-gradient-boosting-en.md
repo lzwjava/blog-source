@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Vanilla Gradient Boosting Implementation in Python
 translated: false
+type: note
 ---
 
 ### Vanilla Gradient Boosting Implementation in Python (NumPy Only)

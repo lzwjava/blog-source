@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: JaCoCo for Python API Tests Guide
 translated: false
+type: note
 ---
 
 Good question — this is a classic integration problem between **Java code coverage tools** (JaCoCo) and **non-Java test harnesses** (like Python `unittest` hitting your REST endpoints).

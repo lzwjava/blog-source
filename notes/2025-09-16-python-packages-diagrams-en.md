@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Python Packages for Software Diagrams
 translated: false
+type: note
 ---
 
 Besides Graphviz and NetworkX, several other Python packages and frameworks make it easy to generate graphs and diagrams for software design and architecture:

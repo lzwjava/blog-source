@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Choosing the Correct IntelliJ Version
 translated: false
+type: note
 ---
 
 From your `uname -a` output:

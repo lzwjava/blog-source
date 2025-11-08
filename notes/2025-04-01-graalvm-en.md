@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: GraalVM
 translated: false
+type: note
 ---
 
 GraalVM is a **high-performance, polyglot runtime** that allows you to run applications written in various programming languages like Java, JavaScript, Python, Ruby, R, and languages built on the LLVM framework (like C and C++) in a single environment. It's developed by Oracle and is based on the Java HotSpot Virtual Machine.

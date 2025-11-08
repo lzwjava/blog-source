@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Creating Indexes in IBM DB2
 translated: false
+type: note
 ---
 
 ### Creating Indexes in IBM DB2

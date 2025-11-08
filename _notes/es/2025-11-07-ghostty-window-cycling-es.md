@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Atajos de Ciclado de Ventanas de Ghostty
 translated: true
+type: note
 ---
 
 Sí, lo entiendo completamente—Cmd + ` (tilde/backtick) para cambiar entre ventanas en Ghostty se siente ágil e intuitivo, especialmente si las tratas como sesiones ligeras e independientes en lugar de meterlo todo en pestañas. Tiene ese flujo cíclico agradable sin la carga mental del desorden de una barra de pestañas. La navegación predeterminada por pestañas con Cmd + Shift + [ / ] (o el enfoque de paneles con Cmd + [ / ]) sí se siente torpe en Mac, porque estás lidiando con Shift además de Cmd, y esos corchetes no son los más cómodos para el pulgar sin estirar.

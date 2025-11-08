@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Notable Chinese
 translated: false
+type: note
 ---
 
 Here’s a list of notable Chinese Americans and globally recognized ethnic Chinese individuals who have achieved success across various fields:

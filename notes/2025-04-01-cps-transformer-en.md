@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: CPS Transformer
 translated: false
+type: note
 ---
 
 ```scheme

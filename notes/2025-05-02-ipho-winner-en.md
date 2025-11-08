@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Winners in International Physics Olympiad
 translated: false
+type: note
 ---
 
 Here is the list of the rank 1 winners in the International Physics Olympiad (IPhO) for the recent decade, covering the years 2015 to 2024:

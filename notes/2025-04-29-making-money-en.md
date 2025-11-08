@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Making Money is Often Hard
 translated: false
+type: note
 ---
 
 It can feel that way sometimes, can't it? Earning money is often challenging for several reasons:

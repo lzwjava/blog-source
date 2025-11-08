@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: OpenAI Codex CLI Powered by Rust
 translated: false
+type: note
 ---
 
 ### OpenAI Codex CLI and Rust

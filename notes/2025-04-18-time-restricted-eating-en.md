@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Time-restricted Eating
 translated: false
+type: note
 ---
 
 While time-restricted eating (eating within a 12-hour window or shorter) can be helpful for weight management, the scientific evidence is mixed and it's not necessarily the only or best approach for everyone.

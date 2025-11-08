@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: IBM WebSphere Free Development Options
 translated: false
+type: note
 ---
 
 ### IBM WebSphere Application Server (WAS) Free or Community Versions

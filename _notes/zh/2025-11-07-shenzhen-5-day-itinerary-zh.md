@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 深圳五日游行程
 translated: true
+type: note
 ---
 
 ### 规划广东深圳五日游

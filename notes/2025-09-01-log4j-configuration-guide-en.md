@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Log4j Configuration Guide
 translated: false
+type: note
 ---
 
 ### Overview of Log4j Configuration

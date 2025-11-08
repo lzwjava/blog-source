@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Universities in Guangzhou 2025
 translated: false
+type: note
 ---
 
 ### Top Universities in Guangzhou

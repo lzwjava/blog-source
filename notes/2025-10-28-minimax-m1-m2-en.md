@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: MiniMax M1 and M2 Model Overview
 translated: false
+type: note
 ---
 
 ### MiniMax M1 and M2: Major Contributors, Paper Authors, and Tech Lead

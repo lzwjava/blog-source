@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Erythritol
 translated: false
+type: note
 ---
 
 Here's a breakdown of what erythritol is:

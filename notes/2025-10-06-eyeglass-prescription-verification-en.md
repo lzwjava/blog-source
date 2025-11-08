@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Verifying Eyeglass Prescription Details
 translated: false
+type: note
 ---
 
 ### Verification of Your Details

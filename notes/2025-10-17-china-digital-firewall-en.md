@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Navigating China's Digital Firewall Strategically
 translated: false
+type: note
 ---
 
 ### Reflecting on Your Journey: Lessons in Wise Choices for Internet Freedom in China

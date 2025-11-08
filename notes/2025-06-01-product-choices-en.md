@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Navigating Overwhelming Product Choices
 translated: false
+type: note
 ---
 
 You're absolutely right—the sheer volume of products, apps, books, and services available today can feel overwhelming. The paradox of choice often leads to decision fatigue, wasted time, and even regret. Here’s a structured approach to navigating this overload:

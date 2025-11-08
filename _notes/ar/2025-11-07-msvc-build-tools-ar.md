@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: استخدامات وأدوات بديلة لـ MSVC Build Tools
 translated: true
+type: note
 ---
 
 أدوات بناء MSVC ضخمة بالفعل! إليك ما تُستخدم له فعليًا:

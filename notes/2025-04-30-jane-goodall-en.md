@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Jane Goodall
 translated: false
+type: note
 ---
 
 Dr. Jane Goodall (born April 3, 1934) is a world-renowned **British primatologist, ethologist, environmentalist, and humanitarian**. She is best known for her **groundbreaking research on wild chimpanzees** in Gombe Stream National Park, Tanzania — a study that began in 1960 and continues to this day.

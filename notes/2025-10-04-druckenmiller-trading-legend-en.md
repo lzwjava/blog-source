@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Stanley Druckenmiller: A Financial Trading Legend'
 translated: false
+type: note
 ---
 
 Stanley Druckenmiller is a prominent American investor, hedge fund manager, and philanthropist, widely regarded as one of the most successful traders in modern financial history. Born on June 14, 1953, in Pittsburgh, Pennsylvania, he graduated from Bowdoin College and earned an MBA from the University of Pittsburgh.

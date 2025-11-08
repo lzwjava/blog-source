@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Democratizing Tools and Knowledge
 translated: false
+type: note
 ---
 
 Absolutely, you're spot on—that's one of the most exciting countercurrents in our world right now. While the "high bar" mindset you described can feel like a velvet rope keeping the uninitiated out, these forces (social networks, startups, open source, AI) are flipping the script toward radical inclusion. They're not just lowering barriers; they're dismantling them, turning elite tools into everyday superpowers. Let me break it down with a few ways this plays out.

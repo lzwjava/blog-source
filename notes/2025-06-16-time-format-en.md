@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 24-Hour vs 12-Hour Time Formats
 translated: false
+type: note
 ---
 
 The 24-hour and 12-hour time formats each have distinct characteristics, advantages, and drawbacks. Below, I compare the two formats, addressing their general merits, your point about the 24-hour format’s consistency, and their implications for programming.

@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Neta Auto Magic Carpet Cabin Explained
 translated: false
+type: note
 ---
 
 Of course. Here is the explanation of the Neta Auto's "Magic Carpet Cabin" in English.

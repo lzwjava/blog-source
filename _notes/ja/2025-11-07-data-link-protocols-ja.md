@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: データリンク層プロトコルの解説
 translated: true
+type: note
 ---
 
 この記述は、主要なデータリンク層プロトコルとその主な使用事例を正しく特定しています。以下に分解して説明します：

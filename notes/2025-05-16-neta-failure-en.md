@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Neta Auto's Failure
 translated: false
+type: note
 ---
 
 Neta Auto, a Chinese electric vehicle (EV) manufacturer under Hozon Auto, has faced significant challenges leading to financial distress and near bankruptcy. Here are the primary reasons for its struggles in China, based on available information:

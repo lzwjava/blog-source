@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Bruce Merry
 translated: false
+type: note
 ---
 
 Bruce Merry is a highly accomplished competitive programmer, computer scientist, and software engineer from South Africa, renowned for his exceptional achievements in programming competitions and contributions to the field of high-performance computing. With a career spanning over two decades in competitive programming, Merry has earned a stellar reputation in the global programming community for his problem-solving prowess, technical expertise, and dedication to the craft. Below is a comprehensive introduction to Bruce Merry, covering his background, competitive programming achievements, professional career, and contributions to the programming community.

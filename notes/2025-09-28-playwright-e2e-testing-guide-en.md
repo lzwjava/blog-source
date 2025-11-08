@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Playwright End-to-End Testing Guide
 translated: false
+type: note
 ---
 
 ## What is Playwright?

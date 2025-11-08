@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: System Information on macOS
 translated: false
+type: note
 ---
 
 To get system information on your macOS, you can use several built-in tools and commands. Here are some methods to retrieve various types of system information:

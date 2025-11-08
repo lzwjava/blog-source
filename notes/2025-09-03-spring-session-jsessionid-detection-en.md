@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Spring Session, JSESSIONID, and Server Detection
 translated: false
+type: note
 ---
 
 Let’s break this into two parts: how **Spring Session/JSESSIONID** works, and how to tell whether Spring is running on **Tomcat or Netty**.

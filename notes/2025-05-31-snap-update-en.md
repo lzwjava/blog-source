@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Updating VSCode via Snap on Ubuntu
 translated: false
+type: note
 ---
 
 To update Visual Studio Code (VSCode) installed via Snap on Ubuntu, follow these steps:

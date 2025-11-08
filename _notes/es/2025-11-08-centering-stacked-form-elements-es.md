@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Centrado de Elementos de Formulario Apilados con Flexbox
 translated: true
+type: note
 ---
 
 ```css

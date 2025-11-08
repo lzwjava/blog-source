@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: LoRA for Efficient LLM Fine-Tuning
 translated: false
+type: note
 ---
 
 ### Summary of LoRA Blog Post from Thinking Machines

@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Ultra Mobile PayGo Plan Breakdown
 translated: false
+type: note
 ---
 
 Got it — you’ve pasted what looks like an **FCC Broadband Facts label** for **Ultra Mobile’s PayGo Mobile Broadband plan**. These labels are like nutrition labels for internet/mobile plans: they summarize the costs, speeds, data limits, and terms in a standardized format so you can compare providers easily. Let me break it down for you:

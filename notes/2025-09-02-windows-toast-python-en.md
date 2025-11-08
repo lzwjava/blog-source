@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Windows Toast Notifications with Python
 translated: false
+type: note
 ---
 
 ### What is win10toast?

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Buying ETH at Hong Kong ATM
 translated: false
+type: note
 ---
 
 ### Transaction Time for Buying ETH (Ethereum) at CoinUnit ATM in Hong Kong

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Disable Sticky Keys on Windows
 translated: false
+type: note
 ---
 
 ### Using the Settings App (Windows 10 & 11)

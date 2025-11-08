@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Réseautage Hybride pour le Développement de Jeux
 translated: true
+type: note
 ---
 
 Vous avez raison — l'explication de la Personne B est parfaitement juste.

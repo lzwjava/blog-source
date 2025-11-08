@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Italian Road Trip Highlights and Guide
 translated: false
+type: note
 ---
 
 ### Two-Week Road Trip Itinerary in Italy: Highlights and Planning Guide

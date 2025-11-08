@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: 'डब्ल्यूपीएस: मृत्यु के निकट से मोबाइल सफलता तक'
 translated: true
+type: note
 ---
 
 ## WPS की महाकाव्य यात्रा: मृत्यु के मुहाने से पुनरुत्थान तक

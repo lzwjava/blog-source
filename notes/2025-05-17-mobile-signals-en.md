@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Mobile Signals
 translated: false
+type: note
 ---
 
 Closing all curtains in a bedroom has minimal impact on 4G, 5G, or mobile signals like China Telecom. Mobile signals primarily rely on radio waves, which are affected by physical obstructions like walls, metal, or thick concrete, not lightweight materials like curtains. Curtains, even heavy ones, are generally too thin and porous to significantly block or weaken these signals.

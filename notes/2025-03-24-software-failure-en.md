@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Large Software Projects that Suffered from Delays
 translated: false
+type: note
 ---
 
 Here are some famous examples of large software projects that suffered from major delivery delays, cost overruns, or poor performance:

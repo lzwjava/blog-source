@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Powering Devices with Your EV
 translated: false
+type: note
 ---
 
 ### Understanding Your EV Setup

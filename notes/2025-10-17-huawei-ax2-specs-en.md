@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Huawei WiFi AX2 Router Specifications
 translated: false
+type: note
 ---
 
 ### HUAWEI WiFi AX2 (Model: WS7002) Technical Specifications

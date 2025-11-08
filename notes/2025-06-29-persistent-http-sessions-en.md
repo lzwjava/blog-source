@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Using requests.Session for Persistent HTTP Sessions
 translated: false
+type: note
 ---
 
 ### How requests.Session Works

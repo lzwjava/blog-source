@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Meshy AI Innovates 3D Content Creation
 translated: false
+type: note
 ---
 
 Meshy AI is an innovative platform that leverages artificial intelligence to revolutionize 3D content creation. Designed for creators across various industries—including game development, digital art, education, architecture, and VR/AR—Meshy enables users to generate high-quality 3D models and animations from simple text prompts or 2D images, significantly streamlining the asset creation process.

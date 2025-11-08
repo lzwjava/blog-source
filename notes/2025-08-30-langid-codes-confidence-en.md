@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Langid Language Codes and Confidence
 translated: false
+type: note
 ---
 
 In `langid`, the `classify(text)` function returns a tuple `(lang, confidence)` where:

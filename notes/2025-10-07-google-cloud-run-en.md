@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Introduction to Google Cloud Run
 translated: false
+type: note
 ---
 
 Cloud Run is a fully managed, serverless compute platform in GCP that lets you run stateless containers directly on Google's scalable infrastructure. It's designed for developers who want to deploy applications without worrying about underlying servers, provisioning, or scaling. Whether you're building web apps, APIs, microservices, or event-driven workloads, Cloud Run handles the infrastructure so you can focus on code.

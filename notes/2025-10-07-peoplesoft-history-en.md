@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: PeopleSoft History and Overview
 translated: false
+type: note
 ---
 
 ### Comprehensive Introduction to PeopleSoft

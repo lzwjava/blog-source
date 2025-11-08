@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Hydrogen Peroxide Solution
 translated: false
+type: note
 ---
 
 To calculate the final concentration of hydrogen peroxide after diluting 300 mL of 7.5% hydrogen peroxide with 300 mL of water, we can use the dilution formula:

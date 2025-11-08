@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: K, Q, V Mechanism in Transformers
 translated: false
+type: note
 ---
 
 The **Key (K), Query (Q), and Value (V)** mechanism is a fundamental component of the **self-attention** mechanism in Transformer-based large language models (LLMs). This mechanism, introduced in the seminal paper *"Attention is All You Need"* (Vaswani et al., 2017), enables models to weigh the importance of different words in a sequence when processing or generating text. Below, I provide a comprehensive introduction to how the **K, Q, V** mechanism works in the context of Transformer LLMs, covering its intuition, mathematical formulation, implementation in self-attention, and its role in the broader architecture.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Microsoft Teams User Growth Analysis
 translated: false
+type: note
 ---
 
 As of early 2024 and continuing into June 2025, Microsoft Teams has a significant and growing user base. Here's an analysis of the reported figures:

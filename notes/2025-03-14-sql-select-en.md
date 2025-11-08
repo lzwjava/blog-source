@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: SQL SELECT Statements
 translated: false
+type: note
 ---
 
 To answer your query about how to use `SELECT`, `LEFT JOIN`, `RIGHT JOIN`, complex `SELECT`, `FROM`, `GROUP BY`, `WHERE NOT IN`, and `IN` in SQL, I’ll explain each component clearly and provide practical examples. These are fundamental SQL operations used to retrieve and manipulate data from databases. Let’s break them down step by step, using a simple database schema for consistency:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: JPMorgan Chase Global Financial Overview
 translated: false
+type: note
 ---
 
 ### Introduction to JPMorgan Chase

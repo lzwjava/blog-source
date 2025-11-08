@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Decoder-Only vs Encoder-Decoder Transformers
 translated: false
+type: note
 ---
 
 ### Key Differences Between Decoder-Only and Encoder-Decoder Transformers

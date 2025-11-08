@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Recurrent Neural Networks Surprising Power
 translated: false
+type: note
 ---
 
 This 2015 blog post by Andrej Karpathy is a classic introduction to Recurrent Neural Networks (RNNs), highlighting their surprising power in handling sequences like text generation. Karpathy shares his enthusiasm after training RNNs for tasks like image captioning, which produced coherent outputs with minimal tuning. He releases open-source code for character-level language models using LSTMs (a type of RNN) and demonstrates their "magic" through various text-generation experiments. Below is a structured summary of the key sections.

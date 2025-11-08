@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Troubleshooting VSCode Extension Installation with Proxy Issues
 translated: false
+type: note
 ---
 
 To check the extension installation log in Visual Studio Code (VSCode) or use the command line to install an extension with `code --install-extension` and view the log—especially if you suspect a proxy issue—here’s how you can proceed:

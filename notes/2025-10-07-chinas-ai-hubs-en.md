@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: China's Leading AI Hubs and Models
 translated: false
+type: note
 ---
 
 In Hangzhou, DeepSeek AI is indeed a standout for open-source LLMs like DeepSeek-V2, focusing on efficient, high-performance models. In Beijing, Zhipu AI (often stylized as Z.ai) leads with GLM series models, emphasizing multimodal capabilities and enterprise applications.

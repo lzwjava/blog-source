@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Bitcoin Hash Calculation and Mining
 translated: false
+type: note
 ---
 
 ### How Bitcoin Calculates Hashes

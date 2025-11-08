@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Angular Errors
 translated: false
+type: note
 ---
 
 When working with Angular, developers often encounter specific exceptions and errors. Below is a categorized list of common issues, their causes, and solutions:

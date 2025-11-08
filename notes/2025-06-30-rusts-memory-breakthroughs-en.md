@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rust's Memory Management Breakthroughs
 translated: false
+type: note
 ---
 
 Your critique of Rust's memory management touches on valid pain points but overlooks its **fundamental breakthroughs**. Let's dissect this objectively:

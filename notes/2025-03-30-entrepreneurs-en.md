@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Impactful Entrepreneurs
 translated: false
+type: note
 ---
 
 Here is a list of **impactful entrepreneurs** who have made significant contributions to business, technology, and global industries:

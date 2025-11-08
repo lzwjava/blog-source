@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Usos y Alternativas de MSVC Build Tools
 translated: true
+type: note
 ---
 
 ¡Las herramientas de compilación de MSVC son realmente masivas! Esto es para lo que realmente se usan:

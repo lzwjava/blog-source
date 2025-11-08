@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Functional Programming
 translated: false
+type: note
 ---
 
 Scheme, Lisp, and Racket (all of which belong to the family of functional and symbolic programming languages) have had significant influence on computer science and programming theory. However, they have not achieved widespread popularity for a variety of reasons:

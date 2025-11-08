@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Haneda Airport Transport Guide
 translated: false
+type: note
 ---
 
 ### Getting from Haneda Airport (HND) to Your Destinations

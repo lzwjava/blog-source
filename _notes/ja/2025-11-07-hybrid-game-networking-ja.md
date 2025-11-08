@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: ゲーム開発のためのハイブリッドネットワーキング
 translated: true
+type: note
 ---
 
 その通りです。Person Bの説明は的を射ています。

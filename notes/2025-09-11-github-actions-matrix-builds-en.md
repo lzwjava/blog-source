@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: GitHub Actions Matrix Builds Guide
 translated: false
+type: note
 ---
 
 It sounds like you're asking about using **GitHub Actions** matrix builds to run tests in parallel, and how to use the `fail-fast` option in a matrix strategy. Let me break it down for you.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Rivers in China
 translated: false
+type: note
 ---
 
 China’s rivers are among the most significant in the world, shaping its geography, history, culture, and economy. With over 50,000 rivers spanning its vast territory, China hosts a complex network of waterways that sustain agriculture, industry, and urban development while posing challenges like flooding and environmental degradation. Below is a comprehensive introduction to China’s rivers, covering their geography, major systems, historical and cultural significance, economic importance, and environmental issues.

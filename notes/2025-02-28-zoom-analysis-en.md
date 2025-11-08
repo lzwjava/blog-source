@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Zoom's Functionalities
 translated: false
+type: note
 ---
 
 ### Key Points

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: John Ambrose Fleming
 translated: false
+type: note
 ---
 
 Sir John Ambrose Fleming (1849-1945) was a highly influential English electrical engineer and physicist whose groundbreaking invention, the **thermionic valve** (also known as the vacuum diode or the Fleming valve), is widely considered a pivotal moment in the birth of electronics. His work not only revolutionized radio technology but also laid the foundation for countless other electronic devices that would shape the 20th century and beyond.

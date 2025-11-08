@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Usage Guide for ClassIn
 translated: false
+type: note
 ---
 
 ### Key Points

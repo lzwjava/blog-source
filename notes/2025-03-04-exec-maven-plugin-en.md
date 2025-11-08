@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Exec Maven Plugin
 translated: false
+type: note
 ---
 
 To use the `org.codehaus.mojo` Exec Maven Plugin in your Maven project, you need to configure it in your `pom.xml` file and decide how you want to execute programs—either external commands or Java programs—during your build process. The plugin provides two main goals: `exec:exec` for running external programs and `exec:java` for executing Java classes. Below, I’ll guide you through the steps to set it up and use it effectively.

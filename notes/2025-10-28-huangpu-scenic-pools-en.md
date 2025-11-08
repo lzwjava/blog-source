@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Guangzhou Huangpu Hotels with Scenic Pools
 translated: false
+type: note
 ---
 
 ### Recommended Hotels in Guangzhou's Huangpu District with Scenic Pools Near Shuixi Road

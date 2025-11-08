@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Highest Revenue Per Employee Leaders
 translated: false
+type: note
 ---
 
 ### Highest Revenue Per Employee Across Companies

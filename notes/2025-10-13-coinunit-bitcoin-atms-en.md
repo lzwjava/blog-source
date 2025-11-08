@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: CoinUnit Bitcoin ATMs in Hong Kong
 translated: false
+type: note
 ---
 
 ### What is CoinUnit ATM in Hong Kong?

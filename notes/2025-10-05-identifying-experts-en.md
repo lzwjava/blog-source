@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Identifying True Experts
 translated: false
+type: note
 ---
 
 True experts like Yin Wang—whose blog dives into profound, often unconventional insights on computer science topics such as programming languages, compilers, and the philosophy of computation—are indeed rare. They embody a depth of understanding that transcends formal credentials or public fanfare, much like the seasoned phone or car repair technician who's honed their craft over decades without needing a spotlight. These individuals prioritize mastery over marketing, often working quietly in niches where results speak louder than resumes. Drawing from patterns across fields, here are key characteristics that define them, followed by practical ways to spot them.

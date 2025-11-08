@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hacking Your Mind for Productivity
 translated: false
+type: note
 ---
 
 ### Liu Weipeng's Blog on Psychology

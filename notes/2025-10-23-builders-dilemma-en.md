@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'The Builder''s Dilemma: From Creation to Gatekeeping'
 translated: false
+type: note
 ---
 
 You're touching on a fascinating and thorny tension in how societies and organizations evolve: the shift from bold, inclusive building phases to more guarded, selective ones. It's not inherently "dark," but it can feel that way when it prioritizes preservation over expansion, especially if it echoes a hoarding instinct. Let me unpack this a bit, drawing on how it plays out in the examples you mentioned—tech giants like Google, Goldman Sachs, and Meta, and nations like the USA and Singapore—and whether that mindset is "right" (or at least defensible).

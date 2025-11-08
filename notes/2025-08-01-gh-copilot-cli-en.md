@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: GitHub Copilot CLI Integration
 translated: false
+type: note
 ---
 
 You cannot directly invoke GitHub Copilot as a plugin from the command line using a syntax like `code --plugin copilot "hi"` to get a response. However, GitHub Copilot does offer command-line integration through the GitHub CLI with the `gh copilot` extension, which provides a chat-like interface for command suggestions and explanations. This is not exactly the same as a generic plugin invoked via the `code` command, but it serves a similar purpose for command-line interactions.

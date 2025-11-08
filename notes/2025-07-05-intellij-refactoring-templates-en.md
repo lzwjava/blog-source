@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: IntelliJ Structural Replacement Templates
 translated: false
+type: note
 ---
 
 Here are 10 examples of IntelliJ's Structural Replacement templates, categorized for clarity. These can be incredibly powerful for refactoring, enforcing coding standards, and automating common code transformations.

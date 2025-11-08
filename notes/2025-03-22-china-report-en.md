@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: China
 translated: false
+type: note
 ---
 
 Below is an in-depth report on China that covers its geographic identity, economic structure, language, historical background, technological advances, AI progress, and its regulatory stance—especially regarding cryptocurrencies.

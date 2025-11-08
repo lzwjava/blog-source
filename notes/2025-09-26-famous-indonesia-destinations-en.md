@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Famous Tourist Destinations in Indonesia
 translated: false
+type: note
 ---
 
 Here are some of the most famous places in Indonesia:

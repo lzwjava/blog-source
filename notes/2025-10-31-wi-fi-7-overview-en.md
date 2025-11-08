@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Wi-Fi 7 Overview and Key Features
 translated: false
+type: note
 ---
 
 ### Overview of Wi-Fi 7

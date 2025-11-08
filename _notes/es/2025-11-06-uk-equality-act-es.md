@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ley de Igualdad del Reino Unido de 2010 Resumen
 translated: true
+type: note
 ---
 
 ### Resumen

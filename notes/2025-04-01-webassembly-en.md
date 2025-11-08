@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: WebAssembly
 translated: false
+type: note
 ---
 
 Let’s dive into a comprehensive guide on WebAssembly (Wasm). I’ll break it down into digestible sections: what it is, how it works, why it matters, how to use it, and where it’s going. By the end, you’ll have a solid grasp of WebAssembly and how to get started with it.

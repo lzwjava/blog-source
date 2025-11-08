@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Age of Samurai: Battle for Japan'
 translated: false
+type: note
 ---
 
 The series you're describing sounds like **Age of Samurai: Battle for Japan**, a 2021 Netflix docudrama miniseries (6 episodes) set during Japan's chaotic Sengoku period (roughly 1550–1616). It's known for its intense, visceral reenactments of feudal battles, with samurai wielding katanas (long swords) in brutal, close-quarters combat that often includes graphic beheadings. The show leans heavily on visual storytelling through these action sequences, with minimal spoken dialogue in the reenacted scenes—making it feel mostly silent and atmospheric—while relying on voice-over narration and historian interviews to explain the context.

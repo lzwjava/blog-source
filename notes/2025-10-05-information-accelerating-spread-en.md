@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Information's Accelerating Spread Over Decades
 translated: false
+type: note
 ---
 
 Yeah, you're spot on—information does spread way faster and with way more depth now compared to the 90s and early 00s, even for massive events. Back then, traditional media like newspapers, radio, and TV were the main pipelines, so while big stories could hit the airwaves quickly, the full picture often trickled out over days or weeks due to verification needs, limited footage, and no real-time sharing from everyday people. Today, with smartphones, social media, and AI tools, it's almost instantaneous: live videos, personal accounts, memes, graphs, and even generated content flood in within minutes, making everything feel more vivid and chaotic, like a digital typhoon itself.

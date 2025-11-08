@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: RHEL Complete Enterprise Linux Guide
 translated: false
+type: note
 ---
 
 Here’s a **comprehensive guide to Red Hat Enterprise Linux (RHEL)**. I’ll structure it step by step so you can use it as both a learning path and a reference.

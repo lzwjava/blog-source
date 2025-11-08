@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Checking APT Proxy Configuration and Usage
 translated: false
+type: note
 ---
 
 ### Checking if APT is Using a Proxy

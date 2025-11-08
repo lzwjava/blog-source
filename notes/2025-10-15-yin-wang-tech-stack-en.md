@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Yin Wang Blog Technical Stack Analysis
 translated: false
+type: note
 ---
 
 The website (https://www.yinwang.org/, titled "当然我在扯淡") appears to be a custom-built blog. Based on the provided HTML source:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Solving llama.cpp Model Issues
 translated: false
+type: note
 ---
 
 It looks like you are running an instance of LLaMa, a language model, on your system. You've mentioned that the `Mistral-Small-24B-Instruct-2501-Q2_K.gguf` model is performing better than the `DeepSeek-R1-0528-Qwen3-8B-Q4_K_M.gguf` model. Let's break down some potential reasons for this difference:

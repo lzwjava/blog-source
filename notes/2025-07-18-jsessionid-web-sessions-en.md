@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Understanding JSESSIONID and Web Sessions
 translated: false
+type: note
 ---
 
 ### What Are Sessions in Web Applications?

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Virtual Threads
 translated: false
+type: note
 ---
 
 Virtual Threads, introduced in Java 19 as part of Project Loom, offer a lightweight alternative to traditional platform threads. They are designed to improve the scalability and efficiency of applications by reducing the overhead associated with thread management.

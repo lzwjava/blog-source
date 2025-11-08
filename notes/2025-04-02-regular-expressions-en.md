@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Regular Expressions
 translated: false
+type: note
 ---
 
 Regular expressions, often shortened to "regex" or "regexp," are a powerful and versatile tool for pattern matching in text. They provide a concise and flexible way to search, manipulate, and validate strings based on defined patterns. While the syntax can seem daunting at first, mastering regex can significantly enhance your text processing capabilities in various programming languages, text editors, and command-line tools.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Count Files in a Directory
 translated: false
+type: note
 ---
 
 To count the number of files in a directory, you can use various methods depending on your operating system and tools. Here are the most common approaches:

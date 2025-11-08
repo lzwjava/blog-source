@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Inductors
 translated: false
+type: note
 ---
 
 At the heart of countless electronic circuits lies the inductor, a seemingly simple passive component with a profound ability to influence the flow of electrical current. Unlike resistors which oppose current flow directly or capacitors which store energy in an electric field, inductors store energy in a magnetic field and, crucially, oppose *changes* in current. This characteristic makes them indispensable in applications ranging from filtering and energy storage to tuning and power conversion.

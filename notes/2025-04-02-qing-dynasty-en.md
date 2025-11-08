@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Qing Dynasty
 translated: false
+type: note
 ---
 
 The fall of the Qing Dynasty, the last imperial dynasty in China, was a complex process influenced by a combination of internal and external factors. Here are some of the key reasons:

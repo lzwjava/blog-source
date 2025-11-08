@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Load GloVe Vectors Two Ways
 translated: false
+type: note
 ---
 
 You’ve got two easy ways to get GloVe vectors for words like `the`, `to`, `U.S.` and for your own text:

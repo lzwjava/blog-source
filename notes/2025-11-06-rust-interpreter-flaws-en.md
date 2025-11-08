@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Rust Interpreter Pain and Design Flaws
 translated: false
+type: note
 ---
 
 ### English Translation and Explanation

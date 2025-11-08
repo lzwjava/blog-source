@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Rare High-Value Technical Content Examples
 translated: false
+type: note
 ---
 
 Here are more examples of that valuable-but-rare content:

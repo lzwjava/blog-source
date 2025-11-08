@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Encoder-Decoder Architecture
 translated: false
+type: note
 ---
 
 Let's break down the Encoder-Decoder architecture and explore similar concepts.

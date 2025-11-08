@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Remote JMX Port 9001 Guide
 translated: false
+type: note
 ---
 
 A **JMX remote agent** is part of Java Management Extensions (JMX). It allows you to monitor and manage a running Java application remotely. When you enable JMX remote management, the JVM starts an agent that exposes MBeans (Managed Beans) over a TCP port. Tools like **jconsole**, **VisualVM**, or custom monitoring software can connect to that port to inspect memory usage, thread states, GC activity, and even invoke operations.

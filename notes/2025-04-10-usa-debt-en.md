@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Whether the U.S. Government Could Choose Not to Pay its Debt
 translated: false
+type: note
 ---
 
 The question of whether the U.S. government could choose not to pay its debt, specifically U.S. Treasury bonds (often referred to as "美债" in Chinese), is complex and involves significant legal, economic, and political considerations.

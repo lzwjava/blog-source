@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Multisim Circuit Design and Simulation Guide
 translated: false
+type: note
 ---
 
 Great choice! Let’s dive into **Multisim** 👇  

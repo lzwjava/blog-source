@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: CUDA के लिए NVIDIA GPU आवश्यक है
 translated: true
+type: note
 ---
 
 आपके लेनोवो XiaoXin के GPU को CUDA के साथ इस्तेमाल नहीं किया जा सकने का कारण सीधा-साधा है: **CUDA, NVIDIA की मालिकाना तकनीक है जो सिर्फ NVIDIA GPUs के साथ काम करती है**।

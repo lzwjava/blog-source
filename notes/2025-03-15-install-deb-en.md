@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Installing .deb Packages on Ubuntu
 translated: false
+type: note
 ---
 
 If you've downloaded a `.deb` file on your Ubuntu system and want to install it, there are a few straightforward methods to do so. Below, I'll explain the most recommended approach using the terminal, as well as a graphical option if you prefer a point-and-click solution.

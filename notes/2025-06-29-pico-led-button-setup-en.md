@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Raspberry Pi Pico LED Button Setup
 translated: false
+type: note
 ---
 
 To set up a Raspberry Pi Pico to run the provided MicroPython code, which controls an LED based on a button press, follow these steps:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Systems of Equations and Gaussian Elimination
 translated: false
+type: note
 ---
 
 This tutorial provides a detailed guide on **systems of equations**, their representation, solutions, and the **Gaussian elimination** method used to solve them.  

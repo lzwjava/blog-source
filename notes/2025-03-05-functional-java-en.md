@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Functional Interfaces in Java
 translated: false
+type: note
 ---
 
 The `java.util.function` package in Java provides a collection of functional interfaces that are designed to support functional programming, introduced in Java 8. These interfaces each have a single abstract method, making them compatible with lambda expressions and method references. This response explains how to use some of the most common functional interfaces in this package—`Function<T, R>`, `Predicate<T>`, `Consumer<T>`, and `Supplier<T>`—with practical examples.

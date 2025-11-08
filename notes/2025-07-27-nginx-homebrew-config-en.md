@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Nginx Config on macOS Homebrew
 translated: false
+type: note
 ---
 
 For Nginx installed via Homebrew on macOS (as indicated by the binary path `/opt/homebrew/bin/nginx`), the main configuration file is typically located at:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Reading Frontend Code Built with Angular
 translated: false
+type: note
 ---
 
 Reading frontend code built with Angular requires understanding its specific architecture and concepts. Here's a guide on how to approach it:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding IPv4 Routing Table Output
 translated: false
+type: note
 ---
 
 ### Understanding Your `ip route` Output

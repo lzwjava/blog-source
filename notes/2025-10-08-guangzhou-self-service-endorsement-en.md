@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Guangzhou Self-Service Endorsement Machines
 translated: false
+type: note
 ---
 
 Yes, in big cities like Guangzhou, local police stations (派出所, or paichusuo) can handle applications for Hong Kong and Macau endorsements (港澳签注) through self-service machines (智能签注机). These are widely available across districts and operate 24 hours a day in many cases, making it convenient for eligible residents.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Ethereum Mainnet vs ERC-20 Tokens Explained
 translated: false
+type: note
 ---
 
 No, the Ethereum main network and the ERC-20 network are not the same thing, though they are closely related.

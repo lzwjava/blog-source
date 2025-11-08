@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Waabi AI Autonomous Trucking Technology
 translated: false
+type: note
 ---
 
 ### Overview

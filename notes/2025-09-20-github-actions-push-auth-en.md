@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Fixing GitHub Actions Push Authentication Errors
 translated: false
+type: note
 ---
 
 That 403 means the push is authenticating as **`lzwjava` without a token that has write access** (often because the job is still using the default `GITHUB_TOKEN`, which can’t push to another repo). Fix it by **injecting a real credential for the destination checkout/push**.

@@ -8,6 +8,7 @@ layout: post
 model: x-ai/grok-3
 title: Adapting with Practical Foot Soak Solutions
 translated: false
+type: note
 ---
 
 It sounds like you’ve transitioned from using foot soak packets with hydrogen peroxide to a more comfortable and practical method of soaking your feet in a larger container with a smaller amount of hydrogen peroxide. Let’s break down what this behavior teaches us:

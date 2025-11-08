@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Karnaugh Map Minimization Example
 translated: false
+type: note
 ---
 
 ### Example of Karnaugh Map Usage: Minimizing a 3-Variable Boolean Function

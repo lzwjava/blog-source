@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong Bitcoin ATM Alternatives Overview
 translated: false
+type: note
 ---
 
 ### Other Bitcoin ATM Options in Hong Kong (2025)

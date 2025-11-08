@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Sam Altman's Startup and Leadership Wisdom
 translated: false
+type: note
 ---
 
 ### Key Points from "What I Wish Someone Had Told Me"

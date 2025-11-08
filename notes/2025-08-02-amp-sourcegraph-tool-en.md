@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'Amp: Advanced AI Coding Tool'
 translated: false
+type: note
 ---
 
 Sourcegraph's Amp is an agentic coding tool designed to maximize the capabilities of advanced AI models for developers. Here’s what makes it special:

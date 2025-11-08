@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Optimizing Multi-SLO LLM Serving
 translated: false
+type: note
 ---
 
 ### Overview

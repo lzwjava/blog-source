@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fix Translation API Authentication Error
 translated: false
+type: note
 ---
 
 ### Analysis of the Workflow and Error Cause

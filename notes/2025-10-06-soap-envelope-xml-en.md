@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: SOAP Envelope XML Explained
 translated: false
+type: note
 ---
 
 ### What is an Envelope XML?

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Which Religion’s Values are True
 translated: false
+type: note
 ---
 
 The question of which religion’s values are “true” is deeply complex, as it depends on personal perspective, cultural context, and philosophical or spiritual beliefs. Christianity, Islam, and Buddhism—each discussed earlier—offer distinct values that resonate with billions, but there’s no universal standard to declare one objectively true. Instead, I’ll frame their core values and let you reflect on what aligns with your understanding:

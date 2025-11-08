@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Cloud Providers Offering Servers in Hong Kong
 translated: false
+type: note
 ---
 
 ### Key Points

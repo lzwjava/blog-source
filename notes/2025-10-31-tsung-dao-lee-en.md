@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Tsung-Dao Lee: A Physics Legacy'
 translated: false
+type: note
 ---
 
 ### Tsung-Dao Lee: Overview

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Homemade Lemon Tea Recipe
 translated: false
+type: note
 ---
 
 ### Ingredients (for 1 serving)

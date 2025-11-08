@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'تاريخ إيطاليا: رؤية دقيقة'
 translated: true
+type: note
 ---
 
 ### هل البيان صحيح؟

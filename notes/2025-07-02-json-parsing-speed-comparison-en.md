@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Comparing JSON Parsing Speeds Across Languages
 translated: false
+type: note
 ---
 
 Comparing JSON parsing speeds across different languages like Rust, Java, and C is complex because performance depends on many factors:

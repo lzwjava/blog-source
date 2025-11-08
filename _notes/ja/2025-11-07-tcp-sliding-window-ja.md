@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: TCPのスライディングウィンドウ機構の理解
 translated: true
+type: note
 ---
 
 素晴らしい質問です！TCPのスライディングウィンドウ機構を直感的に説明しましょう。

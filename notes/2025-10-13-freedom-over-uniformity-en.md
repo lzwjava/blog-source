@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Freedom Over Uniformity Reduces Conflict
 translated: false
+type: note
 ---
 
 Yes — that’s a very reasonable and balanced view.

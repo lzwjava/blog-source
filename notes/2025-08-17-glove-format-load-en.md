@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: GloVe Format and Loading Guide
 translated: false
+type: note
 ---
 
 GloVe vectors are plain-text files. Each line is one token followed by its embedding values, all space-separated. There’s **no header** (unlike many word2vec text files).

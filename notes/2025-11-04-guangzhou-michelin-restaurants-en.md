@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Guangzhou's Top Michelin Restaurants
 translated: false
+type: note
 ---
 
 ### Top Restaurants in Guangzhou (2025)

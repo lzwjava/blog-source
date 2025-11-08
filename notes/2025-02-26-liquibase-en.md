@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Liquibase: Database Scheme Management'
 translated: false
+type: note
 ---
 
 Here’s a comprehensive guide on **how to use Liquibase** in a Spring Boot application to manage your database schema changes effectively:

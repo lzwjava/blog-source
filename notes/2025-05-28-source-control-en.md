@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: VS Code Source Control Guide
 translated: false
+type: note
 ---
 
 Visual Studio Code (VS Code) has robust built-in support for source control, allowing developers to manage version control systems (VCS) like Git, Mercurial, and others directly within the editor. This guide provides a comprehensive overview of using source control in VS Code, focusing on Git, as it’s the most commonly used VCS, and covers setup, key features, workflows, and advanced usage.

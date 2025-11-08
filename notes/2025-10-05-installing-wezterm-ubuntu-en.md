@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Installing WezTerm on Ubuntu
 translated: false
+type: note
 ---
 
 The error "Unable to locate package wezterm" occurs because WezTerm isn't available in Ubuntu's default repositories. You need to add the official third-party repository first. Here's the step-by-step fix using the native APT method (recommended for seamless integration):

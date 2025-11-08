@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Ubuntu vs macOS
 translated: false
+type: note
 ---
 
 The choice between Ubuntu and macOS depends largely on what people prioritize in their computing experience. Based on recent data and user preferences, here's what tends to drive people toward each platform:

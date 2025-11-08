@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Special Theory of Relativity
 translated: false
+type: note
 ---
 
 No, Albert Einstein's Special Theory of Relativity is not considered wrong by the scientific community. It is a remarkably successful and well-tested theory that accurately describes the relationship between space and time for objects moving at constant speeds (inertial frames of reference) in the absence of strong gravitational fields.

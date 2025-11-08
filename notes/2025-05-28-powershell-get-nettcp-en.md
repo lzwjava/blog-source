@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'PowerShell: Get-NetTCPConnection Usage'
 translated: false
+type: note
 ---
 
 The `Get-NetTCPConnection` cmdlet in PowerShell retrieves information about TCP connections on a Windows system. It's part of the `NetTCPIP` module, available on Windows 8/Windows Server 2012 and later. Below is a concise guide on how to use it:

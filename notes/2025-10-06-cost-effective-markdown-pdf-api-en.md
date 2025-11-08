@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Cost-Effective Markdown to PDF API
 translated: false
+type: note
 ---
 
 ### Recommended Cheap Option: Google Cloud Run

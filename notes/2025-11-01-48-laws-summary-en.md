@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The 48 Laws of Power Summary
 translated: false
+type: note
 ---
 
 ### The 48 Laws of Power by Robert Greene

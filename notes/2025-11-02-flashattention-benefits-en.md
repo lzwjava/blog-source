@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: FlashAttention Algorithm and Benefits
 translated: false
+type: note
 ---
 
 # Deep explanation of FlashAttention (Tri Dao et al., 2022)

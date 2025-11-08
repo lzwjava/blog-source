@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Spotless to Format Code
 translated: false
+type: note
 ---
 
 There is no `mvn checkstyle:format` command in the Maven Checkstyle Plugin. The plugin is primarily designed for checking code against a Checkstyle configuration and reporting violations, not for automatically formatting code. However, you can achieve code formatting based on a Checkstyle configuration using other tools like Spotless or the Maven Formatter Plugin, which can be configured to align with your Checkstyle rules.

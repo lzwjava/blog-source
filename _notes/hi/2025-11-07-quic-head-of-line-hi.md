@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: क्विक हेड-ऑफ-द-लाइन ब्लॉकिंग की समस्या का समाधान करता है
 translated: true
+type: note
 ---
 
 यहाँ उस संवाद का परिचय दिया गया है, जो संदर्भ प्रदान करता है और तकनीकी अवधारणाओं को समझाता है:

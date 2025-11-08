@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Cross-Border Students of Hong Kong
 translated: false
+type: note
 ---
 
 ### Who Are "Kuaijing Sheng" (Cross-Border Students)?

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Azure Monitor Alerts Overview
 translated: false
+type: note
 ---
 
 ### Overview of Alerts in Azure

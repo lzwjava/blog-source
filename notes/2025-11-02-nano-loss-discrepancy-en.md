@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: NanoGPT CPU vs GPU Loss Discrepancy
 translated: false
+type: note
 ---
 
 ### Understanding the Loss Discrepancy in NanoGPT Training

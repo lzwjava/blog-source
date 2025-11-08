@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Meituan's Key Leadership Figures
 translated: false
+type: note
 ---
 
 Meituan, a leading Chinese technology platform focused on local services such as food delivery, retail, and e-commerce, has a robust leadership structure centered around its founder and key executives, with a history of influential figures driving its growth. Below is a detailed list of current and historical key executives and figures associated with Meituan, including Wang Xing, Mu Rongjun, and Tony Qiu, as well as other significant contributors, both present and past. The list is based on available information from Meituan’s corporate structure, public records, and its evolution since its founding in 2010. Note that providing an exact list of 20–30 individuals is challenging due to limited public data on all current and historical figures, but I’ve compiled as comprehensive a list as possible, focusing on the most prominent names.

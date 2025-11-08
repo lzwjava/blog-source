@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Installing Discord DEB File Methods
 translated: false
+type: note
 ---
 
 To install the `discord-0.0.111.deb` file, you can use several methods:

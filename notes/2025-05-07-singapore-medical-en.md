@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Recognized Medical Schools in China
 translated: false
+type: note
 ---
 
 The Singapore Medical Council (SMC), a statutory board under the Ministry of Health in Singapore, recognizes specific medical schools in China. Graduates from these schools may be considered for medical registration in Singapore, subject to fulfilling all criteria and conditions set by the SMC.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Company Categories
 translated: false
+type: note
 ---
 
 | Icon | Category            | Value   |

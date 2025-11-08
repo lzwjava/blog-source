@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Deadlock Creations
 translated: false
+type: note
 ---
 
 ```java

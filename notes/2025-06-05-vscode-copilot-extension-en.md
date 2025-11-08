@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: How to Call GitHub Copilot from a VSCode Extension
 translated: false
+type: note
 ---
 
 GitHub Copilot is a powerful AI-powered coding assistant integrated into Visual Studio Code (VSCode) and IntelliJ IDEA through their respective plugins. While there’s no public REST API for directly calling Copilot, developers can interact with its capabilities programmatically within a VSCode extension using the VSCode Chat API, Language Model API, or command-based interactions. This blog post walks through creating a VSCode extension that triggers Copilot’s chat functionality with a custom prompt, effectively simulating an “API call” to Copilot, and explains how to leverage Copilot itself to streamline development.

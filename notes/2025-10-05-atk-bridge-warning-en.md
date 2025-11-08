@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding the atk-bridge Warning Message
 translated: false
+type: note
 ---
 
 This warning message appears in GTK-based applications (like Firefox, Snap Store, or GitHub CLI) on Linux systems, especially Ubuntu. It's not an error—it's just informational. The "atk-bridge" module was once used to connect the Accessibility Toolkit (ATK) for screen readers and other accessibility features, but newer versions of GTK (starting around 3.22) include this functionality directly. Loading the separate module is redundant, so GTK skips it and logs this note.

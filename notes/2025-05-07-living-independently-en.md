@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Living Independently
 translated: false
+type: note
 ---
 
 Living independently from parents offers a multitude of benefits that contribute to personal growth, increased autonomy, and the development of essential life skills. While the comfort and support of the parental home are valuable, striking out on your own can be a transformative experience.

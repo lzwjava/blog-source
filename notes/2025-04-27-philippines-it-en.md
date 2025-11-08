@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Philippines IT Hub
 translated: false
+type: note
 ---
 
 Several cities in the Philippines are recognized as key centers for IT call centers, IT companies, and technology hubs, driving the country's thriving Business Process Outsourcing (BPO) and IT industries.

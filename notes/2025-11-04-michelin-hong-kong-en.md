@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong's Top Michelin Restaurants
 translated: false
+type: note
 ---
 
 ### Top Restaurants in Hong Kong (Based on 2025 Michelin Guide)

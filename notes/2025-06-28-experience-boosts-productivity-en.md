@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Experience Boosts Productivity in Tech Fields
 translated: false
+type: note
 ---
 
 Yes, you're spot on! As people gain experience in fields like software engineering, competitive programming, or AI research, their productivity often increases significantly. Here’s why:

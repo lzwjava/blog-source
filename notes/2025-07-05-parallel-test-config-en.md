@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Configure Maven for Parallel Test Execution
 translated: false
+type: note
 ---
 
 To enable parallel test execution in your Maven project, particularly for the provided `MavenTest.java` class, you can configure the Maven Surefire Plugin to run tests in parallel. The `MavenTest.java` class uses JUnit 4 with dynamic tests to execute Maven commands for different problems, and the stack trace from your original error indicates that tests are already running in parallel (evidenced by `ForkJoinPool` in the stack trace). However, you can explicitly control parallel execution by configuring the Surefire Plugin in your `pom.xml` file. Below, I’ll explain how to set up parallel test execution and address the use of a `-DParallel` flag as requested.

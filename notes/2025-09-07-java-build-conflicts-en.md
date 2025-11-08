@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Resolving Java Build Version Conflicts
 translated: false
+type: note
 ---
 
 You’re building with **Java 8** (class file 52.0), but some build plugins/libs in your POM were compiled for newer Javas. The first one blowing up is **Spotless** (class file 55.0 = Java 11). You also have a few other Java-11+ items that will bite even if Spotless is removed (Checkstyle 10.x, Logback 1.5, and the Jakarta Servlet 5 vs Spring 5’s javax namespace).

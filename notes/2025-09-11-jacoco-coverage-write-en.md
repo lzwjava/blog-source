@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: JaCoCo Coverage Data Write Behavior
 translated: false
+type: note
 ---
 
 In **integration tests** (or any JVM process) using the **JaCoCo agent**, the coverage data is **not automatically written to the `.exec` file when the JVM exits**. Here’s how it works:

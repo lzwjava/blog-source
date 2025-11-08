@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: NVIDIA Blackwell AI GPU Architecture
 translated: false
+type: note
 ---
 
 ### NVIDIA Blackwell GPU Architecture

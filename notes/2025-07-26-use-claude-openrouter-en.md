@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Accessing Claude via OpenRouter
 translated: false
+type: note
 ---
 
 ### How to Use Claude Models with OpenRouter (As a Chinese User Without Anthropic API Access)

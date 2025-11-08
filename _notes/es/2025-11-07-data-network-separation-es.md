@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Separación de la Capa de Enlace de Datos y la Capa de Red
 translated: true
+type: note
 ---
 
 ### ¿Por qué separar la capa de enlace de datos y la capa de red?

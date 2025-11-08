@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: टीसीपी बनाम यूडीपी कनेक्शन अंतर
 translated: true
+type: note
 ---
 
 आपकी समझ बिल्कुल सही है! मुझे मुख्य अंतर स्पष्ट करने दें:

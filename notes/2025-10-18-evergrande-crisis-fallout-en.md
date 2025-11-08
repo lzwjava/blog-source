@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Evergrande Crisis and Economic Fallout
 translated: false
+type: note
 ---
 
 ### Overview of the Evergrande Crisis

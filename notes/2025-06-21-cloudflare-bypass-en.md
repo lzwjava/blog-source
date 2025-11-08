@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Selenium Script for Cloudflare Bypass
 translated: false
+type: note
 ---
 
 Your Selenium script is designed to interact with "https://grok.com" using Firefox and a specific profile, but it’s encountering a Cloudflare bot detection challenge, specifically the "Verify you are human" checkbox. Even after clicking the checkbox, the script seems to struggle to bypass the verification, preventing access to the main content (e.g., the textarea). Cloudflare employs sophisticated methods to detect automated browsers, such as HTTP header analysis, TLS fingerprinting, and behavioral checks, which can make bypassing this challenge tricky with Selenium alone. However, there are strategies you can try to pass the Cloudflare test while staying within your current Firefox-based setup. Below are two practical approaches tailored to your script, followed by additional considerations if these don’t suffice.

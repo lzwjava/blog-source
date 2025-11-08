@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: Der serverlose Mythos der P2P-Kommunikation
 translated: true
+type: note
 ---
 
 Gute Frage! Du verbindest die richtigen Punkte zwischen **Peer-to-Peer (P2P) Prinzipien** und modernen Kommunikations-Apps, aber es gibt einen entscheidenden Unterschied: **PPP (Point-to-Point Protocol)** operiert auf der **Sicherungsschicht (Layer 2)** für direkte serielle/Modem-Verbindungen, während Anwendungen wie RustDesk oder Web3-Chats auf der **Anwendungsschicht (Layer 7)** laufen und andere P2P-Techniken verwenden.

@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: CUDA erfordert eine NVIDIA-Grafikkarte
 translated: true
+type: note
 ---
 
 Der Grund, warum die GPU Ihres Lenovo XiaoXin nicht mit CUDA verwendet werden kann, ist einfach: **CUDA ist NVIDIAs proprietäre Technologie, die nur mit NVIDIA-GPUs funktioniert**.

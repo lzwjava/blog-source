@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Hedge Fund Performers 2025
 translated: false
+type: note
 ---
 
 ### Performance Comparison in Algorithmic Trading (2025 YTD)

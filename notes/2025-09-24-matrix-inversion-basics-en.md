@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Understanding Matrix Inversion Basics
 translated: false
+type: note
 ---
 
 Yes, you're on the right track with your analogy! I'll explain matrix inversion step by step in simple terms, comparing it to what you described with numbers (scalars). I'll keep it beginner-friendly without too much jargon.

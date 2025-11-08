@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Deep Learning Book by Goodfellow Bengio Courville
 translated: false
+type: note
 ---
 
 **Ian Goodfellow**  

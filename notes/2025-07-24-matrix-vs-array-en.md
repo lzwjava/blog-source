@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Matrices vs Multi-D Arrays
 translated: false
+type: note
 ---
 
 Here’s a quick mental model that usually helps programmers keep the two straight.

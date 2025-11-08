@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Check APT Proxy Settings in Ubuntu
 translated: false
+type: note
 ---
 
 To check if `apt` is using a proxy in Ubuntu, follow these steps:

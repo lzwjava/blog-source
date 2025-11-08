@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Jython in WebSphere Application Server
 translated: false
+type: note
 ---
 
 ### Using Jython in IBM WebSphere Application Server

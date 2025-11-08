@@ -8,6 +8,7 @@ layout: post
 model: x-ai/grok-3
 title: Huawei vs Xiaomi Smart Home Stability
 translated: false
+type: note
 ---
 
 It looks like your question is about smart home setups, specifically wanting something stable that could integrate with a PLC (Programmable Logic Controller) for control, whether Huawei uses a specific protocol for this, and if Huawei's smart home ecosystem is more stable than Xiaomi's. I'll break it down step by step based on available info.

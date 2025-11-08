@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 渣打銀行組織架構
 translated: true
+type: note
 ---
 
 ### 渣打銀行（SCB）的主要部門

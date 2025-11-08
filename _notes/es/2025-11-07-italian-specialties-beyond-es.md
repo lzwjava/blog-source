@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Especialidades Italianas Más Allá de la Comida
 translated: true
+type: note
 ---
 
 ### Especialidades icónicas de Italia: Una mirada más profunda

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The Computer History Museum
 translated: false
+type: note
 ---
 
 The Computer History Museum in Silicon Valley offers a comprehensive look at the evolution of computing and its profound impact on humanity. Here's what its history and exhibits generally show:

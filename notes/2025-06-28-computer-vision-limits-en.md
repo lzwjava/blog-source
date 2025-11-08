@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Computer Vision Falls Short of Humans
 translated: false
+type: note
 ---
 
 The blog post by Yin Wang argues that computer vision systems, even advanced ones in 2019, were far from achieving human-level performance. It claims that these systems struggle with basic object recognition (e.g., identifying a car) and are easily fooled by adversarial examples or minor image alterations, unlike humans who recognize objects effortlessly. Wang suggests that the field overstates its progress and that true human-level computer vision remains elusive due to fundamental limitations in how these systems process and understand images.

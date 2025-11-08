@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Data Link Layer
 translated: false
+type: note
 ---
 
 Here's a detailed tutorial to help you learn the **Data Link Layer** chapter in the **Computer Networks Technology** course (02141 in the Chinese Self-Study Exam system).  

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Serene Drivable Escapes Near Guangzhou
 translated: false
+type: note
 ---
 
 ### Expanding Your Serene Escapes: Baiyun, Dongguan, and Huizhou Spots

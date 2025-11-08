@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: LG 27UL550 Monitor
 translated: false
+type: note
 ---
 
 As of 2025, the **LG 27UL550** is not the newest model, but it's not extremely old either. Here's a quick breakdown:

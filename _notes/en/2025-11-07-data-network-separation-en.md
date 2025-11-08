@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Data Link and Network Layer Separation
 translated: false
+type: note
 ---
 
 ### Why Separate the Data Link Layer and Network Layer?

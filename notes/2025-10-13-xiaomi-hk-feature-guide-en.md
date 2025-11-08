@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Xiaomi Hong Kong Version Feature Guide
 translated: false
+type: note
 ---
 
 Not necessarily — it depends on exactly which “Hong Kong version” (model, ROM, region) you mean, and what terms you mean by “has Gemini, Google, eSIM, AI writing/translation.” Below is what I found. (If you tell me the exact Xiaomi model you have, I can check more precisely.)

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Western Views of China
 translated: false
+type: note
 ---
 
 ### Understanding Negative Views of China in the West

@@ -8,6 +8,7 @@ layout: post
 model: openai/gpt-5
 title: Setting OPENAI_REVERSE_PROXY in LibreChat
 translated: false
+type: note
 ---
 
 Got it 👍 You’re editing LibreChat’s `.env`.

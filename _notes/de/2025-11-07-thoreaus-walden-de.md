@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Thoreaus Walden Leben in den Wäldern
 translated: true
+type: note
 ---
 
 ### Einführung zu *Walden* von Henry David Thoreau

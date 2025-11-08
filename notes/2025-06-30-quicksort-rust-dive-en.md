@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Quicksort in Rust for Experienced Devs
 translated: false
+type: note
 ---
 
 Alright, given your strong background in algorithms, full-stack development, and even mobile engineering, you'll find Rust's approach to memory safety and explicit control quite familiar in concept, even if the syntax and strictness are new. Let's break down this Quicksort implementation in Rust.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Comprehensive Web Frontend Exploration Guide
 translated: false
+type: note
 ---
 
 ## 1. Browser Developer Tools

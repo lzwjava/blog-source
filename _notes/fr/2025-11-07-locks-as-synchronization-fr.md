@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Les verrous en tant que concept universel de synchronisation
 translated: true
+type: note
 ---
 
 ### Les verrous comme mécanisme de synchronisation : un concept universel

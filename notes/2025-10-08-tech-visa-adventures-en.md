@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Tech-Powered Visa-Free Adventure Destinations
 translated: false
+type: note
 ---
 
 ### Safe, Tech-Powered Destinations for Your Next Adventure

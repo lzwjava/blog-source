@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Digital Logic Design
 translated: false
+type: note
 ---
 
 Digital logic design is the foundation of modern computing systems. This guide will walk you through essential concepts, from basic gates to complex sequential circuits, providing both theoretical understanding and practical design approaches.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: The Turing Award
 translated: false
+type: note
 ---
 
 The **A.M. Turing Award**, often referred to as the "Nobel Prize of Computing," is an annual prize given by the **Association for Computing Machinery (ACM)** since 1966 to individuals for **major contributions of lasting importance to computer science**. Named after **Alan Turing**, a pioneer in theoretical computer science, artificial intelligence (AI), and cryptography, the award recognizes transformative technical achievements that have shaped computing and society. As of 2025, 79 recipients have been honored, with the prize carrying a **$1 million award**, funded by Google since 2007. Below is a review of the Turing Award and some of its **major breakthroughs**, focusing on key contributions that have had profound impacts.

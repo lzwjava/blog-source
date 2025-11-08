@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Kafka vs JMS in WebSphere
 translated: false
+type: note
 ---
 
 ### Overview

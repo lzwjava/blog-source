@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: NVIDIA DKMS Build Issue
 translated: false
+type: note
 ---
 
 It looks like you're encountering an error where the NVIDIA DKMS (Dynamic Kernel Module Support) module is failing to build for your new kernel, `6.8.0-60-generic`. This is a common issue when updating kernels, as the driver module needs to be recompiled for the new kernel version, and sometimes incompatibilities or build issues arise.

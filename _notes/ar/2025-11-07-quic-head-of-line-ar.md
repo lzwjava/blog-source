@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: حل بروتوكول كويك لمشكلة انسداد رأس الطابور
 translated: true
+type: note
 ---
 
 إليك مقدمة لهذا الحوار، تقدم السياق وتشرح المفاهيم التقنية:

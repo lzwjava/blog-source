@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-3
 title: Secret Superstar Joyful Devotional Dance
 translated: false
+type: note
 ---
 
 ### Lyrics of "Nachdi Phira"

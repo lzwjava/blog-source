@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Telegraf：オープンソースメトリクス収集エージェント
 translated: true
+type: note
 ---
 
 Telegrafは、InfluxDataによって開発されたオープンソースのプラグイン駆動型エージェントで、さまざまなソースからのメトリクス、ログ、その他のテレメトリデータを収集、処理、集計、書き込みするためのものです。軽量で、単一のバイナリとして動作し、300以上の入力プラグイン（例：システム統計、MySQL/PostgreSQLなどのデータベース、AWSなどのクラウドサービス、Apache Kafkaなどのアプリケーション）と50以上の出力プラグイン（例：InfluxDB、Prometheus、Kafka、Elasticsearch）をサポートしています。

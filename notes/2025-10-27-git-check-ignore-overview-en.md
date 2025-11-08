@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Git Check-Ignore Command Overview
 translated: false
+type: note
 ---
 
 ### What is `git check-ignore`?

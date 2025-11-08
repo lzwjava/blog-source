@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: स्टैण्डर्ड चार्टर्ड बैंक की संगठनात्मक संरचना
 translated: true
+type: note
 ---
 
 ### स्टैण्डर्ड चार्टर्ड बैंक (SCB) के प्रमुख विभाग

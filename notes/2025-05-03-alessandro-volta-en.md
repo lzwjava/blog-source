@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Alessandro Volta
 translated: false
+type: note
 ---
 
 Alessandro Volta (1745–1827) was an Italian physicist and chemist whose groundbreaking work in electricity laid the foundation for modern electrical science. Best known for inventing the first practical battery, the voltaic pile, Volta’s contributions revolutionized the understanding of electricity and earned him lasting recognition, including the naming of the unit of electrical potential, the "volt," in his honor. His life and work bridged the Enlightenment era’s scientific curiosity with the technological advancements of the 19th century, making him a pivotal figure in the history of science.

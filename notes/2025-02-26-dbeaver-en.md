@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'DBeaver: a Database Management Tool'
 translated: false
+type: note
 ---
 
 DBeaver is a popular database management tool that supports a wide range of databases. Here's a basic guide on how to use DBeaver:

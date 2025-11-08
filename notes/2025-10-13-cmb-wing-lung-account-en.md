@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Opening a CMB Wing Lung Bank Account
 translated: false
+type: note
 ---
 
 If you’re a Chinese citizen holding a Travel Permit (e.g. Mainland Travel Permit for Hong Kong & Macau Residents, etc.), you *can* open an individual bank account at **CMB Wing Lung Bank** in Hong Kong, though there are certain documents, steps, and restrictions. Below is a guide based on the bank’s published requirements and common practice. Always check the bank branch directly beforehand since policies may vary or change.

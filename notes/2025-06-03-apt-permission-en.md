@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Linux Package Installation
 translated: false
+type: note
 ---
 
 The error message you're seeing indicates that the package manager (`apt`) encountered a permission issue while trying to access the downloaded package file. Specifically, it's trying to access the package as the root user, but it cannot because it's being run with elevated permissions in a way that restricts access to the file.

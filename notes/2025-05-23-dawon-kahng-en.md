@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Dawon Kahng
 translated: false
+type: note
 ---
 
 **Dawon Kahng (강대원, May 4, 1931 – May 13, 1992) was a highly accomplished Korean-American electrical engineer and inventor who made groundbreaking contributions to the field of solid-state electronics.** Born in Seoul, Korea, during the period of Japanese rule, Kahng's intellectual curiosity and pursuit of knowledge led him to a transformative career in the United States.

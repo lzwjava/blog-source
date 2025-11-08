@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Understanding npm --legacy-peer-deps flag
 translated: false
+type: note
 ---
 
 ### Overview

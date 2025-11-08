@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Selenium Script
 translated: false
+type: note
 ---
 
 Below is a sophisticated example of a Selenium script in Python that demonstrates advanced features, including the Page Object Model (POM), explicit FacetGrid for responsive layouts, explicit waits, handling dynamic content, and error handling. The script automates a complex scenario: scraping product data from an e-commerce website, navigating through multiple pages, and generating a summary report. The example assumes a hypothetical e-commerce website for demonstration purposes, but the concepts can be adapted to real websites.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Traceroute Options
 translated: false
+type: note
 ---
 
 Traceroute is a powerful tool for diagnosing network paths, and while its basic use is straightforward, it offers advanced options to customize its behavior. Below, I’ll outline common options and explain how to use traceroute in advanced ways, focusing on practical examples. The exact options depend on your operating system (e.g., Windows uses `tracert`, while Linux/macOS use `traceroute`), but I’ll cover the most widely applicable ones.

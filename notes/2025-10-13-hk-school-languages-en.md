@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong Secondary Schools Language Instruction
 translated: false
+type: note
 ---
 
 In Hong Kong, junior secondary schools (Forms 1–3, or S1–S3) do not universally teach all courses in English. The default medium of instruction (MOI) is Chinese (Cantonese) for most subjects across the majority of schools to support better understanding and learning outcomes. English is primarily used as the MOI for the English Language subject itself, while other non-language subjects (like math, science, or history) are taught in Chinese in over two-thirds of secondary schools.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Pierre-Simon Laplace
 translated: false
+type: note
 ---
 
 Pierre-Simon Laplace (1749–1827) was a French mathematician, physicist, and astronomer whose contributions profoundly shaped modern science, particularly in the fields of celestial mechanics, probability theory, and mathematical physics. Often referred to as the "French Newton," Laplace built on Isaac Newton’s work, refining and expanding the understanding of the cosmos while developing rigorous mathematical tools that remain foundational today. His work bridged the Enlightenment’s emphasis on reason and the emerging era of mathematical precision, earning him a lasting legacy as one of the greatest scientists of his time.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: 'Bali: Island of the Gods'
 translated: false
+type: note
 ---
 
 ### Introduction to Bali Island, Indonesia

@@ -1,12 +1,13 @@
 ---
-title: n8n Workflow Automation Platform Overview
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: n8n Workflow Automation Platform Overview
+translated: false
+type: note
 ---
 
 n8n (pronounced "n-eight-n") is an open-source workflow automation platform designed for technical teams and developers. It allows you to connect different apps, services, and APIs to automate repetitive tasks, data flows, and complex processes without relying heavily on custom code—though it supports code when needed. Think of it as a self-hosted alternative to tools like Zapier or Make, but with more flexibility, including the ability to build multi-step AI agents, integrate any large language model (LLM), and run everything on your own infrastructure for better data privacy and control.

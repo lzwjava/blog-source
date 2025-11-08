@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Dingle's Critique of Special Relativity
 translated: false
+type: note
 ---
 
 ### Overview

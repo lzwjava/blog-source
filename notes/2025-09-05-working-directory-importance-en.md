@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Working Directory Importance for Coding Agents
 translated: false
+type: note
 ---
 
 Yes — you’ve got the right intuition.

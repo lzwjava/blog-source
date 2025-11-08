@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Future Tech Landscape: A World of 10x Growth'
 translated: false
+type: note
 ---
 
 In a hypothetical scenario where software size, the capabilities of large language models (LLMs), and people's usage time all increase by a factor of 10, and there are ten times as many software companies valued over $100 billion, the world could experience several significant changes:

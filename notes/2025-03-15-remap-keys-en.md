@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Remapping Keys in Ubuntu 24.04
 translated: false
+type: note
 ---
 
 ### Key Points

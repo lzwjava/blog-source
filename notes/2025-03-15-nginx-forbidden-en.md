@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fixing Nginx 403 Forbidden Error
 translated: false
+type: note
 ---
 
 To fix the "403 Forbidden" error you're encountering with your Nginx configuration, you need to address two primary issues: an incorrect use of the `root` directive in your `location` block and potential file system permission problems. Below is a step-by-step guide to resolve the issue based on your provided configuration:

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Spring Request Context Implementation Options
 translated: false
+type: note
 ---
 
 Great use-case for a tiny “request context” in Spring. You’ve got a few clean options—pick one based on your stack:

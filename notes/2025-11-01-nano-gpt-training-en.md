@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding nanoGPT Training Output
 translated: false
+type: note
 ---
 
 ### Understanding nanoGPT Training Output

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Chen Gao
 translated: false
+type: note
 ---
 
 Chen Gao is a distinguished mathematician and professor known for his significant contributions to complex differential geometry, Kähler geometry, hyperkähler geometry, and G2 geometry. Below is a comprehensive introduction to his background, academic journey, research achievements, and impact on the mathematical community, based on available information and critically assessed for accuracy.

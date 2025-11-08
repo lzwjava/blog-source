@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Uluru Australias Iconic Sandstone Monolith
 translated: false
+type: note
 ---
 
 ### What is Uluru?

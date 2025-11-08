@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: OpenAI DevDay 2025 Key Announcements
 translated: false
+type: note
 ---
 
 ### OpenAI DevDay 2025 Recap

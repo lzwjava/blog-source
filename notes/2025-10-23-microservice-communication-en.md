@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Microservice Communication: Synchronous vs Event-Driven'
 translated: false
+type: note
 ---
 
 ### Synchronous vs. Event-Driven Communication in Microservices

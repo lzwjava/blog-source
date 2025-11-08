@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: خصائص وتطبيقات التيتانيوم
 translated: true
+type: note
 ---
 
 **التيتانيوم** (الرمز: **Ti**، العدد الذري: 22) هو عنصر فلزي قوي، خفيف الوزن، ومقاوم للتآكل.

@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: DB2 交易回滾與錯誤檢測
 translated: true
+type: note
 ---
 
 ## 當 DB2 因系統錯誤執行回滾時

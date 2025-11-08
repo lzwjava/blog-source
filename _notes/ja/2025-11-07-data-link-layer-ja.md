@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: データリンク層の理解
 translated: true
+type: note
 ---
 
 ### データリンク層の理解：簡単な解説

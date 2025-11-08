@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: ES6-style Promises
 translated: false
+type: note
 ---
 
 ### Key Points

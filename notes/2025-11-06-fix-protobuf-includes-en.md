@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fix Missing Protobuf Include Files
 translated: false
+type: note
 ---
 
 ### Understanding the Error

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Short Video Apps
 translated: false
+type: note
 ---
 
 Here are some of the **most popular short-video apps** as of 2024:  

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top 100 Rust Crates by Impact
 translated: false
+type: note
 ---
 
 It's challenging to provide an exact "top 100" list by real-time download count, as such specific metrics aren't publicly and dynamically ranked by Crates.io in that granular way. However, based on general popularity, extensive use in projects, and impact on the Rust ecosystem, here's a list of highly influential and widely used Rust libraries (crates), with a brief description for each. This list considers factors like direct download numbers (where available from Lib.rs/Crates.io, though these fluctuate), transitive dependencies (how many other crates depend on them), and community recognition.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'NVIDIA A800 GPU: A100 Variant'
 translated: false
+type: note
 ---
 
 The NVIDIA A800 is a professional-grade graphics processing unit (GPU) developed by NVIDIA, primarily designed for high-performance computing (HPC), artificial intelligence (AI), data science, and workstation workflows. It is based on the NVIDIA Ampere architecture and uses the GA100 graphics processor, manufactured on a 7nm process. The A800 was introduced in November 2022 as a variant of the NVIDIA A100 GPU, specifically tailored to comply with U.S. export restrictions on advanced AI chips to certain regions, such as China. The key difference from the A100 is a reduced NVLink interconnect speed (400 GB/s on the A800 versus 600 GB/s on the A100), which impacts multi-GPU scaling but maintains similar core performance in single-GPU tasks.

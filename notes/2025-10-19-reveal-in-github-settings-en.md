@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Reveal-In-GitHub Settings Window
 translated: false
+type: note
 ---
 
 ### Overview

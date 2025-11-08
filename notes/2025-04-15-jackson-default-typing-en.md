@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Jackson Default Typing Explained
 translated: false
+type: note
 ---
 
 ### What is Default Typing in Jackson's ObjectMapper?

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Generating an OpenPGP Key Pair
 translated: false
+type: note
 ---
 
 ### Overview of the Output

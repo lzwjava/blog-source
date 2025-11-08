@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'Mong Kok: Hong Kong''s Bustling District'
 translated: false
+type: note
 ---
 
 ### What is Mong Kok?

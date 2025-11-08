@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Buying ETC at CoinUnit ATM
 translated: false
+type: note
 ---
 
 ### Transaction Time for Buying ETC at CoinUnit ATM in Hong Kong

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Hong Kong's Essential Cultural and Modern Highlights
 translated: false
+type: note
 ---
 
 ### Top Spots to Visit in Hong Kong for Culture, History, Food, Economy, Creativity, and Innovation

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: ChatGPT Plus Model Access Limits
 translated: false
+type: note
 ---
 
 Yes, ChatGPT Plus users **can** use the O3 model.

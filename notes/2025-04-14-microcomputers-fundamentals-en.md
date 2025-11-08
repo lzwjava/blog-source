@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Fundamentals of Microcomputers
 translated: false
+type: note
 ---
 
 Below is a comprehensive tutorial for **Part 1: Fundamentals of Microcomputers**, covering the topics outlined in your query: *Overview of Microcomputer Systems, Evolution, Von Neumann Architecture, Key Performance Metrics, Microprocessor (CPU) Structure, 8086/8088 Internal Registers, and Bus Cycles and Timing Analysis*. This tutorial is designed to be thorough yet accessible, assuming a foundational understanding of computer systems.

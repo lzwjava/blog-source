@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Vision Transformer Overview
 translated: false
+type: note
 ---
 
 ### Introduction to Vision Transformer (ViT)

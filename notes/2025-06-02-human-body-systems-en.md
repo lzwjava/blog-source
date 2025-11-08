@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Human Body Systems
 translated: false
+type: note
 ---
 
 The human body is a complex and fascinating organism composed of numerous interconnected systems working in harmony. Here's an introduction to some key parts:

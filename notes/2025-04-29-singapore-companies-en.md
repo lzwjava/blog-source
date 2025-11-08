@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Major Companies and Employers in Singapore
 translated: false
+type: note
 ---
 
 Singapore has a vibrant business ecosystem with many innovative companies across various sectors. Here are some of the most notable companies in Singapore:

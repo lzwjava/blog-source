@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Key Companies in Electronic Technology
 translated: false
+type: note
 ---
 
 The outline covers fundamental areas of electronic technology, ranging from analog to digital, and then to practical applications. Here are notable companies involved in research, invention, or application of these technologies:

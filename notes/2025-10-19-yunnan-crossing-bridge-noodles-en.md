@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Yunnan Crossing-the-Bridge Noodles
 translated: false
+type: note
 ---
 
 ### What is Guoqiao Mixian?

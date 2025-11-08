@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Unittest vs Pytest Key Differences
 translated: false
+type: note
 ---
 
 Here’s a crisp, no-table comparison focused on what actually changes in your day-to-day testing.

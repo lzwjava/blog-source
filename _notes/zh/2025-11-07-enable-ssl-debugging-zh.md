@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 启用 Java SSL TLS 调试
 translated: true
+type: note
 ---
 
 ### 在 Java 中启用 SSL/TLS 调试

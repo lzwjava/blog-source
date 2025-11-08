@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: DBS Bank Major Departments
 translated: false
+type: note
 ---
 
 ### Major Departments in DBS Bank

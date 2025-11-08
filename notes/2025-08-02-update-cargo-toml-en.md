@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Compile Example with Cargo
 translated: false
+type: note
 ---
 
 To get your example compiling, you need to:

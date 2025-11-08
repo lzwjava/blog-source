@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: بروتوكولات طبقة ربط البيانات موضحة
 translated: true
+type: note
 ---
 
 يحدد هذا البيان بشكل صحيح بروتوكولات طبقة وصلة البيانات الرئيسية وحالات استخدامها الأساسية. دعني أوضح ذلك:

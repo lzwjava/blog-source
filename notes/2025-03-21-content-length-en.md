@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: HTTP Content-Length Header
 translated: false
+type: note
 ---
 
 The unit of the **Content-Length** header in the HTTP protocol is **bytes**. 

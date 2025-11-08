@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Spécialités italiennes au-delà de la gastronomie
 translated: true
+type: note
 ---
 
 ### Les spécialités emblématiques de l'Italie : Une exploration approfondie

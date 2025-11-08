@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: Free Up macOS System Storage
 translated: false
+type: note
 ---
 
 ### Overview of Cleaning macOS System Storage Space

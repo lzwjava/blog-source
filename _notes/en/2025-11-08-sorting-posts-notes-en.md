@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Sorting Posts and Notes
 translated: false
+type: note
 ---
 
 ### Modified `_includes/sort.html`

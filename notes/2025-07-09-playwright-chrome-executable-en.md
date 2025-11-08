@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Configuring Playwright with Specific Chrome Executable
 translated: false
+type: note
 ---
 
 Got it. You want to configure **Playwright** on Windows so that it launches a **specific Chrome executable** with certain **launch options** (like `headless: true`) directly in your `playwright.config.js`.  

@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: 'WPS: 瀕死からのモバイル成功'
 translated: true
+type: note
 ---
 
 ## WPSの壮大な旅路：瀕死からの復活劇

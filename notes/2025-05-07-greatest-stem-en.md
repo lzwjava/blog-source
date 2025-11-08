@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Greatest Living Scientists in STEM fields
 translated: false
+type: note
 ---
 
 Identifying the "greatest" living scientists in STEM fields like math, programming, chemistry, and physics is tricky since contributions vary widely, and impact depends on perspective—pure research, applied innovation, or public influence. Instead of a definitive list, I’ll highlight a few standout figures based on their groundbreaking work, influence, and recognition, while noting that many others could also qualify. These selections draw from fields you mentioned, focusing on living scientists with significant, ongoing impact as of my last update.

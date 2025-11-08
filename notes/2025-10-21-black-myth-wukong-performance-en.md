@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Black Myth Wukong PC Performance Guide
 translated: false
+type: note
 ---
 
 ### Black Myth: Wukong on Your PC Setup

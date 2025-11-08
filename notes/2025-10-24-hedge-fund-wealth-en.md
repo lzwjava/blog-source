@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Hedge Fund Wealth And Earnings
 translated: false
+type: note
 ---
 
 ### Top Hedge Fund Managers by Wealth (2025)

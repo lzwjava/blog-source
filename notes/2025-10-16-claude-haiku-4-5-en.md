@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Claude Haiku 4.5 Fast Efficient AI
 translated: false
+type: note
 ---
 
 Claude Haiku 4.5 is Anthropic's newest small AI model, released on October 16, 2025. It's designed for speed and efficiency, making it ideal for real-time applications like chatbots, customer service agents, and coding assistance. This model delivers near-frontier performance—matching or exceeding older models like Claude Sonnet 4 on tasks such as coding, computer use, and agent workflows—while being significantly faster (over twice the speed) and cheaper (about one-third the cost).

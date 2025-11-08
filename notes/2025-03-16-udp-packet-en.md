@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: C Program to Decode a UDP Packet
 translated: false
+type: note
 ---
 
 Here's an example of how to decode a UDP packet in C. This code demonstrates receiving a UDP packet and extracting its key components:

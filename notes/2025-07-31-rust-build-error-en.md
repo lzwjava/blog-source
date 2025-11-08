@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fixing Rust Privacy Error and Streamlining Build
 translated: false
+type: note
 ---
 
 From your previous messages, I understand you're encountering an issue with building and running a Rust project due to a privacy error (`E0603`) for the `run_simple` function in `simple.rs`. You’ve now asked about settling the `cargo build` and `cargo run` commands into `Cargo.toml` or exploring other methods to streamline the process. I’ll interpret this as wanting to configure your Rust project to simplify building and running, potentially automating or customizing the process, and I’ll also address the earlier error to ensure a complete solution.

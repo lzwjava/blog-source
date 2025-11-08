@@ -4,6 +4,7 @@ lang: en
 layout: post
 title: Top 100 Universities Worldwide
 translated: false
+type: note
 ---
 
 To provide you with the top 100 universities and their websites, I will retrieve the information from the most relevant search results.Here is a list of the top 100 universities worldwide, along with their respective websites, based on the QS World University Rankings for 2025:

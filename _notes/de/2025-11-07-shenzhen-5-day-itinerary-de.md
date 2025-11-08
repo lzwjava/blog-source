@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Fünftägige Reiseroute Shenzhen
 translated: true
+type: note
 ---
 
 ### Planung einer 5-tägigen Reise nach Shenzhen, Guangdong

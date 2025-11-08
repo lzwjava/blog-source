@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Schlösser als universelles Synchronisationskonzept
 translated: true
+type: note
 ---
 
 ### Sperren als Synchronisierung: Ein universelles Konzept

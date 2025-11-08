@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Red-Black Tree Overview
 translated: false
+type: note
 ---
 
 ### What is a Red-Black Tree?

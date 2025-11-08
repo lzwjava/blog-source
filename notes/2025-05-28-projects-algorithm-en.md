@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Algorithms in Finance Data Projects
 translated: false
+type: note
 ---
 
 In a finance project with a focus on data, databases, an Angular frontend, and heavy use of SQL queries, various algorithms can be applied to optimize performance, enhance user experience, and handle financial computations efficiently. Below, I outline several algorithms (beyond binary search) that are relevant to your project, categorized by their application in the context of data processing, database operations, frontend interactions, and finance-specific tasks. Each algorithm is explained with its use case, example, and when to apply it in your project.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Sourcegraph Query Language Guide
 translated: false
+type: note
 ---
 
 Sourcegraph search has its own query language that’s flexible and powerful. Here’s a breakdown of the common syntax you can use:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Outline of Fundamentals of Electronic Technology (III)
 translated: false
+type: note
 ---
 
 Here’s an English outline for the textbook *Fundamentals of Electronic Technology (III)*, based on the Chinese version edited by Wen Xidong and published by Economic Science Press:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: PortAudio and pyaudio
 translated: false
+type: note
 ---
 
 The error occurs because **pyaudio** requires the PortAudio development headers to compile, which are missing on your system. Here's how to fix it:

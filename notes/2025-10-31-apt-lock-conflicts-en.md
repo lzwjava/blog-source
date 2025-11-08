@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Resolving APT Lock Conflicts
 translated: false
+type: note
 ---
 
 ### Understanding the Issue

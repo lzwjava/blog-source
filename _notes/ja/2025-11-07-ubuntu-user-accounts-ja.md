@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ubuntuユーザーアカウントの作成
 translated: true
+type: note
 ---
 
 ### Ubuntu Linuxでの新規ユーザー作成

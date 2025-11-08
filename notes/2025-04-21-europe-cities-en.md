@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Major Cities in Europe
 translated: false
+type: note
 ---
 
 Europe is a continent with a rich history and diverse cultures, boasting numerous major cities that serve as economic, cultural, and political hubs. Defining "main" can depend on various factors such as population, economic influence, cultural significance, or historical importance. Here's a look at some of the major cities in Europe, considering these aspects:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: データリンク層とネットワーク層の分離
 translated: true
+type: note
 ---
 
 ### データリンク層とネットワーク層を分離する理由

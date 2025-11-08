@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Backend as a Service Explained
 translated: false
+type: note
 ---
 
 ### What is Backend as a Service (BaaS)?

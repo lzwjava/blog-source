@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Scaling Laws for Neural Language Models
 translated: false
+type: note
 ---
 
 ### Overview

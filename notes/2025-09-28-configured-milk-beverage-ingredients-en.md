@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Configured Milk Beverage Ingredient List
 translated: false
+type: note
 ---
 
 The ingredient list on the carton (written in Chinese) includes the following components for the product:

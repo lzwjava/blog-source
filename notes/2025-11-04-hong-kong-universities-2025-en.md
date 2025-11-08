@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Top Hong Kong Universities 2025 Rankings
 translated: false
+type: note
 ---
 
 ### Top Universities in Hong Kong (2025 Rankings)

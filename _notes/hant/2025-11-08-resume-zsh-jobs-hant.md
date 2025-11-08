@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 恢復 zsh 中已暫停的工作
 translated: true
+type: note
 ---
 
 要恢復一個暫停的工作（例如你使用 Ctrl+Z 暫停的 `bundle exec jekyll serve --incremental` 指令），請在 Ghostty 的同一個 zsh 終端機工作階段中按照以下步驟操作：

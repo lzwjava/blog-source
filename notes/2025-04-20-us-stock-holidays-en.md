@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: U.S. Stock Market Holidays
 translated: false
+type: note
 ---
 
 When considering the U.S. stock market holidays across the entire week (Monday through Friday), here’s how the holidays break down for each day:

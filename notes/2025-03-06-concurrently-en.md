@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using concurrently
 translated: false
+type: note
 ---
 
 It seems like you're asking about using "concurrently" in the context of frontend development. However, "concurrently" is typically a Node.js package used to run multiple commands or scripts at the same time, often in a backend or development workflow context rather than directly in frontend code. Did you mean how to use it in a frontend project setup (e.g., running scripts), or were you referring to something else like concurrent operations in frontend JavaScript (e.g., promises, async/await)? I'll assume the former for now, but feel free to clarify!

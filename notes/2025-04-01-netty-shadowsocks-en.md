@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Building a Shadowsocks Client with Netty
 translated: false
+type: note
 ---
 
 Building a Shadowsocks client like Clash or the original Shadowsocks client using Netty involves understanding the Shadowsocks protocol and leveraging Netty's asynchronous, event-driven network application framework. Here's a breakdown of the steps and key concepts involved:

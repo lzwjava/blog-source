@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: फ्लेक्सबॉक्स के साथ स्टैक्ड फॉर्म एलिमेंट्स को केंद्रित करना
 translated: true
+type: note
 ---
 
 ```css

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Python API Test Frameworks
 translated: false
+type: note
 ---
 
 ### Recommended Python Test Frameworks for API Endpoint Testing

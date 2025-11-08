@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: FlashAttention Authors and Contributions
 translated: false
+type: note
 ---
 
 ### FlashAttention Authors Introduction

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Python Coverage Guide Essentials
 translated: false
+type: note
 ---
 
 Here’s a practical, dev-focused intro to the **coverage** (coverage.py) package—what it measures, how to use it well, and the knobs you’ll actually care about.

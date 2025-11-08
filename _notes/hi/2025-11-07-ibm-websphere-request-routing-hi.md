@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: आईबीएम वेबस्फीयर रिक्वेस्ट राउटिंग एक्सप्लेंड
 translated: true
+type: note
 ---
 
 मैं समझाता हूं कि IBM WebSphere Application Server (WAS) आने वाले अनुरोधों और रूटिंग को कैसे संभालता है:

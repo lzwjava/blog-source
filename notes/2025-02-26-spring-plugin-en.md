@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Spring Boot Maven Plugin
 translated: false
+type: note
 ---
 
 To use the `spring-boot-maven-plugin` in a Maven-based Spring Boot project, follow these steps to configure and utilize the plugin for building, running, and managing your application. Below is a comprehensive guide:

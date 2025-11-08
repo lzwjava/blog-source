@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: MinGW-w64 Included Executables
 translated: false
+type: note
 ---
 
 ### Executables Included in MinGW-w64

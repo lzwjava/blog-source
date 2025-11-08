@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Grigori Perelman
 translated: false
+type: note
 ---
 
 Grigori Perelman is a Russian mathematician renowned for solving the Poincaré Conjecture, one of the seven Millennium Prize Problems in mathematics, which had remained unsolved for nearly a century. His proof, published in 2002–2003, utilized and extended Richard Hamilton's theory of Ricci flow, introducing groundbreaking techniques in geometric analysis. Despite his monumental achievement, Perelman declined both the Fields Medal (2006) and the $1 million Millennium Prize (2010), citing disillusionment with the mathematical community and a preference for intellectual purity over recognition.

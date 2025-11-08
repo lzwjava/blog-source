@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Best Resources and Courses to Learn Quantitative Trading
 translated: false
+type: note
 ---
 
 Here are some of the best resources and courses to learn algorithmic trading, AI trading, and quantitative trading, ranging from beginner to advanced levels:

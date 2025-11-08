@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Supporting Your Childs Online English Lessons
 translated: false
+type: note
 ---
 
 ### Supporting Your 4-Year-Old's Online English Lessons

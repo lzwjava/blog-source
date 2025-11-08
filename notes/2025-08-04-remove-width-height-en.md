@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Remove `width` and `height`
 translated: false
+type: note
 ---
 
 The error you're seeing:

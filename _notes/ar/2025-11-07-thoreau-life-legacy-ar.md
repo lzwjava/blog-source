@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'هنري ديفيد ثورو: الحياة والإرث'
 translated: true
+type: note
 ---
 
 ### هنري ديفيد ثورو: مقدمة شاملة عن حياته وإرثه

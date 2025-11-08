@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Huanggang Port Parking and Cross-Border Tips
 translated: false
+type: note
 ---
 
 Hey, parking at the Huanggang Port is quite convenient — but since it’s late at night, remember safety first.

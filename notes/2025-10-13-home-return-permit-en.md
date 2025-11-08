@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Home Return Permit for Hong Kong
 translated: false
+type: note
 ---
 
 ### What is the Home Return Permit?

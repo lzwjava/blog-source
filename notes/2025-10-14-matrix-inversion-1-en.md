@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Inverting a 3x3 Matrix
 translated: false
+type: note
 ---
 
 Sure — let’s unpack that clearly and intuitively, without any table formatting so it’s easy to read line by line.  

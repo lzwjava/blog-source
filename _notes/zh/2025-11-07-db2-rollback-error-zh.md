@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: DB2事务回滚与错误检测
 translated: true
+type: note
 ---
 
 ## 当 DB2 因系统错误执行回滚时

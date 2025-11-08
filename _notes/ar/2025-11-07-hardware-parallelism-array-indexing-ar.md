@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: التوازي في العتاد يُسرّع فهرسة المصفوفات
 translated: true
+type: note
 ---
 
 ### لماذا يكون الفهرسة أسرع من البحث الثنائي؟

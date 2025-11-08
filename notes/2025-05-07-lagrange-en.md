@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Joseph-Louis Lagrange
 translated: false
+type: note
 ---
 
 Joseph-Louis Lagrange (1736–1813) was an Italian-French mathematician and astronomer whose profound contributions to mathematics, mechanics, and astronomy established him as one of the most influential scientists of the 18th century. His work bridged the gap between Newtonian mechanics and modern mathematical physics, laying foundational principles for fields such as classical mechanics, celestial mechanics, and number theory. Known for his elegance in mathematical reasoning and his ability to generalize complex problems, Lagrange’s legacy endures in concepts like Lagrangian mechanics, the Lagrange multiplier, and numerous theorems in mathematics.

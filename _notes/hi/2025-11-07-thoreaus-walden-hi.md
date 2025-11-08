@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 'थोरो का वाल्डेन: वन में जीवन'
 translated: true
+type: note
 ---
 
 ### हेनरी डेविड थोरो द्वारा *वाल्डेन* का परिचय

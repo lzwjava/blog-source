@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Erdal Arıkan and Polar Codes
 translated: false
+type: note
 ---
 
 ### Early Life and Education

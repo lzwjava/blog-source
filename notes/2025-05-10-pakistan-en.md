@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Pakistan
 translated: false
+type: note
 ---
 
 Pakistan, officially known as the Islamic Republic of Pakistan, is a sovereign nation located in South Asia, with a rich history, diverse culture, and strategic geopolitical significance. Established on August 14, 1947, as a result of the partition of British India, Pakistan was created as a homeland for the Muslims of the Indian subcontinent, under the leadership of Muhammad Ali Jinnah, the founder of the nation. Its name, coined by Choudhry Rahmat Ali in 1933, is an acronym derived from the names of its regions—Punjab, Afghani (North-West Frontier), Kashmir, Sindh, and Baluchistan—while also meaning "Land of the Pure" in Urdu and Persian.

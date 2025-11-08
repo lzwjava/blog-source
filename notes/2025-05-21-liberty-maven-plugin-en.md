@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Liberty Maven Plugin
 translated: false
+type: note
 ---
 
 To achieve your goal of running a script in IntelliJ IDEA on Windows that quickly manages your Liberty server and builds your program, while ensuring the server is stopped before replacing the EAR file, I recommend using the **Liberty Maven Plugin**. This approach is straightforward, integrates well with your Maven build process, and avoids the issues you’ve encountered with command formatting and batch files.

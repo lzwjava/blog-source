@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: लॉजिक गेट प्रतीक और आकृतियाँ
 translated: true
+type: note
 ---
 
 ### डिजिटल सर्किट में लॉजिक गेट प्रतीक

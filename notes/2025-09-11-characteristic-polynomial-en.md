@@ -8,6 +8,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: Characteristic Polynomial in Linear Algebra
 translated: false
+type: note
 ---
 
 ### **Comprehensive Introduction to the Characteristic Polynomial in Linear Algebra**

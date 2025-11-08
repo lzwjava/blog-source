@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Understanding Pointcut Expressions
 translated: false
+type: note
 ---
 
 You're asking for a comprehensive guide on AspectJ pointcut expressions, specifically focusing on `execution` and how to use wildcards, match class names (prefix/suffix), and also about other advice types like `@AfterReturning`. Let's break this down.

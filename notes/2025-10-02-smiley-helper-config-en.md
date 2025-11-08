@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-code-fast-1
 title: CodeIgniter Smiley Helper Configuration
 translated: false
+type: note
 ---
 
 ### Overview

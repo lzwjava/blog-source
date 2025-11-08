@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Exploring Guangzhou's Historic Old Districts
 translated: false
+type: note
 ---
 
 ### Exploring Guangzhou's Historic Charm: Old Streets, Houses, and Sites

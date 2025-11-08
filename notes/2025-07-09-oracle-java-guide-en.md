@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Developers' Oracle Database Guide
 translated: false
+type: note
 ---
 
 ## Table of Contents

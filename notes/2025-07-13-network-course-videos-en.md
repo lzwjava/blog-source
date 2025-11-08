@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Top YouTube Networking Course Videos
 translated: false
+type: note
 ---
 
 Here are some YouTube video recommendations based on the "Computer Networks Technology (02141)" course outline:

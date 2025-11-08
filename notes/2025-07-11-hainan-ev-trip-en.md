@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Hainan EV Road Trip Guide
 translated: false
+type: note
 ---
 
 ### Trip Overview

@@ -7,6 +7,7 @@ layout: post
 model: mistralai/mistral-medium-3.1
 title: NVIDIA Stock Volatility and Outlook
 translated: false
+type: note
 ---
 
 As of September 14, 2025, NVIDIA's stock (NVDA) is experiencing some volatility but remains a dominant force in the semiconductor and AI sectors. Here’s a summary of the latest performance and outlook:

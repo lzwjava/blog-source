@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Java 程式設計基礎學習指南
 translated: true
+type: note
 ---
 
 ## 全國高等教育自學考試

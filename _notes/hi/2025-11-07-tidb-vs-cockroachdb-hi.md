@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: टिडीबी बनाम कॉकरोचडीबी तुलना
 translated: true
+type: note
 ---
 
 ### TiDB बनाम CockroachDB: एक त्वरित तुलना

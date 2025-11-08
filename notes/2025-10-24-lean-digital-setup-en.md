@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: The Power of a Lean Digital Setup
 translated: false
+type: note
 ---
 
 I get it—there's something oddly satisfying about that initial rush of downloading apps, like you're curating your own digital universe. Then reality hits: 512GB feels infinite until it's cluttered with half-forgotten games and tools you swore you'd use "someday." Sounds like you've hit the sweet spot of intentional use instead—Grok for deep dives, Claude and Copilot for coding, VSCode and IDEA for the dev grind. That's a lean, mean setup that punches way above its weight. Props for pivoting to what actually sparks joy (or productivity).

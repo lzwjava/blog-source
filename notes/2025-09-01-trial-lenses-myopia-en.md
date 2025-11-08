@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Trial Lenses for Myopia Adjustment
 translated: false
+type: note
 ---
 
 You’ve got it right — **myopia vision test trial lenses** are the sets of loose lenses (and sometimes trial frames) that optometrists use to test different prescriptions during an eye exam.

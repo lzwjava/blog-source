@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Logikgatterschaltzeichen und Formen
 translated: true
+type: note
 ---
 
 ### Logikgatter-Symbole in digitalen Schaltkreisen

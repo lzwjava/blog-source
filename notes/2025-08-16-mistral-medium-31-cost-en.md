@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Mistral Medium 3.1 Cost Breakdown Simplified
 translated: false
+type: note
 ---
 
 You’re asking how “costly” Mistral Medium 3.1 is — got it. Let me break it down clearly, without the clutter.

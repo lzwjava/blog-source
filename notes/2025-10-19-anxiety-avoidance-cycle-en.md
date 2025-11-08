@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Anxiety's Paradoxical Cycle of Avoidance
 translated: false
+type: note
 ---
 
 ### Understanding Masatake Morita's Quote on Anxiety Disorders

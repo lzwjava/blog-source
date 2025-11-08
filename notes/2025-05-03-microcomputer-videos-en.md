@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Videos about Microcomputer and Interface Technology
 translated: false
+type: note
 ---
 
 Here are some YouTube video recommendations based on the "Microcomputer and Interface Technology" course outline you provided:

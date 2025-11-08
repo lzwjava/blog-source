@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Ted Hoff
 translated: false
+type: note
 ---
 
 Marcian Edward "Ted" Hoff Jr. is a pioneering American electrical engineer widely recognized as one of the key figures in the invention of the microprocessor. Born in Rochester, New York, in 1937, Hoff's groundbreaking work at Intel in the late 1960s and early 1970s revolutionized the world of computing and laid the foundation for the digital age.

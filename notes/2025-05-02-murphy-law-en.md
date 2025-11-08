@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Murphy's Law
 translated: false
+type: note
 ---
 
 **Definition:**

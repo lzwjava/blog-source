@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Pivotal Cloud Foundry Overview
 translated: false
+type: note
 ---
 
 ### Overview of Pivotal Cloud Foundry (PCF)

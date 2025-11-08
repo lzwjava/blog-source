@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: TCP-Zuverlässigkeit und Verlusterkennung
 translated: true
+type: note
 ---
 
 Lassen Sie mich diese TCP-Zuverlässigkeits-Konversation in klare Konzepte unterteilen:

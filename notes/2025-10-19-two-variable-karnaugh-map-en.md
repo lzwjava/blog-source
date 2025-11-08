@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Two-Variable Karnaugh Map Example
 translated: false
+type: note
 ---
 
 ### Simple Karnaugh Map Example: 2-Variable Function

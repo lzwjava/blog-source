@@ -7,6 +7,7 @@ layout: post
 model: openai/gpt-5
 title: Recent AI Advancements and Breakthroughs
 translated: false
+type: note
 ---
 
 Here’s a summary of some of the **biggest AI developments** over roughly the past two years (2023-2025). If you want, I can pull together more by domain (e.g. healthcare, robotics, climate).

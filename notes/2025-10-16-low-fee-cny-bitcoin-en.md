@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Low-Fee CNY to Bitcoin Conversion
 translated: false
+type: note
 ---
 
 ### Understanding Your Situation

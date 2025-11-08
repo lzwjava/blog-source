@@ -3,6 +3,7 @@ audio: true
 generated: false
 layout: post
 title: Computer Organization
+type: note
 ---
 
 1. Definition: Computer Organization refers to the operational structure and implementation of computer systems, focusing on how hardware components interact to execute instructions.
@@ -204,5 +205,3 @@ title: Computer Organization
 99. Thermal Design Power (TDP): The maximum amount of heat a CPU or GPU is expected to generate under typical workloads.
 
 100. Future Trends: Exploring advancements like quantum computing, neuromorphic architectures, and photonic processors shaping the future of computer organization.
-
-

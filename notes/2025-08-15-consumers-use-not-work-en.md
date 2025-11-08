@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Consumers Focus on Use, Not Work
 translated: false
+type: note
 ---
 
 What you’re describing is actually a very common human pattern, not just about HSBC or banking.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Java Multithreading
 translated: false
+type: note
 ---
 
 Let’s dive into Java multithreading and how to use the `Executor` framework effectively. Multithreading allows your program to run multiple tasks concurrently, improving performance for I/O-bound or CPU-intensive operations. The `Executor` framework simplifies thread management by abstracting away low-level thread creation and handling. I’ll walk you through the basics, then show you how to use `Executor` and related tools.
@@ -213,4 +214,3 @@ public class Main {
 }
 ```
 With the `log4j2.xml` from earlier, this logs task progress to console and file.
-

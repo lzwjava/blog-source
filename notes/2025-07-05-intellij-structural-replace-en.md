@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Mastering IntelliJ's Structural Replace
 translated: false
+type: note
 ---
 
 Sure, let's break down IntelliJ IDEA's Structural Replace feature.

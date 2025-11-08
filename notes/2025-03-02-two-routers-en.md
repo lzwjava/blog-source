@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Using Two Routers
 translated: false
+type: note
 ---
 
 To set up your two TP-Link AX3000 (TL-XDR 3050) routers with your modem in the configuration **Modem → Cable → Router1 → Wireless → Router2**, follow this step-by-step guide. Your modem already has WiFi functionality and an IP address of `192.168.1.1`. We'll configure Router1 as the main router connected to the modem via a cable and Router2 to extend the network wirelessly.

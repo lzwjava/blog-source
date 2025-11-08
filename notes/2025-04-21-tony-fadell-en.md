@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Tony Fadell
 translated: false
+type: note
 ---
 
 Tony Fadell is best known as one of the key figures behind the creation of the iPod and iPhone at Apple. He has deep expertise in product design, hardware engineering, and the intersection of software and hardware for consumer electronics. Here’s a more detailed breakdown of what he knows and is known for:

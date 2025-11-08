@@ -3,6 +3,7 @@ audio: true
 generated: false
 layout: post
 title: Linear Algebra
+type: note
 ---
 
 Here are 100 key points in English about the linear algebra exam, based on the content mentioned earlier:
@@ -206,4 +207,3 @@ Here are 100 key points in English about the linear algebra exam, based on the c
 99. The determinant helps determine whether a system of equations has a unique solution.
 
 100. Understanding linear algebra is essential for more advanced topics in mathematics, physics, economics, and computer science.
-

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Application Metrics in Java
 translated: false
+type: note
 ---
 
 The `com.yammer.metrics` library, originally developed by Yammer, is now part of the **Dropwizard Metrics** library. It provides a robust way to collect and report application metrics in Java, helping you monitor performance aspects like request counts, response times, and more. Below is a guide on how to use it effectively.

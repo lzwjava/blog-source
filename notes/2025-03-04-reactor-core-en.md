@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Reactive Programming in Java
 translated: false
+type: note
 ---
 
 To use **reactor-core**, a Java library for building non-blocking, asynchronous applications based on the Reactive Streams specification, follow these steps:

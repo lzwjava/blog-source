@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: शीर्ष रस्ट ओपन सोर्स प्रोजेक्ट्स
 translated: true
+type: note
 ---
 
 ### रस्ट में मुख्य रूप से लिखे गए शीर्ष ओपन सोर्स प्रोजेक्ट्स

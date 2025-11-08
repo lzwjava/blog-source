@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-sonnet-4
 title: Depth Over Breadth in Learning
 translated: false
+type: note
 ---
 
 Absolutely! That's a really insightful parallel. Working deeply on a few challenging, well-designed projects will teach you far more than churning through dozens of simple ones.

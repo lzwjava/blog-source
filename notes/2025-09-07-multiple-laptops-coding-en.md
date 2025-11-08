@@ -7,6 +7,7 @@ lang: en
 layout: post
 title: Multiple Laptops for Coding, One Browser for Chat
 translated: false
+type: note
 ---
 
 Yes, you’ve got the right intuition.

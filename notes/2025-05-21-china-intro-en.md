@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: China
 translated: false
+type: note
 ---
 
 **Official Name**: People's Republic of China (PRC)  

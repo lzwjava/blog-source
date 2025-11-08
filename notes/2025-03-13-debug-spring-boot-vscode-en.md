@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Debugging Spring Boot Applications in Visual Studio Code
 translated: false
+type: note
 ---
 
 To debug a Maven Spring Boot project in Visual Studio Code (VSCode), you can follow these straightforward steps to set up and run your application in debug mode. This guide assumes you have a basic Maven Spring Boot project with a `pom.xml` file and a main class annotated with `@SpringBootApplication`. Here’s how to do it:

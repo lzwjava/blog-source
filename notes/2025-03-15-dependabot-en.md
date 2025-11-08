@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Removing Dependabot
 translated: false
+type: note
 ---
 
 To remove Dependabot from GitHub Actions, you need to disable its ability to create pull requests that trigger workflows and, optionally, remove any custom workflows specifically tied to Dependabot. Below are the steps to achieve this. Note that I assume "dependant bot" in your query refers to "Dependabot," a common tool in GitHub for dependency management.

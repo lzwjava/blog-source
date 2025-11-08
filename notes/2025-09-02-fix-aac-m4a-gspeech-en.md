@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fix AAC M4A for Google Speech API
 translated: false
+type: note
 ---
 
 Yep—your file is **AAC in an M4A container** (iPhone Voice Memos). Google Speech-to-Text v2 Batch often fails to auto-decode AAC/M4A and returns that exact error. Convert to a supported codec/container first—then either keep `AutoDetectDecodingConfig()` or (better) specify the decoding explicitly.

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Creación de Cuentas de Usuario en Ubuntu
 translated: true
+type: note
 ---
 
 ### Crear un nuevo usuario en Ubuntu Linux

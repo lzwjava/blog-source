@@ -5,4 +5,5 @@ lang: en
 layout: post
 title: riemann
 translated: false
+type: note
 ---

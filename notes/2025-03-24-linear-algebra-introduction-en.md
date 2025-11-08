@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Linear Algebra - Introduction to Scalars, Vectors, and Matrices
 translated: false
+type: note
 ---
 
 ## **1. Introduction**  

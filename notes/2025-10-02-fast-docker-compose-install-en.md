@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast:free
 title: Fast Docker Compose Installation Methods
 translated: false
+type: note
 ---
 
 ### Fast Alternative Methods to Download/Install Docker Compose on Ubuntu

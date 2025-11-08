@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Understanding the Data Link Layer
 translated: false
+type: note
 ---
 
 ### Understanding the Data Link Layer: A Quick Dive

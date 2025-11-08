@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Idempotent Elements and Operations Explained
 translated: false
+type: note
 ---
 
 ### Definition of Idempotent

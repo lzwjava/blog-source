@@ -7,6 +7,7 @@ layout: post
 model: moonshotai/kimi-k2-thinking
 title: P2P通信的无服务器神话
 translated: true
+type: note
 ---
 
 很好的问题！你确实将**点对点（P2P）原理**与现代通信应用正确关联起来了，但这里存在一个关键区别：**PPP（点对点协议）** 在**数据链路层（第二层）** 运行，用于直接串行/调制解调器连接，而像RustDesk或web3聊天这样的应用则在**应用层（第七层）** 使用不同的P2P技术运行。

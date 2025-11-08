@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Identify Tables with Data in Oracle DB
 translated: false
+type: note
 ---
 
 In Oracle Database, if you’re exploring schemas and finding that some tables appear "empty" when you click on them (e.g., via a GUI tool like SQL Developer or Toad), it doesn’t necessarily mean they have no data. There could be several reasons: permissions, filters, or you’re simply looking at the wrong tables. To systematically find out which tables in a schema contain data, you can query the database metadata or inspect the tables directly. Here’s how to do it:

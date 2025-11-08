@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Oracle JDBC Driver
 translated: false
+type: note
 ---
 
 Oracle JDBC (Java Database Connectivity) drivers allow Java applications to connect to and interact with Oracle databases. Let me explain the key components and how to use them.

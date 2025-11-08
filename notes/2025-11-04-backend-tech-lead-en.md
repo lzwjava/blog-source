@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Backend Tech Lead Priorities in Enterprise
 translated: false
+type: note
 ---
 
 ### Overview of a Backend Tech Lead's Focus in Big Companies/Banks

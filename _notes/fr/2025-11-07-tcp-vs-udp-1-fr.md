@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Différences entre les connexions TCP et UDP
 translated: true
+type: note
 ---
 
 Vous avez la bonne intuition ! Laissez-moi clarifier les différences clés :

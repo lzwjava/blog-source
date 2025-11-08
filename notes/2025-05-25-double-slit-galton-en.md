@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Double-Slit Experiment and Galton board
 translated: false
+type: note
 ---
 
 The double-slit experiment and the Galton board are related in that both illustrate fundamental concepts of probability and wave-like behavior, but they operate in very different domains: quantum mechanics for the double-slit experiment and classical probability for the Galton board. Here’s how they connect and differ:

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'Benjamin Peirce: Father of American Mathematics'
 translated: false
+type: note
 ---
 
 **Benjamin Peirce (1809-1880) was a pivotal figure in the development of American mathematics and science during the 19th century.** Often hailed as the "Father of pure mathematics" in America, his influence extended across various fields, including celestial mechanics, number theory, algebra, and the philosophy of mathematics.

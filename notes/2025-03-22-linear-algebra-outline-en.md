@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Course Outline for Linear Algebra 02198
 translated: false
+type: note
 ---
 
 ### Key Points

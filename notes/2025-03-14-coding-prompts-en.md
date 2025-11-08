@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Common Prompts for Coding Tasks
 translated: false
+type: note
 ---
 
 Here are some often-used prompts for various coding tasks, organized by category. These prompts are commonly employed when writing code, refactoring, changing variable names, and performing other related activities, especially in contexts like IDEs, code editors, or when interacting with AI coding assistants.

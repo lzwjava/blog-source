@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Course 00040 Introduction to Law
 translated: false
+type: note
 ---
 
 ### Key Points

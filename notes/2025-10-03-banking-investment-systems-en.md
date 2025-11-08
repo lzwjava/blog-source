@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Banking and Investment Systems Overview
 translated: false
+type: note
 ---
 
 ### Typical Financial Projects/Systems in Banking

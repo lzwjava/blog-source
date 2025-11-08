@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Ubuntu Proxy Bypass Hosts Configuration
 translated: false
+type: note
 ---
 
 ### Setting Multiple Hosts in Ubuntu's Manual Proxy Settings

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Notable Pianist
 translated: false
+type: note
 ---
 
 The world of classical and contemporary piano has produced many virtuosos whose performances have defined the art. Here’s a list of some of the best and most influential pianists, both historical and modern:

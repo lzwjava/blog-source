@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Símbolos y Formas de las Compuertas Lógicas
 translated: true
+type: note
 ---
 
 ### Símbolos de Compuertas Lógicas en Circuitos Digitales

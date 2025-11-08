@@ -7,6 +7,7 @@ layout: post
 model: anthropic/claude-4.5-sonnet
 title: Understanding TCP's Sliding Window Mechanism
 translated: false
+type: note
 ---
 
 Great question! Let me break down TCP's sliding window mechanism in an intuitive way.

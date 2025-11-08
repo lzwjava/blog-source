@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Advanced Algorithms
 translated: false
+type: note
 ---
 
 The MIT course "Advanced Algorithms" is a graduate-level course that delves into sophisticated algorithmic techniques and computational models. It serves as a capstone course, aiming to equip students with the ability to understand and apply advanced algorithmic thinking to complex problems. Here are some of the core ideas and algorithms covered in the course:

@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Jerome Friedman and Gradient Boosting
 translated: false
+type: note
 ---
 
 ### Introduction to Jerome H. Friedman

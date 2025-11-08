@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Centrer des éléments de formulaire empilés avec Flexbox
 translated: true
+type: note
 ---
 
 ```css

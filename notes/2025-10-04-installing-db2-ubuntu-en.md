@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Installing IBM Db2 on Ubuntu
 translated: false
+type: note
 ---
 
 ### Installing IBM Db2 12.1.2 on Ubuntu 22.04 or 24.04 from `ibm_db2_v12.1.2_linuxx64_server_dec.tar.gz`

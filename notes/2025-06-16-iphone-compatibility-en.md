@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: 'iPhone 4 vs. iPhone 6: 2025 Compatibility'
 translated: false
+type: note
 ---
 
 Using a second-hand iPhone 4 or iPhone 6 in 2025 comes with significant limitations due to their outdated hardware and lack of iOS updates. Below, I’ll outline the compatibility of apps and software for each device, focusing on what works, what doesn’t, and why, based on their last supported iOS versions and hardware constraints.

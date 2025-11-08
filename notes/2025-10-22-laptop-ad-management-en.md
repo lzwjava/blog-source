@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Managing Laptop Access with Active Directory
 translated: false
+type: note
 ---
 
 ### What is Active Directory (AD) in Windows?

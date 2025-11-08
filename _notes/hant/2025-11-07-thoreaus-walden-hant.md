@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: 梭羅的瓦爾登湖林居歲月
 translated: true
+type: note
 ---
 
 ### 亨利·大衛·梭羅《湖濱散記》導論

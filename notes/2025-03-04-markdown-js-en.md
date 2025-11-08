@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: JavaScript library for Markdown
 translated: false
+type: note
 ---
 
 It seems like you're asking about how to use the `marked` library, version `^0.3.6`, which is a JavaScript library for parsing Markdown text and converting it to HTML. Since you're referencing a specific version with the `^0.3.6` notation (likely from a `package.json` file in a Node.js project), I'll guide you through using this older version of `marked`. Note that version `0.3.6` is quite old (released around 2016), and the library has evolved significantly since then. However, I'll stick to what works for that version.

@@ -5,6 +5,7 @@ lang: en
 layout: post
 title: Stay Safe in a Metal Car During Storms
 translated: false
+type: note
 ---
 
 Yes, it is generally safe to sit in a car during a thunderstorm with rain, as long as it's a hard-topped vehicle with a metal roof and sides, and all windows are closed. The metal body of the car acts as a Faraday cage, directing any lightning strike around the occupants and into the ground via the frame and tires, rather than through the interior. This provides better protection than being outdoors or in an open structure. However, it's not because of the rubber tires alone—they play a minor role, and the car could still sustain damage like blown tires, electrical issues, or even a fire if struck directly. Convertibles, motorcycles, or vehicles with fiberglass/plastic shells offer no such protection and are unsafe. If possible, avoid driving in poor visibility from heavy rain, and pull over safely until the storm passes.

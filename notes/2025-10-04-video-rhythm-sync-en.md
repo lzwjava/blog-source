@@ -7,6 +7,7 @@ layout: post
 model: x-ai/grok-4-fast
 title: Syncing Video Speed to Music Rhythm
 translated: false
+type: note
 ---
 
 ### Syncing Video Speed to Music Rhythm in CapCut
