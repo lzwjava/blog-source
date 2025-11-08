@@ -13,13 +13,6 @@ def update_front_matter(file_path):
             print(f"Could not extract date from filename: {filename}")
             return
         file_date_str = date_match.group(1)
-        file_date = datetime.datetime.strptime(file_date_str, "%Y-%m-%d").date()
-
-        # Check if the file date is within the specified range
-        start_date = datetime.date(2025, 1, 16)
-        today = datetime.date.today()
-        if not (start_date <= file_date <= today):
-            return  # Skip files outside the date range
 
         with open(file_path, "r", encoding="utf-8") as infile:
             content = infile.read()
