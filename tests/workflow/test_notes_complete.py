@@ -23,11 +23,14 @@ def extract_language_from_filename(filename):
 def scan_translated_notes():
     notes_by_base_name = defaultdict(set)
     for language in SUPPORTED_LANGUAGES:
-        notes_directory = f"_notes/{language}"
+        notes_directory = f"_posts/{language}"
         if not os.path.exists(notes_directory):
             continue
         for filename in os.listdir(notes_directory):
             if not filename.endswith('.md'):
+                continue
+            filepath = os.path.join(notes_directory, filename)
+            if not is_note_type(filepath):
                 continue
             base_name = extract_note_base_name(filename)
             detected_language = extract_language_from_filename(filename)
@@ -35,14 +38,33 @@ def scan_translated_notes():
                 notes_by_base_name[base_name].add(language)
     return notes_by_base_name
 
+def is_note_type(filepath):
+    """Check if a file has type: note in its frontmatter"""
+    if not os.path.exists(filepath):
+        return False
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            content = f.read()
+        first_marker = content.find('---')
+        second_marker = content.find('---', first_marker + 3)
+        if first_marker == -1 or second_marker == -1:
+            return False  # Not proper frontmatter
+        frontmatter = content[first_marker:second_marker + 3]
+        return 'type: note' in frontmatter
+    except:
+        return False
+
 def scan_en_notes_as_reference():
-    """Scan _notes/en as the reference for what notes should exist across all languages"""
+    """Scan _posts/en as the reference for what notes should exist across all languages"""
     reference_note_names = set()
-    reference_directory = "_notes/en"
+    reference_directory = "_posts/en"
     if not os.path.exists(reference_directory):
         return reference_note_names
     for filename in os.listdir(reference_directory):
         if not filename.endswith('.md'):
+            continue
+        filepath = os.path.join(reference_directory, filename)
+        if not is_note_type(filepath):
             continue
         base_name = extract_note_base_name(filename)
         # Verify this is indeed an English note
