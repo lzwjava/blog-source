@@ -34,6 +34,8 @@ for lang in os.listdir('_notes'):
         if args.n is not None and moved_count >= args.n:
             continue
         dest_path = os.path.join(posts_lang_dir, filename)
+        if os.path.exists(dest_path):
+            raise Exception(f"Destination file already exists: {dest_path}")
         shutil.move(filepath, dest_path)
         print(f"Moved {filepath} -> {dest_path}")
         moved_count += 1
