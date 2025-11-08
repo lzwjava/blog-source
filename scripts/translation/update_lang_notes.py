@@ -1,9 +1,7 @@
 import os
 import argparse
-import subprocess
 from dotenv import load_dotenv
 import concurrent.futures
-import frontmatter
 from markdown_translate_client import translate_markdown_file
 import shutil
 
@@ -55,91 +53,6 @@ def get_recent_files(n):
         return []
 
 
-def get_changed_files(commits=10):
-    changed_files = set()
-    languages = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
-    
-    # Get files changed in the original directory from the last N commits
-    print(f"Checking for changes in original directory from last {commits} commits...")
-    try:
-        result = subprocess.run(
-            ["git", "log", "--name-only", "--pretty=format:", f"-{commits}", "--", "original/"],
-            capture_output=True,
-            text=True,
-            cwd="."
-        )
-        if result.returncode != 0:
-            print(f"Git command failed: {result.stderr}")
-            # Fall back to scanning all files if git fails
-            changed_original_files = set()
-            for filename in os.listdir(INPUT_DIR):
-                if filename.endswith(".md"):
-                    changed_original_files.add(os.path.join(INPUT_DIR, filename))
-        else:
-            # Filter for markdown files in original directory
-            git_changed_files = [line.strip() for line in result.stdout.strip().split('\n') if line.strip()]
-            changed_original_files = set()
-            for file_path in git_changed_files:
-                if file_path.startswith("original/") and file_path.endswith(".md"):
-                    changed_original_files.add(file_path)
-            
-            # If no changes found in git, check all files
-            if not changed_original_files:
-                print("No changes found in git history, scanning all files...")
-                for filename in os.listdir(INPUT_DIR):
-                    if filename.endswith(".md"):
-                        changed_original_files.add(os.path.join(INPUT_DIR, filename))
-    except Exception as e:
-        print(f"Error running git command: {e}")
-        # Fall back to scanning all files
-        changed_original_files = set()
-        for filename in os.listdir(INPUT_DIR):
-            if filename.endswith(".md"):
-                changed_original_files.add(os.path.join(INPUT_DIR, filename))
-    
-    print(f"Found {len(changed_original_files)} files to check: {list(changed_original_files)}")
-    
-    for input_file in changed_original_files:
-        filename = os.path.basename(input_file)
-        print(f"Processing file: {input_file}")
-        
-        # Check if file exists, skip if not
-        if not os.path.exists(input_file):
-            print(f"  File does not exist, skipping: {input_file}")
-            continue
-        
-        if not filename.endswith(".md"):
-            print(f"Skipping non-markdown file: {filename}")
-            continue
-            
-        # Extract orig_lang from filename
-        orig_lang = None
-        for possible in ["en", "zh", "ja"]:
-            if filename.endswith(f"-{possible}.md"):
-                orig_lang = possible
-                break
-        if not orig_lang:
-            print(f"Unexpected filename format: {filename}")
-            continue
-
-        try:
-            # Since notes content is read-only and fixed, we don't need to compare content
-            # Just check if translated files exist and add missing ones
-            for target_lang in languages:
-                target_dir = f"_posts/{target_lang}"
-                target_filename = get_output_filename(filename, target_lang)
-                target_file = os.path.join(target_dir, target_filename)
-                if not os.path.exists(target_file):
-                    changed_files.add((input_file, target_lang))
-                    print(f"  Added {input_file} for {target_lang} - missing translation")
-                else:
-                    print(f"  Translation already exists for {input_file} in {target_lang}")
-
-        except Exception as e:
-            print(f"Error processing file {input_file}: {e}")
-            
-    print(f"Finished scanning. Total files needing updates: {len(changed_files)}")
-    return changed_files
 
 
 def main():
@@ -221,10 +134,8 @@ def main():
                         changed_files.add((input_file, lang))
         total_files_to_process = len(changed_files)
     else:
-        changed_files = get_changed_files()
-        if max_files and len(changed_files) > max_files:
-            changed_files = set(list(changed_files)[:max_files])
-        total_files_to_process = len(changed_files)
+        print("Error: Must specify either --file, --n, or another valid option")
+        return
 
     if dry_run:
         print("Dry run mode enabled. No files will be modified.")
