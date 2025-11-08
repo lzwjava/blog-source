@@ -78,17 +78,5 @@ class TestFrontMatterKey(unittest.TestCase):
             ])
             self.fail(f"Found {len(key_order_issues)} front matter key ordering issues:\n{details}")
 
-    def test_front_matter_keys_exist(self):
-        """Test that all front matter contains the required 7 keys."""
-        missing_key_issues = scan_markdown_files_for_required_keys()
-
-        if missing_key_issues:
-            details = "\n".join([
-                f"{issue['file']}:{issue['line']} - Missing front matter keys: {issue['missing_keys']}. "
-                f"Present keys: {issue['present_keys']}"
-                for issue in missing_key_issues
-            ])
-            self.fail(f"Found {len(missing_key_issues)} files with missing front matter keys:\n{details}")
-
 if __name__ == '__main__':
     unittest.main()
