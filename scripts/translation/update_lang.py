@@ -4,11 +4,13 @@ import subprocess
 from dotenv import load_dotenv
 import concurrent.futures
 import frontmatter
+import shutil
 from markdown_translate_client import translate_markdown_file
 
 load_dotenv()
 
 INPUT_DIR = "original"
+INPUT_DIR_NOTES = "notes"
 MAX_THREADS = 10
 
 
@@ -19,6 +21,39 @@ def get_output_filename(filename, target_lang):
         if filename.endswith(suffix):
             return filename.replace(suffix, f"-{target_lang}.md")
     raise Exception(f"Unexpected filename format: {filename}")
+
+
+def copy_original_file(source_file, dest_file):
+    """Copy original file for source language translations."""
+    try:
+        shutil.copy2(source_file, dest_file)
+        print(f"Successfully copied {source_file} to {dest_file}")
+        return True
+    except Exception as e:
+        print(f"Error copying {source_file} to {dest_file}: {e}")
+        raise e
+
+
+def get_recent_files(n, input_dir=INPUT_DIR):
+    """Get the n most recent files by modification time."""
+    try:
+        files = []
+        for filename in os.listdir(input_dir):
+            if filename.endswith(".md"):
+                filepath = os.path.join(input_dir, filename)
+                mtime = os.path.getmtime(filepath)
+                files.append((filepath, mtime))
+
+        # Sort by modification time, newest first
+        files.sort(key=lambda x: x[1], reverse=True)
+
+        # Return just the file paths
+        recent_files = [f[0] for f in files[:n]] if n else [f[0] for f in files]
+        print(f"Found {len(recent_files)} recent files: {recent_files}")
+        return recent_files
+    except Exception as e:
+        print(f"Error getting recent files: {e}")
+        return []
 
 
 def get_changed_files(commits=10):
@@ -187,6 +222,17 @@ def main():
         default=10,
         help="Number of recent commits to check for changes (default: 10).",
     )
+    parser.add_argument(
+        "--notes",
+        action="store_true",
+        help="Process notes instead of posts.",
+    )
+    parser.add_argument(
+        "--n",
+        type=int,
+        default=None,
+        help="Number of most recent files to process by modification time (notes only).",
+    )
     args = parser.parse_args()
     target_language = args.lang
     dry_run = args.dry_run
@@ -194,15 +240,43 @@ def main():
     max_files = args.max_files
     model = args.model
     commits = args.commits
+    is_notes = args.notes
+    n_recent = args.n
 
     if target_language == "all":
         languages = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
     else:
         languages = [target_language]
 
+    # Determine input directory based on --notes flag
+    current_input_dir = INPUT_DIR_NOTES if is_notes else INPUT_DIR
+
     if input_file:
         changed_files = {(input_file, lang) for lang in languages}
         total_files_to_process = len(changed_files)
+    elif is_notes:
+        if n_recent is not None:
+            # Handle notes case with --n option
+            recent_files = get_recent_files(n_recent, current_input_dir)
+            changed_files = set()
+            for input_file in recent_files:
+                orig_lang = None
+                filename = os.path.basename(input_file)
+                for possible in ["en", "zh", "ja"]:
+                    if filename.endswith(f"-{possible}.md"):
+                        orig_lang = possible
+                        break
+                if orig_lang:
+                    for lang in languages:
+                        target_filename = get_output_filename(filename, lang)
+                        target_file = os.path.join(f"_notes/{lang}", target_filename) if is_notes else os.path.join(f"_posts/{lang}", target_filename)
+                        if not os.path.exists(target_file):
+                            changed_files.add((input_file, lang))
+            total_files_to_process = len(changed_files)
+        else:
+            # For notes without --n, we need all files in notes directory
+            print("Error: Must specify --n for notes processing")
+            return
     else:
         changed_files = get_changed_files(commits)
         if max_files and len(changed_files) > max_files:
@@ -221,14 +295,29 @@ def main():
         futures = []
         for filename, lang in changed_files:
             input_file = filename
-            output_dir = f"_posts/{lang}"
+            output_dir = f"_notes/{lang}" if is_notes else f"_posts/{lang}"
             os.makedirs(output_dir, exist_ok=True)
             output_filename = get_output_filename(os.path.basename(filename), lang)
             output_file = os.path.join(output_dir, output_filename)
-            print(f"Submitting translation job for {filename} to {lang}...")
-            future = executor.submit(
-                translate_markdown_file, input_file, output_file, lang, model
-            )
+
+            # Get the original language from the filename
+            orig_lang = None
+            filename_base = os.path.basename(filename)
+            for possible in ["en", "zh", "ja"]:
+                if filename_base.endswith(f"-{possible}.md"):
+                    orig_lang = possible
+                    break
+
+            if is_notes and orig_lang == lang:
+                # If target language is same as source language, copy the file (notes case)
+                print(f"Copying original file {filename} to {output_file}...")
+                future = executor.submit(copy_original_file, input_file, output_file)
+            else:
+                # Otherwise, translate it
+                print(f"Submitting translation job for {filename} to {lang}...")
+                future = executor.submit(
+                    translate_markdown_file, input_file, output_file, lang, model
+                )
             futures.append(future)
         for future in concurrent.futures.as_completed(futures):
             try:
