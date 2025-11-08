@@ -1,92 +1,45 @@
 import os
 import argparse
 import frontmatter
+import re
+from tests.workflow.test_front_matter import scan_markdown_files_for_front_matter_key_order, scan_markdown_files_for_front_matter_issues
 
-def scan_markdown_files_for_front_matter_key_order(verbose=False):
-    """Scan all markdown files for front matter where keys are not in alphabetical order."""
+# Wrapper to maintain existing interface
+def scan_markdown_files_for_front_matter_key_order_wrapper(verbose=False):
+    """Wrapper around imported function to maintain interface that returns (issues, total_scanned)."""
+    # Get issues from the imported function
+    raw_issues = scan_markdown_files_for_front_matter_key_order()
+
+    # Transform issues to match original format
     issues = []
+    for issue in raw_issues:
+        try:
+            # Load the post with frontmatter for fixing
+            post = frontmatter.load(issue['file'])
+            issues.append({
+                'file_path': issue['file'],
+                'post': post,
+                'actual_keys': issue['actual_order'],
+                'sorted_keys': issue['expected_order']
+            })
+        except Exception as e:
+            if verbose:
+                print(f"Error loading frontmatter for {issue['file']}: {e}")
+            continue
+
+    # Calculate total_scanned by counting files in the same directories
     total_files_scanned = 0
-    directories_with_files = set()
-
-    # Define directories to scan
-    # Languages from update_lang_notes.py
-    languages = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
-
-    # Base directories
+    # Define directories to scan (same as in test function)
     directories_to_scan = ['_posts', 'original', 'notes', '_notes']
-
-    # Add language-specific subdirectories
-    for lang in languages:
-        directories_to_scan.append(f"_posts/{lang}")
-        directories_to_scan.append(f"_notes/{lang}")
-
-    if verbose:
-        print(f"Scanning directories: {', '.join(directories_to_scan)}")
 
     for directory in directories_to_scan:
         if not os.path.exists(directory):
-            if verbose:
-                print(f"Directory '{directory}' does not exist, skipping.")
             continue
-
-        if verbose:
-            print(f"Scanning directory: {directory}")
-
-        # Scan files directly in this directory (non-recursive)
-        try:
-            files = os.listdir(directory)
-        except PermissionError as e:
-            if verbose:
-                print(f"Permission denied accessing {directory}: {e}")
-            continue
-
-        for filename in files:
-                if not filename.endswith('.md'):
-                    continue
-
-                file_path = os.path.join(directory, filename)
-                total_files_scanned += 1
-
-                if verbose and total_files_scanned % 100 == 0:
-                    print(f"Scanned {total_files_scanned} files so far...")
-
-                try:
-                    # Use frontmatter to parse the file
-                    post = frontmatter.load(file_path)
-
-                    # Check if the file has front matter
-                    if not post.metadata:
-                        if verbose:
-                            print(f"Skipping {file_path}: no front matter")
-                        continue
-
-                    # Get the keys from the metadata
-                    actual_keys = list(post.metadata.keys())
-                    sorted_keys = sorted(actual_keys)
-
-                    # Check if keys are in alphabetical order
-                    if actual_keys != sorted_keys:
-                        issues.append({
-                            'file_path': file_path,
-                            'post': post,
-                            'actual_keys': actual_keys,
-                            'sorted_keys': sorted_keys
-                        })
-                        if verbose:
-                            print(f"Found issue in {file_path}: keys out of order")
-
-                except Exception as e:
-                    # Skip files that can't be parsed (not valid markdown, no front matter, etc.)
-                    if verbose:
-                        print(f"Error parsing {file_path}: {e}")
-                    continue
-
-    if verbose:
-        print(f"Total files scanned: {total_files_scanned}")
-        if directories_with_files:
-            print("Subdirectories containing markdown files:")
-            for subdir in sorted(directories_with_files):
-                print(f"  {subdir}")
+        # Walk through all subdirectories
+        for root, dirs, files in os.walk(directory):
+            for filename in files:
+                if filename.endswith('.md'):
+                    total_files_scanned += 1
 
     return issues, total_files_scanned
 
