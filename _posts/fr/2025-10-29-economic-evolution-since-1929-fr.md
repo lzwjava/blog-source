@@ -1,0 +1,29 @@
+---
+audio: false
+generated: true
+image: false
+lang: fr
+layout: post
+model: x-ai/grok-4-fast
+title: Évolution économique depuis 1929
+translated: true
+type: note
+---
+
+Vous avez absolument raison — le paysage économique en 2008 (et encore plus aujourd'hui en 2025) est fondamentalement transformé par rapport à 1929. Le monde d'alors était bien moins interconnecté, avec des systèmes monétaires rigides comme l'étalon-or, une coordination commerciale mondiale minimale et des économies fortement dépendantes de la manufacture et de l'agriculture sans les amortisseurs diversifiés dont nous disposons aujourd'hui. Les comparaisons avec 1929 peuvent sembler comparer une Model T à une Tesla : utiles pour repérer les folies humaines intemporelles comme les bulles spéculatives, mais pas un plan parfait pour ce qui se passe aujourd'hui. Cela dit, bien que nous n'ayons pas *besoin* de nous attarder sur 1929, un coup d'œil sur les différences souligne à quel point nous avons progressé en matière de résilience et d'outils pour traverser les tempêtes.
+
+Pour clarifier les choses, voici une comparaison rapide des aspects clés à travers les trois époques, basée sur les schémas historiques et les indicateurs actuels (fin octobre 2025, au milieu de l'engouement pour l'IA, des craintes tarifaires et un ratio capitalisation boursière/PIB atteignant 220 % — bien au-dessus des sommets de 1929) :
+
+| Aspect              | Krach de 1929                          | Crise Financière de 2008               | Conditions de Marché en 2025              |
+|---------------------|----------------------------------------|----------------------------------------|-------------------------------------------|
+| **Structure Économique** | Ère pré-New Deal ; économie centrée sur les États-Unis, mixte agro-industriel avec une régulation bancaire faible et aucune assurance des dépôts. L'étalon-or limitait la flexibilité. | Financement à effet de levier et dominance de l'immobilier ; banques globales interconnectées mais déclenchement toujours américain. La banque parallèle a explosé les risques. | Économie de services axée sur la tech/l'IA ; les transactions algorithmiques dominent (80 %+ du volume). Des secteurs diversifiés comme les énergies renouvelables et la biotechnologie ajoutent des amortisseurs, mais la concentration technologique des "Magnificent 7" (40 % du S&P) rappelle d'anciens risques. |
+| **Intégration Mondiale** | Minimale — le commerce représentait ~5 % du PIB ; les tarifs Smoot-Hawley ont aggravé l'isolement. Les crises se propageaient lentement par le transport maritime/les nouvelles. | Très mondialisée ; la crise des subprimes s'est propagée via les produits dérivés vers l'Europe/l'Asie. Les swaps de la BCE/FMI ont aidé à la contenir. | Ultra-interconnectée (le commerce représente ~60 % du PIB mondial) ; transmission instantanée via les marchés numériques 24h/24 et 7j/7 et les crypto-monnaies. Mais les chaînes d'approvisionnement diversifiées (stratégie "China+1") la rendent moins dépendante des États-Unis qu'en 2008. |
+| **Diversité du Marché** | Spéculation boursière généralisée (P/E ~20) ; la dette sur marge a alimenté une chute de 89 % du Dow, mais peu de classes d'actifs (pas d'ETF/crypto). | L'immobilier/CDOs comme "diversifiés" mais de manière illusoire ; les actions ont chuté de 57 %, mais les obligations/le cash offraient quelques refuges. | Bien plus vaste — actions, obligations, matières premières, crypto-monnaies, actifs alternatifs. La bulle de l'IA rappelle les actions radio de 1929, mais des options comme le capital-investissement et les actifs verts répartissent le risque. Pourtant, une dette sur marge élevée (plus de 1 000 milliards de dollars) signale de l'écume. |
+| **Causes de la Pression** | Frénésie spéculative + resserrement de la Fed ; l'absence de solutions rapides a conduit à 25 % de chômage. | Cupidité des subprimes + effet de levier ; éclatement de la bulle immobilière. | Surévaluation de la tech/IA (CAPE de Shiller ~39, proche des sommets de 1929) + tarifs/inflation. Moins d'effet de levier dans les banques, plus dans la spéculation des particuliers. |
+| **Réponses Politiques** | Laissez-faire ; la Fed a initialement augmenté les taux, approfondissant la déflation. La reprise a pris 25 ans. | Agressive — renflouements de 700 milliards de dollars, assouplissement quantitatif, taux zéro. A évité une dépression mais a engendré inégalité/risque moral. | Boîte à outils proactive : Fed à 4,25-4,5 %, mais l'inflation (2,9 %) freine les baisses profondes. La puissance budgétaire (infrastructures post-COVID) + la coordination mondiale (G20) dépassent de loin 1929. Des trous dans le filet, cependant — pas d'impression illimitée sans contrecoup. |
+
+En bref, la configuration actuelle est plus globale (les crises frappent partout rapidement mais sont contenues plus vite), diversifiée (on peut passer des actions aux jetons IA ou aux obligations solaires) et équipée des leçons des deux effondrements passés — comme les tests de résistance post-2008 qui ont renforcé les banques. Le fantôme de 1929 plane dans la psychologie des bulles, mais nous ne revivrons pas toute l'horreur grâce à ces évolutions. En fait, 2025 ressemble plus à un remix suralimenté de 2008 : même cupidité, meilleurs freins.
+
+[What We've Learned From 150 Years of Stock Market Crashes](https://www.morningstar.com/economy/what-weve-learned-150-years-stock-market-crashes)
+[The Market Looks Exactly Like 1929, But Everyone Keeps Buying Anyway](https://medium.com/@finomicsedge/the-market-looks-exactly-like-1929-but-everyone-keeps-buying-anyway-f710c4a71c62)
+[Ghosts of 1929 offer lessons for investors in 2025](https://www.reuters.com/markets/us/ghosts-1929-offer-lessons-investors-today-fridson-2025-04-25/)
