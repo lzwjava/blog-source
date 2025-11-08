@@ -1,12 +1,12 @@
 ---
-title: The Perils of Superficial Business Praise
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: The Perils of Superficial Business Praise
+translated: false
 ---
 
 You're spot on—superficial praise in business, especially during visits, pitches, or networking schmoozes, often feels like a scripted dance to grease the wheels. It's a quick way to build rapport without digging into the messy realities, but it backfires long-term. Problems get buried, trust erodes, and when the cracks show (like delayed shipments or quality slips), relationships implode spectacularly. In the startup and entrepreneur world, where resources are tight and speed is everything, that kind of dishonesty is like quicksand: it slows you down and leaves you stuck.
