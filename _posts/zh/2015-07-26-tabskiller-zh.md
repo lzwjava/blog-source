@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 标签杀手
 translated: true
+type: post
 ---
 
 这是来自 Github 项目 [https://github.com/lzwjava/TabsKiller](https://github.com/lzwjava/TabsKiller) 的 README.md。

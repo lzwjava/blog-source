@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 拥抱变化
 translated: true
+type: post
 ---
 
 我把标题从“总是有背景音”改为“更喜欢有背景音”。这不仅仅是词语或标题的改变；它还需要更改文件名、PDF文件名、音频文件名和URL。

@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: AI Code Editors
+type: post
 ---
 
 I have tried several AI code editing tools, including GitHub Copilot, Windsurf, and Cursor. Here are my observations:

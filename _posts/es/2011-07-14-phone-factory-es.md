@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Una visita a una fábrica de fabricación de teléfonos
 translated: true
+type: post
 ---
 
 Esta entrada fue originalmente escrita en chino y publicada en Qzone.

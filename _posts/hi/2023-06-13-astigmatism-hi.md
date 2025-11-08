@@ -7,6 +7,7 @@ layout: post
 title: मायोपिया को उलटने में एस्टिग्मैटिज़्म
 top: 10
 translated: true
+type: post
 ---
 
 ## सारांश

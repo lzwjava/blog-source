@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Explorando WebSocket
 translated: true
+type: post
 ---
 
 *Esta entrada del blog fue organizada con la asistencia de ChatGPT-4o.*

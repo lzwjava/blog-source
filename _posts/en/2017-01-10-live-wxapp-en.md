@@ -6,9 +6,8 @@ lang: en
 layout: post
 title: Live Wxapp
 translated: false
+type: post
 ---
-
-
 
 This is the README.md from github project [https://github.com/lzwjava/live-wxapp](https://github.com/lzwjava/live-wxapp).
 
@@ -25,4 +24,3 @@ Fun Live is a cutting-edge knowledge live broadcast platform designed to facilit
 <img src="./readme/wxapp2.jpg" width="300px" /><img/>
 
 </div>
-

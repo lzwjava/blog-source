@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 大規模言語モデルの最大コンテキスト長
 translated: true
+type: post
 ---
 
 最近、[AI-Powered Git Commit Messages](./gitmessageai-en)で説明されているように、DeepSeek APIを使用してコミットメッセージを生成しました。

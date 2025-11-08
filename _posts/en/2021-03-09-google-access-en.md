@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: How to Access Google
 translated: false
+type: post
 ---
 
 This post was originally written in Chinese.

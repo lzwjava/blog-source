@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Car Parking Dilemma
 translated: false
+type: post
 ---
 
 I have two cars in my parents' apartment community, but we only have one parking slot inside the building. We don't want to rent another parking slot, so I have to park my second car in the public area. In the public area, there are legal parking slots, but they are not enough. Often, there are twenty or thirty cars parked on the road. The guard will stick a red paper on the cars' front windows to warn them.
@@ -46,5 +47,3 @@ Next time, I used hot water at home to remove it, which worked well. However, th
 {: .centered }
 ![](assets/images/parking/p.jpg){: .responsive }
 *Source: JD.com*{: .caption }
-
-

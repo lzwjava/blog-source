@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: Web حي
 translated: true
+type: post
 ---
 
 هذا هو README.md من مشروع github [https://github.com/lzwjava/live-web](https://github.com/lzwjava/live-web).

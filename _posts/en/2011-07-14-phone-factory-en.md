@@ -6,9 +6,8 @@ lang: en
 layout: post
 title: A Visit to a Phone Manufacturing Factory
 translated: false
+type: post
 ---
-
-
 
 This post was originally written in Chinese and published on Qzone.
 

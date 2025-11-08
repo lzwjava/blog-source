@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: लार्ज लैंग्वेज मॉडल्स की अधिकतम संदर्भ लंबाई (Maximum Context Length)
 translated: true
+type: post
 ---
 
 मैंने हाल ही में DeepSeek API का उपयोग करके एक कमिट संदेश जनरेट किया, जैसा कि [AI-Powered Git Commit Messages](./gitmessageai-en) में बताया गया है।

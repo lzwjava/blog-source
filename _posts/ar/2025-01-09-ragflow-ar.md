@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تجربة RAGFlow
 translated: true
+type: post
 ---
 
 [https://ragflow.io](https://ragflow.io)
@@ -21,4 +22,3 @@ translated: true
 {: .centered }
 ![](assets/images/rag/r2.jpg){: .responsive}
 *المصدر: [https://ragflow.io/](https://ragflow.io/)*{: .caption }
-

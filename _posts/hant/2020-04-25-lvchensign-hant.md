@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Lvchen 簽名
 translated: true
+type: post
 ---
 
 這是來自 GitHub 專案 [https://github.com/lzwjava/lvchensign](https://github.com/lzwjava/lvchensign) 的 README.md。

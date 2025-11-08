@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Do Things Scientifically
 translated: true
+type: post
 ---
 
 Translated by ChatGPT.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Reflections During Startup
 translated: true
+type: post
 ---
 
 ### About Writing

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 學習的智慧
 translated: true
+type: post
 ---
 
 ### 前言

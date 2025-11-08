@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: आल्गोरिदम समस्या समाधान
 translated: true
+type: post
 ---
 
 # अल्गोरिथम समस्या समाधान

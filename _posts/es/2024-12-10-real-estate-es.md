@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Aplicaciones Globales de Bienes Raíces
 translated: true
+type: post
 ---
 
 China:

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 固定價格訂閱已過時
 translated: true
+type: post
 ---
 
 ### 靈活定價模式在訂閱服務中的應用

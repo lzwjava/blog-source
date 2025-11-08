@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: El estado actual y el futuro de la economía china
 translated: true
+type: post
 ---
 
 El exceso de capacidad en la ingeniería civil ha llevado a una sobreproducción en industrias relacionadas como el acero, los materiales de construcción, los materiales de decoración y sus industrias aguas arriba, como la petroquímica del carbón y el petróleo. Actualmente, la ingeniería civil ya no está en auge y se está reduciendo gradualmente la capacidad de producción. En los próximos años, esto inevitablemente provocará un gran número de desempleados.

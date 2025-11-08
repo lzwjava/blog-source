@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Servidor WeImg
 translated: true
+type: post
 ---
 
 Este es el README.md del proyecto de github [https://github.com/lzwjava/weimg-server](https://github.com/lzwjava/weimg-server).

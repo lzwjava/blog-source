@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Building an Efficient Code Review Platform with Vue.js
 translated: false
+type: post
 ---
 
 In today’s fast-paced development world, code quality is paramount. A well-structured code review process can elevate a team’s output and sharpen individual skills. Recently, I explored a fascinating project—a code review service built with Vue.js that connects developers with expert reviewers to refine their codebases. Let’s dive into the technical underpinnings of this platform, focusing on its front-end architecture, component design, and styling techniques.
@@ -182,4 +183,3 @@ This code review platform offers valuable lessons:
 4. **Focus on UX**: Smooth transitions and clear CTAs enhance user engagement.
 
 Whether you’re building a code review tool or a different web app, these principles can streamline your development process and delight your users. What’s your next project? Let’s keep the code quality conversation going!
-

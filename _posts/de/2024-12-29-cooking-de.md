@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Kochen mit einer Heißluftfritteuse
 translated: true
+type: post
 ---
 
 Der Luftfritteur ist in letzter Zeit zu meinem liebsten Küchengerät geworden. Ich habe den Midea Air Fryer KZE5004 für etwa 126 CNY gekauft.  

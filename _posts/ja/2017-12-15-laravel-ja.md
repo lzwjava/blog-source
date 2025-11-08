@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Laravelを使って
 translated: true
+type: post
 ---
 
 ウェブ開発に取り組み、強力で使いやすいフレームワークを探しているなら、Laravelがおすすめです。PHPのフレームワークで、優雅な構文、強力な機能、そしてサポートのあるコミュニティが人気を博しています。このブログでは、Laravelの基本を学び、なぜ時間をかける価値があるかをお伝えします。

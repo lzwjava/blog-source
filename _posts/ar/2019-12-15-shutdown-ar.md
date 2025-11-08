@@ -7,6 +7,7 @@ layout: post
 title: اقتراح شركة التصفية
 top: 10
 translated: true
+type: post
 ---
 
 رسالة إلى المساهمين:

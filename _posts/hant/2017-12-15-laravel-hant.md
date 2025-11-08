@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 使用 Laravel
 translated: true
+type: post
 ---
 
 如果你正在進入網頁開發領域，並希望找到一個既強大又易於上手的框架，Laravel 就是你的不二選擇。它是一個 PHP 框架，因其優雅的語法、強大的功能和支持你的社群而迅速風靡開發者世界。在這篇部落格中，我將帶你了解 Laravel 的基本知識，並告訴你為什麼值得你花時間學習。

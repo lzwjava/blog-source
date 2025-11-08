@@ -25,4 +25,3 @@ For this post, I am using an image from Amazon.com.
 {: .centered }
 ![](assets/images/cable-tester/c3.jpg){: .responsive }
 *Source: Self-captured*{: .caption }
-

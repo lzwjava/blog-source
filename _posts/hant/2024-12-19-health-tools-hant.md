@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 血壓計、聽診器與視力表
 translated: true
+type: post
 ---
 
 <div style="text-align: center;">

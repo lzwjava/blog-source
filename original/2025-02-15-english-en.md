@@ -276,5 +276,3 @@ And yet, I also understand that living only with Chinese is fine too. Chinese bo
 Of course, TikTok requires some setup—VPN, SIM card tricks, a spare Android phone. I even taught a friend recently how to use it; it took 30 minutes.
 
 This journey also made me reflect on learning itself. For me, anything that requires discipline and forced persistence won’t work. Only play, joy, and genuine recognition keep me going. Only when I’d rather do this than anything else, can I truly learn.
-
-

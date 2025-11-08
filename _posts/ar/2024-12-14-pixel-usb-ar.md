@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: بيكسل يو إس بي، أدوات مطور آي أو إس، الكتابة بالسحب
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 我與ChatGPT的首次對話
 translated: true
+type: post
 ---
 
 我終於成功註冊了OpenAI帳號來試用ChatGPT。我知道可以通過http://sms-activate.org使用一個假的印度手機號碼來獲取我的短信驗證碼。然而，網站仍然提示錯誤，OpenAI的服務在您所在的國家不可用。我嘗試在手機上使用另一個電子郵件再次註冊。這次，我成功了。然後我與ChatGPT進行了對話。以下是我們之間的對話。它很聰明，但最終我發現它有時並不那麼聰明。哈，有趣。

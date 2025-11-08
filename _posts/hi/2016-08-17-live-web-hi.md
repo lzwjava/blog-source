@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: लाइव वेब
 translated: true
+type: post
 ---
 
 यह `README.md` GitHub पर `lzwjava/live-web` 프로젝्ट से है।

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 他/她/一人
 translated: true
+type: post
 ---
 
 * 使用他/她或一人

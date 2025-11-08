@@ -9,6 +9,7 @@ prompt: Do not translate specific items such as project names, company names, or
 title: 完整人生哲学
 top: 10
 translated: true
+type: post
 ---
 
 ### 目录

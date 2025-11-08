@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Mis Ideas Creativas
 translated: true
+type: post
 ---
 
 Si quieres escribir un ensayo largo y que no sea aburrido, ¿cómo lo haces? Como estoy aprendiendo a escribir en inglés ahora, no puedo expresar muchos temas con fluidez. Así que mi forma de hacerlo es escribir un artículo sobre mis ideas creativas. No es aburrido para mí, ya que son mis nuevas ideas y me gusta compartirlas. No es aburrido para los lectores, ya que de alguna manera son creativas. Porque soy una persona perezosa y carezco de paciencia para escribir cosas aburridas. Y tengo el hábito de acumular mis ideas en la aplicación Microsoft To Do. Escribo brevemente allí, así que aquí selecciono algunas ideas y las explico un poco. Comencemos.

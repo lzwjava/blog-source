@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: プロキシサーバを設定する
 translated: true
+type: post
 ---
 
 * サーバーを設定するには、Outline Managerを使用してください: [https://getoutline.org](https://getoutline.org)。

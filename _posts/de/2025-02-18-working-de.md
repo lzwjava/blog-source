@@ -9,7 +9,6 @@ translated: true
 type: post
 ---
 
-
 - Bevor du Zugriff auf das Code-Repository erhältst, bitte Kollegen um die `pom.xml`-Datei und versuche, Nexus-Abhängigkeiten herunterzuladen.
 
 - Ohne den eigentlichen Code, aber mit den Nexus-Bibliotheken, können wir die JAR-Datei dekompilieren oder mit den Bibliotheken experimentieren. Wir können eine Menge tun. Denke außerhalb der Box.

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: अस्वीकरण
 translated: true
+type: post
 ---
 
 ## अनुवाद

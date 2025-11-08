@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: GFW, Proxy-APIs und VPN-Erkennung
 translated: true
+type: post
 ---
 
 ### Inhaltsverzeichnis

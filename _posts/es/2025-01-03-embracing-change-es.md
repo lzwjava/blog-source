@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Abrazando el Cambio
 translated: true
+type: post
 ---
 
 Cambié mi título de "Siempre tener sonido de fondo" a "Prefiero tener sonido de fondo". No es solo un cambio de palabra o de título; también requirió cambiar nombres de archivos, nombres de archivos PDF, nombres de archivos de audio y URLs.

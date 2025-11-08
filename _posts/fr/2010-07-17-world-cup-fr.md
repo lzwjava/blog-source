@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Coupe du Monde d'hier
 translated: true
+type: post
 ---
 
 Ce billet a été initialement rédigé en chinois et publié sur Qzone.

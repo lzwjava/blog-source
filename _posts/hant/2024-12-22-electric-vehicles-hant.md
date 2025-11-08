@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 電動汽車
 translated: true
+type: post
 ---
 
 ## Neta

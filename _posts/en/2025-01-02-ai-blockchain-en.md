@@ -7,6 +7,7 @@ layout: post
 title: How I Live Well in the AI and Blockchain Era
 top: 10
 translated: false
+type: post
 ---
 
 Is it still useful to write blogs now that we have large language models (LLMs)? If LLMs contain the information you want to share and people use LLMs more, do we still need to provide our own information?
@@ -48,4 +49,3 @@ Regarding the blockchain part, my best approach is to use what I earn to regular
 I thought out a solution for what I do, but what about where I live and who I live with? I want to live in a top AI area; currently, it is San Francisco. However, the internet has no barriers—DeepSeek in China and Mistral in France are also doing a good job. Additionally, I am a college dropout now, getting my associate degree. This has caused some trouble for me in working outside of China. It is important to choose where to live.
 
 So, the latest version of the best way for me to live is to use the latest AI to reside in an AI-friendly city, to learn, share, and create the next more advanced AI. I will use my salary to invest in a few top AI stocks or Bitcoin.
-

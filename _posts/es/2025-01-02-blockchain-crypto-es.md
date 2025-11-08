@@ -7,6 +7,7 @@ layout: post
 title: Criptomoneda y Blockchain
 top: 10
 translated: true
+type: post
 ---
 
 La criptomoneda, al igual que la IA, es conocida por una gran parte de la población. Creo que el conocimiento sobre la criptomoneda es similar a la proporción de personas que tienen acceso a internet gratuito. En países fuera de China, es probable que un mayor porcentaje de la población esté al tanto de las criptomonedas.
@@ -56,4 +57,3 @@ Aparentemente, un bloque puede almacenar más que solo números. Puede contener 
 ¿Por qué almacenamos información en bloques? Para evitar que sea eliminada. No queremos que se pierda información valiosa. Plataformas como Bluesky y Mastodon utilizan blockchains para impulsar sus redes sociales. Es un desarrollo fascinante.
 
 Continuemos aprendiendo a sacar conclusiones.
-

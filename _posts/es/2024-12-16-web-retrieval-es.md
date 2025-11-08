@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Un Caso de Uso para ChatGPT Retrieval Web
 translated: true
+type: post
 ---
 
 Recientemente, necesité actualizar los enlaces de mis publicaciones de blog en un documento de LaTeX. Con un número creciente de publicaciones, agregar manualmente cada enlace era tedioso y propenso a errores. ChatGPT vino al rescate, haciendo este proceso fluido y eficiente.

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Einige Globale Cloud-Plattformen
 translated: true
+type: post
 ---
 
 <div align="center"><img src="/assets/images/cloud/platform.jpg" width="400px"/><img/></div>

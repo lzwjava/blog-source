@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 'Xcode プラグイン: GitHub で表示'
 translated: true
+type: post
 ---
 
 これは、GitHubプロジェクト [https://github.com/lzwjava/Reveal-In-GitHub](https://github.com/lzwjava/Reveal-In-GitHub) からの README.md ファイルです。

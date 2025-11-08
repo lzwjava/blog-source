@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Métodos de crecimiento natural para ganar dinero emprendiendo
 translated: true
+type: post
 ---
 
 En el artículo anterior, "Por qué retirar el fondo de ahorro para pagar a los inversores", hablé sobre un método que se me ocurrió para emprender: probar errores a bajo costo y asociarse con un esfuerzo conjunto. Primero, comienza solo. Ve si puedes emprender y mantenerte por ti mismo. Luego, si decides asociarte, lo mejor es que nadie aporte dinero, sino que se repartan las ganancias según el proyecto y los retornos acordados. Si no encontramos socios dispuestos a compartir tanto las alegrías como las dificultades, significa que aún no estamos listos para asociarnos, y es mejor trabajar solos. Después, asociarse con otra persona, y si se necesita más gente, asociarse con tres personas, etc. Si obtenemos financiamiento y necesitamos contratar empleados, es mejor buscar aquellos que estén dispuestos a aceptar acciones y un salario bajo. Si no encontramos a nadie, significa que aún no estamos listos para expandirnos.

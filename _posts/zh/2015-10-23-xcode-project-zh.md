@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 理解 Xcode 项目文件
 translated: true
+type: post
 ---
 
 如果你曾经在 Xcode 项目中查看过，你可能会遇到一个 `.pbxproj` 文件——一个定义你的应用程序或插件如何构建的结构化文本文件。今天，我们将深入探讨一个来自名为 "Reveal-In-GitHub" 的 Xcode 插件项目的示例文件。别担心——我们不会逐行分析（那会让人感到不堪重负！）。相反，我们将探讨使这个文件运作的关键概念和模式，为你提供理解任何 Xcode 项目文件的坚实基础。

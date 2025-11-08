@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 了解 Xcode 專案檔案
 translated: true
+type: post
 ---
 
 如果你曾經偷看過 Xcode 專案的內部，你可能會遇到一個 `.pbxproj` 文件——一個神秘的結構化文本文件，定義了你的應用程式或插件的構建方式。今天，我們將深入探討一個來自名為 "Reveal-In-GitHub" 的專案的這類文件，這是一個實用的 Xcode 插件。別擔心——我們不會逐行分析（那會讓人感到壓倒性的！）。相反，我們將探索使這個文件運行的關鍵概念和模式，為你提供一個堅實的基礎來理解任何 Xcode 專案文件。

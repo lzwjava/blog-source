@@ -7,6 +7,7 @@ layout: post
 title: Cómo Vivo Bien en la Era de la IA y el Blockchain
 top: 10
 translated: true
+type: post
 ---
 
 ¿Sigue siendo útil escribir blogs ahora que tenemos modelos de lenguaje grandes (LLMs)? Si los LLMs contienen la información que deseas compartir y las personas los usan más, ¿aún necesitamos proporcionar nuestra propia información?
@@ -48,4 +49,3 @@ En cuanto a la parte de blockchain, mi mejor enfoque es usar lo que gano para in
 Pensé en una solución para lo que hago, pero ¿qué pasa con el lugar donde vivo y con quién vivo? Quiero vivir en una de las principales áreas de IA; actualmente, es San Francisco. Sin embargo, internet no tiene barreras: DeepSeek en China y Mistral en Francia también están haciendo un buen trabajo. Además, ahora soy un desertor universitario, obteniendo mi título de asociado. Esto me ha causado algunos problemas para trabajar fuera de China. Es importante elegir bien el lugar donde vivir.
 
 Entonces, la última versión de la mejor manera de vivir para mí es utilizar la IA más avanzada, residir en una ciudad amigable con la IA, aprender, compartir y crear la próxima IA aún más avanzada. Usaré mi salario para invertir en algunas de las principales acciones de IA o en Bitcoin.
-

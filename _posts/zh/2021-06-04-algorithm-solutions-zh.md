@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 算法问题解决方案
 translated: true
+type: post
 ---
 
 这是来自Github项目 [https://github.com/lzwjava/algorithm-solutions](https://github.com/lzwjava/algorithm-solutions) 的 `README.md`。

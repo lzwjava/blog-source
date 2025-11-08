@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: AIパワード Git コミットメッセージ
 translated: true
+type: post
 ---
 
 このPythonスクリプトは、システムのPATHに含まれるディレクトリ、例えば`~/bin`に配置すべきです。

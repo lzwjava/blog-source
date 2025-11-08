@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: المشاريع الجانبية
 translated: true
+type: post
 ---
 
 ## السماء هي الحدود: الرحلة الجوية من غوانغتشو إلى لاسا

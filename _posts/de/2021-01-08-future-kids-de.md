@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Zukünftige Kinder
 translated: true
+type: post
 ---
 
 Im Jahr 2005 gründete Paul Graham den Y Combinator Inkubator. In seinem Artikel „Hiring is Obsolete“ schrieb er:

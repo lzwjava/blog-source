@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 部分提前還按揭的好處
 translated: true
+type: post
 ---
 
 我有一筆103萬元人民幣的房屋貸款，大約在2022年7月從中國農業銀行貸出。

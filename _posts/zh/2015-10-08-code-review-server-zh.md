@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 代码审核服务器
 translated: true
+type: post
 ---
 
 这是来自 GitHub 项目 [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server) 的 README.md。

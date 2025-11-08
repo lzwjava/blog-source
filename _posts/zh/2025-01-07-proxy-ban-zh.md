@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 防火墙、代理API与VPN检测
 translated: true
+type: post
 ---
 
 ### 目录

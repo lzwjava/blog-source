@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: 2018, ya es ayer
 translated: true
+type: post
 ---
 
 1. En 2018, para resumir el año en una frase, nuestro equipo realizó casi 50 proyectos de software para clientes, incluyendo mini programas, sitios web, aplicaciones, juegos, etc. Los proyectos variaban desde 10,000 hasta 300,000, con duraciones que iban desde medio mes hasta cuatro meses, y cada proyecto comenzaba desde la primera línea de código. Después de su lanzamiento, algunos proyectos se volvieron extremadamente populares, alcanzando millones de visitas y generando ingresos de millones. Por supuesto, esto se debió principalmente a la excelencia de nuestros clientes y su capacidad operativa. También hubo proyectos que pasaron desapercibidos. Trabajamos muy duro en estos proyectos, tanto los diseñadores como los ingenieros, y aunque no ganamos mucho dinero, hicimos muchas cosas junto con nuestros clientes y aprendimos mucho. ¡Gracias a todos los clientes que confiaron en nosotros!

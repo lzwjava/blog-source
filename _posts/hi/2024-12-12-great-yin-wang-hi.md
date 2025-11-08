@@ -7,6 +7,7 @@ layout: post
 title: GTY - महान शिक्षक यिन
 top: 20
 translated: true
+type: post
 ---
 
 यह मेरी और Yin Wang की कहानी है। मैंने अभी अपना Twitter अकाउंट चेक किया।

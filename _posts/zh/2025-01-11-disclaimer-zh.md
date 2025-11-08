@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 免责声明
 translated: true
+type: post
 ---
 
 ## 翻译

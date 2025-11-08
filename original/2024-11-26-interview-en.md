@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: 'Java Backend Engineer: Interview Questions Collection'
+type: post
 ---
 
 ## Project Related

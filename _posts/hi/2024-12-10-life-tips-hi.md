@@ -9,6 +9,7 @@ prompt: Do not translate specific items such as project names, company names, or
 title: पूर्ण जीवन दर्शन
 top: 10
 translated: true
+type: post
 ---
 
 ### विषय सूची

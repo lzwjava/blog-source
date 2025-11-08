@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: AndroidManifest.xml ファイルの理解
 translated: true
+type: post
 ---
 
 Android開発に取り組む際、最初に出会うファイルの一つが`AndroidManifest.xml`です。これはアプリの青写真のようなもので、Androidシステムがアプリケーションについて知る必要があるすべての情報を提供します。今日は、「Flower」というアプリ（パッケージ名: `com.lzw.flower`）の例のマニフェストファイルを分解し、その主要なコンポーネント、概念、パターンを探っていきます。

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: ألعاب الأطفال، الذكاء الاصطناعي الصحي، حركات كرة السلة
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

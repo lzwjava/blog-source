@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Betonen Sie Urteilsvermögen anstelle von Sorgen über KI-Betrug
 translated: true
+type: post
 ---
 
 - KI-betrug ist weit verbreitet und wahrscheinlich unmöglich vollständig zu beseitigen.
@@ -17,4 +18,3 @@ translated: true
 - Anstatt uns über KI-betrug Sorgen zu machen, sollten wir ehrgeiziger in Bezug auf die Zukunft werden und uns darauf konzentrieren, sie zu gestalten – ohne uns zu sehr mit Anerkennung zu beschäftigen.
 - Betrug läuft letztendlich auf ehrliches und moralisches Urteilsvermögen hinaus.
 - In Interviews und Offline-Prüfungen ist es immer noch schwierig zu betrügen.
-

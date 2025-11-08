@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Advanced Markdown Usage
+type: post
 ---
 
 ## References

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: La situation actuelle et l'avenir de l'économie chinoise
 translated: true
+type: post
 ---
 
 Le secteur du génie civil souffre d'une surcapacité de production, ce qui entraîne également une surcapacité importante dans les industries connexes telles que l'acier, les matériaux de construction, les matériaux de décoration, ainsi que leurs industries en amont, comme la pétrochimie du charbon et du pétrole. Aujourd'hui, le génie civil n'est plus aussi prospère et est en train de réduire progressivement sa capacité de production. Cela entraînera inévitablement un chômage massif au cours des prochaines années.

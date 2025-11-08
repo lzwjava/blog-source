@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Suivi de nos finances domestiques
 translated: true
+type: post
 ---
 
 Récemment, j'ai créé un document markdown pour suivre les transactions financières de notre maison.

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Exploration des invites système dans Grok et Claude
 translated: true
+type: post
 ---
 
 Je l'ai reposté ici pour apprendre l'ingénierie des prompts.

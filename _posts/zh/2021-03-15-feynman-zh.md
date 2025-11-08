@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: mathjax2mobi：将MathJax HTML转换为电子书
 translated: false
+type: post
 ---
 
 ### 项目简介

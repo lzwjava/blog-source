@@ -6,9 +6,8 @@ lang: en
 layout: post
 title: Code Review Web
 translated: false
+type: post
 ---
-
-
 
 This is the README.md from github project [https://github.com/lzwjava/code-review-web](https://github.com/lzwjava/code-review-web).
 
@@ -54,4 +53,3 @@ git submodule update
 | LeslieYQ | 73  |
 |Martin|52|
 |zangqilong|4|
-

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 元投稿
 translated: true
+type: post
 ---
 
 これらは私のオリジナルのブログ投稿です。

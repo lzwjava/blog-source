@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 聊天iOS
 translated: true
+type: post
 ---
 
 ---

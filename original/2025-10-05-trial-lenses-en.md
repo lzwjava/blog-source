@@ -28,4 +28,3 @@ type: post
 * Trial glasses cost around **48 CNY**, and trial lenses cost about **28 CNY** on Pinduoduo in China.
 
 * I regret not buying and learning about them earlier. It’s so simple. If I had learned earlier, I could have avoided going to the store for prescriptions five times in the past three years, and I would have had more comfortable eyeglasses for daily use.
-

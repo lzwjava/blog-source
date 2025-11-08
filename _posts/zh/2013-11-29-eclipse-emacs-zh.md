@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Eclipse 转换为 Emacs
 translated: true
+type: post
 ---
 
 作为一个使用了半年Emacs的用户，我简直无法想象自己以前是怎么编码的，移动手离开标准位置去点击鼠标或按箭头键，感觉那么笨拙和难以忍受。现在，当我告诉朋友们我设置了Alt+P和Alt+N快捷键来快速在XML文件和图形布局之间切换时，他们的回应只是“okay”，暗示着使用鼠标切换也可以。

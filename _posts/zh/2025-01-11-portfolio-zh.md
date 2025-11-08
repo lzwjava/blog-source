@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 作品集
 translated: true
+type: post
 ---
 
 PDF文件可以在[这里](/assets/resume/Zhiwei.Li.Portfolio.pdf)找到。

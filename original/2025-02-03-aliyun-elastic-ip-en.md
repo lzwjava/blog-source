@@ -314,4 +314,3 @@ if __name__ == '__main__':
 # python scripts/auto-ss-config/aliyun_elastic_ip_manager.py describe
 # python scripts/auto-ss-config/aliyun_elastic_ip_manager.py all
 ```
-

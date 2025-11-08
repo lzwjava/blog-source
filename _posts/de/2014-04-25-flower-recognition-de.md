@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Blumen Erkennungs-App
 translated: true
+type: post
 ---
 
 Dies ist die README.md von dem GitHub-Projekt [https://github.com/lzwjava/flower-recognition](https://github.com/lzwjava/flower-recognition).

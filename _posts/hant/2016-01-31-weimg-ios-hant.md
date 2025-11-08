@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: WeImg iOS
 translated: true
+type: post
 ---
 
 這是來自 GitHub 專案 [https://github.com/lzwjava/weimg-ios](https://github.com/lzwjava/weimg-ios) 的 README.md。

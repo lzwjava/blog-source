@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 绿蝉
 translated: true
+type: post
 ---
 
 这是来自GitHub项目 [https://github.com/lzwjava/lvchensign](https://github.com/lzwjava/lvchensign) 的 README.md。

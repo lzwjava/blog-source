@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 搜尋
 translated: true
+type: post
 ---
 
 你可以使用 Google 的 Agent Builder AI 搜尋來搜尋我的部落格。

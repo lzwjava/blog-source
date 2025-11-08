@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: '# Proceso y Experiencias en la Solicitud de Visa para Estados Unidos'
 translated: true
+type: post
 ---
 
 El martes por la tarde, de repente me dieron ganas de ir a Estados Unidos a pasear. Comencé a llenar formularios y pagar las tarifas, ¡y hoy viernes por la mañana aprobé la entrevista de visa! Con pasaporte en mano, en solo 3 días logré la entrevista, pensar en eso me emociona un poco.

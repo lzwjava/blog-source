@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 在 Azure 上搭建服务器
 translated: true
+type: post
 ---
 
 在 Microsoft Azure 上搭建服务器并配置开放特定端口对于各种应用程序至关重要，包括托管服务、代理等。本文将引导您完成创建 Azure 虚拟机 (VM) 以及配置防火墙以开放 1080 端口的过程。

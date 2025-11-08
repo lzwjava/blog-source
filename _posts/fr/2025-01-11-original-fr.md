@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Messages originaux
 translated: true
+type: post
 ---
 
 Voici mes billets de blog originaux.

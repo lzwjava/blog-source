@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Android-Bildverarbeitung einfach gemacht
 translated: true
+type: post
 ---
 
 Bearbeitung von Bildern in Android kann knifflig sein – Bitmaps verbrauchen Speicher, Drehungen verzerren die Ausrichtung und Zuschneiden erfordert Präzision. Hier kommen Hilfsklassen wie `BitmapUtils` und `Crop` ins Spiel. In diesem Beitrag werde ich Sie durch ein mächtiges Paar von Klassen aus dem `com.lzw.flower.utils`-Paket führen. Wir werden ihren Code durchgehen, jede Methode analysieren und zeigen, wie man sie in Ihren Projekten verwendet. Lassen Sie uns eintauchen!

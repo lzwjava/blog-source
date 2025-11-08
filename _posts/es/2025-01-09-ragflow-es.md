@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Probando RAGFlow
 translated: true
+type: post
 ---
 
 [https://ragflow.io](https://ragflow.io)

@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Reclining Pillow
+type: post
 ---
 
 I recommend this reclining pillow. I bought it in March 2023. It cost me around 270 CNY. Today, (Jan 5, 2025), it sells for around 240 CNY on jd.com. I have used it for almost two years now. This is great because the things you still use after a year are the things you really need.
@@ -33,4 +34,3 @@ There are still areas to improve in this kind of reclining pillow. A smart desig
 
 {: .centered }
 ![](assets/images/pillow/diy.jpg){: .responsive }
-

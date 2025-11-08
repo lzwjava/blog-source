@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: iOSの特別な設定
 translated: true
+type: post
 ---
 
 ## アプリごとの設定

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Ein Fallbeispiel für die Verwendung der Suche in ChatGPT
 translated: true
+type: post
 ---
 
 **Zhiwei:**  

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Vorteile von Teilzahlungen zur vorzeitigen Tilgung der Hypothek
 translated: true
+type: post
 ---
 
 Ich habe eine Haushypothek von 1,03 Millionen CNY, die ich um Juli 2022 bei der Agricultural Bank of China aufgenommen habe.

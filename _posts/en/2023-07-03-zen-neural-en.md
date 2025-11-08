@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Zen and the Art of Machine Learning
 translated: false
+type: post
 usemathjax: true
 ---
 

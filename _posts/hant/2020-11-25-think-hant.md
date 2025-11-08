@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 開始思考
 translated: true
+type: post
 ---
 
 在《淺談人生的秘密》文章裡說到，懷著輕鬆的心態，常常樂於思考，這大概是我發現的人生秘密。然而我常常自己也忘記這點，有必要我再寫篇文章提醒自己這點。

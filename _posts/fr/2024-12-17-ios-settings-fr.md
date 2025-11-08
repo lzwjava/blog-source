@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Paramètres spéciaux dans iOS
 translated: true
+type: post
 ---
 
 ## Paramètres Par Application

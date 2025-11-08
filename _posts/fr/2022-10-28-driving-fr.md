@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Écouter de la musique en conduisant
 translated: true
+type: post
 ---
 
 *Cet article de blog a été traduit par ChatGPT.*

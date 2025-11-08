@@ -9,8 +9,6 @@ translated: false
 type: post
 ---
 
-
-
 Lenovo Xiaoxing 14IAH8 Laptop.
 
 ```bash
@@ -58,5 +56,4 @@ ping archlinux.org
 timedatectl
 ```
 
-For some reason, I decided to install Ubuntu instead. 
-
+For some reason, I decided to install Ubuntu instead.

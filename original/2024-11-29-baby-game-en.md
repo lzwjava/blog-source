@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Baby Games, Health AI, Basketball Moves
+type: post
 ---
 
 ### Table of Contents

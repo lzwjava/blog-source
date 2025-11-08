@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Smart Charging Solutions
+type: post
 ---
 
 ### Table of Contents

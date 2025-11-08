@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Herramientas de IA
 translated: true
+type: post
 ---
 
 Aquí hay algunas herramientas de IA que he utilizado, categorizadas para mayor claridad:

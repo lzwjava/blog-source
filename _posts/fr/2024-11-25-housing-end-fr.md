@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: La Fin du Rêve Immobilier
 translated: true
+type: post
 ---
 
 La réalité du marché immobilier a frappé de plein fouet lorsque l'investissement de ma famille à Guangzhou s'est transformé en amertume. Nous avons acheté une maison pour 2 millions de CNY en 2022, pour voir sa valeur chuter à 1 million de CNY d'ici 2024. Ce n'est pas seulement une histoire de chiffres – c'est le reflet d'un changement de paradigme mondial.

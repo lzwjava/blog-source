@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Utilisant Laravel
 translated: true
+type: post
 ---
 
 Si vous vous lancez dans le développement web et que vous cherchez un framework puissant et facile à prendre en main, Laravel est fait pour vous. C'est un framework PHP qui a conquis le monde des développeurs grâce à sa syntaxe élégante, ses fonctionnalités robustes et une communauté qui vous soutient. Dans ce blog, je vais vous guider à travers les bases de la prise en main de Laravel et vous montrer pourquoi cela vaut le coup.

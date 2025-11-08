@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: लवचन्साइन
 translated: true
+type: post
 ---
 
 यह `README.md` GITHUB पोज़ेट [https://github.com/lzwjava/lvchensign](https://github.com/lzwjava/lvchensign) से है।

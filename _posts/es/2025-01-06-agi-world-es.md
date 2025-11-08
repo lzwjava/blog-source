@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: El Mundo de la Inteligencia Artificial General
 translated: true
+type: post
 ---
 
 Si algún día podemos simplemente decirle a una IA que cree una aplicación como TikTok o YouTube con un solo comando, y nos proporciona un proyecto completo que contiene millones de líneas de código, eso sería realmente asombroso.
@@ -55,4 +56,3 @@ En el futuro, los robots estarán presentes en hogares, tiendas, escuelas, ofici
 Habrá un modelo mundial en la nube, un modelo muy grande que potencialmente podría tener un tamaño de alrededor de 100 petabytes. Como referencia, 1 petabyte equivale a 1,024 terabytes, y 1 terabyte equivale a 1,024 gigabytes. Una versión del modelo Llama 3 70B tiene un tamaño de archivo de 21.1 GB.
 
 Los robots en el mundo necesitarán consultar este modelo del mundo en la nube para tomar acciones. Un retraso de red de 100 milisegundos o incluso 1 segundo es aceptable siempre que el robot pueda realizar sus tareas de manera efectiva.
-

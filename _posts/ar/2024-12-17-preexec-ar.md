@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: عرض إعدادات الوكيل قبل تنفيذ الأوامر
 translated: true
+type: post
 ---
 
 <div style="text-align: center;">  

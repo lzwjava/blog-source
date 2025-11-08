@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 網站報告
 translated: true
+type: post
 ---
 
 最近，我與一位企業家朋友交談，她請我對她公司的網站提供一些意見。在草擬了初步反饋後，我讓ChatGPT幫忙進行了潤色和改進。以下是更新後的版本。

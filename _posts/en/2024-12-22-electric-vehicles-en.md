@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Electric Vehicles
 translated: false
+type: post
 ---
 
 ## Neta

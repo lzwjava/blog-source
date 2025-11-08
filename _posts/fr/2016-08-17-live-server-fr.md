@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 'Fun Live : Plateforme de diffusion en direct des connaissances'
 translated: true
+type: post
 ---
 
 Voici le README.md du projet GitHub [https://github.com/lzwjava/live-server](https://github.com/lzwjava/live-server).

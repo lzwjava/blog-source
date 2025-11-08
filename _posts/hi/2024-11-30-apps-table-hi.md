@@ -7,6 +7,7 @@ layout: post
 title: मैंने उपयोग की गई iOS ऐप्स - तालिका संस्करण
 translated: true
 translation: false
+type: post
 ---
 
 | ऐप का नाम | बंडल पहचानकर्ता | संस्करण |

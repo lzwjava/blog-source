@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: मूल पोस्ट
 translated: true
+type: post
 ---
 
 ये मेरा मूल ब्लॉग पोस्ट हैं।

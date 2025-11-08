@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: WebSocketの探求
 translated: true
+type: post
 ---
 
 *このブログ記事は、ChatGPT-4oの協力を得て整理されました。*

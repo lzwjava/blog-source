@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Mensajes de Confirmación de Git Potenciados por IA
 translated: true
+type: post
 ---
 
 Este script de Python debe colocarse en un directorio incluido en el PATH de tu sistema, como `~/bin`.

@@ -9,8 +9,6 @@ translated: false
 type: post
 ---
 
-
-
 Used:
 
 * [Azure](https://azure.microsoft.com)

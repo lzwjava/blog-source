@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Tensiomètre, Stéthoscope et Tableau de Vision
 translated: true
+type: post
 ---
 
 <div style="text-align: center;">

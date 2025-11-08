@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Decoding the Info.plist File
 translated: false
+type: post
 ---
 
 If you’ve worked with macOS or iOS development, you’ve likely stumbled across an `Info.plist` file. This XML-based file is a key part of any Apple application or plugin, acting like a passport that tells the system who it is, what it does, and how it should behave. Today, we’re exploring the `Info.plist` from "Reveal-In-GitHub," an Xcode plugin we introduced in a previous post. Rather than dissecting every line, we’ll focus on the core concepts and patterns that define its purpose and functionality.

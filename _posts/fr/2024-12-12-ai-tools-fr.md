@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Outils d'IA
 translated: true
+type: post
 ---
 
 Voici quelques outils d'IA que j'ai utilisés, catégorisés pour plus de clarté :

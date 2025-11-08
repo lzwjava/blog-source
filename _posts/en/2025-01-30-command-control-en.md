@@ -9,8 +9,6 @@ translated: false
 type: post
 ---
 
-
-
 ## WiFi
 
 ```

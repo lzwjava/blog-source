@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Personnalisez votre clé USB avec un fond d'écran et une icône
 translated: true
+type: post
 ---
 
 Ce message a initialement été rédigé en chinois et publié sur Qzone.

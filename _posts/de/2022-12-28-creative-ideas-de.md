@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Meine kreativen Ideen
 translated: true
+type: post
 ---
 
 Wenn du einen langen Aufsatz schreiben möchtest, der nicht langweilig ist, wie machst du das? Da ich gerade Englisch schreiben lerne, kann ich viele Themen nicht fließend ausdrücken. Mein Ansatz ist daher, einen Artikel über meine kreativen Ideen zu schreiben. Es ist für mich nicht langweilig, da es sich um meine neuen Ideen handelt und ich sie gerne teile. Es ist auch für die Leser nicht langweilig, da sie irgendwie kreativ sind. Weil ich ein fauler Mensch bin und die Geduld fehlt, langweilige Dinge zu schreiben. Und ich habe die Angewohnheit, meine Ideen in der App Microsoft To Do zu sammeln. Ich schreibe dort kurz und knapp, also wähle ich hier einige Ideen aus und erkläre sie ein wenig. Lass uns anfangen.

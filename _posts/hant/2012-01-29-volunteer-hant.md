@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 鐵路車站義工
 translated: true
+type: post
 ---
 
 這篇文章最初以中文撰寫，並發表於QQ空間。

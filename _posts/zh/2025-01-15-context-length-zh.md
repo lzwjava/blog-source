@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 大型语言模型的最大上下文长度
 translated: true
+type: post
 ---
 
 最近，我使用了DeepSeek API来生成提交信息，正如[AI驱动的Git提交信息](./gitmessageai-en)一文所述。

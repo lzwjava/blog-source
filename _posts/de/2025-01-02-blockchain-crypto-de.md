@@ -7,6 +7,7 @@ layout: post
 title: Kryptowährung und Blockchain
 top: 10
 translated: true
+type: post
 ---
 
 Kryptowährung ist, ähnlich wie KI, einem großen Teil der Bevölkerung bekannt. Ich glaube, das Bewusstsein für Kryptowährung entspricht in etwa dem Anteil der Menschen, die Zugang zum freien Internet haben. In Ländern außerhalb Chinas ist es wahrscheinlich, dass ein größerer Prozentsatz der Bevölkerung über Kryptowährung Bescheid weiß.
@@ -56,4 +57,3 @@ Offenbar kann ein Block mehr als nur Zahlen speichern. Er kann Text, Bilder, Aud
 Warum speichern wir Informationen in Blöcken? Um zu verhindern, dass sie gelöscht werden. Wir möchten nicht, dass wertvolle Informationen verloren gehen. Plattformen wie Bluesky und Mastodon nutzen Blockchains, um ihre sozialen Netzwerke zu betreiben. Es ist eine faszinierende Entwicklung.
 
 Lass uns weiterhin lernen, Schlussfolgerungen zu ziehen.
-

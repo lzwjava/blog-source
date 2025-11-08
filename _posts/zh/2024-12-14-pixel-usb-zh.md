@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Pixel USB、iOS开发者工具、滑动手势输入
 translated: true
+type: post
 ---
 
 ### 目录

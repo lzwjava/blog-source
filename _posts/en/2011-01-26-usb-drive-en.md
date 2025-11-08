@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Customize Your USB Drive with a Background and Icon
 translated: false
+type: post
 ---
 
 This post was originally written in Chinese and published on Qzone.

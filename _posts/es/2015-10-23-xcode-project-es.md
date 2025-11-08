@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Entendiendo los archivos de proyecto de Xcode
 translated: true
+type: post
 ---
 
 Si alguna vez has echado un vistazo bajo el capó de un proyecto de Xcode, es probable que te hayas encontrado con un archivo `.pbxproj` —un archivo de texto estructurado y críptico que define cómo se construye tu aplicación o complemento. Hoy, vamos a sumergirnos en un ejemplo de tal archivo de un proyecto llamado "Reveal-In-GitHub", un práctico complemento de Xcode. No te preocupes, no vamos a desglosar cada línea (eso sería abrumador). En su lugar, exploraremos los conceptos clave y patrones que hacen que este archivo funcione, dándote una sólida base para entender cualquier archivo de proyecto de Xcode.

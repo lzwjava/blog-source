@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Hacking
 translated: false
+type: post
 ---
 
 There are various ways to hack, and this topic is quite interesting. As a hobbyist White Hat Hacker, I find there is a lot of knowledge to learn in this field. Here, I will record some methods I’ve explored.
@@ -49,4 +50,3 @@ It’s important to test the limits and edge cases of an API or server. A Distri
 ## Admin Panels
 
 Sometimes, admin or internal panels are not adequately protected. It’s worth trying to access paths like `/admin` or visiting subdomains like `admin.xx.com` to check if these areas are properly secured.
-

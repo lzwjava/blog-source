@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Could Multifocal Progressive Lenses Help Reverse Myopia
+type: post
 ---
 
 ## Bifocals
@@ -141,4 +142,3 @@ The picture below illustrates this well. We can apply the principle used in pres
 ## After Using Them for Six Months
 
 Most of the time, I use the middle or upper part of multifocal progressive lenses, which complicates things. I’ve resorted to using single-vision lenses again.
-

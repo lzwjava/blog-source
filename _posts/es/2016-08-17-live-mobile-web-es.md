@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Web Móvil en Vivo
 translated: true
+type: post
 ---
 
 Este es el archivo README.md del proyecto de GitHub [https://github.com/lzwjava/live-mobile-web](https://github.com/lzwjava/live-mobile-web).

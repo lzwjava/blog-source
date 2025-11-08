@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: टैब्स किलर
 translated: true
+type: post
 ---
 
 यह Github पर [https://github.com/lzwjava/TabsKiller](https://github.com/lzwjava/TabsKiller) से README.md है।

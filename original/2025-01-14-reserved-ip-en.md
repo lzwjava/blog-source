@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Managing DigitalOcean Reserved IPs
+type: post
 ---
 
 It's a common challenge that IP addresses of servers can be easily blocked by the Great Firewall (GFW). This is especially true for cloud servers. To mitigate this, one strategy is to use DigitalOcean's reserved IPs and reassign them to your droplet when the current IP is blocked. This post introduces a Python script to automate this process. The script is also open-sourced and available on [GitHub](https://github.com/lzwjava/auto-ss-config).

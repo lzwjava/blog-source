@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: US Visa Application Process and Experience
 translated: true
+type: post
 ---
 
 On Tuesday afternoon, on a whim, I decided I wanted to visit the United States. I started filling out forms and paying fees, and by Friday morning, I had passed the visa interview! With a passport in hand, I managed to get through the visa interview in just three days. Thinking about it now, I still feel a bit excited.

@@ -96,4 +96,3 @@ pytorch_model.bin: 100%|| 1.11G/1.11G [02:11<00:00, 8.47MB/s]
 Calculate scores: 100%| 1/1 [00:00<00:00,  2.37it/s]
 You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
 ```
-

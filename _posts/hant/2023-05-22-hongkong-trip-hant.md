@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 香港及澳門遊
 translated: true
+type: post
 ---
 
 - 透過Qunar App在沙田的嘉里大酒店預訂了2晚（1286元人民幣）。

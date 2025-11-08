@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ライブモバイルウェブ
 translated: true
+type: post
 ---
 
 これは、GitHubプロジェクト [https://github.com/lzwjava/live-mobile-web](https://github.com/lzwjava/live-mobile-web) のREADME.mdです。

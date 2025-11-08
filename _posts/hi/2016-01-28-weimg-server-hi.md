@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: WeImg सर्वर
 translated: true
+type: post
 ---
 
 यह README.md गिटहब प्रोजेक्ट [https://github.com/lzwjava/weimg-server](https://github.com/lzwjava/weimg-server) से है।

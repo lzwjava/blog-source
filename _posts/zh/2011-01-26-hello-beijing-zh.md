@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 你好，北京
 translated: true
+type: post
 ---
 
 这篇文章最初是用中文写成并在QQ空间发表的。

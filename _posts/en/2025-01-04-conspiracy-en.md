@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Conspiracy
 translated: false
+type: post
 ---
 
 ### Table of Contents

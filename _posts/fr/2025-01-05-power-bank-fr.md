@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Oubli de recharger les batteries externes
 translated: true
+type: post
 ---
 
 Le problème d'oublier souvent de recharger les power banks m'a beaucoup frustré.
@@ -35,4 +36,3 @@ Ma solution est donc d'utiliser cette multiprise pour charger mes trois téléph
 Une autre solution consiste à utiliser l'application Raccourcis sur iOS pour configurer une notification qui me rappelle de vérifier ou de recharger les power banks à une heure précise chaque jour.
 
 Au fait, j'ai pensé à une nouvelle méthode de charge : une [Boîte de Charge Universelle Intelligente](./charger-box-en). Je l'ai présentée dans un autre article. En réalité, c'est un problème différent. Il s'agit de la manière de charger, et non de résoudre le problème d'oublier de recharger les power banks.
-

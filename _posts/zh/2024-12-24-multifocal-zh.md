@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 使用多焦点渐进镜片逆转近视
 translated: true
+type: post
 ---
 
 ## 处方

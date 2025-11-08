@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Zsh フック
 translated: true
+type: post
 ---
 
 「Zshにネットワークコマンド実行前にプロキシ設定を表示させる」を探求した後、ChatGPTと共にZshフックについてさらに深く掘り下げました。今後の参考のために、簡潔に概要をまとめます。

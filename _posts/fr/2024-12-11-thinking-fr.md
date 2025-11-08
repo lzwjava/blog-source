@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 'Cadre de Méta-Pensée : Raisonnement, Catégorisation et Abstraction'
 translated: true
+type: post
 ---
 
 ## La Pensée

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 3台のスマートフォンを使う
 translated: true
+type: post
 ---
 
 - プライマリフォンとしてiPhoneを使用する。理想的には最新モデル、少なくとも過去3年以内のモデルが望ましい。

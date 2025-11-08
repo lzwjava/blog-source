@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Unternehmen sollten AI-Kontext bereitstellen, um die Integration zu erleichtern
 translated: true
+type: post
 ---
 
 Ich habe einen Freund, der bei Greptime DB arbeitet, und ich habe darüber nachgedacht, wie man ihr Produkt schnell in bestehende Systeme integrieren kann.

@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: AI Tools
+type: post
 ---
 
 Here are some AI tools I've used, categorized for clarity:

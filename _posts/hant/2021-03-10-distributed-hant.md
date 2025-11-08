@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 雲計算和大數據入門
 translated: true
+type: post
 ---
 
 這節課包含以下話題：

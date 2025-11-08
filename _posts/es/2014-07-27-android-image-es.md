@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Procesamiento de Imágenes en Android Hecho Fácil
 translated: true
+type: post
 ---
 
 Manejar imágenes en Android puede ser complicado: los bitmaps consumen memoria, las rotaciones afectan la orientación y el recorte requiere precisión. Es ahí donde entran en juego las clases de utilidad como `BitmapUtils` y `Crop`. En esta entrada, te guiaré a través de un par de clases poderosas del paquete `com.lzw.flower.utils`. Exploraremos su código, desglosaremos qué hace cada método y mostraremos cómo usarlas en tus proyectos. ¡Vamos a ello!

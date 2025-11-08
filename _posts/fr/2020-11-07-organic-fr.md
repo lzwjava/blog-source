@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Méthodes de croissance naturelle pour gagner de l'argent en tant qu'entrepreneur
 translated: true
+type: post
 ---
 
 Dans l'article précédent intitulé « Pourquoi retirer le fonds de prévoyance pour rembourser les investisseurs », j'ai abordé une méthode que j'ai imaginée pour entreprendre et agir : tester à faible coût et s'associer en toute solidarité. Tout d'abord, commencez par vous seul. Voyez si vous pouvez entreprendre et subvenir à vos besoins par vous-même. Ensuite, si vous envisagez de vous associer, il est préférable que personne ne mette d'argent sur la table, mais plutôt de partager les bénéfices, de répartir les gains par projet et selon les retours convenus. Si nous ne trouvons pas de partenaires prêts à partager les hauts et les bas, cela signifie que nous ne sommes pas encore prêts pour un partenariat, et il vaut mieux travailler seul. Ensuite, deux personnes peuvent s'associer, et si plus de personnes sont impliquées, trois personnes peuvent s'associer, et ainsi de suite. Si nous levons des fonds et devons recruter des employés, il est préférable de trouver des employés prêts à accepter des actions et un salaire modeste. Si nous ne trouvons pas de tels employés, cela signifie que nous ne sommes pas encore prêts pour l'expansion.

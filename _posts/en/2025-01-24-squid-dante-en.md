@@ -9,7 +9,6 @@ translated: false
 type: post
 ---
 
-
 ## Danted
 
 Command line instructions:

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Ultra Paygo 美国SIM卡
 translated: true
+type: post
 ---
 
 我最近购买了一张Ultra Paygo SIM卡。我的目的是通过沃尔玛的应用程序购买一张苹果礼品卡，这需要一个美国的电话号码进行验证，因此我购买了Ultra Paygo SIM卡。

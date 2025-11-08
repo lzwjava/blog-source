@@ -6,9 +6,8 @@ lang: en
 layout: post
 title: Maximum Context Length of Large Language Models
 translated: false
+type: post
 ---
-
-
 
 I recently encountered the context length limit of the DeepSeek API while generating a commit message, as detailed in [AI-Powered Git Commit Messages](./gitmessageai-en).
 
@@ -22,4 +21,3 @@ Here's a comparison of context window sizes for several other models:
 *   **GPT-4:** The standard version has a context window of 8,192 tokens, while the extended version (GPT-4-32k) supports 32,768 tokens.
 *   **Meta's LLaMA 2:** The base model supports 4,096 tokens, but fine-tuned versions can handle up to 16,384 tokens.
 *   **Mistral 7B:** Supports a context window of 8,000 tokens.
-

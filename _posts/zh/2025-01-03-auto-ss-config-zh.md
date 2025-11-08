@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 开源工具：Auto SS Config
 translated: true
+type: post
 ---
 
 我很高兴地宣布，我开源了一个名为 **Auto SS Config** 的工具。这个工具可以自动生成和上传 Shadowsocks 或 Clash 订阅 URL，从 Shadowsocks URL 中生成，使管理和更新代理服务器配置变得更加容易。

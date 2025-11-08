@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Kindheitserinnerungen
 translated: true
+type: post
 ---
 
 Dieser Beitrag wurde im Juli 2025 verfasst.

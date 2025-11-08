@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Tiempo Máximo de Ejecución de un Trabajo en GitHub Actions
 translated: true
+type: post
 ---
 
 He estado utilizando GitHub Actions para automatizar la traducción de mis publicaciones de blog. Inicialmente, intenté traducir todas las publicaciones en un solo trabajo, con los cambios confirmados en el repositorio solo después de que todas las traducciones estuvieran completas.

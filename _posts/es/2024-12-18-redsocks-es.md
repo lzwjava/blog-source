@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Redsocks en Acción
 translated: true
+type: post
 ---
 
 ¡Por supuesto! Te guiaré a través de la configuración de un proxy Shadowsocks utilizando tu computadora Mac y configurando tu router OpenWRT para enrutar todo el tráfico de los dispositivos conectados a través de este proxy. Esta configuración implica los siguientes pasos principales:

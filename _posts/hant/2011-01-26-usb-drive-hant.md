@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 自訂 USB 闪存筆背景及圖標
 translated: true
+type: post
 ---
 
 這篇文章最初以中文撰寫並在Qzone發布。

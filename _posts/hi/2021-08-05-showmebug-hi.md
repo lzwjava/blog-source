@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: स्टार्टअप कंपनी में एक भाषण
 translated: true
+type: post
 ---
 
 मैंने 2021 के अगस्त में ShowMeBug पर एक प्रस्तुति दी थी। विषय कुछ ऐसी चीज़ें थीं जिनका मैं आनंद लेता हूँ। आप प्रस्तुति को [GitHub](https://github.com/lzwjava/Keynotes/blob/master/ShowMeBug/20210805lzw.pdf) पर देख सकते हैं।

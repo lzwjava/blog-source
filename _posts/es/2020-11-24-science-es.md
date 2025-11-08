@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Hacer las cosas de manera científica
 translated: true
+type: post
 ---
 
 Queremos alcanzar un objetivo, ¿cómo lo logramos de manera científica? ¿Cómo lo alcanzamos de manera rápida y efectiva? El espíritu científico puede aplicarse a todos los aspectos de la vida, no solo al ámbito científico. ¿Qué es el espíritu científico? Es cuestionar, es reflexionar, es hacer todo lo posible para entender cuál es la verdad, cuál es la razón, por qué las cosas son así, y cómo debemos actuar, para que el resultado ocurra inevitablemente.

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: コミュニケーション
 translated: true
+type: post
 ---
 
 * 家族、友人、または意見の異なる他人と議論しない。議論は無意味であり、時には傷つけることもある。

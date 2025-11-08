@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Contact
 translated: false
+type: post
 ---
 
 Hi, I'm Zhiwei Li. You can find a brief introduction [here](/introduction-en). The eight buttons on my site highlight what I'm most passionate about; I encourage you to explore them.

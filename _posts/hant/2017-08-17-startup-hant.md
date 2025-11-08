@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 趣直播創業心得分享
 translated: true
+type: post
 ---
 
 ![](assets/images/startup/s0.jpg)

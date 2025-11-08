@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Mes Idées Créatives
 translated: true
+type: post
 ---
 
 Si vous souhaitez écrire un long essai sans qu'il soit ennuyeux, comment vous y prenez-vous ? Étant en train d'apprendre à écrire en anglais, je ne peux pas exprimer de nombreux sujets de manière fluide. Ma méthode consiste donc à écrire un article sur mes idées créatives. Cela ne m'ennuie pas, car ce sont mes nouvelles idées et j'aime les partager. Cela n'ennuie pas non plus les lecteurs, car ces idées sont en quelque sorte créatives. Comme je suis une personne paresseuse et que je manque de patience pour écrire des choses ennuyeuses, j'ai pris l'habitude d'accumuler mes idées dans l'application Microsoft To Do. J'y écris brièvement, donc ici, je sélectionne quelques idées et les explique un peu. Commençons.

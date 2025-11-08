@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Prefer to Have Background Sound
 translated: false
+type: post
 ---
 
 * Prefer to have background sound, regardless of what you're doing.

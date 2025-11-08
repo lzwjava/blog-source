@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Parkplatz-Dilemma
 translated: true
+type: post
 ---
 
 Ich habe zwei Autos in der Wohnanlage meiner Eltern, aber wir haben nur einen Parkplatz im Gebäude. Wir möchten keinen weiteren Parkplatz mieten, also muss ich mein zweites Auto im öffentlichen Bereich parken. Im öffentlichen Bereich gibt es legale Parkplätze, aber sie reichen nicht aus. Oft stehen zwanzig oder dreißig Autos auf der Straße geparkt. Der Wachmann klebt dann ein rotes Papier auf die Frontscheiben der Autos, um sie zu warnen.
@@ -45,4 +46,3 @@ Das nächste Mal habe ich zu Hause heißes Wasser verwendet, um es zu entfernen,
 {: .centered }
 ![](assets/images/parking/p.jpg){: .responsive }
 *Quelle: JD.com*{: .caption }
-

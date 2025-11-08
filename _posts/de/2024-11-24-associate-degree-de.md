@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 'Associate Degree: Fortschritt und Reflexion'
 translated: true
+type: post
 ---
 
 Aktualisiert im November 2025.

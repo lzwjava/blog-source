@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Verbesserung von OpenWRT mit OpenClash und Shadowsocks
 translated: true
+type: post
 ---
 
 ### Paketlisten aktualisieren

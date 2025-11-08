@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: حكمة التعلم
 translated: true
+type: post
 ---
 
 ### مقدمة

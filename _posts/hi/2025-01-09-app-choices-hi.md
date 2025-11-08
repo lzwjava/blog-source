@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: मेरे चुने हुए ऐप्स
 translated: true
+type: post
 ---
 
 एक पिछले निबंध में, मैंने लिखा था:

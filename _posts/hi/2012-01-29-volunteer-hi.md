@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: रेलवे स्टेशन स्वयंसेवक
 translated: true
+type: post
 ---
 
 यह पोस्ट मूल रूप से चीनी में लिखी गई थी और क्यूज़ोन पर प्रकाशित हुई थी।

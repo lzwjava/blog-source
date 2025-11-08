@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 知識ライブ配信プラットフォーム
 translated: true
+type: post
 ---
 
 これは、GitHubプロジェクト [https://github.com/lzwjava/live-server](https://github.com/lzwjava/live-server) の README.md です。

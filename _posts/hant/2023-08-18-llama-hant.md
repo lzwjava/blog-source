@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Nvidia 驅動程式、LLaMA 與 ChatGPT
 translated: true
+type: post
 ---
 
 LLaMA（大型語言模型Meta AI）是由Meta AI自2023年2月起發布的一系列大型語言模型（LLMs）。

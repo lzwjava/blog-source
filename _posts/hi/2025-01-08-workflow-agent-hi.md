@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: वर्कफ़्लो BFS है, एजेंट DFS है
 translated: true
+type: post
 ---
 
 एंथ्रोपिक के अनुसार [^1]:
@@ -31,4 +32,3 @@ translated: true
 ---
 
 [^1]: प्रभावी एजेंट बनाना, [Anthropic](https://www.anthropic.com/research/building-effective-agents)
-

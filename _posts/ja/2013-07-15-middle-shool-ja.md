@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 中学生時代
 translated: true
+type: post
 ---
 
 この投稿は2025年7月に書かれました。

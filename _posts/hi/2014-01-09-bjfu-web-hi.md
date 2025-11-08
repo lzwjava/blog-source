@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: बेजिंग फॉरेस्ट्री यूनिवर्सिटी लॉगिन प्रणाली का विश्लेषण
 translated: true
+type: post
 ---
 
 इस पोस्ट को मूल रूप से चीनी भाषा में लिखा गया था और इसे [CSDN](https://blog.csdn.net/lzw_java/article/details/18049581) पर प्रकाशित किया गया था।

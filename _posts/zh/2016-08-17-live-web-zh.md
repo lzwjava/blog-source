@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 直播网
 translated: true
+type: post
 ---
 
 这是来自 GitHub 项目 [https://github.com/lzwjava/live-web](https://github.com/lzwjava/live-web) 的 README.md。

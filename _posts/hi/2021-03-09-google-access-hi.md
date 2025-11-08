@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: Google तक कैसे पहुँचें
 translated: true
+type: post
 ---
 
 यह पोस्ट मूल रूप से चीनी में लिखी गई थी।

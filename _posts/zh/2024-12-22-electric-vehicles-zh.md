@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 电动汽车
 translated: true
+type: post
 ---
 
 ## Neta

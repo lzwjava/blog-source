@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 紅襪隊在行動
 translated: true
+type: post
 ---
 
 當然可以！我將指導您如何使用您的Mac電腦設置Shadowsocks代理，並配置您的OpenWRT路由器，以將所有連接設備的流量通過此代理路由。此設置涉及以下主要步驟：

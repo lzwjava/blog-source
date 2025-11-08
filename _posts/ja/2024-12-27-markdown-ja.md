@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 'Markdownの問題点: KramdownとXeLaTeX'
 translated: true
+type: post
 ---
 
 私のJekyllブログでMarkdownを使ってPDFを生成するために、以下のPandocコマンドを使用しています:

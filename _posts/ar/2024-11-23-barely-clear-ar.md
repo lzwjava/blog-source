@@ -7,6 +7,7 @@ layout: post
 title: 'استعادة الرؤية الطبيعية: مبدأ "الوضوح بالكاد"'
 top: 20
 translated: true
+type: post
 ---
 
 ### الملخص

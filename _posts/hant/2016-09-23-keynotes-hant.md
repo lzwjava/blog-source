@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 演講
 translated: true
+type: post
 ---
 
 這是來自 GitHub 專案 [https://github.com/lzwjava/Keynotes](https://github.com/lzwjava/Keynotes) 的 README.md。

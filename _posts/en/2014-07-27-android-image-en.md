@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Android Image Processing Made Easy
 translated: false
+type: post
 ---
 
 Handling images in Android can be tricky—bitmaps eat up memory, rotations mess with orientation, and cropping requires precision. That’s where utility classes like `BitmapUtils` and `Crop` come in handy. In this post, I’ll walk you through a powerful pair of classes from the `com.lzw.flower.utils` package. We’ll explore their code, break down what each method does, and show how to use them in your projects. Let’s dive in!

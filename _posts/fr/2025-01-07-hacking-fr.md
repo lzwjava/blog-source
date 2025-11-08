@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Piratage
 translated: true
+type: post
 ---
 
 Il existe diverses façons de pirater, et ce sujet est très intéressant. En tant que hacker White Hat amateur, je trouve qu'il y a beaucoup de connaissances à acquérir dans ce domaine. Ici, je vais enregistrer quelques méthodes que j'ai explorées.
@@ -131,4 +132,3 @@ Il est important de tester les limites et les cas limites d'une API ou d'un serv
 ## Panneaux d'administration
 
 Parfois, les panneaux d'administration ou les interfaces internes ne sont pas suffisamment protégés. Il est utile d'essayer d'accéder à des chemins comme `/admin` ou de visiter des sous-domaines tels que `admin.xx.com` pour vérifier si ces zones sont correctement sécurisées.
-

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Analyse du système de connexion de l'Université Forestière de Pékin
 translated: true
+type: post
 ---
 
 Ce message a été initialement rédigé en chinois et publié sur [CSDN](https://blog.csdn.net/lzw_java/article/details/18049581).

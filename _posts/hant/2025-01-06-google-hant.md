@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 谷歌搜索在我生活中的剩余价值
 translated: true
+type: post
 ---
 
 我依賴即時資訊，而我使用Google來搜尋這些資訊。

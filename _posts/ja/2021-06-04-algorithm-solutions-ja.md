@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: アルゴリズムの問題の解決方法
 translated: true
+type: post
 ---
 
 このファイルは、GitHubプロジェクト[https://github.com/lzwjava/algorithm-solutions](https://github.com/lzwjava/algorithm-solutions)のREADME.mdです。

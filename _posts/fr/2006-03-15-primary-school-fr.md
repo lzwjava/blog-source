@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Mon souvenir d'école primaire
 translated: true
+type: post
 ---
 
 Ce message a été écrit en juillet 2025.

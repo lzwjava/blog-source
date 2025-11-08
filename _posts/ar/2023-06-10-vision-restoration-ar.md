@@ -7,6 +7,7 @@ layout: post
 title: التحقق التجريبي من طريقة استعادة الرؤية الطبيعية
 top: 30
 translated: true
+type: post
 ---
 
 <div align="center"><img src="/assets/images/eyes/glasses.jpeg" width="400px" /></div>

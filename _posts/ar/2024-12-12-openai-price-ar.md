@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: لماذا يجب أن يتفوق ChatGPT Plus على تكلفة الاستخدام بالرمز
 translated: true
+type: post
 ---
 
 ChatGPT Plus يجب أن يتحول إلى نموذج أسعار مرن بناءً على استخدام الرموز بدلاً من رسوم شهرية ثابتة بقيمة 20 دولار.

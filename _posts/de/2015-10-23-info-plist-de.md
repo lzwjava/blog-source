@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Entschlüsseln der Info.plist-Datei
 translated: true
+type: post
 ---
 
 Wenn Sie mit der Entwicklung für macOS oder iOS gearbeitet haben, sind Sie wahrscheinlich auf eine `Info.plist`-Datei gestoßen. Diese XML-basierte Datei ist ein wesentlicher Bestandteil jeder Apple-Anwendung oder jedes Plugins und fungiert wie ein Pass, der dem System mitteilt, wer es ist, was es tut und wie es sich verhalten soll. Heute erkunden wir die `Info.plist` von "Reveal-In-GitHub", einem Xcode-Plugin, das wir in einem vorherigen Beitrag vorgestellt haben. Anstatt jede Zeile zu zerlegen, konzentrieren wir uns auf die Kernkonzepte und Muster, die seinen Zweck und seine Funktionalität definieren.

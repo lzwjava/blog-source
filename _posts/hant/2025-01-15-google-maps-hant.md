@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 在中国使用谷歌地图
 translated: true
+type: post
 ---
 
 尽管Google Maps在中国大陆的数据可能不如高德地图或苹果地图（后者也依赖高德数据）那样实时更新，但它仍是一个可用的选择，特别是其导航功能中设置途经点的特性。

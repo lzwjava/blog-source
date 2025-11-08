@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Créer une extension Chrome
 translated: true
+type: post
 ---
 
 Avez-vous déjà ouvert trop d'onglets de navigateur et souhaité un outil pour les gérer automatiquement ? Dans cet article de blog, nous allons passer en revue la création d'une extension Chrome appelée **"Tabs Killer"**, qui ferme automatiquement les onglets les plus anciens lorsque le nombre d'onglets dépasse une limite définie par l'utilisateur. Je vais décomposer le code, expliquer son fonctionnement et fournir des informations pour vous aider à créer votre propre extension Chrome.

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: فكر في التحديثات عند استخدام المكتبات
 translated: true
+type: post
 ---
 
 لقد استخدمت CodeIgniter في مشروعي الناشئ، [Fun Live](https://github.com/lzwjava/live-server). على الرغم من أن المشروع انتهى، إلا أنه بعد عدة سنوات، أردت إحياءه لتخليد ذكراه. ومع ذلك، في عام 2016، كنت أستخدم CodeIgniter 3، بينما الإصدار الأحدث الآن هو CodeIgniter 4.

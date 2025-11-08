@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 企业微信集成
 translated: true
+type: post
 ---
 
 在ShowMeBug的工作期间，我参与了企业微信集成项目。这涉及将ShowMeBug与企业微信集成，在企业微信生态系统中提供无缝访问技术面试工具。我使用了Ruby、Ruby on Rails、PostgreSQL和微信SDK等技术，为面试官和候选人创建了流畅的用户体验。

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: لفتشن
 translated: true
+type: post
 ---
 
 هذه هي README.md من مشروع github [https://github.com/lzwjava/lvchensign](https://github.com/lzwjava/lvchensign).

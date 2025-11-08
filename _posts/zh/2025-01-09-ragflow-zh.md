@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 尝试RAGFlow
 translated: true
+type: post
 ---
 
 [https://ragflow.io](https://ragflow.io)

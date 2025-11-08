@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 捐款
 translated: true
+type: post
 ---
 
 若您喜愛我的文章、代碼或視頻，歡迎自願贊助。您可透過以下方式進行支付。

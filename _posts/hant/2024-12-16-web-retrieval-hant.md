@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: ChatGPT 檢索網的使用案例
 translated: true
+type: post
 ---
 
 最近，我需要更新一篇 LaTeX 文件中的博客文章連結。隨著文章數量增加，手動添加每個連結既繁瑣又容易出錯。ChatGPT 及時出現，讓這個過程變得無縫且高效。

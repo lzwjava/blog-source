@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ベビーゲーム、ヘルスAI、バスケットボールの動き
 translated: true
+type: post
 ---
 
 ### 目次

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 私が選んだアプリの選択
 translated: true
+type: post
 ---
 
 以前のエッセイで、私は次のように書きました：

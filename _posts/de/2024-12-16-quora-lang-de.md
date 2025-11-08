@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Quoras Sprachinhaltskontrollen
 translated: true
+type: post
 ---
 
 Quora ist bekannt für seine umfangreiche Sammlung von nutzergenerierten Inhalten, die Antworten auf eine Vielzahl von Fragen in verschiedenen Bereichen bieten. Eine Funktion, die besonders hervorsticht, sind die Sprachinhaltskontrollen, die es Benutzern ermöglichen, das Plattformerlebnis anzupassen, indem sie ihre bevorzugte Sprache auswählen.

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: ChatGPT 應允許從對話歷史中創建 GPTs
 translated: true
+type: post
 ---
 
 對話列表應在分享按鈕附近包含一個標記為「創建GPT」的按鈕。此功能將允許用戶基於最近的聊天記錄創建一個GPT。

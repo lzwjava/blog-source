@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Suscripciones de Precio Fijo Están Pasadas de Moda
 translated: true
+type: post
 ---
 
 ### El Caso de la Tarificación Flexible en Servicios de Suscripción

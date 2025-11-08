@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 獵雲網報導：我的創業公司趣直播
 translated: true
+type: post
 ---
 
 李智維是個充滿激情的年輕人，他說他要用科技改變世界。

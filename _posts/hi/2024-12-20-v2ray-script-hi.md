@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: V2Ray स्क्रिप्ट
 translated: true
+type: post
 ---
 
 यह एक V2Ray स्क्रिप्ट है जिसका मैं अक्सर उपयोग करता हूँ।

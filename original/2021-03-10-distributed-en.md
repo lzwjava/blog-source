@@ -6,9 +6,10 @@ lang: en
 layout: post
 title: Cloud Computing And Big Data Beginners
 translated: true
+type: post
 ---
 
- This lesson covers the following topics:
+This lesson covers the following topics:
 
 * Spark
 * Hadoop
@@ -55,4 +56,3 @@ To get started with Spark, you need to install it on your machine or cluster. He
    You should see the Spark version number displayed.
 
 Now that Spark is installed, you can start using it for data processing and machine learning tasks. You can write Spark applications in Scala, Java, or Python. To learn more about Spark, check out the official documentation: https://spark.apache.org/docs/latest/index.html. The website states that `Spark` is an engine for analyzing large-scale data. `Spark` is a suite of libraries. It seems different from `Redis` which is divided into server and client. `Spark` is only used on the client side. Downloaded the latest version from the website, `spark-3.1.1-bin-hadoop3.2.tar`.
-

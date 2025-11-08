@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: ChatGPT Plus Token Usage पर शुल्क क्यों लेना चाहिए
 translated: true
+type: post
 ---
 
 ChatGPT Plus को टोकन उपयोग पर आधारित एक फ्लेक्सिबल प्राइसिंग मॉडल में ट्रांसिशन करना चाहिए, बजाय एक फिक्स्ड $20 मासिक फीस.

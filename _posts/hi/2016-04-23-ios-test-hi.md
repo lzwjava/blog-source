@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: iOS विकास को स्वचालित परीक्षण और उपकरणों के माध्यम से बेहतर बनाना
 translated: true
+type: post
 ---
 
 *यह ब्लॉग पोस्ट ChatGPT-4o की सहायता से तैयार किया गया है।*

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Mücken verschwinden, wenn die Temperatur sinkt
 translated: true
+type: post
 ---
 
 Gestern Abend wollte ich schlafen gehen. In dem Moment, als ich das Moskitonetz schließen wollte, bemerkte ich, dass sich keine Mücke mehr in meinem Zimmer befand. Der Winter kommt. Heute ist der 30. November 2024. Ich bin in Guangzhou, China. Die Temperatur in Guangzhou liegt zwischen 13 und 20°C.

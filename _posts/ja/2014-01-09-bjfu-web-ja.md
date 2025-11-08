@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 北京林業大学ログインシステムの分析
 translated: true
+type: post
 ---
 
 この記事は、元々中国語で書かれ、[CSDN](https://blog.csdn.net/lzw_java/article/details/18049581)に公開されました。

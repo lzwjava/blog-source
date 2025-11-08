@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 進階Markdown使用
 translated: true
+type: post
 ---
 
 ## 參考文獻

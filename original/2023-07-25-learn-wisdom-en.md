@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: The Wisdom of Learning
+type: post
 ---
 
 ### Foreword

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Babyspiele, Gesundheits-KI, Basketball-Moves
 translated: true
+type: post
 ---
 
 ### Inhaltsverzeichnis

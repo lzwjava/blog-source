@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 公司應提供AI背景以促進整合
 translated: true
+type: post
 ---
 
 我有一個朋友在 Greptime DB 工作，而我一直在思考如何快速將他們的產品整合到現有系統中。

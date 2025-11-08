@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Einfacher Echtzeit-Server (SRS) für RTMP-Streaming
 translated: true
+type: post
 ---
 
 Lass uns in die Nutzung des Simple Realtime Server (SRS) eintauchen, um einen Edge-Server für RTMP-Streaming einzurichten, mit einem Fokus auf das Verständnis und die effektive Konfiguration, einschließlich der `rtmp.conf`-Datei. SRS ist ein leistungsstarker, hochleistungsfähiger Medienserver, der für Echtzeit-Streaming-Protokolle wie RTMP, HLS und HTTP-FLV entwickelt wurde. Er eignet sich besonders für Szenarien, die Skalierbarkeit erfordern, wie Content Delivery Networks (CDNs), bei denen ein Edge-Server Streams effizient an viele Clients verteilen kann, während er Inhalte von einem Origin-Server abruft. Ich werde dich Schritt für Schritt durch den Prozess führen, das Konzept der Edge-Deployment erklären und verdeutlichen, wie man mit Konfigurationen wie `rtmp.conf` arbeitet.

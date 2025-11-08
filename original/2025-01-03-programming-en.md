@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Complete Programming Philosophy
+type: post
 ---
 
 ### Table of Contents

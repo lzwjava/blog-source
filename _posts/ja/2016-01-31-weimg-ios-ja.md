@@ -9,6 +9,7 @@ title: 'WeImg iOS
 
   ウイイム アイオエス'
 translated: true
+type: post
 ---
 
 このREADME.mdは、Githubプロジェクト[https://github.com/lzwjava/weimg-ios](https://github.com/lzwjava/weimg-ios)のものです。

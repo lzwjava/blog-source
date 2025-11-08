@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Beheben Sie Eingabeaufforderungen oder Kontext anstelle der Ausgabe der KI
 translated: true
+type: post
 ---
 
 Es gibt Benutzeraufforderungen und Systemaufforderungen. Wenn die Ausgabe nicht gut funktioniert, sollten wir die Regel in den Benutzeraufforderungen hinzufügen, anstatt sie jedes Mal zu korrigieren.
@@ -23,4 +24,3 @@ KI-Code-Editoren sind intelligenter als KI-Chatbots, da sie über einen größer
 Dasselbe gilt für Bilder, Audio und Video. Diese Tools sollten einen größeren Kontext bieten. Wenn KI-Erstellungstools beispielsweise eine Reihe von Videos, Audioclips und Podcasts erhalten, können sie viel effektiver neue Inhalte generieren.
 
 Dies ähnelt RAG (Retrieval-Augmented Generation). Für KI-Erstellungstools ist es wichtig, eine Balance zu finden – Ergebnisse zu erzeugen, die weder zu spezifisch noch zu allgemein sind. Sie sollten jedoch Werkzeuge oder Funktionen anbieten, um die Ergebnisse spezifischer zu gestalten. ChatGPT zum Beispiel verfügt über eine Projektfunktion, die es ermöglicht, Dateien hochzuladen und dann mit ihnen zu interagieren. Andere Erstellungstools benötigen ähnliche Funktionen.
-

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: こんにちは北京
 translated: true
+type: post
 ---
 
 この投稿は元々中国語で書かれ、Qzoneに掲載されました。

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: グローバル不動産アプリ
 translated: true
+type: post
 ---
 
 中国:

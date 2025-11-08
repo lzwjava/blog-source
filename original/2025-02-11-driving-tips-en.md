@@ -22,4 +22,3 @@ type: post
 - Drive at the same speed as the cars in your surroundings.
 
 - Buy an extra pair of small rearview mirrors to stick to the main mirror, and angle them differently so you can see more.
-

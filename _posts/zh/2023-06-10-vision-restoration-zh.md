@@ -7,6 +7,7 @@ layout: post
 title: 自然视力恢复方法的实验验证
 top: 30
 translated: true
+type: post
 ---
 
 <div align="center"><img src="/assets/images/eyes/glasses.jpeg" width="400px" /></div>

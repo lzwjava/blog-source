@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: बेबी गेम्स, हेल्थ एआई, बास्केटबॉल मूव्स
 translated: true
+type: post
 ---
 
 ### विषय-सूची

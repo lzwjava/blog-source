@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Comment accéder à Google
 translated: true
+type: post
 ---
 
 Cet article a été initialement écrit en chinois.

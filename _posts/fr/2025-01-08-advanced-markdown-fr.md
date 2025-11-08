@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Utilisation avancée de Markdown
 translated: true
+type: post
 ---
 
 ## Références

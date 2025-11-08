@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 提前部分还款的好处
 translated: true
+type: post
 ---
 
 我在2022年7月左右从中国农业银行贷款了103万元人民币的房屋贷款。

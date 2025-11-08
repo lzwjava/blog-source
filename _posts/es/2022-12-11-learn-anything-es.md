@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Learn Anything
 translated: true
+type: post
 ---
 
 ¿Cómo aprender cualquier cosa en un año? Tomemos el inglés como ejemplo. Pasé un año para lograr una puntuación de 6 en el IELTS y poder usar el inglés para trabajar con fluidez en una gran empresa global. Aquí está mi método.

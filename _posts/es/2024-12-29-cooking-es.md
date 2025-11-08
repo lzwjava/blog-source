@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Cocinando con una Air Fryer
 translated: true
+type: post
 ---
 
 La freidora de aire se ha convertido en mi herramienta de cocina favorita recientemente. Compré la freidora de aire Midea KZE5004 por alrededor de 126 CNY.

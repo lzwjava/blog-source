@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 创业随想
 translated: false
+type: post
 ---
 
 ​很少冒泡社交媒体的一个好处是，当你想和大家分享想法的时候，你有很多想法可以分享。因为你很少说，一旦说起来，当然就有很多能说的。

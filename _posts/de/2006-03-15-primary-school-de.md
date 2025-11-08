@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Meine Grundschulzeit
 translated: true
+type: post
 ---
 
 Hier ist die Übersetzung des Markdown-Textes ins Deutsche:

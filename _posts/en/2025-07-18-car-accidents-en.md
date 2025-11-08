@@ -42,4 +42,3 @@ This accident left a lifelong memory for me. Later accidents I've had have been 
 {: .centered }  
 ![](assets/images/accident/a5.jpg){: .responsive }  
 *Source: Self-Captured*{: .caption }
-

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 物事
 translated: true
+type: post
 ---
 
 車輛

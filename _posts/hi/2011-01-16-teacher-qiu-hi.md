@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: शिक्षक किउ
 translated: true
+type: post
 ---
 
 यह पोस्ट मूल रूप से चीनी भाषा में लिखी गई थी और Qzone पर प्रकाशित हुई थी।

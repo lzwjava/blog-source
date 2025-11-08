@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Construyendo una Plataforma de Revisión de Código Eficiente con Vue.js
 translated: true
+type: post
 ---
 
 En el mundo de desarrollo rápido de hoy, la calidad del código es fundamental. Un proceso de revisión de código bien estructurado puede elevar la producción de un equipo y afilar las habilidades individuales. Recientemente, exploré un proyecto fascinante: un servicio de revisión de código construido con Vue.js que conecta a los desarrolladores con revisores expertos para refinar sus bases de código. Vamos a sumergirnos en los cimientos técnicos de esta plataforma, centrándonos en su arquitectura frontal, diseño de componentes y técnicas de estilo.

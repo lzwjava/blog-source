@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Elektrofahrzeuge
 translated: true
+type: post
 ---
 
 ## Neta

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 圆形图形溢出在 GreptimeDB 门户
 translated: true
+type: post
 ---
 
 我提交了一个 GitHub 问题，https://github.com/GreptimeTeam/docs/issues/1455，标题为“GreptimeDB 门户：大型紫色圆形图形在较小屏幕上超出视口边界。”

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Corregir Indicaciones o Contexto en Lugar de la Salida de la IA
 translated: true
+type: post
 ---
 
 Existen indicaciones de usuario y indicaciones del sistema. Cuando la salida no funciona bien, debemos agregar la regla en las indicaciones del usuario en lugar de corregirla cada vez.
@@ -23,4 +24,3 @@ Los editores de código con IA son más inteligentes que los chatbots de IA porq
 Lo mismo se aplica a las imágenes, el audio y el video. Estas herramientas deberían proporcionar un contexto más amplio. Por ejemplo, si a las herramientas de creación de IA se les proporciona un conjunto de videos, clips de audio y podcasts, pueden generar nuevos contenidos de manera mucho más efectiva.
 
 Esto es similar a RAG (Generación Aumentada por Recuperación). Para las herramientas de creación de IA, deben encontrar un equilibrio: generar resultados que no sean ni demasiado específicos ni demasiado genéricos. Sin embargo, deben ofrecer herramientas o funcionalidades para que los resultados sean más específicos. ChatGPT, por ejemplo, tiene una funcionalidad de proyecto que te permite subir archivos y luego interactuar con ellos. Otras herramientas de creación necesitan características similares.
-

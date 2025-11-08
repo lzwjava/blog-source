@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: '準学士号: 進捗と考察'
 translated: true
+type: post
 ---
 
 2025年11月更新。

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: ChatGPT me ayuda a aprender japonés
 translated: true
+type: post
 ---
 
 ### Prólogo

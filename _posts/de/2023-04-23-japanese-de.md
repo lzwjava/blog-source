@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Warum und wie ich Japanisch lerne
 translated: true
+type: post
 ---
 
 Vor zwei Jahren habe ich zwei Wochen lang Japanisch gelernt, dann habe ich es beiseitegelegt und mich anderen Dingen gewidmet. Jetzt habe ich meine Reise, es zu lernen, wieder aufgenommen. Was ich beobachtet habe, ist, dass diesmal alles viel reibungsloser verläuft. Ich kann immer noch einige Katakana und Hiragana erkennen. Meine Reise hat gerade erst begonnen, und diesmal habe ich, anstatt irgendwelchen Ratschlägen zu folgen, einige einzigartige Wege genutzt, um zu lernen. Ich lerne, während ich Auto fahre. Nachdem ich mich von der Arbeit abgemeldet habe, fahre ich 4 Stunden lang und höre dabei japanische TikTok-Videos oder japanische Musik. Denn Autofahren erfordert Geduld. Beim Fahren kann man nicht schneller werden; man muss auf das Auto oder die Ampel vor einem warten. Autofahren kann auch langweilig sein, daher ist es besser, etwas zum Nachdenken zu haben. Ich habe eine Fernbedienung gekauft, die ich in einer Hand halte, damit ich mit einer Hand fahren und mit der anderen Hand mein Telefon fernsteuern kann, manchmal scrollend zum nächsten TikTok-Video.

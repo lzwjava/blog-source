@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Plénières
 translated: true
+type: post
 ---
 
 Voici le README.md du projet github [https://github.com/lzwjava/Keynotes](https://github.com/lzwjava/Keynotes).

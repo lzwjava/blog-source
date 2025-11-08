@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: 'Marco de Meta-Pensamiento: Razonamiento, Categorización y Abstracción'
 translated: true
+type: post
 ---
 
 ## Pensamiento

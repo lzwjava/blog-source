@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: आंशिक समय से पहले मॉर्गेज भुगतान के लाभ
 translated: true
+type: post
 ---
 
 मेरे पास 1.03 मिलियन CNY का घर का लोन है, जो मैंने जुलाई 2022 के आसपास Agricultural Bank of China से लिया था।

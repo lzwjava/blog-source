@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: '## تحسين تطوير iOS من خلال الاختبارات الآلية والأدوات'
 translated: true
+type: post
 ---
 
 *تمت كتابة هذه المدونة بمساعدة ChatGPT-4o.*

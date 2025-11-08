@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Haftungsausschluss
 translated: true
+type: post
 ---
 
 ## Übersetzung

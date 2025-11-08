@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 童年回忆
 translated: true
+type: post
 ---
 
 这篇文章写于2025年7月。

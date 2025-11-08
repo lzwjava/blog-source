@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 嘗試RAGFlow
 translated: true
+type: post
 ---
 
 [https://ragflow.io](https://ragflow.io)

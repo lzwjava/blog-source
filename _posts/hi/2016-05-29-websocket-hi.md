@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: WebSocket की खोज
 translated: true
+type: post
 ---
 
 *यह ब्लॉग पोस्ट ChatGPT-4o की सहायता से तैयार किया गया है।*

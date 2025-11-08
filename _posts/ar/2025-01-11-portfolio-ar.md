@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: حقيبة الأعمال
 translated: true
+type: post
 ---
 
 يمكن العثور على ملف PDF [هنا](/assets/resume/Zhiwei.Li.Portfolio.pdf).

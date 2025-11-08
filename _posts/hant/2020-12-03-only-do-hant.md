@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 不講只做
 translated: true
+type: post
 ---
 
 不要說你有多愛父母，去天天把家務做了，去體驗一下父母多年的辛苦，起碼去把自己該做的那份家務做了。

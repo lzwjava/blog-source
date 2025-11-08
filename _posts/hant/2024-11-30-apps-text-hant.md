@@ -8,6 +8,7 @@ title: iOS 應用程式我用過 - 文字版
 top: 10
 translated: true
 translation: false
+type: post
 ---
 
 \#:

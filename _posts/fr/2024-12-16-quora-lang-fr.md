@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Contrôles de contenu linguistique de Quora
 translated: true
+type: post
 ---
 
 Quora est bien connu pour sa vaste collection de contenu généré par les utilisateurs, offrant des réponses à une multitude de questions dans divers domaines. Une fonctionnalité qui se distingue est ses contrôles de contenu linguistique, qui permettent aux utilisateurs de personnaliser leur expérience sur la plateforme en sélectionnant leur langue préférée.

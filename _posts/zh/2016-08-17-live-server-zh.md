@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 知识直播平台
 translated: true
+type: post
 ---
 
 这是来自 GitHub 项目 [https://github.com/lzwjava/live-server](https://github.com/lzwjava/live-server) 的 README.md。

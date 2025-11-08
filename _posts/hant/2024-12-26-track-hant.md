@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 追蹤世界
 translated: true
+type: post
 ---
 
 *此帖文是在ChatGPT的協助下撰寫的。*

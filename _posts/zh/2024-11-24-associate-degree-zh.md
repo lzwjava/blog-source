@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 副学士学位：进展与反思
 translated: true
+type: post
 ---
 
 更新于2025年11月。

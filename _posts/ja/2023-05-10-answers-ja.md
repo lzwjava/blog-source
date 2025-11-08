@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 陰王：人生、宇宙、すべての答え
 translated: true
+type: post
 ---
 
 以下はYin WangのSubstackからの転送です。ウェブサイトはhttps://yinwang1.substack.comです。

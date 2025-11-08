@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Redsocks in Action
 translated: false
+type: post
 ---
 
 Certainly! I'll guide you through setting up a Shadowsocks proxy using your Mac computer and configuring your OpenWRT router to route all connected devices' traffic through this proxy. This setup involves the following main steps:

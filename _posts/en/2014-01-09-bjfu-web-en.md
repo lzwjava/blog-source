@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Analysis of the Beijing Forestry University Login System
 translated: false
+type: post
 ---
 
 This post was originally written in Chinese and published on [CSDN](https://blog.csdn.net/lzw_java/article/details/18049581).

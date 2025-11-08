@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Proyectos Secundarios
 translated: true
+type: post
 ---
 
 ## Skybound: La odisea aérea de Guangzhou a Lhasa

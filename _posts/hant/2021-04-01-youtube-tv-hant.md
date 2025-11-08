@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 如何在電視上看 YouTube
 translated: true
+type: post
 ---
 
 這裡假設我們知道如何科學上網，那如何在電視上看Youtube呢。刷路由有點麻煩。這裡借助一個應用。

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Flutter-App
 translated: true
+type: post
 ---
 
 Dieser Blogbeitrag behandelt ein Flutter-Projekt, wahrscheinlich eine persönliche Blog-Anwendung. Die angegebene Dateistruktur deutet auf ein standardmäßiges Flutter-Projekt-Setup hin, einschließlich plattformspezifischer Verzeichnisse (android, ios, linux, macos, web) und wichtiger Flutter-Dateien (lib/main.dart, pubspec.yaml). Das Fehlen spezifischer Details erfordert eine allgemeine Übersicht.

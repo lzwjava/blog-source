@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Phone Searching and Music
+type: post
 ---
 
 ### Phone Searching

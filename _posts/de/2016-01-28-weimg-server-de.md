@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: WeImg Server ist nicht der richtige Titel
 translated: true
+type: post
 ---
 
 Dies ist die README.md aus dem GitHub-Project [https://github.com/lzwjava/weimg-server](https://github.com/lzwjava/weimg-server).

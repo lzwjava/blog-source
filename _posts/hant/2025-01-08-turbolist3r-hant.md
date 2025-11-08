@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 'Turbolist3r: 列舉子域名'
 translated: true
+type: post
 ---
 
 ## 列出一些幫助列舉子域名的工具。

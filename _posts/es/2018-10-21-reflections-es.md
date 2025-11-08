@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Reflexiones sobre el emprendimiento
 translated: true
+type: post
 ---
 
 Una de las ventajas de rara vez participar en las redes sociales es que, cuando quieres compartir tus ideas con los demás, tienes muchas ideas para compartir. Como hablas poco, cuando finalmente lo haces, por supuesto que tienes mucho que decir.

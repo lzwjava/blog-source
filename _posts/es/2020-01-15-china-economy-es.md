@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Reflexiones sobre el camino de la economía china
 translated: true
+type: post
 ---
 
 En los 40 años de reforma y apertura de China, bajo la guía de centrarse en la construcción económica, el país ha logrado avances significativos. Sin embargo, las crisis ya han comenzado a aparecer, y en los próximos años, la economía enfrentará enormes desafíos. Pensando en las siguientes salidas:

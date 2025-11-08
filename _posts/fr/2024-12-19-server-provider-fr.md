@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Réflexion à long terme dans le choix des serveurs cloud
 translated: true
+type: post
 ---
 
 Outline Manager propose plusieurs options de serveur, notamment Google Cloud, DigitalOcean, AWS Lightsail, et d'autres.

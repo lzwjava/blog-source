@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: Ruby on Rails का उपयोग
 translated: true
+type: post
 ---
 
 मेरे ShowMeBug में समय के दौरान, मैंने Enterprise WeChat Integration project में योगदान दिया। यह ShowMeBug को Enterprise WeChat के साथ एकीकृत करने का काम था, जिससे तकनीकी साक्षात्कार उपकरणों तक Enterprise WeChat ecosystem में सुलभ पहुंच मिलती है। मैंने Ruby, Ruby on Rails, PostgreSQL और WeChat SDK जैसे तकनीकों का उपयोग किया ताकि साक्षात्कारकर्ताओं और उम्मीदवारों दोनों के लिए एक सुलभ उपयोगकर्ता अनुभव बनाया जा सके।

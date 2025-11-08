@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Chine Economy
 translated: true
+type: post
 ---
 
 Depuis 40 ans de réforme et d'ouverture en Chine, sous la direction centrée sur la construction économique, le pays a effectivement réalisé des progrès substantiels. Cependant, une crise est déjà apparue, et dans les années à venir, l'économie fera face à une énorme crise. Voici quelques réflexions sur les voies possibles pour l'avenir.

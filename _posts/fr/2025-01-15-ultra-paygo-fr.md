@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Carte SIM Ultra Paygo USA
 translated: true
+type: post
 ---
 
 J'ai récemment acheté une carte SIM Ultra Paygo. Mon objectif était d'acheter une carte cadeau Apple via l'application Walmart, ce qui nécessite un numéro de téléphone américain pour la vérification. Cela m'a conduit à acheter la SIM Ultra Paygo.

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 通过自动化测试和工具提升iOS开发
 translated: false
+type: post
 ---
 
 *这篇博文是由 ChatGPT-4o 协助整理的。* 

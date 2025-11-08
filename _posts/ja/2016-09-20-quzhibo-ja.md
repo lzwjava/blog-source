@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 趣直播：初の知識配信プラットフォーム
 translated: true
+type: post
 ---
 
 趣直播、私たちの製品がリリースされます。21歳の私にとって、2つ目の起業プロジェクトが発表されます。

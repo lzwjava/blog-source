@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 人工智能代碼編輯器
 translated: true
+type: post
 ---
 
 我嘗試了幾款AI代碼編輯工具，包括GitHub Copilot、Windsurf和Cursor。以下是我的觀察：

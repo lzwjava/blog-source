@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: 'Un complemento de Xcode: Reveal-In-GitHub'
 translated: true
+type: post
 ---
 
 Esto es el README.md del proyecto de GitHub [https://github.com/lzwjava/Reveal-In-GitHub](https://github.com/lzwjava/Reveal-In-GitHub).

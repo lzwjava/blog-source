@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Blutdruckmessgerät, Stethoskop und Sehtesttafel
 translated: true
+type: post
 ---
 
 <div style="text-align: center;">

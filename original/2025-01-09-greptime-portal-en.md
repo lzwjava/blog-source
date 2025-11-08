@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Circular Graphic Overflow in GreptimeDB Portal
 translated: false
+type: post
 ---
 
 I submitted a GitHub issue, https://github.com/GreptimeTeam/docs/issues/1455, titled "GreptimeDB Portal: Large Purple Circular Graphic Exceeds the Viewport Boundaries on Smaller Screens."

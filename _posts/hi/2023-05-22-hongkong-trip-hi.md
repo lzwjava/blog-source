@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: हांगकांग और मकाऊ यात्रा
 translated: true
+type: post
 ---
 
 - Sha Tin में Regal Riverside Hotel के लिए 2 रातों के लिए बुक किया (1286 CNY) Qunar App के माध्यम से।

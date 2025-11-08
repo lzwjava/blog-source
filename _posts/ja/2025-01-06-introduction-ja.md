@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 智偉の紹介
 translated: true
+type: post
 ---
 
 私の紹介文（LaTeX作成）のPDF版は、[英語版](/assets/resume/Zhiwei.Li.Introduction.EN.pdf)と[中国語版](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf)からダウンロードできます。

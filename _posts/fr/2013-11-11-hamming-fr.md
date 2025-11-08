@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Parler de FP avec le problème des codes de Hamming
 translated: true
+type: post
 ---
 
 Ce message a été initialement écrit en chinois et publié sur CSDN.

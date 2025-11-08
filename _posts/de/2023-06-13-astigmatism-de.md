@@ -7,6 +7,7 @@ layout: post
 title: Astigmatismus bei der Umkehrung von Kurzsichtigkeit
 top: 10
 translated: true
+type: post
 ---
 
 ## Zusammenfassung

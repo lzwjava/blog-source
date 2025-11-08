@@ -24,4 +24,3 @@ type: post
 - Once we can live with free will, it is hard to live with constraints.
 
 - Once we have experienced AI and LLMs, it is hard to use Google Search and go back to the old days.
-

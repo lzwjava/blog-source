@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: 'Turbolist3r: Enumerating Subdomains'
+type: post
 ---
 
 Below are some tools to help enumerate subdomains.
@@ -162,5 +163,3 @@ upload.video.google.com
 wifi.google.com
 onex.wifi.google.com
 ```
-
-

@@ -7,6 +7,7 @@ layout: post
 title: यिन वांग की सम्पूर्ण कृतियाँ
 top: 20
 translated: true
+type: post
 ---
 
 ## चीनी

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 我的中學時期
 translated: true
+type: post
 ---
 
 此帖於2025年7月撰寫。

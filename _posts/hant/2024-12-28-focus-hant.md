@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 沉默能讓你昏昏欲睡
 translated: true
+type: post
 ---
 
 最近，我嘗試專注於在電腦上閱讀學習資料，同時使用耳塞來阻擋其他家庭成員談話的噪音。然而，我很快就感到昏昏欲睡。感到困惑的我，轉向DeepSeek尋求解釋。以下是它的回答：

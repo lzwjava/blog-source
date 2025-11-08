@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Verstehen der AndroidManifest.xml-Datei
 translated: true
+type: post
 ---
 
 Wenn du dich in die Android-Entwicklung einarbeitest, ist eine der ersten Dateien, die du begegnen wirst, die `AndroidManifest.xml`. Sie ist wie der Bauplan deiner App – sie teilt dem Android-System alles mit, was es über deine Anwendung wissen muss, bevor sie überhaupt läuft. Heute werden wir eine Beispielmanifestdatei einer App namens "Flower" (Paketname: `com.lzw.flower`) zerlegen und ihre wichtigsten Komponenten, Konzepte und Muster erkunden.

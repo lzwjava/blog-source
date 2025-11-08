@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: 'Grado Asociado: Progreso y Reflexión'
 translated: true
+type: post
 ---
 
 Actualizado en noviembre de 2025.

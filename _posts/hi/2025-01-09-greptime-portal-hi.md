@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: चक्राकार ग्राफिक ओवरफ्लो इन ग्रेपटाइमडीबी पोर्टल
 translated: true
+type: post
 ---
 
 मैंने एक GitHub issue दायर किया, https://github.com/GreptimeTeam/docs/issues/1455, जिसका शीर्षक है "GreptimeDB Portal: Large Purple Circular Graphic Exceeds the Viewport Boundaries on Smaller Screens."

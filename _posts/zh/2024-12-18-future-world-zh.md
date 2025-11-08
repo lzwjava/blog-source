@@ -7,6 +7,7 @@ layout: post
 title: 未来
 top: 10
 translated: true
+type: post
 ---
 
 * 拥有房子的梦想已经结束。不仅在中国，在全球范围内，只有少数城市会是例外。

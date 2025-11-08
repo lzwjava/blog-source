@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 利用多焦點漸進鏡片逆轉近視
 translated: true
+type: post
 ---
 
 ## 雙光眼鏡

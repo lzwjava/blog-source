@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: मैंने उपयोग किए गए Mac ऐप्स
 translated: true
+type: post
 ---
 
 A:

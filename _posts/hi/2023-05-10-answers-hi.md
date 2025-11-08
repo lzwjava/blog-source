@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: 'यिन वांग: जीवन, ब्रह्मांड और सब कुछ का अंतिम उत्तर'
 translated: true
+type: post
 ---
 
 यिन वांग के Substack से आगे भेजा गया। https://yinwang1.substack.com

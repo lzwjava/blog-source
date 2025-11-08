@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: 'El caso del tubo de escape peludo: Un misterio de reparación de autos'
 translated: true
+type: post
 ---
 
 En marzo de 2018, compré un Chevrolet Sail 2011 de segunda mano. Sin embargo, lo choqué alrededor de junio de 2018. Lo vendí a otra persona local. Después de varios años, lo volví a comprar.

@@ -7,6 +7,7 @@ layout: post
 title: 從虧損45萬到營收200萬
 top: 10
 translated: true
+type: post
 ---
 
 ![](assets/images/profit/profit1.jpg)

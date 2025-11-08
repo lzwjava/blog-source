@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: الحالات التي ما زلنا بحاجة فيها إلى مربع البحث في GitHub
 translated: true
+type: post
 ---
 
 ```yaml

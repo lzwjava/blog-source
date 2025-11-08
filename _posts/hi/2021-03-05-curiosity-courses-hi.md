@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: हैरानी के पाठ
 translated: true
+type: post
 ---
 
 यह पाठ [https://github.com/lzwjava/curiosity-courses](https://github.com/lzwjava/curiosity-courses) से GitHub परियोजना के README.md है।

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: 'مشكلات Markdown: Kramdown وXeLaTeX'
 translated: true
+type: post
 ---
 
 لإنشاء ملفات PDF لمدونتي التي تعمل بـ Jekyll باستخدام Markdown، أستخدم الأمر التالي من Pandoc:

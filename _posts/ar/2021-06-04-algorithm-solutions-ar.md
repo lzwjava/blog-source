@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: حل مشاكل الخوارزميات
 translated: true
+type: post
 ---
 
 # حلول مشاكل الخوارزمية

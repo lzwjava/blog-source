@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 香港とマカオの旅
 translated: true
+type: post
 ---
 
 - シャティンのレガルリバーサイドホテルを2泊（1286元）でQunarアプリで予約しました。

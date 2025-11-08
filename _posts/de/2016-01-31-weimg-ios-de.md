@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: WeImg iOS
 translated: true
+type: post
 ---
 
 Dies ist die README.md des GitHub-Projekts [https://github.com/lzwjava/weimg-ios](https://github.com/lzwjava/weimg-ios).

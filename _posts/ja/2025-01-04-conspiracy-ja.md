@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 陰謀
 translated: true
+type: post
 ---
 
 Yin Wangのエッセイ、[Yin Wang: The Ultimate Answer to Life, the Universe, and Everything](https://lzwjava.github.io/answers-en)と彼の以前の発言に従うと、以前にも多くの陰謀論者がいたようです。

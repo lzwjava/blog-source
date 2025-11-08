@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: LeanChat iOS
 translated: true
+type: post
 ---
 
 Dies ist die README.md von dem GitHub-Projekt [https://github.com/lzwjava/leanchat-ios](https://github.com/lzwjava/leanchat-ios).

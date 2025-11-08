@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 化學老師名言
 translated: true
+type: post
 ---
 
 這篇文章原本以中文撰寫並發布在QQ空間。

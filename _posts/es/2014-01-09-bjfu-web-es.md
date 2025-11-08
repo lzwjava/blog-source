@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Análisis del sistema de acceso a la Universidad Forestal de Beijing
 translated: true
+type: post
 ---
 
 Esta publicación fue escrita originalmente en chino y publicada en [CSDN](https://blog.csdn.net/lzw_java/article/details/18049581).

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Réflexions sur les secrets de la vie
 translated: true
+type: post
 ---
 
 Ce n'est qu'après avoir quitté l'école et travaillé dans la société pendant plusieurs années que j'ai soudainement compris le secret de l'apprentissage. J'ai réalisé qu'il s'agissait en fait aussi du secret de la vie. Laissez-moi vous raconter étape par étape mon voyage de découverte.

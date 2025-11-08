@@ -7,6 +7,7 @@ layout: post
 title: Cryptocurrency and Blockchain
 top: 10
 translated: false
+type: post
 ---
 
 Cryptocurrency, like AI, is known to a large portion of the population. I believe the awareness of cryptocurrency is similar to the proportion of people who have access to free internet. In countries outside China, a larger percentage of the population is likely to know about cryptocurrency.
@@ -56,4 +57,3 @@ Apparently, a block can store more than just numbers. It can hold text, images, 
 Why do we store information in blocks? To prevent it from being deleted. We don’t want valuable information to be lost. Platforms like Bluesky and Mastodon use blockchains to power their social networks. It’s a fascinating development.
 
 Let’s continue learning to draw conclusions.
-

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: GitHub 検索ボックスがまだ必要なケース
 translated: true
+type: post
 ---
 
 ```yaml

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: التفكير طويل الأمد في اختيار خوادم السحابة
 translated: true
+type: post
 ---
 
 يقدم Outline Manager عدة خيارات للخوادم، بما في ذلك Google Cloud وDigitalOcean وAWS Lightsail وغيرها.

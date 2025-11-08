@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Das TabiTöter
 translated: true
+type: post
 ---
 
 Dies ist die README.md des GitHub-Projekts [https://github.com/lzwjava/TabsKiller](https://github.com/lzwjava/TabsKiller).

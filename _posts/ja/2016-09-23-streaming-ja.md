@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: OBS、SRS、およびFFmpegを使用したライブストリーミング設定
 translated: true
+type: post
 ---
 
 *このブログ記事は、ChatGPT-4oの協力を得て整理されました。*

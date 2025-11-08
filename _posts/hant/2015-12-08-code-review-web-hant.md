@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 程式碼審查網
 translated: true
+type: post
 ---
 
 這是來自 GitHub 專案 [https://github.com/lzwjava/code-review-web](https://github.com/lzwjava/code-review-web) 的 README.md。

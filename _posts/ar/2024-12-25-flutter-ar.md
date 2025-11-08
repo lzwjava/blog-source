@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تطبيق فلاتر
 translated: true
+type: post
 ---
 
 تتناول هذه التدوينة مشروعًا باستخدام Flutter، على الأرجح تطبيق مدونة شخصية. يشير هيكل الملفات المقدم إلى إعداد مشروع Flutter قياسي، بما في ذلك أدلة خاصة بالمنصة (android، ios، linux، macos، web) وملفات Flutter الأساسية (lib/main.dart، pubspec.yaml). إن عدم وجود تفاصيل محددة يستلزم تقديم لمحة عامة.

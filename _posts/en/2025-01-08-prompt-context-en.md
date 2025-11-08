@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fix Prompts or Context Instead of Output of AI
 translated: false
+type: post
 ---
 
 There are user prompts and system prompts. When the output doesn't work well, we should add the rule in the user prompts instead of fixing it every time.
@@ -23,4 +24,3 @@ AI code editors are smarter than AI chatbots because they have a larger context.
 The same applies to images, audio, and video. These tools should provide a larger context. For example, if AI creation tools are given a bunch of videos, audio clips, and podcasts, they can generate new ones much more effectively.
 
 This is similar to RAG (Retrieval-Augmented Generation). For AI creation tools, they must strike a balance—creating results that are neither too specific nor too generic. However, they should offer tools or functionalities to make the results more specific. ChatGPT, for instance, has project functionality that lets you upload files and then interact with them. Other creation tools need similar features.
-

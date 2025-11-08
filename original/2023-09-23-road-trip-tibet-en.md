@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Road Trip to Tibet
 translated: false
+type: post
 ---
 
 From August 23, 2023, to September 18, 2023, I embarked on a journey of approximately 25 days from Guangzhou to Tibet. I arrived in Lhasa, Tibet, on September 10, 2023. The trip to Tibet involved traveling via national roads, taking 17 days to reach Lhasa, and the return journey was by highway, which took 8 days. 

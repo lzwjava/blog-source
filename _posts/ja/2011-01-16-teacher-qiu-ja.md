@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Teacher Qiu
 translated: true
+type: post
 ---
 
 この投稿は、元々中国語で書かれ、Qzoneに投稿されました。

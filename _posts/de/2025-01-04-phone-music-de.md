@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Telefon-Suche und Musik
 translated: true
+type: post
 ---
 
 ### Telefon-Suche

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 共同創業者を見つけるためのヒント
 translated: true
+type: post
 ---
 
 - もし私が再びスタートアップを始めるとしたら、どうやって共同創業者を見つけるだろうか？

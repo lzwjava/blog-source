@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 人工通用智能的世界
 translated: true
+type: post
 ---
 
 如果有一天，我们只需简单地向AI发出一个指令，就能让它创建一个类似TikTok或YouTube的应用程序，并且它还能提供给我们一个包含数百万行代码的完整项目，那将是非常令人惊叹的。

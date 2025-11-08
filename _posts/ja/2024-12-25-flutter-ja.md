@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Flutterアプリ
 translated: true
+type: post
 ---
 
 このブログ記事では、恐らく個人ブログアプリケーションであるFlutterプロジェクトについて説明します。提供されたファイル構造は、プラットフォーム固有のディレクトリ（android、ios、linux、macos、web）とコアFlutterファイル（lib/main.dart、pubspec.yaml）を含む標準的なFlutterプロジェクトのセットアップを示唆しています。具体的な詳細がないため、概要を説明します。

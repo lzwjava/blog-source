@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: V2Rayスクリプト
 translated: true
+type: post
 ---
 
 これは私がよく使うV2Rayスクリプトです。

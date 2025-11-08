@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Afficher les Paramètres du Proxy Avant d'Exécuter des Commandes
 translated: true
+type: post
 ---
 
 <div style="text-align: center;">  

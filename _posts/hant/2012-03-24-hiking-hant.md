@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 遠足
 translated: true
+type: post
 ---
 
 此文原載於QQ空間，以中文撰寫。

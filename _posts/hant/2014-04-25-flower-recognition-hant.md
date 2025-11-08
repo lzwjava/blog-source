@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 花卉識別應用程式
 translated: true
+type: post
 ---
 
 這是來自 GitHub 項目的 README.md [https://github.com/lzwjava/flower-recognition](https://github.com/lzwjava/flower-recognition)。

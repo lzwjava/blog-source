@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تعلم اللغة اليابانية
 translated: true
+type: post
 ---
 
 هذا هو README.md من مشروع github [https://github.com/lzwjava/LearnJapanese](https://github.com/lzwjava/LearnJapanese).

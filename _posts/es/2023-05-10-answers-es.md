@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: 'Yin Wang: La Respuesta Definitiva a la Vida, el Universo y Todo'
 translated: true
+type: post
 ---
 
 Reenviado desde el Substack de Yin Wang. https://yinwang1.substack.com

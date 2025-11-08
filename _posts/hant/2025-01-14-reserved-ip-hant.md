@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 管理DigitalOcean保留IP
 translated: true
+type: post
 ---
 
 伺服器的IP地址容易被防火長城（GFW）封鎖，這是一個常見的挑戰，尤其是對於雲端伺服器而言。為了解決這個問題，一個策略是使用DigitalOcean的保留IP，並在當前IP被封鎖時將其重新分配給你的droplet。這篇文章介紹了一個Python腳本來自動化這個過程。該腳本也已開源，可以在[GitHub](https://github.com/lzwjava/auto-ss-config)上找到。

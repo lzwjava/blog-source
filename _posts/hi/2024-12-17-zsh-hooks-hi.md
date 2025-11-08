@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: Zsh हुक्स
 translated: true
+type: post
 ---
 
 "Let Zsh Display Proxy Settings Before Running Network Commands" का अन्वेषण करने के बाद, मैंने ChatGPT के साथ Zsh hooks की गहराई में जाकर अध्ययन किया। यहां भविष्य के संदर्भ के लिए एक संक्षिप्त अवलोकन दिया गया है।

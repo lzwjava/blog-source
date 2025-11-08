@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Flutter 應用程式
 translated: true
+type: post
 ---
 
 本文討論一個 Flutter 專案，很可能是一個個人部落格應用程式。提供的檔案結構顯示一個標準的 Flutter 專案設定，包括平台特定目錄 (android、ios、linux、macos、web) 和核心 Flutter 檔案 (lib/main.dart、pubspec.yaml)。由於缺乏具體細節，因此只能提供一般性概述。

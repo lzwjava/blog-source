@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Live Mobile Web
 translated: true
+type: post
 ---
 
 Das ist die README.md von github Projekt [https://github.com/lzwjava/live-mobile-web](https://github.com/lzwjava/live-mobile-web).

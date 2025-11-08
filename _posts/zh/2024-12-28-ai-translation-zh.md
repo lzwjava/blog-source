@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 全新AI驱动的Quora或TikTok
 translated: true
+type: post
 ---
 
 * 一个由AI翻译全权驱动的新版TikTok或Quora。

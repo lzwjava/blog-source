@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 尹王：生命、宇宙与万物的终极答案
 translated: true
+type: post
 ---
 
 转自 Yin Wang 的 Substack，网址是 https://yinwang1.substack.com。

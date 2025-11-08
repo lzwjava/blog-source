@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ルーチェンサイン
 translated: true
+type: post
 ---
 
 この README.md は、GitHub プロジェクト [https://github.com/lzwjava/lvchensign](https://github.com/lzwjava/lvchensign) からのものです。

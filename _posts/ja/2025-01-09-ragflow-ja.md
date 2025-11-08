@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: RAGFlowを試してみる
 translated: true
+type: post
 ---
 
 [https://ragflow.io](https://ragflow.io)

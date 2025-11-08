@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: GFW、プロキシアピ、VPN検出
 translated: true
+type: post
 ---
 
 ### 目次

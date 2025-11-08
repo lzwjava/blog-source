@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: عيب ChatGPT مع الكتل البرمجية المتداخلة
 translated: true
+type: post
 ---
 
 ### شرح المشكلة

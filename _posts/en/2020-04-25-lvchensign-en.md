@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'LvchenSign: Advertising LED Corporate Site'
 translated: false
+type: post
 ---
 
 This is the README.md from github project [https://github.com/lzwjava/lvchensign](https://github.com/lzwjava/lvchensign).

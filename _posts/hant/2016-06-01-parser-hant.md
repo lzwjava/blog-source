@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Creak：一個 Swift 的 HTML 解析庫
 translated: true
+type: post
 ---
 
 [Creak](https://github.com/lzwjava/Creak) 設計用於高效解析 HTML 文檔，並構建表示文檔元素的樹結構。解析過程涉及多個關鍵步驟和組件，這些組件協同工作以實現此目標。以下是 Creak 解析 HTML 的詳細說明：

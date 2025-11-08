@@ -7,6 +7,7 @@ layout: post
 title: 近視回復における乱視
 top: 10
 translated: true
+type: post
 ---
 
 ## 概要

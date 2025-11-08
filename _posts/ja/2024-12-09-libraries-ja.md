@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ライブラリ使用時のアップグレードを検討する
 translated: true
+type: post
 ---
 
 私のスタートアッププロジェクト、[Fun Live](https://github.com/lzwjava/live-server)でCodeIgniterを使用しました。プロジェクトは終了しましたが、数年経った今、それを記念して復活させたいと思いました。しかし、2016年当時はCodeIgniter 3を使用していましたが、現在の最新バージョンはCodeIgniter 4です。

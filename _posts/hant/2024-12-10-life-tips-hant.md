@@ -9,6 +9,7 @@ prompt: Do not translate specific items such as project names, company names, or
 title: 生活小貼士
 top: 10
 translated: true
+type: post
 ---
 
 ## 生活建議

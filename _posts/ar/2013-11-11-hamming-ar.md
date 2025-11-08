@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: نُقاش الترميز الإرشادي مع المشكلات الحمية
 translated: true
+type: post
 ---
 
 هذا المنشور كان مكتوبًا بالصينية وأُنشر على CSDN.

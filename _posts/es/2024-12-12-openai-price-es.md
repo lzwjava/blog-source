@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: ¿Por qué ChatGPT Plus debería cobrar por el uso de tokens?
 translated: true
+type: post
 ---
 
 ChatGPT Plus debería pasar a un modelo de precios flexible basado en el uso de tokens en lugar de una tarifa mensual fija de $20.

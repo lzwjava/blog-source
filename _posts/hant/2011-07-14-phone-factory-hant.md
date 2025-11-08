@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 訪問一間電話製造廠
 translated: true
+type: post
 ---
 
 這篇文章最初用中文撰寫並在Qzone發布。

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 創業隨想
 translated: true
+type: post
 ---
 
 ### 關於寫作

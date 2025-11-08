@@ -7,6 +7,7 @@ layout: post
 title: الأعمال الكاملة لين وانغ
 top: 20
 translated: true
+type: post
 ---
 
 ## اللغة الصينية

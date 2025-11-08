@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Natural Growth Methods For Startups
 translated: true
+type: post
 ---
 
 In the previous article "Why I withdrew my retirement fund to repay my investors," I introduced a method for entrepreneurship - low-cost trial and error, and working together in harmony. First, try to sustain yourself with your own efforts. If you need partners, it's best if no one brings money, divide profits, distribute project funds, and divide returns according to the agreement. If we cannot find partners willing to suffer together, it's best to go solo. Then, two people can partner, then three, and so on. If we secured funding, it's best to hire employees willing to accept stocks and low wages. If we cannot find such employees, it means our abilities are not yet suitable for expansion.

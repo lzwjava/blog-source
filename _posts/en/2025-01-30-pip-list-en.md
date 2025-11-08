@@ -9,8 +9,6 @@ translated: false
 type: post
 ---
 
-
-
 pip list:
 
 - accelerate, 0.19.0

@@ -9,7 +9,6 @@ translated: false
 type: post
 ---
 
-
 In late August 2024, after moving back in with my parents, I found myself in a smaller room. Missing the entertainment my projector provided, I decided to relocate it from my previous residence.
 
 I acquired a three-angle projection setup for my projector. I bought two main components separately: a three-angle stick with an integrated curtain, and a separate three-angle stand for the projector itself.

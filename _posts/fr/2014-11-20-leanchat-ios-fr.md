@@ -9,6 +9,7 @@ title: 'LeanChat iOS
 
   ChatMince iOS'
 translated: true
+type: post
 ---
 
 Voici le README.md du projet github [https://github.com/lzwjava/leanchat-ios](https://github.com/lzwjava/leanchat-ios).

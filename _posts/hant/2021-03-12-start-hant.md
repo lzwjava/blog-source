@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 擬合練習
 translated: true
+type: post
 ---
 
 接下來試著擬合一下`y(x)=ax+b`。

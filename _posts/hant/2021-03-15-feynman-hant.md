@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: mathjax2mobi：將MathJax HTML轉換為電子書
 translated: true
+type: post
 ---
 
 ### 項目簡介

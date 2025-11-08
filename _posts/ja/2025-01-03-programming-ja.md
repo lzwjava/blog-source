@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: プログラミング
 translated: true
+type: post
 ---
 
 ## プログラミング

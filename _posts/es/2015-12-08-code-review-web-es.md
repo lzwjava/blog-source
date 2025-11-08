@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Revisión de Código Web
 translated: true
+type: post
 ---
 
 Este es el README.md del proyecto de GitHub [https://github.com/lzwjava/code-review-web](https://github.com/lzwjava/code-review-web).

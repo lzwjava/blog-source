@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 淺談中國經濟的出路
 translated: true
+type: post
 ---
 
 中國改革開放40年來，以經濟建設為中心的指導下，國家確實取得了充足的進步。然而危機已經浮現，未來這幾年，經濟會面臨巨大的危機，想到以下幾點出路。

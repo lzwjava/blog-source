@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Dropout Application
 translated: true
+type: post
 ---
 
 Dear respected school leaders:

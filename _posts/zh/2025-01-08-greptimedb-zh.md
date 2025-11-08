@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 公司应提供AI上下文以便于集成
 translated: true
+type: post
 ---
 
 我有一个在 Greptime DB 工作的朋友，最近我在思考如何快速将他们的产品整合到现有系统中。

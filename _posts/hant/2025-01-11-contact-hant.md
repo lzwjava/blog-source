@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 連繫
 translated: true
+type: post
 ---
 
 嗨，我是李志偉。你可以在[這裡](/introduction-en)找到我的簡介。我的網站上有八個按鈕，突出展示了我最感興趣的事情；我鼓勵你去探索它们。

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 怕C磁碟空間不足及卡頓？簡單易行！
 translated: true
+type: post
 ---
 
 這篇文章最初以中文撰寫並在Qzone發表。

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: WeImg 服务器
 translated: true
+type: post
 ---
 
 这是来自 GitHub 项目 [https://github.com/lzwjava/weimg-server](https://github.com/lzwjava/weimg-server) 的 README.md。

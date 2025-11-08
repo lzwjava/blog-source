@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Mejorando el desarrollo de iOS con pruebas automatizadas y herramientas
 translated: true
+type: post
 ---
 
 *Esta entrada del blog fue organizada con la ayuda de ChatGPT-4o.*

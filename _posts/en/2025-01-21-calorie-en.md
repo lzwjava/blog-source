@@ -9,7 +9,6 @@ translated: false
 type: post
 ---
 
-
 I often find many beverages too sweet. While sugar-free options are healthier, they can feel too restrictive.
 
 For instance, Vitasoy's original flavor has 196 kJ per 100ml, and their chocolate flavor contains 262 kJ per 100ml.

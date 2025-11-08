@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: The Timing of Testing
 translated: false
+type: post
 ---
 
 Yesterday, I set out to create an auto-configuration tool for Shadowsocks Outline, aiming to turn it into a Python project for others to use. I developed a script that updates a `config.yaml` file with Shadowsocks proxy configurations by decoding Shadowsocks URLs from an `ssconfig` file. Additionally, I created another script that uses `gsutil` to upload the subscription file for clients to Google Cloud Storage.

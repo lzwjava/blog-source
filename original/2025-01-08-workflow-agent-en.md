@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Workflow is BFS, Agent is DFS
+type: post
 ---
 
 According to Anthropic [^1]:
@@ -30,4 +31,3 @@ Another consideration is that for every step, AI should evaluate what to do next
 ---
 
 [^1]: Building effective agents, [Anthropic](https://www.anthropic.com/research/building-effective-agents)
-

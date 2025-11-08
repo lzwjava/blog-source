@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 元思維框架
 translated: true
+type: post
 ---
 
 ## 思考

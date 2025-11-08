@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 嬰兒遊戲、健康人工智能、籃球動作
 translated: true
+type: post
 ---
 
 ### 目錄

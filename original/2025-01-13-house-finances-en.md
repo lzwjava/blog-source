@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Tracking Our House Finances
+type: post
 ---
 
 Recently, I created a markdown document to keep track of our house's financial transactions.

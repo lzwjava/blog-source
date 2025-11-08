@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Fletcher算法和Hamming 码问题
 translated: true
+type: post
 ---
 
 这篇文章最初用中文写成并发布在CSDN上。

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 退学申请书
 translated: false
+type: post
 ---
 
 尊敬的校领导：

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 實時行動網頁
 translated: true
+type: post
 ---
 
 這是來自 GitHub 專案 [https://github.com/lzwjava/live-mobile-web](https://github.com/lzwjava/live-mobile-web) 的 README.md。

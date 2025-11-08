@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 21歲的他繼續追逐創業夢想
 translated: true
+type: post
 ---
 
 圖為主人公被趕出來的 Y Combinator 孵化器現場。

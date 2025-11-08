@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 追蹤我們的家庭財務
 translated: true
+type: post
 ---
 
 最近，我創建了一個markdown文件來記錄我們房子的財務交易。

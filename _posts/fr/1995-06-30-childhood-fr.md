@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Souvenirs d'enfance
 translated: true
+type: post
 ---
 
 Ce post a été écrit en juillet 2025.

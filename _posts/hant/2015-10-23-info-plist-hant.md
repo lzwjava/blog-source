@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 解碼 Info.plist 文件
 translated: true
+type: post
 ---
 
 如果你曾經與 macOS 或 iOS 開發有過接觸，你可能會遇到一個 `Info.plist` 文件。這個基於 XML 的文件是任何 Apple 應用程式或插件的重要組成部分，就像護照一樣，告訴系統它是誰，它做什麼以及它應該如何行為。今天，我們將探索來自 "Reveal-In-GitHub" 的 `Info.plist`，這是我們在之前的文章中介紹的 Xcode 插件。與其逐行分析，我們將專注於核心概念和模式，這些概念和模式定義了它的目的和功能。

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: GitHub Readme 介绍
 translated: true
+type: post
 ---
 
 | 项目 | 语言 | 提交次数 | 项目 | 语言 | 提交次数 |  

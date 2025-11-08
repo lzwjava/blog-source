@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 2018，已是昨天
 translated: true
+type: post
 ---
 
 1. Im Jahr 2018 lässt sich das Jahr in einem Satz zusammenfassen: Unser Team hat fast 50 Softwareprojekte für Kunden realisiert, darunter Mini-Programme, Websites, Apps, Spiele und mehr. Die Projekte reichten von 1w bis 30w und dauerten von zwei Wochen bis zu vier Monaten, wobei wir jedes Projekt von der ersten Codezeile an entwickelt haben. Nach der Veröffentlichung gab es Projekte, die kurzzeitig sehr populär wurden, einige erreichten Millionen von Page Views (PV), und andere generierten Umsätze in Millionenhöhe. Natürlich lag der Erfolg hauptsächlich an den großartigen Kunden und deren starken Betriebsfähigkeiten. Es gab auch Projekte, die eher unbekannt blieben. Wir haben hart an diesen Projekten gearbeitet, sowohl die Designer als auch die Ingenieure haben sich sehr angestrengt. Obwohl wir nicht viel Geld verdient haben, haben wir gemeinsam mit unseren Kunden viele Dinge erreicht und viel gelernt. Vielen Dank an alle Kunden, die uns vertraut haben!

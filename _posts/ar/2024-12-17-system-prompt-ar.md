@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: استكشاف الأوامر النظامية في Grok و Claude
 translated: true
+type: post
 ---
 
 لقد أعدت نشرها هنا لتعلم هندسة الإشارات (prompt engineering).

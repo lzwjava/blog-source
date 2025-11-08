@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Hackeo
 translated: true
+type: post
 ---
 
 Existen diversas formas de hackear, y este tema es bastante interesante. Como un aficionado al hacking ético (White Hat Hacker), encuentro que hay mucho conocimiento por aprender en este campo. Aquí, registraré algunos métodos que he explorado.
@@ -110,4 +111,3 @@ Es importante probar los límites y los casos extremos de una API o servidor. Un
 ## Paneles de Administración
 
 A veces, los paneles de administración o internos no están adecuadamente protegidos. Vale la pena intentar acceder a rutas como `/admin` o visitar subdominios como `admin.xx.com` para verificar si estas áreas están correctamente aseguradas.
-

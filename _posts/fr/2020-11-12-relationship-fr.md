@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Comment établir des relations
 translated: true
+type: post
 ---
 
 Entreprendre, en particulier dans le cas de notre entreprise de sous-traitance logicielle, implique de gérer les relations avec les clients. Outre l'offre de cadeaux lors de certaines occasions, j'ai réalisé qu'il existe en réalité de nombreuses autres méthodes. J'ai également observé comment certains amis qui ont réussi dans leurs affaires s'y prennent pour entretenir ces relations. Ainsi, discuter de ce sujet m'aide également à y voir plus clair.

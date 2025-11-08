@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Réflexions sur l'entrepreneuriat
 translated: true
+type: post
 ---
 
 L'un des avantages de ne pas être très actif sur les réseaux sociaux est que, lorsque vous souhaitez partager vos idées avec les autres, vous avez beaucoup de choses à dire. Comme vous parlez rarement, lorsque vous le faites, vous avez naturellement beaucoup à partager.

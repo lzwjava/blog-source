@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Kreisförmiger Grafiküberlauf im GreptimeDB-Portal
 translated: true
+type: post
 ---
 
 Ich habe ein GitHub-Issue eingereicht, https://github.com/GreptimeTeam/docs/issues/1455, mit dem Titel "GreptimeDB Portal: Großes lila kreisförmiges Grafik überschreitet die Viewport-Grenzen auf kleineren Bildschirmen."

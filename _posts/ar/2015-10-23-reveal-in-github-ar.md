@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: 'أداة إكسكود: كشف في جت هوب'
 translated: true
+type: post
 ---
 
 هذا هو README.md من مشروع GitHub [https://github.com/lzwjava/Reveal-In-GitHub](https://github.com/lzwjava/Reveal-In-GitHub).

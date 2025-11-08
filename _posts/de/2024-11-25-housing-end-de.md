@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Das Ende des Wohnungstraums
 translated: true
+type: post
 ---
 
 Die Realität des Immobilienmarktes wurde mir schmerzlich bewusst, als die Investition meiner Familie in Guangzhou sich als bitter erwies. Wir kauften 2022 ein Haus für 2 Millionen CNY, nur um zu sehen, wie sein Wert bis 2024 auf 1 Million CNY abstürzte. Dies ist nicht nur eine Geschichte von Zahlen – es ist ein Spiegelbild eines sich verändernden globalen Paradigmas.

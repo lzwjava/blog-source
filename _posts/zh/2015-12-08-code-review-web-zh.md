@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 代码评审网
 translated: true
+type: post
 ---
 
 这是来自 GitHub 项目 [https://github.com/lzwjava/code-review-web](https://github.com/lzwjava/code-review-web) 的 README.md。

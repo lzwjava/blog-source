@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: '## تجربة ريادة الأعمال في مجال البث المباشر'
 translated: true
+type: post
 ---
 
 ![](assets/images/startup/s0.jpg)

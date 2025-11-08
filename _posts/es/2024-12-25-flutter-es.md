@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Aplicación Flutter
 translated: true
+type: post
 ---
 
 Esta entrada del blog trata sobre un proyecto Flutter, probablemente una aplicación de blog personal. La estructura de archivos proporcionada sugiere una configuración estándar de proyecto Flutter, incluyendo directorios específicos de la plataforma (android, ios, linux, macos, web) y archivos principales de Flutter (lib/main.dart, pubspec.yaml). La ausencia de detalles específicos requiere una descripción general.

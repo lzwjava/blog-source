@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 'Turbolist3r : Énumération de Sous-domaines'
 translated: true
+type: post
 ---
 
 Ci-dessous quelques outils pour aider à énumérer les sous-domaines.

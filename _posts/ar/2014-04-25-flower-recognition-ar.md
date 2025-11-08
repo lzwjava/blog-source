@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تطبيق التعرف على الزهور
 translated: true
+type: post
 ---
 
 هذا هو README.md من مشروع GitHub [https://github.com/lzwjava/flower-recognition](https://github.com/lzwjava/flower-recognition).

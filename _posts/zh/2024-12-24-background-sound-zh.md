@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 更喜欢有背景声音
 translated: true
+type: post
 ---
 
 * 无论做什么，都倾向于有背景声音。

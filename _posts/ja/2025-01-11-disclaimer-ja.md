@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 免責事項
 translated: true
+type: post
 ---
 
 ## 翻訳

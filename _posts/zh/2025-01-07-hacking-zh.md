@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 黑客技巧
 translated: true
+type: post
 ---
 
 黑客的方式有很多，这个话题非常有趣。作为一名业余的白帽黑客，我发现这个领域有很多知识值得学习。在这里，我将记录一些我探索过的方法。

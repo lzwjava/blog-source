@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Comment élever les meilleurs enfants
 translated: true
+type: post
 ---
 
 Comment élever les meilleurs enfants ? Si vous étiez milliardaire, comment élèveriez-vous vos enfants ? D'après mes observations, ils emmèneraient leurs enfants voyager à travers le monde. Prenons l'exemple d'Eileen Gu. Son parcours de vie est vraiment riche en expériences. Sa mère est exceptionnelle.

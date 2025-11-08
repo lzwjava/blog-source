@@ -7,6 +7,7 @@ layout: post
 title: Avenir
 top: 10
 translated: true
+type: post
 ---
 
 * Le rêve de posséder une maison est terminé. Non seulement en Chine, mais dans le monde entier, seules quelques villes feront exception.

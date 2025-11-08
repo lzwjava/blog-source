@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 人工智能驱动的Git提交信息
 translated: true
+type: post
 ---
 
 这个 Python 脚本应该放在系统 PATH 中的目录下，例如 `~/bin`。

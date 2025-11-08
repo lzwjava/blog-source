@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Dilemme du Stationnement de Voiture
 translated: true
+type: post
 ---
 
 J'ai deux voitures dans la résidence de mes parents, mais nous n'avons qu'une seule place de parking à l'intérieur du bâtiment. Nous ne voulons pas louer une autre place de parking, donc je dois garer ma deuxième voiture dans la zone publique. Dans la zone publique, il y a des places de parking légales, mais elles ne sont pas suffisantes. Souvent, il y a vingt ou trente voitures garées sur la route. Le gardien colle un papier rouge sur les vitres avant des voitures pour les avertir.

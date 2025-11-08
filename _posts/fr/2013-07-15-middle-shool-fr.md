@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Mes années de collège
 translated: true
+type: post
 ---
 
 Ce message a été rédigé en juillet 2025.

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Personaliza tu unidad USB con un fondo e icono
 translated: true
+type: post
 ---
 
 Este post fue originalmente escrito en chino y publicado en Qzone.

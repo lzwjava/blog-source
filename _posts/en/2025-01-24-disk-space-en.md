@@ -9,8 +9,6 @@ translated: false
 type: post
 ---
 
-
-
 ## Settings
 
 Use the path Settings -> General -> Storage -> Storage settings to find out how disk space is occupied and delete unnecessary files.
@@ -36,4 +34,3 @@ Purchase a portable disk and move some files there.
 ## iPhone
 
 Import photos to your Mac and delete them after importing.
-

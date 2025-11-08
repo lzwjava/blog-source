@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: 'mathjax2mobi: MathJax HTML को ईबुक में बदलें'
 translated: true
+type: post
 ---
 
 ### प्रोजेक्ट परिचय

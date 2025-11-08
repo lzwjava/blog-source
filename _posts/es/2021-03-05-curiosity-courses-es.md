@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Cursos de Curiosidad
 translated: true
+type: post
 ---
 
 Este es el README.md del proyecto de GitHub [https://github.com/lzwjava/curiosity-courses](https://github.com/lzwjava/curiosity-courses).

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: फोन निर्माण फैक्ट्री का एक दौरा
 translated: true
+type: post
 ---
 
 यह पोस्ट मूल रूप में चीनी में लिखी गई थी और Qzone पर प्रकाशित की गई थी।

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 現今如何改變世界
 translated: true
+type: post
 ---
 
 一篇文章的腳註，「實驗驗證王垠的自然視力恢復方法」。

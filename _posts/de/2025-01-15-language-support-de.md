@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 'Unterstützte Sprachen: Schriftarten und Text-zu-Sprache'
 translated: true
+type: post
 ---
 
 Mein Blog unterstützt nun neun Sprachen: Japanisch (`ja`), Spanisch (`es`), Hindi (`hi`), Chinesisch (`zh`), Englisch (`en`), Französisch (`fr`), Deutsch (`de`), Arabisch (`ar`) und Traditionelles Chinesisch (`hant`). Die Website finden Sie unter [https://lzwjava.github.io](https://lzwjava.github.io)

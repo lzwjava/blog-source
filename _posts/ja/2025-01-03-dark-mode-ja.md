@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ウェブサイトのダークモード実装
 translated: true
+type: post
 ---
 
 私のJekyllブログでのダークモード実装。

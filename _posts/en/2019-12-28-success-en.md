@@ -7,6 +7,7 @@ layout: post
 title: 'Yin Wang: On So-Called Success'
 top: 20
 translated: false
+type: post
 ---
 
 Many people, unable to tolerate the online ridicule directed at me, have offered advice like this: *"First, take down those traditional internet companies whose founders are aging. Once you become a 'success,' even a casual post will earn you flattery. Many won’t listen to you now, but once you dominate, they’ll submit."*

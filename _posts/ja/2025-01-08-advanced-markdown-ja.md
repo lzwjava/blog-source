@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 高度なMarkdownの使い方
 translated: true
+type: post
 ---
 
 ## 参考文献

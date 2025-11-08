@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Cómo establecer relaciones
 translated: true
+type: post
 ---
 
 Emprender, especialmente en una empresa de outsourcing de software como la nuestra, implica manejar relaciones con los clientes. Además de enviar regalos en ocasiones especiales, me he dado cuenta de que hay muchas otras formas de hacerlo. También tengo amigos que han tenido éxito en sus negocios, y he observado cómo gestionan sus relaciones. Así que hablar sobre este tema también me ayuda a aclarar mis propias ideas.

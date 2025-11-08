@@ -10,6 +10,7 @@ title: Guía Práctica para el Uso Diario Cómodo de Gafas con 1.50D por Debajo 
   Prescripción Completa
 top: 10
 translated: true
+type: post
 ---
 
 *Última actualización: 30 de agosto de 2025*

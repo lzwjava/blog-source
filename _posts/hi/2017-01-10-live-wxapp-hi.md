@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: जीवंत वेब एप
 translated: true
+type: post
 ---
 
 इस README.md हैं गिटहब परियोजना [https://github.com/lzwjava/live-wxapp](https://github.com/lzwjava/live-wxapp) से।

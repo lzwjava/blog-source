@@ -9,6 +9,7 @@ prompt: Do not translate specific items such as project names, company names, or
 title: Conseils de vie
 top: 10
 translated: true
+type: post
 ---
 
 ## Conseils pour la Vie

@@ -25,4 +25,3 @@ However, the following languages render correctly:
 ![](assets/images/github-desktop/hi.png)
 
 ![](assets/images/github-desktop/ja.png)
-

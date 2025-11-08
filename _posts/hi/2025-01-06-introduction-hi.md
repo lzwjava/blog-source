@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: झीवेई का परिचय
 translated: true
+type: post
 ---
 
 आप मेरे परिचय का PDF संस्करण, जो LaTeX से बनाया गया है, [यहाँ](/assets/resume/Zhiwei.Li.Introduction.EN.pdf) अंग्रेजी संस्करण के लिए और [यहाँ](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf) चाइनीज संस्करण के लिए डाउनलोड कर सकते हैं।

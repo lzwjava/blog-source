@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 未來的孩子
 translated: true
+type: post
 ---
 
 05年，Paul Graham創立了YC孵化器。在「招聘已經過時」一文中說道：

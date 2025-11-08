@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: Hamming Code problem पर बात करना
 translated: true
+type: post
 ---
 
 यह पोस्ट मूल रूप से चीनी में लिखा गया था और CSDN पर प्रकाशित किया गया था.

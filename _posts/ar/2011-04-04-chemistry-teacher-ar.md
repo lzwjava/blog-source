@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: مراجعة مدرس الكيمياء
 translated: true
+type: post
 ---
 
 هذا المنشور كتب في الأصل باللغة الصينية و نُشر على Qzone.

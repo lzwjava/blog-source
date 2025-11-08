@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Redis入門
 translated: true
+type: post
 ---
 
 打開Redis官網，第一句話是說，Redis是一種開源的內存型的數據結構存儲，常用於數據庫和緩存。`Redis`很常用。

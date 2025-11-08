@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Introduction au Cloud Computing et au Big Data
 translated: true
+type: post
 ---
 
 Cette leçon couvre les sujets suivants :

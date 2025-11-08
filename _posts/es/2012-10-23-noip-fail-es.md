@@ -7,6 +7,7 @@ layout: post
 title: Concentrado en el examen de ingreso a la universidad, utilizando las habilidades
   de aprendizaje desarrolladas en OI para dominar el examen.
 translated: true
+type: post
 ---
 
 ```c

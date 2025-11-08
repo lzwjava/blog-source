@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Monitor de Presión Arterial, Estetoscopio y Tabla de Agudeza Visual
 translated: true
+type: post
 ---
 
 <div style="text-align: center;">

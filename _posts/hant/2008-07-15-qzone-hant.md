@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 懷舊QQ空間分享
 translated: true
+type: post
 ---
 
 這篇文章是從QQ空間說說複製過來的。這是我早期的網路分享之一。

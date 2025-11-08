@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: コードレビューサーバー
 translated: true
+type: post
 ---
 
 これは、GitHubプロジェクト[https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server)のREADME.mdです。

@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: A Case Using Search in ChatGPT
+type: post
 ---
 
 **Zhiwei:**  

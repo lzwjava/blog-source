@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 'Problèmes de Markdown : Kramdown & XeLaTeX'
 translated: true
+type: post
 ---
 
 Pour générer des PDFs pour mon blog Jekyll en utilisant Markdown, j'utilise la commande Pandoc suivante :

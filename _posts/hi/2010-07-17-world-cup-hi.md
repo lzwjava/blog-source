@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: काल की विश्वकप
 translated: true
+type: post
 ---
 
 इस पोस्ट को शुरुआत में चीनी भाषा में लिखा गया था और Qzone पर प्रकाशित किया गया था।

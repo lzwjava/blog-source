@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: USB ड्राइव को पृष्ठभूमि और आइकन के साथ अनुकूलित करें
 translated: true
+type: post
 ---
 
 यह पोस्ट मूल रूप से चीनी में लिखा गया था और Qzone पर प्रकाशित किया गया था।

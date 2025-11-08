@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: GitHub Actions 作業的最大執行時間
 translated: true
+type: post
 ---
 
 我一直在使用GitHub Actions来自动化我的博客文章翻译。最初，我尝试在一个任务中翻译所有文章，只有在所有翻译完成后，才将更改提交回仓库。

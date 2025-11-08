@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: The Cases Where We Still Need the GitHub Search Box
 translated: false
+type: post
 ---
 
 ```yaml

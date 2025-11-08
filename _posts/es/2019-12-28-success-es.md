@@ -7,6 +7,7 @@ layout: post
 title: 'Yin Wang: Sobre el llamado éxito'
 top: 20
 translated: true
+type: post
 ---
 
 Muchas personas, incapaces de tolerar las burlas en línea dirigidas hacia mí, me han dado consejos como este: *"Primero, derriba a esas empresas tradicionales de internet cuyos fundadores están envejeciendo. Una vez que te conviertas en un 'éxito', incluso una publicación casual te ganará halagos. Muchos no te escuchan ahora, pero una vez que domines, se someterán"*.

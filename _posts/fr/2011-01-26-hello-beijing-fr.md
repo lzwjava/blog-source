@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Bonjour, Pékin
 translated: true
+type: post
 ---
 
 Ce billet a été initialement rédigé en chinois et publié sur Qzone.

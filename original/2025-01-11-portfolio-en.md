@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Portfolio
+type: post
 ---
 
 The PDF file can be found [here](/assets/resume/Zhiwei.Li.Portfolio.pdf).
@@ -438,4 +439,4 @@ Contributed to the development of an AI-powered story bot using Claude's API for
 - Participated the full development lifecycle, from local development to UAT testing and production releases. Copilot was heavily utilized for tasks such as analyzing root causes, generating reusable Python scripts, and documenting around 500 technical guides. Some of these guides became key references for teammates facing similar challenges.
 - Made myself an autonomous humanoid AI agent that automates as much as possible—through scripting, logging, documenting, and sharing. With caching and validation of LLM outputs, dedicated prompts and contexts for 20 customized or vertical agents, and 300 reusable Copilot-written scripts across the tech stack, the engineering experience in a large bank has started to feel good.
 - Led integration and API testing for the module, using the Copilot API to auto-generate around 100 test cases covering Spring Filters in Java, Python unittest, JSON truncation, prompt engineering, and regional endpoints.
-- Worked with technologies such as Java, Spring, IBM Db2, Maven, Nexus, Angular, and Python, along with tools including Windows, Control-M, IBM WebSphere Application Server, and Copilot.  
+- Worked with technologies such as Java, Spring, IBM Db2, Maven, Nexus, Angular, and Python, along with tools including Windows, Control-M, IBM WebSphere Application Server, and Copilot.

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: El niño del futuro
 translated: true
+type: post
 ---
 
 En 2005, Paul Graham fundó el incubador Y Combinator. En su artículo "Hiring is Obsolete", mencionó:

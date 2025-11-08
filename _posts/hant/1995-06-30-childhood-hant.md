@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 童年回憶
 translated: true
+type: post
 ---
 
 這篇文章寫於2025年7月。

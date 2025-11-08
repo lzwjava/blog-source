@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Azureサーバーのセットアップ
 translated: true
+type: post
 ---
 
 Microsoft Azure上にサーバーをセットアップし、特定のポートを開くように設定することは、ホスティングサービスやプロキシなど、さまざまなアプリケーションにとって重要です。このガイドでは、Azure仮想マシン（VM）を作成し、ファイアウォールを設定してポート1080を開く手順を説明します。

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: اختياراتي المختارة للتطبيقات
 translated: true
+type: post
 ---
 
 في مقالة سابقة، كتبت:

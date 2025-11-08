@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Einrichten eines Azure-Servers
 translated: true
+type: post
 ---
 
 Das Einrichten eines Servers auf Microsoft Azure und die Konfiguration, um bestimmte Ports zu öffnen, ist für verschiedene Anwendungen unerlässlich, einschließlich Hosting-Diensten, Proxys und mehr. Diese Anleitung führt Sie durch den Prozess der Erstellung einer Azure Virtual Machine (VM) und der Konfiguration der Firewall, um Port 1080 zu öffnen.

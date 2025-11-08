@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: مقدمات
 translated: true
+type: post
 ---
 
 هذا هو README.md لمشروع GitHub [https://github.com/lzwjava/Keynotes](https://github.com/lzwjava/Keynotes).

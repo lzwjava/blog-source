@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: سنواتي في المدرسة المتوسطة
 translated: true
+type: post
 ---
 
 تم نشر هذا المقال في يوليو 2025.

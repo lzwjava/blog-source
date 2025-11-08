@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Pixel USB, Outils de développement iOS, Balayage gestuel
 translated: true
+type: post
 ---
 
 ### Table des matières

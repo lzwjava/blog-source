@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 感謝所有的勞動者們
 translated: true
+type: post
 ---
 
 今天，又收到了許多應用的更新推送和平台的內容推送。感謝背後所有的這些朋友們！

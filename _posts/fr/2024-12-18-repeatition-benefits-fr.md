@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Les Avantages de la Répétition en Programmation
 translated: true
+type: post
 ---
 
 ```bash

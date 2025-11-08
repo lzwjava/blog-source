@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: Grok और Claude में सिस्टम प्रॉम्प्ट्स की खोज
 translated: true
+type: post
 ---
 
 मैंने इसे यहां प्रॉम्प्ट इंजीनियरिंग सीखने के लिए पुनः पोस्ट किया।

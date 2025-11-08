@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 寻找合伙人的建议
 translated: true
+type: post
 ---
 
 - 如果我要重新创业，我该如何找到我的联合创始人？

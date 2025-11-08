@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 多焦点進行レンズを用いた近視の改善
 translated: true
+type: post
 ---
 
 ## 遠近両用メガネ

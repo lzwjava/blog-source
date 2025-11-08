@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Einrichten eines Google Cloud Servers
 translated: true
+type: post
 ---
 
 Das Einrichten eines Proxy-Servers in Google Cloud ermöglicht es Ihnen, Ihren Internetverkehr sicher über eine Cloud-Instanz zu leiten, was die Privatsphäre erhöht und Einschränkungen umgeht. In dieser Anleitung führen wir Sie durch den Prozess der Einrichtung eines grundlegenden Proxy-Servers in Google Cloud und der Konfiguration der erforderlichen Firewall-Regeln, um den Datenverkehr zu ermöglichen.

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: أفضل طريقة تواصل بالنسبة لي
 translated: true
+type: post
 ---
 
 * مشاركة ما أريد قوله في مدونة.

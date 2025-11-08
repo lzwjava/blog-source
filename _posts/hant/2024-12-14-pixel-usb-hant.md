@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Pixel USB、iOS開發者工具、滑動輸入
 translated: true
+type: post
 ---
 
 ### 目錄

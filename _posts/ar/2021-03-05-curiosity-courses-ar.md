@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: دورات الفضول
 translated: true
+type: post
 ---
 
 هذا هو README.md من مشروع GitHub [https://github.com/lzwjava/curiosity-courses](https://github.com/lzwjava/curiosity-courses).

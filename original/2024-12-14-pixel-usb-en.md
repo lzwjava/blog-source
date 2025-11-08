@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Pixel USB, iOS Developer Tools, Swipe Typing
+type: post
 ---
 
 ### Table of Contents

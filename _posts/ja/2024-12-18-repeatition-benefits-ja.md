@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: repetition benefits
 translated: true
+type: post
 ---
 
 ```bash

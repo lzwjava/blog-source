@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: AI कोड संपादक
 translated: true
+type: post
 ---
 
 मैंने कई AI कोड एडिटिंग टूल्स का उपयोग किया है, जिनमें GitHub Copilot, Windsurf, और Cursor शामिल हैं। यहां मेरे अवलोकन हैं:

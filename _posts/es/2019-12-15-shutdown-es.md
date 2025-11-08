@@ -7,6 +7,7 @@ layout: post
 title: Propuesta de la empresa de liquidación
 top: 10
 translated: true
+type: post
 ---
 
 Carta a los Accionistas:

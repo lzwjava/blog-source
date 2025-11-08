@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: OpenWRT को OpenClash और Shadowsocks
 translated: true
+type: post
 ---
 
 ### पैकेज सूचियों को अपडेट करना

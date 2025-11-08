@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Transformer Eclipse en Emacs
 translated: true
+type: post
 ---
 
 En tant qu'utilisateur d'Emacs depuis six mois, je ne peux tout simplement pas imaginer comment j'ai pu coder auparavant, en éloignant mes mains de la position standard pour cliquer avec la souris ou appuyer sur les touches fléchées sans trouver cela inconfortable et insupportable. Maintenant, lorsque je dis à mes amis que j'ai configuré les raccourcis Alt+P et Alt+N pour passer rapidement entre les fichiers XML et la mise en page graphique, leur réponse est simplement "d'accord", sous-entendant que l'utilisation de la souris pour passer est aussi bien.

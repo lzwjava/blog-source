@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Communication
 translated: true
+type: post
 ---
 
 * Ne discutez pas avec votre famille, vos amis ou d'autres personnes qui ont des opinions différentes. Discuter est inutile et peut parfois être blessant.

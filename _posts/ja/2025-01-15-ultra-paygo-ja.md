@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ウルトラペイゴUSA SIMカード
 translated: true
+type: post
 ---
 
 先日、Ultra Paygo SIMカードを購入しました。ウォルマートのアプリでAppleギフトカードを購入することが目的で、そのアプリの認証には米国の電話番号が必要だったためです。これがUltra Paygo SIMを購入した理由です。

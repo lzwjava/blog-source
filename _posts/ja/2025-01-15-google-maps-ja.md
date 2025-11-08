@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 中国でのGoogle Mapsの使用
 translated: true
+type: post
 ---
 
 Google Mapsの中国におけるデータは、AMapsやApple Maps（これもAMapsのデータを使用）ほど最新ではないかもしれませんが、特にナビゲーションの中間地点を設定する機能など、使用可能な選択肢の一つです。

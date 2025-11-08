@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 定制USB盘并添加背景和图标
 translated: true
+type: post
 ---
 
 这篇文章最初用中文撰写并发布在QQ空间。

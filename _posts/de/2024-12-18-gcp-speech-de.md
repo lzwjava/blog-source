@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Erste Schritte mit der Google Text-to-Speech API
 translated: true
+type: post
 ---
 
 Ich plane, einige Artikel von Yin Wang mit der Google Text-to-Speech API in Audio umzuwandeln. Im Folgenden finden Sie eine Schritt-für-Schritt-Anleitung sowie einige hilfreiche Tutorials, die von ChatGPT bereitgestellt wurden. Sobald alles fertig ist, werde ich das Audio hier hochladen, damit Sie es anhören können.

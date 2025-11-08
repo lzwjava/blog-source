@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 如何在一年内学会任何东西
 translated: true
+type: post
 ---
 
 如何在一年内学会任何东西？让我们以英语为例。我花了一年的时间来达到雅思6分，同时能在一家全球大厂用英语流利地工作。这是我的方法。

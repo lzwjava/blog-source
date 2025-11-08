@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 使用 Laravel
 translated: true
+type: post
 ---
 
 如果你正在涉足网页开发，并且想要一个既强大又易于上手的框架，Laravel 就是你的不二选择。它是一个 PHP 框架，凭借其优雅的语法、强大的功能和一个支持你的社区，迅速在开发者世界中引起了轰动。在这篇博客中，我将带你了解 Laravel 的基础知识，并向你展示为什么它值得你花时间。

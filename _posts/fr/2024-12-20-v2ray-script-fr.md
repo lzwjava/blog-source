@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Script V2Ray
 translated: true
+type: post
 ---
 
 Voici un script V2Ray que j'utilise fréquemment.

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 編程
 translated: true
+type: post
 ---
 
 ## 編程

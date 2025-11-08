@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: 'Xcode Plugin: GitHub में Reveal'
 translated: true
+type: post
 ---
 
 यह GitHub परियोजना [https://github.com/lzwjava/Reveal-In-GitHub](https://github.com/lzwjava/Reveal-In-GitHub) की README.md है।

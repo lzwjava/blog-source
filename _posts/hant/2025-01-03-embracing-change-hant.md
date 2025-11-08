@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 擁抱變革
 translated: true
+type: post
 ---
 
 我將標題從「總是要有背景聲音」改為「偏好有背景聲音」。這不僅僅是一個詞或標題的變更；它還需要更改文件名、PDF文件名、音頻文件名和URL。

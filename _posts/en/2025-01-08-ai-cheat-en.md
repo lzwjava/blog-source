@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Emphasize Judgment Over Worrying About AI Cheating
 translated: false
+type: post
 ---
 
 - AI cheating is pervasive and, likely, impossible to fully eliminate.
@@ -17,4 +18,3 @@ translated: false
 - Instead of worrying about AI cheating, we should become more ambitious about the future and focus on building it—without being overly concerned with credits.
 - Cheating ultimately boils down to honest and moral judgment.
 - In interviews and offline exams, it's still difficult to cheat.
-

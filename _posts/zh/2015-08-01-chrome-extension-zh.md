@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 构建一个Chrome扩展
 translated: true
+type: post
 ---
 
 你是否曾经打开过太多浏览器标签页，并希望有一个工具来自动管理它们？在本博客文章中，我们将详细介绍如何创建一个名为“Tabs Killer”的Chrome扩展程序，它会在标签页数量超过用户定义的限制时自动关闭最旧的标签页。我将逐步分解代码，解释其工作原理，并提供见解，帮助你构建自己的Chrome扩展程序。

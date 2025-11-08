@@ -7,6 +7,7 @@ layout: post
 title: Mettez l'accent sur le jugement plutôt que sur l'inquiétude concernant la triche
   avec l'IA
 translated: true
+type: post
 ---
 
 - La triche par IA est omniprésente et, probablement, impossible à éliminer complètement.
@@ -18,4 +19,3 @@ translated: true
 - Au lieu de s'inquiéter de la triche par IA, nous devrions devenir plus ambitieux pour l'avenir et nous concentrer sur sa construction—sans nous préoccuper excessivement des crédits.
 - La triche se résume finalement à un jugement honnête et moral.
 - Dans les entretiens et les examens hors ligne, il est encore difficile de tricher.
-

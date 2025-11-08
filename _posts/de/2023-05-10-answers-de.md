@@ -7,6 +7,7 @@ layout: post
 title: 'Yin Wang: Die ultimative Antwort auf das Leben, das Universum und den ganzen
   Rest'
 translated: true
+type: post
 ---
 
 Weitergeleitet vom Substack von Yin Wang. Die Website ist [https://yinwang1.substack.com](https://yinwang1.substack.com).

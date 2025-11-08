@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Citations d'un Professeur de Chimie
 translated: true
+type: post
 ---
 
 Ce message a été écrit en chinois et publié sur Qzone.

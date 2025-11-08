@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Simple Realtime Server (SRS) For RTMP Streaming
 translated: false
+type: post
 ---
 
 Let’s dive into using Simple Realtime Server (SRS) to deploy an edge server for RTMP streaming, with a focus on understanding and configuring it effectively, including the `rtmp.conf` file. SRS is a powerful, high-performance media server designed for real-time streaming protocols like RTMP, HLS, and HTTP-FLV. It’s particularly well-suited for scenarios requiring scalability, such as content delivery networks (CDNs), where an edge server can efficiently distribute streams to many clients while fetching content from an origin server. I’ll walk you through the process step-by-step, explain the edge deployment concept, and clarify how to work with configurations like `rtmp.conf`.

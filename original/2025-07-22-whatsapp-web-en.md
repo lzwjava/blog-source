@@ -27,4 +27,3 @@ I can imagine that a dedicated team has been working on it for years. I’m grat
 ---
 
 To be honest, after a few days, I have to admit that it is not ideal in some cases. WhatsApp Web is slow to open, and I prefer using Telegram to share images from my iPhone to Mac.
-

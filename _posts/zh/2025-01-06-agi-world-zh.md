@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 人工通用智能的世界
 translated: true
+type: post
 ---
 
 如果有一天，我们只需告诉人工智能（AI）创建一个像TikTok或YouTube这样的应用程序，它就能提供包含数百万行代码的完整项目，那将是非常令人惊叹的。

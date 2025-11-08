@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: نصائح للعثور على الشريك المؤسس
 translated: true
+type: post
 ---
 
 - إذا كنت سأبدأ شركتي الناشئة مرة أخرى، كيف سأجد شريكي المؤسس؟

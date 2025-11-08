@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Die beste Kommunikationsmethode für mich
 translated: true
+type: post
 ---
 
 * Teile, was ich in einem Blog sagen möchte.

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Configurez Votre Serveur Proxy
 translated: true
+type: post
 ---
 
 * Pour configurer un serveur, utilisez Outline Manager : [https://getoutline.org](https://getoutline.org).

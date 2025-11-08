@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 小程序
 translated: true
+type: post
 ---
 
 这是 GitHub 项目 [https://github.com/lzwjava/live-wxapp](https://github.com/lzwjava/live-wxapp) 的 README.md。

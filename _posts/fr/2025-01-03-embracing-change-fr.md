@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Adopter le changement
 translated: true
+type: post
 ---
 
 J'ai changé mon titre de "Always to Have Background Sound" à "Prefer to Have Background Sound". Ce n'est pas seulement un changement de mot ou de titre ; cela a également nécessité de modifier les noms de fichiers, les noms des fichiers PDF, les noms des fichiers audio et les URL.

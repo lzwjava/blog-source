@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: En una charla en una startup
 translated: true
+type: post
 ---
 
 En agosto de 2021, di una charla en ShowMeBug. El tema fue sobre algunas cosas que disfruto. Puedes encontrar la presentación en [GitHub](https://github.com/lzwjava/Keynotes/blob/master/ShowMeBug/20210805lzw.pdf).

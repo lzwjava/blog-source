@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Komplette Programmierphilosophie
 translated: true
+type: post
 ---
 
 ### Inhaltsverzeichnis

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 固定价格订阅已过时
 translated: true
+type: post
 ---
 
 ### 灵活定价在订阅服务中的优势

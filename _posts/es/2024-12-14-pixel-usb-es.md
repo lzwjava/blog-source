@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Pixel USB, Herramientas de desarrollo de iOS, Escritura deslizable
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

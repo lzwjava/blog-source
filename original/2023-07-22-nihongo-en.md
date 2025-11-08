@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: ChatGPT Helps Me Learn Japanese
+type: post
 ---
 
 ### Foreword

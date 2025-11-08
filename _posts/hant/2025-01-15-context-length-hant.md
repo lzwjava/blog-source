@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 大型語言模型的最大上下文長度
 translated: true
+type: post
 ---
 
 我最近使用了DeepSeek API來生成提交信息，如[AI驱动的Git提交信息](./gitmessageai-en)所述。

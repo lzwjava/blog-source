@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Abonnez-vous
 translated: true
+type: post
 ---
 
 Restez informé de mes derniers articles de blog en vous abonnant via le flux RSS, le flux audio ou en me suivant sur X (Twitter).  

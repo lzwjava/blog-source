@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: WeImg iOS هو تطبيق تصوير محمول
 translated: true
+type: post
 ---
 
 هذا هو الملف README.md من مشروع github [https://github.com/lzwjava/weimg-ios](https://github.com/lzwjava/weimg-ios).

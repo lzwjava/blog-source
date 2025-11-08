@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: How to Watch YouTube on TV
+type: post
 ---
 
 This guide assumes you already have a way to bypass geo-restrictions. Here’s how to watch YouTube on your TV without flashing custom firmware on your router—just use an app.
@@ -101,4 +102,3 @@ Enjoy the big-screen experience!
 ## **Update (September 2025)**
 
 Apple TV now supports VPN software natively. You can install **Shadowrocket** to connect to your proxy server and stream YouTube TV directly.
-

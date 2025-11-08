@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'TabsKiller: a Chrome plugin'
 translated: false
+type: post
 ---
 
 This is the README.md from github project [https://github.com/lzwjava/TabsKiller](https://github.com/lzwjava/TabsKiller).

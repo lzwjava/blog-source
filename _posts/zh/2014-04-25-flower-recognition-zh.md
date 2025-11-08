@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 花卉识别应用
 translated: true
+type: post
 ---
 
 这是来自 GitHub 项目 [https://github.com/lzwjava/flower-recognition](https://github.com/lzwjava/flower-recognition) 的 README.md。

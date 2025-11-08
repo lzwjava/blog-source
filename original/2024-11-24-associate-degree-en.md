@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: 'Associate Degree: Progress and Reflection'
+type: post
 ---
 
 Updated in November 2025.

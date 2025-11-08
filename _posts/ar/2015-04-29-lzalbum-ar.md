@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: LZAlbum
 translated: true
+type: post
 ---
 
 هذا هو README.md من مشروع GitHub [https://github.com/lzwjava/LZAlbum](https://github.com/lzwjava/LZAlbum).

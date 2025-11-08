@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 使用三部手機
 translated: true
+type: post
 ---
 
 - 將iPhone作為你的主要手機，理想情況下是最新型號，或者至少是過去三年內的機型。

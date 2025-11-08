@@ -6,9 +6,8 @@ lang: en
 layout: post
 title: Code Review Server
 translated: false
+type: post
 ---
-
-
 
 This is the README.md from github project [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server).
 
@@ -57,5 +56,3 @@ Install dependencies: composer install, composer update
 - `DELETE /orders/:orderId`
 - `POST /user/requestResetPassword`
 - `POST /user/resetPassword`
-
-

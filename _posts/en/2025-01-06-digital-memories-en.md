@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: My Early Digital Memories
 translated: false
+type: post
 ---
 
 I was born in 1995, the same year Windows 95 was released on July 14.

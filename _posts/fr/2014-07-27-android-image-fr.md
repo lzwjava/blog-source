@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Traitement d'images Android simplifié
 translated: true
+type: post
 ---
 
 La manipulation des images dans Android peut être délicate—les bitmaps consomment de la mémoire, les rotations perturbent l'orientation, et le recadrage nécessite de la précision. C'est là que les classes utilitaires comme `BitmapUtils` et `Crop` deviennent pratiques. Dans cet article, je vais vous guider à travers une paire de classes puissantes du package `com.lzw.flower.utils`. Nous explorerons leur code, décomposerons ce que fait chaque méthode et montrerons comment les utiliser dans vos projets. Plongeons-y !

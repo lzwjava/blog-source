@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: कोड समीक्षा वेब
 translated: true
+type: post
 ---
 
 यह README.md है GitHub पर एक प्रोजेक्ट [https://github.com/lzwjava/code-review-web](https://github.com/lzwjava/code-review-web) से.

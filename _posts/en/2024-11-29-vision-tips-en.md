@@ -9,6 +9,7 @@ prompt: Do not translate specific human name items such as Yin, Yin Wang, Zhiwei
 title: Comfortable Daily Eyeglass Use at 1.50D Below Full Prescription
 top: 10
 translated: false
+type: post
 ---
 
 *Last updated in 30 August 2025*

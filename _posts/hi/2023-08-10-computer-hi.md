@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: कंप्यूटर कैसे बनाएं
 translated: true
+type: post
 ---
 
 ![कवर](assets/images/computer/cover.jpg)

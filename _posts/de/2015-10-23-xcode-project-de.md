@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Verstehen von Xcode-Projektdateien
 translated: true
+type: post
 ---
 
 Wenn du jemals unter die Haube eines Xcode-Projekts geschaut hast, hast du wahrscheinlich eine `.pbxproj`-Datei entdeckt – eine kryptische, strukturierte Textdatei, die definiert, wie deine App oder dein Plugin erstellt wird. Heute tauchen wir in ein Beispiel einer solchen Datei aus einem Projekt namens "Reveal-In-GitHub" ein, einem nützlichen Xcode-Plugin. Keine Sorge – wir werden nicht jede Zeile auseinandernehmen (das wäre überwältigend!). Stattdessen werden wir die wichtigsten Konzepte und Muster erkunden, die diese Datei zum Laufen bringen, und dir eine solide Grundlage geben, um jede Xcode-Projektdatei zu verstehen.

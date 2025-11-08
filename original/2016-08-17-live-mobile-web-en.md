@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Live Moble Web
 translated: false
+type: post
 ---
 
 This is the README.md from github project [https://github.com/lzwjava/live-mobile-web](https://github.com/lzwjava/live-mobile-web).
@@ -44,4 +45,3 @@ git submodule update --init --recursive
 
 fab -H ubuntu@xx.xx.xx.xx deploy
 ```
-

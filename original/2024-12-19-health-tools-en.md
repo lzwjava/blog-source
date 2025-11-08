@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Blood Pressure Monitor, Stethoscope, and Vision Chart
+type: post
 ---
 
 <div style="text-align: center;">

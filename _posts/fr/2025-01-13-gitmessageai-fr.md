@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Messages de Commit Alimentés par l'IA
 translated: true
+type: post
 ---
 
 Ce script Python doit être placé dans un répertoire inclus dans le PATH de votre système, tel que `~/bin`.

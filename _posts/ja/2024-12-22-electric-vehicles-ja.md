@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 電気自動車
 translated: true
+type: post
 ---
 
 ## ネタ

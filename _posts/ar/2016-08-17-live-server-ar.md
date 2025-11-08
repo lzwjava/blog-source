@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: منصة بث مباشر المعرفة
 translated: true
+type: post
 ---
 
 هذا هو README.md من مشروع GitHub [https://github.com/lzwjava/live-server](https://github.com/lzwjava/live-server).

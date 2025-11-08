@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Servidor Simple en Tiempo Real (SRS) para Transmisión RTMP
 translated: true
+type: post
 ---
 
 Vamos a sumergirnos en el uso de Simple Realtime Server (SRS) para desplegar un servidor de borde para la transmisión RTMP, con un enfoque en entenderlo y configurarlo de manera efectiva, incluyendo el archivo `rtmp.conf`. SRS es un servidor de medios potente y de alto rendimiento diseñado para protocolos de transmisión en tiempo real como RTMP, HLS y HTTP-FLV. Es particularmente adecuado para escenarios que requieren escalabilidad, como redes de entrega de contenido (CDN), donde un servidor de borde puede distribuir eficientemente flujos a muchos clientes mientras recupera contenido de un servidor de origen. Te guiaré a través del proceso paso a paso, explicaré el concepto de despliegue de borde y aclararé cómo trabajar con configuraciones como `rtmp.conf`.

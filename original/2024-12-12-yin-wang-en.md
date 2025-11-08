@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Complete Works of Yin Wang
 top: 20
+type: post
 ---
 
 ## Chinese

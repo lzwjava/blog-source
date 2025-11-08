@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Longitud Máxima de Contexto de los Modelos de Lenguaje de Gran Escala
 translated: true
+type: post
 ---
 
 Recientemente utilicé la API de DeepSeek para generar un mensaje de commit, como se describe en [Mensajes de Commit en Git con IA](./gitmessageai-en).

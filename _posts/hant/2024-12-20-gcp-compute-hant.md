@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 建立一個Google雲端伺服器
 translated: true
+type: post
 ---
 
 在Google Cloud上設置代理伺服器可以讓您通過雲端實例安全地路由您的互聯網流量，從而增強隱私並繞過限制。在本指南中，我們將逐步介紹如何在Google Cloud上設置基本代理伺服器，並配置必要的防火牆規則以允許流量通過。

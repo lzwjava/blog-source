@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Comment Regarder YouTube à la Télévision
 translated: true
+type: post
 ---
 
 Ce guide suppose que vous avez déjà un moyen de contourner les restrictions géographiques. Voici comment regarder YouTube sur votre TV sans flasher de firmware personnalisé sur votre routeur – il suffit d’utiliser une application.

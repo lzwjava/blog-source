@@ -26,5 +26,3 @@ type: post
 - There will probably be fewer physical wars because of digitalization. People and countries express conflict through blocked networks or blocked contact lists instead.
 
 - There will probably be more digital intimacy through digitalization. People choose their best friends from the internet. If you can't find someone, you might let an AI chatbot help you.
-
-

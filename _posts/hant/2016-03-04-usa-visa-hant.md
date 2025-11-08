@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 美国签证申请流程与经验
 translated: true
+type: post
 ---
 
 周二下午一时兴起，想去美国玩玩。开始了填表缴费，今天周五早上面签通过！有护照的情况下，3天搞定面签，想想都有点小激动。

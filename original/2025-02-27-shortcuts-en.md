@@ -38,4 +38,3 @@ I learned about setting a reminder for 3:14 PM from Andrej Karpathy, who used th
 {: .centered }  
 ![](assets/images/wallpaper/w1.jpg){: .responsive }  
 *Source: screenshot*{: .caption }
-

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Erweiterte Verwendung von Markdown
 translated: true
+type: post
 ---
 
 ## Referenzen

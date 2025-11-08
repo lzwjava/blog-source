@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Entrepreneurship Insights Share
 translated: true
+type: post
 ---
 
 ![Quiz Live Startup Image](assets/images/startup/s0.jpg)

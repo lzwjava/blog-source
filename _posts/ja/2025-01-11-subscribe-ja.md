@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 登録
 translated: true
+type: post
 ---
 
 私の最新のブログ記事を購読するには、RSSフィード、オーディオフィード、またはX（Twitter）でフォローしてください。  

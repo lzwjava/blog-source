@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 我的初中时代
 translated: true
+type: post
 ---
 
 这篇文章写于2025年7月。

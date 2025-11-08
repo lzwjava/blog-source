@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: WeImg iOS को iOS
 translated: true
+type: post
 ---
 
 यह Github परियोजना [https://github.com/lzwjava/weimg-ios](https://github.com/lzwjava/weimg-ios) का README.md है।

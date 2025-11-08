@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Website Dark Mode Implementation
+type: post
 ---
 
 Dark Mode implementation in my Jekyll blog.

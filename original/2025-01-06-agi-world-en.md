@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: The World of Artificial General Intelligence
+type: post
 ---
 
 If one day, we can simply tell an AI to create an app like TikTok or YouTube with a single command, and it provides us with a complete project containing millions of lines of code, that would be truly amazing.
@@ -54,4 +55,3 @@ In the future, robots will be present in homes, stores, schools, offices, cinema
 There will be a world model in the cloud, a very large model potentially around 100 petabytes in size. For reference, 1 petabyte is 1,024 terabytes, and 1 terabyte is 1,024 gigabytes. One version of the Llama 3 70B model has a file size of 21.1 GB.
 
 Robots in the world will need to consult this world model in the cloud to take actions. A network delay of 100 milliseconds or even 1 second is acceptable as long as the robot can perform its tasks effectively.
-

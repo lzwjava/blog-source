@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Configuración de un Servidor en Azure
 translated: true
+type: post
 ---
 
 Configurar un servidor en Microsoft Azure y configurarlo para abrir puertos específicos es esencial para diversas aplicaciones, como servicios de alojamiento, proxies y más. Esta guía te llevará paso a paso a través del proceso de creación de una Máquina Virtual (VM) en Azure y la configuración del firewall para abrir el puerto 1080.

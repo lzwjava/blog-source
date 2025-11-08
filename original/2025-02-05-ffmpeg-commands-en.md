@@ -29,5 +29,3 @@ ffmpeg -loop 1 -i "${file}.jpg" -i "${file}.mp3" -c:v libx264 -tune stillimage -
 
 ffmpeg -i steve-jobs-lost-interview.mp3 -f segment -segment_time 420 -c copy steve%03d.mp3
 ```
-
-

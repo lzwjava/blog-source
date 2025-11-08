@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: نص V2Ray
 translated: true
+type: post
 ---
 
 هذا سكريبت V2Ray الذي أستخدمه كثيرًا.

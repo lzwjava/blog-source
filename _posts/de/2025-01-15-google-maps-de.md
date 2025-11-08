@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Google Maps in China nutzen
 translated: true
+type: post
 ---
 
 Obwohl die Daten von Google Maps in China möglicherweise nicht so aktuell sind wie die von AMaps oder Apple Maps (die ebenfalls auf AMaps-Daten zurückgreifen), bleibt es eine brauchbare Option, insbesondere mit Funktionen wie dem Setzen von Zwischenstopps für die Navigation.

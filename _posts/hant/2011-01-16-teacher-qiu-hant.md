@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 邱老師
 translated: true
+type: post
 ---
 
 這篇文章最初以中文撰寫，並發表在QQ空間。

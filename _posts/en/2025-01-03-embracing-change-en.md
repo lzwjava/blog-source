@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Embracing Change
 translated: false
+type: post
 ---
 
 I changed my title from "Always to Have Background Sound" to "Prefer to Have Background Sound." It's not just a word change or a title change; it also required changing file names, PDF file names, audio file names, and URLs.

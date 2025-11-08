@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: El profesor Qiu
 translated: true
+type: post
 ---
 
 Esta publicación fue escrita originalmente en chino y publicada en Qzone.

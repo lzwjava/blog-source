@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Exención de responsabilidad
 translated: true
+type: post
 ---
 
 ## Traducción

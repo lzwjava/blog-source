@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: The Cases Where We Still Need the GitHub Search Box
+type: post
 ---
 
 ```yaml

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: ذكريات الطفولة
 translated: true
+type: post
 ---
 
 تم كتابة هذا المنشور في يوليو 2025.

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 端到端追蹤ID實現
 translated: true
+type: post
 ---
 
 *此博客文章是在ChatGPT-4o的協助下撰寫的。*

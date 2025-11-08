@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 作品集
 translated: true
+type: post
 ---
 
 PDF檔案可在此處找到：[這裡](/assets/resume/Zhiwei.Li.Portfolio.pdf)。

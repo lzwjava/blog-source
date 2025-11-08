@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Entendiendo el archivo AndroidManifest.xml
 translated: true
+type: post
 ---
 
 Si estás sumergiéndote en el desarrollo de Android, uno de los primeros archivos que encontrarás es el `AndroidManifest.xml`. Es como el plano de tu aplicación: le dice al sistema Android todo lo que necesita saber sobre tu aplicación antes de que incluso se ejecute. Hoy, desglosaremos un archivo de manifiesto de ejemplo de una aplicación llamada "Flower" (nombre del paquete: `com.lzw.flower`) y exploraremos sus componentes clave, conceptos y patrones.

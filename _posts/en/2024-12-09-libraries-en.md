@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Consider Upgrades When Using Libraries
 translated: false
+type: post
 ---
 
 I used CodeIgniter in my startup project, [Fun Live](https://github.com/lzwjava/live-server). Although the project ended, after several years, I wanted to revive it to commemorate it. However, back in 2016, I used CodeIgniter 3, while the latest version is now CodeIgniter 4.

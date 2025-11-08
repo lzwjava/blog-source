@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: 'ين وانغ: الإجابة النهائية للحياة والكون وكل شيء'
 translated: true
+type: post
 ---
 
 مُعاد من مدونة Yin Wang على Substack. موقع الويب هو: https://yinwang1.substack.com.

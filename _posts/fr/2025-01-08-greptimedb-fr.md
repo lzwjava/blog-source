@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Les entreprises devraient fournir un contexte AI pour faciliter l'intégration
 translated: true
+type: post
 ---
 
 J'ai un ami qui travaille chez Greptime DB, et j’ai réfléchi à la manière d’intégrer rapidement leur produit dans les systèmes existants.

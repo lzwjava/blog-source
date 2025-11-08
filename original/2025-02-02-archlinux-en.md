@@ -56,5 +56,4 @@ ping archlinux.org
 timedatectl
 ```
 
-For some reason, I decided to install Ubuntu instead. 
-
+For some reason, I decided to install Ubuntu instead.

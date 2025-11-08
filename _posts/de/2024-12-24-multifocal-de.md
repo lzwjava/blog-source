@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Multifokale Gleitsichtgläser zur Rückgängigmachung von Kurzsichtigkeit
 translated: true
+type: post
 ---
 
 ## Rezept

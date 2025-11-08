@@ -9,8 +9,6 @@ translated: false
 type: post
 ---
 
-
-
 ## Lesson
 
 The code exhibits an intermittent bug, manifesting inconsistently. Its sporadic nature makes it challenging to reproduce and debug effectively.

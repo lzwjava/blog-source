@@ -7,6 +7,7 @@ layout: post
 title: Comment Éviter la Mort
 top: 10
 translated: true
+type: post
 ---
 
 Je vais bientôt avoir 30 ans. Je ne savais pas grand-chose sur la mort en grandissant, jusqu'en 2019, lorsque l'un de mes proches est décédé. En 2022, un autre membre de ma famille est parti. J'ai appris que deux de mes camarades de classe étaient également décédés. Pendant les trois années de COVID, nous avons été témoins de nombreux décès dans les actualités.

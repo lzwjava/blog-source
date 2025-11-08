@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: ChatGPT मुझे जापानी सीखने में मदद करता है
 translated: true
+type: post
 ---
 
 ### प्रस्तावना

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: DigitalOceanの予約済みIPの管理
 translated: true
+type: post
 ---
 
 サーバーのIPアドレスがGreat Firewall（GFW）によって簡単にブロックされることは、特にクラウドサーバーにおいてよくある課題です。これを緩和するための一つの戦略として、DigitalOceanの予約済みIPを使用し、現在のIPがブロックされたときにそれをドロップレットに再割り当てする方法があります。この記事では、このプロセスを自動化するPythonスクリプトを紹介します。このスクリプトは[GitHub](https://github.com/lzwjava/auto-ss-config)でオープンソースとして公開されています。

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: GrokとClaudeにおけるシステムプロンプトの探求
 translated: true
+type: post
 ---
 
 プロンプトエンジニアリングを学ぶために、ここに再投稿しました。

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: KI-gestützte Git-Commit-Nachrichten
 translated: true
+type: post
 ---
 
 Dieses Python-Skript sollte in einem Verzeichnis platziert werden, das im PATH Ihres Systems enthalten ist, wie z.B. `~/bin`.

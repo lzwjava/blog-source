@@ -7,6 +7,7 @@ layout: post
 title: تطبيقات iOS التي استخدمتها - نسخة الجدول
 translated: true
 translation: false
+type: post
 ---
 
 | اسم التطبيق | معرف الحزمة | الإصدار |

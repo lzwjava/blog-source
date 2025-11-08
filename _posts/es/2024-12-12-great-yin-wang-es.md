@@ -7,6 +7,7 @@ layout: post
 title: GTY - Gran Maestro Yin
 top: 20
 translated: true
+type: post
 ---
 
 Esta es una historia sobre mí y Yin Wang. Acabo de revisar mi cuenta de Twitter.

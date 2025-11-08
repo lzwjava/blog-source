@@ -6,9 +6,8 @@ lang: en
 layout: post
 title: Set Up Your Proxy Server
 translated: false
+type: post
 ---
-
-
 
 * To set up a server, use Outline Manager: [https://getoutline.org](https://getoutline.org).  
 
@@ -39,4 +38,3 @@ translated: false
 * We use Outline Manager to set up our own servers because it is fast and allows us to enjoy the server by ourselves. VPN provider's nodes can often be unreliable. Our servers may also experience issues, but we have much more detailed knowledge of the situation. We can also choose different cloud providers. Additionally, we know whether we are using China Telecom or China Mobile, and whether we are using home Wi-Fi or cellular data.
 
 * It is probably not useful to install OpenWrt on a router to set up a proxy. The main issue is that the GFW can easily ban your proxy server's IP address. It's better to use a subscription method, like with Clash, to easily change settings on your router.
-

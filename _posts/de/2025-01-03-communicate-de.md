@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Kommunikation
 translated: true
+type: post
 ---
 
 * Diskutiere nicht mit Familienmitgliedern, Freunden oder anderen, die unterschiedliche Meinungen haben. Es ist sinnlos zu streiten und kann manchmal verletzend sein.

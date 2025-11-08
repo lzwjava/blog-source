@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 設置Azure伺服器
 translated: true
+type: post
 ---
 
 在Microsoft Azure上設置服務器並配置其以打開特定端口對於各種應用程序（包括託管服務、代理等）至關重要。本指南將引導您完成創建Azure虛擬機（VM）並配置防火牆以打開端口1080的過程。

@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: The Best Communication Method for Me
+type: post
 ---
 
 * Share what I want to say in a blog.

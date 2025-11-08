@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Faire les choses de manière scientifique
 translated: true
+type: post
 ---
 
 Nous avons un objectif à atteindre, comment pouvons-nous l'atteindre de manière scientifique, comment pouvons-nous y parvenir rapidement et efficacement. L'esprit scientifique peut être appliqué à tous les aspects de la vie, pas seulement au domaine scientifique. Qu'est-ce que l'esprit scientifique ? C'est le doute, c'est la réflexion, c'est faire tout son possible pour comprendre ce qu'est la vérité, ce qu'est la vérité, comprendre pourquoi les choses sont ainsi, comprendre ce que nous devons faire, et le résultat se produira inévitablement.

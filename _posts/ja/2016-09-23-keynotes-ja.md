@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: キーノート
 translated: true
+type: post
 ---
 
 これはGitHubプロジェクト[https://github.com/lzwjava/Keynotes](https://github.com/lzwjava/Keynotes)のREADME.mdです。

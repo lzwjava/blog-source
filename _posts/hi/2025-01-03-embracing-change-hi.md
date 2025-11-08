@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: परिवर्तन को अपनाना
 translated: true
+type: post
 ---
 
 मैंने अपने शीर्षक को "Always to Have Background Sound" से बदलकर "Prefer to Have Background Sound" कर दिया है। यह सिर्फ एक शब्द या शीर्षक का परिवर्तन नहीं है; इसके लिए फ़ाइल नाम, PDF फ़ाइल नाम, ऑडियो फ़ाइल नाम और URL को भी बदलना पड़ा।

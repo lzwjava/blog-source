@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 打扮像個女人
 translated: true
+type: post
 ---
 
 * 首次以男性身份穿著女性服飾，這是一個有趣的經驗。在公共場合，有些人可能會盯著你看或窃窃私語，懷疑你是女孩。

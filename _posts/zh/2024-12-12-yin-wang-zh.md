@@ -7,6 +7,7 @@ layout: post
 title: 王垠全集
 top: 20
 translated: true
+type: post
 ---
 
 ## 中文

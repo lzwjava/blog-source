@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: استخدام العدسات المتعددة البؤر التقدمية لعكس قصر النظر
 translated: true
+type: post
 ---
 
 ## نظارات ثنائية البؤرة

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 小学校の思い出
 translated: true
+type: post
 ---
 
 この投稿は2025年7月に書かれました。

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 特殊设置在iOS
 translated: true
+type: post
 ---
 
 ## 应用程序设置

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Rapport du Site Web
 translated: true
+type: post
 ---
 
 Récemment, j'ai discuté avec une amie entrepreneure qui m'a demandé mon avis sur le site web de son entreprise. Après avoir rédigé mes premières remarques, j'ai demandé à ChatGPT de m'aider à les affiner et à les polir. Voici la version mise à jour et améliorée.

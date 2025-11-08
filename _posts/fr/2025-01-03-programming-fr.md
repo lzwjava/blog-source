@@ -7,6 +7,7 @@ layout: post
 title: 'Philosophie de la Programmation Complète : Principes, Pratiques et Croissance
   Professionnelle'
 translated: true
+type: post
 ---
 
 ### Table des matières

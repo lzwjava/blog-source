@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Prefiero Tener Sonido de Fondo
 translated: true
+type: post
 ---
 
 * Prefiero tener sonido de fondo, sin importar lo que estés haciendo.

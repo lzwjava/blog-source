@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Configura tu servidor proxy
 translated: true
+type: post
 ---
 
 Para configurar un servidor, usa el Administrador de Contornos: [https://getoutline.org](https://getoutline.org).

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Crochets Zsh
 translated: true
+type: post
 ---
 
 Après avoir exploré "Faire en sorte que Zsh affiche les paramètres de proxy avant d'exécuter des commandes réseau", j'ai approfondi les hooks de Zsh avec ChatGPT. Voici un aperçu concis pour référence future.

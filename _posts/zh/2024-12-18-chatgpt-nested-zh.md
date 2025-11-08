@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: ChatGPT 在嵌套代码块中的问题
 translated: true
+type: post
 ---
 
 ### 问题说明

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 好奇心课程
 translated: true
+type: post
 ---
 
 # 好奇心课程

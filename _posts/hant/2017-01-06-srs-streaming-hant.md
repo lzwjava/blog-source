@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 簡單即時伺服器 (SRS) 用於 RTMP 串流
 translated: true
+type: post
 ---
 
 讓我們深入了解如何使用 Simple Realtime Server (SRS) 部署一個邊緣伺服器來進行 RTMP 串流，並專注於理解和有效地配置它，包括 `rtmp.conf` 文件。SRS 是一個強大的高性能媒體伺服器，專為實時串流協議如 RTMP、HLS 和 HTTP-FLV 設計。它特別適合需要可擴展性的情況，例如內容分發網絡（CDNs），其中邊緣伺服器可以有效地將串流分發給許多客戶端，同時從原始伺服器獲取內容。我將逐步引導你完成這個過程，解釋邊緣部署的概念，並澄清如何處理配置文件如 `rtmp.conf`。

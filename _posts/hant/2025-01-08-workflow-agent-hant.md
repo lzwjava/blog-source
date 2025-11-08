@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 工作流程是廣度優先搜索（BFS），代理是深度優先搜索（DFS）。
 translated: true
+type: post
 ---
 
 根據Anthropic[^1]所述：

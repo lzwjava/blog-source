@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Listening While Driving
 translated: false
+type: post
 ---
 
 *This blog post was translated by ChatGPT.*

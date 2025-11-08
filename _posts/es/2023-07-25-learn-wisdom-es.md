@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: La Sabiduría del Aprendizaje
 translated: true
+type: post
 ---
 
 ### Prólogo

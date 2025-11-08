@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Mis años de secundaria
 translated: true
+type: post
 ---
 
 Este post fue escrito en julio de 2025.

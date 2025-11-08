@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Transformando Eclipse en Emacs
 translated: true
+type: post
 ---
 
 Como usuario de Emacs durante medio año, simplemente no puedo imaginar cómo solía codificar, moviendo las manos desde la posición estándar para hacer clic en el mouse o presionar las teclas de flecha, sin sentir que era incómodo e insoportable. Ahora, cuando le digo a mis amigos que he configurado los atajos Alt+P y Alt+N para cambiar rápidamente entre archivos XML y el Diseño Gráfico, su respuesta es solo "de acuerdo", lo que implica que usar el mouse para cambiar también está bien.

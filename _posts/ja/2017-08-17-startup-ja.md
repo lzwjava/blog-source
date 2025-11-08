@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 趣直播創業の心得共有
 translated: true
+type: post
 ---
 
 ![](assets/images/startup/s0.jpg)

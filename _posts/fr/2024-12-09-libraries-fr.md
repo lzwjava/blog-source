@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Pensez aux mises à niveau lors de l'utilisation de bibliothèques
 translated: true
+type: post
 ---
 
 J'ai utilisé CodeIgniter dans mon projet de startup, [Fun Live](https://github.com/lzwjava/live-server). Bien que le projet ait pris fin, après plusieurs années, j'ai voulu le relancer pour le commémorer. Cependant, en 2016, j'utilisais CodeIgniter 3, alors que la version la plus récente est maintenant CodeIgniter 4.

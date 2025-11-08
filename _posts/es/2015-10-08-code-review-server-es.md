@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Servidor de revisión de código
 translated: true
+type: post
 ---
 
 Este es el README.md del proyecto de github [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server).

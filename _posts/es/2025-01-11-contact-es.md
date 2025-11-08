@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Contacto
 translated: true
+type: post
 ---
 
 Hola, soy Zhiwei Li. Puede encontrar una breve introducción [aquí](/introducción-es). Los ocho botones de mi sitio web destacan lo que más me apasiona; te animo a explorarlos.

@@ -26,4 +26,3 @@ type: post
 - Always buy at least two kinds of things, like shampoo. You can use them in turn depending on your mood and easily compare them. Your hair will probably benefit from such diversity.
 
 - Drink LIPTON Teas and Infusions, green tea, oolong tea, etc.
-

@@ -8,9 +8,8 @@ title: iOS Apps I Used - Text Version
 top: 10
 translated: false
 translation: false
+type: post
 ---
-
-
 
 \#:
 - 500px

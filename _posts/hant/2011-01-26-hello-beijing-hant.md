@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 你好，北京
 translated: true
+type: post
 ---
 
 這篇文章原本用中文撰寫並發布在Qzone。

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'Fun Live: Knowledge Live Broadcast Platform'
 translated: false
+type: post
 ---
 
 This is the README.md from github project [https://github.com/lzwjava/live-server](https://github.com/lzwjava/live-server).

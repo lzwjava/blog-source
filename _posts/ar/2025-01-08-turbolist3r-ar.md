@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: 'Turbolist3r: إحصاء النطاقات الفرعية'
 translated: true
+type: post
 ---
 
 أدناه بعض الأدوات التي تساعد في إحصاء الأسماء الفرعية.

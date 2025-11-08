@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Ursprüngliche Beiträge
 translated: true
+type: post
 ---
 
 Diese sind meine ursprünglichen Blog-Beiträge.

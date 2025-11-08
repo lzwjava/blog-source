@@ -9,8 +9,6 @@ translated: false
 type: post
 ---
 
-
-
 Using `compgen -c | grep -v '_'` lists all available commands and excludes those containing underscores.
 
 ```bash

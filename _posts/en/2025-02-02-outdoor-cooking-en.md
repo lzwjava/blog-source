@@ -9,8 +9,6 @@ translated: false
 type: post
 ---
 
-
-
 - Use rocks, leaves, branches, and twigs to build a furnace.
 
 - Burn for around half an hour to make the rocks red-hot.

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: कोड समीक्षा सर्वर
 translated: true
+type: post
 ---
 
 यह GitHub प्रोजेक्ट [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server) का README.md है।

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Jeux de bébé, IA de santé, mouvements de basket-ball
 translated: true
+type: post
 ---
 
 ### Table des matières

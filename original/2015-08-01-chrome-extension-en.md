@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Building a Chrome Extension
 translated: false
+type: post
 ---
 
 Have you ever opened too many browser tabs and wished for a tool to automatically manage them? In this blog post, we'll walk through the creation of a Chrome extension called **"Tabs Killer"**, which automatically closes the oldest tabs when the tab count exceeds a user-defined limit. I'll break down the code, explain how it works, and provide insights to help you build your own Chrome extension.
@@ -329,4 +330,3 @@ var tabmanager = {
 "Tabs Killer" demonstrates how to combine a popup UI, background logic, and Chrome APIs to create a functional extension. With this foundation, you can customize it further—add notifications, refine the tab-closing logic, or enhance the UI.
 
 Feel free to experiment with the code and share your own Chrome extension ideas! Happy coding!
-

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: المعلم قيو
 translated: true
+type: post
 ---
 
 هذا الماجستير كان مكتوبًا أصلاً بالفصحى والبوبولار، ونُشر على Qzone.

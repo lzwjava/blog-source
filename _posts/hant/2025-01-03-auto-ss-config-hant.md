@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 開源工具：自動SS配置
 translated: true
+type: post
 ---
 
 我很高興地宣布，我已經開源了一個名為 **Auto SS Config** 的工具。這個工具能夠自動從 Shadowsocks URL 生成並上傳 Shadowsocks 或 Clash 的訂閱 URL，讓管理和更新你的代理伺服器配置變得更加輕鬆。

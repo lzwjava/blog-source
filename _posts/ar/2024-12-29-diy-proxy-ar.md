@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: إعداد خادم الوكيل الخاص بك
 translated: true
+type: post
 ---
 
 * لحقًاً، لتكوين خادم، استخدم مدير Outline: [https://getoutline.org](https://getoutline.org).

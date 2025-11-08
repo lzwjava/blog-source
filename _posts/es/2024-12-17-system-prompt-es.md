@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Explorando los System Prompts en Grok y Claude
 translated: true
+type: post
 ---
 
 Lo volví a publicar aquí para aprender sobre la ingeniería de prompts.

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: नया क्वोरा या टिकटॉक पूरी तरह से एआई द्वारा संचालित अनुवाद
 translated: true
+type: post
 ---
 
 * एक नया TikTok या Quora जो पूरी तरह से AI अनुवाद द्वारा संचालित हो।  

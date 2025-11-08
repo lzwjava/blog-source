@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 化学の教師の名言
 translated: true
+type: post
 ---
 
 この記事は、日に「…でい」と言うことが多いので、私たちが親愛なる化学の先生を「ディー兄さん」と呼ぶようになった先生を称えるものです。

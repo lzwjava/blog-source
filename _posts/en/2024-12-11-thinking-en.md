@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Meta-Thinking Framework
 translated: false
+type: post
 ---
 
 ## Thinking

@@ -7,6 +7,7 @@ layout: post
 title: iOS Apps I Used - Text Version
 top: 10
 translation: false
+type: post
 ---
 
 \#:

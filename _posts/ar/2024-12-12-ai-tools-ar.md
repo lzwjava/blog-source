@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: أدوات الذكاء الاصطناعي
 translated: true
+type: post
 ---
 
 هنا بعض الأدوات الذكاء الاصطناعي التي استخدمتها، مصنفة للوضوح:

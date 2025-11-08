@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Oreiller inclinable
 translated: true
+type: post
 ---
 
 Je recommande ce coussin inclinable. Je l'ai acheté en mars 2023. Il m'a coûté environ 270 CNY. Aujourd'hui (5 janvier 2025), il est vendu à environ 240 CNY sur jd.com. Je l'utilise depuis presque deux ans maintenant. C'est génial, car les objets que vous utilisez encore après un an sont ceux dont vous avez vraiment besoin.
@@ -34,4 +35,3 @@ Il existe encore des domaines à améliorer pour ce type d'oreiller inclinable. 
 
 {: .centered }
 ![](assets/images/pillow/diy.jpg){: .responsive }
-

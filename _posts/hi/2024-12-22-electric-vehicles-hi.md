@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: इलेक्ट्रिक वाहन
 translated: true
+type: post
 ---
 
 ## नेता

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 吱吱
 translated: true
+type: post
 ---
 
 這是 GitHub 專案 [https://github.com/lzwjava/Creak](https://github.com/lzwjava/Creak) 的 README.md。

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Reflexiones sobre los secretos de la vida
 translated: true
+type: post
 ---
 
 Hasta que dejé la escuela y trabajé en la sociedad durante algunos años, finalmente comprendí el secreto del aprendizaje. Descubrí que en realidad también es el secreto de la vida. Permíteme contarte paso a paso mi viaje de descubrimiento.

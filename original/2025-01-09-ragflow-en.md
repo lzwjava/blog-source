@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Trying RAGFlow
+type: post
 ---
 
 [https://ragflow.io](https://ragflow.io)
@@ -20,4 +21,3 @@ I tested the product, and it performed very well.
 {: .centered }
 ![](assets/images/rag/r2.jpg){: .responsive}
 *Source: [https://ragflow.io/](https://ragflow.io/)*{: .caption }
-

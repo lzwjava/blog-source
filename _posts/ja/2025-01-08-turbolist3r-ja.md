@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 'Turbolist3r: サブドメインの列挙'
 translated: true
+type: post
 ---
 
 以下は、サブドメインを列挙するのに役立ついくつかのツールです。

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 複雜正則表達式
 translated: true
+type: post
 ---
 
 最近在研究 HTML 解析，遇到一個正則表達式：

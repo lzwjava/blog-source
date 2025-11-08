@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: क्लाउड कंप्यूटिंग और बिग डेटा का परिचय
 translated: true
+type: post
 ---
 
 इस पाठ में निम्नलिखित विषय शामिल हैं:

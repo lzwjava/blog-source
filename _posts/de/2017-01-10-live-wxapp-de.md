@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Live Wetter-App
 translated: true
+type: post
 ---
 
 Dies ist die README.md von dem GitHub-Projekt [https://github.com/lzwjava/live-wxapp](https://github.com/lzwjava/live-wxapp).

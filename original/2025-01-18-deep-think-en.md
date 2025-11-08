@@ -25,4 +25,3 @@ It's truly interesting to directly tackle a problem, and if DeepThink or ChatGPT
 One use case is for companies, providing registered users with full demo capabilities. This acts like an internet robot, gathering public data to enhance LLMs or search engines.
 
 Another use case is for hardware manufacturers. We will use robots to interact with them, generating as much relevant information as possible.
-

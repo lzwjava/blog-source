@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 'オープンソースツール: Auto SS Config'
 translated: true
+type: post
 ---
 
 **Auto SS Config**というツールをオープンソース化したことを発表できることを嬉しく思います。このツールは、ShadowsocksのURLからShadowsocksまたはClashのサブスクリプションURLを自動生成し、アップロードするもので、プロキシサーバーの設定を管理・更新するのがより簡単になります。

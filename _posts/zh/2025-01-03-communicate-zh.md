@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 沟通
 translated: true
+type: post
 ---
 
 * 不要与家人、朋友或持不同意见的人争论。争论无益，有时还会伤人。

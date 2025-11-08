@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تحليل نظام تسجيل الدخول بجامعة بكين للغابات
 translated: true
+type: post
 ---
 
 هذا المقال كان مكتوبًا بالأصل بالعربية ونُشرت على [CSDN](https://blog.csdn.net/lzw_java/article/details/18049581).

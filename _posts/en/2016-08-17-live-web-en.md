@@ -6,9 +6,8 @@ lang: en
 layout: post
 title: Live Web
 translated: false
+type: post
 ---
-
-
 
 This is the README.md from github project [https://github.com/lzwjava/live-web](https://github.com/lzwjava/live-web).
 

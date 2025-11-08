@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 'Open-Source-Tool: Auto SS Config'
 translated: true
+type: post
 ---
 
 Ich freue mich, bekannt geben zu können, dass ich ein Tool namens **Auto SS Config** open-source gestellt habe. Dieses Tool generiert und lädt automatisch Shadowsocks- oder Clash-Abonnement-URLs aus Shadowsocks-URLs hoch, was die Verwaltung und Aktualisierung Ihrer Proxy-Server-Konfigurationen erleichtert.

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 檢測時機
 translated: true
+type: post
 ---
 
 昨日，我着手创建一个Shadowsocks Outline的自动配置工具，旨在将其转化为一个Python项目供他人使用。我开发了一个脚本，通过解码`ssconfig`文件中的Shadowsocks URL，更新`config.yaml`文件以包含Shadowsocks代理配置。此外，我还创建了另一个脚本，利用`gsutil`将客户端的订阅文件上传至Google云存储。

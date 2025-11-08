@@ -7,6 +7,7 @@ layout: post
 title: 未来
 top: 10
 translated: true
+type: post
 ---
 
 * 买房梦已经破灭。不仅在中国，全球范围内，只有少数城市会是例外。

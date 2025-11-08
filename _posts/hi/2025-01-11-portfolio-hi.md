@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: पोर्टफोलियो
 translated: true
+type: post
 ---
 
 पीडीएफ फाइल [यहां](/assets/resume/Zhiwei.Li.Portfolio.pdf) मिल सकती है।

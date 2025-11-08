@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: My Curated App Choices
+type: post
 ---
 
 In a previous essay, I wrote:

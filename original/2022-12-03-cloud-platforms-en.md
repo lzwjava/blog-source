@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Some Global Cloud Platforms
+type: post
 ---
 
 <div align="center"><img src="/assets/images/cloud/platform.jpg" width="400px"/><img/></div>

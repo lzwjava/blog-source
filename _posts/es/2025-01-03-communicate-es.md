@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Comunicación
 translated: true
+type: post
 ---
 
 * No discutas con familiares, amigos u otras personas que tengan opiniones diferentes. Es inútil discutir y a veces puede ser hiriente.

@@ -7,6 +7,7 @@ layout: post
 title: Wie man den Tod vermeidet
 top: 10
 translated: true
+type: post
 ---
 
 Ich werde bald 30 Jahre alt. Ich wusste in meiner Kindheit nicht viel über den Tod, bis 2019 einer meiner Verwandten starb. Im Jahr 2022 verstarb ein weiterer Verwandter. Ich erfuhr, dass auch zwei meiner Klassenkameraden gestorben waren. Während der dreijährigen COVID-Periode haben wir in den Nachrichten viel über den Tod gehört.

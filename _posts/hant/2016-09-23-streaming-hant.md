@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 使用 OBS、SRS 和 FFmpeg 進行直播設置
 translated: true
+type: post
 ---
 
 *這篇博文是由 ChatGPT-4o 協助整理的。*

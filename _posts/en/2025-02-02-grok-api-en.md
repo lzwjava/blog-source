@@ -9,8 +9,6 @@ translated: false
 type: post
 ---
 
-
-
 - It is ok to use China-issued Visa card.
 
 - [https://console.x.ai](https://console.x.ai)

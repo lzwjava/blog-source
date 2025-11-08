@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 语言支持：字体和文本转语音
 translated: true
+type: post
 ---
 
 我的博客现在支持九种语言：日语（`ja`）、西班牙语（`es`）、印地语（`hi`）、中文（`zh`）、英语（`en`）、法语（`fr`）、德语（`de`）、阿拉伯语（`ar`）和繁体中文（`hant`）。你可以在[https://lzwjava.github.io](https://lzwjava.github.io)找到本站。

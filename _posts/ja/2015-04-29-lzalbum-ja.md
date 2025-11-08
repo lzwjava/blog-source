@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: LZAlbumは
 translated: true
+type: post
 ---
 
 これは GitHub プロジェクト [https://github.com/lzwjava/LZAlbum](https://github.com/lzwjava/LZAlbum) の README.md です。

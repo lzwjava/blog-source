@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Awesome-CVを使用してプロフェッショナルな履歴書を作成する
 translated: true
+type: post
 ---
 
 ### はじめに

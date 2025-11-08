@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: رسائل الالتزام في Git التي يعمل بالذكاء الاصطناعي
 translated: true
+type: post
 ---
 
 يجب وضع هذا البرنامج النصي لـ Python في دليل مضمن في مسار النظام الخاص بك، مثل `~/bin`.

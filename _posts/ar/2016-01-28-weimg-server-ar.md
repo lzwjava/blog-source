@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: WeImg سيرفر
 translated: true
+type: post
 ---
 
 هذا هو README.md من مشروع Github [https://github.com/lzwjava/weimg-server](https://github.com/lzwjava/weimg-server).

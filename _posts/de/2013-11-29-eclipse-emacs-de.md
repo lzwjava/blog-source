@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Eclipse in Emacs verwandeln
 translated: true
+type: post
 ---
 
 Als Emacs-Nutzer seit sechs Monaten kann ich mir nicht vorstellen, wie ich früher programmiert habe, indem ich meine Hände von der Standardposition wegbewegte, um die Maus zu klicken oder die Pfeiltasten zu drücken, ohne das es umständlich und unerträglich erschien. Jetzt, wenn ich meinen Freunden erzähle, dass ich die Tastenkombinationen Alt+P und Alt+N eingerichtet habe, um schnell zwischen XML-Dateien und der grafischen Layout-Ansicht zu wechseln, lautet ihre Antwort einfach nur "okay," was impliesiert, dass das Verwenden der Maus zum Umschalten auch in Ordnung ist.

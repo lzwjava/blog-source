@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Essayer RAGFlow
 translated: true
+type: post
 ---
 
 [https://ragflow.io](https://ragflow.io)
@@ -21,4 +22,3 @@ J'ai testé le produit, et il a très bien performé.
 {: .centered }
 ![](assets/images/rag/r2.jpg){: .responsive}
 *Source : [https://ragflow.io/](https://ragflow.io/)*{: .caption }
-

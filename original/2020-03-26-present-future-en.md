@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: The Present and Future of China's Economy
 translated: true
+type: post
 ---
 
 Civil engineering faces overcapacity, affecting related industries like steel, construction materials, decorating materials, and upstream industries like coal and petrochemicals. As civil engineering declines and reduces capacity, massive unemployment will follow in coming years.

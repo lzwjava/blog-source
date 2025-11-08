@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Android 圖像處理變簡單
 translated: true
+type: post
 ---
 
 在 Android 中處理圖像可能會很棘手——位圖會佔用大量記憶體，旋轉會影響方向，裁剪需要精確度。這就是 `BitmapUtils` 和 `Crop` 這類工具類的用武之地。在這篇文章中，我將帶你了解來自 `com.lzw.flower.utils` 包的這對強大的類。我們將探索它們的代碼，分解每個方法的功能，並展示如何在你的項目中使用它們。讓我們開始吧！

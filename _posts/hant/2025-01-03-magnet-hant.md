@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 磁鐵與我三歲的孩子
 translated: true
+type: post
 ---
 
 在购买了[血压计、听诊器和视力表](./health-tools-en)这些工具学习之后，我还想买更多有趣的东西。

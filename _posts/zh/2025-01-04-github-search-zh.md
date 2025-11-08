@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 我们仍然需要 GitHub 搜索框的情况
 translated: true
+type: post
 ---
 
 ```yaml

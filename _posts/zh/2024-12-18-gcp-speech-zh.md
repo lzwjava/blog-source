@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Google Text-to-Speech API 入门教程
 translated: true
+type: post
 ---
 
 我计划将 Yin Wang 的一些文章转换成音频。为此，我正在尝试使用 Google Text-to-Speech API。以下是一些由 ChatGPT 提供的教程，帮助你完成这一过程。完成后，我会将音频上传到这里。

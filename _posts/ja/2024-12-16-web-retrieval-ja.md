@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ChatGPT Retrieval Webのユースケース
 translated: true
+type: post
 ---
 
 最近、LaTeX文書内のブログ記事のリンクを更新する必要がありました。記事の数が増えるにつれ、手動で各リンクを追加するのは面倒でミスも起こりやすくなっていました。そこで、ChatGPTが助け舟を出してくれ、このプロセスをシームレスかつ効率的に行うことができました。

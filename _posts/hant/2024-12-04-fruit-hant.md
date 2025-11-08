@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 健康飲食：水果、飲品、新鮮度
 translated: true
+type: post
 ---
 
 ### 目錄

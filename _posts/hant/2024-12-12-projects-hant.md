@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 副項目
 translated: true
+type: post
 ---
 
 ## 天際之旅：廣州至拉薩的空中奧德賽

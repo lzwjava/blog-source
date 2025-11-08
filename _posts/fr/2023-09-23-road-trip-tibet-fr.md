@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Voyage en voiture vers le Tibet
 translated: true
+type: post
 ---
 
 Du 23 août 2023 au 18 septembre 2023, j'ai entrepris un voyage d'environ 25 jours de Guangzhou au Tibet. Je suis arrivé à Lhassa, au Tibet, le 10 septembre 2023. Le voyage vers le Tibet s'est effectué via les routes nationales, prenant 17 jours pour atteindre Lhassa, et le retour s'est fait par autoroute, qui a pris 8 jours.

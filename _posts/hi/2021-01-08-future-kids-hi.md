@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: भविष्य के बच्चे
 translated: true
+type: post
 ---
 
 05年，Paul Graham 创立了 YC 孵化器。他在「招聘已经过时」一文中说道：

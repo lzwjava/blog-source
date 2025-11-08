@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 如何使用 Google
 translated: true
+type: post
 ---
 
 此篇文章最初以中文撰寫。

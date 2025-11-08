@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: मुख्य बातें
 translated: true
+type: post
 ---
 
 यह GitHub प्रोजेक्ट [https://github.com/lzwjava/Keynotes](https://github.com/lzwjava/Keynotes) से README.md है।

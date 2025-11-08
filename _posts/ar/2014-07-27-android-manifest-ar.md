@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: فهم ملف AndroidManifest.xml
 translated: true
+type: post
 ---
 
 إذا كنت تغمق في تطوير تطبيقات Android، من بين أول الملفات التي ستواجهها هو `AndroidManifest.xml`. إنه مثل المخطط المعماري لتطبيقك - يشرح نظام Android كل ما يحتاجه عن تطبيقك قبل أن يبدأ حتى في التشغيل. اليوم، سنفصل ملف بيان مثال من تطبيق يُدعى "Flower" (اسم الحزمة: `com.lzw.flower`) ونستكشف مكوناته الرئيسية، المفاهيم، والنماذج.

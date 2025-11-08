@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 演讲
 translated: true
+type: post
 ---
 
 这是 GitHub 项目 [https://github.com/lzwjava/Keynotes](https://github.com/lzwjava/Keynotes) 的 README.md。

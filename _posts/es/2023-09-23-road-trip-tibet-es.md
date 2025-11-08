@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Viaje por carretera a Tíbet
 translated: true
+type: post
 ---
 
 Del 23 de agosto de 2023 al 18 de septiembre de 2023, emprendí un viaje de aproximadamente 25 días desde Guangzhou hasta el Tíbet. Llegué a Lhasa, Tíbet, el 10 de septiembre de 2023. El viaje al Tíbet implicó viajar por carreteras nacionales, tardando 17 días en llegar a Lhasa, y el viaje de regreso fue por autopista, que tomó 8 días.

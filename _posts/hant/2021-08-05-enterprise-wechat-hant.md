@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 企業微信整合
 translated: true
+type: post
 ---
 
 在 ShowMeBug 的工作期間，我參與了企業微信整合項目。這涉及將 ShowMeBug 與企業微信整合，為企業微信生態系統內的技術面試工具提供無縫訪問。我利用 Ruby、Ruby on Rails、PostgreSQL 和 WeChat SDK 為面試官和候選人創建了流暢的用戶體驗。

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Kontakt
 translated: true
+type: post
 ---
 
 Guten Tag, ich bin Zhiwei Li. Sie können eine kurze Einführung [hier](/introduction-de) finden. Die acht Schaltflächen auf meiner Website betonen, wofür ich mich am meisten begeistere; ich ermutige Sie, sie zu erkunden.

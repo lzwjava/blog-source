@@ -9,7 +9,6 @@ translated: false
 type: post
 ---
 
-
 ## View From The Front Door
 
 {: .centered }

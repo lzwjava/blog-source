@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Serveur Simple en Temps Réel (SRS) pour le Streaming RTMP
 translated: true
+type: post
 ---
 
 Plongeons dans l'utilisation de Simple Realtime Server (SRS) pour déployer un serveur de bord pour le streaming RTMP, en mettant l'accent sur la compréhension et la configuration efficace, y compris le fichier `rtmp.conf`. SRS est un serveur multimédia puissant et haute performance conçu pour les protocoles de streaming en temps réel comme RTMP, HLS et HTTP-FLV. Il est particulièrement bien adapté aux scénarios nécessitant une évolutivité, comme les réseaux de distribution de contenu (CDN), où un serveur de bord peut distribuer efficacement les flux à de nombreux clients tout en récupérant le contenu auprès d'un serveur d'origine. Je vais vous guider étape par étape, expliquer le concept de déploiement de bord et clarifier comment travailler avec des configurations comme `rtmp.conf`.

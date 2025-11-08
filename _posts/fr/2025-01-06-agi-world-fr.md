@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Le Monde de l'Intelligence Artificielle Générale
 translated: true
+type: post
 ---
 
 Si un jour, nous pouvons simplement dire à une IA de créer une application comme TikTok ou YouTube avec une seule commande, et qu'elle nous fournisse un projet complet contenant des millions de lignes de code, ce serait vraiment incroyable.
@@ -55,4 +56,3 @@ Alors, pourquoi n'y a-t-il pas plus de robots dans les foyers ? Les robots grand
 Il y aura un modèle mondial dans le cloud, un modèle très volumineux, potentiellement d'environ 100 pétaoctets. Pour référence, 1 pétaoctet équivaut à 1 024 téraoctets, et 1 téraoctet équivaut à 1 024 gigaoctets. Une version du modèle Llama 3 70B a une taille de fichier de 21,1 Go.
 
 Les robots dans le monde devront consulter ce modèle mondial dans le cloud pour prendre des actions. Un délai réseau de 100 millisecondes, voire même 1 seconde, est acceptable tant que le robot peut accomplir ses tâches de manière efficace.
-

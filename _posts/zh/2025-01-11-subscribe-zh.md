@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 订阅
 translated: true
+type: post
 ---
 
 通过订阅RSS源、音频源或在X（推特）上关注我，获取最新博客动态。  

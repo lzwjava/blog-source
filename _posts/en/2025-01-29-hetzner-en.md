@@ -9,8 +9,6 @@ translated: false
 type: post
 ---
 
-
-
 I am very excited to try this cloud platform recently.
 
 {: .centered }

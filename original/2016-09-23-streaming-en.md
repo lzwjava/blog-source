@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Setting Up Live Streaming with OBS, SRS, and FFmpeg
 translated: true
+type: post
 ---
 
 *This blog post was organized with the assistance of ChatGPT-4o.*

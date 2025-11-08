@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 学习的智慧
 translated: true
+type: post
 ---
 
 ### 前言

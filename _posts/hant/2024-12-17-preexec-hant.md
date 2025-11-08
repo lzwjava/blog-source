@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 在運行命令前顯示代理設置
 translated: true
+type: post
 ---
 
 <div style="text-align: center;">  

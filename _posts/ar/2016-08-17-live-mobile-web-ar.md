@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تطبيق موبايل لويب
 translated: true
+type: post
 ---
 
 هذَ هذا README.md من مشروع الغيثب [https://github.com/lzwjava/live-mobile-web](https://github.com/lzwjava/live-mobile-web).

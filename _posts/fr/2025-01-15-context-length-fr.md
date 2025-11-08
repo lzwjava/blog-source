@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Longueur de Contexte Maximale des Modèles de Langue à Grande Échelle
 translated: true
+type: post
 ---
 
 J'ai récemment utilisé l'API DeepSeek pour générer un message de commit, comme décrit dans [Messages de Commit Git Pilotés par l'IA](./gitmessageai-en).

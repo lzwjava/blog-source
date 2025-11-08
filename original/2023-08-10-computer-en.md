@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: How to Build a Computer
+type: post
 ---
 
 ![cover](assets/images/computer/cover.jpg)

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Chrome-Erweiterung erstellen
 translated: true
+type: post
 ---
 
 Hast du dich jemals gefragt, wie es wäre, wenn du zu viele Browser-Tabs geöffnet hast und ein Tool hättest, das sie automatisch verwaltet? In diesem Blogbeitrag werden wir die Erstellung einer Chrome-Erweiterung namens **"Tabs Killer"** durchgehen, die automatisch die ältesten Tabs schließt, wenn die Anzahl der Tabs eine benutzerdefinierte Grenze überschreitet. Ich werde den Code aufschlüsseln, erklären, wie er funktioniert, und Einblicke geben, um dir zu helfen, deine eigene Chrome-Erweiterung zu erstellen.

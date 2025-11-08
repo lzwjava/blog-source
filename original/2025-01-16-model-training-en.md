@@ -25,4 +25,3 @@ type: post
 * Learn from the mistakes of others, like those made with Llama2.
 
 * Instead of fixing the result, address the root cause of the issue.
-

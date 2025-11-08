@@ -7,6 +7,7 @@ layout: post
 title: कंपनी के प्रस्ताव का निपटान
 top: 10
 translated: true
+type: post
 ---
 
 शेयरधारकों को पत्र:

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: テレビでYouTubeを視聴する方法
 translated: true
+type: post
 ---
 
 このガイドは、既にgeo-restrictionsを回避する方法を持っていることを前提としています。ルーターにカスタムファームウェアを書き込むことなく、アプリを使用してTVでYouTubeを視聴する方法を紹介します。

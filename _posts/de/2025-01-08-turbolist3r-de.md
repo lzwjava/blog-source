@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 'Turbolist3r: Subdomains auflisten'
 translated: true
+type: post
 ---
 
 Unten sind einige Tools, die bei der Aufzählung von Subdomains helfen können.

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 使用藍牙鍵盤與Fire TV進行輸入
 translated: true
+type: post
 ---
 
 我在Fire TV上安裝了V2ray應用程式。然而，直接在Fire TV上輸入或更新ShadowSocks URL相當困難。解決方法是連接一個藍牙鍵盤。

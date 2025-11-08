@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Teacher Qiu
 translated: true
+type: post
 ---
 
 Dieser Beitrag wurde ursprünglich auf Chinesisch geschrieben und auf Qzone veröffentlicht.

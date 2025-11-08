@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تفضيل وجود صوت خلفي
 translated: true
+type: post
 ---
 
 * تفضّل وجود صوت في الخلفية، بغض النظر عما تفعله.

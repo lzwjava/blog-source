@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Tips for Finding the Cofounder
 translated: false
+type: post
 ---
 
 - If I were to start my startup again, how would I find my cofounder?

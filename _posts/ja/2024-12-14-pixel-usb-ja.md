@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Pixel USB、iOS開発者ツール、スワイプタイピング
 translated: true
+type: post
 ---
 
 ### 目次

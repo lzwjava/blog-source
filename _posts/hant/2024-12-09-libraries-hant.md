@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 使用庫時考慮升級
 translated: true
+type: post
 ---
 
 在我的初創項目[Fun Live](https://github.com/lzwjava/live-server)中，我使用了CodeIgniter。雖然項目已經結束，但幾年後，我想重啟它以作紀念。然而，2016年時我使用的是CodeIgniter 3，而現在的最新版本是CodeIgniter 4。

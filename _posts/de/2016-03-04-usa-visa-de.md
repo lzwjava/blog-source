@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 美国签证申请流程与经验
 translated: true
+type: post
 ---
 
 Am Dienstagnachmittag hatte ich plötzlich den Wunsch, in die USA zu reisen. Ich begann mit dem Ausfüllen von Formularen und der Zahlung der Gebühren, und heute, am Freitagmorgen, habe ich das Visumsinterview erfolgreich bestanden! Mit einem Reisepass in der Hand konnte ich das Visumsinterview in nur drei Tagen erledigen, was mich ziemlich aufgeregt macht.

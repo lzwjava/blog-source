@@ -9,6 +9,7 @@ prompt: Do not translate specific human name items such as Yin, Yin Wang, Zhiwei
 title: 低配1.50度舒適日常眼鏡使用
 top: 10
 translated: true
+type: post
 ---
 
 *最後更新於2025年8月30日*

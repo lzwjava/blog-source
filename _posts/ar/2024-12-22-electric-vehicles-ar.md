@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: المركبات الكهربائية
 translated: true
+type: post
 ---
 
 ## نيتا

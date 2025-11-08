@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: मेरे लिए सर्वश्रेष्ठ संचार विधि
 translated: true
+type: post
 ---
 
 * जो मैं कहना चाहता हूं उसे ब्लॉग में साझा करें।

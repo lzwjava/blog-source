@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Suscribirse
 translated: true
+type: post
 ---
 
 Mantente actualizado con mis últimas publicaciones de blog suscribiéndote a través del feed RSS, el feed de audio o siguiéndome en X (Twitter).  

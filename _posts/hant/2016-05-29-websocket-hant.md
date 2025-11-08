@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 探索 WebSocket
 translated: true
+type: post
 ---
 
 *這篇博文是由 ChatGPT-4o 協助整理的。*

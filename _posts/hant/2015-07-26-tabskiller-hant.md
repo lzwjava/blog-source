@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: TabCloseMaster
 translated: true
+type: post
 ---
 
 這是來自 GitHub 專案的 README.md [https://github.com/lzwjava/TabsKiller](https://github.com/lzwjava/TabsKiller)。

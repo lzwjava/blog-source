@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Comment Apprendre N'importe Quoi en un An
 translated: true
+type: post
 ---
 
 Comment apprendre n'importe quoi en un an ? Prenons l'anglais comme exemple. J'ai passé un an à obtenir un score de 6 à l'IELTS et à être capable d'utiliser l'anglais pour travailler couramment dans une grande entreprise mondiale. Voici ma méthode.

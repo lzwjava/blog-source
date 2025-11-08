@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Partage d'expériences entrepreneuriales de Quzhibo
 translated: true
+type: post
 ---
 
 ![](assets/images/startup/s0.jpg)

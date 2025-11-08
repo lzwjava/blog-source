@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Juegos para bebés, IA para la salud, Jugadas de baloncesto
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

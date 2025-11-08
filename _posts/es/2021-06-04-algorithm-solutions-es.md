@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Soluciones a Problemas de Algoritmos
 translated: true
+type: post
 ---
 
 Este es el archivo README.md del proyecto de GitHub [https://github.com/lzwjava/algorithm-solutions](https://github.com/lzwjava/algorithm-solutions).

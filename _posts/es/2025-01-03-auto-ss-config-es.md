@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: 'Herramienta de Código Abierto: Auto SS Config'
 translated: true
+type: post
 ---
 
 Estoy emocionado de anunciar que he liberado el código de una herramienta llamada **Auto SS Config**. Esta herramienta genera y sube automáticamente URLs de suscripción de Shadowsocks o Clash a partir de URLs de Shadowsocks, facilitando la gestión y actualización de las configuraciones de tu servidor proxy.

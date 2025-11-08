@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: سير العمل هو BFS، والعامل هو DFS
 translated: true
+type: post
 ---
 
 وفقًا لـ Anthropic [^1]:
@@ -31,4 +32,3 @@ translated: true
 ---
 
 [^1]: بناء وكلاء فعالين، [Anthropic](https://www.anthropic.com/research/building-effective-agents)
-

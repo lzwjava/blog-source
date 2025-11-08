@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Personalisieren Sie Ihren USB-Stick mit einem Hintergrund und einem Icon
 translated: true
+type: post
 ---
 
 Dieser Beitrag wurde ursprünglich auf Chinesisch verfasst und auf Qzone veröffentlicht.

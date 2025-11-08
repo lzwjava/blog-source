@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Abonnements à prix fixe sont obsolètes
 translated: true
+type: post
 ---
 
 ### Le Cas pour la Tarification Flexible dans les Services d'Abonnement

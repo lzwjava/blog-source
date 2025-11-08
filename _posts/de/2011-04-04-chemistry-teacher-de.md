@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Chemielehrer-Zitate
 translated: true
+type: post
 ---
 
 Dieser Beitrag wurde ursprünglich auf Chinesisch verfasst und auf Qzone veröffentlicht.

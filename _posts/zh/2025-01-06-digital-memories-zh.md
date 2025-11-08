@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 我的早期数字记忆
 translated: true
+type: post
 ---
 
 我出生于1995年，那一年Windows 95在7月14日发布。

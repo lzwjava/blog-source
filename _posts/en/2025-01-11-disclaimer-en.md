@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Disclaimer
 translated: false
+type: post
 ---
 
 ## Translation

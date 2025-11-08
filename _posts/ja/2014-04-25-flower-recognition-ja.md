@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: フラワー認識アプリ
 translated: true
+type: post
 ---
 
 これは、GitHubプロジェクト[https://github.com/lzwjava/flower-recognition](https://github.com/lzwjava/flower-recognition)のREADME.mdです。

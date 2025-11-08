@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 家計の追跡
 translated: true
+type: post
 ---
 
 最近、家計の取引を記録するためにマークダウンのドキュメントを作成しました。

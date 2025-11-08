@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Meta-Denkrahmen
 translated: true
+type: post
 ---
 
 ## Denken

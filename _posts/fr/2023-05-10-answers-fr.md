@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 'Yin Wang : La réponse ultime à la vie, l''univers et tout le reste'
 translated: true
+type: post
 ---
 
 Transféré de Weibo @不再关心人类de垠 (Ne se soucie plus de l'humanité par Yin).

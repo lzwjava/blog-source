@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Decodificando el archivo Info.plist
 translated: true
+type: post
 ---
 
 Si has trabajado con el desarrollo de macOS o iOS, es probable que te hayas topado con un archivo `Info.plist`. Este archivo basado en XML es una parte clave de cualquier aplicación o complemento de Apple, actuando como un pasaporte que le dice al sistema quién es, qué hace y cómo debe comportarse. Hoy, estamos explorando el `Info.plist` de "Reveal-In-GitHub", un complemento de Xcode que introdujimos en una publicación anterior. En lugar de desglosar cada línea, nos centraremos en los conceptos y patrones fundamentales que definen su propósito y funcionalidad.

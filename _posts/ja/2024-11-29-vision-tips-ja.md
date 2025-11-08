@@ -9,6 +9,7 @@ prompt: Do not translate specific human name items such as Yin, Yin Wang, Zhiwei
 title: 1.50D未満の完全矯正度数での快適な日常メガネ活用ガイド
 top: 10
 translated: true
+type: post
 ---
 
 *最終更新: 2025年8月30日*

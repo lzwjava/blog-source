@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Warum ChatGPT Plus nach Token-Nutzung berechnen sollte
 translated: true
+type: post
 ---
 
 ChatGPT Plus sollte auf ein flexibles Preismodell basierend auf der Token-Nutzung umstellen, anstatt eine feste monatliche Gebühr von 20 USD.

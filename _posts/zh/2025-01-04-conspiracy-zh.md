@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 阴谋论
 translated: true
+type: post
 ---
 
 根据Yin Wang的文章《Yin Wang: The Ultimate Answer to Life, the Universe, and Everything》和他之前的声明，似乎以前有很多阴谋论者。
@@ -36,4 +37,3 @@ translated: true
 为了造福人类，你只需要发明或增强能帮助人们的知识。这就是为什么我特别对逆转近视感兴趣，这是我从Yin Wang和Todd Becker那里学到的，并通过3年的个人实验进行的。
 
 我将从自己的兴趣开始，优先学习对我最有益的真相。有时，我会学习阴谋论，以了解他们的思维方式和研究技术。
-

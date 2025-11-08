@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Keynotes
 translated: true
+type: post
 ---
 
 Dies ist die README.md des GitHub-Projekts [https://github.com/lzwjava/Keynotes](https://github.com/lzwjava/Keynotes).

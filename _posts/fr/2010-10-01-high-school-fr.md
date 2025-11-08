@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 'Chanson de septembre : Essais du lycée'
 translated: true
+type: post
 ---
 
 **Préambule :** Cet essai avait déjà une idée générale de rédaction lors de mon trajet en bus scolaire le 30 septembre pour rentrer chez moi. Une fois à la maison, j'ai immédiatement utilisé mon ordinateur pour écrire les souvenirs clairs dans mon esprit. Durée : 10 heures, l'écriture est un peu lente, mais les gains sont énormes. Bien que certains soient des joies et des peines personnelles (pour dire les choses crûment, des plaintes), le sujet principal est mon parcours émotionnel de ce mois-ci. Nombre total de mots : 8999. Réflexion après l'écriture : le premier grand œuvre de ma vie. Parler librement, c'est génial. À une vitesse de lecture normale de 1500 mots par minute, cela ne vous prendra que 5 minutes et demie (bien sûr, si vous avez beaucoup de temps, lisez plus lentement), je vous en suis infiniment reconnaissant, améliorons-nous mutuellement.

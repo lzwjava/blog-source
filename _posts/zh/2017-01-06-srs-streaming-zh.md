@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 简单实时服务器（SRS）用于RTMP流媒体
 translated: true
+type: post
 ---
 
 让我们深入了解如何使用 Simple Realtime Server (SRS) 部署边缘服务器进行 RTMP 流媒体传输，重点是理解和有效配置它，包括 `rtmp.conf` 文件。SRS 是一个功能强大、高性能的媒体服务器，专为实时流媒体协议如 RTMP、HLS 和 HTTP-FLV 设计。它特别适用于需要可扩展性的场景，例如内容分发网络（CDNs），边缘服务器可以高效地将流分发给许多客户端，同时从源服务器获取内容。我将一步一步地带你完成这个过程，解释边缘部署的概念，并说明如何处理 `rtmp.conf` 等配置。

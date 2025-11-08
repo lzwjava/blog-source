@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: استخدام Ruby on Rails
 translated: true
+type: post
 ---
 
 خلال فترة عملي في ShowMeBug، ساهمت في مشروع تكامل WeChat للشركات. وهذا يتضمن تكامل ShowMeBug مع WeChat للشركات، مما يوفر وصولًا سلسًا إلى أدوات المقابلة الفنية داخل بيئة WeChat للشركات. استخدمت تقنيات مثل Ruby، Ruby on Rails، PostgreSQL، و WeChat SDK لإنشاء تجربة مستخدم سلسة للمقابلة والمتقدمين.

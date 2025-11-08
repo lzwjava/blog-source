@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Railway Station Volunteer
 translated: false
+type: post
 ---
 
 This post was originally written in Chinese and published on Qzone.

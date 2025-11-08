@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Verfolgung unserer Haushaltsfinanzen
 translated: true
+type: post
 ---
 
 Kürzlich habe ich ein Markdown-Dokument erstellt, um die finanziellen Transaktionen unseres Hauses zu verfolgen.

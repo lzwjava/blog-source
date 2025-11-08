@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: The End of the Housing Dream
 translated: false
+type: post
 ---
 
 The reality of the housing market hit home when my family's investment in Guangzhou turned bitter. We purchased a house for 2 million CNY in 2022, only to watch its value plummet to 1 million CNY by 2024. This isn't just a story of numbers – it's a reflection of a shifting global paradigm.

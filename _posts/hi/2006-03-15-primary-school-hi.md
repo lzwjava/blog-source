@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: मेरी प्राथमिक विद्यालय की यादें
 translated: true
+type: post
 ---
 
 इस पोस्ट को जुलाई 2025 में लिखा गया था।

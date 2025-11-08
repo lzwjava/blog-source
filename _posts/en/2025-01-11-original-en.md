@@ -6,9 +6,8 @@ lang: en
 layout: post
 title: Original Posts
 translated: false
+type: post
 ---
-
-
 
 These are my original blog posts.
 

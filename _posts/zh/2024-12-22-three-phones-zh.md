@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 使用三部手机
 translated: true
+type: post
 ---
 
 - 使用 iPhone 作为主力手机，最好是最新款，或者至少是近三年的型号。

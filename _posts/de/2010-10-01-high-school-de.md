@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 九月的歌：高中随笔
 translated: true
+type: post
 ---
 
 **Vorwort:** Dieser Essay hatte bereits eine grobe Struktur, als ich am 30. September auf dem Heimweg im Schulbus saß. Zu Hause angekommen, habe ich sofort die klaren Gedanken in meinem Kopf mit dem Computer niedergeschrieben. Dauer: 10 Stunden. Das Schreiben war etwas langsam, aber ich habe viel gelernt, auch wenn einige Teile persönliche Freuden und Sorgen sind (um es unhöflich auszudrücken: Beschwerden), aber der Hauptteil ist mein seelischer Weg in diesem Monat. Gesamtzahl der Wörter: 8999. Nach dem Schreiben: Mein erstes großes Werk. Frei heraus zu sprechen, war befreiend. Bei einer normalen Lesegeschwindigkeit von 1500 Wörtern pro Minute benötigen Sie, lieber Besucher, nur 5,5 Minuten (natürlich, wenn Sie viel Zeit haben, lesen Sie langsamer). Ich bin unendlich dankbar, lasst uns gemeinsam wachsen.

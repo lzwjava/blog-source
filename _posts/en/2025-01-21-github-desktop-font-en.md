@@ -9,8 +9,6 @@ translated: false
 type: post
 ---
 
-
-
 GitHub Desktop version 3.4.13 (arm64) exhibits font rendering issues in the text diff panel for specific languages. The problematic languages include:
 
 - Chinese (both Simplified and Traditional)
@@ -28,4 +26,3 @@ However, the following languages render correctly:
 ![](assets/images/github-desktop/hi.png)
 
 ![](assets/images/github-desktop/ja.png)
-

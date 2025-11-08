@@ -7,6 +7,7 @@ layout: post
 title: iOS-Apps, die ich verwendet habe - Tabellenversion
 translated: true
 translation: false
+type: post
 ---
 
 | App Name | Bundle Identifier | Version |

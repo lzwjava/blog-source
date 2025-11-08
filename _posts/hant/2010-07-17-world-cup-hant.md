@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 世界盃昨天
 translated: true
+type: post
 ---
 
 這篇文章最初是用中文寫成並在QZone發表的。

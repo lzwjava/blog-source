@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 中国经济的现状与未来
 translated: true
+type: post
 ---
 
 Die Überkapazitäten im Bauingenieurwesen haben auch zu einem Überangebot in verwandten Branchen wie Stahl, Baumaterialien, Innenausstattungsmaterialien und deren vorgelagerten Industrien wie Kohle, Öl und Chemie geführt. Da der Bauingenieursektor derzeit nicht mehr florierend ist und schrittweise Kapazitäten abbaut, wird dies in den kommenden Jahren zwangsläufig zu einer erheblichen Arbeitslosigkeit führen.

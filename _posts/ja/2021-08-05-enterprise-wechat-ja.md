@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 企業微信と連携する
 translated: true
+type: post
 ---
 
 ShowMeBugに在籍中、私はEnterprise WeChat統合プロジェクトに貢献しました。これは、ShowMeBugをEnterprise WeChatと統合し、Enterprise WeChatエコシステム内で技術面接ツールへのシームレスなアクセスを提供することを目的としていました。Ruby、Ruby on Rails、PostgreSQL、およびWeChat SDKを利用して、インタビュアーと候補者の両方にとってスムーズなユーザー体験を作成しました。

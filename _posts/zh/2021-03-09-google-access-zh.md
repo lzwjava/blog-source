@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 如何访问谷歌
 translated: true
+type: post
 ---
 
 这篇教程最初是用中文写的。

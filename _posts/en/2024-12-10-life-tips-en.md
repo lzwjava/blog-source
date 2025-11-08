@@ -9,6 +9,7 @@ prompt: Do not translate specific items such as project names, company names, or
 title: Complete Life Philosophy
 top: 10
 translated: false
+type: post
 ---
 
 ### Table of Contents

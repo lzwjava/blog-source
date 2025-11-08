@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Usando Laravel
 translated: true
+type: post
 ---
 
 Si estás sumergiéndote en el desarrollo web y buscas un framework que sea potente y fácil de aprender, Laravel es tu opción. Es un framework de PHP que ha revolucionado el mundo de los desarrolladores gracias a su sintaxis elegante, características robustas y una comunidad que te respalda. En este blog, te guiaré a través de los conceptos básicos para comenzar con Laravel y te mostraré por qué vale la pena tu tiempo.

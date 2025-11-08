@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Recuerdos de la infancia
 translated: true
+type: post
 ---
 
 Este post fue escrito en julio de 2025.

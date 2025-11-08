@@ -7,6 +7,7 @@ layout: post
 title: Astigmatisme dans l'inversion de la myopie
 top: 10
 translated: true
+type: post
 ---
 
 ## Résumé

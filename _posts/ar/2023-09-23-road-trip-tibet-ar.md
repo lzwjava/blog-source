@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: رحلة على الطريق إلى التبت
 translated: true
+type: post
 ---
 
 من 23 أغسطس 2023 إلى 18 سبتمبر 2023، خضتُ رحلة مدتها حوالي 25 يومًا من غوانغتشو إلى التبت. وصلت إلى لhasa في التبت في 10 سبتمبر 2023. involved traveling via national roads, taking 17 days to reach Lhasa, and the return journey was by highway, which took 8 days.

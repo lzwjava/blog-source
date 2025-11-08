@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 'Fun Live: Wissen Live-Streaming-Plattform'
 translated: true
+type: post
 ---
 
 Dies ist die README.md aus dem GitHub-Projekt [https://github.com/lzwjava/live-server](https://github.com/lzwjava/live-server).

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 轻聊 iOS
 translated: true
+type: post
 ---
 
 这是从 github 项目 [https://github.com/lzwjava/leanchat-ios](https://github.com/lzwjava/leanchat-ios) 的 README.md。

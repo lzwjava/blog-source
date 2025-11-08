@@ -8,6 +8,7 @@ title: 'Natürliche Wiederherstellung der Sehkraft: Das Prinzip des "gerade noch
   Sehens"'
 top: 20
 translated: true
+type: post
 ---
 
 ### Zusammenfassung

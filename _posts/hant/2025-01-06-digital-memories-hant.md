@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 我的早期数字记忆
 translated: true
+type: post
 ---
 
 我出生於1995年，同年7月14日，Windows 95發佈。

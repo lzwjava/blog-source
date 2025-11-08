@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 狀態頁面
 translated: true
+type: post
 ---
 
 我使用代理伺服器作為VPN來訪問互聯網。這些流量數據顯示我是否在線。如果你有我的邀請或需要聯繫我，可以在這裡查看，然後直接發送訊息給我。

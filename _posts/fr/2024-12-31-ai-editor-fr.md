@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Éditeurs de code IA
 translated: true
+type: post
 ---
 
 J'ai testé plusieurs outils d'édition de code basés sur l'IA, notamment GitHub Copilot, Windsurf et Cursor. Voici mes observations :

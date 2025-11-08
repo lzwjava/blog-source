@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 円形グラフィックオーバーフローのGreptimeDBポータル
 translated: true
+type: post
 ---
 
 GitHubの問題を提出しました: https://github.com/GreptimeTeam/docs/issues/1455。タイトルは「GreptimeDB Portal: Large Purple Circular Graphic Exceeds the Viewport Boundaries on Smaller Screens」です。

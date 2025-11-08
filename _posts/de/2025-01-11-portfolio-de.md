@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Portfolio
 translated: true
+type: post
 ---
 
 Die PDF-Datei finden Sie [hier](/assets/resume/Zhiwei.Li.Portfolio.pdf).

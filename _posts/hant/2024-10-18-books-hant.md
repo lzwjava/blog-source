@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 影響我最深的書籍與思想家
 translated: true
+type: post
 ---
 
 以下是一些對我的思維產生深遠影響的書籍和作者，尤其是在個人成長、財務管理和技術領域。

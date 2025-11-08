@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: AI統合を促進するために企業はAIコンテキストを提供すべき
 translated: true
+type: post
 ---
 
 Greptime DBの友人がいて、その製品を既存のシステムに迅速に統合する方法について考えている。

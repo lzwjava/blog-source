@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Implémentation du Mode Sombre sur un Site Web
 translated: true
+type: post
 ---
 
 Implémentation du mode sombre sur mon blog Jekyll.

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Ultra Paygo and Giffgaff
 translated: false
+type: post
 ---
 
 ## Ultra Paygo USA SIM Card

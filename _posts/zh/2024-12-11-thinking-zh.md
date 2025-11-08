@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 元思维框架
 translated: true
+type: post
 ---
 
 ## 思考

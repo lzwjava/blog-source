@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 追踪我们的家庭财务
 translated: true
+type: post
 ---
 
 最近，我创建了一个Markdown文档来记录我们家庭的财务交易。

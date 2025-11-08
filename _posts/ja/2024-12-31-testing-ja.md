@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: テストのタイミング
 translated: true
+type: post
 ---
 
 昨日、Shadowsocks Outlineの自動設定ツールを作成し、それをPythonプロジェクトとして他の人にも使えるようにしようと試みました。`ssconfig`ファイルからShadowsocksのURLをデコードし、`config.yaml`ファイルにShadowsocksプロキシ設定を更新するスクリプトを開発しました。さらに、`gsutil`を使用してクライアント用のサブスクリプションファイルをGoogle Cloud Storageにアップロードする別のスクリプトも作成しました。

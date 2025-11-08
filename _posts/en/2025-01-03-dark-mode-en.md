@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Website Dark Mode Implementation
 translated: false
+type: post
 ---
 
 Dark Mode implementation in my Jekyll blog.

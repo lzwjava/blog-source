@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ChatGPTのネストされたコードブロックに関するバグ
 translated: true
+type: post
 ---
 
 ### 問題の説明

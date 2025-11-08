@@ -7,6 +7,7 @@ layout: post
 title: 'Wang Yin : Le soi-disant succès'
 top: 20
 translated: true
+type: post
 ---
 
 À plusieurs reprises, des personnes, excédées par les moqueries que je subis en ligne, m'ont donné des conseils similaires : « Commence par éliminer ces entreprises traditionnelles de l'internet dont les fondateurs sont déjà âgés. Une fois que tu seras devenu un succès, tu pourras publier n'importe quel article en ligne, et ils te flatteront tous. De plus, dans de nombreux cas, il est tout simplement impossible de faire en sorte que ces gens t'écoutent. Ce n'est qu'en réalisant des résultats tangibles et en dominant le jeu qu'ils se soumettront. »

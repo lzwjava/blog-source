@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Display Proxy Settings Before Running Commands
 translated: false
+type: post
 ---
 
 <div style="text-align: center;">  

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 網站深色模式實施
 translated: true
+type: post
 ---
 
 在我的Jekyll博客中實現暗黑模式。

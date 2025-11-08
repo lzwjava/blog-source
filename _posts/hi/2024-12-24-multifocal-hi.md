@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: बहु-फोकस प्रोग्रेसिव लेंस का उपयोग करके मायोपिया को उलटना
 translated: true
+type: post
 ---
 
 ## प्रिस्क्रिप्शन

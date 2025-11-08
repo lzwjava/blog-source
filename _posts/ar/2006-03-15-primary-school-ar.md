@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: ذكري عن المدرسة الابتدائية
 translated: true
+type: post
 ---
 
 تمت كتابته في يوليو 2025.

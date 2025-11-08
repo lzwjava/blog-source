@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Using Laravel
 translated: false
+type: post
 ---
 
 If you’re diving into web development and want a framework that’s powerful yet easy to pick up, Laravel is your go-to. It’s a PHP framework that’s taken the developer world by storm, thanks to its elegant syntax, robust features, and a community that’s got your back. In this blog, I’ll walk you through the basics of getting started with Laravel and show you why it’s worth your time.
@@ -114,4 +115,3 @@ Need a front-end boost? Use Laravel Breeze or Jetstream. The [official docs](htt
 It’s fast, secure, and saves you from reinventing the wheel. Whether you’re building a blog, an e-commerce site, or an API, Laravel’s tools—like artisan commands, Blade templates, and Eloquent—make life easier.
 
 So, what are you waiting for? Start small, experiment, and soon you’ll be crafting web apps like a seasoned pro. Happy coding!
-

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Javaバックエンドエンジニア：面接質問集
 translated: true
+type: post
 ---
 
 ## プロジェクト関連

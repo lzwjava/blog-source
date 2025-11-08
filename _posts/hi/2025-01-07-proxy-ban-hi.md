@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: जीएफडब्ल्यू, प्रॉक्सी एपीआई, वीपीएन डिटेक्शन
 translated: true
+type: post
 ---
 
 ### विषय-सूची

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Spezielle Einstellungen in iOS
 translated: true
+type: post
 ---
 
 ## App-spezifische Einstellungen

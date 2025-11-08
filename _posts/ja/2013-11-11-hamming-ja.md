@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ハミング符号の問題についてFPを論じる
 translated: true
+type: post
 ---
 
 この記事は元々中国語で書かれ、CSDNに掲載されました。

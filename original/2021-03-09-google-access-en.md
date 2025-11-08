@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: How to Access Google
+type: post
 ---
 
 This post was originally written in Chinese.

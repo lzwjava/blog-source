@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 地點
 translated: true
+type: post
 ---
 
 ### 美國

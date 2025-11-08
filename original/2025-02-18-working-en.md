@@ -58,4 +58,3 @@ type: post
 - Treat corporate work as if you are working on your own projects. Although you need to follow the direction of the team, even when following that direction, there are opportunities to choose different tasks or suggest tasks that you like, as long as they bring value to the project.
 
 - Explore all choices when dealing with IDEs, software, tools, VS Code extensions, different functionalities, and ways of doing things. In the limiting working laptop of big tech or big banks, you can still tweak it for a more enjoyable workstation.
-

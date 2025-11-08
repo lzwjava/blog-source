@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Smart Charging Solutions
 translated: false
+type: post
 ---
 
 ### Table of Contents

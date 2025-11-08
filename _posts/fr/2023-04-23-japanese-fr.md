@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Pourquoi et comment j'apprends le japonais
 translated: true
+type: post
 ---
 
 Il y a deux ans, j'ai appris le japonais pendant deux semaines, puis je l'ai mis de côté pour faire d'autres choses. Maintenant, j'ai recommencé mon voyage pour l'apprendre. Ce que j'ai observé, c'est que cette fois, les choses se passent beaucoup plus facilement. Je peux encore reconnaître certains Katakana et Hiragana. Mon voyage vient juste de commencer, et cette fois, au lieu de suivre des conseils, j'ai utilisé des méthodes uniques pour apprendre. J'apprends en conduisant des voitures. Après avoir terminé le travail, je conduis pendant 4 heures en écoutant des TikTok japonais ou de la musique japonaise. Parce que conduire demande de la patience. Lorsque vous conduisez, vous ne pouvez pas aller plus vite ; vous devez attendre la voiture ou le feu de signalisation devant vous. Conduire peut aussi être ennuyeux, donc il vaut mieux avoir quelque chose à quoi penser. J'ai acheté une télécommande à tenir dans une de mes mains pour pouvoir conduire d'une main et contrôler mon téléphone de l'autre, parfois en faisant défiler pour passer à la vidéo TikTok suivante.

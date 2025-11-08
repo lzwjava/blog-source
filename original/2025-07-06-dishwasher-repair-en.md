@@ -26,4 +26,3 @@ Finally, around 8 PM, it was good. This procedure reminded me of software develo
 {: .centered }  
 ![](assets/images/dishwasher/d2.jpg){: .responsive }  
 *Source: Self-Captured*{: .caption }
-

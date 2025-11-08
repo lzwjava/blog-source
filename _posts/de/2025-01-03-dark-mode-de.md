@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Implementierung des Dunkelmodus auf der Website
 translated: true
+type: post
 ---
 
 Implementierung des Dark Mode in meinem Jekyll-Blog.

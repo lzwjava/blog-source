@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 私のお気に入り購入品
 translated: true
+type: post
 ---
 
 <div align="center"><img src="/assets/images/buys/buys.jpg" width="400px" /><img/></div>

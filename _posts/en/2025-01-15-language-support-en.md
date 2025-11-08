@@ -6,9 +6,8 @@ lang: en
 layout: post
 title: 'Language Support: Fonts and Text-to-Speech'
 translated: false
+type: post
 ---
-
-
 
 My blog now supports nine languages: Japanese (`ja`), Spanish (`es`), Hindi (`hi`), Chinese (`zh`), English (`en`), French (`fr`), German (`de`), Arabic (`ar`), and Traditional Chinese (`hant`). You can find the site at [https://lzwjava.github.io](https://lzwjava.github.io)
 
@@ -109,4 +108,3 @@ Currently, audio is generated for Chinese and English content. To extend support
 ## Summary
 
 Languages differ in two primary aspects: their written representation (shape) and their spoken form (pronunciation). The font selection and text-to-speech configurations address these two aspects, respectively.
-

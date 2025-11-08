@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 建立可擴展應用程式於 Azure
 translated: true
+type: post
 ---
 
 *本篇部落格文章是由 ChatGPT-4o 協助撰寫。*

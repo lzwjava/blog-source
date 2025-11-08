@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Zen and the Art of Machine Learning
+type: post
 usemathjax: true
 ---
 

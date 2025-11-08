@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: EINRICHTEN SIE IHREN PROXY-SERVER
 translated: true
+type: post
 ---
 
 * Um einen Server einzurichten, verwenden Sie den Outline Manager: [https://getoutline.org](https://getoutline.org).

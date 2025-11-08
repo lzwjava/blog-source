@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: El flujo de trabajo es BFS, el agente es DFS
 translated: true
+type: post
 ---
 
 Según Anthropic [^1]:
@@ -31,4 +32,3 @@ Otra consideración es que, en cada paso, la IA debe evaluar qué hacer a contin
 ---
 
 [^1]: Construyendo agentes efectivos, [Anthropic](https://www.anthropic.com/research/building-effective-agents)
-

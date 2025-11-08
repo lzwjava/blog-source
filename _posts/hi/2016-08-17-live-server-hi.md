@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: ज्ञान लाइव ब्रॉडकास्ट प्लेटफॉर्म
 translated: true
+type: post
 ---
 
 यह [https://github.com/lzwjava/live-server](https://github.com/lzwjava/live-server) से GitHub प्रोजेक्ट का README.md है।

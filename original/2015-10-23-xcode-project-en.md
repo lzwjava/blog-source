@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Understanding Xcode Project Files
 translated: false
+type: post
 ---
 
 If you’ve ever peeked under the hood of an Xcode project, you’ve likely encountered a `.pbxproj` file—a cryptic, structured text file that defines how your app or plugin is built. Today, we’re diving into an example of such a file from a project called "Reveal-In-GitHub," a handy Xcode plugin. Don’t worry—we won’t dissect every line (that would be overwhelming!). Instead, we’ll explore the key concepts and patterns that make this file tick, giving you a solid foundation to understand any Xcode project file.
@@ -78,4 +79,3 @@ From the file names—`RIGGitRepo`, `RIGPlugin`, `RIGSettingWindowController`—
 Understanding a `.pbxproj` file isn’t just trivia—it’s practical. If you’re troubleshooting a build error, adding a new file, or scripting automation, you’ll need to know what’s going on here. Plus, seeing how a real project like Reveal-In-GitHub is structured can inspire your own work.
 
 Next time you open Xcode, remember: behind that sleek interface lies a `.pbxproj` file, quietly orchestrating the magic. It’s not as scary as it looks—once you spot the patterns, it’s just a well-organized recipe for your app.
-

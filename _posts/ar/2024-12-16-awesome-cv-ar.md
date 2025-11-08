@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: استخدام Awesome-CV لإنشاء سيرة ذاتية احترافية
 translated: true
+type: post
 ---
 
 ### مقدمة

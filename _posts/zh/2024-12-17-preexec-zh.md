@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 运行命令前显示代理设置
 translated: true
+type: post
 ---
 
 <div style="text-align: center;">  

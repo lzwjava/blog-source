@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Aplicación de Tiempo en Vivo
 translated: true
+type: post
 ---
 
 Este es el README.md del proyecto de github [https://github.com/lzwjava/live-wxapp](https://github.com/lzwjava/live-wxapp).

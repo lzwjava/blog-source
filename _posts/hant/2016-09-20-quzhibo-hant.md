@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 趣直播：首個知識直播平台
 translated: true
+type: post
 ---
 
 趣直播，我們的產品要發布了。21歲的我，第二個創業項目發布了。

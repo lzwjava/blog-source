@@ -9,6 +9,7 @@ title: 'LeanChat iOS
 
   ياسم لينت شات أي أو إس'
 translated: true
+type: post
 ---
 
 هذا هو README.md من مشروع github [https://github.com/lzwjava/leanchat-ios](https://github.com/lzwjava/leancloud-ios).

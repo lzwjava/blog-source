@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Cómo ver YouTube en la TV
 translated: true
+type: post
 ---
 
 Aquí asumimos que sabemos cómo acceder a Internet de manera científica, entonces, ¿cómo ver YouTube en la televisión? Configurar el router puede ser un poco complicado. Aquí utilizamos una aplicación para facilitarlo.

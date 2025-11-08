@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 完全编程哲学
 translated: true
+type: post
 ---
 
 ### 目录

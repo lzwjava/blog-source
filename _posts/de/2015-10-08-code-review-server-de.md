@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Code-Review-Server
 translated: true
+type: post
 ---
 
 Das ist die README.md von einem GitHub-Projekt [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server).

@@ -7,6 +7,7 @@ layout: post
 title: 自然な視力回復：「かろうじてクリア」の原則
 top: 20
 translated: true
+type: post
 ---
 
 ### 概要

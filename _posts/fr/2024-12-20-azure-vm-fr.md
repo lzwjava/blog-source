@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Configuration d'un Serveur Azure
 translated: true
+type: post
 ---
 
 Configurer un serveur sur Microsoft Azure et le configurer pour ouvrir des ports spécifiques est essentiel pour diverses applications, y compris l'hébergement de services, les proxys, et bien plus encore. Ce guide vous expliquera étape par étape comment créer une machine virtuelle (VM) sur Azure et configurer le pare-feu pour ouvrir le port 1080.

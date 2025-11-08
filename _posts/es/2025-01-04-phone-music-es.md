@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Búsqueda en el Teléfono y Música
 translated: true
+type: post
 ---
 
 ### Búsqueda de Teléfonos

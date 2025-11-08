@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: LZ相册
 translated: true
+type: post
 ---
 
 这是来自 GitHub 项目 [https://github.com/lzwjava/LZAlbum](https://github.com/lzwjava/LZAlbum) 的 README.md。

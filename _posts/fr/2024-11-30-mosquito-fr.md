@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Les moustiques disparaissent lorsque la température baisse
 translated: true
+type: post
 ---
 
 Hier soir, j'avais l'intention d'aller dormir. Au moment où je voulais fermer la moustiquaire, j'ai remarqué qu'il n'y avait plus aucun moustique dans ma chambre. L'hiver approche. Aujourd'hui, nous sommes le 30 novembre 2024. Je suis à Guangzhou, en Chine. La température à Guangzhou est comprise entre 13 et 20°C.

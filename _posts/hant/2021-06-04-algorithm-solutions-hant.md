@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 演算法問題解答
 translated: true
+type: post
 ---
 
 這裡是來自 GitHub 項目 [https://github.com/lzwjava/algorithm-solutions](https://github.com/lzwjava/algorithm-solutions) 的 README.md。

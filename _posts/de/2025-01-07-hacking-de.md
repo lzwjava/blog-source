@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Hacking
 translated: true
+type: post
 ---
 
 Es gibt verschiedene Möglichkeiten zu hacken, und dieses Thema ist sehr interessant. Als Hobby-White-Hat-Hacker finde ich, dass es in diesem Bereich viel Wissen zu erlernen gibt. Hier werde ich einige Methoden festhalten, die ich erkundet habe.
@@ -49,4 +50,3 @@ Es ist wichtig, die Grenzen und Randfälle einer API oder eines Servers zu teste
 ## Admin-Panels
 
 Manchmal sind Admin- oder interne Panels nicht ausreichend geschützt. Es lohnt sich, den Zugriff auf Pfade wie `/admin` zu versuchen oder Subdomains wie `admin.xx.com` zu besuchen, um zu überprüfen, ob diese Bereiche ordnungsgemäß gesichert sind.
-

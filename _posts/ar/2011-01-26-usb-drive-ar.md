@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تخصيص قارطة USB بكلمة وأيقونة
 translated: true
+type: post
 ---
 
 هذه المنشورة كتبت في البداية بالصينية ونشرت على Qzone.

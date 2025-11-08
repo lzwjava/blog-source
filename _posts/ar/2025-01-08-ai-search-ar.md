@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: حالة استخدام البحث في ChatGPT
 translated: true
+type: post
 ---
 
 **Zhiwei:**  

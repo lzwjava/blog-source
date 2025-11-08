@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 血圧計、聴診器、視力検査表
 translated: true
+type: post
 ---
 
 <div style="text-align: center;">

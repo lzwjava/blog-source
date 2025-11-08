@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: كأس العالم أمس
 translated: true
+type: post
 ---
 
 هذا المقال كتب أصلا باللغة الصينية ونشر على قزوم.

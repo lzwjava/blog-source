@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 好奇課程
 translated: true
+type: post
 ---
 
 這是來自 GitHub 項目 [https://github.com/lzwjava/curiosity-courses](https://github.com/lzwjava/curiosity-courses) 的 README.md。

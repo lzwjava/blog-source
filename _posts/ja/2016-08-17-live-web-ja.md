@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ライブ ウェブ
 translated: true
+type: post
 ---
 
 これは GitHub プロジェクト [https://github.com/lzwjava/live-web](https://github.com/lzwjava/live-web) の README.md です。

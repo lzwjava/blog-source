@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: الاشتراكات بسعر ثابت منقضية
 translated: true
+type: post
 ---
 
 ### قضية التسعير المرن في خدمات الاشتراك

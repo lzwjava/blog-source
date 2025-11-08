@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Une Visite à une Usine de Fabrication de Téléphones
 translated: true
+type: post
 ---
 
 Ce billet a été initialement rédigé en chinois et publié sur Qzone.

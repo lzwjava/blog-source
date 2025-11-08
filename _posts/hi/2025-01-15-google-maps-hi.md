@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: चीन में Google Maps का उपयोग
 translated: true
+type: post
 ---
 
 जबकि चीन में Google Maps का डेटा AMaps या Apple Maps (जो AMaps के डेटा पर भी निर्भर करता है) जितना अद्यतन नहीं हो सकता है, यह अभी भी एक उपयोगी विकल्प बना हुआ है, खासकर नेविगेशन के लिए मध्यवर्ती स्टॉप सेट करने जैसी सुविधाओं के साथ।

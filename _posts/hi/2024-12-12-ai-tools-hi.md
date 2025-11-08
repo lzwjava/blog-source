@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: एआई उपकरण
 translated: true
+type: post
 ---
 
 यहाँ कुछ AI उपकरण हैं जिन्हें मैंने उपयोग किया है, स्पष्टता के लिए वर्गीकृत:

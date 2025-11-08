@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 程式碼審查伺服器
 translated: true
+type: post
 ---
 
 這是來自 GitHub 項目 [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server) 的 README.md。

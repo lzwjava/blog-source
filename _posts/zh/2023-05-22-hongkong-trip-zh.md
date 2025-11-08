@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 香港澳门之旅
 translated: true
+type: post
 ---
 
 - 通过Qunar应用预订了沙田的丽嘉河畔酒店2晚（1286元人民币）。

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 宝宝游戏、健康人工智能、篮球动作
 translated: true
+type: post
 ---
 
 ### 目录

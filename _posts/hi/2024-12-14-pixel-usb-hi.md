@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: पिक्सेल यूएसबी, आईओएस डेवलपर टूल्स, स्वाइप टाइपिंग
 translated: true
+type: post
 ---
 
 ### विषयसूची

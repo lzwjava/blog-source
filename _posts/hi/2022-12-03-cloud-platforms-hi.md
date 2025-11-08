@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: कुछ वैश्विक क्लाउड प्लेटफॉर्म
 translated: true
+type: post
 ---
 
 <div align="center"><img src="/assets/images/cloud/platform.jpg" width="400px"/><img/></div>

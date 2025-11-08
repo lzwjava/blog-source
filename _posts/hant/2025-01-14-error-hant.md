@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 404 頁面
 translated: true
+type: post
 ---
 
 {: .centered }

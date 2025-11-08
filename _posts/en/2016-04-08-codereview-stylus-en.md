@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Styling a Code Review Platform with Stylus
 translated: false
+type: post
 ---
 
 When building a modern web application, styling is more than just making things look good—it’s about creating an intuitive, responsive, and engaging user experience. I recently explored the Stylus-based stylesheet of a Vue.js-powered code review platform, and its CSS architecture is a treasure trove of techniques worth unpacking. Let’s dive into how this app uses Stylus to craft its polished UI, from layout structuring to hover effects, all while keeping the code maintainable and scalable.

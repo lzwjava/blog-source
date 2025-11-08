@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Publicaciones Originales
 translated: true
+type: post
 ---
 
 Estos son mis publicaciones originales en el blog.

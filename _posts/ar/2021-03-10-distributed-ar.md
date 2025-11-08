@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: '## مقدمة إلى الحوسبة السحابية والبيانات الضخمة'
 translated: true
+type: post
 ---
 
 تحتوي هذه الدورة على المواضيع التالية:

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 'Diplôme d''associé : Progrès et réflexion'
 translated: true
+type: post
 ---
 
 Mis à jour en novembre 2025.

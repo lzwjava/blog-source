@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 定額制サブスクリプションは古い
 translated: true
+type: post
 ---
 
 ### フレキシブルな価格設定のメリットを検討する

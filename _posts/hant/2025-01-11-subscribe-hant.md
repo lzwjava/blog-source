@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 訂閱
 translated: true
+type: post
 ---
 
 透過訂閱RSS源、音頻源或在X（Twitter）上關注我，獲取最新博客文章更新。  

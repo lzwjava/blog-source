@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Almohada Reclinable
 translated: true
+type: post
 ---
 
 Recomiendo esta almohada reclinable. La compré en marzo de 2023. Me costó alrededor de 270 CNY. Hoy, 5 de enero de 2025, se vende por alrededor de 240 CNY en jd.com. La he estado usando durante casi dos años. Esto es genial porque las cosas que sigues usando después de un año son las que realmente necesitas.
@@ -34,4 +35,3 @@ Aún hay áreas de mejora en este tipo de almohada reclinable. Una característi
 
 {: .centered }
 ![](assets/images/pillow/diy.jpg){: .responsive }
-

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Hola, Beijing
 translated: true
+type: post
 ---
 
 Este post se escribió originalmente en chino y se publicó en Qzone.

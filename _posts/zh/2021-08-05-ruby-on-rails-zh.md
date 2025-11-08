@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 使用 Ruby on Rails
 translated: true
+type: post
 ---
 
 在 ShowMeBug 的工作期间，我参与了企业微信集成项目。这涉及将 ShowMeBug 集成到企业微信中，提供在企业微信生态系统中无缝访问技术面试工具。我使用了 Ruby、Ruby on Rails、PostgreSQL 和微信 SDK 等技术，为面试官和候选人创建了流畅的用户体验。

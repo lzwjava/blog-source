@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: استكشاف WebSocket
 translated: true
+type: post
 ---
 
 *تمت مساعدة هذه المدونة بواسطة ChatGPT-4o.*

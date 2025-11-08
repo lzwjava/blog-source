@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 北京林业大学登录系统分析
 translated: true
+type: post
 ---
 
 这篇文章最初在中文中撰写并发布在[CSDN](https://blog.csdn.net/lzw_java/article/details/18049581)上。

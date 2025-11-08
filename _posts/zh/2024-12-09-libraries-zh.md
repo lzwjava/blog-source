@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 使用库时要考虑升级问题
 translated: true
+type: post
 ---
 
 我在创业项目 [Fun Live](https://github.com/lzwjava/live-server) 中使用了 CodeIgniter。虽然这个项目已经结束了，但几年后，我想重新启动它来纪念这段经历。然而，在2016年时，我使用的是 CodeIgniter 3，而现在最新版本已经是 CodeIgniter 4。

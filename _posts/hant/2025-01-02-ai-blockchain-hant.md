@@ -7,6 +7,7 @@ layout: post
 title: 如何在人工智能与区块链时代活得精彩
 top: 10
 translated: true
+type: post
 ---
 
 既然我們有了大型語言模型（LLMs），現在寫博客還有用嗎？如果LLMs包含了你想要分享的信息，而且人們更多地使用LLMs，我們還需要提供自己的信息嗎？

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: À qui confier le projet, à qui revient l'argent ?
 translated: true
+type: post
 ---
 
 Qui doit réaliser le projet, à qui attribuer le poste, à qui revient l'argent ? Toutes ces questions sont similaires. Après avoir mené des dizaines de projets, collaboré avec des dizaines de designers et d'ingénieurs à temps partiel, tenté de connecter plus d'une centaine de projets, et après plus de deux ans de relations avec les amis avec qui j'ai collaboré, j'ai finalement compris comment mieux gérer cette situation. Je n'ai pas beaucoup de projets en cours, rien d'extraordinaire, mais la réflexion et le bilan sont très importants pour essayer de faire les choses encore mieux.

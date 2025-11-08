@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 在ChatGPT中使用搜索的案例
 translated: true
+type: post
 ---
 
 **Zhiwei:**  

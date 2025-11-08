@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 邱老师
 translated: true
+type: post
 ---
 
 这篇文章最初是用中文写在QQ空间并发布的。

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Shallow Talk On The Secrets Of Life
 translated: true
+type: post
 ---
 
 I'd like to share some thoughts on the secrets of life. It wasn't until after leaving school and working in society for a few years that I came to realize the secret of learning. I discovered it was actually a secret of life itself. Let me tell you about my journey of discovery.

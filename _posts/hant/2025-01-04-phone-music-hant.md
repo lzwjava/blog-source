@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 手機搜尋與音樂
 translated: true
+type: post
 ---
 
 ### 手機搜尋

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: App de Reconocimiento de Flores
 translated: true
+type: post
 ---
 
 Este es el README.md del proyecto de github [https://github.com/lzwjava/flower-recognition](https://github.com/lzwjava/flower-recognition).

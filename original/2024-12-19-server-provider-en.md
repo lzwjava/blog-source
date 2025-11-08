@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Long-Term Thinking in Cloud Server Selection
+type: post
 ---
 
 Outline Manager provides several server options, including Google Cloud, DigitalOcean, AWS Lightsail, and others.

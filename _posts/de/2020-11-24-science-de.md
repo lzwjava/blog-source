@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Wissenschaftlich handeln
 translated: true
+type: post
 ---
 
 Wir haben ein Ziel vor Augen, und wir möchten es auf wissenschaftliche Weise erreichen. Wie können wir dieses Ziel schnell und effektiv erreichen? Der wissenschaftliche Geist kann auf alle Aspekte des Lebens angewendet werden, nicht nur auf den Bereich der Wissenschaft. Was ist der wissenschaftliche Geist? Es ist das Hinterfragen, das Nachdenken, das Bemühen, die Wahrheit und die Tatsachen zu verstehen, herauszufinden, warum die Dinge so sind, wie sie sind, und zu klären, wie wir handeln sollten, damit das gewünschte Ergebnis eintritt.

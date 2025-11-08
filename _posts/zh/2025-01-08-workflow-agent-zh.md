@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Workflow 是 BFS，Agent 是 DFS
 translated: true
+type: post
 ---
 
 根据 Anthropic 的定义 [^1]：
@@ -31,4 +32,3 @@ translated: true
 ---
 
 [^1]: Building effective agents, [Anthropic](https://www.anthropic.com/research/building-effective-agents)
-

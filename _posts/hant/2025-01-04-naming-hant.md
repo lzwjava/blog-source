@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 人工智能翻譯輸出中的名稱
 translated: true
+type: post
 ---
 
 在我的文章中，我經常提到Yin Wang。Mistral將其翻譯成中文為「王胤」，這讓我感到沮喪。我更希望它被翻譯為「王垠」。

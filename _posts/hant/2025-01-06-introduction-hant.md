@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 志偉嘅介紹
 translated: true
+type: post
 ---
 
 你可以下載我以 LaTeX 編寫的簡介 PDF 版本，[此處](/assets/resume/Zhiwei.Li.Introduction.EN.pdf)為英文版，[此處](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf)為中文版。

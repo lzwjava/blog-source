@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 原始发帖
 translated: true
+type: post
 ---
 
 这些是我的原创博客文章。

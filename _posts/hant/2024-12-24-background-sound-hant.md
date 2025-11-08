@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 偏好有背景聲音
 translated: true
+type: post
 ---
 
 * 偏好有背景聲音，無論正在做什麼。

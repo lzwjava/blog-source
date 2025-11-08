@@ -6,8 +6,8 @@ lang: en
 layout: post
 title: 'The Case of the Hairy Tailpipe: A Car Repair Mystery'
 translated: false
+type: post
 ---
-
 
 In March 2018, I bought a second-hand Chevrolet Sail 2011. However, I crashed it around June 2018. I sold it to another local person. After several years, I bought it back.
 
@@ -29,4 +29,3 @@ The next day, around noon, the mechanic informed me that the problem was resolve
 The mechanic removed the hair and replaced some components.
 
 This experience was a memorable lesson in the importance of identifying the root cause of a problem, a principle that applies equally to car repair and programming.
-

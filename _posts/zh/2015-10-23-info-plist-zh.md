@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 解析 Info.plist 文件
 translated: true
+type: post
 ---
 
 如果你曾经从事过 macOS 或 iOS 开发，很可能遇到过一个 `Info.plist` 文件。这个基于 XML 的文件是任何 Apple 应用程序或插件的关键部分，就像一本护照，告诉系统它是谁，它做什么，以及它应该如何行为。今天，我们将探讨来自 "Reveal-In-GitHub" 的 `Info.plist`，这是我们在之前的文章中介绍的一个 Xcode 插件。我们不会逐行分析，而是专注于定义其目的和功能的核心概念和模式。

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 空気フライヤーで料理
 translated: true
+type: post
 ---
 
 最近、エアフライヤーが私のお気に入りの調理器具になりました。MideaのエアフライヤーKZE5004を約126元で購入しました。  

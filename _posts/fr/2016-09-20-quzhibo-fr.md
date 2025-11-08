@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: '趣直播 : La première plateforme de diffusion en direct de connaissances'
 translated: true
+type: post
 ---
 
 趣直播, notre produit est sur le point d'être lancé. À 21 ans, mon deuxième projet entrepreneurial est publié.

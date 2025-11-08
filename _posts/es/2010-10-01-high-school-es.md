@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: 'Canciones de septiembre: Ensayos de la escuela secundaria'
 translated: true
+type: post
 ---
 
 **Prólogo:** Este ensayo ya tenía una idea general de escritura durante el viaje en autobús escolar de regreso a casa el 30 de septiembre. Al llegar a casa, inmediatamente usé la computadora para plasmar los recuerdos claros que tenía en mente. Duración: 10 horas, la escritura fue un poco lenta, pero la ganancia fue grande, aunque algunas partes son alegrías y tristezas personales (para ser franco, quejas), pero el cuerpo principal es mi viaje emocional de este mes. Total de palabras: 8999. Reflexión posterior a la escritura: la primera gran obra de mi vida. Hablar libremente, qué placer. A una velocidad de lectura normal de 1500 palabras por minuto, solo le tomará a usted, visitante, 5 minutos y medio (por supuesto, si tiene tiempo, léalo más despacio), infinitamente agradecido, permitámonos mejorar mutuamente.

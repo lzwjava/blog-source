@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Contact
 translated: true
+type: post
 ---
 
 Bonjour, je suis Zhiwei Li. Vous pouvez trouver une brève présentation [ici](/introduction-en). Les huit boutons de mon site mettent en avant ce qui m'intéresse le plus ; je vous encourage à les explorer.

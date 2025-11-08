@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: 'संपूर्ण प्रोग्रामिंग दर्शन: सिद्धांत, प्रथाएँ और पेशेवर विकास'
 translated: true
+type: post
 ---
 
 ### विषय सूची

@@ -7,6 +7,7 @@ layout: post
 title: 清算公司的提議
 top: 10
 translated: true
+type: post
 ---
 
 致股東信：

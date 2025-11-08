@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Controles de Contenido de Idioma en Quora
 translated: true
+type: post
 ---
 
 Quora es conocido por su amplia colección de contenido generado por usuarios, ofreciendo respuestas a una gran variedad de preguntas en diversos campos. Una característica que destaca es su control de contenido en diferentes idiomas, que permite a los usuarios personalizar su experiencia en la plataforma seleccionando su idioma preferido.

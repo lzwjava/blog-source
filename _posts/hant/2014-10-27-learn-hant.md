@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 透過實踐學習
 translated: true
+type: post
 ---
 
 今天我們來談「Learn By Doing」。這件事情太重要了。學習很重要。而學習如何學習的重要性更是不言而喻。我發現要去創造東西，做中學學中做是最好的。比如我要學會Android開發，就真要去實踐Android開發，做一個又一個有挑戰性的項目。

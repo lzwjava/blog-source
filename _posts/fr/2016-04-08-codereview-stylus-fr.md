@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Styliser une plateforme de révision de code avec Stylus
 translated: true
+type: post
 ---
 
 Lors de la construction d'une application web moderne, le style ne se limite pas à rendre les choses jolies—il s'agit de créer une expérience utilisateur intuitive, réactive et engageante. J'ai récemment exploré la feuille de style basée sur Stylus d'une plateforme de révision de code alimentée par Vue.js, et son architecture CSS est un véritable trésor de techniques à déballer. Plongeons dans la manière dont cette application utilise Stylus pour façonner son interface utilisateur soignée, de la structuration de la mise en page aux effets de survol, tout en gardant le code maintenable et évolutif.

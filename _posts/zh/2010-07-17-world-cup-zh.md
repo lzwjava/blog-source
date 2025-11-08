@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 昨天的世界杯
 translated: true
+type: post
 ---
 
 这篇文章最初用汉语撰写并发表在Qzone。

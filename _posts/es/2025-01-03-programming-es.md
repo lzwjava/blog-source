@@ -7,6 +7,7 @@ layout: post
 title: 'Filosofía Completa de la Programación: Principios, Prácticas y Crecimiento
   Profesional'
 translated: true
+type: post
 ---
 
 ### Tabla de Contenidos

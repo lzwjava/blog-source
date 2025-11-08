@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Complete Programming Philosophy
 translated: false
+type: post
 ---
 
 ### Table of Contents

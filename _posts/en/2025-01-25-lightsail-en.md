@@ -9,7 +9,6 @@ translated: false
 type: post
 ---
 
-
 Below is a policy that grants the necessary permissions for managing Lightsail instances:
 
 ```json

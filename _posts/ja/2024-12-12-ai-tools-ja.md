@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: AIツール
 translated: true
+type: post
 ---
 
 以下は、私が使用したAIツールの一覧です。分類していますので、ご覧ください。

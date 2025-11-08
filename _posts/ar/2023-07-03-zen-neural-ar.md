@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: الزن وفن تعلم الآلة
 translated: true
+type: post
 usemathjax: true
 ---
 

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: قاتِل الوصلات
 translated: true
+type: post
 ---
 
 هذا هو README.md من مشروع github [https://github.com/lzwjava/TabsKiller](https://github.com/lzwjava/TabsKiller).

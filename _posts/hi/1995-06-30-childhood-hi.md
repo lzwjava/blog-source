@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: बचपन की यादें
 translated: true
+type: post
 ---
 
 यह पोस्ट जुलाई 2025 में लिखा गया था।

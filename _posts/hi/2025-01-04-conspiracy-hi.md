@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: साजिश
 translated: true
+type: post
 ---
 
 यिन वांग के निबंध, [यिन वांग: जीवन, ब्रह्मांड और हर चीज का अंतिम उत्तर](https://lzwjava.github.io/answers-en) और उनके पिछले बयानों के अनुसार, ऐसा लगता है कि पहले भी कई षड्यंत्रकारी रहे हैं।

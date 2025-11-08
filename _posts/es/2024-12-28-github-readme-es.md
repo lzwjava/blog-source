@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Introducción al Readme de GitHub
 translated: true
+type: post
 ---
 
 | proyecto | lenguaje | commits | proyecto | lenguaje | commits |

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 火车站志愿者
 translated: true
+type: post
 ---
 
 这篇帖子最初是用中文写在QQ空间上发布的。

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 副學士：進展與反思
 translated: true
+type: post
 ---
 
 2025 年 11 月更新。

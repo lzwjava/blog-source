@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: 'Photoroom: Background Removal App'
+type: post
 ---
 
 As the title suggests, Photoroom is an excellent background removal app. Unlike Snapseed or Darkroom, which limit this feature in their free versions, Photoroom offers seamless background removal, making it a great choice for quick and easy editing.

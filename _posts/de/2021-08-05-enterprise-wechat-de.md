@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Unternehmenswechat-Integration
 translated: true
+type: post
 ---
 
 Während meiner Zeit bei ShowMeBug habe ich am Projekt zur Integration von Enterprise WeChat mitgewirkt. Dies umfasste die Integration von ShowMeBug mit Enterprise WeChat, wodurch ein nahtloser Zugriff auf technische Interview-Tools innerhalb des Enterprise WeChat-Ökosystems ermöglicht wurde. Ich nutzte Technologien wie Ruby, Ruby on Rails, PostgreSQL und das WeChat SDK, um sowohl für Interviewer als auch für Kandidaten ein reibungsloses Benutzererlebnis zu schaffen.

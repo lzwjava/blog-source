@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: دائرة تدفق الرسوم البيانية في بوابة GreptimeDB
 translated: true
+type: post
 ---
 
 أقدمت مشكلة على GitHub، [https://github.com/GreptimeTeam/docs/issues/1455](https://github.com/GreptimeTeam/docs/issues/1455)، بعنوان "GreptimeDB Portal: Large Purple Circular Graphic Exceeds the Viewport Boundaries on Smaller Screens."

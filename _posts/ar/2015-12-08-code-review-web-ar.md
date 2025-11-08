@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: مراجعة الكود على الإنترنت
 translated: true
+type: post
 ---
 
 هذا هو ملف README.md لمشروع جيت هاب [https://github.com/lzwjava/code-review-web](https://github.com/lzwjava/code-review-web).

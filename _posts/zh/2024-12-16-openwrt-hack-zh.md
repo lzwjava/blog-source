@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 使用 OpenClash 和 Shadowsocks 增强 OpenWRT
 translated: true
+type: post
 ---
 
 ### 更新软件包列表

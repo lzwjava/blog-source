@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 免責聲明
 translated: true
+type: post
 ---
 
 ## 翻譯

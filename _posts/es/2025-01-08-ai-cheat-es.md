@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Enfatiza el Juicio sobre Preocuparte por el Engaño de la IA
 translated: true
+type: post
 ---
 
 - El engaño con IA es omnipresente y, probablemente, imposible de eliminar por completo.
@@ -17,4 +18,3 @@ translated: true
 - En lugar de preocuparnos por el engaño con IA, deberíamos ser más ambiciosos sobre el futuro y centrarnos en construirlo, sin preocuparnos demasiado por los créditos.
 - El engaño, en última instancia, se reduce a un juicio honesto y moral.
 - En entrevistas y exámenes presenciales, sigue siendo difícil hacer trampa.
-

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 'Le Cas du Pot d''Échappement Poilu : Un Mystère de Réparation Automobile'
 translated: true
+type: post
 ---
 
 En mars 2018, j'ai acheté une Chevrolet Sail 2011 d'occasion. Cependant, je l'ai accidentée vers juin 2018. Je l'ai ensuite vendue à une autre personne locale. Après plusieurs années, je l'ai rachetée.

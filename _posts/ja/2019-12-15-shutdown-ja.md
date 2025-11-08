@@ -7,6 +7,7 @@ layout: post
 title: 清算会社の提案
 top: 10
 translated: true
+type: post
 ---
 
 株主への手紙：

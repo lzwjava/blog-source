@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: पृष्ठभूमि में ध्वनि पसंद करें
 translated: true
+type: post
 ---
 
 * पसंद करें कि आप कुछ भी कर रहे हों, पृष्ठभूमि में आवाज़ ज़रूर हो।  

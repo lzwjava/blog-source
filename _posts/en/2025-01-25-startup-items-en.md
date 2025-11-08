@@ -9,7 +9,6 @@ translated: false
 type: post
 ---
 
-
 To manage applications and processes that launch automatically when you log in to macOS (including macOS 15.2 and later), you can adjust your startup items. Here's how:
 
 ### 1. **Using System Settings (or System Preferences)**

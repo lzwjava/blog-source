@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Solicitud de Retiro Académico
 translated: true
+type: post
 ---
 
 Estimados líderes escolares:

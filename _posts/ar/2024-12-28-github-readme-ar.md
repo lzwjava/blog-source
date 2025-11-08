@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: مقدمة ملف GitHub Readme
 translated: true
+type: post
 ---
 
 | المشروع | اللغة | عدد التغييرات | المشروع | اللغة | عدد التغييرات |

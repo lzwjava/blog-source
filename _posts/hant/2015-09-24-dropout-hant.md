@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 退學申請書
 translated: true
+type: post
 ---
 
 尊敬的校領導：

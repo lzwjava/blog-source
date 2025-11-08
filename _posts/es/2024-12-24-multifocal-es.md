@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Usando Lentes Progresivas Multifocales para Revertir la Miopía
 translated: true
+type: post
 ---
 
 ## Prescripción

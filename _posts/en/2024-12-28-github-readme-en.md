@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: GitHub Readme Introduction
 translated: false
+type: post
 ---
 
 | project | language | commits|project|language|commits|

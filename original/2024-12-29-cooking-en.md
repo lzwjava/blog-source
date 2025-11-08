@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Cooking with an Air Fryer
 translated: false
+type: post
 ---
 
 The air fryer has become my favorite cooking tool recently. I bought the Midea Air Fryer KZE5004 for around 126 CNY.  

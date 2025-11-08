@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Préférer Avoir un Son d'Ambiance
 translated: true
+type: post
 ---
 
 * Préfère avoir un fond sonore, peu importe ce que tu fais.

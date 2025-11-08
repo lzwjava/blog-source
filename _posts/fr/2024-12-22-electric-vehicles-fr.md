@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Véhicules Électriques
 translated: true
+type: post
 ---
 
 ## Neta

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Consejos para Encontrar al Cofundador
 translated: true
+type: post
 ---
 
 - Si tuviera que empezar mi startup de nuevo, ¿cómo encontraría a mi cofundador?

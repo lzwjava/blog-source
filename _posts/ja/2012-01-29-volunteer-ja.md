@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 駅ボランティア
 translated: true
+type: post
 ---
 
 この記事はもともと中国語で書かれ、QQ空間で公開されました。

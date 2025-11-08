@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Neugier Kurse
 translated: true
+type: post
 ---
 
 Dies ist das README.md aus dem GitHub-Projekt [https://github.com/lzwjava/curiosity-courses](https://github.com/lzwjava/curiosity-courses).

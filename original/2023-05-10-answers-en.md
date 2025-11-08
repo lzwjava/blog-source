@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: 'Yin Wang: The Ultimate Answer to Life, the Universe, and Everything'
+type: post
 ---
 
 Forwarded from Yin Wang's Substack. The website is https://yinwang1.substack.com.

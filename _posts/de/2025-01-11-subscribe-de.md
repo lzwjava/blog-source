@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Abonnieren
 translated: true
+type: post
 ---
 
 Bleiben Sie auf dem Laufenden mit meinen neuesten Blogbeiträgen, indem Sie den RSS-Feed, den Audio-Feed abonnieren oder mir auf X (Twitter) folgen.  

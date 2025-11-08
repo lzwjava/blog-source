@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 建立一個 Chrome 擴展
 translated: true
+type: post
 ---
 
 你有沒有曾經打開太多瀏覽器分頁並希望有一個工具來自動管理它們？在這篇部落格文章中，我們將逐步介紹如何創建一個名為「Tabs Killer」的Chrome擴展程序，它會在分頁數量超過用戶定義的限制時自動關閉最舊的分頁。我將分解代碼，解釋其工作原理，並提供見解來幫助你構建自己的Chrome擴展程序。

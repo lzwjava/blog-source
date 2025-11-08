@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Website-Bericht
 translated: true
+type: post
 ---
 
 Kürzlich sprach ich mit einer befreundeten Unternehmerin, die mich um meine Meinung zur Website ihres Unternehmens bat. Nachdem ich mein erstes Feedback formuliert hatte, ließ ich ChatGPT helfen, es zu verfeinern und zu polieren. Unten finden Sie die aktualisierte und verbesserte Version.

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: साइड प्रोजेक्ट्स
 translated: true
+type: post
 ---
 
 ## स्काईबाउंड: गुआंगज़ौ से ल्हासा तक की हवाई यात्रा

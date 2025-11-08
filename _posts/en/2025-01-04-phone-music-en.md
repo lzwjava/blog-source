@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Phone Searching and Music
 translated: false
+type: post
 ---
 
 ### Phone Searching

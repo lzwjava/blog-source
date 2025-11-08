@@ -7,6 +7,7 @@ layout: post
 title: Futuro
 top: 10
 translated: true
+type: post
 ---
 
 * El sueño de tener una casa se ha acabado. No solo en China, sino a nivel global, solo unas pocas ciudades serán la excepción.

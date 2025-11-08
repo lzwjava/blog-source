@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: الحد الأقصى لطول السياق في نماذج اللغة الكبيرة
 translated: true
+type: post
 ---
 
 استخدمت مؤخرًا واجهة برمجة تطبيقات DeepSeek لتوليد رسالة commit، كما هو موضح في [رسائل Git المدعومة بالذكاء الاصطناعي](./gitmessageai-en).

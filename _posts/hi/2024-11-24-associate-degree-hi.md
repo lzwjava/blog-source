@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: 'एसोसिएट डिग्री: प्रगति और प्रतिबिंब'
 translated: true
+type: post
 ---
 
 नवंबर 2025 में अपडेट किया गया।

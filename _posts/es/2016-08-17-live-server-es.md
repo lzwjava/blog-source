@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Plataforma de transmisión en vivo de conocimiento
 translated: true
+type: post
 ---
 
 Este es el README.md del proyecto de GitHub [https://github.com/lzwjava/live-server](https://github.com/lzwjava/live-server).

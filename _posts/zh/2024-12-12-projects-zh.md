@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 个人项目
 translated: true
+type: post
 ---
 
 ## Skybound: 从广州到拉萨的空中奇遇

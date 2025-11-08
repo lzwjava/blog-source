@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 未来の子供たち
 translated: true
+type: post
 ---
 
 2005年、Paul GrahamはYCインキュベーターを設立しました。彼は「採用は時代遅れ」という記事の中で次のように述べています：

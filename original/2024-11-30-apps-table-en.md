@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: iOS Apps I Used - Table Version
 translation: false
+type: post
 ---
 
 | App Name | Bundle Identifier | Version |

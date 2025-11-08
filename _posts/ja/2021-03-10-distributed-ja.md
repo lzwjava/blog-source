@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: クラウドコンピューティングとビッグデータ入門
 translated: true
+type: post
 ---
 
 このレッスンでは以下のトピックを取り上げます：

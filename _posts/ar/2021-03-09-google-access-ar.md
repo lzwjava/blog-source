@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: كيفية الوصول إلى جوجل
 translated: true
+type: post
 ---
 
 نُشِر هذا المنشور أصلاً باللغة الصينية.

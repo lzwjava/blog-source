@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: V2Ray Script
+type: post
 ---
 
 This is a V2Ray script I often use.

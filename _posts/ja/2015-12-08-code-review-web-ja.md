@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: コードレビューウェブ
 translated: true
+type: post
 ---
 
 これは GitHub プロジェクト [https://github.com/lzwjava/code-review-web](https://github.com/lzwjava/code-review-web) の README.md です。

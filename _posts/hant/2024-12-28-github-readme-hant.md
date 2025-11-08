@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: GitHub 自述文件介紹
 translated: true
+type: post
 ---
 
 | 項目 | 語言 | 提交次數 | 項目 | 語言 | 提交次數 |

@@ -7,6 +7,7 @@ layout: post
 title: Aplicaciones de iOS que usé - Versión de tabla
 translated: true
 translation: false
+type: post
 ---
 
 | Nombre de la App | Identificador de Paquete | Versión |

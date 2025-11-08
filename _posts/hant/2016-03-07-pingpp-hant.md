@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 整合 Ping++ SDK 至 CodeIgniter 框架
 translated: true
+type: post
 ---
 
 以下是如何將 **Pingpp** (Ping++) 支付處理 SDK 集成到使用 CodeIgniter 框架的 PHP 應用程式的完整、逐步範例。本指南假設您已經有一個基本的 CodeIgniter 設置，並專注於集成 Pingpp 進行支付處理，例如啟用用戶通過支付寶 PC 直接支付（您可以將其適應其他渠道）。

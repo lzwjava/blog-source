@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: नमस्ते, बीजिंग
 translated: true
+type: post
 ---
 
 इस पोस्ट को मूल रूप से चीनी भाषा में लिखा गया था और Qzone पर प्रकाशित किया गया था।

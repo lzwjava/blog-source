@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 電話製造工場への訪問
 translated: true
+type: post
 ---
 
 この投稿は元々中国語で書かれ、Qzoneに掲載されました。

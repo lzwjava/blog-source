@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Global Real Estate Apps
+type: post
 ---
 
 China:

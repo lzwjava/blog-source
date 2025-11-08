@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Utilisation des verres progressifs multifocaux pour inverser la myopie
 translated: true
+type: post
 ---
 
 ## Prescription

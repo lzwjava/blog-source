@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: Wxapp حية
 translated: true
+type: post
 ---
 
 هذا هو README.md من مشروع Github [https://github.com/lzwjava/live-wxapp](https://github.com/lzwjava/live-wxapp).

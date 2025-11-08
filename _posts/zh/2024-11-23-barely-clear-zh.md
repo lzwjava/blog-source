@@ -7,6 +7,7 @@ layout: post
 title: 自然视力恢复：刚好清晰原则
 top: 20
 translated: true
+type: post
 ---
 
 ### 摘要

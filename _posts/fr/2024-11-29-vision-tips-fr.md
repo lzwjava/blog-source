@@ -10,6 +10,7 @@ title: Un guide pratique pour un port quotidien confortable de lunettes à 1,50D
   dessous de la correction complète
 top: 10
 translated: true
+type: post
 ---
 
 *Dernière mise à jour : 30 août 2025*

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Curiosityコース
 translated: true
+type: post
 ---
 
 これは GitHub プロジェクト [https://github.com/lzwjava/curiosity-courses](https://github.com/lzwjava/curiosity-courses) の README.md です。

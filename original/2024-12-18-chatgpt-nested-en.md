@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: ChatGPT’s Bug with Nested Code Blocks
+type: post
 ---
 
 ### Issue Explanation

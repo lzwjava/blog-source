@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 氣炸鍋烹飪
 translated: true
+type: post
 ---
 
 空氣炸鍋最近成了我最愛嘅煮食工具。我以大約126人民幣買咗部美的空氣炸鍋KZE5004。  

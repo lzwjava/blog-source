@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Google Text-to-Speech APIの始め方
 translated: true
+type: post
 ---
 
 私はYin Wangの記事のいくつかをGoogle Text-to-Speech APIを使用して音声に変換する予定です。以下に、ChatGPTが提供する役立つチュートリアルとともに、ステップバイステップのガイドを記載します。すべての準備が整ったら、ここに音声をアップロードして、皆さんに聞いていただけるようにします。

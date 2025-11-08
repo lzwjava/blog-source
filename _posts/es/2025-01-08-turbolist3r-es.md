@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: 'Turbolist3r: Enumeración de Subdominios'
 translated: true
+type: post
 ---
 
 A continuación se presentan algunas herramientas para ayudar a enumerar subdominios.

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: リクライニングピロー
 translated: true
+type: post
 ---
 
 このリクライニングクッションをおすすめします。2023年3月に購入しました。当時は約270元でしたが、今日（2025年1月5日）現在、jd.comでは約240元で販売されています。約2年間使用していますが、1年経っても使い続けているものこそ、本当に必要なものだと思います。
@@ -34,4 +35,3 @@ translated: true
 
 {: .centered }
 ![](assets/images/pillow/diy.jpg){: .responsive }
-

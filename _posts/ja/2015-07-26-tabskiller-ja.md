@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: タブキラー
 translated: true
+type: post
 ---
 
 これは GitHub プロジェクト [https://github.com/lzwjava/TabsKiller](https://github.com/lzwjava/TabsKiller) の README.md です。

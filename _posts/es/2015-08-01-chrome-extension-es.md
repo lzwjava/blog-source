@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Crear una extensión de Chrome
 translated: true
+type: post
 ---
 
 ¿Alguna vez has abierto demasiadas pestañas del navegador y deseado una herramienta que las gestionara automáticamente? En esta entrada de blog, te guiaré a través de la creación de una extensión de Chrome llamada **"Tabs Killer"**, que cierra automáticamente las pestañas más antiguas cuando el número de pestañas supera un límite definido por el usuario. Desglosaré el código, explicaré cómo funciona y proporcionaré conocimientos para ayudarte a construir tu propia extensión de Chrome.

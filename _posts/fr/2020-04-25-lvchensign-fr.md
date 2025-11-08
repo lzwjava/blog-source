@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: LvchenSign
 translated: true
+type: post
 ---
 
 Ceci est le README.md du projet github [https://github.com/lzwjava/lvchensign](https://github.com/lzwjava/lvchensign).

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Avertissement
 translated: true
+type: post
 ---
 
 ## Traduction

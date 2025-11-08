@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Wem soll das Projekt anvertraut werden, und wer soll das Geld verdienen?
 translated: true
+type: post
 ---
 
 Wer soll das Projekt durchführen, wer soll die Position besetzen, wer soll das Geld verdienen – all diese Fragen sind ähnlich. Nachdem ich Dutzende von Projekten durchgeführt, mit Dutzenden von freiberuflichen Designern und Ingenieuren zusammengearbeitet und versucht habe, über hundert Projekte zu vermitteln, und dann mehr als zwei Jahre mit den Freunden, mit denen ich zusammengearbeitet habe, verbracht habe, habe ich ungefähr verstanden, wie man dieses Problem am besten angeht. Ich habe hier auch nicht viele Projekte, nichts Besonderes, aber Zusammenfassung und Reflexion sind ziemlich wichtig, um die Dinge besser zu machen.

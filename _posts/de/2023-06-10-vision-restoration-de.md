@@ -7,6 +7,7 @@ layout: post
 title: Experimentelle Überprüfung der Methode zur natürlichen Sehkraftwiederherstellung
 top: 30
 translated: true
+type: post
 ---
 
 <div align="center"><img src="/assets/images/eyes/glasses.jpeg" width="400px" /></div>

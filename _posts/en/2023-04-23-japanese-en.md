@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Why and How I Learn Japanese
 translated: false
+type: post
 ---
 
 Two years ago, I learned Japanese for two weeks, then I put it away and did other things. Now, I have restarted my journey to learn it. What I have observed is that this time things are much smoother. I can still recognize some Katakana and Hiragana. My journey has just begun, and this time, instead of following any advice, I have used some unique ways to learn. I drive cars to learn. After logging off from work, I drive for 4 hours while listening to Japanese TikTok or some Japanese music. Because driving requires patience. When driving, you can’t go faster; you have to wait for the car or traffic light ahead. Driving can also be boring, so it's better to have something to think about. I bought a remote control to hold in one of my hands so I can use one hand to drive and the other hand to remote control my phone, sometimes scrolling down to the next TikTok video.

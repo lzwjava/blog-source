@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Could Multifocal Progressive Lenses Help Reverse Myopia
 translated: false
+type: post
 ---
 
 ## Bifocals

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Pixel USB, iOS Entwicklertools, Wischtippen
 translated: true
+type: post
 ---
 
 ### Inhaltsverzeichnis

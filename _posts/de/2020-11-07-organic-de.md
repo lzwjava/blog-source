@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Natürliche Wachstumsmethoden, um mit Unternehmertum Geld zu verdienen
 translated: true
+type: post
 ---
 
 Im vorherigen Artikel „Warum ich mein angespartes Geld genommen habe, um Investoren zurückzuzahlen“ habe ich über eine Methode gesprochen, die ich mir für das Unternehmertum ausgedacht habe: kostengünstiges Ausprobieren und gemeinsames, vereintes Handeln. Zuerst sollte man alleine anfangen. Man sollte schauen, ob man alleine ein Unternehmen gründen und sich selbst versorgen kann. Wenn man dann eine Partnerschaft eingehen möchte, ist es am besten, wenn niemand Geld mitbringt, sondern die Gewinne geteilt werden, je nach Projekt und vereinbarter Rendite. Wenn wir keine Partner finden, die bereit sind, sowohl die guten als auch die schlechten Zeiten mit uns zu teilen, bedeutet das, dass wir noch nicht bereit für eine Partnerschaft sind, und es ist besser, alleine weiterzumachen. Dann kann man zu zweit zusammenarbeiten, und wenn mehr Leute dazu kommen, zu dritt usw. Wenn wir Kapital beschaffen und Mitarbeiter einstellen müssen, ist es am besten, Mitarbeiter zu finden, die bereit sind, Aktien und ein niedriges Gehalt zu akzeptieren. Wenn wir solche nicht finden können, bedeutet das, dass wir noch nicht bereit für eine Expansion sind.

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: WeImgサーバー
 translated: true
+type: post
 ---
 
 これは、GitHubプロジェクト [https://github.com/lzwjava/weimg-server](https://github.com/lzwjava/weimg-server) の README.md です。

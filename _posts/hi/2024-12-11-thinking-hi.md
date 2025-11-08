@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: मेटा-थिंकिंग फ्रेमवर्क
 translated: true
+type: post
 ---
 
 ## सोचना

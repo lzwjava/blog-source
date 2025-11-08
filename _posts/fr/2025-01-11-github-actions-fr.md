@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Temps d'exécution maximum d'un job GitHub Actions
 translated: true
+type: post
 ---
 
 J'utilise GitHub Actions pour automatiser la traduction de mes articles de blog. Au départ, j'ai essayé de traduire tous les articles en une seule tâche, en validant les modifications dans le dépôt uniquement après que toutes les traductions étaient terminées.

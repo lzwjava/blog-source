@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 私の初期のデジタル記憶
 translated: true
+type: post
 ---
 
 私は1995年生まれで、Windows 95が7月14日にリリースされたのと同じ年です。

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 更新指南
 translated: true
+type: post
 ---
 
 為保持系統和應用程式最新，請根據您的平台執行以下步驟：

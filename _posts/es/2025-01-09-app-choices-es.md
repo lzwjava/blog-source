@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Mis Aplicaciones Seleccionadas
 translated: true
+type: post
 ---
 
 En un ensayo anterior, escribí:

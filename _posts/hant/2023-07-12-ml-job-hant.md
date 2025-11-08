@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 智威轉向機器學習
 translated: true
+type: post
 ---
 
 ## 財務狀況

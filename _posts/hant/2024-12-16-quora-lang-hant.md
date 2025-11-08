@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Quora的語言內容控制
 translated: true
+type: post
 ---
 
 Quora以其龐大的用戶生成內容庫而聞名，提供了多個領域中各種問題的答案。其中一個突出的功能是其語言內容控制，允許用戶通過選擇他們偏好的語言來定制平台的體驗。

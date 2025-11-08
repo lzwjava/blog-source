@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Überlegen Sie Upgrades bei der Verwendung von Bibliotheken
 translated: true
+type: post
 ---
 
 Ich habe CodeIgniter in meinem Startup-Projekt [Fun Live](https://github.com/lzwjava/live-server) verwendet. Obwohl das Projekt beendet wurde, wollte ich es nach einigen Jahren wiederbeleben, um es zu würdigen. Damals im Jahr 2016 habe ich CodeIgniter 3 verwendet, während die neueste Version jetzt CodeIgniter 4 ist.

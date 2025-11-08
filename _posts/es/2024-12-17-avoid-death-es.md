@@ -7,6 +7,7 @@ layout: post
 title: Cómo Evitar la Muerte
 top: 10
 translated: true
+type: post
 ---
 
 Estoy a punto de cumplir 30 años. No sabía mucho sobre la muerte mientras crecía hasta 2019, cuando uno de mis familiares falleció. En 2022, otro familiar también falleció. Me enteré de que dos de mis compañeros de clase habían muerto. Durante los tres años de la pandemia de COVID, vimos mucha muerte en las noticias.

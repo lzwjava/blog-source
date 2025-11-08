@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: محررات أكواد الذكاء الاصطناعي
 translated: true
+type: post
 ---
 
 لقد جربت عدة أدوات تحرير أكواد مدعومة بالذكاء الاصطناعي، بما في ذلك GitHub Copilot وWindsurf وCursor. إليكم ملاحظاتي:

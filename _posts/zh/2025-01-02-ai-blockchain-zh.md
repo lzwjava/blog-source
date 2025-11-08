@@ -7,6 +7,7 @@ layout: post
 title: 我如何在人工智能和区块链时代生活得更好
 top: 10
 translated: true
+type: post
 ---
 
 在我们有大语言模型（LLMs）的情况下，写博客还有用吗？如果LLMs包含你想分享的信息，并且人们更多地使用LLMs，我们是否还需要提供自己的信息？

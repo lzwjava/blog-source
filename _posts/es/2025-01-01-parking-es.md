@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Dilema del Estacionamiento de Coches
 translated: true
+type: post
 ---
 
 Tengo dos coches en la comunidad de apartamentos de mis padres, pero solo tenemos una plaza de aparcamiento dentro del edificio. No queremos alquilar otra plaza, así que tengo que aparcar mi segundo coche en la zona pública. En la zona pública hay plazas de aparcamiento legales, pero no son suficientes. A menudo, hay veinte o treinta coches aparcados en la carretera. El guardia pegará un papel rojo en los parabrisas de los coches para advertirles.

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 淺談人生的秘密
 translated: true
+type: post
 ---
 
 直到從學校離開，在社會上工作實踐幾年後，我才頓悟了關於學習的秘密。我發現它其實也是人生的秘密。讓我一步步講述我的發現之旅。

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Frases del Profesor de Química
 translated: true
+type: post
 ---
 
 Este artículo es puramente para elogiar al Sr. Wu (porque siempre dice "... di", por ejemplo, "bueno di", por lo que bromeamos llamando al maestro "Hermano Di" - un apodo para nuestro querido maestro de química).

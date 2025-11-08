@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Configuration d'un serveur Google Cloud
 translated: true
+type: post
 ---
 
 La configuration d'un serveur proxy dans Google Cloud vous permet de router votre trafic internet de manière sécurisée via une instance cloud, améliorant ainsi la confidentialité et contournant les restrictions. Dans ce guide, nous allons vous expliquer étape par étape comment configurer un serveur proxy de base dans Google Cloud et définir les règles de pare-feu nécessaires pour autoriser le trafic.

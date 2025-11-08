@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 原創帖
 translated: true
+type: post
 ---
 
 這些是我的原創博客文章。

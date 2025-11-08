@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 2018, c'est déjà hier
 translated: true
+type: post
 ---
 
 1. En 2018, pour résumer l'année en une phrase, nous avons réalisé près de 50 projets logiciels pour nos clients avec notre équipe, comprenant des mini-programmes, des sites web, des applications mobiles, des jeux, etc. Les projets variaient de 10 000 à 300 000 yuans, avec des durées allant de quinze jours à quatre mois, et chaque projet était développé à partir de la première ligne de code. Après leur lancement, certains projets ont connu un succès fulgurant, avec des millions de pages vues ou des revenus de plusieurs millions. Bien sûr, cela est principalement dû à la force de nos clients et à leur capacité de gestion. Il y a aussi eu des projets qui sont passés inaperçus. Nous avons travaillé dur sur ces projets, les designers et les ingénieurs ont donné leur maximum. Nous n'avons pas gagné beaucoup d'argent, mais nous avons accompli beaucoup de choses avec nos clients et avons beaucoup appris. Merci à tous les clients qui nous ont fait confiance !

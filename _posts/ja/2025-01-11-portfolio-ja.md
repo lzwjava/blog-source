@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ポートフォリオ
 translated: true
+type: post
 ---
 
 PDFファイルは[こちら](/assets/resume/Zhiwei.Li.Portfolio.pdf)からご覧いただけます。

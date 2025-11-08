@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Transforming Eclipse into Emacs
 translated: false
+type: post
 ---
 
 This post was originally written in Chinese and published on CSDN.

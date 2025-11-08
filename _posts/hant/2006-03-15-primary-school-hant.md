@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 我的小學回憶
 translated: true
+type: post
 ---
 
 這篇文章是於2025年7月撰寫的。

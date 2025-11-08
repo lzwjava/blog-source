@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Seguimiento de las Finanzas de Nuestra Casa
 translated: true
+type: post
 ---
 
 Recientemente, creé un documento en markdown para llevar un registro de las transacciones financieras de nuestra casa.

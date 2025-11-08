@@ -7,6 +7,7 @@ layout: post
 title: 'प्राकृतिक दृष्टि सुधार: "बस थोड़ा साफ" का सिद्धांत'
 top: 20
 translated: true
+type: post
 ---
 
 ### सारांश

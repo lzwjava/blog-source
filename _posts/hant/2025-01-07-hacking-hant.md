@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 黑客攻擊
 translated: true
+type: post
 ---
 
 黑客手法多種多樣，這個話題也相當有趣。作為一名業餘的白帽黑客，我發現這個領域有許多知識值得學習。在這裡，我將記錄一些我所探索到的方法。

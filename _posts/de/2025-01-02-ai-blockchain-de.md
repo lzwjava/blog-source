@@ -7,6 +7,7 @@ layout: post
 title: Wie ich in der Ära von KI und Blockchain gut lebe
 top: 10
 translated: true
+type: post
 ---
 
 Ist es noch sinnvoll, Blogs zu schreiben, jetzt, wo wir große Sprachmodelle (LLMs) haben? Wenn LLMs die Informationen enthalten, die man teilen möchte, und die Leute LLMs häufiger nutzen, müssen wir dann noch unsere eigenen Informationen bereitstellen?
@@ -48,4 +49,3 @@ Bezüglich des Blockchain-Teils ist mein bester Ansatz, das, was ich verdiene, r
 Ich habe mir eine Lösung für das überlegt, was ich tue, aber was ist mit dem Ort, an dem ich lebe, und den Menschen, mit denen ich zusammenlebe? Ich möchte in einem führenden KI-Gebiet leben; derzeit ist das San Francisco. Allerdings kennt das Internet keine Grenzen – DeepSeek in China und Mistral in Frankreich leisten ebenfalls gute Arbeit. Außerdem bin ich jetzt ein College-Abbrecher und arbeite an meinem Associate Degree. Das hat mir einige Schwierigkeiten bereitet, außerhalb Chinas zu arbeiten. Es ist wichtig, den Wohnort sorgfältig zu wählen.
 
 Die neueste und beste Art für mich zu leben besteht also darin, die neueste KI-Technologie zu nutzen, in einer KI-freundlichen Stadt zu wohnen, zu lernen, Wissen zu teilen und die nächste, noch fortschrittlichere KI zu entwickeln. Ich werde mein Gehalt verwenden, um in einige der besten KI-Aktien oder Bitcoin zu investieren.
-

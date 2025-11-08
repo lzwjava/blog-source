@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 2018 Is Already Yesterday
 translated: true
+type: post
 ---
 
 In 2018, summarizing the year in one sentence, we completed around 50 software projects for our team and customers, including small programs, websites, and apps. Project sizes ranged from 10,000 to 300,000 RMB and durations from a month to four months, starting from the first line of code each time. Some projects became instant sensations, others had millions of PVs, and some had millions in revenue. Mostly, it was due to our customers' greatness and strong operational abilities. There were also those who worked quietly behind the scenes. We worked hard on every project, and both designers and engineers gave their all. Although the pay wasn't much, we did a lot with our customers. Thank you to all our trusting customers!

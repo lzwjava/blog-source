@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تنفيذ الوضع الداكن للموقع
 translated: true
+type: post
 ---
 
 تنفيذ الوضع الداكن في مدونتي Jekyll.

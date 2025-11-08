@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: 'درجة الزمالة: التقدم والتفكير'
 translated: true
+type: post
 ---
 
 تم التحديث في نوفمبر 2025.

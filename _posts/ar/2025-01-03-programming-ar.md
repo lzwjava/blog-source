@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: 'الفلسفة البرمجية الشاملة: المبادئ والممارسات والنمو المهني'
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

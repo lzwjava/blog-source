@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Teacher Qiu
 translated: true
+type: post
 ---
 
 Ce message a été rédigé à l'origine en chinois et publié sur Qzone.

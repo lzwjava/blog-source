@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Turbolist3r：枚举子域名
 translated: true
+type: post
 ---
 
 下面是一些帮助枚举子域名的工具。

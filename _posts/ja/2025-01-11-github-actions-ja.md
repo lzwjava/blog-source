@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: GitHub Actionsジョブの最大実行時間
 translated: true
+type: post
 ---
 
 私はブログ記事の翻訳を自動化するためにGitHub Actionsを使用しています。最初は、すべての投稿を1つのジョブで翻訳し、すべての翻訳が完了した後に変更をリポジトリにコミットしようと試みました。

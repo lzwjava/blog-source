@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 言語サポート：フォントとテキストトゥスピーチ
 translated: true
+type: post
 ---
 
 私のブログは現在9言語に対応しています：日本語（`ja`）、スペイン語（`es`）、ヒンディー語（`hi`）、中国語（`zh`）、英語（`en`）、フランス語（`fr`）、ドイツ語（`de`）、アラビア語（`ar`）、および繁體中国語（`hant`）。サイトは [https://lzwjava.github.io](https://lzwjava.github.io) で見つけることができます。

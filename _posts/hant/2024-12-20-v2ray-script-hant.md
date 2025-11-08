@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: V2Ray 腳本
 translated: true
+type: post
 ---
 
 這是我經常使用的一個V2Ray腳本。

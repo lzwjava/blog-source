@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: The Rules of Charging
+type: post
 ---
 
 To ensure that your products continue to function without interruption, several strategies can be considered. One option is to purchase two units of the same product, allowing you to use one while the other charges. Another approach is to replace the battery when it reaches the end of its life, ensuring the product continues to run smoothly. Alternatively, you can charge the product while using it, so it remains powered as you continue with your tasks.

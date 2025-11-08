@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: Enterprise WeChat से एकीकृत करना
 translated: true
+type: post
 ---
 
 मेरे ShowMeBug में समय के दौरान, मैंने Enterprise WeChat Integration project में योगदान दिया। यह ShowMeBug को Enterprise WeChat के साथ एकीकृत करने का काम था, जिससे तकनीकी साक्षात्कार के औजारों तक Enterprise WeChat ecosystem में सुलभ पहुंच मिलती है। मैंने Ruby, Ruby on Rails, PostgreSQL और WeChat SDK जैसे तकनीकों का उपयोग किया ताकि दोनों साक्षात्कारकर्ताओं और उम्मीदवारों के लिए एक सुलभ उपयोगकर्ता अनुभव बनाया जा सके।

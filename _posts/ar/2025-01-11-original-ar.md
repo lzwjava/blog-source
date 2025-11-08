@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: المقالات الأصلية
 translated: true
+type: post
 ---
 
 هذه مقالاتي الأصلية.

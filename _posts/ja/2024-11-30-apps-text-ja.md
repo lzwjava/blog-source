@@ -8,6 +8,7 @@ title: iOSアプリを使った - テキスト版
 top: 10
 translated: true
 translation: false
+type: post
 ---
 
 \#:

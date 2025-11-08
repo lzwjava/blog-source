@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: مراجعة الكود
 translated: true
+type: post
 ---
 
 هذا هو README.md من مشروع GitHub [https://github.com/lzwjava/code-review-server](https://github.com/lzwjava/code-review-server).

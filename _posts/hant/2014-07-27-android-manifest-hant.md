@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 了解 AndroidManifest.xml 文件
 translated: true
+type: post
 ---
 
 如果你正在進入Android開發，你會遇到的第一個文件之一就是`AndroidManifest.xml`。它就像你的應用程式的藍圖—它在應用程式運行之前告訴Android系統有關你應用程式的一切。今天，我們將分解一個名為「Flower」（套件名稱：`com.lzw.flower`）的應用程式的範例清單文件，並探索其關鍵組件、概念和模式。

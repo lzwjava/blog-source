@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: 'إطار التفكير الفوقي: الاستدلال والتصنيف والتجريد'
 translated: true
+type: post
 ---
 
 ## التفكير

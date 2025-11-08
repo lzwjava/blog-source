@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: 'Markdown Issues: Kramdown & XeLaTeX'
 translated: false
+type: post
 ---
 
 To generate PDFs for my Jekyll blog using Markdown, I use the following Pandoc command:

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 'Photoroom : Application de Suppression d''Arrière-plan'
 translated: true
+type: post
 ---
 
 Comme le titre le suggère, Photoroom est une excellente application pour supprimer les arrière-plans. Contrairement à Snapseed ou Darkroom, qui limitent cette fonctionnalité dans leurs versions gratuites, Photoroom propose une suppression d'arrière-plan fluide, ce qui en fait un excellent choix pour des retouches rapides et faciles.

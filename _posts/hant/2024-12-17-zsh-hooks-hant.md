@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Zsh 钩子
 translated: true
+type: post
 ---
 
 在探索了「讓 Zsh 在執行網絡命令前顯示代理設置」之後，我與 ChatGPT 一起深入研究了 Zsh 的鉤子（hooks）。以下是簡要概述，以供將來參考。

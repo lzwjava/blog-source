@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Maximale Kontextlänge von Large Language Models
 translated: true
+type: post
 ---
 
 Ich habe kürzlich die DeepSeek API verwendet, um eine Commit-Nachricht zu generieren, wie in [AI-Powered Git Commit Messages](./gitmessageai-en) beschrieben.

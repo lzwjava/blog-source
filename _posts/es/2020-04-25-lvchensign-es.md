@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Sello de Lvchen
 translated: true
+type: post
 ---
 
 Este es el README.md del proyecto de github [https://github.com/lzwjava/lvchensign](https://github.com/lzwjava/lvchensign).

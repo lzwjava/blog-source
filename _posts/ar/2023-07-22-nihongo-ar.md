@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: ChatGPT يساعدني في تعلم اليابانية
 translated: true
+type: post
 ---
 
 ### مقدمة

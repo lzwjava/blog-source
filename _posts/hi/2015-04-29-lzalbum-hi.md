@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: LZAlbum Hindi में "एल.जेड.एलबम" है।
 translated: true
+type: post
 ---
 
 यह GitHub परियोजना [https://github.com/lzwjava/LZAlbum](https://github.com/lzwjava/LZAlbum) के लिए README.md है।

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: استخدام ثلاث هواتف
 translated: true
+type: post
 ---
 
 - استخدم iPhone كهاتفك الرئيسي، ويفضل أن يكون أحدث موديل، أو على الأقل من آخر 3 سنوات.

@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Los Mosquitos Desaparecen Cuando Baja la Temperatura
 translated: true
+type: post
 ---
 
 Anoche, tenía la intención de irme a dormir. En el momento en que quise cerrar el mosquitero, me di cuenta de que no había ningún mosquito en mi habitación. El invierno está llegando. Hoy es 30 de noviembre de 2024. Estoy en Guangzhou, China. La temperatura en Guangzhou está entre 13-20°C.

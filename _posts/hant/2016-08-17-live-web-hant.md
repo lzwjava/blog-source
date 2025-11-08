@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 現場直播
 translated: true
+type: post
 ---
 
 這是來自 GitHub 專案的 README.md [https://github.com/lzwjava/live-web](https://github.com/lzwjava/live-web)。

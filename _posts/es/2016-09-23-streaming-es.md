@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Configuración de transmisión en vivo con OBS, SRS y FFmpeg
 translated: true
+type: post
 ---
 
 *Esta entrada del blog fue organizada con la asistencia de ChatGPT-4o.*

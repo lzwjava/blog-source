@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 使用 Awesome-CV 生成专业简历
 translated: true
+type: post
 ---
 
 ### 介绍  

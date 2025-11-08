@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Focus on the College Entrance Exam
 translated: true
+type: post
 ---
 
 Guangzhou 50 plus can get in, I can't. Too late. Too late. I feel that those brilliant people in cultural sciences may not have me. Yes, high school 1st and 2nd year, compared to OI, I still invested a lot of time in cultural sciences. Now cultural sciences can score over 600.

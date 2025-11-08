@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Subscribe
 translated: false
+type: post
 ---
 
 Stay updated with my latest blog posts by subscribing via RSS feed, audio feed, or following me on X (Twitter).  

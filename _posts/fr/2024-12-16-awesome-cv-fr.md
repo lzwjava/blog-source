@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Utiliser Awesome-CV pour Générer un CV Professionnel
 translated: true
+type: post
 ---
 
 ### Introduction

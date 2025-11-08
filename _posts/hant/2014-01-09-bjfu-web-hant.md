@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 北京林業大學登入系統分析
 translated: true
+type: post
 ---
 
 這篇文章原本用中文撰寫並發表在 [CSDN](https://blog.csdn.net/lzw_java/article/details/18049581)。

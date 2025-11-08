@@ -198,4 +198,3 @@ Here is a clean list of the USA's official holidays for 2025:
 {: .centered }
 ![](assets/images/holiday/holiday_schedule_hk.jpg)
 *Source: Self-Made*{: .caption }
-

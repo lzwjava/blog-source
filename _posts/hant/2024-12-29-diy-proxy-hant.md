@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 建立您的代理伺服器
 translated: true
+type: post
 ---
 
 * 設定伺服器，請使用Outline Manager: [https://getoutline.org](https://getoutline.org)。

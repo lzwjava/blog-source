@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 我的创意想法
 translated: true
+type: post
 ---
 
 *本文由mistral翻译原文所得。*

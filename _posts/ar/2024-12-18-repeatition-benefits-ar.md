@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: فوائد التكرار في البرمجة
 translated: true
+type: post
 ---
 
 ```bash

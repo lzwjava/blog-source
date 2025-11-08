@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: टर्बोलिस्टरीडर
 translated: true
+type: post
 ---
 
 ## टर्बोलिस्टरीडर

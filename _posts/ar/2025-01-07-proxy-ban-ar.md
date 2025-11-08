@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: كشف جدران الحماية العظيمة، وواجهات برمجة التطبيقات الوكية، وكشف شبكات VPN
 translated: true
+type: post
 ---
 
 ### جدول المحتويات

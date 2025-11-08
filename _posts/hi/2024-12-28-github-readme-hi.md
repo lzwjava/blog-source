@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: GitHub Readme परिचय
 translated: true
+type: post
 ---
 
 | प्रोजेक्ट | भाषा | कमिट्स | प्रोजेक्ट | भाषा | कमिट्स |

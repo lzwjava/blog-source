@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: البحث عن الهاتف والموسيقى
 translated: true
+type: post
 ---
 
 ### البحث عن الهاتف

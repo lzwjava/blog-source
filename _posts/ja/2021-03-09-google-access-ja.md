@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Googleへのアクセス方法
 translated: true
+type: post
 ---
 
 この記事は中国語で書かれました。

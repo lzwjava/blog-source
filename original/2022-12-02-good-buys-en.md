@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: My Good Buys
+type: post
 ---
 
 <div align="center"><img src="/assets/images/buys/buys.jpg" width="400px" /><img/></div>

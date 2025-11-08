@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 访问手机制造厂
 translated: true
+type: post
 ---
 
 这个帖子最初用中文撰写并发布在Qzone上。

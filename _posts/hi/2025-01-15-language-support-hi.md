@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: 'भाषा सहायता: फॉन्ट्स और टेक्स्ट-टू-स्पीच'
 translated: true
+type: post
 ---
 
 मेरा ब्लॉग अब नौ भाषाओं का समर्थन करता है: जापानी (`ja`), स्पैनिश (`es`), हिन्दी (`hi`), चीनी (`zh`), इंग्लिश (`en`), फ्रांसीसी (`fr`), जर्मन (`de`), अरबी (`ar`), और प्राचीन चीनी (`hant`). आप साइट को [https://lzwjava.github.io](https://lzwjava.github.io) पर फाउन्ड सकते हैं।

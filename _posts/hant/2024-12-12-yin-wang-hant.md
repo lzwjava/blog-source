@@ -7,6 +7,7 @@ layout: post
 title: 殷王之全集
 top: 20
 translated: true
+type: post
 ---
 
 ## 中文

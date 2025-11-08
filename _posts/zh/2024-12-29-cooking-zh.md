@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 用空气炸锅烹饪
 translated: true
+type: post
 ---
 
 空气炸锅最近成了我最爱的烹饪工具。我花了大约126元买了美的空气炸锅KZE5004。

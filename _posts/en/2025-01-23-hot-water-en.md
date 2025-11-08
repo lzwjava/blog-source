@@ -9,8 +9,6 @@ translated: false
 type: post
 ---
 
-
-
 - Hot water can easily remove paper stuck to a window.
 
 - Hot water helps remove glue.

@@ -7,6 +7,7 @@ layout: post
 title: 我用过的iOS应用 - 表格版
 translated: true
 translation: false
+type: post
 ---
 
 | 应用名称 | 包标识符 | 版本 |

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: कॉणटेक्ट
 translated: true
+type: post
 ---
 
 ယ်Namaste! Main Zhiwei Li hoon. Meri concise introduction yahan upar hai: [yahan](/introduction-en). Mere website ke sitaron parochen hatarin prati beginsh ek naya dour hai; main aapke sadhe wonder karne ko pracharit karta hoon.

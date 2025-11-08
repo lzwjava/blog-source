@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 學校運動會
 translated: true
+type: post
 ---
 
 這篇文章原本用中文撰寫並發表於Qzone。

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: WeImg 伺服器
 translated: true
+type: post
 ---
 
 這是來自 GitHub 項目 [https://github.com/lzwjava/weimg-server](https://github.com/lzwjava/weimg-server) 的 README.md。

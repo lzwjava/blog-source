@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: متطوع محطة القطار
 translated: true
+type: post
 ---
 
 نُشِر هذا المنشور أصلاً بالصينية على موقع كيو زون.

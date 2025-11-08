@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 在iOS的特別設定中
 translated: true
+type: post
 ---
 
 ## 每個應用程式設定

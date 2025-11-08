@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: LeanChat iOS का Hindi अनुवाद नहीं है।
 translated: true
+type: post
 ---
 
 यह [https://github.com/lzwjava/leanchat-ios](https://github.com/lzwjava/leanchat-ios) से GitHub प्रोजेक्ट का README.md है।---

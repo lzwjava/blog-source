@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Pourquoi ChatGPT Plus devrait facturer par utilisation de jetons
 translated: true
+type: post
 ---
 
 ChatGPT Plus devrait passer à un modèle de tarification flexible basé sur l'utilisation des tokens plutôt qu'à un forfait mensuel fixe de 20 $.

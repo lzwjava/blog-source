@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Zen y el Arte del Aprendizaje Automático
 translated: true
+type: post
 usemathjax: true
 ---
 

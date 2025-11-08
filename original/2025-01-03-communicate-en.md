@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Communication
+type: post
 ---
 
 * Don't argue with family, friends, or others who have different opinions. It is pointless to argue and can sometimes be hurtful.

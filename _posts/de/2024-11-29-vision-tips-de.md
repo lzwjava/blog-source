@@ -10,6 +10,7 @@ title: Ein praktischer Leitfaden für bequemes tägliches Tragen von Brillenglä
   mit 1,50 dpt unter der Vollkorrektur
 top: 10
 translated: true
+type: post
 ---
 
 *Zuletzt aktualisiert am 30. August 2025*

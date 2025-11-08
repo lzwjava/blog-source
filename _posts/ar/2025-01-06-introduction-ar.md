@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: مقدمة جيوي
 translated: true
+type: post
 ---
 
 يمكنك تحميل نسخة الـ PDF من مقدمتي، التي تم إنشاؤها باستخدام LaTeX، [من هنا](/assets/resume/Zhiwei.Li.Introduction.EN.pdf) للإصدار الإنجليزي و[من هنا](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf) للإصدار الصيني.

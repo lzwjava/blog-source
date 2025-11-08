@@ -7,6 +7,7 @@ layout: post
 title: 陰王全集
 top: 20
 translated: true
+type: post
 ---
 
 ## 中国語

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ライブウェブアプリ
 translated: true
+type: post
 ---
 
 これは、GitHubプロジェクトのREADME.mdです [https://github.com/lzwjava/live-wxapp](https://github.com/lzwjava/live-wxapp)。

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 管理DigitalOcean保留IP
 translated: true
+type: post
 ---
 
 服务器IP地址容易被防火墙（GFW）屏蔽是一个常见的挑战，尤其是云服务器。为了缓解这一问题，一种策略是使用DigitalOcean的保留IP，并在当前IP被屏蔽时将其重新分配给您的Droplet。本文将介绍一个自动化此过程的Python脚本。该脚本已在[GitHub](https://github.com/lzwjava/auto-ss-config)上开源。

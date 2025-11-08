@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Maximum Execution Time of GitHub Actions Job
+type: post
 ---
 
 I've been using GitHub Actions to automate the translation of my blog posts. Initially, I attempted to translate all posts in a single job, with the changes committed back to the repository only after all translations were complete.

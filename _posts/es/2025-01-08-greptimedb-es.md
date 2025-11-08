@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Las empresas deben proporcionar contexto de IA para facilitar la integración
 translated: true
+type: post
 ---
 
 Tengo un amigo que trabaja en Greptime DB, y he estado pensando en cómo integrar rápidamente su producto en sistemas existentes.

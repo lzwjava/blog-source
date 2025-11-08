@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 背景音があった方がいい
 translated: true
+type: post
 ---
 
 * 何をしているかに関わらず、背景音がある環境を好む。

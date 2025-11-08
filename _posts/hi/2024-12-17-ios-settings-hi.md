@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: iOS में विशेष सेटिंग्स
 translated: true
+type: post
 ---
 
 ## प्रति-ऐप सेटिंग्स

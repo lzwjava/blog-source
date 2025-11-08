@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 禪與機器學習的藝術
 translated: true
+type: post
 usemathjax: true
 ---
 

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Wxapp en direct
 translated: true
+type: post
 ---
 
 Ceci est le README.md du projet github [https://github.com/lzwjava/live-wxapp](https://github.com/lzwjava/live-wxapp).

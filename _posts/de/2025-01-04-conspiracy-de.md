@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Verschwörung
 translated: true
+type: post
 ---
 
 Dem Essay von Yin Wang [Yin Wang: Die ultimative Antwort auf das Leben, das Universum und alles](https://lzwjava.github.io/answers-en) und seinen früheren Aussagen zufolge scheint es bereits viele Verschwörungstheoretiker gegeben zu haben.

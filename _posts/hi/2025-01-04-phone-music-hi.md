@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: फोन खोज और संगीत
 translated: true
+type: post
 ---
 
 ### फोन खोज

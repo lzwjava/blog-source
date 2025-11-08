@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Keynotes
 translated: false
+type: post
 ---
 
 This is the README.md from github project [https://github.com/lzwjava/Keynotes](https://github.com/lzwjava/Keynotes).

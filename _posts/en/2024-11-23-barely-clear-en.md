@@ -7,6 +7,7 @@ layout: post
 title: 'Natural Vision Restoration: The Principle of "Just Barely Clear"'
 top: 20
 translated: false
+type: post
 ---
 
 ### Abstract

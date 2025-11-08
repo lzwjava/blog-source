@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Zenと機械学習の技術
 translated: true
+type: post
 usemathjax: true
 ---
 

@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Der Zeitpunkt des Testens
 translated: true
+type: post
 ---
 
 Gestern habe ich mich daran gemacht, ein Auto-Konfigurations-Tool für Shadowsocks Outline zu erstellen, mit dem Ziel, es in ein Python-Projekt zu verwandeln, das andere nutzen können. Ich habe ein Skript entwickelt, das eine `config.yaml`-Datei mit Shadowsocks-Proxy-Konfigurationen aktualisiert, indem es Shadowsocks-URLs aus einer `ssconfig`-Datei decodiert. Zusätzlich habe ich ein weiteres Skript erstellt, das `gsutil` verwendet, um die Abonnementdatei für Clients auf Google Cloud Storage hochzuladen.

@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: फूल पहचान एप
 translated: true
+type: post
 ---
 
 यह गीथब प्रोजेक्ट [https://github.com/lzwjava/flower-recognition](https://github.com/lzwjava/flower-recognition) का README.md है।

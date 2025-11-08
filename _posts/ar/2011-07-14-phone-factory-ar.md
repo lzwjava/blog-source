@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: زيارة مصنع تصنيع الهواتف
 translated: true
+type: post
 ---
 
 هذه المنشورة كتبت أصلاً بالأمهرية ونشرت في Qzone.

@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: La Sagesse de l'Apprentissage
 translated: true
+type: post
 ---
 
 ### Avant-propos

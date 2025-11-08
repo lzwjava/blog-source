@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: 'أداة مفتوحة المصدر: Auto SS Config'
 translated: true
+type: post
 ---
 
 يسرني أن أعلن عن إتاحة أداة مفتوحة المصدر أسميتها **Auto SS Config**. هذه الأداة تقوم تلقائيًا بإنشاء وتحميل روابط الاشتراك الخاصة بـ Shadowsocks أو Clash من روابط Shadowsocks، مما يجعل إدارة وتحديث إعدادات خادم الوكيل أسهل.

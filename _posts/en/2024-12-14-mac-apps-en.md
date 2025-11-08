@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Mac Apps I Used
 translated: false
+type: post
 ---
 
 A:

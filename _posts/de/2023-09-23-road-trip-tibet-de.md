@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Tibet-Reise
 translated: true
+type: post
 ---
 
 Von dem 23. August 2023 bis zum 18. September 2023 unternahm ich eine etwa 25-tägige Reise von Guangzhou nach Tibet. Ich erreichte Lhasa, Tibet, am 10. September 2023. Die Reise nach Tibet erfolgte über Nationalstraßen und dauerte 17 Tage bis Lhasa, und die Rückreise erfolgte über die Autobahn, die 8 Tage dauerte.

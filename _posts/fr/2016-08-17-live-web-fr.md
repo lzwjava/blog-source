@@ -9,6 +9,7 @@ title: 'Live Web
 
   Direct Web'
 translated: true
+type: post
 ---
 
 Ceci est le fichier README.md du projet github [https://github.com/lzwjava/live-web](https://github.com/lzwjava/live-web).

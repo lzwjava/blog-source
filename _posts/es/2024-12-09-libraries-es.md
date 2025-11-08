@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Considera Actualizaciones al Usar Bibliotecas
 translated: true
+type: post
 ---
 
 Utilicé CodeIgniter en mi proyecto de startup, [Fun Live](https://github.com/lzwjava/live-server). Aunque el proyecto terminó, después de varios años, quise revivirlo para conmemorarlo. Sin embargo, en 2016, usé CodeIgniter 3, mientras que la versión más reciente ahora es CodeIgniter 4.

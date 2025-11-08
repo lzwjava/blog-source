@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Demande de retrait de scolarité
 translated: true
+type: post
 ---
 
 Cher(e) responsable de l'établissement,

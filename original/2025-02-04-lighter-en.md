@@ -16,4 +16,3 @@ I also need to purchase butane fuel to refill it before use.
 {: .centered }
 ![](assets/images/lighter/l1.jpg){: .responsive }
 *Source: Walmart*{: .caption }
-

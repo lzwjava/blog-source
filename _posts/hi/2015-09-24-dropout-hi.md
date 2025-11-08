@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: विद्यालय छोड़ने का आवेदन पत्र
 translated: true
+type: post
 ---
 
 आदरणीय विद्यालय प्रबंधन,

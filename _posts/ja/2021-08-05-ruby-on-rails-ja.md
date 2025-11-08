@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: Ruby on Railsを使って
 translated: true
+type: post
 ---
 
 ShowMeBugで働いている間に、Enterprise WeChat統合プロジェクトに貢献しました。これは、ShowMeBugをEnterprise WeChatと統合し、Enterprise WeChatエコシステム内で技術面接ツールへのスムーズなアクセスを提供するものでした。Ruby、Ruby on Rails、PostgreSQL、およびWeChat SDKなどの技術を利用して、面接官および応募者の両方にとってスムーズなユーザー体験を作成しました。

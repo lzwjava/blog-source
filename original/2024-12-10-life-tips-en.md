@@ -8,6 +8,7 @@ prompt: Do not translate specific items such as project names, company names, or
   names, human names if you are not sure.
 title: Complete Life Philosophy
 top: 10
+type: post
 ---
 
 ### Table of Contents
@@ -288,4 +289,3 @@ top: 10
 - While the majority might notice a few innovations from some people, those individuals have usually already made a lot of innovations.
 
 - Trying new things doesn't always guarantee success. They sometimes show a decline instead of progress. Be critical and observant.
-

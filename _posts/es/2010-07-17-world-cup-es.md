@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: El Mundial de Ayer
 translated: true
+type: post
 ---
 
 Este mensaje fue originalmente escrito en chino y publicado en Qzone.

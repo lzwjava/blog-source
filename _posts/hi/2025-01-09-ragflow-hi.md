@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: RAGFlow को आज़माना
 translated: true
+type: post
 ---
 
 [https://ragflow.io](https://ragflow.io)

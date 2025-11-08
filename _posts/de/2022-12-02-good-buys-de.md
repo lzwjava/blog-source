@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Meine Guten Käufe
 translated: true
+type: post
 ---
 
 <div align="center"><img src="/assets/images/buys/buys.jpg" width="400px" /><img/></div>

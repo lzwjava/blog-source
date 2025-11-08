@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 我的小学回忆
 translated: true
+type: post
 ---
 
 这篇文章是2025年7月撰写的。

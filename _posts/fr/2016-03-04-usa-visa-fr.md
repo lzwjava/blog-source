@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Processus et expériences de demande de visa américain
 translated: true
+type: post
 ---
 
 Mardi après-midi, j'ai eu une envie soudaine d'aller visiter les États-Unis. J'ai commencé à remplir des formulaires et à payer les frais, et ce vendredi matin, j'ai réussi l'entretien de visa ! Avec un passeport en main, j'ai obtenu le visa en seulement 3 jours, ce qui m'a rendu un peu excité.

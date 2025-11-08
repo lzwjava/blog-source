@@ -8,6 +8,7 @@ title: 我使用过的iOS应用 - 文本版
 top: 10
 translated: true
 translation: false
+type: post
 ---
 
 \#:

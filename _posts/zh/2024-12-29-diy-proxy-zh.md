@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 设置你的代理服务器
 translated: true
+type: post
 ---
 
 要设置服务器，请使用Outline Manager：[https://getoutline.org](https://getoutline.org)。

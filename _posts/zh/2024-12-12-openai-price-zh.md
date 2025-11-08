@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: ChatGPT Plus 应该按令牌使用收费
 translated: true
+type: post
 ---
 
 ChatGPT Plus 应该过渡到一个基于令牌使用的灵活定价模型，而不是每月固定收费 20 美元。

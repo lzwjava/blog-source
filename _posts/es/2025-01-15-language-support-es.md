@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: 'Soporte de Idiomas: Fuentes y Texto a Voz'
 translated: true
+type: post
 ---
 
 Mi blog ahora admite nueve idiomas: Japonés (`ja`), Español (`es`), Hindi (`hi`), Chino (`zh`), Inglés (`en`), Francés (`fr`), Alemán (`de`), Árabe (`ar`), y Chino Tradicional (`hant`). Puedes encontrar el sitio en [https://lzwjava.github.io](https://lzwjava.github.io)

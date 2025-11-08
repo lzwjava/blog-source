@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 网站报告
 translated: true
+type: post
 ---
 
 最近我与一位创业者朋友交流时，她希望我对其公司网站提出一些改进建议。在起草了初步反馈后，我请 ChatGPT 对内容进行了精炼与完善。以下是更新后的改进版本。

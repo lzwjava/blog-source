@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Exploring System Prompts in Grok and Claude
 translated: false
+type: post
 ---
 
 I reposted it here to learn the prompt engineering.

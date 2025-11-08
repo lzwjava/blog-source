@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Mac Apps I Used
+type: post
 ---
 
 A:

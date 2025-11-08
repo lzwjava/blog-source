@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 'Support de langue : polices et synthèse vocale'
 translated: true
+type: post
 ---
 
 Mon blog prend désormais en charge neuf langues : japonais (`ja`), espagnol (`es`), hindi (`hi`), chinois (`zh`), anglais (`en`), français (`fr`), allemand (`de`), arabe (`ar`), et chinois traditionnel (`hant`). Vous pouvez trouver le site à [https://lzwjava.github.io](https://lzwjava.github.io)

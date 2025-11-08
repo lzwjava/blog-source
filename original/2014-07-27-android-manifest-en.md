@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Understanding the AndroidManifest.xml File
 translated: false
+type: post
 ---
 
 If you’re diving into Android development, one of the first files you’ll encounter is the `AndroidManifest.xml`. It’s like the blueprint of your app—it tells the Android system everything it needs to know about your application before it even runs. Today, we’ll dissect an example manifest file from an app called "Flower" (package name: `com.lzw.flower`) and explore its key components, concepts, and patterns.
@@ -210,4 +211,3 @@ The manifest lists more activities like `DrawActivity`, `ResultActivity`, `Photo
 The `AndroidManifest.xml` is more than just a config file—it’s a window into an app’s purpose and behavior. In this case, “Flower” seems to be a media app with camera functionality, drawing features, and network capabilities, possibly for uploading or processing images. By understanding its components—permissions, features, and activities—you can see how Android apps are structured and how to design your own.
 
 Want to build something similar? Start with a clear purpose (like flower identification), define your permissions and features, and map out your activities. The manifest will tie it all together!
-

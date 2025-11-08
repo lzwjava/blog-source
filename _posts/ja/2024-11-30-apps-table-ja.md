@@ -7,6 +7,7 @@ layout: post
 title: 私が使っているiOSアプリ - 表バージョン
 translated: true
 translation: false
+type: post
 ---
 
 | アプリ名 | バンドル識別子 | バージョン |

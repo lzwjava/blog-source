@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: My Primary School Memory
 translated: false
+type: post
 ---
 
 This post was written in July 2025.

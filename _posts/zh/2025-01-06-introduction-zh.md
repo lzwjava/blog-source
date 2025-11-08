@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 智维的个人介绍
 translated: true
+type: post
 ---
 
 您可在此处下载我使用LaTeX制作的个人介绍PDF版本：英文版[点击下载](/assets/resume/Zhiwei.Li.Introduction.EN.pdf)，中文版[点击下载](/assets/resume/Zhiwei.Li.Introduction.ZH.pdf)。

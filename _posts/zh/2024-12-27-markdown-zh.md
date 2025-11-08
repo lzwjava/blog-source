@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Markdown 问题：Kramdown 和 XeLaTeX
 translated: true
+type: post
 ---
 
 为了将 Markdown 内容生成 PDF 文件并同时兼容 Jekyll 博客的 HTML 渲染和 XeLaTeX 的 PDF 渲染，可以采用以下方法。以下是我生成 PDF 使用的 Pandoc 命令：

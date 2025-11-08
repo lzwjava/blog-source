@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 揭示 GitHub 之 Xcode 插件
 translated: true
+type: post
 ---
 
 這是來自 GitHub 專案 [https://github.com/lzwjava/Reveal-In-GitHub](https://github.com/lzwjava/Reveal-In-GitHub) 的 README.md。

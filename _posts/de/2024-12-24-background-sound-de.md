@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Bevorzuge Hintergrundgeräusche
 translated: true
+type: post
 ---
 
 * Bevorzuge Hintergrundgeräusche, egal was du tust.  

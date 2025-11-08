@@ -6,9 +6,8 @@ lang: en
 layout: post
 title: Algorithm Problem Solutions
 translated: false
+type: post
 ---
-
-
 
 This is the README.md from github project [https://github.com/lzwjava/algorithm-solutions](https://github.com/lzwjava/algorithm-solutions).
 

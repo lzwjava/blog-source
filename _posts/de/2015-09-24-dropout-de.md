@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 退学申请书
 translated: true
+type: post
 ---
 
 Sehr geehrte Schulleitung,

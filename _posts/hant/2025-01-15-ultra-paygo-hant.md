@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 美國Ultra Paygo SIM 卡
 translated: true
+type: post
 ---
 
 我最近購買了一張Ultra Paygo SIM卡。我的目的是想透過Walmart的應用程式購買Apple禮品卡，而這需要一個美國電話號碼作驗證，因此我購買了Ultra Paygo SIM卡。

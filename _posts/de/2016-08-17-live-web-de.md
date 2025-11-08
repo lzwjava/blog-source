@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Live Webinar
 translated: true
+type: post
 ---
 
 Dies ist die README.md aus dem GitHub-Projekt [https://github.com/lzwjava/live-web](https://github.com/lzwjava/live-web).

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Fixed-Price Subscriptions Are Outdated
 translated: false
+type: post
 ---
 
 ### The Case for Flexible Pricing in Subscription Services

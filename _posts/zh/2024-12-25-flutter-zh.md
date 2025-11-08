@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Flutter应用
 translated: true
+type: post
 ---
 
 这篇博客文章讨论了一个Flutter项目，很可能是一个个人博客应用程序。提供的文件结构表明这是一个标准的Flutter项目设置，包括特定平台的目录（android、ios、linux、macos、web）和核心Flutter文件（lib/main.dart、pubspec.yaml）。由于缺乏具体细节，这里只能做一个总体概述。

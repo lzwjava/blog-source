@@ -9,7 +9,6 @@ translated: false
 type: post
 ---
 
-
 * Ensure the code, environment, and data are correct before starting actual training.
 
 * Check the maximum running timeout of the training environment. Check the balance of the cloud platform. Ensure nothing will interrupt the training.
@@ -27,4 +26,3 @@ type: post
 * Learn from the mistakes of others, like those made with Llama2.
 
 * Instead of fixing the result, address the root cause of the issue.
-

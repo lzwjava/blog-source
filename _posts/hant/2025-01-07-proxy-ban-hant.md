@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 防火牆、代理API、VPN偵測
 translated: true
+type: post
 ---
 
 ### 目錄

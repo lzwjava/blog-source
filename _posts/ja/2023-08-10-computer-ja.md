@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: コンピュータの組み立て方
 translated: true
+type: post
 ---
 
 ![カバー](assets/images/computer/cover.jpg)

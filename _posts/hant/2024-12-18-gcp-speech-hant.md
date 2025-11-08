@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 開始使用Google文字轉語音API
 translated: true
+type: post
 ---
 
 我計劃使用Google Text-to-Speech API將一些王垠的文章轉換為音頻。以下是逐步指南，並附上ChatGPT提供的一些有用教程。一切準備就緒後，我將在這裡上傳音頻供您收聽。

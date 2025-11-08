@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: 'Java बैकेंड इंजीनियर: इंटरव्यू प्रश्न संग्रह'
 translated: true
+type: post
 ---
 
 ## प्रोजेक्ट संबंधित

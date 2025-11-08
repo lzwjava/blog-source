@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 圓形圖形溢出於 GreptimeDB 入口
 translated: true
+type: post
 ---
 
 我提交了一個 GitHub 問題，https://github.com/GreptimeTeam/docs/issues/1455，標題為「GreptimeDB 門戶：大紫色圓形圖形在較小屏幕上超出視口邊界。」

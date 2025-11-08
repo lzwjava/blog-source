@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Conferencias magistrales
 translated: true
+type: post
 ---
 
 Este es el archivo README.md del proyecto de GitHub [https://github.com/lzwjava/Keynotes](https://github.com/lzwjava/Keynotes).

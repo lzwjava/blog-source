@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تتبع أموال منزلنا
 translated: true
+type: post
 ---
 
 مؤخرًا، قمت بإنشاء مستند Markdown لتتبع المعاملات المالية المتعلقة بمنزلنا.

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 如何在一年內學會任何東西
 translated: true
+type: post
 ---
 
 如何在一年內學會任何東西？以英語為例，我花了一年時間達到雅思6分，並能在全球大公司流利使用英語工作。以下是我的方法。

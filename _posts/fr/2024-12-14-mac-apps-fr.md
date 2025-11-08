@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Applications Mac que j'utilise
 translated: true
+type: post
 ---
 
 A :

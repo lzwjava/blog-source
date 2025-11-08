@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Olvido sobre la carga de Power Banks
 translated: true
+type: post
 ---
 
 El problema de olvidar frecuentemente cargar los power banks me ha estado frustrando.
@@ -35,4 +36,3 @@ Entonces, mi solución es usar esa regleta para cargar mis tres teléfonos tambi
 Otra solución es usar la aplicación Shortcuts en iOS para configurar una notificación que me recuerde revisar o cargar los power banks a una hora específica cada día.
 
 Por cierto, se me ocurrió un nuevo método de carga: una [Caja de Cargador Universal Inteligente](./charger-box-en). Lo presenté en otro artículo. En realidad, este es un problema diferente. Se trata de cómo cargar, no de resolver el problema de olvidar cargar los power banks.
-

@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: コマンド実行前にプロキシ設定を表示
 translated: true
+type: post
 ---
 
 <div style="text-align: center;">  

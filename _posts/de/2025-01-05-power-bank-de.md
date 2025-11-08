@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Vergesslichkeit beim Aufladen von Power Banks
 translated: true
+type: post
 ---
 
 Das Problem, dass ich oft vergesse, Powerbanks aufzuladen, hat mich frustriert.
@@ -35,4 +36,3 @@ Meine Lösung ist also, diese Steckdosenleiste auch zum Laden meiner drei Telefo
 Eine weitere Lösung besteht darin, die Shortcuts-App in iOS zu verwenden, um eine Benachrichtigung einzurichten, die mich täglich zu einer bestimmten Zeit daran erinnert, die Powerbanks zu überprüfen oder aufzuladen.
 
 Übrigens habe ich mir eine neue Art der Lademethode ausgedacht: eine [Smart Universal Charger Box](./charger-box-en). Ich habe sie in einem anderen Artikel vorgestellt. Eigentlich ist das ein anderes Problem. Es geht darum, wie man lädt, nicht darum, das Problem zu lösen, dass man vergisst, Powerbanks aufzuladen.
-

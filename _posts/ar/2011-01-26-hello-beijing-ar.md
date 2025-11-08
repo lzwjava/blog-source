@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: مرحبا بكين
 translated: true
+type: post
 ---
 
 هذا المنشور كُتب أصلا باللغة الصينية ونُشر على موقع Qzone.

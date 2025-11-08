@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Mes Choix d'Applications Préférées
 translated: true
+type: post
 ---
 
 Dans un essai précédent, j'ai écrit :

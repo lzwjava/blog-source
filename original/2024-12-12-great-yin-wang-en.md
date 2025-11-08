@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: GTY - Great Teacher Yin
 top: 20
+type: post
 ---
 
 This is a story about me and Yin Wang. I just checked my Twitter account.

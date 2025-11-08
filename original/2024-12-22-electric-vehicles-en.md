@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Electric Vehicles
+type: post
 ---
 
 ## Neta

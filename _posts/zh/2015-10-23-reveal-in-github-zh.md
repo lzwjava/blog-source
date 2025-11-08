@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: Xcode 插件：在 GitHub 中显示
 translated: true
+type: post
 ---
 
 这是来自GitHub项目的README.md文件 [https://github.com/lzwjava/Reveal-In-GitHub](https://github.com/lzwjava/Reveal-In-GitHub)。

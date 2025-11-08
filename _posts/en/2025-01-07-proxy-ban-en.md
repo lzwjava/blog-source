@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: GFW, Proxy APIs, VPN Detection
 translated: false
+type: post
 ---
 
 ### Table of Contents

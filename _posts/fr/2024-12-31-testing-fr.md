@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Le Moment Propice pour les Tests
 translated: true
+type: post
 ---
 
 Hier, je me suis lancé dans la création d'un outil de configuration automatique pour Shadowsocks Outline, avec l'objectif de le transformer en un projet Python que d'autres pourraient utiliser. J'ai développé un script qui met à jour un fichier `config.yaml` avec les configurations du proxy Shadowsocks en décodant les URLs Shadowsocks à partir d'un fichier `ssconfig`. De plus, j'ai créé un autre script qui utilise `gsutil` pour téléverser le fichier d'abonnement destiné aux clients sur Google Cloud Storage.

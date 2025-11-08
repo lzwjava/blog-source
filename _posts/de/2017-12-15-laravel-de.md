@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Laravel verwenden
 translated: true
+type: post
 ---
 
 Wenn du dich in die Webentwicklung stürzt und einen Framework suchst, der mächtig und dennoch leicht zu erlernen ist, ist Laravel deine erste Wahl. Es ist ein PHP-Framework, das die Entwicklerwelt im Sturm erobert hat, dank seiner eleganten Syntax, robusten Funktionen und einer Community, die dir den Rücken stärkt. In diesem Blog werde ich dich durch die Grundlagen des Einstiegs in Laravel führen und dir zeigen, warum es sich lohnt.

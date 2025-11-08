@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Cuisiner avec une Friteuse à Air
 translated: true
+type: post
 ---
 
 L'appareil à air fryer est devenu mon outil de cuisine préféré récemment. J'ai acheté le Midea Air Fryer KZE5004 pour environ 126 CNY.  

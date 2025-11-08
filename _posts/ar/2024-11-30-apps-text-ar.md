@@ -8,6 +8,7 @@ title: التطبيقات التي استخدمتها على iOS - النسخة 
 top: 10
 translated: true
 translation: false
+type: post
 ---
 
 \#:

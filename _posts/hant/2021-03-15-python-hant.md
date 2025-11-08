@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: Python 教程學習筆記
 translated: true
+type: post
 ---
 
 通過之前的學習，我們已經對Python了解了一些。現在，根據官網文檔我們繼續補充一些Python的知識。

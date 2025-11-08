@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 電話検索と音楽
 translated: true
+type: post
 ---
 
 ### 電話検索

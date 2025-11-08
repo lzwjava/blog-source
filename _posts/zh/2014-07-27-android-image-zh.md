@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 安卓图像处理简化
 translated: true
+type: post
 ---
 
 在 Android 中处理图像可能会很棘手——位图会占用大量内存，旋转会影响方向，裁剪需要精确度。这就是 `BitmapUtils` 和 `Crop` 等实用工具类派上用场的地方。在这篇文章中，我将带你了解 `com.lzw.flower.utils` 包中的一对强大的类。我们将探讨它们的代码，分解每个方法的作用，并展示如何在项目中使用它们。让我们开始吧！

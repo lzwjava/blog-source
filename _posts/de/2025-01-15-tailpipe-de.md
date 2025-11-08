@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 'Der Fall des haarigen Auspuffs: Ein Autoreparatur-Mysterium'
 translated: true
+type: post
 ---
 
 Im März 2018 kaufte ich einen gebrauchten Chevrolet Sail aus dem Jahr 2011. Allerdings habe ich ihn um Juni 2018 herum verunfallt. Ich verkaufte ihn an eine andere Person vor Ort. Nach einigen Jahren kaufte ich ihn zurück.

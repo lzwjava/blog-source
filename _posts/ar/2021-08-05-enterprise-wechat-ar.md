@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: تكامل مع وي تشات للشركات
 translated: true
+type: post
 ---
 
 خلال فترة عملي في ShowMeBug، ساهمت في مشروع تكامل WeChat للشركات. كان ذلك يتضمن تكامل ShowMeBug مع WeChat للشركات، مما يوفر الوصول السلس إلى أدوات المقابلة الفنية داخل بيئة WeChat للشركات. استخدمت تقنيات مثل Ruby، Ruby on Rails، PostgreSQL، وSDK WeChat لإنشاء تجربة مستخدمة سلسة لكل من المقابلة والمرشحين.

@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 化学老师的名言
 translated: true
+type: post
 ---
 
 这篇文章最初用中文撰写并在QQ空间发布。

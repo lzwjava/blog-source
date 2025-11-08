@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Nebenprojekte
 translated: true
+type: post
 ---
 
 ## Skybound: Die Luftreise von Guangzhou nach Lhasa

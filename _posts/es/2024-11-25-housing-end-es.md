@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: El Fin del Sueño de la Vivienda
 translated: true
+type: post
 ---
 
 La realidad del mercado inmobiliario se hizo evidente cuando la inversión de mi familia en Guangzhou se tornó amarga. Compramos una casa por 2 millones de CNY en 2022, solo para ver su valor desplomarse a 1 millón de CNY para 2024. Esto no es solo una historia de números, sino un reflejo de un paradigma global en transformación.

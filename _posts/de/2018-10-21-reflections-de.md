@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: '## Unternehmerische Gedanken'
 translated: true
+type: post
 ---
 
 Ein Vorteil davon, selten in sozialen Medien aktiv zu sein, ist, dass man, wenn man seine Gedanken mit anderen teilen möchte, viele Ideen hat, die man teilen kann. Weil man selten spricht, hat man, wenn man einmal anfängt, natürlich viel zu sagen.

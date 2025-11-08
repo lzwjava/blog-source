@@ -6,9 +6,8 @@ lang: en
 layout: post
 title: How to Build a Computer
 translated: false
+type: post
 ---
-
-
 
 ![cover](assets/images/computer/cover.jpg)
 

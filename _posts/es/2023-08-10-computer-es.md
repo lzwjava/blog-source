@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Cómo Construir una Computadora
 translated: true
+type: post
 ---
 
 ![portada](assets/images/computer/cover.jpg)

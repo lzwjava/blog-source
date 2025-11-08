@@ -7,6 +7,7 @@ layout: post
 title: Astigmatism in Reversing Myopia
 top: 10
 translated: false
+type: post
 ---
 
 ## Abstract  

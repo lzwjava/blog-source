@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: mortage
 translated: true
+type: post
 ---
 
 私は2022年7月頃に中国農業銀行から103万元の住宅ローンを組んでいます。

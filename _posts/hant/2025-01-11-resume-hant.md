@@ -8,6 +8,7 @@ prompt: Do not translate specific items such as project names, company names, or
   names if you are not sure.
 title: 履歷表
 translated: true
+type: post
 ---
 
 ## Latex PDF 檔

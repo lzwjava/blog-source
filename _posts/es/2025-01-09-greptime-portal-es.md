@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Desbordamiento Gráfico Circular en el Portal de GreptimeDB
 translated: true
+type: post
 ---
 
 He presentado un problema en GitHub, https://github.com/GreptimeTeam/docs/issues/1455, titulado "GreptimeDB Portal: El gráfico circular púrpura grande excede los límites del viewport en pantallas más pequeñas."

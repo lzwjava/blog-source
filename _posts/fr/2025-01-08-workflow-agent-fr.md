@@ -7,6 +7,7 @@ layout: post
 title: Le workflow est en BFS (Breadth-First Search), l'agent est en DFS (Depth-First
   Search).
 translated: true
+type: post
 ---
 
 Selon Anthropic [^1] :
@@ -32,4 +33,3 @@ Une autre considération est que, à chaque étape, l'IA devrait évaluer ce qu'
 ---
 
 [^1]: Construire des agents efficaces, [Anthropic](https://www.anthropic.com/research/building-effective-agents)
-

@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Using Ruby on Rails
 translated: false
+type: post
 ---
 
 During my time at ShowMeBug, I contributed to the Enterprise WeChat Integration project. This involved integrating ShowMeBug with Enterprise WeChat, providing seamless access to technical interview tools within the Enterprise WeChat ecosystem. I utilized technologies such as Ruby, Ruby on Rails, PostgreSQL, and the WeChat SDK to create a smooth user experience for both interviewers and candidates. 

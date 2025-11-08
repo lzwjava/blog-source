@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Ma première conversation avec ChatGPT
 translated: true
+type: post
 ---
 
 J'ai finalement obtenu mon compte OpenAI pour essayer ChatGPT. Je savais que http://sms-activate.org pouvait me fournir un code SMS via un faux numéro de téléphone indien. Cependant, le site web continue d'afficher l'erreur : les services d'OpenAI ne sont pas disponibles dans votre pays. J'essaie de m'inscrire à nouveau sur mon téléphone portable avec une autre adresse e-mail. Cette fois, je réussis. Ensuite, je discute avec ChatGPT. Voici la conversation entre nous. Il est intelligent, mais je finis par le piéger en montrant qu'il n'est pas toujours aussi malin. Ha. Drôle.

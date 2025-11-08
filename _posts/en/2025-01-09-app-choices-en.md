@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: My Curated App Choices
 translated: false
+type: post
 ---
 
 In a previous essay, I wrote:

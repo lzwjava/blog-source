@@ -5,6 +5,7 @@ image: true
 lang: en
 layout: post
 title: Display Proxy Settings Before Running Commands
+type: post
 ---
 
 <div style="text-align: center;">  

@@ -7,9 +7,8 @@ layout: post
 title: iOS Apps I Used - Table Version
 translated: false
 translation: false
+type: post
 ---
-
-
 
 | App Name | Bundle Identifier | Version |
 |----------|------------------|----------|

@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: الإعدادات الخاصة في iOS
 translated: true
+type: post
 ---
 
 ## الإعدادات لكل تطبيق

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 人工智能工具
 translated: true
+type: post
 ---
 
 以下是一些我使用過的AI工具，分類以便清楚：

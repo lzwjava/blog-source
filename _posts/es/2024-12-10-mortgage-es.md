@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Beneficios de realizar pagos anticipados parciales de la hipoteca
 translated: true
+type: post
 ---
 
 Tengo una hipoteca de 1.03 millones de CNY, que solicité al Agricultural Bank of China alrededor de julio de 2022.

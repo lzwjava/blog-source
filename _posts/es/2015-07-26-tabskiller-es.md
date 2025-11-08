@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: TabsKiller
 translated: true
+type: post
 ---
 
 Este es el README.md del proyecto de GitHub [https://github.com/lzwjava/TabsKiller](https://github.com/lzwjava/TabsKiller).

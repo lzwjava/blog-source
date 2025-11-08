@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Subscribe
+type: post
 ---
 
 Stay updated with my latest blog posts by subscribing via RSS feed, audio feed, or following me on X (Twitter).  
@@ -50,4 +51,3 @@ Besides, here are some of my platform accounts:
 | Messaging  | [Telegram](https://t.me/lzwjava)               |
 |                | [WhatsApp](https://wa.me/12345678900)          |
 | Other      | [Quora](https://www.quora.com/profile/Lzw-2)    |
-

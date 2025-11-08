@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: Voyage à Hong Kong et Macao
 translated: true
+type: post
 ---
 
 - Réservé l'hôtel Regal Riverside à Sha Tin pour 2 nuits (1286 CNY) via l'application Qunar.

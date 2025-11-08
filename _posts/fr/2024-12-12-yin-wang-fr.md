@@ -7,6 +7,7 @@ layout: post
 title: Œuvres complètes de Yin Wang
 top: 20
 translated: true
+type: post
 ---
 
 ## Chinois

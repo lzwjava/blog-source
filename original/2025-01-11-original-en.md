@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Original Posts
+type: post
 ---
 
 These are my original blog posts.

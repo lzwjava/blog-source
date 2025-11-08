@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: On the Way Forward for China's Economy
 translated: true
+type: post
 ---
 
 After 40 years of reform and opening up focused on economic development, China has made substantial progress. However, crises are emerging. The economy will face major challenges in coming years. Here are some potential solutions.

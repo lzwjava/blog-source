@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Festpreis-Abonnements Sind Veraltet
 translated: true
+type: post
 ---
 
 ### Der Fall für flexible Preise in Abonnementdiensten

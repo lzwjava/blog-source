@@ -9,6 +9,7 @@ title: 'LeanChat iOS
 
   Chat en Línea iOS'
 translated: true
+type: post
 ---
 
 Este es el archivo README.md del proyecto de GitHub [https://github.com/lzwjava/leanchat-ios](https://github.com/lzwjava/leanchat-ios).

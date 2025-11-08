@@ -21,5 +21,4 @@ type: post
 
 - Everyone lives their own life; some things we have in common, while other things are different.  
 
-- People speak different languages, live in different places, work on different things, and interact with different people.  
-
+- People speak different languages, live in different places, work on different things, and interact with different people.

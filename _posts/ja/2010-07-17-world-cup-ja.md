@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: 昨日のワールドカップ
 translated: true
+type: post
 ---
 
 この記事はもともと中国語で書かれ、Qzoneで掲載されました。

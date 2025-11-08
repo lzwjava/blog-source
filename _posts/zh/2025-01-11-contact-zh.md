@@ -6,6 +6,7 @@ lang: zh
 layout: post
 title: 联系
 translated: true
+type: post
 ---
 
 嗨，我是李志维。您可以在[这里](/introduction)找到我的简介。我的网站上有八个按钮，突出显示了我最热衷的事情；我鼓励您浏览它们。

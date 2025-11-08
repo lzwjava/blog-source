@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: So greift man auf Google zu
 translated: true
+type: post
 ---
 
 Dieser Beitrag wurde ursprünglich auf Chinesisch verfasst.

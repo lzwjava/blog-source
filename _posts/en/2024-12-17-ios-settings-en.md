@@ -6,6 +6,7 @@ lang: en
 layout: post
 title: Complete iOS Power User Guide
 translated: false
+type: post
 ---
 
 ### Table of Contents

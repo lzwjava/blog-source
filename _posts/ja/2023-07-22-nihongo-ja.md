@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: ChatGPTが私の日本語学習をサポート
 translated: true
+type: post
 ---
 
 ### はじめに

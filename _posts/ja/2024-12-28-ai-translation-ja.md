@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: AI完全駆動の新しいQuoraまたはTikTok
 translated: true
+type: post
 ---
 
 * AI翻訳を完全に活用した新しいTikTokやQuora。

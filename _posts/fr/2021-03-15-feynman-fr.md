@@ -6,6 +6,7 @@ lang: fr
 layout: post
 title: 'mathjax2mobi : Convertir des fichiers HTML avec MathJax en livres électroniques'
 translated: true
+type: post
 ---
 
 ### Présentation du projet

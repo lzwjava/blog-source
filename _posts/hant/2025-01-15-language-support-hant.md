@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 語言支援：字體與語音轉換
 translated: true
+type: post
 ---
 
 我的部落格現在支援九種語言：日語（`ja`）、西班牙語（`es`）、印地語（`hi`）、中文（`zh`）、英文（`en`）、法文（`fr`）、德文（`de`）、阿拉伯文（`ar`）和繁體中文（`hant`）。你可以在 [https://lzwjava.github.io](https://lzwjava.github.io) 找到這個網站。

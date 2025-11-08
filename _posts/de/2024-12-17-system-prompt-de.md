@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Erkundung von System-Prompts in Grok und Claude
 translated: true
+type: post
 ---
 
 Ich habe es hier erneut gepostet, um das Prompt Engineering zu lernen.

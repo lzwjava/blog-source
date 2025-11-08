@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: KI-Werkzeuge
 translated: true
+type: post
 ---
 
 Hier sind einige KI-Tools, die ich verwendet habe, kategorisiert für Klarheit:

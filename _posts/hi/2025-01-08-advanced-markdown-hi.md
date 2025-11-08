@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: उन्नत Markdown उपयोग
 translated: true
+type: post
 ---
 
 ## संदर्भ

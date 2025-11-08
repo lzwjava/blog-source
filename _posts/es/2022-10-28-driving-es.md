@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Escuchando Mientras Conduces
 translated: true
+type: post
 ---
 
 *Esta entrada del blog fue traducida por ChatGPT.*

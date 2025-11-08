@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Die Welt der Künstlichen Allgemeinen Intelligenz
 translated: true
+type: post
 ---
 
 Wenn wir eines Tages einer KI einfach befehlen könnten, eine App wie TikTok oder YouTube mit einem einzigen Befehl zu erstellen, und sie uns ein vollständiges Projekt mit Millionen von Codezeilen liefern würde, wäre das wirklich erstaunlich.
@@ -55,4 +56,3 @@ In der Zukunft werden Roboter in Haushalten, Geschäften, Schulen, Büros, Kinos
 Es wird ein Weltmodell in der Cloud geben, ein sehr großes Modell, das potenziell eine Größe von etwa 100 Petabyte haben könnte. Zum Vergleich: 1 Petabyte entspricht 1.024 Terabyte, und 1 Terabyte entspricht 1.024 Gigabyte. Eine Version des Llama 3 70B-Modells hat eine Dateigröße von 21,1 GB.
 
 Roboter auf der Welt müssen dieses Weltmodell in der Cloud konsultieren, um Aktionen auszuführen. Eine Netzwerkverzögerung von 100 Millisekunden oder sogar 1 Sekunde ist akzeptabel, solange der Roboter seine Aufgaben effektiv erledigen kann.
-

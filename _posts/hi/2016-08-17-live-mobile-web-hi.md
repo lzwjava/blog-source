@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: लाइव मोबाइल वेब
 translated: true
+type: post
 ---
 
 यह `README.md` github पोजेक्ट [https://github.com/lzwjava/live-mobile-web](https://github.com/lzwjava/live-mobile-web) से है।

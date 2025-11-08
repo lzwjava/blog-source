@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: ¿A quién se le asigna el proyecto y quién se lleva el dinero?
 translated: true
+type: post
 ---
 
 ¿A quién asignar los proyectos, a quién dar los puestos de trabajo, a quién dejar ganar el dinero? Todas estas preguntas son similares. Después de haber realizado docenas de proyectos, colaborado con decenas de diseñadores e ingenieros freelance, intentado conectar más de cien proyectos, y luego de haber pasado más de dos años interactuando con los amigos con los que he colaborado, finalmente he llegado a entender cómo manejar mejor este problema. No tengo muchos proyectos en mis manos, no es nada extraordinario, pero reflexionar y resumir es bastante importante, esforzándome por hacer las cosas mejor.

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 我使用的Mac应用程序
 translated: true
+type: post
 ---
 
 A:

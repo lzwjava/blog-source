@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Workflow ist BFS, Agent ist DFS
 translated: true
+type: post
 ---
 
 Laut Anthropic [^1]:
@@ -31,4 +32,3 @@ Eine weitere Überlegung ist, dass die KI bei jedem Schritt bewerten sollte, was
 ---
 
 [^1]: Effektive Agenten entwickeln, [Anthropic](https://www.anthropic.com/research/building-effective-agents)
-

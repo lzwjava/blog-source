@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: 探索 WebSocket
 translated: true
+type: post
 ---
 
 *Dieser Blogbeitrag wurde mit Unterstützung von ChatGPT-4o erstellt.*

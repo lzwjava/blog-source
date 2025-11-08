@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: طلب الانسحاب من الدراسة
 translated: true
+type: post
 ---
 
 السادة قادة المدرسة المحترمين،

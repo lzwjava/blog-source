@@ -6,6 +6,7 @@ lang: ar
 layout: post
 title: 在创业公司的一次演讲
 translated: true
+type: post
 ---
 
 في أغسطس 2021، قدمت عرضًا في ShowMeBug. كان الموضوع حول بعض الأشياء التي أستمتع بها. يمكنك العثور على العرض التقديمي على [GitHub](https://github.com/lzwjava/Keynotes/blob/master/ShowMeBug/20210805lzw.pdf).

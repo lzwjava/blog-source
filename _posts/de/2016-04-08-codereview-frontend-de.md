@@ -6,6 +6,7 @@ lang: de
 layout: post
 title: Effiziente Code-Review-Plattform mit Vue.js erstellen
 translated: true
+type: post
 ---
 
 In der heutigen schnelllebigen Entwicklungswelt ist die Codequalität von entscheidender Bedeutung. Ein gut strukturierter Code-Review-Prozess kann die Leistung eines Teams steigern und die individuellen Fähigkeiten schärfen. Kürzlich habe ich ein faszinierendes Projekt erkundet – einen Code-Review-Dienst, der mit Vue.js entwickelt wurde und Entwickler mit Experten-Reviewern verbindet, um ihre Codebases zu verfeinern. Tauchen wir in die technischen Grundlagen dieser Plattform ein, wobei wir uns auf ihre Frontend-Architektur, die Komponentendesign und die Styling-Techniken konzentrieren.

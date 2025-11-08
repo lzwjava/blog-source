@@ -6,6 +6,7 @@ lang: hi
 layout: post
 title: मध्य विद्यालय के वर्ष
 translated: true
+type: post
 ---
 
 इस पोस्ट को जुलाई 2025 में लिखा गया था।

@@ -6,6 +6,7 @@ lang: hant
 layout: post
 title: 一些全球雲端平台
 translated: true
+type: post
 ---
 
 <div align="center"><img src="/assets/images/cloud/platform.jpg" width="400px"/><img/></div>

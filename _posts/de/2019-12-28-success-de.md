@@ -7,6 +7,7 @@ layout: post
 title: 'Yin Wang: Über den sogenannten Erfolg'
 top: 20
 translated: true
+type: post
 ---
 
 Viele Menschen, die die online gegen mich gerichtete Spott nicht ertragen können, geben mir Ratschläge wie diesen: *„Erst bringst du diese traditionellen Internetfirmen, deren Gründer langsam alt werden, zu Fall. Sobald du ein ‚Erfolg‘ bist, wird selbst ein beiläufiger Post dir Schmeicheleien einbringen. Viele hören jetzt nicht auf dich, aber wenn du dominierst, werden sie sich unterwerfen.“*

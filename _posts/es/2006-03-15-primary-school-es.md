@@ -6,6 +6,7 @@ lang: es
 layout: post
 title: Mi recuerdo de la escuela primaria
 translated: true
+type: post
 ---
 
 Este post fue escrito en julio de 2025.

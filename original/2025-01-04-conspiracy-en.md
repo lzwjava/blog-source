@@ -5,6 +5,7 @@ image: false
 lang: en
 layout: post
 title: Conspiracy
+type: post
 ---
 
 ### Table of Contents

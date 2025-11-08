@@ -21,4 +21,3 @@ The electric lamp I use for studying is 2 watts.
 {: .centered }
 ![](assets/images/watt/w2.jpg){: .responsive }
 *Source: JD.com*{: .caption }
-

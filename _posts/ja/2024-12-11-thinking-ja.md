@@ -6,6 +6,7 @@ lang: ja
 layout: post
 title: メタ思考フレームワーク
 translated: true
+type: post
 ---
 
 ## 思考

@@ -9,7 +9,6 @@ translated: false
 type: post
 ---
 
-
 We couldn't change the past, but we surely could try to reflect more on the past to gain more benefits from it and have a better future.
 
 It seems old-fashioned to live in a village and participate in farming in modern life. But I believe that experience will help me in other aspects.
