@@ -19,7 +19,9 @@
       "Bash(nmcli -f all device wifi list)",
       "Bash(git add scripts/gpg/gpg_decrypt.py)",
       "Read(//Users/lzwjava/projects/LibreChat/**)",
-      "Bash(jekyll build:*)"
+      "Bash(jekyll build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": [],
