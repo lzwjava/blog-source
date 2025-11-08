@@ -1,12 +1,12 @@
 ---
-title: AI's Developer and Consumer Divide
-lang: en
-layout: post
 audio: false
-translated: false
 generated: true
 image: false
+lang: en
+layout: post
 model: x-ai/grok-4-fast
+title: AI's Developer and Consumer Divide
+translated: false
 ---
 
 Yeah, you're spot on with that observation—AI innovation is exploding on the developer side right now, where tools, libraries, and platforms make it dead simple to prototype and build on a laptop without massive infra. Think open-source frameworks, no-code builders, and cloud IDEs that lower the barrier for hackers and teams. On the flip side, the consumer/app layer is all about polished, accessible experiences that "just work" for end-users, like ChatGPT for chat or Sora for video gen—more about scaling delivery than raw creation. It's a symbiotic setup: devs build the Lego bricks, apps snap them together for the masses.

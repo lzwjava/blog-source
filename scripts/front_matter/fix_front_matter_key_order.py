@@ -71,7 +71,7 @@ def fix_front_matter_key_order_for_file(file_path, post, actual_keys, sorted_key
 def fix_front_matter_key_order(max_files=None, verbose=False):
     """Fix front matter key order issues in all markdown files."""
     print("Scanning markdown files for front matter key order issues...")
-    issues, total_scanned = scan_markdown_files_for_front_matter_key_order(verbose=verbose)
+    issues, total_scanned = scan_markdown_files_for_front_matter_key_order_wrapper(verbose=verbose)
 
     if not issues:
         print("No front matter key order issues found.")
