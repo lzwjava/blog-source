@@ -121,6 +121,11 @@ def parse_args():
         action="store_true",
         help="Open the note in browser after creating",
     )
+    parser.add_argument(
+        "--no-push",
+        action="store_true",
+        help="Skip the gpa git push step",
+    )
     return parser.parse_args()
 
 def generate_random_date():
@@ -156,15 +161,16 @@ if __name__ == "__main__":
             process_tables_in_file(created_path, fix_tables=True)
         except Exception as e:
             print(f"[warn] MathJax fix failed for {created_path}: {e}")
-            
-    gpa()
 
-    # Call gpa function and open browser if --open flag is specified
+    # Only run gpa if --no-push is not specified
+    if not args.no_push:
+        gpa()
+
+    # Open browser if --open flag is specified
     if args.open:
-        try:            
+        try:
             open_note_in_browser(created_path)
         except Exception as e:
-            print(f"[warn] gpa failed: {e}, not opening browser")
-    else:
-        # Only create the note, skip gpa and browser opening
-        print(f"[info] Note created at {created_path}")
+            print(f"[warn] Failed to open browser: {e}")
+
+    print(f"[info] Note created at {created_path}")
