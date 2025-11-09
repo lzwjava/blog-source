@@ -22,7 +22,8 @@
       "Bash(jekyll build:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(/tmp/test_utf8.txt)"
+      "Bash(/tmp/test_utf8.txt)",
+      "Bash(/tmp/test_binary.bin:*)"
     ],
     "deny": [],
     "ask": [],
