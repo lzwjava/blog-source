@@ -21,7 +21,8 @@
       "Read(//Users/lzwjava/projects/LibreChat/**)",
       "Bash(jekyll build:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(/tmp/test_utf8.txt)"
     ],
     "deny": [],
     "ask": [],
