@@ -122,7 +122,7 @@ def main():
     remaining_issues = scan_markdown_files_for_table_issues()
 
     if remaining_issues:
-        print(f"  Warning: {len(remaining_issues)} issue(s) still remain!")
+        print(f"Â  Warning: {len(remaining_issues)} issue(s) still remain!")
         return 1
     else:
         print(" All markdown table formatting issues have been fixed!")
