@@ -1,0 +1,19 @@
+---
+audio: false
+generated: true
+image: false
+lang: fr
+layout: post
+model: x-ai/grok-4-fast
+title: Le Rituel de Randonnée de Fang Zhouzi parmi les Fleurs Sauvages
+translated: true
+type: note
+---
+
+Fang Zhouzi, plus connu sous son nom de plume Fang Shimin (方是民), est un écrivain sino-américain, biochimiste et sceptique scientifique de premier plan. Il a obtenu un doctorat en biochimie de l'Université du Sussex au Royaume-Uni et a ensuite poursuivi des travaux postdoctoraux aux États-Unis, où il vit depuis le début des années 2000 (d'abord à New York avant de s'installer en Californie). Son expertise médicale et scientifique découle de cette formation—il est depuis longtemps impliqué dans l'écriture sur les questions de santé et dans la démystification des pseudosciences, des allégations de médecines alternatives et des fraudes académiques, particulièrement en Chine. Cela lui a valu à la fois la célébrité et la controverse ; il est souvent surnommé le « gardien de la science » en Chine pour avoir exposé des escroqueries très médiatisées, mais cela a également conduit à des batailles juridiques, notamment une arrestation en 2014 en Chine lors d'une visite (il a ensuite été libéré et est retourné aux États-Unis).
+
+Quant à son « obsession » pour les fleurs, elle est liée à une passion plus profonde et ancienne pour l'histoire naturelle (博物学) qui précède son installation aux États-Unis. Durant ses études universitaires en Chine, Fang était un collectionneur passionné de spécimens biologiques, y compris de plantes, bien qu'il ait initialement préféré les animaux car l'identification des plantes lui semblait plus fastidieuse. Avec le temps, cela a évolué vers une appréciation plus large de la botanique et de l'écologie. Aujourd'hui installé à San Diego, en Californie—une région réputée pour ses superfloraisons saisonnières de fleurs sauvages diversifiées—il a transformé cet intérêt en un rituel quasi quotidien. Depuis environ 2020, il parcourt les sentiers locaux presque tous les jours pour observer et photographier les fleurs sauvages indigènes, par tous les temps. La pandémie de COVID-19 a joué un grand rôle dans le déclenchement de cette intensité : avec les déplacements restreints, il a canalisé son énergie pour explorer la flore locale abondante à la place, enregistrant plus de 700 jours consécutifs d'observations début 2022. Il décrit cela comme une pratique méditative et ancrante qui le connecte aux rythmes de la nature, et c'est devenu une façon de célébrer les beautés simples de la vie au milieu de ses débats en ligne souvent conflictuels.
+
+Sur X (anciennement Twitter), où il a plus de 950 000 abonnés, Fang partage régulièrement ces observations—souvent sous des titres comme « 今日所见野花 » (Les fleurs sauvages vues aujourd'hui), accompagnées d'identifications détaillées (en noms botaniques anglais et chinois) et de photos d'espèces comme la renouée de Californie, le buisson doré côtier, ou des espèces rares et menacées comme l'aster de San Bernardino. C'est un contraste frappant avec ses publications habituelles sur la critique scientifique ou la politique ; ces mises à jour florales ressemblent à une échappatoire personnelle, mettant l'accent sur la pleine conscience et le « soin de la vie » que vous avez mentionné. Il fait même du bénévolat pour l'entretien des sentiers sur les terres publiques et ses photos ont été utilisées dans des articles académiques ou des expositions, montrant à quel point il prend cela au sérieux. D'une certaine manière, c'est thérapeutique pour une personne avec son passé très stressant—se concentrer sur la résilience silencieuse des plantes dans la nature.
+
+[做一个博物学爱好者](http://xysblogs.org/fangzhouzi/archives/12678)
