@@ -10,6 +10,10 @@ import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '../../tests/workflow'))
 from test_posts_complete import analyze_post_completeness
 
+# Import utility functions for handling note and post files
+sys.path.append(os.path.dirname(__file__))
+from update_lang_utils import get_original_file_for_post
+
 load_dotenv()
 
 INPUT_DIR = "original"
@@ -219,20 +223,30 @@ def main():
         print("Fixing orphaned posts...")
         orphaned_posts, _ = analyze_post_completeness()
         changed_files = set()
-        preferred_orig_langs = ['en', 'zh', 'ja']
         for post in orphaned_posts:
             if not post['has_original_source']:
                 print(f"Skipping {post['base_name']} - no original source")
                 continue
+
+            # Find an existing translated file for this post to determine the original source
             original_file = None
-            for orig_lang in preferred_orig_langs:
-                candidate = os.path.join('original', f"{post['base_name']}-{orig_lang}.md")
+            found_lang = None
+
+            # Check if any translated version exists in _posts
+            for lang in ['en', 'zh', 'ja', 'es', 'hi', 'fr', 'de', 'ar', 'hant']:
+                candidate = os.path.join('_posts', lang, f"{post['base_name']}-{lang}.md")
                 if os.path.exists(candidate):
-                    original_file = candidate
-                    break
+                    # Use the utility function to find the original file
+                    result = get_original_file_for_post(candidate)
+                    if result:
+                        original_file, found_lang = result
+                        break
+
             if not original_file:
-                print(f"No original file found for {post['base_name']} in preferred languages")
+                print(f"Could not find original source for {post['base_name']}")
                 continue
+
+            print(f"Found original file for {post['base_name']}: {original_file}")
             for missing_lang in post['missing_languages']:
                 if target_language == "all" or missing_lang == target_language:
                     changed_files.add((original_file, missing_lang))
