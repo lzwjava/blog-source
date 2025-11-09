@@ -33,6 +33,7 @@ Disk performance in storage systems (like hard disk drives or HDDs and solid-sta
 - **Real-world impact**: Common in databases (e.g., PostgreSQL queries), virtual machines, or multi-threaded apps, where random I/O can cause stalls, increased CPU wait times, and overall system slowdowns. In extreme cases, it turns a fast SSD into a performance limiter.
 
 #### Key Differences: HDD vs. SSD
+
 | Aspect              | HDD (Spinning Disk)                  | SSD (Flash-Based)                    |
 |---------------------|--------------------------------------|--------------------------------------|
 | **Sequential Write Speed** | High (100-200 MB/s) but limited by rotation | Very high (500 MB/s to 7 GB/s on NVMe) |

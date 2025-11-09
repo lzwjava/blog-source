@@ -57,6 +57,7 @@ If editing the source (like `variables.h`) isn't an option—maybe due to a read
      - No install needed; containers are pre-built.
 
 #### Quick Comparison
+
 | Method              | OS Support          | Effort | Notes |
 |---------------------|---------------------|--------|-------|
 | **Apt/DNF/Pacman** | Linux (Debian/Fedora/Arch) | Low | Pre-compiled; wordlists included. |

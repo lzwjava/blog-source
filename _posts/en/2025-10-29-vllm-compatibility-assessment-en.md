@@ -15,6 +15,7 @@ type: note
 Yes, your laptop can run vLLM based on the provided system details. vLLM is a high-throughput serving engine for large language models, and your setup meets or aligns with its core requirements. Here's a breakdown:
 
 #### Key Requirements Met
+
 | Requirement | Your System | vLLM Support Notes |
 |-------------|-------------|--------------------|
 | **OS** | Ubuntu 24.04.2 LTS (Linux) | Fully supported (Linux is required; Windows needs WSL). |

@@ -46,6 +46,7 @@ This command shows detailed info on your Ethernet interface (enp4s0), which is t
   - Permanent (no expiration).
 
 #### Quick Summary Table
+
 | Aspect       | Value/Details                  | What It Means |
 |--------------|--------------------------------|---------------|
 | **Status**  | UP, MTU 1500                  | Interface is active and handling standard packets. |

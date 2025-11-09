@@ -26,6 +26,7 @@ High Bandwidth Memory (HBM) is a type of advanced computer memory technology des
   - **HBM4 (expected 2026+)**: Aims for even wider interfaces and 2 TB/s+ speeds.
 
 #### HBM vs. Other Memory Types
+
 | Feature          | HBM                  | GDDR6 (e.g., in consumer GPUs) | DDR5 (general-purpose) |
 |------------------|----------------------|-------------------------------|------------------------|
 | **Bandwidth**   | Extremely high (1+ TB/s) | High (~0.7-1 TB/s)           | Moderate (~50-100 GB/s)|

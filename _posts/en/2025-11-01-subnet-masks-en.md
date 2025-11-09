@@ -44,6 +44,7 @@ Your explanation is **exactly right**—let's confirm and expand on it step by s
    - If the destination is outside (e.g., 192.168.2.50), it goes to the default gateway (your router at 192.168.1.1) to route elsewhere.
 
 #### Quick Visual: IP Address + Subnet Mask Example
+
 | IP Address       | Subnet Mask      | Network Portion | Host Portion | Full Network ID |
 |------------------|------------------|-----------------|--------------|-----------------|
 | 192.168.1.100   | 255.255.255.0   | 192.168.1      | .100        | 192.168.1.0    |
