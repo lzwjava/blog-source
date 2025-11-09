@@ -1,0 +1,35 @@
+---
+audio: false
+generated: true
+image: false
+lang: fr
+layout: post
+model: x-ai/grok-4-fast
+title: Comparaison de WebSphere Liberty et WAS traditionnel
+translated: true
+type: note
+---
+
+### Comparaison : IBM WebSphere Application Server (WAS traditionnel) vs. WebSphere Liberty Profile (WLP)
+
+IBM WebSphere Application Server (WAS) traditionnel, souvent appelé WAS Classic ou profil complet, est un serveur Java EE/Jakarta EE mature et riche en fonctionnalités conçu pour les applications d'entreprise à grande échelle. WebSphere Liberty Profile (WLP), introduit en 2012, est un runtime léger et modulaire basé sur Open Liberty, optimisé pour les déploiements modernes cloud-natifs comme les microservices. Les deux partagent des composants de base et prennent en charge des standards comme Java EE 7/Jakarta EE, mais diffèrent par leur architecture, leur flexibilité et leurs cas d'utilisation. Voici une comparaison côte à côte.
+
+| Aspect                       | WAS traditionnel                                                                                                                              | WebSphere Liberty (WLP)                                                                                                                                                                  |
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Architecture**             | Noyau fixe et monolithique ; charge tous les services au démarrage. Empreinte plus importante (gigaoctets).                                    | Noyau composable avec une modularité basée sur les fonctionnalités ; chargement paresseux des seuls composants nécessaires. Petite empreinte (< 100 Mo de base).                          |
+| **Performances**             | Haut débit pour les charges de travail complexes ; démarrage plus lent (minutes) et utilisation mémoire plus élevée.                          | Démarrage plus rapide (secondes), mémoire inférieure, et jusqu'à 30 % de débit supérieur dans certains scénarios (p. ex., z/OS) ; idéal pour les conteneurs.                             |
+| **Fonctionnalités/APIs**     | Plateforme Java EE/Jakarta EE complète, incluant les éléments legacy/propriétaires (p. ex., EJB Entity Beans obsolètes, JAX-RPC, OSGi complet, WS-BA). Prise en charge moins flexible du mélange de versions. | Java EE/Jakarta EE de base et MicroProfile ; adoption plus rapide des nouvelles APIs (p. ex., Java EE 7 un an plus tôt). Manque certaines fonctionnalités legacy (p. ex., pas de sessions mémoire-à-mémoire intégrées ; nécessite des alternatives comme WXS). Mélange et correspondance faciles des versions d'API. |
+| **Gestion & Configuration**  | Centralisée via les cellules et le Deployment Manager (DMgr) ; scripts wsadmin (JACL/Jython) ; riche console d'administration. Étroitement couplé, impose la cohérence mais limite l'évolutivité (quelques centaines de serveurs). | Configuration XML basée sur des fichiers (server.xml) ; scripts JMX ; Admin Center pour la surveillance. Collectifs évolutifs (jusqu'à 10 000 serveurs, sans agent). "Configuration as code" pour DevOps ; pas de synchronisation imposée (gérée par l'utilisateur). |
+| **Déploiement & Mises à jour** | Basé sur des profils ; mises à jour monolithiques via des versions majeures (p. ex., modifications de configuration/applications nécessaires). Prend en charge les mises à jour sans interruption. | Packages "rip-and-replace" ; modèle de livraison continue avec une migration minimale (configurations souvent inchangées). Gestion de version plus facile dans le contrôle de source ; versions Java hybrides. |
+| **Sécurité**                 | Complète : audit, gestion améliorée des clés, SSO SAML. Sécurisé par défaut (OAuth, SPNEGO).                                                  | Fonctionnalités incrémentielles (p. ex., appSecurity) ; ajoute JWT/OpenID Connect. Lacunes dans l'audit/la gestion des clés ; sécurisé par défaut mais nécessite des modules complémentaires pour les besoins avancés. |
+| **Capacités opérationnelles** | Avancées : gestion intelligente (politiques de service/santé), clustering EJB/JMS, reprise de transaction automatisée, mise en cache des services web. | De base : routage dynamique/auto-mise à l'échelle ; journalisation JSON, gestion Java Batch, WS-AtomicTransaction. Manque certains clustering (p. ex., JMS autonome).                     |
+| **Adéquation Cloud/DevOps**  | Bonne pour les migrations IaaS préservant les configurations ; compatible Docker mais moins agile. Complexe pour le PaaS.                      | Natif pour le PaaS (p. ex., Bluemix), Kubernetes/OpenShift ; outils DevOps (UDeploy, Chef). Licences et automatisation flexibles.                                                        |
+| **Cas d'utilisation**        | Applications legacy/monolithiques nécessitant des fonctionnalités complètes ; production stable à grande échelle avec un clustering serré (p. ex., JMS à haut volume, basculement EJB à distance). | Microservices, monolithes modernes, développement agile ; environnements cloud ou à ressources limitées ; nouvelles applications ou modernisation progressive depuis WAS.                |
+| **Avantages**                | Écosystème mature ; outils riches pour les opérations complexes ; gère les APIs obsolètes sans modifications.                                 | Léger/efficace ; itération rapide ; mise à l'échelle rentable ; chemin de migration facile.                                                                                              |
+| **Inconvénients**            | Utilisation des ressources plus lourde ; mises à jour rigides ; plus difficile pour le DevOps/cloud-native.                                    | Manque de fonctionnalités legacy (peut nécessiter des modifications d'applications) ; moins mature pour le couplage ultra-serré.                                                        |
+
+En résumé, choisissez le WAS traditionnel pour les environnements d'entreprise établis, complets en fonctionnalités, où la prise en charge du legacy est critique. Optez pour WLP lorsque vous privilégiez la vitesse, la modularité et l'agilité cloud — c'est souvent un remplacement direct pour les applications modernes avec un retravail minimal. La migration de WAS vers WLP est simple grâce à des outils comme le WebSphere Application Migration Toolkit, et les hybrides (p. ex., via Job Manager) permettent des transitions progressives.
+
+[Comparaison d'IBM WebSphere et d'IBM WebSphere Liberty](https://www.jrebel.com/blog/websphere-vs-websphere-liberty)  
+[Choisir entre WebSphere traditionnel et Liberty (PDF)](https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/documentation/ChoosingTraditionalWASorLiberty-16.0.0.4.pdf)  
+[Aperçu de WebSphere Liberty](https://www.ibm.com/docs/en/was-liberty/base?topic=liberty-overview)
