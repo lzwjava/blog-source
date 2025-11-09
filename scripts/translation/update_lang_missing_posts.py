@@ -14,7 +14,7 @@ from tests.workflow.test_posts_complete import analyze_post_completeness, analyz
 
 # Import utility functions for handling note and post files
 sys.path.append(os.path.dirname(__file__))
-from update_lang_utils import get_original_file_for_post
+from update_lang_utils import get_original_file_for_md_file
 
 load_dotenv()
 
@@ -242,7 +242,7 @@ def main():
                 candidate = os.path.join('_posts', lang, f"{post['base_name']}-{lang}.md")
                 if os.path.exists(candidate):
                     # Use the utility function to find the original file
-                    result = get_original_file_for_post(candidate)
+                    result = get_original_file_for_md_file(candidate)
                     if result:
                         original_file, found_lang = result
                         break

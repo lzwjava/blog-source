@@ -4,27 +4,27 @@ import os
 import re
 
 
-def get_original_file_for_post(post_file):
+def get_original_file_for_md_file(md_file):
     """Find the original file for a given post file."""
     # Determine the post type by reading frontmatter
     try:
-        with open(post_file, 'r', encoding='utf-8') as f:
+        with open(md_file, 'r', encoding='utf-8') as f:
             content = f.read()
         # Parse frontmatter
         first_marker = content.find('---')
         second_marker = content.find('---', first_marker + 3)
         if first_marker == -1 or second_marker == -1:
-            print(f"  Warning: No valid frontmatter found in {post_file}")
+            print(f"  Warning: No valid frontmatter found in {md_file}")
             return None
         frontmatter = content[first_marker:second_marker + 3]
         post_type = 'note' if 'type: note' in frontmatter else 'post'
     except (UnicodeDecodeError, IOError) as e:
-        print(f"  Warning: Could not read frontmatter from {post_file}: {e}")
+        print(f"  Warning: Could not read frontmatter from {md_file}: {e}")
         return None
 
     # Extract base name and language from post file
     # e.g., _posts/zh/2024-11-29-vision-tips-zh.md -> 2024-11-29-vision-tips, zh
-    base_name = os.path.basename(post_file)
+    base_name = os.path.basename(md_file)
     if not base_name.endswith('.md'):
         return None
 
