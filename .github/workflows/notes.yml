@@ -3,7 +3,7 @@ name: Translate Recent Notes
 on:
   workflow_dispatch:
     inputs:
-      n:
+      total:
         description: 'Number of recent posts to process'
         required: false
         default: '2'
@@ -36,7 +36,7 @@ jobs:
 
       - name: Translate notes in batches
         run: |
-          TOTAL_POSTS=$(ls notes/*.md 2>/dev/null | wc -l)
+          TOTAL_POSTS=${{ inputs.total }}
           for batch_end in $(seq 10 10 "$TOTAL_POSTS"); do
             python scripts/translation/update_lang_notes.py --n "$batch_end"
             git config user.name "github-actions[bot]"
