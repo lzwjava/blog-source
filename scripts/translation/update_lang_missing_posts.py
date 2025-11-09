@@ -10,7 +10,7 @@ import sys
 # Add the project root to the Python path to import from tests
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
-from tests.workflow.test_posts_complete import analyze_post_completeness
+from tests.workflow.test_posts_complete import analyze_post_completeness, analyze_notes_completeness
 
 # Import utility functions for handling note and post files
 sys.path.append(os.path.dirname(__file__))
@@ -188,8 +188,8 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        default="deepseek-v3.1",
-        help="Model to use for translation (e.g., deepseek-v3, mistral-medium, gemini-flash).",
+        default="deepseek-v3.2",
+        help="Model to use for translation (e.g., deepseek-v3.2, mistral-medium, gemini-flash).",
     )
     parser.add_argument(
         "--commits",
@@ -222,9 +222,12 @@ def main():
             changed_files = set(list(changed_files)[:max_files])
         total_files_to_process = len(changed_files)
     elif fix_orphaned:
-        print("Fixing orphaned posts...")
+        print("Fixing orphaned posts and notes...")
         orphaned_posts, _ = analyze_post_completeness()
+        orphaned_notes, _ = analyze_notes_completeness()
         changed_files = set()
+
+        # Handle orphaned posts
         for post in orphaned_posts:
             if not post['has_original_source']:
                 print(f"Skipping {post['base_name']} - no original source")
@@ -250,6 +253,30 @@ def main():
 
             print(f"Found original file for {post['base_name']}: {original_file}")
             for missing_lang in post['missing_languages']:
+                if target_language == "all" or missing_lang == target_language:
+                    changed_files.add((original_file, missing_lang))
+
+        # Handle orphaned notes
+        for note in orphaned_notes:
+            if not note['has_original_source']:
+                print(f"Skipping {note['base_name']} - no original source")
+                continue
+
+            # For notes, the original file is in the notes directory with -en.md suffix
+            # since notes use _posts/en as the reference
+            for orig_lang in ['en', 'zh', 'ja']:
+                candidate = os.path.join('notes', f"{note['base_name']}-{orig_lang}.md")
+                if os.path.exists(candidate):
+                    original_file = candidate
+                    found_lang = orig_lang
+                    break
+
+            if not original_file:
+                print(f"Could not find original source for {note['base_name']}")
+                continue
+
+            print(f"Found original file for note {note['base_name']}: {original_file}")
+            for missing_lang in note['missing_languages']:
                 if target_language == "all" or missing_lang == target_language:
                     changed_files.add((original_file, missing_lang))
         if max_files and len(changed_files) > max_files:
