@@ -7,8 +7,10 @@ import frontmatter
 from markdown_translate_client import translate_markdown_file
 
 import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), '../../tests/workflow'))
-from test_posts_complete import analyze_post_completeness
+# Add the project root to the Python path to import from tests
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
+
+from tests.workflow.test_posts_complete import analyze_post_completeness
 
 # Import utility functions for handling note and post files
 sys.path.append(os.path.dirname(__file__))
