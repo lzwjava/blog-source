@@ -5,10 +5,9 @@ import re
 import os
 import sys
 
-# Add the parent directory to the path to import from tests
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
-from workflow.test_md_tables import scan_markdown_files_for_table_issues
+from tests.workflow.test_md_tables import scan_markdown_files_for_table_issues
 
 
 def fix_markdown_table_formatting(file_path, dry_run=False):
