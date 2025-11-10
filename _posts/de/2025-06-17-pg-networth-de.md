@@ -1,0 +1,26 @@
+---
+audio: false
+generated: true
+lang: de
+layout: post
+title: Paul Grahams geschätztes Nettovermögen
+translated: true
+type: note
+---
+
+Paul Grahams Vermögen ist aufgrund seiner zurückgezogenen Lebensweise und der komplexen Natur seiner Investitionen, die hauptsächlich über den von ihm mitgegründeten Startup-Accelerator Y Combinator (YC) getätigt wurden, schwer genau zu beziffern. Schätzungen aus verschiedenen Quellen variieren stark, was den spekulativen Charakter der Bewertung seines Vermögens widerspiegelt, das größtenteils in Beteiligungen an YC und seinen Portfoliounternehmen gebunden ist.
+
+- **Niedrigste Schätzung**: Einige Quellen, wie Wealthy Persons (2022) und Capitalism.com (2023), schätzen sein Vermögen auf etwa 50 Millionen US-Dollar und führen es auf seine Einnahmen aus dem Verkauf von Viaweb (1998 für 49,6 Millionen US-Dollar an Yahoo verkauft), seine YC-Beteiligung und andere Investitionen zurück.[](https://www.capitalism.com/paul-grahams-net-worth/)[](https://www.wealthypersons.com/paul-graham-net-worth-2020-2021/)
+- **Höchste Schätzungen**: Andere Quellen, darunter CitiMuzik (2024), Medium (2023) und ein LinkedIn-Post (2024), beziffern sein Vermögen auf 2,5 Milliarden US-Dollar und berufen sich dabei auf seinen bedeutenden Anteil an YC, der in über 4.000 Unternehmen investiert hat, mit einer kombinierten Bewertung, die angeblich bei etwa 600 Milliarden US-Dollar liegt (obwohl einige Quellen 2022 bis zu 900 Milliarden US-Dollar vorschlugen).[](https://www.linkedin.com/posts/pinxyz_paul-graham-co-founder-of-y-combinator-activity-7168243432203788288-i--y)[](https://www.citimuzik.com/2024/02/paul-graham-net-worth.html)[](https://medium.com/%40richestearth/paul-graham-net-worth-essays-quotes-wife-5f66cd2ecc77)
+- **Spekulative Obergrenze**: Eine Analyse von Aure’s Notes aus dem Jahr 2024 legt nahe, dass Grahams YC-Anteil (konservativ auf 15 % geschätzt) 10,5 Milliarden US-Dollar wert sein könnte, möglicherweise mehr, wenn sein Anteil näher bei 25–30 % liegt. Kombiniert mit dem möglichen Anteil seiner Frau Jessica Livingston könnte ihr gemeinsames Vermögen theoretisch 20 Milliarden US-Dollar erreichen, obwohl es sich größtenteils um nicht realisiertes "Papiergeld" handelt, das an YCs Portfolio gebunden ist, einschließlich Erfolgen wie Airbnb, Dropbox und Stripe.[](https://auresnotes.com/paul-graham-net-worth/)[](https://medium.com/notes-and-theories/i-calculated-paul-grahams-net-worth-a978b2684138)
+
+Grahams Reichtum stammt hauptsächlich aus:
+1.  **Viaweb-Verkauf**: Verkauf an Yahoo für 49,6 Millionen US-Dollar im Jahr 1998, was ihm persönlich etwa 1,46 Millionen US-Dollar einbrachte (inflationsbereinigt heute mehr wert).[](https://en.wikipedia.org/wiki/Paul_Graham_%28programmer%29)[](https://auresnotes.com/paul-graham-net-worth/)
+2.  **Y Combinator**: YCs 7 % Eigenkapital an Early-Stage-Startups, einschließlich Unicorns wie Airbnb (Bewertung: 100 Milliarden US-Dollar), Stripe (50 Milliarden US-Dollar) und anderen, bildet den Großteil seines Vermögens. Ein Großteil davon ist jedoch illiquide, da YCs Anteile in späteren Finanzierungsrunden verwässert werden und nicht einfach verkauft werden können, bis die Unternehmen an die Börse gehen.[](https://auresnotes.com/paul-graham-net-worth/)[](https://news.ycombinator.com/item?id=41965814)
+3.  **Andere Investitionen**: Graham hat wahrscheinlich persönliche Investitionen in Startups getätigt, obwohl die Details spärlich sind. Er hat auch erwähnt, Millionen an die Demokratische Partei gespendet zu haben, was auf bedeutende liquide Mittel hindeutet.[](https://auresnotes.com/paul-graham-net-worth/)
+
+**Skeptische Betrachtung**: Die Zahl von 2,5 Milliarden US-Dollar wird von mehreren Quellen wiederholt, aber es fehlen handfeste Beweise, da Graham seine Finanzen nicht offenlegt. Die Schätzung von 50 Millionen US-Dollar erscheint angesichts des Erfolgs von YC niedrig, aber die Spanne von 10,5–20 Milliarden US-Dollar setzt optimistische Bewertungen und unverwässerte Anteile voraus, die aufgrund der Dynamik von Venture Capital (z.B. Verwässerung durch spätere Finanzierungsrunden, wie bei Airbnbs 30 Runden zu sehen) möglicherweise nicht der Realität entsprechen. Sein bescheidener Lebensstil – Leben in einem "normalen Haus" in England, keine extravaganten Käufe – deutet darauf hin, dass er keine großen Summen realisiert, was sein Vermögen größtenteils theoretisch macht.[](https://news.ycombinator.com/item?id=41965814)[](https://auresnotes.com/paul-graham-net-worth/)
+
+**Beste Schätzung**: Graham ist wahrscheinlich auf dem Papier ein Milliardär, mit einem Nettovermögen zwischen 1 und 3 Milliarden US-Dollar, angetrieben durch YCs Portfolio. Sein liquides Vermögen liegt jedoch wahrscheinlich näher bei Zehn- oder Hundertmillionen, da es kaum Anzeichen für größere Vermögensverkäufe gibt. Ohne konkrete Finanzoffenlegungen bleibt jede Schätzung spekulativ.
+
+Wenn Sie mehr Details zu bestimmten YC-Investitionen oder eine Aufschlüsselung der Funktionsweise von Startup-Bewertungen wünschen, lassen Sie es mich wissen!
