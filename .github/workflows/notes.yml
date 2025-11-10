@@ -6,8 +6,10 @@ on:
       total:
         description: 'Number of recent posts to process'
         required: false
-        default: '2'
+        default: '3700'
         type: string
+  schedule:
+    - cron: '0 */6 * * *'
 
 concurrency:
   group: 'notes'
