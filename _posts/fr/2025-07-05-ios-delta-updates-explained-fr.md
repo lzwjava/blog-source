@@ -1,0 +1,31 @@
+---
+audio: false
+generated: true
+lang: fr
+layout: post
+title: Mises à jour delta iOS expliquées
+translated: true
+type: note
+---
+
+Vous avez raison de dire que les mises à jour d'applications iOS ne nécessitent pas toujours le téléchargement complet du package de l'application. Depuis iOS 6, Apple prend en charge les **mises à jour delta** pour les applications, ce qui signifie que seuls les fichiers modifiés (correctifs) sont téléchargés plutôt que l'application entière, réduisant ainsi considérablement la taille des téléchargements dans de nombreux cas. Cela est particulièrement vrai pour les applications où seules de petites parties, comme le code ou des ressources spécifiques, ont été modifiées. Cependant, la taille réelle d'une mise à jour dépend de ce qui a changé, et parfois, les mises à jour peuvent encore être volumineuses si des ressources majeures ou des bases de code sont modifiées.
+
+Détaillons votre scénario :
+
+- **400 applications avec des mises à jour hebdomadaires** : Vous estimez que 80 applications se mettent à jour chaque semaine, chacune avec un correctif de 5 Mo, pour un total de 400 Mo. C'est une estimation raisonnable pour de nombreuses applications, car les mises à jour delta vont souvent de quelques Mo à quelques dizaines de Mo pour des mises à jour mineures. Par exemple, des applications comme Facebook ou PayPal, qui peuvent être volumineuses (taille totale de 300+ Mo), ont souvent des mises à jour bien plus petites que leur taille totale grâce à l'empaquetage delta. Cependant, certaines applications, notamment les jeux ou celles avec des ressources lourdes (par exemple, de nouveaux graphismes, niveaux), peuvent avoir des mises à jour plus importantes, potentiellement de 50 à 100 Mo ou plus, même avec des mises à jour delta.
+
+- **400 Mo sont-ils acceptables ?** : Cela dépend de votre forfait de données, de votre espace de stockage et de la vitesse de votre réseau. Pour la plupart des forfaits de données modernes (par exemple, 5G ou Wi-Fi avec 10-100 Mbps), 400 Mo par semaine sont gérables, ne prenant que quelques minutes à télécharger. Pour contexte, 400 Mo, c'est moins que la diffusion en streaming d'une heure de vidéo en HD. Si vous avez un forfait de données limité (par exemple, 2-5 Go/mois), 400 Mo/semaine pourraient consommer 1,6 Go/mois, ce qui pourrait être significatif. Assurez-vous également que votre iPhone a assez d'espace de stockage pour les fichiers temporaires pendant l'installation, car les mises à jour peuvent nécessiter brièvement un double d'espace (les anciens et nouveaux fichiers coexistent jusqu'à la fin de l'installation).
+
+- **400 applications sur votre iPhone** : C'est techniquement possible, mais il y a des mises en garde :
+  - **Stockage** : 400 applications, même si elles sont petites (par exemple, 50-100 Mo chacune), pourraient facilement consommer 20-40 Go ou plus, selon la taille des applications et leurs données (par exemple, caches, documents). Les applications lourdes comme les jeux ou les suites de productivité pourraient augmenter cette consommation. Vérifiez dans Réglages > Général > Stockage iPhone pour surveiller l'utilisation.
+  - **Performances** : Les iPhone gèrent bien de nombreuses applications, mais 400 applications pourraient ralentir la recherche, la navigation dans la bibliothèque d'applications ou les processus en arrière-plan, surtout sur les modèles plus anciens (par exemple, iPhone XR ou antérieurs). Les modèles plus récents (par exemple, iPhone 15/16) avec plus de RAM et un stockage plus rapide sont mieux équipés.
+  - **Gestion des mises à jour** : Mettre à jour 80 applications par semaine est réalisable avec les mises à jour automatiques activées (Réglages > App Store > Mises à jour d'apps). Cependant, mettre à jour manuellement autant d'applications pourrait être fastidieux, et les mises à jour en arrière-plan pourraient solliciter la batterie ou le réseau si elles ne sont pas gérées (par exemple, planifiez les mises à jour la nuit sur Wi-Fi).
+
+- **Considérations pratiques** :
+  - **Fiabilité des mises à jour delta** : Bien que les mises à jour delta réduisent la taille des téléchargements, elles ne garantissent pas des tailles minuscules. Si les fichiers principaux d'une application changent significativement, la mise à jour pourrait approcher la taille totale de l'application. De plus, si une mise à jour échoue (par exemple, en raison de problèmes de réseau), iOS peut revenir au téléchargement d'un package plus volumineux.
+  - **Stockage pendant les mises à jour** : iOS a besoin d'espace supplémentaire pour décompresser et installer les mises à jour. Pour 80 applications à 5 Mo chacune, vous pourriez avoir besoin de 1 à 2 Go d'espace libre pour les fichiers temporaires, surtout si plusieurs mises à jour se traitent simultanément.
+  - **Batterie et performances** : Des mises à jour fréquentes pour 400 applications pourraient solliciter les appareils plus anciens, surtout si de nombreuses applications exécutent des tâches en arrière-plan. Envisagez d'activer les mises à jour uniquement sur Wi-Fi et pendant la charge (Réglages > App Store > Téléchargements automatiques).
+
+**Conclusion** : Votre projet de gérer 400 applications avec 400 Mo de mises à jour hebdomadaires est généralement acceptable, grâce aux mises à jour delta qui maintiennent de faibles tailles de téléchargement. Cependant, surveillez le stockage de votre iPhone (gardez au moins 5-10 Go libres) et tenez compte des limites de votre forfait de données. Pour des performances plus fluides, vous pourriez périodiquement décharger les applications inutilisées (Réglages > Général > Stockage iPhone > Décharger les apps inutilisées) pour libérer de l'espace sans perdre les données. Si vous avez un iPhone récent (par exemple, série 14/15/16) avec un stockage ample (128 Go+), cette configuration devrait bien fonctionner. Pour les appareils plus anciens ou avec un stockage inférieur (par exemple, 64 Go), vous pourriez rencontrer des contraintes, surtout si les applications ou leurs données augmentent avec le temps.
+
+Si vous souhaitez approfondir la taille des mises à jour d'applications spécifiques ou les performances de votre modèle d'iPhone avec autant d'applications, faites-le-moi savoir !
