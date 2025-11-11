@@ -1,0 +1,23 @@
+---
+audio: false
+generated: true
+lang: es
+layout: post
+title: Motín del Té de Boston
+translated: true
+type: note
+---
+
+El **Boston Tea Party** fue una protesta política que tuvo lugar el **16 de diciembre de 1773** en el muelle de Griffin, en Boston, Massachusetts. Fue un evento crucial que condujo a la Revolución Americana. Aquí tienes un resumen conciso basado en relatos históricos:
+
+- **Qué sucedió**: Un grupo de colonos americanos, frustrados por los impuestos británicos sin representación, particularmente la **Ley del Té de 1773**, abordaron tres barcos británicos (el Dartmouth, el Eleanor y el Beaver) y arrojaron **342 cofres de té** (más de 92,000 libras, valoradas en aproximadamente £18,000 en ese entonces, o aproximadamente $1 millón hoy en día) al puerto de Boston. Muchos participantes, organizados por los **Sons of Liberty**, se disfrazaron de indígenas Mohawk para ocultar sus identidades y simbolizar su alineación con la identidad americana en lugar de la británica.[](https://www.britannica.com/event/Boston-Tea-Party)[](https://www.history.com/articles/boston-tea-party)[](https://www.battlefields.org/learn/articles/boston-tea-party)
+
+- **Por qué sucedió**: La Ley del Té otorgó a la British East India Company un monopolio sobre la venta de té en las colonias, permitiéndoles vender el excedente de té a un precio más bajo, pero aún gravado con impuestos, lo que perjudicaba a los comerciantes y contrabandistas coloniales. Los colonos vieron esto como un intento de imponer impuestos sin su consentimiento, reavivando el grito de "no hay impuestos sin representación". El gobernador de Boston, Thomas Hutchinson, se negó a permitir que los barcos de té partieran sin pagar el impuesto, lo que aumentó las tensiones.[](https://www.britannica.com/event/Boston-Tea-Party)[](https://www.history.com/articles/boston-tea-party)[](https://www.masshist.org/revolution/teaparty.php)
+
+- **Figuras clave**: La protesta fue liderada por **Samuel Adams** y apoyada por figuras como **John Hancock** y **Paul Revere**, con los Sons of Liberty desempeñando un papel central. Aproximadamente entre 30 y 130 hombres participaron directamente, aunque miles se reunieron en la Old South Meeting House para debatir el tema previamente.[](https://www.history.com/articles/boston-tea-party)[](https://revolutionaryspaces.org/explore/past-programs/boston-tea-party-250th-anniversary-commemoration/)[](https://www.bostonteapartyship.com/boston-tea-party-history)
+
+- **Impacto**: El Boston Tea Party fue un acto audaz de desafío que unió la resistencia colonial. Gran Bretaña respondió con las **Leyes Intolerables (1774)**, incluida la Ley del Puerto de Boston, que cerró el puerto hasta que se pagara el té, lo que further avivó las tensiones. Esto condujo al **Primer Congreso Continental** en 1774 y, en última instancia, a la **Guerra de Independencia de los Estados Unidos** que comenzó en 1775. El evento también cambió las preferencias culturales, y el café se volvió más popular que el té en las colonias como una declaración patriótica.[](https://www.britannica.com/event/Boston-Tea-Party)[](https://www.battlefields.org/learn/articles/boston-tea-party)[](https://www.britannica.com/video/Boston-Tea-Party/-281362)
+
+- **Legado**: Inicialmente llamado la "Destrucción del Té", el término "Boston Tea Party" surgió en la década de 1830. Inspiró otras protestas coloniales y se convirtió en un símbolo de resistencia, influyendo en movimientos posteriores como el moderno **Tea Party movement**. El 250 aniversario en 2023 fue marcado con recreaciones en Boston.[](https://en.wikipedia.org/wiki/Boston_Tea-Party)[](https://www.cbsnews.com/boston/news/250-anniversary-boston-tea-party-schedule-of-events/)[](https://revolutionaryspaces.org/explore/past-programs/boston-tea-party-250th-anniversary-commemoration/)
+
+**Nota**: El término "Boston Drop Tea Movement" parece ser un error; probablemente te referías al **Boston Tea Party**. No hay un evento histórico explícitamente llamado "Boston Drop Tea Movement". Si te referías a algo más, ¡por favor acláralo y adaptaré la respuesta! Además, aunque he utilizado fuentes confiables, las narrativas históricas pueden contener sesgos, por lo que me he ceñido a hechos verificados y detalles contrastados para garantizar la precisión.[](https://en.wikipedia.org/wiki/Boston_Tea-Party)[](https://www.britannica.com/event/Boston-Tea-Party)[](https://www.history.com/articles/boston-tea-party)

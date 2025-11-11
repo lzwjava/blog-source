@@ -1,0 +1,127 @@
+---
+audio: false
+generated: true
+lang: zh
+layout: post
+title: 第五部分：总线与扩展
+translated: true
+type: note
+---
+
+### 1. 系统总线标准
+
+#### 什么是系统总线？
+
+系统总线是连接CPU与内存及外围设备的通信通道。它在这些组件之间实现数据传输、地址信号和控制信号的传递，使CPU能够高效地与计算机系统的其他部分进行交互[^3]。
+
+---
+
+### 2. ISA总线概述
+
+- **ISA（工业标准架构）** 是最早的系统总线标准之一，于1980年代随IBM PC AT推出。
+- 这是一种16位总线，运行频率为4.77 MHz，数据传输速率最高可达约9 MB/s[^5]。
+- ISA支持多个扩展卡，每个卡都有独立的中断请求线，可连接网卡、串口和显卡等设备。
+- 该总线向后兼容旧的8位PC XT系统，并使用98针连接器将两个边缘连接器合并为一个插槽。
+- ISA采用异步信号和总线主控技术，但只能直接访问主内存的前16 MB[^5]。
+- 由于年代久远，ISA已基本淘汰，但作为后续总线设计的基础具有重要历史意义。
+
+---
+
+### 3. PCI总线概述
+
+- **PCI（外围组件互连）** 是一种更现代的同步并行总线标准，旨在克服ISA的局限性[^1][^3]。
+- PCI总线以33 MHz频率运行，采用32位复用地址/数据总线，提供44至66 MB/s的基础带宽。
+- 对于顺序内存访问，PCI通过每个时钟周期传输一个32位字且无需重新发送地址，最高可实现132 MB/s的速率[^1]。
+- PCI使用桥接接口连接CPU总线，该接口可缓冲数据并优化内存访问，使CPU在外设通信期间无需等待状态即可继续执行[^1]。
+- PCI支持总线主控和DMA（直接内存访问），允许设备接管总线直接传输数据。
+- 存在64位扩展版本可进一步提升带宽。
+- PCI设备通过总线号、设备号和功能号进行标识，配置寄存器用于指定供应商、设备类型、内存与I/O地址及中断[^3]。
+- PCI事务包含地址阶段和数据阶段，支持内存读写、I/O读写等多种命令[^3]。
+
+---
+
+### 4. 现代接口技术
+
+现代外设通信已转向比并行总线更简单灵活的串行接口。
+
+---
+
+#### USB（通用串行总线）
+
+- USB是广泛使用的高速串行接口，用于连接键盘、鼠标、存储设备等外设。
+- 支持即插即用和热插拔，无需关机即可连接/断开设备。
+- 采用分层星型拓扑，数据传输速率从1.5 Mbps（低速）到10 Gbps（USB 3.1及以上）。
+- 可为设备供电，并通过标准化协议支持多设备类别。
+- USB控制器使用端点和管道管理数据传输，支持控制传输、批量传输、中断传输和等时传输。
+
+---
+
+#### SPI（串行外设接口）
+
+- SPI是同步串行通信总线，常用于与传感器、EEPROM和显示器等外设进行短距离通信[^4]。
+- 使用四根信号线：SCLK（时钟）、MOSI（主出从入）、MISO（主入从出）和CS（片选）。
+- 支持全双工通信，可同时收发数据。
+- 协议简单快速，但每个设备需独立片选线，可能限制扩展性。
+- SPI模式设置包括时钟极性和相位，用于定义数据采样和移位时序[^6]。
+- 主要应用于嵌入式系统和微控制器领域。
+
+---
+
+#### I²C（内部集成电路）
+
+- I²C是双线制串行总线，用于微控制器与传感器、EEPROM等外设间的通信[^4]。
+- 使用两根双向线路：SDA（数据线）和SCL（时钟线）。
+- 支持多主多从架构，设备通过7位或10位唯一地址寻址。
+- 采用半双工通信，配备开漏/集电极输出和上拉电阻。
+- 速度低于SPI，但引脚占用少且布线简单，支持多设备通信。
+- 标准速率包括100 kHz（标准模式）、400 kHz（快速模式），新版规范支持更高速率。
+
+---
+
+### 对比表格：ISA vs PCI vs USB vs SPI vs I²C
+
+| 特性 | ISA | PCI | USB | SPI | I²C |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 总线类型 | 并行，异步 | 并行，同步 | 串行，异步 | 串行，同步 | 串行，同步 |
+| 数据宽度 | 8或16位 | 32或64位复用 | 串行（1位） | 每线1位，全双工 | 每线1位，半双工 |
+| 时钟频率 | 4.77 MHz | 33 MHz（基础PCI） | 最高10 Gbps（USB 3.1） | 通常最高数MHz | 通常最高400 kHz+ |
+| 最大带宽 | ~9 MB/s | 44-132 MB/s | 随USB版本变化 | 取决于时钟频率 | 低于SPI |
+| 线缆数量 | 多根（地址/数据/控制） | 多根（复用线路） | 4根（电源/地/D+/D-） | 4根（SCLK/MOSI/MISO/CS） | 2根（SDA/SCL） |
+| 设备寻址 | 插槽定位 | 总线/设备/功能号 | 设备枚举 | 独立片选 | 地址寻址 |
+| 典型应用场景 | 传统扩展卡 | 现代扩展卡 | 外部外设 | 嵌入式外设 | 嵌入式外设 |
+| 总线主控 | 支持 | 支持 | 主机控制器管理 | 主从模式 | 支持多主模式 |
+
+---
+
+### SPI与I²C使用实践指南
+
+- 在树莓派等平台上，SPI和I²C接口默认未启用，需通过系统设置（如`raspi-config`）配置[^4]。
+- 可使用`wiringPi`、`spidev`（SPI）和`smbus`（I²C）等库，通过C/C++或Python编程与总线设备通信。
+- SPI配置需设置模式（时钟极性与相位）、比特序（MSB/LSB优先）和正确片选引脚[^6]。
+- I²C通信需指定设备地址，并处理数据传输的起始/停止条件。
+
+---
+
+本教程概述了系统总线与现代外设接口的核心概念与实践要点，为理解微计算机总线架构与扩展技术奠定坚实基础。
+
+<div style="text-align: center">⁂</div>
+
+[^1]: https://people.ece.ubc.ca/~edc/464/lectures/lec17.pdf
+[^2]: https://spotpear.com/wiki/USB-TO-UART-I2C-SPI-JTAG-Wiki.html
+[^3]: https://home.mit.bme.hu/~rtamas/rendszerarchitekturak/eloadas/08_bus_introduction.pdf
+[^4]: https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial/all
+[^5]: https://www.techtarget.com/searchwindowsserver/definition/ISA-Industry-Standard-Architecture
+[^6]: https://www.ratocsystems.com/english/download/pdffiles/usb61_e_10.pdf
+[^7]: https://webstor.srmist.edu.in/web_assets/srm_mainsite/files/files/PCI.pdf
+[^8]: https://www.infineon.com/dgdl/Infineon-USB-Serial_VCP_I2CSPI_API_Guide-Software-v01_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0f6a8b015fe6\&da=t
+[^9]: https://network.nvidia.com/pdf/whitepapers/PCI_3GIO_IB_WP_120.pdf
+[^10]: https://people.scs.carleton.ca/~sivarama/org_book/org_book_web/slides/chap_1_versions/ch5_1.pdf
+[^11]: https://www.youtube.com/watch?v=BBobCtfOjbM
+[^12]: https://www.sciencedirect.com/topics/engineering/peripheral-component-interconnect-bus
+[^13]: http://mcatutorials.com/mca-tutorials-bus-standards-and-types.php
+[^14]: https://www.youtube.com/watch?v=YRJ9gWaxfJY
+[^15]: https://docs.nxp.com/bundle/UM12018/page/topics/connecting_to_a_target_through_a_usb-to-spi_or_usb.html
+[^16]: https://www.i2ctools.com/Downloads/USBtoI2Cpro/USB-to-SPI_Software_Users_Manual.pdf
+[^17]: https://www.youtube.com/watch?v=WIIR77fCHYc
+[^18]: https://ftdichip.com/wp-content/uploads/2021/08/AN_255_USB-to-I2C-Example-using-the-FT232H-and-FT201X-devices.pdf
+[^19]: https://www.youtube.com/watch?v=IyGwvGzrqp8

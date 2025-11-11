@@ -1,0 +1,46 @@
+---
+audio: false
+generated: true
+lang: fr
+layout: post
+title: Dov Frohman
+translated: true
+type: note
+---
+
+Dov Frohman (né le 28 mars 1939 à Amsterdam, Pays-Bas) est un ingénieur électricien israélien, inventeur, dirigeant d'entreprise et une figure pivot de l'industrie mondiale des semi-conducteurs. Célèbre pour avoir inventé la mémoire morte programmable et effaçable (EPROM) et pour avoir fondé Intel Israël, les contributions de Frohman ont façonné de manière significative l'informatique moderne et l'économie high-tech israélienne. Sa vie, marquée par la résilience, l'innovation et le leadership, reflète un mélange de brillance technique et d'engagement à favoriser le progrès technologique dans des environnements difficiles. Il est également le co-auteur du livre influent *Leadership the Hard Way* (2008), qui condense sa philosophie de leadership non conventionnelle.
+
+### Jeunesse et éducation
+La jeunesse de Frohman a été marquée par l'adversité. Né de parents juifs polonais, Abraham et Feijga Frohman, qui avaient fui l'antisémitisme en Pologne pour les Pays-Bas, il a été séparé d'eux pendant la Seconde Guerre mondiale. En 1942, à l'âge de trois ans, ses parents le confièrent à la résistance néerlandaise pour échapper aux persécutions nazies. Il fut caché par les Van Tilborghs, une famille d'agriculteurs chrétiens orthodoxes à Sprang-Capelle, aux Pays-Bas, tandis que ses parents périrent dans l'Holocauste. Après la guerre, Frohman passa du temps dans des orphelinats pour enfants juifs en Palestine avant d'émigrer en Israël en 1949, suite à la création de l'État juif. Adopté par des parents à Tel Aviv, il grandit dans une nouvelle patrie et servit dans l'armée israélienne.
+
+Sa fascination pour l'électronique l'a conduit à étudier le génie électrique au Technion – Israel Institute of Technology à Haïfa, où il obtint son diplôme de premier cycle en 1963. Recherchant des opportunités avancées, Frohman s'installa aux États-Unis et s'inscrivit à l'Université de Californie à Berkeley. Il y obtint une maîtrise en génie électrique (1965) et un doctorat en génie électrique et informatique (1969), jetant les bases de sa carrière dans la technologie des semi-conducteurs.
+
+### Carrière et innovations
+Le parcours professionnel de Frohman a commencé en 1965 chez Fairchild Semiconductor à Palo Alto, en Californie, où il travailla dans le groupe de recherche et développement, se concentrant sur les circuits intégrés et les mémoires non volatiles. En 1969, il rejoignit Intel Corporation, une start-up naissante fondée par d'anciens collègues de Fairchild, Gordon Moore, Robert Noyce et Andrew Grove. Chez Intel, Frohman s'attaqua à un problème de contrôle de qualité avec la mémoire statique à accès aléatoire (SRAM) 1101, la première puce produite en série d'Intel utilisant la technologie des semi-conducteurs à oxyde métallique. Son enquête mena à une découverte révolutionnaire en 1970 : l'EPROM, la première mémoire semi-conductrice non volatile à la fois effaçable et facilement reprogrammable.
+
+L'EPROM a révolutionné l'informatique en répondant à une limitation critique des technologies de mémoire existantes. Contrairement à la RAM volatile, qui perdait les données sans alimentation, ou à la ROM, qui nécessitait une programmation en usine longue, l'EPROM permettait aux développeurs de programmer et d'effacer la mémoire en quelques minutes à l'aide de la lumière ultraviolette. Dévoilée en 1971 à la Solid-State Circuits Conference à Philadelphie, l'EPROM a réduit le temps de conception des prototypes de puces de plusieurs semaines à quelques heures, devenant une pierre angulaire des systèmes à microprocesseurs. Le cofondateur d'Intel, Gordon Moore, l'a décrite comme « aussi importante dans le développement de l'industrie des micro-ordinateurs que le microprocesseur lui-même ». La synergie de l'EPROM avec l'activité des microprocesseurs d'Intel a stimulé la croissance des ordinateurs personnels et des contrôles industriels, et ses principes sous-tendent la mémoire flash moderne utilisée dans des appareils tels que les clés USB et les SSD.
+
+### Fondation d'Intel Israël
+Animé par la vision d'apporter l'innovation high-tech en Israël, Frohman a joué un rôle central dans l'implantation d'Intel dans ce pays. En 1974, il convainquit la direction d'Intel d'ouvrir un petit centre de conception de puces à Haïfa, la première installation de R&D de l'entreprise en dehors des États-Unis. Cette démarche a capitalisé sur les talents en ingénierie du Technion et a marqué un investissement audacieux dans un pays alors davantage connu pour son agriculture que pour sa technologie. Frohman a équilibré cet effort avec un rôle académique, enseignant la physique appliquée à l'Université hébraïque de Jérusalem et servant comme directeur de son École de science et technologie appliquées (1975–1980).
+
+En 1985, après avoir négocié avec le gouvernement israélien, Frohman supervisa la création de la première usine de fabrication de semi-conducteurs à l'étranger d'Intel à Jérusalem. En tant que directeur général d'Intel Israël à partir de 1981 et plus tard vice-président du groupe des produits microprocesseurs d'Intel, il a transformé Intel Israël en une opération phare. Sous sa direction, Intel Israël a conçu des technologies clés, notamment le microprocesseur pour le PC original d'IBM et la technologie de mobilité Centrino. Frohman a étendu la présence d'Intel avec une deuxième usine de fabrication à Kiryat Gat en 1995, qui est devenue un centre majeur de fabrication de puces. En 2007, les exportations d'Intel Israël ont atteint 1,4 milliard de dollars, représentant 8,5 % des exportations de l'industrie électronique et informatique israélienne.
+
+Un moment décisif est survenu pendant la guerre du Golfe de 1991, lorsque l'Irak a lancé des missiles Scud sur Israël. Malgré la recommandation des autorités de la défense civile israélienne de fermer les entreprises non essentielles en raison des craintes d'attaques chimiques, Frohman a maintenu Intel Israël en activité. Cette décision, détaillée dans un article de la *Harvard Business Review* de 2006, a assuré la continuité et renforcé la réputation de résilience d'Intel Israël, faisant d'elle la seule entreprise de fabrication en Israël à être restée ouverte tout au long du conflit.
+
+### Philosophie de leadership et *Leadership the Hard Way*
+Le style de leadership de Frohman, façonné par ses expériences dans des environnements turbulents, est capturé dans son livre de 2008 *Leadership the Hard Way*, co-écrit avec Robert Howard. Le livre soutient que le leadership ne peut pas être enseigné mais doit être appris par le courage, la prise de risque et la navigation dans l'incertitude. Frohman met l'accent sur la non-conformité, l'acceptation de la dissidence et la promotion d'une « culture de la survie » avec des slogans comme « Be the Best » et « Do the Impossible ». Loué par des figures comme Andy Grove et Tom Peters, le livre offre une perspective franche sur le leadership dans des contextes à haut risque, s'inspirant des décisions de Frohman – de l'invention de l'EPROM au maintien d'Intel Israël ouvert en temps de guerre.
+
+### Prix et reconnaissances
+Les contributions de Frohman lui ont valu de nombreuses distinctions :
+- **1982** : Prix IEEE Jack Morton pour ses réalisations dans les dispositifs à l'état solide.
+- **1991** : Prix Israël pour l'ingénierie et la technologie, reconnaissant son impact sur le secteur high-tech israélien.
+- **2008** : Médaille IEEE Edison pour une carrière de réalisations méritoires en génie électrique.
+- **2009** : Intronisation au National Inventors Hall of Fame pour l'invention de l'EPROM.
+- **2018** : Nommé Fellow du Computer History Museum.
+
+Il est également membre de l'Académie israélienne des sciences et des humanités.
+
+### Vie personnelle et héritage
+Après avoir pris sa retraite d'Intel en 2001, Frohman partage son temps entre ses résidences à Jérusalem et à Selva di Cadore, en Italie. Personnalité non conventionnelle, il est connu pour son personnage franc-tireur – conduisant une moto tout-terrain Suzuki et aimant les voyages d'aventure, comme les déposes en hélicoptère dans la nature sauvage de l'Alaska. Ses passages dans le monde académique, y compris une année en tant que professeur invité à l'University of Science and Technology de Kumasi, au Ghana (1972–1973), reflètent sa vision mondiale et son engagement envers l'éducation.
+
+L'héritage de Frohman est profond. L'EPROM a jeté les bases de la mémoire non volatile moderne, permettant des technologies qui alimentent les appareils du quotidien. Intel Israël, sous sa direction, est devenue une pierre angulaire de l'économie high-tech israélienne, transformant le pays en un centre d'innovation mondial. Ses principes de leadership continuent d'inspirer les dirigeants naviguant dans des environnements complexes et incertains. Comme l'a noté Yossi Vardi, un investisseur technologique israélien de premier plan, le travail de Frohman incarne « l'esprit humain et la hauteur à laquelle il peut s'élever », cimentant son statut de pionnier à la fois de la technologie et du leadership.[](https://www.leadershipthehardway.com/MeetTheAuthors.html)[](https://en.wikipedia.org/wiki/Dov_Frohman)[](https://www.strategy-business.com/article/09208)
