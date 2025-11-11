@@ -1,0 +1,29 @@
+---
+audio: false
+generated: true
+lang: fr
+layout: post
+title: Peng Zhihui
+translated: true
+type: note
+---
+
+Peng Zhihui, connu en ligne sous le nom de **Zhihuijun**, a gagné une admiration généralisée pour ses compétences exceptionnelles en ingénierie, robotique et IA, combinées à sa capacité à communiquer des concepts techniques complexes de manière captivante. Voici pourquoi il se distingue :
+
+1.  **Brillance technique** : Peng est un maître de l'intégration matérielle et logicielle. Ses projets, comme le bras robotique **Dummy**, **ElectronBot** et un vélo autonome, mettent en avant des solutions innovantes pour relever des défis d'ingénierie complexes. Par exemple, son bras robotique utilise l'OpenHarmony de Huawei et le processeur IA Shengteng Atlas, construit à un faible coût d'environ 1 552 $, et exécute pourtant des tâches précises comme suturer des peaux de raisin. Sa capacité à concevoir des systèmes compacts et efficaces—comme intégrer six servomoteurs dans le petit châssis d'ElectronBot avec des conceptions de transmission créatives—démontre une expertise approfondie en ingénierie mécanique et électrique.[](https://www.globaltimes.cn/page/202110/1235861.shtml)[](https://peoplesdaily.pdnews.cn/business/huawei-rising-talent-peng-zhihui-creates-an-iron-man-inspired-robotic-arm-231747.html)[](https://www.codetd.com/en/article/14157136)
+
+2.  **Éthique Open-Source** : Peng open-source fréquemment ses projets, rendant les conceptions matérielles et les SDK accessibles sur GitHub, où ils gagnent un trafic significatif (par exemple, ElectronBot a reçu 317 étoiles en 5 heures). Cela favorise une communauté d'apprenants et de développeurs, amplifie son impact et inspire d'autres personnes à construire sur son travail, comme la reproduction basée sur ROS1 de son vélo XUAN.[](https://www.codetd.com/en/article/14157136)[](https://www.airvers.com/huaweis-genius-boy-zhihui-jun-made-a-hard-cute-robot-5-hours-of-open-source-github-received-317-stars/)[](https://github.com/weihaoysgs/bike-xuan)
+
+3.  **Résolution de problèmes créative** : Ses projets relèvent des défis pratiques et insolites avec ingéniosité. Par exemple, le clavier intelligent **Hanwen** intègre du matériel modulaire, une interaction IA et un écran e-ink pour des affichages personnalisables, redéfinissant ce qu'un clavier peut faire. Son vélo autonome, inspiré par la puce neuromorphique de Tsinghua, se stabilise de manière autonome en utilisant un algorithme de contrôle PID à trois boucles, mélangeant IA, robotique et systèmes de contrôle en temps réel.[](https://chowdera.com/2022/209/202207280140551903.html)[](https://min.news/en/auto/04bb7e7db8d1a35df88253f8d908af62.html)[](https://github.com/weihaoysgs/bike-xuan)
+
+4.  **Communication engageante** : En tant qu'influenceur Bilibili, les vidéos de Peng (par exemple, la vidéo du bras robotique Dummy avec 2,5 millions de vues) décomposent des processus complexes en un contenu accessible et divertissant. Son surnom "Iron Man Sauvage" reflète sa capacité à rendre les projets high-tech accessibles, lui valant un public massif et des commentaires comme "Je n'ai pas pu comprendre, mais j'étais choqué."[](https://www.globaltimes.cn/page/202110/1235861.shtml)[](https://car.inotgo.com/2021/12/202112111347233231.html)
+
+5.  **Impact entrepreneurial** : Après avoir quitté le "Genius Youth Project" de Huawei en 2022, Peng a fondé **Zhiyuan Robotics** (AgiBot), qui a lancé le robot humanoïde **Expedition A1** et des produits commerciaux comme le Yuanzheng A2 pour les applications manufacturières et de service. Sa capacité à passer de créateur individuel à la tête d'une startup souligne sa vision et son leadership dans l'IA incarnée.[](https://passionategeekz.com/zhihuijun-entrepreneurial-project-zhiyuan-released-5-commercial-humanoid-robots-passionategeekz/)[](https://m.php.cn/faq/595109.html)
+
+6.  **Polyvalence et éthique de travail** : Diplômé de l'University of Electronic Science and Technology of China en 2018, Peng a travaillé au AI Lab d'OPPO avant de rejoindre Huawei en tant qu'ingénieur algorithme IA. Ses projets couvrent la robotique, l'IA, l'IoT et même des constructions créatives comme une carte d'accès intelligente NFC, montrant une drive incessante pour innover à travers les domaines, terminant souvent des projets complexes en quelques mois (par exemple, Dummy en quatre mois).[](https://min.news/en/auto/04bb7e7db8d1a35df88253f8d908af62.html)[](https://www.globaltimes.cn/page/202110/1235861.shtml)
+
+### Perspective Critique
+
+Bien que les réalisations de Peng soient indéniables, son ascension rapide et son association avec Huawei ont suscité un certain scepticisme. Ses projets, souvent liés à la technologie de Huawei (par exemple, la 5G, OpenHarmony), peuvent bénéficier de ressources ou de promotions corporatives, soulevant des questions sur la part d'effort purement individuel par rapport au soutien institutionnel. De plus, son départ de Huawei amid les sanctions américaines suggère que des pressions externes ont pu influencer son changement de carrière. Néanmoins, sa production technique et ses contributions open-source résistent à l'examen, comme en témoigne l'enthousiasme de la communauté et la reproduction de son travail.[](https://www.scmp.com/tech/big-tech/article/3204976/struggling-huawei-loses-genius-youth-recruit-peng-zhihui-dealing-fresh-blow-tech-giants-talent)
+
+En bref, le mélange de génie technique, de générosité open-source et de storytelling charismatique de Peng Zhihui fait de lui une figure marquante dans la tech. Sa capacité à transformer des idées en créations fonctionnelles et inspirantes—tout en autonomisant les autres—explique pourquoi il est si estimé.
