@@ -30,21 +30,21 @@ def check_title_strict(title, target_lang):
     if "\n" in title.strip():
         raise RuntimeError("Model returned multi-line title")
     
-    # Define forbidden characters by language
+    # Define forbidden characters - only double quotes for all languages
     forbidden_chars = {
-        'ja': ['"', '"', '"', '「', '」', '《', '》'],
-        'zh': ['"', '"', '"', '「', '」', '《', '》', '〈', '〉'],
-        'hant': ['"', '"', '"', '「', '」', '《', '》', '〈', '〉'],
-        'hi': ['"', '"', '"', '«', '»'],
-        'ar': ['"', '"', '"', '«', '»'],
-        'es': ['"', '"', '"', '«', '»'],
-        'fr': ['"', '"', '"', '«', '»'],
-        'de': ['"', '"', '"', '„', '"', '»', '«'],
-        'en': ['"', '"', '"']
+        'ja': ['"'],
+        'zh': ['"'],
+        'hant': ['"'],
+        'hi': ['"'],
+        'ar': ['"'],
+        'es': ['"'],
+        'fr': ['"'],
+        'de': ['"'],
+        'en': ['"']
     }
     
-    # Get forbidden chars for target language, default to common quotes
-    chars_to_remove = forbidden_chars.get(target_lang, ['"', "'", '"', '"'])
+    # Get forbidden chars for target language, default to only double quotes
+    chars_to_remove = forbidden_chars.get(target_lang, ['"'])
     
     # Check if title contains any forbidden characters
     for char in chars_to_remove:
