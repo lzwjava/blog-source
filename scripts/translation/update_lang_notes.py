@@ -8,7 +8,7 @@ import shutil
 load_dotenv()
 
 INPUT_DIR = "notes"
-MAX_THREADS = 10
+MAX_THREADS = 50
 
 
 def get_output_filename(filename, target_lang):
