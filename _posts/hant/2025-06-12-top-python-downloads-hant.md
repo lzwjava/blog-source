@@ -1,0 +1,228 @@
+---
+audio: false
+generated: true
+image: false
+lang: hant
+layout: post
+model: x-ai/grok-code-fast-1
+title: 頂級 Python 套件下載排行榜
+translated: true
+type: note
+---
+
+以下是根據近期下載統計與熱門度排名，依下載量大致排序的 PyPI 前 200 個最受歡迎 Python 套件。每個套件均附簡短說明。請注意，PyPI 下載數值會隨時間變動，且受遞移依賴關係影響；本列表整合了多個來源數據，包括 PyPI 統計、GitHub 精選清單（如 best-of-python）及精選函式庫排名。[1][2][3][3][4]
+
+- **pip**：用於從 PyPI 安裝 Python 函式庫的標準套件管理工具
+- **setuptools**：輕鬆建置與發佈 Python 套件的函式庫
+- **wheel**：Python 發行版的建置套件格式，可加速安裝
+- **requests**：簡潔優雅的 HTTP 請求函式庫
+- **urllib3**：具備線程安全連接池的 HTTP 客戶端函式庫
+- **certifi**：用於 SSL 驗證的根憑證集合
+- **chardet**：通用字元編碼檢測器
+- **idna**：國際化網域名稱（IDNA）支援
+- **six**：Python 2 與 3 相容性工具
+- **cryptography**：加密演算法與基礎元件
+- **cffi**：用於呼叫 C 程式碼的外部函式介面
+- **pycparser**：以 Python 編寫的 C 語言解析器與 AST 生成器
+- **packaging**：Python 套件的核心工具
+- **pyparsing**：用於建立與執行簡易語法的函式庫
+- **typing_extensions**：標準 'typing' 模組的擴充功能
+- **PyYAML**：YAML 解析器與生成器
+- **numpy**：Python 陣列運算基礎套件
+- **scipy**：科學與技術計算函式庫
+- **pandas**：資料分析與操作函式庫
+- **matplotlib**：建立靜態與互動式圖表的繪圖函式庫
+- **scikit-learn**：Python 機器學習函式庫
+- **Pillow**：友善的 PIL 分支版本，用於影像處理
+- **h5py**：HDF5 檔案格式介面
+- **openpyxl**：讀寫 Excel 檔案的 Python 函式庫
+- **xlrd**：從 Excel 檔案讀取資料的函式庫
+- **xlwt**：將資料寫入 Excel 檔案的函式庫
+- **Jinja2**：Python 模板引擎
+- **MarkupSafe**：安全跳脫文字以用於 HTML 與 XML
+- **Flask**：輕量級 WSGI 網路應用框架
+- **Werkzeug**：Python WSGI 工具函式庫
+- **itsdangerous**：安全傳遞資料的輔助工具
+- **Click**：命令列介面建立工具組
+- **Django**：高階 Python 網路框架
+- **Pytz**：全球時區定義
+- **python-dateutil**：標準 Python datetime 模組的擴充功能
+- **tzlocal**：本地時區的 Tzinfo 物件
+- **SQLAlchemy**：Python 的 SQL 工具組與物件關聯對應
+- **psycopg2**：PostgreSQL 適配器
+- **pymysql**：純 Python 實作的 MySQL 客戶端
+- **PyMySQL**：純 Python 實作的 MySQL 客戶端（重複項目，參見 pymysql）
+- **psutil**：跨平台行程與系統工具
+- **chardet2**：另一種字元檢測函式庫（變體）
+- **lxml**：強大且符合 Python 風格的 XML 處理函式庫
+- **etree**：ElementTree XML API（標準函式庫的一部分）
+- **beautifulsoup4**：從 HTML 與 XML 提取資料的函式庫
+- **html5lib**：基於 WHATWG 規範的 HTML 解析器
+- **webencodings**：舊版網頁內容的字元編碼別名
+- **soupsieve**：Beautiful Soup 的 CSS 選擇器支援
+- **nose**：unittest 風格測試的發現與執行工具
+- **coverage**：Python 程式碼覆蓋率檢測
+- **pytest**：測試編寫與執行框架
+- **mock**：Python 測試的模擬函式庫
+- **pluggy**：Python 環境變數解析工具
+- **toml**：TOML 解析器
+- **ruamel.yaml**：具備往返能力的 YAML 解析器/生成器
+- **pathlib2**：適用於 Python < 3.4 的舊版 pathlib 回溯移植
+- **scandir**：更優異的目錄迭代功能
+- **future**：同時支援 Python 3 與 2 的單一原始碼方案
+- **enum34**：Python 3.4 Enum 的回溯移植
+- **functools32**：Python 3.4 functools.lru_cache 的回溯移植
+- **appdirs**：平台專屬系統目錄定位工具
+- **filelock**：跨平台檔案鎖定工具
+- **distlib**：Python 套件發行工具
+- **checkerboard**：跨平台系統資訊函式庫（可能已棄用）
+- **tensorflow**：開源機器學習平台
+- **tensorflow-estimator**：TensorFlow 估計器 API
+- **tensorboard**：TensorFlow 視覺化工具組
+- **keras**：高階神經網路 API
+- **protobuf**：結構化資料的 Protocol Buffers 序列化工具
+- **tensorflow-hub**：可重複使用的機器學習模組
+- **absl-py**：Abseil Python 通用函式庫
+- **grpcio**：Python gRPC 函式庫
+- **markdown**：Python Markdown 解析器
+- **werkzeug**：全面性 WSGI 工具函式庫
+- **flask-cors**：Flask 應用的 CORS 支援
+- **gevent**：基於協程的網路函式庫
+- **greenlet**：輕量級行程內併發程式設計工具
+- **eventlet**：Python 併發網路函式庫
+- **dnspython**：DNS 工具組
+- **paramiko**：SSHv2 通訊協定函式庫
+- **pynacl**：libsodium 加密庫的 Python 綁定
+- **bcrypt**：現代化密碼雜湊工具
+- **fabric**：簡化 SSH 使用的工具
+- **invoke**：用於本地系統自動化的 Python 風格任務執行工具
+- **ansible**：組態管理自動化工具
+- **botocore**：boto3（AWS Python SDK）的核心功能
+- **boto3**：AWS Python SDK
+- **s3transfer**：高效能 Amazon S3 多部分上傳進階工具
+- **urllib3**：已列出，但為 boto 核心組件
+- **bz2file**：讀寫 bzip2 壓縮檔案
+- **azure-storage-blob**：Microsoft Azure 儲存體 Blob 客戶端函式庫
+- **azure-common**：Microsoft Azure 通用函式庫
+- **azure-core**：Python 客戶端的 Microsoft Azure 核心函式庫
+- **msrest**：Microsoft REST API 客戶端函式庫
+- **httplib2**：全面性 HTTP 客戶端函式庫
+- **oauth2client**：OAuth 2.0 客戶端函式庫
+- **google-api-core**：Google API 客戶端核心函式庫
+- **google-auth**：Google 身份驗證函式庫
+- **google-api-python-client**：Google APIs 客戶端函式庫
+- **google-cloud-core**：Google Cloud API 客戶端核心函式庫
+- **gspread**：Google Sheets API v4 Python 客戶端
+- **oauthlib**：Python 的 OAuth 請求簽署工具
+- **requests-oauthlib**：Requests 函式庫的 OAuth 支援
+- **tweepy**：Twitter API 客戶端
+- **slackclient**：Slack API 客戶端
+- **redis**：Redis Python 客戶端
+- **celery**：分散式任務佇列函式庫
+- **kombu**：Python 訊息傳遞函式庫
+- **django-celery-results**：Celery 的 Django 智慧型結果後端
+- **pytest-django**：pytest 的 Django 外掛
+- **django-extensions**：Django 擴充功能
+- **djangorestframework**：Django 網路 API 框架
+- **django-filter**：REST 框架的篩選整合工具
+- **django-cors-headers**：Django CORS 標頭中介軟體
+- **sentry-sdk**：Sentry 應用監控 SDK
+- **IPython**：互動式計算工具
+- **jupyter-core**：Jupyter 核心功能
+- **jupyter-client**：Python 的 Jupyter 核心
+- **ipykernel**：Jupyter 的 IPython 核心
+- **nbformat**：Jupyter 筆記本格式
+- **nbconvert**：轉換 Jupyter 筆記本為其他格式
+- **notebook**：建立與分享 Jupyter 筆記本的網路應用
+- **widgetsnbextension**：Jupyter 的 IPython  widget 擴充功能
+- **ipywidgets**：Jupyter 筆記本的互動式 widget
+- **jupyter-console**：Jupyter 終端機控制台
+- **qtconsole**：Jupyter Qt 控制台
+- **rise**：Reveal.js - Jupyter/IPython 幻燈片擴充功能
+- **plotly**：互動式圖表資料視覺化函式庫
+- **dash**：使用 Python 建置網路應用的框架
+- **jellyfish**：近似與語音字串比對工具
+- **fuzzywuzzy**：模糊字串比對工具
+- **python-levenshtein**：Levenshtein 距離的快速實作
+- **nltk**：自然語言處理工具組
+- **gensim**：主題建模與文件相似度函式庫
+- **spacy**：工業級自然語言處理工具
+- **transformers**：尖端自然語言處理工具
+- **torch**：PyTorch 深度學習框架
+- **torchvision**：視覺任務的資料集、轉換與模型
+- **torchaudio**：PyTorch 音訊支援
+- **sympy**：以 Python 編寫的電腦代數系統
+- **sympy3**：sympy 的變體或擴充（可能已棄用）
+- **autograd**：PyTorch 高效能 GPU 記憶體管理
+- **numba**：Python 函式的 JIT 編譯器
+- **cython**：Python 的 C 擴充工具
+- **joblib**：輕量級 Python 函式管道工具
+- **dask**：彈性平行計算函式庫
+- **zipp**：zip 檔案的 pathlib Path 回溯移植
+- **jaraco.classes**：Python 基礎類別
+- **jaraco.collections**：集合工具
+- **jaraco.text**：文字處理工具
+- **jaraco.itertools**：迭代器工具
+- **tempora**：日期與時間相關物件與常式
+- **backports.functools_lru_cache**：functools.lru_cache 回溯移植
+- **backports.weakref**：weakref 增強功能回溯移植
+- **more-itertools**：更多迭代器操作常式
+- **attrs**：無樣板程式碼的 Python 類別
+- **platformdirs**：平台專屬系統目錄定位工具
+- **colorama**：跨平台終端彩色文字
+- **tqdm**：迴圈與迭代器的智慧進度條
+- **path**：作業系統專屬路徑操作工具
+- **path.py**：路徑操作函式庫（舊版）
+- **python-slugify**：產生字串的 Unicode 縮略標籤
+- **unidecode**：Unicode 文字的 ASCII 音譯工具
+- **cldr**：CLDR 公用程式
+- **babel**：國際化工具
+- **pytzdata**：時區函式庫的時區資料
+- **bottle**：輕量簡易的微型網路框架
+- **cherrypy**：極簡主義 Python 網路框架
+- **tornado**：網路框架與非同步網路函式庫
+- **aiohttp**：asyncio 的非同步 HTTP 客戶端/伺服器
+- **asyncpg**：非同步 Python 的快速 PostgreSQL 驅動程式
+- **httpx**：Python 非同步 HTTP 客戶端
+- **uvicorn**：極速 ASGI 伺服器
+- **fastapi**：現代化快速 API 網路框架
+- **starlette**：輕量級 ASGI 框架/工具組
+- **gunicorn**：UNIX 平台 WSGI HTTP 伺服器
+- **pyramid**：Python 網路框架
+- **pyramid-credential**：Pyramid 憑證檢查工具
+- **pyramid-oauth**：Pyramid 的 OAuth 支援
+- **alembic**：SQLAlchemy 資料庫遷移工具
+- **mako**：快速模板函式庫
+- **redis-py-client**：redis 重複項目（參見上文）
+- **pika**：RabbitMQ 客戶端函式庫
+- **amqp**：Python AMQP 函式庫
+- **msgpack**：MessagePack 序列化工具
+- **pickle5**：pickle 通訊協定 5 的回溯移植
+- **cloudpickle**：Python 擴充 pickling 支援
+- **dill**：完整 Python 序列化工具
+- **multiprocess**：更優異的多處理與多線程工具
+- **pexpect**：從 Python 控制互動式程式
+- **ptyprocess**：執行連接至虛擬終端的互動式行程
+- **subprocess32**：Python 3.2 subprocess 回溯移植
+- **threadpoolctl**：限制純線程計算時間的 Python 輔助工具
+- **opencv-python**：開源電腦視覺函式庫
+- **scikit-image**：Python 影像處理工具
+- **imgaug**：機器學習影像增強工具
+- **albumentations**：快速影像增強函式庫
+- **pycocotools**：COCO 資料集公用程式
+- **seaborn**：基於 matplotlib 的統計資料視覺化工具
+- **altair**：宣告式統計視覺化函式庫
+- **bokeh**：現代網頁瀏覽器互動式視覺化函式庫
+- **folium**：Leaflet.js 互動式地圖 Python 封裝
+- **geopy**：地理編碼網路服務
+- **pyproj**：PROJ（地圖投影）Python 介面
+- **shapely**：Python 幾何函式庫
+- **fiona**：為 Python 開發者設計的簡潔 OGR API
+- **descartes**：幾何資料繪圖工具
+- **cartopy**：地圖投影與衍生產品
+
+參考來源：
+[1] https://catswhocode.com/development/python-modules-list/
+[2] https://www.wscubetech.com/resources/python/libraries
+[3] https://github.com/lukasmasuch/best-of-python
+[4] https://www.stxnext.com/blog/most-popular-python-scientific-libraries

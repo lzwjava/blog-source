@@ -1,0 +1,228 @@
+---
+audio: false
+generated: true
+image: false
+lang: ja
+layout: post
+model: x-ai/grok-code-fast-1
+title: 上位Pythonパッケージダウンロード一覧
+translated: true
+type: note
+---
+
+以下は、PyPIでの最近のダウンロード統計と人気ランキングに基づく、ダウンロード数のおおよその順で並べた上位200のPythonパッケージのリストです。各パッケージには一行の説明が付いています。PyPIのダウンロード数は時間とともに変動し、推移的な依存関係の影響を受けることに注意してください。このリストは、PyPI統計、GitHubのベストオブリスト（例：best-of-python）、およびキュレートされたライブラリランキングなどの包括的な情報源から作成されています。[1][2][3][3][4]
+
+- **pip**: PyPIからPythonライブラリをインストールするための標準パッケージマネージャー。
+- **setuptools**: Pythonパッケージを簡単に構築および配布するためのライブラリ。
+- **wheel**: より高速なインストールのためのPythonディストリビューション用ビルド済みパッケージフォーマット。
+- **requests**: シンプルでエレガントなHTTPリクエストライブラリ。
+- **urllib3**: スレッドセーフなコネクションプールを備えたHTTPクライアントライブラリ。
+- **certifi**: SSL検証のためのルート証明書コレクション。
+- **chardet**: ユニバーサル文字エンコーディング検出器。
+- **idna**: 国際化ドメイン名（IDNA）のサポート。
+- **six**: Python 2と3の互換性ユーティリティ。
+- **cryptography**: 暗号化レシピとプリミティブ。
+- **cffi**: Cコードを呼び出すための外部関数インターフェース。
+- **pycparser**: Pythonで書かれたCパーサーとASTジェネレーター。
+- **packaging**: Pythonパッケージのコアユーティリティ。
+- **pyparsing**: シンプルな文法を作成および実行するためのライブラリ。
+- **typing_extensions**: 標準の'typing'モジュールの拡張。
+- **PyYAML**: Python用YAMLパーサーおよびエミッター。
+- **numpy**: Pythonでの配列計算のための基本パッケージ。
+- **scipy**: 科学技術計算のためのライブラリ。
+- **pandas**: データ分析および操作ライブラリ。
+- **matplotlib**: 静的、インタラクティブな視覚化を作成するためのプロットライブラリ。
+- **scikit-learn**: Python用機械学習ライブラリ。
+- **Pillow**: 画像処理のためのフレンドリーなPILフォーク。
+- **h5py**: HDF5ファイルフォーマットインターフェース。
+- **openpyxl**: Excelファイルを読み書きするPythonライブラリ。
+- **xlrd**: Excelファイルからデータを読み取るライブラリ。
+- **xlwt**: Excelファイルにデータを書き込むライブラリ。
+- **Jinja2**: Python用テンプレートエンジン。
+- **MarkupSafe**: HTMLおよびXMLで安全に使用するためのテキストの安全なエスケープ。
+- **Flask**: 軽量WSGI Webアプリケーションフレームワーク。
+- **Werkzeug**: Python用WSGIユーティリティライブラリ。
+- **itsdangerous**: データを安全に受け渡すための様々なヘルパー。
+- **Click**: コマンドラインインターフェース作成キット。
+- **Django**: 高レベルPython Webフレームワーク。
+- **Pytz**: 世界のタイムゾーン定義。
+- **python-dateutil**: 標準Python datetimeモジュールの拡張。
+- **tzlocal**: ローカルタイムゾーン用のTzinfoオブジェクト。
+- **SQLAlchemy**: Python用SQLツールキットおよびオブジェクトリレーショナルマッピング。
+- **psycopg2**: Python用PostgreSQLアダプター。
+- **pymysql**: 純粋なPython MySQLクライアント。
+- **PyMySQL**: 純粋なPythonで書かれたMySQLクライアント（重複；pymysqlを参照）。
+- **psutil**: クロスプラットフォームのプロセスおよびシステムユーティリティ。
+- **chardet2**: 別の文字検出ライブラリ（亜種）。
+- **lxml**: 強力でPythonicなXML処理ライブラリ。
+- **etree**: Python用ElementTree XML API（標準ライブラリの一部）。
+- **beautifulsoup4**: HTMLおよびXMLファイルからデータを抽出するライブラリ。
+- **html5lib**: WHATWG仕様に基づくHTMLパーサー。
+- **webencodings**: レガシーWebコンテンツ用の文字エンコーディングエイリアス。
+- **soupsieve**: Beautiful Soup用CSSセレクターサポート。
+- **nose**: unittestスタイルのテストのためのテスト検出および実行。
+- **coverage**: Python用コードカバレッジ測定。
+- **pytest**: テストを記述および実行するためのフレームワーク。
+- **mock**: Pythonテスト用モッキングライブラリ。
+- **pluggy**: Python用環境変数パーシング。
+- **toml**: Python用TOMLパーサー。
+- **ruamel.yaml**: ラウンドトリップ機能を備えたYAMLパーサー/エミッター。
+- **pathlib2**: Python < 3.4用の古いpathlibのバックポート。
+- **scandir**: より優れたディレクトリ反復機能。
+- **future**: Python 3と2のためのクリーンなシングルソースサポート。
+- **enum34**: Python 3.4 Enumのバックポート。
+- **functools32**: Python 3.4 functools.lru_cacheのバックポート。
+- **appdirs**: プラットフォーム固有のシステムディレクトリ位置。
+- **filelock**: プラットフォーム非依存のファイルロック。
+- **distlib**: Pythonパッケージ用ディストリビューションユーティリティ。
+- **checkerboard**: クロスプラットフォームシステム情報ライブラリ（おそらく非推奨）。
+- **tensorflow**: オープンソース機械学習プラットフォーム。
+- **tensorflow-estimator**: TensorFlow estimator API。
+- **tensorboard**: TensorFlow用可視化ツールキット。
+- **keras**: 高レベルニューラルネットワークAPI。
+- **protobuf**: 構造化データ用Protocol Buffersシリアライゼーション。
+- **tensorflow-hub**: 再利用可能な機械学習モジュール。
+- **absl-py**: Abseil Python共通ライブラリ。
+- **grpcio**: Python用gRPCライブラリ。
+- **markdown**: Python用Markdownパーサー。
+- **werkzeug**: 包括的なWSGIユーティリティライブラリ。
+- **flask-cors**: Flaskアプリケーション用CORSサポート。
+- **gevent**: コルーチンベースのネットワーキングライブラリ。
+- **greenlet**: 軽量なインプロセス並行プログラミング。
+- **eventlet**: Python用並行ネットワーキングライブラリ。
+- **dnspython**: Python用DNSツールキット。
+- **paramiko**: Python用SSHv2プロトコルライブラリ。
+- **pynacl**: 暗号化のためのlibsodiumへのPythonバインディング。
+- **bcrypt**: ソフトウェア用モダンなパスワードハッシュ化。
+- **fabric**: SSHの使用を効率化するツール。
+- **invoke**: ローカルシステム自動化のためのPythonicタスク実行。
+- **ansible**: 構成管理のための自動化ツール。
+- **botocore**: boto3（Python用AWS SDK）のコア機能。
+- **boto3**: Python用AWS SDK。
+- **s3transfer**: 効率的なAmazon S3マルチパートアップロードのための高度なユーティリティ。
+- **urllib3**: 既にリスト済みだが、botoのコア。
+- **bz2file**: bzip2圧縮ファイルの読み書き。
+- **azure-storage-blob**: Microsoft Azure Storage Blobクライアントライブラリ。
+- **azure-common**: Microsoft Azure共通ライブラリ。
+- **azure-core**: Pythonクライアント用Microsoft Azureコアライブラリ。
+- **msrest**: Microsoft REST APIクライアントライブラリ。
+- **httplib2**: 包括的なHTTPクライアントライブラリ。
+- **oauth2client**: Python用OAuth 2.0クライアントライブラリ。
+- **google-api-core**: Google APIクライアントコアライブラリ。
+- **google-auth**: Google認証ライブラリ。
+- **google-api-python-client**: Python用Google APIsクライアントライブラリ。
+- **google-cloud-core**: Google Cloud APIクライアントコアライブラリ。
+- **gspread**: Python用Google Sheets API v4。
+- **oauthlib**: Python用OAuthリクエスト署名。
+- **requests-oauthlib**: Requests用OAuthライブラリサポート。
+- **tweepy**: Python用Twitter APIクライアント。
+- **slackclient**: Python用Slack APIクライアント。
+- **redis**: Redis用Pythonクライアント。
+- **celery**: 分散タスクキューライブラリ。
+- **kombu**: Python用メッセージングライブラリ。
+- **django-celery-results**: Celery用のDjangoを考慮した結果バックエンド。
+- **pytest-django**: pytest用Djangoプラグイン。
+- **django-extensions**: Django用拡張機能。
+- **djangorestframework**: Django用Web API。
+- **django-filter**: フィルタリングのためのRESTフレームワーク統合。
+- **django-cors-headers**: Django CORSヘッダーミドルウェア。
+- **sentry-sdk**: Sentryアプリケーションモニタリング用SDK。
+- **IPython**: Pythonでのインタラクティブコンピューティング。
+- **jupyter-core**: コアJupyter機能。
+- **jupyter-client**: Python用Jupyterカーネル。
+- **ipykernel**: Jupyter用IPythonカーネル。
+- **nbformat**: Jupyterノートブックフォーマット。
+- **nbconvert**: Jupyterノートブックを他のフォーマットに変換。
+- **notebook**: Jupyterノートブックを作成および共有するためのWebアプリケーション。
+- **widgetsnbextension**: Jupyter用IPythonウィジェット拡張。
+- **ipywidgets**: Jupyterノートブック用インタラクティブウィジェット。
+- **jupyter-console**: Jupyterターミナルコンソール。
+- **qtconsole**: Jupyter Qtコンソール。
+- **rise**: Reveal.js - Jupyter/IPythonスライドショー拡張。
+- **plotly**: インタラクティブプロット用データ可視化ライブラリ。
+- **dash**: PythonでWebアプリケーションを構築するためのフレームワーク。
+- **jellyfish**: 近似および音声的文字列マッチング。
+- **fuzzywuzzy**: Pythonでのファジー文字列マッチング。
+- **python-levenshtein**: レーベンシュタイン距離の高速実装。
+- **nltk**: 自然言語処理ツールキット。
+- **gensim**: トピックモデリングおよび文書類似性ライブラリ。
+- **spacy**: 産業強度の自然言語処理。
+- **transformers**: 最先端の自然言語処理。
+- **torch**: PyTorch深層学習フレームワーク。
+- **torchvision**: 視覚タスク用のデータセット、変換、モデル。
+- **torchaudio**: PyTorch用オーディオサポート。
+- **sympy**: Pythonで書かれたコンピュータ代数システム。
+- **sympy3**: sympyの亜種または拡張（おそらく非推奨）。
+- **autograd**: PyTorch用効率的なGPUメモリ管理。
+- **numba**: Python関数用JITコンパイラ。
+- **cython**: Python用C拡張。
+- **joblib**: Python関数を用いた軽量パイプライン処理。
+- **dask**: 並列計算のための柔軟なライブラリ。
+- **zipp**: zipファイル用のpathlibのPathのバックポート。
+- **jaraco.classes**: Python用基底クラス。
+- **jaraco.collections**: Python用コレクションユーティリティ。
+- **jaraco.text**: テキスト処理ユーティリティ。
+- **jaraco.itertools**: イテレータユーティリティ。
+- **tempora**: 日付と時間に関するオブジェクトとルーチン。
+- **backports.functools_lru_cache**: functools.lru_cacheのバックポート。
+- **backports.weakref**: weakref拡張のバックポート。
+- **more-itertools**: イテラブルを操作するためのより多くのルーチン。
+- **attrs**: ボイラープレートのないPythonクラス。
+- **platformdirs**: プラットフォーム固有のシステムディレクトリ位置。
+- **colorama**: クロスプラットフォームカラー端末テキスト。
+- **tqdm**: ループおよびイテラブル用のスマートプログレスバー。
+- **path**: OS固有のパス操作。
+- **path.py**: パス操作ライブラリ（古いバージョン）。
+- **python-slugify**: 文字列用のユニコードスラグを返す。
+- **unidecode**: UnicodeテキストのASCII音訳。
+- **cldr**: Python用CLDRユーティリティ。
+- **babel**: 国際化ユーティリティ。
+- **pytzdata**: タイムゾーンライブラリ用タイムゾーンデータ。
+- **bottle**: 小規模アプリケーション用の高速でシンプルなWebフレームワーク。
+- **cherrypy**: Python用ミニマリストWebフレームワーク。
+- **tornado**: Webフレームワークおよび非同期ネットワーキングライブラリ。
+- **aiohttp**: asyncio用非同期HTTPクライアント/サーバー。
+- **asyncpg**: 非同期Python用高速PostgreSQLドライバー。
+- **httpx**: Python用非同期HTTPクライアント。
+- **uvicorn**: Python用高速ASGIサーバー。
+- **fastapi**: API用のモダンで高速なWebフレームワーク。
+- **starlette**: Python用軽量ASGIフレームワーク/ツールキット。
+- **gunicorn**: UNIX用WSGI HTTPサーバー。
+- **pyramid**: Python用Webフレームワーク。
+- **pyramid-credential**: Pyramid用クレデンシャルチェック。
+- **pyramid-oauth**: Pyramid用OAuthサポート。
+- **alembic**: SQLAlchemy用データベースマイグレーションツール。
+- **mako**: Python用高速テンプレートライブラリ。
+- **redis-py-client**: redisの重複（上記参照）。
+- **pika**: RabbitMQクライアントライブラリ。
+- **amqp**: Python用AMQPライブラリ。
+- **msgpack**: Python用MessagePackシリアライゼーション。
+- **pickle5**: pickleプロトコル5のバックポート。
+- **cloudpickle**: Python用拡張ピクリングサポート。
+- **dill**: Pythonのすべてをシリアライズ。
+- **multiprocess**: より優れたマルチプロセッシングおよびマルチスレッディング。
+- **pexpect**: Pythonからインタラクティブプログラムを制御。
+- **ptyprocess**: 擬似端末に接続されたインタラクティブプロセスを実行。
+- **subprocess32**: Python 3.2のsubprocessのバックポート。
+- **threadpoolctl**: スレッドのみの計算での時間を制限するPythonヘルパー。
+- **opencv-python**: オープンソースコンピュータビジョンライブラリ。
+- **scikit-image**: Pythonでの画像処理。
+- **imgaug**: 機械学習用画像拡張。
+- **albumentations**: 高速画像拡張ライブラリ。
+- **pycocotools**: Python用COCOデータセットユーティリティ。
+- **seaborn**: matplotlibに基づく統計的データ可視化。
+- **altair**: 宣言的統計的可視化ライブラリ。
+- **bokeh**: モダンなWebブラウザー用インタラクティブ可視化ライブラリ。
+- **folium**: インタラクティブマップ用のLeaflet.jsのPythonラッパー。
+- **geopy**: Python用ジオコーディングWebサービス。
+- **pyproj**: PROJ（地図投影法）へのPythonインターフェース。
+- **shapely**: Python用ジオメトリライブラリ。
+- **fiona**: PythonプログラマーのためのOGRの簡潔で機敏なAPI。
+- **descartes**: ジオメトリデータをプロットするためのDescartes。
+- **cartopy**: 地図投影法および派生製品。
+
+引用:
+[1] https://catswhocode.com/development/python-modules-list/
+[2] https://www.wscubetech.com/resources/python/libraries
+[3] https://github.com/lukasmasuch/best-of-python
+[4] https://www.stxnext.com/blog/most-popular-python-scientific-libraries

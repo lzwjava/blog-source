@@ -1,0 +1,228 @@
+---
+audio: false
+generated: true
+image: false
+lang: zh
+layout: post
+model: x-ai/grok-code-fast-1
+title: 热门Python软件包下载排行榜
+translated: true
+type: note
+---
+
+以下是基于近期下载统计和流行度排名的 PyPI 前 200 个最常下载的 Python 包，按下载量大致排序。每个包都附有一行描述。请注意，PyPI 的下载计数会随时间变化，并受到传递依赖的影响；本列表综合了 PyPI 统计、GitHub 精选列表（如 best-of-python）和精选库排名等全面来源。[1][2][3][3][4]
+
+- **pip**：用于从 PyPI 安装 Python 库的标准包管理器。
+- **setuptools**：用于轻松构建和分发 Python 包的库。
+- **wheel**：Python 发行版的构建包格式，用于加速安装。
+- **requests**：简洁优雅的 HTTP 库，用于发送请求。
+- **urllib3**：具有线程安全连接池的 HTTP 客户端库。
+- **certifi**：用于 SSL 验证的根证书集合。
+- **chardet**：通用字符编码检测器。
+- **idna**：国际化域名（IDNA）支持。
+- **six**：Python 2 和 3 兼容性工具。
+- **cryptography**：加密算法和原语。
+- **cffi**：用于调用 C 代码的外部函数接口。
+- **pycparser**：用 Python 编写的 C 解析器和 AST 生成器。
+- **packaging**：Python 包的核心工具。
+- **pyparsing**：用于创建和执行简单语法的库。
+- **typing_extensions**：标准 'typing' 模块的扩展。
+- **PyYAML**：Python 的 YAML 解析器和生成器。
+- **numpy**：用于 Python 数组计算的基础包。
+- **scipy**：科学和技术计算库。
+- **pandas**：数据分析和操作库。
+- **matplotlib**：用于创建静态、交互式可视化的绘图库。
+- **scikit-learn**：Python 的机器学习库。
+- **Pillow**：友好的 PIL 分支，用于图像处理。
+- **h5py**：HDF5 文件格式接口。
+- **openpyxl**：用于读写 Excel 文件的 Python 库。
+- **xlrd**：用于从 Excel 文件读取数据的库。
+- **xlwt**：用于向 Excel 文件写入数据的库。
+- **Jinja2**：Python 的模板引擎。
+- **MarkupSafe**：安全转义文本，以便在 HTML 和 XML 中安全使用。
+- **Flask**：轻量级 WSGI Web 应用框架。
+- **Werkzeug**：Python 的 WSGI 工具库。
+- **itsdangerous**：用于安全传递数据的各种辅助工具。
+- **Click**：命令行界面创建工具包。
+- **Django**：高级 Python Web 框架。
+- **Pytz**：世界时区定义。
+- **python-dateutil**：标准 Python datetime 模块的扩展。
+- **tzlocal**：本地时区的 Tzinfo 对象。
+- **SQLAlchemy**：Python 的 SQL 工具包和对象关系映射。
+- **psycopg2**：Python 的 PostgreSQL 适配器。
+- **pymysql**：纯 Python MySQL 客户端。
+- **PyMySQL**：用纯 Python 编写的 MySQL 客户端（重复项；见 pymysql）。
+- **psutil**：跨平台进程和系统工具。
+- **chardet2**：另一个字符检测库（变体）。
+- **lxml**：强大且符合 Python 风格的 XML 处理库。
+- **etree**：Python 的 ElementTree XML API（标准库的一部分）。
+- **beautifulsoup4**：用于从 HTML 和 XML 文件中提取数据的库。
+- **html5lib**：基于 WHATWG 规范的 HTML 解析器。
+- **webencodings**：用于传统 Web 内容的字符编码别名。
+- **soupsieve**：Beautiful Soup 的 CSS 选择器支持。
+- **nose**：用于 unittest 风格测试的测试发现和运行。
+- **coverage**：Python 的代码覆盖率测量。
+- **pytest**：用于编写和运行测试的框架。
+- **mock**：用于 Python 测试的模拟库。
+- **pluggy**：Python 的环境变量解析。
+- **toml**：Python 的 TOML 解析器。
+- **ruamel.yaml**：具有往返能力的 YAML 解析器/生成器。
+- **pathlib2**：适用于 Python < 3.4 的 pathlib 旧版回溯。
+- **scandir**：更好的目录迭代功能。
+- **future**：对 Python 3 和 2 的清洁单源支持。
+- **enum34**：Python 3.4 Enum 的回溯。
+- **functools32**：Python 3.4 functools.lru_cache 的回溯。
+- **appdirs**：平台特定的系统目录位置。
+- **filelock**：跨平台文件锁定。
+- **distlib**：Python 包的发行工具。
+- **checkerboard**：跨平台系统信息库（可能已弃用）。
+- **tensorflow**：开源机器学习平台。
+- **tensorflow-estimator**：TensorFlow 估计器 API。
+- **tensorboard**：TensorFlow 的可视化工具包。
+- **keras**：高级神经网络 API。
+- **protobuf**：用于结构化数据的 Protocol Buffers 序列化。
+- **tensorflow-hub**：可重用的机器学习模块。
+- **absl-py**：Abseil Python 通用库。
+- **grpcio**：Python 的 gRPC 库。
+- **markdown**：Python 的 Markdown 解析器。
+- **werkzeug**：全面的 WSGI 工具库。
+- **flask-cors**：Flask 应用的 CORS 支持。
+- **gevent**：基于协程的网络库。
+- **greenlet**：轻量级进程内并发编程。
+- **eventlet**：Python 的并发网络库。
+- **dnspython**：Python 的 DNS 工具包。
+- **paramiko**：Python 的 SSHv2 协议库。
+- **pynacl**：用于加密的 libsodium Python 绑定。
+- **bcrypt**：用于软件的现代密码哈希。
+- **fabric**：用于简化 SSH 使用的工具。
+- **invoke**：用于本地系统自动化的 Python 风格任务执行。
+- **ansible**：用于配置管理的自动化工具。
+- **botocore**：boto3（Python 的 AWS SDK）的核心功能。
+- **boto3**：Python 的 AWS SDK。
+- **s3transfer**：用于高效 Amazon S3 分段上传的高级工具。
+- **urllib3**：已列出，但为 boto 的核心。
+- **bz2file**：读写 bzip2 压缩文件。
+- **azure-storage-blob**：Microsoft Azure 存储 Blob 客户端库。
+- **azure-common**：Microsoft Azure 通用库。
+- **azure-core**：Python 客户端的 Microsoft Azure 核心库。
+- **msrest**：Microsoft REST API 客户端库。
+- **httplib2**：全面的 HTTP 客户端库。
+- **oauth2client**：Python 的 OAuth 2.0 客户端库。
+- **google-api-core**：Google API 客户端核心库。
+- **google-auth**：Google 身份验证库。
+- **google-api-python-client**：Python 的 Google API 客户端库。
+- **google-cloud-core**：Google Cloud API 客户端核心库。
+- **gspread**：Python 的 Google Sheets API v4。
+- **oauthlib**：Python 的 OAuth 请求签名。
+- **requests-oauthlib**：Requests 的 OAuth 库支持。
+- **tweepy**：Python 的 Twitter API 客户端。
+- **slackclient**：Python 的 Slack API 客户端。
+- **redis**：Python 的 Redis 客户端。
+- **celery**：分布式任务队列库。
+- **kombu**：Python 的消息传递库。
+- **django-celery-results**：适用于 Celery 的 Django 感知结果后端。
+- **pytest-django**：pytest 的 Django 插件。
+- **django-extensions**：Django 的扩展。
+- **djangorestframework**：Django 的 Web API。
+- **django-filter**：用于过滤的 REST 框架集成。
+- **django-cors-headers**：Django CORS 头中间件。
+- **sentry-sdk**：Sentry 应用监控的 SDK。
+- **IPython**：Python 的交互式计算。
+- **jupyter-core**：Jupyter 核心功能。
+- **jupyter-client**：Python 的 Jupyter 内核。
+- **ipykernel**：Jupyter 的 IPython 内核。
+- **nbformat**：Jupyter 笔记本格式。
+- **nbconvert**：将 Jupyter 笔记本转换为其他格式。
+- **notebook**：用于创建和共享 Jupyter 笔记本的 Web 应用。
+- **widgetsnbextension**：Jupyter 的 IPython 小部件扩展。
+- **ipywidgets**：Jupyter 笔记本的交互式小部件。
+- **jupyter-console**：Jupyter 终端控制台。
+- **qtconsole**：Jupyter Qt 控制台。
+- **rise**：Reveal.js - Jupyter/IPython 幻灯片扩展。
+- **plotly**：用于交互式绘图的数据可视化库。
+- **dash**：用于使用 Python 构建 Web 应用的框架。
+- **jellyfish**：近似和语音字符串匹配。
+- **fuzzywuzzy**：Python 中的模糊字符串匹配。
+- **python-levenshtein**：Levenshtein 距离的快速实现。
+- **nltk**：自然语言处理工具包。
+- **gensim**：主题建模和文档相似性库。
+- **spacy**：工业级自然语言处理。
+- **transformers**：最先进的自然语言处理。
+- **torch**：PyTorch 深度学习框架。
+- **torchvision**：用于视觉任务的数据集、变换和模型。
+- **torchaudio**：PyTorch 的音频支持。
+- **sympy**：用 Python 编写的计算机代数系统。
+- **sympy3**：sympy 的变体或扩展（可能已弃用）。
+- **autograd**：PyTorch 的高效 GPU 内存管理。
+- **numba**：Python 函数的 JIT 编译器。
+- **cython**：Python 的 C 扩展。
+- **joblib**：使用 Python 函数的轻量级流水线。
+- **dask**：用于并行计算的灵活库。
+- **zipp**：用于 zip 文件的 pathlib Path 回溯。
+- **jaraco.classes**：Python 的基础类。
+- **jaraco.collections**：Python 的集合工具。
+- **jaraco.text**：文本处理工具。
+- **jaraco.itertools**：迭代器工具。
+- **tempora**：与日期和时间相关的对象和例程。
+- **backports.functools_lru_cache**：functools.lru_cache 的回溯。
+- **backports.weakref**：weakref 增强功能的回溯。
+- **more-itertools**：用于操作可迭代对象的更多例程。
+- **attrs**：无样板代码的 Python 类。
+- **platformdirs**：平台特定的系统目录位置。
+- **colorama**：跨平台彩色终端文本。
+- **tqdm**：用于循环和可迭代对象的智能进度条。
+- **path**：操作系统特定的路径操作。
+- **path.py**：路径操作库（旧版本）。
+- **python-slugify**：返回字符串的 Unicode slug。
+- **unidecode**：Unicode 文本的 ASCII 音译。
+- **cldr**：Python 的 CLDR 工具。
+- **babel**：国际化工具。
+- **pytzdata**：时区库的时区数据。
+- **bottle**：用于小型应用的快速、简单 Web 框架。
+- **cherrypy**：Python 的极简 Web 框架。
+- **tornado**：Web 框架和异步网络库。
+- **aiohttp**：用于 asyncio 的异步 HTTP 客户端/服务器。
+- **asyncpg**：用于异步 Python 的快速 PostgreSQL 驱动。
+- **httpx**：Python 的异步 HTTP 客户端。
+- **uvicorn**：用于 Python 的闪电般快速的 ASGI 服务器。
+- **fastapi**：用于 API 的现代、快速 Web 框架。
+- **starlette**：用于 Python 的轻量级 ASGI 框架/工具包。
+- **gunicorn**：用于 UNIX 的 WSGI HTTP 服务器。
+- **pyramid**：Python 的 Web 框架。
+- **pyramid-credential**：Pyramid 的凭证检查。
+- **pyramid-oauth**：Pyramid 的 OAuth 支持。
+- **alembic**：SQLAlchemy 的数据库迁移工具。
+- **mako**：Python 的快速模板库。
+- **redis-py-client**：redis 的重复项（见上文）。
+- **pika**：RabbitMQ 客户端库。
+- **amqp**：Python 的 AMQP 库。
+- **msgpack**：Python 的 MessagePack 序列化。
+- **pickle5**：pickle 协议 5 的回溯。
+- **cloudpickle**：Python 的扩展 pickling 支持。
+- **dill**：序列化所有 Python 对象。
+- **multiprocess**：更好的多进程和多线程。
+- **pexpect**：从 Python 控制交互式程序。
+- **ptyprocess**：运行附加到伪终端的交互式进程。
+- **subprocess32**：Python 3.2 子进程的回溯。
+- **threadpoolctl**：用于限制纯线程计算时间的 Python 辅助工具。
+- **opencv-python**：开源计算机视觉库。
+- **scikit-image**：Python 中的图像处理。
+- **imgaug**：用于机器学习的图像增强。
+- **albumentations**：快速图像增强库。
+- **pycocotools**：Python 的 COCO 数据集工具。
+- **seaborn**：基于 matplotlib 的统计数据可视化。
+- **altair**：声明式统计可视化库。
+- **bokeh**：用于现代 Web 浏览器的交互式可视化库。
+- **folium**：用于交互式地图的 Leaflet.js Python 包装器。
+- **geopy**：Python 的地理编码 Web 服务。
+- **pyproj**：PROJ（地图投影）的 Python 接口。
+- **shapely**：Python 的几何库。
+- **fiona**：面向 Python 程序员的 OGR 简洁 API。
+- **descartes**：用于绘制几何数据的 Descartes。
+- **cartopy**：地图投影和派生产品。
+
+引用：
+[1] https://catswhocode.com/development/python-modules-list/
+[2] https://www.wscubetech.com/resources/python/libraries
+[3] https://github.com/lukasmasuch/best-of-python
+[4] https://www.stxnext.com/blog/most-popular-python-scientific-libraries
