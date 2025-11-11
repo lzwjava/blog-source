@@ -1,0 +1,23 @@
+---
+audio: false
+generated: true
+lang: de
+layout: post
+title: Boston Tea Party
+translated: true
+type: note
+---
+
+Die **Boston Tea Party** war ein politischer Protest, der am **16. Dezember 1773** am Griffin's Wharf in Boston, Massachusetts, stattfand. Es war ein entscheidendes Ereignis auf dem Weg zur Amerikanischen Revolution. Hier ist eine kurze Übersicht basierend auf historischen Berichten:
+
+- **Was geschah**: Eine Gruppe amerikanischer Kolonisten, frustriert durch die britische Besteuerung ohne politische Vertretung, insbesondere durch den **Tea Act von 1773**, enterten drei britische Schiffe (die Dartmouth, Eleanor und Beaver) und warfen **342 Kisten Tee** (über 92.000 Pfund, mit einem damaligen Wert von etwa £18.000, was heute ungefähr 1 Million US-Dollar entspricht) in den Hafen von Boston. Viele Teilnehmer, die von den **Sons of Liberty** organisiert wurden, tarnten sich als Mohawk-Indianer, um ihre Identität zu verbergen und ihre Zugehörigkeit zu einer amerikanischen statt britischen Identität zu symbolisieren.[](https://www.britannica.com/event/Boston-Tea-Party)[](https://www.history.com/articles/boston-tea-party)[](https://www.battlefields.org/learn/articles/boston-tea-party)
+
+- **Warum es geschah**: Der Tea Act gewährte der British East India Company ein Monopol auf den Teeverkauf in den Kolonien, was es ihr ermöglichte, überschüssigen Tee zu einem niedrigeren Preis, aber immer noch besteuert, zu verkaufen. Dies unterbot koloniale Händler und Schmuggler. Die Kolonisten sahen dies als einen Versuch, die Besteuerung ohne ihre Zustimmung durchzusetzen, und entfachten erneut den Ruf "no taxation without representation" (Keine Besteuerung ohne Vertretung). Bostons Gouverneur Thomas Hutchinson weigerte sich, die Teeschiffe abfahren zu lassen, ohne dass die Abgabe bezahlt wurde, was die Spannungen eskalieren ließ.[](https://www.britannica.com/event/Boston-Tea-Party)[](https://www.history.com/articles/boston-tea-party)[](https://www.masshist.org/revolution/teaparty.php)
+
+- **Wichtige Personen**: Der Protest wurde von **Samuel Adams** angeführt und von Persönlichkeiten wie **John Hancock** und **Paul Revere** unterstützt, wobei die Sons of Liberty eine zentrale Rolle spielten. Ungefähr 30 bis 130 Männer nahmen direkt teil, obwohl Tausende zuvor im Old South Meeting House zusammenkamen, um die Angelegenheit zu debattieren.[](https://www.history.com/articles/boston-tea-party)[](https://revolutionaryspaces.org/explore/past-programs/boston-tea-party-250th-anniversary-commemoration/)[](https://www.bostonteapartyship.com/boston-tea-party-history)
+
+- **Auswirkungen**: Die Boston Tea Party war eine kühne Herausforderung, die den kolonialen Widerstand vereinte. Großbritannien reagierte mit den **Intolerable Acts (1774)**, darunter der Boston Port Act, der den Hafen schloss, bis der Tee bezahlt war, was die Spannungen weiter anheizte. Dies führte zum **First Continental Congress** im Jahr 1774 und letztlich zum **Amerikanischen Unabhängigkeitskrieg**, der 1775 begann. Das Ereignis verschob auch kulturelle Vorlieben, da Kaffee in den Kolonien als patriotische Geste beliebter wurde als Tee.[](https://www.britannica.com/event/Boston-Tea-Party)[](https://www.battlefields.org/learn/articles/boston-tea-party)[](https://www.britannica.com/video/Boston-Tea-Party/-281362)
+
+- **Vermächtnis**: Ursprünglich "Zerstörung des Tees" genannt, entstand der Begriff "Boston Tea Party" in den 1830er Jahren. Er inspirierte andere koloniale Proteste und wurde zu einem Symbol des Widerstands, das spätere Bewegungen wie die moderne **Tea-Party-Bewegung** beeinflusste. Der 250. Jahrestag im Jahr 2023 wurde in Boston mit Nachstellungen begangen.[](https://en.wikipedia.org/wiki/Boston_Tea_Party)[](https://www.cbsnews.com/boston/news/250-anniversary-boston-tea-party-schedule-of-events/)[](https://revolutionaryspaces.org/explore/past-programs/boston-tea-party-250th-anniversary-commemoration/)
+
+**Hinweis**: Der Begriff "Boston Drop Tea Movement" scheint eine Fehlbezeichnung zu sein; Sie meinten wahrscheinlich die **Boston Tea Party**. Es gibt kein historisches Ereignis, das ausdrücklich "Boston Drop Tea Movement" genannt wird. Falls Sie sich auf etwas anderes bezogen haben, klären Sie dies bitte, und ich werde die Antwort entsprechend anpassen! Auch wenn ich zuverlässige Quellen verwendet habe, können historische Darstellungen Voreingenommenheit enthalten, daher habe ich mich bemüht, bei überprüften Fakten und gegengeprüften Details zu bleiben.[](https://en.wikipedia.org/wiki/Boston_Tea-Party)[](https://www.britannica.com/event/Boston-Tea-Party)[](https://www.history.com/articles/boston-tea-party)
