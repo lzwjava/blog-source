@@ -37,8 +37,14 @@ jobs:
           pip install -r requirements/requirements.txt
 
       - name: Translate notes in batches
+        env:
+          TOTAL_POSTS: ${{ github.event.inputs.total || '3700' }}
         run: |
-          TOTAL_POSTS=${{ inputs.total }}
+          TOTAL_POSTS="${TOTAL_POSTS:-0}"
+          if [ -z "$TOTAL_POSTS" ] || ! [[ "$TOTAL_POSTS" =~ ^[0-9]+$ ]] || [ "$TOTAL_POSTS" -le 0 ]; then
+            echo "TOTAL_POSTS is not set to a positive integer. Skipping translation batch job."
+            exit 0
+          fi
           for batch_end in $(seq 10 10 "$TOTAL_POSTS"); do
             python scripts/translation/update_lang_notes.py --n "$batch_end"
             git config user.name "github-actions[bot]"
@@ -51,4 +57,3 @@ jobs:
                 git push
             }
           done
-
