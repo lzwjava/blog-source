@@ -35,19 +35,14 @@ def main():
     parser.add_argument(
         "--batch_size",
         type=int,
-        default=50,
+        default=10,
         help="Batch size for processing (default: 10, matching workflow)"
     )
     parser.add_argument(
         "--start_batch",
         type=int,
-        default=50,
+        default=10,
         help="Starting batch end number (default: 10, matching workflow)"
-    )
-    parser.add_argument(
-        "--dry_run",
-        action="store_true",
-        help="Run in dry-run mode without making actual changes"
     )
 
     args = parser.parse_args()
@@ -69,47 +64,42 @@ def main():
 
         print(f"\n--- Processing batch ending at {batch_end} ---")
 
-        if not args.dry_run:
-            success = run_translation_batch(batch_end)
-            if not success:
-                print(f"Batch {batch_end} failed, stopping...")
-                sys.exit(1)
+        success = run_translation_batch(batch_end)
+        if not success:
+            print(f"Batch {batch_end} failed, stopping...")
+            sys.exit(1)
 
-            # Always commit changes after each batch
-            try:
-                # Add changes
-                subprocess.run(["git", "add", "_posts/**/**"], check=True)
+        # Always commit changes after each batch
+        try:
+            # Add changes
+            subprocess.run(["git", "add", "_posts/**/**"], check=True)
 
-                # Check if there are changes to commit
-                result = subprocess.run(["git", "diff", "--cached", "--quiet"])
-                if result.returncode != 0:  # There are changes
-                    # Commit
-                    subprocess.run([
-                        "git", "commit", "-m", "docs(notes) Add translated notes"
-                    ], check=True)
-                    print(f"Committed changes for batch {batch_end}")
+            # Check if there are changes to commit
+            result = subprocess.run(["git", "diff", "--cached", "--quiet"])
+            if result.returncode != 0:  # There are changes
+                # Commit
+                subprocess.run([
+                    "git", "commit", "-m", "docs(notes) Add translated notes"
+                ], check=True)
+                print(f"Committed changes for batch {batch_end}")
 
-                    # Try to push, pull first if push fails
-                    try:
-                        subprocess.run(["git", "push"], check=True)
-                        print(f"Pushed changes for batch {batch_end}")
-                    except subprocess.CalledProcessError:
-                        print(f"Push failed for batch {batch_end}, pulling latest changes...")
-                        subprocess.run(["git", "pull", "--rebase"], check=True)
-                        subprocess.run(["git", "push"], check=True)
-                        print(f"Pulled, rebased, and pushed changes for batch {batch_end}")
-                else:
-                    print(f"No changes for batch {batch_end}, skipping commit and push")
+                # Try to push, pull first if push fails
+                try:
+                    subprocess.run(["git", "push"], check=True)
+                    print(f"Pushed changes for batch {batch_end}")
+                except subprocess.CalledProcessError:
+                    print(f"Push failed for batch {batch_end}, pulling latest changes...")
+                    subprocess.run(["git", "pull", "--rebase"], check=True)
+                    subprocess.run(["git", "push"], check=True)
+                    print(f"Pulled, rebased, and pushed changes for batch {batch_end}")
+            else:
+                print(f"No changes for batch {batch_end}, skipping commit and push")
 
-            except subprocess.CalledProcessError as e:
-                print(f"Git operation failed for batch {batch_end}: {e}")
-                sys.exit(1)
-        else:
-            print(f"Would run: python scripts/translation/update_lang_notes.py --n {batch_end}")
-            if args.git_commit:
-                print("Would run: git add _posts/**/** && git commit (if changes exist)")
+        except subprocess.CalledProcessError as e:
+            print(f"Git operation failed for batch {batch_end}: {e}")
+            sys.exit(1)
 
     print("All batches processed successfully!")
-    
+
 if __name__ == "__main__":
     main()
