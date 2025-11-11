@@ -35,13 +35,13 @@ def main():
     parser.add_argument(
         "--batch_size",
         type=int,
-        default=10,
+        default=50,
         help="Batch size for processing (default: 10, matching workflow)"
     )
     parser.add_argument(
         "--start_batch",
         type=int,
-        default=10,
+        default=50,
         help="Starting batch end number (default: 10, matching workflow)"
     )
     parser.add_argument(
