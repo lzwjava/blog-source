@@ -49,6 +49,11 @@ def main():
         action="store_true",
         help="Automatically commit changes after each batch (like the workflow)"
     )
+    parser.add_argument(
+        "--dry_run",
+        action="store_true",
+        help="Run in dry-run mode without making actual changes"
+    )
 
     args = parser.parse_args()
 
@@ -100,6 +105,7 @@ def main():
             if args.git_commit:
                 print("Would run: git add _posts/**/** && git commit (if changes exist)")
 
-    print("
-All batches processed successfully!"if __name__ == "__main__":
+    print("All batches processed successfully!")
+    
+if __name__ == "__main__":
     main()
