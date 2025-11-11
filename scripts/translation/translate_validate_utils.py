@@ -35,7 +35,7 @@ def check_title_strict(title, target_lang):
         'ja': ['"'],
         'zh': ['"'],
         'hant': ['"'],
-        'hi': ['"'],
+        'hi': [],
         'ar': ['"'],
         'es': ['"'],
         'fr': ['"'],
