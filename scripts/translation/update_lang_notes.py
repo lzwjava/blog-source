@@ -66,11 +66,6 @@ def main():
         help="Target language for translation (e.g., ja, es, all).",
     )
     parser.add_argument(
-        "--dry_run",
-        action="store_true",
-        help="Perform a dry run without modifying files.",
-    )
-    parser.add_argument(
         "--file", type=str, default=None, help="Specific file to translate."
     )
     parser.add_argument(
@@ -93,7 +88,6 @@ def main():
     )
     args = parser.parse_args()
     target_language = args.lang
-    dry_run = args.dry_run
     input_file = args.file
     max_files = args.max_files
     model = args.model
@@ -131,14 +125,6 @@ def main():
         total_files_to_process = len(changed_files)
     else:
         print("Error: Must specify either --file, --n, or another valid option")
-        return
-
-    if dry_run:
-        print("Dry run mode enabled. No files will be modified.")
-        print("Files that would be processed:")
-        for filename, lang in changed_files:
-            print(f"  - {filename} to language {lang}")
-        print(f"Total Markdown files to process: {total_files_to_process}")
         return
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
