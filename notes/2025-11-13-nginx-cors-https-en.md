@@ -57,7 +57,7 @@ server {
     ssl_prefer_server_ciphers on;
     ssl_ciphers "EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH";
 
-    root /home/project/gaga-duck-web;
+    root /home/project/project-web;
     index index.html index.htm index.php default.html default.htm default.php;
 
     location / {
@@ -80,7 +80,7 @@ server {
 - **HTTPS server** for `example.com` on port 443 with SSL enabled.
 - Uses **Let’s Encrypt** certificates (auto-renewable, free).
 - Enforces modern TLS versions (`TLSv1.2`, `TLSv1.3`) and strong ciphers for security.
-- Serves static files from `/home/project/gaga-duck-web`.
+- Serves static files from `/home/project/project-web`.
 - Tries to serve requested file → directory → 404.
 - Sets **cache headers**:
   - Images: cache for 30 days.
