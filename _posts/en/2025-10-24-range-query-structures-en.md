@@ -50,6 +50,7 @@ A **Fenwick Tree** (introduced by Peter Fenwick in 1994) is a more compact array
 For array [1, 3, 5, 7], the Fenwick array might be [1, 4, 5, 16] (cumulative adjustments). To query sum[1-3]: prefix(3) - prefix(0) = 9.
 
 #### Comparison
+
 | Aspect          | Segment Tree                  | Fenwick Tree                  |
 |-----------------|-------------------------------|-------------------------------|
 | **Space**      | O(4n)                         | O(n)                          |

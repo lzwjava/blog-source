@@ -28,6 +28,7 @@ This matches products like:
 If you're shopping in English, search for "men's quick-dry long-sleeve shirt" on sites like Amazon or Uniqlo's global store. For that shiny green vibe from our last chat, look for ones with a subtle sheen from spandex blends.
 
 #### Quick Comparison Table
+
 | Chinese Term/Product | English Equivalent | Key Features | Example Brands |
 |----------------------|--------------------|--------------|----------------|
 | 速干衫 (Sugan)      | Quick-dry shirt   | Fast sweat evaporation, lightweight | Uniqlo AIRism, generic athletic wear |

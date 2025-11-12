@@ -51,6 +51,7 @@ Focus on platforms supporting CNY via Alipay/WeChat with zero platform trading f
    - **Cons:** Fewer sellers than OKX/KuCoin, so rates may vary.
 
 #### Comparison Table
+
 | Platform   | Platform Fee | Typical Premium | Transfer Time | Alipay/WeChat Support | Best For |
 |------------|--------------|-----------------|---------------|-----------------------|----------|
 | OKX P2P   | 0%          | 0.5-2%         | 5-15 mins    | Yes                  | Reliability & speed |

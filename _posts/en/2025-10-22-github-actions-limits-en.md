@@ -15,6 +15,7 @@ type: note
 GitHub Actions has tiered limits based on your plan (personal accounts or organizations). These include free monthly minutes for GitHub-hosted runners in private repositories and storage for artifacts. Public repositories and self-hosted runners don't consume these minutes. Limits reset monthly for minutes (storage is ongoing). Overages are billed automatically if you have a valid payment method; otherwise, jobs are blocked after hitting the limit.
 
 #### Included Minutes and Storage by Plan
+
 | Plan                          | Storage | Minutes (per month) |
 |-------------------------------|---------|---------------------|
 | GitHub Free (personal/org)   | 500 MB | 2,000              |

@@ -32,6 +32,7 @@ You're on the right track with your intuition—impurities *do* play a key role 
      - Semiconductors conduct via electrons/holes in a solid crystal lattice (solid-state magic), not dissolved ions in liquid. So, it's more like tweaking a crystal's "personality" to control electron flow.
 
 #### Quick Comparison Table
+
 | Aspect              | Pure Semiconductor (e.g., Si) | Doped Semiconductor (with Impurities) |
 |---------------------|-------------------------------|--------------------------------------|
 | **Conductivity**   | Very low (insulator-like)    | High but controllable (semi-conductor) |

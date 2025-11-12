@@ -32,6 +32,7 @@ Platform as a Service (PaaS) is a cloud computing model that provides a complete
 - AWS Elastic Beanstalk
 
 #### PaaS vs. Other Cloud Models
+
 | Model | Focus | User Responsibility | Example Use Case |
 |-------|--------|----------------------|------------------|
 | **IaaS (Infrastructure as a Service)** | Raw computing resources (e.g., virtual machines, storage) | Manage OS, apps, and runtime | Custom server setups |

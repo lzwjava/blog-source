@@ -53,6 +53,7 @@ It sounds like you're into vibrant or shiny green colors for long-sleeved tops a
 When shopping or describing these, add details like "fitted," "oversized," "slim-fit," or fabric types (e.g., "silk-blend for shine" or "cotton for matte"). If you're looking for brands or where to buy shiny green versions, let me know—I can suggest some!
 
 #### Quick Reference Table
+
 | Type              | Style Vibe       | Best For                  |
 |-------------------|------------------|---------------------------|
 | Long-sleeve T-shirt | Casual         | Daily wear, layering     |

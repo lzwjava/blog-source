@@ -15,6 +15,7 @@ type: note
 From the official notification for Guangdong University of Foreign Studies (GDUFS) 2025 Second-Half Practical Assessment Registration (for social candidates), here's the extracted details specifically for **Major 610201: Computer Application Technology** and its practical course **11325: Computer and Application Course Experiment (I)**. This is a computer-based (on-machine) practical exam.
 
 #### Key Course Details
+
 | Field | Details |
 |-------|---------|
 | **Exam Type** | Practical Assessment (实践考核) |

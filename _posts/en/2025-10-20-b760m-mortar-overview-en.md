@@ -24,6 +24,7 @@ The MSI MAG B760M Mortar WiFi is a robust Micro-ATX gaming motherboard from MSI'
 - **Audio and Extras**: Audio Boost delivers studio-grade sound with isolated signals and de-pop protection. Mystic Light Extension adds RGB support for peripherals, and it's Windows 11 compatible.
 
 #### Main Specifications
+
 | Category       | Details |
 |----------------|---------|
 | **Chipset**    | Intel B760 |

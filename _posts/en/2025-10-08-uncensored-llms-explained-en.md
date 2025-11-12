@@ -48,6 +48,7 @@ You mentioned Mistral, DeepSeek, Distill (likely referring to distilled variants
 Other notables include Llama2-Uncensored or Nous-Hermes (distilled from Llama), but your examples align with open-source powerhouses from Mistral AI, DeepSeek AI, and Alibaba's Qwen series.
 
 #### Pros and Cons
+
 | Aspect | Pros | Cons |
 |--------|------|------|
 | **Flexibility** | Answers anything; great for uncensored storytelling, unbiased analysis, or edge-case testing. | Risk of harmful output (e.g., misinformation, hate speech, or illegal advice). |

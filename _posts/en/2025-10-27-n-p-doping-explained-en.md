@@ -31,6 +31,7 @@ Doping, as we touched on earlier, is like giving a pure semiconductor (e.g., sil
    - **Real-world use**: The "p" in p-channel transistors, or the hole-rich side in LEDs and diodes.
 
 #### Key Differences: A Quick Side-by-Side
+
 | Aspect              | N-Type Doping                          | P-Type Doping                          |
 |---------------------|----------------------------------------|----------------------------------------|
 | **Impurity Type**  | Donors (e.g., P, As—Group V elements) | Acceptors (e.g., B, Ga—Group III elements) |

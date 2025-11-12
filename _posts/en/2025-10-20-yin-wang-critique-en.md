@@ -36,6 +36,7 @@ In summary, Wang's essay is "true" as a provocative mirror to systemic pressures
 Viewing "success" in China requires layering traditional values with modern pressures. It's not monolithic—rural vs. urban, old vs. young perspectives differ—but here's a framework based on cultural, economic, and social lenses:
 
 #### **Core Metrics of Mainstream Success**
+
 | Dimension | Description | Examples/Why It Matters |
 |-----------|-------------|-------------------------|
 | **Education** | Top priority; seen as the great equalizer. High scores/titles from elite schools signal potential. | Gaokao rank > job offers; Tsinghua/Peking grads get guanxi boosts. 70% of workforce lacks high school, making it a rare ticket to mobility. |

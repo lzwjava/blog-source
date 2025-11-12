@@ -48,6 +48,7 @@ You're mixing a couple of concepts here—GPG (GNU Privacy Guard) can do **encry
      - It doesn't encrypt the file—just verifies it. Combine with encryption for full security (sign then encrypt).
 
 #### Key Differences and Your Questions
+
 | Feature | Encryption (Password) | Encryption (Public Key) | Signing |
 |---------|-----------------------|--------------------------|---------|
 | **Uses Passphrase?** | Yes, for symmetric key | No (uses recipient's public key) | Yes, to unlock your private key |
