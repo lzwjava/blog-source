@@ -1,0 +1,107 @@
+---
+audio: false
+generated: false
+lang: fr
+layout: post
+title: Compatibilité Node.js avec OpenSSL
+translated: true
+type: note
+---
+
+Lors de l'exécution de `ng build` avec **Node.js 22.9.0** et **npm 10.8.3**, vous rencontrez l'erreur :
+
+```
+error 0308010C digital envelope routines::unsupported
+```
+
+Cette erreur se produit généralement en raison d'un problème de compatibilité entre les versions récentes de Node.js (comme la 22.9.0, qui utilise OpenSSL 3.0 ou ultérieur) et certains algorithmes cryptographiques utilisés par des outils comme Webpack, sur lequel s'appuie Angular. Voici un guide étape par étape pour résoudre ce problème.
+
+---
+
+### Solution
+
+#### Étape 1 : Activer le Fournisseur Legacy d'OpenSSL
+Le correctif le plus simple et immédiat consiste à activer le fournisseur legacy d'OpenSSL en définissant la variable d'environnement `NODE_OPTIONS`. Cela permet à Node.js d'utiliser les anciens algorithmes cryptographiques qui ne sont plus nécessairement pris en charge par défaut dans OpenSSL 3.0+.
+
+- **Pour macOS/Linux** :
+  Ouvrez votre terminal et exécutez :
+  ```bash
+  export NODE_OPTIONS=--openssl-legacy-provider
+  ng build
+  ```
+
+- **Pour Windows (Invite de commandes)** :
+  Ouvrez l'Invite de commandes et exécutez :
+  ```cmd
+  set NODE_OPTIONS=--openssl-legacy-provider
+  ng build
+  ```
+
+- **Pour Windows (PowerShell)** :
+  Ouvrez PowerShell et exécutez :
+  ```powershell
+  $env:NODE_OPTIONS="--openssl-legacy-provider"
+  ng build
+  ```
+
+Après avoir défini la variable d'environnement, exécutez `ng build` à nouveau. Cela devrait résoudre l'erreur dans la plupart des cas en permettant à Node.js de traiter les routines non prises en charge.
+
+---
+
+#### Étape 2 : Vérifier et Mettre à Jour Angular CLI (Si Nécessaire)
+Si l'erreur persiste après l'étape 1, votre version d'Angular CLI pourrait ne pas être entièrement compatible avec Node.js 22.9.0. La mettre à jour vers la dernière version peut aider.
+
+- Vérifiez votre version actuelle d'Angular CLI :
+  ```bash
+  ng --version
+  ```
+
+- Mettez à jour Angular CLI globalement :
+  ```bash
+  npm install -g @angular/cli
+  ```
+
+- Ensuite, essayez de relancer `ng build`.
+
+---
+
+#### Étape 3 : Vérifier et Mettre à Jour les Dépendances du Projet (Optionnel)
+Si le problème n'est toujours pas résolu, des dépendances obsolètes dans votre projet pourraient en être la cause. Pour y remédier :
+
+- Ouvrez votre fichier `package.json` et vérifiez les versions de vos dépendances (par exemple, `@angular/core`, `@angular/cli`, etc.).
+- Mettez-les soigneusement à jour vers leurs dernières versions compatibles :
+  ```bash
+  npm install
+  ```
+  ou, si vous souhaitez mettre à jour toutes les dépendances :
+  ```bash
+  npm update
+  ```
+
+- Exécutez `ng build` à nouveau pour tester.
+
+*Note* : Soyez prudent avec les mises à jour, car elles peuvent introduire des changements cassants. Testez votre application minutieusement par la suite.
+
+---
+
+#### Étape 4 : Revenir à une Version Antérieure de Node.js (Dernier Recours)
+Si aucune des solutions ci-dessus ne fonctionne, Node.js 22.9.0 pourrait ne pas encore être entièrement pris en charge par la configuration actuelle de votre projet. Revenir à une version de support à long terme (LTS) de Node.js, telle que **20.x** ou **18.x**, pourrait résoudre le problème.
+
+- Désinstallez votre version actuelle de Node.js.
+- Téléchargez et installez une version LTS depuis le [site officiel de Node.js](https://nodejs.org/).
+- Vérifiez la version installée :
+  ```bash
+  node -v
+  ```
+- Réinstallez les dépendances de votre projet :
+  ```bash
+  npm install
+  ```
+- Exécutez `ng build` à nouveau.
+
+---
+
+### Approche Recommandée
+Commencez par l'**Étape 1** (définir `NODE_OPTIONS`), car c'est le correctif le plus rapide et il vous permet de continuer à utiliser Node.js 22.9.0. Si cela ne fonctionne pas, passez aux **Étapes 2** et **3**. N'utilisez l'**Étape 4** qu'en cas de nécessité, car revenir à une version antérieure de Node.js pourrait limiter l'accès aux nouvelles fonctionnalités.
+
+Cela devrait résoudre l'erreur "error 0308010C digital envelope routines::unsupported" et permettre à votre commande `ng build` de fonctionner à nouveau !
