@@ -23,7 +23,9 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(/tmp/test_utf8.txt)",
-      "Bash(/tmp/test_binary.bin:*)"
+      "Bash(/tmp/test_binary.bin:*)",
+      "Bash(pip3 list:*)",
+      "Bash(pip3 install:*)"
     ],
     "deny": [],
     "ask": [],
