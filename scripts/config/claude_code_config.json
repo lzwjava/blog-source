@@ -34,11 +34,11 @@
     }
   ],
   "Router": {
-    "default": "openrouter,minimax/minimax-m2",
-    "background": "openrouter,minimax/minimax-m2",
-    "think": "openrouter,minimax/minimax-m2",
-    "longContext": "openrouter,minimax/minimax-m2",
+    "default": "openrouter,moonshotai/kimi-k2-thinking",
+    "background": "openrouter,moonshotai/kimi-k2-thinking",
+    "think": "openrouter,moonshotai/kimi-k2-thinking",
+    "longContext": "openrouter,moonshotai/kimi-k2-thinking",
     "longContextThreshold": 30000,
-    "webSearch": "openrouter,minimax/minimax-m2"
+    "webSearch": "openrouter,moonshotai/kimi-k2-thinking"
   }
 }

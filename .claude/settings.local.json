@@ -25,7 +25,8 @@
       "Bash(/tmp/test_utf8.txt)",
       "Bash(/tmp/test_binary.bin:*)",
       "Bash(pip3 list:*)",
-      "Bash(pip3 install:*)"
+      "Bash(pip3 install:*)",
+      "Read(//home/lzw/.local/lib/python3.13/site-packages/mediawiki_dump/**)"
     ],
     "deny": [],
     "ask": [],
