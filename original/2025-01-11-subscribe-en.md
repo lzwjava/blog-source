@@ -57,13 +57,12 @@ Social Impact:
 
 | Platform | Followers/Connections |
 |----------|---|
-| [X](https://mobile.twitter.com/lzwjava) | 390 |
-| [Weibo](https://weibo.com/zhiweilee) | 3158 |
-| WeChat Subscription platform | 2156 |
-| WeChat Video platform | 649 |
-| [TikTok](https://www.tiktok.com/@jamesleecool) | 179 |
-| [Xiaohongshu](https://www.xiaohongshu.com/user/profile/577ba85b6a6a6913f98f237b) | 216 |
 | WeChat@lzwjava | ~5800 |
 | WeChat@lzwjava2048 | ~4500 |
 | [LinkedIn](https://www.linkedin.com/in/lzwjava) | 254 |
-
+| WeChat Subscription platform | 2156 |
+| WeChat Video platform | 649 |
+| [X](https://mobile.twitter.com/lzwjava) | 390 |
+| [Weibo](https://weibo.com/zhiweilee) | 3158 |
+| [TikTok](https://www.tiktok.com/@jamesleecool) | 179 |
+| [Xiaohongshu](https://www.xiaohongshu.com/user/profile/577ba85b6a6a6913f98f237b) | 216 |
