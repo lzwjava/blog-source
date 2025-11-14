@@ -3,3 +3,4 @@ feedgen
 gym
 pyvirtualdisplay
 IPython
+mediawiki-utilities
