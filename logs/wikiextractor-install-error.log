@@ -1,0 +1,62 @@
+$ python3.11 -m pip install git+https://github.com/attardi/wikiextractor.git 
+Defaulting to user installation because normal site-packages is not writeable
+Collecting git+https://github.com/attardi/wikiextractor.git
+  Cloning https://github.com/attardi/wikiextractor.git to /tmp/pip-req-build-o7ivka3x
+  Running command git clone --filter=blob:none --quiet https://github.com/attardi/wikiextractor.git /tmp/pip-req-build-o7ivka3x
+  Resolved https://github.com/attardi/wikiextractor.git to commit 8f1b434a80608e1e313d38d263ed7c79c9ee75a9
+  Preparing metadata (setup.py) ... error
+  error: subprocess-exited-with-error
+  
+  × python setup.py egg_info did not run successfully.
+  │ exit code: 1
+  ╰─> [40 lines of output]
+      Traceback (most recent call last):
+        File "<string>", line 2, in <module>
+        File "<pip-setuptools-caller>", line 34, in <module>
+        File "/tmp/pip-req-build-o7ivka3x/setup.py", line 4, in <module>
+          from wikiextractor.WikiExtractor import __version__
+        File "/tmp/pip-req-build-o7ivka3x/wikiextractor/WikiExtractor.py", line 66, in <module>
+          from .extract import Extractor, ignoreTag, define_template, acceptedNamespaces
+        File "/tmp/pip-req-build-o7ivka3x/wikiextractor/extract.py", line 382, in <module>
+          ExtLinkBracketedRegex = re.compile(
+                                  ^^^^^^^^^^^
+        File "/usr/lib/python3.11/re/__init__.py", line 227, in compile
+          return _compile(pattern, flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/lib/python3.11/re/__init__.py", line 294, in _compile
+          p = _compiler.compile(pattern, flags)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/lib/python3.11/re/_compiler.py", line 743, in compile
+          p = _parser.parse(p, flags)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/lib/python3.11/re/_parser.py", line 980, in parse
+          p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/lib/python3.11/re/_parser.py", line 455, in _parse_sub
+          itemsappend(_parse(source, state, verbose, nested + 1,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/lib/python3.11/re/_parser.py", line 863, in _parse
+          p = _parse_sub(source, state, sub_verbose, nested + 1)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/lib/python3.11/re/_parser.py", line 455, in _parse_sub
+          itemsappend(_parse(source, state, verbose, nested + 1,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/lib/python3.11/re/_parser.py", line 863, in _parse
+          p = _parse_sub(source, state, sub_verbose, nested + 1)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/lib/python3.11/re/_parser.py", line 455, in _parse_sub
+          itemsappend(_parse(source, state, verbose, nested + 1,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/lib/python3.11/re/_parser.py", line 841, in _parse
+          raise source.error('global flags not at the start '
+      re.error: global flags not at the start of the expression at position 4
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
