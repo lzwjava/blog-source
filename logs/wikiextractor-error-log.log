@@ -1,0 +1,45 @@
+lzw@to:~/projects/wiki_train/wikipedia_test_5files_parallel$ wikiextractor *.bz2
+Traceback (most recent call last):
+<unknown>:3: SyntaxWarning: invalid escape sequence '\['
+<unknown>:2: SyntaxWarning: invalid escape sequence '\['
+  File "/home/lzw/.local/bin/wikiextractor", line 3, in <module>
+    from wikiextractor.WikiExtractor import main
+  File "/home/lzw/.local/lib/python3.13/site-packages/wikiextractor/WikiExtractor.py", line 66, in <module>
+    from .extract import Extractor, ignoreTag, define_template, acceptedNamespaces
+  File "/home/lzw/.local/lib/python3.13/site-packages/wikiextractor/extract.py", line 378, in <module>
+    ExtLinkBracketedRegex = re.compile(
+        '\[(((?i)' + '|'.join(wgUrlProtocols) + ')' + EXT_LINK_URL_CLASS + r'+)\s*([^\]\x00-\x08\x0a-\x1F]*?)\]',
+        re.S | re.U)
+  File "/usr/lib/python3.13/re/__init__.py", line 289, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.13/re/__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "/usr/lib/python3.13/re/_compiler.py", line 748, in compile
+    p = _parser.parse(p, flags)
+  File "/usr/lib/python3.13/re/_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.13/re/_parser.py", line 459, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/re/_parser.py", line 863, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.13/re/_parser.py", line 459, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/re/_parser.py", line 863, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.13/re/_parser.py", line 459, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/re/_parser.py", line 841, in _parse
+    raise source.error('global flags not at the start '
+                       'of the expression',
+                       source.tell() - start)
+re.PatternError: global flags not at the start of the expression at position 4
+lzw@to:~/projects/wiki_train/wikipedia_test_5files_parallel$ 
