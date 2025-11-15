@@ -1,0 +1,111 @@
+$ python data/openwebtext_10k/prepare.py 
+HTTP_PROXY: http://127.0.0.1:7890
+HTTPS_PROXY: http://127.0.0.1:7890
+'(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')), '(Request ID: 33bd3e07-39ed-42f7-9049-652d3d5f51fe)')' thrown while requesting HEAD https://huggingface.co/datasets/openwebtext/resolve/main/README.md
+Retrying in 1s [Retry 1/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')), '(Request ID: af7d8908-1d4e-4b74-8a63-06d02b4b423e)')' thrown while requesting HEAD https://huggingface.co/datasets/openwebtext/resolve/main/README.md
+Retrying in 2s [Retry 2/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')), '(Request ID: 3a9019f7-b9d4-496b-a7de-af0eef080583)')' thrown while requesting HEAD https://huggingface.co/datasets/openwebtext/resolve/main/README.md
+Retrying in 4s [Retry 3/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')), '(Request ID: 19a505b9-0b29-470f-bb17-c70e6f79be0b)')' thrown while requesting HEAD https://huggingface.co/datasets/openwebtext/resolve/main/README.md
+Retrying in 8s [Retry 4/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')), '(Request ID: 7c77c610-7255-4b50-a22a-3cca11721a9c)')' thrown while requesting HEAD https://huggingface.co/datasets/openwebtext/resolve/main/README.md
+Retrying in 8s [Retry 5/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')), '(Request ID: 9f1864ec-37bf-4a24-a69b-71bd20f60335)')' thrown while requesting HEAD https://huggingface.co/datasets/openwebtext/resolve/main/README.md
+Using the latest cached version of the module from /home/lzw/.cache/huggingface/modules/datasets_modules/datasets/openwebtext/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521 (last modified on Sun Nov 16 00:52:14 2025) since it couldn't be found locally at openwebtext, or remotely on the Hugging Face Hub.
+No config specified, defaulting to the single config: openwebtext/plain_text
+Loading Dataset Infos from /home/lzw/.cache/huggingface/modules/datasets_modules/datasets/openwebtext/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521
+Generating dataset openwebtext (/home/lzw/.cache/huggingface/datasets/openwebtext/plain_text/1.0.0/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521)
+Downloading and preparing dataset openwebtext/plain_text to /home/lzw/.cache/huggingface/datasets/openwebtext/plain_text/1.0.0/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521...
+Downloading data:   0%|                                                                              | 0/21 [00:00<?, ?files/s]
+Traceback (most recent call last):
+  File "/home/lzw/projects/nanoGPT/data/openwebtext_10k/prepare.py", line 29, in <module>
+    dataset = load_dataset("openwebtext", split="train[:10000]")
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/load.py", line 2084, in load_dataset
+    builder_instance.download_and_prepare(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        download_config=download_config,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/builder.py", line 925, in download_and_prepare
+    self._download_and_prepare(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dl_manager=dl_manager,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        **download_and_prepare_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/builder.py", line 1649, in _download_and_prepare
+    super()._download_and_prepare(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dl_manager,
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        **prepare_splits_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/builder.py", line 979, in _download_and_prepare
+    split_generators = self._split_generators(dl_manager, **split_generators_kwargs)
+  File "/home/lzw/.cache/huggingface/modules/datasets_modules/datasets/openwebtext/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521/openwebtext.py", line 59, in _split_generators
+    archives = dl_manager.download(_DATA_FILES)
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/download/download_manager.py", line 159, in download
+    downloaded_path_or_paths = map_nested(
+        download_func,
+    ...<5 lines>...
+        batch_size=-1,
+    )
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/utils/py_utils.py", line 522, in map_nested
+    _single_map_nested((function, obj, batched, batch_size, types, None, True, None))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/utils/py_utils.py", line 390, in _single_map_nested
+    return [mapped_item for batch in iter_batched(data_struct, batch_size) for mapped_item in function(batch)]
+                                                                                              ~~~~~~~~^^^^^^^
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/download/download_manager.py", line 206, in _download_batched
+    return thread_map(
+        download_func,
+    ...<8 lines>...
+        tqdm_class=tqdm,
+    )
+  File "/home/lzw/.local/lib/python3.13/site-packages/tqdm/contrib/concurrent.py", line 69, in thread_map
+    return _executor_map(ThreadPoolExecutor, fn, *iterables, **tqdm_kwargs)
+  File "/home/lzw/.local/lib/python3.13/site-packages/tqdm/contrib/concurrent.py", line 51, in _executor_map
+    return list(tqdm_class(ex.map(fn, *iterables, chunksize=chunksize), **kwargs))
+  File "/home/lzw/.local/lib/python3.13/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+               ^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/download/download_manager.py", line 229, in _download_single
+    out = cached_path(url_or_filename, download_config=download_config)
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/utils/file_utils.py", line 230, in cached_path
+    raise FileNotFoundError(f"Local file {url_or_filename} doesn't exist")
+FileNotFoundError: Local file /home/lzw/projects/nanoGPT/subsets/urlsf_subset00.tar doesn't exist
+lzw@to:~/projects/nanoGPT$ export HF_HUB_DISABLE_XETHUB=0
+lzw@to:~/projects/nanoGPT$ python data/openwebtext_10k/prepare.py 
+HTTP_PROXY: http://127.0.0.1:7890
+HTTPS_PROXY: http://127.0.0.1:7890
+'(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')), '(Request ID: 1aa20529-4da1-4484-b46a-da549860476e)')' thrown while requesting HEAD https://huggingface.co/datasets/openwebtext/resolve/main/README.md
+Retrying in 1s [Retry 1/5].
+No config specified, defaulting to the single config: openwebtext/plain_text
+Loading Dataset Infos from /home/lzw/.cache/huggingface/modules/datasets_modules/datasets/openwebtext/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521
+Generating dataset openwebtext (/home/lzw/.cache/huggingface/datasets/openwebtext/plain_text/1.0.0/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521)
+Downloading and preparing dataset openwebtext/plain_text to /home/lzw/.cache/huggingface/datasets/openwebtext/plain_text/1.0.0/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521...
+
