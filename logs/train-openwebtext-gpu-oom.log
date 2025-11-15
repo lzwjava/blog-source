@@ -1,0 +1,96 @@
+$ python train.py config/train_openwebtext.py 
+Overriding config with config/train_openwebtext.py:
+# train on openwebtext dataset
+# uses data prepared by data/openwebtext_local/prepare.py
+
+out_dir = 'out-openwebtext'
+eval_interval = 500 # evaluate less frequently on larger dataset
+eval_iters = 200
+log_interval = 100 # don't print too often
+
+# save checkpoint when val improves
+always_save_checkpoint = False
+
+wandb_log = False # override via command line if you like
+wandb_project = 'openwebtext'
+wandb_run_name = 'nano-gpt'
+
+dataset = 'openwebtext_local'
+gradient_accumulation_steps = 1
+batch_size = 64
+block_size = 1024 # longer context for token-based model
+
+# GPT model for openwebtext
+n_layer = 12
+n_head = 12
+n_embd = 768
+dropout = 0.0
+
+learning_rate = 3e-4 # standard for GPT models
+max_iters = 20000
+lr_decay_iters = 20000 # make equal to max_iters usually
+min_lr = 3e-5 # learning_rate / 10 usually
+beta2 = 0.99 # standard for GPT models
+
+warmup_iters = 2000 # more important for larger models
+
+# on macbook also add
+# device = 'cpu'  # run on cpu only
+# compile = False # do not torch compile the model
+
+tokens per iteration will be: 65,536
+Initializing a new model from scratch
+defaulting to vocab_size of GPT-2 to 50304 (50257 rounded up for efficiency)
+number of parameters: 123.59M
+/home/lzw/projects/nanoGPT/train.py:196: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+num decayed parameter tensors: 50, with 124,354,560 parameters
+num non-decayed parameter tensors: 25, with 19,200 parameters
+using fused AdamW: True
+compiling the model... (takes a ~minute)
+W1116 02:23:01.173000 1184766 torch/_inductor/utils.py:1250] [0/0] Not enough SMs to use max_autotune_gemm mode
+Traceback (most recent call last):
+  File "/home/lzw/projects/nanoGPT/train.py", line 264, in <module>
+    losses = estimate_loss()
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/lzw/projects/nanoGPT/train.py", line 224, in estimate_loss
+    logits, loss = model(X, Y)
+                   ~~~~~^^^^^^
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/_dynamo/eval_frame.py", line 655, in _fn
+    return fn(*args, **kwargs)
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/lzw/projects/nanoGPT/model.py", line 170, in forward
+    def forward(self, idx, targets=None):
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/_functorch/aot_autograd.py", line 1209, in forward
+    return compiled_fn(full_args)
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 328, in runtime_wrapper
+    all_outs = call_func_at_runtime_with_args(
+        compiled_fn, args, disable_amp=disable_amp, steal_args=True
+    )
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/_functorch/_aot_autograd/utils.py", line 126, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+                            ~^^^^^^
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 689, in inner_fn
+    outs = compiled_fn(args)
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 495, in wrapper
+    return compiled_fn(runtime_args)
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/_inductor/output_code.py", line 460, in __call__
+    return self.current_callable(inputs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/lzw/.local/lib/python3.13/site-packages/torch/_inductor/utils.py", line 2404, in run
+    return model(new_inputs)
+  File "/tmp/torchinductor_lzw/7n/c7nbxzdy36lc24rtqlywtoih7djx7rynlhz7yaj6u4ymrxsynme2.py", line 1927, in call
+    buf287 = empty_strided_cuda((65536, 50304), (50304, 1), torch.bfloat16)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 6.14 GiB. GPU 0 has a total capacity of 11.69 GiB of which 2.68 GiB is free. Process 1095667 has 224.90 MiB memory in use. Including non-PyTorch memory, this process has 7.04 GiB memory in use. Of the allocated memory 6.78 GiB is allocated by PyTorch, and 69.11 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
