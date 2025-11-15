@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Random Terminal Position Script
-Opens a terminal at a random position on the screen for better multitasking
+Opens a terminal at a random horizontal position with 50% width and full height
 """
 
 import subprocess
@@ -23,21 +23,13 @@ def get_screen_resolution():
     return 1920, 1080  # Default fallback
 
 def generate_random_dimensions(screen_width, screen_height):
-    """Generate random terminal dimensions with full height"""
+    """Generate random terminal dimensions with 50% width and full height"""
     # Estimate maximum characters based on screen size
     # Assuming 8px character width and accounting for borders
     max_chars_width = (screen_width - 40) // 8
 
-    # Generate random width between 40% and 80% of max width
-    min_width = max(40, max_chars_width // 5 * 2)  # 40% of max
-    max_width = max_chars_width // 5 * 4  # 80% of max
-
-    # Ensure minimum reasonable width
-    min_width = max(min_width, 60)
-    max_width = max(max_width, min_width + 20)
-
-    # Generate random width
-    term_width = random.randint(min_width, max_width)
+    # Set width to exactly 50% of max width
+    term_width = max(60, max_chars_width // 2)
 
     # Use full height (estimate lines based on screen height, minus borders)
     char_height_px = 16  # pixels per line
@@ -47,18 +39,17 @@ def generate_random_dimensions(screen_width, screen_height):
     return term_width, term_height
 
 def generate_random_position(screen_width, screen_height, term_width_px, term_height_px):
-    """Generate random position for terminal window"""
-    # Reserve some space for window borders/title bar (approx 30 pixels)
-    effective_height = screen_height - 50
+    """Generate random position for terminal window with full height"""
+    # Since height is 100% of max, position should be at top
+    # Only randomize horizontal position (x coordinate)
     effective_width = screen_width - 20
 
     # Ensure terminal fits within screen bounds
     max_x = max(0, effective_width - term_width_px)
-    max_y = max(0, effective_height - term_height_px)
 
-    # Generate random position
+    # Generate random horizontal position, fix y at top (0)
     x = random.randint(0, max_x)
-    y = random.randint(0, max_y)
+    y = 0  # Top of screen
 
     return x, y
 
