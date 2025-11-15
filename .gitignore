@@ -43,3 +43,4 @@ wget-log*
 .bundle
 wiki_train
 mediawiki-dump
+wikipedia_test_dump
