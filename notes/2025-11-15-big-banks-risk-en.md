@@ -4,7 +4,7 @@ generated: true
 image: false
 lang: en
 layout: post
-model: x-ai/grok-4-fast
+model: openai/gpt-5
 title: Why Big Banks Avoid Risk
 translated: false
 type: note
