@@ -1,0 +1,39 @@
+python data/fineweb/prepare.py 
+HTTP_PROXY: http://127.0.0.1:7890
+HTTPS_PROXY: http://127.0.0.1:7890
+Reading from local file: /home/lzw/projects/nanoGPT/data/fineweb/train_fineweb.txt
+Created 17948502 documents from the text file
+Spawning 8 processes
+tokenizing the splits (num_proc=8):   0%|                                                 | 0/17939527 [00:15<?, ? examples/s]
+Traceback (most recent call last):
+  File "/home/lzw/projects/nanoGPT/data/fineweb/prepare.py", line 82, in <module>
+        desc="tokenizing the splits",
+                ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    for split, dset in tokenized.items():
+    ^
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/dataset_dict.py", line 944, in map
+    dataset_dict[split] = dataset.map(
+                          ~~~~~~~~~~~^
+        function=function,
+        ^^^^^^^^^^^^^^^^^^
+    ...<16 lines>...
+        try_original_type=try_original_type,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/arrow_dataset.py", line 557, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+                                           ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/arrow_dataset.py", line 3171, in map
+    for rank, done, content in iflatmap_unordered(
+                               ~~~~~~~~~~~~~~~~~~^
+        pool, Dataset._map_single, kwargs_iterable=kwargs_per_job
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "/home/lzw/.local/lib/python3.13/site-packages/datasets/utils/py_utils.py", line 721, in iflatmap_unordered
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: One of the subprocesses has abruptly died during map operation.To debug the error, disable multiprocessing.
