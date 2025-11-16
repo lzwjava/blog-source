@@ -44,5 +44,6 @@ wget-log*
 wiki_train
 mediawiki-dump
 wikipedia_test_dump
+fineweb_test_dump
 scripts/train/*.pdf
 scripts/train/*.png
