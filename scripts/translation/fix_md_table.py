@@ -4,6 +4,7 @@
 import re
 import os
 import sys
+import argparse
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
@@ -65,8 +66,23 @@ def fix_markdown_table_formatting(file_path, dry_run=False):
     return len(fixes), fixes
 
 
-def main():
-    """Main function to find and fix all markdown table formatting issues."""
+def main(auto_yes=False):
+    """Main function to find and fix all markdown table formatting issues.
+
+    Args:
+        auto_yes: If True, automatically apply fixes without confirmation
+    """
+    # Parse command-line arguments
+    parser = argparse.ArgumentParser(description='Fix markdown table formatting issues')
+    parser.add_argument('-y', '--yes', action='store_true', dest='auto_yes',
+                        help='Automatically apply fixes without confirmation')
+    parser.add_argument('args', nargs=argparse.REMAINDER)
+
+    args = parser.parse_args()
+
+    # Combine auto_yes parameter and --yes flag (parameter takes precedence)
+    should_auto_yes = auto_yes or args.auto_yes
+
     print("Scanning for markdown table formatting issues...\n")
 
     # Get all table issues from the test function
@@ -98,11 +114,14 @@ def main():
     print(f"Total: {total_fixes} fix(es) needed in {len(files_to_fix)} file(s)")
     print(f"{'='*60}\n")
 
-    # Ask for confirmation before applying fixes
-    response = input("Apply these fixes? (y/n): ").strip().lower()
-    if response != 'y':
-        print("Aborted.")
-        return 0
+    # Ask for confirmation before applying fixes (unless auto_yes is True)
+    if should_auto_yes:
+        print("Applying fixes automatically (--yes flag set)...\n")
+    else:
+        response = input("Apply these fixes? (y/n): ").strip().lower()
+        if response != 'y':
+            print("Aborted.")
+            return 0
 
     # Apply fixes
     print("\nApplying fixes...\n")
@@ -129,4 +148,4 @@ def main():
 
 
 if __name__ == '__main__':
-    exit(main())
+    exit(main(auto_yes=False))
