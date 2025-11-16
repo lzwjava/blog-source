@@ -77,7 +77,20 @@ jobs:
               echo "Push failed, attempting pull and merge"
               git pull --rebase
               git push
-          }      
+          }
+
+      - name: Fix MD Table
+        run: |
+          python ./scripts/translation/fix_md_table.py -y
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _posts/
+          git diff --cached --quiet || git commit -m "chore(tables): Fix markdown tables"
+          git push || {
+            echo "Push failed, attempting pull and merge"
+            git pull --rebase
+            git push
+          }
 
       - name: Run Unit Tests
         run: python -m unittest discover -s tests/workflow
