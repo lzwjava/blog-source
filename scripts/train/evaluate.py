@@ -52,7 +52,7 @@ def create_visualizations(step_data, iter_data):
 
     # Create subplots
     fig, axes = plt.subplots(2, 2, figsize=(15, 10))
-    fig.suptitle('nanoGPT Training Metrics - enwiki-latest-pages-articles1 - RTX 4070', fontsize=16, fontweight='bold')
+    fig.suptitle('nanoGPT Training Metrics - Fineweb - RTX 4070', fontsize=16, fontweight='bold')
 
     # Plot 1: Training and Validation Loss over Steps
     if step_data:
@@ -139,7 +139,7 @@ def print_statistics(step_data, iter_data):
 
 def main():
     # File paths
-    log_file = Path(__file__).parent / "evaluate.txt"
+    log_file = Path(__file__).parent / "train_log_openweb.txt"
 
     if not log_file.exists():
         print(f"Error: Log file {log_file} not found!")
