@@ -3,6 +3,7 @@
 import re
 import matplotlib.pyplot as plt
 import numpy as np
+import argparse
 from pathlib import Path
 
 def parse_training_log(log_file_path):
@@ -138,8 +139,16 @@ def print_statistics(step_data, iter_data):
             print(f"Average MFU: {avg_mfu:.1f}%")
 
 def main():
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Parse and visualize nanoGPT training logs')
+    parser.add_argument('--file', '-f', type=str, help='Path to training log file')
+    args = parser.parse_args()
+
     # File paths
-    log_file = Path(__file__).parent / "train_log_openweb.txt"
+    if args.file:
+        log_file = Path(args.file)
+    else:
+        log_file = Path(__file__).parent / "train_log_openweb.txt"
 
     if not log_file.exists():
         print(f"Error: Log file {log_file} not found!")
