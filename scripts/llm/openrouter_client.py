@@ -12,7 +12,7 @@ MODEL_MAPPING = {
     "claude-opus": "anthropic/claude-opus-4",
     "claude-sonnet": "anthropic/claude-4.5-sonnet",
     "gemini-flash": "google/gemini-2.5-flash",
-    "gemini-pro": "google/gemini-2.5-pro",
+    "gemini-pro": "google/gemini-3-pro-preview",
     "kimi-k2": "moonshotai/kimi-k2",
     "deepseek-v3.2": "deepseek/deepseek-v3.2-exp",
     "mistral-medium": "mistralai/mistral-medium-3.1",
