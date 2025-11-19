@@ -25,6 +25,7 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 
 | Course Code | Course Name | Exam Date | Pass Method | Score | Credits | Status |  
 |------------|-------------|-----------|-------------|--------|---------|---------|
+| 15042 | Ideological and Moral Cultivation and Rule of Law | 202510 | Exam | 69 | 3 | Valid
 | 00040 | Introduction to Law | 202504 | Exam | 60 | 3 | Valid |
 | 02318 | Computer Organization and Architecture | 202504 | Exam | 66 | 4 | Valid |
 | 02323 | Operating Systems Fundamentals | 202304 | Exam | 67 | 4 | Valid |
@@ -34,6 +35,7 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 | 00342 | Advanced Programming Language (I) | 202210 | Exam | 75 | 3 | Valid |
 | 00022 | Advanced Mathematics (Engineering) | 202404 | Exam | 77 | 7 | Valid |
 | 00012 | English (I) | 202210 | Exam | 80 | 7 | Valid |
+
 
 
 ## 2024.04
