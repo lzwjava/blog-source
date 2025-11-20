@@ -17,8 +17,8 @@ Below is my assoiciate progress.
 
 Guangdong University of Foreign Studies，Computer Application, Associate Degree, 2022.10 - Present
 
-- National Higher Education Self-study Examination. Passed 9 courses as of today, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law and Computer Organization and Architecture.
-- Currently preparing for 7 courses such as Computer Networks, Basic Electronic Technology (III), Microcomputer and Interface Technology, Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, Ideological and Moral Cultivation and Rule of Law, College Chinese and Linear Algebra.
+- National Higher Education Self-study Examination. Passed 10 courses as of today, Introduction to Operating Systems, Introduction to Data Structures, Advanced Language Programming (I), English (I), Advanced Mathematics, Database and Applications, Computer Application Technology, Introduction to Law and Computer Organization and Architecture.
+- Currently preparing for 7 courses such as Computer Networks, Introduction to Programming—Java, Web Design and Production, Mobile Application Development Technology , Mao Zedong Thought and Theory of Socialism with Chinese Characteristics, College Chinese and Linear Algebra.
 
 I am unhappy about my progress. It is slow. The reason is that I mainly prepare it for one year until now. 
 
@@ -26,6 +26,7 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 
 | Course Code | Course Name | Exam Date | Pass Method | Score | Credits | Status |  
 |------------|-------------|-----------|-------------|--------|---------|---------|
+| 15042 | Ideological and Moral Cultivation and Rule of Law | 202510 | Exam | 69 | 3 | Valid |
 | 00040 | Introduction to Law | 202504 | Exam | 60 | 3 | Valid |
 | 02318 | Computer Organization and Architecture | 202504 | Exam | 66 | 4 | Valid |
 | 02323 | Operating Systems Fundamentals | 202304 | Exam | 67 | 4 | Valid |
@@ -35,6 +36,7 @@ I am unhappy about my progress. It is slow. The reason is that I mainly prepare 
 | 00342 | Advanced Programming Language (I) | 202210 | Exam | 75 | 3 | Valid |
 | 00022 | Advanced Mathematics (Engineering) | 202404 | Exam | 77 | 7 | Valid |
 | 00012 | English (I) | 202210 | Exam | 80 | 7 | Valid |
+
 
 
 ## 2024.04
