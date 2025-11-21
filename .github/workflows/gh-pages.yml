@@ -2,7 +2,7 @@ name: Deploy Jekyll
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 22 * * *'
   workflow_dispatch:
   # push:
   #   branches: ["main"]
