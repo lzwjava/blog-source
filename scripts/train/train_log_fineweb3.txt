@@ -134,3 +134,11 @@ step 10000: train loss 3.3852, val loss 3.3581
 saving checkpoint to out-fineweb
 iter 10000: loss 3.2899, time 29202.67ms, mfu 12.79%
 iter 10200: loss 3.4035, time 9402.66ms, mfu 13.04%
+iter 10400: loss 3.3202, time 9378.92ms, mfu 13.27%
+step 10500: train loss 3.3717, val loss 3.3339
+saving checkpoint to out-fineweb
+iter 10600: loss 3.3535, time 9352.21ms, mfu 13.47%
+iter 10800: loss 3.0892, time 9356.58ms, mfu 13.66%
+step 11000: train loss 3.3790, val loss 3.3366
+saving checkpoint to out-fineweb
+iter 11000: loss 3.2618, time 30606.59ms, mfu 12.77%
