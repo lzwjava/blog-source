@@ -1,4 +1,4 @@
-$ python train.py config/train_fineweb.py 
+=$ python train.py config/train_fineweb.py 
 Overriding config with config/train_fineweb.py:
 out_dir = 'out-fineweb'
 eval_interval = 500       # Evaluate more often on small data
@@ -80,3 +80,34 @@ step 4000: train loss 3.6270, val loss 3.5957
 saving checkpoint to out-fineweb
 iter 4000: loss 3.6054, time 29160.76ms, mfu 13.13%
 iter 4200: loss 3.7042, time 9347.75ms, mfu 13.35%
+iter 4400: loss 3.8140, time 9345.66ms, mfu 13.55%
+step 4500: train loss 3.5952, val loss 3.5599
+saving checkpoint to out-fineweb
+iter 4600: loss 3.5297, time 9349.28ms, mfu 13.73%
+iter 4800: loss 3.5119, time 9349.00ms, mfu 13.90%
+step 5000: train loss 3.5667, val loss 3.4873
+saving checkpoint to out-fineweb
+iter 5000: loss 3.5075, time 29193.39ms, mfu 13.00%
+iter 5200: loss 3.9663, time 9351.09ms, mfu 13.23%
+iter 5400: loss 3.6010, time 9349.13ms, mfu 13.45%
+step 5500: train loss 3.5283, val loss 3.4705
+saving checkpoint to out-fineweb
+iter 5600: loss 3.5342, time 9349.78ms, mfu 13.64%
+iter 5800: loss 3.4533, time 9353.24ms, mfu 13.81%
+step 6000: train loss 3.5134, val loss 3.4676
+saving checkpoint to out-fineweb
+iter 6000: loss 3.4520, time 29190.70ms, mfu 12.92%
+iter 6200: loss 3.4927, time 9346.22ms, mfu 13.17%
+iter 6400: loss 3.4445, time 9347.41ms, mfu 13.39%
+step 6500: train loss 3.4863, val loss 3.4414
+saving checkpoint to out-fineweb
+iter 6600: loss 3.2797, time 9348.36ms, mfu 13.58%
+iter 6800: loss 3.4814, time 9353.40ms, mfu 13.76%
+step 7000: train loss 3.4679, val loss 3.4243
+saving checkpoint to out-fineweb
+iter 7000: loss 3.5679, time 29197.59ms, mfu 12.88%
+iter 7200: loss 3.4975, time 9347.54ms, mfu 13.13%
+iter 7400: loss 3.3723, time 9349.65ms, mfu 13.35%
+step 7500: train loss 3.4431, val loss 3.3857
+saving checkpoint to out-fineweb
+iter 7600: loss 3.6006, time 10068.68ms, mfu 13.44%
