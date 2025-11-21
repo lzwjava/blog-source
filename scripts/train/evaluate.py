@@ -103,6 +103,12 @@ def create_visualizations(step_data, iter_data):
         axes[1, 1].grid(True, alpha=0.3)
 
     plt.tight_layout()
+
+    # Only show plot if not in headless environment
+    import os
+    if os.environ.get('DISPLAY') is not None and os.environ.get('DISPLAY') != '':
+        plt.show()
+
     return fig
 
 def print_statistics(step_data, iter_data):
