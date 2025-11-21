@@ -19,8 +19,8 @@ def create_note_from_content(content, custom_title=None, directory="notes", date
     if not content or not content.strip():
         print("Content is empty or invalid. Aborting.")
         sys.exit(1)
-    if len(content.strip()) < 300:
-        print("Content is less than 300 characters. Aborting.")
+    if len(content.strip()) < 200:
+        print("Content is less than 200 characters. Aborting.")
         sys.exit(1)
     if not note_model_key:
         raise ValueError("--note-model is required (no default). Choose a key from openrouter_client.MODEL_MAPPING.")
@@ -69,7 +69,6 @@ def create_note(date=None, note_model_key: str | None = None):
     # Check for duplicate notes first
     if check_duplicate_notes():
         raise ValueError("Duplicate note found. Aborting note creation.")
-
     # Get and validate clipboard content
     content = get_clipboard_content()
     # Return the created file path so callers can post-process the file.
