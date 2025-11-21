@@ -157,7 +157,9 @@ if __name__ == "__main__":
     # Fix MathJax before invoking GPT-assisted git add/commit (unless --without-math is specified)
     if not args.without_math and created_path and os.path.exists(created_path):
         try:
-            fix_mathjax_in_file(created_path)
+            # Check if model contains "gemini" and pass gemini=True if so
+            is_gemini_model = "gemini" in args.model.lower()
+            fix_mathjax_in_file(created_path, gemini=is_gemini_model)
             process_tables_in_file(created_path, fix_tables=True)
         except Exception as e:
             print(f"[warn] MathJax fix failed for {created_path}: {e}")
