@@ -13,10 +13,13 @@ INPUT_DIR = "original"
 INPUT_DIR_NOTES = "notes"
 MAX_THREADS = 10
 
+# Configurable language lists
+TARGET_LANGUAGES = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
+ORIGINAL_LANGUAGES = ["en", "zh", "ja"]
+
 
 def get_output_filename(filename, target_lang):
-    orig_langs = ["en", "zh", "ja"]
-    for orig in orig_langs:
+    for orig in ORIGINAL_LANGUAGES:
         suffix = f"-{orig}.md"
         if filename.endswith(suffix):
             return filename.replace(suffix, f"-{target_lang}.md")
@@ -58,7 +61,7 @@ def get_recent_files(n, input_dir=INPUT_DIR):
 
 def get_changed_files(commits=10):
     changed_files = set()
-    languages = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
+    languages = TARGET_LANGUAGES
     
     # Get files changed in the original directory from the last N commits
     print(f"Checking for changes in original directory from last {commits} commits...")
@@ -115,7 +118,7 @@ def get_changed_files(commits=10):
             
         # Extract orig_lang from filename
         orig_lang = None
-        for possible in ["en", "zh", "ja"]:
+        for possible in ORIGINAL_LANGUAGES:
             if filename.endswith(f"-{possible}.md"):
                 orig_lang = possible
                 break
@@ -244,7 +247,7 @@ def main():
     n_recent = args.n
 
     if target_language == "all":
-        languages = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
+        languages = TARGET_LANGUAGES
     else:
         languages = [target_language]
 
@@ -262,7 +265,7 @@ def main():
             for input_file in recent_files:
                 orig_lang = None
                 filename = os.path.basename(input_file)
-                for possible in ["en", "zh", "ja"]:
+                for possible in ORIGINAL_LANGUAGES:
                     if filename.endswith(f"-{possible}.md"):
                         orig_lang = possible
                         break
@@ -303,7 +306,7 @@ def main():
             # Get the original language from the filename
             orig_lang = None
             filename_base = os.path.basename(filename)
-            for possible in ["en", "zh", "ja"]:
+            for possible in ORIGINAL_LANGUAGES:
                 if filename_base.endswith(f"-{possible}.md"):
                     orig_lang = possible
                     break
