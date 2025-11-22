@@ -9,7 +9,7 @@ if not OPENROUTER_API_KEY:
 
 
 MODEL_MAPPING = {
-    "claude-opus": "anthropic/claude-opus-4",
+    "claude-opus": "anthropic/claude-opus-4.1",
     "claude-sonnet": "anthropic/claude-4.5-sonnet",
     "gemini-flash": "google/gemini-2.5-flash",
     "gemini-pro": "google/gemini-3-pro-preview",
