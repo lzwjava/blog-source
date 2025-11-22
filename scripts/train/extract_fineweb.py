@@ -46,7 +46,7 @@ try:
                             break
 
                     if text_content and text_content.strip():
-                        f.write(text_content + "\n")
+                        f.write(text_content.strip() + "\n\n<|endoftext|><|endoftext|><|endoftext|>\n\n")
 
                     total_rows_processed += 1
 
