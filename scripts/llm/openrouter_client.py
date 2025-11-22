@@ -17,11 +17,11 @@ MODEL_MAPPING = {
     "deepseek-v3.2": "deepseek/deepseek-v3.2-exp",
     "mistral-medium": "mistralai/mistral-medium-3.1",
     "qwen-coder":"qwen/qwen3-coder",
-    "gpt": "openai/gpt-5.1",
+    "gpt-5.1": "openai/gpt-5.1",
     "grok-code": "x-ai/grok-code-fast-1",
     "grok-fast": "x-ai/grok-4.1-fast",
-    "glm": "z-ai/glm-4.6",
-    "minimax": "minimax/minimax-m2",
+    "glm-4.6": "z-ai/glm-4.6",
+    "minimax-m2": "minimax/minimax-m2",
     "kimi-k2-thinking": "moonshotai/kimi-k2-thinking"
 }
 
