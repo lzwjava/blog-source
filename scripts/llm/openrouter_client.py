@@ -21,7 +21,7 @@ MODEL_MAPPING = {
     "grok-code": "x-ai/grok-code-fast-1",
     "grok-fast": "x-ai/grok-4.1-fast",
     "glm": "z-ai/glm-4.6",
-    "minimax": "minimax/minimax-m2:free",
+    "minimax": "minimax/minimax-m2",
     "kimi-k2-thinking": "moonshotai/kimi-k2-thinking"
 }
 
