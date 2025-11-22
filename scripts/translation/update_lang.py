@@ -14,8 +14,10 @@ INPUT_DIR_NOTES = "notes"
 MAX_THREADS = 10
 
 # Configurable language lists
-TARGET_LANGUAGES = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
-ORIGINAL_LANGUAGES = ["en", "zh", "ja"]
+# TARGET_LANGUAGES = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
+TARGET_LANGUAGES = ["zh"]
+
+ORIGINAL_LANGUAGES = ["en", "zh"]
 
 
 def get_output_filename(filename, target_lang):
