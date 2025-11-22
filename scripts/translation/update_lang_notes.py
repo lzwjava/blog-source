@@ -10,6 +10,11 @@ load_dotenv()
 INPUT_DIR = "notes"
 MAX_THREADS = 10
 
+# Target languages for translation
+TARGET_LANGUAGES = ["zh", "en"]
+
+# TARGET_LANGUAGES = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
+
 
 def get_output_filename(filename, target_lang):
     orig_langs = ["en", "zh", "ja"]
@@ -94,7 +99,7 @@ def main():
     n = args.n
 
     if target_language == "all":
-        languages = ["ja", "es", "hi", "zh", "en", "fr", "de", "ar", "hant"]
+        languages = TARGET_LANGUAGES
     else:
         languages = [target_language]
 
